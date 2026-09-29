@@ -20,11 +20,11 @@
 
 Zapier connects more apps than anything else in this directory, and most teams never need to leave it. The teams that search for alternatives usually share one of two complaints. Task metering counts every step and every external connector call, so a twenty step workflow consumes roughly twenty tasks per run and multi-step automations get expensive quickly. Or they need branching logic, self-hosting, or real code inside a step, none of which the linear editor is built for.
 
-The free plan shows the shape of the pricing: 100 tasks a month, two-step Zaps only, no premium apps, and 15-minute polling. Professional starts at $19.99 per month billed annually at the 750 task tier, and Zapier&#x27;s AI agents are metered separately in activities rather than tasks.
+The free plan shows the shape of the pricing: 100 tasks a month, two-step Zaps only, no premium apps, and 15-minute polling. Professional starts at $19.99 per month billed annually at the 750 task tier, and Zapier's AI agents are metered separately in activities rather than tasks.
 
-Before you move, list the apps each workflow touches and confirm the replacement covers the niche ones: tools without an n8n node or a Make module usually have a Zapier integration, not the reverse. Then recount every workflow step by step, because tasks, credits, and compute time are different meters and a lower sticker price can hide a larger bill. As everywhere on this site, the figures come from vendors&#x27; published material and we hold no account with any of these services.
+Before you move, list the apps each workflow touches and confirm the replacement covers the niche ones: tools without an n8n node or a Make module usually have a Zapier integration, not the reverse. Then recount every workflow step by step, because tasks, credits, and compute time are different meters and a lower sticker price can hide a larger bill. As everywhere on this site, the figures come from vendors' published material and we hold no account with any of these services.
 
-The table below compares all ten on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at. Every number in the price column comes from the vendor&#x27;s own pricing page with its verification date on the tool&#x27;s review page.
+The table below compares all ten on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at. Every number in the price column comes from the vendor's own pricing page with its verification date on the tool's review page.
 
 ## [n8n](/tools/n8n/)
 
@@ -34,7 +34,7 @@ Vendor: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) ·
 
 **Best for:** Marketing operations teams, agencies, and AI-focused organizations that want extensible automation with the option to self-host.
 
-**Not for:** Teams that want the widest possible app catalog with zero infrastructure to manage; n8n&#x27;s library runs to 400+ nodes against Zapier&#x27;s 9,000+ integrations.
+**Not for:** Teams that want the widest possible app catalog with zero infrastructure to manage; n8n's library runs to 400+ nodes against Zapier's 9,000+ integrations.
 
 n8n runs on a fair-code model: self-hosting is free, cloud Starter is $20 per month, Pro is $50, and enterprise pricing is custom. Workflows are graphs with code steps and API access, while Zapier counts every step against a task quota. It deploys in the cloud or on your own infrastructure, and its AI agent nodes can call language models inside a larger process.
 
@@ -48,7 +48,7 @@ Vendor: [Official site](https://www.make.com) · [Pricing](https://www.make.com/
 
 **Not for:** Teams that need self-hosting or unlimited execution; our own catalog points those teams at n8n.
 
-Make draws scenarios as a graph, so routers and error handling are visible rather than buried in configuration, and neither consumes credits. Billing moved to credits in August 2026: Free covers 1,000 credits a month with 2 active scenarios, Core is $9 a month, Pro $16, and Teams $29, each for 10,000 credits with a slider upward. For data-heavy work like CRM syncs and contact enrichment, where one module iterates over many rows, credits cost less than Zapier&#x27;s per-task metering.
+Make draws scenarios as a graph, so routers and error handling are visible rather than buried in configuration, and neither consumes credits. Billing moved to credits in August 2026: Free covers 1,000 credits a month with 2 active scenarios, Core is $9 a month, Pro $16, and Teams $29, each for 10,000 credits with a slider upward. For data-heavy work like CRM syncs and contact enrichment, where one module iterates over many rows, credits cost less than Zapier's per-task metering.
 
 ## [Pipedream](/tools/pipedream/)
 
@@ -60,7 +60,7 @@ Vendor: [Official site](https://pipedream.com) · [Pricing](https://pipedream.co
 
 **Not for:** Marketers who want a purely visual builder; Pipedream is built for people comfortable writing Node.js, Python, or Go.
 
-Pipedream connects over 3,000 APIs and bills in credits rather than tasks: Basic is $29 a month for 2,000 credits and 20 million AI tokens, Advanced $49, and Connect $99, with a free tier of 100 credits a month. Any step can run arbitrary code, which Zapier&#x27;s step model does not allow, and workflows can be deployed as MCP server endpoints that AI coding agents call directly. Advanced adds branching and parallelism controls, premium apps, and GitHub Sync for version-controlled deployment.
+Pipedream connects over 3,000 APIs and bills in credits rather than tasks: Basic is $29 a month for 2,000 credits and 20 million AI tokens, Advanced $49, and Connect $99, with a free tier of 100 credits a month. Any step can run arbitrary code, which Zapier's step model does not allow, and workflows can be deployed as MCP server endpoints that AI coding agents call directly. Advanced adds branching and parallelism controls, premium apps, and GitHub Sync for version-controlled deployment.
 
 ## [Tray.io](/tools/tray-io/)
 
@@ -96,7 +96,7 @@ Vendor: [Official site](https://www.pabbly.com/connect/) · [Pricing](https://ww
 
 **Not for:** Teams that need governance tooling, deep observability, or AI woven into the builder rather than sold as a separate product.
 
-Nearly every ranking competitor lists Pabbly Connect, and the reason is arithmetic: task tiers from $16/month billed yearly and a $349 lifetime license change the total-cost picture for anyone keeping workflows alive for years. The platform layer around those workflows is thinner than the incumbents&#x27;, so the savings come with trade-offs.
+Nearly every ranking competitor lists Pabbly Connect, and the reason is arithmetic: task tiers from $16/month billed yearly and a $349 lifetime license change the total-cost picture for anyone keeping workflows alive for years. The platform layer around those workflows is thinner than the incumbents', so the savings come with trade-offs.
 
 ## [Microsoft Power Automate](/tools/power-automate/)
 

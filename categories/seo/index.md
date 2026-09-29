@@ -1,4 +1,4 @@
-# SEO &amp; Search Tools
+# SEO & Search Tools
 
 OPEN SOURCE / SELF-HOSTED***2*
 
@@ -34,7 +34,7 @@ From $39/moDesk-reviewed
 
 AI SEARCH VISIBILITY***2*
 
-Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers
+Free local tool that measures brand mentions and citations in Claude's web-search answers
 
 Open SourceDesk-reviewedOSS
 
@@ -90,17 +90,17 @@ IF You want to see what AI search says about your brand
 
 [Superlines](/tools/superlines/) [Potato](/tools/potato-ai-visibility/)
 
-Superlines is the commercial AI-search intelligence platform; Potato measures brand mentions and citations in Claude&#x27;s web-search answers, free and local
+Superlines is the commercial AI-search intelligence platform; Potato measures brand mentions and citations in Claude's web-search answers, free and local
 
-Google Doesn&#x27;t Need Your Site Anymore. You Taught It Everything It Knows.
+Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.
 
 How two decades of SEO work became raw material for the answer engines
 
-Your Dashboard Can&#x27;t See AI Search | Here&#x27;s the 5-Layer Fix
+Your Dashboard Can't See AI Search | Here's the 5-Layer Fix
 
 The AI-visibility measurement gap, documented with our own GSC numbers: 1,427 impressions, zero clicks
 
-Link Building Won&#x27;t Get You Into AI Answers. Community Signals Will.
+Link Building Won't Get You Into AI Answers. Community Signals Will.
 
 The off-page playbook that actually moves AI citations
 
@@ -108,7 +108,7 @@ The off-page playbook that actually moves AI citations
 
 - [Home](/)
 - [Tools](/tools/)
-- SEO &amp; Search
+- SEO & Search
 ## SEO & Search Tools
 
 SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 9 tools with verified pricing.
@@ -133,13 +133,13 @@ SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 
 
 ### Superlines
 
-**Compare:** [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) &middot; [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
+**Compare:** [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
 
 SEO used to have a scoreboard: rank, click, conversion. The answer engines ate it. When an AI Overview or ChatGPT finishes the question, the visitor never comes, and your dashboard records a clean-looking impression instead of a lost click. The job split in two: still earn the rank, and also get cited in the answer. Most tools in this category were built for the first half and are still catching up on the second.
 
-The 9 here fall into four camps. Semrush is the full platform: 25 billion keywords of data, a technical crawler, rank tracking, and an AI visibility add-on on top. Clearscope, Frase, MarketMuse and Surfer sell the writing layer: they read the top-ranking pages for a keyword, turn them into a brief, and grade your draft against it while you write. OpenSEO and Seonaut are the open source plumbing: rank tracking and backlinks, or site crawls, on your own server with no per-seat billing. Superlines and Potato are the fourth camp, measuring what the answer engines actually say about you: Superlines as a commercial AI-search intelligence platform, Potato free and local against Claude&#x27;s web-search answers.
+The 9 here fall into four camps. Semrush is the full platform: 25 billion keywords of data, a technical crawler, rank tracking, and an AI visibility add-on on top. Clearscope, Frase, MarketMuse and Surfer sell the writing layer: they read the top-ranking pages for a keyword, turn them into a brief, and grade your draft against it while you write. OpenSEO and Seonaut are the open source plumbing: rank tracking and backlinks, or site crawls, on your own server with no per-seat billing. Superlines and Potato are the fourth camp, measuring what the answer engines actually say about you: Superlines as a commercial AI-search intelligence platform, Potato free and local against Claude's web-search answers.
 
-When you compare these, don&#x27;t buy by database size. Check whether the crawler catches problems that cost rankings, whether the grading loop works inside the editor your team already writes in, and whether anything in the stack can tell you an AI assistant cited you while Google Analytics still shows nothing. Database numbers end up on pricing pages because they&#x27;re easy to print. The last question almost never shows up on one.
+When you compare these, don't buy by database size. Check whether the crawler catches problems that cost rankings, whether the grading loop works inside the editor your team already writes in, and whether anything in the stack can tell you an AI assistant cited you while Google Analytics still shows nothing. Database numbers end up on pricing pages because they're easy to print. The last question almost never shows up on one.
 
 ## Which one fits
 

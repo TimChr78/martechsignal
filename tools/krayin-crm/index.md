@@ -3,23 +3,23 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Free to self-host under MIT with no user limits is perfectly clear; Webkul&#x27;s extension prices are mostly unlisted beyond the $1,799 multi-tenant module (the vendor pricing page: [pricing page](https://krayincrm.com/extensions/), verified 2026-09-07). |
+| Pricing transparency | 6/10 | Free to self-host under MIT with no user limits is perfectly clear; Webkul's extension prices are mostly unlisted beyond the $1,799 multi-tenant module (the vendor pricing page: [pricing page](https://krayincrm.com/extensions/), verified 2026-09-07). |
 | Feature depth | 6/10 | Full customer lifecycle management with automation packages (triggers, conditions, actions) covers SME CRM needs; campaign machinery is thin (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
 | Integrations | 3/10 | No named integrations in the catalog; Laravel and Webkul extensions carry the connection story (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
 | AI capability | 5/10 | Magic AI lead creation from uploaded PDFs and images via an OpenRouter module is real but narrow (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
 | Openness | 9/10 | MIT-licensed with 23.9k GitHub stars and no user limits on self-hosting (the source repository: [repository](krayin/laravel-crm), verified 2026-09-28). |
-| Operational maturity | 6/10 | Backed by Webkul&#x27;s extension business with 23.9k stars, giving it more runway than a solo project (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Backed by Webkul's extension business with 23.9k stars, giving it more runway than a solo project (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
 
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $1799/mo once past the free tier |
-| &#10003; API access for custom integrations |  |
-| &#10003; AI capabilities: magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module) |  |
-| &#10003; Active public repository (23,851 GitHub stars counted at last check) |  |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $1799/mo once past the free tier |
+| ✓ API access for custom integrations |  |
+| ✓ AI capabilities: magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module) |  |
+| ✓ Active public repository (23,851 GitHub stars counted at last check) |  |
 
 **What is Krayin CRM?**
-Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 23,851 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 23,851 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Krayin CRM cost?**
 Krayin CRM has a free tier; paid plans start at $1799/mo. Free to self-host under MIT with no user limits. Paid: Webkul extensions (multi-tenant SaaS at $1,799 for Krayin 2.1.0; other extension prices unlisted) and vendor cloud hosting with no published prices. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -75,11 +75,11 @@ CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Krayin CRM &#8594;](https://krayincrm.com)
+[Visit Krayin CRM →](https://krayincrm.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Krayin CRM &#8594;](https://krayincrm.com)
+[Visit Krayin CRM →](https://krayincrm.com)
 
 ## MartechSignal Score: 35/60
 
@@ -157,7 +157,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 23,851 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 23,851 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Krayin CRM has a free tier; paid plans start at $1799/mo. Free to self-host under MIT with no user limits. Paid: Webkul extensions (multi-tenant SaaS at $1,799 for Krayin 2.1.0; other extension prices unlisted) and vendor cloud hosting with no published prices. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -172,11 +172,11 @@ Yes, through the built-in import and export layer (the DataTransfer package), wh
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
-- [Best open-source CRM tools (2026)](/best/open-source-crm/) &mdash; Best for Laravel shops that want room to extend a CRM.
+- [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for Laravel shops that want room to extend a CRM.
 ### Quick Facts
 
 Related guides: [Open Source Crm](/best/open-source-crm/)

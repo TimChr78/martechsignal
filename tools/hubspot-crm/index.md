@@ -7,18 +7,18 @@
 | Feature depth | 8/10 | Pipelines, deals, email logging, meeting scheduling, ticketing and campaign reporting cover the CRM baseline with real differentiators in the all-in-one hubs and Agent Hub (vendor documentation: [vendor site](https://www.hubspot.com/products/crm), verified 2026-09-26). |
 | Integrations | 9/10 | Named natives include Gmail, Outlook, Slack, Zapier, Salesforce, Shopify, Stripe and Google Analytics, backed by the public App Marketplace at ecosystem.hubspot.com and an open API (vendor documentation: [vendor site](https://www.hubspot.com/products/crm), verified 2026-09-26). |
 | AI capability | 8/10 | Shipped features include an AI email writer, predictive lead scoring, AI call transcription, AI meeting scheduler and AI content suggestions, plus Agent Hub for building and managing AI agents across the platform (vendor documentation: [vendor site](https://www.hubspot.com/products/crm), verified 2026-09-26). |
-| Openness | 5/10 | The product is closed source, but an open API is documented and HubSpot&#x27;s knowledge base covers exporting records and content, matching the full export plus open API anchor (the source repository: [repository](https://www.hubspot.com/products/crm), verified 2026-09-26). |
+| Openness | 5/10 | The product is closed source, but an open API is documented and HubSpot's knowledge base covers exporting records and content, matching the full export plus open API anchor (the source repository: [repository](https://www.hubspot.com/products/crm), verified 2026-09-26). |
 | Operational maturity | 9/10 | Founded in 2006 and headquartered in Cambridge, with multi-hub Enterprise plans, a public app marketplace and a partner ecosystem behind the product (vendor documentation: [vendor site](https://www.hubspot.com/products/crm), verified 2026-09-26). |
 
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI email writer | &#10007; Paid plans start at $20/mo once past the free tier |
-| &#10003; Native integrations include Gmail, Outlook, Slack (8 listed) | &#10007; Closed source - no self-hosting option |
-| &#10003; Free tier to evaluate before committing (Free CRM forever; Sales Hub Starter $15/seat/mo billed annua) |  |
+| ✓ AI capabilities: AI email writer | ✗ Paid plans start at $20/mo once past the free tier |
+| ✓ Native integrations include Gmail, Outlook, Slack (8 listed) | ✗ Closed source - no self-hosting option |
+| ✓ Free tier to evaluate before committing (Free CRM forever; Sales Hub Starter $15/seat/mo billed annua) |  |
 
 **What is HubSpot CRM?**
-HubSpot CRM: Free AI-powered CRM platform with sales, service, and marketing tools unified. HubSpot CRM ships with AI email writer. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+HubSpot CRM: Free AI-powered CRM platform with sales, service, and marketing tools unified. HubSpot CRM ships with AI email writer. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does HubSpot CRM cost?**
 HubSpot CRM has a free tier; paid plans start at $20/mo. Free CRM forever; Sales Hub Starter $15/seat/mo billed annually ($20 month-to-month); Professional $100/seat/mo; Enterprise $150/seat/mo. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -73,11 +73,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 Looking for options? [Best HubSpot CRM alternatives](/alternatives/hubspot-crm/)
 
-[Visit HubSpot CRM &#8594;](https://www.hubspot.com/products/crm)
+[Visit HubSpot CRM →](https://www.hubspot.com/products/crm)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit HubSpot CRM &#8594;](https://www.hubspot.com/products/crm)
+[Visit HubSpot CRM →](https://www.hubspot.com/products/crm)
 
 ## MartechSignal Score: 47/60
 
@@ -87,7 +87,7 @@ Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Founded in 2006 and headquartered in Cambridge, Massachusetts, HubSpot CRM brings sales, service, and marketing workflows into one platform around a unified contact record. It supports pipeline management, deal tracking, email logging, meeting scheduling, ticketing, and campaign reporting, with native connections to Gmail, Outlook, Slack, Zapier, Salesforce, Shopify, Stripe, and Google Analytics. The platform is a fit for startups, small businesses, and mid-market teams that need an accessible system of record without managing separate tools for outreach, support, and analytics. An open API allows custom integrations, although the product itself is not open source. HubSpot&#x27;s main differentiator is its combination of a free CRM forever plan with optional paid hubs that scale as teams grow. Sales Hub Starter starts at $20 per seat per month, Professional at $100, and Enterprise at $150, with higher tiers adding automation, permissions, and reporting depth. Its AI capabilities include an AI email writer, predictive lead scoring, AI call transcription, AI meeting scheduler, and AI content suggestions, which help reduce manual work across sales and service conversations. Compared with alternatives such as Salesforce, Pipedrive, or Zoho CRM, HubSpot tends to emphasize ease of use and cross-team alignment more than deep enterprise customization. It is best for growing businesses that want a free-to-start CRM with practical AI features and room to expand into marketing and service tools.
+Founded in 2006 and headquartered in Cambridge, Massachusetts, HubSpot CRM brings sales, service, and marketing workflows into one platform around a unified contact record. It supports pipeline management, deal tracking, email logging, meeting scheduling, ticketing, and campaign reporting, with native connections to Gmail, Outlook, Slack, Zapier, Salesforce, Shopify, Stripe, and Google Analytics. The platform is a fit for startups, small businesses, and mid-market teams that need an accessible system of record without managing separate tools for outreach, support, and analytics. An open API allows custom integrations, although the product itself is not open source. HubSpot's main differentiator is its combination of a free CRM forever plan with optional paid hubs that scale as teams grow. Sales Hub Starter starts at $20 per seat per month, Professional at $100, and Enterprise at $150, with higher tiers adding automation, permissions, and reporting depth. Its AI capabilities include an AI email writer, predictive lead scoring, AI call transcription, AI meeting scheduler, and AI content suggestions, which help reduce manual work across sales and service conversations. Compared with alternatives such as Salesforce, Pipedrive, or Zoho CRM, HubSpot tends to emphasize ease of use and cross-team alignment more than deep enterprise customization. It is best for growing businesses that want a free-to-start CRM with practical AI features and room to expand into marketing and service tools.
 
 HubSpot CRM homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-HubSpot CRM: Free AI-powered CRM platform with sales, service, and marketing tools unified. HubSpot CRM ships with AI email writer. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+HubSpot CRM: Free AI-powered CRM platform with sales, service, and marketing tools unified. HubSpot CRM ships with AI email writer. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 HubSpot CRM has a free tier; paid plans start at $20/mo. Free CRM forever; Sales Hub Starter $15/seat/mo billed annually ($20 month-to-month); Professional $100/seat/mo; Enterprise $150/seat/mo. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -160,7 +160,7 @@ Best starting CRM for small teams. Revisit ownership costs seriously once headco
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Also featured in
 
-- [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) &mdash; Best free CRM, and the natural next step when the free tier starts to bite.
+- [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best free CRM, and the natural next step when the free tier starts to bite.
 ### Quick Facts
 
 Related guides: [Alternatives to HubSpot CRM](/alternatives/hubspot-crm/) · [Ai Crm Tools](/best/ai-crm-tools/)

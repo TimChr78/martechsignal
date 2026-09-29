@@ -33,7 +33,7 @@ TRANSACTIONno human in the loop
 
 AI · ADVERTISING · 11 MIN
 
-## OpenAI Isn&#x27;t Building Ads. It&#x27;s Building Agents That Spend Money Without You.
+## OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.
 
 [How we review](/methodology/) · No affiliate links
 
@@ -101,7 +101,7 @@ Profound reviewed more than 1 million ChatGPT shopping offers in June and found 
 
 The nuance matters, because the feed does not replace the page yet. Profound's analysis found that about 88% of ChatGPT product offers still come from web product detail pages, and even for merchants using feeds, around 76% of offers still came from the page. The feed decides whether you are in the selection and where you rank. The page is still where shoppers get convinced.
 
-But the direction is clear, and the platforms are building for it. OpenAI says its product results are ranked by relevance signals like availability, price, quality, and whether a merchant is the primary seller. Those signals come from catalogs that now include Target, Sephora, Nordstrom, Best Buy, The Home Depot, and millions of Shopify merchants. At Google Marketing Live 2026, Google added conversational attributes to the Merchant Center spec for exactly this: structured Q&amp;A pairs, related product fields like `often_bought_with` and `substitute`, document links for manuals and spec sheets, variant options, and a popularity rank so a model can answer "what's your best-selling running shoe?"
+But the direction is clear, and the platforms are building for it. OpenAI says its product results are ranked by relevance signals like availability, price, quality, and whether a merchant is the primary seller. Those signals come from catalogs that now include Target, Sephora, Nordstrom, Best Buy, The Home Depot, and millions of Shopify merchants. At Google Marketing Live 2026, Google added conversational attributes to the Merchant Center spec for exactly this: structured Q&A pairs, related product fields like `often_bought_with` and `substitute`, document links for manuals and spec sheets, variant options, and a popularity rank so a model can answer "what's your best-selling running shoe?"
 
 **✅ Who wins: whoever owns the feed** Your Merchant Center feed is now doing the job your landing page, ad creative, and sales pitch used to split between them, inside one structured file. Adobe's Q2 AI Traffic report scored product detail pages at just 63.5 for AI citation readability, well below homepages and buying guides. The pages holding the product data are the hardest for machines to read, and the feed is the bypass around them.
 
@@ -111,7 +111,7 @@ If the buyer side of your business is gradually becoming an agent, the work star
 
 - **Fix the feed before anything else.** Check Merchant Center diagnostics, fix GTIN errors and price mismatches. A disapproved product does not rank lower for AI agents. It does not exist for them.
 - **Keep price and availability synced continuously.** AI shopping surfaces refresh constantly. A feed that updates once a day is already behind, and stale availability gets your products recommended, then refunded.
-- **Add conversational attributes to your top SKUs.** Q&amp;A pairs, related products, popularity rank. Start with the products that already generate revenue. You do not need to touch all 40,000 items this quarter.
+- **Add conversational attributes to your top SKUs.** Q&A pairs, related products, popularity rank. Start with the products that already generate revenue. You do not need to touch all 40,000 items this quarter.
 - **Make pricing machine-readable.** Previsible analyzed 6.77 million AI-referred sessions and found that "contact us for pricing" gives an AI nothing to compare and nothing to recommend. In an agent-mediated market, opacity is the same as absence.
 - **Expose live data over MCP.** OpenAI's agent ad format connects business agents to live data through MCP tools. If you want to exist inside that conversation, your systems need an interface an agent can call.
 - **Watch for agent traffic and register your own agents.** The IAB Tech Lab Agent Registry is free. When agent buyers start showing up in your logs, you will want to know who you are transacting with, and your own agents will need verifiable identity to be trusted on the other side.

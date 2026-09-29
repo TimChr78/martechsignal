@@ -104,7 +104,7 @@ Programmatic advertising is the automated buying and selling of ad inventory thr
 
 SEO
 
-SEO is the practice of improving a website&#x27;s visibility in organic (non-paid) search results. It covers technical factor…
+SEO is the practice of improving a website's visibility in organic (non-paid) search results. It covers technical factor…
 
 Social listening
 
@@ -116,7 +116,7 @@ UTM parameters are tags appended to URLs to track where traffic comes from. A UR
 
 Personalization
 
-Website personalization changes what a visitor sees based on who they are or what they&#x27;ve done before. A returning custo…
+Website personalization changes what a visitor sees based on who they are or what they've done before. A returning custo…
 
 Workflow automation
 

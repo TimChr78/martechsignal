@@ -26,7 +26,7 @@ A customer data platform collects and unifies customer data from every touchpoin
 
 ## Why it matters
 
-CDPs became a distinct category around 2016 when the CDP Institute formed. Before that, marketers stitched together data from a CRM, an email platform, and a web analytics tool, and hoped the picture was accurate. The CDP promise is that you stop guessing which version of a customer is real. In practice, the hard part was never the software, it was getting every team to agree on what a &#x27;customer&#x27; even means.
+CDPs became a distinct category around 2016 when the CDP Institute formed. Before that, marketers stitched together data from a CRM, an email platform, and a web analytics tool, and hoped the picture was accurate. The CDP promise is that you stop guessing which version of a customer is real. In practice, the hard part was never the software, it was getting every team to agree on what a 'customer' even means.
 
 ## How it works
 
@@ -62,7 +62,7 @@ Sources: [CDP Institute](https://www.cdpinstitute.org/) · [Twilio Segment](http
 
 ### Categories
 
-[Analytics &amp; Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
+[Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
 
 ## See also
 

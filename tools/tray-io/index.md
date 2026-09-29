@@ -13,21 +13,21 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: merlin Agent Builder | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Salesforce, Slack, HubSpot (10 listed) | &#10007; Enterprise pricing is quote-based - no public numbers |
-| &#10003; API access for custom integrations |  |
+| ✓ AI capabilities: merlin Agent Builder | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Salesforce, Slack, HubSpot (10 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+| ✓ API access for custom integrations |  |
 
 **What is Tray.io?**
-Tray.io: AI-powered integration platform for building custom automation and AI agents. Tray.io ships with merlin Agent Builder. This page documents 10 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Tray.io: AI-powered integration platform for building custom automation and AI agents. Tray.io ships with merlin Agent Builder. This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Tray.io cost?**
-Tray.io uses enterprise pricing, so the number depends on your volume and contract. No published prices. Three tiers (Pro, Team, Enterprise) described by workspaces, log retention, and insights windows; usage metered in Tasks across integration, automation, MCP, and agents. HIPAA, SSO, regional hosting, and Tray IDP are paid add-ons. Demo or sales call required. Our last verified read of the pricing model was 2026-09-06; the vendor&#x27;s pricing page carries the current quote criteria.
+Tray.io uses enterprise pricing, so the number depends on your volume and contract. No published prices. Three tiers (Pro, Team, Enterprise) described by workspaces, log retention, and insights windows; usage metered in Tasks across integration, automation, MCP, and agents. HIPAA, SSO, regional hosting, and Tray IDP are paid add-ons. Demo or sales call required. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
 
 **Is Tray.io a good Workflow Automation tool in 2026?**
 An integration platform that has rebuilt itself around agents, MCP, and governance faster than most of its category. Model your task consumption and confirm the compliance add-ons you need before signing.
 
 **What is Tray Helix?**
-Announced in August 2026, Helix is a managed runtime for apps your team builds with AI coding assistants such as Claude Code, Codex, and Cursor. Tray&#x27;s framing is that fewer than 5 percent of AI-built apps reach production and the ones that do ship ungoverned, so Helix deploys them onto Tray&#x27;s runtime with IT visibility, security controls, and a named owner on everything that ships.
+Announced in August 2026, Helix is a managed runtime for apps your team builds with AI coding assistants such as Claude Code, Codex, and Cursor. Tray's framing is that fewer than 5 percent of AI-built apps reach production and the ones that do ship ungoverned, so Helix deploys them onto Tray's runtime with IT visibility, security controls, and a named owner on everything that ships.
 
 **Does Tray.ai support MCP?**
 Yes, from several directions. Tray Headless includes a headless MCP server with regional endpoints in the EU and APAC and dynamic authentication added in June 2026. The Agent Gateway add-on publishes any of the 700-plus connectors as an MCP tool with access control, observability, and cost governance. Tray also documents how to connect external agents to those services.
@@ -81,15 +81,15 @@ Workflow Automation · Enterprise Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
-[Visit Tray.io &#8594;](https://tray.ai)
+[Visit Tray.io →](https://tray.ai)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Tray.io &#8594;](https://tray.ai)
+[Visit Tray.io →](https://tray.ai)
 
 ## MartechSignal Score: 36/60
 
-Tray.io sits between Pipedream and Workato: a builder&#x27;s iPaaS with an agent gateway that takes MCP seriously. Task-metered pricing is published in shape but not in numbers.
+Tray.io sits between Pipedream and Workato: a builder's iPaaS with an agent gateway that takes MCP seriously. Task-metered pricing is published in shape but not in numbers.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -148,7 +148,7 @@ Small teams and solo operators. Prices are quoted by sales, usage is metered in 
 
 ## Review notes
 
-Assessed from Tray.ai&#x27;s documentation and pricing pages rather than a built workflow. The platform renamed and re-scoped during 2026: Tray Headless shipped in June with plugins for Claude Code and Codex and a headless MCP server, followed by MCP dynamic authentication, Guardian Log Masking, and a Sync CLI, and Tray Helix arrived in August as a managed runtime for AI-built apps.
+Assessed from Tray.ai's documentation and pricing pages rather than a built workflow. The platform renamed and re-scoped during 2026: Tray Headless shipped in June with plugins for Claude Code and Codex and a headless MCP server, followed by MCP dynamic authentication, Guardian Log Masking, and a Sync CLI, and Tray Helix arrived in August as a managed runtime for AI-built apps.
 
 The automation core is conventional and well documented. The quickstart teaches get data, do something, send data through a Typeform-to-Google-Sheets template, and introduces project config, conditional logic, callable workflows, the data mapper, and environment variables. The catalog claims 700-plus pre-built connectors, and the public connectors page names Salesforce, Slack, HubSpot, Snowflake, Zendesk, NetSuite, BigQuery, Google Sheets, OpenAI, and Anthropic among them.
 
@@ -174,13 +174,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Tray.io: AI-powered integration platform for building custom automation and AI agents. Tray.io ships with merlin Agent Builder. This page documents 10 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Tray.io: AI-powered integration platform for building custom automation and AI agents. Tray.io ships with merlin Agent Builder. This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
-Tray.io uses enterprise pricing, so the number depends on your volume and contract. No published prices. Three tiers (Pro, Team, Enterprise) described by workspaces, log retention, and insights windows; usage metered in Tasks across integration, automation, MCP, and agents. HIPAA, SSO, regional hosting, and Tray IDP are paid add-ons. Demo or sales call required. Our last verified read of the pricing model was 2026-09-06; the vendor&#x27;s pricing page carries the current quote criteria.
+Tray.io uses enterprise pricing, so the number depends on your volume and contract. No published prices. Three tiers (Pro, Team, Enterprise) described by workspaces, log retention, and insights windows; usage metered in Tasks across integration, automation, MCP, and agents. HIPAA, SSO, regional hosting, and Tray IDP are paid add-ons. Demo or sales call required. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
 
 An integration platform that has rebuilt itself around agents, MCP, and governance faster than most of its category. Model your task consumption and confirm the compliance add-ons you need before signing.
 
-Announced in August 2026, Helix is a managed runtime for apps your team builds with AI coding assistants such as Claude Code, Codex, and Cursor. Tray&#x27;s framing is that fewer than 5 percent of AI-built apps reach production and the ones that do ship ungoverned, so Helix deploys them onto Tray&#x27;s runtime with IT visibility, security controls, and a named owner on everything that ships.
+Announced in August 2026, Helix is a managed runtime for apps your team builds with AI coding assistants such as Claude Code, Codex, and Cursor. Tray's framing is that fewer than 5 percent of AI-built apps reach production and the ones that do ship ungoverned, so Helix deploys them onto Tray's runtime with IT visibility, security controls, and a named owner on everything that ships.
 
 Yes, from several directions. Tray Headless includes a headless MCP server with regional endpoints in the EU and APAC and dynamic authentication added in June 2026. The Agent Gateway add-on publishes any of the 700-plus connectors as an MCP tool with access control, observability, and cost governance. Tray also documents how to connect external agents to those services.
 
@@ -197,7 +197,7 @@ Zapier fits single-task automations owned by individuals. Tray fits programs: mu
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ## Also featured in
 
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/) &mdash; Best for AI app governance plus integration on one platform.
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for AI app governance plus integration on one platform.
 ### Quick Facts
 
 Related guides: [Tray.io in Zapier alternatives](/alternatives/zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/)

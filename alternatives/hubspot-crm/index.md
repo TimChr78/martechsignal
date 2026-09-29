@@ -17,7 +17,7 @@ HubSpot CRM is free forever, quick to set up, and for a lot of small teams it is
 
 Two kinds of buyers usually end up on this page. One already runs a marketing stack and wants a CRM the sales team will adopt without paying for a suite around it. The other wants customer data on its own servers, with code access to the schema and no per-seat bill attached to every new colleague.
 
-Before you switch, map your contact and deal records onto the new tool&#x27;s data model and check which of HubSpot&#x27;s native connections (Gmail, Outlook, Slack, Salesforce, Shopify, Stripe, Google Analytics) you truly rely on, since a thinner integration list means middleware. Also decide whether you can run a server in exchange for predictable pricing. Everything below comes from the vendors&#x27; own documentation; we have no account with any of these tools.
+Before you switch, map your contact and deal records onto the new tool's data model and check which of HubSpot's native connections (Gmail, Outlook, Slack, Salesforce, Shopify, Stripe, Google Analytics) you truly rely on, since a thinner integration list means middleware. Also decide whether you can run a server in exchange for predictable pricing. Everything below comes from the vendors' own documentation; we have no account with any of these tools.
 
 ## [Twenty](/tools/twenty/)
 
@@ -29,7 +29,7 @@ Vendor: [Official site](https://twenty.com) · [Pricing](https://twenty.com/pric
 
 **Not for:** Teams that want a CRM they never think about; Twenty ships no mobile app and no static API reference, and its own docs point such teams to Pipedrive or HubSpot.
 
-Twenty is open source under AGPLv3 where HubSpot is closed, and self-hosting on Docker Compose is free with all Pro features included. Cloud Pro costs $9 per user per month billed yearly, under HubSpot&#x27;s $20 Sales Hub Starter seat, and no plan limits objects or fields. The scope is a CRM core (companies, people, opportunities, tasks, notes) with AI agents in workflows, not a marketing and service suite, so teams that leaned on HubSpot&#x27;s free ticketing and campaign reporting will need other tools.
+Twenty is open source under AGPLv3 where HubSpot is closed, and self-hosting on Docker Compose is free with all Pro features included. Cloud Pro costs $9 per user per month billed yearly, under HubSpot's $20 Sales Hub Starter seat, and no plan limits objects or fields. The scope is a CRM core (companies, people, opportunities, tasks, notes) with AI agents in workflows, not a marketing and service suite, so teams that leaned on HubSpot's free ticketing and campaign reporting will need other tools.
 
 ## [EspoCRM](/tools/espocrm/)
 
@@ -65,7 +65,7 @@ Vendor: [Official site](https://www.pipedrive.com) · [Pricing](https://www.pipe
 
 **Not for:** Teams that need native email marketing, landing pages, or campaign management; Pipedrive has none of those.
 
-Pipedrive is a paid SaaS CRM priced from $14 per user per month on Essential, with Advanced at $29, Professional at $59, and Enterprise at $79. It replaces HubSpot&#x27;s sales side only: visual deal pipelines, web-to-lead forms, email sync, automated routing, and AI deal scoring, with no marketing or service hub behind it. For a team paying HubSpot&#x27;s $100 Professional seat price mainly for pipeline work, the trade is lower seat cost and a sharper tool, at the cost of the all-in-one suite.
+Pipedrive is a paid SaaS CRM priced from $14 per user per month on Essential, with Advanced at $29, Professional at $59, and Enterprise at $79. It replaces HubSpot's sales side only: visual deal pipelines, web-to-lead forms, email sync, automated routing, and AI deal scoring, with no marketing or service hub behind it. For a team paying HubSpot's $100 Professional seat price mainly for pipeline work, the trade is lower seat cost and a sharper tool, at the cost of the all-in-one suite.
 
 ## [Frappe CRM](/tools/frappe-crm/)
 
@@ -75,7 +75,7 @@ Vendor: [Official site](https://frappe.io/crm) · [GitHub](https://github.com/fr
 
 **Best for:** Budget-conscious sales teams that want unlimited users on an open-source CRM and are comfortable with the Frappe stack.
 
-**Not for:** Teams that need AI features; none appear in Frappe CRM&#x27;s README, marketing site, or release notes.
+**Not for:** Teams that need AI features; none appear in Frappe CRM's README, marketing site, or release notes.
 
 Frappe CRM is open source under AGPL-3.0, and no tier charges per user: self-hosting is free, Frappe Cloud hosting starts at $5 per month per site, and dedicated servers run $20 to $60 per month, all with unlimited leads, deals, and users. HubSpot meters by seat and gates automation and reporting depth behind higher hubs; Frappe CRM charges for hosting instead. Its integrations are narrower (Twilio, Exotel, WhatsApp through a third-party app, ERPNext, Meta Lead Ads), so it fits when a focused sales CRM beats a connected suite.
 

@@ -4,7 +4,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
 
 AI CONTENT · AI AGENTS · 7 MIN
 
-## AI watermarks are now part of your agent&#x27;s risk surface
+## AI watermarks are now part of your agent's risk surface
 
 [How we review](/methodology/) · No affiliate links
 

@@ -28,7 +28,7 @@ AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 
 Open SourceDesk-reviewedOSS
 
-Apache&#x27;s open-source customer data platform and personalization engine
+Apache's open-source customer data platform and personalization engine
 
 Open SourceDesk-reviewedOSS
 
@@ -240,7 +240,7 @@ Open-source product analytics platform with session replay, feature flags, exper
 
 FreemiumDesk-reviewedOSS
 
-Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers
+Free local tool that measures brand mentions and citations in Claude's web-search answers
 
 Open SourceDesk-reviewedOSS
 
@@ -256,7 +256,7 @@ Drag-n-Drop Email Editor Component for React.js
 
 Open SourceDesk-reviewedOSS
 
-Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament
+Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
 
 Open SourceDesk-reviewedOSS
 
@@ -308,7 +308,7 @@ Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail 
 
 Open SourceDesk-reviewedOSS
 
-Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
 Open SourceDesk-reviewedOSS
 
@@ -319,7 +319,7 @@ Open SourceDesk-reviewedOSS
 - Open-Source Tools
 ## Open-Source Tools
 
-78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor&#x27;s own repository.
+78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
 
 78 TOOLS IN THIS CATEGORY
 
@@ -383,7 +383,7 @@ Open SourceDesk-reviewedOSS
 
 ### GrowthBook
 
-### IDURAR ERP &amp; CRM
+### IDURAR ERP & CRM
 
 ### Jitsu
 
@@ -479,7 +479,7 @@ Open SourceDesk-reviewedOSS
 
 ### Zapier GTM Cheat Codes
 
-**Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) &middot; [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) &middot; [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) &middot; [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) &middot; [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) &middot; [Matomo vs PostHog](/vs/matomo-vs-posthog/) &middot; [Matomo alternatives](/alternatives/matomo/) &middot; [n8n alternatives](/alternatives/n8n/) &middot; [Best open-source CRM tools (2026)](/best/open-source-crm/) &middot; [Best workflow automation tools (2026)](/best/workflow-automation-tools/) &middot; [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) &middot; [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) &middot; [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) &middot; [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) &middot; [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) &middot; [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) &middot; [Best AI Advertising &amp; Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) &middot; [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/) &middot; [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) &middot; [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &middot; [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+**Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) · [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) · [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) · [Matomo vs PostHog](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/) · [n8n alternatives](/alternatives/n8n/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best workflow automation tools (2026)](/best/workflow-automation-tools/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) · [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) · [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) · [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) · [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) · [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) · [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) · [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 
 Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langchain.com) · [Paperclip](https://paperclip.ing)
 

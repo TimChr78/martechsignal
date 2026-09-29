@@ -67,7 +67,7 @@ This post is part of the hub for this topic: [ai seo tooling](/guides/ai-seo-too
 ## Comparison guides
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
-- [Best GEO &amp;amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
+- [Best GEO &amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)

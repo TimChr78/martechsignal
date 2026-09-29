@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Apache-2.0 licence with free self-hosting | &#10007; Young project (161 GitHub stars) - smaller community and plugin ecosystem |
-| &#10003; AI capabilities: mines 12-20 real case studies per run for growth mechanisms |  |
-| &#10003; Native integrations include Claude Code, Codex, Claude plugins (3 listed) |  |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (161 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: mines 12-20 real case studies per run for growth mechanisms |  |
+| ✓ Native integrations include Claude Code, Codex, Claude plugins (3 listed) |  |
 
 **What is Diffmode Growth Tactics?**
-Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 161 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 161 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Diffmode Growth Tactics cost?**
 Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-host; the public repository carries 161 stars; native integrations cover Claude Code, Codex, Claude plugins. You pay in server time and maintenance, not licences.
@@ -73,15 +73,15 @@ Agent Skills · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
 
-[Visit Diffmode Growth Tactics &#8594;](https://github.com/acogood/diffmode_free)
+[Visit Diffmode Growth Tactics →](https://github.com/acogood/diffmode_free)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Diffmode Growth Tactics &#8594;](https://github.com/acogood/diffmode_free)
+[Visit Diffmode Growth Tactics →](https://github.com/acogood/diffmode_free)
 
 ## MartechSignal Score: 35/60
 
-Diffmode&#x27;s pipeline mines real case studies and then deliberately rejects the obvious plays. Ninety minutes per run buys novelty filtering, which is a fair trade if your growth ideas keep repeating.
+Diffmode's pipeline mines real case studies and then deliberately rejects the obvious plays. Ninety minutes per run buys novelty filtering, which is a fair trade if your growth ideas keep repeating.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -136,7 +136,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 161 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 161 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-host; the public repository carries 161 stars; native integrations cover Claude Code, Codex, Claude plugins. You pay in server time and maintenance, not licences.
 

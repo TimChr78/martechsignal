@@ -13,16 +13,16 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $9/mo once past the free tier |
-| &#10003; Actively developed - latest release No tagged releases; ships as the :latest container image |  |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $9/mo once past the free tier |
+| ✓ Actively developed - latest release No tagged releases; ships as the :latest container image |  |
 
 **What is Seonaut?**
-Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 782 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 782 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Seonaut cost?**
 Seonaut has a free tier; paid plans start at $9/mo. MIT-licensed self-hosted free; cloud Lite free for 1 project and 500 URLs per project, Growth $9/mo for 5 projects and 10,000 URLs with recurring audits. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
-**Is Seonaut a good self-hosted SEO &amp; Search tool in 2026?**
+**Is Seonaut a good self-hosted SEO & Search tool in 2026?**
 A lean, honest, self-hosted technical crawler with 79 documented issue checks; no JS rendering, no API, and a slow-but-alive commit pace.
 
 **Does SEOnaut render JavaScript?**
@@ -32,17 +32,17 @@ No. The codebase has no headless browser dependency, and JavaScript rendering ap
 The self-hosted Community edition is MIT-licensed and free, including commercial use per the support page. The hosted service at app.seonaut.org has two tiers: Lite is free with one project and up to 500 URLs per project, and Growth is $9 per month for five projects, 10,000 URLs per project, and recurring audits, billed through Stripe with one month free on annual plans. The practical difference beyond limits is scheduling: recurring audits are a Growth feature, while self-hosted users set up their own cron-triggered crawls.
 
 **Does SEOnaut compare to Screaming Frog?**
-On core technical auditing, more than you might expect: broken links, redirect chains and loops, missing and duplicate metas, heading structure, hreflang, canonical tags, alt text, orphan and dead-end pages, and response-time checks, with 79 issue types in code and ECharts dashboards. The gaps are the commercial tool&#x27;s strengths: no JavaScript rendering, no API, no team features, no integrated keyword or log-file analysis, and no tagged releases. The project itself makes no comparison claims; it positions as created by SEOs for everyone rather than as a Screaming Frog competitor. For a no-cost, self-hosted crawl of server-rendered sites, it covers the technical layer; for client-facing audits of JS-heavy sites, a rendering crawler remains the safer choice.
+On core technical auditing, more than you might expect: broken links, redirect chains and loops, missing and duplicate metas, heading structure, hreflang, canonical tags, alt text, orphan and dead-end pages, and response-time checks, with 79 issue types in code and ECharts dashboards. The gaps are the commercial tool's strengths: no JavaScript rendering, no API, no team features, no integrated keyword or log-file analysis, and no tagged releases. The project itself makes no comparison claims; it positions as created by SEOs for everyone rather than as a Screaming Frog competitor. For a no-cost, self-hosted crawl of server-rendered sites, it covers the technical layer; for client-facing audits of JS-heavy sites, a rendering crawler remains the safer choice.
 
 - **Pricing:** Open Source
-- **Category:** [SEO &amp; Search](/categories/seo/)
+- **Category:** [SEO & Search](/categories/seo/)
 - **GitHub:** ★ 782
 - **Founded:** 2022
 - **HQ:** Open source
 - **API:** No
 - **Last verified:** 2026-09-07
 
-**Verdict:** Seonaut is a tool in SEO &amp; Search with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Seonaut is a tool in SEO & Search with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 OpenSEO
 
@@ -64,13 +64,13 @@ MarketMuse
 
 AI-powered content strategy and optimization platform for SEO content teams
 
-[More SEO &amp; Search Tools →](/categories/seo/)
+[More SEO & Search Tools →](/categories/seo/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [SEO &amp; Search](/categories/seo/)
+- [SEO & Search](/categories/seo/)
 - Seonaut
 Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
@@ -78,15 +78,15 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 Open-source SEO crawler in Go for technical audits, self-hosted or cloud
 
-SEO &amp; Search · Open Source Desk-reviewed
+SEO & Search · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Seonaut &#8594;](https://seonaut.org)
+[Visit Seonaut →](https://seonaut.org)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Seonaut &#8594;](https://seonaut.org)
+[Visit Seonaut →](https://seonaut.org)
 
 ## MartechSignal Score: 30/60
 
@@ -135,7 +135,7 @@ Researched from the GitHub repository (including the issue-reporter source and r
 
 Two corrections against our earlier record: the tool has no API (we previously marked api_available true, but every route is session-cookie web UI with no /api endpoints), and the widely repeated claim of 150-plus issue types does not appear in any primary source; the count in code is 79. We also listed integrations that do not exist; the only exports are CSV, sitemap, and WACZ.
 
-Maintenance cadence is the honest risk flag: 534 commits in 2022, then roughly 110 to 130 per year, 33 in the trailing twelve months, and the most recent commit in May 2026. There are no tagged releases, so pinning is not part of the project&#x27;s model and upgrades mean pulling the latest image. MIT licensing and commercial use are explicitly permitted per the support page.
+Maintenance cadence is the honest risk flag: 534 commits in 2022, then roughly 110 to 130 per year, 33 in the trailing twelve months, and the most recent commit in May 2026. There are no tagged releases, so pinning is not part of the project's model and upgrades mean pulling the latest image. MIT licensing and commercial use are explicitly permitted per the support page.
 
 The hosted tiers change the evaluation: Lite is free with one project and 500 URLs per project, Growth is $9 per month with five projects, 10,000 URLs, and recurring audits, which is the only place scheduled crawling is documented. Self-hosted, you bring your own scheduler via cron.
 
@@ -159,7 +159,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 782 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 782 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Seonaut has a free tier; paid plans start at $9/mo. MIT-licensed self-hosted free; cloud Lite free for 1 project and 500 URLs per project, Growth $9/mo for 5 projects and 10,000 URLs with recurring audits. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -169,7 +169,7 @@ No. The codebase has no headless browser dependency, and JavaScript rendering ap
 
 The self-hosted Community edition is MIT-licensed and free, including commercial use per the support page. The hosted service at app.seonaut.org has two tiers: Lite is free with one project and up to 500 URLs per project, and Growth is $9 per month for five projects, 10,000 URLs per project, and recurring audits, billed through Stripe with one month free on annual plans. The practical difference beyond limits is scheduling: recurring audits are a Growth feature, while self-hosted users set up their own cron-triggered crawls.
 
-On core technical auditing, more than you might expect: broken links, redirect chains and loops, missing and duplicate metas, heading structure, hreflang, canonical tags, alt text, orphan and dead-end pages, and response-time checks, with 79 issue types in code and ECharts dashboards. The gaps are the commercial tool&#x27;s strengths: no JavaScript rendering, no API, no team features, no integrated keyword or log-file analysis, and no tagged releases. The project itself makes no comparison claims; it positions as created by SEOs for everyone rather than as a Screaming Frog competitor. For a no-cost, self-hosted crawl of server-rendered sites, it covers the technical layer; for client-facing audits of JS-heavy sites, a rendering crawler remains the safer choice.
+On core technical auditing, more than you might expect: broken links, redirect chains and loops, missing and duplicate metas, heading structure, hreflang, canonical tags, alt text, orphan and dead-end pages, and response-time checks, with 79 issue types in code and ECharts dashboards. The gaps are the commercial tool's strengths: no JavaScript rendering, no API, no team features, no integrated keyword or log-file analysis, and no tagged releases. The project itself makes no comparison claims; it positions as created by SEOs for everyone rather than as a Screaming Frog competitor. For a no-cost, self-hosted crawl of server-rendered sites, it covers the technical layer; for client-facing audits of JS-heavy sites, a rendering crawler remains the safer choice.
 
 ## Similar Tools
 

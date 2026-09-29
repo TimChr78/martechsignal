@@ -13,20 +13,20 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI content strategy documents (Content Strategy AI) | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Google Docs (export), Microsoft Word (export), WordPress (copy-paste) (4 listed) |  |
+| ✓ AI capabilities: AI content strategy documents (Content Strategy AI) | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Google Docs (export), Microsoft Word (export), WordPress (copy-paste) (4 listed) |  |
 
 **What is MarketMuse?**
-MarketMuse: AI-powered content strategy and optimization platform for SEO content teams. MarketMuse ships with AI content strategy documents (Content Strategy AI). This page documents 4 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+MarketMuse: AI-powered content strategy and optimization platform for SEO content teams. MarketMuse ships with AI content strategy documents (Content Strategy AI). This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does MarketMuse cost?**
-MarketMuse uses paid pricing, so the number depends on your volume and contract. No published prices. Plans: Free (10 queries/mo), Optimize, Research, Strategy; all paid tiers are demo-gated. Optimize: 1 user, 100 tracked topics, 5 briefs/mo. Research: 3 users, 1,000 topics, unlimited queries. Strategy: 5 users, 10,000 topics, all 9 brief types. Our last verified read of the pricing model was 2026-09-07; the vendor&#x27;s pricing page carries the current quote criteria.
+MarketMuse uses paid pricing, so the number depends on your volume and contract. No published prices. Plans: Free (10 queries/mo), Optimize, Research, Strategy; all paid tiers are demo-gated. Optimize: 1 user, 100 tracked topics, 5 briefs/mo. Research: 3 users, 1,000 topics, unlimited queries. Strategy: 5 users, 10,000 topics, all 9 brief types. Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
 
 **Is MarketMuse worth paying for in 2026?**
 Genuine topic-level planning depth, now wrapped in demo-gated pricing, Siteimprove ownership, and a public changelog quiet since early 2024; probe both the roadmap and the quote before committing.
 
 **How much does MarketMuse cost in 2026?**
-MarketMuse no longer publishes prices. The pricing page lists four plans (Free, Optimize, Research, Strategy) and every paid tier&#x27;s call to action is Book a demo. Limits are published instead: Optimize covers 1 user, 100 tracked topics, and 5 content briefs a month; Research covers 3 users, 1,000 tracked topics, and unlimited queries; Strategy covers 5 users, 10,000 tracked topics, and all nine brief types. The terms of service say fees are payable in US dollars as specified on the invoice, and the docs note that some self-serve customers can still manage a subscription in Settings.
+MarketMuse no longer publishes prices. The pricing page lists four plans (Free, Optimize, Research, Strategy) and every paid tier's call to action is Book a demo. Limits are published instead: Optimize covers 1 user, 100 tracked topics, and 5 content briefs a month; Research covers 3 users, 1,000 tracked topics, and unlimited queries; Strategy covers 5 users, 10,000 tracked topics, and all nine brief types. The terms of service say fees are payable in US dollars as specified on the invoice, and the docs note that some self-serve customers can still manage a subscription in Settings.
 
 **Does MarketMuse have an API or a WordPress plugin?**
 We found no API documentation anywhere on docs.marketmuse.com, and the site has no integrations page (the /integrations URL returns 404). Getting content out is manual by design: Optimize exports to Google Docs or Word, a Copy for Publishing button hands formatted text to WordPress or HubSpot, and the ChatGPT connection from April 2023 is the one documented third-party link. Plan for export-and-paste in your workflow, or ask the sales team directly whether API access exists.
@@ -35,13 +35,13 @@ We found no API documentation anywhere on docs.marketmuse.com, and the site has 
 A query is spent when you enter a focus topic into one of the applications (Research, Compete, or Optimize). The Free plan includes 10 queries a month, Optimize 100, and Research and Strategy are unlimited, so a solo user testing workflows will exhaust the free ceiling in one planning session. Tracked topics and content briefs are counted separately, and both extra seats and extra topics can be purchased as add-ons under Settings, Subscription.
 
 - **Pricing:** Paid
-- **Category:** [SEO &amp; Search](/categories/seo/)
+- **Category:** [SEO & Search](/categories/seo/)
 - **Founded:** 2013
 - **HQ:** Boston, MA, USA
 - **API:** No
 - **Last verified:** 2026-09-07
 
-**Verdict:** MarketMuse is a tool in SEO &amp; Search with custom pricing. The catalog documents 4 AI features and 4 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** MarketMuse is a tool in SEO & Search with custom pricing. The catalog documents 4 AI features and 4 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Surfer SEO
 
@@ -63,13 +63,13 @@ Superlines
 
 AI Search Intelligence platform for brands and agencies
 
-[More SEO &amp; Search Tools →](/categories/seo/)
+[More SEO & Search Tools →](/categories/seo/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [SEO &amp; Search](/categories/seo/)
+- [SEO & Search](/categories/seo/)
 - MarketMuse
 Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
@@ -77,15 +77,15 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 AI-powered content strategy and optimization platform for SEO content teams
 
-SEO &amp; Search · Paid Desk-reviewed
+SEO & Search · Paid Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit MarketMuse &#8594;](https://www.marketmuse.com)
+[Visit MarketMuse →](https://www.marketmuse.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit MarketMuse &#8594;](https://www.marketmuse.com)
+[Visit MarketMuse →](https://www.marketmuse.com)
 
 ## MartechSignal Score: 28/60
 
@@ -121,10 +121,10 @@ Current plans and limits live on the [MarketMuse pricing page](https://www.marke
 
 ## How to install
 
-- No install: hosted SaaS. Create a free account at app.marketmuse.com with an email address and password (the account docs also describe 2FA). The pricing page&#x27;s Start my free trial link points to app.marketmuse.com/welcome, a JavaScript-only app that states no trial terms we could read.
+- No install: hosted SaaS. Create a free account at app.marketmuse.com with an email address and password (the account docs also describe 2FA). The pricing page's Start my free trial link points to app.marketmuse.com/welcome, a JavaScript-only app that states no trial terms we could read.
 - First-run setup is an inventory crawl: the docs say MarketMuse reads and analyzes the content on your website, which takes 10 to 30 minutes for a site with fewer than 16,000 topics. Topics and URLs can also be added manually, with data appearing in about 5 minutes.
 - Bulk inventory is CSV with a documented maximum of 500 rows per file. Extra user seats and topic packs are added under Settings, Subscription (Users and Inventories).
-- Content leaves by export: Optimize exports writing to Google Docs or Word, briefs export to both, and a Copy for Publishing button hands formatted text to WordPress or HubSpot. Up to 7 competitor URLs can be excluded from Connect&#x27;s linking recommendations.
+- Content leaves by export: Optimize exports writing to Google Docs or Word, briefs export to both, and a Copy for Publishing button hands formatted text to WordPress or HubSpot. Up to 7 competitor URLs can be excluded from Connect's linking recommendations.
 - Paid tiers route through a Book a demo form at marketmuse.com/book-demo. The docs describe in-app subscription management only for customers who signed up and paid on the web.
 ## Requirements
 
@@ -148,7 +148,7 @@ Corrections against our earlier record. Founding is July 2013 by Aki Balogh in B
 
 Integrations were overstated too. Google Docs and Word are export targets, not connectors; WordPress gets a documented copy-paste path instead of a plugin; ChatGPT (April 2023) is the one documented third-party link; and we found no evidence for Zapier or Google Search Console.
 
-The acquisition is the fact a buyer needs: Siteimprove acquired MarketMuse in October 2024, the docs now carry Siteimprove branding, and the product is marketed as MarketMuse by Siteimprove. Public momentum since then is thin: the newest entry in the docs&#x27; Platform Updates section is from February 2024, and the newest dated post in the blog&#x27;s news category is the acquisition announcement itself.
+The acquisition is the fact a buyer needs: Siteimprove acquired MarketMuse in October 2024, the docs now carry Siteimprove branding, and the product is marketed as MarketMuse by Siteimprove. Public momentum since then is thin: the newest entry in the docs' Platform Updates section is from February 2024, and the newest dated post in the blog's news category is the acquisition announcement itself.
 
 ## Verdict
 
@@ -170,13 +170,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-MarketMuse: AI-powered content strategy and optimization platform for SEO content teams. MarketMuse ships with AI content strategy documents (Content Strategy AI). This page documents 4 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+MarketMuse: AI-powered content strategy and optimization platform for SEO content teams. MarketMuse ships with AI content strategy documents (Content Strategy AI). This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
-MarketMuse uses paid pricing, so the number depends on your volume and contract. No published prices. Plans: Free (10 queries/mo), Optimize, Research, Strategy; all paid tiers are demo-gated. Optimize: 1 user, 100 tracked topics, 5 briefs/mo. Research: 3 users, 1,000 topics, unlimited queries. Strategy: 5 users, 10,000 topics, all 9 brief types. Our last verified read of the pricing model was 2026-09-07; the vendor&#x27;s pricing page carries the current quote criteria.
+MarketMuse uses paid pricing, so the number depends on your volume and contract. No published prices. Plans: Free (10 queries/mo), Optimize, Research, Strategy; all paid tiers are demo-gated. Optimize: 1 user, 100 tracked topics, 5 briefs/mo. Research: 3 users, 1,000 topics, unlimited queries. Strategy: 5 users, 10,000 topics, all 9 brief types. Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
 
 Genuine topic-level planning depth, now wrapped in demo-gated pricing, Siteimprove ownership, and a public changelog quiet since early 2024; probe both the roadmap and the quote before committing.
 
-MarketMuse no longer publishes prices. The pricing page lists four plans (Free, Optimize, Research, Strategy) and every paid tier&#x27;s call to action is Book a demo. Limits are published instead: Optimize covers 1 user, 100 tracked topics, and 5 content briefs a month; Research covers 3 users, 1,000 tracked topics, and unlimited queries; Strategy covers 5 users, 10,000 tracked topics, and all nine brief types. The terms of service say fees are payable in US dollars as specified on the invoice, and the docs note that some self-serve customers can still manage a subscription in Settings.
+MarketMuse no longer publishes prices. The pricing page lists four plans (Free, Optimize, Research, Strategy) and every paid tier's call to action is Book a demo. Limits are published instead: Optimize covers 1 user, 100 tracked topics, and 5 content briefs a month; Research covers 3 users, 1,000 tracked topics, and unlimited queries; Strategy covers 5 users, 10,000 tracked topics, and all nine brief types. The terms of service say fees are payable in US dollars as specified on the invoice, and the docs note that some self-serve customers can still manage a subscription in Settings.
 
 We found no API documentation anywhere on docs.marketmuse.com, and the site has no integrations page (the /integrations URL returns 404). Getting content out is manual by design: Optimize exports to Google Docs or Word, a Copy for Publishing button hands formatted text to WordPress or HubSpot, and the ChatGPT connection from April 2023 is the one documented third-party link. Plan for export-and-paste in your workflow, or ask the sales team directly whether API access exists.
 

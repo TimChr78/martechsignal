@@ -15,7 +15,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
 
 DIGITAL ADVERTISING · AI AGENTS · 8 MIN
 
-## Your insertion orders were written for humans: the IAB&#x27;s agentic buying rules land before your ad stack can honor them
+## Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them
 
 [How we review](/methodology/) · No affiliate links
 
@@ -82,7 +82,7 @@ The insertion order was written for humans because only humans could read a prop
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 ## Comparison guides
 
-- [Best Marketing Analytics &amp;amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
+- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 

@@ -13,18 +13,18 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Apache-2.0 licence with free self-hosting | &#10007; Young project (375 GitHub stars) - smaller community and plugin ecosystem |
-| &#10003; The privacy REST API covers consent, anonymization, and profile deletion out of the box, with no paid tier in front of it. | &#10007; No commercial cloud tier and no paid support exist, so every operational problem belongs to your team. |
-| &#10003; Running on Karaf as an OSGi bundle makes new conditions and actions pluggable without forking the core. | &#10007; The quick start is a discovery setup; production hardening is documented but manual, and there is no default UI for privacy or configuration. |
-| &#10003; Elasticsearch or MongoDB for storage and REST with JSON everywhere keeps the integration surface conventional. | &#10007; 375 GitHub stars means a small contributor base and little third-party tooling around the core. |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (375 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ The privacy REST API covers consent, anonymization, and profile deletion out of the box, with no paid tier in front of it. | ✗ No commercial cloud tier and no paid support exist, so every operational problem belongs to your team. |
+| ✓ Running on Karaf as an OSGi bundle makes new conditions and actions pluggable without forking the core. | ✗ The quick start is a discovery setup; production hardening is documented but manual, and there is no default UI for privacy or configuration. |
+| ✓ Elasticsearch or MongoDB for storage and REST with JSON everywhere keeps the integration surface conventional. | ✗ 375 GitHub stars means a small contributor base and little third-party tooling around the core. |
 
 **What is Apache Unomi?**
-Apache Unomi: Apache&#x27;s open-source customer data platform and personalization engine. The public repository carries 375 stars. Apache Unomi offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Apache Unomi: Apache's open-source customer data platform and personalization engine. The public repository carries 375 stars. Apache Unomi offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Apache Unomi cost?**
 Apache Unomi is open source - Apache-2.0 licensed and free to self-host; the public repository carries 375 stars; native integrations cover Apache Karaf, Elasticsearch, MongoDB. You pay in server time and maintenance, not licences.
 
-**Is Apache Unomi a good self-hosted Personalization &amp; CDP tool in 2026?**
+**Is Apache Unomi a good self-hosted Personalization & CDP tool in 2026?**
 A real CDP with privacy controls that you fully own and fully operate. The price is Java operations work and a small ecosystem, measured in attention rather than dollars.
 
 **Is Apache Unomi free?**
@@ -37,13 +37,13 @@ Java and Apache Karaf, with Elasticsearch or MongoDB for storage. The documented
 Not a marketer-facing one. Unomi is a REST server, and the privacy and configuration interfaces in particular are left to developers to expose, as the project documentation states.
 
 - **Pricing:** Open Source
-- **Category:** [Personalization &amp; CDP](/categories/personalization/)
+- **Category:** [Personalization & CDP](/categories/personalization/)
 - **GitHub:** ★ 375
 - **HQ:** Apache Software Foundation (community-governed)
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Apache Unomi is a tool in Personalization &amp; CDP with free and open source. The catalog documents 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Apache Unomi is a tool in Personalization & CDP with free and open source. The catalog documents 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Tealium
 
@@ -65,27 +65,27 @@ Nosto
 
 AI-powered ecommerce personalization with product recommendations and merchandising
 
-[More Personalization &amp; CDP Tools →](/categories/personalization/)
+[More Personalization & CDP Tools →](/categories/personalization/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [Personalization &amp; CDP](/categories/personalization/)
+- [Personalization & CDP](/categories/personalization/)
 - Apache Unomi
 ## Apache Unomi review (2026): pricing, AI features, verdict
 
-Apache&#x27;s open-source customer data platform and personalization engine
+Apache's open-source customer data platform and personalization engine
 
-Personalization &amp; CDP · Open Source Desk-reviewed
+Personalization & CDP · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-[Visit Apache Unomi &#8594;](https://unomi.apache.org)
+[Visit Apache Unomi →](https://unomi.apache.org)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Apache Unomi &#8594;](https://unomi.apache.org)
+[Visit Apache Unomi →](https://unomi.apache.org)
 
 ## MartechSignal Score: 36/60
 
@@ -144,7 +144,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Apache Unomi: Apache&#x27;s open-source customer data platform and personalization engine. The public repository carries 375 stars. Apache Unomi offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Apache Unomi: Apache's open-source customer data platform and personalization engine. The public repository carries 375 stars. Apache Unomi offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Apache Unomi is open source - Apache-2.0 licensed and free to self-host; the public repository carries 375 stars; native integrations cover Apache Karaf, Elasticsearch, MongoDB. You pay in server time and maintenance, not licences.
 
@@ -161,7 +161,7 @@ Not a marketer-facing one. Unomi is a REST server, and the privacy and configura
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 

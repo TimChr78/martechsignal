@@ -22,11 +22,11 @@ GLOSSARY
 
 ## Definition
 
-First-party data is information you collect directly from your customers and prospects: website behavior, purchase history, email engagement, survey responses, support interactions. You own it, you collected it with consent, and it doesn&#x27;t depend on a third party&#x27;s platform or cookie.
+First-party data is information you collect directly from your customers and prospects: website behavior, purchase history, email engagement, survey responses, support interactions. You own it, you collected it with consent, and it doesn't depend on a third party's platform or cookie.
 
 ## Why it matters
 
-First-party data went from a nice-to-have to a survival requirement as third-party cookies and mobile ad identifiers got restricted. The shift forced marketers to build direct relationships with their audiences instead of renting access through ad platforms. The companies that invested in email lists, loyalty programs, and preference centers five years ago are in a much stronger position now. The ones that didn&#x27;t are scrambling.
+First-party data went from a nice-to-have to a survival requirement as third-party cookies and mobile ad identifiers got restricted. The shift forced marketers to build direct relationships with their audiences instead of renting access through ad platforms. The companies that invested in email lists, loyalty programs, and preference centers five years ago are in a much stronger position now. The ones that didn't are scrambling.
 
 ## How it works
 
@@ -66,7 +66,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [Twilio Segment](https:/
 
 ### Categories
 
-[Analytics &amp; Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [Email Marketing](/categories/email-marketing/) [Best Email Marketing tools](/best/ai-email-marketing-tools/)
+[Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [Email Marketing](/categories/email-marketing/) [Best Email Marketing tools](/best/ai-email-marketing-tools/)
 
 ## See also
 

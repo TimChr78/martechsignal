@@ -30,7 +30,7 @@ Marketing automation is software that runs repetitive marketing tasks without ma
 
 ## Why it matters
 
-The category was defined by Eloqua and Marketo in the mid-2000s, both later acquired by Oracle and Adobe respectively. The original pitch was &#x27;do more with fewer people.&#x27; The reality is that most companies use about 20% of what they pay for. The tools that stuck around are the ones that made the common workflows easy, not the ones with the longest feature lists.
+The category was defined by Eloqua and Marketo in the mid-2000s, both later acquired by Oracle and Adobe respectively. The original pitch was 'do more with fewer people.' The reality is that most companies use about 20% of what they pay for. The tools that stuck around are the ones that made the common workflows easy, not the ones with the longest feature lists.
 
 ## How it works
 

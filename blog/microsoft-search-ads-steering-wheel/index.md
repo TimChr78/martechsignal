@@ -97,7 +97,7 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 - [Nosto](/tools/nosto/) - AI-powered ecommerce personalization with product recommendations and merchandising
 ## Comparison guides
 
-- [Best GEO &amp;amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
+- [Best GEO &amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 

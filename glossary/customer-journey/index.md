@@ -26,7 +26,7 @@ A customer journey map is a visual representation of every step a customer takes
 
 ## Why it matters
 
-Journey mapping sounds straightforward and is, in practice, where most marketing teams discover they don&#x27;t actually know what their customers do. The maps that work are built from data, analytics paths, support ticket themes, sales call transcripts, not from a workshop where everyone&#x27;s opinion gets equal weight. The AI tools entering this space are good at assembling the data. The interpretation still needs a human who&#x27;s willing to be wrong.
+Journey mapping sounds straightforward and is, in practice, where most marketing teams discover they don't actually know what their customers do. The maps that work are built from data, analytics paths, support ticket themes, sales call transcripts, not from a workshop where everyone's opinion gets equal weight. The AI tools entering this space are good at assembling the data. The interpretation still needs a human who's willing to be wrong.
 
 ## How it works
 
@@ -58,7 +58,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
 
 ### Categories
 
-[Analytics &amp; Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [CRM](/categories/crm/) [Best CRM tools](/best/ai-crm-tools/)
+[Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [CRM](/categories/crm/) [Best CRM tools](/best/ai-crm-tools/)
 
 ## See also
 

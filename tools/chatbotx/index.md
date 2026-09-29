@@ -13,26 +13,26 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Open-source licensing with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; API access for custom integrations |  |
-| &#10003; AI capabilities: agentic AI chat marketing |  |
+| ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ API access for custom integrations |  |
+| ✓ AI capabilities: agentic AI chat marketing |  |
 
 **What is ChatbotX?**
-ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 746 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 746 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does ChatbotX cost?**
 ChatbotX is open source - Free to self-host; the public repository carries 746 stars. You pay in server time and maintenance, not licences.
 
-**Is ChatbotX a good self-hosted Chatbots &amp; Conversational AI tool in 2026?**
+**Is ChatbotX a good self-hosted Chatbots & Conversational AI tool in 2026?**
 Right for technical teams that want ManyChat-style automation without lock-in. Everyone else should stay hosted.
 
 - **Pricing:** Open Source
-- **Category:** [Chatbots &amp; Conversational AI](/categories/chatbots/)
+- **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
 - **GitHub:** ★ 746
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** ChatbotX is a tool in Chatbots &amp; Conversational AI with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** ChatbotX is a tool in Chatbots & Conversational AI with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Chatfuel
 
@@ -50,13 +50,13 @@ n8n
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
-[More Chatbots &amp; Conversational AI Tools →](/categories/chatbots/)
+[More Chatbots & Conversational AI Tools →](/categories/chatbots/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [Chatbots &amp; Conversational AI](/categories/chatbots/)
+- [Chatbots & Conversational AI](/categories/chatbots/)
 - ChatbotX
 Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
@@ -64,15 +64,15 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 
-Chatbots &amp; Conversational AI · Open Source Desk-reviewed
+Chatbots & Conversational AI · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit ChatbotX &#8594;](https://chatbotx.io/docs)
+[Visit ChatbotX →](https://chatbotx.io/docs)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit ChatbotX &#8594;](https://chatbotx.io/docs)
+[Visit ChatbotX →](https://chatbotx.io/docs)
 
 ## MartechSignal Score: 31/60
 
@@ -97,7 +97,7 @@ Researched from public documentation, the source repository, and vendor material
 
 ChatbotX is the open-source answer to ManyChat: self-hosted chat marketing with flows for lead capture, qualification, and automated sales conversations across messaging channels, plus an agentic AI layer that moves past rigid scripts. The API opens custom integrations with your CRM and product stack, and because you host it, customer data never leaves your infrastructure. The repo sits at 524 stars, early but active, and the MIT license makes experimentation free.
 
-That ownership is the whole trade. Deployment, maintenance, scaling, and security are yours, the community is small next to ManyChat&#x27;s, and there is no vendor support to call. Non-technical marketers will stall at installation. Teams with engineering muscle and privacy requirements get the control they want without licensing fees, which is a fair swap only if you count your own time as cheap.
+That ownership is the whole trade. Deployment, maintenance, scaling, and security are yours, the community is small next to ManyChat's, and there is no vendor support to call. Non-technical marketers will stall at installation. Teams with engineering muscle and privacy requirements get the control they want without licensing fees, which is a fair swap only if you count your own time as cheap.
 
 ## Verdict
 
@@ -117,7 +117,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 746 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 746 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 ChatbotX is open source - Free to self-host; the public repository carries 746 stars. You pay in server time and maintenance, not licences.
 
@@ -132,7 +132,7 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
-- [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) &mdash; Developers that want ManyChat&#x27;s playbook as source code
+- [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Developers that want ManyChat's playbook as source code
 ### Quick Facts
 
 ### Pricing

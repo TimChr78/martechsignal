@@ -26,11 +26,11 @@ GLOSSARY
 
 ## Definition
 
-Marketing operations is the function that manages the technology, processes, and data behind marketing execution. Marketing ops owns the CRM configuration, the automation workflows, the reporting dashboards, the data hygiene, and the tech stack evaluation. They&#x27;re the people who make sure the campaign actually sends.
+Marketing operations is the function that manages the technology, processes, and data behind marketing execution. Marketing ops owns the CRM configuration, the automation workflows, the reporting dashboards, the data hygiene, and the tech stack evaluation. They're the people who make sure the campaign actually sends.
 
 ## Why it matters
 
-Marketing ops grew from an afterthought into a distinct discipline as martech stacks expanded. The average enterprise stack has 80+ tools, according to the annual Marketing Technology Landscape survey. Someone has to manage the integrations, clean the data, and explain why the numbers in the CRM don&#x27;t match the numbers in the analytics platform. That someone is marketing ops. The role is increasingly technical, and the best practitioners think in systems, not campaigns.
+Marketing ops grew from an afterthought into a distinct discipline as martech stacks expanded. The average enterprise stack has 80+ tools, according to the annual Marketing Technology Landscape survey. Someone has to manage the integrations, clean the data, and explain why the numbers in the CRM don't match the numbers in the analytics platform. That someone is marketing ops. The role is increasingly technical, and the best practitioners think in systems, not campaigns.
 
 ## How it works
 
@@ -38,7 +38,7 @@ Marketing operations is the discipline of making marketing run predictably: the 
 
 ## Practical uses
 
-Ops teams own tool inventory, integrations, lead flow quality, and the reporting everyone argues about. They build the bridge between marketing&#x27;s questions and the data that can answer them. The practical outputs are a stable stack, a documented process for adding and removing tools, and reports people trust. The discipline compounds: each cleaned source makes the next model, agent, or migration cheaper.
+Ops teams own tool inventory, integrations, lead flow quality, and the reporting everyone argues about. They build the bridge between marketing's questions and the data that can answer them. The practical outputs are a stable stack, a documented process for adding and removing tools, and reports people trust. The discipline compounds: each cleaned source makes the next model, agent, or migration cheaper.
 
 ## How to choose
 

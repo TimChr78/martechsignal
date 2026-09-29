@@ -4,7 +4,7 @@
 | Pillar | Score | Evidence |
 | --- | --- | --- |
 | Pricing transparency | 8/10 | Lite $129/mo, Standard $249/mo, Advanced $449/mo published with add-ons itemized from $99/mo; only Enterprise is quoted (the vendor pricing page, verified Sep 2026: [pricing page](https://ahrefs.com/pricing), verified 2026-09-28). |
-| Feature depth | 9/10 | A decade of backlink and keyword depth with Brand Radar&#x27;s AI share of voice and estimated impressions layered on top (vendor documentation: [vendor site](https://ahrefs.com), verified 2026-09-28). |
+| Feature depth | 9/10 | A decade of backlink and keyword depth with Brand Radar's AI share of voice and estimated impressions layered on top (vendor documentation: [vendor site](https://ahrefs.com), verified 2026-09-28). |
 | Integrations | 6/10 | Search Console, Looker Studio, the Ahrefs API and an SEO MCP server cover the working connections (vendor documentation: [vendor site](https://ahrefs.com), verified 2026-09-28). |
 | AI capability | 7/10 | Brand Radar tracks mentions and citations across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot (vendor documentation: [vendor site](https://ahrefs.com), verified 2026-09-28). |
 | Openness | 3/10 | Closed SaaS with an API and MCP server; the data business is the product (the source repository: [repository](https://ahrefs.com), verified 2026-09-28). |
@@ -13,18 +13,18 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude | &#10007; Closed source - no self-hosting option |
-| &#10003; Every paid plan from Lite up bundles a Custom Prompts quota, so light tracking costs nothing extra. | &#10007; Ahrefs&#x27; plan pricing page would not load past its cookie wall in September 2026, so costs cannot be verified beyond the Brand Radar page&#x27;s own figures. |
-| &#10003; The AI Visibility Index needs no setup and reaches back to 2025 for any brand or category. | &#10007; Index coverage leans on search demand, which the vendor itself says can limit results for brands with little or no search volume. |
-| &#10003; Metrics map to real search demand, so mentions and citations can be traced back to keywords and topics. | &#10007; Claude checks consume 8 checks per update, so prompt budgets run down fast with Claude enabled. |
+| ✓ AI capabilities: brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude | ✗ Closed source - no self-hosting option |
+| ✓ Every paid plan from Lite up bundles a Custom Prompts quota, so light tracking costs nothing extra. | ✗ Ahrefs' plan pricing page would not load past its cookie wall in September 2026, so costs cannot be verified beyond the Brand Radar page's own figures. |
+| ✓ The AI Visibility Index needs no setup and reaches back to 2025 for any brand or category. | ✗ Index coverage leans on search demand, which the vendor itself says can limit results for brands with little or no search volume. |
+| ✓ Metrics map to real search demand, so mentions and citations can be traced back to keywords and topics. | ✗ Claude checks consume 8 checks per update, so prompt budgets run down fast with Claude enabled. |
 
 **What is Ahrefs?**
-Ahrefs: Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit. Ahrefs ships with brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude. This page documents 4 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Ahrefs: Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit. Ahrefs ships with brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude. This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Ahrefs cost?**
 Ahrefs starts at $129/mo. Lite $129/month, Standard $249/month, Advanced $449/month, Enterprise quoted (verified Sep 2026). Add-ons: Report Builder from $99/month, AI Content Grader from $99/month, extra users $40-100/month. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
-**Is Ahrefs a good Geo &amp; Llm Optimization tool in 2026?**
+**Is Ahrefs a good Geo & Llm Optimization tool in 2026?**
 Brand Radar is the most data-backed AI-visibility tracker available, with indexes built from real search demand rather than synthetic prompts. Pricing opacity and its ties to the wider Ahrefs platform make it a natural add-on for existing customers first.
 
 **What does Ahrefs Brand Radar cost?**
@@ -37,12 +37,12 @@ Brand Radar runs 450M+ search-backed prompts through AI platforms and stores the
 The Index covers AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot. Custom Prompts adds Claude. YouTube, TikTok and Reddit visibility are included free while in beta.
 
 - **Pricing:** From $129/mo
-- **Category:** [GEO &amp; LLM Optimization](/categories/geo-llm-visibility/)
+- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - **HQ:** Singapore
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Ahrefs is a tool in GEO &amp; LLM Optimization with paid plans starting at $129/mo. The catalog documents 1 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Ahrefs is a tool in GEO & LLM Optimization with paid plans starting at $129/mo. The catalog documents 1 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 OtterlyAI
 
@@ -60,27 +60,27 @@ Writesonic
 
 The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
 
-[More GEO &amp; LLM Optimization Tools →](/categories/geo-llm-visibility/)
+[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [GEO &amp; LLM Optimization](/categories/geo-llm-visibility/)
+- [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Ahrefs
 ## Ahrefs review (2026): pricing, AI features, verdict
 
 Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 
-GEO &amp; LLM Optimization · From $129/mo Desk-reviewed
+GEO & LLM Optimization · From $129/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-[Visit Ahrefs &#8594;](https://ahrefs.com)
+[Visit Ahrefs →](https://ahrefs.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Ahrefs &#8594;](https://ahrefs.com)
+[Visit Ahrefs →](https://ahrefs.com)
 
 ## MartechSignal Score: 42/60
 
@@ -146,7 +146,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Ahrefs: Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit. Ahrefs ships with brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude. This page documents 4 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Ahrefs: Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit. Ahrefs ships with brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude. This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Ahrefs starts at $129/mo. Lite $129/month, Standard $249/month, Advanced $449/month, Enterprise quoted (verified Sep 2026). Add-ons: Report Builder from $99/month, AI Content Grader from $99/month, extra users $40-100/month. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -167,7 +167,7 @@ The Index covers AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot.
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
-- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) &mdash; Best if you already pay for Ahrefs and want the AI question answered from your existing stack.
+- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best if you already pay for Ahrefs and want the AI question answered from your existing stack.
 ### Quick Facts
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)

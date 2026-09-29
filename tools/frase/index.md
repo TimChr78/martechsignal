@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: frase Agent (AI SEO agent) | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Google Search Console, Google Analytics 4, Google Docs (14 listed) |  |
-| &#10003; API access for custom integrations |  |
+| ✓ AI capabilities: frase Agent (AI SEO agent) | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Google Search Console, Google Analytics 4, Google Docs (14 listed) |  |
+| ✓ API access for custom integrations |  |
 
 **What is Frase?**
-Frase: AI-powered SEO content platform for research, writing, and AI visibility tracking. Frase ships with frase Agent (AI SEO agent). This page documents 14 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Frase: AI-powered SEO content platform for research, writing, and AI visibility tracking. Frase ships with frase Agent (AI SEO agent). This page documents 14 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Frase cost?**
 Frase starts at $39/mo. Starter $39/mo yearly ($49 monthly, 1 seat, 10 articles); Professional $103/mo ($129 monthly, 3 seats, 5 sites); Scale $239/mo ($299 monthly, 5 seats, 10 domains); Enterprise custom; free 7-day trial, no card. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -29,18 +29,18 @@ An agent-first rebuild of a familiar brief-and-draft tool, now with real AI-visi
 **How much does Frase cost in 2026?**
 Four plans: Starter at $39 a month billed yearly ($49 month to month) with 1 seat, 1 site, 10 articles, and 50 audit pages a month; Professional at $103 ($129 monthly) with 3 seats, 5 sites, 40 articles, and 250 audit pages; Scale at $239 ($299 monthly) with 5 seats, 10 domains, 100 articles, and 1,000 audit pages; and Enterprise, custom and scoped to your org. Yearly billing takes 20% off, extra seats are $29 a month on Professional and Scale, and the 7-day trial is free with no credit card.
 
-**What is the difference between Frase&#x27;s AI Visibility and GEO features?**
+**What is the difference between Frase's AI Visibility and GEO features?**
 The docs draw the line explicitly: AI Visibility is about tracking, GEO is about optimization. AI Visibility monitors tracked prompts, classifies each as awareness, consideration, or decision, and reports cited URLs, position, sentiment, and share of voice, with prompt caps of 50 on Starter, 200 on Professional, and 500 on Scale, and engine coverage expanding by tier from ChatGPT and Google AI to Perplexity, then Claude and Gemini. GEO Optimization scores how well a page is structured to be extracted, trusted, and cited, expressed in the 0-100 GEO Score alongside EEAT and SEO scores.
 
 **Does Frase still integrate with Surfer SEO?**
-We found no Surfer integration in Frase&#x27;s integrations page or docs index; Surfer is a competitor, and Frase publishes a comparison page against it. The documented integrations are Google Search Console, Google Analytics 4, Google Docs (an OAuth connector for imports, brand voice, and exports), Notion, Slack, Linear, GitHub, and direct publishing to WordPress, Webflow, Sanity, and Wix, with Zapier, Make, and n8n possible through the REST API. An earlier Chrome extension is not documented anywhere we could read.
+We found no Surfer integration in Frase's integrations page or docs index; Surfer is a competitor, and Frase publishes a comparison page against it. The documented integrations are Google Search Console, Google Analytics 4, Google Docs (an OAuth connector for imports, brand voice, and exports), Notion, Slack, Linear, GitHub, and direct publishing to WordPress, Webflow, Sanity, and Wix, with Zapier, Make, and n8n possible through the REST API. An earlier Chrome extension is not documented anywhere we could read.
 
 - **Pricing:** From $39/mo
-- **Category:** [SEO &amp; Search](/categories/seo/)
+- **Category:** [SEO & Search](/categories/seo/)
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Frase is a tool in SEO &amp; Search with paid plans starting at $39/mo. The catalog documents 8 AI features, 14 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Frase is a tool in SEO & Search with paid plans starting at $39/mo. The catalog documents 8 AI features, 14 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Clearscope
 
@@ -58,13 +58,13 @@ MarketMuse
 
 AI-powered content strategy and optimization platform for SEO content teams
 
-[More SEO &amp; Search Tools →](/categories/seo/)
+[More SEO & Search Tools →](/categories/seo/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [SEO &amp; Search](/categories/seo/)
+- [SEO & Search](/categories/seo/)
 - Frase
 Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
@@ -72,15 +72,15 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 AI-powered SEO content platform for research, writing, and AI visibility tracking
 
-SEO &amp; Search · From $39/mo Desk-reviewed
+SEO & Search · From $39/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Frase &#8594;](https://www.frase.io)
+[Visit Frase →](https://www.frase.io)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Frase &#8594;](https://www.frase.io)
+[Visit Frase →](https://www.frase.io)
 
 ## MartechSignal Score: 37/60
 
@@ -90,7 +90,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Frase relaunched in 2026 as what its own docs call the agentic SEO and GEO platform, and the new product is materially different from the brief-and-editor tool most reviews still describe. The current loop is: connect a site, run an audit that crawls up to your plan&#x27;s audit-page allowance, review prioritized opportunities, then let Frase Agent research a topic, draft the page in your brand voice, and publish it through WordPress, Webflow, Sanity, or Wix. Content quality is scored three ways on a 0-100 scale (EEAT Score, GEO Score, and SEO Score, with 70 to 85 described as solid), Content Guard monitors published pages and proposes confidence-tagged fixes, and Frase Answers, added in June 2026, is an on-site widget that answers visitor questions from your own content. AI search is a first-class product line rather than an add-on: AI Visibility tracks cited URLs, sentiment, and share of voice across ChatGPT and Google AI on Starter, adding Perplexity on Professional and Claude and Gemini on Scale, while GEO Optimization tunes content for extraction and citation. Plans are Starter at $39 a month billed yearly ($49 monthly, 1 seat, 10 articles, 50 audit pages), Professional at $103 ($129 monthly, 3 seats, 5 sites, 40 articles), Scale at $239 ($299 monthly, 5 seats, 10 domains, 100 articles), and Enterprise custom, with extra seats at $29 and optional overages. Every plan includes API, MCP, and CLI request allowances from 5,000 to 50,000 a month, which is unusual for an SEO suite to publish. Frase is owned by Copysmith, whose trust center also lists Describely and Rytr, and operates as a remote-first company. The 7-day trial is free with no credit card. It fits teams that want research, drafting, publishing, and AI-visibility tracking in one place, and that will trade a traditional editor for an agent-first workflow.
+Frase relaunched in 2026 as what its own docs call the agentic SEO and GEO platform, and the new product is materially different from the brief-and-editor tool most reviews still describe. The current loop is: connect a site, run an audit that crawls up to your plan's audit-page allowance, review prioritized opportunities, then let Frase Agent research a topic, draft the page in your brand voice, and publish it through WordPress, Webflow, Sanity, or Wix. Content quality is scored three ways on a 0-100 scale (EEAT Score, GEO Score, and SEO Score, with 70 to 85 described as solid), Content Guard monitors published pages and proposes confidence-tagged fixes, and Frase Answers, added in June 2026, is an on-site widget that answers visitor questions from your own content. AI search is a first-class product line rather than an add-on: AI Visibility tracks cited URLs, sentiment, and share of voice across ChatGPT and Google AI on Starter, adding Perplexity on Professional and Claude and Gemini on Scale, while GEO Optimization tunes content for extraction and citation. Plans are Starter at $39 a month billed yearly ($49 monthly, 1 seat, 10 articles, 50 audit pages), Professional at $103 ($129 monthly, 3 seats, 5 sites, 40 articles), Scale at $239 ($299 monthly, 5 seats, 10 domains, 100 articles), and Enterprise custom, with extra seats at $29 and optional overages. Every plan includes API, MCP, and CLI request allowances from 5,000 to 50,000 a month, which is unusual for an SEO suite to publish. Frase is owned by Copysmith, whose trust center also lists Describely and Rytr, and operates as a remote-first company. The 7-day trial is free with no credit card. It fits teams that want research, drafting, publishing, and AI-visibility tracking in one place, and that will trade a traditional editor for an agent-first workflow.
 
 Frase homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -137,11 +137,11 @@ Current plans and limits live on the [Frase pricing page](https://www.frase.io/p
 - For agents, Frase runs an MCP server at next.frase.io/api/mcp plus a CLI (npx @frase/cli), documented for Claude, ChatGPT, Codex, Cursor, and the terminal, on every plan.
 ## Requirements
 
-A browser plus a site you can verify: the Google Search Console connection powers SEO analytics and AI Visibility context, and publishing needs CMS credentials or an API connection. Plans meter articles, audit pages, AI generations, AI Visibility prompts, and API/MCP/CLI requests, so realistic monthly output is the real requirement. Roles (Owner, Admin, Editor, Viewer) arrive on every plan except Starter&#x27;s single seat.
+A browser plus a site you can verify: the Google Search Console connection powers SEO analytics and AI Visibility context, and publishing needs CMS credentials or an API connection. Plans meter articles, audit pages, AI generations, AI Visibility prompts, and API/MCP/CLI requests, so realistic monthly output is the real requirement. Roles (Owner, Admin, Editor, Viewer) arrive on every plan except Starter's single seat.
 
 ## Best for
 
-Content teams and agencies that want one platform covering research, drafting, optimization scores, publishing, and AI-search visibility, with MCP and CLI access for agents. Professional (3 seats, 5 sites) is the natural in-house fit; Scale&#x27;s 10 domains and agency client portal target multi-brand work.
+Content teams and agencies that want one platform covering research, drafting, optimization scores, publishing, and AI-search visibility, with MCP and CLI access for agents. Professional (3 seats, 5 sites) is the natural in-house fit; Scale's 10 domains and agency client portal target multi-brand work.
 
 ## Not for
 
@@ -157,7 +157,7 @@ The structural correction: our earlier description described Legacy Frase, with 
 
 Two more corrections. The price floor is $39 billed yearly, not the $15 we published, so our price_from changes with it. And the integrations list loses Surfer SEO (a competitor with its own comparison page, not an integration) and the Chrome extension (not documented anywhere we read); the documented set is Google Search Console, Google Analytics 4, Google Docs, Notion, Slack, Linear, GitHub, and CMS publishing.
 
-Ownership is the fact a buyer should weigh: Frase&#x27;s own trust badges point to the Copysmith trust center, which names Frase.io, Describely.ai, and Rytr.me as its products. The live about page gives no founding year and no founders, describing a remote-first company, so we dropped our earlier founded-2018 and New York claims. For a tool that stores your content pipeline, ask about roadmap independence across the three brands before an annual commitment.
+Ownership is the fact a buyer should weigh: Frase's own trust badges point to the Copysmith trust center, which names Frase.io, Describely.ai, and Rytr.me as its products. The live about page gives no founding year and no founders, describing a remote-first company, so we dropped our earlier founded-2018 and New York claims. For a tool that stores your content pipeline, ask about roadmap independence across the three brands before an annual commitment.
 
 ## Verdict
 
@@ -179,7 +179,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Frase: AI-powered SEO content platform for research, writing, and AI visibility tracking. Frase ships with frase Agent (AI SEO agent). This page documents 14 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Frase: AI-powered SEO content platform for research, writing, and AI visibility tracking. Frase ships with frase Agent (AI SEO agent). This page documents 14 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Frase starts at $39/mo. Starter $39/mo yearly ($49 monthly, 1 seat, 10 articles); Professional $103/mo ($129 monthly, 3 seats, 5 sites); Scale $239/mo ($299 monthly, 5 seats, 10 domains); Enterprise custom; free 7-day trial, no card. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -189,7 +189,7 @@ Four plans: Starter at $39 a month billed yearly ($49 month to month) with 1 sea
 
 The docs draw the line explicitly: AI Visibility is about tracking, GEO is about optimization. AI Visibility monitors tracked prompts, classifies each as awareness, consideration, or decision, and reports cited URLs, position, sentiment, and share of voice, with prompt caps of 50 on Starter, 200 on Professional, and 500 on Scale, and engine coverage expanding by tier from ChatGPT and Google AI to Perplexity, then Claude and Gemini. GEO Optimization scores how well a page is structured to be extracted, trusted, and cited, expressed in the 0-100 GEO Score alongside EEAT and SEO scores.
 
-We found no Surfer integration in Frase&#x27;s integrations page or docs index; Surfer is a competitor, and Frase publishes a comparison page against it. The documented integrations are Google Search Console, Google Analytics 4, Google Docs (an OAuth connector for imports, brand voice, and exports), Notion, Slack, Linear, GitHub, and direct publishing to WordPress, Webflow, Sanity, and Wix, with Zapier, Make, and n8n possible through the REST API. An earlier Chrome extension is not documented anywhere we could read.
+We found no Surfer integration in Frase's integrations page or docs index; Surfer is a competitor, and Frase publishes a comparison page against it. The documented integrations are Google Search Console, Google Analytics 4, Google Docs (an OAuth connector for imports, brand voice, and exports), Notion, Slack, Linear, GitHub, and direct publishing to WordPress, Webflow, Sanity, and Wix, with Zapier, Make, and n8n possible through the REST API. An earlier Chrome extension is not documented anywhere we could read.
 
 ## Similar Tools
 
@@ -200,7 +200,7 @@ We found no Surfer integration in Frase&#x27;s integrations page or docs index; 
 - [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ## Also featured in
 
-- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) &mdash; Best for small content teams that want research, briefs and drafting in one tool.
+- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for small content teams that want research, briefs and drafting in one tool.
 ### Quick Facts
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)

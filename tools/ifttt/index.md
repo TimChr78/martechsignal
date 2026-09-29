@@ -6,19 +6,19 @@
 | Pricing transparency | 9/10 | Free (2 Applets), Pro $2.99/mo annual (20 Applets), Pro+ $8.99/mo annual (unlimited), all published with exact counts (the vendor pricing page: [pricing page](https://ifttt.com/plans), verified 2026-09-28). |
 | Feature depth | 5/10 | Applet automation with code steps cover consumer and smart-device workflows (vendor documentation: [vendor site](https://ifttt.com), verified 2026-09-28). |
 | Integrations | 6/10 | Gmail, Sheets, Twitter, Discord, webhooks and YouTube documented plus an API (vendor documentation: [vendor site](https://ifttt.com), verified 2026-09-28). |
-| AI capability | 3/10 | AI services on Pro+ and query/filter code steps are the automation layer&#x27;s only AI surface (vendor documentation: [vendor site](https://ifttt.com), verified 2026-09-28). |
+| AI capability | 3/10 | AI services on Pro+ and query/filter code steps are the automation layer's only AI surface (vendor documentation: [vendor site](https://ifttt.com), verified 2026-09-28). |
 | Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://ifttt.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2010 with sixteen years of consumer automation behind it (vendor documentation: [vendor site](https://ifttt.com), verified 2026-09-28). |
 
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI services on Pro+ | &#10007; Paid plans start at $2.99/mo once past the free tier |
-| &#10003; Native integrations include Gmail, Google Sheets, Twitter (6 listed) | &#10007; Closed source - no self-hosting option |
-| &#10003; Free tier to evaluate before committing (Free (2 Applets, standard speeds); Pro $2) |  |
+| ✓ AI capabilities: AI services on Pro+ | ✗ Paid plans start at $2.99/mo once past the free tier |
+| ✓ Native integrations include Gmail, Google Sheets, Twitter (6 listed) | ✗ Closed source - no self-hosting option |
+| ✓ Free tier to evaluate before committing (Free (2 Applets, standard speeds); Pro $2) |  |
 
 **What is IFTTT?**
-IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT ships with AI services on Pro+. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT ships with AI services on Pro+. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does IFTTT cost?**
 IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -67,11 +67,11 @@ Workflow Automation · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
-[Visit IFTTT &#8594;](https://ifttt.com)
+[Visit IFTTT →](https://ifttt.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit IFTTT &#8594;](https://ifttt.com)
+[Visit IFTTT →](https://ifttt.com)
 
 ## MartechSignal Score: 34/60
 
@@ -105,7 +105,7 @@ Current plans and limits live on the [IFTTT pricing page](https://ifttt.com/plan
 
 ## Review notes
 
-Researched from the vendor&#x27;s public pricing and product pages on 2026-09-27. Not a hands-on test.
+Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test.
 
 ## Pros and cons
 
@@ -123,7 +123,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT ships with AI services on Pro+. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT ships with AI services on Pro+. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -134,8 +134,8 @@ Strengths include an API for custom integrations. The full review breaks down wh
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ### Quick Facts
 
 Related guides: [IFTTT in Zapier alternatives](/alternatives/zapier/)

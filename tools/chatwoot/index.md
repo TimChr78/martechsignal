@@ -13,38 +13,38 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $19/mo once past the free tier |
-| &#10003; AI capabilities: captain Assistant (AI chatbot) |  |
-| &#10003; Active public repository (36,644 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include Slack, Linear, Dialogflow (6 listed) |  |
+| ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $19/mo once past the free tier |
+| ✓ AI capabilities: captain Assistant (AI chatbot) |  |
+| ✓ Active public repository (36,644 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Slack, Linear, Dialogflow (6 listed) |  |
 
 **What is Chatwoot?**
-Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 36,644 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 36,644 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Chatwoot cost?**
 Chatwoot has a free tier; paid plans start at $19/mo. Community Edition free self-hosted (MIT Expat; the enterprise/ directory is separately licensed). Cloud: Hacker free (2 agents), Startups $19, Business $39, Enterprise $99 per agent/mo billed annually. Captain AI credits $20 per 1,000. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
-**Is Chatwoot a good self-hosted Chatbots &amp; Conversational AI tool in 2026?**
+**Is Chatwoot a good self-hosted Chatbots & Conversational AI tool in 2026?**
 The strongest self-hostable support inbox in open source, with real AI now bolted on behind a paid licence; budget for infrastructure and for writing your own integrations.
 
 **How much RAM and CPU does self-hosted Chatwoot need?**
 The requirements page states 4GB RAM as the required minimum and 4 cores as the recommended minimum, each supporting up to 10,000 conversations a day, with 8GB and 8 cores supporting 20,000. It also asks for at least 1GB of swap, Redis 7.0 or higher, and Ruby 3.2 or later for source installs. Postgres is the only supported database, and the production compose image ships Postgres 16 with pgvector for the AI features.
 
 **Can I use Captain AI on a self-hosted Chatwoot instance?**
-Yes, but not on the free community edition: the guide lists Chatwoot Enterprise Edition with a paid plan and a valid OpenAI API key as prerequisites. The default model is gpt-4o-mini and a self-hosted OpenAI-compatible endpoint can be supplied instead, and the docs note that in a self-hosted setup Captain only sends data to the model you choose. Captain has to be enabled in the Super Admin Console and then toggled on in the account&#x27;s Premium Features.
+Yes, but not on the free community edition: the guide lists Chatwoot Enterprise Edition with a paid plan and a valid OpenAI API key as prerequisites. The default model is gpt-4o-mini and a self-hosted OpenAI-compatible endpoint can be supplied instead, and the docs note that in a self-hosted setup Captain only sends data to the model you choose. Captain has to be enabled in the Super Admin Console and then toggled on in the account's Premium Features.
 
-**What do Chatwoot&#x27;s AI credits cover and how do they bill?**
+**What do Chatwoot's AI credits cover and how do they bill?**
 Every Captain action consumes 1 credit per message because a fixed model configuration is used, and the documented credit-consuming actions include assistant responses, Copilot lookups, editor actions such as rephrase, summarize, and suggest a reply, label suggestions, workflow model calls, and audio transcription. Paid cloud plans include 300 credits monthly on Startups, 500 on Business, and 800 on Enterprise, additional credits bill at $20 per 1,000, and purchased credits expire after 6 months and require an active subscription.
 
 - **Pricing:** Open Source
-- **Category:** [Chatbots &amp; Conversational AI](/categories/chatbots/)
+- **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
 - **GitHub:** ★ 36644
 - **Founded:** 2019
 - **HQ:** Distributed team across the US and India; YC profile lists San Francisco
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Chatwoot is a tool in Chatbots &amp; Conversational AI with free and open source. The catalog documents 6 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Chatwoot is a tool in Chatbots & Conversational AI with free and open source. The catalog documents 6 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Intercom
 
@@ -62,13 +62,13 @@ Scrunch
 
 The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 
-[More Chatbots &amp; Conversational AI Tools →](/categories/chatbots/)
+[More Chatbots & Conversational AI Tools →](/categories/chatbots/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [Chatbots &amp; Conversational AI](/categories/chatbots/)
+- [Chatbots & Conversational AI](/categories/chatbots/)
 - Chatwoot
 Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
@@ -76,15 +76,15 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 Open-source customer engagement suite with Captain AI and full self-hosting
 
-Chatbots &amp; Conversational AI · Open Source Desk-reviewed
+Chatbots & Conversational AI · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Chatwoot &#8594;](https://www.chatwoot.com)
+[Visit Chatwoot →](https://www.chatwoot.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Chatwoot &#8594;](https://www.chatwoot.com)
+[Visit Chatwoot →](https://www.chatwoot.com)
 
 ## MartechSignal Score: 39/60
 
@@ -173,7 +173,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 36,644 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 36,644 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Chatwoot has a free tier; paid plans start at $19/mo. Community Edition free self-hosted (MIT Expat; the enterprise/ directory is separately licensed). Cloud: Hacker free (2 agents), Startups $19, Business $39, Enterprise $99 per agent/mo billed annually. Captain AI credits $20 per 1,000. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -181,7 +181,7 @@ The strongest self-hostable support inbox in open source, with real AI now bolte
 
 The requirements page states 4GB RAM as the required minimum and 4 cores as the recommended minimum, each supporting up to 10,000 conversations a day, with 8GB and 8 cores supporting 20,000. It also asks for at least 1GB of swap, Redis 7.0 or higher, and Ruby 3.2 or later for source installs. Postgres is the only supported database, and the production compose image ships Postgres 16 with pgvector for the AI features.
 
-Yes, but not on the free community edition: the guide lists Chatwoot Enterprise Edition with a paid plan and a valid OpenAI API key as prerequisites. The default model is gpt-4o-mini and a self-hosted OpenAI-compatible endpoint can be supplied instead, and the docs note that in a self-hosted setup Captain only sends data to the model you choose. Captain has to be enabled in the Super Admin Console and then toggled on in the account&#x27;s Premium Features.
+Yes, but not on the free community edition: the guide lists Chatwoot Enterprise Edition with a paid plan and a valid OpenAI API key as prerequisites. The default model is gpt-4o-mini and a self-hosted OpenAI-compatible endpoint can be supplied instead, and the docs note that in a self-hosted setup Captain only sends data to the model you choose. Captain has to be enabled in the Super Admin Console and then toggled on in the account's Premium Features.
 
 Every Captain action consumes 1 credit per message because a fixed model configuration is used, and the documented credit-consuming actions include assistant responses, Copilot lookups, editor actions such as rephrase, summarize, and suggest a reply, label suggestions, workflow model calls, and audio transcription. Paid cloud plans include 300 credits monthly on Startups, 500 on Business, and 800 on Enterprise, additional credits bill at $20 per 1,000, and purchased credits expire after 6 months and require an active subscription.
 
@@ -194,7 +194,7 @@ Every Captain action consumes 1 credit per message because a fixed model configu
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Also featured in
 
-- [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) &mdash; Teams that want an open-source inbox with AI help included
+- [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Teams that want an open-source inbox with AI help included
 ### Quick Facts
 
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)

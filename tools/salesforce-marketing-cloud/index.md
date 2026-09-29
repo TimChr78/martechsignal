@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: agentforce campaign creation | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Salesforce CRM, Data 360 (Data Cloud), Slack (9 listed) |  |
-| &#10003; API access for custom integrations |  |
+| ✓ AI capabilities: agentforce campaign creation | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Salesforce CRM, Data 360 (Data Cloud), Slack (9 listed) |  |
+| ✓ API access for custom integrations |  |
 
 **What is Salesforce Marketing Cloud?**
-Salesforce Marketing Cloud: Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web. Salesforce Marketing Cloud ships with agentforce campaign creation. This page documents 9 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Salesforce Marketing Cloud: Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web. Salesforce Marketing Cloud ships with agentforce campaign creation. This page documents 9 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Salesforce Marketing Cloud cost?**
 Salesforce Marketing Cloud starts at $25/mo. Per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -30,7 +30,7 @@ The safest choice inside a Salesforce org with marketing ops headcount and an ex
 The product is being rebranded. Salesforce now presents it as Agentforce Marketing, with Marketing Cloud Next as the flagship, the legacy Engagement platform described as the B2C Agentic Marketing Platform, Pardot appearing as Account Engagement, and the customer data platform branded Data 360. Older material still uses Marketing Cloud and Einstein, so documentation, training content, and contractor experience can lag the current naming.
 
 **Is there a free trial for Marketing Cloud?**
-Only at the small end. Starter Suite and Pro Suite carry a &#x27;try for free&#x27; link on the pricing page. Marketing Cloud Next Growth and Advanced list no self-serve trial: they are sold through sales, billed annually, and paid in advance, and the Premier success plan adds 30 percent of net license fees on top of the license.
+Only at the small end. Starter Suite and Pro Suite carry a 'try for free' link on the pricing page. Marketing Cloud Next Growth and Advanced list no self-serve trial: they are sold through sales, billed annually, and paid in advance, and the Premier success plan adds 30 percent of net license fees on top of the license.
 
 - **Pricing:** Enterprise
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
@@ -75,11 +75,11 @@ Marketing Automation · Enterprise Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
-[Visit Salesforce Marketing Cloud &#8594;](https://www.salesforce.com/products/marketing-cloud/)
+[Visit Salesforce Marketing Cloud →](https://www.salesforce.com/products/marketing-cloud/)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Salesforce Marketing Cloud &#8594;](https://www.salesforce.com/products/marketing-cloud/)
+[Visit Salesforce Marketing Cloud →](https://www.salesforce.com/products/marketing-cloud/)
 
 ## MartechSignal Score: 42/60
 
@@ -89,7 +89,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. The current structure splits by motion: Marketing Cloud Next is the flagship, sold as Growth and Advanced editions per org; the B2C Agentic Marketing Platform carries the legacy Engagement (formerly ExactTarget) install base; B2B runs on Account Engagement, the former Pardot, or the Account Engagement+ edition; and Data 360 is the customer data platform underneath. Pricing, which used to be quote-only, is now published: Marketing Cloud Next Growth lists at $1,500 per org per month billed annually with Agentforce campaign creation, multi-channel journeys, forms, and landing pages, and Advanced lists at $3,250 per org per month, adding path experimentation and two-way conversations for SMS and WhatsApp. Salesforce Starter, at $25 per user per month, is the small-business entry with dynamic email marketing and analytics and a self-serve trial. Add-ons are priced separately and are not small: Personalization at $8,000 per month, Marketing Intelligence at $10,000, and Loyalty Management at $20,000, each billed annually per org, with existing-customer &quot;+&quot; editions from $1,250 to $15,000 per month. The AI layer is marketed as Agentforce rather than Einstein on the current pages: campaign creation, personalization decisioning, paid media optimization, AI campaign summaries, and loyalty promotion creation, with partner Qualified&#x27;s Piper positioned as the AI SDR agent. Channels named on the product pages are email, SMS, and web, with Agentforce turning one-way sends into two-way conversations. For an org already on Salesforce CRM and Data 360 the case is straightforward. For everyone else, the costs are the edition price plus add-ons that can each exceed the base edition, annual billing paid in advance, and implementation work that assumes dedicated marketing operations staff.
+Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. The current structure splits by motion: Marketing Cloud Next is the flagship, sold as Growth and Advanced editions per org; the B2C Agentic Marketing Platform carries the legacy Engagement (formerly ExactTarget) install base; B2B runs on Account Engagement, the former Pardot, or the Account Engagement+ edition; and Data 360 is the customer data platform underneath. Pricing, which used to be quote-only, is now published: Marketing Cloud Next Growth lists at $1,500 per org per month billed annually with Agentforce campaign creation, multi-channel journeys, forms, and landing pages, and Advanced lists at $3,250 per org per month, adding path experimentation and two-way conversations for SMS and WhatsApp. Salesforce Starter, at $25 per user per month, is the small-business entry with dynamic email marketing and analytics and a self-serve trial. Add-ons are priced separately and are not small: Personalization at $8,000 per month, Marketing Intelligence at $10,000, and Loyalty Management at $20,000, each billed annually per org, with existing-customer "+" editions from $1,250 to $15,000 per month. The AI layer is marketed as Agentforce rather than Einstein on the current pages: campaign creation, personalization decisioning, paid media optimization, AI campaign summaries, and loyalty promotion creation, with partner Qualified's Piper positioned as the AI SDR agent. Channels named on the product pages are email, SMS, and web, with Agentforce turning one-way sends into two-way conversations. For an org already on Salesforce CRM and Data 360 the case is straightforward. For everyone else, the costs are the edition price plus add-ons that can each exceed the base edition, annual billing paid in advance, and implementation work that assumes dedicated marketing operations staff.
 
 Salesforce Marketing Cloud homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -121,7 +121,7 @@ Current plans and limits live on the [Salesforce Marketing Cloud pricing page](h
 
 ## How to install
 
-- Start with Salesforce Starter at $25 per user per month if you want a self-serve path: it is the only tier on the pricing page with a &#x27;try for free&#x27; option, and it includes dynamic email marketing and analytics plus lead routing.
+- Start with Salesforce Starter at $25 per user per month if you want a self-serve path: it is the only tier on the pricing page with a 'try for free' option, and it includes dynamic email marketing and analytics plus lead routing.
 - For Marketing Cloud Next, talk to sales. Growth ($1,500 per org per month) and Advanced ($3,250) are billed annually and paid in advance, and they license per org rather than per user.
 - Model the add-ons before you commit to an edition. Personalization ($8,000 per month), Marketing Intelligence ($10,000), and Loyalty Management ($20,000) are separate line items, and existing customers can reach the same capability through the Intelligence+ ($11,000) and Personalization+ ($15,000) editions instead.
 - Budget support as its own line: Standard is included in all licenses, Premier is listed at 30 percent of net license fees, and Signature is quoted by an account executive.
@@ -135,11 +135,11 @@ Small teams without dedicated marketing operations, and anyone who needs loyalty
 
 ## Review notes
 
-Marketing Cloud is the enterprise benchmark, and what it is benchmarked for changed through 2025 and 2026: the current product pages sell agentic marketing on top of the CRM data model, and Journey Builder and Einstein no longer appear in the content we reviewed. The shape of the commitment has not changed: per-org licensing billed annually, add-ons priced separately, and an implementation surface that assumes dedicated ops. Assessed from Salesforce&#x27;s published product and pricing pages.
+Marketing Cloud is the enterprise benchmark, and what it is benchmarked for changed through 2025 and 2026: the current product pages sell agentic marketing on top of the CRM data model, and Journey Builder and Einstein no longer appear in the content we reviewed. The shape of the commitment has not changed: per-org licensing billed annually, add-ons priced separately, and an implementation surface that assumes dedicated ops. Assessed from Salesforce's published product and pricing pages.
 
-The pricing page is now the most useful document in the sales cycle, because it publishes numbers that used to require a conversation: Growth at $1,500 per org per month, Advanced at $3,250, and add-ons from $8,000 to $20,000 per month each. Model the add-ons before the edition, since a single Personalization or Marketing Intelligence add-on costs more than the Growth edition itself, and the bundled &quot;+&quot; editions run to $15,000 per month.
+The pricing page is now the most useful document in the sales cycle, because it publishes numbers that used to require a conversation: Growth at $1,500 per org per month, Advanced at $3,250, and add-ons from $8,000 to $20,000 per month each. Model the add-ons before the edition, since a single Personalization or Marketing Intelligence add-on costs more than the Growth edition itself, and the bundled "+" editions run to $15,000 per month.
 
-Trials are the other asymmetry. Starter Suite and Pro Suite carry a self-serve &#x27;try for free&#x27; path on the pricing page, while Growth and Advanced have no listed self-serve trial, are paid annually in advance, and sit behind an account executive. Success plans add a real cost line on top, with Premier at 30 percent of net license fees.
+Trials are the other asymmetry. Starter Suite and Pro Suite carry a self-serve 'try for free' path on the pricing page, while Growth and Advanced have no listed self-serve trial, are paid annually in advance, and sit behind an account executive. Success plans add a real cost line on top, with Premier at 30 percent of net license fees.
 
 ## Verdict
 
@@ -161,7 +161,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Salesforce Marketing Cloud: Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web. Salesforce Marketing Cloud ships with agentforce campaign creation. This page documents 9 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Salesforce Marketing Cloud: Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web. Salesforce Marketing Cloud ships with agentforce campaign creation. This page documents 9 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Salesforce Marketing Cloud starts at $25/mo. Per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -169,7 +169,7 @@ The safest choice inside a Salesforce org with marketing ops headcount and an ex
 
 The product is being rebranded. Salesforce now presents it as Agentforce Marketing, with Marketing Cloud Next as the flagship, the legacy Engagement platform described as the B2C Agentic Marketing Platform, Pardot appearing as Account Engagement, and the customer data platform branded Data 360. Older material still uses Marketing Cloud and Einstein, so documentation, training content, and contractor experience can lag the current naming.
 
-Only at the small end. Starter Suite and Pro Suite carry a &#x27;try for free&#x27; link on the pricing page. Marketing Cloud Next Growth and Advanced list no self-serve trial: they are sold through sales, billed annually, and paid in advance, and the Premier success plan adds 30 percent of net license fees on top of the license.
+Only at the small end. Starter Suite and Pro Suite carry a 'try for free' link on the pricing page. Marketing Cloud Next Growth and Advanced list no self-serve trial: they are sold through sales, billed annually, and paid in advance, and the Premier success plan adds 30 percent of net license fees on top of the license.
 
 ## Similar Tools
 
@@ -180,8 +180,8 @@ Only at the small end. Starter Suite and Pro Suite carry a &#x27;try for free&#x
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Also featured in
 
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) &mdash; Enterprise estates already bought into Salesforce&#x27;s cloud stack
-- [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/) &mdash; Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Enterprise estates already bought into Salesforce's cloud stack
+- [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/) — Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.
 ### Quick Facts
 
 Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)

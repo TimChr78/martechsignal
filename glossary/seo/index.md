@@ -26,11 +26,11 @@ GLOSSARY
 
 ## Definition
 
-SEO is the practice of improving a website&#x27;s visibility in organic (non-paid) search results. It covers technical factors (site speed, crawlability, structured data), content quality (relevance, depth, freshness), and authority signals (backlinks, brand mentions, domain reputation).
+SEO is the practice of improving a website's visibility in organic (non-paid) search results. It covers technical factors (site speed, crawlability, structured data), content quality (relevance, depth, freshness), and authority signals (backlinks, brand mentions, domain reputation).
 
 ## Why it matters
 
-SEO has survived every prediction of its death. The latest threat is AI-generated search answers, Google&#x27;s AI Overviews and Perplexity-style engines that summarize answers without sending clicks. Early data suggests informational queries are losing traffic while transactional and navigational queries hold up. The practical response is the same as it&#x27;s always been: create content that answers real questions better than anyone else, and make sure the technical foundation doesn&#x27;t get in the way.
+SEO has survived every prediction of its death. The latest threat is AI-generated search answers, Google's AI Overviews and Perplexity-style engines that summarize answers without sending clicks. Early data suggests informational queries are losing traffic while transactional and navigational queries hold up. The practical response is the same as it's always been: create content that answers real questions better than anyone else, and make sure the technical foundation doesn't get in the way.
 
 ## How it works
 
@@ -62,7 +62,7 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
 
 ### Categories
 
-[SEO &amp; Search](/categories/seo/) [Best SEO & Search tools](/best/ai-seo-tools/) [AI SEO tooling](/guides/ai-seo-tooling/) [Agent Skills](/categories/agent-skills/) [Best Agent Skills tools](/best/agent-skills-tools/)
+[SEO & Search](/categories/seo/) [Best SEO & Search tools](/best/ai-seo-tools/) [AI SEO tooling](/guides/ai-seo-tooling/) [Agent Skills](/categories/agent-skills/) [Best Agent Skills tools](/best/agent-skills-tools/)
 
 ## See also
 

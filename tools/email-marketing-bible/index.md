@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; Young project (291 GitHub stars) - smaller community and plugin ecosystem |
-| &#10003; AI capabilities: 55K-word knowledge base from 908 sources |  |
-| &#10003; Native integrations include Klaviyo, Mailchimp, Resend (8 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ Young project (291 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: 55K-word knowledge base from 908 sources |  |
+| ✓ Native integrations include Klaviyo, Mailchimp, Resend (8 listed) |  |
 
 **What is Email Marketing Bible?**
-Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 291 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 291 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Email Marketing Bible cost?**
 Email Marketing Bible is open source - MIT licensed and free to self-host; the public repository carries 291 stars; native integrations cover Klaviyo, Mailchimp, Resend. You pay in server time and maintenance, not licences.
@@ -75,11 +75,11 @@ Agent Skills · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit Email Marketing Bible &#8594;](https://github.com/CosmoBlk/email-marketing-bible)
+[Visit Email Marketing Bible →](https://github.com/CosmoBlk/email-marketing-bible)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Email Marketing Bible &#8594;](https://github.com/CosmoBlk/email-marketing-bible)
+[Visit Email Marketing Bible →](https://github.com/CosmoBlk/email-marketing-bible)
 
 ## MartechSignal Score: 40/60
 
@@ -89,7 +89,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Email Marketing Bible is what happens when someone who ran an email SaaS (SmartrMail, ~28,000 customers, 6 billion emails sent, acquired in 2022) distills everything into a 55,000-word skill file. It&#x27;s not a prompt pack. It&#x27;s a knowledge base with 908 cited sources, 19 industry playbooks, and 47 curated email designs. Install it and your AI agent stops guessing about email. It knows what a good open rate is for your vertical, why your emails land in spam, and which flow to build first for a DTC skincare brand doing $2M/year. The practical capabilities: it builds welcome, cart, post-purchase, and win-back flows from a prompt, then reviews exits, timing, and copy before anything goes live. It audits your ESP setup for missing flows, broken segments, and deliverability problems. It drafts copy using proven frameworks (PAS, AIDA, BAB) and strips AI tells before send. The anti-slop rules are explicit: no &quot;we hope this email finds you well, &quot; no generic personalization, no AI voice. It designs emails in MJML or React Email with dark-mode and mobile checks. And it drives your ESP through MCP connectors for Klaviyo, Mailchimp, Resend, beehiiv, Omnisend, and nitrosend, with a hard rule that nothing sends without your approval. Installation is one git clone into ~/.claude/skills/. It works wherever the skill format is read: Claude Code, Claude Desktop, and MCP-compatible agents. The compliance gate covers GDPR, CAN-SPAM, CASL, CCPA, and the Australian Spam Act as a decision gate before any send. That&#x27;s not a feature list item. It&#x27;s a workflow step that blocks non-compliant campaigns. Against a SaaS tool like Klaviyo or Mailchimp, this doesn&#x27;t replace the ESP. It makes the AI operating the ESP competent. Against hiring an email consultant, it&#x27;s cheaper and available at 2am. The 19 industry playbooks mean a nonprofit gets different advice than a B2B SaaS company. The limitation is that it&#x27;s a knowledge layer, not an execution platform. You still need an ESP and an agent runtime. But if you&#x27;re already running Claude Code and an ESP, this is the difference between your agent sending generic slop and sending email that actually converts.
+Email Marketing Bible is what happens when someone who ran an email SaaS (SmartrMail, ~28,000 customers, 6 billion emails sent, acquired in 2022) distills everything into a 55,000-word skill file. It's not a prompt pack. It's a knowledge base with 908 cited sources, 19 industry playbooks, and 47 curated email designs. Install it and your AI agent stops guessing about email. It knows what a good open rate is for your vertical, why your emails land in spam, and which flow to build first for a DTC skincare brand doing $2M/year. The practical capabilities: it builds welcome, cart, post-purchase, and win-back flows from a prompt, then reviews exits, timing, and copy before anything goes live. It audits your ESP setup for missing flows, broken segments, and deliverability problems. It drafts copy using proven frameworks (PAS, AIDA, BAB) and strips AI tells before send. The anti-slop rules are explicit: no "we hope this email finds you well, " no generic personalization, no AI voice. It designs emails in MJML or React Email with dark-mode and mobile checks. And it drives your ESP through MCP connectors for Klaviyo, Mailchimp, Resend, beehiiv, Omnisend, and nitrosend, with a hard rule that nothing sends without your approval. Installation is one git clone into ~/.claude/skills/. It works wherever the skill format is read: Claude Code, Claude Desktop, and MCP-compatible agents. The compliance gate covers GDPR, CAN-SPAM, CASL, CCPA, and the Australian Spam Act as a decision gate before any send. That's not a feature list item. It's a workflow step that blocks non-compliant campaigns. Against a SaaS tool like Klaviyo or Mailchimp, this doesn't replace the ESP. It makes the AI operating the ESP competent. Against hiring an email consultant, it's cheaper and available at 2am. The 19 industry playbooks mean a nonprofit gets different advice than a B2B SaaS company. The limitation is that it's a knowledge layer, not an execution platform. You still need an ESP and an agent runtime. But if you're already running Claude Code and an ESP, this is the difference between your agent sending generic slop and sending email that actually converts.
 
 Email Marketing Bible homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -143,7 +143,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 291 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 291 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Email Marketing Bible is open source - MIT licensed and free to self-host; the public repository carries 291 stars; native integrations cover Klaviyo, Mailchimp, Resend. You pay in server time and maintenance, not licences.
 
@@ -158,7 +158,7 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ## Also featured in
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) &mdash; Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

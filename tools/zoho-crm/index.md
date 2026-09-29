@@ -3,18 +3,18 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: zia AI assistant for lead scoring, deal prediction and email sentiment | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Zoho Mail, Zoho Books, Zoho Desk (6 listed) |  |
-| &#10003; Free tier to evaluate before committing (Free for 3 users; Standard EUR 14/user/mo; Professional EUR ) |  |
+| ✓ AI capabilities: zia AI assistant for lead scoring, deal prediction and email sentiment | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Zoho Mail, Zoho Books, Zoho Desk (6 listed) |  |
+| ✓ Free tier to evaluate before committing (Free for 3 users; Standard EUR 14/user/mo; Professional EUR ) |  |
 
 **What is Zoho CRM?**
-Zoho CRM: Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia AI assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Zoho CRM: Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia AI assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Zoho CRM cost?**
 Zoho CRM has a free tier, so you can run a real evaluation before paying. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked the plan structure on 2026-09-28; paid tiers mainly raise limits rather than unlocking core features.
 
 **Is Zoho CRM worth it past the free tier?**
-Our review covers Zoho CRM&#x27;s core crm workflow. The full review breaks down where it fits in a modern martech stack.
+Our review covers Zoho CRM's core crm workflow. The full review breaks down where it fits in a modern martech stack.
 
 - **Catalogued integrations:** 6
 
@@ -61,11 +61,11 @@ CRM · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
-[Visit Zoho CRM &#8594;](https://www.zoho.com/crm/)
+[Visit Zoho CRM →](https://www.zoho.com/crm/)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Zoho CRM &#8594;](https://www.zoho.com/crm/)
+[Visit Zoho CRM →](https://www.zoho.com/crm/)
 
 ## Catalog facts: Zoho CRM
 
@@ -115,11 +115,11 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Zoho CRM: Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia AI assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Zoho CRM: Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia AI assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Zoho CRM has a free tier, so you can run a real evaluation before paying. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked the plan structure on 2026-09-28; paid tiers mainly raise limits rather than unlocking core features.
 
-Our review covers Zoho CRM&#x27;s core crm workflow. The full review breaks down where it fits in a modern martech stack.
+Our review covers Zoho CRM's core crm workflow. The full review breaks down where it fits in a modern martech stack.
 
 ## Similar Tools
 
@@ -130,7 +130,7 @@ Our review covers Zoho CRM&#x27;s core crm workflow. The full review breaks down
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Also featured in
 
-- [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) &mdash; Best value for small teams that want a full suite without an enterprise bill.
+- [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best value for small teams that want a full suite without an enterprise bill.
 ### Quick Facts
 
 Related guides: [Ai Crm Tools](/best/ai-crm-tools/)

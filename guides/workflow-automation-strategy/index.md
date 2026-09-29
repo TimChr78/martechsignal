@@ -72,7 +72,7 @@ Cost per happy event, cost of one failed month, and the exit price. Get those th
 
 Sources: [n8n](https://n8n.io/) · [n8n pricing](https://n8n.io/pricing/) · [Zapier](https://zapier.com/) · [Make](https://www.make.com/)
 
-&copy; 2026 MartechSignal &middot; by Tim Christensen
+© 2026 MartechSignal · by Tim Christensen
 
 
 ```json

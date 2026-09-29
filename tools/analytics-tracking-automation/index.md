@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Apache-2.0 licence with free self-hosting | &#10007; Young project (136 GitHub stars) - smaller community and plugin ecosystem |
-| &#10003; AI capabilities: automated site analysis and page grouping by business purpose |  |
-| &#10003; Native integrations include GA4, Google Tag Manager, Cursor (5 listed) |  |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (136 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: automated site analysis and page grouping by business purpose |  |
+| ✓ Native integrations include GA4, Google Tag Manager, Cursor (5 listed) |  |
 
 **What is Analytics Tracking Automation?**
-Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 136 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 136 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Analytics Tracking Automation cost?**
 Analytics Tracking Automation is open source - Apache-2.0 licensed and free to self-host; the public repository carries 136 stars; native integrations cover GA4, Google Tag Manager, Cursor. You pay in server time and maintenance, not licences.
@@ -45,7 +45,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 
 Zapier GTM Cheat Codes
 
-Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
 Codex SEO
 
@@ -69,11 +69,11 @@ Agent Skills · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit Analytics Tracking Automation &#8594;](https://www.jtracking.ai/skills)
+[Visit Analytics Tracking Automation →](https://www.jtracking.ai/skills)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Analytics Tracking Automation &#8594;](https://www.jtracking.ai/skills)
+[Visit Analytics Tracking Automation →](https://www.jtracking.ai/skills)
 
 ## MartechSignal Score: 34/60
 
@@ -83,7 +83,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Analytics Tracking Automation solves a specific, annoying problem: setting up GA4 and GTM event tracking correctly. Most marketing teams either skip proper tracking setup or pay a consultant $2,000 to do it. This skill automates the workflow from site analysis to go-live. You give it a URL, and it analyzes the site, groups pages by business purpose, designs a GA4 event schema, produces GTM-ready outputs, and walks you through verification before publishing. It handles both generic websites and Shopify storefronts. The workflow is artifact-backed, meaning each step produces a reviewable file you can inspect before moving on. The site analysis groups pages into business categories (product, checkout, blog, support) so the event schema maps to actual user journeys rather than generic pageview tracking. The GTM output includes the container configuration, trigger definitions, and variable setup. Verification guidance tells you what to check in GTM preview mode before you publish. If you stop halfway through, the artifacts let you resume where you left off. Installation is npm-based: clone the repo and run npm run install:skills, or use npx skills add jtrackingai/analytics-tracking-automation for a no-clone install. It works on Cursor, Codex, and any agent that reads the skill format. The ClawHub publish path strips executable runtime files for marketplace safety. This is the narrowest tool in this batch, and that&#x27;s its strength. It doesn&#x27;t try to be a full marketing suite. It does one thing that every marketing team needs and few do well. At 134 stars, it&#x27;s the smallest repo here, and the last push was April 2026, so it&#x27;s not getting weekly updates. But the problem it solves doesn&#x27;t change often. GA4&#x27;s event model is stable, GTM&#x27;s container format is stable, and the workflow from &quot;we need tracking&quot; to &quot;tracking is live and verified&quot; is well-defined. If you&#x27;re setting up analytics for a new site or auditing an existing GTM mess, this saves you a day of spreadsheet work and a week of &quot;is this firing correctly?&quot; anxiety.
+Analytics Tracking Automation solves a specific, annoying problem: setting up GA4 and GTM event tracking correctly. Most marketing teams either skip proper tracking setup or pay a consultant $2,000 to do it. This skill automates the workflow from site analysis to go-live. You give it a URL, and it analyzes the site, groups pages by business purpose, designs a GA4 event schema, produces GTM-ready outputs, and walks you through verification before publishing. It handles both generic websites and Shopify storefronts. The workflow is artifact-backed, meaning each step produces a reviewable file you can inspect before moving on. The site analysis groups pages into business categories (product, checkout, blog, support) so the event schema maps to actual user journeys rather than generic pageview tracking. The GTM output includes the container configuration, trigger definitions, and variable setup. Verification guidance tells you what to check in GTM preview mode before you publish. If you stop halfway through, the artifacts let you resume where you left off. Installation is npm-based: clone the repo and run npm run install:skills, or use npx skills add jtrackingai/analytics-tracking-automation for a no-clone install. It works on Cursor, Codex, and any agent that reads the skill format. The ClawHub publish path strips executable runtime files for marketplace safety. This is the narrowest tool in this batch, and that's its strength. It doesn't try to be a full marketing suite. It does one thing that every marketing team needs and few do well. At 134 stars, it's the smallest repo here, and the last push was April 2026, so it's not getting weekly updates. But the problem it solves doesn't change often. GA4's event model is stable, GTM's container format is stable, and the workflow from "we need tracking" to "tracking is live and verified" is well-defined. If you're setting up analytics for a new site or auditing an existing GTM mess, this saves you a day of spreadsheet work and a week of "is this firing correctly?" anxiety.
 
 Analytics Tracking Automation homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -134,7 +134,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 136 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 136 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Analytics Tracking Automation is open source - Apache-2.0 licensed and free to self-host; the public repository carries 136 stars; native integrations cover GA4, Google Tag Manager, Cursor. You pay in server time and maintenance, not licences.
 
@@ -145,8 +145,8 @@ Free and fast if tracking keeps slipping through the cracks. Review every schema
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ### Quick Facts
 
 ## Get the next teardown

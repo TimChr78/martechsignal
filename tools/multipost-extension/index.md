@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | Pricing transparency | 10/10 | Free open-source browser extension with nothing to price (the vendor pricing page: [pricing page](https://multipost.app), verified 2026-08-28). |
 | Feature depth | 3/10 | One-click multi-platform publishing with per-platform content adaptation is deliberately narrow (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
-| Integrations | 2/10 | No named integrations; the extension works through the platforms&#x27; own web UIs (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
+| Integrations | 2/10 | No named integrations; the extension works through the platforms' own web UIs (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
 | AI capability | 3/10 | AI content adaptation per platform is the one documented assistive feature (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
 | Openness | 9/10 | Apache-2.0 with 3.3k GitHub stars and full source visibility (the source repository: [repository](leaperone/MultiPost-Extension), verified 2026-09-28). |
 | Operational maturity | 4/10 | Community-maintained at 3.3k stars with no company behind it (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
@@ -13,13 +13,13 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Apache-2.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; API access for custom integrations |  |
-| &#10003; AI capabilities: AI content adaptation per platform |  |
-| &#10003; Active public repository (3,325 GitHub stars counted at last check) |  |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ API access for custom integrations |  |
+| ✓ AI capabilities: AI content adaptation per platform |  |
+| ✓ Active public repository (3,325 GitHub stars counted at last check) |  |
 
 **What is MultiPost?**
-MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,325 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,325 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does MultiPost cost?**
 MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,325 stars. You pay in server time and maintenance, not licences.
@@ -69,11 +69,11 @@ Social Media · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit MultiPost &#8594;](https://multipost.app)
+[Visit MultiPost →](https://multipost.app)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit MultiPost &#8594;](https://multipost.app)
+[Visit MultiPost →](https://multipost.app)
 
 ## MartechSignal Score: 31/60
 
@@ -83,7 +83,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-MultiPost (multipost.social) is a social media scheduling and automation tool focused on simplicity, reliability, and affordability. Unlike the category leaders (Hootsuite, Sprout Social, Buffer) that have grown into full suites with analytics, listening, and engagement features, MultiPost stays deliberately lean: it does scheduling and posting well, and doesn&#x27;t try to do everything else. This makes it ideal for small-to-medium businesses and agencies that already have analytics covered (via native platform insights or a separate tool) and just need a reliable scheduler that won&#x27;t break the bank. Key features include multi-platform scheduling across Facebook, Instagram, Twitter/X, LinkedIn, TikTok, Pinterest, and Google Business Profile. Bulk upload supports CSV-based scheduling of hundreds of posts at once, which is a critical feature for agencies managing multiple clients. Queue-based auto-posting offers customizable schedules per channel. First-comment hashtag support is available for Instagram. A media library stores and reuses images and videos. Basic analytics provides per-post engagement metrics. MultiPost focuses on the scheduling workflow rather than adding layers of AI features, analytics dashboards, or listening tools that many users don&#x27;t need and don&#x27;t want to pay for. Pricing is budget-friendly: a free open-source extension, where comparable multi-account posting tools depend on the number of accounts and posting volume, significantly cheaper than Hootsuite ($99+/mo) or Sprout Social ($249+/mo). MultiPost competes with Buffer (better known, similar simplicity, slightly more expensive), Planable (collaboration-focused), and OneUp (similar price point, more feature-rich). MultiPost&#x27;s win scenario is the agency or small business that says &quot;I just need to schedule posts across multiple accounts reliably and affordably. I don&#x27;t need listening, AI content generation, or enterprise approval workflows.&quot; It is the anti-Hootsuite: focused, affordable, and intentionally limited in scope.
+MultiPost (multipost.social) is a social media scheduling and automation tool focused on simplicity, reliability, and affordability. Unlike the category leaders (Hootsuite, Sprout Social, Buffer) that have grown into full suites with analytics, listening, and engagement features, MultiPost stays deliberately lean: it does scheduling and posting well, and doesn't try to do everything else. This makes it ideal for small-to-medium businesses and agencies that already have analytics covered (via native platform insights or a separate tool) and just need a reliable scheduler that won't break the bank. Key features include multi-platform scheduling across Facebook, Instagram, Twitter/X, LinkedIn, TikTok, Pinterest, and Google Business Profile. Bulk upload supports CSV-based scheduling of hundreds of posts at once, which is a critical feature for agencies managing multiple clients. Queue-based auto-posting offers customizable schedules per channel. First-comment hashtag support is available for Instagram. A media library stores and reuses images and videos. Basic analytics provides per-post engagement metrics. MultiPost focuses on the scheduling workflow rather than adding layers of AI features, analytics dashboards, or listening tools that many users don't need and don't want to pay for. Pricing is budget-friendly: a free open-source extension, where comparable multi-account posting tools depend on the number of accounts and posting volume, significantly cheaper than Hootsuite ($99+/mo) or Sprout Social ($249+/mo). MultiPost competes with Buffer (better known, similar simplicity, slightly more expensive), Planable (collaboration-focused), and OneUp (similar price point, more feature-rich). MultiPost's win scenario is the agency or small business that says "I just need to schedule posts across multiple accounts reliably and affordably. I don't need listening, AI content generation, or enterprise approval workflows." It is the anti-Hootsuite: focused, affordable, and intentionally limited in scope.
 
 MultiPost homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -95,7 +95,7 @@ MultiPost homepage, captured September 2026. Vendor page shown as a dated refere
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-MultiPost is a browser extension for cross-posting content to multiple social platforms from one compose step. There is no scheduler dashboard to learn because there barely is a dashboard - the browser is the interface. Cross-posting reaches less deeply into each platform&#x27;s native features than dedicated schedulers.
+MultiPost is a browser extension for cross-posting content to multiple social platforms from one compose step. There is no scheduler dashboard to learn because there barely is a dashboard - the browser is the interface. Cross-posting reaches less deeply into each platform's native features than dedicated schedulers.
 
 Ideal for creators who write once and distribute everywhere manually anyway. Brands needing approval workflows and queued calendars will outgrow it quickly.
 
@@ -116,7 +116,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,325 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,325 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,325 stars. You pay in server time and maintenance, not licences.
 
@@ -131,7 +131,7 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Also featured in
 
-- [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) &mdash; Best for social media teams that want one-click multi-platform publishing and can host it themselves, with a free starting tier.
+- [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Best for social media teams that want one-click multi-platform publishing and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 ### Pricing

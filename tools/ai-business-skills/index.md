@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; AI capabilities: 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master) |  |
-| &#10003; Native integrations include Claude Code, OpenCode, Codex (4 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master) |  |
+| ✓ Native integrations include Claude Code, OpenCode, Codex (4 listed) |  |
 
 **What is AI Business Skills?**
-AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 572 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 572 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does AI Business Skills cost?**
 AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 572 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
@@ -37,7 +37,7 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 
 Zapier GTM Cheat Codes
 
-Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
 Codex SEO
 
@@ -69,11 +69,11 @@ Agent Skills · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit AI Business Skills &#8594;](https://github.com/minhnv0807/ai-business-skills)
+[Visit AI Business Skills →](https://github.com/minhnv0807/ai-business-skills)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit AI Business Skills &#8594;](https://github.com/minhnv0807/ai-business-skills)
+[Visit AI Business Skills →](https://github.com/minhnv0807/ai-business-skills)
 
 ## MartechSignal Score: 34/60
 
@@ -83,7 +83,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-AI Business Skills is a bilingual marketing skill pack built by Over Powers Agency, a Vietnamese marketing shop. It ships 63 skills split between Vietnamese-market and global-market variants, plus a Design Master skill covering 8 design types (personal brand, business logo, campaign visual, social post, editorial, infographic, web mockup, quote graphic). The Vietnamese-first angle is the differentiator: marketing plans come with VN 2025-2026 benchmarks, local platform context (Facebook and TikTok dominate in Vietnam), and budget allocations that make sense for the market. The skills cover planning, campaign briefs, copywriting (Facebook/TikTok ads, video scripts, email, landing pages), personal brand strategy, competitor analysis, customer insight, ad audits, and dropshipping. Each outputs a structured Markdown file with KPIs across three scenarios, budget allocation, weekly timelines, and risk matrices. The install is a bash script that drops 63 skills into ~/.claude/skills/marketing/. Windows gets a PowerShell equivalent. It works on Claude Code, OpenCode, Codex, and VS Code. The repo was pushed to on July 30, 2026, so it&#x27;s actively maintained. Version 2.7.0 added the Design Master skill with zero breaking changes. The companion OPA KIT repo bundles the full build-and-market stack. If you&#x27;re marketing to Vietnamese audiences or running a Vietnamese-language operation, this is the only skill pack in this directory that speaks the language natively, not as a translation layer. The global skills are competent but less distinctive. Against Aaron Marketing Skills&#x27; 120 skills, this has fewer but goes deeper on the Vietnamese market context. For English-only teams, Aaron or Digital Marketing Pro will serve better. For anyone doing business in Vietnam or Southeast Asia, this fills a gap nothing else addresses.
+AI Business Skills is a bilingual marketing skill pack built by Over Powers Agency, a Vietnamese marketing shop. It ships 63 skills split between Vietnamese-market and global-market variants, plus a Design Master skill covering 8 design types (personal brand, business logo, campaign visual, social post, editorial, infographic, web mockup, quote graphic). The Vietnamese-first angle is the differentiator: marketing plans come with VN 2025-2026 benchmarks, local platform context (Facebook and TikTok dominate in Vietnam), and budget allocations that make sense for the market. The skills cover planning, campaign briefs, copywriting (Facebook/TikTok ads, video scripts, email, landing pages), personal brand strategy, competitor analysis, customer insight, ad audits, and dropshipping. Each outputs a structured Markdown file with KPIs across three scenarios, budget allocation, weekly timelines, and risk matrices. The install is a bash script that drops 63 skills into ~/.claude/skills/marketing/. Windows gets a PowerShell equivalent. It works on Claude Code, OpenCode, Codex, and VS Code. The repo was pushed to on July 30, 2026, so it's actively maintained. Version 2.7.0 added the Design Master skill with zero breaking changes. The companion OPA KIT repo bundles the full build-and-market stack. If you're marketing to Vietnamese audiences or running a Vietnamese-language operation, this is the only skill pack in this directory that speaks the language natively, not as a translation layer. The global skills are competent but less distinctive. Against Aaron Marketing Skills' 120 skills, this has fewer but goes deeper on the Vietnamese market context. For English-only teams, Aaron or Digital Marketing Pro will serve better. For anyone doing business in Vietnam or Southeast Asia, this fills a gap nothing else addresses.
 
 AI Business Skills homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -112,7 +112,7 @@ Researched from public documentation, the source repository, and vendor material
 
 AI Business Skills drops 63 marketing skills into Claude Code, split between Vietnamese-market and global editions, plus a Design Master skill covering eight design types from personal brand to infographic. Install once and your agent gets structured playbooks with Vietnamese 2025-2026 benchmarks, budget allocations, and platform context where Facebook and TikTok dominate. The pack comes from Over Powers Agency, a working Vietnamese shop, so the workflows carry real campaign patterns.
 
-The trade-off is that one agency&#x27;s playbook shapes every skill. The global-market entries carry less differentiation than the Vietnamese ones, and quality varies across the 63, so you will keep some and rewrite others. It is MIT-licensed and free, which makes the trial cost a single clone. VN teams get the clear win; everyone else gets a solid starting point to customize.
+The trade-off is that one agency's playbook shapes every skill. The global-market entries carry less differentiation than the Vietnamese ones, and quality varies across the 63, so you will keep some and rewrite others. It is MIT-licensed and free, which makes the trial cost a single clone. VN teams get the clear win; everyone else gets a solid starting point to customize.
 
 ## Verdict
 
@@ -133,7 +133,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 572 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 572 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 572 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
 

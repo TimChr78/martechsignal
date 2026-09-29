@@ -8,17 +8,17 @@
 | Integrations | 7/10 | DataForSEO, Google Search Console, Firecrawl and Gemini documented plus Codex as the harness (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
 | AI capability | 6/10 | GEO/AEO optimization workflows with agent profiles make it agent-native SEO tooling (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
 | Openness | 4/10 | Free and source-visible but under a proprietary courtesy licence, not OSS (the source repository: [repository](AgriciDaniel/codex-seo), verified 2026-09-28). |
-| Operational maturity | 4/10 | Founded 2025 at 694 stars under a solo author&#x27;s licence (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2025 at 694 stars under a solo author's licence (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
 
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: 26 SEO workflows with 24 TOML agent profiles | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include OpenAI Codex, DataForSEO, Google Search Console (5 listed) |  |
-| &#10003; Free tier to evaluate before committing (Free to use) |  |
+| ✓ AI capabilities: 26 SEO workflows with 24 TOML agent profiles | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include OpenAI Codex, DataForSEO, Google Search Console (5 listed) |  |
+| ✓ Free tier to evaluate before committing (Free to use) |  |
 
 **What is Codex SEO?**
-Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 694 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 694 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Codex SEO cost?**
 Codex SEO has a free tier, so you can run a real evaluation before paying. Free to use. The bundled licence is proprietary (courtesy of the author) - not an OSS licence. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
@@ -53,7 +53,7 @@ OpenClaw Marketing Skills
 
 Zapier GTM Cheat Codes
 
-Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 
@@ -73,11 +73,11 @@ Agent Skills · Free Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit Codex SEO &#8594;](https://github.com/AgriciDaniel/codex-seo)
+[Visit Codex SEO →](https://github.com/AgriciDaniel/codex-seo)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Codex SEO &#8594;](https://github.com/AgriciDaniel/codex-seo)
+[Visit Codex SEO →](https://github.com/AgriciDaniel/codex-seo)
 
 ## MartechSignal Score: 34/60
 
@@ -87,7 +87,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Codex SEO is the OpenAI Codex port of Claude SEO, built by the same author (AgriciDaniel). It covers the same SEO surface: technical audits, on-page analysis, E-E-A-T content quality, schema markup, Core Web Vitals, GEO/AEO for AI search, backlinks, local SEO, ecommerce SEO, hreflang, and semantic clustering. The difference is the runtime. Instead of Claude Code&#x27;s subagent model, Codex SEO uses 24 TOML agent profiles, deterministic headless runners, and a Python virtualenv at ~/.codex/skills/seo/.venv/. If your team runs Codex instead of Claude Code, this is the same workflow adapted to your platform. The integration surface is wider than Claude SEO&#x27;s. Codex SEO connects to DataForSEO for keyword and SERP data, Google Search Console for performance metrics, Firecrawl for page crawling, and Gemini for image analysis workflows. The headless runners mean you can script audits in CI or run them on a schedule without an interactive terminal. 52 tests pass, and the installer handles dependency setup, capability groups, and runtime verification. Installation is a one-line curl (or PowerShell on Windows). The installer copies skills into ~/.codex/skills/, agents into ~/.codex/agents/, creates the virtualenv, and installs dependencies. Current release is v1.9.6-codex.5, synchronized to Claude SEO upstream at commit a9cf338. If you&#x27;re choosing between this and Claude SEO, the decision is simple: use whichever matches your agent platform. The SEO methodology is the same. Codex SEO adds the DataForSEO and Firecrawl integrations that Claude SEO handles through its own extension system. For teams already paying for OpenAI&#x27;s Codex, this avoids the cost of switching to Claude Code just for SEO audits. The star count (534) is lower than Claude SEO&#x27;s 12,873, which reflects the smaller Codex user base, not a quality gap.
+Codex SEO is the OpenAI Codex port of Claude SEO, built by the same author (AgriciDaniel). It covers the same SEO surface: technical audits, on-page analysis, E-E-A-T content quality, schema markup, Core Web Vitals, GEO/AEO for AI search, backlinks, local SEO, ecommerce SEO, hreflang, and semantic clustering. The difference is the runtime. Instead of Claude Code's subagent model, Codex SEO uses 24 TOML agent profiles, deterministic headless runners, and a Python virtualenv at ~/.codex/skills/seo/.venv/. If your team runs Codex instead of Claude Code, this is the same workflow adapted to your platform. The integration surface is wider than Claude SEO's. Codex SEO connects to DataForSEO for keyword and SERP data, Google Search Console for performance metrics, Firecrawl for page crawling, and Gemini for image analysis workflows. The headless runners mean you can script audits in CI or run them on a schedule without an interactive terminal. 52 tests pass, and the installer handles dependency setup, capability groups, and runtime verification. Installation is a one-line curl (or PowerShell on Windows). The installer copies skills into ~/.codex/skills/, agents into ~/.codex/agents/, creates the virtualenv, and installs dependencies. Current release is v1.9.6-codex.5, synchronized to Claude SEO upstream at commit a9cf338. If you're choosing between this and Claude SEO, the decision is simple: use whichever matches your agent platform. The SEO methodology is the same. Codex SEO adds the DataForSEO and Firecrawl integrations that Claude SEO handles through its own extension system. For teams already paying for OpenAI's Codex, this avoids the cost of switching to Claude Code just for SEO audits. The star count (534) is lower than Claude SEO's 12,873, which reflects the smaller Codex user base, not a quality gap.
 
 Codex SEO homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -115,9 +115,9 @@ Free to use. The bundled licence is proprietary (courtesy of the author) - not a
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-Codex SEO is the OpenAI Codex port of Claude SEO from the same author, covering the full surface: technical audits, on-page analysis, E-E-A-T content checks, schema, Core Web Vitals, GEO and AEO for AI search, backlinks, local and ecommerce SEO, hreflang, and semantic clustering. The difference is the runtime: 24 TOML agent profiles, deterministic headless runners, and a Python virtualenv under ~/.codex instead of Claude&#x27;s subagent model.
+Codex SEO is the OpenAI Codex port of Claude SEO from the same author, covering the full surface: technical audits, on-page analysis, E-E-A-T content checks, schema, Core Web Vitals, GEO and AEO for AI search, backlinks, local and ecommerce SEO, hreflang, and semantic clustering. The difference is the runtime: 24 TOML agent profiles, deterministic headless runners, and a Python virtualenv under ~/.codex instead of Claude's subagent model.
 
-Everything depends on your team&#x27;s stack. If you run Codex, you get the same workflows Claude shops enjoy, 26 of them across the suite and 534 stars and climbing. If you run Claude Code, stay with the original. Setup is developer work: venv management, agent config, and no UI or support when things break. The output ceiling is whatever model you point at it.
+Everything depends on your team's stack. If you run Codex, you get the same workflows Claude shops enjoy, 26 of them across the suite and 534 stars and climbing. If you run Claude Code, stay with the original. Setup is developer work: venv management, agent config, and no UI or support when things break. The output ceiling is whatever model you point at it.
 
 ## Verdict
 
@@ -138,7 +138,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 694 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 694 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Codex SEO has a free tier, so you can run a real evaluation before paying. Free to use. The bundled licence is proprietary (courtesy of the author) - not an OSS licence. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
 
@@ -153,7 +153,7 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ## Also featured in
 
-- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) &mdash; Best for Codex CLI users who want scripted SEO workflows.
+- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for Codex CLI users who want scripted SEO workflows.
 ### Quick Facts
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)

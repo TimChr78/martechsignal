@@ -27,6 +27,8 @@
 - **Pick Matomo if:** Pick Matomo if you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.
 - **Pick Plausible Analytics if:** Pick Plausible if you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.
 
+[Analytics & Attribution](/categories/analytics/)[Open-Source Tools](/categories/open-source/)
+
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## Matomo vs Plausible (2026): analytics depth or a dashboard that stays small
@@ -73,9 +75,9 @@ Cost picture for a 10K-pageview-per-month site. All figures checked 2026-09-27 o
 
 ## AI features
 
-**Matomo:** Matomo&#x27;s AI work measures AI traffic as much as it adds analysis. Version 5.12.0 added AI chatbot content-request and real-time reports, and an AI Agents report ships enabled on new instances. An AI Connector answers plain-language questions, and a free official MCP Server plugin connects Matomo to ChatGPT, Claude, and other MCP clients, with write actions gated behind approval.
+**Matomo:** Matomo's AI work measures AI traffic as much as it adds analysis. Version 5.12.0 added AI chatbot content-request and real-time reports, and an AI Agents report ships enabled on new instances. An AI Connector answers plain-language questions, and a free official MCP Server plugin connects Matomo to ChatGPT, Claude, and other MCP clients, with write actions gated behind approval.
 
-**Plausible Analytics:** Plausible&#x27;s AI features are modest and summary-shaped: AI-powered insights, anomaly detection, and traffic analysis that surface unusual patterns or summarize trends without building manual alerts. Nothing here pretends to replace analysis; it shortens the weekly read.
+**Plausible Analytics:** Plausible's AI features are modest and summary-shaped: AI-powered insights, anomaly detection, and traffic analysis that surface unusual patterns or summarize trends without building manual alerts. Nothing here pretends to replace analysis; it shortens the weekly read.
 
 ## Integrations
 
@@ -101,7 +103,7 @@ Both sides will move your tags in an afternoon and your history in a week, if at
 
 The smaller costs pile up: goals and segments get rebuilt by hand, the tracking script swaps on every property, and any consent banner logic has to be re-checked against the new cookie behavior. None of it is hard. All of it is work.
 
-Between Matomo and Plausible the moving part is history depth: Plausible keeps a rolling window, so export what you want to keep before you cancel. Matomo&#x27;s own importer handles the common GA and server-log cases, and Plausible&#x27;s API exports daily aggregates cleanly.
+Between Matomo and Plausible the moving part is history depth: Plausible keeps a rolling window, so export what you want to keep before you cancel. Matomo's own importer handles the common GA and server-log cases, and Plausible's API exports daily aggregates cleanly.
 
 ## When neither is the right answer
 
@@ -110,6 +112,8 @@ Skip all three if you are an enterprise already paying for an analytics suite: t
 ## Who should pick which
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
+
+## Browse the hubs behind this comparison
 
 ## Get the next teardown
 

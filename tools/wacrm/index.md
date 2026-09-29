@@ -13,13 +13,13 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; AI capabilities: AI reply assistant (bring your own OpenAI or Anthropic key) |  |
-| &#10003; Active public repository (2,285 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include Meta WhatsApp Cloud API, Supabase, OpenAI (8 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: AI reply assistant (bring your own OpenAI or Anthropic key) |  |
+| ✓ Active public repository (2,285 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Meta WhatsApp Cloud API, Supabase, OpenAI (8 listed) |  |
 
 **What is WaCRM?**
-WaCRM: Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. WaCRM ships with AI reply assistant (bring your own OpenAI or Anthropic key). The public repository carries 2,285 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+WaCRM: Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. WaCRM ships with AI reply assistant (bring your own OpenAI or Anthropic key). The public repository carries 2,285 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does WaCRM cost?**
 WaCRM is open source - MIT licensed and free to self-host; the public repository carries 2,285 stars; native integrations cover Meta WhatsApp Cloud API, Supabase, OpenAI. You pay in server time and maintenance, not licences.
@@ -28,7 +28,7 @@ WaCRM is open source - MIT licensed and free to self-host; the public repository
 A legitimate starting point for WhatsApp-first sales teams that can run Node and Supabase; the official API brings template approvals and Meta vetting along with the delivery tracking.
 
 **Is WaCRM free?**
-The code is MIT-licensed and free to fork, modify, and ship, with no user or record limits. The costs around it are yours: a Supabase project, hosting, and WhatsApp Business API usage billed by Meta. The docs recommend Hostinger&#x27;s managed Node.js hosting, where plans start at a few dollars a month, though the README notes it runs anywhere Node.js does, including Vercel, Railway, or your own VPS. The AI reply assistant has no per-seat fee because you bring your own OpenAI or Anthropic key.
+The code is MIT-licensed and free to fork, modify, and ship, with no user or record limits. The costs around it are yours: a Supabase project, hosting, and WhatsApp Business API usage billed by Meta. The docs recommend Hostinger's managed Node.js hosting, where plans start at a few dollars a month, though the README notes it runs anywhere Node.js does, including Vercel, Railway, or your own VPS. The AI reply assistant has no per-seat fee because you bring your own OpenAI or Anthropic key.
 
 **Does WaCRM use the official WhatsApp API or WhatsApp Web?**
 The official one. Both the README and the docs site state that WaCRM talks to the Meta WhatsApp Business Cloud API using a phone number ID and access token you supply, and that any Meta-approved BSP exposing the same endpoints works. The practical consequences are delivery and read tracking on broadcasts, plus template management inside the app with live Meta approval status, balanced by a requirement that your number be approved by Meta and that broadcasts use Meta-approved templates.
@@ -86,11 +86,11 @@ CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit WaCRM &#8594;](https://wacrm.tech)
+[Visit WaCRM →](https://wacrm.tech)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit WaCRM &#8594;](https://wacrm.tech)
+[Visit WaCRM →](https://wacrm.tech)
 
 ## MartechSignal Score: 38/60
 
@@ -100,7 +100,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-WaCRM is a self-hostable CRM template built on the official Meta WhatsApp Business Cloud API, and it is explicit about what that means: the README calls it &#x27;a template, not a product, &#x27; licensed MIT under the instruction &#x27;fork it, brand it, host it.&#x27; You get the code, your own Supabase project, your own domain, and your own data. The feature set covers WhatsApp-first sales: a shared inbox with per-conversation assignment, round-robin distribution, and internal notes; a contact hub with tags, custom fields, CSV import, and deduplication; unlimited Kanban pipelines with deals linked to conversations; broadcast campaigns using Meta-approved templates with delivery, read, and reply tracking; and a no-code automation builder whose triggers include inbound messages, new contacts, tag changes, keywords, and schedules. Two additions move it past the narrower project it was a year ago. An AI reply assistant takes your own OpenAI or Anthropic key, stored encrypted, drafts one-click replies in the inbox, and can run an auto-reply bot with a per-conversation cap and human handoff, grounded in an optional knowledge base that uses Postgres full-text or pgvector semantic retrieval. A public REST API with scoped, revocable keys and an MCP server let external tools and assistants read the CRM, read-only by default with writes as an opt-in. The stack is Next.js 16, React 19, TypeScript, and Tailwind v4 on Supabase. Getting there takes real setup: fork the repo, run npm install, set Supabase credentials plus an encryption key, run migrations, then paste a Meta phone number ID and access token and expose an HTTPS webhook. Because it uses the official API, broadcasts are limited to Meta-approved templates and your number must be approved by Meta first. For a small team in a WhatsApp-heavy market that is a fair trade; for anyone needing email, a dialer, or forecasting, it is the wrong tool.
+WaCRM is a self-hostable CRM template built on the official Meta WhatsApp Business Cloud API, and it is explicit about what that means: the README calls it 'a template, not a product, ' licensed MIT under the instruction 'fork it, brand it, host it.' You get the code, your own Supabase project, your own domain, and your own data. The feature set covers WhatsApp-first sales: a shared inbox with per-conversation assignment, round-robin distribution, and internal notes; a contact hub with tags, custom fields, CSV import, and deduplication; unlimited Kanban pipelines with deals linked to conversations; broadcast campaigns using Meta-approved templates with delivery, read, and reply tracking; and a no-code automation builder whose triggers include inbound messages, new contacts, tag changes, keywords, and schedules. Two additions move it past the narrower project it was a year ago. An AI reply assistant takes your own OpenAI or Anthropic key, stored encrypted, drafts one-click replies in the inbox, and can run an auto-reply bot with a per-conversation cap and human handoff, grounded in an optional knowledge base that uses Postgres full-text or pgvector semantic retrieval. A public REST API with scoped, revocable keys and an MCP server let external tools and assistants read the CRM, read-only by default with writes as an opt-in. The stack is Next.js 16, React 19, TypeScript, and Tailwind v4 on Supabase. Getting there takes real setup: fork the repo, run npm install, set Supabase credentials plus an encryption key, run migrations, then paste a Meta phone number ID and access token and expose an HTTPS webhook. Because it uses the official API, broadcasts are limited to Meta-approved templates and your number must be approved by Meta first. For a small team in a WhatsApp-heavy market that is a fair trade; for anyone needing email, a dialer, or forecasting, it is the wrong tool.
 
 WaCRM homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -124,7 +124,7 @@ WaCRM homepage, captured September 2026. Vendor page shown as a dated reference 
 
 - Fork github.com/ArnasDon/wacrm, then clone your fork and run npm install. The getting-started guide assumes Node.js 20+ and npm are already installed.
 - Copy .env.local.example to .env.local. The docs state that npm run dev will not start until at least NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY are set.
-- Generate the encryption key for WhatsApp token storage with node -e &quot;console.log(require(&#x27;crypto&#x27;).randomBytes(32).toString(&#x27;hex&#x27;))&quot; and paste it into ENCRYPTION_KEY. The docs warn not to change it later, because stored tokens become unreadable.
+- Generate the encryption key for WhatsApp token storage with node -e "console.log(require('crypto').randomBytes(32).toString('hex'))" and paste it into ENCRYPTION_KEY. The docs warn not to change it later, because stored tokens become unreadable.
 - Create a Supabase project and run the migrations per docs/supabase-setup, then connect a WhatsApp number in Settings using your Meta phone number ID and access token, with an HTTPS webhook configured (docs/whatsapp-setup).
 - Run npm run dev, open http://localhost:3000, and create an account at /signup. Docker Compose is documented in docs/docker.md, and Hostinger managed Node.js hosting is the recommended one-click path, though the README notes it runs anywhere Node.js does.
 ## Requirements
@@ -143,9 +143,9 @@ Teams that need email, a dialer, forecasting, or multi-channel outreach, and any
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-WaCRM is a fork-and-own template rather than a product you install, and the README is blunt about the consequences: &#x27;your code, your Supabase project, your domain, your data.&#x27; The contributing policy follows the same logic, saying feature PRs often belong in your fork rather than upstream, so plan to carry your customizations yourself. Researched from the repository and the docs site. Not a hands-on review.
+WaCRM is a fork-and-own template rather than a product you install, and the README is blunt about the consequences: 'your code, your Supabase project, your domain, your data.' The contributing policy follows the same logic, saying feature PRs often belong in your fork rather than upstream, so plan to carry your customizations yourself. Researched from the repository and the docs site. Not a hands-on review.
 
-The channel decision defines the tool. It talks to the official Meta Cloud API, which brings template approvals, delivery and read tracking, and an HTTPS webhook requirement, and rules out the casual WhatsApp Web wrapper experience. The docs&#x27; own framing is honest about the gate: most teams are live in under 30 minutes once their WhatsApp Business number has been approved by Meta. Approval is the long pole, not the deploy.
+The channel decision defines the tool. It talks to the official Meta Cloud API, which brings template approvals, delivery and read tracking, and an HTTPS webhook requirement, and rules out the casual WhatsApp Web wrapper experience. The docs' own framing is honest about the gate: most teams are live in under 30 minutes once their WhatsApp Business number has been approved by Meta. Approval is the long pole, not the deploy.
 
 Setup is documented to a level most template projects never reach. The getting-started guide states the minimum environment, gives a one-line command to generate the 64-character encryption key used for token storage, and warns that rotating it makes stored WhatsApp tokens unreadable. Docker and Hostinger deployment paths both exist.
 
@@ -172,13 +172,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-WaCRM: Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. WaCRM ships with AI reply assistant (bring your own OpenAI or Anthropic key). The public repository carries 2,285 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+WaCRM: Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. WaCRM ships with AI reply assistant (bring your own OpenAI or Anthropic key). The public repository carries 2,285 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 WaCRM is open source - MIT licensed and free to self-host; the public repository carries 2,285 stars; native integrations cover Meta WhatsApp Cloud API, Supabase, OpenAI. You pay in server time and maintenance, not licences.
 
 A legitimate starting point for WhatsApp-first sales teams that can run Node and Supabase; the official API brings template approvals and Meta vetting along with the delivery tracking.
 
-The code is MIT-licensed and free to fork, modify, and ship, with no user or record limits. The costs around it are yours: a Supabase project, hosting, and WhatsApp Business API usage billed by Meta. The docs recommend Hostinger&#x27;s managed Node.js hosting, where plans start at a few dollars a month, though the README notes it runs anywhere Node.js does, including Vercel, Railway, or your own VPS. The AI reply assistant has no per-seat fee because you bring your own OpenAI or Anthropic key.
+The code is MIT-licensed and free to fork, modify, and ship, with no user or record limits. The costs around it are yours: a Supabase project, hosting, and WhatsApp Business API usage billed by Meta. The docs recommend Hostinger's managed Node.js hosting, where plans start at a few dollars a month, though the README notes it runs anywhere Node.js does, including Vercel, Railway, or your own VPS. The AI reply assistant has no per-seat fee because you bring your own OpenAI or Anthropic key.
 
 The official one. Both the README and the docs site state that WaCRM talks to the Meta WhatsApp Business Cloud API using a phone number ID and access token you supply, and that any Meta-approved BSP exposing the same endpoints works. The practical consequences are delivery and read tracking on broadcasts, plus template management inside the app with live Meta approval status, balanced by a requirement that your number be approved by Meta and that broadcasts use Meta-approved templates.
 

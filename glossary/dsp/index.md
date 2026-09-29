@@ -18,7 +18,7 @@ A demand-side platform is the buying interface for programmatic advertising. Adv
 
 ## Why it matters
 
-The DSP category consolidated heavily. The Trade Desk is the largest independent player. Google&#x27;s DV360 dominates among agencies already in the Google ecosystem. Amazon&#x27;s DSP grew fast on the back of its shopping data. The trend is toward fewer, larger platforms with more first-party data, which is good for advertisers who want scale and bad for anyone who liked having options.
+The DSP category consolidated heavily. The Trade Desk is the largest independent player. Google's DV360 dominates among agencies already in the Google ecosystem. Amazon's DSP grew fast on the back of its shopping data. The trend is toward fewer, larger platforms with more first-party data, which is good for advertisers who want scale and bad for anyone who liked having options.
 
 ## How it works
 
@@ -38,7 +38,7 @@ The most expensive mistake is letting the DSP default to whatever maximizes its 
 
 ## What changed with AI
 
-DSPs now advertise autonomous bidding agents that manage campaigns without human intervention. The capability is real. The gap is governance. A single rogue setting in an agent-managed campaign can burn a day&#x27;s budget before anyone reviews it. Platforms are responding with approval workflows and budget caps. Treat the agent as a junior buyer with a spending limit, not a black box.
+DSPs now advertise autonomous bidding agents that manage campaigns without human intervention. The capability is real. The gap is governance. A single rogue setting in an agent-managed campaign can burn a day's budget before anyone reviews it. Platforms are responding with approval workflows and budget caps. Treat the agent as a junior buyer with a spending limit, not a black box.
 
 ## Tools in this space
 
@@ -50,7 +50,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
 
 ### Categories
 
-[Advertising &amp; Paid Media](/categories/advertising/) [Best Advertising & Paid Media tools](/best/ai-advertising-tools/) [Agentic advertising](/guides/agentic-ai-advertising/)
+[Advertising & Paid Media](/categories/advertising/) [Best Advertising & Paid Media tools](/best/ai-advertising-tools/) [Agentic advertising](/guides/agentic-ai-advertising/)
 
 ## See also
 

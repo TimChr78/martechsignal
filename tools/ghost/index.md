@@ -13,29 +13,29 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $9/mo once past the free tier |
-| &#10003; AI capabilities: AI writing assistant |  |
-| &#10003; Active public repository (55,250 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include Zapier, Slack, WordPress import (7 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $9/mo once past the free tier |
+| ✓ AI capabilities: AI writing assistant |  |
+| ✓ Active public repository (55,250 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Zapier, Slack, WordPress import (7 listed) |  |
 
 **What is Ghost?**
-Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Ghost ships with AI writing assistant. The public repository carries 55,250 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Ghost ships with AI writing assistant. The public repository carries 55,250 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Ghost cost?**
 Ghost has a free tier; paid plans start at $9/mo. Self-hosted free (MIT); Cloud Starter $9/mo; Creator $29/mo; Team $79/mo; Business $199/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
-**Is Ghost a good self-hosted AI Content &amp; Copywriting tool in 2026?**
+**Is Ghost a good self-hosted AI Content & Copywriting tool in 2026?**
 Choose Ghost for editorial sites with paid membership intent. Skip it if you need a general-purpose CMS.
 
 - **Pricing:** Open Source
-- **Category:** [AI Content &amp; Copywriting](/categories/content-ai/)
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
 - **GitHub:** ★ 55250
 - **Founded:** 2013
 - **HQ:** Singapore
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Ghost is a tool in AI Content &amp; Copywriting with free and open source. The catalog documents 3 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Ghost is a tool in AI Content & Copywriting with free and open source. The catalog documents 3 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Strapi
 
@@ -53,13 +53,13 @@ Listmonk
 
 Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 
-[More AI Content &amp; Copywriting Tools →](/categories/content-ai/)
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [AI Content &amp; Copywriting](/categories/content-ai/)
+- [AI Content & Copywriting](/categories/content-ai/)
 - Ghost
 Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
@@ -67,15 +67,15 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
 
-AI Content &amp; Copywriting · Open Source Desk-reviewed
+AI Content & Copywriting · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit Ghost &#8594;](https://ghost.org)
+[Visit Ghost →](https://ghost.org)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Ghost &#8594;](https://ghost.org)
+[Visit Ghost →](https://ghost.org)
 
 ## MartechSignal Score: 42/60
 
@@ -85,7 +85,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Founded in 2013, headquartered in Singapore, and maintained as an MIT-licensed open-source project, Ghost gives publishers, creators, and media teams a single platform for websites, newsletters, and paid memberships. It combines content management, audience analytics, and subscription billing in one system, reducing the need to connect separate CMS, email, and payment tools. The self-hosted version is free under MIT, while managed Cloud plans include Starter at $9, Creator at $29, Team at $79, and Business at $199 per month. Key differentiators include a focused editing experience, native memberships and payments through Stripe, API access, and integrations with Zapier, Slack, Google Analytics, Mailchimp, Unsplash, and WordPress import. Its AI capabilities cover an AI writing assistant, AI content suggestions, and AI newsletter optimization, which can support drafting, editing, and distribution without a separate AI content stack. The open-source codebase, reflected by more than 54,000 GitHub stars, allows organizations to self-host, customize workflows, and evaluate the platform&#x27;s data handling directly. Compared with commercial alternatives such as Substack, WordPress.com, or a Webflow-plus-email stack, Ghost offers a more self-contained publishing and monetization workflow while still allowing ownership through self-hosting. It is less aimed at complex enterprise web builds or large e-commerce operations, but it provides a practical balance of flexibility, editorial simplicity, and audience monetization. Ghost is best for independent publishers, newsletter operators, membership sites, and small content teams that want an open-source platform with built-in subscriptions, AI-assisted publishing, and transparent pricing.
+Founded in 2013, headquartered in Singapore, and maintained as an MIT-licensed open-source project, Ghost gives publishers, creators, and media teams a single platform for websites, newsletters, and paid memberships. It combines content management, audience analytics, and subscription billing in one system, reducing the need to connect separate CMS, email, and payment tools. The self-hosted version is free under MIT, while managed Cloud plans include Starter at $9, Creator at $29, Team at $79, and Business at $199 per month. Key differentiators include a focused editing experience, native memberships and payments through Stripe, API access, and integrations with Zapier, Slack, Google Analytics, Mailchimp, Unsplash, and WordPress import. Its AI capabilities cover an AI writing assistant, AI content suggestions, and AI newsletter optimization, which can support drafting, editing, and distribution without a separate AI content stack. The open-source codebase, reflected by more than 54,000 GitHub stars, allows organizations to self-host, customize workflows, and evaluate the platform's data handling directly. Compared with commercial alternatives such as Substack, WordPress.com, or a Webflow-plus-email stack, Ghost offers a more self-contained publishing and monetization workflow while still allowing ownership through self-hosting. It is less aimed at complex enterprise web builds or large e-commerce operations, but it provides a practical balance of flexibility, editorial simplicity, and audience monetization. Ghost is best for independent publishers, newsletter operators, membership sites, and small content teams that want an open-source platform with built-in subscriptions, AI-assisted publishing, and transparent pricing.
 
 Ghost homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -137,7 +137,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Ghost ships with AI writing assistant. The public repository carries 55,250 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Ghost ships with AI writing assistant. The public repository carries 55,250 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Ghost has a free tier; paid plans start at $9/mo. Self-hosted free (MIT); Cloud Starter $9/mo; Creator $29/mo; Team $79/mo; Business $199/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -147,7 +147,7 @@ Choose Ghost for editorial sites with paid membership intent. Skip it if you nee
 
 ## Related reading
 
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts

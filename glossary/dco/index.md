@@ -22,11 +22,11 @@ Dynamic creative optimization assembles ad creatives in real time from modular c
 
 ## Why it matters
 
-DCO started in display advertising and was mostly a programmatic buying feature. It moved into email (dynamic content blocks), social (Meta&#x27;s dynamic creative), and connected TV. The AI layer on top is what changed the math: tools like AdCreative.ai can generate the component variants, not just assemble them. The bottleneck shifted from &#x27;can we produce enough variants&#x27; to &#x27;do we have enough performance data to pick the right ones.&#x27;
+DCO started in display advertising and was mostly a programmatic buying feature. It moved into email (dynamic content blocks), social (Meta's dynamic creative), and connected TV. The AI layer on top is what changed the math: tools like AdCreative.ai can generate the component variants, not just assemble them. The bottleneck shifted from 'can we produce enough variants' to 'do we have enough performance data to pick the right ones.'
 
 ## How it works
 
-Dynamic creative optimization assembles ads in real time from modular assets: headlines, images, offers, and calls to action. The system picks the combination for each impression based on the viewer&#x27;s data, context, and the model&#x27;s learning. Instead of one static banner, the ad reshapes itself per auction. The creative becomes a product of data and rules rather than a finished file, which is why DCO is code-heavy and best run by teams that treat creative as an asset system.
+Dynamic creative optimization assembles ads in real time from modular assets: headlines, images, offers, and calls to action. The system picks the combination for each impression based on the viewer's data, context, and the model's learning. Instead of one static banner, the ad reshapes itself per auction. The creative becomes a product of data and rules rather than a finished file, which is why DCO is code-heavy and best run by teams that treat creative as an asset system.
 
 ## Practical uses
 
@@ -54,7 +54,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
 
 ### Categories
 
-[Advertising &amp; Paid Media](/categories/advertising/) [Best Advertising & Paid Media tools](/best/ai-advertising-tools/) [Agentic advertising](/guides/agentic-ai-advertising/) [AI Content &amp; Copywriting](/categories/content-ai/) [Best AI Content & Copywriting tools](/best/ai-content-copywriting-tools/) [AI SEO tooling](/guides/ai-seo-tooling/)
+[Advertising & Paid Media](/categories/advertising/) [Best Advertising & Paid Media tools](/best/ai-advertising-tools/) [Agentic advertising](/guides/agentic-ai-advertising/) [AI Content & Copywriting](/categories/content-ai/) [Best AI Content & Copywriting tools](/best/ai-content-copywriting-tools/) [AI SEO tooling](/guides/ai-seo-tooling/)
 
 ## See also
 

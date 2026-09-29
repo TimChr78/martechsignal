@@ -13,11 +13,11 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Open-source licensing with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; Active public repository (2,855 GitHub stars counted at last check) |  |
+| ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ Active public repository (2,855 GitHub stars counted at last check) |  |
 
 **What is Maizzle?**
-Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,855 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,855 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Maizzle cost?**
 Maizzle is open source - Free to self-host; the public repository carries 2,855 stars. You pay in server time and maintenance, not licences.
@@ -80,11 +80,11 @@ Email Marketing · Free · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Maizzle &#8594;](https://maizzle.com)
+[Visit Maizzle →](https://maizzle.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Maizzle &#8594;](https://maizzle.com)
+[Visit Maizzle →](https://maizzle.com)
 
 ## MartechSignal Score: 32/60
 
@@ -101,7 +101,7 @@ Maizzle homepage, captured September 2026. Vendor page shown as a dated referenc
 ## How to install
 
 - Scaffold a project: npx maizzle new (interactive), or non-interactively npx maizzle new maizzle/maizzle project-name --install, which uses the starter.
-- Develop locally: cd project-name &amp;&amp; npx maizzle serve (maizzle dev is an alias). Options include --port and --host. The starter&#x27;s package.json wires dev, build, and a postinstall maizzle prepare step.
+- Develop locally: cd project-name && npx maizzle serve (maizzle dev is an alias). Options include --port and --host. The starter's package.json wires dev, build, and a postinstall maizzle prepare step.
 - Build for production: npx maizzle build, with flags for --output, --dir, --ext, --pretty, --minify, and --plaintext.
 - Per-environment builds are config files, not flags, in v6: npx maizzle make:config production writes production.config.ts, and you build with npx maizzle build --config maizzle.production.ts. There is no --env flag in v6.
 - Generators cover the rest of the workflow: npx maizzle make:template, make:layout, and make:component.
@@ -121,7 +121,7 @@ Marketers who want a visual drag-and-drop editor (there is none; Mailviews is th
 
 Assessed from maizzle.com/docs and the maizzle/framework releases; we have not built templates with it. Activity is the strongest signal: v6.0.0 landed June 9, 2026 after 26 release candidates, and 236 commits plus point releases followed, including v6.1.3 on September 7, 2026.
 
-Version 6 is a rewrite, not an increment, and the upgrade guide is blunt about the breakage: templates move from PostHTML HTML to Vue single-file components, front matter is replaced by defineConfig() in script setup, config.js becomes maizzle.config.ts, the outlook config key is replaced by an Outlook component, and CSS inlining, purging, shorthand, and HTML formatting are now always on. Tailwind CSS 4 support arrives with a bundled @maizzle/tailwindcss email config that replaces v5&#x27;s tailwindcss-preset-email. Existing v5 projects should budget real migration time and read the guide first.
+Version 6 is a rewrite, not an increment, and the upgrade guide is blunt about the breakage: templates move from PostHTML HTML to Vue single-file components, front matter is replaced by defineConfig() in script setup, config.js becomes maizzle.config.ts, the outlook config key is replaced by an Outlook component, and CSS inlining, purging, shorthand, and HTML formatting are now always on. Tailwind CSS 4 support arrives with a bundled @maizzle/tailwindcss email config that replaces v5's tailwindcss-preset-email. Existing v5 projects should budget real migration time and read the guide first.
 
 The repo layout changed with v6 and matters for evaluation: the engine lives in maizzle/framework (with the bulk of the commit history) while maizzle/maizzle is the starter template repository at 2,800-plus stars. Issues are directed at the framework repo.
 
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,855 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,855 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Maizzle is open source - Free to self-host; the public repository carries 2,855 stars. You pay in server time and maintenance, not licences.
 

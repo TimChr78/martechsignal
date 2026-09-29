@@ -13,13 +13,13 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; AI capabilities: 250+ audit checks across 12 ad platforms |  |
-| &#10003; Active public repository (9,143 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include Google Ads, Meta Ads, YouTube Ads (12 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: 250+ audit checks across 12 ad platforms |  |
+| ✓ Active public repository (9,143 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Google Ads, Meta Ads, YouTube Ads (12 listed) |  |
 
 **What is Claude Ads?**
-Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,143 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,143 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Claude Ads cost?**
 Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,143 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
@@ -70,11 +70,11 @@ Agent Skills · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit Claude Ads &#8594;](https://github.com/AgriciDaniel/claude-ads)
+[Visit Claude Ads →](https://github.com/AgriciDaniel/claude-ads)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Claude Ads &#8594;](https://github.com/AgriciDaniel/claude-ads)
+[Visit Claude Ads →](https://github.com/AgriciDaniel/claude-ads)
 
 ## MartechSignal Score: 46/60
 
@@ -84,7 +84,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Claude Ads is a paid-media operations skill that runs inside Claude Code. Point it at your ad account exports or connect a read-only API feed, and it audits, plans, creates, monitors, and reports across 12 platforms: Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Reddit, Snapchat, X, Apple, Amazon, and Pinterest. Each platform gets its own focused skill, audit worker, and capability declaration. The audit alone runs 250+ checks and scores your account health with dated evidence and explicit confidence levels, so you know whether a finding is a confirmed problem or a likely one. The workflow covers the full paid-media lifecycle. /ads audit gives you an evidence-backed account review. /ads plan builds channel strategy, campaign structure, budget allocation, and measurement design. /ads create produces copy, image briefs, video scripts, and product-photo directions. /ads monitor tracks pacing, delivery, fatigue, policy compliance, and performance drift. /ads experiment designs controlled tests. Everything outputs as versioned JSON that renders to Markdown, HTML, or PDF. The critical design choice: it&#x27;s read-only by default. Live account changes stay disabled until the specific platform and operation pass approval, idempotency, verification, audit, and rollback gates. You draft changes with /ads launch --draft and /ads optimize --draft, review them, then decide whether to apply. It&#x27;s free and MIT-licensed, same as Claude SEO. You need Claude Code and API tokens. The context intake system asks about your industry and spend level upfront so benchmarks are relevant to your situation rather than generic. There&#x27;s a community mirror on Skool for early access, but the public repo is complete. The closest comparison is a human PPC consultant or an agency retainer. Claude Ads doesn&#x27;t replace judgment, but it replaces the 4-hour manual audit spreadsheet and the &quot;I&#x27;ll get to that creative brief next week&quot; backlog. For agencies managing multiple ad accounts, running /ads audit on each client monthly costs API tokens instead of billable hours. For in-house teams spending $5K-50K/month on ads, it&#x27;s a force multiplier that catches wasted spend and policy violations before they compound. If you only run Meta ads and want a simpler tool, Revealbot handles rule-based automation. Claude Ads is for teams that want the full operational layer.
+Claude Ads is a paid-media operations skill that runs inside Claude Code. Point it at your ad account exports or connect a read-only API feed, and it audits, plans, creates, monitors, and reports across 12 platforms: Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Reddit, Snapchat, X, Apple, Amazon, and Pinterest. Each platform gets its own focused skill, audit worker, and capability declaration. The audit alone runs 250+ checks and scores your account health with dated evidence and explicit confidence levels, so you know whether a finding is a confirmed problem or a likely one. The workflow covers the full paid-media lifecycle. /ads audit gives you an evidence-backed account review. /ads plan builds channel strategy, campaign structure, budget allocation, and measurement design. /ads create produces copy, image briefs, video scripts, and product-photo directions. /ads monitor tracks pacing, delivery, fatigue, policy compliance, and performance drift. /ads experiment designs controlled tests. Everything outputs as versioned JSON that renders to Markdown, HTML, or PDF. The critical design choice: it's read-only by default. Live account changes stay disabled until the specific platform and operation pass approval, idempotency, verification, audit, and rollback gates. You draft changes with /ads launch --draft and /ads optimize --draft, review them, then decide whether to apply. It's free and MIT-licensed, same as Claude SEO. You need Claude Code and API tokens. The context intake system asks about your industry and spend level upfront so benchmarks are relevant to your situation rather than generic. There's a community mirror on Skool for early access, but the public repo is complete. The closest comparison is a human PPC consultant or an agency retainer. Claude Ads doesn't replace judgment, but it replaces the 4-hour manual audit spreadsheet and the "I'll get to that creative brief next week" backlog. For agencies managing multiple ad accounts, running /ads audit on each client monthly costs API tokens instead of billable hours. For in-house teams spending $5K-50K/month on ads, it's a force multiplier that catches wasted spend and policy violations before they compound. If you only run Meta ads and want a simpler tool, Revealbot handles rule-based automation. Claude Ads is for teams that want the full operational layer.
 
 Claude Ads homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -142,7 +142,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,143 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,143 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,143 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
 
@@ -157,7 +157,7 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Also featured in
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) &mdash; Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

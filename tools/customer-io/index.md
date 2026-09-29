@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI Agent (beta) with execution skills | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Segment, Slack, Salesforce (11 listed) |  |
-| &#10003; API access for custom integrations |  |
+| ✓ AI capabilities: AI Agent (beta) with execution skills | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Segment, Slack, Salesforce (11 listed) |  |
+| ✓ API access for custom integrations |  |
 
 **What is Customer.io?**
-Customer.io: Data-driven messaging platform for automated email, push, SMS, and in-app messages. Customer.io ships with AI Agent (beta) with execution skills. This page documents 11 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Customer.io: Data-driven messaging platform for automated email, push, SMS, and in-app messages. Customer.io ships with AI Agent (beta) with execution skills. This page documents 11 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Customer.io cost?**
 Customer.io starts at $100/mo. Essentials $100/mo billed monthly (5k profiles, 1M emails/mo); Premium $1,000/mo billed yearly; Enterprise quoted. Overages $0.009/profile, $0.12 per 1,000 emails, $10 per 100K AI credits; unlimited seats. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -75,11 +75,11 @@ Email Marketing · From $100/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
-[Visit Customer.io &#8594;](https://customer.io)
+[Visit Customer.io →](https://customer.io)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Customer.io &#8594;](https://customer.io)
+[Visit Customer.io →](https://customer.io)
 
 ## MartechSignal Score: 41/60
 
@@ -128,7 +128,7 @@ Current plans and limits live on the [Customer.io pricing page](https://customer
 - Send identity and event data with the Track API or an SDK for iOS, Android, React Native, Flutter, or JavaScript, or route it through Data Pipelines, which also writes to downstream destinations.
 - Relate people to objects such as accounts or carts if you need account-level journeys; Essentials includes 2 object types, Premium 10.
 - Build journeys in the visual workflow builder, then add channels: email, push, in-app, SMS, native WhatsApp, LINE, and webhooks that send and receive.
-- If you want agent access, follow the docs&#x27; MCP setup guides for ChatGPT, Claude Desktop, Cursor, or the Claude Code plugin, or use the CLI with a service account.
+- If you want agent access, follow the docs' MCP setup guides for ChatGPT, Claude Desktop, Cursor, or the Claude Code plugin, or use the CLI with a service account.
 ## Best for
 
 Product-led SaaS and e-commerce teams that already track user events server-side and want email, push, in-app, SMS, and WhatsApp driven by those events, with unlimited seats and a published price list.
@@ -163,7 +163,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Customer.io: Data-driven messaging platform for automated email, push, SMS, and in-app messages. Customer.io ships with AI Agent (beta) with execution skills. This page documents 11 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Customer.io: Data-driven messaging platform for automated email, push, SMS, and in-app messages. Customer.io ships with AI Agent (beta) with execution skills. This page documents 11 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Customer.io starts at $100/mo. Essentials $100/mo billed monthly (5k profiles, 1M emails/mo); Premium $1,000/mo billed yearly; Enterprise quoted. Overages $0.009/profile, $0.12 per 1,000 emails, $10 per 100K AI credits; unlimited seats. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -178,11 +178,11 @@ Email and transactional email, push and in-app with unlimited sends on every pla
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ## Also featured in
 
-- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) &mdash; Lifecycle teams writing behavior-triggered journeys on their own data
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Lifecycle teams writing behavior-triggered journeys on their own data
 ### Quick Facts
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

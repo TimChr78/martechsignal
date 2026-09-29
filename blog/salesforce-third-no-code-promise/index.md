@@ -1,10 +1,10 @@
-# Salesforce&#x27;s third no-code promise, audited
+# Salesforce's third no-code promise, audited
 
 TC **[Tim Christensen](/authors/tim-christensen/)**
 
 AUTOMATION · AI AGENTS · 7 MIN
 
-## Salesforce&#x27;s third no-code promise, audited
+## Salesforce's third no-code promise, audited
 
 [How we review](/methodology/) · No affiliate links
 
@@ -87,7 +87,7 @@ Browse the [MartechSignal tools directory](/tools/salesforce-marketing-cloud/) t
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

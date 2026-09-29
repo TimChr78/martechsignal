@@ -13,16 +13,16 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; The free cloud plan caps connectors at one daily active sync, so anything past event streaming sits on a paid plan. |
-| &#10003; AI capabilities: MCP Server for agent-driven setup | &#10007; Multiplexed and filtered events have billing edge cases that need reading the FAQ before budgeting. |
-| &#10003; Active public repository (5,091 GitHub stars counted at last check) | &#10007; Community support is the open-source path; the repository is active but not huge at 5,091 GitHub stars stars. |
-| &#10003; Native integrations include BigQuery, Snowflake, Google Analytics 4 (6 listed) |  |
-| &#10003; Captured events are unlimited and free on every plan, so ingest volume alone never drives cost. |  |
-| &#10003; Self-hosting the MIT-licensed code carries no usage limits and no licence fee. |  |
-| &#10003; Deployment covers Jitsu Cloud, managed single-tenant private cloud on GCP or AWS, and on-premises as one product. |  |
+| ✓ MIT licence with free self-hosting | ✗ The free cloud plan caps connectors at one daily active sync, so anything past event streaming sits on a paid plan. |
+| ✓ AI capabilities: MCP Server for agent-driven setup | ✗ Multiplexed and filtered events have billing edge cases that need reading the FAQ before budgeting. |
+| ✓ Active public repository (5,091 GitHub stars counted at last check) | ✗ Community support is the open-source path; the repository is active but not huge at 5,091 GitHub stars stars. |
+| ✓ Native integrations include BigQuery, Snowflake, Google Analytics 4 (6 listed) |  |
+| ✓ Captured events are unlimited and free on every plan, so ingest volume alone never drives cost. |  |
+| ✓ Self-hosting the MIT-licensed code carries no usage limits and no licence fee. |  |
+| ✓ Deployment covers Jitsu Cloud, managed single-tenant private cloud on GCP or AWS, and on-premises as one product. |  |
 
 **What is Jitsu?**
-Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,091 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,091 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Jitsu cost?**
 Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,091 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences.
@@ -40,14 +40,14 @@ A successful data transfer from a connector to a destination. Repeated syncs on 
 It covers the same collection and routing job and the docs ship a Segment proxy for an existing implementation. Check the destination catalog against your stack before switching, since the list is warehouse-heavy.
 
 - **Pricing:** Freemium
-- **Category:** [Personalization &amp; CDP](/categories/personalization/)
+- **Category:** [Personalization & CDP](/categories/personalization/)
 - **GitHub:** ★ 5091
 - **Founded:** 2020
 - **HQ:** New York City, United States (YC S20)
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Jitsu is a tool in Personalization &amp; CDP with free and open source. The catalog documents 1 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Jitsu is a tool in Personalization & CDP with free and open source. The catalog documents 1 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 GrowthBook
 
@@ -65,27 +65,27 @@ Mixpanel
 
 Product analytics platform with AI-powered insights for user behavior tracking
 
-[More Personalization &amp; CDP Tools →](/categories/personalization/)
+[More Personalization & CDP Tools →](/categories/personalization/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [Personalization &amp; CDP](/categories/personalization/)
+- [Personalization & CDP](/categories/personalization/)
 - Jitsu
 ## Jitsu review (2026): pricing, AI features, verdict
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
 
-Personalization &amp; CDP · Freemium · OPEN SOURCE Desk-reviewed
+Personalization & CDP · Freemium · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-[Visit Jitsu &#8594;](https://jitsu.com)
+[Visit Jitsu →](https://jitsu.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Jitsu &#8594;](https://jitsu.com)
+[Visit Jitsu →](https://jitsu.com)
 
 ## MartechSignal Score: 36/60
 
@@ -151,7 +151,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,091 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,091 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,091 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences.
 
@@ -167,12 +167,12 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 
 ## Related reading
 
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Also featured in
 
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/) &mdash; Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)

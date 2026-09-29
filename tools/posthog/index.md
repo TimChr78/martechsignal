@@ -13,16 +13,16 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; The ee/ directory is under a separate enterprise license, so the codebase is not wholly MIT |
-| &#10003; AI capabilities: postHog AI assistant for natural language queries (500 free credits per month) | &#10007; Usage-based pricing means costs track volume, and heavy session replay or event traffic moves the bill |
-| &#10003; Active public repository (39,933 GitHub stars counted at last check) | &#10007; Feature depth per product trails the focused specialists in each category |
-| &#10003; Native integrations include Slack, GitHub, Zapier (6 listed) |  |
-| &#10003; The monthly free tier covers every product and stops usage at the limits, so a spike cannot create a surprise invoice |  |
-| &#10003; One platform replaces several separate martech purchases with one tag and one billing page |  |
-| &#10003; US and EU cloud regions plus a self-hosted option cover most data residency conversations |  |
+| ✓ MIT licence with free self-hosting | ✗ The ee/ directory is under a separate enterprise license, so the codebase is not wholly MIT |
+| ✓ AI capabilities: postHog AI assistant for natural language queries (500 free credits per month) | ✗ Usage-based pricing means costs track volume, and heavy session replay or event traffic moves the bill |
+| ✓ Active public repository (39,933 GitHub stars counted at last check) | ✗ Feature depth per product trails the focused specialists in each category |
+| ✓ Native integrations include Slack, GitHub, Zapier (6 listed) |  |
+| ✓ The monthly free tier covers every product and stops usage at the limits, so a spike cannot create a surprise invoice |  |
+| ✓ One platform replaces several separate martech purchases with one tag and one billing page |  |
+| ✓ US and EU cloud regions plus a self-hosted option cover most data residency conversations |  |
 
 **What is PostHog?**
-PostHog: Open-source product analytics platform with session replay, feature flags, experiments, and surveys. PostHog ships with postHog AI assistant for natural language queries (500 free credits per month). The public repository carries 39,933 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+PostHog: Open-source product analytics platform with session replay, feature flags, experiments, and surveys. PostHog ships with postHog AI assistant for natural language queries (500 free credits per month). The public repository carries 39,933 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does PostHog cost?**
 PostHog is open source - MIT licensed and free to self-host; the public repository carries 39,933 stars; native integrations cover Slack, GitHub, Zapier. You pay in server time and maintenance, not licences.
@@ -43,14 +43,14 @@ Usage-based credits per product on top of the free allowances, with per-product 
 PostHog AI answers questions about your data in plain language across web, Slack, desktop, and MCP, with 500 credits free each month. AI Observability and Evaluations track LLM usage, and Replay Vision assists session replay review.
 
 - **Pricing:** Freemium
-- **Category:** [Analytics &amp; Attribution](/categories/analytics/)
+- **Category:** [Analytics & Attribution](/categories/analytics/)
 - **GitHub:** ★ 39933
 - **Founded:** 2020
 - **HQ:** San Francisco, United States
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** PostHog is a tool in Analytics &amp; Attribution with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** PostHog is a tool in Analytics & Attribution with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Mixpanel
 
@@ -72,27 +72,27 @@ Snowplow
 
 Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
 
-[More Analytics &amp; Attribution Tools →](/categories/analytics/)
+[More Analytics & Attribution Tools →](/categories/analytics/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [Analytics &amp; Attribution](/categories/analytics/)
+- [Analytics & Attribution](/categories/analytics/)
 - PostHog
 ## PostHog review (2026): pricing, AI features, verdict
 
 Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 
-Analytics &amp; Attribution · Freemium · OPEN SOURCE Desk-reviewed
+Analytics & Attribution · Freemium · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-[Visit PostHog &#8594;](https://posthog.com)
+[Visit PostHog →](https://posthog.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit PostHog &#8594;](https://posthog.com)
+[Visit PostHog →](https://posthog.com)
 
 ## MartechSignal Score: 43/60
 
@@ -160,7 +160,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-PostHog: Open-source product analytics platform with session replay, feature flags, experiments, and surveys. PostHog ships with postHog AI assistant for natural language queries (500 free credits per month). The public repository carries 39,933 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+PostHog: Open-source product analytics platform with session replay, feature flags, experiments, and surveys. PostHog ships with postHog AI assistant for natural language queries (500 free credits per month). The public repository carries 39,933 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 PostHog is open source - MIT licensed and free to self-host; the public repository carries 39,933 stars; native integrations cover Slack, GitHub, Zapier. You pay in server time and maintenance, not licences.
 
@@ -183,7 +183,7 @@ PostHog AI answers questions about your data in plain language across web, Slack
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ## Also featured in
 
-- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/) &mdash; the real questions are about product usage, and you want flags and experiments beside the funnel.
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/) — the real questions are about product usage, and you want flags and experiments beside the funnel.
 ### Quick Facts
 
 Related guides: [PostHog in Matomo alternatives](/alternatives/matomo/)

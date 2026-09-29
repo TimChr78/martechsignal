@@ -8,17 +8,17 @@
 | Integrations | 4/10 | Five documented connectors (Twilio, Exotel, WhatsApp, ERPNext, Meta Lead Ads) and no public API flag in the catalog; the Frappe framework fills some gaps (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
 | Openness | 9/10 | AGPL-3.0, self-hosted, 3.5k GitHub stars, unlimited users on the free tier (the source repository: [repository](frappe/crm), verified 2026-09-28). |
-| Operational maturity | 6/10 | Built by Frappe with ERPNext&#x27;s decade of operations behind it, though the CRM product itself is younger and has a smaller ecosystem (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
+| Operational maturity | 6/10 | Built by Frappe with ERPNext's decade of operations behind it, though the CRM product itself is younger and has a smaller ecosystem (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
 
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $5/mo once past the free tier |
-| &#10003; Active public repository (3,501 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include Twilio, Exotel, WhatsApp (5 listed) |  |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5/mo once past the free tier |
+| ✓ Active public repository (3,501 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Twilio, Exotel, WhatsApp (5 listed) |  |
 
 **What is Frappe CRM?**
-Frappe CRM: Fully featured, open source CRM. The public repository carries 3,501 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Frappe CRM: Fully featured, open source CRM. The public repository carries 3,501 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Frappe CRM cost?**
 Frappe CRM has a free tier; paid plans start at $5/mo. Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -50,7 +50,7 @@ Cordys CRM
 
 Open-source AI CRM with built-in agents, conversational analytics, and private deployment
 
-IDURAR ERP &amp; CRM
+IDURAR ERP & CRM
 
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
@@ -84,11 +84,11 @@ CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
-[Visit Frappe CRM &#8594;](https://frappe.io/crm)
+[Visit Frappe CRM →](https://frappe.io/crm)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Frappe CRM &#8594;](https://frappe.io/crm)
+[Visit Frappe CRM →](https://frappe.io/crm)
 
 ## MartechSignal Score: 36/60
 
@@ -98,7 +98,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Frappe CRM is an open-source sales CRM built on the Frappe framework, the Python and MariaDB stack behind ERPNext, and it ships under AGPL-3.0, a license worth reading before you plan to offer it as a hosted service. The README pitches a simple, affordable CRM for modern sales teams with unlimited users, and pricing supports the affordability half of that: self-hosting is free, Frappe Cloud hosting starts at $5 per month per site, dedicated servers run $20 to $60 per month, and no tier charges per user. Development moves quickly. The project released roughly 130 times across 2025 and 2026, reaching v1.83.0 in September 2026, adding Sales Hierarchy in June 2026, an editable dashboard in July 2025, and assignment rules. Every lead, deal, contact, and organization is a Frappe document, so custom fields, custom statuses, list actions, and Python server scripts extend the CRM the same way ERPNext gets extended. The interface is a Vue 3 single-page app with a drag-and-drop kanban board for leads and deals, saved, public, and pinned views, web forms for lead capture, and a mobile experience delivered as a progressive web app rather than a native app. Integrations are narrow and documented. Telephony covers Twilio and Exotel, with click-to-call from lead, deal, and contact pages, call pop-ups, recording, and notes. WhatsApp arrives through a separate third-party app, Frappe WhatsApp by Shridhar, sending from templates over the WhatsApp Business Cloud API. Email works from lead and deal records with multiple accounts and templates. Facebook and Instagram lead sync is documented as beta. ERPNext sync creates customers and quotations from won deals, though most of it needs both apps on the same site. Two things to check first: no AI features appear in the README, marketing site, or release notes, and the repository&#x27;s default branch is develop, which tracks the unreleased Frappe v17, so pin to main for a stable install.
+Frappe CRM is an open-source sales CRM built on the Frappe framework, the Python and MariaDB stack behind ERPNext, and it ships under AGPL-3.0, a license worth reading before you plan to offer it as a hosted service. The README pitches a simple, affordable CRM for modern sales teams with unlimited users, and pricing supports the affordability half of that: self-hosting is free, Frappe Cloud hosting starts at $5 per month per site, dedicated servers run $20 to $60 per month, and no tier charges per user. Development moves quickly. The project released roughly 130 times across 2025 and 2026, reaching v1.83.0 in September 2026, adding Sales Hierarchy in June 2026, an editable dashboard in July 2025, and assignment rules. Every lead, deal, contact, and organization is a Frappe document, so custom fields, custom statuses, list actions, and Python server scripts extend the CRM the same way ERPNext gets extended. The interface is a Vue 3 single-page app with a drag-and-drop kanban board for leads and deals, saved, public, and pinned views, web forms for lead capture, and a mobile experience delivered as a progressive web app rather than a native app. Integrations are narrow and documented. Telephony covers Twilio and Exotel, with click-to-call from lead, deal, and contact pages, call pop-ups, recording, and notes. WhatsApp arrives through a separate third-party app, Frappe WhatsApp by Shridhar, sending from templates over the WhatsApp Business Cloud API. Email works from lead and deal records with multiple accounts and templates. Facebook and Instagram lead sync is documented as beta. ERPNext sync creates customers and quotations from won deals, though most of it needs both apps on the same site. Two things to check first: no AI features appear in the README, marketing site, or release notes, and the repository's default branch is develop, which tracks the unreleased Frappe v17, so pin to main for a stable install.
 
 Frappe CRM homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -118,11 +118,11 @@ Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedi
 ## How to install
 
 - Managed route first, because the docs say so: they recommend trying Frappe Cloud before self-hosting. Sign up at frappecloud.com/crm/signup, or install the CRM app from the marketplace if you already run a Frappe Cloud account.
-- For a production server, use the Easy Install script. Download frappe.io/easy-install.py and run python3 ./easy-install.py deploy --project=crm_prod_setup --email=you@example.com --image=ghcr.io/frappe/crm --version=stable --app=crm --sitename subdomain.domain.tld. The docs warn the site&#x27;s DNS A record must point at the server first, or you will get a 404.
-- For a quick look, Docker is the fastest path: download docker-compose.yml and init.sh from the repo&#x27;s docker directory and run docker compose up -d, then open http://crm.localhost:8000/crm and log in as Administrator with the password admin.
+- For a production server, use the Easy Install script. Download frappe.io/easy-install.py and run python3 ./easy-install.py deploy --project=crm_prod_setup --email=you@example.com --image=ghcr.io/frappe/crm --version=stable --app=crm --sitename subdomain.domain.tld. The docs warn the site's DNS A record must point at the server first, or you will get a 404.
+- For a quick look, Docker is the fastest path: download docker-compose.yml and init.sh from the repo's docker directory and run docker compose up -d, then open http://crm.localhost:8000/crm and log in as Administrator with the password admin.
 - For development, install the bench CLI (uv tool install frappe-bench), create a bench with bench init, then run bench get-app crm and bench new-site sitename.localhost --install-app crm. Start it with bench start and browse to sitename.localhost:8000/crm.
 - Frontend changes live in frappe-bench/apps/crm/frontend, a Vue 3 and Vite project: yarn install, then yarn dev serves the dev build on port 8080.
-- Pin the branch deliberately. main tracks the stable v1.x series against Frappe v15 and v16; develop, the repo&#x27;s default branch, targets the unreleased Frappe v17.
+- Pin the branch deliberately. main tracks the stable v1.x series against Frappe v15 and v16; develop, the repo's default branch, targets the unreleased Frappe v17.
 ## Requirements
 
 The CRM itself lists no version pins and defers to the Frappe framework docs, which ask for Python 3.10 or newer, MariaDB 10.6 or newer, Redis or Valkey 6, Node 18 or newer, and Yarn on Linux or macOS. The crm main branch declares Python 3.10+ and a Frappe dependency of 15.x or 16.x. Setup runs in a browser wizard the docs describe as about two minutes, but custom fields and server scripts still drop you into the Frappe desk backend.
@@ -139,7 +139,7 @@ Teams shopping for AI features (there are none in the product or the release not
 
 Assessed from the repository, the 41-page documentation site, and the release history rather than a self-hosted instance. The project is unusually active: roughly 130 releases across 2025 and 2026, reaching v1.83.0 in September 2026, with Sales Hierarchy in June 2026 and an editable dashboard in July 2025 among the additions.
 
-Installation has four documented routes, and they are not equal. Frappe Cloud is the path the docs recommend trying first, the Easy Install script deploys a production server in one command, Docker gets you a disposable instance at crm.localhost:8000 with an Administrator account, and bench get-app crm is the development route. One caveat the docs leave implicit: the repository&#x27;s default branch is develop, which targets the unreleased Frappe v17, so pin to main.
+Installation has four documented routes, and they are not equal. Frappe Cloud is the path the docs recommend trying first, the Easy Install script deploys a production server in one command, Docker gets you a disposable instance at crm.localhost:8000 with an Administrator account, and bench get-app crm is the development route. One caveat the docs leave implicit: the repository's default branch is develop, which targets the unreleased Frappe v17, so pin to main.
 
 The integration surface is narrow and clearly scoped: Twilio and Exotel for telephony, WhatsApp through a third-party app by Shridhar, email accounts on lead and deal records, beta Facebook and Instagram lead sync, and ERPNext sync that mostly requires both apps on the same site. There are no AI features in the README, the marketing site, or any release note we reviewed, and the mobile experience is a PWA rather than a native app.
 
@@ -164,7 +164,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Frappe CRM: Fully featured, open source CRM. The public repository carries 3,501 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Frappe CRM: Fully featured, open source CRM. The public repository carries 3,501 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Frappe CRM has a free tier; paid plans start at $5/mo. Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
 
@@ -183,11 +183,11 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 - [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
-- [Best open-source CRM tools (2026)](/best/open-source-crm/) &mdash; Best for budget-conscious sales teams, especially ERPNext shops.
+- [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for budget-conscious sales teams, especially ERPNext shops.
 ### Quick Facts
 
 Related guides: [Frappe CRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/)

@@ -13,23 +13,23 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI Search Agent that writes content and fixes pages | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Slack, MCP, Google Search Console (6 listed) | &#10007; Credit burn is uneven: tracking is steady, but content, audits, and outreach can exhaust 10,000 credits quickly |
-| &#10003; No features are locked behind higher tiers; the agent, all eight models, and MCP access come with every plan | &#10007; The Slack app was still in Slack&#x27;s review process as of September 2026 |
-| &#10003; Unlimited users, projects, brands, and competitor sets on every plan | &#10007; Claiming the EUR 40 starter credits requires a payment card |
-| &#10003; Unused credits roll over and stay valid for two months |  |
+| ✓ AI capabilities: AI Search Agent that writes content and fixes pages | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Slack, MCP, Google Search Console (6 listed) | ✗ Credit burn is uneven: tracking is steady, but content, audits, and outreach can exhaust 10,000 credits quickly |
+| ✓ No features are locked behind higher tiers; the agent, all eight models, and MCP access come with every plan | ✗ The Slack app was still in Slack's review process as of September 2026 |
+| ✓ Unlimited users, projects, brands, and competitor sets on every plan | ✗ Claiming the EUR 40 starter credits requires a payment card |
+| ✓ Unused credits roll over and stay valid for two months |  |
 
 **What is Nimt.ai?**
-Nimt.ai: AI search tracking across 8 models with an agent that writes, fixes, and outreaches. Nimt.ai ships with AI Search Agent that writes content and fixes pages. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Nimt.ai: AI search tracking across 8 models with an agent that writes, fixes, and outreaches. Nimt.ai ships with AI Search Agent that writes content and fixes pages. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Nimt.ai cost?**
 Nimt.ai starts at €79/mo. EUR 40 in free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with up to 72 prompts tracked daily. Credits meter tracking and agent work; unused credits roll over and stay valid 2 months; on-demand top-ups. Enterprise: custom volume pricing via sales on annual contracts, unlimited credits (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
-**Is Nimt.ai a good Geo &amp; Llm Optimization tool in 2026?**
+**Is Nimt.ai a good Geo & Llm Optimization tool in 2026?**
 Nimt bets that tracking alone is a dead end and sells the execution with it: one subscription meters daily visibility data and an agent that writes, fixes, and outreaches, with no features locked behind higher tiers. Credit pricing at EUR 79 per month keeps the model simple, but heavy agent use will outrun 10,000 credits. Worth a trial if you want AI search work delegated, provided you keep the approval step on.
 
 **What is a Nimt credit?**
-A credit is Nimt&#x27;s unit of work. Tracking a prompt set uses a steady amount each month; content, audits, and outreach use more. Unused credits roll over and stay valid for two months, and work pauses if you run out before renewal.
+A credit is Nimt's unit of work. Tracking a prompt set uses a steady amount each month; content, audits, and outreach use more. Unused credits roll over and stay valid for two months, and work pauses if you run out before renewal.
 
 **Which AI models does Nimt track?**
 Eight: ChatGPT, ChatGPT Search, Microsoft Copilot, Google AI Mode, Google AI Overviews, Perplexity, Gemini, and Claude.
@@ -38,12 +38,12 @@ Eight: ChatGPT, ChatGPT Search, Microsoft Copilot, Google AI Mode, Google AI Ove
 No. The agent drafts content, page fixes, and outreach, and you approve changes before anything is applied. It can also take on recurring jobs and report back in the app or Slack.
 
 - **Pricing:** From $79/mo
-- **Category:** [GEO &amp; LLM Optimization](/categories/geo-llm-visibility/)
+- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - **HQ:** Sweden
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Nimt.ai is a tool in GEO &amp; LLM Optimization with paid plans starting at €79/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Nimt.ai is a tool in GEO & LLM Optimization with paid plans starting at €79/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Nightwatch
 
@@ -61,27 +61,27 @@ Profound
 
 Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
-[More GEO &amp; LLM Optimization Tools →](/categories/geo-llm-visibility/)
+[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [GEO &amp; LLM Optimization](/categories/geo-llm-visibility/)
+- [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Nimt.ai
 ## Nimt.ai review (2026): pricing, AI features, verdict
 
 AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 
-GEO &amp; LLM Optimization · From $79/mo Desk-reviewed
+GEO & LLM Optimization · From $79/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-[Visit Nimt.ai &#8594;](https://nimt.ai)
+[Visit Nimt.ai →](https://nimt.ai)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Nimt.ai &#8594;](https://nimt.ai)
+[Visit Nimt.ai →](https://nimt.ai)
 
 ## MartechSignal Score: 35/60
 
@@ -126,13 +126,13 @@ Teams that want a pure measurement tool with fixed per-seat pricing. Anyone unco
 
 ## Review notes
 
-Assessed from Nimt&#x27;s site, pricing, about, and MCP pages in September 2026. We have not handed the agent a live workspace.
+Assessed from Nimt's site, pricing, about, and MCP pages in September 2026. We have not handed the agent a live workspace.
 
 Setup is self-serve and starts with the EUR 40 credit grant. You enter a website, Nimt proposes prompts by category (the demo shows around 40 suggestions), and you pick which of the eight models to track and how often. The dashboard updates daily with visibility, share of voice, ranking, sentiment, and brand strength. A source tracker shows which pages AI cites most, including competitor citations and the sub-queries behind answers. Unlimited projects and competitor sets mean agencies can run client workspaces without per-seat math.
 
 Then the work turns over to the agent. In the app or through the @Nimt Slack bot, you describe a goal and it produces content, page fixes, schema markup, and outreach, with an approval step before anything goes live. Recurring jobs are the practical draw: tell it to find losing prompts every Monday and it runs and reports back on that schedule. The honest operational question is credit burn. Tracking a prompt set is a steady monthly cost, while content, audits, and outreach are heavier, so a 10,000-credit Flex allowance can disappear faster than the plan comparison suggests. When credits run out, work pauses until renewal or a top-up.
 
-Two frictions are worth naming. Starting free still requires a card, and the Slack app was still in Slack&#x27;s review process as of September 2026, which surfaces an unapproved-app notice when the bot joins a workspace. Nimt says the app is functional during review. The MCP server is included in every plan with documented rate limits, and it is the cleanest path for teams that want visibility data inside Claude or Cursor instead of a dashboard.
+Two frictions are worth naming. Starting free still requires a card, and the Slack app was still in Slack's review process as of September 2026, which surfaces an unapproved-app notice when the bot joins a workspace. Nimt says the app is functional during review. The MCP server is included in every plan with documented rate limits, and it is the cleanest path for teams that want visibility data inside Claude or Cursor instead of a dashboard.
 
 ## Verdict
 
@@ -153,13 +153,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Nimt.ai: AI search tracking across 8 models with an agent that writes, fixes, and outreaches. Nimt.ai ships with AI Search Agent that writes content and fixes pages. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Nimt.ai: AI search tracking across 8 models with an agent that writes, fixes, and outreaches. Nimt.ai ships with AI Search Agent that writes content and fixes pages. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Nimt.ai starts at €79/mo. EUR 40 in free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with up to 72 prompts tracked daily. Credits meter tracking and agent work; unused credits roll over and stay valid 2 months; on-demand top-ups. Enterprise: custom volume pricing via sales on annual contracts, unlimited credits (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 Nimt bets that tracking alone is a dead end and sells the execution with it: one subscription meters daily visibility data and an agent that writes, fixes, and outreaches, with no features locked behind higher tiers. Credit pricing at EUR 79 per month keeps the model simple, but heavy agent use will outrun 10,000 credits. Worth a trial if you want AI search work delegated, provided you keep the approval step on.
 
-A credit is Nimt&#x27;s unit of work. Tracking a prompt set uses a steady amount each month; content, audits, and outreach use more. Unused credits roll over and stay valid for two months, and work pauses if you run out before renewal.
+A credit is Nimt's unit of work. Tracking a prompt set uses a steady amount each month; content, audits, and outreach use more. Unused credits roll over and stay valid for two months, and work pauses if you run out before renewal.
 
 Eight: ChatGPT, ChatGPT Search, Microsoft Copilot, Google AI Mode, Google AI Overviews, Perplexity, Gemini, and Claude.
 
@@ -174,7 +174,7 @@ No. The agent drafts content, page fixes, and outreach, and you approve changes 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Also featured in
 
-- [Best GEO &amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) &mdash; Best for GEO &amp; LLM optimization teams that want the job covered in one platform, starting at €79/mo.
+- [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for GEO & LLM optimization teams that want the job covered in one platform, starting at €79/mo.
 ### Quick Facts
 
 Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)

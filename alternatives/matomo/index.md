@@ -17,7 +17,7 @@ Matomo is the reference point for teams that want web analytics they own, and it
 
 The shortlist splits by what pushed you out. Lighter cookieless scripts suit teams that only need traffic and campaign numbers. Teams that live in funnels and retention are better served by product analytics suites. An event pipeline fits when raw behavioral data belongs in your own warehouse. Matomo still holds one ground the others do not: the consent-free position it claims through a CNIL listing, plus its commitment to keeping self-hosting free, so check whether your compliance case depends on either.
 
-When you compare, check what each tool does with cookies and consent, whether your historical statistics need to come across, and which reports you open each week. The prices below are the vendors&#x27; published ones, and we hold no account with any of these tools.
+When you compare, check what each tool does with cookies and consent, whether your historical statistics need to come across, and which reports you open each week. The prices below are the vendors' published ones, and we hold no account with any of these tools.
 
 ## [Plausible Analytics](/tools/plausible/)
 
@@ -29,7 +29,7 @@ Vendor: [Official site](https://plausible.io) · [Pricing](https://plausible.io/
 
 **Not for:** Teams that need deep behavioral modeling, extensive attribution, or advertising integrations; Plausible trades those away for a simpler setup.
 
-Plausible is open source under AGPL and free to self-host, with managed cloud from $9 per month for 10,000 pageviews scaling with traffic. It reports pageviews, visitors, sources, devices, locations, and goals in one dashboard, while Matomo&#x27;s funnels, cohorts, custom reports, form analytics, heatmaps, and A/B testing are paid premium plugins. Matomo is the more configurable platform with its tag manager and plugin bundles; Plausible is the lighter option with less operational burden.
+Plausible is open source under AGPL and free to self-host, with managed cloud from $9 per month for 10,000 pageviews scaling with traffic. It reports pageviews, visitors, sources, devices, locations, and goals in one dashboard, while Matomo's funnels, cohorts, custom reports, form analytics, heatmaps, and A/B testing are paid premium plugins. Matomo is the more configurable platform with its tag manager and plugin bundles; Plausible is the lighter option with less operational burden.
 
 ## [Umami](/tools/umami/)
 
@@ -51,9 +51,9 @@ Vendor: [Official site](https://posthog.com) · [Pricing](https://posthog.com/pr
 
 **Best for:** Product teams that want funnels, retention, session replay, feature flags, and experiments in one place, on a free tier large enough for real work.
 
-**Not for:** Teams that only need simple pageview reporting; PostHog&#x27;s breadth (flags, experiments, error tracking, a data warehouse) is more platform than a traffic dashboard.
+**Not for:** Teams that only need simple pageview reporting; PostHog's breadth (flags, experiments, error tracking, a data warehouse) is more platform than a traffic dashboard.
 
-PostHog&#x27;s core is MIT licensed, with an ee/ directory under a separate enterprise license, and one install covers event analytics, session replay, feature flags, A/B testing, surveys, error tracking, and logs. Pricing is usage-based credits above a free tier that renews every month for every product (1 million events, 5,000 session recordings, 1 million feature flag requests), running as PostHog Cloud in US and EU regions or self-hosted. Matomo&#x27;s heatmap and session recording add-ons sit inside PostHog&#x27;s free tier, but PostHog reports on product events rather than website visits and pageviews.
+PostHog's core is MIT licensed, with an ee/ directory under a separate enterprise license, and one install covers event analytics, session replay, feature flags, A/B testing, surveys, error tracking, and logs. Pricing is usage-based credits above a free tier that renews every month for every product (1 million events, 5,000 session recordings, 1 million feature flag requests), running as PostHog Cloud in US and EU regions or self-hosted. Matomo's heatmap and session recording add-ons sit inside PostHog's free tier, but PostHog reports on product events rather than website visits and pageviews.
 
 ## [Snowplow](/tools/snowplow/)
 
@@ -77,7 +77,7 @@ Vendor: [Official site](https://amplitude.com) · [Pricing](https://amplitude.co
 
 **Not for:** Organizations that require self-hosting or open source; Amplitude is closed SaaS, and its Growth and Enterprise plans are quoted by sales.
 
-Amplitude&#x27;s free plan includes 2 million events and 50,000 monthly tracked users per month with no time limit, while Plus starts at $0 and scales with event volume. Where Matomo counts pageviews and visits and sells funnels, cohorts, and A/B testing as premium plugins, Amplitude ships product analytics, experimentation, session replay, and audience activation in one suite, with a Warehouse Native option that queries Snowflake or Databricks directly. Mind the metering: monthly tracked users are counted alongside events, and overage bills at the plan&#x27;s per-unit rate.
+Amplitude's free plan includes 2 million events and 50,000 monthly tracked users per month with no time limit, while Plus starts at $0 and scales with event volume. Where Matomo counts pageviews and visits and sells funnels, cohorts, and A/B testing as premium plugins, Amplitude ships product analytics, experimentation, session replay, and audience activation in one suite, with a Warehouse Native option that queries Snowflake or Databricks directly. Mind the metering: monthly tracked users are counted alongside events, and overage bills at the plan's per-unit rate.
 
 Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics tools](/categories/analytics/).
 

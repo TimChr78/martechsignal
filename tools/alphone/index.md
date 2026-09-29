@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Elastic License 2.0 licence with free self-hosting | &#10007; Young project (176 GitHub stars) - smaller community and plugin ecosystem |
-| &#10003; API access for custom integrations |  |
-| &#10003; API access for custom integrations |  |
+| ✓ Elastic License 2.0 licence with free self-hosting | ✗ Young project (176 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ API access for custom integrations |  |
+| ✓ API access for custom integrations |  |
 
 **What is AlphOne?**
-AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 176 stars. AlphOne offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 176 stars. AlphOne offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does AlphOne cost?**
 AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 176 stars. Check the licence terms before commercial use.
@@ -70,11 +70,11 @@ CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
-[Visit AlphOne &#8594;](https://github.com/gopherium/AlphOne)
+[Visit AlphOne →](https://github.com/gopherium/AlphOne)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit AlphOne &#8594;](https://github.com/gopherium/AlphOne)
+[Visit AlphOne →](https://github.com/gopherium/AlphOne)
 
 ## MartechSignal Score: 29/60
 
@@ -84,7 +84,7 @@ Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-AlphOne is a plugin-first CRM with a Go backend exposing both GraphQL and REST APIs, a React single-page frontend, and a design that treats automation as an external concern: there is no built-in rules engine, because everything the UI does is available over HTTP with a token. Features ship as plugins with their own repositories; the current in-repo set covers fields, an importer, and a WhatsApp Cloud API channel that lands customer conversations in a shared inbox attached to the right contact. For marketing ops the notable part is how deliberately the project meets agents where they already work: it speaks MCP (Model Context Protocol) natively, so any MCP client can ask about today&#x27;s tasks or waiting contacts, and there is a community n8n node (n8n-nodes-alphone) with documented end-to-end workflows, such as an inbound WhatsApp message creating a write-back task on the right contact. The same API-first logic works with Activepieces, Windmill, Node-RED, or a cron job with curl. Licensing needs a look before you commit: the Go backend and SQL migrations carry the Elastic License 2.0, which forbids offering AlphOne to third parties as a hosted service, while the frontend, tests, and docs are AGPLv3. That split is workable for a company extending a self-hosted CRM in Go, and rules out SaaS vendors reselling hosted CRM. At 176 stars the community is early-stage, but the repo ships with code coverage, sqlc, GraphQL codegen, and an active commit log. Evaluate it as an API-first foundation for an n8n- or agent-driven stack, not a finished SuiteCRM replacement.
+AlphOne is a plugin-first CRM with a Go backend exposing both GraphQL and REST APIs, a React single-page frontend, and a design that treats automation as an external concern: there is no built-in rules engine, because everything the UI does is available over HTTP with a token. Features ship as plugins with their own repositories; the current in-repo set covers fields, an importer, and a WhatsApp Cloud API channel that lands customer conversations in a shared inbox attached to the right contact. For marketing ops the notable part is how deliberately the project meets agents where they already work: it speaks MCP (Model Context Protocol) natively, so any MCP client can ask about today's tasks or waiting contacts, and there is a community n8n node (n8n-nodes-alphone) with documented end-to-end workflows, such as an inbound WhatsApp message creating a write-back task on the right contact. The same API-first logic works with Activepieces, Windmill, Node-RED, or a cron job with curl. Licensing needs a look before you commit: the Go backend and SQL migrations carry the Elastic License 2.0, which forbids offering AlphOne to third parties as a hosted service, while the frontend, tests, and docs are AGPLv3. That split is workable for a company extending a self-hosted CRM in Go, and rules out SaaS vendors reselling hosted CRM. At 176 stars the community is early-stage, but the repo ships with code coverage, sqlc, GraphQL codegen, and an active commit log. Evaluate it as an API-first foundation for an n8n- or agent-driven stack, not a finished SuiteCRM replacement.
 
 AlphOne homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -112,7 +112,7 @@ The README is short and the documentation lives on a separate docs site, which t
 
 From the documentation: AI access is native rather than bolted on. AlphOne speaks MCP from version 0.9.0, so any MCP client can query tasks, contacts, and fields through a defined tool list. The catch is the license, not the tech: Elastic License 2.0 on the backend means no offering AlphOne as a hosted or managed service to third parties, while the frontend carries AGPLv3. If your use case is internal CRM on your own infrastructure, neither restriction bites. If you build client solutions, read both licenses before writing any code against the API.
 
-The automation story is the differentiator and it is documented, not implied: AlphOne has no built-in rules engine, and the docs say so plainly. Everything the frontend does runs over the same HTTP API a token unlocks, so an external engine drives the CRM the way the UI does. The docs walk an n8n workflow end to end - an inbound WhatsApp message creating a &#x27;write back to contact&#x27; task - using the community node n8n-nodes-alphone, and mark automated records so humans can tell agent-made work from human-made work. This assessment is from the live documentation and repository.
+The automation story is the differentiator and it is documented, not implied: AlphOne has no built-in rules engine, and the docs say so plainly. Everything the frontend does runs over the same HTTP API a token unlocks, so an external engine drives the CRM the way the UI does. The docs walk an n8n workflow end to end - an inbound WhatsApp message creating a 'write back to contact' task - using the community node n8n-nodes-alphone, and mark automated records so humans can tell agent-made work from human-made work. This assessment is from the live documentation and repository.
 
 AI access is native rather than bolted on. AlphOne speaks MCP, the same protocol Claude Code and other agent clients use, from version 0.9.0 onward: you mint a token, connect an MCP client, and the agent can query tasks, contacts, and fields through a defined tool list. For a marketing ops team already running agents, that means the CRM is addressable by the same infrastructure that runs everything else, without a vendor middleware layer in between. The GraphQL and REST APIs plus webhooks cover the cases MCP does not.
 
@@ -139,7 +139,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 176 stars. AlphOne offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 176 stars. AlphOne offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 176 stars. Check the licence terms before commercial use.
 
@@ -150,8 +150,8 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ### Quick Facts
 
 ## Get the next teardown

@@ -12,13 +12,15 @@
 - **Pick Make if:** your builders are operators who want the clearest visual canvas and a free tier to start in.
 - **Pick Zapier if:** you need the widest connector catalog and the workflow has to work on day one.
 
+[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
+
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## n8n vs Make vs Zapier (2026): the three-way automation decision
 
 Which is better, n8n or Make or Zapier? It is the question the search box suggests, and the honest answer is that all three win a different buyer. This page takes the three-way seriously: one decision table, then the dimensions where the products actually differ.
 
-Every number below is catalogued from each vendor&#x27;s own published materials and checked this month. The pair pages (n8n vs Zapier, Make vs Zapier) carry the longer version of each argument.
+Every number below is catalogued from each vendor's own published materials and checked this month. The pair pages (n8n vs Zapier, Make vs Zapier) carry the longer version of each argument.
 
 [n8n assessment](/tools/n8n/) · [Make assessment](/tools/make/)
 
@@ -36,9 +38,9 @@ Zapier
 
 ## Positioning
 
-**n8n:** The technical builder&#x27;s platform. Workflows are code-friendly (JavaScript anywhere), self-hostable, and priced per execution rather than per task. Its audience names infrastructure without flinching.
+**n8n:** The technical builder's platform. Workflows are code-friendly (JavaScript anywhere), self-hostable, and priced per execution rather than per task. Its audience names infrastructure without flinching.
 
-**Make:** The visual builder&#x27;s platform. Scenarios read like flowcharts, the iterator and aggregator tooling is genuinely powerful, and the free tier is generous enough to prototype real work before paying.
+**Make:** The visual builder's platform. Scenarios read like flowcharts, the iterator and aggregator tooling is genuinely powerful, and the free tier is generous enough to prototype real work before paying.
 
 **Zapier:** The default. The app catalog runs past 7,000 integrations, the editor handles edge cases the others make you think about, and every contractor has used it. Familiarity is a feature when three teams share one workflow.
 
@@ -62,7 +64,7 @@ Zapier
 
 **n8n:** n8n treats AI as nodes in a workflow: model calls, agent steps and tool connections are modules you wire like any other. The LangChain nodes date the integration to the agent era, and the self-hosted edition lets you point those nodes at your own inference endpoint.
 
-**Make:** Make&#x27;s AI modules abstract the model layer: pick a provider, fill the prompt fields, move on. The strength is speed for operators; the limit arrives when a workflow needs custom retrieval or a self-hosted model, where the abstraction leaks.
+**Make:** Make's AI modules abstract the model layer: pick a provider, fill the prompt fields, move on. The strength is speed for operators; the limit arrives when a workflow needs custom retrieval or a self-hosted model, where the abstraction leaks.
 
 **Zapier:** Zapier ships the most packaged AI actions of the three, including its own assistant for building Zaps. For teams that want AI steps without thinking about model plumbing, that packaging is the whole argument.
 
@@ -70,25 +72,25 @@ Zapier
 
 **n8n:** The community node ecosystem fills gaps the core misses, and any REST API becomes a node with a little JSON. Coverage is wide and the edges are yours to sand.
 
-**Make:** The app catalog runs to well over a thousand with strong coverage of the marketing and SMB stack, and the HTTP module covers the rest. Where Make invests, the modules are richer than either rival&#x27;s.
+**Make:** The app catalog runs to well over a thousand with strong coverage of the marketing and SMB stack, and the HTTP module covers the rest. Where Make invests, the modules are richer than either rival's.
 
 **Zapier:** The catalog past 7,000 integrations is the moat. Niche SaaS lands here first, and the odds any given tool in your stack already has a maintained connector are simply better.
 
 ## When each wins
 
-**n8n:** Choose n8n when the workflow has a step nobody&#x27;s connector covers and a developer will write it. The economics hold up better too: per-execution pricing rewards complex flows.
+**n8n:** Choose n8n when the workflow has a step nobody's connector covers and a developer will write it. The economics hold up better too: per-execution pricing rewards complex flows.
 
-**Make:** Choose Make when the people building the automation are operators, not engineers, and the scenario logic runs wide and branchy. The canvas shows more than either competitor&#x27;s.
+**Make:** Choose Make when the people building the automation are operators, not engineers, and the scenario logic runs wide and branchy. The canvas shows more than either competitor's.
 
 **Zapier:** Choose Zapier when the bottleneck is coverage and time-to-value. If the app you need exists in exactly one ecosystem, it is usually this one.
 
 ## Migration cost
 
-Moving between the three is mostly rebuild rather than migrate. None of them imports another&#x27;s workflow format natively, so plan on redrawing each scenario in the new canvas. For a 20-step workflow that is an afternoon; the costlier part is re-testing every connector&#x27;s authentication and edge behaviour.
+Moving between the three is mostly rebuild rather than migrate. None of them imports another's workflow format natively, so plan on redrawing each scenario in the new canvas. For a 20-step workflow that is an afternoon; the costlier part is re-testing every connector's authentication and edge behaviour.
 
-The hidden migration cost sits in error handling. Zapier&#x27;s built-in retries, Make&#x27;s error routes and n8n&#x27;s error workflow are three different designs, and rebuilding that safety layer is where teams underestimate the bill. Get the happy path running first, then rebuild failure handling with the original workflow open beside you.
+The hidden migration cost sits in error handling. Zapier's built-in retries, Make's error routes and n8n's error workflow are three different designs, and rebuilding that safety layer is where teams underestimate the bill. Get the happy path running first, then rebuild failure handling with the original workflow open beside you.
 
-If you are leaving one platform over price, model the exit against twelve months of usage rather than this month&#x27;s invoice. Per-execution (n8n) and per-operation (Make) and per-task (Zapier) billing answer different workload shapes, and the cheapest for your traffic is a one-hour spreadsheet exercise.
+If you are leaving one platform over price, model the exit against twelve months of usage rather than this month's invoice. Per-execution (n8n) and per-operation (Make) and per-task (Zapier) billing answer different workload shapes, and the cheapest for your traffic is a one-hour spreadsheet exercise.
 
 ## When neither is the right answer
 
@@ -97,6 +99,10 @@ Skip all three when your automation is really a data pipeline. Scheduled ETL wit
 ## Who should pick which
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
+
+## Browse the hubs behind this comparison
+
+**Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Get the next teardown
 

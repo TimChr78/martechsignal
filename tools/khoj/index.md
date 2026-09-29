@@ -4,7 +4,7 @@
 | Pillar | Score | Evidence |
 | --- | --- | --- |
 | Pricing transparency | 5/10 | Self-hosted free under AGPL-3.0; Khoj Cloud exists with no public pricing page found (Sep 2026) (the vendor pricing page: [pricing page](https://khoj.dev), verified 2026-09-28). |
-| Feature depth | 6/10 | Document Q&amp;A across five formats, custom agents with personas and workflow automation cover research work (vendor documentation: [vendor site](https://khoj.dev), verified 2026-09-28). |
+| Feature depth | 6/10 | Document Q&A across five formats, custom agents with personas and workflow automation cover research work (vendor documentation: [vendor site](https://khoj.dev), verified 2026-09-28). |
 | Integrations | 5/10 | Obsidian, Emacs, WhatsApp and Notion documented plus an API (vendor documentation: [vendor site](https://khoj.dev), verified 2026-09-28). |
 | AI capability | 7/10 | Local and online LLM chat with custom agents and document retrieval is the product core (vendor documentation: [vendor site](https://khoj.dev), verified 2026-09-28). |
 | Openness | 9/10 | AGPL-3.0 with 37.5k GitHub stars and full self-hosting (the source repository: [repository](khoj-ai/khoj), verified 2026-09-28). |
@@ -13,20 +13,20 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AGPL-3.0 licence with free self-hosting | &#10007; No public pricing page for Khoj Cloud, so hosted costs cannot be budgeted from the website |
-| &#10003; AI capabilities: chat with local and online LLMs | &#10007; AGPL-3.0 obligations attach to modified deployments serving external users |
-| &#10003; Active public repository (37,497 GitHub stars counted at last check) | &#10007; Self-hosting plus model setup takes real technical time before anyone writes a word |
-| &#10003; Runs against local models, so private documents never have to leave the building |  |
-| &#10003; Client coverage is unusually wide for a self-hosted assistant, including Obsidian, Emacs, and WhatsApp |  |
-| &#10003; Scheduled newsletters and smart notifications automate research collection that would otherwise be manual |  |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ No public pricing page for Khoj Cloud, so hosted costs cannot be budgeted from the website |
+| ✓ AI capabilities: chat with local and online LLMs | ✗ AGPL-3.0 obligations attach to modified deployments serving external users |
+| ✓ Active public repository (37,497 GitHub stars counted at last check) | ✗ Self-hosting plus model setup takes real technical time before anyone writes a word |
+| ✓ Runs against local models, so private documents never have to leave the building |  |
+| ✓ Client coverage is unusually wide for a self-hosted assistant, including Obsidian, Emacs, and WhatsApp |  |
+| ✓ Scheduled newsletters and smart notifications automate research collection that would otherwise be manual |  |
 
 **What is Khoj?**
-Khoj: Self-hosted AI research and writing assistant that chats with your documents and automates content workflows. Khoj ships with chat with local and online LLMs. The public repository carries 37,497 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Khoj: Self-hosted AI research and writing assistant that chats with your documents and automates content workflows. Khoj ships with chat with local and online LLMs. The public repository carries 37,497 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Khoj cost?**
 Khoj is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 37,497 stars; native integrations cover Obsidian, Emacs, WhatsApp. You pay in server time and maintenance, not licences.
 
-**Is Khoj a good self-hosted AI Content &amp; Copywriting tool in 2026?**
+**Is Khoj a good self-hosted AI Content & Copywriting tool in 2026?**
 A strong pick when the documents are the product: private research, drafting against your own archive, and automated topic watching, all on infrastructure you control. Budget setup time and model costs, and settle the license question before commercial deployment.
 
 **Is Khoj free?**
@@ -42,12 +42,12 @@ Yes. It chats with local models alongside hosted ones from OpenAI, Anthropic, Go
 AGPL-3.0 covers the code. Using it internally is straightforward; deploying a modified version for outside users creates source disclosure obligations, which is worth a legal check first.
 
 - **Pricing:** Open Source
-- **Category:** [AI Content &amp; Copywriting](/categories/content-ai/)
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
 - **GitHub:** ★ 37497
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Khoj is a tool in AI Content &amp; Copywriting with free and open source. The catalog documents 5 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Khoj is a tool in AI Content & Copywriting with free and open source. The catalog documents 5 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Strapi
 
@@ -69,27 +69,27 @@ Jasper
 
 AI marketing content platform for creating on-brand copy, images, and campaigns
 
-[More AI Content &amp; Copywriting Tools →](/categories/content-ai/)
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [AI Content &amp; Copywriting](/categories/content-ai/)
+- [AI Content & Copywriting](/categories/content-ai/)
 - Khoj
 ## Khoj review (2026): pricing, AI features, verdict
 
 Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
 
-AI Content &amp; Copywriting · Open Source Desk-reviewed
+AI Content & Copywriting · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-[Visit Khoj &#8594;](https://khoj.dev)
+[Visit Khoj →](https://khoj.dev)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Khoj &#8594;](https://khoj.dev)
+[Visit Khoj →](https://khoj.dev)
 
 ## MartechSignal Score: 37/60
 
@@ -104,7 +104,7 @@ Khoj is a self-hosted AI research and writing assistant, licensed AGPL-3.0 with 
 ## AI Capabilities
 
 - Chat with local and online LLMs
-- Document Q&amp;A over images, PDFs, Markdown, Word, and Notion files
+- Document Q&A over images, PDFs, Markdown, Word, and Notion files
 - Custom agents with personas, knowledge, and tools
 - Automated research newsletters and smart notifications
 - Semantic document search
@@ -154,7 +154,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Khoj: Self-hosted AI research and writing assistant that chats with your documents and automates content workflows. Khoj ships with chat with local and online LLMs. The public repository carries 37,497 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Khoj: Self-hosted AI research and writing assistant that chats with your documents and automates content workflows. Khoj ships with chat with local and online LLMs. The public repository carries 37,497 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Khoj is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 37,497 stars; native integrations cover Obsidian, Emacs, WhatsApp. You pay in server time and maintenance, not licences.
 

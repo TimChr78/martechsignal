@@ -26,7 +26,7 @@ An MQL is a lead that marketing deems ready for sales based on engagement signal
 
 ## Why it matters
 
-The MQL/SQL framework comes from the SiriusDecisions (now Forrester) demand waterfall model from 2006. It made sense when marketing&#x27;s job was to fill the top of a funnel and sales caught whatever fell out. The problem is that the handoff criteria are usually negotiated once, written into a service-level agreement, and never revisited. Marketing says they delivered 500 MQLs. Sales says 480 were junk. Both are probably right.
+The MQL/SQL framework comes from the SiriusDecisions (now Forrester) demand waterfall model from 2006. It made sense when marketing's job was to fill the top of a funnel and sales caught whatever fell out. The problem is that the handoff criteria are usually negotiated once, written into a service-level agreement, and never revisited. Marketing says they delivered 500 MQLs. Sales says 480 were junk. Both are probably right.
 
 ## How it works
 

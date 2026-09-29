@@ -8,17 +8,17 @@
 | Integrations | 8/10 | Microsoft 365, SharePoint, Dataverse, Salesforce, SAP and Google Drive documented plus an API (vendor documentation: [vendor site](https://powerautomate.microsoft.com), verified 2026-09-28). |
 | AI capability | 6/10 | Copilot-assisted flow building, AI Builder document processing and agentic flows (vendor documentation: [vendor site](https://powerautomate.microsoft.com), verified 2026-09-28). |
 | Openness | 2/10 | Closed enterprise platform (the source repository: [repository](https://powerautomate.microsoft.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2016 inside Microsoft&#x27;s enterprise support structure (vendor documentation: [vendor site](https://powerautomate.microsoft.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2016 inside Microsoft's enterprise support structure (vendor documentation: [vendor site](https://powerautomate.microsoft.com), verified 2026-09-28). |
 
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: copilot-assisted flow building | &#10007; Paid plans start at $15/mo once past the free tier |
-| &#10003; Native integrations include Microsoft 365, SharePoint, Dataverse (6 listed) | &#10007; Closed source - no self-hosting option |
-| &#10003; API access for custom integrations |  |
+| ✓ AI capabilities: copilot-assisted flow building | ✗ Paid plans start at $15/mo once past the free tier |
+| ✓ Native integrations include Microsoft 365, SharePoint, Dataverse (6 listed) | ✗ Closed source - no self-hosting option |
+| ✓ API access for custom integrations |  |
 
 **What is Microsoft Power Automate?**
-Microsoft Power Automate: Enterprise workflow automation inside the Microsoft Power Platform. Microsoft Power Automate ships with copilot-assisted flow building. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Microsoft Power Automate: Enterprise workflow automation inside the Microsoft Power Platform. Microsoft Power Automate ships with copilot-assisted flow building. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Microsoft Power Automate cost?**
 Microsoft Power Automate has a free tier; paid plans start at $15/mo. Power Automate Premium $15/user/month paid yearly; Process (unattended RPA) $150/bot/month; Hosted Process $215/bot/month. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -67,11 +67,11 @@ Workflow Automation · From $15/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
-[Visit Microsoft Power Automate &#8594;](https://powerautomate.microsoft.com)
+[Visit Microsoft Power Automate →](https://powerautomate.microsoft.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Microsoft Power Automate &#8594;](https://powerautomate.microsoft.com)
+[Visit Microsoft Power Automate →](https://powerautomate.microsoft.com)
 
 ## MartechSignal Score: 38/60
 
@@ -81,7 +81,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Power Automate is the workflow layer of Microsoft&#x27;s Power Platform, and its real competitor is not Zapier but the question of whether your organization already lives in Microsoft 365. Where it wins, it wins on proximity: connectors to SharePoint, Dataverse, and the Office suite that no third party can match, plus the governance surface that enterprise IT departments already know how to audit. Verified pricing on the vendor&#x27;s page: Premium at $15 per user per month paid yearly covers cloud flows and attended RPA. Unattended robotic process automation is priced per bot at $150/month, and Microsoft-hosted bots at $215/month. The per-bot pricing is where teams get surprised, so capacity planning matters more here than in task-priced competitors. The honest caveat is the platform gravity. Flows, connections, and custom connectors accumulate inside the tenant, the licensing model rewards staying, and building outside the Microsoft estate means paying premium prices for convenience you may not need. Inside that estate, though, it is the shortest path between an event in Outlook and an action in the rest of your stack.
+Power Automate is the workflow layer of Microsoft's Power Platform, and its real competitor is not Zapier but the question of whether your organization already lives in Microsoft 365. Where it wins, it wins on proximity: connectors to SharePoint, Dataverse, and the Office suite that no third party can match, plus the governance surface that enterprise IT departments already know how to audit. Verified pricing on the vendor's page: Premium at $15 per user per month paid yearly covers cloud flows and attended RPA. Unattended robotic process automation is priced per bot at $150/month, and Microsoft-hosted bots at $215/month. The per-bot pricing is where teams get surprised, so capacity planning matters more here than in task-priced competitors. The honest caveat is the platform gravity. Flows, connections, and custom connectors accumulate inside the tenant, the licensing model rewards staying, and building outside the Microsoft estate means paying premium prices for convenience you may not need. Inside that estate, though, it is the shortest path between an event in Outlook and an action in the rest of your stack.
 
 ## AI Capabilities
 
@@ -106,7 +106,7 @@ Current plans and limits live on the [Microsoft Power Automate pricing page](htt
 
 ## Review notes
 
-Researched from the vendor&#x27;s public pricing and product pages on 2026-09-27. Not a hands-on test.
+Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test.
 
 ## Pros and cons
 
@@ -124,7 +124,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Microsoft Power Automate: Enterprise workflow automation inside the Microsoft Power Platform. Microsoft Power Automate ships with copilot-assisted flow building. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Microsoft Power Automate: Enterprise workflow automation inside the Microsoft Power Platform. Microsoft Power Automate ships with copilot-assisted flow building. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Microsoft Power Automate has a free tier; paid plans start at $15/mo. Power Automate Premium $15/user/month paid yearly; Process (unattended RPA) $150/bot/month; Hosted Process $215/bot/month. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -135,8 +135,8 @@ Strengths include an API for custom integrations. The full review breaks down wh
 ## Related reading
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
 Related guides: [Microsoft Power Automate in Zapier alternatives](/alternatives/zapier/)

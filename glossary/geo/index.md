@@ -34,7 +34,7 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
 
 ### Categories
 
-[GEO &amp; LLM Optimization](/categories/geo-llm-visibility/) [Best GEO & LLM Optimization tools](/best/geo-llm-visibility-tools/) [GEO guide](/guides/generative-engine-optimization/)
+[GEO & LLM Optimization](/categories/geo-llm-visibility/) [Best GEO & LLM Optimization tools](/best/geo-llm-visibility-tools/) [GEO guide](/guides/generative-engine-optimization/)
 
 ## See also
 

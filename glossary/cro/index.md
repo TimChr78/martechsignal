@@ -26,7 +26,7 @@ Conversion rate optimization is the practice of increasing the percentage of vis
 
 ## Why it matters
 
-CRO used to mean &#x27;change the button color and measure.&#x27; The discipline matured into something closer to applied behavioral science. The AI angle is real but narrow: tools can generate test variants and analyze results faster, but they can&#x27;t tell you why visitors aren&#x27;t converting. That still requires watching session recordings and reading support tickets. The best CRO teams use AI for volume and humans for insight.
+CRO used to mean 'change the button color and measure.' The discipline matured into something closer to applied behavioral science. The AI angle is real but narrow: tools can generate test variants and analyze results faster, but they can't tell you why visitors aren't converting. That still requires watching session recordings and reading support tickets. The best CRO teams use AI for volume and humans for insight.
 
 ## How it works
 
@@ -46,7 +46,7 @@ Expectation setting: most A/B tests are inconclusive - industry-wide win rates h
 
 ## Common mistakes
 
-The most common mistake is testing too early or too small, so the results are statistically meaningless and the team makes decisions on noise. The second is testing trivial changes and calling it CRO, while the real friction sits in pricing, product, or messaging. The third is winner&#x27;s bias: declaring a test a win because the number moved, without checking significance or the segment that in practice improved. Rigor is the whole game.
+The most common mistake is testing too early or too small, so the results are statistically meaningless and the team makes decisions on noise. The second is testing trivial changes and calling it CRO, while the real friction sits in pricing, product, or messaging. The third is winner's bias: declaring a test a win because the number moved, without checking significance or the segment that in practice improved. Rigor is the whole game.
 
 ## What changed with AI
 
@@ -62,7 +62,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
 
 ### Categories
 
-[Analytics &amp; Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [Personalization &amp; CDP](/categories/personalization/) [Best Personalization & CDP tools](/best/ai-personalization-tools/)
+[Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [Personalization & CDP](/categories/personalization/) [Best Personalization & CDP tools](/best/ai-personalization-tools/)
 
 ## See also
 

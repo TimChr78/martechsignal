@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Apache-2.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; AI capabilities: 120 skills across SEO/GEO, influencer, paid ads, email, launch, social, and brand narrative |  |
-| &#10003; Active public repository (2,758 GitHub stars counted at last check) |  |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: 120 skills across SEO/GEO, influencer, paid ads, email, launch, social, and brand narrative |  |
+| ✓ Active public repository (2,758 GitHub stars counted at last check) |  |
 
 **What is Aaron Marketing Skills?**
-Aaron Marketing Skills: 120 marketing skills across 7 disciplines for Claude Code with auditor gates. Aaron Marketing Skills ships with 120 skills across SEO/GEO, influencer, paid ads, email, launch, social, and brand narrative. The public repository carries 2,758 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Aaron Marketing Skills: 120 marketing skills across 7 disciplines for Claude Code with auditor gates. Aaron Marketing Skills ships with 120 skills across SEO/GEO, influencer, paid ads, email, launch, social, and brand narrative. The public repository carries 2,758 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Aaron Marketing Skills cost?**
 Aaron Marketing Skills is open source - Apache-2.0 licensed and free to self-host; the public repository carries 2,758 stars; native integrations cover Claude Code, Codex, Gemini CLI. You pay in server time and maintenance, not licences.
@@ -49,7 +49,7 @@ OpenClaw Marketing Skills
 
 Zapier GTM Cheat Codes
 
-Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
 Claude SEO
 
@@ -73,21 +73,21 @@ Agent Skills · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit Aaron Marketing Skills &#8594;](https://github.com/aaron-he-zhu/aaron-marketing-skills)
+[Visit Aaron Marketing Skills →](https://github.com/aaron-he-zhu/aaron-marketing-skills)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Aaron Marketing Skills &#8594;](https://github.com/aaron-he-zhu/aaron-marketing-skills)
+[Visit Aaron Marketing Skills →](https://github.com/aaron-he-zhu/aaron-marketing-skills)
 
 ## MartechSignal Score: 40/60
 
-Aaron&#x27;s 120 skills come with six auditor gates, which is the interesting part: outputs get checked before they ship. Apache-2.0 and 2.8k stars make it the most adopted skill pack in this group.
+Aaron's 120 skills come with six auditor gates, which is the interesting part: outputs get checked before they ship. Apache-2.0 and 2.8k stars make it the most adopted skill pack in this group.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
-Aaron Marketing Skills is a 120-skill library that turns Claude Code into a marketing operator across seven disciplines: brand narrative, SEO/GEO, social, email, paid ads, influencer, and product launch. Each discipline follows a lifecycle with phase directories. SEO goes survey, implement, tune, evaluate. Email goes setup, engage, nurture, deliver. Paid ads goes research, orchestrate, activate, scale. The /aaron-marketing:auto command routes any natural-language goal to the right skill, so you don&#x27;t memorize 120 slash commands. What makes this different from a prompt pack is the protocol layer. Eight shared commands and seven truth registries (entity, creator, offer/claims, consent, launch, channel, narrative) enforce consistency across skills. Six auditor gates score output quality: CORE-EEAT for content, CITE for domain authority, C3 for creative, ROAS for ad accounts, SEND for email, and RAMP for launches. Skills and commands are plain Markdown. Small Bash and Python-stdlib runtimes handle hooks, validation, scoring, and CI checks. No pip, no build step. Every skill runs self-contained. Installation is a git clone into your skills directory. It works on Claude Code, Codex, Gemini CLI, and Cursor. The README is available in 10 languages, which hints at the author&#x27;s ambition. Version 19.0.0 is current as of late July 2026, and the repo was pushed to today, so maintenance is active. The trade-off with 120 skills is depth versus breadth. Each discipline gets 16 skills, which is enough for structured workflows but not the 163-skill depth of Digital Marketing Pro or the platform-specific granularity of Claude Ads. If you want one skill pack that covers everything marketing at a competent level, this is it. If you need deep paid-media operations specifically, Claude Ads goes further on that vertical. If you&#x27;re an agency that needs brand narrative and launch planning alongside the performance channels, Aaron&#x27;s lifecycle structure and auditor gates give you a framework that the narrower tools don&#x27;t.
+Aaron Marketing Skills is a 120-skill library that turns Claude Code into a marketing operator across seven disciplines: brand narrative, SEO/GEO, social, email, paid ads, influencer, and product launch. Each discipline follows a lifecycle with phase directories. SEO goes survey, implement, tune, evaluate. Email goes setup, engage, nurture, deliver. Paid ads goes research, orchestrate, activate, scale. The /aaron-marketing:auto command routes any natural-language goal to the right skill, so you don't memorize 120 slash commands. What makes this different from a prompt pack is the protocol layer. Eight shared commands and seven truth registries (entity, creator, offer/claims, consent, launch, channel, narrative) enforce consistency across skills. Six auditor gates score output quality: CORE-EEAT for content, CITE for domain authority, C3 for creative, ROAS for ad accounts, SEND for email, and RAMP for launches. Skills and commands are plain Markdown. Small Bash and Python-stdlib runtimes handle hooks, validation, scoring, and CI checks. No pip, no build step. Every skill runs self-contained. Installation is a git clone into your skills directory. It works on Claude Code, Codex, Gemini CLI, and Cursor. The README is available in 10 languages, which hints at the author's ambition. Version 19.0.0 is current as of late July 2026, and the repo was pushed to today, so maintenance is active. The trade-off with 120 skills is depth versus breadth. Each discipline gets 16 skills, which is enough for structured workflows but not the 163-skill depth of Digital Marketing Pro or the platform-specific granularity of Claude Ads. If you want one skill pack that covers everything marketing at a competent level, this is it. If you need deep paid-media operations specifically, Claude Ads goes further on that vertical. If you're an agency that needs brand narrative and launch planning alongside the performance channels, Aaron's lifecycle structure and auditor gates give you a framework that the narrower tools don't.
 
 Aaron Marketing Skills homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -137,7 +137,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Aaron Marketing Skills: 120 marketing skills across 7 disciplines for Claude Code with auditor gates. Aaron Marketing Skills ships with 120 skills across SEO/GEO, influencer, paid ads, email, launch, social, and brand narrative. The public repository carries 2,758 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Aaron Marketing Skills: 120 marketing skills across 7 disciplines for Claude Code with auditor gates. Aaron Marketing Skills ships with 120 skills across SEO/GEO, influencer, paid ads, email, launch, social, and brand narrative. The public repository carries 2,758 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Aaron Marketing Skills is open source - Apache-2.0 licensed and free to self-host; the public repository carries 2,758 stars; native integrations cover Claude Code, Codex, Gemini CLI. You pay in server time and maintenance, not licences.
 

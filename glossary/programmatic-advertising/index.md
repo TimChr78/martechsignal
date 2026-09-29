@@ -38,7 +38,7 @@ Where the money goes: of every $1.00 spent on open-exchange programmatic, supply
 
 ## Common mistakes
 
-The industry&#x27;s recurring trap is optimizing the wrong number. Clicks and viewability are easy to measure; revenue and incrementality are hard. Budgets follow the easy number, and the ads that looked cheap turn out hollow. The second mistake is ignoring supply path optimization, which quietly determines how much of every dollar reaches actual inventory versus intermediaries. The third is letting AI agents run budgets without guardrails on brand safety and frequency caps.
+The industry's recurring trap is optimizing the wrong number. Clicks and viewability are easy to measure; revenue and incrementality are hard. Budgets follow the easy number, and the ads that looked cheap turn out hollow. The second mistake is ignoring supply path optimization, which quietly determines how much of every dollar reaches actual inventory versus intermediaries. The third is letting AI agents run budgets without guardrails on brand safety and frequency caps.
 
 ## What changed with AI
 
@@ -54,7 +54,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
 
 ### Categories
 
-[Advertising &amp; Paid Media](/categories/advertising/) [Best Advertising & Paid Media tools](/best/ai-advertising-tools/) [Agentic advertising](/guides/agentic-ai-advertising/)
+[Advertising & Paid Media](/categories/advertising/) [Best Advertising & Paid Media tools](/best/ai-advertising-tools/) [Agentic advertising](/guides/agentic-ai-advertising/)
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

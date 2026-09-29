@@ -91,7 +91,7 @@ Our directory breaks down customer data platforms and activation tools by pricin
 - [Clerk.io](/tools/clerk-io/) - AI-powered ecommerce personalization with search, recommendations, and email
 ## Comparison guides
 
-- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ### One email. Every Friday.
 

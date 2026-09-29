@@ -5,12 +5,14 @@
 | --- | --- | --- | --- |
 | [NocoDB](/tools/nocodb/) | Free tier | Yes | Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 | [Ortto](/tools/ortto/) | From $199/mo | No | Marketing teams that want email, SMS and journeys behind one login |
-| [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) | Enterprise | No | Enterprise estates already bought into Salesforce&#x27;s cloud stack |
+| [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) | Enterprise | No | Enterprise estates already bought into Salesforce's cloud stack |
 | [ActiveCampaign](/tools/activecampaign/) | From $15/mo | No | SMB teams that want real automation without enterprise procurement |
 | [Adobe Marketo Engage](/tools/adobe-marketo/) | Enterprise | No | Marketing ops teams whose requirement list starts with lead scoring |
 | [Bloomreach](/tools/bloomreach/) | Enterprise | No | Commerce brands that want content, search and campaigns in one engine |
 | [Braze](/tools/braze/) | Enterprise | No | Mobile-first brands tuning cross-channel engagement at scale |
 | [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/) | Freemium | No | Teams that want marketing automation living beside their CRM |
+
+[Marketing Automation](/categories/marketing-automation/)[Open-Source Tools](/categories/open-source/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
@@ -30,6 +32,10 @@ Pricing checked 2026-09-28 against each vendor's own pricing page · API availab
 
 What we could not verify is called out under each tool below.
 
+## Browse the hubs behind these picks
+
+**Guide:** [automation strategy](/guides/workflow-automation-strategy/)
+
 ## [NocoDB](/tools/nocodb/)
 
 NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It starts free, and self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom (verified 2026-09-07). The catalog documents 3 AI features, 8 integrations, a public API, and a self-hosting path.
@@ -44,7 +50,7 @@ Vendor: [Official site](https://nocodb.com) · [Pricing](https://nocodb.com/pric
 
 ## [Ortto](/tools/ortto/)
 
-Ortto is a customer data and marketing automation platform that began life as Autopilot, adopted the Autopilot name in 2015, rebranded to Ortto in March 2022, and was acquired by Canva in 2026 with a public FAQ stating that Ortto continues as its own platform and customers will not be migrated into Canva&#x27;s product. paid pricing starts at $199/mo, and starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000 (verified 2026-09-07). The catalog documents 6 AI features, 13 integrations, and a public API.
+Ortto is a customer data and marketing automation platform that began life as Autopilot, adopted the Autopilot name in 2015, rebranded to Ortto in March 2022, and was acquired by Canva in 2026 with a public FAQ stating that Ortto continues as its own platform and customers will not be migrated into Canva's product. paid pricing starts at $199/mo, and starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000 (verified 2026-09-07). The catalog documents 6 AI features, 13 integrations, and a public API.
 
 **Verdict:** Marketing teams that want email, SMS and journeys behind one login
 
@@ -58,7 +64,7 @@ Vendor: [Official site](https://ortto.com) · [Pricing](https://ortto.com/starte
 
 Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. enterprise pricing starts at $1500/mo, and per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month (verified 2026-09-06). The catalog documents 5 AI features, 9 integrations, and a public API.
 
-**Verdict:** Enterprise estates already bought into Salesforce&#x27;s cloud stack
+**Verdict:** Enterprise estates already bought into Salesforce's cloud stack
 
 Vendor: [Official site](https://www.salesforce.com/products/marketing-cloud/) · [Pricing](https://www.salesforce.com/products/marketing-cloud/pricing/)
 
@@ -122,7 +128,7 @@ Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing
 
 Vendor: [Official site](https://www.hubspot.com/products/marketing) · [Pricing](https://www.hubspot.com/pricing/marketing)
 
-**Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
+**Skip it if the free tier's limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 

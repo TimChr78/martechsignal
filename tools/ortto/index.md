@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI subject line recommendations | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Slack, Shopify, Salesforce (13 listed) |  |
-| &#10003; API access for custom integrations |  |
+| ✓ AI capabilities: AI subject line recommendations | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Slack, Shopify, Salesforce (13 listed) |  |
+| ✓ API access for custom integrations |  |
 
 **What is Ortto?**
-Ortto: Customer data and marketing automation platform with journeys, CDP, and AI features. Ortto ships with AI subject line recommendations. This page documents 13 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Ortto: Customer data and marketing automation platform with journeys, CDP, and AI features. Ortto ships with AI subject line recommendations. This page documents 13 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Ortto cost?**
 Ortto starts at $199/mo. Starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -30,7 +30,7 @@ A capable CDP-plus-journeys platform that now sits inside Canva: strong data mod
 Plan-dependent: 100 person fields and 25 account fields on Professional, 150 and 25 on Business, and 200 and 50 on Enterprise. Fields are also effectively permanent, since the help centre states that once a custom field is created it cannot be modified to alter its name, field type, or values (only single and multi-select options are exceptions). Plan the schema before import rather than after.
 
 **What happens if I go over my Ortto email or SMS limits?**
-Email keeps sending and bills overage at $1 per 1,000 emails, while SMS sending stops once you exceed twice your monthly SMS credit limit. Email and SMS limits reset on the first of each month UTC. Both behaviours are documented in the help centre&#x27;s plan management article, so an overage on email is a billing event, not a blocked campaign.
+Email keeps sending and bills overage at $1 per 1,000 emails, while SMS sending stops once you exceed twice your monthly SMS credit limit. Email and SMS limits reset on the first of each month UTC. Both behaviours are documented in the help centre's plan management article, so an overage on email is a billing event, not a blocked campaign.
 
 **Does Ortto have an API, and which endpoint should I use?**
 Yes. Authentication uses a custom API key that you configure as a data source and can disconnect from the interface. Endpoints are regional: api.au.ap3api.com for Australia, api.eu.ap3api.com for Europe, and api.ap3api.com for everyone else. The developer guide covers the JSON payload for person and activity updates, and there are SDKs for iOS, Android, in-app notifications, and Flutter on top of the REST API and tracking snippet.
@@ -82,11 +82,11 @@ Marketing Automation · From $199/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Ortto &#8594;](https://ortto.com)
+[Visit Ortto →](https://ortto.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Ortto &#8594;](https://ortto.com)
+[Visit Ortto →](https://ortto.com)
 
 ## MartechSignal Score: 34/60
 
@@ -96,7 +96,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Ortto is a customer data and marketing automation platform that began life as Autopilot, adopted the Autopilot name in 2015, rebranded to Ortto in March 2022, and was acquired by Canva in 2026 with a public FAQ stating that Ortto continues as its own platform and customers will not be migrated into Canva&#x27;s product. The pitch is one platform for the data layer and the messaging layer: a CDP that unifies contacts and activities into single profiles, a visual journey builder that fires email, SMS, push, live chat, in-app messages, popups, forms, surveys, and landing pages from that data, and analytics dashboards on top. Channel scope is far past the email-plus-SMS-plus-push story our earlier record told: in-app messaging, a team inbox with knowledge base, transactional email, and multilingual content are all listed products, MMS shipped in April 2026, and WhatsApp is documented as a new channel alongside email, SMS, and push. AI features carry official names: subject line recommendations, content generation suggestions, AI filters that build segments from plain text, AI decision shapes in journeys, and AI enrichment shapes, plus an MCP server (December 2025) that lets ChatGPT or Claude query the account, and an account-level switch that turns every AI feature off. Pricing is contact-based: the Starter page quotes from $199/month with up to 15% off for annual payment, the trial runs 14 days, larger plans require a 12-month commitment, and email overages bill at $1 per 1,000. Founded in Sydney in 2015 by Michael and Chris Sharkey, Ortto raised $35M from Salesforce Ventures, Rembrandt, and Blackbird. It competes with ActiveCampaign and Customer.io in the mid-market, differentiating on the built-in CDP and reporting depth rather than channel breadth. The CDP scales: documentation cites up to 12 million contacts out of the box and 100 million per instance with custom setup.
+Ortto is a customer data and marketing automation platform that began life as Autopilot, adopted the Autopilot name in 2015, rebranded to Ortto in March 2022, and was acquired by Canva in 2026 with a public FAQ stating that Ortto continues as its own platform and customers will not be migrated into Canva's product. The pitch is one platform for the data layer and the messaging layer: a CDP that unifies contacts and activities into single profiles, a visual journey builder that fires email, SMS, push, live chat, in-app messages, popups, forms, surveys, and landing pages from that data, and analytics dashboards on top. Channel scope is far past the email-plus-SMS-plus-push story our earlier record told: in-app messaging, a team inbox with knowledge base, transactional email, and multilingual content are all listed products, MMS shipped in April 2026, and WhatsApp is documented as a new channel alongside email, SMS, and push. AI features carry official names: subject line recommendations, content generation suggestions, AI filters that build segments from plain text, AI decision shapes in journeys, and AI enrichment shapes, plus an MCP server (December 2025) that lets ChatGPT or Claude query the account, and an account-level switch that turns every AI feature off. Pricing is contact-based: the Starter page quotes from $199/month with up to 15% off for annual payment, the trial runs 14 days, larger plans require a 12-month commitment, and email overages bill at $1 per 1,000. Founded in Sydney in 2015 by Michael and Chris Sharkey, Ortto raised $35M from Salesforce Ventures, Rembrandt, and Blackbird. It competes with ActiveCampaign and Customer.io in the mid-market, differentiating on the built-in CDP and reporting depth rather than channel breadth. The CDP scales: documentation cites up to 12 million contacts out of the box and 100 million per instance with custom setup.
 
 Ortto homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -160,7 +160,7 @@ Two corrections against our earlier record. First, founding: the about page stat
 
 Channel scope was understated too. In-app messages is a first-class listed product, not a recent add-on: the site also lists live chat, knowledge base, popups, forms, surveys, landing pages, and transactional email. MMS support arrived in April 2026, and the WhatsApp integration is documented as a new channel alongside email, SMS, and push, in beta and available to all accounts.
 
-The Canva acquisition is the strategic fact a buyer needs. The company&#x27;s own FAQ confirms Canva acquired Ortto, that plans, pricing, and billing stay as they are, and that Ortto continues as its own platform without migration into Canva. That is reassurance today and an integration question for later; we would ask about roadmap independence before signing a 12-month commitment.
+The Canva acquisition is the strategic fact a buyer needs. The company's own FAQ confirms Canva acquired Ortto, that plans, pricing, and billing stay as they are, and that Ortto continues as its own platform without migration into Canva. That is reassurance today and an integration question for later; we would ask about roadmap independence before signing a 12-month commitment.
 
 ## Verdict
 
@@ -182,7 +182,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Ortto: Customer data and marketing automation platform with journeys, CDP, and AI features. Ortto ships with AI subject line recommendations. This page documents 13 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Ortto: Customer data and marketing automation platform with journeys, CDP, and AI features. Ortto ships with AI subject line recommendations. This page documents 13 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Ortto starts at $199/mo. Starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -190,7 +190,7 @@ A capable CDP-plus-journeys platform that now sits inside Canva: strong data mod
 
 Plan-dependent: 100 person fields and 25 account fields on Professional, 150 and 25 on Business, and 200 and 50 on Enterprise. Fields are also effectively permanent, since the help centre states that once a custom field is created it cannot be modified to alter its name, field type, or values (only single and multi-select options are exceptions). Plan the schema before import rather than after.
 
-Email keeps sending and bills overage at $1 per 1,000 emails, while SMS sending stops once you exceed twice your monthly SMS credit limit. Email and SMS limits reset on the first of each month UTC. Both behaviours are documented in the help centre&#x27;s plan management article, so an overage on email is a billing event, not a blocked campaign.
+Email keeps sending and bills overage at $1 per 1,000 emails, while SMS sending stops once you exceed twice your monthly SMS credit limit. Email and SMS limits reset on the first of each month UTC. Both behaviours are documented in the help centre's plan management article, so an overage on email is a billing event, not a blocked campaign.
 
 Yes. Authentication uses a custom API key that you configure as a data source and can disconnect from the interface. Endpoints are regional: api.au.ap3api.com for Australia, api.eu.ap3api.com for Europe, and api.ap3api.com for everyone else. The developer guide covers the JSON payload for person and activity updates, and there are SDKs for iOS, Android, in-app notifications, and Flutter on top of the REST API and tracking snippet.
 
@@ -203,7 +203,7 @@ Yes. Authentication uses a custom API key that you configure as a data source an
 - [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ## Also featured in
 
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) &mdash; Marketing teams that want email, SMS and journeys behind one login
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Marketing teams that want email, SMS and journeys behind one login
 ### Quick Facts
 
 Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)

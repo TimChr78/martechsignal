@@ -30,7 +30,7 @@ An MCP server is a small program that declares resources it can read and actions
 
 ## Practical uses
 
-Marketing teams use MCP servers to give agents safe access to internal data: campaign performance reads, content draft writes, ticket lookups. The protocol&#x27;s permission model means access can be scoped per server, which is how you give an agent analytics reads without handing over spend controls.
+Marketing teams use MCP servers to give agents safe access to internal data: campaign performance reads, content draft writes, ticket lookups. The protocol's permission model means access can be scoped per server, which is how you give an agent analytics reads without handing over spend controls.
 
 ## How to choose
 
@@ -42,11 +42,11 @@ Scale math: an agent that checks six data sources before each decision, running 
 
 ## Common mistakes
 
-Running unvetted third-party MCP servers with production credentials is the emerging horror story - a server with broad scopes is a supply-chain risk. Audit what scopes each server holds and rotate credentials separately. MCP is not a replacement for your integration platform. It standardizes how a model reaches tools, not how data syncs between business systems on a schedule. Teams also assume a server with a vendor&#x27;s name in it is official. Anyone can publish one, so check who operates it and what scopes it requests. Connecting an agent to a tool is also not the same as granting it authority: decide which calls are read-only, which queue for approval, and which the agent may make alone.
+Running unvetted third-party MCP servers with production credentials is the emerging horror story - a server with broad scopes is a supply-chain risk. Audit what scopes each server holds and rotate credentials separately. MCP is not a replacement for your integration platform. It standardizes how a model reaches tools, not how data syncs between business systems on a schedule. Teams also assume a server with a vendor's name in it is official. Anyone can publish one, so check who operates it and what scopes it requests. Connecting an agent to a tool is also not the same as granting it authority: decide which calls are read-only, which queue for approval, and which the agent may make alone.
 
 ## What changed with AI
 
-MCP exists because of AI; the practical risk is quota economics. Hosted-model providers meter MCP tool calls separately from plain inference, and agentic workloads multiply call counts. Know your provider&#x27;s metering before wiring an agent to a chatty tool.
+MCP exists because of AI; the practical risk is quota economics. Hosted-model providers meter MCP tool calls separately from plain inference, and agentic workloads multiply call counts. Know your provider's metering before wiring an agent to a chatty tool.
 
 ## Tools in this space
 
@@ -56,7 +56,7 @@ MCP exists because of AI; the practical risk is quota economics. Hosted-model pr
 
 ## Seen in the wild
 
-[OpenAI Isn&amp;#x27;t Building Ads. It&amp;#x27;s Building Agents](/blog/openai-agent-ads-spending-without-you/)
+[OpenAI Isn&#x27;t Building Ads. It&#x27;s Building Agents](/blog/openai-agent-ads-spending-without-you/)
 
 Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](https://n8n.io) · [Make](https://www.make.com)
 

@@ -13,14 +13,14 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: visibility, citation and sentiment tracking across 17+ engines | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Google Analytics 4, Google Search Console, Google Looker Studio (5 listed) | &#10007; Credit burn varies with engine mix and cadence, so monthly cost is less predictable than fixed prompt caps |
-| &#10003; All 17-plus engines are included on every plan with no per-engine upsell | &#10007; Scout recommendations and the GA4/Search Console connectors are marked beta |
-| &#10003; Unused credits roll over between cycles (up to 2x on Pro, 3x on Growth and Enterprise) | &#10007; REST API and white-label options gate at Growth (EUR 385 per month) |
-| &#10003; Query fan-out and page audits are included even on lower tiers |  |
+| ✓ AI capabilities: visibility, citation and sentiment tracking across 17+ engines | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Google Analytics 4, Google Search Console, Google Looker Studio (5 listed) | ✗ Credit burn varies with engine mix and cadence, so monthly cost is less predictable than fixed prompt caps |
+| ✓ All 17-plus engines are included on every plan with no per-engine upsell | ✗ Scout recommendations and the GA4/Search Console connectors are marked beta |
+| ✓ Unused credits roll over between cycles (up to 2x on Pro, 3x on Growth and Enterprise) | ✗ REST API and white-label options gate at Growth (EUR 385 per month) |
+| ✓ Query fan-out and page audits are included even on lower tiers |  |
 
 **What is Rankscale?**
-Rankscale: AI visibility tracking across 17+ answer engines for agencies and enterprise teams. Rankscale ships with visibility, citation and sentiment tracking across 17+ engines. This page documents 5 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Rankscale: AI visibility tracking across 17+ answer engines for agencies and enterprise teams. Rankscale ships with visibility, citation and sentiment tracking across 17+ engines. This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Rankscale cost?**
 Rankscale starts at €99/mo. Pro EUR 99/mo (1,200 credits), Growth EUR 385/mo (5,500 credits), Enterprise EUR 780/mo (12,000 credits); yearly billing saves 15%; 7-day Pro trial. An Essentials tier sits below Pro, its price was not visible in our EU render (the site localizes currency). Prices as served September 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -41,12 +41,12 @@ Pro includes a seven-day trial with no charge until day seven. Yearly billing sa
 Rankscale GmbH builds the product in Vienna, Austria. Its customer logo wall includes Bosch, UBS, Cartier and Otto.
 
 - **Pricing:** From $99/mo
-- **Category:** [GEO &amp; LLM Optimization](/categories/geo-llm-visibility/)
+- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - **HQ:** Vienna, Austria
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Rankscale is a tool in GEO &amp; LLM Optimization with paid plans starting at €99/mo. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Rankscale is a tool in GEO & LLM Optimization with paid plans starting at €99/mo. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 OtterlyAI
 
@@ -68,27 +68,27 @@ SISTRIX
 
 German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
 
-[More GEO &amp; LLM Optimization Tools →](/categories/geo-llm-visibility/)
+[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [GEO &amp; LLM Optimization](/categories/geo-llm-visibility/)
+- [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Rankscale
 ## Rankscale review (2026): pricing, AI features, verdict
 
 AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 
-GEO &amp; LLM Optimization · From $99/mo Desk-reviewed
+GEO & LLM Optimization · From $99/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-[Visit Rankscale &#8594;](https://rankscale.ai/)
+[Visit Rankscale →](https://rankscale.ai/)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Rankscale &#8594;](https://rankscale.ai/)
+[Visit Rankscale →](https://rankscale.ai/)
 
 ## MartechSignal Score: 35/60
 
@@ -132,7 +132,7 @@ Buyers who want fixed, predictable monthly costs, since tracking volume depends 
 
 ## Review notes
 
-Assessed from Rankscale&#x27;s live site and pricing pages in September 2026.The workflow is credit-based: you create unlimited search terms, choose engines and regions per term, and pick a schedule from hourly to monthly. Each query to an AI engine burns a fraction of a credit (typically 0.25), so the plan credit pool, not a prompt cap, sets your tracking volume. Pro&#x27;s 1,200 credits translate to up to 4,800 tracked answers per month, Growth&#x27;s 5,500 to about 22,000, Enterprise&#x27;s 12,000 to about 48,000. Unused credits roll over (2x on Pro, 3x on Growth and Enterprise) and you can top up mid-cycle.
+Assessed from Rankscale's live site and pricing pages in September 2026.The workflow is credit-based: you create unlimited search terms, choose engines and regions per term, and pick a schedule from hourly to monthly. Each query to an AI engine burns a fraction of a credit (typically 0.25), so the plan credit pool, not a prompt cap, sets your tracking volume. Pro's 1,200 credits translate to up to 4,800 tracked answers per month, Growth's 5,500 to about 22,000, Enterprise's 12,000 to about 48,000. Unused credits roll over (2x on Pro, 3x on Growth and Enterprise) and you can top up mid-cycle.
 
 That model rewards steady cadence over burst tracking. Run hourly checks on many prompts and credits disappear fast. Run daily checks on a focused prompt set and the same pool covers a lot. The credit calculator on their pricing page exists for that reason.
 
@@ -157,7 +157,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Rankscale: AI visibility tracking across 17+ answer engines for agencies and enterprise teams. Rankscale ships with visibility, citation and sentiment tracking across 17+ engines. This page documents 5 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Rankscale: AI visibility tracking across 17+ answer engines for agencies and enterprise teams. Rankscale ships with visibility, citation and sentiment tracking across 17+ engines. This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Rankscale starts at €99/mo. Pro EUR 99/mo (1,200 credits), Growth EUR 385/mo (5,500 credits), Enterprise EUR 780/mo (12,000 credits); yearly billing saves 15%; 7-day Pro trial. An Essentials tier sits below Pro, its price was not visible in our EU render (the site localizes currency). Prices as served September 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -180,7 +180,7 @@ Rankscale GmbH builds the product in Vienna, Austria. Its customer logo wall inc
 - [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 ## Also featured in
 
-- [Best GEO &amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) &mdash; Best for GEO &amp; LLM optimization teams that want query fan-out retrieval insights, starting at €99/mo.
+- [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for GEO & LLM optimization teams that want query fan-out retrieval insights, starting at €99/mo.
 ### Quick Facts
 
 Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)

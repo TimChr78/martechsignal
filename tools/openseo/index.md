@@ -13,16 +13,16 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $10/mo once past the free tier |
-| &#10003; Active public repository (18,155 GitHub stars counted at last check) |  |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $10/mo once past the free tier |
+| ✓ Active public repository (18,155 GitHub stars counted at last check) |  |
 
 **What is OpenSEO?**
-OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 18,155 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 18,155 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does OpenSEO cost?**
 OpenSEO has a free tier; paid plans start at $10/mo. Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
-**Is OpenSEO a good self-hosted SEO &amp; Search tool in 2026?**
+**Is OpenSEO a good self-hosted SEO & Search tool in 2026?**
 A fast-moving self-hosted SEO workbench with a genuine AI-visibility layer and usage-based data costs; bring a DataForSEO budget and some ops appetite.
 
 **What does OpenSEO cost to run on my own DataForSEO account?**
@@ -32,17 +32,17 @@ You pay DataForSEO directly at its published rates. The docs state that new Data
 Rank tracking schedules are Daily, Weekly, Monthly (end of month), and Manual only, with weekly as the default. The docs note that daily checks use seven times more credits than weekly ones, and that deeper SERP depth costs more, with ten pages of results quoted as roughly eight times the cost of one page. Google Search Console data is free and does not draw on your paid usage.
 
 **Does the self-hosted version include the AI features?**
-Only if you supply keys for them. AI features such as SAM, the in-app SEO agent, require an OpenRouter API key in your environment file, and AI Visibility is powered by DataForSEO&#x27;s LLM mention endpoints, so those calls bill against your DataForSEO account like any other query. The MCP server and the agent skills themselves ship in the repository with no extra licence.
+Only if you supply keys for them. AI features such as SAM, the in-app SEO agent, require an OpenRouter API key in your environment file, and AI Visibility is powered by DataForSEO's LLM mention endpoints, so those calls bill against your DataForSEO account like any other query. The MCP server and the agent skills themselves ship in the repository with no extra licence.
 
 - **Pricing:** Open Source
-- **Category:** [SEO &amp; Search](/categories/seo/)
+- **Category:** [SEO & Search](/categories/seo/)
 - **GitHub:** ★ 18155
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** No
 - **Last verified:** 2026-09-07
 
-**Verdict:** OpenSEO is a tool in SEO &amp; Search with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** OpenSEO is a tool in SEO & Search with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Semrush
 
@@ -62,15 +62,15 @@ AI search tracking across 8 models with an agent that writes, fixes, and outreac
 
 Potato
 
-Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers
+Free local tool that measures brand mentions and citations in Claude's web-search answers
 
-[More SEO &amp; Search Tools →](/categories/seo/)
+[More SEO & Search Tools →](/categories/seo/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [SEO &amp; Search](/categories/seo/)
+- [SEO & Search](/categories/seo/)
 - OpenSEO
 Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
@@ -78,15 +78,15 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 Open source alternative to Ahrefs and Semrush
 
-SEO &amp; Search · Open Source Desk-reviewed
+SEO & Search · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit OpenSEO &#8594;](https://openseo.so)
+[Visit OpenSEO →](https://openseo.so)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit OpenSEO &#8594;](https://openseo.so)
+[Visit OpenSEO →](https://openseo.so)
 
 ## MartechSignal Score: 32/60
 
@@ -96,7 +96,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-OpenSEO is an open-source, self-hosted SEO platform covering keyword research, rank tracking, competitor insights, backlink analysis, site audits, and AI search visibility, positioned as an alternative to Ahrefs and Semrush. The TypeScript project (repo every-app/open-seo) is MIT-licensed, held around 17,700 GitHub stars as of September 2026, and has moved quickly since its February 2026 debut: AI Visibility and Prompt Explorer landed in April, an MCP server in May, agent skills and multi-project support in June, Local SEO in August, and on-demand SERP depth on September 2. Two deployment paths are documented. Docker is described as best for testing: clone the repo, copy .env.example to .env, and run docker compose up -d, which serves on port 3001 with authentication disabled, so it belongs behind your own reverse proxy or private network. For an internet-facing or team install the README recommends the Cloudflare path, where pnpm deploy:selfhost provisions D1, KV, R2, and a Cloudflare Access gate on Cloudflare&#x27;s free plan. Data is the real cost. OpenSEO is a front end over DataForSEO: you bring your own API key (the base64 of your DataForSEO email and password), pay that vendor directly for what you use, and add a separate OpenRouter key for AI features such as SAM, the in-app SEO agent. New DataForSEO accounts include $1 of credit and the minimum top-up is $50. The hosted service at openseo.so charges $10/month including $10 of usage, and the README states plainly that the hosted margin is a 28% surcharge on every DataForSEO request, so self-hosting is slightly cheaper. Rank tracking defaults to weekly, and the docs note that daily checks use seven times more credits. Google Search Console and Google Analytics data is free. The trade-off is the usual one: you own the interface, the scheduling, and your own database, not the crawl index.
+OpenSEO is an open-source, self-hosted SEO platform covering keyword research, rank tracking, competitor insights, backlink analysis, site audits, and AI search visibility, positioned as an alternative to Ahrefs and Semrush. The TypeScript project (repo every-app/open-seo) is MIT-licensed, held around 17,700 GitHub stars as of September 2026, and has moved quickly since its February 2026 debut: AI Visibility and Prompt Explorer landed in April, an MCP server in May, agent skills and multi-project support in June, Local SEO in August, and on-demand SERP depth on September 2. Two deployment paths are documented. Docker is described as best for testing: clone the repo, copy .env.example to .env, and run docker compose up -d, which serves on port 3001 with authentication disabled, so it belongs behind your own reverse proxy or private network. For an internet-facing or team install the README recommends the Cloudflare path, where pnpm deploy:selfhost provisions D1, KV, R2, and a Cloudflare Access gate on Cloudflare's free plan. Data is the real cost. OpenSEO is a front end over DataForSEO: you bring your own API key (the base64 of your DataForSEO email and password), pay that vendor directly for what you use, and add a separate OpenRouter key for AI features such as SAM, the in-app SEO agent. New DataForSEO accounts include $1 of credit and the minimum top-up is $50. The hosted service at openseo.so charges $10/month including $10 of usage, and the README states plainly that the hosted margin is a 28% surcharge on every DataForSEO request, so self-hosting is slightly cheaper. Rank tracking defaults to weekly, and the docs note that daily checks use seven times more credits. Google Search Console and Google Analytics data is free. The trade-off is the usual one: you own the interface, the scheduling, and your own database, not the crawl index.
 
 OpenSEO homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -111,13 +111,13 @@ Current plans and limits live on the [OpenSEO pricing page](https://openseo.so/p
 ## How to install
 
 - Docker, which the README calls best for testing: git clone https://github.com/every-app/open-seo.git, cd open-seo, cp .env.example .env, then docker compose up -d. The image is ghcr.io/every-app/open-seo:latest and the app listens on port 3001.
-- Set DATAFORSEO_API_KEY in .env to the base64 of your DataForSEO login in the documented format email:password (printf &#x27;%s&#x27; &#x27;email:password&#x27; | base64). AI features such as SAM also need OPENROUTER_API_KEY.
+- Set DATAFORSEO_API_KEY in .env to the base64 of your DataForSEO login in the documented format email:password (printf '%s' 'email:password' | base64). AI features such as SAM also need OPENROUTER_API_KEY.
 - For an internet-facing or team install, the documented path is Cloudflare: corepack enable, pnpm install, pnpm alchemy login, pnpm alchemy cloudflare bootstrap, cp .env.selfhost.example .env.selfhost, then pnpm deploy:selfhost --yes.
 - Team access on the Cloudflare path is a matter of adding emails to ACCESS_ALLOWED_EMAILS in .env.selfhost and redeploying; everyone who passes Cloudflare Access works in one shared workspace.
 - Local development: pnpm install --frozen-lockfile, pnpm run db:migrate:local, pnpm run dev. Telemetry can be turned off with OPENSEO_TELEMETRY_DISABLED=1.
 ## Requirements
 
-Docker plus a funded DataForSEO account for search data, and an OpenRouter key if you want the AI features, or Node 22.6 or newer plus a Cloudflare account with R2 for the self-host deployment, which the docs say works on Cloudflare&#x27;s free plan. Docker self-hosting runs in local no-auth mode, so the docs expect a reverse proxy, tunnel, or private network in front of it. No hardware sizing is published.
+Docker plus a funded DataForSEO account for search data, and an OpenRouter key if you want the AI features, or Node 22.6 or newer plus a Cloudflare account with R2 for the self-host deployment, which the docs say works on Cloudflare's free plan. Docker self-hosting runs in local no-auth mode, so the docs expect a reverse proxy, tunnel, or private network in front of it. No hardware sizing is published.
 
 ## Best for
 
@@ -131,7 +131,7 @@ Buyers expecting Ahrefs-scale clickstream backlink data, teams that need daily r
 
 Assessed from the repository, openseo.so, and the self-hosting docs in September 2026; we have not deployed it. The project is young and fast. The repo was created in February 2026 and the release notes read as a feature a fortnight: AI Visibility (v0.0.8, April), an MCP server (v0.0.11, May), agent skills (v0.0.15), multi-project support with Share of Voice (v0.0.19, June), Local SEO MCP (v0.1.5, August), and on-demand SERP depth (v0.1.7, September 2).
 
-The correction against our earlier record: the claim that self-hosting runs at 10-20% of SaaS SEO cost was ours, not the project&#x27;s, and appears in no OpenSEO source. The documented anchors are different. The hosted plan is $10/month including $10 of usage, the README states the hosted service charges 28% extra on every DataForSEO request, and the site&#x27;s own comparison points at Ahrefs&#x27; cheapest plan at $129/month. Rank tracking also defaults to weekly rather than daily; daily is an option that costs seven times more credits.
+The correction against our earlier record: the claim that self-hosting runs at 10-20% of SaaS SEO cost was ours, not the project's, and appears in no OpenSEO source. The documented anchors are different. The hosted plan is $10/month including $10 of usage, the README states the hosted service charges 28% extra on every DataForSEO request, and the site's own comparison points at Ahrefs' cheapest plan at $129/month. Rank tracking also defaults to weekly rather than daily; daily is an option that costs seven times more credits.
 
 The feature set is wider than we previously recorded. Beyond keyword research, domain overview, backlinks, and audits, the documented workflows include Competitor Insights, AI Visibility and Prompt Explorer for LLM mentions, citations, and prompts, Local SEO built on Google Business Profile data, and an in-app SEO agent called SAM that runs on OpenRouter. Eight agent skills are documented, from keyword clustering to link prospecting.
 
@@ -157,7 +157,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 18,155 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 18,155 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 OpenSEO has a free tier; paid plans start at $10/mo. Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -167,7 +167,7 @@ You pay DataForSEO directly at its published rates. The docs state that new Data
 
 Rank tracking schedules are Daily, Weekly, Monthly (end of month), and Manual only, with weekly as the default. The docs note that daily checks use seven times more credits than weekly ones, and that deeper SERP depth costs more, with ten pages of results quoted as roughly eight times the cost of one page. Google Search Console data is free and does not draw on your paid usage.
 
-Only if you supply keys for them. AI features such as SAM, the in-app SEO agent, require an OpenRouter API key in your environment file, and AI Visibility is powered by DataForSEO&#x27;s LLM mention endpoints, so those calls bill against your DataForSEO account like any other query. The MCP server and the agent skills themselves ship in the repository with no extra licence.
+Only if you supply keys for them. AI features such as SAM, the in-app SEO agent, require an OpenRouter API key in your environment file, and AI Visibility is powered by DataForSEO's LLM mention endpoints, so those calls bill against your DataForSEO account like any other query. The MCP server and the agent skills themselves ship in the repository with no extra licence.
 
 ## Similar Tools
 

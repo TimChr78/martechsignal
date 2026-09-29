@@ -38,7 +38,7 @@ Scoring decides who sales calls and who stays in nurture. Without it, reps cherr
 
 ## How to choose
 
-Start with explicit rules, not a machine-learned model. A transparent scorecard with ten weighted signals can be tuned by the team that owns it. Move to predictive scoring only after the rule-based version has data to learn from, and the model&#x27;s decisions can still be explained. The tooling spans the CRM&#x27;s built-in scorer, marketing automation platforms, and dedicated scoring products. Pick the one where the score is visible, because invisible scores get mistrusted.
+Start with explicit rules, not a machine-learned model. A transparent scorecard with ten weighted signals can be tuned by the team that owns it. Move to predictive scoring only after the rule-based version has data to learn from, and the model's decisions can still be explained. The tooling spans the CRM's built-in scorer, marketing automation platforms, and dedicated scoring products. Pick the one where the score is visible, because invisible scores get mistrusted.
 
 ## The numbers
 
@@ -60,7 +60,7 @@ Predictive scoring finds patterns humans miss: a lead that reads three specific 
 
 ## Seen in the wild
 
-[Your Dashboard Can&amp;#x27;t See AI Search: 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/) · [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/) · [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+[Your Dashboard Can&#x27;t See AI Search: 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/) · [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/) · [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 
 Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM](https://www.salesforce.com/crm/) · [ActiveCampaign](https://www.activecampaign.com)
 

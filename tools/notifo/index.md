@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; Native integrations include Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push) (8 listed) |  |
-| &#10003; API access for custom integrations |  |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ Native integrations include Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push) (8 listed) |  |
+| ✓ API access for custom integrations |  |
 
 **What is Notifo?**
-Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 880 stars. Notifo offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 880 stars. Notifo offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Notifo cost?**
 Notifo is open source - MIT licensed and free to self-host; the public repository carries 880 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences.
@@ -33,7 +33,7 @@ Partly, and the distinction matters. Commits continue: the most recent landed in
 Not as documented providers. Email goes through Amazon SES, SMS through MessageBird, and mobile push through Firebase, with web push custom-built; the README explicitly asks for contributions toward other email providers. There is no Twilio or SendGrid integration in the configuration or documentation. If those providers are requirements, you would need to write the integration yourself, or front Notifo with an SMTP relay that hides the provider behind SES-compatible SMTP settings.
 
 **Notifo vs Notifuse: are they the same thing?**
-No, they are unrelated projects with confusingly similar names. Notifo (notifo-io/notifo) is a C#/.NET multi-channel notification service under MIT, built by the Squidex team, covering email, SMS, web push, mobile push and in-app sockets behind one API. Notifuse (notifuse/notifuse) is a Go-based self-hosted email marketing and transactional platform with a paid cloud, positioned against Mailchimp and Brevo. If you want campaign and newsletter sending, you want Notifuse or similar; if you want an API for product notifications, that is Notifo&#x27;s job.
+No, they are unrelated projects with confusingly similar names. Notifo (notifo-io/notifo) is a C#/.NET multi-channel notification service under MIT, built by the Squidex team, covering email, SMS, web push, mobile push and in-app sockets behind one API. Notifuse (notifuse/notifuse) is a Go-based self-hosted email marketing and transactional platform with a paid cloud, positioned against Mailchimp and Brevo. If you want campaign and newsletter sending, you want Notifuse or similar; if you want an API for product notifications, that is Notifo's job.
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
@@ -82,11 +82,11 @@ Email Marketing · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Notifo &#8594;](https://notifo.io)
+[Visit Notifo →](https://notifo.io)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Notifo &#8594;](https://notifo.io)
+[Visit Notifo →](https://notifo.io)
 
 ## MartechSignal Score: 31/60
 
@@ -96,7 +96,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Notifo is an open-source notification service that puts email, SMS, web push, mobile push, in-app sockets and a WhatsApp messaging channel behind one API, with a management UI for templates, users, subscriptions and projects. It comes from the Squidex team: the README says it was originally developed for Squidex Headless CMS, and the license is MIT. The feature set is practitioner-grade rather than campaign-grade: MJML and Liquid email templates, hierarchical topic subscriptions (a user can follow a path like clothes/shoes/nike and set preferences per topic), per-channel message queues with retries, configurable send delays that work as aggregation windows, confirmation modes from none to explicit, and read and confirmed tracking. Provider support is specific rather than pluggable: Amazon SES for email, MessageBird for SMS, Firebase for mobile push, a custom-built web-push implementation, and sockets for real-time in-page delivery; a JavaScript plugin adds a notification overlay to your web app. Storage is MongoDB only, with Redis optional as a SignalR backplane. The integration surface is documented and live: a REST API with an OpenAPI spec served by the app, a .NET SDK on NuGet (Notifo.SDK 1.7.5) and a TypeScript SDK on npm (@notifo/notifo 2.0.2). The maintenance picture needs a hard look before you build on it. Code commits continue (the most recent, a security fix, landed in August 2026, and the backend moved to .NET 10 in June), but the last tagged release and the published Docker images date to November 2022, so the squidex/notifo image you can pull is years behind main, and the wiki&#x27;s notifo/notifo image name no longer exists on Docker Hub. A hosted instance runs at app.notifo.io and the marketing site mentions usage-based pricing, but no pricing page is live, so treat self-hosting as the only documented path. This assessment is based on the repository, wiki and published documentation.
+Notifo is an open-source notification service that puts email, SMS, web push, mobile push, in-app sockets and a WhatsApp messaging channel behind one API, with a management UI for templates, users, subscriptions and projects. It comes from the Squidex team: the README says it was originally developed for Squidex Headless CMS, and the license is MIT. The feature set is practitioner-grade rather than campaign-grade: MJML and Liquid email templates, hierarchical topic subscriptions (a user can follow a path like clothes/shoes/nike and set preferences per topic), per-channel message queues with retries, configurable send delays that work as aggregation windows, confirmation modes from none to explicit, and read and confirmed tracking. Provider support is specific rather than pluggable: Amazon SES for email, MessageBird for SMS, Firebase for mobile push, a custom-built web-push implementation, and sockets for real-time in-page delivery; a JavaScript plugin adds a notification overlay to your web app. Storage is MongoDB only, with Redis optional as a SignalR backplane. The integration surface is documented and live: a REST API with an OpenAPI spec served by the app, a .NET SDK on NuGet (Notifo.SDK 1.7.5) and a TypeScript SDK on npm (@notifo/notifo 2.0.2). The maintenance picture needs a hard look before you build on it. Code commits continue (the most recent, a security fix, landed in August 2026, and the backend moved to .NET 10 in June), but the last tagged release and the published Docker images date to November 2022, so the squidex/notifo image you can pull is years behind main, and the wiki's notifo/notifo image name no longer exists on Docker Hub. A hosted instance runs at app.notifo.io and the marketing site mentions usage-based pricing, but no pricing page is live, so treat self-hosting as the only documented path. This assessment is based on the repository, wiki and published documentation.
 
 Notifo homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -118,7 +118,7 @@ MIT licensed, free to self-host. A hosted instance runs at app.notifo.io, but no
 
 ## How to install
 
-- The README&#x27;s documented path is Docker with the images at hub.docker.com/r/squidex/notifo, plus a docker compose file in the repo under deployment/docker-compose. Installation details live in the project wiki rather than a docs site.
+- The README's documented path is Docker with the images at hub.docker.com/r/squidex/notifo, plus a docker compose file in the repo under deployment/docker-compose. Installation details live in the project wiki rather than a docs site.
 - Pull: docker pull squidex/notifo:latest. Published tags are latest, 1 and 1.3.0, and Docker Hub shows the last push roughly four years ago, so the image will not include the .NET 10 work on main.
 - The repo compose file wires squidex/notifo:1 with mongo:5 and squidex/caddy-proxy:2.7.6, sets URLS__BAS€L=https://your-domain and STORAGE__MONGODB__CONNECTIONSTRING=mongodb://notifo_mongo, and healthchecks curl -f http://localhost:5000/healthz.
 - Configuration flattens nested config keys into environment variables: mongoDB.connectionString becomes MONGODB__CONNECTIONSTRING, and the same pattern covers email, SMS and web push settings.
@@ -164,7 +164,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 880 stars. Notifo offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 880 stars. Notifo offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Notifo is open source - MIT licensed and free to self-host; the public repository carries 880 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences.
 
@@ -174,7 +174,7 @@ Partly, and the distinction matters. Commits continue: the most recent landed in
 
 Not as documented providers. Email goes through Amazon SES, SMS through MessageBird, and mobile push through Firebase, with web push custom-built; the README explicitly asks for contributions toward other email providers. There is no Twilio or SendGrid integration in the configuration or documentation. If those providers are requirements, you would need to write the integration yourself, or front Notifo with an SMTP relay that hides the provider behind SES-compatible SMTP settings.
 
-No, they are unrelated projects with confusingly similar names. Notifo (notifo-io/notifo) is a C#/.NET multi-channel notification service under MIT, built by the Squidex team, covering email, SMS, web push, mobile push and in-app sockets behind one API. Notifuse (notifuse/notifuse) is a Go-based self-hosted email marketing and transactional platform with a paid cloud, positioned against Mailchimp and Brevo. If you want campaign and newsletter sending, you want Notifuse or similar; if you want an API for product notifications, that is Notifo&#x27;s job.
+No, they are unrelated projects with confusingly similar names. Notifo (notifo-io/notifo) is a C#/.NET multi-channel notification service under MIT, built by the Squidex team, covering email, SMS, web push, mobile push and in-app sockets behind one API. Notifuse (notifuse/notifuse) is a Go-based self-hosted email marketing and transactional platform with a paid cloud, positioned against Mailchimp and Brevo. If you want campaign and newsletter sending, you want Notifuse or similar; if you want an API for product notifications, that is Notifo's job.
 
 ## Similar Tools
 

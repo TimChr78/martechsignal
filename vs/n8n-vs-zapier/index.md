@@ -27,6 +27,8 @@
 - **Pick n8n if:** Pick n8n if you can host it yourself, run high volume, or need code steps and branching in your workflows.
 - **Pick Zapier if:** Pick Zapier if a specific niche integration has to work this week and nobody wants to maintain an automation server.
 
+[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
+
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## n8n vs Zapier (2026): self-hosted depth or catalog breadth
@@ -65,7 +67,7 @@ Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 o
 
 ## Pricing
 
-**n8n:** Self-hosting is free under the fair-code license, and cloud plans run 20 dollars monthly on Starter and 50 dollars on Pro, with Enterprise custom. On your own hardware the bill is a server and someone&#x27;s time, not per-run fees.
+**n8n:** Self-hosting is free under the fair-code license, and cloud plans run 20 dollars monthly on Starter and 50 dollars on Pro, with Enterprise custom. On your own hardware the bill is a server and someone's time, not per-run fees.
 
 **Zapier:** Pricing is task-based: Free covers 100 tasks monthly and two-step Zaps, Professional starts at 19.99 dollars monthly billed annually at the 750-task tier (29.99 dollars monthly), Team at 69 dollars with 2,000 tasks and 25 seats. Every step in a Zap counts, so multi-step workflows burn volume fast. Agent activity bills separately: 400 activities a month free.
 
@@ -103,7 +105,7 @@ Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 o
 
 Zapier has no exporter that writes n8n workflows, so every Zap gets rebuilt by hand: trigger, filters, and each action become nodes. A five-step Zap usually takes under an hour to translate once you know both tools, but the testing time after the rebuild is the part people underestimate, because the happy path is only one path.
 
-Going the other way costs differently. n8n code steps have no Zapier equivalent, so those steps get rewritten as built-in actions or pushed upstream into your own API. Credentials move from your instance into Zapier&#x27;s vault, and any self-hosted webhook URL needs a new public endpoint. Budget a day of plumbing per environment.
+Going the other way costs differently. n8n code steps have no Zapier equivalent, so those steps get rewritten as built-in actions or pushed upstream into your own API. Credentials move from your instance into Zapier's vault, and any self-hosted webhook URL needs a new public endpoint. Budget a day of plumbing per environment.
 
 Switching costs land in the connectors, not the canvas. Triggers and actions map across all three roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those.
 
@@ -114,6 +116,10 @@ None of the three is right when your automation work is mostly custom code with 
 ## Who should pick which
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
+
+## Browse the hubs behind this comparison
+
+**Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Get the next teardown
 

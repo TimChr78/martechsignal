@@ -76,17 +76,17 @@ We went through our [directory of open-source marketing tools](/categories/open-
 
 **SuiteCRM** is the SugarCRM fork with 15+ years of production use. Less flashy, more enterprise-hardened. If you need something that's survived a decade of real deployments, this is it.
 
-&gt; **✅ OSS Wins: Cost &amp; Customization**
+> **✅ OSS Wins: Cost & Customization**
 
 For teams under 50 users who can self-host, the savings are enormous. Twenty covers HubSpot's core CRM territory at a fraction of the cost. The tradeoff: no dedicated support line, and you own the infrastructure.
 
-## 2. Email Marketing &amp; Newsletters
+## 2. Email Marketing & Newsletters
 
 **Listmonk** is written in Go and handles millions of subscribers on a $5 VPS. No per-contact pricing, no feature gating. If you can run Docker, you can run a newsletter platform that would cost $350/mo on Mailchimp.
 
 **Ghost** has become the default for creator newsletters. Built-in memberships, SEO, and now AI writing tools. Self-hosted is free; cloud starts at $9/mo (vs. Beehiiv's [$49 tier](https://www.beehiiv.com/pricing)).
 
-&gt; **✅ OSS Wins: Scale Economics**
+> **✅ OSS Wins: Scale Economics**
 
 Email is where OSS wins by the widest margin. Commercial platforms charge per contact. At 50K subscribers, you are paying $500+/mo. Listmonk charges $0 regardless of list size. The only cost is your SMTP provider (~$10–50/mo).
 
@@ -96,11 +96,11 @@ Email is where OSS wins by the widest margin. Commercial platforms charge per co
 
 **n8n** isn't marketing-specific, but with 400+ nodes and AI agent capabilities, it has become the glue that holds OSS martech stacks together. Connect your CRM to your email tool to your analytics without paying the Zapier tax.
 
-&gt; **⚖️ Tie: Depends on Team Size**
+> **⚖️ Tie: Depends on Team Size**
 
 For a solo marketer or small team, Mautic + n8n covers 90% of what HubSpot does. For enterprise teams needing SLAs, compliance certifications, and dedicated support, commercial platforms still have the edge. The feature gap has closed; the support gap hasn't.
 
-## 4. Analytics &amp; Attribution
+## 4. Analytics & Attribution
 
 This is the most mature OSS category. **Plausible** and **Umami** have effectively made Google Analytics unnecessary for content sites. Privacy-friendly, cookieless, GDPR-compliant by default, and they load in 1KB instead of GA's 45KB script.
 
@@ -108,23 +108,23 @@ This is the most mature OSS category. **Plausible** and **Umami** have effective
 
 **Snowplow** is the data infrastructure layer. Event collection and enrichment that [feeds your own data warehouse](/blog/you-dont-need-new-data-stack-fivetran/). It is what Segment charges $120+/mo for, self-hosted for free.
 
-&gt; **✅ OSS Wins: Privacy &amp; Ownership**
+> **✅ OSS Wins: Privacy & Ownership**
 
 With GDPR enforcement tightening and third-party cookies dead, owning your analytics data is a practical advantage, more than a philosophical one. Plausible on a $5 VPS gives you better privacy posture than GA4 at any price.
 
-## 5. Content &amp; Publishing
+## 5. Content & Publishing
 
 **Strapi** is the most-starred OSS project in our entire directory (73.1K). It is a headless CMS that replaces Contentful at 1/20th the cost. API-first, plugin ecosystem, and now AI-powered content management.
 
-&gt; **✅ OSS Wins: Clearly**
+> **✅ OSS Wins: Clearly**
 
 Contentful at $300/mo for what Strapi does free is the easiest ROI calculation in martech. The only reason to pay is if you need their CDN and don't want to manage infrastructure.
 
-## 6. Chatbots &amp; Customer Engagement
+## 6. Chatbots & Customer Engagement
 
 **Chatwoot** is a full Intercom replacement. Live chat, AI chatbot, helpdesk, omnichannel (WhatsApp, Instagram, email). At 34.8K stars, it's production-proven. The cloud version at $19/mo undercuts Intercom's cheapest plan by $10/seat.
 
-&gt; **⚖️ Tie: Feature Parity, UX Gap**
+> **⚖️ Tie: Feature Parity, UX Gap**
 
 Chatwoot has the features. Intercom has the polish. Their [Fin AI agent](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/) is genuinely the strongest on the market. For budget-conscious teams, Chatwoot is the move. For teams where support IS the product, Intercom's UX investment pays off.
 
@@ -132,7 +132,7 @@ Chatwoot has the features. Intercom has the polish. Their [Fin AI agent](/blog/w
 
 Here's what a complete martech stack costs for a 10-person marketing team managing 50K contacts:
 
-&gt; Here's what open-source actually costs beyond the $0 price tag:
+> Here's what open-source actually costs beyond the $0 price tag:
 
 - **Advertising AI.** Albert AI, Smartly.io have proprietary ad platform integrations and ML models trained on billions of impressions. No OSS equivalent exists.
 - **Enterprise personalization.** Dynamic Yield, Nosto have real-time recommendation engines requiring massive data infrastructure.
@@ -159,7 +159,7 @@ The commercial vendors' moat is no longer features. It's **convenience, complian
 - [n8n + AI: The Open-Source Automation Engine That Actually Works](/blog/n8n-ai-open-source-automation/)- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)- [Salesforce Just Made Agentforce Free. Here's What Marketing Ops Can Actually Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Related tools
 
-- [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment- [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel &amp; Filament- [ALwrity](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
+- [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment- [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel & Filament- [ALwrity](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
 ### Browse the Full Open-Source Stack
 
 All 23 tools mentioned in this article are in our directory with pricing, GitHub stars, and AI feature breakdowns.
@@ -170,16 +170,16 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ## Related tools
 
 - [Listmonk](/tools/listmonk/) - Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+- [Matomo](/tools/matomo/) - Open-source web analytics platform with full data ownership and AI-powered insights
 - [Jitsu](/tools/jitsu/) - Open-source Segment alternative for event capture and warehouse-first data pipelines
-- [HubSpot CRM](/tools/hubspot-crm/) - Free AI-powered CRM platform with sales, service, and marketing tools unified
 ## Comparison guides
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
-- [Best Marketing Analytics &amp;amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
+- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -238,7 +238,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1542,
+  "wordCount": 1536,
   "articleSection": ""
 }
 ```

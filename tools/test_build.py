@@ -1027,6 +1027,34 @@ def test_self_made_cluster_declared():
     assert "17,737" in tool and "2,599" in tool, "corrected figures missing"
 
 
+def test_money_pages_link_their_hubs():
+    """r10 H-2 (2026-09-29): every /best/ and /vs/ page links at least one
+    relevant category hub (symmetric with M26's hub->spoke links)."""
+    import re as _re
+    bad = []
+    for sub in ("best", "vs"):
+        for idx in (ROOT / sub).glob("*/index.html"):
+            if idx.parent.name == sub:
+                continue
+            html = idx.read_text()
+            n = len(_re.findall(r'href="/categories/(?!")', html))
+            if n == 0:
+                bad.append(f"/{sub}/{idx.parent.name}/")
+    assert not bad, f"money pages linking zero hubs: {bad[:6]}"
+
+
+def test_markdown_mirrors_carry_no_entities():
+    """r10 H-8 (2026-09-29): md mirrors must not leak HTML entities."""
+    import re as _re
+    bad = []
+    for md in list((ROOT / "tools").glob("*/index.md"))[:40]:
+        t = md.read_text()
+        m = _re.findall(r"&#\\d+;|&(amp|quot|lt|gt|nbsp);", t)
+        if m:
+            bad.append((str(md.relative_to(ROOT)), m[:2]))
+    assert not bad, f"entity leaks in mirrors: {bad[:4]}"
+
+
 def test_tool_hero_image_priority_and_sizes():
     """M5/M6/M7 (r9, 2026-09-28): the tool screenshot figure is eager with
     high priority (no lazy on the in-viewport image), serves a 480/600/800/

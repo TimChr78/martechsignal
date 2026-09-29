@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI product recommendations | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Shopify, WooCommerce, Magento (7 listed) |  |
-| &#10003; API access for custom integrations |  |
+| ✓ AI capabilities: AI product recommendations | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, WooCommerce, Magento (7 listed) |  |
+| ✓ API access for custom integrations |  |
 
 **What is Clerk.io?**
-Clerk.io: AI-powered ecommerce personalization with search, recommendations, and email. Clerk.io ships with AI product recommendations. This page documents 7 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Clerk.io: AI-powered ecommerce personalization with search, recommendations, and email. Clerk.io ships with AI product recommendations. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Clerk.io cost?**
 Clerk.io starts at $119/mo. From $119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -27,13 +27,13 @@ Clerk.io starts at $119/mo. From $119/month (verified Sep 2026). Custom pricing 
 Solid modular pick for mid-size stores with traffic to feed the models. Thin catalogs get little from it.
 
 - **Pricing:** From $119/mo
-- **Category:** [Personalization &amp; CDP](/categories/personalization/)
+- **Category:** [Personalization & CDP](/categories/personalization/)
 - **Founded:** 2011
 - **HQ:** Copenhagen, Denmark
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Clerk.io is a tool in Personalization &amp; CDP with paid plans starting at $119/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Clerk.io is a tool in Personalization & CDP with paid plans starting at $119/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Nosto
 
@@ -55,27 +55,27 @@ Twilio Segment
 
 Customer data platform for collecting, unifying, and activating customer data
 
-[More Personalization &amp; CDP Tools →](/categories/personalization/)
+[More Personalization & CDP Tools →](/categories/personalization/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [Personalization &amp; CDP](/categories/personalization/)
+- [Personalization & CDP](/categories/personalization/)
 - Clerk.io
 ## Clerk.io review (2026): pricing, AI features, verdict
 
 AI-powered ecommerce personalization with search, recommendations, and email
 
-Personalization &amp; CDP · From $119/mo Desk-reviewed
+Personalization & CDP · From $119/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-[Visit Clerk.io &#8594;](https://www.clerk.io)
+[Visit Clerk.io →](https://www.clerk.io)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Clerk.io &#8594;](https://www.clerk.io)
+[Visit Clerk.io →](https://www.clerk.io)
 
 ## MartechSignal Score: 32/60
 
@@ -85,7 +85,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Clerk.io is an AI ecommerce personalization platform that helps online stores optimize every customer touchpoint with behavior-driven intelligence. Its modular AI platform covers four core areas: **personalized site search** that eliminates zero-result dead ends by combining browsing behavior, sales data, and real-time inventory availability; **product recommendations** across homepage, category pages, product pages, and cart using multi-algorithm AI; **email personalization** with behavior-triggered product feeds; and **audience segmentation** that dynamically groups customers by intent signals rather than static rules. Clerk.io&#x27;s unified data platform ensures all personalization modules share the same customer profile, so a shopper who searched for running shoes sees consistent recommendations across search, browse, and email rather than conflicting signals from siloed tools. **Cookieless by design:** Clerk.io uses first-party behavioral data and session-based signals instead of third-party cookies, making it resilient to privacy regulations and browser restrictions. The platform serves over 2,500 stores worldwide and reports 15-30% average sales lift from its personalization suite. Pricing starts at $119/month, making it accessible to mid-market ecommerce while scaling to enterprise needs. Integrations include Shopify, Magento, WooCommerce, BigCommerce, and custom platforms via REST API. Clerk.io competes directly with Nosto, Dynamic Yield, and Algonomy in the ecommerce personalization space, positioning itself as the AI-first alternative that unifies search, recommendations, and email under one behavioral data engine.
+Clerk.io is an AI ecommerce personalization platform that helps online stores optimize every customer touchpoint with behavior-driven intelligence. Its modular AI platform covers four core areas: **personalized site search** that eliminates zero-result dead ends by combining browsing behavior, sales data, and real-time inventory availability; **product recommendations** across homepage, category pages, product pages, and cart using multi-algorithm AI; **email personalization** with behavior-triggered product feeds; and **audience segmentation** that dynamically groups customers by intent signals rather than static rules. Clerk.io's unified data platform ensures all personalization modules share the same customer profile, so a shopper who searched for running shoes sees consistent recommendations across search, browse, and email rather than conflicting signals from siloed tools. **Cookieless by design:** Clerk.io uses first-party behavioral data and session-based signals instead of third-party cookies, making it resilient to privacy regulations and browser restrictions. The platform serves over 2,500 stores worldwide and reports 15-30% average sales lift from its personalization suite. Pricing starts at $119/month, making it accessible to mid-market ecommerce while scaling to enterprise needs. Integrations include Shopify, Magento, WooCommerce, BigCommerce, and custom platforms via REST API. Clerk.io competes directly with Nosto, Dynamic Yield, and Algonomy in the ecommerce personalization space, positioning itself as the AI-first alternative that unifies search, recommendations, and email under one behavioral data engine.
 
 Clerk.io homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -140,7 +140,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Clerk.io: AI-powered ecommerce personalization with search, recommendations, and email. Clerk.io ships with AI product recommendations. This page documents 7 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Clerk.io: AI-powered ecommerce personalization with search, recommendations, and email. Clerk.io ships with AI product recommendations. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Clerk.io starts at $119/mo. From $119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -152,10 +152,10 @@ Solid modular pick for mid-size stores with traffic to feed the models. Thin cat
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Also featured in
 
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/) &mdash; Mid-size stores that want search and recs without enterprise procurement
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Mid-size stores that want search and recs without enterprise procurement
 ### Quick Facts
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)

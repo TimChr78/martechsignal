@@ -8,18 +8,18 @@
 | Integrations | 7/10 | Shopify, WooCommerce, Salesforce, Zapier, WordPress, Canva, GA and Stripe documented (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
 | AI capability | 5/10 | Content optimizer, subject line help, predictive demographics and Creative Assistant are assistive tools (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
 | Openness | 3/10 | Closed SaaS with API access and standard exports (the source repository: [repository](https://mailchimp.com), verified 2026-09-28). |
-| Operational maturity | 9/10 | Founded 2001 with Intuit&#x27;s infrastructure behind it and the category&#x27;s widest name recognition (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
+| Operational maturity | 9/10 | Founded 2001 with Intuit's infrastructure behind it and the category's widest name recognition (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
 
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI content optimizer | &#10007; Paid plans start at $13/mo once past the free tier |
-| &#10003; G2 rating 4.4/5 | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Shopify, WooCommerce, Salesforce (8 listed) |  |
-| &#10003; Free tier to evaluate before committing (Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo) |  |
+| ✓ AI capabilities: AI content optimizer | ✗ Paid plans start at $13/mo once past the free tier |
+| ✓ G2 rating 4.4/5 | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, WooCommerce, Salesforce (8 listed) |  |
+| ✓ Free tier to evaluate before committing (Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo) |  |
 
 **What is Mailchimp?**
-Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Mailchimp cost?**
 Mailchimp has a free tier; paid plans start at $13/mo. Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -77,11 +77,11 @@ Email Marketing · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit Mailchimp &#8594;](https://mailchimp.com)
+[Visit Mailchimp →](https://mailchimp.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Mailchimp &#8594;](https://mailchimp.com)
+[Visit Mailchimp →](https://mailchimp.com)
 
 ## MartechSignal Score: 38/60
 
@@ -91,7 +91,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Mailchimp is the most recognized name in email marketing, serving over 11 million users from solopreneurs to mid-market businesses. Founded in 2001 in Atlanta and acquired by Intuit in 2021 for $12 billion, it has expanded far beyond email into a full marketing platform that also includes landing pages, social media ads, postcards, SMS, marketing automation, and a basic CRM. Its core strength remains accessibility: the drag-and-drop email builder, template library, and guided setup make it the default starting point for businesses that need to send professional emails without technical skills. Intuit Assist, Mailchimp&#x27;s AI layer, generates email copy, suggests subject lines, and recommends send times. The free plan supports up to 500 contacts and 1,000 emails/month, though it has been progressively trimmed since the Intuit acquisition. Paid plans start at $13/month for 500 contacts on the Essentials tier, with the Standard plan at $20/month adding automation and A/B testing. Mailchimp&#x27;s transition from independent email tool to Intuit subsidiary has been a mixed experience for users: pricing has increased several times, the free plan limits have been reduced, and the platform sometimes feels like it&#x27;s being pushed toward Intuit&#x27;s broader QuickBooks ecosystem. For ecommerce brands, Klaviyo offers deeper Shopify integration. For SaaS, Customer.io and Loops are more event-driven. But for the small business that needs to send a newsletter, build a landing page, and run Facebook ads from one tool, Mailchimp still delivers the most complete out-of-the-box experience.
+Mailchimp is the most recognized name in email marketing, serving over 11 million users from solopreneurs to mid-market businesses. Founded in 2001 in Atlanta and acquired by Intuit in 2021 for $12 billion, it has expanded far beyond email into a full marketing platform that also includes landing pages, social media ads, postcards, SMS, marketing automation, and a basic CRM. Its core strength remains accessibility: the drag-and-drop email builder, template library, and guided setup make it the default starting point for businesses that need to send professional emails without technical skills. Intuit Assist, Mailchimp's AI layer, generates email copy, suggests subject lines, and recommends send times. The free plan supports up to 500 contacts and 1,000 emails/month, though it has been progressively trimmed since the Intuit acquisition. Paid plans start at $13/month for 500 contacts on the Essentials tier, with the Standard plan at $20/month adding automation and A/B testing. Mailchimp's transition from independent email tool to Intuit subsidiary has been a mixed experience for users: pricing has increased several times, the free plan limits have been reduced, and the platform sometimes feels like it's being pushed toward Intuit's broader QuickBooks ecosystem. For ecommerce brands, Klaviyo offers deeper Shopify integration. For SaaS, Customer.io and Loops are more event-driven. But for the small business that needs to send a newsletter, build a landing page, and run Facebook ads from one tool, Mailchimp still delivers the most complete out-of-the-box experience.
 
 Mailchimp homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -146,7 +146,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Mailchimp has a free tier; paid plans start at $13/mo. Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -161,7 +161,7 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ## Also featured in
 
-- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) &mdash; Small businesses that want the shortest path from idea to send
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Small businesses that want the shortest path from idea to send
 ### Quick Facts
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

@@ -73,7 +73,7 @@ One test, one website, and the authors say so. But 0.21% against 3.71% is the ki
 
 Run the week's announcements together and the gaps line up in four places. None of them is hypothetical.
 
-Placement. On ChatGPT Ads you cannot see the conversations that trigger your ads, full stop. An SE Ranking study of more than 50,000 commercial prompts found ads on roughly one in four, close to the rate in Google's AI Mode, and found that about 14% of those ads were effectively unrelated to the prompt they sat next to. In Relationships and News &amp; Politics, more than half were mismatched. Healthcare prompts carried ads at 28.69%, against 2.64% in Google's AI Mode. Meanwhile Google is removing campaign-level language targeting from Search in late September, with the platform deciding language matching from ad copy and user signals. Its own guidance for the change begins with the phrase "no action is required."
+Placement. On ChatGPT Ads you cannot see the conversations that trigger your ads, full stop. An SE Ranking study of more than 50,000 commercial prompts found ads on roughly one in four, close to the rate in Google's AI Mode, and found that about 14% of those ads were effectively unrelated to the prompt they sat next to. In Relationships and News & Politics, more than half were mismatched. Healthcare prompts carried ads at 28.69%, against 2.64% in Google's AI Mode. Meanwhile Google is removing campaign-level language targeting from Search in late September, with the platform deciding language matching from ad copy and user signals. Its own guidance for the change begins with the phrase "no action is required."
 
 Spend pacing. The August 17 Smart Bidding update makes Target CPA and Target ROAS the primary control on efficiency even for budget-limited campaigns, which changes how spend behaves when you adjust budgets. Google says this reduces volatility. It also means the number you typed into a target field, inside the platform, optimized by the platform, is now more in charge of your money than the budget line is. On ChatGPT Ads the hard caps are the daily budget and the bid, both set in-platform, with an oCPC beta that automates the bid toward conversions you report through OpenAI's own pixel.
 
@@ -129,7 +129,7 @@ Advertising platforms, attribution vendors, and the measurement layer that keeps
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 ## Comparison guides
 
-- [Best AI Advertising &amp;amp; Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/)
+- [Best AI Advertising &amp; Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 

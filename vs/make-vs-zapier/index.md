@@ -27,13 +27,15 @@
 - **Pick Make if:** Pick Make if you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.
 - **Pick Zapier if:** Pick Zapier if you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free.
 
+[Workflow Automation](/categories/workflow-automation/)
+
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## Make vs Zapier (2026): pricing, AI features, verdict
 
-Make and Zapier end up on the same shortlist. Make, the platform formerly known as Integromat, sits between Zapier&#x27;s simplicity and n8n&#x27;s depth. Zapier is the automation platform most people mean when they say they want to connect two tools without writing code.
+Make and Zapier end up on the same shortlist. Make, the platform formerly known as Integromat, sits between Zapier's simplicity and n8n's depth. Zapier is the automation platform most people mean when they say they want to connect two tools without writing code.
 
-Most decisions here come down to price and fit. The figures below are the catalog&#x27;s last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
+Most decisions here come down to price and fit. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
 Both platforms now sell AI features on top of the same plumbing: triggers, actions, and a scheduler between them. The price gap and the credit-versus-task metering decide more deals than any feature list, so the volume table below is the part to read twice.
 
@@ -63,7 +65,7 @@ Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 o
 
 ## Positioning
 
-**Make:** Make, the platform formerly known as Integromat, sits between Zapier&#x27;s simplicity and n8n&#x27;s depth. Founded in Prague in 2012 and acquired by Celonis in 2020, it is where technical marketing teams land when a linear editor stops being enough: scenarios are drawn as a graph, so branching, looping, and error handling are visible rather than buried in configuration. Billing changed in August 2026, when credits replaced operations as the unit of account. It was founded in 2012.
+**Make:** Make, the platform formerly known as Integromat, sits between Zapier's simplicity and n8n's depth. Founded in Prague in 2012 and acquired by Celonis in 2020, it is where technical marketing teams land when a linear editor stops being enough: scenarios are drawn as a graph, so branching, looping, and error handling are visible rather than buried in configuration. Billing changed in August 2026, when credits replaced operations as the unit of account. It was founded in 2012.
 
 **Zapier:** Zapier is the automation platform most people mean when they say they want to connect two tools without writing code. It lists more than 9,000 app integrations, still the widest catalogue in this directory, and the niche martech tools that lack an n8n node or a Make module usually still have a Zapier integration. It was founded in 2011.
 
@@ -105,9 +107,9 @@ Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 o
 
 ## Migration cost
 
-Scenario to Zap translation is mechanical on the simple flows and stubborn on the clever ones. Routers map to Paths, iterators and aggregators often need a rethink, and Make&#x27;s tolerance for loose JSON means error handling that worked for years can fail on day one in Zapier.
+Scenario to Zap translation is mechanical on the simple flows and stubborn on the clever ones. Routers map to Paths, iterators and aggregators often need a rethink, and Make's tolerance for loose JSON means error handling that worked for years can fail on day one in Zapier.
 
-The reverse move has its own tax. Zapier&#x27;s formatter steps get rebuilt as Make functions, and any code step becomes a Make module or a call to your own endpoint. Exports cover the structure, not the run history, so keep a copy of the old platform until finance has signed off on the numbers.
+The reverse move has its own tax. Zapier's formatter steps get rebuilt as Make functions, and any code step becomes a Make module or a call to your own endpoint. Exports cover the structure, not the run history, so keep a copy of the old platform until finance has signed off on the numbers.
 
 Switching costs land in the connectors, not the canvas. Triggers and actions map across all three roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those.
 
@@ -118,6 +120,10 @@ None of the three is right when your automation work is mostly custom code with 
 ## Who should pick which
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
+
+## Browse the hubs behind this comparison
+
+**Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Get the next teardown
 

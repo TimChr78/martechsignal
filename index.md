@@ -18,11 +18,11 @@ BLOG · 2026-09-2504
 
 [NocoBaseOpen-source no-code platform with AI assistance for building business systems fastAUTOMATION](/tools/nocobase/) [Twilio SegmentCustomer data platform for collecting, unifying, and activating customer dataPERSONALIZATION](/tools/segment/) [HubSpot CRMFree AI-powered CRM platform with sales, service, and marketing tools unifiedCRM](/tools/hubspot-crm/) [MatomoOpen-source web analytics platform with full data ownership and AI-powered insightsANALYTICS](/tools/matomo/) [NocoDBFree, self-hostable Airtable alternative that turns any database into a smart spreadsheetMARKETING AUTO](/tools/nocodb/) [n8nOpen-source workflow automation platform with AI agent capabilities and 400+ nodesAUTOMATION](/tools/n8n/) [UmamiOpen-source, cookieless web analytics with real-time dashboards, session replay, and heatmapsANALYTICS](/tools/umami/) [Dolibarr ERP/CRMModular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP appCRM](/tools/dolibarr/)
 
-AI Content &amp; Copywriting
+AI Content & Copywriting
 
 13 tools
 
-Advertising &amp; Paid Media
+Advertising & Paid Media
 
 9 tools
 
@@ -30,7 +30,7 @@ Agent Skills
 
 16 tools
 
-Analytics &amp; Attribution
+Analytics & Attribution
 
 11 tools
 
@@ -38,7 +38,7 @@ CRM
 
 24 tools
 
-Chatbots &amp; Conversational AI
+Chatbots & Conversational AI
 
 6 tools
 
@@ -46,7 +46,7 @@ Email Marketing
 
 15 tools
 
-GEO &amp; LLM Optimization
+GEO & LLM Optimization
 
 14 tools
 
@@ -58,11 +58,11 @@ Open-Source Tools
 
 78 tools
 
-Personalization &amp; CDP
+Personalization & CDP
 
 9 tools
 
-SEO &amp; Search
+SEO & Search
 
 9 tools
 

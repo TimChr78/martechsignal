@@ -26,11 +26,11 @@ An email sequence is a series of automated emails sent on a schedule or triggere
 
 ## Why it matters
 
-The drip campaign got its name from the idea of slowly dripping information into a prospect&#x27;s inbox. The format works because it&#x27;s low effort for the sender and predictable for the recipient. The failure mode is writing seven emails that say the same thing in slightly different words. The sequences that perform well have a clear reason for each email to exist and a clear exit condition, the subscriber bought, replied, or explicitly said stop.
+The drip campaign got its name from the idea of slowly dripping information into a prospect's inbox. The format works because it's low effort for the sender and predictable for the recipient. The failure mode is writing seven emails that say the same thing in slightly different words. The sequences that perform well have a clear reason for each email to exist and a clear exit condition, the subscriber bought, replied, or explicitly said stop.
 
 ## How it works
 
-An email sequence is a set of emails sent automatically at intervals or after triggers. The classic form is a drip campaign: welcome emails, onboarding steps, or follow-ups spaced over days. Modern sequences branch on behavior: a click moves the contact into a different next email, an open triggers a delay. The engine that runs them tracks each contact&#x27;s position and decides what to send from the campaign logic.
+An email sequence is a set of emails sent automatically at intervals or after triggers. The classic form is a drip campaign: welcome emails, onboarding steps, or follow-ups spaced over days. Modern sequences branch on behavior: a click moves the contact into a different next email, an open triggers a delay. The engine that runs them tracks each contact's position and decides what to send from the campaign logic.
 
 ## Practical uses
 

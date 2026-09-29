@@ -13,13 +13,13 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Apache-2.0 licence with free self-hosting | &#10007; Paid plans start at $15/mo once past the free tier |
-| &#10003; AI capabilities: ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3) |  |
-| &#10003; Active public repository (40,849 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include PostgreSQL, MySQL, MongoDB (13 listed) |  |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $15/mo once past the free tier |
+| ✓ AI capabilities: ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3) |  |
+| ✓ Active public repository (40,849 GitHub stars counted at last check) |  |
+| ✓ Native integrations include PostgreSQL, MySQL, MongoDB (13 listed) |  |
 
 **What is Appsmith?**
-Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,849 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,849 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Appsmith cost?**
 Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -30,8 +30,8 @@ The safest default in the open-source internal-tools class: Apache 2.0 core, the
 **Is Appsmith free for commercial use?**
 Yes, for the community edition: the repo is Apache 2.0, so self-hosting for internal business use costs nothing, with no seat limits in the license itself. What is paid is the edition rather than the right to use it. The recommended appsmith-ee image is the commercial build on a free plan, and features such as SAML or OIDC SSO, SCIM provisioning, audit logs, custom roles and private app embedding unlock on Business ($15 per user monthly) or Enterprise (from $2,500 per month for 100 users). Install the appsmith-ce image if you want only what the open-source repo carries.
 
-**Appsmith vs Retool: what&#x27;s the difference?**
-Retool is a hosted commercial platform; Appsmith is Apache 2.0 and self-hostable, so the app runtime and your data stay on your infrastructure and the community edition carries no per-builder fee. Appsmith&#x27;s own comparison content frames itself as the developer-centric, open-source alternative to Retool&#x27;s closed source and scaling costs. The practical trade: Retool gives you a managed service with polished connectors and support out of the box, while Appsmith gives you ownership and git-based workflows but you run the container, the upgrades and the 8 GB host yourself.
+**Appsmith vs Retool: what's the difference?**
+Retool is a hosted commercial platform; Appsmith is Apache 2.0 and self-hostable, so the app runtime and your data stay on your infrastructure and the community edition carries no per-builder fee. Appsmith's own comparison content frames itself as the developer-centric, open-source alternative to Retool's closed source and scaling costs. The practical trade: Retool gives you a managed service with polished connectors and support out of the box, while Appsmith gives you ownership and git-based workflows but you run the container, the upgrades and the 8 GB host yourself.
 
 **Which databases and SaaS tools does Appsmith connect to?**
 Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server, Oracle, Snowflake, Redshift, Databricks, DynamoDB, Firestore, Elasticsearch, Redis, ArangoDB, S3 and SMTP, plus any REST or GraphQL API. SaaS connectors cover HubSpot, Salesforce, Google Sheets, Google Drive, Airtable, Jira, Notion, Mixpanel, Monday.com, Linear, GitHub, Gmail and Outlook, among others. Marketing teams usually pair it with a warehouse or call ad platform APIs directly rather than expecting deep native marketing connectors; the queries are SQL or JavaScript you write.
@@ -82,11 +82,11 @@ Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Appsmith &#8594;](https://appsmith.com)
+[Visit Appsmith →](https://appsmith.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Appsmith &#8594;](https://appsmith.com)
+[Visit Appsmith →](https://appsmith.com)
 
 ## MartechSignal Score: 39/60
 
@@ -129,11 +129,11 @@ Current plans and limits live on the [Appsmith pricing page](https://www.appsmit
 
 ## How to install
 
-- Current docs install with Docker Compose rather than a bare docker run. Create a docker-compose.yml with image index.docker.io/appsmith/appsmith-ee:&lt;version&gt;, ports 80 and 443, and volume ./stacks:/appsmith-stacks, then run docker-compose up -d. Pin a release tag (the docs use v1.98 as an example) instead of latest.
+- Current docs install with Docker Compose rather than a bare docker run. Create a docker-compose.yml with image index.docker.io/appsmith/appsmith-ee:<version>, ports 80 and 443, and volume ./stacks:/appsmith-stacks, then run docker-compose up -d. Pin a release tag (the docs use v1.98 as an example) instead of latest.
 - For the community edition, swap the image name to appsmith/appsmith-ce in the same file. The docs state this as the only change needed.
 - First boot creates an admin account at http://localhost, which the docs warn can take up to five minutes. License keys for paid plans are generated at customer.appsmith.com and activated in the instance.
 - Host requirements per the docs: Docker 20.10.7+, Docker Compose 1.29.2+, at least 8 GB of RAM, and outbound access to cs.appsmith.com for pulls, updates and license validation.
-- Kubernetes: helm repo add appsmith-ee https://helm-ee.appsmith.com &amp;&amp; helm repo update, then helm install appsmith-ee appsmith-ee/appsmith -n appsmith-ee --create-namespace -f values.yaml. values.yaml must set the image tag, the MongoDB operator settings, and ingress class and hosts. Application pods need 6 GB of memory and benefit from 2 vCPUs, on a minimum of two nodes with 2 vCPUs and 8 GB each.
+- Kubernetes: helm repo add appsmith-ee https://helm-ee.appsmith.com && helm repo update, then helm install appsmith-ee appsmith-ee/appsmith -n appsmith-ee --create-namespace -f values.yaml. values.yaml must set the image tag, the MongoDB operator settings, and ingress class and hosts. Application pods need 6 GB of memory and benefit from 2 vCPUs, on a minimum of two nodes with 2 vCPUs and 8 GB each.
 - To reach APIs running on the Docker host itself (a local ad platform mock, a dev CRM), start the container with --add-host=host.docker.internal:host-gateway, which is the documented approach on Linux.
 ## Best for
 
@@ -177,7 +177,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,849 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,849 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -185,7 +185,7 @@ The safest default in the open-source internal-tools class: Apache 2.0 core, the
 
 Yes, for the community edition: the repo is Apache 2.0, so self-hosting for internal business use costs nothing, with no seat limits in the license itself. What is paid is the edition rather than the right to use it. The recommended appsmith-ee image is the commercial build on a free plan, and features such as SAML or OIDC SSO, SCIM provisioning, audit logs, custom roles and private app embedding unlock on Business ($15 per user monthly) or Enterprise (from $2,500 per month for 100 users). Install the appsmith-ce image if you want only what the open-source repo carries.
 
-Retool is a hosted commercial platform; Appsmith is Apache 2.0 and self-hostable, so the app runtime and your data stay on your infrastructure and the community edition carries no per-builder fee. Appsmith&#x27;s own comparison content frames itself as the developer-centric, open-source alternative to Retool&#x27;s closed source and scaling costs. The practical trade: Retool gives you a managed service with polished connectors and support out of the box, while Appsmith gives you ownership and git-based workflows but you run the container, the upgrades and the 8 GB host yourself.
+Retool is a hosted commercial platform; Appsmith is Apache 2.0 and self-hostable, so the app runtime and your data stay on your infrastructure and the community edition carries no per-builder fee. Appsmith's own comparison content frames itself as the developer-centric, open-source alternative to Retool's closed source and scaling costs. The practical trade: Retool gives you a managed service with polished connectors and support out of the box, while Appsmith gives you ownership and git-based workflows but you run the container, the upgrades and the 8 GB host yourself.
 
 Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server, Oracle, Snowflake, Redshift, Databricks, DynamoDB, Firestore, Elasticsearch, Redis, ArangoDB, S3 and SMTP, plus any REST or GraphQL API. SaaS connectors cover HubSpot, Salesforce, Google Sheets, Google Drive, Airtable, Jira, Notion, Mixpanel, Monday.com, Linear, GitHub, Gmail and Outlook, among others. Marketing teams usually pair it with a warehouse or call ad platform APIs directly rather than expecting deep native marketing connectors; the queries are SQL or JavaScript you write.
 

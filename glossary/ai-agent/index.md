@@ -26,7 +26,7 @@ An AI agent is software that pursues a goal by taking a sequence of actions on i
 
 ## Why it matters
 
-Marketing vendors adopted the term aggressively through 2025 and 2026, which blurs it. A reasonable test: if the software&#x27;s behavior changes based on what it observes without a human editing the rule, it is agentive. If it always runs the same steps, it is workflow automation with AI features.
+Marketing vendors adopted the term aggressively through 2025 and 2026, which blurs it. A reasonable test: if the software's behavior changes based on what it observes without a human editing the rule, it is agentive. If it always runs the same steps, it is workflow automation with AI features.
 
 ## How it works
 
@@ -42,7 +42,7 @@ Evaluate agents by their failure containment, not their demo. Ask what happens w
 
 ## The numbers
 
-Rollout math worth knowing: teams that run agents in suggest-and-approve mode for their first month report approval rates climbing from roughly 40-60% to 80-90% as policies tighten - the agent learns constraints from the approval pattern. Budget containment matters more: agents acting within a hard-capped budget cannot do more damage than the cap. Vendors price agents on usage, per action, per run, or per credit, plus seats for the humans supervising them, and rates vary by vendor. Whatever the unit, price out your expected action volume before launch and set a hard cap at the billing layer, not inside the agent&#x27;s own settings, because a limit the agent can edit is a suggestion.
+Rollout math worth knowing: teams that run agents in suggest-and-approve mode for their first month report approval rates climbing from roughly 40-60% to 80-90% as policies tighten - the agent learns constraints from the approval pattern. Budget containment matters more: agents acting within a hard-capped budget cannot do more damage than the cap. Vendors price agents on usage, per action, per run, or per credit, plus seats for the humans supervising them, and rates vary by vendor. Whatever the unit, price out your expected action volume before launch and set a hard cap at the billing layer, not inside the agent's own settings, because a limit the agent can edit is a suggestion.
 
 ## Common mistakes
 

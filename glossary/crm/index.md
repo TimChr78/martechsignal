@@ -34,7 +34,7 @@ A CRM is the system of record for every interaction your company has with a pros
 
 ## Why it matters
 
-The CRM category dates back to the 1990s with Siebel Systems, which Oracle later acquired. Salesforce moved it to the cloud in 1999 and made it a subscription. Today the line between CRM and marketing automation is blurry, HubSpot started as a CRM and added marketing, Salesforce started as a CRM and added everything else. The question for buyers is less &#x27;do I need a CRM&#x27; and more &#x27;how much of my stack does the CRM eat.&#x27;
+The CRM category dates back to the 1990s with Siebel Systems, which Oracle later acquired. Salesforce moved it to the cloud in 1999 and made it a subscription. Today the line between CRM and marketing automation is blurry, HubSpot started as a CRM and added marketing, Salesforce started as a CRM and added everything else. The question for buyers is less 'do I need a CRM' and more 'how much of my stack does the CRM eat.'
 
 ## How it works
 
@@ -54,7 +54,7 @@ Self-hosted CRM economics: the software license is free but plan on $20-80 per m
 
 ## Common mistakes
 
-The most common failure is buying a CRM before defining the sales stages it should track. Teams then record deals as either open or closed, the pipeline report loses all meaning, and the tool gets blamed. The second failure is duplicating records between the CRM and a spreadsheet, which guarantees drift. The third is granting every user full rights, so field hygiene dies within a quarter. People call their CRM a single source of truth when it is really a shared home for sales data. Marketing engagement, product usage, and support history usually live elsewhere until you integrate them, and without that integration your CRM reports describe pipeline while your customer&#x27;s actual experience goes unrecorded. The other mix-up is CRM versus marketing automation. The CRM records interactions; marketing automation runs campaigns and scoring. Suites blur the line on purpose, so check which module actually ships in the tier you bought.
+The most common failure is buying a CRM before defining the sales stages it should track. Teams then record deals as either open or closed, the pipeline report loses all meaning, and the tool gets blamed. The second failure is duplicating records between the CRM and a spreadsheet, which guarantees drift. The third is granting every user full rights, so field hygiene dies within a quarter. People call their CRM a single source of truth when it is really a shared home for sales data. Marketing engagement, product usage, and support history usually live elsewhere until you integrate them, and without that integration your CRM reports describe pipeline while your customer's actual experience goes unrecorded. The other mix-up is CRM versus marketing automation. The CRM records interactions; marketing automation runs campaigns and scoring. Suites blur the line on purpose, so check which module actually ships in the tier you bought.
 
 ## What changed with AI
 

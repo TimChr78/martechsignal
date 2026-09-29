@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: LLM email translation | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Stripe, Segment, Zapier (8 listed) |  |
-| &#10003; Free tier to evaluate before committing (Free up to 1,000 subscribed contacts and 4,000 sends per rol) |  |
+| ✓ AI capabilities: LLM email translation | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Stripe, Segment, Zapier (8 listed) |  |
+| ✓ Free tier to evaluate before committing (Free up to 1,000 subscribed contacts and 4,000 sends per rol) |  |
 
 **What is Loops?**
-Loops: Email marketing for SaaS: marketing, product, and transactional email in one tool. Loops ships with LLM email translation. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Loops: Email marketing for SaaS: marketing, product, and transactional email in one tool. Loops ships with LLM email translation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Loops cost?**
 Loops has a free tier, so you can run a real evaluation before paying. Free up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days; paid plans are contact-based with unlimited sends and no published list prices. We last checked the plan structure on 2026-09-07; paid tiers mainly raise limits rather than unlocking core features.
@@ -27,7 +27,7 @@ Loops has a free tier, so you can run a real evaluation before paying. Free up t
 A focused, developer-friendly email platform for SaaS: strong API and agent access, honest scope, email only, and paid pricing you calculate rather than read.
 
 **Does Loops support custom HTML email?**
-No. Loops does not accept custom HTML emails; content is created in its editor or in LMX, the platform&#x27;s XML-based markup, and reused through a Components API so edits cascade into every email that uses the component. Imports are supported from MJML, Emailify, and Email Love. The docs include a page titled Why we don&#x27;t support HTML emails explaining the reasoning, so teams with strict design-control requirements should test the editor against their needs first.
+No. Loops does not accept custom HTML emails; content is created in its editor or in LMX, the platform's XML-based markup, and reused through a Components API so edits cascade into every email that uses the component. Imports are supported from MJML, Emailify, and Email Love. The docs include a page titled Why we don't support HTML emails explaining the reasoning, so teams with strict design-control requirements should test the editor against their needs first.
 
 **How does Loops pricing work as your list grows?**
 It is contact-based, not send-based: Loops charges on subscribed contacts and does not charge separately for sending. The free plan covers 0 to 1,000 subscribed contacts and up to 4,000 sends in any rolling 30 days, with all features included and a small Powered by Loops footer. Paid plans remove the branding, raise throughput to 1,000 emails per second, and lift the send cap entirely, with no per-seat fees. Loops publishes no dollar figures on its pricing page; you move a slider to estimate cost, and unsubscribed contacts do not count toward the limit.
@@ -78,11 +78,11 @@ Email Marketing · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Loops &#8594;](https://loops.so)
+[Visit Loops →](https://loops.so)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Loops &#8594;](https://loops.so)
+[Visit Loops →](https://loops.so)
 
 ## MartechSignal Score: 30/60
 
@@ -92,7 +92,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Loops is an email platform built for SaaS companies, covering marketing campaigns, product announcements, and transactional email from one dashboard, and deliberately nothing else: there is no SMS, no push, and no in-app messaging. Founded in 2022 by Chris Frantz and Adam Kaczmarek, it went through Y Combinator&#x27;s W22 batch, and the site names Linear, Perplexity, Framer, Clerk, Reuters, Granola, and Sketch among its customers. Automation was rebuilt and renamed Workflows in May 2026, replacing the original loop builder: workflows trigger on contact property changes, new contacts, or external events, branch on contact properties, and pause on timers. Experiments, added in June 2025, handle split testing. Guardian, introduced in September 2025, runs pre-send checks that flag misplaced variables, missing button links, and missing fallbacks. Deliverability handling is documented rather than claimed: hard bounces and complaints are suppressed, temporary failures retried, and large sends rate-limited. One constraint surprises people: Loops does not accept custom HTML email. Content is built in the editor or in LMX, an XML-based markup, with a Components API that cascades edits into every email using the component; MJML, Emailify, and Email Love files can be imported. Developers get roughly 70 REST endpoints with an OpenAPI spec, official SDKs for JavaScript, Go, Nuxt, PHP, and Ruby, a CLI, webhooks, SMTP for transactional sending, and an MCP server so coding agents can read and write contacts, events, and content. LLM translation, added in January 2026, duplicates an email branch and translates it in one click. Pricing is contact-based: the free plan covers up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days with all features included; paid plans add unlimited sends, no Loops branding, and 1,000 emails per second, with no per-seat fees and no published list prices.
+Loops is an email platform built for SaaS companies, covering marketing campaigns, product announcements, and transactional email from one dashboard, and deliberately nothing else: there is no SMS, no push, and no in-app messaging. Founded in 2022 by Chris Frantz and Adam Kaczmarek, it went through Y Combinator's W22 batch, and the site names Linear, Perplexity, Framer, Clerk, Reuters, Granola, and Sketch among its customers. Automation was rebuilt and renamed Workflows in May 2026, replacing the original loop builder: workflows trigger on contact property changes, new contacts, or external events, branch on contact properties, and pause on timers. Experiments, added in June 2025, handle split testing. Guardian, introduced in September 2025, runs pre-send checks that flag misplaced variables, missing button links, and missing fallbacks. Deliverability handling is documented rather than claimed: hard bounces and complaints are suppressed, temporary failures retried, and large sends rate-limited. One constraint surprises people: Loops does not accept custom HTML email. Content is built in the editor or in LMX, an XML-based markup, with a Components API that cascades edits into every email using the component; MJML, Emailify, and Email Love files can be imported. Developers get roughly 70 REST endpoints with an OpenAPI spec, official SDKs for JavaScript, Go, Nuxt, PHP, and Ruby, a CLI, webhooks, SMTP for transactional sending, and an MCP server so coding agents can read and write contacts, events, and content. LLM translation, added in January 2026, duplicates an email branch and translates it in one click. Pricing is contact-based: the free plan covers up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days with all features included; paid plans add unlimited sends, no Loops branding, and 1,000 emails per second, with no per-seat fees and no published list prices.
 
 Loops homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -166,13 +166,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Loops: Email marketing for SaaS: marketing, product, and transactional email in one tool. Loops ships with LLM email translation. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Loops: Email marketing for SaaS: marketing, product, and transactional email in one tool. Loops ships with LLM email translation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Loops has a free tier, so you can run a real evaluation before paying. Free up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days; paid plans are contact-based with unlimited sends and no published list prices. We last checked the plan structure on 2026-09-07; paid tiers mainly raise limits rather than unlocking core features.
 
 A focused, developer-friendly email platform for SaaS: strong API and agent access, honest scope, email only, and paid pricing you calculate rather than read.
 
-No. Loops does not accept custom HTML emails; content is created in its editor or in LMX, the platform&#x27;s XML-based markup, and reused through a Components API so edits cascade into every email that uses the component. Imports are supported from MJML, Emailify, and Email Love. The docs include a page titled Why we don&#x27;t support HTML emails explaining the reasoning, so teams with strict design-control requirements should test the editor against their needs first.
+No. Loops does not accept custom HTML emails; content is created in its editor or in LMX, the platform's XML-based markup, and reused through a Components API so edits cascade into every email that uses the component. Imports are supported from MJML, Emailify, and Email Love. The docs include a page titled Why we don't support HTML emails explaining the reasoning, so teams with strict design-control requirements should test the editor against their needs first.
 
 It is contact-based, not send-based: Loops charges on subscribed contacts and does not charge separately for sending. The free plan covers 0 to 1,000 subscribed contacts and up to 4,000 sends in any rolling 30 days, with all features included and a small Powered by Loops footer. Paid plans remove the branding, raise throughput to 1,000 emails per second, and lift the send cap entirely, with no per-seat fees. Loops publishes no dollar figures on its pricing page; you move a slider to estimate cost, and unsubscribed contacts do not count toward the limit.
 

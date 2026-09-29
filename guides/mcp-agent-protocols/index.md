@@ -68,7 +68,7 @@ Four questions. Is the server code published or reviewable. Which tools write, a
 
 Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [Claude SEO](https://claude-seo.md/)
 
-&copy; 2026 MartechSignal &middot; by Tim Christensen
+© 2026 MartechSignal · by Tim Christensen
 
 
 ```json

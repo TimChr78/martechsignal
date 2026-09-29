@@ -13,18 +13,18 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis | &#10007; Closed source - no self-hosting option |
-| &#10003; Every plan, Starter included, ships the same six tools including the SEO MCP server. | &#10007; Starter is tight: 500 keywords, 5 websites and 1,500 AI answers per month. |
-| &#10003; Unlimited seats and unlimited tracked brands and URLs mean the bill follows keywords, not headcount. | &#10007; Looker Studio, white-label reports and API access only arrive at Professional (EUR 159/month). |
-| &#10003; Three years of SERP archives and on-demand checks sit alongside the daily updates. | &#10007; The trial converts to a paid subscription after 14 days unless canceled. |
+| ✓ AI capabilities: prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis | ✗ Closed source - no self-hosting option |
+| ✓ Every plan, Starter included, ships the same six tools including the SEO MCP server. | ✗ Starter is tight: 500 keywords, 5 websites and 1,500 AI answers per month. |
+| ✓ Unlimited seats and unlimited tracked brands and URLs mean the bill follows keywords, not headcount. | ✗ Looker Studio, white-label reports and API access only arrive at Professional (EUR 159/month). |
+| ✓ Three years of SERP archives and on-demand checks sit alongside the daily updates. | ✗ The trial converts to a paid subscription after 14 days unless canceled. |
 
 **What is Nightwatch?**
-Nightwatch: Rank tracking across Google and AI answers, priced by keyword with unlimited seats. Nightwatch ships with prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis. This page documents 4 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Nightwatch: Rank tracking across Google and AI answers, priced by keyword with unlimited seats. Nightwatch ships with prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis. This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Nightwatch cost?**
 Nightwatch starts at €79/mo. Starter EUR 79/mo (EUR 948 billed yearly), unlimited seats; Professional EUR 159/mo (EUR 1,908 yearly); Agency EUR 399/mo (EUR 4,788 yearly); Enterprise custom from 20,000 keywords. Yearly billing is two months free. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
-**Is Nightwatch a good Geo &amp; Llm Optimization tool in 2026?**
+**Is Nightwatch a good Geo & Llm Optimization tool in 2026?**
 A rank tracker with real AI-visibility coverage and pricing that does not punish team size. Starter caps will strain busy agencies, but the upgrade ladder is honest about what changes and what does not.
 
 **Does Nightwatch charge per user?**
@@ -37,12 +37,12 @@ ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews, on every plan. Ea
 The trial runs 14 days with the full toolkit and no credit card required. If it is not canceled within those 14 days, Nightwatch bills a regular monthly subscription and sends reminder emails before the trial ends.
 
 - **Pricing:** From $79/mo
-- **Category:** [GEO &amp; LLM Optimization](/categories/geo-llm-visibility/)
+- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - **HQ:** Slovenj Gradec, Slovenia
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Nightwatch is a tool in GEO &amp; LLM Optimization with paid plans starting at €79/mo. The catalog documents 1 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Nightwatch is a tool in GEO & LLM Optimization with paid plans starting at €79/mo. The catalog documents 1 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 AccuRanker
 
@@ -64,27 +64,27 @@ Profound
 
 Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
-[More GEO &amp; LLM Optimization Tools →](/categories/geo-llm-visibility/)
+[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [GEO &amp; LLM Optimization](/categories/geo-llm-visibility/)
+- [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Nightwatch
 ## Nightwatch review (2026): pricing, AI features, verdict
 
 Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 
-GEO &amp; LLM Optimization · From $79/mo Desk-reviewed
+GEO & LLM Optimization · From $79/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-[Visit Nightwatch &#8594;](https://nightwatch.io)
+[Visit Nightwatch →](https://nightwatch.io)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Nightwatch &#8594;](https://nightwatch.io)
+[Visit Nightwatch →](https://nightwatch.io)
 
 ## MartechSignal Score: 35/60
 
@@ -150,7 +150,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Nightwatch: Rank tracking across Google and AI answers, priced by keyword with unlimited seats. Nightwatch ships with prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis. This page documents 4 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Nightwatch: Rank tracking across Google and AI answers, priced by keyword with unlimited seats. Nightwatch ships with prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis. This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Nightwatch starts at €79/mo. Starter EUR 79/mo (EUR 948 billed yearly), unlimited seats; Professional EUR 159/mo (EUR 1,908 yearly); Agency EUR 399/mo (EUR 4,788 yearly); Enterprise custom from 20,000 keywords. Yearly billing is two months free. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 

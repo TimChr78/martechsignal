@@ -20,6 +20,8 @@
 - **Pick NocoDB if:** Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.
 - **Pick NocoBase if:** Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.
 
+[Marketing Automation](/categories/marketing-automation/)[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
+
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## NocoDB vs NocoBase (2026): spreadsheet layer or system builder
@@ -58,7 +60,7 @@ Cost picture for a 10-person ops team. All figures checked 2026-09-27 on vendor 
 
 **NocoDB:** A documented one-command compose stack (NocoDB, a background worker, Postgres, Redis) serves on port 8080, or the Docker image attaches to an existing Postgres through NC_DB. Minimum spec is 2 vCPU and 2 GB RAM. Read the license before features: the Sustainable Use License is fair-code, not OSI open source. Internal business use is free; offering it to others as a hosted service needs a commercial license.
 
-**NocoBase:** Self-hosted and plugin-based, with REST API and webhooks as the documented integration surface and a plugin architecture extending the platform. The licensing story is open-core: an Apache 2.0 kernel wrapped in the project&#x27;s own agreement, with the community edition keeping NocoBase branding intact. Commercial editions add enterprise features and support.
+**NocoBase:** Self-hosted and plugin-based, with REST API and webhooks as the documented integration surface and a plugin architecture extending the platform. The licensing story is open-core: an Apache 2.0 kernel wrapped in the project's own agreement, with the community edition keeping NocoBase branding intact. Commercial editions add enterprise features and support.
 
 ## AI features
 
@@ -99,6 +101,10 @@ Neither fits a regulated enterprise data warehouse: both are operational databas
 ## Who should pick which
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
+
+## Browse the hubs behind this comparison
+
+**Guide:** [automation strategy](/guides/workflow-automation-strategy/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Get the next teardown
 

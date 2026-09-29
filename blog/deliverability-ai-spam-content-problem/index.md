@@ -4,7 +4,7 @@
 |  | 2024 playbook | 2026 reality |
 | --- | --- | --- |
 | **Authentication** (SPF/DKIM/DMARC) | The hard requirement | The entry fee; everyone passes it |
-| **Spam complaint rate** | A metric to watch | The binding constraint (&lt;0.1% target, 0.3% hard ceiling) |
+| **Spam complaint rate** | A metric to watch | The binding constraint (<0.1% target, 0.3% hard ceiling) |
 | **Sending volume** | More sends, more reach | Volume without engagement gets throttled or filtered |
 | **Copy** | Generic templates, once per list | Has to earn a click past an AI summary and a "report spam" button |
 | **Engagement** | Open rates | Clicks and genuine read behavior, since opens are inflated by AI auto-open |
@@ -95,7 +95,7 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 ## Comparison guides
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
-- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [Deliverability](/glossary/deliverability/)

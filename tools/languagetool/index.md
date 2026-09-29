@@ -13,16 +13,16 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; LGPL-2.1 licence with free self-hosting | &#10007; The AI style and tone suggestions sit behind Premium, so the free tier is the rule-based checker plus basic add-ons |
-| &#10003; AI capabilities: AI style and tone suggestions | &#10007; Suggestion depth varies by language, with English getting the most attention |
-| &#10003; Active public repository (15,089 GitHub stars counted at last check) | &#10007; Pricing is served in localized currency, so published figures differ by market and are hard to compare |
-| &#10003; Native integrations include Google Chrome, Mozilla Firefox, Microsoft Edge (6 listed) |  |
-| &#10003; The self-hosted server is free and keeps checked text on your own infrastructure |  |
-| &#10003; Client coverage is broad: browsers, mail clients, and office suites without a separate connector |  |
-| &#10003; LGPL-2.1 licensing allows use inside commercial products with modest obligations |  |
+| ✓ LGPL-2.1 licence with free self-hosting | ✗ The AI style and tone suggestions sit behind Premium, so the free tier is the rule-based checker plus basic add-ons |
+| ✓ AI capabilities: AI style and tone suggestions | ✗ Suggestion depth varies by language, with English getting the most attention |
+| ✓ Active public repository (15,089 GitHub stars counted at last check) | ✗ Pricing is served in localized currency, so published figures differ by market and are hard to compare |
+| ✓ Native integrations include Google Chrome, Mozilla Firefox, Microsoft Edge (6 listed) |  |
+| ✓ The self-hosted server is free and keeps checked text on your own infrastructure |  |
+| ✓ Client coverage is broad: browsers, mail clients, and office suites without a separate connector |  |
+| ✓ LGPL-2.1 licensing allows use inside commercial products with modest obligations |  |
 
 **What is LanguageTool?**
-LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,089 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,089 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does LanguageTool cost?**
 LanguageTool is open source - LGPL-2.1 licensed and free to self-host; the public repository carries 15,089 stars; native integrations cover Google Chrome, Mozilla Firefox, Microsoft Edge. You pay in server time and maintenance, not licences.
@@ -43,13 +43,13 @@ More than 30, including English, German, French, Spanish, Portuguese, Dutch, Pol
 No. It catches grammar, punctuation, and spelling problems and offers style and tone suggestions, but it does not judge argument, structure, or brand fit. Treat it as a fast second pass before a human review.
 
 - **Pricing:** Freemium
-- **Category:** [AI Content &amp; Copywriting](/categories/content-ai/)
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
 - **GitHub:** ★ 15089
 - **HQ:** Hamburg, Germany
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** LanguageTool is a tool in AI Content &amp; Copywriting with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** LanguageTool is a tool in AI Content & Copywriting with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Ghost
 
@@ -71,27 +71,27 @@ Copy.ai
 
 AI-powered GTM platform for sales and marketing content automation at scale
 
-[More AI Content &amp; Copywriting Tools →](/categories/content-ai/)
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [AI Content &amp; Copywriting](/categories/content-ai/)
+- [AI Content & Copywriting](/categories/content-ai/)
 - LanguageTool
 ## LanguageTool review (2026): pricing, AI features, verdict
 
 Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
 
-AI Content &amp; Copywriting · Freemium · OPEN SOURCE Desk-reviewed
+AI Content & Copywriting · Freemium · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-[Visit LanguageTool &#8594;](https://languagetool.org)
+[Visit LanguageTool →](https://languagetool.org)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit LanguageTool &#8594;](https://languagetool.org)
+[Visit LanguageTool →](https://languagetool.org)
 
 ## MartechSignal Score: 37/60
 
@@ -101,7 +101,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-LanguageTool is an open-source writing assistant and grammar checker, licensed LGPL-2.1, with 15,089 GitHub stars GitHub stars and a rule-based engine that covers more than 30 languages. It checks grammar, punctuation, and spelling, and its AI layer adds style and tone suggestions alongside a paraphrasing tool. The server is a Java application you run yourself, and the clients cover browser add-ons for Chrome, Firefox, Edge, and Opera, mail add-ons for Gmail, Outlook, and Apple Mail, and extensions for office suites. Self-hosting and the browser add-ons are free. Premium features on languagetool.org, which include the AI style suggestions, unlimited paraphrasing, and extra error detection, started at SEK 49.96 per month as served in Sweden in September 2026. The vendor localizes currency, and higher tiers appeared at SEK 58.25 and SEK 149.67. The project is maintained by LanguageTooler GmbH in Hamburg, part of Learneo since 2023, so there is a company behind the community codebase. That matters for privacy discussions: the self-hosted server keeps text on your own infrastructure, while the hosted checker sends text to LanguageTool&#x27;s servers. For marketing teams the practical use is quality control on multilingual copy. Writers get a second pass before publication, and style rules push contributors toward a shared tone across English, German, French, Spanish, and dozens of other languages. It checks text; it does not manage content or translate it, and the depth of the style suggestions varies by language. Teams that publish in several languages and want consistent grammar and style checking with the option to keep text in-house will find it fits.
+LanguageTool is an open-source writing assistant and grammar checker, licensed LGPL-2.1, with 15,089 GitHub stars GitHub stars and a rule-based engine that covers more than 30 languages. It checks grammar, punctuation, and spelling, and its AI layer adds style and tone suggestions alongside a paraphrasing tool. The server is a Java application you run yourself, and the clients cover browser add-ons for Chrome, Firefox, Edge, and Opera, mail add-ons for Gmail, Outlook, and Apple Mail, and extensions for office suites. Self-hosting and the browser add-ons are free. Premium features on languagetool.org, which include the AI style suggestions, unlimited paraphrasing, and extra error detection, started at SEK 49.96 per month as served in Sweden in September 2026. The vendor localizes currency, and higher tiers appeared at SEK 58.25 and SEK 149.67. The project is maintained by LanguageTooler GmbH in Hamburg, part of Learneo since 2023, so there is a company behind the community codebase. That matters for privacy discussions: the self-hosted server keeps text on your own infrastructure, while the hosted checker sends text to LanguageTool's servers. For marketing teams the practical use is quality control on multilingual copy. Writers get a second pass before publication, and style rules push contributors toward a shared tone across English, German, French, Spanish, and dozens of other languages. It checks text; it does not manage content or translate it, and the depth of the style suggestions varies by language. Teams that publish in several languages and want consistent grammar and style checking with the option to keep text in-house will find it fits.
 
 ## AI Capabilities
 
@@ -130,7 +130,7 @@ Marketing and content teams publishing in multiple languages that want consisten
 
 ## Not for
 
-Teams that need translation, content management, or an editorial workflow with assignments and approvals. LanguageTool checks text; the rest of the pipeline is someone else&#x27;s job.
+Teams that need translation, content management, or an editorial workflow with assignments and approvals. LanguageTool checks text; the rest of the pipeline is someone else's job.
 
 ## Review notes
 
@@ -158,7 +158,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,089 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,089 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 LanguageTool is open source - LGPL-2.1 licensed and free to self-host; the public repository carries 15,089 stars; native integrations cover Google Chrome, Mozilla Firefox, Microsoft Edge. You pay in server time and maintenance, not licences.
 

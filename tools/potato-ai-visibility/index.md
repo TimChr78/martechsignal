@@ -6,34 +6,34 @@
 | Pricing transparency | 9/10 | Free under MIT, 100% local with a $0 mock mode; real runs use your own Anthropic key, stated plainly (the vendor pricing page: [pricing page](https://github.com/onism1767-creator/potato), verified 2026-08-31). |
 | Feature depth | 4/10 | Mention coverage, citation validity and owned-versus-earned citation splits cover one measurement loop (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
 | Integrations | 3/10 | Anthropic Claude and a CLI with a local GUI wizard documented (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
-| AI capability | 5/10 | Measuring Claude&#x27;s web-search answers with citation validity checks is applied AI measurement (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
+| AI capability | 5/10 | Measuring Claude's web-search answers with citation validity checks is applied AI measurement (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
 | Openness | 9/10 | MIT-licensed with 168 GitHub stars and fully local execution (the source repository: [repository](onism1767-creator/potato), verified 2026-09-28). |
 | Operational maturity | 2/10 | Founded 2026 at 168 stars as a focused local tool (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
 
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; Young project (168 GitHub stars) - smaller community and plugin ecosystem |
-| &#10003; AI capabilities: measures brand mention coverage in Claude web-search answers |  |
-| &#10003; Native integrations include Anthropic Claude, CLI, Local GUI wizard (3 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ Young project (168 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: measures brand mention coverage in Claude web-search answers |  |
+| ✓ Native integrations include Anthropic Claude, CLI, Local GUI wizard (3 listed) |  |
 
 **What is Potato?**
-Potato: Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers. Potato ships with measures brand mention coverage in Claude web-search answers. The public repository carries 168 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Potato: Free local tool that measures brand mentions and citations in Claude's web-search answers. Potato ships with measures brand mention coverage in Claude web-search answers. The public repository carries 168 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Potato cost?**
 Potato is open source - MIT licensed and free to self-host; the public repository carries 168 stars; native integrations cover Anthropic Claude, CLI, Local GUI wizard. You pay in server time and maintenance, not licences.
 
-**Is Potato a good self-hosted SEO &amp; Search tool in 2026?**
+**Is Potato a good self-hosted SEO & Search tool in 2026?**
 The most methodologically honest AI-visibility tool in this directory: scoped claims, deterministic scoring, cost-capped runs, and a reproducible method. Use it to track your Claude-answer presence over time; do not mistake it for a full AI-search measurement.
 
 - **Pricing:** Open Source
-- **Category:** [SEO &amp; Search](/categories/seo/)
+- **Category:** [SEO & Search](/categories/seo/)
 - **GitHub:** ★ 168
 - **Founded:** 2026
 - **API:** Yes
 - **Last verified:** 2026-08-31
 
-**Verdict:** Potato is a tool in SEO &amp; Search with free and open source. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Potato is a tool in SEO & Search with free and open source. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
 
 OtterlyAI
 
@@ -51,13 +51,13 @@ Nimt.ai
 
 AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 
-[More SEO &amp; Search Tools →](/categories/seo/)
+[More SEO & Search Tools →](/categories/seo/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [SEO &amp; Search](/categories/seo/)
+- [SEO & Search](/categories/seo/)
 - Potato
 Re-check pending: pricing last verified 2026-08-31 (29 days ago).
 
@@ -65,27 +65,27 @@ KIND: Utility (not an end-to-end platform)
 
 ## Potato review (2026): pricing, AI features, verdict
 
-Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers
+Free local tool that measures brand mentions and citations in Claude's web-search answers
 
-SEO &amp; Search · Open Source Desk-reviewed
+SEO & Search · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
 
-[Visit Potato &#8594;](https://github.com/onism1767-creator/potato)
+[Visit Potato →](https://github.com/onism1767-creator/potato)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Potato &#8594;](https://github.com/onism1767-creator/potato)
+[Visit Potato →](https://github.com/onism1767-creator/potato)
 
 ## MartechSignal Score: 32/60
 
-Potato measures one thing locally: whether Claude&#x27;s web-search answers mention and cite your brand, with link-rot checking. MIT and 168 stars; the $0 mock mode makes it testable before you spend a cent.
+Potato measures one thing locally: whether Claude's web-search answers mention and cite your brand, with link-rot checking. MIT and 168 stars; the $0 mock mode makes it testable before you spend a cent.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
-Potato measures how visible your brand is inside Claude&#x27;s web-search answers, which is a specific corner of the AI search optimization (GEO) problem. It asks Claude a fixed set of frozen questions, collects every brand mention and source citation in the answers, and scores them with deterministic rules. No AI judge, no guesswork. Every number in the report carries a confidence interval, and the whole thing runs locally so results are reproducible and auditable. The output is a single-file offline HTML report covering mention coverage, citation validity, and the split between citations from your own domain versus third-party pages. The report is honest about its limits: it measures one engine, Claude, under one exact configuration, and it says so in the output. It is a proxy measurement, not a ranking truth detector. A free mock preview mode runs with no API key so you can see the report shape before spending anything. Setup is the friendliest of any tool in this batch. Windows users download a portable zip and double-click a batch file. Developers can pip install the package and run the CLI or the local GUI wizard. Real runs against Claude need your own Anthropic API key, which is also the only cost. The closest directory entry is Claude SEO, which audits your whole site for citability. Potato is narrower and complementary: it measures what Claude actually says about you today, repeatedly, so you can track whether fixes move the numbers. It fits brands that care specifically about Claude citations, analysts who want reproducible measurement, and teams that refuse to send brand data to a third-party monitoring SaaS. If you need cross-engine coverage of ChatGPT, Gemini, and Perplexity too, the commercial AI visibility platforms in this category are the broader option.
+Potato measures how visible your brand is inside Claude's web-search answers, which is a specific corner of the AI search optimization (GEO) problem. It asks Claude a fixed set of frozen questions, collects every brand mention and source citation in the answers, and scores them with deterministic rules. No AI judge, no guesswork. Every number in the report carries a confidence interval, and the whole thing runs locally so results are reproducible and auditable. The output is a single-file offline HTML report covering mention coverage, citation validity, and the split between citations from your own domain versus third-party pages. The report is honest about its limits: it measures one engine, Claude, under one exact configuration, and it says so in the output. It is a proxy measurement, not a ranking truth detector. A free mock preview mode runs with no API key so you can see the report shape before spending anything. Setup is the friendliest of any tool in this batch. Windows users download a portable zip and double-click a batch file. Developers can pip install the package and run the CLI or the local GUI wizard. Real runs against Claude need your own Anthropic API key, which is also the only cost. The closest directory entry is Claude SEO, which audits your whole site for citability. Potato is narrower and complementary: it measures what Claude actually says about you today, repeatedly, so you can track whether fixes move the numbers. It fits brands that care specifically about Claude citations, analysts who want reproducible measurement, and teams that refuse to send brand data to a third-party monitoring SaaS. If you need cross-engine coverage of ChatGPT, Gemini, and Perplexity too, the commercial AI visibility platforms in this category are the broader option.
 
 Potato homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -111,9 +111,9 @@ Free, MIT-licensed. Runs 100% locally. $0 mock preview mode; real Claude runs us
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-The README&#x27;s own framing is refreshingly honest: not a crawler, not an AI-ranking truth detector, a reproducible proxy measurement of how visible your brand is inside Claude&#x27;s web-search answers, with a fixed set of frozen questions, deterministic scoring rules, no AI judge, and confidence intervals on every number. Distribution is unusually accessible: a Windows zip with no Python needed, plus a standard Python install for everyone else. 254 passing tests are claimed in the repo. Everything here comes from the repository documentation.
+The README's own framing is refreshingly honest: not a crawler, not an AI-ranking truth detector, a reproducible proxy measurement of how visible your brand is inside Claude's web-search answers, with a fixed set of frozen questions, deterministic scoring rules, no AI judge, and confidence intervals on every number. Distribution is unusually accessible: a Windows zip with no Python needed, plus a standard Python install for everyone else. 254 passing tests are claimed in the repo. Everything here comes from the repository documentation.
 
-The cost model is clean: the tool is MIT with zero author fees, a free mock preview needs no API key, and real runs use your own Anthropic key, hard-capped to a budget you set, typically around $5 or less on the Haiku tier, with the estimate shown before it starts. Security posture is documented concretely: runs on 127.0.0.1, the key stays in memory, zero telemetry. The limitation is scope: it measures Claude answers only, under a fixed question set, so treat results as one engine&#x27;s proxy signal rather than an industry-wide AI-visibility metric.
+The cost model is clean: the tool is MIT with zero author fees, a free mock preview needs no API key, and real runs use your own Anthropic key, hard-capped to a budget you set, typically around $5 or less on the Haiku tier, with the estimate shown before it starts. Security posture is documented concretely: runs on 127.0.0.1, the key stays in memory, zero telemetry. The limitation is scope: it measures Claude answers only, under a fixed question set, so treat results as one engine's proxy signal rather than an industry-wide AI-visibility metric.
 
 ## Verdict
 
@@ -135,7 +135,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Potato: Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers. Potato ships with measures brand mention coverage in Claude web-search answers. The public repository carries 168 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Potato: Free local tool that measures brand mentions and citations in Claude's web-search answers. Potato ships with measures brand mention coverage in Claude web-search answers. The public repository carries 168 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Potato is open source - MIT licensed and free to self-host; the public repository carries 168 stars; native integrations cover Anthropic Claude, CLI, Local GUI wizard. You pay in server time and maintenance, not licences.
 

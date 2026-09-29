@@ -13,15 +13,15 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: loomi AI search | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Shopify, Salesforce, Adobe (8 listed) | &#10007; Enterprise pricing is quote-based - no public numbers |
-| &#10003; API access for custom integrations |  |
+| ✓ AI capabilities: loomi AI search | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, Salesforce, Adobe (8 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+| ✓ API access for custom integrations |  |
 
 **What is Bloomreach?**
-Bloomreach: AI-powered commerce experience platform with search, personalization, and CDP. Bloomreach ships with loomi AI search. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Bloomreach: AI-powered commerce experience platform with search, personalization, and CDP. Bloomreach ships with loomi AI search. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Bloomreach cost?**
-Bloomreach uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
+Bloomreach uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
 
 **Is Bloomreach a good Marketing Automation tool in 2026?**
 The right platform for large retailers consolidating search, CDP, and messaging. Mid-market stores will find it heavy.
@@ -69,11 +69,11 @@ Marketing Automation · Enterprise Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit Bloomreach &#8594;](https://www.bloomreach.com)
+[Visit Bloomreach →](https://www.bloomreach.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Bloomreach &#8594;](https://www.bloomreach.com)
+[Visit Bloomreach →](https://www.bloomreach.com)
 
 ## MartechSignal Score: 37/60
 
@@ -83,7 +83,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Bloomreach is an AI-first digital experience platform built for ecommerce and retail companies that need personalization at scale. Founded in 2009 and headquartered in Mountain View, California, it operates across 13+ channels including email, SMS, web, mobile app, and paid advertising. What sets Bloomreach apart is its native unification of three capabilities that most competitors sell separately: marketing automation for campaign orchestration, ecommerce search and product discovery, and a customer data engine that stitches behavioral, transactional, and demographic data into unified profiles. The platform&#x27;s AI engine, Loomi, operates as an autonomous agent layer that handles content optimization, product recommendations, send-time prediction, and audience segmentation without marketer input. In late 2024, Bloomreach announced the next generation of its platform with autonomous Loomi agents that reduce omnichannel campaign creation from multi-week processes to minutes. This is the key difference: while Salesforce and Adobe bolt AI onto existing campaign tools, Bloomreach rebuilt around AI as the core operating model. The platform is used by brands like Bosch, Puma, and Marks &amp; Spencer. Pricing is enterprise and custom-quoted, making it inaccessible for SMBs. Competitors include Salesforce Marketing Cloud, Adobe Experience Cloud, and Braze, though Bloomreach competes most directly in the retail/ecommerce vertical where its product discovery and search features give it an advantage over general-purpose MAPs.
+Bloomreach is an AI-first digital experience platform built for ecommerce and retail companies that need personalization at scale. Founded in 2009 and headquartered in Mountain View, California, it operates across 13+ channels including email, SMS, web, mobile app, and paid advertising. What sets Bloomreach apart is its native unification of three capabilities that most competitors sell separately: marketing automation for campaign orchestration, ecommerce search and product discovery, and a customer data engine that stitches behavioral, transactional, and demographic data into unified profiles. The platform's AI engine, Loomi, operates as an autonomous agent layer that handles content optimization, product recommendations, send-time prediction, and audience segmentation without marketer input. In late 2024, Bloomreach announced the next generation of its platform with autonomous Loomi agents that reduce omnichannel campaign creation from multi-week processes to minutes. This is the key difference: while Salesforce and Adobe bolt AI onto existing campaign tools, Bloomreach rebuilt around AI as the core operating model. The platform is used by brands like Bosch, Puma, and Marks & Spencer. Pricing is enterprise and custom-quoted, making it inaccessible for SMBs. Competitors include Salesforce Marketing Cloud, Adobe Experience Cloud, and Braze, though Bloomreach competes most directly in the retail/ecommerce vertical where its product discovery and search features give it an advantage over general-purpose MAPs.
 
 Bloomreach homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -140,9 +140,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Bloomreach: AI-powered commerce experience platform with search, personalization, and CDP. Bloomreach ships with loomi AI search. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Bloomreach: AI-powered commerce experience platform with search, personalization, and CDP. Bloomreach ships with loomi AI search. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
-Bloomreach uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
+Bloomreach uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
 
 The right platform for large retailers consolidating search, CDP, and messaging. Mid-market stores will find it heavy.
 
@@ -155,7 +155,7 @@ The right platform for large retailers consolidating search, CDP, and messaging.
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ## Also featured in
 
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) &mdash; Commerce brands that want content, search and campaigns in one engine
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Commerce brands that want content, search and campaigns in one engine
 ### Quick Facts
 
 Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)

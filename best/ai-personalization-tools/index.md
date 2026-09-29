@@ -1,4 +1,4 @@
-# Best AI Personalization &amp; CDP tools (2026): 8 compared
+# Best AI Personalization & CDP tools (2026): 8 compared
 
 
 | Tool | Pricing | Open source | Verdict |
@@ -9,12 +9,14 @@
 | [Clerk.io](/tools/clerk-io/) | From $119/mo | No | Mid-size stores that want search and recs without enterprise procurement |
 | [Tealium](/tools/tealium/) | Enterprise | No | Regulated enterprises that need governance around every customer event |
 | [Flagsmith](/tools/flagsmith/) | Freemium | Yes (BSD-3-Clause) | Teams that want their experiment engine as open as their stack |
-| [GrowthBook](/tools/growthbook/) | Freemium | Yes (MIT) | Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Jitsu](/tools/jitsu/) | Freemium | Yes (MIT) | Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [GrowthBook](/tools/growthbook/) | Freemium | Yes (MIT) | Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Jitsu](/tools/jitsu/) | Freemium | Yes (MIT) | Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+
+[Open-Source Tools](/categories/open-source/)[Personalization & CDP](/categories/personalization/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
-## Best AI Personalization &amp; CDP tools (2026): 8 compared
+## Best AI Personalization & CDP tools (2026): 8 compared
 
 Dynamic Yield fits large commerce operations buying personalization depth. Segment makes sense when the real problem is data plumbing. Nosto gives merchants recommendations their merchandisers can steer. Clerk.io brings search and recommendations to mid-size stores without enterprise procurement. Start from your data stack, not the demo.
 
@@ -29,6 +31,8 @@ Everything here is desk-researched from vendor documentation and our own catalog
 Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
 
 What we could not verify is called out under each tool below.
+
+## Browse the hubs behind these picks
 
 ## [Dynamic Yield](/tools/dynamic-yield/)
 
@@ -50,13 +54,13 @@ Twilio Segment is a developer-first customer data platform: SDKs and server libr
 
 Vendor: [Official site](https://segment.com) · [Pricing](https://www.twilio.com/en-us/pricing/customer-data)
 
-**Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
+**Skip it if the free tier's limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Nosto](/tools/nosto/)
 
-Nosto is a commerce experience platform for online stores, built around a shared AI layer the company brands experience.AI: one engine that collects shopper behavior and feeds every module, so what a shopper clicks in search informs the recommendations and category sort orders they see next. Pricing is enterprise and quoted per contract, and quote-based: a base platform fee plus a fixed fee calculated on your store&#x27;s volume (GMV turnover and traffic), scaled by modules and support level. No published numbers anywhere on the site (verified 2026-09-07). The catalog documents 5 AI features, 11 integrations, and a public API.
+Nosto is a commerce experience platform for online stores, built around a shared AI layer the company brands experience.AI: one engine that collects shopper behavior and feeds every module, so what a shopper clicks in search informs the recommendations and category sort orders they see next. Pricing is enterprise and quoted per contract, and quote-based: a base platform fee plus a fixed fee calculated on your store's volume (GMV turnover and traffic), scaled by modules and support level. No published numbers anywhere on the site (verified 2026-09-07). The catalog documents 5 AI features, 11 integrations, and a public API.
 
 **Verdict:** Merchants that want recommendations their merchandisers can steer
 
@@ -106,7 +110,7 @@ Vendor: [Official site](https://www.flagsmith.com) · [Pricing](https://www.flag
 
 GrowthBook is an open-source feature flag and A/B testing platform with 8,430 GitHub stars, built warehouse-native: experiments are analyzed in your own data warehouse instead of a vendor copy of your events. It starts free, and starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.
 
-**Verdict:** Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+**Verdict:** Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
 Vendor: [Official site](https://www.growthbook.io) · [Pricing](https://www.growthbook.io/pricing) · [GitHub](https://github.com/growthbook/growthbook)
 
@@ -118,7 +122,7 @@ Vendor: [Official site](https://www.growthbook.io) · [Pricing](https://www.grow
 
 Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,091 stars on GitHub. It starts free, and free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits (verified 2026-09-25). The catalog documents 1 AI features, 6 integrations, a public API, and a self-hosting path.
 
-**Verdict:** Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+**Verdict:** Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
 Vendor: [Official site](https://jitsu.com) · [Pricing](https://jitsu.com/pricing) · [GitHub](https://github.com/jitsucom/jitsu)
 

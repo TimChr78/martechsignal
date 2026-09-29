@@ -30,7 +30,7 @@ Workflow automation connects your software tools so that actions in one system t
 
 ## Why it matters
 
-The category split into two camps: no-code platforms (Zapier, Make) that anyone can use, and developer-oriented tools (n8n, Pipedream) that offer more control at the cost of setup time. The no-code tools are great for simple, linear workflows. They get expensive and fragile when you need branching logic, error handling, or high volume. The developer tools have a steeper on-ramp but don&#x27;t charge per task, which changes the math at scale.
+The category split into two camps: no-code platforms (Zapier, Make) that anyone can use, and developer-oriented tools (n8n, Pipedream) that offer more control at the cost of setup time. The no-code tools are great for simple, linear workflows. They get expensive and fragile when you need branching logic, error handling, or high volume. The developer tools have a steeper on-ramp but don't charge per task, which changes the math at scale.
 
 ## How it works
 
@@ -46,7 +46,7 @@ Choose by who operates it. Visual platforms like Make and Zapier fit marketing t
 
 ## The numbers
 
-Cost comparison at real scale: a 10-step workflow running 500 times daily costs roughly $30-90 per month on Zapier&#x27;s task pricing, near zero self-hosting n8n on existing infrastructure, and $9-60 on Make depending on operation counts. The hidden variable is failure handling - retries, error branches, and dead-task cleanup are where each platform&#x27;s free tier quietly stops being usable.
+Cost comparison at real scale: a 10-step workflow running 500 times daily costs roughly $30-90 per month on Zapier's task pricing, near zero self-hosting n8n on existing infrastructure, and $9-60 on Make depending on operation counts. The hidden variable is failure handling - retries, error branches, and dead-task cleanup are where each platform's free tier quietly stops being usable.
 
 ## Common mistakes
 
@@ -54,7 +54,7 @@ The classic failure is over-automating before the underlying data is clean, so t
 
 ## What changed with AI
 
-AI agents turned automation from deterministic rules into goal-based prompts. Instead of wiring each step, you state an outcome and the agent picks the tools and the order. The trade-off is observability: a rule chain can be audited line by line, an agent&#x27;s decisions often cannot. Teams that keep approval gates on external messages and spend get the advantage without losing the audit trail. n8n and Make both ship AI nodes to bridge both worlds.
+AI agents turned automation from deterministic rules into goal-based prompts. Instead of wiring each step, you state an outcome and the agent picks the tools and the order. The trade-off is observability: a rule chain can be audited line by line, an agent's decisions often cannot. Teams that keep approval gates on external messages and spend get the advantage without losing the audit trail. n8n and Make both ship AI nodes to bridge both worlds.
 
 ## Tools in this space
 

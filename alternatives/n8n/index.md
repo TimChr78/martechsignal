@@ -24,7 +24,7 @@ n8n earns its users on control: fair-code licensing, self-hosting, code steps in
 
 The pricing shape explains a second wave of searches. Self-hosting is free under the sustainable use license, Cloud Starter runs about twenty euros a month, and heavier use moves to a per-execution meter. Teams that hit the ceiling usually did it with polling loops or chatty sub-workflows, where a task-metered or operations-metered rival bills the same workload differently, sometimes for less.
 
-Before you move, draw the workflow inventory first: triggers, the apps touched, whether code steps matter, and who debugs when a run fails at 2am. Then match the meter, because executions, tasks, operations, and events are not the same bill. As everywhere on this site, the figures come from vendors&#x27; published material with verification dates on each review page, and we hold no account with any of these services.
+Before you move, draw the workflow inventory first: triggers, the apps touched, whether code steps matter, and who debugs when a run fails at 2am. Then match the meter, because executions, tasks, operations, and events are not the same bill. As everywhere on this site, the figures come from vendors' published material with verification dates on each review page, and we hold no account with any of these services.
 
 The table below compares all twelve on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at.
 

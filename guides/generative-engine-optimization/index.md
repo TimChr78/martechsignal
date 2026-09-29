@@ -76,7 +76,7 @@ One caveat worth stating plainly: everything here is observation, not doctrine. 
 
 Sources: [Profound](https://www.tryprofound.com/) · [Profound pricing](https://www.tryprofound.com/pricing) · [OtterlyAI](https://otterly.ai/) · [Google Analytics support](https://support.google.com/analytics)
 
-&copy; 2026 MartechSignal &middot; by Tim Christensen
+© 2026 MartechSignal · by Tim Christensen
 
 
 ```json

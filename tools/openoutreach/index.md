@@ -13,13 +13,13 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; GPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; AI capabilities: LLM keyword generation from your product description |  |
-| &#10003; Active public repository (2,952 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include BetterContact (Lead Finder), OpenAI, Anthropic (9 listed) |  |
+| ✓ GPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: LLM keyword generation from your product description |  |
+| ✓ Active public repository (2,952 GitHub stars counted at last check) |  |
+| ✓ Native integrations include BetterContact (Lead Finder), OpenAI, Anthropic (9 listed) |  |
 
 **What is OpenOutreach?**
-OpenOutreach: Open-source AI lead finder: describe your product and it finds and qualifies the leads. OpenOutreach ships with LLM keyword generation from your product description. The public repository carries 2,952 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+OpenOutreach: Open-source AI lead finder: describe your product and it finds and qualifies the leads. OpenOutreach ships with LLM keyword generation from your product description. The public repository carries 2,952 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does OpenOutreach cost?**
 OpenOutreach is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,952 stars; native integrations cover BetterContact (Lead Finder), OpenAI, Anthropic. You pay in server time and maintenance, not licences.
@@ -85,11 +85,11 @@ Email Marketing · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit OpenOutreach &#8594;](https://openoutreach.app)
+[Visit OpenOutreach →](https://openoutreach.app)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit OpenOutreach &#8594;](https://openoutreach.app)
+[Visit OpenOutreach →](https://openoutreach.app)
 
 ## MartechSignal Score: 39/60
 
@@ -99,7 +99,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts the usual cold-email workflow: you do not bring a list. You describe your product and your target market, and the agent finds the people who fit, writes a reason for each one, and emails them from your own mailbox. It is a self-hosted Python CLI installed with two commands, uv tool install openoutreach and then openoutreach, organized as three packages on one Django registry and database: OpenOutFind for discovery, qualification, and CRM, OpenOutSend for the outreach agent, mailbox, and send guards, and OpenOutreach as the wizard that ties them together. Lead discovery runs on BetterContact&#x27;s Lead Finder, a licensed data provider, with a confidence gate that rations the paid email lookups, which cost one credit per verified work email; a free account comes with 40 credits and no card required. The AI work is split into named steps: an LLM turns your product description into search keywords, another pass qualifies candidates against your ICP and writes the plain-language reason (there is deliberately no score column), and the agent writes each opener while send guards handle the sending window, daily cap, and pacing. A Gaussian Process over profile embeddings that learns from your verdicts is documented as an active experiment that has not been shown to beat random ordering. LLM access is verified at the prompt and accepts OpenAI, Anthropic, or any OpenAI-compatible endpoint; any SMTP or IMAP mailbox with an app password works, and Google Workspace works out of the box. A Claude Code plugin is included, and the same logic ships as a skill for Codex or Cursor. CSV export is shaped for Instantly and Smartlead importers with no column mapping. GPLv3, around 2,900 GitHub stars, funded by affiliate links rather than subscriptions.
+OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts the usual cold-email workflow: you do not bring a list. You describe your product and your target market, and the agent finds the people who fit, writes a reason for each one, and emails them from your own mailbox. It is a self-hosted Python CLI installed with two commands, uv tool install openoutreach and then openoutreach, organized as three packages on one Django registry and database: OpenOutFind for discovery, qualification, and CRM, OpenOutSend for the outreach agent, mailbox, and send guards, and OpenOutreach as the wizard that ties them together. Lead discovery runs on BetterContact's Lead Finder, a licensed data provider, with a confidence gate that rations the paid email lookups, which cost one credit per verified work email; a free account comes with 40 credits and no card required. The AI work is split into named steps: an LLM turns your product description into search keywords, another pass qualifies candidates against your ICP and writes the plain-language reason (there is deliberately no score column), and the agent writes each opener while send guards handle the sending window, daily cap, and pacing. A Gaussian Process over profile embeddings that learns from your verdicts is documented as an active experiment that has not been shown to beat random ordering. LLM access is verified at the prompt and accepts OpenAI, Anthropic, or any OpenAI-compatible endpoint; any SMTP or IMAP mailbox with an app password works, and Google Workspace works out of the box. A Claude Code plugin is included, and the same logic ships as a skill for Codex or Cursor. CSV export is shaped for Instantly and Smartlead importers with no column mapping. GPLv3, around 2,900 GitHub stars, funded by affiliate links rather than subscriptions.
 
 OpenOutreach homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -146,9 +146,9 @@ Teams that already hold lead lists and only need sequencing, anyone who wants a 
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-OpenOutreach&#x27;s differentiator is the verdict, not the volume: every lead comes back with a written reason in plain language, and the README states there is no score column by design. That is a real advantage if you want to audit why someone was contacted, and a real cost if you want to sort thousands of rows by fit. Researched from the repository and its docs. Not a hands-on review.
+OpenOutreach's differentiator is the verdict, not the volume: every lead comes back with a written reason in plain language, and the README states there is no score column by design. That is a real advantage if you want to audit why someone was contacted, and a real cost if you want to sort thousands of rows by fit. Researched from the repository and its docs. Not a hands-on review.
 
-The cost structure is unusual and worth understanding before you start. The tool is free, but discovery runs on BetterContact&#x27;s paid Lead Finder at one credit per verified work email, with 40 free credits on a no-card account. A confidence gate rations those paid lookups, and the affiliate link to that provider is the project&#x27;s only stated revenue alongside GitHub Sponsors. Budget in credits, not subscription fees.
+The cost structure is unusual and worth understanding before you start. The tool is free, but discovery runs on BetterContact's paid Lead Finder at one credit per verified work email, with 40 free credits on a no-card account. A confidence gate rations those paid lookups, and the affiliate link to that provider is the project's only stated revenue alongside GitHub Sponsors. Budget in credits, not subscription fees.
 
 The compliance surface is deliberately narrow. The README claims zero platform-ToS exposure because it is browserless and holds no social-network accounts, and the legal notice puts data-controller duties and sender responsibility on you, stating use at your own risk with no liability assumed. Self-hosting means your domain carries the sending reputation, so SPF, DKIM, and warm-up discipline still decide whether any of this works.
 
@@ -172,7 +172,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-OpenOutreach: Open-source AI lead finder: describe your product and it finds and qualifies the leads. OpenOutreach ships with LLM keyword generation from your product description. The public repository carries 2,952 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+OpenOutreach: Open-source AI lead finder: describe your product and it finds and qualifies the leads. OpenOutreach ships with LLM keyword generation from your product description. The public repository carries 2,952 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 OpenOutreach is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,952 stars; native integrations cover BetterContact (Lead Finder), OpenAI, Anthropic. You pay in server time and maintenance, not licences.
 
@@ -195,8 +195,8 @@ One CSV written to stdout with email, first_name, last_name, company, title, web
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ## Also featured in
 
-- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) &mdash; Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier.
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &mdash; Email marketing teams that want agent-written openers and self-hosting
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier.
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Email marketing teams that want agent-written openers and self-hosting
 ### Quick Facts
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

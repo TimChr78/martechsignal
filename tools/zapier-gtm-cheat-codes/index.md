@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; Young project (334 GitHub stars) - smaller community and plugin ecosystem |
-| &#10003; AI capabilities: installable skills for campaign planning, postmortems, and launch packages |  |
-| &#10003; Native integrations include Zapier MCP, Zapier SDK, Claude Code (8 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ Young project (334 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: installable skills for campaign planning, postmortems, and launch packages |  |
+| ✓ Native integrations include Zapier MCP, Zapier SDK, Claude Code (8 listed) |  |
 
 **What is Zapier GTM Cheat Codes?**
-Zapier GTM Cheat Codes: Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof. Zapier GTM Cheat Codes ships with installable skills for campaign planning, postmortems, and launch packages. The public repository carries 334 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Zapier GTM Cheat Codes: Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof. Zapier GTM Cheat Codes ships with installable skills for campaign planning, postmortems, and launch packages. The public repository carries 334 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Zapier GTM Cheat Codes cost?**
 Zapier GTM Cheat Codes is open source - MIT licensed and free to self-host; the public repository carries 334 stars; native integrations cover Zapier MCP, Zapier SDK, Claude Code. You pay in server time and maintenance, not licences.
@@ -67,27 +67,27 @@ Re-check pending: pricing last verified 2026-08-31 (29 days ago).
 
 ## Zapier GTM Cheat Codes review (2026): pricing, AI features, verdict
 
-Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
 Agent Skills · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
 
-[Visit Zapier GTM Cheat Codes &#8594;](https://github.com/zapier/gtm-cheat-codes)
+[Visit Zapier GTM Cheat Codes →](https://github.com/zapier/gtm-cheat-codes)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Zapier GTM Cheat Codes &#8594;](https://github.com/zapier/gtm-cheat-codes)
+[Visit Zapier GTM Cheat Codes →](https://github.com/zapier/gtm-cheat-codes)
 
 ## MartechSignal Score: 38/60
 
-Zapier&#x27;s own skill pack for GTM work in coding agents, MIT-licensed. It assumes Zapier MCP or SDK credentials, so the value lands if you are already in the ecosystem.
+Zapier's own skill pack for GTM work in coding agents, MIT-licensed. It assumes Zapier MCP or SDK credentials, so the value lands if you are already in the ecosystem.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
-GTM Cheat Codes is the skill library Zapier&#x27;s own go-to-market teams use with coding agents. It turns scattered context, CRM records, meeting notes, campaign docs, and customer stories, into reviewable work products. The repo ships installable skills for campaign planning, postmortems, media inbox triage, lead follow-up QA, account prioritization, customer decks, and content repurposing. Each skill maps a business problem to a workflow that runs in Codex, Claude Code, Cursor, or ChatGPT with Zapier MCP handling the authenticated actions. The design philosophy is source-backed execution. Skills read from the systems of record, build a draft artifact, and stop at an approval gate before anything writes back to a CRM, sends a message, or publishes. Every skill folder has a README, a SKILL.md with the instructions, a SETUP.md, and a schema map. A registry CSV lets you find the skill closest to your workflow without reading all of them. Setup is heavier than a prompt pack. You need a coding agent installed, Zapier MCP or SDK credentials with least-privilege scopes, and your CRM and docs connected through Zapier. The docs assume you can map a workflow to your own approved systems. A GTM operations person can manage it; a pure marketer without any tooling comfort will struggle. The directory already covers Zapier&#x27;s flagship automation platform, but that entry is about the SaaS workflow tool. This is a different artifact: a free skill pack for agent harnesses, with real approval-gate discipline that most prompt libraries skip. It is the strongest general GTM skill library in this category, broader than the SEO- or social-specific packs. If your team already runs coding agents and lives in Zapier-connected tools, this is the first skill pack to install.
+GTM Cheat Codes is the skill library Zapier's own go-to-market teams use with coding agents. It turns scattered context, CRM records, meeting notes, campaign docs, and customer stories, into reviewable work products. The repo ships installable skills for campaign planning, postmortems, media inbox triage, lead follow-up QA, account prioritization, customer decks, and content repurposing. Each skill maps a business problem to a workflow that runs in Codex, Claude Code, Cursor, or ChatGPT with Zapier MCP handling the authenticated actions. The design philosophy is source-backed execution. Skills read from the systems of record, build a draft artifact, and stop at an approval gate before anything writes back to a CRM, sends a message, or publishes. Every skill folder has a README, a SKILL.md with the instructions, a SETUP.md, and a schema map. A registry CSV lets you find the skill closest to your workflow without reading all of them. Setup is heavier than a prompt pack. You need a coding agent installed, Zapier MCP or SDK credentials with least-privilege scopes, and your CRM and docs connected through Zapier. The docs assume you can map a workflow to your own approved systems. A GTM operations person can manage it; a pure marketer without any tooling comfort will struggle. The directory already covers Zapier's flagship automation platform, but that entry is about the SaaS workflow tool. This is a different artifact: a free skill pack for agent harnesses, with real approval-gate discipline that most prompt libraries skip. It is the strongest general GTM skill library in this category, broader than the SEO- or social-specific packs. If your team already runs coding agents and lives in Zapier-connected tools, this is the first skill pack to install.
 
 Zapier GTM Cheat Codes homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -120,7 +120,7 @@ Researched from public documentation, the source repository, and vendor material
 
 The README is explicit about scope: a starter kit of coding-agent skills for GTM and customer-ops work, built around turning context (CRM, docs, chat, Sheets, customer proof, product usage) into reviewable work products with human approval gates, identity and audit-trail guidance, and writeback through Zapier MCP and the Zapier SDK. Named workflows include campaign planning packages, sourced campaign postmortems, media-inbox triage, lead follow-up QA, account prioritization, and sales personalization drafts. Assessments here are based on the repository.
 
-What separates it from prompt-list clones is the governance layer: approval gates and audit trails are first-class parts of the design, written for teams that must show their work. The skills target Claude Code, Codex, and Cursor, and assume your data already flows through Zapier-connected systems. Coming from Zapier&#x27;s own GTM team gives the workflows practical lineage, though the corollary is that they lean on the Zapier ecosystem by design.
+What separates it from prompt-list clones is the governance layer: approval gates and audit trails are first-class parts of the design, written for teams that must show their work. The skills target Claude Code, Codex, and Cursor, and assume your data already flows through Zapier-connected systems. Coming from Zapier's own GTM team gives the workflows practical lineage, though the corollary is that they lean on the Zapier ecosystem by design.
 
 ## Verdict
 
@@ -141,7 +141,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Zapier GTM Cheat Codes: Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof. Zapier GTM Cheat Codes ships with installable skills for campaign planning, postmortems, and launch packages. The public repository carries 334 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Zapier GTM Cheat Codes: Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof. Zapier GTM Cheat Codes ships with installable skills for campaign planning, postmortems, and launch packages. The public repository carries 334 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Zapier GTM Cheat Codes is open source - MIT licensed and free to self-host; the public repository carries 334 stars; native integrations cover Zapier MCP, Zapier SDK, Claude Code. You pay in server time and maintenance, not licences.
 
@@ -156,7 +156,7 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ## Also featured in
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) &mdash; Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

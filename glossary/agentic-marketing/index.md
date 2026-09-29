@@ -38,7 +38,7 @@ Vendors claiming agentic behavior should show the guardrail surface: where limit
 
 ## The numbers
 
-Scope discipline: teams report stable results delegating 10-25% of decisions to agents initially, expanding as verification matures. Attempting majority delegation in quarter one correlates with rollback. Measure decision quality, not decision volume - the useful metric is error rate per delegated process, tracked weekly. Agentic pricing is usually usage-based: credits or per-action fees layered on a platform subscription, and rates vary by vendor. Salesforce&#x27;s Agentforce credits are one concrete example: one agent action consumes 20 credits priced at $0.10 each. Budget for the supervision too, because someone has to read the audit log. The cheap first step is delegating a single process for one month and comparing its decisions against what your team would have done.
+Scope discipline: teams report stable results delegating 10-25% of decisions to agents initially, expanding as verification matures. Attempting majority delegation in quarter one correlates with rollback. Measure decision quality, not decision volume - the useful metric is error rate per delegated process, tracked weekly. Agentic pricing is usually usage-based: credits or per-action fees layered on a platform subscription, and rates vary by vendor. Salesforce's Agentforce credits are one concrete example: one agent action consumes 20 credits priced at $0.10 each. Budget for the supervision too, because someone has to read the audit log. The cheap first step is delegating a single process for one month and comparing its decisions against what your team would have done.
 
 ## Common mistakes
 

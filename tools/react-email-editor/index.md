@@ -13,13 +13,13 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $250/mo once past the free tier |
-| &#10003; AI capabilities: AI Assistant chat editing |  |
-| &#10003; Active public repository (5,219 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include React, Angular, Vue (7 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $250/mo once past the free tier |
+| ✓ AI capabilities: AI Assistant chat editing |  |
+| ✓ Active public repository (5,219 GitHub stars counted at last check) |  |
+| ✓ Native integrations include React, Angular, Vue (7 listed) |  |
 
 **What is React Email Editor?**
-React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,219 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,219 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does React Email Editor cost?**
 React Email Editor has a free tier; paid plans start at $250/mo. Free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -28,9 +28,9 @@ React Email Editor has a free tier; paid plans start at $250/mo. Free tier for t
 The fastest route to a real email builder inside a React app, and an honest one as long as you read the MIT license as covering the wrapper rather than the editor.
 
 **Is React Email Editor really open source?**
-The npm package is, under MIT, with about 5,200 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer&#x27;s CDN into an iframe and is governed by Unlayer&#x27;s plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
+The npm package is, under MIT, with about 5,200 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
 
-**What are Unlayer&#x27;s paid plans?**
+**What are Unlayer's paid plans?**
 Free at $0, Launch at $250 per month, Scale at $750 per month, and Optimize at $2,000 per month, with custom Enterprise pricing. Annual billing saves 10 percent across the paid tiers, every paid plan includes a 14-day trial, and add-on credit packs for AI, exports, inbox previews, and bandwidth start at $50 per month and top out at $2,000.
 
 **Does React Email Editor support AMP emails?**
@@ -85,11 +85,11 @@ Email Marketing · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
-[Visit React Email Editor &#8594;](https://unlayer.com/)
+[Visit React Email Editor →](https://unlayer.com/)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit React Email Editor &#8594;](https://unlayer.com/)
+[Visit React Email Editor →](https://unlayer.com/)
 
 ## MartechSignal Score: 39/60
 
@@ -99,7 +99,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-React Email Editor is Unlayer&#x27;s official React component for embedding a drag-and-drop email builder inside your own application, and it pays to be precise about what the MIT license covers. The npm package is a thin wrapper whose single runtime dependency is a types package; the editor itself is a hosted service loaded from editor.unlayer.com into an iframe and unlocked with a projectId from Unlayer&#x27;s developer console. Install is npm install react-email-editor, then mount the component with an onReady callback and call loadDesign, saveDesign, or exportHtml on the ref. Version 2.0.0 (July 2026) modernized the build, requires React 16.8 or newer, and fixed a long-standing unmount leak; 2.1.2 in August 2026 fixed an SSR hydration bug that could leave a blank editor under the Next.js App Router. The hosted engine is a real builder, not a demo. It ships 15 built-in content blocks, custom tools and blocks, merge tags that accept any templating syntax, display conditions, device previews, undo and redo, and inbox previews across real email clients on the top plan. Pricing is public: a free tier, Launch at $250 per month for white-labeling, custom tools, and the Cloud API, Scale at $750 for custom blocks, collaboration, and smart merge tags, and Optimize at $2,000 for custom CSS, AMP, and inbox previews. AI features are real and metered. An AI Assistant on paid plans streams edits into the design from chat prompts, routes to OpenAI or Anthropic, and draws on a workspace credit balance; AI image generation reached Launch plans in August 2026. There is also a hosted MCP server in beta with 14 documented tools plus agent skills for Claude Code, Codex, and Cursor, unusual for an embedded editor and handy if your users work with AI assistants. The trade is control. Exports return HTML and a design JSON, there is no MJML output, AMP requires the top plan, and self-hosting is Enterprise-only.
+React Email Editor is Unlayer's official React component for embedding a drag-and-drop email builder inside your own application, and it pays to be precise about what the MIT license covers. The npm package is a thin wrapper whose single runtime dependency is a types package; the editor itself is a hosted service loaded from editor.unlayer.com into an iframe and unlocked with a projectId from Unlayer's developer console. Install is npm install react-email-editor, then mount the component with an onReady callback and call loadDesign, saveDesign, or exportHtml on the ref. Version 2.0.0 (July 2026) modernized the build, requires React 16.8 or newer, and fixed a long-standing unmount leak; 2.1.2 in August 2026 fixed an SSR hydration bug that could leave a blank editor under the Next.js App Router. The hosted engine is a real builder, not a demo. It ships 15 built-in content blocks, custom tools and blocks, merge tags that accept any templating syntax, display conditions, device previews, undo and redo, and inbox previews across real email clients on the top plan. Pricing is public: a free tier, Launch at $250 per month for white-labeling, custom tools, and the Cloud API, Scale at $750 for custom blocks, collaboration, and smart merge tags, and Optimize at $2,000 for custom CSS, AMP, and inbox previews. AI features are real and metered. An AI Assistant on paid plans streams edits into the design from chat prompts, routes to OpenAI or Anthropic, and draws on a workspace credit balance; AI image generation reached Launch plans in August 2026. There is also a hosted MCP server in beta with 14 documented tools plus agent skills for Claude Code, Codex, and Cursor, unusual for an embedded editor and handy if your users work with AI assistants. The trade is control. Exports return HTML and a design JSON, there is no MJML output, AMP requires the top plan, and self-hosting is Enterprise-only.
 
 React Email Editor homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -130,14 +130,14 @@ Current plans and limits live on the [React Email Editor pricing page](https://u
 ## How to install
 
 - Install the wrapper: npm install react-email-editor --save. Version 2.0.0 (July 2026) raised the floor to React 16.8 or newer and Node 18 or newer.
-- Import EmailEditor, hold a ref with useRef, and render &lt;EmailEditor ref={emailEditorRef} onReady={onReady} /&gt;. The published bundle carries a &#x27;use client&#x27; directive, so it runs in the Next.js App Router, and 2.1.2 fixed the SSR hydration mismatch that produced a silently blank editor there.
-- Create a project in the Unlayer Developer Console. The component loads editor.unlayer.com/embed.js and needs a projectId to initialize, and the docs tell you to add your production domains under Project &gt; Settings &gt; Deployment so the builder only runs where you allow.
+- Import EmailEditor, hold a ref with useRef, and render <EmailEditor ref={emailEditorRef} onReady={onReady} />. The published bundle carries a 'use client' directive, so it runs in the Next.js App Router, and 2.1.2 fixed the SSR hydration mismatch that produced a silently blank editor there.
+- Create a project in the Unlayer Developer Console. The component loads editor.unlayer.com/embed.js and needs a projectId to initialize, and the docs tell you to add your production domains under Project > Settings > Deployment so the builder only runs where you allow.
 - Drive the editor through the three documented methods on the ref: loadDesign(object) to load saved JSON, saveDesign(callback) to get it back, and exportHtml(callback) to receive both the design JSON and the HTML.
 - Enable AI with features: { ai: { enabled: true, assistant: true } } in the options prop plus a user id. The docs state that without the user id the assistant stays hidden and AI requests are rejected server-side.
 - Angular and Vue teams do not need this package: Unlayer publishes separate open-source Angular Email Editor and Vue Email Editor components, plus a vanilla JS path through unlayer.init().
 ## Requirements
 
-React 16.8 or newer and Node 18 or newer for the build, a Unlayer project with a projectId, and network access to editor.unlayer.com at runtime, because the editor renders in an iframe served from Unlayer&#x27;s CDN. Custom tools and blocks are configured through that hosted options model rather than in your bundle.
+React 16.8 or newer and Node 18 or newer for the build, a Unlayer project with a projectId, and network access to editor.unlayer.com at runtime, because the editor renders in an iframe served from Unlayer's CDN. Custom tools and blocks are configured through that hosted options model rather than in your bundle.
 
 ## Best for
 
@@ -149,7 +149,7 @@ Teams that need the editing engine on their own infrastructure, since on-premise
 
 ## Review notes
 
-Assessed from the GitHub repository, Unlayer&#x27;s docs, and the pricing page rather than an integration. The architecture is the first thing to understand: the npm package is a thin MIT-licensed wrapper whose single runtime dependency is a types package, while the editor is a hosted service loaded from editor.unlayer.com into an iframe and unlocked with a projectId.
+Assessed from the GitHub repository, Unlayer's docs, and the pricing page rather than an integration. The architecture is the first thing to understand: the npm package is a thin MIT-licensed wrapper whose single runtime dependency is a types package, while the editor is a hosted service loaded from editor.unlayer.com into an iframe and unlocked with a projectId.
 
 The component API is small and stable. Three documented methods cover the data path: loadDesign, saveDesign, and exportHtml, which returns both the design JSON and the HTML. Version 2.0.0 in July 2026 modernized the build and requires React 16.8 or newer, and 2.1.2 in August 2026 fixed an SSR hydration bug that could render a blank editor in the Next.js App Router.
 
@@ -173,13 +173,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,219 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,219 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 React Email Editor has a free tier; paid plans start at $250/mo. Free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
 
 The fastest route to a real email builder inside a React app, and an honest one as long as you read the MIT license as covering the wrapper rather than the editor.
 
-The npm package is, under MIT, with about 5,200 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer&#x27;s CDN into an iframe and is governed by Unlayer&#x27;s plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
+The npm package is, under MIT, with about 5,200 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
 
 Free at $0, Launch at $250 per month, Scale at $750 per month, and Optimize at $2,000 per month, with custom Enterprise pricing. Annual billing saves 10 percent across the paid tiers, every paid plan includes a 14-day trial, and add-on credit packs for AI, exports, inbox previews, and bandwidth start at $50 per month and top out at $2,000.
 
@@ -196,7 +196,7 @@ If you need a fully open pipeline with no third-party dependency, yes, and you s
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Also featured in
 
-- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) &mdash; Developer teams that want email templates versioned as code
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Developer teams that want email templates versioned as code
 ### Quick Facts
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

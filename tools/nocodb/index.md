@@ -13,13 +13,13 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $12/mo once past the free tier |
-| &#10003; AI capabilities: nocoAI prompt-based schema, table, view and formula generation (paid) |  |
-| &#10003; Active public repository (64,910 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include PostgreSQL, MySQL, SQLite (8 listed) |  |
+| ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $12/mo once past the free tier |
+| ✓ AI capabilities: nocoAI prompt-based schema, table, view and formula generation (paid) |  |
+| ✓ Active public repository (64,910 GitHub stars counted at last check) |  |
+| ✓ Native integrations include PostgreSQL, MySQL, SQLite (8 listed) |  |
 
 **What is NocoDB?**
-NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 64,910 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 64,910 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does NocoDB cost?**
 NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -28,10 +28,10 @@ NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited re
 The shortest self-hosted path from spreadsheet chaos to a permissioned, API-covered base over your own database. Go in knowing the license is fair-code rather than open source, and that AI and the advanced views sit behind paid tiers.
 
 **Is NocoDB open source?**
-Not in the OSI sense. The code is published under the Sustainable Use License, a fair-code, source-available license: you can use and modify it for internal business purposes and self-host free with unlimited records and seats, but you cannot offer it to third parties as a hosted service, and redistribution is limited to free, non-commercial use. It is the same class of license as n8n&#x27;s. If your procurement or policy requirements name OSI-approved licenses, NocoDB does not qualify.
+Not in the OSI sense. The code is published under the Sustainable Use License, a fair-code, source-available license: you can use and modify it for internal business purposes and self-host free with unlimited records and seats, but you cannot offer it to third parties as a hosted service, and redistribution is limited to free, non-commercial use. It is the same class of license as n8n's. If your procurement or policy requirements name OSI-approved licenses, NocoDB does not qualify.
 
 **NocoDB vs Airtable: what do you gain?**
-Ownership and cost structure. Your data lives in your own Postgres or MySQL, self-hosting is free with unlimited seats, and every field is reachable through REST APIs and conditional webhooks. You give up Airtable&#x27;s polish, interface depth and native integration catalog. On NocoDB Cloud the free tier holds three editors and 1,000 records and paid plans start at $12 per seat monthly billed annually. One gating detail surprises people: external database connections need the Business plan on cloud, so bring-your-own-Postgres is effectively a self-hosting feature.
+Ownership and cost structure. Your data lives in your own Postgres or MySQL, self-hosting is free with unlimited seats, and every field is reachable through REST APIs and conditional webhooks. You give up Airtable's polish, interface depth and native integration catalog. On NocoDB Cloud the free tier holds three editors and 1,000 records and paid plans start at $12 per seat monthly billed annually. One gating detail surprises people: external database connections need the Business plan on cloud, so bring-your-own-Postgres is effectively a self-hosting feature.
 
 **Can NocoDB use my existing Postgres or MySQL database?**
 Yes, that is the core design: connect an external data source and NocoDB builds spreadsheet views, forms, permissions and webhooks over your existing tables. Community edition covers PostgreSQL (14 or later recommended) and MySQL (5.7 or later); SQL Server and Oracle are enterprise add-ons. Schema editing is disabled by default and the docs advise keeping it that way, so the default setup writes data without altering your tables. On NocoDB Cloud, external connections are not available on the Plus plan and require Business.
@@ -82,11 +82,11 @@ Marketing Automation · Free tier · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit NocoDB &#8594;](https://nocodb.com)
+[Visit NocoDB →](https://nocodb.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit NocoDB &#8594;](https://nocodb.com)
+[Visit NocoDB →](https://nocodb.com)
 
 ## MartechSignal Score: 45/60
 
@@ -126,9 +126,9 @@ Current plans and limits live on the [NocoDB pricing page](https://nocodb.com/pr
 ## How to install
 
 - Quickstart: curl -fsSL https://install.nocodb.com/noco.sh | bash -s -- --quick generates a Compose stack (nocodb, a worker for background jobs, Postgres, Redis) and serves the app at http://localhost:8080. The first user to sign up becomes super admin.
-- Production single-server: curl -fsSL https://install.nocodb.com/noco.sh | bash prompts for your domain, Postgres (bundled or existing), Redis and a Let&#x27;s Encrypt email, then runs Traefik with automatic SSL in front.
-- The README&#x27;s auto-upstall variant, bash &lt;(curl -sSL http://install.nocodb.com/noco.sh) &lt;(mktemp), generates a docker-compose setup for a production server. Note the README publishes that URL with http while the docs use https.
-- Docker against an existing Postgres: docker run -d --name noco -v &quot;$(pwd)&quot;/nocodb:/usr/app/data/ -p 8080:8080 -e NC_DB=&quot;pg://host.docker.internal:5432?u=root&amp;p=password&amp;d=d1&quot; -e NC_AUTH_JWT_SECRET=&quot;569a1821-0a93-45e8-87ab-eb857f20a010&quot; nocodb/nocodb:latest
+- Production single-server: curl -fsSL https://install.nocodb.com/noco.sh | bash prompts for your domain, Postgres (bundled or existing), Redis and a Let's Encrypt email, then runs Traefik with automatic SSL in front.
+- The README's auto-upstall variant, bash <(curl -sSL http://install.nocodb.com/noco.sh) <(mktemp), generates a docker-compose setup for a production server. Note the README publishes that URL with http while the docs use https.
+- Docker against an existing Postgres: docker run -d --name noco -v "$(pwd)"/nocodb:/usr/app/data/ -p 8080:8080 -e NC_DB="pg://host.docker.internal:5432?u=root&p=password&d=d1" -e NC_AUTH_JWT_SECRET="569a1821-0a93-45e8-87ab-eb857f20a010" nocodb/nocodb:latest
 - Sizing per the docs: minimum 2 vCPU, 2 GB RAM, 10 GB disk; recommended for production 4 vCPU, 8 GB RAM, 50 GB or more.
 - Skip the binaries for anything serious: the README says the single-file downloads (curl http://get.nocodb.com/linux-x64 -o nocodb) are only for quick local testing, and building from source needs Node 22 or newer.
 ## Best for
@@ -173,15 +173,15 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 64,910 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 64,910 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 The shortest self-hosted path from spreadsheet chaos to a permissioned, API-covered base over your own database. Go in knowing the license is fair-code rather than open source, and that AI and the advanced views sit behind paid tiers.
 
-Not in the OSI sense. The code is published under the Sustainable Use License, a fair-code, source-available license: you can use and modify it for internal business purposes and self-host free with unlimited records and seats, but you cannot offer it to third parties as a hosted service, and redistribution is limited to free, non-commercial use. It is the same class of license as n8n&#x27;s. If your procurement or policy requirements name OSI-approved licenses, NocoDB does not qualify.
+Not in the OSI sense. The code is published under the Sustainable Use License, a fair-code, source-available license: you can use and modify it for internal business purposes and self-host free with unlimited records and seats, but you cannot offer it to third parties as a hosted service, and redistribution is limited to free, non-commercial use. It is the same class of license as n8n's. If your procurement or policy requirements name OSI-approved licenses, NocoDB does not qualify.
 
-Ownership and cost structure. Your data lives in your own Postgres or MySQL, self-hosting is free with unlimited seats, and every field is reachable through REST APIs and conditional webhooks. You give up Airtable&#x27;s polish, interface depth and native integration catalog. On NocoDB Cloud the free tier holds three editors and 1,000 records and paid plans start at $12 per seat monthly billed annually. One gating detail surprises people: external database connections need the Business plan on cloud, so bring-your-own-Postgres is effectively a self-hosting feature.
+Ownership and cost structure. Your data lives in your own Postgres or MySQL, self-hosting is free with unlimited seats, and every field is reachable through REST APIs and conditional webhooks. You give up Airtable's polish, interface depth and native integration catalog. On NocoDB Cloud the free tier holds three editors and 1,000 records and paid plans start at $12 per seat monthly billed annually. One gating detail surprises people: external database connections need the Business plan on cloud, so bring-your-own-Postgres is effectively a self-hosting feature.
 
 Yes, that is the core design: connect an external data source and NocoDB builds spreadsheet views, forms, permissions and webhooks over your existing tables. Community edition covers PostgreSQL (14 or later recommended) and MySQL (5.7 or later); SQL Server and Oracle are enterprise add-ons. Schema editing is disabled by default and the docs advise keeping it that way, so the default setup writes data without altering your tables. On NocoDB Cloud, external connections are not available on the Plus plan and require Business.
 
@@ -194,8 +194,8 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 - [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ## Also featured in
 
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) &mdash; Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier.
-- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/) &mdash; Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/) — Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.
 ### Quick Facts
 
 Related guides: [NocoDB vs Nocobase](/vs/nocodb-vs-nocobase/) · [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)

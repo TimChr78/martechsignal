@@ -28,7 +28,7 @@ This policy may change as the site evolves. The "Last verified" date below marks
 
 Last verified: 2026-08-26
 
-&copy; 2026 MARTECHSIGNAL &middot; THE AI IN MARKETING AUTOMATION
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 
 ```json

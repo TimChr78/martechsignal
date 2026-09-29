@@ -18,7 +18,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
 
 AI · MARKETING OPS · 8 MIN
 
-## Your AI Marketing Agent Doesn&#x27;t Need Better Prompts
+## Your AI Marketing Agent Doesn't Need Better Prompts
 
 [How we review](/methodology/) · No affiliate links
 
@@ -62,7 +62,7 @@ This is the same dynamic playing out across the stack. [Twilio Segment](/tools/s
 
 You do not need a new platform. You need one JSON object per campaign that every automation agrees to read and write. Something like this:
 
-`{ &quot;campaign&quot;: &quot;spring-reactivation&quot;, &quot;icp&quot;: &quot;dormant customers, 90-180 days, mid-market&quot;, &quot;offer&quot;: {&quot;code&quot;: &quot;COMEBACK20&quot;, &quot;expires&quot;: &quot;2026-08-31&quot;}, &quot;suppressions&quot;: [&quot;opted_out&quot;, &quot;complained&quot;, &quot;enterprise-blacklist&quot;], &quot;cadence&quot;: &quot;max 2 emails / 7 days&quot;, &quot;brand_rules&quot;: [&quot;no price claims without legal tag&quot;, &quot;sentence case subject lines&quot;], &quot;channels&quot;: {&quot;email&quot;: true, &quot;sms&quot;: false}, &quot;last_test&quot;: {&quot;winner&quot;: &quot;variant_b&quot;, &quot;lift&quot;: &quot;+11% CTR&quot;, &quot;date&quot;: &quot;2026-07-20&quot;} }` The format matters less than the contract. Every agent, every [n8n](/tools/n8n/) workflow, every [Make](/tools/make/) scenario reads this object before it generates anything, and writes back what it learned. Add a validation step that refuses to execute if a required field is missing or the offer has expired. That single gate catches most of the "confident, wrong" failures before they reach a customer.
+`{ "campaign": "spring-reactivation", "icp": "dormant customers, 90-180 days, mid-market", "offer": {"code": "COMEBACK20", "expires": "2026-08-31"}, "suppressions": ["opted_out", "complained", "enterprise-blacklist"], "cadence": "max 2 emails / 7 days", "brand_rules": ["no price claims without legal tag", "sentence case subject lines"], "channels": {"email": true, "sms": false}, "last_test": {"winner": "variant_b", "lift": "+11% CTR", "date": "2026-07-20"} }` The format matters less than the contract. Every agent, every [n8n](/tools/n8n/) workflow, every [Make](/tools/make/) scenario reads this object before it generates anything, and writes back what it learned. Add a validation step that refuses to execute if a required field is missing or the offer has expired. That single gate catches most of the "confident, wrong" failures before they reach a customer.
 
 A mediocre model with clean campaign state will outperform a frontier model with no state on anything that runs more than once. You can swap the model next quarter and lose nothing. The state is what you keep.
 

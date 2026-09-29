@@ -22,11 +22,11 @@ GLOSSARY
 
 ## Definition
 
-A chatbot is software that conducts text or voice conversations with users, typically on a website, messaging app, or social platform. Rule-based chatbots follow decision trees. AI-powered chatbots use large language models to generate responses and handle questions they weren&#x27;t explicitly programmed for.
+A chatbot is software that conducts text or voice conversations with users, typically on a website, messaging app, or social platform. Rule-based chatbots follow decision trees. AI-powered chatbots use large language models to generate responses and handle questions they weren't explicitly programmed for.
 
 ## Why it matters
 
-The first wave of chatbots (2016-2019) was mostly disappointing, glorified FAQ menus that frustrated users and got turned off. The LLM wave changed the economics. A chatbot that can actually understand a question and pull the right answer from your knowledge base is useful in a way the old ones weren&#x27;t. The remaining problem is trust: customers don&#x27;t know if they&#x27;re talking to a bot, and when the bot confidently gives a wrong answer, the brand takes the hit.
+The first wave of chatbots (2016-2019) was mostly disappointing, glorified FAQ menus that frustrated users and got turned off. The LLM wave changed the economics. A chatbot that can actually understand a question and pull the right answer from your knowledge base is useful in a way the old ones weren't. The remaining problem is trust: customers don't know if they're talking to a bot, and when the bot confidently gives a wrong answer, the brand takes the hit.
 
 ## How it works
 
@@ -54,7 +54,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [ChatbotX](https://
 
 ### Categories
 
-[Chatbots &amp; Conversational AI](/categories/chatbots/) [Best Chatbots & Conversational AI tools](/best/ai-chatbot-tools/)
+[Chatbots & Conversational AI](/categories/chatbots/) [Best Chatbots & Conversational AI tools](/best/ai-chatbot-tools/)
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

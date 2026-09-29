@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI autocapture | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Slack, Salesforce, Zapier (8 listed) |  |
-| &#10003; Free tier to evaluate before committing (Free (10K sessions/mo, 6-mo history); Growth and Pro custom ) |  |
+| ✓ AI capabilities: AI autocapture | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Slack, Salesforce, Zapier (8 listed) |  |
+| ✓ Free tier to evaluate before committing (Free (10K sessions/mo, 6-mo history); Growth and Pro custom ) |  |
 
 **What is Heap?**
-Heap: AI-powered product analytics with autocapture and digital experience insights. Heap ships with AI autocapture. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Heap: AI-powered product analytics with autocapture and digital experience insights. Heap ships with AI autocapture. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Heap cost?**
 Heap has a free tier, so you can run a real evaluation before paying. Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
@@ -27,13 +27,13 @@ Heap has a free tier, so you can run a real evaluation before paying. Free (10K 
 Choose it when you keep discovering untagged events after the fact. Disciplined taggers get more from Mixpanel.
 
 - **Pricing:** Freemium
-- **Category:** [Analytics &amp; Attribution](/categories/analytics/)
+- **Category:** [Analytics & Attribution](/categories/analytics/)
 - **Founded:** 2013
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Heap is a tool in Analytics &amp; Attribution with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Heap is a tool in Analytics & Attribution with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Mixpanel
 
@@ -55,13 +55,13 @@ Northbeam
 
 AI-powered multi-touch attribution and marketing intelligence for ecommerce
 
-[More Analytics &amp; Attribution Tools →](/categories/analytics/)
+[More Analytics & Attribution Tools →](/categories/analytics/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [Analytics &amp; Attribution](/categories/analytics/)
+- [Analytics & Attribution](/categories/analytics/)
 - Heap
 Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
@@ -69,25 +69,25 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 AI-powered product analytics with autocapture and digital experience insights
 
-Analytics &amp; Attribution · Freemium Desk-reviewed
+Analytics & Attribution · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit Heap &#8594;](https://www.heap.io)
+[Visit Heap →](https://www.heap.io)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Heap &#8594;](https://www.heap.io)
+[Visit Heap →](https://www.heap.io)
 
 ## MartechSignal Score: 35/60
 
-Heap&#x27;s autocapture means analysis starts after the questions, not before, which is the whole pitch. The free tier is small; the value shows up when retroactive funnels save a quarter of instrumentation work.
+Heap's autocapture means analysis starts after the questions, not before, which is the whole pitch. The free tier is small; the value shows up when retroactive funnels save a quarter of instrumentation work.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
-Heap is a digital insights platform that takes a fundamentally different approach to analytics. Instead of requiring manual event tagging before you can analyze user behavior, **Heap auto-captures every user interaction** (every click, pageview, form fill, swipe, and scroll) from the moment it&#x27;s installed. This &quot;capture everything, analyze later&quot; philosophy eliminates the frustration of discovering you need data on a feature you didn&#x27;t tag six months ago. Acquired by Contentsquare in 2023, Heap now combines its auto-capture product analytics with Contentsquare&#x27;s digital experience analytics (heatmaps, zone-based click analysis, frustration scoring) under one platform. The platform&#x27;s core features include: **auto-captured event analytics** (retroactive analysis, where you define events after data is collected), **funnel and conversion analysis** (with automatic drop-off insights), **cohort and retention analysis** (group users by any property or behavior), **session replay** (watch individual user sessions with console log integration for debugging), **journey analysis** (map actual user paths through the product), and **no-code event definitions**, so product managers can define events in a visual interface without engineering support. Heap&#x27;s &quot;Illuminations&quot; feature uses AI to automatically surface statistically significant patterns and anomalies in user behavior. Heap is best suited for product teams that want to reduce the cycle time between &quot;I have a question about user behavior&quot; and &quot;I have data to answer it&quot; by eliminating the engineering bottleneck of event tagging. It integrates with Salesforce, Marketo, Intercom, Optimizely, and data warehouses via native connectors. Pricing starts at approximately $3,000-5,000+/year for startups (Growth plan) and scales to enterprise contracts based on session volume. Heap competes with Amplitude (event-based product analytics, requires instrumentation), Mixpanel (event-based, smaller-scale), and PostHog (open-source with auto-capture). Its win scenario is the team that wants analytics without the instrumentation overhead: install once, ask questions later.
+Heap is a digital insights platform that takes a fundamentally different approach to analytics. Instead of requiring manual event tagging before you can analyze user behavior, **Heap auto-captures every user interaction** (every click, pageview, form fill, swipe, and scroll) from the moment it's installed. This "capture everything, analyze later" philosophy eliminates the frustration of discovering you need data on a feature you didn't tag six months ago. Acquired by Contentsquare in 2023, Heap now combines its auto-capture product analytics with Contentsquare's digital experience analytics (heatmaps, zone-based click analysis, frustration scoring) under one platform. The platform's core features include: **auto-captured event analytics** (retroactive analysis, where you define events after data is collected), **funnel and conversion analysis** (with automatic drop-off insights), **cohort and retention analysis** (group users by any property or behavior), **session replay** (watch individual user sessions with console log integration for debugging), **journey analysis** (map actual user paths through the product), and **no-code event definitions**, so product managers can define events in a visual interface without engineering support. Heap's "Illuminations" feature uses AI to automatically surface statistically significant patterns and anomalies in user behavior. Heap is best suited for product teams that want to reduce the cycle time between "I have a question about user behavior" and "I have data to answer it" by eliminating the engineering bottleneck of event tagging. It integrates with Salesforce, Marketo, Intercom, Optimizely, and data warehouses via native connectors. Pricing starts at approximately $3,000-5,000+/year for startups (Growth plan) and scales to enterprise contracts based on session volume. Heap competes with Amplitude (event-based product analytics, requires instrumentation), Mixpanel (event-based, smaller-scale), and PostHog (open-source with auto-capture). Its win scenario is the team that wants analytics without the instrumentation overhead: install once, ask questions later.
 
 Heap homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -120,9 +120,9 @@ Current plans and limits live on the [Heap pricing page](https://www.heap.io/pri
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-Heap&#x27;s pitch is capture everything, analyze later: install one snippet and every click, pageview, form fill, swipe, and scroll is recorded, so you can run retroactive analysis on interactions you never tagged. That ends the classic pain of needing six months of data on a feature nobody instrumented. The Contentsquare acquisition adds digital experience analytics alongside the product analytics, widening the lens.
+Heap's pitch is capture everything, analyze later: install one snippet and every click, pageview, form fill, swipe, and scroll is recorded, so you can run retroactive analysis on interactions you never tagged. That ends the classic pain of needing six months of data on a feature nobody instrumented. The Contentsquare acquisition adds digital experience analytics alongside the product analytics, widening the lens.
 
-Autocapture generates noise as surely as it generates coverage, so curation and chart hygiene become your job, and event volume drives pricing, which climbs faster than teams expect. Privacy review matters more than ever when everything is recorded. Teams with disciplined tagging may prefer Mixpanel&#x27;s precision, but teams that keep discovering untagged events will find Heap forgiving in exactly the way they need.
+Autocapture generates noise as surely as it generates coverage, so curation and chart hygiene become your job, and event volume drives pricing, which climbs faster than teams expect. Privacy review matters more than ever when everything is recorded. Teams with disciplined tagging may prefer Mixpanel's precision, but teams that keep discovering untagged events will find Heap forgiving in exactly the way they need.
 
 ## Verdict
 
@@ -143,7 +143,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Heap: AI-powered product analytics with autocapture and digital experience insights. Heap ships with AI autocapture. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Heap: AI-powered product analytics with autocapture and digital experience insights. Heap ships with AI autocapture. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Heap has a free tier, so you can run a real evaluation before paying. Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
 
@@ -154,11 +154,11 @@ Choose it when you keep discovering untagged events after the fact. Disciplined 
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ## Also featured in
 
-- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) &mdash; Teams that want retroactive analysis without a tagging plan first
+- [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Teams that want retroactive analysis without a tagging plan first
 ### Quick Facts
 
 Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)

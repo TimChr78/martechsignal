@@ -78,7 +78,7 @@ Open source workspace with a self-updating, agent-driven CRM and shared AI team 
 
 FreemiumDesk-reviewedOSS
 
-Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament
+Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
 
 Open SourceDesk-reviewedOSS
 
@@ -86,7 +86,7 @@ The open-source alternative to Salesforce, designed for AI with modern CRM workf
 
 Open SourceDesk-reviewedOSS
 
-OUTBOUND &amp; CHANNEL***3*
+OUTBOUND & CHANNEL***3*
 
 Self-hosted open-source CRM with AI agents that sell through WhatsApp
 
@@ -144,7 +144,7 @@ Frappe CRM is AGPL with hosting from $5 a month if you outgrow your own box; Esp
 
 IF You need ERP, invoicing and CRM in one system
 
-[Dolibarr ERP/CRM](/tools/dolibarr/) [Ever Gauzy](/tools/ever-gauzy/) [IDURAR ERP &amp; CRM](/tools/idurar-erp-crm/)
+[Dolibarr ERP/CRM](/tools/dolibarr/) [Ever Gauzy](/tools/ever-gauzy/) [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
 
 Dolibarr is the modular PHP classic with stock and invoicing; Ever Gauzy adds HRM and time tracking; IDURAR bundles accounting and invoicing on Node and React
 
@@ -199,7 +199,7 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 
 ### Frappe CRM
 
-### IDURAR ERP &amp; CRM
+### IDURAR ERP & CRM
 
 ### Krayin CRM
 
@@ -225,7 +225,7 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 
 ### Zoho CRM
 
-**Compare:** [HubSpot CRM alternatives](/alternatives/hubspot-crm/) &middot; [Best open-source CRM tools (2026)](/best/open-source-crm/) &middot; [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) &middot; [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+**Compare:** [HubSpot CRM alternatives](/alternatives/hubspot-crm/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 
 A CRM is the system of record for who your customers are, what they bought, and what your team promised them. Every other tool in the stack reads from it or writes to it. What changed in the last year is that these systems stopped being passive. Salesforce now bundles Agentforce into existing Enterprise contracts at no extra cost. Attio enriches records and drafts outreach on its own. Freshsales scores deals with Freddy AI from the Pro tier. Pipedrive predicts which deals close. The record layer is where AI agents actually work, because it is the only place with the context they need.
 

@@ -20,13 +20,15 @@
 - **Pick Salesforce Marketing Cloud if:** Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.
 - **Pick HubSpot Marketing Hub if:** Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.
 
+[Marketing Automation](/categories/marketing-automation/)
+
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict
 
 Salesforce Marketing Cloud and HubSpot Marketing Hub end up on the same shortlist. Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing pages, lead capture, campaign management, and marketing automation in a single platform.
 
-Most decisions here come down to how it bills. The figures below are the catalog&#x27;s last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
+Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
 [Salesforce Marketing Cloud assessment](/tools/salesforce-marketing-cloud/) · [HubSpot Marketing Hub assessment](/tools/hubspot-marketing-hub/)
 
@@ -82,7 +84,7 @@ Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing
 
 **Salesforce Marketing Cloud:** Einstein arrives across the suite: engagement scoring, send-time optimization and generative content assistance, licensed per user and per feature family. Enterprise agreements negotiate the details; the list price rarely survives contact with a sales cycle.
 
-**HubSpot Marketing Hub:** HubSpot&#x27;s AI features (forecasting, conversation intelligence, content assistants) are packaged into the tiers, with the Breeze agents extending into service and content. The per-seat ladder prices itself more predictably.
+**HubSpot Marketing Hub:** HubSpot's AI features (forecasting, conversation intelligence, content assistants) are packaged into the tiers, with the Breeze agents extending into service and content. The per-seat ladder prices itself more predictably.
 
 ## Decision notes
 
@@ -105,6 +107,10 @@ Neither suits a small team selling to a few hundred accounts: the setup cost exc
 ## Who should pick which
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
+
+## Browse the hubs behind this comparison
+
+**Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Get the next teardown
 

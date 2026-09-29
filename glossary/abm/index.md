@@ -22,7 +22,7 @@ Account-based marketing flips the traditional funnel. Instead of generating a la
 
 ## Why it matters
 
-ABM works best in B2B with long sales cycles and high deal values, enterprise software, financial services, consulting. The technology layer (Terminus, 6sense, Demandbase) handles identification and orchestration, but the strategy part is mostly organizational: getting marketing and sales to share a target list and agree on what &#x27;engaged&#x27; means. Companies that treat ABM as a software purchase rather than a process change tend to be disappointed.
+ABM works best in B2B with long sales cycles and high deal values, enterprise software, financial services, consulting. The technology layer (Terminus, 6sense, Demandbase) handles identification and orchestration, but the strategy part is mostly organizational: getting marketing and sales to share a target list and agree on what 'engaged' means. Companies that treat ABM as a software purchase rather than a process change tend to be disappointed.
 
 ## How it works
 

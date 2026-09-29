@@ -6,20 +6,20 @@
 | Pricing transparency | 8/10 | Framework free under MIT; LangSmith free tier with paid from $39/mo and LangGraph Cloud from $39/mo published (the vendor pricing page: [pricing page](https://www.langchain.com/pricing), verified 2026-08-28). |
 | Feature depth | 7/10 | LLM chaining, agent orchestration, tool calling, structured output and RAG cover the agent stack (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
 | Integrations | 8/10 | OpenAI, Anthropic, Google AI, Pinecone, Chroma, n8n, Slack, Notion, Drive and GitHub documented (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
-| AI capability | 8/10 | Agent orchestration and RAG are the framework&#x27;s reason to exist (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
+| AI capability | 8/10 | Agent orchestration and RAG are the framework's reason to exist (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
 | Openness | 9/10 | MIT-licensed with 146k GitHub stars, the largest in the catalog (the source repository: [repository](langchain-ai/langchain), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2022 with commercial LangSmith/LangGraph arms behind the core (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
 
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $39/mo once past the free tier |
-| &#10003; AI capabilities: LLM chaining |  |
-| &#10003; Active public repository (146,036 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include OpenAI, Anthropic, Google AI (10 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $39/mo once past the free tier |
+| ✓ AI capabilities: LLM chaining |  |
+| ✓ Active public repository (146,036 GitHub stars counted at last check) |  |
+| ✓ Native integrations include OpenAI, Anthropic, Google AI (10 listed) |  |
 
 **What is LangChain?**
-LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 146,036 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 146,036 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does LangChain cost?**
 LangChain has a free tier; paid plans start at $39/mo. Open source (MIT license); LangSmith free tier, paid plans from $39/mo; LangGraph Cloud from $39/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -75,11 +75,11 @@ Workflow Automation · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit LangChain &#8594;](https://www.langchain.com)
+[Visit LangChain →](https://www.langchain.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit LangChain &#8594;](https://www.langchain.com)
+[Visit LangChain →](https://www.langchain.com)
 
 ## MartechSignal Score: 47/60
 
@@ -89,7 +89,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-LangChain is the open-source framework that most AI agent implementations sit on top of, including n8n&#x27;s AI Agent node. Founded in 2022 and headquartered in San Francisco, it provides the building blocks for chaining LLM calls, giving agents access to tools, and managing structured output from language models. For marketing automation, LangChain isn&#x27;t a tool you point and click. It&#x27;s a developer framework. But it&#x27;s the engine inside many of the tools that marketers do use: n8n&#x27;s AI Agent nodes run on LangChain, as do many custom marketing AI implementations. The framework provides standardized ways to connect LLMs to APIs, databases, and search tools, which is what makes AI agents in martech possible rather than just hype. The key concepts (chains for linked LLM calls, agents that decide which tools to call, retrieval for searching knowledge bases) directly enable the lead scoring, content generation, and data enrichment workflows that marketing teams build on platforms like n8n. LangChain&#x27;s ecosystem includes LangSmith for observability and testing, LangGraph for stateful multi-actor applications, and a growing library of integrations. Unless you&#x27;re a developer building custom AI pipelines, you won&#x27;t use LangChain directly. But if you&#x27;re evaluating a tool&#x27;s AI capabilities, knowing whether it sits on LangChain (like n8n) versus a proprietary implementation tells you something about flexibility, community support, and upgrade paths. With 100K+ GitHub stars and a massive contributor community, LangChain is the closest thing to a standard for AI agent frameworks.
+LangChain is the open-source framework that most AI agent implementations sit on top of, including n8n's AI Agent node. Founded in 2022 and headquartered in San Francisco, it provides the building blocks for chaining LLM calls, giving agents access to tools, and managing structured output from language models. For marketing automation, LangChain isn't a tool you point and click. It's a developer framework. But it's the engine inside many of the tools that marketers do use: n8n's AI Agent nodes run on LangChain, as do many custom marketing AI implementations. The framework provides standardized ways to connect LLMs to APIs, databases, and search tools, which is what makes AI agents in martech possible rather than just hype. The key concepts (chains for linked LLM calls, agents that decide which tools to call, retrieval for searching knowledge bases) directly enable the lead scoring, content generation, and data enrichment workflows that marketing teams build on platforms like n8n. LangChain's ecosystem includes LangSmith for observability and testing, LangGraph for stateful multi-actor applications, and a growing library of integrations. Unless you're a developer building custom AI pipelines, you won't use LangChain directly. But if you're evaluating a tool's AI capabilities, knowing whether it sits on LangChain (like n8n) versus a proprietary implementation tells you something about flexibility, community support, and upgrade paths. With 100K+ GitHub stars and a massive contributor community, LangChain is the closest thing to a standard for AI agent frameworks.
 
 LangChain homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -146,7 +146,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 146,036 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 146,036 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 LangChain has a free tier; paid plans start at $39/mo. Open source (MIT license); LangSmith free tier, paid plans from $39/mo; LangGraph Cloud from $39/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -157,8 +157,8 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ### Quick Facts
 
 ## Get the next teardown

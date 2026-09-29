@@ -3,12 +3,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; Short native integration list - plan for API work |
-| &#10003; AI capabilities: 15 marketing skills with 5 parallel subagents |  |
-| &#10003; Active public repository (2,628 GitHub stars counted at last check) |  |
+| ✓ MIT licence with free self-hosting | ✗ Short native integration list - plan for API work |
+| ✓ AI capabilities: 15 marketing skills with 5 parallel subagents |  |
+| ✓ Active public repository (2,628 GitHub stars counted at last check) |  |
 
 **What is AI Marketing Suite?**
-AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,628 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,628 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does AI Marketing Suite cost?**
 AI Marketing Suite is open source - MIT licensed and free to self-host; the public repository carries 2,628 stars. You pay in server time and maintenance, not licences.
@@ -65,11 +65,11 @@ Agent Skills · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
-[Visit AI Marketing Suite &#8594;](https://github.com/zubair-trabzada/ai-marketing-claude)
+[Visit AI Marketing Suite →](https://github.com/zubair-trabzada/ai-marketing-claude)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit AI Marketing Suite &#8594;](https://github.com/zubair-trabzada/ai-marketing-claude)
+[Visit AI Marketing Suite →](https://github.com/zubair-trabzada/ai-marketing-claude)
 
 ## Catalog facts: AI Marketing Suite
 
@@ -79,7 +79,7 @@ The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
-AI Marketing Suite is a 15-skill pack for Claude Code aimed at solopreneurs and agency builders who want to sell marketing services. You type /market audit https://example.com and five parallel agents analyze content and messaging, conversion optimization, SEO and discoverability, competitive positioning, and brand trust. Each gets a 0-100 score. The whole thing takes a couple of minutes and outputs a structured Markdown report. Add pip install reportlab and you get a client-ready PDF. The 15 commands cover the freelance marketing toolkit: /market copy generates optimized copy with before/after examples, /market emails builds complete email sequences, /market social produces a 30-day content calendar, /market ads writes ad creative for all platforms, /market funnel analyzes conversion paths, /market competitors runs competitive intelligence, /market landing does CRO analysis, /market launch builds a product launch playbook, and /market proposal generates client proposals. It&#x27;s built for the person who just landed a marketing client and needs to deliver an audit by Friday. Setup is a one-line curl install or a git clone. The architecture is straightforward: one orchestrator SKILL.md routes commands to 14 sub-skills, and 5 parallel subagents handle the audit dimensions. No external dependencies beyond Claude Code itself, unless you want PDF output. The limitation is depth. Fifteen skills is a survey, not a specialization. The SEO audit won&#x27;t match Claude SEO&#x27;s 25 sub-skills and 18 agents. The ad copy won&#x27;t match Claude Ads&#x27; 250+ platform-specific checks. But for a generalist who needs to audit a website, write some copy, build an email sequence, and hand over a PDF report, this does the job in one install. The repo was last pushed in March 2026, so it&#x27;s not as actively maintained as some alternatives. The author also ships companion packs for ads (ai-ads-claude) and sales (ai-sales-team-claude) if you want to go deeper on those verticals.
+AI Marketing Suite is a 15-skill pack for Claude Code aimed at solopreneurs and agency builders who want to sell marketing services. You type /market audit https://example.com and five parallel agents analyze content and messaging, conversion optimization, SEO and discoverability, competitive positioning, and brand trust. Each gets a 0-100 score. The whole thing takes a couple of minutes and outputs a structured Markdown report. Add pip install reportlab and you get a client-ready PDF. The 15 commands cover the freelance marketing toolkit: /market copy generates optimized copy with before/after examples, /market emails builds complete email sequences, /market social produces a 30-day content calendar, /market ads writes ad creative for all platforms, /market funnel analyzes conversion paths, /market competitors runs competitive intelligence, /market landing does CRO analysis, /market launch builds a product launch playbook, and /market proposal generates client proposals. It's built for the person who just landed a marketing client and needs to deliver an audit by Friday. Setup is a one-line curl install or a git clone. The architecture is straightforward: one orchestrator SKILL.md routes commands to 14 sub-skills, and 5 parallel subagents handle the audit dimensions. No external dependencies beyond Claude Code itself, unless you want PDF output. The limitation is depth. Fifteen skills is a survey, not a specialization. The SEO audit won't match Claude SEO's 25 sub-skills and 18 agents. The ad copy won't match Claude Ads' 250+ platform-specific checks. But for a generalist who needs to audit a website, write some copy, build an email sequence, and hand over a PDF report, this does the job in one install. The repo was last pushed in March 2026, so it's not as actively maintained as some alternatives. The author also ships companion packs for ads (ai-ads-claude) and sales (ai-sales-team-claude) if you want to go deeper on those verticals.
 
 AI Marketing Suite homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -129,13 +129,13 @@ Being MIT-licensed means the rubrics are editable. When the 0-100 audit scores d
 
 One honest limit before adopting it for client work. The audit scores come from prompt rubrics, and two runs on an unchanged site can land a few points apart. Present the output as an assessment with stated criteria rather than a measurement, and the variance stops being a credibility problem. The report is strongest where it names specific pages and quotes specifics, which is exactly the part worth keeping after your own read.
 
-The five audit pillars map cleanly onto what prospects ask for in an initial call: content, conversion optimization, SEO and discoverability, competitive positioning, and brand trust. That mapping is the pitch&#x27;s quiet strength. The report answers the questions a buyer already has, in the order they ask them, which is why the output converts better than a generic technical audit nobody requested.
+The five audit pillars map cleanly onto what prospects ask for in an initial call: content, conversion optimization, SEO and discoverability, competitive positioning, and brand trust. That mapping is the pitch's quiet strength. The report answers the questions a buyer already has, in the order they ask them, which is why the output converts better than a generic technical audit nobody requested.
 
 On the 0-100 scale, the honest framing is calibration, not measurement. The scores rank pages against each other and track movement over time more reliably than they compare two different sites. Use them to show a before-and-after and to prioritize which section to fix first. Presenting a 71 as an objective grade invites an argument the number cannot win.
 
 A sensible first week is small by design. Run the audit on your own site, read every line of the report once, and rewrite the two sections you disagree with. That pass teaches you the rubrics faster than any documentation, and the site you know best is the one where you will spot soft judgment immediately. Client work comes after that read.
 
-Running costs stay low by design. The pack is MIT-licensed with no seat fees, reportlab is optional and free, and the only recurring bill is model usage at your provider&#x27;s rates. A full five-agent audit is one of the heavier runs in the suite, so price it like a research call rather than a keystroke. Against a day of manual review, most solo operators find that an easy trade.
+Running costs stay low by design. The pack is MIT-licensed with no seat fees, reportlab is optional and free, and the only recurring bill is model usage at your provider's rates. A full five-agent audit is one of the heavier runs in the suite, so price it like a research call rather than a keystroke. Against a day of manual review, most solo operators find that an easy trade.
 
 The clearest signal after a month is whether the reports survive your own edits untouched. Forwarding output to a prospect with light changes means the suite is earning its place. When every section needs rewriting, the rubrics want the prompt-level tune-up the license allows.
 
@@ -158,7 +158,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,628 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,628 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 AI Marketing Suite is open source - MIT licensed and free to self-host; the public repository carries 2,628 stars. You pay in server time and maintenance, not licences.
 

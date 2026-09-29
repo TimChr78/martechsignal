@@ -13,15 +13,15 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: brazeAI intelligent timing | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Segment, Snowflake, Salesforce (8 listed) | &#10007; Enterprise pricing is quote-based - no public numbers |
-| &#10003; API access for custom integrations |  |
+| ✓ AI capabilities: brazeAI intelligent timing | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Segment, Snowflake, Salesforce (8 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+| ✓ API access for custom integrations |  |
 
 **What is Braze?**
-Braze: Customer engagement platform with AI-powered real-time messaging across channels. Braze ships with brazeAI intelligent timing. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Braze: Customer engagement platform with AI-powered real-time messaging across channels. Braze ships with brazeAI intelligent timing. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Braze cost?**
-Braze uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on MAUs and message volume; enterprise contracts typical. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
+Braze uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on MAUs and message volume; enterprise contracts typical. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
 
 **Is Braze a good Marketing Automation tool in 2026?**
 Worth it only at meaningful volume with dedicated ops. Smaller teams get 80% of the pattern from Customer.io at a fraction of the cost.
@@ -73,11 +73,11 @@ Marketing Automation · Enterprise Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit Braze &#8594;](https://www.braze.com)
+[Visit Braze →](https://www.braze.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Braze &#8594;](https://www.braze.com)
+[Visit Braze →](https://www.braze.com)
 
 ## MartechSignal Score: 36/60
 
@@ -87,7 +87,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Braze is a cross-channel customer engagement platform built for enterprises that treat customer communication as a strategic advantage rather than a cost center. Founded in 2011 as Appboy (a mobile marketing tool) and rebranded in 2017, Braze went public in 2021 and now competes directly with Salesforce Marketing Cloud, Adobe Campaign, and Iterable for the enterprise engagement market. The platform&#x27;s core thesis is that customer engagement should be coordinated across all channels at once rather than managed in silos. Braze orchestrates email, push notifications, in-app messages, SMS, WhatsApp, web messaging, and paid ad audiences from a single platform, using real-time behavioral data to decide which message goes to which channel at which moment. Its Canvas feature lets marketers build multi-step, multi-channel customer journeys with AI-powered experimentation that automatically tests and optimizes send times, channel selection, and content variants. Braze serves large consumer brands like Peloton, Grubhub, and HBO Max, with a product built for billions of messages per month. The platform competes on technical capability: its APIs, data processing speed, and segmentation engine are built for developer and data science teams, not just marketers. Pricing is custom-quoted and scales with monthly active users and message volume, putting it in enterprise territory. The main limitation is vertical focus: Braze excels at consumer engagement (media, retail, food delivery) but lacks the B2B lead management and ABM features that Marketo and HubSpot provide.
+Braze is a cross-channel customer engagement platform built for enterprises that treat customer communication as a strategic advantage rather than a cost center. Founded in 2011 as Appboy (a mobile marketing tool) and rebranded in 2017, Braze went public in 2021 and now competes directly with Salesforce Marketing Cloud, Adobe Campaign, and Iterable for the enterprise engagement market. The platform's core thesis is that customer engagement should be coordinated across all channels at once rather than managed in silos. Braze orchestrates email, push notifications, in-app messages, SMS, WhatsApp, web messaging, and paid ad audiences from a single platform, using real-time behavioral data to decide which message goes to which channel at which moment. Its Canvas feature lets marketers build multi-step, multi-channel customer journeys with AI-powered experimentation that automatically tests and optimizes send times, channel selection, and content variants. Braze serves large consumer brands like Peloton, Grubhub, and HBO Max, with a product built for billions of messages per month. The platform competes on technical capability: its APIs, data processing speed, and segmentation engine are built for developer and data science teams, not just marketers. Pricing is custom-quoted and scales with monthly active users and message volume, putting it in enterprise territory. The main limitation is vertical focus: Braze excels at consumer engagement (media, retail, food delivery) but lacks the B2B lead management and ABM features that Marketo and HubSpot provide.
 
 Braze homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -144,9 +144,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Braze: Customer engagement platform with AI-powered real-time messaging across channels. Braze ships with brazeAI intelligent timing. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Braze: Customer engagement platform with AI-powered real-time messaging across channels. Braze ships with brazeAI intelligent timing. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
-Braze uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on MAUs and message volume; enterprise contracts typical. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
+Braze uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on MAUs and message volume; enterprise contracts typical. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
 
 Worth it only at meaningful volume with dedicated ops. Smaller teams get 80% of the pattern from Customer.io at a fraction of the cost.
 
@@ -159,7 +159,7 @@ Worth it only at meaningful volume with dedicated ops. Smaller teams get 80% of 
 - [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ## Also featured in
 
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) &mdash; Mobile-first brands tuning cross-channel engagement at scale
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Mobile-first brands tuning cross-channel engagement at scale
 ### Quick Facts
 
 Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)

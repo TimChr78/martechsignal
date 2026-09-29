@@ -6,20 +6,20 @@
 | Pricing transparency | 8/10 | Free open-source and self-hosted with nothing to price, and honest WIP labeling (the vendor pricing page: [pricing page](https://alwrity.com), verified 2026-08-28). |
 | Feature depth | 5/10 | Content strategy, generation, SEO and social coverage promise the full platform at draft quality (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
 | Integrations | 2/10 | No named integrations in the catalog (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
-| AI capability | 6/10 | Multimodal generation and AI strategy planning are the platform&#x27;s core claims (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
+| AI capability | 6/10 | Multimodal generation and AI strategy planning are the platform's core claims (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
 | Openness | 8/10 | Open-source self-hosted with 1.2k GitHub stars and full source (the source repository: [repository](ALwrity/ALwrity), verified 2026-09-28). |
 | Operational maturity | 3/10 | 1.2k stars and a self-declared WIP state (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
 
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Open-source licensing with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; API access for custom integrations |  |
-| &#10003; AI capabilities: AI content strategy and planning |  |
-| &#10003; Active public repository (1,157 GitHub stars counted at last check) |  |
+| ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ API access for custom integrations |  |
+| ✓ AI capabilities: AI content strategy and planning |  |
+| ✓ Active public repository (1,157 GitHub stars counted at last check) |  |
 
 **What is ALwrity?**
-ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,157 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,157 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does ALwrity cost?**
 ALwrity is open source - Free to self-host; the public repository carries 1,157 stars. You pay in server time and maintenance, not licences.
@@ -73,11 +73,11 @@ Marketing Automation · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit ALwrity &#8594;](https://alwrity.com)
+[Visit ALwrity →](https://alwrity.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit ALwrity &#8594;](https://alwrity.com)
+[Visit ALwrity →](https://alwrity.com)
 
 ## MartechSignal Score: 32/60
 
@@ -87,7 +87,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-ALwrity is an open-source AI digital marketing platform that takes a different approach from commercial marketing automation tools. Instead of building workflows between SaaS products, it provides AI-native content creation, SEO optimization, and marketing execution as a self-hosted platform. Built in Python and available on GitHub, ALwrity is designed to replace multiple content and SEO tools with one integrated system. The platform generates blog posts, social media content, email copy, and ad creative, grounded in real data from SEO research, competitor analysis, and web scraping. Unlike generic AI writers that produce surface-level content, ALwrity maintains a brand voice profile, remembers audience personas, and grounds outputs in keyword research and competitive intelligence before it writes a single word. It also includes an AI Podcast Studio for audio content generation. The platform integrates with WordPress, social media APIs, and analytics tools to create a content-to-distribution pipeline. As an open-source project, it&#x27;s free to self-host and can be customized for specific marketing workflows. The trade-off is the same as any open-source tool: it requires technical setup, Python knowledge, and API key management for the underlying LLM providers. For marketing teams with technical capacity, ALwrity offers a path to AI-powered content operations without per-seat SaaS fees. For non-technical teams, it&#x27;s not a practical alternative to tools like Jasper or Copy.ai. The project is actively maintained on GitHub with a growing community of contributors.
+ALwrity is an open-source AI digital marketing platform that takes a different approach from commercial marketing automation tools. Instead of building workflows between SaaS products, it provides AI-native content creation, SEO optimization, and marketing execution as a self-hosted platform. Built in Python and available on GitHub, ALwrity is designed to replace multiple content and SEO tools with one integrated system. The platform generates blog posts, social media content, email copy, and ad creative, grounded in real data from SEO research, competitor analysis, and web scraping. Unlike generic AI writers that produce surface-level content, ALwrity maintains a brand voice profile, remembers audience personas, and grounds outputs in keyword research and competitive intelligence before it writes a single word. It also includes an AI Podcast Studio for audio content generation. The platform integrates with WordPress, social media APIs, and analytics tools to create a content-to-distribution pipeline. As an open-source project, it's free to self-host and can be customized for specific marketing workflows. The trade-off is the same as any open-source tool: it requires technical setup, Python knowledge, and API key management for the underlying LLM providers. For marketing teams with technical capacity, ALwrity offers a path to AI-powered content operations without per-seat SaaS fees. For non-technical teams, it's not a practical alternative to tools like Jasper or Copy.ai. The project is actively maintained on GitHub with a growing community of contributors.
 
 ALwrity homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -126,7 +126,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,157 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,157 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 ALwrity is open source - Free to self-host; the public repository carries 1,157 stars. You pay in server time and maintenance, not licences.
 

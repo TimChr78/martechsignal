@@ -26,15 +26,15 @@ Deliverability is the measure of whether your emails actually reach the inbox in
 
 ## Why it matters
 
-Deliverability used to be a dark art. You&#x27;d warm up an IP address over weeks, monitor blacklist status, and pray. The big mailbox providers, Gmail, Microsoft, Yahoo, now publish clearer requirements, and Google&#x27;s 2024 bulk sender guidelines forced a lot of companies to finally set up DMARC. The tools in this space have gotten better at telling you why an email bounced instead of just that it did.
+Deliverability used to be a dark art. You'd warm up an IP address over weeks, monitor blacklist status, and pray. The big mailbox providers, Gmail, Microsoft, Yahoo, now publish clearer requirements, and Google's 2024 bulk sender guidelines forced a lot of companies to finally set up DMARC. The tools in this space have gotten better at telling you why an email bounced instead of just that it did.
 
 ## How it works
 
-Email deliverability is the measure of whether your messages reach the inbox instead of spam. It is decided by the receivers: Gmail, Outlook, and Yahoo run rules that score every sender on reputation, engagement, and infrastructure. Key inputs are your domain&#x27;s sending history, spam complaints, bounces, unsubscribes, and how many recipients open, reply, or delete without reading. The provider you send through matters, but the reputation belongs to your domain. You build reputation by sending wanted mail at a steady volume, and the receivers&#x27; filters respond by letting more of it through. Every send updates your standing on the signals receivers watch: complaint rate, bounce rate, trap hits, and engagement broken out by mailbox provider. When something goes wrong, the fix is usually upstream, list hygiene or content relevance, not a new sending tool.
+Email deliverability is the measure of whether your messages reach the inbox instead of spam. It is decided by the receivers: Gmail, Outlook, and Yahoo run rules that score every sender on reputation, engagement, and infrastructure. Key inputs are your domain's sending history, spam complaints, bounces, unsubscribes, and how many recipients open, reply, or delete without reading. The provider you send through matters, but the reputation belongs to your domain. You build reputation by sending wanted mail at a steady volume, and the receivers' filters respond by letting more of it through. Every send updates your standing on the signals receivers watch: complaint rate, bounce rate, trap hits, and engagement broken out by mailbox provider. When something goes wrong, the fix is usually upstream, list hygiene or content relevance, not a new sending tool.
 
 ## Practical uses
 
-Teams manage deliverability through authentication (SPF, DKIM, DMARC), list hygiene, and engagement-focused sending. Warmup routines gradually increase volume for new domains. Monitoring looks at inbox placement tests and complaint rates per campaign. The business impact is direct: a 2% drop in deliverability can dent revenue more than a price change, because it silently removes a slice of every campaign&#x27;s reach.
+Teams manage deliverability through authentication (SPF, DKIM, DMARC), list hygiene, and engagement-focused sending. Warmup routines gradually increase volume for new domains. Monitoring looks at inbox placement tests and complaint rates per campaign. The business impact is direct: a 2% drop in deliverability can dent revenue more than a price change, because it silently removes a slice of every campaign's reach.
 
 ## How to choose
 

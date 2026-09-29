@@ -1003,7 +1003,22 @@ def _list_item_thing(t):
     return {**_base, "@type": "SoftwareApplication"}
 
 
+# Editorial category -> hub-guide links, shared by category pages (Compare row)
+# and money pages (hub pills back up, r10 H-2). Hand-placed: no data source
+# maps guides to categories.
+CATEGORY_GUIDES = {
+    "marketing-automation": '<b>Guide:</b> <a href="/guides/workflow-automation-strategy/">automation strategy</a>',
+    "content-ai": '<b>Guide:</b> <a href="/guides/ai-seo-tooling/">AI SEO tooling hub</a>',
+    "advertising": '<b>Guide:</b> <a href="/guides/agentic-ai-advertising/">Agentic advertising</a>',
+    "workflow-automation": '<b>Guide:</b> <a href="/guides/mcp-agent-protocols/">MCP and agent protocols</a> &middot; <a href="/guides/workflow-automation-strategy/">automation strategy</a>',
+    "geo-llm-visibility": '<b>Guide:</b> <a href="/guides/generative-engine-optimization/">Generative engine optimization (GEO)</a> &middot; <a href="/glossary/geo/">GEO, defined</a>',
+}
+
+
 def _featured_in(slug):
+    """M21 (r9, 2026-09-28): (url, title, verdict) for every best/vs/
+    alternatives page featuring `slug`, cached per build. Verdicts are our own
+    published editorial, so quoting them adds grounded depth."""
     global _FEATURED_CACHE
     if "_FEATURED_CACHE" not in globals():
         _FEATURED_CACHE = {}

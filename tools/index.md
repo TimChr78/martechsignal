@@ -4,133 +4,133 @@ Anyword
 
 AI copywriting platform with predictive performance scores for marketing content
 
-From $39/moDesk-reviewedAI Content &amp; Copywriting
+From $39/moDesk-reviewedAI Content & Copywriting
 
 ContentBot
 
 AI content automation platform with workflows for blogs, ads, and social posts
 
-FreemiumDesk-reviewedAI Content &amp; Copywriting
+FreemiumDesk-reviewedAI Content & Copywriting
 
 Copy.ai
 
 AI-powered GTM platform for sales and marketing content automation at scale
 
-FreemiumDesk-reviewedAI Content &amp; Copywriting
+FreemiumDesk-reviewedAI Content & Copywriting
 
 Ghost
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
 
-Open SourceDesk-reviewedAI Content &amp; CopywritingOSS
+Open SourceDesk-reviewedAI Content & CopywritingOSS
 
 Hypotenuse AI
 
 AI content generation platform for ecommerce product descriptions and articles
 
-From $56/moDesk-reviewedAI Content &amp; Copywriting
+From $56/moDesk-reviewedAI Content & Copywriting
 
 Jasper
 
 AI marketing content platform for creating on-brand copy, images, and campaigns
 
-From $39/moDesk-reviewedAI Content &amp; Copywriting
+From $39/moDesk-reviewedAI Content & Copywriting
 
 Khoj
 
 Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
 
-Open SourceDesk-reviewedAI Content &amp; CopywritingOSS
+Open SourceDesk-reviewedAI Content & CopywritingOSS
 
 LanguageTool
 
 Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
 
-FreemiumDesk-reviewedAI Content &amp; CopywritingOSS
+FreemiumDesk-reviewedAI Content & CopywritingOSS
 
 LibreTranslate
 
 Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
 
-Open SourceDesk-reviewedAI Content &amp; CopywritingOSS
+Open SourceDesk-reviewedAI Content & CopywritingOSS
 
 Persado
 
 AI content creation and optimization platform for regulated financial services marketing
 
-EnterpriseDesk-reviewedAI Content &amp; Copywriting
+EnterpriseDesk-reviewedAI Content & Copywriting
 
 Phrasee
 
 AI messaging content platform; rebranded as Jacquard in June 2024
 
-EnterpriseDesk-reviewedAI Content &amp; Copywriting
+EnterpriseDesk-reviewedAI Content & Copywriting
 
 Strapi
 
 Open-source headless CMS with AI-powered content management and API-first design
 
-Open SourceDesk-reviewedAI Content &amp; CopywritingOSS
+Open SourceDesk-reviewedAI Content & CopywritingOSS
 
 Writer
 
 Enterprise AI platform with Palmyra models, brand governance, and agents
 
-PaidDesk-reviewedAI Content &amp; Copywriting
+PaidDesk-reviewedAI Content & Copywriting
 
 AdCreative.ai
 
 AI platform generating high-converting ad creatives and social media post designs
 
-From $20/moDesk-reviewedAdvertising &amp; Paid Media
+From $20/moDesk-reviewedAdvertising & Paid Media
 
 advertools
 
 Python toolkit for SEO and advertising analysis in pandas DataFrames
 
-Open SourceDesk-reviewedAdvertising &amp; Paid MediaOSS
+Open SourceDesk-reviewedAdvertising & Paid MediaOSS
 
 Albert AI
 
 Autonomous AI platform that manages and optimizes digital advertising campaigns
 
-EnterpriseDesk-reviewedAdvertising &amp; Paid Media
+EnterpriseDesk-reviewedAdvertising & Paid Media
 
 Madgicx
 
 AI-powered Meta ads optimization and creative workflow
 
-From $49/moDesk-reviewedAdvertising &amp; Paid Media
+From $49/moDesk-reviewedAdvertising & Paid Media
 
 Opteo
 
 Continuous Google Ads monitoring with one-click improvements
 
-From $129/moDesk-reviewedAdvertising &amp; Paid Media
+From $129/moDesk-reviewedAdvertising & Paid Media
 
 Pencil
 
 AI-powered ad creative generation and performance prediction for paid media
 
-From $11/moDesk-reviewedAdvertising &amp; Paid Media
+From $11/moDesk-reviewedAdvertising & Paid Media
 
 Revealbot (Birch)
 
 AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 
-From $49/moDesk-reviewedAdvertising &amp; Paid Media
+From $49/moDesk-reviewedAdvertising & Paid Media
 
 Revive Adserver
 
 Free open source ad server for publishers, ad networks and advertisers
 
-Open SourceDesk-reviewedAdvertising &amp; Paid MediaOSS
+Open SourceDesk-reviewedAdvertising & Paid MediaOSS
 
 Smartly.io
 
 AI advertising platform spanning creative production, media buying, and measurement
 
-EnterpriseDesk-reviewedAdvertising &amp; Paid Media
+EnterpriseDesk-reviewedAdvertising & Paid Media
 
 Aaron Marketing Skills
 
@@ -224,7 +224,7 @@ Open SourceDesk-reviewedAgent SkillsOSS
 
 Zapier GTM Cheat Codes
 
-Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
 Open SourceDesk-reviewedAgent SkillsOSS
 
@@ -232,67 +232,67 @@ Amplitude
 
 AI-powered digital analytics platform for product and marketing teams
 
-FreemiumDesk-reviewedAnalytics &amp; Attribution
+FreemiumDesk-reviewedAnalytics & Attribution
 
 Attribution
 
 AI-powered marketing attribution platform connecting ad spend to revenue
 
-EnterpriseDesk-reviewedAnalytics &amp; Attribution
+EnterpriseDesk-reviewedAnalytics & Attribution
 
 Heap
 
 AI-powered product analytics with autocapture and digital experience insights
 
-FreemiumDesk-reviewedAnalytics &amp; Attribution
+FreemiumDesk-reviewedAnalytics & Attribution
 
 Matomo
 
 Open-source web analytics platform with full data ownership and AI-powered insights
 
-Open SourceDesk-reviewedAnalytics &amp; AttributionOSS
+Open SourceDesk-reviewedAnalytics & AttributionOSS
 
 Mixpanel
 
 Product analytics platform with AI-powered insights for user behavior tracking
 
-FreemiumDesk-reviewedAnalytics &amp; Attribution
+FreemiumDesk-reviewedAnalytics & Attribution
 
 Northbeam
 
 AI-powered multi-touch attribution and marketing intelligence for ecommerce
 
-EnterpriseDesk-reviewedAnalytics &amp; Attribution
+EnterpriseDesk-reviewedAnalytics & Attribution
 
 Plausible Analytics
 
 Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
 
-Open SourceDesk-reviewedAnalytics &amp; AttributionOSS
+Open SourceDesk-reviewedAnalytics & AttributionOSS
 
 PostHog
 
 Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 
-FreemiumDesk-reviewedAnalytics &amp; AttributionOSS
+FreemiumDesk-reviewedAnalytics & AttributionOSS
 
 Snowplow
 
 Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
 
-Free tierDesk-reviewedAnalytics &amp; AttributionOSS
+Free tierDesk-reviewedAnalytics & AttributionOSS
 
 Triple Whale
 
 AI-powered ecommerce analytics and attribution platform for DTC brands
 
-From $59/moDesk-reviewedAnalytics &amp; Attribution
+From $59/moDesk-reviewedAnalytics & Attribution
 
 Umami
 
 Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps
 
-Open SourceDesk-reviewedAnalytics &amp; AttributionOSS
+Open SourceDesk-reviewedAnalytics & AttributionOSS
 
 AlphOne
 
@@ -360,7 +360,7 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
 
 FreemiumDesk-reviewedCRM
 
-IDURAR ERP &amp; CRM
+IDURAR ERP & CRM
 
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
@@ -398,7 +398,7 @@ Open SourceDesk-reviewedCRMOSS
 
 Relaticle
 
-Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament
+Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
 
 Open SourceDesk-reviewedCRMOSS
 
@@ -442,37 +442,37 @@ ChatbotX
 
 Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 
-Open SourceDesk-reviewedChatbots &amp; Conversational AIOSS
+Open SourceDesk-reviewedChatbots & Conversational AIOSS
 
 Chatfuel
 
 AI chatbot platform for automating customer conversations on messaging channels
 
-From $39/moDesk-reviewedChatbots &amp; Conversational AI
+From $39/moDesk-reviewedChatbots & Conversational AI
 
 Chatwoot
 
 Open-source customer engagement suite with Captain AI and full self-hosting
 
-Open SourceDesk-reviewedChatbots &amp; Conversational AIOSS
+Open SourceDesk-reviewedChatbots & Conversational AIOSS
 
 Intercom
 
 AI-first customer service platform with Fin AI agent and omnichannel messaging
 
-From $29/moDesk-reviewedChatbots &amp; Conversational AI
+From $29/moDesk-reviewedChatbots & Conversational AI
 
 ManyChat
 
 AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 
-FreemiumDesk-reviewedChatbots &amp; Conversational AI
+FreemiumDesk-reviewedChatbots & Conversational AI
 
 Tidio
 
 AI-powered live chat and chatbot platform with Lyro AI agent for customer support
 
-FreemiumDesk-reviewedChatbots &amp; Conversational AI
+FreemiumDesk-reviewedChatbots & Conversational AI
 
 BillionMail
 
@@ -568,85 +568,85 @@ AccuRanker
 
 Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
 
-From $224/moDesk-reviewedGEO &amp; LLM Optimization
+From $224/moDesk-reviewedGEO & LLM Optimization
 
 Adobe LLM Optimizer
 
-Adobe&#x27;s enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
+Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
 
-EnterpriseDesk-reviewedGEO &amp; LLM Optimization
+EnterpriseDesk-reviewedGEO & LLM Optimization
 
 Ahrefs
 
 Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 
-From $129/moDesk-reviewedGEO &amp; LLM Optimization
+From $129/moDesk-reviewedGEO & LLM Optimization
 
 Evertune
 
 GEO visibility measurement with content activation and a ChatGPT Ad Agent
 
-From $800/moDesk-reviewedGEO &amp; LLM Optimization
+From $800/moDesk-reviewedGEO & LLM Optimization
 
 Nightwatch
 
 Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 
-From $79/moDesk-reviewedGEO &amp; LLM Optimization
+From $79/moDesk-reviewedGEO & LLM Optimization
 
 Nimt.ai
 
 AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 
-From $79/moDesk-reviewedGEO &amp; LLM Optimization
+From $79/moDesk-reviewedGEO & LLM Optimization
 
 OtterlyAI
 
 AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 
-From $29/moDesk-reviewedGEO &amp; LLM Optimization
+From $29/moDesk-reviewedGEO & LLM Optimization
 
 Profound
 
 Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
-EnterpriseDesk-reviewedGEO &amp; LLM Optimization
+EnterpriseDesk-reviewedGEO & LLM Optimization
 
 Promptfoo
 
 Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming
 
-FreemiumDesk-reviewedGEO &amp; LLM OptimizationOSS
+FreemiumDesk-reviewedGEO & LLM OptimizationOSS
 
 Rankscale
 
 AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 
-From $99/moDesk-reviewedGEO &amp; LLM Optimization
+From $99/moDesk-reviewedGEO & LLM Optimization
 
 Scrunch
 
 The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 
-From $250/moDesk-reviewedGEO &amp; LLM Optimization
+From $250/moDesk-reviewedGEO & LLM Optimization
 
 SISTRIX
 
 German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
 
-From $119/moDesk-reviewedGEO &amp; LLM Optimization
+From $119/moDesk-reviewedGEO & LLM Optimization
 
 Trakkr
 
 AI visibility platform for brands and agencies: citations, perception, competitors
 
-From $100/moDesk-reviewedGEO &amp; LLM Optimization
+From $100/moDesk-reviewedGEO & LLM Optimization
 
 Writesonic
 
 The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
 
-From $79/moDesk-reviewedGEO &amp; LLM Optimization
+From $79/moDesk-reviewedGEO & LLM Optimization
 
 ActiveCampaign
 
@@ -722,111 +722,111 @@ EnterpriseDesk-reviewedMarketing Automation
 
 Apache Unomi
 
-Apache&#x27;s open-source customer data platform and personalization engine
+Apache's open-source customer data platform and personalization engine
 
-Open SourceDesk-reviewedPersonalization &amp; CDPOSS
+Open SourceDesk-reviewedPersonalization & CDPOSS
 
 Clerk.io
 
 AI-powered ecommerce personalization with search, recommendations, and email
 
-From $119/moDesk-reviewedPersonalization &amp; CDP
+From $119/moDesk-reviewedPersonalization & CDP
 
 Dynamic Yield
 
 AI-powered personalization platform for web, mobile, and email experiences
 
-EnterpriseDesk-reviewedPersonalization &amp; CDP
+EnterpriseDesk-reviewedPersonalization & CDP
 
 Flagsmith
 
 Open-source feature flag and remote config platform with segment targeting
 
-FreemiumDesk-reviewedPersonalization &amp; CDPOSS
+FreemiumDesk-reviewedPersonalization & CDPOSS
 
 GrowthBook
 
 Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 
-FreemiumDesk-reviewedPersonalization &amp; CDPOSS
+FreemiumDesk-reviewedPersonalization & CDPOSS
 
 Jitsu
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
 
-FreemiumDesk-reviewedPersonalization &amp; CDPOSS
+FreemiumDesk-reviewedPersonalization & CDPOSS
 
 Nosto
 
 AI-powered ecommerce personalization with product recommendations and merchandising
 
-EnterpriseDesk-reviewedPersonalization &amp; CDP
+EnterpriseDesk-reviewedPersonalization & CDP
 
 Tealium
 
 Enterprise customer data platform with real-time data orchestration and AI
 
-EnterpriseDesk-reviewedPersonalization &amp; CDP
+EnterpriseDesk-reviewedPersonalization & CDP
 
 Twilio Segment
 
 Customer data platform for collecting, unifying, and activating customer data
 
-FreemiumDesk-reviewedPersonalization &amp; CDP
+FreemiumDesk-reviewedPersonalization & CDP
 
 Clearscope
 
 AI-powered content optimization platform for SEO teams and content writers
 
-From $129/moDesk-reviewedSEO &amp; Search
+From $129/moDesk-reviewedSEO & Search
 
 Frase
 
 AI-powered SEO content platform for research, writing, and AI visibility tracking
 
-From $39/moDesk-reviewedSEO &amp; Search
+From $39/moDesk-reviewedSEO & Search
 
 MarketMuse
 
 AI-powered content strategy and optimization platform for SEO content teams
 
-PaidDesk-reviewedSEO &amp; Search
+PaidDesk-reviewedSEO & Search
 
 OpenSEO
 
 Open source alternative to Ahrefs and Semrush
 
-Open SourceDesk-reviewedSEO &amp; SearchOSS
+Open SourceDesk-reviewedSEO & SearchOSS
 
 Potato
 
-Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers
+Free local tool that measures brand mentions and citations in Claude's web-search answers
 
-Open SourceDesk-reviewedSEO &amp; SearchOSS
+Open SourceDesk-reviewedSEO & SearchOSS
 
 Semrush
 
 All-in-one SEO and digital marketing platform with AI-powered insights and tools
 
-From $117/moDesk-reviewedSEO &amp; Search
+From $117/moDesk-reviewedSEO & Search
 
 Seonaut
 
 Open-source SEO crawler in Go for technical audits, self-hosted or cloud
 
-Open SourceDesk-reviewedSEO &amp; SearchOSS
+Open SourceDesk-reviewedSEO & SearchOSS
 
 Superlines
 
 AI Search Intelligence platform for brands and agencies
 
-From $79/moDesk-reviewedSEO &amp; Search
+From $79/moDesk-reviewedSEO & Search
 
 Surfer SEO
 
 AI-powered content optimization platform for SEO-driven article writing and audits
 
-From $49/moDesk-reviewedSEO &amp; Search
+From $49/moDesk-reviewedSEO & Search
 
 Brandwatch
 
@@ -988,27 +988,27 @@ The weekly newsletter tracks this category: one teardown, one workflow, no fluff
 
 All 161 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
 
-## AI Content &amp; Copywriting *13*
+## AI Content & Copywriting *13*
 
-## Advertising &amp; Paid Media *9*
+## Advertising & Paid Media *9*
 
 ## Agent Skills *16*
 
-## Analytics &amp; Attribution *11*
+## Analytics & Attribution *11*
 
 ## CRM *24*
 
-## Chatbots &amp; Conversational AI *6*
+## Chatbots & Conversational AI *6*
 
 ## Email Marketing *15*
 
-## GEO &amp; LLM Optimization *14*
+## GEO & LLM Optimization *14*
 
 ## Marketing Automation *12*
 
-## Personalization &amp; CDP *9*
+## Personalization & CDP *9*
 
-## SEO &amp; Search *9*
+## SEO & Search *9*
 
 ## Social Media *6*
 

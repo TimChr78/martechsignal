@@ -28,6 +28,7 @@ import json
 from pathlib import Path
 
 from build_tools import page_shell, esc, ROOT, pricing_label, out_links, _tool_fact_img
+from build_tools import CATEGORY_GUIDES
 
 BESTX = ROOT / "tools" / "bestx-content.json"
 VSX = ROOT / "tools" / "vsx-content.json"
@@ -108,6 +109,32 @@ def build_best():
         body.append('<h2>How we picked</h2>')
         body.extend(_intros)
         body.append(_verify_box)
+        # r10 H-2 (2026-09-29): money pages link back up to the hubs whose
+        # Compare rows link down here (symmetric with M26). Categories derive
+        # from the featured tools' own records; guide bits reuse the shared
+        # editorial map. No link sinks.
+        _hub_cats = sorted({tools_by_slug[it["slug"]].get("category", "")
+                            for it in items} - {""})
+        if any(tools_by_slug[it["slug"]].get("open_source") for it in items):
+            _hub_cats = sorted(set(_hub_cats) | {"open-source"})
+        if _hub_cats:
+            _cat_names = {}
+            try:
+                _cat_names = {c["slug"]: c["name"] for c in json.loads(
+                    (ROOT / "tools" / "categories.json").read_text())}
+            except (OSError, ValueError, KeyError):
+                pass
+            _pills = "".join(
+                f'<a class="cat-pill" href="/categories/{c}/">'
+                f'{esc(_cat_names.get(c, c.replace("-", " ").title()))}</a>'
+                for c in _hub_cats)
+            _gbits = " &middot; ".join(
+                CATEGORY_GUIDES[c] for c in _hub_cats if c in CATEGORY_GUIDES)
+            body.append(
+                '<section class="hub-links"><h2>Browse the hubs behind these picks</h2>'
+                f'<div class="cat-nav">{_pills}</div>'
+                + (f'<p style="margin:.6rem 0 0;font-size:.92rem">{_gbits}</p>' if _gbits else "")
+                + "</section>")
 
         for it in items:
             t = tools_by_slug[it["slug"]]
@@ -293,6 +320,28 @@ def build_vs():
         body.append('<p class="alt-back">Prices and features here come from each vendor\'s '
                     'own published materials as catalogued on the tool pages. Read '
                     '<a href="/methodology/">how we evaluate</a>.</p>')
+        # r10 H-2 (2026-09-29): vs pages link their tools' hubs too.
+        _vs_cats = sorted({t.get("category", "") for t in (a, b) if t} - {""})
+        if any(t.get("open_source") for t in (a, b) if t):
+            _vs_cats = sorted(set(_vs_cats) | {"open-source"})
+        if _vs_cats:
+            _vs_names = {}
+            try:
+                _vs_names = {c["slug"]: c["name"] for c in json.loads(
+                    (ROOT / "tools" / "categories.json").read_text())}
+            except (OSError, ValueError, KeyError):
+                pass
+            _vs_pills = "".join(
+                f'<a class="cat-pill" href="/categories/{c}/">'
+                f'{esc(_vs_names.get(c, c.replace("-", " ").title()))}</a>'
+                for c in _vs_cats)
+            _vs_g = " &middot; ".join(
+                CATEGORY_GUIDES[c] for c in _vs_cats if c in CATEGORY_GUIDES)
+            body.append(
+                '<section class="hub-links"><h2>Browse the hubs behind this comparison</h2>'
+                f'<div class="cat-nav">{_vs_pills}</div>'
+                + (f'<p style="margin:.6rem 0 0;font-size:.92rem">{_vs_g}</p>' if _vs_g else "")
+                + "</section>")
 
         breadcrumb = {
             "@context": "https://schema.org",

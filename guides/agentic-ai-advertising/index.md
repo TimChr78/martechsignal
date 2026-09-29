@@ -70,7 +70,7 @@ If this is new territory, the sequencing that works is small and dull. Weeks one
 
 Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [IAB Tech Lab blog](https://iabtechlab.com/blog/)
 
-&copy; 2026 MartechSignal &middot; by Tim Christensen
+© 2026 MartechSignal · by Tim Christensen
 
 
 ```json

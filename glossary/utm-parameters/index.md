@@ -22,15 +22,15 @@ GLOSSARY
 
 ## Definition
 
-UTM parameters are tags appended to URLs to track where traffic comes from. A URL like example.com/page?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=summer-sale tells your analytics platform that the visit came from a summer sale email campaign. Without them, all your email traffic shows up as &#x27;direct&#x27; and you learn nothing.
+UTM parameters are tags appended to URLs to track where traffic comes from. A URL like example.com/page?utm_source=newsletter&utm_medium=email&utm_campaign=summer-sale tells your analytics platform that the visit came from a summer sale email campaign. Without them, all your email traffic shows up as 'direct' and you learn nothing.
 
 ## Why it matters
 
-UTMs were invented by Urchin Tracking Module, the analytics company Google acquired in 2005 to build Google Analytics. The naming convention stuck. The problem was never the technology, it&#x27;s that someone has to decide on a taxonomy and enforce it. Half the companies I&#x27;ve looked at have three different people tagging campaigns three different ways, and the analytics data is a mess as a result.
+UTMs were invented by Urchin Tracking Module, the analytics company Google acquired in 2005 to build Google Analytics. The naming convention stuck. The problem was never the technology, it's that someone has to decide on a taxonomy and enforce it. Half the companies I've looked at have three different people tagging campaigns three different ways, and the analytics data is a mess as a result.
 
 ## How it works
 
-UTM parameters are extra tags appended to a URL that tell your analytics where a visit came from. A link becomes example.com/page?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=launch. The analytics tool parses the parameters and attributes the visit to that source, medium, and campaign. They are the cheapest attribution system in marketing: no SDK, no consent, just links. The whole system depends on people using them consistently.
+UTM parameters are extra tags appended to a URL that tell your analytics where a visit came from. A link becomes example.com/page?utm_source=newsletter&utm_medium=email&utm_campaign=launch. The analytics tool parses the parameters and attributes the visit to that source, medium, and campaign. They are the cheapest attribution system in marketing: no SDK, no consent, just links. The whole system depends on people using them consistently.
 
 ## Practical uses
 
@@ -58,7 +58,7 @@ Sources: [Google campaign URL builder](https://ga-dev-tools.google/campaign-url-
 
 ### Categories
 
-[Analytics &amp; Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
+[Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

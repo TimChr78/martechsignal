@@ -13,13 +13,13 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; API access for custom integrations |  |
-| &#10003; AI capabilities: AI development harness with 192 evaluation cases |  |
-| &#10003; Active public repository (1,715 GitHub stars counted at last check) |  |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ API access for custom integrations |  |
+| ✓ AI capabilities: AI development harness with 192 evaluation cases |  |
+| ✓ Active public repository (1,715 GitHub stars counted at last check) |  |
 
 **What is Open Mercato?**
-Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,715 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,715 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Open Mercato cost?**
 Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,715 stars. You pay in server time and maintenance, not licences.
@@ -31,7 +31,7 @@ A credible AI-first foundation for engineering-led commerce and CRM builds; earl
 No, and the project says so itself: it is a foundation framework, with the pitch that business modules and conventions are pre-decided so you start at 80% and build the differentiating 20%. The core CRM module does ship with people, companies, deals, and activities, plus a customer self-service portal, and a demo with sample CRM data loads during yarn initialize, so you can see working software at demo.openmercato.com. But the intended comparison is against starting a Next.js commerce project from scratch, not against Shopify or a configured CRM, and evaluation should assume engineering work.
 
 **How does Open Mercato work with Claude Code, Codex, or Cursor?**
-The framework is built around agent tooling. The repo&#x27;s AGENTS.md defines a spec-first workflow (designs live in .ai/specs/ as dated markdown files) with Always, Ask-First, and Never rules, and CLAUDE.md simply points at it. The standalone project generator emits an AI development harness with guides, skills, and tool-specific configuration for Codex, Claude Code, and Cursor, backed by 192 evaluation cases and a sandboxed release gate. At runtime, a documented MCP server exposes about 70 tools for agent access, and shared skills install with npx skills add open-mercato/skills. In-product, an AI framework provides typed module agents with a mutation-approval gate before AI-driven changes land.
+The framework is built around agent tooling. The repo's AGENTS.md defines a spec-first workflow (designs live in .ai/specs/ as dated markdown files) with Always, Ask-First, and Never rules, and CLAUDE.md simply points at it. The standalone project generator emits an AI development harness with guides, skills, and tool-specific configuration for Codex, Claude Code, and Cursor, backed by 192 evaluation cases and a sandboxed release gate. At runtime, a documented MCP server exposes about 70 tools for agent access, and shared skills install with npx skills add open-mercato/skills. In-product, an AI framework provides typed module agents with a mutation-approval gate before AI-driven changes land.
 
 **What does Open Mercato cost to run?**
 The core is MIT-licensed and free to self-host, including all documented core modules, so costs are your infrastructure (PostgreSQL 17 with pgvector, Redis 7, Meilisearch) and engineering time. A separate Enterprise Edition package adds SSO with OIDC and SCIM 2.0, MFA, sudo re-authentication, and record locks, and ships outside the MIT core; no price is published anywhere on the site or docs. The site mentions community and commercial support tiers without amounts, so enterprise pricing and support are quote-based by absence of a published list.
@@ -84,11 +84,11 @@ Agent Skills · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Open Mercato &#8594;](https://www.openmercato.com/)
+[Visit Open Mercato →](https://www.openmercato.com/)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Open Mercato &#8594;](https://www.openmercato.com/)
+[Visit Open Mercato →](https://www.openmercato.com/)
 
 ## MartechSignal Score: 34/60
 
@@ -115,11 +115,11 @@ MIT-licensed core, free self-hosted; a separate Enterprise Edition package (SSO,
 
 ## How to install
 
-- Monorepo quick start from the docs: git clone https://github.com/open-mercato/open-mercato.git, cd open-mercato &amp;&amp; git checkout develop, docker compose up -d, then cp apps/mercato/.env.example apps/mercato/.env and set DATABASE_URL, JWT_SECRET, and REDIS_URL.
+- Monorepo quick start from the docs: git clone https://github.com/open-mercato/open-mercato.git, cd open-mercato && git checkout develop, docker compose up -d, then cp apps/mercato/.env.example apps/mercato/.env and set DATABASE_URL, JWT_SECRET, and REDIS_URL.
 - Continue with yarn install, yarn build:packages, yarn generate, then yarn build:packages a second time (the docs require it), then yarn initialize, which runs migrations, seeds roles, provisions an admin, and loads demo CRM data (pass --no-examples to skip demo data).
 - Start development with yarn dev; the backend app runs at http://localhost:3000/backend with credentials printed by yarn initialize, and the splash page on port 4000.
 - For a standalone project rather than the monorepo: npx create-mercato-app my-app. The CLI binary is yarn mercato, used for commands such as auth setup, db:migrate, entities install, and api_keys add.
-- Upgrades follow git pull &amp;&amp; yarn install &amp;&amp; yarn db:migrate &amp;&amp; yarn generate &amp;&amp; yarn dev. Development variants include yarn dev:greenfield, dev:ephemeral, dev:classic, and dev:verbose.
+- Upgrades follow git pull && yarn install && yarn db:migrate && yarn generate && yarn dev. Development variants include yarn dev:greenfield, dev:ephemeral, dev:classic, and dev:verbose.
 ## Requirements
 
 Node.js 24 with Yarn 4 via corepack. Docker Compose brings PostgreSQL 17 with the pgvector extension, Redis 7, and Meilisearch (ports 5432, 6379, and 7700). The MCP server runs separately (yarn mcp:dev on port 3001, yarn mcp:serve in production).
@@ -140,7 +140,7 @@ Researched from the repository, docs.openmercato.com, and openmercato.com. Not a
 
 The AI tooling is the substance behind the marketing framing, and it is unusually concrete for an open-source project: an AGENTS.md with a 32,768-byte budget and Always/Ask-First/Never rules, spec-first design in .ai/specs/, per-agent configuration for Codex, Claude Code, and Cursor, 192 evaluation cases, and a documented MCP server with about 70 tools plus a full Claude Code setup guide. CLAUDE.md in the repo is a one-line pointer to AGENTS.md.
 
-Two documentation gaps are worth knowing before you commit: the website still claims version 0.4.6 against an actual v0.7.0, and the docs&#x27; pinned Yarn version (4.12.0) disagrees with package.json (4.17.1). Neither is serious, but both mean you should trust package.json and GitHub releases over the marketing site.
+Two documentation gaps are worth knowing before you commit: the website still claims version 0.4.6 against an actual v0.7.0, and the docs' pinned Yarn version (4.12.0) disagrees with package.json (4.17.1). Neither is serious, but both mean you should trust package.json and GitHub releases over the marketing site.
 
 Scale expectations matter: 1,700-plus stars, a public Discord, a demo at demo.openmercato.com, and sandboxes at sandboxes.openmercato.com signal an active early project, not an established platform. The roadmap (visual module scaffolder, GraphQL gateway, multi-region tenancy, plugin marketplace) is documented but unbuilt.
 
@@ -163,7 +163,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,715 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,715 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,715 stars. You pay in server time and maintenance, not licences.
 
@@ -171,7 +171,7 @@ A credible AI-first foundation for engineering-led commerce and CRM builds; earl
 
 No, and the project says so itself: it is a foundation framework, with the pitch that business modules and conventions are pre-decided so you start at 80% and build the differentiating 20%. The core CRM module does ship with people, companies, deals, and activities, plus a customer self-service portal, and a demo with sample CRM data loads during yarn initialize, so you can see working software at demo.openmercato.com. But the intended comparison is against starting a Next.js commerce project from scratch, not against Shopify or a configured CRM, and evaluation should assume engineering work.
 
-The framework is built around agent tooling. The repo&#x27;s AGENTS.md defines a spec-first workflow (designs live in .ai/specs/ as dated markdown files) with Always, Ask-First, and Never rules, and CLAUDE.md simply points at it. The standalone project generator emits an AI development harness with guides, skills, and tool-specific configuration for Codex, Claude Code, and Cursor, backed by 192 evaluation cases and a sandboxed release gate. At runtime, a documented MCP server exposes about 70 tools for agent access, and shared skills install with npx skills add open-mercato/skills. In-product, an AI framework provides typed module agents with a mutation-approval gate before AI-driven changes land.
+The framework is built around agent tooling. The repo's AGENTS.md defines a spec-first workflow (designs live in .ai/specs/ as dated markdown files) with Always, Ask-First, and Never rules, and CLAUDE.md simply points at it. The standalone project generator emits an AI development harness with guides, skills, and tool-specific configuration for Codex, Claude Code, and Cursor, backed by 192 evaluation cases and a sandboxed release gate. At runtime, a documented MCP server exposes about 70 tools for agent access, and shared skills install with npx skills add open-mercato/skills. In-product, an AI framework provides typed module agents with a mutation-approval gate before AI-driven changes land.
 
 The core is MIT-licensed and free to self-host, including all documented core modules, so costs are your infrastructure (PostgreSQL 17 with pgvector, Redis 7, Meilisearch) and engineering time. A separate Enterprise Edition package adds SSO with OIDC and SCIM 2.0, MFA, sudo re-authentication, and record locks, and ships outside the MIT core; no price is published anywhere on the site or docs. The site mentions community and commercial support tiers without amounts, so enterprise pricing and support are quote-based by absence of a published list.
 

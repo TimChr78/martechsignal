@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Open-source licensing with free self-hosting | &#10007; Short native integration list - plan for API work |
-| &#10003; AI capabilities: AI-assisted app building |  |
-| &#10003; Active public repository (24,127 GitHub stars counted at last check) |  |
+| ✓ Open-source licensing with free self-hosting | ✗ Short native integration list - plan for API work |
+| ✓ AI capabilities: AI-assisted app building |  |
+| ✓ Active public repository (24,127 GitHub stars counted at last check) |  |
 
 **What is NocoBase?**
-NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,127 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,127 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does NocoBase cost?**
 NocoBase is open source - Free to self-host; the public repository carries 24,127 stars; a paid hosted tier exists if you would rather not run the servers. You pay in server time and maintenance, not licences.
@@ -27,9 +27,9 @@ NocoBase is open source - Free to self-host; the public repository carries 24,12
 The most credible self-hosted option for marketing teams that need owned, modeled campaign systems and have the technical help to build them.
 
 **What is NocoBase used for in marketing?**
-Marketing operations teams use it to build the systems generic tools don&#x27;t cover well: lead routing and scoring, campaign and UTM trackers, content approval workflows, and lightweight marketing data hubs. Because it is self-hosted, consent records and lead data stay inside your own infrastructure, which matters for GDPR-constrained teams.
+Marketing operations teams use it to build the systems generic tools don't cover well: lead routing and scoring, campaign and UTM trackers, content approval workflows, and lightweight marketing data hubs. Because it is self-hosted, consent records and lead data stay inside your own infrastructure, which matters for GDPR-constrained teams.
 
-**NocoBase vs Airtable: what&#x27;s the difference?**
+**NocoBase vs Airtable: what's the difference?**
 Airtable is a polished cloud database you can use in minutes; NocoBase is a platform you model and assemble, self-hosted, with server-side workflows and no per-seat cost. Choose Airtable for speed and simplicity, NocoBase when data ownership, custom logic or scale matter more than a quick start.
 
 **Does NocoBase have a demo?**
@@ -81,11 +81,11 @@ Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-05
 
-[Visit NocoBase &#8594;](https://www.nocobase.com)
+[Visit NocoBase →](https://www.nocobase.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit NocoBase &#8594;](https://www.nocobase.com)
+[Visit NocoBase →](https://www.nocobase.com)
 
 ## MartechSignal Score: 42/60
 
@@ -127,15 +127,15 @@ Marketers who want a working system overnight without modeling data, and teams s
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-NocoBase is a construction kit, not a finished tool. You define data models first (leads, campaigns, assets, vendors), then assemble pages and workflows around them from blocks. For marketing operations that is the whole appeal: the lead-scoring model, the UTM taxonomy, the approval chain for campaign copy, all of it can match how your team actually works instead of bending to a SaaS vendor&#x27;s fixed schema. The trade is a steeper start than Airtable-class tools, because someone on the team has to think in data models.
+NocoBase is a construction kit, not a finished tool. You define data models first (leads, campaigns, assets, vendors), then assemble pages and workflows around them from blocks. For marketing operations that is the whole appeal: the lead-scoring model, the UTM taxonomy, the approval chain for campaign copy, all of it can match how your team actually works instead of bending to a SaaS vendor's fixed schema. The trade is a steeper start than Airtable-class tools, because someone on the team has to think in data models.
 
 The practical marketing builds we see teams reach for are the unglamorous ones: a lead-routing system that assigns inbound leads by territory and score with a full audit trail, a campaign tracker that joins UTMs, budgets and results in one place, content approval flows with role-based sign-off, or a lightweight marketing data hub sitting between your ad platforms and your CRM. None of these exist as off-the-shelf NocoBase apps; all of them are a few blocks and one workflow away once the data model exists.
 
 Two things separate NocoBase from most no-code platforms in a marketing stack. First, self-hosting: the core is open source (24,127 GitHub stars GitHub stars and active development), so campaign data, consent records and lead history can live inside your own infrastructure, which matters for EU teams with GDPR obligations and for any marketing org tired of per-seat pricing on operational data. Second, the workflow engine runs server-side, so lead routing, enrichment calls and notification chains keep working whether or not a browser is open.
 
-Version 2.0 adds what NocoBase calls AI employees: assistant-style agents that work on top of the same data models and no-code interface rather than generating an app from a prompt. For marketing use that reads as assisted configuration and Q&amp;A over your own operational data, not a magic app generator. The AI-assisted builder helps with initial scaffolding; the system you end up running is still the one you defined.
+Version 2.0 adds what NocoBase calls AI employees: assistant-style agents that work on top of the same data models and no-code interface rather than generating an app from a prompt. For marketing use that reads as assisted configuration and Q&A over your own operational data, not a magic app generator. The AI-assisted builder helps with initial scaffolding; the system you end up running is still the one you defined.
 
-This assessment is based on the documented architecture, the plugin ecosystem and the project&#x27;s public materials. The integration story is API-first (REST API and webhooks in the core, with plugins for data sources and authentication), so connecting a MAP or CRM is standard work, but there are no turnkey marketing connectors in the box. Plan for integration effort the way you would plan for any self-hosted platform.
+This assessment is based on the documented architecture, the plugin ecosystem and the project's public materials. The integration story is API-first (REST API and webhooks in the core, with plugins for data sources and authentication), so connecting a MAP or CRM is standard work, but there are no turnkey marketing connectors in the box. Plan for integration effort the way you would plan for any self-hosted platform.
 
 ## Verdict
 
@@ -157,13 +157,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,127 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,127 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 NocoBase is open source - Free to self-host; the public repository carries 24,127 stars; a paid hosted tier exists if you would rather not run the servers. You pay in server time and maintenance, not licences.
 
 The most credible self-hosted option for marketing teams that need owned, modeled campaign systems and have the technical help to build them.
 
-Marketing operations teams use it to build the systems generic tools don&#x27;t cover well: lead routing and scoring, campaign and UTM trackers, content approval workflows, and lightweight marketing data hubs. Because it is self-hosted, consent records and lead data stay inside your own infrastructure, which matters for GDPR-constrained teams.
+Marketing operations teams use it to build the systems generic tools don't cover well: lead routing and scoring, campaign and UTM trackers, content approval workflows, and lightweight marketing data hubs. Because it is self-hosted, consent records and lead data stay inside your own infrastructure, which matters for GDPR-constrained teams.
 
 Airtable is a polished cloud database you can use in minutes; NocoBase is a platform you model and assemble, self-hosted, with server-side workflows and no per-seat cost. Choose Airtable for speed and simplicity, NocoBase when data ownership, custom logic or scale matter more than a quick start.
 
@@ -178,7 +178,7 @@ Yes, NocoBase runs a live demo on its website, and because the core is open sour
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ## Also featured in
 
-- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/) &mdash; Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.
+- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/) — Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.
 ### Quick Facts
 
 Related guides: [NocoBase vs Nocodb](/vs/nocodb-vs-nocobase/)

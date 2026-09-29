@@ -26,7 +26,7 @@ If you subscribe to the weekly newsletter, we store your email address with our 
 
 Questions about this policy can go through the site's GitHub repository discussions.
 
-&copy; 2026 MARTECHSIGNAL &middot; THE AI IN MARKETING AUTOMATION
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 
 ```json

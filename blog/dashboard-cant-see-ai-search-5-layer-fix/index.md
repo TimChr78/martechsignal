@@ -1,4 +1,4 @@
-# Your Dashboard Can&#x27;t See AI Search: 5-Layer Fix
+# Your Dashboard Can't See AI Search: 5-Layer Fix
 
 
 | Layer | Question it answers | Track this | Legacy dashboard shows |
@@ -15,7 +15,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
 
 SEO · AI SEARCH · 11 MIN
 
-## Your Dashboard Can&#x27;t See AI Search, Here&#x27;s the 5-Layer Fix
+## Your Dashboard Can't See AI Search, Here's the 5-Layer Fix
 
 [How we review](/methodology/) · No affiliate links
 
@@ -71,7 +71,7 @@ One caveat before anyone builds a UGC strategy deck: the floor is stable, the pl
 
 The framework is only useful as a build sequence. For a marketing ops team running GA4, GSC, and a CRM, it looks like this.
 
-`{ &quot;prompt_library&quot;: [ { &quot;prompt&quot;: &quot;best marketing automation platforms for mid-market B2B&quot;, &quot;stage&quot;: &quot;discovery&quot;, &quot;engines&quot;: [&quot;chatgpt&quot;, &quot;gemini&quot;, &quot;perplexity&quot;, &quot;google_ai_mode&quot;], &quot;cadence&quot;: &quot;monthly&quot;, &quot;record&quot;: [&quot;mentioned&quot;, &quot;cited&quot;, &quot;url_cited&quot;, &quot;competitors_named&quot;] }, { &quot;prompt&quot;: &quot;[your brand] vs [top competitor] implementation comparison&quot;, &quot;stage&quot;: &quot;evaluation&quot;, &quot;engines&quot;: [&quot;chatgpt&quot;, &quot;gemini&quot;, &quot;perplexity&quot;, &quot;google_ai_mode&quot;], &quot;cadence&quot;: &quot;monthly&quot;, &quot;record&quot;: [&quot;mentioned&quot;, &quot;cited&quot;, &quot;url_cited&quot;, &quot;sentiment&quot;] } ] }` **Week one: audit access.** Pull server logs, filter for AI bots, verify the ones that matter with reverse DNS or your CDN's verified-bot list. Record crawl coverage of the pages you actually want cited. If the answer is "we block them in robots.txt," make that a deliberate strategy decision, not an accident from 2023.
+`{ "prompt_library": [ { "prompt": "best marketing automation platforms for mid-market B2B", "stage": "discovery", "engines": ["chatgpt", "gemini", "perplexity", "google_ai_mode"], "cadence": "monthly", "record": ["mentioned", "cited", "url_cited", "competitors_named"] }, { "prompt": "[your brand] vs [top competitor] implementation comparison", "stage": "evaluation", "engines": ["chatgpt", "gemini", "perplexity", "google_ai_mode"], "cadence": "monthly", "record": ["mentioned", "cited", "url_cited", "sentiment"] } ] }` **Week one: audit access.** Pull server logs, filter for AI bots, verify the ones that matter with reverse DNS or your CDN's verified-bot list. Record crawl coverage of the pages you actually want cited. If the answer is "we block them in robots.txt," make that a deliberate strategy decision, not an accident from 2023.
 
 **Week two: freeze the prompt library.** Twenty to fifty prompts from real sales calls, support tickets, and buyer interviews, tagged by journey stage. Run the baseline across the engines your buyers actually use. This becomes the trend line. Ad hoc prompting does not.
 
@@ -105,7 +105,7 @@ This post is part of the [generative engine optimization hub](/guides/generative
 - [Rankscale](/tools/rankscale/) - AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 ## Comparison guides
 
-- [Best Marketing Analytics &amp;amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
+- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
@@ -115,7 +115,7 @@ This post is part of the [generative engine optimization hub](/guides/generative
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [IDURAR ERP &amp; CRM](/tools/idurar-erp-crm/)
+More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

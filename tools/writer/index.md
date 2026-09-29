@@ -13,36 +13,36 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI content generation | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Slack, Google Workspace, Microsoft 365 (12 listed) |  |
-| &#10003; API access for custom integrations |  |
+| ✓ AI capabilities: AI content generation | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Slack, Google Workspace, Microsoft 365 (12 listed) |  |
+| ✓ API access for custom integrations |  |
 
 **What is Writer?**
-Writer: Enterprise AI platform with Palmyra models, brand governance, and agents. Writer ships with AI content generation. This page documents 12 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Writer: Enterprise AI platform with Palmyra models, brand governance, and agents. Writer ships with AI content generation. This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Writer cost?**
-Writer uses paid pricing, so the number depends on your volume and contract. Quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026). Our last verified read of the pricing model was 2026-09-25; the vendor&#x27;s pricing page carries the current quote criteria.
+Writer uses paid pricing, so the number depends on your volume and contract. Quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026). Our last verified read of the pricing model was 2026-09-25; the vendor's pricing page carries the current quote criteria.
 
 **Is Writer worth paying for in 2026?**
 A governed enterprise AI platform with its own models and a real compliance story; the writing tool inside it is now the smallest part, and the price tag is whatever sales says it is.
 
-**Does Writer train its models on my company&#x27;s data?**
+**Does Writer train its models on my company's data?**
 The company says no. The plans page states that you retain full ownership of your data and that Writer takes a zero data retention approach and does not train or improve models on customer data by default, and the trust page repeats that data shared with Writer is not used to create, modify, or train models. Organization-wide data controls, including an automated deletion schedule, are documented, and enterprise buyers can request SOC 2 Type II and HIPAA reports and a BAA.
 
-**What is included in Writer&#x27;s Starter plan and what are its limits?**
+**What is included in Writer's Starter plan and what are its limits?**
 Starter is the self-serve tier: a 14-day free trial with no credit card, up to 5 users, the WRITER Agent interface, up to 5 Playbooks, 1 team Personality profile, basic connectors, and a limited Knowledge Graph. The comparison table caps scheduled routines at 3, active connectors at 3, and graph storage at 50 GB, and roles are limited to one team. No per-seat price is published on the page.
 
 **How much do the Palmyra models cost via the API?**
 Published in the developer docs: Palmyra X6 at $2 per million input tokens and $8 per million output tokens with a 1M context window, Palmyra X5 at $0.60 and $6.00 with the same window, and Palmyra X4 at $2.50 and $10.00 with 128k context and a documented deprecation date of November 18, 2026. X5 is also available on Amazon Bedrock; the docs quote X6 at $0.12 of average cost per finished task.
 
 - **Pricing:** Paid
-- **Category:** [AI Content &amp; Copywriting](/categories/content-ai/)
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
 - **Founded:** 2020
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Writer is a tool in AI Content &amp; Copywriting with custom pricing. The catalog documents 5 AI features, 12 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Writer is a tool in AI Content & Copywriting with custom pricing. The catalog documents 5 AI features, 12 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Tealium
 
@@ -64,27 +64,27 @@ LanguageTool
 
 Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
 
-[More AI Content &amp; Copywriting Tools →](/categories/content-ai/)
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [AI Content &amp; Copywriting](/categories/content-ai/)
+- [AI Content & Copywriting](/categories/content-ai/)
 - Writer
 ## Writer review (2026): pricing, AI features, verdict
 
 Enterprise AI platform with Palmyra models, brand governance, and agents
 
-AI Content &amp; Copywriting · Paid Desk-reviewed
+AI Content & Copywriting · Paid Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-[Visit Writer &#8594;](https://writer.com)
+[Visit Writer →](https://writer.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Writer &#8594;](https://writer.com)
+[Visit Writer →](https://writer.com)
 
 ## MartechSignal Score: 36/60
 
@@ -154,9 +154,9 @@ Researched from writer.com, dev.writer.com, the support centre, and the Hugging 
 
 The pricing correction is the biggest one. Our record carried Team at $18-25 per user per month and Starter at $29-39, and both are gone: the current plans page contains no dollar figure and no per-seat or per-user string at all. It shows Starter (self-serve, 14-day trial, up to 5 users, 5 Playbooks, 3 scheduled routines, 3 active connectors, 50 GB in a single graph) and Enterprise (quote-based, Pro and Lite seats, 20% discount for nonprofits and educational institutions). We have therefore removed the $18 figure from our structured data rather than publish a number the vendor no longer states.
 
-Two framing corrections follow. AI Studio is no longer fairly described as a no-code app builder for business users; Writer now positions it as a single control plane for agents, and the phrase without writing code appears nowhere on the pages we fetched. And our customer list was stale: L&#x27;Oreal and Deloitte appear on no page we could fetch, while KPMG, Intuit, Mars, Uber, Vanguard, Salesforce, and Dropbox do.
+Two framing corrections follow. AI Studio is no longer fairly described as a no-code app builder for business users; Writer now positions it as a single control plane for agents, and the phrase without writing code appears nowhere on the pages we fetched. And our customer list was stale: L'Oreal and Deloitte appear on no page we could fetch, while KPMG, Intuit, Mars, Uber, Vanguard, Salesforce, and Dropbox do.
 
-The model story is real and checkable. Palmyra X6 shipped August 13, 2026 with published per-token pricing and a 1M context window, X4 is documented as deprecated on November 18, 2026, and the palmyra-mini and mini-thinking models were released as open weights under Apache 2.0 in September 2025. Benchmark claims on the marketing site (capability scores, cost per finished task) are the vendor&#x27;s own and the dev docs caveat that scores measure the model inside the combined system.
+The model story is real and checkable. Palmyra X6 shipped August 13, 2026 with published per-token pricing and a 1M context window, X4 is documented as deprecated on November 18, 2026, and the palmyra-mini and mini-thinking models were released as open weights under Apache 2.0 in September 2025. Benchmark claims on the marketing site (capability scores, cost per finished task) are the vendor's own and the dev docs caveat that scores measure the model inside the combined system.
 
 Governance claims are the ones to test in a pilot: voice profiles, terminology lists, and style guides are documented as enforced before review, and the trust page states plainly that customer data is not used to train models, with SOC 2 Type II, ISO 27001, 27701, and 42001, HIPAA and PCI badges, and an option to bring your own encryption keys.
 
@@ -178,9 +178,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Writer: Enterprise AI platform with Palmyra models, brand governance, and agents. Writer ships with AI content generation. This page documents 12 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Writer: Enterprise AI platform with Palmyra models, brand governance, and agents. Writer ships with AI content generation. This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
-Writer uses paid pricing, so the number depends on your volume and contract. Quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026). Our last verified read of the pricing model was 2026-09-25; the vendor&#x27;s pricing page carries the current quote criteria.
+Writer uses paid pricing, so the number depends on your volume and contract. Quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026). Our last verified read of the pricing model was 2026-09-25; the vendor's pricing page carries the current quote criteria.
 
 A governed enterprise AI platform with its own models and a real compliance story; the writing tool inside it is now the smallest part, and the price tag is whatever sales says it is.
 
@@ -195,12 +195,12 @@ Published in the developer docs: Palmyra X6 at $2 per million input tokens and $
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
-- [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) &mdash; Enterprises that put brand governance ahead of raw output
-- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/) &mdash; Pick Writer if you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team.
+- [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Enterprises that put brand governance ahead of raw output
+- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/) — Pick Writer if you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team.
 ### Quick Facts
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)

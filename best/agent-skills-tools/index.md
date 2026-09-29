@@ -12,6 +12,8 @@
 | [Eve Marketing Team Template](/tools/eve-marketing-team/) | Open Source | Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier. |
 | [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/) | Open Source | Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier. |
 
+[Agent Skills](/categories/agent-skills/)[Open-Source Tools](/categories/open-source/)
+
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## Best Agent Skills tools (2026): 8 compared
@@ -29,6 +31,8 @@ Everything here is desk-researched from vendor documentation and our own catalog
 Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
 
 What we could not verify is called out under each tool below.
+
+## Browse the hubs behind these picks
 
 ## [Claude SEO](/tools/claude-seo/)
 
@@ -92,7 +96,7 @@ Vendor: [Official site](https://github.com/CosmoBlk/email-marketing-bible) · [G
 
 ## [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/)
 
-GTM Cheat Codes is the skill library Zapier&#x27;s own go-to-market teams use with coding agents. It starts free, and free, MIT-licensed. Runs inside Codex, Claude Code, Cursor, and similar harnesses. Requires Zapier MCP or SDK credentials for connected actions (verified 2026-08-31). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
+GTM Cheat Codes is the skill library Zapier's own go-to-market teams use with coding agents. It starts free, and free, MIT-licensed. Runs inside Codex, Claude Code, Cursor, and similar harnesses. Requires Zapier MCP or SDK credentials for connected actions (verified 2026-08-31). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
@@ -104,7 +108,7 @@ Vendor: [Official site](https://github.com/zapier/gtm-cheat-codes) · [GitHub](h
 
 ## [Eve Marketing Team Template](/tools/eve-marketing-team/)
 
-Eve Marketing Team Template is Vercel&#x27;s starter for running a five-person marketing team as software. It starts free, and free, MIT-licensed. Runs on eve (eve.dev); deploys to Vercel. You pay only for the AI model + SaaS connectors (Notion, Resend, Typefully) (verified 2026-08-31). The catalog documents 5 AI features, 6 integrations, a public API, and a self-hosting path.
+Eve Marketing Team Template is Vercel's starter for running a five-person marketing team as software. It starts free, and free, MIT-licensed. Runs on eve (eve.dev); deploys to Vercel. You pay only for the AI model + SaaS connectors (Notion, Resend, Typefully) (verified 2026-08-31). The catalog documents 5 AI features, 6 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier.
 

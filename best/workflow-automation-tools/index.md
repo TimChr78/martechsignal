@@ -10,6 +10,8 @@
 | [Workato](/tools/workato/) | Enterprise | No | yes | Best for enterprises governing agents and integration in one platform. |
 | [Tray.io](/tools/tray-io/) | Enterprise | No | yes | Best for AI app governance plus integration on one platform. |
 
+[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
+
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## Best workflow automation tools (2026)
@@ -29,6 +31,10 @@ Three things decide the outcome. The billing unit: tasks, credits, compute time,
 Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
 
 What we could not verify is called out under each tool below.
+
+## Browse the hubs behind these picks
+
+**Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## [n8n](/tools/n8n/)
 
@@ -56,7 +62,7 @@ Vendor: [Official site](https://zapier.com) · [Pricing](https://zapier.com/pric
 
 ## [Make](/tools/make/)
 
-Make, the platform formerly known as Integromat, is the visual middleweight: scenarios are drawn as a graph, so branching, looping, and error handling are visible instead of buried in configuration. Billing moved to credits in August 2026, and router modules plus the five error handlers consume none, which is kind to branching workflows. Free covers 1,000 credits monthly with 2 active scenarios; Core costs 9 dollars monthly, Pro 16 dollars, Teams 29 dollars, each including 10,000 credits with a slider up to 8 million, and unused credits expire at the billing term&#x27;s end. AI Agents run on all plans, alongside Maia by Make, the AI Toolkit, and a Make MCP Server. Founded in Prague in 2012 and part of Celonis since 2020, it sits between Zapier and n8n.
+Make, the platform formerly known as Integromat, is the visual middleweight: scenarios are drawn as a graph, so branching, looping, and error handling are visible instead of buried in configuration. Billing moved to credits in August 2026, and router modules plus the five error handlers consume none, which is kind to branching workflows. Free covers 1,000 credits monthly with 2 active scenarios; Core costs 9 dollars monthly, Pro 16 dollars, Teams 29 dollars, each including 10,000 credits with a slider up to 8 million, and unused credits expire at the billing term's end. AI Agents run on all plans, alongside Maia by Make, the AI Toolkit, and a Make MCP Server. Founded in Prague in 2012 and part of Celonis since 2020, it sits between Zapier and n8n.
 
 **Verdict:** Best for branching visual workflows on a small-team budget.
 

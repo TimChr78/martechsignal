@@ -46,7 +46,7 @@ Analysis posts are opinionated by design, but claims are grounded in what the to
 
 Corrections, tips, and tool suggestions: reach Tim through the site or on [LinkedIn](https://www.linkedin.com/in/tchristensen78).
 
-&copy; 2026 MartechSignal &middot; by Tim Christensen
+© 2026 MartechSignal · by Tim Christensen
 
 
 ```json

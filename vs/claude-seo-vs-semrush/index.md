@@ -20,13 +20,15 @@
 - **Pick Claude SEO if:** Pick Claude SEO if you can host it yourself and want code-level control, starting free.
 - **Pick Semrush if:** Pick Semrush if you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo.
 
+[Agent Skills](/categories/agent-skills/)[Open-Source Tools](/categories/open-source/)[SEO & Search](/categories/seo/)
+
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## Claude SEO vs Semrush (2026): pricing, AI features, verdict
 
 Claude SEO and Semrush end up on the same shortlist. Claude SEO turns Claude Code into an SEO audit machine. Semrush is the closest thing the SEO industry has to an operating system: a platform that spans keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid advertising intelligence, social media management, and increasingly, AI search visibility.
 
-Most decisions here come down to where it runs, how it bills, and how deep the AI features go. The figures below are the catalog&#x27;s last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
+Most decisions here come down to where it runs, how it bills, and how deep the AI features go. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
 These two barely share a budget line. Semrush is a subscription suite with a large database behind it. claude-seo is free software that runs inside a coding session and audits one site at a time. Teams that keep both usually split the work: rank tracking and keyword research in one, technical audits in the other.
 
@@ -98,7 +100,7 @@ There is no data migration here because claude-seo keeps no database. What chang
 
 The honest exit cost runs the other way. Keyword history and position tracking live in Semrush and do not fit inside a local tool, so teams that switch entirely give up that continuity. The common pattern is keeping Semrush for rank history while audits move to the local tool.
 
-These do not migrate against each other; they stack. If you are trading Semrush&#x27;s data for the skill&#x27;s audits, keep a keyword export before cancelling and feed it to the skill&#x27;s research workflows. Going the other way, the skill&#x27;s reports hand you the backlog; Semrush measures whether the backlog worked.
+These do not migrate against each other; they stack. If you are trading Semrush's data for the skill's audits, keep a keyword export before cancelling and feed it to the skill's research workflows. Going the other way, the skill's reports hand you the backlog; Semrush measures whether the backlog worked.
 
 ## When neither is the right answer
 
@@ -107,6 +109,8 @@ Neither replaces an analyst. And if you publish fewer than a page a week, a spre
 ## Who should pick which
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
+
+## Browse the hubs behind this comparison
 
 ## Get the next teardown
 

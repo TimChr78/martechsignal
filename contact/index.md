@@ -14,7 +14,7 @@ No database behind this form: the button just drafts the email in your client, s
 
 This inbox has one reader with a day job, so give it two or three business days before you nudge. Corrections jump the queue: if something on the site is wrong, say so in the subject line and it gets handled first. Vendor pitches get read eventually and buy no editorial consideration, because there is no way to buy one. The running log of published errors lives on the [corrections page](/corrections/).
 
-&copy; 2026 MARTECHSIGNAL &middot; THE AI IN MARKETING AUTOMATION
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 
 ```json

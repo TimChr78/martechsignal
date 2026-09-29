@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $20/mo once past the free tier |
-| &#10003; AI capabilities: chat-to-automation builder |  |
-| &#10003; Native integrations include Slack, Gmail, Google Sheets (6 listed) |  |
+| ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $20/mo once past the free tier |
+| ✓ AI capabilities: chat-to-automation builder |  |
+| ✓ Native integrations include Slack, Gmail, Google Sheets (6 listed) |  |
 
 **What is Activepieces?**
-Activepieces: Open-source workflow automation with a free cloud tier and on-prem hosting. Activepieces ships with chat-to-automation builder. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Activepieces: Open-source workflow automation with a free cloud tier and on-prem hosting. Activepieces ships with chat-to-automation builder. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Activepieces cost?**
 Activepieces has a free tier; paid plans start at $20/mo. Free (100 credits a day, unlimited flows, no card); Plus $20/mo flat (10,000 credits/mo, up to 5 users, bring your own AI keys); Team $200/mo flat (50,000 credits, 25 users, SSO); Ultimate custom. Overage $0.007 per credit on Plus and Team. Embed from $36,000/year. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -69,11 +69,11 @@ Workflow Automation · Freemium · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
-[Visit Activepieces &#8594;](https://www.activepieces.com)
+[Visit Activepieces →](https://www.activepieces.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Activepieces &#8594;](https://www.activepieces.com)
+[Visit Activepieces →](https://www.activepieces.com)
 
 ## MartechSignal Score: 39/60
 
@@ -109,7 +109,7 @@ Current plans and limits live on the [Activepieces pricing page](https://www.act
 
 ## Review notes
 
-Researched from the vendor&#x27;s public pricing and product pages on 2026-09-27. Not a hands-on test.
+Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test.
 
 ## Pros and cons
 
@@ -127,7 +127,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Activepieces: Open-source workflow automation with a free cloud tier and on-prem hosting. Activepieces ships with chat-to-automation builder. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Activepieces: Open-source workflow automation with a free cloud tier and on-prem hosting. Activepieces ships with chat-to-automation builder. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Activepieces has a free tier; paid plans start at $20/mo. Free (100 credits a day, unlimited flows, no card); Plus $20/mo flat (10,000 credits/mo, up to 5 users, bring your own AI keys); Team $200/mo flat (50,000 credits, 25 users, SSO); Ultimate custom. Overage $0.007 per credit on Plus and Team. Embed from $36,000/year. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 

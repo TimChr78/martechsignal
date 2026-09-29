@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $17/mo once past the free tier |
-| &#10003; API access for custom integrations |  |
-| &#10003; Active public repository (4,381 GitHub stars counted at last check) |  |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $17/mo once past the free tier |
+| ✓ API access for custom integrations |  |
+| ✓ Active public repository (4,381 GitHub stars counted at last check) |  |
 
 **What is Ever Gauzy?**
-Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 4,381 stars. Ever Gauzy offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 4,381 stars. Ever Gauzy offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Ever Gauzy cost?**
 Ever Gauzy has a free tier; paid plans start at $17/mo. Self-hosted free (AGPLv3 Community Edition); Cloud Starter free for 1 company and 1 employee, Small Business $17/mo billed annually, Enterprise $139/mo billed annually. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -30,10 +30,10 @@ Unusually broad open-source business platform with published cloud pricing; best
 Self-hosting is free under the AGPLv3 Community Edition license with no seat limits in the license itself. The hosted cloud plans are published in USD: Starter is free forever for one company and one employee; Small Business is $17 per month billed annually ($204 per year) for one company with ten employees, and additional employees cost $5 per month each; Enterprise is $139 per month billed annually ($1,668 per year), either with one company and unlimited employees or unlimited companies with ten employees each, and additional employees cost $10 per month each. Both paid tiers include a 90-day free trial, and customized UX/UI design or integrations carry additional quoted fees.
 
 **Can I use Ever Gauzy free for business, and what does AGPLv3 require?**
-Yes for internal business use, with one obligation to understand. Gauzy&#x27;s default license is the AGPLv3 Community Edition, and the README also names paid Small Business and Enterprise license tiers for teams that need different terms. AGPLv3 closes the hosting loophole in plain GPL: if you offer Gauzy to users over a network, you must make the corresponding source available to those users. Running it internally for your own staff does not create that obligation. If you plan to resell hosted access to clients or modify the code and want to keep changes private, that is exactly what the commercial tiers exist for, so read the license terms before building on it.
+Yes for internal business use, with one obligation to understand. Gauzy's default license is the AGPLv3 Community Edition, and the README also names paid Small Business and Enterprise license tiers for teams that need different terms. AGPLv3 closes the hosting loophole in plain GPL: if you offer Gauzy to users over a network, you must make the corresponding source available to those users. Running it internally for your own staff does not create that obligation. If you plan to resell hosted access to clients or modify the code and want to keep changes private, that is exactly what the commercial tiers exist for, so read the license terms before building on it.
 
 **Does Ever Gauzy include employee time tracking?**
-Yes, and it is the platform&#x27;s anchor module. The README lists employee time-tracking, activity, and productivity tracking as a core capability, and it ships with dedicated desktop applications: Gauzy Desktop and a Desktop Timer app for Windows, Mac, and Linux, so tracked time feeds the same platform that handles invoicing, estimates, and payroll-adjacent reporting. The related features (schedules, appointments, time off, holidays) sit in the same module set. Note that activity tracking of this kind is employee monitoring in substance, so involve the people being tracked before rollout rather than after.
+Yes, and it is the platform's anchor module. The README lists employee time-tracking, activity, and productivity tracking as a core capability, and it ships with dedicated desktop applications: Gauzy Desktop and a Desktop Timer app for Windows, Mac, and Linux, so tracked time feeds the same platform that handles invoicing, estimates, and payroll-adjacent reporting. The related features (schedules, appointments, time off, holidays) sit in the same module set. Note that activity tracking of this kind is employee monitoring in substance, so involve the people being tracked before rollout rather than after.
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
@@ -47,7 +47,7 @@ NocoDB
 
 Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
 
-IDURAR ERP &amp; CRM
+IDURAR ERP & CRM
 
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
@@ -81,11 +81,11 @@ CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Ever Gauzy &#8594;](https://gauzy.co)
+[Visit Ever Gauzy →](https://gauzy.co)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Ever Gauzy &#8594;](https://gauzy.co)
+[Visit Ever Gauzy →](https://gauzy.co)
 
 ## MartechSignal Score: 32/60
 
@@ -130,7 +130,7 @@ Researched from public documentation, the source repository, and vendor material
 
 Researched from github.com/ever-co/ever-gauzy, gauzy.co, and its pricing page. Not a hands-on review. The repo is large and active (4,300-plus stars, 27,000-plus commits), and the README is honest about maturity markers: app.gauzy.co is labeled alpha, and the demo database defaults to SQLite unless you configure PostgreSQL or MySQL.
 
-A correction against our earlier record: Gauzy&#x27;s own frontend is Angular, not React. The README lists Angular with ngx-admin for the Gauzy UI; Next.js belongs to the companion product Ever Teams, which is a separate codebase connecting to Gauzy&#x27;s APIs. We had attributed the wrong frontend stack to Gauzy itself.
+A correction against our earlier record: Gauzy's own frontend is Angular, not React. The README lists Angular with ngx-admin for the Gauzy UI; Next.js belongs to the companion product Ever Teams, which is a separate codebase connecting to Gauzy's APIs. We had attributed the wrong frontend stack to Gauzy itself.
 
 The commercial model is clearer than most open-core projects: the README names three license tiers (Community Edition, Small Business, Enterprise), the cloud pricing page publishes exact numbers (Starter free for one company and one employee, Small Business $17 per month billed annually for ten employees plus $5 per additional employee, Enterprise $139 per month billed annually with unlimited employees or unlimited companies), and both paid tiers carry a 90-day free trial. The hosted SaaS is explicitly alpha, so self-hosting or the demo remain the serious evaluation paths.
 
@@ -157,7 +157,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 4,381 stars. Ever Gauzy offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 4,381 stars. Ever Gauzy offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Ever Gauzy has a free tier; paid plans start at $17/mo. Self-hosted free (AGPLv3 Community Edition); Cloud Starter free for 1 company and 1 employee, Small Business $17/mo billed annually, Enterprise $139/mo billed annually. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -165,9 +165,9 @@ Unusually broad open-source business platform with published cloud pricing; best
 
 Self-hosting is free under the AGPLv3 Community Edition license with no seat limits in the license itself. The hosted cloud plans are published in USD: Starter is free forever for one company and one employee; Small Business is $17 per month billed annually ($204 per year) for one company with ten employees, and additional employees cost $5 per month each; Enterprise is $139 per month billed annually ($1,668 per year), either with one company and unlimited employees or unlimited companies with ten employees each, and additional employees cost $10 per month each. Both paid tiers include a 90-day free trial, and customized UX/UI design or integrations carry additional quoted fees.
 
-Yes for internal business use, with one obligation to understand. Gauzy&#x27;s default license is the AGPLv3 Community Edition, and the README also names paid Small Business and Enterprise license tiers for teams that need different terms. AGPLv3 closes the hosting loophole in plain GPL: if you offer Gauzy to users over a network, you must make the corresponding source available to those users. Running it internally for your own staff does not create that obligation. If you plan to resell hosted access to clients or modify the code and want to keep changes private, that is exactly what the commercial tiers exist for, so read the license terms before building on it.
+Yes for internal business use, with one obligation to understand. Gauzy's default license is the AGPLv3 Community Edition, and the README also names paid Small Business and Enterprise license tiers for teams that need different terms. AGPLv3 closes the hosting loophole in plain GPL: if you offer Gauzy to users over a network, you must make the corresponding source available to those users. Running it internally for your own staff does not create that obligation. If you plan to resell hosted access to clients or modify the code and want to keep changes private, that is exactly what the commercial tiers exist for, so read the license terms before building on it.
 
-Yes, and it is the platform&#x27;s anchor module. The README lists employee time-tracking, activity, and productivity tracking as a core capability, and it ships with dedicated desktop applications: Gauzy Desktop and a Desktop Timer app for Windows, Mac, and Linux, so tracked time feeds the same platform that handles invoicing, estimates, and payroll-adjacent reporting. The related features (schedules, appointments, time off, holidays) sit in the same module set. Note that activity tracking of this kind is employee monitoring in substance, so involve the people being tracked before rollout rather than after.
+Yes, and it is the platform's anchor module. The README lists employee time-tracking, activity, and productivity tracking as a core capability, and it ships with dedicated desktop applications: Gauzy Desktop and a Desktop Timer app for Windows, Mac, and Linux, so tracked time feeds the same platform that handles invoicing, estimates, and payroll-adjacent reporting. The related features (schedules, appointments, time off, holidays) sit in the same module set. Note that activity tracking of this kind is employee monitoring in substance, so involve the people being tracked before rollout rather than after.
 
 ## Similar Tools
 

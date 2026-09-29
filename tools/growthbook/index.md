@@ -13,16 +13,16 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; Starter caps the account at 3 users and 1 project, so growth past a small team means Pro at USD 40 per seat. |
-| &#10003; AI capabilities: growthBook AI assistant (usage-metered per plan) | &#10007; The AI Visual Editor, bandits, and split URL tests sit on paid plans only. |
-| &#10003; Active public repository (8,430 GitHub stars counted at last check) | &#10007; Three enterprise directories carry a separate GrowthBook Enterprise License on top of the MIT core. |
-| &#10003; Native integrations include Snowflake, BigQuery, Databricks (6 listed) |  |
-| &#10003; Unlimited flags, experiments, and traffic on every plan, including the free one. |  |
-| &#10003; The MCP server is hosted and OAuth-based, so AI tooling works without provisioning API keys. |  |
-| &#10003; Cloud and self-hosted are both documented deployment paths, and the warehouse stays on your infrastructure either way. |  |
+| ✓ MIT licence with free self-hosting | ✗ Starter caps the account at 3 users and 1 project, so growth past a small team means Pro at USD 40 per seat. |
+| ✓ AI capabilities: growthBook AI assistant (usage-metered per plan) | ✗ The AI Visual Editor, bandits, and split URL tests sit on paid plans only. |
+| ✓ Active public repository (8,430 GitHub stars counted at last check) | ✗ Three enterprise directories carry a separate GrowthBook Enterprise License on top of the MIT core. |
+| ✓ Native integrations include Snowflake, BigQuery, Databricks (6 listed) |  |
+| ✓ Unlimited flags, experiments, and traffic on every plan, including the free one. |  |
+| ✓ The MCP server is hosted and OAuth-based, so AI tooling works without provisioning API keys. |  |
+| ✓ Cloud and self-hosted are both documented deployment paths, and the warehouse stays on your infrastructure either way. |  |
 
 **What is GrowthBook?**
-GrowthBook: Open-source feature flags and A/B testing with a visual editor and attribute-based targeting. GrowthBook ships with growthBook AI assistant (usage-metered per plan). The public repository carries 8,430 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+GrowthBook: Open-source feature flags and A/B testing with a visual editor and attribute-based targeting. GrowthBook ships with growthBook AI assistant (usage-metered per plan). The public repository carries 8,430 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does GrowthBook cost?**
 GrowthBook is open source - MIT licensed and free to self-host; the public repository carries 8,430 stars; native integrations cover Snowflake, BigQuery, Databricks. You pay in server time and maintenance, not licences.
@@ -37,13 +37,13 @@ MIT for most of the repository. Three directories (packages/back-end/src/enterpr
 Yes. The managed warehouse option covers teams without one on cloud plans, and the self-hosted path lets you run the whole stack yourself.
 
 - **Pricing:** Freemium
-- **Category:** [Personalization &amp; CDP](/categories/personalization/)
+- **Category:** [Personalization & CDP](/categories/personalization/)
 - **GitHub:** ★ 8430
 - **Founded:** 2020
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** GrowthBook is a tool in Personalization &amp; CDP with free and open source. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** GrowthBook is a tool in Personalization & CDP with free and open source. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Flagsmith
 
@@ -61,27 +61,27 @@ Mixpanel
 
 Product analytics platform with AI-powered insights for user behavior tracking
 
-[More Personalization &amp; CDP Tools →](/categories/personalization/)
+[More Personalization & CDP Tools →](/categories/personalization/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [Personalization &amp; CDP](/categories/personalization/)
+- [Personalization & CDP](/categories/personalization/)
 - GrowthBook
 ## GrowthBook review (2026): pricing, AI features, verdict
 
 Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 
-Personalization &amp; CDP · Freemium · OPEN SOURCE Desk-reviewed
+Personalization & CDP · Freemium · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-[Visit GrowthBook &#8594;](https://www.growthbook.io)
+[Visit GrowthBook →](https://www.growthbook.io)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit GrowthBook &#8594;](https://www.growthbook.io)
+[Visit GrowthBook →](https://www.growthbook.io)
 
 ## MartechSignal Score: 42/60
 
@@ -150,7 +150,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-GrowthBook: Open-source feature flags and A/B testing with a visual editor and attribute-based targeting. GrowthBook ships with growthBook AI assistant (usage-metered per plan). The public repository carries 8,430 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+GrowthBook: Open-source feature flags and A/B testing with a visual editor and attribute-based targeting. GrowthBook ships with growthBook AI assistant (usage-metered per plan). The public repository carries 8,430 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 GrowthBook is open source - MIT licensed and free to self-host; the public repository carries 8,430 stars; native integrations cover Snowflake, BigQuery, Databricks. You pay in server time and maintenance, not licences.
 
@@ -164,12 +164,12 @@ Yes. The managed warehouse option covers teams without one on cloud plans, and t
 
 ## Related reading
 
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/) &mdash; Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)

@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; GPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $247.5/mo once past the free tier |
-| &#10003; Active public repository (10,472 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include Salesforce, HubSpot, Pipedrive (10 listed) |  |
+| ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at $247.5/mo once past the free tier |
+| ✓ Active public repository (10,472 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Salesforce, HubSpot, Pipedrive (10 listed) |  |
 
 **What is Mautic?**
-Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,472 stars. Mautic offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,472 stars. Mautic offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Mautic cost?**
 Mautic has a free tier; paid plans start at €247.5/mo. Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -83,11 +83,11 @@ Marketing Automation · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Mautic &#8594;](https://www.mautic.org)
+[Visit Mautic →](https://www.mautic.org)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Mautic &#8594;](https://www.mautic.org)
+[Visit Mautic →](https://www.mautic.org)
 
 ## MartechSignal Score: 38/60
 
@@ -97,7 +97,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Mautic is the longest-running open-source marketing automation platform: email, landing pages, forms, segments, campaigns, contact scoring, and multi-channel messaging across email, SMS, web notifications, and mobile push, all self-hosted under GPL-3.0. Started in 2014, it has been community-governed since Acquia acquired Mautic Inc. in May 2019; the trademark is now held by fiscal host Open Source Collective and operations run through an elected Mautic Council, with Acquia and Dropsolid the largest funders. Around 10,472 GitHub stars, eleven bundled plugin packages, and translations into 70 languages reflect that community. The current line is 7.x (7.2.0 shipped in September 2026) and its requirements are serious: PHP 8.2 or newer, minimums raised to MySQL 8.4 and MariaDB 10.11 in the 7.0 release, npm for asset builds, mandatory cron jobs for segments, campaigns, and the email queue, and command-line-only updates, since browser updating was removed in 5.0. Shared hosting is explicitly discouraged. Campaigns, segments, and points-based lead scoring are deterministic rule engines; there is no AI anywhere, and the project&#x27;s AI Manifesto states plainly that it hosts or maintains no AI services and remains AI-agnostic, so any Mautic AI pitch is a third-party layer rather than a product feature. Integrations are plugin-based: Salesforce, HubSpot, Pipedrive, Zoho, and Dynamics among CRMs, plus WordPress, Twilio, Mailchimp, Gmail and Outlook connectors, Google Tag Manager, Amazon S3, and Zapier. The project&#x27;s own comparison page positions Mautic for organizations whose automation grows more complex over time and that need control over data governance and infrastructure with predictable costs rather than contact-based fees, while conceding HubSpot for teams that want a polished hosted experience. The software is free; money enters through partner Dropsolid&#x27;s managed hosting (from € 247.50 a month, 14-day trial, no card) and paid Extended Long Term Support for older versions. The honest costs are operational: upgrades, backups, deliverability, and cron management are yours, and campaigns cannot be moved between instances.
+Mautic is the longest-running open-source marketing automation platform: email, landing pages, forms, segments, campaigns, contact scoring, and multi-channel messaging across email, SMS, web notifications, and mobile push, all self-hosted under GPL-3.0. Started in 2014, it has been community-governed since Acquia acquired Mautic Inc. in May 2019; the trademark is now held by fiscal host Open Source Collective and operations run through an elected Mautic Council, with Acquia and Dropsolid the largest funders. Around 10,472 GitHub stars, eleven bundled plugin packages, and translations into 70 languages reflect that community. The current line is 7.x (7.2.0 shipped in September 2026) and its requirements are serious: PHP 8.2 or newer, minimums raised to MySQL 8.4 and MariaDB 10.11 in the 7.0 release, npm for asset builds, mandatory cron jobs for segments, campaigns, and the email queue, and command-line-only updates, since browser updating was removed in 5.0. Shared hosting is explicitly discouraged. Campaigns, segments, and points-based lead scoring are deterministic rule engines; there is no AI anywhere, and the project's AI Manifesto states plainly that it hosts or maintains no AI services and remains AI-agnostic, so any Mautic AI pitch is a third-party layer rather than a product feature. Integrations are plugin-based: Salesforce, HubSpot, Pipedrive, Zoho, and Dynamics among CRMs, plus WordPress, Twilio, Mailchimp, Gmail and Outlook connectors, Google Tag Manager, Amazon S3, and Zapier. The project's own comparison page positions Mautic for organizations whose automation grows more complex over time and that need control over data governance and infrastructure with predictable costs rather than contact-based fees, while conceding HubSpot for teams that want a polished hosted experience. The software is free; money enters through partner Dropsolid's managed hosting (from € 247.50 a month, 14-day trial, no card) and paid Extended Long Term Support for older versions. The honest costs are operational: upgrades, backups, deliverability, and cron management are yours, and campaigns cannot be moved between instances.
 
 Mautic homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -127,14 +127,14 @@ Current plans and limits live on the [Mautic pricing page](https://www.mautic.or
 - Requirements (mautic.org/mautic-requirements): PHP 8.2 to 8.5 with the xml, mysql, imap, zip, intl, curl, gd, mbstring, and bcmath extensions, npm from 5.0 onward, and, per UPGRADE-7.0.md, MySQL 8.4+ or MariaDB 10.11+ (the requirements page still says 5.7/10.2 and lags the release). max_execution_time needs at least 240 seconds, and admin passwords must be complex since 5.1.
 - Docker: docker pull mautic/mautic (apache and fpm variants, about 615 MB) with compose roles for mautic_web, mautic_worker, and mautic_cron; CLI commands run as www-data inside the mautic_web container, for example docker compose exec --user www-data --workdir /var/www/html mautic_web php ./bin/console mautic:install https://mautic.example.com.
 - Cron is mandatory, not optional: mautic:segments:update, mautic:campaigns:update, and mautic:campaigns:trigger (the docs suggest 15-minute offsets), messenger:consume email for the queue, and optional jobs for broadcasts, imports, webhooks, and IP lookup downloads.
-- Updates are CLI-only: mautic:update:find, then mautic:update:apply and mautic:update:apply --finish, or on Composer installs cache:clear plus doctrine:migration:migrate. The docs&#x27; own warning applies before any of it: never update without a working, up-to-date backup. For local development the documented route is DDEV (ddev start).
+- Updates are CLI-only: mautic:update:find, then mautic:update:apply and mautic:update:apply --finish, or on Composer installs cache:clear plus doctrine:migration:migrate. The docs' own warning applies before any of it: never update without a working, up-to-date backup. For local development the documented route is DDEV (ddev start).
 ## Requirements
 
 A VPS or dedicated server: the requirements page says shared hosting can impair performance, cause update failures, and limit functionality, and that community support is unlikely for shared hosting setups. Add PHP 8.2+ with nine documented extensions, npm, MySQL 8.4+ or MariaDB 10.11+, and cron as part of the deployment rather than an option. Budget the operational work too: backups before every update, deliverability configuration (bounce management, monitored inboxes, and S/MIME signing are all documented), and the fact that campaigns cannot be moved between instances, so staging strategy needs deciding early.
 
 ## Best for
 
-Organizations that expect automation and integrations to grow more complex over time and need control over data governance and infrastructure, in the project&#x27;s own words: in-house marketing ops with developers nearby, agencies running client instances, and regulated or privacy-conscious teams that cannot put contact data in a vendor&#x27;s cloud and prefer costs tied to real usage rather than contact-based fees.
+Organizations that expect automation and integrations to grow more complex over time and need control over data governance and infrastructure, in the project's own words: in-house marketing ops with developers nearby, agencies running client instances, and regulated or privacy-conscious teams that cannot put contact data in a vendor's cloud and prefer costs tied to real usage rather than contact-based fees.
 
 ## Not for
 
@@ -146,7 +146,7 @@ Researched from public documentation, the source repository, and vendor material
 
 Researched from mautic.org, docs.mautic.org (the 7.1 line), the GitHub repo, Packagist, and Docker Hub (September 2026). Not a hands-on review. The release cadence is healthy: 7.2.0 shipped September 2, 2026 and 7.1.3 on July 7, with a stated cadence of monthly patches, quarterly minors, and a major every two years, plus published support windows including a 7.3 LTS due December 2026.
 
-The correction that matters: our earlier record listed AI-powered lead scoring, AI email personalization, and AI campaign optimization. None exist. The project&#x27;s AI Manifesto states that it does not currently host or maintain any AI services as part of the Mautic project and that Mautic is strictly AI-agnostic. Lead scoring is a deterministic points rule engine. We have emptied the AI feature list rather than soften it.
+The correction that matters: our earlier record listed AI-powered lead scoring, AI email personalization, and AI campaign optimization. None exist. The project's AI Manifesto states that it does not currently host or maintain any AI services as part of the Mautic project and that Mautic is strictly AI-agnostic. Lead scoring is a deterministic points rule engine. We have emptied the AI feature list rather than soften it.
 
 Second correction: governance and integrations. Our Raleigh, North Carolina headquarters claim has no source anywhere on mautic.org; Mautic has been community-governed since Acquia bought Mautic Inc. in 2019, with the trademark held by Open Source Collective and operations under an elected council. Slack, Google Analytics, and Stripe appeared in our integration list with no docs page or official plugin repo behind them (plugin-slack and plugin-stripe return 404); we replaced them with documented plugins.
 
@@ -172,7 +172,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,472 stars. Mautic offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,472 stars. Mautic offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Mautic has a free tier; paid plans start at €247.5/mo. Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -193,7 +193,7 @@ The features page describes IP anonymization for visitor records, site tracking 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Also featured in
 
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &mdash; Marketing teams that want HubSpot-class automation they can host themselves
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Marketing teams that want HubSpot-class automation they can host themselves
 ### Quick Facts
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)

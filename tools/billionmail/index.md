@@ -13,13 +13,13 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $98.9/mo once past the free tier |
-| &#10003; AI capabilities: AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi) |  |
-| &#10003; Active public repository (15,568 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include Postfix, Dovecot, Rspamd (7 listed) |  |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $98.9/mo once past the free tier |
+| ✓ AI capabilities: AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi) |  |
+| ✓ Active public repository (15,568 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Postfix, Dovecot, Rspamd (7 listed) |  |
 
 **What is BillionMail?**
-BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,568 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,568 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does BillionMail cost?**
 BillionMail has a free tier; paid plans start at $98.9/mo. Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.9 per instance. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -83,11 +83,11 @@ Email Marketing · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit BillionMail &#8594;](https://www.billionmail.com)
+[Visit BillionMail →](https://www.billionmail.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit BillionMail &#8594;](https://www.billionmail.com)
+[Visit BillionMail →](https://www.billionmail.com)
 
 ## MartechSignal Score: 39/60
 
@@ -97,7 +97,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-BillionMail is a fully self-hosted email stack in one open-source project: a Linux mail server built from Postfix, Dovecot and Rspamd, plus newsletter and email marketing tooling (campaign tasks, an HTML and drag-and-drop template builder, contact management, open and click tracking) and Roundcube webmail, all AGPL-3.0 with no paid tiers. Install it on a Linux box (the documented minimum is 1 core, 1 GB RAM and 20 GB disk, with outbound port 25) and you own sending, deliverability setup and data end to end: DNS helpers walk you through SPF, DKIM, DMARC and PTR records, Let&#x27;s Encrypt certificates come free, and an IP warmup mode caps your sending rate while a domain builds reputation. For marketing teams the pitch is independence from per-contact SaaS pricing; the trade is that you run the mail server, watch the blocklists and handle upgrades yourself. The API surface is practical: a management API with Swagger documentation and a Send API with single and batch endpoints authenticated by API key, for triggering sends from your own systems, plus outbound SMTP relay support for AWS SES, Mailgun or a custom relay when you would rather not deliver directly. AI template generation is real but modest: since v4.0 you can generate email templates from a prompt, with Anthropic, OpenAI, Gemini, DeepSeek, Grok and Kimi supported as configurable providers. Context worth weighing: the project started in February 2025 with a small core team, the last tagged release is v4.9 from December 2025 and the most recent commit landed in June 2026, so development has slowed sharply, and webhooks and journey automation are absent from the documented feature set. The homepage courts cold emailers with unlimited sending and no built-in speed limit, but the project&#x27;s own framing is mail server plus newsletter plus campaigns. This assessment is based on the repository, the docs site and the release notes.
+BillionMail is a fully self-hosted email stack in one open-source project: a Linux mail server built from Postfix, Dovecot and Rspamd, plus newsletter and email marketing tooling (campaign tasks, an HTML and drag-and-drop template builder, contact management, open and click tracking) and Roundcube webmail, all AGPL-3.0 with no paid tiers. Install it on a Linux box (the documented minimum is 1 core, 1 GB RAM and 20 GB disk, with outbound port 25) and you own sending, deliverability setup and data end to end: DNS helpers walk you through SPF, DKIM, DMARC and PTR records, Let's Encrypt certificates come free, and an IP warmup mode caps your sending rate while a domain builds reputation. For marketing teams the pitch is independence from per-contact SaaS pricing; the trade is that you run the mail server, watch the blocklists and handle upgrades yourself. The API surface is practical: a management API with Swagger documentation and a Send API with single and batch endpoints authenticated by API key, for triggering sends from your own systems, plus outbound SMTP relay support for AWS SES, Mailgun or a custom relay when you would rather not deliver directly. AI template generation is real but modest: since v4.0 you can generate email templates from a prompt, with Anthropic, OpenAI, Gemini, DeepSeek, Grok and Kimi supported as configurable providers. Context worth weighing: the project started in February 2025 with a small core team, the last tagged release is v4.9 from December 2025 and the most recent commit landed in June 2026, so development has slowed sharply, and webhooks and journey automation are absent from the documented feature set. The homepage courts cold emailers with unlimited sending and no built-in speed limit, but the project's own framing is mail server plus newsletter plus campaigns. This assessment is based on the repository, the docs site and the release notes.
 
 BillionMail homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -122,8 +122,8 @@ Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid d
 
 ## How to install
 
-- Install script (docs quickstart): cd /opt &amp;&amp; git clone https://github.com/aaPanel/BillionMail &amp;&amp; cd BillionMail &amp;&amp; bash install.sh. The clone URL still uses the old aaPanel path, which redirects to the current Billionmail org.
-- Docker route (docs): cd /opt &amp;&amp; git clone https://github.com/aaPanel/BillionMail &amp;&amp; cd BillionMail &amp;&amp; cp env_init .env &amp;&amp; docker compose up -d. The docs literally print the command as docker compose up -d || docker-compose up -d to cover both Compose versions. The compose file runs Postfix, Dovecot, Rspamd, Roundcube, PostgreSQL 17, Redis and the billionmail/core panel container.
+- Install script (docs quickstart): cd /opt && git clone https://github.com/aaPanel/BillionMail && cd BillionMail && bash install.sh. The clone URL still uses the old aaPanel path, which redirects to the current Billionmail org.
+- Docker route (docs): cd /opt && git clone https://github.com/aaPanel/BillionMail && cd BillionMail && cp env_init .env && docker compose up -d. The docs literally print the command as docker compose up -d || docker-compose up -d to cover both Compose versions. The compose file runs Postfix, Dovecot, Rspamd, Roundcube, PostgreSQL 17, Redis and the billionmail/core panel container.
 - Manage with the bm script: bm help for commands, bm default to print the access URL and credentials, bm update to upgrade, plus bm start, restart, status, stop, change-password, change-user and change-port. On the Docker install the docs use bash bm.sh default.
 - Requirements per the docs: Linux only, on amd64 or arm64, with 1 core, 1 GB RAM and 20 GB disk as the minimum. Outbound port 25 must be open unless you use an SMTP relay; Postfix listens on 25, 465 and 587, and Dovecot serves IMAP on 143 and 993 and POP3 on 110 and 995.
 - Change the defaults before exposing the panel: the admin login ships as billion/billion in env_init, and the docs print default database and Redis passwords.
@@ -144,7 +144,7 @@ BillionMail is two products in one container set. The base is a conventional Lin
 
 The README undersells the shipped product, and that is worth knowing when you evaluate: it still describes a future open-source mail server awaiting development, while the release notes show a working platform through v4.9 (December 2025) with retention policies, DKIM key-length options and tracking toggles. The docs site is the real reference. Conversely, a homepage section headed Cold Email Partner pitches unlimited sending with no built-in speed limit; that is the marketing-est sentence in the project, and the feature set around it (warmup-based rate limiting, DNS guidance, unsubscribe handling) is ordinary email infrastructure rather than a cold-outreach workflow.
 
-Deliverability tooling is the practical reason to pick this over a plain sender. Domain setup covers A, MX, SPF, DKIM and DMARC with a PTR reminder and free Let&#x27;s Encrypt certificates on port 80, the IP warmup system enforces sending-rate limits while reputation builds, and an SMTP relay option routes outbound mail through AWS SES, Mailgun or a custom relay, one relay per domain, when direct delivery is not viable. Security note from the docs: the default admin credentials in env_init are billion/billion, and the default database and Redis passwords are printed in the documentation, so changing them before exposure is not optional.
+Deliverability tooling is the practical reason to pick this over a plain sender. Domain setup covers A, MX, SPF, DKIM and DMARC with a PTR reminder and free Let's Encrypt certificates on port 80, the IP warmup system enforces sending-rate limits while reputation builds, and an SMTP relay option routes outbound mail through AWS SES, Mailgun or a custom relay, one relay per domain, when direct delivery is not viable. Security note from the docs: the default admin credentials in env_init are billion/billion, and the default database and Redis passwords are printed in the documentation, so changing them before exposure is not optional.
 
 The AI story is narrower than the marketing implies, so here is exactly what is documented. AI email template generation arrived in v4.0: describe the email, get a template, with Anthropic, OpenAI, Gemini, DeepSeek, Grok and Kimi as configurable providers and a setup notice that blocks AI features until a model is configured. Release notes also describe website profiling to pull brand information from a domain. There is no documented send-time optimization, predictive sending or AI segmentation; scheduling is a plain send-time field, and timing quality comes from warmup and rate limits, not a model.
 
@@ -168,7 +168,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,568 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,568 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 BillionMail has a free tier; paid plans start at $98.9/mo. Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.9 per instance. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 

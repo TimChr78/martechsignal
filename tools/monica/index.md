@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $9/mo once past the free tier |
-| &#10003; API access for custom integrations |  |
-| &#10003; Active public repository (25,261 GitHub stars counted at last check) |  |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo once past the free tier |
+| ✓ API access for custom integrations |  |
+| ✓ Active public repository (25,261 GitHub stars counted at last check) |  |
 
 **What is Monica?**
-Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,261 stars. Monica offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,261 stars. Monica offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Monica cost?**
 Monica has a free tier; paid plans start at $9/mo. Self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -59,7 +59,7 @@ Fully featured, open source CRM
 
 Relaticle
 
-Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament
+Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
 
 Warpdrive
 
@@ -87,11 +87,11 @@ CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Monica &#8594;](https://monicahq.com)
+[Visit Monica →](https://monicahq.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Monica &#8594;](https://monicahq.com)
+[Visit Monica →](https://monicahq.com)
 
 ## MartechSignal Score: 34/60
 
@@ -101,7 +101,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Monica is an open-source personal relationship manager, the project&#x27;s own term is PRM, built for documenting people rather than selling to them: contacts and relationships between contacts, notes, journal entries, activities, tasks, reminders with automatic birthdays, addresses, custom fields and sections, pets, gifts, calls, files, and life events, organized into vaults with multiple users and, per the README, 27 languages. The README is explicit about what it is not: not a social network and never will be, no ads or tracking, not a smart assistant, and no built-in AI with integrations like ChatGPT, and reminders only cover what you asked for. For marketing work the fit is narrow: founder-led and community-led businesses whose channel is relationships and a newsletter, not sales teams. Two facts should shape an adoption decision. The app codebase is dormant: the last commit to the main branch landed August 30, 2025, the newest stable release is v4.1.2 from May 2024, and no release of any kind has shipped in more than a year, while the organization around it is clearly active, with a Helm chart pushed in September 2026 and a blog publishing rebuild posts through the same month. That blog is where Monica v3 lives: a rebuild from scratch, still open source, promised before the end of 2026, API-first, with community templates and native iOS and Android apps to follow, and with naming that has not settled, since marketing says v3, repository tags say 5.0.0-beta, and the Docker examples call the beta Chandler. The hosted service is one plan, $90 a year or $9 a month, with unlimited contacts, data export, managed backups, email support, and no enterprise tier. This assessment is from the repository, the docs, and the hosted site.
+Monica is an open-source personal relationship manager, the project's own term is PRM, built for documenting people rather than selling to them: contacts and relationships between contacts, notes, journal entries, activities, tasks, reminders with automatic birthdays, addresses, custom fields and sections, pets, gifts, calls, files, and life events, organized into vaults with multiple users and, per the README, 27 languages. The README is explicit about what it is not: not a social network and never will be, no ads or tracking, not a smart assistant, and no built-in AI with integrations like ChatGPT, and reminders only cover what you asked for. For marketing work the fit is narrow: founder-led and community-led businesses whose channel is relationships and a newsletter, not sales teams. Two facts should shape an adoption decision. The app codebase is dormant: the last commit to the main branch landed August 30, 2025, the newest stable release is v4.1.2 from May 2024, and no release of any kind has shipped in more than a year, while the organization around it is clearly active, with a Helm chart pushed in September 2026 and a blog publishing rebuild posts through the same month. That blog is where Monica v3 lives: a rebuild from scratch, still open source, promised before the end of 2026, API-first, with community templates and native iOS and Android apps to follow, and with naming that has not settled, since marketing says v3, repository tags say 5.0.0-beta, and the Docker examples call the beta Chandler. The hosted service is one plan, $90 a year or $9 a month, with unlimited contacts, data export, managed backups, email support, and no enterprise tier. This assessment is from the repository, the docs, and the hosted site.
 
 Monica homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -113,20 +113,20 @@ Self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year 
 
 ## How to install
 
-- The docs&#x27; quickest route is the container registry image: docker run -p 8080:80 ghcr.io/monicahq/monica-next:main, which runs on SQLite and serves http://localhost:8080.
+- The docs' quickest route is the container registry image: docker run -p 8080:80 ghcr.io/monicahq/monica-next:main, which runs on SQLite and serves http://localhost:8080.
 - Add MAIL_MAILER=log to that command, because registration needs a working mailer and the log driver satisfies it without an SMTP server.
 - The official Docker Hub image (library/monica) still packages the previous major version, per the docs. For database, queue, and other production setups, the docs point to the examples directory of the monicahq/docker repository.
 - The hosted pricing page is explicit about what self-hosting costs you in practice: updates, backups, monitoring, security patches, and support are what the $90 per year hosted plan buys, so budget the operator time honestly.
 - Production setups follow the examples in the monicahq/docker repository: full_v5 runs the v5 beta as fpm-alpine behind nginx with redis and separate cron and queue containers, and the supervisor variant pairs a MariaDB 11 container with one app container running supervisord for web, cron, and queue. Official-image setup runs docker-compose exec app php artisan setup:production.
 - A Helm chart is maintained at monicahq/helm and was pushed in September 2026; it pins ghcr.io/monicahq/monica-next at tag main with appVersion 5.0.0, which makes it the most current packaged route and also the most bleeding-edge.
-- Background queues need a worker in non-trivial installs: the docs&#x27; local development list includes php artisan queue:listen --queue=high,low,default.
+- Background queues need a worker in non-trivial installs: the docs' local development list includes php artisan queue:listen --queue=high,low,default.
 ## Requirements
 
 A Laravel/PHP application distributed as a container. The quick-start image runs on SQLite with a mailer configured; production deployments follow the examples in monicahq/docker for database and queue setup. The 4.x branch is the stable line and main is the beta for the next major version.
 
 ## Best for
 
-Individuals and founder- or community-led businesses that live on personal relationships and want a private, self-hostable record of people, conversations, gifts, and reminders. The project also notes positive reviews from users with Asperger syndrome and Alzheimer&#x27;s disease.
+Individuals and founder- or community-led businesses that live on personal relationships and want a private, self-hostable record of people, conversations, gifts, and reminders. The project also notes positive reviews from users with Asperger syndrome and Alzheimer's disease.
 
 ## Not for
 
@@ -136,7 +136,7 @@ Sales and marketing teams. There are no pipelines, deals, forecasts, or campaign
 
 Assessed from the repository, the GitBook documentation, and the hosted site rather than a self-hosted instance. The docs publish an llms.txt and a Markdown version of every page, which makes them easy to work with programmatically.
 
-The README&#x27;s &#x27;What Monica isn&#x27;t&#x27; section does the disqualifying work for you: no social features by design, no ads, no tracking, no smart assistant, and no built-in AI. Reminders are strictly the emails you asked for. Treat any AI claim about Monica as something someone built on top of the API, not a product feature.
+The README's 'What Monica isn't' section does the disqualifying work for you: no social features by design, no ads, no tracking, no smart assistant, and no built-in AI. Reminders are strictly the emails you asked for. Treat any AI claim about Monica as something someone built on top of the API, not a product feature.
 
 Version state is the operational risk, and the naming has not settled. The main branch is the beta for the next version, tagged v5.0.0-beta.5 in April 2025; the 4.x branch is the stable line with its last tagged release at v4.1.2 in May 2024; the official Docker Hub image still serves 4.x as latest, though 5.0.0-beta tags exist there now; and the hosted site promotes the rebuild, branded Monica v3, as coming before the end of 2026. The Docker examples call the same beta v5, a.k.a. Chandler. Pin a release deliberately and plan the migration, because the lines are far apart.
 
@@ -169,7 +169,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,261 stars. Monica offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,261 stars. Monica offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Monica has a free tier; paid plans start at $9/mo. Self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -194,7 +194,7 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ## Also featured in
 
-- [Best open-source CRM tools (2026)](/best/open-source-crm/) &mdash; Best for relationship-led founders and community businesses.
+- [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for relationship-led founders and community businesses.
 ### Quick Facts
 
 Related guides: [Open Source Crm](/best/open-source-crm/)

@@ -1,4 +1,4 @@
-# IDURAR ERP &amp; CRM pricing
+# IDURAR ERP & CRM pricing
 
 
 | Pillar | Score | Evidence |
@@ -13,27 +13,27 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $5000/mo once past the free tier |
-| &#10003; API access for custom integrations |  |
-| &#10003; Active public repository (8,776 GitHub stars counted at last check) |  |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5000/mo once past the free tier |
+| ✓ API access for custom integrations |  |
+| ✓ Active public repository (8,776 GitHub stars counted at last check) |  |
 
-**What is IDURAR ERP &amp; CRM?**
-IDURAR ERP &amp; CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,776 stars. IDURAR ERP &amp; CRM offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+**What is IDURAR ERP & CRM?**
+IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,776 stars. IDURAR ERP & CRM offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
-**How much does IDURAR ERP &amp; CRM cost?**
-IDURAR ERP &amp; CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+**How much does IDURAR ERP & CRM cost?**
+IDURAR ERP & CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
-**Is IDURAR ERP &amp; CRM a good self-hosted CRM tool in 2026?**
+**Is IDURAR ERP & CRM a good self-hosted CRM tool in 2026?**
 A compact AGPL starting point for custom MERN invoicing and payments work, not a deployable CRM suite: read the three model files before you believe any feature list.
 
 **Is IDURAR open source or fair-code?**
-The license file is standard AGPL-3.0 with no added clauses, and the README says IDURAR is free for personal or commercial use. The fair-code label comes from the project&#x27;s own copy: the README uses both phrases in different lines and the backend package.json still declares a Fair-code License, which does not match the license file. Functionally the repo is AGPL software, so the network-copyleft obligation applies if you modify it and serve users without publishing source. The vendor sells paid lifetime licenses on its site, which buy support and features rather than permission.
+The license file is standard AGPL-3.0 with no added clauses, and the README says IDURAR is free for personal or commercial use. The fair-code label comes from the project's own copy: the README uses both phrases in different lines and the backend package.json still declares a Fair-code License, which does not match the license file. Functionally the repo is AGPL software, so the network-copyleft obligation applies if you modify it and serve users without publishing source. The vendor sells paid lifetime licenses on its site, which buy support and features rather than permission.
 
 **What does IDURAR cost, and what do the paid licenses include?**
-Self-hosting the Community Edition is free. The vendor site publishes two one-time licenses: Professional at $5,000 with three months of support, and Enterprise at $10,000 with six months, adding multi-company and branch support, multi-currency, multiple languages, a headless API and public forms. The site&#x27;s own comparison table says Community is limited to one admin user, but the AGPL-3.0 license in the repository carries no user limit, so treat the cap as a commercial position, not a code enforcement.
+Self-hosting the Community Edition is free. The vendor site publishes two one-time licenses: Professional at $5,000 with three months of support, and Enterprise at $10,000 with six months, adding multi-company and branch support, multi-currency, multiple languages, a headless API and public forms. The site's own comparison table says Community is limited to one admin user, but the AGPL-3.0 license in the repository carries no user limit, so treat the cap as a commercial position, not a code enforcement.
 
 **Can IDURAR replace SuiteCRM or Dolibarr for a sales team?**
-No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines, cases, campaigns and role-based teams; IDURAR&#x27;s repository has three application models (clients, invoices, payments) and a single owner role. It competes as a developer base for custom billing and customer invoicing tools, where its small MERN codebase and generated REST routes are the advantage. If the requirement is a CRM your team configures in the admin UI, the config-first open-source CRMs are the better fit.
+No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines, cases, campaigns and role-based teams; IDURAR's repository has three application models (clients, invoices, payments) and a single owner role. It competes as a developer base for custom billing and customer invoicing tools, where its small MERN codebase and generated REST routes are the advantage. If the requirement is a CRM your team configures in the admin UI, the config-first open-source CRMs are the better fit.
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
@@ -41,7 +41,7 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** IDURAR ERP &amp; CRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** IDURAR ERP & CRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Frappe CRM
 
@@ -49,7 +49,7 @@ Fully featured, open source CRM
 
 Relaticle
 
-Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament
+Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
 
 Ever Gauzy
 
@@ -66,10 +66,10 @@ Open source workspace with a self-updating, agent-driven CRM and shared AI team 
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
-- IDURAR ERP &amp; CRM
+- IDURAR ERP & CRM
 Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
-## IDURAR ERP &amp; CRM review (2026): pricing, AI features, verdict
+## IDURAR ERP & CRM review (2026): pricing, AI features, verdict
 
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
@@ -77,15 +77,15 @@ CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit IDURAR ERP &amp; CRM &#8594;](https://cloud.idurarapp.com)
+[Visit IDURAR ERP & CRM →](https://cloud.idurarapp.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit IDURAR ERP & CRM &#8594;](https://cloud.idurarapp.com)
+[Visit IDURAR ERP & CRM →](https://cloud.idurarapp.com)
 
 ## MartechSignal Score: 31/60
 
-IDURAR is a full ERP-CRM-accounting stack under AGPL with 8.8k stars, and lifetime licenses at $5,000 if you want the vendor&#x27;s hand. Free self-hosting is the honest path for small teams.
+IDURAR is a full ERP-CRM-accounting stack under AGPL with 8.8k stars, and lifetime licenses at $5,000 if you want the vendor's hand. Free self-hosting is the honest path for small teams.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -93,15 +93,15 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 IDURAR is an open-source ERP and CRM on the MERN stack - Node.js and Express with MongoDB behind an Ant Design React frontend - and it is smaller than its 8,700-plus GitHub stars suggest. The license file is verbatim AGPL-3.0 with no custom clauses, and the README answers the commercial question directly: free for personal or commercial use. The same README also calls the project fair-code in one line and open source in another, and the backend package.json still says Fair-code License, so the licensing story is untidy even though the license itself is standard AGPL. The feature set needs the most correction before you commit: the README claims exactly four modules - invoice, payment, quote, and customer management - and the code backs that up. Quotes are not a separate entity but an invoice with a quote type, converted through a dedicated endpoint, and recurring invoices are a field on the invoice model rather than a billing engine. There are no expense, lead, product, or inventory models in the open-source code, and the role model ships with a single owner role, so this is a one-admin invoicing core rather than a departmental suite. The paid tiers on the vendor site make the same point by omission: a Professional lifetime license at $5,000 and an Enterprise license at $10,000, which add multi-company, multi-currency, multiple languages, a headless API, and support windows. Every entity gets auto-generated REST routes (create, read, update, delete, search, filter, summary) but there is no Swagger spec and the docs subdomain does not resolve, so plan to read the source. Installation is two npm terminals rather than a container; there is no Dockerfile in the repository. This assessment is from the repository, the license file, and the vendor site.
 
-IDURAR ERP &amp; CRM homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
+IDURAR ERP & CRM homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
 ## Pricing
 
-IDURAR ERP &amp; CRM is free to self-host under the AGPL-3.0 licence, paid plans start at $5000/mo as of 2026-09.
+IDURAR ERP & CRM is free to self-host under the AGPL-3.0 licence, paid plans start at $5000/mo as of 2026-09.
 
 Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support.
 
-Current plans and limits live on the [IDURAR ERP &amp; CRM pricing page](https://www.idurarapp.com).
+Current plans and limits live on the [IDURAR ERP & CRM pricing page](https://www.idurarapp.com).
 
 ## How to install
 
@@ -128,9 +128,9 @@ Researched from public documentation, the source repository, and vendor material
 
 Researched from the repository, the license file, the installation doc and the vendor site. Not a hands-on review. The most useful evaluation step is reading backend/src/models/appModels: exactly three application models exist (Client, Invoice, Payment), which settles in one glance what the open-source edition is. Quotes are an invoice with a quote type and a /quote/convert/:id endpoint, and the recurring field on the invoice model is a schedule enum, not a billing engine.
 
-The vendor site and the repository disagree, and the difference matters commercially. The site&#x27;s comparison table caps the Community Edition at one admin user and marks core features as excluded, while the AGPL-3.0 license in the repo places no such limit, and the README invites free commercial use. The site sells a Professional lifetime license at $5,000 and Enterprise at $10,000 covering multi-company, multi-currency, languages, a headless API and support. Read the license, not the marketing table, before deciding what your install may do.
+The vendor site and the repository disagree, and the difference matters commercially. The site's comparison table caps the Community Edition at one admin user and marks core features as excluded, while the AGPL-3.0 license in the repo places no such limit, and the README invites free commercial use. The site sells a Professional lifetime license at $5,000 and Enterprise at $10,000 covering multi-company, multi-currency, languages, a headless API and support. Read the license, not the marketing table, before deciding what your install may do.
 
-Some feature pages on the vendor site describe capabilities that do not exist in the open-source code at all: purchase orders, supplier management, barcodes, a general ledger and webhooks appear in the localized marketing pages but have no models or routes in the repository. Treat the site&#x27;s feature copy as aspirational and the repository as the product.
+Some feature pages on the vendor site describe capabilities that do not exist in the open-source code at all: purchase orders, supplier management, barcodes, a general ledger and webhooks appear in the localized marketing pages but have no models or routes in the repository. Treat the site's feature copy as aspirational and the repository as the product.
 
 The REST API is real but undocumented: routes are generated per entity for create, read, update, delete, search, list, filter and summary, plus mail endpoints and quote conversion. There is no OpenAPI spec in the repo and docs.idurarapp.com does not resolve, so integration work means reading backend/src/routes. AI features: none. The openai dependency in backend/package.json is unused, and the only other AI reference in the repo is a maintainer CV written for AI agents.
 
@@ -155,24 +155,24 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-IDURAR ERP &amp; CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,776 stars. IDURAR ERP &amp; CRM offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,776 stars. IDURAR ERP & CRM offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
-IDURAR ERP &amp; CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+IDURAR ERP & CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 A compact AGPL starting point for custom MERN invoicing and payments work, not a deployable CRM suite: read the three model files before you believe any feature list.
 
-The license file is standard AGPL-3.0 with no added clauses, and the README says IDURAR is free for personal or commercial use. The fair-code label comes from the project&#x27;s own copy: the README uses both phrases in different lines and the backend package.json still declares a Fair-code License, which does not match the license file. Functionally the repo is AGPL software, so the network-copyleft obligation applies if you modify it and serve users without publishing source. The vendor sells paid lifetime licenses on its site, which buy support and features rather than permission.
+The license file is standard AGPL-3.0 with no added clauses, and the README says IDURAR is free for personal or commercial use. The fair-code label comes from the project's own copy: the README uses both phrases in different lines and the backend package.json still declares a Fair-code License, which does not match the license file. Functionally the repo is AGPL software, so the network-copyleft obligation applies if you modify it and serve users without publishing source. The vendor sells paid lifetime licenses on its site, which buy support and features rather than permission.
 
-Self-hosting the Community Edition is free. The vendor site publishes two one-time licenses: Professional at $5,000 with three months of support, and Enterprise at $10,000 with six months, adding multi-company and branch support, multi-currency, multiple languages, a headless API and public forms. The site&#x27;s own comparison table says Community is limited to one admin user, but the AGPL-3.0 license in the repository carries no user limit, so treat the cap as a commercial position, not a code enforcement.
+Self-hosting the Community Edition is free. The vendor site publishes two one-time licenses: Professional at $5,000 with three months of support, and Enterprise at $10,000 with six months, adding multi-company and branch support, multi-currency, multiple languages, a headless API and public forms. The site's own comparison table says Community is limited to one admin user, but the AGPL-3.0 license in the repository carries no user limit, so treat the cap as a commercial position, not a code enforcement.
 
-No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines, cases, campaigns and role-based teams; IDURAR&#x27;s repository has three application models (clients, invoices, payments) and a single owner role. It competes as a developer base for custom billing and customer invoicing tools, where its small MERN codebase and generated REST routes are the advantage. If the requirement is a CRM your team configures in the admin UI, the config-first open-source CRMs are the better fit.
+No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines, cases, campaigns and role-based teams; IDURAR's repository has three application models (clients, invoices, payments) and a single owner role. It competes as a developer base for custom billing and customer invoicing tools, where its small MERN codebase and generated REST routes are the advantage. If the requirement is a CRM your team configures in the admin UI, the config-first open-source CRMs are the better fit.
 
 ## Similar Tools
 
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ### Quick Facts
 

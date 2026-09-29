@@ -14,7 +14,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
 
 MARKETING AUTOMATION · AI AGENTS · 9 MIN
 
-## Your autonomous stack&#x27;s loophole is the approval step you deleted
+## Your autonomous stack's loophole is the approval step you deleted
 
 [How we review](/methodology/) · No affiliate links
 
@@ -89,7 +89,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

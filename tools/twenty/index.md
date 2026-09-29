@@ -13,13 +13,13 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $9/mo once past the free tier |
-| &#10003; AI capabilities: AI Chatbot with access to your workspace data |  |
-| &#10003; Active public repository (56,507 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include Gmail &amp; Google Calendar, Outlook &amp; Microsoft Calendar, IMAP / SMTP / CalDAV (7 listed) |  |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo once past the free tier |
+| ✓ AI capabilities: AI Chatbot with access to your workspace data |  |
+| ✓ Active public repository (56,507 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Gmail & Google Calendar, Outlook & Microsoft Calendar, IMAP / SMTP / CalDAV (7 listed) |  |
 
 **What is Twenty?**
-Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 56,507 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 56,507 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Twenty cost?**
 Twenty has a free tier; paid plans start at $9/mo. Self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -28,7 +28,7 @@ Twenty has a free tier; paid plans start at $9/mo. Self-hosted free (AGPLv3 core
 The fastest-moving open-source CRM in this directory, honest about its limits and genuinely free to self-host at the Pro tier; adopt it as a platform you build on, not a finished product you switch on.
 
 **Is Twenty really free to self-host?**
-The self-hosted free plan includes all Pro features at no cost, confirmed both by the docs plan table and the LICENSE&#x27;s AGPLv3 core. What is not free: SSO, row-level permissions, audit logs, unlimited workspaces, and access to the private source code are Enterprise Edition features that require a paid key, bought through Stripe and pasted under Settings, Admin Panel, Enterprise, whether you run cloud or self-host. Enterprise files in the repo carry a commercial license and are cleared for production use only with that subscription.
+The self-hosted free plan includes all Pro features at no cost, confirmed both by the docs plan table and the LICENSE's AGPLv3 core. What is not free: SSO, row-level permissions, audit logs, unlimited workspaces, and access to the private source code are Enterprise Edition features that require a paid key, bought through Stripe and pasted under Settings, Admin Panel, Enterprise, whether you run cloud or self-host. Enterprise files in the repo carry a commercial license and are cleared for production use only with that subscription.
 
 **Can I migrate from Salesforce or HubSpot to Twenty?**
 Through CSV import or the API (the pricing FAQ suggests the API for 50,000-plus records), but the docs are clear it is a mapping exercise rather than a connector: Accounts map to Companies, Contacts to People, Deals to Opportunities, and Activities to Tasks or Notes. Users must be invited before the import, custom fields must exist before rows arrive, and views, workflows, and permissions must be recreated manually afterward.
@@ -84,11 +84,11 @@ CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Twenty &#8594;](https://twenty.com)
+[Visit Twenty →](https://twenty.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Twenty &#8594;](https://twenty.com)
+[Visit Twenty →](https://twenty.com)
 
 ## MartechSignal Score: 42/60
 
@@ -110,8 +110,8 @@ Twenty homepage, captured September 2026. Vendor page shown as a dated reference
 - Native MCP server on cloud workspaces (site claim)
 ## Key Integrations
 
-- Gmail &amp; Google Calendar
-- Outlook &amp; Microsoft Calendar
+- Gmail & Google Calendar
+- Outlook & Microsoft Calendar
 - IMAP / SMTP / CalDAV
 - Signed outbound webhooks
 - REST + GraphQL API
@@ -127,10 +127,10 @@ Current plans and limits live on the [Twenty pricing page](https://twenty.com/pr
 
 ## How to install
 
-- One-line installer: bash &lt;(curl -sL https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docker/scripts/install.sh), optionally prefixed with VERSION=vx.y.z to pin a release.
+- One-line installer: bash <(curl -sL https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docker/scripts/install.sh), optionally prefixed with VERSION=vx.y.z to pin a release.
 - Manual Docker Compose: download .env.example and docker-compose.yml from packages/twenty-docker, generate ENCRYPTION_KEY with openssl rand -base64 32, then docker compose up -d. The stack is server, worker, db (postgres:16), and redis, and the app answers on http://localhost:3000.
 - Storage defaults to local (STORAGE_TYPE=local) with S3 variables commented out in .env; Postgres settings are assembled into PG_DATABASE_URL by the compose file, so there is no DATABASE_URL variable to set.
-- Upgrade: back up first with docker exec {db_container} pg_dumpall -U {user} &gt; databases_backup.sql, then docker compose down, change TAG in .env, and docker compose up -d. Migrations run automatically, and instances on v1.23 or later can jump straight to the latest version.
+- Upgrade: back up first with docker exec {db_container} pg_dumpall -U {user} > databases_backup.sql, then docker compose down, change TAG in .env, and docker compose up -d. Migrations run automatically, and instances on v1.23 or later can jump straight to the latest version.
 - Cloud alternative: signup starts a 30-day trial with a card or 7 days without; Twenty Cloud runs on AWS in Frankfurt, Germany, and region selection is promised from 2027.
 ## Requirements
 
@@ -138,7 +138,7 @@ Docker Compose with at least 2 GB RAM (the docs warn that low memory causes cras
 
 ## Best for
 
-Technical teams that want to build their CRM rather than configure one: GTM teams writing their own lead scoring, enrichment, and outbound workflows, agencies fluent in TypeScript and React, and organizations that must self-host and own their data end to end. The docs&#x27; own list adds enterprises replacing Salesforce and Salesforce partners tired of license increases.
+Technical teams that want to build their CRM rather than configure one: GTM teams writing their own lead scoring, enrichment, and outbound workflows, agencies fluent in TypeScript and React, and organizations that must self-host and own their data end to end. The docs' own list adds enterprises replacing Salesforce and Salesforce partners tired of license increases.
 
 ## Not for
 
@@ -148,7 +148,7 @@ Teams that want a CRM they never think about, which the docs redirect to Pipedri
 
 Assessed from twenty.com, docs.twenty.com (a 971KB docs corpus fetched through its published llms.txt), the GitHub repo, and the release feed in September 2026; we have not deployed an instance. Activity is the strongest signal: v2.39.0 shipped September 7, 2026, five releases landed in the prior week, and the repo was pushed the day before we checked. The vendor changelog page lags GitHub, which matters if you track versions.
 
-The correction that matters: our earlier record listed AI-powered data enrichment, an AI email assistant, and smart relationship insights. None are documented features. The docs&#x27; own AI FAQ names exactly two capabilities, an AI Chatbot with access to workspace data and AI Agents in Workflows, and smart relationship insights appears nowhere in the 971KB corpus. We have replaced the list with documented capabilities and flagged the MCP server as a site claim that has not reached the docs.
+The correction that matters: our earlier record listed AI-powered data enrichment, an AI email assistant, and smart relationship insights. None are documented features. The docs' own AI FAQ names exactly two capabilities, an AI Chatbot with access to workspace data and AI Agents in Workflows, and smart relationship insights appears nowhere in the 971KB corpus. We have replaced the list with documented capabilities and flagged the MCP server as a site claim that has not reached the docs.
 
 Second correction: the license is not plain AGPLv3. The LICENSE file applies AGPLv3 to most of the code, carves out Enterprise-licensed files that require a paid subscription for production use, licenses the SDK and UI packages under MIT, and adds an AGPLv3 section 7 exception. Self-hosting genuinely includes all Pro features at no cost, but SSO, row-level permissions, audit logs, unlimited workspaces, and private source code need a paid Enterprise key even on your own servers.
 
@@ -175,13 +175,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 56,507 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 56,507 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Twenty has a free tier; paid plans start at $9/mo. Self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 The fastest-moving open-source CRM in this directory, honest about its limits and genuinely free to self-host at the Pro tier; adopt it as a platform you build on, not a finished product you switch on.
 
-The self-hosted free plan includes all Pro features at no cost, confirmed both by the docs plan table and the LICENSE&#x27;s AGPLv3 core. What is not free: SSO, row-level permissions, audit logs, unlimited workspaces, and access to the private source code are Enterprise Edition features that require a paid key, bought through Stripe and pasted under Settings, Admin Panel, Enterprise, whether you run cloud or self-host. Enterprise files in the repo carry a commercial license and are cleared for production use only with that subscription.
+The self-hosted free plan includes all Pro features at no cost, confirmed both by the docs plan table and the LICENSE's AGPLv3 core. What is not free: SSO, row-level permissions, audit logs, unlimited workspaces, and access to the private source code are Enterprise Edition features that require a paid key, bought through Stripe and pasted under Settings, Admin Panel, Enterprise, whether you run cloud or self-host. Enterprise files in the repo carry a commercial license and are cleared for production use only with that subscription.
 
 Through CSV import or the API (the pricing FAQ suggests the API for 50,000-plus records), but the docs are clear it is a mapping exercise rather than a connector: Accounts map to Companies, Contacts to People, Deals to Opportunities, and Activities to Tasks or Notes. Users must be invited before the import, custom fields must exist before rows arrive, and views, workflows, and permissions must be recreated manually afterward.
 
@@ -192,12 +192,12 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Also featured in
 
-- [Best open-source CRM tools (2026)](/best/open-source-crm/) &mdash; Best for technically fluent teams wanting a modern extensible CRM.
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &mdash; CRM teams that want open source without accepting feature poverty
+- [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for technically fluent teams wanting a modern extensible CRM.
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — CRM teams that want open source without accepting feature poverty
 ### Quick Facts
 
 Related guides: [Twenty in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

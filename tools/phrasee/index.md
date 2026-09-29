@@ -6,42 +6,42 @@
 | Pricing transparency | 2/10 | Quote-based with no published price list and no trial; last public terms (2023) described annual enterprise agreements (the vendor pricing page: [pricing page](https://www.jacquard.com/book-a-demo/), verified 2026-09-07). |
 | Feature depth | 7/10 | Brand-safe generation, performance prediction, tone analysis and automated A/B/N testing make a focused message optimization suite (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
 | Integrations | 7/10 | A dozen named enterprise ESPs from Salesforce Marketing Cloud to Emarsys documented (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
-| AI capability | 7/10 | The Neural engine&#x27;s performance prediction over generated variants is a decade-old asset few can match (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
+| AI capability | 7/10 | The Neural engine's performance prediction over generated variants is a decade-old asset few can match (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
 | Openness | 2/10 | Closed enterprise product with no API documented in the catalog (the source repository: [repository](https://www.jacquard.com), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2015, rebranded as Jacquard in June 2024; deep history with a transition question attached (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
 
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: brand-safe AI message generation (Language engine) | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Salesforce Marketing Cloud, Braze, Adobe (12 listed) | &#10007; Enterprise pricing is quote-based - no public numbers |
+| ✓ AI capabilities: brand-safe AI message generation (Language engine) | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Salesforce Marketing Cloud, Braze, Adobe (12 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
 
 **What is Phrasee?**
-Phrasee: AI messaging content platform; rebranded as Jacquard in June 2024. Phrasee ships with brand-safe AI message generation (Language engine). This page documents 12 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Phrasee: AI messaging content platform; rebranded as Jacquard in June 2024. Phrasee ships with brand-safe AI message generation (Language engine). This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Phrasee cost?**
-Phrasee uses enterprise pricing, so the number depends on your volume and contract. Enterprise, quote-based; no published price list and no trial. Last published terms (2023) described flexible enterprise pricing, billed annually, unlimited seats and content creation. Our last verified read of the pricing model was 2026-09-07; the vendor&#x27;s pricing page carries the current quote criteria.
+Phrasee uses enterprise pricing, so the number depends on your volume and contract. Enterprise, quote-based; no published price list and no trial. Last published terms (2023) described flexible enterprise pricing, billed annually, unlimited seats and content creation. Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
 
-**Is Phrasee a good AI Content &amp; Copywriting tool in 2026?**
+**Is Phrasee a good AI Content & Copywriting tool in 2026?**
 Enterprise AI copy generation, now called Jacquard, with deterministic brand guardrails and automatic testing; the ownership history in older directories, including ours, was wrong.
 
 **Is Phrasee part of Marigold?**
-No. Phrasee was never owned by CM Group or Marigold, and no 2021 transaction appears in its Companies House filing history. Control passed to a majority investment by capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners on March 14, 2022, and the company renamed itself Jacquard Group Limited in June 2024. Marigold&#x27;s enterprise business was sold to Zeta Global in November 2025, but Phrasee/Jacquard was never part of that group.
+No. Phrasee was never owned by CM Group or Marigold, and no 2021 transaction appears in its Companies House filing history. Control passed to a majority investment by capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners on March 14, 2022, and the company renamed itself Jacquard Group Limited in June 2024. Marigold's enterprise business was sold to Zeta Global in November 2025, but Phrasee/Jacquard was never part of that group.
 
 **Does Phrasee work with Salesforce Marketing Cloud?**
 Yes. Salesforce Marketing Cloud appears on the archived 2023 partner list alongside Braze, Adobe, Iterable, Bloomreach, Oracle Responsys, Optimizely, Epsilon, Cordial, Airship, Acoustic, and Emarsys, and Salesforce is the one partner named in prose on the live integrations page, where a customer states that the integration improved workflow efficiency and speed in creating, testing, and deploying email content. The live page renders its other partner logos without names, so confirm the current list with the vendor.
 
 **What lift can I realistically expect from Phrasee or Jacquard?**
-Vendor-published results range widely. Currys reports 42% uplift in opens, 93% in clicks, and 102% in revenue; P&amp;O Cruises 13% opens and 18% clicks; Home Chef 21% opens and 29% clicks; Confused.com 12% on clicks. The platform-wide claims are a 9.7% median click uplift for the predicted champion, rising to 19% with testing, and a 66% win rate at predicting the top-performing variant against human controls. All of these are the company&#x27;s own numbers, not independent audits.
+Vendor-published results range widely. Currys reports 42% uplift in opens, 93% in clicks, and 102% in revenue; P&O Cruises 13% opens and 18% clicks; Home Chef 21% opens and 29% clicks; Confused.com 12% on clicks. The platform-wide claims are a 9.7% median click uplift for the predicted champion, rising to 19% with testing, and a 66% win rate at predicting the top-performing variant against human controls. All of these are the company's own numbers, not independent audits.
 
 - **Pricing:** Enterprise
-- **Category:** [AI Content &amp; Copywriting](/categories/content-ai/)
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
 - **Founded:** 2015
 - **HQ:** London, UK
 - **API:** No
 - **Last verified:** 2026-09-07
 
-**Verdict:** Phrasee is a tool in AI Content &amp; Copywriting with custom pricing. The catalog documents 4 AI features and 12 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Phrasee is a tool in AI Content & Copywriting with custom pricing. The catalog documents 4 AI features and 12 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Hypotenuse AI
 
@@ -63,13 +63,13 @@ Anyword
 
 AI copywriting platform with predictive performance scores for marketing content
 
-[More AI Content &amp; Copywriting Tools →](/categories/content-ai/)
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [AI Content &amp; Copywriting](/categories/content-ai/)
+- [AI Content & Copywriting](/categories/content-ai/)
 - Phrasee
 Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
@@ -77,15 +77,15 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 AI messaging content platform; rebranded as Jacquard in June 2024
 
-AI Content &amp; Copywriting · Enterprise Desk-reviewed
+AI Content & Copywriting · Enterprise Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Phrasee &#8594;](https://www.jacquard.com)
+[Visit Phrasee →](https://www.jacquard.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Phrasee &#8594;](https://www.jacquard.com)
+[Visit Phrasee →](https://www.jacquard.com)
 
 ## MartechSignal Score: 31/60
 
@@ -95,7 +95,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Phrasee rebranded as Jacquard in June 2024, so an evaluation today is an evaluation of Jacquard: phrasee.co redirects to jacquard.com and the legal entity is Jacquard Group Limited. The product intent is unchanged: AI-generated, brand-safe short-form marketing copy generated, predicted, and tested at enterprise send volumes. The current platform documents four engines (Language, Neural, Optimise, Contextual) and describes a neuro-symbolic architecture combining generative AI with deterministic rules for tone, structure, and compliance. Language enforces what the company calls strict, deterministic guardrails, style guides and AI tone-of-voice analysis keep output sounding like your copywriters, and Neural is described as trained on 60 billion data points from a decade of messaging experiments, with a claimed 66% win rate predicting top variants against human controls. Every send is documented as an A/B/N test where AI variants compete against a human control, allocated by a multi-armed bandit derivative. Channels on the live site are email, SMS, mobile push, in-app, web push, and ChatGPT apps; social ad copy, which Phrasee marketed in 2023, no longer appears. Two claims in our earlier record needed correcting. Ownership: Phrasee was never acquired by CM Group or Marigold. UK filings show a majority investment by capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners effective March 14, 2022, and the October 2023 event was founder-CEO Parry Malm leaving the board, not a management buyout. Brand controls: the tone-plus-vocabulary-plus-prohibited-language model we described is not the vendor&#x27;s language; the documented mechanism is style guides, deterministic rules, and an approval process for vetting messages. Founded in London in 2015 by Parry Malm, Victoria Peppiatt, and Neil Yager, it reports 50+ customers, 200 billion sends, and 17M pounds raised. Pricing is quote-based, with no trial and no published price list.
+Phrasee rebranded as Jacquard in June 2024, so an evaluation today is an evaluation of Jacquard: phrasee.co redirects to jacquard.com and the legal entity is Jacquard Group Limited. The product intent is unchanged: AI-generated, brand-safe short-form marketing copy generated, predicted, and tested at enterprise send volumes. The current platform documents four engines (Language, Neural, Optimise, Contextual) and describes a neuro-symbolic architecture combining generative AI with deterministic rules for tone, structure, and compliance. Language enforces what the company calls strict, deterministic guardrails, style guides and AI tone-of-voice analysis keep output sounding like your copywriters, and Neural is described as trained on 60 billion data points from a decade of messaging experiments, with a claimed 66% win rate predicting top variants against human controls. Every send is documented as an A/B/N test where AI variants compete against a human control, allocated by a multi-armed bandit derivative. Channels on the live site are email, SMS, mobile push, in-app, web push, and ChatGPT apps; social ad copy, which Phrasee marketed in 2023, no longer appears. Two claims in our earlier record needed correcting. Ownership: Phrasee was never acquired by CM Group or Marigold. UK filings show a majority investment by capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners effective March 14, 2022, and the October 2023 event was founder-CEO Parry Malm leaving the board, not a management buyout. Brand controls: the tone-plus-vocabulary-plus-prohibited-language model we described is not the vendor's language; the documented mechanism is style guides, deterministic rules, and an approval process for vetting messages. Founded in London in 2015 by Parry Malm, Victoria Peppiatt, and Neil Yager, it reports 50+ customers, 200 billion sends, and 17M pounds raised. Pricing is quote-based, with no trial and no published price list.
 
 Phrasee homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -131,7 +131,7 @@ Current plans and limits live on the [Phrasee pricing page](https://www.jacquard
 
 - No trial and no self-serve signup: the documented entry path is the Book a Demo form at jacquard.com/book-a-demo, and the live site has no pricing page.
 - There is nothing to install. Content ships through your ESP or CEP, so onboarding is a connector project: link the platform to Salesforce Marketing Cloud, Braze, or another documented partner and import brand and tone guidelines.
-- Brand setup follows the vendor&#x27;s documented model: a style guide, AI tone-of-voice analysis, what the site calls building your AI brand guardian, and an approval process for vetting messaging before it goes live.
+- Brand setup follows the vendor's documented model: a style guide, AI tone-of-voice analysis, what the site calls building your AI brand guardian, and an approval process for vetting messaging before it goes live.
 - Live product facts sit at jacquard.com. Phrasee-era pages such as pricing and partners survive only in the Internet Archive (the 2023 partners page is the most complete integration list), so ask the vendor to confirm the current partner list during the demo.
 ## Requirements
 
@@ -151,11 +151,11 @@ Researched from public documentation, the source repository, and vendor material
 
 Researched from jacquard.com, UK Companies House filings, and Internet Archive snapshots of phrasee.co (September 2026). Not a hands-on review. Phrasee the brand is gone: the domain redirects, the company changed its registered name to Jacquard Group Limited on June 11, 2024, and the rebrand was announced the following day.
 
-The correction that matters most: Phrasee was never acquired by CM Group or Marigold, and there was no 2023 management buyout. Companies House shows founder Parry Malm ceasing as a person with significant control on March 14, 2022, when Monorail Bidco Limited was registered holding 75% or more of shares, and Phrasee&#x27;s own March 2022 announcement names capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners as the majority investors. The only 2023 filing of substance is Malm leaving the board on October 16, 2023, with Daniel Head appointed the same day, which is almost certainly the event our MBO claim was built from. Marigold&#x27;s enterprise business was sold to Zeta Global in November 2025, and Phrasee/Jacquard was never part of it.
+The correction that matters most: Phrasee was never acquired by CM Group or Marigold, and there was no 2023 management buyout. Companies House shows founder Parry Malm ceasing as a person with significant control on March 14, 2022, when Monorail Bidco Limited was registered holding 75% or more of shares, and Phrasee's own March 2022 announcement names capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners as the majority investors. The only 2023 filing of substance is Malm leaving the board on October 16, 2023, with Daniel Head appointed the same day, which is almost certainly the event our MBO claim was built from. Marigold's enterprise business was sold to Zeta Global in November 2025, and Phrasee/Jacquard was never part of it.
 
 Product claims needed tightening too. Our record described marketers defining tone, vocabulary, and prohibited language once, with generated copy conforming without manual review; the documented mechanism is style guides, AI tone-of-voice analysis, deterministic rules for tone, structure, and compliance, and a built-in approval process, which is a different and weaker claim. Feature names are current now: the Language engine for brand-safe generation and the Neural engine for performance prediction, described as a neuro-symbolic architecture.
 
-The lift numbers are vendor-published and vary widely by customer: Currys reports 42% more opens, 93% more clicks, and 102% more revenue; P&amp;O Cruises 13% and 18%; Home Chef 21% and 29%; Confused.com 12% on clicks. Platform-wide claims are a 9.7% median click uplift rising to 19% with testing, and a 66% win rate against human controls. Phrasee-era testimonials from Virgin Holidays, Domino&#x27;s, and eBay UK survive on archived pages, but the specific percentage lifts often quoted with those names are not in sources we could reach.
+The lift numbers are vendor-published and vary widely by customer: Currys reports 42% more opens, 93% more clicks, and 102% more revenue; P&O Cruises 13% and 18%; Home Chef 21% and 29%; Confused.com 12% on clicks. Platform-wide claims are a 9.7% median click uplift rising to 19% with testing, and a 66% win rate against human controls. Phrasee-era testimonials from Virgin Holidays, Domino's, and eBay UK survive on archived pages, but the specific percentage lifts often quoted with those names are not in sources we could reach.
 
 ## Verdict
 
@@ -175,17 +175,17 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Phrasee: AI messaging content platform; rebranded as Jacquard in June 2024. Phrasee ships with brand-safe AI message generation (Language engine). This page documents 12 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Phrasee: AI messaging content platform; rebranded as Jacquard in June 2024. Phrasee ships with brand-safe AI message generation (Language engine). This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
-Phrasee uses enterprise pricing, so the number depends on your volume and contract. Enterprise, quote-based; no published price list and no trial. Last published terms (2023) described flexible enterprise pricing, billed annually, unlimited seats and content creation. Our last verified read of the pricing model was 2026-09-07; the vendor&#x27;s pricing page carries the current quote criteria.
+Phrasee uses enterprise pricing, so the number depends on your volume and contract. Enterprise, quote-based; no published price list and no trial. Last published terms (2023) described flexible enterprise pricing, billed annually, unlimited seats and content creation. Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
 
 Enterprise AI copy generation, now called Jacquard, with deterministic brand guardrails and automatic testing; the ownership history in older directories, including ours, was wrong.
 
-No. Phrasee was never owned by CM Group or Marigold, and no 2021 transaction appears in its Companies House filing history. Control passed to a majority investment by capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners on March 14, 2022, and the company renamed itself Jacquard Group Limited in June 2024. Marigold&#x27;s enterprise business was sold to Zeta Global in November 2025, but Phrasee/Jacquard was never part of that group.
+No. Phrasee was never owned by CM Group or Marigold, and no 2021 transaction appears in its Companies House filing history. Control passed to a majority investment by capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners on March 14, 2022, and the company renamed itself Jacquard Group Limited in June 2024. Marigold's enterprise business was sold to Zeta Global in November 2025, but Phrasee/Jacquard was never part of that group.
 
 Yes. Salesforce Marketing Cloud appears on the archived 2023 partner list alongside Braze, Adobe, Iterable, Bloomreach, Oracle Responsys, Optimizely, Epsilon, Cordial, Airship, Acoustic, and Emarsys, and Salesforce is the one partner named in prose on the live integrations page, where a customer states that the integration improved workflow efficiency and speed in creating, testing, and deploying email content. The live page renders its other partner logos without names, so confirm the current list with the vendor.
 
-Vendor-published results range widely. Currys reports 42% uplift in opens, 93% in clicks, and 102% in revenue; P&amp;O Cruises 13% opens and 18% clicks; Home Chef 21% opens and 29% clicks; Confused.com 12% on clicks. The platform-wide claims are a 9.7% median click uplift for the predicted champion, rising to 19% with testing, and a 66% win rate at predicting the top-performing variant against human controls. All of these are the company&#x27;s own numbers, not independent audits.
+Vendor-published results range widely. Currys reports 42% uplift in opens, 93% in clicks, and 102% in revenue; P&O Cruises 13% opens and 18% clicks; Home Chef 21% opens and 29% clicks; Confused.com 12% on clicks. The platform-wide claims are a 9.7% median click uplift for the predicted champion, rising to 19% with testing, and a 66% win rate at predicting the top-performing variant against human controls. All of these are the company's own numbers, not independent audits.
 
 ## Similar Tools
 
@@ -196,7 +196,7 @@ Vendor-published results range widely. Currys reports 42% uplift in opens, 93% i
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Also featured in
 
-- [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) &mdash; Best for AI content &amp; copywriting teams that want ai tone-of-voice analysis, with pricing quoted per contract.
+- [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Best for AI content & copywriting teams that want ai tone-of-voice analysis, with pricing quoted per contract.
 ### Quick Facts
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)

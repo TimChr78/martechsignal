@@ -13,27 +13,27 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI multi-touch attribution | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Salesforce, HubSpot, Google Ads (7 listed) | &#10007; Enterprise pricing is quote-based - no public numbers |
-| &#10003; API access for custom integrations |  |
+| ✓ AI capabilities: AI multi-touch attribution | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Salesforce, HubSpot, Google Ads (7 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+| ✓ API access for custom integrations |  |
 
 **What is Attribution?**
-Attribution: AI-powered marketing attribution platform connecting ad spend to revenue. Attribution ships with AI multi-touch attribution. This page documents 7 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Attribution: AI-powered marketing attribution platform connecting ad spend to revenue. Attribution ships with AI multi-touch attribution. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Attribution cost?**
-Attribution uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; demo required; focused on B2B and DTC attribution. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
+Attribution uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; demo required; focused on B2B and DTC attribution. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
 
-**Is Attribution a good Analytics &amp; Attribution tool in 2026?**
+**Is Attribution a good Analytics & Attribution tool in 2026?**
 Reasonable middle ground between spreadsheet attribution and enterprise suites like Rockerbox.
 
 - **Pricing:** Enterprise
-- **Category:** [Analytics &amp; Attribution](/categories/analytics/)
+- **Category:** [Analytics & Attribution](/categories/analytics/)
 - **Founded:** 2016
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Attribution is a tool in Analytics &amp; Attribution with custom pricing. The catalog documents 4 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Attribution is a tool in Analytics & Attribution with custom pricing. The catalog documents 4 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Northbeam
 
@@ -55,13 +55,13 @@ PostHog
 
 Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 
-[More Analytics &amp; Attribution Tools →](/categories/analytics/)
+[More Analytics & Attribution Tools →](/categories/analytics/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [Analytics &amp; Attribution](/categories/analytics/)
+- [Analytics & Attribution](/categories/analytics/)
 - Attribution
 Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
@@ -69,15 +69,15 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 AI-powered marketing attribution platform connecting ad spend to revenue
 
-Analytics &amp; Attribution · Enterprise Desk-reviewed
+Analytics & Attribution · Enterprise Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit Attribution &#8594;](https://www.attributionapp.com)
+[Visit Attribution →](https://www.attributionapp.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Attribution &#8594;](https://www.attributionapp.com)
+[Visit Attribution →](https://www.attributionapp.com)
 
 ## MartechSignal Score: 27/60
 
@@ -118,7 +118,7 @@ Current plans and limits live on the [Attribution pricing page](https://www.attr
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-This tool (slug &#x27;attribution&#x27;, also called Attribution) is a lightweight multi-touch attribution solution aimed at teams that found Google Analytics insufficient. It tracks channels, credits conversions per model, and produces the comparison view that marketing reviews tend to fight over. Setup is tag-and-paste, and the reports are readable without an analyst.
+This tool (slug 'attribution', also called Attribution) is a lightweight multi-touch attribution solution aimed at teams that found Google Analytics insufficient. It tracks channels, credits conversions per model, and produces the comparison view that marketing reviews tend to fight over. Setup is tag-and-paste, and the reports are readable without an analyst.
 
 Pricing is monthly with a free trial. The obvious limitation is the same one all attribution tools share: it can only credit what it can see, so offline and walled-garden conversions stay out of the mix.
 
@@ -141,9 +141,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Attribution: AI-powered marketing attribution platform connecting ad spend to revenue. Attribution ships with AI multi-touch attribution. This page documents 7 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Attribution: AI-powered marketing attribution platform connecting ad spend to revenue. Attribution ships with AI multi-touch attribution. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
-Attribution uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; demo required; focused on B2B and DTC attribution. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
+Attribution uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; demo required; focused on B2B and DTC attribution. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
 
 Reasonable middle ground between spreadsheet attribution and enterprise suites like Rockerbox.
 

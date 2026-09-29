@@ -1,4 +1,4 @@
-# The AI-search funnel map GA4 won&#x27;t give you
+# The AI-search funnel map GA4 won't give you
 
 
 | Stage | Prompt type (SEL framework) | Landing pages AI cites for it | What arrival at this stage means |
@@ -14,7 +14,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
 
 AI SEARCH · ANALYTICS · 11 MIN
 
-## The AI-search funnel map GA4 won&#x27;t give you
+## The AI-search funnel map GA4 won't give you
 
 [How we review](/methodology/) · No affiliate links
 
@@ -74,7 +74,7 @@ Five moves, in order. GA4 instructions first, Umami equivalent at the end for th
 
 **Umami version, for the self-hosted:** Umami's funnel report takes sequential steps with a conversion window, and every report filters by referrer. Create a funnel of `view awareness page → view evaluation page → view pricing → demo event`, then filter by referrer `chatgpt.com` and run it again for `perplexity.ai` and `claude.ai`. You get per-engine funnels with no channel grouping at all, which is more than GA4's default view gives you. The trade-off is no cross-session stitching, so treat each run as a within-session pathway, not a full journey.
 
-`{ &quot;custom_channel_group&quot;: { &quot;name&quot;: &quot;AI search&quot;, &quot;rules&quot;: [ {&quot;channel&quot;: &quot;AI assistants&quot;, &quot;conditions&quot;: [ {&quot;field&quot;: &quot;medium&quot;, &quot;operation&quot;: &quot;matches regex&quot;, &quot;value&quot;: &quot;ai-assistant&quot;}, {&quot;field&quot;: &quot;source&quot;, &quot;operation&quot;: &quot;matches regex&quot;, &quot;value&quot;: &quot;chatgpt|openai|perplexity|claude|anthropic|copilot\\.microsoft|gemini\\.google|grok|deepseek&quot;} ]} ] }, &quot;content_groups&quot;: { &quot;awareness&quot;: [&quot;/blog/&quot;, &quot;/guides/&quot;, &quot;/research/&quot;], &quot;consideration&quot;: [&quot;/features/&quot;, &quot;/use-cases/&quot;, &quot;/how-&quot;], &quot;evaluation&quot;: [&quot;/vs/&quot;, &quot;/alternatives/&quot;, &quot;/compare/&quot;, &quot;/integrations/&quot;], &quot;decision&quot;: [&quot;/pricing&quot;, &quot;/demo&quot;, &quot;/docs/&quot;, &quot;/security&quot;] }, &quot;report&quot;: { &quot;rows&quot;: [&quot;sessionSource&quot;, &quot;sessionMedium&quot;, &quot;contentGroup&quot;], &quot;metrics&quot;: [&quot;sessions&quot;, &quot;engagedSessions&quot;, &quot;conversions&quot;], &quot;filter&quot;: {&quot;channelGroup&quot;: &quot;AI search&quot;} } }` What the funnel will probably show, and what not to conclude Set expectations now. AI referrals will arrive concentrated at awareness and evaluation, and thin at consideration. Chat assistants are good at explaining problems and good at building shortlists; the middle of the funnel happens inside the conversation itself, on a surface you will never see a click from. That is consistent with what Nifong's framework predicts on the visibility side and with the confidence-assembly pattern from [part one](/blog/dashboard-cant-see-ai-search-5-layer-fix/), where buyers [bounce between AI, Google, and community sources before committing](/blog/multi-touch-attribution-was-always-a-fiction/).
+`{ "custom_channel_group": { "name": "AI search", "rules": [ {"channel": "AI assistants", "conditions": [ {"field": "medium", "operation": "matches regex", "value": "ai-assistant"}, {"field": "source", "operation": "matches regex", "value": "chatgpt|openai|perplexity|claude|anthropic|copilot\\.microsoft|gemini\\.google|grok|deepseek"} ]} ] }, "content_groups": { "awareness": ["/blog/", "/guides/", "/research/"], "consideration": ["/features/", "/use-cases/", "/how-"], "evaluation": ["/vs/", "/alternatives/", "/compare/", "/integrations/"], "decision": ["/pricing", "/demo", "/docs/", "/security"] }, "report": { "rows": ["sessionSource", "sessionMedium", "contentGroup"], "metrics": ["sessions", "engagedSessions", "conversions"], "filter": {"channelGroup": "AI search"} } }` What the funnel will probably show, and what not to conclude Set expectations now. AI referrals will arrive concentrated at awareness and evaluation, and thin at consideration. Chat assistants are good at explaining problems and good at building shortlists; the middle of the funnel happens inside the conversation itself, on a surface you will never see a click from. That is consistent with what Nifong's framework predicts on the visibility side and with the confidence-assembly pattern from [part one](/blog/dashboard-cant-see-ai-search-5-layer-fix/), where buyers [bounce between AI, Google, and community sources before committing](/blog/multi-touch-attribution-was-always-a-fiction/).
 
 Three traps when reading the result. Don't compare stage conversion rates to organic search's; the populations differ and you will chase ghosts. Don't treat the awareness-page arrival count as the size of your AI influence, because the assistant answered questions about you all week without generating a single click. And don't let the custom channel group's growth become the KPI. The channel count is the floor, same as it was in layer 3. The funnel shape is the insight: where AI introduces you, where it drops you, and which page class to fix next.
 
@@ -101,7 +101,7 @@ Our directory breaks marketing tools down by what they measure, what they integr
 ## Comparison guides
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
-- [Best AI Content &amp;amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
+- [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)

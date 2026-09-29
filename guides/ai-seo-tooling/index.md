@@ -68,7 +68,7 @@ Tools drift, prices change quietly, and the crawler that was sharp in January ro
 
 Sources: [Semrush](https://www.semrush.com/) · [Semrush pricing](https://www.semrush.com/pricing/) · [Claude SEO](https://claude-seo.md/)
 
-&copy; 2026 MartechSignal &middot; by Tim Christensen
+© 2026 MartechSignal · by Tim Christensen
 
 
 ```json

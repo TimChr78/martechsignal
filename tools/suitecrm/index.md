@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AGPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; API access for custom integrations |  |
-| &#10003; Active public repository (5,732 GitHub stars counted at last check) |  |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ API access for custom integrations |  |
+| ✓ Active public repository (5,732 GitHub stars counted at last check) |  |
 
 **What is SuiteCRM?**
-SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,732 stars. SuiteCRM offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,732 stars. SuiteCRM offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does SuiteCRM cost?**
 SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,732 stars. You pay in server time and maintenance, not licences.
@@ -27,7 +27,7 @@ SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public re
 The established open-source CRM workhorse: unmatched module depth and free core workflows, with no AI, no mobile app, and a migration path that needs planning. Current, maintained, and still the default on-premise choice.
 
 **Does SuiteCRM have AI features?**
-No native ones. The documented feature set, release notes, roadmap, and user guide contain no AI, machine learning, or predictive capability, and there is no AI add-on in the vendor&#x27;s price list; SuiteASSURED and the support tiers cover hosting, fixes, and guarantees. Teams that want scoring or prediction build it themselves against the documented V8 API with OAuth, or run enrichment and scoring in an external tool and write results back to records. Any vendor claiming AI-driven SuiteCRM features is describing custom work.
+No native ones. The documented feature set, release notes, roadmap, and user guide contain no AI, machine learning, or predictive capability, and there is no AI add-on in the vendor's price list; SuiteASSURED and the support tiers cover hosting, fixes, and guarantees. Teams that want scoring or prediction build it themselves against the documented V8 API with OAuth, or run enrichment and scoring in an external tool and write results back to records. Any vendor claiming AI-driven SuiteCRM features is describing custom work.
 
 **How do you migrate from SuiteCRM 7 to SuiteCRM 8?**
 As a fresh installation, not an in-place patch. The docs require the latest 7.x release as the source (migrating from an older 7.x will fail or produce unstable results), then a new SuiteCRM 8 install with three console commands: ./bin/console suitecrm:app:setup-legacy-migration, ./bin/console suitecrm:app:upgrade -t with the migration package, for example SuiteCRM-8.7.0, and ./bin/console suitecrm:app:upgrade-finalize. The 7 codebase is copied into public/legacy and continues to serve the legacy surface. Test on a copy, since 8.10 also removed the SOAP portal as a breaking change.
@@ -75,11 +75,11 @@ CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit SuiteCRM &#8594;](https://www.suitecrm.com)
+[Visit SuiteCRM →](https://www.suitecrm.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit SuiteCRM &#8594;](https://www.suitecrm.com)
+[Visit SuiteCRM →](https://www.suitecrm.com)
 
 ## MartechSignal Score: 34/60
 
@@ -89,7 +89,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-SuiteCRM is the AGPLv3 open-source CRM that forked SugarCRM Community Edition and outlived it, maintained by SuiteCRM Ltd from Stirling, Scotland. Two release lines are current: 8.10.2 and 7.15.2 shipped on the same day in July 2026 as a joint security release, and 7.15 is an extended support release with security fixes published into 2028. The module set is the deepest in this directory&#x27;s CRM category: leads, accounts, contacts, opportunities, quotes, invoices, contracts, PDF templates, campaigns with target lists and confirmed opt-in, surveys, events, cases with a knowledge base, bugs, reports with scheduled runs, calendar, projects, and document management, plus Studio for no-code layout changes and Module Builder for new entities from six templates. Workflow automation is free in the core, with calculated fields, which is the main structural difference from EspoCRM, where workflows are a paid extension. What SuiteCRM does not have matters too: there is no native AI anywhere in the documented feature set, and no official mobile app. Elasticsearch is an optional search backend, and Redis or RabbitMQ are optional message transports for background jobs beyond a single server. Two APIs are documented, the newer V8 API with OAuth and the legacy V4. Requirements are PHP 8.2 to 8.4 with MariaDB 10.6 or later, or MySQL 8.0 or later, on Apache 2.4. Installation is a pre-built zip with a permissions pass, then a browser wizard or a CLI installer with flags for the admin user, database, and demo data. Migrating from 7.x to 8.x is a documented fresh install with three console commands, not a patch. Commercial support is GBP-priced: hosting from 50 pounds monthly with unlimited users, and SuiteASSURED from 3,350 pounds a year carrying warranties and indemnities. This assessment is from the repository, the docs, and the vendor site.
+SuiteCRM is the AGPLv3 open-source CRM that forked SugarCRM Community Edition and outlived it, maintained by SuiteCRM Ltd from Stirling, Scotland. Two release lines are current: 8.10.2 and 7.15.2 shipped on the same day in July 2026 as a joint security release, and 7.15 is an extended support release with security fixes published into 2028. The module set is the deepest in this directory's CRM category: leads, accounts, contacts, opportunities, quotes, invoices, contracts, PDF templates, campaigns with target lists and confirmed opt-in, surveys, events, cases with a knowledge base, bugs, reports with scheduled runs, calendar, projects, and document management, plus Studio for no-code layout changes and Module Builder for new entities from six templates. Workflow automation is free in the core, with calculated fields, which is the main structural difference from EspoCRM, where workflows are a paid extension. What SuiteCRM does not have matters too: there is no native AI anywhere in the documented feature set, and no official mobile app. Elasticsearch is an optional search backend, and Redis or RabbitMQ are optional message transports for background jobs beyond a single server. Two APIs are documented, the newer V8 API with OAuth and the legacy V4. Requirements are PHP 8.2 to 8.4 with MariaDB 10.6 or later, or MySQL 8.0 or later, on Apache 2.4. Installation is a pre-built zip with a permissions pass, then a browser wizard or a CLI installer with flags for the admin user, database, and demo data. Migrating from 7.x to 8.x is a documented fresh install with three console commands, not a patch. Commercial support is GBP-priced: hosting from 50 pounds monthly with unlimited users, and SuiteASSURED from 3,350 pounds a year carrying warranties and indemnities. This assessment is from the repository, the docs, and the vendor site.
 
 SuiteCRM homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -102,9 +102,9 @@ Free open-source self-hosted; paid cloud hosting available
 ## How to install
 
 - Download the pre-built package from suitecrm.com (the docs direct you to pre-built installables rather than composer), unzip into the web root, then run the documented permissions pass: find . -type d -not -perm 2755 -exec chmod 2755 {} \; , find . -type f -not -perm 0644 -exec chmod 0644 {} \; , find . ! -user www-data -exec chown www-data:www-data {} \; , and chmod +x bin/console.
-- Install from the CLI in one command: ./bin/console suitecrm:app:install, or pass everything as flags, for example -u &quot;admin&quot; -p &quot;pass&quot; -U &quot;root&quot; -P &quot;dbpass&quot; -H &quot;mariadb&quot; -N &quot;suitecrm&quot; -S &quot;https://yourcrm.com/&quot; -d &quot;yes&quot;, where -d controls demo data. The browser installer is the alternative.
+- Install from the CLI in one command: ./bin/console suitecrm:app:install, or pass everything as flags, for example -u "admin" -p "pass" -U "root" -P "dbpass" -H "mariadb" -N "suitecrm" -S "https://yourcrm.com/" -d "yes", where -d controls demo data. The browser installer is the alternative.
 - For the 7.15 line the flow is unzip, chown -R www-data:www-data, chmod 755 with 775 on cache, custom, modules, themes, data, upload, and config_override.php, then open install.php and step through license, system check, database, and site config.
-- Scheduled jobs need cron on both lines: * * * * * cd /var/www/html; php -f cron.php &gt; /dev/null 2&gt;&amp;1.
+- Scheduled jobs need cron on both lines: * * * * * cd /var/www/html; php -f cron.php > /dev/null 2>&1.
 - Front-end development has extra requirements (Node 20.11, yarn 4, Angular CLI 18) that the docs mark as not required for production, since you install a pre-built package.
 ## Requirements
 
@@ -153,13 +153,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,732 stars. SuiteCRM offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,732 stars. SuiteCRM offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,732 stars. You pay in server time and maintenance, not licences.
 
 The established open-source CRM workhorse: unmatched module depth and free core workflows, with no AI, no mobile app, and a migration path that needs planning. Current, maintained, and still the default on-premise choice.
 
-No native ones. The documented feature set, release notes, roadmap, and user guide contain no AI, machine learning, or predictive capability, and there is no AI add-on in the vendor&#x27;s price list; SuiteASSURED and the support tiers cover hosting, fixes, and guarantees. Teams that want scoring or prediction build it themselves against the documented V8 API with OAuth, or run enrichment and scoring in an external tool and write results back to records. Any vendor claiming AI-driven SuiteCRM features is describing custom work.
+No native ones. The documented feature set, release notes, roadmap, and user guide contain no AI, machine learning, or predictive capability, and there is no AI add-on in the vendor's price list; SuiteASSURED and the support tiers cover hosting, fixes, and guarantees. Teams that want scoring or prediction build it themselves against the documented V8 API with OAuth, or run enrichment and scoring in an external tool and write results back to records. Any vendor claiming AI-driven SuiteCRM features is describing custom work.
 
 As a fresh installation, not an in-place patch. The docs require the latest 7.x release as the source (migrating from an older 7.x will fail or produce unstable results), then a new SuiteCRM 8 install with three console commands: ./bin/console suitecrm:app:setup-legacy-migration, ./bin/console suitecrm:app:upgrade -t with the migration package, for example SuiteCRM-8.7.0, and ./bin/console suitecrm:app:upgrade-finalize. The 7 codebase is copied into public/legacy and continues to serve the legacy surface. Test on a copy, since 8.10 also removed the SOAP portal as a breaking change.
 
@@ -172,8 +172,8 @@ As a fresh installation, not an in-place patch. The docs require the latest 7.x 
 - [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 ## Also featured in
 
-- [Best open-source CRM tools (2026)](/best/open-source-crm/) &mdash; Best for teams that want the widest free feature set.
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &mdash; Sales teams that want a mature, enterprise-shaped CRM they control
+- [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for teams that want the widest free feature set.
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Sales teams that want a mature, enterprise-shaped CRM they control
 ### Quick Facts
 
 Related guides: [SuiteCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

@@ -12,6 +12,8 @@
 | [Mailchimp](/tools/mailchimp/) | Freemium | No | yes | Small businesses that want the shortest path from idea to send |
 | [Warmbly](/tools/warmbly/) | Open Source | Yes (Apache-2.0) | yes | Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier. |
 
+[Email Marketing](/categories/email-marketing/)[Open-Source Tools](/categories/open-source/)
+
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## Best AI Email Marketing tools (2026): 8 compared
@@ -30,6 +32,8 @@ Pricing checked 2026-09-28 against each vendor's own pricing page · API availab
 
 What we could not verify is called out under each tool below.
 
+## Browse the hubs behind these picks
+
 ## [OpenOutreach](/tools/openoutreach/)
 
 OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts the usual cold-email workflow: you do not bring a list. It starts free, and free, GPLv3, self-hosted. You pay your own LLM keys and mailbox, plus BetterContact credits for discovery (1 credit per verified work email; free account includes 40 credits, no card) (verified 2026-09-07). The catalog documents 5 AI features, 9 integrations, and a self-hosting path.
@@ -44,7 +48,7 @@ Vendor: [Official site](https://openoutreach.app) · [GitHub](https://github.com
 
 ## [React Email Editor](/tools/react-email-editor/)
 
-React Email Editor is Unlayer&#x27;s official React component for embedding a drag-and-drop email builder inside your own application, and it pays to be precise about what the MIT license covers. It starts free, and free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo (verified 2026-09-06). The catalog documents 5 AI features, 7 integrations, and a self-hosting path.
+React Email Editor is Unlayer's official React component for embedding a drag-and-drop email builder inside your own application, and it pays to be precise about what the MIT license covers. It starts free, and free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo (verified 2026-09-06). The catalog documents 5 AI features, 7 integrations, and a self-hosting path.
 
 **Verdict:** Developer teams that want email templates versioned as code
 
@@ -62,7 +66,7 @@ Twilio SendGrid is one of the largest email delivery platforms in the world, pro
 
 Vendor: [Official site](https://sendgrid.com) · [Pricing](https://www.twilio.com/en-us/products/email-api/pricing)
 
-**Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
+**Skip it if the free tier's limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
@@ -98,7 +102,7 @@ Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, b
 
 Vendor: [Official site](https://www.klaviyo.com) · [Pricing](https://www.klaviyo.com/pricing)
 
-**Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
+**Skip it if the free tier's limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
@@ -110,7 +114,7 @@ Mailchimp is the most recognized name in email marketing, serving over 11 millio
 
 Vendor: [Official site](https://mailchimp.com) · [Pricing](https://mailchimp.com/pricing/marketing/)
 
-**Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
+**Skip it if the free tier's limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 

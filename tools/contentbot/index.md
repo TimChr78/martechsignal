@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI blog generation | &#10007; Paid plans start at $9/mo once past the free tier |
-| &#10003; Native integrations include WordPress, Chrome, Zapier (5 listed) | &#10007; Closed source - no self-hosting option |
-| &#10003; Free tier to evaluate before committing (Prepaid $0) |  |
+| ✓ AI capabilities: AI blog generation | ✗ Paid plans start at $9/mo once past the free tier |
+| ✓ Native integrations include WordPress, Chrome, Zapier (5 listed) | ✗ Closed source - no self-hosting option |
+| ✓ Free tier to evaluate before committing (Prepaid $0) |  |
 
 **What is ContentBot?**
-ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does ContentBot cost?**
 ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -27,13 +27,13 @@ ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; S
 Good value for high-volume, template-driven content pipelines. Teams doing premium long-form writing should stay with Jasper.
 
 - **Pricing:** Freemium
-- **Category:** [AI Content &amp; Copywriting](/categories/content-ai/)
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
 - **Founded:** 2021
 - **HQ:** Cape Town, South Africa
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** ContentBot is a tool in AI Content &amp; Copywriting with a free tier. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** ContentBot is a tool in AI Content & Copywriting with a free tier. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Jasper
 
@@ -55,13 +55,13 @@ Ghost
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
 
-[More AI Content &amp; Copywriting Tools →](/categories/content-ai/)
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [AI Content &amp; Copywriting](/categories/content-ai/)
+- [AI Content & Copywriting](/categories/content-ai/)
 - ContentBot
 Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
@@ -69,15 +69,15 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 AI content automation platform with workflows for blogs, ads, and social posts
 
-AI Content &amp; Copywriting · Freemium Desk-reviewed
+AI Content & Copywriting · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit ContentBot &#8594;](https://contentbot.ai)
+[Visit ContentBot →](https://contentbot.ai)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit ContentBot &#8594;](https://contentbot.ai)
+[Visit ContentBot →](https://contentbot.ai)
 
 ## MartechSignal Score: 32/60
 
@@ -87,7 +87,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-ContentBot is an AI content automation platform that shifts the value proposition from &#x27;AI writes for you&#x27; to &#x27;AI runs your content pipeline.&#x27; Its signature feature, AI Flows, lets marketers build multi-step automation sequences where the AI generates content, checks it against brand guidelines, formats it for specific channels, and schedules or publishes it, all without manual handoffs between steps. With over 200,000 users, ContentBot competes with Jasper and Copy.ai at a lower price point and with a stronger emphasis on workflow automation rather than one-off generation. The platform includes 60+ AI tools for blog posts, social media, ads, email, and product descriptions, plus an AI-powered content importer that can ingest, rewrite, and restructure existing content for new channels. A built-in plagiarism checker verifies originality, and the Chrome extension surfaces AI writing capabilities across the web. ContentBot offers a free trial, with paid plans starting at $9/month for individuals (Premium at $29/month). Agency plans include white-label capabilities and multi-client management. Its position in the market is the automation-first alternative: not the best AI writer, but the best tool for teams that know what content they need and want to systematize the production process rather than prompt AI manually every time.
+ContentBot is an AI content automation platform that shifts the value proposition from 'AI writes for you' to 'AI runs your content pipeline.' Its signature feature, AI Flows, lets marketers build multi-step automation sequences where the AI generates content, checks it against brand guidelines, formats it for specific channels, and schedules or publishes it, all without manual handoffs between steps. With over 200,000 users, ContentBot competes with Jasper and Copy.ai at a lower price point and with a stronger emphasis on workflow automation rather than one-off generation. The platform includes 60+ AI tools for blog posts, social media, ads, email, and product descriptions, plus an AI-powered content importer that can ingest, rewrite, and restructure existing content for new channels. A built-in plagiarism checker verifies originality, and the Chrome extension surfaces AI writing capabilities across the web. ContentBot offers a free trial, with paid plans starting at $9/month for individuals (Premium at $29/month). Agency plans include white-label capabilities and multi-client management. Its position in the market is the automation-first alternative: not the best AI writer, but the best tool for teams that know what content they need and want to systematize the production process rather than prompt AI manually every time.
 
 ContentBot homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -117,7 +117,7 @@ Current plans and limits live on the [ContentBot pricing page](https://contentbo
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-ContentBot&#x27;s differentiator is AI Flows: multi-step automations where the AI generates copy, checks it against brand guidelines, formats for the target channel, and schedules or publishes, all in one pipeline. Over 200,000 users run this cheaper, workflow-first alternative to Jasper and Copy.ai, and for teams producing recurring content, removing the manual handoffs between tools is the win that matters. The free tier is enough to test one flow before you commit to a plan.
+ContentBot's differentiator is AI Flows: multi-step automations where the AI generates copy, checks it against brand guidelines, formats for the target channel, and schedules or publishes, all in one pipeline. Over 200,000 users run this cheaper, workflow-first alternative to Jasper and Copy.ai, and for teams producing recurring content, removing the manual handoffs between tools is the win that matters. The free tier is enough to test one flow before you commit to a plan.
 
 Quality is where it yields. Output reads competent rather than distinctive, and long-form brand writing still favors Jasper, whose model templates run deeper. Flows need tuning so the guideline checks stay meaningful and the pipeline stops auto-publishing mediocrity. Teammates who review every draft will find the workflows save less than promised, so match it to your review culture before you commit.
 
@@ -139,7 +139,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 

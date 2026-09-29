@@ -36,7 +36,7 @@ Want to train on the corpus, license it, or ask about a use this page does not c
 
 Two non-standard extensions appear in the robots.txt on purpose: Content-Signal declares what each crawler may do with what it fetches, and Agentmap points agents at the machine-readable catalog in /.well-known/ard.json. Parsers that follow RFC 9309 ignore what they do not know, which is the intended behavior.
 
-&copy; 2026 MARTECHSIGNAL &middot; THE AI IN MARKETING AUTOMATION
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 
 ```json

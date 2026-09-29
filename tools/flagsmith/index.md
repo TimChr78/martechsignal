@@ -13,16 +13,16 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; BSD-3-Clause licence with free self-hosting | &#10007; The free cloud tier caps at 50,000 API requests a month, which a busy production app passes quickly. |
-| &#10003; AI capabilities: MCP Server for natural-language flag management | &#10007; Scale pricing is per member, so seat count drives the bill, and the September 2026 price is a launch discount against a USD 60 list. |
-| &#10003; Active public repository (6,570 GitHub stars counted at last check) | &#10007; Extra API calls start at USD 50 per million, which turns surprise traffic into a real line item. |
-| &#10003; Native integrations include Datadog, Grafana, Jira (6 listed) |  |
-| &#10003; Native integrations span observability, delivery, and analytics, so flag changes land in tools teams already watch. |  |
-| &#10003; The MCP server puts change requests and approvals in the path when AI tools make flag changes. |  |
-| &#10003; Self-hosting the BSD-3-Clause code is a documented deployment path alongside cloud and private cloud. |  |
+| ✓ BSD-3-Clause licence with free self-hosting | ✗ The free cloud tier caps at 50,000 API requests a month, which a busy production app passes quickly. |
+| ✓ AI capabilities: MCP Server for natural-language flag management | ✗ Scale pricing is per member, so seat count drives the bill, and the September 2026 price is a launch discount against a USD 60 list. |
+| ✓ Active public repository (6,570 GitHub stars counted at last check) | ✗ Extra API calls start at USD 50 per million, which turns surprise traffic into a real line item. |
+| ✓ Native integrations include Datadog, Grafana, Jira (6 listed) |  |
+| ✓ Native integrations span observability, delivery, and analytics, so flag changes land in tools teams already watch. |  |
+| ✓ The MCP server puts change requests and approvals in the path when AI tools make flag changes. |  |
+| ✓ Self-hosting the BSD-3-Clause code is a documented deployment path alongside cloud and private cloud. |  |
 
 **What is Flagsmith?**
-Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,570 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,570 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Flagsmith cost?**
 Flagsmith is open source - BSD-3-Clause licensed and free to self-host; the public repository carries 6,570 stars; native integrations cover Datadog, Grafana, Jira. You pay in server time and maintenance, not licences.
@@ -37,13 +37,13 @@ Yes. The code is BSD-3-Clause on GitHub, and self-hosted and private cloud deplo
 Yes. It lets AI tools manage flags, create segments, schedule changes, and automate flag hygiene in natural language, with change requests and approvals still in the loop.
 
 - **Pricing:** Freemium
-- **Category:** [Personalization &amp; CDP](/categories/personalization/)
+- **Category:** [Personalization & CDP](/categories/personalization/)
 - **GitHub:** ★ 6570
 - **HQ:** London, United Kingdom (Bullet Train Ltd, 66 Paul St)
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Flagsmith is a tool in Personalization &amp; CDP with free and open source. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Flagsmith is a tool in Personalization & CDP with free and open source. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 GrowthBook
 
@@ -61,27 +61,27 @@ n8n
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
-[More Personalization &amp; CDP Tools →](/categories/personalization/)
+[More Personalization & CDP Tools →](/categories/personalization/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [Personalization &amp; CDP](/categories/personalization/)
+- [Personalization & CDP](/categories/personalization/)
 - Flagsmith
 ## Flagsmith review (2026): pricing, AI features, verdict
 
 Open-source feature flag and remote config platform with segment targeting
 
-Personalization &amp; CDP · Freemium · OPEN SOURCE Desk-reviewed
+Personalization & CDP · Freemium · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-[Visit Flagsmith &#8594;](https://www.flagsmith.com)
+[Visit Flagsmith →](https://www.flagsmith.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Flagsmith &#8594;](https://www.flagsmith.com)
+[Visit Flagsmith →](https://www.flagsmith.com)
 
 ## MartechSignal Score: 40/60
 
@@ -150,7 +150,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,570 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,570 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Flagsmith is open source - BSD-3-Clause licensed and free to self-host; the public repository carries 6,570 stars; native integrations cover Datadog, Grafana, Jira. You pay in server time and maintenance, not licences.
 
@@ -164,12 +164,12 @@ Yes. It lets AI tools manage flags, create segments, schedule changes, and autom
 
 ## Related reading
 
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ## Also featured in
 
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/) &mdash; Teams that want their experiment engine as open as their stack
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Teams that want their experiment engine as open as their stack
 ### Quick Facts
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)

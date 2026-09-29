@@ -12,6 +12,8 @@
 | [Claude SEO](/tools/claude-seo/) | Open Source | Yes (MIT) | Best for Claude Code users who want SEO audits run by agents instead of dashboards. |
 | [Codex SEO](/tools/codex-seo/) | Free | No | Best for Codex CLI users who want scripted SEO workflows. |
 
+[Agent Skills](/categories/agent-skills/)[GEO & LLM Optimization](/categories/geo-llm-visibility/)[Open-Source Tools](/categories/open-source/)[SEO & Search](/categories/seo/)
+
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## Best AI SEO tools (2026): 8 compared
@@ -22,13 +24,17 @@ Semrush makes sense if you want audits, rank tracking, and content scoring in on
 
 The best AI SEO tools split into two jobs. This page covers the classic one: site audits, content optimization and rank tracking, including the agent-based skills that now run that loop inside coding tools. The seven tools built for AI-answer visibility, meaning brand mentions and citations inside ChatGPT and its peers, are a different problem and they live on our GEO and LLM optimization page.
 
-We catalogued every tool here and verified pricing against each vendor&#x27;s own pages. The rankings come from fit to the job above and how transparent each product is about what it does.
+We catalogued every tool here and verified pricing against each vendor's own pages. The rankings come from fit to the job above and how transparent each product is about what it does.
 
 ## What we checked and when
 
 Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
 
 What we could not verify is called out under each tool below.
+
+## Browse the hubs behind these picks
+
+**Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) · [GEO, defined](/glossary/geo/)
 
 ## [Semrush](/tools/semrush/)
 

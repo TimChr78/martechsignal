@@ -13,13 +13,13 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; AI capabilities: 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy |  |
-| &#10003; Active public repository (1,044 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include OpenClaw, Google Ads API, Google Search Console (6 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy |  |
+| ✓ Active public repository (1,044 GitHub stars counted at last check) |  |
+| ✓ Native integrations include OpenClaw, Google Ads API, Google Search Console (6 listed) |  |
 
 **What is OpenClaw Marketing Skills?**
-OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,044 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,044 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does OpenClaw Marketing Skills cost?**
 OpenClaw Marketing Skills is open source - MIT licensed and free to self-host; the public repository carries 1,044 stars; native integrations cover OpenClaw, Google Ads API, Google Search Console. You pay in server time and maintenance, not licences.
@@ -70,21 +70,21 @@ Agent Skills · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit OpenClaw Marketing Skills &#8594;](https://github.com/LeoYeAI/openclaw-marketing-skills)
+[Visit OpenClaw Marketing Skills →](https://github.com/LeoYeAI/openclaw-marketing-skills)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit OpenClaw Marketing Skills &#8594;](https://github.com/LeoYeAI/openclaw-marketing-skills)
+[Visit OpenClaw Marketing Skills →](https://github.com/LeoYeAI/openclaw-marketing-skills)
 
 ## MartechSignal Score: 39/60
 
-OpenClaw&#x27;s 37 marketing skills connect to live ad and search data, which separates it from prompt packs. MIT-licensed and OpenClaw-native, so the harness choice is made for you.
+OpenClaw's 37 marketing skills connect to live ad and search data, which separates it from prompt packs. MIT-licensed and OpenClaw-native, so the harness choice is made for you.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
-OpenClaw Marketing Skills gives OpenClaw agents a full marketing brain: 37 skills across CRO, copywriting, SEO, paid ads, email, growth, retention, sales, and strategy. The skills read your actual codebase and product context, so the output is specific to what you&#x27;re building rather than generic marketing advice. The README&#x27;s pitch is blunt: &quot;Not advice. Output.&quot; And the data connectors back that up. Connect your Google Ads, Search Console, Meta Ads, or X/Twitter accounts, and the skills work with real numbers instead of assumptions. The four data connectors are the headline feature. google-ads-connect audits campaigns, finds wasted spend, and identifies zero-conversion keywords. search-console-connect diagnoses traffic drops, surfaces quick-win keywords, and detects cannibalization. meta-ads-connect catches creative fatigue, triages Learning Phase issues, and flags audience overlap. x-twitter-connect searches conversations, monitors keywords, and drafts reviewed responses. The README explicitly compares this to Toprank (2.6K stars), noting that Toprank covers Google/Meta ads and SEO data but misses X/Twitter signals and the 28 additional skills covering the rest of the marketing stack. It&#x27;s MIT-licensed and runs on OpenClaw agents. MyClaw.ai offers cloud-hosted OpenClaw with one-click setup if you don&#x27;t want to manage a server. The repo was last pushed in June 2026, so it&#x27;s a few weeks behind the most actively maintained packs in this list. The README is available in 5 languages. The OpenClaw dependency is the constraint. If you&#x27;re running Claude Code or Codex, you&#x27;d use Claude SEO, Claude Ads, or Aaron Marketing Skills instead. OpenClaw Marketing Skills is for teams already on OpenClaw or evaluating it. Within that ecosystem, the data connectors give it an edge over generic skill packs that operate on prompts alone. The 37-skill count sits between the focused tools (Claude SEO&#x27;s 25, AI Marketing Suite&#x27;s 15) and the comprehensive ones (Aaron&#x27;s 120, Digital Marketing Pro&#x27;s 163). It&#x27;s a solid middle ground if OpenClaw is your platform.
+OpenClaw Marketing Skills gives OpenClaw agents a full marketing brain: 37 skills across CRO, copywriting, SEO, paid ads, email, growth, retention, sales, and strategy. The skills read your actual codebase and product context, so the output is specific to what you're building rather than generic marketing advice. The README's pitch is blunt: "Not advice. Output." And the data connectors back that up. Connect your Google Ads, Search Console, Meta Ads, or X/Twitter accounts, and the skills work with real numbers instead of assumptions. The four data connectors are the headline feature. google-ads-connect audits campaigns, finds wasted spend, and identifies zero-conversion keywords. search-console-connect diagnoses traffic drops, surfaces quick-win keywords, and detects cannibalization. meta-ads-connect catches creative fatigue, triages Learning Phase issues, and flags audience overlap. x-twitter-connect searches conversations, monitors keywords, and drafts reviewed responses. The README explicitly compares this to Toprank (2.6K stars), noting that Toprank covers Google/Meta ads and SEO data but misses X/Twitter signals and the 28 additional skills covering the rest of the marketing stack. It's MIT-licensed and runs on OpenClaw agents. MyClaw.ai offers cloud-hosted OpenClaw with one-click setup if you don't want to manage a server. The repo was last pushed in June 2026, so it's a few weeks behind the most actively maintained packs in this list. The README is available in 5 languages. The OpenClaw dependency is the constraint. If you're running Claude Code or Codex, you'd use Claude SEO, Claude Ads, or Aaron Marketing Skills instead. OpenClaw Marketing Skills is for teams already on OpenClaw or evaluating it. Within that ecosystem, the data connectors give it an edge over generic skill packs that operate on prompts alone. The 37-skill count sits between the focused tools (Claude SEO's 25, AI Marketing Suite's 15) and the comprehensive ones (Aaron's 120, Digital Marketing Pro's 163). It's a solid middle ground if OpenClaw is your platform.
 
 OpenClaw Marketing Skills homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -136,7 +136,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,044 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,044 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 OpenClaw Marketing Skills is open source - MIT licensed and free to self-host; the public repository carries 1,044 stars; native integrations cover OpenClaw, Google Ads API, Google Search Console. You pay in server time and maintenance, not licences.
 
@@ -147,11 +147,11 @@ Solid add-on pack for agent stacks; thin as a primary playbook source.
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ## Also featured in
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) &mdash; Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier.
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

@@ -13,17 +13,17 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: experience OS Agents (multi-agent copilot) | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Shopify, Salesforce Commerce Cloud, commercetools (10 listed) | &#10007; Enterprise pricing is quote-based - no public numbers |
-| &#10003; API access for custom integrations |  |
+| ✓ AI capabilities: experience OS Agents (multi-agent copilot) | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, Salesforce Commerce Cloud, commercetools (10 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+| ✓ API access for custom integrations |  |
 
 **What is Dynamic Yield?**
-Dynamic Yield: AI-powered personalization platform for web, mobile, and email experiences. Dynamic Yield ships with experience OS Agents (multi-agent copilot). This page documents 10 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Dynamic Yield: AI-powered personalization platform for web, mobile, and email experiences. Dynamic Yield ships with experience OS Agents (multi-agent copilot). This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Dynamic Yield cost?**
-Dynamic Yield uses enterprise pricing, so the number depends on your volume and contract. No published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts. Our last verified read of the pricing model was 2026-09-06; the vendor&#x27;s pricing page carries the current quote criteria.
+Dynamic Yield uses enterprise pricing, so the number depends on your volume and contract. No published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
 
-**Is Dynamic Yield a good Personalization &amp; CDP tool in 2026?**
+**Is Dynamic Yield a good Personalization & CDP tool in 2026?**
 The most deeply documented enterprise personalization platform we assessed, with real AI features that ship under specific names. Go in expecting an implementation project and a procurement conversation, not a tag and a credit card.
 
 **Does Dynamic Yield work with Shopify?**
@@ -45,13 +45,13 @@ No price is published. The pricing page redirects to a Mastercard product page w
 It is the vendor with the longest claimed run of Gartner Magic Quadrant leader placements in personalization engines, eight consecutive, and the developer documentation to back an enterprise rollout. If you cannot staff an implementation project, lighter testing and recommendation tools will deliver value faster.
 
 - **Pricing:** Enterprise
-- **Category:** [Personalization &amp; CDP](/categories/personalization/)
+- **Category:** [Personalization & CDP](/categories/personalization/)
 - **Founded:** 2011
 - **HQ:** New York, NY, USA
 - **API:** Yes
 - **Last verified:** 2026-09-06
 
-**Verdict:** Dynamic Yield is a tool in Personalization &amp; CDP with custom pricing. The catalog documents 7 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Dynamic Yield is a tool in Personalization & CDP with custom pricing. The catalog documents 7 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 Nosto
 
@@ -71,15 +71,15 @@ AI content generation platform for ecommerce product descriptions and articles
 
 Apache Unomi
 
-Apache&#x27;s open-source customer data platform and personalization engine
+Apache's open-source customer data platform and personalization engine
 
-[More Personalization &amp; CDP Tools →](/categories/personalization/)
+[More Personalization & CDP Tools →](/categories/personalization/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [Personalization &amp; CDP](/categories/personalization/)
+- [Personalization & CDP](/categories/personalization/)
 - Dynamic Yield
 Re-check pending: pricing last verified 2026-09-06 (23 days ago).
 
@@ -87,15 +87,15 @@ Re-check pending: pricing last verified 2026-09-06 (23 days ago).
 
 AI-powered personalization platform for web, mobile, and email experiences
 
-Personalization &amp; CDP · Enterprise Desk-reviewed
+Personalization & CDP · Enterprise Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
-[Visit Dynamic Yield &#8594;](https://www.dynamicyield.com)
+[Visit Dynamic Yield →](https://www.dynamicyield.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Dynamic Yield &#8594;](https://www.dynamicyield.com)
+[Visit Dynamic Yield →](https://www.dynamicyield.com)
 
 ## MartechSignal Score: 35/60
 
@@ -105,7 +105,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Dynamic Yield by Mastercard is an enterprise personalization platform built around Experience OS, a decisioning layer that picks the content, products, and offers to serve each visitor across web, mobile apps, email, and triggered messages. Mastercard acquired the company in 2022, and documentation lives in two places: a support knowledge base and the technical documentation at dy.dev, which is unusually deep for a marketing product, covering script internals, CSP configuration, a cookie inventory, and the Parquet Daily Activity Stream. Implementation follows a documented six-step path: create sections, sync a product feed, implement on every page, track events, set cookies from the backend, and install the Chrome extension used for debugging and visual editing. Two routes exist and the docs recommend both: client-side scripts (api_static.js or api_dynamic.js, served from adm.dynamicyield.com or adm.dynamicyield.eu) or server-side calls to the Experience API&#x27;s Choose endpoint, with Kotlin, Swift, and React Native SDKs for apps. The capability surface is broad and app names have shifted. Experience Web handles on-site campaigns and split testing, Recommendations and Algorithm Studio cover merchandising, Experience Email and Reconnect handle campaign and triggered messaging (Reconnect gained a native email delivery channel in September 2025), Audience Hub manages segmentation, and Rollout adds gradual feature release with rollback. AI features are named: Experience OS Agents is a multi-agent system with five defined roles (Personalization Expert, Designer, Developer, Copywriter, Analyst), Shopping Muse is the generative conversational commerce product now exposed as a server-side API, Predictive Targeting automates audience selection, and NextML, AffinityML, and VisualML handle ranking, affinity, and visual similarity. Pricing is not published: the pricing URL redirects to a Mastercard product page and every path ends at contact sales or a demo request. The vendor claims eight consecutive Gartner Magic Quadrant leader placements, 80 million personalized sessions daily, and MACH Alliance certification. Documented integrations include Shopify, Shopify Hydrogen 2, Salesforce Commerce Cloud, commercetools, Magento 2, SAP Hybris, mParticle, and several email service providers.
+Dynamic Yield by Mastercard is an enterprise personalization platform built around Experience OS, a decisioning layer that picks the content, products, and offers to serve each visitor across web, mobile apps, email, and triggered messages. Mastercard acquired the company in 2022, and documentation lives in two places: a support knowledge base and the technical documentation at dy.dev, which is unusually deep for a marketing product, covering script internals, CSP configuration, a cookie inventory, and the Parquet Daily Activity Stream. Implementation follows a documented six-step path: create sections, sync a product feed, implement on every page, track events, set cookies from the backend, and install the Chrome extension used for debugging and visual editing. Two routes exist and the docs recommend both: client-side scripts (api_static.js or api_dynamic.js, served from adm.dynamicyield.com or adm.dynamicyield.eu) or server-side calls to the Experience API's Choose endpoint, with Kotlin, Swift, and React Native SDKs for apps. The capability surface is broad and app names have shifted. Experience Web handles on-site campaigns and split testing, Recommendations and Algorithm Studio cover merchandising, Experience Email and Reconnect handle campaign and triggered messaging (Reconnect gained a native email delivery channel in September 2025), Audience Hub manages segmentation, and Rollout adds gradual feature release with rollback. AI features are named: Experience OS Agents is a multi-agent system with five defined roles (Personalization Expert, Designer, Developer, Copywriter, Analyst), Shopping Muse is the generative conversational commerce product now exposed as a server-side API, Predictive Targeting automates audience selection, and NextML, AffinityML, and VisualML handle ranking, affinity, and visual similarity. Pricing is not published: the pricing URL redirects to a Mastercard product page and every path ends at contact sales or a demo request. The vendor claims eight consecutive Gartner Magic Quadrant leader placements, 80 million personalized sessions daily, and MACH Alliance certification. Documented integrations include Shopify, Shopify Hydrogen 2, Salesforce Commerce Cloud, commercetools, Magento 2, SAP Hybris, mParticle, and several email service providers.
 
 Dynamic Yield homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -149,7 +149,7 @@ Current plans and limits live on the [Dynamic Yield pricing page](https://www.dy
 - For mobile apps, add the Kotlin, Swift, or React Native SDK. React Native support shipped in September 2025.
 ## Best for
 
-Enterprise retail, ecommerce, and travel organizations with real traffic volume and developers on staff, especially those that want testing, recommendations, triggered messaging, and Mastercard spend models from one vendor. The restaurant vertical has its own targeting features, a leftover of the McDonald&#x27;s years.
+Enterprise retail, ecommerce, and travel organizations with real traffic volume and developers on staff, especially those that want testing, recommendations, triggered messaging, and Mastercard spend models from one vendor. The restaurant vertical has its own targeting features, a leftover of the McDonald's years.
 
 ## Not for
 
@@ -157,7 +157,7 @@ Small and mid-market teams without engineering support. Implementation spans sec
 
 ## Review notes
 
-Assessed from Dynamic Yield&#x27;s knowledge base and developer docs, not a live account. The developer documentation is the standout: dy.dev covers script internals, CSP configuration, the full cookie inventory, and the Parquet-formatted Daily Activity Stream, which is more depth than most personalization vendors publish.
+Assessed from Dynamic Yield's knowledge base and developer docs, not a live account. The developer documentation is the standout: dy.dev covers script internals, CSP configuration, the full cookie inventory, and the Parquet-formatted Daily Activity Stream, which is more depth than most personalization vendors publish.
 
 Implementation is a project with a documented sequence: sections, product feed, page implementation, events, backend cookies, then the Chrome extension for debugging and visual editing. Two routes exist, script and Experience API, and the docs recommend running both, which tells you where the complexity sits. Mobile needs the Kotlin, Swift, or React Native SDK.
 
@@ -182,9 +182,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Dynamic Yield: AI-powered personalization platform for web, mobile, and email experiences. Dynamic Yield ships with experience OS Agents (multi-agent copilot). This page documents 10 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Dynamic Yield: AI-powered personalization platform for web, mobile, and email experiences. Dynamic Yield ships with experience OS Agents (multi-agent copilot). This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
-Dynamic Yield uses enterprise pricing, so the number depends on your volume and contract. No published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts. Our last verified read of the pricing model was 2026-09-06; the vendor&#x27;s pricing page carries the current quote criteria.
+Dynamic Yield uses enterprise pricing, so the number depends on your volume and contract. No published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
 
 The most deeply documented enterprise personalization platform we assessed, with real AI features that ship under specific names. Go in expecting an implementation project and a procurement conversation, not a tag and a credit card.
 
@@ -209,7 +209,7 @@ It is the vendor with the longest claimed run of Gartner Magic Quadrant leader p
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/) &mdash; Large commerce operations buying personalization depth over self-serve
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Large commerce operations buying personalization depth over self-serve
 ### Quick Facts
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)

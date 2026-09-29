@@ -11,13 +11,15 @@
 - **Pick Matomo if:** you want web analytics depth, EU data residency and raw data you own outright.
 - **Pick PostHog if:** the real questions are about product usage, and you want flags and experiments beside the funnel.
 
+[Analytics & Attribution](/categories/analytics/)[Open-Source Tools](/categories/open-source/)
+
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## Matomo vs PostHog (2026): web analytics or product analytics
 
 Matomo and PostHog get compared more than their categories suggest, because both answer the same executive question: what do people do on our thing? They answer it from opposite ends. Matomo is web analytics in the classic sense, built to replace Google Analytics with better privacy defaults. PostHog is product analytics with web numbers as one slice of the platform.
 
-The numbers below come from each vendor&#x27;s own published materials, catalogued and checked this month. For the privacy-first three-way including Plausible, start with the quick-decision table on Matomo vs Plausible.
+The numbers below come from each vendor's own published materials, catalogued and checked this month. For the privacy-first three-way including Plausible, start with the quick-decision table on Matomo vs Plausible.
 
 Both products grew up open source and both still sell trust as much as features: one promises your analytics data stays yours, the other promises your product data answers questions without a data team. The trade-offs below follow from that split.
 
@@ -45,19 +47,19 @@ PostHog
 
 ## Deployment and data residency
 
-**Matomo:** Self-host on your own EU infrastructure for full control, or use EU-hosted Cloud. Data ownership is the product&#x27;s core promise and the licence guarantees it.
+**Matomo:** Self-host on your own EU infrastructure for full control, or use EU-hosted Cloud. Data ownership is the product's core promise and the licence guarantees it.
 
 **PostHog:** Cloud US by default with an EU cloud option, and a self-hosted open-source edition that carries usage-based billing above its free tier. Check which edition fits your compliance story before committing.
 
 ## Reporting depth
 
-**Matomo:** Matomo&#x27;s report suite is the deepest web-analytics surface in the comparison class: multi-channel attribution, cohort and segmentation engines, and content reports that map to how marketing teams actually work. The raw data sits in your database, so anything missing is a SQL query away.
+**Matomo:** Matomo's report suite is the deepest web-analytics surface in the comparison class: multi-channel attribution, cohort and segmentation engines, and content reports that map to how marketing teams actually work. The raw data sits in your database, so anything missing is a SQL query away.
 
-**PostHog:** PostHog&#x27;s dashboards are event-driven and lighter on classic channel reporting. Where it leads is behavioural depth: session replay, heatmap-adjacent tools and feature usage tied to the same events, with SQL access on paid plans for the gaps.
+**PostHog:** PostHog's dashboards are event-driven and lighter on classic channel reporting. Where it leads is behavioural depth: session replay, heatmap-adjacent tools and feature usage tied to the same events, with SQL access on paid plans for the gaps.
 
 ## Governance and the licence question
 
-**Matomo:** GPL v3+ for the self-hosted core, with premium modules on a separate commercial licence. The governance story is stable and the vendor&#x27;s business model is support and cloud, not data.
+**Matomo:** GPL v3+ for the self-hosted core, with premium modules on a separate commercial licence. The governance story is stable and the vendor's business model is support and cloud, not data.
 
 **PostHog:** The self-hosted edition carries an unusual twist: it is open core with usage-based billing past the free tier, so self-hosting does not mean free at scale. Read the licence terms against your growth curve before betting a compliance story on it.
 
@@ -65,7 +67,7 @@ PostHog
 
 **Matomo:** Tag Manager ships with it, the tracking API covers server-side and mobile, and every table in the self-hosted schema is queryable. Exports run to raw CSV and scheduled archives, so leaving with your history is a script, not a negotiation.
 
-**PostHog:** Ingestion is event-first: SDKs for the common stacks, a capture API for everything else, and batch export into a warehouse for teams that outgrow the built-in analysis. The reverse ETL story back into operational tools is stronger than Matomo&#x27;s.
+**PostHog:** Ingestion is event-first: SDKs for the common stacks, a capture API for everything else, and batch export into a warehouse for teams that outgrow the built-in analysis. The reverse ETL story back into operational tools is stronger than Matomo's.
 
 ## What each looks like at month six
 
@@ -75,25 +77,27 @@ PostHog
 
 ## Scope
 
-**Matomo:** If the question is &#x27;how is the website performing&#x27;, Matomo&#x27;s report suite answers it without a data team. Campaign attribution and content reporting are deeper than anything in the product-analytics class.
+**Matomo:** If the question is 'how is the website performing', Matomo's report suite answers it without a data team. Campaign attribution and content reporting are deeper than anything in the product-analytics class.
 
-**PostHog:** If the question is &#x27;which feature retains users&#x27;, PostHog answers it in one platform: flags, experiments and session replay sit next to the funnel that measures them.
+**PostHog:** If the question is 'which feature retains users', PostHog answers it in one platform: flags, experiments and session replay sit next to the funnel that measures them.
 
 ## Migration cost
 
-Matomo runs a GA importer for the common historical case, so the standard &#x27;leaving Google&#x27; move is largely scripted. Moving the other way, into PostHog, means an event plan before data: PostHog reads events and properties, not pageviews, so a week of naming design precedes any import.
+Matomo runs a GA importer for the common historical case, so the standard 'leaving Google' move is largely scripted. Moving the other way, into PostHog, means an event plan before data: PostHog reads events and properties, not pageviews, so a week of naming design precedes any import.
 
-Historical parity is the trap in both directions. Matomo keeps raw data indefinitely while self-hosted; PostHog&#x27;s retention varies by plan. Export what you must keep before any switch, in both vendors&#x27; own export formats, because that window closes with the old contract.
+Historical parity is the trap in both directions. Matomo keeps raw data indefinitely while self-hosted; PostHog's retention varies by plan. Export what you must keep before any switch, in both vendors' own export formats, because that window closes with the old contract.
 
-For teams moving from Matomo to PostHog, the one migration asset worth building first is the mapping from Matomo&#x27;s pageview-centric reports to your new event names. Get that mapping reviewed by whoever owns the reporting today; the numbers will not reconcile during the overlap month unless the vocabulary matches.
+For teams moving from Matomo to PostHog, the one migration asset worth building first is the mapping from Matomo's pageview-centric reports to your new event names. Get that mapping reviewed by whoever owns the reporting today; the numbers will not reconcile during the overlap month unless the vocabulary matches.
 
 ## When neither is the right answer
 
-If your question is purely commercial, &#x27;which channel sells&#x27;, a warehouse-native BI layer over your own order data beats both. And if the site is a brochure and the product is offline, neither tool earns its script tag.
+If your question is purely commercial, 'which channel sells', a warehouse-native BI layer over your own order data beats both. And if the site is a brochure and the product is offline, neither tool earns its script tag.
 
 ## Who should pick which
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
+
+## Browse the hubs behind this comparison
 
 ## Get the next teardown
 

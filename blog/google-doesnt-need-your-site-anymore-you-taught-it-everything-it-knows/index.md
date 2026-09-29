@@ -4,7 +4,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
 
 AI SEARCH · AI OVERVIEWS · 7 MIN
 
-## Google Doesn&#x27;t Need Your Site Anymore. You Taught It Everything It Knows.
+## Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.
 
 [How we review](/methodology/) · No affiliate links
 

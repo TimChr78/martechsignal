@@ -22,7 +22,7 @@ GLOSSARY
 
 ## Definition
 
-Website personalization changes what a visitor sees based on who they are or what they&#x27;ve done before. A returning customer sees product recommendations based on past purchases. A visitor from a healthcare company sees healthcare case studies. A first-time visitor sees a different hero section than someone on their fifth visit.
+Website personalization changes what a visitor sees based on who they are or what they've done before. A returning customer sees product recommendations based on past purchases. A visitor from a healthcare company sees healthcare case studies. A first-time visitor sees a different hero section than someone on their fifth visit.
 
 ## Why it matters
 
@@ -42,7 +42,7 @@ Start with the cheapest reliable signal you already have: referrer, geography, o
 
 ## Common mistakes
 
-The expensive mistake is personalizing everything and measuring nothing, so the site becomes a collection of unproven variants. The second is over-segmenting until segments are too small to test. The third is serving stale segments: a visitor who logged out sees yesterday&#x27;s personalization, and returning customers get reconfused. Personalization follows the same discipline as CRO: hypothesis, test, and evidence.
+The expensive mistake is personalizing everything and measuring nothing, so the site becomes a collection of unproven variants. The second is over-segmenting until segments are too small to test. The third is serving stale segments: a visitor who logged out sees yesterday's personalization, and returning customers get reconfused. Personalization follows the same discipline as CRO: hypothesis, test, and evidence.
 
 ## What changed with AI
 
@@ -58,7 +58,7 @@ Sources: [Clerk.io](https://www.clerk.io) · [Bloomreach](https://www.bloomreach
 
 ### Categories
 
-[Personalization &amp; CDP](/categories/personalization/) [Best Personalization & CDP tools](/best/ai-personalization-tools/)
+[Personalization & CDP](/categories/personalization/) [Best Personalization & CDP tools](/best/ai-personalization-tools/)
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

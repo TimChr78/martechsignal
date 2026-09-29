@@ -13,13 +13,13 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI subject line assistant | &#10007; Paid plans start at $20/mo once past the free tier |
-| &#10003; G2 rating 4.6/5 | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Shopify, WooCommerce, BigCommerce (8 listed) |  |
-| &#10003; Free tier to evaluate before committing (Free up to 250 contacts/500 emails/mo; paid scales with cont) |  |
+| ✓ AI capabilities: AI subject line assistant | ✗ Paid plans start at $20/mo once past the free tier |
+| ✓ G2 rating 4.6/5 | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, WooCommerce, BigCommerce (8 listed) |  |
+| ✓ Free tier to evaluate before committing (Free up to 250 contacts/500 emails/mo; paid scales with cont) |  |
 
 **What is Klaviyo?**
-Klaviyo: AI-powered email and SMS marketing platform built for ecommerce brands. Klaviyo ships with AI subject line assistant. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Klaviyo: AI-powered email and SMS marketing platform built for ecommerce brands. Klaviyo ships with AI subject line assistant. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Klaviyo cost?**
 Klaviyo has a free tier; paid plans start at $20/mo. Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -73,11 +73,11 @@ Email Marketing · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-[Visit Klaviyo &#8594;](https://www.klaviyo.com)
+[Visit Klaviyo →](https://www.klaviyo.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Klaviyo &#8594;](https://www.klaviyo.com)
+[Visit Klaviyo →](https://www.klaviyo.com)
 
 ## MartechSignal Score: 39/60
 
@@ -87,7 +87,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento. Founded in 2012 in Boston and taken public in 2023, Klaviyo&#x27;s competitive advantage is its data model: instead of treating customers as email addresses in a list, it builds rich profiles from purchase history, browsing behavior, and predicted lifetime value. This enables segments like &#x27;bought twice in the last 90 days but haven&#x27;t opened an email in 30 days&#x27; that generic ESPs cannot express. Pre-built automation flows cover the ecommerce playbook: abandoned cart, browse abandonment, post-purchase follow-up, win-back, and cross-sell. The platform includes SMS marketing alongside email with unified consent management and attribution. Its AI features, branded as Klaviyo AI, handle send-time optimization, subject line generation, and predictive churn analysis. The free plan supports up to 250 contacts and 500 emails/month; paid plans start at $20/month for 500 contacts, scaling with list size and SMS volume. Klaviyo&#x27;s primary competitors are Mailchimp (broader but less ecommerce-focused), Omnisend (similar space but smaller scale), and Attentive (SMS-first). Its main limitations are vertical specificity (ecommerce-first, less suited for B2B or content businesses) and price scaling that becomes significant as contact lists grow.
+Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento. Founded in 2012 in Boston and taken public in 2023, Klaviyo's competitive advantage is its data model: instead of treating customers as email addresses in a list, it builds rich profiles from purchase history, browsing behavior, and predicted lifetime value. This enables segments like 'bought twice in the last 90 days but haven't opened an email in 30 days' that generic ESPs cannot express. Pre-built automation flows cover the ecommerce playbook: abandoned cart, browse abandonment, post-purchase follow-up, win-back, and cross-sell. The platform includes SMS marketing alongside email with unified consent management and attribution. Its AI features, branded as Klaviyo AI, handle send-time optimization, subject line generation, and predictive churn analysis. The free plan supports up to 250 contacts and 500 emails/month; paid plans start at $20/month for 500 contacts, scaling with list size and SMS volume. Klaviyo's primary competitors are Mailchimp (broader but less ecommerce-focused), Omnisend (similar space but smaller scale), and Attentive (SMS-first). Its main limitations are vertical specificity (ecommerce-first, less suited for B2B or content businesses) and price scaling that becomes significant as contact lists grow.
 
 Klaviyo homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -142,7 +142,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Klaviyo: AI-powered email and SMS marketing platform built for ecommerce brands. Klaviyo ships with AI subject line assistant. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Klaviyo: AI-powered email and SMS marketing platform built for ecommerce brands. Klaviyo ships with AI subject line assistant. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Klaviyo has a free tier; paid plans start at $20/mo. Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -157,8 +157,8 @@ The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a 
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ## Also featured in
 
-- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) &mdash; DTC brands that want store data doing the segmentation
-- [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/) &mdash; Pick Klaviyo if you want a hosted platform the vendor runs for you, and ai subject line assistant and predictive analytics matters to your team, starting free.
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — DTC brands that want store data doing the segmentation
+- [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/) — Pick Klaviyo if you want a hosted platform the vendor runs for you, and ai subject line assistant and predictive analytics matters to your team, starting free.
 ### Quick Facts
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

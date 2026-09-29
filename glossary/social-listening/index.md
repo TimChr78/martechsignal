@@ -22,7 +22,7 @@ Social listening is the practice of monitoring social media channels, forums, re
 
 ## Why it matters
 
-Social listening tools range from free (Google Alerts, Reddit search) to enterprise (Brandwatch, Sprout Social). The value isn&#x27;t in the volume of mentions, it&#x27;s in catching the ones that matter: a complaint going viral, a competitor&#x27;s product launch, a shift in how people talk about your category. The AI layer helps with sentiment classification and summarization, but the strategic interpretation of &#x27;why are people suddenly angry about our checkout flow&#x27; still requires a human.
+Social listening tools range from free (Google Alerts, Reddit search) to enterprise (Brandwatch, Sprout Social). The value isn't in the volume of mentions, it's in catching the ones that matter: a complaint going viral, a competitor's product launch, a shift in how people talk about your category. The AI layer helps with sentiment classification and summarization, but the strategic interpretation of 'why are people suddenly angry about our checkout flow' still requires a human.
 
 ## How it works
 

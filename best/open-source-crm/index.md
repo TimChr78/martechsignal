@@ -10,6 +10,8 @@
 | [Krayin CRM](/tools/krayin-crm/) | Open Source | yes | Best for Laravel shops that want room to extend a CRM. |
 | [Monica](/tools/monica/) | Open Source | yes | Best for relationship-led founders and community businesses. |
 
+[CRM](/categories/crm/)[Open-Source Tools](/categories/open-source/)
+
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## Best open-source CRM tools (2026)
@@ -18,7 +20,7 @@ Most teams should start with EspoCRM. It is lean, free, and easy to extend piece
 
 ## How we picked
 
-This list is for teams that want a CRM they can host themselves: founders tired of per-seat billing, agencies holding client data on their own servers, and ops leads whose compliance rules rule out someone else&#x27;s cloud. Every pick is open_source: true in the martechsignal catalog.
+This list is for teams that want a CRM they can host themselves: founders tired of per-seat billing, agencies holding client data on their own servers, and ops leads whose compliance rules rule out someone else's cloud. Every pick is open_source: true in the martechsignal catalog.
 
 The category comes straight from the catalog: a CRM entry must manage contacts, pipeline, and customer records as its core job. The six picks span what open-source CRM means in 2026, from a sales suite that outgrew SugarCRM to a personal relationship manager that refuses to sell anything.
 
@@ -29,6 +31,8 @@ Three checks decide most purchases. Read the license: AGPL, MIT, and fair-code t
 Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
 
 What we could not verify is called out under each tool below.
+
+## Browse the hubs behind these picks
 
 ## [EspoCRM](/tools/espocrm/)
 
@@ -44,7 +48,7 @@ Vendor: [Official site](https://www.espocrm.com) · [Pricing](https://www.espocr
 
 ## [SuiteCRM](/tools/suitecrm/)
 
-SuiteCRM has the deepest free module set here and the clearest answer to EspoCRM&#x27;s pricing split: workflow automation and calculated fields ship in the core at no cost. The AGPLv3 project forked SugarCRM Community Edition and outlived it, maintained from Stirling, Scotland, with quotes, invoices, contracts, PDF templates, campaigns, surveys, cases, scheduled reports, and document management, plus Studio and Module Builder for no-code changes. Two release lines are current: 8.10.2 and 7.15.2 shipped together in July 2026, and 7.15 is an extended support release with security fixes published into 2028. The trade-offs are plain: no native AI in the documented feature set, no official mobile app, and a PHP 8.2 to 8.4 stack your team maintains.
+SuiteCRM has the deepest free module set here and the clearest answer to EspoCRM's pricing split: workflow automation and calculated fields ship in the core at no cost. The AGPLv3 project forked SugarCRM Community Edition and outlived it, maintained from Stirling, Scotland, with quotes, invoices, contracts, PDF templates, campaigns, surveys, cases, scheduled reports, and document management, plus Studio and Module Builder for no-code changes. Two release lines are current: 8.10.2 and 7.15.2 shipped together in July 2026, and 7.15 is an extended support release with security fixes published into 2028. The trade-offs are plain: no native AI in the documented feature set, no official mobile app, and a PHP 8.2 to 8.4 stack your team maintains.
 
 **Verdict:** Best for teams that want the widest free feature set.
 

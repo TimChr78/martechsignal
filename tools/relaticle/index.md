@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $19/mo once past the free tier |
-| &#10003; AI capabilities: native AI agent support |  |
-| &#10003; Active public repository (1,635 GitHub stars counted at last check) |  |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/mo once past the free tier |
+| ✓ AI capabilities: native AI agent support |  |
+| ✓ Active public repository (1,635 GitHub stars counted at last check) |  |
 
 **What is Relaticle?**
-Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament. Relaticle ships with native AI agent support. The public repository carries 1,635 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,635 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Relaticle cost?**
 Relaticle has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -27,13 +27,13 @@ Relaticle has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.
 A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: free and capable self-hosted, AGPL-3.0, PostgreSQL-only, and no longer without paid tiers.
 
 **How do I install Relaticle on my own server?**
-The documented Docker path is one downloaded file and one command: fetch compose.yml from the repository, create a .env containing a generated APP_KEY (echo &#x27;APP_KEY=base64:$(openssl rand -base64 32)&#x27;) and a DB_PASSWORD, then docker compose up -d. That starts five containers (app, horizon, scheduler, postgres:17-alpine, redis:7-alpine). Create your first admin with docker compose exec app php artisan make:filament-user. Upgrades are docker compose pull followed by docker compose up -d, and migrations run automatically on startup.
+The documented Docker path is one downloaded file and one command: fetch compose.yml from the repository, create a .env containing a generated APP_KEY (echo 'APP_KEY=base64:$(openssl rand -base64 32)') and a DB_PASSWORD, then docker compose up -d. That starts five containers (app, horizon, scheduler, postgres:17-alpine, redis:7-alpine). Create your first admin with docker compose exec app php artisan make:filament-user. Upgrades are docker compose pull followed by docker compose up -d, and migrations run automatically on startup.
 
-**What can an AI agent do through Relaticle&#x27;s MCP server?**
+**What can an AI agent do through Relaticle's MCP server?**
 The hosted MCP endpoint at mcp.relaticle.com exposes 37 tools: cross-entity search and fetch, a whoami call, workspace introspection (CRM schema, CRM summary, opportunity aggregation, activity and custom field listings), list/get/create/update/delete sets for companies, people, and opportunities, and create, update, delete, attach, and detach for tasks and notes. Authentication is OAuth 2.1 with PKCE and dynamic client registration, or a personal access token from Settings, Access Tokens, passed as a bearer header. Destructive operations in the built-in chat require approval, and MCP requests are capped at 120 per minute per user.
 
 **Is Relaticle free, and what does Cloud Pro add?**
-Self-hosting is free under AGPL-3.0 with unlimited users and records on your own server. The paid tiers are hosted: Cloud Pro is $19 per workspace per month ($228 billed yearly, or $24 month to month) with a 14-day trial and no card required, adding 2,000 AI credits a month on top of unlimited users, records, the REST API, and the MCP server. Enterprise starts at $20,000 a year, billed yearly, and the site stresses it is never per seat. Self-hosted instances default to the Free plan&#x27;s 300 AI credits a month unless you bring your own key for more.
+Self-hosting is free under AGPL-3.0 with unlimited users and records on your own server. The paid tiers are hosted: Cloud Pro is $19 per workspace per month ($228 billed yearly, or $24 month to month) with a 14-day trial and no card required, adding 2,000 AI credits a month on top of unlimited users, records, the REST API, and the MCP server. Enterprise starts at $20,000 a year, billed yearly, and the site stresses it is never per seat. Self-hosted instances default to the Free plan's 300 AI credits a month unless you bring your own key for more.
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
@@ -48,7 +48,7 @@ Django CRM
 
 Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 
-IDURAR ERP &amp; CRM
+IDURAR ERP & CRM
 
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
@@ -72,17 +72,17 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 ## Relaticle review (2026): pricing, AI features, verdict
 
-Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament
+Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
 
 CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Relaticle &#8594;](https://relaticle.com)
+[Visit Relaticle →](https://relaticle.com)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Relaticle &#8594;](https://relaticle.com)
+[Visit Relaticle →](https://relaticle.com)
 
 ## MartechSignal Score: 36/60
 
@@ -116,14 +116,14 @@ Current plans and limits live on the [Relaticle pricing page](https://relaticle.
 
 ## How to install
 
-- Docker path: curl -o compose.yml https://raw.githubusercontent.com/Relaticle/relaticle/main/compose.yml, then create a .env with a generated APP_KEY (echo &#x27;APP_KEY=base64:$(openssl rand -base64 32)&#x27;) and a DB_PASSWORD, then docker compose up -d. That pulls ghcr.io/relaticle/relaticle:latest plus postgres:17-alpine and redis:7-alpine, for five containers: app, horizon, scheduler, postgres, redis.
+- Docker path: curl -o compose.yml https://raw.githubusercontent.com/Relaticle/relaticle/main/compose.yml, then create a .env with a generated APP_KEY (echo 'APP_KEY=base64:$(openssl rand -base64 32)') and a DB_PASSWORD, then docker compose up -d. That pulls ghcr.io/relaticle/relaticle:latest plus postgres:17-alpine and redis:7-alpine, for five containers: app, horizon, scheduler, postgres, redis.
 - Create your first admin with docker compose exec app php artisan make:filament-user; the admin panel lives at {APP_URL}/app, and instance-level sysadmin access comes from php artisan sysadmin:create, served at /sysadmin.
 - From source: git clone https://github.com/Relaticle/relaticle.git, cd relaticle, then composer app-install, a composer script that runs composer install followed by php artisan relaticle:install.
-- Manual sequence from the self-hosting docs: composer install --no-dev --optimize-autoloader, pnpm install --frozen-lockfile &amp;&amp; pnpm run build, cp .env.example .env, php artisan key:generate, php artisan migrate --force, php artisan storage:link, fix storage and bootstrap/cache permissions, then php artisan make:filament-user.
+- Manual sequence from the self-hosting docs: composer install --no-dev --optimize-autoloader, pnpm install --frozen-lockfile && pnpm run build, cp .env.example .env, php artisan key:generate, php artisan migrate --force, php artisan storage:link, fix storage and bootstrap/cache permissions, then php artisan make:filament-user.
 - Upgrades on Docker are docker compose pull followed by docker compose up -d; the docs say migrations run automatically on startup.
 ## Requirements
 
-PHP 8.5 with the pdo_pgsql, gd, bcmath, mbstring, xml, and redis extensions, PostgreSQL 17 or newer, Redis 7 or newer, Node.js 22+, Composer 2+, and a web server with Supervisor for queues. MySQL is not a documented option; PostgreSQL is the only database in the docs. The Docker path needs only APP_KEY and DB_PASSWORD. MCP requests are capped at 120 per minute per authenticated user, and self-hosted AI credits default to the Free plan&#x27;s 300 a month.
+PHP 8.5 with the pdo_pgsql, gd, bcmath, mbstring, xml, and redis extensions, PostgreSQL 17 or newer, Redis 7 or newer, Node.js 22+, Composer 2+, and a web server with Supervisor for queues. MySQL is not a documented option; PostgreSQL is the only database in the docs. The Docker path needs only APP_KEY and DB_PASSWORD. MCP requests are capped at 120 per minute per authenticated user, and self-hosted AI credits default to the Free plan's 300 a month.
 
 ## Best for
 
@@ -166,17 +166,17 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament. Relaticle ships with native AI agent support. The public repository carries 1,635 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,635 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Relaticle has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: free and capable self-hosted, AGPL-3.0, PostgreSQL-only, and no longer without paid tiers.
 
-The documented Docker path is one downloaded file and one command: fetch compose.yml from the repository, create a .env containing a generated APP_KEY (echo &#x27;APP_KEY=base64:$(openssl rand -base64 32)&#x27;) and a DB_PASSWORD, then docker compose up -d. That starts five containers (app, horizon, scheduler, postgres:17-alpine, redis:7-alpine). Create your first admin with docker compose exec app php artisan make:filament-user. Upgrades are docker compose pull followed by docker compose up -d, and migrations run automatically on startup.
+The documented Docker path is one downloaded file and one command: fetch compose.yml from the repository, create a .env containing a generated APP_KEY (echo 'APP_KEY=base64:$(openssl rand -base64 32)') and a DB_PASSWORD, then docker compose up -d. That starts five containers (app, horizon, scheduler, postgres:17-alpine, redis:7-alpine). Create your first admin with docker compose exec app php artisan make:filament-user. Upgrades are docker compose pull followed by docker compose up -d, and migrations run automatically on startup.
 
 The hosted MCP endpoint at mcp.relaticle.com exposes 37 tools: cross-entity search and fetch, a whoami call, workspace introspection (CRM schema, CRM summary, opportunity aggregation, activity and custom field listings), list/get/create/update/delete sets for companies, people, and opportunities, and create, update, delete, attach, and detach for tasks and notes. Authentication is OAuth 2.1 with PKCE and dynamic client registration, or a personal access token from Settings, Access Tokens, passed as a bearer header. Destructive operations in the built-in chat require approval, and MCP requests are capped at 120 per minute per user.
 
-Self-hosting is free under AGPL-3.0 with unlimited users and records on your own server. The paid tiers are hosted: Cloud Pro is $19 per workspace per month ($228 billed yearly, or $24 month to month) with a 14-day trial and no card required, adding 2,000 AI credits a month on top of unlimited users, records, the REST API, and the MCP server. Enterprise starts at $20,000 a year, billed yearly, and the site stresses it is never per seat. Self-hosted instances default to the Free plan&#x27;s 300 AI credits a month unless you bring your own key for more.
+Self-hosting is free under AGPL-3.0 with unlimited users and records on your own server. The paid tiers are hosted: Cloud Pro is $19 per workspace per month ($228 billed yearly, or $24 month to month) with a 14-day trial and no card required, adding 2,000 AI credits a month on top of unlimited users, records, the REST API, and the MCP server. Enterprise starts at $20,000 a year, billed yearly, and the site stresses it is never per seat. Self-hosted instances default to the Free plan's 300 AI credits a month unless you bring your own key for more.
 
 ## Similar Tools
 

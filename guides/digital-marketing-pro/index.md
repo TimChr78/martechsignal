@@ -3,12 +3,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; AI capabilities: 163 skills with 24 specialist agents |  |
-| &#10003; Native integrations include Claude Code, Anthropic Cowork, OpenAI Codex (8 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: 163 skills with 24 specialist agents |  |
+| ✓ Native integrations include Claude Code, Anthropic Cowork, OpenAI Codex (8 listed) |  |
 
 **What is Digital Marketing Pro?**
-Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 837 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 837 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Digital Marketing Pro cost?**
 Digital Marketing Pro is open source - MIT licensed and free to self-host; the public repository carries 837 stars; native integrations cover Claude Code, Anthropic Cowork, OpenAI Codex. You pay in server time and maintenance, not licences.
@@ -68,11 +68,11 @@ Agent Skills · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
-[Visit Digital Marketing Pro &#8594;](https://github.com/indranilbanerjee/digital-marketing-pro)
+[Visit Digital Marketing Pro →](https://github.com/indranilbanerjee/digital-marketing-pro)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Digital Marketing Pro &#8594;](https://github.com/indranilbanerjee/digital-marketing-pro)
+[Visit Digital Marketing Pro →](https://github.com/indranilbanerjee/digital-marketing-pro)
 
 ## Catalog facts: Digital Marketing Pro
 
@@ -82,7 +82,7 @@ The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
-Digital Marketing Pro is the heaviest skill pack in this category: 163 skills, 24 specialist agents, 18 commands, and 86 scripts. It&#x27;s built for agencies and in-house teams managing 50-200 brands. The core workflow is a 12-Part Strategy Flow that produces Four Core Documents per brand, following a 61-step structure. Run /digital-marketing-pro:engagement against a brand and you get a full strategy engagement in roughly 60 minutes on an Opus-class model. The pitch is consistency: same depth, same structure, same audit trail across your entire portfolio, whether you have 3 brands or 200. The compliance angle is what makes this interesting for agencies operating in regulated markets. Version 3.31.1 (August 2026) ships EU AI Act Article 50 readiness, including C2PA content provenance and an --ai-disclosure flag for generated content. The v3.15.0 release before it purged fictional npm packages, added uniform typed-approval gates across all 18 execution skills, and consolidated agents from 25 to 24. The changelog reads like someone who takes reliability seriously. over 400 stdlib tests pass. A 16-reader audit fleet re-verified all 530 files against July 2026 ground truth and shipped roughly 250 fixes. It installs on eight native platforms (Claude Code, Cowork, Codex, Cursor, Copilot CLI, Antigravity, Hermes Agent, OpenClaw) plus 35 more via the Agent Skills open standard. The Cowork integration means team-persistent state: your brand documents and strategy context survive across sessions and team members. That&#x27;s a real workflow feature, not a checkbox. The trade-off is complexity. 163 skills is a lot to learn. The README opens with a scenario about a 50-brand client and a bleeding budget, which tells you the intended user: someone who already knows marketing strategy and wants to scale its execution. If you&#x27;re a solo freelancer auditing one website, AI Marketing Suite&#x27;s 15 commands will get you there faster. If you&#x27;re an agency that needs auditable, compliant, consistent strategy work across a portfolio, this is the only skill pack built for that.
+Digital Marketing Pro is the heaviest skill pack in this category: 163 skills, 24 specialist agents, 18 commands, and 86 scripts. It's built for agencies and in-house teams managing 50-200 brands. The core workflow is a 12-Part Strategy Flow that produces Four Core Documents per brand, following a 61-step structure. Run /digital-marketing-pro:engagement against a brand and you get a full strategy engagement in roughly 60 minutes on an Opus-class model. The pitch is consistency: same depth, same structure, same audit trail across your entire portfolio, whether you have 3 brands or 200. The compliance angle is what makes this interesting for agencies operating in regulated markets. Version 3.31.1 (August 2026) ships EU AI Act Article 50 readiness, including C2PA content provenance and an --ai-disclosure flag for generated content. The v3.15.0 release before it purged fictional npm packages, added uniform typed-approval gates across all 18 execution skills, and consolidated agents from 25 to 24. The changelog reads like someone who takes reliability seriously. over 400 stdlib tests pass. A 16-reader audit fleet re-verified all 530 files against July 2026 ground truth and shipped roughly 250 fixes. It installs on eight native platforms (Claude Code, Cowork, Codex, Cursor, Copilot CLI, Antigravity, Hermes Agent, OpenClaw) plus 35 more via the Agent Skills open standard. The Cowork integration means team-persistent state: your brand documents and strategy context survive across sessions and team members. That's a real workflow feature, not a checkbox. The trade-off is complexity. 163 skills is a lot to learn. The README opens with a scenario about a 50-brand client and a bleeding budget, which tells you the intended user: someone who already knows marketing strategy and wants to scale its execution. If you're a solo freelancer auditing one website, AI Marketing Suite's 15 commands will get you there faster. If you're an agency that needs auditable, compliant, consistent strategy work across a portfolio, this is the only skill pack built for that.
 
 Digital Marketing Pro homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -149,7 +149,7 @@ A sensible week-one rollout is narrower than the library suggests. Pick the stra
 
 Organizationally, the pack wants a named owner. The skills run anywhere, but somebody has to decide which four documents are canonical this quarter and who signs the positioning statement before it reaches a client. Shops that treat the library as shared infrastructure with one maintainer keep the value. Shops that treat it as a download drift back to bare prompting within a month, and unstructured drift is exactly the problem the pack was bought to solve.
 
-The clearest adoption signal to watch in month one is document reuse. When the second project starts from last quarter&#x27;s four documents instead of a blank prompt, the library is doing its job. If nothing is ever reused, the framework tax is not paying for itself.
+The clearest adoption signal to watch in month one is document reuse. When the second project starts from last quarter's four documents instead of a blank prompt, the library is doing its job. If nothing is ever reused, the framework tax is not paying for itself.
 
 ## Verdict
 
@@ -170,7 +170,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 837 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 837 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Digital Marketing Pro is open source - MIT licensed and free to self-host; the public repository carries 837 stars; native integrations cover Claude Code, Anthropic Cowork, OpenAI Codex. You pay in server time and maintenance, not licences.
 
@@ -187,7 +187,7 @@ Yes. The catalog records a public API for Digital Marketing Pro, so custom integ
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Also featured in
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) &mdash; Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier.
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

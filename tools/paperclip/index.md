@@ -13,13 +13,13 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $10/mo once past the free tier |
-| &#10003; AI capabilities: org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more) |  |
-| &#10003; Active public repository (80,357 GitHub stars counted at last check) |  |
-| &#10003; Native integrations include Claude Code, Codex, Cursor (local and cloud) (12 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $10/mo once past the free tier |
+| ✓ AI capabilities: org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more) |  |
+| ✓ Active public repository (80,357 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Claude Code, Codex, Cursor (local and cloud) (12 listed) |  |
 
 **What is Paperclip?**
-Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 80,357 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 80,357 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Paperclip cost?**
 Paperclip has a free tier; paid plans start at €10/mo. Self-hosted free (MIT). Hosted cloud: one plan at € 10/month or € 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -51,7 +51,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 
 Zapier GTM Cheat Codes
 
-Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
 Workato
 
@@ -83,11 +83,11 @@ Workflow Automation · Freemium · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Paperclip &#8594;](https://paperclip.ing)
+[Visit Paperclip →](https://paperclip.ing)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Paperclip &#8594;](https://paperclip.ing)
+[Visit Paperclip →](https://paperclip.ing)
 
 ## MartechSignal Score: 44/60
 
@@ -97,7 +97,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Paperclip is an open-source control plane for running a team of AI agents like a company: a Node.js server with a React UI that models org charts, goals, budgets, and governance instead of workflows. Its README is explicit: not an agent framework, not a workflow builder, not a chatbot, not a single-agent tool. Agents run wherever they already run (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Hermes, Grok, Kimi Code, or an OpenClaw gateway) and connect through adapters; if it can receive a heartbeat, the docs say, it&#x27;s hired. The structure is a strict tree: every agent except the CEO has exactly one manager, and the CEO reports to you. Governance is the product. Agents cannot hire without filing a hire request into your approval queue, the CEO cannot move tasks to in progress until you approve its strategy, and budgets warn at 80% and hard-stop at 100%, pausing the scope until you raise the cap or the month resets. Every mutation produces a permanent activity record, config changes are revisioned, and one deployment can run unlimited companies with data isolation. Two details matter for anyone expecting an always-on swarm. Interval heartbeats are off by default: agents stay dormant until a task, a comment, a manual wake, or a routine arrives. And Paperclip pushes no outbound webhooks, so Slack alerting means a routine that polls. Model spend is yours: you bring provider keys, Paperclip tracks the cache-adjusted cost each agent accrues, and the docs estimate $3-15 a month for a moderately active worker. Self-hosting is free under MIT (Node.js 24.11+, pnpm 9.15+, embedded PostgreSQL, any 1 vCPU 2 GB VPS), the hosted cloud is one flat € 10/month plan with unlimited companies and EU hosting, and prebuilt company templates range from a five-agent engineering team to a 167-agent agency. At 80,357 GitHub stars stars with calendar-versioned releases every week or two, it is among the most active agent-management projects available.
+Paperclip is an open-source control plane for running a team of AI agents like a company: a Node.js server with a React UI that models org charts, goals, budgets, and governance instead of workflows. Its README is explicit: not an agent framework, not a workflow builder, not a chatbot, not a single-agent tool. Agents run wherever they already run (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Hermes, Grok, Kimi Code, or an OpenClaw gateway) and connect through adapters; if it can receive a heartbeat, the docs say, it's hired. The structure is a strict tree: every agent except the CEO has exactly one manager, and the CEO reports to you. Governance is the product. Agents cannot hire without filing a hire request into your approval queue, the CEO cannot move tasks to in progress until you approve its strategy, and budgets warn at 80% and hard-stop at 100%, pausing the scope until you raise the cap or the month resets. Every mutation produces a permanent activity record, config changes are revisioned, and one deployment can run unlimited companies with data isolation. Two details matter for anyone expecting an always-on swarm. Interval heartbeats are off by default: agents stay dormant until a task, a comment, a manual wake, or a routine arrives. And Paperclip pushes no outbound webhooks, so Slack alerting means a routine that polls. Model spend is yours: you bring provider keys, Paperclip tracks the cache-adjusted cost each agent accrues, and the docs estimate $3-15 a month for a moderately active worker. Self-hosting is free under MIT (Node.js 24.11+, pnpm 9.15+, embedded PostgreSQL, any 1 vCPU 2 GB VPS), the hosted cloud is one flat € 10/month plan with unlimited companies and EU hosting, and prebuilt company templates range from a five-agent engineering team to a 167-agent agency. At 80,357 GitHub stars stars with calendar-versioned releases every week or two, it is among the most active agent-management projects available.
 
 Paperclip homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -135,7 +135,7 @@ Current plans and limits live on the [Paperclip pricing page](https://paperclip.
 - Managed install (README quickstart): curl -fsSLO https://paperclip.ing/install.sh plus its .sha256, verify with sha256sum -c, then bash install.sh. The installer ensures Node.js 24.11+, installs a CLI under ~/.paperclip/cli, and starts interactive onboarding; the README notes the checksum is served from the same origin as the script.
 - Non-interactive: curl -fsSL https://paperclip.ing/install.sh | bash -s -- --no-prompt --no-onboard, then paperclipai onboard --yes. To try without installing: npx paperclipai onboard --yes, or ANTHROPIC_API_KEY=... npx paperclipai test-drive for an isolated test company pre-initialized with a CEO agent.
 - The docs warn against running onboard with sudo or as root: the default setup starts embedded PostgreSQL, which refuses to run as an administrative user. Success looks like a config at ~/.paperclip/instances/default/config.json and a server on http://localhost:3100; keep it running with paperclipai service install.
-- From source: git clone https://github.com/paperclipai/paperclip.git &amp;&amp; cd paperclip &amp;&amp; pnpm install &amp;&amp; pnpm dev (Node.js 24.11+, pnpm 9.15+). Docker paths exist for a quickstart compose file and a full stack with PostgreSQL 17; the image ships git, gh, ripgrep, python3, and the Claude, Codex, and OpenCode CLIs.
+- From source: git clone https://github.com/paperclipai/paperclip.git && cd paperclip && pnpm install && pnpm dev (Node.js 24.11+, pnpm 9.15+). Docker paths exist for a quickstart compose file and a full stack with PostgreSQL 17; the image ships git, gh, ripgrep, python3, and the Claude, Codex, and OpenCode CLIs.
 - Connect an agent by adapter: a Claude Code agent takes adapterType claude_local with model and working-directory config, authenticated by ANTHROPIC_API_KEY, Bedrock env vars, or Claude subscription login. Network binding presets are --bind lan and --bind tailnet; the default local_trusted mode has no login and must not be reachable from a network.
 ## Requirements
 
@@ -143,11 +143,11 @@ Node.js 24.11+ is a hard floor as of v2026.831.0 (August 2026) and pnpm 9.15+ fo
 
 ## Best for
 
-Teams already running several coding agents in parallel (the README&#x27;s example is twenty Claude Code terminals) that want one place to delegate through an org chart, cap spend per agent, require human approval for hires and strategy, and audit every change; also EU-constrained buyers, since cloud hosting is EU end to end and GDPR native.
+Teams already running several coding agents in parallel (the README's example is twenty Claude Code terminals) that want one place to delegate through an org chart, cap spend per agent, require human approval for hires and strategy, and audit every change; also EU-constrained buyers, since cloud hosting is EU end to end and GDPR native.
 
 ## Not for
 
-Anyone with a single agent (the README says you probably don&#x27;t need Paperclip), teams wanting drag-and-drop workflow automation (explicitly not a workflow builder), or buyers who need push notifications: no outbound webhooks exist today. Cloud Sync was removed in v2026.817.0, so company import and export is the only supported transfer path between deployments.
+Anyone with a single agent (the README says you probably don't need Paperclip), teams wanting drag-and-drop workflow automation (explicitly not a workflow builder), or buyers who need push notifications: no outbound webhooks exist today. Cloud Sync was removed in v2026.817.0, so company import and export is the only supported transfer path between deployments.
 
 ## Review notes
 
@@ -157,7 +157,7 @@ Researched from github.com/paperclipai/paperclip, docs.paperclip.ing, paperclip.
 
 The correction that matters: our earlier hands-on notes described a lightweight trigger-action automation tool for connecting everyday SaaS apps. That is a different product. The README states plainly that Paperclip is not a workflow builder, has no drag-and-drop pipelines, and models companies with org charts, goals, budgets, and governance. We have replaced those notes in full.
 
-Second correction: two domains, two things. paperclip.ing is the open-source project (Paperclip Labs); paperclip.inc is the hosted cloud run by Paperclip.inc OÜ, an Estonian company whose footer reads built on paperclipai/paperclip, 80.2k. Our record pointed the homepage at the commercial site; we now link the project site and keep the cloud&#x27;s pricing page. DeepSeek and Qwen are not adapters, they are model providers reachable through other adapters, and GitHub Actions is this project&#x27;s own CI, not a product integration.
+Second correction: two domains, two things. paperclip.ing is the open-source project (Paperclip Labs); paperclip.inc is the hosted cloud run by Paperclip.inc OÜ, an Estonian company whose footer reads built on paperclipai/paperclip, 80.2k. Our record pointed the homepage at the commercial site; we now link the project site and keep the cloud's pricing page. DeepSeek and Qwen are not adapters, they are model providers reachable through other adapters, and GitHub Actions is this project's own CI, not a product integration.
 
 Where the docs are refreshingly honest: interval heartbeats ship off by default, with the docs advising that a frequently paused agent has the wrong heartbeat rather than the wrong workflow; budget behavior is spelled out to the API call (warn at 80%, hard stop at 100%, auto-resume 00:00 UTC on the 1st); and the activity log is described as kept permanently rather than dressed up as immutable.
 
@@ -181,7 +181,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 80,357 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 80,357 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Paperclip has a free tier; paid plans start at €10/mo. Self-hosted free (MIT). Hosted cloud: one plan at € 10/month or € 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 

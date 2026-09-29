@@ -13,12 +13,12 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: bïrch AI workflow layer | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Meta Ads, Google Ads, TikTok Ads (12 listed) |  |
-| &#10003; API access for custom integrations |  |
+| ✓ AI capabilities: bïrch AI workflow layer | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Meta Ads, Google Ads, TikTok Ads (12 listed) |  |
+| ✓ API access for custom integrations |  |
 
 **What is Revealbot (Birch)?**
-Revealbot (Birch): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads. Revealbot (Birch) ships with bïrch AI workflow layer. This page documents 12 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Revealbot (Birch): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads. Revealbot (Birch) ships with bïrch AI workflow layer. This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 **How much does Revealbot (Birch) cost?**
 Revealbot (Birch) starts at $49/mo. Essential $49/mo, Pro $99/mo, tiered by monthly ad spend across connected accounts; Enterprise quoted; 14-day free trial with no card; annual billing gives 12 months for the price of 10; Hub tracking priced per event; Signals Gateway Hub (server-side Meta tracking) free to 10K events/mo, up to $499/mo at 150M events. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -30,7 +30,7 @@ Predictable, publish-priced rule automation for paid social that has grown into 
 Two published tiers, both keyed to total monthly ad spend across connected accounts: Essential at $49 per month for workspaces, post boosting, reports, the activity page, and Slack alerts, and Pro at $99 per month, which adds automated rules and strategies, Explorer, Launcher, Stage, top audiences, custom metrics and timeframes, and custom and lookalike audiences. Enterprise is quoted, with no limits or overages. Annual billing gives twelve months for the price of ten, and Hub server-side tracking is priced separately per event, from free at 10,000 monthly events to $499 at 150 million.
 
 **Did Revealbot rebrand to Birch?**
-Yes. The site at bir.ch titles its own pricing page &#x27;Birch (Revealbot)&#x27;, and its help and contact addresses still point to help.revealbot.com and hello@revealbot.com. The product is stylized Bïrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states Bïrch is an official partner of those platforms.
+Yes. The site at bir.ch titles its own pricing page 'Birch (Revealbot)', and its help and contact addresses still point to help.revealbot.com and hello@revealbot.com. The product is stylized Bïrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states Bïrch is an official partner of those platforms.
 
 **Is Birch an AI ad optimization tool?**
 Only partly. The core product is deterministic: you write condition-based rules and the platform executes them, which is what separates it from autonomous optimizers. The AI surface is Bïrch AI, described as an AI layer across your workflows, and Bïrch MCP, which connects the platform to external AI tools. Routines for scheduling repeated workflows are listed as coming soon.
@@ -45,13 +45,13 @@ Anything from every 15 minutes to every 72 hours, or on specific days and hourly
 An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Codex over OAuth with no API key. The marketing page describes five tools and read only access; the help center is more precise. Campaign analysis cannot create, edit, pause, or delete anything, but rule management can duplicate, rename, move, activate, or pause rules and change which ad accounts they watch, across every platform and including drafts. Existing connections need to reconnect to pick up the write tools.
 
 - **Pricing:** From $49/mo
-- **Category:** [Advertising &amp; Paid Media](/categories/advertising/)
+- **Category:** [Advertising & Paid Media](/categories/advertising/)
 - **Founded:** 2015
 - **HQ:** Paris, France
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Revealbot (Birch) is a tool in Advertising &amp; Paid Media with paid plans starting at $49/mo. The catalog documents 4 AI features, 12 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Revealbot (Birch) is a tool in Advertising & Paid Media with paid plans starting at $49/mo. The catalog documents 4 AI features, 12 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Albert AI
 
@@ -73,13 +73,13 @@ advertools
 
 Python toolkit for SEO and advertising analysis in pandas DataFrames
 
-[More Advertising &amp; Paid Media Tools →](/categories/advertising/)
+[More Advertising & Paid Media Tools →](/categories/advertising/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
-- [Advertising &amp; Paid Media](/categories/advertising/)
+- [Advertising & Paid Media](/categories/advertising/)
 - Revealbot (Birch)
 Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
@@ -87,15 +87,15 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 
-Advertising &amp; Paid Media · From $49/mo Desk-reviewed
+Advertising & Paid Media · From $49/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
-[Visit Revealbot (Birch) &#8594;](https://bir.ch)
+[Visit Revealbot (Birch) →](https://bir.ch)
 
 [How we review](/methodology/) · No affiliate links
 
-[Visit Revealbot (Birch) &#8594;](https://bir.ch)
+[Visit Revealbot (Birch) →](https://bir.ch)
 
 ## MartechSignal Score: 38/60
 
@@ -143,7 +143,7 @@ Current plans and limits live on the [Revealbot (Birch) pricing page](https://bi
 - Connect ad accounts for Meta, Google, Snapchat, or TikTok. Pricing tiers key off your total monthly ad spend across all connected accounts.
 - Start on Essential ($49/month) if you need workspaces, post boosting, reports, the activity page, and Slack alerts; move to Pro ($99/month) for automated rules and strategies, Explorer, Launcher, Stage, top audiences, and custom and lookalike audiences.
 - Wire in data: Slack for triggered-automation alerts and reports, Google Sheets for rule conditions and custom audiences, and Google Analytics, Adjust, AppsFlyer, Hyros, or Wicked Reports for attribution metrics in rules and custom metrics.
-- If you want agent access, set up Bïrch MCP, which the site documents in its prompting guide alongside Bïrch AI and Meta&#x27;s own MCP.
+- If you want agent access, set up Bïrch MCP, which the site documents in its prompting guide alongside Bïrch AI and Meta's own MCP.
 ## Best for
 
 Performance marketers and agencies running meaningful Meta, Google, TikTok, or Snapchat budgets who want explicit rules, custom metrics built from their own attribution data, and Slack-native reporting.
@@ -180,7 +180,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Revealbot (Birch): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads. Revealbot (Birch) ships with bïrch AI workflow layer. This page documents 12 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Revealbot (Birch): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads. Revealbot (Birch) ships with bïrch AI workflow layer. This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
 
 Revealbot (Birch) starts at $49/mo. Essential $49/mo, Pro $99/mo, tiered by monthly ad spend across connected accounts; Enterprise quoted; 14-day free trial with no card; annual billing gives 12 months for the price of 10; Hub tracking priced per event; Signals Gateway Hub (server-side Meta tracking) free to 10K events/mo, up to $499/mo at 150M events. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -188,7 +188,7 @@ Predictable, publish-priced rule automation for paid social that has grown into 
 
 Two published tiers, both keyed to total monthly ad spend across connected accounts: Essential at $49 per month for workspaces, post boosting, reports, the activity page, and Slack alerts, and Pro at $99 per month, which adds automated rules and strategies, Explorer, Launcher, Stage, top audiences, custom metrics and timeframes, and custom and lookalike audiences. Enterprise is quoted, with no limits or overages. Annual billing gives twelve months for the price of ten, and Hub server-side tracking is priced separately per event, from free at 10,000 monthly events to $499 at 150 million.
 
-Yes. The site at bir.ch titles its own pricing page &#x27;Birch (Revealbot)&#x27;, and its help and contact addresses still point to help.revealbot.com and hello@revealbot.com. The product is stylized Bïrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states Bïrch is an official partner of those platforms.
+Yes. The site at bir.ch titles its own pricing page 'Birch (Revealbot)', and its help and contact addresses still point to help.revealbot.com and hello@revealbot.com. The product is stylized Bïrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states Bïrch is an official partner of those platforms.
 
 Only partly. The core product is deterministic: you write condition-based rules and the platform executes them, which is what separates it from autonomous optimizers. The AI surface is Bïrch AI, described as an AI layer across your workflows, and Bïrch MCP, which connects the platform to external AI tools. Routines for scheduling repeated workflows are listed as coming soon.
 
@@ -207,7 +207,7 @@ An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Co
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ## Also featured in
 
-- [Best AI Advertising &amp; Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) &mdash; Media buyers that trust rules they wrote more than black boxes
+- [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Media buyers that trust rules they wrote more than black boxes
 ### Quick Facts
 
 Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)

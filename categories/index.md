@@ -1,12 +1,12 @@
 # Categories
 
-AI Content &amp; Copywriting
+AI Content & Copywriting
 
 AI copywriting, message optimization, and publishing platforms, from per-seat generators to governed enterprise suites
 
 13 tools
 
-Advertising &amp; Paid Media
+Advertising & Paid Media
 
 Ad creation, bidding, and campaign management
 
@@ -18,7 +18,7 @@ Skills, plugins, and extensions for AI coding agents - what they automate in you
 
 16 tools
 
-Analytics &amp; Attribution
+Analytics & Attribution
 
 Marketing analytics, attribution, and reporting
 
@@ -30,7 +30,7 @@ Customer relationship management and sales pipelines
 
 24 tools
 
-Chatbots &amp; Conversational AI
+Chatbots & Conversational AI
 
 Conversational AI for marketing and support, from social DM automation to per-resolution AI agents
 
@@ -42,7 +42,7 @@ Campaign platforms, lifecycle automation, and transactional delivery APIs, from 
 
 15 tools
 
-GEO &amp; LLM Optimization
+GEO & LLM Optimization
 
 Track and improve how AI assistants mention, cite, and describe your brand
 
@@ -56,17 +56,17 @@ End-to-end campaign orchestration and workflow automation
 
 Open-Source Tools
 
-78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor&#x27;s own repository.
+78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
 
 78 tools
 
-Personalization &amp; CDP
+Personalization & CDP
 
 Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization
 
 9 tools
 
-SEO &amp; Search
+SEO & Search
 
 Search optimization, keyword research, and content strategy
 
@@ -90,11 +90,11 @@ No-code/low-code automation platforms and iPaaS
 
 All 14 categories across the 161-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
 
-## [AI Content &amp; Copywriting](/categories/content-ai/)
+## [AI Content & Copywriting](/categories/content-ai/)
 
 AI copywriting, message optimization, and publishing platforms, from per-seat generators to governed enterprise suites. Includes [Anyword](/tools/anyword/), [ContentBot](/tools/contentbot/), [Copy.ai](/tools/copy-ai/).
 
-## [Advertising &amp; Paid Media](/categories/advertising/)
+## [Advertising & Paid Media](/categories/advertising/)
 
 Ad creation, bidding, and campaign management. Includes [AdCreative.ai](/tools/adcreative-ai/), [advertools](/tools/advertools/), [Albert AI](/tools/albert-ai/).
 
@@ -102,7 +102,7 @@ Ad creation, bidding, and campaign management. Includes [AdCreative.ai](/tools/a
 
 Skills, plugins, and extensions for AI coding agents - what they automate in your marketing workflow. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [AI Business Skills](/tools/ai-business-skills/), [Analytics Tracking Automation](/tools/analytics-tracking-automation/).
 
-## [Analytics &amp; Attribution](/categories/analytics/)
+## [Analytics & Attribution](/categories/analytics/)
 
 Marketing analytics, attribution, and reporting. Includes [Amplitude](/tools/amplitude/), [Attribution](/tools/attribution/), [Heap](/tools/heap/).
 
@@ -110,7 +110,7 @@ Marketing analytics, attribution, and reporting. Includes [Amplitude](/tools/amp
 
 Customer relationship management and sales pipelines. Includes [AlphOne](/tools/alphone/), [Attio](/tools/attio/), [Cordys CRM](/tools/cordys-crm/).
 
-## [Chatbots &amp; Conversational AI](/categories/chatbots/)
+## [Chatbots & Conversational AI](/categories/chatbots/)
 
 Conversational AI for marketing and support, from social DM automation to per-resolution AI agents. Includes [ChatbotX](/tools/chatbotx/), [Chatfuel](/tools/chatfuel/), [Chatwoot](/tools/chatwoot/).
 
@@ -118,7 +118,7 @@ Conversational AI for marketing and support, from social DM automation to per-re
 
 Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites. Includes [BillionMail](/tools/billionmail/), [Customer.io](/tools/customer-io/), [Klaviyo](/tools/klaviyo/).
 
-## [GEO &amp; LLM Optimization](/categories/geo-llm-visibility/)
+## [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 
 Track and improve how AI assistants mention, cite, and describe your brand. Includes [AccuRanker](/tools/accuranker/), [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/), [Ahrefs](/tools/ahrefs/).
 
@@ -128,13 +128,13 @@ End-to-end campaign orchestration and workflow automation. Includes [ActiveCampa
 
 ## [Open-Source Tools](/categories/open-source/)
 
-78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor&#x27;s own repository.. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [Activepieces](/tools/activepieces/), [advertools](/tools/advertools/).
+78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [Activepieces](/tools/activepieces/), [advertools](/tools/advertools/).
 
-## [Personalization &amp; CDP](/categories/personalization/)
+## [Personalization & CDP](/categories/personalization/)
 
 Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization. Includes [Apache Unomi](/tools/apache-unomi/), [Clerk.io](/tools/clerk-io/), [Dynamic Yield](/tools/dynamic-yield/).
 
-## [SEO &amp; Search](/categories/seo/)
+## [SEO & Search](/categories/seo/)
 
 Search optimization, keyword research, and content strategy. Includes [Clearscope](/tools/clearscope/), [Frase](/tools/frase/), [MarketMuse](/tools/marketmuse/).
 

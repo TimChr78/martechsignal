@@ -1,10 +1,10 @@
-# AI ad account guardrails Google won&#x27;t ship
+# AI ad account guardrails Google won't ship
 
 TC **[Tim Christensen](/authors/tim-christensen/)**
 
 GOOGLE ADS · AI · 7 MIN
 
-## The guardrails Google won&#x27;t ship for your AI ad account
+## The guardrails Google won't ship for your AI ad account
 
 [How we review](/methodology/) · No affiliate links
 
