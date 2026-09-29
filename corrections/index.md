@@ -42,7 +42,7 @@ Today’s SEO audit low tail included four items we are not changing, and we are
 
 ## Correction to our own corrections entry: the star sync shipped incomplete
 
-Our earlier entry today claimed older star literals in prose were refreshed to the synced values. That was premature: 19 doubled "GitHub stars GitHub stars" phrases and 14 stale star numbers survived in tool descriptions, score evidence, and stats cells — some predating the sync itself. All are now collapsed or refreshed to the synced catalog values, and two build-time checks (token repetition, star-literal-vs-catalog) fail the build if either class ever regresses.
+Our earlier entry today claimed older star literals in prose were refreshed to the synced values. That was premature: 19 doubled "GitHub stars GitHub stars" phrases and 14 stale star numbers survived in tool descriptions, score evidence, and stats cells - some predating the sync itself. All are now collapsed or refreshed to the synced catalog values, and two build-time checks (token repetition, star-literal-vs-catalog) fail the build if either class ever regresses.
 
 ## Homepage layout and analytics loss, introduced by our own deploy
 

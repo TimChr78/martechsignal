@@ -95,7 +95,7 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 ## Comparison guides
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
-- [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [Deliverability](/glossary/deliverability/)
@@ -149,7 +149,7 @@ More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1755,
+  "wordCount": 1753,
   "articleSection": "email-marketing"
 }
 ```

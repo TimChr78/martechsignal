@@ -98,7 +98,7 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 ## Comparison guides
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -152,7 +152,7 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1741,
+  "wordCount": 1745,
   "articleSection": "marketing-automation"
 }
 ```

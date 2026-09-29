@@ -42,9 +42,9 @@ What we could not verify is called out under each tool below.
 
 ## Open-source momentum, with receipts
 
-Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Strapi — 73,250 stars, +236 in the 36-snapshot window to 2026-09-29 73,014→73,250 [verify on GitHub](https://github.com/strapi/strapi)
+- Strapi - 73,250 stars, +236 in the 36-snapshot window to 2026-09-29 73,014→73,250 [verify on GitHub](https://github.com/strapi/strapi)
 [All movers on the trending page](/trending/).
 
 ## [Writer](/tools/writer/)

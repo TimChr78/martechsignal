@@ -109,7 +109,7 @@ The agents are good enough. The context is not.
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -163,7 +163,7 @@ More from the directory: [advertools](/tools/advertools/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1526,
+  "wordCount": 1529,
   "articleSection": "marketing-automation"
 }
 ```

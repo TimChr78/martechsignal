@@ -38,10 +38,10 @@ What we could not verify is called out under each tool below.
 
 ## Open-source momentum, with receipts
 
-Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Chatwoot — 37,293 stars, +1,084 in the 36-snapshot window to 2026-09-29 36,209→37,293 [verify on GitHub](https://github.com/chatwoot/chatwoot)
-- ChatbotX — 843 stars, +178 in the 36-snapshot window to 2026-09-29 665→843 [verify on GitHub](https://github.com/ChatbotXIO/ChatbotX)
+- Chatwoot - 37,293 stars, +1,084 in the 36-snapshot window to 2026-09-29 36,209→37,293 [verify on GitHub](https://github.com/chatwoot/chatwoot)
+- ChatbotX - 843 stars, +178 in the 36-snapshot window to 2026-09-29 665→843 [verify on GitHub](https://github.com/ChatbotXIO/ChatbotX)
 [All movers on the trending page](/trending/).
 
 ## [Intercom](/tools/intercom/)

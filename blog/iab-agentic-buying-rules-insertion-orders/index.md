@@ -83,7 +83,7 @@ The insertion order was written for humans because only humans could read a prop
 ## Comparison guides
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
-- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
+- [Matomo vs Plausible (2026): analytics depth or a dashboard that stays small](/vs/matomo-vs-plausible/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -137,7 +137,7 @@ More from the directory: [Madgicx](/tools/madgicx/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1538,
+  "wordCount": 1541,
   "articleSection": "advertising"
 }
 ```

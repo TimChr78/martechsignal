@@ -38,9 +38,9 @@ What we could not verify is called out under each tool below.
 
 ## Open-source momentum, with receipts
 
-Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- MultiPost — 3,553 stars, +459 in the 36-snapshot window to 2026-09-29 3,094→3,553 [verify on GitHub](https://github.com/leaperone/MultiPost-Extension)
+- MultiPost - 3,553 stars, +459 in the 36-snapshot window to 2026-09-29 3,094→3,553 [verify on GitHub](https://github.com/leaperone/MultiPost-Extension)
 [All movers on the trending page](/trending/).
 
 ## [Hootsuite](/tools/hootsuite/)

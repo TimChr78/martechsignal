@@ -95,8 +95,8 @@ Tools linked in this post: [Salesforce Marketing Cloud](/tools/salesforce-market
 - [Bloomreach](/tools/bloomreach/) - AI-powered commerce experience platform with search, personalization, and CDP
 ## Comparison guides
 
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

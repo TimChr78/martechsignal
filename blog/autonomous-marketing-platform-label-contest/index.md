@@ -117,7 +117,7 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 ## Comparison guides
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
-- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
+- [Best AI Advertising &amp; Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/)
 ## Glossary terms
 
 - [Agentic Marketing](/glossary/agentic-marketing/)
@@ -171,7 +171,7 @@ More from the directory: [Anyword](/tools/anyword/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2139,
+  "wordCount": 2140,
   "articleSection": "agent-skills"
 }
 ```
