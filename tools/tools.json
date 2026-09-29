@@ -1920,8 +1920,8 @@
    "install": [
     "Fastest path is Docker Compose from the repo root: git clone https://github.com/django-crm/Django-CRM.git, cd Django-CRM, then docker compose up --build. That starts six services: PostgreSQL 16, Redis 7, the Django API on port 8000, a Celery worker, a Celery beat scheduler, and the SvelteKit frontend on port 5173.",
     "Nothing needs configuring to get a working stack. The checked-in .env.docker ships development defaults and is loaded by every service; overrides go in a gitignored .env.docker.local whose values win.",
-    "Migrations run automatically on container start. Load demo data with docker compose exec backend python manage.py seed_data --email you@example.com, which creates an organization named MicroPyramid plus demo leads, accounts, contacts, opportunities, cases, tasks, and invoices.",
-    "Sign in with docker compose exec backend python manage.py devlogin you@example.com --org MicroPyramid, which prints an access token, a refresh token, and the org UUID. The frontend is at http://localhost:5173 and the API with Swagger UI at http://localhost:8000/swagger-ui/.",
+    "Migrations run automatically on container start. Load demo data with docker compose exec backend python manage.py seed_data --email YOUR-EMAIL, which creates an organization named MicroPyramid plus demo leads, accounts, contacts, opportunities, cases, tasks, and invoices.",
+    "Sign in with docker compose exec backend python manage.py devlogin YOUR-EMAIL --org MicroPyramid, which prints an access token, a refresh token, and the org UUID. The frontend is at http://localhost:5173 and the API with Swagger UI at http://localhost:8000/swagger-ui/.",
     "If Docker does not fit, the docs' Manual setup page covers running the backend, database, Redis, Celery, and frontend directly on one machine.",
     "For an agent, mint a personal access token at Settings, then API tokens, and point the agent at GET /schema/ so it can discover endpoints itself."
    ],
@@ -2224,7 +2224,7 @@
   "seo_description": "EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. Free to self-host; no licence fee.",
   "deep_dive": {
    "install": [
-    "Fastest route is the official installer script: wget -N https://github.com/espocrm/espocrm-installer/releases/latest/download/install.sh then sudo bash install.sh. Add --ssl for certificates, or run unattended with sudo bash install.sh -y --ssl --letsencrypt --domain=my-espocrm.com --email=email@my-domain.com.",
+    "Fastest route is the official installer script: wget -N https://github.com/espocrm/espocrm-installer/releases/latest/download/install.sh then sudo bash install.sh. Add --ssl for certificates, or run unattended with sudo bash install.sh -y --ssl --letsencrypt --domain=my-espocrm.com --email=YOUR-EMAIL.",
     "Docker route per the docs: create an espocrm-network and four volumes (espocrm-db, espocrm-data, espocrm-custom, espocrm-custom-client), then run a MariaDB container plus espocrm/espocrm published on 8080, and an espocrm-daemon container alongside. Default login is admin / admin_password.",
     "Archive route: extract the release archive to your web server directory (the docs name public_html or www), set 755 for directories, 644 for files, and 775 for the data directory, with ownership typically www-data:www-data, then open the domain in a browser to run the wizard.",
     "Scheduled jobs need cron: add * * * * * /usr/bin/php -f /var/www/html/espocrm/cron.php > /dev/null 2>&1 through crontab -e -u WEBSERVER_USER.",
@@ -2329,7 +2329,7 @@
   "seo_description": "Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. Open source & free to self-host.",
   "deep_dive": {
    "install": [
-    "Fastest look: the hosted demo at demo.gauzy.co, or the hosted SaaS at app.gauzy.co, which the README marks as an alpha version. Default demo logins documented in the README are admin@ever.co / admin and employee@ever.co / 12345678.",
+    "Fastest look: the hosted demo at demo.gauzy.co, or the hosted SaaS at app.gauzy.co, which the README marks as an alpha version. Default demo logins documented in the README are the demo admin login (admin at ever.co) / admin and the demo employee login (employee at ever.co) / 12345678.",
     "Demo stack in one command: docker-compose -f docker-compose.demo.yml up (Docker Compose v2.20 or later is the stated minimum).",
     "Production containers: docker-compose up -d after setting JWT_SECRET, JWT_REFRESH_TOKEN_SECRET, and JWT_VERIFICATION_TOKEN_SECRET in .env.compose (the README suggests generating them with openssl rand -hex 64). A docker-compose.infra.yml brings up infrastructure only, and docker-compose.build.yml builds locally.",
     "From source: yarn bootstrap, optionally yarn prepare:husky, then yarn start; seed demo data with yarn seed or yarn seed:all. The UI runs at localhost:4200 and the API at localhost:3000/api.",
@@ -2400,7 +2400,7 @@
    "verdict": "A lean, fast-moving open-source CRM that costs almost nothing to run and gives up AI, native mobile, and connector breadth to get there. Read the AGPL terms and pin your branch before you install.",
    "install": [
     "Managed route first, because the docs say so: they recommend trying Frappe Cloud before self-hosting. Sign up at frappecloud.com/crm/signup, or install the CRM app from the marketplace if you already run a Frappe Cloud account.",
-    "For a production server, use the Easy Install script. Download frappe.io/easy-install.py and run python3 ./easy-install.py deploy --project=crm_prod_setup --email=you@example.com --image=ghcr.io/frappe/crm --version=stable --app=crm --sitename subdomain.domain.tld. The docs warn the site's DNS A record must point at the server first, or you will get a 404.",
+    "For a production server, use the Easy Install script. Download frappe.io/easy-install.py and run python3 ./easy-install.py deploy --project=crm_prod_setup --email=YOUR-EMAIL --image=ghcr.io/frappe/crm --version=stable --app=crm --sitename subdomain.domain.tld. The docs warn the site's DNS A record must point at the server first, or you will get a 404.",
     "For a quick look, Docker is the fastest path: download docker-compose.yml and init.sh from the repo's docker directory and run docker compose up -d, then open http://crm.localhost:8000/crm and log in as Administrator with the password admin.",
     "For development, install the bench CLI (uv tool install frappe-bench), create a bench with bench init, then run bench get-app crm and bench new-site sitename.localhost --install-app crm. Start it with bench start and browse to sitename.localhost:8000/crm.",
     "Frontend changes live in frappe-bench/apps/crm/frontend, a Vue 3 and Vite project: yarn install, then yarn dev serves the dev build on port 8080.",
@@ -3213,7 +3213,7 @@
   "deep_dive": {
    "install": [
     "Create the project and run the installer: composer create-project krayin/laravel-crm, then php artisan krayin-crm:install. If no .env exists, the installer prompts for app name, URL, locale, currency, database connection, and admin credentials; otherwise edit APP_URL plus the mail and database parameters in .env yourself.",
-    "The web root must point at laravel-crm/public/. The default admin signs in at /admin/login with admin@example.com and admin123, so change both before anything touches the internet.",
+    "The web root must point at laravel-crm/public/. The default admin signs in at /admin/login with the default admin email from the docs and admin123, so change both before anything touches the internet.",
     "For production the README recommends removing development dependencies with composer install --no-dev.",
     "The REST API is a separate package: composer require krayin/rest-api, then php artisan krayin-rest-api:install and php artisan l5-swagger:generate. Swagger UI lands at /api/admin/documentation, with Sanctum bearer-token endpoints such as POST /api/admin/login and GET /api/admin/leads.",
     "Magic AI is configured after install under Dashboard, Settings, Configuration, Magic AI, where you supply an OpenRouter API key; the docs show a free Llama model as the example."

@@ -1556,6 +1556,27 @@ def test_no_duplicated_pricing_lead_seam():
     assert not bad, f"duplicated pricing lead seam: {bad[:8]}"
 
 
+def test_no_email_shaped_strings_in_tool_commands():
+    """r16 M-1 (2026-09-29): Cloudflare Email Obfuscation rewrote email-shaped
+    strings inside install commands into /cdn-cgi/l/email-protection links,
+    corrupting copy-paste on 5 tool pages. Commands now use non-email-shaped
+    tokens (YOUR-EMAIL, "admin at ever.co"); only the audited legitimate
+    contact addresses (macro, revealbot) may remain."""
+    import re as _re
+    pat = _re.compile(r"[A-Za-z0-9_.+-]+@[A-Za-z0-9-]+\.[A-Za-z0-9.]+")
+    allow = {"macro", "revealbot"}
+    bad = []
+    for f in sorted((ROOT / "tools").glob("*/index.html")):
+        if f.parent.name in allow:
+            continue
+        vis = _re.sub(r"<script[^>]*>.*?</script>", "", f.read_text(errors="ignore"), flags=_re.S)
+        vis = _re.sub(r"<[^>]+>", " ", vis)
+        hits = sorted(set(pat.findall(vis)))
+        if hits:
+            bad.append(f"{f.parent.name}:{hits[:3]}")
+    assert not bad, f"email-shaped strings on tool pages: {bad[:8]}"
+
+
 def test_edge_worker_collapses_repeated_slashes():
     """r16 M-8 (2026-09-29): //-slash path variants were served at 200 with
     byte-identical bodies. The Pages _worker.js 301s collapsed paths before

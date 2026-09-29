@@ -10,6 +10,8 @@
 
 2026-09-29
 
+2026-09-29
+
 2026-09-26
 
 2026-09-26
@@ -35,6 +37,10 @@
 ## Corrections
 
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
+
+## Audit medium-priority disposition: vendor links flagged unreachable were reachable
+
+Today's SEO audit flagged three links to one vendor domain as returning 503 during its linkcheck. Both URLs we actually emit returned HTTP 200 on direct retry the same evening (0.09s and 0.24s), as did the domain root, so the 503 was transient bot-handling on the vendor side, not a dead link. No link changed. If the vendor's bot-handling hardens permanently we will replace the links with plain-text citations.
 
 ## Audit low-priority dispositions: four findings declined with evidence
 

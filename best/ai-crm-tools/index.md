@@ -8,7 +8,7 @@
 | [Salesforce CRM](/tools/salesforce-crm/) | Enterprise | yes | Best for enterprises that need the CRM everything else integrates with. |
 | [Zoho CRM](/tools/zoho-crm/) | Freemium | no | Best value for small teams that want a full suite without an enterprise bill. |
 | [Pipedrive](/tools/pipedrive/) | From $14/mo | yes | Best for small sales teams that live in one pipeline view. |
-| [Freshsales](/tools/freshsales/) | Free tier | yes | Best for budget-conscious teams that still want AI lead scoring. |
+| [Freshsales](/tools/freshsales/) | From $9/mo | yes | Best for budget-conscious teams that still want AI lead scoring. |
 
 [CRM](/categories/crm/)
 
