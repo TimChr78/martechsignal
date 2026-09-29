@@ -669,7 +669,7 @@ The ranking above is the spine of this topic. These pages are the cluster around
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/trending/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/trending/", "breadcrumb": {"@id": "https://martechsignal.com/trending/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

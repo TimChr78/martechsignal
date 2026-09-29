@@ -77,7 +77,10 @@ Sources: [Google campaign URL builder](https://ga-dev-tools.google/campaign-url-
         "dateModified": "2026-09-07",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -129,7 +132,7 @@ Sources: [Google campaign URL builder](https://ga-dev-tools.google/campaign-url-
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/utm-parameters/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/utm-parameters/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/utm-parameters/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

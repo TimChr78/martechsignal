@@ -86,7 +86,10 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com)
         "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -138,7 +141,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/agentic-marketing/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/agentic-marketing/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/agentic-marketing/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

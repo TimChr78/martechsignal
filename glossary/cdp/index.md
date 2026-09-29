@@ -86,7 +86,10 @@ Sources: [CDP Institute](https://www.cdpinstitute.org/) · [Twilio Segment](http
         "dateModified": "2026-09-25",
         "datePublished": "2026-09-25",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -138,7 +141,7 @@ Sources: [CDP Institute](https://www.cdpinstitute.org/) · [Twilio Segment](http
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/cdp/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/cdp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/cdp/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

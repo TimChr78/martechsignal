@@ -104,7 +104,7 @@ Attribution platforms, CDPs, and analytics tools with pricing and AI features co
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SISTRIX](/tools/sistrix/)
+More from the directory: [SuiteCRM](/tools/suitecrm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -185,7 +185,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/", "breadcrumb": {"@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

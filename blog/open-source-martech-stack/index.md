@@ -188,7 +188,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/contentbot/) · [Email Marketing Bible](/tools/email-marketing-bible/) · [Heap](/tools/heap/) · [Klaviyo](/tools/klaviyo/) · [Line Harness](/tools/line-harness/) · [Mailchimp](/tools/mailchimp/) · [NocoBase](/tools/nocobase/) · [Open Mercato](/tools/open-mercato/) · [OpenSEO](/tools/openseo/) · [Pencil](/tools/pencil/) · [Phrasee](/tools/phrasee/) · [Revealbot (Birch)](/tools/revealbot/) · [ToolJet](/tools/tooljet/) · [WaCRM](/tools/wacrm/) · [Writesonic](/tools/writesonic/)
+More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/contentbot/) · [Email Marketing Bible](/tools/email-marketing-bible/) · [Heap](/tools/heap/) · [Klaviyo](/tools/klaviyo/) · [Line Harness](/tools/line-harness/) · [Mailchimp](/tools/mailchimp/) · [NocoBase](/tools/nocobase/) · [Open Mercato](/tools/open-mercato/) · [OpenSEO](/tools/openseo/) · [Pencil](/tools/pencil/) · [Phrasee](/tools/phrasee/) · [Revealbot (Birch)](/tools/revealbot/) · [ToolJet](/tools/tooljet/) · [WaCRM](/tools/wacrm/) · [Zoho CRM](/tools/zoho-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -269,7 +269,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/open-source-martech-stack/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/open-source-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/open-source-martech-stack/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

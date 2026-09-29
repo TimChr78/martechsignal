@@ -110,7 +110,7 @@ Our directory breaks marketing tools down by what they measure, what they integr
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [AI Marketing Suite](/tools/ai-marketing-claude/)
+More from the directory: [Analytics Tracking Automation](/tools/analytics-tracking-automation/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -191,7 +191,7 @@ More from the directory: [AI Marketing Suite](/tools/ai-marketing-claude/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

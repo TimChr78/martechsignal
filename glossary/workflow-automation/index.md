@@ -88,7 +88,10 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Tray.io](http
         "dateModified": "2026-09-07",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -140,7 +143,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Tray.io](http
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/workflow-automation/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/workflow-automation/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/workflow-automation/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -126,7 +126,7 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Trakkr](/tools/trakkr/)
+More from the directory: [Writesonic](/tools/writesonic/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -207,7 +207,7 @@ More from the directory: [Trakkr](/tools/trakkr/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/", "breadcrumb": {"@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

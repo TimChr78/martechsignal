@@ -468,7 +468,7 @@ Before you buy: the [marketing automation checklist](/checklist/) scores your st
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/", "breadcrumb": {"@id": "https://martechsignal.com/blog/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

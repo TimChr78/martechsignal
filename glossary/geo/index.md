@@ -58,7 +58,10 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
         "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -110,7 +113,7 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/geo/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/geo/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/geo/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

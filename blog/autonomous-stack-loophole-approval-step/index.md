@@ -80,7 +80,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ## Related tools
 
 - [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
@@ -98,7 +98,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Apache Unomi](/tools/apache-unomi/)
+More from the directory: [BillionMail](/tools/billionmail/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -146,7 +146,7 @@ More from the directory: [Apache Unomi](/tools/apache-unomi/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1704,
+  "wordCount": 1707,
   "articleSection": "marketing-automation, workflow-automation"
 }
 ```
@@ -179,7 +179,7 @@ More from the directory: [Apache Unomi](/tools/apache-unomi/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

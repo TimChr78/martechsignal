@@ -101,7 +101,7 @@ Our SEO hub collects everything we have written on AI search visibility, citatio
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Brandwatch](/tools/brandwatch/)
+More from the directory: [ChatbotX](/tools/chatbotx/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -182,7 +182,7 @@ More from the directory: [Brandwatch](/tools/brandwatch/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/", "breadcrumb": {"@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

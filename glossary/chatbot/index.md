@@ -73,7 +73,10 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [ChatbotX](https://
         "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -125,7 +128,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [ChatbotX](https://
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/chatbot/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/chatbot/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/chatbot/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

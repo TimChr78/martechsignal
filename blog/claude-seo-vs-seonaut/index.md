@@ -96,7 +96,7 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Flagsmith](/tools/flagsmith/)
+More from the directory: [GrowthBook](/tools/growthbook/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -177,7 +177,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

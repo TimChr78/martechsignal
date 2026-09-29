@@ -76,7 +76,7 @@ This post is part of the hub for this topic: [ai seo tooling](/guides/ai-seo-too
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [EspoCRM](/tools/espocrm/)
+More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -164,7 +164,7 @@ More from the directory: [EspoCRM](/tools/espocrm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-benchmark/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-benchmark/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-benchmark/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

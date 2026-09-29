@@ -175,7 +175,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/salesforce-third-no-code-promise/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/salesforce-third-no-code-promise/", "breadcrumb": {"@id": "https://martechsignal.com/blog/salesforce-third-no-code-promise/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

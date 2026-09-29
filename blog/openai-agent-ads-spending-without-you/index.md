@@ -155,8 +155,6 @@ This post is part of the hub for this topic: [agentic ai advertising](/guides/ag
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Zoho CRM](/tools/zoho-crm/)
-
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 
@@ -236,7 +234,7 @@ More from the directory: [Zoho CRM](/tools/zoho-crm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/", "breadcrumb": {"@id": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

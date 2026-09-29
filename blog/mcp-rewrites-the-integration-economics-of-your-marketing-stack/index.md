@@ -132,7 +132,7 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [OpenOutreach](/tools/openoutreach/)
+More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -213,7 +213,7 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

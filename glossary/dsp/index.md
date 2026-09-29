@@ -73,7 +73,10 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
         "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -125,7 +128,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dsp/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dsp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/dsp/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

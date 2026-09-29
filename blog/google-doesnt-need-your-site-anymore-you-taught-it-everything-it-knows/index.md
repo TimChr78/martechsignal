@@ -107,7 +107,7 @@ The play is to own something the machine cannot answer without you. Google does 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [LibreTranslate](/tools/libretranslate/)
+More from the directory: [Madgicx](/tools/madgicx/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -188,7 +188,7 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

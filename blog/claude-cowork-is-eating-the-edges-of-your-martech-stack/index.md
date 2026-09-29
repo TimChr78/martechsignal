@@ -110,7 +110,7 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
+More from the directory: [EspoCRM](/tools/espocrm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -191,7 +191,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

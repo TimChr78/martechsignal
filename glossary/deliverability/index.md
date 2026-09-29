@@ -84,7 +84,10 @@ Sources: [RFC 5321 (SMTP)](https://datatracker.ietf.org/doc/rfc5321/) · [Active
         "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -136,7 +139,7 @@ Sources: [RFC 5321 (SMTP)](https://datatracker.ietf.org/doc/rfc5321/) · [Active
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/deliverability/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/deliverability/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/deliverability/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

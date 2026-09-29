@@ -107,7 +107,7 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
+More from the directory: [SISTRIX](/tools/sistrix/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -188,7 +188,7 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/", "breadcrumb": {"@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

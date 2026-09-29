@@ -78,7 +78,10 @@ Sources: [Twilio Segment](https://segment.com) · [Snowplow](https://snowplow.io
         "dateModified": "2026-09-07",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -130,7 +133,7 @@ Sources: [Twilio Segment](https://segment.com) · [Snowplow](https://snowplow.io
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dmp/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dmp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/dmp/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

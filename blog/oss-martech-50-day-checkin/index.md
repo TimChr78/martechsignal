@@ -179,7 +179,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/oss-martech-50-day-checkin/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/oss-martech-50-day-checkin/", "breadcrumb": {"@id": "https://martechsignal.com/blog/oss-martech-50-day-checkin/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-29",
- "version": "2026-09-29",
+ "generated": "2026-09-30",
+ "version": "2026-09-30",
  "license": "https://martechsignal.com/terms/",
  "license_note": "Quoting short excerpts with a link back is permitted, including by AI systems answering questions; wholesale republishing is not (see /terms/).",
  "recordCount": 165,
@@ -47,6 +47,7 @@
    "license": "Apache-2.0",
    "github_forks": 366,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/aaron-marketing-skills/"
   },
   {
@@ -103,6 +104,7 @@
      "as_of": "2026-08-28"
     }
    ],
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/activecampaign/"
   },
   {
@@ -149,6 +151,7 @@
     ],
     "verdict": "Buy it when ad volume is your bottleneck and speed matters. Skip it if your brand needs art direction no template can give."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/adcreative-ai/"
   },
   {
@@ -195,6 +198,7 @@
     ],
     "verdict": "Buy it when program complexity and scale justify the ops headcount. For smaller teams it is overkill."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/adobe-marketo/"
   },
   {
@@ -239,6 +243,7 @@
    "license": "MIT",
    "github_forks": 230,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/ai-business-skills/"
   },
   {
@@ -323,6 +328,7 @@
    "license": "Elastic License 2.0",
    "github_forks": 33,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/alphone/"
   },
   {
@@ -360,6 +366,7 @@
    },
    "github_forks": 329,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/alwrity/"
   },
   {
@@ -492,6 +499,7 @@
    "license": "Apache-2.0",
    "github_forks": 40,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/analytics-tracking-automation/"
   },
   {
@@ -537,6 +545,7 @@
     ],
     "verdict": "Valuable when you need an instant, numbers-based copy check across many channels. Established writers can pass."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/anyword/"
   },
   {
@@ -663,6 +672,7 @@
     "verdict": "Worth a look when your CRM needs custom objects and live segments more than it needs a sales methodology out of the box."
    },
    "paid_from": 29,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/attio/"
   },
   {
@@ -748,6 +758,7 @@
     ],
     "verdict": "If you want the original visual journey builder, you are now buying Ortto, which bundles a CDP and analytics into the deal. Sensible for teams consolidating tools; overkill if you only need email sequences."
    },
+   "currency": "USD",
    "page_url": null,
    "successor_slug": "ortto"
   },
@@ -1082,6 +1093,7 @@
     "verdict": "Start here, especially on the free tier. Plan to graduate to Sprout when reporting depth and approvals matter."
    },
    "paid_from": 5,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/buffer/"
   },
   {
@@ -1117,6 +1129,7 @@
    },
    "github_forks": 239,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/chatbotx/"
   },
   {
@@ -1161,6 +1174,7 @@
     ],
     "verdict": "A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B teams need a more general builder."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/chatfuel/"
   },
   {
@@ -1237,6 +1251,7 @@
    "paid_from": 19,
    "github_forks": 9065,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/chatwoot/"
   },
   {
@@ -1289,6 +1304,7 @@
    "license": "MIT",
    "github_forks": 1424,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/claude-ads/"
   },
   {
@@ -1467,6 +1483,7 @@
    "license": "MIT",
    "github_forks": 2625,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/claude-seo/"
   },
   {
@@ -1510,6 +1527,7 @@
     ],
     "verdict": "The reference tool for SEO copy scoring. Best when paired with a writer who wants ranking signals, not generated prose."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/clearscope/"
   },
   {
@@ -1601,6 +1619,7 @@
    "license": "proprietary",
    "github_forks": 111,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/codex-seo/"
   },
   {
@@ -1645,6 +1664,7 @@
     "verdict": "Good value for high-volume, template-driven content pipelines. Teams doing premium long-form writing should stay with Jasper."
    },
    "paid_from": 9,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/contentbot/"
   },
   {
@@ -1692,6 +1712,7 @@
     "verdict": "Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure content teams have cheaper options."
    },
    "paid_from": 49,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/copy-ai/"
   },
   {
@@ -1764,6 +1785,7 @@
    "license": "GPL-3.0",
    "github_forks": 569,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/cordys-crm/"
   },
   {
@@ -1837,6 +1859,7 @@
      ]
     ]
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/customer-io/"
   },
   {
@@ -1882,6 +1905,7 @@
    "license": "MIT",
    "github_forks": 1042,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/deskcommcrm/"
   },
   {
@@ -1925,6 +1949,7 @@
    "license": "Apache-2.0",
    "github_forks": 0,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/diffmode-growth-tactics/"
   },
   {
@@ -1989,6 +2014,7 @@
    "license": "MIT",
    "github_forks": 1052,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/django-crm/"
   },
   {
@@ -2062,6 +2088,7 @@
    "license": "GPL-3.0",
    "github_forks": 3544,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/dolibarr/"
   },
   {
@@ -2107,6 +2134,7 @@
     ],
     "verdict": "Relevant only for B2B revenue teams running inbound-outbound motion. Everyone else should use a support-oriented chatbot."
    },
+   "currency": "USD",
    "page_url": null,
    "successor_slug": "salesloft"
   },
@@ -2244,6 +2272,7 @@
    "kind": "Agent Skill",
    "github_forks": 39,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/email-marketing-bible/"
   },
   {
@@ -2355,6 +2384,7 @@
    "kind": "Utility",
    "github_forks": 26,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/eve-marketing-team/"
   },
   {
@@ -2414,6 +2444,7 @@
    "license": "AGPL-3.0",
    "github_forks": 1196,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/ever-gauzy/"
   },
   {
@@ -2483,6 +2514,7 @@
    "license": "AGPL-3.0",
    "github_forks": 1462,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/frappe-crm/"
   },
   {
@@ -2562,6 +2594,7 @@
      ]
     ]
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/frase/"
   },
   {
@@ -2623,6 +2656,7 @@
     ]
    },
    "paid_from": 9,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/freshsales/"
   },
   {
@@ -2671,6 +2705,7 @@
    "license": "MIT",
    "github_forks": 11989,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/ghost/"
   },
   {
@@ -2742,6 +2777,7 @@
    "kind": "Utility",
    "github_forks": 365,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/"
   },
   {
@@ -2786,6 +2822,7 @@
    "license": "Apache-2.0",
    "github_forks": 172,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/growth-lab/"
   },
   {
@@ -2832,6 +2869,7 @@
     ],
     "verdict": "Choose it when you keep discovering untagged events after the fact. Disciplined taggers get more from Mixpanel."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/heap/"
   },
   {
@@ -2878,6 +2916,7 @@
     ],
     "verdict": "The right call for multi-team, multi-brand social programs with governance needs. Small teams overpay for it."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/hootsuite/"
   },
   {
@@ -2925,6 +2964,7 @@
     "verdict": "Best starting CRM for small teams. Revisit ownership costs seriously once headcount and workflows multiply."
    },
    "paid_from": 20,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/hubspot-crm/"
   },
   {
@@ -2982,6 +3022,7 @@
     }
    ],
    "paid_from": 20,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/hubspot-marketing-hub/"
   },
   {
@@ -3027,6 +3068,7 @@
     ],
     "verdict": "A strong specialist for bulk product catalog content at scale. General writing needs are better served elsewhere."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/hypotenuse-ai/"
   },
   {
@@ -3146,6 +3188,7 @@
      "as_of": "2026-08-28"
     }
    ],
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/intercom/"
   },
   {
@@ -3192,6 +3235,7 @@
     ],
     "verdict": "Best for enterprises needing brand-governed, multichannel output at scale. Solo users get more from raw models."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/jasper/"
   },
   {
@@ -3249,6 +3293,7 @@
     }
    ],
    "paid_from": 20,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/klaviyo/"
   },
   {
@@ -3368,6 +3413,7 @@
    "license": "MIT",
    "github_forks": 24646,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/langchain/"
   },
   {
@@ -3404,6 +3450,7 @@
    "license": "MIT",
    "github_forks": 205,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/laudspeaker/"
   },
   {
@@ -3470,6 +3517,7 @@
    "license": "MIT",
    "github_forks": 396,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/line-harness/"
   },
   {
@@ -3513,6 +3561,7 @@
    "license": "AGPL-3.0",
    "github_forks": 2632,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/listmonk/"
   },
   {
@@ -3583,6 +3632,7 @@
      ]
     ]
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/loops/"
   },
   {
@@ -3628,7 +3678,7 @@
      "The local stack brings up Postgres, Redis, LocalStack, OpenSearch, Kafka, and FusionAuth in Docker with dummy AWS credentials, and builds the Rust services on the host with cargo zigbuild. Compose is driven through just recipes; no raw docker compose commands are documented.",
      "Login codes land in Mailpit at localhost:8025 rather than a real inbox, so first-run sign-in works offline.",
      "Release artifacts ship monthly under dated tags: v2026.9.7.0 includes a macOS .dmg, a Linux AppImage, and tarballs for the macrod agent daemon.",
-     "The README points commercial or managed-hosting arrangements to self-host@macro.com, and licensing@macro.com handles alternative licensing."
+     "The README points commercial or managed-hosting arrangements to self-host at macro.com, and licensing at macro.com handles alternative licensing."
     ],
     "requirements": "A Nix-managed environment plus Docker for the backing services (Postgres, Redis, LocalStack, OpenSearch, Kafka, FusionAuth) and a Rust toolchain for the services, which build with cargo zigbuild. The monorepo holds 167 Rust crates, 42 deployable services, and a SolidJS app for web and desktop. Two components are sublicensed rather than in-repo, so a self-hosted instance either maintains licenses for LiveKit (video calls), FusionAuth (authentication), and PostHog (analytics) or disables those features.",
     "best_for": "Teams that want to collapse email, chat, docs, tasks, and calls into one tool and let the CRM assemble itself from their outbound email: relationship-driven sales, founder-led selling, and agency or studio work where the conversation history is the deal context. Agent-heavy teams get the most, since MCP support and scheduled agent runs are first-class.",
@@ -3647,7 +3697,7 @@
      ],
      [
       "Can you self-host Macro?",
-      "Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host@macro.com."
+      "Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host at macro.com."
      ],
      [
       "How much does Macro cost?",
@@ -3660,6 +3710,7 @@
    "license": "AGPL-3.0",
    "github_forks": 435,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/macro/"
   },
   {
@@ -3702,6 +3753,7 @@
     "not_for": "Multi-channel advertisers needing Google/TikTok coverage in the same platform, and small spenders whose budget cannot justify a spend-scaled subscription.",
     "verdict": "The most complete Meta-only operating layer in the directory: real breadth across optimization, creative and attribution, with spend-based pricing that suits established ecommerce advertisers."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/madgicx/"
   },
   {
@@ -3759,6 +3811,7 @@
     }
    ],
    "paid_from": 13,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/mailchimp/"
   },
   {
@@ -3816,6 +3869,7 @@
    },
    "github_forks": 69,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/maizzle/"
   },
   {
@@ -3871,6 +3925,7 @@
     ]
    },
    "paid_from": 9,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/make/"
   },
   {
@@ -3917,6 +3972,7 @@
     "verdict": "The default choice for Instagram and Messenger funnels; value depends entirely on living in DMs."
    },
    "paid_from": 14,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/manychat/"
   },
   {
@@ -3959,6 +4015,7 @@
    "license": "MIT",
    "github_forks": 33,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/marketing-studio/"
   },
   {
@@ -4264,6 +4321,7 @@
      "as_of": "2026-08-28"
     }
    ],
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/mixpanel/"
   },
   {
@@ -4377,6 +4435,7 @@
    "license": "Apache-2.0",
    "github_forks": 414,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/multipost-extension/"
   },
   {
@@ -4415,7 +4474,7 @@
    "status": "active",
    "date_added": "2026-07-27",
    "date_updated": "2026-09-27",
-   "description": "Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. Its library of more than 400 nodes supports common business tools such as Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, while API access and custom code steps make it possible to extend workflows beyond prebuilt connectors. Founded in 2019 and headquartered in Berlin, Germany, it can be deployed in the cloud or self-hosted, giving organizations control over where data runs and how environments are managed.\n\nThe platform's AI capabilities are embedded directly into workflows through AI agent nodes, AI workflow automation, AI data transformation, AI content generation, and AI-powered integrations that can call language models as part of a larger process. This makes it useful not only for routine task automation, but also for building lightweight AI agents, enrichment pipelines, and content operations that combine human review with machine-generated output. Its open-source foundation, reflected in a large GitHub community with more than 206,232 GitHub stars, is one of its clearest differentiators, especially for teams that want transparency, self-hosting, and deeper customization than many closed platforms allow.\n\nCompared with commercial automation tools, n8n generally offers more flexibility and control, though it may require more technical setup and ongoing maintenance. Pricing includes a free self-hosted option under a fair-code model, cloud plans starting at $20 per month on Starter and $50 per month on Pro, and custom enterprise pricing. It is best for technically comfortable marketing operations teams, agencies, and AI-focused organizations that want an extensible automation platform with strong AI agent support and the option to self-host.",
+   "description": "Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. Its library of more than 400 nodes supports common business tools such as Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, while API access and custom code steps make it possible to extend workflows beyond prebuilt connectors. Founded in 2019 and headquartered in Berlin, Germany, it can be deployed in the cloud or self-hosted, giving organizations control over where data runs and how environments are managed.\n\nThe platform's AI capabilities are embedded directly into workflows through AI agent nodes, AI workflow automation, AI data transformation, AI content generation, and AI-powered integrations that can call language models as part of a larger process. This makes it useful not only for routine task automation, but also for building lightweight AI agents, enrichment pipelines, and content operations that combine human review with machine-generated output. Its open-source foundation, reflected in a large GitHub community with more than 206,232 GitHub stars, is one of its clearest differentiators, especially for teams that want transparency, self-hosting, and deeper customization than many closed platforms allow.\n\nCompared with commercial automation tools, n8n generally offers more flexibility and control, though it may require more technical setup and ongoing maintenance. Pricing includes a free self-hosted option under a fair-code model, cloud plans starting at €20 per month on Starter and €50 per month on Pro, and custom enterprise pricing. It is best for technically comfortable marketing operations teams, agencies, and AI-focused organizations that want an extensible automation platform with strong AI agent support and the option to self-host.",
    "seo_description": "n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. Free to self-host; no licence fee.",
    "deep_dive": {
     "hands_on": [
@@ -4483,6 +4542,7 @@
    "license": "MIT",
    "github_forks": 51,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/n8n-marketing-flows/"
   },
   {
@@ -4540,6 +4600,7 @@
    },
    "github_forks": 2894,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/nocobase/"
   },
   {
@@ -4804,6 +4865,7 @@
    "license": "MIT",
    "github_forks": 83,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/notifo/"
   },
   {
@@ -4858,6 +4920,7 @@
    "license": "AGPL-3.0",
    "github_forks": 233,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/notifuse/"
   },
   {
@@ -4923,6 +4986,7 @@
    "license": "MIT",
    "github_forks": 429,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/open-mercato/"
   },
   {
@@ -4969,6 +5033,7 @@
    "license": "MIT",
    "github_forks": 381,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/openclaw-marketing-skills/"
   },
   {
@@ -5049,6 +5114,7 @@
    "license": "GPL-3.0",
    "github_forks": 572,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/openoutreach/"
   },
   {
@@ -5157,6 +5223,7 @@
     "not_for": "Advertisers wanting cross-channel management (Google Ads only), and teams under ~$25,000 monthly spend where the Basic tier's floor exceeds their needs.",
     "verdict": "A focused Google Ads quality-control layer: less ambitious than cross-channel platforms, but its statistical confidence scoring and one-click fixes target exactly the work account managers hate."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/opteo/"
   },
   {
@@ -5235,6 +5302,7 @@
      ]
     ]
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/ortto/"
   },
   {
@@ -5390,6 +5458,7 @@
      ]
     ]
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/pencil/"
   },
   {
@@ -5618,6 +5687,7 @@
      "as_of": "2026-08-28"
     }
    ],
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/pipedrive/"
   },
   {
@@ -5665,6 +5735,7 @@
    "license": "AGPL-3.0",
    "github_forks": 1878,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/plausible/"
   },
   {
@@ -5736,6 +5807,7 @@
     ]
    },
    "paid_from": 15,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/postmark/"
   },
   {
@@ -5780,6 +5852,7 @@
    "kind": "Utility",
    "github_forks": 7,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/potato-ai-visibility/"
   },
   {
@@ -5826,6 +5899,7 @@
     "verdict": "Efficient social content factory for small brands; B2B nuance still needs a human editor."
    },
    "paid_from": 19,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/predis-ai/"
   },
   {
@@ -5866,6 +5940,7 @@
    "license": "MIT",
    "github_forks": 42,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/prospectos/"
   },
   {
@@ -5944,6 +6019,7 @@
    "license": "MIT",
    "github_forks": 802,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/react-email-editor/"
   },
   {
@@ -6090,6 +6166,7 @@
    "license": "MIT",
    "github_forks": 1089,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/resend/"
   },
   {
@@ -6154,7 +6231,7 @@
      ],
      [
       "Did Revealbot rebrand to Birch?",
-      "Yes. The site at bir.ch titles its own pricing page 'Birch (Revealbot)', and its help and contact addresses still point to help.revealbot.com and hello@revealbot.com. The product is stylized Bïrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states Bïrch is an official partner of those platforms."
+      "Yes. The site at bir.ch titles its own pricing page 'Birch (Revealbot)', and its help and contact addresses still point to help.revealbot.com and hello at revealbot.com. The product is stylized Bïrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states Bïrch is an official partner of those platforms."
      ],
      [
       "Is Birch an AI ad optimization tool?",
@@ -6174,6 +6251,7 @@
      ]
     ]
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/revealbot/"
   },
   {
@@ -6230,6 +6308,7 @@
      "as_of": "2026-08-28"
     }
    ],
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/salesforce-crm/"
   },
   {
@@ -6299,6 +6378,7 @@
      ]
     ]
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/salesforce-marketing-cloud/"
   },
   {
@@ -6378,6 +6458,7 @@
     ]
    },
    "paid_from": 120,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/segment/"
   },
   {
@@ -6433,6 +6514,7 @@
      "as_of": "2026-08-28"
     }
    ],
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/semrush/"
   },
   {
@@ -6479,6 +6561,7 @@
     "verdict": "Reliable, well-documented transactional email plumbing; marketers should look elsewhere for campaign work."
    },
    "paid_from": 19.95,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/sendgrid/"
   },
   {
@@ -6511,6 +6594,7 @@
    "license": "MIT",
    "github_forks": 1,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/seo-skill-bench/"
   },
   {
@@ -6574,6 +6658,7 @@
    "license": "MIT",
    "github_forks": 133,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/seonaut/"
   },
   {
@@ -6764,6 +6849,7 @@
     ],
     "verdict": "Best-in-class workflow and reporting for serious social teams; hard to justify below five seats."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/sprout-social/"
   },
   {
@@ -6813,6 +6899,7 @@
    "paid_from": 99,
    "github_forks": 9880,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/strapi/"
   },
   {
@@ -6874,6 +6961,7 @@
    "license": "AGPL-3.0",
    "github_forks": 2427,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/suitecrm/"
   },
   {
@@ -6964,6 +7052,7 @@
     ],
     "verdict": "Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a human editor; it is a compass, not a writer."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/surfer-seo/"
   },
   {
@@ -7057,6 +7146,7 @@
     "verdict": "Best-value AI chat for small e-commerce; complex routing needs bigger platforms."
    },
    "paid_from": 24,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/tidio/"
   },
   {
@@ -7260,6 +7350,7 @@
     ],
     "verdict": "Genuinely useful DTC dashboard consolidation; treat attribution as directional, warehouse for truth."
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/triple-whale/"
   },
   {
@@ -7335,6 +7426,7 @@
    "license": "AGPL-3.0",
    "github_forks": 9350,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/twenty/"
   },
   {
@@ -7402,6 +7494,7 @@
    "license": "MIT",
    "github_forks": 8139,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/umami/"
   },
   {
@@ -7483,6 +7576,7 @@
    "license": "MIT",
    "github_forks": 6310,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/wacrm/"
   },
   {
@@ -7545,6 +7639,7 @@
    "license": "MIT",
    "github_forks": 3,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/warpdrive/"
   },
   {
@@ -7771,6 +7866,7 @@
     }
    ],
    "paid_from": 19.99,
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/zapier/"
   },
   {
@@ -7819,6 +7915,7 @@
    "license": "MIT",
    "github_forks": 22,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/"
   },
   {
@@ -7870,6 +7967,7 @@
    },
    "github_forks": 73,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/warmbly/"
   },
   {
@@ -8389,7 +8487,7 @@
      "That model rewards steady cadence over burst tracking. Run hourly checks on many prompts and credits disappear fast. Run daily checks on a focused prompt set and the same pool covers a lot. The credit calculator on their pricing page exists for that reason.",
      "Beyond tracking, the platform covers competitor benchmarking, citation and sources-box analysis, sentiment by brand, topic and model, shopping cards in ChatGPT, Google AI Mode and Copilot, ad share of voice, and page audits with AI-readiness scoring (50 audits on Pro, 200 on Growth and Enterprise). Query fan-out shows the internal searches engines run before answering, and it ships on every plan. Prompt research estimates demand through semantic reconstruction rather than a panel number, with 10 free lookups a month on Growth. Two things to check in a trial: the Scout recommendations engine and the GA4/Search Console connectors are both labeled beta. REST API and white-label options gate at Growth (EUR 385), so agencies that need data exports land there, not Pro."
     ],
-    "verdict": "Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from $20 to EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start.",
+    "verdict": "Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from Pro at EUR 99 to Enterprise at EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start.",
     "best_for": "Agencies and multi-brand teams that want every major answer engine on one plan without per-engine upsells, plus exports and white-label reporting. Also fits teams that want research features like query fan-out alongside tracking.",
     "not_for": "Buyers who want fixed, predictable monthly costs, since tracking volume depends on credit burn and engine mix. Teams needing GA4 or Search Console tie-ins today, since those connectors are beta.",
     "cons": [
@@ -8405,7 +8503,7 @@
     "faq_extra": [
      [
       "How does Rankscale pricing work?",
-      "Plans are credit-based. Each query to an AI engine uses roughly a quarter of a credit. Pro is EUR 99 per month with 1,200 credits, Growth EUR 385 with 5,500, Enterprise EUR 780 with 12,000, and Essentials starts at $20."
+      "Plans are credit-based. Each query to an AI engine uses roughly a quarter of a credit. Pro is EUR 99 per month with 1,200 credits, Growth EUR 385 with 5,500, Enterprise EUR 780 with 12,000, and a cheaper Essentials tier below Pro whose price was not visible in our EU render."
      ],
      [
       "Which AI engines does Rankscale cover?",
@@ -8933,6 +9031,7 @@
    },
    "github_forks": 146,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/apache-unomi/"
   },
   {
@@ -9157,6 +9256,7 @@
    },
    "github_forks": 1584,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/languagetool/"
   },
   {
@@ -9231,6 +9331,7 @@
    },
    "github_forks": 2498,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/khoj/"
   },
   {
@@ -9301,6 +9402,7 @@
    },
    "github_forks": 1737,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/libretranslate/"
   },
   {
@@ -9443,6 +9545,7 @@
    },
    "github_forks": 614,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/revive-adserver/"
   },
   {
@@ -9509,6 +9612,7 @@
    },
    "github_forks": 255,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/advertools/"
   },
   {
@@ -9579,6 +9683,7 @@
    },
    "github_forks": 2391,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/promptfoo/"
   },
   {
@@ -9622,6 +9727,7 @@
    "github_stars": 24775,
    "github_forks": 4263,
    "github_checked": "2026-09-29",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/activepieces/"
   },
   {
@@ -9657,6 +9763,7 @@
      "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
     ]
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/pabbly-connect/"
   },
   {
@@ -9697,6 +9804,7 @@
      "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
     ]
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/power-automate/"
   },
   {
@@ -9736,6 +9844,7 @@
      "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
     ]
    },
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/ifttt/"
   },
   {
@@ -9832,6 +9941,7 @@
    },
    "license": "MIT",
    "kind": "Agent Skill",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/ai-marketing-claude/"
   },
   {
@@ -9893,6 +10003,7 @@
    },
    "license": "MIT",
    "kind": "Agent Skill",
+   "currency": "USD",
    "page_url": "https://martechsignal.com/tools/digital-marketing-pro/"
   }
  ]

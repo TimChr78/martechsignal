@@ -192,7 +192,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/", "breadcrumb": {"@id": "https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

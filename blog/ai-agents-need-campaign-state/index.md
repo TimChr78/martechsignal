@@ -199,7 +199,7 @@ More from the directory: [advertools](/tools/advertools/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -84,7 +84,10 @@ Sources: [Attribution](https://www.attributionapp.com) · [Amplitude](https://am
         "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -136,7 +139,7 @@ Sources: [Attribution](https://www.attributionapp.com) · [Amplitude](https://am
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-attribution-models/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-attribution-models/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/marketing-attribution-models/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

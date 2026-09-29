@@ -90,7 +90,10 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Braze](https://www
         "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -142,7 +145,7 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Braze](https://www
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-automation/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-automation/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/marketing-automation/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

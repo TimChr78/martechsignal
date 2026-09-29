@@ -188,7 +188,7 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agents-identity-debt/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agents-identity-debt/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agents-identity-debt/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

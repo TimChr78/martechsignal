@@ -81,7 +81,7 @@ Links still rank pages on Google, and nothing in either article says otherwise. 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [ManyChat](/tools/manychat/)
+More from the directory: [MarketMuse](/tools/marketmuse/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -162,7 +162,7 @@ More from the directory: [ManyChat](/tools/manychat/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/", "breadcrumb": {"@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

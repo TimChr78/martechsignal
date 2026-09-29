@@ -86,7 +86,10 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
         "dateModified": "2026-09-07",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -138,7 +141,7 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/seo/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/seo/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/seo/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

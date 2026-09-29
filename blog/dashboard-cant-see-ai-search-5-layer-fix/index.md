@@ -115,7 +115,7 @@ This post is part of the [generative engine optimization hub](/guides/generative
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [GrowthBook](/tools/growthbook/)
+More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -196,7 +196,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/", "breadcrumb": {"@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

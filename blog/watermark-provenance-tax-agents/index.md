@@ -159,7 +159,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/watermark-provenance-tax-agents/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/watermark-provenance-tax-agents/", "breadcrumb": {"@id": "https://martechsignal.com/blog/watermark-provenance-tax-agents/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

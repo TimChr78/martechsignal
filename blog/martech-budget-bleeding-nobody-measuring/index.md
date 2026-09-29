@@ -123,7 +123,7 @@ Browse the [MartechSignal tools directory](/tools/) before the next renewal. The
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [MarketMuse](/tools/marketmuse/)
+More from the directory: [OpenOutreach](/tools/openoutreach/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -204,7 +204,7 @@ More from the directory: [MarketMuse](/tools/marketmuse/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/", "breadcrumb": {"@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

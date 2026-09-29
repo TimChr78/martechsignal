@@ -187,7 +187,7 @@ More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

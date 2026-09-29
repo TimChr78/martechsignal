@@ -85,7 +85,10 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Workato](http
         "dateModified": "2026-09-25",
         "datePublished": "2026-09-25",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -137,7 +140,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Workato](http
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-agent/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-agent/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/ai-agent/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

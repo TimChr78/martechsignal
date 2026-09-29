@@ -86,7 +86,10 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [ActiveCampaign]
         "dateModified": "2026-08-23",
         "datePublished": "2026-08-23",
         "inDefinedTermSet": {
-          "@id": "https://martechsignal.com/glossary/#set"
+          "@id": "https://martechsignal.com/glossary/#set",
+          "@type": "DefinedTermSet",
+          "name": "MartechSignal Glossary",
+          "numberOfItems": 30
         },
         "author": {
           "@type": "Person",
@@ -138,7 +141,7 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [ActiveCampaign]
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-ops/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-ops/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/marketing-ops/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

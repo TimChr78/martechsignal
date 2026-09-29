@@ -92,7 +92,7 @@ The insertion order was written for humans because only humans could read a prop
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Madgicx](/tools/madgicx/)
+More from the directory: [ManyChat](/tools/manychat/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -173,7 +173,7 @@ More from the directory: [Madgicx](/tools/madgicx/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/", "breadcrumb": {"@id": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

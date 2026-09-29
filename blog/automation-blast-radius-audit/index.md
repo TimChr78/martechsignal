@@ -101,7 +101,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Analytics Tracking Automation](/tools/analytics-tracking-automation/)
+More from the directory: [Anyword](/tools/anyword/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -182,7 +182,7 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/automation-blast-radius-audit/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/automation-blast-radius-audit/", "breadcrumb": {"@id": "https://martechsignal.com/blog/automation-blast-radius-audit/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json
