@@ -205,6 +205,12 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
       "name": "Tim Christensen",
       "url": "https://martechsignal.com/authors/tim-christensen/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "numberOfItems": 12,
     "itemListElement": [
       {

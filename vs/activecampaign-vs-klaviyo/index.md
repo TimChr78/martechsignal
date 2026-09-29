@@ -149,6 +149,12 @@ One email when a new tool review lands, nothing else.
       "name": "Tim Christensen",
       "url": "https://martechsignal.com/authors/tim-christensen/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "name": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
     "url": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/",
     "inLanguage": "en",
@@ -169,17 +175,23 @@ One email when a new tool review lands, nothing else.
         {
           "@type": "ListItem",
           "position": 1,
+          "name": "ActiveCampaign",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/activecampaign/#app",
-            "url": "https://martechsignal.com/tools/activecampaign/"
+            "url": "https://martechsignal.com/tools/activecampaign/",
+            "name": "ActiveCampaign"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "Klaviyo",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/klaviyo/#app",
-            "url": "https://martechsignal.com/tools/klaviyo/"
+            "url": "https://martechsignal.com/tools/klaviyo/",
+            "name": "Klaviyo"
           }
         }
       ]

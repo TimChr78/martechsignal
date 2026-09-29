@@ -214,13 +214,21 @@ def build():
     _nb = _num.get(len(_best_kids), str(len(_best_kids)))
     _nv = _num.get(len(_vs_kids), str(len(_vs_kids)))
     _na = _num.get(len(_alt_kids), str(len(_alt_kids)))
+    # r15 M-6 (2026-09-29): the intro prose named 3 lists while the section
+    # holds 15 — derive the live-list sentence (and its links) from the same
+    # children that feed hasPart and the visible list below.
+    _best_links = " ".join(
+        f'<a href="{c["url"]}">{esc(c["title"])}</a>' + ("," if i < len(_best_kids) - 2 else " and" if i < len(_best_kids) - 1 else ".")
+        for i, c in enumerate(_best_kids))
+    _best_intro = [BEST_INTRO[0].split("Three lists are live:")[0] +
+                   f"{_nb} lists are live: " + _best_links] + BEST_INTRO[1:]
     sections = [
         ("best", "Best-of lists",
          "Best-of lists (2026): open-source CRM, workflow, AI SEO",
          f"{_nb} best-of lists with catalog-grounded pricing, a verdict and "
          "a skip-it line per tool: open-source CRM, workflow automation "
          "platforms and AI SEO.",
-         BEST_INTRO, _best_kids),
+         _best_intro, _best_kids),
         ("vs", "Head-to-head comparisons",
          "Head-to-head comparisons: n8n, NocoDB and Matomo (2026)",
          f"{_nv} head-to-head comparisons: n8n vs Zapier, NocoDB vs NocoBase "

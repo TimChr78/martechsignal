@@ -117,10 +117,15 @@ def build_hub(terms, term_dates=None):
              "@id": "https://martechsignal.com/glossary/#set",
              "url": "https://martechsignal.com/glossary/",
              "name": "Martech Glossary",
+             # r15 M-2 (2026-09-29): money-template graphs join publisher + site.
+             "publisher": {"@id": "https://martechsignal.com/#organization"},
+             "isPartOf": {"@id": "https://martechsignal.com/#website"},
              "description": "Plain-English definitions of marketing technology terms"},
             {"@type": "ItemList",
              "name": "Martech Glossary",
              "description": "Plain-English definitions of marketing technology terms",
+             "publisher": {"@id": "https://martechsignal.com/#organization"},
+             "isPartOf": {"@id": "https://martechsignal.com/#website"},
              "numberOfItems": len(terms),
              **({"dateModified": max(d for d in (term_dates or {}).values() if d)}
                 if term_dates and any((term_dates or {}).values()) else {}),
@@ -288,6 +293,9 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
             "name": "Martech Glossary",
             "url": "https://martechsignal.com/glossary/"
         },
+        # r15 M-2 (2026-09-29): money-template graphs join publisher + site.
+        "publisher": {"@id": "https://martechsignal.com/#organization"},
+        "isPartOf": {"@id": "https://martechsignal.com/#website"},
         "url": f"https://martechsignal.com/glossary/{slug}/"
     }
 

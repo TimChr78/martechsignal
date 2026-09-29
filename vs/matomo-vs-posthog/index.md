@@ -141,6 +141,12 @@ One email when a new tool review lands, nothing else.
       "name": "Tim Christensen",
       "url": "https://martechsignal.com/authors/tim-christensen/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "name": "Matomo vs PostHog (2026): web analytics or product analytics",
     "url": "https://martechsignal.com/vs/matomo-vs-posthog/",
     "inLanguage": "en",
@@ -161,17 +167,23 @@ One email when a new tool review lands, nothing else.
         {
           "@type": "ListItem",
           "position": 1,
+          "name": "Matomo",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/matomo/#app",
-            "url": "https://martechsignal.com/tools/matomo/"
+            "url": "https://martechsignal.com/tools/matomo/",
+            "name": "Matomo"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "PostHog",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/posthog/#app",
-            "url": "https://martechsignal.com/tools/posthog/"
+            "url": "https://martechsignal.com/tools/posthog/",
+            "name": "PostHog"
           }
         }
       ]

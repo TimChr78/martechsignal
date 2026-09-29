@@ -146,6 +146,12 @@ One email when a new tool review lands, nothing else.
       "name": "Tim Christensen",
       "url": "https://martechsignal.com/authors/tim-christensen/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "name": "n8n vs Make vs Zapier (2026): the three-way automation decision",
     "url": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/",
     "inLanguage": "en",
@@ -169,25 +175,34 @@ One email when a new tool review lands, nothing else.
         {
           "@type": "ListItem",
           "position": 1,
+          "name": "n8n",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/n8n/#app",
-            "url": "https://martechsignal.com/tools/n8n/"
+            "url": "https://martechsignal.com/tools/n8n/",
+            "name": "n8n"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "Make",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/make/#app",
-            "url": "https://martechsignal.com/tools/make/"
+            "url": "https://martechsignal.com/tools/make/",
+            "name": "Make"
           }
         },
         {
           "@type": "ListItem",
           "position": 3,
+          "name": "Zapier",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/zapier/#app",
-            "url": "https://martechsignal.com/tools/zapier/"
+            "url": "https://martechsignal.com/tools/zapier/",
+            "name": "Zapier"
           }
         }
       ]

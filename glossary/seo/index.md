@@ -85,6 +85,12 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
       "name": "Martech Glossary",
       "url": "https://martechsignal.com/glossary/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "url": "https://martechsignal.com/glossary/seo/"
   },
   {

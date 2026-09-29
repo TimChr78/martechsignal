@@ -84,6 +84,12 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Workato](http
       "name": "Martech Glossary",
       "url": "https://martechsignal.com/glossary/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "url": "https://martechsignal.com/glossary/ai-agent/"
   },
   {

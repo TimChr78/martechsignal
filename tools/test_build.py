@@ -1000,6 +1000,89 @@ def test_image_sizes_describe_real_slots():
     assert "100vw, 500px" in vs, "vs-figures shots missing grid-slot sizes"
 
 
+def test_category_intro_counts_match_chips():
+    """r15 M-5 (2026-09-29): hand-written intro counts diverged from the
+    generated chip (agent-skills 13/22 vs 18, crm 23 vs 24). Intro prose must
+    carry the live member count — via the {n} placeholder, substituted at
+    build time from the same source as the chip."""
+    import json as _j, re as _re
+    cat = _j.loads((ROOT / "tools" / "categories.json").read_text())
+    cats = cat if isinstance(cat, list) else cat.get("categories", cat)
+    recs = _j.loads((ROOT / "tools" / "tools.json").read_text())
+    words = {"one": 1, "two": 2, "three": 3, "thirteen": 13, "eighteen": 18,
+             "twenty-one": 21, "twenty-three": 23, "twenty-four": 24}
+    bad = []
+    for c in cats:
+        slug = c["slug"]
+        if slug == "open-source":
+            members = [x for x in recs if x.get("open_source") and x.get("status") == "active"]
+        else:
+            members = [x for x in recs if x.get("category") == slug and x.get("status") == "active"]
+        html = (ROOT / "categories" / slug / "index.html").read_text()
+        if "{n}" in html:
+            bad.append((slug, "unsubstituted {n}"))
+        for m in _re.finditer(r"\b(one|two|three|thirteen|eighteen|twenty-one|twenty-three|twenty-four|\d+)\s+(systems|entries|tools)\b", html, _re.I):
+            n = int(m.group(1)) if m.group(1).isdigit() else words[m.group(1).lower()]
+            if n != len(members):
+                bad.append((slug, m.group(0), len(members)))
+    assert not bad, f"intro/chip count divergences: {bad[:6]}"
+
+
+def test_best_hub_prose_matches_haspart():
+    """r15 M-6 (2026-09-29): hub meta said fifteen while body prose said
+    three and linked 3 of 15. The live-list sentence is derived from the
+    same children as hasPart and the visible list."""
+    import json as _j, re as _re
+    html = (ROOT / "best" / "index.html").read_text()
+    m = _re.search(r"(\w+) lists are live:", html)
+    assert m, "best hub missing derived live-list sentence"
+    words = {"Fifteen": 15}
+    n = words.get(m.group(1), -1)
+    leaf_links = len(_re.findall(r'<li><a href="[^"]*/best/[^"]*/">', html))
+    assert n == leaf_links and n > 3, f"hub prose says {m.group(1)} but lists {leaf_links} leaves"
+
+
+def test_money_templates_carry_publisher_and_ispartof():
+    """r15 M-2 (2026-09-29): all 78 money-template pages (/best/ 16, /vs/ 11,
+    /categories/ 15, /glossary/ 31, /alternatives/ 5) carry publisher +
+    isPartOf @id-refs joining the org and the site. r15 M-9: /vs/ ListItems
+    are typed named nodes, not bare stubs."""
+    import re as _re
+    bad = []
+    for base in ("best", "vs", "categories", "glossary", "alternatives"):
+        for f in (ROOT / base).glob("*/index.html"):
+            h = f.read_text()
+            if '"publisher"' not in h or '"isPartOf"' not in h:
+                bad.append(f"{base}/{f.parent.name}/")
+    assert not bad, f"money pages missing publisher/isPartOf: {bad[:8]}"
+    vs = (ROOT / "vs" / "n8n-vs-zapier" / "index.html").read_text()
+    assert '"item": {"@type": "SoftwareApplication"' in vs.replace(" ", "").replace("\n", "") or \
+        '"item":{"@type":"SoftwareApplication"' in vs.replace(" ", "").replace("\n", ""), \
+        "vs ListItems still bare stubs"
+
+
+def test_organization_node_is_identical_sitewide():
+    """r15 M-1/L-2 (2026-09-29): #organization was declared three ways
+    (founder inline vs @id-ref, org sameAs present/absent, logo inline vs
+    @id). Canonical: founder is a bare @id ref, the Organization carries NO
+    sameAs (no org-owned profile exists — omission over fabrication), logo
+    is an @id ref. Person keeps its own sameAs."""
+    import re as _re
+    bad = []
+    for pat in ("*/index.html", "*/*/index.html"):
+        for f in ROOT.glob(pat):
+            if "deploy-out" in f.parts:
+                continue
+            h = f.read_text()
+            if "#organization" not in h:
+                continue
+            # org node must not claim the author's personal sameAs
+            m = _re.search(r'"@type": "Organization", "@id": "https://martechsignal.com/#organization"(.*?)\}, \{"@type":', h)
+            if m and '"sameAs"' in m.group(1):
+                bad.append(f"{f.parent}/:org-sameAs")
+    assert not bad, f"org node divergences: {bad[:8]}"
+
+
 def test_analytics_loader_present_on_every_page():
     """r15 M-4 (2026-09-29): the Umami loader drifted off 10 hand pages
     (about/contact/privacy/terms/ai-policy + 5 guides) because it is applied

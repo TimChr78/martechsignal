@@ -40,6 +40,12 @@
       "name": "Tim Christensen",
       "url": "https://martechsignal.com/authors/tim-christensen/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "name": "Matomo vs Plausible (2026): analytics depth or a dashboard that stays small",
     "url": "https://martechsignal.com/vs/matomo-vs-plausible/",
     "inLanguage": "en",
@@ -60,17 +66,23 @@
         {
           "@type": "ListItem",
           "position": 1,
+          "name": "Matomo",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/matomo/#app",
-            "url": "https://martechsignal.com/tools/matomo/"
+            "url": "https://martechsignal.com/tools/matomo/",
+            "name": "Matomo"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "Plausible Analytics",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/plausible/#app",
-            "url": "https://martechsignal.com/tools/plausible/"
+            "url": "https://martechsignal.com/tools/plausible/",
+            "name": "Plausible Analytics"
           }
         }
       ]
@@ -120,13 +132,12 @@
 <h1>Matomo vs Plausible (2026): analytics depth or a dashboard that stays small</h1>
 <p>Both are open-source web analytics for teams that would rather not hand visitor data to an advertising company, and both self-host for free. The difference is depth and where the bill appears. Matomo is a full analytics suite whose advanced features are paid plugins and bundles; Plausible is a deliberately small tool with one dashboard, a lightweight script, and a low entry price.</p>
 <p>Teams choosing between them are usually content sites, privacy-conscious startups, and marketing ops leads with GDPR obligations. The axis is not accuracy. It is how much behavioral analytics you actually use, and whether your ops capacity can run a PHP analytics platform with archiving jobs versus a tool that mostly runs itself.</p>
-<h2>Matomo vs Plausible vs PostHog: the quick decision</h2>
+<h2>Matomo vs Plausible: the quick decision</h2>
 <div class="table-wrap"><table class="cmp"><thead><tr><th scope="col">Tool</th><th scope="col">Starts at</th><th scope="col">Pick it when</th></tr></thead><tbody>
 <tr><th scope="row">Matomo</th><td>Open Source</td><td>You want Google Analytics depth with EU data residency and full raw data ownership.</td></tr>
 <tr><th scope="row">Plausible Analytics</th><td>Open Source</td><td>You want a one-screen dashboard and a script lighter than the page it measures.</td></tr>
-<tr><th scope="row">PostHog</th><td>Freemium</td><td>You want product analytics and experiments with the web numbers as one slice.</td></tr>
 </tbody></table></div>
-<p class="alt-back">The analytics three-way has a page of its own: <a href="/vs/matomo-vs-posthog/">Matomo vs PostHog</a>.</p>
+<p class="alt-back">Also compared: <a href="/vs/matomo-vs-posthog/">Matomo vs PostHog</a>.</p>
 <p class="vs-links"><a href="/tools/matomo/">Matomo assessment</a> · <a href="/tools/plausible/">Plausible Analytics assessment</a></p>
 <div class="vs-shot"><img src="/og/screenshots/matomo-2026-09-600.webp" alt="Matomo product interface" loading="lazy" width="600" height="375" srcset="/og/screenshots/matomo-2026-09-480.webp 480w, /og/screenshots/matomo-2026-09-600.webp 600w, /og/screenshots/matomo-2026-09-800.webp 800w" sizes="(max-width: 700px) 100vw, 500px"></div>
 <div class="vs-shot"><img src="/og/screenshots/plausible-2026-09-600.webp" alt="Plausible Analytics product interface" loading="lazy" width="600" height="375" srcset="/og/screenshots/plausible-2026-09-480.webp 480w, /og/screenshots/plausible-2026-09-600.webp 600w, /og/screenshots/plausible-2026-09-800.webp 800w" sizes="(max-width: 700px) 100vw, 500px"></div>

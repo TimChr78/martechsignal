@@ -2263,6 +2263,9 @@ def build_category_page(cat, tools):
                 # R2 H-8: cat_h1 avoids the "Open-Source Tools Tools" double-Tools
                 "name": cat_h1(cat['name']),
                 "description": hub.get("meta", cat.get("description", "")) if hub else cat.get("description", ""),
+                # r15 M-2 (2026-09-29): money-template graphs join publisher + site.
+                "publisher": {"@id": "https://martechsignal.com/#organization"},
+                "isPartOf": {"@id": "https://martechsignal.com/#website"},
                 "numberOfItems": len(cat_tools),
                 **({"dateModified": _cat_dm} if _cat_dm else {}),
                 # R3-M3 (2026-09-17, wave 3): items typed as the real thing being

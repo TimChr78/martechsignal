@@ -93,6 +93,12 @@ Vendors in this category: [MultiPost](https://multipost.app) · [Brandwatch](htt
       "@type": "ItemList",
       "name": "Social Media Tools",
       "description": "Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites",
+      "publisher": {
+        "@id": "https://martechsignal.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://martechsignal.com/#website"
+      },
       "numberOfItems": 6,
       "dateModified": "2026-09-29",
       "itemListElement": [

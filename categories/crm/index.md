@@ -239,7 +239,7 @@ A CRM is the system of record for who your customers are, what they bought, and 
 
 The failure mode is the one this category has always had, now with higher stakes: the CRM is a graveyard of half-entered records, and every forecast built on it inherits the rot. AI makes that worse before it makes it better, since a scoring model trained on stale deal data will confidently rank your pipeline wrong. Buyers also keep paying per seat for fields nobody fills in. We covered the cost side in the Agentforce free-tier post and the data side in the CDP reckoning, where the warehouse eats the profile store. The 50-day open-source audit tracked which CRM projects actually ship.
 
-The directory covers 23 tools in four clusters. The hosted suites run the pipeline for you: Salesforce, HubSpot, Pipedrive, Freshsales and Attio, priced per seat from free tiers up to enterprise contracts. The self-hosted majority is where this category is unusual: eleven systems, from EspoCRM and SuiteCRM to Warpdrive and Monica, that you run on your own server with no seat billing. Then come the agent-ready CRMs (Twenty, Relaticle, Macro, Cordys) built around MCP servers, and the outbound three (ProspectOS, WaCRM, DeskcommCRM) that scrape leads or sell through WhatsApp. Our reviews weight data ownership, per-seat economics, and whether the AI features survive contact with real pipeline data.
+The directory covers 24 tools in four clusters. The hosted suites run the pipeline for you: Salesforce, HubSpot, Pipedrive, Freshsales and Attio, priced per seat from free tiers up to enterprise contracts. The self-hosted majority is where this category is unusual: eleven systems, from EspoCRM and SuiteCRM to Warpdrive and Monica, that you run on your own server with no seat billing. Then come the agent-ready CRMs (Twenty, Relaticle, Macro, Cordys) built around MCP servers, and the outbound three (ProspectOS, WaCRM, DeskcommCRM) that scrape leads or sell through WhatsApp. Our reviews weight data ownership, per-seat economics, and whether the AI features survive contact with real pipeline data.
 
 ## Which one fits
 
@@ -281,6 +281,12 @@ Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monic
       "@type": "ItemList",
       "name": "CRM Tools",
       "description": "CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. 24 tools reviewed.",
+      "publisher": {
+        "@id": "https://martechsignal.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://martechsignal.com/#website"
+      },
       "numberOfItems": 24,
       "dateModified": "2026-09-29",
       "itemListElement": [

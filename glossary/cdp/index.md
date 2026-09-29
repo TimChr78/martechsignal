@@ -85,6 +85,12 @@ Sources: [CDP Institute](https://www.cdpinstitute.org/) · [Twilio Segment](http
       "name": "Martech Glossary",
       "url": "https://martechsignal.com/glossary/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "url": "https://martechsignal.com/glossary/cdp/"
   },
   {

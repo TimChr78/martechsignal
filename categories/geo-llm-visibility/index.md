@@ -211,6 +211,12 @@ Vendors in this category: [Promptfoo](https://promptfoo.dev) · [AccuRanker](htt
       "@type": "ItemList",
       "name": "GEO & LLM Optimization Tools",
       "description": "AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overviews. 14 reviewed with dated facts.",
+      "publisher": {
+        "@id": "https://martechsignal.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://martechsignal.com/#website"
+      },
       "numberOfItems": 14,
       "dateModified": "2026-09-29",
       "itemListElement": [

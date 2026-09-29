@@ -154,6 +154,12 @@ One email when a new tool review lands, nothing else.
       "name": "Tim Christensen",
       "url": "https://martechsignal.com/authors/tim-christensen/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "name": "Claude SEO vs Semrush (2026): pricing, AI features, verdict",
     "url": "https://martechsignal.com/vs/claude-seo-vs-semrush/",
     "inLanguage": "en",
@@ -174,17 +180,23 @@ One email when a new tool review lands, nothing else.
         {
           "@type": "ListItem",
           "position": 1,
+          "name": "Claude SEO",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/claude-seo/#app",
-            "url": "https://martechsignal.com/tools/claude-seo/"
+            "url": "https://martechsignal.com/tools/claude-seo/",
+            "name": "Claude SEO"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "Semrush",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/semrush/#app",
-            "url": "https://martechsignal.com/tools/semrush/"
+            "url": "https://martechsignal.com/tools/semrush/",
+            "name": "Semrush"
           }
         }
       ]

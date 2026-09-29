@@ -149,6 +149,12 @@ One email when a new tool review lands, nothing else.
       "name": "Tim Christensen",
       "url": "https://martechsignal.com/authors/tim-christensen/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "name": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
     "url": "https://martechsignal.com/vs/nocodb-vs-nocobase/",
     "inLanguage": "en",
@@ -169,17 +175,23 @@ One email when a new tool review lands, nothing else.
         {
           "@type": "ListItem",
           "position": 1,
+          "name": "NocoDB",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/nocodb/#app",
-            "url": "https://martechsignal.com/tools/nocodb/"
+            "url": "https://martechsignal.com/tools/nocodb/",
+            "name": "NocoDB"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "NocoBase",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/nocobase/#app",
-            "url": "https://martechsignal.com/tools/nocobase/"
+            "url": "https://martechsignal.com/tools/nocobase/",
+            "name": "NocoBase"
           }
         }
       ]

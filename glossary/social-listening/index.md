@@ -68,6 +68,12 @@ Sources: [Brandwatch](https://www.brandwatch.com) · [Buffer](https://buffer.com
       "name": "Martech Glossary",
       "url": "https://martechsignal.com/glossary/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "url": "https://martechsignal.com/glossary/social-listening/"
   },
   {

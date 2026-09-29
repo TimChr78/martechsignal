@@ -112,6 +112,12 @@ Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics t
       "name": "Tim Christensen",
       "url": "https://martechsignal.com/authors/tim-christensen/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "numberOfItems": 5,
     "itemListElement": [
       {

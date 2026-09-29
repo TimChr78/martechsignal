@@ -147,6 +147,12 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
       "@type": "ItemList",
       "name": "Email Marketing Tools",
       "description": "Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites",
+      "publisher": {
+        "@id": "https://martechsignal.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://martechsignal.com/#website"
+      },
       "numberOfItems": 15,
       "dateModified": "2026-09-29",
       "itemListElement": [

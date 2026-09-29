@@ -5,7 +5,6 @@
 | --- | --- | --- |
 | Matomo | Open Source | You want Google Analytics depth with EU data residency and full raw data ownership. |
 | Plausible Analytics | Open Source | You want a one-screen dashboard and a script lighter than the page it measures. |
-| PostHog | Freemium | You want product analytics and experiments with the web numbers as one slice. |
 
 
 | Dimension | Matomo | Plausible Analytics |
@@ -37,9 +36,9 @@ Both are open-source web analytics for teams that would rather not hand visitor 
 
 Teams choosing between them are usually content sites, privacy-conscious startups, and marketing ops leads with GDPR obligations. The axis is not accuracy. It is how much behavioral analytics you actually use, and whether your ops capacity can run a PHP analytics platform with archiving jobs versus a tool that mostly runs itself.
 
-## Matomo vs Plausible vs PostHog: the quick decision
+## Matomo vs Plausible: the quick decision
 
-The analytics three-way has a page of its own: [Matomo vs PostHog](/vs/matomo-vs-posthog/).
+Also compared: [Matomo vs PostHog](/vs/matomo-vs-posthog/).
 
 [Matomo assessment](/tools/matomo/) · [Plausible Analytics assessment](/tools/plausible/)
 
@@ -158,6 +157,12 @@ One email when a new tool review lands, nothing else.
       "name": "Tim Christensen",
       "url": "https://martechsignal.com/authors/tim-christensen/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "name": "Matomo vs Plausible (2026): analytics depth or a dashboard that stays small",
     "url": "https://martechsignal.com/vs/matomo-vs-plausible/",
     "inLanguage": "en",
@@ -178,17 +183,23 @@ One email when a new tool review lands, nothing else.
         {
           "@type": "ListItem",
           "position": 1,
+          "name": "Matomo",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/matomo/#app",
-            "url": "https://martechsignal.com/tools/matomo/"
+            "url": "https://martechsignal.com/tools/matomo/",
+            "name": "Matomo"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "Plausible Analytics",
           "item": {
+            "@type": "SoftwareApplication",
             "@id": "https://martechsignal.com/tools/plausible/#app",
-            "url": "https://martechsignal.com/tools/plausible/"
+            "url": "https://martechsignal.com/tools/plausible/",
+            "name": "Plausible Analytics"
           }
         }
       ]

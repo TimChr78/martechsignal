@@ -61,17 +61,11 @@ Corrections, tips, and tool suggestions: reach Tim through the site or on [Linke
     "name": "MartechSignal",
     "url": "https://martechsignal.com/",
     "founder": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "sameAs": [
-        "https://github.com/timchr78"
-      ]
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
     },
-    "sameAs": [
-      "https://github.com/timchr78"
-    ],
     "logo": {
       "@type": "ImageObject",
+      "@id": "https://martechsignal.com/#logo",
       "url": "https://martechsignal.com/logo.png"
     }
   }

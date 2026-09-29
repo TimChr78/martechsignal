@@ -83,6 +83,12 @@ Sources: [Attribution](https://www.attributionapp.com) · [Amplitude](https://am
       "name": "Martech Glossary",
       "url": "https://martechsignal.com/glossary/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "url": "https://martechsignal.com/glossary/marketing-attribution-models/"
   },
   {

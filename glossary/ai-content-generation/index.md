@@ -76,6 +76,12 @@ Sources: [Anyword](https://www.anyword.com) · [ALwrity](https://alwrity.com) ·
       "name": "Martech Glossary",
       "url": "https://martechsignal.com/glossary/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "url": "https://martechsignal.com/glossary/ai-content-generation/"
   },
   {

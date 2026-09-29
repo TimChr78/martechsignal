@@ -179,6 +179,12 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
       "name": "Tim Christensen",
       "url": "https://martechsignal.com/authors/tim-christensen/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "numberOfItems": 10,
     "itemListElement": [
       {

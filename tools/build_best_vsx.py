@@ -238,6 +238,9 @@ def build_best():
             "name": page["title"],
             "datePublished": page.get("date_published", ""), "dateModified": page.get("date_updated", ""),
             "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
+            # r15 M-2 (2026-09-29): money-template graphs join publisher + site.
+            "publisher": {"@id": "https://martechsignal.com/#organization"},
+            "isPartOf": {"@id": "https://martechsignal.com/#website"},
             "numberOfItems": len(items),
             "itemListElement": [
                 _bestx_li(tools_by_slug[it["slug"]], i)
@@ -456,6 +459,9 @@ def build_vs():
             "@id": f"https://martechsignal.com/vs/{page['slug']}/#webpage",
             "datePublished": page.get("date_published", ""), "dateModified": page.get("date_updated", ""),
             "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
+            # r15 M-2 (2026-09-29): money-template graphs join publisher + site.
+            "publisher": {"@id": "https://martechsignal.com/#organization"},
+            "isPartOf": {"@id": "https://martechsignal.com/#website"},
             "name": page["title"],
             "url": f"https://martechsignal.com/vs/{page['slug']}/",
             "inLanguage": "en",
@@ -471,10 +477,14 @@ def build_vs():
             "mainEntity": {
                 "@type": "ItemList",
                 "name": " vs ".join(t["name"] for t in trio),
+                # r15 M-9 (2026-09-29): bare {@id,url} stubs upgraded to typed
+                # nodes with names — same modelling as /best/ leaves.
                 "itemListElement": [
-                    {"@type": "ListItem", "position": i + 1, "item": {
+                    {"@type": "ListItem", "position": i + 1, "name": t["name"], "item": {
+                        "@type": "SoftwareApplication",
                         "@id": f"https://martechsignal.com/tools/{t['slug']}/#app",
-                        "url": f"https://martechsignal.com/tools/{t['slug']}/"}}
+                        "url": f"https://martechsignal.com/tools/{t['slug']}/",
+                        "name": t["name"]}}
                     for i, t in enumerate(trio)
                 ],
             },

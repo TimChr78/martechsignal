@@ -80,6 +80,12 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
       "name": "Martech Glossary",
       "url": "https://martechsignal.com/glossary/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "url": "https://martechsignal.com/glossary/customer-journey/"
   },
   {

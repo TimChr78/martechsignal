@@ -332,7 +332,7 @@
         "Between Matomo and Plausible the moving part is history depth: Plausible keeps a rolling window, so export what you want to keep before you cancel. Matomo's own importer handles the common GA and server-log cases, and Plausible's API exports daily aggregates cleanly."
       ],
       "decision_first": {
-        "heading": "Matomo vs Plausible vs PostHog: the quick decision",
+        "heading": "Matomo vs Plausible: the quick decision",
         "rows": [
           [
             "matomo",
@@ -341,15 +341,11 @@
           [
             "plausible",
             "You want a one-screen dashboard and a script lighter than the page it measures."
-          ],
-          [
-            "posthog",
-            "You want product analytics and experiments with the web numbers as one slice."
           ]
         ],
         "links": [
           {
-            "text": "The analytics three-way has a page of its own:",
+            "text": "Also compared:",
             "label": "Matomo vs PostHog",
             "href": "/vs/matomo-vs-posthog/"
           }

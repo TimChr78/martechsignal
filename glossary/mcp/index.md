@@ -80,6 +80,12 @@ Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](htt
       "name": "Martech Glossary",
       "url": "https://martechsignal.com/glossary/"
     },
+    "publisher": {
+      "@id": "https://martechsignal.com/#organization"
+    },
+    "isPartOf": {
+      "@id": "https://martechsignal.com/#website"
+    },
     "url": "https://martechsignal.com/glossary/mcp/"
   },
   {
