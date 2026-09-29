@@ -1,7 +1,5 @@
 # Advertising & Paid Media Tools
 
-CREATIVE GENERATION***2*
-
 AI platform generating high-converting ad creatives and social media post designs
 
 From $20/moDesk-reviewed
@@ -9,8 +7,6 @@ From $20/moDesk-reviewed
 AI-powered ad creative generation and performance prediction for paid media
 
 From $11/moDesk-reviewed
-
-OPTIMIZATION AND AUTOMATION***5*
 
 Autonomous AI platform that manages and optimizes digital advertising campaigns
 
@@ -31,8 +27,6 @@ From $49/moDesk-reviewed
 AI advertising platform spanning creative production, media buying, and measurement
 
 EnterpriseDesk-reviewed
-
-OPEN-SOURCE AD TOOLING***2*
 
 Python toolkit for SEO and advertising analysis in pandas DataFrames
 
@@ -119,9 +113,13 @@ Advertising and paid media tools: creative generators, bid platforms, automation
 
 9 TOOLS IN THIS CATEGORY
 
+## CREATIVE GENERATION***2*
+
 ### AdCreative.ai
 
 ### Pencil
+
+## OPTIMIZATION AND AUTOMATION***5*
 
 ### Albert AI
 
@@ -132,6 +130,8 @@ Advertising and paid media tools: creative generators, bid platforms, automation
 ### Revealbot (Birch)
 
 ### Smartly.io
+
+## OPEN-SOURCE AD TOOLING***2*
 
 ### advertools
 

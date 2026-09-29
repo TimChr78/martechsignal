@@ -18,7 +18,7 @@
 | ✓ Free tier to evaluate before committing (Free up to 1,000 subscribed contacts and 4,000 sends per rol) |  |
 
 **What is Loops?**
-Loops: Email marketing for SaaS: marketing, product, and transactional email in one tool. Loops ships with LLM email translation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Loops: Email marketing for SaaS: marketing, product, and transactional email in one tool. Loops ships with LLM email translation. This page documents 8 integrations.
 
 **How much does Loops cost?**
 Loops has a free tier, so you can run a real evaluation before paying. Free up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days; paid plans are contact-based with unlimited sends and no published list prices. We last checked the plan structure on 2026-09-07; paid tiers mainly raise limits rather than unlocking core features.
@@ -76,7 +76,7 @@ Email marketing for SaaS: marketing, product, and transactional email in one too
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-13
 
 [Visit Loops →](https://loops.so)
 
@@ -166,7 +166,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Loops: Email marketing for SaaS: marketing, product, and transactional email in one tool. Loops ships with LLM email translation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Loops: Email marketing for SaaS: marketing, product, and transactional email in one tool. Loops ships with LLM email translation. This page documents 8 integrations.
 
 Loops has a free tier, so you can run a real evaluation before paying. Free up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days; paid plans are contact-based with unlimited sends and no published list prices. We last checked the plan structure on 2026-09-07; paid tiers mainly raise limits rather than unlocking core features.
 
@@ -252,7 +252,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Loops?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Loops: Email marketing for SaaS: marketing, product, and transactional email in one tool. Loops ships with LLM email translation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Loops: Email marketing for SaaS: marketing, product, and transactional email in one tool. Loops ships with LLM email translation. This page documents 8 integrations."
         }
       },
       {

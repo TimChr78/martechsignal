@@ -20,7 +20,7 @@
 | ✓ A hosted edition at revive-adserver.net exists for teams that want the software without running it. |  |
 
 **What is Revive Adserver?**
-Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,505 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,505 stars.
 
 **How much does Revive Adserver cost?**
 Revive Adserver is open source - GPL-2.0 licensed and free to self-host; the public repository carries 1,505 stars; native integrations cover MaxMind GeoLite2, Google AdSense, MySQL. You pay in server time and maintenance, not licences.
@@ -79,7 +79,7 @@ Free open source ad server for publishers, ad networks and advertisers
 
 Advertising & Paid Media · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 [Visit Revive Adserver →](https://www.revive-adserver.com)
 
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,505 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,505 stars.
 
 Revive Adserver is open source - GPL-2.0 licensed and free to self-host; the public repository carries 1,505 stars; native integrations cover MaxMind GeoLite2, Google AdSense, MySQL. You pay in server time and maintenance, not licences.
 
@@ -238,7 +238,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Revive Adserver?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,505 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,505 stars."
         }
       },
       {

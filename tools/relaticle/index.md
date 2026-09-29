@@ -18,7 +18,7 @@
 | ✓ Active public repository (1,635 GitHub stars counted at last check) |  |
 
 **What is Relaticle?**
-Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,635 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,635 stars.
 
 **How much does Relaticle cost?**
 Relaticle has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -76,7 +76,7 @@ Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & 
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit Relaticle →](https://relaticle.com)
 
@@ -166,7 +166,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,635 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,635 stars.
 
 Relaticle has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -259,7 +259,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Relaticle?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,635 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,635 stars."
         }
       },
       {

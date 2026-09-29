@@ -19,7 +19,7 @@
 | ✓ Native integrations include BetterContact (Lead Finder), OpenAI, Anthropic (9 listed) |  |
 
 **What is OpenOutreach?**
-OpenOutreach: Open-source AI lead finder: describe your product and it finds and qualifies the leads. OpenOutreach ships with LLM keyword generation from your product description. The public repository carries 2,952 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+OpenOutreach: Open-source AI lead finder: describe your product and it finds and qualifies the leads. OpenOutreach ships with LLM keyword generation from your product description. The public repository carries 2,952 stars.
 
 **How much does OpenOutreach cost?**
 OpenOutreach is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,952 stars; native integrations cover BetterContact (Lead Finder), OpenAI, Anthropic. You pay in server time and maintenance, not licences.
@@ -83,7 +83,7 @@ Open-source AI lead finder: describe your product and it finds and qualifies the
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit OpenOutreach →](https://openoutreach.app)
 
@@ -172,7 +172,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-OpenOutreach: Open-source AI lead finder: describe your product and it finds and qualifies the leads. OpenOutreach ships with LLM keyword generation from your product description. The public repository carries 2,952 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+OpenOutreach: Open-source AI lead finder: describe your product and it finds and qualifies the leads. OpenOutreach ships with LLM keyword generation from your product description. The public repository carries 2,952 stars.
 
 OpenOutreach is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,952 stars; native integrations cover BetterContact (Lead Finder), OpenAI, Anthropic. You pay in server time and maintenance, not licences.
 
@@ -273,7 +273,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is OpenOutreach?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "OpenOutreach: Open-source AI lead finder: describe your product and it finds and qualifies the leads. OpenOutreach ships with LLM keyword generation from your product description. The public repository carries 2,952 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "OpenOutreach: Open-source AI lead finder: describe your product and it finds and qualifies the leads. OpenOutreach ships with LLM keyword generation from your product description. The public repository carries 2,952 stars."
         }
       },
       {

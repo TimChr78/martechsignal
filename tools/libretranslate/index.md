@@ -21,7 +21,7 @@
 | ✓ The Swagger-documented REST API makes it a drop-in translation backend for other software |  |
 
 **What is LibreTranslate?**
-LibreTranslate: Open-source machine translation API for content localization, self-hostable and free of vendor lock-in. LibreTranslate ships with neural machine translation via Argos Translate models. The public repository carries 16,830 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+LibreTranslate: Open-source machine translation API for content localization, self-hostable and free of vendor lock-in. LibreTranslate ships with neural machine translation via Argos Translate models. The public repository carries 16,830 stars.
 
 **How much does LibreTranslate cost?**
 LibreTranslate is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 16,830 stars; native integrations cover Mastodon, Argos Translate, OpenAPI/Swagger. You pay in server time and maintenance, not licences.
@@ -79,7 +79,7 @@ Open-source machine translation API for content localization, self-hostable and 
 
 AI Content & Copywriting · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit LibreTranslate →](https://libretranslate.com)
 
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-LibreTranslate: Open-source machine translation API for content localization, self-hostable and free of vendor lock-in. LibreTranslate ships with neural machine translation via Argos Translate models. The public repository carries 16,830 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+LibreTranslate: Open-source machine translation API for content localization, self-hostable and free of vendor lock-in. LibreTranslate ships with neural machine translation via Argos Translate models. The public repository carries 16,830 stars.
 
 LibreTranslate is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 16,830 stars; native integrations cover Mastodon, Argos Translate, OpenAPI/Swagger. You pay in server time and maintenance, not licences.
 
@@ -240,7 +240,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is LibreTranslate?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "LibreTranslate: Open-source machine translation API for content localization, self-hostable and free of vendor lock-in. LibreTranslate ships with neural machine translation via Argos Translate models. The public repository carries 16,830 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "LibreTranslate: Open-source machine translation API for content localization, self-hostable and free of vendor lock-in. LibreTranslate ships with neural machine translation via Argos Translate models. The public repository carries 16,830 stars."
         }
       },
       {

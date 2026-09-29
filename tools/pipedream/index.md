@@ -16,7 +16,7 @@
 |  | ✗ Closed source - no self-hosting option |
 
 **What is Pipedream?**
-Pipedream: Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Pipedream: Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps.
 
 **How much does Pipedream cost?**
 Pipedream starts at $29/mo. Basic $29/month (2,000 credits, 20M AI tokens), Advanced $49/month, Connect $99/month (verified Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -61,7 +61,7 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
 
 Workflow Automation · From $29/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 [Visit Pipedream →](https://pipedream.com)
 
@@ -117,7 +117,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Pipedream: Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Pipedream: Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps.
 
 Pipedream starts at $29/mo. Basic $29/month (2,000 credits, 20M AI tokens), Advanced $49/month, Connect $99/month (verified Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -208,7 +208,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Pipedream?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pipedream: Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Pipedream: Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps."
         }
       },
       {

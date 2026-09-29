@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Clerk.io?**
-Clerk.io: AI-powered ecommerce personalization with search, recommendations, and email. Clerk.io ships with AI product recommendations. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Clerk.io: AI-powered ecommerce personalization with search, recommendations, and email. Clerk.io ships with AI product recommendations. This page documents 7 integrations.
 
 **How much does Clerk.io cost?**
 Clerk.io starts at $119/mo. From $119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -140,7 +140,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Clerk.io: AI-powered ecommerce personalization with search, recommendations, and email. Clerk.io ships with AI product recommendations. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Clerk.io: AI-powered ecommerce personalization with search, recommendations, and email. Clerk.io ships with AI product recommendations. This page documents 7 integrations.
 
 Clerk.io starts at $119/mo. From $119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -232,7 +232,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Clerk.io?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Clerk.io: AI-powered ecommerce personalization with search, recommendations, and email. Clerk.io ships with AI product recommendations. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Clerk.io: AI-powered ecommerce personalization with search, recommendations, and email. Clerk.io ships with AI product recommendations. This page documents 7 integrations."
         }
       },
       {

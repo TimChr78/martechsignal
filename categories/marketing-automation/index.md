@@ -1,7 +1,5 @@
 # Marketing Automation Tools
 
-SUITE PLATFORMS***7*
-
 AI-powered marketing automation and CRM for small to mid-size businesses
 
 From $15/moDesk-reviewed
@@ -29,8 +27,6 @@ From $199/moDesk-reviewed
 Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 
 EnterpriseDesk-reviewed
-
-POINT + OPEN-SOURCE TOOLS***5*
 
 AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
 
@@ -129,6 +125,8 @@ Marketing automation platforms reviewed: workflow depth, guardrails, and AI auto
 
 12 TOOLS IN THIS CATEGORY
 
+## SUITE PLATFORMS***7*
+
 ### ActiveCampaign
 
 ### Adobe Marketo Engage
@@ -142,6 +140,8 @@ Marketing automation platforms reviewed: workflow depth, guardrails, and AI auto
 ### Ortto
 
 ### Salesforce Marketing Cloud
+
+## POINT + OPEN-SOURCE TOOLS***5*
 
 ### ALwrity
 

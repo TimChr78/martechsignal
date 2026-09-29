@@ -809,9 +809,16 @@ def _tool_fact_img(t):
     # rendition via srcset instead of the raw 1200px file. Degrades to src
     # alone when the rendition is absent (same pattern as the M6 600w rung).
     _r670 = _src.replace(".png", "-670.webp")
+    _r480 = _src.replace(".png", "-480.webp")
     _has670 = (ROOT / _r670.lstrip("/")).exists()
-    _set = f' srcset="{_r670} 670w, {_src} 1200w" sizes="335px"' if _has670 else ""
-    return (f'<img src="{_src if not _has670 else _r670}" alt="{esc(t["name"])} fact card: pricing, category and license badges" '
+    _has480 = (ROOT / _r480.lstrip("/")).exists()
+    # r11 L-7 (2026-09-29): add a 480w step — the 335px slot at DPR 1.5 was
+    # fetching the 1200w source and wasting ~29KB per card.
+    _parts = [p for p, ok in ((_r480, _has480), (_r670, _has670), (_src, True)) if ok]
+    _set = (f' srcset="{", ".join(f"{p} {w}w" for p, w in zip(_parts, (480, 670, 1200)))}"'
+            f' sizes="335px"') if len(_parts) > 1 else ""
+    _src_default = _parts[0] if _parts else _src
+    return (f'<img src="{_src_default}" alt="{esc(t["name"])} fact card: pricing, category and license badges" '
             f'loading="lazy" width="1200" height="630"{_set}>')
 
 
@@ -1449,7 +1456,11 @@ def build_tool_page(t, cats, all_tools, base="tools"):
             _clauses.append(f"{name} offers a public API for custom integrations")
         _fact_s = " ".join(c + "." for c in _clauses[:2])
         _fact_s = f" {_fact_s}" if _fact_s else ""
-        a1 = f"{name}: {a1}.{_fact_s} MartechSignal's review covers features, pricing, and how it compares to alternatives."
+        # r11 M-2 (2026-09-29): the generic tail sentence ("MartechSignal's
+        # review covers features, pricing...") occupied the citation slot on
+        # all 163 tool pages. Dropped — the tool-specific clauses above plus
+        # the page itself carry the claim.
+        a1 = f"{name}: {a1}.{_fact_s}"
         q2 = f"How much does {name} cost?"
         if t.get("paid_from"):
             # freemium with a known paid entry: quote both sides of the freemium split
@@ -1740,7 +1751,9 @@ def build_tool_page(t, cats, all_tools, base="tools"):
   <h1>{_tool_h1(t)}</h1>
   <p class="sub">{esc(t.get('tagline',''))}</p>
   <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{(' · OPEN SOURCE' if t.get('open_source') and 'open source' not in pricing_label(t).lower() else '')} {_review_tag(t)}</p>
-  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="{esc(t.get('date_updated',''))}">{esc(t.get('date_updated',''))}</time></p>
+  <!-- L-11 (r11, 2026-09-29): byline date resolves through _record_edit_date,
+       the same clock as schema dateModified, so the two always agree. -->
+  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="{esc(_record_edit_date(t['slug'], t.get('date_updated','')))}">{esc(_record_edit_date(t['slug'], t.get('date_updated','')))}</time></p>
   {('<p class="made-badge">Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. We run it on our own sites and depend on it in our audit pipeline, which is why it carries no Review markup. See the <a href="/corrections/">corrections log</a>.</p>') if t["slug"] == "claude-seo" else ''}
   {('<p class="alt-link" style="font-size:.85rem;margin-top:.35rem">Looking for options? <a href="/alternatives/' + t["slug"] + '/">Best ' + esc(t["name"]) + ' alternatives</a></p>') if t["slug"] in _ALT_SLUGS else ''}
   {('<p class="cta-early" style="margin-top:.9rem"><a href="' + esc(t.get('website','#')) + '" target="_blank" rel="noopener">Visit ' + esc(t["name"]) + ' &#8594;</a></p>') if t.get('website') else ''}
@@ -2113,6 +2126,8 @@ def build_category_page(cat, tools):
   <p class="sub">{esc(cat.get('description',''))}</p>
   <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>
 </section>
+<!-- L-1 (r11, 2026-09-29): section heading restores H1-H2-H3 order -->
+<h2 class="hub-group-label"><span>All tools in this category</span><i></i></h2>
 <div class="tool-grid">{cards}</div>
 {_cat_guide}
 {intro_html}
@@ -2149,13 +2164,13 @@ def build_category_page(cat, tools):
             grouped_slugs.update(g["slugs"])
             cards = "".join(tool_card_html(t) for t in g_tools)
             groups_html += f"""<div class="hub-group">
-  <div class="hub-group-label"><span>{esc(g["label"])}</span><i></i><em>{len(g_tools)}</em></div>
+  <h2 class="hub-group-label"><span>{esc(g["label"])}</span><i></i><em>{len(g_tools)}</em></h2>
   <div class="tool-grid">{cards}</div>
 </div>\n"""
         leftovers = [t for t in cat_tools if t["slug"] not in grouped_slugs]
         if leftovers:
             cards = "".join(tool_card_html(t) for t in leftovers)
-            groups_html += f'<div class="hub-group"><div class="tool-grid">{cards}</div></div>'
+            groups_html += f'<div class="hub-group"><h2 class="hub-group-label"><span>More {esc(cat["name"])} tools</span><i></i><em>{len(leftovers)}</em></h2><div class="tool-grid">{cards}</div></div>'
 
         reading = ""
         for r in hub.get("reading", []):
@@ -2568,8 +2583,10 @@ def main():
             '<p>Read a guide, then follow it into the catalog. Every guide links the tools, comparisons, and definitions it mentions, and every tool page links back to the guides that cover its category. If something in a guide went stale, the corrections log records the fix.</p>'
             '</section>')
         (gdir / "index.html").write_text(page_shell(
-            title="Catalog guides",
-            description="Longer reference pages that support the directory. These are not tools, so they are not counted in the tool totals.",
+            # L-3 (r11, 2026-09-29): old title "Catalog guides" was 14 chars
+            # with no keyword or brand. H1 stays (stable anchors).
+            title="Strategy Guides: GEO, Automation, AI SEO | MartechSignal",
+            description="Strategy guides for marketers: generative engine optimization, agentic advertising, workflow automation, AI SEO tooling and agent protocols.",
             canonical="https://martechsignal.com/guides/",
             body='<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li><li><span aria-current="page">Guides</span></li></ol></nav>'
                  '<section class="page-head"><h1>Catalog guides</h1>'
@@ -2579,9 +2596,9 @@ def main():
             schema_json={
                 "@context": "https://schema.org",
                 "@type": "CollectionPage",
-                "name": "Catalog guides",
+                "name": "Strategy Guides: GEO, Automation, AI SEO",
                 "url": "https://martechsignal.com/guides/",
-                "description": "Longer reference pages that support the directory.",
+                "description": "Strategy guides for marketers: GEO, agentic advertising, workflow automation, AI SEO tooling and agent protocols.",
                 # r11 H-6 (2026-09-29): the only hub without entity list
                 # markup. hasPart mirrors the body list via _STATIC_HUBS.
                 "hasPart": [
@@ -2730,7 +2747,13 @@ def build_llms_txt(tools, cats):
         lines.append(f"- [{c['name']}](https://martechsignal.com/categories/{c['slug']}/)")
     # A3 M-9 (2026-09-27): the guides/comparisons and site pages were missing
     # from llms.txt (12 sitemap URLs), and the policy was unreadable to agents.
-    lines += ["", "## Guides and comparisons", ""]
+    lines += ["", "## Guides and comparisons", "",
+              # L-6 (r11, 2026-09-29): the four hub indexes were reachable only
+              # via their children. List the hubs bare first.
+              "- [Best roundups](https://martechsignal.com/best/)",
+              "- [Versus comparisons](https://martechsignal.com/vs/)",
+              "- [Alternatives guides](https://martechsignal.com/alternatives/)",
+              "- [Strategy guides](https://martechsignal.com/guides/)", ""]
     for fam, label in (("best", "Best"), ("vs", "Versus"), ("alternatives", "Alternatives"), ("guides", "Guides")):
         fam_dir = ROOT / fam
         if fam_dir.is_dir():
@@ -2756,11 +2779,10 @@ def build_llms_txt(tools, cats):
               "- [Categories](https://martechsignal.com/categories/)",
               "- [Trending open-source tools](https://martechsignal.com/trending/)",
               "- [Glossary](https://martechsignal.com/glossary/)",
-              "- [Checklist](https://martechsignal.com/checklist/)",
-              "- [About / editorial policy](https://martechsignal.com/about/)",
+              # L-6 (r11, 2026-09-29): Checklist/About/Corrections already
+              # listed under ## Site above — no repeats here.
               "- [Author](https://martechsignal.com/authors/tim-christensen/)",
               "- [Contact](https://martechsignal.com/contact/)",
-              "- [Corrections](https://martechsignal.com/corrections/)",
               "- [RSS feed](https://martechsignal.com/rss.xml)", ""]
     out = ROOT / "llms.txt"
     # A2 H7 (2026-09-26): the catalog datasets were reachable only by agents that

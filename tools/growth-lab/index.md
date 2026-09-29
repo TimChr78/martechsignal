@@ -18,7 +18,7 @@
 | ✓ Active public repository (1,999 GitHub stars counted at last check) |  |
 
 **What is Growth Lab?**
-Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,999 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,999 stars.
 
 **How much does Growth Lab cost?**
 Growth Lab is open source - Apache-2.0 licensed and free to self-host; the public repository carries 1,999 stars; native integrations cover Claude Code, OpenAI Codex, IndexNow. You pay in server time and maintenance, not licences.
@@ -71,7 +71,7 @@ Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and 
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
 
 [Visit Growth Lab →](https://growthlab.tsingyuai.com)
 
@@ -137,7 +137,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,999 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,999 stars.
 
 Growth Lab is open source - Apache-2.0 licensed and free to self-host; the public repository carries 1,999 stars; native integrations cover Claude Code, OpenAI Codex, IndexNow. You pay in server time and maintenance, not licences.
 
@@ -224,7 +224,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Growth Lab?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,999 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,999 stars."
         }
       },
       {

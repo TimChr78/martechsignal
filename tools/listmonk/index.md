@@ -18,7 +18,7 @@
 | ✓ Active public repository (23,343 GitHub stars counted at last check) |  |
 
 **What is Listmonk?**
-Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 23,343 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 23,343 stars.
 
 **How much does Listmonk cost?**
 Listmonk is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 23,343 stars; native integrations cover PostgreSQL, SMTP, Zapier. You pay in server time and maintenance, not licences.
@@ -72,7 +72,7 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit Listmonk →](https://listmonk.app)
 
@@ -136,7 +136,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 23,343 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 23,343 stars.
 
 Listmonk is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 23,343 stars; native integrations cover PostgreSQL, SMTP, Zapier. You pay in server time and maintenance, not licences.
 
@@ -228,7 +228,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Listmonk?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 23,343 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 23,343 stars."
         }
       },
       {

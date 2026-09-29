@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Pabbly Connect?**
-Pabbly Connect: Task-priced integration platform with a one-time lifetime purchase option. Pabbly Connect ships with AI workflow builder (Pabbly AgenticAI, sold separately). This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Pabbly Connect: Task-priced integration platform with a one-time lifetime purchase option. Pabbly Connect ships with AI workflow builder (Pabbly AgenticAI, sold separately). This page documents 5 integrations.
 
 **How much does Pabbly Connect cost?**
 Pabbly Connect has a free tier; paid plans start at $16/mo. Task-based tiers billed yearly: from $16/mo at 10,000 tasks a month, scaling with volume to $254/mo at the largest listed tier; one-time lifetime deal at $349. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -119,7 +119,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Pabbly Connect: Task-priced integration platform with a one-time lifetime purchase option. Pabbly Connect ships with AI workflow builder (Pabbly AgenticAI, sold separately). This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Pabbly Connect: Task-priced integration platform with a one-time lifetime purchase option. Pabbly Connect ships with AI workflow builder (Pabbly AgenticAI, sold separately). This page documents 5 integrations.
 
 Pabbly Connect has a free tier; paid plans start at $16/mo. Task-based tiers billed yearly: from $16/mo at 10,000 tasks a month, scaling with volume to $254/mo at the largest listed tier; one-time lifetime deal at $349. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -208,7 +208,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Pabbly Connect?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pabbly Connect: Task-priced integration platform with a one-time lifetime purchase option. Pabbly Connect ships with AI workflow builder (Pabbly AgenticAI, sold separately). This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Pabbly Connect: Task-priced integration platform with a one-time lifetime purchase option. Pabbly Connect ships with AI workflow builder (Pabbly AgenticAI, sold separately). This page documents 5 integrations."
         }
       },
       {

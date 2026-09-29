@@ -157,8 +157,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "Hootsuite",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/hootsuite/#app",
-          "url": "https://martechsignal.com/tools/hootsuite/"
+          "url": "https://martechsignal.com/tools/hootsuite/",
+          "name": "Hootsuite"
         }
       },
       {
@@ -166,8 +168,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "Sprout Social",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/sprout-social/#app",
-          "url": "https://martechsignal.com/tools/sprout-social/"
+          "url": "https://martechsignal.com/tools/sprout-social/",
+          "name": "Sprout Social"
         }
       },
       {
@@ -175,8 +179,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Brandwatch",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/brandwatch/#app",
-          "url": "https://martechsignal.com/tools/brandwatch/"
+          "url": "https://martechsignal.com/tools/brandwatch/",
+          "name": "Brandwatch"
         }
       },
       {
@@ -184,8 +190,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "Predis.ai",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/predis-ai/#app",
-          "url": "https://martechsignal.com/tools/predis-ai/"
+          "url": "https://martechsignal.com/tools/predis-ai/",
+          "name": "Predis.ai"
         }
       },
       {
@@ -193,8 +201,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "Buffer",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/buffer/#app",
-          "url": "https://martechsignal.com/tools/buffer/"
+          "url": "https://martechsignal.com/tools/buffer/",
+          "name": "Buffer"
         }
       },
       {
@@ -202,8 +212,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "MultiPost",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/multipost-extension/#app",
-          "url": "https://martechsignal.com/tools/multipost-extension/"
+          "url": "https://martechsignal.com/tools/multipost-extension/",
+          "name": "MultiPost"
         }
       }
     ]

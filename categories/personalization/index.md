@@ -47,6 +47,8 @@ Customer data platforms, experimentation, and experience engines, from open-sour
 
 9 TOOLS IN THIS CATEGORY
 
+## All tools in this category**
+
 ### Apache Unomi
 
 ### Clerk.io

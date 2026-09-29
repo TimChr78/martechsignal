@@ -1,4 +1,4 @@
-# Catalog guides
+# Strategy Guides: GEO, Automation, AI SEO
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
@@ -28,9 +28,9 @@ Read a guide, then follow it into the catalog. Every guide links the tools, comp
 {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Catalog guides",
+  "name": "Strategy Guides: GEO, Automation, AI SEO",
   "url": "https://martechsignal.com/guides/",
-  "description": "Longer reference pages that support the directory.",
+  "description": "Strategy guides for marketers: GEO, agentic advertising, workflow automation, AI SEO tooling and agent protocols.",
   "hasPart": [
     {
       "@type": "WebPage",

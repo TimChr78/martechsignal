@@ -459,9 +459,13 @@ def build_post(meta: dict, body_html: str) -> str:
         mlinks = ' · '.join('<a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['name'], quote=False) + '</a>' for item in more_links)
         body_html += '<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: ' + mlinks + '</p>'
 
-    # First paragraph as excerpt (strip HTML tags)
+    # First paragraph as excerpt (strip HTML tags). r11 M-7 (2026-09-29):
+    # word-boundary cut with ellipsis — the raw [:200] slice ended mid-word
+    # on the homepage ("specification c", "actually me").
     first_p = re.search(r'<p>(.+?)</p>', body_html, re.DOTALL)
-    excerpt = re.sub(r'<[^>]+>', '', first_p.group(1))[:200] if first_p else ''
+    _raw_ex = re.sub(r'<[^>]+>', '', first_p.group(1)) if first_p else ''
+    excerpt = (_raw_ex[:200].rsplit(' ', 1)[0].rstrip(' ,;:') + '\u2026'
+               if len(_raw_ex) > 200 else _raw_ex)
 
     # Read time from word count (~200 wpm), tags as kicker
     words = len(re.sub(r'<[^>]+>', ' ', body_html).split())
@@ -537,7 +541,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{canon}">
 <link rel="alternate" type="text/markdown" href="https://martechsignal.com/blog/{slug}/index.md">
-<link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
+<link rel="ard ai-catalog" href="https://martechsignal.com/.well-known/ard.json">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
@@ -617,7 +621,7 @@ def build_index(posts: list) -> str:
       <span class="idx">{idx:02d}</span>
       <h2>{html.escape(title, quote=False)}</h2>
       <span class="sub">{date}</span>
-      <p class="excerpt">{html.escape(excerpt[:180], quote=False)}</p>
+      <p class="excerpt">{html.escape((excerpt[:180].rsplit(' ', 1)[0].rstrip(' ,;:') + '\u2026') if len(excerpt) > 180 else excerpt, quote=False)}</p>
       <span class="arrow">→</span>
     </a></li>""")
 
@@ -678,7 +682,7 @@ def build_index(posts: list) -> str:
 <meta name="twitter:description" content="Deep-dives, tool teardowns, and hot takes on AI in marketing automation.">
 <meta name="twitter:image" content="https://martechsignal.com/og.png">
 <link rel="canonical" href="https://martechsignal.com/blog/">
-<link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
+<link rel="ard ai-catalog" href="https://martechsignal.com/.well-known/ard.json">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="alternate" type="application/rss+xml" title="MartechSignal" href="/rss.xml">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
@@ -863,7 +867,11 @@ def update_homepage(posts: list, count: int = 4) -> bool:
     for idx, post in enumerate(posts_sorted, start=1):
         title = html.escape(post['title'], quote=False)
         slug = post.get('slug', slugify(post['title']))
-        excerpt = html.escape(post.get('excerpt', ''), quote=False)
+        # r11 M-7 (2026-09-29): word-boundary cut with ellipsis — the old
+        # raw excerpt ran mid-word ("specification c", "actually me").
+        _raw = post.get('excerpt', '')
+        _cut = _raw[:180].rsplit(' ', 1)[0] if len(_raw) > 180 else _raw
+        excerpt = html.escape(_cut.rstrip(' ,;:') + ('\u2026' if len(_raw) > 180 else ''), quote=False)
         date_disp = post['date']
         rows.append(
             f'    <a class="story reveal" href="/blog/{slug}/">\n'
@@ -977,9 +985,12 @@ def main():
         # Generate post HTML
         post_html = build_post(meta, body_html)
 
-        # Extract excerpt
+        # Extract excerpt. r11 M-7 (2026-09-29): word-boundary cut with
+        # ellipsis — the raw [:180] slice fed mid-word homepage cards.
         first_p = re.search(r'<p>(.+?)</p>', body_html, re.DOTALL)
-        excerpt = re.sub(r'<[^>]+>', '', first_p.group(1))[:180] if first_p else ''
+        _raw_d = re.sub(r'<[^>]+>', '', first_p.group(1)) if first_p else ''
+        excerpt = (_raw_d[:180].rsplit(' ', 1)[0].rstrip(' ,;:') + '\u2026'
+                   if len(_raw_d) > 180 else _raw_d)
 
         # Write post
         out_dir = BLOG_DIR / slug

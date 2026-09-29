@@ -17,7 +17,7 @@
 | ✓ Native integrations include Salesforce Marketing Cloud, Braze, Adobe (12 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
 
 **What is Phrasee?**
-Phrasee: AI messaging content platform; rebranded as Jacquard in June 2024. Phrasee ships with brand-safe AI message generation (Language engine). This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Phrasee: AI messaging content platform; rebranded as Jacquard in June 2024. Phrasee ships with brand-safe AI message generation (Language engine). This page documents 12 integrations.
 
 **How much does Phrasee cost?**
 Phrasee uses enterprise pricing, so the number depends on your volume and contract. Enterprise, quote-based; no published price list and no trial. Last published terms (2023) described flexible enterprise pricing, billed annually, unlimited seats and content creation. Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
@@ -79,7 +79,7 @@ AI messaging content platform; rebranded as Jacquard in June 2024
 
 AI Content & Copywriting · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Phrasee →](https://www.jacquard.com)
 
@@ -175,7 +175,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Phrasee: AI messaging content platform; rebranded as Jacquard in June 2024. Phrasee ships with brand-safe AI message generation (Language engine). This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Phrasee: AI messaging content platform; rebranded as Jacquard in June 2024. Phrasee ships with brand-safe AI message generation (Language engine). This page documents 12 integrations.
 
 Phrasee uses enterprise pricing, so the number depends on your volume and contract. Enterprise, quote-based; no published price list and no trial. Last published terms (2023) described flexible enterprise pricing, billed annually, unlimited seats and content creation. Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
 
@@ -266,7 +266,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Phrasee?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Phrasee: AI messaging content platform; rebranded as Jacquard in June 2024. Phrasee ships with brand-safe AI message generation (Language engine). This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Phrasee: AI messaging content platform; rebranded as Jacquard in June 2024. Phrasee ships with brand-safe AI message generation (Language engine). This page documents 12 integrations."
         }
       },
       {

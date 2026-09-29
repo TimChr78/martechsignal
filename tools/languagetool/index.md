@@ -22,7 +22,7 @@
 | ✓ LGPL-2.1 licensing allows use inside commercial products with modest obligations |  |
 
 **What is LanguageTool?**
-LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,089 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,089 stars.
 
 **How much does LanguageTool cost?**
 LanguageTool is open source - LGPL-2.1 licensed and free to self-host; the public repository carries 15,089 stars; native integrations cover Google Chrome, Mozilla Firefox, Microsoft Edge. You pay in server time and maintenance, not licences.
@@ -85,7 +85,7 @@ Open-source writing assistant and grammar checker with AI style and tone suggest
 
 AI Content & Copywriting · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit LanguageTool →](https://languagetool.org)
 
@@ -158,7 +158,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,089 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,089 stars.
 
 LanguageTool is open source - LGPL-2.1 licensed and free to self-host; the public repository carries 15,089 stars; native integrations cover Google Chrome, Mozilla Firefox, Microsoft Edge. You pay in server time and maintenance, not licences.
 
@@ -253,7 +253,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is LanguageTool?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,089 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,089 stars."
         }
       },
       {

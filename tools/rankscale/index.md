@@ -20,7 +20,7 @@
 | ✓ Query fan-out and page audits are included even on lower tiers |  |
 
 **What is Rankscale?**
-Rankscale: AI visibility tracking across 17+ answer engines for agencies and enterprise teams. Rankscale ships with visibility, citation and sentiment tracking across 17+ engines. This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Rankscale: AI visibility tracking across 17+ answer engines for agencies and enterprise teams. Rankscale ships with visibility, citation and sentiment tracking across 17+ engines. This page documents 5 integrations.
 
 **How much does Rankscale cost?**
 Rankscale starts at €99/mo. Pro EUR 99/mo (1,200 credits), Growth EUR 385/mo (5,500 credits), Enterprise EUR 780/mo (12,000 credits); yearly billing saves 15%; 7-day Pro trial. An Essentials tier sits below Pro, its price was not visible in our EU render (the site localizes currency). Prices as served September 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -82,7 +82,7 @@ AI visibility tracking across 17+ answer engines for agencies and enterprise tea
 
 GEO & LLM Optimization · From $99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 [Visit Rankscale →](https://rankscale.ai/)
 
@@ -157,7 +157,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Rankscale: AI visibility tracking across 17+ answer engines for agencies and enterprise teams. Rankscale ships with visibility, citation and sentiment tracking across 17+ engines. This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Rankscale: AI visibility tracking across 17+ answer engines for agencies and enterprise teams. Rankscale ships with visibility, citation and sentiment tracking across 17+ engines. This page documents 5 integrations.
 
 Rankscale starts at €99/mo. Pro EUR 99/mo (1,200 credits), Growth EUR 385/mo (5,500 credits), Enterprise EUR 780/mo (12,000 credits); yearly billing saves 15%; 7-day Pro trial. An Essentials tier sits below Pro, its price was not visible in our EU render (the site localizes currency). Prices as served September 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -257,7 +257,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Rankscale?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Rankscale: AI visibility tracking across 17+ answer engines for agencies and enterprise teams. Rankscale ships with visibility, citation and sentiment tracking across 17+ engines. This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Rankscale: AI visibility tracking across 17+ answer engines for agencies and enterprise teams. Rankscale ships with visibility, citation and sentiment tracking across 17+ engines. This page documents 5 integrations."
         }
       },
       {

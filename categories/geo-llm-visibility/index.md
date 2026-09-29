@@ -1,7 +1,5 @@
 # GEO & LLM Optimization Tools
 
-GEO-NATIVE PLATFORMS***8*
-
 Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
 EnterpriseDesk-reviewed
@@ -34,8 +32,6 @@ The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one p
 
 From $79/moDesk-reviewed
 
-SUITE MODULES & ADD-ONS***5*
-
 Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
 
 From $224/moDesk-reviewed
@@ -55,8 +51,6 @@ From $129/moDesk-reviewed
 Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
 
 EnterpriseDesk-reviewed
-
-OPEN-SOURCE / DIY***1*
 
 Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming
 
@@ -135,6 +129,8 @@ AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overvie
 
 14 TOOLS IN THIS CATEGORY
 
+## GEO-NATIVE PLATFORMS***8*
+
 ### Profound
 
 ### Scrunch
@@ -151,6 +147,8 @@ AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overvie
 
 ### Writesonic
 
+## SUITE MODULES & ADD-ONS***5*
+
 ### AccuRanker
 
 ### Nightwatch
@@ -160,6 +158,8 @@ AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overvie
 ### Ahrefs
 
 ### Adobe LLM Optimizer
+
+## OPEN-SOURCE / DIY***1*
 
 ### Promptfoo
 

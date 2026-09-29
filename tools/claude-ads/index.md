@@ -19,7 +19,7 @@
 | ✓ Native integrations include Google Ads, Meta Ads, YouTube Ads (12 listed) |  |
 
 **What is Claude Ads?**
-Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,143 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,143 stars.
 
 **How much does Claude Ads cost?**
 Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,143 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
@@ -68,7 +68,7 @@ Paid-media operations skill for Claude Code covering 12 ad platforms
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
 
 [Visit Claude Ads →](https://github.com/AgriciDaniel/claude-ads)
 
@@ -142,7 +142,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,143 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,143 stars.
 
 Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,143 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
 
@@ -234,7 +234,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Claude Ads?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,143 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,143 stars."
         }
       },
       {

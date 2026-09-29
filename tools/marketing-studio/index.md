@@ -18,7 +18,7 @@
 | ✓ Native integrations include Claude Code, Blender (2 listed) |  |
 
 **What is Marketing Studio?**
-Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 234 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 234 stars.
 
 **How much does Marketing Studio cost?**
 Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 234 stars. You pay in server time and maintenance, not licences.
@@ -68,7 +68,7 @@ Agent-driven marketing studio for Claude Code: launch assets from one command
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Marketing Studio →](https://github.com/ucsandman/marketing-studio)
 
@@ -133,7 +133,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 234 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 234 stars.
 
 Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 234 stars. You pay in server time and maintenance, not licences.
 
@@ -220,7 +220,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Marketing Studio?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 234 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 234 stars."
         }
       },
       {

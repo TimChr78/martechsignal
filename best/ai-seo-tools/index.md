@@ -186,8 +186,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "Semrush",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/semrush/#app",
-          "url": "https://martechsignal.com/tools/semrush/"
+          "url": "https://martechsignal.com/tools/semrush/",
+          "name": "Semrush"
         }
       },
       {
@@ -195,8 +197,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "Clearscope",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/clearscope/#app",
-          "url": "https://martechsignal.com/tools/clearscope/"
+          "url": "https://martechsignal.com/tools/clearscope/",
+          "name": "Clearscope"
         }
       },
       {
@@ -204,8 +208,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Surfer SEO",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/surfer-seo/#app",
-          "url": "https://martechsignal.com/tools/surfer-seo/"
+          "url": "https://martechsignal.com/tools/surfer-seo/",
+          "name": "Surfer SEO"
         }
       },
       {
@@ -213,8 +219,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "Frase",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/frase/#app",
-          "url": "https://martechsignal.com/tools/frase/"
+          "url": "https://martechsignal.com/tools/frase/",
+          "name": "Frase"
         }
       },
       {
@@ -222,8 +230,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "Ahrefs",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/ahrefs/#app",
-          "url": "https://martechsignal.com/tools/ahrefs/"
+          "url": "https://martechsignal.com/tools/ahrefs/",
+          "name": "Ahrefs"
         }
       },
       {
@@ -231,8 +241,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "Promptfoo",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/promptfoo/#app",
-          "url": "https://martechsignal.com/tools/promptfoo/"
+          "url": "https://martechsignal.com/tools/promptfoo/",
+          "name": "Promptfoo"
         }
       },
       {
@@ -240,8 +252,10 @@ One email when a new tool review lands, nothing else.
         "position": 7,
         "name": "Claude SEO",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/claude-seo/#app",
-          "url": "https://martechsignal.com/tools/claude-seo/"
+          "url": "https://martechsignal.com/tools/claude-seo/",
+          "name": "Claude SEO"
         }
       },
       {
@@ -249,8 +263,10 @@ One email when a new tool review lands, nothing else.
         "position": 8,
         "name": "Codex SEO",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/codex-seo/#app",
-          "url": "https://martechsignal.com/tools/codex-seo/"
+          "url": "https://martechsignal.com/tools/codex-seo/",
+          "name": "Codex SEO"
         }
       }
     ]

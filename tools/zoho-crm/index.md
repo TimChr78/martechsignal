@@ -8,7 +8,7 @@
 | ✓ Free tier to evaluate before committing (Free for 3 users; Standard EUR 14/user/mo; Professional EUR ) |  |
 
 **What is Zoho CRM?**
-Zoho CRM: Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia AI assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Zoho CRM: Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia AI assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations.
 
 **How much does Zoho CRM cost?**
 Zoho CRM has a free tier, so you can run a real evaluation before paying. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked the plan structure on 2026-09-28; paid tiers mainly raise limits rather than unlocking core features.
@@ -59,7 +59,7 @@ Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite arou
 
 CRM · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Zoho CRM →](https://www.zoho.com/crm/)
 
@@ -115,7 +115,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Zoho CRM: Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia AI assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Zoho CRM: Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia AI assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations.
 
 Zoho CRM has a free tier, so you can run a real evaluation before paying. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked the plan structure on 2026-09-28; paid tiers mainly raise limits rather than unlocking core features.
 
@@ -199,7 +199,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Zoho CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Zoho CRM: Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia AI assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Zoho CRM: Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia AI assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations."
         }
       },
       {

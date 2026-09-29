@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Smartly.io?**
-Smartly.io: AI advertising platform spanning creative production, media buying, and measurement. Smartly.io ships with smartly AI Studio (image and video generation). This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Smartly.io: AI advertising platform spanning creative production, media buying, and measurement. Smartly.io ships with smartly AI Studio (image and video generation). This page documents 10 integrations.
 
 **How much does Smartly.io cost?**
 Smartly.io uses enterprise pricing, so the number depends on your volume and contract. Not published. No rate card appears on the site and the /pricing URL returns a 404; the only path is a demo request via smartly.io/get-demo. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
@@ -73,7 +73,7 @@ AI advertising platform spanning creative production, media buying, and measurem
 
 Advertising & Paid Media · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Smartly.io →](https://www.smartly.io)
 
@@ -163,7 +163,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Smartly.io: AI advertising platform spanning creative production, media buying, and measurement. Smartly.io ships with smartly AI Studio (image and video generation). This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Smartly.io: AI advertising platform spanning creative production, media buying, and measurement. Smartly.io ships with smartly AI Studio (image and video generation). This page documents 10 integrations.
 
 Smartly.io uses enterprise pricing, so the number depends on your volume and contract. Not published. No rate card appears on the site and the /pricing URL returns a 404; the only path is a demo request via smartly.io/get-demo. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
 
@@ -252,7 +252,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Smartly.io?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Smartly.io: AI advertising platform spanning creative production, media buying, and measurement. Smartly.io ships with smartly AI Studio (image and video generation). This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Smartly.io: AI advertising platform spanning creative production, media buying, and measurement. Smartly.io ships with smartly AI Studio (image and video generation). This page documents 10 integrations."
         }
       },
       {

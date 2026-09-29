@@ -19,7 +19,7 @@
 | ✓ Elasticsearch or MongoDB for storage and REST with JSON everywhere keeps the integration surface conventional. | ✗ 375 GitHub stars means a small contributor base and little third-party tooling around the core. |
 
 **What is Apache Unomi?**
-Apache Unomi: Apache's open-source customer data platform and personalization engine. The public repository carries 375 stars. Apache Unomi offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Apache Unomi: Apache's open-source customer data platform and personalization engine. The public repository carries 375 stars. Apache Unomi offers a public API for custom integrations.
 
 **How much does Apache Unomi cost?**
 Apache Unomi is open source - Apache-2.0 licensed and free to self-host; the public repository carries 375 stars; native integrations cover Apache Karaf, Elasticsearch, MongoDB. You pay in server time and maintenance, not licences.
@@ -144,7 +144,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Apache Unomi: Apache's open-source customer data platform and personalization engine. The public repository carries 375 stars. Apache Unomi offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Apache Unomi: Apache's open-source customer data platform and personalization engine. The public repository carries 375 stars. Apache Unomi offers a public API for custom integrations.
 
 Apache Unomi is open source - Apache-2.0 licensed and free to self-host; the public repository carries 375 stars; native integrations cover Apache Karaf, Elasticsearch, MongoDB. You pay in server time and maintenance, not licences.
 
@@ -237,7 +237,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Apache Unomi?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Apache Unomi: Apache's open-source customer data platform and personalization engine. The public repository carries 375 stars. Apache Unomi offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Apache Unomi: Apache's open-source customer data platform and personalization engine. The public repository carries 375 stars. Apache Unomi offers a public API for custom integrations."
         }
       },
       {

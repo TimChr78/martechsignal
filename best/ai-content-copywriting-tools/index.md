@@ -185,8 +185,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "Writer",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/writer/#app",
-          "url": "https://martechsignal.com/tools/writer/"
+          "url": "https://martechsignal.com/tools/writer/",
+          "name": "Writer"
         }
       },
       {
@@ -194,8 +196,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "Persado",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/persado/#app",
-          "url": "https://martechsignal.com/tools/persado/"
+          "url": "https://martechsignal.com/tools/persado/",
+          "name": "Persado"
         }
       },
       {
@@ -203,8 +207,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Phrasee",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/phrasee/#app",
-          "url": "https://martechsignal.com/tools/phrasee/"
+          "url": "https://martechsignal.com/tools/phrasee/",
+          "name": "Phrasee"
         }
       },
       {
@@ -212,8 +218,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "Jasper",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/jasper/#app",
-          "url": "https://martechsignal.com/tools/jasper/"
+          "url": "https://martechsignal.com/tools/jasper/",
+          "name": "Jasper"
         }
       },
       {
@@ -221,8 +229,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "Anyword",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/anyword/#app",
-          "url": "https://martechsignal.com/tools/anyword/"
+          "url": "https://martechsignal.com/tools/anyword/",
+          "name": "Anyword"
         }
       },
       {
@@ -230,8 +240,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "Copy.ai",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/copy-ai/#app",
-          "url": "https://martechsignal.com/tools/copy-ai/"
+          "url": "https://martechsignal.com/tools/copy-ai/",
+          "name": "Copy.ai"
         }
       },
       {
@@ -239,8 +251,10 @@ One email when a new tool review lands, nothing else.
         "position": 7,
         "name": "Hypotenuse AI",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/hypotenuse-ai/#app",
-          "url": "https://martechsignal.com/tools/hypotenuse-ai/"
+          "url": "https://martechsignal.com/tools/hypotenuse-ai/",
+          "name": "Hypotenuse AI"
         }
       },
       {
@@ -248,8 +262,10 @@ One email when a new tool review lands, nothing else.
         "position": 8,
         "name": "Strapi",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/strapi/#app",
-          "url": "https://martechsignal.com/tools/strapi/"
+          "url": "https://martechsignal.com/tools/strapi/",
+          "name": "Strapi"
         }
       }
     ]

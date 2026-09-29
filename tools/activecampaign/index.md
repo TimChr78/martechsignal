@@ -18,7 +18,7 @@
 | ✓ Native integrations include Shopify, Salesforce, Slack (8 listed) |  |
 
 **What is ActiveCampaign?**
-ActiveCampaign: AI-powered marketing automation and CRM for small to mid-size businesses. ActiveCampaign ships with AI content generation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+ActiveCampaign: AI-powered marketing automation and CRM for small to mid-size businesses. ActiveCampaign ships with AI content generation. This page documents 8 integrations.
 
 **How much does ActiveCampaign cost?**
 ActiveCampaign starts at $15/mo. Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo; 14-day free trial. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-ActiveCampaign: AI-powered marketing automation and CRM for small to mid-size businesses. ActiveCampaign ships with AI content generation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+ActiveCampaign: AI-powered marketing automation and CRM for small to mid-size businesses. ActiveCampaign ships with AI content generation. This page documents 8 integrations.
 
 ActiveCampaign starts at $15/mo. Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo; 14-day free trial. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -238,7 +238,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is ActiveCampaign?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ActiveCampaign: AI-powered marketing automation and CRM for small to mid-size businesses. ActiveCampaign ships with AI content generation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "ActiveCampaign: AI-powered marketing automation and CRM for small to mid-size businesses. ActiveCampaign ships with AI content generation. This page documents 8 integrations."
         }
       },
       {

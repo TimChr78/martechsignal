@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Jasper?**
-Jasper: AI marketing content platform for creating on-brand copy, images, and campaigns. Jasper ships with AI copy generation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Jasper: AI marketing content platform for creating on-brand copy, images, and campaigns. Jasper ships with AI copy generation. This page documents 8 integrations.
 
 **How much does Jasper cost?**
 Jasper starts at $39/mo. Creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -71,7 +71,7 @@ AI marketing content platform for creating on-brand copy, images, and campaigns
 
 AI Content & Copywriting · From $39/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit Jasper →](https://www.jasper.ai)
 
@@ -142,7 +142,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Jasper: AI marketing content platform for creating on-brand copy, images, and campaigns. Jasper ships with AI copy generation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Jasper: AI marketing content platform for creating on-brand copy, images, and campaigns. Jasper ships with AI copy generation. This page documents 8 integrations.
 
 Jasper starts at $39/mo. Creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -235,7 +235,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Jasper?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Jasper: AI marketing content platform for creating on-brand copy, images, and campaigns. Jasper ships with AI copy generation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Jasper: AI marketing content platform for creating on-brand copy, images, and campaigns. Jasper ships with AI copy generation. This page documents 8 integrations."
         }
       },
       {

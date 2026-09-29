@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Triple Whale?**
-Triple Whale: AI-powered ecommerce analytics and attribution platform for DTC brands. Triple Whale ships with AI attribution modeling. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Triple Whale: AI-powered ecommerce analytics and attribution platform for DTC brands. Triple Whale ships with AI attribution modeling. This page documents 8 integrations.
 
 **How much does Triple Whale cost?**
 Triple Whale starts at $59/mo. Conversion $59/mo; Retention $179/mo; Foundation $219/mo; scales with GMV. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -71,7 +71,7 @@ AI-powered ecommerce analytics and attribution platform for DTC brands
 
 Analytics & Attribution · From $59/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Triple Whale →](https://www.triplewhale.com)
 
@@ -143,7 +143,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Triple Whale: AI-powered ecommerce analytics and attribution platform for DTC brands. Triple Whale ships with AI attribution modeling. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Triple Whale: AI-powered ecommerce analytics and attribution platform for DTC brands. Triple Whale ships with AI attribution modeling. This page documents 8 integrations.
 
 Triple Whale starts at $59/mo. Conversion $59/mo; Retention $179/mo; Foundation $219/mo; scales with GMV. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -235,7 +235,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Triple Whale?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Triple Whale: AI-powered ecommerce analytics and attribution platform for DTC brands. Triple Whale ships with AI attribution modeling. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Triple Whale: AI-powered ecommerce analytics and attribution platform for DTC brands. Triple Whale ships with AI attribution modeling. This page documents 8 integrations."
         }
       },
       {

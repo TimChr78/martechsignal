@@ -20,7 +20,7 @@
 | ✓ SSO/SAML and SOC 2 compliance come with Enterprise | ✗ The platform now bundles content, social and ad drafting agents, which is more surface area than a pure visibility tracker |
 
 **What is Profound?**
-Profound: Enterprise AI marketing platform: answer-engine visibility plus drafting agents. Profound ships with answer-engine visibility tracking across up to 9 engines. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Profound: Enterprise AI marketing platform: answer-engine visibility plus drafting agents. Profound ships with answer-engine visibility tracking across up to 9 engines. This page documents 6 integrations.
 
 **How much does Profound cost?**
 Profound uses enterprise pricing, so the number depends on your volume and contract. Quote-based; contact sales (Sep 2026). Free trial runs 50 prompts daily for 7 days on ChatGPT, Gemini and Google AI Overviews. Our last verified read of the pricing model was 2026-09-25; the vendor's pricing page carries the current quote criteria.
@@ -75,7 +75,7 @@ Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
 GEO & LLM Optimization · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Profound →](https://www.tryprofound.com/)
 
@@ -151,7 +151,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Profound: Enterprise AI marketing platform: answer-engine visibility plus drafting agents. Profound ships with answer-engine visibility tracking across up to 9 engines. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Profound: Enterprise AI marketing platform: answer-engine visibility plus drafting agents. Profound ships with answer-engine visibility tracking across up to 9 engines. This page documents 6 integrations.
 
 Profound uses enterprise pricing, so the number depends on your volume and contract. Quote-based; contact sales (Sep 2026). Free trial runs 50 prompts daily for 7 days on ChatGPT, Gemini and Google AI Overviews. Our last verified read of the pricing model was 2026-09-25; the vendor's pricing page carries the current quote criteria.
 
@@ -242,7 +242,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Profound?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Profound: Enterprise AI marketing platform: answer-engine visibility plus drafting agents. Profound ships with answer-engine visibility tracking across up to 9 engines. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Profound: Enterprise AI marketing platform: answer-engine visibility plus drafting agents. Profound ships with answer-engine visibility tracking across up to 9 engines. This page documents 6 integrations."
         }
       },
       {

@@ -18,7 +18,7 @@
 | ✓ Free tier to evaluate before committing (Free (3 channels); Essentials $5/channel/mo; Team $10/channe) |  |
 
 **What is Buffer?**
-Buffer: Simple social media scheduling and analytics with AI-powered content tools. Buffer ships with AI assistant for posts. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Buffer: Simple social media scheduling and analytics with AI-powered content tools. Buffer ships with AI assistant for posts. This page documents 6 integrations.
 
 **How much does Buffer cost?**
 Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -71,7 +71,7 @@ Simple social media scheduling and analytics with AI-powered content tools
 
 Social Media · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Buffer →](https://buffer.com)
 
@@ -138,7 +138,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Buffer: Simple social media scheduling and analytics with AI-powered content tools. Buffer ships with AI assistant for posts. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Buffer: Simple social media scheduling and analytics with AI-powered content tools. Buffer ships with AI assistant for posts. This page documents 6 integrations.
 
 Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -230,7 +230,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Buffer?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Buffer: Simple social media scheduling and analytics with AI-powered content tools. Buffer ships with AI assistant for posts. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Buffer: Simple social media scheduling and analytics with AI-powered content tools. Buffer ships with AI assistant for posts. This page documents 6 integrations."
         }
       },
       {

@@ -19,7 +19,7 @@
 | ✓ Free tier to evaluate before committing (Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo) |  |
 
 **What is Mailchimp?**
-Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations.
 
 **How much does Mailchimp cost?**
 Mailchimp has a free tier; paid plans start at $13/mo. Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -75,7 +75,7 @@ All-in-one marketing platform with AI-powered email, automation, and analytics
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
 
 [Visit Mailchimp →](https://mailchimp.com)
 
@@ -146,7 +146,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations.
 
 Mailchimp has a free tier; paid plans start at $13/mo. Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -238,7 +238,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Mailchimp?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations."
         }
       },
       {

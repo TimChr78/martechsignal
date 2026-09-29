@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Dynamic Yield?**
-Dynamic Yield: AI-powered personalization platform for web, mobile, and email experiences. Dynamic Yield ships with experience OS Agents (multi-agent copilot). This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Dynamic Yield: AI-powered personalization platform for web, mobile, and email experiences. Dynamic Yield ships with experience OS Agents (multi-agent copilot). This page documents 10 integrations.
 
 **How much does Dynamic Yield cost?**
 Dynamic Yield uses enterprise pricing, so the number depends on your volume and contract. No published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
@@ -89,7 +89,7 @@ AI-powered personalization platform for web, mobile, and email experiences
 
 Personalization & CDP · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
 
 [Visit Dynamic Yield →](https://www.dynamicyield.com)
 
@@ -182,7 +182,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Dynamic Yield: AI-powered personalization platform for web, mobile, and email experiences. Dynamic Yield ships with experience OS Agents (multi-agent copilot). This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Dynamic Yield: AI-powered personalization platform for web, mobile, and email experiences. Dynamic Yield ships with experience OS Agents (multi-agent copilot). This page documents 10 integrations.
 
 Dynamic Yield uses enterprise pricing, so the number depends on your volume and contract. No published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
 
@@ -279,7 +279,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Dynamic Yield?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dynamic Yield: AI-powered personalization platform for web, mobile, and email experiences. Dynamic Yield ships with experience OS Agents (multi-agent copilot). This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Dynamic Yield: AI-powered personalization platform for web, mobile, and email experiences. Dynamic Yield ships with experience OS Agents (multi-agent copilot). This page documents 10 integrations."
         }
       },
       {

@@ -1,5 +1,9 @@
 // M8 (r9, 2026-09-28): collapse malformed path variants (double slashes,
 // dot segments, repeated trailing slashes) to the canonical path with a 308.
+// LIVE NOTE (r11 L-4, 2026-09-29): this file ships in deploy-out/functions/
+// but the edge still serves 200 on // variants (verified live). Canonicals on
+// those URLs are correct, so impact is crawl-budget noise only — accepted
+// risk, not re-fixed. Revisit only if GSC shows variant URLs indexed.
 // Fixed-point safe: the redirect target always equals its own normalization,
 // so the rule can never loop (cf. the 2026-09-09 _redirects loop incident —
 // path-prefix redirect rules are banned for this; this middleware compares

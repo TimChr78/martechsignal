@@ -18,7 +18,7 @@
 | ✓ Active public repository (24,127 GitHub stars counted at last check) |  |
 
 **What is NocoBase?**
-NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,127 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,127 stars.
 
 **How much does NocoBase cost?**
 NocoBase is open source - Free to self-host; the public repository carries 24,127 stars; a paid hosted tier exists if you would rather not run the servers. You pay in server time and maintenance, not licences.
@@ -79,7 +79,7 @@ Open-source no-code platform with AI assistance for building business systems fa
 
 Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-05
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit NocoBase →](https://www.nocobase.com)
 
@@ -157,7 +157,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,127 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,127 stars.
 
 NocoBase is open source - Free to self-host; the public repository carries 24,127 stars; a paid hosted tier exists if you would rather not run the servers. You pay in server time and maintenance, not licences.
 
@@ -255,7 +255,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is NocoBase?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,127 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,127 stars."
         }
       },
       {

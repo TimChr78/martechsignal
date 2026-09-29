@@ -18,7 +18,7 @@
 | ✓ Free tier to evaluate before committing (Free plan available; Core $19/mo; Pro and Agency tiers; annu) |  |
 
 **What is Predis.ai?**
-Predis.ai: AI-powered social media content generator for posts, videos, and ad creatives. Predis.ai ships with AI post generation. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Predis.ai: AI-powered social media content generator for posts, videos, and ad creatives. Predis.ai ships with AI post generation. This page documents 6 integrations.
 
 **How much does Predis.ai cost?**
 Predis.ai has a free tier; paid plans start at $19/mo. Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -67,7 +67,7 @@ AI-powered social media content generator for posts, videos, and ad creatives
 
 Social Media · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
 
 [Visit Predis.ai →](https://predis.ai)
 
@@ -136,7 +136,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Predis.ai: AI-powered social media content generator for posts, videos, and ad creatives. Predis.ai ships with AI post generation. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Predis.ai: AI-powered social media content generator for posts, videos, and ad creatives. Predis.ai ships with AI post generation. This page documents 6 integrations.
 
 Predis.ai has a free tier; paid plans start at $19/mo. Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -228,7 +228,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Predis.ai?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Predis.ai: AI-powered social media content generator for posts, videos, and ad creatives. Predis.ai ships with AI post generation. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Predis.ai: AI-powered social media content generator for posts, videos, and ad creatives. Predis.ai ships with AI post generation. This page documents 6 integrations."
         }
       },
       {

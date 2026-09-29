@@ -155,7 +155,93 @@ No-code/low-code automation platforms and iPaaS. Includes [Activepieces](/tools/
   "@type": "CollectionPage",
   "name": "Categories",
   "url": "https://martechsignal.com/categories/",
-  "description": "All 14 tool categories in the MartechSignal directory."
+  "description": "All 14 tool categories in the MartechSignal directory.",
+  "hasPart": [
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/content-ai/",
+      "url": "https://martechsignal.com/categories/content-ai/",
+      "name": "AI Content & Copywriting"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/advertising/",
+      "url": "https://martechsignal.com/categories/advertising/",
+      "name": "Advertising & Paid Media"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/agent-skills/",
+      "url": "https://martechsignal.com/categories/agent-skills/",
+      "name": "Agent Skills"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/analytics/",
+      "url": "https://martechsignal.com/categories/analytics/",
+      "name": "Analytics & Attribution"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/crm/",
+      "url": "https://martechsignal.com/categories/crm/",
+      "name": "CRM"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/chatbots/",
+      "url": "https://martechsignal.com/categories/chatbots/",
+      "name": "Chatbots & Conversational AI"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/email-marketing/",
+      "url": "https://martechsignal.com/categories/email-marketing/",
+      "name": "Email Marketing"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/geo-llm-visibility/",
+      "url": "https://martechsignal.com/categories/geo-llm-visibility/",
+      "name": "GEO & LLM Optimization"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/marketing-automation/",
+      "url": "https://martechsignal.com/categories/marketing-automation/",
+      "name": "Marketing Automation"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/open-source/",
+      "url": "https://martechsignal.com/categories/open-source/",
+      "name": "Open-Source Tools"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/personalization/",
+      "url": "https://martechsignal.com/categories/personalization/",
+      "name": "Personalization & CDP"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/seo/",
+      "url": "https://martechsignal.com/categories/seo/",
+      "name": "SEO & Search"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/social-media/",
+      "url": "https://martechsignal.com/categories/social-media/",
+      "name": "Social Media"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://martechsignal.com/categories/workflow-automation/",
+      "url": "https://martechsignal.com/categories/workflow-automation/",
+      "name": "Workflow Automation"
+    }
+  ]
 }
 ```
 
@@ -178,10 +264,6 @@ No-code/low-code automation platforms and iPaaS. Includes [Activepieces](/tools/
     }
   ]
 }
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/#webpage", "dateModified": "2026-09-29"}
 ```
 
 ```json

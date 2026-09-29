@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Northbeam?**
-Northbeam: AI-powered multi-touch attribution and marketing intelligence for ecommerce. Northbeam ships with AI multi-touch attribution. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Northbeam: AI-powered multi-touch attribution and marketing intelligence for ecommerce. Northbeam ships with AI multi-touch attribution. This page documents 8 integrations.
 
 **How much does Northbeam cost?**
 Northbeam uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on data volume; monthly billing; best for brands $50K+/mo revenue. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
@@ -67,7 +67,7 @@ AI-powered multi-touch attribution and marketing intelligence for ecommerce
 
 Analytics & Attribution · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Northbeam →](https://www.northbeam.io)
 
@@ -139,7 +139,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Northbeam: AI-powered multi-touch attribution and marketing intelligence for ecommerce. Northbeam ships with AI multi-touch attribution. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Northbeam: AI-powered multi-touch attribution and marketing intelligence for ecommerce. Northbeam ships with AI multi-touch attribution. This page documents 8 integrations.
 
 Northbeam uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on data volume; monthly billing; best for brands $50K+/mo revenue. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
 
@@ -224,7 +224,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Northbeam?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Northbeam: AI-powered multi-touch attribution and marketing intelligence for ecommerce. Northbeam ships with AI multi-touch attribution. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Northbeam: AI-powered multi-touch attribution and marketing intelligence for ecommerce. Northbeam ships with AI multi-touch attribution. This page documents 8 integrations."
         }
       },
       {

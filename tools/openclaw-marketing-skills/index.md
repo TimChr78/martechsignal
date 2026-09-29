@@ -19,7 +19,7 @@
 | ✓ Native integrations include OpenClaw, Google Ads API, Google Search Console (6 listed) |  |
 
 **What is OpenClaw Marketing Skills?**
-OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,044 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,044 stars.
 
 **How much does OpenClaw Marketing Skills cost?**
 OpenClaw Marketing Skills is open source - MIT licensed and free to self-host; the public repository carries 1,044 stars; native integrations cover OpenClaw, Google Ads API, Google Search Console. You pay in server time and maintenance, not licences.
@@ -68,7 +68,7 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit OpenClaw Marketing Skills →](https://github.com/LeoYeAI/openclaw-marketing-skills)
 
@@ -136,7 +136,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,044 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,044 stars.
 
 OpenClaw Marketing Skills is open source - MIT licensed and free to self-host; the public repository carries 1,044 stars; native integrations cover OpenClaw, Google Ads API, Google Search Console. You pay in server time and maintenance, not licences.
 
@@ -228,7 +228,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is OpenClaw Marketing Skills?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,044 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,044 stars."
         }
       },
       {

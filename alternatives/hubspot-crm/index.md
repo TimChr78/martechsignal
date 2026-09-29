@@ -119,8 +119,10 @@ Read the full assessment of [HubSpot CRM](/tools/hubspot-crm/), or browse all [c
         "position": 1,
         "name": "Twenty",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/twenty/#app",
-          "url": "https://martechsignal.com/tools/twenty/"
+          "url": "https://martechsignal.com/tools/twenty/",
+          "name": "Twenty"
         }
       },
       {
@@ -128,8 +130,10 @@ Read the full assessment of [HubSpot CRM](/tools/hubspot-crm/), or browse all [c
         "position": 2,
         "name": "EspoCRM",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/espocrm/#app",
-          "url": "https://martechsignal.com/tools/espocrm/"
+          "url": "https://martechsignal.com/tools/espocrm/",
+          "name": "EspoCRM"
         }
       },
       {
@@ -137,8 +141,10 @@ Read the full assessment of [HubSpot CRM](/tools/hubspot-crm/), or browse all [c
         "position": 3,
         "name": "SuiteCRM",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/suitecrm/#app",
-          "url": "https://martechsignal.com/tools/suitecrm/"
+          "url": "https://martechsignal.com/tools/suitecrm/",
+          "name": "SuiteCRM"
         }
       },
       {
@@ -146,8 +152,10 @@ Read the full assessment of [HubSpot CRM](/tools/hubspot-crm/), or browse all [c
         "position": 4,
         "name": "Pipedrive",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/pipedrive/#app",
-          "url": "https://martechsignal.com/tools/pipedrive/"
+          "url": "https://martechsignal.com/tools/pipedrive/",
+          "name": "Pipedrive"
         }
       },
       {
@@ -155,8 +163,10 @@ Read the full assessment of [HubSpot CRM](/tools/hubspot-crm/), or browse all [c
         "position": 5,
         "name": "Frappe CRM",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/frappe-crm/#app",
-          "url": "https://martechsignal.com/tools/frappe-crm/"
+          "url": "https://martechsignal.com/tools/frappe-crm/",
+          "name": "Frappe CRM"
         }
       }
     ]

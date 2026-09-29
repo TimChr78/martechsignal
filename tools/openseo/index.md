@@ -17,7 +17,7 @@
 | ✓ Active public repository (18,155 GitHub stars counted at last check) |  |
 
 **What is OpenSEO?**
-OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 18,155 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 18,155 stars.
 
 **How much does OpenSEO cost?**
 OpenSEO has a free tier; paid plans start at $10/mo. Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -80,7 +80,7 @@ Open source alternative to Ahrefs and Semrush
 
 SEO & Search · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit OpenSEO →](https://openseo.so)
 
@@ -157,7 +157,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 18,155 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 18,155 stars.
 
 OpenSEO has a free tier; paid plans start at $10/mo. Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -249,7 +249,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is OpenSEO?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 18,155 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 18,155 stars."
         }
       },
       {

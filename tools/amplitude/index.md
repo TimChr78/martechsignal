@@ -19,7 +19,7 @@
 | ✓ Free tier to evaluate before committing (Free plan includes 2M events/month, no time limit) |  |
 
 **What is Amplitude?**
-Amplitude: AI-powered digital analytics platform for product and marketing teams. Amplitude ships with AI root cause analysis. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Amplitude: AI-powered digital analytics platform for product and marketing teams. Amplitude ships with AI root cause analysis. This page documents 8 integrations.
 
 **How much does Amplitude cost?**
 Amplitude has a free tier, so you can run a real evaluation before paying. Free plan includes 2M events/month, no time limit. Plus starts at $0 and scales with event volume. Growth and Enterprise are custom-priced (verified Sep 2026). We last checked the plan structure on 2026-09-25; paid tiers mainly raise limits rather than unlocking core features.
@@ -87,7 +87,7 @@ AI-powered digital analytics platform for product and marketing teams
 
 Analytics & Attribution · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Amplitude →](https://amplitude.com)
 
@@ -171,7 +171,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Amplitude: AI-powered digital analytics platform for product and marketing teams. Amplitude ships with AI root cause analysis. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Amplitude: AI-powered digital analytics platform for product and marketing teams. Amplitude ships with AI root cause analysis. This page documents 8 integrations.
 
 Amplitude has a free tier, so you can run a real evaluation before paying. Free plan includes 2M events/month, no time limit. Plus starts at $0 and scales with event volume. Growth and Enterprise are custom-priced (verified Sep 2026). We last checked the plan structure on 2026-09-25; paid tiers mainly raise limits rather than unlocking core features.
 
@@ -268,7 +268,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Amplitude?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Amplitude: AI-powered digital analytics platform for product and marketing teams. Amplitude ships with AI root cause analysis. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Amplitude: AI-powered digital analytics platform for product and marketing teams. Amplitude ships with AI root cause analysis. This page documents 8 integrations."
         }
       },
       {

@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Writer?**
-Writer: Enterprise AI platform with Palmyra models, brand governance, and agents. Writer ships with AI content generation. This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Writer: Enterprise AI platform with Palmyra models, brand governance, and agents. Writer ships with AI content generation. This page documents 12 integrations.
 
 **How much does Writer cost?**
 Writer uses paid pricing, so the number depends on your volume and contract. Quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026). Our last verified read of the pricing model was 2026-09-25; the vendor's pricing page carries the current quote criteria.
@@ -78,7 +78,7 @@ Enterprise AI platform with Palmyra models, brand governance, and agents
 
 AI Content & Copywriting · Paid Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Writer →](https://writer.com)
 
@@ -178,7 +178,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Writer: Enterprise AI platform with Palmyra models, brand governance, and agents. Writer ships with AI content generation. This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Writer: Enterprise AI platform with Palmyra models, brand governance, and agents. Writer ships with AI content generation. This page documents 12 integrations.
 
 Writer uses paid pricing, so the number depends on your volume and contract. Quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026). Our last verified read of the pricing model was 2026-09-25; the vendor's pricing page carries the current quote criteria.
 
@@ -270,7 +270,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Writer?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Writer: Enterprise AI platform with Palmyra models, brand governance, and agents. Writer ships with AI content generation. This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Writer: Enterprise AI platform with Palmyra models, brand governance, and agents. Writer ships with AI content generation. This page documents 12 integrations."
         }
       },
       {

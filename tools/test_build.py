@@ -1309,6 +1309,75 @@ def test_all_vs_and_alternatives_carry_three_question_h2s():
     assert not gaps, f"vs/alternatives short of 3 question H2s: {gaps}"
 
 
+def test_r11_ml_wave_no_regressions():
+    """r11 M/L wave (2026-09-29): one pin per fixed finding, so the next
+    rebuild cannot silently reintroduce them."""
+    import re as _re
+    # M-1: about counts match ground truth (163 active / 165 records).
+    _about = (ROOT / "about" / "index.html").read_text()
+    assert "163 active tool records" in _about and "165 records" in _about
+    # M-2: boilerplate citation-slot sentence gone from all tool pages.
+    _boiler = [p.parent.name for p in (ROOT / "tools").glob("*/index.html")
+               if "review covers features, pricing" in p.read_text()]
+    assert not _boiler, f"boilerplate back on: {_boiler[:3]}"
+    # M-6: all nine r11 tokens named in robots.txt.
+    _robots = (ROOT / "robots.txt").read_text()
+    for _tok in ("AI2Bot", "AI2Bot-Dolma", "ImagesiftBot", "PanguBot",
+                 "omgili", "omgilibot", "Timpibot", "Kangaroo Bot", "Cotoyogi"):
+        assert _tok in _robots, f"robots missing {_tok}"
+    # M-7: homepage story excerpts end cleanly (ellipsis) or are uncut.
+    _home = (ROOT / "index.html").read_text()
+    _stories = _re.findall(r'<a class="story reveal".*?<p>(.*?)</p>', _home, _re.S)
+    assert _stories, "no homepage stories found"
+    for _s in _stories:
+        assert _s.endswith("\u2026") or len(_s) < 170, f"ragged excerpt: {_s[-40:]}"
+    # M-8: glossary hub declares the DefinedTermSet terms reference.
+    _gloss = (ROOT / "glossary" / "index.html").read_text()
+    assert '"DefinedTermSet"' in _gloss
+    # M-9: categories hub hasPart covers all 14 children.
+    _cats = (ROOT / "categories" / "index.html").read_text()
+    assert _cats.count('"@type": "WebPage"') >= 14, "categories hasPart short"
+    # M-10: about sameAs matches generated pages (github only in schema;
+    # the visible bio link stays — the finding was entity divergence).
+    _ld = _re.findall(r'<script type="application/ld\+json">(.*?)</script>', _about, _re.S)
+    assert _ld, "no JSON-LD on about"
+    assert "linkedin.com/in/tchristensen78" not in " ".join(_ld)
+    # M-4: commercial-intent email page leads with market names.
+    _em = json.loads((ROOT / "tools" / "bestx-content.json").read_text())
+    _em_items = next(p for p in _em["pages"]
+                     if p["slug"] == "ai-email-marketing-tools")["items"]
+    assert [i["slug"] for i in _em_items[:2]] == ["mailchimp", "klaviyo"], \
+        "email page not market-led"
+    # L-1: every category page has an h2 before its first h3.
+    for _c in (ROOT / "categories").glob("*/index.html"):
+        _h = _c.read_text()
+        if "<h3" in _h:
+            assert _h.index("<h2") < _h.index("<h3"), f"{_c.parent.name}: H1-H3 skip"
+    # L-3: guides hub title carries keyword + brand.
+    _gt = _re.search(r"<title>(.*?)</title>", (ROOT / "guides" / "index.html").read_text()).group(1)
+    assert "MartechSignal" in _gt and len(_gt) > 30, f"weak guides title: {_gt}"
+    # L-6: llms.txt lists the four bare hubs with no duplicate URLs.
+    _llms = (ROOT / "llms.txt").read_text()
+    for _hub in ("/best/)", "/vs/)", "/alternatives/)", "/guides/)"):
+        assert _hub in _llms, f"llms.txt missing bare hub {_hub}"
+    _urls = _re.findall(r"https://martechsignal\.com[^\s)]+", _llms)
+    assert len(_urls) == len(set(_urls)), "duplicate URLs in llms.txt"
+    # L-9: ard discovery token uniform.
+    for _p in ((ROOT / "blog" / "index.html"),
+               (ROOT / "tools" / "n8n" / "index.html")):
+        assert 'rel="ard ai-catalog"' in _p.read_text(), f"ard token off in {_p}"
+    # L-10: sibling catalog file declared.
+    assert "/catalog-categories.json" in (ROOT / "_headers").read_text()
+    # L-11: byline clock agrees with schema clock (worst case from audit).
+    _tea = (ROOT / "tools" / "tealium" / "index.html").read_text()
+    _by = _re.search(r"updated <time datetime=\"([0-9-]+)\"", _tea).group(1)
+    _dm = _re.search(r"\"dateModified\": \"([0-9-]+)\"", _tea).group(1)
+    assert _by == _dm, f"tealium byline {_by} vs schema {_dm}"
+    # M-13: hub ItemLists carry typed nodes.
+    _bx = (ROOT / "best" / "ai-seo-tools" / "index.html").read_text()
+    assert '"@type": "SoftwareApplication"' in _bx, "best ItemList untyped"
+
+
 def test_all_money_pages_carry_visible_time_and_shots():
     """r11 H-4 (2026-09-29): every money page (15 best + 10 vs + 4
     alternatives) shows a visible Last verified <time> and, where the og

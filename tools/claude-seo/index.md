@@ -31,7 +31,7 @@
 | ✓ MIT licensed with no paid tier, so the whole audit stack is inspectable |  |
 
 **What is Claude SEO?**
-Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 17,737 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 17,737 stars.
 
 **How much does Claude SEO cost?**
 Claude SEO is open source - MIT licensed and free to self-host; the public repository carries 17,737 stars; native integrations cover Claude Code, Google Search Console, DataForSEO. You pay in server time and maintenance, not licences.
@@ -106,7 +106,7 @@ Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agent
 
 Agent Skills · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. We run it on our own sites and depend on it in our audit pipeline, which is why it carries no Review markup. See the [corrections log](/corrections/).
 
@@ -205,7 +205,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 17,737 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 17,737 stars.
 
 Claude SEO is open source - MIT licensed and free to self-host; the public repository carries 17,737 stars; native integrations cover Claude Code, Google Search Console, DataForSEO. You pay in server time and maintenance, not licences.
 
@@ -325,7 +325,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Claude SEO?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 17,737 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 17,737 stars."
         }
       },
       {

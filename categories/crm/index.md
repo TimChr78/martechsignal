@@ -1,7 +1,5 @@
 # CRM Tools
 
-HOSTED SAAS CRMs***5*
-
 AI-native CRM with real-time data enrichment and agentic revenue workflows
 
 FreemiumDesk-reviewed
@@ -21,8 +19,6 @@ From $14/moDesk-reviewed
 Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 
 EnterpriseDesk-reviewed
-
-SELF-HOSTED OPEN SOURCE***11*
 
 Plugin-first CRM (source-available, Elastic 2.0) written in Go
 
@@ -68,8 +64,6 @@ Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail 
 
 Open SourceDesk-reviewedOSS
 
-AGENT-READY, MCP-NATIVE***4*
-
 Open-source AI CRM with built-in agents, conversational analytics, and private deployment
 
 FreemiumDesk-reviewedOSS
@@ -85,8 +79,6 @@ Open SourceDesk-reviewedOSS
 The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 
 Open SourceDesk-reviewedOSS
-
-OUTBOUND & CHANNEL***3*
 
 Self-hosted open-source CRM with AI agents that sell through WhatsApp
 
@@ -177,6 +169,8 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 
 24 TOOLS IN THIS CATEGORY
 
+## HOSTED SAAS CRMs***5*
+
 ### Attio
 
 ### Freshsales
@@ -186,6 +180,8 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 ### Pipedrive
 
 ### Salesforce CRM
+
+## SELF-HOSTED OPEN SOURCE***11*
 
 ### AlphOne
 
@@ -209,6 +205,8 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 
 ### Warpdrive
 
+## AGENT-READY, MCP-NATIVE***4*
+
 ### Cordys CRM
 
 ### Macro
@@ -217,11 +215,15 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 
 ### Twenty
 
+## OUTBOUND & CHANNEL***3*
+
 ### DeskcommCRM
 
 ### ProspectOS
 
 ### WaCRM
+
+## More CRM tools***1*
 
 ### Zoho CRM
 

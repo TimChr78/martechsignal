@@ -22,7 +22,7 @@
 | ✓ Assertion-based grading makes brand-answer checks repeatable and diffable across runs. |  |
 
 **What is Promptfoo?**
-Promptfoo: Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming. Promptfoo ships with model-graded evals where one LLM scores another's answers. The public repository carries 25,453 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Promptfoo: Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming. Promptfoo ships with model-graded evals where one LLM scores another's answers. The public repository carries 25,453 stars.
 
 **How much does Promptfoo cost?**
 Promptfoo is open source - MIT licensed and free to self-host; the public repository carries 25,453 stars; native integrations cover OpenAI, Anthropic, Azure OpenAI. You pay in server time and maintenance, not licences.
@@ -81,7 +81,7 @@ Open source LLM eval toolkit for prompt testing, brand-answer tracking and red t
 
 GEO & LLM Optimization · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 [Visit Promptfoo →](https://promptfoo.dev)
 
@@ -154,7 +154,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Promptfoo: Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming. Promptfoo ships with model-graded evals where one LLM scores another's answers. The public repository carries 25,453 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Promptfoo: Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming. Promptfoo ships with model-graded evals where one LLM scores another's answers. The public repository carries 25,453 stars.
 
 Promptfoo is open source - MIT licensed and free to self-host; the public repository carries 25,453 stars; native integrations cover OpenAI, Anthropic, Azure OpenAI. You pay in server time and maintenance, not licences.
 
@@ -252,7 +252,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Promptfoo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Promptfoo: Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming. Promptfoo ships with model-graded evals where one LLM scores another's answers. The public repository carries 25,453 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Promptfoo: Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming. Promptfoo ships with model-graded evals where one LLM scores another's answers. The public repository carries 25,453 stars."
         }
       },
       {

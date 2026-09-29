@@ -1,7 +1,5 @@
 # SEO & Search Tools
 
-OPEN SOURCE / SELF-HOSTED***2*
-
 Open source alternative to Ahrefs and Semrush
 
 Open SourceDesk-reviewedOSS
@@ -9,8 +7,6 @@ Open SourceDesk-reviewedOSS
 Open-source SEO crawler in Go for technical audits, self-hosted or cloud
 
 Open SourceDesk-reviewedOSS
-
-COMMERCIAL***5*
 
 All-in-one SEO and digital marketing platform with AI-powered insights and tools
 
@@ -31,8 +27,6 @@ From $49/moDesk-reviewed
 AI-powered SEO content platform for research, writing, and AI visibility tracking
 
 From $39/moDesk-reviewed
-
-AI SEARCH VISIBILITY***2*
 
 Free local tool that measures brand mentions and citations in Claude's web-search answers
 
@@ -115,9 +109,13 @@ SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 
 
 9 TOOLS IN THIS CATEGORY
 
+## OPEN SOURCE / SELF-HOSTED***2*
+
 ### OpenSEO
 
 ### Seonaut
+
+## COMMERCIAL***5*
 
 ### Semrush
 
@@ -128,6 +126,8 @@ SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 
 ### Surfer SEO
 
 ### Frase
+
+## AI SEARCH VISIBILITY***2*
 
 ### Potato
 

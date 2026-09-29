@@ -161,8 +161,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "n8n",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/n8n/#app",
-          "url": "https://martechsignal.com/tools/n8n/"
+          "url": "https://martechsignal.com/tools/n8n/",
+          "name": "n8n"
         }
       },
       {
@@ -170,8 +172,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "Zapier",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/zapier/#app",
-          "url": "https://martechsignal.com/tools/zapier/"
+          "url": "https://martechsignal.com/tools/zapier/",
+          "name": "Zapier"
         }
       },
       {
@@ -179,8 +183,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Make",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/make/#app",
-          "url": "https://martechsignal.com/tools/make/"
+          "url": "https://martechsignal.com/tools/make/",
+          "name": "Make"
         }
       },
       {
@@ -188,8 +194,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "Pipedream",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/pipedream/#app",
-          "url": "https://martechsignal.com/tools/pipedream/"
+          "url": "https://martechsignal.com/tools/pipedream/",
+          "name": "Pipedream"
         }
       },
       {
@@ -197,8 +205,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "Workato",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/workato/#app",
-          "url": "https://martechsignal.com/tools/workato/"
+          "url": "https://martechsignal.com/tools/workato/",
+          "name": "Workato"
         }
       },
       {
@@ -206,8 +216,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "Tray.io",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/tray-io/#app",
-          "url": "https://martechsignal.com/tools/tray-io/"
+          "url": "https://martechsignal.com/tools/tray-io/",
+          "name": "Tray.io"
         }
       }
     ]

@@ -185,8 +185,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "NocoDB",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/nocodb/#app",
-          "url": "https://martechsignal.com/tools/nocodb/"
+          "url": "https://martechsignal.com/tools/nocodb/",
+          "name": "NocoDB"
         }
       },
       {
@@ -194,8 +196,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "Ortto",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/ortto/#app",
-          "url": "https://martechsignal.com/tools/ortto/"
+          "url": "https://martechsignal.com/tools/ortto/",
+          "name": "Ortto"
         }
       },
       {
@@ -203,8 +207,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Salesforce Marketing Cloud",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/salesforce-marketing-cloud/#app",
-          "url": "https://martechsignal.com/tools/salesforce-marketing-cloud/"
+          "url": "https://martechsignal.com/tools/salesforce-marketing-cloud/",
+          "name": "Salesforce Marketing Cloud"
         }
       },
       {
@@ -212,8 +218,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "ActiveCampaign",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/activecampaign/#app",
-          "url": "https://martechsignal.com/tools/activecampaign/"
+          "url": "https://martechsignal.com/tools/activecampaign/",
+          "name": "ActiveCampaign"
         }
       },
       {
@@ -221,8 +229,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "Adobe Marketo Engage",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/adobe-marketo/#app",
-          "url": "https://martechsignal.com/tools/adobe-marketo/"
+          "url": "https://martechsignal.com/tools/adobe-marketo/",
+          "name": "Adobe Marketo Engage"
         }
       },
       {
@@ -230,8 +240,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "Bloomreach",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/bloomreach/#app",
-          "url": "https://martechsignal.com/tools/bloomreach/"
+          "url": "https://martechsignal.com/tools/bloomreach/",
+          "name": "Bloomreach"
         }
       },
       {
@@ -239,8 +251,10 @@ One email when a new tool review lands, nothing else.
         "position": 7,
         "name": "Braze",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/braze/#app",
-          "url": "https://martechsignal.com/tools/braze/"
+          "url": "https://martechsignal.com/tools/braze/",
+          "name": "Braze"
         }
       },
       {
@@ -248,8 +262,10 @@ One email when a new tool review lands, nothing else.
         "position": 8,
         "name": "HubSpot Marketing Hub",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/hubspot-marketing-hub/#app",
-          "url": "https://martechsignal.com/tools/hubspot-marketing-hub/"
+          "url": "https://martechsignal.com/tools/hubspot-marketing-hub/",
+          "name": "HubSpot Marketing Hub"
         }
       }
     ]

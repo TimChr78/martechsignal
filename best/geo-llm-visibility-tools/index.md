@@ -193,8 +193,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "Nimt.ai",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/nimt-ai/#app",
-          "url": "https://martechsignal.com/tools/nimt-ai/"
+          "url": "https://martechsignal.com/tools/nimt-ai/",
+          "name": "Nimt.ai"
         }
       },
       {
@@ -202,8 +204,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "OtterlyAI",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/otterlyai/#app",
-          "url": "https://martechsignal.com/tools/otterlyai/"
+          "url": "https://martechsignal.com/tools/otterlyai/",
+          "name": "OtterlyAI"
         }
       },
       {
@@ -211,8 +215,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Trakkr",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/trakkr/#app",
-          "url": "https://martechsignal.com/tools/trakkr/"
+          "url": "https://martechsignal.com/tools/trakkr/",
+          "name": "Trakkr"
         }
       },
       {
@@ -220,8 +226,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "Writesonic",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/writesonic/#app",
-          "url": "https://martechsignal.com/tools/writesonic/"
+          "url": "https://martechsignal.com/tools/writesonic/",
+          "name": "Writesonic"
         }
       },
       {
@@ -229,8 +237,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "Profound",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/profound/#app",
-          "url": "https://martechsignal.com/tools/profound/"
+          "url": "https://martechsignal.com/tools/profound/",
+          "name": "Profound"
         }
       },
       {
@@ -238,8 +248,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "Rankscale",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/rankscale/#app",
-          "url": "https://martechsignal.com/tools/rankscale/"
+          "url": "https://martechsignal.com/tools/rankscale/",
+          "name": "Rankscale"
         }
       },
       {
@@ -247,8 +259,10 @@ One email when a new tool review lands, nothing else.
         "position": 7,
         "name": "Adobe LLM Optimizer",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/adobe-llm-optimizer/#app",
-          "url": "https://martechsignal.com/tools/adobe-llm-optimizer/"
+          "url": "https://martechsignal.com/tools/adobe-llm-optimizer/",
+          "name": "Adobe LLM Optimizer"
         }
       },
       {
@@ -256,8 +270,10 @@ One email when a new tool review lands, nothing else.
         "position": 8,
         "name": "Evertune",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/evertune/#app",
-          "url": "https://martechsignal.com/tools/evertune/"
+          "url": "https://martechsignal.com/tools/evertune/",
+          "name": "Evertune"
         }
       },
       {
@@ -265,8 +281,10 @@ One email when a new tool review lands, nothing else.
         "position": 9,
         "name": "Scrunch",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/scrunch/#app",
-          "url": "https://martechsignal.com/tools/scrunch/"
+          "url": "https://martechsignal.com/tools/scrunch/",
+          "name": "Scrunch"
         }
       }
     ]

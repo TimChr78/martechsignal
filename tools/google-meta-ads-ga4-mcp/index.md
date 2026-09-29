@@ -19,7 +19,7 @@
 | ✓ Native integrations include Google Ads, Meta Ads, GA4 (11 listed) |  |
 
 **What is Google Ads + Meta Ads + GA4 MCP?**
-Google Ads + Meta Ads + GA4 MCP: MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4. Google Ads + Meta Ads + GA4 MCP ships with 250+ MCP tools for campaign management, analytics, and optimization. The public repository carries 1,672 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Google Ads + Meta Ads + GA4 MCP: MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4. Google Ads + Meta Ads + GA4 MCP ships with 250+ MCP tools for campaign management, analytics, and optimization. The public repository carries 1,672 stars.
 
 **How much does Google Ads + Meta Ads + GA4 MCP cost?**
 Google Ads + Meta Ads + GA4 MCP is open source - MIT licensed and free to self-host; the public repository carries 1,672 stars; native integrations cover Google Ads, Meta Ads, GA4. You pay in server time and maintenance, not licences.
@@ -82,7 +82,7 @@ MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 
 Agent Skills · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 [Visit Google Ads + Meta Ads + GA4 MCP →](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
 
@@ -157,7 +157,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Google Ads + Meta Ads + GA4 MCP: MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4. Google Ads + Meta Ads + GA4 MCP ships with 250+ MCP tools for campaign management, analytics, and optimization. The public repository carries 1,672 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Google Ads + Meta Ads + GA4 MCP: MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4. Google Ads + Meta Ads + GA4 MCP ships with 250+ MCP tools for campaign management, analytics, and optimization. The public repository carries 1,672 stars.
 
 Google Ads + Meta Ads + GA4 MCP is open source - MIT licensed and free to self-host; the public repository carries 1,672 stars; native integrations cover Google Ads, Meta Ads, GA4. You pay in server time and maintenance, not licences.
 
@@ -257,7 +257,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Google Ads + Meta Ads + GA4 MCP?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Google Ads + Meta Ads + GA4 MCP: MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4. Google Ads + Meta Ads + GA4 MCP ships with 250+ MCP tools for campaign management, analytics, and optimization. The public repository carries 1,672 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Google Ads + Meta Ads + GA4 MCP: MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4. Google Ads + Meta Ads + GA4 MCP ships with 250+ MCP tools for campaign management, analytics, and optimization. The public repository carries 1,672 stars."
         }
       },
       {

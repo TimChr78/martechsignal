@@ -22,7 +22,7 @@
 | ✓ Cloud and self-hosted are both documented deployment paths, and the warehouse stays on your infrastructure either way. |  |
 
 **What is GrowthBook?**
-GrowthBook: Open-source feature flags and A/B testing with a visual editor and attribute-based targeting. GrowthBook ships with growthBook AI assistant (usage-metered per plan). The public repository carries 8,430 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+GrowthBook: Open-source feature flags and A/B testing with a visual editor and attribute-based targeting. GrowthBook ships with growthBook AI assistant (usage-metered per plan). The public repository carries 8,430 stars.
 
 **How much does GrowthBook cost?**
 GrowthBook is open source - MIT licensed and free to self-host; the public repository carries 8,430 stars; native integrations cover Snowflake, BigQuery, Databricks. You pay in server time and maintenance, not licences.
@@ -75,7 +75,7 @@ Open-source feature flags and A/B testing with a visual editor and attribute-bas
 
 Personalization & CDP · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit GrowthBook →](https://www.growthbook.io)
 
@@ -150,7 +150,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-GrowthBook: Open-source feature flags and A/B testing with a visual editor and attribute-based targeting. GrowthBook ships with growthBook AI assistant (usage-metered per plan). The public repository carries 8,430 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+GrowthBook: Open-source feature flags and A/B testing with a visual editor and attribute-based targeting. GrowthBook ships with growthBook AI assistant (usage-metered per plan). The public repository carries 8,430 stars.
 
 GrowthBook is open source - MIT licensed and free to self-host; the public repository carries 8,430 stars; native integrations cover Snowflake, BigQuery, Databricks. You pay in server time and maintenance, not licences.
 
@@ -246,7 +246,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is GrowthBook?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "GrowthBook: Open-source feature flags and A/B testing with a visual editor and attribute-based targeting. GrowthBook ships with growthBook AI assistant (usage-metered per plan). The public repository carries 8,430 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "GrowthBook: Open-source feature flags and A/B testing with a visual editor and attribute-based targeting. GrowthBook ships with growthBook AI assistant (usage-metered per plan). The public repository carries 8,430 stars."
         }
       },
       {

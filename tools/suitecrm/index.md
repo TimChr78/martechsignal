@@ -18,7 +18,7 @@
 | ✓ Active public repository (5,732 GitHub stars counted at last check) |  |
 
 **What is SuiteCRM?**
-SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,732 stars. SuiteCRM offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,732 stars. SuiteCRM offers a public API for custom integrations.
 
 **How much does SuiteCRM cost?**
 SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,732 stars. You pay in server time and maintenance, not licences.
@@ -73,7 +73,7 @@ Enterprise-grade open-source CRM with sales, marketing, and support automation
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit SuiteCRM →](https://www.suitecrm.com)
 
@@ -153,7 +153,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,732 stars. SuiteCRM offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,732 stars. SuiteCRM offers a public API for custom integrations.
 
 SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,732 stars. You pay in server time and maintenance, not licences.
 
@@ -250,7 +250,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is SuiteCRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,732 stars. SuiteCRM offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,732 stars. SuiteCRM offers a public API for custom integrations."
         }
       },
       {

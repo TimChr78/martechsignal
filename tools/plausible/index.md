@@ -19,7 +19,7 @@
 | ✓ Native integrations include WordPress, Ghost, Webflow (6 listed) |  |
 
 **What is Plausible Analytics?**
-Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,000 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,000 stars.
 
 **How much does Plausible Analytics cost?**
 Plausible Analytics has a free tier; paid plans start at $9/mo. Self-hosted free (AGPL); Cloud from $9/mo (10K pageviews); scales with traffic. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -69,7 +69,7 @@ Lightweight, privacy-friendly open-source web analytics alternative to Google An
 
 Analytics & Attribution · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit Plausible Analytics →](https://plausible.io)
 
@@ -137,7 +137,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,000 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,000 stars.
 
 Plausible Analytics has a free tier; paid plans start at $9/mo. Self-hosted free (AGPL); Cloud from $9/mo (10K pageviews); scales with traffic. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -229,7 +229,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Plausible Analytics?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,000 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,000 stars."
         }
       },
       {

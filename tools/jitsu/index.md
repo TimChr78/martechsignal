@@ -22,7 +22,7 @@
 | ✓ Deployment covers Jitsu Cloud, managed single-tenant private cloud on GCP or AWS, and on-premises as one product. |  |
 
 **What is Jitsu?**
-Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,091 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,091 stars.
 
 **How much does Jitsu cost?**
 Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,091 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences.
@@ -79,7 +79,7 @@ Open-source Segment alternative for event capture and warehouse-first data pipel
 
 Personalization & CDP · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit Jitsu →](https://jitsu.com)
 
@@ -151,7 +151,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,091 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,091 stars.
 
 Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,091 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences.
 
@@ -249,7 +249,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Jitsu?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,091 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,091 stars."
         }
       },
       {

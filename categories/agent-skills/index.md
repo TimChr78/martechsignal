@@ -1,7 +1,5 @@
 # Agent Skills Tools
 
-SEO AND CONTENT SKILLS***7*
-
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 
 Open SourceDesk-reviewedOSS
@@ -29,8 +27,6 @@ Open SourceDesk-reviewedOSS
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
 Open SourceDesk-reviewedOSS
-
-CAMPAIGN AND ASSET SKILLS***9*
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
@@ -149,6 +145,8 @@ Agent skills and MCP tools for coding agents: what each package automates in a m
 
 18 TOOLS IN THIS CATEGORY
 
+## SEO AND CONTENT SKILLS***7*
+
 ### Aaron Marketing Skills
 
 ### Claude SEO
@@ -162,6 +160,8 @@ Agent skills and MCP tools for coding agents: what each package automates in a m
 ### Growth Lab
 
 ### SEO Skill Bench
+
+## CAMPAIGN AND ASSET SKILLS***9*
 
 ### AI Business Skills
 
@@ -180,6 +180,8 @@ Agent skills and MCP tools for coding agents: what each package automates in a m
 ### OpenClaw Marketing Skills
 
 ### Zapier GTM Cheat Codes
+
+## More Agent Skills tools***2*
 
 ### AI Marketing Suite
 

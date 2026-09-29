@@ -20,7 +20,7 @@
 | ✓ The free trial needs no credit card |  |
 
 **What is Writesonic?**
-Writesonic: The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. Writesonic ships with tracks brand mentions in AI answers across up to 10 AI platforms. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Writesonic: The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. Writesonic ships with tracks brand mentions in AI answers across up to 10 AI platforms. This page documents 6 integrations.
 
 **How much does Writesonic cost?**
 Writesonic starts at $79/mo. Starter $79/mo billed annually (50 prompts/50 answers daily, 15 AI articles/mo, 10 site audits of 100 pages); Basic $199/mo; Growth $399/mo (sentiment analysis, Action Center trial); Enterprise custom (all 10 AI platforms, full Action Center). Annual billing saves 20% vs monthly. Free trial, no credit card (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -80,7 +80,7 @@ The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one p
 
 GEO & LLM Optimization · From $79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Writesonic →](https://writesonic.com)
 
@@ -158,7 +158,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Writesonic: The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. Writesonic ships with tracks brand mentions in AI answers across up to 10 AI platforms. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Writesonic: The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. Writesonic ships with tracks brand mentions in AI answers across up to 10 AI platforms. This page documents 6 integrations.
 
 Writesonic starts at $79/mo. Starter $79/mo billed annually (50 prompts/50 answers daily, 15 AI articles/mo, 10 site audits of 100 pages); Basic $199/mo; Growth $399/mo (sentiment analysis, Action Center trial); Enterprise custom (all 10 AI platforms, full Action Center). Annual billing saves 20% vs monthly. Free trial, no credit card (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -256,7 +256,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Writesonic?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Writesonic: The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. Writesonic ships with tracks brand mentions in AI answers across up to 10 AI platforms. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Writesonic: The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. Writesonic ships with tracks brand mentions in AI answers across up to 10 AI platforms. This page documents 6 integrations."
         }
       },
       {

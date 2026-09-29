@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Revealbot (Birch)?**
-Revealbot (Birch): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads. Revealbot (Birch) ships with bïrch AI workflow layer. This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Revealbot (Birch): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads. Revealbot (Birch) ships with bïrch AI workflow layer. This page documents 12 integrations.
 
 **How much does Revealbot (Birch) cost?**
 Revealbot (Birch) starts at $49/mo. Essential $49/mo, Pro $99/mo, tiered by monthly ad spend across connected accounts; Enterprise quoted; 14-day free trial with no card; annual billing gives 12 months for the price of 10; Hub tracking priced per event; Signals Gateway Hub (server-side Meta tracking) free to 10K events/mo, up to $499/mo at 150M events. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -89,7 +89,7 @@ AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 
 Advertising & Paid Media · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Revealbot (Birch) →](https://bir.ch)
 
@@ -180,7 +180,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Revealbot (Birch): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads. Revealbot (Birch) ships with bïrch AI workflow layer. This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Revealbot (Birch): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads. Revealbot (Birch) ships with bïrch AI workflow layer. This page documents 12 integrations.
 
 Revealbot (Birch) starts at $49/mo. Essential $49/mo, Pro $99/mo, tiered by monthly ad spend across connected accounts; Enterprise quoted; 14-day free trial with no card; annual billing gives 12 months for the price of 10; Hub tracking priced per event; Signals Gateway Hub (server-side Meta tracking) free to 10K events/mo, up to $499/mo at 150M events. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -284,7 +284,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Revealbot (Birch)?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Revealbot (Birch): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads. Revealbot (Birch) ships with b\u00efrch AI workflow layer. This page documents 12 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Revealbot (Birch): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads. Revealbot (Birch) ships with b\u00efrch AI workflow layer. This page documents 12 integrations."
         }
       },
       {

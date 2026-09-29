@@ -4,10 +4,17 @@ def _bestx_li(rec, i):
     /tools/ URL 301s and its #app dangles. Route each item to its real home."""
     if rec.get("kind") == "Guide" or rec.get("status") != "active":
         return {"@type": "ListItem", "position": i + 1, "name": rec["name"],
-                "item": {"url": f"https://martechsignal.com/guides/{rec['slug']}/"}}
+                "item": {"@type": "SoftwareApplication",
+                         "@id": f"https://martechsignal.com/guides/{rec['slug']}/#app",
+                         "url": f"https://martechsignal.com/guides/{rec['slug']}/",
+                         "name": rec["name"]}}
+    # r11 M-13 (2026-09-29): bare @id stubs upgraded to typed nodes — same
+    # modelling as /categories/ inlines, so all hub families agree.
     return {"@type": "ListItem", "position": i + 1, "name": rec["name"],
-            "item": {"@id": f"https://martechsignal.com/tools/{rec['slug']}/#app",
-                     "url": f"https://martechsignal.com/tools/{rec['slug']}/"}}
+            "item": {"@type": "SoftwareApplication",
+                     "@id": f"https://martechsignal.com/tools/{rec['slug']}/#app",
+                     "url": f"https://martechsignal.com/tools/{rec['slug']}/",
+                     "name": rec["name"]}}
 
 
 """Best-X and /vs/ page builders (2026-09-26, decided by Tim).

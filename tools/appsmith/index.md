@@ -19,7 +19,7 @@
 | ✓ Native integrations include PostgreSQL, MySQL, MongoDB (13 listed) |  |
 
 **What is Appsmith?**
-Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,849 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,849 stars.
 
 **How much does Appsmith cost?**
 Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -80,7 +80,7 @@ Open-source platform for building admin panels and internal dashboards on your e
 
 Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit Appsmith →](https://appsmith.com)
 
@@ -177,7 +177,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,849 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,849 stars.
 
 Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -270,7 +270,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Appsmith?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,849 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,849 stars."
         }
       },
       {

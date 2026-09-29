@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Hypotenuse AI?**
-Hypotenuse AI: AI content generation platform for ecommerce product descriptions and articles. Hypotenuse AI ships with AI article generation. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Hypotenuse AI: AI content generation platform for ecommerce product descriptions and articles. Hypotenuse AI ships with AI article generation. This page documents 6 integrations.
 
 **How much does Hypotenuse AI cost?**
 Hypotenuse AI starts at $56/mo. Essential $56/mo (annual) or $87/mo; custom enterprise plans available. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -71,7 +71,7 @@ AI content generation platform for ecommerce product descriptions and articles
 
 AI Content & Copywriting · From $56/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
 
 [Visit Hypotenuse AI →](https://www.hypotenuse.ai)
 
@@ -141,7 +141,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Hypotenuse AI: AI content generation platform for ecommerce product descriptions and articles. Hypotenuse AI ships with AI article generation. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Hypotenuse AI: AI content generation platform for ecommerce product descriptions and articles. Hypotenuse AI ships with AI article generation. This page documents 6 integrations.
 
 Hypotenuse AI starts at $56/mo. Essential $56/mo (annual) or $87/mo; custom enterprise plans available. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -233,7 +233,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Hypotenuse AI?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Hypotenuse AI: AI content generation platform for ecommerce product descriptions and articles. Hypotenuse AI ships with AI article generation. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Hypotenuse AI: AI content generation platform for ecommerce product descriptions and articles. Hypotenuse AI ships with AI article generation. This page documents 6 integrations."
         }
       },
       {

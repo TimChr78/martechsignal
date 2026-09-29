@@ -17,7 +17,7 @@
 | ✓ Native integrations include Google Docs (export), Microsoft Word (export), WordPress (copy-paste) (4 listed) |  |
 
 **What is MarketMuse?**
-MarketMuse: AI-powered content strategy and optimization platform for SEO content teams. MarketMuse ships with AI content strategy documents (Content Strategy AI). This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+MarketMuse: AI-powered content strategy and optimization platform for SEO content teams. MarketMuse ships with AI content strategy documents (Content Strategy AI). This page documents 4 integrations.
 
 **How much does MarketMuse cost?**
 MarketMuse uses paid pricing, so the number depends on your volume and contract. No published prices. Plans: Free (10 queries/mo), Optimize, Research, Strategy; all paid tiers are demo-gated. Optimize: 1 user, 100 tracked topics, 5 briefs/mo. Research: 3 users, 1,000 topics, unlimited queries. Strategy: 5 users, 10,000 topics, all 9 brief types. Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
@@ -79,7 +79,7 @@ AI-powered content strategy and optimization platform for SEO content teams
 
 SEO & Search · Paid Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit MarketMuse →](https://www.marketmuse.com)
 
@@ -170,7 +170,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-MarketMuse: AI-powered content strategy and optimization platform for SEO content teams. MarketMuse ships with AI content strategy documents (Content Strategy AI). This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+MarketMuse: AI-powered content strategy and optimization platform for SEO content teams. MarketMuse ships with AI content strategy documents (Content Strategy AI). This page documents 4 integrations.
 
 MarketMuse uses paid pricing, so the number depends on your volume and contract. No published prices. Plans: Free (10 queries/mo), Optimize, Research, Strategy; all paid tiers are demo-gated. Optimize: 1 user, 100 tracked topics, 5 briefs/mo. Research: 3 users, 1,000 topics, unlimited queries. Strategy: 5 users, 10,000 topics, all 9 brief types. Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
 
@@ -256,7 +256,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is MarketMuse?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "MarketMuse: AI-powered content strategy and optimization platform for SEO content teams. MarketMuse ships with AI content strategy documents (Content Strategy AI). This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "MarketMuse: AI-powered content strategy and optimization platform for SEO content teams. MarketMuse ships with AI content strategy documents (Content Strategy AI). This page documents 4 integrations."
         }
       },
       {

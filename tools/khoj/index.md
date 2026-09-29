@@ -21,7 +21,7 @@
 | ✓ Scheduled newsletters and smart notifications automate research collection that would otherwise be manual |  |
 
 **What is Khoj?**
-Khoj: Self-hosted AI research and writing assistant that chats with your documents and automates content workflows. Khoj ships with chat with local and online LLMs. The public repository carries 37,497 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Khoj: Self-hosted AI research and writing assistant that chats with your documents and automates content workflows. Khoj ships with chat with local and online LLMs. The public repository carries 37,497 stars.
 
 **How much does Khoj cost?**
 Khoj is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 37,497 stars; native integrations cover Obsidian, Emacs, WhatsApp. You pay in server time and maintenance, not licences.
@@ -83,7 +83,7 @@ Self-hosted AI research and writing assistant that chats with your documents and
 
 AI Content & Copywriting · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit Khoj →](https://khoj.dev)
 
@@ -154,7 +154,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Khoj: Self-hosted AI research and writing assistant that chats with your documents and automates content workflows. Khoj ships with chat with local and online LLMs. The public repository carries 37,497 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Khoj: Self-hosted AI research and writing assistant that chats with your documents and automates content workflows. Khoj ships with chat with local and online LLMs. The public repository carries 37,497 stars.
 
 Khoj is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 37,497 stars; native integrations cover Obsidian, Emacs, WhatsApp. You pay in server time and maintenance, not licences.
 
@@ -249,7 +249,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Khoj?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Khoj: Self-hosted AI research and writing assistant that chats with your documents and automates content workflows. Khoj ships with chat with local and online LLMs. The public repository carries 37,497 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Khoj: Self-hosted AI research and writing assistant that chats with your documents and automates content workflows. Khoj ships with chat with local and online LLMs. The public repository carries 37,497 stars."
         }
       },
       {

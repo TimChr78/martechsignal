@@ -18,7 +18,7 @@
 | ✓ Native integrations include Google Analytics, Google Search Console, WordPress (8 listed) |  |
 
 **What is Semrush?**
-Semrush: All-in-one SEO and digital marketing platform with AI-powered insights and tools. Semrush ships with AI content optimizer. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Semrush: All-in-one SEO and digital marketing platform with AI-powered insights and tools. Semrush ships with AI content optimizer. This page documents 8 integrations.
 
 **How much does Semrush cost?**
 Semrush starts at $117/mo. Pro $117/mo (annual) or $140/mo; Guru $250/mo; Business $500/mo; Semrush One $199/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -70,7 +70,7 @@ All-in-one SEO and digital marketing platform with AI-powered insights and tools
 
 SEO & Search · From $117/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Semrush →](https://www.semrush.com)
 
@@ -136,7 +136,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Semrush: All-in-one SEO and digital marketing platform with AI-powered insights and tools. Semrush ships with AI content optimizer. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Semrush: All-in-one SEO and digital marketing platform with AI-powered insights and tools. Semrush ships with AI content optimizer. This page documents 8 integrations.
 
 Semrush starts at $117/mo. Pro $117/mo (annual) or $140/mo; Guru $250/mo; Business $500/mo; Semrush One $199/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -229,7 +229,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Semrush?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Semrush: All-in-one SEO and digital marketing platform with AI-powered insights and tools. Semrush ships with AI content optimizer. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Semrush: All-in-one SEO and digital marketing platform with AI-powered insights and tools. Semrush ships with AI content optimizer. This page documents 8 integrations."
         }
       },
       {

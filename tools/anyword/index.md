@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Anyword?**
-Anyword: AI copywriting platform with predictive performance scores for marketing content. Anyword ships with predictive performance score. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Anyword: AI copywriting platform with predictive performance scores for marketing content. Anyword ships with predictive performance score. This page documents 7 integrations.
 
 **How much does Anyword cost?**
 Anyword starts at $39/mo. Starter $39/mo (annual) or $49/mo; Data-Driven $79/mo (annual) or $99/mo; 7-day free trial. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -71,7 +71,7 @@ AI copywriting platform with predictive performance scores for marketing content
 
 AI Content & Copywriting · From $39/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-13
 
 [Visit Anyword →](https://www.anyword.com)
 
@@ -141,7 +141,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Anyword: AI copywriting platform with predictive performance scores for marketing content. Anyword ships with predictive performance score. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Anyword: AI copywriting platform with predictive performance scores for marketing content. Anyword ships with predictive performance score. This page documents 7 integrations.
 
 Anyword starts at $39/mo. Starter $39/mo (annual) or $49/mo; Data-Driven $79/mo (annual) or $99/mo; 7-day free trial. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -233,7 +233,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Anyword?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Anyword: AI copywriting platform with predictive performance scores for marketing content. Anyword ships with predictive performance score. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Anyword: AI copywriting platform with predictive performance scores for marketing content. Anyword ships with predictive performance score. This page documents 7 integrations."
         }
       },
       {

@@ -194,8 +194,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "Mautic",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/mautic/#app",
-          "url": "https://martechsignal.com/tools/mautic/"
+          "url": "https://martechsignal.com/tools/mautic/",
+          "name": "Mautic"
         }
       },
       {
@@ -203,8 +205,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "Listmonk",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/listmonk/#app",
-          "url": "https://martechsignal.com/tools/listmonk/"
+          "url": "https://martechsignal.com/tools/listmonk/",
+          "name": "Listmonk"
         }
       },
       {
@@ -212,8 +216,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Laudspeaker",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/laudspeaker/#app",
-          "url": "https://martechsignal.com/tools/laudspeaker/"
+          "url": "https://martechsignal.com/tools/laudspeaker/",
+          "name": "Laudspeaker"
         }
       },
       {
@@ -221,8 +227,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "SuiteCRM",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/suitecrm/#app",
-          "url": "https://martechsignal.com/tools/suitecrm/"
+          "url": "https://martechsignal.com/tools/suitecrm/",
+          "name": "SuiteCRM"
         }
       },
       {
@@ -230,8 +238,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "n8n",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/n8n/#app",
-          "url": "https://martechsignal.com/tools/n8n/"
+          "url": "https://martechsignal.com/tools/n8n/",
+          "name": "n8n"
         }
       },
       {
@@ -239,8 +249,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "Matomo",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/matomo/#app",
-          "url": "https://martechsignal.com/tools/matomo/"
+          "url": "https://martechsignal.com/tools/matomo/",
+          "name": "Matomo"
         }
       },
       {
@@ -248,8 +260,10 @@ One email when a new tool review lands, nothing else.
         "position": 7,
         "name": "Twenty",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/twenty/#app",
-          "url": "https://martechsignal.com/tools/twenty/"
+          "url": "https://martechsignal.com/tools/twenty/",
+          "name": "Twenty"
         }
       },
       {
@@ -257,8 +271,10 @@ One email when a new tool review lands, nothing else.
         "position": 8,
         "name": "OpenOutreach",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/openoutreach/#app",
-          "url": "https://martechsignal.com/tools/openoutreach/"
+          "url": "https://martechsignal.com/tools/openoutreach/",
+          "name": "OpenOutreach"
         }
       }
     ]

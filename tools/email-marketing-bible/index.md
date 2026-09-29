@@ -18,7 +18,7 @@
 | ✓ Native integrations include Klaviyo, Mailchimp, Resend (8 listed) |  |
 
 **What is Email Marketing Bible?**
-Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 291 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 291 stars.
 
 **How much does Email Marketing Bible cost?**
 Email Marketing Bible is open source - MIT licensed and free to self-host; the public repository carries 291 stars; native integrations cover Klaviyo, Mailchimp, Resend. You pay in server time and maintenance, not licences.
@@ -73,7 +73,7 @@ KIND: Agent Skill (not an end-to-end platform)
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 [Visit Email Marketing Bible →](https://github.com/CosmoBlk/email-marketing-bible)
 
@@ -143,7 +143,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 291 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 291 stars.
 
 Email Marketing Bible is open source - MIT licensed and free to self-host; the public repository carries 291 stars; native integrations cover Klaviyo, Mailchimp, Resend. You pay in server time and maintenance, not licences.
 
@@ -235,7 +235,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Email Marketing Bible?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 291 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 291 stars."
         }
       },
       {

@@ -377,6 +377,10 @@ html.js .reveal.in, html.js .reveal.in, .reveal.in { opacity: 1; transform: none
 /* breadcrumb */
 .crumb { padding: 1.2rem 0 .4rem; font: 500 0.8rem var(--mono); letter-spacing: .1em; color: var(--muted) }
 .crumb a { color: var(--muted); text-decoration: none; transition: color .2s }
+/* r11 M-14 (2026-09-29): breadcrumb links hit 44px target height. In-content
+   body links stay 17px by design (WCAG 2.2 target-size inline exception —
+   44px inline links would shatter line boxes and readability). */
+.crumb a { min-height: 44px; display: inline-flex; align-items: center }
 .crumb a:hover { color: var(--amber) }
 .crumb span { color: var(--amber) }
 
@@ -492,7 +496,7 @@ html.js .reveal.in, html.js .reveal.in, .reveal.in { opacity: 1; transform: none
 
 /* grouped tool grid */
 .hub-group { padding-top: 1.6rem }
-.hub-group-label { display: flex; align-items: center; gap: .9rem; font: 700 0.8rem var(--mono); letter-spacing: .18em; color: var(--muted); margin-bottom: .2rem }
+.hub-group-label { display: flex; align-items: center; gap: .9rem; font: 700 0.8rem var(--mono); letter-spacing: .18em; color: var(--muted); margin: 0 0 .2rem }
 .hub-group-label i { flex: 1; height: 1px; background: var(--line2) }
 .hub-group-label em { font-style: normal; color: var(--amber) }
 .hub-group .tool-grid { padding-top: 1rem }

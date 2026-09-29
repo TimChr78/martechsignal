@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Sprout Social?**
-Sprout Social: Enterprise social media management with AI-powered analytics and engagement tools. Sprout Social ships with AI assist for replies. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Sprout Social: Enterprise social media management with AI-powered analytics and engagement tools. Sprout Social ships with AI assist for replies. This page documents 8 integrations.
 
 **How much does Sprout Social cost?**
 Sprout Social starts at $249/mo. Standard $249/seat/mo; Professional $399/seat/mo; Advanced custom; 30-day free trial. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -65,7 +65,7 @@ Enterprise social media management with AI-powered analytics and engagement tool
 
 Social Media · From $249/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit Sprout Social →](https://sproutsocial.com)
 
@@ -135,7 +135,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Sprout Social: Enterprise social media management with AI-powered analytics and engagement tools. Sprout Social ships with AI assist for replies. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Sprout Social: Enterprise social media management with AI-powered analytics and engagement tools. Sprout Social ships with AI assist for replies. This page documents 8 integrations.
 
 Sprout Social starts at $249/mo. Standard $249/seat/mo; Professional $399/seat/mo; Advanced custom; 30-day free trial. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -227,7 +227,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Sprout Social?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sprout Social: Enterprise social media management with AI-powered analytics and engagement tools. Sprout Social ships with AI assist for replies. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Sprout Social: Enterprise social media management with AI-powered analytics and engagement tools. Sprout Social ships with AI assist for replies. This page documents 8 integrations."
         }
       },
       {

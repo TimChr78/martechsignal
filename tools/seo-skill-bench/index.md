@@ -18,7 +18,7 @@
 | ✓ Native integrations include Claude Code (1 listed) |  |
 
 **What is SEO Skill Bench?**
-SEO Skill Bench: Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects. SEO Skill Bench ships with headless execution of Claude Code SEO skills. The public repository carries 51 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+SEO Skill Bench: Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects. SEO Skill Bench ships with headless execution of Claude Code SEO skills. The public repository carries 51 stars.
 
 **How much does SEO Skill Bench cost?**
 SEO Skill Bench is open source - MIT licensed and free to self-host; the public repository carries 51 stars. You pay in server time and maintenance, not licences.
@@ -70,7 +70,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-03
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
 
 [Visit SEO Skill Bench →](https://seoagent.com/seo-skill-benchmark)
 
@@ -121,7 +121,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-SEO Skill Bench: Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects. SEO Skill Bench ships with headless execution of Claude Code SEO skills. The public repository carries 51 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+SEO Skill Bench: Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects. SEO Skill Bench ships with headless execution of Claude Code SEO skills. The public repository carries 51 stars.
 
 SEO Skill Bench is open source - MIT licensed and free to self-host; the public repository carries 51 stars. You pay in server time and maintenance, not licences.
 
@@ -201,7 +201,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is SEO Skill Bench?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "SEO Skill Bench: Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects. SEO Skill Bench ships with headless execution of Claude Code SEO skills. The public repository carries 51 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "SEO Skill Bench: Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects. SEO Skill Bench ships with headless execution of Claude Code SEO skills. The public repository carries 51 stars."
         }
       },
       {

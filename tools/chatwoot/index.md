@@ -19,7 +19,7 @@
 | ✓ Native integrations include Slack, Linear, Dialogflow (6 listed) |  |
 
 **What is Chatwoot?**
-Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 36,644 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 36,644 stars.
 
 **How much does Chatwoot cost?**
 Chatwoot has a free tier; paid plans start at $19/mo. Community Edition free self-hosted (MIT Expat; the enterprise/ directory is separately licensed). Cloud: Hacker free (2 agents), Startups $19, Business $39, Enterprise $99 per agent/mo billed annually. Captain AI credits $20 per 1,000. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -78,7 +78,7 @@ Open-source customer engagement suite with Captain AI and full self-hosting
 
 Chatbots & Conversational AI · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit Chatwoot →](https://www.chatwoot.com)
 
@@ -173,7 +173,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 36,644 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 36,644 stars.
 
 Chatwoot has a free tier; paid plans start at $19/mo. Community Edition free self-hosted (MIT Expat; the enterprise/ directory is separately licensed). Cloud: Hacker free (2 agents), Startups $19, Business $39, Enterprise $99 per agent/mo billed annually. Captain AI credits $20 per 1,000. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -271,7 +271,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Chatwoot?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 36,644 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 36,644 stars."
         }
       },
       {

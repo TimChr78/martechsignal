@@ -1,7 +1,5 @@
 # Workflow Automation Tools
 
-OPEN SOURCE / SELF-HOSTED***4*
-
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 
 Open SourceDesk-reviewedOSS
@@ -17,8 +15,6 @@ Open SourceDesk-reviewedOSS
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
 FreemiumDesk-reviewedOSS
-
-COMMERCIAL***5*
 
 No-code automation platform connecting 9,000+ apps with AI-powered workflows
 
@@ -39,8 +35,6 @@ EnterpriseDesk-reviewed
 Enterprise AI governance plus integration and automation on one platform
 
 EnterpriseDesk-reviewed
-
-LOW-CODE INTERNAL BUILDERS***4*
 
 Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
 
@@ -147,6 +141,8 @@ Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents,
 
 17 TOOLS IN THIS CATEGORY
 
+## OPEN SOURCE / SELF-HOSTED***4*
+
 ### LangChain
 
 ### n8n
@@ -154,6 +150,8 @@ Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents,
 ### n8n Marketing Flows
 
 ### Paperclip
+
+## COMMERCIAL***5*
 
 ### Zapier
 
@@ -165,6 +163,8 @@ Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents,
 
 ### Workato
 
+## LOW-CODE INTERNAL BUILDERS***4*
+
 ### Appsmith
 
 ### Budibase
@@ -172,6 +172,8 @@ Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents,
 ### NocoBase
 
 ### ToolJet
+
+## More Workflow Automation tools***4*
 
 ### Activepieces
 

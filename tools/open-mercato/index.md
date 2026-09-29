@@ -19,7 +19,7 @@
 | ✓ Active public repository (1,715 GitHub stars counted at last check) |  |
 
 **What is Open Mercato?**
-Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,715 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,715 stars.
 
 **How much does Open Mercato cost?**
 Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,715 stars. You pay in server time and maintenance, not licences.
@@ -82,7 +82,7 @@ Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Open Mercato →](https://www.openmercato.com/)
 
@@ -163,7 +163,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,715 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,715 stars.
 
 Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,715 stars. You pay in server time and maintenance, not licences.
 
@@ -256,7 +256,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Open Mercato?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,715 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,715 stars."
         }
       },
       {

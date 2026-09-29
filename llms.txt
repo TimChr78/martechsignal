@@ -305,6 +305,11 @@
 
 ## Guides and comparisons
 
+- [Best roundups](https://martechsignal.com/best/)
+- [Versus comparisons](https://martechsignal.com/vs/)
+- [Alternatives guides](https://martechsignal.com/alternatives/)
+- [Strategy guides](https://martechsignal.com/guides/)
+
 - [Best Agent Skills tools (2026): 8 compared](https://martechsignal.com/best/agent-skills-tools/)
 - [Best AI Advertising &amp; Paid Media tools (2026): 8 compared](https://martechsignal.com/best/ai-advertising-tools/)
 - [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](https://martechsignal.com/best/ai-chatbot-tools/)
@@ -358,11 +363,8 @@
 - [Categories](https://martechsignal.com/categories/)
 - [Trending open-source tools](https://martechsignal.com/trending/)
 - [Glossary](https://martechsignal.com/glossary/)
-- [Checklist](https://martechsignal.com/checklist/)
-- [About / editorial policy](https://martechsignal.com/about/)
 - [Author](https://martechsignal.com/authors/tim-christensen/)
 - [Contact](https://martechsignal.com/contact/)
-- [Corrections](https://martechsignal.com/corrections/)
 - [RSS feed](https://martechsignal.com/rss.xml)
 
 ## Machine-readable data

@@ -8,7 +8,7 @@
 | ✓ Native integrations include Claude Code, Anthropic Cowork, OpenAI Codex (8 listed) |  |
 
 **What is Digital Marketing Pro?**
-Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 837 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 837 stars.
 
 **How much does Digital Marketing Pro cost?**
 Digital Marketing Pro is open source - MIT licensed and free to self-host; the public repository carries 837 stars; native integrations cover Claude Code, Anthropic Cowork, OpenAI Codex. You pay in server time and maintenance, not licences.
@@ -70,7 +70,7 @@ KIND: Agent Skill (not an end-to-end platform)
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Digital Marketing Pro →](https://github.com/indranilbanerjee/digital-marketing-pro)
 
@@ -174,7 +174,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 837 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 837 stars.
 
 Digital Marketing Pro is open source - MIT licensed and free to self-host; the public repository carries 837 stars; native integrations cover Claude Code, Anthropic Cowork, OpenAI Codex. You pay in server time and maintenance, not licences.
 
@@ -268,7 +268,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Digital Marketing Pro?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 837 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 837 stars."
         }
       },
       {

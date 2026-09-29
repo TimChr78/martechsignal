@@ -19,7 +19,7 @@
 | ✓ Metrics map to real search demand, so mentions and citations can be traced back to keywords and topics. | ✗ Claude checks consume 8 checks per update, so prompt budgets run down fast with Claude enabled. |
 
 **What is Ahrefs?**
-Ahrefs: Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit. Ahrefs ships with brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude. This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Ahrefs: Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit. Ahrefs ships with brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude. This page documents 4 integrations.
 
 **How much does Ahrefs cost?**
 Ahrefs starts at $129/mo. Lite $129/month, Standard $249/month, Advanced $449/month, Enterprise quoted (verified Sep 2026). Add-ons: Report Builder from $99/month, AI Content Grader from $99/month, extra users $40-100/month. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -146,7 +146,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Ahrefs: Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit. Ahrefs ships with brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude. This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Ahrefs: Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit. Ahrefs ships with brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude. This page documents 4 integrations.
 
 Ahrefs starts at $129/mo. Lite $129/month, Standard $249/month, Advanced $449/month, Enterprise quoted (verified Sep 2026). Add-ons: Report Builder from $99/month, AI Content Grader from $99/month, extra users $40-100/month. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -244,7 +244,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Ahrefs?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ahrefs: Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit. Ahrefs ships with brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude. This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Ahrefs: Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit. Ahrefs ships with brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude. This page documents 4 integrations."
         }
       },
       {

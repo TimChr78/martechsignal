@@ -19,7 +19,7 @@
 | ✓ Native integrations include Slack, Google Sheets, Gmail (8 listed) |  |
 
 **What is n8n?**
-n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,100 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,100 stars.
 
 **How much does n8n cost?**
 n8n has a free tier; paid plans start at €20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -67,7 +67,7 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 
 Workflow Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 Looking for options? [Best n8n alternatives](/alternatives/n8n/)
 
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,100 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,100 stars.
 
 n8n has a free tier; paid plans start at €20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -240,7 +240,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is n8n?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,100 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,100 stars."
         }
       },
       {

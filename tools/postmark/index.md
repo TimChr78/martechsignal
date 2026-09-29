@@ -18,7 +18,7 @@
 | ✓ Free tier to evaluate before committing (Free plan 100 emails/mo (no overages); Basic $15/mo, Pro $16) |  |
 
 **What is Postmark?**
-Postmark: Transactional email API with separated message streams, an MCP server, and published delivery numbers. Postmark ships with MCP server with 24 tools and delivery diagnostics. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Postmark: Transactional email API with separated message streams, an MCP server, and published delivery numbers. Postmark ships with MCP server with 24 tools and delivery diagnostics. This page documents 8 integrations.
 
 **How much does Postmark cost?**
 Postmark has a free tier; paid plans start at $15/mo. Free plan 100 emails/mo (no overages); Basic $15/mo, Pro $16.50/mo, Platform $18/mo, each starting at 10,000 emails; no annual billing; dedicated IPs from $50/mo for 300k+/mo senders. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -79,7 +79,7 @@ Transactional email API with separated message streams, an MCP server, and publi
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
 
 [Visit Postmark →](https://postmarkapp.com)
 
@@ -171,7 +171,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Postmark: Transactional email API with separated message streams, an MCP server, and published delivery numbers. Postmark ships with MCP server with 24 tools and delivery diagnostics. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Postmark: Transactional email API with separated message streams, an MCP server, and published delivery numbers. Postmark ships with MCP server with 24 tools and delivery diagnostics. This page documents 8 integrations.
 
 Postmark has a free tier; paid plans start at $15/mo. Free plan 100 emails/mo (no overages); Basic $15/mo, Pro $16.50/mo, Platform $18/mo, each starting at 10,000 emails; no annual billing; dedicated IPs from $50/mo for 300k+/mo senders. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -264,7 +264,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Postmark?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Postmark: Transactional email API with separated message streams, an MCP server, and published delivery numbers. Postmark ships with MCP server with 24 tools and delivery diagnostics. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Postmark: Transactional email API with separated message streams, an MCP server, and published delivery numbers. Postmark ships with MCP server with 24 tools and delivery diagnostics. This page documents 8 integrations."
         }
       },
       {

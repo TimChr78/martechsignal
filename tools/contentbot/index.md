@@ -18,7 +18,7 @@
 | ✓ Free tier to evaluate before committing (Prepaid $0) |  |
 
 **What is ContentBot?**
-ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations.
 
 **How much does ContentBot cost?**
 ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -71,7 +71,7 @@ AI content automation platform with workflows for blogs, ads, and social posts
 
 AI Content & Copywriting · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit ContentBot →](https://contentbot.ai)
 
@@ -139,7 +139,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations.
 
 ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -226,7 +226,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is ContentBot?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations."
         }
       },
       {

@@ -18,7 +18,7 @@
 | ✓ Free tier to evaluate before committing (Free plan; Essential $14/mo; Pro custom; Business and Advanc) |  |
 
 **What is ManyChat?**
-ManyChat: AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. ManyChat ships with AI flow builder. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+ManyChat: AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. ManyChat ships with AI flow builder. This page documents 7 integrations.
 
 **How much does ManyChat cost?**
 ManyChat has a free tier; paid plans start at $14/mo. Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -67,7 +67,7 @@ AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 
 Chatbots & Conversational AI · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit ManyChat →](https://manychat.com)
 
@@ -137,7 +137,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-ManyChat: AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. ManyChat ships with AI flow builder. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+ManyChat: AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. ManyChat ships with AI flow builder. This page documents 7 integrations.
 
 ManyChat has a free tier; paid plans start at $14/mo. Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -229,7 +229,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is ManyChat?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ManyChat: AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. ManyChat ships with AI flow builder. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "ManyChat: AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. ManyChat ships with AI flow builder. This page documents 7 integrations."
         }
       },
       {

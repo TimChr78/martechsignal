@@ -63,6 +63,8 @@ AI copywriting, message optimization, and publishing platforms, from per-seat ge
 
 13 TOOLS IN THIS CATEGORY
 
+## All tools in this category**
+
 ### Anyword
 
 ### ContentBot

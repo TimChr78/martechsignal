@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is AlphOne?**
-AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 176 stars. AlphOne offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 176 stars. AlphOne offers a public API for custom integrations.
 
 **How much does AlphOne cost?**
 AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 176 stars. Check the licence terms before commercial use.
@@ -68,7 +68,7 @@ Plugin-first CRM (source-available, Elastic 2.0) written in Go
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit AlphOne →](https://github.com/gopherium/AlphOne)
 
@@ -139,7 +139,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 176 stars. AlphOne offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 176 stars. AlphOne offers a public API for custom integrations.
 
 AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 176 stars. Check the licence terms before commercial use.
 
@@ -226,7 +226,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is AlphOne?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 176 stars. AlphOne offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 176 stars. AlphOne offers a public API for custom integrations."
         }
       },
       {

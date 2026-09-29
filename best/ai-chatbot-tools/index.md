@@ -158,8 +158,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "Intercom",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/intercom/#app",
-          "url": "https://martechsignal.com/tools/intercom/"
+          "url": "https://martechsignal.com/tools/intercom/",
+          "name": "Intercom"
         }
       },
       {
@@ -167,8 +169,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "Chatwoot",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/chatwoot/#app",
-          "url": "https://martechsignal.com/tools/chatwoot/"
+          "url": "https://martechsignal.com/tools/chatwoot/",
+          "name": "Chatwoot"
         }
       },
       {
@@ -176,8 +180,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Tidio",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/tidio/#app",
-          "url": "https://martechsignal.com/tools/tidio/"
+          "url": "https://martechsignal.com/tools/tidio/",
+          "name": "Tidio"
         }
       },
       {
@@ -185,8 +191,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "Chatfuel",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/chatfuel/#app",
-          "url": "https://martechsignal.com/tools/chatfuel/"
+          "url": "https://martechsignal.com/tools/chatfuel/",
+          "name": "Chatfuel"
         }
       },
       {
@@ -194,8 +202,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "ManyChat",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/manychat/#app",
-          "url": "https://martechsignal.com/tools/manychat/"
+          "url": "https://martechsignal.com/tools/manychat/",
+          "name": "ManyChat"
         }
       },
       {
@@ -203,8 +213,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "ChatbotX",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/chatbotx/#app",
-          "url": "https://martechsignal.com/tools/chatbotx/"
+          "url": "https://martechsignal.com/tools/chatbotx/",
+          "name": "ChatbotX"
         }
       }
     ]

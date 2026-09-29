@@ -18,7 +18,7 @@
 | ✓ Free tier to evaluate before committing (Free (2 Applets, standard speeds); Pro $2) |  |
 
 **What is IFTTT?**
-IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT ships with AI services on Pro+. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT ships with AI services on Pro+. This page documents 6 integrations.
 
 **How much does IFTTT cost?**
 IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -65,7 +65,7 @@ Consumer-friendly automation connecting apps and smart devices
 
 Workflow Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit IFTTT →](https://ifttt.com)
 
@@ -123,7 +123,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT ships with AI services on Pro+. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT ships with AI services on Pro+. This page documents 6 integrations.
 
 IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -212,7 +212,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is IFTTT?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT ships with AI services on Pro+. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT ships with AI services on Pro+. This page documents 6 integrations."
         }
       },
       {

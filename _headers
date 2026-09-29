@@ -34,6 +34,9 @@
 # M16 (r9): the ARD data entry declares application/ai-catalog+json.
 /catalog-tools.json
   Content-Type: application/ai-catalog+json
+# L-10 (r11, 2026-09-29): same declaration for the sibling catalog file.
+/catalog-categories.json
+  Content-Type: application/ai-catalog+json
 
 # r7 H18 (2026-09-28): the Markdown mirrors stay available to LLM retrieval
 # (llms-full.txt is the retrieval entry point) but leave the indexable set —

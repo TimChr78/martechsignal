@@ -19,7 +19,7 @@
 | ✓ Active public repository (3,325 GitHub stars counted at last check) |  |
 
 **What is MultiPost?**
-MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,325 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,325 stars.
 
 **How much does MultiPost cost?**
 MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,325 stars. You pay in server time and maintenance, not licences.
@@ -67,7 +67,7 @@ Browser extension to publish content to multiple social media platforms with one
 
 Social Media · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit MultiPost →](https://multipost.app)
 
@@ -116,7 +116,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,325 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,325 stars.
 
 MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,325 stars. You pay in server time and maintenance, not licences.
 
@@ -212,7 +212,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is MultiPost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,325 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,325 stars."
         }
       },
       {

@@ -12,7 +12,7 @@ MartechSignal is written and maintained by **Tim Christensen**, a marketing-oper
 
 ## What the directory covers
 
-Today the directory holds 160 active tool records across 14 categories (162 records in the catalog, two of them retired), plus side-by-side comparison pages, an alternatives series, a glossary, and a blog that follows the market between reviews. Two pieces of infrastructure shape how this site treats machines: the catalog in plain JSON for agent readers, and an AI policy page spelling out which crawlers are welcome. Both exist for the same reason. A review site should be readable by the tools the reviews are about.
+Today the directory holds 163 active tool records across 14 categories (165 records in the catalog, two of them retired), plus side-by-side comparison pages, an alternatives series, a glossary, and a blog that follows the market between reviews. Two pieces of infrastructure shape how this site treats machines: the catalog in plain JSON for agent readers, and an AI policy page spelling out which crawlers are welcome. Both exist for the same reason. A review site should be readable by the tools the reviews are about.
 
 ## How we evaluate tools
 
@@ -64,12 +64,10 @@ Corrections, tips, and tool suggestions: reach Tim through the site or on [Linke
       "@type": "Person",
       "name": "Tim Christensen",
       "sameAs": [
-        "https://www.linkedin.com/in/tchristensen78",
         "https://github.com/timchr78"
       ]
     },
     "sameAs": [
-      "https://www.linkedin.com/in/tchristensen78",
       "https://github.com/timchr78"
     ],
     "logo": {

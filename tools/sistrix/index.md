@@ -19,7 +19,7 @@
 | ✓ Monthly cancelation, with a 14-day free trial that includes personal onboarding. | ✗ Listed prices exclude taxes, and outside enterprise agreements invoices are issued in euros only. |
 
 **What is SISTRIX?**
-SISTRIX: German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis. SISTRIX ships with AI Visibility module: mentions, rankings and citations in AI search engines. This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+SISTRIX: German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis. SISTRIX ships with AI Visibility module: mentions, rankings and citations in AI search engines. This page documents 4 integrations.
 
 **How much does SISTRIX cost?**
 SISTRIX starts at €119/mo. Start EUR 119/mo plus taxes; Plus EUR 239/mo; Professional EUR 419/mo; Premium EUR 799/mo. Cancelable monthly; annual contracts reduce the monthly rate (no public figure). Extra users EUR 24.90 on Plus and above. 14-day free trial. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -143,7 +143,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-SISTRIX: German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis. SISTRIX ships with AI Visibility module: mentions, rankings and citations in AI search engines. This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+SISTRIX: German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis. SISTRIX ships with AI Visibility module: mentions, rankings and citations in AI search engines. This page documents 4 integrations.
 
 SISTRIX starts at €119/mo. Start EUR 119/mo plus taxes; Plus EUR 239/mo; Professional EUR 419/mo; Premium EUR 799/mo. Cancelable monthly; annual contracts reduce the monthly rate (no public figure). Extra users EUR 24.90 on Plus and above. 14-day free trial. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -234,7 +234,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is SISTRIX?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "SISTRIX: German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis. SISTRIX ships with AI Visibility module: mentions, rankings and citations in AI search engines. This page documents 4 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "SISTRIX: German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis. SISTRIX ships with AI Visibility module: mentions, rankings and citations in AI search engines. This page documents 4 integrations."
         }
       },
       {

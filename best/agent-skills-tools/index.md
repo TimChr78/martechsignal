@@ -189,8 +189,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "Claude SEO",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/claude-seo/#app",
-          "url": "https://martechsignal.com/tools/claude-seo/"
+          "url": "https://martechsignal.com/tools/claude-seo/",
+          "name": "Claude SEO"
         }
       },
       {
@@ -198,8 +200,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "Claude Ads",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/claude-ads/#app",
-          "url": "https://martechsignal.com/tools/claude-ads/"
+          "url": "https://martechsignal.com/tools/claude-ads/",
+          "name": "Claude Ads"
         }
       },
       {
@@ -207,8 +211,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Google Ads + Meta Ads + GA4 MCP",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/#app",
-          "url": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/"
+          "url": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/",
+          "name": "Google Ads + Meta Ads + GA4 MCP"
         }
       },
       {
@@ -216,8 +222,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "Digital Marketing Pro",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/digital-marketing-pro/#app",
-          "url": "https://martechsignal.com/tools/digital-marketing-pro/"
+          "url": "https://martechsignal.com/tools/digital-marketing-pro/",
+          "name": "Digital Marketing Pro"
         }
       },
       {
@@ -225,8 +233,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "Email Marketing Bible",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/email-marketing-bible/#app",
-          "url": "https://martechsignal.com/tools/email-marketing-bible/"
+          "url": "https://martechsignal.com/tools/email-marketing-bible/",
+          "name": "Email Marketing Bible"
         }
       },
       {
@@ -234,8 +244,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "Zapier GTM Cheat Codes",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/#app",
-          "url": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/"
+          "url": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/",
+          "name": "Zapier GTM Cheat Codes"
         }
       },
       {
@@ -243,8 +255,10 @@ One email when a new tool review lands, nothing else.
         "position": 7,
         "name": "Eve Marketing Team Template",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/eve-marketing-team/#app",
-          "url": "https://martechsignal.com/tools/eve-marketing-team/"
+          "url": "https://martechsignal.com/tools/eve-marketing-team/",
+          "name": "Eve Marketing Team Template"
         }
       },
       {
@@ -252,8 +266,10 @@ One email when a new tool review lands, nothing else.
         "position": 8,
         "name": "OpenClaw Marketing Skills",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#app",
-          "url": "https://martechsignal.com/tools/openclaw-marketing-skills/"
+          "url": "https://martechsignal.com/tools/openclaw-marketing-skills/",
+          "name": "OpenClaw Marketing Skills"
         }
       }
     ]

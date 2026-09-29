@@ -164,8 +164,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "EspoCRM",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/espocrm/#app",
-          "url": "https://martechsignal.com/tools/espocrm/"
+          "url": "https://martechsignal.com/tools/espocrm/",
+          "name": "EspoCRM"
         }
       },
       {
@@ -173,8 +175,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "SuiteCRM",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/suitecrm/#app",
-          "url": "https://martechsignal.com/tools/suitecrm/"
+          "url": "https://martechsignal.com/tools/suitecrm/",
+          "name": "SuiteCRM"
         }
       },
       {
@@ -182,8 +186,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Twenty",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/twenty/#app",
-          "url": "https://martechsignal.com/tools/twenty/"
+          "url": "https://martechsignal.com/tools/twenty/",
+          "name": "Twenty"
         }
       },
       {
@@ -191,8 +197,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "Frappe CRM",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/frappe-crm/#app",
-          "url": "https://martechsignal.com/tools/frappe-crm/"
+          "url": "https://martechsignal.com/tools/frappe-crm/",
+          "name": "Frappe CRM"
         }
       },
       {
@@ -200,8 +208,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "Krayin CRM",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/krayin-crm/#app",
-          "url": "https://martechsignal.com/tools/krayin-crm/"
+          "url": "https://martechsignal.com/tools/krayin-crm/",
+          "name": "Krayin CRM"
         }
       },
       {
@@ -209,8 +219,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "Monica",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/monica/#app",
-          "url": "https://martechsignal.com/tools/monica/"
+          "url": "https://martechsignal.com/tools/monica/",
+          "name": "Monica"
         }
       }
     ]

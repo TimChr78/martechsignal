@@ -185,8 +185,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "Amplitude",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/amplitude/#app",
-          "url": "https://martechsignal.com/tools/amplitude/"
+          "url": "https://martechsignal.com/tools/amplitude/",
+          "name": "Amplitude"
         }
       },
       {
@@ -194,8 +196,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "Matomo",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/matomo/#app",
-          "url": "https://martechsignal.com/tools/matomo/"
+          "url": "https://martechsignal.com/tools/matomo/",
+          "name": "Matomo"
         }
       },
       {
@@ -203,8 +207,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Umami",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/umami/#app",
-          "url": "https://martechsignal.com/tools/umami/"
+          "url": "https://martechsignal.com/tools/umami/",
+          "name": "Umami"
         }
       },
       {
@@ -212,8 +218,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "Mixpanel",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/mixpanel/#app",
-          "url": "https://martechsignal.com/tools/mixpanel/"
+          "url": "https://martechsignal.com/tools/mixpanel/",
+          "name": "Mixpanel"
         }
       },
       {
@@ -221,8 +229,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "Triple Whale",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/triple-whale/#app",
-          "url": "https://martechsignal.com/tools/triple-whale/"
+          "url": "https://martechsignal.com/tools/triple-whale/",
+          "name": "Triple Whale"
         }
       },
       {
@@ -230,8 +240,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "Heap",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/heap/#app",
-          "url": "https://martechsignal.com/tools/heap/"
+          "url": "https://martechsignal.com/tools/heap/",
+          "name": "Heap"
         }
       },
       {
@@ -239,8 +251,10 @@ One email when a new tool review lands, nothing else.
         "position": 7,
         "name": "Northbeam",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/northbeam/#app",
-          "url": "https://martechsignal.com/tools/northbeam/"
+          "url": "https://martechsignal.com/tools/northbeam/",
+          "name": "Northbeam"
         }
       },
       {
@@ -248,8 +262,10 @@ One email when a new tool review lands, nothing else.
         "position": 8,
         "name": "Snowplow",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/snowplow/#app",
-          "url": "https://martechsignal.com/tools/snowplow/"
+          "url": "https://martechsignal.com/tools/snowplow/",
+          "name": "Snowplow"
         }
       }
     ]

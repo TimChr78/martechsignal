@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Tray.io?**
-Tray.io: AI-powered integration platform for building custom automation and AI agents. Tray.io ships with merlin Agent Builder. This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Tray.io: AI-powered integration platform for building custom automation and AI agents. Tray.io ships with merlin Agent Builder. This page documents 10 integrations.
 
 **How much does Tray.io cost?**
 Tray.io uses enterprise pricing, so the number depends on your volume and contract. No published prices. Three tiers (Pro, Team, Enterprise) described by workspaces, log retention, and insights windows; usage metered in Tasks across integration, automation, MCP, and agents. HIPAA, SSO, regional hosting, and Tray IDP are paid add-ons. Demo or sales call required. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
@@ -79,7 +79,7 @@ AI-powered integration platform for building custom automation and AI agents
 
 Workflow Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
 
 [Visit Tray.io →](https://tray.ai)
 
@@ -174,7 +174,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Tray.io: AI-powered integration platform for building custom automation and AI agents. Tray.io ships with merlin Agent Builder. This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Tray.io: AI-powered integration platform for building custom automation and AI agents. Tray.io ships with merlin Agent Builder. This page documents 10 integrations.
 
 Tray.io uses enterprise pricing, so the number depends on your volume and contract. No published prices. Three tiers (Pro, Team, Enterprise) described by workspaces, log retention, and insights windows; usage metered in Tasks across integration, automation, MCP, and agents. HIPAA, SSO, regional hosting, and Tray IDP are paid add-ons. Demo or sales call required. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
 
@@ -267,7 +267,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Tray.io?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Tray.io: AI-powered integration platform for building custom automation and AI agents. Tray.io ships with merlin Agent Builder. This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Tray.io: AI-powered integration platform for building custom automation and AI agents. Tray.io ships with merlin Agent Builder. This page documents 10 integrations."
         }
       },
       {

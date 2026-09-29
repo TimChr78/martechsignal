@@ -176,8 +176,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "Dynamic Yield",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/dynamic-yield/#app",
-          "url": "https://martechsignal.com/tools/dynamic-yield/"
+          "url": "https://martechsignal.com/tools/dynamic-yield/",
+          "name": "Dynamic Yield"
         }
       },
       {
@@ -185,8 +187,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "Twilio Segment",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/segment/#app",
-          "url": "https://martechsignal.com/tools/segment/"
+          "url": "https://martechsignal.com/tools/segment/",
+          "name": "Twilio Segment"
         }
       },
       {
@@ -194,8 +198,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Nosto",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/nosto/#app",
-          "url": "https://martechsignal.com/tools/nosto/"
+          "url": "https://martechsignal.com/tools/nosto/",
+          "name": "Nosto"
         }
       },
       {
@@ -203,8 +209,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "Clerk.io",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/clerk-io/#app",
-          "url": "https://martechsignal.com/tools/clerk-io/"
+          "url": "https://martechsignal.com/tools/clerk-io/",
+          "name": "Clerk.io"
         }
       },
       {
@@ -212,8 +220,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "Tealium",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/tealium/#app",
-          "url": "https://martechsignal.com/tools/tealium/"
+          "url": "https://martechsignal.com/tools/tealium/",
+          "name": "Tealium"
         }
       },
       {
@@ -221,8 +231,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "Flagsmith",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/flagsmith/#app",
-          "url": "https://martechsignal.com/tools/flagsmith/"
+          "url": "https://martechsignal.com/tools/flagsmith/",
+          "name": "Flagsmith"
         }
       },
       {
@@ -230,8 +242,10 @@ One email when a new tool review lands, nothing else.
         "position": 7,
         "name": "GrowthBook",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/growthbook/#app",
-          "url": "https://martechsignal.com/tools/growthbook/"
+          "url": "https://martechsignal.com/tools/growthbook/",
+          "name": "GrowthBook"
         }
       },
       {
@@ -239,8 +253,10 @@ One email when a new tool review lands, nothing else.
         "position": 8,
         "name": "Jitsu",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/jitsu/#app",
-          "url": "https://martechsignal.com/tools/jitsu/"
+          "url": "https://martechsignal.com/tools/jitsu/",
+          "name": "Jitsu"
         }
       }
     ]

@@ -212,8 +212,10 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
         "position": 1,
         "name": "Make",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/make/#app",
-          "url": "https://martechsignal.com/tools/make/"
+          "url": "https://martechsignal.com/tools/make/",
+          "name": "Make"
         }
       },
       {
@@ -221,8 +223,10 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
         "position": 2,
         "name": "Zapier",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/zapier/#app",
-          "url": "https://martechsignal.com/tools/zapier/"
+          "url": "https://martechsignal.com/tools/zapier/",
+          "name": "Zapier"
         }
       },
       {
@@ -230,8 +234,10 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
         "position": 3,
         "name": "Pipedream",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/pipedream/#app",
-          "url": "https://martechsignal.com/tools/pipedream/"
+          "url": "https://martechsignal.com/tools/pipedream/",
+          "name": "Pipedream"
         }
       },
       {
@@ -239,8 +245,10 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
         "position": 4,
         "name": "Tray.io",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/tray-io/#app",
-          "url": "https://martechsignal.com/tools/tray-io/"
+          "url": "https://martechsignal.com/tools/tray-io/",
+          "name": "Tray.io"
         }
       },
       {
@@ -248,8 +256,10 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
         "position": 5,
         "name": "Workato",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/workato/#app",
-          "url": "https://martechsignal.com/tools/workato/"
+          "url": "https://martechsignal.com/tools/workato/",
+          "name": "Workato"
         }
       },
       {
@@ -257,8 +267,10 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
         "position": 6,
         "name": "Activepieces",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/activepieces/#app",
-          "url": "https://martechsignal.com/tools/activepieces/"
+          "url": "https://martechsignal.com/tools/activepieces/",
+          "name": "Activepieces"
         }
       },
       {
@@ -266,8 +278,10 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
         "position": 7,
         "name": "Pabbly Connect",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/pabbly-connect/#app",
-          "url": "https://martechsignal.com/tools/pabbly-connect/"
+          "url": "https://martechsignal.com/tools/pabbly-connect/",
+          "name": "Pabbly Connect"
         }
       },
       {
@@ -275,8 +289,10 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
         "position": 8,
         "name": "Microsoft Power Automate",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/power-automate/#app",
-          "url": "https://martechsignal.com/tools/power-automate/"
+          "url": "https://martechsignal.com/tools/power-automate/",
+          "name": "Microsoft Power Automate"
         }
       },
       {
@@ -284,8 +300,10 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
         "position": 9,
         "name": "IFTTT",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/ifttt/#app",
-          "url": "https://martechsignal.com/tools/ifttt/"
+          "url": "https://martechsignal.com/tools/ifttt/",
+          "name": "IFTTT"
         }
       },
       {
@@ -293,8 +311,10 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
         "position": 10,
         "name": "Budibase",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/budibase/#app",
-          "url": "https://martechsignal.com/tools/budibase/"
+          "url": "https://martechsignal.com/tools/budibase/",
+          "name": "Budibase"
         }
       },
       {
@@ -302,8 +322,10 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
         "position": 11,
         "name": "ToolJet",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/tooljet/#app",
-          "url": "https://martechsignal.com/tools/tooljet/"
+          "url": "https://martechsignal.com/tools/tooljet/",
+          "name": "ToolJet"
         }
       },
       {
@@ -311,8 +333,10 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
         "position": 12,
         "name": "Appsmith",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/appsmith/#app",
-          "url": "https://martechsignal.com/tools/appsmith/"
+          "url": "https://martechsignal.com/tools/appsmith/",
+          "name": "Appsmith"
         }
       }
     ]

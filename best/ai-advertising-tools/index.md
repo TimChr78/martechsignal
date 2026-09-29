@@ -178,8 +178,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "Revealbot (Birch)",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/revealbot/#app",
-          "url": "https://martechsignal.com/tools/revealbot/"
+          "url": "https://martechsignal.com/tools/revealbot/",
+          "name": "Revealbot (Birch)"
         }
       },
       {
@@ -187,8 +189,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "Pencil",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/pencil/#app",
-          "url": "https://martechsignal.com/tools/pencil/"
+          "url": "https://martechsignal.com/tools/pencil/",
+          "name": "Pencil"
         }
       },
       {
@@ -196,8 +200,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Smartly.io",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/smartly-io/#app",
-          "url": "https://martechsignal.com/tools/smartly-io/"
+          "url": "https://martechsignal.com/tools/smartly-io/",
+          "name": "Smartly.io"
         }
       },
       {
@@ -205,8 +211,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "AdCreative.ai",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/adcreative-ai/#app",
-          "url": "https://martechsignal.com/tools/adcreative-ai/"
+          "url": "https://martechsignal.com/tools/adcreative-ai/",
+          "name": "AdCreative.ai"
         }
       },
       {
@@ -214,8 +222,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "Albert AI",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/albert-ai/#app",
-          "url": "https://martechsignal.com/tools/albert-ai/"
+          "url": "https://martechsignal.com/tools/albert-ai/",
+          "name": "Albert AI"
         }
       },
       {
@@ -223,8 +233,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "Madgicx",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/madgicx/#app",
-          "url": "https://martechsignal.com/tools/madgicx/"
+          "url": "https://martechsignal.com/tools/madgicx/",
+          "name": "Madgicx"
         }
       },
       {
@@ -232,8 +244,10 @@ One email when a new tool review lands, nothing else.
         "position": 7,
         "name": "advertools",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/advertools/#app",
-          "url": "https://martechsignal.com/tools/advertools/"
+          "url": "https://martechsignal.com/tools/advertools/",
+          "name": "advertools"
         }
       },
       {
@@ -241,8 +255,10 @@ One email when a new tool review lands, nothing else.
         "position": 8,
         "name": "Opteo",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/opteo/#app",
-          "url": "https://martechsignal.com/tools/opteo/"
+          "url": "https://martechsignal.com/tools/opteo/",
+          "name": "Opteo"
         }
       }
     ]

@@ -107,19 +107,29 @@ def build_hub(terms, term_dates=None):
 {alpha_nav}
 {cards}"""
 
+    # r11 M-8 (2026-09-29): every term page references this set via
+    # inDefinedTermSet, but /glossary/ only emitted an ItemList — the set
+    # itself was declared nowhere. @graph carries both nodes.
     schema = {
         "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Martech Glossary",
-        "description": "Plain-English definitions of marketing technology terms",
-        "numberOfItems": len(terms),
-        **({"dateModified": max(d for d in (term_dates or {}).values() if d)}
-           if term_dates and any((term_dates or {}).values()) else {}),
-        "itemListElement": [
-            {"@type": "ListItem", "position": i + 1, "name": t["term"],
-             "url": f"https://martechsignal.com/glossary/{t['slug']}/"}
-            for i, t in enumerate(sorted_terms)
-        ]
+        "@graph": [
+            {"@type": "DefinedTermSet",
+             "@id": "https://martechsignal.com/glossary/#set",
+             "url": "https://martechsignal.com/glossary/",
+             "name": "Martech Glossary",
+             "description": "Plain-English definitions of marketing technology terms"},
+            {"@type": "ItemList",
+             "name": "Martech Glossary",
+             "description": "Plain-English definitions of marketing technology terms",
+             "numberOfItems": len(terms),
+             **({"dateModified": max(d for d in (term_dates or {}).values() if d)}
+                if term_dates and any((term_dates or {}).values()) else {}),
+             "itemListElement": [
+                 {"@type": "ListItem", "position": i + 1, "name": t["term"],
+                  "url": f"https://martechsignal.com/glossary/{t['slug']}/"}
+                 for i, t in enumerate(sorted_terms)
+             ]},
+        ],
     }
 
     out_dir = GLOSSARY_DIR

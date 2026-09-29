@@ -18,7 +18,7 @@
 | ✓ Active public repository (4,268 GitHub stars counted at last check) |  |
 
 **What is Macro?**
-Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,268 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,268 stars.
 
 **How much does Macro cost?**
 Macro has a free tier; paid plans start at $40/mo. Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -78,7 +78,7 @@ Open source workspace with a self-updating, agent-driven CRM and shared AI team 
 
 CRM · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Macro →](https://macro.com)
 
@@ -174,7 +174,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,268 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,268 stars.
 
 Macro has a free tier; paid plans start at $40/mo. Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -265,7 +265,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Macro?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,268 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,268 stars."
         }
       },
       {

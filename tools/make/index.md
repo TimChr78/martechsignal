@@ -18,7 +18,7 @@
 | ✓ Free tier to evaluate before committing (Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro) |  |
 
 **What is Make?**
-Make: Visual automation platform for building complex workflows with AI agents and apps. Make ships with AI agents. Make offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Make: Visual automation platform for building complex workflows with AI agents and apps. Make ships with AI agents. Make offers a public API for custom integrations.
 
 **How much does Make cost?**
 Make has a free tier; paid plans start at $9/mo. Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -77,7 +77,7 @@ Visual automation platform for building complex workflows with AI agents and app
 
 Workflow Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit Make →](https://www.make.com)
 
@@ -140,7 +140,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Make: Visual automation platform for building complex workflows with AI agents and apps. Make ships with AI agents. Make offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Make: Visual automation platform for building complex workflows with AI agents and apps. Make ships with AI agents. Make offers a public API for custom integrations.
 
 Make has a free tier; paid plans start at $9/mo. Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -242,7 +242,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Make?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Make: Visual automation platform for building complex workflows with AI agents and apps. Make ships with AI agents. Make offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Make: Visual automation platform for building complex workflows with AI agents and apps. Make ships with AI agents. Make offers a public API for custom integrations."
         }
       },
       {

@@ -1,7 +1,5 @@
 # Analytics & Attribution Tools
 
-PRODUCT BEHAVIOR***5*
-
 AI-powered digital analytics platform for product and marketing teams
 
 FreemiumDesk-reviewed
@@ -22,8 +20,6 @@ Customer context infrastructure: behavioral event pipeline for warehouses and AI
 
 Free tierDesk-reviewedOSS
 
-AD SPEND ATTRIBUTION***3*
-
 AI-powered marketing attribution platform connecting ad spend to revenue
 
 EnterpriseDesk-reviewed
@@ -35,8 +31,6 @@ EnterpriseDesk-reviewed
 AI-powered ecommerce analytics and attribution platform for DTC brands
 
 From $59/moDesk-reviewed
-
-SELF-HOSTED WEB ANALYTICS***3*
 
 Open-source web analytics platform with full data ownership and AI-powered insights
 
@@ -123,6 +117,8 @@ Analytics and attribution tools: event tracking, funnels, and what multi-touch c
 
 11 TOOLS IN THIS CATEGORY
 
+## PRODUCT BEHAVIOR***5*
+
 ### Amplitude
 
 ### Heap
@@ -133,11 +129,15 @@ Analytics and attribution tools: event tracking, funnels, and what multi-touch c
 
 ### Snowplow
 
+## AD SPEND ATTRIBUTION***3*
+
 ### Attribution
 
 ### Northbeam
 
 ### Triple Whale
+
+## SELF-HOSTED WEB ANALYTICS***3*
 
 ### Matomo
 

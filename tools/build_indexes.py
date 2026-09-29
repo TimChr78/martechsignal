@@ -63,6 +63,15 @@ def build_categories(cats, tools):
         "name": "Categories",
         "url": "https://martechsignal.com/categories/",
         "description": f"All {len(cats)} tool categories in the MartechSignal directory.",
+        # r11 M-9 (2026-09-29): hasPart for the 14 children — same pattern
+        # as the /guides/ fix (r11 H-6). Single source: the cats list below.
+        "hasPart": [
+            {"@type": "WebPage",
+             "@id": f"https://martechsignal.com/categories/{c['slug']}/",
+             "url": f"https://martechsignal.com/categories/{c['slug']}/",
+             "name": c["name"]}
+            for c in sorted(cats, key=lambda x: x["name"])
+        ],
     }
     return page_shell(
         "Categories | MartechSignal",

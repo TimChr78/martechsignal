@@ -18,7 +18,7 @@
 | ✓ Free tier to evaluate before committing (Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Ent) |  |
 
 **What is Copy.ai?**
-Copy.ai: AI-powered GTM platform for sales and marketing content automation at scale. Copy.ai ships with AI copy generation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Copy.ai: AI-powered GTM platform for sales and marketing content automation at scale. Copy.ai ships with AI copy generation. This page documents 8 integrations.
 
 **How much does Copy.ai cost?**
 Copy.ai has a free tier; paid plans start at $49/mo. Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -67,7 +67,7 @@ AI-powered GTM platform for sales and marketing content automation at scale
 
 AI Content & Copywriting · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-13
 
 [Visit Copy.ai →](https://www.copy.ai)
 
@@ -138,7 +138,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Copy.ai: AI-powered GTM platform for sales and marketing content automation at scale. Copy.ai ships with AI copy generation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Copy.ai: AI-powered GTM platform for sales and marketing content automation at scale. Copy.ai ships with AI copy generation. This page documents 8 integrations.
 
 Copy.ai has a free tier; paid plans start at $49/mo. Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -230,7 +230,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Copy.ai?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Copy.ai: AI-powered GTM platform for sales and marketing content automation at scale. Copy.ai ships with AI copy generation. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Copy.ai: AI-powered GTM platform for sales and marketing content automation at scale. Copy.ai ships with AI copy generation. This page documents 8 integrations."
         }
       },
       {

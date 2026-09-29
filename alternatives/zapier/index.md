@@ -186,8 +186,10 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
         "position": 1,
         "name": "n8n",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/n8n/#app",
-          "url": "https://martechsignal.com/tools/n8n/"
+          "url": "https://martechsignal.com/tools/n8n/",
+          "name": "n8n"
         }
       },
       {
@@ -195,8 +197,10 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
         "position": 2,
         "name": "Make",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/make/#app",
-          "url": "https://martechsignal.com/tools/make/"
+          "url": "https://martechsignal.com/tools/make/",
+          "name": "Make"
         }
       },
       {
@@ -204,8 +208,10 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
         "position": 3,
         "name": "Pipedream",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/pipedream/#app",
-          "url": "https://martechsignal.com/tools/pipedream/"
+          "url": "https://martechsignal.com/tools/pipedream/",
+          "name": "Pipedream"
         }
       },
       {
@@ -213,8 +219,10 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
         "position": 4,
         "name": "Tray.io",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/tray-io/#app",
-          "url": "https://martechsignal.com/tools/tray-io/"
+          "url": "https://martechsignal.com/tools/tray-io/",
+          "name": "Tray.io"
         }
       },
       {
@@ -222,8 +230,10 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
         "position": 5,
         "name": "Budibase",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/budibase/#app",
-          "url": "https://martechsignal.com/tools/budibase/"
+          "url": "https://martechsignal.com/tools/budibase/",
+          "name": "Budibase"
         }
       },
       {
@@ -231,8 +241,10 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
         "position": 6,
         "name": "Pabbly Connect",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/pabbly-connect/#app",
-          "url": "https://martechsignal.com/tools/pabbly-connect/"
+          "url": "https://martechsignal.com/tools/pabbly-connect/",
+          "name": "Pabbly Connect"
         }
       },
       {
@@ -240,8 +252,10 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
         "position": 7,
         "name": "Microsoft Power Automate",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/power-automate/#app",
-          "url": "https://martechsignal.com/tools/power-automate/"
+          "url": "https://martechsignal.com/tools/power-automate/",
+          "name": "Microsoft Power Automate"
         }
       },
       {
@@ -249,8 +263,10 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
         "position": 8,
         "name": "IFTTT",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/ifttt/#app",
-          "url": "https://martechsignal.com/tools/ifttt/"
+          "url": "https://martechsignal.com/tools/ifttt/",
+          "name": "IFTTT"
         }
       },
       {
@@ -258,8 +274,10 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
         "position": 9,
         "name": "Activepieces",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/activepieces/#app",
-          "url": "https://martechsignal.com/tools/activepieces/"
+          "url": "https://martechsignal.com/tools/activepieces/",
+          "name": "Activepieces"
         }
       },
       {
@@ -267,8 +285,10 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
         "position": 10,
         "name": "Workato",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/workato/#app",
-          "url": "https://martechsignal.com/tools/workato/"
+          "url": "https://martechsignal.com/tools/workato/",
+          "name": "Workato"
         }
       }
     ]

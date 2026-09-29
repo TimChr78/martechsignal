@@ -18,7 +18,7 @@
 | ✓ API access for custom integrations |  |
 
 **What is Freshsales?**
-Freshsales: AI-powered CRM with built-in phone, email, and chat for sales teams. Freshsales ships with freddy AI contact and intent scoring (Pro and up). Freshsales offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Freshsales: AI-powered CRM with built-in phone, email, and chat for sales teams. Freshsales ships with freddy AI contact and intent scoring (Pro and up). Freshsales offers a public API for custom integrations.
 
 **How much does Freshsales cost?**
 Freshsales has a free tier; paid plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -75,7 +75,7 @@ AI-powered CRM with built-in phone, email, and chat for sales teams
 
 CRM · Free tier Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit Freshsales →](https://www.freshworks.com/crm/)
 
@@ -154,7 +154,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Freshsales: AI-powered CRM with built-in phone, email, and chat for sales teams. Freshsales ships with freddy AI contact and intent scoring (Pro and up). Freshsales offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Freshsales: AI-powered CRM with built-in phone, email, and chat for sales teams. Freshsales ships with freddy AI contact and intent scoring (Pro and up). Freshsales offers a public API for custom integrations.
 
 Freshsales has a free tier; paid plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -250,7 +250,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Freshsales?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Freshsales: AI-powered CRM with built-in phone, email, and chat for sales teams. Freshsales ships with freddy AI contact and intent scoring (Pro and up). Freshsales offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Freshsales: AI-powered CRM with built-in phone, email, and chat for sales teams. Freshsales ships with freddy AI contact and intent scoring (Pro and up). Freshsales offers a public API for custom integrations."
         }
       },
       {

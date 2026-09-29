@@ -35,6 +35,8 @@ Social scheduling, listening, and analytics, from per-channel schedulers to ente
 
 6 TOOLS IN THIS CATEGORY
 
+## All tools in this category**
+
 ### Brandwatch
 
 ### Buffer

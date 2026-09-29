@@ -150,8 +150,10 @@ One email when a new tool review lands, nothing else.
         "position": 1,
         "name": "Attio",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/attio/#app",
-          "url": "https://martechsignal.com/tools/attio/"
+          "url": "https://martechsignal.com/tools/attio/",
+          "name": "Attio"
         }
       },
       {
@@ -159,8 +161,10 @@ One email when a new tool review lands, nothing else.
         "position": 2,
         "name": "HubSpot CRM",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/hubspot-crm/#app",
-          "url": "https://martechsignal.com/tools/hubspot-crm/"
+          "url": "https://martechsignal.com/tools/hubspot-crm/",
+          "name": "HubSpot CRM"
         }
       },
       {
@@ -168,8 +172,10 @@ One email when a new tool review lands, nothing else.
         "position": 3,
         "name": "Salesforce CRM",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/salesforce-crm/#app",
-          "url": "https://martechsignal.com/tools/salesforce-crm/"
+          "url": "https://martechsignal.com/tools/salesforce-crm/",
+          "name": "Salesforce CRM"
         }
       },
       {
@@ -177,8 +183,10 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "Zoho CRM",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/zoho-crm/#app",
-          "url": "https://martechsignal.com/tools/zoho-crm/"
+          "url": "https://martechsignal.com/tools/zoho-crm/",
+          "name": "Zoho CRM"
         }
       },
       {
@@ -186,8 +194,10 @@ One email when a new tool review lands, nothing else.
         "position": 5,
         "name": "Pipedrive",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/pipedrive/#app",
-          "url": "https://martechsignal.com/tools/pipedrive/"
+          "url": "https://martechsignal.com/tools/pipedrive/",
+          "name": "Pipedrive"
         }
       },
       {
@@ -195,8 +205,10 @@ One email when a new tool review lands, nothing else.
         "position": 6,
         "name": "Freshsales",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/freshsales/#app",
-          "url": "https://martechsignal.com/tools/freshsales/"
+          "url": "https://martechsignal.com/tools/freshsales/",
+          "name": "Freshsales"
         }
       }
     ]

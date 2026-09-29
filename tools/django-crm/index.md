@@ -18,7 +18,7 @@
 | ✓ Native integrations include REST API (OpenAPI 3 schema), Swagger UI, Google OAuth (5 listed) |  |
 
 **What is Django CRM?**
-Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. The public repository carries 2,412 stars. Django CRM offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. The public repository carries 2,412 stars. Django CRM offers a public API for custom integrations.
 
 **How much does Django CRM cost?**
 Django CRM is open source - MIT licensed and free to self-host; the public repository carries 2,412 stars; native integrations cover REST API (OpenAPI 3 schema), Swagger UI, Google OAuth. You pay in server time and maintenance, not licences.
@@ -79,7 +79,7 @@ Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-13
 
 [Visit Django CRM →](https://bottlecrm.io)
 
@@ -161,7 +161,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. The public repository carries 2,412 stars. Django CRM offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. The public repository carries 2,412 stars. Django CRM offers a public API for custom integrations.
 
 Django CRM is open source - MIT licensed and free to self-host; the public repository carries 2,412 stars; native integrations cover REST API (OpenAPI 3 schema), Swagger UI, Google OAuth. You pay in server time and maintenance, not licences.
 
@@ -254,7 +254,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Django CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. The public repository carries 2,412 stars. Django CRM offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. The public repository carries 2,412 stars. Django CRM offers a public API for custom integrations."
         }
       },
       {

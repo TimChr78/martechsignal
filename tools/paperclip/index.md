@@ -19,7 +19,7 @@
 | ✓ Native integrations include Claude Code, Codex, Cursor (local and cloud) (12 listed) |  |
 
 **What is Paperclip?**
-Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 80,357 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 80,357 stars.
 
 **How much does Paperclip cost?**
 Paperclip has a free tier; paid plans start at €10/mo. Self-hosted free (MIT). Hosted cloud: one plan at € 10/month or € 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -81,7 +81,7 @@ Open-source control plane to manage AI agents like a company, hire, schedule, bu
 
 Workflow Automation · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit Paperclip →](https://paperclip.ing)
 
@@ -181,7 +181,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 80,357 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 80,357 stars.
 
 Paperclip has a free tier; paid plans start at €10/mo. Self-hosted free (MIT). Hosted cloud: one plan at € 10/month or € 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -274,7 +274,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Paperclip?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 80,357 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 80,357 stars."
         }
       },
       {

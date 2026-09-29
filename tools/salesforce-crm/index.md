@@ -18,7 +18,7 @@
 | ✓ Native integrations include Slack, Tableau, MuleSoft (8 listed) |  |
 
 **What is Salesforce CRM?**
-Salesforce CRM: Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. Salesforce CRM ships with einstein AI lead scoring. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Salesforce CRM: Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. Salesforce CRM ships with einstein AI lead scoring. This page documents 8 integrations.
 
 **How much does Salesforce CRM cost?**
 Salesforce CRM starts at $25/mo. Starter $25/user/mo; Professional $80/user/mo; Enterprise $165/user/mo; Unlimited $330/user/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -70,7 +70,7 @@ Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 
 CRM · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
 
 [Visit Salesforce CRM →](https://www.salesforce.com/crm/)
 
@@ -144,7 +144,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Salesforce CRM: Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. Salesforce CRM ships with einstein AI lead scoring. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Salesforce CRM: Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. Salesforce CRM ships with einstein AI lead scoring. This page documents 8 integrations.
 
 Salesforce CRM starts at $25/mo. Starter $25/user/mo; Professional $80/user/mo; Enterprise $165/user/mo; Unlimited $330/user/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -236,7 +236,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Salesforce CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Salesforce CRM: Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. Salesforce CRM ships with einstein AI lead scoring. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Salesforce CRM: Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. Salesforce CRM ships with einstein AI lead scoring. This page documents 8 integrations."
         }
       },
       {

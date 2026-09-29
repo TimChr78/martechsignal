@@ -119,8 +119,10 @@ Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics t
         "position": 1,
         "name": "Plausible Analytics",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/plausible/#app",
-          "url": "https://martechsignal.com/tools/plausible/"
+          "url": "https://martechsignal.com/tools/plausible/",
+          "name": "Plausible Analytics"
         }
       },
       {
@@ -128,8 +130,10 @@ Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics t
         "position": 2,
         "name": "Umami",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/umami/#app",
-          "url": "https://martechsignal.com/tools/umami/"
+          "url": "https://martechsignal.com/tools/umami/",
+          "name": "Umami"
         }
       },
       {
@@ -137,8 +141,10 @@ Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics t
         "position": 3,
         "name": "PostHog",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/posthog/#app",
-          "url": "https://martechsignal.com/tools/posthog/"
+          "url": "https://martechsignal.com/tools/posthog/",
+          "name": "PostHog"
         }
       },
       {
@@ -146,8 +152,10 @@ Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics t
         "position": 4,
         "name": "Snowplow",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/snowplow/#app",
-          "url": "https://martechsignal.com/tools/snowplow/"
+          "url": "https://martechsignal.com/tools/snowplow/",
+          "name": "Snowplow"
         }
       },
       {
@@ -155,8 +163,10 @@ Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics t
         "position": 5,
         "name": "Amplitude",
         "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/amplitude/#app",
-          "url": "https://martechsignal.com/tools/amplitude/"
+          "url": "https://martechsignal.com/tools/amplitude/",
+          "name": "Amplitude"
         }
       }
     ]

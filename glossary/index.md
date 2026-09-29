@@ -160,191 +160,202 @@ Plain-English definitions of marketing technology terms. No jargon explaining ja
 ```json
 {
   "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "Martech Glossary",
-  "description": "Plain-English definitions of marketing technology terms",
-  "numberOfItems": 30,
-  "dateModified": "2026-09-28",
-  "itemListElement": [
+  "@graph": [
     {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Account-Based Marketing (ABM)",
-      "url": "https://martechsignal.com/glossary/abm/"
+      "@type": "DefinedTermSet",
+      "@id": "https://martechsignal.com/glossary/#set",
+      "url": "https://martechsignal.com/glossary/",
+      "name": "Martech Glossary",
+      "description": "Plain-English definitions of marketing technology terms"
     },
     {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Agentic Marketing",
-      "url": "https://martechsignal.com/glossary/agentic-marketing/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "AI Agent",
-      "url": "https://martechsignal.com/glossary/ai-agent/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "AI Content Generation",
-      "url": "https://martechsignal.com/glossary/ai-content-generation/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
-      "name": "AI Search Visibility",
-      "url": "https://martechsignal.com/glossary/ai-search-visibility/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 6,
-      "name": "Answer Engine Optimization (AEO)",
-      "url": "https://martechsignal.com/glossary/aeo/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 7,
-      "name": "Attribution Models (First-Touch, Last-Touch, Multi-Touch)",
-      "url": "https://martechsignal.com/glossary/marketing-attribution-models/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 8,
-      "name": "Chatbot (Conversational AI)",
-      "url": "https://martechsignal.com/glossary/chatbot/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 9,
-      "name": "Conversion Rate Optimization (CRO)",
-      "url": "https://martechsignal.com/glossary/cro/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 10,
-      "name": "Customer Data Platform (CDP)",
-      "url": "https://martechsignal.com/glossary/cdp/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 11,
-      "name": "Customer Journey Mapping",
-      "url": "https://martechsignal.com/glossary/customer-journey/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 12,
-      "name": "Customer Relationship Management (CRM)",
-      "url": "https://martechsignal.com/glossary/crm/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 13,
-      "name": "Data Management Platform (DMP)",
-      "url": "https://martechsignal.com/glossary/dmp/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 14,
-      "name": "Demand-Side Platform (DSP)",
-      "url": "https://martechsignal.com/glossary/dsp/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 15,
-      "name": "Dynamic Creative Optimization (DCO)",
-      "url": "https://martechsignal.com/glossary/dco/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 16,
-      "name": "Email Deliverability",
-      "url": "https://martechsignal.com/glossary/deliverability/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 17,
-      "name": "Email Sequence (Drip Campaign)",
-      "url": "https://martechsignal.com/glossary/email-sequence/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 18,
-      "name": "First-Party Data",
-      "url": "https://martechsignal.com/glossary/first-party-data/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 19,
-      "name": "Generative engine optimization (GEO)",
-      "url": "https://martechsignal.com/glossary/geo/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 20,
-      "name": "Lead Scoring",
-      "url": "https://martechsignal.com/glossary/lead-scoring/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 21,
-      "name": "Marketing Automation",
-      "url": "https://martechsignal.com/glossary/marketing-automation/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 22,
-      "name": "Marketing Operations (MarketingOps)",
-      "url": "https://martechsignal.com/glossary/marketing-ops/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 23,
-      "name": "Model Context Protocol (MCP)",
-      "url": "https://martechsignal.com/glossary/mcp/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 24,
-      "name": "MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)",
-      "url": "https://martechsignal.com/glossary/mql-sql/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 25,
-      "name": "Programmatic Advertising",
-      "url": "https://martechsignal.com/glossary/programmatic-advertising/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 26,
-      "name": "Search Engine Optimization (SEO)",
-      "url": "https://martechsignal.com/glossary/seo/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 27,
-      "name": "Social Listening",
-      "url": "https://martechsignal.com/glossary/social-listening/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 28,
-      "name": "UTM Parameters",
-      "url": "https://martechsignal.com/glossary/utm-parameters/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 29,
-      "name": "Website Personalization",
-      "url": "https://martechsignal.com/glossary/personalization/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 30,
-      "name": "Workflow Automation (iPaaS)",
-      "url": "https://martechsignal.com/glossary/workflow-automation/"
+      "@type": "ItemList",
+      "name": "Martech Glossary",
+      "description": "Plain-English definitions of marketing technology terms",
+      "numberOfItems": 30,
+      "dateModified": "2026-09-28",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Account-Based Marketing (ABM)",
+          "url": "https://martechsignal.com/glossary/abm/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Agentic Marketing",
+          "url": "https://martechsignal.com/glossary/agentic-marketing/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI Agent",
+          "url": "https://martechsignal.com/glossary/ai-agent/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "AI Content Generation",
+          "url": "https://martechsignal.com/glossary/ai-content-generation/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "AI Search Visibility",
+          "url": "https://martechsignal.com/glossary/ai-search-visibility/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Answer Engine Optimization (AEO)",
+          "url": "https://martechsignal.com/glossary/aeo/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Attribution Models (First-Touch, Last-Touch, Multi-Touch)",
+          "url": "https://martechsignal.com/glossary/marketing-attribution-models/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Chatbot (Conversational AI)",
+          "url": "https://martechsignal.com/glossary/chatbot/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Conversion Rate Optimization (CRO)",
+          "url": "https://martechsignal.com/glossary/cro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Customer Data Platform (CDP)",
+          "url": "https://martechsignal.com/glossary/cdp/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Customer Journey Mapping",
+          "url": "https://martechsignal.com/glossary/customer-journey/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Customer Relationship Management (CRM)",
+          "url": "https://martechsignal.com/glossary/crm/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Data Management Platform (DMP)",
+          "url": "https://martechsignal.com/glossary/dmp/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "Demand-Side Platform (DSP)",
+          "url": "https://martechsignal.com/glossary/dsp/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "Dynamic Creative Optimization (DCO)",
+          "url": "https://martechsignal.com/glossary/dco/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "Email Deliverability",
+          "url": "https://martechsignal.com/glossary/deliverability/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "Email Sequence (Drip Campaign)",
+          "url": "https://martechsignal.com/glossary/email-sequence/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "name": "First-Party Data",
+          "url": "https://martechsignal.com/glossary/first-party-data/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "name": "Generative engine optimization (GEO)",
+          "url": "https://martechsignal.com/glossary/geo/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "name": "Lead Scoring",
+          "url": "https://martechsignal.com/glossary/lead-scoring/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "name": "Marketing Automation",
+          "url": "https://martechsignal.com/glossary/marketing-automation/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "name": "Marketing Operations (MarketingOps)",
+          "url": "https://martechsignal.com/glossary/marketing-ops/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "name": "Model Context Protocol (MCP)",
+          "url": "https://martechsignal.com/glossary/mcp/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "name": "MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)",
+          "url": "https://martechsignal.com/glossary/mql-sql/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "name": "Programmatic Advertising",
+          "url": "https://martechsignal.com/glossary/programmatic-advertising/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "name": "Search Engine Optimization (SEO)",
+          "url": "https://martechsignal.com/glossary/seo/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "name": "Social Listening",
+          "url": "https://martechsignal.com/glossary/social-listening/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "name": "UTM Parameters",
+          "url": "https://martechsignal.com/glossary/utm-parameters/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "name": "Website Personalization",
+          "url": "https://martechsignal.com/glossary/personalization/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "name": "Workflow Automation (iPaaS)",
+          "url": "https://martechsignal.com/glossary/workflow-automation/"
+        }
+      ]
     }
   ]
 }

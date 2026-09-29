@@ -18,7 +18,7 @@
 | ✓ Native integrations include Google Maps, Instagram (2 listed) |  |
 
 **What is ProspectOS?**
-ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 214 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 214 stars.
 
 **How much does ProspectOS cost?**
 ProspectOS is open source - MIT licensed and free to self-host; the public repository carries 214 stars. You pay in server time and maintenance, not licences.
@@ -68,7 +68,7 @@ Open-source lead prospecting CRM with Google Maps and Instagram scraping
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit ProspectOS →](https://github.com/nando0x/ProspectOS)
 
@@ -133,7 +133,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 214 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 214 stars.
 
 ProspectOS is open source - MIT licensed and free to self-host; the public repository carries 214 stars. You pay in server time and maintenance, not licences.
 
@@ -220,7 +220,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is ProspectOS?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 214 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 214 stars."
         }
       },
       {

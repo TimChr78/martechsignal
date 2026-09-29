@@ -20,7 +20,7 @@
 | ✓ Free tools and live benchmarks (visibility leaderboard, AI traffic index) let you sample the data before paying |  |
 
 **What is Trakkr?**
-Trakkr: AI visibility platform for brands and agencies: citations, perception, competitors. Trakkr ships with citation and AI crawler analytics. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Trakkr: AI visibility platform for brands and agencies: citations, perception, competitors. Trakkr ships with citation and AI crawler analytics. This page documents 6 integrations.
 
 **How much does Trakkr cost?**
 Trakkr starts at $100/mo. Growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands & prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -75,7 +75,7 @@ AI visibility platform for brands and agencies: citations, perception, competito
 
 GEO & LLM Optimization · From $100/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 
 [Visit Trakkr →](https://trakkr.ai/)
 
@@ -151,7 +151,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Trakkr: AI visibility platform for brands and agencies: citations, perception, competitors. Trakkr ships with citation and AI crawler analytics. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Trakkr: AI visibility platform for brands and agencies: citations, perception, competitors. Trakkr ships with citation and AI crawler analytics. This page documents 6 integrations.
 
 Trakkr starts at $100/mo. Growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands & prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -249,7 +249,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Trakkr?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Trakkr: AI visibility platform for brands and agencies: citations, perception, competitors. Trakkr ships with citation and AI crawler analytics. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Trakkr: AI visibility platform for brands and agencies: citations, perception, competitors. Trakkr ships with citation and AI crawler analytics. This page documents 6 integrations."
         }
       },
       {

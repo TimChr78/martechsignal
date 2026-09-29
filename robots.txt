@@ -111,3 +111,42 @@ Disallow: /
 User-agent: Diffbot
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
+
+# r11 M-6 (2026-09-29): the finding was right — seven named training tokens
+# inherited the `*` group instead of an explicit deny. Each gets its own
+# complete group below (RFC 9309 note at the top of this section applies).
+User-agent: AI2Bot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Disallow: /
+
+User-agent: AI2Bot-Dolma
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Disallow: /
+
+User-agent: ImagesiftBot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Disallow: /
+
+User-agent: PanguBot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Disallow: /
+
+User-agent: omgili
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Disallow: /
+
+User-agent: omgilibot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Disallow: /
+
+User-agent: Timpibot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Disallow: /
+
+User-agent: Kangaroo Bot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Disallow: /
+
+User-agent: Cotoyogi
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Disallow: /

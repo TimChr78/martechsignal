@@ -121,8 +121,12 @@ def build():
                 {"@type": "ListItem", "position": i + 1,
                  "name": tools_by_slug[it["slug"]]["name"],
                  # r7 M8 (2026-09-27): item -> #app reference, matching /categories/
-                 "item": {"@id": f"https://martechsignal.com/tools/{it['slug']}/#app",
-                          "url": f"https://martechsignal.com/tools/{it['slug']}/"}}
+                 # r11 M-13 (2026-09-29): typed SoftwareApplication node, not a
+                 # bare stub — hub families now model items identically.
+                 "item": {"@type": "SoftwareApplication",
+                          "@id": f"https://martechsignal.com/tools/{it['slug']}/#app",
+                          "url": f"https://martechsignal.com/tools/{it['slug']}/",
+                          "name": tools_by_slug[it["slug"]]["name"]}}
                 for i, it in enumerate(items)],
         }
         breadcrumb = {

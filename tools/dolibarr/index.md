@@ -19,7 +19,7 @@
 | ✓ Native integrations include REST API, SOAP API, Webhooks (9 listed) |  |
 
 **What is Dolibarr ERP/CRM?**
-Dolibarr ERP/CRM: Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app. Dolibarr ERP/CRM ships with AI content generation and rewriting in editors (stable since 21.0). The public repository carries 7,596 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Dolibarr ERP/CRM: Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app. Dolibarr ERP/CRM ships with AI content generation and rewriting in editors (stable since 21.0). The public repository carries 7,596 stars.
 
 **How much does Dolibarr ERP/CRM cost?**
 Dolibarr ERP/CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 7,596 stars; native integrations cover REST API, SOAP API, Webhooks. You pay in server time and maintenance, not licences.
@@ -76,7 +76,7 @@ Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one P
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
 
 [Visit Dolibarr ERP/CRM →](https://www.dolibarr.org)
 
@@ -168,7 +168,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Dolibarr ERP/CRM: Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app. Dolibarr ERP/CRM ships with AI content generation and rewriting in editors (stable since 21.0). The public repository carries 7,596 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives.
+Dolibarr ERP/CRM: Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app. Dolibarr ERP/CRM ships with AI content generation and rewriting in editors (stable since 21.0). The public repository carries 7,596 stars.
 
 Dolibarr ERP/CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 7,596 stars; native integrations cover REST API, SOAP API, Webhooks. You pay in server time and maintenance, not licences.
 
@@ -261,7 +261,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Dolibarr ERP/CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dolibarr ERP/CRM: Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app. Dolibarr ERP/CRM ships with AI content generation and rewriting in editors (stable since 21.0). The public repository carries 7,596 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Dolibarr ERP/CRM: Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app. Dolibarr ERP/CRM ships with AI content generation and rewriting in editors (stable since 21.0). The public repository carries 7,596 stars."
         }
       },
       {
