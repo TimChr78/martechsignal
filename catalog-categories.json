@@ -360,6 +360,16 @@
             }
           ],
           "why": "WaCRM is a MIT WhatsApp CRM with shared inbox, broadcasts and a bring-your-own-key reply assistant; DeskcommCRM adds selling agents with pre-send guardrails and spend caps; ProspectOS pulls leads from Google Maps and Instagram"
+        },
+        {
+          "if": "You want a real CRM free for a tiny team, with euro pricing when you outgrow it",
+          "then": [
+            {
+              "name": "Zoho CRM",
+              "slug": "zoho-crm"
+            }
+          ],
+          "why": "Zoho CRM is free for 3 users with pipeline, scoring basics, and email included, then Standard at EUR 14 per user per month; automation and AI arrive at Professional EUR 23"
         }
       ],
       "groups": [
@@ -1617,6 +1627,7 @@
       "warmbly",
       "warpdrive",
       "zapier-gtm-cheat-codes"
-    ]
+    ],
+    "intro": "This index lists every open-source tool in the catalog: 80 projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.\n\nOpen source does not mean zero cost. The real price is hosting, upgrades, and whoever answers the pager: projects with active commit histories and commercial sponsors behind them age better than one-maintainer efforts, however generous the license. The per-tool pages carry star counts, license fields, and self-host notes so you can judge maintenance health before you commit a server.\n\nLicense mix matters if you sell the output: MIT and Apache-2.0 projects (45 of the 80 here) impose almost no conditions on commercial use, while the AGPL-3.0 projects (16) require you to release source changes if you run a modified version as a service. Each tool page names its license explicitly so there are no surprises at procurement time."
   }
 ]

@@ -146,6 +146,12 @@ IF You sell through WhatsApp or scrape leads to feed the pipeline
 
 WaCRM is a MIT WhatsApp CRM with shared inbox, broadcasts and a bring-your-own-key reply assistant; DeskcommCRM adds selling agents with pre-send guardrails and spend caps; ProspectOS pulls leads from Google Maps and Instagram
 
+IF You want a real CRM free for a tiny team, with euro pricing when you outgrow it
+
+[Zoho CRM](/tools/zoho-crm/)
+
+Zoho CRM is free for 3 users with pipeline, scoring basics, and email included, then Standard at EUR 14 per user per month; automation and AI arrive at Professional EUR 23
+
 Agentforce Is Free: What Marketing Ops Can Build
 
 What the free Agentforce credits in Salesforce Foundations actually let marketing ops ship

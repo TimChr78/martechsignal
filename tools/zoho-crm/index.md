@@ -20,8 +20,10 @@ Our review covers Zoho CRM's core crm workflow. The full review breaks down wher
 
 - **Pricing:** Freemium
 - **Category:** [CRM](/categories/crm/)
-- **API:** No
-- **Last verified:** 2026-09-28
+- **Free Tier Seats:** 3
+- **Paid Tiers:** 3 (Standard / Professional / Enterprise)
+- **Pricing Currency:** EUR
+- **Ai Assistant:** Zia
 
 **Verdict:** Zoho CRM is a tool in CRM with a free tier. The catalog documents 3 AI features and 6 integrations. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
 
@@ -98,6 +100,14 @@ Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automati
 
 Current plans and limits live on the [Zoho CRM pricing page](https://www.zoho.com/crm/pricing.html).
 
+## Best for
+
+Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline automation, lead scoring basics, and email included. EU buyers who prefer euro-denominated per-seat pricing scale from Standard at EUR 14 to Professional at EUR 23 (automation and AI) and Enterprise at EUR 40.
+
+## Not for
+
+Buyers who want a scored assessment against our rubric: Zoho CRM is one of three catalog tools not yet scored (see the methodology page). Teams that need a self-hostable codebase should look at the open-source CRM options instead; Zoho is proprietary.
+
 ## Pros and cons
 
 ## Related concepts
@@ -132,6 +142,8 @@ Our review covers Zoho CRM's core crm workflow. The full review breaks down wher
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best value for small teams that want a full suite without an enterprise bill.
 ### Quick Facts
+
+### Project stats
 
 Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 
