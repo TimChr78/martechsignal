@@ -73,7 +73,7 @@ def _momentum_block(slugs):
             continue
         _sign = "+" if r["delta"] >= 0 else ""
         _lis.append(
-            f'<li>{esc(r["name"])} — {r["stars"]:,} stars, '
+            f'<li>{esc(r["name"])} - {r["stars"]:,} stars, '
             f'{_sign}{r["delta"]:,} in the {r["days"]}-snapshot window '
             f'to {_end} {_bt.spark_svg(r["series"])} '
             f'<a href="https://github.com/{esc(r["repo"])}" rel="noopener">verify on GitHub</a></li>')
@@ -81,7 +81,7 @@ def _momentum_block(slugs):
         return ""
     return (
         '<section class="hub-links"><h2>Open-source momentum, with receipts</h2>'
-        '<p>Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.</p>'
+        '<p>Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.</p>'
         f'<ul class="momentum">{"".join(_lis)}</ul>'
         '<p><a href="/trending/">All movers on the trending page</a>.</p></section>')
 

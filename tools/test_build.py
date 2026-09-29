@@ -973,7 +973,7 @@ def test_momentum_stars_match_catalog():
     for sub in ("best", "vs"):
         for idxf in (ROOT / sub).glob("*/index.html"):
             html = idxf.read_text()
-            for m in _re.finditer(r"<li>([^<>]+?) — ([\d,]+) stars", html):
+            for m in _re.finditer(r"<li>([^<>]+?) - ([\d,]+) stars", html):
                 name, n = m.group(1).strip(), int(m.group(2).replace(",", ""))
                 rec = by_name.get(name)
                 if rec is None or rec.get("github_stars") is None:
@@ -1423,6 +1423,19 @@ def test_prose_singulars_and_casing():
                 if _re.search(pat, h):
                     bad.append(f"{base}/{f.parent.name}:{label}")
     assert not bad, f"prose artifacts: {bad[:6]}"
+
+
+def test_rendered_html_carries_no_em_dashes():
+    """r15 L-wave / Claude SEO v2.4.1 (2026-09-29): upstream added
+    test_no_em_dash.py to its own suite - the auditor now treats em dashes
+    as machine-generated tells. Rendered pages use the spaced hyphen."""
+    bad = []
+    for f in ROOT.rglob("*.html"):
+        if "deploy-out" in f.parts:
+            continue
+        if "\u2014" in f.read_text():
+            bad.append(str(f.parent.name) or str(f))
+    assert not bad, f"em dashes in rendered output: {bad[:8]}"
 
 
 def test_faq_third_answers_are_unique_per_tool():
