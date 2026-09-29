@@ -112,8 +112,8 @@ Browse the [MartechSignal tools directory](/tools/) for what's competing with Ag
 ## Related reading
 
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Related tools
 
 - [Cordys CRM](/tools/cordys-crm/) - Open-source AI CRM with built-in agents, conversational analytics, and private deployment
@@ -181,7 +181,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1828,
+  "wordCount": 1831,
   "articleSection": "crm"
 }
 ```

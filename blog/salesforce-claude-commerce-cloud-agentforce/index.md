@@ -1,4 +1,4 @@
-# Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough
+# Salesforce puts Claude in Commerce Cloud: a quiet admission
 
 
 |  | Build it (Claude on MCP) | Buy it (native agents) |

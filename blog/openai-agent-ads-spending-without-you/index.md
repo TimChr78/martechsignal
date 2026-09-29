@@ -137,7 +137,7 @@ This post is part of the hub for this topic: [agentic ai advertising](/guides/ag
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 ## Related tools
 
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
@@ -154,8 +154,6 @@ This post is part of the hub for this topic: [agentic ai advertising](/guides/ag
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-More from the directory: [Zoho CRM](/tools/zoho-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -207,7 +205,7 @@ More from the directory: [Zoho CRM](/tools/zoho-crm/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2167,
+  "wordCount": 2163,
   "articleSection": "advertising"
 }
 ```
