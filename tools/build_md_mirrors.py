@@ -8,6 +8,7 @@ and /index.md was a byte-copy of llms.txt. This derives each mirror from the
 page's own rendered HTML: title, lead paragraphs, headings and list items.
 Run after the page builders in deploy.sh.
 """
+import html as _html
 import re
 from pathlib import Path
 
@@ -19,7 +20,7 @@ def html_to_md(html: str) -> str:
     """H10 (2026-09-27): >=95% parity extractor. Tables become pipe tables,
     details/summary become Q/A pairs, dl rows become bullets, inline emphasis kept."""
     title = re.search(r"<title>([^<]+)</title>", html)
-    title = title.group(1).split("|")[0].split("\u00b7")[0].strip() if title else "MartechSignal"
+    title = _html.unescape(title.group(1)).split("|")[0].split("\u00b7")[0].strip() if title else "MartechSignal"
     src = re.sub(r"<(script|style|head)[^>]*>.*?</\1>", " ", html, flags=re.S)
 
     def inline(x):
@@ -28,7 +29,10 @@ def html_to_md(html: str) -> str:
         x = re.sub(r'<a [^>]*href="([^"]+)"[^>]*>(.*?)</a>', r"[\2](\1)", x, flags=re.S)
         x = re.sub(r"<code[^>]*>(.*?)</code>", r"`\1`", x, flags=re.S)
         x = re.sub(r"<[^>]+>", "", x)
-        return re.sub(r"\s+", " ", x).strip()
+        # H-8 (r10, 2026-09-29): entities must not leak into the markdown
+        # (&#10003; instead of ✓). Unescape after tag-stripping; JSON-LD
+        # blocks bypass inline() and stay byte-exact.
+        return _html.unescape(re.sub(r"\s+", " ", x).strip())
 
     out = [f"# {title}", ""]
     for tm in re.finditer(r"<table[^>]*>(.*?)</table>", src, flags=re.S):

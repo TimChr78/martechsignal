@@ -1004,9 +1004,6 @@ def _list_item_thing(t):
 
 
 def _featured_in(slug):
-    """M21 (r9, 2026-09-28): (url, title, verdict) for every best/vs/
-    alternatives page featuring `slug`, cached per build. Verdicts are our own
-    published editorial, so quoting them adds grounded depth."""
     global _FEATURED_CACHE
     if "_FEATURED_CACHE" not in globals():
         _FEATURED_CACHE = {}
@@ -1979,15 +1976,10 @@ def build_category_page(cat, tools):
     except (OSError, ValueError, KeyError):
         pass
     # Editorial guide links stay hand-placed (no data source maps guides to
-    # categories); comparison links above are fully automatic.
-    _CAT_GUIDE = {
-        "marketing-automation": '<b>Guide:</b> <a href="/guides/workflow-automation-strategy/">automation strategy</a>',
-        "content-ai": '<b>Guide:</b> <a href="/guides/ai-seo-tooling/">AI SEO tooling hub</a>',
-        "advertising": '<b>Guide:</b> <a href="/guides/agentic-ai-advertising/">Agentic advertising</a>',
-        "workflow-automation": '<b>Guide:</b> <a href="/guides/mcp-agent-protocols/">MCP and agent protocols</a> &middot; <a href="/guides/workflow-automation-strategy/">automation strategy</a>',
-        "geo-llm-visibility": '<b>Guide:</b> <a href="/guides/generative-engine-optimization/">Generative engine optimization (GEO)</a> &middot; <a href="/glossary/geo/">GEO, defined</a>',
-    }
-    _guide_bit = _CAT_GUIDE.get(cat["slug"], "")
+    # categories); comparison links above are fully automatic. The map lives at
+    # module level as CATEGORY_GUIDES so build_best_vsx can link the same hubs
+    # back from money pages (r10 H-2: no link sinks).
+    _guide_bit = CATEGORY_GUIDES.get(cat["slug"], "")
     _cat_guide = ""
     if _cmp or _guide_bit:
         _bits = ""
