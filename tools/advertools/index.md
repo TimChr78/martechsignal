@@ -15,17 +15,17 @@
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ There is no interface; every task starts in a notebook or a script. |
 | ✓ AI capabilities: claude SERP analytics module (advertools.serp_claude), added in v0.18.0 | ✗ SERP and social functions call external APIs, so quotas and billing come from Google, YouTube and Twitter rather than from advertools. |
-| ✓ Active public repository (1,464 GitHub stars counted at last check) | ✗ Docs are function-by-function reference pages; guided end-to-end workflows are sparse. |
+| ✓ Active public repository (1,468 GitHub stars counted at last check) | ✗ Docs are function-by-function reference pages; guided end-to-end workflows are sparse. |
 | ✓ Native integrations include Python pandas, Scrapy, Google Search API (5 listed) |  |
 | ✓ MIT licensed and pip installable; the analysis functions themselves need no account or key. |  |
 | ✓ Crawler built on Scrapy, so crawl behavior is fully configurable. |  |
 | ✓ v0.18.0 added Claude SERP analytics, useful for LLM answer data. |  |
 
 **What is advertools?**
-advertools: Python toolkit for SEO and advertising analysis in pandas DataFrames. advertools ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0. The public repository carries 1,464 stars.
+advertools: Python toolkit for SEO and advertising analysis in pandas DataFrames. advertools ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0. The public repository carries 1,468 stars.
 
 **How much does advertools cost?**
-advertools is open source - MIT licensed and free to self-host; the public repository carries 1,464 stars; native integrations cover Python pandas, Scrapy, Google Search API. You pay in server time and maintenance, not licences.
+advertools is open source - MIT licensed and free to self-host; the public repository carries 1,468 stars; native integrations cover Python pandas, Scrapy, Google Search API. You pay in server time and maintenance, not licences.
 
 **Is advertools a good self-hosted Advertising & Paid Media tool in 2026?**
 A sharp set of Python functions for people who live in notebooks. No UI, no account, and everything ends up in a DataFrame you build reports from yourself.
@@ -38,7 +38,7 @@ It is a data toolkit rather than a tracking dashboard, but keyword generation, S
 
 - **Pricing:** Open Source
 - **Category:** [Advertising & Paid Media](/categories/advertising/)
-- **GitHub:** ★ 1464
+- **GitHub:** ★ 1468
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
@@ -78,7 +78,7 @@ Python toolkit for SEO and advertising analysis in pandas DataFrames
 
 Advertising & Paid Media · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit advertools →](https://advertools.readthedocs.io)
 
@@ -140,9 +140,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-advertools: Python toolkit for SEO and advertising analysis in pandas DataFrames. advertools ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0. The public repository carries 1,464 stars.
+advertools: Python toolkit for SEO and advertising analysis in pandas DataFrames. advertools ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0. The public repository carries 1,468 stars.
 
-advertools is open source - MIT licensed and free to self-host; the public repository carries 1,464 stars; native integrations cover Python pandas, Scrapy, Google Search API. You pay in server time and maintenance, not licences.
+advertools is open source - MIT licensed and free to self-host; the public repository carries 1,468 stars; native integrations cover Python pandas, Scrapy, Google Search API. You pay in server time and maintenance, not licences.
 
 A sharp set of Python functions for people who live in notebooks. No UI, no account, and everything ends up in a DataFrame you build reports from yourself.
 
@@ -191,7 +191,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/advertools/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -240,7 +240,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is advertools?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "advertools: Python toolkit for SEO and advertising analysis in pandas DataFrames. advertools ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0. The public repository carries 1,464 stars."
+          "text": "advertools: Python toolkit for SEO and advertising analysis in pandas DataFrames. advertools ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0. The public repository carries 1,468 stars."
         }
       },
       {
@@ -248,7 +248,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does advertools cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "advertools is open source - MIT licensed and free to self-host; the public repository carries 1,464 stars; native integrations cover Python pandas, Scrapy, Google Search API. You pay in server time and maintenance, not licences."
+          "text": "advertools is open source - MIT licensed and free to self-host; the public repository carries 1,468 stars; native integrations cover Python pandas, Scrapy, Google Search API. You pay in server time and maintenance, not licences."
         }
       },
       {

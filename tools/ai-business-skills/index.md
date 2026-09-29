@@ -18,17 +18,17 @@
 | ✓ Native integrations include Claude Code, OpenCode, Codex (4 listed) |  |
 
 **What is AI Business Skills?**
-AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 572 stars.
+AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 593 stars.
 
 **How much does AI Business Skills cost?**
-AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 572 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
+AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 593 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
 
 **Is AI Business Skills a good self-hosted Agent Skills tool in 2026?**
 The strongest free skill pack for Vietnamese-market marketing teams. Global agencies will find it useful mainly as a starting point.
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 572
+- **GitHub:** ★ 593
 - **Founded:** 2025
 - **API:** No
 - **Last verified:** 2026-08-28
@@ -71,7 +71,7 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit AI Business Skills →](https://github.com/minhnv0807/ai-business-skills)
 
@@ -137,9 +137,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 572 stars.
+AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 593 stars.
 
-AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 572 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
+AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 593 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
 
 The strongest free skill pack for Vietnamese-market marketing teams. Global agencies will find it useful mainly as a starting point.
 
@@ -175,7 +175,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/ai-business-skills/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-14",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",
@@ -224,7 +224,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is AI Business Skills?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 572 stars."
+          "text": "AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 593 stars."
         }
       },
       {
@@ -232,7 +232,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does AI Business Skills cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 572 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences."
+          "text": "AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 593 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences."
         }
       },
       {

@@ -14,11 +14,11 @@
 | Pros | Cons |
 | --- | --- |
 | ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $23/mo once past the free tier |
-| ✓ AI capabilities: AI agent steps in campaign sequences that branch on classified reply intent | ✗ Young project (316 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: AI agent steps in campaign sequences that branch on classified reply intent | ✗ Young project (333 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ Native integrations include HubSpot, Slack, Zapier (8 listed) |  |
 
 **What is Warmbly?**
-Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 316 stars.
+Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 333 stars.
 
 **How much does Warmbly cost?**
 Warmbly has a free tier; paid plans start at $23/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers.
@@ -28,7 +28,7 @@ The most complete open-source cold email stack we have listed, but young (316 st
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 316
+- **GitHub:** ★ 333
 - **Founded:** 2026
 - **HQ:** London, UK
 - **API:** Yes
@@ -66,7 +66,7 @@ Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Warmbly →](https://warmbly.com)
 
@@ -142,7 +142,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 316 stars.
+Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 333 stars.
 
 Warmbly has a free tier; paid plans start at $23/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers.
 
@@ -185,7 +185,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/warmbly/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-09-24",
     "offers": {
       "@type": "Offer",
@@ -234,7 +234,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Warmbly?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 316 stars."
+          "text": "Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 333 stars."
         }
       },
       {

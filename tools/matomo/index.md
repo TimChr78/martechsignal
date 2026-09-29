@@ -15,11 +15,11 @@
 | --- | --- |
 | ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at $22/mo once past the free tier |
 | ✓ AI capabilities: AI chatbot traffic reports |  |
-| ✓ Active public repository (21,851 GitHub stars counted at last check) |  |
+| ✓ Active public repository (21,908 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WordPress, Matomo Tag Manager, Google Tag Manager (8 listed) |  |
 
 **What is Matomo?**
-Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,851 stars.
+Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,908 stars.
 
 **How much does Matomo cost?**
 Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -41,7 +41,7 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 
 - **Pricing:** Open Source
 - **Category:** [Analytics & Attribution](/categories/analytics/)
-- **GitHub:** ★ 21851
+- **GitHub:** ★ 21908
 - **Founded:** 2007
 - **HQ:** Wellington, New Zealand
 - **API:** Yes
@@ -81,7 +81,7 @@ Open-source web analytics platform with full data ownership and AI-powered insig
 
 Analytics & Attribution · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 Looking for options? [Best Matomo alternatives](/alternatives/matomo/)
 
@@ -174,7 +174,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,851 stars.
+Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,908 stars.
 
 Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
 
@@ -228,7 +228,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/matomo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -277,7 +277,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Matomo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,851 stars."
+          "text": "Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,908 stars."
         }
       },
       {

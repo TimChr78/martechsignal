@@ -13,14 +13,14 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (72 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (73 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ Native integrations include Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage (4 listed) |  |
 
 **What is Warpdrive?**
-Warpdrive: Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box. The public repository carries 72 stars.
+Warpdrive: Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box. The public repository carries 73 stars.
 
 **How much does Warpdrive cost?**
-Warpdrive is open source - MIT licensed and free to self-host; the public repository carries 72 stars; native integrations cover Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage. You pay in server time and maintenance, not licences.
+Warpdrive is open source - MIT licensed and free to self-host; the public repository carries 73 stars; native integrations cover Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage. You pay in server time and maintenance, not licences.
 
 **Is Warpdrive a good self-hosted CRM tool in 2026?**
 A scoped, honestly documented self-hosted Pipedrive alternative whose AI story is an MCP server rather than a model. One maintainer and a private upstream mean you are betting on a person, not a community.
@@ -36,7 +36,7 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 72
+- **GitHub:** ★ 73
 - **API:** No
 - **Last verified:** 2026-09-07
 
@@ -78,7 +78,7 @@ Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail 
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Warpdrive →](https://warpdrivecrm.com)
 
@@ -160,9 +160,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Warpdrive: Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box. The public repository carries 72 stars.
+Warpdrive: Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box. The public repository carries 73 stars.
 
-Warpdrive is open source - MIT licensed and free to self-host; the public repository carries 72 stars; native integrations cover Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage. You pay in server time and maintenance, not licences.
+Warpdrive is open source - MIT licensed and free to self-host; the public repository carries 73 stars; native integrations cover Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage. You pay in server time and maintenance, not licences.
 
 A scoped, honestly documented self-hosted Pipedrive alternative whose AI story is an MCP server rather than a model. One maintainer and a private upstream mean you are betting on a person, not a community.
 
@@ -204,7 +204,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/warpdrive/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-14",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-09-03",
     "offers": {
       "@type": "Offer",
@@ -253,7 +253,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Warpdrive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Warpdrive: Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box. The public repository carries 72 stars."
+          "text": "Warpdrive: Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box. The public repository carries 73 stars."
         }
       },
       {
@@ -261,7 +261,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Warpdrive cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Warpdrive is open source - MIT licensed and free to self-host; the public repository carries 72 stars; native integrations cover Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage. You pay in server time and maintenance, not licences."
+          "text": "Warpdrive is open source - MIT licensed and free to self-host; the public repository carries 73 stars; native integrations cover Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage. You pay in server time and maintenance, not licences."
         }
       },
       {

@@ -197,7 +197,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
 
 ## Which one fits
 
-Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](https://github.com/AgriciDaniel/claude-ads) · [Aaron Marketing Skills](https://github.com/aaron-he-zhu/aaron-marketing-skills)
+Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](https://github.com/AgriciDaniel/claude-ads) · [Google Ads + Meta Ads + GA4 MCP](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
 
 ## Reading before you buy
 

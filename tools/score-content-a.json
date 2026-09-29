@@ -186,7 +186,7 @@
         },
         "operational_maturity": {
           "score": 8,
-          "evidence": "Created in 2020 with 38,710 GitHub stars and a steady v3.x release cadence through v3.3.1 on August 20, 2026 (vendor documentation)."
+          "evidence": "Created in 2020 with 39,072 GitHub stars and a steady v3.x release cadence through v3.3.1 on August 20, 2026 (vendor documentation)."
         }
       },
       "verdict": "Light, cookieless analytics with fully public pricing and an MIT license, where the absence of AI is a deliberate design point rather than a gap. Session replay, heatmaps and the streaming API live on paid Cloud tiers, and the integration surface is small.",

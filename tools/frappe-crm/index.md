@@ -14,11 +14,11 @@
 | Pros | Cons |
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5/mo once past the free tier |
-| ✓ Active public repository (3,501 GitHub stars counted at last check) |  |
+| ✓ Active public repository (3,618 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Twilio, Exotel, WhatsApp (5 listed) |  |
 
 **What is Frappe CRM?**
-Frappe CRM: Fully featured, open source CRM. The public repository carries 3,501 stars.
+Frappe CRM: Fully featured, open source CRM. The public repository carries 3,618 stars.
 
 **How much does Frappe CRM cost?**
 Frappe CRM has a free tier; paid plans start at $5/mo. Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -40,7 +40,7 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 3501
+- **GitHub:** ★ 3618
 - **API:** No
 - **Last verified:** 2026-09-06
 
@@ -82,7 +82,7 @@ Fully featured, open source CRM
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Frappe CRM →](https://frappe.io/crm)
 
@@ -164,7 +164,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Frappe CRM: Fully featured, open source CRM. The public repository carries 3,501 stars.
+Frappe CRM: Fully featured, open source CRM. The public repository carries 3,618 stars.
 
 Frappe CRM has a free tier; paid plans start at $5/mo. Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
 
@@ -215,7 +215,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/frappe-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-27",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-08-25",
     "offers": {
       "@type": "Offer",
@@ -264,7 +264,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Frappe CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Frappe CRM: Fully featured, open source CRM. The public repository carries 3,501 stars."
+          "text": "Frappe CRM: Fully featured, open source CRM. The public repository carries 3,618 stars."
         }
       },
       {

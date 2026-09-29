@@ -15,10 +15,10 @@
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo once past the free tier |
 | ✓ API access for custom integrations |  |
-| ✓ Active public repository (25,261 GitHub stars counted at last check) |  |
+| ✓ Active public repository (25,383 GitHub stars counted at last check) |  |
 
 **What is Monica?**
-Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,261 stars. Monica offers a public API for custom integrations.
+Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,383 stars. Monica offers a public API for custom integrations.
 
 **How much does Monica cost?**
 Monica has a free tier; paid plans start at $9/mo. Self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -43,7 +43,7 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 25261
+- **GitHub:** ★ 25383
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
@@ -85,7 +85,7 @@ Open-source personal CRM for tracking friends, family, and business relationship
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Monica →](https://monicahq.com)
 
@@ -169,7 +169,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,261 stars. Monica offers a public API for custom integrations.
+Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,383 stars. Monica offers a public API for custom integrations.
 
 Monica has a free tier; paid plans start at $9/mo. Self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -222,7 +222,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/monica/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-08-21",
     "offers": {
       "@type": "Offer",
@@ -271,7 +271,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Monica?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,261 stars. Monica offers a public API for custom integrations."
+          "text": "Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,383 stars. Monica offers a public API for custom integrations."
         }
       },
       {

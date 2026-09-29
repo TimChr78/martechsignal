@@ -13,22 +13,22 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (161 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (162 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: mines 12-20 real case studies per run for growth mechanisms |  |
 | ✓ Native integrations include Claude Code, Codex, Claude plugins (3 listed) |  |
 
 **What is Diffmode Growth Tactics?**
-Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 161 stars.
+Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 162 stars.
 
 **How much does Diffmode Growth Tactics cost?**
-Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-host; the public repository carries 161 stars; native integrations cover Claude Code, Codex, Claude plugins. You pay in server time and maintenance, not licences.
+Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-host; the public repository carries 162 stars; native integrations cover Claude Code, Codex, Claude plugins. You pay in server time and maintenance, not licences.
 
 **Is Diffmode Growth Tactics a good self-hosted Agent Skills tool in 2026?**
 A clever use of coding agents for growth ideation with a real anti-generic mechanism built in. Worth a run for any bootstrapped product; expect to filter the 7 to 9 tactics down to one or two worth testing.
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 161
+- **GitHub:** ★ 162
 - **Founded:** 2026
 - **API:** Yes
 - **Last verified:** 2026-08-31
@@ -67,7 +67,7 @@ Free Claude Code/Codex pipeline that mines case studies and rejects obvious grow
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Diffmode Growth Tactics →](https://github.com/acogood/diffmode_free)
 
@@ -132,9 +132,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 161 stars.
+Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 162 stars.
 
-Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-host; the public repository carries 161 stars; native integrations cover Claude Code, Codex, Claude plugins. You pay in server time and maintenance, not licences.
+Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-host; the public repository carries 162 stars; native integrations cover Claude Code, Codex, Claude plugins. You pay in server time and maintenance, not licences.
 
 A clever use of coding agents for growth ideation with a real anti-generic mechanism built in. Worth a run for any bootstrapped product; expect to filter the 7 to 9 tactics down to one or two worth testing.
 
@@ -170,7 +170,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/diffmode-growth-tactics/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-08-31",
     "offers": {
       "@type": "Offer",
@@ -219,7 +219,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Diffmode Growth Tactics?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 161 stars."
+          "text": "Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 162 stars."
         }
       },
       {
@@ -227,7 +227,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Diffmode Growth Tactics cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-host; the public repository carries 161 stars; native integrations cover Claude Code, Codex, Claude plugins. You pay in server time and maintenance, not licences."
+          "text": "Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-host; the public repository carries 162 stars; native integrations cover Claude Code, Codex, Claude plugins. You pay in server time and maintenance, not licences."
         }
       },
       {

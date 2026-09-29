@@ -8,17 +8,17 @@
 | Integrations | 5/10 | An API plus community plugins for ten platforms and API clients for Laravel, Python and Go make up the catalog, with no native marketing integrations documented (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
 | AI capability | 0/10 | A search of the full documentation set, the README and every release from v3.0.3 to v3.3.1 found no AI feature of any kind, and the directory removed earlier AI claims as incorrect (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
 | Openness | 10/10 | MIT-licensed and self-hostable via a two-service Docker compose file, with data retained indefinitely and full ownership of the database (the source repository: [repository](https://github.com/umami-software/umami), verified 2026-09-26). |
-| Operational maturity | 8/10 | Created in 2020 with 38,710 GitHub stars and a steady v3.x release cadence through v3.3.1 on August 20, 2026 (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
+| Operational maturity | 8/10 | Created in 2020 with 39,072 GitHub stars and a steady v3.x release cadence through v3.3.1 on August 20, 2026 (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
 
 
 | Pros | Cons |
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $20/mo once past the free tier |
-| ✓ Active public repository (38,710 GitHub stars counted at last check) |  |
+| ✓ Active public repository (39,072 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WordPress (community plugin), Next.js, Vercel (5 listed) |  |
 
 **What is Umami?**
-Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 38,710 stars. Umami offers a public API for custom integrations.
+Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 39,072 stars. Umami offers a public API for custom integrations.
 
 **How much does Umami cost?**
 Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -37,7 +37,7 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 
 - **Pricing:** Open Source
 - **Category:** [Analytics & Attribution](/categories/analytics/)
-- **GitHub:** ★ 38710
+- **GitHub:** ★ 39072
 - **Founded:** 2020
 - **API:** Yes
 - **Last verified:** 2026-09-07
@@ -76,7 +76,7 @@ Open-source, cookieless web analytics with real-time dashboards, session replay,
 
 Analytics & Attribution · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Umami →](https://umami.is)
 
@@ -159,7 +159,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 38,710 stars. Umami offers a public API for custom integrations.
+Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 39,072 stars. Umami offers a public API for custom integrations.
 
 Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -208,7 +208,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/umami/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-25",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -257,7 +257,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Umami?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 38,710 stars. Umami offers a public API for custom integrations."
+          "text": "Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 39,072 stars. Umami offers a public API for custom integrations."
         }
       },
       {

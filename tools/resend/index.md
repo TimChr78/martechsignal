@@ -14,12 +14,12 @@
 | Pros | Cons |
 | --- | --- |
 | ✓ AI capabilities: AI Email Editor with brand-voice drafting | ✗ Paid plans start at $20/mo once past the free tier |
-| ✓ Active public repository (19,722 GitHub stars counted at last check) | ✗ Closed source - no self-hosting option |
+| ✓ Active public repository (19,793 GitHub stars counted at last check) | ✗ Closed source - no self-hosting option |
 | ✓ Native integrations include Next.js, Vercel, React Email (6 listed) |  |
 | ✓ Free tier to evaluate before committing (Free 3,000 emails/mo (100/day cap, 3 domains); Transactional) |  |
 
 **What is Resend?**
-Resend: Developer-first email API built around React Email, batch sending, and agent tooling. Resend ships with AI Email Editor with brand-voice drafting. The public repository carries 19,722 stars.
+Resend: Developer-first email API built around React Email, batch sending, and agent tooling. Resend ships with AI Email Editor with brand-voice drafting. The public repository carries 19,793 stars.
 
 **How much does Resend cost?**
 Resend has a free tier; paid plans start at $20/mo. Free 3,000 emails/mo (100/day cap, 3 domains); Transactional Pro $20/mo for 50,000; Scale $90-$1,150/mo published tiers; Enterprise custom; Marketing priced by contacts from $40/mo for 5,000; no annual discounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -38,7 +38,7 @@ Yes, and it is one of the better-documented cases in email. Resend hosts an MCP 
 
 - **Pricing:** Freemium
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 19722
+- **GitHub:** ★ 19793
 - **Founded:** 2023
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
@@ -78,7 +78,7 @@ Developer-first email API built around React Email, batch sending, and agent too
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Resend →](https://resend.com)
 
@@ -167,7 +167,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Resend: Developer-first email API built around React Email, batch sending, and agent tooling. Resend ships with AI Email Editor with brand-voice drafting. The public repository carries 19,722 stars.
+Resend: Developer-first email API built around React Email, batch sending, and agent tooling. Resend ships with AI Email Editor with brand-voice drafting. The public repository carries 19,793 stars.
 
 Resend has a free tier; paid plans start at $20/mo. Free 3,000 emails/mo (100/day cap, 3 domains); Transactional Pro $20/mo for 50,000; Scale $90-$1,150/mo published tiers; Enterprise custom; Marketing priced by contacts from $40/mo for 5,000; no annual discounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -211,7 +211,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/resend/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-14",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -269,7 +269,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Resend?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Resend: Developer-first email API built around React Email, batch sending, and agent tooling. Resend ships with AI Email Editor with brand-voice drafting. The public repository carries 19,722 stars."
+          "text": "Resend: Developer-first email API built around React Email, batch sending, and agent tooling. Resend ships with AI Email Editor with brand-voice drafting. The public repository carries 19,793 stars."
         }
       },
       {

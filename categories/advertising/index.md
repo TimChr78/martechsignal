@@ -186,7 +186,7 @@ Vendors in this category: [Revive Adserver](https://www.revive-adserver.com) · 
       "name": "Advertising & Paid Media Tools",
       "description": "Advertising and paid media tools: creative generators, bid platforms, automation, and open-source ad serving. 9 reviewed.",
       "numberOfItems": 9,
-      "dateModified": "2026-09-28",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",

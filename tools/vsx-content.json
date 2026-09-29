@@ -14,7 +14,7 @@
       "sections": [
         {
           "heading": "Positioning",
-          "a": "n8n is an open-source workflow automation platform built for technical marketing and operations teams: a visual builder over 400-plus nodes with custom code steps and API access. Founded 2019 in Berlin, it sells flexibility and control, backed by 206,100 GitHub stars, the largest community in the category. The trade is setup and maintenance effort.",
+          "a": "n8n is an open-source workflow automation platform built for technical marketing and operations teams: a visual builder over 400-plus nodes with custom code steps and API access. Founded 2019 in Berlin, it sells flexibility and control, backed by 206,232 GitHub stars, the largest community in the category. The trade is setup and maintenance effort.",
           "b": "Zapier is the platform most people mean when they say connect two tools without writing code. Founded 2011 in San Francisco, it leads with breadth and onboarding speed: the default for form-to-CRM handoffs and lead-to-Slack alerts. Customization depth is not the pitch."
         },
         {
@@ -162,7 +162,7 @@
       "sections": [
         {
           "heading": "Positioning",
-          "a": "NocoDB turns Postgres or MySQL you already run into an Airtable-style workspace: grids, forms, kanban, calendar, and map views over your existing tables, with per-role permissions, webhooks, and REST APIs. At 64,910 GitHub stars it is the larger project. Its natural home is the spreadsheet sprawl behind campaign ops: content calendars, launch checklists, partner trackers, lead lists.",
+          "a": "NocoDB turns Postgres or MySQL you already run into an Airtable-style workspace: grids, forms, kanban, calendar, and map views over your existing tables, with per-role permissions, webhooks, and REST APIs. At 65,104 GitHub stars it is the larger project. Its natural home is the spreadsheet sprawl behind campaign ops: content calendars, launch checklists, partner trackers, lead lists.",
           "b": "NocoBase is a no-code platform for assembling business systems: CRMs, approval flows, content operations, and dashboards, built data-model-first from configurable collections, pages, and workflow blocks, extended through a plugin architecture that reaches nearly everything including UI blocks. Version 2.0 adds AI employees. It expects data-model thinking rather than grid thinking."
         },
         {
@@ -277,7 +277,7 @@
         {
           "heading": "Deployment and self-hosting",
           "a": "Installation is a documented nine-step wizard: matomo.zip from builds.matomo.org, PHP 8.1 or newer with MySQL 8 or MariaDB 10.6, and an archiving cron job for sites above a few hundred visits a day. WordPress, Shopify, Google Tag Manager, the Google Analytics Importer, and consent tools (OneTrust, Cookiebot) are documented, and cloud data stays in Europe.",
-          "b": "Self-hosting is a small job: an AGPL codebase with 29,000 GitHub stars and a tracking script that weighs under a kilobyte on the page. Cookie-free operation removes the consent-banner question for analytics entirely. Integrations cover WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack."
+          "b": "Self-hosting is a small job: an AGPL codebase with 29,248 GitHub stars and a tracking script that weighs under a kilobyte on the page. Cookie-free operation removes the consent-banner question for analytics entirely. Integrations cover WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack."
         },
         {
           "heading": "AI features",
@@ -397,7 +397,7 @@
       "sections": [
         {
           "heading": "Positioning",
-          "a": "Claude SEO turns Claude Code into an SEO audit machine. You type /seo audit and it spawns up to 15 specialist agents in parallel, each covering a different discipline: technical SEO, content quality, E-E-A-T signals, Schema.org markup, Core Web Vitals, local SEO, ecommerce SEO, international SEO, and AI search optimization (what Google calls GEO). It was founded in 2026. Its repository carries 17,737 stars.",
+          "a": "Claude SEO turns Claude Code into an SEO audit machine. You type /seo audit and it spawns up to 15 specialist agents in parallel, each covering a different discipline: technical SEO, content quality, E-E-A-T signals, Schema.org markup, Core Web Vitals, local SEO, ecommerce SEO, international SEO, and AI search optimization (what Google calls GEO). It was founded in 2026. Its repository carries 17,899 stars.",
           "b": "Semrush is the closest thing the SEO industry has to an operating system: a platform that spans keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid advertising intelligence, social media management, and increasingly, AI search visibility. Founded in 2008 and headquartered in Boston, Semrush serves over 10 million users from freelancers to enterprise marketing teams. It was founded in 2008."
         },
         {

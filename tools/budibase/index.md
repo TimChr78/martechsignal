@@ -15,11 +15,11 @@
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $19/mo once past the free tier |
 | ✓ AI capabilities: AI agents with tools, memory and structured outputs (beta since March 2026) |  |
-| ✓ Active public repository (28,267 GitHub stars counted at last check) |  |
+| ✓ Active public repository (28,326 GitHub stars counted at last check) |  |
 | ✓ Native integrations include PostgreSQL, MySQL, MongoDB (12 listed) |  |
 
 **What is Budibase?**
-Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,267 stars.
+Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,326 stars.
 
 **How much does Budibase cost?**
 Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -38,7 +38,7 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 
 - **Pricing:** Free tier
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 28267
+- **GitHub:** ★ 28326
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
@@ -80,7 +80,7 @@ Open-source operations platform for building AI agents, apps and automations on 
 
 Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Budibase →](https://budibase.com)
 
@@ -177,7 +177,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,267 stars.
+Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,326 stars.
 
 Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -223,7 +223,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/budibase/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-09-05",
     "offers": {
       "@type": "Offer",
@@ -272,7 +272,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Budibase?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,267 stars."
+          "text": "Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,326 stars."
         }
       },
       {

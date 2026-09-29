@@ -15,10 +15,10 @@
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5000/mo once past the free tier |
 | ✓ API access for custom integrations |  |
-| ✓ Active public repository (8,776 GitHub stars counted at last check) |  |
+| ✓ Active public repository (8,838 GitHub stars counted at last check) |  |
 
 **What is IDURAR ERP & CRM?**
-IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,776 stars. IDURAR ERP & CRM offers a public API for custom integrations.
+IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,838 stars. IDURAR ERP & CRM offers a public API for custom integrations.
 
 **How much does IDURAR ERP & CRM cost?**
 IDURAR ERP & CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -37,7 +37,7 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 8776
+- **GitHub:** ★ 8838
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
@@ -75,7 +75,7 @@ Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit IDURAR ERP & CRM →](https://cloud.idurarapp.com)
 
@@ -155,7 +155,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,776 stars. IDURAR ERP & CRM offers a public API for custom integrations.
+IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,838 stars. IDURAR ERP & CRM offers a public API for custom integrations.
 
 IDURAR ERP & CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -199,7 +199,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/idurar-erp-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-08-25",
     "offers": {
       "@type": "Offer",
@@ -248,7 +248,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is IDURAR ERP & CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,776 stars. IDURAR ERP & CRM offers a public API for custom integrations."
+          "text": "IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,838 stars. IDURAR ERP & CRM offers a public API for custom integrations."
         }
       },
       {

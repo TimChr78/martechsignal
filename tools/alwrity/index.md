@@ -16,20 +16,20 @@
 | ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI content strategy and planning |  |
-| ✓ Active public repository (1,157 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,176 GitHub stars counted at last check) |  |
 
 **What is ALwrity?**
-ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,157 stars.
+ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,176 stars.
 
 **How much does ALwrity cost?**
-ALwrity is open source - Free to self-host; the public repository carries 1,157 stars. You pay in server time and maintenance, not licences.
+ALwrity is open source - Free to self-host; the public repository carries 1,176 stars. You pay in server time and maintenance, not licences.
 
 **Is ALwrity a good self-hosted Marketing Automation tool in 2026?**
 A capable self-hosted content engine for technical marketers. Everyone else gets better results from maintained hosted tools.
 
 - **Pricing:** Open Source
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 1157
+- **GitHub:** ★ 1176
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
@@ -71,7 +71,7 @@ AI-first digital marketing platform for content strategy, generation, publishing
 
 Marketing Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-13
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit ALwrity →](https://alwrity.com)
 
@@ -126,9 +126,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,157 stars.
+ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,176 stars.
 
-ALwrity is open source - Free to self-host; the public repository carries 1,157 stars. You pay in server time and maintenance, not licences.
+ALwrity is open source - Free to self-host; the public repository carries 1,176 stars. You pay in server time and maintenance, not licences.
 
 A capable self-hosted content engine for technical marketers. Everyone else gets better results from maintained hosted tools.
 
@@ -168,7 +168,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/alwrity/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-13",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -217,7 +217,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is ALwrity?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,157 stars."
+          "text": "ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,176 stars."
         }
       },
       {
@@ -225,7 +225,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does ALwrity cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ALwrity is open source - Free to self-host; the public repository carries 1,157 stars. You pay in server time and maintenance, not licences."
+          "text": "ALwrity is open source - Free to self-host; the public repository carries 1,176 stars. You pay in server time and maintenance, not licences."
         }
       },
       {

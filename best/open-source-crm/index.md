@@ -76,7 +76,7 @@ Vendor: [Official site](https://www.suitecrm.com) · [GitHub](https://github.com
 
 ## [Twenty](/tools/twenty/)
 
-Twenty is the Salesforce-alternative pitch aimed at technical teams: 56,507 GitHub stars, TypeScript and NestJS on PostgreSQL, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for custom objects and logic functions. Self-hosting is free under AGPLv3 with all Pro features included; cloud Pro costs 9 dollars per user monthly billed yearly, Organization 19 dollars, Enterprise from 50,000 dollars per year. AI is narrow but documented: an AI chatbot over workspace data, AI agents inside workflows, AI-built dashboards, and a native MCP server on cloud workspaces. Its own docs name the fit: startups with technical founders, TypeScript-fluent agencies, and privacy-conscious organizations, and they point everyone else at Pipedrive or HubSpot.
+Twenty is the Salesforce-alternative pitch aimed at technical teams: 57,682 GitHub stars, TypeScript and NestJS on PostgreSQL, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for custom objects and logic functions. Self-hosting is free under AGPLv3 with all Pro features included; cloud Pro costs 9 dollars per user monthly billed yearly, Organization 19 dollars, Enterprise from 50,000 dollars per year. AI is narrow but documented: an AI chatbot over workspace data, AI agents inside workflows, AI-built dashboards, and a native MCP server on cloud workspaces. Its own docs name the fit: startups with technical founders, TypeScript-fluent agencies, and privacy-conscious organizations, and they point everyone else at Pipedrive or HubSpot.
 
 **Verdict:** Best for technically fluent teams wanting a modern extensible CRM.
 
@@ -100,7 +100,7 @@ Vendor: [Official site](https://frappe.io/crm) · [GitHub](https://github.com/fr
 
 ## [Krayin CRM](/tools/krayin-crm/)
 
-Krayin CRM is the Laravel-native option from Webkul: MIT-licensed with no user limits, 23,851 GitHub stars, v2.2.5 shipped August 4, 2026, with the 2.2 branch still taking commits. It covers leads with multiple pipelines, quotes, products and warehouses, unlimited custom fields, role-based access control, embeddable web-to-lead forms, and email templates. Two corrections to common criticism: workflow automation exists (the Automation package provides event triggers, conditions, actions, and webhooks, though docs are thin), and real AI exists (Magic AI creates leads from uploaded PDFs and images using an OpenRouter key). Check the stack first: PHP 8.3 or later with Laravel 12, MySQL 8.0.32 or later, and 3GB of RAM minimum. Paid Webkul extensions include multi-tenant SaaS at 1,799 dollars.
+Krayin CRM is the Laravel-native option from Webkul: MIT-licensed with no user limits, 23,963 GitHub stars, v2.2.5 shipped August 4, 2026, with the 2.2 branch still taking commits. It covers leads with multiple pipelines, quotes, products and warehouses, unlimited custom fields, role-based access control, embeddable web-to-lead forms, and email templates. Two corrections to common criticism: workflow automation exists (the Automation package provides event triggers, conditions, actions, and webhooks, though docs are thin), and real AI exists (Magic AI creates leads from uploaded PDFs and images using an OpenRouter key). Check the stack first: PHP 8.3 or later with Laravel 12, MySQL 8.0.32 or later, and 3GB of RAM minimum. Paid Webkul extensions include multi-tenant SaaS at 1,799 dollars.
 
 **Verdict:** Best for Laravel shops that want room to extend a CRM.
 

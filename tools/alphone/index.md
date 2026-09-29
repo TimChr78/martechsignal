@@ -13,22 +13,22 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ Elastic License 2.0 licence with free self-hosting | ✗ Young project (176 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ Elastic License 2.0 licence with free self-hosting | ✗ Young project (181 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ API access for custom integrations |  |
 | ✓ API access for custom integrations |  |
 
 **What is AlphOne?**
-AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 176 stars. AlphOne offers a public API for custom integrations.
+AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 181 stars. AlphOne offers a public API for custom integrations.
 
 **How much does AlphOne cost?**
-AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 176 stars. Check the licence terms before commercial use.
+AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 181 stars. Check the licence terms before commercial use.
 
 **Is AlphOne a good self-hosted CRM tool in 2026?**
 An API-first CRM built to be driven by n8n and AI agents rather than replace them. Early-stage, split-licensed, and best judged as a foundation for an automated stack.
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 176
+- **GitHub:** ★ 181
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** Yes
@@ -68,7 +68,7 @@ Plugin-first CRM (source-available, Elastic 2.0) written in Go
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit AlphOne →](https://github.com/gopherium/AlphOne)
 
@@ -139,9 +139,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 176 stars. AlphOne offers a public API for custom integrations.
+AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 181 stars. AlphOne offers a public API for custom integrations.
 
-AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 176 stars. Check the licence terms before commercial use.
+AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 181 stars. Check the licence terms before commercial use.
 
 An API-first CRM built to be driven by n8n and AI agents rather than replace them. Early-stage, split-licensed, and best judged as a foundation for an automated stack.
 
@@ -177,7 +177,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/alphone/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-08-29",
     "offers": {
       "@type": "Offer",
@@ -226,7 +226,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is AlphOne?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 176 stars. AlphOne offers a public API for custom integrations."
+          "text": "AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 181 stars. AlphOne offers a public API for custom integrations."
         }
       },
       {
@@ -234,7 +234,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does AlphOne cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 176 stars. Check the licence terms before commercial use."
+          "text": "AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 181 stars. Check the licence terms before commercial use."
         }
       },
       {

@@ -18,17 +18,17 @@
 | ✓ AI capabilities: agentic AI chat marketing |  |
 
 **What is ChatbotX?**
-ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 746 stars.
+ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 843 stars.
 
 **How much does ChatbotX cost?**
-ChatbotX is open source - Free to self-host; the public repository carries 746 stars. You pay in server time and maintenance, not licences.
+ChatbotX is open source - Free to self-host; the public repository carries 843 stars. You pay in server time and maintenance, not licences.
 
 **Is ChatbotX a good self-hosted Chatbots & Conversational AI tool in 2026?**
 Right for technical teams that want ManyChat-style automation without lock-in. Everyone else should stay hosted.
 
 - **Pricing:** Open Source
 - **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
-- **GitHub:** ★ 746
+- **GitHub:** ★ 843
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
@@ -66,7 +66,7 @@ Open-source ManyChat alternative built for AI, omnichannel chat marketing and au
 
 Chatbots & Conversational AI · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-13
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit ChatbotX →](https://chatbotx.io/docs)
 
@@ -117,9 +117,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 746 stars.
+ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 843 stars.
 
-ChatbotX is open source - Free to self-host; the public repository carries 746 stars. You pay in server time and maintenance, not licences.
+ChatbotX is open source - Free to self-host; the public repository carries 843 stars. You pay in server time and maintenance, not licences.
 
 Right for technical teams that want ManyChat-style automation without lock-in. Everyone else should stay hosted.
 
@@ -164,7 +164,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/chatbotx/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-13",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -213,7 +213,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is ChatbotX?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 746 stars."
+          "text": "ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 843 stars."
         }
       },
       {
@@ -221,7 +221,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does ChatbotX cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ChatbotX is open source - Free to self-host; the public repository carries 746 stars. You pay in server time and maintenance, not licences."
+          "text": "ChatbotX is open source - Free to self-host; the public repository carries 843 stars. You pay in server time and maintenance, not licences."
         }
       },
       {

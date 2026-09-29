@@ -13,22 +13,22 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (234 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (248 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: launch asset generation | ✗ Short native integration list - plan for API work |
 | ✓ Native integrations include Claude Code, Blender (2 listed) |  |
 
 **What is Marketing Studio?**
-Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 234 stars.
+Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 248 stars.
 
 **How much does Marketing Studio cost?**
-Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 234 stars. You pay in server time and maintenance, not licences.
+Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 248 stars. You pay in server time and maintenance, not licences.
 
 **Is Marketing Studio a good self-hosted Agent Skills tool in 2026?**
 The most complete open-source take on agent-produced launch assets, with a real pipeline architecture behind the demo. Worth adopting if you already work in Claude Code and need repeatable launch creative; expect to invest in brand tokens and review passes before output is publishable.
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 234
+- **GitHub:** ★ 248
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** No
@@ -68,7 +68,7 @@ Agent-driven marketing studio for Claude Code: launch assets from one command
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Marketing Studio →](https://github.com/ucsandman/marketing-studio)
 
@@ -133,9 +133,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 234 stars.
+Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 248 stars.
 
-Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 234 stars. You pay in server time and maintenance, not licences.
+Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 248 stars. You pay in server time and maintenance, not licences.
 
 The most complete open-source take on agent-produced launch assets, with a real pipeline architecture behind the demo. Worth adopting if you already work in Claude Code and need repeatable launch creative; expect to invest in brand tokens and review passes before output is publishable.
 
@@ -171,7 +171,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/marketing-studio/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-08-29",
     "offers": {
       "@type": "Offer",
@@ -220,7 +220,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Marketing Studio?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 234 stars."
+          "text": "Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 248 stars."
         }
       },
       {
@@ -228,7 +228,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Marketing Studio cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 234 stars. You pay in server time and maintenance, not licences."
+          "text": "Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 248 stars. You pay in server time and maintenance, not licences."
         }
       },
       {

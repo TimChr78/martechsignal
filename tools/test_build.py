@@ -931,6 +931,58 @@ def test_identity_graph_is_unfragmented():
     assert '"@id": "https://martechsignal.com/#logo"' in home, "homepage logo lost @id"
 
 
+def test_homepage_keeps_concept_d_and_analytics():
+    """r14 H-1 (2026-09-29): the r12 head surgery silently dropped the
+    hand-maintained Concept D layout block (6,538 B) and the Umami loader
+    from the homepage. Both are pinned: emitted classes must resolve and
+    the loader must ship."""
+    html = (ROOT / "index.html").read_text()
+    head = html.split("</head>")[0]
+    for cls in (".dot-grid", ".glow-amber", ".hero-kicker", ".stats-band"):
+        assert cls in head, f"Concept D selector {cls} missing"
+    assert "analytics.martechsignal.com/script.js" in html, "Umami loader missing"
+    assert html.count("Concept D homepage") == 1, "Concept D block duplicated or gone"
+
+
+def test_sweep_never_shrinks_head_assets():
+    """r14 H-1 companion: the stylesheet sweep may normalize links but must
+    never reduce a page's script tags or non-critical style blocks (that
+    is how Concept D + Umami died). Checked on the hand-maintained pages."""
+    import re as _re
+    for tpl in ("index.html", "about/index.html",
+                "authors/tim-christensen/index.html"):
+        html = (ROOT / tpl).read_text()
+        n_scripts = len(_re.findall(r"<script", html))
+        n_styles = len(_re.findall(r"<style>", html))
+        assert n_scripts >= 1, f"{tpl} lost all scripts"
+        assert n_styles >= 1, f"{tpl} lost all inline styles"
+
+
+def test_momentum_stars_match_catalog():
+    """r14 H-2 (2026-09-29): one pipeline, one number. Money-page momentum
+    figures read the fresh snapshot while tool pages read the catalog, so
+    40/40 claims diverged upward. The nightly snapshot now syncs
+    github_stars/forks back into the record: every rendered star figure
+    must equal its catalog value."""
+    import json as _j
+    import re as _re
+    recs = _j.loads((ROOT / "tools" / "tools.json").read_text())
+    idx = {x["slug"]: x for x in recs if isinstance(x, dict)}
+    by_name = {x["name"]: x for x in recs if isinstance(x, dict) and x.get("name")}
+    bad = []
+    for sub in ("best", "vs"):
+        for idxf in (ROOT / sub).glob("*/index.html"):
+            html = idxf.read_text()
+            for m in _re.finditer(r"<li>([^<>]+?) — ([\d,]+) stars", html):
+                name, n = m.group(1).strip(), int(m.group(2).replace(",", ""))
+                rec = by_name.get(name)
+                if rec is None or rec.get("github_stars") is None:
+                    continue
+                if rec["github_stars"] != n:
+                    bad.append((rec["slug"], n, rec["github_stars"]))
+    assert not bad, f"star claims diverging from catalog: {bad[:5]}"
+
+
 def test_best_counts_agree_with_items():
     """Stale-count class (M27 r9 + L4 follow-up): ai-crm claimed 8 with 6
     items, geo claimed 8 with 9. Every 'N compared' in title/seo_title/meta

@@ -16,13 +16,13 @@
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI development harness with 192 evaluation cases |  |
-| ✓ Active public repository (1,715 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,787 GitHub stars counted at last check) |  |
 
 **What is Open Mercato?**
-Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,715 stars.
+Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,787 stars.
 
 **How much does Open Mercato cost?**
-Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,715 stars. You pay in server time and maintenance, not licences.
+Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,787 stars. You pay in server time and maintenance, not licences.
 
 **Is Open Mercato a good self-hosted Agent Skills tool in 2026?**
 A credible AI-first foundation for engineering-led commerce and CRM builds; early, fast-moving, and not a turnkey product.
@@ -38,7 +38,7 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 1715
+- **GitHub:** ★ 1787
 - **Founded:** 2025
 - **HQ:** Open source
 - **API:** Yes
@@ -82,7 +82,7 @@ Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Open Mercato →](https://www.openmercato.com/)
 
@@ -163,9 +163,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,715 stars.
+Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,787 stars.
 
-Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,715 stars. You pay in server time and maintenance, not licences.
+Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,787 stars. You pay in server time and maintenance, not licences.
 
 A credible AI-first foundation for engineering-led commerce and CRM builds; early, fast-moving, and not a turnkey product.
 
@@ -207,7 +207,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/open-mercato/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-08-25",
     "offers": {
       "@type": "Offer",
@@ -256,7 +256,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Open Mercato?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,715 stars."
+          "text": "Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,787 stars."
         }
       },
       {
@@ -264,7 +264,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Open Mercato cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,715 stars. You pay in server time and maintenance, not licences."
+          "text": "Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,787 stars. You pay in server time and maintenance, not licences."
         }
       },
       {

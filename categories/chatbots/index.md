@@ -94,7 +94,7 @@ Vendors in this category: [Chatwoot](https://www.chatwoot.com) · [ChatbotX](htt
       "name": "Chatbots & Conversational AI Tools",
       "description": "Conversational AI for marketing and support, from social DM automation to per-resolution AI agents",
       "numberOfItems": 6,
-      "dateModified": "2026-09-28",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",

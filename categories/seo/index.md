@@ -182,7 +182,7 @@ Vendors in this category: [OpenSEO](https://openseo.so) · [Seonaut](https://seo
       "name": "SEO & Search Tools",
       "description": "SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 9 tools with verified pricing.",
       "numberOfItems": 9,
-      "dateModified": "2026-09-28",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",

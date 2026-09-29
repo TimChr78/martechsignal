@@ -13,22 +13,22 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (136 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (141 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: automated site analysis and page grouping by business purpose |  |
 | ✓ Native integrations include GA4, Google Tag Manager, Cursor (5 listed) |  |
 
 **What is Analytics Tracking Automation?**
-Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 136 stars.
+Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 141 stars.
 
 **How much does Analytics Tracking Automation cost?**
-Analytics Tracking Automation is open source - Apache-2.0 licensed and free to self-host; the public repository carries 136 stars; native integrations cover GA4, Google Tag Manager, Cursor. You pay in server time and maintenance, not licences.
+Analytics Tracking Automation is open source - Apache-2.0 licensed and free to self-host; the public repository carries 141 stars; native integrations cover GA4, Google Tag Manager, Cursor. You pay in server time and maintenance, not licences.
 
 **Is Analytics Tracking Automation a good self-hosted Agent Skills tool in 2026?**
 Free and fast if tracking keeps slipping through the cracks. Review every schema it proposes before publishing anything.
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 136
+- **GitHub:** ★ 141
 - **Founded:** 2025
 - **API:** Yes
 - **Last verified:** 2026-08-28
@@ -67,7 +67,7 @@ AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Analytics Tracking Automation →](https://www.jtracking.ai/skills)
 
@@ -134,9 +134,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 136 stars.
+Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 141 stars.
 
-Analytics Tracking Automation is open source - Apache-2.0 licensed and free to self-host; the public repository carries 136 stars; native integrations cover GA4, Google Tag Manager, Cursor. You pay in server time and maintenance, not licences.
+Analytics Tracking Automation is open source - Apache-2.0 licensed and free to self-host; the public repository carries 141 stars; native integrations cover GA4, Google Tag Manager, Cursor. You pay in server time and maintenance, not licences.
 
 Free and fast if tracking keeps slipping through the cracks. Review every schema it proposes before publishing anything.
 
@@ -172,7 +172,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/analytics-tracking-automation/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-14",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",
@@ -221,7 +221,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Analytics Tracking Automation?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 136 stars."
+          "text": "Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 141 stars."
         }
       },
       {
@@ -229,7 +229,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Analytics Tracking Automation cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Analytics Tracking Automation is open source - Apache-2.0 licensed and free to self-host; the public repository carries 136 stars; native integrations cover GA4, Google Tag Manager, Cursor. You pay in server time and maintenance, not licences."
+          "text": "Analytics Tracking Automation is open source - Apache-2.0 licensed and free to self-host; the public repository carries 141 stars; native integrations cover GA4, Google Tag Manager, Cursor. You pay in server time and maintenance, not licences."
         }
       },
       {

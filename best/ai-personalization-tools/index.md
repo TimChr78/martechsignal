@@ -100,7 +100,7 @@ Vendor: [Official site](https://tealium.com) · [Pricing](https://tealium.com/pr
 
 ## [Flagsmith](/tools/flagsmith/)
 
-Flagsmith is an open-source feature flag and remote configuration platform, BSD-3-Clause, with 6,570 GitHub stars, operated commercially by Bullet Train Ltd out of London. It starts free, and cloud free tier up to 50,000 API requests/mo. Scale USD 50/member/month (list 60, launch discount shown Sep 2026). Extra API calls from USD 50 per million. Self-hosted open source is free (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.
+Flagsmith is an open-source feature flag and remote configuration platform, BSD-3-Clause, with 6,582 GitHub stars, operated commercially by Bullet Train Ltd out of London. It starts free, and cloud free tier up to 50,000 API requests/mo. Scale USD 50/member/month (list 60, launch discount shown Sep 2026). Extra API calls from USD 50 per million. Self-hosted open source is free (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Teams that want their experiment engine as open as their stack
 
@@ -112,7 +112,7 @@ Vendor: [Official site](https://www.flagsmith.com) · [Pricing](https://www.flag
 
 ## [GrowthBook](/tools/growthbook/)
 
-GrowthBook is an open-source feature flag and A/B testing platform with 8,430 GitHub stars, built warehouse-native: experiments are analyzed in your own data warehouse instead of a vendor copy of your events. It starts free, and starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.
+GrowthBook is an open-source feature flag and A/B testing platform with 8,449 GitHub stars, built warehouse-native: experiments are analyzed in your own data warehouse instead of a vendor copy of your events. It starts free, and starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for product teams that want feature flags and A/B testing they can self-host, with a free Starter plan for 3 users.
 
@@ -124,7 +124,7 @@ Vendor: [Official site](https://www.growthbook.io) · [Pricing](https://www.grow
 
 ## [Jitsu](/tools/jitsu/)
 
-Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,091 stars on GitHub. It starts free, and free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits (verified 2026-09-25). The catalog documents 1 AI features, 6 integrations, a public API, and a self-hosting path.
+Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,095 stars on GitHub. It starts free, and free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits (verified 2026-09-25). The catalog documents 1 AI features, 6 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for data teams that want open-source event collection in their own warehouse, free to self-host.
 

@@ -18,10 +18,10 @@
 | ✓ API access for custom integrations |  |
 
 **What is Notifo?**
-Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 880 stars. Notifo offers a public API for custom integrations.
+Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 883 stars. Notifo offers a public API for custom integrations.
 
 **How much does Notifo cost?**
-Notifo is open source - MIT licensed and free to self-host; the public repository carries 880 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences.
+Notifo is open source - MIT licensed and free to self-host; the public repository carries 883 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences.
 
 **Is Notifo a good self-hosted Email Marketing tool in 2026?**
 Well-designed notification middleware with a genuine multi-channel model, undermined by a release gap: code moves, but the last release and images are from 2022. Build from source or look elsewhere.
@@ -37,7 +37,7 @@ No, they are unrelated projects with confusingly similar names. Notifo (notifo-i
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 880
+- **GitHub:** ★ 883
 - **Founded:** 2020
 - **API:** Yes
 - **Last verified:** 2026-09-07
@@ -80,7 +80,7 @@ Self-hosted multi-channel notification service for email, SMS, and web push
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Notifo →](https://notifo.io)
 
@@ -164,9 +164,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 880 stars. Notifo offers a public API for custom integrations.
+Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 883 stars. Notifo offers a public API for custom integrations.
 
-Notifo is open source - MIT licensed and free to self-host; the public repository carries 880 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences.
+Notifo is open source - MIT licensed and free to self-host; the public repository carries 883 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences.
 
 Well-designed notification middleware with a genuine multi-channel model, undermined by a release gap: code moves, but the last release and images are from 2022. Build from source or look elsewhere.
 
@@ -208,7 +208,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/notifo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-08-21",
     "offers": {
       "@type": "Offer",
@@ -257,7 +257,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Notifo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 880 stars. Notifo offers a public API for custom integrations."
+          "text": "Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 883 stars. Notifo offers a public API for custom integrations."
         }
       },
       {
@@ -265,7 +265,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Notifo cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Notifo is open source - MIT licensed and free to self-host; the public repository carries 880 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences."
+          "text": "Notifo is open source - MIT licensed and free to self-host; the public repository carries 883 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences."
         }
       },
       {

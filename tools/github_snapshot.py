@@ -54,6 +54,30 @@ for slug, repo in repos:
 hist.append(snapshot)
 json.dump(hist, open(HIST, "w"), indent=1)
 
+# r14 H-2 (2026-09-29): one pipeline, one number. The money-page momentum
+# blocks read the fresh snapshot while tool pages read the catalog record,
+# so every fast-growing repo diverged upward (40/40 claims). Sync the
+# snapshot figures back into the catalog record (stars + forks + check
+# date) so every page quoting a number quotes the same one, stamped with
+# the same date. Per-record human verification (date_updated on other
+# fields) is untouched — only the machine-counted GitHub figures sync.
+_tools_path = os.path.join(REPO, "tools", "tools.json")
+_catalog = json.load(open(_tools_path))
+_records = _catalog if isinstance(_catalog, list) else _catalog.get("tools", [])
+_synced = 0
+for _t in _records:
+    _snap = snapshot["repos"].get(_t.get("slug", ""))
+    if not _snap:
+        continue
+    if _t.get("github_stars") != _snap["stars"] or _t.get("github_forks") != _snap["forks"]:
+        _t["github_stars"] = _snap["stars"]
+        _t["github_forks"] = _snap["forks"]
+        _t["github_checked"] = TODAY
+        _synced += 1
+if _synced:
+    json.dump(_catalog, open(_tools_path, "w"), indent=2, ensure_ascii=False)
+    print(f"[SYNC] {TODAY}: {_synced} catalog records synced to snapshot figures")
+
 if errors:
     print(f"[WARN] {TODAY}: {len(snapshot['repos'])}/{len(repos)} collected; errors: {errors}")
 elif len(snapshot['repos']) == 0:

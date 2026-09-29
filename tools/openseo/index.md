@@ -14,10 +14,10 @@
 | Pros | Cons |
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $10/mo once past the free tier |
-| ✓ Active public repository (18,155 GitHub stars counted at last check) |  |
+| ✓ Active public repository (21,604 GitHub stars counted at last check) |  |
 
 **What is OpenSEO?**
-OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 18,155 stars.
+OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 21,604 stars.
 
 **How much does OpenSEO cost?**
 OpenSEO has a free tier; paid plans start at $10/mo. Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -36,7 +36,7 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 
 - **Pricing:** Open Source
 - **Category:** [SEO & Search](/categories/seo/)
-- **GitHub:** ★ 18155
+- **GitHub:** ★ 21604
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** No
@@ -80,7 +80,7 @@ Open source alternative to Ahrefs and Semrush
 
 SEO & Search · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit OpenSEO →](https://openseo.so)
 
@@ -157,7 +157,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 18,155 stars.
+OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 21,604 stars.
 
 OpenSEO has a free tier; paid plans start at $10/mo. Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -201,7 +201,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/openseo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "offers": {
       "@type": "Offer",
       "price": 10,
@@ -249,7 +249,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is OpenSEO?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 18,155 stars."
+          "text": "OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 21,604 stars."
         }
       },
       {

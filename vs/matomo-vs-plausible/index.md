@@ -71,7 +71,7 @@ Cost picture for a 10K-pageview-per-month site. All figures checked 2026-09-27 o
 
 **Matomo:** Installation is a documented nine-step wizard: matomo.zip from builds.matomo.org, PHP 8.1 or newer with MySQL 8 or MariaDB 10.6, and an archiving cron job for sites above a few hundred visits a day. WordPress, Shopify, Google Tag Manager, the Google Analytics Importer, and consent tools (OneTrust, Cookiebot) are documented, and cloud data stays in Europe.
 
-**Plausible Analytics:** Self-hosting is a small job: an AGPL codebase with 29,000 GitHub stars and a tracking script that weighs under a kilobyte on the page. Cookie-free operation removes the consent-banner question for analytics entirely. Integrations cover WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack.
+**Plausible Analytics:** Self-hosting is a small job: an AGPL codebase with 29,248 GitHub stars and a tracking script that weighs under a kilobyte on the page. Cookie-free operation removes the consent-banner question for analytics entirely. Integrations cover WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack.
 
 ## AI features
 

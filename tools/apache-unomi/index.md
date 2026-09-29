@@ -79,7 +79,7 @@ Apache's open-source customer data platform and personalization engine
 
 Personalization & CDP · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Apache Unomi →](https://unomi.apache.org)
 
@@ -188,7 +188,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/apache-unomi/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-25",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",

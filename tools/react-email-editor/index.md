@@ -15,11 +15,11 @@
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $250/mo once past the free tier |
 | ✓ AI capabilities: AI Assistant chat editing |  |
-| ✓ Active public repository (5,219 GitHub stars counted at last check) |  |
+| ✓ Active public repository (5,231 GitHub stars counted at last check) |  |
 | ✓ Native integrations include React, Angular, Vue (7 listed) |  |
 
 **What is React Email Editor?**
-React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,219 stars.
+React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,231 stars.
 
 **How much does React Email Editor cost?**
 React Email Editor has a free tier; paid plans start at $250/mo. Free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -41,7 +41,7 @@ If you need a fully open pipeline with no third-party dependency, yes, and you s
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 5219
+- **GitHub:** ★ 5231
 - **API:** No
 - **Last verified:** 2026-09-06
 
@@ -83,7 +83,7 @@ Drag-n-Drop Email Editor Component for React.js
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit React Email Editor →](https://unlayer.com/)
 
@@ -173,7 +173,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,219 stars.
+React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,231 stars.
 
 React Email Editor has a free tier; paid plans start at $250/mo. Free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
 
@@ -224,7 +224,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/react-email-editor/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-14",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-08-25",
     "offers": {
       "@type": "Offer",
@@ -273,7 +273,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is React Email Editor?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,219 stars."
+          "text": "React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,231 stars."
         }
       },
       {
