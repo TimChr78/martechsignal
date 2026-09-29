@@ -1534,7 +1534,7 @@
     "slug": "open-source",
     "name": "Open-Source Tools",
     "cross_cutting": true,
-    "description": "78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.",
+    "description": "80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.",
     "meta": "The self-hostable shelf: open-source MarTech across every category, licence claims checkable against the vendor's own repository. {n} tools reviewed.",
     "tools": [
       "aaron-marketing-skills",

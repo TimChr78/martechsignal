@@ -56,7 +56,7 @@ ALwrity
 
 AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
 
-Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment is disclosed on this page.
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 
 [More Marketing Automation Tools →](/categories/marketing-automation/)
 

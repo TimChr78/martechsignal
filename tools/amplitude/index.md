@@ -71,7 +71,7 @@ Triple Whale
 
 AI-powered ecommerce analytics and attribution platform for DTC brands
 
-Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment is disclosed on this page.
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 
 [More Analytics & Attribution Tools →](/categories/analytics/)
 

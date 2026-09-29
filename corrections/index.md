@@ -1,5 +1,11 @@
 # Corrections
 
+2026-09-29
+
+2026-09-29
+
+2026-09-29
+
 2026-09-26
 
 2026-09-26
@@ -25,6 +31,18 @@
 ## Corrections
 
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
+
+## Homepage layout and analytics loss, introduced by our own deploy
+
+Our Sep 29 stylesheet sweep deleted the homepage's hand-maintained layout block (about 6.5 KB of CSS) and dropped the privacy-friendly analytics loader from the homepage and about page. The result shipped unverified: the tool index rendered as a run-on paragraph and visits went unmeasured. Both are restored, and build-time checks now fail if a sweep ever removes scripts or layout styles again.
+
+## Star counts disagreed between pages
+
+Momentum figures on comparison pages were read from our daily snapshot pipeline while tool pages quoted older catalog numbers, so fast-moving repositories showed different star counts on different pages (40 claims checked, all divergent). Both now draw from one synced source with one date. Older star literals in prose were refreshed to the synced values.
+
+## Duplicate verdicts and a currency render bug
+
+Three comparison pages shipped byte-identical verdict sentences for different tools wherever a per-tool verdict was missing; the fallback is removed and the build now fails on duplicates. Separately, seven tool pages rendered dollar signs on euro prices because the price template ignored each record's currency field; symbols now render from the record. HubSpot's schema showed only a paid tier while the page says free; the structured data now carries both tiers.
 
 ## Claude SEO ownership disclosure, founding date, and star count
 

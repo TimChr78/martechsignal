@@ -202,25 +202,37 @@ ALT_INTRO = [
 
 
 def build():
+    # r14 M-10 (2026-09-29): counts derived from the children lists, not
+    # hardcoded — "Three best-of lists" shipped while /best/ grew to 15.
+    _num = {1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six",
+            7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten", 11: "Eleven",
+            12: "Twelve", 13: "Thirteen", 14: "Fourteen", 15: "Fifteen",
+            16: "Sixteen", 17: "Seventeen", 18: "Eighteen"}
+    _best_kids = _children(BESTX, "/best/")
+    _vs_kids = _children(VSX, "/vs/")
+    _alt_kids = _children(ALT, "/alternatives/")
+    _nb = _num.get(len(_best_kids), str(len(_best_kids)))
+    _nv = _num.get(len(_vs_kids), str(len(_vs_kids)))
+    _na = _num.get(len(_alt_kids), str(len(_alt_kids)))
     sections = [
         ("best", "Best-of lists",
          "Best-of lists (2026): open-source CRM, workflow, AI SEO",
-         "Three best-of lists: open-source CRM, workflow automation platforms "
-         "and AI SEO tools, each with catalog-grounded pricing, a verdict and "
-         "a skip-it line per tool.",
-         BEST_INTRO, _children(BESTX, "/best/")),
+         f"{_nb} best-of lists with catalog-grounded pricing, a verdict and "
+         "a skip-it line per tool: open-source CRM, workflow automation "
+         "platforms and AI SEO.",
+         BEST_INTRO, _best_kids),
         ("vs", "Head-to-head comparisons",
          "Head-to-head comparisons: n8n, NocoDB and Matomo (2026)",
-         "Eight head-to-head comparisons: n8n vs Zapier, NocoDB vs NocoBase "
+         f"{_nv} head-to-head comparisons: n8n vs Zapier, NocoDB vs NocoBase "
          "and Matomo vs Plausible, built on catalog facts with a clear pick "
          "for each team.",
-         VS_INTRO, _children(VSX, "/vs/")),
+         VS_INTRO, _vs_kids),
         ("alternatives", "Alternatives guides",
          "Alternatives guides: HubSpot CRM, Zapier, Matomo (2026)",
-         "Three alternatives guides: options besides HubSpot CRM, Zapier and "
+         f"{_na} alternatives guides: options besides HubSpot CRM, Zapier and "
          "Matomo, with who each pick fits, who should skip it and "
          "vendor-published pricing.",
-         ALT_INTRO, _children(ALT, "/alternatives/")),
+         ALT_INTRO, _alt_kids),
     ]
     for section, h1, seo_title, meta, intro, children in sections:
         assert children, f"hub /{section}/ has no live children"

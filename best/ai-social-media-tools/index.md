@@ -45,7 +45,7 @@ Star counts we snapshot ourselves every morning — check any of them against Gi
 
 ## [Hootsuite](/tools/hootsuite/)
 
-Hootsuite is one of the oldest social media management platforms, and it has grown from a simple multi-account scheduler into a full social media management suite. paid pricing starts at €99/mo, and standard €99/mo; Professional $149/mo (annual €99/mo); Team and Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
+Hootsuite is one of the oldest social media management platforms, and it has grown from a simple multi-account scheduler into a full social media management suite. Standard $99/mo; Professional $149/mo (annual $99/mo); Team and Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** Teams running many accounts that need scheduling which survives staff turnover
 

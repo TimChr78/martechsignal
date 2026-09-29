@@ -53,7 +53,7 @@ Ortto
 
 Customer data and marketing automation platform with journeys, CDP, and AI features
 
-Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment is disclosed on this page.
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 
 [More Marketing Automation Tools →](/categories/marketing-automation/)
 

@@ -52,7 +52,7 @@ MarketMuse
 
 AI-powered content strategy and optimization platform for SEO content teams
 
-Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment is disclosed on this page.
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 
 [More SEO & Search Tools →](/categories/seo/)
 

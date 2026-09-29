@@ -56,7 +56,7 @@ ChatbotX
 
 Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 
-Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment is disclosed on this page.
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 
 [More Chatbots & Conversational AI Tools →](/categories/chatbots/)
 

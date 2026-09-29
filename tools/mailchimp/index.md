@@ -57,7 +57,7 @@ OpenOutreach
 
 Open-source AI lead finder: describe your product and it finds and qualifies the leads
 
-Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment is disclosed on this page.
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 
 [More Email Marketing Tools →](/categories/email-marketing/)
 

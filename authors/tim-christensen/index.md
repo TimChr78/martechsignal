@@ -48,7 +48,7 @@ MartechSignal lives on [an explicit editorial policy](/about/): independent, no 
 
 I do martech product ownership for an employer this site will never name. Naming the company would make every review read like vendor advocacy or internal politics. The arrangement is strict: the employer has no stake, no say, and no sight line into what gets published here. When a tool I have used at work shows up in the directory, the write-up is still desk research with dated sources, and the desk-review badge says so.
 
-Bylined on [40 posts](/blog/) so far, and every tool page in the directory carries the verification date behind its numbers. The research rules are public on the [methodology](/methodology/) page, including the source-claim rule.
+Bylined on [42 posts](/blog/) so far, and every tool page in the directory carries the verification date behind its numbers. The research rules are public on the [methodology](/methodology/) page, including the source-claim rule.
 
 
 ```json

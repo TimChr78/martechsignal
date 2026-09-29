@@ -5,7 +5,7 @@
 | --- | --- | --- | --- | --- |
 | [Make](/tools/make/) | Freemium | Contract | No | Visual builders who want scenario-level control and cheaper runs at moderate volume. |
 | [Zapier](/tools/zapier/) | Freemium | Task tiers, billed yearly | No | Teams that want the largest app catalog and the least setup per workflow. |
-| [Pipedream](/tools/pipedream/) | From $29/mo | Credits, monthly | No | Developers who want real code inside steps and a generous free tier to start. |
+| [Pipedream](/tools/pipedream/) | Freemium | Credits, monthly | No | Developers who want real code inside steps and a generous free tier to start. |
 | [Tray.io](/tools/tray-io/) | Enterprise | Contract, usage-based | No | Enterprises that want one iPaaS for marketing, RevOps, and IT with pro-code escape hatches. |
 | [Workato](/tools/workato/) | Enterprise | Contract, usage-based | No | Large orgs standardizing automation across departments with governance and AI add-ons. |
 | [Activepieces](/tools/activepieces/) | Freemium | Contract | Yes | Teams that want no-code automation with an open-source (MIT) core and affordable cloud plans. |
@@ -56,7 +56,7 @@ Zapier trades cost for breadth: the widest catalog, metered per task. Catalog pr
 
 ## [Pipedream](/tools/pipedream/)
 
-From $29/mo
+Freemium
 
 Vendor: [Official site](https://pipedream.com) · [Pricing](https://pipedream.com/pricing)
 

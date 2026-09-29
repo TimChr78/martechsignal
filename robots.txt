@@ -143,6 +143,10 @@ User-agent: Timpibot
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
 
+User-agent: KangarooBot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Disallow: /
+
 User-agent: Kangaroo Bot
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /

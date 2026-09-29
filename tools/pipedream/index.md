@@ -21,10 +21,10 @@ Pipedream: Workflow automation with 2,500+ integrations, built around data-drive
 **How much does Pipedream cost?**
 Pipedream starts at $29/mo. Basic $29/month (2,000 credits, 20M AI tokens), Advanced $49/month, Connect $99/month (verified Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
-**Is Pipedream a good Workflow Automation tool in 2026?**
+**Is Pipedream worth it past the free tier?**
 The automation platform for developers who want code control with SaaS convenience.
 
-- **Pricing:** From $29/mo
+- **Pricing:** Freemium
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **API:** No
 - **Last verified:** 2026-09-25
@@ -59,9 +59,9 @@ Open-source workflow automation with a free cloud tier and on-prem hosting
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
-Workflow Automation · From $29/mo Desk-reviewed
+Workflow Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Pipedream →](https://pipedream.com)
 
@@ -83,7 +83,7 @@ Pipedream homepage, captured September 2026. Vendor page shown as a dated refere
 
 ## Pricing
 
-Pipedream is sold on paid plans, from $29/mo as of 2026-09.
+Pipedream is freemium, with a free tier to start, paid plans from $29/mo as of 2026-09.
 
 Basic $29/month (2,000 credits, 20M AI tokens), Advanced $49/month, Connect $99/month (verified Sep 2026).
 
@@ -160,7 +160,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/pipedream/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-27",
+    "dateModified": "2026-09-29",
     "offers": {
       "@type": "Offer",
       "price": 29,
@@ -221,7 +221,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "Question",
-        "name": "Is Pipedream a good Workflow Automation tool in 2026?",
+        "name": "Is Pipedream worth it past the free tier?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "The automation platform for developers who want code control with SaaS convenience."

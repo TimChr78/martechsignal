@@ -5455,7 +5455,7 @@
     "currency": "USD",
     "pricing_url": "https://pipedream.com/pricing",
     "price_notes": "Basic $29/month (2,000 credits, 20M AI tokens), Advanced $49/month, Connect $99/month (verified Sep 2026).",
-    "pricing_model": "Free (100 credits/mo), Basic ($29/mo), Advanced ($49/mo), Connect ($99/mo), Business (custom)"
+    "pricing_model": "freemium"
   },
   {
     "slug": "pipedrive",

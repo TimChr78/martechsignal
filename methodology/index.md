@@ -32,7 +32,7 @@ Each evaluated tool receives a 0-10 score on six pillars. The total is the sum o
 
 The score is an editorial assessment against published anchors. It is not a lab benchmark, not a verified-buyer rating, and not influenced by vendors: we take no vendor money, run no affiliate links, and accept no payment for placement or scoring. Tools we cover include products we built ourselves; those pages say so on their face.
 
-The pilot covered the 20 most-searched tools on the site. The rollout since now covers the full catalog: every active tool page carries the same six-pillar MartechSignal Score out of 60 (the one named exception is [Zoho CRM](/tools/zoho-crm/), not yet scored against the rubric). Verification dates and price sources sit on each tool page; the rubric below is the same one they were all judged against.
+The pilot covered the 20 most-searched tools on the site. The rollout now covers 160 of 163 active tool pages with the same six-pillar MartechSignal Score out of 60. The three exceptions, each named rather than generalized: [Zoho CRM](/tools/zoho-crm/), [AI Marketing Claude](/tools/ai-marketing-claude/), and [Digital Marketing Pro](/tools/digital-marketing-pro/) are not yet scored against the rubric. Verification dates and price sources sit on each tool page; the rubric below is the same one they were all judged against.
 
 ## Data artifacts
 

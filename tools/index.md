@@ -952,7 +952,7 @@ Pipedream
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
-From $29/moDesk-reviewedWorkflow Automation
+FreemiumDesk-reviewedWorkflow Automation
 
 ToolJet
 

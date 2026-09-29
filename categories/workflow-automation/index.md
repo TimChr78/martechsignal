@@ -26,7 +26,7 @@ FreemiumDesk-reviewed
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
-From $29/moDesk-reviewed
+FreemiumDesk-reviewed
 
 AI-powered integration platform for building custom automation and AI agents
 

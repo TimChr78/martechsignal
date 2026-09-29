@@ -327,7 +327,7 @@ Open SourceDesk-reviewedOSS
 - Open-Source Tools
 ## Open-Source Tools
 
-78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
+80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
 
 80 TOOLS IN THIS CATEGORY
 
@@ -530,7 +530,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
     {
       "@type": "ItemList",
       "name": "Open-Source Tools",
-      "description": "78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.",
+      "description": "80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.",
       "numberOfItems": 80,
       "dateModified": "2026-09-29",
       "itemListElement": [

@@ -6,7 +6,7 @@
 | [n8n](/tools/n8n/) | Open Source | Yes | yes | Best for self-hosted workflows with code steps and AI agents. |
 | [Zapier](/tools/zapier/) | Freemium | No | yes | Best for breadth and onboarding speed on niche integrations. |
 | [Make](/tools/make/) | Freemium | No | yes | Best for branching visual workflows on a small-team budget. |
-| [Pipedream](/tools/pipedream/) | From $29/mo | No | no | Best for developer teams wanting code steps and MCP endpoints. |
+| [Pipedream](/tools/pipedream/) | Freemium | No | no | Best for developer teams wanting code steps and MCP endpoints. |
 | [Workato](/tools/workato/) | Enterprise | No | yes | Best for enterprises governing agents and integration in one platform. |
 | [Tray.io](/tools/tray-io/) | Enterprise | No | yes | Best for AI app governance plus integration on one platform. |
 

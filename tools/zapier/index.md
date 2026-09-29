@@ -69,7 +69,7 @@ IFTTT
 
 Consumer-friendly automation connecting apps and smart devices
 
-Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment is disclosed on this page.
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 

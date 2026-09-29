@@ -5,7 +5,7 @@
 | --- | --- | --- | --- | --- |
 | [n8n](/tools/n8n/) | Open Source | Contract | Yes | Marketing operations teams, agencies, and AI-focused organizations that want extensible automation with the option to self-host. |
 | [Make](/tools/make/) | Freemium | Contract | No | Technical marketing teams that have outgrown a linear editor and want branching, looping, and visible error handling. |
-| [Pipedream](/tools/pipedream/) | From $29/mo | Credits, monthly | No | Developers and revenue operations teams that want arbitrary code in every step and managed authentication for the APIs around it. |
+| [Pipedream](/tools/pipedream/) | Freemium | Credits, monthly | No | Developers and revenue operations teams that want arbitrary code in every step and managed authentication for the APIs around it. |
 | [Tray.io](/tools/tray-io/) | Enterprise | Contract, usage-based | No | Enterprises that need integrations and AI agents governed inside a compliance boundary, with SSO and regional hosting available. |
 | [Budibase](/tools/budibase/) | Free tier | Monthly plans, billed yearly | Yes | Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data. |
 | [Pabbly Connect](/tools/pabbly-connect/) | From $16/mo | Task tiers, yearly or one-time | No | Teams with steady, high automation volume that want the cheapest predictable bill in the category, or a one-time lifetime license instead of a subscription. |
@@ -54,7 +54,7 @@ Make draws scenarios as a graph, so routers and error handling are visible rathe
 
 ## [Pipedream](/tools/pipedream/)
 
-From $29/mo
+Freemium
 
 Vendor: [Official site](https://pipedream.com) · [Pricing](https://pipedream.com/pricing)
 

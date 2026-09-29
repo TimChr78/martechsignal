@@ -1690,7 +1690,8 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         src_txt = "/".join(srcs) if srcs else "third-party platforms"
         note = ('<div class="side-row" style="font-size:.8rem;color:var(--muted)">'
                 f'Ratings shown are third-party ({esc(src_txt)}), not MartechSignal\'s. '
-                'Our hands-on assessment is disclosed on this page.</div>')
+                'This is not a hands-on test; the method is on our '
+                '<a href="/methodology/">methodology page</a>.</div>')
         external_ratings_html = ('<div class="side-row"><dt style="font-weight:700">Third-party ratings</dt></div>'
                                  + "".join(ext_lines) + note)
     else:

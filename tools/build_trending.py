@@ -150,7 +150,7 @@ def build_page():
     body = f"""<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/tools/">Tools</a><span class="crumb-sep" aria-hidden="true">/</span><span>Trending</span></nav>
 <section class="page-head">
   <h1>Open-source martech momentum</h1>
-  <p class="sub">Every morning we snapshot the GitHub stars of every open-source tool in our catalog that lists a public GitHub repository ({n_repos} of {oss_n} open-source catalog tools, {oss_n} of {total_n} catalog tools overall). A repository needs {min_days} daily snapshots before it appears on this page, which is why the charted set can be smaller. Inclusion rule, stated once: the catalog's open-source flag plus a GitHub repo URL. This page shows what moved in the window {window}, tracked since Aug 25, 2026.</p>
+  <p class="sub">Every morning we snapshot the GitHub stars of all {oss_n} open-source tools in our {total_n}-tool catalog (all of them list a public GitHub repository). {n_repos} have enough history to chart here; a repository needs {min_days} daily snapshots before it appears, which is why the charted set can be smaller. Inclusion rule, stated once: the catalog's open-source flag plus a GitHub repo URL. This page shows what moved in the window {window}, tracked since Aug 25, 2026.</p>
   <p class="count">{n_repos} REPOS &middot; {len(hist)} DAILY SNAPSHOTS &middot; WINDOW {esc(d0)} TO {esc(d1)}</p>
 </section>
 <section class="trend-note">
