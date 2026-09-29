@@ -87,9 +87,9 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 
 ## Related reading
 
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ## Related tools
 
 - [Ortto](/tools/ortto/) - Customer data and marketing automation platform with journeys, CDP, and AI features
@@ -97,8 +97,8 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 - [Braze](/tools/braze/) - Customer engagement platform with AI-powered real-time messaging across channels
 ## Comparison guides
 
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best HubSpot CRM alternatives (2026)](/alternatives/hubspot-crm/)
+- [Best Matomo alternatives (2026)](/alternatives/matomo/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -107,7 +107,7 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
+More from the directory: [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -159,7 +159,7 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1743,
+  "wordCount": 1736,
   "articleSection": "marketing-automation"
 }
 ```

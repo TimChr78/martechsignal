@@ -74,9 +74,9 @@ The connectivity debate turned out to be the easy half, and most teams have quie
 
 ## Related reading
 
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Related tools
 
 - [Pipedream](/tools/pipedream/) - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
@@ -84,7 +84,7 @@ The connectivity debate turned out to be the easy half, and most teams have quie
 - [Writer](/tools/writer/) - Enterprise AI platform with Palmyra models, brand governance, and agents
 ## Comparison guides
 
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 ## Glossary terms
 
@@ -158,7 +158,7 @@ More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1586,
+  "wordCount": 1584,
   "articleSection": "workflow-automation"
 }
 ```

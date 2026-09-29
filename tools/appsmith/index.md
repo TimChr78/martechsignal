@@ -194,7 +194,7 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 

@@ -1087,9 +1087,10 @@ def test_font_payload_is_minimal_and_preloaded():
 
 
 def test_critical_css_inline_and_deferred():
-    """M1 (r9, 2026-09-28): every page inlines critical CSS (<=7KB) and loads
-    the full bundle non-blocking with a noscript fallback; no render-blocking
-    stylesheet links remain."""
+    """M1 (r9, 2026-09-28) as fixed by r12 H-1 (2026-09-29): every page inlines
+    critical CSS and loads the full bundle via a plain render-blocking link.
+    The deferred variants are retired — onload swap violated CSP (r11 C-1),
+    the site.js media flip arrived after first paint (cold CLS 0.17-0.64)."""
     import re as _re
     frag = (ROOT / "tools" / ".critical.css").read_text()
     assert len(frag) <= 10240, f"critical block {len(frag)}B exceeds 10KB budget"
@@ -1099,13 +1100,11 @@ def test_critical_css_inline_and_deferred():
                 "index.html", "best/geo-llm-visibility-tools/index.html"):
         html = (ROOT / tpl).read_text()
         assert "<style>" in html, f"{tpl} missing inline critical"
-        assert 'media="print" data-fullsheet' in html, f"{tpl} bundle not deferred"
+        assert 'media="print" data-fullsheet' not in html, f"{tpl} still deferred"
         assert "onload=" not in html, f"{tpl} keeps CSP-banned inline handler"
-        assert "<noscript><link" in html, f"{tpl} missing noscript fallback"
-        blocking = [l for l in
-                    _re.findall(r'<link rel="stylesheet" href="/style[^"]*">', html)
-                    if "<noscript>" not in html[max(0, html.find(l) - 10):html.find(l)]]
-        assert not blocking, f"{tpl} keeps blocking link: {blocking[:1]}"
+        assert "data-fullsheet" not in html, f"{tpl} keeps retired swap hook"
+        blocking = _re.findall(r'<link rel="stylesheet" href="/style[^"]*">', html)
+        assert len(blocking) == 1, f"{tpl} wants exactly 1 blocking sheet: {blocking[:2]}"
         # exactly one inline critical block: the sweep must not stuff a second
         # copy inside its own <noscript> fallback (r9 M1 follow-up).
         assert html.count("<style>:root") == 1, \
@@ -1146,14 +1145,42 @@ def test_no_csp_violating_inline_handlers():
     assert not bad, f"CSP-violating markup: {bad}"
 
 
-def test_full_sheet_swaps_from_site_js():
-    """r11 C-1 (2026-09-29): the deferred sheet carries the data-fullsheet
-    hook and site.js performs the swap (CSP-clean, 'self'-allowed)."""
+def test_full_sheet_is_plain_blocking_link():
+    """r12 H-1 (2026-09-29): plain render-blocking sheet, no media flip."""
     html = (ROOT / "tools" / "n8n" / "index.html").read_text()
-    assert "data-fullsheet" in html, "sheet link lost its swap hook"
+    assert "data-fullsheet" not in html, "retired swap hook still present"
     assert "onload=" not in html, "inline onload handler still present"
+    assert 'media="print"' not in html, "print-media deferral still present"
     js = (ROOT / "site.js").read_text()
-    assert "data-fullsheet" in js, "site.js does not perform the media swap"
+    assert "data-fullsheet" not in js, "site.js still performs the media swap"
+
+
+def test_screenshot_srcsets_are_comma_separated():
+    """r12 H-2 (2026-09-29): srcset candidates comma-separated (space-joined
+    srcsets made Chromium drop every candidate on 134 images)."""
+    import re as _re
+    bad = []
+    for sub in ("best", "vs", "alternatives"):
+        for idx in (ROOT / sub).glob("*/index.html"):
+            for _m in _re.findall(r'srcset="([^"]+)"', idx.read_text()):
+                if "og/screenshots/" in _m and "," not in _m:
+                    bad.append(f"/{sub}/{idx.parent.name}/")
+    assert not bad, f"space-joined srcsets: {bad[:5]}"
+
+
+def test_vs_shots_fit_mobile_viewport():
+    """r12 H-3 (2026-09-29): vs screenshot imgs carry the true 600x375 ratio
+    and the .vs-shot rule constrains them (were 600x315 attrs, unconstrained,
+    overflowing 390px viewports)."""
+    import re as _re
+    css = (ROOT / "style.css").read_text()
+    assert ".vs-shot img" in css and "max-width: 100%" in css, "vs-shot rule missing"
+    bad = []
+    for idx in (ROOT / "vs").glob("*/index.html"):
+        for _m in _re.findall(r'<div class="vs-shot">(<img[^>]+>)', idx.read_text()):
+            if 'width="600" height="375"' not in _m:
+                bad.append(idx.parent.name)
+    assert not bad, f"vs shots with wrong ratio attrs: {bad[:5]}"
 
 
 def test_fact_cards_serve_sized_renditions():

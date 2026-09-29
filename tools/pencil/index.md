@@ -177,7 +177,7 @@ Yes. Brandtech Group branding appears across the site, the legal entity in the f
 
 ## Related reading
 
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ## Also featured in

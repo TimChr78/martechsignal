@@ -117,7 +117,7 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best GEO &amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

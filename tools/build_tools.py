@@ -520,19 +520,17 @@ def _record_edit_date(slug, fallback):
     return _BLAME_DATES.get(slug) or fallback
 
 def _stylesheet_tags():
-    """M1 (r9, 2026-09-28) as fixed by r11 C-1 (2026-09-29): critical CSS
-    inline + full bundle non-blocking. The media swap runs from site.js
-    (data-fullsheet hook) because the CSP bans inline onload handlers; the
-    <noscript> fallback keeps JS-off users styled. Falls back to the plain
-    blocking link when the fragment is absent."""
+    """M1 (r9, 2026-09-28), r11 C-1 (2026-09-29), r12 H-1 (2026-09-29): the
+    non-blocking variants are dead — onload swap violated CSP, the site.js
+    media flip arrived after first paint (cold CLS 0.17-0.64 measured). Plain
+    render-blocking link after the critical inline block: CSS responseEnd
+    precedes first paint, CLS ~0. Works with JS off, so no noscript copy."""
     crit = _critical_inline()
     if not crit:
         return f'<link rel="stylesheet" href="/style.min.css?v={_css_v()}">'
     return (
         f"<style>{crit}</style>"
-        f'<link rel="stylesheet" href="/style.min.css?v={_css_v()}" '
-        f'media="print" data-fullsheet>'
-        f'<noscript><link rel="stylesheet" href="/style.min.css?v={_css_v()}"></noscript>')
+        f'<link rel="stylesheet" href="/style.min.css?v={_css_v()}">')
 
 
 def page_shell(title, description, canonical, body, schema_json=None, og_image=None):
@@ -838,10 +836,13 @@ def _pilot_shot(slug, name):
     src = cands.get(600) or cands[max(cands)]
     parts = [f"/og/screenshots/{_os.path.basename(cands[w])} {w}w"
              for w in (480, 600, 800) if w in cands]
-    _set = f' srcset="{" ".join(parts)}"' if parts else ""
+    _set = f' srcset="{", ".join(parts)}"' if parts else ""
+    # r12 H-2/H-3 (2026-09-29): candidates MUST be comma-separated (spaces
+    # killed responsive selection on 134 images); attrs match the true
+    # 600x375 intrinsic ratio (315px height distorted + shifted layout).
     return (f'<img src="/og/screenshots/{_os.path.basename(src)}"'
             f' alt="{esc(name)} product interface"'
-            f' loading="lazy" width="600" height="315"{_set} sizes="335px">')
+            f' loading="lazy" width="600" height="375"{_set} sizes="335px">')
 
 
 def _money(p, t):
@@ -3046,24 +3047,42 @@ def sync_stylesheet_links():
             continue
         _s = _p.read_text()
         if _crit:
+            # r12 H-1 (2026-09-29): plain blocking link. The deferred
+            # variants are retired (CSP, then post-paint CLS).
             _defer = (
                 f"<style>{_crit}</style>"
-                f'<link rel="stylesheet" href="/style.min.css?v={_hash}" '
-                f'media="print" data-fullsheet>'
-                f'<noscript><link rel="stylesheet" href="/style.min.css?v={_hash}"></noscript>')
-            # (?<!<noscript>) guards the fallback link this same block emits:
-            # without it the sweep stuffs a second critical copy inside every
-            # <noscript> it just wrote (r9 M1 follow-up, 304 pages affected).
+                f'<link rel="stylesheet" href="/style.min.css?v={_hash}">')
+            # r12 H-1 follow-up: the plain blocking link matches its own
+            # output, so re-runs prepended a second critical copy (n8n
+            # shipped 2x). Only convert links NOT already preceded by the
+            # inline block, and collapse doubles a previous run left.
+            # r12 H-1 head-css normalizer: one inline critical, one
+            # blocking link, zero noscript wraps. Legit page <style>
+            # blocks and the #tool-filter noscript rule are untouched.
+            _s, _dd = re.subn(r'<noscript><style>:root.*?</style></noscript>',
+                              '', _s, flags=re.S)
+            _s, _dd2 = re.subn(r'<noscript><style>\s*</noscript>',
+                               '', _s)
+            _s, _dd3 = re.subn(r'<noscript>(<link rel="stylesheet"[^>]*>)</noscript>',
+                               r'\1', _s)
+            _nc += _dd + _dd2 + _dd3
+            _links = list(re.finditer(r'<link rel="stylesheet" href="/style[^>]*>', _s))
+            for _m in reversed(_links[1:]):
+                _s = _s[:_m.start()] + _s[_m.end():]
+                _nc += 1
+            _styles = list(re.finditer(r'<style>:root.*?</style>', _s, flags=re.S))
+            for _m in reversed(_styles[1:]):
+                _s = _s[:_m.start()] + _s[_m.end():]
+                _nc += 1
             _s, _cc = re.subn(
-                r'(?<!<noscript>)<link rel="stylesheet" href="/style(?:\.min)?\.css\?v=[a-f0-9]*">',
+                r'(?<!</style>)<link rel="stylesheet" href="/style(?:\.min)?\.css\?v=[a-f0-9]*">',
                 _defer, _s)
             _nc += _cc
         _new, _c = re.subn(r'href="/style(?:\.min)?\.css\?v=[a-f0-9]*"',
                            f'href="/style.min.css?v={_hash}"', _s)
-        # r11 C-1 (2026-09-29): migrate already-deferred links off the CSP-
-        # banned inline onload handler to the site.js data-fullsheet hook.
-        _new, _co = re.subn(r'media="print" onload="this\.media=\'all\'"',
-                            'media="print" data-fullsheet', _new)
+        # r12 H-1 (2026-09-29): strip the retired deferred-loading hooks —
+        # both the CSP-banned onload swap and its data-fullsheet successor.
+        _new, _co = re.subn(r' media="print" data-fullsheet', '', _new)
         _new, _cj = re.subn(r'<script src="/site\.js(?:\?v=[a-f0-9]+)?" defer>',
                             f'<script src="/site.js?v={_jhash}" defer>', _new)
         if _c or _cj or _co:

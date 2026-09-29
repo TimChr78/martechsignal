@@ -73,17 +73,17 @@ The AI-visibility dashboards will keep selling the count, because the count goes
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 ## Related tools
 
-- [OtterlyAI](/tools/otterlyai/) - AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 - [Potato](/tools/potato-ai-visibility/) - Free local tool that measures brand mentions and citations in Claude's web-search answers
+- [OtterlyAI](/tools/otterlyai/) - AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 - [Ahrefs](/tools/ahrefs/) - Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 ## Comparison guides
 
-- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
+- [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
 ## Glossary terms
 
 - [GEO](/glossary/geo/)
@@ -144,7 +144,7 @@ More from the directory: [Jasper](/tools/jasper/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1484,
+  "wordCount": 1478,
   "articleSection": "seo"
 }
 ```

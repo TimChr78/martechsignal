@@ -1,12 +1,7 @@
 // MartechSignal site.js (2026-09-27): the single first-party script.
 // L4: the inline IIFEs moved here so the CSP can drop 'unsafe-inline'.
-// r11 C-1 (2026-09-29): the full-stylesheet media swap lives here (CSP
-// script-src bans the inline onload handler; this file is 'self'-allowed).
-// Deferred execution is fine: the inline critical CSS covers above-fold.
-(function () {
-  var ls = document.querySelectorAll('link[data-fullsheet]');
-  for (var i = 0; i < ls.length; i++) { ls[i].media = 'all'; }
-})();
+// r12 H-1 (2026-09-29): the deferred-sheet media flip is retired with the
+// deferred stylesheet (plain blocking link now; the flip found no hooks).
 (function () {
   document.documentElement.classList.remove('no-js');
   document.documentElement.classList.add('js');

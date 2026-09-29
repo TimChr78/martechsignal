@@ -118,9 +118,9 @@ Our directory breaks down martech tools by what they actually deliver: static re
 
 ## Related reading
 
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Related tools
 
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) - Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
@@ -128,8 +128,8 @@ Our directory breaks down martech tools by what they actually deliver: static re
 - [Ortto](/tools/ortto/) - Customer data and marketing automation platform with journeys, CDP, and AI features
 ## Comparison guides
 
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
+- [Best GEO &amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
 ## Glossary terms
 
 - [CDP](/glossary/cdp/)
@@ -190,7 +190,7 @@ More from the directory: [ChatbotX](/tools/chatbotx/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2511,
+  "wordCount": 2512,
   "articleSection": "marketing-automation"
 }
 ```
