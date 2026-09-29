@@ -146,7 +146,7 @@ This post is part of the hub for this topic: [agentic ai advertising](/guides/ag
 ## Comparison guides
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -154,8 +154,6 @@ This post is part of the hub for this topic: [agentic ai advertising](/guides/ag
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-More from the directory: [Zoho CRM](/tools/zoho-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -200,7 +198,7 @@ More from the directory: [Zoho CRM](/tools/zoho-crm/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2165,
+  "wordCount": 2163,
   "articleSection": "advertising"
 }
 ```

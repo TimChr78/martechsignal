@@ -122,8 +122,8 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 - [Amplitude](/tools/amplitude/) - AI-powered digital analytics platform for product and marketing teams
 ## Comparison guides
 
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 ## Glossary terms
 
 - [CDP](/glossary/cdp/)
@@ -177,7 +177,7 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1379,
+  "wordCount": 1382,
   "articleSection": "workflow-automation"
 }
 ```

@@ -86,8 +86,8 @@ Browse the [MartechSignal tools directory](/tools/salesforce-marketing-cloud/) t
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/) - All-in-one marketing automation with AI-powered content, email, and campaign tools
 ## Comparison guides
 
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

@@ -120,7 +120,7 @@ Our directory breaks down martech tools by what they actually deliver: static re
 
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Related tools
 
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) - Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
@@ -183,7 +183,7 @@ More from the directory: [ChatbotX](/tools/chatbotx/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2511,
+  "wordCount": 2504,
   "articleSection": "marketing-automation"
 }
 ```

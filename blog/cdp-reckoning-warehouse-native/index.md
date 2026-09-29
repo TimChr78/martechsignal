@@ -83,7 +83,7 @@ Our directory breaks down customer data platforms and activation tools by pricin
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Related tools
 
 - [Customer.io](/tools/customer-io/) - Data-driven messaging platform for automated email, push, SMS, and in-app messages
@@ -142,7 +142,7 @@ More from the directory: [BillionMail](/tools/billionmail/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1552,
+  "wordCount": 1550,
   "articleSection": "crm, analytics"
 }
 ```

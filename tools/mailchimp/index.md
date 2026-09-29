@@ -156,7 +156,7 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 
 ## Related reading
 
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Also featured in

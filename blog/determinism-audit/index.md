@@ -100,8 +100,8 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 - [Intercom](/tools/intercom/) - AI-first customer service platform with Fin AI agent and omnichannel messaging
 ## Comparison guides
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -155,7 +155,7 @@ More from the directory: [IFTTT](/tools/ifttt/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1783,
+  "wordCount": 1785,
   "articleSection": "agent-skills"
 }
 ```

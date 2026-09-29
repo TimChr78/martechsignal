@@ -189,7 +189,7 @@ Postmark ships tooling for AI agents rather than AI features. The official MCP s
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ### Quick Facts
 
 ## Get the next teardown

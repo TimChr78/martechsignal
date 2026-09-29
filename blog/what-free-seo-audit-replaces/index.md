@@ -77,7 +77,7 @@ The spec head-to-head of the two tools lives in the [/vs/claude-seo-vs-semrush/ 
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Related tools
 
 - [OpenSEO](/tools/openseo/) - Open source alternative to Ahrefs and Semrush
@@ -138,7 +138,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1487,
+  "wordCount": 1482,
   "articleSection": "seo"
 }
 ```

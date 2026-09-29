@@ -107,17 +107,17 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Related tools
 
 - [Pipedream](/tools/pipedream/) - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
-- [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
 - [Zapier](/tools/zapier/) - No-code automation platform connecting 9,000+ apps with AI-powered workflows
+- [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
 ## Comparison guides
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -126,7 +126,7 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Trakkr](/tools/trakkr/)
+More from the directory: [Writesonic](/tools/writesonic/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
