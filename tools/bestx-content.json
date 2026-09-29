@@ -790,13 +790,13 @@
         },
         {
           "slug": "growthbook",
-          "verdict": "Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "verdict": "Best for product teams that want feature flags and A/B testing they can self-host, with a free Starter plan for 3 users.",
           "assessment": "GrowthBook is an open-source feature flag and A/B testing platform with 8,430 GitHub stars, built warehouse-native: experiments are analyzed in your own data warehouse instead of a vendor copy of your events. It starts free, and starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.",
           "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
         },
         {
           "slug": "jitsu",
-          "verdict": "Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "verdict": "Best for data teams that want open-source event collection in their own warehouse, free to self-host.",
           "assessment": "Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,091 stars on GitHub. It starts free, and free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits (verified 2026-09-25). The catalog documents 1 AI features, 6 integrations, a public API, and a self-hosting path.",
           "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
         }
@@ -897,7 +897,7 @@
       "items": [
         {
           "slug": "nimt-ai",
-          "verdict": "Best for GEO & LLM optimization teams that want the job covered in one platform, starting at €79/mo.",
+          "verdict": "Best for teams that want tracking across 8 AI models plus an agent that writes, fixes and outreaches, starting from EUR 40 in credits.",
           "assessment": "Nimt.ai is an AI search tool from Sweden that combines tracking with an agent that does the fixing work. usage pricing starts at €79/mo, and eUR 40 in free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with up to 72 prompts tracked daily. Credits meter tracking and agent work; unused credits roll over and stay valid 2 months; on-demand top-ups. Enterprise: custom volume pricing via sales on annual contracts, unlimited credits (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.",
           "skip_if": "Skip it if your volume swings hard and you need one predictable bill; usage pricing punishes exactly that.",
           "unverified": "how the crawl footprint maps to real answer-engine traffic from EU regions. The sampling depth is not published."
@@ -918,7 +918,7 @@
         },
         {
           "slug": "writesonic",
-          "verdict": "Best for GEO & LLM optimization teams that want the job covered in one platform, starting at €79/mo.",
+          "verdict": "Best for content teams that want AI search visibility tracking in the same platform that drafts the content.",
           "assessment": "Writesonic positions itself as The AI Search Growth Engine, and its GEO product for brands is what earns the name. paid pricing starts at €79/mo, and starter €79/mo billed annually (50 prompts/50 answers daily, 15 AI articles/mo, 10 site audits of 100 pages); Basic $199/mo; Growth $399/mo (sentiment analysis, Action Center trial); Enterprise custom (all 10 AI platforms, full Action Center). Annual billing saves 20% vs monthly. Free trial, no credit card (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.",
           "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.",
           "unverified": "how the generative optimization recommendations perform outside the engines the vendor demos."
@@ -939,14 +939,14 @@
         },
         {
           "slug": "adobe-llm-optimizer",
-          "verdict": "Best for GEO & LLM optimization teams that want the job covered in one platform, with pricing quoted per contract.",
+          "verdict": "Best for teams that want LLM visibility management inside Adobe Experience Cloud, priced by quote.",
           "assessment": "Adobe LLM Optimizer is the name Adobe launched this product under in June 2025. Pricing is enterprise and quoted per contract, and quote-based within Adobe Experience Cloud (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features and 6 integrations.",
           "skip_if": "Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.",
           "unverified": "how the optimizer behaves outside Adobe-served properties, and what the entry commitment costs."
         },
         {
           "slug": "evertune",
-          "verdict": "Best for GEO & LLM optimization teams that want the job covered in one platform, starting at $800/mo.",
+          "verdict": "Best for teams that want 100,000 prompts tracked across 11 models with content activation, from $800/mo on the Pro plan.",
           "assessment": "Evertune is a marketing platform for brand discovery in AI search. paid pricing starts at $800/mo, and pro $800/mo: 100,000 prompts tracked across 11 AI models, 25 AI-optimized articles/mo, 3 onboarding sessions, affiliate advertising partnerships, AI Retargeting. Enterprise: custom pricing with customized onboarding, unlimited content generation, AI website optimization, AI bot analytics, SSO. Both tiers sold via demo (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features and 5 integrations.",
           "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.",
           "unverified": "whether sentiment scoring stays stable for brands with polarised coverage. Small samples swing it."
@@ -1067,19 +1067,19 @@
       "items": [
         {
           "slug": "claude-seo",
-          "verdict": "Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "verdict": "Best for SEO teams that want 25 audit sub-skills and 20 specialist agents inside Claude Code, free under the MIT license.",
           "assessment": "Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free, MIT-licensed. Self-hosted inside Claude Code. Optional paid community mirror on Skool (verified 2026-08-28). The catalog documents 5 AI features, 5 integrations, a public API, and a self-hosting path.",
           "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
         },
         {
           "slug": "claude-ads",
-          "verdict": "Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "verdict": "Best for paid-media teams that run several ad platforms and want one Claude Code skill covering all 12, free under the MIT license.",
           "assessment": "Claude Ads is a paid-media operations skill that runs inside Claude Code. It starts free, and free, MIT-licensed. Runs inside Claude Code. API costs for Claude apply (verified 2026-08-28). The catalog documents 5 AI features, 12 integrations, a public API, and a self-hosting path.",
           "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
         },
         {
           "slug": "google-meta-ads-ga4-mcp",
-          "verdict": "Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "verdict": "Best for performance teams that want Google Ads, Meta Ads and GA4 reachable from one MCP server, free to self-host.",
           "assessment": "google-meta-ads-ga4-mcp is an MCP server that lets AI assistants manage Google Ads, Meta Ads, and GA4 from one conversation. It starts free, and mIT-licensed repo; hosted MCP endpoint provided through Ryze AI (free trial, then paid plans) (verified 2026-09-07). The catalog documents 5 AI features, 11 integrations, a public API, and a self-hosting path.",
           "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
         },
@@ -1091,13 +1091,13 @@
         },
         {
           "slug": "email-marketing-bible",
-          "verdict": "Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "verdict": "Best for email marketers who want 19 playbooks with 908 cited sources and ESP control over MCP, free under the MIT license.",
           "assessment": "Email Marketing Bible is what happens when someone who ran an email SaaS (SmartrMail, ~28,000 customers, 6 billion emails sent, acquired in 2022) distills everything into a 55,000-word skill file. It starts free, and free and open source. Works with Claude Code, Claude Desktop, and MCP-compatible agents (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.",
           "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
         },
         {
           "slug": "zapier-gtm-cheat-codes",
-          "verdict": "Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "verdict": "Best for GTM practitioners who want a cheat-code skill for Zapier and Google Tag Manager recipes, free to install.",
           "assessment": "GTM Cheat Codes is the skill library Zapier's own go-to-market teams use with coding agents. It starts free, and free, MIT-licensed. Runs inside Codex, Claude Code, Cursor, and similar harnesses. Requires Zapier MCP or SDK credentials for connected actions (verified 2026-08-31). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.",
           "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
         },

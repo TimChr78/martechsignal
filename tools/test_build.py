@@ -837,6 +837,40 @@ def test_best_direct_answer_and_table_order():
     assert not bad, f"best answer/table order: {bad[:6]}"
 
 
+def test_best_verdicts_are_unique_per_page():
+    """r13 H-1 (2026-09-29): no two tools on a best page share a verdict
+    string (the category-default fallback shipped byte-identical verdicts
+    on 3 pages / 11 tool-slots)."""
+    import json
+    import collections as _c
+    d = json.loads((ROOT / "tools" / "bestx-content.json").read_text())
+    for p in d["pages"]:
+        vs = [it.get("verdict", "") for it in p.get("items", [])]
+        dups = {k: n for k, n in _c.Counter(vs).items() if n > 1}
+        assert not dups, f"{p['slug']} duplicate verdicts: {list(dups)[:2]}"
+
+
+def test_best_verdict_price_claims_are_catalog_backed():
+    """r13 H-1 companion (2026-09-29): any EUR/USD/$ amount in a verdict
+    must be traceable to that record's price_notes (symbol-normalized)."""
+    import json
+    import re as _re
+    recs = json.loads((ROOT / "tools" / "tools.json").read_text())
+    idx = {x["slug"]: x for x in recs if isinstance(x, dict)}
+    d = json.loads((ROOT / "tools" / "bestx-content.json").read_text())
+    bad = []
+    for p in d["pages"]:
+        for it in p.get("items", []):
+            v = it.get("verdict", "")
+            notes = (idx.get(it["slug"], {}).get("price_notes") or "").replace(",", "")
+            for m in _re.finditer(r"(EUR|USD|[$€£])\s?([0-9][0-9,]*)", v):
+                tok, num = m.group(1), m.group(2).replace(",", "")
+                if not (f"{tok} {num}" in notes or f"{num}/mo" in notes
+                        or f"${num}" in notes or f"€{num}" in notes):
+                    bad.append((it["slug"], f"{tok} {num}"))
+    assert not bad, f"verdict prices not in price_notes: {bad}"
+
+
 def test_best_counts_agree_with_items():
     """Stale-count class (M27 r9 + L4 follow-up): ai-crm claimed 8 with 6
     items, geo claimed 8 with 9. Every 'N compared' in title/seo_title/meta
