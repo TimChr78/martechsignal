@@ -183,8 +183,8 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 - [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) &mdash; Best for budget-conscious sales teams, especially ERPNext shops.

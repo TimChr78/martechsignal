@@ -83,12 +83,12 @@ Our directory reviews workflow and marketing automation tools on what happens af
 - [n8n Marketing Flows](/tools/n8n-marketing-flows/) - 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
 ## Comparison guides
 
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
 ## Glossary terms
 
-- [Attribution models](/glossary/marketing-attribution-models/)
 - [Workflow automation](/glossary/workflow-automation/)
+- [Attribution models](/glossary/marketing-attribution-models/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

@@ -192,8 +192,8 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) &mdash; Best for technically fluent teams wanting a modern extensible CRM.

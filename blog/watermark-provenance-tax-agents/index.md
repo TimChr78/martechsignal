@@ -62,12 +62,12 @@ The provenance tax is real, but the invoice is split. Platforms pay it in compli
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Related tools
 
 - [Claude SEO](/tools/claude-seo/) - Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 - [Codex SEO](/tools/codex-seo/) - Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-- [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [Nimt.ai](/tools/nimt-ai/) - AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
@@ -130,7 +130,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1468,
+  "wordCount": 1472,
   "articleSection": "agent-skills"
 }
 ```

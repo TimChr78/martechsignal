@@ -108,7 +108,7 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Related tools
 
 - [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
@@ -178,7 +178,7 @@ More from the directory: [Apache Unomi](/tools/apache-unomi/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2145,
+  "wordCount": 2135,
   "articleSection": "agent-skills"
 }
 ```

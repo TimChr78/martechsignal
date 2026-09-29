@@ -170,12 +170,12 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ## Related tools
 
 - [Listmonk](/tools/listmonk/) - Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+- [Matomo](/tools/matomo/) - Open-source web analytics platform with full data ownership and AI-powered insights
 - [Jitsu](/tools/jitsu/) - Open-source Segment alternative for event capture and warehouse-first data pipelines
-- [HubSpot CRM](/tools/hubspot-crm/) - Free AI-powered CRM platform with sales, service, and marketing tools unified
 ## Comparison guides
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
@@ -238,7 +238,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1542,
+  "wordCount": 1536,
   "articleSection": ""
 }
 ```

@@ -994,8 +994,11 @@ def test_faq_answers_name_entity_no_splice():
 
 
 def test_self_made_cluster_declared():
-    """L16 (r9, 2026-09-28): the Claude SEO cluster carries a visible 'we
-    make this' badge, and each page targets a distinct primary query."""
+    """L16 (r9, 2026-09-28) as CORRECTED by r10 C-1 (2026-09-29): the Claude
+    SEO cluster must carry a THIRD-PARTY disclosure (corrections log 2026-09-26
+    retracted ownership: MIT project by AgriciDaniel, no affiliation) and zero
+    stale figures. The r9 'we make this' badge was a false claim; this test
+    pins the correction so it cannot regress."""
     import re as _re
     # slug -> primary query (declared here; enforced on titles below)
     focus = {
@@ -1007,13 +1010,21 @@ def test_self_made_cluster_declared():
     titles = []
     for slug, q in focus.items():
         html = (ROOT / slug / "index.html").read_text()
-        assert 'class="made-badge"' in html, f"{slug} missing we-make-this badge"
-        assert "We make this" in html, f"{slug} badge text missing"
+        assert 'class="made-badge"' in html, f"{slug} missing disclosure badge"
+        assert "third-party MIT project by AgriciDaniel" in html, \
+            f"{slug} badge must state third-party authorship"
+        assert "We make this" not in html, f"{slug} re-asserts retracted claim"
+        assert "MartechSignal's own free SEO audit skill" not in html, \
+            f"{slug} re-asserts retracted claim"
         t = _re.search(r"<title>(.*?)</title>", html).group(1).lower()
         titles.append(t)
         for w in q.split():
             assert w in t, f"{slug} title {t!r} misses focus word {w!r}"
     assert len(set(titles)) == len(titles), f"cluster titles not distinct: {titles}"
+    tool = (ROOT / "tools" / "claude-seo" / "index.html").read_text()
+    assert len(_re.findall(r"16,675|16675|2,443", tool)) == 0, \
+        "stale star/fork figures persist on /tools/claude-seo/"
+    assert "17,737" in tool and "2,599" in tool, "corrected figures missing"
 
 
 def test_tool_hero_image_priority_and_sizes():

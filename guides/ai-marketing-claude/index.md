@@ -169,8 +169,8 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ### Quick Facts
 
 ## Get the next teardown

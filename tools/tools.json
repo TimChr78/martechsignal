@@ -1261,7 +1261,7 @@
       "Lighthouse"
     ],
     "github_repo": "AgriciDaniel/claude-seo",
-    "github_stars": 16675,
+    "github_stars": 17737,
     "open_source": true,
     "api_available": true,
     "founded": "2026",
@@ -1280,7 +1280,7 @@
       "requirements": "Python 3.10+ and Claude Code CLI. macOS, Linux, Windows (PowerShell installer available). Audits run locally; only Google API calls and optional providers leave your machine.",
       "stats": {
         "github_stars": "17,737",
-        "forks": "2,443",
+        "forks": "2,599",
         "sub_skills": 25,
         "agents": 18,
         "commands": 30

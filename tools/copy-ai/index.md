@@ -149,8 +149,8 @@ Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ## Also featured in
 
 - [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) &mdash; GTM teams that want workflows, not another blank prompt box

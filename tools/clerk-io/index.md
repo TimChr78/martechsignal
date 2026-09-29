@@ -152,7 +152,7 @@ Solid modular pick for mid-size stores with traffic to feed the models. Thin cat
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Also featured in
 
 - [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/) &mdash; Mid-size stores that want search and recs without enterprise procurement

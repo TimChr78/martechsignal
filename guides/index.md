@@ -50,7 +50,7 @@ Read a guide, then follow it into the catalog. Every guide links the tools, comp
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/guides/#webpage", "dateModified": "2026-09-28"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/guides/#webpage", "dateModified": "2026-09-29"}
 ```
 
 ```json

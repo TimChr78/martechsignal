@@ -16,7 +16,7 @@ AI · SEO · 3 MIN
 
 ## Claude SEO benchmark: every score we have earned, and what each one measured
 
-We make this: Claude SEO is MartechSignal's own free SEO audit skill. Coverage here is held to the same verification standard as third-party tools.
+Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. Coverage here is held to the same verification standard as other tools. See the [corrections log](/corrections/).
 
 [How we review](/methodology/) · No affiliate links
 

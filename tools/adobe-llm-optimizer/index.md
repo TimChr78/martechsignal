@@ -170,8 +170,8 @@ No. The CDN-edge deployment works with Fastly, Akamai, and Cloudflare, and Adobe
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ## Also featured in
 
 - [Best GEO &amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) &mdash; Best for GEO &amp; LLM optimization teams that want the job covered in one platform, with pricing quoted per contract.

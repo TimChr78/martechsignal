@@ -26,15 +26,15 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Runs inside Claude Code, so a paid Anthropic subscription is part of the real cost |
 | &#10003; AI capabilities: 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO | &#10007; Grader strictness shifts between versions, so scores are not comparable across releases |
-| &#10003; Active public repository (16,675 GitHub stars counted at last check) | &#10007; Multi-site config needs manual .env work and API keys for DataForSEO and Firecrawl |
+| &#10003; Active public repository (17,737 GitHub stars counted at last check) | &#10007; Multi-site config needs manual .env work and API keys for DataForSEO and Firecrawl |
 | &#10003; Native integrations include Claude Code, Google Search Console, DataForSEO (5 listed) |  |
 | &#10003; MIT licensed with no paid tier, so the whole audit stack is inspectable |  |
 
 **What is Claude SEO?**
-Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 16,675 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 17,737 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Claude SEO cost?**
-Claude SEO is open source - MIT licensed and free to self-host; the public repository carries 16,675 stars; native integrations cover Claude Code, Google Search Console, DataForSEO. You pay in server time and maintenance, not licences.
+Claude SEO is open source - MIT licensed and free to self-host; the public repository carries 17,737 stars; native integrations cover Claude Code, Google Search Console, DataForSEO. You pay in server time and maintenance, not licences.
 
 **Is Claude SEO a good self-hosted Agent Skills tool in 2026?**
 The most thorough free SEO audit you can run without leaving your terminal. Scores only mean something within one grader version, so pin the version and track deltas, not absolutes. It caught real bugs in our own production deploy pipeline on day one.
@@ -69,7 +69,7 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
 - **Github Stars:** 17,737
-- **Forks:** 2,443
+- **Forks:** 2,599
 - **Sub Skills:** 25
 - **Agents:** 18
 - **Commands:** 30
@@ -108,7 +108,7 @@ Agent Skills · Open Source Hands-on
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
-We make this: Claude SEO is our own free SEO audit skill. This page is held to the same verification standard as third-party tools; per our review policy it carries no Review markup.
+Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. We run it on our own sites and depend on it in our audit pipeline, which is why it carries no Review markup. See the [corrections log](/corrections/).
 
 [Visit Claude SEO &#8594;](https://claude-seo.md/)
 
@@ -205,9 +205,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 16,675 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 17,737 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Claude SEO is open source - MIT licensed and free to self-host; the public repository carries 16,675 stars; native integrations cover Claude Code, Google Search Console, DataForSEO. You pay in server time and maintenance, not licences.
+Claude SEO is open source - MIT licensed and free to self-host; the public repository carries 17,737 stars; native integrations cover Claude Code, Google Search Console, DataForSEO. You pay in server time and maintenance, not licences.
 
 The most thorough free SEO audit you can run without leaving your terminal. Scores only mean something within one grader version, so pin the version and track deltas, not absolutes. It caught real bugs in our own production deploy pipeline on day one.
 
@@ -276,7 +276,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/claude-seo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",
@@ -325,7 +325,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Claude SEO?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 16,675 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 17,737 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {
@@ -333,7 +333,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Claude SEO cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Claude SEO is open source - MIT licensed and free to self-host; the public repository carries 16,675 stars; native integrations cover Claude Code, Google Search Console, DataForSEO. You pay in server time and maintenance, not licences."
+          "text": "Claude SEO is open source - MIT licensed and free to self-host; the public repository carries 17,737 stars; native integrations cover Claude Code, Google Search Console, DataForSEO. You pay in server time and maintenance, not licences."
         }
       },
       {

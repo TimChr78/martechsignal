@@ -401,12 +401,15 @@ def build_post(meta: dict, body_html: str) -> str:
     slug = meta.get('slug') or slugify(title)
     # CL-2 (2026-09-25): optional frontmatter canonical override (cluster consolidation)
     canon = meta.get('canonical') or f"https://martechsignal.com/blog/{slug}/"
-    # L16 (r9, 2026-09-28): posts about our own tool carry a visible "we make
-    # this" badge under the H1. Cluster: the tool page plus claude-seo posts.
+    # L16 (r9, 2026-09-28; CORRECTED r10 C-1, 2026-09-29): posts about Claude SEO
+    # carry a third-party disclosure, NOT an ownership claim. The 2026-09-26
+    # corrections entry retracted ownership: third-party MIT project by
+    # AgriciDaniel, no affiliation. Never re-assert "we make this".
     _made_box = ""
     if slug.startswith("claude-seo-") or slug == "claude-seo":
-        _made_box = ('<p class="made-badge">We make this: Claude SEO is MartechSignal\'s own free SEO audit skill. '
-                     'Coverage here is held to the same verification standard as third-party tools.</p>')
+        _made_box = ('<p class="made-badge">Independent tool: Claude SEO is a third-party MIT project by '
+                     'AgriciDaniel; we have no affiliation with its author. Coverage here is held to the same '
+                     'verification standard as other tools. See the <a href="/corrections/">corrections log</a>.</p>')
 
     related = suggest_links.suggest_for_text(body_html, max_suggestions=3, exclude_slug=slug)
     if related:

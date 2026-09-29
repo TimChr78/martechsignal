@@ -190,7 +190,7 @@ Connections is the data pipeline: sources, destinations, Reverse ETL, and wareho
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Also featured in
 
 - [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/) &mdash; Teams whose personalization problem is really a data plumbing problem

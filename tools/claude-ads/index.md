@@ -152,7 +152,7 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 
 ## Related reading
 
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Also featured in
