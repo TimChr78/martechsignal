@@ -70,7 +70,7 @@ Free local tool that measures brand mentions and citations in Claude's web-searc
 
 SEO & Search · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Potato →](https://github.com/onism1767-creator/potato)
 

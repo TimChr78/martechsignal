@@ -80,7 +80,7 @@ Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Django CRM →](https://bottlecrm.io)
 

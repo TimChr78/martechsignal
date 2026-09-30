@@ -161,7 +161,7 @@ More from the directory: [Apache Unomi](/tools/apache-unomi/)
     }
   },
   "datePublished": "2026-08-26",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/",
   "image": {
     "@type": "ImageObject",
@@ -207,7 +207,7 @@ More from the directory: [Apache Unomi](/tools/apache-unomi/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

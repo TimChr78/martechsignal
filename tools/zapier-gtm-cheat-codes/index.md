@@ -72,7 +72,7 @@ Zapier's installable coding-agent skills for GTM: campaign planning, CRM context
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Zapier GTM Cheat Codes →](https://github.com/zapier/gtm-cheat-codes)
 

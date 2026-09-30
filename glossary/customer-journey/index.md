@@ -20,7 +20,7 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
 
 GLOSSARY
 
-Definition last updated 2026-09-07
+Definition last updated 2026-09-30
 
 ## Definition
 
@@ -78,7 +78,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
         "@type": "DefinedTerm",
         "name": "Customer Journey Mapping",
         "description": "A customer journey map is a visual representation of every step a customer takes from first awareness to purchase and beyond. It documents touchpoints, emotions, pain points, and the channels involved at each stage. The goal is to find where the experience breaks down.",
-        "dateModified": "2026-09-29",
+        "dateModified": "2026-09-30",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -136,7 +136,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/customer-journey/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/customer-journey/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/customer-journey/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/customer-journey/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

@@ -134,7 +134,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/matomo-vs-posthog/#article",
     "datePublished": "2026-09-28",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-30",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -217,6 +217,10 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/matomo-vs-posthog/", "breadcrumb": {"@id": "https://martechsignal.com/vs/matomo-vs-posthog/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

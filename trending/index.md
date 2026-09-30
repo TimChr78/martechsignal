@@ -226,7 +226,7 @@ The ranking above is the spine of this topic. These pages are the cluster around
       "name": "MartechSignal",
       "url": "https://martechsignal.com/"
     },
-    "dateModified": "2026-09-29",
+    "dateModified": "2026-09-30",
     "mainEntity": {
       "@type": "ItemList",
       "name": "Open-Source MarTech momentum ranking",
@@ -667,6 +667,10 @@ The ranking above is the spine of this topic. These pages are the cluster around
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/trending/", "breadcrumb": {"@id": "https://martechsignal.com/trending/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

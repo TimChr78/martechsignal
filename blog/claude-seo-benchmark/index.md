@@ -111,7 +111,7 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
     }
   },
   "datePublished": "2026-09-27",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-benchmark/",
   "image": {
     "@type": "ImageObject",
@@ -164,7 +164,7 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-benchmark/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-benchmark/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-benchmark/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-benchmark/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

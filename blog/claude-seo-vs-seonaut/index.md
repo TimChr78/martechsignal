@@ -131,7 +131,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
     }
   },
   "datePublished": "2026-09-17",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-vs-seonaut/",
   "image": {
     "@type": "ImageObject",
@@ -177,7 +177,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

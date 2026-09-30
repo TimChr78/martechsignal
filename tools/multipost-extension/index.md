@@ -68,7 +68,7 @@ Browser extension to publish content to multiple social media platforms with one
 
 Social Media · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit MultiPost →](https://multipost.app)
 

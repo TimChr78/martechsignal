@@ -16,7 +16,7 @@ Customer context infrastructure: behavioral event pipeline for warehouses and AI
 
 GLOSSARY
 
-Definition last updated 2026-09-07
+Definition last updated 2026-09-30
 
 ## Definition
 
@@ -75,7 +75,7 @@ Sources: [Twilio Segment](https://segment.com) · [Snowplow](https://snowplow.io
         "@type": "DefinedTerm",
         "name": "Data Management Platform (DMP)",
         "description": "A data management platform collects and organizes audience data, mostly anonymous, cookie-based identifiers, for use in programmatic advertising. Advertisers use DMPs to build audience segments and push them to demand-side platforms for ad targeting.",
-        "dateModified": "2026-09-29",
+        "dateModified": "2026-09-30",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -133,7 +133,7 @@ Sources: [Twilio Segment](https://segment.com) · [Snowplow](https://snowplow.io
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dmp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/dmp/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dmp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/dmp/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

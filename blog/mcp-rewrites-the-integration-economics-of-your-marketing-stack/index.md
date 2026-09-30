@@ -114,12 +114,12 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Related tools
 
 - [Pipedream](/tools/pipedream/) - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [Tealium](/tools/tealium/) - Enterprise customer data platform with real-time data orchestration and AI
-- [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
+- [Amplitude](/tools/amplitude/) - AI-powered digital analytics platform for product and marketing teams
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
@@ -167,7 +167,7 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
     }
   },
   "datePublished": "2026-07-29",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/",
   "image": {
     "@type": "ImageObject",
@@ -180,7 +180,7 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1380,
+  "wordCount": 1381,
   "articleSection": "workflow-automation"
 }
 ```
@@ -213,7 +213,7 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

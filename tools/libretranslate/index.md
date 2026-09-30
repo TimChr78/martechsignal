@@ -80,7 +80,7 @@ Open-source machine translation API for content localization, self-hostable and 
 
 AI Content & Copywriting · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit LibreTranslate →](https://libretranslate.com)
 

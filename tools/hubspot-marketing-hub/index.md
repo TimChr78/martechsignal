@@ -71,7 +71,7 @@ All-in-one marketing automation with AI-powered content, email, and campaign too
 
 Marketing Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit HubSpot Marketing Hub →](https://www.hubspot.com/products/marketing)
 

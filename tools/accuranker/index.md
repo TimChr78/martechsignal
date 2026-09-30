@@ -72,7 +72,7 @@ Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity
 
 GEO & LLM Optimization · From €224/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit AccuRanker →](https://www.accuranker.com)
 

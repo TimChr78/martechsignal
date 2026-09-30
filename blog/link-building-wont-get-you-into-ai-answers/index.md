@@ -116,7 +116,7 @@ More from the directory: [MarketMuse](/tools/marketmuse/)
     }
   },
   "datePublished": "2026-08-25",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/",
   "image": {
     "@type": "ImageObject",
@@ -162,7 +162,7 @@ More from the directory: [MarketMuse](/tools/marketmuse/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/", "breadcrumb": {"@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/", "breadcrumb": {"@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

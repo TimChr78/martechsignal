@@ -72,7 +72,7 @@ AI-powered marketing automation and CRM for small to mid-size businesses
 
 Marketing Automation · From $15/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit ActiveCampaign →](https://www.activecampaign.com)
 

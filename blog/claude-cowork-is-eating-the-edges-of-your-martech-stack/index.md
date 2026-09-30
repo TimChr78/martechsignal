@@ -145,7 +145,7 @@ More from the directory: [EspoCRM](/tools/espocrm/)
     }
   },
   "datePublished": "2026-07-30",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/",
   "image": {
     "@type": "ImageObject",
@@ -191,7 +191,7 @@ More from the directory: [EspoCRM](/tools/espocrm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

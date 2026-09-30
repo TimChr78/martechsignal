@@ -132,7 +132,7 @@ More from the directory: [Brandwatch](/tools/brandwatch/)
     }
   },
   "datePublished": "2026-09-02",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/",
   "image": {
     "@type": "ImageObject",
@@ -178,7 +178,7 @@ More from the directory: [Brandwatch](/tools/brandwatch/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/", "breadcrumb": {"@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/", "breadcrumb": {"@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

@@ -150,7 +150,7 @@ More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
     }
   },
   "datePublished": "2026-08-22",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/",
   "image": {
     "@type": "ImageObject",
@@ -196,7 +196,7 @@ More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/", "breadcrumb": {"@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/", "breadcrumb": {"@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

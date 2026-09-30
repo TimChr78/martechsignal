@@ -79,7 +79,7 @@ Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail 
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Warpdrive →](https://warpdrivecrm.com)
 

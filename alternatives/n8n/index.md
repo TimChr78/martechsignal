@@ -198,7 +198,7 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
     "@type": "ItemList",
     "name": "Best n8n alternatives (2026)",
     "datePublished": "2026-09-28",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-30",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -372,6 +372,10 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/alternatives/n8n/", "breadcrumb": {"@id": "https://martechsignal.com/alternatives/n8n/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

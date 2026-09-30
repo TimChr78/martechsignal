@@ -20,7 +20,7 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 
 GLOSSARY
 
-Definition last updated 2026-09-28
+Definition last updated 2026-09-30
 
 ## Definition
 
@@ -77,7 +77,7 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Customer.io](https
         "@type": "DefinedTerm",
         "name": "Email Sequence (Drip Campaign)",
         "description": "An email sequence is a series of automated emails sent on a schedule or triggered by behavior. A welcome sequence introduces new subscribers to your product. A nurture sequence educates leads over weeks. A win-back sequence tries to re-engage customers who stopped opening.",
-        "dateModified": "2026-09-29",
+        "dateModified": "2026-09-30",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -135,7 +135,7 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Customer.io](https
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/email-sequence/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/email-sequence/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/email-sequence/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/email-sequence/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

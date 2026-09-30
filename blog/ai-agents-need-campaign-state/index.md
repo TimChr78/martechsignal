@@ -109,7 +109,7 @@ The agents are good enough. The context is not.
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -153,7 +153,7 @@ More from the directory: [advertools](/tools/advertools/)
     }
   },
   "datePublished": "2026-08-03",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/ai-agents-need-campaign-state/",
   "image": {
     "@type": "ImageObject",
@@ -166,7 +166,7 @@ More from the directory: [advertools](/tools/advertools/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1537,
+  "wordCount": 1534,
   "articleSection": "marketing-automation"
 }
 ```
@@ -199,7 +199,7 @@ More from the directory: [advertools](/tools/advertools/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

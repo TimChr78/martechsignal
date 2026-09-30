@@ -61,7 +61,7 @@ Sales CRM with the Zia assistant, workflow automation and the Zoho suite around 
 
 CRM · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Zoho CRM →](https://www.zoho.com/crm/)
 

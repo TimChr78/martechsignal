@@ -71,7 +71,7 @@ Customer engagement platform with AI-powered real-time messaging across channels
 
 Marketing Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-13
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Braze →](https://www.braze.com)
 

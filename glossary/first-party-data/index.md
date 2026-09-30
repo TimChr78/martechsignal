@@ -20,7 +20,7 @@ Data-driven messaging platform for automated email, push, SMS, and in-app messag
 
 GLOSSARY
 
-Definition last updated 2026-09-05
+Definition last updated 2026-09-30
 
 ## Definition
 
@@ -87,7 +87,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [Twilio Segment](https:/
         "@type": "DefinedTerm",
         "name": "First-Party Data",
         "description": "First-party data is information you collect directly from your customers and prospects: website behavior, purchase history, email engagement, survey responses, support interactions. You own it, you collected it with consent, and it doesn't depend on a third party's platform or cookie.",
-        "dateModified": "2026-09-29",
+        "dateModified": "2026-09-30",
         "datePublished": "2026-09-05",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -145,7 +145,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [Twilio Segment](https:/
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/first-party-data/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/first-party-data/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/first-party-data/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/first-party-data/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

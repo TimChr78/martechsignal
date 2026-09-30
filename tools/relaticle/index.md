@@ -77,7 +77,7 @@ Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & 
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Relaticle →](https://relaticle.com)
 

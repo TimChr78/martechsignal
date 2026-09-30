@@ -162,7 +162,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI Personalization & CDP tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-30",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -292,6 +292,10 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-personalization-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-personalization-tools/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

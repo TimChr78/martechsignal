@@ -223,7 +223,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
     }
   },
   "datePublished": "2026-07-27",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/open-source-martech-stack/",
   "image": {
     "@type": "ImageObject",
@@ -269,7 +269,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/open-source-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/open-source-martech-stack/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/open-source-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/open-source-martech-stack/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

@@ -81,7 +81,7 @@ Free, self-hostable Airtable alternative that turns any database into a smart sp
 
 Marketing Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit NocoDB →](https://nocodb.com)
 

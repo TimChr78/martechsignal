@@ -83,7 +83,7 @@ The open-source alternative to Salesforce, designed for AI with modern CRM workf
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Twenty →](https://twenty.com)
 

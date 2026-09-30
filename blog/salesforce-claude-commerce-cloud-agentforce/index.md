@@ -95,8 +95,8 @@ Tools linked in this post: [Salesforce Marketing Cloud](/tools/salesforce-market
 - [Bloomreach](/tools/bloomreach/) - AI-powered commerce experience platform with search, personalization, and CDP
 ## Comparison guides
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -138,7 +138,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-09-29",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/",
   "image": {
     "@type": "ImageObject",
@@ -184,7 +184,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/", "breadcrumb": {"@id": "https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/", "breadcrumb": {"@id": "https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

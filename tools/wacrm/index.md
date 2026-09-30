@@ -85,7 +85,7 @@ Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, a
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit WaCRM →](https://wacrm.tech)
 

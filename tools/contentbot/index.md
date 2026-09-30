@@ -71,7 +71,7 @@ AI content automation platform with workflows for blogs, ads, and social posts
 
 AI Content & Copywriting · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit ContentBot →](https://contentbot.ai)
 

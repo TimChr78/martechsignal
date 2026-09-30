@@ -67,7 +67,7 @@ Autonomous AI platform that manages and optimizes digital advertising campaigns
 
 Advertising & Paid Media · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-13
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Albert AI →](https://albert.ai)
 

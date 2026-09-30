@@ -68,7 +68,7 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 
 Workflow Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 Looking for options? [Best n8n alternatives](/alternatives/n8n/)
 

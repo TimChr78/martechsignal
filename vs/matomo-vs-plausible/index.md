@@ -150,7 +150,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/matomo-vs-plausible/#article",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-30",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -233,6 +233,10 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/matomo-vs-plausible/", "breadcrumb": {"@id": "https://martechsignal.com/vs/matomo-vs-plausible/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

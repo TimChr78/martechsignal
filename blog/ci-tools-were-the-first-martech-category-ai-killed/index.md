@@ -173,7 +173,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     }
   },
   "datePublished": "2026-08-18",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/",
   "image": {
     "@type": "ImageObject",
@@ -219,7 +219,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

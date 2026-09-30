@@ -20,7 +20,7 @@ AI-powered digital analytics platform for product and marketing teams
 
 GLOSSARY
 
-Definition last updated 2026-09-25
+Definition last updated 2026-09-30
 
 ## Definition
 
@@ -83,7 +83,7 @@ Sources: [CDP Institute](https://www.cdpinstitute.org/) · [Twilio Segment](http
         "@type": "DefinedTerm",
         "name": "Customer Data Platform (CDP)",
         "description": "A customer data platform collects and unifies customer data from every touchpoint, website visits, email opens, purchases, support tickets, into a single profile that other systems can query. Unlike a CRM, which sales teams use to track deals, a CDP is built for marketers who need a real-time, always-on view of each customer across channels.",
-        "dateModified": "2026-09-29",
+        "dateModified": "2026-09-30",
         "datePublished": "2026-09-25",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -141,7 +141,7 @@ Sources: [CDP Institute](https://www.cdpinstitute.org/) · [Twilio Segment](http
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/cdp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/cdp/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/cdp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/cdp/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

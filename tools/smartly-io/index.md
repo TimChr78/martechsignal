@@ -73,7 +73,7 @@ AI advertising platform spanning creative production, media buying, and measurem
 
 Advertising & Paid Media · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Smartly.io →](https://www.smartly.io)
 

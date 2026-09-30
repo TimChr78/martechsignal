@@ -79,7 +79,7 @@ Modern email development framework using Tailwind CSS for responsive campaigns
 
 Email Marketing · Free · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Maizzle →](https://maizzle.com)
 

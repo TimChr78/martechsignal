@@ -74,7 +74,7 @@ The AI Customer Experience Platform: monitor, optimize and serve your site to AI
 
 GEO & LLM Optimization · From $250/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Scrunch →](https://scrunch.com/)
 

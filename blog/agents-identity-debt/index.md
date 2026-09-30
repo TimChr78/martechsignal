@@ -98,7 +98,7 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 ## Comparison guides
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -142,7 +142,7 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
     }
   },
   "datePublished": "2026-08-13",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/agents-identity-debt/",
   "image": {
     "@type": "ImageObject",
@@ -155,7 +155,7 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1745,
+  "wordCount": 1741,
   "articleSection": "marketing-automation"
 }
 ```
@@ -188,7 +188,7 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agents-identity-debt/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agents-identity-debt/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agents-identity-debt/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agents-identity-debt/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

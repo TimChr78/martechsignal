@@ -75,7 +75,7 @@ AI search tracking across 8 models with an agent that writes, fixes, and outreac
 
 GEO & LLM Optimization · From €79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Nimt.ai →](https://nimt.ai)
 

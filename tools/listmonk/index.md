@@ -73,7 +73,7 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Listmonk →](https://listmonk.app)
 

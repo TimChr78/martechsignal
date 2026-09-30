@@ -74,7 +74,7 @@ Open-source framework for building AI agents, chaining LLM calls, and connecting
 
 Workflow Automation · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit LangChain →](https://www.langchain.com)
 

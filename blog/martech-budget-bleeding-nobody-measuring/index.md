@@ -158,7 +158,7 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
     }
   },
   "datePublished": "2026-08-06",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/",
   "image": {
     "@type": "ImageObject",
@@ -204,7 +204,7 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/", "breadcrumb": {"@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/", "breadcrumb": {"@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

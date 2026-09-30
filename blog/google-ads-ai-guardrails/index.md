@@ -131,7 +131,7 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
     }
   },
   "datePublished": "2026-09-24",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-ads-ai-guardrails/",
   "image": {
     "@type": "ImageObject",
@@ -189,7 +189,7 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-ads-ai-guardrails/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-ads-ai-guardrails/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-ads-ai-guardrails/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-ads-ai-guardrails/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

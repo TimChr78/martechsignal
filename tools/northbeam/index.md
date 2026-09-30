@@ -67,7 +67,7 @@ AI-powered multi-touch attribution and marketing intelligence for ecommerce
 
 Analytics & Attribution · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Northbeam →](https://www.northbeam.io)
 

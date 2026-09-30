@@ -147,7 +147,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best workflow automation tools (2026)",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-30",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -255,6 +255,10 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/workflow-automation-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/workflow-automation-tools/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

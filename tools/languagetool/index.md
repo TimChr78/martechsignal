@@ -86,7 +86,7 @@ Open-source writing assistant and grammar checker with AI style and tone suggest
 
 AI Content & Copywriting · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit LanguageTool →](https://languagetool.org)
 

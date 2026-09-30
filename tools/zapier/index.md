@@ -85,7 +85,7 @@ No-code automation platform connecting 9,000+ apps with AI-powered workflows
 
 Workflow Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 Looking for options? [Best Zapier alternatives](/alternatives/zapier/)
 

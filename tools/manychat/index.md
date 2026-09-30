@@ -67,7 +67,7 @@ AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 
 Chatbots & Conversational AI · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit ManyChat →](https://manychat.com)
 
@@ -147,7 +147,7 @@ The default choice for Instagram and Messenger funnels; value depends entirely o
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ## Also featured in

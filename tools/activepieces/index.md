@@ -70,7 +70,7 @@ Open-source workflow automation with a free cloud tier and on-prem hosting
 
 Workflow Automation · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Activepieces →](https://www.activepieces.com)
 

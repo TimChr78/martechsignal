@@ -74,7 +74,7 @@ AI-powered SEO content platform for research, writing, and AI visibility trackin
 
 SEO & Search · From $39/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Frase →](https://www.frase.io)
 

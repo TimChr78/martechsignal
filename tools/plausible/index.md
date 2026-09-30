@@ -70,7 +70,7 @@ Lightweight, privacy-friendly open-source web analytics alternative to Google An
 
 Analytics & Attribution · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Plausible Analytics →](https://plausible.io)
 

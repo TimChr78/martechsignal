@@ -61,7 +61,7 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
 
 Workflow Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Pipedream →](https://pipedream.com)
 

@@ -85,7 +85,7 @@ We have run [Claude SEO](/tools/claude-seo/) on production sites and reported th
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -129,7 +129,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
     }
   },
   "datePublished": "2026-09-15",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/",
   "image": {
     "@type": "ImageObject",
@@ -142,7 +142,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1376,
+  "wordCount": 1373,
   "articleSection": "agent-skills"
 }
 ```
@@ -175,7 +175,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

@@ -100,8 +100,8 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 - [Intercom](/tools/intercom/) - AI-first customer service platform with Fin AI agent and omnichannel messaging
 ## Comparison guides
 
+- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -145,7 +145,7 @@ More from the directory: [Jasper](/tools/jasper/)
     }
   },
   "datePublished": "2026-09-11",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/determinism-audit/",
   "image": {
     "@type": "ImageObject",
@@ -158,7 +158,7 @@ More from the directory: [Jasper](/tools/jasper/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1787,
+  "wordCount": 1789,
   "articleSection": "agent-skills"
 }
 ```
@@ -191,7 +191,7 @@ More from the directory: [Jasper](/tools/jasper/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/determinism-audit/", "breadcrumb": {"@id": "https://martechsignal.com/blog/determinism-audit/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/determinism-audit/", "breadcrumb": {"@id": "https://martechsignal.com/blog/determinism-audit/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

@@ -84,7 +84,7 @@ Self-hosted AI research and writing assistant that chats with your documents and
 
 AI Content & Copywriting · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Khoj →](https://khoj.dev)
 

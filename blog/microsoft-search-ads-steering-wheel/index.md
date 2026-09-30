@@ -142,7 +142,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
     }
   },
   "datePublished": "2026-08-31",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/",
   "image": {
     "@type": "ImageObject",
@@ -188,7 +188,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/", "breadcrumb": {"@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/", "breadcrumb": {"@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json
