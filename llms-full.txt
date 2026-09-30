@@ -210,6 +210,7 @@
 
 ## Analysis
 
+- [AI theater: the wrong KPI your team rewards](https://martechsignal.com/blog/ai-theater-wrong-kpi/) (2026-09-30)
 - [Salesforce puts Claude in Commerce Cloud: a quiet admission](https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/) (2026-09-29)
 - [IAB agentic buying rules land before ad stacks can honor them](https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/) (2026-09-28)
 - [Claude SEO benchmark: the living score tracker](https://martechsignal.com/blog/claude-seo-benchmark/) (2026-09-27)

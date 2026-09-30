@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Sep 2026 00:55:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 05:18:05 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters</title>
+      <link>https://martechsignal.com/blog/ai-theater-wrong-kpi/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/ai-theater-wrong-kpi/</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description>HubSpot published a post this month on the psychology of AI progress indicators. In it, Phill Agnew describes something most of us watched happen in 2025: the major answer engines…</description>
+    </item>
     <item>
       <title>Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough</title>
       <link>https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/</link>

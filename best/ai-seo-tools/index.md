@@ -44,8 +44,9 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Claude SEO - 17,899 stars, +2,803 in the 36-snapshot window to 2026-09-29 15,096→17,899 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
-- Codex SEO - 762 stars, +142 in the 36-snapshot window to 2026-09-29 620→762 [verify on GitHub](https://github.com/AgriciDaniel/codex-seo)
+- Promptfoo - 25,570 stars, +110 in the 5-snapshot window to 2026-09-30 25,460→25,570 [verify on GitHub](https://github.com/promptfoo/promptfoo)
+- Claude SEO - 17,975 stars, +2,879 in the 37-snapshot window to 2026-09-30 15,096→17,975 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
+- Codex SEO - 766 stars, +146 in the 37-snapshot window to 2026-09-30 620→766 [verify on GitHub](https://github.com/AgriciDaniel/codex-seo)
 [All movers on the trending page](/trending/).
 
 ## [Semrush](/tools/semrush/)

@@ -44,7 +44,7 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- NocoDB - 65,104 stars, +251 in the 24-snapshot window to 2026-09-29 64,853→65,104 [verify on GitHub](https://github.com/nocodb/nocodb)
+- NocoDB - 65,119 stars, +266 in the 25-snapshot window to 2026-09-30 64,853→65,119 [verify on GitHub](https://github.com/nocodb/nocodb)
 [All movers on the trending page](/trending/).
 
 ## [NocoDB](/tools/nocodb/)

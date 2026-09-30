@@ -42,9 +42,9 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Matomo - 21,908 stars, +103 in the 36-snapshot window to 2026-09-29 21,805→21,908 [verify on GitHub](https://github.com/matomo-org/matomo)
-- Umami - 39,072 stars, +712 in the 36-snapshot window to 2026-09-29 38,360→39,072 [verify on GitHub](https://github.com/umami-software/umami)
-- Snowplow - 7,034 stars, +6 in the 36-snapshot window to 2026-09-29 7,028→7,034 [verify on GitHub](https://github.com/snowplow/snowplow)
+- Matomo - 21,912 stars, +107 in the 37-snapshot window to 2026-09-30 21,805→21,912 [verify on GitHub](https://github.com/matomo-org/matomo)
+- Umami - 39,089 stars, +729 in the 37-snapshot window to 2026-09-30 38,360→39,089 [verify on GitHub](https://github.com/umami-software/umami)
+- Snowplow - 7,034 stars, +6 in the 37-snapshot window to 2026-09-30 7,028→7,034 [verify on GitHub](https://github.com/snowplow/snowplow)
 [All movers on the trending page](/trending/).
 
 ## [Amplitude](/tools/amplitude/)

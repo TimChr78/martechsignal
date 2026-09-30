@@ -2293,6 +2293,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:ai-theater-wrong-kpi",
+   "displayName": "AI theater: the wrong KPI your team rewards",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/ai-theater-wrong-kpi/",
+   "description": "HubSpot published a post this month on the psychology of AI progress indicators. In it, Phill Agnew describes something most of us watched happen in.",
+   "representativeQueries": [
+    "ai theater: the wrong kpi your team rewards",
+    "ai theater wrong kpi"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:automation-blast-radius-audit",
    "displayName": "Before your next automation, run the blast radius audit",
    "type": "text/html",

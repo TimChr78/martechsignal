@@ -8,13 +8,13 @@
 
 12CHECKLIST QUESTIONS
 
-BLOG · 2026-09-2901
+BLOG · 2026-09-3001
 
-BLOG · 2026-09-2802
+BLOG · 2026-09-2902
 
-BLOG · 2026-09-2703
+BLOG · 2026-09-2803
 
-BLOG · 2026-09-2604
+BLOG · 2026-09-2704
 
 [NocoBaseOpen-source no-code platform with AI assistance for building business systems fastAUTOMATION](/tools/nocobase/) [Twilio SegmentCustomer data platform for collecting, unifying, and activating customer dataPERSONALIZATION](/tools/segment/) [HubSpot CRMFree AI-powered CRM platform with sales, service, and marketing tools unifiedCRM](/tools/hubspot-crm/) [MatomoOpen-source web analytics platform with full data ownership and AI-powered insightsANALYTICS](/tools/matomo/) [NocoDBFree, self-hostable Airtable alternative that turns any database into a smart spreadsheetMARKETING AUTO](/tools/nocodb/) [n8nOpen-source workflow automation platform with AI agent capabilities and 400+ nodesAUTOMATION](/tools/n8n/) [TwentyThe open-source alternative to Salesforce, designed for AI with modern CRM workflowsCRM](/tools/twenty/) [UmamiOpen-source, cookieless web analytics with real-time dashboards, session replay, and heatmapsANALYTICS](/tools/umami/)
 
@@ -82,6 +82,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters
+
+HubSpot published a post this month on the psychology of AI progress indicators. In it, Phill Agnew describes something most of us watched happen in 2025: the major answer engines…
+
 ### Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough
 
 On September 22, Salesforce published two blog posts. One, from the Commerce Cloud team, is titled "Build Agents Your Way with Claude and Commerce Cloud." It invites merchants to…
@@ -93,10 +97,6 @@ Two announcements landed 24 hours apart this week, and they describe the same wo
 ### Claude SEO benchmark: every score we have earned, and what each one measured
 
 Five grader generations have scored martechsignal.com since August. This page is the living record: every score, the grader that produced it, and the one thing each run actually…
-
-### Where open-source martech momentum actually lives
-
-The fastest-accumulating open-source projects in our catalog are not platforms. They are packs of agent skills, and the gap is widening.
 
 ## Tool index
 

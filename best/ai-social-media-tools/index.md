@@ -40,7 +40,7 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- MultiPost - 3,553 stars, +459 in the 36-snapshot window to 2026-09-29 3,094→3,553 [verify on GitHub](https://github.com/leaperone/MultiPost-Extension)
+- MultiPost - 3,555 stars, +461 in the 37-snapshot window to 2026-09-30 3,094→3,555 [verify on GitHub](https://github.com/leaperone/MultiPost-Extension)
 [All movers on the trending page](/trending/).
 
 ## [Hootsuite](/tools/hootsuite/)

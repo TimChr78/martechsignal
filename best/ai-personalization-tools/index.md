@@ -38,6 +38,15 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+## Open-source momentum, with receipts
+
+Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
+
+- Flagsmith - 6,584 stars, +12 in the 5-snapshot window to 2026-09-30 6,572→6,584 [verify on GitHub](https://github.com/Flagsmith/flagsmith)
+- GrowthBook - 8,455 stars, +23 in the 5-snapshot window to 2026-09-30 8,432→8,455 [verify on GitHub](https://github.com/growthbook/growthbook)
+- Jitsu - 5,094 stars, +3 in the 5-snapshot window to 2026-09-30 5,091→5,094 [verify on GitHub](https://github.com/jitsucom/jitsu)
+[All movers on the trending page](/trending/).
+
 ## [Dynamic Yield](/tools/dynamic-yield/)
 
 Dynamic Yield by Mastercard is an enterprise personalization platform built around Experience OS, a decisioning layer that picks the content, products, and offers to serve each visitor across web, mobile apps, email, and triggered messages. Pricing is enterprise and quoted per contract, and no published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts (verified 2026-09-06). The catalog documents 7 AI features, 10 integrations, and a public API.

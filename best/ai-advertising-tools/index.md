@@ -40,6 +40,13 @@ What we could not verify is called out under each tool below.
 
 **Guide:** [Agentic advertising](/guides/agentic-ai-advertising/)
 
+## Open-source momentum, with receipts
+
+Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
+
+- advertools - 1,469 stars, +5 in the 5-snapshot window to 2026-09-30 1,464→1,469 [verify on GitHub](https://github.com/eliasdabbas/advertools)
+[All movers on the trending page](/trending/).
+
 ## [Revealbot (Birch)](/tools/revealbot/)
 
 Revealbot is now Bïrch (bir.ch), and the rebrand came with a product expansion worth knowing before you compare it to anything. Essential $49/mo, Pro $99/mo, tiered by monthly ad spend across connected accounts; Enterprise quoted; 14-day free trial with no card; annual billing gives 12 months for the price of 10; Hub tracking priced per event; Signals Gateway Hub (server-side Meta tracking) free to 10K events/mo, up to $499/mo at 150M events (verified 2026-09-07). The catalog documents 4 AI features, 12 integrations, and a public API.

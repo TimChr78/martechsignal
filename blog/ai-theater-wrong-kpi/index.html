@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI theater: the wrong KPI your team rewards</title>
+<meta name="description" content="HubSpot published a post this month on the psychology of AI progress indicators. In it, Phill Agnew describes something most of us watched happen in.">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="article">
+<link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="AI theater: the wrong KPI your team rewards">
+<meta property="og:description" content="HubSpot published a post this month on the psychology of AI progress indicators. In it, Phill Agnew describes something most of us watched happen in.">
+<meta property="og:url" content="https://martechsignal.com/blog/ai-theater-wrong-kpi/">
+<meta property="og:image" content="https://martechsignal.com/og/ai-theater-wrong-kpi.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/ai-theater-wrong-kpi/">
+<link rel="ard ai-catalog" type="application/json" href="https://martechsignal.com/.well-known/ard.json">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin><style>:root{--bg: #080E1A;--card: #0F1B31;--line: #1D2B47;--line2: #2A3D63;--text: #E9EEF8;--muted: #8FA1C0;--amber: #FFB224;--green: #3DDC97;--red: #F87171;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--body: 'Archivo', 'Archivo-fallback', sans-serif}*{margin: 0;padding: 0;box-sizing: border-box}html{scroll-behavior: smooth}body{background: var(--bg);color: var(--text);font-family: var(--body);line-height: 1.65;-webkit-font-smoothing: antialiased}.page-post body, body.page-post{line-height: 1.7}::selection{background: var(--amber);color: #141005}a{color: inherit}.bg{position: fixed;inset: 0;z-index: -1;background: radial-gradient(900px 520px at 88% -8%, rgba(255,178,36,.11), transparent 62%), radial-gradient(760px 560px at -12% 34%, rgba(61,220,151,.07), transparent 60%), radial-gradient(700px 400px at 60% 110%, rgba(255,92,92,.05), transparent 60%), var(--bg)}.bg::before{content: "";position: absolute;inset: 0;background-image: linear-gradient(rgba(140,165,210,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(140,165,210,.05) 1px, transparent 1px);background-size: 46px 46px;mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 30%, transparent 100%)}.page-tools .bg::before{display: none}.wrap{max-width: 1080px;margin: 0 auto;padding: 0 1.25rem}.masthead{border-bottom: 1px solid var(--line)}.mast-in{max-width: 1080px;margin: 0 auto;padding: 1.1rem 1.25rem;display: flex;align-items: center;justify-content: space-between}.wordmark{font-family: var(--disp);font-size: 1.15rem;letter-spacing: .03em;text-decoration: none;display: flex;align-items: center;gap: .5rem}.wordmark b{color: var(--amber);font-weight: inherit}.pulse-dot{width: 8px;height: 8px;border-radius: 50%;background: var(--amber);animation: brandpulse 2s ease-in-out infinite}@keyframes brandpulse{0%,100%{box-shadow: 0 0 0 0 rgba(255,178,36,.4)}55%{box-shadow: 0 0 0 6px rgba(255,178,36,0)}}@media (prefers-reduced-motion: reduce){.pulse-dot{animation: none}}@keyframes blink{50%{opacity: 0}}.mast-nav{display: flex;gap: 1.4rem}.mast-nav a{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);text-decoration: none;transition: color .2s}.mast-nav a:hover{color: var(--amber)}@media (max-width: 700px){.mast-nav{overflow-x: auto;scrollbar-width: none;-webkit-mask-image: linear-gradient(90deg, #000 88%, transparent);mask-image: linear-gradient(90deg, #000 88%, transparent)}.mast-nav::-webkit-scrollbar{display: none}}.mast-right{display: flex;align-items: center;gap: 1.1rem}.live{display: inline-flex;align-items: center;gap: .45rem;font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--green);border: 1px solid rgba(61,220,151,.35);padding: .32rem .7rem;border-radius: 99px;background: rgba(61,220,151,.07)}.live i{width: 7px;height: 7px;border-radius: 50%;background: var(--green);animation: pulse 1.6s ease-in-out infinite}.pulse-dot{position: relative}.pulse-dot::after{content: "";position: absolute;inset: -2px;border: 2px solid rgba(61,220,151,.5);border-radius: inherit;animation: pulse 2.2s ease-out infinite;will-change: opacity, transform}@keyframes pulse{0%{opacity: .6;transform: scale(.85)}55%{opacity: 0;transform: scale(1.5)}100%{opacity: 0;transform: scale(1.5)}}.mast-date{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted)}@media (max-width: 560px){.mast-date{display: none}}@media (max-width: 560px){.mast-right .live{display: none}}.page-tools footer{margin-top: 2rem}.btn{display: inline-block;background: var(--amber);color: #141005;font: 700 .92rem var(--body);text-decoration: none;padding: .75rem 1.5rem;border-radius: 6px;transition: transform .2s, box-shadow .2s}.btn:hover{transform: translateY(-2px);box-shadow: 0 10px 28px rgba(255,178,36,.3)}html.js .reveal:not(.in){opacity: 0;transform: translateY(18px);transition: opacity .7s ease, transform .7s ease}html.js .reveal.in, html.js .reveal.in, .reveal.in{opacity: 1;transform: none}@media (prefers-reduced-motion: reduce){*, *::before, *::after{animation: none !important;transition: none !important}}.kicker{font: 600 0.8rem var(--mono);letter-spacing: .16em;color: var(--amber);margin-bottom: 1rem}.hero{display: grid;grid-template-columns: 1.12fr .88fr;gap: 3.2rem;align-items: end;padding: 4.6rem 0 1.2rem}@media (max-width: 880px){.hero{grid-template-columns: 1fr;gap: 1rem;padding: 1rem 1.25rem .4rem;align-items: start}.hero h1{font-size: 2rem;line-height: 1.12}.hero p{margin: .35rem 0}}.lede{color: var(--muted);font-size: 1.1rem;max-width: 34rem;margin: 1.4rem 0 1.9rem}.hero-cta{display: flex;align-items: center;gap: 1.3rem;flex-wrap: wrap}.micro{font: 500 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);margin-top: 1.5rem}.spec{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.5rem 1.5rem 1.7rem;box-shadow: 0 24px 60px rgba(2,6,16,.5)}@keyframes eq{from{transform: scaleY(.35)}to{transform: scaleY(1)}}.spec dl{display: grid;gap: 0}.spec dl > div{display: flex;justify-content: space-between;align-items: baseline;padding: .62rem 0;border-top: 1px dashed var(--line2)}.spec dt{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted);text-transform: uppercase}.spec dd{font: 600 .86rem var(--body);color: var(--text)}.spec dd.ok{color: var(--green)}.crumb{padding: 1.2rem 0 .4rem;font: 500 0.8rem var(--mono);letter-spacing: .1em;color: var(--muted)}.crumb a{color: var(--muted);text-decoration: none;transition: color .2s}.crumb a{min-height: 44px;display: inline-flex;align-items: center}.crumb a:hover{color: var(--amber)}.crumb span{color: var(--amber)}.page-tools .page-head{padding: 2.2rem 0 1.6rem;border-bottom: 1px solid var(--line)}.page-tools .page-head h1{font-family: var(--disp);font-weight: 400;font-size: clamp(1.8rem, 4vw, 2.8rem);letter-spacing: -.01em}.page-tools .page-head .sub{color: var(--muted);font-size: 1.05rem;margin-top: .6rem;max-width: 42rem}.page-tools .page-head .count{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--amber);margin-top: .8rem}.tool-grid{display: grid;grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));gap: 1.2rem;padding: 1.8rem 0}.tool-card{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.4rem 1.5rem;text-decoration: none;transition: border-color .25s, transform .25s, box-shadow .25s;display: flex;flex-direction: column;gap: .6rem}.tool-card:hover{border-color: var(--amber);transform: translateY(-3px);box-shadow: 0 12px 36px rgba(2,6,16,.5)}.tool-card .name{font: 700 1.1rem var(--body);letter-spacing: -.01em;margin: 0}.tool-card .tagline{color: var(--muted);font-size: .9rem;line-height: 1.5;flex: 1}.tool-card .meta{display: flex;gap: .6rem;flex-wrap: wrap;align-items: center}.tool-card img{width: 100%;height: auto;display: block;border-radius: 8px}.made-badge{font-size: .92rem;line-height: 1.5;border: 1px solid var(--amber);border-radius: 8px;padding: .6rem .9rem;margin: .8rem 0;background: rgba(255,255,255,.02)}.hero-cols{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:2.5rem;align-items:start}@media(max-width:1080px){.hero-cols{grid-template-columns:1fr}}.hero-side .stats-card{display:grid;gap:1rem;grid-template-columns:repeat(3,1fr);text-align:center}@media(max-width:700px){.hero-side .stats-card{grid-template-columns:1fr}}.cat-nav{display: flex;gap: .6rem;flex-wrap: wrap;padding: 1.2rem 0}.cat-pill{font: 600 0.8rem var(--mono);letter-spacing: .08em;padding: .45rem .9rem;border-radius: 99px;border: 1px solid var(--line2);color: var(--muted);text-decoration: none;transition: all .2s}.cat-pill:hover, .cat-pill.active{border-color: var(--amber);color: var(--amber);background: rgba(255,178,36,.06)}@keyframes wirepulse{0%{left: 0;opacity: 0}12%{opacity: 1}88%{opacity: 1}100%{left: calc(100% - 8px);opacity: 0}}#progress{position: fixed;top: 0;left: 0;height: 3px;width: 0;background: var(--amber);z-index: 99;box-shadow: 0 0 12px rgba(255,178,36,.6)}@media (prefers-reduced-motion: reduce){#progress{display: none}}html, body{overflow-x: clip}.bg{width: 100vw;max-width: 100%}@media (max-width: 480px){.mast-in{row-gap: .5rem;padding-inline: clamp(.9rem, 4vw, 1.5rem)}}.tool-body, .page-tools main p, .page-tools main li{max-width: 72ch}.page-tools main h2, .page-tools main h3{max-width: 40ch}:root{--body: 'Archivo', 'Archivo-fallback', sans-serif;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace}.mast-nav a, .foot-links a, footer nav a, .footer-nav a{display: inline-block;padding: 12px 8px;margin: -12px -8px}.breadcrumbs a, .crumbs a{display: inline-block;padding: 12px 6px;margin: -12px -6px}.disclosure-strip{font: 500 .78rem var(--mono);letter-spacing: .06em;color: var(--muted);margin: .5rem 0 0}@media (max-width: 700px){.disclosure-strip, .vs-figures figcaption{font-size: 13px}}.tool-card.is-hidden,.hub-group.is-hidden{display:none}.crumb a,.footer a,.alt-back a,.back,.hub-links a,.post-list a{display:inline-block;padding-block:5px}.mast-nav a{display:inline-block;padding-block:4px}.crumb a,.byline a,.post-meta a,.foot-links a{display:inline-block}.crumb ol{align-items:center}.crumb li{display:flex;align-items:center}.crumb li:not(:last-child)::after{content:"/";margin-inline:.4rem;color:var(--muted)}@media (max-width:700px){.mast-in{flex-wrap:nowrap;align-items:center;gap:.5rem;padding:.2rem 0}.wordmark{flex:0 0 auto}.mast-nav{flex:1 1 auto;display:flex;flex-wrap:nowrap;overflow-x:auto;gap:.1rem;scrollbar-width:none}.mast-nav::-webkit-scrollbar{display:none}.mast-nav{-webkit-mask-image:linear-gradient(90deg,#000 92%,transparent);mask-image:linear-gradient(90deg,#000 92%,transparent)}.mast-nav a{flex:0 0 auto;min-height:44px;display:inline-flex;align-items:center;padding-inline:.55rem;font-size:.78rem}.crumb a,.byline a,.post-meta a{position:relative}.crumb a::after,.byline a::after,.post-meta a::after{content:"";position:absolute;inset-block:-10px;inset-inline:-4px}}</style><link rel="stylesheet" href="/style.min.css?v=fc1c2048"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelectors": [
+      "h1",
+      "article h2"
+    ]
+  },
+  "@type": "BlogPosting",
+  "headline": "Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters",
+  "description": "HubSpot published a post this month on the psychology of AI progress indicators. In it, Phill Agnew describes something most of us watched happen in.",
+  "author": {
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/logo.png"
+    }
+  },
+  "datePublished": "2026-09-30",
+  "dateModified": "2026-09-30",
+  "mainEntityOfPage": "https://martechsignal.com/blog/ai-theater-wrong-kpi/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/ai-theater-wrong-kpi.png",
+    "width": 1200,
+    "height": 630
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://martechsignal.com/blog/#blog"
+  },
+  "inLanguage": "en",
+  "wordCount": 1715,
+  "articleSection": "marketing-automation, workflow-automation"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters",
+      "item": "https://martechsignal.com/blog/ai-theater-wrong-kpi/"
+    }
+  ]
+}
+</script>
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+<script src="/site.js?v=dee24ac7" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-theater-wrong-kpi/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-theater-wrong-kpi/#breadcrumb"}, "dateModified": "2026-09-30"}</script>
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">AI AGENTS · MARKETING AUTOMATION · 9 MIN</p>
+<h1>Your team is rewarding AI theater: why &#x27;look, it&#x27;s working&#x27; is beating the metric that matters</h1>
+
+<img class="post-hero" src="/og/hero-ai-theater-wrong-kpi.webp" alt="Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters" width="1200" height="630" srcset="/og/hero-ai-theater-wrong-kpi-480.webp 480w, /og/hero-ai-theater-wrong-kpi-800.webp 800w, /og/hero-ai-theater-wrong-kpi.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="disclosure-strip"><a href="/methodology/">How we review</a> · No affiliate links</p>
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters</p>
+<p class="meta"><time datetime="2026-09-30">SEP 30, 2026</time></p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/marketing-automation/">Marketing Automation</a> · <a href="/categories/workflow-automation/">Workflow Automation</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#we-brought-the-spinner-to-work">We brought the spinner to work</a> · <a href="#the-content-machine-that-worked-perfectly">The content machine that worked perfectly</a> · <a href="#then-it-started-publishing-for-real">Then it started publishing for real</a> · <a href="#what-to-measure-instead">What to measure instead</a></nav>
+<p>HubSpot published a post this month on the psychology of AI progress indicators. In it, <a href="https://blog.hubspot.com/marketing/author/phill-agnew">Phill Agnew</a> describes something most of us watched happen in 2025: the major answer engines all started showing their work. Claude, ChatGPT, and Gemini began narrating which sites they searched and which assumptions they second-guessed. Anthropic <a href="https://www.anthropic.com/news/visible-extended-thinking">gives three official reasons</a> for the visible thinking. It helps people check and trust answers. It reveals mismatches between reasoning and output. And it is, in the company's own words, interesting to watch.</p>
+
+<p>Agnew offers a fourth reason the providers are unlikely to say out loud: watching the machine work makes us value the output more. The article names this the labor illusion, after a <a href="https://www.hbs.edu/ris/Publication%20Files/Norton_Michael_The%20labor%20illusion%20How%20operational_f4269b70-3732-4fc4-8113-72d0c47533e0.pdf">2011 study in Management Science</a> from two Harvard professors. They had 266 participants use a travel search site. One group got a plain loading wheel. The other watched airlines being searched, with fares stacking up as they were found. The results were identical. The transparent version was perceived as 8.1% higher in value, and in a follow-up with 118 new participants, most picked the slower site with the visible search over a faster blank one, even when the transparent version took 50 seconds longer to return the same results.</p>
+
+<p>A <a href="http://doi.org/10.1016/j.im.2021.103571">2022 study in Information and Management</a> repeated the pattern with 600 participants across two experiments, one with a car search engine and one with a dating app. A seven-second spinner was the only difference between groups. The people who watched it rated identical recommendations as significantly higher quality.</p>
+
+<p>None of this is a scandal. If visible effort makes customers trust you more, ship the progress bar. That is rational product design, and the psychology is real.</p>
+
+<p>The problem is what happens when the same instinct walks into your team's review meetings.</p>
+
+<h2 id="we-brought-the-spinner-to-work">We brought the spinner to work</h2>
+
+<p>The bias does not stay on marketing pages. Inside teams, the same preference decides what gets praised. An agent that streams its reasoning in the demo reads as more capable than a cron job that quietly returns clean data. An automation with a dashboard full of green checkmarks reads as more valuable than one with no UI whose output actually moved a number. A workflow that visibly grinds through steps at midnight looks like work. Whether anyone needed its output is a separate question nobody asks.</p>
+
+<p>Call it AI theater: building automations whose main measurable achievement is being visible.</p>
+
+<p>Two recent posts in r/MarketingAutomation show the pattern from both sides. One builder celebrated a finished machine. Another described what happened after his met reality.</p>
+
+<h2 id="the-content-machine-that-worked-perfectly">The content machine that worked perfectly</h2>
+
+<p>The first poster, u/Shot-Hospital7649, spent months learning n8n and AI automation and shipped a real <a href="https://www.reddit.com/r/MarketingAutomation/comments/1wp0lp6/i_built_an_x_content_machine_now_i_want_to_build/">X content machine</a>. Creators submit content, AI checks and edits it, a manager approves or rejects, approved posts publish or schedule, everything gets tracked, the creator gets notified. The poster even handled the edge cases: missing information, past dates, different approval flows, waiting for the scheduled time.</p>
+
+<p>Then the last paragraph of the post goes somewhere most launch posts never go:</p>
+
+<p>&gt; But now I'm at the point where I don't want to keep building random workflows just to say I built 10, 20, or 30 automations. I want to work on something that someone actually needs.</p>
+
+<p>Read that as an honest metric review. The machine scores ten out of ten on effort. It demonstrates skill, it runs, it produces. What it does not have is a single user with a problem. The poster says it directly at the end: he would rather build something useful for one real person than add another automation that just sits in his portfolio.</p>
+
+<p>The machine is the spinner. Building it felt like progress, looked like progress in the feed, and so far serves no need beyond the building.</p>
+
+<div class="callout">
+<p><strong>Applause and revenue are different metrics.</strong> A pipeline that publishes earns upvotes and portfolio lines. A pipeline that earns replies, leads, or removed manual hours earns budget. Automation forums fill up with the first kind because the second kind is quiet and hard to screenshot.</p>
+</div>
+
+<h2 id="then-it-started-publishing-for-real">Then it started publishing for real</h2>
+
+<p>The second poster, u/Psychological-Row938, skipped Zapier and n8n entirely and <a href="https://www.reddit.com/r/MarketingAutomation/comments/1wo1gfz/i_built_my_own_marketing_automation_pipeline/">built his own pipeline</a> for an iOS fitness app: Python, FFmpeg, Meta's Graph API, Cloudflare Workers, Supabase, and systemd. Research, content, video render, QA, scheduled Instagram and Facebook publishing, comment and DM automation, tracking. On paper it is the more impressive build.</p>
+
+<p>His list of what broke once it started publishing for real is the useful part:</p>
+
+<ul>
+<li>retries can accidentally create duplicate posts</li>
+<li>missed schedules need safe catch-up logic</li>
+<li>Meta comment to Messenger automation is more fragile than expected</li>
+<li>tiny things like Reel thumbnails become real production issues</li>
+<li>observability and failure recovery matter more than adding more AI</li>
+</ul>
+
+<p>A demo never reaches those failures. The happy path runs on launch day, which is exactly when the team applauds. Duplicates, missed schedules, and dead comment automation surface weeks later, in production, in front of customers. His closing takeaway deserves the emphasis: observability and failure recovery matter more than adding more AI.</p>
+
+<p>Anyone who has read the <a href="/blog/silent-failure-audit/">silent-failure audit</a> on this site has seen this genre before. An n8n user's WhatsApp automation ran green for three weeks while quietly replying into expired conversations. The checkmarks were honest about the only thing they measure, which is whether the send request succeeded. They said nothing about whether the message arrived.</p>
+
+<p>The demos also flatter the pipeline in a subtler way. If any step in the chain is an LLM call, the output that looked great in the demo is one sample from a distribution. The <a href="/blog/determinism-audit/">determinism audit</a> showed the same hosted model can return materially different answers on different days. A demo proves the pipeline can produce a good output once. It says nothing about Tuesday.</p>
+
+<p>Demos and production answer different questions:</p>
+
+<div class="table-wrap"><table class="cmp">
+<thead><tr><th></th><th>The demo answers</th><th>The metric answers</th></tr></thead></div>
+<tr>
+  <td><strong>Core question</strong></td>
+  <td class="com-price">Does it run?</td>
+  <td class="oss-price">Did anyone act on the output?</td>
+</tr>
+<tr>
+  <td><strong>Best day</strong></td>
+  <td class="com-price">Launch day, live in front of the team</td>
+  <td class="oss-price">A random Tuesday in month three</td>
+</tr>
+<tr>
+  <td><strong>Failure handling</strong></td>
+  <td class="com-price">Happy path, by definition</td>
+  <td class="oss-price">Retries without duplicates, catch-up logic, alerts</td>
+</tr>
+<tr>
+  <td><strong>Evidence</strong></td>
+  <td class="com-price">Screenshots of the workflow graph</td>
+  <td class="oss-price">Platform IDs reconciled against published posts</td>
+</tr>
+<tr>
+  <td><strong>Score kept</strong></td>
+  <td class="com-price">Automations built</td>
+  <td class="oss-price">Manual hours actually removed</td>
+</tr>
+</table>
+
+<h2 id="what-to-measure-instead">What to measure instead</h2>
+
+<p>First, count outcomes per automation, not automations. The X-machine poster got there on his own: "ten workflows shipped" is an effort metric. Replies earned and manual hours removed are results metrics. Ask of every workflow the question he asked of his portfolio: who needs this?</p>
+
+<p>Second, measure what happens when things go wrong. The best comment on the self-built pipeline came from u/Visible_Speed8843, and it reads like a checklist for any team running automations. Make every publish attempt carry one stable idempotency key derived from the content item and destination. Record the intended post before calling the platform, then store the returned post ID, and let a retry reconcile against that record instead of firing again. Keep schedule state separate from delivery state. An uncertain submission waits in needs-review until someone confirms the post exists. Translated: a healthy pipeline can prove which posts exist and clean up after its own failures. A theater pipeline has a screenshot.</p>
+
+<p>Third, run a kill review. Another poster in the same subreddit <a href="https://www.reddit.com/r/MarketingAutomation/comments/1vtd951/half_my_workflows_shouldnt_have_existed/">cleaned up their n8n instance</a> and found more than 40 active workflows where only about 15 saw regular use. Most of the rest, the poster wrote, were built for a question that came up once and never came back. Before your next automation ships, run the <a href="/blog/automation-blast-radius-audit/">blast radius audit</a> and decide in advance what happens when this thing is confidently wrong at 3am. Kill criteria belong on day one, not after the duplicates reach customers.</p>
+
+<p>The self-built pipeline's author ended his post by asking when to stop extending his own system and move orchestration into something like n8n or Temporal. One commenter's answer was measured: move to n8n when visual maintenance helps a team own the flow. That is the right instinct, and it is bigger than the orchestration question. The stack rarely needs another AI component. It needs the <a href="/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/">boring repairs</a>: failures made visible, retries made safe, outputs checked before anyone applauds.</p>
+
+<div class="verdict win">
+<div class="verdict-label">✓ The metric that survives contact with production</div>
+
+<p>Visible effort is a fine marketing trick and a poor management metric. The labor illusion studies show people will rate work higher when they can watch it happen. Your KPI review should be the one place that bias is not allowed through the door. Count reconciled outputs, removed manual hours, and failures caught before customers saw them. Teams that measure this way ship less impressive demos and better quarters.</p>
+</div>
+
+<p>HubSpot's piece closes on the observation that most of us prefer a slower answer engine that shows it is working to a faster one that does not. As a description of customers, that is true and useful. As a standard for your own automation program, run it in reverse. The automations worth keeping are the ones nobody has to watch.</p>
+
+<div class="cta-strip">
+<p>MarTechSignal reviews marketing AI tools on what they can decide, what they can execute, whether outputs are validated before anything ships, and whether you can reconstruct the decision afterwards.</p>
+<a class="btn" href="/categories/marketing-automation/">BROWSE MARKETING AUTOMATION TOOLS →</a>
+</div>
+
+<p><strong>Sources:</strong> <a href="https://blog.hubspot.com/marketing/why-ai-shows-loadtime">HubSpot: "The psychology behind why AI shows it's working" by Phill Agnew (updated Sep 21, 2026)</a> · <a href="https://www.hbs.edu/ris/Publication%20Files/Norton_Michael_The%20labor%20illusion%20How%20operational_f4269b70-3732-4fc4-8113-72d0c47533e0.pdf">The "labor illusion" study, Management Science (2011), Harvard</a> · <a href="http://doi.org/10.1016/j.im.2021.103571">Tsekouras, Li &amp; Benbasat, Information and Management (2022)</a> · <a href="https://www.reddit.com/r/MarketingAutomation/comments/1wp0lp6/i_built_an_x_content_machine_now_i_want_to_build/">r/MarketingAutomation: "I built an X content machine. Now I want to build something people actually need."</a> · <a href="https://www.reddit.com/r/MarketingAutomation/comments/1wo1gfz/i_built_my_own_marketing_automation_pipeline/">r/MarketingAutomation: "I built my own marketing automation pipeline instead of using Zapier/n8n"</a> · <a href="https://www.reddit.com/r/MarketingAutomation/comments/1vtd951/half_my_workflows_shouldnt_have_existed/">r/MarketingAutomation: "Half my workflows shouldn't have existed"</a></p>
+
+<p>Tools linked in this post: <a href="/tools/hubspot-crm/">HubSpot CRM</a> · <a href="/tools/n8n/">n8n</a> · <a href="/tools/zapier/">Zapier</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/">Why Your Marketing Stack Doesn't Need Another AI Tool</a></li><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine</a></li><li><a href="/blog/nocobase-vs-nocodb-vs-budibase/">NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/alwrity/">ALwrity</a> - AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social</li><li><a href="/tools/activecampaign/">ActiveCampaign</a> - AI-powered marketing automation and CRM for small to mid-size businesses</li><li><a href="/tools/hubspot-marketing-hub/">HubSpot Marketing Hub</a> - All-in-one marketing automation with AI-powered content, email, and campaign tools</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/ai-marketing-automation-tools/">Best AI Marketing Automation tools (2026): 8 compared</a></li><li><a href="/best/open-source-marketing-tools/">Best Open-Source Marketing Tools (2026): 8 compared</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/marketing-ops/">Marketing ops</a></li><li><a href="/glossary/workflow-automation/">Workflow automation</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/anyword/">Anyword</a></p>
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}</script></body>
+</html>

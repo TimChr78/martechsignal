@@ -44,7 +44,7 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Strapi - 73,250 stars, +236 in the 36-snapshot window to 2026-09-29 73,014→73,250 [verify on GitHub](https://github.com/strapi/strapi)
+- Strapi - 73,255 stars, +241 in the 37-snapshot window to 2026-09-30 73,014→73,255 [verify on GitHub](https://github.com/strapi/strapi)
 [All movers on the trending page](/trending/).
 
 ## [Writer](/tools/writer/)

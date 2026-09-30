@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29",
+ "generated": "2026-09-30",
  "title": "Open-source martech momentum",
  "method": "Build-time derivative of tools/github-history.json (daily snapshots) and tools/tools.json: headline stars are the synced catalog totals, growth windows and history come from the snapshot series. last_release carries forward from the previous file.",
  "tools": [
@@ -9,10 +9,10 @@
    "stars": 2851,
    "last_release": "2026-09-02",
    "growth": {
-    "window_days": 35,
-    "stars_added": 210,
+    "window_days": 36,
+    "stars_added": 211,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -158,6 +158,44 @@
     {
      "date": "2026-09-29",
      "stars": 2851
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 2852
+    }
+   ]
+  },
+  {
+   "slug": "advertools",
+   "repo": "eliasdabbas/advertools",
+   "stars": 1468,
+   "last_release": null,
+   "growth": {
+    "window_days": 4,
+    "stars_added": 5,
+    "from": "2026-09-26",
+    "to": "2026-09-30"
+   },
+   "history": [
+    {
+     "date": "2026-09-26",
+     "stars": 1464
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 1466
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 1466
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 1468
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 1469
     }
    ]
   },
@@ -167,10 +205,10 @@
    "stars": 593,
    "last_release": "2026-05-25",
    "growth": {
-    "window_days": 35,
-    "stars_added": 39,
+    "window_days": 36,
+    "stars_added": 41,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -316,6 +354,164 @@
     {
      "date": "2026-09-29",
      "stars": 593
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 595
+    }
+   ]
+  },
+  {
+   "slug": "ai-marketing-claude",
+   "repo": "zubair-trabzada/ai-marketing-claude",
+   "stars": 2628,
+   "last_release": null,
+   "growth": {
+    "window_days": 36,
+    "stars_added": 151,
+    "from": "2026-08-25",
+    "to": "2026-09-30"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 2544
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 2545
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 2551
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 2563
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 2567
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 2571
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 2578
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 2578
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 2583
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 2588
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 2596
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 2603
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 2610
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 2613
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 2618
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 2623
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 2628
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 2634
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 2639
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 2643
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 2646
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 2650
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 2657
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 2658
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 2658
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 2663
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 2666
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 2669
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 2672
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 2678
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 2680
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 2680
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 2683
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 2686
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 2695
     }
    ]
   },
@@ -325,10 +521,10 @@
    "stars": 181,
    "last_release": "2026-09-25",
    "growth": {
-    "window_days": 28,
+    "window_days": 29,
     "stars_added": 6,
     "from": "2026-09-01",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -446,6 +642,10 @@
     {
      "date": "2026-09-29",
      "stars": 181
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 181
     }
    ]
   },
@@ -455,10 +655,10 @@
    "stars": 1176,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 42,
+    "window_days": 36,
+    "stars_added": 44,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -604,6 +804,10 @@
     {
      "date": "2026-09-29",
      "stars": 1176
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 1178
     }
    ]
   },
@@ -613,10 +817,10 @@
    "stars": 141,
    "last_release": null,
    "growth": {
-    "window_days": 35,
+    "window_days": 36,
     "stars_added": 6,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -762,6 +966,44 @@
     {
      "date": "2026-09-29",
      "stars": 141
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 141
+    }
+   ]
+  },
+  {
+   "slug": "apache-unomi",
+   "repo": "apache/unomi",
+   "stars": 375,
+   "last_release": null,
+   "growth": {
+    "window_days": 4,
+    "stars_added": 0,
+    "from": "2026-09-26",
+    "to": "2026-09-30"
+   },
+   "history": [
+    {
+     "date": "2026-09-26",
+     "stars": 375
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 375
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 375
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 375
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 375
     }
    ]
   },
@@ -771,10 +1013,10 @@
    "stars": 40967,
    "last_release": null,
    "growth": {
-    "window_days": 23,
-    "stars_added": 146,
+    "window_days": 24,
+    "stars_added": 153,
     "from": "2026-09-06",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -872,6 +1114,10 @@
     {
      "date": "2026-09-29",
      "stars": 40967
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 40974
     }
    ]
   },
@@ -881,10 +1127,10 @@
    "stars": 15739,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 289,
+    "window_days": 36,
+    "stars_added": 324,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -1030,6 +1276,10 @@
     {
      "date": "2026-09-29",
      "stars": 15739
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 15774
     }
    ]
   },
@@ -1039,10 +1289,10 @@
    "stars": 28326,
    "last_release": null,
    "growth": {
-    "window_days": 23,
-    "stars_added": 70,
+    "window_days": 24,
+    "stars_added": 72,
     "from": "2026-09-06",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -1140,6 +1390,10 @@
     {
      "date": "2026-09-29",
      "stars": 28326
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 28328
     }
    ]
   },
@@ -1149,10 +1403,10 @@
    "stars": 843,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 178,
+    "window_days": 36,
+    "stars_added": 183,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -1298,6 +1552,10 @@
     {
      "date": "2026-09-29",
      "stars": 843
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 848
     }
    ]
   },
@@ -1307,10 +1565,10 @@
    "stars": 37293,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 1084,
+    "window_days": 36,
+    "stars_added": 1127,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -1456,6 +1714,10 @@
     {
      "date": "2026-09-29",
      "stars": 37293
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 37336
     }
    ]
   },
@@ -1465,10 +1727,10 @@
    "stars": 9616,
    "last_release": "2026-09-10",
    "growth": {
-    "window_days": 35,
-    "stars_added": 1143,
+    "window_days": 36,
+    "stars_added": 1165,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -1614,6 +1876,10 @@
     {
      "date": "2026-09-29",
      "stars": 9616
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 9638
     }
    ]
   },
@@ -1623,10 +1889,10 @@
    "stars": 17899,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 2803,
+    "window_days": 36,
+    "stars_added": 2879,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -1772,6 +2038,10 @@
     {
      "date": "2026-09-29",
      "stars": 17899
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 17975
     }
    ]
   },
@@ -1781,10 +2051,10 @@
    "stars": 762,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 142,
+    "window_days": 36,
+    "stars_added": 146,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -1930,6 +2200,10 @@
     {
      "date": "2026-09-29",
      "stars": 762
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 766
     }
    ]
   },
@@ -1939,10 +2213,10 @@
    "stars": 2751,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 97,
+    "window_days": 36,
+    "stars_added": 103,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -2088,6 +2362,10 @@
     {
      "date": "2026-09-29",
      "stars": 2751
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 2757
     }
    ]
   },
@@ -2097,10 +2375,10 @@
    "stars": 4222,
    "last_release": null,
    "growth": {
-    "window_days": 14,
-    "stars_added": 1687,
+    "window_days": 15,
+    "stars_added": 1739,
     "from": "2026-09-15",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -2162,6 +2440,10 @@
     {
      "date": "2026-09-29",
      "stars": 4222
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 4274
     }
    ]
   },
@@ -2171,10 +2453,10 @@
    "stars": 162,
    "last_release": "2026-06-05",
    "growth": {
-    "window_days": 28,
+    "window_days": 29,
     "stars_added": 2,
     "from": "2026-09-01",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -2292,6 +2574,164 @@
     {
      "date": "2026-09-29",
      "stars": 162
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 162
+    }
+   ]
+  },
+  {
+   "slug": "digital-marketing-pro",
+   "repo": "indranilbanerjee/digital-marketing-pro",
+   "stars": 837,
+   "last_release": null,
+   "growth": {
+    "window_days": 36,
+    "stars_added": 74,
+    "from": "2026-08-25",
+    "to": "2026-09-30"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 768
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 770
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 771
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 772
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 774
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 776
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 777
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 782
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 784
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 788
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 790
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 792
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 792
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 795
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 796
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 797
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 803
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 806
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 812
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 814
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 815
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 815
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 819
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 820
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 824
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 825
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 828
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 828
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 830
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 831
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 831
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 833
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 835
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 835
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 842
     }
    ]
   },
@@ -2301,10 +2741,10 @@
    "stars": 2432,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 38,
+    "window_days": 36,
+    "stars_added": 39,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -2450,6 +2890,10 @@
     {
      "date": "2026-09-29",
      "stars": 2432
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 2433
     }
    ]
   },
@@ -2459,10 +2903,10 @@
    "stars": 7670,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 134,
+    "window_days": 36,
+    "stars_added": 137,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -2608,6 +3052,10 @@
     {
      "date": "2026-09-29",
      "stars": 7670
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 7673
     }
    ]
   },
@@ -2617,10 +3065,10 @@
    "stars": 320,
    "last_release": "2026-03-10",
    "growth": {
-    "window_days": 35,
+    "window_days": 36,
     "stars_added": 41,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -2766,6 +3214,10 @@
     {
      "date": "2026-09-29",
      "stars": 320
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 320
     }
    ]
   },
@@ -2775,10 +3227,10 @@
    "stars": 3424,
    "last_release": null,
    "growth": {
-    "window_days": 35,
+    "window_days": 36,
     "stars_added": 133,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -2924,6 +3376,10 @@
     {
      "date": "2026-09-29",
      "stars": 3424
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 3424
     }
    ]
   },
@@ -2933,10 +3389,10 @@
    "stars": 444,
    "last_release": null,
    "growth": {
-    "window_days": 28,
-    "stars_added": 14,
+    "window_days": 29,
+    "stars_added": 15,
     "from": "2026-09-01",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -3054,6 +3510,10 @@
     {
      "date": "2026-09-29",
      "stars": 444
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 445
     }
    ]
   },
@@ -3063,10 +3523,10 @@
    "stars": 8125,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 3777,
+    "window_days": 36,
+    "stars_added": 3787,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -3212,6 +3672,44 @@
     {
      "date": "2026-09-29",
      "stars": 8125
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 8135
+    }
+   ]
+  },
+  {
+   "slug": "flagsmith",
+   "repo": "Flagsmith/flagsmith",
+   "stars": 6582,
+   "last_release": null,
+   "growth": {
+    "window_days": 4,
+    "stars_added": 12,
+    "from": "2026-09-26",
+    "to": "2026-09-30"
+   },
+   "history": [
+    {
+     "date": "2026-09-26",
+     "stars": 6572
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 6576
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 6577
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 6582
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 6584
     }
    ]
   },
@@ -3221,10 +3719,10 @@
    "stars": 3618,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 228,
+    "window_days": 36,
+    "stars_added": 251,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -3370,6 +3868,10 @@
     {
      "date": "2026-09-29",
      "stars": 3618
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 3641
     }
    ]
   },
@@ -3379,10 +3881,10 @@
    "stars": 55454,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 397,
+    "window_days": 36,
+    "stars_added": 404,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -3528,6 +4030,10 @@
     {
      "date": "2026-09-29",
      "stars": 55454
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 55461
     }
    ]
   },
@@ -3537,10 +4043,10 @@
    "stars": 3078,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 2010,
+    "window_days": 36,
+    "stars_added": 2145,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -3686,6 +4192,10 @@
     {
      "date": "2026-09-29",
      "stars": 3078
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 3213
     }
    ]
   },
@@ -3695,10 +4205,10 @@
    "stars": 1993,
    "last_release": null,
    "growth": {
-    "window_days": 35,
+    "window_days": 36,
     "stars_added": 153,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -3844,6 +4354,44 @@
     {
      "date": "2026-09-29",
      "stars": 1993
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 1993
+    }
+   ]
+  },
+  {
+   "slug": "growthbook",
+   "repo": "growthbook/growthbook",
+   "stars": 8449,
+   "last_release": null,
+   "growth": {
+    "window_days": 4,
+    "stars_added": 23,
+    "from": "2026-09-26",
+    "to": "2026-09-30"
+   },
+   "history": [
+    {
+     "date": "2026-09-26",
+     "stars": 8432
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 8438
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 8446
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 8449
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 8455
     }
    ]
   },
@@ -3853,10 +4401,10 @@
    "stars": 8838,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 119,
+    "window_days": 36,
+    "stars_added": 117,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -4002,6 +4550,78 @@
     {
      "date": "2026-09-29",
      "stars": 8838
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 8836
+    }
+   ]
+  },
+  {
+   "slug": "jitsu",
+   "repo": "jitsucom/jitsu",
+   "stars": 5095,
+   "last_release": null,
+   "growth": {
+    "window_days": 4,
+    "stars_added": 3,
+    "from": "2026-09-26",
+    "to": "2026-09-30"
+   },
+   "history": [
+    {
+     "date": "2026-09-26",
+     "stars": 5091
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 5092
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 5094
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 5095
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 5094
+    }
+   ]
+  },
+  {
+   "slug": "khoj",
+   "repo": "khoj-ai/khoj",
+   "stars": 37532,
+   "last_release": null,
+   "growth": {
+    "window_days": 4,
+    "stars_added": 39,
+    "from": "2026-09-26",
+    "to": "2026-09-30"
+   },
+   "history": [
+    {
+     "date": "2026-09-26",
+     "stars": 37503
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 37513
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 37526
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 37532
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 37542
     }
    ]
   },
@@ -4011,10 +4631,10 @@
    "stars": 23963,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 252,
+    "window_days": 36,
+    "stars_added": 256,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -4160,6 +4780,10 @@
     {
      "date": "2026-09-29",
      "stars": 23963
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 23967
     }
    ]
   },
@@ -4169,10 +4793,10 @@
    "stars": 147221,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 2248,
+    "window_days": 36,
+    "stars_added": 2312,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -4318,6 +4942,44 @@
     {
      "date": "2026-09-29",
      "stars": 147221
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 147285
+    }
+   ]
+  },
+  {
+   "slug": "languagetool",
+   "repo": "languagetool-org/LanguageTool",
+   "stars": 15093,
+   "last_release": null,
+   "growth": {
+    "window_days": 4,
+    "stars_added": 7,
+    "from": "2026-09-26",
+    "to": "2026-09-30"
+   },
+   "history": [
+    {
+     "date": "2026-09-26",
+     "stars": 15089
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 15090
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 15092
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 15093
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 15096
     }
    ]
   },
@@ -4327,10 +4989,10 @@
    "stars": 2626,
    "last_release": null,
    "growth": {
-    "window_days": 35,
+    "window_days": 36,
     "stars_added": 8,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -4476,6 +5138,44 @@
     {
      "date": "2026-09-29",
      "stars": 2626
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 2626
+    }
+   ]
+  },
+  {
+   "slug": "libretranslate",
+   "repo": "LibreTranslate/LibreTranslate",
+   "stars": 16885,
+   "last_release": null,
+   "growth": {
+    "window_days": 4,
+    "stars_added": 106,
+    "from": "2026-09-26",
+    "to": "2026-09-30"
+   },
+   "history": [
+    {
+     "date": "2026-09-26",
+     "stars": 16838
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 16859
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 16868
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 16885
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 16944
     }
    ]
   },
@@ -4485,10 +5185,10 @@
    "stars": 596,
    "last_release": null,
    "growth": {
-    "window_days": 35,
+    "window_days": 36,
     "stars_added": 25,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -4634,6 +5334,10 @@
     {
      "date": "2026-09-29",
      "stars": 596
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 596
     }
    ]
   },
@@ -4643,10 +5347,10 @@
    "stars": 23611,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 490,
+    "window_days": 36,
+    "stars_added": 500,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -4792,6 +5496,10 @@
     {
      "date": "2026-09-29",
      "stars": 23611
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 23621
     }
    ]
   },
@@ -4801,10 +5509,10 @@
    "stars": 4480,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 442,
+    "window_days": 36,
+    "stars_added": 453,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -4950,6 +5658,10 @@
     {
      "date": "2026-09-29",
      "stars": 4480
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 4491
     }
    ]
   },
@@ -4959,10 +5671,10 @@
    "stars": 2862,
    "last_release": null,
    "growth": {
-    "window_days": 35,
+    "window_days": 36,
     "stars_added": 9,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -5108,6 +5820,10 @@
     {
      "date": "2026-09-29",
      "stars": 2862
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 2862
     }
    ]
   },
@@ -5117,10 +5833,10 @@
    "stars": 248,
    "last_release": null,
    "growth": {
-    "window_days": 28,
+    "window_days": 29,
     "stars_added": 28,
     "from": "2026-09-01",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -5238,6 +5954,10 @@
     {
      "date": "2026-09-29",
      "stars": 248
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 248
     }
    ]
   },
@@ -5247,10 +5967,10 @@
    "stars": 21908,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 103,
+    "window_days": 36,
+    "stars_added": 107,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -5396,6 +6116,10 @@
     {
      "date": "2026-09-29",
      "stars": 21908
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 21912
     }
    ]
   },
@@ -5405,10 +6129,10 @@
    "stars": 10575,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 189,
+    "window_days": 36,
+    "stars_added": 209,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -5554,6 +6278,10 @@
     {
      "date": "2026-09-29",
      "stars": 10575
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 10595
     }
    ]
   },
@@ -5563,10 +6291,10 @@
    "stars": 25383,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 278,
+    "window_days": 36,
+    "stars_added": 277,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -5712,6 +6440,10 @@
     {
      "date": "2026-09-29",
      "stars": 25383
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 25382
     }
    ]
   },
@@ -5721,10 +6453,10 @@
    "stars": 3553,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 459,
+    "window_days": 36,
+    "stars_added": 461,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -5870,6 +6602,10 @@
     {
      "date": "2026-09-29",
      "stars": 3553
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 3555
     }
    ]
   },
@@ -5879,10 +6615,10 @@
    "stars": 206232,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 3829,
+    "window_days": 36,
+    "stars_added": 3912,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -6028,6 +6764,10 @@
     {
      "date": "2026-09-29",
      "stars": 206232
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 206315
     }
    ]
   },
@@ -6037,10 +6777,10 @@
    "stars": 178,
    "last_release": null,
    "growth": {
-    "window_days": 28,
+    "window_days": 29,
     "stars_added": 4,
     "from": "2026-09-01",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -6158,6 +6898,10 @@
     {
      "date": "2026-09-29",
      "stars": 178
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 178
     }
    ]
   },
@@ -6167,10 +6911,10 @@
    "stars": 24386,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 547,
+    "window_days": 36,
+    "stars_added": 564,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -6316,6 +7060,10 @@
     {
      "date": "2026-09-29",
      "stars": 24386
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 24403
     }
    ]
   },
@@ -6325,10 +7073,10 @@
    "stars": 65104,
    "last_release": null,
    "growth": {
-    "window_days": 23,
-    "stars_added": 251,
+    "window_days": 24,
+    "stars_added": 266,
     "from": "2026-09-06",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -6426,6 +7174,10 @@
     {
      "date": "2026-09-29",
      "stars": 65104
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 65119
     }
    ]
   },
@@ -6435,10 +7187,10 @@
    "stars": 883,
    "last_release": null,
    "growth": {
-    "window_days": 35,
+    "window_days": 36,
     "stars_added": 5,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -6584,6 +7336,10 @@
     {
      "date": "2026-09-29",
      "stars": 883
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 883
     }
    ]
   },
@@ -6593,10 +7349,10 @@
    "stars": 2224,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 148,
+    "window_days": 36,
+    "stars_added": 150,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -6742,6 +7498,10 @@
     {
      "date": "2026-09-29",
      "stars": 2224
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 2226
     }
    ]
   },
@@ -6751,10 +7511,10 @@
    "stars": 1787,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 106,
+    "window_days": 36,
+    "stars_added": 107,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -6900,6 +7660,10 @@
     {
      "date": "2026-09-29",
      "stars": 1787
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 1788
     }
    ]
   },
@@ -6909,10 +7673,10 @@
    "stars": 1045,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 6,
+    "window_days": 36,
+    "stars_added": 7,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -7058,6 +7822,10 @@
     {
      "date": "2026-09-29",
      "stars": 1045
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 1046
     }
    ]
   },
@@ -7067,10 +7835,10 @@
    "stars": 3106,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 288,
+    "window_days": 36,
+    "stars_added": 289,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -7216,6 +7984,10 @@
     {
      "date": "2026-09-29",
      "stars": 3106
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 3107
     }
    ]
   },
@@ -7225,10 +7997,10 @@
    "stars": 21604,
    "last_release": null,
    "growth": {
-    "window_days": 21,
-    "stars_added": 3865,
+    "window_days": 22,
+    "stars_added": 4044,
     "from": "2026-09-08",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -7318,6 +8090,10 @@
     {
      "date": "2026-09-29",
      "stars": 21604
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 21783
     }
    ]
   },
@@ -7327,10 +8103,10 @@
    "stars": 93116,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 13760,
+    "window_days": 36,
+    "stars_added": 15261,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -7476,6 +8252,10 @@
     {
      "date": "2026-09-29",
      "stars": 93116
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 94617
     }
    ]
   },
@@ -7485,10 +8265,10 @@
    "stars": 29248,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 500,
+    "window_days": 36,
+    "stars_added": 515,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -7634,6 +8414,44 @@
     {
      "date": "2026-09-29",
      "stars": 29248
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 29263
+    }
+   ]
+  },
+  {
+   "slug": "posthog",
+   "repo": "PostHog/posthog",
+   "stars": 39980,
+   "last_release": null,
+   "growth": {
+    "window_days": 4,
+    "stars_added": 76,
+    "from": "2026-09-26",
+    "to": "2026-09-30"
+   },
+   "history": [
+    {
+     "date": "2026-09-26",
+     "stars": 39940
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 39953
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 39975
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 39980
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 40016
     }
    ]
   },
@@ -7643,10 +8461,10 @@
    "stars": 168,
    "last_release": "2026-06-22",
    "growth": {
-    "window_days": 28,
+    "window_days": 29,
     "stars_added": 1,
     "from": "2026-09-01",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -7764,6 +8582,44 @@
     {
      "date": "2026-09-29",
      "stars": 168
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 168
+    }
+   ]
+  },
+  {
+   "slug": "promptfoo",
+   "repo": "promptfoo/promptfoo",
+   "stars": 25542,
+   "last_release": null,
+   "growth": {
+    "window_days": 4,
+    "stars_added": 110,
+    "from": "2026-09-26",
+    "to": "2026-09-30"
+   },
+   "history": [
+    {
+     "date": "2026-09-26",
+     "stars": 25460
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 25480
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 25507
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 25542
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 25570
     }
    ]
   },
@@ -7773,10 +8629,10 @@
    "stars": 226,
    "last_release": "2026-07-27",
    "growth": {
-    "window_days": 28,
+    "window_days": 29,
     "stars_added": 18,
     "from": "2026-09-01",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -7894,6 +8750,10 @@
     {
      "date": "2026-09-29",
      "stars": 226
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 226
     }
    ]
   },
@@ -7903,10 +8763,10 @@
    "stars": 5231,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 24,
+    "window_days": 36,
+    "stars_added": 25,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -8052,6 +8912,10 @@
     {
      "date": "2026-09-29",
      "stars": 5231
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 5232
     }
    ]
   },
@@ -8061,10 +8925,10 @@
    "stars": 1713,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 185,
+    "window_days": 36,
+    "stars_added": 198,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -8210,6 +9074,10 @@
     {
      "date": "2026-09-29",
      "stars": 1713
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 1726
     }
    ]
   },
@@ -8219,10 +9087,10 @@
    "stars": 19793,
    "last_release": null,
    "growth": {
-    "window_days": 21,
-    "stars_added": 77,
+    "window_days": 22,
+    "stars_added": 81,
     "from": "2026-09-08",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -8312,6 +9180,44 @@
     {
      "date": "2026-09-29",
      "stars": 19793
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 19797
+    }
+   ]
+  },
+  {
+   "slug": "revive-adserver",
+   "repo": "revive-adserver/revive-adserver",
+   "stars": 1506,
+   "last_release": null,
+   "growth": {
+    "window_days": 4,
+    "stars_added": 0,
+    "from": "2026-09-26",
+    "to": "2026-09-30"
+   },
+   "history": [
+    {
+     "date": "2026-09-26",
+     "stars": 1506
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 1506
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 1506
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 1506
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 1506
     }
    ]
   },
@@ -8321,10 +9227,10 @@
    "stars": 51,
    "last_release": null,
    "growth": {
-    "window_days": 25,
+    "window_days": 26,
     "stars_added": 0,
     "from": "2026-09-04",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -8430,6 +9336,10 @@
     {
      "date": "2026-09-29",
      "stars": 51
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 51
     }
    ]
   },
@@ -8439,10 +9349,10 @@
    "stars": 796,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 25,
+    "window_days": 36,
+    "stars_added": 26,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -8588,6 +9498,10 @@
     {
      "date": "2026-09-29",
      "stars": 796
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 797
     }
    ]
   },
@@ -8597,10 +9511,10 @@
    "stars": 7034,
    "last_release": null,
    "growth": {
-    "window_days": 35,
+    "window_days": 36,
     "stars_added": 6,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -8746,6 +9660,10 @@
     {
      "date": "2026-09-29",
      "stars": 7034
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 7034
     }
    ]
   },
@@ -8755,10 +9673,10 @@
    "stars": 73250,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 236,
+    "window_days": 36,
+    "stars_added": 241,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -8904,6 +9822,10 @@
     {
      "date": "2026-09-29",
      "stars": 73250
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 73255
     }
    ]
   },
@@ -8913,10 +9835,10 @@
    "stars": 5774,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 84,
+    "window_days": 36,
+    "stars_added": 87,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -9062,6 +9984,10 @@
     {
      "date": "2026-09-29",
      "stars": 5774
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 5777
     }
    ]
   },
@@ -9071,10 +9997,10 @@
    "stars": 41010,
    "last_release": null,
    "growth": {
-    "window_days": 23,
-    "stars_added": 162,
+    "window_days": 24,
+    "stars_added": 167,
     "from": "2026-09-06",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -9172,6 +10098,10 @@
     {
      "date": "2026-09-29",
      "stars": 41010
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 41015
     }
    ]
   },
@@ -9181,10 +10111,10 @@
    "stars": 57682,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 2157,
+    "window_days": 36,
+    "stars_added": 2199,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -9330,6 +10260,10 @@
     {
      "date": "2026-09-29",
      "stars": 57682
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 57724
     }
    ]
   },
@@ -9339,10 +10273,10 @@
    "stars": 39072,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 712,
+    "window_days": 36,
+    "stars_added": 729,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -9488,6 +10422,10 @@
     {
      "date": "2026-09-29",
      "stars": 39072
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 39089
     }
    ]
   },
@@ -9497,10 +10435,10 @@
    "stars": 2450,
    "last_release": null,
    "growth": {
-    "window_days": 35,
-    "stars_added": 396,
+    "window_days": 36,
+    "stars_added": 410,
     "from": "2026-08-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -9646,6 +10584,10 @@
     {
      "date": "2026-09-29",
      "stars": 2450
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 2464
     }
    ]
   },
@@ -9655,10 +10597,10 @@
    "stars": 333,
    "last_release": null,
    "growth": {
-    "window_days": 4,
-    "stars_added": 15,
+    "window_days": 5,
+    "stars_added": 19,
     "from": "2026-09-25",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -9680,6 +10622,10 @@
     {
      "date": "2026-09-29",
      "stars": 333
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 337
     }
    ]
   },
@@ -9689,10 +10635,10 @@
    "stars": 73,
    "last_release": null,
    "growth": {
-    "window_days": 25,
+    "window_days": 26,
     "stars_added": 0,
     "from": "2026-09-04",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -9798,6 +10744,10 @@
     {
      "date": "2026-09-29",
      "stars": 73
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 73
     }
    ]
   },
@@ -9807,10 +10757,10 @@
    "stars": 340,
    "last_release": null,
    "growth": {
-    "window_days": 28,
+    "window_days": 29,
     "stars_added": 8,
     "from": "2026-09-01",
-    "to": "2026-09-29"
+    "to": "2026-09-30"
    },
    "history": [
     {
@@ -9928,24 +10878,15 @@
     {
      "date": "2026-09-29",
      "stars": 340
+    },
+    {
+     "date": "2026-09-30",
+     "stars": 340
     }
    ]
   }
  ],
  "excluded": [
-  "activepieces",
-  "advertools",
-  "ai-marketing-claude",
-  "apache-unomi",
-  "digital-marketing-pro",
-  "flagsmith",
-  "growthbook",
-  "jitsu",
-  "khoj",
-  "languagetool",
-  "libretranslate",
-  "posthog",
-  "promptfoo",
-  "revive-adserver"
+  "activepieces"
  ]
 }
