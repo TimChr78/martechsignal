@@ -1,7 +1,7 @@
 # Best open-source CRM tools (2026)
 
 
-| Tool | Pricing | Public API | Verdict |
+| Tool | Pricing | Public API | Best for |
 | --- | --- | --- | --- |
 | [EspoCRM](/tools/espocrm/) | Open Source | yes | Best for lean sales teams that automate à la carte. |
 | [SuiteCRM](/tools/suitecrm/) | Open Source | yes | Best for teams that want the widest free feature set. |
@@ -258,10 +258,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/open-source-crm/", "breadcrumb": {"@id": "https://martechsignal.com/best/open-source-crm/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -139,7 +139,7 @@ More from the directory: [SuiteCRM](/tools/suitecrm/)
     }
   },
   "datePublished": "2026-08-14",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/",
   "image": {
     "@type": "ImageObject",

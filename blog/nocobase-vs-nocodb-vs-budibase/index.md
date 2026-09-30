@@ -161,7 +161,7 @@ More from the directory: [Writesonic](/tools/writesonic/)
     }
   },
   "datePublished": "2026-09-09",
-  "dateModified": "2026-09-28",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/",
   "image": {
     "@type": "ImageObject",

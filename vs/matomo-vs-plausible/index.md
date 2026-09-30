@@ -24,7 +24,7 @@
 | Checked | 2026-09-27 | 2026-09-27 |
 
 - **Pick Matomo if:** you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.
-- **Pick Plausible Analytics if:** Pick Plausible if you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.
+- **Pick Plausible Analytics if:** you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.
 
 [Analytics & Attribution](/categories/analytics/)[Open-Source Tools](/categories/open-source/)
 
@@ -106,7 +106,7 @@ Between Matomo and Plausible the moving part is history depth: Plausible keeps a
 
 ## When neither is the right answer
 
-Skip all three if you are an enterprise already paying for an analytics suite: the switching cost outweighs the licence saving. And if all you need is a hit counter on a brochure site, server logs answer that question without a script at all.
+Skip both if you are an enterprise already paying for an analytics suite: the switching cost outweighs the licence saving. And if all you need is a hit counter on a brochure site, server logs answer that question without a script at all.
 
 ## Who should pick which
 
@@ -233,10 +233,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/matomo-vs-plausible/", "breadcrumb": {"@id": "https://martechsignal.com/vs/matomo-vs-plausible/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

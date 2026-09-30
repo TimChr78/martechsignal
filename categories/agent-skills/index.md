@@ -242,7 +242,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 18,
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-09-30",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -467,7 +467,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/agent-skills/", "breadcrumb": {"@id": "https://martechsignal.com/categories/agent-skills/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/agent-skills/", "breadcrumb": {"@id": "https://martechsignal.com/categories/agent-skills/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

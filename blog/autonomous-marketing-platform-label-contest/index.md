@@ -161,7 +161,7 @@ More from the directory: [Apache Unomi](/tools/apache-unomi/)
     }
   },
   "datePublished": "2026-08-26",
-  "dateModified": "2026-09-28",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/",
   "image": {
     "@type": "ImageObject",

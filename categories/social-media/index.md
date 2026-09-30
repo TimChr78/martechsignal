@@ -100,7 +100,7 @@ Vendors in this category: [MultiPost](https://multipost.app) · [Brandwatch](htt
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 6,
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-09-30",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -181,7 +181,7 @@ Vendors in this category: [MultiPost](https://multipost.app) · [Brandwatch](htt
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/social-media/", "breadcrumb": {"@id": "https://martechsignal.com/categories/social-media/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/social-media/", "breadcrumb": {"@id": "https://martechsignal.com/categories/social-media/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

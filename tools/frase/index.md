@@ -228,7 +228,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/frase/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-29",
+    "dateModified": "2026-09-30",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -355,7 +355,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/frase/", "breadcrumb": {"@id": "https://martechsignal.com/tools/frase/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/frase/", "breadcrumb": {"@id": "https://martechsignal.com/tools/frase/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

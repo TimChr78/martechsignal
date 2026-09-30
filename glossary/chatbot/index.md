@@ -70,7 +70,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [ChatbotX](https://
         "@type": "DefinedTerm",
         "name": "Chatbot (Conversational AI)",
         "description": "A chatbot is software that conducts text or voice conversations with users, typically on a website, messaging app, or social platform. Rule-based chatbots follow decision trees. AI-powered chatbots use large language models to generate responses and handle questions they weren't explicitly programmed for.",
-        "dateModified": "2026-09-28",
+        "dateModified": "2026-09-29",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",

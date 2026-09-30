@@ -186,7 +186,7 @@ Plain-English definitions of marketing technology terms. No jargon explaining ja
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 30,
-      "dateModified": "2026-09-28",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",

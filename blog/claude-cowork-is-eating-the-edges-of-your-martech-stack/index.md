@@ -145,7 +145,7 @@ More from the directory: [EspoCRM](/tools/espocrm/)
     }
   },
   "datePublished": "2026-07-30",
-  "dateModified": "2026-09-17",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/",
   "image": {
     "@type": "ImageObject",

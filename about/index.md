@@ -54,7 +54,7 @@ Corrections, tips, and tool suggestions: reach Tim through the site or on [Linke
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/about/", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/about/", "dateModified": "2026-09-30"}
 ```
 
 ```json

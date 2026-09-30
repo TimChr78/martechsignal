@@ -217,6 +217,7 @@ The ranking above is the spine of this topic. These pages are the cluster around
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
+    "@id": "https://martechsignal.com/trending/",
     "name": "Open-Source MarTech Momentum",
     "description": "GitHub star momentum for 68 tracked open-source martech tools, with daily snapshots and verified star counts.",
     "url": "https://martechsignal.com/trending/",
@@ -666,10 +667,6 @@ The ranking above is the spine of this topic. These pages are the cluster around
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/trending/", "breadcrumb": {"@id": "https://martechsignal.com/trending/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

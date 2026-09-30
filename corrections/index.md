@@ -2,6 +2,8 @@
 
 2026-09-30
 
+2026-09-30
+
 2026-09-29
 
 2026-09-29
@@ -41,6 +43,10 @@
 ## Corrections
 
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
+
+## Disposition: chart PNGs stay PNG, SuiteCRM pounds become £
+
+Two low-priority audit notes assessed with evidence. First, the six chart images under /og/charts/ are the only PNG srcsets in the corpus (three entries flagged). They stay PNG deliberately: the bar charts are PIL-rendered with 14-22px labels, and lossy WebP blurs small text at these sizes while optimized PNG keeps labels sharp. The photographic/illustrated OG corpus stays WebP. Second, SuiteCRM commercial-hosting figures were written as words ("50 pounds monthly"); they now render as £ figures (£50, £143/£198/£308 tiers, £2,520 Quick Start), matching house symbol form. The record keeps its USD typing because the self-hosted product itself is free - the sterling figures are third-party hosting, now explicitly symboled.
 
 ## Remediation waves logged: the 2026-09-29/30 fix batches
 
@@ -120,7 +126,7 @@ Our Claude SEO review carried review-structured data for our own product. We rem
 
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@context": "https://schema.org", "@type": "WebPage", "publisher": {"@id": "https://martechsignal.com/#organization"}, "isPartOf": {"@id": "https://martechsignal.com/#website"}, "name": "Corrections", "url": "https://martechsignal.com/corrections/", "description": "Public corrections log for martechsignal.com.", "@id": "https://martechsignal.com/corrections/#webpage", "dateModified": "2026-09-28"}, {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/"}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
+{"@context": "https://schema.org", "@graph": [{"@context": "https://schema.org", "@type": "WebPage", "publisher": {"@id": "https://martechsignal.com/#organization"}, "isPartOf": {"@id": "https://martechsignal.com/#website"}, "name": "Corrections", "url": "https://martechsignal.com/corrections/", "description": "Public corrections log for martechsignal.com.", "@id": "https://martechsignal.com/corrections/#webpage", "dateModified": "2026-09-30"}, {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/"}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```
 
 ```json

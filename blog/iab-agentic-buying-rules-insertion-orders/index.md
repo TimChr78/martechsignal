@@ -127,7 +127,7 @@ More from the directory: [ManyChat](/tools/manychat/)
     }
   },
   "datePublished": "2026-09-28",
-  "dateModified": "2026-09-28",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/",
   "image": {
     "@type": "ImageObject",

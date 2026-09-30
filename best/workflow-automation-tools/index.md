@@ -1,7 +1,7 @@
 # Best workflow automation tools (2026)
 
 
-| Tool | Pricing | Open source | Public API | Verdict |
+| Tool | Pricing | Open source | Public API | Best for |
 | --- | --- | --- | --- | --- |
 | [n8n](/tools/n8n/) | Open Source | Yes | yes | Best for self-hosted workflows with code steps and AI agents. |
 | [Zapier](/tools/zapier/) | Freemium | No | yes | Best for breadth and onboarding speed on niche integrations. |
@@ -255,10 +255,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/workflow-automation-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/workflow-automation-tools/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

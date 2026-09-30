@@ -142,7 +142,7 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
     }
   },
   "datePublished": "2026-08-13",
-  "dateModified": "2026-09-25",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/agents-identity-debt/",
   "image": {
     "@type": "ImageObject",

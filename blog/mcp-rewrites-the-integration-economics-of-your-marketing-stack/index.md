@@ -167,7 +167,7 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
     }
   },
   "datePublished": "2026-07-29",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/",
   "image": {
     "@type": "ImageObject",

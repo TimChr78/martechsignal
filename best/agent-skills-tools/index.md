@@ -1,7 +1,7 @@
 # Best Agent Skills tools (2026): 8 compared
 
 
-| Tool | Pricing | Verdict |
+| Tool | Pricing | Best for |
 | --- | --- | --- |
 | [Claude SEO](/tools/claude-seo/) | Open Source | Best for SEO teams that want 25 audit sub-skills and 20 specialist agents inside Claude Code, free under the MIT license. |
 | [Claude Ads](/tools/claude-ads/) | Open Source | Best for paid-media teams that run several ad platforms and want one Claude Code skill covering all 12, free under the MIT license. |
@@ -305,10 +305,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/agent-skills-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/agent-skills-tools/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

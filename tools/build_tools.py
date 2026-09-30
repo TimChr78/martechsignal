@@ -2907,7 +2907,10 @@ def build_llms_txt(tools, cats):
               "- [AI content policy](https://martechsignal.com/ai-policy/): citation and grounding are welcome; "
               "training model weights on this corpus is not permitted",
               "- [Checklist](https://martechsignal.com/checklist/): tool selection checklist",
-              "- [Corrections](https://martechsignal.com/corrections/): published errata"]
+              "- [Corrections](https://martechsignal.com/corrections/): published errata",
+              # r18 L-2 (2026-09-30): truncating consumers never reached the
+              # old line 369 of 375 - the mirrors note lives in ## Site now.
+              "- Markdown mirrors: every page ships a full-prose `index.md` twin (reviews, comparisons, posts) - take any page URL, append `index.md` (e.g. https://martechsignal.com/tools/n8n/index.md)"]
     lines += ["", "## Links", "",
               # r15 L-6 (2026-09-29): "Full content mirror" overclaimed —
               # llms-full.txt carries full tool descriptions, not full prose.
@@ -2922,10 +2925,7 @@ def build_llms_txt(tools, cats):
               # listed under ## Site above — no repeats here.
               "- [Author](https://martechsignal.com/authors/tim-christensen/)",
               "- [Contact](https://martechsignal.com/contact/)",
-              "- [RSS feed](https://martechsignal.com/rss.xml)",
-              # r17 L-6: the index.md line moved up from the tail section -
-              # truncating consumers never reached line 374 of 375.
-              "- Markdown mirrors: every page ships a full-prose `index.md` twin (reviews, comparisons, posts) - take any page URL, append `index.md` (e.g. https://martechsignal.com/tools/n8n/index.md)", ""]
+              "- [RSS feed](https://martechsignal.com/rss.xml)", ""]
     out = ROOT / "llms.txt"
     # A2 H7 (2026-09-26): the catalog datasets were reachable only by agents that
     # already knew the ARD spec - surface them in the machine-readable index.
@@ -3360,13 +3360,6 @@ def sync_date_modified():
         if "deploy-out" in _p.parts or ".well-known" in _p.parts:
             continue
         _s = _p.read_text()
-        # r16 L-7 (2026-09-29): the old skip (any dateModified) left 270
-        # pages with no page entity at all. Skip only pages that already
-        # define a WebPage node; every other page gets one with the
-        # unfragmented page URL as @id (the guides pattern the audit calls
-        # cleanest), so #webpage is never double-bound.
-        if '"@type": "WebPage"' in _s or '"@type":"WebPage"' in _s:
-            continue
         # r6 M-4/M-5 (2026-09-27): the REAL last-edit date wins. Declared dates
         # (datePublished / <time>) are fallbacks, not authorities: generator-stamped
         # "today" was leaking into dateModified and sitemap lastmod on 43 URLs.
@@ -3380,6 +3373,29 @@ def sync_date_modified():
             if _m:
                 _val = _m.group(1)[:10]
         if not _val:
+            continue
+        # r18 H-2 (2026-09-30): the template entity (ItemList/Article) carries
+        # its own authored dateModified while the injector adds a second one
+        # with the blame date - 101 pages with 2 distinct values, and the
+        # sitemap reads the FIRST (stale) one. One page, one date: rewrite
+        # every dateModified on the page to the blame-derived value (the same
+        # source the sitemap reads), so the stamp moves when content changes.
+        _s = _re.sub(r'"dateModified"\s*:\s*"[0-9]{4}-[0-9]{2}-[0-9]{2}[^"]*"',
+                     f'"dateModified": "{_val}"', _s)
+        # r18 H-2b (2026-09-30): the visible byline clock must agree with the
+        # schema clock (r11 L-11 pin). The pricing-verified <time> is a
+        # separate factual stamp with its own meaning - only the "updated"
+        # byline moves with the unified date.
+        _s = _re.sub(r'updated <time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[0-9]{4}-[0-9]{2}-[0-9]{2}</time>',
+                     f'updated <time datetime="{_val}">{_val}</time>', _s)
+        # r16 L-7 (2026-09-29): pages that already define a WebPage node
+        # keep it (unified above); every other page gets one with the
+        # unfragmented page URL as @id (the guides pattern the audit calls
+        # cleanest), so #webpage is never double-bound.
+        if '"@type": "WebPage"' in _s or '"@type":"WebPage"' in _s:
+            if _s != _p.read_text():
+                _p.write_text(_s)
+                _n += 1
             continue
         _url = "https://martechsignal.com/" + _p.parent.relative_to(ROOT).as_posix().strip(".") + "/"
         if _url == "https://martechsignal.com//":

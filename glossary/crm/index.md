@@ -91,7 +91,7 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
         "@type": "DefinedTerm",
         "name": "Customer Relationship Management (CRM)",
         "description": "A CRM is the system of record for every interaction your company has with a prospect or customer. It stores contact details, conversation history, deal stages, and activity logs. Sales teams use it to manage pipelines. Marketing teams use it to segment audiences. Support teams use it to track tickets.",
-        "dateModified": "2026-09-28",
+        "dateModified": "2026-09-29",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",

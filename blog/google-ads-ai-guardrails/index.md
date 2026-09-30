@@ -131,7 +131,7 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
     }
   },
   "datePublished": "2026-09-24",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-ads-ai-guardrails/",
   "image": {
     "@type": "ImageObject",

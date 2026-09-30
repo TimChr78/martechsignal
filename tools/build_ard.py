@@ -93,9 +93,10 @@ def build():
         entries.append({
             "identifier": f"urn:air:{PUBLISHER}:data:{fname.replace('.', '-')}",
             "displayName": f"MartechSignal {fname} (machine-readable)",
-            # M16 (r9, 2026-09-28): generic application/json cost the only
-            # Lighthouse deduction in the agentic-browsing category.
-            "type": "application/ai-catalog+json",
+            # r18 M-3 (2026-09-30): these files are plain JSON data, not
+            # ARD catalogs (no specVersion/entries). Label them honestly;
+            # the M16 Lighthouse deduction is cheaper than a false type.
+            "type": "application/json",
             "url": f"https://martechsignal.com/catalog-{fname}",
             # r16 M-4 (2026-09-29): the two catalog entries carried
             # byte-identical representativeQueries. Disambiguated per file.
@@ -191,7 +192,7 @@ def build():
         # r8 H11 (2026-09-28): `host` is not permitted by ard-entry.schema.json
         # (the only Lighthouse ard-schema error), and a text/html page is not an
         # agent-discoverable resource - pages are covered by llms.txt + the mirrors.
-        "entries": [e for e in entries if e.get("type") != "text/html"],
+        "entries": entries,
     }
     return manifest
 

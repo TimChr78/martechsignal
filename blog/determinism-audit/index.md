@@ -145,7 +145,7 @@ More from the directory: [Jasper](/tools/jasper/)
     }
   },
   "datePublished": "2026-09-11",
-  "dateModified": "2026-09-12",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/determinism-audit/",
   "image": {
     "@type": "ImageObject",

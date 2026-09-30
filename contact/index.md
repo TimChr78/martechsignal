@@ -47,5 +47,5 @@ This inbox has one reader with a day job, so give it two or three business days 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/contact/", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/contact/", "dateModified": "2026-09-30"}
 ```

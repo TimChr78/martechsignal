@@ -154,7 +154,7 @@ def build_best():
             _head += '<th>Open source</th>'
         if _show_api:
             _head += '<th>Public API</th>'
-        _head += '<th>Verdict</th></tr>'
+        _head += '<th>Best for</th></tr>'
         rows = []
         for it in items:
             t = tools_by_slug[it["slug"]]

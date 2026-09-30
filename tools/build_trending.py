@@ -175,6 +175,7 @@ def build_page():
     schema = {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
+        "@id": "https://martechsignal.com/trending/",
         "name": "Open-Source MarTech Momentum",
         "description": f"GitHub star momentum for {n_repos} tracked open-source martech tools, with daily snapshots and verified star counts.",
         "url": "https://martechsignal.com/trending/",

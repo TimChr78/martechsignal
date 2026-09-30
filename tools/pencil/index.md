@@ -72,7 +72,7 @@ AI-powered ad creative generation and performance prediction for paid media
 
 Advertising & Paid Media · From $11/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit Pencil →](https://trypencil.com)
 
@@ -210,7 +210,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/pencil/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-29",
+    "dateModified": "2026-09-30",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -329,7 +329,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pencil/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pencil/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pencil/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pencil/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

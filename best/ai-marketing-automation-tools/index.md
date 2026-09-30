@@ -1,7 +1,7 @@
 # Best AI Marketing Automation tools (2026): 8 compared
 
 
-| Tool | Pricing | Open source | Verdict |
+| Tool | Pricing | Open source | Best for |
 | --- | --- | --- | --- |
 | [NocoDB](/tools/nocodb/) | Free tier | Yes | Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 | [Ortto](/tools/ortto/) | From $199/mo | No | Marketing teams that want email, SMS and journeys behind one login |
@@ -301,10 +301,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-marketing-automation-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-marketing-automation-tools/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

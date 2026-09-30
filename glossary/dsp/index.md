@@ -70,7 +70,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
         "@type": "DefinedTerm",
         "name": "Demand-Side Platform (DSP)",
         "description": "A demand-side platform is the buying interface for programmatic advertising. Advertisers use a DSP to bid on ad impressions across ad exchanges in real time, setting targeting parameters, budget caps, and bidding strategies in one place instead of negotiating with each publisher individually.",
-        "dateModified": "2026-09-28",
+        "dateModified": "2026-09-29",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",

@@ -131,7 +131,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
     }
   },
   "datePublished": "2026-09-17",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-vs-seonaut/",
   "image": {
     "@type": "ImageObject",

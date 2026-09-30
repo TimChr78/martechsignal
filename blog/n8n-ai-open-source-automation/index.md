@@ -225,7 +225,7 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
     }
   },
   "datePublished": "2026-07-28",
-  "dateModified": "2026-09-25",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/n8n-ai-open-source-automation/",
   "image": {
     "@type": "ImageObject",

@@ -74,7 +74,7 @@ Enterprise-grade open-source CRM with sales, marketing, and support automation
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
 
 [Visit SuiteCRM →](https://www.suitecrm.com)
 
@@ -90,7 +90,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-SuiteCRM is the AGPLv3 open-source CRM that forked SugarCRM Community Edition and outlived it, maintained by SuiteCRM Ltd from Stirling, Scotland. Two release lines are current: 8.10.2 and 7.15.2 shipped on the same day in July 2026 as a joint security release, and 7.15 is an extended support release with security fixes published into 2028. The module set is the deepest in this directory's CRM category: leads, accounts, contacts, opportunities, quotes, invoices, contracts, PDF templates, campaigns with target lists and confirmed opt-in, surveys, events, cases with a knowledge base, bugs, reports with scheduled runs, calendar, projects, and document management, plus Studio for no-code layout changes and Module Builder for new entities from six templates. Workflow automation is free in the core, with calculated fields, which is the main structural difference from EspoCRM, where workflows are a paid extension. What SuiteCRM does not have matters too: there is no native AI anywhere in the documented feature set, and no official mobile app. Elasticsearch is an optional search backend, and Redis or RabbitMQ are optional message transports for background jobs beyond a single server. Two APIs are documented, the newer V8 API with OAuth and the legacy V4. Requirements are PHP 8.2 to 8.4 with MariaDB 10.6 or later, or MySQL 8.0 or later, on Apache 2.4. Installation is a pre-built zip with a permissions pass, then a browser wizard or a CLI installer with flags for the admin user, database, and demo data. Migrating from 7.x to 8.x is a documented fresh install with three console commands, not a patch. Commercial support is GBP-priced: hosting from 50 pounds monthly with unlimited users, and SuiteASSURED from 3,350 pounds a year carrying warranties and indemnities. This assessment is from the repository, the docs, and the vendor site.
+SuiteCRM is the AGPLv3 open-source CRM that forked SugarCRM Community Edition and outlived it, maintained by SuiteCRM Ltd from Stirling, Scotland. Two release lines are current: 8.10.2 and 7.15.2 shipped on the same day in July 2026 as a joint security release, and 7.15 is an extended support release with security fixes published into 2028. The module set is the deepest in this directory's CRM category: leads, accounts, contacts, opportunities, quotes, invoices, contracts, PDF templates, campaigns with target lists and confirmed opt-in, surveys, events, cases with a knowledge base, bugs, reports with scheduled runs, calendar, projects, and document management, plus Studio for no-code layout changes and Module Builder for new entities from six templates. Workflow automation is free in the core, with calculated fields, which is the main structural difference from EspoCRM, where workflows are a paid extension. What SuiteCRM does not have matters too: there is no native AI anywhere in the documented feature set, and no official mobile app. Elasticsearch is an optional search backend, and Redis or RabbitMQ are optional message transports for background jobs beyond a single server. Two APIs are documented, the newer V8 API with OAuth and the legacy V4. Requirements are PHP 8.2 to 8.4 with MariaDB 10.6 or later, or MySQL 8.0 or later, on Apache 2.4. Installation is a pre-built zip with a permissions pass, then a browser wizard or a CLI installer with flags for the admin user, database, and demo data. Migrating from 7.x to 8.x is a documented fresh install with three console commands, not a patch. Commercial support is GBP-priced: hosting from £50 monthly with unlimited users, and SuiteASSURED from £3,350 a year carrying warranties and indemnities. This assessment is from the repository, the docs, and the vendor site.
 
 SuiteCRM homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -131,7 +131,7 @@ Version 8.10.0 is a substantial release: image fields, PDF generation including 
 
 The 7.x to 8.x migration is documented and is deliberately not a patch: you stand up a new SuiteCRM 8 install, migrate from the latest 7.x release only, and run three console commands, setup-legacy-migration, upgrade with a target package such as SuiteCRM-8.7.0, and upgrade-finalize. The 7 codebase ends up copied into public/legacy. The docs warn that migrating from an older 7.x will fail or produce unstable results, which is the step teams skip.
 
-Commercial pricing is published in GBP on suitecrm.com: fully managed hosting from 50 pounds monthly, hosted tiers at 143,198, and 308 pounds monthly (130,180, and 280 annually) with unlimited users, Quick Start implementation from 2,520 pounds, standard support at 1,200 pounds for ten hours, and SuiteASSURED from 3,350 pounds a year for ten care hours with warranties, indemnities, and performance guarantees.
+Commercial pricing is published in GBP on suitecrm.com: fully managed hosting from £50 monthly, hosted tiers at 143,198, and £308 monthly (130,180, and 280 annually) with unlimited users, Quick Start implementation from £2,520, standard support at £1,200 for ten hours, and SuiteASSURED from £3,350 a year for ten care hours with warranties, indemnities, and performance guarantees.
 
 ## Verdict
 
@@ -202,7 +202,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/suitecrm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-29",
+    "dateModified": "2026-09-30",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -321,7 +321,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/suitecrm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/suitecrm/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/suitecrm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/suitecrm/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

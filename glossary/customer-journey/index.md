@@ -78,7 +78,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
         "@type": "DefinedTerm",
         "name": "Customer Journey Mapping",
         "description": "A customer journey map is a visual representation of every step a customer takes from first awareness to purchase and beyond. It documents touchpoints, emotions, pain points, and the channels involved at each stage. The goal is to find where the experience breaks down.",
-        "dateModified": "2026-09-07",
+        "dateModified": "2026-09-29",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",

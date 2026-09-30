@@ -83,7 +83,7 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [ActiveCampaign]
         "@type": "DefinedTerm",
         "name": "Marketing Operations (MarketingOps)",
         "description": "Marketing operations is the function that manages the technology, processes, and data behind marketing execution. Marketing ops owns the CRM configuration, the automation workflows, the reporting dashboards, the data hygiene, and the tech stack evaluation. They're the people who make sure the campaign actually sends.",
-        "dateModified": "2026-08-23",
+        "dateModified": "2026-09-29",
         "datePublished": "2026-08-23",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",

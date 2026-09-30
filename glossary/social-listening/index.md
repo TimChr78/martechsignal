@@ -66,7 +66,7 @@ Sources: [Brandwatch](https://www.brandwatch.com) · [Buffer](https://buffer.com
         "@type": "DefinedTerm",
         "name": "Social Listening",
         "description": "Social listening is the practice of monitoring social media channels, forums, review sites, and news outlets for mentions of your brand, competitors, products, or industry topics. It goes beyond tracking @mentions to capturing untagged conversations where people discuss your category without naming you.",
-        "dateModified": "2026-09-28",
+        "dateModified": "2026-09-29",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",

@@ -174,7 +174,7 @@ More from the directory: [LanguageTool](/tools/languagetool/)
     }
   },
   "datePublished": "2026-08-17",
-  "dateModified": "2026-09-25",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-ad-agents-control-gap/",
   "image": {
     "@type": "ImageObject",

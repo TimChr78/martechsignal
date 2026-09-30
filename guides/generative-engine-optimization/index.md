@@ -82,11 +82,15 @@ Sources: [Profound](https://www.tryprofound.com/) · [Profound pricing](https://
 
 
 ```json
-{"@context": "https://schema.org", "@type": "Article", "headline": "Generative Engine Optimization (GEO): the working guide", "url": "https://martechsignal.com/guides/generative-engine-optimization/", "dateModified": "2026-09-28", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/generative-engine-optimization.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/generative-engine-optimization/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/generative-engine-optimization/"}}
+{"@context": "https://schema.org", "@type": "Article", "headline": "Generative Engine Optimization (GEO): the working guide", "url": "https://martechsignal.com/guides/generative-engine-optimization/", "dateModified": "2026-09-30", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/generative-engine-optimization.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/generative-engine-optimization/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/generative-engine-optimization/"}}
 ```
 
 ```json
 {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://martechsignal.com/guides/"}, {"@type": "ListItem", "position": 3, "name": "Generative Engine Optimization", "item": "https://martechsignal.com/guides/generative-engine-optimization/"}]}
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://martechsignal.com/#website", "url": "https://martechsignal.com/", "name": "MartechSignal"}
 ```
 
 ```json

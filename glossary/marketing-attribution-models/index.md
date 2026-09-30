@@ -81,7 +81,7 @@ Sources: [Attribution](https://www.attributionapp.com) · [Amplitude](https://am
         "@type": "DefinedTerm",
         "name": "Attribution Models (First-Touch, Last-Touch, Multi-Touch)",
         "description": "An attribution model is the rule that decides which marketing touchpoint gets credit for a conversion. First-touch credits the first interaction. Last-touch credits the final one before purchase. Linear splits credit equally. Time-decay gives more weight to recent touches. Position-based (U-shaped) gives 40% to first and last, 20% to everything in between.",
-        "dateModified": "2026-09-28",
+        "dateModified": "2026-09-29",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",

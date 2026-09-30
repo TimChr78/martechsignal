@@ -111,7 +111,7 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
     }
   },
   "datePublished": "2026-09-27",
-  "dateModified": "2026-09-28",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-benchmark/",
   "image": {
     "@type": "ImageObject",

@@ -1,7 +1,7 @@
 # Best Open-Source Marketing Automation Tools (2026): 8 compared
 
 
-| Tool | Pricing | Public API | Verdict |
+| Tool | Pricing | Public API | Best for |
 | --- | --- | --- | --- |
 | [Mautic](/tools/mautic/) | Open Source | yes | Marketing teams that want HubSpot-class automation they can host themselves |
 | [Listmonk](/tools/listmonk/) | Open Source | yes | Newsletter and lifecycle email at one list price, with no per-contact billing |
@@ -310,10 +310,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/open-source-marketing-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/open-source-marketing-tools/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

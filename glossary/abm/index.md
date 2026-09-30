@@ -75,7 +75,7 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
         "@type": "DefinedTerm",
         "name": "Account-Based Marketing (ABM)",
         "description": "Account-based marketing flips the traditional funnel. Instead of generating a large volume of leads and filtering down, you identify the specific accounts you want to win and build personalized campaigns for each one. Marketing and sales work the same target list from day one.",
-        "dateModified": "2026-09-28",
+        "dateModified": "2026-09-29",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",

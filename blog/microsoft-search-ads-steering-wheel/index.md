@@ -142,7 +142,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
     }
   },
   "datePublished": "2026-08-31",
-  "dateModified": "2026-09-09",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/",
   "image": {
     "@type": "ImageObject",

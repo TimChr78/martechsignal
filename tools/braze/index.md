@@ -187,7 +187,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/braze/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-13",
+    "dateModified": "2026-09-30",
     "datePublished": "2026-07-27"
   },
   {
@@ -283,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/braze/", "breadcrumb": {"@id": "https://martechsignal.com/tools/braze/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/braze/", "breadcrumb": {"@id": "https://martechsignal.com/tools/braze/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

@@ -129,7 +129,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
     }
   },
   "datePublished": "2026-09-15",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/",
   "image": {
     "@type": "ImageObject",

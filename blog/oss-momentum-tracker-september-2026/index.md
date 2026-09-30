@@ -155,7 +155,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-09-26",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/oss-momentum-tracker-september-2026/",
   "image": {
     "@type": "ImageObject",

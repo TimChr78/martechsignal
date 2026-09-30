@@ -353,6 +353,7 @@
 - [AI content policy](https://martechsignal.com/ai-policy/): citation and grounding are welcome; training model weights on this corpus is not permitted
 - [Checklist](https://martechsignal.com/checklist/): tool selection checklist
 - [Corrections](https://martechsignal.com/corrections/): published errata
+- Markdown mirrors: every page ships a full-prose `index.md` twin (reviews, comparisons, posts) - take any page URL, append `index.md` (e.g. https://martechsignal.com/tools/n8n/index.md)
 
 ## Links
 
@@ -366,7 +367,6 @@
 - [Author](https://martechsignal.com/authors/tim-christensen/)
 - [Contact](https://martechsignal.com/contact/)
 - [RSS feed](https://martechsignal.com/rss.xml)
-- Markdown mirrors: every page ships a full-prose `index.md` twin (reviews, comparisons, posts) - take any page URL, append `index.md` (e.g. https://martechsignal.com/tools/n8n/index.md)
 
 ## Machine-readable data
 

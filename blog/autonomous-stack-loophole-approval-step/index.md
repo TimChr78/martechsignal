@@ -133,7 +133,7 @@ More from the directory: [BillionMail](/tools/billionmail/)
     }
   },
   "datePublished": "2026-09-07",
-  "dateModified": "2026-09-09",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/",
   "image": {
     "@type": "ImageObject",

@@ -633,12 +633,15 @@ html, body { overflow-x: clip }
 .bg { width: 100vw; max-width: 100% }
 .dot-grid, .glow-a, .glow-b, .glow-c { max-width: 100% ; }
 @media (max-width: 480px) {
+  /* r18 L-1 (2026-09-30): the old .mast-in/.mast-nav wrap rules below were
+     dead code - the r9 H5/H6 one-row scroll rail (@media 700px, later in
+     source) overrides them at every mobile width, so no browser ever applied
+     them. The rail (kept deliberately: 44px targets, edge fade) is the single
+     mobile nav behavior now; this block keeps only its non-nav rules. */
   .mast-in {
-    flex-wrap: wrap;
     row-gap: .5rem;
     padding-inline: clamp(.9rem, 4vw, 1.5rem);
   }
-  .mast-nav { gap: 1rem; min-width: 0; flex-wrap: wrap; font-size: 0.8rem; letter-spacing: .1em }
 }
 
 /* M-11: reading measure for long-form tool content */

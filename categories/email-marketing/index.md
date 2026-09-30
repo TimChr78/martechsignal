@@ -154,7 +154,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 15,
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-09-30",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -343,7 +343,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/email-marketing/", "breadcrumb": {"@id": "https://martechsignal.com/categories/email-marketing/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/email-marketing/", "breadcrumb": {"@id": "https://martechsignal.com/categories/email-marketing/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

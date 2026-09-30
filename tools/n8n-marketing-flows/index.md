@@ -180,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/n8n-marketing-flows/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-29",
+    "dateModified": "2026-09-30",
     "datePublished": "2026-08-31",
     "offers": {
       "@type": "Offer",
@@ -283,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/n8n-marketing-flows/", "breadcrumb": {"@id": "https://martechsignal.com/tools/n8n-marketing-flows/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/n8n-marketing-flows/", "breadcrumb": {"@id": "https://martechsignal.com/tools/n8n-marketing-flows/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

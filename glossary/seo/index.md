@@ -83,7 +83,7 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
         "@type": "DefinedTerm",
         "name": "Search Engine Optimization (SEO)",
         "description": "SEO is the practice of improving a website's visibility in organic (non-paid) search results. It covers technical factors (site speed, crawlability, structured data), content quality (relevance, depth, freshness), and authority signals (backlinks, brand mentions, domain reputation).",
-        "dateModified": "2026-09-07",
+        "dateModified": "2026-09-29",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",

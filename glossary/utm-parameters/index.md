@@ -74,7 +74,7 @@ Sources: [Google campaign URL builder](https://ga-dev-tools.google/campaign-url-
         "@type": "DefinedTerm",
         "name": "UTM Parameters",
         "description": "UTM parameters are tags appended to URLs to track where traffic comes from. A URL like example.com/page?utm_source=newsletter&utm_medium=email&utm_campaign=summer-sale tells your analytics platform that the visit came from a summer sale email campaign. Without them, all your email traffic shows up as 'direct' and you learn nothing.",
-        "dateModified": "2026-09-07",
+        "dateModified": "2026-09-29",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",

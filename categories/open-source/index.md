@@ -544,7 +544,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 80,
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-09-30",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -1513,7 +1513,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/open-source/", "breadcrumb": {"@id": "https://martechsignal.com/categories/open-source/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/open-source/", "breadcrumb": {"@id": "https://martechsignal.com/categories/open-source/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

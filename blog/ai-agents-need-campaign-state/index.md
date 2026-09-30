@@ -153,7 +153,7 @@ More from the directory: [advertools](/tools/advertools/)
     }
   },
   "datePublished": "2026-08-03",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/ai-agents-need-campaign-state/",
   "image": {
     "@type": "ImageObject",

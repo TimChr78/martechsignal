@@ -106,11 +106,11 @@ Zapier has no exporter that writes n8n workflows, so every Zap gets rebuilt by h
 
 Going the other way costs differently. n8n code steps have no Zapier equivalent, so those steps get rewritten as built-in actions or pushed upstream into your own API. Credentials move from your instance into Zapier's vault, and any self-hosted webhook URL needs a new public endpoint. Budget a day of plumbing per environment.
 
-Switching costs land in the connectors, not the canvas. Triggers and actions map across all three roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those.
+Switching costs land in the connectors, not the canvas. Triggers and actions map across both roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those.
 
 ## When neither is the right answer
 
-None of the three is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder.
+Neither is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder.
 
 ## Who should pick which
 
@@ -238,10 +238,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/n8n-vs-zapier/", "breadcrumb": {"@id": "https://martechsignal.com/vs/n8n-vs-zapier/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

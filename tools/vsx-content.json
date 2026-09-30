@@ -1,1092 +1,1092 @@
 {
-  "pages": [
+ "pages": [
+  {
+   "slug": "n8n-vs-zapier",
+   "title": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
+   "seo_title": "n8n vs Zapier (2026): self-host or catalog",
+   "meta": "n8n vs Zapier compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a clear pick for each team.",
+   "a_slug": "n8n",
+   "b_slug": "zapier",
+   "intro": [
+    "The real difference here is not a feature checklist. It is where your automations run and who pays when they work. n8n runs the whole engine on your own hardware under a fair-code license, while Zapier sells access to a hosted platform whose main asset is a catalog of more than 9,000 apps. Both now ship AI agents, so the AI column rarely decides this purchase on its own.",
+    "Teams usually arrive at this comparison after hitting one of two walls: a Zapier bill that scales with every successful run, or an n8n instance that needs someone to maintain it. The axis is metered convenience against owned infrastructure, and the catalog numbers below show what each side charges for the same five-step lead-intake workflow."
+   ],
+   "sections": [
     {
-      "slug": "n8n-vs-zapier",
-      "title": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
-      "seo_title": "n8n vs Zapier (2026): self-host or catalog",
-      "meta": "n8n vs Zapier compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a clear pick for each team.",
-      "a_slug": "n8n",
-      "b_slug": "zapier",
-      "intro": [
-        "The real difference here is not a feature checklist. It is where your automations run and who pays when they work. n8n runs the whole engine on your own hardware under a fair-code license, while Zapier sells access to a hosted platform whose main asset is a catalog of more than 9,000 apps. Both now ship AI agents, so the AI column rarely decides this purchase on its own.",
-        "Teams usually arrive at this comparison after hitting one of two walls: a Zapier bill that scales with every successful run, or an n8n instance that needs someone to maintain it. The axis is metered convenience against owned infrastructure, and the catalog numbers below show what each side charges for the same five-step lead-intake workflow."
-      ],
-      "sections": [
-        {
-          "heading": "Positioning",
-          "a": "n8n is an open-source workflow automation platform built for technical marketing and operations teams: a visual builder over 400-plus nodes with custom code steps and API access. Founded 2019 in Berlin, it sells flexibility and control, backed by 206,232 GitHub stars, the largest community in the category. The trade is setup and maintenance effort.",
-          "b": "Zapier is the platform most people mean when they say connect two tools without writing code. Founded 2011 in San Francisco, it leads with breadth and onboarding speed: the default for form-to-CRM handoffs and lead-to-Slack alerts. Customization depth is not the pitch."
-        },
-        {
-          "heading": "Pricing",
-          "a": "Self-hosting is free under the fair-code license, and cloud plans run 20 dollars monthly on Starter and 50 dollars on Pro, with Enterprise custom. On your own hardware the bill is a server and someone's time, not per-run fees.",
-          "b": "Pricing is task-based: Free covers 100 tasks monthly and two-step Zaps, Professional starts at 19.99 dollars monthly billed annually at the 750-task tier (29.99 dollars monthly), Team at 69 dollars with 2,000 tasks and 25 seats. Every step in a Zap counts, so multi-step workflows burn volume fast. Agent activity bills separately: 400 activities a month free."
-        },
-        {
-          "heading": "Deployment and self-hosting",
-          "a": "n8n deploys in the cloud or self-hosted, and self-hosting is the point: data stays on your infrastructure and runs are not metered by the vendor. The cost is operational, including upgrades, backups, and queue management, all on your team.",
-          "b": "Zapier is a hosted service with no self-hosted edition, which removes maintenance from your plate and removes control over where data flows. Polling intervals set the pace: 15 minutes on Free, 2 minutes on Professional, 1 minute on Team and above."
-        },
-        {
-          "heading": "AI features",
-          "a": "AI agent nodes run inside workflows on top of LangChain, with AI data transformation, AI content generation, and AI-powered integrations documented alongside them. AI is a workflow step, so it composes with everything else you build instead of sitting in a separate product line.",
-          "b": "AI is a product line: Agents, Chatbots, Canvas, Zapier MCP, and Copilot appear on every plan with basic access, and AI by Zapier is excluded from Free. Agents are billed in activities rather than tasks, 400 a month free and 1,500 on Agents Pro."
-        },
-        {
-          "heading": "Integrations",
-          "a": "The node catalog counts 400-plus entries: Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, Notion, plus HTTP requests and custom code for anything missing. Community nodes widen it further, at the cost of vetting them yourself.",
-          "b": "More than 9,000 apps, the widest catalog in this directory. The niche martech tools that lack an n8n node usually still ship a Zapier integration, which is the practical reason many teams land here. Premium apps are excluded from the Free plan."
-        },
-        {
-          "heading": "Lock-in and exit cost",
-          "a": "The lock-in is mild. Workflows export as JSON, the license lets you keep running the software, and the data lives in your own database. What you own is the maintenance: upgrades, backups, and the 3am page when a credential expires.",
-          "b": "Zapier stores the logic, so the platform holds the keys. Zaps do not export to any rival and the run history stays behind when you leave. Treat the exit as a rebuild project."
-        },
-        {
-          "heading": "Who should pick which",
-          "a": "Pick n8n when volume is predictable and heavy, when workflows need branching, code steps, or self-hosted data control, or when a platform team can own the instance. Flat cloud plans and free self-hosting reward trading maintenance for meter-free runs.",
-          "b": "Pick Zapier when speed matters more than cost at scale: a marketing team wiring tools together this week, a dependency on apps only Zapier connects, or an organization with nobody to run infrastructure. The catalog is the product, and it is genuinely wide."
-        }
-      ],
-      "pick_a_if": "Pick n8n if you can host it yourself, run high volume, or need code steps and branching in your workflows.",
-      "pick_b_if": "Pick Zapier if a specific niche integration has to work this week and nobody wants to maintain an automation server.",
-      "date_published": "2026-09-26",
-      "date_updated": "2026-09-28",
-      "price_table": {
-        "unit": "Cost picture at 10K, 100K and 1M automation tasks per month (derived from published rates, not quoted; checked 2026-09-29)",
-        "checked": "2026-09-29",
-        "rows": [
-          [
-            "Cost basis",
-            "Workflow executions on Cloud; unlimited runs when self-hosted",
-            "Successful tasks"
-          ],
-          [
-            "Free tier",
-            "Community Edition self-hosted, free and unlimited (fair-code)",
-            "100 tasks per month, 2-step Zaps"
-          ],
-          [
-            "Entry paid",
-            "Cloud Starter 20 EUR/mo billed annually (2.5K executions)",
-            "Professional from $19.99/mo"
-          ],
-          [
-            "At 10K tasks/mo",
-            "Self-hosted: the server and your time. Cloud: executions above plan quota cost extra, so check the current add-on price before you buy.",
-            "Task volume rides a price slider and both published prices are starting points, so 10K tasks lands above the $69/mo Team floor. Ask Zapier for the exact rung."
-          ],
-          [
-            "At 100K tasks/mo",
-            "Business at 667 EUR/mo covers 40K executions; above that Enterprise is custom-priced, so ask n8n.",
-            "Above the Team floor: the price rides the task slider, and 1M-plus sits on Enterprise annual limits. Ask Zapier for the rung."
-          ],
-          [
-            "At 1M tasks/mo",
-            "Enterprise custom: n8n publishes no price above Business. Self-hosting stays free plus the server.",
-            "Slider tops at 2M tasks with a Custom tier above it; 1M means an Enterprise quote. No public number exists."
-          ],
-          [
-            "Checked",
-            "2026-09-29",
-            "2026-09-29"
-          ]
-        ]
-      },
-      "migration": [
-        "Zapier has no exporter that writes n8n workflows, so every Zap gets rebuilt by hand: trigger, filters, and each action become nodes. A five-step Zap usually takes under an hour to translate once you know both tools, but the testing time after the rebuild is the part people underestimate, because the happy path is only one path.",
-        "Going the other way costs differently. n8n code steps have no Zapier equivalent, so those steps get rewritten as built-in actions or pushed upstream into your own API. Credentials move from your instance into Zapier's vault, and any self-hosted webhook URL needs a new public endpoint. Budget a day of plumbing per environment.",
-        "Switching costs land in the connectors, not the canvas. Triggers and actions map across all three roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those."
-      ],
-      "decision_first": {
-        "heading": "n8n vs Zapier: the quick decision",
-        "rows": [
-          [
-            "n8n",
-            "You want self-hosting, code steps and per-execution pricing over per-task billing."
-          ],
-          [
-            "zapier",
-            "You want the deepest app catalog and the least thinking about edge cases."
-          ]
-        ],
-        "links": [
-          {
-            "text": "And for the Make side of the family:",
-            "label": "Make vs Zapier",
-            "href": "/vs/make-vs-zapier/"
-          },
-          {
-            "text": "All three face off properly on the three-way page:",
-            "label": "n8n vs Make vs Zapier",
-            "href": "/vs/n8n-vs-make-vs-zapier/"
-          }
-        ]
-      },
-      "neither": "None of the three is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder.",
-      "pilot_faq": [
-        {
-          "q": "When does n8n beat Zapier on cost?",
-          "a": "At high volume. n8n self-hosted is free beyond the server, while Zapier rides a task slider past the $69 Team floor. The price table on this page shows 10K, 100K and 1M task scenarios with the published rates behind each rung."
-        },
-        {
-          "q": "When should a team still pick Zapier?",
-          "a": "When a specific niche integration has to work this week and nobody wants to maintain automation servers. Zapier has the largest app catalog and the least setup per workflow, which is worth the task billing for small teams."
-        },
-        {
-          "q": "Which one fits builders who write code?",
-          "a": "n8n. Code steps and branching are native, and Pipedream is the escape hatch if developers want real code in every step. Zapier and Make keep builders inside visual editors by design."
-        }
-      ]
+     "heading": "Positioning",
+     "a": "n8n is an open-source workflow automation platform built for technical marketing and operations teams: a visual builder over 400-plus nodes with custom code steps and API access. Founded 2019 in Berlin, it sells flexibility and control, backed by 206,232 GitHub stars, the largest community in the category. The trade is setup and maintenance effort.",
+     "b": "Zapier is the platform most people mean when they say connect two tools without writing code. Founded 2011 in San Francisco, it leads with breadth and onboarding speed: the default for form-to-CRM handoffs and lead-to-Slack alerts. Customization depth is not the pitch."
     },
     {
-      "slug": "nocodb-vs-nocobase",
-      "title": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
-      "seo_title": "NocoDB vs NocoBase (2026): data model ownership",
-      "meta": "NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, and integrations, with catalog facts and a balanced pick for each team.",
-      "a_slug": "nocodb",
-      "b_slug": "nocobase",
-      "intro": [
-        "Both projects promise the same escape from per-seat SaaS: keep operational data on your own server, in your own database, and stop renting a spreadsheet with permissions. They deliver in opposite directions. NocoDB is a layer over a database you already own; NocoBase is a platform where you define the data model first and assemble pages, workflows, and permissions around it.",
-        "The teams choosing between them are marketing ops and internal-tools owners with an engineer somewhere nearby, and the axis of difference is not a feature checklist. It is who owns the data model and how much construction work the tool expects from you. Get that judgment wrong and the cost surfaces later as a migration."
-      ],
-      "sections": [
-        {
-          "heading": "Positioning",
-          "a": "NocoDB turns Postgres or MySQL you already run into an Airtable-style workspace: grids, forms, kanban, calendar, and map views over your existing tables, with per-role permissions, webhooks, and REST APIs. At 65,104 GitHub stars it is the larger project. Its natural home is the spreadsheet sprawl behind campaign ops: content calendars, launch checklists, partner trackers, lead lists.",
-          "b": "NocoBase is a no-code platform for assembling business systems: CRMs, approval flows, content operations, and dashboards, built data-model-first from configurable collections, pages, and workflow blocks, extended through a plugin architecture that reaches nearly everything including UI blocks. Version 2.0 adds AI employees. It expects data-model thinking rather than grid thinking."
-        },
-        {
-          "heading": "Pricing",
-          "a": "Self-hosting is free with unlimited records and seats. Cloud runs Free (3 users, 1,000 records), Plus at 12 dollars per seat monthly billed annually, Business at 24 dollars with external DB connections and SAML SSO, Scale at 45 dollars, Enterprise custom. NocoAI features and App Store integrations are paid.",
-          "b": "The community edition is free to self-host, and commercial editions cover enterprise features and support. The catalog publishes no per-seat numbers for it. AI-assisted building and the workflow engine sit in the open offering, while rebranding, SSO, and advanced workflow features are commercial."
-        },
-        {
-          "heading": "Deployment and self-hosting",
-          "a": "A documented one-command compose stack (NocoDB, a background worker, Postgres, Redis) serves on port 8080, or the Docker image attaches to an existing Postgres through NC_DB. Minimum spec is 2 vCPU and 2 GB RAM. Read the license before features: the Sustainable Use License is fair-code, not OSI open source. Internal business use is free; offering it to others as a hosted service needs a commercial license.",
-          "b": "Self-hosted and plugin-based, with REST API and webhooks as the documented integration surface and a plugin architecture extending the platform. The licensing story is open-core: an Apache 2.0 kernel wrapped in the project's own agreement, with the community edition keeping NocoBase branding intact. Commercial editions add enterprise features and support."
-        },
-        {
-          "heading": "AI features",
-          "a": "NocoAI generates schema, tables, views, and formulas from prompts, and AI button and AI prompt field types extend rows, all in paid tiers. An MCP server gives external agents record-level access. AI here augments the spreadsheet surface rather than building systems.",
-          "b": "Version 2.0 adds AI employees: assistant-style agents working on top of your data models and the no-code interface, helping with configuration and answering questions over operational data. AI-assisted app building is listed as a core capability rather than an add-on."
-        },
-        {
-          "heading": "Integrations",
-          "a": "Postgres, MySQL, and SQLite underneath; REST APIs v3 with Swagger, conditional webhooks with custom payloads, an MCP server, and a paid App Store covering Slack, Discord, Mattermost, AWS SES, SMTP, and MailerSend. Because your schema stays SQL, other tools in the stack query it directly.",
-          "b": "The documented surface is REST API and webhooks, with plugins extending from there. The honest gap: no turnkey email or campaign-sender connectors in the box, which matters if you expect the platform to run campaigns rather than record them. Server-side workflows keep routing and notifications running without a browser open."
-        },
-        {
-          "heading": "Lock-in and exit cost",
-          "a": "Your rows sit in your own database, so data lock-in is close to zero. What you rebuild elsewhere is the layer above: views, forms, and the API contracts your scripts call.",
-          "b": "Same story on data, different story on the paid editions. Permissions and workflow configuration live in the product, so a move means re-implementing them against the next tool."
-        },
-        {
-          "heading": "Who should pick which",
-          "a": "Pick NocoDB when the data already lives in Postgres or MySQL and you want a friendlier surface over it. The schema stays yours, plain SQL keeps working, and if NocoDB disappeared tomorrow your data would still be a database. It fits content calendars, launch checklists, and lead lists well.",
-          "b": "Pick NocoBase when you are building a system rather than decorating tables: lead routing with audit trails, campaign and UTM trackers joined to results, content approval chains, a lightweight marketing data hub that keeps consent records in your own infrastructure. With an engineer nearby the learning curve buys structure."
-        }
-      ],
-      "pick_a_if": "Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.",
-      "pick_b_if": "Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.",
-      "date_published": "2026-09-26",
-      "date_updated": "2026-09-28",
-      "price_table": {
-        "unit": "Cost picture for a 10-person ops team",
-        "checked": "2026-09-27",
-        "rows": [
-          [
-            "Cost basis",
-            "Cloud per seat, or free unlimited self-host",
-            "Free self-host; commercial editions quoted"
-          ],
-          [
-            "Free tier",
-            "Cloud Free for 3 users and 1,000 records; self-host unlimited (Sustainable Use License)",
-            "Self-hosted, open source"
-          ],
-          [
-            "Entry paid",
-            "Cloud Plus $12/seat/mo billed annually",
-            "No public price table; enterprise editions and support are quoted"
-          ],
-          [
-            "At 10 people",
-            "Cloud Plus: 10 x $12/mo billed annually = $120/mo. Self-hosted runs all 10 on your own hardware at no license cost.",
-            "Budget from a quote. The free community edition runs the core, and paid tiers buy permissions, workflows, and support around it."
-          ],
-          [
-            "Checked",
-            "2026-09-27",
-            "2026-09-27"
-          ]
-        ]
-      },
-      "migration": [
-        "These tools both sit on your own database, which helps less than you would think. Schemas recreate cleanly, but views, forms, and permission sets are product-specific and get rebuilt by hand.",
-        "The real migration cost is downstream: any script or integration pointing at the old API breaks at the cutover. Inventory those callers first. A clean CSV export will move the rows and leave the automations behind.",
-        "Schema migration between the two is a real project: both round-trip CSV, so flat tables move in an afternoon, but relational links and views are recreated by hand. NocoDB imports an existing Airtable; NocoBase leans on its plugin model for anything exotic. Budget one day per ten tables with relationships."
-      ],
-      "neither": "Neither fits a regulated enterprise data warehouse: both are operational databases at heart. And if your users will never see a record grid, a plain internal admin panel built in a weekend beats configuring either.",
-      "pilot_faq": [
-        {
-          "q": "Pick NocoDB or NocoBase for existing tables?",
-          "a": "NocoDB. Its verdict is explicit: tables that already exist get a spreadsheet-style surface over data you own. NocoBase wants the opposite starting point, systems designed from scratch."
-        },
-        {
-          "q": "Which one rewards data-model thinking?",
-          "a": "NocoBase. It pays off when the team can invest in data-model thinking up front and is building operational systems, not just viewing rows. Teams that will not do that work should stay with NocoDB."
-        },
-        {
-          "q": "Are both self-hosted?",
-          "a": "Yes. Both are open-source database surfaces the team hosts itself, so the decision is about starting point and modeling appetite, not about hosting bills or vendor lock-in."
-        }
-      ]
+     "heading": "Pricing",
+     "a": "Self-hosting is free under the fair-code license, and cloud plans run 20 dollars monthly on Starter and 50 dollars on Pro, with Enterprise custom. On your own hardware the bill is a server and someone's time, not per-run fees.",
+     "b": "Pricing is task-based: Free covers 100 tasks monthly and two-step Zaps, Professional starts at 19.99 dollars monthly billed annually at the 750-task tier (29.99 dollars monthly), Team at 69 dollars with 2,000 tasks and 25 seats. Every step in a Zap counts, so multi-step workflows burn volume fast. Agent activity bills separately: 400 activities a month free."
     },
     {
-      "slug": "matomo-vs-plausible",
-      "title": "Matomo vs Plausible (2026): analytics depth or a dashboard that stays small",
-      "seo_title": "Matomo vs Plausible (2026): depth or simplicity",
-      "meta": "Matomo vs Plausible compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a balanced pick for each team.",
-      "a_slug": "matomo",
-      "b_slug": "plausible",
-      "intro": [
-        "Both are open-source web analytics for teams that would rather not hand visitor data to an advertising company, and both self-host for free. The difference is depth and where the bill appears. Matomo is a full analytics suite whose advanced features are paid plugins and bundles; Plausible is a deliberately small tool with one dashboard, a lightweight script, and a low entry price.",
-        "Teams choosing between them are usually content sites, privacy-conscious startups, and marketing ops leads with GDPR obligations. The axis is not accuracy. It is how much behavioral analytics you actually use, and whether your ops capacity can run a PHP analytics platform with archiving jobs versus a tool that mostly runs itself."
-      ],
-      "sections": [
-        {
-          "heading": "Positioning",
-          "a": "Matomo is an open-source analytics platform under GPL v3 or later, run on your own infrastructure or as cloud, with 5.13.0 released August 2026 and an active 6.x branch. Core analytics, ecommerce tracking, goals, segments, a customizable dashboard, and an API are free, and the vendor claims 100 percent data ownership with unsampled reporting on every plan. Privacy is the reason teams pick it.",
-          "b": "Plausible is lightweight, privacy-friendly web analytics: pageviews, visitors, sources, devices, locations, and goals on one simple dashboard, without cookies or personal data collection. Launched in 2019 and based in Tallinn, it trades attribution depth and advertising integrations for a clean setup and low operational burden."
-        },
-        {
-          "heading": "Pricing",
-          "a": "The self-hosted core is free, and the feature split matters: funnels, cohorts, custom reports, form analytics, media analytics, A/B testing, heatmaps, session recordings, multi-channel attribution, roll-up reporting, and users flow are paid premium plugins. On-Premise bundles run 275 euro monthly (Team), 1,450 (Business), 3,400 (Enterprise), about 17 percent less billed annually. Cloud starts at 22 euro monthly for 50,000 hits and scales to 14,850 euro at 100 million. A 21-day Cloud trial applies.",
-          "b": "Self-hosted is free under the AGPL license, and cloud starts at 9 dollars monthly for 10,000 pageviews, scaling with traffic. There is no plugin upsell ladder and no premium bundle to decode: the product is the plan, which makes cost forecasting unusually simple."
-        },
-        {
-          "heading": "Deployment and self-hosting",
-          "a": "Installation is a documented nine-step wizard: matomo.zip from builds.matomo.org, PHP 8.1 or newer with MySQL 8 or MariaDB 10.6, and an archiving cron job for sites above a few hundred visits a day. WordPress, Shopify, Google Tag Manager, the Google Analytics Importer, and consent tools (OneTrust, Cookiebot) are documented, and cloud data stays in Europe.",
-          "b": "Self-hosting is a small job: an AGPL codebase with 29,248 GitHub stars and a tracking script that weighs under a kilobyte on the page. Cookie-free operation removes the consent-banner question for analytics entirely. Integrations cover WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack."
-        },
-        {
-          "heading": "AI features",
-          "a": "Matomo's AI work measures AI traffic as much as it adds analysis. Version 5.12.0 added AI chatbot content-request and real-time reports, and an AI Agents report ships enabled on new instances. An AI Connector answers plain-language questions, and a free official MCP Server plugin connects Matomo to ChatGPT, Claude, and other MCP clients, with write actions gated behind approval.",
-          "b": "Plausible's AI features are modest and summary-shaped: AI-powered insights, anomaly detection, and traffic analysis that surface unusual patterns or summarize trends without building manual alerts. Nothing here pretends to replace analysis; it shortens the weekly read."
-        },
-        {
-          "heading": "Integrations",
-          "a": "WordPress, Matomo Tag Manager, Google Tag Manager, the Google Analytics Importer, Shopify, BigQuery, OneTrust, and Cookiebot, plus an API that is free on every plan and an ecommerce-focused tracking stack. More surfaces, more wiring.",
-          "b": "WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack, plus API access for custom reporting. Fewer surfaces, faster to connect, and enough for most content sites and small marketing teams."
-        },
-        {
-          "heading": "Lock-in and exit cost",
-          "a": "Self-hosted Matomo keeps raw data in your own database, so the exit is an export of tables you already own. Cloud customers trade that control for convenience.",
-          "b": "Self-hosted Plausible is as portable as Matomo. On Cloud, the aggregation and history stay with the vendor, so leaving means starting fresh metrics elsewhere."
-        },
-        {
-          "heading": "Who should pick which",
-          "a": "Pick Matomo when you need funnels, heatmaps, session recordings, A/B testing, or multi-channel attribution and want them in the same self-hosted platform, or when ecommerce tracking and consent-free use claims are buying requirements. Budget for the premium plugins or a cloud bill that grows with hits.",
-          "b": "Pick Plausible when the honest answer is that you check top pages, referrers, and goals a few times a week. Content sites, startups, and agencies get reliable numbers, cookie-free by default, at 9 dollars monthly cloud or free self-hosted, and none of the suite complexity to administer."
-        }
-      ],
-      "pick_a_if": "Pick Matomo if you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.",
-      "pick_b_if": "Pick Plausible if you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.",
-      "date_published": "2026-09-26",
-      "date_updated": "2026-09-28",
-      "price_table": {
-        "unit": "Cost picture for a 10K-pageview-per-month site",
-        "checked": "2026-09-27",
-        "rows": [
-          [
-            "Cost basis",
-            "Cloud priced by hits; self-hosted core is free (GPL v3+)",
-            "Cloud priced by monthly pageviews; self-hosted is free (AGPL)"
-          ],
-          [
-            "Free tier",
-            "Self-hosted core, free forever",
-            "Self-hosted, free forever"
-          ],
-          [
-            "Entry paid",
-            "On-Premise premium bundles from 275 EUR/mo (Team); Cloud starts above the 50,000-hit tier",
-            "Starter $9/mo ($7.50/mo billed yearly) for up to 10K monthly pageviews"
-          ],
-          [
-            "At 10K pageviews/mo",
-            "Self-hosted: the server only. On Cloud, one pageview is several hits, so size the plan on hits not pageviews. The smallest published tier is 50,000 hits per month.",
-            "Starter covers exactly this site size at $9/mo, or $7.50/mo on the yearly rate."
-          ],
-          [
-            "Checked",
-            "2026-09-27",
-            "2026-09-27"
-          ]
-        ]
-      },
-      "migration": [
-        "Both sides will move your tags in an afternoon and your history in a week, if at all. Exports and APIs differ in shape, so decide which reports must keep their history and which can restart from the cutover date.",
-        "The smaller costs pile up: goals and segments get rebuilt by hand, the tracking script swaps on every property, and any consent banner logic has to be re-checked against the new cookie behavior. None of it is hard. All of it is work.",
-        "Between Matomo and Plausible the moving part is history depth: Plausible keeps a rolling window, so export what you want to keep before you cancel. Matomo's own importer handles the common GA and server-log cases, and Plausible's API exports daily aggregates cleanly."
-      ],
-      "decision_first": {
-        "heading": "Matomo vs Plausible: the quick decision",
-        "rows": [
-          [
-            "matomo",
-            "You want Google Analytics depth with EU data residency and full raw data ownership."
-          ],
-          [
-            "plausible",
-            "You want a one-screen dashboard and a script lighter than the page it measures."
-          ]
-        ],
-        "links": [
-          {
-            "text": "Also compared:",
-            "label": "Matomo vs PostHog",
-            "href": "/vs/matomo-vs-posthog/"
-          }
-        ]
-      },
-      "neither": "Skip all three if you are an enterprise already paying for an analytics suite: the switching cost outweighs the licence saving. And if all you need is a hit counter on a brochure site, server logs answer that question without a script at all.",
-      "pilot_faq": [
-        {
-          "q": "When does Matomo justify its weight over Plausible?",
-          "a": "When the team needs behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform it fully controls. Plausible wins when core traffic numbers, cookie-free by default, are the whole requirement."
-        },
-        {
-          "q": "Which one is cheaper to run?",
-          "a": "Plausible, with minimal setup and predictable cost. Matomo self-hosted is free as software but the team pays in server and maintenance time, which is the honest trade behind every self-hosted pick on this site."
-        },
-        {
-          "q": "What if the questions are about product usage, not traffic?",
-          "a": "Neither. That is PostHog territory: funnels, retention, session replay and feature flags beside the funnel. The Matomo versus PostHog comparison on this site draws that line in full."
-        }
-      ]
+     "heading": "Deployment and self-hosting",
+     "a": "n8n deploys in the cloud or self-hosted, and self-hosting is the point: data stays on your infrastructure and runs are not metered by the vendor. The cost is operational, including upgrades, backups, and queue management, all on your team.",
+     "b": "Zapier is a hosted service with no self-hosted edition, which removes maintenance from your plate and removes control over where data flows. Polling intervals set the pace: 15 minutes on Free, 2 minutes on Professional, 1 minute on Team and above."
     },
     {
-      "slug": "claude-seo-vs-semrush",
-      "title": "Claude SEO vs Semrush (2026): pricing, AI features, verdict",
-      "seo_title": "Claude SEO vs Semrush (2026): pricing and AI",
-      "meta": "Claude SEO versus Semrush on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
-      "a_slug": "claude-seo",
-      "b_slug": "semrush",
-      "intro": [
-        "Claude SEO and Semrush end up on the same shortlist. Claude SEO turns Claude Code into an SEO audit machine. Semrush is the closest thing the SEO industry has to an operating system: a platform that spans keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid advertising intelligence, social media management, and increasingly, AI search visibility.",
-        "Most decisions here come down to where it runs, how it bills, and how deep the AI features go. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
-        "These two barely share a budget line. Semrush is a subscription suite with a large database behind it. claude-seo is free software that runs inside a coding session and audits one site at a time. Teams that keep both usually split the work: rank tracking and keyword research in one, technical audits in the other."
-      ],
-      "pick_a_if": "Pick Claude SEO if you can host it yourself and want code-level control, starting free.",
-      "pick_b_if": "Pick Semrush if you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo.",
-      "sections": [
-        {
-          "heading": "Positioning",
-          "a": "Claude SEO turns Claude Code into an SEO audit machine. You type /seo audit and it spawns up to 15 specialist agents in parallel, each covering a different discipline: technical SEO, content quality, E-E-A-T signals, Schema.org markup, Core Web Vitals, local SEO, ecommerce SEO, international SEO, and AI search optimization (what Google calls GEO). It was founded in 2026. Its repository carries 17,899 stars.",
-          "b": "Semrush is the closest thing the SEO industry has to an operating system: a platform that spans keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid advertising intelligence, social media management, and increasingly, AI search visibility. Founded in 2008 and headquartered in Boston, Semrush serves over 10 million users from freelancers to enterprise marketing teams. It was founded in 2008."
-        },
-        {
-          "heading": "Pricing",
-          "a": "It starts free, and free, MIT-licensed. Self-hosted inside Claude Code. Optional paid community mirror on Skool (verified 2026-08-28).",
-          "b": "Pro $117/mo (annual) or $140/mo; Guru $250/mo; Business $500/mo; Semrush One $199/mo (verified 2026-08-28)."
-        },
-        {
-          "heading": "Deployment and self-hosting",
-          "a": "Open source with the code in AgriciDaniel/claude-seo. Your team runs the service and applies its own upgrades, and nothing meters your task volume.",
-          "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
-        },
-        {
-          "heading": "AI features",
-          "a": "5 documented AI features on its pricing page and docs.",
-          "b": "6 documented AI features, including ai content optimizer, ai keyword research, ai site audit, ai competitive analysis, and ai writing assistant."
-        },
-        {
-          "heading": "Integrations",
-          "a": "5 listed integrations, including claude code, google search console, dataforseo, firecrawl, and lighthouse.",
-          "b": "8 listed integrations, including google analytics, google search console, wordpress, zapier, and slack."
-        },
-        {
-          "heading": "Lock-in and exit cost",
-          "a": "There is nothing to leave. Audits are files, the license is MIT, and your data sits wherever you put it. The risk runs the other way: no vendor roadmap, and the tool moves at open-source speed.",
-          "b": "Keywords and projects export, but the position history you have accumulated lives on their servers. Rebuild it elsewhere and the continuity starts from zero."
-        },
-        {
-          "heading": "What a working week looks like",
-          "a": "A Semrush week is dashboard-shaped: check position tracking, pull keyword gaps, brief writers from the content tool. The work is continuous and the product is the measurement instrument you return to daily.",
-          "b": "A Claude SEO week is batch-shaped: clone the skill, point it at a URL, read a scored audit with a fix list. Between runs the tool costs nothing and stores nothing. The instrument appears when you ask for it and closes after."
-        },
-        {
-          "heading": "Who should pick which",
-          "a": "Pick Claude SEO if you can host it yourself and want code-level control, starting free.",
-          "b": "Pick Semrush if you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo."
-        }
-      ],
-      "date_published": "2026-09-27",
-      "date_updated": "2026-09-28",
-      "price_table": {
-        "unit": "Cost picture for a year of continuous use",
-        "checked": "2026-09-27",
-        "rows": [
-          [
-            "Cost basis",
-            "Free software; you pay your model provider and your time",
-            "Per seat subscription"
-          ],
-          [
-            "Free tier",
-            "MIT-licensed, unlimited use",
-            "Limited free account"
-          ],
-          [
-            "Entry paid",
-            "Optional Skool community mirror, priced by its owner",
-            "Pro $117/mo billed annually ($140 month-to-month)"
-          ],
-          [
-            "At volume",
-            "Audits cost tokens and attention, not credits. Run as many as the work needs.",
-            "Guru $250/mo and Business $500/mo lift the project and keyword quotas."
-          ],
-          [
-            "Checked",
-            "2026-09-27",
-            "2026-09-27"
-          ]
-        ]
-      },
-      "migration": [
-        "There is no data migration here because claude-seo keeps no database. What changes is the workflow: audits run inside a coding session instead of a web app, and findings land in markdown instead of a dashboard.",
-        "The honest exit cost runs the other way. Keyword history and position tracking live in Semrush and do not fit inside a local tool, so teams that switch entirely give up that continuity. The common pattern is keeping Semrush for rank history while audits move to the local tool.",
-        "These do not migrate against each other; they stack. If you are trading Semrush's data for the skill's audits, keep a keyword export before cancelling and feed it to the skill's research workflows. Going the other way, the skill's reports hand you the backlog; Semrush measures whether the backlog worked."
-      ],
-      "neither": "Neither replaces an analyst. And if you publish fewer than a page a week, a spreadsheet of keywords and the Search Console will answer most of what both products sell.",
-      "pilot_faq": [
-        {
-          "q": "Who should pick Claude SEO over Semrush?",
-          "a": "Teams that can host it themselves and want code-level control, starting free. It is MIT-licensed open source, so the audit machine runs inside Claude Code rather than on a vendor dashboard."
-        },
-        {
-          "q": "When does Semrush still win?",
-          "a": "When the team wants a hosted platform the vendor runs for them, with AI content optimization and keyword research in one login. No servers, no CLI, no maintenance falls on the buyer."
-        },
-        {
-          "q": "Can a team use both?",
-          "a": "Yes, and the comparison suggests exactly that split: Semrush for the suite coverage it already sells, Claude SEO for scripted audits agents run on demand. They overlap least where each side is strongest."
-        }
-      ]
+     "heading": "AI features",
+     "a": "AI agent nodes run inside workflows on top of LangChain, with AI data transformation, AI content generation, and AI-powered integrations documented alongside them. AI is a workflow step, so it composes with everything else you build instead of sitting in a separate product line.",
+     "b": "AI is a product line: Agents, Chatbots, Canvas, Zapier MCP, and Copilot appear on every plan with basic access, and AI by Zapier is excluded from Free. Agents are billed in activities rather than tasks, 400 a month free and 1,500 on Agents Pro."
     },
     {
-      "slug": "salesforce-marketing-cloud-vs-hubspot",
-      "title": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict",
-      "seo_title": "Salesforce vs HubSpot Marketing Hub (2026): pricing and AI",
-      "meta": "Salesforce Marketing Cloud versus HubSpot Marketing Hub on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
-      "a_slug": "salesforce-marketing-cloud",
-      "b_slug": "hubspot-marketing-hub",
-      "intro": [
-        "Salesforce Marketing Cloud and HubSpot Marketing Hub end up on the same shortlist. Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing pages, lead capture, campaign management, and marketing automation in a single platform.",
-        "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test."
-      ],
-      "pick_a_if": "Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.",
-      "pick_b_if": "Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.",
-      "sections": [
-        {
-          "heading": "Positioning",
-          "a": "Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. The current structure splits by motion: Marketing Cloud Next is the flagship, sold as Growth and Advanced editions per org; the B2C Agentic Marketing Platform carries the legacy Engagement (formerly ExactTarget) install base; B2B runs on Account Engagement, the former Pardot, or the Account Engagement+ edition; and Data 360 is the customer data platform underneath. It was founded in 1999.",
-          "b": "Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing pages, lead capture, campaign management, and marketing automation in a single platform. It is designed for small businesses, growing marketing teams, and enterprises that want to connect website activity, contact records, and revenue reporting without assembling multiple point tools. It was founded in 2006."
-        },
-        {
-          "heading": "Pricing",
-          "a": "Per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month (verified 2026-09-06).",
-          "b": "It starts free, and free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo (verified 2026-08-28)."
-        },
-        {
-          "heading": "Deployment and self-hosting",
-          "a": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage.",
-          "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
-        },
-        {
-          "heading": "AI features",
-          "a": "5 documented AI features, including agentforce campaign creation, agentforce personalization decisioning, agentforce paid media optimization, ai campaign summaries, and agentforce loyalty promotion creation.",
-          "b": "5 documented AI features, including ai content assistant, predictive lead scoring, ai email subject lines, chatbot builder, and ai campaign recommendations."
-        },
-        {
-          "heading": "Integrations",
-          "a": "9 listed integrations, including salesforce crm, data 360 (data cloud), slack, tableau, and mulesoft.",
-          "b": "8 listed integrations, including salesforce, slack, zapier, shopify, and wordpress."
-        },
-        {
-          "heading": "Lock-in and exit cost",
-          "a": "Marketing Cloud data extensions, journeys, and AMPscript form their own dialect. Teams that leave run both systems in parallel for months, usually with an implementation partner holding the map.",
-          "b": "Exports cover contacts and deals, but workflows, custom objects, and reporting history get rebuilt. Annual commitments apply either way, so read the exit terms before the start date."
-        },
-        {
-          "heading": "AI features and what they cost",
-          "a": "Einstein arrives across the suite: engagement scoring, send-time optimization and generative content assistance, licensed per user and per feature family. Enterprise agreements negotiate the details; the list price rarely survives contact with a sales cycle.",
-          "b": "HubSpot's AI features (forecasting, conversation intelligence, content assistants) are packaged into the tiers, with the Breeze agents extending into service and content. The per-seat ladder prices itself more predictably."
-        },
-        {
-          "heading": "Who should pick which",
-          "a": "Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.",
-          "b": "Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free."
-        }
-      ],
-      "date_published": "2026-09-27",
-      "date_updated": "2026-09-28",
-      "price_table": {
-        "unit": "Cost picture at 1,000 contacts",
-        "checked": "2026-09-27",
-        "rows": [
-          [
-            "Cost basis",
-            "Per-org bundles billed annually, plus add-ons",
-            "Per seat and hub tier"
-          ],
-          [
-            "Free tier",
-            "None; pricing runs through sales",
-            "Free CRM forever"
-          ],
-          [
-            "Entry paid",
-            "Marketing Cloud Next Growth $1,500/mo billed annually; Starter $25/user/mo for smaller setups",
-            "Marketing Hub Starter $20/mo"
-          ],
-          [
-            "At 1,000 contacts",
-            "Contact volume rides inside the org bundle (Growth $1,500/mo). Personalization is $8/mo extra as an add-on, and AI features price separately.",
-            "1,000 contacts fits Starter at $20/mo. Professional at $890/mo is where serious automation and attribution live."
-          ],
-          [
-            "Checked",
-            "2026-09-27",
-            "2026-09-27"
-          ]
-        ]
-      },
-      "migration": [
-        "This migration is a project, not a weekend. Salesforce data extensions have to be mapped onto HubSpot objects, journeys become workflows, and AMPscript gets rewritten as HubSpot modules or dropped. Teams that lived in Marketing Cloud usually keep an implementation partner on the calendar through the first campaign cycle.",
-        "Budget for what does not migrate. Attribution history rarely survives intact, so agree up front which reporting periods live where. Reverse migrations are worse: leaving HubSpot for Marketing Cloud means rebuilding scoring, forms, and lead routing from scratch.",
-        "Both vendors publish migration guides and both make money on services, so budget for a partner whichever direction you move. The expensive parts in order: historical email engagement, lead scoring models, and journeys mid-flight. Freeze new automation a month before cutover; migrating running journeys is how migrations turn into incidents."
-      ],
-      "neither": "Neither suits a small team selling to a few hundred accounts: the setup cost exceeds a year of both. And if most revenue moves through one product-led funnel, a lighter lifecycle tool beats both suites.",
-      "pilot_faq": [
-        {
-          "q": "Which enterprise pick fits a Salesforce estate?",
-          "a": "Salesforce Marketing Cloud, with Agentforce campaigns in the package. Estates already bought into the Salesforce stack pay more in switching costs than any license gap, so the stack question decides first."
-        },
-        {
-          "q": "When does HubSpot Marketing Hub win instead?",
-          "a": "When the team wants marketing automation living beside its CRM with an AI content assistant included, without enterprise procurement. HubSpot wins on time-to-value for teams outside the Salesforce orbit."
-        },
-        {
-          "q": "Do both require vendor hosting?",
-          "a": "Yes. Both are hosted platforms the vendor runs, so neither gives the self-hosting control that open-source picks elsewhere on this site offer. The choice is ecosystem and buying motion, not infrastructure."
-        }
-      ]
+     "heading": "Integrations",
+     "a": "The node catalog counts 400-plus entries: Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, Notion, plus HTTP requests and custom code for anything missing. Community nodes widen it further, at the cost of vetting them yourself.",
+     "b": "More than 9,000 apps, the widest catalog in this directory. The niche martech tools that lack an n8n node usually still ship a Zapier integration, which is the practical reason many teams land here. Premium apps are excluded from the Free plan."
     },
     {
-      "slug": "make-vs-zapier",
-      "title": "Make vs Zapier (2026): pricing, AI features, verdict",
-      "seo_title": "Make vs Zapier (2026): pricing and AI",
-      "meta": "Make versus Zapier on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
-      "a_slug": "make",
-      "b_slug": "zapier",
-      "intro": [
-        "Make and Zapier end up on the same shortlist. Make, the platform formerly known as Integromat, sits between Zapier's simplicity and n8n's depth. Zapier is the automation platform most people mean when they say they want to connect two tools without writing code.",
-        "Most decisions here come down to price and fit. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
-        "Both platforms now sell AI features on top of the same plumbing: triggers, actions, and a scheduler between them. The price gap and the credit-versus-task metering decide more deals than any feature list, so the volume table below is the part to read twice.",
-        "The pair pages beside this one (n8n vs Zapier, and the three-way) carry the wider automation-platform picture; here we stay on the two visual builders that fight for the same buyer."
-      ],
-      "pick_a_if": "Pick Make if you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.",
-      "pick_b_if": "Pick Zapier if you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free.",
-      "sections": [
-        {
-          "heading": "Positioning",
-          "a": "Make, the platform formerly known as Integromat, sits between Zapier's simplicity and n8n's depth. Founded in Prague in 2012 and acquired by Celonis in 2020, it is where technical marketing teams land when a linear editor stops being enough: scenarios are drawn as a graph, so branching, looping, and error handling are visible rather than buried in configuration.\n\nBilling changed in August 2026, when credits replaced operations as the unit of account. It was founded in 2012.",
-          "b": "Zapier is the automation platform most people mean when they say they want to connect two tools without writing code. It lists more than 9,000 app integrations, still the widest catalogue in this directory, and the niche martech tools that lack an n8n node or a Make module usually still have a Zapier integration. It was founded in 2011."
-        },
-        {
-          "heading": "Pricing",
-          "a": "It starts free, and free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom (verified 2026-09-07).",
-          "b": "It starts free, and free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual) (verified 2026-09-07)."
-        },
-        {
-          "heading": "Deployment and self-hosting",
-          "a": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage.",
-          "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
-        },
-        {
-          "heading": "AI features",
-          "a": "5 documented AI features, including ai agents, ai workflow suggestions, ai data transformation, ai content generation, and ai error handling.",
-          "b": "5 documented AI features, including ai workflow builder, ai data formatting, ai chatbot builder, and ai agents."
-        },
-        {
-          "heading": "Integrations",
-          "a": "8 listed integrations, including slack, gmail, salesforce, hubspot, and shopify.",
-          "b": "8 listed integrations, including slack, gmail, salesforce, hubspot, and shopify."
-        },
-        {
-          "heading": "Lock-in and exit cost",
-          "a": "Scenarios export as JSON blueprints you can archive. Run history stays with the vendor, so keep your own records if audit trails matter to you.",
-          "b": "Zapier holds the logic and the history. Exports cover documentation at best, so leaving means re-implementing every active Zap wherever you land."
-        },
-        {
-          "heading": "Who should pick which",
-          "a": "Pick Make if you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.",
-          "b": "Pick Zapier if you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free."
-        }
-      ],
-      "date_published": "2026-09-27",
-      "date_updated": "2026-09-28",
-      "price_table": {
-        "unit": "Cost picture at 10K automation tasks per month",
-        "checked": "2026-09-27",
-        "rows": [
-          [
-            "Cost basis",
-            "Operations per month (credits)",
-            "Successful tasks"
-          ],
-          [
-            "Free tier",
-            "1,000 credits per month, 2 active scenarios",
-            "100 tasks per month, 2-step Zaps"
-          ],
-          [
-            "Entry paid",
-            "Core $9/mo for 10,000 credits (annual billing)",
-            "Professional from $19.99/mo"
-          ],
-          [
-            "At 10K tasks/mo",
-            "Core covers 10K credits at $9/mo with annual billing. Watch the credit multiplier: some modules consume more than one credit per run.",
-            "Volume is a slider above the published starting prices, so 10K tasks costs more than the $69/mo Team entry. Get the quote in writing before comparing."
-          ],
-          [
-            "Checked",
-            "2026-09-27",
-            "2026-09-27"
-          ]
-        ]
-      },
-      "migration": [
-        "Scenario to Zap translation is mechanical on the simple flows and stubborn on the clever ones. Routers map to Paths, iterators and aggregators often need a rethink, and Make's tolerance for loose JSON means error handling that worked for years can fail on day one in Zapier.",
-        "The reverse move has its own tax. Zapier's formatter steps get rebuilt as Make functions, and any code step becomes a Make module or a call to your own endpoint. Exports cover the structure, not the run history, so keep a copy of the old platform until finance has signed off on the numbers.",
-        "Switching costs land in the connectors, not the canvas. Triggers and actions map across all three roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those."
-      ],
-      "decision_first": {
-        "heading": "Make vs Zapier: the quick decision",
-        "rows": [
-          [
-            "make",
-            "You want the most visual scenario builder and a generous free tier to prototype in."
-          ],
-          [
-            "zapier",
-            "You want the deepest app catalog and the least thinking about edge cases."
-          ]
-        ],
-        "links": [
-          {
-            "text": "The pair pages carry the same evidence in depth:",
-            "label": "n8n vs Zapier",
-            "href": "/vs/n8n-vs-zapier/"
-          }
-        ]
-      },
-      "neither": "None of the three is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder.",
-      "pilot_faq": [
-        {
-          "q": "When does Make beat Zapier?",
-          "a": "When builders outgrow a linear editor. Make offers branching, looping and scenario-level control with AI agents and workflow suggestions, plus cheaper runs at moderate volume for technical marketing teams."
-        },
-        {
-          "q": "When does Zapier keep the deal?",
-          "a": "When the catalog decides it: the largest app library, the least setup per workflow, and an AI workflow builder for teams that never want to see a branch node. Niche integrations working this week is Zapier's home turf."
-        },
-        {
-          "q": "Which one is cheaper at scale?",
-          "a": "Make at moderate volume, where its runs price below Zapier tasks. At very high volume both lose to self-hosted n8n, which is exactly the three-way comparison this site carries separately."
-        }
-      ]
+     "heading": "Lock-in and exit cost",
+     "a": "The lock-in is mild. Workflows export as JSON, the license lets you keep running the software, and the data lives in your own database. What you own is the maintenance: upgrades, backups, and the 3am page when a credential expires.",
+     "b": "Zapier stores the logic, so the platform holds the keys. Zaps do not export to any rival and the run history stays behind when you leave. Treat the exit as a rebuild project."
     },
     {
-      "slug": "activecampaign-vs-klaviyo",
-      "title": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
-      "seo_title": "ActiveCampaign vs Klaviyo (2026): pricing and AI",
-      "meta": "ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
-      "a_slug": "activecampaign",
-      "b_slug": "klaviyo",
-      "intro": [
-        "ActiveCampaign and Klaviyo end up on the same shortlist. ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento.",
-        "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
-        "The choice usually lands on one question: how much of the customer relationship lives in the tool. ActiveCampaign wants to run email, SMS, and a light CRM in one place. Klaviyo wants to own the ecommerce messaging stack and the data underneath it. The pricing pages will not decide this for you; the contact tiers look similar and the shape of the product does not."
-      ],
-      "pick_a_if": "Pick ActiveCampaign if you want a hosted platform the vendor runs for you, and ai content generation and predictive sending matters to your team, starting at $15/mo.",
-      "pick_b_if": "Pick Klaviyo if you want a hosted platform the vendor runs for you, and ai subject line assistant and predictive analytics matters to your team, starting free.",
-      "sections": [
-        {
-          "heading": "Positioning",
-          "a": "ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. Founded in 2003 and headquartered in Chicago, it serves over 150,000 customers worldwide. It was founded in 2003.",
-          "b": "Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento. Founded in 2012 in Boston and taken public in 2023, Klaviyo's competitive advantage is its data model: instead of treating customers as email addresses in a list, it builds rich profiles from purchase history, browsing behavior, and predicted lifetime value. It was founded in 2012."
-        },
-        {
-          "heading": "Pricing",
-          "a": "Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo; 14-day free trial (verified 2026-08-28).",
-          "b": "It starts free, and free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo (verified 2026-08-28)."
-        },
-        {
-          "heading": "Deployment and self-hosting",
-          "a": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage.",
-          "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
-        },
-        {
-          "heading": "AI features",
-          "a": "5 documented AI features, including ai content generation, predictive sending, ai win probability, ai subject line suggestions, and smart automation.",
-          "b": "5 documented AI features, including ai subject line assistant, predictive analytics, ai send-time optimization, ai product recommendations, and ai content generation."
-        },
-        {
-          "heading": "Integrations",
-          "a": "8 listed integrations, including shopify, salesforce, slack, zapier, and woocommerce.",
-          "b": "8 listed integrations, including shopify, woocommerce, bigcommerce, salesforce, and slack."
-        },
-        {
-          "heading": "Lock-in and exit cost",
-          "a": "ActiveCampaign exports contacts and campaign reports. Automations, lead scoring, and tracking setup stay behind. List ownership is clear and the CRM data is standard fields.",
-          "b": "Klaviyo's lock-in is its data model. Profiles carry event streams that power flows and segments, and rival platforms rarely ingest them cleanly. Ecommerce teams accept this because the revenue reporting is hard to give up."
-        },
-        {
-          "heading": "Deliverability and sending",
-          "a": "ActiveCampaign's sending is built around its automation heritage: dedicated IP add-ons, warm-up guidance and strong transactional options through Postmark's sibling stack. Mixed marketing and transactional is a first-class case.",
-          "b": "Klaviyo's sending is tuned for ecommerce bursts: segmentation-heavy sends at flash-sale volume, with deliverability tooling focused on list hygiene and engagement-based throttling. Dedicated IPs come into play at scale."
-        },
-        {
-          "heading": "Who should pick which",
-          "a": "Pick ActiveCampaign if you want a hosted platform the vendor runs for you, and ai content generation and predictive sending matters to your team, starting at $15/mo.",
-          "b": "Pick Klaviyo if you want a hosted platform the vendor runs for you, and ai subject line assistant and predictive analytics matters to your team, starting free."
-        }
-      ],
-      "date_published": "2026-09-27",
-      "date_updated": "2026-09-28",
-      "price_table": {
-        "unit": "Cost picture at 1,000 contacts",
-        "checked": "2026-09-27",
-        "rows": [
-          [
-            "Cost basis",
-            "Contact tiers plus plan level",
-            "Contact count plus channels used"
-          ],
-          [
-            "Free tier",
-            "No free plan; 14-day trial",
-            "Free up to 250 contacts and 500 emails per month"
-          ],
-          [
-            "Entry paid",
-            "Starter $15/mo",
-            "Paid starts around $20/mo and scales with contacts"
-          ],
-          [
-            "At 1,000 contacts",
-            "Starter $15/mo is the entry tier; automation depth lives on Plus $49/mo and Professional $79/mo.",
-            "The free plan stops at 250 contacts, so 1,000 contacts is on the paid ladder starting near $20/mo. SMS and push add separate channel fees."
-          ],
-          [
-            "Checked",
-            "2026-09-27",
-            "2026-09-27"
-          ]
-        ]
-      },
-      "migration": [
-        "Moving lists is the easy afternoon. ActiveCampaign automations do not export into Klaviyo flows, so every welcome series, win-back, and abandoned-cart path gets rebuilt and re-verified, and template styling has to be redone in the new editor.",
-        "Deliverability deserves its own line in the plan. Consent records and suppression lists have to travel with the contacts, and sending reputation does not. Warm the new setup gradually instead of importing 50,000 contacts and mailing them on day one.",
-        "Klaviyo publishes a first-party ActiveCampaign importer that handles lists, profiles and ecommerce events; the segments and automations rebuild in the new vocabulary. The trap is tag debt: clean your ActiveCampaign tags before the move or spend your first month re-deriving segments in Klaviyo's profile properties."
-      ],
-      "neither": "Neither fits B2B sales cycles with long, human follow-up: that is CRM territory. And if your store sends one campaign a month to under 5,000 contacts, a simpler cheaper tool loses nothing.",
-      "pilot_faq": [
-        {
-          "q": "Which one fits a store, and which fits everyone else?",
-          "a": "Klaviyo for commerce brands, with its AI subject line assistant and predictive sending tuned to purchase data. ActiveCampaign for SMB teams that want real automation with AI content generation beyond the store use case."
-        },
-        {
-          "q": "Do both run the automation for the team?",
-          "a": "Yes. Both are hosted platforms the vendor runs, so the buyer compares automation depth and data model rather than infrastructure. Neither asks the team to maintain servers."
-        },
-        {
-          "q": "What if the team wants to self-host instead?",
-          "a": "Look at Mautic for HubSpot-class automation hosted in-house, or Laudspeaker for lifecycle messaging outside the CRM. The open-source marketing tools roundup on this site prices that trade honestly."
-        }
-      ]
-    },
-    {
-      "slug": "jasper-vs-writer",
-      "title": "Jasper vs Writer (2026): pricing, AI features, verdict",
-      "seo_title": "Jasper vs Writer (2026): pricing and AI",
-      "meta": "Jasper versus Writer on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
-      "a_slug": "jasper",
-      "b_slug": "writer",
-      "intro": [
-        "Jasper and Writer end up on the same shortlist. Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform.",
-        "Most decisions here come down to price and fit. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
-        "Both sell AI writing to marketing departments, and both pitch governance harder than generation. Jasper publishes its prices and sells self-serve. Writer keeps the price table behind a conversation and sells to companies that start with a security review. That difference predicts the rest of the comparison.",
-        "Both platforms sell to marketing leadership rather than individual writers, so the pricing conversation runs through a sales process at the top tiers."
-      ],
-      "pick_a_if": "Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.",
-      "pick_b_if": "Pick Writer if you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team.",
-      "sections": [
-        {
-          "heading": "Positioning",
-          "a": "Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. The platform now offers over 100 specialized AI agents for content creation, campaign management, brand governance, and analytics, organized around marketing workflows rather than isolated content pieces. It was founded in 2021.",
-          "b": "Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform. The Palmyra lineup is now X4, X5, and X6: X6 is described as the default agentic model with a 1M-token context window, published API pricing of $2 per million input tokens and $8 per million output tokens, and a claimed 8 hours of unsupervised task persistence, while X4 carries a documented deprecation date of November 18, 2026. It was founded in 2020."
-        },
-        {
-          "heading": "Pricing",
-          "a": "Creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom (verified 2026-08-28).",
-          "b": "Pricing is paid and quoted per contract, and quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026) (verified 2026-09-25)."
-        },
-        {
-          "heading": "Deployment and self-hosting",
-          "a": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage.",
-          "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
-        },
-        {
-          "heading": "AI features",
-          "a": "5 documented AI features, including ai copy generation, brand voice training, ai image generation, ai campaign workflows, and ai content repurposing.",
-          "b": "5 documented AI features, including ai content generation and knowledge graph grounding."
-        },
-        {
-          "heading": "Integrations",
-          "a": "8 listed integrations, including chrome, surfer seo, zapier, hubspot, and wordpress.",
-          "b": "12 listed integrations, including slack, google workspace, microsoft 365, salesforce, and hubspot."
-        },
-        {
-          "heading": "Lock-in and exit cost",
-          "a": "The exit cost is re-creating the template and brand voice library, since exports cover documents rather than the setup that made them.",
-          "b": "Writer locks in governance rather than content. Style guides, knowledge sources, and approval flows are configured work and none of it is portable. The writing itself is yours."
-        },
-        {
-          "heading": "Governance and review",
-          "a": "Jasper's brand voice and knowledge base push consistency into the drafts themselves, with approval flows for teams that need sign-off before publishing. The marketing-suite framing means campaign context rides along.",
-          "b": "Writer's governance is the enterprise story: terminology enforcement, compliance filters and API-first integration so generation happens inside your own tools. The product assumes a legal review exists and builds for it."
-        },
-        {
-          "heading": "Who should pick which",
-          "a": "Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.",
-          "b": "Pick Writer if you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team."
-        }
-      ],
-      "date_published": "2026-09-27",
-      "date_updated": "2026-09-28",
-      "price_table": {
-        "unit": "Cost picture for one marketing team",
-        "checked": "2026-09-27",
-        "rows": [
-          [
-            "Cost basis",
-            "Per seat subscription",
-            "Quote-based"
-          ],
-          [
-            "Free tier",
-            "No free tier in the published table",
-            "No public price table for anonymous visitors"
-          ],
-          [
-            "Entry paid",
-            "Creator $39/mo billed annually ($49 month-to-month), one seat",
-            "Custom quote (verified Sep 2026)"
-          ],
-          [
-            "For a team",
-            "Pro at $59/mo billed annually ($69 month-to-month) is the published step up. Business is custom.",
-            "Everything is quoted. Expect a conversation about seats, SSO, and governance before you see a number."
-          ],
-          [
-            "Checked",
-            "2026-09-27",
-            "2026-09-27"
-          ]
-        ]
-      },
-      "migration": [
-        "Prompt and template libraries do not travel between these platforms, so plan to rebuild them. Jasper's brand voice setup and Writer's style guardrails solve the same problem with different inputs, which means re-uploading the same source material into the new shape.",
-        "The admin side is the boring half of the work: SSO, seat provisioning, and approval workflows all get re-created. For regulated teams the governance rewrite usually costs more than the template work.",
-        "Content itself moves as documents, and both export cleanly. What does not move is governance: brand voice rules and terminology lists rebuild in the other product's format. Expect to spend the first two weeks getting the new platform to write in your register instead of its default."
-      ],
-      "neither": "Neither fits technical documentation with strict terminology control: deterministic tooling beats generation there. And if content output is occasional, the model you already pay for handles it without a platform.",
-      "pilot_faq": [
-        {
-          "q": "Jasper or Writer for brand control?",
-          "a": "Writer when governance leads: AI content generation with knowledge graphs aimed at enterprises that audit output. Jasper when the job is enforcing one trained brand voice across many human writers."
-        },
-        {
-          "q": "Can performance marketers use either?",
-          "a": "Jasper fits better, with AI copy generation and brand voice training in one seat. Teams that want a publish-before-you-pay score should look at Anyword instead, which neither of these two promises."
-        },
-        {
-          "q": "Are both hosted?",
-          "a": "Yes. Both are hosted platforms the vendor runs for the buyer. Teams that want AI inside infrastructure they control should look at Strapi, a headless CMS with AI inside their own stack."
-        }
-      ]
-    },
-    {
-      "slug": "n8n-vs-make-vs-zapier",
-      "a_slug": "n8n",
-      "b_slug": "make",
-      "c_slug": "zapier",
-      "title": "n8n vs Make vs Zapier (2026): the three-way automation decision",
-      "seo_title": "n8n vs Make vs Zapier: 2026 three-way comparison",
-      "meta": "n8n vs Make vs Zapier on price, self-hosting, connectors and exit cost. A three-way decision table and real switching notes from the catalogued numbers.",
-      "date_published": "2026-09-28",
-      "date_updated": "2026-09-28",
-      "intro": [
-        "Which is better, n8n or Make or Zapier? It is the question the search box suggests, and the honest answer is that all three win a different buyer. This page takes the three-way seriously: one decision table, then the dimensions where the products actually differ.",
-        "Every number below is catalogued from each vendor's own published materials and checked this month. The pair pages (n8n vs Zapier, Make vs Zapier) carry the longer version of each argument."
-      ],
-      "sections": [
-        {
-          "heading": "Positioning",
-          "a": "The technical builder's platform. Workflows are code-friendly (JavaScript anywhere), self-hostable, and priced per execution rather than per task. Its audience names infrastructure without flinching.",
-          "b": "The visual builder's platform. Scenarios read like flowcharts, the iterator and aggregator tooling is genuinely powerful, and the free tier is generous enough to prototype real work before paying.",
-          "c": "The default. The app catalog runs past 7,000 integrations, the editor handles edge cases the others make you think about, and every contractor has used it. Familiarity is a feature when three teams share one workflow."
-        },
-        {
-          "heading": "Pricing shape",
-          "a": "Cloud Starter begins around EUR 20 a month and bills per execution: a 50-step workflow counts once. The Community Edition is free to self-host, under a fair-code licence with usage caps that matter at real scale.",
-          "b": "Core runs $9 a month and bills per operation: every module in a scenario counts, so long workflows multiply. The free tier (1,000 credits a month) covers a small real workload.",
-          "c": "Free covers 100 tasks a month with 2-step Zaps. Professional starts at $19.99 a month and per-task billing means a chatty workflow costs real money at volume."
-        },
-        {
-          "heading": "Self-hosting and data control",
-          "a": "Yes, and it is the point. The Docker image runs anywhere, data never leaves your network, and upgrades are your problem as well as your right.",
-          "b": "No self-hosted product. EU data residency is available on paid plans for teams that need it.",
-          "c": "No self-hosted product, and the platform is US-based. Enterprise compliance options exist; self-determination does not."
-        },
-        {
-          "heading": "AI features and the agent question",
-          "a": "n8n treats AI as nodes in a workflow: model calls, agent steps and tool connections are modules you wire like any other. The LangChain nodes date the integration to the agent era, and the self-hosted edition lets you point those nodes at your own inference endpoint.",
-          "b": "Make's AI modules abstract the model layer: pick a provider, fill the prompt fields, move on. The strength is speed for operators; the limit arrives when a workflow needs custom retrieval or a self-hosted model, where the abstraction leaks.",
-          "c": "Zapier ships the most packaged AI actions of the three, including its own assistant for building Zaps. For teams that want AI steps without thinking about model plumbing, that packaging is the whole argument."
-        },
-        {
-          "heading": "Integrations and the long tail",
-          "a": "The community node ecosystem fills gaps the core misses, and any REST API becomes a node with a little JSON. Coverage is wide and the edges are yours to sand.",
-          "b": "The app catalog runs to well over a thousand with strong coverage of the marketing and SMB stack, and the HTTP module covers the rest. Where Make invests, the modules are richer than either rival's.",
-          "c": "The catalog past 7,000 integrations is the moat. Niche SaaS lands here first, and the odds any given tool in your stack already has a maintained connector are simply better."
-        },
-        {
-          "heading": "When each wins",
-          "a": "Choose n8n when the workflow has a step nobody's connector covers and a developer will write it. The economics hold up better too: per-execution pricing rewards complex flows.",
-          "b": "Choose Make when the people building the automation are operators, not engineers, and the scenario logic runs wide and branchy. The canvas shows more than either competitor's.",
-          "c": "Choose Zapier when the bottleneck is coverage and time-to-value. If the app you need exists in exactly one ecosystem, it is usually this one."
-        }
-      ],
-      "migration": [
-        "Moving between the three is mostly rebuild rather than migrate. None of them imports another's workflow format natively, so plan on redrawing each scenario in the new canvas. For a 20-step workflow that is an afternoon; the costlier part is re-testing every connector's authentication and edge behaviour.",
-        "The hidden migration cost sits in error handling. Zapier's built-in retries, Make's error routes and n8n's error workflow are three different designs, and rebuilding that safety layer is where teams underestimate the bill. Get the happy path running first, then rebuild failure handling with the original workflow open beside you.",
-        "If you are leaving one platform over price, model the exit against twelve months of usage rather than this month's invoice. Per-execution (n8n) and per-operation (Make) and per-task (Zapier) billing answer different workload shapes, and the cheapest for your traffic is a one-hour spreadsheet exercise."
-      ],
-      "neither": "Skip all three when your automation is really a data pipeline. Scheduled ETL with transformations belongs in an ELT tool, and a nightly script beats workflow pricing when the runs are predictable. They are also the wrong answer for one-off jobs: run those by hand until the shape repeats.",
-      "pick_a_if": "you want self-hosting, code steps and billing that rewards complex workflows.",
-      "pick_b_if": "your builders are operators who want the clearest visual canvas and a free tier to start in.",
-      "pick_c_if": "you need the widest connector catalog and the workflow has to work on day one.",
-      "pilot_faq": [
-        {
-          "q": "Which of the three should a technical team self-host?",
-          "a": "n8n. Self-hosting, code steps and billing that rewards complex workflows are its explicit verdict. Make and Zapier keep builders in hosted visual editors by design."
-        },
-        {
-          "q": "Which one is easiest for non-technical operators?",
-          "a": "The verdict favors the clearest visual canvas with a free tier to start in. Zapier adds the largest app catalog on top, Make adds scenario-level control for operators ready to graduate from linear flows."
-        },
-        {
-          "q": "How do the three price volume differently?",
-          "a": "n8n self-hosted removes per-task billing entirely. Make prices runs below Zapier tasks at moderate volume. Zapier's task slider climbs past the $69 Team floor, with the full 10K to 1M picture in the n8n-versus-Zapier price table."
-        }
-      ]
-    },
-    {
-      "slug": "matomo-vs-posthog",
-      "a_slug": "matomo",
-      "b_slug": "posthog",
-      "title": "Matomo vs PostHog (2026): web analytics or product analytics",
-      "seo_title": "Matomo vs PostHog: 2026 comparison",
-      "meta": "Matomo vs PostHog compared on price, deployment, privacy and scope. Web analytics depth against product analytics breadth, with real migration notes.",
-      "date_published": "2026-09-28",
-      "date_updated": "2026-09-28",
-      "intro": [
-        "Matomo and PostHog get compared more than their categories suggest, because both answer the same executive question: what do people do on our thing? They answer it from opposite ends. Matomo is web analytics in the classic sense, built to replace Google Analytics with better privacy defaults. PostHog is product analytics with web numbers as one slice of the platform.",
-        "The numbers below come from each vendor's own published materials, catalogued and checked this month. For the privacy-first three-way including Plausible, start with the quick-decision table on Matomo vs Plausible.",
-        "Both products grew up open source and both still sell trust as much as features: one promises your analytics data stays yours, the other promises your product data answers questions without a data team. The trade-offs below follow from that split."
-      ],
-      "sections": [
-        {
-          "heading": "Positioning",
-          "a": "Web analytics first: sessions, channels, campaigns and content performance, with heatmaps and session recording as paid modules. The mental model is the GA report suite, done with EU hosting and full raw data access.",
-          "b": "Product analytics first: events, funnels, retention, feature flags and experiments in one platform. Web traffic is a product surface like any other, and the pricing rewards the product team that goes deep."
-        },
-        {
-          "heading": "Pricing shape",
-          "a": "Self-hosted core is free under GPL. On-Premise premium bundles and Cloud subscriptions price by traffic, and the vendor publishes every tier. No data is used for anything but your reports.",
-          "b": "Usage-based with a free tier on every product every month: generous enough that many small products pay nothing. Costs arrive per event and per feature used, which rewards discipline with event design."
-        },
-        {
-          "heading": "Deployment and data residency",
-          "a": "Self-host on your own EU infrastructure for full control, or use EU-hosted Cloud. Data ownership is the product's core promise and the licence guarantees it.",
-          "b": "Cloud US by default with an EU cloud option, and a self-hosted open-source edition that carries usage-based billing above its free tier. Check which edition fits your compliance story before committing."
-        },
-        {
-          "heading": "Reporting depth",
-          "a": "Matomo's report suite is the deepest web-analytics surface in the comparison class: multi-channel attribution, cohort and segmentation engines, and content reports that map to how marketing teams actually work. The raw data sits in your database, so anything missing is a SQL query away.",
-          "b": "PostHog's dashboards are event-driven and lighter on classic channel reporting. Where it leads is behavioural depth: session replay, heatmap-adjacent tools and feature usage tied to the same events, with SQL access on paid plans for the gaps."
-        },
-        {
-          "heading": "Governance and the licence question",
-          "a": "GPL v3+ for the self-hosted core, with premium modules on a separate commercial licence. The governance story is stable and the vendor's business model is support and cloud, not data.",
-          "b": "The self-hosted edition carries an unusual twist: it is open core with usage-based billing past the free tier, so self-hosting does not mean free at scale. Read the licence terms against your growth curve before betting a compliance story on it."
-        },
-        {
-          "heading": "Getting data in and out",
-          "a": "Tag Manager ships with it, the tracking API covers server-side and mobile, and every table in the self-hosted schema is queryable. Exports run to raw CSV and scheduled archives, so leaving with your history is a script, not a negotiation.",
-          "b": "Ingestion is event-first: SDKs for the common stacks, a capture API for everything else, and batch export into a warehouse for teams that outgrow the built-in analysis. The reverse ETL story back into operational tools is stronger than Matomo's."
-        },
-        {
-          "heading": "What each looks like at month six",
-          "a": "At month six a Matomo setup looks like a tuned report suite: custom dimensions mapped to your business vocabulary, scheduled email reports for stakeholders, and maybe the heatmap module on the two pages that matter. The maintenance load is a person-hours a month on patching if self-hosted.",
-          "b": "At month six a PostHog setup looks like an event taxonomy with governance: naming conventions someone wrote down, flags replacing deploy-time risk, and experiments running against the funnels that justify them. The maintenance load is discipline, not servers: events rot if nobody owns the taxonomy."
-        },
-        {
-          "heading": "Scope",
-          "a": "If the question is 'how is the website performing', Matomo's report suite answers it without a data team. Campaign attribution and content reporting are deeper than anything in the product-analytics class.",
-          "b": "If the question is 'which feature retains users', PostHog answers it in one platform: flags, experiments and session replay sit next to the funnel that measures them."
-        }
-      ],
-      "migration": [
-        "Matomo runs a GA importer for the common historical case, so the standard 'leaving Google' move is largely scripted. Moving the other way, into PostHog, means an event plan before data: PostHog reads events and properties, not pageviews, so a week of naming design precedes any import.",
-        "Historical parity is the trap in both directions. Matomo keeps raw data indefinitely while self-hosted; PostHog's retention varies by plan. Export what you must keep before any switch, in both vendors' own export formats, because that window closes with the old contract.",
-        "For teams moving from Matomo to PostHog, the one migration asset worth building first is the mapping from Matomo's pageview-centric reports to your new event names. Get that mapping reviewed by whoever owns the reporting today; the numbers will not reconcile during the overlap month unless the vocabulary matches."
-      ],
-      "neither": "If your question is purely commercial, 'which channel sells', a warehouse-native BI layer over your own order data beats both. And if the site is a brochure and the product is offline, neither tool earns its script tag.",
-      "pick_a_if": "you want web analytics depth, EU data residency and raw data you own outright.",
-      "pick_b_if": "the real questions are about product usage, and you want flags and experiments beside the funnel.",
-      "pilot_faq": [
-        {
-          "q": "Matomo or PostHog for a content site?",
-          "a": "Matomo. Web analytics depth, EU data residency and raw data the team owns outright are its verdict. PostHog aims at product teams, not pageview reporting."
-        },
-        {
-          "q": "When does PostHog win?",
-          "a": "When the real questions are about product usage: funnels, retention, session replay, with flags and experiments beside the funnel. That is a product analytics job, not a traffic analytics job."
-        },
-        {
-          "q": "Which one is simpler to start?",
-          "a": "PostHog Cloud for teams that accept hosted product analytics, Plausible for teams whose needs stop at core traffic numbers. Matomo pays off once data residency or ecommerce depth enters the requirements."
-        }
-      ]
+     "heading": "Who should pick which",
+     "a": "Pick n8n when volume is predictable and heavy, when workflows need branching, code steps, or self-hosted data control, or when a platform team can own the instance. Flat cloud plans and free self-hosting reward trading maintenance for meter-free runs.",
+     "b": "Pick Zapier when speed matters more than cost at scale: a marketing team wiring tools together this week, a dependency on apps only Zapier connects, or an organization with nobody to run infrastructure. The catalog is the product, and it is genuinely wide."
     }
-  ]
+   ],
+   "pick_a_if": "Pick n8n if you can host it yourself, run high volume, or need code steps and branching in your workflows.",
+   "pick_b_if": "Pick Zapier if a specific niche integration has to work this week and nobody wants to maintain an automation server.",
+   "date_published": "2026-09-26",
+   "date_updated": "2026-09-28",
+   "price_table": {
+    "unit": "Cost picture at 10K, 100K and 1M automation tasks per month (derived from published rates, not quoted; checked 2026-09-29)",
+    "checked": "2026-09-29",
+    "rows": [
+     [
+      "Cost basis",
+      "Workflow executions on Cloud; unlimited runs when self-hosted",
+      "Successful tasks"
+     ],
+     [
+      "Free tier",
+      "Community Edition self-hosted, free and unlimited (fair-code)",
+      "100 tasks per month, 2-step Zaps"
+     ],
+     [
+      "Entry paid",
+      "Cloud Starter 20 EUR/mo billed annually (2.5K executions)",
+      "Professional from $19.99/mo"
+     ],
+     [
+      "At 10K tasks/mo",
+      "Self-hosted: the server and your time. Cloud: executions above plan quota cost extra, so check the current add-on price before you buy.",
+      "Task volume rides a price slider and both published prices are starting points, so 10K tasks lands above the $69/mo Team floor. Ask Zapier for the exact rung."
+     ],
+     [
+      "At 100K tasks/mo",
+      "Business at 667 EUR/mo covers 40K executions; above that Enterprise is custom-priced, so ask n8n.",
+      "Above the Team floor: the price rides the task slider, and 1M-plus sits on Enterprise annual limits. Ask Zapier for the rung."
+     ],
+     [
+      "At 1M tasks/mo",
+      "Enterprise custom: n8n publishes no price above Business. Self-hosting stays free plus the server.",
+      "Slider tops at 2M tasks with a Custom tier above it; 1M means an Enterprise quote. No public number exists."
+     ],
+     [
+      "Checked",
+      "2026-09-29",
+      "2026-09-29"
+     ]
+    ]
+   },
+   "migration": [
+    "Zapier has no exporter that writes n8n workflows, so every Zap gets rebuilt by hand: trigger, filters, and each action become nodes. A five-step Zap usually takes under an hour to translate once you know both tools, but the testing time after the rebuild is the part people underestimate, because the happy path is only one path.",
+    "Going the other way costs differently. n8n code steps have no Zapier equivalent, so those steps get rewritten as built-in actions or pushed upstream into your own API. Credentials move from your instance into Zapier's vault, and any self-hosted webhook URL needs a new public endpoint. Budget a day of plumbing per environment.",
+    "Switching costs land in the connectors, not the canvas. Triggers and actions map across both roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those."
+   ],
+   "decision_first": {
+    "heading": "n8n vs Zapier: the quick decision",
+    "rows": [
+     [
+      "n8n",
+      "You want self-hosting, code steps and per-execution pricing over per-task billing."
+     ],
+     [
+      "zapier",
+      "You want the deepest app catalog and the least thinking about edge cases."
+     ]
+    ],
+    "links": [
+     {
+      "text": "And for the Make side of the family:",
+      "label": "Make vs Zapier",
+      "href": "/vs/make-vs-zapier/"
+     },
+     {
+      "text": "All three face off properly on the three-way page:",
+      "label": "n8n vs Make vs Zapier",
+      "href": "/vs/n8n-vs-make-vs-zapier/"
+     }
+    ]
+   },
+   "neither": "Neither is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder.",
+   "pilot_faq": [
+    {
+     "q": "When does n8n beat Zapier on cost?",
+     "a": "At high volume. n8n self-hosted is free beyond the server, while Zapier rides a task slider past the $69 Team floor. The price table on this page shows 10K, 100K and 1M task scenarios with the published rates behind each rung."
+    },
+    {
+     "q": "When should a team still pick Zapier?",
+     "a": "When a specific niche integration has to work this week and nobody wants to maintain automation servers. Zapier has the largest app catalog and the least setup per workflow, which is worth the task billing for small teams."
+    },
+    {
+     "q": "Which one fits builders who write code?",
+     "a": "n8n. Code steps and branching are native, and Pipedream is the escape hatch if developers want real code in every step. Zapier and Make keep builders inside visual editors by design."
+    }
+   ]
+  },
+  {
+   "slug": "nocodb-vs-nocobase",
+   "title": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
+   "seo_title": "NocoDB vs NocoBase (2026): data model ownership",
+   "meta": "NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, and integrations, with catalog facts and a balanced pick for each team.",
+   "a_slug": "nocodb",
+   "b_slug": "nocobase",
+   "intro": [
+    "Both projects promise the same escape from per-seat SaaS: keep operational data on your own server, in your own database, and stop renting a spreadsheet with permissions. They deliver in opposite directions. NocoDB is a layer over a database you already own; NocoBase is a platform where you define the data model first and assemble pages, workflows, and permissions around it.",
+    "The teams choosing between them are marketing ops and internal-tools owners with an engineer somewhere nearby, and the axis of difference is not a feature checklist. It is who owns the data model and how much construction work the tool expects from you. Get that judgment wrong and the cost surfaces later as a migration."
+   ],
+   "sections": [
+    {
+     "heading": "Positioning",
+     "a": "NocoDB turns Postgres or MySQL you already run into an Airtable-style workspace: grids, forms, kanban, calendar, and map views over your existing tables, with per-role permissions, webhooks, and REST APIs. At 65,104 GitHub stars it is the larger project. Its natural home is the spreadsheet sprawl behind campaign ops: content calendars, launch checklists, partner trackers, lead lists.",
+     "b": "NocoBase is a no-code platform for assembling business systems: CRMs, approval flows, content operations, and dashboards, built data-model-first from configurable collections, pages, and workflow blocks, extended through a plugin architecture that reaches nearly everything including UI blocks. Version 2.0 adds AI employees. It expects data-model thinking rather than grid thinking."
+    },
+    {
+     "heading": "Pricing",
+     "a": "Self-hosting is free with unlimited records and seats. Cloud runs Free (3 users, 1,000 records), Plus at 12 dollars per seat monthly billed annually, Business at 24 dollars with external DB connections and SAML SSO, Scale at 45 dollars, Enterprise custom. NocoAI features and App Store integrations are paid.",
+     "b": "The community edition is free to self-host, and commercial editions cover enterprise features and support. The catalog publishes no per-seat numbers for it. AI-assisted building and the workflow engine sit in the open offering, while rebranding, SSO, and advanced workflow features are commercial."
+    },
+    {
+     "heading": "Deployment and self-hosting",
+     "a": "A documented one-command compose stack (NocoDB, a background worker, Postgres, Redis) serves on port 8080, or the Docker image attaches to an existing Postgres through NC_DB. Minimum spec is 2 vCPU and 2 GB RAM. Read the license before features: the Sustainable Use License is fair-code, not OSI open source. Internal business use is free; offering it to others as a hosted service needs a commercial license.",
+     "b": "Self-hosted and plugin-based, with REST API and webhooks as the documented integration surface and a plugin architecture extending the platform. The licensing story is open-core: an Apache 2.0 kernel wrapped in the project's own agreement, with the community edition keeping NocoBase branding intact. Commercial editions add enterprise features and support."
+    },
+    {
+     "heading": "AI features",
+     "a": "NocoAI generates schema, tables, views, and formulas from prompts, and AI button and AI prompt field types extend rows, all in paid tiers. An MCP server gives external agents record-level access. AI here augments the spreadsheet surface rather than building systems.",
+     "b": "Version 2.0 adds AI employees: assistant-style agents working on top of your data models and the no-code interface, helping with configuration and answering questions over operational data. AI-assisted app building is listed as a core capability rather than an add-on."
+    },
+    {
+     "heading": "Integrations",
+     "a": "Postgres, MySQL, and SQLite underneath; REST APIs v3 with Swagger, conditional webhooks with custom payloads, an MCP server, and a paid App Store covering Slack, Discord, Mattermost, AWS SES, SMTP, and MailerSend. Because your schema stays SQL, other tools in the stack query it directly.",
+     "b": "The documented surface is REST API and webhooks, with plugins extending from there. The honest gap: no turnkey email or campaign-sender connectors in the box, which matters if you expect the platform to run campaigns rather than record them. Server-side workflows keep routing and notifications running without a browser open."
+    },
+    {
+     "heading": "Lock-in and exit cost",
+     "a": "Your rows sit in your own database, so data lock-in is close to zero. What you rebuild elsewhere is the layer above: views, forms, and the API contracts your scripts call.",
+     "b": "Same story on data, different story on the paid editions. Permissions and workflow configuration live in the product, so a move means re-implementing them against the next tool."
+    },
+    {
+     "heading": "Who should pick which",
+     "a": "Pick NocoDB when the data already lives in Postgres or MySQL and you want a friendlier surface over it. The schema stays yours, plain SQL keeps working, and if NocoDB disappeared tomorrow your data would still be a database. It fits content calendars, launch checklists, and lead lists well.",
+     "b": "Pick NocoBase when you are building a system rather than decorating tables: lead routing with audit trails, campaign and UTM trackers joined to results, content approval chains, a lightweight marketing data hub that keeps consent records in your own infrastructure. With an engineer nearby the learning curve buys structure."
+    }
+   ],
+   "pick_a_if": "Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.",
+   "pick_b_if": "Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.",
+   "date_published": "2026-09-26",
+   "date_updated": "2026-09-28",
+   "price_table": {
+    "unit": "Cost picture for a 10-person ops team",
+    "checked": "2026-09-27",
+    "rows": [
+     [
+      "Cost basis",
+      "Cloud per seat, or free unlimited self-host",
+      "Free self-host; commercial editions quoted"
+     ],
+     [
+      "Free tier",
+      "Cloud Free for 3 users and 1,000 records; self-host unlimited (Sustainable Use License)",
+      "Self-hosted, open source"
+     ],
+     [
+      "Entry paid",
+      "Cloud Plus $12/seat/mo billed annually",
+      "No public price table; enterprise editions and support are quoted"
+     ],
+     [
+      "At 10 people",
+      "Cloud Plus: 10 x $12/mo billed annually = $120/mo. Self-hosted runs all 10 on your own hardware at no license cost.",
+      "Budget from a quote. The free community edition runs the core, and paid tiers buy permissions, workflows, and support around it."
+     ],
+     [
+      "Checked",
+      "2026-09-27",
+      "2026-09-27"
+     ]
+    ]
+   },
+   "migration": [
+    "These tools both sit on your own database, which helps less than you would think. Schemas recreate cleanly, but views, forms, and permission sets are product-specific and get rebuilt by hand.",
+    "The real migration cost is downstream: any script or integration pointing at the old API breaks at the cutover. Inventory those callers first. A clean CSV export will move the rows and leave the automations behind.",
+    "Schema migration between the two is a real project: both round-trip CSV, so flat tables move in an afternoon, but relational links and views are recreated by hand. NocoDB imports an existing Airtable; NocoBase leans on its plugin model for anything exotic. Budget one day per ten tables with relationships."
+   ],
+   "neither": "Neither fits a regulated enterprise data warehouse: both are operational databases at heart. And if your users will never see a record grid, a plain internal admin panel built in a weekend beats configuring either.",
+   "pilot_faq": [
+    {
+     "q": "Pick NocoDB or NocoBase for existing tables?",
+     "a": "NocoDB. Its verdict is explicit: tables that already exist get a spreadsheet-style surface over data you own. NocoBase wants the opposite starting point, systems designed from scratch."
+    },
+    {
+     "q": "Which one rewards data-model thinking?",
+     "a": "NocoBase. It pays off when the team can invest in data-model thinking up front and is building operational systems, not just viewing rows. Teams that will not do that work should stay with NocoDB."
+    },
+    {
+     "q": "Are both self-hosted?",
+     "a": "Yes. Both are open-source database surfaces the team hosts itself, so the decision is about starting point and modeling appetite, not about hosting bills or vendor lock-in."
+    }
+   ]
+  },
+  {
+   "slug": "matomo-vs-plausible",
+   "title": "Matomo vs Plausible (2026): analytics depth or a dashboard that stays small",
+   "seo_title": "Matomo vs Plausible (2026): depth or simplicity",
+   "meta": "Matomo vs Plausible compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a balanced pick for each team.",
+   "a_slug": "matomo",
+   "b_slug": "plausible",
+   "intro": [
+    "Both are open-source web analytics for teams that would rather not hand visitor data to an advertising company, and both self-host for free. The difference is depth and where the bill appears. Matomo is a full analytics suite whose advanced features are paid plugins and bundles; Plausible is a deliberately small tool with one dashboard, a lightweight script, and a low entry price.",
+    "Teams choosing between them are usually content sites, privacy-conscious startups, and marketing ops leads with GDPR obligations. The axis is not accuracy. It is how much behavioral analytics you actually use, and whether your ops capacity can run a PHP analytics platform with archiving jobs versus a tool that mostly runs itself."
+   ],
+   "sections": [
+    {
+     "heading": "Positioning",
+     "a": "Matomo is an open-source analytics platform under GPL v3 or later, run on your own infrastructure or as cloud, with 5.13.0 released August 2026 and an active 6.x branch. Core analytics, ecommerce tracking, goals, segments, a customizable dashboard, and an API are free, and the vendor claims 100 percent data ownership with unsampled reporting on every plan. Privacy is the reason teams pick it.",
+     "b": "Plausible is lightweight, privacy-friendly web analytics: pageviews, visitors, sources, devices, locations, and goals on one simple dashboard, without cookies or personal data collection. Launched in 2019 and based in Tallinn, it trades attribution depth and advertising integrations for a clean setup and low operational burden."
+    },
+    {
+     "heading": "Pricing",
+     "a": "The self-hosted core is free, and the feature split matters: funnels, cohorts, custom reports, form analytics, media analytics, A/B testing, heatmaps, session recordings, multi-channel attribution, roll-up reporting, and users flow are paid premium plugins. On-Premise bundles run 275 euro monthly (Team), 1,450 (Business), 3,400 (Enterprise), about 17 percent less billed annually. Cloud starts at 22 euro monthly for 50,000 hits and scales to 14,850 euro at 100 million. A 21-day Cloud trial applies.",
+     "b": "Self-hosted is free under the AGPL license, and cloud starts at 9 dollars monthly for 10,000 pageviews, scaling with traffic. There is no plugin upsell ladder and no premium bundle to decode: the product is the plan, which makes cost forecasting unusually simple."
+    },
+    {
+     "heading": "Deployment and self-hosting",
+     "a": "Installation is a documented nine-step wizard: matomo.zip from builds.matomo.org, PHP 8.1 or newer with MySQL 8 or MariaDB 10.6, and an archiving cron job for sites above a few hundred visits a day. WordPress, Shopify, Google Tag Manager, the Google Analytics Importer, and consent tools (OneTrust, Cookiebot) are documented, and cloud data stays in Europe.",
+     "b": "Self-hosting is a small job: an AGPL codebase with 29,248 GitHub stars and a tracking script that weighs under a kilobyte on the page. Cookie-free operation removes the consent-banner question for analytics entirely. Integrations cover WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack."
+    },
+    {
+     "heading": "AI features",
+     "a": "Matomo's AI work measures AI traffic as much as it adds analysis. Version 5.12.0 added AI chatbot content-request and real-time reports, and an AI Agents report ships enabled on new instances. An AI Connector answers plain-language questions, and a free official MCP Server plugin connects Matomo to ChatGPT, Claude, and other MCP clients, with write actions gated behind approval.",
+     "b": "Plausible's AI features are modest and summary-shaped: AI-powered insights, anomaly detection, and traffic analysis that surface unusual patterns or summarize trends without building manual alerts. Nothing here pretends to replace analysis; it shortens the weekly read."
+    },
+    {
+     "heading": "Integrations",
+     "a": "WordPress, Matomo Tag Manager, Google Tag Manager, the Google Analytics Importer, Shopify, BigQuery, OneTrust, and Cookiebot, plus an API that is free on every plan and an ecommerce-focused tracking stack. More surfaces, more wiring.",
+     "b": "WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack, plus API access for custom reporting. Fewer surfaces, faster to connect, and enough for most content sites and small marketing teams."
+    },
+    {
+     "heading": "Lock-in and exit cost",
+     "a": "Self-hosted Matomo keeps raw data in your own database, so the exit is an export of tables you already own. Cloud customers trade that control for convenience.",
+     "b": "Self-hosted Plausible is as portable as Matomo. On Cloud, the aggregation and history stay with the vendor, so leaving means starting fresh metrics elsewhere."
+    },
+    {
+     "heading": "Who should pick which",
+     "a": "Pick Matomo when you need funnels, heatmaps, session recordings, A/B testing, or multi-channel attribution and want them in the same self-hosted platform, or when ecommerce tracking and consent-free use claims are buying requirements. Budget for the premium plugins or a cloud bill that grows with hits.",
+     "b": "Pick Plausible when the honest answer is that you check top pages, referrers, and goals a few times a week. Content sites, startups, and agencies get reliable numbers, cookie-free by default, at 9 dollars monthly cloud or free self-hosted, and none of the suite complexity to administer."
+    }
+   ],
+   "pick_a_if": "Pick Matomo if you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.",
+   "pick_b_if": "you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.",
+   "date_published": "2026-09-26",
+   "date_updated": "2026-09-28",
+   "price_table": {
+    "unit": "Cost picture for a 10K-pageview-per-month site",
+    "checked": "2026-09-27",
+    "rows": [
+     [
+      "Cost basis",
+      "Cloud priced by hits; self-hosted core is free (GPL v3+)",
+      "Cloud priced by monthly pageviews; self-hosted is free (AGPL)"
+     ],
+     [
+      "Free tier",
+      "Self-hosted core, free forever",
+      "Self-hosted, free forever"
+     ],
+     [
+      "Entry paid",
+      "On-Premise premium bundles from 275 EUR/mo (Team); Cloud starts above the 50,000-hit tier",
+      "Starter $9/mo ($7.50/mo billed yearly) for up to 10K monthly pageviews"
+     ],
+     [
+      "At 10K pageviews/mo",
+      "Self-hosted: the server only. On Cloud, one pageview is several hits, so size the plan on hits not pageviews. The smallest published tier is 50,000 hits per month.",
+      "Starter covers exactly this site size at $9/mo, or $7.50/mo on the yearly rate."
+     ],
+     [
+      "Checked",
+      "2026-09-27",
+      "2026-09-27"
+     ]
+    ]
+   },
+   "migration": [
+    "Both sides will move your tags in an afternoon and your history in a week, if at all. Exports and APIs differ in shape, so decide which reports must keep their history and which can restart from the cutover date.",
+    "The smaller costs pile up: goals and segments get rebuilt by hand, the tracking script swaps on every property, and any consent banner logic has to be re-checked against the new cookie behavior. None of it is hard. All of it is work.",
+    "Between Matomo and Plausible the moving part is history depth: Plausible keeps a rolling window, so export what you want to keep before you cancel. Matomo's own importer handles the common GA and server-log cases, and Plausible's API exports daily aggregates cleanly."
+   ],
+   "decision_first": {
+    "heading": "Matomo vs Plausible: the quick decision",
+    "rows": [
+     [
+      "matomo",
+      "You want Google Analytics depth with EU data residency and full raw data ownership."
+     ],
+     [
+      "plausible",
+      "You want a one-screen dashboard and a script lighter than the page it measures."
+     ]
+    ],
+    "links": [
+     {
+      "text": "Also compared:",
+      "label": "Matomo vs PostHog",
+      "href": "/vs/matomo-vs-posthog/"
+     }
+    ]
+   },
+   "neither": "Skip both if you are an enterprise already paying for an analytics suite: the switching cost outweighs the licence saving. And if all you need is a hit counter on a brochure site, server logs answer that question without a script at all.",
+   "pilot_faq": [
+    {
+     "q": "When does Matomo justify its weight over Plausible?",
+     "a": "When the team needs behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform it fully controls. Plausible wins when core traffic numbers, cookie-free by default, are the whole requirement."
+    },
+    {
+     "q": "Which one is cheaper to run?",
+     "a": "Plausible, with minimal setup and predictable cost. Matomo self-hosted is free as software but the team pays in server and maintenance time, which is the honest trade behind every self-hosted pick on this site."
+    },
+    {
+     "q": "What if the questions are about product usage, not traffic?",
+     "a": "Neither. That is PostHog territory: funnels, retention, session replay and feature flags beside the funnel. The Matomo versus PostHog comparison on this site draws that line in full."
+    }
+   ]
+  },
+  {
+   "slug": "claude-seo-vs-semrush",
+   "title": "Claude SEO vs Semrush (2026): pricing, AI features, verdict",
+   "seo_title": "Claude SEO vs Semrush (2026): pricing and AI",
+   "meta": "Claude SEO versus Semrush on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "a_slug": "claude-seo",
+   "b_slug": "semrush",
+   "intro": [
+    "Claude SEO and Semrush end up on the same shortlist. Claude SEO turns Claude Code into an SEO audit machine. Semrush is the closest thing the SEO industry has to an operating system: a platform that spans keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid advertising intelligence, social media management, and increasingly, AI search visibility.",
+    "Most decisions here come down to where it runs, how it bills, and how deep the AI features go. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "These two barely share a budget line. Semrush is a subscription suite with a large database behind it. claude-seo is free software that runs inside a coding session and audits one site at a time. Teams that keep both usually split the work: rank tracking and keyword research in one, technical audits in the other."
+   ],
+   "pick_a_if": "Pick Claude SEO if you can host it yourself and want code-level control, starting free.",
+   "pick_b_if": "Pick Semrush if you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo.",
+   "sections": [
+    {
+     "heading": "Positioning",
+     "a": "Claude SEO turns Claude Code into an SEO audit machine. You type /seo audit and it spawns up to 15 specialist agents in parallel, each covering a different discipline: technical SEO, content quality, E-E-A-T signals, Schema.org markup, Core Web Vitals, local SEO, ecommerce SEO, international SEO, and AI search optimization (what Google calls GEO). It was founded in 2026. Its repository carries 17,899 stars.",
+     "b": "Semrush is the closest thing the SEO industry has to an operating system: a platform that spans keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid advertising intelligence, social media management, and increasingly, AI search visibility. Founded in 2008 and headquartered in Boston, Semrush serves over 10 million users from freelancers to enterprise marketing teams. It was founded in 2008."
+    },
+    {
+     "heading": "Pricing",
+     "a": "It starts free, and free, MIT-licensed. Self-hosted inside Claude Code. Optional paid community mirror on Skool (verified 2026-08-28).",
+     "b": "Pro $117/mo (annual) or $140/mo; Guru $250/mo; Business $500/mo; Semrush One $199/mo (verified 2026-08-28)."
+    },
+    {
+     "heading": "Deployment and self-hosting",
+     "a": "Open source with the code in AgriciDaniel/claude-seo. Your team runs the service and applies its own upgrades, and nothing meters your task volume.",
+     "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
+    },
+    {
+     "heading": "AI features",
+     "a": "5 documented AI features on its pricing page and docs.",
+     "b": "6 documented AI features, including ai content optimizer, ai keyword research, ai site audit, ai competitive analysis, and ai writing assistant."
+    },
+    {
+     "heading": "Integrations",
+     "a": "5 listed integrations, including claude code, google search console, dataforseo, firecrawl, and lighthouse.",
+     "b": "8 listed integrations, including google analytics, google search console, wordpress, zapier, and slack."
+    },
+    {
+     "heading": "Lock-in and exit cost",
+     "a": "There is nothing to leave. Audits are files, the license is MIT, and your data sits wherever you put it. The risk runs the other way: no vendor roadmap, and the tool moves at open-source speed.",
+     "b": "Keywords and projects export, but the position history you have accumulated lives on their servers. Rebuild it elsewhere and the continuity starts from zero."
+    },
+    {
+     "heading": "What a working week looks like",
+     "a": "A Semrush week is dashboard-shaped: check position tracking, pull keyword gaps, brief writers from the content tool. The work is continuous and the product is the measurement instrument you return to daily.",
+     "b": "A Claude SEO week is batch-shaped: clone the skill, point it at a URL, read a scored audit with a fix list. Between runs the tool costs nothing and stores nothing. The instrument appears when you ask for it and closes after."
+    },
+    {
+     "heading": "Who should pick which",
+     "a": "Pick Claude SEO if you can host it yourself and want code-level control, starting free.",
+     "b": "Pick Semrush if you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo."
+    }
+   ],
+   "date_published": "2026-09-27",
+   "date_updated": "2026-09-28",
+   "price_table": {
+    "unit": "Cost picture for a year of continuous use",
+    "checked": "2026-09-27",
+    "rows": [
+     [
+      "Cost basis",
+      "Free software; you pay your model provider and your time",
+      "Per seat subscription"
+     ],
+     [
+      "Free tier",
+      "MIT-licensed, unlimited use",
+      "Limited free account"
+     ],
+     [
+      "Entry paid",
+      "Optional Skool community mirror, priced by its owner",
+      "Pro $117/mo billed annually ($140 month-to-month)"
+     ],
+     [
+      "At volume",
+      "Audits cost tokens and attention, not credits. Run as many as the work needs.",
+      "Guru $250/mo and Business $500/mo lift the project and keyword quotas."
+     ],
+     [
+      "Checked",
+      "2026-09-27",
+      "2026-09-27"
+     ]
+    ]
+   },
+   "migration": [
+    "There is no data migration here because claude-seo keeps no database. What changes is the workflow: audits run inside a coding session instead of a web app, and findings land in markdown instead of a dashboard.",
+    "The honest exit cost runs the other way. Keyword history and position tracking live in Semrush and do not fit inside a local tool, so teams that switch entirely give up that continuity. The common pattern is keeping Semrush for rank history while audits move to the local tool.",
+    "These do not migrate against each other; they stack. If you are trading Semrush's data for the skill's audits, keep a keyword export before cancelling and feed it to the skill's research workflows. Going the other way, the skill's reports hand you the backlog; Semrush measures whether the backlog worked."
+   ],
+   "neither": "Neither replaces an analyst. And if you publish fewer than a page a week, a spreadsheet of keywords and the Search Console will answer most of what both products sell.",
+   "pilot_faq": [
+    {
+     "q": "Who should pick Claude SEO over Semrush?",
+     "a": "Teams that can host it themselves and want code-level control, starting free. It is MIT-licensed open source, so the audit machine runs inside Claude Code rather than on a vendor dashboard."
+    },
+    {
+     "q": "When does Semrush still win?",
+     "a": "When the team wants a hosted platform the vendor runs for them, with AI content optimization and keyword research in one login. No servers, no CLI, no maintenance falls on the buyer."
+    },
+    {
+     "q": "Can a team use both?",
+     "a": "Yes, and the comparison suggests exactly that split: Semrush for the suite coverage it already sells, Claude SEO for scripted audits agents run on demand. They overlap least where each side is strongest."
+    }
+   ]
+  },
+  {
+   "slug": "salesforce-marketing-cloud-vs-hubspot",
+   "title": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict",
+   "seo_title": "Salesforce vs HubSpot Marketing Hub (2026): pricing and AI",
+   "meta": "Salesforce Marketing Cloud versus HubSpot Marketing Hub on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "a_slug": "salesforce-marketing-cloud",
+   "b_slug": "hubspot-marketing-hub",
+   "intro": [
+    "Salesforce Marketing Cloud and HubSpot Marketing Hub end up on the same shortlist. Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing pages, lead capture, campaign management, and marketing automation in a single platform.",
+    "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test."
+   ],
+   "pick_a_if": "Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.",
+   "pick_b_if": "Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.",
+   "sections": [
+    {
+     "heading": "Positioning",
+     "a": "Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. The current structure splits by motion: Marketing Cloud Next is the flagship, sold as Growth and Advanced editions per org; the B2C Agentic Marketing Platform carries the legacy Engagement (formerly ExactTarget) install base; B2B runs on Account Engagement, the former Pardot, or the Account Engagement+ edition; and Data 360 is the customer data platform underneath. It was founded in 1999.",
+     "b": "Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing pages, lead capture, campaign management, and marketing automation in a single platform. It is designed for small businesses, growing marketing teams, and enterprises that want to connect website activity, contact records, and revenue reporting without assembling multiple point tools. It was founded in 2006."
+    },
+    {
+     "heading": "Pricing",
+     "a": "Per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month (verified 2026-09-06).",
+     "b": "It starts free, and free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo (verified 2026-08-28)."
+    },
+    {
+     "heading": "Deployment and self-hosting",
+     "a": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage.",
+     "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
+    },
+    {
+     "heading": "AI features",
+     "a": "5 documented AI features, including agentforce campaign creation, agentforce personalization decisioning, agentforce paid media optimization, ai campaign summaries, and agentforce loyalty promotion creation.",
+     "b": "5 documented AI features, including ai content assistant, predictive lead scoring, ai email subject lines, chatbot builder, and ai campaign recommendations."
+    },
+    {
+     "heading": "Integrations",
+     "a": "9 listed integrations, including salesforce crm, data 360 (data cloud), slack, tableau, and mulesoft.",
+     "b": "8 listed integrations, including salesforce, slack, zapier, shopify, and wordpress."
+    },
+    {
+     "heading": "Lock-in and exit cost",
+     "a": "Marketing Cloud data extensions, journeys, and AMPscript form their own dialect. Teams that leave run both systems in parallel for months, usually with an implementation partner holding the map.",
+     "b": "Exports cover contacts and deals, but workflows, custom objects, and reporting history get rebuilt. Annual commitments apply either way, so read the exit terms before the start date."
+    },
+    {
+     "heading": "AI features and what they cost",
+     "a": "Einstein arrives across the suite: engagement scoring, send-time optimization and generative content assistance, licensed per user and per feature family. Enterprise agreements negotiate the details; the list price rarely survives contact with a sales cycle.",
+     "b": "HubSpot's AI features (forecasting, conversation intelligence, content assistants) are packaged into the tiers, with the Breeze agents extending into service and content. The per-seat ladder prices itself more predictably."
+    },
+    {
+     "heading": "Who should pick which",
+     "a": "Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.",
+     "b": "Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free."
+    }
+   ],
+   "date_published": "2026-09-27",
+   "date_updated": "2026-09-28",
+   "price_table": {
+    "unit": "Cost picture at 1,000 contacts",
+    "checked": "2026-09-27",
+    "rows": [
+     [
+      "Cost basis",
+      "Per-org bundles billed annually, plus add-ons",
+      "Per seat and hub tier"
+     ],
+     [
+      "Free tier",
+      "None; pricing runs through sales",
+      "Free CRM forever"
+     ],
+     [
+      "Entry paid",
+      "Marketing Cloud Next Growth $1,500/mo billed annually; Starter $25/user/mo for smaller setups",
+      "Marketing Hub Starter $20/mo"
+     ],
+     [
+      "At 1,000 contacts",
+      "Contact volume rides inside the org bundle (Growth $1,500/mo). Personalization is $8/mo extra as an add-on, and AI features price separately.",
+      "1,000 contacts fits Starter at $20/mo. Professional at $890/mo is where serious automation and attribution live."
+     ],
+     [
+      "Checked",
+      "2026-09-27",
+      "2026-09-27"
+     ]
+    ]
+   },
+   "migration": [
+    "This migration is a project, not a weekend. Salesforce data extensions have to be mapped onto HubSpot objects, journeys become workflows, and AMPscript gets rewritten as HubSpot modules or dropped. Teams that lived in Marketing Cloud usually keep an implementation partner on the calendar through the first campaign cycle.",
+    "Budget for what does not migrate. Attribution history rarely survives intact, so agree up front which reporting periods live where. Reverse migrations are worse: leaving HubSpot for Marketing Cloud means rebuilding scoring, forms, and lead routing from scratch.",
+    "Both vendors publish migration guides and both make money on services, so budget for a partner whichever direction you move. The expensive parts in order: historical email engagement, lead scoring models, and journeys mid-flight. Freeze new automation a month before cutover; migrating running journeys is how migrations turn into incidents."
+   ],
+   "neither": "Neither suits a small team selling to a few hundred accounts: the setup cost exceeds a year of both. And if most revenue moves through one product-led funnel, a lighter lifecycle tool beats both suites.",
+   "pilot_faq": [
+    {
+     "q": "Which enterprise pick fits a Salesforce estate?",
+     "a": "Salesforce Marketing Cloud, with Agentforce campaigns in the package. Estates already bought into the Salesforce stack pay more in switching costs than any license gap, so the stack question decides first."
+    },
+    {
+     "q": "When does HubSpot Marketing Hub win instead?",
+     "a": "When the team wants marketing automation living beside its CRM with an AI content assistant included, without enterprise procurement. HubSpot wins on time-to-value for teams outside the Salesforce orbit."
+    },
+    {
+     "q": "Do both require vendor hosting?",
+     "a": "Yes. Both are hosted platforms the vendor runs, so neither gives the self-hosting control that open-source picks elsewhere on this site offer. The choice is ecosystem and buying motion, not infrastructure."
+    }
+   ]
+  },
+  {
+   "slug": "make-vs-zapier",
+   "title": "Make vs Zapier (2026): pricing, AI features, verdict",
+   "seo_title": "Make vs Zapier (2026): pricing and AI",
+   "meta": "Make versus Zapier on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "a_slug": "make",
+   "b_slug": "zapier",
+   "intro": [
+    "Make and Zapier end up on the same shortlist. Make, the platform formerly known as Integromat, sits between Zapier's simplicity and n8n's depth. Zapier is the automation platform most people mean when they say they want to connect two tools without writing code.",
+    "Most decisions here come down to price and fit. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "Both platforms now sell AI features on top of the same plumbing: triggers, actions, and a scheduler between them. The price gap and the credit-versus-task metering decide more deals than any feature list, so the volume table below is the part to read twice.",
+    "The pair pages beside this one (n8n vs Zapier, and the three-way) carry the wider automation-platform picture; here we stay on the two visual builders that fight for the same buyer."
+   ],
+   "pick_a_if": "Pick Make if you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.",
+   "pick_b_if": "Pick Zapier if you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free.",
+   "sections": [
+    {
+     "heading": "Positioning",
+     "a": "Make, the platform formerly known as Integromat, sits between Zapier's simplicity and n8n's depth. Founded in Prague in 2012 and acquired by Celonis in 2020, it is where technical marketing teams land when a linear editor stops being enough: scenarios are drawn as a graph, so branching, looping, and error handling are visible rather than buried in configuration.\n\nBilling changed in August 2026, when credits replaced operations as the unit of account. It was founded in 2012.",
+     "b": "Zapier is the automation platform most people mean when they say they want to connect two tools without writing code. It lists more than 9,000 app integrations, still the widest catalogue in this directory, and the niche martech tools that lack an n8n node or a Make module usually still have a Zapier integration. It was founded in 2011."
+    },
+    {
+     "heading": "Pricing",
+     "a": "It starts free, and free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom (verified 2026-09-07).",
+     "b": "It starts free, and free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual) (verified 2026-09-07)."
+    },
+    {
+     "heading": "Deployment and self-hosting",
+     "a": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage.",
+     "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
+    },
+    {
+     "heading": "AI features",
+     "a": "5 documented AI features, including ai agents, ai workflow suggestions, ai data transformation, ai content generation, and ai error handling.",
+     "b": "5 documented AI features, including ai workflow builder, ai data formatting, ai chatbot builder, and ai agents."
+    },
+    {
+     "heading": "Integrations",
+     "a": "8 listed integrations, including slack, gmail, salesforce, hubspot, and shopify.",
+     "b": "8 listed integrations, including slack, gmail, salesforce, hubspot, and shopify."
+    },
+    {
+     "heading": "Lock-in and exit cost",
+     "a": "Scenarios export as JSON blueprints you can archive. Run history stays with the vendor, so keep your own records if audit trails matter to you.",
+     "b": "Zapier holds the logic and the history. Exports cover documentation at best, so leaving means re-implementing every active Zap wherever you land."
+    },
+    {
+     "heading": "Who should pick which",
+     "a": "Pick Make if you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.",
+     "b": "Pick Zapier if you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free."
+    }
+   ],
+   "date_published": "2026-09-27",
+   "date_updated": "2026-09-28",
+   "price_table": {
+    "unit": "Cost picture at 10K automation tasks per month",
+    "checked": "2026-09-27",
+    "rows": [
+     [
+      "Cost basis",
+      "Operations per month (credits)",
+      "Successful tasks"
+     ],
+     [
+      "Free tier",
+      "1,000 credits per month, 2 active scenarios",
+      "100 tasks per month, 2-step Zaps"
+     ],
+     [
+      "Entry paid",
+      "Core $9/mo for 10,000 credits (annual billing)",
+      "Professional from $19.99/mo"
+     ],
+     [
+      "At 10K tasks/mo",
+      "Core covers 10K credits at $9/mo with annual billing. Watch the credit multiplier: some modules consume more than one credit per run.",
+      "Volume is a slider above the published starting prices, so 10K tasks costs more than the $69/mo Team entry. Get the quote in writing before comparing."
+     ],
+     [
+      "Checked",
+      "2026-09-27",
+      "2026-09-27"
+     ]
+    ]
+   },
+   "migration": [
+    "Scenario to Zap translation is mechanical on the simple flows and stubborn on the clever ones. Routers map to Paths, iterators and aggregators often need a rethink, and Make's tolerance for loose JSON means error handling that worked for years can fail on day one in Zapier.",
+    "The reverse move has its own tax. Zapier's formatter steps get rebuilt as Make functions, and any code step becomes a Make module or a call to your own endpoint. Exports cover the structure, not the run history, so keep a copy of the old platform until finance has signed off on the numbers.",
+    "Switching costs land in the connectors, not the canvas. Triggers and actions map across both roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those."
+   ],
+   "decision_first": {
+    "heading": "Make vs Zapier: the quick decision",
+    "rows": [
+     [
+      "make",
+      "You want the most visual scenario builder and a generous free tier to prototype in."
+     ],
+     [
+      "zapier",
+      "You want the deepest app catalog and the least thinking about edge cases."
+     ]
+    ],
+    "links": [
+     {
+      "text": "The pair pages carry the same evidence in depth:",
+      "label": "n8n vs Zapier",
+      "href": "/vs/n8n-vs-zapier/"
+     }
+    ]
+   },
+   "neither": "Neither is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder.",
+   "pilot_faq": [
+    {
+     "q": "When does Make beat Zapier?",
+     "a": "When builders outgrow a linear editor. Make offers branching, looping and scenario-level control with AI agents and workflow suggestions, plus cheaper runs at moderate volume for technical marketing teams."
+    },
+    {
+     "q": "When does Zapier keep the deal?",
+     "a": "When the catalog decides it: the largest app library, the least setup per workflow, and an AI workflow builder for teams that never want to see a branch node. Niche integrations working this week is Zapier's home turf."
+    },
+    {
+     "q": "Which one is cheaper at scale?",
+     "a": "Make at moderate volume, where its runs price below Zapier tasks. At very high volume both lose to self-hosted n8n, which is exactly the three-way comparison this site carries separately."
+    }
+   ]
+  },
+  {
+   "slug": "activecampaign-vs-klaviyo",
+   "title": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
+   "seo_title": "ActiveCampaign vs Klaviyo (2026): pricing and AI",
+   "meta": "ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "a_slug": "activecampaign",
+   "b_slug": "klaviyo",
+   "intro": [
+    "ActiveCampaign and Klaviyo end up on the same shortlist. ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento.",
+    "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "The choice usually lands on one question: how much of the customer relationship lives in the tool. ActiveCampaign wants to run email, SMS, and a light CRM in one place. Klaviyo wants to own the ecommerce messaging stack and the data underneath it. The pricing pages will not decide this for you; the contact tiers look similar and the shape of the product does not."
+   ],
+   "pick_a_if": "Pick ActiveCampaign if you want a hosted platform the vendor runs for you, and ai content generation and predictive sending matters to your team, starting at $15/mo.",
+   "pick_b_if": "Pick Klaviyo if you want a hosted platform the vendor runs for you, and ai subject line assistant and predictive analytics matters to your team, starting free.",
+   "sections": [
+    {
+     "heading": "Positioning",
+     "a": "ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. Founded in 2003 and headquartered in Chicago, it serves over 150,000 customers worldwide. It was founded in 2003.",
+     "b": "Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento. Founded in 2012 in Boston and taken public in 2023, Klaviyo's competitive advantage is its data model: instead of treating customers as email addresses in a list, it builds rich profiles from purchase history, browsing behavior, and predicted lifetime value. It was founded in 2012."
+    },
+    {
+     "heading": "Pricing",
+     "a": "Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo; 14-day free trial (verified 2026-08-28).",
+     "b": "It starts free, and free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo (verified 2026-08-28)."
+    },
+    {
+     "heading": "Deployment and self-hosting",
+     "a": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage.",
+     "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
+    },
+    {
+     "heading": "AI features",
+     "a": "5 documented AI features, including ai content generation, predictive sending, ai win probability, ai subject line suggestions, and smart automation.",
+     "b": "5 documented AI features, including ai subject line assistant, predictive analytics, ai send-time optimization, ai product recommendations, and ai content generation."
+    },
+    {
+     "heading": "Integrations",
+     "a": "8 listed integrations, including shopify, salesforce, slack, zapier, and woocommerce.",
+     "b": "8 listed integrations, including shopify, woocommerce, bigcommerce, salesforce, and slack."
+    },
+    {
+     "heading": "Lock-in and exit cost",
+     "a": "ActiveCampaign exports contacts and campaign reports. Automations, lead scoring, and tracking setup stay behind. List ownership is clear and the CRM data is standard fields.",
+     "b": "Klaviyo's lock-in is its data model. Profiles carry event streams that power flows and segments, and rival platforms rarely ingest them cleanly. Ecommerce teams accept this because the revenue reporting is hard to give up."
+    },
+    {
+     "heading": "Deliverability and sending",
+     "a": "ActiveCampaign's sending is built around its automation heritage: dedicated IP add-ons, warm-up guidance and strong transactional options through Postmark's sibling stack. Mixed marketing and transactional is a first-class case.",
+     "b": "Klaviyo's sending is tuned for ecommerce bursts: segmentation-heavy sends at flash-sale volume, with deliverability tooling focused on list hygiene and engagement-based throttling. Dedicated IPs come into play at scale."
+    },
+    {
+     "heading": "Who should pick which",
+     "a": "Pick ActiveCampaign if you want a hosted platform the vendor runs for you, and ai content generation and predictive sending matters to your team, starting at $15/mo.",
+     "b": "Pick Klaviyo if you want a hosted platform the vendor runs for you, and ai subject line assistant and predictive analytics matters to your team, starting free."
+    }
+   ],
+   "date_published": "2026-09-27",
+   "date_updated": "2026-09-28",
+   "price_table": {
+    "unit": "Cost picture at 1,000 contacts",
+    "checked": "2026-09-27",
+    "rows": [
+     [
+      "Cost basis",
+      "Contact tiers plus plan level",
+      "Contact count plus channels used"
+     ],
+     [
+      "Free tier",
+      "No free plan; 14-day trial",
+      "Free up to 250 contacts and 500 emails per month"
+     ],
+     [
+      "Entry paid",
+      "Starter $15/mo",
+      "Paid starts around $20/mo and scales with contacts"
+     ],
+     [
+      "At 1,000 contacts",
+      "Starter $15/mo is the entry tier; automation depth lives on Plus $49/mo and Professional $79/mo.",
+      "The free plan stops at 250 contacts, so 1,000 contacts is on the paid ladder starting near $20/mo. SMS and push add separate channel fees."
+     ],
+     [
+      "Checked",
+      "2026-09-27",
+      "2026-09-27"
+     ]
+    ]
+   },
+   "migration": [
+    "Moving lists is the easy afternoon. ActiveCampaign automations do not export into Klaviyo flows, so every welcome series, win-back, and abandoned-cart path gets rebuilt and re-verified, and template styling has to be redone in the new editor.",
+    "Deliverability deserves its own line in the plan. Consent records and suppression lists have to travel with the contacts, and sending reputation does not. Warm the new setup gradually instead of importing 50,000 contacts and mailing them on day one.",
+    "Klaviyo publishes a first-party ActiveCampaign importer that handles lists, profiles and ecommerce events; the segments and automations rebuild in the new vocabulary. The trap is tag debt: clean your ActiveCampaign tags before the move or spend your first month re-deriving segments in Klaviyo's profile properties."
+   ],
+   "neither": "Neither fits B2B sales cycles with long, human follow-up: that is CRM territory. And if your store sends one campaign a month to under 5,000 contacts, a simpler cheaper tool loses nothing.",
+   "pilot_faq": [
+    {
+     "q": "Which one fits a store, and which fits everyone else?",
+     "a": "Klaviyo for commerce brands, with its AI subject line assistant and predictive sending tuned to purchase data. ActiveCampaign for SMB teams that want real automation with AI content generation beyond the store use case."
+    },
+    {
+     "q": "Do both run the automation for the team?",
+     "a": "Yes. Both are hosted platforms the vendor runs, so the buyer compares automation depth and data model rather than infrastructure. Neither asks the team to maintain servers."
+    },
+    {
+     "q": "What if the team wants to self-host instead?",
+     "a": "Look at Mautic for HubSpot-class automation hosted in-house, or Laudspeaker for lifecycle messaging outside the CRM. The open-source marketing tools roundup on this site prices that trade honestly."
+    }
+   ]
+  },
+  {
+   "slug": "jasper-vs-writer",
+   "title": "Jasper vs Writer (2026): pricing, AI features, verdict",
+   "seo_title": "Jasper vs Writer (2026): pricing and AI",
+   "meta": "Jasper versus Writer on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "a_slug": "jasper",
+   "b_slug": "writer",
+   "intro": [
+    "Jasper and Writer end up on the same shortlist. Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform.",
+    "Most decisions here come down to price and fit. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "Both sell AI writing to marketing departments, and both pitch governance harder than generation. Jasper publishes its prices and sells self-serve. Writer keeps the price table behind a conversation and sells to companies that start with a security review. That difference predicts the rest of the comparison.",
+    "Both platforms sell to marketing leadership rather than individual writers, so the pricing conversation runs through a sales process at the top tiers."
+   ],
+   "pick_a_if": "Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.",
+   "pick_b_if": "Pick Writer if you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team.",
+   "sections": [
+    {
+     "heading": "Positioning",
+     "a": "Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. The platform now offers over 100 specialized AI agents for content creation, campaign management, brand governance, and analytics, organized around marketing workflows rather than isolated content pieces. It was founded in 2021.",
+     "b": "Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform. The Palmyra lineup is now X4, X5, and X6: X6 is described as the default agentic model with a 1M-token context window, published API pricing of $2 per million input tokens and $8 per million output tokens, and a claimed 8 hours of unsupervised task persistence, while X4 carries a documented deprecation date of November 18, 2026. It was founded in 2020."
+    },
+    {
+     "heading": "Pricing",
+     "a": "Creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom (verified 2026-08-28).",
+     "b": "Pricing is paid and quoted per contract, and quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026) (verified 2026-09-25)."
+    },
+    {
+     "heading": "Deployment and self-hosting",
+     "a": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage.",
+     "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
+    },
+    {
+     "heading": "AI features",
+     "a": "5 documented AI features, including ai copy generation, brand voice training, ai image generation, ai campaign workflows, and ai content repurposing.",
+     "b": "5 documented AI features, including ai content generation and knowledge graph grounding."
+    },
+    {
+     "heading": "Integrations",
+     "a": "8 listed integrations, including chrome, surfer seo, zapier, hubspot, and wordpress.",
+     "b": "12 listed integrations, including slack, google workspace, microsoft 365, salesforce, and hubspot."
+    },
+    {
+     "heading": "Lock-in and exit cost",
+     "a": "The exit cost is re-creating the template and brand voice library, since exports cover documents rather than the setup that made them.",
+     "b": "Writer locks in governance rather than content. Style guides, knowledge sources, and approval flows are configured work and none of it is portable. The writing itself is yours."
+    },
+    {
+     "heading": "Governance and review",
+     "a": "Jasper's brand voice and knowledge base push consistency into the drafts themselves, with approval flows for teams that need sign-off before publishing. The marketing-suite framing means campaign context rides along.",
+     "b": "Writer's governance is the enterprise story: terminology enforcement, compliance filters and API-first integration so generation happens inside your own tools. The product assumes a legal review exists and builds for it."
+    },
+    {
+     "heading": "Who should pick which",
+     "a": "Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.",
+     "b": "Pick Writer if you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team."
+    }
+   ],
+   "date_published": "2026-09-27",
+   "date_updated": "2026-09-28",
+   "price_table": {
+    "unit": "Cost picture for one marketing team",
+    "checked": "2026-09-27",
+    "rows": [
+     [
+      "Cost basis",
+      "Per seat subscription",
+      "Quote-based"
+     ],
+     [
+      "Free tier",
+      "No free tier in the published table",
+      "No public price table for anonymous visitors"
+     ],
+     [
+      "Entry paid",
+      "Creator $39/mo billed annually ($49 month-to-month), one seat",
+      "Custom quote (verified Sep 2026)"
+     ],
+     [
+      "For a team",
+      "Pro at $59/mo billed annually ($69 month-to-month) is the published step up. Business is custom.",
+      "Everything is quoted. Expect a conversation about seats, SSO, and governance before you see a number."
+     ],
+     [
+      "Checked",
+      "2026-09-27",
+      "2026-09-27"
+     ]
+    ]
+   },
+   "migration": [
+    "Prompt and template libraries do not travel between these platforms, so plan to rebuild them. Jasper's brand voice setup and Writer's style guardrails solve the same problem with different inputs, which means re-uploading the same source material into the new shape.",
+    "The admin side is the boring half of the work: SSO, seat provisioning, and approval workflows all get re-created. For regulated teams the governance rewrite usually costs more than the template work.",
+    "Content itself moves as documents, and both export cleanly. What does not move is governance: brand voice rules and terminology lists rebuild in the other product's format. Expect to spend the first two weeks getting the new platform to write in your register instead of its default."
+   ],
+   "neither": "Neither fits technical documentation with strict terminology control: deterministic tooling beats generation there. And if content output is occasional, the model you already pay for handles it without a platform.",
+   "pilot_faq": [
+    {
+     "q": "Jasper or Writer for brand control?",
+     "a": "Writer when governance leads: AI content generation with knowledge graphs aimed at enterprises that audit output. Jasper when the job is enforcing one trained brand voice across many human writers."
+    },
+    {
+     "q": "Can performance marketers use either?",
+     "a": "Jasper fits better, with AI copy generation and brand voice training in one seat. Teams that want a publish-before-you-pay score should look at Anyword instead, which neither of these two promises."
+    },
+    {
+     "q": "Are both hosted?",
+     "a": "Yes. Both are hosted platforms the vendor runs for the buyer. Teams that want AI inside infrastructure they control should look at Strapi, a headless CMS with AI inside their own stack."
+    }
+   ]
+  },
+  {
+   "slug": "n8n-vs-make-vs-zapier",
+   "a_slug": "n8n",
+   "b_slug": "make",
+   "c_slug": "zapier",
+   "title": "n8n vs Make vs Zapier (2026): the three-way automation decision",
+   "seo_title": "n8n vs Make vs Zapier: 2026 three-way comparison",
+   "meta": "n8n vs Make vs Zapier on price, self-hosting, connectors and exit cost. A three-way decision table and real switching notes from the catalogued numbers.",
+   "date_published": "2026-09-28",
+   "date_updated": "2026-09-28",
+   "intro": [
+    "Which is better, n8n or Make or Zapier? It is the question the search box suggests, and the honest answer is that all three win a different buyer. This page takes the three-way seriously: one decision table, then the dimensions where the products actually differ.",
+    "Every number below is catalogued from each vendor's own published materials and checked this month. The pair pages (n8n vs Zapier, Make vs Zapier) carry the longer version of each argument."
+   ],
+   "sections": [
+    {
+     "heading": "Positioning",
+     "a": "The technical builder's platform. Workflows are code-friendly (JavaScript anywhere), self-hostable, and priced per execution rather than per task. Its audience names infrastructure without flinching.",
+     "b": "The visual builder's platform. Scenarios read like flowcharts, the iterator and aggregator tooling is genuinely powerful, and the free tier is generous enough to prototype real work before paying.",
+     "c": "The default. The app catalog runs past 7,000 integrations, the editor handles edge cases the others make you think about, and every contractor has used it. Familiarity is a feature when three teams share one workflow."
+    },
+    {
+     "heading": "Pricing shape",
+     "a": "Cloud Starter begins around EUR 20 a month and bills per execution: a 50-step workflow counts once. The Community Edition is free to self-host, under a fair-code licence with usage caps that matter at real scale.",
+     "b": "Core runs $9 a month and bills per operation: every module in a scenario counts, so long workflows multiply. The free tier (1,000 credits a month) covers a small real workload.",
+     "c": "Free covers 100 tasks a month with 2-step Zaps. Professional starts at $19.99 a month and per-task billing means a chatty workflow costs real money at volume."
+    },
+    {
+     "heading": "Self-hosting and data control",
+     "a": "Yes, and it is the point. The Docker image runs anywhere, data never leaves your network, and upgrades are your problem as well as your right.",
+     "b": "No self-hosted product. EU data residency is available on paid plans for teams that need it.",
+     "c": "No self-hosted product, and the platform is US-based. Enterprise compliance options exist; self-determination does not."
+    },
+    {
+     "heading": "AI features and the agent question",
+     "a": "n8n treats AI as nodes in a workflow: model calls, agent steps and tool connections are modules you wire like any other. The LangChain nodes date the integration to the agent era, and the self-hosted edition lets you point those nodes at your own inference endpoint.",
+     "b": "Make's AI modules abstract the model layer: pick a provider, fill the prompt fields, move on. The strength is speed for operators; the limit arrives when a workflow needs custom retrieval or a self-hosted model, where the abstraction leaks.",
+     "c": "Zapier ships the most packaged AI actions of the three, including its own assistant for building Zaps. For teams that want AI steps without thinking about model plumbing, that packaging is the whole argument."
+    },
+    {
+     "heading": "Integrations and the long tail",
+     "a": "The community node ecosystem fills gaps the core misses, and any REST API becomes a node with a little JSON. Coverage is wide and the edges are yours to sand.",
+     "b": "The app catalog runs to well over a thousand with strong coverage of the marketing and SMB stack, and the HTTP module covers the rest. Where Make invests, the modules are richer than either rival's.",
+     "c": "The catalog past 7,000 integrations is the moat. Niche SaaS lands here first, and the odds any given tool in your stack already has a maintained connector are simply better."
+    },
+    {
+     "heading": "When each wins",
+     "a": "Choose n8n when the workflow has a step nobody's connector covers and a developer will write it. The economics hold up better too: per-execution pricing rewards complex flows.",
+     "b": "Choose Make when the people building the automation are operators, not engineers, and the scenario logic runs wide and branchy. The canvas shows more than either competitor's.",
+     "c": "Choose Zapier when the bottleneck is coverage and time-to-value. If the app you need exists in exactly one ecosystem, it is usually this one."
+    }
+   ],
+   "migration": [
+    "Moving between the three is mostly rebuild rather than migrate. None of them imports another's workflow format natively, so plan on redrawing each scenario in the new canvas. For a 20-step workflow that is an afternoon; the costlier part is re-testing every connector's authentication and edge behaviour.",
+    "The hidden migration cost sits in error handling. Zapier's built-in retries, Make's error routes and n8n's error workflow are three different designs, and rebuilding that safety layer is where teams underestimate the bill. Get the happy path running first, then rebuild failure handling with the original workflow open beside you.",
+    "If you are leaving one platform over price, model the exit against twelve months of usage rather than this month's invoice. Per-execution (n8n) and per-operation (Make) and per-task (Zapier) billing answer different workload shapes, and the cheapest for your traffic is a one-hour spreadsheet exercise."
+   ],
+   "neither": "Skip all three when your automation is really a data pipeline. Scheduled ETL with transformations belongs in an ELT tool, and a nightly script beats workflow pricing when the runs are predictable. They are also the wrong answer for one-off jobs: run those by hand until the shape repeats.",
+   "pick_a_if": "you want self-hosting, code steps and billing that rewards complex workflows.",
+   "pick_b_if": "your builders are operators who want the clearest visual canvas and a free tier to start in.",
+   "pick_c_if": "you need the widest connector catalog and the workflow has to work on day one.",
+   "pilot_faq": [
+    {
+     "q": "Which of the three should a technical team self-host?",
+     "a": "n8n. Self-hosting, code steps and billing that rewards complex workflows are its explicit verdict. Make and Zapier keep builders in hosted visual editors by design."
+    },
+    {
+     "q": "Which one is easiest for non-technical operators?",
+     "a": "The verdict favors the clearest visual canvas with a free tier to start in. Zapier adds the largest app catalog on top, Make adds scenario-level control for operators ready to graduate from linear flows."
+    },
+    {
+     "q": "How do the three price volume differently?",
+     "a": "n8n self-hosted removes per-task billing entirely. Make prices runs below Zapier tasks at moderate volume. Zapier's task slider climbs past the $69 Team floor, with the full 10K to 1M picture in the n8n-versus-Zapier price table."
+    }
+   ]
+  },
+  {
+   "slug": "matomo-vs-posthog",
+   "a_slug": "matomo",
+   "b_slug": "posthog",
+   "title": "Matomo vs PostHog (2026): web analytics or product analytics",
+   "seo_title": "Matomo vs PostHog: 2026 comparison",
+   "meta": "Matomo vs PostHog compared on price, deployment, privacy and scope. Web analytics depth against product analytics breadth, with real migration notes.",
+   "date_published": "2026-09-28",
+   "date_updated": "2026-09-28",
+   "intro": [
+    "Matomo and PostHog get compared more than their categories suggest, because both answer the same executive question: what do people do on our thing? They answer it from opposite ends. Matomo is web analytics in the classic sense, built to replace Google Analytics with better privacy defaults. PostHog is product analytics with web numbers as one slice of the platform.",
+    "The numbers below come from each vendor's own published materials, catalogued and checked this month. For the privacy-first three-way including Plausible, start with the quick-decision table on Matomo vs Plausible.",
+    "Both products grew up open source and both still sell trust as much as features: one promises your analytics data stays yours, the other promises your product data answers questions without a data team. The trade-offs below follow from that split."
+   ],
+   "sections": [
+    {
+     "heading": "Positioning",
+     "a": "Web analytics first: sessions, channels, campaigns and content performance, with heatmaps and session recording as paid modules. The mental model is the GA report suite, done with EU hosting and full raw data access.",
+     "b": "Product analytics first: events, funnels, retention, feature flags and experiments in one platform. Web traffic is a product surface like any other, and the pricing rewards the product team that goes deep."
+    },
+    {
+     "heading": "Pricing shape",
+     "a": "Self-hosted core is free under GPL. On-Premise premium bundles and Cloud subscriptions price by traffic, and the vendor publishes every tier. No data is used for anything but your reports.",
+     "b": "Usage-based with a free tier on every product every month: generous enough that many small products pay nothing. Costs arrive per event and per feature used, which rewards discipline with event design."
+    },
+    {
+     "heading": "Deployment and data residency",
+     "a": "Self-host on your own EU infrastructure for full control, or use EU-hosted Cloud. Data ownership is the product's core promise and the licence guarantees it.",
+     "b": "Cloud US by default with an EU cloud option, and a self-hosted open-source edition that carries usage-based billing above its free tier. Check which edition fits your compliance story before committing."
+    },
+    {
+     "heading": "Reporting depth",
+     "a": "Matomo's report suite is the deepest web-analytics surface in the comparison class: multi-channel attribution, cohort and segmentation engines, and content reports that map to how marketing teams actually work. The raw data sits in your database, so anything missing is a SQL query away.",
+     "b": "PostHog's dashboards are event-driven and lighter on classic channel reporting. Where it leads is behavioural depth: session replay, heatmap-adjacent tools and feature usage tied to the same events, with SQL access on paid plans for the gaps."
+    },
+    {
+     "heading": "Governance and the licence question",
+     "a": "GPL v3+ for the self-hosted core, with premium modules on a separate commercial licence. The governance story is stable and the vendor's business model is support and cloud, not data.",
+     "b": "The self-hosted edition carries an unusual twist: it is open core with usage-based billing past the free tier, so self-hosting does not mean free at scale. Read the licence terms against your growth curve before betting a compliance story on it."
+    },
+    {
+     "heading": "Getting data in and out",
+     "a": "Tag Manager ships with it, the tracking API covers server-side and mobile, and every table in the self-hosted schema is queryable. Exports run to raw CSV and scheduled archives, so leaving with your history is a script, not a negotiation.",
+     "b": "Ingestion is event-first: SDKs for the common stacks, a capture API for everything else, and batch export into a warehouse for teams that outgrow the built-in analysis. The reverse ETL story back into operational tools is stronger than Matomo's."
+    },
+    {
+     "heading": "What each looks like at month six",
+     "a": "At month six a Matomo setup looks like a tuned report suite: custom dimensions mapped to your business vocabulary, scheduled email reports for stakeholders, and maybe the heatmap module on the two pages that matter. The maintenance load is a person-hours a month on patching if self-hosted.",
+     "b": "At month six a PostHog setup looks like an event taxonomy with governance: naming conventions someone wrote down, flags replacing deploy-time risk, and experiments running against the funnels that justify them. The maintenance load is discipline, not servers: events rot if nobody owns the taxonomy."
+    },
+    {
+     "heading": "Scope",
+     "a": "If the question is 'how is the website performing', Matomo's report suite answers it without a data team. Campaign attribution and content reporting are deeper than anything in the product-analytics class.",
+     "b": "If the question is 'which feature retains users', PostHog answers it in one platform: flags, experiments and session replay sit next to the funnel that measures them."
+    }
+   ],
+   "migration": [
+    "Matomo runs a GA importer for the common historical case, so the standard 'leaving Google' move is largely scripted. Moving the other way, into PostHog, means an event plan before data: PostHog reads events and properties, not pageviews, so a week of naming design precedes any import.",
+    "Historical parity is the trap in both directions. Matomo keeps raw data indefinitely while self-hosted; PostHog's retention varies by plan. Export what you must keep before any switch, in both vendors' own export formats, because that window closes with the old contract.",
+    "For teams moving from Matomo to PostHog, the one migration asset worth building first is the mapping from Matomo's pageview-centric reports to your new event names. Get that mapping reviewed by whoever owns the reporting today; the numbers will not reconcile during the overlap month unless the vocabulary matches."
+   ],
+   "neither": "If your question is purely commercial, 'which channel sells', a warehouse-native BI layer over your own order data beats both. And if the site is a brochure and the product is offline, neither tool earns its script tag.",
+   "pick_a_if": "you want web analytics depth, EU data residency and raw data you own outright.",
+   "pick_b_if": "the real questions are about product usage, and you want flags and experiments beside the funnel.",
+   "pilot_faq": [
+    {
+     "q": "Matomo or PostHog for a content site?",
+     "a": "Matomo. Web analytics depth, EU data residency and raw data the team owns outright are its verdict. PostHog aims at product teams, not pageview reporting."
+    },
+    {
+     "q": "When does PostHog win?",
+     "a": "When the real questions are about product usage: funnels, retention, session replay, with flags and experiments beside the funnel. That is a product analytics job, not a traffic analytics job."
+    },
+    {
+     "q": "Which one is simpler to start?",
+     "a": "PostHog Cloud for teams that accept hosted product analytics, Plausible for teams whose needs stop at core traffic numbers. Matomo pays off once data residency or ecommerce depth enters the requirements."
+    }
+   ]
+  }
+ ]
 }

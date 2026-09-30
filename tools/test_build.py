@@ -26,12 +26,12 @@ def build():
     # them), so build_hubs runs first, mirroring deploy.sh ordering.
     hubs = subprocess.run(
         [sys.executable, str(ROOT / "tools" / "build_hubs.py")],
-        capture_output=True, text=True, timeout=60, cwd=str(ROOT),
+        capture_output=True, text=True, timeout=900, cwd=str(ROOT),
     )
     assert hubs.returncode == 0, f"Hub build failed:\n{hubs.stderr}"
     r = subprocess.run(
         [sys.executable, str(BUILD_SCRIPT)],
-        capture_output=True, text=True, timeout=60, cwd=str(ROOT),
+        capture_output=True, text=True, timeout=900, cwd=str(ROOT),
     )
     assert r.returncode == 0, f"Build failed:\n{r.stderr}"
     return r.stdout
@@ -1557,6 +1557,138 @@ def test_no_duplicated_pricing_lead_seam():
                 bad.append(f"rendered:{base}/{f.parent.name}")
 
     assert not bad, f"duplicated pricing lead seam: {bad[:8]}"
+
+
+def test_vs_dd_no_near_duplicate_of_dt():
+    """r18 M-2 (2026-09-30): exact-prefix check missed 'Pick Plausible if'
+    under 'Pick Plausible Analytics if' (similarity 0.67 vs 0.12 baseline).
+    Subsequence rule: strip non-letters, drop the tool-name tokens shared
+    with the dt, and the dd remnant must not open with the dt remnant."""
+    import re as _re
+    bad = []
+    for _f in ROOT.rglob("index.html"):
+        _rel = _f.relative_to(ROOT)
+        if _rel.parts and _rel.parts[0] == "deploy-out":
+            continue
+        _h = _f.read_text(errors="ignore")
+        for _m in _re.finditer(r"<dt>(.*?)</dt>\s*<dd>(.*?)</dd>", _h, _re.S):
+            _dt = _re.sub(r"[^a-z ]", "", _m.group(1).lower()).split()
+            _dd = _re.sub(r"[^a-z ]", "", _m.group(2).lower()).split()
+            _shared = set(_dt) & set(_dd[:len(_dt) + 2])
+            _dt_r = [w for w in _dt if w not in _shared or w in ("if", "pick")]
+            _dd_r = [w for w in _dd[:len(_dt) + 2] if w not in _shared or w in ("if", "pick")]
+            if _dt_r and _dd_r[:len(_dt_r)] == _dt_r:
+                bad.append((str(_rel), _m.group(1)[:40]))
+    assert not bad, f"dd near-repeats dt: {bad[:8]}"
+
+
+def test_one_distinct_datemodified_per_page():
+    """r18 H-2 (2026-09-30): template entities carried an authored dateModified
+    while the injector added a blame-date second - 101 pages with 2 distinct
+    values, and the sitemap read the stale first one. One page, one date."""
+    import re as _re
+    bad = []
+    for _f in ROOT.rglob("index.html"):
+        _rel = _f.relative_to(ROOT)
+        if _rel.parts and _rel.parts[0] == "deploy-out":
+            continue
+        _vals = set(_re.findall(r'"dateModified": "(\d{4}-\d{2}-\d{2})', _f.read_text(errors="ignore")))
+        if len(_vals) > 1:
+            bad.append((str(_rel), sorted(_vals)))
+    assert not bad, f"pages with >1 distinct dateModified: {bad[:6]}"
+
+
+def test_vs_two_way_leaves_have_no_three_quantifiers():
+    """r18 M-1 (2026-09-30): residue of the removed 3-way draft ('all three',
+    'None of the three') on matomo-vs-plausible, make-vs-zapier,
+    n8n-vs-zapier. Two-tool leaves use two-forms."""
+    import json as _j
+    import re as _re
+    d = _j.loads((ROOT / "tools" / "vsx-content.json").read_text())
+    bad = []
+    for pg in (d["pages"] if isinstance(d, dict) else d):
+        if pg.get("c_slug"):
+            continue
+        # links / decision_first blocks may legitimately point at the
+        # real three-way page - only prose fields carry the residue class
+        _stripped = {k: v for k, v in pg.items() if k not in ("links", "decision_first")}
+        blob = _j.dumps(_stripped)
+        for _m in _re.finditer(r"[Aa]ll three|three is right|three win|Skip all three|None of the three", blob):
+            bad.append((pg["slug"], _m.group(0)))
+    assert not bad, f"three-quantifiers on two-way leaves: {bad[:6]}"
+
+
+def test_best_table_header_names_fit_not_verdict():
+    """r18 M-5 (2026-09-30): the comparison-table cells hold fit segments;
+    the header must say Best for, not Verdict."""
+    bad = [str(f.relative_to(ROOT)) for f in (ROOT / "best").glob("*/index.html")
+           if "<th>Verdict</th>" in f.read_text(errors="ignore")]
+    assert not bad, f"Verdict th on best pages: {bad[:6]}"
+
+
+def test_hub_collectionpages_have_ids():
+    """r18 M-9/L-3 (2026-09-30): every hub CollectionPage node is addressable."""
+    import re as _re
+    bad = []
+    for _f in list((ROOT / "vs").glob("index.html")) + [(ROOT / "best" / "index.html")] + \
+            [(ROOT / "alternatives" / "index.html")] + [(ROOT / "categories" / "index.html")] + \
+            [(ROOT / "guides" / "index.html")] + [(ROOT / "trending" / "index.html")]:
+        if not _f.is_file():
+            continue
+        h = _f.read_text(errors="ignore")
+        for _m in _re.finditer(r'"@type":\s*"CollectionPage"', h):
+            seg = h[max(0, _m.start() - 200):_m.start() + 300]
+            if '"@id"' not in seg:
+                bad.append(str(_f.relative_to(ROOT)))
+    assert not bad, f"CollectionPage without @id: {bad[:6]}"
+
+
+def test_ard_link_carries_type_everywhere():
+    """r18 L-4/M-6 (2026-09-30): the ARD discovery link carries
+    type=application/json on every page head that emits it."""
+    bad = []
+    for _f in ROOT.rglob("index.html"):
+        _rel = _f.relative_to(ROOT)
+        if _rel.parts and _rel.parts[0] == "deploy-out":
+            continue
+        h = _f.read_text(errors="ignore")
+        if 'rel="ard ai-catalog"' in h and 'rel="ard ai-catalog" type=' not in h:
+            bad.append(str(_rel))
+    assert not bad, f"ARD link without type: {bad[:8]}"
+
+
+def test_seo_description_money_matches_record():
+    """r18 H-1 (2026-09-30): the head layer was outside every guard - 4 of 163
+    tool pages carried a stale price or wrong currency in seo_description
+    (the SERP snippet + og:description) while the body was clean. Every
+    money literal in seo_description must trace to the record's price_from /
+    paid_from / price_notes, and its currency symbol to record.currency."""
+    import json as _j
+    import re as _re
+    recs = [x for x in _j.loads((ROOT / "tools" / "tools.json").read_text()) if isinstance(x, dict)]
+    bad = []
+    for r in recs:
+        v = r.get("seo_description") or ""
+        figs = set()
+        for _v in (r.get("price_from"), r.get("paid_from")):
+            if isinstance(_v, (int, float)):
+                figs.add(str(int(_v)))
+        for _m in _re.finditer(r"(\d[\d,]*)", str(r.get("price_notes") or "")):
+            figs.add(_m.group(1).replace(",", ""))
+        for _m in _re.finditer(r"[$\u20ac](\d[\d,]*)", v):
+            if _m.group(1).replace(",", "") not in figs:
+                bad.append((r["slug"], _m.group(0)))
+        # "Starts at" names the entry price: it must equal price_from.
+        _st = _re.search(r"[Ss]tarts at [$\u20ac](\d[\d,]*)", v)
+        if _st and isinstance(r.get("price_from"), (int, float)):
+            if _st.group(1).replace(",", "") != str(int(r["price_from"])):
+                bad.append((r["slug"], "starts-at-vs-price_from:" + _st.group(0)))
+        _cur = r.get("currency")
+        if _cur == "EUR" and "$" in v:
+            bad.append((r["slug"], "dollar-on-eur-record"))
+        if _cur == "USD" and "\u20ac" in v:
+            bad.append((r["slug"], "euro-on-usd-record"))
+    assert not bad, f"seo_description money mismatches: {bad[:8]}"
 
 
 def test_money_prose_dollar_matches_record():

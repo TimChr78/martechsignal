@@ -142,7 +142,7 @@ More from the directory: [Madgicx](/tools/madgicx/)
     }
   },
   "datePublished": "2026-07-31",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/",
   "image": {
     "@type": "ImageObject",

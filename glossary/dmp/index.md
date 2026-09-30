@@ -75,7 +75,7 @@ Sources: [Twilio Segment](https://segment.com) · [Snowplow](https://snowplow.io
         "@type": "DefinedTerm",
         "name": "Data Management Platform (DMP)",
         "description": "A data management platform collects and organizes audience data, mostly anonymous, cookie-based identifiers, for use in programmatic advertising. Advertisers use DMPs to build audience segments and push them to demand-side platforms for ad targeting.",
-        "dateModified": "2026-09-07",
+        "dateModified": "2026-09-29",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",

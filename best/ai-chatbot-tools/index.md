@@ -1,7 +1,7 @@
 # Best Chatbots & Conversational AI tools (2026): 6 compared
 
 
-| Tool | Pricing | Open source | Verdict |
+| Tool | Pricing | Open source | Best for |
 | --- | --- | --- | --- |
 | [Intercom](/tools/intercom/) | From $29/mo | No | Support teams that want AI resolutions auditable at $0.99 each |
 | [Chatwoot](/tools/chatwoot/) | Open Source | Yes | Teams that want an open-source inbox with AI help included |
@@ -252,10 +252,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-chatbot-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-chatbot-tools/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

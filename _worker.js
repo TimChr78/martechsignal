@@ -42,6 +42,11 @@ export default {
           const h = new Headers(md.headers);
           h.set("content-type", "text/markdown; charset=utf-8");
           h.set("vary", "Accept");
+          // r18 M-7 (2026-09-30): the fetched mirror carries X-Robots-Tag:
+          // noindex from the /*.md _headers rule. That tag is correct on the
+          // mirror route but must not ride along onto the canonical URL's
+          // negotiated branch - strip it here, keep it there.
+          h.delete("x-robots-tag");
           return this._store(cacheKey, ctx, new Response(md.body, { status: 200, headers: h }));
         }
       }

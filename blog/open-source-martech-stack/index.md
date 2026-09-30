@@ -223,7 +223,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
     }
   },
   "datePublished": "2026-07-27",
-  "dateModified": "2026-09-28",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/open-source-martech-stack/",
   "image": {
     "@type": "ImageObject",

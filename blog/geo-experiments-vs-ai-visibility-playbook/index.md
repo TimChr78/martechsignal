@@ -127,7 +127,7 @@ More from the directory: [Khoj](/tools/khoj/)
     }
   },
   "datePublished": "2026-09-22",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/",
   "image": {
     "@type": "ImageObject",

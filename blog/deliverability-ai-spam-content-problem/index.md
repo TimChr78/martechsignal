@@ -139,7 +139,7 @@ More from the directory: [IFTTT](/tools/ifttt/)
     }
   },
   "datePublished": "2026-08-21",
-  "dateModified": "2026-09-09",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/",
   "image": {
     "@type": "ImageObject",

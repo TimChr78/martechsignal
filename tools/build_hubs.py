@@ -162,9 +162,11 @@ VS_INTRO = [
 
     'Numbers come from the catalog, never from a vendor\'s own comparison '
     'page, and where the catalog holds no verified figure the table says so '
-    'instead of estimating. Neither side is declared the winner. '
-    'Declarations hide the deployment, budget and licensing context that '
-    'actually decides these choices, so the pages state conditions instead.',
+    'instead of estimating. The pages state pick-conditions rather than '
+    'crowning an overall winner - each leaf calls out where one side wins '
+    'for a stated requirement, and the verdict block names who should pick '
+    'which. Declarations without context hide the deployment, budget and '
+    'licensing constraints that actually decide these choices.',
 
     'Method: researched from public documentation, the source repository '
     'where one exists, and vendor materials. Not a hands-on review. If a '

@@ -129,7 +129,7 @@ More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
     }
   },
   "datePublished": "2026-09-23",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/",
   "image": {
     "@type": "ImageObject",

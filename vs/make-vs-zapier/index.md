@@ -106,11 +106,11 @@ Scenario to Zap translation is mechanical on the simple flows and stubborn on th
 
 The reverse move has its own tax. Zapier's formatter steps get rebuilt as Make functions, and any code step becomes a Make module or a call to your own endpoint. Exports cover the structure, not the run history, so keep a copy of the old platform until finance has signed off on the numbers.
 
-Switching costs land in the connectors, not the canvas. Triggers and actions map across all three roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those.
+Switching costs land in the connectors, not the canvas. Triggers and actions map across both roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those.
 
 ## When neither is the right answer
 
-None of the three is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder.
+Neither is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder.
 
 ## Who should pick which
 
@@ -231,10 +231,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/make-vs-zapier/", "breadcrumb": {"@id": "https://martechsignal.com/vs/make-vs-zapier/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json
