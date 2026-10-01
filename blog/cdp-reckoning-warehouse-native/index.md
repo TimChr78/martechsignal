@@ -83,12 +83,12 @@ Our directory breaks down customer data platforms and activation tools by pricin
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Related tools
 
 - [Customer.io](/tools/customer-io/) - Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [Amplitude](/tools/amplitude/) - AI-powered digital analytics platform for product and marketing teams
-- [Clerk.io](/tools/clerk-io/) - AI-powered ecommerce personalization with search, recommendations, and email
+- [Hightouch](/tools/hightouch/) - Composable CDP that activates warehouse data where marketing runs
 ## Comparison guides
 
 - [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
@@ -145,7 +145,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1550,
+  "wordCount": 1553,
   "articleSection": "crm, analytics"
 }
 ```

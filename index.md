@@ -44,7 +44,7 @@ Chatbots & Conversational AI
 
 Email Marketing
 
-15 tools
+16 tools
 
 GEO & LLM Optimization
 
@@ -56,11 +56,11 @@ Marketing Automation
 
 Open-Source Tools
 
-80 tools
+81 tools
 
 Personalization & CDP
 
-9 tools
+11 tools
 
 SEO & Search
 

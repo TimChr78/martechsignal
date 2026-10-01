@@ -107,7 +107,7 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [advertools](/tools/advertools/)
+More from the directory: [Hightouch](/tools/hightouch/) · [advertools](/tools/advertools/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -155,7 +155,7 @@ More from the directory: [advertools](/tools/advertools/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1741,
+  "wordCount": 1746,
   "articleSection": "marketing-automation"
 }
 ```

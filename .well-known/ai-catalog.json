@@ -313,6 +313,18 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:tools:brevo",
+   "displayName": "Brevo pricing & plans",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/brevo/",
+   "description": "Multichannel marketing platform billing by email volume, not contacts",
+   "representativeQueries": [
+    "Brevo pricing",
+    "Brevo alternatives",
+    "email marketing tools like Brevo"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:tools:budibase",
    "displayName": "Budibase pricing & plans",
    "type": "text/html",
@@ -739,6 +751,18 @@
     "Heap pricing",
     "Heap alternatives",
     "analytics tools like Heap"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:hightouch",
+   "displayName": "Hightouch pricing & plans",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/hightouch/",
+   "description": "Composable CDP that activates warehouse data where marketing runs",
+   "representativeQueries": [
+    "Hightouch pricing",
+    "Hightouch alternatives",
+    "personalization tools like Hightouch"
    ]
   },
   {
@@ -1627,6 +1651,19 @@
     "Revive Adserver pricing",
     "Revive Adserver alternatives",
     "advertising tools like Revive Adserver"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:rudderstack",
+   "displayName": "RudderStack pricing & plans",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/rudderstack/",
+   "description": "Warehouse-first CDP: open-source Go data plane plus managed routing",
+   "representativeQueries": [
+    "open source rudderstack",
+    "RudderStack pricing",
+    "RudderStack alternatives",
+    "personalization tools like RudderStack"
    ]
   },
   {
@@ -3203,6 +3240,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:best:cdp",
+   "displayName": "Best CDP platforms (2026): 6 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/cdp/",
+   "description": "Six customer data platforms compared on architecture, pricing shape, self-hosting, and data-residency, with a pick for each team profile.",
+   "representativeQueries": [
+    "best cdp platforms (2026): 6 compared",
+    "cdp pricing comparison"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:best:geo-llm-visibility-tools",
    "displayName": "Best GEO &amp; LLM Optimization tools (2026): 9 compared",
    "type": "text/html",
@@ -3258,6 +3306,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:vs:activecampaign-vs-hubspot",
+   "displayName": "ActiveCampaign vs HubSpot (2026): automation vs platform",
+   "type": "text/html",
+   "url": "https://martechsignal.com/vs/activecampaign-vs-hubspot/",
+   "description": "ActiveCampaign versus HubSpot CRM on pricing, automation depth, AI features, and integrations, with a pick-this-one line for each side.",
+   "representativeQueries": [
+    "activecampaign vs hubspot (2026): automation vs platform",
+    "activecampaign vs hubspot comparison"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:vs:activecampaign-vs-klaviyo",
    "displayName": "ActiveCampaign vs Klaviyo (2026): pricing and AI",
    "type": "text/html",
@@ -3288,6 +3347,28 @@
    "representativeQueries": [
     "jasper vs writer (2026): pricing and ai",
     "jasper vs writer comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:vs:mailchimp-vs-brevo",
+   "displayName": "Mailchimp vs Brevo (2026): pricing and multichannel",
+   "type": "text/html",
+   "url": "https://martechsignal.com/vs/mailchimp-vs-brevo/",
+   "description": "Mailchimp versus Brevo on pricing by volume versus contacts, channels, AI features, and integrations, with a pick-this-one line for each side.",
+   "representativeQueries": [
+    "mailchimp vs brevo (2026): pricing and multichannel",
+    "mailchimp vs brevo comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:vs:mailchimp-vs-klaviyo",
+   "displayName": "Mailchimp vs Klaviyo (2026): pricing and ecommerce",
+   "type": "text/html",
+   "url": "https://martechsignal.com/vs/mailchimp-vs-klaviyo/",
+   "description": "Mailchimp versus Klaviyo on pricing, ecommerce depth, AI features, and integrations, with a pick-this-one line for each side.",
+   "representativeQueries": [
+    "mailchimp vs klaviyo (2026): pricing and ecommerce",
+    "mailchimp vs klaviyo comparison"
    ]
   },
   {
@@ -3376,6 +3457,17 @@
    "representativeQueries": [
     "hubspot crm alternatives: 5 options compared (2026)",
     "hubspot crm alternatives"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:alternatives:mailchimp",
+   "displayName": "Mailchimp alternatives (2026): 10 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/alternatives/mailchimp/",
+   "description": "Ten Mailchimp alternatives compared on pricing shape, self-hosting, channels, and migration, with a best-fit and not-for line for each.",
+   "representativeQueries": [
+    "mailchimp alternatives (2026): 10 compared",
+    "mailchimp alternatives"
    ]
   },
   {

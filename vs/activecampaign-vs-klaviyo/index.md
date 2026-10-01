@@ -142,7 +142,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/#article",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-29",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -228,7 +228,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/", "breadcrumb": {"@id": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/", "breadcrumb": {"@id": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

@@ -94,7 +94,7 @@ The connectivity debate turned out to be the easy half, and most teams have quie
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
+More from the directory: [Brevo](/tools/brevo/) · [AdCreative.ai](/tools/adcreative-ai/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -129,7 +129,7 @@ More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
     }
   },
   "datePublished": "2026-09-23",
-  "dateModified": "2026-09-29",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/",
   "image": {
     "@type": "ImageObject",
@@ -154,7 +154,7 @@ More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1586,
+  "wordCount": 1591,
   "articleSection": "workflow-automation"
 }
 ```
@@ -187,7 +187,7 @@ More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

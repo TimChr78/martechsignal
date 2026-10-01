@@ -172,7 +172,7 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
     "@type": "ItemList",
     "name": "Best Zapier alternatives (2026)",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-29",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -327,7 +327,7 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/alternatives/zapier/", "breadcrumb": {"@id": "https://martechsignal.com/alternatives/zapier/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/alternatives/zapier/", "breadcrumb": {"@id": "https://martechsignal.com/alternatives/zapier/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

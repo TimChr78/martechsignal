@@ -40,7 +40,7 @@ Email Marketing
 
 Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites
 
-15 tools
+16 tools
 
 GEO & LLM Optimization
 
@@ -58,13 +58,13 @@ Open-Source Tools
 
 80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
 
-80 tools
+81 tools
 
 Personalization & CDP
 
 Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization
 
-9 tools
+11 tools
 
 SEO & Search
 
@@ -88,7 +88,7 @@ No-code/low-code automation platforms and iPaaS
 
 ## Categories
 
-All 13 categories plus a cross-cutting open-source index across the 163-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
+All 13 categories plus a cross-cutting open-source index across the 166-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
 
 ## [AI Content & Copywriting](/categories/content-ai/)
 
