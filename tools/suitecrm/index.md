@@ -15,13 +15,13 @@
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
-| ✓ Active public repository (5,774 GitHub stars counted at last check) |  |
+| ✓ Active public repository (5,777 GitHub stars counted at last check) |  |
 
 **What is SuiteCRM?**
-SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,774 stars. SuiteCRM offers a public API for custom integrations.
+SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,777 stars. SuiteCRM offers a public API for custom integrations.
 
 **How much does SuiteCRM cost?**
-SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,774 stars. You pay in server time and maintenance, not licences.
+SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,777 stars. You pay in server time and maintenance, not licences.
 
 **Is SuiteCRM a good self-hosted CRM tool in 2026?**
 The established open-source CRM workhorse: unmatched module depth and free core workflows, with no AI, no mobile app, and a migration path that needs planning. Current, maintained, and still the default on-premise choice.
@@ -34,10 +34,10 @@ As a fresh installation, not an in-place patch. The docs require the latest 7.x 
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 5774
+- **GitHub:** ★ 5777
 - **HQ:** Stirling, Scotland, UK
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-09-07
 
 **Verdict:** SuiteCRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
@@ -154,9 +154,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,774 stars. SuiteCRM offers a public API for custom integrations.
+SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,777 stars. SuiteCRM offers a public API for custom integrations.
 
-SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,774 stars. You pay in server time and maintenance, not licences.
+SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,777 stars. You pay in server time and maintenance, not licences.
 
 The established open-source CRM workhorse: unmatched module depth and free core workflows, with no AI, no mobile app, and a migration path that needs planning. Current, maintained, and still the default on-premise choice.
 
@@ -251,7 +251,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is SuiteCRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,774 stars. SuiteCRM offers a public API for custom integrations."
+          "text": "SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,777 stars. SuiteCRM offers a public API for custom integrations."
         }
       },
       {
@@ -259,7 +259,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does SuiteCRM cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,774 stars. You pay in server time and maintenance, not licences."
+          "text": "SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,777 stars. You pay in server time and maintenance, not licences."
         }
       },
       {

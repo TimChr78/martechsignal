@@ -15,10 +15,10 @@
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at €12.9/mo |
 | ✓ API access for custom integrations |  |
-| ✓ Active public repository (3,424 GitHub stars counted at last check) |  |
+| ✓ Active public repository (3,430 GitHub stars counted at last check) |  |
 
 **What is EspoCRM?**
-EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. The public repository carries 3,424 stars. EspoCRM offers a public API for custom integrations.
+EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. The public repository carries 3,430 stars. EspoCRM offers a public API for custom integrations.
 
 **How much does EspoCRM cost?**
 EspoCRM has a free tier; paid plans start at €12.9/mo. Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from € 12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
@@ -37,11 +37,11 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 3424
+- **GitHub:** ★ 3430
 - **Founded:** 2011
 - **HQ:** Delaware, USA
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-09-07
 
 **Verdict:** EspoCRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
@@ -162,7 +162,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. The public repository carries 3,424 stars. EspoCRM offers a public API for custom integrations.
+EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. The public repository carries 3,430 stars. EspoCRM offers a public API for custom integrations.
 
 EspoCRM has a free tier; paid plans start at €12.9/mo. Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from € 12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
@@ -269,7 +269,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is EspoCRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. The public repository carries 3,424 stars. EspoCRM offers a public API for custom integrations."
+          "text": "EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. The public repository carries 3,430 stars. EspoCRM offers a public API for custom integrations."
         }
       },
       {

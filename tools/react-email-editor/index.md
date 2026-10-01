@@ -15,11 +15,11 @@
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $250/mo |
 | ✓ AI capabilities: AI Assistant chat editing |  |
-| ✓ Active public repository (5,231 GitHub stars counted at last check) |  |
+| ✓ Active public repository (5,232 GitHub stars counted at last check) |  |
 | ✓ Native integrations include React, Angular, Vue (7 listed) |  |
 
 **What is React Email Editor?**
-React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,231 stars.
+React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,232 stars.
 
 **How much does React Email Editor cost?**
 React Email Editor has a free tier; paid plans start at $250/mo. Free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
@@ -28,7 +28,7 @@ React Email Editor has a free tier; paid plans start at $250/mo. Free tier for t
 The fastest route to a real email builder inside a React app, and an honest one as long as you read the MIT license as covering the wrapper rather than the editor.
 
 **Is React Email Editor really open source?**
-The npm package is, under MIT, with about 5,231 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
+The npm package is, under MIT, with about 5232 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
 
 **What are Unlayer's paid plans?**
 Free at $0, Launch at $250 per month, Scale at $750 per month, and Optimize at $2,000 per month, with custom Enterprise pricing. Annual billing saves 10 percent across the paid tiers, every paid plan includes a 14-day trial, and add-on credit packs for AI, exports, inbox previews, and bandwidth start at $50 per month and top out at $2,000.
@@ -41,9 +41,9 @@ If you need a fully open pipeline with no third-party dependency, yes, and you s
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 5231
+- **GitHub:** ★ 5232
 - **API:** No
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-09-06
 
 **Verdict:** React Email Editor is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 7 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
@@ -174,13 +174,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,231 stars.
+React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,232 stars.
 
 React Email Editor has a free tier; paid plans start at $250/mo. Free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
 
 The fastest route to a real email builder inside a React app, and an honest one as long as you read the MIT license as covering the wrapper rather than the editor.
 
-The npm package is, under MIT, with about 5,231 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
+The npm package is, under MIT, with about 5232 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
 
 Free at $0, Launch at $250 per month, Scale at $750 per month, and Optimize at $2,000 per month, with custom Enterprise pricing. Annual billing saves 10 percent across the paid tiers, every paid plan includes a 14-day trial, and add-on credit packs for AI, exports, inbox previews, and bandwidth start at $50 per month and top out at $2,000.
 
@@ -283,7 +283,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is React Email Editor?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,231 stars."
+          "text": "React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,232 stars."
         }
       },
       {
@@ -307,7 +307,7 @@ One email when a new tool review lands, nothing else.
         "name": "Is React Email Editor really open source?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The npm package is, under MIT, with about 5,231 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier."
+          "text": "The npm package is, under MIT, with about 5232 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier."
         }
       },
       {

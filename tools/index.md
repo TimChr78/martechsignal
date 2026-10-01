@@ -492,6 +492,12 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 
 Open SourceDesk-reviewedEmail MarketingOSS
 
+Brevo
+
+Multichannel marketing platform billing by email volume, not contacts
+
+FreemiumDesk-reviewedEmail Marketing
+
 Customer.io
 
 Data-driven messaging platform for automated email, push, SMS, and in-app messages
@@ -762,6 +768,12 @@ Open-source feature flags and A/B testing with a visual editor and attribute-bas
 
 FreemiumDesk-reviewedPersonalization & CDPOSS
 
+Hightouch
+
+Composable CDP that activates warehouse data where marketing runs
+
+FreemiumDesk-reviewedPersonalization & CDP
+
 Jitsu
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
@@ -773,6 +785,12 @@ Nosto
 AI-powered ecommerce personalization with product recommendations and merchandising
 
 EnterpriseDesk-reviewedPersonalization & CDP
+
+RudderStack
+
+Warehouse-first CDP: open-source Go data plane plus managed routing
+
+Free tierDesk-reviewedPersonalization & CDPOSS
 
 Tealium
 
@@ -986,9 +1004,9 @@ Browse by licence: [Open-source tools](/categories/open-source/) · [all categor
 
 Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.
 
-163 TOOLS · 13 CATEGORIES + OPEN-SOURCE INDEX · UPDATED WEEKLY
+166 TOOLS · 13 CATEGORIES + OPEN-SOURCE INDEX · UPDATED WEEKLY
 
-Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 80 of them, with daily snapshots since Aug 25, 2026.
+Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 81 of them, with daily snapshots since Aug 25, 2026.
 
 A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The [marketing automation checklist](/checklist/) walks the 12 questions that decide it, and scores your answers in the browser.
 
@@ -998,7 +1016,7 @@ A directory tells you what exists. It does not tell you whether your stack can h
 
 The weekly newsletter tracks this category: one teardown, one workflow, no fluff.
 
-All 163 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
+All 166 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
 
 ## AI Content & Copywriting *13*
 
@@ -1012,13 +1030,13 @@ All 163 tools, grouped by category. Each card links to a full teardown with pric
 
 ## Chatbots & Conversational AI *6*
 
-## Email Marketing *15*
+## Email Marketing *16*
 
 ## GEO & LLM Optimization *14*
 
 ## Marketing Automation *12*
 
-## Personalization & CDP *9*
+## Personalization & CDP *11*
 
 ## SEO & Search *9*
 
@@ -1042,7 +1060,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "AI Marketing Tool Directory",
     "description": "Curated directory of AI-powered marketing automation tools",
-    "numberOfItems": 163,
+    "numberOfItems": 166,
     "itemListElement": [
       {
         "@type": "ListItem",
@@ -1299,6 +1317,16 @@ One email when a new tool review lands, nothing else.
         "position": 26,
         "item": {
           "@type": "SoftwareApplication",
+          "@id": "https://martechsignal.com/tools/brevo/#app",
+          "name": "Brevo",
+          "url": "https://martechsignal.com/tools/brevo/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 27,
+        "item": {
+          "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/budibase/#app",
           "name": "Budibase",
           "url": "https://martechsignal.com/tools/budibase/"
@@ -1306,7 +1334,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 27,
+        "position": 28,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/buffer/#app",
@@ -1316,7 +1344,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 28,
+        "position": 29,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/chatbotx/#app",
@@ -1326,7 +1354,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 29,
+        "position": 30,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/chatfuel/#app",
@@ -1336,7 +1364,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 30,
+        "position": 31,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/chatwoot/#app",
@@ -1346,7 +1374,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 31,
+        "position": 32,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/claude-ads/#app",
@@ -1356,7 +1384,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 32,
+        "position": 33,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/claude-seo/#app",
@@ -1366,7 +1394,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 33,
+        "position": 34,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/clearscope/#app",
@@ -1376,7 +1404,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 34,
+        "position": 35,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/clerk-io/#app",
@@ -1386,7 +1414,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 35,
+        "position": 36,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/codex-seo/#app",
@@ -1396,7 +1424,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 36,
+        "position": 37,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/contentbot/#app",
@@ -1406,7 +1434,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 37,
+        "position": 38,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/copy-ai/#app",
@@ -1416,7 +1444,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 38,
+        "position": 39,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/cordys-crm/#app",
@@ -1426,7 +1454,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 39,
+        "position": 40,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/customer-io/#app",
@@ -1436,7 +1464,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 40,
+        "position": 41,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/deskcommcrm/#app",
@@ -1446,7 +1474,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 41,
+        "position": 42,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#app",
@@ -1456,7 +1484,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 42,
+        "position": 43,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/digital-marketing-pro/#app",
@@ -1466,7 +1494,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 43,
+        "position": 44,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/django-crm/#app",
@@ -1476,7 +1504,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 44,
+        "position": 45,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/dolibarr/#app",
@@ -1486,7 +1514,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 45,
+        "position": 46,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/dynamic-yield/#app",
@@ -1496,7 +1524,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 46,
+        "position": 47,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/email-marketing-bible/#app",
@@ -1506,7 +1534,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 47,
+        "position": 48,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/espocrm/#app",
@@ -1516,7 +1544,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 48,
+        "position": 49,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/eve-marketing-team/#app",
@@ -1526,7 +1554,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 49,
+        "position": 50,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/ever-gauzy/#app",
@@ -1536,7 +1564,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 50,
+        "position": 51,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/evertune/#app",
@@ -1546,7 +1574,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 51,
+        "position": 52,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/flagsmith/#app",
@@ -1556,7 +1584,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 52,
+        "position": 53,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/frappe-crm/#app",
@@ -1566,7 +1594,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 53,
+        "position": 54,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/frase/#app",
@@ -1576,7 +1604,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 54,
+        "position": 55,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/freshsales/#app",
@@ -1586,7 +1614,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 55,
+        "position": 56,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/ghost/#app",
@@ -1596,7 +1624,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 56,
+        "position": 57,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/#app",
@@ -1606,7 +1634,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 57,
+        "position": 58,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/growth-lab/#app",
@@ -1616,7 +1644,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 58,
+        "position": 59,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/growthbook/#app",
@@ -1626,7 +1654,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 59,
+        "position": 60,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/heap/#app",
@@ -1636,7 +1664,17 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 60,
+        "position": 61,
+        "item": {
+          "@type": "SoftwareApplication",
+          "@id": "https://martechsignal.com/tools/hightouch/#app",
+          "name": "Hightouch",
+          "url": "https://martechsignal.com/tools/hightouch/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 62,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/hootsuite/#app",
@@ -1646,7 +1684,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 61,
+        "position": 63,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/hubspot-crm/#app",
@@ -1656,7 +1694,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 62,
+        "position": 64,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/hubspot-marketing-hub/#app",
@@ -1666,7 +1704,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 63,
+        "position": 65,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/hypotenuse-ai/#app",
@@ -1676,7 +1714,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 64,
+        "position": 66,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/idurar-erp-crm/#app",
@@ -1686,7 +1724,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 65,
+        "position": 67,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/ifttt/#app",
@@ -1696,7 +1734,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 66,
+        "position": 68,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/intercom/#app",
@@ -1706,7 +1744,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 67,
+        "position": 69,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/jasper/#app",
@@ -1716,7 +1754,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 68,
+        "position": 70,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/jitsu/#app",
@@ -1726,7 +1764,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 69,
+        "position": 71,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/khoj/#app",
@@ -1736,7 +1774,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 70,
+        "position": 72,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/klaviyo/#app",
@@ -1746,7 +1784,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 71,
+        "position": 73,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/krayin-crm/#app",
@@ -1756,7 +1794,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 72,
+        "position": 74,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/langchain/#app",
@@ -1766,7 +1804,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 73,
+        "position": 75,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/languagetool/#app",
@@ -1776,7 +1814,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 74,
+        "position": 76,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/laudspeaker/#app",
@@ -1786,7 +1824,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 75,
+        "position": 77,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/libretranslate/#app",
@@ -1796,7 +1834,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 76,
+        "position": 78,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/line-harness/#app",
@@ -1806,7 +1844,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 77,
+        "position": 79,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/listmonk/#app",
@@ -1816,7 +1854,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 78,
+        "position": 80,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/loops/#app",
@@ -1826,7 +1864,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 79,
+        "position": 81,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/macro/#app",
@@ -1836,7 +1874,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 80,
+        "position": 82,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/madgicx/#app",
@@ -1846,7 +1884,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 81,
+        "position": 83,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/mailchimp/#app",
@@ -1856,7 +1894,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 82,
+        "position": 84,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/maizzle/#app",
@@ -1866,7 +1904,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 83,
+        "position": 85,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/make/#app",
@@ -1876,7 +1914,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 84,
+        "position": 86,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/manychat/#app",
@@ -1886,7 +1924,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 85,
+        "position": 87,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/marketing-studio/#app",
@@ -1896,7 +1934,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 86,
+        "position": 88,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/marketmuse/#app",
@@ -1906,7 +1944,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 87,
+        "position": 89,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/matomo/#app",
@@ -1916,7 +1954,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 88,
+        "position": 90,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/mautic/#app",
@@ -1926,7 +1964,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 89,
+        "position": 91,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/power-automate/#app",
@@ -1936,7 +1974,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 90,
+        "position": 92,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/mixpanel/#app",
@@ -1946,7 +1984,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 91,
+        "position": 93,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/monica/#app",
@@ -1956,7 +1994,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 92,
+        "position": 94,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/multipost-extension/#app",
@@ -1966,7 +2004,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 93,
+        "position": 95,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/n8n/#app",
@@ -1976,7 +2014,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 94,
+        "position": 96,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/n8n-marketing-flows/#app",
@@ -1986,7 +2024,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 95,
+        "position": 97,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/nightwatch/#app",
@@ -1996,7 +2034,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 96,
+        "position": 98,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/nimt-ai/#app",
@@ -2006,7 +2044,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 97,
+        "position": 99,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/nocobase/#app",
@@ -2016,7 +2054,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 98,
+        "position": 100,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/nocodb/#app",
@@ -2026,7 +2064,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 99,
+        "position": 101,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/northbeam/#app",
@@ -2036,7 +2074,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 100,
+        "position": 102,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/nosto/#app",
@@ -2046,7 +2084,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 101,
+        "position": 103,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/notifo/#app",
@@ -2056,7 +2094,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 102,
+        "position": 104,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/notifuse/#app",
@@ -2066,7 +2104,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 103,
+        "position": 105,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/open-mercato/#app",
@@ -2076,7 +2114,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 104,
+        "position": 106,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#app",
@@ -2086,7 +2124,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 105,
+        "position": 107,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/openoutreach/#app",
@@ -2096,7 +2134,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 106,
+        "position": 108,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/openseo/#app",
@@ -2106,7 +2144,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 107,
+        "position": 109,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/opteo/#app",
@@ -2116,7 +2154,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 108,
+        "position": 110,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/ortto/#app",
@@ -2126,7 +2164,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 109,
+        "position": 111,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/otterlyai/#app",
@@ -2136,7 +2174,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 110,
+        "position": 112,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/pabbly-connect/#app",
@@ -2146,7 +2184,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 111,
+        "position": 113,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/paperclip/#app",
@@ -2156,7 +2194,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 112,
+        "position": 114,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/pencil/#app",
@@ -2166,7 +2204,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 113,
+        "position": 115,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/persado/#app",
@@ -2176,7 +2214,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 114,
+        "position": 116,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/phrasee/#app",
@@ -2186,7 +2224,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 115,
+        "position": 117,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/pipedream/#app",
@@ -2196,7 +2234,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 116,
+        "position": 118,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/pipedrive/#app",
@@ -2206,7 +2244,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 117,
+        "position": 119,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/plausible/#app",
@@ -2216,7 +2254,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 118,
+        "position": 120,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/posthog/#app",
@@ -2226,7 +2264,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 119,
+        "position": 121,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/postmark/#app",
@@ -2236,7 +2274,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 120,
+        "position": 122,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/potato-ai-visibility/#app",
@@ -2246,7 +2284,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 121,
+        "position": 123,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/predis-ai/#app",
@@ -2256,7 +2294,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 122,
+        "position": 124,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/profound/#app",
@@ -2266,7 +2304,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 123,
+        "position": 125,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/promptfoo/#app",
@@ -2276,7 +2314,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 124,
+        "position": 126,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/prospectos/#app",
@@ -2286,7 +2324,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 125,
+        "position": 127,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/rankscale/#app",
@@ -2296,7 +2334,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 126,
+        "position": 128,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/react-email-editor/#app",
@@ -2306,7 +2344,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 127,
+        "position": 129,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/relaticle/#app",
@@ -2316,7 +2354,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 128,
+        "position": 130,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/resend/#app",
@@ -2326,7 +2364,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 129,
+        "position": 131,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/revealbot/#app",
@@ -2336,7 +2374,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 130,
+        "position": 132,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/revive-adserver/#app",
@@ -2346,7 +2384,17 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 131,
+        "position": 133,
+        "item": {
+          "@type": "SoftwareApplication",
+          "@id": "https://martechsignal.com/tools/rudderstack/#app",
+          "name": "RudderStack",
+          "url": "https://martechsignal.com/tools/rudderstack/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 134,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/salesforce-crm/#app",
@@ -2356,7 +2404,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 132,
+        "position": 135,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/salesforce-marketing-cloud/#app",
@@ -2366,7 +2414,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 133,
+        "position": 136,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/scrunch/#app",
@@ -2376,7 +2424,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 134,
+        "position": 137,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/semrush/#app",
@@ -2386,7 +2434,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 135,
+        "position": 138,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/seo-skill-bench/#app",
@@ -2396,7 +2444,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 136,
+        "position": 139,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/seonaut/#app",
@@ -2406,7 +2454,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 137,
+        "position": 140,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/sistrix/#app",
@@ -2416,7 +2464,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 138,
+        "position": 141,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/smartly-io/#app",
@@ -2426,7 +2474,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 139,
+        "position": 142,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/snowplow/#app",
@@ -2436,7 +2484,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 140,
+        "position": 143,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/sprout-social/#app",
@@ -2446,7 +2494,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 141,
+        "position": 144,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/strapi/#app",
@@ -2456,7 +2504,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 142,
+        "position": 145,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/suitecrm/#app",
@@ -2466,7 +2514,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 143,
+        "position": 146,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/superlines/#app",
@@ -2476,7 +2524,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 144,
+        "position": 147,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/surfer-seo/#app",
@@ -2486,7 +2534,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 145,
+        "position": 148,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/tealium/#app",
@@ -2496,7 +2544,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 146,
+        "position": 149,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/tidio/#app",
@@ -2506,7 +2554,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 147,
+        "position": 150,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/tooljet/#app",
@@ -2516,7 +2564,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 148,
+        "position": 151,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/trakkr/#app",
@@ -2526,7 +2574,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 149,
+        "position": 152,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/tray-io/#app",
@@ -2536,7 +2584,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 150,
+        "position": 153,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/triple-whale/#app",
@@ -2546,7 +2594,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 151,
+        "position": 154,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/twenty/#app",
@@ -2556,7 +2604,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 152,
+        "position": 155,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/segment/#app",
@@ -2566,7 +2614,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 153,
+        "position": 156,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/sendgrid/#app",
@@ -2576,7 +2624,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 154,
+        "position": 157,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/umami/#app",
@@ -2586,7 +2634,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 155,
+        "position": 158,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/wacrm/#app",
@@ -2596,7 +2644,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 156,
+        "position": 159,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/warmbly/#app",
@@ -2606,7 +2654,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 157,
+        "position": 160,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/warpdrive/#app",
@@ -2616,7 +2664,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 158,
+        "position": 161,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/workato/#app",
@@ -2626,7 +2674,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 159,
+        "position": 162,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/writer/#app",
@@ -2636,7 +2684,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 160,
+        "position": 163,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/writesonic/#app",
@@ -2646,7 +2694,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 161,
+        "position": 164,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/zapier/#app",
@@ -2656,7 +2704,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 162,
+        "position": 165,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/#app",
@@ -2666,7 +2714,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 163,
+        "position": 166,
         "item": {
           "@type": "SoftwareApplication",
           "@id": "https://martechsignal.com/tools/zoho-crm/#app",

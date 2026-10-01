@@ -188,7 +188,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-08-05",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/",
   "image": {
     "@type": "ImageObject",
@@ -234,7 +234,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/", "breadcrumb": {"@id": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/", "breadcrumb": {"@id": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

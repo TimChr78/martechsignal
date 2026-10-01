@@ -20,6 +20,10 @@ Open-source feature flags and A/B testing with a visual editor and attribute-bas
 
 FreemiumDesk-reviewedOSS
 
+Composable CDP that activates warehouse data where marketing runs
+
+FreemiumDesk-reviewed
+
 Open-source Segment alternative for event capture and warehouse-first data pipelines
 
 FreemiumDesk-reviewedOSS
@@ -27,6 +31,10 @@ FreemiumDesk-reviewedOSS
 AI-powered ecommerce personalization with product recommendations and merchandising
 
 EnterpriseDesk-reviewed
+
+Warehouse-first CDP: open-source Go data plane plus managed routing
+
+Free tierDesk-reviewedOSS
 
 Enterprise customer data platform with real-time data orchestration and AI
 
@@ -45,7 +53,7 @@ FreemiumDesk-reviewed
 
 Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization
 
-9 TOOLS IN THIS CATEGORY
+11 TOOLS IN THIS CATEGORY
 
 ## All tools in this category**
 
@@ -59,15 +67,19 @@ Customer data platforms, experimentation, and experience engines, from open-sour
 
 ### GrowthBook
 
+### Hightouch
+
 ### Jitsu
 
 ### Nosto
+
+### RudderStack
 
 ### Tealium
 
 ### Twilio Segment
 
-**Compare:** [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+**Compare:** [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) · [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/)
 
 Personalization stacks in three layers, and most failed projects bought the top one first. The data layer collects and unifies who the visitor is: Twilio Segment, Tealium, Jitsu, Apache Unomi. The experimentation layer runs tests and gates features: GrowthBook, Flagsmith. The experience layer decides what each visitor sees: Dynamic Yield, Nosto, Clerk.io. The pitch is simple: a returning customer should not see the same homepage as a first-time visitor. The layers above only work on clean identity data underneath.
 
@@ -117,7 +129,7 @@ Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith]
       "isPartOf": {
         "@id": "https://martechsignal.com/#website"
       },
-      "numberOfItems": 9,
+      "numberOfItems": 11,
       "dateModified": "2026-10-01",
       "itemListElement": [
         {
@@ -184,6 +196,18 @@ Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith]
           "@type": "ListItem",
           "position": 6,
           "item": {
+            "@id": "https://martechsignal.com/tools/hightouch/#app",
+            "name": "Hightouch",
+            "description": "Composable CDP that activates warehouse data where marketing runs",
+            "image": "https://martechsignal.com/og/tools/hightouch.png",
+            "url": "https://martechsignal.com/tools/hightouch/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
             "@id": "https://martechsignal.com/tools/jitsu/#app",
             "name": "Jitsu",
             "description": "Open-source Segment alternative for event capture and warehouse-first data pipelines",
@@ -194,7 +218,7 @@ Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith]
         },
         {
           "@type": "ListItem",
-          "position": 7,
+          "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/nosto/#app",
             "name": "Nosto",
@@ -206,7 +230,19 @@ Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith]
         },
         {
           "@type": "ListItem",
-          "position": 8,
+          "position": 9,
+          "item": {
+            "@id": "https://martechsignal.com/tools/rudderstack/#app",
+            "name": "RudderStack",
+            "description": "Warehouse-first CDP: open-source Go data plane plus managed routing",
+            "image": "https://martechsignal.com/og/tools/rudderstack.png",
+            "url": "https://martechsignal.com/tools/rudderstack/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
           "item": {
             "@id": "https://martechsignal.com/tools/tealium/#app",
             "name": "Tealium",
@@ -218,7 +254,7 @@ Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith]
         },
         {
           "@type": "ListItem",
-          "position": 9,
+          "position": 11,
           "item": {
             "@id": "https://martechsignal.com/tools/segment/#app",
             "name": "Twilio Segment",

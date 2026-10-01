@@ -15,23 +15,23 @@
 | --- | --- |
 | ✓ Apache-2.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing |  |
-| ✓ Active public repository (1,993 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,991 GitHub stars counted at last check) |  |
 
 **What is Growth Lab?**
-Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,993 stars.
+Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,991 stars.
 
 **How much does Growth Lab cost?**
-Growth Lab is open source - Apache-2.0 licensed and free to self-host; the public repository carries 1,993 stars; native integrations cover Claude Code, OpenAI Codex, IndexNow. You pay in server time and maintenance, not licences.
+Growth Lab is open source - Apache-2.0 licensed and free to self-host; the public repository carries 1,991 stars; native integrations cover Claude Code, OpenAI Codex, IndexNow. You pay in server time and maintenance, not licences.
 
 **Is Growth Lab a good self-hosted Agent Skills tool in 2026?**
 Promising for teams ready to run self-hosted SEO loops with agent review. Everyone else should wait for maturity.
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 1993
+- **GitHub:** ★ 1991
 - **Founded:** 2026
 - **API:** No
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-08-28
 
 **Verdict:** Growth Lab is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
@@ -82,7 +82,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 ## MartechSignal Score: 34/60
 
-Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 2.0k stars; the harness cost is on you.
+Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 1991 stars; the harness cost is on you.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -138,9 +138,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,993 stars.
+Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,991 stars.
 
-Growth Lab is open source - Apache-2.0 licensed and free to self-host; the public repository carries 1,993 stars; native integrations cover Claude Code, OpenAI Codex, IndexNow. You pay in server time and maintenance, not licences.
+Growth Lab is open source - Apache-2.0 licensed and free to self-host; the public repository carries 1,991 stars; native integrations cover Claude Code, OpenAI Codex, IndexNow. You pay in server time and maintenance, not licences.
 
 Promising for teams ready to run self-hosted SEO loops with agent review. Everyone else should wait for maturity.
 
@@ -225,7 +225,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Growth Lab?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,993 stars."
+          "text": "Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,991 stars."
         }
       },
       {
@@ -233,7 +233,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Growth Lab cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Growth Lab is open source - Apache-2.0 licensed and free to self-host; the public repository carries 1,993 stars; native integrations cover Claude Code, OpenAI Codex, IndexNow. You pay in server time and maintenance, not licences."
+          "text": "Growth Lab is open source - Apache-2.0 licensed and free to self-host; the public repository carries 1,991 stars; native integrations cover Claude Code, OpenAI Codex, IndexNow. You pay in server time and maintenance, not licences."
         }
       },
       {
@@ -261,7 +261,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 2.0k stars; the harness cost is on you.",
+    "reviewBody": "Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 1991 stars; the harness cost is on you.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/growth-lab/#app",

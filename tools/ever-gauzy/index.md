@@ -15,10 +15,10 @@
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $17/mo |
 | ✓ API access for custom integrations |  |
-| ✓ Active public repository (8,125 GitHub stars counted at last check) |  |
+| ✓ Active public repository (8,144 GitHub stars counted at last check) |  |
 
 **What is Ever Gauzy?**
-Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 8,125 stars. Ever Gauzy offers a public API for custom integrations.
+Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 8,144 stars. Ever Gauzy offers a public API for custom integrations.
 
 **How much does Ever Gauzy cost?**
 Ever Gauzy has a free tier; paid plans start at $17/mo. Self-hosted free (AGPLv3 Community Edition); Cloud Starter free for 1 company and 1 employee, Small Business $17/mo billed annually, Enterprise $139/mo billed annually. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
@@ -37,9 +37,9 @@ Yes, and it is the platform's anchor module. The README lists employee time-trac
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 8125
+- **GitHub:** ★ 8144
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-09-07
 
 **Verdict:** Ever Gauzy is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
@@ -158,7 +158,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 8,125 stars. Ever Gauzy offers a public API for custom integrations.
+Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 8,144 stars. Ever Gauzy offers a public API for custom integrations.
 
 Ever Gauzy has a free tier; paid plans start at $17/mo. Self-hosted free (AGPLv3 Community Edition); Cloud Starter free for 1 company and 1 employee, Small Business $17/mo billed annually, Enterprise $139/mo billed annually. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
@@ -260,7 +260,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Ever Gauzy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 8,125 stars. Ever Gauzy offers a public API for custom integrations."
+          "text": "Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 8,144 stars. Ever Gauzy offers a public API for custom integrations."
         }
       },
       {

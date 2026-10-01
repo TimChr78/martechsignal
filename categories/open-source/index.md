@@ -272,6 +272,10 @@ Free open source ad server for publishers, ad networks and advertisers
 
 Open SourceDesk-reviewedOSS
 
+Warehouse-first CDP: open-source Go data plane plus managed routing
+
+Free tierDesk-reviewedOSS
+
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
 Open SourceDesk-reviewedOSS
@@ -329,7 +333,7 @@ Open SourceDesk-reviewedOSS
 
 80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
 
-80 TOOLS IN THIS CATEGORY
+81 TOOLS IN THIS CATEGORY
 
 ## All tools in this category**
 
@@ -469,6 +473,8 @@ Open SourceDesk-reviewedOSS
 
 ### Revive Adserver
 
+### RudderStack
+
 ### SEO Skill Bench
 
 ### Seonaut
@@ -493,7 +499,7 @@ Open SourceDesk-reviewedOSS
 
 ### Zapier GTM Cheat Codes
 
-**Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) · [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) · [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) · [Matomo vs PostHog](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/) · [n8n alternatives](/alternatives/n8n/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best workflow automation tools (2026)](/best/workflow-automation-tools/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) · [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) · [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) · [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) · [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) · [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) · [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) · [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+**Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) · [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) · [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) · [Matomo vs PostHog](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/) · [n8n alternatives](/alternatives/n8n/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best workflow automation tools (2026)](/best/workflow-automation-tools/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) · [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) · [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) · [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) · [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) · [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) · [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) · [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) · [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/)
 
 This index lists every open-source tool in the catalog: 80 projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.
 
@@ -543,7 +549,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
       "isPartOf": {
         "@id": "https://martechsignal.com/#website"
       },
-      "numberOfItems": 80,
+      "numberOfItems": 81,
       "dateModified": "2026-10-01",
       "itemListElement": [
         {
@@ -1366,6 +1372,18 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
           "@type": "ListItem",
           "position": 69,
           "item": {
+            "@id": "https://martechsignal.com/tools/rudderstack/#app",
+            "name": "RudderStack",
+            "description": "Warehouse-first CDP: open-source Go data plane plus managed routing",
+            "image": "https://martechsignal.com/og/tools/rudderstack.png",
+            "url": "https://martechsignal.com/tools/rudderstack/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 70,
+          "item": {
             "@id": "https://martechsignal.com/tools/seo-skill-bench/#app",
             "name": "SEO Skill Bench",
             "description": "Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects",
@@ -1376,7 +1394,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         },
         {
           "@type": "ListItem",
-          "position": 70,
+          "position": 71,
           "item": {
             "@id": "https://martechsignal.com/tools/seonaut/#app",
             "name": "Seonaut",
@@ -1388,7 +1406,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         },
         {
           "@type": "ListItem",
-          "position": 71,
+          "position": 72,
           "item": {
             "@id": "https://martechsignal.com/tools/snowplow/#app",
             "name": "Snowplow",
@@ -1400,7 +1418,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         },
         {
           "@type": "ListItem",
-          "position": 72,
+          "position": 73,
           "item": {
             "@id": "https://martechsignal.com/tools/strapi/#app",
             "name": "Strapi",
@@ -1412,7 +1430,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         },
         {
           "@type": "ListItem",
-          "position": 73,
+          "position": 74,
           "item": {
             "@id": "https://martechsignal.com/tools/suitecrm/#app",
             "name": "SuiteCRM",
@@ -1424,7 +1442,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         },
         {
           "@type": "ListItem",
-          "position": 74,
+          "position": 75,
           "item": {
             "@id": "https://martechsignal.com/tools/tooljet/#app",
             "name": "ToolJet",
@@ -1436,7 +1454,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         },
         {
           "@type": "ListItem",
-          "position": 75,
+          "position": 76,
           "item": {
             "@id": "https://martechsignal.com/tools/twenty/#app",
             "name": "Twenty",
@@ -1448,7 +1466,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         },
         {
           "@type": "ListItem",
-          "position": 76,
+          "position": 77,
           "item": {
             "@id": "https://martechsignal.com/tools/umami/#app",
             "name": "Umami",
@@ -1460,7 +1478,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         },
         {
           "@type": "ListItem",
-          "position": 77,
+          "position": 78,
           "item": {
             "@id": "https://martechsignal.com/tools/wacrm/#app",
             "name": "WaCRM",
@@ -1472,7 +1490,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         },
         {
           "@type": "ListItem",
-          "position": 78,
+          "position": 79,
           "item": {
             "@id": "https://martechsignal.com/tools/warmbly/#app",
             "name": "Warmbly",
@@ -1484,7 +1502,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         },
         {
           "@type": "ListItem",
-          "position": 79,
+          "position": 80,
           "item": {
             "@id": "https://martechsignal.com/tools/warpdrive/#app",
             "name": "Warpdrive",
@@ -1496,7 +1514,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         },
         {
           "@type": "ListItem",
-          "position": 80,
+          "position": 81,
           "item": {
             "@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/#app",
             "name": "Zapier GTM Cheat Codes",

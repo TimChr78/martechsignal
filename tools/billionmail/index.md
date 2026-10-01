@@ -15,11 +15,11 @@
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $98.9/mo |
 | ✓ AI capabilities: AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi) |  |
-| ✓ Active public repository (15,739 GitHub stars counted at last check) |  |
+| ✓ Active public repository (15,795 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Postfix, Dovecot, Rspamd (7 listed) |  |
 
 **What is BillionMail?**
-BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,739 stars.
+BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,795 stars.
 
 **How much does BillionMail cost?**
 BillionMail has a free tier; paid plans start at $98.9/mo. Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.9 per instance. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
@@ -38,10 +38,10 @@ One documented one: AI email template generation, added in v4.0, where you descr
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 15739
+- **GitHub:** ★ 15795
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-09-07
 
 **Verdict:** BillionMail is a tool in Email Marketing with free and open source. The catalog documents 2 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
@@ -169,7 +169,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,739 stars.
+BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,795 stars.
 
 BillionMail has a free tier; paid plans start at $98.9/mo. Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.9 per instance. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
@@ -271,7 +271,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is BillionMail?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,739 stars."
+          "text": "BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,795 stars."
         }
       },
       {

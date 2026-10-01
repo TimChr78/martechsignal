@@ -51,6 +51,14 @@ Tealium
 
 Enterprise customer data platform with real-time data orchestration and AI
 
+RudderStack
+
+Warehouse-first CDP: open-source Go data plane plus managed routing
+
+Hightouch
+
+Composable CDP that activates warehouse data where marketing runs
+
 Amplitude
 
 AI-powered digital analytics platform for product and marketing teams
@@ -58,10 +66,6 @@ AI-powered digital analytics platform for product and marketing teams
 Jitsu
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
-
-Mixpanel
-
-Product analytics platform with AI-powered insights for user behavior tracking
 
 [More Personalization & CDP Tools →](/categories/personalization/)
 
@@ -194,9 +198,10 @@ Connections is the data pipeline: sources, destinations, Reverse ETL, and wareho
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Teams whose personalization problem is really a data plumbing problem
+- [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best documented default when budget is not the deciding axis.
 ### Quick Facts
 
-Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
+Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/) · [Cdp](/best/cdp/)
 
 ## Get the next teardown
 

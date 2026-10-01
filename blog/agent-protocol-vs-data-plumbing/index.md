@@ -129,7 +129,7 @@ More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
     }
   },
   "datePublished": "2026-09-23",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/",
   "image": {
     "@type": "ImageObject",
@@ -187,7 +187,7 @@ More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

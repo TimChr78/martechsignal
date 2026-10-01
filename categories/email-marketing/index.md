@@ -4,6 +4,10 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 
 Open SourceDesk-reviewedOSS
 
+Multichannel marketing platform billing by email volume, not contacts
+
+FreemiumDesk-reviewed
+
 Data-driven messaging platform for automated email, push, SMS, and in-app messages
 
 From $100/moDesk-reviewed
@@ -69,11 +73,13 @@ Open SourceDesk-reviewedOSS
 
 Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites
 
-15 TOOLS IN THIS CATEGORY
+16 TOOLS IN THIS CATEGORY
 
 ## All tools in this category**
 
 ### BillionMail
+
+### Brevo
 
 ### Customer.io
 
@@ -103,7 +109,7 @@ Campaign platforms, lifecycle automation, and transactional delivery APIs, from 
 
 ### Warmbly
 
-**Compare:** [ActiveCampaign vs Klaviyo](/vs/activecampaign-vs-klaviyo/) · [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+**Compare:** [ActiveCampaign vs Klaviyo](/vs/activecampaign-vs-klaviyo/) · [Mailchimp vs Klaviyo](/vs/mailchimp-vs-klaviyo/) · [Mailchimp vs Brevo](/vs/mailchimp-vs-brevo/) · [Mailchimp alternatives](/alternatives/mailchimp/) · [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 
 Email tools split into three layers, and buying the wrong one is the expensive mistake here. Campaign platforms like Mailchimp and Klaviyo build newsletters and automated flows. Lifecycle engines like Customer.io and Loops trigger messages off product events. Delivery APIs like Postmark, Resend, and Twilio SendGrid simply move the mail and price on volume. Feature-comparing all fifteen tools in this category compares things that do not compete with each other.
 
@@ -153,7 +159,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
       "isPartOf": {
         "@id": "https://martechsignal.com/#website"
       },
-      "numberOfItems": 15,
+      "numberOfItems": 16,
       "dateModified": "2026-10-01",
       "itemListElement": [
         {
@@ -172,6 +178,18 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
           "@type": "ListItem",
           "position": 2,
           "item": {
+            "@id": "https://martechsignal.com/tools/brevo/#app",
+            "name": "Brevo",
+            "description": "Multichannel marketing platform billing by email volume, not contacts",
+            "image": "https://martechsignal.com/og/tools/brevo.png",
+            "url": "https://martechsignal.com/tools/brevo/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
             "@id": "https://martechsignal.com/tools/customer-io/#app",
             "name": "Customer.io",
             "description": "Data-driven messaging platform for automated email, push, SMS, and in-app messages",
@@ -182,7 +200,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         },
         {
           "@type": "ListItem",
-          "position": 3,
+          "position": 4,
           "item": {
             "@id": "https://martechsignal.com/tools/klaviyo/#app",
             "name": "Klaviyo",
@@ -194,7 +212,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         },
         {
           "@type": "ListItem",
-          "position": 4,
+          "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/listmonk/#app",
             "name": "Listmonk",
@@ -206,7 +224,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         },
         {
           "@type": "ListItem",
-          "position": 5,
+          "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/loops/#app",
             "name": "Loops",
@@ -218,7 +236,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         },
         {
           "@type": "ListItem",
-          "position": 6,
+          "position": 7,
           "item": {
             "@id": "https://martechsignal.com/tools/mailchimp/#app",
             "name": "Mailchimp",
@@ -230,7 +248,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         },
         {
           "@type": "ListItem",
-          "position": 7,
+          "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/maizzle/#app",
             "name": "Maizzle",
@@ -242,7 +260,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         },
         {
           "@type": "ListItem",
-          "position": 8,
+          "position": 9,
           "item": {
             "@id": "https://martechsignal.com/tools/notifo/#app",
             "name": "Notifo",
@@ -254,7 +272,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         },
         {
           "@type": "ListItem",
-          "position": 9,
+          "position": 10,
           "item": {
             "@id": "https://martechsignal.com/tools/notifuse/#app",
             "name": "Notifuse",
@@ -266,7 +284,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         },
         {
           "@type": "ListItem",
-          "position": 10,
+          "position": 11,
           "item": {
             "@id": "https://martechsignal.com/tools/openoutreach/#app",
             "name": "OpenOutreach",
@@ -278,7 +296,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         },
         {
           "@type": "ListItem",
-          "position": 11,
+          "position": 12,
           "item": {
             "@id": "https://martechsignal.com/tools/postmark/#app",
             "name": "Postmark",
@@ -290,7 +308,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         },
         {
           "@type": "ListItem",
-          "position": 12,
+          "position": 13,
           "item": {
             "@id": "https://martechsignal.com/tools/react-email-editor/#app",
             "name": "React Email Editor",
@@ -302,7 +320,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         },
         {
           "@type": "ListItem",
-          "position": 13,
+          "position": 14,
           "item": {
             "@id": "https://martechsignal.com/tools/resend/#app",
             "name": "Resend",
@@ -314,7 +332,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         },
         {
           "@type": "ListItem",
-          "position": 14,
+          "position": 15,
           "item": {
             "@id": "https://martechsignal.com/tools/sendgrid/#app",
             "name": "Twilio SendGrid",
@@ -326,7 +344,7 @@ Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://r
         },
         {
           "@type": "ListItem",
-          "position": 15,
+          "position": 16,
           "item": {
             "@id": "https://martechsignal.com/tools/warmbly/#app",
             "name": "Warmbly",

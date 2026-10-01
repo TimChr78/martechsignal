@@ -1,7 +1,7 @@
 # MartechSignal
 
 > Independent reviews of AI marketing automation tools. Structured research on
-> 163 martech platforms | pricing, self-hosting, APIs, and which AI features
+> 166 martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -108,6 +108,7 @@
 ### Email Marketing
 
 - [BillionMail](https://martechsignal.com/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free (open source)
+- [Brevo](https://martechsignal.com/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
 - [Customer.io](https://martechsignal.com/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [Klaviyo](https://martechsignal.com/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
 - [Listmonk](https://martechsignal.com/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend (open source)
@@ -162,8 +163,10 @@
 - [Dynamic Yield](https://martechsignal.com/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences
 - [Flagsmith](https://martechsignal.com/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting (open source)
 - [GrowthBook](https://martechsignal.com/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting (open source)
+- [Hightouch](https://martechsignal.com/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs
 - [Jitsu](https://martechsignal.com/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines (open source)
 - [Nosto](https://martechsignal.com/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
+- [RudderStack](https://martechsignal.com/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing (open source)
 - [Tealium](https://martechsignal.com/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
 - [Twilio Segment](https://martechsignal.com/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
 
@@ -322,14 +325,18 @@
 - [Best AI Personalization &amp; CDP tools (2026): 8 compared](https://martechsignal.com/best/ai-personalization-tools/)
 - [Best AI SEO tools for audits and content (2026)](https://martechsignal.com/best/ai-seo-tools/)
 - [Best AI Social Media tools (2026): 6 compared](https://martechsignal.com/best/ai-social-media-tools/)
+- [Best CDP platforms (2026): 6 compared](https://martechsignal.com/best/cdp/)
 - [Best GEO &amp; LLM Optimization tools (2026): 9 compared](https://martechsignal.com/best/geo-llm-visibility-tools/)
 - [Best Marketing Analytics tools (2026): 8 compared](https://martechsignal.com/best/marketing-analytics-tools/)
 - [Best open-source CRM tools (2026)](https://martechsignal.com/best/open-source-crm/)
 - [Best Open-Source Marketing Automation Tools (2026): 8 compared](https://martechsignal.com/best/open-source-marketing-tools/)
 - [Best workflow automation tools (2026)](https://martechsignal.com/best/workflow-automation-tools/)
+- [ActiveCampaign vs HubSpot (2026): automation vs platform](https://martechsignal.com/vs/activecampaign-vs-hubspot/)
 - [ActiveCampaign vs Klaviyo (2026): pricing and AI](https://martechsignal.com/vs/activecampaign-vs-klaviyo/)
 - [Claude SEO vs Semrush (2026): pricing and AI](https://martechsignal.com/vs/claude-seo-vs-semrush/)
 - [Jasper vs Writer (2026): pricing and AI](https://martechsignal.com/vs/jasper-vs-writer/)
+- [Mailchimp vs Brevo (2026): pricing and multichannel](https://martechsignal.com/vs/mailchimp-vs-brevo/)
+- [Mailchimp vs Klaviyo (2026): pricing and ecommerce](https://martechsignal.com/vs/mailchimp-vs-klaviyo/)
 - [Make vs Zapier (2026): pricing and AI](https://martechsignal.com/vs/make-vs-zapier/)
 - [Matomo vs Plausible (2026): depth or simplicity](https://martechsignal.com/vs/matomo-vs-plausible/)
 - [Matomo vs PostHog: 2026 comparison](https://martechsignal.com/vs/matomo-vs-posthog/)
@@ -338,6 +345,7 @@
 - [NocoDB vs NocoBase (2026): data model ownership](https://martechsignal.com/vs/nocodb-vs-nocobase/)
 - [Salesforce vs HubSpot Marketing Hub (2026): pricing and AI](https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/)
 - [HubSpot CRM Alternatives: 5 Options Compared (2026)](https://martechsignal.com/alternatives/hubspot-crm/)
+- [Mailchimp alternatives (2026): 10 compared](https://martechsignal.com/alternatives/mailchimp/)
 - [Matomo Alternatives: 5 Analytics Tools Compared (2026)](https://martechsignal.com/alternatives/matomo/)
 - [n8n Alternatives: 12 Tools Compared (2026)](https://martechsignal.com/alternatives/n8n/)
 - [Zapier Alternatives: 10 Tools Compared (2026)](https://martechsignal.com/alternatives/zapier/)
@@ -372,5 +380,5 @@
 
 ## Machine-readable data
 
-- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 165 records = 163 active + 2 non-active; the directory above lists only active tools
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 168 records = 166 active + 2 non-active; the directory above lists only active tools
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

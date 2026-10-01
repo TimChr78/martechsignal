@@ -155,9 +155,10 @@ Best for enterprises that need governed, consent-aware data plumbing at scale. W
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Regulated enterprises that need governance around every customer event
+- [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best enterprise governance and consent orchestration at large scale.
 ### Quick Facts
 
-Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
+Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/) · [Cdp](/best/cdp/)
 
 ## Get the next teardown
 

@@ -58,9 +58,9 @@ Jitsu
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
 
-Snowplow
+RudderStack
 
-Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
+Warehouse-first CDP: open-source Go data plane plus managed routing
 
 Nosto
 
@@ -164,7 +164,12 @@ Not a marketer-facing one. Unomi is a REST server, and the privacy and configura
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+## Also featured in
+
+- [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best when data-residency rules and European-consent governance drive the architecture.
 ### Quick Facts
+
+Related guides: [Cdp](/best/cdp/)
 
 ## Get the next teardown
 

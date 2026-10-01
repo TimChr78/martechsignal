@@ -221,7 +221,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-07-27",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/open-source-martech-stack/",
   "image": {
     "@type": "ImageObject",
@@ -267,7 +267,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/open-source-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/open-source-martech-stack/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/open-source-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/open-source-martech-stack/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

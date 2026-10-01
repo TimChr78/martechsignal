@@ -15,17 +15,17 @@
 | --- | --- |
 | ✓ BSD-3-Clause licence with free self-hosting | ✗ The free cloud tier caps at 50,000 API requests a month, which a busy production app passes quickly. |
 | ✓ AI capabilities: MCP Server for natural-language flag management | ✗ Scale pricing is per member, so seat count drives the bill, and the September 2026 price is a launch discount against a USD 60 list. |
-| ✓ Active public repository (6,582 GitHub stars counted at last check) | ✗ Extra API calls start at USD 50 per million, which turns surprise traffic into a real line item. |
+| ✓ Active public repository (6,585 GitHub stars counted at last check) | ✗ Extra API calls start at USD 50 per million, which turns surprise traffic into a real line item. |
 | ✓ Native integrations include Datadog, Grafana, Jira (6 listed) |  |
 | ✓ Native integrations span observability, delivery, and analytics, so flag changes land in tools teams already watch. |  |
 | ✓ The MCP server puts change requests and approvals in the path when AI tools make flag changes. |  |
 | ✓ Self-hosting the BSD-3-Clause code is a documented deployment path alongside cloud and private cloud. |  |
 
 **What is Flagsmith?**
-Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,582 stars.
+Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,585 stars.
 
 **How much does Flagsmith cost?**
-Flagsmith is open source - BSD-3-Clause licensed and free to self-host; the public repository carries 6,582 stars; native integrations cover Datadog, Grafana, Jira. You pay in server time and maintenance, not licences.
+Flagsmith is open source - BSD-3-Clause licensed and free to self-host; the public repository carries 6,585 stars; native integrations cover Datadog, Grafana, Jira. You pay in server time and maintenance, not licences.
 
 **Is Flagsmith worth it past the free tier?**
 A flag platform with the change-control story that regulated teams ask for, priced below the big names, and self-hosting keeps the exit open.
@@ -38,10 +38,10 @@ Yes. It lets AI tools manage flags, create segments, schedule changes, and autom
 
 - **Pricing:** Freemium
 - **Category:** [Personalization & CDP](/categories/personalization/)
-- **GitHub:** ★ 6582
+- **GitHub:** ★ 6585
 - **HQ:** London, United Kingdom (Bullet Train Ltd, 66 Paul St)
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-09-25
 
 **Verdict:** Flagsmith is a tool in Personalization & CDP with free and open source. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
@@ -58,9 +58,13 @@ PostHog
 
 Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 
-n8n
+RudderStack
 
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+Warehouse-first CDP: open-source Go data plane plus managed routing
+
+Hightouch
+
+Composable CDP that activates warehouse data where marketing runs
 
 [More Personalization & CDP Tools →](/categories/personalization/)
 
@@ -92,7 +96,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Flagsmith is an open-source feature flag and remote configuration platform, BSD-3-Clause, with 6,582 GitHub stars, operated commercially by Bullet Train Ltd out of London. Flags and remote config values are managed per environment, with segment targeting, A/B and multivariate testing, and identity evaluation against user traits. Governance carries much of the pitch: role-based access control, four-eyes change requests, scheduled flag changes, audit logs, and flag governance policies. SDKs cover the usual server, web, and mobile stacks, an Edge API serves flags close to users, and real-time flag updates keep clients current. Deployment options are cloud, self-hosted, and private cloud, with data centers listed in East Ohio, London, California, Mumbai, Sydney, and Sao Paulo. Cloud pricing has a free tier up to 50,000 API requests a month. The Scale plan is USD 50 per member per month as of September 2026, shown against a list price of 60 as a launch discount, and extra API calls start at USD 50 per million. Self-hosting the open-source code costs nothing. Integrations run deep on the observability and delivery side: Datadog, Grafana, Dynatrace, New Relic, Sentry, GitHub, GitLab, Jira, Backstage, Amplitude, and Mixpanel all have native connections. An MCP server lets AI tools manage flags in natural language, and change requests and approval workflows stay in the loop when they do. Flag hygiene automation is pitched as the fix for stale flags piling up.
+Flagsmith is an open-source feature flag and remote configuration platform, BSD-3-Clause, with 6585 GitHub stars, operated commercially by Bullet Train Ltd out of London. Flags and remote config values are managed per environment, with segment targeting, A/B and multivariate testing, and identity evaluation against user traits. Governance carries much of the pitch: role-based access control, four-eyes change requests, scheduled flag changes, audit logs, and flag governance policies. SDKs cover the usual server, web, and mobile stacks, an Edge API serves flags close to users, and real-time flag updates keep clients current. Deployment options are cloud, self-hosted, and private cloud, with data centers listed in East Ohio, London, California, Mumbai, Sydney, and Sao Paulo. Cloud pricing has a free tier up to 50,000 API requests a month. The Scale plan is USD 50 per member per month as of September 2026, shown against a list price of 60 as a launch discount, and extra API calls start at USD 50 per million. Self-hosting the open-source code costs nothing. Integrations run deep on the observability and delivery side: Datadog, Grafana, Dynatrace, New Relic, Sentry, GitHub, GitLab, Jira, Backstage, Amplitude, and Mixpanel all have native connections. An MCP server lets AI tools manage flags in natural language, and change requests and approval workflows stay in the loop when they do. Flag hygiene automation is pitched as the fix for stale flags piling up.
 
 ## AI Capabilities
 
@@ -151,9 +155,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,582 stars.
+Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,585 stars.
 
-Flagsmith is open source - BSD-3-Clause licensed and free to self-host; the public repository carries 6,582 stars; native integrations cover Datadog, Grafana, Jira. You pay in server time and maintenance, not licences.
+Flagsmith is open source - BSD-3-Clause licensed and free to self-host; the public repository carries 6,585 stars; native integrations cover Datadog, Grafana, Jira. You pay in server time and maintenance, not licences.
 
 A flag platform with the change-control story that regulated teams ask for, priced below the big names, and self-hosting keeps the exit open.
 
@@ -247,7 +251,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Flagsmith?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,582 stars."
+          "text": "Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,585 stars."
         }
       },
       {
@@ -255,7 +259,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Flagsmith cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Flagsmith is open source - BSD-3-Clause licensed and free to self-host; the public repository carries 6,582 stars; native integrations cover Datadog, Grafana, Jira. You pay in server time and maintenance, not licences."
+          "text": "Flagsmith is open source - BSD-3-Clause licensed and free to self-host; the public repository carries 6,585 stars; native integrations cover Datadog, Grafana, Jira. You pay in server time and maintenance, not licences."
         }
       },
       {

@@ -38,7 +38,7 @@ Both paths are documented on the docs site as migration guides, alongside deploy
 - **Category:** [Email Marketing](/categories/email-marketing/)
 - **GitHub:** ★ 2862
 - **API:** No
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-09-07
 
 **Verdict:** Maizzle is a tool in Email Marketing with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
@@ -59,9 +59,9 @@ Twilio SendGrid
 
 Scalable email delivery API with AI-powered deliverability and engagement tools
 
-Notifo
+Warmbly
 
-Self-hosted multi-channel notification service for email, SMS, and web push
+Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 
 [More Email Marketing Tools →](/categories/email-marketing/)
 
@@ -89,7 +89,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 ## MartechSignal Score: 32/60
 
-Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with 2.9k stars and no AI story, which is fine for a compiler.
+Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with 2862 stars and no AI story, which is fine for a compiler.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -303,7 +303,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with 2.9k stars and no AI story, which is fine for a compiler.",
+    "reviewBody": "Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with 2862 stars and no AI story, which is fine for a compiler.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/maizzle/#app",

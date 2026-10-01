@@ -14,11 +14,11 @@
 | Pros | Cons |
 | --- | --- |
 | ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $29/mo |
-| ✓ AI capabilities: AI agent steps in campaign sequences that branch on classified reply intent | ✗ Young project (333 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: AI agent steps in campaign sequences that branch on classified reply intent | ✗ Young project (340 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ Native integrations include HubSpot, Slack, Zapier (8 listed) |  |
 
 **What is Warmbly?**
-Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 333 stars.
+Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 340 stars.
 
 **How much does Warmbly cost?**
 Warmbly has a free tier; paid plans start at $29/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers."
@@ -28,11 +28,11 @@ The most complete open-source cold email stack we have listed, but young (launch
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 333
+- **GitHub:** ★ 340
 - **Founded:** 2026
 - **HQ:** London, UK
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-09-24
 
 **Verdict:** Warmbly is a tool in Email Marketing with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-24. This is a desk review, not a hands-on test. Desk-reviewed
@@ -52,6 +52,10 @@ Data-driven messaging platform for automated email, push, SMS, and in-app messag
 Listmonk
 
 Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+
+Brevo
+
+Multichannel marketing platform billing by email volume, not contacts
 
 [More Email Marketing Tools →](/categories/email-marketing/)
 
@@ -143,7 +147,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 333 stars.
+Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 340 stars.
 
 Warmbly has a free tier; paid plans start at $29/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers."
 
@@ -244,7 +248,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Warmbly?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 333 stars."
+          "text": "Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 340 stars."
         }
       },
       {

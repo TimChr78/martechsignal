@@ -14,7 +14,7 @@
    "sections": [
     {
      "heading": "Positioning",
-     "a": "n8n is an open-source workflow automation platform built for technical marketing and operations teams: a visual builder over 400-plus nodes with custom code steps and API access. Founded 2019 in Berlin, it sells flexibility and control, backed by 206,232 GitHub stars, the largest community in the category. The trade is setup and maintenance effort.",
+     "a": "n8n is an open-source workflow automation platform built for technical marketing and operations teams: a visual builder over 400-plus nodes with custom code steps and API access. Founded 2019 in Berlin, it sells flexibility and control, backed by 206,395 GitHub stars, the largest community in the category. The trade is setup and maintenance effort.",
      "b": "Zapier is the platform most people mean when they say connect two tools without writing code. Founded 2011 in San Francisco, it leads with breadth and onboarding speed: the default for form-to-CRM handoffs and lead-to-Slack alerts. Customization depth is not the pitch."
     },
     {
@@ -153,7 +153,7 @@
    "sections": [
     {
      "heading": "Positioning",
-     "a": "NocoDB turns Postgres or MySQL you already run into an Airtable-style workspace: grids, forms, kanban, calendar, and map views over your existing tables, with per-role permissions, webhooks, and REST APIs. At 65,104 GitHub stars it is the larger project. Its natural home is the spreadsheet sprawl behind campaign ops: content calendars, launch checklists, partner trackers, lead lists.",
+     "a": "NocoDB turns Postgres or MySQL you already run into an Airtable-style workspace: grids, forms, kanban, calendar, and map views over your existing tables, with per-role permissions, webhooks, and REST APIs. At 65,137 GitHub stars it is the larger project. Its natural home is the spreadsheet sprawl behind campaign ops: content calendars, launch checklists, partner trackers, lead lists.",
      "b": "NocoBase is a no-code platform for assembling business systems: CRMs, approval flows, content operations, and dashboards, built data-model-first from configurable collections, pages, and workflow blocks, extended through a plugin architecture that reaches nearly everything including UI blocks. Version 2.0 adds AI employees. It expects data-model thinking rather than grid thinking."
     },
     {
@@ -268,7 +268,7 @@
     {
      "heading": "Deployment and self-hosting",
      "a": "Installation is a documented nine-step wizard: matomo.zip from builds.matomo.org, PHP 8.1 or newer with MySQL 8 or MariaDB 10.6, and an archiving cron job for sites above a few hundred visits a day. WordPress, Shopify, Google Tag Manager, the Google Analytics Importer, and consent tools (OneTrust, Cookiebot) are documented, and cloud data stays in Europe.",
-     "b": "Self-hosting is a small job: an AGPL codebase with 29,248 GitHub stars and a tracking script that weighs under a kilobyte on the page. Cookie-free operation removes the consent-banner question for analytics entirely. Integrations cover WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack."
+     "b": "Self-hosting is a small job: an AGPL codebase with 28,327 GitHub stars and a tracking script that weighs under a kilobyte on the page. Cookie-free operation removes the consent-banner question for analytics entirely. Integrations cover WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack."
     },
     {
      "heading": "AI features",
@@ -384,7 +384,7 @@
    "sections": [
     {
      "heading": "Positioning",
-     "a": "Claude SEO turns Claude Code into an SEO audit machine. You type /seo audit and it spawns up to 15 specialist agents in parallel, each covering a different discipline: technical SEO, content quality, E-E-A-T signals, Schema.org markup, Core Web Vitals, local SEO, ecommerce SEO, international SEO, and AI search optimization (what Google calls GEO). It was founded in 2026. Its repository carries 17,899 stars.",
+     "a": "Claude SEO turns Claude Code into an SEO audit machine. You type /seo audit and it spawns up to 15 specialist agents in parallel, each covering a different discipline: technical SEO, content quality, E-E-A-T signals, Schema.org markup, Core Web Vitals, local SEO, ecommerce SEO, international SEO, and AI search optimization (what Google calls GEO). It was founded in 2026. Its repository carries 18,058 stars.",
      "b": "Semrush is the closest thing the SEO industry has to an operating system: a platform that spans keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid advertising intelligence, social media management, and increasingly, AI search visibility. Founded in 2008 and headquartered in Boston, Semrush serves over 10 million users from freelancers to enterprise marketing teams. It was founded in 2008."
     },
     {
@@ -1085,6 +1085,336 @@
     {
      "q": "Which one is simpler to start?",
      "a": "PostHog Cloud for teams that accept hosted product analytics, Plausible for teams whose needs stop at core traffic numbers. Matomo pays off once data residency or ecommerce depth enters the requirements."
+    }
+   ]
+  },
+  {
+   "a_slug": "mailchimp",
+   "b_slug": "klaviyo",
+   "date_published": "2026-10-01",
+   "date_updated": "2026-10-01",
+   "intro": [
+    "Mailchimp and Klaviyo end up on the same shortlist whenever a store outgrows newsletters. Mailchimp is the most recognized name in email marketing, with over 11 million users from solopreneurs to mid-market, and an Intuit-owned platform that now spans landing pages, ads, SMS, automation, and a basic CRM. Klaviyo is the dominant email and SMS platform for ecommerce brands, built around behavioral profiles from purchase history, browsing, and predicted lifetime value.",
+    "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "The choice usually lands on one question: is the store the center of the data model or one channel among several. Klaviyo assumes commerce data is the foundation and prices by contacts. Mailchimp assumes a mixed audience and prices by plan tier, which stays cheap for small lists and climbs steeply once ecommerce volume arrives."
+   ],
+   "meta": "Mailchimp versus Klaviyo on pricing, ecommerce depth, AI features, and integrations, with a pick-this-one line for each side.",
+   "migration": [
+    "Moving lists is the easy afternoon. Klaviyo's flows, segments, and predictive models rebuild from the event stream, so the Shopify or WooCommerce integration moves first and history replays into fresh profiles; template styling gets redone in the new editor.",
+    "Deliverability deserves its own line in the plan. Consent records and suppression lists have to travel with the contacts, and sending reputation does not. Warm the new setup gradually instead of importing the whole list and mailing it on day one.",
+    "Going the other way, Mailchimp imports Klaviyo lists cleanly but the behavioral segments flatten into tags and static segments. Budget a week to rebuild the three flows that earn their keep: welcome, abandoned cart, and post-purchase."
+   ],
+   "neither": "Neither fits a team whose core need is B2B pipeline with human follow-up: that is CRM territory. And below a few thousand contacts with one campaign a month, the free tiers overlap enough that the switch saves nothing.",
+   "pick_a_if": "Pick Mailchimp if you want broad channel coverage beyond email and a free plan up to 500 contacts, starting at $13/mo for Essentials.",
+   "pick_b_if": "Pick Klaviyo if you want ecommerce-native profiles and predictive flows, starting free up to 250 contacts with paid from around $20/mo.",
+   "pilot_faq": [
+    {
+     "a": "Klaviyo for stores where purchase data drives the messaging, with predictive analytics and product recommendations tuned to it. Mailchimp for mixed audiences that also need landing pages, ads, and postcards in one account.",
+     "q": "Which one fits a store, and which fits everyone else?"
+    },
+    {
+     "a": "Yes. Both are hosted platforms the vendor runs, so the buyer compares data model and channel breadth rather than infrastructure. Neither asks the team to maintain servers.",
+     "q": "Do both run the messaging for the team?"
+    },
+    {
+     "a": "Look at Listmonk for newsletter sending hosted in-house, or Mautic for automation outside the SaaS ladder. The open-source marketing tools roundup on this site prices that trade honestly.",
+     "q": "What if the team wants to self-host instead?"
+    }
+   ],
+   "price_table": {
+    "checked": "2026-10-01",
+    "rows": [
+     [
+      "Cost basis",
+      "Plan tiers",
+      "Contact count plus channels used"
+     ],
+     [
+      "Free tier",
+      "Free plan (500 contacts, 1,000 emails/mo)",
+      "Free up to 250 contacts and 500 emails per month"
+     ],
+     [
+      "Entry paid",
+      "Essentials $13/mo; Standard $20/mo",
+      "Paid starts around $20/mo and scales with contacts"
+     ],
+     [
+      "At 1,000 contacts",
+      "Standard $20/mo covers the list; Premium $350/mo is the enterprise tier.",
+      "1,000 contacts sits on the paid ladder from near $20/mo; SMS adds separate channel fees."
+     ],
+     [
+      "Checked",
+      "2026-10-01",
+      "2026-10-01"
+     ]
+    ],
+    "unit": "Cost picture at 1,000 contacts"
+   },
+   "sections": [
+    {
+     "a": "Mailchimp is the most recognized name in email marketing, serving over 11 million users from solopreneurs to mid-market businesses. Founded in 2001 in Atlanta and acquired by Intuit in 2021 for $12 billion, it has expanded into landing pages, social ads, postcards, SMS, automation, and a basic CRM.",
+     "b": "Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento. Founded in 2012 in Boston and taken public in 2023.",
+     "heading": "Positioning"
+    },
+    {
+     "a": "Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo.",
+     "b": "Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo.",
+     "heading": "Pricing"
+    },
+    {
+     "a": "Hosted only. The vendor runs the infrastructure and bills by plan tier and contact blocks.",
+     "b": "Hosted only. The vendor runs the infrastructure and bills by contact count plus channels used.",
+     "heading": "Deployment and self-hosting"
+    },
+    {
+     "a": "5 documented AI features, including AI content optimizer, AI subject line helper, predictive demographics, AI send-time optimization, and creative assistant.",
+     "b": "5 documented AI features, including AI subject line assistant, predictive analytics, AI send-time optimization, AI product recommendations, and AI content generation.",
+     "heading": "AI features"
+    },
+    {
+     "a": "8 listed integrations, including Shopify, WooCommerce, Salesforce, Zapier, and WordPress.",
+     "b": "8 listed integrations, including Shopify, WooCommerce, BigCommerce, Salesforce, and Slack.",
+     "heading": "Integrations"
+    },
+    {
+     "a": "Mailchimp exports contacts, templates, and campaign reports. Automations rebuild elsewhere, and the Intuit bundle discount only matters while the whole stack is used.",
+     "b": "Klaviyo's lock-in is its data model. Profiles carry event streams that power flows and segments, and rival platforms rarely ingest them cleanly. Ecommerce teams accept this because the revenue reporting is hard to give up.",
+     "heading": "Lock-in and exit cost"
+    },
+    {
+     "a": "Mailchimp's sending covers the general case well: list hygiene tooling, authentication defaults, and deliverability guidance aimed at mixed B2C lists. High-volume ecommerce bursts are supported but not the design center.",
+     "b": "Klaviyo's sending is tuned for ecommerce bursts: segmentation-heavy sends at flash-sale volume, with deliverability tooling focused on list hygiene and engagement-based throttling. Dedicated IPs come into play at scale.",
+     "heading": "Deliverability and sending"
+    },
+    {
+     "a": "Pick Mailchimp if you want broad channel coverage beyond email and a free plan up to 500 contacts, starting at $13/mo for Essentials.",
+     "b": "Pick Klaviyo if you want ecommerce-native profiles and predictive flows, starting free up to 250 contacts with paid from around $20/mo.",
+     "heading": "Who should pick which"
+    }
+   ],
+   "seo_title": "Mailchimp vs Klaviyo (2026): pricing and ecommerce",
+   "slug": "mailchimp-vs-klaviyo",
+   "title": "Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict"
+  },
+  {
+   "a_slug": "activecampaign",
+   "b_slug": "hubspot-crm",
+   "date_published": "2026-10-01",
+   "date_updated": "2026-10-01",
+   "intro": [
+    "ActiveCampaign and HubSpot CRM end up on the same shortlist when automation outgrows the email tool. ActiveCampaign combines marketing automation, email, and a light CRM in one platform for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. HubSpot CRM brings sales, service, and marketing workflows into one platform around a unified contact record, with a free CRM that on-ramps teams into paid hubs.",
+    "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "The choice usually lands on one question: which system owns the contact. ActiveCampaign prices automation depth per tier starting at $15/mo. HubSpot prices seats per hub, free to start, with the bill arriving as the team and the contact database grow."
+   ],
+   "meta": "ActiveCampaign versus HubSpot CRM on pricing, automation depth, AI features, and integrations, with a pick-this-one line for each side.",
+   "migration": [
+    "Moving lists is the easy afternoon. ActiveCampaign automations do not export into HubSpot workflows, so every multi-step sequence gets rebuilt and re-verified, and lead scoring rules get re-expressed in the new vocabulary.",
+    "Deliverability deserves its own line in the plan. Consent records and suppression lists have to travel with the contacts, and sending reputation does not. Warm the new setup gradually instead of importing the whole database and mailing it on day one.",
+    "Going the other way, HubSpot exports contacts and timeline activity cleanly, but workflow enrollment history flattens. Rebuild the three sequences that earn their keep first: new-lead follow-up, trial nurture, and re-engagement."
+   ],
+   "neither": "Neither fits a team whose core need is ecommerce messaging driven by purchase data: that is Klaviyo territory. And below a few thousand contacts with simple newsletters, both are heavier than the job.",
+   "pick_a_if": "Pick ActiveCampaign if you want deep multi-step automation in one SMB-priced platform, starting at $15/mo on Starter.",
+   "pick_b_if": "Pick HubSpot CRM if you want a free CRM to start with sales, service, and marketing on one record, with paid hubs from around $20/mo.",
+   "pilot_faq": [
+    {
+     "a": "ActiveCampaign for teams that want the deepest automation per dollar in one SMB platform. HubSpot for teams standardizing sales, service, and marketing on one contact record with room to grow into paid hubs.",
+     "q": "Which one fits automation-first, and which fits platform-first?"
+    },
+    {
+     "a": "Yes. Both are hosted platforms the vendor runs, so the buyer compares automation depth and pricing shape rather than infrastructure. Neither asks the team to maintain servers.",
+     "q": "Do both run the stack for the team?"
+    },
+    {
+     "a": "Look at Mautic for HubSpot-class automation hosted in-house. The open-source marketing tools roundup on this site prices that trade honestly.",
+     "q": "What if the team wants to self-host instead?"
+    }
+   ],
+   "price_table": {
+    "checked": "2026-10-01",
+    "rows": [
+     [
+      "Cost basis",
+      "Plan tiers",
+      "Seats plus hubs used"
+     ],
+     [
+      "Free tier",
+      "No free plan; 14-day trial",
+      "Free CRM forever"
+     ],
+     [
+      "Entry paid",
+      "Starter $15/mo",
+      "Sales Hub Starter $15/seat/mo billed annually ($20 month-to-month)"
+     ],
+     [
+      "At 1,000 contacts",
+      "Starter $15/mo is the entry tier; automation depth lives on Plus $49/mo and Professional $79/mo.",
+      "Contacts are free on the CRM; the bill is seats and hubs, with Professional at $100/seat/mo."
+     ],
+     [
+      "Checked",
+      "2026-10-01",
+      "2026-10-01"
+     ]
+    ],
+    "unit": "Cost picture at small-team scale"
+   },
+   "sections": [
+    {
+     "a": "ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. Founded in 2003 and headquartered in Chicago, it serves over 150,000 customers worldwide.",
+     "b": "Founded in 2006 and headquartered in Cambridge, Massachusetts, HubSpot CRM brings sales, service, and marketing workflows into one platform around a unified contact record, with pipeline management, deal tracking, email logging, and campaign reporting.",
+     "heading": "Positioning"
+    },
+    {
+     "a": "Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo; 14-day free trial.",
+     "b": "Free CRM forever; Sales Hub Starter $15/seat/mo billed annually ($20 month-to-month); Professional $100/seat/mo; Enterprise $150/seat/mo.",
+     "heading": "Pricing"
+    },
+    {
+     "a": "Hosted only. The vendor runs the infrastructure and bills by plan tier.",
+     "b": "Hosted only. The vendor runs the infrastructure and bills by seats and hubs.",
+     "heading": "Deployment and self-hosting"
+    },
+    {
+     "a": "5 documented AI features, including AI content generation, predictive sending, AI win probability, AI subject line suggestions, and smart automation.",
+     "b": "5 documented AI features, including AI email writer, predictive lead scoring, AI call transcription, AI meeting scheduler, and AI content suggestions.",
+     "heading": "AI features"
+    },
+    {
+     "a": "8 listed integrations, including Shopify, Salesforce, Slack, Zapier, and WooCommerce.",
+     "b": "8 listed integrations, including Gmail, Outlook, Slack, Zapier, and Salesforce.",
+     "heading": "Integrations"
+    },
+    {
+     "a": "ActiveCampaign exports contacts and campaign reports. Automations, lead scoring, and tracking setup stay behind. List ownership is clear and the CRM data is standard fields.",
+     "b": "HubSpot's lock-in is breadth: pipeline, tickets, workflows, and reporting all reference the same record, so leaving means re-platforming several functions at once. The free CRM makes entry easy and exit planning easy to postpone.",
+     "heading": "Lock-in and exit cost"
+    },
+    {
+     "a": "ActiveCampaign's sending is built around its automation heritage: dedicated IP add-ons, warm-up guidance and strong transactional options. Mixed marketing and transactional is a first-class case.",
+     "b": "HubSpot's sending inherits the platform tradeoff: solid deliverability tooling inside an ecosystem that wants the whole workflow. Dedicated IPs and deliverability consulting arrive on the higher tiers.",
+     "heading": "Deliverability and sending"
+    },
+    {
+     "a": "Pick ActiveCampaign if you want deep multi-step automation in one SMB-priced platform, starting at $15/mo on Starter.",
+     "b": "Pick HubSpot CRM if you want a free CRM to start with sales, service, and marketing on one record, with paid hubs from around $20/mo.",
+     "heading": "Who should pick which"
+    }
+   ],
+   "seo_title": "ActiveCampaign vs HubSpot (2026): automation vs platform",
+   "slug": "activecampaign-vs-hubspot",
+   "title": "ActiveCampaign vs HubSpot CRM (2026): pricing, automation, verdict"
+  },
+  {
+   "slug": "mailchimp-vs-brevo",
+   "title": "Mailchimp vs Brevo (2026): pricing, multichannel, verdict",
+   "seo_title": "Mailchimp vs Brevo (2026): pricing and multichannel",
+   "meta": "Mailchimp versus Brevo on pricing by volume versus contacts, channels, AI features, and integrations, with a pick-this-one line for each side.",
+   "a_slug": "mailchimp",
+   "b_slug": "brevo",
+   "date_published": "2026-10-01",
+   "date_updated": "2026-10-01",
+   "intro": [
+    "Mailchimp and Brevo end up on the same shortlist when the mailing list arrives before the budget does. Mailchimp is the most recognized name in email marketing, with over 11 million users, an Intuit-owned platform spanning landing pages, social ads, SMS, automation, and a basic CRM. Brevo (born as Sendinblue) prices by monthly email volume instead of contact count and folds email, SMS, WhatsApp, chat, and a light CRM into one account.",
+    "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "The choice usually lands on one question: does your list talk often, or just exist. Mailchimp charges per contact and rewards rarely-sent lists badly; Brevo charges per send and keeps 300 free emails a day flowing. Store-heavy teams still lean Mailchimp's commerce suite; multichannel-heavy teams on modest budgets lean Brevo."
+   ],
+   "sections": [
+    {
+     "heading": "Positioning",
+     "a": "Mailchimp is the most recognized name in email marketing, serving over 11 million users from solopreneurs to mid-market businesses. Founded in 2001 in Atlanta and acquired by Intuit in 2021 for $12 billion, it has expanded into landing pages, social ads, postcards, SMS, automation, and a basic CRM.",
+     "b": "Brevo (formerly Sendinblue) is a Paris-based multichannel marketing platform that folds email, SMS, WhatsApp, web push, live chat, chatbot, and phone into one contact universe, with a light CRM layered on for pipelines and tasks. Founded in 2012, renamed Brevo in 2023."
+    },
+    {
+     "heading": "Pricing",
+     "a": "Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo.",
+     "b": "Free plan (300 emails/day); Starter from $9/mo at 5,000 emails; Standard $18/mo at 5,000; Professional $499/mo; Enterprise custom; SMS credits sold separately (figures per 2026-09-29 third-party receipt; vendor pricing page renders price numbers only via JavaScript)."
+    },
+    {
+     "heading": "Deployment and self-hosting",
+     "a": "Hosted only. The vendor runs the infrastructure and bills by plan tier and contact blocks.",
+     "b": "Hosted only. The vendor runs the infrastructure and bills by email volume plus channel credits."
+    },
+    {
+     "heading": "AI features",
+     "a": "5 documented AI features, including AI content optimizer, AI subject line helper, predictive demographics, AI send-time optimization, and creative assistant.",
+     "b": "2 documented AI features: AI content generator (drafts subject lines and email copy, adjusts tone) and AI send-time optimization on Standard and up. Brevo also ships an MCP server for managing campaigns and contacts from ChatGPT or Claude."
+    },
+    {
+     "heading": "Integrations",
+     "a": "8 listed integrations, including Shopify, WooCommerce, Salesforce, Zapier, and WordPress.",
+     "b": "8 listed integrations, including Shopify, WordPress, Stripe, Zapier, Salesforce, WooCommerce, Google Analytics, and Slack; the directory lists 150+ connectors."
+    },
+    {
+     "heading": "Lock-in and exit cost",
+     "a": "Mailchimp exports contacts, templates, and campaign reports. Automations rebuild elsewhere, and the Intuit bundle discount only matters while the whole stack is used.",
+     "b": "Brevo's lock-in lives in the multichannel data: chat transcripts, WhatsApp threads, and SMS history do not migrate cleanly to single-channel rivals. Contact lists export cleanly; the omnichannel context does not."
+    },
+    {
+     "heading": "Deliverability and sending",
+     "a": "Mailchimp's sending covers the general case well: list hygiene tooling, authentication defaults, and deliverability guidance aimed at mixed B2C lists. High-volume ecommerce bursts are supported but not the design center.",
+     "b": "Brevo's sending is volume-metered rather than burst-tuned: dedicated IP options arrive above Professional, transactional email rides SMTP relay and API on the same account, and deliverability tooling emphasizes daily-limit pacing and list hygiene."
+    },
+    {
+     "heading": "Who should pick which",
+     "a": "Pick Mailchimp if your team wants a broad commerce-flavored marketing suite with strong brand recognition, starting at $13/mo for Essentials (free to 500 contacts).",
+     "b": "Pick Brevo if your list is large but rarely sent, or you need one multichannel account on a tight budget, starting free at 300 emails/day with paid from $9/mo."
+    }
+   ],
+   "price_table": {
+    "unit": "Cost picture at 1,000 contacts",
+    "checked": "2026-10-01",
+    "rows": [
+     [
+      "Cost basis",
+      "Plan tiers by contact blocks",
+      "Email volume plus channel credits"
+     ],
+     [
+      "Free tier",
+      "Free plan (500 contacts, 1,000 emails/mo)",
+      "Free plan, capped at 300 emails/day"
+     ],
+     [
+      "Entry paid",
+      "Essentials $13/mo; Standard $20/mo",
+      "Starter from $9/mo at 5,000 emails"
+     ],
+     [
+      "At 1,000 contacts",
+      "Standard $20/mo covers the list; Premium $350/mo is the enterprise tier.",
+      "Sending 4 sends/mo to 1,000 contacts fits inside ~5,000 emails, so Starter $9/mo often undercuts Mailchimp; automate on Standard $18/mo."
+     ],
+     [
+      "Checked",
+      "2026-10-01",
+      "2026-10-01"
+     ]
+    ]
+   },
+   "migration": [
+    "Moving lists is the easy afternoon. Mailchimp automations do not export into Brevo workflows, so every welcome series and re-engagement path gets rebuilt and re-verified, and template styling has to be redone in the new editor.",
+    "Deliverability deserves its own line in the plan. Consent records and suppression lists have to travel with the contacts, and sending reputation does not. Warm the new setup gradually instead of importing the whole list and mailing it on day one.",
+    "Going the other way, Brevo imports Mailchimp lists cleanly, but the meter changes shape: plan by email volume from the sender calendar, not by contacts, and watch the 300/day cap on the free tier while testing."
+   ],
+   "neither": "Neither fits a team whose core need is ecommerce-native revenue flows and predictive segments: that is Klaviyo territory. And if the whole send calendar is a monthly newsletter under 2,000 contacts, the free tiers overlap enough that switching saves nothing.",
+   "pick_a_if": "Pick Mailchimp if your team wants a broad commerce-flavored marketing suite with strong brand recognition, starting at $13/mo for Essentials (free to 500 contacts).",
+   "pick_b_if": "Pick Brevo if your list is large but rarely sent, or you need one multichannel account on a tight budget, starting free at 300 emails/day with paid from $9/mo.",
+   "pilot_faq": [
+    {
+     "q": "Which one is cheaper for a big list that sends rarely?",
+     "a": "Brevo, almost always. Mailchimp bills the contact count every month; Brevo bills the sends. A 10,000-contact list mailed twice a month stays cheap on Brevo Starter while Mailchimp charges for every stored contact."
+    },
+    {
+     "q": "Which platform handles multichannel out of the box?",
+     "a": "Brevo folds SMS, WhatsApp, push, chat, and a light CRM into the same account on every plan tier; Mailchimp spreads channels across add-ons and separate Intuit products."
+    },
+    {
+     "q": "Do both run the sending for the team?",
+     "a": "Yes. Both are hosted platforms the vendor runs, so the buyer compares billing shape and channel depth rather than infrastructure. Neither asks the team to maintain servers."
     }
    ]
   }

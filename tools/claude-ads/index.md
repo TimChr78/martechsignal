@@ -15,24 +15,24 @@
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: 250+ audit checks across 12 ad platforms |  |
-| ✓ Active public repository (9,616 GitHub stars counted at last check) |  |
+| ✓ Active public repository (9,659 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Google Ads, Meta Ads, YouTube Ads (12 listed) |  |
 
 **What is Claude Ads?**
-Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,616 stars.
+Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,659 stars.
 
 **How much does Claude Ads cost?**
-Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,616 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
+Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,659 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
 
 **Is Claude Ads a good self-hosted Agent Skills tool in 2026?**
 Niche but interesting for technical teams that want model-drafted ad copy inside their Git workflow.
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 9616
+- **GitHub:** ★ 9659
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-08-28
 
 **Verdict:** Claude Ads is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
@@ -143,9 +143,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,616 stars.
+Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,659 stars.
 
-Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,616 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
+Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,659 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
 
 Niche but interesting for technical teams that want model-drafted ad copy inside their Git workflow.
 
@@ -235,7 +235,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Claude Ads?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,616 stars."
+          "text": "Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,659 stars."
         }
       },
       {
@@ -243,7 +243,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Claude Ads cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,616 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences."
+          "text": "Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,659 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences."
         }
       },
       {

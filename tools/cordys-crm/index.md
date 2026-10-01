@@ -15,13 +15,13 @@
 | --- | --- |
 | ✓ GPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: maxKB sales agents connected over the API |  |
-| ✓ Active public repository (2,751 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,758 GitHub stars counted at last check) |  |
 
 **What is Cordys CRM?**
-Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,751 stars.
+Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,758 stars.
 
 **How much does Cordys CRM cost?**
-Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,751 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences.
+Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,758 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences.
 
 **Is Cordys CRM worth it past the free tier?**
 Watch it for self-hosted CRM needs. The feature ceiling is below Salesforce, but the cost floor is unbeatable.
@@ -46,11 +46,11 @@ The community edition is free and self-hosted under a GPLv3-based license, with 
 
 - **Pricing:** Freemium
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 2751
+- **GitHub:** ★ 2758
 - **Founded:** 2025
 - **HQ:** China
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-09-07
 
 **Verdict:** Cordys CRM is a tool in CRM with free and open source. The catalog documents 5 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
@@ -161,9 +161,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,751 stars.
+Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,758 stars.
 
-Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,751 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences.
+Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,758 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences.
 
 Watch it for self-hosted CRM needs. The feature ceiling is below Salesforce, but the cost floor is unbeatable.
 
@@ -260,7 +260,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Cordys CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,751 stars."
+          "text": "Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,758 stars."
         }
       },
       {
@@ -268,7 +268,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Cordys CRM cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,751 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences."
+          "text": "Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,758 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences."
         }
       },
       {

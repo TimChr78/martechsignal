@@ -73,7 +73,7 @@ Vendor: [Official site](https://matomo.org) · [Pricing](https://matomo.org/pric
 
 ## [Umami](/tools/umami/)
 
-Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor's cloud, created in 2020 by Mike Cao and now at v3 with roughly 39,072 GitHub stars. It starts free, and self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial (verified 2026-09-07). The catalog documents 5 integrations, a public API, and a self-hosting path.
+Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor's cloud, created in 2020 by Mike Cao and now at v3 with roughly 40,980 GitHub stars. It starts free, and self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial (verified 2026-09-07). The catalog documents 5 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
@@ -143,7 +143,7 @@ Vendor: [Official site](https://snowplow.io) · [GitHub](https://github.com/snow
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 ## Which analytics tool keeps data on our own servers?
 

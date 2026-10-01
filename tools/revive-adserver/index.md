@@ -14,16 +14,16 @@
 | Pros | Cons |
 | --- | --- |
 | ✓ GPL-2.0 licence with free self-hosting | ✗ You run the servers, apply updates and watch security advisories yourself. |
-| ✓ Active public repository (1,506 GitHub stars counted at last check) | ✗ Geotargeting quality depends on the MaxMind GeoLite2 plugin and its database updates. |
+| ✓ Active public repository (1,505 GitHub stars counted at last check) | ✗ Geotargeting quality depends on the MaxMind GeoLite2 plugin and its database updates. |
 | ✓ GPL-2.0 with no license fee and no per-impression charges. | ✗ The interface is mature in the old sense; anyone expecting a current SaaS UI will notice its age. |
 | ✓ Serves websites, apps and video players from one install. |  |
 | ✓ A hosted edition at revive-adserver.net exists for teams that want the software without running it. |  |
 
 **What is Revive Adserver?**
-Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,506 stars.
+Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,505 stars.
 
 **How much does Revive Adserver cost?**
-Revive Adserver is open source - GPL-2.0 licensed and free to self-host; the public repository carries 1,506 stars; native integrations cover MaxMind GeoLite2, Google AdSense, MySQL. You pay in server time and maintenance, not licences.
+Revive Adserver is open source - GPL-2.0 licensed and free to self-host; the public repository carries 1,505 stars; native integrations cover MaxMind GeoLite2, Google AdSense, MySQL. You pay in server time and maintenance, not licences.
 
 **Is Revive Adserver a good self-hosted Advertising & Paid Media tool in 2026?**
 The dependable choice for ad serving on your own servers with no license fee and no per-impression cost. Expect to own the ops work.
@@ -39,9 +39,9 @@ Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 dat
 
 - **Pricing:** Open Source
 - **Category:** [Advertising & Paid Media](/categories/advertising/)
-- **GitHub:** ★ 1506
+- **GitHub:** ★ 1505
 - **API:** No
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-09-25
 
 **Verdict:** Revive Adserver is a tool in Advertising & Paid Media with free and open source. The catalog documents 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
@@ -146,9 +146,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,506 stars.
+Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,505 stars.
 
-Revive Adserver is open source - GPL-2.0 licensed and free to self-host; the public repository carries 1,506 stars; native integrations cover MaxMind GeoLite2, Google AdSense, MySQL. You pay in server time and maintenance, not licences.
+Revive Adserver is open source - GPL-2.0 licensed and free to self-host; the public repository carries 1,505 stars; native integrations cover MaxMind GeoLite2, Google AdSense, MySQL. You pay in server time and maintenance, not licences.
 
 The dependable choice for ad serving on your own servers with no license fee and no per-impression cost. Expect to own the ops work.
 
@@ -239,7 +239,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Revive Adserver?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,506 stars."
+          "text": "Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,505 stars."
         }
       },
       {
@@ -247,7 +247,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Revive Adserver cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Revive Adserver is open source - GPL-2.0 licensed and free to self-host; the public repository carries 1,506 stars; native integrations cover MaxMind GeoLite2, Google AdSense, MySQL. You pay in server time and maintenance, not licences."
+          "text": "Revive Adserver is open source - GPL-2.0 licensed and free to self-host; the public repository carries 1,505 stars; native integrations cover MaxMind GeoLite2, Google AdSense, MySQL. You pay in server time and maintenance, not licences."
         }
       },
       {

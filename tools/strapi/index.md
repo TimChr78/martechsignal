@@ -15,11 +15,11 @@
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $99/mo |
 | ✓ AI capabilities: AI content generation |  |
-| ✓ Active public repository (73,250 GitHub stars counted at last check) |  |
+| ✓ Active public repository (73,265 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Next.js, Nuxt, Gatsby (8 listed) |  |
 
 **What is Strapi?**
-Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,250 stars.
+Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,265 stars.
 
 **How much does Strapi cost?**
 Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
@@ -29,11 +29,11 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 
 - **Pricing:** Open Source
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **GitHub:** ★ 73250
+- **GitHub:** ★ 73265
 - **Founded:** 2015
 - **HQ:** Paris, France
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-08-28
 
 **Verdict:** Strapi is a tool in AI Content & Copywriting with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
@@ -86,7 +86,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Developed in Paris and launched in 2015, Strapi is an open-source headless CMS that gives marketing and engineering teams a centralized place to model, manage, and distribute content across websites, apps, and digital products. Its API-first architecture lets teams deliver structured content to front ends built with Next.js, Nuxt, Gatsby, and other frameworks, while integrations such as Zapier, Slack, Stripe, Algolia, and Cloudinary support common martech and commerce workflows. Because the core project is MIT licensed and publicly maintained, with more than 73,250 GitHub stars, organizations can inspect the code, self-host it, or extend it without relying on a closed platform. Strapi is aimed at teams that need flexible content infrastructure rather than a traditional page-builder CMS. Its differentiators include customizable content types, role-based access, localization support, and a developer-friendly admin panel that can be adapted to editorial and campaign operations. AI features can assist with content generation, content workflows, media management, and translation, helping teams reduce manual production work while keeping human review in place. Pricing ranges from free self-hosted use under MIT to a free Cloud Developer plan, paid Pro at $99 per month, Team at $499 per month, and custom Enterprise agreements. Compared with commercial headless CMS platforms, Strapi generally offers greater control and lower entry cost, though self-hosting may require more internal development and maintenance resources. It fits technical marketing teams, agencies, and product organizations that want an open-source, API-driven CMS with AI-assisted content operations and the flexibility to deploy content wherever it is needed.
+Developed in Paris and launched in 2015, Strapi is an open-source headless CMS that gives marketing and engineering teams a centralized place to model, manage, and distribute content across websites, apps, and digital products. Its API-first architecture lets teams deliver structured content to front ends built with Next.js, Nuxt, Gatsby, and other frameworks, while integrations such as Zapier, Slack, Stripe, Algolia, and Cloudinary support common martech and commerce workflows. Because the core project is MIT licensed and publicly maintained, with more than 73265 GitHub stars, organizations can inspect the code, self-host it, or extend it without relying on a closed platform. Strapi is aimed at teams that need flexible content infrastructure rather than a traditional page-builder CMS. Its differentiators include customizable content types, role-based access, localization support, and a developer-friendly admin panel that can be adapted to editorial and campaign operations. AI features can assist with content generation, content workflows, media management, and translation, helping teams reduce manual production work while keeping human review in place. Pricing ranges from free self-hosted use under MIT to a free Cloud Developer plan, paid Pro at $99 per month, Team at $499 per month, and custom Enterprise agreements. Compared with commercial headless CMS platforms, Strapi generally offers greater control and lower entry cost, though self-hosting may require more internal development and maintenance resources. It fits technical marketing teams, agencies, and product organizations that want an open-source, API-driven CMS with AI-assisted content operations and the flexibility to deploy content wherever it is needed.
 
 Strapi homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -140,7 +140,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,250 stars.
+Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,265 stars.
 
 Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
@@ -241,7 +241,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Strapi?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,250 stars."
+          "text": "Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,265 stars."
         }
       },
       {

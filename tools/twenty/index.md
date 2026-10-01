@@ -15,11 +15,11 @@
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo |
 | ✓ AI capabilities: AI Chatbot with access to your workspace data |  |
-| ✓ Active public repository (57,682 GitHub stars counted at last check) |  |
+| ✓ Active public repository (57,764 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Gmail & Google Calendar, Outlook & Microsoft Calendar, IMAP / SMTP / CalDAV (7 listed) |  |
 
 **What is Twenty?**
-Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 57,682 stars.
+Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 57,764 stars.
 
 **How much does Twenty cost?**
 Twenty has a free tier; paid plans start at $9/mo. Self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
@@ -38,11 +38,11 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 57682
+- **GitHub:** ★ 57764
 - **Founded:** 2023
 - **HQ:** Paris, France
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-09-07
 
 **Verdict:** Twenty is a tool in CRM with free and open source. The catalog documents 4 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
@@ -176,7 +176,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 57,682 stars.
+Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 57,764 stars.
 
 Twenty has a free tier; paid plans start at $9/mo. Self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
@@ -284,7 +284,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Twenty?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 57,682 stars."
+          "text": "Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 57,764 stars."
         }
       },
       {

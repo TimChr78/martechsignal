@@ -49,13 +49,13 @@ React Email Editor
 
 Drag-n-Drop Email Editor Component for React.js
 
+Brevo
+
+Multichannel marketing platform billing by email volume, not contacts
+
 Ortto
 
 Customer data and marketing automation platform with journeys, CDP, and AI features
-
-Postmark
-
-Transactional email API with separated message streams, an MCP server, and published delivery numbers
 
 [More Email Marketing Tools →](/categories/email-marketing/)
 

@@ -15,10 +15,10 @@
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $40/mo |
 | ✓ AI capabilities: agent-driven CRM that builds contact and company records from your team's email |  |
-| ✓ Active public repository (4,480 GitHub stars counted at last check) |  |
+| ✓ Active public repository (4,499 GitHub stars counted at last check) |  |
 
 **What is Macro?**
-Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,480 stars.
+Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,499 stars.
 
 **How much does Macro cost?**
 Macro is paid software; plans start at $40/mo. Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
@@ -34,11 +34,11 @@ Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focu
 
 - **Pricing:** Freemium
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 4480
+- **GitHub:** ★ 4499
 - **Founded:** 2020
 - **HQ:** New York, NY, USA
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-09-07
 
 **Verdict:** Macro is a tool in CRM with paid plans starting at $40/mo. The catalog documents 8 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
@@ -175,7 +175,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,480 stars.
+Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,499 stars.
 
 Macro is paid software; plans start at $40/mo. Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
 
@@ -266,7 +266,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Macro?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,480 stars."
+          "text": "Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,499 stars."
         }
       },
       {

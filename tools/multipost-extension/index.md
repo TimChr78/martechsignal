@@ -16,22 +16,22 @@
 | ✓ Apache-2.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI content adaptation per platform |  |
-| ✓ Active public repository (3,553 GitHub stars counted at last check) |  |
+| ✓ Active public repository (3,557 GitHub stars counted at last check) |  |
 
 **What is MultiPost?**
-MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,553 stars.
+MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,557 stars.
 
 **How much does MultiPost cost?**
-MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,553 stars. You pay in server time and maintenance, not licences.
+MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,557 stars. You pay in server time and maintenance, not licences.
 
 **Is MultiPost a good self-hosted Social Media tool in 2026?**
 Excellent lightweight cross-poster for individual creators; agencies need more machinery.
 
 - **Pricing:** Open Source
 - **Category:** [Social Media](/categories/social-media/)
-- **GitHub:** ★ 3553
+- **GitHub:** ★ 3557
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-08-28
 
 **Verdict:** MultiPost is a tool in Social Media with free and open source. The catalog documents 2 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
@@ -117,9 +117,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,553 stars.
+MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,557 stars.
 
-MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,553 stars. You pay in server time and maintenance, not licences.
+MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,557 stars. You pay in server time and maintenance, not licences.
 
 Excellent lightweight cross-poster for individual creators; agencies need more machinery.
 
@@ -213,7 +213,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is MultiPost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,553 stars."
+          "text": "MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,557 stars."
         }
       },
       {
@@ -221,7 +221,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does MultiPost cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,553 stars. You pay in server time and maintenance, not licences."
+          "text": "MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,557 stars. You pay in server time and maintenance, not licences."
         }
       },
       {

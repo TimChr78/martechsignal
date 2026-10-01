@@ -13,25 +13,25 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (444 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (445 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: 5 specialist agents (product marketer, content, social, SEO, email) coordinated by a lead |  |
 | ✓ Native integrations include Slack, Notion, Resend (6 listed) |  |
 
 **What is Eve Marketing Team Template?**
-Eve Marketing Team Template: Open-source team of marketing agents on eve: lead, content, social, SEO, email. Eve Marketing Team Template ships with 5 specialist agents (product marketer, content, social, SEO, email) coordinated by a lead. The public repository carries 444 stars.
+Eve Marketing Team Template: Open-source team of marketing agents on eve: lead, content, social, SEO, email. Eve Marketing Team Template ships with 5 specialist agents (product marketer, content, social, SEO, email) coordinated by a lead. The public repository carries 445 stars.
 
 **How much does Eve Marketing Team Template cost?**
-Eve Marketing Team Template is open source - MIT licensed and free to self-host; the public repository carries 444 stars; native integrations cover Slack, Notion, Resend. You pay in server time and maintenance, not licences.
+Eve Marketing Team Template is open source - MIT licensed and free to self-host; the public repository carries 445 stars; native integrations cover Slack, Notion, Resend. You pay in server time and maintenance, not licences.
 
 **Is Eve Marketing Team Template a good self-hosted Agent Skills tool in 2026?**
 The fastest way to see a multi-agent marketing team running on real tools, and a solid reference for designing your own specialist-team architecture. A template that fits Vercel-plus-Slack shops; teams with different stacks should treat it as a blueprint rather than a deployment.
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 444
+- **GitHub:** ★ 445
 - **Founded:** 2026
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-08-31
 
 **Verdict:** Eve Marketing Team Template is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
@@ -142,9 +142,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Eve Marketing Team Template: Open-source team of marketing agents on eve: lead, content, social, SEO, email. Eve Marketing Team Template ships with 5 specialist agents (product marketer, content, social, SEO, email) coordinated by a lead. The public repository carries 444 stars.
+Eve Marketing Team Template: Open-source team of marketing agents on eve: lead, content, social, SEO, email. Eve Marketing Team Template ships with 5 specialist agents (product marketer, content, social, SEO, email) coordinated by a lead. The public repository carries 445 stars.
 
-Eve Marketing Team Template is open source - MIT licensed and free to self-host; the public repository carries 444 stars; native integrations cover Slack, Notion, Resend. You pay in server time and maintenance, not licences.
+Eve Marketing Team Template is open source - MIT licensed and free to self-host; the public repository carries 445 stars; native integrations cover Slack, Notion, Resend. You pay in server time and maintenance, not licences.
 
 The fastest way to see a multi-agent marketing team running on real tools, and a solid reference for designing your own specialist-team architecture. A template that fits Vercel-plus-Slack shops; teams with different stacks should treat it as a blueprint rather than a deployment.
 
@@ -234,7 +234,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Eve Marketing Team Template?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Eve Marketing Team Template: Open-source team of marketing agents on eve: lead, content, social, SEO, email. Eve Marketing Team Template ships with 5 specialist agents (product marketer, content, social, SEO, email) coordinated by a lead. The public repository carries 444 stars."
+          "text": "Eve Marketing Team Template: Open-source team of marketing agents on eve: lead, content, social, SEO, email. Eve Marketing Team Template ships with 5 specialist agents (product marketer, content, social, SEO, email) coordinated by a lead. The public repository carries 445 stars."
         }
       },
       {
@@ -242,7 +242,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Eve Marketing Team Template cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Eve Marketing Team Template is open source - MIT licensed and free to self-host; the public repository carries 444 stars; native integrations cover Slack, Notion, Resend. You pay in server time and maintenance, not licences."
+          "text": "Eve Marketing Team Template is open source - MIT licensed and free to self-host; the public repository carries 445 stars; native integrations cover Slack, Notion, Resend. You pay in server time and maintenance, not licences."
         }
       },
       {

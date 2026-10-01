@@ -16,22 +16,22 @@
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI-powered messaging |  |
-| ✓ Active public repository (2,626 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,628 GitHub stars counted at last check) |  |
 
 **What is Laudspeaker?**
-Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Laudspeaker ships with AI-powered messaging. The public repository carries 2,626 stars.
+Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Laudspeaker ships with AI-powered messaging. The public repository carries 2,628 stars.
 
 **How much does Laudspeaker cost?**
-Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,626 stars. You pay in server time and maintenance, not licences.
+Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,628 stars. You pay in server time and maintenance, not licences.
 
 **Is Laudspeaker a good self-hosted Marketing Automation tool in 2026?**
 The open-source Braze alternative for technical growth teams that want data ownership. Others go hosted.
 
 - **Pricing:** Open Source
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 2626
+- **GitHub:** ★ 2628
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-01
 - **Page updated:** 2026-08-28
 
 **Verdict:** Laudspeaker is a tool in Marketing Automation with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
@@ -129,9 +129,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Laudspeaker ships with AI-powered messaging. The public repository carries 2,626 stars.
+Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Laudspeaker ships with AI-powered messaging. The public repository carries 2,628 stars.
 
-Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,626 stars. You pay in server time and maintenance, not licences.
+Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,628 stars. You pay in server time and maintenance, not licences.
 
 The open-source Braze alternative for technical growth teams that want data ownership. Others go hosted.
 
@@ -221,7 +221,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Laudspeaker?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Laudspeaker ships with AI-powered messaging. The public repository carries 2,626 stars."
+          "text": "Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Laudspeaker ships with AI-powered messaging. The public repository carries 2,628 stars."
         }
       },
       {
@@ -229,7 +229,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Laudspeaker cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,626 stars. You pay in server time and maintenance, not licences."
+          "text": "Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,628 stars. You pay in server time and maintenance, not licences."
         }
       },
       {

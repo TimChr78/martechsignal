@@ -143,7 +143,7 @@ Vendor: [Official site](https://strapi.io) · [Pricing](https://strapi.io/pricin
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 ## Which AI writing tool protects brand voice?
 

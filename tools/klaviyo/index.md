@@ -41,6 +41,10 @@ Triple Whale
 
 AI-powered ecommerce analytics and attribution platform for DTC brands
 
+Brevo
+
+Multichannel marketing platform billing by email volume, not contacts
+
 Mailchimp
 
 All-in-one marketing platform with AI-powered email, automation, and analytics
@@ -48,10 +52,6 @@ All-in-one marketing platform with AI-powered email, automation, and analytics
 Clerk.io
 
 AI-powered ecommerce personalization with search, recommendations, and email
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
 
 Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 
@@ -159,6 +159,7 @@ The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a 
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — DTC brands that want store data doing the segmentation
 - [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/) — Pick Klaviyo if you want a hosted platform the vendor runs for you, and ai subject line assistant and predictive analytics matters to your team, starting free.
+- [Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict](/vs/mailchimp-vs-klaviyo/) — Pick Klaviyo if you want ecommerce-native profiles and predictive flows, starting free up to 250 contacts with paid from around $20/mo.
 ### Quick Facts
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

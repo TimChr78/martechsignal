@@ -49,7 +49,7 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 
 ## [n8n](/tools/n8n/)
 
-n8n is the open-source end of this list: self-hosted at no cost under a fair-code license, with cloud plans at 20 dollars monthly on Starter and 50 dollars on Pro. The visual builder runs on more than 400 nodes covering Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, with API access and custom code steps beyond the catalog. AI sits inside workflows: AI agent nodes run on LangChain, alongside documented AI data transformation, AI content generation, and AI-powered integrations. With 206,232 GitHub stars it has the largest community in this category by a wide margin. Founded 2019 in Berlin and deployable in the cloud or on your own servers, it trades vendor convenience for control.
+n8n is the open-source end of this list: self-hosted at no cost under a fair-code license, with cloud plans at 20 dollars monthly on Starter and 50 dollars on Pro. The visual builder runs on more than 400 nodes covering Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, with API access and custom code steps beyond the catalog. AI sits inside workflows: AI agent nodes run on LangChain, alongside documented AI data transformation, AI content generation, and AI-powered integrations. With 206,395 GitHub stars it has the largest community in this category by a wide margin. Founded 2019 in Berlin and deployable in the cloud or on your own servers, it trades vendor convenience for control.
 
 **Verdict:** Best for self-hosted workflows with code steps and AI agents.
 
@@ -119,7 +119,7 @@ Vendor: [Official site](https://tray.ai) · [Pricing](https://tray.ai/pricing/)
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 ## Should I self-host n8n or pay for Zapier?
 

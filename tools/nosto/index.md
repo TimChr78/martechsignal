@@ -60,9 +60,9 @@ Hypotenuse AI
 
 AI content generation platform for ecommerce product descriptions and articles
 
-GrowthBook
+RudderStack
 
-Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
+Warehouse-first CDP: open-source Go data plane plus managed routing
 
 [More Personalization & CDP Tools →](/categories/personalization/)
 

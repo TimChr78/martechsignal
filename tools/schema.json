@@ -1,110 +1,113 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://martechsignal.com/tools/schema.json",
-  "title": "MartechSignal tool catalog record",
-  "type": "object",
-  "required": [
-    "slug",
-    "name",
-    "description",
-    "category",
-    "pricing_model",
-    "website",
-    "status"
-  ],
-  "properties": {
-    "slug": {
-      "type": "string",
-      "pattern": "^[a-z0-9-]+$"
-    },
-    "name": {
-      "type": "string"
-    },
-    "tagline": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "seo_description": {
-      "type": "string"
-    },
-    "category": {
-      "type": "string"
-    },
-    "pricing_model": {
-      "type": "string"
-    },
-    "price_from": {
-      "type": [
-        "number",
-        "null"
-      ],
-      "minimum": 0
-    },
-    "paid_from": {
-      "type": [
-        "number",
-        "null"
-      ],
-      "minimum": 0
-    },
-    "currency": {
-      "type": "string",
-      "enum": [
-        "USD",
-        "EUR"
-      ]
-    },
-    "price_notes": {
-      "type": "string"
-    },
-    "pricing_url": {
-      "type": "string"
-    },
-    "website": {
-      "type": "string"
-    },
-    "github_repo": {
-      "type": "string"
-    },
-    "github_stars": {
-      "type": [
-        "number",
-        "null"
-      ]
-    },
-    "api_available": {
-      "type": "boolean"
-    },
-    "open_source": {
-      "type": "boolean"
-    },
-    "ai_features": {
-      "type": "array"
-    },
-    "integrations": {
-      "type": "array"
-    },
-    "status": {
-      "type": "string"
-    },
-    "date_added": {
-      "type": "string"
-    },
-    "date_updated": {
-      "type": "string"
-    },
-    "date_verified": {
-      "type": "string"
-    },
-    "kind": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "description": "Non-platform label: Agent Skill, Utility, or Guide (guides live at /guides/)."
-    }
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://martechsignal.com/tools/schema.json",
+ "title": "MartechSignal tool catalog record",
+ "type": "object",
+ "required": [
+  "slug",
+  "name",
+  "description",
+  "category",
+  "pricing_model",
+  "website",
+  "status"
+ ],
+ "properties": {
+  "slug": {
+   "type": "string",
+   "pattern": "^[a-z0-9-]+$"
   },
-  "additionalProperties": true
+  "name": {
+   "type": "string"
+  },
+  "tagline": {
+   "type": "string"
+  },
+  "description": {
+   "type": "string"
+  },
+  "seo_description": {
+   "type": "string"
+  },
+  "category": {
+   "type": "string"
+  },
+  "pricing_model": {
+   "type": "string"
+  },
+  "price_from": {
+   "type": [
+    "number",
+    "null"
+   ],
+   "minimum": 0
+  },
+  "paid_from": {
+   "type": [
+    "number",
+    "null"
+   ],
+   "minimum": 0
+  },
+  "currency": {
+   "type": "string",
+   "enum": [
+    "USD",
+    "EUR"
+   ]
+  },
+  "price_notes": {
+   "type": "string"
+  },
+  "pricing_url": {
+   "type": "string"
+  },
+  "website": {
+   "type": "string"
+  },
+  "github_repo": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "github_stars": {
+   "type": [
+    "number",
+    "null"
+   ]
+  },
+  "api_available": {
+   "type": "boolean"
+  },
+  "open_source": {
+   "type": "boolean"
+  },
+  "ai_features": {
+   "type": "array"
+  },
+  "integrations": {
+   "type": "array"
+  },
+  "status": {
+   "type": "string"
+  },
+  "date_added": {
+   "type": "string"
+  },
+  "date_updated": {
+   "type": "string"
+  },
+  "date_verified": {
+   "type": "string"
+  },
+  "kind": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "description": "Non-platform label: Agent Skill, Utility, or Guide (guides live at /guides/)."
+  }
+ },
+ "additionalProperties": true
 }
