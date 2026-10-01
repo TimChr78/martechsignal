@@ -44,7 +44,7 @@ def _strip_pick_label(name, value):
                    "", str(value or ""), flags=_re.I)
 
 from build_tools import page_shell, esc, ROOT, pricing_label, out_links, _tool_fact_img
-from build_tools import CATEGORY_GUIDES, _pilot_shot
+from build_tools import CATEGORY_GUIDES, _pilot_shot, glossary_terms_html, GLOSSARY_CAT_TERMS
 
 _MOMENTUM_ROWS = None
 
@@ -216,6 +216,15 @@ def build_best():
                 f'<div class="cat-nav">{_pills}</div>'
                 + (f'<p style="margin:.6rem 0 0;font-size:.92rem">{_gbits}</p>' if _gbits else "")
                 + "</section>")
+        # t_68251141: best pages carry the same glossary strips as category
+        # hubs (terms union over the featured tools' categories). No link sinks.
+        _gterms = []
+        for c in _hub_cats:
+            for t in GLOSSARY_CAT_TERMS.get(c, []):
+                if t not in _gterms:
+                    _gterms.append(t)
+        if _gterms:
+            body.append(glossary_terms_html(_gterms[:6]))
         body.append(_momentum_block([it["slug"] for it in items]))
 
         for it in items:

@@ -1129,6 +1129,46 @@ def _list_item_thing(t):
 # Editorial category -> hub-guide links, shared by category pages (Compare row)
 # and money pages (hub pills back up, r10 H-2). Hand-placed: no data source
 # maps guides to categories.
+GLOSSARY_CAT_TERMS = {
+    "marketing-automation": ["marketing-automation", "customer-journey", "lead-scoring", "mql-sql"],
+    "workflow-automation": ["workflow-automation", "agentic-marketing", "mcp", "ai-agent"],
+    "crm": ["crm", "lead-scoring", "mql-sql", "customer-journey", "first-party-data"],
+    "analytics": ["marketing-attribution-models", "first-party-data", "dmp"],
+    "email-marketing": ["email-sequence", "deliverability"],
+    "geo-llm-visibility": ["geo", "ai-search-visibility", "seo"],
+    "advertising": ["dsp", "dco", "programmatic-advertising", "cro"],
+    "personalization": ["personalization", "cro", "first-party-data"],
+    "seo": ["seo", "aeo", "ai-search-visibility", "utm-parameters"],
+    "chatbots": ["chatbot", "ai-agent"],
+    "content-ai": ["ai-content-generation", "agentic-marketing"],
+    "social-media": ["social-listening"],
+    "agent-skills": ["mcp", "agentic-marketing", "ai-agent"],
+    "open-source": ["marketing-ops", "workflow-automation"],
+}
+
+def glossary_strip_html(cat_slug, heading="Related concepts", cap=4):
+    """Glossary internal-link strip shared by tool pages, category pages and
+    best-of pages (t_68251141): terms derive from the tool's category so hub
+    pages carry the same glossary links tool pages do."""
+    return glossary_terms_html(GLOSSARY_CAT_TERMS.get(cat_slug, [])[:cap], heading)
+
+
+def glossary_terms_html(terms, heading="Key terms"):
+    """Same strip from an explicit term list (for pages spanning categories)."""
+    if not terms:
+        return ""
+    links = "".join(
+        f'<li><a href="/glossary/{t}/">{esc(_glossary_display(t))}</a></li>'
+        for t in terms
+    )
+    return (
+        f'<section class="related-concepts"><h2>{esc(heading)}</h2>'
+        f'<ul class="integ-list">{links}</ul>'
+        '<p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">'
+        'Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>'
+    )
+
+
 CATEGORY_GUIDES = {
     "marketing-automation": '<b>Guide:</b> <a href="/guides/workflow-automation-strategy/">automation strategy</a>',
     "content-ai": '<b>Guide:</b> <a href="/guides/ai-seo-tooling/">AI SEO tooling hub</a>',
@@ -1367,35 +1407,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
 
     # M4 (model-comparison audit): glossary was disconnected from the tool directory.
     # Category-level "Related concepts" strip: term links derive from the tool's category.
-    _CAT_TERMS = {
-        "marketing-automation": ["marketing-automation", "customer-journey", "lead-scoring", "mql-sql"],
-        "workflow-automation": ["workflow-automation", "agentic-marketing", "mcp", "ai-agent"],
-        "crm": ["crm", "lead-scoring", "mql-sql", "customer-journey", "first-party-data"],
-        "analytics": ["marketing-attribution-models", "first-party-data", "dmp"],
-        "email-marketing": ["email-sequence", "deliverability"],
-        "geo-llm-visibility": ["geo", "ai-search-visibility", "seo"],
-        "advertising": ["dsp", "dco", "programmatic-advertising", "cro"],
-        "personalization": ["personalization", "cro", "first-party-data"],
-        "seo": ["seo", "aeo", "ai-search-visibility", "utm-parameters"],
-        "chatbots": ["chatbot", "ai-agent"],
-        "content-ai": ["ai-content-generation", "agentic-marketing"],
-        "social-media": ["social-listening"],
-        "agent-skills": ["mcp", "agentic-marketing", "ai-agent"],
-        "open-source": ["marketing-ops", "workflow-automation"],
-    }
-    _terms = _CAT_TERMS.get(t["category"], [])
-    glossary_html = ""
-    if _terms:
-        _links = "".join(
-            f'<li><a href="/glossary/{_term}/">{esc(_glossary_display(_term))}</a></li>'
-            for _term in _terms
-        )
-        glossary_html = (
-            '<section class="related-concepts"><h2>Related concepts</h2>'
-            f'<ul class="integ-list">{_links}</ul>'
-            '<p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">'
-            'Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>'
-        )
+    glossary_html = glossary_strip_html(t["category"])
 
     # integrations
     integ_html = ""
@@ -2257,6 +2269,7 @@ def build_category_page(cat, tools):
 <h2 class="hub-group-label"><span>All tools in this category</span><i></i></h2>
 <div class="tool-grid">{cards}</div>
 {_cat_guide}
+{glossary_strip_html(cat["slug"], heading="Key terms")}
 {intro_html}
 {_vendor_line}"""
     else:
@@ -2324,6 +2337,7 @@ def build_category_page(cat, tools):
 
 {groups_html}
 {_cat_guide}
+{glossary_strip_html(cat["slug"], heading="Key terms")}
 <div class="flow-strip" aria-hidden="true">{flow}</div>
 
 <section class="hub-lead">{lead}</section>
