@@ -2,7 +2,7 @@
 
 [Browse the tools](/tools/) [See what is trending](/trending/) [Take the readiness checklist](/checklist/) [Get the newsletter](/#subscribe)
 
-163TOOLS AUDITED
+166TOOLS AUDITED
 
 44POSTS PUBLISHED
 

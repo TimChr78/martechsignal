@@ -131,7 +131,6 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 - [Lead scoring](/glossary/lead-scoring/)
 - [MQL / SQL](/glossary/mql-sql/)
 - [Customer journey](/glossary/customer-journey/)
-- [First-party data](/glossary/first-party-data/)
 Full definitions in the [martech glossary](/glossary/).
 
 ### Building your martech shortlist?
@@ -151,8 +150,8 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ### Quick Facts
 
 ## Get the next teardown

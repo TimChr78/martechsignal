@@ -189,6 +189,13 @@ Agent skills and MCP tools for coding agents: what each package automates in a m
 
 **Compare:** [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 
+## Key terms
+
+- [MCP](/glossary/mcp/)
+- [Agentic Marketing](/glossary/agentic-marketing/)
+- [AI Agent](/glossary/ai-agent/)
+Full definitions in the [martech glossary](/glossary/).
+
 Agent skills are installable capabilities for AI agents. A skill is a folder of markdown, scripts and prompts you load into Claude Code, Codex or OpenClaw, and it changes what the agent can do: run an SEO audit, operate ad accounts, build launch assets. No seat fee, no dashboard, no vendor to call. The category barely existed two years ago, and it is now the fastest-moving layer of martech. Six of the ten fastest-growing open-source repos we track sit in this category, and the biggest mover of the week, Claude SEO, out-grew n8n and LangChain combined.
 
 The speed is not an accident. These packs skip the distribution problem that SaaS never solved: a 55,000-word skill file costs nothing to ship, so quality is decided by issue discipline and documentation, not by a sales team. The trade is that the burden moved to you. Nobody validates a skill's output, nobody holds its hand, and some packs quietly append self-promotion to their results. Provenance is the whole game, which is why every review in this directory comes from installing the pack and shipping something with it.

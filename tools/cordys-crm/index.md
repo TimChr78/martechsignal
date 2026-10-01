@@ -152,7 +152,6 @@ Watch it for self-hosted CRM needs. The feature ceiling is below Salesforce, but
 - [Lead scoring](/glossary/lead-scoring/)
 - [MQL / SQL](/glossary/mql-sql/)
 - [Customer journey](/glossary/customer-journey/)
-- [First-party data](/glossary/first-party-data/)
 Full definitions in the [martech glossary](/glossary/).
 
 ### Building your martech shortlist?

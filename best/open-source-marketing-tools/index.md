@@ -42,6 +42,16 @@ What we could not verify is called out under each tool below.
 
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
+## Key terms
+
+- [Attribution models](/glossary/marketing-attribution-models/)
+- [First-party data](/glossary/first-party-data/)
+- [DMP](/glossary/dmp/)
+- [CRM](/glossary/crm/)
+- [Lead scoring](/glossary/lead-scoring/)
+- [MQL / SQL](/glossary/mql-sql/)
+Full definitions in the [martech glossary](/glossary/).
+
 ## Open-source momentum, with receipts
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.

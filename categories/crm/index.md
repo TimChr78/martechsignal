@@ -235,6 +235,14 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 
 **Compare:** [ActiveCampaign vs HubSpot CRM](/vs/activecampaign-vs-hubspot/) · [HubSpot CRM alternatives](/alternatives/hubspot-crm/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 
+## Key terms
+
+- [CRM](/glossary/crm/)
+- [Lead scoring](/glossary/lead-scoring/)
+- [MQL / SQL](/glossary/mql-sql/)
+- [Customer journey](/glossary/customer-journey/)
+Full definitions in the [martech glossary](/glossary/).
+
 A CRM is the system of record for who your customers are, what they bought, and what your team promised them. Every other tool in the stack reads from it or writes to it. What changed in the last year is that these systems stopped being passive. Salesforce now bundles Agentforce into existing Enterprise contracts at no extra cost. Attio enriches records and drafts outreach on its own. Freshsales scores deals with Freddy AI from the Pro tier. Pipedrive predicts which deals close. The record layer is where AI agents actually work, because it is the only place with the context they need.
 
 The failure mode is the one this category has always had, now with higher stakes: the CRM is a graveyard of half-entered records, and every forecast built on it inherits the rot. AI makes that worse before it makes it better, since a scoring model trained on stale deal data will confidently rank your pipeline wrong. Buyers also keep paying per seat for fields nobody fills in. We covered the cost side in the Agentforce free-tier post and the data side in the CDP reckoning, where the warehouse eats the profile store. The 50-day open-source audit tracked which CRM projects actually ship.

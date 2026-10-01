@@ -155,6 +155,14 @@ Marketing automation platforms reviewed: workflow depth, guardrails, and AI auto
 
 **Compare:** [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Salesforce Marketing Cloud vs HubSpot Marketing Hub](/vs/salesforce-marketing-cloud-vs-hubspot/) · [ActiveCampaign vs Klaviyo](/vs/activecampaign-vs-klaviyo/) · [ActiveCampaign vs HubSpot CRM](/vs/activecampaign-vs-hubspot/) · [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
+## Key terms
+
+- [Marketing automation](/glossary/marketing-automation/)
+- [Customer journey](/glossary/customer-journey/)
+- [Lead scoring](/glossary/lead-scoring/)
+- [MQL / SQL](/glossary/mql-sql/)
+Full definitions in the [martech glossary](/glossary/).
+
 Marketing automation platforms orchestrate campaigns across email, ads and your site from one rules engine: who gets what message, when, and what happens after they click. It is also the category where AI autonomy arrived first. ActiveCampaign now brands itself an autonomous marketing platform. HubSpot ships Breeze agents inside its workflows. Salesforce rebuilt Marketing Cloud around Agentforce. Other categories assist; this one acts, which is why the buyer's question has changed from what can it do to what does it do when nobody is watching.
 
 The category exists to fix two old failure modes. The first is manual campaign assembly: the same journey rebuilt by hand in an email tool, an ad platform and a CMS, drifting apart within a month. The second is siloed customer data, where email never learns what the ads team already knows. Both are solved problems now. The new failure mode came with the agents: silent actions at scale. A journey that fires overnight, spends budget, or emails your whole list leaves no draft to review. We covered the audit that catches this in the silent-failure audit and the missing control in the approval-loophole post.

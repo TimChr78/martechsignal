@@ -38,6 +38,16 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+## Key terms
+
+- [CRM](/glossary/crm/)
+- [Lead scoring](/glossary/lead-scoring/)
+- [MQL / SQL](/glossary/mql-sql/)
+- [Customer journey](/glossary/customer-journey/)
+- [First-party data](/glossary/first-party-data/)
+- [Marketing ops](/glossary/marketing-ops/)
+Full definitions in the [martech glossary](/glossary/).
+
 ## Open-source momentum, with receipts
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.

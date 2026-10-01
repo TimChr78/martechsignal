@@ -118,7 +118,7 @@ The agents are good enough. The context is not.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [RudderStack](/tools/rudderstack/) · [Analytics Tracking Automation](/tools/analytics-tracking-automation/)
+More from the directory: [Analytics Tracking Automation](/tools/analytics-tracking-automation/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -166,7 +166,7 @@ More from the directory: [RudderStack](/tools/rudderstack/) · [Analytics Tracki
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1539,
+  "wordCount": 1534,
   "articleSection": "marketing-automation"
 }
 ```

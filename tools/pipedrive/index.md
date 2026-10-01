@@ -133,7 +133,6 @@ The easiest CRM to get a sales team to actually adopt; add-on pricing is where c
 - [Lead scoring](/glossary/lead-scoring/)
 - [MQL / SQL](/glossary/mql-sql/)
 - [Customer journey](/glossary/customer-journey/)
-- [First-party data](/glossary/first-party-data/)
 Full definitions in the [martech glossary](/glossary/).
 
 ### Building your martech shortlist?
@@ -153,8 +152,8 @@ The easiest CRM to get a sales team to actually adopt; add-on pricing is where c
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for small sales teams that live in one pipeline view.

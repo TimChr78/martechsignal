@@ -86,8 +86,8 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 - [Claude Ads](/tools/claude-ads/) - Paid-media operations skill for Claude Code covering 12 ad platforms
 ## Comparison guides
 
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
 ## Glossary terms
 
 - [GEO](/glossary/geo/)
@@ -96,7 +96,7 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [IFTTT](/tools/ifttt/)
+More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

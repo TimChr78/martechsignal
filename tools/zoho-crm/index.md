@@ -116,7 +116,6 @@ Buyers who want a scored assessment against our rubric: Zoho CRM is one of three
 - [Lead scoring](/glossary/lead-scoring/)
 - [MQL / SQL](/glossary/mql-sql/)
 - [Customer journey](/glossary/customer-journey/)
-- [First-party data](/glossary/first-party-data/)
 Full definitions in the [martech glossary](/glossary/).
 
 ### Building your martech shortlist?
@@ -136,8 +135,8 @@ Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best value for small teams that want a full suite without an enterprise bill.

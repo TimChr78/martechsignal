@@ -145,7 +145,6 @@ The established open-source CRM workhorse: unmatched module depth and free core 
 - [Lead scoring](/glossary/lead-scoring/)
 - [MQL / SQL](/glossary/mql-sql/)
 - [Customer journey](/glossary/customer-journey/)
-- [First-party data](/glossary/first-party-data/)
 Full definitions in the [martech glossary](/glossary/).
 
 ### Building your martech shortlist?
@@ -169,8 +168,8 @@ As a fresh installation, not an in-place patch. The docs require the latest 7.x 
 ## Related reading
 
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for teams that want the widest free feature set.

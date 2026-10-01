@@ -135,6 +135,14 @@ SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 
 
 **Compare:** [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
 
+## Key terms
+
+- [SEO](/glossary/seo/)
+- [AEO](/glossary/aeo/)
+- [AI Visibility](/glossary/ai-search-visibility/)
+- [UTM parameters](/glossary/utm-parameters/)
+Full definitions in the [martech glossary](/glossary/).
+
 SEO used to have a scoreboard: rank, click, conversion. The answer engines ate it. When an AI Overview or ChatGPT finishes the question, the visitor never comes, and your dashboard records a clean-looking impression instead of a lost click. The job split in two: still earn the rank, and also get cited in the answer. Most tools in this category were built for the first half and are still catching up on the second.
 
 The 9 here fall into four camps. Semrush is the full platform: 25 billion keywords of data, a technical crawler, rank tracking, and an AI visibility add-on on top. Clearscope, Frase, MarketMuse and Surfer sell the writing layer: they read the top-ranking pages for a keyword, turn them into a brief, and grade your draft against it while you write. OpenSEO and Seonaut are the open source plumbing: rank tracking and backlinks, or site crawls, on your own server with no per-seat billing. Superlines and Potato are the fourth camp, measuring what the answer engines actually say about you: Superlines as a commercial AI-search intelligence platform, Potato free and local against Claude's web-search answers.

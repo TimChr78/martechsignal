@@ -51,6 +51,11 @@ Social scheduling, listening, and analytics, from per-channel schedulers to ente
 
 **Compare:** [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/)
 
+## Key terms
+
+- [Social listening](/glossary/social-listening/)
+Full definitions in the [martech glossary](/glossary/).
+
 Social tools cover publishing, listening, and reporting, and the prices vary far more than the features do. Buffer charges $5 per channel a month on Essentials and $10 on Team, with a free plan for 3 channels. Hootsuite starts at $99 a month and its Professional plan runs $149. Sprout Social starts at $249 per seat and its next tier $399, so the price ladder inside the suites is steeper than it looks. MultiPost, the open-source browser extension, publishes to multiple platforms in one click and adapts the copy per platform, for free.
 
 The trap is suite prices for a scheduling job. Publishing is close to a solved problem, so the money should go where the work is: listening depth, approval workflows for teams, and reporting that connects posts to business outcomes. If content volume is your constraint instead, Predis.ai generates posts, videos, and carousels with a Core plan at $19 a month, and Buffer's AI assistant rewrites and repurposes what you already published. Brandwatch sits at the other end, selling consumer intelligence as a quote-priced enterprise module.

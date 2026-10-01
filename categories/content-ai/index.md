@@ -93,6 +93,12 @@ AI copywriting, message optimization, and publishing platforms, from per-seat ge
 
 **Compare:** [Jasper vs Writer](/vs/jasper-vs-writer/) · [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) · **Guide:** [AI SEO tooling hub](/guides/ai-seo-tooling/)
 
+## Key terms
+
+- [AI content](/glossary/ai-content-generation/)
+- [Agentic Marketing](/glossary/agentic-marketing/)
+Full definitions in the [martech glossary](/glossary/).
+
 Content AI covers three jobs that buyers keep conflating: drafting copy, scoring it before it ships, and publishing it. Copy.ai, Jasper, and ContentBot generate drafts. Anyword scores copy against predicted performance before you spend a send on it. Persado and Phrasee, which rebranded as Jacquard in June 2024, sell message optimization into regulated industries. Writer grounds its Palmyra models in your brand rules. Only the third job is infrastructure: Ghost and Strapi actually publish what you produce.
 
 The trap is paying generator prices for an editor problem. Generated copy still needs a human pass for accuracy and voice, so judge these tools on workflow fit: how they brief, how they verify, and how drafts reach your editors. Per-seat pricing runs from ContentBot's $9 a month starter plan and Copy.ai's free 2,000 words a month to Jasper's Creator plan at $39 a month billed annually. Anyword starts at $39 a month annual, Hypotenuse AI at $56, with ecommerce product copy as its strength. Volume is the cheapest thing to buy here; verification and brand control are what the price differences actually reflect.

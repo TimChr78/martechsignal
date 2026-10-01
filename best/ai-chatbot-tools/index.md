@@ -36,6 +36,14 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+## Key terms
+
+- [Chatbot](/glossary/chatbot/)
+- [AI Agent](/glossary/ai-agent/)
+- [Marketing ops](/glossary/marketing-ops/)
+- [Workflow automation](/glossary/workflow-automation/)
+Full definitions in the [martech glossary](/glossary/).
+
 ## Open-source momentum, with receipts
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.

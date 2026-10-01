@@ -40,6 +40,16 @@ What we could not verify is called out under each tool below.
 
 **Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) · [GEO, defined](/glossary/geo/)
 
+## Key terms
+
+- [MCP](/glossary/mcp/)
+- [Agentic Marketing](/glossary/agentic-marketing/)
+- [AI Agent](/glossary/ai-agent/)
+- [GEO](/glossary/geo/)
+- [AI Visibility](/glossary/ai-search-visibility/)
+- [SEO](/glossary/seo/)
+Full definitions in the [martech glossary](/glossary/).
+
 ## Open-source momentum, with receipts
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.

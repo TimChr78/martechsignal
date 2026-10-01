@@ -38,6 +38,15 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+## Key terms
+
+- [Attribution models](/glossary/marketing-attribution-models/)
+- [First-party data](/glossary/first-party-data/)
+- [DMP](/glossary/dmp/)
+- [Marketing ops](/glossary/marketing-ops/)
+- [Workflow automation](/glossary/workflow-automation/)
+Full definitions in the [martech glossary](/glossary/).
+
 ## Open-source momentum, with receipts
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.

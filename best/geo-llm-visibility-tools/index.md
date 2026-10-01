@@ -43,6 +43,13 @@ What we could not verify is called out under each tool below.
 
 **Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) · [GEO, defined](/glossary/geo/)
 
+## Key terms
+
+- [GEO](/glossary/geo/)
+- [AI Visibility](/glossary/ai-search-visibility/)
+- [SEO](/glossary/seo/)
+Full definitions in the [martech glossary](/glossary/).
+
 ## [Nimt.ai](/tools/nimt-ai/)
 
 Nimt.ai is an AI search tool from Sweden that combines tracking with an agent that does the fixing work. usage pricing starts at €79/mo. EUR 40 in free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with up to 72 prompts tracked daily. Credits meter tracking and agent work; unused credits roll over and stay valid 2 months; on-demand top-ups. Enterprise: custom volume pricing via sales on annual contracts, unlimited credits (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.

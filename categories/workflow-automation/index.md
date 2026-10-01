@@ -185,6 +185,14 @@ Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents,
 
 **Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) · [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Make vs Zapier](/vs/make-vs-zapier/) · [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) · [Zapier alternatives](/alternatives/zapier/) · [n8n alternatives](/alternatives/n8n/) · [Best workflow automation tools (2026)](/best/workflow-automation-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
+## Key terms
+
+- [Workflow automation](/glossary/workflow-automation/)
+- [Agentic Marketing](/glossary/agentic-marketing/)
+- [MCP](/glossary/mcp/)
+- [AI Agent](/glossary/ai-agent/)
+Full definitions in the [martech glossary](/glossary/).
+
 Workflow automation is the unglamorous layer that decides whether your stack works like a system or just a pile of browser tabs. It is how your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually do things instead of drafting suggestions nobody opens.
 
 The category splits two ways. Zapier and Make get you to a live run before lunch, but you rent the engine. n8n and LangChain hand you primitives and trust you to know what to do with them. Workato and Tray.io sit in the enterprise tier and wrap both ideas in governance and a bigger invoice. Appsmith, Budibase, Tooljet and NocoBase take a different bet again: they turn your own database into admin panels and internal automations, so the workflow layer stays inside tools you build yourself.

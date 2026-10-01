@@ -40,6 +40,16 @@ What we could not verify is called out under each tool below.
 
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
+## Key terms
+
+- [Marketing automation](/glossary/marketing-automation/)
+- [Customer journey](/glossary/customer-journey/)
+- [Lead scoring](/glossary/lead-scoring/)
+- [MQL / SQL](/glossary/mql-sql/)
+- [Marketing ops](/glossary/marketing-ops/)
+- [Workflow automation](/glossary/workflow-automation/)
+Full definitions in the [martech glossary](/glossary/).
+
 ## Open-source momentum, with receipts
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.

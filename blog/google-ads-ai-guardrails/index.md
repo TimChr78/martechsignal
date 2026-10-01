@@ -87,7 +87,7 @@ The boring setup wins. You know what the AI can see, you know what it can't touc
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 ## Glossary terms
 
 - [DSP](/glossary/dsp/)
@@ -96,7 +96,7 @@ The boring setup wins. You know what the AI can see, you know what it can't touc
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [ManyChat](/tools/manychat/)
+More from the directory: [Madgicx](/tools/madgicx/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -156,7 +156,7 @@ More from the directory: [ManyChat](/tools/manychat/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1455,
+  "wordCount": 1456,
   "articleSection": "advertising"
 }
 ```

@@ -36,6 +36,15 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+## Key terms
+
+- [CRM](/glossary/crm/)
+- [Lead scoring](/glossary/lead-scoring/)
+- [MQL / SQL](/glossary/mql-sql/)
+- [Customer journey](/glossary/customer-journey/)
+- [First-party data](/glossary/first-party-data/)
+Full definitions in the [martech glossary](/glossary/).
+
 ## [Attio](/tools/attio/)
 
 Attio rebuilds the CRM around flexible data models and AI assistance, and it shows in the product: objects and relationships bend to your business instead of the other way round. Entry is free for 3 seats, Plus runs $29 per seat a month and Pro $69, all billed annually. It is young, which means fewer enterprise guardrails than the incumbents.
