@@ -67,7 +67,7 @@ Self-hosted open-source CRM with AI agents that sell through WhatsApp
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit DeskcommCRM →](https://deskcomm.com.br)
 
@@ -142,8 +142,8 @@ Strengths include 4,222 GitHub stars, MIT licensing with free self-hosting, an A
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -169,7 +169,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/deskcommcrm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-09-14",
     "offers": {
       "@type": "Offer",
@@ -272,7 +272,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/deskcommcrm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/deskcommcrm/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/deskcommcrm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/deskcommcrm/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

@@ -71,7 +71,7 @@ No-code automation platform connecting 9,000+ apps with AI-powered workflows
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Tray.io
-Re-check pending: pricing last verified 2026-09-06 (24 days ago).
+Re-check pending: pricing last verified 2026-09-06 (25 days ago).
 
 ## Tray.io review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ AI-powered integration platform for building custom automation and AI agents
 
 Workflow Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Tray.io →](https://tray.ai)
 
@@ -193,8 +193,8 @@ Zapier fits single-task automations owned by individuals. Tray fits programs: mu
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for AI app governance plus integration on one platform.
@@ -225,7 +225,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/tray-io/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27"
   },
   {
@@ -353,7 +353,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tray-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tray-io/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tray-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tray-io/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

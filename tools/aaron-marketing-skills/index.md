@@ -64,7 +64,7 @@ Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agent
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Aaron Marketing Skills
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## Aaron Marketing Skills review (2026): pricing, AI features, verdict
 
@@ -72,7 +72,7 @@ Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Aaron Marketing Skills →](https://github.com/aaron-he-zhu/aaron-marketing-skills)
 
@@ -149,8 +149,8 @@ Useful starter kit for marketers adopting Claude Code. Customize before you trus
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -176,7 +176,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/aaron-marketing-skills/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",
@@ -279,7 +279,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/aaron-marketing-skills/", "breadcrumb": {"@id": "https://martechsignal.com/tools/aaron-marketing-skills/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/aaron-marketing-skills/", "breadcrumb": {"@id": "https://martechsignal.com/tools/aaron-marketing-skills/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

@@ -61,7 +61,7 @@ Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrati
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - AlphOne
-Re-check pending: pricing last verified 2026-09-06 (24 days ago).
+Re-check pending: pricing last verified 2026-09-06 (25 days ago).
 
 ## AlphOne review (2026): pricing, AI features, verdict
 
@@ -69,7 +69,7 @@ Plugin-first CRM (source-available, Elastic 2.0) written in Go
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit AlphOne →](https://github.com/gopherium/AlphOne)
 
@@ -151,8 +151,8 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -178,7 +178,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/alphone/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-29",
     "offers": {
       "@type": "Offer",
@@ -281,7 +281,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/alphone/", "breadcrumb": {"@id": "https://martechsignal.com/tools/alphone/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/alphone/", "breadcrumb": {"@id": "https://martechsignal.com/tools/alphone/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

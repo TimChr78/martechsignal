@@ -61,7 +61,7 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Notifuse
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## Notifuse review (2026): pricing, AI features, verdict
 
@@ -69,7 +69,7 @@ Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrati
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Notifuse →](https://www.notifuse.com)
 
@@ -155,8 +155,8 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want the job covered in one platform and can host it themselves, with a free starting tier.
@@ -187,7 +187,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/notifuse/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-17",
     "offers": [
       {
@@ -299,7 +299,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/notifuse/", "breadcrumb": {"@id": "https://martechsignal.com/tools/notifuse/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/notifuse/", "breadcrumb": {"@id": "https://martechsignal.com/tools/notifuse/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

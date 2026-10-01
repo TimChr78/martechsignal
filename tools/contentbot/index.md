@@ -63,7 +63,7 @@ Open-source publishing platform with built-in newsletters, memberships, and AI t
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - ContentBot
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## ContentBot review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ AI content automation platform with workflows for blogs, ads, and social posts
 
 AI Content & Copywriting · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit ContentBot →](https://contentbot.ai)
 
@@ -150,8 +150,8 @@ Good value for high-volume, template-driven content pipelines. Teams doing premi
 ## Related reading
 
 - [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -177,7 +177,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/contentbot/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -289,7 +289,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/contentbot/", "breadcrumb": {"@id": "https://martechsignal.com/tools/contentbot/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/contentbot/", "breadcrumb": {"@id": "https://martechsignal.com/tools/contentbot/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

@@ -104,7 +104,7 @@ Attribution platforms, CDPs, and analytics tools with pricing and AI features co
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Trakkr](/tools/trakkr/)
+More from the directory: [Zoho CRM](/tools/zoho-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -139,7 +139,7 @@ More from the directory: [Trakkr](/tools/trakkr/)
     }
   },
   "datePublished": "2026-08-14",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/",
   "image": {
     "@type": "ImageObject",
@@ -185,7 +185,7 @@ More from the directory: [Trakkr](/tools/trakkr/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/", "breadcrumb": {"@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/", "breadcrumb": {"@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

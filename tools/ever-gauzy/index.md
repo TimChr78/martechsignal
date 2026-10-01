@@ -72,7 +72,7 @@ Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Ever Gauzy
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Ever Gauzy review (2026): pricing, AI features, verdict
 
@@ -80,7 +80,7 @@ Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Ever Gauzy →](https://gauzy.co)
 
@@ -175,8 +175,8 @@ Yes, and it is the platform's anchor module. The README lists employee time-trac
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -202,7 +202,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/ever-gauzy/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-25",
     "offers": [
       {
@@ -338,7 +338,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ever-gauzy/", "breadcrumb": {"@id": "https://martechsignal.com/tools/ever-gauzy/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ever-gauzy/", "breadcrumb": {"@id": "https://martechsignal.com/tools/ever-gauzy/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

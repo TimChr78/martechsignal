@@ -63,7 +63,7 @@ Paid-media operations skill for Claude Code covering 12 ad platforms
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - SEO Skill Bench
-Re-check pending: pricing last verified 2026-09-03 (27 days ago).
+Re-check pending: pricing last verified 2026-09-03 (28 days ago).
 
 ## SEO Skill Bench review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit SEO Skill Bench →](https://seoagent.com/seo-skill-benchmark)
 
@@ -160,7 +160,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/seo-skill-bench/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-09-03",
     "offers": {
       "@type": "Offer",
@@ -263,7 +263,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/seo-skill-bench/", "breadcrumb": {"@id": "https://martechsignal.com/tools/seo-skill-bench/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/seo-skill-bench/", "breadcrumb": {"@id": "https://martechsignal.com/tools/seo-skill-bench/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

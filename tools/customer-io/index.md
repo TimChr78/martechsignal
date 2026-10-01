@@ -65,7 +65,7 @@ Transactional email API with separated message streams, an MCP server, and publi
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Customer.io
-Re-check pending: pricing last verified 2026-09-06 (24 days ago).
+Re-check pending: pricing last verified 2026-09-06 (25 days ago).
 
 ## Customer.io review (2026): pricing, AI features, verdict
 
@@ -73,7 +73,7 @@ Data-driven messaging platform for automated email, push, SMS, and in-app messag
 
 Email Marketing · From $100/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Customer.io →](https://customer.io)
 
@@ -178,8 +178,8 @@ Email and transactional email, push and in-app with unlimited sends on every pla
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Lifecycle teams writing behavior-triggered journeys on their own data
@@ -210,7 +210,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/customer-io/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -329,7 +329,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/customer-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/customer-io/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/customer-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/customer-io/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

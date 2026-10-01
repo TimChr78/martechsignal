@@ -72,7 +72,7 @@ AI-powered CRM with built-in phone, email, and chat for sales teams
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Django CRM
-Re-check pending: pricing last verified 2026-09-06 (24 days ago).
+Re-check pending: pricing last verified 2026-09-06 (25 days ago).
 
 ## Django CRM review (2026): pricing, AI features, verdict
 
@@ -80,7 +80,7 @@ Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Django CRM →](https://bottlecrm.io)
 
@@ -206,7 +206,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/django-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-21",
     "offers": {
       "@type": "Offer",
@@ -333,7 +333,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/django-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/django-crm/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/django-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/django-crm/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

@@ -64,7 +64,7 @@ Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Codex SEO
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## Codex SEO review (2026): pricing, AI features, verdict
 
@@ -72,7 +72,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 
 Agent Skills · Free Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Codex SEO →](https://github.com/AgriciDaniel/codex-seo)
 
@@ -150,8 +150,8 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for Codex CLI users who want scripted SEO workflows.
@@ -182,7 +182,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/codex-seo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",
@@ -285,7 +285,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/codex-seo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/codex-seo/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/codex-seo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/codex-seo/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

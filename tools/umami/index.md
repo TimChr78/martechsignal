@@ -69,7 +69,7 @@ AI-powered digital analytics platform for product and marketing teams
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Umami
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Umami review (2026): pricing, AI features, verdict
 
@@ -77,7 +77,7 @@ Open-source, cookieless web analytics with real-time dashboards, session replay,
 
 Analytics & Attribution · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Umami →](https://umami.is)
 
@@ -177,8 +177,8 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Also featured in
 
 - [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.
@@ -209,7 +209,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/umami/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -345,7 +345,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/umami/", "breadcrumb": {"@id": "https://martechsignal.com/tools/umami/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/umami/", "breadcrumb": {"@id": "https://martechsignal.com/tools/umami/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

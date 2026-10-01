@@ -59,7 +59,7 @@ Open-source Segment alternative for event capture and warehouse-first data pipel
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Tealium
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## Tealium review (2026): pricing, AI features, verdict
 
@@ -67,7 +67,7 @@ Enterprise customer data platform with real-time data orchestration and AI
 
 Personalization & CDP · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Tealium →](https://tealium.com)
 
@@ -150,8 +150,8 @@ Best for enterprises that need governed, consent-aware data plumbing at scale. W
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Regulated enterprises that need governance around every customer event
@@ -182,7 +182,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/tealium/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27"
   },
   {
@@ -278,7 +278,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tealium/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tealium/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tealium/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tealium/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

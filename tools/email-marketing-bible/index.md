@@ -64,7 +64,7 @@ AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Email Marketing Bible
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 KIND: Agent Skill (not an end-to-end platform)
 
@@ -74,7 +74,7 @@ KIND: Agent Skill (not an end-to-end platform)
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Email Marketing Bible →](https://github.com/CosmoBlk/email-marketing-bible)
 
@@ -155,8 +155,8 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for email marketers who want 19 playbooks with 908 cited sources and ESP control over MCP, free under the MIT license.
@@ -187,7 +187,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/email-marketing-bible/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",
@@ -290,7 +290,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/email-marketing-bible/", "breadcrumb": {"@id": "https://martechsignal.com/tools/email-marketing-bible/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/email-marketing-bible/", "breadcrumb": {"@id": "https://martechsignal.com/tools/email-marketing-bible/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

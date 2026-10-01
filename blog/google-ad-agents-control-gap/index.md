@@ -139,7 +139,7 @@ Advertising platforms, attribution vendors, and the measurement layer that keeps
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [LibreTranslate](/tools/libretranslate/)
+More from the directory: [Madgicx](/tools/madgicx/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -174,7 +174,7 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
     }
   },
   "datePublished": "2026-08-17",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-ad-agents-control-gap/",
   "image": {
     "@type": "ImageObject",
@@ -220,7 +220,7 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

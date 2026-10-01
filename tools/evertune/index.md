@@ -79,7 +79,7 @@ GEO visibility measurement with content activation and a ChatGPT Ad Agent
 
 GEO & LLM Optimization · From $800/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Evertune →](https://www.evertune.ai)
 
@@ -175,8 +175,8 @@ Yes. Evertune launched a ChatGPT Ad Agent that buys ads in conversations where y
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for teams that want 100,000 prompts tracked across 11 models with content activation, from $800/mo on the Pro plan.
@@ -207,7 +207,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/evertune/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -342,7 +342,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/evertune/", "breadcrumb": {"@id": "https://martechsignal.com/tools/evertune/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/evertune/", "breadcrumb": {"@id": "https://martechsignal.com/tools/evertune/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

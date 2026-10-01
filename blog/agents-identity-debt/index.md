@@ -107,7 +107,7 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
+More from the directory: [advertools](/tools/advertools/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -142,7 +142,7 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
     }
   },
   "datePublished": "2026-08-13",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/agents-identity-debt/",
   "image": {
     "@type": "ImageObject",
@@ -188,7 +188,7 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agents-identity-debt/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agents-identity-debt/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agents-identity-debt/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agents-identity-debt/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

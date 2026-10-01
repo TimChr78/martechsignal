@@ -71,7 +71,7 @@ AI copywriting platform with predictive performance scores for marketing content
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Phrasee
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Phrasee review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ AI messaging content platform; rebranded as Jacquard in June 2024
 
 AI Content & Copywriting · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Phrasee →](https://www.jacquard.com)
 
@@ -192,8 +192,8 @@ Vendor-published results range widely. Currys reports 42% uplift in opens, 93% i
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Best for AI content & copywriting teams that want ai tone-of-voice analysis, with pricing quoted per contract.
@@ -224,7 +224,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/phrasee/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27"
   },
   {
@@ -344,7 +344,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/phrasee/", "breadcrumb": {"@id": "https://martechsignal.com/tools/phrasee/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/phrasee/", "breadcrumb": {"@id": "https://martechsignal.com/tools/phrasee/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

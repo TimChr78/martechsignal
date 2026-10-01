@@ -59,7 +59,7 @@ AI-powered Meta ads optimization and creative workflow
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - AdCreative.ai
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## AdCreative.ai review (2026): pricing, AI features, verdict
 
@@ -67,7 +67,7 @@ AI platform generating high-converting ad creatives and social media post design
 
 Advertising & Paid Media · From $20/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit AdCreative.ai →](https://www.adcreative.ai)
 
@@ -151,8 +151,8 @@ Buy it when ad volume is your bottleneck and speed matters. Skip it if your bran
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Lean teams that want creative volume with a score attached
@@ -183,7 +183,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/adcreative-ai/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -286,7 +286,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/adcreative-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/adcreative-ai/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/adcreative-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/adcreative-ai/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

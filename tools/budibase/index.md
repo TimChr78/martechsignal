@@ -73,7 +73,7 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Budibase
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Budibase review (2026): pricing, AI features, verdict
 
@@ -81,7 +81,7 @@ Open-source operations platform for building AI agents, apps and automations on 
 
 Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Budibase →](https://budibase.com)
 
@@ -196,7 +196,7 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 
 - [Budibase next to NocoBase and NocoDB: choosing between the three](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ### Quick Facts
 
 Related guides: [Budibase in Zapier alternatives](/alternatives/zapier/)
@@ -224,7 +224,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/budibase/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-09-05",
     "offers": [
       {
@@ -360,7 +360,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/budibase/", "breadcrumb": {"@id": "https://martechsignal.com/tools/budibase/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/budibase/", "breadcrumb": {"@id": "https://martechsignal.com/tools/budibase/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rethink, not rebuild: the replatform-for-AI trap</title>
+<meta name="description" content="Jon Miller co-founded Marketo, then founded Engagio, the account-based marketing platform Demandbase bought in 2020 (Demandbase press release). This week.">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="article">
+<link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="Rethink, not rebuild: the replatform-for-AI trap">
+<meta property="og:description" content="Jon Miller co-founded Marketo, then founded Engagio, the account-based marketing platform Demandbase bought in 2020 (Demandbase press release). This week.">
+<meta property="og:url" content="https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/">
+<meta property="og:image" content="https://martechsignal.com/og/jon-miller-rethink-not-rebuild.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/">
+<link rel="ard ai-catalog" type="application/json" href="https://martechsignal.com/.well-known/ard.json">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin><style>:root{--bg: #080E1A;--card: #0F1B31;--line: #1D2B47;--line2: #2A3D63;--text: #E9EEF8;--muted: #8FA1C0;--amber: #FFB224;--green: #3DDC97;--red: #F87171;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--body: 'Archivo', 'Archivo-fallback', sans-serif}*{margin: 0;padding: 0;box-sizing: border-box}html{scroll-behavior: smooth}body{background: var(--bg);color: var(--text);font-family: var(--body);line-height: 1.65;-webkit-font-smoothing: antialiased}.page-post body, body.page-post{line-height: 1.7}::selection{background: var(--amber);color: #141005}a{color: inherit}.bg{position: fixed;inset: 0;z-index: -1;background: radial-gradient(900px 520px at 88% -8%, rgba(255,178,36,.11), transparent 62%), radial-gradient(760px 560px at -12% 34%, rgba(61,220,151,.07), transparent 60%), radial-gradient(700px 400px at 60% 110%, rgba(255,92,92,.05), transparent 60%), var(--bg)}.bg::before{content: "";position: absolute;inset: 0;background-image: linear-gradient(rgba(140,165,210,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(140,165,210,.05) 1px, transparent 1px);background-size: 46px 46px;mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 30%, transparent 100%)}.page-tools .bg::before{display: none}.wrap{max-width: 1080px;margin: 0 auto;padding: 0 1.25rem}.masthead{border-bottom: 1px solid var(--line)}.mast-in{max-width: 1080px;margin: 0 auto;padding: 1.1rem 1.25rem;display: flex;align-items: center;justify-content: space-between}.wordmark{font-family: var(--disp);font-size: 1.15rem;letter-spacing: .03em;text-decoration: none;display: flex;align-items: center;gap: .5rem}.wordmark b{color: var(--amber);font-weight: inherit}.pulse-dot{width: 8px;height: 8px;border-radius: 50%;background: var(--amber);animation: brandpulse 2s ease-in-out infinite}@keyframes brandpulse{0%,100%{box-shadow: 0 0 0 0 rgba(255,178,36,.4)}55%{box-shadow: 0 0 0 6px rgba(255,178,36,0)}}@media (prefers-reduced-motion: reduce){.pulse-dot{animation: none}}@keyframes blink{50%{opacity: 0}}.mast-nav{display: flex;gap: 1.4rem}.mast-nav a{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);text-decoration: none;transition: color .2s}.mast-nav a:hover{color: var(--amber)}@media (max-width: 700px){.mast-nav{overflow-x: auto;scrollbar-width: none;-webkit-mask-image: linear-gradient(90deg, #000 88%, transparent);mask-image: linear-gradient(90deg, #000 88%, transparent)}.mast-nav::-webkit-scrollbar{display: none}}.mast-right{display: flex;align-items: center;gap: 1.1rem}.live{display: inline-flex;align-items: center;gap: .45rem;font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--green);border: 1px solid rgba(61,220,151,.35);padding: .32rem .7rem;border-radius: 99px;background: rgba(61,220,151,.07)}.live i{width: 7px;height: 7px;border-radius: 50%;background: var(--green);animation: pulse 1.6s ease-in-out infinite}.pulse-dot{position: relative}.pulse-dot::after{content: "";position: absolute;inset: -2px;border: 2px solid rgba(61,220,151,.5);border-radius: inherit;animation: pulse 2.2s ease-out infinite;will-change: opacity, transform}@keyframes pulse{0%{opacity: .6;transform: scale(.85)}55%{opacity: 0;transform: scale(1.5)}100%{opacity: 0;transform: scale(1.5)}}.mast-date{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted)}@media (max-width: 560px){.mast-date{display: none}}@media (max-width: 560px){.mast-right .live{display: none}}.page-tools footer{margin-top: 2rem}.btn{display: inline-block;background: var(--amber);color: #141005;font: 700 .92rem var(--body);text-decoration: none;padding: .75rem 1.5rem;border-radius: 6px;transition: transform .2s, box-shadow .2s}.btn:hover{transform: translateY(-2px);box-shadow: 0 10px 28px rgba(255,178,36,.3)}html.js .reveal:not(.in){opacity: 0;transform: translateY(18px);transition: opacity .7s ease, transform .7s ease}html.js .reveal.in, html.js .reveal.in, .reveal.in{opacity: 1;transform: none}@media (prefers-reduced-motion: reduce){*, *::before, *::after{animation: none !important;transition: none !important}}.kicker{font: 600 0.8rem var(--mono);letter-spacing: .16em;color: var(--amber);margin-bottom: 1rem}.hero{display: grid;grid-template-columns: 1.12fr .88fr;gap: 3.2rem;align-items: end;padding: 4.6rem 0 1.2rem}@media (max-width: 880px){.hero{grid-template-columns: 1fr;gap: 1rem;padding: 1rem 1.25rem .4rem;align-items: start}.hero h1{font-size: 2rem;line-height: 1.12}.hero p{margin: .35rem 0}}.lede{color: var(--muted);font-size: 1.1rem;max-width: 34rem;margin: 1.4rem 0 1.9rem}.hero-cta{display: flex;align-items: center;gap: 1.3rem;flex-wrap: wrap}.micro{font: 500 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);margin-top: 1.5rem}.spec{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.5rem 1.5rem 1.7rem;box-shadow: 0 24px 60px rgba(2,6,16,.5)}@keyframes eq{from{transform: scaleY(.35)}to{transform: scaleY(1)}}.spec dl{display: grid;gap: 0}.spec dl > div{display: flex;justify-content: space-between;align-items: baseline;padding: .62rem 0;border-top: 1px dashed var(--line2)}.spec dt{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted);text-transform: uppercase}.spec dd{font: 600 .86rem var(--body);color: var(--text)}.spec dd.ok{color: var(--green)}.crumb{padding: 1.2rem 0 .4rem;font: 500 0.8rem var(--mono);letter-spacing: .1em;color: var(--muted)}.crumb a{color: var(--muted);text-decoration: none;transition: color .2s}.crumb a{min-height: 44px;display: inline-flex;align-items: center}.crumb a:hover{color: var(--amber)}.crumb span{color: var(--amber)}.page-tools .page-head{padding: 2.2rem 0 1.6rem;border-bottom: 1px solid var(--line)}.page-tools .page-head h1{font-family: var(--disp);font-weight: 400;font-size: clamp(1.8rem, 4vw, 2.8rem);letter-spacing: -.01em}.page-tools .page-head .sub{color: var(--muted);font-size: 1.05rem;margin-top: .6rem;max-width: 42rem}.page-tools .page-head .count{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--amber);margin-top: .8rem}.tool-grid{display: grid;grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));gap: 1.2rem;padding: 1.8rem 0}.tool-card{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.4rem 1.5rem;text-decoration: none;transition: border-color .25s, transform .25s, box-shadow .25s;display: flex;flex-direction: column;gap: .6rem}.tool-card:hover{border-color: var(--amber);transform: translateY(-3px);box-shadow: 0 12px 36px rgba(2,6,16,.5)}.tool-card .name{font: 700 1.1rem var(--body);letter-spacing: -.01em;margin: 0}.tool-card .tagline{color: var(--muted);font-size: .9rem;line-height: 1.5;flex: 1}.tool-card .meta{display: flex;gap: .6rem;flex-wrap: wrap;align-items: center}.tool-card img{width: 100%;height: auto;display: block;border-radius: 8px}.made-badge{font-size: .92rem;line-height: 1.5;border: 1px solid var(--amber);border-radius: 8px;padding: .6rem .9rem;margin: .8rem 0;background: rgba(255,255,255,.02)}.hero-cols{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:2.5rem;align-items:start}@media(max-width:1080px){.hero-cols{grid-template-columns:1fr}}.hero-side .stats-card{display:grid;gap:1rem;grid-template-columns:repeat(3,1fr);text-align:center}@media(max-width:700px){.hero-side .stats-card{grid-template-columns:1fr}}.cat-nav{display: flex;gap: .6rem;flex-wrap: wrap;padding: 1.2rem 0}.cat-pill{font: 600 0.8rem var(--mono);letter-spacing: .08em;padding: .45rem .9rem;border-radius: 99px;border: 1px solid var(--line2);color: var(--muted);text-decoration: none;transition: all .2s}.cat-pill:hover, .cat-pill.active{border-color: var(--amber);color: var(--amber);background: rgba(255,178,36,.06)}@keyframes wirepulse{0%{left: 0;opacity: 0}12%{opacity: 1}88%{opacity: 1}100%{left: calc(100% - 8px);opacity: 0}}#progress{position: fixed;top: 0;left: 0;height: 3px;width: 0;background: var(--amber);z-index: 99;box-shadow: 0 0 12px rgba(255,178,36,.6)}@media (prefers-reduced-motion: reduce){#progress{display: none}}html, body{overflow-x: clip}.bg{width: 100vw;max-width: 100%}@media (max-width: 480px){.mast-in{row-gap: .5rem;padding-inline: clamp(.9rem, 4vw, 1.5rem)}}.tool-body, .page-tools main p, .page-tools main li{max-width: 72ch}.page-tools main h2, .page-tools main h3{max-width: 40ch}:root{--body: 'Archivo', 'Archivo-fallback', sans-serif;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace}.mast-nav a, .foot-links a, footer nav a, .footer-nav a{display: inline-block;padding: 12px 8px;margin: -12px -8px}.breadcrumbs a, .crumbs a{display: inline-block;padding: 12px 6px;margin: -12px -6px}.disclosure-strip{font: 500 .78rem var(--mono);letter-spacing: .06em;color: var(--muted);margin: .5rem 0 0}@media (max-width: 700px){.disclosure-strip, .vs-figures figcaption{font-size: 13px}}.tool-card.is-hidden,.hub-group.is-hidden{display:none}.crumb a,.footer a,.alt-back a,.back,.hub-links a,.post-list a{display:inline-block;padding-block:5px}.mast-nav a{display:inline-block;padding-block:4px}.crumb a,.byline a,.post-meta a,.foot-links a{display:inline-block}.crumb ol{align-items:center}.crumb li{display:flex;align-items:center}.crumb li:not(:last-child)::after{content:"/";margin-inline:.4rem;color:var(--muted)}@media (max-width:700px){.mast-in{flex-wrap:nowrap;align-items:center;gap:.5rem;padding:.2rem 0}.wordmark{flex:0 0 auto}.mast-nav{flex:1 1 auto;display:flex;flex-wrap:nowrap;overflow-x:auto;gap:.1rem;scrollbar-width:none}.mast-nav::-webkit-scrollbar{display:none}.mast-nav{-webkit-mask-image:linear-gradient(90deg,#000 92%,transparent);mask-image:linear-gradient(90deg,#000 92%,transparent)}.mast-nav a{flex:0 0 auto;min-height:44px;display:inline-flex;align-items:center;padding-inline:.55rem;font-size:.78rem}.crumb a,.byline a,.post-meta a{position:relative}.crumb a::after,.byline a::after,.post-meta a::after{content:"";position:absolute;inset-block:-10px;inset-inline:-4px}}</style><link rel="stylesheet" href="/style.min.css?v=fc1c2048"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelectors": [
+      "h1",
+      "article h2"
+    ]
+  },
+  "@type": "BlogPosting",
+  "headline": "Rethink, not rebuild: Jon Miller and the replatform-for-AI trap",
+  "description": "Jon Miller co-founded Marketo, then founded Engagio, the account-based marketing platform Demandbase bought in 2020 (Demandbase press release). This week.",
+  "author": {
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/logo.png"
+    }
+  },
+  "datePublished": "2026-10-01",
+  "dateModified": "2026-10-01",
+  "mainEntityOfPage": "https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/jon-miller-rethink-not-rebuild.png",
+    "width": 1200,
+    "height": 630
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://martechsignal.com/blog/#blog"
+  },
+  "inLanguage": "en",
+  "wordCount": 1272,
+  "articleSection": "marketing-automation"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Rethink, not rebuild: Jon Miller and the replatform-for-AI trap",
+      "item": "https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/"
+    }
+  ]
+}
+</script>
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+<script src="/site.js?v=dee24ac7" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/", "breadcrumb": {"@id": "https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/#breadcrumb"}, "dateModified": "2026-10-01"}</script>
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">MARKETING AUTOMATION · AI AGENTS · 6 MIN</p>
+<h1>Rethink, not rebuild: Jon Miller and the replatform-for-AI trap</h1>
+
+<img class="post-hero" src="/og/hero-jon-miller-rethink-not-rebuild.webp" alt="Rethink, not rebuild: Jon Miller and the replatform-for-AI trap" width="1200" height="630" srcset="/og/hero-jon-miller-rethink-not-rebuild-480.webp 480w, /og/hero-jon-miller-rethink-not-rebuild-800.webp 800w, /og/hero-jon-miller-rethink-not-rebuild.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="disclosure-strip"><a href="/methodology/">How we review</a> · No affiliate links</p>
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · Rethink, not rebuild: Jon Miller and the replatform-for-AI trap</p>
+<p class="meta"><time datetime="2026-10-01">OCT 01, 2026</time></p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/marketing-automation/">Marketing Automation</a></p>
+<p>Jon Miller co-founded Marketo, then founded Engagio, the account-based marketing platform Demandbase bought in 2020 (<a href="https://www.demandbase.com/press-release/demandbase-acquires-engagio/">Demandbase press release</a>). This week he came back to the category he helped create. Phave, his new platform, launched September 23, 2026 after two years in stealth, and it already powers marketing operations at 10 companies, Miller told <a href="https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/">MarTech</a>.</p>
+
+<p>His diagnosis of legacy marketing automation is dead on. The cure on offer is another story.</p>
+
+<h2>What Phave actually changes</h2>
+
+<p>Most of the launch coverage describes an AI product. The MarTech interview describes an architecture.</p>
+
+<p>Phave treats individual contacts, target accounts, and multi-person buying groups as first-class objects, each with its own intent scores and tailored buyer journeys. It replaces static triggers with AI reasoning. Campaigns become "playlists": the tactics are the songs, and the platform picks the optimal order and timing for each person rather than running a flowchart someone drew. It acts as a traffic controller so two teams cannot email the same account on the same day. And it exposes 319 tools through the Model Context Protocol, so agents can drive it directly instead of somebody clicking through dashboards.</p>
+
+<p>&lt;!- BREAK -&gt;</p>
+
+<h2>Miller's argument is with rules, not with your MAP</h2>
+
+<p>Miller told MarTech:</p>
+
+<p>&gt; I like to say rules are good at what must be true, but they can't handle ambiguity, and they can't provide judgment about what is best. And the reality is B2B buying is ambiguous and complex, and doesn't lend itself very well to rules.</p>
+
+<p>The frustration is real, and it is not confined to Marketo. A campaign analyst at a major Australian bank posted in r/MarketingAutomation <a href="https://www.reddit.com/r/MarketingAutomation/comments/1wm8q1c/switching_from_unica_should_i_upskill_in/">last week</a>: their stack is "mainly SQL + Unica," they call Unica "pretty outdated at this point," and they are weighing Salesforce Marketing Cloud, Adobe Campaign, and Pega for their next role. When someone who runs campaigns on a legacy platform for a living describes it that bluntly, the rules problem has outlived the platform.</p>
+
+<div class="callout">
+<p><strong>Rules were never the enemy. Rules were the constraint of the era.</strong> Map a rigid buyer journey once and let the machine execute it, because a human cannot send a million individually-timed messages by hand. A rules engine was the best available encoding of judgment. LLMs changed the economics of that encoding. That is the real story in Phave: reasoning finally got cheap enough to replace rules, and the field is racing to rebuild products around that fact.</p>
+</div>
+
+<h2>Why "replatform for AI" is the trap</h2>
+
+<p>You will read this launch as a to-do item. That reading is the trap.</p>
+
+<p>Salesforce spent its Dreamforce 2026 health keynote making the same argument from the other side. Their advice for teams under pressure to modernize (<a href="https://www.salesforce.com/blog/3-must-haves-for-scaling-agentic-ai-in-health/">Salesforce blog</a>): "For years, the answer to every new problem has been another system, another login, or another workflow." Trust, context, and action are properties of how well the platform you already own is used, not line items on a purchase order. Their own numbers say the same. UCLA Health ran 75,000+ patient interactions in six months through an Agentforce-powered front door with a 4.6/5 rating, answers in under 60 seconds, and 40% of conversations directly supporting faster access to care. Those figures are Salesforce's own reporting, so treat them accordingly. The instructive part is the shape, not the decimals: agent wins reported on the old pattern of platform adoption, not on net-new purchases.</p>
+
+<p>That is the contrarian reading of this launch. Vendors need the AI era to require new software, because they sell software. Buyers do not. Three lines of evidence say the replatform pitch deserves your skepticism:</p>
+
+<p>1. The cost center is your data, not the platform. Migrations are billed as software swaps and costed as data plumbing projects. The CDP wave taught this lesson expensively, and the warehouse-native stack is the correction (<a href="/blog/cdp-reckoning-warehouse-native/">our CDP reckoning post</a>, <a href="/blog/you-dont-need-new-data-stack-fivetran/">our Fivetran post</a>). Buying groups, intent, and history: that is where the switching cost lives, and every vendor wants to take a copy of it. 2. Agents attack the reason replatforms were scary. The replatform-for-AI pitch relies on integration risk staying high, because that is what a migration budget is priced against. The same MCP pattern that lets agents drive Phave lets them drive the platform you already own. Phave itself is the proof: 319 MCP tools means agents operate it, and other platforms are racing to match that (<a href="/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/">why your stack doesn't need another AI tool</a>). 3. Reasoning-over-rules is coming to your current platform anyway. If Miller is right that rules fail at ambiguity, incumbents have to respond, and fast. Salesforce is already doing it. Adobe is pushing AJO and Real-Time CDP as a Campaign successor. The AI reasoning layer is arriving as a layer, not only as a platform swap.</p>
+
+<div class="table-wrap"><table class="cmp">
+<thead><tr><th></th><th>Replatform "for AI"</th><th>Rethink in place</th></tr></thead></div>
+<tr>
+  <td><strong>Trigger</strong></td>
+  <td class="com-price">A launch made you feel behind</td>
+  <td class="oss-price">Contract is up and the platform can't run what you need</td>
+</tr>
+<tr>
+  <td><strong>Cost center</strong></td>
+  <td class="com-price">A software swap that becomes a data plumbing project</td>
+  <td class="oss-price">No migration; budget stays on programs</td>
+</tr>
+<tr>
+  <td><strong>Data risk</strong></td>
+  <td class="com-price">Buying groups, intent, and history get copied out</td>
+  <td class="oss-price">Stays where it is</td>
+</tr>
+<tr>
+  <td><strong>What AI arrives as</strong></td>
+  <td class="com-price">A platform you must repopulate</td>
+  <td class="oss-price">A layer: MCP tool surfaces, vendor-shipped reasoning</td>
+</tr>
+</table>
+
+<div class="verdict loss">
+<div class="verdict-label">Verdict: the replatform pitch is a trap</div>
+
+<p>Miller's diagnosis is right and his cure is optional. If your MAP runs your programs and the complaints are the rules layer's rigidity, the reasoning layer is likely to arrive where you already are, through MCP tool surfaces and vendor-shipped reasoning, and the data you would risk in a migration is the asset every vendor actually wants.</p>
+</div>
+
+<h2>If you do replatform, do it for one reason</h2>
+
+<p>None of this makes Phave wrong. Its architectural ideas are genuinely good, and someone has to build the reasoning-native MAP. Phave's own site says it replaces Marketo, Pardot, Eloqua, and HubSpot, a bold scope claim from a 10-customer company, and there is no public pricing. Miller said early adopters report building campaigns two to three times faster, which is a vendor claim from a two-year stealth period, so hold it lightly.</p>
+
+<p>If your contract is up and your platform cannot run the campaigns you actually need, replatform on the merits. Compare the candidates on their own pages: <a href="/tools/adobe-marketo/">Adobe Marketo Engage</a>, <a href="/tools/salesforce-marketing-cloud/">Salesforce Marketing Cloud</a>, <a href="/tools/hubspot-marketing-hub/">HubSpot Marketing Hub</a>, <a href="https://business.adobe.com/products/campaign.html">Adobe Campaign</a>, <a href="https://business.adobe.com/products/journey-optimizer.html">Adobe Journey Optimizer</a>, <a href="https://www.pega.com">Pega</a>, and the new entrant, <a href="https://phave.com">Phave</a>. Replatform because the economics and the capability fit, the way the Sydney analyst is doing it: deliberately, comparing <a href="/tools/salesforce-marketing-cloud/">Salesforce Marketing Cloud</a> and Adobe's stack against real requirements.</p>
+
+<p>But do not replatform <em>for</em> AI. If the stack you have runs your programs, the AI you are being sold arrives as a layer on top of it. Miller spent his career proving that a new platform can reshape a category. The Sydney analyst's blunt Unica post shows the old ones still run the programs. Both are true, and the honest middle between them is where most teams should stay.</p>
+
+<p><em>Tools linked in this post: <a href="/tools/adobe-marketo/">Adobe Marketo Engage</a> | <a href="/tools/salesforce-marketing-cloud/">Salesforce Marketing Cloud</a> | <a href="/tools/hubspot-marketing-hub/">HubSpot Marketing Hub</a> | <a href="/tools/hubspot-crm/">HubSpot CRM</a></em></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/you-dont-need-new-data-stack-fivetran/">You Don't Need a New Data Stack for AI. Fivetran Just Proved It</a></li><li><a href="/blog/salesforce-claude-commerce-cloud-agentforce/">Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough</a></li><li><a href="/blog/autonomous-marketing-platform-label-contest/">Autonomous Marketing Platforms Are Real. The Name Is Wrong.</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/bloomreach/">Bloomreach</a> - AI-powered commerce experience platform with search, personalization, and CDP</li><li><a href="/tools/braze/">Braze</a> - Customer engagement platform with AI-powered real-time messaging across channels</li><li><a href="/tools/laudspeaker/">Laudspeaker</a> - Open-source customer engagement and product onboarding platform, alternative to Braze</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/ai-marketing-automation-tools/">Best AI Marketing Automation tools (2026): 8 compared</a></li><li><a href="/alternatives/zapier/">Best Zapier alternatives (2026)</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/dsp/">DSP</a></li><li><a href="/glossary/cdp/">CDP</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/pabbly-connect/">Pabbly Connect</a></p>
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}</script></body>
+</html>

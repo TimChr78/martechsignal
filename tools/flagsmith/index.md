@@ -76,7 +76,7 @@ Open-source feature flag and remote config platform with segment targeting
 
 Personalization & CDP · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Flagsmith →](https://www.flagsmith.com)
 
@@ -166,8 +166,8 @@ Yes. It lets AI tools manage flags, create segments, schedule changes, and autom
 ## Related reading
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Teams that want their experiment engine as open as their stack
@@ -198,7 +198,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/flagsmith/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -317,7 +317,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/flagsmith/", "breadcrumb": {"@id": "https://martechsignal.com/tools/flagsmith/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/flagsmith/", "breadcrumb": {"@id": "https://martechsignal.com/tools/flagsmith/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

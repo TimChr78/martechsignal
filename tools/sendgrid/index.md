@@ -63,7 +63,7 @@ AI-powered email and SMS marketing platform built for ecommerce brands
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Twilio SendGrid
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## Twilio SendGrid review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ Scalable email delivery API with AI-powered deliverability and engagement tools
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Twilio SendGrid →](https://sendgrid.com)
 
@@ -184,7 +184,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/sendgrid/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -296,7 +296,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/sendgrid/", "breadcrumb": {"@id": "https://martechsignal.com/tools/sendgrid/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/sendgrid/", "breadcrumb": {"@id": "https://martechsignal.com/tools/sendgrid/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

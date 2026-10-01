@@ -73,7 +73,7 @@ n8n Marketing Flows
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Appsmith
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Appsmith review (2026): pricing, AI features, verdict
 
@@ -81,7 +81,7 @@ Open-source platform for building admin panels and internal dashboards on your e
 
 Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Appsmith →](https://appsmith.com)
 
@@ -195,8 +195,8 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -222,7 +222,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/appsmith/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-09-05",
     "offers": [
       {
@@ -358,7 +358,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/appsmith/", "breadcrumb": {"@id": "https://martechsignal.com/tools/appsmith/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/appsmith/", "breadcrumb": {"@id": "https://martechsignal.com/tools/appsmith/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

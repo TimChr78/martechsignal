@@ -71,7 +71,7 @@ Self-hosted multi-channel notification service for email, SMS, and web push
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Maizzle
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Maizzle review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ Modern email development framework using Tailwind CSS for responsive campaigns
 
 Email Marketing · Free · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Maizzle →](https://maizzle.com)
 
@@ -194,7 +194,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/maizzle/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-21",
     "offers": {
       "@type": "Offer",
@@ -321,7 +321,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/maizzle/", "breadcrumb": {"@id": "https://martechsignal.com/tools/maizzle/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/maizzle/", "breadcrumb": {"@id": "https://martechsignal.com/tools/maizzle/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

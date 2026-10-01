@@ -74,7 +74,7 @@ Open-source operations platform for building AI agents, apps and automations on 
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Paperclip
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Paperclip review (2026): pricing, AI features, verdict
 
@@ -82,7 +82,7 @@ Open-source control plane to manage AI agents like a company, hire, schedule, bu
 
 Workflow Automation · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Paperclip →](https://paperclip.ing)
 
@@ -226,7 +226,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/paperclip/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -362,7 +362,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/paperclip/", "breadcrumb": {"@id": "https://martechsignal.com/tools/paperclip/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/paperclip/", "breadcrumb": {"@id": "https://martechsignal.com/tools/paperclip/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

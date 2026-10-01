@@ -62,7 +62,7 @@ AI-first digital marketing platform for content strategy, generation, publishing
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Strapi
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## Strapi review (2026): pricing, AI features, verdict
 
@@ -70,7 +70,7 @@ Open-source headless CMS with AI-powered content management and API-first design
 
 AI Content & Copywriting · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Strapi →](https://strapi.io)
 
@@ -151,8 +151,8 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Teams that want a headless CMS with AI inside their own stack
@@ -183,7 +183,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/strapi/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -295,7 +295,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/strapi/", "breadcrumb": {"@id": "https://martechsignal.com/tools/strapi/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/strapi/", "breadcrumb": {"@id": "https://martechsignal.com/tools/strapi/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

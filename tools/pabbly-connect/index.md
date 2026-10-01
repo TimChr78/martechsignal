@@ -63,7 +63,7 @@ Task-priced integration platform with a one-time lifetime purchase option
 
 Workflow Automation · From $16/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Pabbly Connect →](https://www.pabbly.com/connect/)
 
@@ -130,8 +130,8 @@ Strengths include an API for custom integrations. Paid plans start at $16/mo
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ### Quick Facts
 
 Related guides: [Pabbly Connect in Zapier alternatives](/alternatives/zapier/)
@@ -159,7 +159,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/pabbly-connect/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-09-27",
     "offers": {
       "@type": "Offer",
@@ -262,7 +262,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pabbly-connect/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pabbly-connect/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pabbly-connect/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pabbly-connect/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

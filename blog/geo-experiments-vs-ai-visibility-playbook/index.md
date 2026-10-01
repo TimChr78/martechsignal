@@ -92,7 +92,7 @@ The AI-visibility dashboards will keep selling the count, because the count goes
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [LanguageTool](/tools/languagetool/)
+More from the directory: [LibreTranslate](/tools/libretranslate/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -127,7 +127,7 @@ More from the directory: [LanguageTool](/tools/languagetool/)
     }
   },
   "datePublished": "2026-09-22",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/",
   "image": {
     "@type": "ImageObject",
@@ -173,7 +173,7 @@ More from the directory: [LanguageTool](/tools/languagetool/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/", "breadcrumb": {"@id": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/", "breadcrumb": {"@id": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

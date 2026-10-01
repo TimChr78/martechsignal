@@ -66,7 +66,7 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Krayin CRM
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Krayin CRM review (2026): pricing, AI features, verdict
 
@@ -74,7 +74,7 @@ Free open-source Laravel CRM for SMEs and enterprises with full customer lifecyc
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Krayin CRM →](https://krayincrm.com)
 
@@ -205,7 +205,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/krayin-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -333,7 +333,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/krayin-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/krayin-crm/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/krayin-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/krayin-crm/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

@@ -20,7 +20,7 @@ Data-driven messaging platform for automated email, push, SMS, and in-app messag
 
 GLOSSARY
 
-Definition last updated 2026-09-30
+Definition last updated 2026-10-01
 
 ## Definition
 
@@ -81,7 +81,7 @@ Sources: [RFC 5321 (SMTP)](https://datatracker.ietf.org/doc/rfc5321/) · [Active
         "@type": "DefinedTerm",
         "name": "Email Deliverability",
         "description": "Deliverability is the measure of whether your emails actually reach the inbox instead of the spam folder. It depends on sender reputation, authentication records (SPF, DKIM, DMARC), list hygiene, engagement rates, and the content of the email itself.",
-        "dateModified": "2026-09-30",
+        "dateModified": "2026-10-01",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -139,7 +139,7 @@ Sources: [RFC 5321 (SMTP)](https://datatracker.ietf.org/doc/rfc5321/) · [Active
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/deliverability/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/deliverability/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/deliverability/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/deliverability/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

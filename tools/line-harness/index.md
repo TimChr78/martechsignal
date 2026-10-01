@@ -77,7 +77,7 @@ Customer engagement platform with AI-powered real-time messaging across channels
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Line Harness
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Line Harness review (2026): pricing, AI features, verdict
 
@@ -85,7 +85,7 @@ Open-source CRM for LINE Official Accounts with step delivery, scoring, and an M
 
 Marketing Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Line Harness →](https://the-harness.com/line-harness/)
 
@@ -175,8 +175,8 @@ The docs describe BAN detection with automatic friend migration to the next acco
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -202,7 +202,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/line-harness/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-20",
     "offers": {
       "@type": "Offer",
@@ -337,7 +337,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/line-harness/", "breadcrumb": {"@id": "https://martechsignal.com/tools/line-harness/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/line-harness/", "breadcrumb": {"@id": "https://martechsignal.com/tools/line-harness/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

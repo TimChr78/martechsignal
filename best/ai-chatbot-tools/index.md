@@ -40,8 +40,8 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Chatwoot - 37,336 stars, +1,127 in the 37-snapshot window to 2026-09-30 36,209→37,336 [verify on GitHub](https://github.com/chatwoot/chatwoot)
-- ChatbotX - 848 stars, +183 in the 37-snapshot window to 2026-09-30 665→848 [verify on GitHub](https://github.com/ChatbotXIO/ChatbotX)
+- Chatwoot - 37,377 stars, +1,168 in the 38-snapshot window to 2026-10-01 36,209→37,377 [verify on GitHub](https://github.com/chatwoot/chatwoot)
+- ChatbotX - 851 stars, +186 in the 38-snapshot window to 2026-10-01 665→851 [verify on GitHub](https://github.com/ChatbotXIO/ChatbotX)
 [All movers on the trending page](/trending/).
 
 ## [Intercom](/tools/intercom/)
@@ -144,7 +144,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best Chatbots & Conversational AI tools (2026): 6 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -255,7 +255,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-chatbot-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-chatbot-tools/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-chatbot-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-chatbot-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

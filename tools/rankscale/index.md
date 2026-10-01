@@ -82,7 +82,7 @@ AI visibility tracking across 17+ answer engines for agencies and enterprise tea
 
 GEO & LLM Optimization · From €99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Rankscale →](https://rankscale.ai/)
 
@@ -176,8 +176,8 @@ Rankscale GmbH builds the product in Vienna, Austria. Its customer logo wall inc
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for GEO & LLM optimization teams that want query fan-out retrieval insights, starting at €99/mo.
@@ -208,7 +208,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/rankscale/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -343,7 +343,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/rankscale/", "breadcrumb": {"@id": "https://martechsignal.com/tools/rankscale/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/rankscale/", "breadcrumb": {"@id": "https://martechsignal.com/tools/rankscale/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

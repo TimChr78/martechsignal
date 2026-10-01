@@ -76,7 +76,7 @@ This post is part of the hub for this topic: [ai seo tooling](/guides/ai-seo-too
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Flagsmith](/tools/flagsmith/)
+More from the directory: [GrowthBook](/tools/growthbook/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -111,7 +111,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
     }
   },
   "datePublished": "2026-09-27",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-benchmark/",
   "image": {
     "@type": "ImageObject",
@@ -164,7 +164,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-benchmark/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-benchmark/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-benchmark/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-benchmark/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

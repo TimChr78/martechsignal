@@ -63,7 +63,7 @@ Open-source product analytics platform with session replay, feature flags, exper
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Attribution
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## Attribution review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ AI-powered marketing attribution platform connecting ad spend to revenue
 
 Analytics & Attribution · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Attribution →](https://www.attributionapp.com)
 
@@ -152,8 +152,8 @@ Reasonable middle ground between spreadsheet attribution and enterprise suites l
 ## Related reading
 
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -179,7 +179,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/attribution/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27"
   },
   {
@@ -275,7 +275,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/attribution/", "breadcrumb": {"@id": "https://martechsignal.com/tools/attribution/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/attribution/", "breadcrumb": {"@id": "https://martechsignal.com/tools/attribution/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

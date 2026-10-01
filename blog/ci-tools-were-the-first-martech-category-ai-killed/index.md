@@ -138,7 +138,7 @@ Our directory breaks down martech tools by what they actually deliver: static re
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [EspoCRM](/tools/espocrm/)
+More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -173,7 +173,7 @@ More from the directory: [EspoCRM](/tools/espocrm/)
     }
   },
   "datePublished": "2026-08-18",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/",
   "image": {
     "@type": "ImageObject",
@@ -219,7 +219,7 @@ More from the directory: [EspoCRM](/tools/espocrm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

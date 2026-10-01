@@ -42,10 +42,10 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Warmbly - 337 stars, +19 in the 6-snapshot window to 2026-09-30 318→337 [verify on GitHub](https://github.com/warmbly/warmbly)
-- Notifuse - 2,226 stars, +150 in the 37-snapshot window to 2026-09-30 2,076→2,226 [verify on GitHub](https://github.com/Notifuse/notifuse)
-- OpenOutreach - 3,107 stars, +289 in the 37-snapshot window to 2026-09-30 2,818→3,107 [verify on GitHub](https://github.com/eracle/OpenOutreach)
-- React Email Editor - 5,232 stars, +25 in the 37-snapshot window to 2026-09-30 5,207→5,232 [verify on GitHub](https://github.com/unlayer/react-email-editor)
+- Warmbly - 340 stars, +22 in the 7-snapshot window to 2026-10-01 318→340 [verify on GitHub](https://github.com/warmbly/warmbly)
+- Notifuse - 2,228 stars, +152 in the 38-snapshot window to 2026-10-01 2,076→2,228 [verify on GitHub](https://github.com/Notifuse/notifuse)
+- OpenOutreach - 3,119 stars, +301 in the 38-snapshot window to 2026-10-01 2,818→3,119 [verify on GitHub](https://github.com/eracle/OpenOutreach)
+- React Email Editor - 5,232 stars, +25 in the 38-snapshot window to 2026-10-01 5,207→5,232 [verify on GitHub](https://github.com/unlayer/react-email-editor)
 [All movers on the trending page](/trending/).
 
 ## [Mailchimp](/tools/mailchimp/)
@@ -172,7 +172,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI Email Marketing tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -305,7 +305,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-email-marketing-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-email-marketing-tools/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-email-marketing-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-email-marketing-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

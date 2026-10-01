@@ -126,7 +126,7 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [BillionMail](/tools/billionmail/)
+More from the directory: [Brandwatch](/tools/brandwatch/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -161,7 +161,7 @@ More from the directory: [BillionMail](/tools/billionmail/)
     }
   },
   "datePublished": "2026-08-26",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/",
   "image": {
     "@type": "ImageObject",
@@ -207,7 +207,7 @@ More from the directory: [BillionMail](/tools/billionmail/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

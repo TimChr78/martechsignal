@@ -126,8 +126,6 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Zoho CRM](/tools/zoho-crm/)
-
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 
@@ -161,7 +159,7 @@ More from the directory: [Zoho CRM](/tools/zoho-crm/)
     }
   },
   "datePublished": "2026-09-09",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/",
   "image": {
     "@type": "ImageObject",
@@ -207,7 +205,7 @@ More from the directory: [Zoho CRM](/tools/zoho-crm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/", "breadcrumb": {"@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/", "breadcrumb": {"@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

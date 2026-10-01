@@ -44,7 +44,7 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- advertools - 1,469 stars, +5 in the 5-snapshot window to 2026-09-30 1,464→1,469 [verify on GitHub](https://github.com/eliasdabbas/advertools)
+- advertools - 1,469 stars, +5 in the 6-snapshot window to 2026-10-01 1,464→1,469 [verify on GitHub](https://github.com/eliasdabbas/advertools)
 [All movers on the trending page](/trending/).
 
 ## [Revealbot (Birch)](/tools/revealbot/)
@@ -171,7 +171,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI Advertising & Paid Media tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -304,7 +304,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-advertising-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-advertising-tools/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-advertising-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-advertising-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

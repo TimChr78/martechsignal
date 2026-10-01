@@ -75,7 +75,7 @@ AI Business Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Open Mercato
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Open Mercato review (2026): pricing, AI features, verdict
 
@@ -83,7 +83,7 @@ Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Open Mercato →](https://www.openmercato.com/)
 
@@ -181,8 +181,8 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -208,7 +208,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/open-mercato/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-25",
     "offers": {
       "@type": "Offer",
@@ -335,7 +335,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/open-mercato/", "breadcrumb": {"@id": "https://martechsignal.com/tools/open-mercato/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/open-mercato/", "breadcrumb": {"@id": "https://martechsignal.com/tools/open-mercato/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

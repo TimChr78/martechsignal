@@ -98,7 +98,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Brandwatch](/tools/brandwatch/)
+More from the directory: [ChatbotX](/tools/chatbotx/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -133,7 +133,7 @@ More from the directory: [Brandwatch](/tools/brandwatch/)
     }
   },
   "datePublished": "2026-09-07",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/",
   "image": {
     "@type": "ImageObject",
@@ -179,7 +179,7 @@ More from the directory: [Brandwatch](/tools/brandwatch/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

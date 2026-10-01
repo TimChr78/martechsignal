@@ -63,7 +63,7 @@ AI-powered SEO content platform for research, writing, and AI visibility trackin
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Superlines
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Superlines review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ AI Search Intelligence platform for brands and agencies
 
 SEO & Search · From €79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Superlines →](https://www.superlines.io/)
 
@@ -161,8 +161,8 @@ A GEO analytics layer for the AI-search era: real-interface collection, MCP acce
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -188,7 +188,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/superlines/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-09-07",
     "offers": {
       "@type": "Offer",
@@ -291,7 +291,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/superlines/", "breadcrumb": {"@id": "https://martechsignal.com/tools/superlines/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/superlines/", "breadcrumb": {"@id": "https://martechsignal.com/tools/superlines/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

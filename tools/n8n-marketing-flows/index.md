@@ -64,7 +64,7 @@ Open-source control plane to manage AI agents like a company, hire, schedule, bu
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - n8n Marketing Flows
-Re-check pending: pricing last verified 2026-08-31 (30 days ago).
+Re-check pending: pricing last verified 2026-08-31 (31 days ago).
 
 ## n8n Marketing Flows review (2026): pricing, AI features, verdict
 
@@ -72,7 +72,7 @@ Re-check pending: pricing last verified 2026-08-31 (30 days ago).
 
 Workflow Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit n8n Marketing Flows →](https://github.com/YuriCrystal/n8n-marketing-flows)
 
@@ -153,8 +153,8 @@ The largest verified free template pack for n8n marketing automation, with a gen
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -180,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/n8n-marketing-flows/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-31",
     "offers": {
       "@type": "Offer",
@@ -283,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/n8n-marketing-flows/", "breadcrumb": {"@id": "https://martechsignal.com/tools/n8n-marketing-flows/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/n8n-marketing-flows/", "breadcrumb": {"@id": "https://martechsignal.com/tools/n8n-marketing-flows/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

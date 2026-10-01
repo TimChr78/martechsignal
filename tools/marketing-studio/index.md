@@ -61,7 +61,7 @@ AI Business Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Marketing Studio
-Re-check pending: pricing last verified 2026-08-31 (30 days ago).
+Re-check pending: pricing last verified 2026-08-31 (31 days ago).
 
 ## Marketing Studio review (2026): pricing, AI features, verdict
 
@@ -69,7 +69,7 @@ Agent-driven marketing studio for Claude Code: launch assets from one command
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Marketing Studio →](https://github.com/ucsandman/marketing-studio)
 
@@ -172,7 +172,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/marketing-studio/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-29",
     "offers": {
       "@type": "Offer",
@@ -275,7 +275,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/marketing-studio/", "breadcrumb": {"@id": "https://martechsignal.com/tools/marketing-studio/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/marketing-studio/", "breadcrumb": {"@id": "https://martechsignal.com/tools/marketing-studio/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

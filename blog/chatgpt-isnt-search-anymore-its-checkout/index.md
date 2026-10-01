@@ -101,7 +101,7 @@ Our SEO hub collects everything we have written on AI search visibility, citatio
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
+More from the directory: [EspoCRM](/tools/espocrm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -136,7 +136,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     }
   },
   "datePublished": "2026-09-01",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/",
   "image": {
     "@type": "ImageObject",
@@ -182,7 +182,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/", "breadcrumb": {"@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/", "breadcrumb": {"@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

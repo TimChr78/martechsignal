@@ -24,7 +24,7 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
 
 GLOSSARY
 
-Definition last updated 2026-09-30
+Definition last updated 2026-10-01
 
 ## Definition
 
@@ -85,7 +85,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Tray.io](http
         "@type": "DefinedTerm",
         "name": "Workflow Automation (iPaaS)",
         "description": "Workflow automation connects your software tools so that actions in one system trigger actions in another. A new form submission creates a CRM record, sends a Slack notification, and adds the contact to an email sequence. No human copies data between tabs.",
-        "dateModified": "2026-09-30",
+        "dateModified": "2026-10-01",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -143,7 +143,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Tray.io](http
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/workflow-automation/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/workflow-automation/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/workflow-automation/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/workflow-automation/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

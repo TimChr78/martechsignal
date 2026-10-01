@@ -60,7 +60,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Analytics Tracking Automation
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## Analytics Tracking Automation review (2026): pricing, AI features, verdict
 
@@ -68,7 +68,7 @@ AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Analytics Tracking Automation →](https://www.jtracking.ai/skills)
 
@@ -173,7 +173,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/analytics-tracking-automation/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",
@@ -276,7 +276,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/analytics-tracking-automation/", "breadcrumb": {"@id": "https://martechsignal.com/tools/analytics-tracking-automation/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/analytics-tracking-automation/", "breadcrumb": {"@id": "https://martechsignal.com/tools/analytics-tracking-automation/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

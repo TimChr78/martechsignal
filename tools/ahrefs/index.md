@@ -74,7 +74,7 @@ Brand Radar tracks brand mentions and citations across AI answers, YouTube and R
 
 GEO & LLM Optimization · From $129/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Ahrefs →](https://ahrefs.com)
 
@@ -195,7 +195,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/ahrefs/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -322,7 +322,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ahrefs/", "breadcrumb": {"@id": "https://martechsignal.com/tools/ahrefs/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ahrefs/", "breadcrumb": {"@id": "https://martechsignal.com/tools/ahrefs/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

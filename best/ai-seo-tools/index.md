@@ -44,9 +44,9 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Promptfoo - 25,570 stars, +110 in the 5-snapshot window to 2026-09-30 25,460→25,570 [verify on GitHub](https://github.com/promptfoo/promptfoo)
-- Claude SEO - 17,975 stars, +2,879 in the 37-snapshot window to 2026-09-30 15,096→17,975 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
-- Codex SEO - 766 stars, +146 in the 37-snapshot window to 2026-09-30 620→766 [verify on GitHub](https://github.com/AgriciDaniel/codex-seo)
+- Promptfoo - 25,602 stars, +142 in the 6-snapshot window to 2026-10-01 25,460→25,602 [verify on GitHub](https://github.com/promptfoo/promptfoo)
+- Claude SEO - 18,058 stars, +2,962 in the 38-snapshot window to 2026-10-01 15,096→18,058 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
+- Codex SEO - 771 stars, +151 in the 38-snapshot window to 2026-10-01 620→771 [verify on GitHub](https://github.com/AgriciDaniel/codex-seo)
 [All movers on the trending page](/trending/).
 
 ## [Semrush](/tools/semrush/)
@@ -173,7 +173,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI SEO tools (2026): 8 compared",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -306,7 +306,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-seo-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-seo-tools/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-seo-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-seo-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

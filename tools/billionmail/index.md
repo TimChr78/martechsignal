@@ -74,7 +74,7 @@ All-in-one marketing platform with AI-powered email, automation, and analytics
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - BillionMail
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## BillionMail review (2026): pricing, AI features, verdict
 
@@ -82,7 +82,7 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit BillionMail →](https://www.billionmail.com)
 
@@ -213,7 +213,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/billionmail/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -349,7 +349,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/billionmail/", "breadcrumb": {"@id": "https://martechsignal.com/tools/billionmail/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/billionmail/", "breadcrumb": {"@id": "https://martechsignal.com/tools/billionmail/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

@@ -20,7 +20,7 @@ Product analytics platform with AI-powered insights for user behavior tracking
 
 GLOSSARY
 
-Definition last updated 2026-09-30
+Definition last updated 2026-10-01
 
 ## Definition
 
@@ -81,7 +81,7 @@ Sources: [Attribution](https://www.attributionapp.com) · [Amplitude](https://am
         "@type": "DefinedTerm",
         "name": "Attribution Models (First-Touch, Last-Touch, Multi-Touch)",
         "description": "An attribution model is the rule that decides which marketing touchpoint gets credit for a conversion. First-touch credits the first interaction. Last-touch credits the final one before purchase. Linear splits credit equally. Time-decay gives more weight to recent touches. Position-based (U-shaped) gives 40% to first and last, 20% to everything in between.",
-        "dateModified": "2026-09-30",
+        "dateModified": "2026-10-01",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -139,7 +139,7 @@ Sources: [Attribution](https://www.attributionapp.com) · [Amplitude](https://am
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-attribution-models/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/marketing-attribution-models/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-attribution-models/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/marketing-attribution-models/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

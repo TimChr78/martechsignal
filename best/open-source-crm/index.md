@@ -42,12 +42,12 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- EspoCRM - 3,424 stars, +133 in the 37-snapshot window to 2026-09-30 3,291→3,424 [verify on GitHub](https://github.com/espocrm/espocrm)
-- SuiteCRM - 5,777 stars, +87 in the 37-snapshot window to 2026-09-30 5,690→5,777 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
-- Twenty - 57,724 stars, +2,199 in the 37-snapshot window to 2026-09-30 55,525→57,724 [verify on GitHub](https://github.com/twentyhq/twenty)
-- Frappe CRM - 3,641 stars, +251 in the 37-snapshot window to 2026-09-30 3,390→3,641 [verify on GitHub](https://github.com/frappe/crm)
-- Krayin CRM - 23,967 stars, +256 in the 37-snapshot window to 2026-09-30 23,711→23,967 [verify on GitHub](https://github.com/krayin/laravel-crm)
-- Monica - 25,382 stars, +277 in the 37-snapshot window to 2026-09-30 25,105→25,382 [verify on GitHub](https://github.com/monicahq/monica)
+- EspoCRM - 3,430 stars, +139 in the 38-snapshot window to 2026-10-01 3,291→3,430 [verify on GitHub](https://github.com/espocrm/espocrm)
+- SuiteCRM - 5,777 stars, +87 in the 38-snapshot window to 2026-10-01 5,690→5,777 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
+- Twenty - 57,764 stars, +2,239 in the 38-snapshot window to 2026-10-01 55,525→57,764 [verify on GitHub](https://github.com/twentyhq/twenty)
+- Frappe CRM - 3,669 stars, +279 in the 38-snapshot window to 2026-10-01 3,390→3,669 [verify on GitHub](https://github.com/frappe/crm)
+- Krayin CRM - 23,965 stars, +254 in the 38-snapshot window to 2026-10-01 23,711→23,965 [verify on GitHub](https://github.com/krayin/laravel-crm)
+- Monica - 25,386 stars, +281 in the 38-snapshot window to 2026-10-01 25,105→25,386 [verify on GitHub](https://github.com/monicahq/monica)
 [All movers on the trending page](/trending/).
 
 ## [EspoCRM](/tools/espocrm/)
@@ -150,7 +150,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best open-source CRM tools (2026)",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -261,7 +261,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/open-source-crm/", "breadcrumb": {"@id": "https://martechsignal.com/best/open-source-crm/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/open-source-crm/", "breadcrumb": {"@id": "https://martechsignal.com/best/open-source-crm/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

@@ -73,7 +73,7 @@ Free local tool that measures brand mentions and citations in Claude's web-searc
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - OpenSEO
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## OpenSEO review (2026): pricing, AI features, verdict
 
@@ -81,7 +81,7 @@ Open source alternative to Ahrefs and Semrush
 
 SEO & Search · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit OpenSEO →](https://openseo.so)
 
@@ -175,8 +175,8 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -202,7 +202,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/openseo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-09-07",
     "offers": [
       {
@@ -338,7 +338,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openseo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/openseo/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openseo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/openseo/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

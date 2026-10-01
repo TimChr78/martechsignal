@@ -107,7 +107,7 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SuiteCRM](/tools/suitecrm/)
+More from the directory: [Writesonic](/tools/writesonic/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -142,7 +142,7 @@ More from the directory: [SuiteCRM](/tools/suitecrm/)
     }
   },
   "datePublished": "2026-08-31",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/",
   "image": {
     "@type": "ImageObject",
@@ -188,7 +188,7 @@ More from the directory: [SuiteCRM](/tools/suitecrm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/", "breadcrumb": {"@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/", "breadcrumb": {"@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

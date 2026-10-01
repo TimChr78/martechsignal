@@ -2502,6 +2502,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:jon-miller-rethink-not-rebuild",
+   "displayName": "Rethink, not rebuild: the replatform-for-AI trap",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/",
+   "description": "Jon Miller co-founded Marketo, then founded Engagio, the account-based marketing platform Demandbase bought in 2020 (Demandbase press release). This week.",
+   "representativeQueries": [
+    "rethink, not rebuild: the replatform-for-ai trap",
+    "jon miller rethink not rebuild"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:link-building-wont-get-you-into-ai-answers",
    "displayName": "Community Signals Beat Links for AI Answers",
    "type": "text/html",

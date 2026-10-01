@@ -132,8 +132,8 @@ Last verified 2026-09-28.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Matomo - 21,912 stars, +107 in the 37-snapshot window to 2026-09-30 21,805→21,912 [verify on GitHub](https://github.com/matomo-org/matomo)
-- Plausible Analytics - 29,263 stars, +515 in the 37-snapshot window to 2026-09-30 28,748→29,263 [verify on GitHub](https://github.com/plausible/analytics)
+- Matomo - 21,914 stars, +109 in the 38-snapshot window to 2026-10-01 21,805→21,914 [verify on GitHub](https://github.com/matomo-org/matomo)
+- Plausible Analytics - 29,272 stars, +524 in the 38-snapshot window to 2026-10-01 28,748→29,272 [verify on GitHub](https://github.com/plausible/analytics)
 [All movers on the trending page](/trending/).
 
 ## Get the next teardown
@@ -150,7 +150,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/matomo-vs-plausible/#article",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -236,7 +236,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/matomo-vs-plausible/", "breadcrumb": {"@id": "https://martechsignal.com/vs/matomo-vs-plausible/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/matomo-vs-plausible/", "breadcrumb": {"@id": "https://martechsignal.com/vs/matomo-vs-plausible/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

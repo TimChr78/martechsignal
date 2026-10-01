@@ -73,7 +73,7 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Notifo
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Notifo review (2026): pricing, AI features, verdict
 
@@ -81,7 +81,7 @@ Self-hosted multi-channel notification service for email, SMS, and web push
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Notifo →](https://notifo.io)
 
@@ -209,7 +209,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/notifo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-21",
     "offers": {
       "@type": "Offer",
@@ -336,7 +336,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/notifo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/notifo/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/notifo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/notifo/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

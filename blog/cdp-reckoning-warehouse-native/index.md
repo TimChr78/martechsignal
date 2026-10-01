@@ -97,7 +97,7 @@ Our directory breaks down customer data platforms and activation tools by pricin
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [ChatbotX](/tools/chatbotx/)
+More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -132,7 +132,7 @@ More from the directory: [ChatbotX](/tools/chatbotx/)
     }
   },
   "datePublished": "2026-09-02",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/",
   "image": {
     "@type": "ImageObject",
@@ -178,7 +178,7 @@ More from the directory: [ChatbotX](/tools/chatbotx/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/", "breadcrumb": {"@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/", "breadcrumb": {"@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

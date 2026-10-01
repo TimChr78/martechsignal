@@ -71,7 +71,7 @@ The AI Customer Experience Platform: monitor, optimize and serve your site to AI
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Chatwoot
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Chatwoot review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ Open-source customer engagement suite with Captain AI and full self-hosting
 
 Chatbots & Conversational AI · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Chatwoot →](https://www.chatwoot.com)
 
@@ -223,7 +223,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/chatwoot/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -359,7 +359,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/chatwoot/", "breadcrumb": {"@id": "https://martechsignal.com/tools/chatwoot/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/chatwoot/", "breadcrumb": {"@id": "https://martechsignal.com/tools/chatwoot/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

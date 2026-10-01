@@ -66,7 +66,7 @@ Visual automation platform for building complex workflows with AI agents and app
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - LangChain
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## LangChain review (2026): pricing, AI features, verdict
 
@@ -74,7 +74,7 @@ Open-source framework for building AI agents, chaining LLM calls, and connecting
 
 Workflow Automation · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit LangChain →](https://www.langchain.com)
 
@@ -183,7 +183,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/langchain/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-28",
     "offers": [
       {
@@ -295,7 +295,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/langchain/", "breadcrumb": {"@id": "https://martechsignal.com/tools/langchain/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/langchain/", "breadcrumb": {"@id": "https://martechsignal.com/tools/langchain/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

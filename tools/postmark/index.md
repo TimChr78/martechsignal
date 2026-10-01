@@ -71,7 +71,7 @@ Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Postmark
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Postmark review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ Transactional email API with separated message streams, an MCP server, and publi
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Postmark →](https://postmarkapp.com)
 
@@ -188,8 +188,8 @@ Postmark ships tooling for AI agents rather than AI features. The official MCP s
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -215,7 +215,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/postmark/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -351,7 +351,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/postmark/", "breadcrumb": {"@id": "https://martechsignal.com/tools/postmark/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/postmark/", "breadcrumb": {"@id": "https://martechsignal.com/tools/postmark/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

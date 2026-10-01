@@ -42,9 +42,9 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Flagsmith - 6,584 stars, +12 in the 5-snapshot window to 2026-09-30 6,572→6,584 [verify on GitHub](https://github.com/Flagsmith/flagsmith)
-- GrowthBook - 8,455 stars, +23 in the 5-snapshot window to 2026-09-30 8,432→8,455 [verify on GitHub](https://github.com/growthbook/growthbook)
-- Jitsu - 5,094 stars, +3 in the 5-snapshot window to 2026-09-30 5,091→5,094 [verify on GitHub](https://github.com/jitsucom/jitsu)
+- Flagsmith - 6,585 stars, +13 in the 6-snapshot window to 2026-10-01 6,572→6,585 [verify on GitHub](https://github.com/Flagsmith/flagsmith)
+- GrowthBook - 8,461 stars, +29 in the 6-snapshot window to 2026-10-01 8,432→8,461 [verify on GitHub](https://github.com/growthbook/growthbook)
+- Jitsu - 5,094 stars, +3 in the 6-snapshot window to 2026-10-01 5,091→5,094 [verify on GitHub](https://github.com/jitsucom/jitsu)
 [All movers on the trending page](/trending/).
 
 ## [Dynamic Yield](/tools/dynamic-yield/)
@@ -171,7 +171,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI Personalization & CDP tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -304,7 +304,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-personalization-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-personalization-tools/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-personalization-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-personalization-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

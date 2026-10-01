@@ -96,7 +96,7 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
+More from the directory: [IFTTT](/tools/ifttt/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -131,7 +131,7 @@ More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
     }
   },
   "datePublished": "2026-09-17",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-vs-seonaut/",
   "image": {
     "@type": "ImageObject",
@@ -177,7 +177,7 @@ More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

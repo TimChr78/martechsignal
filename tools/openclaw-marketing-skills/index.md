@@ -61,7 +61,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - OpenClaw Marketing Skills
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## OpenClaw Marketing Skills review (2026): pricing, AI features, verdict
 
@@ -69,7 +69,7 @@ Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit OpenClaw Marketing Skills →](https://github.com/LeoYeAI/openclaw-marketing-skills)
 
@@ -180,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/openclaw-marketing-skills/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",
@@ -283,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/", "breadcrumb": {"@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/", "breadcrumb": {"@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

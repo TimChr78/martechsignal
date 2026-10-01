@@ -20,7 +20,7 @@ AI platform generating high-converting ad creatives and social media post design
 
 GLOSSARY
 
-Definition last updated 2026-09-30
+Definition last updated 2026-10-01
 
 ## Definition
 
@@ -74,7 +74,7 @@ Sources: [Anyword](https://www.anyword.com) · [ALwrity](https://alwrity.com) ·
         "@type": "DefinedTerm",
         "name": "AI Content Generation",
         "description": "AI content generation uses large language models to produce marketing copy: blog posts, ad headlines, product descriptions, email subject lines, social captions. The tools take a brief or a prompt and output draft text that a human reviews, edits, and publishes.",
-        "dateModified": "2026-09-30",
+        "dateModified": "2026-10-01",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -132,7 +132,7 @@ Sources: [Anyword](https://www.anyword.com) · [ALwrity](https://alwrity.com) ·
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-content-generation/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/ai-content-generation/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-content-generation/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/ai-content-generation/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

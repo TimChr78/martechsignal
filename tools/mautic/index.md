@@ -74,7 +74,7 @@ Enterprise B2B marketing automation with AI-driven lead management and engagemen
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Mautic
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## Mautic review (2026): pricing, AI features, verdict
 
@@ -82,7 +82,7 @@ Open-source marketing automation platform with email, campaigns, and lead manage
 
 Marketing Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Mautic →](https://www.mautic.org)
 
@@ -222,7 +222,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/mautic/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -358,7 +358,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/mautic/", "breadcrumb": {"@id": "https://martechsignal.com/tools/mautic/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/mautic/", "breadcrumb": {"@id": "https://martechsignal.com/tools/mautic/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

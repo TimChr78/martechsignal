@@ -210,7 +210,7 @@ Vendors in this category: [NocoDB](https://nocodb.com) · [Mautic](https://www.m
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 12,
-      "dateModified": "2026-09-30",
+      "dateModified": "2026-10-01",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -363,7 +363,7 @@ Vendors in this category: [NocoDB](https://nocodb.com) · [Mautic](https://www.m
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/marketing-automation/", "breadcrumb": {"@id": "https://martechsignal.com/categories/marketing-automation/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/marketing-automation/", "breadcrumb": {"@id": "https://martechsignal.com/categories/marketing-automation/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

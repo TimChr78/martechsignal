@@ -110,7 +110,7 @@ Our directory breaks marketing tools down by what they measure, what they integr
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Analytics Tracking Automation](/tools/analytics-tracking-automation/)
+More from the directory: [Anyword](/tools/anyword/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -145,7 +145,7 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
     }
   },
   "datePublished": "2026-09-10",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/",
   "image": {
     "@type": "ImageObject",
@@ -191,7 +191,7 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

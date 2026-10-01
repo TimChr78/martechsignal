@@ -132,7 +132,7 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SISTRIX](/tools/sistrix/)
+More from the directory: [Trakkr](/tools/trakkr/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -167,7 +167,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
     }
   },
   "datePublished": "2026-07-29",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/",
   "image": {
     "@type": "ImageObject",
@@ -213,7 +213,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

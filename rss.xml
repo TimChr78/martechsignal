@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Sep 2026 05:25:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 05:23:04 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Rethink, not rebuild: Jon Miller and the replatform-for-AI trap</title>
+      <link>https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Jon Miller co-founded Marketo, then founded Engagio, the account-based marketing platform Demandbase bought in 2020 (Demandbase press release). This week he came back to the…</description>
+    </item>
     <item>
       <title>Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters</title>
       <link>https://martechsignal.com/blog/ai-theater-wrong-kpi/</link>

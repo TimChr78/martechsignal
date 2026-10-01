@@ -73,7 +73,7 @@ Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Google Ads + Meta Ads + GA4 MCP
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 KIND: Utility (not an end-to-end platform)
 
@@ -83,7 +83,7 @@ MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 
 Agent Skills · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Google Ads + Meta Ads + GA4 MCP →](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
 
@@ -209,7 +209,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-17",
     "offers": {
       "@type": "Offer",
@@ -344,7 +344,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/", "breadcrumb": {"@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/", "breadcrumb": {"@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

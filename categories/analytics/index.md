@@ -200,7 +200,7 @@ Vendors in this category: [PostHog](https://posthog.com) · [Umami](https://umam
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 11,
-      "dateModified": "2026-09-30",
+      "dateModified": "2026-10-01",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -341,7 +341,7 @@ Vendors in this category: [PostHog](https://posthog.com) · [Umami](https://umam
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/analytics/", "breadcrumb": {"@id": "https://martechsignal.com/categories/analytics/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/analytics/", "breadcrumb": {"@id": "https://martechsignal.com/categories/analytics/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

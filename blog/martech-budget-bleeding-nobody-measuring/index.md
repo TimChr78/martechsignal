@@ -123,7 +123,7 @@ Browse the [MartechSignal tools directory](/tools/) before the next renewal. The
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
+More from the directory: [SuiteCRM](/tools/suitecrm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -158,7 +158,7 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
     }
   },
   "datePublished": "2026-08-06",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/",
   "image": {
     "@type": "ImageObject",
@@ -204,7 +204,7 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/", "breadcrumb": {"@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/", "breadcrumb": {"@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

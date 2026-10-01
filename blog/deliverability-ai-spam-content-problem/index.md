@@ -104,7 +104,7 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Jasper](/tools/jasper/)
+More from the directory: [Khoj](/tools/khoj/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -139,7 +139,7 @@ More from the directory: [Jasper](/tools/jasper/)
     }
   },
   "datePublished": "2026-08-21",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/",
   "image": {
     "@type": "ImageObject",
@@ -185,7 +185,7 @@ More from the directory: [Jasper](/tools/jasper/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/", "breadcrumb": {"@id": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/", "breadcrumb": {"@id": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

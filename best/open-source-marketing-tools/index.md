@@ -46,14 +46,14 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Mautic - 10,595 stars, +209 in the 37-snapshot window to 2026-09-30 10,386→10,595 [verify on GitHub](https://github.com/mautic/mautic)
-- Listmonk - 23,621 stars, +500 in the 37-snapshot window to 2026-09-30 23,121→23,621 [verify on GitHub](https://github.com/knadh/listmonk)
-- Laudspeaker - 2,626 stars, +8 in the 37-snapshot window to 2026-09-30 2,618→2,626 [verify on GitHub](https://github.com/laudspeaker/laudspeaker)
-- SuiteCRM - 5,777 stars, +87 in the 37-snapshot window to 2026-09-30 5,690→5,777 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
-- n8n - 206,315 stars, +3,912 in the 37-snapshot window to 2026-09-30 202,403→206,315 [verify on GitHub](https://github.com/n8n-io/n8n)
-- Matomo - 21,912 stars, +107 in the 37-snapshot window to 2026-09-30 21,805→21,912 [verify on GitHub](https://github.com/matomo-org/matomo)
-- Twenty - 57,724 stars, +2,199 in the 37-snapshot window to 2026-09-30 55,525→57,724 [verify on GitHub](https://github.com/twentyhq/twenty)
-- OpenOutreach - 3,107 stars, +289 in the 37-snapshot window to 2026-09-30 2,818→3,107 [verify on GitHub](https://github.com/eracle/OpenOutreach)
+- Mautic - 10,636 stars, +250 in the 38-snapshot window to 2026-10-01 10,386→10,636 [verify on GitHub](https://github.com/mautic/mautic)
+- Listmonk - 23,640 stars, +519 in the 38-snapshot window to 2026-10-01 23,121→23,640 [verify on GitHub](https://github.com/knadh/listmonk)
+- Laudspeaker - 2,628 stars, +10 in the 38-snapshot window to 2026-10-01 2,618→2,628 [verify on GitHub](https://github.com/laudspeaker/laudspeaker)
+- SuiteCRM - 5,777 stars, +87 in the 38-snapshot window to 2026-10-01 5,690→5,777 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
+- n8n - 206,395 stars, +3,992 in the 38-snapshot window to 2026-10-01 202,403→206,395 [verify on GitHub](https://github.com/n8n-io/n8n)
+- Matomo - 21,914 stars, +109 in the 38-snapshot window to 2026-10-01 21,805→21,914 [verify on GitHub](https://github.com/matomo-org/matomo)
+- Twenty - 57,764 stars, +2,239 in the 38-snapshot window to 2026-10-01 55,525→57,764 [verify on GitHub](https://github.com/twentyhq/twenty)
+- OpenOutreach - 3,119 stars, +301 in the 38-snapshot window to 2026-10-01 2,818→3,119 [verify on GitHub](https://github.com/eracle/OpenOutreach)
 [All movers on the trending page](/trending/).
 
 ## [Mautic](/tools/mautic/)
@@ -180,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best Open-Source Marketing Tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -313,7 +313,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/open-source-marketing-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/open-source-marketing-tools/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/open-source-marketing-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/open-source-marketing-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

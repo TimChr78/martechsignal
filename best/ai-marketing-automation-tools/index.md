@@ -44,7 +44,7 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- NocoDB - 65,119 stars, +266 in the 25-snapshot window to 2026-09-30 64,853→65,119 [verify on GitHub](https://github.com/nocodb/nocodb)
+- NocoDB - 65,137 stars, +284 in the 26-snapshot window to 2026-10-01 64,853→65,137 [verify on GitHub](https://github.com/nocodb/nocodb)
 [All movers on the trending page](/trending/).
 
 ## [NocoDB](/tools/nocodb/)
@@ -171,7 +171,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI Marketing Automation tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -304,7 +304,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-marketing-automation-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-marketing-automation-tools/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-marketing-automation-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-marketing-automation-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

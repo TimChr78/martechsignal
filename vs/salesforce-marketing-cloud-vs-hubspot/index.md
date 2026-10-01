@@ -140,7 +140,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/#article",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -226,7 +226,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/", "breadcrumb": {"@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/", "breadcrumb": {"@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

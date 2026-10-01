@@ -44,7 +44,7 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Strapi - 73,255 stars, +241 in the 37-snapshot window to 2026-09-30 73,014→73,255 [verify on GitHub](https://github.com/strapi/strapi)
+- Strapi - 73,265 stars, +251 in the 38-snapshot window to 2026-10-01 73,014→73,265 [verify on GitHub](https://github.com/strapi/strapi)
 [All movers on the trending page](/trending/).
 
 ## [Writer](/tools/writer/)
@@ -171,7 +171,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI Content & Copywriting tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -304,7 +304,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-content-copywriting-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-content-copywriting-tools/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-content-copywriting-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-content-copywriting-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

@@ -118,7 +118,7 @@ Tools linked in this post: [HubSpot CRM](/tools/hubspot-crm/) · [n8n](/tools/n8
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Anyword](/tools/anyword/)
+More from the directory: [Apache Unomi](/tools/apache-unomi/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -153,7 +153,7 @@ More from the directory: [Anyword](/tools/anyword/)
     }
   },
   "datePublished": "2026-09-30",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/ai-theater-wrong-kpi/",
   "image": {
     "@type": "ImageObject",
@@ -199,7 +199,7 @@ More from the directory: [Anyword](/tools/anyword/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-theater-wrong-kpi/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-theater-wrong-kpi/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-theater-wrong-kpi/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-theater-wrong-kpi/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

@@ -188,7 +188,7 @@ Vendors in this category: [OpenSEO](https://openseo.so) · [Seonaut](https://seo
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 9,
-      "dateModified": "2026-09-30",
+      "dateModified": "2026-10-01",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -305,7 +305,7 @@ Vendors in this category: [OpenSEO](https://openseo.so) · [Seonaut](https://seo
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/seo/", "breadcrumb": {"@id": "https://martechsignal.com/categories/seo/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/seo/", "breadcrumb": {"@id": "https://martechsignal.com/categories/seo/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

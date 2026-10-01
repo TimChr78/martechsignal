@@ -20,7 +20,7 @@ AI-powered marketing automation and CRM for small to mid-size businesses
 
 GLOSSARY
 
-Definition last updated 2026-09-30
+Definition last updated 2026-10-01
 
 ## Definition
 
@@ -85,7 +85,7 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
         "@type": "DefinedTerm",
         "name": "Lead Scoring",
         "description": "Lead scoring assigns a numerical value to each prospect based on their likelihood to buy. Points accumulate for demographic fit (job title, company size) and behavioral signals (page visits, email opens, content downloads). Sales prioritizes the highest scores.",
-        "dateModified": "2026-09-30",
+        "dateModified": "2026-10-01",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -143,7 +143,7 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/lead-scoring/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/lead-scoring/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/lead-scoring/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/lead-scoring/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

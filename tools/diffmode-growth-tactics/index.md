@@ -60,7 +60,7 @@ AI Business Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Diffmode Growth Tactics
-Re-check pending: pricing last verified 2026-08-31 (30 days ago).
+Re-check pending: pricing last verified 2026-08-31 (31 days ago).
 
 ## Diffmode Growth Tactics review (2026): pricing, AI features, verdict
 
@@ -68,7 +68,7 @@ Free Claude Code/Codex pipeline that mines case studies and rejects obvious grow
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Diffmode Growth Tactics →](https://github.com/acogood/diffmode_free)
 
@@ -171,7 +171,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/diffmode-growth-tactics/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-31",
     "offers": {
       "@type": "Offer",
@@ -274,7 +274,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/", "breadcrumb": {"@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/", "breadcrumb": {"@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

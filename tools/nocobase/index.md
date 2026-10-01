@@ -72,7 +72,7 @@ Enterprise workflow automation inside the Microsoft Power Platform
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - NocoBase
-Re-check pending: pricing last verified 2026-09-05 (25 days ago).
+Re-check pending: pricing last verified 2026-09-05 (26 days ago).
 
 ## NocoBase review (2026): pricing, AI features, verdict
 
@@ -80,7 +80,7 @@ Open-source no-code platform with AI assistance for building business systems fa
 
 Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit NocoBase →](https://www.nocobase.com)
 
@@ -176,7 +176,7 @@ Yes, NocoBase runs a live demo on its website, and because the core is open sour
 
 - [How NocoBase compares with NocoDB and Budibase for self-hosted marketing ops](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ## Also featured in
 
 - [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/) — Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.
@@ -207,7 +207,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/nocobase/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-21",
     "offers": {
       "@type": "Offer",
@@ -334,7 +334,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/nocobase/", "breadcrumb": {"@id": "https://martechsignal.com/tools/nocobase/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/nocobase/", "breadcrumb": {"@id": "https://martechsignal.com/tools/nocobase/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

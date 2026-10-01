@@ -24,7 +24,7 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 
 GLOSSARY
 
-Definition last updated 2026-09-30
+Definition last updated 2026-10-01
 
 ## Definition
 
@@ -83,7 +83,7 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [ActiveCampaign]
         "@type": "DefinedTerm",
         "name": "Marketing Operations (MarketingOps)",
         "description": "Marketing operations is the function that manages the technology, processes, and data behind marketing execution. Marketing ops owns the CRM configuration, the automation workflows, the reporting dashboards, the data hygiene, and the tech stack evaluation. They're the people who make sure the campaign actually sends.",
-        "dateModified": "2026-09-30",
+        "dateModified": "2026-10-01",
         "datePublished": "2026-08-23",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -141,7 +141,7 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [ActiveCampaign]
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-ops/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/marketing-ops/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-ops/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/marketing-ops/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

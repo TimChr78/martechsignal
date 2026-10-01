@@ -64,7 +64,7 @@ Digital Marketing Pro
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - AI Business Skills
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## AI Business Skills review (2026): pricing, AI features, verdict
 
@@ -72,7 +72,7 @@ Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit AI Business Skills →](https://github.com/minhnv0807/ai-business-skills)
 
@@ -176,7 +176,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/ai-business-skills/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",
@@ -279,7 +279,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ai-business-skills/", "breadcrumb": {"@id": "https://martechsignal.com/tools/ai-business-skills/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ai-business-skills/", "breadcrumb": {"@id": "https://martechsignal.com/tools/ai-business-skills/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

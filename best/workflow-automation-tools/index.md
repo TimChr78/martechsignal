@@ -44,7 +44,7 @@ What we could not verify is called out under each tool below.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- n8n - 206,315 stars, +3,912 in the 37-snapshot window to 2026-09-30 202,403→206,315 [verify on GitHub](https://github.com/n8n-io/n8n)
+- n8n - 206,395 stars, +3,992 in the 38-snapshot window to 2026-10-01 202,403→206,395 [verify on GitHub](https://github.com/n8n-io/n8n)
 [All movers on the trending page](/trending/).
 
 ## [n8n](/tools/n8n/)
@@ -147,7 +147,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best workflow automation tools (2026)",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -258,7 +258,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/workflow-automation-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/workflow-automation-tools/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/workflow-automation-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/workflow-automation-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

@@ -63,7 +63,7 @@ Open-source headless CMS with AI-powered content management and API-first design
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Hypotenuse AI
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## Hypotenuse AI review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ AI content generation platform for ecommerce product descriptions and articles
 
 AI Content & Copywriting · From $56/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Hypotenuse AI →](https://www.hypotenuse.ai)
 
@@ -152,8 +152,8 @@ A strong specialist for bulk product catalog content at scale. General writing n
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Catalog-heavy stores generating product content in bulk
@@ -184,7 +184,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/hypotenuse-ai/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -287,7 +287,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hypotenuse-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hypotenuse-ai/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hypotenuse-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hypotenuse-ai/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

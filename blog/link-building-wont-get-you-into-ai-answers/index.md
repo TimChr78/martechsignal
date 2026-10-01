@@ -81,7 +81,7 @@ Links still rank pages on Google, and nothing in either article says otherwise. 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [OpenOutreach](/tools/openoutreach/)
+More from the directory: [SISTRIX](/tools/sistrix/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -116,7 +116,7 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
     }
   },
   "datePublished": "2026-08-25",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/",
   "image": {
     "@type": "ImageObject",
@@ -162,7 +162,7 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/", "breadcrumb": {"@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/", "breadcrumb": {"@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

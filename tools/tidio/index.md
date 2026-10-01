@@ -63,7 +63,7 @@ Open-source customer engagement suite with Captain AI and full self-hosting
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Tidio
-Re-check pending: pricing last verified 2026-08-28 (33 days ago).
+Re-check pending: pricing last verified 2026-08-28 (34 days ago).
 
 ## Tidio review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ AI-powered live chat and chatbot platform with Lyro AI agent for customer suppor
 
 Chatbots & Conversational AI · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Tidio →](https://www.tidio.com)
 
@@ -153,8 +153,8 @@ Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Small shops adding live chat and an AI agent cheaply
@@ -185,7 +185,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/tidio/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -297,7 +297,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tidio/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tidio/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tidio/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tidio/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

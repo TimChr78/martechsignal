@@ -130,7 +130,7 @@ Last verified 2026-09-28.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Claude SEO - 17,975 stars, +2,879 in the 37-snapshot window to 2026-09-30 15,096→17,975 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
+- Claude SEO - 18,058 stars, +2,962 in the 38-snapshot window to 2026-10-01 15,096→18,058 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
 [All movers on the trending page](/trending/).
 
 ## Get the next teardown
@@ -147,7 +147,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/claude-seo-vs-semrush/#article",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -233,7 +233,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/claude-seo-vs-semrush/", "breadcrumb": {"@id": "https://martechsignal.com/vs/claude-seo-vs-semrush/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/claude-seo-vs-semrush/", "breadcrumb": {"@id": "https://martechsignal.com/vs/claude-seo-vs-semrush/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

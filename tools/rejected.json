@@ -1063,5 +1063,11 @@
   "url": "https://zapier.com/blog/feeds/latest/",
   "reason": "RSS blog post, not a tool candidate",
   "rejected_at": "2026-09-28"
+ },
+ {
+  "name": "Outlook vs. Gmail: Which platform is best? [2026]",
+  "url": "https://zapier.com/blog/feeds/latest/",
+  "reason": "RSS blog post, not a tool candidate",
+  "rejected_at": "2026-10-01"
  }
 ]

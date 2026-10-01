@@ -100,7 +100,7 @@ Vendors in this category: [Chatwoot](https://www.chatwoot.com) · [ChatbotX](htt
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 6,
-      "dateModified": "2026-09-30",
+      "dateModified": "2026-10-01",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -181,7 +181,7 @@ Vendors in this category: [Chatwoot](https://www.chatwoot.com) · [ChatbotX](htt
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/chatbots/", "breadcrumb": {"@id": "https://martechsignal.com/categories/chatbots/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/chatbots/", "breadcrumb": {"@id": "https://martechsignal.com/categories/chatbots/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

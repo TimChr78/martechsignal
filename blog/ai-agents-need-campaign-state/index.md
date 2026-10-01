@@ -118,7 +118,7 @@ The agents are good enough. The context is not.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [advertools](/tools/advertools/)
+More from the directory: [Analytics Tracking Automation](/tools/analytics-tracking-automation/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -153,7 +153,7 @@ More from the directory: [advertools](/tools/advertools/)
     }
   },
   "datePublished": "2026-08-03",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/ai-agents-need-campaign-state/",
   "image": {
     "@type": "ImageObject",
@@ -199,7 +199,7 @@ More from the directory: [advertools](/tools/advertools/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

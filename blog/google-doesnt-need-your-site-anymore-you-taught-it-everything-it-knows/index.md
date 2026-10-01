@@ -107,7 +107,7 @@ The play is to own something the machine cannot answer without you. Google does 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [ManyChat](/tools/manychat/)
+More from the directory: [MarketMuse](/tools/marketmuse/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -142,7 +142,7 @@ More from the directory: [ManyChat](/tools/manychat/)
     }
   },
   "datePublished": "2026-07-31",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/",
   "image": {
     "@type": "ImageObject",
@@ -188,7 +188,7 @@ More from the directory: [ManyChat](/tools/manychat/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

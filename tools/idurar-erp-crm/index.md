@@ -68,7 +68,7 @@ Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & 
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - IDURAR ERP & CRM
-Re-check pending: pricing last verified 2026-09-07 (23 days ago).
+Re-check pending: pricing last verified 2026-09-07 (24 days ago).
 
 ## IDURAR ERP & CRM review (2026): pricing, AI features, verdict
 
@@ -76,7 +76,7 @@ Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-30
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit IDURAR ERP & CRM →](https://cloud.idurarapp.com)
 
@@ -200,7 +200,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/idurar-erp-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-30",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-25",
     "offers": [
       {
@@ -336,7 +336,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/idurar-erp-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/idurar-erp-crm/#breadcrumb"}, "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/idurar-erp-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/idurar-erp-crm/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json
