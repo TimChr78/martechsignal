@@ -2622,3 +2622,44 @@ def test_money_pages_carry_momentum_receipts():
     assert "Open-source momentum, with receipts" in html, "momentum block missing"
     assert "verify on GitHub" in html, "momentum block lacks verify links"
     assert _re.search(r"\d{1,3}(,\d{3})+ stars", html), "no formatted star counts"
+
+
+def _ldjson_blocks(html):
+    out = []
+    for b in re.findall(r'<script[^>]*ld\+json[^>]*>(.*?)</script>', html, re.S):
+        try:
+            out.append(json.loads(b))
+        except Exception:
+            pass
+    return out
+
+
+def _walk_nodes(d):
+    if isinstance(d, list):
+        for x in d:
+            yield from _walk_nodes(x)
+    elif isinstance(d, dict):
+        yield d
+        for k, v in d.items():
+            if k != "itemListElement":
+                yield from _walk_nodes(v)
+
+
+def test_no_cross_block_breadcrumb_pointers():
+    """r22 H-1 (2026-10-03): Google does not resolve @id references across
+    separate ld+json blocks, so WebPage.breadcrumb: {"@id": ...} parses as a
+    BreadcrumbList missing itemListElement (52-page GSC error, first seen
+    2026-09-30 via a straggler emitter, sync_date_modified). Standalone
+    BreadcrumbList blocks are valid alone; the pointer is never valid.
+    Hard-fails the build on the pointer pattern in ANY generated page
+    (§13.6 snippet-and-gsc-lessons)."""
+    pages = [p for p in ROOT.rglob("index.html") if "node_modules" not in p.parts]
+    offenders = []
+    for p in pages:
+        html = p.read_text(errors="ignore")
+        for data in _ldjson_blocks(html):
+            for node in _walk_nodes(data):
+                bc = node.get("breadcrumb")
+                if isinstance(bc, dict) and "itemListElement" not in bc:
+                    offenders.append(str(p.relative_to(ROOT)))
+    assert not offenders, f"cross-block breadcrumb @id pointers on: {offenders[:10]}"
