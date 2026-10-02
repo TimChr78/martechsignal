@@ -97,6 +97,7 @@ Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline
 - [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 - [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
 - [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)

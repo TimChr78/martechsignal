@@ -120,6 +120,7 @@ The most complete Meta-only operating layer in the directory: real breadth acros
 - [Smartly.io](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
 - [Pencil](/tools/pencil/): AI-powered ad creative generation and performance prediction for paid media
 - [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
+- [Revive Adserver](/tools/revive-adserver/): Free open source ad server for publishers, ad networks and advertisers
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)

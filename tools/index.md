@@ -310,7 +310,7 @@ Heap
 
 AI-powered product analytics with autocapture and digital experience insights
 
-Freemium from $250/moDesk-reviewedAnalytics & Attribution
+FreemiumDesk-reviewedAnalytics & Attribution
 
 Matomo
 

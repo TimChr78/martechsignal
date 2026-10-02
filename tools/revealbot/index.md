@@ -153,6 +153,7 @@ An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Co
 - [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
 - [Smartly.io](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
 - [Northbeam](/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce
+- [advertools](/tools/advertools/): Python toolkit for SEO and advertising analysis in pandas DataFrames
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)

@@ -102,6 +102,7 @@ The open-source Braze alternative for technical growth teams that want data owne
 - [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Ortto](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
+- [ActiveCampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)

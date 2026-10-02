@@ -143,6 +143,7 @@ A query is spent when you enter a focus topic into one of the applications (Rese
 - [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
 - [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
 - [Frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
+- [Superlines](/tools/superlines/): AI Search Intelligence platform for brands and agencies
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)

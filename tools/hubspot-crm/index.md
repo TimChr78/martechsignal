@@ -117,6 +117,7 @@ Best starting CRM for small teams. Revisit ownership costs seriously once headco
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 - [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
 - [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
+- [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)

@@ -118,6 +118,7 @@ The most complete open-source cold email stack we have listed, but young (launch
 - [Loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+- [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)

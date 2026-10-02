@@ -116,6 +116,7 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 - [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
 - [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
 - [Paperclip](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+- [Make](/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)

@@ -100,6 +100,7 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
 - [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Ortto](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)

@@ -146,6 +146,7 @@ One CSV written to stdout with email, first_name, last_name, company, title, web
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [Eve Marketing Team Template](/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email
+- [Postmark](/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)

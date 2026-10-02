@@ -146,6 +146,7 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 - [Warpdrive](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
+- [Attio](/tools/attio/): AI-native CRM with real-time data enrichment and agentic revenue workflows
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)

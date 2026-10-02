@@ -115,6 +115,7 @@ Buy it when program complexity and scale justify the ops headcount. For smaller 
 - [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
 - [ActiveCampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [Laudspeaker](/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)

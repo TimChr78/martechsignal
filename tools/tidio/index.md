@@ -115,6 +115,7 @@ Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
 - [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
 - [ManyChat](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 - [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
+- [Chatwoot](/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)

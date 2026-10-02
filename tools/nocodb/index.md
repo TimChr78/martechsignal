@@ -147,6 +147,7 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 - [Line Harness](/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
 - [Appsmith](/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
+- [Mautic](/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management
 ## Related reading
 
 - [Where NocoDB sits against NocoBase and Budibase](/blog/nocobase-vs-nocodb-vs-budibase/)

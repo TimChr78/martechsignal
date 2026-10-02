@@ -151,6 +151,7 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 - [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
 - [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [n8n Marketing Flows](/tools/n8n-marketing-flows/): 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)

@@ -131,6 +131,7 @@ No. It catches grammar, punctuation, and spelling problems and offers style and 
 - [Warpdrive](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
 - [LibreTranslate](/tools/libretranslate/): Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Copy.ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
 ## Related reading
 
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)

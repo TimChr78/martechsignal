@@ -114,6 +114,7 @@ Valuable when you need an instant, numbers-based copy check across many channels
 - [ContentBot](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 - [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
+- [LibreTranslate](/tools/libretranslate/): Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)

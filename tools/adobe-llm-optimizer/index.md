@@ -128,6 +128,7 @@ No. The CDN-edge deployment works with Fastly, Akamai, and Cloudflare, and Adobe
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 - [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 - [Writesonic](/tools/writesonic/): The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
+- [Promptfoo](/tools/promptfoo/): Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)

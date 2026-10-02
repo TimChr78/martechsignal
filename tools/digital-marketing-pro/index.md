@@ -147,6 +147,7 @@ Yes. The catalog records a public API for Digital Marketing Pro, so custom integ
 - [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 - [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 - [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+- [Diffmode Growth Tactics](/tools/diffmode-growth-tactics/): Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)

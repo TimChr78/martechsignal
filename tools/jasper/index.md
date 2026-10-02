@@ -115,6 +115,7 @@ Best for enterprises needing brand-governed, multichannel output at scale. Solo 
 - [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
 - [Copy.ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
 - [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
+- [Persado](/tools/persado/): AI content creation and optimization platform for regulated financial services marketing
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)

@@ -116,6 +116,7 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 - [AI Marketing Suite](/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports
 - [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 - [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
+- [Analytics Tracking Automation](/tools/analytics-tracking-automation/): AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)

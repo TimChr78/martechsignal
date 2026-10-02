@@ -116,6 +116,7 @@ Genuinely useful DTC dashboard consolidation; treat attribution as directional, 
 - [Attribution](/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue
 - [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
 - [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
+- [Mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)

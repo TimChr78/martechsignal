@@ -108,6 +108,7 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 - [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
+- [Maizzle](/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)

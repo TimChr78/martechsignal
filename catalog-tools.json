@@ -2834,7 +2834,7 @@
    "pricing_model": "freemium",
    "pricing_url": "https://www.heap.io/pricing",
    "price_from": 0,
-   "price_notes": "Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing Paid floor ≈$250/mo equivalent of the published ~$3,000/yr startup Growth starting range.",
+   "price_notes": "Free (10K sessions/mo, 6-mo history); Growth and Pro are custom-priced - no published entry price, so the record carries no paid figure (r22 H-3).",
    "ai_features": [
     "AI autocapture",
     "AI session replay analysis",
@@ -2870,7 +2870,7 @@
     "verdict": "Choose it when you keep discovering untagged events after the fact. Disciplined taggers get more from Mixpanel."
    },
    "currency": "USD",
-   "paid_from": 250,
+   "paid_from": null,
    "page_url": "https://martechsignal.com/tools/heap/"
   },
   {

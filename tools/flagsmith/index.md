@@ -127,6 +127,7 @@ Yes. It lets AI tools manage flags, create segments, schedule changes, and autom
 - [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
 - [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Hightouch](/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs
 ## Related reading
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)

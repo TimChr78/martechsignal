@@ -133,6 +133,7 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 - [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
 - [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
+- [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)

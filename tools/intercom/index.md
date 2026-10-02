@@ -115,6 +115,7 @@ Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly c
 - [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
 - [Chatwoot](/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)

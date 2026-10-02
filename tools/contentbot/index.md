@@ -112,6 +112,7 @@ Good value for high-volume, template-driven content pipelines. Teams doing premi
 - [Copy.ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
 - [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
 - [Anyword](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content
+- [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
 ## Related reading
 
 - [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)

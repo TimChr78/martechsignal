@@ -114,6 +114,7 @@ The largest verified free template pack for n8n marketing automation, with a gen
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
+- [Paperclip](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)

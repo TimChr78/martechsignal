@@ -129,6 +129,7 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 - [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
 - [Frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
 - [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [Potato](/tools/potato-ai-visibility/): Free local tool that measures brand mentions and citations in Claude's web-search answers
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)

@@ -117,6 +117,7 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [ProspectOS](/tools/prospectos/): Open-source lead prospecting CRM with Google Maps and Instagram scraping
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)

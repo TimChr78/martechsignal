@@ -155,6 +155,7 @@ It is the vendor with the longest claimed run of Gartner Magic Quadrant leader p
 - [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
 - [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
 - [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
+- [Apache Unomi](/tools/apache-unomi/): Apache's open-source customer data platform and personalization engine
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)

@@ -142,6 +142,7 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 - [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM
 - [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
 - [Warpdrive](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 ## Related reading
 
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)

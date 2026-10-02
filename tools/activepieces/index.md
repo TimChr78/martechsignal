@@ -103,6 +103,7 @@ Strengths include 24,836 GitHub stars, open-source licensing with free self-host
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
+- [LangChain](/tools/langchain/): Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 ## Related reading
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)

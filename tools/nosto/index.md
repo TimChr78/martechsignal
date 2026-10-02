@@ -151,6 +151,7 @@ Nosto documents a consent-conditional pattern: wrap the tracking script (connect
 - [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
 - [Dynamic Yield](/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences
 - [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
+- [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)

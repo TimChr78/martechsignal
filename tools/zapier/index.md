@@ -130,6 +130,7 @@ They meter differently. Zapier charges per task, and work repeated inside a Zap 
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Pabbly Connect](/tools/pabbly-connect/): Task-priced integration platform with a one-time lifetime purchase option
 - [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
+- [IFTTT](/tools/ifttt/): Consumer-friendly automation connecting apps and smart devices
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)

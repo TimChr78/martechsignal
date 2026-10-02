@@ -131,6 +131,7 @@ Yes, NocoBase runs a live demo on its website, and because the core is open sour
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
 - [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
+- [Microsoft Power Automate](/tools/power-automate/): Enterprise workflow automation inside the Microsoft Power Platform
 ## Related reading
 
 - [How NocoBase compares with NocoDB and Budibase for self-hosted marketing ops](/blog/nocobase-vs-nocodb-vs-budibase/)

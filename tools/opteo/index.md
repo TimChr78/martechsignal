@@ -116,6 +116,7 @@ A focused Google Ads quality-control layer: less ambitious than cross-channel pl
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Line Harness](/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
 - [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
+- [Smartly.io](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
 ## Related reading
 
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)

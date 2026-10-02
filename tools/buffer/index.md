@@ -111,6 +111,7 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
 - [MultiPost](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
+- [Brandwatch](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
