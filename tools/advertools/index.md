@@ -108,6 +108,10 @@ It is a data toolkit rather than a tracking dashboard, but keyword generation, S
 
 ## Similar Tools
 
+- [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+- [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+- [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -155,10 +159,6 @@ OpenClaw Marketing Skills
 
 37 marketing skills for OpenClaw agents with live data connectors
 
-Madgicx
-
-AI-powered Meta ads optimization and creative workflow
-
 [More Advertising & Paid Media Tools →](/categories/advertising/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -187,7 +187,7 @@ AI-powered Meta ads optimization and creative workflow
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://advertools.readthedocs.io",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -218,7 +218,8 @@ AI-powered Meta ads optimization and creative workflow
         "name": "advertools",
         "item": "https://martechsignal.com/tools/advertools/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/advertools/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

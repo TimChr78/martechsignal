@@ -40,6 +40,9 @@ AI agents need clean, unified profiles to personalize anything. Campaign state, 
 
 ## Tools in this space
 
+- [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
+- [Snowplow](/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
+- [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
 ## Related terms
 
 [Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/) · [First-party data](/glossary/first-party-data/)

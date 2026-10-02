@@ -127,6 +127,10 @@ Yes. Writesonic documents a public API and an MCP server, with 20+ native integr
 
 ## Similar Tools
 
+- [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+- [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+- [Rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+- [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -170,10 +174,6 @@ Scrunch
 
 The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 
-Evertune
-
-GEO visibility measurement with content activation and a ChatGPT Ad Agent
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -202,7 +202,7 @@ GEO visibility measurement with content activation and a ChatGPT Ad Agent
       "price": 79,
       "priceCurrency": "USD",
       "url": "https://writesonic.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -233,7 +233,8 @@ GEO visibility measurement with content activation and a ChatGPT Ad Agent
         "name": "Writesonic",
         "item": "https://martechsignal.com/tools/writesonic/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/writesonic/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

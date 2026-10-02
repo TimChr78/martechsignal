@@ -128,6 +128,10 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 
 ## Similar Tools
 
+- [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM
+- [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
+- [Ever Gauzy](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking
+- [Macro](/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -195,14 +199,14 @@ Open source workspace with a self-updating, agent-driven CRM and shared AI team 
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.idurarapp.com",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 5000,
         "priceCurrency": "USD",
         "url": "https://www.idurarapp.com",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -234,7 +238,8 @@ Open source workspace with a self-updating, agent-driven CRM and shared AI team 
         "name": "IDURAR ERP & CRM",
         "item": "https://martechsignal.com/tools/idurar-erp-crm/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/idurar-erp-crm/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

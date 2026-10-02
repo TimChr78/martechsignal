@@ -112,6 +112,10 @@ Genuinely useful DTC dashboard consolidation; treat attribution as directional, 
 
 ## Similar Tools
 
+- [Northbeam](/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce
+- [Attribution](/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue
+- [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
+- [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -155,10 +159,6 @@ Madgicx
 
 AI-powered Meta ads optimization and creative workflow
 
-Mixpanel
-
-Product analytics platform with AI-powered insights for user behavior tracking
-
 [More Analytics & Attribution Tools →](/categories/analytics/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -187,7 +187,7 @@ Product analytics platform with AI-powered insights for user behavior tracking
       "price": 59,
       "priceCurrency": "USD",
       "url": "https://www.triplewhale.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -218,7 +218,8 @@ Product analytics platform with AI-powered insights for user behavior tracking
         "name": "Triple Whale",
         "item": "https://martechsignal.com/tools/triple-whale/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/triple-whale/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

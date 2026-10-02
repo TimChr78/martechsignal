@@ -144,6 +144,10 @@ Vendor-published results range widely. Currys reports 42% uplift in opens, 93% i
 
 ## Similar Tools
 
+- [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
+- [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
+- [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
+- [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -186,10 +190,6 @@ AI-powered ecommerce personalization with product recommendations and merchandis
 Predis.ai
 
 AI-powered social media content generator for posts, videos, and ad creatives
-
-Anyword
-
-AI copywriting platform with predictive performance scores for marketing content
 
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
 
@@ -243,7 +243,8 @@ AI copywriting platform with predictive performance scores for marketing content
         "name": "Phrasee",
         "item": "https://martechsignal.com/tools/phrasee/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/phrasee/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

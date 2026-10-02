@@ -113,6 +113,10 @@ Yes. Make AI Agents are stated as available on all plans, including Free, and ru
 
 ## Similar Tools
 
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+- [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -187,14 +191,14 @@ Open-source operations platform for building AI agents, apps and automations on 
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.make.com/en/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-26"
       },
       {
         "@type": "Offer",
         "price": 9,
         "priceCurrency": "USD",
         "url": "https://www.make.com/en/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-26"
       }
     ]
   },
@@ -226,7 +230,8 @@ Open-source operations platform for building AI agents, apps and automations on 
         "name": "Make",
         "item": "https://martechsignal.com/tools/make/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/make/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

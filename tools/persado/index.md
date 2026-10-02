@@ -145,6 +145,10 @@ Four documented models. Native is the deepest: every email send pulls Persado-sc
 
 ## Similar Tools
 
+- [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
+- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [Anyword](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content
+- [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
@@ -187,10 +191,6 @@ AI copywriting platform with predictive performance scores for marketing content
 Braze
 
 Customer engagement platform with AI-powered real-time messaging across channels
-
-ContentBot
-
-AI content automation platform with workflows for blogs, ads, and social posts
 
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
 
@@ -244,7 +244,8 @@ AI content automation platform with workflows for blogs, ads, and social posts
         "name": "Persado",
         "item": "https://martechsignal.com/tools/persado/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/persado/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

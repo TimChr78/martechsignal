@@ -140,6 +140,10 @@ The features page describes IP anonymization for visitor records, site tracking 
 
 ## Similar Tools
 
+- [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
+- [ActiveCampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
+- [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+- [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -185,10 +189,6 @@ Albert AI
 
 Autonomous AI platform that manages and optimizes digital advertising campaigns
 
-Adobe Marketo Engage
-
-Enterprise B2B marketing automation with AI-driven lead management and engagement
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -218,14 +218,14 @@ Enterprise B2B marketing automation with AI-driven lead management and engagemen
         "price": 0,
         "priceCurrency": "EUR",
         "url": "https://www.mautic.org/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 247.5,
         "priceCurrency": "EUR",
         "url": "https://www.mautic.org/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -257,7 +257,8 @@ Enterprise B2B marketing automation with AI-driven lead management and engagemen
         "name": "Mautic",
         "item": "https://martechsignal.com/tools/mautic/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/mautic/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

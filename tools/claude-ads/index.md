@@ -115,6 +115,10 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 
 ## Similar Tools
 
+- [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+- [Claude SEO](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
+- [Smartly.io](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
+- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -187,7 +191,7 @@ AI Business Skills
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/AgriciDaniel/claude-ads",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -218,7 +222,8 @@ AI Business Skills
         "name": "Claude Ads",
         "item": "https://martechsignal.com/tools/claude-ads/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/claude-ads/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

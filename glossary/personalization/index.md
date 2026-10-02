@@ -36,6 +36,9 @@ AI changed personalization from rules to prediction. Models score each visitor i
 
 ## Tools in this space
 
+- [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
+- [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
+- [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
 ## Related terms
 
 [Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [UTM parameters](/glossary/utm-parameters/)

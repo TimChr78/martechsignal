@@ -98,6 +98,10 @@ The open-source Braze alternative for technical growth teams that want data owne
 
 ## Similar Tools
 
+- [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
+- [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Ortto](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -141,10 +145,6 @@ Ortto
 
 Customer data and marketing automation platform with journeys, CDP, and AI features
 
-ActiveCampaign
-
-AI-powered marketing automation and CRM for small to mid-size businesses
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -173,7 +173,7 @@ AI-powered marketing automation and CRM for small to mid-size businesses
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://laudspeaker.com/?ref=github",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -204,7 +204,8 @@ AI-powered marketing automation and CRM for small to mid-size businesses
         "name": "Laudspeaker",
         "item": "https://martechsignal.com/tools/laudspeaker/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/laudspeaker/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

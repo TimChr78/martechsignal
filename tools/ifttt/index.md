@@ -96,6 +96,10 @@ Strengths include an API for custom integrations. Paid plans start at $2.99/mo
 
 ## Similar Tools
 
+- [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+- [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
+- [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
@@ -165,14 +169,14 @@ Open-source workflow automation with a free cloud tier and on-prem hosting
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://ifttt.com/plans",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-26"
       },
       {
         "@type": "Offer",
         "price": 2.99,
         "priceCurrency": "USD",
         "url": "https://ifttt.com/plans",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-26"
       }
     ]
   },
@@ -204,7 +208,8 @@ Open-source workflow automation with a free cloud tier and on-prem hosting
         "name": "IFTTT",
         "item": "https://martechsignal.com/tools/ifttt/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/ifttt/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -151,6 +151,10 @@ It is the vendor with the longest claimed run of Gartner Magic Quadrant leader p
 
 ## Similar Tools
 
+- [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
+- [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
+- [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
+- [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
@@ -193,10 +197,6 @@ AI-powered commerce experience platform with search, personalization, and CDP
 Hypotenuse AI
 
 AI content generation platform for ecommerce product descriptions and articles
-
-Apache Unomi
-
-Apache's open-source customer data platform and personalization engine
 
 [More Personalization & CDP Tools →](/categories/personalization/)
 
@@ -250,7 +250,8 @@ Apache's open-source customer data platform and personalization engine
         "name": "Dynamic Yield",
         "item": "https://martechsignal.com/tools/dynamic-yield/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/dynamic-yield/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

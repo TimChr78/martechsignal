@@ -125,6 +125,10 @@ Yes. Standard and above include API and MCP access (2,000 requests per month eac
 
 ## Similar Tools
 
+- [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+- [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+- [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+- [Rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -196,7 +200,7 @@ AI visibility tracking across 17+ answer engines for agencies and enterprise tea
       "price": 29,
       "priceCurrency": "EUR",
       "url": "https://otterly.ai/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -227,7 +231,8 @@ AI visibility tracking across 17+ answer engines for agencies and enterprise tea
         "name": "OtterlyAI",
         "item": "https://martechsignal.com/tools/otterlyai/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/otterlyai/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

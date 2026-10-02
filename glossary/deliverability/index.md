@@ -40,6 +40,9 @@ AI-spam changes deliverability because receivers now classify generated content 
 
 ## Tools in this space
 
+- [ActiveCampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
+- [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 ## Related terms
 
 [Email sequence](/glossary/email-sequence/) · [First-party data](/glossary/first-party-data/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing automation](/glossary/marketing-automation/) · [Marketing ops](/glossary/marketing-ops/)

@@ -113,6 +113,10 @@ Not a marketer-facing one. Unomi is a REST server, and the privacy and configura
 
 ## Similar Tools
 
+- [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
+- [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
+- [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -157,10 +161,6 @@ RudderStack
 
 Warehouse-first CDP: open-source Go data plane plus managed routing
 
-Nosto
-
-AI-powered ecommerce personalization with product recommendations and merchandising
-
 [More Personalization & CDP Tools →](/categories/personalization/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -189,7 +189,7 @@ AI-powered ecommerce personalization with product recommendations and merchandis
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://unomi.apache.org",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -220,7 +220,8 @@ AI-powered ecommerce personalization with product recommendations and merchandis
         "name": "Apache Unomi",
         "item": "https://martechsignal.com/tools/apache-unomi/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/apache-unomi/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

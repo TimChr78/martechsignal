@@ -106,6 +106,10 @@ Promising for teams ready to run self-hosted SEO loops with agent review. Everyo
 
 ## Similar Tools
 
+- [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+- [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+- [Claude SEO](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
+- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -145,10 +149,6 @@ AI Business Skills
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
-Aaron Marketing Skills
-
-120 marketing skills across 7 disciplines for Claude Code with auditor gates
-
 [More Agent Skills Tools →](/categories/agent-skills/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -177,7 +177,7 @@ Aaron Marketing Skills
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://growthlab.tsingyuai.com",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -208,7 +208,8 @@ Aaron Marketing Skills
         "name": "Growth Lab",
         "item": "https://martechsignal.com/tools/growth-lab/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/growth-lab/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

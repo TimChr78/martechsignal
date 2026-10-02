@@ -50,6 +50,20 @@ Use the directory for shortlists. Read the pricing line before the sales page, a
 
 The directory covers 13 categories plus a cross-cutting open-source index. Each one lists its tools with licence, stars snapshotted from the [GitHub API](https://docs.github.com/en/rest) and a plain summary of what it does.
 
+- [AI Content & Copywriting](/categories/content-ai/): 13 tools
+- [Advertising & Paid Media](/categories/advertising/): 9 tools
+- [Agent Skills](/categories/agent-skills/): 18 tools
+- [Analytics & Attribution](/categories/analytics/): 11 tools
+- [CRM](/categories/crm/): 24 tools
+- [Chatbots & Conversational AI](/categories/chatbots/): 6 tools
+- [Email Marketing](/categories/email-marketing/): 16 tools
+- [GEO & LLM Optimization](/categories/geo-llm-visibility/): 14 tools
+- [Marketing Automation](/categories/marketing-automation/): 12 tools
+- [Open-Source Tools](/categories/open-source/): 81 tools
+- [Personalization & CDP](/categories/personalization/): 11 tools
+- [SEO & Search](/categories/seo/): 9 tools
+- [Social Media](/categories/social-media/): 6 tools
+- [Workflow Automation](/categories/workflow-automation/): 17 tools
 [All categories](/categories/) · [Full tool directory](/tools/)
 
 ## One email. Every Friday.

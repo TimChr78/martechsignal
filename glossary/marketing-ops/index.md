@@ -36,6 +36,10 @@ AI agents create a new ops job: governing the agents. Budget caps, approval gate
 
 ## Tools in this space
 
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [ActiveCampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
+- [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 ## Related terms
 
 [ABM](/glossary/abm/) · [Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/)

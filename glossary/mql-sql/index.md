@@ -40,6 +40,9 @@ AI lead scoring reads intent signals that rules miss: which pages a contact visi
 
 ## Tools in this space
 
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+- [ActiveCampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
 ## Related terms
 
 [ABM](/glossary/abm/) · [Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [Customer journey](/glossary/customer-journey/) · [CRM](/glossary/crm/)

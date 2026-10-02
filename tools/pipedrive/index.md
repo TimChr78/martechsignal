@@ -111,6 +111,10 @@ The easiest CRM to get a sales team to actually adopt; add-on pricing is where c
 
 ## Similar Tools
 
+- [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+- [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -185,7 +189,7 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
       "price": 14,
       "priceCurrency": "USD",
       "url": "https://www.pipedrive.com/en/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-26"
     }
   },
   {
@@ -216,7 +220,8 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
         "name": "Pipedrive",
         "item": "https://martechsignal.com/tools/pipedrive/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/pipedrive/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

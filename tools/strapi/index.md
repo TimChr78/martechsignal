@@ -111,6 +111,10 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 
 ## Similar Tools
 
+- [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
+- [ALwrity](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -185,14 +189,14 @@ AI-first digital marketing platform for content strategy, generation, publishing
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://strapi.io/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 99,
         "priceCurrency": "USD",
         "url": "https://strapi.io/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -224,7 +228,8 @@ AI-first digital marketing platform for content strategy, generation, publishing
         "name": "Strapi",
         "item": "https://martechsignal.com/tools/strapi/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/strapi/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -120,6 +120,10 @@ No. AccuRanker states that all current plans include unlimited users. Enterprise
 
 ## Similar Tools
 
+- [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+- [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+- [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+- [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -185,7 +189,7 @@ AI search tracking across 8 models with an agent that writes, fixes, and outreac
       "price": 224,
       "priceCurrency": "EUR",
       "url": "https://www.accuranker.com/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -216,7 +220,8 @@ AI search tracking across 8 models with an agent that writes, fixes, and outreac
         "name": "AccuRanker",
         "item": "https://martechsignal.com/tools/accuranker/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/accuranker/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

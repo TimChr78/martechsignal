@@ -137,6 +137,10 @@ One documented one: AI email template generation, added in v4.0, where you descr
 
 ## Similar Tools
 
+- [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+- [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+- [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
+- [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -176,10 +180,6 @@ React Email Editor
 
 Drag-n-Drop Email Editor Component for React.js
 
-Mailchimp
-
-All-in-one marketing platform with AI-powered email, automation, and analytics
-
 [More Email Marketing Tools →](/categories/email-marketing/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -209,14 +209,14 @@ All-in-one marketing platform with AI-powered email, automation, and analytics
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.billionmail.com",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 98.9,
         "priceCurrency": "USD",
         "url": "https://www.billionmail.com",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -248,7 +248,8 @@ All-in-one marketing platform with AI-powered email, automation, and analytics
         "name": "BillionMail",
         "item": "https://martechsignal.com/tools/billionmail/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/billionmail/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -107,6 +107,10 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 
 ## Similar Tools
 
+- [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
+- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [MultiPost](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click
+- [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -150,10 +154,6 @@ Predis.ai
 
 AI-powered social media content generator for posts, videos, and ad creatives
 
-Brandwatch
-
-AI-powered consumer intelligence and social media management platform
-
 [More Social Media Tools →](/categories/social-media/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -183,14 +183,14 @@ AI-powered consumer intelligence and social media management platform
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://buffer.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 5,
         "priceCurrency": "USD",
         "url": "https://buffer.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -222,7 +222,8 @@ AI-powered consumer intelligence and social media management platform
         "name": "Buffer",
         "item": "https://martechsignal.com/tools/buffer/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/buffer/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

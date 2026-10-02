@@ -143,6 +143,10 @@ Yes. The catalog records a public API for Digital Marketing Pro, so custom integ
 
 ## Similar Tools
 
+- [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+- [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
+- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+- [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -187,10 +191,6 @@ SEO Skill Bench
 
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
-Diffmode Growth Tactics
-
-Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
-
 [More Agent Skills Tools →](/categories/agent-skills/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -219,7 +219,7 @@ Free Claude Code/Codex pipeline that mines case studies and rejects obvious grow
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/indranilbanerjee/digital-marketing-pro",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-27"
     }
   },
   {
@@ -250,7 +250,8 @@ Free Claude Code/Codex pipeline that mines case studies and rejects obvious grow
         "name": "Digital Marketing Pro",
         "item": "https://martechsignal.com/tools/digital-marketing-pro/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/digital-marketing-pro/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

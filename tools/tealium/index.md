@@ -112,6 +112,10 @@ Best for enterprises that need governed, consent-aware data plumbing at scale. W
 
 ## Similar Tools
 
+- [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
+- [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
+- [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
+- [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -208,7 +212,8 @@ Open-source Segment alternative for event capture and warehouse-first data pipel
         "name": "Tealium",
         "item": "https://martechsignal.com/tools/tealium/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/tealium/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

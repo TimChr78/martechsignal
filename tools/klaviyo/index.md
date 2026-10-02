@@ -112,6 +112,10 @@ The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a 
 
 ## Similar Tools
 
+- [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
+- [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
+- [Mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
+- [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
@@ -189,14 +193,14 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.klaviyo.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 20,
         "priceCurrency": "USD",
         "url": "https://www.klaviyo.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -228,7 +232,8 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
         "name": "Klaviyo",
         "item": "https://martechsignal.com/tools/klaviyo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/klaviyo/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -8,7 +8,7 @@
 
 Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
 
-CRM · Freemium from $14/mo Desk-reviewed
+CRM · Freemium from €14/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -93,6 +93,10 @@ Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline
 
 ## Similar Tools
 
+- [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
+- [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+- [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -103,7 +107,7 @@ Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best value for small teams that want a full suite without an enterprise bill.
 ### Quick Facts
 
-- **Pricing:** Freemium from $14/mo
+- **Pricing:** Freemium from €14/mo
 - **Category:** [CRM](/categories/crm/)
 - **Free Tier Seats:** 3
 - **Paid Tiers:** 3 (Standard / Professional / Enterprise)
@@ -136,10 +140,6 @@ HubSpot CRM
 
 Free AI-powered CRM platform with sales, service, and marketing tools unified
 
-Frappe CRM
-
-Fully featured, open source CRM
-
 [More CRM Tools →](/categories/crm/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -169,14 +169,14 @@ Fully featured, open source CRM
         "price": 0,
         "priceCurrency": "EUR",
         "url": "https://www.zoho.com/crm/pricing.html",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-27"
       },
       {
         "@type": "Offer",
         "price": 14,
         "priceCurrency": "EUR",
         "url": "https://www.zoho.com/crm/pricing.html",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-27"
       }
     ]
   },
@@ -208,7 +208,8 @@ Fully featured, open source CRM
         "name": "Zoho CRM",
         "item": "https://martechsignal.com/tools/zoho-crm/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/zoho-crm/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

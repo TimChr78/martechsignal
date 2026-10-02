@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
-Workflow Automation · Freemium from $10/mo · OPEN SOURCE Desk-reviewed
+Workflow Automation · Freemium from €10/mo · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -150,6 +150,10 @@ Create an agent whose adapter is claude_local. Claude Code must be installed and
 
 ## Similar Tools
 
+- [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+- [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+- [Digital Marketing Pro](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
+- [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -157,7 +161,7 @@ Create an agent whose adapter is claude_local. Claude Code must be installed and
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ### Quick Facts
 
-- **Pricing:** Freemium from $10/mo
+- **Pricing:** Freemium from €10/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **GitHub:** ★ 95890
 - **HQ:** EU
@@ -189,10 +193,6 @@ Workato
 
 Enterprise AI governance plus integration and automation on one platform
 
-Budibase
-
-Open-source operations platform for building AI agents, apps and automations on your own data
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -222,14 +222,14 @@ Open-source operations platform for building AI agents, apps and automations on 
         "price": 0,
         "priceCurrency": "EUR",
         "url": "https://paperclip.inc/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 10,
         "priceCurrency": "EUR",
         "url": "https://paperclip.inc/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -261,7 +261,8 @@ Open-source operations platform for building AI agents, apps and automations on 
         "name": "Paperclip",
         "item": "https://martechsignal.com/tools/paperclip/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/paperclip/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -36,6 +36,9 @@ AI now drafts sequence copy, predicts send times, and picks subject lines from h
 
 ## Tools in this space
 
+- [ActiveCampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 ## Related terms
 
 [Deliverability](/glossary/deliverability/) · [First-party data](/glossary/first-party-data/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing automation](/glossary/marketing-automation/) · [Marketing ops](/glossary/marketing-ops/)

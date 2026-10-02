@@ -149,6 +149,10 @@ An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Co
 
 ## Similar Tools
 
+- [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
+- [Smartly.io](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
+- [Northbeam](/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -192,10 +196,6 @@ Northbeam
 
 AI-powered multi-touch attribution and marketing intelligence for ecommerce
 
-advertools
-
-Python toolkit for SEO and advertising analysis in pandas DataFrames
-
 [More Advertising & Paid Media Tools →](/categories/advertising/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -224,7 +224,7 @@ Python toolkit for SEO and advertising analysis in pandas DataFrames
       "price": 49,
       "priceCurrency": "USD",
       "url": "https://bir.ch/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -255,7 +255,8 @@ Python toolkit for SEO and advertising analysis in pandas DataFrames
         "name": "Revealbot (Birch)",
         "item": "https://martechsignal.com/tools/revealbot/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/revealbot/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

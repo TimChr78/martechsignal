@@ -36,6 +36,9 @@ AI agents make journey orchestration practical at scale, sending the right messa
 
 ## Tools in this space
 
+- [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
+- [Mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 ## Related terms
 
 [ABM](/glossary/abm/) · [Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [CRM](/glossary/crm/)

@@ -132,6 +132,10 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 
 ## Similar Tools
 
+- [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
+- [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
+- [Mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
+- [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -205,14 +209,14 @@ AI-powered digital analytics platform for product and marketing teams
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://umami.is/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 20,
         "priceCurrency": "USD",
         "url": "https://umami.is/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -244,7 +248,8 @@ AI-powered digital analytics platform for product and marketing teams
         "name": "Umami",
         "item": "https://martechsignal.com/tools/umami/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/umami/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

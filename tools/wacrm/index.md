@@ -143,6 +143,10 @@ Automations and flows never run. The container schedules nothing internally, so 
 
 ## Similar Tools
 
+- [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
+- [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+- [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
+- [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
@@ -215,7 +219,7 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://wacrm.tech",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -246,7 +250,8 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
         "name": "WaCRM",
         "item": "https://martechsignal.com/tools/wacrm/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/wacrm/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

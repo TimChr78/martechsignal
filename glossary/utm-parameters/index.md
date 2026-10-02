@@ -36,6 +36,9 @@ AI models eat UTM data, so quality in, quality out. Agents that optimize channel
 
 ## Tools in this space
 
+- [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
+- [Mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
+- [Attribution](/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue
 ## Related terms
 
 [Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/)

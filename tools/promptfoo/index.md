@@ -124,6 +124,10 @@ The CLI generates attack probes against an application and reports findings. The
 
 ## Similar Tools
 
+- [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+- [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+- [Evertune](/tools/evertune/): GEO visibility measurement with content activation and a ChatGPT Ad Agent
 ## Related reading
 
 - [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
@@ -167,10 +171,6 @@ Evertune
 
 GEO visibility measurement with content activation and a ChatGPT Ad Agent
 
-Adobe LLM Optimizer
-
-Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -199,7 +199,7 @@ Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue att
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://www.promptfoo.dev/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -230,7 +230,8 @@ Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue att
         "name": "Promptfoo",
         "item": "https://martechsignal.com/tools/promptfoo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/promptfoo/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -109,6 +109,10 @@ Efficient social content factory for small brands; B2B nuance still needs a huma
 
 ## Similar Tools
 
+- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
+- [Buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools
+- [MultiPost](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -181,14 +185,14 @@ Browser extension to publish content to multiple social media platforms with one
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://predis.ai/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 19,
         "priceCurrency": "USD",
         "url": "https://predis.ai/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -220,7 +224,8 @@ Browser extension to publish content to multiple social media platforms with one
         "name": "Predis.ai",
         "item": "https://martechsignal.com/tools/predis-ai/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/predis-ai/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

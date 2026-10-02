@@ -114,6 +114,10 @@ The most complete open-source cold email stack we have listed, but young (launch
 
 ## Similar Tools
 
+- [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+- [Loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
@@ -159,10 +163,6 @@ Listmonk
 
 Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 
-Brevo
-
-Multichannel marketing platform billing by email volume, not contacts
-
 [More Email Marketing Tools →](/categories/email-marketing/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -192,14 +192,14 @@ Multichannel marketing platform billing by email volume, not contacts
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://warmbly.com/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-23"
       },
       {
         "@type": "Offer",
         "price": 29,
         "priceCurrency": "USD",
         "url": "https://warmbly.com/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-23"
       }
     ]
   },
@@ -231,7 +231,8 @@ Multichannel marketing platform billing by email volume, not contacts
         "name": "Warmbly",
         "item": "https://martechsignal.com/tools/warmbly/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/warmbly/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

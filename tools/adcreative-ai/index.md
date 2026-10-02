@@ -113,6 +113,10 @@ Buy it when ad volume is your bottleneck and speed matters. Skip it if your bran
 
 ## Similar Tools
 
+- [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
+- [Pencil](/tools/pencil/): AI-powered ad creative generation and performance prediction for paid media
+- [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -184,7 +188,7 @@ AI-powered Meta ads optimization and creative workflow
       "price": 20,
       "priceCurrency": "USD",
       "url": "https://www.adcreative.ai/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -215,7 +219,8 @@ AI-powered Meta ads optimization and creative workflow
         "name": "AdCreative.ai",
         "item": "https://martechsignal.com/tools/adcreative-ai/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/adcreative-ai/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

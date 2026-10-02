@@ -117,6 +117,10 @@ Plus receives limited access covering only Visibility Index data. Professional a
 
 ## Similar Tools
 
+- [Rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+- [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -182,7 +186,7 @@ Brand Radar tracks brand mentions and citations across AI answers, YouTube and R
       "price": 119,
       "priceCurrency": "EUR",
       "url": "https://www.sistrix.com/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -213,7 +217,8 @@ Brand Radar tracks brand mentions and citations across AI answers, YouTube and R
         "name": "SISTRIX",
         "item": "https://martechsignal.com/tools/sistrix/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/sistrix/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

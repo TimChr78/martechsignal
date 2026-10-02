@@ -116,6 +116,10 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 
 ## Similar Tools
 
+- [Loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
+- [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+- [Mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
+- [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -189,14 +193,14 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.notifuse.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 19,
         "priceCurrency": "USD",
         "url": "https://www.notifuse.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -228,7 +232,8 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
         "name": "Notifuse",
         "item": "https://martechsignal.com/tools/notifuse/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/notifuse/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

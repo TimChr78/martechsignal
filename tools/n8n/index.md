@@ -117,6 +117,10 @@ The right choice when you want owned automation with code-level control and no p
 
 ## Similar Tools
 
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+- [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
+- [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
+- [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -194,14 +198,14 @@ AI-powered integration platform for building custom automation and AI agents
         "price": 0,
         "priceCurrency": "EUR",
         "url": "https://n8n.io/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-26"
       },
       {
         "@type": "Offer",
         "price": 20,
         "priceCurrency": "EUR",
         "url": "https://n8n.io/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-26"
       }
     ]
   },
@@ -233,7 +237,8 @@ AI-powered integration platform for building custom automation and AI agents
         "name": "n8n",
         "item": "https://martechsignal.com/tools/n8n/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/n8n/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -126,6 +126,10 @@ Yes, and it is the platform's anchor module. The README lists employee time-trac
 
 ## Similar Tools
 
+- [NocoDB](/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
+- [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
+- [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
+- [Macro](/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
@@ -164,10 +168,6 @@ Macro
 
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
 
-Django CRM
-
-Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
-
 [More CRM Tools →](/categories/crm/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -197,14 +197,14 @@ Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://gauzy.co",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 17,
         "priceCurrency": "USD",
         "url": "https://gauzy.co",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -236,7 +236,8 @@ Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
         "name": "Ever Gauzy",
         "item": "https://martechsignal.com/tools/ever-gauzy/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/ever-gauzy/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -108,6 +108,10 @@ Good value for high-volume, template-driven content pipelines. Teams doing premi
 
 ## Similar Tools
 
+- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
+- [Copy.ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
+- [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
+- [Anyword](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content
 ## Related reading
 
 - [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
@@ -146,10 +150,6 @@ Anyword
 
 AI copywriting platform with predictive performance scores for marketing content
 
-Ghost
-
-Open-source publishing platform with built-in newsletters, memberships, and AI tools
-
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -179,14 +179,14 @@ Open-source publishing platform with built-in newsletters, memberships, and AI t
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://contentbot.ai/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 9,
         "priceCurrency": "USD",
         "url": "https://contentbot.ai/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -218,7 +218,8 @@ Open-source publishing platform with built-in newsletters, memberships, and AI t
         "name": "ContentBot",
         "item": "https://martechsignal.com/tools/contentbot/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/contentbot/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

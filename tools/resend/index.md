@@ -139,6 +139,10 @@ Yes, and it is one of the better-documented cases in email. Resend hosts an MCP 
 
 ## Similar Tools
 
+- [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [Postmark](/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers
+- [Loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
@@ -208,14 +212,14 @@ Email marketing for SaaS: marketing, product, and transactional email in one too
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://resend.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 20,
         "priceCurrency": "USD",
         "url": "https://resend.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -247,7 +251,8 @@ Email marketing for SaaS: marketing, product, and transactional email in one too
         "name": "Resend",
         "item": "https://martechsignal.com/tools/resend/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/resend/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

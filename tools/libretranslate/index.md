@@ -117,6 +117,10 @@ Anything that can call a REST API. Mastodon is the best-known example, where adm
 
 ## Similar Tools
 
+- [Strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
+- [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
+- [Chatwoot](/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting
+- [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -183,7 +187,7 @@ Open-source product analytics platform with session replay, feature flags, exper
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://libretranslate.com",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -214,7 +218,8 @@ Open-source product analytics platform with session replay, feature flags, exper
         "name": "LibreTranslate",
         "item": "https://martechsignal.com/tools/libretranslate/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/libretranslate/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

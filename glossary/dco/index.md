@@ -36,6 +36,8 @@ Generative AI removed the asset bottleneck: models can draft dozens of creative 
 
 ## Tools in this space
 
+- [AdCreative.ai](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
+- [Anyword](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content
 ## Related terms
 
 [AI content](/glossary/ai-content-generation/) · [DSP](/glossary/dsp/) · [Programmatic](/glossary/programmatic-advertising/)

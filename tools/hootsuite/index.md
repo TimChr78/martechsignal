@@ -108,6 +108,10 @@ The right call for multi-team, multi-brand social programs with governance needs
 
 ## Similar Tools
 
+- [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
+- [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
+- [Brandwatch](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform
+- [Buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
@@ -179,7 +183,7 @@ Simple social media scheduling and analytics with AI-powered content tools
       "price": 99,
       "priceCurrency": "USD",
       "url": "https://www.hootsuite.com/plans",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-26"
     }
   },
   {
@@ -210,7 +214,8 @@ Simple social media scheduling and analytics with AI-powered content tools
         "name": "Hootsuite",
         "item": "https://martechsignal.com/tools/hootsuite/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/hootsuite/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

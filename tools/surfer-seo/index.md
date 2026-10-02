@@ -112,6 +112,10 @@ Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a hu
 
 ## Similar Tools
 
+- [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
+- [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
+- [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
+- [Frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -155,10 +159,6 @@ Frase
 
 AI-powered SEO content platform for research, writing, and AI visibility tracking
 
-OpenSEO
-
-Open source alternative to Ahrefs and Semrush
-
 [More SEO & Search Tools →](/categories/seo/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -187,7 +187,7 @@ Open source alternative to Ahrefs and Semrush
       "price": 49,
       "priceCurrency": "USD",
       "url": "https://surferseo.com/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -218,7 +218,8 @@ Open source alternative to Ahrefs and Semrush
         "name": "Surfer SEO",
         "item": "https://martechsignal.com/tools/surfer-seo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/surfer-seo/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

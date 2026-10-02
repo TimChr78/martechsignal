@@ -2,6 +2,8 @@
 
 ## Best n8n alternatives (2026)
 
+Pick Make for visual scenario control, Zapier for the largest app catalog, or Pipedream for code-first steps. Stay on n8n when self-hosting and workflow-friendly billing decide it.
+
 n8n earns its users on control: fair-code licensing, self-hosting, code steps inside a visual canvas, and AI agent nodes that call language models inside a larger workflow. The teams that look for alternatives usually land on one of three gripes. The canvas gets heavy once a workflow runs long, debugging favors people who can read the execution data, and the connector library counts in nodes and community packages rather than the thousands of turnkey integrations SaaS catalogs advertise.
 
 The pricing shape explains a second wave of searches. Self-hosting is free under the sustainable use license, Cloud Starter runs about twenty euros a month, and heavier use moves to a per-execution meter. Teams that hit the ceiling usually did it with polling loops or chatty sub-workflows, where a task-metered or operations-metered rival bills the same workload differently, sometimes for less.
@@ -17,7 +19,7 @@ Last verified 2026-09-28.
 | --- | --- | --- | --- | --- |
 | [Make](/tools/make/) | Freemium from $9/mo | Contract | No | Visual builders who want scenario-level control and cheaper runs at moderate volume. |
 | [Zapier](/tools/zapier/) | Freemium from $19.99/mo | Task tiers, billed yearly | No | Teams that want the largest app catalog and the least setup per workflow. |
-| [Pipedream](/tools/pipedream/) | Freemium | Credits, monthly | No | Developers who want real code inside steps and a generous free tier to start. |
+| [Pipedream](/tools/pipedream/) | Freemium from $29/mo | Credits, monthly | No | Developers who want real code inside steps and a generous free tier to start. |
 | [Tray.io](/tools/tray-io/) | Enterprise | Contract, usage-based | No | Enterprises that want one iPaaS for marketing, RevOps, and IT with pro-code escape hatches. |
 | [Workato](/tools/workato/) | Enterprise | Contract, usage-based | No | Large orgs standardizing automation across departments with governance and AI add-ons. |
 | [Activepieces](/tools/activepieces/) | Freemium from $20/mo | Contract | Yes | Teams that want no-code automation with an open-source (MIT) core and affordable cloud plans. |
@@ -54,7 +56,7 @@ Zapier trades cost for breadth: the widest catalog, metered per task. Catalog pr
 
 ## [Pipedream as a n8n alternative](/tools/pipedream/)
 
-Freemium
+Freemium from $29/mo
 
 Vendor: [Official site](https://pipedream.com) · [Pricing](https://pipedream.com/pricing)
 
@@ -369,7 +371,8 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
         "name": "n8n alternatives",
         "item": "https://martechsignal.com/alternatives/n8n/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/alternatives/n8n/#breadcrumb"
   }
 ]
 ```

@@ -143,6 +143,10 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 
 ## Similar Tools
 
+- [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
+- [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
+- [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
+- [Snowplow](/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
@@ -187,10 +191,6 @@ Snowplow
 
 Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
 
-Triple Whale
-
-AI-powered ecommerce analytics and attribution platform for DTC brands
-
 Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 
 [More Analytics & Attribution Tools →](/categories/analytics/)
@@ -221,7 +221,7 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://mixpanel.com/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-05"
     }
   },
   {
@@ -252,7 +252,8 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
         "name": "Mixpanel",
         "item": "https://martechsignal.com/tools/mixpanel/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/mixpanel/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

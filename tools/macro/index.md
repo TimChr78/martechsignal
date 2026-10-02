@@ -141,6 +141,10 @@ Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focu
 
 ## Similar Tools
 
+- [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
+- [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
+- [Paperclip](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+- [Eve Marketing Team Template](/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -181,10 +185,6 @@ Eve Marketing Team Template
 
 Open-source team of marketing agents on eve: lead, content, social, SEO, email
 
-Cordys CRM
-
-Open-source AI CRM with built-in agents, conversational analytics, and private deployment
-
 [More CRM Tools →](/categories/crm/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -213,7 +213,7 @@ Open-source AI CRM with built-in agents, conversational analytics, and private d
       "price": 40,
       "priceCurrency": "USD",
       "url": "https://macro.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -244,7 +244,8 @@ Open-source AI CRM with built-in agents, conversational analytics, and private d
         "name": "Macro",
         "item": "https://martechsignal.com/tools/macro/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/macro/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

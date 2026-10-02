@@ -36,6 +36,9 @@ The recursion problem is live: models trained on generated content degrade, and 
 
 ## Tools in this space
 
+- [Anyword](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content
+- [ALwrity](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
+- [AdCreative.ai](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
 ## Related terms
 
 [DSP](/glossary/dsp/) · [DCO](/glossary/dco/) · [Programmatic](/glossary/programmatic-advertising/) · [SEO](/glossary/seo/)

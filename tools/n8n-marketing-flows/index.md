@@ -110,6 +110,10 @@ The largest verified free template pack for n8n marketing automation, with a gen
 
 ## Similar Tools
 
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+- [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -149,10 +153,6 @@ Predis.ai
 
 AI-powered social media content generator for posts, videos, and ad creatives
 
-Paperclip
-
-Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -181,7 +181,7 @@ Open-source control plane to manage AI agents like a company, hire, schedule, bu
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/YuriCrystal/n8n-marketing-flows",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-29"
     }
   },
   {
@@ -212,7 +212,8 @@ Open-source control plane to manage AI agents like a company, hire, schedule, bu
         "name": "n8n Marketing Flows",
         "item": "https://martechsignal.com/tools/n8n-marketing-flows/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/n8n-marketing-flows/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

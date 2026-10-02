@@ -131,6 +131,10 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 
 ## Similar Tools
 
+- [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
+- [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
+- [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+- [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
@@ -171,10 +175,6 @@ Intercom
 
 AI-first customer service platform with Fin AI agent and omnichannel messaging
 
-AI Business Skills
-
-63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-
 [More Agent Skills Tools →](/categories/agent-skills/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -203,7 +203,7 @@ AI Business Skills
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://www.openmercato.com/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -234,7 +234,8 @@ AI Business Skills
         "name": "Open Mercato",
         "item": "https://martechsignal.com/tools/open-mercato/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/open-mercato/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

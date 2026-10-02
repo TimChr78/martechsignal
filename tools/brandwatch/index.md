@@ -109,6 +109,10 @@ The listening leader for enterprise consumer-intelligence teams. Posting-only te
 
 ## Similar Tools
 
+- [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
+- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
+- [MultiPost](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -204,7 +208,8 @@ Browser extension to publish content to multiple social media platforms with one
         "name": "Brandwatch",
         "item": "https://martechsignal.com/tools/brandwatch/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/brandwatch/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

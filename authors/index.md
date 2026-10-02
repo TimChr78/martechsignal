@@ -4,6 +4,7 @@
 
 Who writes MartechSignal, and what the hands-on test standard is.
 
+- [Tim Christensen](/authors/tim-christensen/): Founder. Writes the tool teardowns and the automation audits. Roughly 19 years in marketing technology, currently working in MarTech and platform product ownership.
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 Tim Christensen
@@ -46,7 +47,7 @@ Founder. Writes the tool teardowns and the automation audits. Roughly 19 years i
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/authors/", "breadcrumb": {"@id": "https://martechsignal.com/authors/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/authors/", "breadcrumb": {"@id": "https://martechsignal.com/authors/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

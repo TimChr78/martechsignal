@@ -138,6 +138,10 @@ Self-hosting is free under AGPL-3.0 with unlimited users and records on your own
 
 ## Similar Tools
 
+- [Django CRM](/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [Paperclip](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+- [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
@@ -206,14 +210,14 @@ MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://relaticle.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 19,
         "priceCurrency": "USD",
         "url": "https://relaticle.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -245,7 +249,8 @@ MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
         "name": "Relaticle",
         "item": "https://martechsignal.com/tools/relaticle/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/relaticle/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -125,6 +125,10 @@ As a fresh installation, not an in-place patch. The docs require the latest 7.x 
 
 ## Similar Tools
 
+- [Django CRM](/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
+- [EspoCRM](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management
+- [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+- [Krayin CRM](/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -198,7 +202,7 @@ Free open-source Laravel CRM for SMEs and enterprises with full customer lifecyc
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://www.suitecrm.com",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -229,7 +233,8 @@ Free open-source Laravel CRM for SMEs and enterprises with full customer lifecyc
         "name": "SuiteCRM",
         "item": "https://martechsignal.com/tools/suitecrm/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/suitecrm/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

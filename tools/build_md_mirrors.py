@@ -49,6 +49,11 @@ def html_to_md(html: str) -> str:
         _events.append((dlm.start(), dlm.end(), "dl", dlm))
     for m2 in re.finditer(r"<(h1|h2|h3|h4|p|li|blockquote|figcaption)[^>]*>(.*?)</\1>", src, flags=re.S):
         _events.append((m2.start(), m2.end(), "flow", m2))
+    # r21 M-8 (2026-10-02): card grids (glossary index, hubs) carry their
+    # content in nested divs the flow pass cannot see - emit cards as
+    # linked bullets in document order instead of dropping them.
+    for cm in re.finditer(r'<a class="tool-card" href="([^"]+)">(.*?)</a>', src, flags=re.S):
+        _events.append((cm.start(), cm.end(), "card", cm))
     _events.sort(key=lambda e: (e[0], -(e[1] - e[0])))
     _covered_until = -1
     for _start, _end, _kind, _m in _events:
@@ -73,6 +78,15 @@ def html_to_md(html: str) -> str:
             for dt in re.finditer(r"<dt[^>]*>(.*?)</dt>\s*<dd[^>]*>(.*?)</dd>", _m.group(1), flags=re.S):
                 out += [f"- **{inline(dt.group(1))}:** {inline(dt.group(2))}"]
             out += [""]
+            _covered_until = _end
+        elif _kind == "card":
+            _cn = re.search(r'<div class="name"[^>]*>(.*?)</div>', _m.group(2), flags=re.S)
+            _ct = re.search(r'<div class="tagline"[^>]*>(.*?)</div>', _m.group(2), flags=re.S)
+            _clabel = inline(_cn.group(1)) if _cn else _m.group(1).strip("/").split("/")[-1]
+            _cline = f"- [{_clabel}]({_m.group(1)})"
+            if _ct and inline(_ct.group(1)):
+                _cline += f": {inline(_ct.group(1))}"
+            out += [_cline]
             _covered_until = _end
         else:
             tag, inner = _m.group(1), _m.group(2)

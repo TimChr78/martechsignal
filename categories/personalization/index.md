@@ -11,28 +11,17 @@ Customer data platforms, experimentation, and experience engines, from open-sour
 
 ## All tools in this category**
 
-### Apache Unomi
-
-### Clerk.io
-
-### Dynamic Yield
-
-### Flagsmith
-
-### GrowthBook
-
-### Hightouch
-
-### Jitsu
-
-### Nosto
-
-### RudderStack
-
-### Tealium
-
-### Twilio Segment
-
+- [apache-unomi](/tools/apache-unomi/): Apache's open-source customer data platform and personalization engine
+- [clerk-io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
+- [dynamic-yield](/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences
+- [flagsmith](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting
+- [growthbook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
+- [hightouch](/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs
+- [jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
+- [nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
+- [rudderstack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
+- [tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
 **Compare:** [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) · [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/)
 
 ## Key terms

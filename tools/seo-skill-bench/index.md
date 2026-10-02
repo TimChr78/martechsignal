@@ -91,6 +91,10 @@ Strengths include 51 GitHub stars, MIT licensing with free self-hosting. SEO Ski
 
 ## Similar Tools
 
+- [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+- [Digital Marketing Pro](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
+- [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
+- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -129,10 +133,6 @@ AI Business Skills
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
-Claude Ads
-
-Paid-media operations skill for Claude Code covering 12 ad platforms
-
 [More Agent Skills Tools →](/categories/agent-skills/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -161,7 +161,7 @@ Paid-media operations skill for Claude Code covering 12 ad platforms
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://seoagent.com/seo-skill-benchmark",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-02"
     }
   },
   {
@@ -192,7 +192,8 @@ Paid-media operations skill for Claude Code covering 12 ad platforms
         "name": "SEO Skill Bench",
         "item": "https://martechsignal.com/tools/seo-skill-bench/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/seo-skill-bench/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

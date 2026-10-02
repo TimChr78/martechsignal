@@ -114,6 +114,10 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 
 ## Similar Tools
 
+- [Klaviyo](/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
+- [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+- [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
+- [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -160,10 +164,6 @@ Brevo
 
 Multichannel marketing platform billing by email volume, not contacts
 
-OpenOutreach
-
-Open-source AI lead finder: describe your product and it finds and qualifies the leads
-
 Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 
 [More Email Marketing Tools →](/categories/email-marketing/)
@@ -195,14 +195,14 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://mailchimp.com/pricing/marketing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 13,
         "priceCurrency": "USD",
         "url": "https://mailchimp.com/pricing/marketing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -234,7 +234,8 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
         "name": "Mailchimp",
         "item": "https://martechsignal.com/tools/mailchimp/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/mailchimp/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

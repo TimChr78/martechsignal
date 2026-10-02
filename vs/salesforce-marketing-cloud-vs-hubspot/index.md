@@ -44,7 +44,7 @@ Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing
 | Cost basis | Per-org bundles billed annually, plus add-ons | Per seat and hub tier |
 | Free tier | None; pricing runs through sales | Free CRM forever |
 | Entry paid | Marketing Cloud Next Growth $1,500/mo billed annually; Starter $25/user/mo for smaller setups | Marketing Hub Starter $20/mo |
-| At 1,000 contacts | Contact volume rides inside the org bundle (Growth $1,500/mo). Personalization is $8/mo extra as an add-on, and AI features price separately. | 1,000 contacts fits Starter at $20/mo. Professional at $890/mo is where serious automation and attribution live. |
+| At 1,000 contacts | Contact volume rides inside the org bundle (Growth $1,500/mo). Personalization is $8,000/mo extra as an add-on, and AI features price separately. | 1,000 contacts fits Starter at $20/mo. Professional at $890/mo is where serious automation and attribution live. |
 | Checked | 2026-09-27 | 2026-09-27 |
 
 ## Positioning

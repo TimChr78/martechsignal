@@ -125,6 +125,10 @@ Yes. Unlike most enterprise GEO platforms, Trakkr lists plan prices openly; cust
 
 ## Similar Tools
 
+- [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+- [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+- [Writesonic](/tools/writesonic/): The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -195,7 +199,7 @@ The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one p
       "price": 100,
       "priceCurrency": "USD",
       "url": "https://trakkr.ai/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -226,7 +230,8 @@ The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one p
         "name": "Trakkr",
         "item": "https://martechsignal.com/tools/trakkr/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/trakkr/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

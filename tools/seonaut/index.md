@@ -127,6 +127,10 @@ On core technical auditing, more than you might expect: broken links, redirect c
 
 ## Similar Tools
 
+- [OpenSEO](/tools/openseo/): Open source alternative to Ahrefs and Semrush
+- [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+- [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
+- [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 ## Related reading
 
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
@@ -167,10 +171,6 @@ Salesforce Marketing Cloud
 
 Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 
-MarketMuse
-
-AI-powered content strategy and optimization platform for SEO content teams
-
 [More SEO & Search Tools →](/categories/seo/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -200,14 +200,14 @@ AI-powered content strategy and optimization platform for SEO content teams
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://seonaut.org/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 9,
         "priceCurrency": "USD",
         "url": "https://seonaut.org/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -239,7 +239,8 @@ AI-powered content strategy and optimization platform for SEO content teams
         "name": "Seonaut",
         "item": "https://martechsignal.com/tools/seonaut/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/seonaut/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

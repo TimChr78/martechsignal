@@ -130,6 +130,10 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 
 ## Similar Tools
 
+- [SuiteCRM](/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation
+- [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
+- [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+- [EspoCRM](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
@@ -168,10 +172,6 @@ EspoCRM
 
 Lightweight open-source CRM with sales automation, marketing tools, and customer management
 
-Freshsales
-
-AI-powered CRM with built-in phone, email, and chat for sales teams
-
 [More CRM Tools →](/categories/crm/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -200,7 +200,7 @@ AI-powered CRM with built-in phone, email, and chat for sales teams
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://bottlecrm.io",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-05"
     }
   },
   {
@@ -231,7 +231,8 @@ AI-powered CRM with built-in phone, email, and chat for sales teams
         "name": "Django CRM",
         "item": "https://martechsignal.com/tools/django-crm/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/django-crm/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

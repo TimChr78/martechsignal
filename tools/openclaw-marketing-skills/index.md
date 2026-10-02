@@ -109,6 +109,10 @@ Solid add-on pack for agent stacks; thin as a primary playbook source.
 
 ## Similar Tools
 
+- [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+- [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+- [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
+- [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -181,7 +185,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/LeoYeAI/openclaw-marketing-skills",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -212,7 +216,8 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
         "name": "OpenClaw Marketing Skills",
         "item": "https://martechsignal.com/tools/openclaw-marketing-skills/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

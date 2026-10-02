@@ -36,6 +36,7 @@ DSPs now advertise autonomous bidding agents that manage campaigns without human
 
 ## Tools in this space
 
+- [AdCreative.ai](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
 ## Related terms
 
 [AI content](/glossary/ai-content-generation/) · [DCO](/glossary/dco/) · [Programmatic](/glossary/programmatic-advertising/)

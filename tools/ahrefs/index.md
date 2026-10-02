@@ -120,6 +120,10 @@ The Index covers AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot.
 
 ## Similar Tools
 
+- [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+- [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+- [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+- [Writesonic](/tools/writesonic/): The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -190,7 +194,7 @@ The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one p
       "price": 129,
       "priceCurrency": "USD",
       "url": "https://ahrefs.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -221,7 +225,8 @@ The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one p
         "name": "Ahrefs",
         "item": "https://martechsignal.com/tools/ahrefs/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/ahrefs/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -113,6 +113,10 @@ The right platform for large retailers consolidating search, CDP, and messaging.
 
 ## Similar Tools
 
+- [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
+- [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
+- [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
+- [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
@@ -208,7 +212,8 @@ AI-powered ecommerce personalization with search, recommendations, and email
         "name": "Bloomreach",
         "item": "https://martechsignal.com/tools/bloomreach/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/bloomreach/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

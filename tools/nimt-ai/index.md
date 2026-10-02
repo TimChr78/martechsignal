@@ -127,6 +127,10 @@ No. The agent drafts content, page fixes, and outreach, and you approve changes 
 
 ## Similar Tools
 
+- [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+- [Rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+- [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+- [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -197,7 +201,7 @@ Enterprise AI marketing platform: answer-engine visibility plus drafting agents
       "price": 79,
       "priceCurrency": "EUR",
       "url": "https://www.nimt.ai/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -228,7 +232,8 @@ Enterprise AI marketing platform: answer-engine visibility plus drafting agents
         "name": "Nimt.ai",
         "item": "https://martechsignal.com/tools/nimt-ai/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/nimt-ai/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

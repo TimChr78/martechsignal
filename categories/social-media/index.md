@@ -11,18 +11,12 @@ Social scheduling, listening, and analytics, from per-channel schedulers to ente
 
 ## All tools in this category**
 
-### Brandwatch
-
-### Buffer
-
-### Hootsuite
-
-### MultiPost
-
-### Predis.ai
-
-### Sprout Social
-
+- [brandwatch](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform
+- [buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools
+- [hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [multipost-extension](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click
+- [predis-ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
+- [sprout-social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
 **Compare:** [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/)
 
 ## Key terms

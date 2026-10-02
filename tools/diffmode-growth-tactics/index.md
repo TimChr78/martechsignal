@@ -105,6 +105,10 @@ A clever use of coding agents for growth ideation with a real anti-generic mecha
 
 ## Similar Tools
 
+- [Growth Lab](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
+- [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+- [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -172,7 +176,7 @@ AI Business Skills
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/acogood/diffmode_free",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-29"
     }
   },
   {
@@ -203,7 +207,8 @@ AI Business Skills
         "name": "Diffmode Growth Tactics",
         "item": "https://martechsignal.com/tools/diffmode-growth-tactics/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

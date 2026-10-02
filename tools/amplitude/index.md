@@ -141,6 +141,10 @@ Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashb
 
 ## Similar Tools
 
+- [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
+- [Mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
+- [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
+- [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -215,7 +219,7 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://amplitude.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -246,7 +250,8 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
         "name": "Amplitude",
         "item": "https://martechsignal.com/tools/amplitude/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/amplitude/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

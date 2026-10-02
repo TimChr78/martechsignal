@@ -147,6 +147,10 @@ Zapier fits single-task automations owned by individuals. Tray fits programs: mu
 
 ## Similar Tools
 
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+- [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
@@ -242,7 +246,8 @@ No-code automation platform connecting 9,000+ apps with AI-powered workflows
         "name": "Tray.io",
         "item": "https://martechsignal.com/tools/tray-io/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/tray-io/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

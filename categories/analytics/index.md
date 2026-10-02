@@ -11,32 +11,21 @@ Analytics and attribution tools: event tracking, funnels, and what multi-touch c
 
 ## PRODUCT BEHAVIOR***5*
 
-### Amplitude
-
-### Heap
-
-### Mixpanel
-
-### PostHog
-
-### Snowplow
-
+- [amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
+- [heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
+- [mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
+- [posthog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
+- [snowplow](/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
 ## AD SPEND ATTRIBUTION***3*
 
-### Attribution
-
-### Northbeam
-
-### Triple Whale
-
+- [attribution](/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue
+- [northbeam](/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce
+- [triple-whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
 ## SELF-HOSTED WEB ANALYTICS***3*
 
-### Matomo
-
-### Plausible Analytics
-
-### Umami
-
+- [matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
+- [plausible](/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
+- [umami](/tools/umami/): Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps
 **Compare:** [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) · [Matomo vs PostHog](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/) · [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 
 ## Key terms

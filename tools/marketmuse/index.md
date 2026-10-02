@@ -139,6 +139,10 @@ A query is spent when you enter a focus topic into one of the applications (Rese
 
 ## Similar Tools
 
+- [Surfer SEO](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
+- [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
+- [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
+- [Frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -176,10 +180,6 @@ All-in-one SEO and digital marketing platform with AI-powered insights and tools
 Frase
 
 AI-powered SEO content platform for research, writing, and AI visibility tracking
-
-Superlines
-
-AI Search Intelligence platform for brands and agencies
 
 [More SEO & Search Tools →](/categories/seo/)
 
@@ -233,7 +233,8 @@ AI Search Intelligence platform for brands and agencies
         "name": "MarketMuse",
         "item": "https://martechsignal.com/tools/marketmuse/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/marketmuse/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

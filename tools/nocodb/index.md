@@ -143,6 +143,10 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 
 ## Similar Tools
 
+- [Ever Gauzy](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking
+- [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+- [Line Harness](/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
+- [Appsmith](/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
 ## Related reading
 
 - [Where NocoDB sits against NocoBase and Budibase](/blog/nocobase-vs-nocodb-vs-budibase/)
@@ -187,10 +191,6 @@ Appsmith
 
 Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
 
-Mautic
-
-Open-source marketing automation platform with email, campaigns, and lead management
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -220,14 +220,14 @@ Open-source marketing automation platform with email, campaigns, and lead manage
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://nocodb.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 12,
         "priceCurrency": "USD",
         "url": "https://nocodb.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -259,7 +259,8 @@ Open-source marketing automation platform with email, campaigns, and lead manage
         "name": "NocoDB",
         "item": "https://martechsignal.com/tools/nocodb/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/nocodb/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

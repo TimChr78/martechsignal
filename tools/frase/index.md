@@ -154,6 +154,10 @@ We found no Surfer integration in Frase's integrations page or docs index; Surfe
 
 ## Similar Tools
 
+- [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
+- [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
+- [Surfer SEO](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
+- [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -223,7 +227,7 @@ AI-powered content strategy and optimization platform for SEO content teams
       "price": 39,
       "priceCurrency": "USD",
       "url": "https://www.frase.io/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -254,7 +258,8 @@ AI-powered content strategy and optimization platform for SEO content teams
         "name": "Frase",
         "item": "https://martechsignal.com/tools/frase/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/frase/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

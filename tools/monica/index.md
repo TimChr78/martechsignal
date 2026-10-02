@@ -138,6 +138,10 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 
 ## Similar Tools
 
+- [Ever Gauzy](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking
+- [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM
+- [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
+- [Warpdrive](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
 ## Related reading
 
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
@@ -181,10 +185,6 @@ Warpdrive
 
 Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
 
-HubSpot CRM
-
-Free AI-powered CRM platform with sales, service, and marketing tools unified
-
 [More CRM Tools →](/categories/crm/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -214,14 +214,14 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://monicahq.com",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 9,
         "priceCurrency": "USD",
         "url": "https://monicahq.com",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -253,7 +253,8 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
         "name": "Monica",
         "item": "https://martechsignal.com/tools/monica/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/monica/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

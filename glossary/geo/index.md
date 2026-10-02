@@ -20,6 +20,8 @@ A generative engine reads a question, retrieves a small set of candidate sources
 
 ## Tools in this space
 
+- [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [Trakkr](/tools/trakkr/): AI visibility platform for brands and agencies: citations, perception, competitors
 Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https://developers.google.com/search/docs) · [Profound](https://www.tryprofound.com/) · [Trakkr](https://trakkr.ai/)
 
 ### Categories

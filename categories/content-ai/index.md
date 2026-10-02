@@ -11,32 +11,19 @@ AI copywriting, message optimization, and publishing platforms, from per-seat ge
 
 ## All tools in this category**
 
-### Anyword
-
-### ContentBot
-
-### Copy.ai
-
-### Ghost
-
-### Hypotenuse AI
-
-### Jasper
-
-### Khoj
-
-### LanguageTool
-
-### LibreTranslate
-
-### Persado
-
-### Phrasee
-
-### Strapi
-
-### Writer
-
+- [anyword](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content
+- [contentbot](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
+- [copy-ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
+- [ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
+- [hypotenuse-ai](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
+- [jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
+- [khoj](/tools/khoj/): Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
+- [languagetool](/tools/languagetool/): Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
+- [libretranslate](/tools/libretranslate/): Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
+- [persado](/tools/persado/): AI content creation and optimization platform for regulated financial services marketing
+- [phrasee](/tools/phrasee/): AI messaging content platform; rebranded as Jacquard in June 2024
+- [strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
+- [writer](/tools/writer/): Enterprise AI platform with Palmyra models, brand governance, and agents
 **Compare:** [Jasper vs Writer](/vs/jasper-vs-writer/) · [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) · **Guide:** [AI SEO tooling hub](/guides/ai-seo-tooling/)
 
 ## Key terms

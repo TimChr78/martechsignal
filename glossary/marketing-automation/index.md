@@ -36,6 +36,10 @@ AI moved automation from if-then rules to goal-based prompts. You state the outc
 
 ## Tools in this space
 
+- [ActiveCampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
+- [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [Adobe Marketo Engage](/tools/adobe-marketo/): Enterprise B2B marketing automation with AI-driven lead management and engagement
 ## Related terms
 
 [ABM](/glossary/abm/) · [Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [Deliverability](/glossary/deliverability/) · [Email sequence](/glossary/email-sequence/)

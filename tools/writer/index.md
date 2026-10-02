@@ -147,6 +147,10 @@ Published in the developer docs: Palmyra X6 at $2 per million input tokens and $
 
 ## Similar Tools
 
+- [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
+- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
+- [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
@@ -190,10 +194,6 @@ AI marketing content platform for creating on-brand copy, images, and campaigns
 Intercom
 
 AI-first customer service platform with Fin AI agent and omnichannel messaging
-
-LanguageTool
-
-Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
 
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
 
@@ -247,7 +247,8 @@ Open-source writing assistant and grammar checker with AI style and tone suggest
         "name": "Writer",
         "item": "https://martechsignal.com/tools/writer/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/writer/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

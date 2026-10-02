@@ -11,28 +11,19 @@ Advertising and paid media tools: creative generators, bid platforms, automation
 
 ## CREATIVE GENERATION***2*
 
-### AdCreative.ai
-
-### Pencil
-
+- [adcreative-ai](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
+- [pencil](/tools/pencil/): AI-powered ad creative generation and performance prediction for paid media
 ## OPTIMIZATION AND AUTOMATION***5*
 
-### Albert AI
-
-### Madgicx
-
-### Opteo
-
-### Revealbot (Birch)
-
-### Smartly.io
-
+- [albert-ai](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
+- [opteo](/tools/opteo/): Continuous Google Ads monitoring with one-click improvements
+- [revealbot](/tools/revealbot/): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
+- [smartly-io](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
 ## OPEN-SOURCE AD TOOLING***2*
 
-### advertools
-
-### Revive Adserver
-
+- [advertools](/tools/advertools/): Python toolkit for SEO and advertising analysis in pandas DataFrames
+- [revive-adserver](/tools/revive-adserver/): Free open source ad server for publishers, ad networks and advertisers
 **Compare:** [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) · **Guide:** [Agentic advertising](/guides/agentic-ai-advertising/)
 
 ## Key terms
@@ -200,7 +191,7 @@ Microsoft's AI campaign automation takes the operator out of search buying
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 9,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -317,7 +308,7 @@ Microsoft's AI campaign automation takes the operator out of search buying
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/advertising/", "breadcrumb": {"@id": "https://martechsignal.com/categories/advertising/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/advertising/", "breadcrumb": {"@id": "https://martechsignal.com/categories/advertising/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

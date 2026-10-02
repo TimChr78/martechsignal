@@ -86,8 +86,15 @@ def pricing_label(t):
     # r20 M-5 (2026-10-02): a model label alone is not a price - append the
     # known paid entry so comparison columns carry numbers, not just labels.
     if m == "freemium":
-        if _pf not in (None, 0):
-            return "Freemium from $" + str(_pf) + "/mo"
+        # r21 M-2 (2026-10-02): the record's own number disproving a
+        # label-only cell (pipedream price_from 29 rendering "Freemium").
+        # Entry figure prefers paid_from, falls back to a nonzero price_from.
+        _entry = _pf if _pf not in (None, 0) else (t.get("price_from") if (t.get("price_from") or 0) > 0 else None)
+        if _entry is not None:
+            # r13 H-2 pattern (2026-09-29): symbol from record.currency -
+            # r21 H-2 (2026-10-02) caught this label hardcoding $ on EUR records.
+            _sym = "€" if str(t.get("currency") or "").upper() == "EUR" else "$"
+            return "Freemium from " + _sym + str(_entry) + "/mo"
         return "Freemium"
     if m == "open-source": return "Open Source"
     if m == "enterprise": return "Enterprise"
@@ -585,7 +592,14 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
             canonical = '/' + canonical
     og_url = og_image or "og.png"
     schema_block = ""
+    # r21 M-5 (2026-10-02): caller-passed BreadcrumbLists carried no @id while
+    # WebPage.breadcrumb references {page}#breadcrumb on 293 pages. Name every
+    # BreadcrumbList for its own canonical here - one place, all emitters.
     if schema_json:
+        _nodes = schema_json if isinstance(schema_json, list) else schema_json.get("@graph", [schema_json])
+        for _nd in _nodes:
+            if isinstance(_nd, dict) and _nd.get("@type") == "BreadcrumbList" and "@id" not in _nd:
+                _nd["@id"] = f"https://martechsignal.com{canonical}#breadcrumb"
         schema_block = f'<script type="application/ld+json">{json.dumps(schema_json, indent=2)}</script>'
     # A3 M-2 (2026-09-27): the breadcrumb tag lives in the base template now, so
     # every page that renders a trail also ships a BreadcrumbList (four pages had
@@ -1100,7 +1114,16 @@ def _offer_for(t):
     _url = str(t.get("pricing_url") or t.get("website") or "https://martechsignal.com")
     # A2 M5 (2026-09-26): availability dropped - software has no stock. priceValidUntil
     # added on a conservative horizon (quarterly price re-verification cadence).
+    # r21 M-6 (2026-10-02): the hardcoded 2026-12-31 made all Offers expire at
+    # once. Derive per-record: verification date + 90 days (the re-check
+    # cadence), so validity spreads with actual freshness.
     _pvu = "2026-12-31"
+    try:
+        import datetime as _dt1
+        _du = str(t.get("date_updated") or "")[:10]
+        _pvu = (_dt1.datetime.strptime(_du, "%Y-%m-%d") + _dt1.timedelta(days=90)).strftime("%Y-%m-%d")
+    except (ValueError, TypeError):
+        pass
     def _offer(price):
         return {"@type": "Offer", "price": price, "priceCurrency": _cur,
                 "url": _url, "priceValidUntil": _pvu}

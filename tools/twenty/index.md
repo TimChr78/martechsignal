@@ -142,6 +142,10 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 
 ## Similar Tools
 
+- [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+- [Warpdrive](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
@@ -188,10 +192,6 @@ Budibase
 
 Open-source operations platform for building AI agents, apps and automations on your own data
 
-Attio
-
-AI-native CRM with real-time data enrichment and agentic revenue workflows
-
 [More CRM Tools →](/categories/crm/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -221,14 +221,14 @@ AI-native CRM with real-time data enrichment and agentic revenue workflows
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://twenty.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 9,
         "priceCurrency": "USD",
         "url": "https://twenty.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -260,7 +260,8 @@ AI-native CRM with real-time data enrichment and agentic revenue workflows
         "name": "Twenty",
         "item": "https://martechsignal.com/tools/twenty/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/twenty/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

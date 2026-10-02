@@ -112,6 +112,10 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 
 ## Similar Tools
 
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
+- [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
+- [Paperclip](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -152,10 +156,6 @@ Paperclip
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
-Make
-
-Visual automation platform for building complex workflows with AI agents and apps
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -185,14 +185,14 @@ Visual automation platform for building complex workflows with AI agents and app
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.langchain.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 39,
         "priceCurrency": "USD",
         "url": "https://www.langchain.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -224,7 +224,8 @@ Visual automation platform for building complex workflows with AI agents and app
         "name": "LangChain",
         "item": "https://martechsignal.com/tools/langchain/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/langchain/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

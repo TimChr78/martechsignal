@@ -40,6 +40,9 @@ AI now writes test variants, picks winning combinations, and personalizes pages 
 
 ## Tools in this space
 
+- [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
+- [Mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
+- [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
 ## Related terms
 
 [Attribution models](/glossary/marketing-attribution-models/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/) · [First-party data](/glossary/first-party-data/)

@@ -125,6 +125,10 @@ No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent
 
 ## Similar Tools
 
+- [Rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+- [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+- [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+- [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -219,7 +223,8 @@ Brand Radar tracks brand mentions and citations across AI answers, YouTube and R
         "name": "Profound",
         "item": "https://martechsignal.com/tools/profound/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/profound/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

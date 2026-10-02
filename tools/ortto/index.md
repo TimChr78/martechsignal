@@ -151,6 +151,10 @@ Yes. Authentication uses a custom API key that you configure as a data source an
 
 ## Similar Tools
 
+- [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
+- [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
@@ -194,10 +198,6 @@ Salesforce Marketing Cloud
 
 Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 
-Bloomreach
-
-AI-powered commerce experience platform with search, personalization, and CDP
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -226,7 +226,7 @@ AI-powered commerce experience platform with search, personalization, and CDP
       "price": 199,
       "priceCurrency": "USD",
       "url": "https://ortto.com/starter/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -257,7 +257,8 @@ AI-powered commerce experience platform with search, personalization, and CDP
         "name": "Ortto",
         "item": "https://martechsignal.com/tools/ortto/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/ortto/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

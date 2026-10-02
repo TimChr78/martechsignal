@@ -112,6 +112,10 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 
 ## Similar Tools
 
+- [Eve Marketing Team Template](/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email
+- [AI Marketing Suite](/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports
+- [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+- [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -156,10 +160,6 @@ Aaron Marketing Skills
 
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 
-Analytics Tracking Automation
-
-AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
-
 [More Agent Skills Tools →](/categories/agent-skills/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -188,7 +188,7 @@ AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/CosmoBlk/email-marketing-bible",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -219,7 +219,8 @@ AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
         "name": "Email Marketing Bible",
         "item": "https://martechsignal.com/tools/email-marketing-bible/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/email-marketing-bible/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

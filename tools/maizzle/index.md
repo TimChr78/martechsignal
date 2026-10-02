@@ -115,6 +115,10 @@ Both paths are documented on the docs site as migration guides, alongside deploy
 
 ## Similar Tools
 
+- [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+- [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
+- [Loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
+- [Twilio SendGrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
@@ -157,10 +161,6 @@ Twilio SendGrid
 
 Scalable email delivery API with AI-powered deliverability and engagement tools
 
-Warmbly
-
-Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
-
 [More Email Marketing Tools →](/categories/email-marketing/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -189,7 +189,7 @@ Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://maizzle.com",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -220,7 +220,8 @@ Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
         "name": "Maizzle",
         "item": "https://martechsignal.com/tools/maizzle/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/maizzle/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -109,6 +109,10 @@ Solid modular pick for mid-size stores with traffic to feed the models. Thin cat
 
 ## Similar Tools
 
+- [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
+- [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
+- [Dynamic Yield](/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -180,7 +184,7 @@ AI-powered personalization platform for web, mobile, and email experiences
       "price": 119,
       "priceCurrency": "USD",
       "url": "https://www.clerk.io/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -211,7 +215,8 @@ AI-powered personalization platform for web, mobile, and email experiences
         "name": "Clerk.io",
         "item": "https://martechsignal.com/tools/clerk-io/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/clerk-io/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

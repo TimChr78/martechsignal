@@ -110,6 +110,10 @@ A strong specialist for bulk product catalog content at scale. General writing n
 
 ## Similar Tools
 
+- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
+- [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
+- [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
+- [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -153,10 +157,6 @@ Nosto
 
 AI-powered ecommerce personalization with product recommendations and merchandising
 
-Strapi
-
-Open-source headless CMS with AI-powered content management and API-first design
-
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -185,7 +185,7 @@ Open-source headless CMS with AI-powered content management and API-first design
       "price": 56,
       "priceCurrency": "USD",
       "url": "https://www.hypotenuse.ai/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -216,7 +216,8 @@ Open-source headless CMS with AI-powered content management and API-first design
         "name": "Hypotenuse AI",
         "item": "https://martechsignal.com/tools/hypotenuse-ai/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/hypotenuse-ai/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

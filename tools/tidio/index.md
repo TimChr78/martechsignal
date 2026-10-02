@@ -111,6 +111,10 @@ Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
 
 ## Similar Tools
 
+- [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
+- [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
+- [ManyChat](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
+- [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
@@ -154,10 +158,6 @@ ChatbotX
 
 Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 
-Chatwoot
-
-Open-source customer engagement suite with Captain AI and full self-hosting
-
 [More Chatbots & Conversational AI Tools →](/categories/chatbots/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -187,14 +187,14 @@ Open-source customer engagement suite with Captain AI and full self-hosting
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.tidio.com/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 24,
         "priceCurrency": "USD",
         "url": "https://www.tidio.com/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -226,7 +226,8 @@ Open-source customer engagement suite with Captain AI and full self-hosting
         "name": "Tidio",
         "item": "https://martechsignal.com/tools/tidio/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/tidio/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

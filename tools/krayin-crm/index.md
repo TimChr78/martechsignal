@@ -130,6 +130,10 @@ Yes, through the built-in import and export layer (the DataTransfer package), wh
 
 ## Similar Tools
 
+- [EspoCRM](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management
+- [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
+- [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+- [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -202,14 +206,14 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://krayincrm.com/extensions/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 1799,
         "priceCurrency": "USD",
         "url": "https://krayincrm.com/extensions/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -241,7 +245,8 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
         "name": "Krayin CRM",
         "item": "https://martechsignal.com/tools/krayin-crm/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/krayin-crm/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -108,6 +108,10 @@ Best-in-class workflow and reporting for serious social teams; hard to justify b
 
 ## Similar Tools
 
+- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [Brandwatch](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform
+- [Buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools
+- [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
@@ -179,7 +183,7 @@ AI-powered social media content generator for posts, videos, and ad creatives
       "price": 249,
       "priceCurrency": "USD",
       "url": "https://sproutsocial.com/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-26"
     }
   },
   {
@@ -210,7 +214,8 @@ AI-powered social media content generator for posts, videos, and ad creatives
         "name": "Sprout Social",
         "item": "https://martechsignal.com/tools/sprout-social/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/sprout-social/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

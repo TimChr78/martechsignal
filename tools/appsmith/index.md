@@ -147,6 +147,10 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 
 ## Similar Tools
 
+- [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
+- [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
+- [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -185,10 +189,6 @@ n8n
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
-n8n Marketing Flows
-
-79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -218,14 +218,14 @@ n8n Marketing Flows
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.appsmith.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 15,
         "priceCurrency": "USD",
         "url": "https://www.appsmith.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -257,7 +257,8 @@ n8n Marketing Flows
         "name": "Appsmith",
         "item": "https://martechsignal.com/tools/appsmith/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/appsmith/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

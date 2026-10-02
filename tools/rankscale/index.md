@@ -127,6 +127,10 @@ Rankscale GmbH builds the product in Vienna, Austria. Its customer logo wall inc
 
 ## Similar Tools
 
+- [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+- [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -169,10 +173,6 @@ AccuRanker
 
 Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
 
-SISTRIX
-
-German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -201,7 +201,7 @@ German SEO suite built on the Visibility Index, with AI-answer and Amazon analys
       "price": 99,
       "priceCurrency": "EUR",
       "url": "https://rankscale.ai/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -232,7 +232,8 @@ German SEO suite built on the Visibility Index, with AI-answer and Amazon analys
         "name": "Rankscale",
         "item": "https://martechsignal.com/tools/rankscale/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/rankscale/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

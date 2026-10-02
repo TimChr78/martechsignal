@@ -40,6 +40,9 @@ Yes, the metric is about AI, and AI makes it messy: the same prompt can yield di
 
 ## Tools in this space
 
+- [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
+- [Surfer SEO](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
+- [Frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
 ## Related terms
 
 [AEO](/glossary/aeo/) · [SEO](/glossary/seo/)

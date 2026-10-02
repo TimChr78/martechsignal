@@ -40,6 +40,9 @@ AI agents depend on first-party data more than any previous marketing stack. A p
 
 ## Tools in this space
 
+- [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
+- [Snowplow](/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 ## Related terms
 
 [Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/)

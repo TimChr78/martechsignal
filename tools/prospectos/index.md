@@ -104,6 +104,10 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 
 ## Similar Tools
 
+- [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
+- [Line Harness](/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
+- [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 ## Related reading
 
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
@@ -172,7 +176,7 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/nando0x/ProspectOS",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-29"
     }
   },
   {
@@ -203,7 +207,8 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
         "name": "ProspectOS",
         "item": "https://martechsignal.com/tools/prospectos/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/prospectos/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -40,6 +40,8 @@ MCP exists because of AI; the practical risk is quota economics. Hosted-model pr
 
 ## Tools in this space
 
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Make](/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
 ## Related terms
 
 [ABM](/glossary/abm/) · [Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing automation](/glossary/marketing-automation/)

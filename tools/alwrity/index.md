@@ -96,6 +96,10 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 
 ## Similar Tools
 
+- [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
+- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -138,10 +142,6 @@ n8n
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
-Ortto
-
-Customer data and marketing automation platform with journeys, CDP, and AI features
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -170,7 +170,7 @@ Customer data and marketing automation platform with journeys, CDP, and AI featu
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://alwrity.com",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -201,7 +201,8 @@ Customer data and marketing automation platform with journeys, CDP, and AI featu
         "name": "ALwrity",
         "item": "https://martechsignal.com/tools/alwrity/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/alwrity/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

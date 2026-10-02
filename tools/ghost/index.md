@@ -109,6 +109,10 @@ Choose Ghost for editorial sites with paid membership intent. Skip it if you nee
 
 ## Similar Tools
 
+- [Strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
+- [ALwrity](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
+- [Plausible Analytics](/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
+- [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -178,14 +182,14 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://ghost.org/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 9,
         "priceCurrency": "USD",
         "url": "https://ghost.org/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -217,7 +221,8 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
         "name": "Ghost",
         "item": "https://martechsignal.com/tools/ghost/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/ghost/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -107,6 +107,10 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 
 ## Similar Tools
 
+- [Claude SEO](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
+- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+- [Digital Marketing Pro](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
+- [Growth Lab](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -151,10 +155,6 @@ Growth Lab
 
 Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
 
-Open Mercato
-
-Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
-
 [More Agent Skills Tools →](/categories/agent-skills/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -183,7 +183,7 @@ Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/AgriciDaniel/codex-seo",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -214,7 +214,8 @@ Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
         "name": "Codex SEO",
         "item": "https://martechsignal.com/tools/codex-seo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/codex-seo/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

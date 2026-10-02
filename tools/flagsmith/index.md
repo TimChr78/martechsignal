@@ -8,7 +8,7 @@
 
 Open-source feature flag and remote config platform with segment targeting
 
-Personalization & CDP · Freemium · OPEN SOURCE Desk-reviewed
+Personalization & CDP · Freemium from $50/mo · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -54,7 +54,7 @@ Flagsmith is an open-source feature flag and remote configuration platform, BSD-
 - Mixpanel
 ## Pricing
 
-Flagsmith is freemium, with a free tier to start.
+Flagsmith is freemium, with a free tier to start, paid plans start at $50/mo as of 2026-09.
 
 Cloud free tier up to 50,000 API requests/mo. Scale USD 50/member/month (list 60, launch discount shown Sep 2026). Extra API calls from USD 50 per million. Self-hosted open source is free.
 
@@ -85,10 +85,10 @@ A flag platform with the change-control story that regulated teams ask for, pric
 
 | Pros | Cons |
 | --- | --- |
-| ✓ BSD-3-Clause licence with free self-hosting | ✗ The free cloud tier caps at 50,000 API requests a month, which a busy production app passes quickly. |
-| ✓ AI capabilities: MCP Server for natural-language flag management | ✗ Scale pricing is per member, so seat count drives the bill, and the September 2026 price is a launch discount against a USD 60 list. |
-| ✓ Active public repository (6,585 GitHub stars counted at last check) | ✗ Extra API calls start at USD 50 per million, which turns surprise traffic into a real line item. |
-| ✓ Native integrations include Datadog, Grafana, Jira (6 listed) |  |
+| ✓ BSD-3-Clause licence with free self-hosting | ✗ Paid plans start at $50/mo once past the free tier |
+| ✓ AI capabilities: MCP Server for natural-language flag management | ✗ The free cloud tier caps at 50,000 API requests a month, which a busy production app passes quickly. |
+| ✓ Active public repository (6,585 GitHub stars counted at last check) | ✗ Scale pricing is per member, so seat count drives the bill, and the September 2026 price is a launch discount against a USD 60 list. |
+| ✓ Native integrations include Datadog, Grafana, Jira (6 listed) | ✗ Extra API calls start at USD 50 per million, which turns surprise traffic into a real line item. |
 | ✓ Native integrations span observability, delivery, and analytics, so flag changes land in tools teams already watch. |  |
 | ✓ The MCP server puts change requests and approvals in the path when AI tools make flag changes. |  |
 | ✓ Self-hosting the BSD-3-Clause code is a documented deployment path alongside cloud and private cloud. |  |
@@ -110,7 +110,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,585 stars.
 
 **How much does Flagsmith cost?**
-Flagsmith is open source - BSD-3-Clause licensed and free to self-host; the public repository carries 6,585 stars; native integrations cover Datadog, Grafana, Jira. You pay in server time and maintenance, not licences.
+Flagsmith has a free tier; paid plans start at $50/mo. Cloud free tier up to 50,000 API requests/mo. Scale USD 50/member/month (list 60, launch discount shown Sep 2026). Extra API calls from USD 50 per million. Self-hosted open source is free. We last checked both ends of that split on 2026-09-25. The pricing section above shows what the free tier actually covers."
 
 **Is Flagsmith worth it past the free tier?**
 A flag platform with the change-control story that regulated teams ask for, priced below the big names, and self-hosting keeps the exit open.
@@ -123,6 +123,10 @@ Yes. It lets AI tools manage flags, create segments, schedule changes, and autom
 
 ## Similar Tools
 
+- [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
+- [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
+- [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 ## Related reading
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
@@ -133,7 +137,7 @@ Yes. It lets AI tools manage flags, create segments, schedule changes, and autom
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Teams that want their experiment engine as open as their stack
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $50/mo
 - **Category:** [Personalization & CDP](/categories/personalization/)
 - **GitHub:** ★ 6585
 - **HQ:** London, United Kingdom (Bullet Train Ltd, 66 Paul St)
@@ -167,10 +171,6 @@ n8n
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
-Hightouch
-
-Composable CDP that activates warehouse data where marketing runs
-
 [More Personalization & CDP Tools →](/categories/personalization/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -194,13 +194,22 @@ Composable CDP that activates warehouse data where marketing runs
     "operatingSystem": "Web",
     "dateModified": "2026-10-01",
     "datePublished": "2026-09-25",
-    "offers": {
-      "@type": "Offer",
-      "price": 0,
-      "priceCurrency": "USD",
-      "url": "https://www.flagsmith.com/pricing",
-      "priceValidUntil": "2026-12-31"
-    }
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "url": "https://www.flagsmith.com/pricing",
+        "priceValidUntil": "2026-12-24"
+      },
+      {
+        "@type": "Offer",
+        "price": 50,
+        "priceCurrency": "USD",
+        "url": "https://www.flagsmith.com/pricing",
+        "priceValidUntil": "2026-12-24"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",
@@ -230,7 +239,8 @@ Composable CDP that activates warehouse data where marketing runs
         "name": "Flagsmith",
         "item": "https://martechsignal.com/tools/flagsmith/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/flagsmith/#breadcrumb"
   },
   {
     "@context": "https://schema.org",
@@ -249,7 +259,7 @@ Composable CDP that activates warehouse data where marketing runs
         "name": "How much does Flagsmith cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Flagsmith is open source - BSD-3-Clause licensed and free to self-host; the public repository carries 6,585 stars; native integrations cover Datadog, Grafana, Jira. You pay in server time and maintenance, not licences."
+          "text": "Flagsmith has a free tier; paid plans start at $50/mo. Cloud free tier up to 50,000 API requests/mo. Scale USD 50/member/month (list 60, launch discount shown Sep 2026). Extra API calls from USD 50 per million. Self-hosted open source is free. We last checked both ends of that split on 2026-09-25. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {

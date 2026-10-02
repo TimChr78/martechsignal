@@ -112,6 +112,10 @@ A focused Google Ads quality-control layer: less ambitious than cross-channel pl
 
 ## Similar Tools
 
+- [Revealbot (Birch)](/tools/revealbot/): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
+- [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Line Harness](/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
+- [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
 ## Related reading
 
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
@@ -154,10 +158,6 @@ Amplitude
 
 AI-powered digital analytics platform for product and marketing teams
 
-Smartly.io
-
-AI advertising platform spanning creative production, media buying, and measurement
-
 [More Advertising & Paid Media Tools →](/categories/advertising/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -186,7 +186,7 @@ AI advertising platform spanning creative production, media buying, and measurem
       "price": 129,
       "priceCurrency": "USD",
       "url": "https://opteo.com/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -217,7 +217,8 @@ AI advertising platform spanning creative production, media buying, and measurem
         "name": "Opteo",
         "item": "https://martechsignal.com/tools/opteo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/opteo/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

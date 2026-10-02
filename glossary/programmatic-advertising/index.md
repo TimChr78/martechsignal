@@ -40,6 +40,7 @@ AI now sets bids, builds audiences, and writes ad variations inside the DSP. Aut
 
 ## Tools in this space
 
+- [AdCreative.ai](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
 ## Related terms
 
 [AI content](/glossary/ai-content-generation/) · [DSP](/glossary/dsp/) · [DCO](/glossary/dco/)

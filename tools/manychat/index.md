@@ -110,6 +110,10 @@ The default choice for Instagram and Messenger funnels; value depends entirely o
 
 ## Similar Tools
 
+- [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
+- [Tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support
+- [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
+- [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
@@ -182,14 +186,14 @@ Enterprise social media management with AI-powered analytics and engagement tool
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://manychat.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 14,
         "priceCurrency": "USD",
         "url": "https://manychat.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -221,7 +225,8 @@ Enterprise social media management with AI-powered analytics and engagement tool
         "name": "ManyChat",
         "item": "https://martechsignal.com/tools/manychat/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/manychat/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

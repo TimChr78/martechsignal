@@ -40,6 +40,9 @@ AI search and agentic media buying broke click-based attribution further. When C
 
 ## Tools in this space
 
+- [Attribution](/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue
+- [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
+- [Mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
 ## Related terms
 
 [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/) · [First-party data](/glossary/first-party-data/)

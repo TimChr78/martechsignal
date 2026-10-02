@@ -112,6 +112,10 @@ Credible MTA for heavy paid-media spenders; directional signal, not truth, and p
 
 ## Similar Tools
 
+- [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
+- [Attribution](/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue
+- [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Revealbot (Birch)](/tools/revealbot/): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -207,7 +211,8 @@ AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
         "name": "Northbeam",
         "item": "https://martechsignal.com/tools/northbeam/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/northbeam/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

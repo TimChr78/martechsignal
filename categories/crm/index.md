@@ -11,62 +11,38 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 
 ## HOSTED SAAS CRMs***5*
 
-### Attio
-
-### Freshsales
-
-### HubSpot CRM
-
-### Pipedrive
-
-### Salesforce CRM
-
+- [attio](/tools/attio/): AI-native CRM with real-time data enrichment and agentic revenue workflows
+- [freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
+- [hubspot-crm](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
+- [salesforce-crm](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 ## SELF-HOSTED OPEN SOURCE***11*
 
-### AlphOne
-
-### Django CRM
-
-### Dolibarr ERP/CRM
-
-### EspoCRM
-
-### Ever Gauzy
-
-### Frappe CRM
-
-### IDURAR ERP & CRM
-
-### Krayin CRM
-
-### Monica
-
-### SuiteCRM
-
-### Warpdrive
-
+- [alphone](/tools/alphone/): Plugin-first CRM (source-available, Elastic 2.0) written in Go
+- [django-crm](/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
+- [dolibarr](/tools/dolibarr/): Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app
+- [espocrm](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management
+- [ever-gauzy](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking
+- [frappe-crm](/tools/frappe-crm/): Fully featured, open source CRM
+- [idurar-erp-crm](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
+- [krayin-crm](/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
+- [monica](/tools/monica/): Open-source personal CRM for tracking friends, family, and business relationships
+- [suitecrm](/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation
+- [warpdrive](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
 ## AGENT-READY, MCP-NATIVE***4*
 
-### Cordys CRM
-
-### Macro
-
-### Relaticle
-
-### Twenty
-
+- [cordys-crm](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+- [macro](/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
+- [relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
+- [twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 ## OUTBOUND & CHANNEL***3*
 
-### DeskcommCRM
-
-### ProspectOS
-
-### WaCRM
-
+- [deskcommcrm](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
+- [prospectos](/tools/prospectos/): Open-source lead prospecting CRM with Google Maps and Instagram scraping
+- [wacrm](/tools/wacrm/): Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations
 ## More CRM tools***1*
 
-### Zoho CRM
-
+- [zoho-crm](/tools/zoho-crm/): Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
 **Compare:** [ActiveCampaign vs HubSpot CRM](/vs/activecampaign-vs-hubspot/) · [HubSpot CRM alternatives](/alternatives/hubspot-crm/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 
 ## Key terms

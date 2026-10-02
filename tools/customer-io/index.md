@@ -136,6 +136,10 @@ Email and transactional email, push and in-app with unlimited sends on every pla
 
 ## Similar Tools
 
+- [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
+- [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
+- [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
+- [Ortto](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -207,7 +211,7 @@ Customer data and marketing automation platform with journeys, CDP, and AI featu
       "price": 100,
       "priceCurrency": "USD",
       "url": "https://customer.io/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-05"
     }
   },
   {
@@ -238,7 +242,8 @@ Customer data and marketing automation platform with journeys, CDP, and AI featu
         "name": "Customer.io",
         "item": "https://martechsignal.com/tools/customer-io/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/customer-io/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

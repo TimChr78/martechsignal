@@ -2,6 +2,8 @@
 
 ## Best Matomo alternatives (2026)
 
+Pick Plausible for a one-screen dashboard, Umami for developer-friendly simplicity, or PostHog when product analytics matters more than web numbers. All three respect privacy by default.
+
 Matomo is the reference point for teams that want web analytics they own, and its core stays free forever under GPL v3 or later. Funnels, cohorts, custom reports, form analytics, A/B testing, heatmaps and session recordings, and multi-channel attribution are paid premium plugins, with On-Premise bundles running 275 euros a month for Team and 3,400 for Enterprise. Cloud starts at 22 euros a month for 50,000 hits and climbs with traffic. The self-hosted stack is a PHP and MySQL application that needs an archiving cron job above a few hundred visits a day.
 
 The shortlist splits by what pushed you out. Lighter cookieless scripts suit teams that only need traffic and campaign numbers. Teams that live in funnels and retention are better served by product analytics suites. An event pipeline fits when raw behavioral data belongs in your own warehouse. Matomo still holds one ground the others do not: the consent-free position it claims through a CNIL listing, plus its commitment to keeping self-hosting free, so check whether your compliance case depends on either.
@@ -199,7 +201,8 @@ Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics t
         "name": "Matomo alternatives",
         "item": "https://martechsignal.com/alternatives/matomo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/alternatives/matomo/#breadcrumb"
   }
 ]
 ```

@@ -115,6 +115,10 @@ Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 dat
 
 ## Similar Tools
 
+- [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+- [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Line Harness](/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
+- [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -153,10 +157,6 @@ Nightwatch
 
 Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 
-AdCreative.ai
-
-AI platform generating high-converting ad creatives and social media post designs
-
 [More Advertising & Paid Media Tools →](/categories/advertising/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -185,7 +185,7 @@ AI platform generating high-converting ad creatives and social media post design
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://www.revive-adserver.com",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -216,7 +216,8 @@ AI platform generating high-converting ad creatives and social media post design
         "name": "Revive Adserver",
         "item": "https://martechsignal.com/tools/revive-adserver/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/revive-adserver/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

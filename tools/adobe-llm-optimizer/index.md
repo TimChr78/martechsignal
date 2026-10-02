@@ -124,6 +124,10 @@ No. The CDN-edge deployment works with Fastly, Akamai, and Cloudflare, and Adobe
 
 ## Similar Tools
 
+- [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+- [Writesonic](/tools/writesonic/): The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
@@ -166,10 +170,6 @@ The AI Customer Experience Platform: monitor, optimize and serve your site to AI
 Writesonic
 
 The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
-
-Promptfoo
-
-Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming
 
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
 
@@ -223,7 +223,8 @@ Open source LLM eval toolkit for prompt testing, brand-answer tracking and red t
         "name": "Adobe LLM Optimizer",
         "item": "https://martechsignal.com/tools/adobe-llm-optimizer/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/adobe-llm-optimizer/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

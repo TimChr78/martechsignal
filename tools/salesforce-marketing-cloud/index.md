@@ -134,6 +134,10 @@ Only at the small end. Starter Suite and Pro Suite carry a 'try for free' link o
 
 ## Similar Tools
 
+- [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
+- [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
+- [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
+- [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
@@ -206,7 +210,7 @@ Autonomous AI platform that manages and optimizes digital advertising campaigns
       "price": 25,
       "priceCurrency": "USD",
       "url": "https://www.salesforce.com/products/marketing-cloud/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-05"
     }
   },
   {
@@ -237,7 +241,8 @@ Autonomous AI platform that manages and optimizes digital advertising campaigns
         "name": "Salesforce Marketing Cloud",
         "item": "https://martechsignal.com/tools/salesforce-marketing-cloud/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/salesforce-marketing-cloud/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

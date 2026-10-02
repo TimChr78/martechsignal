@@ -142,6 +142,10 @@ One CSV written to stdout with email, first_name, last_name, company, title, web
 
 ## Similar Tools
 
+- [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+- [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+- [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
+- [Eve Marketing Team Template](/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -186,10 +190,6 @@ Eve Marketing Team Template
 
 Open-source team of marketing agents on eve: lead, content, social, SEO, email
 
-Postmark
-
-Transactional email API with separated message streams, an MCP server, and published delivery numbers
-
 [More Email Marketing Tools →](/categories/email-marketing/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -218,7 +218,7 @@ Transactional email API with separated message streams, an MCP server, and publi
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://openoutreach.app",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -249,7 +249,8 @@ Transactional email API with separated message streams, an MCP server, and publi
         "name": "OpenOutreach",
         "item": "https://martechsignal.com/tools/openoutreach/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/openoutreach/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

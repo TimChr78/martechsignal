@@ -90,6 +90,10 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 
 ## Similar Tools
 
+- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
+- [Buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools
+- [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
@@ -165,7 +169,7 @@ AI-powered social media content generator for posts, videos, and ad creatives
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://multipost.app",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -196,7 +200,8 @@ AI-powered social media content generator for posts, videos, and ad creatives
         "name": "MultiPost",
         "item": "https://martechsignal.com/tools/multipost-extension/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/multipost-extension/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -122,6 +122,10 @@ Core covers ChatGPT, Perplexity, Google AI Overviews and Copilot. Enterprise add
 
 ## Similar Tools
 
+- [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [Rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+- [Writesonic](/tools/writesonic/): The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
+- [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
@@ -192,7 +196,7 @@ AI search monitoring for brand mentions and citations across ChatGPT and AI Over
       "price": 250,
       "priceCurrency": "USD",
       "url": "https://scrunch.com/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -223,7 +227,8 @@ AI search monitoring for brand mentions and citations across ChatGPT and AI Over
         "name": "Scrunch",
         "item": "https://martechsignal.com/tools/scrunch/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/scrunch/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

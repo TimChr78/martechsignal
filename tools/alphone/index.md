@@ -110,6 +110,10 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 
 ## Similar Tools
 
+- [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
+- [Django CRM](/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
+- [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
+- [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
@@ -178,7 +182,7 @@ Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrati
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/gopherium/AlphOne",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-05"
     }
   },
   {
@@ -209,7 +213,8 @@ Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrati
         "name": "AlphOne",
         "item": "https://martechsignal.com/tools/alphone/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/alphone/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

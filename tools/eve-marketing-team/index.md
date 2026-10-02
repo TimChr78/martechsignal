@@ -110,6 +110,10 @@ The fastest way to see a multi-agent marketing team running on real tools, and a
 
 ## Similar Tools
 
+- [Email Marketing Bible](/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
+- [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+- [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
+- [Digital Marketing Pro](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
@@ -154,10 +158,6 @@ Digital Marketing Pro
 
 163-skill AI marketing plugin for agencies with EU AI Act compliance
 
-Codex SEO
-
-Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-
 [More Agent Skills Tools →](/categories/agent-skills/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -186,7 +186,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/vercel-labs/marketing-team-eve-template",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-29"
     }
   },
   {
@@ -217,7 +217,8 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
         "name": "Eve Marketing Team Template",
         "item": "https://martechsignal.com/tools/eve-marketing-team/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/eve-marketing-team/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

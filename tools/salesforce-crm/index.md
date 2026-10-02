@@ -113,6 +113,10 @@ Unmatched depth for complex sales organizations; count the total cost before com
 
 ## Similar Tools
 
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
+- [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
+- [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -187,7 +191,7 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
       "price": 25,
       "priceCurrency": "USD",
       "url": "https://www.salesforce.com/editions-pricing/overview/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -218,7 +222,8 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
         "name": "Salesforce CRM",
         "item": "https://martechsignal.com/tools/salesforce-crm/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/salesforce-crm/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

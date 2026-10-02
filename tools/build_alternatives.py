@@ -91,6 +91,10 @@ def build():
         body = ['<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/alternatives/">Alternatives guides</a> / '
                 f'<span>{esc(target["name"])} alternatives</span></nav>',
                 f'<h1>{esc(page["title"])}</h1>']
+        # r21 M-7 (2026-10-02): answer-first slot matching the /best/ and /vs/
+        # direct-answer pattern - the verdict opens the page.
+        if page.get("direct_answer"):
+            body.append(f'<p class="direct-answer">{esc(page["direct_answer"])}</p>')
         for para in page["intro"]:
             body.append(f"<p>{esc(para)}</p>")
         # r11 H-4 (2026-09-29): visible freshness stamp (was JSON-LD only).

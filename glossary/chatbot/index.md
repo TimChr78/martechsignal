@@ -36,6 +36,9 @@ LLM chatbots made the category credible for open dialogue, and agent platforms n
 
 ## Tools in this space
 
+- [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
+- [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
+- [Chatwoot](/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting
 Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [ChatbotX](https://chatbotx.io/docs) · [Chatfuel](https://chatfuel.com) · [Chatwoot](https://www.chatwoot.com)
 
 ### Categories

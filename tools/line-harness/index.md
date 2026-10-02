@@ -123,6 +123,10 @@ The docs describe BAN detection with automatic friend migration to the next acco
 
 ## Similar Tools
 
+- [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
+- [Mautic](/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management
+- [Ortto](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
+- [Opteo](/tools/opteo/): Continuous Google Ads monitoring with one-click improvements
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -163,10 +167,6 @@ Opteo
 
 Continuous Google Ads monitoring with one-click improvements
 
-Braze
-
-Customer engagement platform with AI-powered real-time messaging across channels
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -195,7 +195,7 @@ Customer engagement platform with AI-powered real-time messaging across channels
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://the-harness.com/line-harness/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -226,7 +226,8 @@ Customer engagement platform with AI-powered real-time messaging across channels
         "name": "Line Harness",
         "item": "https://martechsignal.com/tools/line-harness/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/line-harness/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -57,7 +57,8 @@
      "q": "What if the team already runs a separate marketing stack?",
      "a": "Pipedrive. It is pipeline-first by design for sales teams whose marketing lives elsewhere. That split is exactly when HubSpot's all-in-one pricing stops earning its seat."
     }
-   ]
+   ],
+   "direct_answer": "Pick Twenty if you want a modern self-hosted CRM, EspoCRM for lightweight sales automation, or SuiteCRM for the broadest free module set. All three are open source; none bills per seat."
   },
   {
    "slug": "zapier",
@@ -147,7 +148,8 @@
      "q": "What should a compliance-bound enterprise pick?",
      "a": "Tray.io. It keeps integrations and AI agents governed inside a compliance boundary, which neither Zapier nor Make promises. Make covers the middle: branching and looping for technical marketing teams that outgrew linear editors."
     }
-   ]
+   ],
+   "direct_answer": "Pick n8n if you self-host and want code steps, Make for the clearest visual canvas, or Pipedream for real code inside steps. Pick Zapier itself only when the catalog breadth decides it."
   },
   {
    "slug": "matomo",
@@ -206,7 +208,8 @@
      "q": "Which alternative fits a data team with its own warehouse?",
      "a": "Snowplow. Behavioral events validated against schemas and delivered into the team's own pipeline beat any dashboard export. That is the point where analytics stops being a tool choice and becomes a data contract."
     }
-   ]
+   ],
+   "direct_answer": "Pick Plausible for a one-screen dashboard, Umami for developer-friendly simplicity, or PostHog when product analytics matters more than web numbers. All three respect privacy by default."
   },
   {
    "slug": "n8n",
@@ -308,7 +311,8 @@
      "q": "What should large orgs standardizing across departments pick?",
      "a": "Workato for governance and AI add-ons across departments, Tray.io for one iPaaS spanning marketing, RevOps and IT with pro-code escape hatches. Pipedream covers developers who want real code inside steps and a generous free tier."
     }
-   ]
+   ],
+   "direct_answer": "Pick Make for visual scenario control, Zapier for the largest app catalog, or Pipedream for code-first steps. Stay on n8n when self-hosting and workflow-friendly billing decide it."
   },
   {
    "slug": "mailchimp",
@@ -397,7 +401,8 @@
      "q": "Which keeps the ecommerce furthest?",
      "a": "Klaviyo - purchase-event data models flow segments and revenue reporting that Mailchimp's Essentials and Standard tiers approximate but do not match."
     }
-   ]
+   ],
+   "direct_answer": "Pick Brevo when your list is large but rarely sent, Klaviyo for ecommerce flows, or Customer.io for event-driven journeys. Match the billing model to how often you mail."
   }
  ]
 }

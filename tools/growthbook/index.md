@@ -8,7 +8,7 @@
 
 Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 
-Personalization & CDP · Freemium · OPEN SOURCE Desk-reviewed
+Personalization & CDP · Freemium from $40/mo · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -54,7 +54,7 @@ GrowthBook is an open-source feature flag and A/B testing platform with 8,464 Gi
 - Slack
 ## Pricing
 
-GrowthBook is freemium, with a free tier to start.
+GrowthBook is freemium, with a free tier to start, paid plans start at $40/mo as of 2026-09.
 
 Starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million.
 
@@ -85,10 +85,10 @@ The warehouse-native choice for teams that want experimentation math they can au
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Starter caps the account at 3 users and 1 project, so growth past a small team means Pro at USD 40 per seat. |
-| ✓ AI capabilities: growthBook AI assistant (usage-metered per plan) | ✗ The AI Visual Editor, bandits, and split URL tests sit on paid plans only. |
-| ✓ Active public repository (8,464 GitHub stars counted at last check) | ✗ Three enterprise directories carry a separate GrowthBook Enterprise License on top of the MIT core. |
-| ✓ Native integrations include Snowflake, BigQuery, Databricks (6 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $40/mo once past the free tier |
+| ✓ AI capabilities: growthBook AI assistant (usage-metered per plan) | ✗ Starter caps the account at 3 users and 1 project, so growth past a small team means Pro at USD 40 per seat. |
+| ✓ Active public repository (8,464 GitHub stars counted at last check) | ✗ The AI Visual Editor, bandits, and split URL tests sit on paid plans only. |
+| ✓ Native integrations include Snowflake, BigQuery, Databricks (6 listed) | ✗ Three enterprise directories carry a separate GrowthBook Enterprise License on top of the MIT core. |
 | ✓ Unlimited flags, experiments, and traffic on every plan, including the free one. |  |
 | ✓ The MCP server is hosted and OAuth-based, so AI tooling works without provisioning API keys. |  |
 | ✓ Cloud and self-hosted are both documented deployment paths, and the warehouse stays on your infrastructure either way. |  |
@@ -110,7 +110,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 GrowthBook: Open-source feature flags and A/B testing with a visual editor and attribute-based targeting. GrowthBook ships with growthBook AI assistant (usage-metered per plan). The public repository carries 8,464 stars.
 
 **How much does GrowthBook cost?**
-GrowthBook is open source - MIT licensed and free to self-host; the public repository carries 8,464 stars; native integrations cover Snowflake, BigQuery, Databricks. You pay in server time and maintenance, not licences.
+GrowthBook has a free tier; paid plans start at $40/mo. Starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million. We last checked both ends of that split on 2026-09-25. The pricing section above shows what the free tier actually covers."
 
 **Is GrowthBook worth it past the free tier?**
 The warehouse-native choice for teams that want experimentation math they can audit and feature flags in the same tool. Both the price and the licence are legible.
@@ -123,6 +123,10 @@ Yes. The managed warehouse option covers teams without one on cloud plans, and t
 
 ## Similar Tools
 
+- [Flagsmith](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting
+- [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
+- [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
+- [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
@@ -133,7 +137,7 @@ Yes. The managed warehouse option covers teams without one on cloud plans, and t
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Best for product teams that want feature flags and A/B testing they can self-host, with a free Starter plan for 3 users.
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $40/mo
 - **Category:** [Personalization & CDP](/categories/personalization/)
 - **GitHub:** ★ 8464
 - **Founded:** 2020
@@ -190,13 +194,22 @@ Open-source low-code platform for internal tools: prompt or build admin panels, 
     "operatingSystem": "Web",
     "dateModified": "2026-10-02",
     "datePublished": "2026-09-25",
-    "offers": {
-      "@type": "Offer",
-      "price": 0,
-      "priceCurrency": "USD",
-      "url": "https://www.growthbook.io/pricing",
-      "priceValidUntil": "2026-12-31"
-    }
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "url": "https://www.growthbook.io/pricing",
+        "priceValidUntil": "2026-12-24"
+      },
+      {
+        "@type": "Offer",
+        "price": 40,
+        "priceCurrency": "USD",
+        "url": "https://www.growthbook.io/pricing",
+        "priceValidUntil": "2026-12-24"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",
@@ -226,7 +239,8 @@ Open-source low-code platform for internal tools: prompt or build admin panels, 
         "name": "GrowthBook",
         "item": "https://martechsignal.com/tools/growthbook/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/growthbook/#breadcrumb"
   },
   {
     "@context": "https://schema.org",
@@ -245,7 +259,7 @@ Open-source low-code platform for internal tools: prompt or build admin panels, 
         "name": "How much does GrowthBook cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "GrowthBook is open source - MIT licensed and free to self-host; the public repository carries 8,464 stars; native integrations cover Snowflake, BigQuery, Databricks. You pay in server time and maintenance, not licences."
+          "text": "GrowthBook has a free tier; paid plans start at $40/mo. Starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million. We last checked both ends of that split on 2026-09-25. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {

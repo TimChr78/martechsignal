@@ -36,6 +36,10 @@ AI changed what wins. Overviews answer queries directly, so a visible citation m
 
 ## Tools in this space
 
+- [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
+- [ALwrity](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
+- [Claude SEO](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
+- [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 ## Related terms
 
 [AI content](/glossary/ai-content-generation/) · [AI Visibility](/glossary/ai-search-visibility/) · [AEO](/glossary/aeo/)

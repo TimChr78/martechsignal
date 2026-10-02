@@ -136,6 +136,10 @@ The creative AI layer. It prepares images (upscaling, background removal, per-pl
 
 ## Similar Tools
 
+- [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
+- [Pencil](/tools/pencil/): AI-powered ad creative generation and performance prediction for paid media
+- [Claude Ads](/tools/claude-ads/): Paid-media operations skill for Claude Code covering 12 ad platforms
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -231,7 +235,8 @@ Paid-media operations skill for Claude Code covering 12 ad platforms
         "name": "Smartly.io",
         "item": "https://martechsignal.com/tools/smartly-io/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/smartly-io/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -11,38 +11,24 @@ AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overvie
 
 ## GEO-NATIVE PLATFORMS***8*
 
-### Profound
-
-### Scrunch
-
-### OtterlyAI
-
-### Rankscale
-
-### Trakkr
-
-### Evertune
-
-### Nimt.ai
-
-### Writesonic
-
+- [profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+- [otterlyai](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+- [rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+- [trakkr](/tools/trakkr/): AI visibility platform for brands and agencies: citations, perception, competitors
+- [evertune](/tools/evertune/): GEO visibility measurement with content activation and a ChatGPT Ad Agent
+- [nimt-ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [writesonic](/tools/writesonic/): The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
 ## SUITE MODULES & ADD-ONS***5*
 
-### AccuRanker
-
-### Nightwatch
-
-### SISTRIX
-
-### Ahrefs
-
-### Adobe LLM Optimizer
-
+- [accuranker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+- [nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+- [sistrix](/tools/sistrix/): German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
+- [ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+- [adobe-llm-optimizer](/tools/adobe-llm-optimizer/): Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
 ## OPEN-SOURCE / DIY***1*
 
-### Promptfoo
-
+- [promptfoo](/tools/promptfoo/): Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming
 **Compare:** [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) · **Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) · [GEO, defined](/glossary/geo/)
 
 ## Key terms
@@ -225,7 +211,7 @@ How two decades of SEO work became raw material for the answer engines
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 14,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -402,7 +388,7 @@ How two decades of SEO work became raw material for the answer engines
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/geo-llm-visibility/", "breadcrumb": {"@id": "https://martechsignal.com/categories/geo-llm-visibility/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/geo-llm-visibility/", "breadcrumb": {"@id": "https://martechsignal.com/categories/geo-llm-visibility/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

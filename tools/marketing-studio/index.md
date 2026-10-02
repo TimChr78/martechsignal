@@ -105,6 +105,10 @@ The most complete open-source take on agent-produced launch assets, with a real 
 
 ## Similar Tools
 
+- [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
+- [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+- [AI Marketing Suite](/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports
+- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -173,7 +177,7 @@ AI Business Skills
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/ucsandman/marketing-studio",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-29"
     }
   },
   {
@@ -204,7 +208,8 @@ AI Business Skills
         "name": "Marketing Studio",
         "item": "https://martechsignal.com/tools/marketing-studio/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/marketing-studio/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

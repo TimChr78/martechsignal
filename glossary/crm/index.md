@@ -40,6 +40,11 @@ AI agents in CRM now draft follow-up emails, score leads, and summarize call tra
 
 ## Tools in this space
 
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+- [Attio](/tools/attio/): AI-native CRM with real-time data enrichment and agentic revenue workflows
+- [EspoCRM](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management
+- [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
 ## Related terms
 
 [ABM](/glossary/abm/) · [Customer journey](/glossary/customer-journey/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing ops](/glossary/marketing-ops/) · [MQL / SQL](/glossary/mql-sql/)

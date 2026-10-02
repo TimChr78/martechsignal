@@ -1040,6 +1040,10 @@ Yes. The catalog records a public API for Brevo, so custom integrations are poss
 
 ## Similar Tools
 
+- [Klaviyo](/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+- [Mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -1081,10 +1085,6 @@ Mailchimp
 
 All-in-one marketing platform with AI-powered email, automation, and analytics
 
-Notifo
-
-Self-hosted multi-channel notification service for email, SMS, and web push
-
 [More Email Marketing Tools →](/categories/email-marketing/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -1114,14 +1114,14 @@ Self-hosted multi-channel notification service for email, SMS, and web push
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.brevo.com/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-30"
       },
       {
         "@type": "Offer",
         "price": 9,
         "priceCurrency": "USD",
         "url": "https://www.brevo.com/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-30"
       }
     ]
   },
@@ -1153,7 +1153,8 @@ Self-hosted multi-channel notification service for email, SMS, and web push
         "name": "Brevo",
         "item": "https://martechsignal.com/tools/brevo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/brevo/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

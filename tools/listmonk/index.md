@@ -104,6 +104,10 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 
 ## Similar Tools
 
+- [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
+- [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+- [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+- [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -149,10 +153,6 @@ Ghost
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
 
-Maizzle
-
-Modern email development framework using Tailwind CSS for responsive campaigns
-
 [More Email Marketing Tools →](/categories/email-marketing/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -181,7 +181,7 @@ Modern email development framework using Tailwind CSS for responsive campaigns
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://listmonk.app",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -212,7 +212,8 @@ Modern email development framework using Tailwind CSS for responsive campaigns
         "name": "Listmonk",
         "item": "https://martechsignal.com/tools/listmonk/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/listmonk/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

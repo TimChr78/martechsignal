@@ -97,6 +97,10 @@ Strengths include an API for custom integrations. Paid plans start at $15/mo
 
 ## Similar Tools
 
+- [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
+- [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 ## Related reading
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
@@ -165,7 +169,7 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
       "price": 15,
       "priceCurrency": "USD",
       "url": "https://powerautomate.microsoft.com/en-us/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-26"
     }
   },
   {
@@ -196,7 +200,8 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
         "name": "Microsoft Power Automate",
         "item": "https://martechsignal.com/tools/power-automate/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/power-automate/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

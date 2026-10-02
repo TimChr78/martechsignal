@@ -11,28 +11,19 @@ SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 
 
 ## OPEN SOURCE / SELF-HOSTED***2*
 
-### OpenSEO
-
-### Seonaut
-
+- [openseo](/tools/openseo/): Open source alternative to Ahrefs and Semrush
+- [seonaut](/tools/seonaut/): Open-source SEO crawler in Go for technical audits, self-hosted or cloud
 ## COMMERCIAL***5*
 
-### Semrush
-
-### Clearscope
-
-### MarketMuse
-
-### Surfer SEO
-
-### Frase
-
+- [semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
+- [clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
+- [marketmuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
+- [surfer-seo](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
+- [frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
 ## AI SEARCH VISIBILITY***2*
 
-### Potato
-
-### Superlines
-
+- [potato-ai-visibility](/tools/potato-ai-visibility/): Free local tool that measures brand mentions and citations in Claude's web-search answers
+- [superlines](/tools/superlines/): AI Search Intelligence platform for brands and agencies
 **Compare:** [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
 
 ## Key terms
@@ -196,7 +187,7 @@ The off-page playbook that actually moves AI citations
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 9,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -313,7 +304,7 @@ The off-page playbook that actually moves AI citations
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/seo/", "breadcrumb": {"@id": "https://martechsignal.com/categories/seo/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/seo/", "breadcrumb": {"@id": "https://martechsignal.com/categories/seo/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

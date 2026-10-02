@@ -122,6 +122,10 @@ A bot session is any unique interaction between an end user and a bot. On chat, 
 
 ## Similar Tools
 
+- [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
+- [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [Macro](/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
@@ -165,10 +169,6 @@ Macro
 
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
 
-IDURAR ERP & CRM
-
-Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
-
 [More CRM Tools →](/categories/crm/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -197,7 +197,7 @@ Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
       "price": 9,
       "priceCurrency": "USD",
       "url": "https://www.freshworks.com/crm/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-26"
     }
   },
   {
@@ -228,7 +228,8 @@ Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
         "name": "Freshsales",
         "item": "https://martechsignal.com/tools/freshsales/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/freshsales/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

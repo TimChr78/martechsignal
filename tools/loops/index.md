@@ -139,6 +139,10 @@ Yes, and it is documented as a first-class surface rather than a bolt-on. Loops 
 
 ## Similar Tools
 
+- [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+- [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [Postmark](/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
@@ -205,7 +209,7 @@ Transactional email API with separated message streams, an MCP server, and publi
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://loops.so/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -236,7 +240,8 @@ Transactional email API with separated message streams, an MCP server, and publi
         "name": "Loops",
         "item": "https://martechsignal.com/tools/loops/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/loops/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

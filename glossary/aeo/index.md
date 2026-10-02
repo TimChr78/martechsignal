@@ -40,6 +40,9 @@ AEO is the AI-era discipline by definition, but its levers are mostly old-fashio
 
 ## Tools in this space
 
+- [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
+- [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
+- [Surfer SEO](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
 ## Related terms
 
 [AI Visibility](/glossary/ai-search-visibility/) · [SEO](/glossary/seo/)

@@ -110,6 +110,10 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 
 ## Similar Tools
 
+- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+- [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+- [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+- [Digital Marketing Pro](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -154,10 +158,6 @@ Digital Marketing Pro
 
 163-skill AI marketing plugin for agencies with EU AI Act compliance
 
-OpenClaw Marketing Skills
-
-37 marketing skills for OpenClaw agents with live data connectors
-
 [More Agent Skills Tools →](/categories/agent-skills/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -186,7 +186,7 @@ OpenClaw Marketing Skills
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/zapier/gtm-cheat-codes",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-29"
     }
   },
   {
@@ -217,7 +217,8 @@ OpenClaw Marketing Skills
         "name": "Zapier GTM Cheat Codes",
         "item": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

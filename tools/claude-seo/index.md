@@ -177,6 +177,10 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 
 ## Similar Tools
 
+- [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+- [AI Marketing Suite](/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports
+- [Claude Ads](/tools/claude-ads/): Paid-media operations skill for Claude Code covering 12 ad platforms
+- [Digital Marketing Pro](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -257,7 +261,7 @@ Digital Marketing Pro
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://claude-seo.md/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-26"
     }
   },
   {
@@ -288,7 +292,8 @@ Digital Marketing Pro
         "name": "Claude SEO",
         "item": "https://martechsignal.com/tools/claude-seo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/claude-seo/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

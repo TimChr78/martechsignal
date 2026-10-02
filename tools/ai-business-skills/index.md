@@ -106,6 +106,10 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 
 ## Similar Tools
 
+- [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+- [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+- [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
+- [AI Marketing Suite](/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -145,10 +149,6 @@ AI Marketing Suite
 
 15-skill marketing suite for Claude Code with parallel agents and PDF reports
 
-Digital Marketing Pro
-
-163-skill AI marketing plugin for agencies with EU AI Act compliance
-
 [More Agent Skills Tools →](/categories/agent-skills/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -177,7 +177,7 @@ Digital Marketing Pro
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/minhnv0807/ai-business-skills",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -208,7 +208,8 @@ Digital Marketing Pro
         "name": "AI Business Skills",
         "item": "https://martechsignal.com/tools/ai-business-skills/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/ai-business-skills/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -2777,7 +2777,7 @@
   "pricing_model": "freemium",
   "pricing_url": "https://www.heap.io/pricing",
   "price_from": 0,
-  "price_notes": "Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing",
+  "price_notes": "Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing Paid floor ≈$250/mo equivalent of the published ~$3,000/yr startup Growth starting range.",
   "ai_features": [
    "AI autocapture",
    "AI session replay analysis",
@@ -2812,7 +2812,8 @@
    ],
    "verdict": "Choose it when you keep discovering untagged events after the fact. Disciplined taggers get more from Mixpanel."
   },
-  "currency": "USD"
+  "currency": "USD",
+  "paid_from": 250
  },
  {
   "slug": "hootsuite",
@@ -6264,7 +6265,8 @@
     ]
    ]
   },
-  "currency": "USD"
+  "currency": "USD",
+  "seo_description": "Salesforce Marketing Cloud: Agentforce AI across email, SMS, web. Starter $25/user/mo self-serve; Growth $1,500/mo per org."
  },
  {
   "slug": "segment",
@@ -8856,7 +8858,8 @@
    ]
   },
   "github_forks": 403,
-  "github_checked": "2026-10-02"
+  "github_checked": "2026-10-02",
+  "paid_from": 99
  },
  {
   "slug": "rudderstack",
@@ -9082,7 +9085,8 @@
    ]
   },
   "github_forks": 868,
-  "github_checked": "2026-10-02"
+  "github_checked": "2026-10-02",
+  "paid_from": 40
  },
  {
   "slug": "flagsmith",
@@ -9155,7 +9159,8 @@
    ]
   },
   "github_forks": 578,
-  "github_checked": "2026-10-01"
+  "github_checked": "2026-10-01",
+  "paid_from": 50
  },
  {
   "slug": "languagetool",

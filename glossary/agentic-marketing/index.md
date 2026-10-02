@@ -40,6 +40,8 @@ The agentic label is itself an AI-era phenomenon, and it is becoming table stake
 
 ## Tools in this space
 
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Make](/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
 ## Related terms
 
 [ABM](/glossary/abm/) · [AI Agent](/glossary/ai-agent/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing automation](/glossary/marketing-automation/) · [Marketing ops](/glossary/marketing-ops/)

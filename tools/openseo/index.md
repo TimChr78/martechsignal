@@ -125,6 +125,10 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 
 ## Similar Tools
 
+- [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
+- [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+- [Frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
+- [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -165,10 +169,6 @@ Nimt.ai
 
 AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 
-Potato
-
-Free local tool that measures brand mentions and citations in Claude's web-search answers
-
 [More SEO & Search Tools →](/categories/seo/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -198,14 +198,14 @@ Free local tool that measures brand mentions and citations in Claude's web-searc
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://openseo.so/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 10,
         "priceCurrency": "USD",
         "url": "https://openseo.so/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -237,7 +237,8 @@ Free local tool that measures brand mentions and citations in Claude's web-searc
         "name": "OpenSEO",
         "item": "https://martechsignal.com/tools/openseo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/openseo/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

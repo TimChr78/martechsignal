@@ -127,6 +127,10 @@ No. It catches grammar, punctuation, and spelling problems and offers style and 
 
 ## Similar Tools
 
+- [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
+- [Warpdrive](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
+- [LibreTranslate](/tools/libretranslate/): Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 ## Related reading
 
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
@@ -166,10 +170,6 @@ n8n
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
-Copy.ai
-
-AI-powered GTM platform for sales and marketing content automation at scale
-
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -198,7 +198,7 @@ AI-powered GTM platform for sales and marketing content automation at scale
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://languagetool.org/premium",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -229,7 +229,8 @@ AI-powered GTM platform for sales and marketing content automation at scale
         "name": "LanguageTool",
         "item": "https://martechsignal.com/tools/languagetool/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/languagetool/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

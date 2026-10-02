@@ -2,6 +2,8 @@
 
 ## Best HubSpot CRM alternatives (2026)
 
+Pick Twenty if you want a modern self-hosted CRM, EspoCRM for lightweight sales automation, or SuiteCRM for the broadest free module set. All three are open source; none bills per seat.
+
 HubSpot CRM is free forever, quick to set up, and for a lot of small teams it is the right place to start. The case for switching appears as a company grows: automation, permissions, and reporting depth live on the higher tiers, and Sales Hub runs $20 per seat per month at Starter, $100 at Professional, and $150 at Enterprise. Across sales, service, and marketing seats that adds up fast, and the product is not open source, so there is no way to run it on your own infrastructure.
 
 Two kinds of buyers usually end up on this page. One already runs a marketing stack and wants a CRM the sales team will adopt without paying for a suite around it. The other wants customer data on its own servers, with code access to the schema and no per-seat bill attached to every new colleague.
@@ -199,7 +201,8 @@ Read the full assessment of [HubSpot CRM](/tools/hubspot-crm/), or browse all [c
         "name": "HubSpot CRM alternatives",
         "item": "https://martechsignal.com/alternatives/hubspot-crm/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/alternatives/hubspot-crm/#breadcrumb"
   }
 ]
 ```

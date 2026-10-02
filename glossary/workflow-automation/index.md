@@ -40,6 +40,10 @@ AI agents turned automation from deterministic rules into goal-based prompts. In
 
 ## Tools in this space
 
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Make](/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
+- [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 ## Related terms
 
 [Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [Marketing ops](/glossary/marketing-ops/) · [MCP](/glossary/mcp/)

@@ -143,6 +143,10 @@ Connections is the data pipeline: sources, destinations, Reverse ETL, and wareho
 
 ## Similar Tools
 
+- [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
+- [Hightouch](/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs
+- [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
 ## Related reading
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
@@ -187,10 +191,6 @@ Amplitude
 
 AI-powered digital analytics platform for product and marketing teams
 
-Jitsu
-
-Open-source Segment alternative for event capture and warehouse-first data pipelines
-
 [More Personalization & CDP Tools →](/categories/personalization/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -220,14 +220,14 @@ Open-source Segment alternative for event capture and warehouse-first data pipel
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.twilio.com/en-us/pricing/customer-data",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-05"
       },
       {
         "@type": "Offer",
         "price": 120,
         "priceCurrency": "USD",
         "url": "https://www.twilio.com/en-us/pricing/customer-data",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-05"
       }
     ]
   },
@@ -259,7 +259,8 @@ Open-source Segment alternative for event capture and warehouse-first data pipel
         "name": "Twilio Segment",
         "item": "https://martechsignal.com/tools/segment/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/segment/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

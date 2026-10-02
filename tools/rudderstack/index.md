@@ -1086,6 +1086,10 @@ Best open-core CDP for teams that self-host the data plane: free 250K events/mo,
 
 ## Similar Tools
 
+- [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
+- [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
+- [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -1160,14 +1164,14 @@ Open-source feature flags and A/B testing with a visual editor and attribute-bas
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.rudderstack.com/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-30"
       },
       {
         "@type": "Offer",
         "price": 265,
         "priceCurrency": "USD",
         "url": "https://www.rudderstack.com/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-30"
       }
     ]
   },
@@ -1199,7 +1203,8 @@ Open-source feature flags and A/B testing with a visual editor and attribute-bas
         "name": "RudderStack",
         "item": "https://martechsignal.com/tools/rudderstack/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/rudderstack/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

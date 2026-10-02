@@ -111,6 +111,10 @@ Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure 
 
 ## Similar Tools
 
+- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
+- [ContentBot](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
+- [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
+- [ALwrity](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -183,14 +187,14 @@ AI-first digital marketing platform for content strategy, generation, publishing
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.copy.ai/prices",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 49,
         "priceCurrency": "USD",
         "url": "https://www.copy.ai/prices",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -222,7 +226,8 @@ AI-first digital marketing platform for content strategy, generation, publishing
         "name": "Copy.ai",
         "item": "https://martechsignal.com/tools/copy-ai/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/copy-ai/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

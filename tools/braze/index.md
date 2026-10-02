@@ -113,6 +113,10 @@ Worth it only at meaningful volume with dedicated ops. Smaller teams get 80% of 
 
 ## Similar Tools
 
+- [Laudspeaker](/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze
+- [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
+- [Ortto](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -155,10 +159,6 @@ AI-powered commerce experience platform with search, personalization, and CDP
 Ortto
 
 Customer data and marketing automation platform with journeys, CDP, and AI features
-
-Line Harness
-
-Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
 
 [More Marketing Automation Tools →](/categories/marketing-automation/)
 
@@ -212,7 +212,8 @@ Open-source CRM for LINE Official Accounts with step delivery, scoring, and an M
         "name": "Braze",
         "item": "https://martechsignal.com/tools/braze/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/braze/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

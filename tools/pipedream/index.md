@@ -8,7 +8,7 @@
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
-Workflow Automation · Freemium Desk-reviewed
+Workflow Automation · Freemium from $29/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -92,6 +92,10 @@ The automation platform for developers who want code control with SaaS convenien
 
 ## Similar Tools
 
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
+- [Make](/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
+- [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -102,7 +106,7 @@ The automation platform for developers who want code control with SaaS convenien
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for developer teams wanting code steps and MCP endpoints.
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $29/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **API:** No
 - **Last verified:** 2026-09-25
@@ -161,7 +165,7 @@ Open-source workflow automation with a free cloud tier and on-prem hosting
       "price": 29,
       "priceCurrency": "USD",
       "url": "https://pipedream.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -192,7 +196,8 @@ Open-source workflow automation with a free cloud tier and on-prem hosting
         "name": "Pipedream",
         "item": "https://martechsignal.com/tools/pipedream/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/pipedream/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

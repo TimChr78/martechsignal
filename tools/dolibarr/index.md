@@ -141,6 +141,10 @@ Yes, and they are modest by design. The AI module became stable in version 21.0 
 
 ## Similar Tools
 
+- [Krayin CRM](/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
+- [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
+- [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+- [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -207,7 +211,7 @@ Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://www.dolibarr.org",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-05"
     }
   },
   {
@@ -238,7 +242,8 @@ Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
         "name": "Dolibarr ERP/CRM",
         "item": "https://martechsignal.com/tools/dolibarr/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/dolibarr/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

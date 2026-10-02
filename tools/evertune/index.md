@@ -129,6 +129,10 @@ Yes. Evertune launched a ChatGPT Ad Agent that buys ads in conversations where y
 
 ## Similar Tools
 
+- [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [Trakkr](/tools/trakkr/): AI visibility platform for brands and agencies: citations, perception, competitors
+- [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -200,7 +204,7 @@ AI search monitoring for brand mentions and citations across ChatGPT and AI Over
       "price": 800,
       "priceCurrency": "USD",
       "url": "https://www.evertune.ai/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -231,7 +235,8 @@ AI search monitoring for brand mentions and citations across ChatGPT and AI Over
         "name": "Evertune",
         "item": "https://martechsignal.com/tools/evertune/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/evertune/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

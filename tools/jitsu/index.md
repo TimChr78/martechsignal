@@ -8,7 +8,7 @@
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
 
-Personalization & CDP · Freemium · OPEN SOURCE Desk-reviewed
+Personalization & CDP · Freemium from $99/mo · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -51,7 +51,7 @@ Jitsu is an open-source event collection and data pipeline platform, MIT license
 - Webhooks
 ## Pricing
 
-Jitsu is freemium, with a free tier to start.
+Jitsu is freemium, with a free tier to start, paid plans start at $99/mo as of 2026-09.
 
 Free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits.
 
@@ -82,10 +82,10 @@ The strongest option for teams that want Segment-like event collection with ware
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ The free cloud plan caps connectors at one daily active sync, so anything past event streaming sits on a paid plan. |
-| ✓ AI capabilities: MCP Server for agent-driven setup | ✗ Multiplexed and filtered events have billing edge cases that need reading the FAQ before budgeting. |
-| ✓ Active public repository (5,096 GitHub stars counted at last check) | ✗ Community support is the open-source path; the repository is active but not huge at 5,096 GitHub stars. |
-| ✓ Native integrations include BigQuery, Snowflake, Google Analytics 4 (6 listed) |  |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $99/mo once past the free tier |
+| ✓ AI capabilities: MCP Server for agent-driven setup | ✗ The free cloud plan caps connectors at one daily active sync, so anything past event streaming sits on a paid plan. |
+| ✓ Active public repository (5,096 GitHub stars counted at last check) | ✗ Multiplexed and filtered events have billing edge cases that need reading the FAQ before budgeting. |
+| ✓ Native integrations include BigQuery, Snowflake, Google Analytics 4 (6 listed) | ✗ Community support is the open-source path; the repository is active but not huge at 5,096 GitHub stars. |
 | ✓ Captured events are unlimited and free on every plan, so ingest volume alone never drives cost. |  |
 | ✓ Self-hosting the MIT-licensed code carries no usage limits and no licence fee. |  |
 | ✓ Deployment covers Jitsu Cloud, managed single-tenant private cloud on GCP or AWS, and on-premises as one product. |  |
@@ -107,7 +107,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,096 stars.
 
 **How much does Jitsu cost?**
-Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,096 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences.
+Jitsu has a free tier; paid plans start at $99/mo. Free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits. We last checked both ends of that split on 2026-09-25. The pricing section above shows what the free tier actually covers."
 
 **Is Jitsu worth it past the free tier?**
 The strongest option for teams that want Segment-like event collection with warehouse ownership and an open-source escape hatch. Read the active event rules before estimating the bill.
@@ -123,6 +123,10 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 
 ## Similar Tools
 
+- [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
+- [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
+- [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -134,7 +138,7 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 - [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best fully open-source event collection for self-hosting the pipeline.
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $99/mo
 - **Category:** [Personalization & CDP](/categories/personalization/)
 - **GitHub:** ★ 5096
 - **Founded:** 2020
@@ -192,13 +196,22 @@ Open-source web analytics platform with full data ownership and AI-powered insig
     "operatingSystem": "Web",
     "dateModified": "2026-10-02",
     "datePublished": "2026-09-25",
-    "offers": {
-      "@type": "Offer",
-      "price": 0,
-      "priceCurrency": "USD",
-      "url": "https://jitsu.com/pricing",
-      "priceValidUntil": "2026-12-31"
-    }
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "url": "https://jitsu.com/pricing",
+        "priceValidUntil": "2026-12-24"
+      },
+      {
+        "@type": "Offer",
+        "price": 99,
+        "priceCurrency": "USD",
+        "url": "https://jitsu.com/pricing",
+        "priceValidUntil": "2026-12-24"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",
@@ -228,7 +241,8 @@ Open-source web analytics platform with full data ownership and AI-powered insig
         "name": "Jitsu",
         "item": "https://martechsignal.com/tools/jitsu/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/jitsu/#breadcrumb"
   },
   {
     "@context": "https://schema.org",
@@ -247,7 +261,7 @@ Open-source web analytics platform with full data ownership and AI-powered insig
         "name": "How much does Jitsu cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,096 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences."
+          "text": "Jitsu has a free tier; paid plans start at $99/mo. Free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits. We last checked both ends of that split on 2026-09-25. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {

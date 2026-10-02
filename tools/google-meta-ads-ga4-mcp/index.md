@@ -130,6 +130,10 @@ Two layers. The repo is MIT licensed and its pricing FAQ states the MCP server i
 
 ## Similar Tools
 
+- [Claude Ads](/tools/claude-ads/): Paid-media operations skill for Claude Code covering 12 ad platforms
+- [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors
+- [Claude SEO](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
+- [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -202,7 +206,7 @@ Autonomous AI platform that manages and optimizes digital advertising campaigns
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://www.get-ryze.ai/payment-setup",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -233,7 +237,8 @@ Autonomous AI platform that manages and optimizes digital advertising campaigns
         "name": "Google Ads + Meta Ads + GA4 MCP",
         "item": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

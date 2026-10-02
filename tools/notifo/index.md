@@ -133,6 +133,10 @@ No, they are unrelated projects with confusingly similar names. Notifo (notifo-i
 
 ## Similar Tools
 
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+- [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+- [Loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -172,10 +176,6 @@ Loops
 
 Email marketing for SaaS: marketing, product, and transactional email in one tool
 
-Listmonk
-
-Open-source self-hosted newsletter and mailing list manager with a fast Go backend
-
 [More Email Marketing Tools →](/categories/email-marketing/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -204,7 +204,7 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://notifo.io",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -235,7 +235,8 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
         "name": "Notifo",
         "item": "https://martechsignal.com/tools/notifo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/notifo/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

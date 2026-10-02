@@ -141,6 +141,10 @@ Postmark ships tooling for AI agents rather than AI features. The official MCP s
 
 ## Similar Tools
 
+- [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+- [Twilio SendGrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -207,14 +211,14 @@ Scalable email delivery API with AI-powered deliverability and engagement tools
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://postmarkapp.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 15,
         "priceCurrency": "USD",
         "url": "https://postmarkapp.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -246,7 +250,8 @@ Scalable email delivery API with AI-powered deliverability and engagement tools
         "name": "Postmark",
         "item": "https://martechsignal.com/tools/postmark/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/postmark/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

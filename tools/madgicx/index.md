@@ -116,6 +116,10 @@ The most complete Meta-only operating layer in the directory: real breadth acros
 
 ## Similar Tools
 
+- [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Smartly.io](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
+- [Pencil](/tools/pencil/): AI-powered ad creative generation and performance prediction for paid media
+- [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
@@ -158,10 +162,6 @@ Triple Whale
 
 AI-powered ecommerce analytics and attribution platform for DTC brands
 
-Revive Adserver
-
-Free open source ad server for publishers, ad networks and advertisers
-
 [More Advertising & Paid Media Tools →](/categories/advertising/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -190,7 +190,7 @@ Free open source ad server for publishers, ad networks and advertisers
       "price": 49,
       "priceCurrency": "USD",
       "url": "https://madgicx.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -221,7 +221,8 @@ Free open source ad server for publishers, ad networks and advertisers
         "name": "Madgicx",
         "item": "https://martechsignal.com/tools/madgicx/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/madgicx/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -135,6 +135,10 @@ Yes, for training. The Workato Automation Institute's certificate programs (Auto
 
 ## Similar Tools
 
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+- [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
@@ -236,7 +240,8 @@ Enterprise customer data platform with real-time data orchestration and AI
         "name": "Workato",
         "item": "https://martechsignal.com/tools/workato/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/workato/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

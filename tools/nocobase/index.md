@@ -127,6 +127,10 @@ Yes, NocoBase runs a live demo on its website, and because the core is open sour
 
 ## Similar Tools
 
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+- [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 ## Related reading
 
 - [How NocoBase compares with NocoDB and Budibase for self-hosted marketing ops](/blog/nocobase-vs-nocodb-vs-budibase/)
@@ -170,10 +174,6 @@ ToolJet
 
 Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 
-Microsoft Power Automate
-
-Enterprise workflow automation inside the Microsoft Power Platform
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -202,7 +202,7 @@ Enterprise workflow automation inside the Microsoft Power Platform
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://www.nocobase.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-04"
     }
   },
   {
@@ -233,7 +233,8 @@ Enterprise workflow automation inside the Microsoft Power Platform
         "name": "NocoBase",
         "item": "https://martechsignal.com/tools/nocobase/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/nocobase/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

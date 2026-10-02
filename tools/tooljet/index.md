@@ -147,6 +147,10 @@ Yes, through the ToolJet MCP server, which the README marks as beta. You create 
 
 ## Similar Tools
 
+- [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
+- [Appsmith](/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
+- [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -214,14 +218,14 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://tooljet.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 79,
         "priceCurrency": "USD",
         "url": "https://tooljet.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -253,7 +257,8 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
         "name": "ToolJet",
         "item": "https://martechsignal.com/tools/tooljet/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/tooljet/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

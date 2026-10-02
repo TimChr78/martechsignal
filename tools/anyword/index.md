@@ -110,6 +110,10 @@ Valuable when you need an instant, numbers-based copy check across many channels
 
 ## Similar Tools
 
+- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [ContentBot](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
+- [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
+- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
@@ -153,10 +157,6 @@ Jasper
 
 AI marketing content platform for creating on-brand copy, images, and campaigns
 
-LibreTranslate
-
-Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
-
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -185,7 +185,7 @@ Open-source machine translation API for content localization, self-hostable and 
       "price": 39,
       "priceCurrency": "USD",
       "url": "https://www.anyword.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -216,7 +216,8 @@ Open-source machine translation API for content localization, self-hostable and 
         "name": "Anyword",
         "item": "https://martechsignal.com/tools/anyword/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/anyword/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

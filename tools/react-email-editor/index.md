@@ -143,6 +143,10 @@ If you need a fully open pipeline with no third-party dependency, yes, and you s
 
 ## Similar Tools
 
+- [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+- [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -186,10 +190,6 @@ Notifuse
 
 Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 
-BillionMail
-
-Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
-
 [More Email Marketing Tools →](/categories/email-marketing/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -219,14 +219,14 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://unlayer.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-05"
       },
       {
         "@type": "Offer",
         "price": 250,
         "priceCurrency": "USD",
         "url": "https://unlayer.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-05"
       }
     ]
   },
@@ -258,7 +258,8 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
         "name": "React Email Editor",
         "item": "https://martechsignal.com/tools/react-email-editor/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/react-email-editor/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

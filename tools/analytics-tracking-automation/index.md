@@ -107,6 +107,10 @@ Free and fast if tracking keeps slipping through the cracks. Review every schema
 
 ## Similar Tools
 
+- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+- [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+- [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+- [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -174,7 +178,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://www.jtracking.ai/skills",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -205,7 +209,8 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
         "name": "Analytics Tracking Automation",
         "item": "https://martechsignal.com/tools/analytics-tracking-automation/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/analytics-tracking-automation/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

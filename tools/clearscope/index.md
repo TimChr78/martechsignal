@@ -110,6 +110,10 @@ The reference tool for SEO copy scoring. Best when paired with a writer who want
 
 ## Similar Tools
 
+- [Surfer SEO](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
+- [Frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
+- [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
+- [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -181,7 +185,7 @@ AI-powered content strategy and optimization platform for SEO content teams
       "price": 129,
       "priceCurrency": "USD",
       "url": "https://www.clearscope.io/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -212,7 +216,8 @@ AI-powered content strategy and optimization platform for SEO content teams
         "name": "Clearscope",
         "item": "https://martechsignal.com/tools/clearscope/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/clearscope/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

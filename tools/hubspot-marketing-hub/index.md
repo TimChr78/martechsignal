@@ -114,6 +114,10 @@ The sensible default for SMB and growth teams that want one system. Fragments wh
 
 ## Similar Tools
 
+- [ActiveCampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [Mautic](/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management
+- [Ortto](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -190,14 +194,14 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.hubspot.com/pricing/marketing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 20,
         "priceCurrency": "USD",
         "url": "https://www.hubspot.com/pricing/marketing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -229,7 +233,8 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
         "name": "HubSpot Marketing Hub",
         "item": "https://martechsignal.com/tools/hubspot-marketing-hub/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/hubspot-marketing-hub/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

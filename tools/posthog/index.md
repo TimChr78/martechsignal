@@ -128,6 +128,10 @@ PostHog AI answers questions about your data in plain language across web, Slack
 
 ## Similar Tools
 
+- [Mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
+- [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
+- [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
+- [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -173,10 +177,6 @@ Matomo
 
 Open-source web analytics platform with full data ownership and AI-powered insights
 
-Snowplow
-
-Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
-
 [More Analytics & Attribution Tools →](/categories/analytics/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -205,7 +205,7 @@ Customer context infrastructure: behavioral event pipeline for warehouses and AI
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://posthog.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -236,7 +236,8 @@ Customer context infrastructure: behavioral event pipeline for warehouses and AI
         "name": "PostHog",
         "item": "https://martechsignal.com/tools/posthog/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/posthog/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

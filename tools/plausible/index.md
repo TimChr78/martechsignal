@@ -109,6 +109,10 @@ The analytics tool we recommend by default for content and marketing sites; powe
 
 ## Similar Tools
 
+- [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
+- [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
+- [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
+- [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -183,14 +187,14 @@ Open-source publishing platform with built-in newsletters, memberships, and AI t
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://plausible.io/#pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 9,
         "priceCurrency": "USD",
         "url": "https://plausible.io/#pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -222,7 +226,8 @@ Open-source publishing platform with built-in newsletters, memberships, and AI t
         "name": "Plausible Analytics",
         "item": "https://martechsignal.com/tools/plausible/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/plausible/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

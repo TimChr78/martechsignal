@@ -128,6 +128,10 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 
 ## Similar Tools
 
+- [Krayin CRM](/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
+- [SuiteCRM](/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation
+- [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
+- [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -173,10 +177,6 @@ Pipedrive
 
 Sales-focused CRM with AI-powered pipeline management and deal forecasting
 
-Ever Gauzy
-
-Open business management platform: ERP, CRM, HRM, ATS, and time tracking
-
 [More CRM Tools →](/categories/crm/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -206,14 +206,14 @@ Open business management platform: ERP, CRM, HRM, ATS, and time tracking
         "price": 0,
         "priceCurrency": "EUR",
         "url": "https://www.espocrm.com/cloud/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 12.9,
         "priceCurrency": "EUR",
         "url": "https://www.espocrm.com/cloud/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -245,7 +245,8 @@ Open business management platform: ERP, CRM, HRM, ATS, and time tracking
         "name": "EspoCRM",
         "item": "https://martechsignal.com/tools/espocrm/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/espocrm/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

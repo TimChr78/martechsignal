@@ -146,6 +146,10 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 
 ## Similar Tools
 
+- [Plausible Analytics](/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
+- [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
+- [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
+- [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -223,14 +227,14 @@ AI-powered ecommerce analytics and attribution platform for DTC brands
         "price": 0,
         "priceCurrency": "EUR",
         "url": "https://matomo.org/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-05"
       },
       {
         "@type": "Offer",
         "price": 22,
         "priceCurrency": "EUR",
         "url": "https://matomo.org/pricing/",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-05"
       }
     ]
   },
@@ -262,7 +266,8 @@ AI-powered ecommerce analytics and attribution platform for DTC brands
         "name": "Matomo",
         "item": "https://martechsignal.com/tools/matomo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/matomo/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

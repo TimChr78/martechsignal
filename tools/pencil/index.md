@@ -136,6 +136,10 @@ Yes. Brandtech Group branding appears across the site, the legal entity in the f
 
 ## Similar Tools
 
+- [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Smartly.io](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
+- [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
+- [AdCreative.ai](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
@@ -207,7 +211,7 @@ AI platform generating high-converting ad creatives and social media post design
       "price": 11,
       "priceCurrency": "USD",
       "url": "https://trypencil.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-05"
     }
   },
   {
@@ -238,7 +242,8 @@ AI platform generating high-converting ad creatives and social media post design
         "name": "Pencil",
         "item": "https://martechsignal.com/tools/pencil/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/pencil/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -119,6 +119,10 @@ A GEO analytics layer for the AI-search era: real-interface collection, MCP acce
 
 ## Similar Tools
 
+- [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+- [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+- [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -157,10 +161,6 @@ AccuRanker
 
 Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
 
-Frase
-
-AI-powered SEO content platform for research, writing, and AI visibility tracking
-
 [More SEO & Search Tools →](/categories/seo/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -189,7 +189,7 @@ AI-powered SEO content platform for research, writing, and AI visibility trackin
       "price": 79,
       "priceCurrency": "EUR",
       "url": "https://www.superlines.io/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -220,7 +220,8 @@ AI-powered SEO content platform for research, writing, and AI visibility trackin
         "name": "Superlines",
         "item": "https://martechsignal.com/tools/superlines/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/superlines/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

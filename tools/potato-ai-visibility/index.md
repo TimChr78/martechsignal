@@ -108,6 +108,10 @@ The most methodologically honest AI-visibility tool in this directory: scoped cl
 
 ## Similar Tools
 
+- [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+- [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+- [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+- [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 ## Related reading
 
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
@@ -175,7 +179,7 @@ AI search tracking across 8 models with an agent that writes, fixes, and outreac
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://github.com/onism1767-creator/potato",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-29"
     }
   },
   {
@@ -206,7 +210,8 @@ AI search tracking across 8 models with an agent that writes, fixes, and outreac
         "name": "Potato",
         "item": "https://martechsignal.com/tools/potato-ai-visibility/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/potato-ai-visibility/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

@@ -36,6 +36,8 @@ LLMs improved listening analysis substantially: they read nuance that keyword se
 
 ## Tools in this space
 
+- [Brandwatch](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform
+- [Buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools
 Sources: [Brandwatch](https://www.brandwatch.com) · [Buffer](https://buffer.com)
 
 ### Categories

@@ -111,6 +111,10 @@ Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly c
 
 ## Similar Tools
 
+- [Tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support
+- [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
+- [Chatwoot](/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting
+- [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
@@ -155,10 +159,6 @@ Customer.io
 
 Data-driven messaging platform for automated email, push, SMS, and in-app messages
 
-ChatbotX
-
-Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
-
 Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 
 [More Chatbots & Conversational AI Tools →](/categories/chatbots/)
@@ -189,7 +189,7 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
       "price": 29,
       "priceCurrency": "USD",
       "url": "https://www.intercom.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -220,7 +220,8 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
         "name": "Intercom",
         "item": "https://martechsignal.com/tools/intercom/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/intercom/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

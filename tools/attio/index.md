@@ -113,6 +113,10 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 
 ## Similar Tools
 
+- [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -156,10 +160,6 @@ HubSpot CRM
 
 Free AI-powered CRM platform with sales, service, and marketing tools unified
 
-ProspectOS
-
-Open-source lead prospecting CRM with Google Maps and Instagram scraping
-
 [More CRM Tools →](/categories/crm/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -189,14 +189,14 @@ Open-source lead prospecting CRM with Google Maps and Instagram scraping
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://attio.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       },
       {
         "@type": "Offer",
         "price": 29,
         "priceCurrency": "USD",
         "url": "https://attio.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-11-26"
       }
     ]
   },
@@ -228,7 +228,8 @@ Open-source lead prospecting CRM with Google Maps and Instagram scraping
         "name": "Attio",
         "item": "https://martechsignal.com/tools/attio/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/attio/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

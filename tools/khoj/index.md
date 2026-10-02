@@ -124,6 +124,10 @@ AGPL-3.0 covers the code. Using it internally is straightforward; deploying a mo
 
 ## Similar Tools
 
+- [Strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
+- [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
+- [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
+- [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -162,10 +166,6 @@ DeskcommCRM
 
 Self-hosted open-source CRM with AI agents that sell through WhatsApp
 
-Jasper
-
-AI marketing content platform for creating on-brand copy, images, and campaigns
-
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -194,7 +194,7 @@ AI marketing content platform for creating on-brand copy, images, and campaigns
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://khoj.dev",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -225,7 +225,8 @@ AI marketing content platform for creating on-brand copy, images, and campaigns
         "name": "Khoj",
         "item": "https://martechsignal.com/tools/khoj/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/khoj/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

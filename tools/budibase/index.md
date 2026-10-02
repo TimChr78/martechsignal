@@ -147,6 +147,10 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 
 ## Similar Tools
 
+- [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Appsmith](/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
+- [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
 ## Related reading
 
 - [Budibase next to NocoBase and NocoDB: choosing between the three](/blog/nocobase-vs-nocodb-vs-budibase/)
@@ -187,10 +191,6 @@ Tray.io
 
 AI-powered integration platform for building custom automation and AI agents
 
-Pipedream
-
-Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -220,14 +220,14 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://budibase.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 19,
         "priceCurrency": "USD",
         "url": "https://budibase.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -259,7 +259,8 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
         "name": "Budibase",
         "item": "https://martechsignal.com/tools/budibase/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/budibase/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

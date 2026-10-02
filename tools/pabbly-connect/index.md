@@ -94,6 +94,10 @@ Strengths include an API for custom integrations. Paid plans start at $16/mo
 
 ## Similar Tools
 
+- [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -160,7 +164,7 @@ Open-source workflow automation with a free cloud tier and on-prem hosting
       "price": 16,
       "priceCurrency": "USD",
       "url": "https://www.pabbly.com/connect/#pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-26"
     }
   },
   {
@@ -191,7 +195,8 @@ Open-source workflow automation with a free cloud tier and on-prem hosting
         "name": "Pabbly Connect",
         "item": "https://martechsignal.com/tools/pabbly-connect/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/pabbly-connect/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

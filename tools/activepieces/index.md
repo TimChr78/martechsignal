@@ -99,6 +99,10 @@ Strengths include 24,836 GitHub stars, open-source licensing with free self-host
 
 ## Similar Tools
 
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+- [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
 ## Related reading
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
@@ -139,10 +143,6 @@ Workato
 
 Enterprise AI governance plus integration and automation on one platform
 
-LangChain
-
-Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -172,14 +172,14 @@ Open-source framework for building AI agents, chaining LLM calls, and connecting
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.activepieces.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-26"
       },
       {
         "@type": "Offer",
         "price": 20,
         "priceCurrency": "USD",
         "url": "https://www.activepieces.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-26"
       }
     ]
   },
@@ -211,7 +211,8 @@ Open-source framework for building AI agents, chaining LLM calls, and connecting
         "name": "Activepieces",
         "item": "https://martechsignal.com/tools/activepieces/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/activepieces/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

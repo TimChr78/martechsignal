@@ -129,6 +129,10 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 
 ## Similar Tools
 
+- [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+- [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+- [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+- [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -167,10 +171,6 @@ DeskcommCRM
 
 Self-hosted open-source CRM with AI agents that sell through WhatsApp
 
-Salesforce CRM
-
-Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
-
 [More CRM Tools →](/categories/crm/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -199,7 +199,7 @@ Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://warpdrivecrm.com",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-06"
     }
   },
   {
@@ -230,7 +230,8 @@ Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
         "name": "Warpdrive",
         "item": "https://martechsignal.com/tools/warpdrive/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/warpdrive/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

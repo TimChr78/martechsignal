@@ -106,6 +106,10 @@ The most complete all-in-one SEO platform on the market; buy the tier you need, 
 
 ## Similar Tools
 
+- [Surfer SEO](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
+- [Frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
+- [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
+- [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -181,7 +185,7 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
       "price": 117,
       "priceCurrency": "USD",
       "url": "https://www.semrush.com/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -212,7 +216,8 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
         "name": "Semrush",
         "item": "https://martechsignal.com/tools/semrush/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/semrush/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

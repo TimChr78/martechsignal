@@ -102,6 +102,10 @@ Strengths include 4,350 GitHub stars, MIT licensing with free self-hosting, an A
 
 ## Similar Tools
 
+- [WaCRM](/tools/wacrm/): Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations
+- [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+- [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+- [Khoj](/tools/khoj/): Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -169,7 +173,7 @@ Self-hosted AI research and writing assistant that chats with your documents and
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://deskcomm.com.br/#preco",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-13"
     }
   },
   {
@@ -200,7 +204,8 @@ Self-hosted AI research and writing assistant that chats with your documents and
         "name": "DeskcommCRM",
         "item": "https://martechsignal.com/tools/deskcommcrm/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/deskcommcrm/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

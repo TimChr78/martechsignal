@@ -111,6 +111,10 @@ The pragmatic pick when you want automation plus AI agents in one product and yo
 
 ## Similar Tools
 
+- [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
+- [Adobe Marketo Engage](/tools/adobe-marketo/): Enterprise B2B marketing automation with AI-driven lead management and engagement
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -157,10 +161,6 @@ n8n
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
-ALwrity
-
-AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
-
 Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 
 [More Marketing Automation Tools →](/categories/marketing-automation/)
@@ -191,7 +191,7 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
       "price": 15,
       "priceCurrency": "USD",
       "url": "https://www.activecampaign.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-26"
     }
   },
   {
@@ -222,7 +222,8 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
         "name": "ActiveCampaign",
         "item": "https://martechsignal.com/tools/activecampaign/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/activecampaign/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

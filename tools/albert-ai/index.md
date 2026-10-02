@@ -111,6 +111,10 @@ Strong for enterprise media teams with large budgets and mature conversion track
 
 ## Similar Tools
 
+- [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
+- [Smartly.io](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
+- [AdCreative.ai](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
+- [Pencil](/tools/pencil/): AI-powered ad creative generation and performance prediction for paid media
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -206,7 +210,8 @@ AI-powered ad creative generation and performance prediction for paid media
         "name": "Albert AI",
         "item": "https://martechsignal.com/tools/albert-ai/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/albert-ai/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

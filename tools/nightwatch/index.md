@@ -120,6 +120,10 @@ The trial runs 14 days with the full toolkit and no credit card required. If it 
 
 ## Similar Tools
 
+- [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+- [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+- [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+- [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -157,10 +161,6 @@ Nimt.ai
 
 AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 
-Profound
-
-Enterprise AI marketing platform: answer-engine visibility plus drafting agents
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -189,7 +189,7 @@ Enterprise AI marketing platform: answer-engine visibility plus drafting agents
       "price": 79,
       "priceCurrency": "EUR",
       "url": "https://nightwatch.io/pricing/",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-24"
     }
   },
   {
@@ -220,7 +220,8 @@ Enterprise AI marketing platform: answer-engine visibility plus drafting agents
         "name": "Nightwatch",
         "item": "https://martechsignal.com/tools/nightwatch/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/nightwatch/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

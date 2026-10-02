@@ -145,6 +145,10 @@ Every Captain action consumes 1 credit per message because a fixed model configu
 
 ## Similar Tools
 
+- [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
+- [Tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support
+- [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+- [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
@@ -219,14 +223,14 @@ The AI Customer Experience Platform: monitor, optimize and serve your site to AI
         "price": 0,
         "priceCurrency": "USD",
         "url": "https://www.chatwoot.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       },
       {
         "@type": "Offer",
         "price": 19,
         "priceCurrency": "USD",
         "url": "https://www.chatwoot.com/pricing",
-        "priceValidUntil": "2026-12-31"
+        "priceValidUntil": "2026-12-06"
       }
     ]
   },
@@ -258,7 +262,8 @@ The AI Customer Experience Platform: monitor, optimize and serve your site to AI
         "name": "Chatwoot",
         "item": "https://martechsignal.com/tools/chatwoot/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/chatwoot/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

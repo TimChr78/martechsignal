@@ -40,6 +40,9 @@ This entry is about AI by definition; the practical note is that agent quality c
 
 ## Tools in this space
 
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Make](/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
+- [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
 ## Related terms
 
 [ABM](/glossary/abm/) · [Agentic Marketing](/glossary/agentic-marketing/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing automation](/glossary/marketing-automation/) · [Marketing ops](/glossary/marketing-ops/)

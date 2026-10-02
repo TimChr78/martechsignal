@@ -945,6 +945,10 @@ Yes. The catalog records a public API for Hightouch, so custom integrations are 
 
 ## Similar Tools
 
+- [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
+- [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
+- [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
 ## Related reading
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
@@ -1016,7 +1020,7 @@ Open-source Segment alternative for event capture and warehouse-first data pipel
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://hightouch.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-12-30"
     }
   },
   {
@@ -1047,7 +1051,8 @@ Open-source Segment alternative for event capture and warehouse-first data pipel
         "name": "Hightouch",
         "item": "https://martechsignal.com/tools/hightouch/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/hightouch/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

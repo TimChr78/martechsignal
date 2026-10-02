@@ -11,38 +11,22 @@ Campaign platforms, lifecycle automation, and transactional delivery APIs, from 
 
 ## All tools in this category**
 
-### BillionMail
-
-### Brevo
-
-### Customer.io
-
-### Klaviyo
-
-### Listmonk
-
-### Loops
-
-### Mailchimp
-
-### Maizzle
-
-### Notifo
-
-### Notifuse
-
-### OpenOutreach
-
-### Postmark
-
-### React Email Editor
-
-### Resend
-
-### Twilio SendGrid
-
-### Warmbly
-
+- [billionmail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+- [brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
+- [customer-io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [klaviyo](/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
+- [listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+- [loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
+- [mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
+- [maizzle](/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns
+- [notifo](/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push
+- [notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+- [openoutreach](/tools/openoutreach/): Open-source AI lead finder: describe your product and it finds and qualifies the leads
+- [postmark](/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers
+- [react-email-editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
+- [resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
+- [sendgrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
+- [warmbly](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 **Compare:** [ActiveCampaign vs Klaviyo](/vs/activecampaign-vs-klaviyo/) · [Mailchimp vs Klaviyo](/vs/mailchimp-vs-klaviyo/) · [Mailchimp vs Brevo](/vs/mailchimp-vs-brevo/) · [Mailchimp alternatives](/alternatives/mailchimp/) · [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 
 ## Key terms

@@ -109,6 +109,10 @@ A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B tea
 
 ## Similar Tools
 
+- [ManyChat](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
+- [Tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support
+- [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
+- [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
@@ -180,7 +184,7 @@ AI-first customer service platform with Fin AI agent and omnichannel messaging
       "price": 39,
       "priceCurrency": "USD",
       "url": "https://chatfuel.com/pricing",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -211,7 +215,8 @@ AI-first customer service platform with Fin AI agent and omnichannel messaging
         "name": "Chatfuel",
         "item": "https://martechsignal.com/tools/chatfuel/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/chatfuel/#breadcrumb"
   },
   {
     "@context": "https://schema.org",

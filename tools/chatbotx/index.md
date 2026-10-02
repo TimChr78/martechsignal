@@ -91,6 +91,10 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 
 ## Similar Tools
 
+- [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
+- [ManyChat](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
+- [Laudspeaker](/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -166,7 +170,7 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://chatbotx.io/docs",
-      "priceValidUntil": "2026-12-31"
+      "priceValidUntil": "2026-11-26"
     }
   },
   {
@@ -197,7 +201,8 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
         "name": "ChatbotX",
         "item": "https://martechsignal.com/tools/chatbotx/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/tools/chatbotx/#breadcrumb"
   },
   {
     "@context": "https://schema.org",
