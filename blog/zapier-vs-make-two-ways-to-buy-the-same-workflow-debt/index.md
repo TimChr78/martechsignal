@@ -1,18 +1,5 @@
 # Two Ways to Buy the Same Workflow Debt
 
-
-|  | Zapier | Make |
-| --- | --- | --- |
-| Free tier | 100 tasks/mo, two-step Zaps only | 1,000 credits/mo, 2 active scenarios, 15-minute schedule floor |
-| Entry paid plan | Professional from $19.99/mo annual ($29.99 monthly), 750 tasks included | Core $9/mo for 10,000 credits |
-| Team tier | ~$69/mo per user, annual | Teams $29/mo for 10,000 credits |
-| App catalog | 9,000+ | 3,000+ |
-| What counts | Every action step that moves data, including AI steps, code, and SDK calls | Every module action, including AI toolkit calls; code runs bill 2 credits per second |
-| AI agent layer | Agents Pro: $400 billed annually ($33.33/mo) for 1,500 automated behaviors/mo, separate from core plans | AI Agents (beta) on all plans, metered in the same credits, via Make's AI provider or your own LLM key |
-| Workflow export | JSON export documented for Team and Enterprise accounts | Blueprint JSON export/import on every plan |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 AUTOMATION · ZAPIER · 10 MIN
 
 ## Two ways to buy the same workflow debt: task-metered and operations-metered
@@ -21,7 +8,7 @@ AUTOMATION · ZAPIER · 10 MIN
 
 [Home](/) · [Blog](/blog/) · Two ways to buy the same workflow debt: task-metered and operations-metered
 
-AUG 27, 2026 · Updated 2026-10-02
+AUG 27, 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 
@@ -38,6 +25,17 @@ Neither pick endorses the model underneath. Both platforms bill you every time y
 ## The meter is the product
 
 Pricing verified from [zapier.com/pricing](https://zapier.com/pricing) and [make.com/en/pricing](https://www.make.com/en/pricing) on August 27, 2026:
+
+
+|  | Zapier | Make |
+| --- | --- | --- |
+| Free tier | 100 tasks/mo, two-step Zaps only | 1,000 credits/mo, 2 active scenarios, 15-minute schedule floor |
+| Entry paid plan | Professional from $19.99/mo annual ($29.99 monthly), 750 tasks included | Core $9/mo for 10,000 credits |
+| Team tier | ~$69/mo per user, annual | Teams $29/mo for 10,000 credits |
+| App catalog | 9,000+ | 3,000+ |
+| What counts | Every action step that moves data, including AI steps, code, and SDK calls | Every module action, including AI toolkit calls; code runs bill 2 credits per second |
+| AI agent layer | Agents Pro: $400 billed annually ($33.33/mo) for 1,500 automated behaviors/mo, separate from core plans | AI Agents (beta) on all plans, metered in the same credits, via Make's AI provider or your own LLM key |
+| Workflow export | JSON export documented for Team and Enterprise accounts | Blueprint JSON export/import on every plan |
 
 Now the math both vendors hope you skip. Take one ordinary lead-intake workflow: webhook in, enrich, add to CRM, Slack the team, log to a sheet. Five action steps. If it fires 1,000 times in a month, that is 5,000 tasks on Zapier, which is nearly seven times the allowance in the base Professional plan. On Make the same month burns 5,000 credits, half of a $9 Core plan.
 
@@ -126,6 +124,8 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -157,7 +157,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-08-27",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/",
   "image": {
     "@type": "ImageObject",
@@ -203,7 +203,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/", "breadcrumb": {"@id": "https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/", "breadcrumb": {"@id": "https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/#breadcrumb"}, "dateModified": "2026-08-27"}
 ```
 
 ```json

@@ -1,60 +1,5 @@
 # Predis.ai review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free plan, Core $19/mo with Pro and Agency tiers above it and annual discounts, all starting from published numbers (the vendor pricing page: [pricing page](https://predis.ai/pricing/), verified 2026-08-28). |
-| Feature depth | 5/10 | Post, video and carousel generation with a content calendar cover the social output workflow (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
-| Integrations | 4/10 | Canva, Shopify, Zapier, Meta Business Suite, WordPress and GA documented plus an API (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
-| AI capability | 6/10 | Multi-format generation plus competitor analysis make it a content engine rather than a scheduler (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
-| Operational maturity | 4/10 | Founded 2019 with light pricing and no enterprise track record in the catalog (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI post generation | ✗ Paid plans start at $19/mo once past the free tier |
-| ✓ Native integrations include Canva, Shopify, Zapier (6 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts) |  |
-
-**What is Predis.ai?**
-Predis.ai: AI-powered social media content generator for posts, videos, and ad creatives. Predis.ai ships with AI post generation. This page documents 6 integrations.
-
-**How much does Predis.ai cost?**
-Predis.ai has a free tier; paid plans start at $19/mo. Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
-
-**Is Predis.ai worth it past the free tier?**
-Efficient social content factory for small brands; B2B nuance still needs a human editor.
-
-- **Pricing:** Freemium
-- **Category:** [Social Media](/categories/social-media/)
-- **Founded:** 2019
-- **HQ:** Pune, India
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Predis.ai is a tool in Social Media with a free tier. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Hootsuite
-
-Social media management platform with AI-powered scheduling and analytics
-
-Sprout Social
-
-Enterprise social media management with AI-powered analytics and engagement tools
-
-Buffer
-
-Simple social media scheduling and analytics with AI-powered content tools
-
-MultiPost
-
-Browser extension to publish content to multiple social media platforms with one click
-
-[More Social Media Tools →](/categories/social-media/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
@@ -67,7 +12,7 @@ AI-powered social media content generator for posts, videos, and ad creatives
 
 Social Media · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Predis.ai →](https://predis.ai)
 
@@ -78,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 30/60
 
 Predis.ai generates posts, carousels and video ads at a price a solo marketer can pay. The output volume is the pitch; brand judgment remains yours.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free plan, Core $19/mo with Pro and Agency tiers above it and annual discounts, all starting from published numbers (the vendor pricing page: [pricing page](https://predis.ai/pricing/), verified 2026-08-28). |
+| Feature depth | 5/10 | Post, video and carousel generation with a content calendar cover the social output workflow (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
+| Integrations | 4/10 | Canva, Shopify, Zapier, Meta Business Suite, WordPress and GA documented plus an API (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
+| AI capability | 6/10 | Multi-format generation plus competitor analysis make it a content engine rather than a scheduler (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2019 with light pricing and no enterprise track record in the catalog (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -125,6 +80,13 @@ Efficient social content factory for small brands; B2B nuance still needs a huma
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI post generation | ✗ Paid plans start at $19/mo once past the free tier |
+| ✓ Native integrations include Canva, Shopify, Zapier (6 listed) | ✗ Closed source - no self-hosting option |
+| ✓ Free tier to evaluate before committing (Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts) |  |
+
 ## Related concepts
 
 - [Social listening](/glossary/social-listening/)
@@ -136,10 +98,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Predis.ai?**
 Predis.ai: AI-powered social media content generator for posts, videos, and ad creatives. Predis.ai ships with AI post generation. This page documents 6 integrations.
 
+**How much does Predis.ai cost?**
 Predis.ai has a free tier; paid plans start at $19/mo. Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
+**Is Predis.ai worth it past the free tier?**
 Efficient social content factory for small brands; B2B nuance still needs a human editor.
 
 ## Similar Tools
@@ -154,6 +119,13 @@ Efficient social content factory for small brands; B2B nuance still needs a huma
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Solo marketers that want daily post volume on a small budget
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Social Media](/categories/social-media/)
+- **Founded:** 2019
+- **HQ:** Pune, India
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 
 ## Get the next teardown
@@ -161,6 +133,28 @@ Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Predis.ai is a tool in Social Media with a free tier. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Hootsuite
+
+Social media management platform with AI-powered scheduling and analytics
+
+Sprout Social
+
+Enterprise social media management with AI-powered analytics and engagement tools
+
+Buffer
+
+Simple social media scheduling and analytics with AI-powered content tools
+
+MultiPost
+
+Browser extension to publish content to multiple social media platforms with one click
+
+[More Social Media Tools →](/categories/social-media/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -179,7 +173,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/predis-ai/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -291,7 +285,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/predis-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/predis-ai/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/predis-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/predis-ai/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

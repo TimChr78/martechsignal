@@ -1,68 +1,5 @@
 # Postmark review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free 100 emails/mo without overages; Basic $15/mo, Pro $16.50/mo, Platform $18/mo each starting at 10K emails, published (the vendor pricing page: [pricing page](https://postmarkapp.com/pricing), verified 2026-09-28). |
-| Feature depth | 5/10 | Transactional email with separated message streams and delivery diagnostics cover the sending job (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
-| Integrations | 6/10 | Slack, Zapier, WordPress, Customer.io, Supabase, Stripe, Netlify and Datadog documented plus an API (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
-| AI capability | 5/10 | An MCP server with 24 tools, agent skills and a documented AI prompt library (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with strong API and MCP access (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
-| Operational maturity | 7/10 | Long-running transactional email service with published delivery numbers (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: MCP server with 24 tools and delivery diagnostics | ✗ Paid plans start at $15/mo once past the free tier |
-| ✓ Native integrations include Slack, Zapier, WordPress (8 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free plan 100 emails/mo (no overages)) |  |
-
-**What is Postmark?**
-Postmark: Transactional email API with separated message streams, an MCP server, and published delivery numbers. Postmark ships with MCP server with 24 tools and delivery diagnostics. This page documents 8 integrations.
-
-**How much does Postmark cost?**
-Postmark has a free tier; paid plans start at $15/mo. Free plan 100 emails/mo (no overages); Basic $15/mo, Pro $16.50/mo, Platform $18/mo, each starting at 10,000 emails; no annual billing; dedicated IPs from $50/mo for 300k+/mo senders. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
-
-**Is Postmark worth it past the free tier?**
-The transactional specialist, now with agent tooling and a published engineering track record; pay the per-email premium for mail where speed and reputation are revenue.
-
-**Does Postmark support marketing email?**
-Yes, with boundaries. Every server gets three default streams: outbound (transactional), broadcasts, and inbound, and a server can hold up to ten streams. Postmark states that transactional and broadcast traffic never intersect, including IP ranges, so broadcasts run on their own infrastructure. What it does not offer is the rest of the marketing job: no list management, no campaign builder, no automation. Inbound processing is limited to Pro and Platform plans.
-
-**What does Postmark cost after the free plan?**
-The free plan covers 100 emails a month with no overages. Paid plans all start at 10,000 emails a month: Basic at $15, Pro at $16.50, and Platform at $18, with overage rates of $1.80, $1.30, and $1.20 per thousand respectively. Volume pricing is published up to 1.5 million emails a month ($775, $852.50, and $930), beyond which you contact sales. Dedicated IPs start at $50 a month for senders above 300,000 a month on Pro or higher, retention upgrades start at $5 a month, and DMARC monitoring starts at $14 per domain. There is no annual billing option.
-
-**What do Postmark's MCP server and agent skills do?**
-Postmark ships tooling for AI agents rather than AI features. The official MCP server reached version 2.0 in July 2026 with 24 tools, including delivery diagnostics, and five open-source Postmark Skills teach coding agents to send email. The developer docs also publish ten copy-paste prompts for Cursor, Copilot, Claude, and ChatGPT, plus an llms.txt file for assistant context. Everything still sends through the same REST API and your server token, so the agent path adds no new deliverability behavior.
-
-- **Pricing:** Freemium
-- **Category:** [Email Marketing](/categories/email-marketing/)
-- **HQ:** Chicago, IL, USA
-- **API:** Yes
-- **Last verified:** 2026-09-07
-
-**Verdict:** Postmark is a tool in Email Marketing with a free tier. The catalog documents 3 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Resend
-
-Developer-first email API built around React Email, batch sending, and agent tooling
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
-
-Notifuse
-
-Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
-
-Twilio SendGrid
-
-Scalable email delivery API with AI-powered deliverability and engagement tools
-
-[More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
@@ -75,7 +12,7 @@ Transactional email API with separated message streams, an MCP server, and publi
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Postmark →](https://postmarkapp.com)
 
@@ -86,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 Postmark separates message streams so transactional mail survives marketing blasts, and publishes delivery numbers to back it. The MCP server with 24 diagnostic tools is the newest reason developers look.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free 100 emails/mo without overages; Basic $15/mo, Pro $16.50/mo, Platform $18/mo each starting at 10K emails, published (the vendor pricing page: [pricing page](https://postmarkapp.com/pricing), verified 2026-09-28). |
+| Feature depth | 5/10 | Transactional email with separated message streams and delivery diagnostics cover the sending job (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
+| Integrations | 6/10 | Slack, Zapier, WordPress, Customer.io, Supabase, Stripe, Netlify and Datadog documented plus an API (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
+| AI capability | 5/10 | An MCP server with 24 tools, agent skills and a documented AI prompt library (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with strong API and MCP access (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Long-running transactional email service with published delivery numbers (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -155,6 +102,13 @@ The transactional specialist, now with agent tooling and a published engineering
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: MCP server with 24 tools and delivery diagnostics | ✗ Paid plans start at $15/mo once past the free tier |
+| ✓ Native integrations include Slack, Zapier, WordPress (8 listed) | ✗ Closed source - no self-hosting option |
+| ✓ Free tier to evaluate before committing (Free plan 100 emails/mo (no overages)) |  |
+
 ## Related concepts
 
 - [Email sequence](/glossary/email-sequence/)
@@ -167,16 +121,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Postmark?**
 Postmark: Transactional email API with separated message streams, an MCP server, and published delivery numbers. Postmark ships with MCP server with 24 tools and delivery diagnostics. This page documents 8 integrations.
 
+**How much does Postmark cost?**
 Postmark has a free tier; paid plans start at $15/mo. Free plan 100 emails/mo (no overages); Basic $15/mo, Pro $16.50/mo, Platform $18/mo, each starting at 10,000 emails; no annual billing; dedicated IPs from $50/mo for 300k+/mo senders. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
+**Is Postmark worth it past the free tier?**
 The transactional specialist, now with agent tooling and a published engineering track record; pay the per-email premium for mail where speed and reputation are revenue.
 
+**Does Postmark support marketing email?**
 Yes, with boundaries. Every server gets three default streams: outbound (transactional), broadcasts, and inbound, and a server can hold up to ten streams. Postmark states that transactional and broadcast traffic never intersect, including IP ranges, so broadcasts run on their own infrastructure. What it does not offer is the rest of the marketing job: no list management, no campaign builder, no automation. Inbound processing is limited to Pro and Platform plans.
 
+**What does Postmark cost after the free plan?**
 The free plan covers 100 emails a month with no overages. Paid plans all start at 10,000 emails a month: Basic at $15, Pro at $16.50, and Platform at $18, with overage rates of $1.80, $1.30, and $1.20 per thousand respectively. Volume pricing is published up to 1.5 million emails a month ($775, $852.50, and $930), beyond which you contact sales. Dedicated IPs start at $50 a month for senders above 300,000 a month on Pro or higher, retention upgrades start at $5 a month, and DMARC monitoring starts at $14 per domain. There is no annual billing option.
 
+**What do Postmark's MCP server and agent skills do?**
 Postmark ships tooling for AI agents rather than AI features. The official MCP server reached version 2.0 in July 2026 with 24 tools, including delivery diagnostics, and five open-source Postmark Skills teach coding agents to send email. The developer docs also publish ten copy-paste prompts for Cursor, Copilot, Claude, and ChatGPT, plus an llms.txt file for assistant context. Everything still sends through the same REST API and your server token, so the agent path adds no new deliverability behavior.
 
 ## Similar Tools
@@ -188,11 +148,39 @@ Postmark ships tooling for AI agents rather than AI features. The official MCP s
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Email Marketing](/categories/email-marketing/)
+- **HQ:** Chicago, IL, USA
+- **API:** Yes
+- **Last verified:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Postmark is a tool in Email Marketing with a free tier. The catalog documents 3 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Resend
+
+Developer-first email API built around React Email, batch sending, and agent tooling
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+Notifuse
+
+Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+
+Twilio SendGrid
+
+Scalable email delivery API with AI-powered deliverability and engagement tools
+
+[More Email Marketing Tools →](/categories/email-marketing/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -211,7 +199,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/postmark/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-07",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -347,7 +335,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/postmark/", "breadcrumb": {"@id": "https://martechsignal.com/tools/postmark/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/postmark/", "breadcrumb": {"@id": "https://martechsignal.com/tools/postmark/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

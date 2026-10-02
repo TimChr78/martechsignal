@@ -1,72 +1,5 @@
 # Maizzle review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 10/10 | Free and open source under MIT with nothing to price (the vendor pricing page: [vendor site](https://maizzle.com), verified 2026-09-07). |
-| Feature depth | 4/10 | Email templating with Tailwind CSS and a build pipeline cover development, not sending (vendor documentation: [vendor site](https://maizzle.com), verified 2026-09-28). |
-| Integrations | 2/10 | No named integrations in the catalog and no API (vendor documentation: [vendor site](https://maizzle.com), verified 2026-09-28). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://maizzle.com), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with full source (the source repository: [repository](https://github.com/maizzle/maizzle), verified 2026-09-28). |
-| Operational maturity | 5/10 | A stable build tool with no service obligations (vendor documentation: [vendor site](https://maizzle.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ Active public repository (2,862 GitHub stars counted at last check) |  |
-
-**What is Maizzle?**
-Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,862 stars.
-
-**How much does Maizzle cost?**
-Maizzle is open source - Free to self-host; the public repository carries 2,862 stars. You pay in server time and maintenance, not licences.
-
-**What does running Maizzle actually cost?**
-The strongest answer for developer-maintained email templates in 2026, now on Tailwind 4 and Vite; budget migration time from v5, and keep a separate tool for sending and analytics.
-
-**Does Maizzle support Tailwind CSS v4?**
-Yes, starting with Maizzle 6 (GA June 9, 2026), which the upgrade guide describes as a complete rewrite powered by Vite, Vue, and Tailwind CSS 4. Tailwind ships as a bundled @maizzle/tailwindcss email config, configured through @import and @theme blocks inside style tags instead of a tailwind.config.js file, and it replaces the v5-era tailwindcss-preset-email package. If you are on Maizzle 5, Tailwind v4 is the reason to plan the v6 migration, alongside the move to Vue single-file components.
-
-**How does Maizzle handle Outlook?**
-Through dedicated components and build-time conditioning rather than runtime hacks. Maizzle provides Outlook, NotOutlook, OutlookBg, and Vml components for conditional markup and vector backgrounds, and the transformer pipeline handles the client-hostile parts automatically: CSS inlining, six-digit hex color conversion, shorthand CSS expansion, and attribute-to-style mapping. The project states its templates are render-tested against Apple Mail, Gmail, Yahoo, and Outlook and claims compatibility with over 95% of email clients. You still need your own testing discipline for specific client quirks; Maizzle removes the mechanical work, not the need to verify.
-
-**Can I migrate from MJML or React Email to Maizzle?**
-Both paths are documented on the docs site as migration guides, alongside deployment guides for Nodemailer, SendGrid, Mailgun, Postmark, Resend, AWS SES, and Cloudflare. The v5-to-v6 upgrade guide is the more demanding read for existing Maizzle users: templates become Vue single-file components, configuration consolidates into maizzle.config.ts and defineConfig(), several components were renamed or removed, and the build key flattened to the root. Coming from MJML or React Email is a fresh start with npx maizzle new rather than a conversion, which the guides treat as the normal path.
-
-- **Pricing:** Free
-- **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 2862
-- **API:** No
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** Maizzle is a tool in Email Marketing with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-BillionMail
-
-Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
-
-Resend
-
-Developer-first email API built around React Email, batch sending, and agent tooling
-
-Loops
-
-Email marketing for SaaS: marketing, product, and transactional email in one tool
-
-Twilio SendGrid
-
-Scalable email delivery API with AI-powered deliverability and engagement tools
-
-Warmbly
-
-Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
-
-[More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
@@ -79,7 +12,7 @@ Modern email development framework using Tailwind CSS for responsive campaigns
 
 Email Marketing · Free · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Maizzle →](https://maizzle.com)
 
@@ -90,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 32/60
 
 Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with 2,862 stars and no AI story, which is fine for a compiler.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free and open source under MIT with nothing to price (the vendor pricing page: [vendor site](https://maizzle.com), verified 2026-09-07). |
+| Feature depth | 4/10 | Email templating with Tailwind CSS and a build pipeline cover development, not sending (vendor documentation: [vendor site](https://maizzle.com), verified 2026-09-28). |
+| Integrations | 2/10 | No named integrations in the catalog and no API (vendor documentation: [vendor site](https://maizzle.com), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://maizzle.com), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full source (the source repository: [repository](https://github.com/maizzle/maizzle), verified 2026-09-28). |
+| Operational maturity | 5/10 | A stable build tool with no service obligations (vendor documentation: [vendor site](https://maizzle.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -134,6 +77,12 @@ The strongest answer for developer-maintained email templates in 2026, now on Ta
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ Active public repository (2,862 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [Email sequence](/glossary/email-sequence/)
@@ -146,16 +95,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Maizzle?**
 Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,862 stars.
 
+**How much does Maizzle cost?**
 Maizzle is open source - Free to self-host; the public repository carries 2,862 stars. You pay in server time and maintenance, not licences.
 
+**What does running Maizzle actually cost?**
 The strongest answer for developer-maintained email templates in 2026, now on Tailwind 4 and Vite; budget migration time from v5, and keep a separate tool for sending and analytics.
 
+**Does Maizzle support Tailwind CSS v4?**
 Yes, starting with Maizzle 6 (GA June 9, 2026), which the upgrade guide describes as a complete rewrite powered by Vite, Vue, and Tailwind CSS 4. Tailwind ships as a bundled @maizzle/tailwindcss email config, configured through @import and @theme blocks inside style tags instead of a tailwind.config.js file, and it replaces the v5-era tailwindcss-preset-email package. If you are on Maizzle 5, Tailwind v4 is the reason to plan the v6 migration, alongside the move to Vue single-file components.
 
+**How does Maizzle handle Outlook?**
 Through dedicated components and build-time conditioning rather than runtime hacks. Maizzle provides Outlook, NotOutlook, OutlookBg, and Vml components for conditional markup and vector backgrounds, and the transformer pipeline handles the client-hostile parts automatically: CSS inlining, six-digit hex color conversion, shorthand CSS expansion, and attribute-to-style mapping. The project states its templates are render-tested against Apple Mail, Gmail, Yahoo, and Outlook and claims compatibility with over 95% of email clients. You still need your own testing discipline for specific client quirks; Maizzle removes the mechanical work, not the need to verify.
 
+**Can I migrate from MJML or React Email to Maizzle?**
 Both paths are documented on the docs site as migration guides, alongside deployment guides for Nodemailer, SendGrid, Mailgun, Postmark, Resend, AWS SES, and Cloudflare. The v5-to-v6 upgrade guide is the more demanding read for existing Maizzle users: templates become Vue single-file components, configuration consolidates into maizzle.config.ts and defineConfig(), several components were renamed or removed, and the build key flattened to the root. Coming from MJML or React Email is a fresh start with npx maizzle new rather than a conversion, which the guides treat as the normal path.
 
 ## Similar Tools
@@ -167,6 +122,13 @@ Both paths are documented on the docs site as migration guides, alongside deploy
 - [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ### Quick Facts
 
+- **Pricing:** Free
+- **Category:** [Email Marketing](/categories/email-marketing/)
+- **GitHub:** ★ 2862
+- **API:** No
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 ### Pricing
 
 Free and open source (MIT)
@@ -176,6 +138,32 @@ Free and open source (MIT)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Maizzle is a tool in Email Marketing with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+BillionMail
+
+Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+
+Resend
+
+Developer-first email API built around React Email, batch sending, and agent tooling
+
+Loops
+
+Email marketing for SaaS: marketing, product, and transactional email in one tool
+
+Twilio SendGrid
+
+Scalable email delivery API with AI-powered deliverability and engagement tools
+
+Warmbly
+
+Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
+
+[More Email Marketing Tools →](/categories/email-marketing/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

@@ -1,7 +1,5 @@
 # You Taught Google Everything It Knows
 
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 AI SEARCH · AI OVERVIEWS · 7 MIN
 
 ## Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.
@@ -10,7 +8,7 @@ AI SEARCH · AI OVERVIEWS · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.
 
-JUL 31, 2026 · Updated 2026-10-02
+JUL 31, 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -111,6 +109,8 @@ More from the directory: [Madgicx](/tools/madgicx/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -142,7 +142,7 @@ More from the directory: [Madgicx](/tools/madgicx/)
     }
   },
   "datePublished": "2026-07-31",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-07-31",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/",
   "image": {
     "@type": "ImageObject",
@@ -188,7 +188,7 @@ More from the directory: [Madgicx](/tools/madgicx/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/#breadcrumb"}, "dateModified": "2026-07-31"}
 ```
 
 ```json

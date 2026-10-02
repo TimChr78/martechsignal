@@ -1,26 +1,21 @@
-# n8n vs Make vs Zapier: 2026 three-way comparison
-
-
-| Dimension | n8n | Make | Zapier |
-| --- | --- | --- | --- |
-| Pricing | Open Source | Freemium | Freemium |
-| Open source | yes | no | no |
-| Integrations listed | 8 listed: Slack, Google Sheets, Gmail, Airtable (+4 more) | not listed | 8 listed: Salesforce, HubSpot, Slack, Microsoft Dynamics 365 (+4 more) |
-| Public API | yes | yes | yes |
-
-- **Pick n8n if:** you want self-hosting, code steps and billing that rewards complex workflows.
-- **Pick Make if:** your builders are operators who want the clearest visual canvas and a free tier to start in.
-- **Pick Zapier if:** you need the widest connector catalog and the workflow has to work on day one.
-
-[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+# n8n vs Make vs Zapier (2026): the three-way automation decision
 
 ## n8n vs Make vs Zapier (2026): the three-way automation decision
+
+Pick n8n if you self-host and want code steps with workflow-friendly billing. Pick Make if your builders want the clearest visual canvas. Pick Zapier if you need the widest connector catalog on day one.
 
 Which is better, n8n or Make or Zapier? It is the question the search box suggests, and the honest answer is that all three win a different buyer. This page takes the three-way seriously: one decision table, then the dimensions where the products actually differ.
 
 Every number below is catalogued from each vendor's own published materials and checked this month. The pair pages (n8n vs Zapier, Make vs Zapier) carry the longer version of each argument.
+
+## n8n vs Make vs Zapier: the quick decision
+
+
+| Tool | Starts at | Pick it when |
+| --- | --- | --- |
+| n8n | Open Source | You self-host and want code steps with billing that rewards complex workflows. |
+| Make | Freemium from $9/mo | Your builders are operators who want the clearest visual canvas and a free tier to start in. |
+| Zapier | Freemium from $19.99/mo | You need the widest connector catalog and the workflow has to work on day one. |
 
 [n8n assessment](/tools/n8n/) · [Make assessment](/tools/make/)
 
@@ -35,6 +30,14 @@ n8n
 Make
 
 Zapier
+
+
+| Dimension | n8n | Make | Zapier |
+| --- | --- | --- | --- |
+| Pricing | Open Source | Freemium from $9/mo | Freemium from $19.99/mo |
+| Open source | yes | no | no |
+| Integrations listed | 8 listed: Slack, Google Sheets, Gmail, Airtable (+4 more) | not listed | 8 listed: Salesforce, HubSpot, Slack, Microsoft Dynamics 365 (+4 more) |
+| Public API | yes | yes | yes |
 
 ## Positioning
 
@@ -98,6 +101,10 @@ Skip all three when your automation is really a data pipeline. Scheduled ETL wit
 
 ## Who should pick which
 
+- **Pick n8n if:** you want self-hosting, code steps and billing that rewards complex workflows.
+- **Pick Make if:** your builders are operators who want the clearest visual canvas and a free tier to start in.
+- **Pick Zapier if:** you need the widest connector catalog and the workflow has to work on day one.
+
 ## Which of the three should a technical team self-host?
 
 n8n. Self-hosting, code steps and billing that rewards complex workflows are its explicit verdict. Make and Zapier keep builders in hosted visual editors by design.
@@ -112,7 +119,7 @@ n8n self-hosted removes per-task billing entirely. Make prices runs below Zapier
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
-Last verified  · Updated 2026-10-02.
+Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
@@ -131,6 +138,10 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -139,7 +150,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/#article",
     "datePublished": "2026-09-28",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -236,10 +247,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/", "breadcrumb": {"@id": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

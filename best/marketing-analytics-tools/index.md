@@ -1,4 +1,8 @@
-# Best Marketing Analytics tools (2026): 8 compared
+# Best Marketing Analytics & Attribution tools (2026): 8 compared
+
+## Best Marketing Analytics & Attribution tools (2026): 8 compared
+
+Amplitude fits product teams that want funnels without an analyst queue. Matomo gives you GA-grade analytics with the data staying home. Umami is the light self-hosted option. Mixpanel does deep product analytics with a usable free tier. Decide on data ownership first and features second.
 
 
 | Tool | Pricing | Open source | Best for |
@@ -12,17 +16,9 @@
 | [Northbeam](/tools/northbeam/) | Enterprise | No | DTC brands whose incrementality questions deserve real modeling |
 | [Snowplow](/tools/snowplow/) | Free tier | Yes (Apache-2.0) | Best for analytics & attribution teams that want intent detection and can host it themselves, with a free starting tier. |
 
-[Analytics & Attribution](/categories/analytics/)[Open-Source Tools](/categories/open-source/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-## Best Marketing Analytics & Attribution tools (2026): 8 compared
-
-Amplitude fits product teams that want funnels without an analyst queue. Matomo gives you GA-grade analytics with the data staying home. Umami is the light self-hosted option. Mixpanel does deep product analytics with a usable free tier. Decide on data ownership first and features second.
-
 **Our top pick: [Amplitude](#amplitude)** — Product teams that want funnels and retention without an analyst queue [Try Amplitude](https://amplitude.com)
 
-Last verified  · Updated 2026-10-02.
+Last verified 2026-09-28.
 
 ## How we picked
 
@@ -58,7 +54,7 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 
 ## [Amplitude](/tools/amplitude/)
 
-Amplitude is a digital analytics platform built on events: each action a user takes in a product becomes an event with properties, so teams can read funnels, retention, and feature adoption without writing SQL. It starts free, and free plan includes 2M events/month, no time limit. Plus starts at $0 and scales with event volume. Growth and Enterprise are custom-priced (verified Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 8 integrations, and a public API.
+It is on this list as one of the product analytics picks for teams tracking funnels and retention. The starting point is a free plan with 2M events per month and Plus that scales with volume. Pick it over the web analytics options here when product behavior matters more than page traffic.
 
 **Verdict:** Product teams that want funnels and retention without an analyst queue
 
@@ -70,7 +66,7 @@ Vendor: [Official site](https://amplitude.com) · [Pricing](https://amplitude.co
 
 ## [Matomo](/tools/matomo/)
 
-Matomo is an open-source web analytics platform you run on your own infrastructure, licensed GPL v3 or later, with 5.13.0 released in August 2026 and an active 6.x branch. It starts free, and self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial (verified 2026-09-06). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.
+It is on this list as the self hosted web analytics pick with full data ownership. The core is free under GPL v3 plus and Cloud starts at 22 euros per month for 50,000 hits. Pick it over the cloud only options here when keeping data on your own servers matters more than avoiding setup.
 
 **Verdict:** Teams that want GA-grade analytics with the data staying home
 
@@ -82,7 +78,7 @@ Vendor: [Official site](https://matomo.org) · [Pricing](https://matomo.org/pric
 
 ## [Umami](/tools/umami/)
 
-Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor's cloud, created in 2020 by Mike Cao and now at v3 with roughly 39,115 GitHub stars. It starts free, and self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial (verified 2026-09-07). The catalog documents 5 integrations, a public API, and a self-hosting path.
+It is on this list as the light self hosted web analytics pick. Self hosting is free under MIT and Cloud has a Hobby free tier to 100K events per month with Pro at 20 dollars per month. Pick it over Matomo on this same list when you want simpler setup and cookieless tracking with less to run.
 
 **Verdict:** Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
@@ -94,7 +90,7 @@ Vendor: [Official site](https://umami.is) · [Pricing](https://umami.is/pricing)
 
 ## [Mixpanel](/tools/mixpanel/)
 
-Mixpanel is a product analytics platform built on an event-based data model: every user action is a discrete event with properties, which is what makes funnels, retention curves, and behavioral cohorts fast to query without SQL. It starts free, and free plan: unlimited seats, 1M events/mo, 10K session replays, 10 feature flags. Growth: usage-based, first 1M free up to 20M events/mo (calculator shows $120/mo billed annually at 18M events/yr). Enterprise: custom, up to 1T events/mo. Experiments and feature flags now included on Free and Growth (verified 2026-09-06). The catalog documents 5 AI features, 10 integrations, and a public API.
+It is on this list as the other large product analytics pick next to Amplitude. The free plan allows unlimited seats with 1M events per month and Growth is usage based. Pick it when seat count matters since the free tier does not limit seats the way other tools do.
 
 **Verdict:** Best for analytics & attribution teams that want the job covered in one platform, with a free starting tier.
 
@@ -106,7 +102,7 @@ Vendor: [Official site](https://mixpanel.com) · [Pricing](https://mixpanel.com/
 
 ## [Triple Whale](/tools/triple-whale/)
 
-Triple Whale is an AI-powered ecommerce analytics and attribution platform built for Shopify merchants. Conversion $59/mo; Retention $179/mo; Foundation $219/mo; scales with GMV (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
+It is on this list as one of the two ecommerce attribution picks. Pricing starts at 59 dollars per month for Conversion and scales with GMV. Pick it over Northbeam on this list when you want a fixed entry tier rather than custom pricing.
 
 **Verdict:** DTC operators that want a daily attribution answer, dashboards included
 
@@ -118,7 +114,7 @@ Vendor: [Official site](https://www.triplewhale.com) · [Pricing](https://www.tr
 
 ## [Heap](/tools/heap/)
 
-Heap is a digital insights platform that takes a fundamentally different approach to analytics. It starts free, and free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
+It is on this list as the product analytics pick with autocapture for teams without a tagging plan. The free tier covers 10K sessions per month with 6 months of history and Growth and Pro are custom priced. Pick it over Amplitude and Mixpanel here when retroactive analysis matters more than a defined event plan.
 
 **Verdict:** Teams that want retroactive analysis without a tagging plan first
 
@@ -130,7 +126,7 @@ Vendor: [Official site](https://www.heap.io) · [Pricing](https://www.heap.io/pr
 
 ## [Northbeam](/tools/northbeam/)
 
-Northbeam is a marketing intelligence and attribution platform built specifically for ecommerce and direct-to-consumer (DTC) brands. Pricing is enterprise and quoted per contract, and custom pricing based on data volume; monthly billing; best for brands $50K+/mo revenue (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
+It is on this list as the higher priced ecommerce attribution pick. Pricing is custom based on data volume and the vendor points it at brands above 50K dollars per month in revenue. Pick it over Triple Whale here when multi touch modeling for larger spend matters more than a low entry price.
 
 **Verdict:** DTC brands whose incrementality questions deserve real modeling
 
@@ -142,7 +138,7 @@ Vendor: [Official site](https://www.northbeam.io) · [Pricing](https://www.north
 
 ## [Snowplow](/tools/snowplow/)
 
-Snowplow is behavioral event infrastructure that has repositioned itself for the AI era: the company now calls its product a Customer Context Layer that turns raw behavioral data into real-time context for AI agents and analytics, delivered to your warehouse, lake, or stream. It starts free, and the open-source pipeline is free to self-host. Snowplow BDP Cloud is quoted by sales (verified Sep 2026) (verified 2026-09-25). The catalog documents 3 AI features, 9 integrations, a public API, and a self-hosting path.
+It is on this list as the pipeline pick rather than a dashboard pick. The open source pipeline is free to self host and BDP Cloud is quoted by sales. Pick it over the other analytics tools here when you want behavioral events in your own warehouse instead of another reporting interface.
 
 **Verdict:** Best for analytics & attribution teams that want intent detection and can host it themselves, with a free starting tier.
 
@@ -172,6 +168,10 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+[Analytics & Attribution](/categories/analytics/)[Open-Source Tools](/categories/open-source/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -180,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best Marketing Analytics & Attribution tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -310,10 +310,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/marketing-analytics-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/marketing-analytics-tools/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

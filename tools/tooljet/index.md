@@ -1,70 +1,5 @@
 # ToolJet review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Self-host CE free (AGPL-3.0), Cloud Free (2 builders), Pro $79/builder/mo annual, Team $199, Enterprise from $3,000/mo published (the vendor pricing page: [pricing page](https://tooljet.com/pricing), verified 2026-09-28). |
-| Feature depth | 7/10 | Prompt-built apps, dashboards and operational tools over your databases cover internal tooling (vendor documentation: [vendor site](https://tooljet.com), verified 2026-09-28). |
-| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Snowflake to Stripe, Slack and three API protocols (vendor documentation: [vendor site](https://tooljet.com), verified 2026-09-28). |
-| AI capability | 6/10 | Prompt-to-app generation, query generation and a beta MCP server for three agent harnesses (vendor documentation: [vendor site](https://tooljet.com), verified 2026-09-28). |
-| Openness | 8/10 | AGPL-3.0 with community-edition self-hosting (the source repository: [repository](https://github.com/ToolJet/ToolJet), verified 2026-09-28). |
-| Operational maturity | 6/10 | With priced cloud tiers and an Enterprise floor published (vendor documentation: [vendor site](https://tooljet.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $79/mo once past the free tier |
-| ✓ AI capabilities: toolJet AI generates apps from a prompt |  |
-| ✓ Active public repository (41,025 GitHub stars counted at last check) |  |
-| ✓ Native integrations include PostgreSQL, MySQL, MongoDB (12 listed) |  |
-
-**What is ToolJet?**
-ToolJet: Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps. ToolJet ships with toolJet AI generates apps from a prompt. The public repository carries 41,025 stars.
-
-**How much does ToolJet cost?**
-ToolJet has a free tier; paid plans start at $79/mo. Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Pro $79/builder/mo billed annually, Team $199, Enterprise from $3,000/mo. Self-host Team $199/builder/mo. AI credits $1 per 100. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
-
-**Is ToolJet a good self-hosted Workflow Automation tool in 2026?**
-The most AI-forward option in the open-source internal-tools class, with the sharpest self-hosting requirements to match. Strong if an agent-driven build path appeals; read the ee-tagged image boundary against the AGPL license before you standardize on it.
-
-**Is ToolJet free to self-host?**
-The community edition is AGPL-3.0 and free to self-host, with no app or user ceiling written into the license. What costs money is the ToolJet AI layer and enterprise features: AI app generation and AI query building are metered in credits on cloud plans, and SSO, audit logs, modules, git sync, multi-environment and bring-your-own-key or air-gapped AI are licensed, with self-hosted paid plans starting at $199 per builder monthly. Two caveats the docs make explicit: self-hosted AI calls ToolJet's hosted gateway endpoints unless you buy ToolJet AI Enterprise, and the published Docker images are tagged ee even though the repo license is AGPL.
-
-**ToolJet vs Retool: how do they compare?**
-Retool is the commercial incumbent: hosted, closed source, priced per user at a premium. ToolJet is AGPL-3.0 with a free self-hosted edition, and its own comparison page pitches AI-first app generation, full app generation from a prompt and multi-LLM support as the differences, alongside SOC 2 Type II, GDPR and ISO 27001 claims for its cloud. Choose Retool for a managed platform with mature connectors and support; choose ToolJet when self-hosting, source access or the MCP build path matter more than managed convenience, and budget for stricter requirements (x86 only, PostgreSQL 16, Redis, two separate databases).
-
-**Can Claude Code or Cursor build ToolJet apps?**
-Yes, through the ToolJet MCP server, which the README marks as beta. You create a ToolJet personal access token and run Node 20 or newer, then in Claude Code install the packaged plugin with /plugin marketplace add ToolJet/tooljet-mcp followed by /plugin install tooljet-app-builder@tooljet. Codex has equivalent commands, and Cursor or Cline connect by registering the stdio server from the ToolJet/tooljet-mcp repository. Once connected, the agent can generate and modify apps, inspect datasources, create and seed ToolJet DB tables, write queries and manage permissions, drawing on its own model subscription rather than your ToolJet AI credits.
-
-- **Pricing:** Free tier
-- **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 41025
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** ToolJet is a tool in Workflow Automation with free and open source. The catalog documents 3 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Budibase
-
-Open-source operations platform for building AI agents, apps and automations on your own data
-
-Appsmith
-
-Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
-
-GrowthBook
-
-Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
-
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-[More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
@@ -77,7 +12,7 @@ Open-source low-code platform for internal tools: prompt or build admin panels, 
 
 Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit ToolJet →](https://tooljet.com)
 
@@ -88,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 42/60
 
 ToolJet generates internal apps from a prompt over 41,025 stars of AGPL code, with an MCP server for the agent harnesses. Pricing is published down to builder seats and the Enterprise floor.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Self-host CE free (AGPL-3.0), Cloud Free (2 builders), Pro $79/builder/mo annual, Team $199, Enterprise from $3,000/mo published (the vendor pricing page: [pricing page](https://tooljet.com/pricing), verified 2026-09-28). |
+| Feature depth | 7/10 | Prompt-built apps, dashboards and operational tools over your databases cover internal tooling (vendor documentation: [vendor site](https://tooljet.com), verified 2026-09-28). |
+| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Snowflake to Stripe, Slack and three API protocols (vendor documentation: [vendor site](https://tooljet.com), verified 2026-09-28). |
+| AI capability | 6/10 | Prompt-to-app generation, query generation and a beta MCP server for three agent harnesses (vendor documentation: [vendor site](https://tooljet.com), verified 2026-09-28). |
+| Openness | 8/10 | AGPL-3.0 with community-edition self-hosting (the source repository: [repository](https://github.com/ToolJet/ToolJet), verified 2026-09-28). |
+| Operational maturity | 6/10 | With priced cloud tiers and an Enterprise floor published (vendor documentation: [vendor site](https://tooljet.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -160,6 +105,14 @@ The most AI-forward option in the open-source internal-tools class, with the sha
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $79/mo once past the free tier |
+| ✓ AI capabilities: toolJet AI generates apps from a prompt |  |
+| ✓ Active public repository (41,025 GitHub stars counted at last check) |  |
+| ✓ Native integrations include PostgreSQL, MySQL, MongoDB (12 listed) |  |
+
 ## Related concepts
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -174,16 +127,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is ToolJet?**
 ToolJet: Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps. ToolJet ships with toolJet AI generates apps from a prompt. The public repository carries 41,025 stars.
 
+**How much does ToolJet cost?**
 ToolJet has a free tier; paid plans start at $79/mo. Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Pro $79/builder/mo billed annually, Team $199, Enterprise from $3,000/mo. Self-host Team $199/builder/mo. AI credits $1 per 100. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
+**Is ToolJet a good self-hosted Workflow Automation tool in 2026?**
 The most AI-forward option in the open-source internal-tools class, with the sharpest self-hosting requirements to match. Strong if an agent-driven build path appeals; read the ee-tagged image boundary against the AGPL license before you standardize on it.
 
+**Is ToolJet free to self-host?**
 The community edition is AGPL-3.0 and free to self-host, with no app or user ceiling written into the license. What costs money is the ToolJet AI layer and enterprise features: AI app generation and AI query building are metered in credits on cloud plans, and SSO, audit logs, modules, git sync, multi-environment and bring-your-own-key or air-gapped AI are licensed, with self-hosted paid plans starting at $199 per builder monthly. Two caveats the docs make explicit: self-hosted AI calls ToolJet's hosted gateway endpoints unless you buy ToolJet AI Enterprise, and the published Docker images are tagged ee even though the repo license is AGPL.
 
+**ToolJet vs Retool: how do they compare?**
 Retool is the commercial incumbent: hosted, closed source, priced per user at a premium. ToolJet is AGPL-3.0 with a free self-hosted edition, and its own comparison page pitches AI-first app generation, full app generation from a prompt and multi-LLM support as the differences, alongside SOC 2 Type II, GDPR and ISO 27001 claims for its cloud. Choose Retool for a managed platform with mature connectors and support; choose ToolJet when self-hosting, source access or the MCP build path matter more than managed convenience, and budget for stricter requirements (x86 only, PostgreSQL 16, Redis, two separate databases).
 
+**Can Claude Code or Cursor build ToolJet apps?**
 Yes, through the ToolJet MCP server, which the README marks as beta. You create a ToolJet personal access token and run Node 20 or newer, then in Claude Code install the packaged plugin with /plugin marketplace add ToolJet/tooljet-mcp followed by /plugin install tooljet-app-builder@tooljet. Codex has equivalent commands, and Cursor or Cline connect by registering the stdio server from the ToolJet/tooljet-mcp repository. Once connected, the agent can generate and modify apps, inspect datasources, create and seed ToolJet DB tables, write queries and manage permissions, drawing on its own model subscription rather than your ToolJet AI credits.
 
 ## Similar Tools
@@ -195,11 +154,40 @@ Yes, through the ToolJet MCP server, which the README marks as beta. You create 
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 ### Quick Facts
 
+- **Pricing:** Free tier
+- **Category:** [Workflow Automation](/categories/workflow-automation/)
+- **GitHub:** ★ 41025
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** ToolJet is a tool in Workflow Automation with free and open source. The catalog documents 3 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Budibase
+
+Open-source operations platform for building AI agents, apps and automations on your own data
+
+Appsmith
+
+Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
+
+GrowthBook
+
+Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+[More Workflow Automation Tools →](/categories/workflow-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

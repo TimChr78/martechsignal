@@ -1,71 +1,5 @@
 # OtterlyAI review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Three published EUR tiers: Lite EUR 29/mo (15 prompts), Standard EUR 189/mo (100 prompts, API + MCP), Premium EUR 489/mo (400 prompts), all itemized (the vendor pricing page: [pricing page](https://otterly.ai/pricing), verified 2026-09-25). |
-| Feature depth | 6/10 | Daily mention and citation tracking, prompt research, a visibility index and GEO audits cover the monitoring loop; it does not rewrite or publish content (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
-| Integrations | 6/10 | Tracks six named surfaces including ChatGPT, AI Overviews and Copilot, and ships Looker Studio and MCP connections from Standard up (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
-| AI capability | 6/10 | The product measures AI answers rather than generating them; the GEO audit recommendations are its assistive layer (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS; API and MCP access from the Standard tier improve the data story but the platform itself is not open (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2024 and priced for teams, with the operational history still short (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: daily brand mention and citation tracking | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include ChatGPT, Google AI Overviews, Perplexity (6 listed) | ✗ Only four engines come standard; Claude, Google AI Mode and Gemini are paid add-ons |
-| ✓ EUR 29 per month is the lowest paid entry price among the platforms in this batch | ✗ Lite caps at 15 prompts, one workspace and three recommendations a week |
-| ✓ Unlimited team members on every plan, which suits agencies | ✗ API and MCP access (2,000 requests per month each) start at Standard, so Lite is dashboard-only |
-| ✓ Public API docs at docs.otterly.ai, Looker Studio connector and 50-plus country coverage from Standard up |  |
-
-**What is OtterlyAI?**
-OtterlyAI: AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews. OtterlyAI ships with daily brand mention and citation tracking. This page documents 6 integrations.
-
-**How much does OtterlyAI cost?**
-OtterlyAI starts at €29/mo. Lite EUR 29/mo (15 prompts, 1,000 GEO audits/mo); Standard EUR 189/mo (100 prompts, API + MCP, Looker Studio); Premium EUR 489/mo (400 prompts, 10,000 GEO URL audits/mo); Enterprise custom from 1,000 prompts. Extra 100 prompts EUR 99. Annual billing 15% off. 14-day trial, no card. Verified on otterly.ai/pricing Sep 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is OtterlyAI worth paying for in 2026?**
-OtterlyAI is the budget-friendly monitor in this batch, starting at EUR 29 per month with unlimited seats and daily tracking. It does measurement and GEO audits well and leaves content production to other tools. Watch the engine add-ons, since full seven-engine coverage costs more than the headline price.
-
-**Is OtterlyAI the same as Otter.ai?**
-No. Otter.ai is a meeting transcription product. OtterlyAI (otterly.ai) is an AI search monitoring platform run by OtterlyAI GmbH in Austria.
-
-**Which AI engines does OtterlyAI track?**
-ChatGPT, Google AI Overviews, Perplexity and Microsoft Copilot come standard. Claude, Google AI Mode and Gemini are paid add-ons.
-
-**Does OtterlyAI have an API?**
-Yes. Standard and above include API and MCP access (2,000 requests per month each on Standard, 5,000 on Premium), documented at docs.otterly.ai.
-
-- **Pricing:** From €29/mo
-- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
-- **Founded:** 2024
-- **HQ:** Persenbeug, Austria
-- **API:** Yes
-- **Last verified:** 2026-09-25
-
-**Verdict:** OtterlyAI is a tool in GEO & LLM Optimization with paid plans starting at €29/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-Nightwatch
-
-Rank tracking across Google and AI answers, priced by keyword with unlimited seats
-
-Ahrefs
-
-Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
-
-AccuRanker
-
-Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
-
-Rankscale
-
-AI visibility tracking across 17+ answer engines for agencies and enterprise teams
-
-[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
@@ -76,7 +10,7 @@ AI search monitoring for brand mentions and citations across ChatGPT and AI Over
 
 GEO & LLM Optimization · From €29/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit OtterlyAI →](https://otterly.ai/)
 
@@ -87,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 OtterlyAI is the buy for teams that want daily AI mention tracking without a procurement cycle: three published EUR tiers, clear prompt limits, and MCP access from the middle tier up.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Three published EUR tiers: Lite EUR 29/mo (15 prompts), Standard EUR 189/mo (100 prompts, API + MCP), Premium EUR 489/mo (400 prompts), all itemized (the vendor pricing page: [pricing page](https://otterly.ai/pricing), verified 2026-09-25). |
+| Feature depth | 6/10 | Daily mention and citation tracking, prompt research, a visibility index and GEO audits cover the monitoring loop; it does not rewrite or publish content (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
+| Integrations | 6/10 | Tracks six named surfaces including ChatGPT, AI Overviews and Copilot, and ships Looker Studio and MCP connections from Standard up (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
+| AI capability | 6/10 | The product measures AI answers rather than generating them; the GEO audit recommendations are its assistive layer (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS; API and MCP access from the Standard tier improve the data story but the platform itself is not open (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2024 and priced for teams, with the operational history still short (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -139,6 +83,15 @@ OtterlyAI is the budget-friendly monitor in this batch, starting at EUR 29 per m
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: daily brand mention and citation tracking | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include ChatGPT, Google AI Overviews, Perplexity (6 listed) | ✗ Only four engines come standard; Claude, Google AI Mode and Gemini are paid add-ons |
+| ✓ EUR 29 per month is the lowest paid entry price among the platforms in this batch | ✗ Lite caps at 15 prompts, one workspace and three recommendations a week |
+| ✓ Unlimited team members on every plan, which suits agencies | ✗ API and MCP access (2,000 requests per month each) start at Standard, so Lite is dashboard-only |
+| ✓ Public API docs at docs.otterly.ai, Looker Studio connector and 50-plus country coverage from Standard up |  |
+
 ## Related concepts
 
 - [GEO](/glossary/geo/)
@@ -152,16 +105,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is OtterlyAI?**
 OtterlyAI: AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews. OtterlyAI ships with daily brand mention and citation tracking. This page documents 6 integrations.
 
+**How much does OtterlyAI cost?**
 OtterlyAI starts at €29/mo. Lite EUR 29/mo (15 prompts, 1,000 GEO audits/mo); Standard EUR 189/mo (100 prompts, API + MCP, Looker Studio); Premium EUR 489/mo (400 prompts, 10,000 GEO URL audits/mo); Enterprise custom from 1,000 prompts. Extra 100 prompts EUR 99. Annual billing 15% off. 14-day trial, no card. Verified on otterly.ai/pricing Sep 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is OtterlyAI worth paying for in 2026?**
 OtterlyAI is the budget-friendly monitor in this batch, starting at EUR 29 per month with unlimited seats and daily tracking. It does measurement and GEO audits well and leaves content production to other tools. Watch the engine add-ons, since full seven-engine coverage costs more than the headline price.
 
+**Is OtterlyAI the same as Otter.ai?**
 No. Otter.ai is a meeting transcription product. OtterlyAI (otterly.ai) is an AI search monitoring platform run by OtterlyAI GmbH in Austria.
 
+**Which AI engines does OtterlyAI track?**
 ChatGPT, Google AI Overviews, Perplexity and Microsoft Copilot come standard. Claude, Google AI Mode and Gemini are paid add-ons.
 
+**Does OtterlyAI have an API?**
 Yes. Standard and above include API and MCP access (2,000 requests per month each on Standard, 5,000 on Premium), documented at docs.otterly.ai.
 
 ## Similar Tools
@@ -176,6 +135,13 @@ Yes. Standard and above include API and MCP access (2,000 requests per month eac
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Teams starting GEO measurement at an entry price
 ### Quick Facts
 
+- **Pricing:** From €29/mo
+- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
+- **Founded:** 2024
+- **HQ:** Persenbeug, Austria
+- **API:** Yes
+- **Last verified:** 2026-09-25
+
 Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 ## Get the next teardown
@@ -183,6 +149,28 @@ Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** OtterlyAI is a tool in GEO & LLM Optimization with paid plans starting at €29/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+Nightwatch
+
+Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+
+Ahrefs
+
+Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+
+AccuRanker
+
+Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+
+Rankscale
+
+AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+
+[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -201,7 +189,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/otterlyai/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-25",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -328,7 +316,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/otterlyai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/otterlyai/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/otterlyai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/otterlyai/#breadcrumb"}, "dateModified": "2026-09-25"}
 ```
 
 ```json

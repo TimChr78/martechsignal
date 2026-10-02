@@ -1,51 +1,5 @@
 # Personalization & CDP Tools
 
-Apache's open-source customer data platform and personalization engine
-
-Open SourceDesk-reviewedOSS
-
-AI-powered ecommerce personalization with search, recommendations, and email
-
-From $119/moDesk-reviewed
-
-AI-powered personalization platform for web, mobile, and email experiences
-
-EnterpriseDesk-reviewed
-
-Open-source feature flag and remote config platform with segment targeting
-
-FreemiumDesk-reviewedOSS
-
-Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
-
-FreemiumDesk-reviewedOSS
-
-Composable CDP that activates warehouse data where marketing runs
-
-FreemiumDesk-reviewed
-
-Open-source Segment alternative for event capture and warehouse-first data pipelines
-
-FreemiumDesk-reviewedOSS
-
-AI-powered ecommerce personalization with product recommendations and merchandising
-
-EnterpriseDesk-reviewed
-
-Warehouse-first CDP: open-source Go data plane plus managed routing
-
-Free tierDesk-reviewedOSS
-
-Enterprise customer data platform with real-time data orchestration and AI
-
-EnterpriseDesk-reviewed
-
-Customer data platform for collecting, unifying, and activating customer data
-
-FreemiumDesk-reviewed
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - Personalization & CDP
@@ -98,6 +52,52 @@ Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith]
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+Apache's open-source customer data platform and personalization engine
+
+Open SourceDesk-reviewedOSS
+
+AI-powered ecommerce personalization with search, recommendations, and email
+
+From $119/moDesk-reviewed
+
+AI-powered personalization platform for web, mobile, and email experiences
+
+EnterpriseDesk-reviewed
+
+Open-source feature flag and remote config platform with segment targeting
+
+FreemiumDesk-reviewedOSS
+
+Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
+
+FreemiumDesk-reviewedOSS
+
+Composable CDP that activates warehouse data where marketing runs
+
+FreemiumDesk-reviewed
+
+Open-source Segment alternative for event capture and warehouse-first data pipelines
+
+FreemiumDesk-reviewedOSS
+
+AI-powered ecommerce personalization with product recommendations and merchandising
+
+EnterpriseDesk-reviewed
+
+Warehouse-first CDP: open-source Go data plane plus managed routing
+
+Free tierDesk-reviewedOSS
+
+Enterprise customer data platform with real-time data orchestration and AI
+
+EnterpriseDesk-reviewed
+
+Customer data platform for collecting, unifying, and activating customer data
+
+FreemiumDesk-reviewed
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 {
@@ -137,7 +137,7 @@ Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith]
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 11,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-10-01",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -278,7 +278,7 @@ Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith]
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/personalization/", "breadcrumb": {"@id": "https://martechsignal.com/categories/personalization/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/personalization/", "breadcrumb": {"@id": "https://martechsignal.com/categories/personalization/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

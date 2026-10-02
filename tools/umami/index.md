@@ -1,70 +1,5 @@
 # Umami review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 10/10 | umami.is/pricing documents every self-serve tier with limits: Hobby free to 100,000 events per month, Pro at 20 USD for 1 million events, Business at 200 USD for 10 million, per-event overage terms, plus free self-hosting under MIT (the vendor pricing page: [pricing page](https://umami.is/pricing), verified 2026-09-26). |
-| Feature depth | 7/10 | Core analytics plus session replay (v3.1), heatmaps (v3.2), funnels, retention, revenue, journey, attribution and UTM reports cover the analytics baseline with cookieless tracking as the differentiator, though it stays lighter than Matomo on configuration (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
-| Integrations | 5/10 | An API plus community plugins for ten platforms and API clients for Laravel, Python and Go make up the catalog, with no native marketing integrations documented (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
-| AI capability | 0/10 | A search of the full documentation set, the README and every release from v3.0.3 to v3.3.1 found no AI feature of any kind, and the directory removed earlier AI claims as incorrect (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
-| Openness | 10/10 | MIT-licensed and self-hostable via a two-service Docker compose file, with data retained indefinitely and full ownership of the database (the source repository: [repository](https://github.com/umami-software/umami), verified 2026-09-26). |
-| Operational maturity | 8/10 | Created in 2020 with a steady v3.x release cadence through v3.3.1 on August 20, 2026 (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $20/mo |
-| ✓ Active public repository (39,115 GitHub stars counted at last check) |  |
-| ✓ Native integrations include WordPress (community plugin), Next.js, Vercel (5 listed) |  |
-
-**What is Umami?**
-Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 39,115 stars. Umami offers a public API for custom integrations.
-
-**How much does Umami cost?**
-Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
-
-**Is Umami a good self-hosted Analytics & Attribution tool in 2026?**
-Light, honest, cookieless analytics you can own outright; the AI-free tracking script is the point, not a gap. Self-host for unlimited sites, or pay $20 a month for 1 million cloud events.
-
-**How do I stop ad blockers from blocking Umami?**
-The docs describe three methods: reverse-proxy the tracking script at the server level (Nginx, Apache, or an Express endpoint serving it), self-host the tracker file and point the snippet at it with data-host-url, or on self-hosted installs rename the tracker with TRACKER_SCRIPT_NAME and the collection endpoint with COLLECT_API_ENDPOINT. The docs concede the point plainly: even though Umami is privacy-focused, it may still get blocked by certain ad blockers.
-
-**Does Umami track UTM campaign parameters?**
-Yes, natively since v2.11.0. All five standard parameters (utm_source, utm_medium, utm_campaign, utm_term, utm_content) are collected automatically with no extra configuration, and there is a dedicated UTM report. The v2.18.0 attribution report builds on that with first-click and last-click models across referrers, paid ads, and UTM parameters, so campaign credit can be viewed under either model.
-
-**What happened to MySQL support in Umami v3?**
-It was removed. The v3 upgrade guide announces that Umami is standardizing on PostgreSQL, and the FAQ states PostgreSQL 12.14 or newer is the only supported database. Existing MySQL users migrate by upgrading to v2.19.0 first, exporting with mysqldump or CSV, and importing with a tool such as pgloader or pg_chameleon; the docs walk the full path. MariaDB, which v2 tolerated as a MySQL variant, goes with it.
-
-- **Pricing:** Open Source
-- **Category:** [Analytics & Attribution](/categories/analytics/)
-- **GitHub:** ★ 39115
-- **Founded:** 2020
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** Umami is a tool in Analytics & Attribution with free and open source. The catalog documents 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-PostHog
-
-Open-source product analytics platform with session replay, feature flags, experiments, and surveys
-
-Heap
-
-AI-powered product analytics with autocapture and digital experience insights
-
-Mixpanel
-
-Product analytics platform with AI-powered insights for user behavior tracking
-
-Amplitude
-
-AI-powered digital analytics platform for product and marketing teams
-
-[More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
@@ -77,7 +12,7 @@ Open-source, cookieless web analytics with real-time dashboards, session replay,
 
 Analytics & Attribution · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Umami →](https://umami.is)
 
@@ -88,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 40/60
 
 Light, cookieless analytics with fully public pricing and an MIT license, where the absence of AI is a deliberate design point rather than a gap. Session replay, heatmaps and the streaming API live on paid Cloud tiers, and the integration surface is small.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | umami.is/pricing documents every self-serve tier with limits: Hobby free to 100,000 events per month, Pro at 20 USD for 1 million events, Business at 200 USD for 10 million, per-event overage terms, plus free self-hosting under MIT (the vendor pricing page: [pricing page](https://umami.is/pricing), verified 2026-09-26). |
+| Feature depth | 7/10 | Core analytics plus session replay (v3.1), heatmaps (v3.2), funnels, retention, revenue, journey, attribution and UTM reports cover the analytics baseline with cookieless tracking as the differentiator, though it stays lighter than Matomo on configuration (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
+| Integrations | 5/10 | An API plus community plugins for ten platforms and API clients for Laravel, Python and Go make up the catalog, with no native marketing integrations documented (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
+| AI capability | 0/10 | A search of the full documentation set, the README and every release from v3.0.3 to v3.3.1 found no AI feature of any kind, and the directory removed earlier AI claims as incorrect (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
+| Openness | 10/10 | MIT-licensed and self-hostable via a two-service Docker compose file, with data retained indefinitely and full ownership of the database (the source repository: [repository](https://github.com/umami-software/umami), verified 2026-09-26). |
+| Operational maturity | 8/10 | Created in 2020 with a steady v3.x release cadence through v3.3.1 on August 20, 2026 (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
 
 Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -147,6 +92,13 @@ Light, honest, cookieless analytics you can own outright; the AI-free tracking s
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $20/mo |
+| ✓ Active public repository (39,115 GitHub stars counted at last check) |  |
+| ✓ Native integrations include WordPress (community plugin), Next.js, Vercel (5 listed) |  |
+
 ## Related concepts
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -160,16 +112,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Umami?**
 Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 39,115 stars. Umami offers a public API for custom integrations.
 
+**How much does Umami cost?**
 Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
+**Is Umami a good self-hosted Analytics & Attribution tool in 2026?**
 Light, honest, cookieless analytics you can own outright; the AI-free tracking script is the point, not a gap. Self-host for unlimited sites, or pay $20 a month for 1 million cloud events.
 
+**How do I stop ad blockers from blocking Umami?**
 The docs describe three methods: reverse-proxy the tracking script at the server level (Nginx, Apache, or an Express endpoint serving it), self-host the tracker file and point the snippet at it with data-host-url, or on self-hosted installs rename the tracker with TRACKER_SCRIPT_NAME and the collection endpoint with COLLECT_API_ENDPOINT. The docs concede the point plainly: even though Umami is privacy-focused, it may still get blocked by certain ad blockers.
 
+**Does Umami track UTM campaign parameters?**
 Yes, natively since v2.11.0. All five standard parameters (utm_source, utm_medium, utm_campaign, utm_term, utm_content) are collected automatically with no extra configuration, and there is a dedicated UTM report. The v2.18.0 attribution report builds on that with first-click and last-click models across referrers, paid ads, and UTM parameters, so campaign credit can be viewed under either model.
 
+**What happened to MySQL support in Umami v3?**
 It was removed. The v3 upgrade guide announces that Umami is standardizing on PostgreSQL, and the FAQ states PostgreSQL 12.14 or newer is the only supported database. Existing MySQL users migrate by upgrading to v2.19.0 first, exporting with mysqldump or CSV, and importing with a tool such as pgloader or pg_chameleon; the docs walk the full path. MariaDB, which v2 tolerated as a MySQL variant, goes with it.
 
 ## Similar Tools
@@ -184,6 +142,14 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 - [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Analytics & Attribution](/categories/analytics/)
+- **GitHub:** ★ 39115
+- **Founded:** 2020
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 Related guides: [Umami in Matomo alternatives](/alternatives/matomo/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 ## Get the next teardown
@@ -191,6 +157,28 @@ Related guides: [Umami in Matomo alternatives](/alternatives/matomo/) · [Market
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Umami is a tool in Analytics & Attribution with free and open source. The catalog documents 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+PostHog
+
+Open-source product analytics platform with session replay, feature flags, experiments, and surveys
+
+Heap
+
+AI-powered product analytics with autocapture and digital experience insights
+
+Mixpanel
+
+Product analytics platform with AI-powered insights for user behavior tracking
+
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+[More Analytics & Attribution Tools →](/categories/analytics/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

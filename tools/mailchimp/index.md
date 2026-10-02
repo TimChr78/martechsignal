@@ -1,68 +1,5 @@
 # Mailchimp review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free (500 contacts, 1,000 emails/mo), Essentials $13/mo, Standard $20/mo, Premium $350/mo, all published (the vendor pricing page: [pricing page](https://mailchimp.com/pricing/marketing/), verified 2026-08-28). |
-| Feature depth | 6/10 | Email, automation and analytics cover the small-business loop; journey depth trails the specialist platforms (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
-| Integrations | 7/10 | Shopify, WooCommerce, Salesforce, Zapier, WordPress, Canva, GA and Stripe documented (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
-| AI capability | 5/10 | Content optimizer, subject line help, predictive demographics and Creative Assistant are assistive tools (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access and standard exports (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
-| Operational maturity | 9/10 | Founded 2001 with Intuit's infrastructure behind it and the category's widest name recognition (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI content optimizer | ✗ Paid plans start at $13/mo once past the free tier |
-| ✓ G2 rating 4.4/5 | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Shopify, WooCommerce, Salesforce (8 listed) |  |
-| ✓ Free tier to evaluate before committing (Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo) |  |
-
-**What is Mailchimp?**
-Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations.
-
-**How much does Mailchimp cost?**
-Mailchimp has a free tier; paid plans start at $13/mo. Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
-
-**Is Mailchimp worth it past the free tier?**
-Fine as a starting point, especially free. Budget to migrate once automation depth or list size starts to strain the plan structure.
-
-- **Pricing:** Freemium
-- **Category:** [Email Marketing](/categories/email-marketing/)
-- **Third-party ratingsG2 rating:** 4.4/5 · [source](https://www.g2.com/products/intuit-mailchimp-all-in-one-marketing-platform/reviews)as of 2026-08-28
-- **Founded:** 2001
-- **HQ:** Atlanta, GA, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Mailchimp is a tool in Email Marketing with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Klaviyo
-
-AI-powered email and SMS marketing platform built for ecommerce brands
-
-Notifuse
-
-Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
-
-HubSpot Marketing Hub
-
-All-in-one marketing automation with AI-powered content, email, and campaign tools
-
-Brevo
-
-Multichannel marketing platform billing by email volume, not contacts
-
-OpenOutreach
-
-Open-source AI lead finder: describe your product and it finds and qualifies the leads
-
-Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
-
-[More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
@@ -75,7 +12,7 @@ All-in-one marketing platform with AI-powered email, automation, and analytics
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 Looking for options? [Best Mailchimp alternatives](/alternatives/mailchimp/)
 
@@ -88,6 +25,16 @@ Looking for options? [Best Mailchimp alternatives](/alternatives/mailchimp/)
 ## MartechSignal Score: 38/60
 
 Mailchimp remains the easiest way to start sending, with a free plan that behaves like a trial of a bigger platform. Power users outgrow its automation depth and leave; beginners rarely need to.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free (500 contacts, 1,000 emails/mo), Essentials $13/mo, Standard $20/mo, Premium $350/mo, all published (the vendor pricing page: [pricing page](https://mailchimp.com/pricing/marketing/), verified 2026-08-28). |
+| Feature depth | 6/10 | Email, automation and analytics cover the small-business loop; journey depth trails the specialist platforms (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
+| Integrations | 7/10 | Shopify, WooCommerce, Salesforce, Zapier, WordPress, Canva, GA and Stripe documented (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
+| AI capability | 5/10 | Content optimizer, subject line help, predictive demographics and Creative Assistant are assistive tools (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access and standard exports (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
+| Operational maturity | 9/10 | Founded 2001 with Intuit's infrastructure behind it and the category's widest name recognition (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -136,6 +83,14 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI content optimizer | ✗ Paid plans start at $13/mo once past the free tier |
+| ✓ G2 rating 4.4/5 | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, WooCommerce, Salesforce (8 listed) |  |
+| ✓ Free tier to evaluate before committing (Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo) |  |
+
 ## Related concepts
 
 - [Email sequence](/glossary/email-sequence/)
@@ -148,10 +103,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Mailchimp?**
 Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations.
 
+**How much does Mailchimp cost?**
 Mailchimp has a free tier; paid plans start at $13/mo. Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
+**Is Mailchimp worth it past the free tier?**
 Fine as a starting point, especially free. Budget to migrate once automation depth or list size starts to strain the plan structure.
 
 ## Similar Tools
@@ -168,6 +126,14 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 - [Mailchimp vs Brevo (2026): pricing, multichannel, verdict](/vs/mailchimp-vs-brevo/) — Pick Mailchimp if your team wants a broad commerce-flavored marketing suite with strong brand recognition, starting at $13/mo for Essentials (free to 500 contacts).
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Email Marketing](/categories/email-marketing/)
+- **Third-party ratingsG2 rating:** 4.4/5 · [source](https://www.g2.com/products/intuit-mailchimp-all-in-one-marketing-platform/reviews)as of 2026-08-28
+- **Founded:** 2001
+- **HQ:** Atlanta, GA, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 ## Get the next teardown
@@ -175,6 +141,34 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Mailchimp is a tool in Email Marketing with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Klaviyo
+
+AI-powered email and SMS marketing platform built for ecommerce brands
+
+Notifuse
+
+Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+
+HubSpot Marketing Hub
+
+All-in-one marketing automation with AI-powered content, email, and campaign tools
+
+Brevo
+
+Multichannel marketing platform billing by email volume, not contacts
+
+OpenOutreach
+
+Open-source AI lead finder: describe your product and it finds and qualifies the leads
+
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
+
+[More Email Marketing Tools →](/categories/email-marketing/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -193,7 +187,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/mailchimp/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -305,7 +299,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/mailchimp/", "breadcrumb": {"@id": "https://martechsignal.com/tools/mailchimp/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/mailchimp/", "breadcrumb": {"@id": "https://martechsignal.com/tools/mailchimp/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

@@ -1,72 +1,5 @@
 # Macro review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 6/10 | Free for personal use with limits stated; Teams $40/seat/mo for the first 5 seats then $80/seat published, no free team plan (the vendor pricing page: [pricing page](https://macro.com/pricing), verified 2026-09-28). |
-| Feature depth | 6/10 | Self-updating contact and company records from email with company-level pipeline stages (vendor documentation: [vendor site](https://macro.com), verified 2026-09-28). |
-| Integrations | 4/10 | Gmail, Google Workspace, GitHub and MCP documented (vendor documentation: [vendor site](https://macro.com), verified 2026-09-28). |
-| AI capability | 7/10 | Agents that build and maintain CRM records from email, plus shared team memory (vendor documentation: [vendor site](https://macro.com), verified 2026-09-28). |
-| Openness | 8/10 | AGPL-3.0 with full source access (the source repository: [repository](https://github.com/macro-inc/macro), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2020 with priced team tiers (vendor documentation: [vendor site](https://macro.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $40/mo |
-| ✓ AI capabilities: agent-driven CRM that builds contact and company records from your team's email |  |
-| ✓ Active public repository (4,515 GitHub stars counted at last check) |  |
-
-**What is Macro?**
-Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,515 stars.
-
-**How much does Macro cost?**
-Macro is paid software; plans start at $40/mo. Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
-
-**Is Macro worth it past the free tier?**
-A genuinely open-source workspace whose CRM is a byproduct of team email: real for contact capture and context, not yet a pipeline tool. The license is new, the pace is fast, and the compliance posture is far ahead of the project's age.
-
-**Macro vs Attio: which should a sales team pick?**
-Attio is a dedicated CRM: deal objects, pipeline views, enrichment, and integrations built around managing a sales process. Macro is a workspace where the CRM emerges from email, with company records, stages, and revenue properties but no deal entity and manual stage moves. Pick Attio if pipeline management and forecasting are the job, or if you need a CRM to drop into an existing stack. Pick Macro if your team would rather replace its email, chat, docs, and task tools with one app and accept lighter pipeline mechanics in exchange for records that maintain themselves.
-
-**Can you self-host Macro?**
-Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host at macro.com.
-
-- **Pricing:** Freemium
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 4515
-- **Founded:** 2020
-- **HQ:** New York, NY, USA
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** Macro is a tool in CRM with paid plans starting at $40/mo. The catalog documents 8 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Freshsales
-
-AI-powered CRM with built-in phone, email, and chat for sales teams
-
-Pipedrive
-
-Sales-focused CRM with AI-powered pipeline management and deal forecasting
-
-Paperclip
-
-Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
-
-Eve Marketing Team Template
-
-Open-source team of marketing agents on eve: lead, content, social, SEO, email
-
-Cordys CRM
-
-Open-source AI CRM with built-in agents, conversational analytics, and private deployment
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -79,7 +12,7 @@ Open source workspace with a self-updating, agent-driven CRM and shared AI team 
 
 CRM · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Macro →](https://macro.com)
 
@@ -90,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 36/60
 
 Macro is the agent-driven CRM that builds itself from your team's email, plus shared AI memory. AGPL and open source, but team seats start at $40 and there is no free team plan.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Free for personal use with limits stated; Teams $40/seat/mo for the first 5 seats then $80/seat published, no free team plan (the vendor pricing page: [pricing page](https://macro.com/pricing), verified 2026-09-28). |
+| Feature depth | 6/10 | Self-updating contact and company records from email with company-level pipeline stages (vendor documentation: [vendor site](https://macro.com), verified 2026-09-28). |
+| Integrations | 4/10 | Gmail, Google Workspace, GitHub and MCP documented (vendor documentation: [vendor site](https://macro.com), verified 2026-09-28). |
+| AI capability | 7/10 | Agents that build and maintain CRM records from email, plus shared team memory (vendor documentation: [vendor site](https://macro.com), verified 2026-09-28). |
+| Openness | 8/10 | AGPL-3.0 with full source access (the source repository: [repository](https://github.com/macro-inc/macro), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2020 with priced team tiers (vendor documentation: [vendor site](https://macro.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -160,6 +103,13 @@ A genuinely open-source workspace whose CRM is a byproduct of team email: real f
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $40/mo |
+| ✓ AI capabilities: agent-driven CRM that builds contact and company records from your team's email |  |
+| ✓ Active public repository (4,515 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -174,14 +124,19 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Macro?**
 Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,515 stars.
 
+**How much does Macro cost?**
 Macro is paid software; plans start at $40/mo. Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
 
+**Is Macro worth it past the free tier?**
 A genuinely open-source workspace whose CRM is a byproduct of team email: real for contact capture and context, not yet a pipeline tool. The license is new, the pace is fast, and the compliance posture is far ahead of the project's age.
 
+**Macro vs Attio: which should a sales team pick?**
 Attio is a dedicated CRM: deal objects, pipeline views, enrichment, and integrations built around managing a sales process. Macro is a workspace where the CRM emerges from email, with company records, stages, and revenue properties but no deal entity and manual stage moves. Pick Attio if pipeline management and forecasting are the job, or if you need a CRM to drop into an existing stack. Pick Macro if your team would rather replace its email, chat, docs, and task tools with one app and accept lighter pipeline mechanics in exchange for records that maintain themselves.
 
+**Can you self-host Macro?**
 Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host at macro.com.
 
 ## Similar Tools
@@ -193,11 +148,46 @@ Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focu
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 4515
+- **Founded:** 2020
+- **HQ:** New York, NY, USA
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Macro is a tool in CRM with paid plans starting at $40/mo. The catalog documents 8 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Freshsales
+
+AI-powered CRM with built-in phone, email, and chat for sales teams
+
+Pipedrive
+
+Sales-focused CRM with AI-powered pipeline management and deal forecasting
+
+Paperclip
+
+Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+
+Eve Marketing Team Template
+
+Open-source team of marketing agents on eve: lead, content, social, SEO, email
+
+Cordys CRM
+
+Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

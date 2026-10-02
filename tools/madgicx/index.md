@@ -1,62 +1,5 @@
 # Madgicx review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 6/10 | Entry plan $49/mo with a public calculator scaling by spend bands from under $1K to $30K+, plus a free trial (the vendor pricing page: [pricing page](https://madgicx.com/pricing), verified 2026-09-07). |
-| Feature depth | 6/10 | AI creative workflow, real-time budget allocation and generated audiences cover the Meta optimization loop (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
-| Integrations | 4/10 | Meta, Shopify, GA and TikTok documented; the surface is deliberately focused (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
-| AI capability | 7/10 | End-to-end AI creative generation with autonomous budget allocation across ad sets (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
-| Openness | 2/10 | Closed SaaS with no API documented in the catalog (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
-| Operational maturity | 5/10 | Priced self-serve with a spend calculator but no founding year in the catalog (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI Ads: end-to-end AI ad creative generation workflow | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Meta (Facebook/Instagram), Shopify, Google Analytics (4 listed) |  |
-
-**What is Madgicx?**
-Madgicx: AI-powered Meta ads optimization and creative workflow. Madgicx ships with AI Ads: end-to-end AI ad creative generation workflow. This page documents 4 integrations.
-
-**How much does Madgicx cost?**
-Madgicx starts at $49/mo. Entry plan $49/mo (AI Ads tier visible on pricing page); pricing calculator scales by monthly ad spend bands from <$1K to $30K+. Free trial ($0) available. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Madgicx worth paying for in 2026?**
-The most complete Meta-only operating layer in the directory: real breadth across optimization, creative and attribution, with spend-based pricing that suits established ecommerce advertisers.
-
-- **Pricing:** From $49/mo
-- **Category:** [Advertising & Paid Media](/categories/advertising/)
-- **HQ:** Tel Aviv, Israel
-- **API:** No
-- **Last verified:** 2026-09-07
-
-**Verdict:** Madgicx is a tool in Advertising & Paid Media with paid plans starting at $49/mo. The catalog documents 5 AI features and 4 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Albert AI
-
-Autonomous AI platform that manages and optimizes digital advertising campaigns
-
-Smartly.io
-
-AI advertising platform spanning creative production, media buying, and measurement
-
-Pencil
-
-AI-powered ad creative generation and performance prediction for paid media
-
-Triple Whale
-
-AI-powered ecommerce analytics and attribution platform for DTC brands
-
-Revive Adserver
-
-Free open source ad server for publishers, ad networks and advertisers
-
-[More Advertising & Paid Media Tools →](/categories/advertising/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
@@ -69,7 +12,7 @@ AI-powered Meta ads optimization and creative workflow
 
 Advertising & Paid Media · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Madgicx →](https://madgicx.com/)
 
@@ -80,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 30/60
 
 Madgicx is the Meta specialist: creative workflows and autonomous budget moves for one ad ecosystem. The spend calculator keeps pricing honest; the TikTok story is newer than the Meta one.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Entry plan $49/mo with a public calculator scaling by spend bands from under $1K to $30K+, plus a free trial (the vendor pricing page: [pricing page](https://madgicx.com/pricing), verified 2026-09-07). |
+| Feature depth | 6/10 | AI creative workflow, real-time budget allocation and generated audiences cover the Meta optimization loop (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
+| Integrations | 4/10 | Meta, Shopify, GA and TikTok documented; the surface is deliberately focused (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
+| AI capability | 7/10 | End-to-end AI creative generation with autonomous budget allocation across ad sets (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
+| Openness | 2/10 | Closed SaaS with no API documented in the catalog (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
+| Operational maturity | 5/10 | Priced self-serve with a spend calculator but no founding year in the catalog (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -132,6 +85,12 @@ The most complete Meta-only operating layer in the directory: real breadth acros
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI Ads: end-to-end AI ad creative generation workflow | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Meta (Facebook/Instagram), Shopify, Google Analytics (4 listed) |  |
+
 ## Related concepts
 
 - [DSP](/glossary/dsp/)
@@ -146,10 +105,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Madgicx?**
 Madgicx: AI-powered Meta ads optimization and creative workflow. Madgicx ships with AI Ads: end-to-end AI ad creative generation workflow. This page documents 4 integrations.
 
+**How much does Madgicx cost?**
 Madgicx starts at $49/mo. Entry plan $49/mo (AI Ads tier visible on pricing page); pricing calculator scales by monthly ad spend bands from <$1K to $30K+. Free trial ($0) available. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Madgicx worth paying for in 2026?**
 The most complete Meta-only operating layer in the directory: real breadth across optimization, creative and attribution, with spend-based pricing that suits established ecommerce advertisers.
 
 ## Similar Tools
@@ -164,6 +126,12 @@ The most complete Meta-only operating layer in the directory: real breadth acros
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Best for advertising & paid media teams that want the job covered in one platform, starting at $49/mo.
 ### Quick Facts
 
+- **Pricing:** From $49/mo
+- **Category:** [Advertising & Paid Media](/categories/advertising/)
+- **HQ:** Tel Aviv, Israel
+- **API:** No
+- **Last verified:** 2026-09-07
+
 Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 
 ## Get the next teardown
@@ -171,6 +139,32 @@ Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Madgicx is a tool in Advertising & Paid Media with paid plans starting at $49/mo. The catalog documents 5 AI features and 4 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Albert AI
+
+Autonomous AI platform that manages and optimizes digital advertising campaigns
+
+Smartly.io
+
+AI advertising platform spanning creative production, media buying, and measurement
+
+Pencil
+
+AI-powered ad creative generation and performance prediction for paid media
+
+Triple Whale
+
+AI-powered ecommerce analytics and attribution platform for DTC brands
+
+Revive Adserver
+
+Free open source ad server for publishers, ad networks and advertisers
+
+[More Advertising & Paid Media Tools →](/categories/advertising/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -189,7 +183,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/madgicx/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-07",
     "datePublished": "2026-09-07",
     "offers": {
       "@type": "Offer",
@@ -292,7 +286,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/madgicx/", "breadcrumb": {"@id": "https://martechsignal.com/tools/madgicx/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/madgicx/", "breadcrumb": {"@id": "https://martechsignal.com/tools/madgicx/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

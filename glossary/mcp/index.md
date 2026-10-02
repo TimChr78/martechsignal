@@ -1,22 +1,10 @@
 # Model Context Protocol (MCP)
 
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-Make
-
-Visual automation platform for building complex workflows with AI agents and apps
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Model Context Protocol (MCP)
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-25
 
 ## Definition
 
@@ -68,6 +56,18 @@ Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](htt
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Make
+
+Visual automation platform for building complex workflows with AI agents and apps
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -78,7 +78,7 @@ Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](htt
         "@type": "DefinedTerm",
         "name": "Model Context Protocol (MCP)",
         "description": "The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a database, send an email, read a file - in a uniform format any MCP-compatible client can use. It replaces one-off integrations between each model and each tool with a single protocol on each side.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-25",
         "datePublished": "2026-09-25",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -136,7 +136,7 @@ Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](htt
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/mcp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/mcp/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/mcp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/mcp/#breadcrumb"}, "dateModified": "2026-09-25"}
 ```
 
 ```json

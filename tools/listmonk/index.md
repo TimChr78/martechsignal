@@ -1,66 +1,5 @@
 # Listmonk review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 10/10 | Free and open-source under AGPL with self-hosting and no paid tiers at all (the vendor pricing page: [pricing page](https://listmonk.app), verified 2026-08-28). |
-| Feature depth | 5/10 | Newsletter and mailing-list management with templates and campaigns cover the sending job (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
-| Integrations | 4/10 | PostgreSQL, SMTP, Zapier and WordPress documented plus an API (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
-| AI capability | 3/10 | AI-assisted template editing and campaign analytics are the two documented AI features (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0 with a fast Go backend you can read (the source repository: [repository](https://github.com/knadh/listmonk), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2019 with years of self-hosted production use (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ AI capabilities: AI-assisted template editing |  |
-| ✓ Active public repository (23,652 GitHub stars counted at last check) |  |
-
-**What is Listmonk?**
-Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 23,652 stars.
-
-**How much does Listmonk cost?**
-Listmonk is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 23,652 stars; native integrations cover PostgreSQL, SMTP, Zapier. You pay in server time and maintenance, not licences.
-
-**Is Listmonk a good self-hosted Email Marketing tool in 2026?**
-The strongest self-hosted mailing platform in this catalog; bring your own forms and workflows.
-
-- **Pricing:** Open Source
-- **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 23652
-- **Founded:** 2019
-- **HQ:** Bangalore, India
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-08-28
-
-**Verdict:** Listmonk is a tool in Email Marketing with free and open source. The catalog documents 2 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Brevo
-
-Multichannel marketing platform billing by email volume, not contacts
-
-Notifuse
-
-Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
-
-BillionMail
-
-Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
-
-Ghost
-
-Open-source publishing platform with built-in newsletters, memberships, and AI tools
-
-Maizzle
-
-Modern email development framework using Tailwind CSS for responsive campaigns
-
-[More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
@@ -73,7 +12,7 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Listmonk →](https://listmonk.app)
 
@@ -84,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 37/60
 
 Listmonk is the self-hosted newsletter standard: 23,652 stars of Go under AGPL with no paid tier anywhere. If you can run Postgres and SMTP, this is free forever by design.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free and open-source under AGPL with self-hosting and no paid tiers at all (the vendor pricing page: [pricing page](https://listmonk.app), verified 2026-08-28). |
+| Feature depth | 5/10 | Newsletter and mailing-list management with templates and campaigns cover the sending job (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
+| Integrations | 4/10 | PostgreSQL, SMTP, Zapier and WordPress documented plus an API (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
+| AI capability | 3/10 | AI-assisted template editing and campaign analytics are the two documented AI features (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 with a fast Go backend you can read (the source repository: [repository](https://github.com/knadh/listmonk), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2019 with years of self-hosted production use (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -125,6 +74,13 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: AI-assisted template editing |  |
+| ✓ Active public repository (23,652 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [Email sequence](/glossary/email-sequence/)
@@ -137,10 +93,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Listmonk?**
 Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 23,652 stars.
 
+**How much does Listmonk cost?**
 Listmonk is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 23,652 stars; native integrations cover PostgreSQL, SMTP, Zapier. You pay in server time and maintenance, not licences.
 
+**Is Listmonk a good self-hosted Email Marketing tool in 2026?**
 The strongest self-hosted mailing platform in this catalog; bring your own forms and workflows.
 
 ## Similar Tools
@@ -155,6 +114,15 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Newsletter and lifecycle email at one list price, with no per-contact billing
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Email Marketing](/categories/email-marketing/)
+- **GitHub:** ★ 23652
+- **Founded:** 2019
+- **HQ:** Bangalore, India
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-08-28
+
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)
 
 ## Get the next teardown
@@ -162,6 +130,32 @@ Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Listmonk is a tool in Email Marketing with free and open source. The catalog documents 2 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Brevo
+
+Multichannel marketing platform billing by email volume, not contacts
+
+Notifuse
+
+Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+
+BillionMail
+
+Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+
+Ghost
+
+Open-source publishing platform with built-in newsletters, memberships, and AI tools
+
+Maizzle
+
+Modern email development framework using Tailwind CSS for responsive campaigns
+
+[More Email Marketing Tools →](/categories/email-marketing/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

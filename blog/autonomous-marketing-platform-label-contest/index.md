@@ -1,16 +1,5 @@
 # Autonomous Marketing Platforms Are Real. The Name Is Wrong.
 
-
-| Vendor | Where it claims autonomy | The control surface to inspect |
-| --- | --- | --- |
-| ActiveCampaign | Goal-driven campaign agents across email and automation; MCP server extends agents into outside tools | Deployment still takes your click; ask what the agent can change between clicks |
-| Albert (Zoomd) | Paid-media budgets, bids, audiences; the original, since ~2017 | Humans upload creatives and set objectives; ask how caps hold when pacing breaks |
-| Bloomreach | Retail CDP and Loomi agents optimizing campaigns in real time | Ask what state the agents read and who reviews cross-channel changes |
-| Jasper | Content and brand-governance agents; ad copy updated from live metrics | Ask what happens when the agent edits copy on a live campaign |
-| HubSpot Agent Hub / Salesforce Agentforce | Platform-native agents inside the CRM | The platform holds the state and the audit log; ask what you can export |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 AGENT SKILLS · ADVERTISING · 11 MIN
 
 ## Autonomous Marketing Platforms Are Real. The Name Is Wrong.
@@ -19,7 +8,7 @@ AGENT SKILLS · ADVERTISING · 11 MIN
 
 [Home](/) · [Blog](/blog/) · Autonomous Marketing Platforms Are Real. The Name Is Wrong.
 
-AUG 26, 2026 · Updated 2026-10-02
+AUG 26, 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 
@@ -60,6 +49,15 @@ The honest term is agentic orchestration with approval gates. Delegated executio
 ## The control surface is the product
 
 Once you stop comparing autonomy claims, the vendors separate cleanly on what we would call the control surface: budget caps, [approval workflows](/glossary/workflow-automation/), audit trails, campaign state, and identity handling.
+
+
+| Vendor | Where it claims autonomy | The control surface to inspect |
+| --- | --- | --- |
+| ActiveCampaign | Goal-driven campaign agents across email and automation; MCP server extends agents into outside tools | Deployment still takes your click; ask what the agent can change between clicks |
+| Albert (Zoomd) | Paid-media budgets, bids, audiences; the original, since ~2017 | Humans upload creatives and set objectives; ask how caps hold when pacing breaks |
+| Bloomreach | Retail CDP and Loomi agents optimizing campaigns in real time | Ask what state the agents read and who reviews cross-channel changes |
+| Jasper | Content and brand-governance agents; ad copy updated from live metrics | Ask what happens when the agent edits copy on a live campaign |
+| HubSpot Agent Hub / Salesforce Agentforce | Platform-native agents inside the CRM | The platform holds the state and the audit log; ask what you can export |
 
 Our reporting this month converges here, because each control surface has a documented failure mode:
 
@@ -130,6 +128,8 @@ More from the directory: [Brandwatch](/tools/brandwatch/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -161,7 +161,7 @@ More from the directory: [Brandwatch](/tools/brandwatch/)
     }
   },
   "datePublished": "2026-08-26",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-26",
   "mainEntityOfPage": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/",
   "image": {
     "@type": "ImageObject",
@@ -207,7 +207,7 @@ More from the directory: [Brandwatch](/tools/brandwatch/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/#breadcrumb"}, "dateModified": "2026-08-26"}
 ```
 
 ```json

@@ -1,77 +1,5 @@
 # Rankscale review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Three published EUR tiers with credit pools (Pro EUR 99/mo for 1,200 credits up to Enterprise EUR 780/mo for 12,000), 15% annual saving and a 7-day trial (the vendor pricing page: [pricing page](https://rankscale.ai/pricing), verified 2026-09-25). |
-| Feature depth | 7/10 | Visibility, citation and sentiment across 17+ engines, query fan-out insights and page-level AI audits with readiness scoring (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
-| Integrations | 6/10 | GA4, Search Console and Looker Studio connections plus REST API and MCP; no app marketplace beyond that (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
-| AI capability | 7/10 | Query fan-out retrieval insights and AI page audits with readiness scoring are genuinely model-aware features (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access; no self-hosting or open data portability terms documented (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
-| Operational maturity | 5/10 | Agency-facing with SSO and support tiers, but no founding year is documented and the company is young (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: visibility, citation and sentiment tracking across 17+ engines | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Google Analytics 4, Google Search Console, Google Looker Studio (5 listed) | ✗ Credit burn varies with engine mix and cadence, so monthly cost is less predictable than fixed prompt caps |
-| ✓ All 17-plus engines are included on every plan with no per-engine upsell | ✗ Scout recommendations and the GA4/Search Console connectors are marked beta |
-| ✓ Unused credits roll over between cycles (up to 2x on Pro, 3x on Growth and Enterprise) | ✗ REST API and white-label options gate at Growth (EUR 385 per month) |
-| ✓ Query fan-out and page audits are included even on lower tiers |  |
-
-**What is Rankscale?**
-Rankscale: AI visibility tracking across 17+ answer engines for agencies and enterprise teams. Rankscale ships with visibility, citation and sentiment tracking across 17+ engines. This page documents 5 integrations.
-
-**How much does Rankscale cost?**
-Rankscale starts at €99/mo. Pro EUR 99/mo (1,200 credits), Growth EUR 385/mo (5,500 credits), Enterprise EUR 780/mo (12,000 credits); yearly billing saves 15%; 7-day Pro trial. An Essentials tier sits below Pro, its price was not visible in our EU render (the site localizes currency). Prices as served September 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Rankscale worth paying for in 2026?**
-Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from Pro at EUR 99 to Enterprise at EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start.
-
-**How does Rankscale pricing work?**
-Plans are credit-based. Each query to an AI engine uses roughly a quarter of a credit. Pro is EUR 99 per month with 1,200 credits, Growth EUR 385 with 5,500, Enterprise EUR 780 with 12,000, and a cheaper Essentials tier below Pro whose price was not visible in our EU render.
-
-**Which AI engines does Rankscale cover?**
-17-plus engines including ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, Google AI Mode, DeepSeek, Grok, Copilot and Mistral, with no per-engine upsell.
-
-**Is there a free trial?**
-Pro includes a seven-day trial with no charge until day seven. Yearly billing saves 15 percent and unused credits roll over.
-
-**Where is Rankscale based?**
-Rankscale GmbH builds the product in Vienna, Austria. Its customer logo wall includes Bosch, UBS, Cartier and Otto.
-
-- **Pricing:** From €99/mo
-- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
-- **HQ:** Vienna, Austria
-- **API:** Yes
-- **Last verified:** 2026-09-25
-
-**Verdict:** Rankscale is a tool in GEO & LLM Optimization with paid plans starting at €99/mo. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-OtterlyAI
-
-AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
-
-Profound
-
-Enterprise AI marketing platform: answer-engine visibility plus drafting agents
-
-Nimt.ai
-
-AI search tracking across 8 models with an agent that writes, fixes, and outreaches
-
-AccuRanker
-
-Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
-
-SISTRIX
-
-German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
-
-[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
@@ -82,7 +10,7 @@ AI visibility tracking across 17+ answer engines for agencies and enterprise tea
 
 GEO & LLM Optimization · From €99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Rankscale →](https://rankscale.ai/)
 
@@ -93,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 35/60
 
 Rankscale covers 17+ answer engines with retrieval diagnostics, which matters if your audience is not only on ChatGPT. Credit-based pricing is published but needs arithmetic before you buy.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Three published EUR tiers with credit pools (Pro EUR 99/mo for 1,200 credits up to Enterprise EUR 780/mo for 12,000), 15% annual saving and a 7-day trial (the vendor pricing page: [pricing page](https://rankscale.ai/pricing), verified 2026-09-25). |
+| Feature depth | 7/10 | Visibility, citation and sentiment across 17+ engines, query fan-out insights and page-level AI audits with readiness scoring (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
+| Integrations | 6/10 | GA4, Search Console and Looker Studio connections plus REST API and MCP; no app marketplace beyond that (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
+| AI capability | 7/10 | Query fan-out retrieval insights and AI page audits with readiness scoring are genuinely model-aware features (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access; no self-hosting or open data portability terms documented (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
+| Operational maturity | 5/10 | Agency-facing with SSO and support tiers, but no founding year is documented and the company is young (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -144,6 +82,15 @@ Rankscale offers the widest engine coverage for the money: 17-plus engines on ev
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: visibility, citation and sentiment tracking across 17+ engines | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Google Analytics 4, Google Search Console, Google Looker Studio (5 listed) | ✗ Credit burn varies with engine mix and cadence, so monthly cost is less predictable than fixed prompt caps |
+| ✓ All 17-plus engines are included on every plan with no per-engine upsell | ✗ Scout recommendations and the GA4/Search Console connectors are marked beta |
+| ✓ Unused credits roll over between cycles (up to 2x on Pro, 3x on Growth and Enterprise) | ✗ REST API and white-label options gate at Growth (EUR 385 per month) |
+| ✓ Query fan-out and page audits are included even on lower tiers |  |
+
 ## Related concepts
 
 - [GEO](/glossary/geo/)
@@ -157,18 +104,25 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Rankscale?**
 Rankscale: AI visibility tracking across 17+ answer engines for agencies and enterprise teams. Rankscale ships with visibility, citation and sentiment tracking across 17+ engines. This page documents 5 integrations.
 
+**How much does Rankscale cost?**
 Rankscale starts at €99/mo. Pro EUR 99/mo (1,200 credits), Growth EUR 385/mo (5,500 credits), Enterprise EUR 780/mo (12,000 credits); yearly billing saves 15%; 7-day Pro trial. An Essentials tier sits below Pro, its price was not visible in our EU render (the site localizes currency). Prices as served September 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Rankscale worth paying for in 2026?**
 Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from Pro at EUR 99 to Enterprise at EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start.
 
+**How does Rankscale pricing work?**
 Plans are credit-based. Each query to an AI engine uses roughly a quarter of a credit. Pro is EUR 99 per month with 1,200 credits, Growth EUR 385 with 5,500, Enterprise EUR 780 with 12,000, and a cheaper Essentials tier below Pro whose price was not visible in our EU render.
 
+**Which AI engines does Rankscale cover?**
 17-plus engines including ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, Google AI Mode, DeepSeek, Grok, Copilot and Mistral, with no per-engine upsell.
 
+**Is there a free trial?**
 Pro includes a seven-day trial with no charge until day seven. Yearly billing saves 15 percent and unused credits roll over.
 
+**Where is Rankscale based?**
 Rankscale GmbH builds the product in Vienna, Austria. Its customer logo wall includes Bosch, UBS, Cartier and Otto.
 
 ## Similar Tools
@@ -183,6 +137,12 @@ Rankscale GmbH builds the product in Vienna, Austria. Its customer logo wall inc
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for GEO & LLM optimization teams that want query fan-out retrieval insights, starting at €99/mo.
 ### Quick Facts
 
+- **Pricing:** From €99/mo
+- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
+- **HQ:** Vienna, Austria
+- **API:** Yes
+- **Last verified:** 2026-09-25
+
 Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 ## Get the next teardown
@@ -190,6 +150,32 @@ Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Rankscale is a tool in GEO & LLM Optimization with paid plans starting at €99/mo. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+OtterlyAI
+
+AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+
+Profound
+
+Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+
+Nimt.ai
+
+AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+
+AccuRanker
+
+Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+
+SISTRIX
+
+German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
+
+[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -208,7 +194,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/rankscale/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-25",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -343,7 +329,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/rankscale/", "breadcrumb": {"@id": "https://martechsignal.com/tools/rankscale/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/rankscale/", "breadcrumb": {"@id": "https://martechsignal.com/tools/rankscale/#breadcrumb"}, "dateModified": "2026-09-25"}
 ```
 
 ```json

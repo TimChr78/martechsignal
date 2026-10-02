@@ -1,7 +1,5 @@
 # About
 
-[MARTECH**SIGNAL**](/)
-
 ## About MartechSignal
 
 MartechSignal is an independent review site for AI marketing automation. We research and document the tools in your stack: workflow automation, CRM, email, analytics, SEO, content AI, and publish what we find, including what vendors would rather leave out of their landing pages.

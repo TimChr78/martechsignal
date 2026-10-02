@@ -1,60 +1,5 @@
 # Chatfuel review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | From $39/mo with AI PRO at $69/mo and usage-based tiers published; a free trial replaces the free plan (the vendor pricing page: [pricing page](https://chatfuel.com/pricing), verified 2026-08-28). |
-| Feature depth | 5/10 | Conversation flows, lead capture and analytics cover the messaging automation loop (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
-| Integrations | 5/10 | Shopify, Zapier, Google Sheets, Stripe, Mailchimp and HubSpot documented plus an API (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
-| AI capability | 5/10 | AI flow building and auto-replies automate conversations without full autonomy (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2015 with priced tiers and a trial that runs on its own (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI chatbot builder | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Shopify, Zapier, Google Sheets (6 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is Chatfuel?**
-Chatfuel: AI chatbot platform for automating customer conversations on messaging channels. Chatfuel ships with AI chatbot builder. This page documents 6 integrations.
-
-**How much does Chatfuel cost?**
-Chatfuel starts at $39/mo. Starts at $39/mo; AI PRO $69/mo; no free plan (free trial available); usage-based tiers. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Chatfuel worth paying for in 2026?**
-A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B teams need a more general builder.
-
-- **Pricing:** From $39/mo
-- **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
-- **Founded:** 2015
-- **HQ:** San Francisco, CA, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Chatfuel is a tool in Chatbots & Conversational AI with paid plans starting at $39/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-ManyChat
-
-AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
-
-Tidio
-
-AI-powered live chat and chatbot platform with Lyro AI agent for customer support
-
-Sprout Social
-
-Enterprise social media management with AI-powered analytics and engagement tools
-
-Intercom
-
-AI-first customer service platform with Fin AI agent and omnichannel messaging
-
-[More Chatbots & Conversational AI Tools →](/categories/chatbots/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
@@ -67,7 +12,7 @@ AI chatbot platform for automating customer conversations on messaging channels
 
 Chatbots & Conversational AI · From $39/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Chatfuel →](https://chatfuel.com)
 
@@ -78,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 31/60
 
 Chatfuel is messaging-channel automation with AI flows that behave like sales scripts. No free plan keeps the queue short and the expectations high.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | From $39/mo with AI PRO at $69/mo and usage-based tiers published; a free trial replaces the free plan (the vendor pricing page: [pricing page](https://chatfuel.com/pricing), verified 2026-08-28). |
+| Feature depth | 5/10 | Conversation flows, lead capture and analytics cover the messaging automation loop (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
+| Integrations | 5/10 | Shopify, Zapier, Google Sheets, Stripe, Mailchimp and HubSpot documented plus an API (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
+| AI capability | 5/10 | AI flow building and auto-replies automate conversations without full autonomy (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2015 with priced tiers and a trial that runs on its own (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -124,6 +79,13 @@ A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B tea
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI chatbot builder | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, Zapier, Google Sheets (6 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [Chatbot](/glossary/chatbot/)
@@ -136,10 +98,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Chatfuel?**
 Chatfuel: AI chatbot platform for automating customer conversations on messaging channels. Chatfuel ships with AI chatbot builder. This page documents 6 integrations.
 
+**How much does Chatfuel cost?**
 Chatfuel starts at $39/mo. Starts at $39/mo; AI PRO $69/mo; no free plan (free trial available); usage-based tiers. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Chatfuel worth paying for in 2026?**
 A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B teams need a more general builder.
 
 ## Similar Tools
@@ -154,6 +119,13 @@ A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B tea
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Messaging-first brands scripting conversations like campaigns
 ### Quick Facts
 
+- **Pricing:** From $39/mo
+- **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
+- **Founded:** 2015
+- **HQ:** San Francisco, CA, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 ## Get the next teardown
@@ -161,6 +133,28 @@ Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Chatfuel is a tool in Chatbots & Conversational AI with paid plans starting at $39/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+ManyChat
+
+AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
+
+Tidio
+
+AI-powered live chat and chatbot platform with Lyro AI agent for customer support
+
+Sprout Social
+
+Enterprise social media management with AI-powered analytics and engagement tools
+
+Intercom
+
+AI-first customer service platform with Fin AI agent and omnichannel messaging
+
+[More Chatbots & Conversational AI Tools →](/categories/chatbots/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -179,7 +173,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/chatfuel/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -282,7 +276,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/chatfuel/", "breadcrumb": {"@id": "https://martechsignal.com/tools/chatfuel/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/chatfuel/", "breadcrumb": {"@id": "https://martechsignal.com/tools/chatfuel/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

@@ -1,7 +1,5 @@
 # n8n + AI: The Open-Source Automation Engine
 
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 UPDATED · 12 MIN
 
 ## n8n + AI: The Open-Source Automation Engine
@@ -10,7 +8,7 @@ UPDATED · 12 MIN
 
 [Home](/) · [Blog](/blog/) · n8n + AI: The Open-Source Automation Engine
 
-JUL 28, 2026 · Updated 2026-10-02
+JUL 28, 2026
 
 In our [open-source martech stack analysis](/blog/open-source-martech-stack/), one tool kept surfacing: **n8n**. With 198K GitHub stars, per-execution pricing that undercuts Zapier by an order of magnitude, and AI agent capabilities built in rather than bolted on, n8n outperforms its commercial competitors on both cost and capability.
 
@@ -194,6 +192,8 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -225,7 +225,7 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
     }
   },
   "datePublished": "2026-07-28",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-07-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/n8n-ai-open-source-automation/",
   "image": {
     "@type": "ImageObject",
@@ -271,7 +271,7 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/n8n-ai-open-source-automation/", "breadcrumb": {"@id": "https://martechsignal.com/blog/n8n-ai-open-source-automation/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/n8n-ai-open-source-automation/", "breadcrumb": {"@id": "https://martechsignal.com/blog/n8n-ai-open-source-automation/#breadcrumb"}, "dateModified": "2026-07-28"}
 ```
 
 ```json

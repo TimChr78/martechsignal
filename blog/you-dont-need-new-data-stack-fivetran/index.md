@@ -1,23 +1,5 @@
 # Fivetran Proved You Don't Need a New Data Stack
 
-
-|  | Rip-and-replace pitch | Lean activation (the Fivetran/Inova model) |
-| --- | --- | --- |
-| Starting point | New platform, migration project | Existing warehouse, CRM, and MAP |
-| Timeline | 12-18 months typical | Months; Inova did 4 years of scope in 6 |
-| New use case cost | Engineering project per use case | Connector plus a dbt model; data already present |
-| Data freshness | Depends on the rebuild finishing | Continuous (CDC) from day one |
-| Risk profile | High; migration is the project | Incremental; each connector is testable |
-| Failure mode | Becomes the 40% Gartner cancels | Smaller surface, easier to unwind |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-REPLICATECRM, ad platforms, MAP, CDP events into the warehouse
-
-MODELdbt turns raw tables into tested, documented context
-
-ACTIVATEwarehouse segments written back to CRM and ad platforms
-
 AI · DATA STACK · 10 MIN
 
 ## You Don't Need a New Data Stack for AI. Fivetran Just Proved It
@@ -26,7 +8,7 @@ AI · DATA STACK · 10 MIN
 
 [Home](/) · [Blog](/blog/) · You Don't Need a New Data Stack for AI. Fivetran Just Proved It
 
-AUG 20, 2026 · Updated 2026-10-02
+AUG 20, 2026
 
 Filed under [Analytics & Attribution](/categories/analytics/)
 
@@ -73,6 +55,16 @@ Translate the healthcare architecture into marketing terms and it maps almost on
 The third step is the one most marketing teams are missing, and it is the reason the rebuild pitch keeps losing. Fivetran's healthcare post leans on Activations, which write trusted data from the warehouse back into operational systems like CRMs and EMRs, creating, updating, and deleting records so the frontline works from the same state as the warehouse. The marketing version is identical: audience segments and scores computed in the warehouse get pushed back into your CRM, ESP, and ad platforms, instead of living in a dashboard nobody acts on.
 
 Notice what that does to the CDP question. You do not need to buy a new platform to get warehouse-native activation. You need a pipe with data flowing both directions.
+
+
+|  | Rip-and-replace pitch | Lean activation (the Fivetran/Inova model) |
+| --- | --- | --- |
+| Starting point | New platform, migration project | Existing warehouse, CRM, and MAP |
+| Timeline | 12-18 months typical | Months; Inova did 4 years of scope in 6 |
+| New use case cost | Engineering project per use case | Connector plus a dbt model; data already present |
+| Data freshness | Depends on the rebuild finishing | Continuous (CDC) from day one |
+| Risk profile | High; migration is the project | Incremental; each connector is testable |
+| Failure mode | Becomes the 40% Gartner cancels | Smaller surface, easier to unwind |
 
 Salesforce's commerce research agrees on the direction, if not the vendor. Their August 13 piece declares the experimentation phase over: pilots have proven their point, and more than a third of agentic AI users have shifted from testing to scaling. The same research found organizations with unified data report 40% better AI and automation outcomes, while only 27% have fully unified customer data. The gap is not missing platforms. It is unconnected ones. (Salesforce.com blocks automated access, so those figures come from our newsletter scan of the post rather than a direct fetch.)
 
@@ -130,6 +122,14 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+REPLICATECRM, ad platforms, MAP, CDP events into the warehouse
+
+MODELdbt turns raw tables into tested, documented context
+
+ACTIVATEwarehouse segments written back to CRM and ad platforms
+
 
 ```json
 {
@@ -161,7 +161,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-08-20",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-20",
   "mainEntityOfPage": "https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/",
   "image": {
     "@type": "ImageObject",
@@ -207,7 +207,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/", "breadcrumb": {"@id": "https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/", "breadcrumb": {"@id": "https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/#breadcrumb"}, "dateModified": "2026-08-20"}
 ```
 
 ```json

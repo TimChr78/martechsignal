@@ -1,76 +1,5 @@
 # Frappe CRM review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Free to self-host under AGPL-3.0 with unlimited users; Frappe Cloud hosting is $5/mo per site and dedicated servers $20 to $60/mo, all published (the vendor pricing page: [vendor site](https://frappe.io/crm), verified 2026-09-06). |
-| Feature depth | 6/10 | Leads, deals, tasks and views cover the CRM baseline cleanly, and ERPNext adjacency adds operations depth, but marketing automation sits outside the product (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
-| Integrations | 4/10 | Five documented connectors (Twilio, Exotel, WhatsApp, ERPNext, Meta Lead Ads) and no public API flag in the catalog; the Frappe framework fills some gaps (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0, self-hosted with unlimited users on the free tier (the source repository: [repository](https://github.com/frappe/crm), verified 2026-09-28). |
-| Operational maturity | 6/10 | Built by Frappe with ERPNext's decade of operations behind it, though the CRM product itself is younger and has a smaller ecosystem (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5/mo |
-| ✓ Active public repository (3,692 GitHub stars counted at last check) |  |
-| ✓ Native integrations include Twilio, Exotel, WhatsApp (5 listed) |  |
-
-**What is Frappe CRM?**
-Frappe CRM: Fully featured, open source CRM. The public repository carries 3,692 stars.
-
-**How much does Frappe CRM cost?**
-Frappe CRM has a free tier; paid plans start at $5/mo. Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
-
-**Is Frappe CRM a good self-hosted CRM tool in 2026?**
-A lean, fast-moving open-source CRM that costs almost nothing to run and gives up AI, native mobile, and connector breadth to get there. Read the AGPL terms and pin your branch before you install.
-
-**Does Frappe CRM charge per user?**
-No. The pricing page states that you do not pay per user and that leads, deals, contacts, and sales agents are unlimited on every plan. Costs come from infrastructure: free if you self-host, from $5 per month for a Frappe Cloud site, or $20 to $60 per month for a dedicated server depending on provider and resources.
-
-**Does Frappe CRM integrate with WhatsApp?**
-Not on its own. WhatsApp support comes from a separate third-party app, Frappe WhatsApp by Shridhar, which you install alongside the CRM and connect using WhatsApp Business Cloud API credentials and a webhook verify token. It adds a WhatsApp tab to lead and deal pages and sends from approved templates; the docs note you can only initiate communication with customers.
-
-**Frappe CRM or ERPNext CRM: which one?**
-Frappe CRM is a standalone app with a purpose-built sales interface, while ERPNext ships selling features inside full accounting and inventory. The documented integration creates ERPNext customers and quotations from won deals and keeps items and products in sync, with ERPNext as the source of truth for items. Most of that sync only works when both apps sit on the same site, so pick Frappe CRM for a dedicated sales frontend and ERPNext when CRM belongs inside an ERP.
-
-**Can Frappe CRM make phone calls?**
-Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal, and contact pages, an incoming call pop-up with accept, reject, and mute, a recording toggle, and the ability to attach notes or tasks from the call. Twilio needs an Account SID, Auth Token, and a Twilio number with a webhook URL; Exotel needs an Account SID, subdomain, API key, API token, and Exophone, plus completed KYC.
-
-- **Pricing:** Open Source
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 3692
-- **API:** No
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-06
-
-**Verdict:** Frappe CRM is a tool in CRM with free and open source. The catalog documents 5 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-Cordys CRM
-
-Open-source AI CRM with built-in agents, conversational analytics, and private deployment
-
-IDURAR ERP & CRM
-
-Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
-
-Freshsales
-
-AI-powered CRM with built-in phone, email, and chat for sales teams
-
-Pipedrive
-
-Sales-focused CRM with AI-powered pipeline management and deal forecasting
-
-AlphOne
-
-Plugin-first CRM (source-available, Elastic 2.0) written in Go
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -83,7 +12,7 @@ Fully featured, open source CRM
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Frappe CRM →](https://frappe.io/crm)
 
@@ -94,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 36/60
 
 Frappe CRM is the pragmatic free CRM for teams already in the Frappe or ERPNext world. No AI features and a thin connector list keep it out of AI-heavy stacks.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free to self-host under AGPL-3.0 with unlimited users; Frappe Cloud hosting is $5/mo per site and dedicated servers $20 to $60/mo, all published (the vendor pricing page: [vendor site](https://frappe.io/crm), verified 2026-09-06). |
+| Feature depth | 6/10 | Leads, deals, tasks and views cover the CRM baseline cleanly, and ERPNext adjacency adds operations depth, but marketing automation sits outside the product (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
+| Integrations | 4/10 | Five documented connectors (Twilio, Exotel, WhatsApp, ERPNext, Meta Lead Ads) and no public API flag in the catalog; the Frappe framework fills some gaps (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0, self-hosted with unlimited users on the free tier (the source repository: [repository](https://github.com/frappe/crm), verified 2026-09-28). |
+| Operational maturity | 6/10 | Built by Frappe with ERPNext's decade of operations behind it, though the CRM product itself is younger and has a smaller ecosystem (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -150,6 +89,13 @@ A lean, fast-moving open-source CRM that costs almost nothing to run and gives u
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5/mo |
+| ✓ Active public repository (3,692 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Twilio, Exotel, WhatsApp (5 listed) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -164,18 +110,25 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Frappe CRM?**
 Frappe CRM: Fully featured, open source CRM. The public repository carries 3,692 stars.
 
+**How much does Frappe CRM cost?**
 Frappe CRM has a free tier; paid plans start at $5/mo. Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
 
+**Is Frappe CRM a good self-hosted CRM tool in 2026?**
 A lean, fast-moving open-source CRM that costs almost nothing to run and gives up AI, native mobile, and connector breadth to get there. Read the AGPL terms and pin your branch before you install.
 
+**Does Frappe CRM charge per user?**
 No. The pricing page states that you do not pay per user and that leads, deals, contacts, and sales agents are unlimited on every plan. Costs come from infrastructure: free if you self-host, from $5 per month for a Frappe Cloud site, or $20 to $60 per month for a dedicated server depending on provider and resources.
 
+**Does Frappe CRM integrate with WhatsApp?**
 Not on its own. WhatsApp support comes from a separate third-party app, Frappe WhatsApp by Shridhar, which you install alongside the CRM and connect using WhatsApp Business Cloud API credentials and a webhook verify token. It adds a WhatsApp tab to lead and deal pages and sends from approved templates; the docs note you can only initiate communication with customers.
 
+**Frappe CRM or ERPNext CRM: which one?**
 Frappe CRM is a standalone app with a purpose-built sales interface, while ERPNext ships selling features inside full accounting and inventory. The documented integration creates ERPNext customers and quotations from won deals and keeps items and products in sync, with ERPNext as the source of truth for items. Most of that sync only works when both apps sit on the same site, so pick Frappe CRM for a dedicated sales frontend and ERPNext when CRM belongs inside an ERP.
 
+**Can Frappe CRM make phone calls?**
 Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal, and contact pages, an incoming call pop-up with accept, reject, and mute, a recording toggle, and the ability to attach notes or tasks from the call. Twilio needs an Account SID, Auth Token, and a Twilio number with a webhook URL; Exotel needs an Account SID, subdomain, API key, API token, and Exophone, plus completed KYC.
 
 ## Similar Tools
@@ -190,6 +143,13 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for budget-conscious sales teams, especially ERPNext shops.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 3692
+- **API:** No
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-06
+
 Related guides: [Frappe CRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/)
 
 ## Get the next teardown
@@ -197,6 +157,32 @@ Related guides: [Frappe CRM in Hubspot Crm alternatives](/alternatives/hubspot-c
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Frappe CRM is a tool in CRM with free and open source. The catalog documents 5 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
+Cordys CRM
+
+Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+
+IDURAR ERP & CRM
+
+Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
+
+Freshsales
+
+AI-powered CRM with built-in phone, email, and chat for sales teams
+
+Pipedrive
+
+Sales-focused CRM with AI-powered pipeline management and deal forecasting
+
+AlphOne
+
+Plugin-first CRM (source-available, Elastic 2.0) written in Go
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

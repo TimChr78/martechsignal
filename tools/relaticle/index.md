@@ -1,70 +1,5 @@
 # Relaticle review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free (AGPL-3.0, unlimited users and records); Cloud Pro $19/workspace/mo yearly with 2,000 AI credits published (the vendor pricing page: [pricing page](https://relaticle.com/pricing), verified 2026-09-28). |
-| Feature depth | 5/10 | CRM records with native agent support and built-in AI chat cover the small-team CRM loop (vendor documentation: [vendor site](https://relaticle.com), verified 2026-09-28). |
-| Integrations | 5/10 | Five named MCP clients plus REST API v1 (OpenAPI 3.1) and CSV import/export (vendor documentation: [vendor site](https://relaticle.com), verified 2026-09-28). |
-| AI capability | 6/10 | A 37-tool MCP server and built-in AI chat with agent support are native, not bolted on (vendor documentation: [vendor site](https://relaticle.com), verified 2026-09-28). |
-| Openness | 8/10 | AGPL-3.0 with full self-hosting (the source repository: [repository](https://github.com/relaticle/relaticle), verified 2026-09-28). |
-| Operational maturity | 4/10 | Founded 2024 with priced cloud tiers (vendor documentation: [vendor site](https://relaticle.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/mo |
-| ✓ AI capabilities: native AI agent support |  |
-| ✓ Active public repository (1,748 GitHub stars counted at last check) |  |
-
-**What is Relaticle?**
-Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,748 stars.
-
-**How much does Relaticle cost?**
-Relaticle has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
-
-**Is Relaticle a good self-hosted CRM tool in 2026?**
-A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: free and capable self-hosted, AGPL-3.0, PostgreSQL-only, and no longer without paid tiers.
-
-**How do I install Relaticle on my own server?**
-The documented Docker path is one downloaded file and one command: fetch compose.yml from the repository, create a .env containing a generated APP_KEY (echo 'APP_KEY=base64:$(openssl rand -base64 32)') and a DB_PASSWORD, then docker compose up -d. That starts five containers (app, horizon, scheduler, postgres:17-alpine, redis:7-alpine). Create your first admin with docker compose exec app php artisan make:filament-user. Upgrades are docker compose pull followed by docker compose up -d, and migrations run automatically on startup.
-
-**What can an AI agent do through Relaticle's MCP server?**
-The hosted MCP endpoint at mcp.relaticle.com exposes 37 tools: cross-entity search and fetch, a whoami call, workspace introspection (CRM schema, CRM summary, opportunity aggregation, activity and custom field listings), list/get/create/update/delete sets for companies, people, and opportunities, and create, update, delete, attach, and detach for tasks and notes. Authentication is OAuth 2.1 with PKCE and dynamic client registration, or a personal access token from Settings, Access Tokens, passed as a bearer header. Destructive operations in the built-in chat require approval, and MCP requests are capped at 120 per minute per user.
-
-**Is Relaticle free, and what does Cloud Pro add?**
-Self-hosting is free under AGPL-3.0 with unlimited users and records on your own server. The paid tiers are hosted: Cloud Pro is $19 per workspace per month ($228 billed yearly, or $24 month to month) with a 14-day trial and no card required, adding 2,000 AI credits a month on top of unlimited users, records, the REST API, and the MCP server. Enterprise starts at $20,000 a year, billed yearly, and the site stresses it is never per seat. Self-hosted instances default to the Free plan's 300 AI credits a month unless you bring your own key for more.
-
-- **Pricing:** Open Source
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 1748
-- **Founded:** 2024
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** Relaticle is a tool in CRM with free and open source. The catalog documents 3 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Django CRM
-
-Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
-
-Paperclip
-
-Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
-
-Google Ads + Meta Ads + GA4 MCP
-
-MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -77,7 +12,7 @@ Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & 
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Relaticle →](https://relaticle.com)
 
@@ -88,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 36/60
 
 Relaticle is a Laravel CRM with a 37-tool MCP server and native agent support, free self-hosted with unlimited records. Cloud Pro adds 2,000 AI credits for $19 per workspace.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Self-hosted free (AGPL-3.0, unlimited users and records); Cloud Pro $19/workspace/mo yearly with 2,000 AI credits published (the vendor pricing page: [pricing page](https://relaticle.com/pricing), verified 2026-09-28). |
+| Feature depth | 5/10 | CRM records with native agent support and built-in AI chat cover the small-team CRM loop (vendor documentation: [vendor site](https://relaticle.com), verified 2026-09-28). |
+| Integrations | 5/10 | Five named MCP clients plus REST API v1 (OpenAPI 3.1) and CSV import/export (vendor documentation: [vendor site](https://relaticle.com), verified 2026-09-28). |
+| AI capability | 6/10 | A 37-tool MCP server and built-in AI chat with agent support are native, not bolted on (vendor documentation: [vendor site](https://relaticle.com), verified 2026-09-28). |
+| Openness | 8/10 | AGPL-3.0 with full self-hosting (the source repository: [repository](https://github.com/relaticle/relaticle), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2024 with priced cloud tiers (vendor documentation: [vendor site](https://relaticle.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -152,6 +97,13 @@ A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/mo |
+| ✓ AI capabilities: native AI agent support |  |
+| ✓ Active public repository (1,748 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -166,16 +118,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Relaticle?**
 Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,748 stars.
 
+**How much does Relaticle cost?**
 Relaticle has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
+**Is Relaticle a good self-hosted CRM tool in 2026?**
 A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: free and capable self-hosted, AGPL-3.0, PostgreSQL-only, and no longer without paid tiers.
 
+**How do I install Relaticle on my own server?**
 The documented Docker path is one downloaded file and one command: fetch compose.yml from the repository, create a .env containing a generated APP_KEY (echo 'APP_KEY=base64:$(openssl rand -base64 32)') and a DB_PASSWORD, then docker compose up -d. That starts five containers (app, horizon, scheduler, postgres:17-alpine, redis:7-alpine). Create your first admin with docker compose exec app php artisan make:filament-user. Upgrades are docker compose pull followed by docker compose up -d, and migrations run automatically on startup.
 
+**What can an AI agent do through Relaticle's MCP server?**
 The hosted MCP endpoint at mcp.relaticle.com exposes 37 tools: cross-entity search and fetch, a whoami call, workspace introspection (CRM schema, CRM summary, opportunity aggregation, activity and custom field listings), list/get/create/update/delete sets for companies, people, and opportunities, and create, update, delete, attach, and detach for tasks and notes. Authentication is OAuth 2.1 with PKCE and dynamic client registration, or a personal access token from Settings, Access Tokens, passed as a bearer header. Destructive operations in the built-in chat require approval, and MCP requests are capped at 120 per minute per user.
 
+**Is Relaticle free, and what does Cloud Pro add?**
 Self-hosting is free under AGPL-3.0 with unlimited users and records on your own server. The paid tiers are hosted: Cloud Pro is $19 per workspace per month ($228 billed yearly, or $24 month to month) with a 14-day trial and no card required, adding 2,000 AI credits a month on top of unlimited users, records, the REST API, and the MCP server. Enterprise starts at $20,000 a year, billed yearly, and the site stresses it is never per seat. Self-hosted instances default to the Free plan's 300 AI credits a month unless you bring your own key for more.
 
 ## Similar Tools
@@ -187,11 +145,41 @@ Self-hosting is free under AGPL-3.0 with unlimited users and records on your own
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 1748
+- **Founded:** 2024
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Relaticle is a tool in CRM with free and open source. The catalog documents 3 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Django CRM
+
+Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+Paperclip
+
+Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+
+Google Ads + Meta Ads + GA4 MCP
+
+MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

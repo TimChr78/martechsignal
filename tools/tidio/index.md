@@ -1,64 +1,5 @@
 # Tidio review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free (50 conversations), Starter about $24/mo, Chatbots $39/mo with the Lyro AI add-on priced separately (the vendor pricing page: [pricing page](https://www.tidio.com/pricing/), verified 2026-08-28). |
-| Feature depth | 6/10 | Live chat, chatbot flows and conversation analytics cover the SMB support loop (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
-| Integrations | 6/10 | Shopify, WordPress, WooCommerce, Zapier, Slack, Mailchimp, HubSpot and GA documented plus an API (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
-| AI capability | 6/10 | Lyro AI agent with auto-replies and visitor insights is the product's AI center (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
-| Operational maturity | 7/10 | Founded 2013 with a long SMB support track record (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: lyro AI agent | ✗ Paid plans start at $24/mo once past the free tier |
-| ✓ Native integrations include Shopify, WordPress, WooCommerce (8 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available) |  |
-
-**What is Tidio?**
-Tidio: AI-powered live chat and chatbot platform with Lyro AI agent for customer support. Tidio ships with lyro AI agent. This page documents 8 integrations.
-
-**How much does Tidio cost?**
-Tidio has a free tier; paid plans start at $24/mo. Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
-
-**Is Tidio worth it past the free tier?**
-Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
-
-- **Pricing:** Freemium
-- **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
-- **Founded:** 2013
-- **HQ:** Wroclaw, Poland
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Tidio is a tool in Chatbots & Conversational AI with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Intercom
-
-AI-first customer service platform with Fin AI agent and omnichannel messaging
-
-Chatfuel
-
-AI chatbot platform for automating customer conversations on messaging channels
-
-ManyChat
-
-AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
-
-ChatbotX
-
-Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
-
-Chatwoot
-
-Open-source customer engagement suite with Captain AI and full self-hosting
-
-[More Chatbots & Conversational AI Tools →](/categories/chatbots/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
@@ -71,7 +12,7 @@ AI-powered live chat and chatbot platform with Lyro AI agent for customer suppor
 
 Chatbots & Conversational AI · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Tidio →](https://www.tidio.com)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 36/60
 
 Tidio pairs live chat with Lyro, an AI agent you can meter by add-on. The free plan and $24 entry make it the small-team default this year.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free (50 conversations), Starter about $24/mo, Chatbots $39/mo with the Lyro AI add-on priced separately (the vendor pricing page: [pricing page](https://www.tidio.com/pricing/), verified 2026-08-28). |
+| Feature depth | 6/10 | Live chat, chatbot flows and conversation analytics cover the SMB support loop (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
+| Integrations | 6/10 | Shopify, WordPress, WooCommerce, Zapier, Slack, Mailchimp, HubSpot and GA documented plus an API (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
+| AI capability | 6/10 | Lyro AI agent with auto-replies and visitor insights is the product's AI center (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2013 with a long SMB support track record (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -130,6 +81,13 @@ Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: lyro AI agent | ✗ Paid plans start at $24/mo once past the free tier |
+| ✓ Native integrations include Shopify, WordPress, WooCommerce (8 listed) | ✗ Closed source - no self-hosting option |
+| ✓ Free tier to evaluate before committing (Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available) |  |
+
 ## Related concepts
 
 - [Chatbot](/glossary/chatbot/)
@@ -142,10 +100,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Tidio?**
 Tidio: AI-powered live chat and chatbot platform with Lyro AI agent for customer support. Tidio ships with lyro AI agent. This page documents 8 integrations.
 
+**How much does Tidio cost?**
 Tidio has a free tier; paid plans start at $24/mo. Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
+**Is Tidio worth it past the free tier?**
 Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
 
 ## Similar Tools
@@ -160,6 +121,13 @@ Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Small shops adding live chat and an AI agent cheaply
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
+- **Founded:** 2013
+- **HQ:** Wroclaw, Poland
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 ## Get the next teardown
@@ -167,6 +135,32 @@ Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Tidio is a tool in Chatbots & Conversational AI with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Intercom
+
+AI-first customer service platform with Fin AI agent and omnichannel messaging
+
+Chatfuel
+
+AI chatbot platform for automating customer conversations on messaging channels
+
+ManyChat
+
+AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
+
+ChatbotX
+
+Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
+
+Chatwoot
+
+Open-source customer engagement suite with Captain AI and full self-hosting
+
+[More Chatbots & Conversational AI Tools →](/categories/chatbots/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -185,7 +179,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/tidio/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -297,7 +291,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tidio/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tidio/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tidio/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tidio/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

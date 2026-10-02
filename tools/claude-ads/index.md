@@ -1,62 +1,5 @@
 # Claude Ads review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with only Claude API costs to account for, stated plainly (the vendor pricing page: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-08-28). |
-| Feature depth | 7/10 | 250+ audit checks, parallel subagent audits with confidence scoring and creative brief generation (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
-| Integrations | 8/10 | Twelve named ad platforms from Google, Meta and TikTok to Apple Ads and Reddit Ads (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
-| AI capability | 8/10 | Parallel subagent account audits with confidence scoring are native-agent architecture (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with runs in your own harness (the source repository: [repository](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2025; adoption is fast and history is short (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ AI capabilities: 250+ audit checks across 12 ad platforms |  |
-| ✓ Active public repository (9,670 GitHub stars counted at last check) |  |
-| ✓ Native integrations include Google Ads, Meta Ads, YouTube Ads (12 listed) |  |
-
-**What is Claude Ads?**
-Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,670 stars.
-
-**How much does Claude Ads cost?**
-Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,670 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
-
-**Is Claude Ads a good self-hosted Agent Skills tool in 2026?**
-Niche but interesting for technical teams that want model-drafted ad copy inside their Git workflow.
-
-- **Pricing:** Open Source
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 9670
-- **Founded:** 2025
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-08-28
-
-**Verdict:** Claude Ads is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Google Ads + Meta Ads + GA4 MCP
-
-MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
-
-Claude SEO
-
-Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
-
-Smartly.io
-
-AI advertising platform spanning creative production, media buying, and measurement
-
-AI Business Skills
-
-63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -69,7 +12,7 @@ Paid-media operations skill for Claude Code covering 12 ad platforms
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Claude Ads →](https://github.com/AgriciDaniel/claude-ads)
 
@@ -80,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 46/60
 
 Claude Ads is paid-media operations as a skill: 250+ audit checks across 12 platforms running inside Claude Code. MIT-licensed; your only cost is the model API bill.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free under MIT with only Claude API costs to account for, stated plainly (the vendor pricing page: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-08-28). |
+| Feature depth | 7/10 | 250+ audit checks, parallel subagent audits with confidence scoring and creative brief generation (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
+| Integrations | 8/10 | Twelve named ad platforms from Google, Meta and TikTok to Apple Ads and Reddit Ads (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
+| AI capability | 8/10 | Parallel subagent account audits with confidence scoring are native-agent architecture (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with runs in your own harness (the source repository: [repository](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2025; adoption is fast and history is short (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -130,6 +83,14 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: 250+ audit checks across 12 ad platforms |  |
+| ✓ Active public repository (9,670 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Google Ads, Meta Ads, YouTube Ads (12 listed) |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -143,10 +104,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Claude Ads?**
 Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,670 stars.
 
+**How much does Claude Ads cost?**
 Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,670 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
 
+**Is Claude Ads a good self-hosted Agent Skills tool in 2026?**
 Niche but interesting for technical teams that want model-drafted ad copy inside their Git workflow.
 
 ## Similar Tools
@@ -161,6 +125,14 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for paid-media teams that run several ad platforms and want one Claude Code skill covering all 12, free under the MIT license.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **GitHub:** ★ 9670
+- **Founded:** 2025
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-08-28
+
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 ## Get the next teardown
@@ -168,6 +140,28 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Claude Ads is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Google Ads + Meta Ads + GA4 MCP
+
+MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+
+Claude SEO
+
+Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
+
+Smartly.io
+
+AI advertising platform spanning creative production, media buying, and measurement
+
+AI Business Skills
+
+63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

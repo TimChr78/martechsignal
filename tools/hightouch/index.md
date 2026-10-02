@@ -1,58 +1,5 @@
 # Hightouch review (2026): pricing, AI features, verdict
 
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI Decisioning (reinforcement-learning campaign optimization) | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Snowflake, BigQuery, Databricks (10 listed) |  |
-| ✓ Free tier to evaluate before committing (Free plan: 2 active syncs/mo, hourly frequency, no destination or seat limits. Self-serve tier: 10 active syncs/mo. Business tier on usage+seats (vendor docs publish no number for it) |  |
-
-**What is Hightouch?**
-Hightouch: Composable CDP that activates warehouse data where marketing runs. Hightouch ships with AI Decisioning (reinforcement-learning campaign optimization). This page documents 10 integrations.
-
-**How much does Hightouch cost?**
-Hightouch has a free tier, so you can run a real evaluation before paying. Free plan: 2 active syncs/mo, hourly frequency, no destination or seat limits. Self-serve tier: 10 active syncs/mo. Business tier on usage+seats (vendor docs publish no number for it; third-party estimates put entry deployments around $1,000+/mo - unverified, treat as indicative only). Operations cap 100M/mo. (Docs checked 2026-10-01.). We last checked the plan structure on 2026-10-01; paid tiers mainly raise limits rather than unlocking core features.
-
-**Is Hightouch worth it past the free tier?**
-Hightouch fits teams whose source of truth already lives in Snowflake, BigQuery, or Databricks and who want warehouse data activating into sales, ads, and lifecycle tools without a second profile store.
-
-**Does Hightouch have an API?**
-Yes. The catalog records a public API for Hightouch, so custom integrations are possible. The Key Integrations section shows what ships natively.
-
-- **Founded:** 2019
-- **Headquarters:** San Francisco, California
-- **Public API:** yes
-- **Catalogued integrations:** 10
-
-- **Pricing:** Freemium
-- **Category:** [Personalization & CDP](/categories/personalization/)
-- **Founded:** 2019
-- **HQ:** San Francisco, California
-- **API:** Yes
-- **Last verified:** 2026-10-01
-
-**Verdict:** Hightouch is a tool in Personalization & CDP with a free tier. The catalog documents 2 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-10-01. This is a desk review, not a hands-on test. Desk-reviewed
-
-Twilio Segment
-
-Customer data platform for collecting, unifying, and activating customer data
-
-RudderStack
-
-Warehouse-first CDP: open-source Go data plane plus managed routing
-
-Tealium
-
-Enterprise customer data platform with real-time data orchestration and AI
-
-Jitsu
-
-Open-source Segment alternative for event capture and warehouse-first data pipelines
-
-[More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
@@ -63,7 +10,7 @@ Composable CDP that activates warehouse data where marketing runs
 
 Personalization & CDP · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
 
 [Visit Hightouch →](https://hightouch.com/)
 
@@ -74,6 +21,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## Catalog facts: Hightouch
 
 Not yet scored against the rubric, so no verdict here. This is everything the catalog holds on the tool, verified against vendor sources.
+
+- **Founded:** 2019
+- **Headquarters:** San Francisco, California
+- **Public API:** yes
+- **Catalogued integrations:** 10
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -111,6 +63,13 @@ Hightouch fits teams whose source of truth already lives in Snowflake, BigQuery,
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI Decisioning (reinforcement-learning campaign optimization) | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Snowflake, BigQuery, Databricks (10 listed) |  |
+| ✓ Free tier to evaluate before committing (Free plan: 2 active syncs/mo, hourly frequency, no destination or seat limits. Self-serve tier: 10 active syncs/mo. Business tier on usage+seats (vendor docs publish no number for it) |  |
+
 ## Related concepts
 
 - [Personalization](/glossary/personalization/)
@@ -124,12 +83,16 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Hightouch?**
 Hightouch: Composable CDP that activates warehouse data where marketing runs. Hightouch ships with AI Decisioning (reinforcement-learning campaign optimization). This page documents 10 integrations.
 
+**How much does Hightouch cost?**
 Hightouch has a free tier, so you can run a real evaluation before paying. Free plan: 2 active syncs/mo, hourly frequency, no destination or seat limits. Self-serve tier: 10 active syncs/mo. Business tier on usage+seats (vendor docs publish no number for it; third-party estimates put entry deployments around $1,000+/mo - unverified, treat as indicative only). Operations cap 100M/mo. (Docs checked 2026-10-01.). We last checked the plan structure on 2026-10-01; paid tiers mainly raise limits rather than unlocking core features.
 
+**Is Hightouch worth it past the free tier?**
 Hightouch fits teams whose source of truth already lives in Snowflake, BigQuery, or Databricks and who want warehouse data activating into sales, ads, and lifecycle tools without a second profile store.
 
+**Does Hightouch have an API?**
 Yes. The catalog records a public API for Hightouch, so custom integrations are possible. The Key Integrations section shows what ships natively.
 
 ## Similar Tools
@@ -144,6 +107,13 @@ Yes. The catalog records a public API for Hightouch, so custom integrations are 
 - [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best activation layer when the warehouse is already the source of truth.
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Personalization & CDP](/categories/personalization/)
+- **Founded:** 2019
+- **HQ:** San Francisco, California
+- **API:** Yes
+- **Last verified:** 2026-10-01
+
 Related guides: [Cdp](/best/cdp/)
 
 ## Get the next teardown
@@ -151,6 +121,28 @@ Related guides: [Cdp](/best/cdp/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Hightouch is a tool in Personalization & CDP with a free tier. The catalog documents 2 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-10-01. This is a desk review, not a hands-on test. Desk-reviewed
+
+Twilio Segment
+
+Customer data platform for collecting, unifying, and activating customer data
+
+RudderStack
+
+Warehouse-first CDP: open-source Go data plane plus managed routing
+
+Tealium
+
+Enterprise customer data platform with real-time data orchestration and AI
+
+Jitsu
+
+Open-source Segment alternative for event capture and warehouse-first data pipelines
+
+[More Personalization & CDP Tools →](/categories/personalization/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -169,8 +161,15 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/hightouch/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
-    "datePublished": "2026-10-01"
+    "dateModified": "2026-10-01",
+    "datePublished": "2026-10-01",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "USD",
+      "url": "https://hightouch.com/pricing",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -241,10 +240,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hightouch/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hightouch/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

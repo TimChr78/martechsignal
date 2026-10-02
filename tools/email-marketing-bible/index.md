@@ -1,65 +1,5 @@
 # Email Marketing Bible pricing
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 10/10 | Free and open source with no tiers to price (the vendor pricing page: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-08-28). |
-| Feature depth | 6/10 | A 55K-word knowledge base, 19 playbooks with benchmarks and ESP control cover email planning through execution (vendor documentation: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
-| Integrations | 6/10 | Klaviyo, Mailchimp, Resend, beehiiv, Omnisend and nitrosend plus MCP documented (vendor documentation: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
-| AI capability | 6/10 | AI copy drafting with anti-slop rules and agent-native playbooks (vendor documentation: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 908 cited sources (the source repository: [repository](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2026; a young project with a large knowledge artifact (vendor documentation: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (322 GitHub stars) - smaller community and plugin ecosystem |
-| ✓ AI capabilities: 55K-word knowledge base from 908 sources |  |
-| ✓ Native integrations include Klaviyo, Mailchimp, Resend (8 listed) |  |
-
-**What is Email Marketing Bible?**
-Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 322 stars.
-
-**How much does Email Marketing Bible cost?**
-Email Marketing Bible is open source - MIT licensed and free to self-host; the public repository carries 322 stars; native integrations cover Klaviyo, Mailchimp, Resend. You pay in server time and maintenance, not licences.
-
-**Is Email Marketing Bible a good self-hosted Agent Skills tool in 2026?**
-The fastest path to email-competent agents, with real ESP control via MCP. List hygiene stays on you.
-
-- **Pricing:** Open Source
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 322
-- **Founded:** 2026
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-08-28
-
-**Verdict:** Email Marketing Bible is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Eve Marketing Team Template
-
-Open-source team of marketing agents on eve: lead, content, social, SEO, email
-
-AI Marketing Suite
-
-15-skill marketing suite for Claude Code with parallel agents and PDF reports
-
-SEO Skill Bench
-
-Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
-
-Aaron Marketing Skills
-
-120 marketing skills across 7 disciplines for Claude Code with auditor gates
-
-Analytics Tracking Automation
-
-AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -74,7 +14,7 @@ KIND: Agent Skill (not an end-to-end platform)
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Email Marketing Bible →](https://github.com/CosmoBlk/email-marketing-bible)
 
@@ -85,6 +25,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 40/60
 
 Email Marketing Bible is a knowledge product as much as a tool: 55K words from 908 sources with ESP control on top. The sourcing discipline is the differentiator.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free and open source with no tiers to price (the vendor pricing page: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-08-28). |
+| Feature depth | 6/10 | A 55K-word knowledge base, 19 playbooks with benchmarks and ESP control cover email planning through execution (vendor documentation: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
+| Integrations | 6/10 | Klaviyo, Mailchimp, Resend, beehiiv, Omnisend and nitrosend plus MCP documented (vendor documentation: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
+| AI capability | 6/10 | AI copy drafting with anti-slop rules and agent-native playbooks (vendor documentation: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 908 cited sources (the source repository: [repository](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026; a young project with a large knowledge artifact (vendor documentation: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -131,6 +81,13 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Young project (322 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: 55K-word knowledge base from 908 sources |  |
+| ✓ Native integrations include Klaviyo, Mailchimp, Resend (8 listed) |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -144,10 +101,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Email Marketing Bible?**
 Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 322 stars.
 
+**How much does Email Marketing Bible cost?**
 Email Marketing Bible is open source - MIT licensed and free to self-host; the public repository carries 322 stars; native integrations cover Klaviyo, Mailchimp, Resend. You pay in server time and maintenance, not licences.
 
+**Is Email Marketing Bible a good self-hosted Agent Skills tool in 2026?**
 The fastest path to email-competent agents, with real ESP control via MCP. List hygiene stays on you.
 
 ## Similar Tools
@@ -162,6 +122,14 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for email marketers who want 19 playbooks with 908 cited sources and ESP control over MCP, free under the MIT license.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **GitHub:** ★ 322
+- **Founded:** 2026
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-08-28
+
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 ## Get the next teardown
@@ -169,6 +137,32 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Email Marketing Bible is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Eve Marketing Team Template
+
+Open-source team of marketing agents on eve: lead, content, social, SEO, email
+
+AI Marketing Suite
+
+15-skill marketing suite for Claude Code with parallel agents and PDF reports
+
+SEO Skill Bench
+
+Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+
+Aaron Marketing Skills
+
+120 marketing skills across 7 disciplines for Claude Code with auditor gates
+
+Analytics Tracking Automation
+
+AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

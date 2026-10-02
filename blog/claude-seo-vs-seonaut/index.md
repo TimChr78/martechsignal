@@ -1,5 +1,27 @@
 # Claude SEO vs Seonaut: which free SEO checker wins
 
+SEO · OPEN SOURCE · 8 MIN
+
+## Claude SEO vs Seonaut: which free SEO checker should you run
+
+Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. Coverage here is held to the same verification standard as other tools. See the [corrections log](/corrections/).
+
+[How we review](/methodology/) · No affiliate links
+
+[Home](/) · [Blog](/blog/) · Claude SEO vs Seonaut: which free SEO checker should you run
+
+SEP 17, 2026
+
+Filed under [SEO & Search](/categories/seo/)
+
+Both are free, both are open source, and both will tell you what is broken on a site. That is where the resemblance ends. [Claude SEO](/tools/claude-seo/) is an agent skill that reasons about a site inside Claude Code and hands back a prioritized fix list. [Seonaut](/tools/seonaut/) is a Go crawler you point at a domain and get a rule-by-rule report from. If you want a free SEO checker, you are choosing between an analyst and an instrument.
+
+The distinction matters because the two fail in opposite directions. An instrument is deterministic: crawl the same site twice, get the same findings, in the same export format. An analyst is not: it reads, prioritizes, and explains, and you pay for the thinking in API tokens. Decide which half of the job you need, and the higher cost of one option or the other stops being the deciding factor.
+
+Most readers should pick **Claude SEO**. If you are already in Claude Code, it asks for nothing to install, it tells you which findings matter and how to verify a fix, and it covers AI-search readiness that a plain crawler does not attempt. Pick **Seonaut** instead when you need a repeatable crawl you can diff over time, a dashboard someone else on the team can open, or a checker that costs nothing per run. The two answer different questions, and for most teams the audit question comes first.
+
+## The comparison at a glance
+
 
 | Decision factor | Claude SEO | Seonaut |
 | --- | --- | --- |
@@ -11,30 +33,6 @@
 | Interface | Terminal only, no dashboard or stored history | Web UI with dashboards, single-user projects with no role model |
 | Setup burden | Install the skill in Claude Code; nothing to host | Docker and MySQL to maintain, or the hosted tier; source builds need Go 1.25 |
 | JavaScript rendering | Not documented for client-rendered pages | None; there is no headless browser in the codebase, so client-rendered pages audit badly |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-SEO · OPEN SOURCE · 8 MIN
-
-## Claude SEO vs Seonaut: which free SEO checker should you run
-
-Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. Coverage here is held to the same verification standard as other tools. See the [corrections log](/corrections/).
-
-[How we review](/methodology/) · No affiliate links
-
-[Home](/) · [Blog](/blog/) · Claude SEO vs Seonaut: which free SEO checker should you run
-
-SEP 17, 2026 · Updated 2026-10-02
-
-Filed under [SEO & Search](/categories/seo/)
-
-Both are free, both are open source, and both will tell you what is broken on a site. That is where the resemblance ends. [Claude SEO](/tools/claude-seo/) is an agent skill that reasons about a site inside Claude Code and hands back a prioritized fix list. [Seonaut](/tools/seonaut/) is a Go crawler you point at a domain and get a rule-by-rule report from. If you want a free SEO checker, you are choosing between an analyst and an instrument.
-
-The distinction matters because the two fail in opposite directions. An instrument is deterministic: crawl the same site twice, get the same findings, in the same export format. An analyst is not: it reads, prioritizes, and explains, and you pay for the thinking in API tokens. Decide which half of the job you need, and the higher cost of one option or the other stops being the deciding factor.
-
-Most readers should pick **Claude SEO**. If you are already in Claude Code, it asks for nothing to install, it tells you which findings matter and how to verify a fix, and it covers AI-search readiness that a plain crawler does not attempt. Pick **Seonaut** instead when you need a repeatable crawl you can diff over time, a dashboard someone else on the team can open, or a checker that costs nothing per run. The two answer different questions, and for most teams the audit question comes first.
-
-## The comparison at a glance
 
 That JavaScript gap is worth pausing on. Neither tool renders a JavaScript-heavy site the way a browser does, so both will misread a React application that builds its content on the client. If your site depends on client-side rendering, fix that problem before you shop for a checker, because it will distort the output of any free crawler in this class.
 
@@ -100,6 +98,8 @@ More from the directory: [GrowthBook](/tools/growthbook/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -131,7 +131,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
     }
   },
   "datePublished": "2026-09-17",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-17",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-vs-seonaut/",
   "image": {
     "@type": "ImageObject",
@@ -177,7 +177,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/#breadcrumb"}, "dateModified": "2026-09-17"}
 ```
 
 ```json

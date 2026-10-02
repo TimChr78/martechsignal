@@ -1,5 +1,62 @@
 # SEO & Search Tools
 
+- [Home](/)
+- [Tools](/tools/)
+- SEO & Search
+## SEO & Search Tools
+
+SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 9 tools with verified pricing.
+
+9 TOOLS IN THIS CATEGORY
+
+## OPEN SOURCE / SELF-HOSTED***2*
+
+### OpenSEO
+
+### Seonaut
+
+## COMMERCIAL***5*
+
+### Semrush
+
+### Clearscope
+
+### MarketMuse
+
+### Surfer SEO
+
+### Frase
+
+## AI SEARCH VISIBILITY***2*
+
+### Potato
+
+### Superlines
+
+**Compare:** [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
+
+## Key terms
+
+- [SEO](/glossary/seo/)
+- [AEO](/glossary/aeo/)
+- [AI Visibility](/glossary/ai-search-visibility/)
+- [UTM parameters](/glossary/utm-parameters/)
+Full definitions in the [martech glossary](/glossary/).
+
+SEO used to have a scoreboard: rank, click, conversion. The answer engines ate it. When an AI Overview or ChatGPT finishes the question, the visitor never comes, and your dashboard records a clean-looking impression instead of a lost click. The job split in two: still earn the rank, and also get cited in the answer. Most tools in this category were built for the first half and are still catching up on the second.
+
+The 9 here fall into four camps. Semrush is the full platform: 25 billion keywords of data, a technical crawler, rank tracking, and an AI visibility add-on on top. Clearscope, Frase, MarketMuse and Surfer sell the writing layer: they read the top-ranking pages for a keyword, turn them into a brief, and grade your draft against it while you write. OpenSEO and Seonaut are the open source plumbing: rank tracking and backlinks, or site crawls, on your own server with no per-seat billing. Superlines and Potato are the fourth camp, measuring what the answer engines actually say about you: Superlines as a commercial AI-search intelligence platform, Potato free and local against Claude's web-search answers.
+
+When you compare these, don't buy by database size. Check whether the crawler catches problems that cost rankings, whether the grading loop works inside the editor your team already writes in, and whether anything in the stack can tell you an AI assistant cited you while Google Analytics still shows nothing. Database numbers end up on pricing pages because they're easy to print. The last question almost never shows up on one.
+
+## Which one fits
+
+Vendors in this category: [OpenSEO](https://openseo.so) · [Seonaut](https://seonaut.org) · [Potato](https://github.com/onism1767-creator/potato)
+
+## Reading before you buy
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
 Open source alternative to Ahrefs and Semrush
 
 Open SourceDesk-reviewedOSS
@@ -100,63 +157,6 @@ The off-page playbook that actually moves AI citations
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
-- [Home](/)
-- [Tools](/tools/)
-- SEO & Search
-## SEO & Search Tools
-
-SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 9 tools with verified pricing.
-
-9 TOOLS IN THIS CATEGORY
-
-## OPEN SOURCE / SELF-HOSTED***2*
-
-### OpenSEO
-
-### Seonaut
-
-## COMMERCIAL***5*
-
-### Semrush
-
-### Clearscope
-
-### MarketMuse
-
-### Surfer SEO
-
-### Frase
-
-## AI SEARCH VISIBILITY***2*
-
-### Potato
-
-### Superlines
-
-**Compare:** [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
-
-## Key terms
-
-- [SEO](/glossary/seo/)
-- [AEO](/glossary/aeo/)
-- [AI Visibility](/glossary/ai-search-visibility/)
-- [UTM parameters](/glossary/utm-parameters/)
-Full definitions in the [martech glossary](/glossary/).
-
-SEO used to have a scoreboard: rank, click, conversion. The answer engines ate it. When an AI Overview or ChatGPT finishes the question, the visitor never comes, and your dashboard records a clean-looking impression instead of a lost click. The job split in two: still earn the rank, and also get cited in the answer. Most tools in this category were built for the first half and are still catching up on the second.
-
-The 9 here fall into four camps. Semrush is the full platform: 25 billion keywords of data, a technical crawler, rank tracking, and an AI visibility add-on on top. Clearscope, Frase, MarketMuse and Surfer sell the writing layer: they read the top-ranking pages for a keyword, turn them into a brief, and grade your draft against it while you write. OpenSEO and Seonaut are the open source plumbing: rank tracking and backlinks, or site crawls, on your own server with no per-seat billing. Superlines and Potato are the fourth camp, measuring what the answer engines actually say about you: Superlines as a commercial AI-search intelligence platform, Potato free and local against Claude's web-search answers.
-
-When you compare these, don't buy by database size. Check whether the crawler catches problems that cost rankings, whether the grading loop works inside the editor your team already writes in, and whether anything in the stack can tell you an AI assistant cited you while Google Analytics still shows nothing. Database numbers end up on pricing pages because they're easy to print. The last question almost never shows up on one.
-
-## Which one fits
-
-Vendors in this category: [OpenSEO](https://openseo.so) · [Seonaut](https://seonaut.org) · [Potato](https://github.com/onism1767-creator/potato)
-
-## Reading before you buy
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 
 ```json
 {
@@ -196,7 +196,7 @@ Vendors in this category: [OpenSEO](https://openseo.so) · [Seonaut](https://seo
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 9,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -313,7 +313,7 @@ Vendors in this category: [OpenSEO](https://openseo.so) · [Seonaut](https://seo
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/seo/", "breadcrumb": {"@id": "https://martechsignal.com/categories/seo/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/seo/", "breadcrumb": {"@id": "https://martechsignal.com/categories/seo/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

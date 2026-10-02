@@ -1,14 +1,5 @@
 # Your Agents Are Only as Smart as Your Identity Debt
 
-
-| Source | The warning | Why it matters |
-| --- | --- | --- |
-| **Salesforce** (Aug 6) | Clean-looking records with broken relationships: identity debt | Agents act on the wrong customer story |
-| **AdExchanger** (Aug 6) | AI can interpret data but can't vouch for it | Plausible output with no accountable origin |
-| **Fivetran** (Aug 10) | Dashboard-era pipelines can't feed agents | Agents reason from stale, subset data |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 AI · AGENTS · 9 MIN
 
 ## Your Agents Are Only as Smart as Your Identity Debt
@@ -17,7 +8,7 @@ AI · AGENTS · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Your Agents Are Only as Smart as Your Identity Debt
 
-AUG 13, 2026 · Updated 2026-10-02
+AUG 13, 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -28,6 +19,13 @@ Different vendors, different audiences, one warning: agentic marketing breaks on
 The timing matters. Every vendor conference this season has a slide about agentic marketing. The conversation is dominated by model choice, context windows, tool calling, orchestration frameworks. Benchmarks get quoted like sports statistics. Almost nobody is talking about the layer underneath all of that: whether the identity data agents read from is actually resolved, whether the pipelines feeding them can be vouched for, whether anyone can explain why an agent did what it did.
 
 That layer is where agents fail, and it isn't the model. It's the identity debt underneath.
+
+
+| Source | The warning | Why it matters |
+| --- | --- | --- |
+| **Salesforce** (Aug 6) | Clean-looking records with broken relationships: identity debt | Agents act on the wrong customer story |
+| **AdExchanger** (Aug 6) | AI can interpret data but can't vouch for it | Plausible output with no accountable origin |
+| **Fivetran** (Aug 10) | Dashboard-era pipelines can't feed agents | Agents reason from stale, subset data |
 
 ## The identity layer decides what agents can see
 
@@ -111,6 +109,8 @@ More from the directory: [advertools](/tools/advertools/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -142,7 +142,7 @@ More from the directory: [advertools](/tools/advertools/)
     }
   },
   "datePublished": "2026-08-13",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-13",
   "mainEntityOfPage": "https://martechsignal.com/blog/agents-identity-debt/",
   "image": {
     "@type": "ImageObject",
@@ -188,7 +188,7 @@ More from the directory: [advertools](/tools/advertools/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agents-identity-debt/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agents-identity-debt/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agents-identity-debt/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agents-identity-debt/#breadcrumb"}, "dateModified": "2026-08-13"}
 ```
 
 ```json

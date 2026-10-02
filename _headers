@@ -31,12 +31,13 @@
   Cache-Control: public, max-age=3600
 /llms-full.txt
   Cache-Control: public, max-age=3600
-# M16 (r9): the ARD data entry declares application/ai-catalog+json.
+# r20 M-7 (2026-10-02): these are plain JSON datasets, not ARD-spec catalogs
+# (the ARD catalog lives at /.well-known/ard.json) - serve as application/json.
 /catalog-tools.json
-  Content-Type: application/ai-catalog+json
+  Content-Type: application/json
 # L-10 (r11, 2026-09-29): same declaration for the sibling catalog file.
 /catalog-categories.json
-  Content-Type: application/ai-catalog+json
+  Content-Type: application/json
 
 # r7 H18 (2026-09-28): the Markdown mirrors stay available to LLM retrieval
 # (llms-full.txt is the retrieval entry point) but leave the indexable set —

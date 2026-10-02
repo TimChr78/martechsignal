@@ -1,36 +1,8 @@
-# Make vs Zapier (2026): pricing and AI
-
-
-| Tool | Starts at | Pick it when |
-| --- | --- | --- |
-| Make | Freemium | You want the most visual scenario builder and a generous free tier to prototype in. |
-| Zapier | Freemium | You want the deepest app catalog and the least thinking about edge cases. |
-
-
-| Dimension | Make | Zapier |
-| --- | --- | --- |
-| Pricing | Freemium | Freemium |
-| Open source | no | no |
-| Integrations listed | not listed | 8 listed: Salesforce, HubSpot, Slack, Microsoft Dynamics 365 (+4 more) |
-| Public API | yes | yes |
-
-
-| Scenario | Make | Zapier |
-| --- | --- | --- |
-| Cost basis | Operations per month (credits) | Successful tasks |
-| Free tier | 1,000 credits per month, 2 active scenarios | 100 tasks per month, 2-step Zaps |
-| Entry paid | Core $9/mo for 10,000 credits (annual billing) | Professional from $19.99/mo |
-| At 10K tasks/mo | Core covers 10K credits at $9/mo with annual billing. Watch the credit multiplier: some modules consume more than one credit per run. | Volume is a slider above the published starting prices, so 10K tasks costs more than the $69/mo Team entry. Get the quote in writing before comparing. |
-| Checked | 2026-09-27 | 2026-09-27 |
-
-- **Pick Make if:** you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.
-- **Pick Zapier if:** you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free.
-
-[Workflow Automation](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+# Make vs Zapier (2026): pricing, AI features, verdict
 
 ## Make vs Zapier (2026): pricing, AI features, verdict
+
+Pick Make if you want the most visual scenario builder with a generous free tier. Pick Zapier if you want the deepest app catalog and the least thinking about edge cases.
 
 Make and Zapier end up on the same shortlist. Make, the platform formerly known as Integromat, sits between Zapier's simplicity and n8n's depth. Zapier is the automation platform most people mean when they say they want to connect two tools without writing code.
 
@@ -41,6 +13,12 @@ Both platforms now sell AI features on top of the same plumbing: triggers, actio
 The pair pages beside this one (n8n vs Zapier, and the three-way) carry the wider automation-platform picture; here we stay on the two visual builders that fight for the same buyer.
 
 ## Make vs Zapier: the quick decision
+
+
+| Tool | Starts at | Pick it when |
+| --- | --- | --- |
+| Make | Freemium from $9/mo | You want the most visual scenario builder and a generous free tier to prototype in. |
+| Zapier | Freemium from $19.99/mo | You want the deepest app catalog and the least thinking about edge cases. |
 
 The pair pages carry the same evidence in depth: [n8n vs Zapier](/vs/n8n-vs-zapier/).
 
@@ -54,9 +32,26 @@ Make
 
 Zapier
 
+
+| Dimension | Make | Zapier |
+| --- | --- | --- |
+| Pricing | Freemium from $9/mo | Freemium from $19.99/mo |
+| Open source | no | no |
+| Integrations listed | not listed | 8 listed: Salesforce, HubSpot, Slack, Microsoft Dynamics 365 (+4 more) |
+| Public API | yes | yes |
+
 ## Priced at volume
 
 Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 on vendor pricing pages.
+
+
+| Scenario | Make | Zapier |
+| --- | --- | --- |
+| Cost basis | Operations per month (credits) | Successful tasks |
+| Free tier | 1,000 credits per month, 2 active scenarios | 100 tasks per month, 2-step Zaps |
+| Entry paid | Core $9/mo for 10,000 credits (annual billing) | Professional from $19.99/mo |
+| At 10K tasks/mo | Core covers 10K credits at $9/mo with annual billing. Watch the credit multiplier: some modules consume more than one credit per run. | Volume is a slider above the published starting prices, so 10K tasks costs more than the $69/mo Team entry. Get the quote in writing before comparing. |
+| Checked | 2026-09-27 | 2026-09-27 |
 
 ## Positioning
 
@@ -114,6 +109,9 @@ Neither is right when your automation work is mostly custom code with a schedule
 
 ## Who should pick which
 
+- **Pick Make if:** you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.
+- **Pick Zapier if:** you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free.
+
 ## When does Make beat Zapier?
 
 When builders outgrow a linear editor. Make offers branching, looping and scenario-level control with AI agents and workflow suggestions, plus cheaper runs at moderate volume for technical marketing teams.
@@ -128,7 +126,7 @@ Make at moderate volume, where its runs price below Zapier tasks. At very high v
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
-Last verified  · Updated 2026-10-02.
+Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
@@ -140,6 +138,10 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+[Workflow Automation](/categories/workflow-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -148,7 +150,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/make-vs-zapier/#article",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -231,10 +233,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/make-vs-zapier/", "breadcrumb": {"@id": "https://martechsignal.com/vs/make-vs-zapier/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

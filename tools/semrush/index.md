@@ -1,63 +1,5 @@
 # Semrush review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Pro $117/mo annual ($140 monthly), Guru $250/mo, Business $500/mo and Semrush One $199/mo published (the vendor pricing page: [pricing page](https://www.semrush.com/pricing/), verified 2026-08-28). |
-| Feature depth | 8/10 | Keyword research, audits, competitive analysis, content optimization and AI visibility tracking cover the full SEO scope (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
-| Integrations | 7/10 | GA, Search Console, WordPress, Zapier, Slack, HubSpot, Salesforce and Looker Studio documented plus an API (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
-| AI capability | 6/10 | AI content optimization, keyword research, audits and visibility tracking spread across the suite (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access at additional cost (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2008 with eighteen years of SEO-tool operations (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI content optimizer | ✗ Closed source - no self-hosting option |
-| ✓ G2 rating 4.5/5 |  |
-| ✓ Native integrations include Google Analytics, Google Search Console, WordPress (8 listed) |  |
-
-**What is Semrush?**
-Semrush: All-in-one SEO and digital marketing platform with AI-powered insights and tools. Semrush ships with AI content optimizer. This page documents 8 integrations.
-
-**How much does Semrush cost?**
-Semrush starts at $117/mo. Pro $117/mo (annual) or $140/mo; Guru $250/mo; Business $500/mo; Semrush One $199/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Semrush worth paying for in 2026?**
-The most complete all-in-one SEO platform on the market; buy the tier you need, not the one marketing suggests.
-
-- **Pricing:** From $117/mo
-- **Category:** [SEO & Search](/categories/seo/)
-- **Third-party ratingsG2 rating:** 4.5/5 · [source](https://www.g2.com/products/semrush/reviews)as of 2026-08-28
-- **Founded:** 2008
-- **HQ:** Boston, MA, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Semrush is a tool in SEO & Search with paid plans starting at $117/mo. The catalog documents 6 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Surfer SEO
-
-AI-powered content optimization platform for SEO-driven article writing and audits
-
-Frase
-
-AI-powered SEO content platform for research, writing, and AI visibility tracking
-
-Clearscope
-
-AI-powered content optimization platform for SEO teams and content writers
-
-MarketMuse
-
-AI-powered content strategy and optimization platform for SEO content teams
-
-Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
-
-[More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
@@ -70,7 +12,7 @@ All-in-one SEO and digital marketing platform with AI-powered insights and tools
 
 SEO & Search · From $117/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Semrush →](https://www.semrush.com)
 
@@ -81,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 40/60
 
 Semrush is still the SEO suite benchmark: breadth from keyword research to AI visibility tracking with published prices from $117 to $500 per month. The question is scope, not capability.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Pro $117/mo annual ($140 monthly), Guru $250/mo, Business $500/mo and Semrush One $199/mo published (the vendor pricing page: [pricing page](https://www.semrush.com/pricing/), verified 2026-08-28). |
+| Feature depth | 8/10 | Keyword research, audits, competitive analysis, content optimization and AI visibility tracking cover the full SEO scope (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
+| Integrations | 7/10 | GA, Search Console, WordPress, Zapier, Slack, HubSpot, Salesforce and Looker Studio documented plus an API (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
+| AI capability | 6/10 | AI content optimization, keyword research, audits and visibility tracking spread across the suite (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access at additional cost (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2008 with eighteen years of SEO-tool operations (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -122,6 +74,13 @@ The most complete all-in-one SEO platform on the market; buy the tier you need, 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI content optimizer | ✗ Closed source - no self-hosting option |
+| ✓ G2 rating 4.5/5 |  |
+| ✓ Native integrations include Google Analytics, Google Search Console, WordPress (8 listed) |  |
+
 ## Related concepts
 
 - [SEO](/glossary/seo/)
@@ -136,10 +95,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Semrush?**
 Semrush: All-in-one SEO and digital marketing platform with AI-powered insights and tools. Semrush ships with AI content optimizer. This page documents 8 integrations.
 
+**How much does Semrush cost?**
 Semrush starts at $117/mo. Pro $117/mo (annual) or $140/mo; Guru $250/mo; Business $500/mo; Semrush One $199/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Semrush worth paying for in 2026?**
 The most complete all-in-one SEO platform on the market; buy the tier you need, not the one marketing suggests.
 
 ## Similar Tools
@@ -155,6 +117,14 @@ The most complete all-in-one SEO platform on the market; buy the tier you need, 
 - [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/) — Pick Semrush if you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo.
 ### Quick Facts
 
+- **Pricing:** From $117/mo
+- **Category:** [SEO & Search](/categories/seo/)
+- **Third-party ratingsG2 rating:** 4.5/5 · [source](https://www.g2.com/products/semrush/reviews)as of 2026-08-28
+- **Founded:** 2008
+- **HQ:** Boston, MA, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 ## Get the next teardown
@@ -162,6 +132,30 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Semrush is a tool in SEO & Search with paid plans starting at $117/mo. The catalog documents 6 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Surfer SEO
+
+AI-powered content optimization platform for SEO-driven article writing and audits
+
+Frase
+
+AI-powered SEO content platform for research, writing, and AI visibility tracking
+
+Clearscope
+
+AI-powered content optimization platform for SEO teams and content writers
+
+MarketMuse
+
+AI-powered content strategy and optimization platform for SEO content teams
+
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
+
+[More SEO & Search Tools →](/categories/seo/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -180,7 +174,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/semrush/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -283,7 +277,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/semrush/", "breadcrumb": {"@id": "https://martechsignal.com/tools/semrush/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/semrush/", "breadcrumb": {"@id": "https://martechsignal.com/tools/semrush/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

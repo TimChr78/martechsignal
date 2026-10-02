@@ -1,60 +1,5 @@
 # Copy.ai review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free (2,000 words/mo), Pro $49/mo ($36/mo annual), Enterprise custom, all published (the vendor pricing page: [pricing page](https://www.copy.ai/prices), verified 2026-08-28). |
-| Feature depth | 6/10 | Copy generation, workflow automation, brand voice and sales outreach cover the GTM content surface (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
-| Integrations | 6/10 | Slack, Zapier, HubSpot, Salesforce, Chrome, WordPress, Webflow and Shopify documented plus an API (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
-| AI capability | 6/10 | Workflow automation and sales outreach are the agentic edges of a generation core (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2020 with one of the category's largest free user bases (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI copy generation | ✗ Paid plans start at $49/mo once past the free tier |
-| ✓ Native integrations include Slack, Zapier, HubSpot (8 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom) |  |
-
-**What is Copy.ai?**
-Copy.ai: AI-powered GTM platform for sales and marketing content automation at scale. Copy.ai ships with AI copy generation. This page documents 8 integrations.
-
-**How much does Copy.ai cost?**
-Copy.ai has a free tier; paid plans start at $49/mo. Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
-
-**Is Copy.ai worth it past the free tier?**
-Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure content teams have cheaper options.
-
-- **Pricing:** Freemium
-- **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **Founded:** 2020
-- **HQ:** Memphis, TN, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Copy.ai is a tool in AI Content & Copywriting with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Jasper
-
-AI marketing content platform for creating on-brand copy, images, and campaigns
-
-ContentBot
-
-AI content automation platform with workflows for blogs, ads, and social posts
-
-Hypotenuse AI
-
-AI content generation platform for ecommerce product descriptions and articles
-
-ALwrity
-
-AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
-
-[More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
@@ -67,7 +12,7 @@ AI-powered GTM platform for sales and marketing content automation at scale
 
 AI Content & Copywriting · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Copy.ai →](https://www.copy.ai)
 
@@ -78,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 35/60
 
 Copy.ai has moved from writing helper to GTM workflow automation, and the free plan still exists. Teams wanting a writing tool will find a sales platform; teams wanting the reverse will be happier elsewhere.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free (2,000 words/mo), Pro $49/mo ($36/mo annual), Enterprise custom, all published (the vendor pricing page: [pricing page](https://www.copy.ai/prices), verified 2026-08-28). |
+| Feature depth | 6/10 | Copy generation, workflow automation, brand voice and sales outreach cover the GTM content surface (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
+| Integrations | 6/10 | Slack, Zapier, HubSpot, Salesforce, Chrome, WordPress, Webflow and Shopify documented plus an API (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
+| AI capability | 6/10 | Workflow automation and sales outreach are the agentic edges of a generation core (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2020 with one of the category's largest free user bases (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -126,6 +81,13 @@ Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI copy generation | ✗ Paid plans start at $49/mo once past the free tier |
+| ✓ Native integrations include Slack, Zapier, HubSpot (8 listed) | ✗ Closed source - no self-hosting option |
+| ✓ Free tier to evaluate before committing (Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom) |  |
+
 ## Related concepts
 
 - [AI content](/glossary/ai-content-generation/)
@@ -138,10 +100,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Copy.ai?**
 Copy.ai: AI-powered GTM platform for sales and marketing content automation at scale. Copy.ai ships with AI copy generation. This page documents 8 integrations.
 
+**How much does Copy.ai cost?**
 Copy.ai has a free tier; paid plans start at $49/mo. Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
+**Is Copy.ai worth it past the free tier?**
 Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure content teams have cheaper options.
 
 ## Similar Tools
@@ -156,6 +121,13 @@ Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — GTM teams that want workflows, not another blank prompt box
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
+- **Founded:** 2020
+- **HQ:** Memphis, TN, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 
 ## Get the next teardown
@@ -163,6 +135,28 @@ Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tool
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Copy.ai is a tool in AI Content & Copywriting with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Jasper
+
+AI marketing content platform for creating on-brand copy, images, and campaigns
+
+ContentBot
+
+AI content automation platform with workflows for blogs, ads, and social posts
+
+Hypotenuse AI
+
+AI content generation platform for ecommerce product descriptions and articles
+
+ALwrity
+
+AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
+
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -181,7 +175,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/copy-ai/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -293,7 +287,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/copy-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/copy-ai/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/copy-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/copy-ai/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

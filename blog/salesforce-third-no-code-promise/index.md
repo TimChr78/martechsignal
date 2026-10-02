@@ -1,7 +1,5 @@
 # Salesforce's third no-code promise, audited
 
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 AUTOMATION · AI AGENTS · 7 MIN
 
 ## Salesforce's third no-code promise, audited
@@ -9,8 +7,6 @@ AUTOMATION · AI AGENTS · 7 MIN
 [How we review](/methodology/) · No affiliate links
 
 [Home](/) · [Blog](/blog/) · Salesforce's third no-code promise, audited
-
- · Updated 2026-10-02
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -98,6 +94,8 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -129,7 +127,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-09-21",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-21",
   "mainEntityOfPage": "https://martechsignal.com/blog/salesforce-third-no-code-promise/",
   "image": {
     "@type": "ImageObject",
@@ -175,7 +173,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/salesforce-third-no-code-promise/", "breadcrumb": {"@id": "https://martechsignal.com/blog/salesforce-third-no-code-promise/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/salesforce-third-no-code-promise/", "breadcrumb": {"@id": "https://martechsignal.com/blog/salesforce-third-no-code-promise/#breadcrumb"}, "dateModified": "2026-09-21"}
 ```
 
 ```json

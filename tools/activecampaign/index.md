@@ -1,67 +1,5 @@
 # ActiveCampaign review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo with a 14-day trial, all published (the vendor pricing page: [pricing page](https://www.activecampaign.com/pricing), verified 2026-09-27). |
-| Feature depth | 7/10 | Email, automation, CRM and predictive sending cover the SMB loop end to end (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
-| Integrations | 7/10 | Shopify, Salesforce, Slack, Zapier, WooCommerce, Stripe, HubSpot and GA documented plus an API (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
-| AI capability | 6/10 | Predictive sending, win probability and smart automation are useful scoring and timing features rather than agents (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access; exports are your exit plan (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2003 with two decades of email operations behind the product (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI content generation | ✗ Closed source - no self-hosting option |
-| ✓ G2 rating 4.4/5 |  |
-| ✓ Native integrations include Shopify, Salesforce, Slack (8 listed) |  |
-
-**What is ActiveCampaign?**
-ActiveCampaign: AI-powered marketing automation and CRM for small to mid-size businesses. ActiveCampaign ships with AI content generation. This page documents 8 integrations.
-
-**How much does ActiveCampaign cost?**
-ActiveCampaign starts at $15/mo. Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo; 14-day free trial. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is ActiveCampaign worth paying for in 2026?**
-The pragmatic pick when you want automation plus AI agents in one product and your list is under a few hundred thousand contacts.
-
-- **Pricing:** From $15/mo
-- **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **Third-party ratingsG2 rating:** 4.4/5 (14,821 reviews) · [source](https://www.g2.com/products/activecampaign/reviews)as of 2026-08-28
-- **Founded:** 2003
-- **HQ:** Chicago, IL, USA
-- **API:** Yes
-- **Last verified:** 2026-09-27
-
-**Verdict:** ActiveCampaign is a tool in Marketing Automation with paid plans starting at $15/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-HubSpot Marketing Hub
-
-All-in-one marketing automation with AI-powered content, email, and campaign tools
-
-Adobe Marketo Engage
-
-Enterprise B2B marketing automation with AI-driven lead management and engagement
-
-HubSpot CRM
-
-Free AI-powered CRM platform with sales, service, and marketing tools unified
-
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-ALwrity
-
-AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
-
-Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
-
-[More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
@@ -72,7 +10,7 @@ AI-powered marketing automation and CRM for small to mid-size businesses
 
 Marketing Automation · From $15/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit ActiveCampaign →](https://www.activecampaign.com)
 
@@ -83,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 40/60
 
 ActiveCampaign is the SMB automation buy that keeps its pricing honest: four published tiers from $15/mo. The AI is practical rather than theatrical, and the 2003 track record shows in the deliverability tooling.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo with a 14-day trial, all published (the vendor pricing page: [pricing page](https://www.activecampaign.com/pricing), verified 2026-09-27). |
+| Feature depth | 7/10 | Email, automation, CRM and predictive sending cover the SMB loop end to end (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
+| Integrations | 7/10 | Shopify, Salesforce, Slack, Zapier, WooCommerce, Stripe, HubSpot and GA documented plus an API (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
+| AI capability | 6/10 | Predictive sending, win probability and smart automation are useful scoring and timing features rather than agents (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access; exports are your exit plan (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2003 with two decades of email operations behind the product (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -131,6 +79,13 @@ The pragmatic pick when you want automation plus AI agents in one product and yo
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI content generation | ✗ Closed source - no self-hosting option |
+| ✓ G2 rating 4.4/5 |  |
+| ✓ Native integrations include Shopify, Salesforce, Slack (8 listed) |  |
+
 ## Related concepts
 
 - [Marketing automation](/glossary/marketing-automation/)
@@ -145,10 +100,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is ActiveCampaign?**
 ActiveCampaign: AI-powered marketing automation and CRM for small to mid-size businesses. ActiveCampaign ships with AI content generation. This page documents 8 integrations.
 
+**How much does ActiveCampaign cost?**
 ActiveCampaign starts at $15/mo. Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo; 14-day free trial. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is ActiveCampaign worth paying for in 2026?**
 The pragmatic pick when you want automation plus AI agents in one product and your list is under a few hundred thousand contacts.
 
 ## Similar Tools
@@ -165,6 +123,14 @@ The pragmatic pick when you want automation plus AI agents in one product and yo
 - [ActiveCampaign vs HubSpot CRM (2026): pricing, automation, verdict](/vs/activecampaign-vs-hubspot/) — Pick ActiveCampaign if you want deep multi-step automation in one SMB-priced platform, starting at $15/mo on Starter.
 ### Quick Facts
 
+- **Pricing:** From $15/mo
+- **Category:** [Marketing Automation](/categories/marketing-automation/)
+- **Third-party ratingsG2 rating:** 4.4/5 (14,821 reviews) · [source](https://www.g2.com/products/activecampaign/reviews)as of 2026-08-28
+- **Founded:** 2003
+- **HQ:** Chicago, IL, USA
+- **API:** Yes
+- **Last verified:** 2026-09-27
+
 Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
 
 ## Get the next teardown
@@ -172,6 +138,34 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** ActiveCampaign is a tool in Marketing Automation with paid plans starting at $15/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+
+HubSpot Marketing Hub
+
+All-in-one marketing automation with AI-powered content, email, and campaign tools
+
+Adobe Marketo Engage
+
+Enterprise B2B marketing automation with AI-driven lead management and engagement
+
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+ALwrity
+
+AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
+
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
+
+[More Marketing Automation Tools →](/categories/marketing-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -190,7 +184,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/activecampaign/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -293,7 +287,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/activecampaign/", "breadcrumb": {"@id": "https://martechsignal.com/tools/activecampaign/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/activecampaign/", "breadcrumb": {"@id": "https://martechsignal.com/tools/activecampaign/#breadcrumb"}, "dateModified": "2026-09-27"}
 ```
 
 ```json

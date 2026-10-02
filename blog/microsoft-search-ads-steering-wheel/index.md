@@ -1,15 +1,5 @@
 # Microsoft Just Removed the Steering Wheel From Search Ads
 
-
-| Decision | Before this week | Where it lives now |
-| --- | --- | --- |
-| **Who sees your ad** | Your keyword list, your match types | Search term matching, if you opt in |
-| **What the ad says** | Your written assets | AI-generated variations, selected at auction |
-| **Where the click lands** | Your final URL | Final URL expansion picks the page |
-| **What a click can cost** | Max CPC, set by hand | Gone for new standalone campaigns, Oct 1 |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 ADVERTISING · MICROSOFT · 9 MIN
 
 ## Microsoft Just Removed the Steering Wheel From Search Ads
@@ -18,7 +8,7 @@ ADVERTISING · MICROSOFT · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Microsoft Just Removed the Steering Wheel From Search Ads
 
-AUG 31, 2026 · Updated 2026-10-02
+AUG 31, 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -48,6 +38,14 @@ Note what survives. Campaigns created before October 1 keep their Max CPC settin
 ## Why the pair matters
 
 Taken one at a time, both changes have a reasonable defense. Together they close the loop:
+
+
+| Decision | Before this week | Where it lives now |
+| --- | --- | --- |
+| **Who sees your ad** | Your keyword list, your match types | Search term matching, if you opt in |
+| **What the ad says** | Your written assets | AI-generated variations, selected at auction |
+| **Where the click lands** | Your final URL | Final URL expansion picks the page |
+| **What a click can cost** | Max CPC, set by hand | Gone for new standalone campaigns, Oct 1 |
 
 Max CPC deserves a moment on its own, because it was never a performance tool. It was a seatbelt. People used it on low-volume Bing queries where a single bad match could mean a nine-dollar click from a search that had nothing to do with the product. Search Engine Land put it plainly: this removes a safeguard against unexpectedly expensive clicks, and advertisers will now lean on budgets and conversion targets instead.
 
@@ -111,6 +109,8 @@ More from the directory: [RudderStack](/tools/rudderstack/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -142,7 +142,7 @@ More from the directory: [RudderStack](/tools/rudderstack/)
     }
   },
   "datePublished": "2026-08-31",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-31",
   "mainEntityOfPage": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/",
   "image": {
     "@type": "ImageObject",
@@ -188,7 +188,7 @@ More from the directory: [RudderStack](/tools/rudderstack/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/", "breadcrumb": {"@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/", "breadcrumb": {"@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/#breadcrumb"}, "dateModified": "2026-08-31"}
 ```
 
 ```json

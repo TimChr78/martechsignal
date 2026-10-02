@@ -1,60 +1,5 @@
 # AdCreative.ai review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Starter $39/mo ($20/mo annual), Professional $249/mo, Ultimate $599/mo published with Enterprise custom (the vendor pricing page: [pricing page](https://www.adcreative.ai/pricing), verified 2026-08-28). |
-| Feature depth | 5/10 | Creative generation, scoring and copy cover the ad asset workflow narrowly (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
-| Integrations | 5/10 | Meta, Google, TikTok and LinkedIn Ads plus Shopify, Canva, Zapier and Slack documented (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
-| AI capability | 6/10 | Performance scoring over generated creatives is the differentiating model claim (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2021 with self-serve pricing and a wide trial funnel (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI ad creative generation | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Meta Ads, Google Ads, TikTok Ads (8 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is AdCreative.ai?**
-AdCreative.ai: AI platform generating high-converting ad creatives and social media post designs. AdCreative.ai ships with AI ad creative generation. This page documents 8 integrations.
-
-**How much does AdCreative.ai cost?**
-AdCreative.ai starts at $20/mo. Starter $39/mo (annual $20/mo); Professional $249/mo; Ultimate $599/mo; Enterprise custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is AdCreative.ai worth paying for in 2026?**
-Buy it when ad volume is your bottleneck and speed matters. Skip it if your brand needs art direction no template can give.
-
-- **Pricing:** From $20/mo
-- **Category:** [Advertising & Paid Media](/categories/advertising/)
-- **Founded:** 2021
-- **HQ:** Paris, France
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** AdCreative.ai is a tool in Advertising & Paid Media with paid plans starting at $20/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Albert AI
-
-Autonomous AI platform that manages and optimizes digital advertising campaigns
-
-Predis.ai
-
-AI-powered social media content generator for posts, videos, and ad creatives
-
-Pencil
-
-AI-powered ad creative generation and performance prediction for paid media
-
-Madgicx
-
-AI-powered Meta ads optimization and creative workflow
-
-[More Advertising & Paid Media Tools →](/categories/advertising/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
@@ -67,7 +12,7 @@ AI platform generating high-converting ad creatives and social media post design
 
 Advertising & Paid Media · From $20/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit AdCreative.ai →](https://www.adcreative.ai)
 
@@ -78,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 31/60
 
 AdCreative.ai sells conversion-scored generated creatives at self-serve prices. The scoring is the promise, so run it against your own winners before trusting the leaderboard.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Starter $39/mo ($20/mo annual), Professional $249/mo, Ultimate $599/mo published with Enterprise custom (the vendor pricing page: [pricing page](https://www.adcreative.ai/pricing), verified 2026-08-28). |
+| Feature depth | 5/10 | Creative generation, scoring and copy cover the ad asset workflow narrowly (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
+| Integrations | 5/10 | Meta, Google, TikTok and LinkedIn Ads plus Shopify, Canva, Zapier and Slack documented (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
+| AI capability | 6/10 | Performance scoring over generated creatives is the differentiating model claim (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2021 with self-serve pricing and a wide trial funnel (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -126,6 +81,13 @@ Buy it when ad volume is your bottleneck and speed matters. Skip it if your bran
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI ad creative generation | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Meta Ads, Google Ads, TikTok Ads (8 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [DSP](/glossary/dsp/)
@@ -140,10 +102,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is AdCreative.ai?**
 AdCreative.ai: AI platform generating high-converting ad creatives and social media post designs. AdCreative.ai ships with AI ad creative generation. This page documents 8 integrations.
 
+**How much does AdCreative.ai cost?**
 AdCreative.ai starts at $20/mo. Starter $39/mo (annual $20/mo); Professional $249/mo; Ultimate $599/mo; Enterprise custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is AdCreative.ai worth paying for in 2026?**
 Buy it when ad volume is your bottleneck and speed matters. Skip it if your brand needs art direction no template can give.
 
 ## Similar Tools
@@ -158,6 +123,13 @@ Buy it when ad volume is your bottleneck and speed matters. Skip it if your bran
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Lean teams that want creative volume with a score attached
 ### Quick Facts
 
+- **Pricing:** From $20/mo
+- **Category:** [Advertising & Paid Media](/categories/advertising/)
+- **Founded:** 2021
+- **HQ:** Paris, France
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 
 ## Get the next teardown
@@ -165,6 +137,28 @@ Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** AdCreative.ai is a tool in Advertising & Paid Media with paid plans starting at $20/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Albert AI
+
+Autonomous AI platform that manages and optimizes digital advertising campaigns
+
+Predis.ai
+
+AI-powered social media content generator for posts, videos, and ad creatives
+
+Pencil
+
+AI-powered ad creative generation and performance prediction for paid media
+
+Madgicx
+
+AI-powered Meta ads optimization and creative workflow
+
+[More Advertising & Paid Media Tools →](/categories/advertising/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -183,7 +177,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/adcreative-ai/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -286,7 +280,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/adcreative-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/adcreative-ai/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/adcreative-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/adcreative-ai/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

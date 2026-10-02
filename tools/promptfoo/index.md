@@ -1,77 +1,5 @@
 # Promptfoo review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 6/10 | The open-source CLI is free and clear; cloud and enterprise tiers exist on promptfoo.dev with no public numbers extracted (the vendor pricing page, verified Sep 2026: [pricing page](https://www.promptfoo.dev/pricing/), verified 2026-09-28). |
-| Feature depth | 7/10 | Model-graded evals, automated red team probe generation and multi-provider prompt runs make a real test bench (vendor documentation: [vendor site](https://promptfoo.dev), verified 2026-09-28). |
-| Integrations | 6/10 | OpenAI, Anthropic, Azure OpenAI, Amazon Bedrock and GitHub Actions cover the evaluation pipeline (vendor documentation: [vendor site](https://promptfoo.dev), verified 2026-09-28). |
-| AI capability | 8/10 | One LLM grading another's answers plus automated red team probe generation are meta-AI capabilities with real teeth (vendor documentation: [vendor site](https://promptfoo.dev), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with a CLI-first design you can run anywhere (the source repository: [repository](https://github.com/promptfoo/promptfoo), verified 2026-09-28). |
-| Operational maturity | 6/10 | Plus a commercial entity behind the cloud tiers give it both community and runway (vendor documentation: [vendor site](https://promptfoo.dev), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ GEO tracking is assembled from eval primitives; no packaged GEO dashboard ships with it. |
-| ✓ AI capabilities: model-graded evals where one LLM scores another's answers | ✗ The 10k probes per month limit shown for hosted red teaming constrains large attack suites. |
-| ✓ Active public repository (25,631 GitHub stars counted at last check) | ✗ Cloud and enterprise pricing has no public numbers as of September 2026, so buyers end up in a sales conversation. |
-| ✓ Native integrations include OpenAI, Anthropic, Azure OpenAI (5 listed) |  |
-| ✓ MIT license with a large open-source repo, so the eval engine can run fully local. |  |
-| ✓ One tool covers prompt evals, model comparison and red teaming. |  |
-| ✓ Assertion-based grading makes brand-answer checks repeatable and diffable across runs. |  |
-
-**What is Promptfoo?**
-Promptfoo: Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming. Promptfoo ships with model-graded evals where one LLM scores another's answers. The public repository carries 25,631 stars.
-
-**How much does Promptfoo cost?**
-Promptfoo is open source - MIT licensed and free to self-host; the public repository carries 25,631 stars; native integrations cover OpenAI, Anthropic, Azure OpenAI. You pay in server time and maintenance, not licences.
-
-**Is Promptfoo worth it past the free tier?**
-An eval framework that can double as GEO prompt tracking for teams willing to write YAML and grading rules. Not a substitute for a visibility dashboard.
-
-**Is Promptfoo free?**
-The core is MIT licensed and free to run locally. Promptfoo also sells cloud and enterprise tiers at promptfoo.dev, which listed no public price numbers as of September 2026.
-
-**Is Promptfoo a GEO tool?**
-It is an LLM eval toolkit. Marketers use it for GEO-style work by running fixed question sets across ChatGPT, Perplexity and other models and scoring brand mentions in the answers, but it does not ship a dedicated GEO dashboard.
-
-**What does red teaming include?**
-The CLI generates attack probes against an application and reports findings. The hosted red team product shows a 10k probes per month limit.
-
-- **Pricing:** Freemium
-- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
-- **GitHub:** ★ 25631
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-25
-
-**Verdict:** Promptfoo is a tool in GEO & LLM Optimization with free and open source. The catalog documents 3 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-Nightwatch
-
-Rank tracking across Google and AI answers, priced by keyword with unlimited seats
-
-Profound
-
-Enterprise AI marketing platform: answer-engine visibility plus drafting agents
-
-OtterlyAI
-
-AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
-
-Evertune
-
-GEO visibility measurement with content activation and a ChatGPT Ad Agent
-
-Adobe LLM Optimizer
-
-Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
-
-[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
@@ -82,7 +10,7 @@ Open source LLM eval toolkit for prompt testing, brand-answer tracking and red t
 
 GEO & LLM Optimization · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Promptfoo →](https://promptfoo.dev)
 
@@ -93,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 42/60
 
 Promptfoo is the one in this category you can run tonight and read end to end: MIT evals and red teaming with tens of thousands of stars. The cloud tiers price quietly, which does not matter much when the core is free.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | The open-source CLI is free and clear; cloud and enterprise tiers exist on promptfoo.dev with no public numbers extracted (the vendor pricing page, verified Sep 2026: [pricing page](https://www.promptfoo.dev/pricing/), verified 2026-09-28). |
+| Feature depth | 7/10 | Model-graded evals, automated red team probe generation and multi-provider prompt runs make a real test bench (vendor documentation: [vendor site](https://promptfoo.dev), verified 2026-09-28). |
+| Integrations | 6/10 | OpenAI, Anthropic, Azure OpenAI, Amazon Bedrock and GitHub Actions cover the evaluation pipeline (vendor documentation: [vendor site](https://promptfoo.dev), verified 2026-09-28). |
+| AI capability | 8/10 | One LLM grading another's answers plus automated red team probe generation are meta-AI capabilities with real teeth (vendor documentation: [vendor site](https://promptfoo.dev), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with a CLI-first design you can run anywhere (the source repository: [repository](https://github.com/promptfoo/promptfoo), verified 2026-09-28). |
+| Operational maturity | 6/10 | Plus a commercial entity behind the cloud tiers give it both community and runway (vendor documentation: [vendor site](https://promptfoo.dev), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -142,6 +80,17 @@ An eval framework that can double as GEO prompt tracking for teams willing to wr
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ GEO tracking is assembled from eval primitives; no packaged GEO dashboard ships with it. |
+| ✓ AI capabilities: model-graded evals where one LLM scores another's answers | ✗ The 10k probes per month limit shown for hosted red teaming constrains large attack suites. |
+| ✓ Active public repository (25,631 GitHub stars counted at last check) | ✗ Cloud and enterprise pricing has no public numbers as of September 2026, so buyers end up in a sales conversation. |
+| ✓ Native integrations include OpenAI, Anthropic, Azure OpenAI (5 listed) |  |
+| ✓ MIT license with a large open-source repo, so the eval engine can run fully local. |  |
+| ✓ One tool covers prompt evals, model comparison and red teaming. |  |
+| ✓ Assertion-based grading makes brand-answer checks repeatable and diffable across runs. |  |
+
 ## Related concepts
 
 - [GEO](/glossary/geo/)
@@ -155,16 +104,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Promptfoo?**
 Promptfoo: Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming. Promptfoo ships with model-graded evals where one LLM scores another's answers. The public repository carries 25,631 stars.
 
+**How much does Promptfoo cost?**
 Promptfoo is open source - MIT licensed and free to self-host; the public repository carries 25,631 stars; native integrations cover OpenAI, Anthropic, Azure OpenAI. You pay in server time and maintenance, not licences.
 
+**Is Promptfoo worth it past the free tier?**
 An eval framework that can double as GEO prompt tracking for teams willing to write YAML and grading rules. Not a substitute for a visibility dashboard.
 
+**Is Promptfoo free?**
 The core is MIT licensed and free to run locally. Promptfoo also sells cloud and enterprise tiers at promptfoo.dev, which listed no public price numbers as of September 2026.
 
+**Is Promptfoo a GEO tool?**
 It is an LLM eval toolkit. Marketers use it for GEO-style work by running fixed question sets across ChatGPT, Perplexity and other models and scoring brand mentions in the answers, but it does not ship a dedicated GEO dashboard.
 
+**What does red teaming include?**
 The CLI generates attack probes against an application and reports findings. The hosted red team product shows a 10k probes per month limit.
 
 ## Similar Tools
@@ -179,6 +134,13 @@ The CLI generates attack probes against an application and reports findings. The
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best free entry point, provided someone on the team can run a CLI.
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
+- **GitHub:** ★ 25631
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-25
+
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 ## Get the next teardown
@@ -186,6 +148,32 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Promptfoo is a tool in GEO & LLM Optimization with free and open source. The catalog documents 3 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+Nightwatch
+
+Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+
+Profound
+
+Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+
+OtterlyAI
+
+AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+
+Evertune
+
+GEO visibility measurement with content activation and a ChatGPT Ad Agent
+
+Adobe LLM Optimizer
+
+Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
+
+[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

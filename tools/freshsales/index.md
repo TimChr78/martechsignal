@@ -1,70 +1,5 @@
 # Freshsales review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Growth $9/user/mo, Pro $39, Enterprise $59 published annually with Freddy AI Agent at $49 per user and a 21-day full trial (the vendor pricing page: [pricing page](https://www.freshworks.com/crm/pricing/), verified 2026-09-28). |
-| Feature depth | 6/10 | CRM with built-in phone, email and chat cover the SMB sales loop (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
-| Integrations | 3/10 | No named integrations in the catalog, though an API is documented (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
-| AI capability | 6/10 | Freddy AI contact and intent scoring, deal insights and email writing from Pro up (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
-| Operational maturity | 7/10 | Founded 2010 inside the Freshworks portfolio (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ API access for custom integrations | ✗ Paid plans start at $9/mo |
-| ✓ AI capabilities: freddy AI contact and intent scoring (Pro and up) | ✗ Closed source - no self-hosting option |
-| ✓ API access for custom integrations |  |
-
-**What is Freshsales?**
-Freshsales: AI-powered CRM with built-in phone, email, and chat for sales teams. Freshsales ships with freddy AI contact and intent scoring (Pro and up). Freshsales offers a public API for custom integrations.
-
-**How much does Freshsales cost?**
-Freshsales is paid software; plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
-
-**Is Freshsales worth paying for in 2026?**
-The pragmatic budget CRM for sales-led mid-market teams. Pricing is sharper than most reviews say, and the AI is real but tier-gated and metered.
-
-**Does Freshsales still have a free plan?**
-The current pricing page lists three paid plans and a 21-day trial of the fully loaded CRM with no credit card. A permanent free tier is not shown on that page any more, so verify before you build a rollout plan around one.
-
-**What is a Freshsales bot session?**
-A bot session is any unique interaction between an end user and a bot. On chat, all of one end user's bot interactions in a day count as one session lasting up to 24 hours. Only customer-facing AI bot features consume sessions; agent-facing AI features do not.
-
-- **Pricing:** From $9/mo
-- **Category:** [CRM](/categories/crm/)
-- **Founded:** 2010
-- **HQ:** San Mateo, CA, USA
-- **API:** Yes
-- **Last verified:** 2026-09-27
-
-**Verdict:** Freshsales is a tool in CRM with paid plans starting at $9/mo. The catalog documents 5 AI features and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-Pipedrive
-
-Sales-focused CRM with AI-powered pipeline management and deal forecasting
-
-Salesforce CRM
-
-Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
-
-HubSpot CRM
-
-Free AI-powered CRM platform with sales, service, and marketing tools unified
-
-Macro
-
-Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
-
-IDURAR ERP & CRM
-
-Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -75,7 +10,7 @@ AI-powered CRM with built-in phone, email, and chat for sales teams
 
 CRM · From $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Freshsales →](https://www.freshworks.com/crm/)
 
@@ -86,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 33/60
 
 Freshsales is the value CRM: $9/user/mo entry with phone and chat built in, and Freddy AI metered as a $49 add-on you can decline. The 21-day full-product trial is honest.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Growth $9/user/mo, Pro $39, Enterprise $59 published annually with Freddy AI Agent at $49 per user and a 21-day full trial (the vendor pricing page: [pricing page](https://www.freshworks.com/crm/pricing/), verified 2026-09-28). |
+| Feature depth | 6/10 | CRM with built-in phone, email and chat cover the SMB sales loop (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
+| Integrations | 3/10 | No named integrations in the catalog, though an API is documented (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
+| AI capability | 6/10 | Freddy AI contact and intent scoring, deal insights and email writing from Pro up (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2010 inside the Freshworks portfolio (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -139,6 +84,13 @@ The pragmatic budget CRM for sales-led mid-market teams. Pricing is sharper than
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ API access for custom integrations | ✗ Paid plans start at $9/mo |
+| ✓ AI capabilities: freddy AI contact and intent scoring (Pro and up) | ✗ Closed source - no self-hosting option |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -153,14 +105,19 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Freshsales?**
 Freshsales: AI-powered CRM with built-in phone, email, and chat for sales teams. Freshsales ships with freddy AI contact and intent scoring (Pro and up). Freshsales offers a public API for custom integrations.
 
+**How much does Freshsales cost?**
 Freshsales is paid software; plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
 
+**Is Freshsales worth paying for in 2026?**
 The pragmatic budget CRM for sales-led mid-market teams. Pricing is sharper than most reviews say, and the AI is real but tier-gated and metered.
 
+**Does Freshsales still have a free plan?**
 The current pricing page lists three paid plans and a 21-day trial of the fully loaded CRM with no credit card. A permanent free tier is not shown on that page any more, so verify before you build a rollout plan around one.
 
+**What is a Freshsales bot session?**
 A bot session is any unique interaction between an end user and a bot. On chat, all of one end user's bot interactions in a day count as one session lasting up to 24 hours. Only customer-facing AI bot features consume sessions; agent-facing AI features do not.
 
 ## Similar Tools
@@ -175,6 +132,13 @@ A bot session is any unique interaction between an end user and a bot. On chat, 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for budget-conscious teams that still want AI lead scoring.
 ### Quick Facts
 
+- **Pricing:** From $9/mo
+- **Category:** [CRM](/categories/crm/)
+- **Founded:** 2010
+- **HQ:** San Mateo, CA, USA
+- **API:** Yes
+- **Last verified:** 2026-09-27
+
 Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 
 ## Get the next teardown
@@ -182,6 +146,32 @@ Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Freshsales is a tool in CRM with paid plans starting at $9/mo. The catalog documents 5 AI features and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+
+Pipedrive
+
+Sales-focused CRM with AI-powered pipeline management and deal forecasting
+
+Salesforce CRM
+
+Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+Macro
+
+Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
+
+IDURAR ERP & CRM
+
+Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -200,7 +190,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/freshsales/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -319,7 +309,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/freshsales/", "breadcrumb": {"@id": "https://martechsignal.com/tools/freshsales/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/freshsales/", "breadcrumb": {"@id": "https://martechsignal.com/tools/freshsales/#breadcrumb"}, "dateModified": "2026-09-27"}
 ```
 
 ```json

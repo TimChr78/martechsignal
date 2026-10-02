@@ -1,67 +1,5 @@
 # Krayin CRM review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 6/10 | Free to self-host under MIT with no user limits is perfectly clear; Webkul's extension prices are mostly unlisted beyond the $1,799 multi-tenant module (the vendor pricing page: [pricing page](https://krayincrm.com/extensions/), verified 2026-09-07). |
-| Feature depth | 6/10 | Full customer lifecycle management with automation packages (triggers, conditions, actions) covers SME CRM needs; campaign machinery is thin (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
-| Integrations | 3/10 | No named integrations in the catalog; Laravel and Webkul extensions carry the connection story (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
-| AI capability | 5/10 | Magic AI lead creation from uploaded PDFs and images via an OpenRouter module is real but narrow (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with no user limits on self-hosting (the source repository: [repository](https://github.com/krayin/laravel-crm), verified 2026-09-28). |
-| Operational maturity | 6/10 | Backed by Webkul's extension business, giving it more runway than a solo project (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $1799 one-time |
-| ✓ API access for custom integrations |  |
-| ✓ AI capabilities: magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module) |  |
-| ✓ Active public repository (23,964 GitHub stars counted at last check) |  |
-
-**What is Krayin CRM?**
-Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 23,964 stars.
-
-**How much does Krayin CRM cost?**
-Krayin CRM has a free tier; paid plans start at $1799 one-time. Free to self-host under MIT with no user limits. Paid: Webkul extensions (multi-tenant SaaS at $1,799 for Krayin 2.1.0; other extension prices unlisted) and vendor cloud hosting with no published prices. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
-
-**Is Krayin CRM a good self-hosted CRM tool in 2026?**
-A current, actively maintained Laravel CRM that is more capable than its reputation on automation and AI, thinner than its marketing on documentation, scoring, and integrations, and best treated as an extendable base.
-
-**Does Krayin CRM have AI features or lead scoring?**
-It has one documented AI feature and no lead scoring. Magic AI creates leads from uploaded PDFs and images using an OpenRouter API key, configured under Settings, Configuration, Magic AI, and ships as an official module rather than in the core packages. There is no lead scoring, no predictive analytics, and no documented forecasting engine; the homepage phrase sales forecasting has no matching feature documentation. Treat Krayin as a traditional CRM with one document-parsing AI add-on.
-
-**Can you import leads and contacts from a CSV or another CRM into Krayin?**
-Yes, through the built-in import and export layer (the DataTransfer package), which covers leads, persons, and organizations, with support for custom attributes on leads and persons added in v2.2.5 along with Google Contacts export. There is no documented one-click migration from Salesforce or HubSpot, so plan a CSV path: export from the source system, map columns to Krayin attributes, and import. Custom fields you create in the target should exist before import so the attribute columns can map.
-
-- **Pricing:** Open Source
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 23964
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** Krayin CRM is a tool in CRM with free and open source. The catalog documents 2 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-EspoCRM
-
-Lightweight open-source CRM with sales automation, marketing tools, and customer management
-
-Pipedrive
-
-Sales-focused CRM with AI-powered pipeline management and deal forecasting
-
-Salesforce CRM
-
-Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
-
-BillionMail
-
-Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -74,7 +12,7 @@ Free open-source Laravel CRM for SMEs and enterprises with full customer lifecyc
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Krayin CRM →](https://krayincrm.com)
 
@@ -85,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 35/60
 
 Krayin is the Laravel CRM for teams that want to own the code and extend it in PHP. MIT licensing is unusually permissive here; the paid multi-tenant SaaS module is the one visible upsell.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Free to self-host under MIT with no user limits is perfectly clear; Webkul's extension prices are mostly unlisted beyond the $1,799 multi-tenant module (the vendor pricing page: [pricing page](https://krayincrm.com/extensions/), verified 2026-09-07). |
+| Feature depth | 6/10 | Full customer lifecycle management with automation packages (triggers, conditions, actions) covers SME CRM needs; campaign machinery is thin (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
+| Integrations | 3/10 | No named integrations in the catalog; Laravel and Webkul extensions carry the connection story (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
+| AI capability | 5/10 | Magic AI lead creation from uploaded PDFs and images via an OpenRouter module is real but narrow (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with no user limits on self-hosting (the source repository: [repository](https://github.com/krayin/laravel-crm), verified 2026-09-28). |
+| Operational maturity | 6/10 | Backed by Webkul's extension business, giving it more runway than a solo project (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -143,6 +91,14 @@ A current, actively maintained Laravel CRM that is more capable than its reputat
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $1799 one-time |
+| ✓ API access for custom integrations |  |
+| ✓ AI capabilities: magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module) |  |
+| ✓ Active public repository (23,964 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -157,14 +113,19 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Krayin CRM?**
 Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 23,964 stars.
 
+**How much does Krayin CRM cost?**
 Krayin CRM has a free tier; paid plans start at $1799 one-time. Free to self-host under MIT with no user limits. Paid: Webkul extensions (multi-tenant SaaS at $1,799 for Krayin 2.1.0; other extension prices unlisted) and vendor cloud hosting with no published prices. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
+**Is Krayin CRM a good self-hosted CRM tool in 2026?**
 A current, actively maintained Laravel CRM that is more capable than its reputation on automation and AI, thinner than its marketing on documentation, scoring, and integrations, and best treated as an extendable base.
 
+**Does Krayin CRM have AI features or lead scoring?**
 It has one documented AI feature and no lead scoring. Magic AI creates leads from uploaded PDFs and images using an OpenRouter API key, configured under Settings, Configuration, Magic AI, and ships as an official module rather than in the core packages. There is no lead scoring, no predictive analytics, and no documented forecasting engine; the homepage phrase sales forecasting has no matching feature documentation. Treat Krayin as a traditional CRM with one document-parsing AI add-on.
 
+**Can you import leads and contacts from a CSV or another CRM into Krayin?**
 Yes, through the built-in import and export layer (the DataTransfer package), which covers leads, persons, and organizations, with support for custom attributes on leads and persons added in v2.2.5 along with Google Contacts export. There is no documented one-click migration from Salesforce or HubSpot, so plan a CSV path: export from the source system, map columns to Krayin attributes, and import. Custom fields you create in the target should exist before import so the attribute columns can map.
 
 ## Similar Tools
@@ -179,6 +140,13 @@ Yes, through the built-in import and export layer (the DataTransfer package), wh
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for Laravel shops that want room to extend a CRM.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 23964
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 Related guides: [Open Source Crm](/best/open-source-crm/)
 
 ## Get the next teardown
@@ -186,6 +154,28 @@ Related guides: [Open Source Crm](/best/open-source-crm/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Krayin CRM is a tool in CRM with free and open source. The catalog documents 2 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+EspoCRM
+
+Lightweight open-source CRM with sales automation, marketing tools, and customer management
+
+Pipedrive
+
+Sales-focused CRM with AI-powered pipeline management and deal forecasting
+
+Salesforce CRM
+
+Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+
+BillionMail
+
+Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

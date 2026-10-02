@@ -1,62 +1,5 @@
 # Marketing Studio pricing
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with Claude Code API access as the stated requirement (the vendor pricing page: [pricing page](https://github.com/ucsandman/marketing-studio), verified 2026-08-31). |
-| Feature depth | 4/10 | Launch assets, demo video rendering, social clips and OG images cover the launch kit (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
-| Integrations | 3/10 | Claude Code and Blender documented as the two dependencies (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
-| AI capability | 5/10 | Agent-driven asset and video generation through Blender is a real pipeline (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with full source (the source repository: [repository](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
-| Operational maturity | 2/10 | Founded 2026 with no API and a narrow dependency stack (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (248 GitHub stars) - smaller community and plugin ecosystem |
-| ✓ AI capabilities: launch asset generation | ✗ Short native integration list - plan for API work |
-| ✓ Native integrations include Claude Code, Blender (2 listed) |  |
-
-**What is Marketing Studio?**
-Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 248 stars.
-
-**How much does Marketing Studio cost?**
-Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 248 stars. You pay in server time and maintenance, not licences.
-
-**Is Marketing Studio a good self-hosted Agent Skills tool in 2026?**
-The most complete open-source take on agent-produced launch assets, with a real pipeline architecture behind the demo. Worth adopting if you already work in Claude Code and need repeatable launch creative; expect to invest in brand tokens and review passes before output is publishable.
-
-- **Pricing:** Open Source
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 248
-- **Founded:** 2026
-- **HQ:** Open source
-- **API:** No
-- **Repository checked:** 2026-09-29
-- **Page updated:** 2026-08-31
-
-**Verdict:** Marketing Studio is a tool in Agent Skills with free and open source. The catalog documents 4 AI features, 2 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-Aaron Marketing Skills
-
-120 marketing skills across 7 disciplines for Claude Code with auditor gates
-
-SEO Skill Bench
-
-Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
-
-AI Marketing Suite
-
-15-skill marketing suite for Claude Code with parallel agents and PDF reports
-
-AI Business Skills
-
-63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -69,7 +12,7 @@ Agent-driven marketing studio for Claude Code: launch assets from one command
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Marketing Studio →](https://github.com/ucsandman/marketing-studio)
 
@@ -80,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 32/60
 
 Marketing Studio renders launch assets and demo videos from one Claude Code command, using Blender under the hood. It is a well-shaped idea in early days.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free under MIT with Claude Code API access as the stated requirement (the vendor pricing page: [pricing page](https://github.com/ucsandman/marketing-studio), verified 2026-08-31). |
+| Feature depth | 4/10 | Launch assets, demo video rendering, social clips and OG images cover the launch kit (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
+| Integrations | 3/10 | Claude Code and Blender documented as the two dependencies (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
+| AI capability | 5/10 | Agent-driven asset and video generation through Blender is a real pipeline (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full source (the source repository: [repository](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
+| Operational maturity | 2/10 | Founded 2026 with no API and a narrow dependency stack (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -121,6 +74,13 @@ The most complete open-source take on agent-produced launch assets, with a real 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Young project (248 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: launch asset generation | ✗ Short native integration list - plan for API work |
+| ✓ Native integrations include Claude Code, Blender (2 listed) |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -134,10 +94,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Marketing Studio?**
 Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 248 stars.
 
+**How much does Marketing Studio cost?**
 Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 248 stars. You pay in server time and maintenance, not licences.
 
+**Is Marketing Studio a good self-hosted Agent Skills tool in 2026?**
 The most complete open-source take on agent-produced launch assets, with a real pipeline architecture behind the demo. Worth adopting if you already work in Claude Code and need repeatable launch creative; expect to invest in brand tokens and review passes before output is publishable.
 
 ## Similar Tools
@@ -149,11 +112,42 @@ The most complete open-source take on agent-produced launch assets, with a real 
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **GitHub:** ★ 248
+- **Founded:** 2026
+- **HQ:** Open source
+- **API:** No
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-08-31
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Marketing Studio is a tool in Agent Skills with free and open source. The catalog documents 4 AI features, 2 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
+
+Aaron Marketing Skills
+
+120 marketing skills across 7 disciplines for Claude Code with auditor gates
+
+SEO Skill Bench
+
+Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+
+AI Marketing Suite
+
+15-skill marketing suite for Claude Code with parallel agents and PDF reports
+
+AI Business Skills
+
+63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -172,7 +166,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/marketing-studio/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-08-29",
     "offers": {
       "@type": "Offer",
@@ -275,7 +269,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/marketing-studio/", "breadcrumb": {"@id": "https://martechsignal.com/tools/marketing-studio/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/marketing-studio/", "breadcrumb": {"@id": "https://martechsignal.com/tools/marketing-studio/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

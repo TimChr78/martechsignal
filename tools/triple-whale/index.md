@@ -1,64 +1,5 @@
 # Triple Whale review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Conversion $59/mo, Retention $179/mo, Foundation $219/mo published with GMV scaling (the vendor pricing page: [pricing page](https://www.triplewhale.com/pricing), verified 2026-08-28). |
-| Feature depth | 6/10 | Attribution, LTV, creative analytics and profit tracking cover the DTC measurement loop (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
-| Integrations | 6/10 | Shopify, Meta, Google and TikTok Ads, Klaviyo, Slack, Zapier and Stripe documented (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
-| AI capability | 6/10 | AI attribution modeling and creative analytics fit the storefront use case well (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS tied to your ad and store connections (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2021 with priced tiers and a DTC-focused customer base (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI attribution modeling | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Shopify, Meta Ads, Google Ads (8 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is Triple Whale?**
-Triple Whale: AI-powered ecommerce analytics and attribution platform for DTC brands. Triple Whale ships with AI attribution modeling. This page documents 8 integrations.
-
-**How much does Triple Whale cost?**
-Triple Whale starts at $59/mo. Conversion $59/mo; Retention $179/mo; Foundation $219/mo; scales with GMV. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Triple Whale worth paying for in 2026?**
-Genuinely useful DTC dashboard consolidation; treat attribution as directional, warehouse for truth.
-
-- **Pricing:** From $59/mo
-- **Category:** [Analytics & Attribution](/categories/analytics/)
-- **Founded:** 2021
-- **HQ:** Columbus, OH, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Triple Whale is a tool in Analytics & Attribution with paid plans starting at $59/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Northbeam
-
-AI-powered multi-touch attribution and marketing intelligence for ecommerce
-
-Attribution
-
-AI-powered marketing attribution platform connecting ad spend to revenue
-
-Amplitude
-
-AI-powered digital analytics platform for product and marketing teams
-
-Madgicx
-
-AI-powered Meta ads optimization and creative workflow
-
-Mixpanel
-
-Product analytics platform with AI-powered insights for user behavior tracking
-
-[More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
@@ -71,7 +12,7 @@ AI-powered ecommerce analytics and attribution platform for DTC brands
 
 Analytics & Attribution · From $59/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Triple Whale →](https://www.triplewhale.com)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 33/60
 
 Triple Whale is DTC attribution with an opinion: profit tracking and creative analytics over Shopify data. GMV-scaled pricing fits the storefront it was built for and few others.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Conversion $59/mo, Retention $179/mo, Foundation $219/mo published with GMV scaling (the vendor pricing page: [pricing page](https://www.triplewhale.com/pricing), verified 2026-08-28). |
+| Feature depth | 6/10 | Attribution, LTV, creative analytics and profit tracking cover the DTC measurement loop (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
+| Integrations | 6/10 | Shopify, Meta, Google and TikTok Ads, Klaviyo, Slack, Zapier and Stripe documented (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
+| AI capability | 6/10 | AI attribution modeling and creative analytics fit the storefront use case well (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS tied to your ad and store connections (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2021 with priced tiers and a DTC-focused customer base (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -130,6 +81,13 @@ Genuinely useful DTC dashboard consolidation; treat attribution as directional, 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI attribution modeling | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, Meta Ads, Google Ads (8 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -143,10 +101,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Triple Whale?**
 Triple Whale: AI-powered ecommerce analytics and attribution platform for DTC brands. Triple Whale ships with AI attribution modeling. This page documents 8 integrations.
 
+**How much does Triple Whale cost?**
 Triple Whale starts at $59/mo. Conversion $59/mo; Retention $179/mo; Foundation $219/mo; scales with GMV. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Triple Whale worth paying for in 2026?**
 Genuinely useful DTC dashboard consolidation; treat attribution as directional, warehouse for truth.
 
 ## Similar Tools
@@ -161,6 +122,13 @@ Genuinely useful DTC dashboard consolidation; treat attribution as directional, 
 - [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — DTC operators that want a daily attribution answer, dashboards included
 ### Quick Facts
 
+- **Pricing:** From $59/mo
+- **Category:** [Analytics & Attribution](/categories/analytics/)
+- **Founded:** 2021
+- **HQ:** Columbus, OH, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 ## Get the next teardown
@@ -168,6 +136,32 @@ Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Triple Whale is a tool in Analytics & Attribution with paid plans starting at $59/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Northbeam
+
+AI-powered multi-touch attribution and marketing intelligence for ecommerce
+
+Attribution
+
+AI-powered marketing attribution platform connecting ad spend to revenue
+
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+Madgicx
+
+AI-powered Meta ads optimization and creative workflow
+
+Mixpanel
+
+Product analytics platform with AI-powered insights for user behavior tracking
+
+[More Analytics & Attribution Tools →](/categories/analytics/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -186,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/triple-whale/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -289,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/triple-whale/", "breadcrumb": {"@id": "https://martechsignal.com/tools/triple-whale/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/triple-whale/", "breadcrumb": {"@id": "https://martechsignal.com/tools/triple-whale/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

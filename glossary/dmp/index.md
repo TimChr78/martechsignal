@@ -1,22 +1,10 @@
 # Data Management Platform (DMP)
 
-Twilio Segment
-
-Customer data platform for collecting, unifying, and activating customer data
-
-Snowplow
-
-Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Data Management Platform (DMP)
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-07
 
 ## Definition
 
@@ -65,6 +53,18 @@ Sources: [Twilio Segment](https://segment.com) · [Snowplow](https://snowplow.io
 - [DSP](/glossary/dsp/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+Twilio Segment
+
+Customer data platform for collecting, unifying, and activating customer data
+
+Snowplow
+
+Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -75,7 +75,7 @@ Sources: [Twilio Segment](https://segment.com) · [Snowplow](https://snowplow.io
         "@type": "DefinedTerm",
         "name": "Data Management Platform (DMP)",
         "description": "A data management platform collects and organizes audience data, mostly anonymous, cookie-based identifiers, for use in programmatic advertising. Advertisers use DMPs to build audience segments and push them to demand-side platforms for ad targeting.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-07",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -133,7 +133,7 @@ Sources: [Twilio Segment](https://segment.com) · [Snowplow](https://snowplow.io
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dmp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/dmp/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dmp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/dmp/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

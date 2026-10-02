@@ -1,22 +1,10 @@
 # Dynamic Creative Optimization (DCO)
 
-AdCreative.ai
-
-AI platform generating high-converting ad creatives and social media post designs
-
-Anyword
-
-AI copywriting platform with predictive performance scores for marketing content
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Dynamic Creative Optimization (DCO)
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-28
 
 ## Definition
 
@@ -65,6 +53,18 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
 - [GEO](/glossary/geo/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+AdCreative.ai
+
+AI platform generating high-converting ad creatives and social media post designs
+
+Anyword
+
+AI copywriting platform with predictive performance scores for marketing content
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -75,7 +75,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
         "@type": "DefinedTerm",
         "name": "Dynamic Creative Optimization (DCO)",
         "description": "Dynamic creative optimization assembles ad creatives in real time from modular components, headlines, images, calls to action, and selects the combination most likely to perform for each individual viewer. Instead of designing 50 ad variants, you design the components and let the algorithm assemble them.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -133,7 +133,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dco/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/dco/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dco/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/dco/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

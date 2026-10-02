@@ -1,63 +1,5 @@
 # Salesforce CRM review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Starter $25, Professional $80, Enterprise $165 and Unlimited $330 per user/mo all published (the vendor pricing page: [pricing page](https://www.salesforce.com/editions-pricing/overview/), verified 2026-08-28). |
-| Feature depth | 8/10 | Sales, service and marketing coverage with forecasting and pipeline management at platform depth (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
-| Integrations | 8/10 | Slack, Tableau, MuleSoft, Google Workspace, Microsoft 365, Zapier, Snowflake and DocuSign documented (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
-| AI capability | 7/10 | Einstein lead scoring, opportunity insights, Copilot and predictive forecasting across the suite (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
-| Openness | 3/10 | Closed enterprise platform with extensive APIs (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
-| Operational maturity | 9/10 | Founded 1999, the oldest and most deployed CRM in the catalog (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: einstein AI lead scoring | ✗ Closed source - no self-hosting option |
-| ✓ G2 rating 4.4/5 |  |
-| ✓ Native integrations include Slack, Tableau, MuleSoft (8 listed) |  |
-
-**What is Salesforce CRM?**
-Salesforce CRM: Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. Salesforce CRM ships with einstein AI lead scoring. This page documents 8 integrations.
-
-**How much does Salesforce CRM cost?**
-Salesforce CRM starts at $25/mo. Starter $25/user/mo; Professional $80/user/mo; Enterprise $165/user/mo; Unlimited $330/user/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Salesforce CRM a good CRM tool in 2026?**
-Unmatched depth for complex sales organizations; count the total cost before committing mid-market budgets.
-
-- **Pricing:** Enterprise
-- **Category:** [CRM](/categories/crm/)
-- **Third-party ratingsG2 rating:** 4.4/5 (25,415 reviews) · [source](https://www.g2.com/products/salesforce-sales-cloud/reviews)as of 2026-08-28
-- **Founded:** 1999
-- **HQ:** San Francisco, CA, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Salesforce CRM is a tool in CRM with paid plans starting at $25/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-HubSpot CRM
-
-Free AI-powered CRM platform with sales, service, and marketing tools unified
-
-Pipedrive
-
-Sales-focused CRM with AI-powered pipeline management and deal forecasting
-
-Freshsales
-
-AI-powered CRM with built-in phone, email, and chat for sales teams
-
-HubSpot Marketing Hub
-
-All-in-one marketing automation with AI-powered content, email, and campaign tools
-
-Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -70,7 +12,7 @@ Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 
 CRM · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Salesforce CRM →](https://www.salesforce.com/crm/)
 
@@ -81,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 42/60
 
 Salesforce is the enterprise CRM standard with Einstein AI across sales, service and marketing. Every tier is published from $25 to $330 per user, though real costs live in the add-ons.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Starter $25, Professional $80, Enterprise $165 and Unlimited $330 per user/mo all published (the vendor pricing page: [pricing page](https://www.salesforce.com/editions-pricing/overview/), verified 2026-08-28). |
+| Feature depth | 8/10 | Sales, service and marketing coverage with forecasting and pipeline management at platform depth (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
+| Integrations | 8/10 | Slack, Tableau, MuleSoft, Google Workspace, Microsoft 365, Zapier, Snowflake and DocuSign documented (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
+| AI capability | 7/10 | Einstein lead scoring, opportunity insights, Copilot and predictive forecasting across the suite (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
+| Openness | 3/10 | Closed enterprise platform with extensive APIs (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
+| Operational maturity | 9/10 | Founded 1999, the oldest and most deployed CRM in the catalog (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -129,6 +81,13 @@ Unmatched depth for complex sales organizations; count the total cost before com
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: einstein AI lead scoring | ✗ Closed source - no self-hosting option |
+| ✓ G2 rating 4.4/5 |  |
+| ✓ Native integrations include Slack, Tableau, MuleSoft (8 listed) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -143,10 +102,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Salesforce CRM?**
 Salesforce CRM: Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. Salesforce CRM ships with einstein AI lead scoring. This page documents 8 integrations.
 
+**How much does Salesforce CRM cost?**
 Salesforce CRM starts at $25/mo. Starter $25/user/mo; Professional $80/user/mo; Enterprise $165/user/mo; Unlimited $330/user/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Salesforce CRM a good CRM tool in 2026?**
 Unmatched depth for complex sales organizations; count the total cost before committing mid-market budgets.
 
 ## Similar Tools
@@ -161,6 +123,14 @@ Unmatched depth for complex sales organizations; count the total cost before com
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for enterprises that need the CRM everything else integrates with.
 ### Quick Facts
 
+- **Pricing:** Enterprise
+- **Category:** [CRM](/categories/crm/)
+- **Third-party ratingsG2 rating:** 4.4/5 (25,415 reviews) · [source](https://www.g2.com/products/salesforce-sales-cloud/reviews)as of 2026-08-28
+- **Founded:** 1999
+- **HQ:** San Francisco, CA, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 
 ## Get the next teardown
@@ -168,6 +138,30 @@ Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Salesforce CRM is a tool in CRM with paid plans starting at $25/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+Pipedrive
+
+Sales-focused CRM with AI-powered pipeline management and deal forecasting
+
+Freshsales
+
+AI-powered CRM with built-in phone, email, and chat for sales teams
+
+HubSpot Marketing Hub
+
+All-in-one marketing automation with AI-powered content, email, and campaign tools
+
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -186,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/salesforce-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -289,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/salesforce-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/salesforce-crm/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/salesforce-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/salesforce-crm/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

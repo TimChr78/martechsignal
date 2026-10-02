@@ -1,67 +1,5 @@
 # Intercom review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (the vendor pricing page: [pricing page](https://www.intercom.com/pricing), verified 2026-08-28). |
-| Feature depth | 8/10 | Omnichannel messaging, ticketing and an AI agent with copilot cover the service loop (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
-| Integrations | 8/10 | Slack, Salesforce, HubSpot, Zapier, Shopify, Stripe, Zendesk and Segment documented plus an API (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
-| AI capability | 8/10 | Fin resolves conversations autonomously at a published per-resolution price, with routing and summaries behind it (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with strong API coverage (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2011 with enterprise service deployments and public price honesty (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: fin AI agent | ✗ Closed source - no self-hosting option |
-| ✓ G2 rating 4.5/5 |  |
-| ✓ Native integrations include Slack, Salesforce, HubSpot (8 listed) |  |
-
-**What is Intercom?**
-Intercom: AI-first customer service platform with Fin AI agent and omnichannel messaging. Intercom ships with fin AI agent. This page documents 8 integrations.
-
-**How much does Intercom cost?**
-Intercom starts at $29/mo. Essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Intercom worth paying for in 2026?**
-Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly changes the total cost at scale.
-
-- **Pricing:** From $29/mo
-- **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
-- **Third-party ratingsG2 rating:** 4.5/5 (3,855 reviews) · [source](https://www.g2.com/products/intercom/reviews)as of 2026-08-28
-- **Founded:** 2011
-- **HQ:** San Francisco, CA, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Intercom is a tool in Chatbots & Conversational AI with paid plans starting at $29/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Tidio
-
-AI-powered live chat and chatbot platform with Lyro AI agent for customer support
-
-Chatfuel
-
-AI chatbot platform for automating customer conversations on messaging channels
-
-Chatwoot
-
-Open-source customer engagement suite with Captain AI and full self-hosting
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
-
-ChatbotX
-
-Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
-
-Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
-
-[More Chatbots & Conversational AI Tools →](/categories/chatbots/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
@@ -74,7 +12,7 @@ AI-first customer service platform with Fin AI agent and omnichannel messaging
 
 Chatbots & Conversational AI · From $29/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Intercom →](https://www.intercom.com)
 
@@ -85,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 42/60
 
 Intercom's Fin is the strongest public proof that AI resolution beats deflection: you pay $0.99 per resolution and can audit the math monthly. Per-seat pricing on top covers the humans that remain.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (the vendor pricing page: [pricing page](https://www.intercom.com/pricing), verified 2026-08-28). |
+| Feature depth | 8/10 | Omnichannel messaging, ticketing and an AI agent with copilot cover the service loop (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
+| Integrations | 8/10 | Slack, Salesforce, HubSpot, Zapier, Shopify, Stripe, Zendesk and Segment documented plus an API (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
+| AI capability | 8/10 | Fin resolves conversations autonomously at a published per-resolution price, with routing and summaries behind it (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with strong API coverage (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2011 with enterprise service deployments and public price honesty (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -133,6 +81,13 @@ Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly c
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: fin AI agent | ✗ Closed source - no self-hosting option |
+| ✓ G2 rating 4.5/5 |  |
+| ✓ Native integrations include Slack, Salesforce, HubSpot (8 listed) |  |
+
 ## Related concepts
 
 - [Chatbot](/glossary/chatbot/)
@@ -145,10 +100,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Intercom?**
 Intercom: AI-first customer service platform with Fin AI agent and omnichannel messaging. Intercom ships with fin AI agent. This page documents 8 integrations.
 
+**How much does Intercom cost?**
 Intercom starts at $29/mo. Essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Intercom worth paying for in 2026?**
 Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly changes the total cost at scale.
 
 ## Similar Tools
@@ -163,6 +121,14 @@ Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly c
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Support teams that want AI resolutions auditable at $0.99 each
 ### Quick Facts
 
+- **Pricing:** From $29/mo
+- **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
+- **Third-party ratingsG2 rating:** 4.5/5 (3,855 reviews) · [source](https://www.g2.com/products/intercom/reviews)as of 2026-08-28
+- **Founded:** 2011
+- **HQ:** San Francisco, CA, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 ## Get the next teardown
@@ -170,6 +136,34 @@ Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Intercom is a tool in Chatbots & Conversational AI with paid plans starting at $29/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Tidio
+
+AI-powered live chat and chatbot platform with Lyro AI agent for customer support
+
+Chatfuel
+
+AI chatbot platform for automating customer conversations on messaging channels
+
+Chatwoot
+
+Open-source customer engagement suite with Captain AI and full self-hosting
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+ChatbotX
+
+Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
+
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
+
+[More Chatbots & Conversational AI Tools →](/categories/chatbots/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -188,7 +182,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/intercom/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -291,7 +285,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/intercom/", "breadcrumb": {"@id": "https://martechsignal.com/tools/intercom/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/intercom/", "breadcrumb": {"@id": "https://martechsignal.com/tools/intercom/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

@@ -1,26 +1,10 @@
 # AI Agent
 
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-Make
-
-Visual automation platform for building complex workflows with AI agents and apps
-
-Workato
-
-Enterprise AI governance plus integration and automation on one platform
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## AI Agent
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-25
 
 ## Definition
 
@@ -72,6 +56,22 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Workato](http
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Make
+
+Visual automation platform for building complex workflows with AI agents and apps
+
+Workato
+
+Enterprise AI governance plus integration and automation on one platform
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -82,7 +82,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Workato](http
         "@type": "DefinedTerm",
         "name": "AI Agent",
         "description": "An AI agent is software that pursues a goal by taking a sequence of actions on its own: querying tools, making decisions against rules or a model, and adjusting based on results. In marketing, agents buy media, run outreach sequences, reconcile campaign data, and draft responses. The distinction from ordinary automation is agency over decisions: a workflow automation executes steps a human designed; an agent decides the steps.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-25",
         "datePublished": "2026-09-25",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -140,7 +140,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Workato](http
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-agent/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/ai-agent/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-agent/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/ai-agent/#breadcrumb"}, "dateModified": "2026-09-25"}
 ```
 
 ```json

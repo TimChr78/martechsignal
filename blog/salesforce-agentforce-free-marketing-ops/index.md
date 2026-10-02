@@ -1,17 +1,5 @@
 # Agentforce Is Free: What Marketing Ops Can Build
 
-
-| What you get | Foundations (free with Enterprise) | When you start paying |
-| --- | --- | --- |
-| Agentforce actions | 200,000 Flex credits (~10,000 actions) | More credits at ~$0.10 per action list price |
-| Agent skills | One | Additional skills and agents are paid Agentforce |
-| Prompt Builder + generative responses | Included | Scales with your Agentforce contract |
-| Email | 2,000 sends/month, basic analytics | Marketing Cloud tiers when you outgrow it |
-| Segmentation | 5 data streams, 10,000 credits/year | Data 360 expansions |
-| Partner integrations | Free trials, 25+ apps on AgentExchange | Full licenses from each vendor |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 SALESFORCE · AI AGENTS · 9 MIN
 
 ## Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.
@@ -20,7 +8,7 @@ SALESFORCE · AI AGENTS · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.
 
-AUG 07, 2026 · Updated 2026-10-02
+AUG 07, 2026
 
 Filed under [CRM](/categories/crm/)
 
@@ -85,6 +73,16 @@ For a small marketing ops team that currently exports CSVs from three places to 
 
 ## Free versus paid, side by side
 
+
+| What you get | Foundations (free with Enterprise) | When you start paying |
+| --- | --- | --- |
+| Agentforce actions | 200,000 Flex credits (~10,000 actions) | More credits at ~$0.10 per action list price |
+| Agent skills | One | Additional skills and agents are paid Agentforce |
+| Prompt Builder + generative responses | Included | Scales with your Agentforce contract |
+| Email | 2,000 sends/month, basic analytics | Marketing Cloud tiers when you outgrow it |
+| Segmentation | 5 data streams, 10,000 credits/year | Data 360 expansions |
+| Partner integrations | Free trials, 25+ apps on AgentExchange | Full licenses from each vendor |
+
 ## The limitations nobody puts on slide one
 
 The free tier has edges, and pretending otherwise wastes the runway:
@@ -133,6 +131,8 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -164,7 +164,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-08-07",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-07",
   "mainEntityOfPage": "https://martechsignal.com/blog/salesforce-agentforce-free-marketing-ops/",
   "image": {
     "@type": "ImageObject",
@@ -210,7 +210,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/salesforce-agentforce-free-marketing-ops/", "breadcrumb": {"@id": "https://martechsignal.com/blog/salesforce-agentforce-free-marketing-ops/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/salesforce-agentforce-free-marketing-ops/", "breadcrumb": {"@id": "https://martechsignal.com/blog/salesforce-agentforce-free-marketing-ops/#breadcrumb"}, "dateModified": "2026-08-07"}
 ```
 
 ```json

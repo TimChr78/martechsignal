@@ -1,31 +1,5 @@
 # Chatbots & Conversational AI Tools
 
-Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
-
-Open SourceDesk-reviewedOSS
-
-AI chatbot platform for automating customer conversations on messaging channels
-
-From $39/moDesk-reviewed
-
-Open-source customer engagement suite with Captain AI and full self-hosting
-
-Open SourceDesk-reviewedOSS
-
-AI-first customer service platform with Fin AI agent and omnichannel messaging
-
-From $29/moDesk-reviewed
-
-AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
-
-FreemiumDesk-reviewed
-
-AI-powered live chat and chatbot platform with Lyro AI agent for customer support
-
-FreemiumDesk-reviewed
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - Chatbots & Conversational AI
@@ -67,6 +41,32 @@ Vendors in this category: [Chatwoot](https://www.chatwoot.com) · [ChatbotX](htt
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
+
+Open SourceDesk-reviewedOSS
+
+AI chatbot platform for automating customer conversations on messaging channels
+
+From $39/moDesk-reviewed
+
+Open-source customer engagement suite with Captain AI and full self-hosting
+
+Open SourceDesk-reviewedOSS
+
+AI-first customer service platform with Fin AI agent and omnichannel messaging
+
+From $29/moDesk-reviewed
+
+AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
+
+FreemiumDesk-reviewed
+
+AI-powered live chat and chatbot platform with Lyro AI agent for customer support
+
+FreemiumDesk-reviewed
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 {
@@ -106,7 +106,7 @@ Vendors in this category: [Chatwoot](https://www.chatwoot.com) · [ChatbotX](htt
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 6,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -187,7 +187,7 @@ Vendors in this category: [Chatwoot](https://www.chatwoot.com) · [ChatbotX](htt
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/chatbots/", "breadcrumb": {"@id": "https://martechsignal.com/categories/chatbots/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/chatbots/", "breadcrumb": {"@id": "https://martechsignal.com/categories/chatbots/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -1,44 +1,20 @@
-# n8n vs Zapier (2026): self-host or catalog
-
-
-| Tool | Starts at | Pick it when |
-| --- | --- | --- |
-| n8n | Open Source | You want self-hosting, code steps and per-execution pricing over per-task billing. |
-| Zapier | Freemium | You want the deepest app catalog and the least thinking about edge cases. |
-
-
-| Dimension | n8n | Zapier |
-| --- | --- | --- |
-| Pricing | Open Source | Freemium |
-| Open source | yes | no |
-| Integrations listed | 8 listed: Slack, Google Sheets, Gmail, Airtable (+4 more) | 8 listed: Salesforce, HubSpot, Slack, Microsoft Dynamics 365 (+4 more) |
-| Public API | yes | yes |
-
-
-| Scenario | n8n | Zapier |
-| --- | --- | --- |
-| Cost basis | Workflow executions on Cloud; unlimited runs when self-hosted | Successful tasks |
-| Free tier | Community Edition self-hosted, free and unlimited (fair-code) | 100 tasks per month, 2-step Zaps |
-| Entry paid | Cloud Starter 20 EUR/mo billed annually (2.5K executions) | Professional from $19.99/mo |
-| At 10K tasks/mo | Self-hosted: the server and your time. Cloud: executions above plan quota cost extra, so check the current add-on price before you buy. | Task volume rides a price slider and both published prices are starting points, so 10K tasks lands above the $69/mo Team floor. Ask Zapier for the exact rung. |
-| At 100K tasks/mo | Business at 667 EUR/mo covers 40K executions; above that Enterprise is custom-priced, so ask n8n. | Above the Team floor: the price rides the task slider, and 1M-plus sits on Enterprise annual limits. Ask Zapier for the rung. |
-| At 1M tasks/mo | Enterprise custom: n8n publishes no price above Business. Self-hosting stays free plus the server. | Slider tops at 2M tasks with a Custom tier above it; 1M means an Enterprise quote. No public number exists. |
-| Checked | 2026-09-29 | 2026-09-29 |
-
-- **Pick n8n if:** you can host it yourself, run high volume, or need code steps and branching in your workflows.
-- **Pick Zapier if:** a specific niche integration has to work this week and nobody wants to maintain an automation server.
-
-[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+# n8n vs Zapier (2026): self-hosted depth or catalog breadth
 
 ## n8n vs Zapier (2026): self-hosted depth or catalog breadth
+
+Pick n8n if you want self-hosted depth with code steps and workflow-friendly billing. Pick Zapier if you want catalog breadth that works on day one.
 
 The real difference here is not a feature checklist. It is where your automations run and who pays when they work. n8n runs the whole engine on your own hardware under a fair-code license, while Zapier sells access to a hosted platform whose main asset is a catalog of more than 9,000 apps. Both now ship AI agents, so the AI column rarely decides this purchase on its own.
 
 Teams usually arrive at this comparison after hitting one of two walls: a Zapier bill that scales with every successful run, or an n8n instance that needs someone to maintain it. The axis is metered convenience against owned infrastructure, and the catalog numbers below show what each side charges for the same five-step lead-intake workflow.
 
 ## n8n vs Zapier: the quick decision
+
+
+| Tool | Starts at | Pick it when |
+| --- | --- | --- |
+| n8n | Open Source | You want self-hosting, code steps and per-execution pricing over per-task billing. |
+| Zapier | Freemium from $19.99/mo | You want the deepest app catalog and the least thinking about edge cases. |
 
 And for the Make side of the family: [Make vs Zapier](/vs/make-vs-zapier/).
 
@@ -54,9 +30,28 @@ n8n
 
 Zapier
 
+
+| Dimension | n8n | Zapier |
+| --- | --- | --- |
+| Pricing | Open Source | Freemium from $19.99/mo |
+| Open source | yes | no |
+| Integrations listed | 8 listed: Slack, Google Sheets, Gmail, Airtable (+4 more) | 8 listed: Salesforce, HubSpot, Slack, Microsoft Dynamics 365 (+4 more) |
+| Public API | yes | yes |
+
 ## Priced at volume
 
 Cost picture at 10K, 100K and 1M automation tasks per month (derived from published rates, not quoted; checked 2026-09-29). All figures checked 2026-09-29 on vendor pricing pages.
+
+
+| Scenario | n8n | Zapier |
+| --- | --- | --- |
+| Cost basis | Workflow executions on Cloud; unlimited runs when self-hosted | Successful tasks |
+| Free tier | Community Edition self-hosted, free and unlimited (fair-code) | 100 tasks per month, 2-step Zaps |
+| Entry paid | Cloud Starter 20 EUR/mo billed annually (2.5K executions) | Professional from $19.99/mo |
+| At 10K tasks/mo | Self-hosted: the server and your time. Cloud: executions above plan quota cost extra, so check the current add-on price before you buy. | Task volume rides a price slider and both published prices are starting points, so 10K tasks lands above the $69/mo Team floor. Ask Zapier for the exact rung. |
+| At 100K tasks/mo | Business at 667 EUR/mo covers 40K executions; above that Enterprise is custom-priced, so ask n8n. | Above the Team floor: the price rides the task slider, and 1M-plus sits on Enterprise annual limits. Ask Zapier for the rung. |
+| At 1M tasks/mo | Enterprise custom: n8n publishes no price above Business. Self-hosting stays free plus the server. | Slider tops at 2M tasks with a Custom tier above it; 1M means an Enterprise quote. No public number exists. |
+| Checked | 2026-09-29 | 2026-09-29 |
 
 ## Positioning
 
@@ -114,6 +109,9 @@ Neither is right when your automation work is mostly custom code with a schedule
 
 ## Who should pick which
 
+- **Pick n8n if:** you can host it yourself, run high volume, or need code steps and branching in your workflows.
+- **Pick Zapier if:** a specific niche integration has to work this week and nobody wants to maintain an automation server.
+
 ## When does n8n beat Zapier on cost?
 
 At high volume. n8n self-hosted is free beyond the server, while Zapier rides a task slider past the $69 Team floor. The price table on this page shows 10K, 100K and 1M task scenarios with the published rates behind each rung.
@@ -128,7 +126,7 @@ n8n. Code steps and branching are native, and Pipedream is the escape hatch if d
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
-Last verified  · Updated 2026-10-02.
+Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
@@ -147,6 +145,10 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -155,7 +157,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/n8n-vs-zapier/#article",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -238,10 +240,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/n8n-vs-zapier/", "breadcrumb": {"@id": "https://martechsignal.com/vs/n8n-vs-zapier/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

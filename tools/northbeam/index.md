@@ -1,60 +1,5 @@
 # Northbeam review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 3/10 | Custom pricing by data volume on monthly billing, aimed at brands above $50K/mo revenue, with no public tier table (the vendor pricing page: [pricing page](https://www.northbeam.io/pricing), verified 2026-08-28). |
-| Feature depth | 7/10 | MTA, media mix modeling, incrementality testing and predictive budget allocation cover the modern attribution stack (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
-| Integrations | 6/10 | Shopify, Meta, Google, TikTok and Snapchat Ads, Klaviyo, Slack and Snowflake documented plus an API (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
-| AI capability | 7/10 | AI attribution modeling, creative analytics and predictive budget allocation are the product's core math (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with data flowing to your warehouse (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2019 with priced bands and a defined ICP above $50K/mo revenue (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI multi-touch attribution | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Shopify, Meta Ads, Google Ads (8 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
-| ✓ API access for custom integrations |  |
-
-**What is Northbeam?**
-Northbeam: AI-powered multi-touch attribution and marketing intelligence for ecommerce. Northbeam ships with AI multi-touch attribution. This page documents 8 integrations.
-
-**How much does Northbeam cost?**
-Northbeam uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on data volume; monthly billing; best for brands $50K+/mo revenue. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
-
-**Is Northbeam a good Analytics & Attribution tool in 2026?**
-Credible MTA for heavy paid-media spenders; directional signal, not truth, and priced accordingly.
-
-- **Pricing:** Enterprise
-- **Category:** [Analytics & Attribution](/categories/analytics/)
-- **Founded:** 2019
-- **HQ:** New York, NY, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Northbeam is a tool in Analytics & Attribution with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Triple Whale
-
-AI-powered ecommerce analytics and attribution platform for DTC brands
-
-Attribution
-
-AI-powered marketing attribution platform connecting ad spend to revenue
-
-Albert AI
-
-Autonomous AI platform that manages and optimizes digital advertising campaigns
-
-Revealbot (Birch)
-
-AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
-
-[More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
@@ -67,7 +12,7 @@ AI-powered multi-touch attribution and marketing intelligence for ecommerce
 
 Analytics & Attribution · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Northbeam →](https://www.northbeam.io)
 
@@ -78,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 32/60
 
 Northbeam does attribution math for DTC brands serious about incrementality: MMM and MTA under one roof. Custom pricing against data volume means the quote reveals your own scale.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 3/10 | Custom pricing by data volume on monthly billing, aimed at brands above $50K/mo revenue, with no public tier table (the vendor pricing page: [pricing page](https://www.northbeam.io/pricing), verified 2026-08-28). |
+| Feature depth | 7/10 | MTA, media mix modeling, incrementality testing and predictive budget allocation cover the modern attribution stack (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
+| Integrations | 6/10 | Shopify, Meta, Google, TikTok and Snapchat Ads, Klaviyo, Slack and Snowflake documented plus an API (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
+| AI capability | 7/10 | AI attribution modeling, creative analytics and predictive budget allocation are the product's core math (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with data flowing to your warehouse (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2019 with priced bands and a defined ICP above $50K/mo revenue (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -126,6 +81,13 @@ Credible MTA for heavy paid-media spenders; directional signal, not truth, and p
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI multi-touch attribution | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, Meta Ads, Google Ads (8 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -139,10 +101,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Northbeam?**
 Northbeam: AI-powered multi-touch attribution and marketing intelligence for ecommerce. Northbeam ships with AI multi-touch attribution. This page documents 8 integrations.
 
+**How much does Northbeam cost?**
 Northbeam uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on data volume; monthly billing; best for brands $50K+/mo revenue. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
 
+**Is Northbeam a good Analytics & Attribution tool in 2026?**
 Credible MTA for heavy paid-media spenders; directional signal, not truth, and priced accordingly.
 
 ## Similar Tools
@@ -157,6 +122,13 @@ Credible MTA for heavy paid-media spenders; directional signal, not truth, and p
 - [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — DTC brands whose incrementality questions deserve real modeling
 ### Quick Facts
 
+- **Pricing:** Enterprise
+- **Category:** [Analytics & Attribution](/categories/analytics/)
+- **Founded:** 2019
+- **HQ:** New York, NY, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 ## Get the next teardown
@@ -164,6 +136,28 @@ Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Northbeam is a tool in Analytics & Attribution with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Triple Whale
+
+AI-powered ecommerce analytics and attribution platform for DTC brands
+
+Attribution
+
+AI-powered marketing attribution platform connecting ad spend to revenue
+
+Albert AI
+
+Autonomous AI platform that manages and optimizes digital advertising campaigns
+
+Revealbot (Birch)
+
+AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
+
+[More Analytics & Attribution Tools →](/categories/analytics/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -182,7 +176,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/northbeam/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27"
   },
   {
@@ -278,7 +272,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/northbeam/", "breadcrumb": {"@id": "https://martechsignal.com/tools/northbeam/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/northbeam/", "breadcrumb": {"@id": "https://martechsignal.com/tools/northbeam/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

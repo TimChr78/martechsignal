@@ -1,10 +1,8 @@
 # Generative Engine Optimization (GEO): the working guide
 
-[MARTECH**SIGNAL**](/)
-
 ## Generative Engine Optimization (GEO): the working guide
 
-Last verified <time datetime="2026-09-28">2026-09-28</time>.
+Last verified 2026-09-28.
 
 Generative engine optimization is the practice of getting your company cited, quoted, and correctly described inside AI-generated answers, in ChatGPT, Perplexity, Gemini, and AI Overviews. It sits next to SEO rather than replacing it, and the distinction matters for your budget: the same content and authority base feeds both, but the measurement and the tactics diverge once answers stop showing ten blue links.
 
@@ -82,7 +80,7 @@ Sources: [Profound](https://www.tryprofound.com/) · [Profound pricing](https://
 
 
 ```json
-{"@context": "https://schema.org", "@type": "Article", "headline": "Generative Engine Optimization (GEO): the working guide", "url": "https://martechsignal.com/guides/generative-engine-optimization/", "dateModified": "2026-10-02", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/generative-engine-optimization.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/generative-engine-optimization/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/generative-engine-optimization/"}}
+{"@context": "https://schema.org", "@type": "Article", "headline": "Generative Engine Optimization (GEO): the working guide", "url": "https://martechsignal.com/guides/generative-engine-optimization/", "dateModified": "2026-09-28", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/generative-engine-optimization.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/generative-engine-optimization/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/generative-engine-optimization/"}}
 ```
 
 ```json

@@ -1,64 +1,5 @@
 # Anyword review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Starter $39/mo annual ($49 monthly), Data-Driven $79/mo annual ($99 monthly) with a 7-day trial, all published (the vendor pricing page: [pricing page](https://www.anyword.com/pricing), verified 2026-08-28). |
-| Feature depth | 6/10 | Copy generation, brand voice, channel optimization and A/B testing cover the copy workflow around its scoring core (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
-| Integrations | 5/10 | Chrome, HubSpot, WordPress, Zapier, Mailchimp, Google Ads and Meta Ads documented plus an API (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
-| AI capability | 7/10 | The predictive performance score per copy variant is a model advantage competitors describe but rarely quantify (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2019 with priced tiers and a trial that runs without a call (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: predictive performance score | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Chrome, HubSpot, WordPress (7 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is Anyword?**
-Anyword: AI copywriting platform with predictive performance scores for marketing content. Anyword ships with predictive performance score. This page documents 7 integrations.
-
-**How much does Anyword cost?**
-Anyword starts at $39/mo. Starter $39/mo (annual) or $49/mo; Data-Driven $79/mo (annual) or $99/mo; 7-day free trial. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Anyword worth paying for in 2026?**
-Valuable when you need an instant, numbers-based copy check across many channels. Established writers can pass.
-
-- **Pricing:** From $39/mo
-- **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **Founded:** 2019
-- **HQ:** New York, NY, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Anyword is a tool in AI Content & Copywriting with paid plans starting at $39/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Hootsuite
-
-Social media management platform with AI-powered scheduling and analytics
-
-ContentBot
-
-AI content automation platform with workflows for blogs, ads, and social posts
-
-HubSpot Marketing Hub
-
-All-in-one marketing automation with AI-powered content, email, and campaign tools
-
-Jasper
-
-AI marketing content platform for creating on-brand copy, images, and campaigns
-
-LibreTranslate
-
-Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
-
-[More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
@@ -71,7 +12,7 @@ AI copywriting platform with predictive performance scores for marketing content
 
 AI Content & Copywriting · From $39/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Anyword →](https://www.anyword.com)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 35/60
 
 Anyword's predictive performance score is the reason to buy it: generated copy arrives with an expected result attached. The scoring model is the moat, so test it against your own sends before trusting it.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Starter $39/mo annual ($49 monthly), Data-Driven $79/mo annual ($99 monthly) with a 7-day trial, all published (the vendor pricing page: [pricing page](https://www.anyword.com/pricing), verified 2026-08-28). |
+| Feature depth | 6/10 | Copy generation, brand voice, channel optimization and A/B testing cover the copy workflow around its scoring core (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
+| Integrations | 5/10 | Chrome, HubSpot, WordPress, Zapier, Mailchimp, Google Ads and Meta Ads documented plus an API (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
+| AI capability | 7/10 | The predictive performance score per copy variant is a model advantage competitors describe but rarely quantify (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2019 with priced tiers and a trial that runs without a call (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -129,6 +80,13 @@ Valuable when you need an instant, numbers-based copy check across many channels
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: predictive performance score | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Chrome, HubSpot, WordPress (7 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [AI content](/glossary/ai-content-generation/)
@@ -141,10 +99,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Anyword?**
 Anyword: AI copywriting platform with predictive performance scores for marketing content. Anyword ships with predictive performance score. This page documents 7 integrations.
 
+**How much does Anyword cost?**
 Anyword starts at $39/mo. Starter $39/mo (annual) or $49/mo; Data-Driven $79/mo (annual) or $99/mo; 7-day free trial. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Anyword worth paying for in 2026?**
 Valuable when you need an instant, numbers-based copy check across many channels. Established writers can pass.
 
 ## Similar Tools
@@ -159,6 +120,13 @@ Valuable when you need an instant, numbers-based copy check across many channels
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Performance marketers that want a score before paying to publish
 ### Quick Facts
 
+- **Pricing:** From $39/mo
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
+- **Founded:** 2019
+- **HQ:** New York, NY, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 
 ## Get the next teardown
@@ -166,6 +134,32 @@ Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tool
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Anyword is a tool in AI Content & Copywriting with paid plans starting at $39/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Hootsuite
+
+Social media management platform with AI-powered scheduling and analytics
+
+ContentBot
+
+AI content automation platform with workflows for blogs, ads, and social posts
+
+HubSpot Marketing Hub
+
+All-in-one marketing automation with AI-powered content, email, and campaign tools
+
+Jasper
+
+AI marketing content platform for creating on-brand copy, images, and campaigns
+
+LibreTranslate
+
+Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
+
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -184,7 +178,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/anyword/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -287,7 +281,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/anyword/", "breadcrumb": {"@id": "https://martechsignal.com/tools/anyword/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/anyword/", "breadcrumb": {"@id": "https://martechsignal.com/tools/anyword/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

@@ -1,84 +1,5 @@
 # Cordys CRM review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 6/10 | Community edition free and self-hosted with a 1,000 calls/day API cap; Enterprise is published in CNY (30,000/60,000 per year) (the vendor pricing page: [pricing page](https://cordys.cn/pricing.html), verified 2026-09-07). |
-| Feature depth | 6/10 | CRM core with built-in agents, embedded BI and conversational analytics covers the modern SMB promise (vendor documentation: [vendor site](https://cordys.cn), verified 2026-09-28). |
-| Integrations | 4/10 | MaxKB, DataEase, MCP and Docker documented; the MCP server ships 11 tools but there is no marketplace (vendor documentation: [vendor site](https://cordys.cn), verified 2026-09-28). |
-| AI capability | 7/10 | MaxKB sales agents over the API, a server-side AI agent in enterprise and an MCP server with 11 tools (vendor documentation: [vendor site](https://cordys.cn), verified 2026-09-28). |
-| Openness | 8/10 | GPLv3-based licence with full self-hosting in the community edition (the source repository: [repository](https://github.com/1Panel-dev/CordysCRM), verified 2026-09-28). |
-| Operational maturity | 4/10 | Founded 2025; enterprise subscriptions exist but the history is short (vendor documentation: [vendor site](https://cordys.cn), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ GPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ AI capabilities: maxKB sales agents connected over the API |  |
-| ✓ Active public repository (2,758 GitHub stars counted at last check) |  |
-
-**What is Cordys CRM?**
-Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,758 stars.
-
-**How much does Cordys CRM cost?**
-Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,758 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences.
-
-**Is Cordys CRM worth it past the free tier?**
-Watch it for self-hosted CRM needs. The feature ceiling is below Salesforce, but the cost floor is unbeatable.
-
-**Is Cordys CRM really free?**
-Yes. The community edition is free and self-hosted under a GPLv3-based license. The enterprise edition adds paid support tiers with annual subscription, still without per-seat fees.
-
-**Who makes Cordys CRM?**
-FIT2CLOUD, the Chinese software company behind 1Panel, JumpServer, and MaxKB, released Cordys CRM in 2025 as an open-source AI-native CRM for teams that want sales data on their own servers.
-
-**Is Cordys CRM a good Salesforce alternative?**
-For mid-size teams that can self-host a Java stack, it covers leads, contacts, opportunities, contracts, orders, and payments with AI agents built in. It lacks the third-party ecosystem and compliance certifications of Salesforce.
-
-**What do I need to run Cordys CRM?**
-A Linux host with at least 4 CPU cores, 8 GB of RAM, and 100 GB of disk, kernel 3.10 or newer, and Docker 23 or newer recommended. The web UI sits on port 8081 and the MCP server on 8082. MySQL and Redis are embedded by default and can be switched to external instances through cordys-crm.properties. The default login is admin with the password CordysCRM, which you should change before anything touches the network. The backend is Spring Boot with a Vue frontend.
-
-**What can AI agents do through the Cordys MCP server?**
-Eleven documented tools: a global search across objects, add and update for leads, accounts, and contacts, add and update for opportunities, and creation of follow records and follow plans. Auth is via X-Access-Key and X-Secret-Key headers over SSE or Streamable HTTP, and the input schema for each tool is generated from your tenant's own dynamic form fields, including required lists and enum values. CORDYS AI, the built-in agent, is enterprise only and runs server side in the CRM's trust domain, reusing RBAC, so deletes still need manual confirmation.
-
-**How much does Cordys CRM cost for a company?**
-The community edition is free and self-hosted under a GPLv3-based license, with two strings attached: no swapping out the logo or copyright notices, and an API capped at 1,000 calls a day. Enterprise is published at ¥30,000, ¥60,000, and ¥120,000 per year, tiered by company revenue, with unlimited API calls, custom branding, embedded DataEase, and a built-in AI workbench; flagship adds hot-standby and distributed high availability. Budget separately for a DataEase commercial edition if you want BI dashboards embedded.
-
-- **Pricing:** Freemium
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 2758
-- **Founded:** 2025
-- **HQ:** China
-- **API:** Yes
-- **Repository checked:** 2026-10-01
-- **Page updated:** 2026-09-07
-
-**Verdict:** Cordys CRM is a tool in CRM with free and open source. The catalog documents 5 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Twenty
-
-The open-source alternative to Salesforce, designed for AI with modern CRM workflows
-
-DeskcommCRM
-
-Self-hosted open-source CRM with AI agents that sell through WhatsApp
-
-Frappe CRM
-
-Fully featured, open source CRM
-
-Tealium
-
-Enterprise customer data platform with real-time data orchestration and AI
-
-Dolibarr ERP/CRM
-
-Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -91,7 +12,7 @@ Open-source AI CRM with built-in agents, conversational analytics, and private d
 
 CRM · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Cordys CRM →](https://cordys.cn)
 
@@ -102,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 35/60
 
 Cordys CRM is the agent-native open-source CRM for teams that want conversational analytics and private deployment in one stack. The enterprise edition prices in CNY, which tells you where its center of gravity is.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Community edition free and self-hosted with a 1,000 calls/day API cap; Enterprise is published in CNY (30,000/60,000 per year) (the vendor pricing page: [pricing page](https://cordys.cn/pricing.html), verified 2026-09-07). |
+| Feature depth | 6/10 | CRM core with built-in agents, embedded BI and conversational analytics covers the modern SMB promise (vendor documentation: [vendor site](https://cordys.cn), verified 2026-09-28). |
+| Integrations | 4/10 | MaxKB, DataEase, MCP and Docker documented; the MCP server ships 11 tools but there is no marketplace (vendor documentation: [vendor site](https://cordys.cn), verified 2026-09-28). |
+| AI capability | 7/10 | MaxKB sales agents over the API, a server-side AI agent in enterprise and an MCP server with 11 tools (vendor documentation: [vendor site](https://cordys.cn), verified 2026-09-28). |
+| Openness | 8/10 | GPLv3-based licence with full self-hosting in the community edition (the source repository: [repository](https://github.com/1Panel-dev/CordysCRM), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2025; enterprise subscriptions exist but the history is short (vendor documentation: [vendor site](https://cordys.cn), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -146,6 +77,13 @@ Watch it for self-hosted CRM needs. The feature ceiling is below Salesforce, but
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ GPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: maxKB sales agents connected over the API |  |
+| ✓ Active public repository (2,758 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -160,22 +98,31 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Cordys CRM?**
 Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,758 stars.
 
+**How much does Cordys CRM cost?**
 Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,758 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences.
 
+**Is Cordys CRM worth it past the free tier?**
 Watch it for self-hosted CRM needs. The feature ceiling is below Salesforce, but the cost floor is unbeatable.
 
+**Is Cordys CRM really free?**
 Yes. The community edition is free and self-hosted under a GPLv3-based license. The enterprise edition adds paid support tiers with annual subscription, still without per-seat fees.
 
+**Who makes Cordys CRM?**
 FIT2CLOUD, the Chinese software company behind 1Panel, JumpServer, and MaxKB, released Cordys CRM in 2025 as an open-source AI-native CRM for teams that want sales data on their own servers.
 
+**Is Cordys CRM a good Salesforce alternative?**
 For mid-size teams that can self-host a Java stack, it covers leads, contacts, opportunities, contracts, orders, and payments with AI agents built in. It lacks the third-party ecosystem and compliance certifications of Salesforce.
 
+**What do I need to run Cordys CRM?**
 A Linux host with at least 4 CPU cores, 8 GB of RAM, and 100 GB of disk, kernel 3.10 or newer, and Docker 23 or newer recommended. The web UI sits on port 8081 and the MCP server on 8082. MySQL and Redis are embedded by default and can be switched to external instances through cordys-crm.properties. The default login is admin with the password CordysCRM, which you should change before anything touches the network. The backend is Spring Boot with a Vue frontend.
 
+**What can AI agents do through the Cordys MCP server?**
 Eleven documented tools: a global search across objects, add and update for leads, accounts, and contacts, add and update for opportunities, and creation of follow records and follow plans. Auth is via X-Access-Key and X-Secret-Key headers over SSE or Streamable HTTP, and the input schema for each tool is generated from your tenant's own dynamic form fields, including required lists and enum values. CORDYS AI, the built-in agent, is enterprise only and runs server side in the CRM's trust domain, reusing RBAC, so deletes still need manual confirmation.
 
+**How much does Cordys CRM cost for a company?**
 The community edition is free and self-hosted under a GPLv3-based license, with two strings attached: no swapping out the logo or copyright notices, and an API capped at 1,000 calls a day. Enterprise is published at ¥30,000, ¥60,000, and ¥120,000 per year, tiered by company revenue, with unlimited API calls, custom branding, embedded DataEase, and a built-in AI workbench; flagship adds hot-standby and distributed high availability. Budget separately for a DataEase commercial edition if you want BI dashboards embedded.
 
 ## Similar Tools
@@ -187,11 +134,46 @@ The community edition is free and self-hosted under a GPLv3-based license, with 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 2758
+- **Founded:** 2025
+- **HQ:** China
+- **API:** Yes
+- **Repository checked:** 2026-10-01
+- **Page updated:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Cordys CRM is a tool in CRM with free and open source. The catalog documents 5 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Twenty
+
+The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+
+DeskcommCRM
+
+Self-hosted open-source CRM with AI agents that sell through WhatsApp
+
+Frappe CRM
+
+Fully featured, open source CRM
+
+Tealium
+
+Enterprise customer data platform with real-time data orchestration and AI
+
+Dolibarr ERP/CRM
+
+Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -210,7 +192,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/cordys-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",
@@ -361,7 +343,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/cordys-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/cordys-crm/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/cordys-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/cordys-crm/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

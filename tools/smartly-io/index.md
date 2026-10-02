@@ -1,66 +1,5 @@
 # Smartly.io review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 1/10 | No published rates at all: the /pricing URL returns 404 and the only path is a demo request (: [vendor site](https://www.smartly.io), verified 2026-09-28). |
-| Feature depth | 8/10 | AI Studio for creative, predictive budget allocation and Brand Pulse measurement cover production through proof (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
-| Integrations | 8/10 | Ten named buying channels including Meta, Google, TikTok, Amazon, Roku and Spotify plus an API (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
-| AI capability | 7/10 | Scene generation, AI Studio media creation and predictive budget allocation are production features (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise platform (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2013 with a decade of enterprise creative operations (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: smartly AI Studio (image and video generation) | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Meta, Google, TikTok (10 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
-| ✓ API access for custom integrations |  |
-
-**What is Smartly.io?**
-Smartly.io: AI advertising platform spanning creative production, media buying, and measurement. Smartly.io ships with smartly AI Studio (image and video generation). This page documents 10 integrations.
-
-**How much does Smartly.io cost?**
-Smartly.io uses enterprise pricing, so the number depends on your volume and contract. Not published. No rate card appears on the site and the /pricing URL returns a 404; the only path is a demo request via smartly.io/get-demo. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
-
-**Is Smartly.io a good Advertising & Paid Media tool in 2026?**
-Enterprise creative-and-media consolidation that names its platforms and AI features plainly but publishes no pricing at all, so the decision starts and ends with a demo call.
-
-**Which ad platforms does Smartly support?**
-The platforms page lists Amazon, Google, Meta, Pinterest, Reddit, Roku, Snapchat, Spotify, TikTok, and YouTube. Beyond social, Smartly sells connected TV across more than 200 streaming services, open web through the major DSPs, video, and conversational commerce. Reddit is the most recent addition, added in 2025 according to the company timeline.
-
-**What is Smartly AI Studio?**
-The creative AI layer. It prepares images (upscaling, background removal, per-placement cropping), turns static product shots into video with scene generation, video assembly, and text-to-speech, enriches catalogs with generated tags and metadata, and can build a product catalog from a website URL. Smartly also curates a set of third-party enterprise AI tools for image, video, text, and audio. The company reports 1.8 million assets generated and a 27 percent average performance lift, both vendor figures.
-
-- **Pricing:** Enterprise
-- **Category:** [Advertising & Paid Media](/categories/advertising/)
-- **Founded:** 2013
-- **HQ:** Helsinki, Finland
-- **API:** Yes
-- **Last verified:** 2026-09-06
-
-**Verdict:** Smartly.io is a tool in Advertising & Paid Media with custom pricing. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-Albert AI
-
-Autonomous AI platform that manages and optimizes digital advertising campaigns
-
-Madgicx
-
-AI-powered Meta ads optimization and creative workflow
-
-Pencil
-
-AI-powered ad creative generation and performance prediction for paid media
-
-Claude Ads
-
-Paid-media operations skill for Claude Code covering 12 ad platforms
-
-[More Advertising & Paid Media Tools →](/categories/advertising/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
@@ -73,7 +12,7 @@ AI advertising platform spanning creative production, media buying, and measurem
 
 Advertising & Paid Media · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Smartly.io →](https://www.smartly.io)
 
@@ -84,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 Smartly.io spans creative production, buying and measurement in one enterprise contract. Its pricing page 404s on purpose; you are buying a relationship, and the platform is deep enough to justify one.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 1/10 | No published rates at all: the /pricing URL returns 404 and the only path is a demo request (: [vendor site](https://www.smartly.io), verified 2026-09-28). |
+| Feature depth | 8/10 | AI Studio for creative, predictive budget allocation and Brand Pulse measurement cover production through proof (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
+| Integrations | 8/10 | Ten named buying channels including Meta, Google, TikTok, Amazon, Roku and Spotify plus an API (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
+| AI capability | 7/10 | Scene generation, AI Studio media creation and predictive budget allocation are production features (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise platform (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2013 with a decade of enterprise creative operations (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -149,6 +98,13 @@ Enterprise creative-and-media consolidation that names its platforms and AI feat
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: smartly AI Studio (image and video generation) | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Meta, Google, TikTok (10 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [DSP](/glossary/dsp/)
@@ -163,14 +119,19 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Smartly.io?**
 Smartly.io: AI advertising platform spanning creative production, media buying, and measurement. Smartly.io ships with smartly AI Studio (image and video generation). This page documents 10 integrations.
 
+**How much does Smartly.io cost?**
 Smartly.io uses enterprise pricing, so the number depends on your volume and contract. Not published. No rate card appears on the site and the /pricing URL returns a 404; the only path is a demo request via smartly.io/get-demo. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
 
+**Is Smartly.io a good Advertising & Paid Media tool in 2026?**
 Enterprise creative-and-media consolidation that names its platforms and AI features plainly but publishes no pricing at all, so the decision starts and ends with a demo call.
 
+**Which ad platforms does Smartly support?**
 The platforms page lists Amazon, Google, Meta, Pinterest, Reddit, Roku, Snapchat, Spotify, TikTok, and YouTube. Beyond social, Smartly sells connected TV across more than 200 streaming services, open web through the major DSPs, video, and conversational commerce. Reddit is the most recent addition, added in 2025 according to the company timeline.
 
+**What is Smartly AI Studio?**
 The creative AI layer. It prepares images (upscaling, background removal, per-placement cropping), turns static product shots into video with scene generation, video assembly, and text-to-speech, enriches catalogs with generated tags and metadata, and can build a product catalog from a website URL. Smartly also curates a set of third-party enterprise AI tools for image, video, text, and audio. The company reports 1.8 million assets generated and a 27 percent average performance lift, both vendor figures.
 
 ## Similar Tools
@@ -185,6 +146,13 @@ The creative AI layer. It prepares images (upscaling, background removal, per-pl
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Enterprises consolidating creative production and media buying in one contract
 ### Quick Facts
 
+- **Pricing:** Enterprise
+- **Category:** [Advertising & Paid Media](/categories/advertising/)
+- **Founded:** 2013
+- **HQ:** Helsinki, Finland
+- **API:** Yes
+- **Last verified:** 2026-09-06
+
 Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 
 ## Get the next teardown
@@ -192,6 +160,28 @@ Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Smartly.io is a tool in Advertising & Paid Media with custom pricing. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
+Albert AI
+
+Autonomous AI platform that manages and optimizes digital advertising campaigns
+
+Madgicx
+
+AI-powered Meta ads optimization and creative workflow
+
+Pencil
+
+AI-powered ad creative generation and performance prediction for paid media
+
+Claude Ads
+
+Paid-media operations skill for Claude Code covering 12 ad platforms
+
+[More Advertising & Paid Media Tools →](/categories/advertising/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -210,7 +200,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/smartly-io/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-06",
     "datePublished": "2026-07-27"
   },
   {
@@ -322,7 +312,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/smartly-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/smartly-io/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/smartly-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/smartly-io/#breadcrumb"}, "dateModified": "2026-09-06"}
 ```
 
 ```json

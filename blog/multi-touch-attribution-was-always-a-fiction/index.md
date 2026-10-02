@@ -1,7 +1,5 @@
 # Multi-Touch Attribution Was Always a Fiction
 
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 ANALYTICS · ATTRIBUTION · 8 MIN
 
 ## Multi-Touch Attribution Was Always a Fiction
@@ -10,7 +8,7 @@ ANALYTICS · ATTRIBUTION · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Multi-Touch Attribution Was Always a Fiction
 
-AUG 14, 2026 · Updated 2026-10-02
+AUG 14, 2026
 
 Filed under [Analytics & Attribution](/categories/analytics/)
 
@@ -108,6 +106,8 @@ More from the directory: [SISTRIX](/tools/sistrix/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -139,7 +139,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
     }
   },
   "datePublished": "2026-08-14",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-14",
   "mainEntityOfPage": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/",
   "image": {
     "@type": "ImageObject",
@@ -185,7 +185,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/", "breadcrumb": {"@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/", "breadcrumb": {"@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/#breadcrumb"}, "dateModified": "2026-08-14"}
 ```
 
 ```json

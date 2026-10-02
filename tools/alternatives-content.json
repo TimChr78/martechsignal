@@ -3,7 +3,7 @@
   {
    "slug": "hubspot-crm",
    "title": "Best HubSpot CRM alternatives (2026)",
-   "seo_title": "HubSpot CRM Alternatives: 5 Options Compared (2026)",
+   "seo_title": "Best HubSpot CRM alternatives (2026)",
    "meta": "Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive, with real pricing and honest limits.",
    "intro": [
     "HubSpot CRM is free forever, quick to set up, and for a lot of small teams it is the right place to start. The case for switching appears as a company grows: automation, permissions, and reporting depth live on the higher tiers, and Sales Hub runs $20 per seat per month at Starter, $100 at Professional, and $150 at Enterprise. Across sales, service, and marketing seats that adds up fast, and the product is not open source, so there is no way to run it on your own infrastructure.",
@@ -62,7 +62,7 @@
   {
    "slug": "zapier",
    "title": "Best Zapier alternatives (2026)",
-   "seo_title": "Zapier Alternatives: 10 Tools Compared (2026)",
+   "seo_title": "Best Zapier alternatives (2026)",
    "meta": "Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase, with real pricing models and the buyer each one fits.",
    "intro": [
     "Zapier connects more apps than anything else in this directory, and most teams never need to leave it. The teams that search for alternatives usually share one of two complaints. Task metering counts every step and every external connector call, so a twenty step workflow consumes roughly twenty tasks per run and multi-step automations get expensive quickly. Or they need branching logic, self-hosting, or real code inside a step, none of which the linear editor is built for.",
@@ -152,7 +152,7 @@
   {
    "slug": "matomo",
    "title": "Best Matomo alternatives (2026)",
-   "seo_title": "Matomo Alternatives: 5 Analytics Tools Compared (2026)",
+   "seo_title": "Best Matomo alternatives (2026)",
    "meta": "Five Matomo alternatives: lightweight privacy analytics (Plausible, Umami), product suites, and a warehouse pipeline, with honest limits.",
    "intro": [
     "Matomo is the reference point for teams that want web analytics they own, and its core stays free forever under GPL v3 or later. Funnels, cohorts, custom reports, form analytics, A/B testing, heatmaps and session recordings, and multi-channel attribution are paid premium plugins, with On-Premise bundles running 275 euros a month for Team and 3,400 for Enterprise. Cloud starts at 22 euros a month for 50,000 hits and climbs with traffic. The self-hosted stack is a PHP and MySQL application that needs an archiving cron job above a few hundred visits a day.",
@@ -211,7 +211,7 @@
   {
    "slug": "n8n",
    "title": "Best n8n alternatives (2026)",
-   "seo_title": "n8n Alternatives: 12 Tools Compared (2026)",
+   "seo_title": "Best n8n alternatives (2026)",
    "meta": "n8n alternatives including Make, Zapier, Pipedream, and Activepieces, with pricing models and the buyer each one fits.",
    "intro": [
     "n8n earns its users on control: fair-code licensing, self-hosting, code steps inside a visual canvas, and AI agent nodes that call language models inside a larger workflow. The teams that look for alternatives usually land on one of three gripes. The canvas gets heavy once a workflow runs long, debugging favors people who can read the execution data, and the connector library counts in nodes and community packages rather than the thousands of turnkey integrations SaaS catalogs advertise.",
@@ -313,7 +313,7 @@
   {
    "slug": "mailchimp",
    "title": "Mailchimp alternatives (2026): 10 email platforms compared",
-   "seo_title": "Mailchimp alternatives (2026): 10 compared",
+   "seo_title": "Mailchimp alternatives (2026): 10 email platforms compared",
    "meta": "Ten Mailchimp alternatives compared on pricing shape, self-hosting, channels, and migration, with a best-fit and not-for line for each.",
    "date_published": "2026-10-01",
    "date_updated": "2026-10-01",

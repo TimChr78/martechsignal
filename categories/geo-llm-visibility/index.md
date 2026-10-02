@@ -1,5 +1,71 @@
 # GEO & LLM Optimization Tools
 
+- [Home](/)
+- [Tools](/tools/)
+- GEO & LLM Optimization
+## GEO & LLM Optimization Tools
+
+AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overviews. 14 reviewed with dated facts.
+
+14 TOOLS IN THIS CATEGORY
+
+## GEO-NATIVE PLATFORMS***8*
+
+### Profound
+
+### Scrunch
+
+### OtterlyAI
+
+### Rankscale
+
+### Trakkr
+
+### Evertune
+
+### Nimt.ai
+
+### Writesonic
+
+## SUITE MODULES & ADD-ONS***5*
+
+### AccuRanker
+
+### Nightwatch
+
+### SISTRIX
+
+### Ahrefs
+
+### Adobe LLM Optimizer
+
+## OPEN-SOURCE / DIY***1*
+
+### Promptfoo
+
+**Compare:** [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) · **Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) · [GEO, defined](/glossary/geo/)
+
+## Key terms
+
+- [GEO](/glossary/geo/)
+- [AI Visibility](/glossary/ai-search-visibility/)
+- [SEO](/glossary/seo/)
+Full definitions in the [martech glossary](/glossary/).
+
+For twenty years the scoreboard was a blue link and a click. Answer engines changed the deal: ChatGPT or an AI Overview finishes the question, the visit never happens, and your analytics record a clean-looking impression instead of a lost session. The tools here were built for the other half of the job, finding out what the assistants actually say about you and moving those answers.
+
+Two kinds sit in this category. Specialists like Profound, Scrunch, OtterlyAI, Rankscale, Trakkr, Evertune and Nimt do nothing but AI visibility: prompt tracking across engines, citation sources, share of voice against competitors, and in some cases the content fixes too. The established suites arrived later and bolted the same tracking onto products you may already run: AccuRanker's AccuLLM, the SISTRIX AI module, Ahrefs' Brand Radar, Adobe's LLM Optimizer inside Experience Cloud. Pricing splits along the same line. The specialists price by tracked prompts and brands, from EUR 29 a month for OtterlyAI up to USD 800 for Evertune's content-inclusive plan. The suite add-ons travel with plans you may already pay for, and the enterprise end quotes per account. The third route is the developer's: Promptfoo runs your own prompt sets across ChatGPT, Perplexity and the other engines, which is GEO tracking you build and own.
+
+Buying advice: demand prompt-level data, not a vanity score. A share-of-voice number that cannot show which question produced it is decoration. Check how many engines are covered, how often prompts re-run (some plans track weekly, too slow for a news cycle), whether you get the cited sources or just the mention count, and whether the fix step is real work or a to-do list. The category is young and churny, so favor monthly billing until a tool earns the annual discount.
+
+## Which one fits
+
+Vendors in this category: [Promptfoo](https://promptfoo.dev) · [AccuRanker](https://www.accuranker.com) · [Adobe LLM Optimizer](https://business.adobe.com/products/brand-visibility.html)
+
+## Reading before you buy
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
 Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
 EnterpriseDesk-reviewed
@@ -120,72 +186,6 @@ How two decades of SEO work became raw material for the answer engines
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
-- [Home](/)
-- [Tools](/tools/)
-- GEO & LLM Optimization
-## GEO & LLM Optimization Tools
-
-AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overviews. 14 reviewed with dated facts.
-
-14 TOOLS IN THIS CATEGORY
-
-## GEO-NATIVE PLATFORMS***8*
-
-### Profound
-
-### Scrunch
-
-### OtterlyAI
-
-### Rankscale
-
-### Trakkr
-
-### Evertune
-
-### Nimt.ai
-
-### Writesonic
-
-## SUITE MODULES & ADD-ONS***5*
-
-### AccuRanker
-
-### Nightwatch
-
-### SISTRIX
-
-### Ahrefs
-
-### Adobe LLM Optimizer
-
-## OPEN-SOURCE / DIY***1*
-
-### Promptfoo
-
-**Compare:** [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) · **Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) · [GEO, defined](/glossary/geo/)
-
-## Key terms
-
-- [GEO](/glossary/geo/)
-- [AI Visibility](/glossary/ai-search-visibility/)
-- [SEO](/glossary/seo/)
-Full definitions in the [martech glossary](/glossary/).
-
-For twenty years the scoreboard was a blue link and a click. Answer engines changed the deal: ChatGPT or an AI Overview finishes the question, the visit never happens, and your analytics record a clean-looking impression instead of a lost session. The tools here were built for the other half of the job, finding out what the assistants actually say about you and moving those answers.
-
-Two kinds sit in this category. Specialists like Profound, Scrunch, OtterlyAI, Rankscale, Trakkr, Evertune and Nimt do nothing but AI visibility: prompt tracking across engines, citation sources, share of voice against competitors, and in some cases the content fixes too. The established suites arrived later and bolted the same tracking onto products you may already run: AccuRanker's AccuLLM, the SISTRIX AI module, Ahrefs' Brand Radar, Adobe's LLM Optimizer inside Experience Cloud. Pricing splits along the same line. The specialists price by tracked prompts and brands, from EUR 29 a month for OtterlyAI up to USD 800 for Evertune's content-inclusive plan. The suite add-ons travel with plans you may already pay for, and the enterprise end quotes per account. The third route is the developer's: Promptfoo runs your own prompt sets across ChatGPT, Perplexity and the other engines, which is GEO tracking you build and own.
-
-Buying advice: demand prompt-level data, not a vanity score. A share-of-voice number that cannot show which question produced it is decoration. Check how many engines are covered, how often prompts re-run (some plans track weekly, too slow for a news cycle), whether you get the cited sources or just the mention count, and whether the fix step is real work or a to-do list. The category is young and churny, so favor monthly billing until a tool earns the annual discount.
-
-## Which one fits
-
-Vendors in this category: [Promptfoo](https://promptfoo.dev) · [AccuRanker](https://www.accuranker.com) · [Adobe LLM Optimizer](https://business.adobe.com/products/brand-visibility.html)
-
-## Reading before you buy
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 
 ```json
 {
@@ -225,7 +225,7 @@ Vendors in this category: [Promptfoo](https://promptfoo.dev) · [AccuRanker](htt
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 14,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -402,7 +402,7 @@ Vendors in this category: [Promptfoo](https://promptfoo.dev) · [AccuRanker](htt
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/geo-llm-visibility/", "breadcrumb": {"@id": "https://martechsignal.com/categories/geo-llm-visibility/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/geo-llm-visibility/", "breadcrumb": {"@id": "https://martechsignal.com/categories/geo-llm-visibility/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -1,75 +1,5 @@
 # Apache Unomi review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Free self-hosted Apache project with no commercial cloud tier to price (the vendor pricing page: [vendor site](https://unomi.apache.org), verified 2026-09-25). |
-| Feature depth | 5/10 | Profile unification, segmentation and personalization rules cover the CDP baseline (vendor documentation: [vendor site](https://unomi.apache.org), verified 2026-09-28). |
-| Integrations | 4/10 | Karaf, Elasticsearch, MongoDB and GraphQL documented (vendor documentation: [vendor site](https://unomi.apache.org), verified 2026-09-28). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://unomi.apache.org), verified 2026-09-28). |
-| Openness | 10/10 | Apache-2.0 under Apache Foundation governance (the source repository: [repository](https://github.com/apache/unomi), verified 2026-09-28). |
-| Operational maturity | 6/10 | Apache Foundation project status gives it institutional durability (vendor documentation: [vendor site](https://unomi.apache.org), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (375 GitHub stars) - smaller community and plugin ecosystem |
-| ✓ The privacy REST API covers consent, anonymization, and profile deletion out of the box, with no paid tier in front of it. | ✗ No commercial cloud tier and no paid support exist, so every operational problem belongs to your team. |
-| ✓ Running on Karaf as an OSGi bundle makes new conditions and actions pluggable without forking the core. | ✗ The quick start is a discovery setup; production hardening is documented but manual, and there is no default UI for privacy or configuration. |
-| ✓ Elasticsearch or MongoDB for storage and REST with JSON everywhere keeps the integration surface conventional. | ✗ 375 GitHub stars means a small contributor base and little third-party tooling around the core. |
-
-**What is Apache Unomi?**
-Apache Unomi: Apache's open-source customer data platform and personalization engine. The public repository carries 375 stars. Apache Unomi offers a public API for custom integrations.
-
-**How much does Apache Unomi cost?**
-Apache Unomi is open source - Apache-2.0 licensed and free to self-host; the public repository carries 375 stars; native integrations cover Apache Karaf, Elasticsearch, MongoDB. You pay in server time and maintenance, not licences.
-
-**Is Apache Unomi a good self-hosted Personalization & CDP tool in 2026?**
-A real CDP with privacy controls that you fully own and fully operate. The price is Java operations work and a small ecosystem, measured in attention rather than dollars.
-
-**Is Apache Unomi free?**
-Yes. It is an Apache Software Foundation project under the Apache-2.0 licence. There is no commercial cloud tier, no paid plan, and no licence fee.
-
-**What does Unomi need to run?**
-Java and Apache Karaf, with Elasticsearch or MongoDB for storage. The documented quick start uses Docker Compose with Elasticsearch 7.10.2, and the site labels that setup as not suitable for production.
-
-**Does Unomi have an admin UI?**
-Not a marketer-facing one. Unomi is a REST server, and the privacy and configuration interfaces in particular are left to developers to expose, as the project documentation states.
-
-- **Pricing:** Open Source
-- **Category:** [Personalization & CDP](/categories/personalization/)
-- **GitHub:** ★ 375
-- **HQ:** Apache Software Foundation (community-governed)
-- **API:** Yes
-- **Repository checked:** 2026-09-29
-- **Page updated:** 2026-09-25
-
-**Verdict:** Apache Unomi is a tool in Personalization & CDP with free and open source. The catalog documents 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-Tealium
-
-Enterprise customer data platform with real-time data orchestration and AI
-
-Clerk.io
-
-AI-powered ecommerce personalization with search, recommendations, and email
-
-Jitsu
-
-Open-source Segment alternative for event capture and warehouse-first data pipelines
-
-RudderStack
-
-Warehouse-first CDP: open-source Go data plane plus managed routing
-
-Nosto
-
-AI-powered ecommerce personalization with product recommendations and merchandising
-
-[More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
@@ -80,7 +10,7 @@ Apache's open-source customer data platform and personalization engine
 
 Personalization & CDP · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Apache Unomi →](https://unomi.apache.org)
 
@@ -91,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 36/60
 
 Apache Unomi is the neutral CDP: Apache-governed, self-hosted, and no vendor upsell anywhere. What you save in licensing you spend in engineering.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free self-hosted Apache project with no commercial cloud tier to price (the vendor pricing page: [vendor site](https://unomi.apache.org), verified 2026-09-25). |
+| Feature depth | 5/10 | Profile unification, segmentation and personalization rules cover the CDP baseline (vendor documentation: [vendor site](https://unomi.apache.org), verified 2026-09-28). |
+| Integrations | 4/10 | Karaf, Elasticsearch, MongoDB and GraphQL documented (vendor documentation: [vendor site](https://unomi.apache.org), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://unomi.apache.org), verified 2026-09-28). |
+| Openness | 10/10 | Apache-2.0 under Apache Foundation governance (the source repository: [repository](https://github.com/apache/unomi), verified 2026-09-28). |
+| Operational maturity | 6/10 | Apache Foundation project status gives it institutional durability (vendor documentation: [vendor site](https://unomi.apache.org), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -132,6 +72,14 @@ A real CDP with privacy controls that you fully own and fully operate. The price
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (375 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ The privacy REST API covers consent, anonymization, and profile deletion out of the box, with no paid tier in front of it. | ✗ No commercial cloud tier and no paid support exist, so every operational problem belongs to your team. |
+| ✓ Running on Karaf as an OSGi bundle makes new conditions and actions pluggable without forking the core. | ✗ The quick start is a discovery setup; production hardening is documented but manual, and there is no default UI for privacy or configuration. |
+| ✓ Elasticsearch or MongoDB for storage and REST with JSON everywhere keeps the integration surface conventional. | ✗ 375 GitHub stars means a small contributor base and little third-party tooling around the core. |
+
 ## Related concepts
 
 - [Personalization](/glossary/personalization/)
@@ -145,16 +93,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Apache Unomi?**
 Apache Unomi: Apache's open-source customer data platform and personalization engine. The public repository carries 375 stars. Apache Unomi offers a public API for custom integrations.
 
+**How much does Apache Unomi cost?**
 Apache Unomi is open source - Apache-2.0 licensed and free to self-host; the public repository carries 375 stars; native integrations cover Apache Karaf, Elasticsearch, MongoDB. You pay in server time and maintenance, not licences.
 
+**Is Apache Unomi a good self-hosted Personalization & CDP tool in 2026?**
 A real CDP with privacy controls that you fully own and fully operate. The price is Java operations work and a small ecosystem, measured in attention rather than dollars.
 
+**Is Apache Unomi free?**
 Yes. It is an Apache Software Foundation project under the Apache-2.0 licence. There is no commercial cloud tier, no paid plan, and no licence fee.
 
+**What does Unomi need to run?**
 Java and Apache Karaf, with Elasticsearch or MongoDB for storage. The documented quick start uses Docker Compose with Elasticsearch 7.10.2, and the site labels that setup as not suitable for production.
 
+**Does Unomi have an admin UI?**
 Not a marketer-facing one. Unomi is a REST server, and the privacy and configuration interfaces in particular are left to developers to expose, as the project documentation states.
 
 ## Similar Tools
@@ -169,6 +123,14 @@ Not a marketer-facing one. Unomi is a REST server, and the privacy and configura
 - [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best when data-residency rules and European-consent governance drive the architecture.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Personalization & CDP](/categories/personalization/)
+- **GitHub:** ★ 375
+- **HQ:** Apache Software Foundation (community-governed)
+- **API:** Yes
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-09-25
+
 Related guides: [Cdp](/best/cdp/)
 
 ## Get the next teardown
@@ -176,6 +138,32 @@ Related guides: [Cdp](/best/cdp/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Apache Unomi is a tool in Personalization & CDP with free and open source. The catalog documents 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+Tealium
+
+Enterprise customer data platform with real-time data orchestration and AI
+
+Clerk.io
+
+AI-powered ecommerce personalization with search, recommendations, and email
+
+Jitsu
+
+Open-source Segment alternative for event capture and warehouse-first data pipelines
+
+RudderStack
+
+Warehouse-first CDP: open-source Go data plane plus managed routing
+
+Nosto
+
+AI-powered ecommerce personalization with product recommendations and merchandising
+
+[More Personalization & CDP Tools →](/categories/personalization/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -194,7 +182,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/apache-unomi/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -321,7 +309,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/apache-unomi/", "breadcrumb": {"@id": "https://martechsignal.com/tools/apache-unomi/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/apache-unomi/", "breadcrumb": {"@id": "https://martechsignal.com/tools/apache-unomi/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

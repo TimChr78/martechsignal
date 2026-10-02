@@ -1,77 +1,5 @@
 # React Email Editor pricing
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Free builder tier, then Launch $250/mo, Scale $750/mo, Optimize $2,000/mo published with 10% annual saving and 14-day trials (the vendor pricing page: [pricing page](https://unlayer.com/pricing), verified 2026-09-06). |
-| Feature depth | 6/10 | Drag-and-drop editing across four frameworks plus template import covers the component job; the AI editing and generation layers sit on the paid plans (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
-| Integrations | 5/10 | React, Angular, Vue and vanilla JS embeds, a Cloud API and OpenAI and Anthropic connections are documented (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
-| AI capability | 7/10 | AI chat editing, image generation, template import and an Unlayer MCP server with Agent Skills for coding agents (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
-| Openness | 8/10 | MIT-licensed core; the hosted AI services are what you pay for (the source repository: [repository](https://github.com/unlayer/react-email-editor), verified 2026-09-28). |
-| Operational maturity | 6/10 | A commercial component vendor with priced tiers and trials behind the OSS core (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $250/mo |
-| ✓ AI capabilities: AI Assistant chat editing |  |
-| ✓ Active public repository (5,232 GitHub stars counted at last check) |  |
-| ✓ Native integrations include React, Angular, Vue (7 listed) |  |
-
-**What is React Email Editor?**
-React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,232 stars.
-
-**How much does React Email Editor cost?**
-React Email Editor has a free tier; paid plans start at $250/mo. Free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
-
-**Is React Email Editor a good self-hosted Email Marketing tool in 2026?**
-The fastest route to a real email builder inside a React app, and an honest one as long as you read the MIT license as covering the wrapper rather than the editor.
-
-**Is React Email Editor really open source?**
-The npm package is, under MIT, with about {stars:react-email-editor} GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
-
-**What are Unlayer's paid plans?**
-Free at $0, Launch at $250 per month, Scale at $750 per month, and Optimize at $2,000 per month, with custom Enterprise pricing. Annual billing saves 10 percent across the paid tiers, every paid plan includes a 14-day trial, and add-on credit packs for AI, exports, inbox previews, and bandwidth start at $50 per month and top out at $2,000.
-
-**Does React Email Editor support AMP emails?**
-Yes, but only on the Optimize plan. You enable it with amp: true in the options, preview the AMP version inside the editor, and export AMP alongside standard HTML. The carousel block requires AMP in email designs, which is why it is a top-tier feature.
-
-**Should I build my own editor on GrapesJS or MJML instead?**
-If you need a fully open pipeline with no third-party dependency, yes, and you should budget for it: email client compatibility, a design schema, undo history, and preview tooling are the hard parts, and they are what the $250 to $2,000 per month buys. Unlayer has no MJML export, so a strict MJML workflow means rolling your own. Teams that can absorb that engineering cost should; product teams that cannot will ship faster with the wrapper.
-
-- **Pricing:** Open Source
-- **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 5232
-- **API:** No
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-06
-
-**Verdict:** React Email Editor is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 7 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-Resend
-
-Developer-first email API built around React Email, batch sending, and agent tooling
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
-
-Codex SEO
-
-Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-
-Notifuse
-
-Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
-
-BillionMail
-
-Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
-
-[More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
@@ -84,7 +12,7 @@ Drag-n-Drop Email Editor Component for React.js
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit React Email Editor →](https://unlayer.com/)
 
@@ -95,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 39/60
 
 The builder is free and MIT-licensed, which is the right way to sell a component. The hosted AI features land at $250/mo and up, so the real cost is where you draw the line.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Free builder tier, then Launch $250/mo, Scale $750/mo, Optimize $2,000/mo published with 10% annual saving and 14-day trials (the vendor pricing page: [pricing page](https://unlayer.com/pricing), verified 2026-09-06). |
+| Feature depth | 6/10 | Drag-and-drop editing across four frameworks plus template import covers the component job; the AI editing and generation layers sit on the paid plans (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
+| Integrations | 5/10 | React, Angular, Vue and vanilla JS embeds, a Cloud API and OpenAI and Anthropic connections are documented (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
+| AI capability | 7/10 | AI chat editing, image generation, template import and an Unlayer MCP server with Agent Skills for coding agents (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
+| Openness | 8/10 | MIT-licensed core; the hosted AI services are what you pay for (the source repository: [repository](https://github.com/unlayer/react-email-editor), verified 2026-09-28). |
+| Operational maturity | 6/10 | A commercial component vendor with priced tiers and trials behind the OSS core (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -162,6 +100,14 @@ The fastest route to a real email builder inside a React app, and an honest one 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $250/mo |
+| ✓ AI capabilities: AI Assistant chat editing |  |
+| ✓ Active public repository (5,232 GitHub stars counted at last check) |  |
+| ✓ Native integrations include React, Angular, Vue (7 listed) |  |
+
 ## Related concepts
 
 - [Email sequence](/glossary/email-sequence/)
@@ -174,18 +120,25 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is React Email Editor?**
 React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,232 stars.
 
+**How much does React Email Editor cost?**
 React Email Editor has a free tier; paid plans start at $250/mo. Free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
 
+**Is React Email Editor a good self-hosted Email Marketing tool in 2026?**
 The fastest route to a real email builder inside a React app, and an honest one as long as you read the MIT license as covering the wrapper rather than the editor.
 
+**Is React Email Editor really open source?**
 The npm package is, under MIT, with about {stars:react-email-editor} GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
 
+**What are Unlayer's paid plans?**
 Free at $0, Launch at $250 per month, Scale at $750 per month, and Optimize at $2,000 per month, with custom Enterprise pricing. Annual billing saves 10 percent across the paid tiers, every paid plan includes a 14-day trial, and add-on credit packs for AI, exports, inbox previews, and bandwidth start at $50 per month and top out at $2,000.
 
+**Does React Email Editor support AMP emails?**
 Yes, but only on the Optimize plan. You enable it with amp: true in the options, preview the AMP version inside the editor, and export AMP alongside standard HTML. The carousel block requires AMP in email designs, which is why it is a top-tier feature.
 
+**Should I build my own editor on GrapesJS or MJML instead?**
 If you need a fully open pipeline with no third-party dependency, yes, and you should budget for it: email client compatibility, a design schema, undo history, and preview tooling are the hard parts, and they are what the $250 to $2,000 per month buys. Unlayer has no MJML export, so a strict MJML workflow means rolling your own. Teams that can absorb that engineering cost should; product teams that cannot will ship faster with the wrapper.
 
 ## Similar Tools
@@ -200,6 +153,13 @@ If you need a fully open pipeline with no third-party dependency, yes, and you s
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Developer teams that want email templates versioned as code
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Email Marketing](/categories/email-marketing/)
+- **GitHub:** ★ 5232
+- **API:** No
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-06
+
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 ## Get the next teardown
@@ -207,6 +167,32 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** React Email Editor is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 7 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
+Resend
+
+Developer-first email API built around React Email, batch sending, and agent tooling
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+Codex SEO
+
+Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+
+Notifuse
+
+Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+
+BillionMail
+
+Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+
+[More Email Marketing Tools →](/categories/email-marketing/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

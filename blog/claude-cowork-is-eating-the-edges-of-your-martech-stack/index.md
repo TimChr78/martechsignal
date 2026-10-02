@@ -1,7 +1,5 @@
 # Claude Cowork is eating the edges of your martech stack
 
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 AI · MARKETING OPS · 8 MIN
 
 ## Claude Cowork is eating the edges of your martech stack
@@ -10,7 +8,7 @@ AI · MARKETING OPS · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Claude Cowork is eating the edges of your martech stack
 
-JUL 30, 2026 · Updated 2026-10-02
+JUL 30, 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 
@@ -114,6 +112,8 @@ More from the directory: [EspoCRM](/tools/espocrm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -145,7 +145,7 @@ More from the directory: [EspoCRM](/tools/espocrm/)
     }
   },
   "datePublished": "2026-07-30",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-07-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/",
   "image": {
     "@type": "ImageObject",
@@ -191,7 +191,7 @@ More from the directory: [EspoCRM](/tools/espocrm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/#breadcrumb"}, "dateModified": "2026-07-30"}
 ```
 
 ```json

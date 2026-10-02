@@ -1,74 +1,5 @@
 # advertools review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 10/10 | Free MIT-licensed Python package with nothing else to buy (the vendor pricing page: [vendor site](https://advertools.readthedocs.io), verified 2026-09-25). |
-| Feature depth | 5/10 | SEO and ad analysis functions in pandas DataFrames cover analyst workflows without a UI (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
-| Integrations | 5/10 | Python pandas, Scrapy and the Google, YouTube and Twitter/X APIs documented (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
-| AI capability | 4/10 | A Claude SERP analytics module landed in v0.18.0, the one AI-facing surface (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with pure Python transparency (the source repository: [repository](https://github.com/eliasdabbas/advertools), verified 2026-09-28). |
-| Operational maturity | 5/10 | Community-maintained with steady releases (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ There is no interface; every task starts in a notebook or a script. |
-| ✓ AI capabilities: claude SERP analytics module (advertools.serp_claude), added in v0.18.0 | ✗ SERP and social functions call external APIs, so quotas and billing come from Google, YouTube and Twitter rather than from advertools. |
-| ✓ Active public repository (1,470 GitHub stars counted at last check) | ✗ Docs are function-by-function reference pages; guided end-to-end workflows are sparse. |
-| ✓ Native integrations include Python pandas, Scrapy, Google Search API (5 listed) |  |
-| ✓ MIT licensed and pip installable; the analysis functions themselves need no account or key. |  |
-| ✓ Crawler built on Scrapy, so crawl behavior is fully configurable. |  |
-| ✓ v0.18.0 added Claude SERP analytics, useful for LLM answer data. |  |
-
-**What is advertools?**
-advertools: Python toolkit for SEO and advertising analysis in pandas DataFrames. advertools ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0. The public repository carries 1,470 stars.
-
-**How much does advertools cost?**
-advertools is open source - MIT licensed and free to self-host; the public repository carries 1,470 stars; native integrations cover Python pandas, Scrapy, Google Search API. You pay in server time and maintenance, not licences.
-
-**Is advertools a good self-hosted Advertising & Paid Media tool in 2026?**
-A sharp set of Python functions for people who live in notebooks. No UI, no account, and everything ends up in a DataFrame you build reports from yourself.
-
-**Do I need to know Python?**
-Yes. The package returns pandas DataFrames, so the work happens in notebooks and scripts rather than in a web dashboard.
-
-**Can it help with GEO and AI visibility work?**
-It is a data toolkit rather than a tracking dashboard, but keyword generation, SERP parsing and the Claude SERP analytics module added in v0.18.0 cover the data-preparation side of that work.
-
-- **Pricing:** Open Source
-- **Category:** [Advertising & Paid Media](/categories/advertising/)
-- **GitHub:** ★ 1470
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-25
-
-**Verdict:** advertools is a tool in Advertising & Paid Media with free and open source. The catalog documents 1 AI feature, 5 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
-
-AccuRanker
-
-Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
-
-Albert AI
-
-Autonomous AI platform that manages and optimizes digital advertising campaigns
-
-Google Ads + Meta Ads + GA4 MCP
-
-MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
-
-OpenClaw Marketing Skills
-
-37 marketing skills for OpenClaw agents with live data connectors
-
-Madgicx
-
-AI-powered Meta ads optimization and creative workflow
-
-[More Advertising & Paid Media Tools →](/categories/advertising/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
@@ -79,7 +10,7 @@ Python toolkit for SEO and advertising analysis in pandas DataFrames
 
 Advertising & Paid Media · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit advertools →](https://advertools.readthedocs.io)
 
@@ -90,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 38/60
 
 advertools is a pandas-first analyst's toolkit, and the new Claude SERP module shows where it is heading. If your team does not write Python, this shelf is closed to you.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free MIT-licensed Python package with nothing else to buy (the vendor pricing page: [vendor site](https://advertools.readthedocs.io), verified 2026-09-25). |
+| Feature depth | 5/10 | SEO and ad analysis functions in pandas DataFrames cover analyst workflows without a UI (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
+| Integrations | 5/10 | Python pandas, Scrapy and the Google, YouTube and Twitter/X APIs documented (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
+| AI capability | 4/10 | A Claude SERP analytics module landed in v0.18.0, the one AI-facing surface (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with pure Python transparency (the source repository: [repository](https://github.com/eliasdabbas/advertools), verified 2026-09-28). |
+| Operational maturity | 5/10 | Community-maintained with steady releases (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -125,6 +66,17 @@ A sharp set of Python functions for people who live in notebooks. No UI, no acco
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ There is no interface; every task starts in a notebook or a script. |
+| ✓ AI capabilities: claude SERP analytics module (advertools.serp_claude), added in v0.18.0 | ✗ SERP and social functions call external APIs, so quotas and billing come from Google, YouTube and Twitter rather than from advertools. |
+| ✓ Active public repository (1,470 GitHub stars counted at last check) | ✗ Docs are function-by-function reference pages; guided end-to-end workflows are sparse. |
+| ✓ Native integrations include Python pandas, Scrapy, Google Search API (5 listed) |  |
+| ✓ MIT licensed and pip installable; the analysis functions themselves need no account or key. |  |
+| ✓ Crawler built on Scrapy, so crawl behavior is fully configurable. |  |
+| ✓ v0.18.0 added Claude SERP analytics, useful for LLM answer data. |  |
+
 ## Related concepts
 
 - [DSP](/glossary/dsp/)
@@ -139,14 +91,19 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is advertools?**
 advertools: Python toolkit for SEO and advertising analysis in pandas DataFrames. advertools ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0. The public repository carries 1,470 stars.
 
+**How much does advertools cost?**
 advertools is open source - MIT licensed and free to self-host; the public repository carries 1,470 stars; native integrations cover Python pandas, Scrapy, Google Search API. You pay in server time and maintenance, not licences.
 
+**Is advertools a good self-hosted Advertising & Paid Media tool in 2026?**
 A sharp set of Python functions for people who live in notebooks. No UI, no account, and everything ends up in a DataFrame you build reports from yourself.
 
+**Do I need to know Python?**
 Yes. The package returns pandas DataFrames, so the work happens in notebooks and scripts rather than in a web dashboard.
 
+**Can it help with GEO and AI visibility work?**
 It is a data toolkit rather than a tracking dashboard, but keyword generation, SERP parsing and the Claude SERP analytics module added in v0.18.0 cover the data-preparation side of that work.
 
 ## Similar Tools
@@ -161,6 +118,13 @@ It is a data toolkit rather than a tracking dashboard, but keyword generation, S
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Best for advertising & paid media teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Advertising & Paid Media](/categories/advertising/)
+- **GitHub:** ★ 1470
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-25
+
 ### Pricing
 
 Free MIT-licensed Python package
@@ -172,6 +136,32 @@ Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** advertools is a tool in Advertising & Paid Media with free and open source. The catalog documents 1 AI feature, 5 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
+
+AccuRanker
+
+Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+
+Albert AI
+
+Autonomous AI platform that manages and optimizes digital advertising campaigns
+
+Google Ads + Meta Ads + GA4 MCP
+
+MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+
+OpenClaw Marketing Skills
+
+37 marketing skills for OpenClaw agents with live data connectors
+
+Madgicx
+
+AI-powered Meta ads optimization and creative workflow
+
+[More Advertising & Paid Media Tools →](/categories/advertising/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

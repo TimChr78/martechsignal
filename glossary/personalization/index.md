@@ -1,26 +1,10 @@
 # Website Personalization
 
-Clerk.io
-
-AI-powered ecommerce personalization with search, recommendations, and email
-
-Bloomreach
-
-AI-powered commerce experience platform with search, personalization, and CDP
-
-Amplitude
-
-AI-powered digital analytics platform for product and marketing teams
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Website Personalization
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-28
 
 ## Definition
 
@@ -64,6 +48,22 @@ Sources: [Clerk.io](https://www.clerk.io) · [Bloomreach](https://www.bloomreach
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+Clerk.io
+
+AI-powered ecommerce personalization with search, recommendations, and email
+
+Bloomreach
+
+AI-powered commerce experience platform with search, personalization, and CDP
+
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -74,7 +74,7 @@ Sources: [Clerk.io](https://www.clerk.io) · [Bloomreach](https://www.bloomreach
         "@type": "DefinedTerm",
         "name": "Website Personalization",
         "description": "Website personalization changes what a visitor sees based on who they are or what they've done before. A returning customer sees product recommendations based on past purchases. A visitor from a healthcare company sees healthcare case studies. A first-time visitor sees a different hero section than someone on their fifth visit.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -132,7 +132,7 @@ Sources: [Clerk.io](https://www.clerk.io) · [Bloomreach](https://www.bloomreach
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/personalization/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/personalization/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/personalization/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/personalization/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

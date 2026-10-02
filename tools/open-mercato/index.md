@@ -1,76 +1,5 @@
 # Open Mercato review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 6/10 | MIT core free self-hosted; the Enterprise Edition (SSO, MFA, record locks) exists with no published pricing (the vendor pricing page: [vendor site](https://www.openmercato.com/), verified 2026-09-07). |
-| Feature depth | 6/10 | Commerce, CRM and ERP building blocks with an AI development harness cover the platform scope (vendor documentation: [vendor site](https://www.openmercato.com/), verified 2026-09-28). |
-| Integrations | 2/10 | No named integrations in the catalog, though an API is documented (vendor documentation: [vendor site](https://www.openmercato.com/), verified 2026-09-28). |
-| AI capability | 7/10 | A 192-case evaluation harness, ~70-tool MCP server and LLM email triage with human approval gate (vendor documentation: [vendor site](https://www.openmercato.com/), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/open-mercato/open-mercato), verified 2026-09-28). |
-| Operational maturity | 4/10 | Founded 2025 with a commercial Enterprise layer forming (vendor documentation: [vendor site](https://www.openmercato.com/), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ API access for custom integrations |  |
-| ✓ AI capabilities: AI development harness with 192 evaluation cases |  |
-| ✓ Active public repository (1,792 GitHub stars counted at last check) |  |
-
-**What is Open Mercato?**
-Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,792 stars.
-
-**How much does Open Mercato cost?**
-Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,792 stars. You pay in server time and maintenance, not licences.
-
-**Is Open Mercato a good self-hosted Agent Skills tool in 2026?**
-A credible AI-first foundation for engineering-led commerce and CRM builds; early, fast-moving, and not a turnkey product.
-
-**Is Open Mercato a ready-to-use CRM or ERP?**
-No, and the project says so itself: it is a foundation framework, with the pitch that business modules and conventions are pre-decided so you start at 80% and build the differentiating 20%. The core CRM module does ship with people, companies, deals, and activities, plus a customer self-service portal, and a demo with sample CRM data loads during yarn initialize, so you can see working software at demo.openmercato.com. But the intended comparison is against starting a Next.js commerce project from scratch, not against Shopify or a configured CRM, and evaluation should assume engineering work.
-
-**How does Open Mercato work with Claude Code, Codex, or Cursor?**
-The framework is built around agent tooling. The repo's AGENTS.md defines a spec-first workflow (designs live in .ai/specs/ as dated markdown files) with Always, Ask-First, and Never rules, and CLAUDE.md simply points at it. The standalone project generator emits an AI development harness with guides, skills, and tool-specific configuration for Codex, Claude Code, and Cursor, backed by 192 evaluation cases and a sandboxed release gate. At runtime, a documented MCP server exposes about 70 tools for agent access, and shared skills install with npx skills add open-mercato/skills. In-product, an AI framework provides typed module agents with a mutation-approval gate before AI-driven changes land.
-
-**What does Open Mercato cost to run?**
-The core is MIT-licensed and free to self-host, including all documented core modules, so costs are your infrastructure (PostgreSQL 17 with pgvector, Redis 7, Meilisearch) and engineering time. A separate Enterprise Edition package adds SSO with OIDC and SCIM 2.0, MFA, sudo re-authentication, and record locks, and ships outside the MIT core; no price is published anywhere on the site or docs. The site mentions community and commercial support tiers without amounts, so enterprise pricing and support are quote-based by absence of a published list.
-
-- **Pricing:** Open Source
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 1792
-- **Founded:** 2025
-- **HQ:** Open source
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** Open Mercato is a tool in Agent Skills with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-DeskcommCRM
-
-Self-hosted open-source CRM with AI agents that sell through WhatsApp
-
-Budibase
-
-Open-source operations platform for building AI agents, apps and automations on your own data
-
-Scrunch
-
-The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
-
-Intercom
-
-AI-first customer service platform with Fin AI agent and omnichannel messaging
-
-AI Business Skills
-
-63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -83,7 +12,7 @@ Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Open Mercato →](https://www.openmercato.com/)
 
@@ -94,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 Open Mercato is a TypeScript foundation for AI-built commerce and CRM, with a 192-case evaluation harness as its trust argument. The MIT core is free; the Enterprise package prices behind a conversation.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | MIT core free self-hosted; the Enterprise Edition (SSO, MFA, record locks) exists with no published pricing (the vendor pricing page: [vendor site](https://www.openmercato.com/), verified 2026-09-07). |
+| Feature depth | 6/10 | Commerce, CRM and ERP building blocks with an AI development harness cover the platform scope (vendor documentation: [vendor site](https://www.openmercato.com/), verified 2026-09-28). |
+| Integrations | 2/10 | No named integrations in the catalog, though an API is documented (vendor documentation: [vendor site](https://www.openmercato.com/), verified 2026-09-28). |
+| AI capability | 7/10 | A 192-case evaluation harness, ~70-tool MCP server and LLM email triage with human approval gate (vendor documentation: [vendor site](https://www.openmercato.com/), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/open-mercato/open-mercato), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2025 with a commercial Enterprise layer forming (vendor documentation: [vendor site](https://www.openmercato.com/), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -151,6 +90,14 @@ A credible AI-first foundation for engineering-led commerce and CRM builds; earl
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ API access for custom integrations |  |
+| ✓ AI capabilities: AI development harness with 192 evaluation cases |  |
+| ✓ Active public repository (1,792 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -164,16 +111,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Open Mercato?**
 Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,792 stars.
 
+**How much does Open Mercato cost?**
 Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,792 stars. You pay in server time and maintenance, not licences.
 
+**Is Open Mercato a good self-hosted Agent Skills tool in 2026?**
 A credible AI-first foundation for engineering-led commerce and CRM builds; early, fast-moving, and not a turnkey product.
 
+**Is Open Mercato a ready-to-use CRM or ERP?**
 No, and the project says so itself: it is a foundation framework, with the pitch that business modules and conventions are pre-decided so you start at 80% and build the differentiating 20%. The core CRM module does ship with people, companies, deals, and activities, plus a customer self-service portal, and a demo with sample CRM data loads during yarn initialize, so you can see working software at demo.openmercato.com. But the intended comparison is against starting a Next.js commerce project from scratch, not against Shopify or a configured CRM, and evaluation should assume engineering work.
 
+**How does Open Mercato work with Claude Code, Codex, or Cursor?**
 The framework is built around agent tooling. The repo's AGENTS.md defines a spec-first workflow (designs live in .ai/specs/ as dated markdown files) with Always, Ask-First, and Never rules, and CLAUDE.md simply points at it. The standalone project generator emits an AI development harness with guides, skills, and tool-specific configuration for Codex, Claude Code, and Cursor, backed by 192 evaluation cases and a sandboxed release gate. At runtime, a documented MCP server exposes about 70 tools for agent access, and shared skills install with npx skills add open-mercato/skills. In-product, an AI framework provides typed module agents with a mutation-approval gate before AI-driven changes land.
 
+**What does Open Mercato cost to run?**
 The core is MIT-licensed and free to self-host, including all documented core modules, so costs are your infrastructure (PostgreSQL 17 with pgvector, Redis 7, Meilisearch) and engineering time. A separate Enterprise Edition package adds SSO with OIDC and SCIM 2.0, MFA, sudo re-authentication, and record locks, and ships outside the MIT core; no price is published anywhere on the site or docs. The site mentions community and commercial support tiers without amounts, so enterprise pricing and support are quote-based by absence of a published list.
 
 ## Similar Tools
@@ -185,11 +138,46 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **GitHub:** ★ 1792
+- **Founded:** 2025
+- **HQ:** Open source
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Open Mercato is a tool in Agent Skills with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+DeskcommCRM
+
+Self-hosted open-source CRM with AI agents that sell through WhatsApp
+
+Budibase
+
+Open-source operations platform for building AI agents, apps and automations on your own data
+
+Scrunch
+
+The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+
+Intercom
+
+AI-first customer service platform with Fin AI agent and omnichannel messaging
+
+AI Business Skills
+
+63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

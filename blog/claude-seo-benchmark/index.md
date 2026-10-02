@@ -1,17 +1,5 @@
 # Claude SEO benchmark: the living score tracker
 
-
-| Date | Grader | Score | What it measured |
-| --- | --- | --- | --- |
-| Aug 24 | v2.2.4 | 83 | First full audit of our own production domain |
-| Aug 26 | v2.2.5 | 61 | Same site, stricter gates, a 22-point drop |
-| Aug 27 | v2.2.5 | 74.6 | One day of remediation, same grader |
-| Sep 8 | v2.2.6 | 80 | Two more weeks of fixes, re-scored |
-| Sep 18 | v2.3.1 | 76.6 | Four graders on one site, plus a 5/100 that mattered more |
-| Sep 25-27 | v2.4.0 | 79.7, 79, 80, 80 | One run per remediation cycle; the latest breaks 92 technical / 82 content |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 AI · SEO · 3 MIN
 
 ## Claude SEO benchmark: every score we have earned, and what each one measured
@@ -22,13 +10,23 @@ Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we ha
 
 [Home](/) · [Blog](/blog/) · Claude SEO benchmark: every score we have earned, and what each one measured
 
-SEP 27, 2026 · Updated 2026-10-02
+SEP 27, 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
 Five grader generations have scored martechsignal.com since August. This page is the living record: every score, the grader that produced it, and the one thing each run actually measured. It replaces three earlier posts on the same thread, which now point here.
 
 ## The score timeline
+
+
+| Date | Grader | Score | What it measured |
+| --- | --- | --- | --- |
+| Aug 24 | v2.2.4 | 83 | First full audit of our own production domain |
+| Aug 26 | v2.2.5 | 61 | Same site, stricter gates, a 22-point drop |
+| Aug 27 | v2.2.5 | 74.6 | One day of remediation, same grader |
+| Sep 8 | v2.2.6 | 80 | Two more weeks of fixes, re-scored |
+| Sep 18 | v2.3.1 | 76.6 | Four graders on one site, plus a 5/100 that mattered more |
+| Sep 25-27 | v2.4.0 | 79.7, 79, 80, 80 | One run per remediation cycle; the latest breaks 92 technical / 82 content |
 
 Numbers only compare within a grader generation. The 22-point drop between Aug 24 and Aug 26 is not decay; it is v2.2.5 measuring surfaces v2.2.4 never looked at. Both audits were right about their own scope.
 
@@ -80,6 +78,8 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -111,7 +111,7 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
     }
   },
   "datePublished": "2026-09-27",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-benchmark/",
   "image": {
     "@type": "ImageObject",
@@ -164,7 +164,7 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-benchmark/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-benchmark/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-benchmark/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-benchmark/#breadcrumb"}, "dateModified": "2026-09-27"}
 ```
 
 ```json

@@ -1,62 +1,5 @@
 # OpenClaw Marketing Skills pricing
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT with optional cloud hosting via MyClaw.ai, both stated (the vendor pricing page: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-08-28). |
-| Feature depth | 6/10 | 37 skills across CRO, copy, SEO, ads, email, growth, retention, sales and strategy (vendor documentation: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
-| Integrations | 6/10 | Google Ads API, Search Console, Meta Marketing API and TweetClaw documented (vendor documentation: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
-| AI capability | 6/10 | Live data connectors feeding agent skills put it above static prompt collections (vendor documentation: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with full source (the source repository: [repository](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
-| Operational maturity | 4/10 | Founded 2025 with an optional hosting service (vendor documentation: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ AI capabilities: 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy |  |
-| ✓ Active public repository (1,046 GitHub stars counted at last check) |  |
-| ✓ Native integrations include OpenClaw, Google Ads API, Google Search Console (6 listed) |  |
-
-**What is OpenClaw Marketing Skills?**
-OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,046 stars.
-
-**How much does OpenClaw Marketing Skills cost?**
-OpenClaw Marketing Skills is open source - MIT licensed and free to self-host; the public repository carries 1,046 stars; native integrations cover OpenClaw, Google Ads API, Google Search Console. You pay in server time and maintenance, not licences.
-
-**Is OpenClaw Marketing Skills a good self-hosted Agent Skills tool in 2026?**
-Solid add-on pack for agent stacks; thin as a primary playbook source.
-
-- **Pricing:** Open Source
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 1046
-- **Founded:** 2025
-- **API:** Yes
-- **Repository checked:** 2026-10-01
-- **Page updated:** 2026-08-28
-
-**Verdict:** OpenClaw Marketing Skills is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Codex SEO
-
-Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-
-Google Ads + Meta Ads + GA4 MCP
-
-MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
-
-Aaron Marketing Skills
-
-120 marketing skills across 7 disciplines for Claude Code with auditor gates
-
-SEO Skill Bench
-
-Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -69,7 +12,7 @@ Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit OpenClaw Marketing Skills →](https://github.com/LeoYeAI/openclaw-marketing-skills)
 
@@ -80,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 39/60
 
 OpenClaw's 37 marketing skills connect to live ad and search data, which separates it from prompt packs. MIT-licensed and OpenClaw-native, so the harness choice is made for you.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free under MIT with optional cloud hosting via MyClaw.ai, both stated (the vendor pricing page: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-08-28). |
+| Feature depth | 6/10 | 37 skills across CRO, copy, SEO, ads, email, growth, retention, sales and strategy (vendor documentation: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
+| Integrations | 6/10 | Google Ads API, Search Console, Meta Marketing API and TweetClaw documented (vendor documentation: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
+| AI capability | 6/10 | Live data connectors feeding agent skills put it above static prompt collections (vendor documentation: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full source (the source repository: [repository](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2025 with an optional hosting service (vendor documentation: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -124,6 +77,14 @@ Solid add-on pack for agent stacks; thin as a primary playbook source.
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy |  |
+| ✓ Active public repository (1,046 GitHub stars counted at last check) |  |
+| ✓ Native integrations include OpenClaw, Google Ads API, Google Search Console (6 listed) |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -137,10 +98,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is OpenClaw Marketing Skills?**
 OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,046 stars.
 
+**How much does OpenClaw Marketing Skills cost?**
 OpenClaw Marketing Skills is open source - MIT licensed and free to self-host; the public repository carries 1,046 stars; native integrations cover OpenClaw, Google Ads API, Google Search Console. You pay in server time and maintenance, not licences.
 
+**Is OpenClaw Marketing Skills a good self-hosted Agent Skills tool in 2026?**
 Solid add-on pack for agent stacks; thin as a primary playbook source.
 
 ## Similar Tools
@@ -155,6 +119,14 @@ Solid add-on pack for agent stacks; thin as a primary playbook source.
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **GitHub:** ★ 1046
+- **Founded:** 2025
+- **API:** Yes
+- **Repository checked:** 2026-10-01
+- **Page updated:** 2026-08-28
+
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 ## Get the next teardown
@@ -162,6 +134,28 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** OpenClaw Marketing Skills is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Codex SEO
+
+Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+
+Google Ads + Meta Ads + GA4 MCP
+
+MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+
+Aaron Marketing Skills
+
+120 marketing skills across 7 disciplines for Claude Code with auditor gates
+
+SEO Skill Bench
+
+Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -180,7 +174,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/openclaw-marketing-skills/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",
@@ -283,7 +277,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/", "breadcrumb": {"@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/", "breadcrumb": {"@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

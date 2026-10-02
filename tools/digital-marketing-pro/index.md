@@ -1,64 +1,5 @@
 # Digital Marketing Pro pricing
 
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ AI capabilities: 163 skills with 24 specialist agents |  |
-| ✓ Native integrations include Claude Code, Anthropic Cowork, OpenAI Codex (8 listed) |  |
-
-**What is Digital Marketing Pro?**
-Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 843 stars.
-
-**How much does Digital Marketing Pro cost?**
-Digital Marketing Pro is open source - MIT licensed and free to self-host; the public repository carries 843 stars; native integrations cover Claude Code, Anthropic Cowork, OpenAI Codex. You pay in server time and maintenance, not licences.
-
-**Is Digital Marketing Pro a good self-hosted Agent Skills tool in 2026?**
-Reasonable scaffolding for agent-run campaign planning; brings process, not magic.
-
-**Does Digital Marketing Pro have an API?**
-Yes. The catalog records a public API for Digital Marketing Pro, so custom integrations are possible. The Key Integrations section shows what ships natively.
-
-- **Founded:** 2025
-- **Licence:** MIT
-- **Public API:** yes
-- **Catalogued integrations:** 8
-- **GitHub stars:** 843
-
-- **Pricing:** Open Source
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 843
-- **Founded:** 2025
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-28
-
-**Verdict:** Digital Marketing Pro is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Codex SEO
-
-Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-
-Aaron Marketing Skills
-
-120 marketing skills across 7 disciplines for Claude Code with auditor gates
-
-AI Business Skills
-
-63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-
-SEO Skill Bench
-
-Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
-
-Diffmode Growth Tactics
-
-Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -71,7 +12,7 @@ KIND: Agent Skill (not an end-to-end platform)
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Digital Marketing Pro →](https://github.com/indranilbanerjee/digital-marketing-pro)
 
@@ -82,6 +23,12 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## Catalog facts: Digital Marketing Pro
 
 Not yet scored against the rubric, so no verdict here. This is everything the catalog holds on the tool, verified against vendor sources.
+
+- **Founded:** 2025
+- **Licence:** MIT
+- **Public API:** yes
+- **Catalogued integrations:** 8
+- **GitHub stars:** 843
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -162,6 +109,13 @@ Reasonable scaffolding for agent-run campaign planning; brings process, not magi
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: 163 skills with 24 specialist agents |  |
+| ✓ Native integrations include Claude Code, Anthropic Cowork, OpenAI Codex (8 listed) |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -175,12 +129,16 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Digital Marketing Pro?**
 Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 843 stars.
 
+**How much does Digital Marketing Pro cost?**
 Digital Marketing Pro is open source - MIT licensed and free to self-host; the public repository carries 843 stars; native integrations cover Claude Code, Anthropic Cowork, OpenAI Codex. You pay in server time and maintenance, not licences.
 
+**Is Digital Marketing Pro a good self-hosted Agent Skills tool in 2026?**
 Reasonable scaffolding for agent-run campaign planning; brings process, not magic.
 
+**Does Digital Marketing Pro have an API?**
 Yes. The catalog records a public API for Digital Marketing Pro, so custom integrations are possible. The Key Integrations section shows what ships natively.
 
 ## Similar Tools
@@ -195,6 +153,14 @@ Yes. The catalog records a public API for Digital Marketing Pro, so custom integ
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **GitHub:** ★ 843
+- **Founded:** 2025
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-28
+
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 ## Get the next teardown
@@ -202,6 +168,32 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Digital Marketing Pro is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Codex SEO
+
+Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+
+Aaron Marketing Skills
+
+120 marketing skills across 7 disciplines for Claude Code with auditor gates
+
+AI Business Skills
+
+63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+SEO Skill Bench
+
+Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+
+Diffmode Growth Tactics
+
+Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

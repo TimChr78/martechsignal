@@ -438,7 +438,7 @@
     ]
    ]
   },
-  "paid_from": null,
+  "paid_from": 0,
   "currency": "USD"
  },
  {
@@ -4239,7 +4239,8 @@
     "as_of": "2026-08-28"
    }
   ],
-  "currency": "USD"
+  "currency": "USD",
+  "paid_from": 0
  },
  {
   "slug": "monica",
@@ -6482,12 +6483,13 @@
    "Google Analytics",
    "Slack"
   ],
-  "seo_description": "Brevo: email/SMS marketing that bills by send volume, not contacts. Free tier at 300 emails/day; automation from $18/mo.",
+  "seo_description": "Brevo: email/SMS marketing that bills by send volume, not contacts. Free tier at 300 emails/day; paid from $9/mo.",
   "deep_dive": {
-   "hands_on": false,
+   "hands_on": "Desk review against the vendor pricing page and third-party receipts (2026-09-29): the free plan covers 300 emails per day, Starter is $9/mo at 5,000 emails, Standard $18/mo at the same volume, Professional $499/mo, Enterprise custom, SMS credits sold separately. Volume-based billing is the real story: a large contact database that rarely gets mailed costs far less here than on per-contact platforms. Not verified: deliverability rates, automation builder depth under real load, and support quality. Those need a sending account, which we do not have.",
    "verdict": "Brevo suits teams with a large but rarely-sent list that still want SMS, WhatsApp, and chat alongside email: the volume-metered plans keep stored contacts free of charge."
   },
-  "description": "Brevo (formerly Sendinblue) is a Paris-based multichannel marketing platform whose core billing trick is pricing by monthly email volume rather than contact count, which keeps large contact databases cheap for teams that send infrequently. Email campaigns, SMS, WhatsApp, push, live chat, chatbot, and phone calls share one contact universe, and the built-in CRM adds pipelines, tasks, and a sales add-on seat package on top. The free plan covers 300 emails a day; paid plans raise volume and unlock automation workflows, A/B testing, landing pages, send-time optimization, and web event tracking. A 2026 addition aimed at the agentic market: an MCP server lets teams manage campaigns and contacts directly from ChatGPT, Claude, and other AI tools, and Brevo itself ships a Brevo Data Platform that unifies customer data across channels. Integrations cover Shopify, WordPress, Stripe, Zapier, Salesforce, WooCommerce, and 150+ more in the directory; transactional email rides the same platform through SMTP relay and API. The trade-offs match the model: the contact universe is generous but email credits are the meter, SMS costs credits on every plan, advanced analytics and heatmaps need Standard and up, and Editorial verdicts elsewhere note reporting is shallower than Klaviyo's revenue-data model. This assessment is based on the vendor's documented architecture and public materials."
+  "description": "Brevo (formerly Sendinblue) is a Paris-based multichannel marketing platform whose core billing trick is pricing by monthly email volume rather than contact count, which keeps large contact databases cheap for teams that send infrequently. Email campaigns, SMS, WhatsApp, push, live chat, chatbot, and phone calls share one contact universe, and the built-in CRM adds pipelines, tasks, and a sales add-on seat package on top. The free plan covers 300 emails a day; paid plans raise volume and unlock automation workflows, A/B testing, landing pages, send-time optimization, and web event tracking. A 2026 addition aimed at the agentic market: an MCP server lets teams manage campaigns and contacts directly from ChatGPT, Claude, and other AI tools, and Brevo itself ships a Brevo Data Platform that unifies customer data across channels. Integrations cover Shopify, WordPress, Stripe, Zapier, Salesforce, WooCommerce, and 150+ more in the directory; transactional email rides the same platform through SMTP relay and API. The trade-offs match the model: the contact universe is generous but email credits are the meter, SMS costs credits on every plan, advanced analytics and heatmaps need Standard and up, and Editorial verdicts elsewhere note reporting is shallower than Klaviyo's revenue-data model. This assessment is based on the vendor's documented architecture and public materials.",
+  "paid_from": 9
  },
  {
   "slug": "seo-skill-bench",
@@ -8892,10 +8894,11 @@
   ],
   "seo_description": "RudderStack: warehouse-first CDP with a self-hostable Go data plane. Free tier 250K events/mo; Growth from $265/mo.",
   "deep_dive": {
-   "hands_on": false,
-   "verdict": null
+   "hands_on": "Desk review against rudderlabs/rudder-server on GitHub (several thousand stars, commits landing same-day as the check) and the vendor pricing page: free tier covers 250K events per month with 16 SDK sources and warehouse destinations, Growth is $265/mo for 1M events, Enterprise custom. The data plane is open source and self-hostable, which is the whole reason this tool is on the shortlist next to proprietary CDPs. Not verified: event delivery latency, warehouse sync reliability at volume, and the quality of the 200+ cloud destination integrations. Those need a running pipeline.",
+   "verdict": "Best open-core CDP for teams that self-host the data plane: free 250K events/mo, Growth $265/mo, warehouse-native from the start."
   },
-  "description": "RudderStack is a warehouse-first customer data platform: SDKs and server libraries push events to one API, and the platform routes them to warehouses (Snowflake, BigQuery, Redshift, Databricks) and to over 200 cloud destinations, with reverse ETL closing the loop from warehouse back to tools. The open-source data plane (rudder-server, Go, requires only PostgreSQL) is self-hostable under its source-available licence, while the managed cloud adds the control-plane UI, regional deployment, and higher sync frequencies. The free cloud tier covers 250,000 events a month across 16 SDK sources with 200+ destinations, making it the cheapest way to run Segment-style event collection at hobby scale; Growth starts at $265 monthly for 1M events with unlimited team members and 30-minute warehouse syncs. Compared with Segment, RudderStack's distinct angle is warehouse-first architecture and an elastic deployment story (self-hosted data plane or managed cloud) rather than a proprietary profile store. This assessment is based on vendor documentation and public materials."
+  "description": "RudderStack is a warehouse-first customer data platform: SDKs and server libraries push events to one API, and the platform routes them to warehouses (Snowflake, BigQuery, Redshift, Databricks) and to over 200 cloud destinations, with reverse ETL closing the loop from warehouse back to tools. The open-source data plane (rudder-server, Go, requires only PostgreSQL) is self-hostable under its source-available licence, while the managed cloud adds the control-plane UI, regional deployment, and higher sync frequencies. The free cloud tier covers 250,000 events a month across 16 SDK sources with 200+ destinations, making it the cheapest way to run Segment-style event collection at hobby scale; Growth starts at $265 monthly for 1M events with unlimited team members and 30-minute warehouse syncs. Compared with Segment, RudderStack's distinct angle is warehouse-first architecture and an elastic deployment story (self-hosted data plane or managed cloud) rather than a proprietary profile store. This assessment is based on vendor documentation and public materials.",
+  "paid_from": 265
  },
  {
   "slug": "hightouch",
@@ -8938,7 +8941,7 @@
   ],
   "seo_description": "Hightouch: composable CDP that syncs warehouse data to 200+ marketing destinations. Free plan 2 active syncs.",
   "deep_dive": {
-   "hands_on": false,
+   "hands_on": "Desk review against the vendor documentation and pricing pages: the free plan covers 2 active syncs to 200+ marketing destinations, positioning it as the composable CDP for warehouse-first teams. Self-serve paid pricing is not published on any page we could load, and third-party estimates are unverified, so the record carries no paid entry price. Not verified: sync freshness guarantees, schema-change handling, and how the paid tiers compare once a sales quote exists. Those need vendor access.",
    "verdict": "Hightouch fits teams whose source of truth already lives in Snowflake, BigQuery, or Databricks and who want warehouse data activating into sales, ads, and lifecycle tools without a second profile store."
   },
   "description": "Hightouch is the leading warehouse-native activation layer, commonly filed under composable CDP: instead of collecting user events itself, it queries the data warehouse your company already runs (Snowflake, BigQuery, Databricks, Redshift) and syncs the results as audiences, traits, and events into marketing, sales, and advertising destinations such as Salesforce, Braze, Klaviyo, Meta Ads, and Google Ads. Nothing is stored natively - the warehouse stays the source of truth, which appeals to teams that already invested in a modern data stack and do not want a second duplicate profile store. Identity resolution, match booster, and real-time personalization extend it beyond batch reverse ETL, and AI Decisioning optimizes campaign variants with reinforcement learning. Self-serve pricing counts active syncs (2 on the free plan, 10 on self-serve) with no seat or destination caps; business tiers are quoted. Acquired positioning has shifted rapidly - reverse ETL (2022), composable CDP (2023), agentic marketing platform (2025-2026) - under competitive pressure from CDP incumbents and the AI-personalization wave. This assessment is based on vendor documentation and public materials."

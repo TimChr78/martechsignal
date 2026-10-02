@@ -1,7 +1,5 @@
 # AI policy
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
-
 ## AI policy
 
 MartechSignal publishes for people first and for answer engines second. This page states, in plain terms, what AI systems may and may not do with our content. It was last updated on 2026-09-26.
@@ -37,6 +35,8 @@ Want to train on the corpus, license it, or ask about a use this page does not c
 Two non-standard extensions appear in the robots.txt on purpose: Content-Signal declares what each crawler may do with what it fetches, and Agentmap names the machine-readable catalog in /.well-known/ard.json. Agentmap stays a comment because the directive is non-standard and trips strict parsers; only Content-Signal is a live directive. Parsers that follow RFC 9309 ignore what they do not know, which is the intended behavior.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 
 ```json

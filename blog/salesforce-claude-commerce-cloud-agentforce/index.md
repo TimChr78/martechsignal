@@ -1,18 +1,5 @@
 # Salesforce puts Claude in Commerce Cloud: a quiet admission
 
-
-|  | Build it (Claude on MCP) | Buy it (native agents) |
-| --- | --- | --- |
-| **Where the agent runs** | Outside Salesforce, on the model you pick | Inside Commerce Cloud, Salesforce-managed |
-| **Model choice** | "Claude or any model you choose" | Whatever Agentforce ships (Salesforce doesn't say) |
-| **Surface** | Your interface: Claude, Slack, ChatGPT, or custom | Storefront Shopper Agent, back-office Merchant Agent |
-| **Evidence offered** | Anthropic's blueprint: weeks of work cut to days | 86% faster merchant tasks; Cacau Show +32% conversion |
-| **Guardrails** | MCP access "within guardrails" (details thin) | "Governed, embedded, and human-in-the-loop by design" |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-Verdict: a win for merchants, a confession from Salesforce
-
 AI AGENTS · SALESFORCE · 8 MIN
 
 ## Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough
@@ -20,8 +7,6 @@ AI AGENTS · SALESFORCE · 8 MIN
 [How we review](/methodology/) · No affiliate links
 
 [Home](/) · [Blog](/blog/) · Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough
-
- · Updated 2026-10-02
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -50,6 +35,15 @@ For the native Merchant Agent: "Commerce Cloud customers using our Merchant Agen
 The post also cites Salesforce's State of Commerce research: consumer use of agentic search as the first stop in shopping grew 200% year-over-year, and 90% of commerce leaders believe LLMs will be essential to product discovery by 2027. The number that matters operationally is the boring one: B2C Commerce exposes an MCP server to all merchants, so any agentic layer can read catalog, inventory, and pricing data within guardrails.
 
 ## Build path vs buy path, as Salesforce describes it
+
+
+|  | Build it (Claude on MCP) | Buy it (native agents) |
+| --- | --- | --- |
+| **Where the agent runs** | Outside Salesforce, on the model you pick | Inside Commerce Cloud, Salesforce-managed |
+| **Model choice** | "Claude or any model you choose" | Whatever Agentforce ships (Salesforce doesn't say) |
+| **Surface** | Your interface: Claude, Slack, ChatGPT, or custom | Storefront Shopper Agent, back-office Merchant Agent |
+| **Evidence offered** | Anthropic's blueprint: weeks of work cut to days | 86% faster merchant tasks; Cacau Show +32% conversion |
+| **Guardrails** | MCP access "within guardrails" (details thin) | "Governed, embedded, and human-in-the-loop by design" |
 
 The two paths aren't equal in the post's own telling. The buy path gets the numbers and the governance language. The build path gets flexibility, and the named example of a competitor's model doing the work.
 
@@ -107,6 +101,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+Verdict: a win for merchants, a confession from Salesforce
+
 
 ```json
 {
@@ -138,7 +136,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-09-29",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": "https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/",
   "image": {
     "@type": "ImageObject",
@@ -184,7 +182,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/", "breadcrumb": {"@id": "https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/", "breadcrumb": {"@id": "https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

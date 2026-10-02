@@ -1,16 +1,5 @@
 # ChatGPT Isn't Search Anymore, It's Checkout
 
-
-|  | Old game: optimize for clicks | New game: be the transaction surface |
-| --- | --- | --- |
-| Where discovery happens | Search results page | Inside the chat answer |
-| What a win looks like | Click, session, on-site conversion | Brand named in the answer; action completed in-chat |
-| What you control | Your landing page | Your feeds, APIs, and booking integrations |
-| What you measure | CTR, rank, last-click conversions | Citation rate, booking source fields, downstream demand |
-| Who stands between you and the customer | The search engine's links | The platform whose rails the transaction runs on |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 SEO · AI SEARCH · 9 MIN
 
 ## ChatGPT Isn't Search Anymore, It's Checkout
@@ -19,7 +8,7 @@ SEO · AI SEARCH · 9 MIN
 
 [Home](/) · [Blog](/blog/) · ChatGPT Isn't Search Anymore, It's Checkout
 
-SEP 01, 2026 · Updated 2026-10-02
+SEP 01, 2026
 
 Filed under [SEO & Search](/categories/seo/) · [Advertising & Paid Media](/categories/advertising/)
 
@@ -56,6 +45,15 @@ If you buy this channel today you are paying premium prices for rough targeting.
 The click flow is already reversing direction. iPullRank analyzed 13.1 billion search events from 9.1 million users and found ChatGPT draws a higher share of Google's paid clicks than any other major destination, trailing only YouTube, Google's own properties, Reddit, Facebook, and Wikipedia in total clicks. OpenAI is buying its way to the top of the old funnel while building the new one.
 
 Now the operational problem nobody has solved. A transaction that completes inside a chat sends no referrer, registers no click, and carries no UTM. If a customer books your restaurant through ChatGPT, your analytics shows nothing, and your attribution model has nothing to argue about. We laid out the measurement side of this in [the 5-layer AI search fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/). The checkout flip makes it concrete: the conversion is invisible to a click-based stack by construction.
+
+
+|  | Old game: optimize for clicks | New game: be the transaction surface |
+| --- | --- | --- |
+| Where discovery happens | Search results page | Inside the chat answer |
+| What a win looks like | Click, session, on-site conversion | Brand named in the answer; action completed in-chat |
+| What you control | Your landing page | Your feeds, APIs, and booking integrations |
+| What you measure | CTR, rank, last-click conversions | Citation rate, booking source fields, downstream demand |
+| Who stands between you and the customer | The search engine's links | The platform whose rails the transaction runs on |
 
 The last row is the one to sit with. In the click era, Google stood between you and the customer but handed the customer over at the click. In the checkout era, the transaction runs on someone else's rails end to end. Yelp's rails today, OpenAI's tomorrow. Being on those rails beats being absent from them, but the dependency is real, and the platform fee will not stay zero forever.
 
@@ -105,6 +103,8 @@ More from the directory: [DeskcommCRM](/tools/deskcommcrm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -136,7 +136,7 @@ More from the directory: [DeskcommCRM](/tools/deskcommcrm/)
     }
   },
   "datePublished": "2026-09-01",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/",
   "image": {
     "@type": "ImageObject",
@@ -182,7 +182,7 @@ More from the directory: [DeskcommCRM](/tools/deskcommcrm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/", "breadcrumb": {"@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/", "breadcrumb": {"@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/#breadcrumb"}, "dateModified": "2026-09-01"}
 ```
 
 ```json

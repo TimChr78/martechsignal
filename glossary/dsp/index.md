@@ -1,18 +1,10 @@
 # Demand-Side Platform (DSP)
 
-AdCreative.ai
-
-AI platform generating high-converting ad creatives and social media post designs
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Demand-Side Platform (DSP)
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-28
 
 ## Definition
 
@@ -60,6 +52,14 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
 - [DMP](/glossary/dmp/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+AdCreative.ai
+
+AI platform generating high-converting ad creatives and social media post designs
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -70,7 +70,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
         "@type": "DefinedTerm",
         "name": "Demand-Side Platform (DSP)",
         "description": "A demand-side platform is the buying interface for programmatic advertising. Advertisers use a DSP to bid on ad impressions across ad exchanges in real time, setting targeting parameters, budget caps, and bidding strategies in one place instead of negotiating with each publisher individually.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -128,7 +128,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dsp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/dsp/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dsp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/dsp/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

@@ -1,75 +1,5 @@
 # EspoCRM review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 5/10 | Free self-hosted core under AGPLv3 is fully clear; the Advanced Pack and Intelligence add-ons exist but their prices are not listed (the vendor pricing page: [pricing page](https://www.espocrm.com/cloud/), verified 2026-09-07). |
-| Feature depth | 6/10 | Sales, marketing and customer management with workflow add-ons make a complete small-team CRM; BPM depth lives in the paid Advanced Pack (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
-| Integrations | 3/10 | No named integrations in the catalog; a documented API carries the connection story (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
-| AI capability | 3/10 | The Intelligence add-on exists but no AI features are itemized in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
-| Openness | 9/10 | AGPLv3 self-hosted since 2011 with the full core free (the source repository: [repository](https://github.com/espocrm/espocrm), verified 2026-09-28). |
-| Operational maturity | 7/10 | Shipping since 2011 with paid extension support; a long track record for a project this size (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at €12.9/mo |
-| ✓ API access for custom integrations |  |
-| ✓ Active public repository (3,432 GitHub stars counted at last check) |  |
-
-**What is EspoCRM?**
-EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. The public repository carries 3,432 stars. EspoCRM offers a public API for custom integrations.
-
-**How much does EspoCRM cost?**
-EspoCRM has a free tier; paid plans start at €12.9/mo. Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from € 12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
-
-**Is EspoCRM a good self-hosted CRM tool in 2026?**
-A fast-moving, well-documented self-hosted CRM whose free core covers the sales and support basics, with the automation, reporting, and AI depth sitting in paid extensions and cloud plans.
-
-**Does EspoCRM have AI features?**
-Not in the free core. AI arrives through the paid Intelligence extension, first released August 3, 2026, with version 1.1.0 on August 14 adding custom OpenAI-compatible providers. Documented capabilities cover OpenAI, Gemini, and Claude integrations, record and email summarization, intelligent paste, an AI email composer, and formula functions for classification, data extraction, and summaries, plus usage logging and quotas. There are no AI agents, and the docs have no AI section outside the extensions area, so treat AI as an add-on decision rather than a core feature.
-
-**Is EspoCRM free? What do the paid parts cost?**
-The self-hosted edition is free under AGPLv3 with no user limits in the license. The paid layer is extensions: the Advanced Pack bundles reports, workflows, and the BPM designer, and other add-ons cover VoIP and Twilio, Google Workspace, Outlook, Mailchimp, Stripe, and Zoom. Extension prices are not published on espocrm.com. Vendor cloud hosting is published in €: Basic € 12.90 per user monthly (minimum 3 users, 3GB storage each), Enterprise € 22.00 (minimum 5, 10GB), and Ultimate € 59.00 (minimum 10, 400GB, dedicated IP), with every plan including the Advanced Pack and official extensions.
-
-**EspoCRM vs SuiteCRM: which open-source CRM fits better?**
-Both are AGPL-licensed PHP applications you self-host, and both cover accounts, contacts, leads, opportunities, cases, and campaigns. The difference is where the automation lives: SuiteCRM ships its workflow engine free in the core, while EspoCRM gates workflows, BPM, and reports behind the paid Advanced Pack, and instead gives you a cleaner interface, multiple pipelines, and a much more complete API story with an OpenAPI spec and clients in seven languages. SuiteCRM's advantage is module depth and longevity on legacy PHP deployments; EspoCRM's is development pace, with the 10.0 line shipped in July 2026.
-
-- **Pricing:** Open Source
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 3432
-- **Founded:** 2011
-- **HQ:** Delaware, USA
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** EspoCRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Krayin CRM
-
-Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
-
-SuiteCRM
-
-Enterprise-grade open-source CRM with sales, marketing, and support automation
-
-DeskcommCRM
-
-Self-hosted open-source CRM with AI agents that sell through WhatsApp
-
-Pipedrive
-
-Sales-focused CRM with AI-powered pipeline management and deal forecasting
-
-Ever Gauzy
-
-Open business management platform: ERP, CRM, HRM, ATS, and time tracking
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -82,7 +12,7 @@ Lightweight open-source CRM with sales automation, marketing tools, and customer
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit EspoCRM →](https://www.espocrm.com)
 
@@ -93,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 33/60
 
 EspoCRM is the lightweight AGPL CRM with a real extension economy. The add-on prices are unpublished, so the free core is the only number you can plan around.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 5/10 | Free self-hosted core under AGPLv3 is fully clear; the Advanced Pack and Intelligence add-ons exist but their prices are not listed (the vendor pricing page: [pricing page](https://www.espocrm.com/cloud/), verified 2026-09-07). |
+| Feature depth | 6/10 | Sales, marketing and customer management with workflow add-ons make a complete small-team CRM; BPM depth lives in the paid Advanced Pack (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
+| Integrations | 3/10 | No named integrations in the catalog; a documented API carries the connection story (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
+| AI capability | 3/10 | The Intelligence add-on exists but no AI features are itemized in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
+| Openness | 9/10 | AGPLv3 self-hosted since 2011 with the full core free (the source repository: [repository](https://github.com/espocrm/espocrm), verified 2026-09-28). |
+| Operational maturity | 7/10 | Shipping since 2011 with paid extension support; a long track record for a project this size (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -147,6 +87,13 @@ A fast-moving, well-documented self-hosted CRM whose free core covers the sales 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at €12.9/mo |
+| ✓ API access for custom integrations |  |
+| ✓ Active public repository (3,432 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -161,16 +108,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is EspoCRM?**
 EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. The public repository carries 3,432 stars. EspoCRM offers a public API for custom integrations.
 
+**How much does EspoCRM cost?**
 EspoCRM has a free tier; paid plans start at €12.9/mo. Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from € 12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
+**Is EspoCRM a good self-hosted CRM tool in 2026?**
 A fast-moving, well-documented self-hosted CRM whose free core covers the sales and support basics, with the automation, reporting, and AI depth sitting in paid extensions and cloud plans.
 
+**Does EspoCRM have AI features?**
 Not in the free core. AI arrives through the paid Intelligence extension, first released August 3, 2026, with version 1.1.0 on August 14 adding custom OpenAI-compatible providers. Documented capabilities cover OpenAI, Gemini, and Claude integrations, record and email summarization, intelligent paste, an AI email composer, and formula functions for classification, data extraction, and summaries, plus usage logging and quotas. There are no AI agents, and the docs have no AI section outside the extensions area, so treat AI as an add-on decision rather than a core feature.
 
+**Is EspoCRM free? What do the paid parts cost?**
 The self-hosted edition is free under AGPLv3 with no user limits in the license. The paid layer is extensions: the Advanced Pack bundles reports, workflows, and the BPM designer, and other add-ons cover VoIP and Twilio, Google Workspace, Outlook, Mailchimp, Stripe, and Zoom. Extension prices are not published on espocrm.com. Vendor cloud hosting is published in €: Basic € 12.90 per user monthly (minimum 3 users, 3GB storage each), Enterprise € 22.00 (minimum 5, 10GB), and Ultimate € 59.00 (minimum 10, 400GB, dedicated IP), with every plan including the Advanced Pack and official extensions.
 
+**EspoCRM vs SuiteCRM: which open-source CRM fits better?**
 Both are AGPL-licensed PHP applications you self-host, and both cover accounts, contacts, leads, opportunities, cases, and campaigns. The difference is where the automation lives: SuiteCRM ships its workflow engine free in the core, while EspoCRM gates workflows, BPM, and reports behind the paid Advanced Pack, and instead gives you a cleaner interface, multiple pipelines, and a much more complete API story with an OpenAPI spec and clients in seven languages. SuiteCRM's advantage is module depth and longevity on legacy PHP deployments; EspoCRM's is development pace, with the 10.0 line shipped in July 2026.
 
 ## Similar Tools
@@ -185,6 +138,15 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for lean sales teams that automate à la carte.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 3432
+- **Founded:** 2011
+- **HQ:** Delaware, USA
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 Related guides: [EspoCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/)
 
 ## Get the next teardown
@@ -192,6 +154,32 @@ Related guides: [EspoCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** EspoCRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Krayin CRM
+
+Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
+
+SuiteCRM
+
+Enterprise-grade open-source CRM with sales, marketing, and support automation
+
+DeskcommCRM
+
+Self-hosted open-source CRM with AI agents that sell through WhatsApp
+
+Pipedrive
+
+Sales-focused CRM with AI-powered pipeline management and deal forecasting
+
+Ever Gauzy
+
+Open business management platform: ERP, CRM, HRM, ATS, and time tracking
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

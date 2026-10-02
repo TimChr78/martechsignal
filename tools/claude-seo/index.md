@@ -1,101 +1,5 @@
 # Claude SEO review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | The skill is free and MIT-licensed with no paid tier, and the tool page documents the real usage cost of roughly 6 USD in API tokens per full audit, while the optional paid Skool mirror has no published price in our sources (the vendor pricing page: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
-| Feature depth | 8/10 | 25 sub-skills, 18 specialist agents, 30 commands and 439 passing tests at v2.2.5 go past the skill-pack baseline with citability scoring, dependency tracking and explicit failure checks as differentiators (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
-| Integrations | 3/10 | Five named integrations cover the surface: Claude Code, Google Search Console, DataForSEO, Firecrawl and Lighthouse, with no marketplace behind them (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
-| AI capability | 9/10 | The product is itself an agent harness: /seo audit coordinates its specialist agents across 25 sub-skills inside Claude Code (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
-| Openness | 10/10 | MIT-licensed with the whole audit stack inspectable and no paid tier hiding functionality (the source repository: [repository](https://github.com/AgriciDaniel/claude-seo), verified 2026-09-26). |
-| Operational maturity | 6/10 | Founded in February 2026 with active v2.2.x releases in August 2026, but it remains a young project with no company or SLAs behind it (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
-
-
-| Grader | Date | Score | Context |
-| --- | --- | --- | --- |
-| v2.2.4 | 2026-08-23 | **83**/100 | First audit, 169 pages |
-| v2.2.4 | 2026-08-24 | **92**/100 | After fixing round-1 findings |
-| v2.2.4 | 2026-08-25 | **96**/100 | Zero critical and high findings |
-| v2.2.5 | 2026-08-26 | **61**/100 | Same site, stricter grader |
-| v2.2.5 | 2026-08-27 | **66**/100 | First remediation wave |
-| v2.2.5 | 2026-08-27 | **72**/100 | Remediation waves 2 and 3 |
-| v2.2.5 | 2026-08-27 | **74.6**/100 | All 115 tool pages differentiated |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Runs inside Claude Code, so a paid Anthropic subscription is part of the real cost |
-| ✓ AI capabilities: 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO | ✗ Grader strictness shifts between versions, so scores are not comparable across releases |
-| ✓ Active public repository (18,136 GitHub stars counted at last check) | ✗ Multi-site config needs manual .env work and API keys for DataForSEO and Firecrawl |
-| ✓ Native integrations include Claude Code, Google Search Console, DataForSEO (5 listed) |  |
-| ✓ MIT licensed with no paid tier, so the whole audit stack is inspectable |  |
-
-**What is Claude SEO?**
-Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 18,136 stars.
-
-**How much does Claude SEO cost?**
-Claude SEO is open source - MIT licensed and free to self-host; the public repository carries 18,136 stars; native integrations cover Claude Code, Google Search Console, DataForSEO. You pay in server time and maintenance, not licences.
-
-**Is Claude SEO a good self-hosted Agent Skills tool in 2026?**
-The most thorough free SEO audit you can run without leaving your terminal. Scores only mean something within one grader version, so pin the version and track deltas, not absolutes. It caught real bugs in our own production deploy pipeline on day one.
-
-**Is Claude SEO the same as SEO tools for Claude?**
-Yes. 'Claude SEO' usually refers to this open-source skill that runs inside Claude Code. MartechSignal's review covers what it audits and how it compares to hosted alternatives.
-
-**How does a Claude SEO audit work?**
-You run /seo audit with a URL. The skill coordinates its specialist agents that check technical SEO, content quality, schema, performance, and AI-search readiness, then returns a prioritized list of fixes.
-
-**Is there a free Claude SEO checker?**
-Yes, and it is the same project. Claude SEO is free and MIT-licensed; the checker is the /seo audit command inside Claude Code. We ran seven audits on two production sites in one week and scored up to 96/100 on the v2.2.4 grader.
-
-**What is the Claude SEO tool?**
-An open-source SEO analysis toolkit for Claude Code: 25 sub-skills and 20 agents that crawl your site and grade technical SEO, content, schema, and AI-search readiness. On our own sites it surfaced 96 findings in about five minutes.
-
-**Can Claude Code do SEO audits?**
-Yes. With the Claude SEO skill installed, you type /seo audit plus a URL. Claude Code coordinates specialist agents checking crawlability, structured data, content quality, and AI-answer citability, then returns a prioritized fix list.
-
-**How much does a Claude SEO audit cost?**
-The skill itself is free. Your only cost is Claude Code API tokens: our full-site audits on 90-to-170-page sites ran about five minutes and roughly six dollars each, far less than a consultant day rate or a month of SaaS audit tools.
-
-**Is Claude SEO better than Screaming Frog?**
-They overlap on technical checks but differ in output. Screaming Frog crawls fast and cheap for raw data; Claude SEO spends more tokens per run but returns prioritized findings with dependencies, verification checks, and AI-search citability scoring that crawlers don't attempt.
-
-**Are Claude SEO scores reliable?**
-Within one version, yes: our score moved 61 to 66 to 72 to 74.6 as we fixed flagged issues, and every point tracked a real repair. Across versions, no: v2.2.4 scored the same site 96 that v2.2.5 scored 61. Pin the version before comparing runs.
-
-**Does Claude SEO work as SEO analysis software?**
-It runs as analysis software inside your terminal rather than a dashboard. Each audit crawls every URL, grades seven categories, and writes a full report with prioritized fixes. We published three complete reports from real runs on this site's own domain.
-
-- **Pricing:** Open Source
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **Github Stars:** 18,136
-- **Forks:** 2,665
-- **Sub Skills:** 25
-- **Agents:** 18
-- **Commands:** 30
-
-**Verdict:** Claude SEO is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
-
-Codex SEO
-
-Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-
-AI Marketing Suite
-
-15-skill marketing suite for Claude Code with parallel agents and PDF reports
-
-Claude Ads
-
-Paid-media operations skill for Claude Code covering 12 ad platforms
-
-Digital Marketing Pro
-
-163-skill AI marketing plugin for agencies with EU AI Act compliance
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -106,7 +10,7 @@ Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agent
 
 Agent Skills · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. We run it on our own sites and depend on it in our audit pipeline, which is why it carries no Review markup. See the [corrections log](/corrections/).
 
@@ -119,6 +23,16 @@ Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we ha
 ## Benchmark log: 43/60
 
 A deep, free SEO audit layer for Claude Code whose findings carry evidence, dependencies and verification checks. It needs the paid Claude Code runtime to run and grader scores shift between releases, so track deltas within one version rather than absolutes.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | The skill is free and MIT-licensed with no paid tier, and the tool page documents the real usage cost of roughly 6 USD in API tokens per full audit, while the optional paid Skool mirror has no published price in our sources (the vendor pricing page: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
+| Feature depth | 8/10 | 25 sub-skills, 18 specialist agents, 30 commands and 439 passing tests at v2.2.5 go past the skill-pack baseline with citability scoring, dependency tracking and explicit failure checks as differentiators (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
+| Integrations | 3/10 | Five named integrations cover the surface: Claude Code, Google Search Console, DataForSEO, Firecrawl and Lighthouse, with no marketplace behind them (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
+| AI capability | 9/10 | The product is itself an agent harness: /seo audit coordinates its specialist agents across 25 sub-skills inside Claude Code (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
+| Openness | 10/10 | MIT-licensed with the whole audit stack inspectable and no paid tier hiding functionality (the source repository: [repository](https://github.com/AgriciDaniel/claude-seo), verified 2026-09-26). |
+| Operational maturity | 6/10 | Founded in February 2026 with active v2.2.x releases in August 2026, but it remains a young project with no company or SLAs behind it (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
 
 Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is our own tool, scored from running it in our benchmark suite and four production audit cycles. Per our review policy we do not publish first-party self-ratings as Review markup, so this is a benchmark log, not a review rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -172,6 +86,17 @@ SE Ranking sells hosted Claude SEO skills as an add-on to its platform. The orig
 
 ## Audit scores on our own sites
 
+
+| Grader | Date | Score | Context |
+| --- | --- | --- | --- |
+| v2.2.4 | 2026-08-23 | **83**/100 | First audit, 169 pages |
+| v2.2.4 | 2026-08-24 | **92**/100 | After fixing round-1 findings |
+| v2.2.4 | 2026-08-25 | **96**/100 | Zero critical and high findings |
+| v2.2.5 | 2026-08-26 | **61**/100 | Same site, stricter grader |
+| v2.2.5 | 2026-08-27 | **66**/100 | First remediation wave |
+| v2.2.5 | 2026-08-27 | **72**/100 | Remediation waves 2 and 3 |
+| v2.2.5 | 2026-08-27 | **74.6**/100 | All 115 tool pages differentiated |
+
 Second site check: **oresund.live** **68** (2026-08-23) → **87** (2026-08-25)
 
 How we read scores: v2.2.4 and v2.2.5 are different graders. The 96 to 61 move in late August was a version change, not a site regression. Within v2.2.5, 61 to 74.6 in one day reflects real fixes to real findings.
@@ -192,6 +117,15 @@ The most thorough free SEO audit you can run without leaving your terminal. Scor
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Runs inside Claude Code, so a paid Anthropic subscription is part of the real cost |
+| ✓ AI capabilities: 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO | ✗ Grader strictness shifts between versions, so scores are not comparable across releases |
+| ✓ Active public repository (18,136 GitHub stars counted at last check) | ✗ Multi-site config needs manual .env work and API keys for DataForSEO and Firecrawl |
+| ✓ Native integrations include Claude Code, Google Search Console, DataForSEO (5 listed) |  |
+| ✓ MIT licensed with no paid tier, so the whole audit stack is inspectable |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -205,28 +139,40 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Claude SEO?**
 Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 18,136 stars.
 
+**How much does Claude SEO cost?**
 Claude SEO is open source - MIT licensed and free to self-host; the public repository carries 18,136 stars; native integrations cover Claude Code, Google Search Console, DataForSEO. You pay in server time and maintenance, not licences.
 
+**Is Claude SEO a good self-hosted Agent Skills tool in 2026?**
 The most thorough free SEO audit you can run without leaving your terminal. Scores only mean something within one grader version, so pin the version and track deltas, not absolutes. It caught real bugs in our own production deploy pipeline on day one.
 
+**Is Claude SEO the same as SEO tools for Claude?**
 Yes. 'Claude SEO' usually refers to this open-source skill that runs inside Claude Code. MartechSignal's review covers what it audits and how it compares to hosted alternatives.
 
+**How does a Claude SEO audit work?**
 You run /seo audit with a URL. The skill coordinates its specialist agents that check technical SEO, content quality, schema, performance, and AI-search readiness, then returns a prioritized list of fixes.
 
+**Is there a free Claude SEO checker?**
 Yes, and it is the same project. Claude SEO is free and MIT-licensed; the checker is the /seo audit command inside Claude Code. We ran seven audits on two production sites in one week and scored up to 96/100 on the v2.2.4 grader.
 
+**What is the Claude SEO tool?**
 An open-source SEO analysis toolkit for Claude Code: 25 sub-skills and 20 agents that crawl your site and grade technical SEO, content, schema, and AI-search readiness. On our own sites it surfaced 96 findings in about five minutes.
 
+**Can Claude Code do SEO audits?**
 Yes. With the Claude SEO skill installed, you type /seo audit plus a URL. Claude Code coordinates specialist agents checking crawlability, structured data, content quality, and AI-answer citability, then returns a prioritized fix list.
 
+**How much does a Claude SEO audit cost?**
 The skill itself is free. Your only cost is Claude Code API tokens: our full-site audits on 90-to-170-page sites ran about five minutes and roughly six dollars each, far less than a consultant day rate or a month of SaaS audit tools.
 
+**Is Claude SEO better than Screaming Frog?**
 They overlap on technical checks but differ in output. Screaming Frog crawls fast and cheap for raw data; Claude SEO spends more tokens per run but returns prioritized findings with dependencies, verification checks, and AI-search citability scoring that crawlers don't attempt.
 
+**Are Claude SEO scores reliable?**
 Within one version, yes: our score moved 61 to 66 to 72 to 74.6 as we fixed flagged issues, and every point tracked a real repair. Across versions, no: v2.2.4 scored the same site 96 that v2.2.5 scored 61. Pin the version before comparing runs.
 
+**Does Claude SEO work as SEO analysis software?**
 It runs as analysis software inside your terminal rather than a dashboard. Each audit crawls every URL, grades seven categories, and writes a full report with prioritized fixes. We published three complete reports from real runs on this site's own domain.
 
 ## Similar Tools
@@ -243,7 +189,13 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 - [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/) — Pick Claude SEO if you can host it yourself and want code-level control, starting free.
 ### Quick Facts
 
-### Project stats
+- **Pricing:** Open Source
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **Github Stars:** 18,136
+- **Forks:** 2,665
+- **Sub Skills:** 25
+- **Agents:** 18
+- **Commands:** 30
 
 ### Our rating
 
@@ -258,6 +210,28 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/) · [Agent Skills Tools](/bes
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Claude SEO is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
+
+Codex SEO
+
+Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+
+AI Marketing Suite
+
+15-skill marketing suite for Claude Code with parallel agents and PDF reports
+
+Claude Ads
+
+Paid-media operations skill for Claude Code covering 12 ad platforms
+
+Digital Marketing Pro
+
+163-skill AI marketing plugin for agencies with EU AI Act compliance
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

@@ -1,5 +1,27 @@
 # Claude SEO vs Codex SEO: same audit, pick your agent
 
+AGENT SKILLS · SEO · 7 MIN
+
+## Claude SEO vs Codex SEO: same audit, pick the agent you already pay for
+
+Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. Coverage here is held to the same verification standard as other tools. See the [corrections log](/corrections/).
+
+[How we review](/methodology/) · No affiliate links
+
+[Home](/) · [Blog](/blog/) · Claude SEO vs Codex SEO: same audit, pick the agent you already pay for
+
+SEP 15, 2026
+
+Filed under [Agent Skills](/categories/agent-skills/)
+
+Two SEO skill suites, one author, the same methodology underneath, and one question that settles it: which coding agent does your team already pay for. [Claude SEO](/tools/claude-seo/) and [Codex SEO](/tools/codex-seo/) are ports of each other rather than rivals in the usual sense, and that is precisely why the comparison matters. If you went looking for SEO tools for Claude and landed on a Codex option, or the reverse, the tiebreaker is the runtime, not the feature list.
+
+Codex SEO is the OpenAI Codex port of the Claude skill, built by the same author, AgriciDaniel. It covers the same surface, from technical audits and on-page analysis through E-E-A-T, schema, Core Web Vitals, GEO and AEO for AI search, backlinks, local and ecommerce SEO, hreflang, and semantic clustering, because it tracks the Claude skill as its upstream. What it does not share is the codebase, the licence, or the community. Those three differences are where the decision lives.
+
+Most readers should pick **Claude SEO**. It is the upstream project that the Codex port synchronizes to, its MIT licence lets you read and fork every skill, and its community is far larger. Choose **Codex SEO** only if your team already runs OpenAI Codex and would rather not add a second agent platform. In that case the SEO output is the same and the integration is native to the tool you already use, which is a real advantage in itself.
+
+## The comparison at a glance
+
 
 | Decision factor | Claude SEO | Codex SEO |
 | --- | --- | --- |
@@ -11,30 +33,6 @@
 | Community | Established base, roughly 16,675 GitHub stars | Smaller base, a few hundred stars |
 | Best fit | Teams on Claude Code | Teams on Codex |
 | Interface | Terminal only, no dashboard | Terminal and headless runners, no dashboard |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-AGENT SKILLS · SEO · 7 MIN
-
-## Claude SEO vs Codex SEO: same audit, pick the agent you already pay for
-
-Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. Coverage here is held to the same verification standard as other tools. See the [corrections log](/corrections/).
-
-[How we review](/methodology/) · No affiliate links
-
-[Home](/) · [Blog](/blog/) · Claude SEO vs Codex SEO: same audit, pick the agent you already pay for
-
-SEP 15, 2026 · Updated 2026-10-02
-
-Filed under [Agent Skills](/categories/agent-skills/)
-
-Two SEO skill suites, one author, the same methodology underneath, and one question that settles it: which coding agent does your team already pay for. [Claude SEO](/tools/claude-seo/) and [Codex SEO](/tools/codex-seo/) are ports of each other rather than rivals in the usual sense, and that is precisely why the comparison matters. If you went looking for SEO tools for Claude and landed on a Codex option, or the reverse, the tiebreaker is the runtime, not the feature list.
-
-Codex SEO is the OpenAI Codex port of the Claude skill, built by the same author, AgriciDaniel. It covers the same surface, from technical audits and on-page analysis through E-E-A-T, schema, Core Web Vitals, GEO and AEO for AI search, backlinks, local and ecommerce SEO, hreflang, and semantic clustering, because it tracks the Claude skill as its upstream. What it does not share is the codebase, the licence, or the community. Those three differences are where the decision lives.
-
-Most readers should pick **Claude SEO**. It is the upstream project that the Codex port synchronizes to, its MIT licence lets you read and fork every skill, and its community is far larger. Choose **Codex SEO** only if your team already runs OpenAI Codex and would rather not add a second agent platform. In that case the SEO output is the same and the integration is native to the tool you already use, which is a real advantage in itself.
-
-## The comparison at a glance
 
 The table hides one thing worth stating plainly: neither product is a SaaS platform. There is no dashboard, no rank history, and no scheduled report in your inbox unless you build the schedule yourself. Both are skills you install into a coding agent, which is why the runtime question dominates everything else here.
 
@@ -98,6 +96,8 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -129,7 +129,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
     }
   },
   "datePublished": "2026-09-15",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-15",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/",
   "image": {
     "@type": "ImageObject",
@@ -175,7 +175,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/#breadcrumb"}, "dateModified": "2026-09-15"}
 ```
 
 ```json

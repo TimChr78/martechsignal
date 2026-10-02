@@ -1,30 +1,10 @@
 # Search Engine Optimization (SEO)
 
-Clearscope
-
-AI-powered content optimization platform for SEO teams and content writers
-
-ALwrity
-
-AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
-
-Claude SEO
-
-Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
-
-Codex SEO
-
-Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Search Engine Optimization (SEO)
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-07
 
 ## Definition
 
@@ -73,6 +53,26 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
 - [CRO](/glossary/cro/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+Clearscope
+
+AI-powered content optimization platform for SEO teams and content writers
+
+ALwrity
+
+AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
+
+Claude SEO
+
+Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
+
+Codex SEO
+
+Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -83,7 +83,7 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
         "@type": "DefinedTerm",
         "name": "Search Engine Optimization (SEO)",
         "description": "SEO is the practice of improving a website's visibility in organic (non-paid) search results. It covers technical factors (site speed, crawlability, structured data), content quality (relevance, depth, freshness), and authority signals (backlinks, brand mentions, domain reputation).",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-07",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -141,7 +141,7 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/seo/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/seo/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/seo/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/seo/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

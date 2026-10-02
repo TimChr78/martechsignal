@@ -1,7 +1,5 @@
 # Agent protocol vs data plumbing: what actually fails
 
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 AUTOMATION · AI AGENTS · 8 MIN
 
 ## Your agent protocol matters less than your data plumbing
@@ -10,7 +8,7 @@ AUTOMATION · AI AGENTS · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Your agent protocol matters less than your data plumbing
 
-SEP 23, 2026 · Updated 2026-10-02
+SEP 23, 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 
@@ -98,6 +96,8 @@ More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -129,7 +129,7 @@ More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
     }
   },
   "datePublished": "2026-09-23",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-23",
   "mainEntityOfPage": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/",
   "image": {
     "@type": "ImageObject",
@@ -187,7 +187,7 @@ More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/#breadcrumb"}, "dateModified": "2026-09-23"}
 ```
 
 ```json

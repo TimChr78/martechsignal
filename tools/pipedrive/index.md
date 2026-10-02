@@ -1,63 +1,5 @@
 # Pipedrive review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Essential $14, Advanced $29, Professional $59 and Enterprise $79 per user/mo all published (the vendor pricing page: [pricing page](https://www.pipedrive.com/en/pricing), verified 2026-09-27). |
-| Feature depth | 6/10 | Pipeline management, deal forecasting and lead routing cover the sales CRM loop (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
-| Integrations | 7/10 | Google, Microsoft, Outlook, QuickBooks, Zapier, Asana, DocuSign and WhatsApp documented plus an API (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
-| AI capability | 5/10 | Predictive deal scoring, smart routing and an email writer serve the pipeline (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2010 with a long SMB sales track record (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI sales assistant | ✗ Closed source - no self-hosting option |
-| ✓ G2 rating 4.3/5 |  |
-| ✓ Native integrations include Google, Microsoft, Outlook (8 listed) |  |
-
-**What is Pipedrive?**
-Pipedrive: Sales-focused CRM with AI-powered pipeline management and deal forecasting. Pipedrive ships with AI sales assistant. This page documents 8 integrations.
-
-**How much does Pipedrive cost?**
-Pipedrive starts at $14/mo. Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Pipedrive worth paying for in 2026?**
-The easiest CRM to get a sales team to actually adopt; add-on pricing is where complexity creeps back.
-
-- **Pricing:** From $14/mo
-- **Category:** [CRM](/categories/crm/)
-- **Third-party ratingsG2 rating:** 4.3/5 (3,181 reviews) · [source](https://www.g2.com/products/pipedrive/reviews)as of 2026-08-28
-- **Founded:** 2010
-- **HQ:** Tallinn, Estonia
-- **API:** Yes
-- **Last verified:** 2026-09-27
-
-**Verdict:** Pipedrive is a tool in CRM with paid plans starting at $14/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-Salesforce CRM
-
-Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
-
-Freshsales
-
-AI-powered CRM with built-in phone, email, and chat for sales teams
-
-HubSpot CRM
-
-Free AI-powered CRM platform with sales, service, and marketing tools unified
-
-HubSpot Marketing Hub
-
-All-in-one marketing automation with AI-powered content, email, and campaign tools
-
-Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -68,7 +10,7 @@ Sales-focused CRM with AI-powered pipeline management and deal forecasting
 
 CRM · From $14/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Pipedrive →](https://www.pipedrive.com)
 
@@ -79,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 38/60
 
 Pipedrive is the pipeline-first CRM at a working price: $14 to $79 per seat with every tier published. The AI handles scoring and reminders, which is the right altitude for sales teams.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Essential $14, Advanced $29, Professional $59 and Enterprise $79 per user/mo all published (the vendor pricing page: [pricing page](https://www.pipedrive.com/en/pricing), verified 2026-09-27). |
+| Feature depth | 6/10 | Pipeline management, deal forecasting and lead routing cover the sales CRM loop (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
+| Integrations | 7/10 | Google, Microsoft, Outlook, QuickBooks, Zapier, Asana, DocuSign and WhatsApp documented plus an API (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
+| AI capability | 5/10 | Predictive deal scoring, smart routing and an email writer serve the pipeline (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2010 with a long SMB sales track record (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -127,6 +79,13 @@ The easiest CRM to get a sales team to actually adopt; add-on pricing is where c
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI sales assistant | ✗ Closed source - no self-hosting option |
+| ✓ G2 rating 4.3/5 |  |
+| ✓ Native integrations include Google, Microsoft, Outlook (8 listed) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -141,10 +100,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Pipedrive?**
 Pipedrive: Sales-focused CRM with AI-powered pipeline management and deal forecasting. Pipedrive ships with AI sales assistant. This page documents 8 integrations.
 
+**How much does Pipedrive cost?**
 Pipedrive starts at $14/mo. Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Pipedrive worth paying for in 2026?**
 The easiest CRM to get a sales team to actually adopt; add-on pricing is where complexity creeps back.
 
 ## Similar Tools
@@ -159,6 +121,14 @@ The easiest CRM to get a sales team to actually adopt; add-on pricing is where c
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for small sales teams that live in one pipeline view.
 ### Quick Facts
 
+- **Pricing:** From $14/mo
+- **Category:** [CRM](/categories/crm/)
+- **Third-party ratingsG2 rating:** 4.3/5 (3,181 reviews) · [source](https://www.g2.com/products/pipedrive/reviews)as of 2026-08-28
+- **Founded:** 2010
+- **HQ:** Tallinn, Estonia
+- **API:** Yes
+- **Last verified:** 2026-09-27
+
 Related guides: [Pipedrive in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Ai Crm Tools](/best/ai-crm-tools/)
 
 ## Get the next teardown
@@ -166,6 +136,30 @@ Related guides: [Pipedrive in Hubspot Crm alternatives](/alternatives/hubspot-cr
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Pipedrive is a tool in CRM with paid plans starting at $14/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+
+Salesforce CRM
+
+Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+
+Freshsales
+
+AI-powered CRM with built-in phone, email, and chat for sales teams
+
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+HubSpot Marketing Hub
+
+All-in-one marketing automation with AI-powered content, email, and campaign tools
+
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -184,7 +178,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/pipedrive/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -287,7 +281,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pipedrive/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pipedrive/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pipedrive/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pipedrive/#breadcrumb"}, "dateModified": "2026-09-27"}
 ```
 
 ```json

@@ -1,5 +1,9 @@
 # Best open-source CRM tools (2026)
 
+## Best open-source CRM tools (2026)
+
+Most teams should start with EspoCRM. It is lean, free, and easy to extend piece by piece. SuiteCRM gives you the widest free feature set if you want everything in one box. Twenty fits developers who want a modern codebase to build on. All six self-host free, so the choice comes down to how much assembly you want.
+
 
 | Tool | Pricing | Public API | Best for |
 | --- | --- | --- | --- |
@@ -10,17 +14,9 @@
 | [Krayin CRM](/tools/krayin-crm/) | Open Source | yes | Best for Laravel shops that want room to extend a CRM. |
 | [Monica](/tools/monica/) | Open Source | yes | Best for relationship-led founders and community businesses. |
 
-[CRM](/categories/crm/)[Open-Source Tools](/categories/open-source/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-## Best open-source CRM tools (2026)
-
-Most teams should start with EspoCRM. It is lean, free, and easy to extend piece by piece. SuiteCRM gives you the widest free feature set if you want everything in one box. Twenty fits developers who want a modern codebase to build on. All six self-host free, so the choice comes down to how much assembly you want.
-
 **Our top pick: [EspoCRM](#espocrm)** — Best for lean sales teams that automate à la carte. [Try EspoCRM](https://www.espocrm.com)
 
-Last verified  · Updated 2026-10-02.
+Last verified 2026-09-28.
 
 ## How we picked
 
@@ -62,7 +58,7 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 
 ## [EspoCRM](/tools/espocrm/)
 
-EspoCRM fits teams that want a lean sales CRM and will pay only for automation they use. The AGPLv3 core covers contacts, leads, opportunities, cases, a knowledge base, portals, mass email with target lists, web-to-lead forms, kanban, and a formula engine; version 10 added multiple pipelines and record locking. Workflow automation, the BPM designer, and reports live in the paid Advanced Pack, as do Google Workspace and Outlook sync. Vendor cloud runs from 12.90 euro per user monthly (Basic, minimum 3 users) to 59 euro (Ultimate, minimum 10). The Intelligence add-on, released August 2026, connects OpenAI, Gemini, Claude, or any OpenAI-compatible provider for summaries and an AI email composer. Release 10.0.7 shipped September 3, 2026.
+EspoCRM earns its place as the lean pick in this list. The core stays light while automation and reports sit in a paid pack. That trade suits teams who prefer to buy automation piece by piece instead of carrying SuiteCRM breadth from day one.
 
 **Verdict:** Best for lean sales teams that automate à la carte.
 
@@ -74,7 +70,7 @@ Vendor: [Official site](https://www.espocrm.com) · [Pricing](https://www.espocr
 
 ## [SuiteCRM](/tools/suitecrm/)
 
-SuiteCRM has the deepest free module set here and the clearest answer to EspoCRM's pricing split: workflow automation and calculated fields ship in the core at no cost. The AGPLv3 project forked SugarCRM Community Edition and outlived it, maintained from Stirling, Scotland, with quotes, invoices, contracts, PDF templates, campaigns, surveys, cases, scheduled reports, and document management, plus Studio and Module Builder for no-code changes. Two release lines are current: 8.10.2 and 7.15.2 shipped together in July 2026, and 7.15 is an extended support release with security fixes published into 2028. The trade-offs are plain: no native AI in the documented feature set, no official mobile app, and a PHP 8.2 to 8.4 stack your team maintains.
+SuiteCRM is the breadth pick in this list. Automation and reports come in the free core where EspoCRM charges extra. The price is an older PHP stack to maintain plus no native AI or official mobile app.
 
 **Verdict:** Best for teams that want the widest free feature set.
 
@@ -86,7 +82,7 @@ Vendor: [Official site](https://www.suitecrm.com) · [GitHub](https://github.com
 
 ## [Twenty](/tools/twenty/)
 
-Twenty is the Salesforce-alternative pitch aimed at technical teams: 57,811 GitHub stars, TypeScript and NestJS on PostgreSQL, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for custom objects and logic functions. Self-hosting is free under AGPLv3 with all Pro features included; cloud Pro costs 9 dollars per user monthly billed yearly, Organization 19 dollars, Enterprise from 50,000 dollars per year. AI is narrow but documented: an AI chatbot over workspace data, AI agents inside workflows, AI-built dashboards, and a native MCP server on cloud workspaces. Its own docs name the fit: startups with technical founders, TypeScript-fluent agencies, and privacy-conscious organizations, and they point everyone else at Pipedrive or HubSpot.
+Twenty is the technical pick in this list. Self hosting costs nothing and the extensibility assumes a TypeScript team. That makes it the opposite of Frappe CRM and Monica, which ask less of the person setting things up.
 
 **Verdict:** Best for technically fluent teams wanting a modern extensible CRM.
 
@@ -98,7 +94,7 @@ Vendor: [Official site](https://twenty.com) · [Pricing](https://twenty.com/pric
 
 ## [Frappe CRM](/tools/frappe-crm/)
 
-Frappe CRM is the affordability pick: free to self-host under AGPL-3.0, Frappe Cloud from 5 dollars per month per site, dedicated servers 20 to 60 dollars monthly, and no tier that charges per user, with unlimited leads, deals, and users. It runs on the Frappe framework behind ERPNext and moves fast: roughly 130 releases across 2025 and 2026, reaching v1.83.0 in September 2026. Every lead and deal is a Frappe document, so custom fields, custom statuses, and Python server scripts extend it the ERPNext way. Integrations are narrow and documented: Twilio and Exotel telephony with click-to-call, WhatsApp via a third-party app, ERPNext, and Meta Lead Ads. The interface is a Vue 3 app delivered as a progressive web app.
+Frappe CRM is the low cost pick in this list. Hosting starts at a per site price with no per user fee. The trade is a narrow integration set next to the wider options here.
 
 **Verdict:** Best for budget-conscious sales teams, especially ERPNext shops.
 
@@ -110,7 +106,7 @@ Vendor: [Official site](https://frappe.io/crm) · [GitHub](https://github.com/fr
 
 ## [Krayin CRM](/tools/krayin-crm/)
 
-Krayin CRM is the Laravel-native option from Webkul: MIT-licensed with no user limits, 23,964 GitHub stars, v2.2.5 shipped August 4, 2026, with the 2.2 branch still taking commits. It covers leads with multiple pipelines, quotes, products and warehouses, unlimited custom fields, role-based access control, embeddable web-to-lead forms, and email templates. Two corrections to common criticism: workflow automation exists (the Automation package provides event triggers, conditions, actions, and webhooks, though docs are thin), and real AI exists (Magic AI creates leads from uploaded PDFs and images using an OpenRouter key). Check the stack first: PHP 8.3 or later with Laravel 12, MySQL 8.0.32 or later, and 3GB of RAM minimum. Paid Webkul extensions include multi-tenant SaaS at 1,799 dollars.
+Krayin CRM is the Laravel pick in this list. It fits shops already on PHP and Laravel who want room to extend. The trade is thinner docs and a stack to feed against the simpler hosted options here.
 
 **Verdict:** Best for Laravel shops that want room to extend a CRM.
 
@@ -122,7 +118,7 @@ Vendor: [Official site](https://krayincrm.com) · [Pricing](https://krayincrm.co
 
 ## [Monica](/tools/monica/)
 
-Monica is a different kind of CRM: a personal relationship manager built for documenting people rather than selling to them, with notes, activities, reminders including automatic birthdays, gifts, calls, life events, and 27 languages per the README, organized into vaults. Self-hosting is free under AGPL; hosted Monica is one plan at 9 dollars per month or 90 dollars yearly with unlimited contacts and managed backups. The README is explicit that it is not a social network and has no built-in AI. One fact shapes adoption: the app codebase is dormant, with the last main-branch commit in August 2025 and the newest stable release v4.1.2 from May 2024, while a rebuild called Monica v3 is promised before the end of 2026.
+Monica is the outlier on this list. It tracks people and relationships rather than pipelines and deals. It belongs here for relationship led teams, not for anyone who needs active sales releases.
 
 **Verdict:** Best for relationship-led founders and community businesses.
 
@@ -152,6 +148,10 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+[CRM](/categories/crm/)[Open-Source Tools](/categories/open-source/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -160,7 +160,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best open-source CRM tools (2026)",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -268,10 +268,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/open-source-crm/", "breadcrumb": {"@id": "https://martechsignal.com/best/open-source-crm/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

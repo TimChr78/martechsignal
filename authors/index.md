@@ -1,16 +1,16 @@
 # Authors
 
-Tim Christensen
-
-Founder. Writes the tool teardowns and the automation audits. Roughly 19 years in marketing technology, currently working in MarTech and platform product ownership.
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Authors
 
 Who writes MartechSignal, and what the hands-on test standard is.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+Tim Christensen
+
+Founder. Writes the tool teardowns and the automation audits. Roughly 19 years in marketing technology, currently working in MarTech and platform product ownership.
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -46,7 +46,7 @@ Who writes MartechSignal, and what the hands-on test standard is.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/authors/", "breadcrumb": {"@id": "https://martechsignal.com/authors/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/authors/", "breadcrumb": {"@id": "https://martechsignal.com/authors/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

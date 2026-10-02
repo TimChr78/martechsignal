@@ -1,62 +1,5 @@
 # Notifuse review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free with all features (AGPL-3.0); Cloud from $19/mo for 2,500 contacts with BYO-ESP and unlimited sends (the vendor pricing page: [pricing page](https://www.notifuse.com/pricing), verified 2026-08-28). |
-| Feature depth | 6/10 | Campaigns, Liquid templating and AI copy cover the email platform baseline without enterprise journey depth (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
-| Integrations | 6/10 | Six ESP transports (SES, Postmark, SendGrid, Mailgun, Mailjet, SparkPost) plus Anthropic, OpenAI, Gemini and Firecrawl documented (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
-| AI capability | 6/10 | AI copy via three model vendors, Liquid-templated blog writing and Firecrawl research for AI-assisted content (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0 with every feature free on your own server (the source repository: [repository](https://github.com/Notifuse/notifuse), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2025; the project is early and operations are thin (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/mo |
-| ✓ AI capabilities: AI email copy generation via Anthropic, OpenAI, or Gemini |  |
-| ✓ Active public repository (2,230 GitHub stars counted at last check) |  |
-| ✓ Native integrations include Amazon SES, Postmark, SendGrid (12 listed) |  |
-
-**What is Notifuse?**
-Notifuse: Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations. Notifuse ships with AI email copy generation via Anthropic, OpenAI, or Gemini. The public repository carries 2,230 stars.
-
-**How much does Notifuse cost?**
-Notifuse has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0, all features). Cloud from $19/mo (2,500 contacts); BYO ESP, unlimited sends. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
-
-**Is Notifuse a good self-hosted Email Marketing tool in 2026?**
-Sensible self-hosted routing layer for engineers; overkill for marketers.
-
-- **Pricing:** Open Source
-- **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 2230
-- **Founded:** 2025
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-08-28
-
-**Verdict:** Notifuse is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Loops
-
-Email marketing for SaaS: marketing, product, and transactional email in one tool
-
-BillionMail
-
-Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
-
-Mailchimp
-
-All-in-one marketing platform with AI-powered email, automation, and analytics
-
-Listmonk
-
-Open-source self-hosted newsletter and mailing list manager with a fast Go backend
-
-[More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
@@ -69,7 +12,7 @@ Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrati
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Notifuse →](https://www.notifuse.com)
 
@@ -80,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 38/60
 
 Notifuse is the honest open-source ESP alternative: all features free self-hosted under AGPL, and cloud pricing that respects BYO-ESP. Young and small, but the pricing and licence story is the cleanest in its category.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Self-hosted free with all features (AGPL-3.0); Cloud from $19/mo for 2,500 contacts with BYO-ESP and unlimited sends (the vendor pricing page: [pricing page](https://www.notifuse.com/pricing), verified 2026-08-28). |
+| Feature depth | 6/10 | Campaigns, Liquid templating and AI copy cover the email platform baseline without enterprise journey depth (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
+| Integrations | 6/10 | Six ESP transports (SES, Postmark, SendGrid, Mailgun, Mailjet, SparkPost) plus Anthropic, OpenAI, Gemini and Firecrawl documented (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
+| AI capability | 6/10 | AI copy via three model vendors, Liquid-templated blog writing and Firecrawl research for AI-assisted content (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 with every feature free on your own server (the source repository: [repository](https://github.com/Notifuse/notifuse), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2025; the project is early and operations are thin (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -132,6 +85,14 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/mo |
+| ✓ AI capabilities: AI email copy generation via Anthropic, OpenAI, or Gemini |  |
+| ✓ Active public repository (2,230 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Amazon SES, Postmark, SendGrid (12 listed) |  |
+
 ## Related concepts
 
 - [Email sequence](/glossary/email-sequence/)
@@ -144,10 +105,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Notifuse?**
 Notifuse: Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations. Notifuse ships with AI email copy generation via Anthropic, OpenAI, or Gemini. The public repository carries 2,230 stars.
 
+**How much does Notifuse cost?**
 Notifuse has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0, all features). Cloud from $19/mo (2,500 contacts); BYO ESP, unlimited sends. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
+**Is Notifuse a good self-hosted Email Marketing tool in 2026?**
 Sensible self-hosted routing layer for engineers; overkill for marketers.
 
 ## Similar Tools
@@ -162,6 +126,14 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Email Marketing](/categories/email-marketing/)
+- **GitHub:** ★ 2230
+- **Founded:** 2025
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-08-28
+
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 ## Get the next teardown
@@ -169,6 +141,28 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Notifuse is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Loops
+
+Email marketing for SaaS: marketing, product, and transactional email in one tool
+
+BillionMail
+
+Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+
+Mailchimp
+
+All-in-one marketing platform with AI-powered email, automation, and analytics
+
+Listmonk
+
+Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+
+[More Email Marketing Tools →](/categories/email-marketing/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

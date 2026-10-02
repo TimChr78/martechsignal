@@ -1,34 +1,20 @@
-# Salesforce vs HubSpot Marketing Hub (2026): pricing and AI
-
-
-| Dimension | Salesforce Marketing Cloud | HubSpot Marketing Hub |
-| --- | --- | --- |
-| Pricing | Enterprise | Freemium |
-| Open source | no | no |
-| Integrations listed | 9 listed: Salesforce CRM, Data 360 (Data Cloud), Slack, Tableau (+5 more) | 8 listed: Salesforce, Slack, Zapier, Shopify (+4 more) |
-| Public API | yes | yes |
-
-
-| Scenario | Salesforce Marketing Cloud | HubSpot Marketing Hub |
-| --- | --- | --- |
-| Cost basis | Per-org bundles billed annually, plus add-ons | Per seat and hub tier |
-| Free tier | None; pricing runs through sales | Free CRM forever |
-| Entry paid | Marketing Cloud Next Growth $1,500/mo billed annually; Starter $25/user/mo for smaller setups | Marketing Hub Starter $20/mo |
-| At 1,000 contacts | Contact volume rides inside the org bundle (Growth $1,500/mo). Personalization is $8/mo extra as an add-on, and AI features price separately. | 1,000 contacts fits Starter at $20/mo. Professional at $890/mo is where serious automation and attribution live. |
-| Checked | 2026-09-27 | 2026-09-27 |
-
-- **Pick Salesforce Marketing Cloud if:** you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.
-- **Pick HubSpot Marketing Hub if:** you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.
-
-[Marketing Automation](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+# Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict
 
 ## Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict
+
+Pick Salesforce Marketing Cloud if you run a Salesforce-centered org with enterprise budget, from $1,500/mo. Pick HubSpot Marketing Hub if you want a free CRM to start on, with Starter at $20/mo.
 
 Salesforce Marketing Cloud and HubSpot Marketing Hub end up on the same shortlist. Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing pages, lead capture, campaign management, and marketing automation in a single platform.
 
 Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
+
+## Salesforce Marketing Cloud vs HubSpot Marketing Hub: the quick decision
+
+
+| Tool | Starts at | Pick it when |
+| --- | --- | --- |
+| Salesforce Marketing Cloud | Enterprise | You run a Salesforce-centered org with enterprise budget, starting at $1,500/mo. |
+| HubSpot Marketing Hub | Freemium from $20/mo | You want a free CRM to start on, with marketing automation from $20/mo on Starter. |
 
 [Salesforce Marketing Cloud assessment](/tools/salesforce-marketing-cloud/) · [HubSpot Marketing Hub assessment](/tools/hubspot-marketing-hub/)
 
@@ -40,9 +26,26 @@ Salesforce Marketing Cloud
 
 HubSpot Marketing Hub
 
+
+| Dimension | Salesforce Marketing Cloud | HubSpot Marketing Hub |
+| --- | --- | --- |
+| Pricing | Enterprise | Freemium from $20/mo |
+| Open source | no | no |
+| Integrations listed | 9 listed: Salesforce CRM, Data 360 (Data Cloud), Slack, Tableau (+5 more) | 8 listed: Salesforce, Slack, Zapier, Shopify (+4 more) |
+| Public API | yes | yes |
+
 ## Priced at volume
 
 Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing pages.
+
+
+| Scenario | Salesforce Marketing Cloud | HubSpot Marketing Hub |
+| --- | --- | --- |
+| Cost basis | Per-org bundles billed annually, plus add-ons | Per seat and hub tier |
+| Free tier | None; pricing runs through sales | Free CRM forever |
+| Entry paid | Marketing Cloud Next Growth $1,500/mo billed annually; Starter $25/user/mo for smaller setups | Marketing Hub Starter $20/mo |
+| At 1,000 contacts | Contact volume rides inside the org bundle (Growth $1,500/mo). Personalization is $8/mo extra as an add-on, and AI features price separately. | 1,000 contacts fits Starter at $20/mo. Professional at $890/mo is where serious automation and attribution live. |
+| Checked | 2026-09-27 | 2026-09-27 |
 
 ## Positioning
 
@@ -106,6 +109,9 @@ Neither suits a small team selling to a few hundred accounts: the setup cost exc
 
 ## Who should pick which
 
+- **Pick Salesforce Marketing Cloud if:** you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.
+- **Pick HubSpot Marketing Hub if:** you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.
+
 ## Which enterprise pick fits a Salesforce estate?
 
 Salesforce Marketing Cloud, with Agentforce campaigns in the package. Estates already bought into the Salesforce stack pay more in switching costs than any license gap, so the stack question decides first.
@@ -120,7 +126,7 @@ Yes. Both are hosted platforms the vendor runs, so neither gives the self-hostin
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
-Last verified  · Updated 2026-10-02.
+Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
@@ -132,6 +138,10 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+[Marketing Automation](/categories/marketing-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -140,7 +150,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/#article",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -223,10 +233,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/", "breadcrumb": {"@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

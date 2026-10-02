@@ -1,10 +1,14 @@
 # Best AI Personalization & CDP tools (2026): 8 compared
 
+## Best AI Personalization & CDP tools (2026): 8 compared
+
+Dynamic Yield fits large commerce operations buying personalization depth. Segment makes sense when the real problem is data plumbing. Nosto gives merchants recommendations their merchandisers can steer. Clerk.io brings search and recommendations to mid-size stores without enterprise procurement. Start from your data stack, not the demo.
+
 
 | Tool | Pricing | Open source | Best for |
 | --- | --- | --- | --- |
 | [Dynamic Yield](/tools/dynamic-yield/) | Enterprise | No | Large commerce operations buying personalization depth over self-serve |
-| [Twilio Segment](/tools/segment/) | Freemium | No | Teams whose personalization problem is really a data plumbing problem |
+| [Twilio Segment](/tools/segment/) | Freemium from $120/mo | No | Teams whose personalization problem is really a data plumbing problem |
 | [Nosto](/tools/nosto/) | Enterprise | No | Merchants that want recommendations their merchandisers can steer |
 | [Clerk.io](/tools/clerk-io/) | From $119/mo | No | Mid-size stores that want search and recs without enterprise procurement |
 | [Tealium](/tools/tealium/) | Enterprise | No | Regulated enterprises that need governance around every customer event |
@@ -12,17 +16,9 @@
 | [GrowthBook](/tools/growthbook/) | Freemium | Yes (MIT) | Best for product teams that want feature flags and A/B testing they can self-host, with a free Starter plan for 3 users. |
 | [Jitsu](/tools/jitsu/) | Freemium | Yes (MIT) | Best for data teams that want open-source event collection in their own warehouse, free to self-host. |
 
-[Open-Source Tools](/categories/open-source/)[Personalization & CDP](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-## Best AI Personalization & CDP tools (2026): 8 compared
-
-Dynamic Yield fits large commerce operations buying personalization depth. Segment makes sense when the real problem is data plumbing. Nosto gives merchants recommendations their merchandisers can steer. Clerk.io brings search and recommendations to mid-size stores without enterprise procurement. Start from your data stack, not the demo.
-
 **Our top pick: [Dynamic Yield](#dynamic-yield)** — Large commerce operations buying personalization depth over self-serve [Try Dynamic Yield](https://www.dynamicyield.com)
 
-Last verified  · Updated 2026-10-02.
+Last verified 2026-09-28.
 
 ## How we picked
 
@@ -58,7 +54,7 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 
 ## [Dynamic Yield](/tools/dynamic-yield/)
 
-Dynamic Yield by Mastercard is an enterprise personalization platform built around Experience OS, a decisioning layer that picks the content, products, and offers to serve each visitor across web, mobile apps, email, and triggered messages. Pricing is enterprise and quoted per contract, and no published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts (verified 2026-09-06). The catalog documents 7 AI features, 10 integrations, and a public API.
+It is on this list as the enterprise decisioning pick. It selects content and offers across web and app and email. There is no published pricing and every path ends at sales or demo. Pick it when depth beats self serve and procurement is expected.
 
 **Verdict:** Large commerce operations buying personalization depth over self-serve
 
@@ -70,7 +66,7 @@ Vendor: [Official site](https://www.dynamicyield.com) · [Pricing](https://www.d
 
 ## [Twilio Segment](/tools/segment/)
 
-Twilio Segment is a developer-first customer data platform: SDKs and server libraries send events to one API, and Segment routes them to analytics tools, ad platforms, and warehouses. It starts free, and free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats; Business is custom. Protocols, Unify, and Engage are Business-tier or add-on. 14-day trial. Twilio states pricing current as of August 2026 (verified 2026-09-06). The catalog documents 6 AI features, 10 integrations, and a public API.
+It is on this list as the developer first data router. Free covers one thousand tracked users and two sources and Team starts near one hundred twenty dollars. Governance and identity features sit in Business or add ons. Pick it when plumbing events to tools matters more than on site tests.
 
 **Verdict:** Teams whose personalization problem is really a data plumbing problem
 
@@ -82,7 +78,7 @@ Vendor: [Official site](https://segment.com) · [Pricing](https://www.twilio.com
 
 ## [Nosto](/tools/nosto/)
 
-Nosto is a commerce experience platform for online stores, built around a shared AI layer the company brands experience.AI: one engine that collects shopper behavior and feeds every module, so what a shopper clicks in search informs the recommendations and category sort orders they see next. Pricing is enterprise and quoted per contract, and quote-based: a base platform fee plus a fixed fee calculated on your store's volume (GMV turnover and traffic), scaled by modules and support level. No published numbers anywhere on the site (verified 2026-09-07). The catalog documents 5 AI features, 11 integrations, and a public API.
+It is on this list as the store experience suite with shared AI across modules. Pricing is quote based on volume and traffic with no published numbers. That trade fits larger merchants. Pick it when search and recommendations and sorting should learn from the same behavior.
 
 **Verdict:** Merchants that want recommendations their merchandisers can steer
 
@@ -94,7 +90,7 @@ Vendor: [Official site](https://www.nosto.com) · [Pricing](https://www.nosto.co
 
 ## [Clerk.io](/tools/clerk-io/)
 
-Clerk.io is an AI ecommerce personalization platform that helps online stores optimize every customer touchpoint with behavior-driven intelligence. From $119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts (verified 2026-09-25). The catalog documents 5 AI features, 7 integrations, and a public API.
+It is on this list as the mid size store pick with a public floor. Plans start near one hundred nineteen dollars a month with custom pricing above by traffic and modules. Contracts run monthly to yearly. Pick it when the store wants search and recommendations without enterprise sales.
 
 **Verdict:** Mid-size stores that want search and recs without enterprise procurement
 
@@ -106,7 +102,7 @@ Vendor: [Official site](https://www.clerk.io) · [Pricing](https://www.clerk.io/
 
 ## [Tealium](/tools/tealium/)
 
-Tealium is an independent enterprise Customer Data Platform (CDP) built around the Tealium Customer Data Hub, a suite of integrated products covering tag management, real-time data collection, audience building, and API-driven data access. Pricing is enterprise and quoted per contract, and enterprise custom pricing; annual contracts; tag management and CDP modules (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
+It is on this list as the governed enterprise data hub. It covers tags and real time collection and audiences with API access. Pricing is custom annual with tag and CDP modules. Pick it when regulated data handling matters more than quick setup.
 
 **Verdict:** Regulated enterprises that need governance around every customer event
 
@@ -118,7 +114,7 @@ Vendor: [Official site](https://tealium.com) · [Pricing](https://tealium.com/pr
 
 ## [Flagsmith](/tools/flagsmith/)
 
-Flagsmith is an open-source feature flag and remote configuration platform, BSD-3-Clause, with 6,585 GitHub stars, operated commercially by Bullet Train Ltd out of London. It starts free, and cloud free tier up to 50,000 API requests/mo. Scale USD 50/member/month (list 60, launch discount shown Sep 2026). Extra API calls from USD 50 per million. Self-hosted open source is free (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.
+It is on this list as the open source flag and config pick. Cloud has a free request tier and Scale is per member per month with paid overage blocks. Self host is free. Pick it when teams want segment targeting in code they can host.
 
 **Verdict:** Teams that want their experiment engine as open as their stack
 
@@ -130,7 +126,7 @@ Vendor: [Official site](https://www.flagsmith.com) · [Pricing](https://www.flag
 
 ## [GrowthBook](/tools/growthbook/)
 
-GrowthBook is an open-source feature flag and A/B testing platform with 8,464 GitHub stars, built warehouse-native: experiments are analyzed in your own data warehouse instead of a vendor copy of your events. It starts free, and starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.
+It is on this list as the open source flag plus experiment pick. Starter is free for three users and Pro is per seat with more projects. Warehouse event limits apply with paid blocks above. Pick it when tests should analyze inside your own warehouse.
 
 **Verdict:** Best for product teams that want feature flags and A/B testing they can self-host, with a free Starter plan for 3 users.
 
@@ -142,7 +138,7 @@ Vendor: [Official site](https://www.growthbook.io) · [Pricing](https://www.grow
 
 ## [Jitsu](/tools/jitsu/)
 
-Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,096 stars on GitHub. It starts free, and free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits (verified 2026-09-25). The catalog documents 1 AI feature, 6 integrations, a public API, and a self-hosting path.
+It is on this list as the open source event pipeline pick and Segment alternative. Free covers capped active events and one daily sync and Business raises limits for ninety nine dollars. Enterprise is custom. Pick it when warehouse first capture matters more than built in testing.
 
 **Verdict:** Best for data teams that want open-source event collection in their own warehouse, free to self-host.
 
@@ -172,6 +168,10 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+[Open-Source Tools](/categories/open-source/)[Personalization & CDP](/categories/personalization/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -180,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI Personalization & CDP tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -310,10 +310,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-personalization-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-personalization-tools/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

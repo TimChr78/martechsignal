@@ -1,62 +1,5 @@
 # DeskcommCRM review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT with no paid tiers; run costs are a 4GB VPS, Supabase and your AI keys, stated plainly (the vendor pricing page: [pricing page](https://deskcomm.com.br/#preco), verified 2026-09-14). |
-| Feature depth | 6/10 | Lead qualification agents, pipeline movement and per-tenant RAG cover WhatsApp-based selling (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
-| Integrations | 7/10 | WhatsApp via WAHA and the official Cloud API, Supabase, Nuvemshop, Zapier, n8n, OpenRouter and MCP (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
-| AI capability | 7/10 | RAG-backed agents with seven-check pre-send guardrails show real production thinking (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/melgarafael/DeskcommCRM), verified 2026-09-28). |
-| Operational maturity | 4/10 | Agent-side support noted for paid plans (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ AI capabilities: per-tenant RAG knowledge base for WhatsApp agents |  |
-| ✓ Active public repository (4,350 GitHub stars counted at last check) |  |
-| ✓ Native integrations include WhatsApp (WAHA QR-code), WhatsApp Cloud API (Meta official), Supabase (10 listed) |  |
-
-**What is DeskcommCRM?**
-DeskcommCRM: Self-hosted open-source CRM with AI agents that sell through WhatsApp. DeskcommCRM ships with per-tenant RAG knowledge base for WhatsApp agents. The public repository carries 4,350 stars.
-
-**How much does DeskcommCRM cost?**
-DeskcommCRM is open source - MIT licensed and free to self-host; the public repository carries 4,350 stars; native integrations cover WhatsApp (WAHA QR-code), WhatsApp Cloud API (Meta official), Supabase. You pay in server time and maintenance, not licences.
-
-**Is DeskcommCRM a good self-hosted CRM tool in 2026?**
-Strengths include 4,350 GitHub stars, MIT licensing with free self-hosting, an API for custom integrations. DeskcommCRM documents 10 integrations
-
-- **Pricing:** Open Source
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 4350
-- **HQ:** Brazil
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-14
-
-**Verdict:** DeskcommCRM is a tool in CRM with free and open source. The catalog documents 7 AI features, 10 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-14. This is a desk review, not a hands-on test. Desk-reviewed
-
-WaCRM
-
-Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations
-
-Cordys CRM
-
-Open-source AI CRM with built-in agents, conversational analytics, and private deployment
-
-Google Ads + Meta Ads + GA4 MCP
-
-MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
-
-Khoj
-
-Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -67,7 +10,7 @@ Self-hosted open-source CRM with AI agents that sell through WhatsApp
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit DeskcommCRM →](https://deskcomm.com.br)
 
@@ -78,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 41/60
 
 DeskcommCRM is WhatsApp selling as self-hosted MIT software: RAG knowledge per tenant and seven pre-send guardrails. You run the VPS and the AI keys; the agents do the qualifying.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free under MIT with no paid tiers; run costs are a 4GB VPS, Supabase and your AI keys, stated plainly (the vendor pricing page: [pricing page](https://deskcomm.com.br/#preco), verified 2026-09-14). |
+| Feature depth | 6/10 | Lead qualification agents, pipeline movement and per-tenant RAG cover WhatsApp-based selling (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
+| Integrations | 7/10 | WhatsApp via WAHA and the official Cloud API, Supabase, Nuvemshop, Zapier, n8n, OpenRouter and MCP (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
+| AI capability | 7/10 | RAG-backed agents with seven-check pre-send guardrails show real production thinking (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/melgarafael/DeskcommCRM), verified 2026-09-28). |
+| Operational maturity | 4/10 | Agent-side support noted for paid plans (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -116,6 +69,14 @@ Current plans and limits live on the [DeskcommCRM pricing page](https://deskcomm
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: per-tenant RAG knowledge base for WhatsApp agents |  |
+| ✓ Active public repository (4,350 GitHub stars counted at last check) |  |
+| ✓ Native integrations include WhatsApp (WAHA QR-code), WhatsApp Cloud API (Meta official), Supabase (10 listed) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -130,10 +91,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is DeskcommCRM?**
 DeskcommCRM: Self-hosted open-source CRM with AI agents that sell through WhatsApp. DeskcommCRM ships with per-tenant RAG knowledge base for WhatsApp agents. The public repository carries 4,350 stars.
 
+**How much does DeskcommCRM cost?**
 DeskcommCRM is open source - MIT licensed and free to self-host; the public repository carries 4,350 stars; native integrations cover WhatsApp (WAHA QR-code), WhatsApp Cloud API (Meta official), Supabase. You pay in server time and maintenance, not licences.
 
+**Is DeskcommCRM a good self-hosted CRM tool in 2026?**
 Strengths include 4,350 GitHub stars, MIT licensing with free self-hosting, an API for custom integrations. DeskcommCRM documents 10 integrations
 
 ## Similar Tools
@@ -145,11 +109,41 @@ Strengths include 4,350 GitHub stars, MIT licensing with free self-hosting, an A
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 4350
+- **HQ:** Brazil
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-14
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** DeskcommCRM is a tool in CRM with free and open source. The catalog documents 7 AI features, 10 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-14. This is a desk review, not a hands-on test. Desk-reviewed
+
+WaCRM
+
+Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations
+
+Cordys CRM
+
+Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+
+Google Ads + Meta Ads + GA4 MCP
+
+MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+
+Khoj
+
+Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

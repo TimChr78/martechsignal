@@ -1,74 +1,5 @@
 # Appsmith review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Self-host CE free (Apache 2.0), Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users published (the vendor pricing page: [pricing page](https://www.appsmith.com/pricing), verified 2026-09-07). |
-| Feature depth | 7/10 | Admin panels, dashboards and workflows over existing databases and APIs cover internal tooling fully (vendor documentation: [vendor site](https://appsmith.com), verified 2026-09-28). |
-| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Snowflake to S3, HubSpot and Salesforce (vendor documentation: [vendor site](https://appsmith.com), verified 2026-09-28). |
-| AI capability | 3/10 | In-editor SQL and JS assistance is the live AI surface; the AI datasource is deprecated as of September 30, 2026 (vendor documentation: [vendor site](https://appsmith.com), verified 2026-09-28). |
-| Openness | 8/10 | Apache-2.0 community edition with self-hosting parity (the source repository: [repository](https://github.com/appsmithorg/appsmith), verified 2026-09-28). |
-| Operational maturity | 7/10 | With priced cloud tiers and an enterprise edition (vendor documentation: [vendor site](https://appsmith.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $15/mo once past the free tier |
-| ✓ AI capabilities: ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3) |  |
-| ✓ Active public repository (40,984 GitHub stars counted at last check) |  |
-| ✓ Native integrations include PostgreSQL, MySQL, MongoDB (13 listed) |  |
-
-**What is Appsmith?**
-Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,984 stars.
-
-**How much does Appsmith cost?**
-Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
-
-**Is Appsmith a good self-hosted Workflow Automation tool in 2026?**
-The safest default in the open-source internal-tools class: Apache 2.0 core, the widest documented connector list, real git-based workflows and steady releases, provided a developer owns it.
-
-**Is Appsmith free for commercial use?**
-Yes, for the community edition: the repo is Apache 2.0, so self-hosting for internal business use costs nothing, with no seat limits in the license itself. What is paid is the edition rather than the right to use it. The recommended appsmith-ee image is the commercial build on a free plan, and features such as SAML or OIDC SSO, SCIM provisioning, audit logs, custom roles and private app embedding unlock on Business ($15 per user monthly) or Enterprise (from $2,500 per month for 100 users). Install the appsmith-ce image if you want only what the open-source repo carries.
-
-**Appsmith vs Retool: what's the difference?**
-Retool is a hosted commercial platform; Appsmith is Apache 2.0 and self-hostable, so the app runtime and your data stay on your infrastructure and the community edition carries no per-builder fee. Appsmith's own comparison content frames itself as the developer-centric, open-source alternative to Retool's closed source and scaling costs. The practical trade: Retool gives you a managed service with polished connectors and support out of the box, while Appsmith gives you ownership and git-based workflows but you run the container, the upgrades and the 8 GB host yourself.
-
-**Which databases and SaaS tools does Appsmith connect to?**
-Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server, Oracle, Snowflake, Redshift, Databricks, DynamoDB, Firestore, Elasticsearch, Redis, ArangoDB, S3 and SMTP, plus any REST or GraphQL API. SaaS connectors cover HubSpot, Salesforce, Google Sheets, Google Drive, Airtable, Jira, Notion, Mixpanel, Monday.com, Linear, GitHub, Gmail and Outlook, among others. Marketing teams usually pair it with a warehouse or call ad platform APIs directly rather than expecting deep native marketing connectors; the queries are SQL or JavaScript you write.
-
-- **Pricing:** Free tier
-- **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 40984
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** Appsmith is a tool in Workflow Automation with free and open source. The catalog documents 2 AI features, 13 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-ToolJet
-
-Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
-
-Budibase
-
-Open-source operations platform for building AI agents, apps and automations on your own data
-
-Jitsu
-
-Open-source Segment alternative for event capture and warehouse-first data pipelines
-
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-n8n Marketing Flows
-
-79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
-
-[More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
@@ -81,7 +12,7 @@ Open-source platform for building admin panels and internal dashboards on your e
 
 Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Appsmith →](https://appsmith.com)
 
@@ -92,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 39/60
 
 Appsmith is how internal tools get built in a week: 40,984 stars of admin-panel plumbing over your own databases. The AI assist is an editor convenience, and its first datasource is already deprecated.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Self-host CE free (Apache 2.0), Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users published (the vendor pricing page: [pricing page](https://www.appsmith.com/pricing), verified 2026-09-07). |
+| Feature depth | 7/10 | Admin panels, dashboards and workflows over existing databases and APIs cover internal tooling fully (vendor documentation: [vendor site](https://appsmith.com), verified 2026-09-28). |
+| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Snowflake to S3, HubSpot and Salesforce (vendor documentation: [vendor site](https://appsmith.com), verified 2026-09-28). |
+| AI capability | 3/10 | In-editor SQL and JS assistance is the live AI surface; the AI datasource is deprecated as of September 30, 2026 (vendor documentation: [vendor site](https://appsmith.com), verified 2026-09-28). |
+| Openness | 8/10 | Apache-2.0 community edition with self-hosting parity (the source repository: [repository](https://github.com/appsmithorg/appsmith), verified 2026-09-28). |
+| Operational maturity | 7/10 | With priced cloud tiers and an enterprise edition (vendor documentation: [vendor site](https://appsmith.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -164,6 +105,14 @@ The safest default in the open-source internal-tools class: Apache 2.0 core, the
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $15/mo once past the free tier |
+| ✓ AI capabilities: ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3) |  |
+| ✓ Active public repository (40,984 GitHub stars counted at last check) |  |
+| ✓ Native integrations include PostgreSQL, MySQL, MongoDB (13 listed) |  |
+
 ## Related concepts
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -178,16 +127,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Appsmith?**
 Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,984 stars.
 
+**How much does Appsmith cost?**
 Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
+**Is Appsmith a good self-hosted Workflow Automation tool in 2026?**
 The safest default in the open-source internal-tools class: Apache 2.0 core, the widest documented connector list, real git-based workflows and steady releases, provided a developer owns it.
 
+**Is Appsmith free for commercial use?**
 Yes, for the community edition: the repo is Apache 2.0, so self-hosting for internal business use costs nothing, with no seat limits in the license itself. What is paid is the edition rather than the right to use it. The recommended appsmith-ee image is the commercial build on a free plan, and features such as SAML or OIDC SSO, SCIM provisioning, audit logs, custom roles and private app embedding unlock on Business ($15 per user monthly) or Enterprise (from $2,500 per month for 100 users). Install the appsmith-ce image if you want only what the open-source repo carries.
 
+**Appsmith vs Retool: what's the difference?**
 Retool is a hosted commercial platform; Appsmith is Apache 2.0 and self-hostable, so the app runtime and your data stay on your infrastructure and the community edition carries no per-builder fee. Appsmith's own comparison content frames itself as the developer-centric, open-source alternative to Retool's closed source and scaling costs. The practical trade: Retool gives you a managed service with polished connectors and support out of the box, while Appsmith gives you ownership and git-based workflows but you run the container, the upgrades and the 8 GB host yourself.
 
+**Which databases and SaaS tools does Appsmith connect to?**
 Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server, Oracle, Snowflake, Redshift, Databricks, DynamoDB, Firestore, Elasticsearch, Redis, ArangoDB, S3 and SMTP, plus any REST or GraphQL API. SaaS connectors cover HubSpot, Salesforce, Google Sheets, Google Drive, Airtable, Jira, Notion, Mixpanel, Monday.com, Linear, GitHub, Gmail and Outlook, among others. Marketing teams usually pair it with a warehouse or call ad platform APIs directly rather than expecting deep native marketing connectors; the queries are SQL or JavaScript you write.
 
 ## Similar Tools
@@ -199,11 +154,44 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 
+- **Pricing:** Free tier
+- **Category:** [Workflow Automation](/categories/workflow-automation/)
+- **GitHub:** ★ 40984
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Appsmith is a tool in Workflow Automation with free and open source. The catalog documents 2 AI features, 13 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+ToolJet
+
+Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
+
+Budibase
+
+Open-source operations platform for building AI agents, apps and automations on your own data
+
+Jitsu
+
+Open-source Segment alternative for event capture and warehouse-first data pipelines
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+n8n Marketing Flows
+
+79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
+
+[More Workflow Automation Tools →](/categories/workflow-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

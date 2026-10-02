@@ -1,60 +1,5 @@
 # ChatbotX review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Free open-source and self-hosted with nothing to price (the vendor pricing page: [vendor site](https://chatbotx.io/docs), verified 2026-08-28). |
-| Feature depth | 4/10 | Agentic chat marketing and automated sales conversations cover the ManyChat-shaped loop at small scale (vendor documentation: [vendor site](https://chatbotx.io/docs), verified 2026-09-28). |
-| Integrations | 2/10 | No named integrations in the catalog (vendor documentation: [vendor site](https://chatbotx.io/docs), verified 2026-09-28). |
-| AI capability | 5/10 | Agentic AI chat marketing is the thesis of the project rather than a feature (vendor documentation: [vendor site](https://chatbotx.io/docs), verified 2026-09-28). |
-| Openness | 8/10 | Open-source self-hosted with full code access (the source repository: [repository](https://github.com/ChatbotXIO/ChatbotX), verified 2026-09-28). |
-| Operational maturity | 3/10 | No company or founding year in the catalog (vendor documentation: [vendor site](https://chatbotx.io/docs), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ API access for custom integrations |  |
-| ✓ AI capabilities: agentic AI chat marketing |  |
-
-**What is ChatbotX?**
-ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 857 stars.
-
-**How much does ChatbotX cost?**
-ChatbotX is open source - Free to self-host; the public repository carries 857 stars. You pay in server time and maintenance, not licences.
-
-**Is ChatbotX a good self-hosted Chatbots & Conversational AI tool in 2026?**
-Right for technical teams that want ManyChat-style automation without lock-in. Everyone else should stay hosted.
-
-- **Pricing:** Open Source
-- **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
-- **GitHub:** ★ 857
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-08-28
-
-**Verdict:** ChatbotX is a tool in Chatbots & Conversational AI with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Chatfuel
-
-AI chatbot platform for automating customer conversations on messaging channels
-
-ManyChat
-
-AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
-
-Laudspeaker
-
-Open-source customer engagement and product onboarding platform, alternative to Braze
-
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-[More Chatbots & Conversational AI Tools →](/categories/chatbots/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
@@ -67,7 +12,7 @@ Open-source ManyChat alternative built for AI, omnichannel chat marketing and au
 
 Chatbots & Conversational AI · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit ChatbotX →](https://chatbotx.io/docs)
 
@@ -78,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 31/60
 
 ChatbotX is the open-source ManyChat alternative for teams that want agentic chat marketing on their own server. It is early; read the code before you depend on it.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free open-source and self-hosted with nothing to price (the vendor pricing page: [vendor site](https://chatbotx.io/docs), verified 2026-08-28). |
+| Feature depth | 4/10 | Agentic chat marketing and automated sales conversations cover the ManyChat-shaped loop at small scale (vendor documentation: [vendor site](https://chatbotx.io/docs), verified 2026-09-28). |
+| Integrations | 2/10 | No named integrations in the catalog (vendor documentation: [vendor site](https://chatbotx.io/docs), verified 2026-09-28). |
+| AI capability | 5/10 | Agentic AI chat marketing is the thesis of the project rather than a feature (vendor documentation: [vendor site](https://chatbotx.io/docs), verified 2026-09-28). |
+| Openness | 8/10 | Open-source self-hosted with full code access (the source repository: [repository](https://github.com/ChatbotXIO/ChatbotX), verified 2026-09-28). |
+| Operational maturity | 3/10 | No company or founding year in the catalog (vendor documentation: [vendor site](https://chatbotx.io/docs), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -106,6 +61,13 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ API access for custom integrations |  |
+| ✓ AI capabilities: agentic AI chat marketing |  |
+
 ## Related concepts
 
 - [Chatbot](/glossary/chatbot/)
@@ -118,10 +80,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is ChatbotX?**
 ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 857 stars.
 
+**How much does ChatbotX cost?**
 ChatbotX is open source - Free to self-host; the public repository carries 857 stars. You pay in server time and maintenance, not licences.
 
+**Is ChatbotX a good self-hosted Chatbots & Conversational AI tool in 2026?**
 Right for technical teams that want ManyChat-style automation without lock-in. Everyone else should stay hosted.
 
 ## Similar Tools
@@ -136,6 +101,13 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Developers that want ManyChat's playbook as source code
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
+- **GitHub:** ★ 857
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-08-28
+
 ### Pricing
 
 Free open-source; self-hosted
@@ -147,6 +119,28 @@ Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** ChatbotX is a tool in Chatbots & Conversational AI with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Chatfuel
+
+AI chatbot platform for automating customer conversations on messaging channels
+
+ManyChat
+
+AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
+
+Laudspeaker
+
+Open-source customer engagement and product onboarding platform, alternative to Braze
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+[More Chatbots & Conversational AI Tools →](/categories/chatbots/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

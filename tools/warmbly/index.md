@@ -1,66 +1,5 @@
 # Warmbly review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free to self-host under Apache 2.0; cloud free plan with 10 mailboxes, Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day) published (the vendor pricing page: [pricing page](https://warmbly.com/pricing/), verified 2026-09-24). |
-| Feature depth | 6/10 | Warmup, campaigns, a unified inbox and CRM make a complete cold-email loop for its size (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
-| Integrations | 5/10 | HubSpot, Slack, Zapier, Gmail, Microsoft 365 and SMTP plus REST API and HMAC webhooks documented (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
-| AI capability | 7/10 | Agent steps that branch on classified reply intent with automatic reply classification (positive, OOO, unsubscribe, bounce) are genuinely agentic (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
-| Openness | 9/10 | Apache-2.0 self-hosted with no cloud dependency (the source repository: [repository](https://github.com/warmbly/warmbly), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2026; the operating history is measured in months (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $29/mo |
-| ✓ AI capabilities: AI agent steps in campaign sequences that branch on classified reply intent | ✗ Young project (343 GitHub stars) - smaller community and plugin ecosystem |
-| ✓ Native integrations include HubSpot, Slack, Zapier (8 listed) |  |
-
-**What is Warmbly?**
-Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 343 stars.
-
-**How much does Warmbly cost?**
-Warmbly has a free tier; paid plans start at $29/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers."
-
-**Is Warmbly a good self-hosted Email Marketing tool in 2026?**
-The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you.
-
-- **Pricing:** Open Source
-- **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 343
-- **Founded:** 2026
-- **HQ:** London, UK
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-24
-
-**Verdict:** Warmbly is a tool in Email Marketing with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-24. This is a desk review, not a hands-on test. Desk-reviewed
-
-Notifuse
-
-Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
-
-Loops
-
-Email marketing for SaaS: marketing, product, and transactional email in one tool
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
-
-Listmonk
-
-Open-source self-hosted newsletter and mailing list manager with a fast Go backend
-
-Brevo
-
-Multichannel marketing platform billing by email volume, not contacts
-
-[More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
@@ -71,7 +10,7 @@ Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Warmbly →](https://warmbly.com)
 
@@ -82,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 38/60
 
 Warmbly packages cold email honestly as open source: Apache 2.0, self-hosted, with warmup and reply classification built in. With a 2026 founding date, you are the early adopter and the operator.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free to self-host under Apache 2.0; cloud free plan with 10 mailboxes, Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day) published (the vendor pricing page: [pricing page](https://warmbly.com/pricing/), verified 2026-09-24). |
+| Feature depth | 6/10 | Warmup, campaigns, a unified inbox and CRM make a complete cold-email loop for its size (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
+| Integrations | 5/10 | HubSpot, Slack, Zapier, Gmail, Microsoft 365 and SMTP plus REST API and HMAC webhooks documented (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
+| AI capability | 7/10 | Agent steps that branch on classified reply intent with automatic reply classification (positive, OOO, unsubscribe, bounce) are genuinely agentic (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
+| Openness | 9/10 | Apache-2.0 self-hosted with no cloud dependency (the source repository: [repository](https://github.com/warmbly/warmbly), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026; the operating history is measured in months (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -135,6 +84,13 @@ The most complete open-source cold email stack we have listed, but young (launch
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $29/mo |
+| ✓ AI capabilities: AI agent steps in campaign sequences that branch on classified reply intent | ✗ Young project (343 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ Native integrations include HubSpot, Slack, Zapier (8 listed) |  |
+
 ## Related concepts
 
 - [Email sequence](/glossary/email-sequence/)
@@ -147,10 +103,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Warmbly?**
 Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 343 stars.
 
+**How much does Warmbly cost?**
 Warmbly has a free tier; paid plans start at $29/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers."
 
+**Is Warmbly a good self-hosted Email Marketing tool in 2026?**
 The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you.
 
 ## Similar Tools
@@ -165,6 +124,15 @@ The most complete open-source cold email stack we have listed, but young (launch
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Email Marketing](/categories/email-marketing/)
+- **GitHub:** ★ 343
+- **Founded:** 2026
+- **HQ:** London, UK
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-24
+
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 ## Get the next teardown
@@ -172,6 +140,32 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Warmbly is a tool in Email Marketing with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-24. This is a desk review, not a hands-on test. Desk-reviewed
+
+Notifuse
+
+Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+
+Loops
+
+Email marketing for SaaS: marketing, product, and transactional email in one tool
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+Listmonk
+
+Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+
+Brevo
+
+Multichannel marketing platform billing by email volume, not contacts
+
+[More Email Marketing Tools →](/categories/email-marketing/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

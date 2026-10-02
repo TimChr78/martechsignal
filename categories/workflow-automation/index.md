@@ -1,5 +1,80 @@
 # Workflow Automation Tools
 
+- [Home](/)
+- [Tools](/tools/)
+- Workflow Automation
+## Workflow Automation Tools
+
+Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents, and enterprise governance. 17 reviewed.
+
+17 TOOLS IN THIS CATEGORY
+
+## OPEN SOURCE / SELF-HOSTED***4*
+
+### LangChain
+
+### n8n
+
+### n8n Marketing Flows
+
+### Paperclip
+
+## COMMERCIAL***5*
+
+### Zapier
+
+### Make
+
+### Pipedream
+
+### Tray.io
+
+### Workato
+
+## LOW-CODE INTERNAL BUILDERS***4*
+
+### Appsmith
+
+### Budibase
+
+### NocoBase
+
+### ToolJet
+
+## More Workflow Automation tools***4*
+
+### Activepieces
+
+### IFTTT
+
+### Microsoft Power Automate
+
+### Pabbly Connect
+
+**Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) · [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Make vs Zapier](/vs/make-vs-zapier/) · [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) · [Zapier alternatives](/alternatives/zapier/) · [n8n alternatives](/alternatives/n8n/) · [Best workflow automation tools (2026)](/best/workflow-automation-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
+
+## Key terms
+
+- [Workflow automation](/glossary/workflow-automation/)
+- [Agentic Marketing](/glossary/agentic-marketing/)
+- [MCP](/glossary/mcp/)
+- [AI Agent](/glossary/ai-agent/)
+Full definitions in the [martech glossary](/glossary/).
+
+Workflow automation is the unglamorous layer that decides whether your stack works like a system or just a pile of browser tabs. It is how your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually do things instead of drafting suggestions nobody opens.
+
+The category splits two ways. Zapier and Make get you to a live run before lunch, but you rent the engine. n8n and LangChain hand you primitives and trust you to know what to do with them. Workato and Tray.io sit in the enterprise tier and wrap both ideas in governance and a bigger invoice. Appsmith, Budibase, Tooljet and NocoBase take a different bet again: they turn your own database into admin panels and internal automations, so the workflow layer stays inside tools you build yourself.
+
+If you are comparing these in 2026, app counts decide nothing: they all connect enough. What matters is whether a run can hold state across a long job, recover from a failure without losing progress, and give an AI agent real operations to call. That last part matters more than node count, and most comparisons leave it out.
+
+## Which one fits
+
+Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langchain.com) · [Paperclip](https://paperclip.ing)
+
+## Reading before you buy
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 
 Open SourceHands-onOSS
@@ -132,81 +207,6 @@ Where the agent orchestration layer is heading next
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
-- [Home](/)
-- [Tools](/tools/)
-- Workflow Automation
-## Workflow Automation Tools
-
-Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents, and enterprise governance. 17 reviewed.
-
-17 TOOLS IN THIS CATEGORY
-
-## OPEN SOURCE / SELF-HOSTED***4*
-
-### LangChain
-
-### n8n
-
-### n8n Marketing Flows
-
-### Paperclip
-
-## COMMERCIAL***5*
-
-### Zapier
-
-### Make
-
-### Pipedream
-
-### Tray.io
-
-### Workato
-
-## LOW-CODE INTERNAL BUILDERS***4*
-
-### Appsmith
-
-### Budibase
-
-### NocoBase
-
-### ToolJet
-
-## More Workflow Automation tools***4*
-
-### Activepieces
-
-### IFTTT
-
-### Microsoft Power Automate
-
-### Pabbly Connect
-
-**Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) · [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Make vs Zapier](/vs/make-vs-zapier/) · [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) · [Zapier alternatives](/alternatives/zapier/) · [n8n alternatives](/alternatives/n8n/) · [Best workflow automation tools (2026)](/best/workflow-automation-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
-
-## Key terms
-
-- [Workflow automation](/glossary/workflow-automation/)
-- [Agentic Marketing](/glossary/agentic-marketing/)
-- [MCP](/glossary/mcp/)
-- [AI Agent](/glossary/ai-agent/)
-Full definitions in the [martech glossary](/glossary/).
-
-Workflow automation is the unglamorous layer that decides whether your stack works like a system or just a pile of browser tabs. It is how your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually do things instead of drafting suggestions nobody opens.
-
-The category splits two ways. Zapier and Make get you to a live run before lunch, but you rent the engine. n8n and LangChain hand you primitives and trust you to know what to do with them. Workato and Tray.io sit in the enterprise tier and wrap both ideas in governance and a bigger invoice. Appsmith, Budibase, Tooljet and NocoBase take a different bet again: they turn your own database into admin panels and internal automations, so the workflow layer stays inside tools you build yourself.
-
-If you are comparing these in 2026, app counts decide nothing: they all connect enough. What matters is whether a run can hold state across a long job, recover from a failure without losing progress, and give an AI agent real operations to call. That last part matters more than node count, and most comparisons leave it out.
-
-## Which one fits
-
-Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langchain.com) · [Paperclip](https://paperclip.ing)
-
-## Reading before you buy
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 
 ```json
 {
@@ -246,7 +246,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 17,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -459,7 +459,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/workflow-automation/", "breadcrumb": {"@id": "https://martechsignal.com/categories/workflow-automation/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/workflow-automation/", "breadcrumb": {"@id": "https://martechsignal.com/categories/workflow-automation/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

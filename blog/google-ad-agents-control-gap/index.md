@@ -1,22 +1,5 @@
 # Google Handed Your Ad Budget to AI Agents
 
-
-| GA4 metric, same website | Google Ads | ChatGPT Ads |
-| --- | --- | --- |
-| Average engagement time per active user | 41 seconds | 17 seconds |
-| Engaged sessions per active user | 1.13 | 0.88 |
-| Conversion rate | 3.71% | 0.21% |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-TARGETbid + budget, set by you
-
-PLATFORM MODELmatching, pacing, format
-
-AUCTIONmoney committed
-
-REPORTthe AI explains itself
-
 AI · ADVERTISING · 12 MIN
 
 ## Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook
@@ -25,7 +8,7 @@ AI · ADVERTISING · 12 MIN
 
 [Home](/) · [Blog](/blog/) · Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook
 
-AUG 17, 2026 · Updated 2026-10-02
+AUG 17, 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -66,6 +49,13 @@ After the ad serves, you learn almost nothing about where it served. The guides 
 The economics have hard edges too. Average CPCs run $2 to $5 across industries, and if you set a max CPC below $3, the platform tells you your ad may not deliver. The guides describe that as a hard-coded threshold rather than a dynamic assessment of competition. Minimum daily budget is $25, down from the $200,000 pilot commitments, which is exactly the kind of floor that puts this platform within reach of a junior marketer with a credit card and no supervision.
 
 Then there is the engagement data from the guides' own GA4 test, roughly 1,500 users reaching one website through Google Ads versus ChatGPT Ads:
+
+
+| GA4 metric, same website | Google Ads | ChatGPT Ads |
+| --- | --- | --- |
+| Average engagement time per active user | 41 seconds | 17 seconds |
+| Engaged sessions per active user | 1.13 | 0.88 |
+| Conversion rate | 3.71% | 0.21% |
 
 One test, one website, and the authors say so. But 0.21% against 3.71% is the kind of number that should make anyone pause before describing this channel as plug-and-play performance spend. The platform is real, and it reaches people who are not searching on Google. It is also a channel where you pay per click, cannot see what triggered the click, and get 17 seconds of attention when the visitor arrives.
 
@@ -143,6 +133,16 @@ More from the directory: [LanguageTool](/tools/languagetool/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+TARGETbid + budget, set by you
+
+PLATFORM MODELmatching, pacing, format
+
+AUCTIONmoney committed
+
+REPORTthe AI explains itself
+
 
 ```json
 {
@@ -174,7 +174,7 @@ More from the directory: [LanguageTool](/tools/languagetool/)
     }
   },
   "datePublished": "2026-08-17",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-17",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-ad-agents-control-gap/",
   "image": {
     "@type": "ImageObject",
@@ -220,7 +220,7 @@ More from the directory: [LanguageTool](/tools/languagetool/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/#breadcrumb"}, "dateModified": "2026-08-17"}
 ```
 
 ```json

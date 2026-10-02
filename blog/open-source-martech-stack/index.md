@@ -1,59 +1,5 @@
 # Open-Source Martech Stack vs $5K/mo Subscriptions
 
-
-| Open Source | Stars | Cost | Commercial | Cost |
-| --- | --- | --- | --- | --- |
-| TwentyOSS | 56.5K | $0 self-hosted | Salesforce / HubSpot | $25–150/user/mo |
-| SuiteCRMOSS | 5.7K | $0 self-hosted | Salesforce | $25–300/user/mo |
-| EspoCRMOSS | 3.3K | $0 self-hosted | Pipedrive | $14–99/user/mo |
-
-
-| Open Source | Stars | Cost | Commercial | Cost |
-| --- | --- | --- | --- | --- |
-| ListmonkOSS | 23.3K | $0 + SMTP | Mailchimp | $13–350/mo |
-| BillionMailOSS | 15.6K | $0 self-hosted | Klaviyo | $20–1,500/mo |
-| GhostOSS | 55.2K | $0 / Cloud $9/mo | Substack / Beehiiv | 10% rev / [$49/mo](https://www.beehiiv.com/pricing) |
-
-
-| Open Source | Stars | Cost | Commercial | Cost |
-| --- | --- | --- | --- | --- |
-| MauticOSS | 10.5K | $0 self-hosted | HubSpot / Marketo | $800–2,000+/mo |
-| n8nOSS | 206K | $0 / Cloud €20/mo | Zapier / Make | $20–700/mo |
-| LaudspeakerOSS | 2.6K | $0 self-hosted | Customer.io / Braze | $100–enterprise |
-
-
-| Open Source | Stars | Cost | Commercial | Cost |
-| --- | --- | --- | --- | --- |
-| PlausibleOSS | 29.0K | $0 / Cloud $9/mo | Google Analytics | $0 (but: your data) |
-| UmamiOSS | 38.7K | $0 / Cloud $20/mo | Mixpanel | $0–1,000+/mo |
-| MatomoOSS | 21.9K | $0 / Cloud €19/mo | Adobe Analytics | $enterprise |
-| SnowplowOSS | 7.0K | $0 self-hosted | Segment | $120+/mo |
-
-
-| Open Source | Stars | Cost | Commercial | Cost |
-| --- | --- | --- | --- | --- |
-| StrapiOSS | 73.1K | $0 / Cloud $15/mo | Contentful | $300+/mo |
-| GhostOSS | 55.2K | $0 / Cloud $9/mo | WordPress VIP | $250+/mo |
-
-
-| Open Source | Stars | Cost | Commercial | Cost |
-| --- | --- | --- | --- | --- |
-| ChatwootOSS | 34.8K | $0 / Cloud $19/mo | Intercom | $29–132/seat/mo |
-| ChatbotXOSS | 524 | $0 self-hosted | ManyChat | $15–65/mo |
-
-
-| Function | Commercial | OSS Self-Hosted | OSS Cloud |
-| --- | --- | --- | --- |
-| CRM | $800/mo | $0 | $0 |
-| Email | $350/mo | $15/mo | n/a |
-| Automation | $70/mo | $0 | €20/mo |
-| Analytics | $288/mo | $0 | $9/mo |
-| CMS | $300/mo | $0 | $15/mo |
-| Chat | $290/mo | $0 | $19/mo |
-| TOTAL | $2,098/mo | $15/mo + VPS | ~$83/mo |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 UPDATED · 8 MIN
 
 ## Open-Source Martech Stack vs $5K/mo Subscriptions
@@ -62,7 +8,7 @@ UPDATED · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Open-Source Martech Stack vs $5K/mo Subscriptions
 
-JUL 27, 2026 · Updated 2026-10-02
+JUL 27, 2026
 
 Every marketing team pays the subscription tax. HubSpot at $800/mo. Salesforce at $150/user. Adobe Marketo at $2,000+. A mid-size B2B team easily burns $5,000–15,000/month on martech subscriptions, and the prices only go up.
 
@@ -71,6 +17,13 @@ The open-source alternative has quietly matured. Tools like [n8n](/tools/n8n/) (
 We went through our [directory of open-source marketing tools](/categories/open-source/), where every entry has a full review with sources and built a complete stack, category by category. Then we compared it against the commercial incumbents on cost, features, and the thing nobody talks about: **what "free" actually costs.**
 
 ## 1. CRM: The Foundation
+
+
+| Open Source | Stars | Cost | Commercial | Cost |
+| --- | --- | --- | --- | --- |
+| TwentyOSS | 56.5K | $0 self-hosted | Salesforce / HubSpot | $25–150/user/mo |
+| SuiteCRMOSS | 5.7K | $0 self-hosted | Salesforce | $25–300/user/mo |
+| EspoCRMOSS | 3.3K | $0 self-hosted | Pipedrive | $14–99/user/mo |
 
 **Twenty** is the one to watch: an AI-native CRM built as a direct Salesforce replacement, with a UI that does not look like 2005. Venture backing and 56.5K stars make it the closest thing to a credible open-source Salesforce. An earlier version of this post credited Twenty with real-time data enrichment and agentic workflows. Our [Twenty review](/tools/twenty/) corrects that: neither is a documented feature.
 
@@ -82,6 +35,13 @@ For teams under 50 users who can self-host, the savings are enormous. Twenty cov
 
 ## 2. Email Marketing & Newsletters
 
+
+| Open Source | Stars | Cost | Commercial | Cost |
+| --- | --- | --- | --- | --- |
+| ListmonkOSS | 23.3K | $0 + SMTP | Mailchimp | $13–350/mo |
+| BillionMailOSS | 15.6K | $0 self-hosted | Klaviyo | $20–1,500/mo |
+| GhostOSS | 55.2K | $0 / Cloud $9/mo | Substack / Beehiiv | 10% rev / [$49/mo](https://www.beehiiv.com/pricing) |
+
 **Listmonk** is written in Go and handles millions of subscribers on a $5 VPS. No per-contact pricing, no feature gating. If you can run Docker, you can run a newsletter platform that would cost $350/mo on Mailchimp.
 
 **Ghost** has become the default for creator newsletters. Built-in memberships, SEO, and now AI writing tools. Self-hosted is free; cloud starts at $9/mo (vs. Beehiiv's [$49 tier](https://www.beehiiv.com/pricing)).
@@ -92,6 +52,13 @@ Email is where OSS wins by the widest margin. Commercial platforms charge per co
 
 ## 3. Marketing Automation
 
+
+| Open Source | Stars | Cost | Commercial | Cost |
+| --- | --- | --- | --- | --- |
+| MauticOSS | 10.5K | $0 self-hosted | HubSpot / Marketo | $800–2,000+/mo |
+| n8nOSS | 206K | $0 / Cloud €20/mo | Zapier / Make | $20–700/mo |
+| LaudspeakerOSS | 2.6K | $0 self-hosted | Customer.io / Braze | $100–enterprise |
+
 **Mautic** is the only true open-source marketing automation platform. Lead scoring, drip campaigns, landing pages, email sequences. It is what HubSpot was before it became a $200B company. The UI is dated, but the feature set is genuinely comparable to Marketo for B2B use cases.
 
 **n8n** isn't marketing-specific, but with 400+ nodes and AI agent capabilities, it has become the glue that holds OSS martech stacks together. Connect your CRM to your email tool to your analytics without paying the Zapier tax.
@@ -101,6 +68,14 @@ Email is where OSS wins by the widest margin. Commercial platforms charge per co
 For a solo marketer or small team, Mautic + n8n covers 90% of what HubSpot does. For enterprise teams needing SLAs, compliance certifications, and dedicated support, commercial platforms still have the edge. The feature gap has closed; the support gap hasn't.
 
 ## 4. Analytics & Attribution
+
+
+| Open Source | Stars | Cost | Commercial | Cost |
+| --- | --- | --- | --- | --- |
+| PlausibleOSS | 29.0K | $0 / Cloud $9/mo | Google Analytics | $0 (but: your data) |
+| UmamiOSS | 38.7K | $0 / Cloud $20/mo | Mixpanel | $0–1,000+/mo |
+| MatomoOSS | 21.9K | $0 / Cloud €19/mo | Adobe Analytics | $enterprise |
+| SnowplowOSS | 7.0K | $0 self-hosted | Segment | $120+/mo |
 
 This is the most mature OSS category. **Plausible** and **Umami** have effectively made Google Analytics unnecessary for content sites. Privacy-friendly, cookieless, GDPR-compliant by default, and they load in 1KB instead of GA's 45KB script.
 
@@ -114,6 +89,12 @@ With GDPR enforcement tightening and third-party cookies dead, owning your analy
 
 ## 5. Content & Publishing
 
+
+| Open Source | Stars | Cost | Commercial | Cost |
+| --- | --- | --- | --- | --- |
+| StrapiOSS | 73.1K | $0 / Cloud $15/mo | Contentful | $300+/mo |
+| GhostOSS | 55.2K | $0 / Cloud $9/mo | WordPress VIP | $250+/mo |
+
 **Strapi** is the most-starred OSS project in our entire directory (73.1K). It is a headless CMS that replaces Contentful at 1/20th the cost. API-first, plugin ecosystem, and now AI-powered content management.
 
 > **✅ OSS Wins: Clearly**
@@ -121,6 +102,12 @@ With GDPR enforcement tightening and third-party cookies dead, owning your analy
 Contentful at $300/mo for what Strapi does free is the easiest ROI calculation in martech. The only reason to pay is if you need their CDN and don't want to manage infrastructure.
 
 ## 6. Chatbots & Customer Engagement
+
+
+| Open Source | Stars | Cost | Commercial | Cost |
+| --- | --- | --- | --- | --- |
+| ChatwootOSS | 34.8K | $0 / Cloud $19/mo | Intercom | $29–132/seat/mo |
+| ChatbotXOSS | 524 | $0 self-hosted | ManyChat | $15–65/mo |
 
 **Chatwoot** is a full Intercom replacement. Live chat, AI chatbot, helpdesk, omnichannel (WhatsApp, Instagram, email). At 34.8K stars, it's production-proven. The cloud version at $19/mo undercuts Intercom's cheapest plan by $10/seat.
 
@@ -131,6 +118,17 @@ Chatwoot has the features. Intercom has the polish. Their [Fin AI agent](/blog/w
 ## The Real Cost Comparison
 
 Here's what a complete martech stack costs for a 10-person marketing team managing 50K contacts:
+
+
+| Function | Commercial | OSS Self-Hosted | OSS Cloud |
+| --- | --- | --- | --- |
+| CRM | $800/mo | $0 | $0 |
+| Email | $350/mo | $15/mo | n/a |
+| Automation | $70/mo | $0 | €20/mo |
+| Analytics | $288/mo | $0 | $9/mo |
+| CMS | $300/mo | $0 | $15/mo |
+| Chat | $290/mo | $0 | $19/mo |
+| TOTAL | $2,098/mo | $15/mo + VPS | ~$83/mo |
 
 > Here's what open-source actually costs beyond the $0 price tag:
 
@@ -192,6 +190,8 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -223,7 +223,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
     }
   },
   "datePublished": "2026-07-27",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-07-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/open-source-martech-stack/",
   "image": {
     "@type": "ImageObject",
@@ -269,7 +269,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/open-source-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/open-source-martech-stack/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/open-source-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/open-source-martech-stack/#breadcrumb"}, "dateModified": "2026-07-27"}
 ```
 
 ```json

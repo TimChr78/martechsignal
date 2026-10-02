@@ -1,18 +1,5 @@
 # Your Dashboard Can't See AI Search: 5-Layer Fix
 
-
-| Layer | Question it answers | Track this | Legacy dashboard shows |
-| --- | --- | --- | --- |
-| 1. AI access | Can AI systems reach your content at all? | Verified AI bot crawl frequency, depth, coverage | Nothing. Crawlers are not traffic |
-| 2. AI visibility | Are you part of the answer? | Mention and citation rates against a fixed prompt library; GSC impressions from AI Overviews; Bing grounding queries | Rank positions on queries that stop producing clicks |
-| 3. AI referrals | Who clicked through from AI? | GA4 sessions from identifiable LLM referrers, counted as a floor | AI Mode and Overview visits blended into "organic" or Direct |
-| 4. Downstream demand | Is visibility turning into interest? | Branded clicks in GSC plus branded organic conversions in GA4, watched for correlation | Last-click credit assigned to branded search |
-| 5. Business outcomes | Did any of it become money? | Pipeline and closed-won with an AI-source field on the lead form | Revenue with the journey stripped out |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-******JSON
-
 SEO · AI SEARCH · 11 MIN
 
 ## Your Dashboard Can't See AI Search, Here's the 5-Layer Fix
@@ -21,7 +8,7 @@ SEO · AI SEARCH · 11 MIN
 
 [Home](/) · [Blog](/blog/) · Your Dashboard Can't See AI Search, Here's the 5-Layer Fix
 
-AUG 22, 2026 · Updated 2026-10-02
+AUG 22, 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -44,6 +31,15 @@ Run those three facts together and the failure mode is mechanical, not anecdotal
 ## The five layers, and what each one tracks
 
 Jurenka's answer is to stop chasing one perfect attribution metric and measure influence across five layers, each answering a different business question. No single layer proves causation. Together they form a body of evidence that marketing is shaping demand in places traditional attribution cannot observe. Here is the mapping against what a legacy dashboard gives you today.
+
+
+| Layer | Question it answers | Track this | Legacy dashboard shows |
+| --- | --- | --- | --- |
+| 1. AI access | Can AI systems reach your content at all? | Verified AI bot crawl frequency, depth, coverage | Nothing. Crawlers are not traffic |
+| 2. AI visibility | Are you part of the answer? | Mention and citation rates against a fixed prompt library; GSC impressions from AI Overviews; Bing grounding queries | Rank positions on queries that stop producing clicks |
+| 3. AI referrals | Who clicked through from AI? | GA4 sessions from identifiable LLM referrers, counted as a floor | AI Mode and Overview visits blended into "organic" or Direct |
+| 4. Downstream demand | Is visibility turning into interest? | Branded clicks in GSC plus branded organic conversions in GA4, watched for correlation | Last-click credit assigned to branded search |
+| 5. Business outcomes | Did any of it become money? | Pipeline and closed-won with an AI-source field on the lead form | Revenue with the journey stripped out |
 
 **Layer 1, access, is the one everyone skips.** Before an AI system can recommend you it has to find and crawl you. Jurenka's point is that AI bot activity is the earliest indicator of progress, but user-agent strings get spoofed, so validate with reverse DNS lookups, published IP ranges, or your CDN's verified-bot service before counting anything. A spike in fake GPTBot hits is not visibility. It is noise wearing a costume.
 
@@ -119,6 +115,10 @@ More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+******JSON
+
 
 ```json
 {
@@ -150,7 +150,7 @@ More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
     }
   },
   "datePublished": "2026-08-22",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-22",
   "mainEntityOfPage": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/",
   "image": {
     "@type": "ImageObject",
@@ -196,7 +196,7 @@ More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/", "breadcrumb": {"@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/", "breadcrumb": {"@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/#breadcrumb"}, "dateModified": "2026-08-22"}
 ```
 
 ```json

@@ -1,72 +1,5 @@
 # Phrasee review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 2/10 | Quote-based with no published price list and no trial; last public terms (2023) described annual enterprise agreements (the vendor pricing page: [pricing page](https://www.jacquard.com/book-a-demo/), verified 2026-09-07). |
-| Feature depth | 7/10 | Brand-safe generation, performance prediction, tone analysis and automated A/B/N testing make a focused message optimization suite (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
-| Integrations | 7/10 | A dozen named enterprise ESPs from Salesforce Marketing Cloud to Emarsys documented (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
-| AI capability | 7/10 | The Neural engine's performance prediction over generated variants is a decade-old asset few can match (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise product with no API documented in the catalog (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2015, rebranded as Jacquard in June 2024; deep history with a transition question attached (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: brand-safe AI message generation (Language engine) | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Salesforce Marketing Cloud, Braze, Adobe (12 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
-
-**What is Phrasee?**
-Phrasee: AI messaging content platform; rebranded as Jacquard in June 2024. Phrasee ships with brand-safe AI message generation (Language engine). This page documents 12 integrations.
-
-**How much does Phrasee cost?**
-Phrasee uses enterprise pricing, so the number depends on your volume and contract. Enterprise, quote-based; no published price list and no trial. Last published terms (2023) described flexible enterprise pricing, billed annually, unlimited seats and content creation. Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
-
-**Is Phrasee a good AI Content & Copywriting tool in 2026?**
-Enterprise AI copy generation, now called Jacquard, with deterministic brand guardrails and automatic testing; the ownership history in older directories, including ours, was wrong.
-
-**Is Phrasee part of Marigold?**
-No. Phrasee was never owned by CM Group or Marigold, and no 2021 transaction appears in its Companies House filing history. Control passed to a majority investment by capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners on March 14, 2022, and the company renamed itself Jacquard Group Limited in June 2024. Marigold's enterprise business was sold to Zeta Global in November 2025, but Phrasee/Jacquard was never part of that group.
-
-**Does Phrasee work with Salesforce Marketing Cloud?**
-Yes. Salesforce Marketing Cloud appears on the archived 2023 partner list alongside Braze, Adobe, Iterable, Bloomreach, Oracle Responsys, Optimizely, Epsilon, Cordial, Airship, Acoustic, and Emarsys, and Salesforce is the one partner named in prose on the live integrations page, where a customer states that the integration improved workflow efficiency and speed in creating, testing, and deploying email content. The live page renders its other partner logos without names, so confirm the current list with the vendor.
-
-**What lift can I realistically expect from Phrasee or Jacquard?**
-Vendor-published results range widely. Currys reports 42% uplift in opens, 93% in clicks, and 102% in revenue; P&O Cruises 13% opens and 18% clicks; Home Chef 21% opens and 29% clicks; Confused.com 12% on clicks. The platform-wide claims are a 9.7% median click uplift for the predicted champion, rising to 19% with testing, and a 66% win rate at predicting the top-performing variant against human controls. All of these are the company's own numbers, not independent audits.
-
-- **Pricing:** Enterprise
-- **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **Founded:** 2015
-- **HQ:** London, UK
-- **API:** No
-- **Last verified:** 2026-09-07
-
-**Verdict:** Phrasee is a tool in AI Content & Copywriting with custom pricing. The catalog documents 4 AI features and 12 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Hypotenuse AI
-
-AI content generation platform for ecommerce product descriptions and articles
-
-MarketMuse
-
-AI-powered content strategy and optimization platform for SEO content teams
-
-Nosto
-
-AI-powered ecommerce personalization with product recommendations and merchandising
-
-Predis.ai
-
-AI-powered social media content generator for posts, videos, and ad creatives
-
-Anyword
-
-AI copywriting platform with predictive performance scores for marketing content
-
-[More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
@@ -79,7 +12,7 @@ AI messaging content platform; rebranded as Jacquard in June 2024
 
 AI Content & Copywriting · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Phrasee →](https://www.jacquard.com)
 
@@ -90,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 31/60
 
 Phrasee, now Jacquard, has optimized enterprise message language for a decade and it shows in the prediction engine. The rebrand adds procurement questions on top of quote-only pricing.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 2/10 | Quote-based with no published price list and no trial; last public terms (2023) described annual enterprise agreements (the vendor pricing page: [pricing page](https://www.jacquard.com/book-a-demo/), verified 2026-09-07). |
+| Feature depth | 7/10 | Brand-safe generation, performance prediction, tone analysis and automated A/B/N testing make a focused message optimization suite (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
+| Integrations | 7/10 | A dozen named enterprise ESPs from Salesforce Marketing Cloud to Emarsys documented (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
+| AI capability | 7/10 | The Neural engine's performance prediction over generated variants is a decade-old asset few can match (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise product with no API documented in the catalog (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2015, rebranded as Jacquard in June 2024; deep history with a transition question attached (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -163,6 +106,12 @@ Enterprise AI copy generation, now called Jacquard, with deterministic brand gua
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: brand-safe AI message generation (Language engine) | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Salesforce Marketing Cloud, Braze, Adobe (12 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+
 ## Related concepts
 
 - [AI content](/glossary/ai-content-generation/)
@@ -175,16 +124,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Phrasee?**
 Phrasee: AI messaging content platform; rebranded as Jacquard in June 2024. Phrasee ships with brand-safe AI message generation (Language engine). This page documents 12 integrations.
 
+**How much does Phrasee cost?**
 Phrasee uses enterprise pricing, so the number depends on your volume and contract. Enterprise, quote-based; no published price list and no trial. Last published terms (2023) described flexible enterprise pricing, billed annually, unlimited seats and content creation. Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
 
+**Is Phrasee a good AI Content & Copywriting tool in 2026?**
 Enterprise AI copy generation, now called Jacquard, with deterministic brand guardrails and automatic testing; the ownership history in older directories, including ours, was wrong.
 
+**Is Phrasee part of Marigold?**
 No. Phrasee was never owned by CM Group or Marigold, and no 2021 transaction appears in its Companies House filing history. Control passed to a majority investment by capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners on March 14, 2022, and the company renamed itself Jacquard Group Limited in June 2024. Marigold's enterprise business was sold to Zeta Global in November 2025, but Phrasee/Jacquard was never part of that group.
 
+**Does Phrasee work with Salesforce Marketing Cloud?**
 Yes. Salesforce Marketing Cloud appears on the archived 2023 partner list alongside Braze, Adobe, Iterable, Bloomreach, Oracle Responsys, Optimizely, Epsilon, Cordial, Airship, Acoustic, and Emarsys, and Salesforce is the one partner named in prose on the live integrations page, where a customer states that the integration improved workflow efficiency and speed in creating, testing, and deploying email content. The live page renders its other partner logos without names, so confirm the current list with the vendor.
 
+**What lift can I realistically expect from Phrasee or Jacquard?**
 Vendor-published results range widely. Currys reports 42% uplift in opens, 93% in clicks, and 102% in revenue; P&O Cruises 13% opens and 18% clicks; Home Chef 21% opens and 29% clicks; Confused.com 12% on clicks. The platform-wide claims are a 9.7% median click uplift for the predicted champion, rising to 19% with testing, and a 66% win rate at predicting the top-performing variant against human controls. All of these are the company's own numbers, not independent audits.
 
 ## Similar Tools
@@ -199,6 +154,13 @@ Vendor-published results range widely. Currys reports 42% uplift in opens, 93% i
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Best for AI content & copywriting teams that want ai tone-of-voice analysis, with pricing quoted per contract.
 ### Quick Facts
 
+- **Pricing:** Enterprise
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
+- **Founded:** 2015
+- **HQ:** London, UK
+- **API:** No
+- **Last verified:** 2026-09-07
+
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 
 ## Get the next teardown
@@ -206,6 +168,32 @@ Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tool
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Phrasee is a tool in AI Content & Copywriting with custom pricing. The catalog documents 4 AI features and 12 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Hypotenuse AI
+
+AI content generation platform for ecommerce product descriptions and articles
+
+MarketMuse
+
+AI-powered content strategy and optimization platform for SEO content teams
+
+Nosto
+
+AI-powered ecommerce personalization with product recommendations and merchandising
+
+Predis.ai
+
+AI-powered social media content generator for posts, videos, and ad creatives
+
+Anyword
+
+AI copywriting platform with predictive performance scores for marketing content
+
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -224,7 +212,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/phrasee/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-07",
     "datePublished": "2026-07-27"
   },
   {
@@ -344,7 +332,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/phrasee/", "breadcrumb": {"@id": "https://martechsignal.com/tools/phrasee/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/phrasee/", "breadcrumb": {"@id": "https://martechsignal.com/tools/phrasee/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

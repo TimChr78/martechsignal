@@ -1,73 +1,5 @@
 # Persado review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 2/10 | Enterprise custom pricing with no public numbers; the focus is finserv, retail and travel contracts (the vendor pricing page: [pricing page](https://www.persado.com/contact/), verified 2026-09-07). |
-| Feature depth | 7/10 | Create, Optimize and Automate cover generation, message scoring and per-recipient personalization at send time (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
-| Integrations | 7/10 | Nine named enterprise ESP connections including Salesforce Marketing Cloud, Braze, Eloqua and Klaviyo documented (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
-| AI capability | 8/10 | Per-recipient personalization at send time backed by a long-running language performance dataset (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise product delivered inside your ESP's contract (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
-| Operational maturity | 7/10 | Founded 2012 with regulated-industry deployments and the audit story that requires (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI content generation (Create) | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Salesforce Marketing Cloud, Adobe Campaign Classic, Adobe Journey Optimizer (10 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
-| ✓ API access for custom integrations |  |
-
-**What is Persado?**
-Persado: AI content creation and optimization platform for regulated financial services marketing. Persado ships with AI content generation (Create). This page documents 10 integrations.
-
-**How much does Persado cost?**
-Persado uses enterprise pricing, so the number depends on your volume and contract. Enterprise custom pricing; focused on regulated industries (finserv, retail, travel). Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
-
-**Is Persado a good AI Content & Copywriting tool in 2026?**
-Enterprise message optimization for financial services, sold as a service as much as software; the compliance record and language knowledge base are the pitch, and the price is whatever the demo produces.
-
-**Is Persado owned by Accenture?**
-No evidence supports that. Persado operates as Persado Inc., its footer carries a 2026 copyright in its own name, and co-founders Alex Vratskides (CEO) and Assaf Baciu (President) still run it according to the company's about page. No acquisition or investment by Accenture appears on persado.com, in the company's press releases (the latest dated October 8, 2025), or in third-party lists of Accenture acquisitions.
-
-**Does Persado offer a free trial or published pricing?**
-No on either count. persado.com/pricing returns a 404 and no price appears anywhere on the site; every call to action is a demo request form. The nearest options to an evaluation are the self-service Studio tier, which covers Optimize only, and a Chrome extension that the company describes as optimizing copy in-browser with zero IT involvement and as perfect for trials. The site quotes typical onboarding at approximately four weeks for the managed service.
-
-**How does Persado integrate with Salesforce Marketing Cloud?**
-Four documented models. Native is the deepest: every email send pulls Persado-scored variants and variant-level performance flows back automatically, with optimization covering subject, preheader, body, and CTA, and setup quoted at 2-3 weeks including QA. Data Integration Pipeline takes 4-6 weeks, Service-Delivered goes live on the first campaign cycle, and a Chrome extension optimizes copy inside any web UI with no IT involvement. The Automate product runs per-recipient content selection at send time inside Journey Builder.
-
-- **Pricing:** Enterprise
-- **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **Founded:** 2012
-- **HQ:** New York, NY, USA
-- **API:** Yes
-- **Last verified:** 2026-09-07
-
-**Verdict:** Persado is a tool in AI Content & Copywriting with custom pricing. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Bloomreach
-
-AI-powered commerce experience platform with search, personalization, and CDP
-
-Hootsuite
-
-Social media management platform with AI-powered scheduling and analytics
-
-Anyword
-
-AI copywriting platform with predictive performance scores for marketing content
-
-Braze
-
-Customer engagement platform with AI-powered real-time messaging across channels
-
-ContentBot
-
-AI content automation platform with workflows for blogs, ads, and social posts
-
-[More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
@@ -80,7 +12,7 @@ AI content creation and optimization platform for regulated financial services m
 
 AI Content & Copywriting · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Persado →](https://www.persado.com)
 
@@ -91,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 33/60
 
 Persado sells message math to regulated industries: scored language per recipient, deployed through the ESP you already run. It is a specialist buy with the contracting that implies.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 2/10 | Enterprise custom pricing with no public numbers; the focus is finserv, retail and travel contracts (the vendor pricing page: [pricing page](https://www.persado.com/contact/), verified 2026-09-07). |
+| Feature depth | 7/10 | Create, Optimize and Automate cover generation, message scoring and per-recipient personalization at send time (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
+| Integrations | 7/10 | Nine named enterprise ESP connections including Salesforce Marketing Cloud, Braze, Eloqua and Klaviyo documented (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
+| AI capability | 8/10 | Per-recipient personalization at send time backed by a long-running language performance dataset (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise product delivered inside your ESP's contract (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2012 with regulated-industry deployments and the audit story that requires (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -164,6 +106,13 @@ Enterprise message optimization for financial services, sold as a service as muc
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI content generation (Create) | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Salesforce Marketing Cloud, Adobe Campaign Classic, Adobe Journey Optimizer (10 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [AI content](/glossary/ai-content-generation/)
@@ -176,16 +125,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Persado?**
 Persado: AI content creation and optimization platform for regulated financial services marketing. Persado ships with AI content generation (Create). This page documents 10 integrations.
 
+**How much does Persado cost?**
 Persado uses enterprise pricing, so the number depends on your volume and contract. Enterprise custom pricing; focused on regulated industries (finserv, retail, travel). Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
 
+**Is Persado a good AI Content & Copywriting tool in 2026?**
 Enterprise message optimization for financial services, sold as a service as much as software; the compliance record and language knowledge base are the pitch, and the price is whatever the demo produces.
 
+**Is Persado owned by Accenture?**
 No evidence supports that. Persado operates as Persado Inc., its footer carries a 2026 copyright in its own name, and co-founders Alex Vratskides (CEO) and Assaf Baciu (President) still run it according to the company's about page. No acquisition or investment by Accenture appears on persado.com, in the company's press releases (the latest dated October 8, 2025), or in third-party lists of Accenture acquisitions.
 
+**Does Persado offer a free trial or published pricing?**
 No on either count. persado.com/pricing returns a 404 and no price appears anywhere on the site; every call to action is a demo request form. The nearest options to an evaluation are the self-service Studio tier, which covers Optimize only, and a Chrome extension that the company describes as optimizing copy in-browser with zero IT involvement and as perfect for trials. The site quotes typical onboarding at approximately four weeks for the managed service.
 
+**How does Persado integrate with Salesforce Marketing Cloud?**
 Four documented models. Native is the deepest: every email send pulls Persado-scored variants and variant-level performance flows back automatically, with optimization covering subject, preheader, body, and CTA, and setup quoted at 2-3 weeks including QA. Data Integration Pipeline takes 4-6 weeks, Service-Delivered goes live on the first campaign cycle, and a Chrome extension optimizes copy inside any web UI with no IT involvement. The Automate product runs per-recipient content selection at send time inside Journey Builder.
 
 ## Similar Tools
@@ -200,6 +155,13 @@ Four documented models. Native is the deepest: every email send pulls Persado-sc
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Large senders that want language tested against response data at scale
 ### Quick Facts
 
+- **Pricing:** Enterprise
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
+- **Founded:** 2012
+- **HQ:** New York, NY, USA
+- **API:** Yes
+- **Last verified:** 2026-09-07
+
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 
 ## Get the next teardown
@@ -207,6 +169,32 @@ Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tool
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Persado is a tool in AI Content & Copywriting with custom pricing. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Bloomreach
+
+AI-powered commerce experience platform with search, personalization, and CDP
+
+Hootsuite
+
+Social media management platform with AI-powered scheduling and analytics
+
+Anyword
+
+AI copywriting platform with predictive performance scores for marketing content
+
+Braze
+
+Customer engagement platform with AI-powered real-time messaging across channels
+
+ContentBot
+
+AI content automation platform with workflows for blogs, ads, and social posts
+
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -225,7 +213,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/persado/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-07",
     "datePublished": "2026-07-27"
   },
   {
@@ -345,7 +333,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/persado/", "breadcrumb": {"@id": "https://martechsignal.com/tools/persado/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/persado/", "breadcrumb": {"@id": "https://martechsignal.com/tools/persado/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

@@ -1,22 +1,10 @@
 # Social Listening
 
-Brandwatch
-
-AI-powered consumer intelligence and social media management platform
-
-Buffer
-
-Simple social media scheduling and analytics with AI-powered content tools
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Social Listening
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-28
 
 ## Definition
 
@@ -56,6 +44,18 @@ Sources: [Brandwatch](https://www.brandwatch.com) · [Buffer](https://buffer.com
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+Brandwatch
+
+AI-powered consumer intelligence and social media management platform
+
+Buffer
+
+Simple social media scheduling and analytics with AI-powered content tools
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -66,7 +66,7 @@ Sources: [Brandwatch](https://www.brandwatch.com) · [Buffer](https://buffer.com
         "@type": "DefinedTerm",
         "name": "Social Listening",
         "description": "Social listening is the practice of monitoring social media channels, forums, review sites, and news outlets for mentions of your brand, competitors, products, or industry topics. It goes beyond tracking @mentions to capturing untagged conversations where people discuss your category without naming you.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -124,7 +124,7 @@ Sources: [Brandwatch](https://www.brandwatch.com) · [Buffer](https://buffer.com
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/social-listening/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/social-listening/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/social-listening/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/social-listening/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

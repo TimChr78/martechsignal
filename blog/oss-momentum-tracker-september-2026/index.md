@@ -1,5 +1,33 @@
 # Open-source martech momentum: the agent-skills layer wins
 
+OPEN SOURCE · DATA · 7 MIN
+
+## Where open-source martech momentum actually lives
+
+[How we review](/methodology/) · No affiliate links
+
+[Home](/) · [Blog](/blog/) · Where open-source martech momentum actually lives
+
+SEP 26, 2026
+
+Filed under [Agent Skills](/categories/agent-skills/)
+
+The fastest-accumulating open-source projects in our catalog are not platforms. They are packs of agent skills, and the gap is widening.
+
+We track 79 active open-source tools in the [directory](/tools/). Sixteen of them name a public GitHub repository, and those sixteen now have a [published momentum dataset](/oss-momentum.json) behind them. Every number below is a snapshot or a snapshot-bounded delta as of 26 September 2026. Nothing is estimated.
+
+## The top of the board
+
+[claude-ads](/tools/claude-ads/) leads with 9,576 stars and 1,857 of them arrived in the last 57 days. [google-meta-ads-ga4-mcp](/tools/google-meta-ads-ga4-mcp/) is the sharper curve: 2,635 stars total, 1,577 of them inside a 40-day window. [ai-marketing-claude](/tools/ai-marketing-claude/) added 442 over 57 days to reach 2,684, and [aaron-marketing-skills](/tools/aaron-marketing-skills/) added 361 to reach 2,843.
+
+Read those four together and the shape is hard to miss. All four are agent skill repositories: collections of instructions, prompts, and small tools that teach a coding or marketing agent to run campaigns, audit accounts, or interpret ad data. None of them is a platform you deploy. They are the layer you install into an agent you already run.
+
+*The twelve fastest movers by percentage star growth across the full window. The table below carries every repository with its exact numbers.*
+
+## The full board
+
+Here is the complete tracked set. Growth windows differ per row because each one is bounded by the catalog snapshots we actually hold, never by interpolation. Stars are totals as of 26 September 2026.
+
 
 | Project | Stars | Change | Window | Latest release |
 | --- | --- | --- | --- | --- |
@@ -19,36 +47,6 @@
 | [n8n-marketing-flows](/tools/n8n-marketing-flows/) | 177 | +3 | 26 days | none recorded |
 | [potato-ai-visibility](/tools/potato-ai-visibility/) | 168 | +1 | 26 days | 2026-06-22 |
 | [diffmode-growth-tactics](/tools/diffmode-growth-tactics/) | 162 | +3 | 26 days | 2026-06-05 |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-OPEN SOURCE · DATA · 7 MIN
-
-## Where open-source martech momentum actually lives
-
-[How we review](/methodology/) · No affiliate links
-
-[Home](/) · [Blog](/blog/) · Where open-source martech momentum actually lives
-
-SEP 26, 2026 · Updated 2026-10-02
-
-Filed under [Agent Skills](/categories/agent-skills/)
-
-The fastest-accumulating open-source projects in our catalog are not platforms. They are packs of agent skills, and the gap is widening.
-
-We track 79 active open-source tools in the [directory](/tools/). Sixteen of them name a public GitHub repository, and those sixteen now have a [published momentum dataset](/oss-momentum.json) behind them. Every number below is a snapshot or a snapshot-bounded delta as of 26 September 2026. Nothing is estimated.
-
-## The top of the board
-
-[claude-ads](/tools/claude-ads/) leads with 9,576 stars and 1,857 of them arrived in the last 57 days. [google-meta-ads-ga4-mcp](/tools/google-meta-ads-ga4-mcp/) is the sharper curve: 2,635 stars total, 1,577 of them inside a 40-day window. [ai-marketing-claude](/tools/ai-marketing-claude/) added 442 over 57 days to reach 2,684, and [aaron-marketing-skills](/tools/aaron-marketing-skills/) added 361 to reach 2,843.
-
-Read those four together and the shape is hard to miss. All four are agent skill repositories: collections of instructions, prompts, and small tools that teach a coding or marketing agent to run campaigns, audit accounts, or interpret ad data. None of them is a platform you deploy. They are the layer you install into an agent you already run.
-
-*The twelve fastest movers by percentage star growth across the full window. The table below carries every repository with its exact numbers.*
-
-## The full board
-
-Here is the complete tracked set. Growth windows differ per row because each one is bounded by the catalog snapshots we actually hold, never by interpolation. Stars are totals as of 26 September 2026.
 
 A note on release dates: "none recorded" means the repository has no GitHub release objects, not that nothing shipped. Several of these projects commit daily and simply never cut a release. We report what the API returns and do not read intent into the gap.
 
@@ -124,6 +122,8 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -155,7 +155,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-09-26",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-26",
   "mainEntityOfPage": "https://martechsignal.com/blog/oss-momentum-tracker-september-2026/",
   "image": {
     "@type": "ImageObject",
@@ -201,7 +201,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/oss-momentum-tracker-september-2026/", "breadcrumb": {"@id": "https://martechsignal.com/blog/oss-momentum-tracker-september-2026/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/oss-momentum-tracker-september-2026/", "breadcrumb": {"@id": "https://martechsignal.com/blog/oss-momentum-tracker-september-2026/#breadcrumb"}, "dateModified": "2026-09-26"}
 ```
 
 ```json

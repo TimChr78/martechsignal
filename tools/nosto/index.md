@@ -1,73 +1,5 @@
 # Nosto review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 3/10 | Quote-based: a platform fee plus a GMV and traffic-based fee scaled by modules, with no public numbers (the vendor pricing page: [pricing page](https://www.nosto.com/pricing/), verified 2026-09-07). |
-| Feature depth | 7/10 | Recommendations, semantic search, visual AI tagging and category merchandising cover the commerce experience loop (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
-| Integrations | 7/10 | Seven named commerce platforms from Shopify Plus to PrestaShop plus Klaviyo and Attentive (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
-| AI capability | 7/10 | Vector-embedding search and predictive recommendations are core, with visual tagging on top (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise SaaS (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
-| Operational maturity | 7/10 | Founded 2013 with a decade of commerce personalization deployments (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: predictive product recommendations | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Shopify, Shopify Plus, Adobe Commerce (Magento) (11 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
-| ✓ API access for custom integrations |  |
-
-**What is Nosto?**
-Nosto: AI-powered ecommerce personalization with product recommendations and merchandising. Nosto ships with predictive product recommendations. This page documents 11 integrations.
-
-**How much does Nosto cost?**
-Nosto uses enterprise pricing, so the number depends on your volume and contract. Quote-based: a base platform fee plus a fixed fee calculated on your store's volume (GMV turnover and traffic), scaled by modules and support level. No published numbers anywhere on the site. Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
-
-**Is Nosto a good Personalization & CDP tool in 2026?**
-A genuinely documented enterprise personalization platform with an unusual seam between its core search and the acquired Findologic line. Strong fit for large multilingual catalogs; no self-serve way to find out if it fits yours.
-
-**How does Nosto pricing scale with GMV?**
-The pricing FAQ describes a base platform fee plus a fixed fee calculated on your store's volume (GMV turnover and traffic), scaled further by the modules selected and the support level required. No numbers are published. Attribution matters to the bill: products are grouped so that when a visitor interacts with two products in one group, only the sale from the most recently interacted product counts toward the fee. Pop-ups and onsite recommendations form one group, Facebook and Instagram Ads another, and triggered emails and email widgets a third, and test orders can be billed.
-
-**What are Nosto's API rate limits?**
-They are costed in points per second rather than requests. Search GraphQL allows 40,000 points per second standard and 200,000 with the Peak Performance package; recommendations allow 10,000 (80,000 advanced) and the main GraphQL API 10,000 (50,000). A search, category, or autocomplete request costs 600 points and a typical recommendation request 100-200. Over-limit calls return HTTP 429 with a Retry-After header (the docs suggest 1 second backoff), current status is exposed in the X-Nosto-Ratelimit-Status header, and nosto-cost-debug returns a per-section cost breakdown.
-
-**How do visitors opt out of Nosto tracking?**
-Nosto documents a consent-conditional pattern: wrap the tracking script (connect.nosto.com/include/$accountID) in a check of your consent cookie so it is injected only after a visitor accepts, which the help center says disables the initialization of Nosto entirely for that user. A data processing agreement is published at nosto.com/legal/terms-conditions-dpa. For implementation, that means opt-out lives in your storefront template rather than in a Nosto settings toggle.
-
-- **Pricing:** Enterprise
-- **Category:** [Personalization & CDP](/categories/personalization/)
-- **Founded:** 2013
-- **HQ:** Helsinki, Finland
-- **API:** Yes
-- **Last verified:** 2026-09-07
-
-**Verdict:** Nosto is a tool in Personalization & CDP with custom pricing. The catalog documents 5 AI features, 11 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Clerk.io
-
-AI-powered ecommerce personalization with search, recommendations, and email
-
-Bloomreach
-
-AI-powered commerce experience platform with search, personalization, and CDP
-
-Dynamic Yield
-
-AI-powered personalization platform for web, mobile, and email experiences
-
-Hypotenuse AI
-
-AI content generation platform for ecommerce product descriptions and articles
-
-RudderStack
-
-Warehouse-first CDP: open-source Go data plane plus managed routing
-
-[More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
@@ -80,7 +12,7 @@ AI-powered ecommerce personalization with product recommendations and merchandis
 
 Personalization & CDP · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Nosto →](https://www.nosto.com)
 
@@ -91,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 33/60
 
 Nosto is commerce personalization with real merchandising controls: recommendations, semantic search and visual tagging. GMV-based pricing means success and cost move together.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 3/10 | Quote-based: a platform fee plus a GMV and traffic-based fee scaled by modules, with no public numbers (the vendor pricing page: [pricing page](https://www.nosto.com/pricing/), verified 2026-09-07). |
+| Feature depth | 7/10 | Recommendations, semantic search, visual AI tagging and category merchandising cover the commerce experience loop (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
+| Integrations | 7/10 | Seven named commerce platforms from Shopify Plus to PrestaShop plus Klaviyo and Attentive (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
+| AI capability | 7/10 | Vector-embedding search and predictive recommendations are core, with visual tagging on top (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise SaaS (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2013 with a decade of commerce personalization deployments (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -165,6 +107,13 @@ A genuinely documented enterprise personalization platform with an unusual seam 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: predictive product recommendations | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, Shopify Plus, Adobe Commerce (Magento) (11 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [Personalization](/glossary/personalization/)
@@ -178,16 +127,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Nosto?**
 Nosto: AI-powered ecommerce personalization with product recommendations and merchandising. Nosto ships with predictive product recommendations. This page documents 11 integrations.
 
+**How much does Nosto cost?**
 Nosto uses enterprise pricing, so the number depends on your volume and contract. Quote-based: a base platform fee plus a fixed fee calculated on your store's volume (GMV turnover and traffic), scaled by modules and support level. No published numbers anywhere on the site. Our last verified read of the pricing model was 2026-09-07; the vendor's pricing page carries the current quote criteria.
 
+**Is Nosto a good Personalization & CDP tool in 2026?**
 A genuinely documented enterprise personalization platform with an unusual seam between its core search and the acquired Findologic line. Strong fit for large multilingual catalogs; no self-serve way to find out if it fits yours.
 
+**How does Nosto pricing scale with GMV?**
 The pricing FAQ describes a base platform fee plus a fixed fee calculated on your store's volume (GMV turnover and traffic), scaled further by the modules selected and the support level required. No numbers are published. Attribution matters to the bill: products are grouped so that when a visitor interacts with two products in one group, only the sale from the most recently interacted product counts toward the fee. Pop-ups and onsite recommendations form one group, Facebook and Instagram Ads another, and triggered emails and email widgets a third, and test orders can be billed.
 
+**What are Nosto's API rate limits?**
 They are costed in points per second rather than requests. Search GraphQL allows 40,000 points per second standard and 200,000 with the Peak Performance package; recommendations allow 10,000 (80,000 advanced) and the main GraphQL API 10,000 (50,000). A search, category, or autocomplete request costs 600 points and a typical recommendation request 100-200. Over-limit calls return HTTP 429 with a Retry-After header (the docs suggest 1 second backoff), current status is exposed in the X-Nosto-Ratelimit-Status header, and nosto-cost-debug returns a per-section cost breakdown.
 
+**How do visitors opt out of Nosto tracking?**
 Nosto documents a consent-conditional pattern: wrap the tracking script (connect.nosto.com/include/$accountID) in a check of your consent cookie so it is injected only after a visitor accepts, which the help center says disables the initialization of Nosto entirely for that user. A data processing agreement is published at nosto.com/legal/terms-conditions-dpa. For implementation, that means opt-out lives in your storefront template rather than in a Nosto settings toggle.
 
 ## Similar Tools
@@ -202,6 +157,13 @@ Nosto documents a consent-conditional pattern: wrap the tracking script (connect
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Merchants that want recommendations their merchandisers can steer
 ### Quick Facts
 
+- **Pricing:** Enterprise
+- **Category:** [Personalization & CDP](/categories/personalization/)
+- **Founded:** 2013
+- **HQ:** Helsinki, Finland
+- **API:** Yes
+- **Last verified:** 2026-09-07
+
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 
 ## Get the next teardown
@@ -209,6 +171,32 @@ Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Nosto is a tool in Personalization & CDP with custom pricing. The catalog documents 5 AI features, 11 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Clerk.io
+
+AI-powered ecommerce personalization with search, recommendations, and email
+
+Bloomreach
+
+AI-powered commerce experience platform with search, personalization, and CDP
+
+Dynamic Yield
+
+AI-powered personalization platform for web, mobile, and email experiences
+
+Hypotenuse AI
+
+AI content generation platform for ecommerce product descriptions and articles
+
+RudderStack
+
+Warehouse-first CDP: open-source Go data plane plus managed routing
+
+[More Personalization & CDP Tools →](/categories/personalization/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -227,7 +215,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/nosto/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-07",
     "datePublished": "2026-07-27"
   },
   {
@@ -347,7 +335,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/nosto/", "breadcrumb": {"@id": "https://martechsignal.com/tools/nosto/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/nosto/", "breadcrumb": {"@id": "https://martechsignal.com/tools/nosto/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

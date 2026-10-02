@@ -1,26 +1,10 @@
 # Chatbot (Conversational AI)
 
-ChatbotX
-
-Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
-
-Chatfuel
-
-AI chatbot platform for automating customer conversations on messaging channels
-
-Chatwoot
-
-Open-source customer engagement suite with Captain AI and full self-hosting
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Chatbot (Conversational AI)
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-28
 
 ## Definition
 
@@ -60,6 +44,22 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [ChatbotX](https://
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+ChatbotX
+
+Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
+
+Chatfuel
+
+AI chatbot platform for automating customer conversations on messaging channels
+
+Chatwoot
+
+Open-source customer engagement suite with Captain AI and full self-hosting
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -70,7 +70,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [ChatbotX](https://
         "@type": "DefinedTerm",
         "name": "Chatbot (Conversational AI)",
         "description": "A chatbot is software that conducts text or voice conversations with users, typically on a website, messaging app, or social platform. Rule-based chatbots follow decision trees. AI-powered chatbots use large language models to generate responses and handle questions they weren't explicitly programmed for.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -128,7 +128,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [ChatbotX](https://
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/chatbot/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/chatbot/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/chatbot/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/chatbot/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

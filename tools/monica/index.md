@@ -1,79 +1,5 @@
 # Monica review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Self-host free under AGPL; hosted is a single $9/mo or $90/yr plan with a 30-day trial and no card required, fully published (the vendor pricing page: [vendor site](https://monicahq.com), verified 2026-09-07). |
-| Feature depth | 5/10 | Contact timelines, reminders, notes and relationship tracking are deep for personal use, but there is no deal pipeline or campaign machinery (vendor documentation: [vendor site](https://monicahq.com), verified 2026-09-28). |
-| Integrations | 3/10 | The catalog lists no named integrations; a public API exists for your own wiring (vendor documentation: [vendor site](https://monicahq.com), verified 2026-09-28). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://monicahq.com), verified 2026-09-28). |
-| Openness | 9/10 | AGPL self-hosting with the full feature set available free on your own server (the source repository: [repository](https://github.com/monicahq/monica), verified 2026-09-28). |
-| Operational maturity | 6/10 | Years of steady maintenance, but it runs as a small project without enterprise support machinery (vendor documentation: [vendor site](https://monicahq.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo |
-| ✓ API access for custom integrations |  |
-| ✓ Active public repository (25,391 GitHub stars counted at last check) |  |
-
-**What is Monica?**
-Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,391 stars. Monica offers a public API for custom integrations.
-
-**How much does Monica cost?**
-Monica has a free tier; paid plans start at $9/mo. Self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
-
-**Is Monica a good self-hosted CRM tool in 2026?**
-The reference implementation of the personal CRM category, honest about its limits, and mid-rewrite. Value it for follow-up discipline, not for pipeline or automation.
-
-**Does Monica have AI features?**
-No. The README states plainly that Monica does not have built-in AI with integrations like ChatGPT and is not a smart assistant: it only sends the reminders you asked for. AI-assisted workflows are something you build yourself against the API.
-
-**Is Monica a CRM for sales?**
-No, and the project says so directly. It is a personal relationship manager for friends, family, colleagues, and neighbours, with no pipelines, deals, or campaigns. Sales teams should look at the sales CRM entries in this directory instead.
-
-**Is Monica still maintained in 2026?**
-The application code is not, in practical terms: the last commit to the main branch was August 30, 2025, the latest stable release remains v4.1.2 from May 2024, and no release of any kind has been published in over a year. The organization is active on the rebuild, with a Helm chart pushed in September 2026 and blog posts about the new version through September 2026, and the hosted service continues to run. Self-hosters should treat the current code as stable but frozen and evaluate the promised v3, due before the end of 2026, before committing new data.
-
-**Should you self-host Monica or pay for the hosted plan?**
-The hosted plan is $9 per month or $90 per year with unlimited contacts, notes, reminders, activities, and journal entries, managed backups, automatic updates, data export, and email support, on a 30-day trial with no credit card. Self-hosting is free under AGPL and runs as a container, but you inherit the operator work the plan buys: updates, backups, monitoring, and a version question, since the official Docker Hub latest tag still serves the 4.x line while the current code is the 5.0 beta on ghcr. If the value of Monica is remembering things about people rather than infrastructure, the hosted plan is the rational default; self-host when the data must stay on your hardware.
-
-**Can you export your data out of Monica, and can you migrate from hosted to self-hosted?**
-Yes on both. Export covers contacts, relationships, notes, reminders, activities, custom fields, and other supported account data with attachments, and the pricing FAQ states it plainly as a right rather than a premium feature, so it works on every plan and costs nothing. The same page confirms you can export from hosted Monica and import into a compatible self-hosted installation. Contacts also support per-contact vCard download. Verify the import path against your self-hosted version before cancelling the hosted account, since the two code lines differ.
-
-- **Pricing:** Open Source
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 25391
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** Monica is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Ever Gauzy
-
-Open business management platform: ERP, CRM, HRM, ATS, and time tracking
-
-Frappe CRM
-
-Fully featured, open source CRM
-
-Relaticle
-
-Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
-
-Warpdrive
-
-Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
-
-HubSpot CRM
-
-Free AI-powered CRM platform with sales, service, and marketing tools unified
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -86,7 +12,7 @@ Open-source personal CRM for tracking friends, family, and business relationship
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Monica →](https://monicahq.com)
 
@@ -97,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 Monica is a personal CRM done honestly: relationships, reminders and notes, priced at one flat plan. It is not a sales pipeline tool, and it does not pretend to be.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Self-host free under AGPL; hosted is a single $9/mo or $90/yr plan with a 30-day trial and no card required, fully published (the vendor pricing page: [vendor site](https://monicahq.com), verified 2026-09-07). |
+| Feature depth | 5/10 | Contact timelines, reminders, notes and relationship tracking are deep for personal use, but there is no deal pipeline or campaign machinery (vendor documentation: [vendor site](https://monicahq.com), verified 2026-09-28). |
+| Integrations | 3/10 | The catalog lists no named integrations; a public API exists for your own wiring (vendor documentation: [vendor site](https://monicahq.com), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://monicahq.com), verified 2026-09-28). |
+| Openness | 9/10 | AGPL self-hosting with the full feature set available free on your own server (the source repository: [repository](https://github.com/monicahq/monica), verified 2026-09-28). |
+| Operational maturity | 6/10 | Years of steady maintenance, but it runs as a small project without enterprise support machinery (vendor documentation: [vendor site](https://monicahq.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -155,6 +91,13 @@ The reference implementation of the personal CRM category, honest about its limi
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo |
+| ✓ API access for custom integrations |  |
+| ✓ Active public repository (25,391 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -169,20 +112,28 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Monica?**
 Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,391 stars. Monica offers a public API for custom integrations.
 
+**How much does Monica cost?**
 Monica has a free tier; paid plans start at $9/mo. Self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
+**Is Monica a good self-hosted CRM tool in 2026?**
 The reference implementation of the personal CRM category, honest about its limits, and mid-rewrite. Value it for follow-up discipline, not for pipeline or automation.
 
+**Does Monica have AI features?**
 No. The README states plainly that Monica does not have built-in AI with integrations like ChatGPT and is not a smart assistant: it only sends the reminders you asked for. AI-assisted workflows are something you build yourself against the API.
 
+**Is Monica a CRM for sales?**
 No, and the project says so directly. It is a personal relationship manager for friends, family, colleagues, and neighbours, with no pipelines, deals, or campaigns. Sales teams should look at the sales CRM entries in this directory instead.
 
+**Is Monica still maintained in 2026?**
 The application code is not, in practical terms: the last commit to the main branch was August 30, 2025, the latest stable release remains v4.1.2 from May 2024, and no release of any kind has been published in over a year. The organization is active on the rebuild, with a Helm chart pushed in September 2026 and blog posts about the new version through September 2026, and the hosted service continues to run. Self-hosters should treat the current code as stable but frozen and evaluate the promised v3, due before the end of 2026, before committing new data.
 
+**Should you self-host Monica or pay for the hosted plan?**
 The hosted plan is $9 per month or $90 per year with unlimited contacts, notes, reminders, activities, and journal entries, managed backups, automatic updates, data export, and email support, on a 30-day trial with no credit card. Self-hosting is free under AGPL and runs as a container, but you inherit the operator work the plan buys: updates, backups, monitoring, and a version question, since the official Docker Hub latest tag still serves the 4.x line while the current code is the 5.0 beta on ghcr. If the value of Monica is remembering things about people rather than infrastructure, the hosted plan is the rational default; self-host when the data must stay on your hardware.
 
+**Can you export your data out of Monica, and can you migrate from hosted to self-hosted?**
 Yes on both. Export covers contacts, relationships, notes, reminders, activities, custom fields, and other supported account data with attachments, and the pricing FAQ states it plainly as a right rather than a premium feature, so it works on every plan and costs nothing. The same page confirms you can export from hosted Monica and import into a compatible self-hosted installation. Contacts also support per-contact vCard download. Verify the import path against your self-hosted version before cancelling the hosted account, since the two code lines differ.
 
 ## Similar Tools
@@ -197,6 +148,13 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for relationship-led founders and community businesses.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 25391
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 Related guides: [Open Source Crm](/best/open-source-crm/)
 
 ## Get the next teardown
@@ -204,6 +162,32 @@ Related guides: [Open Source Crm](/best/open-source-crm/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Monica is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Ever Gauzy
+
+Open business management platform: ERP, CRM, HRM, ATS, and time tracking
+
+Frappe CRM
+
+Fully featured, open source CRM
+
+Relaticle
+
+Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
+
+Warpdrive
+
+Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
+
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

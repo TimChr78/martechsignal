@@ -1,75 +1,5 @@
 # BillionMail review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Free under AGPL-3.0 with no paid tiers or cloud edition; optional deployment service at $98.9 per instance (the vendor pricing page: [vendor site](https://www.billionmail.com), verified 2026-09-07). |
-| Feature depth | 6/10 | Mail server, newsletters and email marketing in one self-hosted stack cover the sending loop (vendor documentation: [vendor site](https://www.billionmail.com), verified 2026-09-28). |
-| Integrations | 6/10 | Postfix, Dovecot, Rspamd, Roundcube and SMTP relays (SES, Mailgun, custom) plus REST and Send APIs (vendor documentation: [vendor site](https://www.billionmail.com), verified 2026-09-28). |
-| AI capability | 5/10 | BYO-model template generation with six named model vendors and website profiling for brand-aware output (vendor documentation: [vendor site](https://www.billionmail.com), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0 with the whole mail stack self-hosted (the source repository: [repository](https://github.com/Billionmail/BillionMail), verified 2026-09-28). |
-| Operational maturity | 4/10 | Founded 2025 with an optional deployment service (vendor documentation: [vendor site](https://www.billionmail.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $98.9/mo |
-| ✓ AI capabilities: AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi) |  |
-| ✓ Active public repository (15,815 GitHub stars counted at last check) |  |
-| ✓ Native integrations include Postfix, Dovecot, Rspamd (7 listed) |  |
-
-**What is BillionMail?**
-BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,815 stars.
-
-**How much does BillionMail cost?**
-BillionMail has a free tier; paid plans start at $98.9/mo. Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.9 per instance. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
-
-**Is BillionMail a good self-hosted Email Marketing tool in 2026?**
-A genuinely complete open-source mail server with a usable campaign layer on top, priced at zero and paid for in operations time. Judge the stalled commit cadence as seriously as the feature list.
-
-**Is BillionMail really free, and is there a paid plan?**
-The software is AGPL-3.0 with no Pro, Enterprise or cloud edition: there is no pricing page because every feature ships in the single free project. The only paid offering is a done-for-you deployment package listed on the support page at $98.9 per instance with seven days of support. Your real costs are infrastructure and deliverability: a server with outbound port 25, DNS records, warmup time and blocklist monitoring.
-
-**BillionMail vs Listmonk: which self-hosted sender should you pick?**
-Listmonk is a lean newsletter and mailing-list manager: one Go binary, PostgreSQL, strong at lists and campaign sending, but it is not a mail server, so you bring your own SMTP provider. BillionMail is the whole stack: Postfix, Dovecot and Rspamd plus campaigns, contacts, templates, DNS and DMARC tooling, IP warmup and webmail, so you can deliver directly from your own IPs. Pick Listmonk for simplicity and a long, steady release history; pick BillionMail when owning the mail server itself, mailboxes included, is the point and you accept a younger project whose development has slowed.
-
-**Does BillionMail have AI features?**
-One documented one: AI email template generation, added in v4.0, where you describe the email and the editor produces a template, with Anthropic, OpenAI, Gemini, DeepSeek, Grok and Kimi as configurable providers, plus website profiling that pulls brand details from a domain. There is no documented send-time optimization or predictive sending; scheduling is a plain send-time field, and timing quality comes from warmup and rate limits rather than a model. You must configure your own provider key, since AI features stay disabled until a model is set up.
-
-- **Pricing:** Open Source
-- **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 15815
-- **Founded:** 2025
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** BillionMail is a tool in Email Marketing with free and open source. The catalog documents 2 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Notifuse
-
-Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
-
-Listmonk
-
-Open-source self-hosted newsletter and mailing list manager with a fast Go backend
-
-Resend
-
-Developer-first email API built around React Email, batch sending, and agent tooling
-
-React Email Editor
-
-Drag-n-Drop Email Editor Component for React.js
-
-Mailchimp
-
-All-in-one marketing platform with AI-powered email, automation, and analytics
-
-[More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
@@ -82,7 +12,7 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit BillionMail →](https://www.billionmail.com)
 
@@ -93,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 39/60
 
 BillionMail is the full self-hosted mail stack: Postfix, Dovecot and a newsletter UI under AGPL, free with no cloud tier at all. Bring deliverability knowledge or pay someone who has it.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free under AGPL-3.0 with no paid tiers or cloud edition; optional deployment service at $98.9 per instance (the vendor pricing page: [vendor site](https://www.billionmail.com), verified 2026-09-07). |
+| Feature depth | 6/10 | Mail server, newsletters and email marketing in one self-hosted stack cover the sending loop (vendor documentation: [vendor site](https://www.billionmail.com), verified 2026-09-28). |
+| Integrations | 6/10 | Postfix, Dovecot, Rspamd, Roundcube and SMTP relays (SES, Mailgun, custom) plus REST and Send APIs (vendor documentation: [vendor site](https://www.billionmail.com), verified 2026-09-28). |
+| AI capability | 5/10 | BYO-model template generation with six named model vendors and website profiling for brand-aware output (vendor documentation: [vendor site](https://www.billionmail.com), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 with the whole mail stack self-hosted (the source repository: [repository](https://github.com/Billionmail/BillionMail), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2025 with an optional deployment service (vendor documentation: [vendor site](https://www.billionmail.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -157,6 +97,14 @@ A genuinely complete open-source mail server with a usable campaign layer on top
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $98.9/mo |
+| ✓ AI capabilities: AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi) |  |
+| ✓ Active public repository (15,815 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Postfix, Dovecot, Rspamd (7 listed) |  |
+
 ## Related concepts
 
 - [Email sequence](/glossary/email-sequence/)
@@ -169,16 +117,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is BillionMail?**
 BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,815 stars.
 
+**How much does BillionMail cost?**
 BillionMail has a free tier; paid plans start at $98.9/mo. Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.9 per instance. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
+**Is BillionMail a good self-hosted Email Marketing tool in 2026?**
 A genuinely complete open-source mail server with a usable campaign layer on top, priced at zero and paid for in operations time. Judge the stalled commit cadence as seriously as the feature list.
 
+**Is BillionMail really free, and is there a paid plan?**
 The software is AGPL-3.0 with no Pro, Enterprise or cloud edition: there is no pricing page because every feature ships in the single free project. The only paid offering is a done-for-you deployment package listed on the support page at $98.9 per instance with seven days of support. Your real costs are infrastructure and deliverability: a server with outbound port 25, DNS records, warmup time and blocklist monitoring.
 
+**BillionMail vs Listmonk: which self-hosted sender should you pick?**
 Listmonk is a lean newsletter and mailing-list manager: one Go binary, PostgreSQL, strong at lists and campaign sending, but it is not a mail server, so you bring your own SMTP provider. BillionMail is the whole stack: Postfix, Dovecot and Rspamd plus campaigns, contacts, templates, DNS and DMARC tooling, IP warmup and webmail, so you can deliver directly from your own IPs. Pick Listmonk for simplicity and a long, steady release history; pick BillionMail when owning the mail server itself, mailboxes included, is the point and you accept a younger project whose development has slowed.
 
+**Does BillionMail have AI features?**
 One documented one: AI email template generation, added in v4.0, where you describe the email and the editor produces a template, with Anthropic, OpenAI, Gemini, DeepSeek, Grok and Kimi as configurable providers, plus website profiling that pulls brand details from a domain. There is no documented send-time optimization or predictive sending; scheduling is a plain send-time field, and timing quality comes from warmup and rate limits rather than a model. You must configure your own provider key, since AI features stay disabled until a model is set up.
 
 ## Similar Tools
@@ -190,11 +144,45 @@ One documented one: AI email template generation, added in v4.0, where you descr
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Email Marketing](/categories/email-marketing/)
+- **GitHub:** ★ 15815
+- **Founded:** 2025
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** BillionMail is a tool in Email Marketing with free and open source. The catalog documents 2 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Notifuse
+
+Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+
+Listmonk
+
+Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+
+Resend
+
+Developer-first email API built around React Email, batch sending, and agent tooling
+
+React Email Editor
+
+Drag-n-Drop Email Editor Component for React.js
+
+Mailchimp
+
+All-in-one marketing platform with AI-powered email, automation, and analytics
+
+[More Email Marketing Tools →](/categories/email-marketing/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

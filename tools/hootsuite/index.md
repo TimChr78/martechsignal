@@ -1,60 +1,5 @@
 # Hootsuite review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 6/10 | Standard $99/mo and Professional $149/mo ($99/mo annual) published; Team and Enterprise are custom (the vendor pricing page: [pricing page](https://www.hootsuite.com/plans), verified 2026-09-27). |
-| Feature depth | 7/10 | Scheduling, listening, analytics and engagement across the major networks cover the social operations loop (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
-| Integrations | 7/10 | Canva, Salesforce, HubSpot, Slack, Adobe, GA, Shopify and Dropbox documented plus an API (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
-| AI capability | 5/10 | Caption generation, best-time-to-post and hashtag suggestions are useful conveniences (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2008 with the category's longest enterprise social track record (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI caption generation | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Canva, Salesforce, HubSpot (8 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is Hootsuite?**
-Hootsuite: Social media management platform with AI-powered scheduling and analytics. Hootsuite ships with AI caption generation. This page documents 8 integrations.
-
-**How much does Hootsuite cost?**
-Hootsuite starts at $99/mo. Standard $99/mo; Professional $149/mo (annual $99/mo); Team and Enterprise custom. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Hootsuite worth paying for in 2026?**
-The right call for multi-team, multi-brand social programs with governance needs. Small teams overpay for it.
-
-- **Pricing:** From $99/mo
-- **Category:** [Social Media](/categories/social-media/)
-- **Founded:** 2008
-- **HQ:** Vancouver, Canada
-- **API:** Yes
-- **Last verified:** 2026-09-27
-
-**Verdict:** Hootsuite is a tool in Social Media with paid plans starting at $99/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-Sprout Social
-
-Enterprise social media management with AI-powered analytics and engagement tools
-
-Predis.ai
-
-AI-powered social media content generator for posts, videos, and ad creatives
-
-Brandwatch
-
-AI-powered consumer intelligence and social media management platform
-
-Buffer
-
-Simple social media scheduling and analytics with AI-powered content tools
-
-[More Social Media Tools →](/categories/social-media/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
@@ -65,7 +10,7 @@ Social media management platform with AI-powered scheduling and analytics
 
 Social Media · From $99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Hootsuite →](https://www.hootsuite.com)
 
@@ -76,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 36/60
 
 Hootsuite is the established social suite: broad network coverage and scheduling that survives team churn. The AI layer is convenience features; the value is still the operations.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Standard $99/mo and Professional $149/mo ($99/mo annual) published; Team and Enterprise are custom (the vendor pricing page: [pricing page](https://www.hootsuite.com/plans), verified 2026-09-27). |
+| Feature depth | 7/10 | Scheduling, listening, analytics and engagement across the major networks cover the social operations loop (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
+| Integrations | 7/10 | Canva, Salesforce, HubSpot, Slack, Adobe, GA, Shopify and Dropbox documented plus an API (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
+| AI capability | 5/10 | Caption generation, best-time-to-post and hashtag suggestions are useful conveniences (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2008 with the category's longest enterprise social track record (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -124,6 +79,13 @@ The right call for multi-team, multi-brand social programs with governance needs
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI caption generation | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Canva, Salesforce, HubSpot (8 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [Social listening](/glossary/social-listening/)
@@ -135,10 +97,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Hootsuite?**
 Hootsuite: Social media management platform with AI-powered scheduling and analytics. Hootsuite ships with AI caption generation. This page documents 8 integrations.
 
+**How much does Hootsuite cost?**
 Hootsuite starts at $99/mo. Standard $99/mo; Professional $149/mo (annual $99/mo); Team and Enterprise custom. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Hootsuite worth paying for in 2026?**
 The right call for multi-team, multi-brand social programs with governance needs. Small teams overpay for it.
 
 ## Similar Tools
@@ -153,6 +118,13 @@ The right call for multi-team, multi-brand social programs with governance needs
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Teams running many accounts that need scheduling which survives staff turnover
 ### Quick Facts
 
+- **Pricing:** From $99/mo
+- **Category:** [Social Media](/categories/social-media/)
+- **Founded:** 2008
+- **HQ:** Vancouver, Canada
+- **API:** Yes
+- **Last verified:** 2026-09-27
+
 Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 
 ## Get the next teardown
@@ -160,6 +132,28 @@ Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Hootsuite is a tool in Social Media with paid plans starting at $99/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+
+Sprout Social
+
+Enterprise social media management with AI-powered analytics and engagement tools
+
+Predis.ai
+
+AI-powered social media content generator for posts, videos, and ad creatives
+
+Brandwatch
+
+AI-powered consumer intelligence and social media management platform
+
+Buffer
+
+Simple social media scheduling and analytics with AI-powered content tools
+
+[More Social Media Tools →](/categories/social-media/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -178,7 +172,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/hootsuite/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -281,7 +275,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hootsuite/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hootsuite/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hootsuite/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hootsuite/#breadcrumb"}, "dateModified": "2026-09-27"}
 ```
 
 ```json

@@ -1,64 +1,5 @@
 # Superlines review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Starter EUR 79/mo (3 engines, 50 prompts, 1-mo history), Pro EUR 199, Growth EUR 379 with tier contents published (the vendor pricing page: [pricing page](https://www.superlines.io/pricing), verified 2026-09-28). |
-| Feature depth | 5/10 | Brand visibility tracking with GEO recommendations cover the AI-search measurement loop (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
-| Integrations | 5/10 | ChatGPT, Gemini, Perplexity and Google AI Overviews as surfaces plus API and MCP (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
-| AI capability | 5/10 | Cross-engine visibility tracking with optimization recommendations is applied GEO measurement (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API and MCP access (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2023 with published tier tables and per-brand limits (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: tracks brand visibility across ChatGPT, Gemini, Perplexity and Google AI Overviews | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include ChatGPT, Gemini, Perplexity (6 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is Superlines?**
-Superlines: AI Search Intelligence platform for brands and agencies. Superlines ships with tracks brand visibility across ChatGPT, Gemini, Perplexity and Google AI Overviews. This page documents 6 integrations.
-
-**How much does Superlines cost?**
-Superlines starts at €79/mo. Starter €79/mo (3 engines, 50 prompts, 1 brand, 1-mo history); Pro €199/mo (150 prompts, 3 brands, exports, site audits); Growth €379/mo (300 prompts, 7 brands, API, weekly audits). 12% off yearly. 7-day free trial. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Superlines worth paying for in 2026?**
-A GEO analytics layer for the AI-search era: real-interface collection, MCP access and agency-grade multi-brand support, priced from €79 per month.
-
-- **Pricing:** From €79/mo
-- **Category:** [SEO & Search](/categories/seo/)
-- **Founded:** 2023
-- **HQ:** Helsinki, Finland
-- **API:** Yes
-- **Last verified:** 2026-09-07
-
-**Verdict:** Superlines is a tool in SEO & Search with paid plans starting at €79/mo. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Profound
-
-Enterprise AI marketing platform: answer-engine visibility plus drafting agents
-
-Ahrefs
-
-Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
-
-OtterlyAI
-
-AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
-
-AccuRanker
-
-Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
-
-Frase
-
-AI-powered SEO content platform for research, writing, and AI visibility tracking
-
-[More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
@@ -71,7 +12,7 @@ AI Search Intelligence platform for brands and agencies
 
 SEO & Search · From €79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Superlines →](https://www.superlines.io/)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 31/60
 
 Superlines is pure GEO measurement across four AI surfaces with per-prompt history tiers from EUR 79. Founded 2023 and focused; the tier tables show what each month of history actually buys.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Starter EUR 79/mo (3 engines, 50 prompts, 1-mo history), Pro EUR 199, Growth EUR 379 with tier contents published (the vendor pricing page: [pricing page](https://www.superlines.io/pricing), verified 2026-09-28). |
+| Feature depth | 5/10 | Brand visibility tracking with GEO recommendations cover the AI-search measurement loop (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
+| Integrations | 5/10 | ChatGPT, Gemini, Perplexity and Google AI Overviews as surfaces plus API and MCP (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
+| AI capability | 5/10 | Cross-engine visibility tracking with optimization recommendations is applied GEO measurement (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2023 with published tier tables and per-brand limits (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -136,6 +87,13 @@ A GEO analytics layer for the AI-search era: real-interface collection, MCP acce
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: tracks brand visibility across ChatGPT, Gemini, Perplexity and Google AI Overviews | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include ChatGPT, Gemini, Perplexity (6 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [SEO](/glossary/seo/)
@@ -150,10 +108,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Superlines?**
 Superlines: AI Search Intelligence platform for brands and agencies. Superlines ships with tracks brand visibility across ChatGPT, Gemini, Perplexity and Google AI Overviews. This page documents 6 integrations.
 
+**How much does Superlines cost?**
 Superlines starts at €79/mo. Starter €79/mo (3 engines, 50 prompts, 1 brand, 1-mo history); Pro €199/mo (150 prompts, 3 brands, exports, site audits); Growth €379/mo (300 prompts, 7 brands, API, weekly audits). 12% off yearly. 7-day free trial. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Superlines worth paying for in 2026?**
 A GEO analytics layer for the AI-search era: real-interface collection, MCP access and agency-grade multi-brand support, priced from €79 per month.
 
 ## Similar Tools
@@ -165,11 +126,44 @@ A GEO analytics layer for the AI-search era: real-interface collection, MCP acce
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ### Quick Facts
 
+- **Pricing:** From €79/mo
+- **Category:** [SEO & Search](/categories/seo/)
+- **Founded:** 2023
+- **HQ:** Helsinki, Finland
+- **API:** Yes
+- **Last verified:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Superlines is a tool in SEO & Search with paid plans starting at €79/mo. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Profound
+
+Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+
+Ahrefs
+
+Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+
+OtterlyAI
+
+AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+
+AccuRanker
+
+Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+
+Frase
+
+AI-powered SEO content platform for research, writing, and AI visibility tracking
+
+[More SEO & Search Tools →](/categories/seo/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -188,7 +182,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/superlines/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-07",
     "datePublished": "2026-09-07",
     "offers": {
       "@type": "Offer",
@@ -291,7 +285,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/superlines/", "breadcrumb": {"@id": "https://martechsignal.com/tools/superlines/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/superlines/", "breadcrumb": {"@id": "https://martechsignal.com/tools/superlines/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

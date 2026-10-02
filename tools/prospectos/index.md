@@ -1,62 +1,5 @@
 # ProspectOS review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT self-hosted with scraping API costs called out as the run expense (the vendor pricing page: [pricing page](https://github.com/nando0x/ProspectOS), verified 2026-08-31). |
-| Feature depth | 4/10 | Lead discovery and contact enrichment cover the prospecting loop (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
-| Integrations | 3/10 | Google Maps and Instagram documented as data sources plus an API (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
-| AI capability | 3/10 | Lead discovery and enrichment run as data automation more than model work (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
-| Operational maturity | 2/10 | Founded 2026 as an early project (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (228 GitHub stars) - smaller community and plugin ecosystem |
-| ✓ AI capabilities: lead discovery | ✗ Short native integration list - plan for API work |
-| ✓ Native integrations include Google Maps, Instagram (2 listed) |  |
-
-**What is ProspectOS?**
-ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 228 stars.
-
-**How much does ProspectOS cost?**
-ProspectOS is open source - MIT licensed and free to self-host; the public repository carries 228 stars. You pay in server time and maintenance, not licences.
-
-**Is ProspectOS a good self-hosted CRM tool in 2026?**
-A working, well-tested local prospecting tool with unusually honest documentation about its scraping risks. Suitable for individual freelancers who accept the terms-of-service exposure; not a team tool, and not compliant-by-design with Google or Instagram ToS.
-
-- **Pricing:** Open Source
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 228
-- **Founded:** 2026
-- **HQ:** Open source
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-08-31
-
-**Verdict:** ProspectOS is a tool in CRM with free and open source. The catalog documents 2 AI features, 2 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-Chatfuel
-
-AI chatbot platform for automating customer conversations on messaging channels
-
-Line Harness
-
-Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
-
-Cordys CRM
-
-Open-source AI CRM with built-in agents, conversational analytics, and private deployment
-
-HubSpot CRM
-
-Free AI-powered CRM platform with sales, service, and marketing tools unified
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -69,7 +12,7 @@ Open-source lead prospecting CRM with Google Maps and Instagram scraping
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit ProspectOS →](https://github.com/nando0x/ProspectOS)
 
@@ -80,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 29/60
 
 ProspectOS is MIT lead prospecting with Google Maps and Instagram scraping built in. It is early, and the scraping APIs carry their own costs and risks.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free under MIT self-hosted with scraping API costs called out as the run expense (the vendor pricing page: [pricing page](https://github.com/nando0x/ProspectOS), verified 2026-08-31). |
+| Feature depth | 4/10 | Lead discovery and contact enrichment cover the prospecting loop (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
+| Integrations | 3/10 | Google Maps and Instagram documented as data sources plus an API (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
+| AI capability | 3/10 | Lead discovery and enrichment run as data automation more than model work (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
+| Operational maturity | 2/10 | Founded 2026 as an early project (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -119,6 +72,13 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Young project (228 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: lead discovery | ✗ Short native integration list - plan for API work |
+| ✓ Native integrations include Google Maps, Instagram (2 listed) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -133,10 +93,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is ProspectOS?**
 ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 228 stars.
 
+**How much does ProspectOS cost?**
 ProspectOS is open source - MIT licensed and free to self-host; the public repository carries 228 stars. You pay in server time and maintenance, not licences.
 
+**Is ProspectOS a good self-hosted CRM tool in 2026?**
 A working, well-tested local prospecting tool with unusually honest documentation about its scraping risks. Suitable for individual freelancers who accept the terms-of-service exposure; not a team tool, and not compliant-by-design with Google or Instagram ToS.
 
 ## Similar Tools
@@ -148,11 +111,42 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 228
+- **Founded:** 2026
+- **HQ:** Open source
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-08-31
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** ProspectOS is a tool in CRM with free and open source. The catalog documents 2 AI features, 2 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
+
+Chatfuel
+
+AI chatbot platform for automating customer conversations on messaging channels
+
+Line Harness
+
+Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
+
+Cordys CRM
+
+Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

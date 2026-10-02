@@ -1,64 +1,5 @@
 # Attio review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free (3 seats), Plus $29/seat/mo, Pro $69/seat/mo published with Enterprise custom on annual billing (the vendor pricing page: [pricing page](https://attio.com/pricing), verified 2026-08-28). |
-| Feature depth | 7/10 | Enrichment, email drafting, meeting notes and agentic revenue workflows cover the modern CRM loop (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
-| Integrations | 6/10 | Slack, Gmail, Outlook, Zapier, HubSpot, Notion, Calendly and Stripe documented plus an API (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
-| AI capability | 7/10 | Real-time enrichment and agentic workflows are the product's architecture, not add-ons (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2019 with priced tiers and a fast-moving product cycle (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI data enrichment | ✗ Paid plans start at $29/mo once past the free tier |
-| ✓ Native integrations include Slack, Gmail, Outlook (8 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing) |  |
-
-**What is Attio?**
-Attio: AI-native CRM with real-time data enrichment and agentic revenue workflows. Attio ships with AI data enrichment. This page documents 8 integrations.
-
-**How much does Attio cost?**
-Attio has a free tier; paid plans start at $29/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
-
-**Is Attio worth it past the free tier?**
-Worth a look when your CRM needs custom objects and live segments more than it needs a sales methodology out of the box.
-
-- **Pricing:** Freemium
-- **Category:** [CRM](/categories/crm/)
-- **Founded:** 2019
-- **HQ:** London, UK
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Attio is a tool in CRM with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Tealium
-
-Enterprise customer data platform with real-time data orchestration and AI
-
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-Pipedream
-
-Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
-
-HubSpot CRM
-
-Free AI-powered CRM platform with sales, service, and marketing tools unified
-
-ProspectOS
-
-Open-source lead prospecting CRM with Google Maps and Instagram scraping
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -71,7 +12,7 @@ AI-native CRM with real-time data enrichment and agentic revenue workflows
 
 CRM · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Attio →](https://attio.com)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 37/60
 
 Attio is the AI-native CRM rebuild: enrichment, drafting and agentic workflows over a modern data model. Priced per seat from free to custom, it is the CRM choice for teams starting fresh.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free (3 seats), Plus $29/seat/mo, Pro $69/seat/mo published with Enterprise custom on annual billing (the vendor pricing page: [pricing page](https://attio.com/pricing), verified 2026-08-28). |
+| Feature depth | 7/10 | Enrichment, email drafting, meeting notes and agentic revenue workflows cover the modern CRM loop (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
+| Integrations | 6/10 | Slack, Gmail, Outlook, Zapier, HubSpot, Notion, Calendly and Stripe documented plus an API (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
+| AI capability | 7/10 | Real-time enrichment and agentic workflows are the product's architecture, not add-ons (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2019 with priced tiers and a fast-moving product cycle (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -130,6 +81,13 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI data enrichment | ✗ Paid plans start at $29/mo once past the free tier |
+| ✓ Native integrations include Slack, Gmail, Outlook (8 listed) | ✗ Closed source - no self-hosting option |
+| ✓ Free tier to evaluate before committing (Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -144,10 +102,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Attio?**
 Attio: AI-native CRM with real-time data enrichment and agentic revenue workflows. Attio ships with AI data enrichment. This page documents 8 integrations.
 
+**How much does Attio cost?**
 Attio has a free tier; paid plans start at $29/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
+**Is Attio worth it past the free tier?**
 Worth a look when your CRM needs custom objects and live segments more than it needs a sales methodology out of the box.
 
 ## Similar Tools
@@ -162,6 +123,13 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for startups that want a CRM shaped around their own data model.
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [CRM](/categories/crm/)
+- **Founded:** 2019
+- **HQ:** London, UK
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 
 ## Get the next teardown
@@ -169,6 +137,32 @@ Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Attio is a tool in CRM with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Tealium
+
+Enterprise customer data platform with real-time data orchestration and AI
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Pipedream
+
+Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+ProspectOS
+
+Open-source lead prospecting CRM with Google Maps and Instagram scraping
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -187,7 +181,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/attio/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -299,7 +293,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/attio/", "breadcrumb": {"@id": "https://martechsignal.com/tools/attio/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/attio/", "breadcrumb": {"@id": "https://martechsignal.com/tools/attio/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

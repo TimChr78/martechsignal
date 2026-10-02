@@ -1,63 +1,5 @@
 # Strapi review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free (MIT), Cloud Developer free, Pro $99/mo, Team $499/mo, Enterprise custom, all published (the vendor pricing page: [pricing page](https://strapi.io/pricing), verified 2026-08-28). |
-| Feature depth | 7/10 | API-first content management with media handling and workflows covers the headless CMS job fully (vendor documentation: [vendor site](https://strapi.io), verified 2026-09-28). |
-| Integrations | 7/10 | Next.js, Nuxt, Gatsby, Zapier, Slack, Stripe, Algolia and Cloudinary documented plus its core APIs (vendor documentation: [vendor site](https://strapi.io), verified 2026-09-28). |
-| AI capability | 5/10 | AI content generation, workflows, media management and translation are present but optional add-ons (vendor documentation: [vendor site](https://strapi.io), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed core with free self-hosting with no feature paywall (the source repository: [repository](https://github.com/strapi/strapi), verified 2026-09-28). |
-| Operational maturity | 7/10 | Founded 2015 with a commercial cloud arm and the category's largest contributor base (vendor documentation: [vendor site](https://strapi.io), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $99/mo |
-| ✓ AI capabilities: AI content generation |  |
-| ✓ Active public repository (73,272 GitHub stars counted at last check) |  |
-| ✓ Native integrations include Next.js, Nuxt, Gatsby (8 listed) |  |
-
-**What is Strapi?**
-Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,272 stars.
-
-**How much does Strapi cost?**
-Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
-
-**Is Strapi a good self-hosted AI Content & Copywriting tool in 2026?**
-Our default headless CMS for custom builds; choose it for flexibility, not for turnkey publishing polish.
-
-- **Pricing:** Open Source
-- **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **GitHub:** ★ 73272
-- **Founded:** 2015
-- **HQ:** Paris, France
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-08-28
-
-**Verdict:** Strapi is a tool in AI Content & Copywriting with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Ghost
-
-Open-source publishing platform with built-in newsletters, memberships, and AI tools
-
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-Jasper
-
-AI marketing content platform for creating on-brand copy, images, and campaigns
-
-ALwrity
-
-AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
-
-[More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
@@ -70,7 +12,7 @@ Open-source headless CMS with AI-powered content management and API-first design
 
 AI Content & Copywriting · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Strapi →](https://strapi.io)
 
@@ -81,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 43/60
 
 Strapi is the headless CMS with the biggest community in the category and an AI layer that stays optional. Self-hosted free with cloud tiers from free to $499/mo is the right shape for a content platform.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Self-hosted free (MIT), Cloud Developer free, Pro $99/mo, Team $499/mo, Enterprise custom, all published (the vendor pricing page: [pricing page](https://strapi.io/pricing), verified 2026-08-28). |
+| Feature depth | 7/10 | API-first content management with media handling and workflows covers the headless CMS job fully (vendor documentation: [vendor site](https://strapi.io), verified 2026-09-28). |
+| Integrations | 7/10 | Next.js, Nuxt, Gatsby, Zapier, Slack, Stripe, Algolia and Cloudinary documented plus its core APIs (vendor documentation: [vendor site](https://strapi.io), verified 2026-09-28). |
+| AI capability | 5/10 | AI content generation, workflows, media management and translation are present but optional add-ons (vendor documentation: [vendor site](https://strapi.io), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed core with free self-hosting with no feature paywall (the source repository: [repository](https://github.com/strapi/strapi), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2015 with a commercial cloud arm and the category's largest contributor base (vendor documentation: [vendor site](https://strapi.io), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -128,6 +80,14 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $99/mo |
+| ✓ AI capabilities: AI content generation |  |
+| ✓ Active public repository (73,272 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Next.js, Nuxt, Gatsby (8 listed) |  |
+
 ## Related concepts
 
 - [AI content](/glossary/ai-content-generation/)
@@ -140,10 +100,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Strapi?**
 Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,272 stars.
 
+**How much does Strapi cost?**
 Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
+**Is Strapi a good self-hosted AI Content & Copywriting tool in 2026?**
 Our default headless CMS for custom builds; choose it for flexibility, not for turnkey publishing polish.
 
 ## Similar Tools
@@ -158,6 +121,15 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Teams that want a headless CMS with AI inside their own stack
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
+- **GitHub:** ★ 73272
+- **Founded:** 2015
+- **HQ:** Paris, France
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-08-28
+
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 
 ## Get the next teardown
@@ -165,6 +137,28 @@ Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tool
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Strapi is a tool in AI Content & Copywriting with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Ghost
+
+Open-source publishing platform with built-in newsletters, memberships, and AI tools
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Jasper
+
+AI marketing content platform for creating on-brand copy, images, and campaigns
+
+ALwrity
+
+AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
+
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

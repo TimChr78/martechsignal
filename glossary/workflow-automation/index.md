@@ -1,30 +1,10 @@
 # Workflow Automation (iPaaS)
 
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-Make
-
-Visual automation platform for building complex workflows with AI agents and apps
-
-Tray.io
-
-AI-powered integration platform for building custom automation and AI agents
-
-Pipedream
-
-Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Workflow Automation (iPaaS)
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-07
 
 ## Definition
 
@@ -75,6 +55,26 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Tray.io](http
 - [Marketing automation](/glossary/marketing-automation/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Make
+
+Visual automation platform for building complex workflows with AI agents and apps
+
+Tray.io
+
+AI-powered integration platform for building custom automation and AI agents
+
+Pipedream
+
+Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -85,7 +85,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Tray.io](http
         "@type": "DefinedTerm",
         "name": "Workflow Automation (iPaaS)",
         "description": "Workflow automation connects your software tools so that actions in one system trigger actions in another. A new form submission creates a CRM record, sends a Slack notification, and adds the contact to an email sequence. No human copies data between tabs.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-07",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -143,7 +143,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Tray.io](http
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/workflow-automation/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/workflow-automation/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/workflow-automation/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/workflow-automation/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

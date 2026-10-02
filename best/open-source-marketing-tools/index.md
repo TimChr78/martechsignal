@@ -1,4 +1,8 @@
-# Best Open-Source Marketing Automation Tools (2026): 8 compared
+# Best Open-Source Marketing Tools (2026): 8 compared
+
+## Best Open-Source Marketing Tools (2026): 8 compared
+
+Mautic comes first: HubSpot-class automation you host yourself. Listmonk sends newsletters with no per-contact billing. Laudspeaker runs lifecycle messaging outside the CRM. SuiteCRM covers sales. Everything here self-hosts free, so hosting effort is the price you actually pay. The other four play the same game in narrower lanes; the table below lines them up.
 
 
 | Tool | Pricing | Public API | Best for |
@@ -12,17 +16,9 @@
 | [Twenty](/tools/twenty/) | Open Source | yes | CRM teams that want open source without accepting feature poverty |
 | [OpenOutreach](/tools/openoutreach/) | Open Source | no | Email marketing teams that want agent-written openers and self-hosting |
 
-[Analytics & Attribution](/categories/analytics/)[CRM](/categories/crm/)[Email Marketing](/categories/email-marketing/)[Marketing Automation](/categories/marketing-automation/)[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-## Best Open-Source Marketing Tools (2026): 8 compared
-
-Mautic comes first: HubSpot-class automation you host yourself. Listmonk sends newsletters with no per-contact billing. Laudspeaker runs lifecycle messaging outside the CRM. SuiteCRM covers sales. Everything here self-hosts free, so hosting effort is the price you actually pay. The other four play the same game in narrower lanes; the table below lines them up.
-
 **Our top pick: [Mautic](#mautic)** — Marketing teams that want HubSpot-class automation they can host themselves [Try Mautic](https://www.mautic.org)
 
-Last verified  · Updated 2026-10-02.
+Last verified 2026-09-28.
 
 ## How we picked
 
@@ -68,7 +64,7 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 
 ## [Mautic](/tools/mautic/)
 
-Mautic is the longest-running open-source marketing automation platform: email, landing pages, forms, segments, campaigns, contact scoring, and multi-channel messaging across email, SMS, web notifications, and mobile push, all self-hosted under GPL-3.0. Started in 2014, it has been community-governed since Acquia acquired Mautic Inc. in May 2019; the trademark is now held by fiscal host Open Source Collective and operations run through an elected Mautic Council, with Acquia and Dropsolid the largest funders. Around 10,664 GitHub stars, eleven bundled plugin packages, and translations into 70 languages reflect that community. The current line is 7.x (7.2.0 shipped in September 2026) and its requirements are serious: PHP 8.2 or newer, minimums raised to MySQL 8.4 and MariaDB 10.11 in the 7.0 release, npm for asset builds, mandatory cron jobs for segments, campaigns, and the email queue, and command-line-only updates, since browser updating was removed in 5.0. Shared hosting is explicitly discouraged. Campaigns, segments, and points-based lead scoring are deterministic rule engines; there is no AI anywhere, and the project's AI Manifesto states plainly that it hosts or maintains no AI services and remains AI-agnostic, so any Mautic AI pitch is a third-party layer rather than a product feature. Integrations are plugin-based: Salesforce, HubSpot, Pipedrive, Zoho, and Dynamics among CRMs, plus WordPress, Twilio, Mailchimp, Gmail and Outlook connectors, Google Tag Manager, Amazon S3, and Zapier. The project's own comparison page positions Mautic for organizations whose automation grows more complex over time and that need control over data governance and infrastructure with predictable costs rather than contact-based fees, while conceding HubSpot for teams that want a polished hosted experience. The software is free; money enters through partner Dropsolid's managed hosting (from € 247.50 a month, 14-day trial, no card) and paid Extended Long Term Support for older versions. The honest costs are operational: upgrades, backups, deliverability, and cron management are yours, and campaigns cannot be moved between instances. It starts free, and Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions. (verified 2026-09-07). The catalog documents 0 AI features, 10 integrations, a self-hosting path.
+It is on this list as the full marketing automation pick. The software is free and self hosted with managed hosting from 247 euros 50 cents per month. Pick it over the single purpose tools here when email campaigns segments and scoring need to live in one self hosted system.
 
 **Verdict:** Marketing teams that want HubSpot-class automation they can host themselves
 
@@ -80,7 +76,7 @@ Vendor: [Official site](https://www.mautic.org) · [Pricing](https://www.mautic.
 
 ## [Listmonk](/tools/listmonk/)
 
-Built as an open-source, self-hosted mailing list manager, Listmonk gives marketing teams a lightweight way to run newsletters, subscriber lists, and email campaigns without relying on a hosted SaaS platform. Its Go backend is designed for speed and low operational overhead, while PostgreSQL handles subscriber and campaign data. The project is free under the AGPL license, with no paid tiers, and it exposes an API for custom workflows. It also supports practical integrations such as SMTP providers, Zapier, and WordPress, making it possible to connect signup forms, automation, and existing site infrastructure. Listmonk is a good fit for technical marketers, developers, and privacy-conscious organizations that want direct control over email infrastructure and subscriber data. Founded in 2019 and based in Bangalore, India, the project has attracted strong open-source interest, with 23,652 GitHub stars. Its AI capabilities are practical rather than central: AI-assisted template editing can help refine email layouts and copy, while AI campaign analytics can support performance review and optimization. These features sit alongside standard campaign tools such as segmentation, templates, and reporting. Compared with commercial alternatives such as Mailchimp, Campaign Monitor, or ActiveCampaign, Listmonk trades managed convenience for ownership, lower recurring costs, and greater flexibility. Teams will need to handle hosting, deliverability configuration, and maintenance themselves, so it is less suited to users who want a fully managed service. It is best for technically capable teams, indie publishers, SaaS companies, and nonprofits that want an open-source email platform with API access, self-hosted data control, and optional AI assistance for campaign production and analysis. It starts free, and Free and open-source (AGPL); self-hosted; no paid tiers (verified 2026-08-28). The catalog documents 2 AI features, 4 integrations, a self-hosting path.
+It is on this list as the newsletter and mailing list pick. It is free and self hosted with no paid tiers. Pick it over Mautic here when the job is only newsletters and campaigns and a smaller setup is enough.
 
 **Verdict:** Newsletter and lifecycle email at one list price, with no per-contact billing
 
@@ -92,7 +88,7 @@ Vendor: [Official site](https://listmonk.app) · [Pricing](https://listmonk.app)
 
 ## [Laudspeaker](/tools/laudspeaker/)
 
-Designed as an open-source customer engagement and product onboarding platform, Laudspeaker helps teams automate lifecycle messaging without locking their data into a proprietary stack. It supports behavioral triggers, customer journey automation, and AI-powered messaging, allowing marketers and product teams to build sequences such as welcome flows, activation campaigns, re-engagement emails, in-app messages, and lifecycle nudges based on user actions. Because the platform is self-hostable and has an active GitHub presence with more than 2,628 stars, engineering teams can inspect the codebase, extend functionality, and connect it directly to their own data infrastructure through its API. The platform is aimed at startups, technical growth teams, and companies that want more control over their marketing automation stack than a closed SaaS tool typically provides. Its open-source model is the main differentiator: while commercial alternatives such as Braze offer polished hosted infrastructure and enterprise support, Laudspeaker offers a lower-cost entry point and greater flexibility for teams willing to manage deployment and maintenance. Pricing includes a free open-source self-hosted option, with cloud plans available for organizations that prefer managed hosting. AI capabilities are practical rather than experimental, focusing on message generation, trigger-based automation, and journey orchestration. Best for technical marketing and product teams that need an open-source alternative to Braze for customer engagement, onboarding automation, and behavioral messaging. It starts free, and Free open-source self-hosted; cloud plans available (verified 2026-08-28). The catalog documents 3 AI features, 0 integrations, a self-hosting path.
+It is on this list as the lifecycle messaging and onboarding pick. The self hosted option is free and open source with cloud plans available. Pick it over Mautic and Listmonk here when behavioral triggers and journey automation matter more than bulk newsletters.
 
 **Verdict:** Lifecycle messaging and onboarding journeys that live outside the CRM
 
@@ -104,7 +100,7 @@ Vendor: [Official site](https://laudspeaker.com/?ref=github) · [GitHub](https:/
 
 ## [SuiteCRM](/tools/suitecrm/)
 
-SuiteCRM is the AGPLv3 open-source CRM that forked SugarCRM Community Edition and outlived it, maintained by SuiteCRM Ltd from Stirling, Scotland. Two release lines are current: 8.10.2 and 7.15.2 shipped on the same day in July 2026 as a joint security release, and 7.15 is an extended support release with security fixes published into 2028. The module set is the deepest in this directory's CRM category: leads, accounts, contacts, opportunities, quotes, invoices, contracts, PDF templates, campaigns with target lists and confirmed opt-in, surveys, events, cases with a knowledge base, bugs, reports with scheduled runs, calendar, projects, and document management, plus Studio for no-code layout changes and Module Builder for new entities from six templates. Workflow automation is free in the core, with calculated fields, which is the main structural difference from EspoCRM, where workflows are a paid extension. What SuiteCRM does not have matters too: there is no native AI anywhere in the documented feature set, and no official mobile app. Elasticsearch is an optional search backend, and Redis or RabbitMQ are optional message transports for background jobs beyond a single server. Two APIs are documented, the newer V8 API with OAuth and the legacy V4. Requirements are PHP 8.2 to 8.4 with MariaDB 10.6 or later, or MySQL 8.0 or later, on Apache 2.4. Installation is a pre-built zip with a permissions pass, then a browser wizard or a CLI installer with flags for the admin user, database, and demo data. Migrating from 7.x to 8.x is a documented fresh install with three console commands, not a patch. Commercial support is GBP-priced: hosting from 50 pounds monthly with unlimited users, and SuiteASSURED from 3,350 pounds a year carrying warranties and indemnities. This assessment is from the repository, the docs, and the vendor site. It starts free, and Free open-source self-hosted; paid cloud hosting available (verified 2026-09-07). The catalog documents 0 AI features, 0 integrations, a self-hosting path.
+It is on this list as the mature sales and marketing CRM pick. The self hosted option is free and open source with paid cloud hosting available. Pick it over Twenty here when a longer established module set matters more than a newer interface.
 
 **Verdict:** Sales teams that want a mature, enterprise-shaped CRM they control
 
@@ -116,7 +112,7 @@ Vendor: [Official site](https://www.suitecrm.com) · [GitHub](https://github.com
 
 ## [n8n](/tools/n8n/)
 
-Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. It starts free, and self-hosted free (fair-code); Cloud Starter €20/mo billed annually; Pro €50/mo; Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
+It is on this list as the automation glue pick rather than a channel tool. The self hosted Community Edition is free and Cloud Starter is 20 euros per month. Pick it over the email and CRM tools here when connecting apps into workflows is the gap to fill.
 
 **Verdict:** Workflow teams that want automation they can audit line by line
 
@@ -128,7 +124,7 @@ Vendor: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) ·
 
 ## [Matomo](/tools/matomo/)
 
-Matomo is an open-source web analytics platform you run on your own infrastructure, licensed GPL v3 or later, with 5.13.0 released in August 2026 and an active 6.x branch. It starts free, and self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial (verified 2026-09-06). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.
+It is on this list as the web analytics pick. The self hosted core is free and Cloud starts at 22 euros per month. Pick it over the messaging and CRM tools here when traffic measurement is the missing piece in an open stack.
 
 **Verdict:** Analytics teams that want traffic data on servers they control
 
@@ -140,7 +136,7 @@ Vendor: [Official site](https://matomo.org) · [Pricing](https://matomo.org/pric
 
 ## [Twenty](/tools/twenty/)
 
-Twenty is an open-source CRM that bills itself as the open alternative to Salesforce, designed for AI: TypeScript and NestJS on PostgreSQL and Redis, a React frontend, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for building custom objects, logic functions, and React components that render inside the product. It starts free, and self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without (verified 2026-09-07). The catalog documents 4 AI features, 7 integrations, a public API, and a self-hosting path.
+It is on this list as the newer CRM pick. Self hosting is free and Cloud Pro is 9 dollars per user per month billed yearly. Pick it over SuiteCRM here when per user cloud pricing and a modern codebase matter more than SuiteCRM depth.
 
 **Verdict:** CRM teams that want open source without accepting feature poverty
 
@@ -152,7 +148,7 @@ Vendor: [Official site](https://twenty.com) · [Pricing](https://twenty.com/pric
 
 ## [OpenOutreach](/tools/openoutreach/)
 
-OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts the usual cold-email workflow: you do not bring a list. It starts free, and free, GPLv3, self-hosted. You pay your own LLM keys and mailbox, plus BetterContact credits for discovery (1 credit per verified work email; free account includes 40 credits, no card) (verified 2026-09-07). The catalog documents 5 AI features, 9 integrations, and a self-hosting path.
+It is on this list as the lead finding pick. It is free and self hosted with your own LLM keys and mailbox plus discovery credits. Pick it over Listmonk and Mautic here when finding and qualifying new leads comes before sending campaigns.
 
 **Verdict:** Email marketing teams that want agent-written openers and self-hosting
 
@@ -182,6 +178,10 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+[Analytics & Attribution](/categories/analytics/)[CRM](/categories/crm/)[Email Marketing](/categories/email-marketing/)[Marketing Automation](/categories/marketing-automation/)[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -190,7 +190,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best Open-Source Marketing Tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -320,10 +320,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/open-source-marketing-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/open-source-marketing-tools/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

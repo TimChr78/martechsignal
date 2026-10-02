@@ -1,5 +1,79 @@
 # Agent Skills Tools
 
+- [Home](/)
+- [Tools](/tools/)
+- Agent Skills
+## Agent Skills Tools
+
+Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 18 reviewed.
+
+18 TOOLS IN THIS CATEGORY
+
+## SEO AND CONTENT SKILLS***7*
+
+### Aaron Marketing Skills
+
+### Claude SEO
+
+### Codex SEO
+
+### Diffmode Growth Tactics
+
+### Email Marketing Bible
+
+### Growth Lab
+
+### SEO Skill Bench
+
+## CAMPAIGN AND ASSET SKILLS***9*
+
+### AI Business Skills
+
+### Analytics Tracking Automation
+
+### Claude Ads
+
+### Eve Marketing Team Template
+
+### Google Ads + Meta Ads + GA4 MCP
+
+### Marketing Studio
+
+### Open Mercato
+
+### OpenClaw Marketing Skills
+
+### Zapier GTM Cheat Codes
+
+## More Agent Skills tools***2*
+
+### AI Marketing Suite
+
+### Digital Marketing Pro
+
+**Compare:** [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+
+## Key terms
+
+- [MCP](/glossary/mcp/)
+- [Agentic Marketing](/glossary/agentic-marketing/)
+- [AI Agent](/glossary/ai-agent/)
+Full definitions in the [martech glossary](/glossary/).
+
+Agent skills are installable capabilities for AI agents. A skill is a folder of markdown, scripts and prompts you load into Claude Code, Codex or OpenClaw, and it changes what the agent can do: run an SEO audit, operate ad accounts, build launch assets. No seat fee, no dashboard, no vendor to call. The category barely existed two years ago, and it is now the fastest-moving layer of martech. Six of the ten fastest-growing open-source repos we track sit in this category, and the biggest mover of the week, Claude SEO, out-grew n8n and LangChain combined.
+
+The speed is not an accident. These packs skip the distribution problem that SaaS never solved: a 55,000-word skill file costs nothing to ship, so quality is decided by issue discipline and documentation, not by a sales team. The trade is that the burden moved to you. Nobody validates a skill's output, nobody holds its hand, and some packs quietly append self-promotion to their results. Provenance is the whole game, which is why every review in this directory comes from installing the pack and shipping something with it.
+
+This directory covers 18 tools, from the 15,000-star Claude SEO that runs a 25-agent audit pipeline, to Marketing Studio that renders launch assets from one command. Claude Ads manages 12 ad platforms. The Email Marketing Bible packs 908 sources into a single file. The MCP server gives agents read and write control of Google Ads, Meta Ads and GA4. Install them on a Saturday, verify everything they output, and you have replaced work that used to require a tool contract.
+
+## Which one fits
+
+Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](https://github.com/AgriciDaniel/claude-ads) · [Google Ads + Meta Ads + GA4 MCP](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
+
+## Reading before you buy
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 
 Open SourceDesk-reviewedOSS
@@ -136,80 +210,6 @@ Why agent-to-tool protocols change what integrations should cost
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
-- [Home](/)
-- [Tools](/tools/)
-- Agent Skills
-## Agent Skills Tools
-
-Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 18 reviewed.
-
-18 TOOLS IN THIS CATEGORY
-
-## SEO AND CONTENT SKILLS***7*
-
-### Aaron Marketing Skills
-
-### Claude SEO
-
-### Codex SEO
-
-### Diffmode Growth Tactics
-
-### Email Marketing Bible
-
-### Growth Lab
-
-### SEO Skill Bench
-
-## CAMPAIGN AND ASSET SKILLS***9*
-
-### AI Business Skills
-
-### Analytics Tracking Automation
-
-### Claude Ads
-
-### Eve Marketing Team Template
-
-### Google Ads + Meta Ads + GA4 MCP
-
-### Marketing Studio
-
-### Open Mercato
-
-### OpenClaw Marketing Skills
-
-### Zapier GTM Cheat Codes
-
-## More Agent Skills tools***2*
-
-### AI Marketing Suite
-
-### Digital Marketing Pro
-
-**Compare:** [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-
-## Key terms
-
-- [MCP](/glossary/mcp/)
-- [Agentic Marketing](/glossary/agentic-marketing/)
-- [AI Agent](/glossary/ai-agent/)
-Full definitions in the [martech glossary](/glossary/).
-
-Agent skills are installable capabilities for AI agents. A skill is a folder of markdown, scripts and prompts you load into Claude Code, Codex or OpenClaw, and it changes what the agent can do: run an SEO audit, operate ad accounts, build launch assets. No seat fee, no dashboard, no vendor to call. The category barely existed two years ago, and it is now the fastest-moving layer of martech. Six of the ten fastest-growing open-source repos we track sit in this category, and the biggest mover of the week, Claude SEO, out-grew n8n and LangChain combined.
-
-The speed is not an accident. These packs skip the distribution problem that SaaS never solved: a 55,000-word skill file costs nothing to ship, so quality is decided by issue discipline and documentation, not by a sales team. The trade is that the burden moved to you. Nobody validates a skill's output, nobody holds its hand, and some packs quietly append self-promotion to their results. Provenance is the whole game, which is why every review in this directory comes from installing the pack and shipping something with it.
-
-This directory covers 18 tools, from the 15,000-star Claude SEO that runs a 25-agent audit pipeline, to Marketing Studio that renders launch assets from one command. Claude Ads manages 12 ad platforms. The Email Marketing Bible packs 908 sources into a single file. The MCP server gives agents read and write control of Google Ads, Meta Ads and GA4. Install them on a Saturday, verify everything they output, and you have replaced work that used to require a tool contract.
-
-## Which one fits
-
-Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](https://github.com/AgriciDaniel/claude-ads) · [Google Ads + Meta Ads + GA4 MCP](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
-
-## Reading before you buy
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 
 ```json
 {
@@ -249,7 +249,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 18,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -474,7 +474,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/agent-skills/", "breadcrumb": {"@id": "https://martechsignal.com/categories/agent-skills/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/agent-skills/", "breadcrumb": {"@id": "https://martechsignal.com/categories/agent-skills/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

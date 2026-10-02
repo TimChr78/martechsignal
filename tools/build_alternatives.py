@@ -19,11 +19,14 @@ CONTENT = ROOT / "tools" / "alternatives-content.json"
 OUT_DIR = ROOT / "alternatives"
 
 
-def alt_card(item, tools_by_slug):
+def alt_card(item, tools_by_slug, target_name=""):
     t = tools_by_slug[item["slug"]]
     oss = ' <span class="tag oss">OSS</span>' if t.get("open_source") else ""
+    # r20 M-5 (2026-10-02): bare tool-name H2s carry no query language -
+    # head each card as an alternative to the page's target.
+    _h2 = f"{esc(t['name'])} as a {esc(target_name)} alternative" if target_name else esc(t["name"])
     return f"""<section class="alt-item" id="{esc(t['slug'])}">
-  <h2><a href="/tools/{t['slug']}/">{esc(t['name'])}</a></h2>
+  <h2><a href="/tools/{t['slug']}/">{_h2}</a></h2>
   <p class="meta"><span class="tag pricing">{esc(pricing_label(t))}</span>{oss}</p>
   {_tool_fact_img(t)}
   {_pilot_shot(t['slug'], t['name'])}
@@ -69,10 +72,10 @@ def matrix_table(page, tools_by_slug):
             f'<td>{self_host}</td>'
             f'<td>{esc(item["best_for"])}</td></tr>')
     return (
-        '<table class="alt-matrix"><caption>Compared on the axes that decide the '
+        '<div class="table-wrap"><table class="alt-matrix"><caption>Compared on the axes that decide the '
         'purchase. Prices as catalogued on each vendor pricing page.</caption><thead><tr>'
         '<th>Tool</th><th>Price</th><th>Billing model</th><th>Self-host</th><th>Best for</th>'
-        '</tr></thead><tbody>' + "".join(rows) + "</tbody></table>")
+        '</tr></thead><tbody>' + "".join(rows) + "</tbody></table></div>")
 
 def build():
     data = json.loads(CONTENT.read_text())
@@ -99,7 +102,7 @@ def build():
         for item in page["items"]:
             assert item["slug"] in tools_by_slug, f"unknown item slug {item['slug']}"
             assert item["slug"] != page["slug"], "target listed as its own alternative"
-            body.append(alt_card(item, tools_by_slug))
+            body.append(alt_card(item, tools_by_slug, target["name"]))
         # r11 H-4 (2026-09-29): same 3-question FAQ rollout as best/vs pages.
         for _qa in (page.get("pilot_faq") or []):
             body.append(f'<h2>{esc(_qa["q"])}</h2><p>{esc(_qa["a"])}</p>')

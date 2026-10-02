@@ -1,17 +1,5 @@
 # The Approval Step You Deleted Was the Audit Trail
 
-
-| Keep the human gate | Safe to automate end to end |
-| --- | --- |
-| Budget or bid changes above a written threshold | Spend adjustments inside a pre-approved cap |
-| Brand-facing sends to new audiences (email, ads, social) | Draft generation that cannot send by itself |
-| New claims, testimonials, or performance numbers in copy | Rotating between variants a human already approved |
-| Audience expansion beyond locked constraints | Reporting, alerts, dashboards, internal summaries |
-| Data exports leaving the stack | Syncs where consent fields are read-only |
-| Anything that re-enrolls an opted-out contact | Suppression and list hygiene that can only remove |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 MARKETING AUTOMATION · AI AGENTS · 9 MIN
 
 ## Your autonomous stack's loophole is the approval step you deleted
@@ -20,7 +8,7 @@ MARKETING AUTOMATION · AI AGENTS · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Your autonomous stack's loophole is the approval step you deleted
 
-SEP 07, 2026 · Updated 2026-10-02
+SEP 07, 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Workflow Automation](/categories/workflow-automation/)
 
@@ -43,6 +31,16 @@ None of those three failures would have been caught by a masking proxy or a zero
 ## Which steps keep a gate, which run free
 
 The boundary is easier to draw than most governance frameworks admit. Four questions decide it: does the step move money, does anything leave the building, is it irreversible, does it touch consent or PII. Any yes keeps a human gate. All no and the step can run end to end.
+
+
+| Keep the human gate | Safe to automate end to end |
+| --- | --- |
+| Budget or bid changes above a written threshold | Spend adjustments inside a pre-approved cap |
+| Brand-facing sends to new audiences (email, ads, social) | Draft generation that cannot send by itself |
+| New claims, testimonials, or performance numbers in copy | Rotating between variants a human already approved |
+| Audience expansion beyond locked constraints | Reporting, alerts, dashboards, internal summaries |
+| Data exports leaving the stack | Syncs where consent fields are read-only |
+| Anything that re-enrolls an opted-out contact | Suppression and list hygiene that can only remove |
 
 The pattern in the left column is exposure: money, brand, law, or data leaving your control. The pattern in the right column is reversibility: an internal report nobody reads this week costs nothing, a drafted campaign that never sent costs nothing, and a suppression that removed too much can be caught and undone. Automation is safe where mistakes are cheap to reverse. Gates belong where mistakes are expensive to explain.
 
@@ -102,6 +100,8 @@ More from the directory: [Brevo](/tools/brevo/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -133,7 +133,7 @@ More from the directory: [Brevo](/tools/brevo/)
     }
   },
   "datePublished": "2026-09-07",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-07",
   "mainEntityOfPage": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/",
   "image": {
     "@type": "ImageObject",
@@ -179,7 +179,7 @@ More from the directory: [Brevo](/tools/brevo/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

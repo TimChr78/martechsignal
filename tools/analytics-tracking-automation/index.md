@@ -1,61 +1,5 @@
 # Analytics Tracking Automation pricing
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 10/10 | Free under Apache 2.0, npm-based, nothing to price (the vendor pricing page: [vendor site](https://www.jtracking.ai/skills), verified 2026-08-28). |
-| Feature depth | 4/10 | Site analysis, page grouping, GA4 schema design and GTM output with verification cover one job (vendor documentation: [vendor site](https://www.jtracking.ai/skills), verified 2026-09-28). |
-| Integrations | 4/10 | GA4, Google Tag Manager, Cursor, Codex and Shopify documented (vendor documentation: [vendor site](https://www.jtracking.ai/skills), verified 2026-09-28). |
-| AI capability | 4/10 | Agent-run tracking design is the whole scope by design (vendor documentation: [vendor site](https://www.jtracking.ai/skills), verified 2026-09-28). |
-| Openness | 9/10 | Apache-2.0 with readable source (the source repository: [repository](https://github.com/jtrackingai/analytics-tracking-automation), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2025; a focused small project (vendor documentation: [vendor site](https://www.jtracking.ai/skills), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (141 GitHub stars) - smaller community and plugin ecosystem |
-| ✓ AI capabilities: automated site analysis and page grouping by business purpose |  |
-| ✓ Native integrations include GA4, Google Tag Manager, Cursor (5 listed) |  |
-
-**What is Analytics Tracking Automation?**
-Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 141 stars.
-
-**How much does Analytics Tracking Automation cost?**
-Analytics Tracking Automation is open source - Apache-2.0 licensed and free to self-host; the public repository carries 141 stars; native integrations cover GA4, Google Tag Manager, Cursor. You pay in server time and maintenance, not licences.
-
-**Is Analytics Tracking Automation a good self-hosted Agent Skills tool in 2026?**
-Free and fast if tracking keeps slipping through the cracks. Review every schema it proposes before publishing anything.
-
-- **Pricing:** Open Source
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 141
-- **Founded:** 2025
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-08-28
-
-**Verdict:** Analytics Tracking Automation is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-AI Business Skills
-
-63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-
-SEO Skill Bench
-
-Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
-
-Zapier GTM Cheat Codes
-
-Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
-
-Codex SEO
-
-Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -68,7 +12,7 @@ AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Analytics Tracking Automation →](https://www.jtracking.ai/skills)
 
@@ -79,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 This npm skill does the unglamorous work: GA4 event schemas and GTM-ready output with verification. Small, free, and useful exactly once per site.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free under Apache 2.0, npm-based, nothing to price (the vendor pricing page: [vendor site](https://www.jtracking.ai/skills), verified 2026-08-28). |
+| Feature depth | 4/10 | Site analysis, page grouping, GA4 schema design and GTM output with verification cover one job (vendor documentation: [vendor site](https://www.jtracking.ai/skills), verified 2026-09-28). |
+| Integrations | 4/10 | GA4, Google Tag Manager, Cursor, Codex and Shopify documented (vendor documentation: [vendor site](https://www.jtracking.ai/skills), verified 2026-09-28). |
+| AI capability | 4/10 | Agent-run tracking design is the whole scope by design (vendor documentation: [vendor site](https://www.jtracking.ai/skills), verified 2026-09-28). |
+| Openness | 9/10 | Apache-2.0 with readable source (the source repository: [repository](https://github.com/jtrackingai/analytics-tracking-automation), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2025; a focused small project (vendor documentation: [vendor site](https://www.jtracking.ai/skills), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -122,6 +76,13 @@ Free and fast if tracking keeps slipping through the cracks. Review every schema
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (141 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: automated site analysis and page grouping by business purpose |  |
+| ✓ Native integrations include GA4, Google Tag Manager, Cursor (5 listed) |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -135,10 +96,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Analytics Tracking Automation?**
 Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 141 stars.
 
+**How much does Analytics Tracking Automation cost?**
 Analytics Tracking Automation is open source - Apache-2.0 licensed and free to self-host; the public repository carries 141 stars; native integrations cover GA4, Google Tag Manager, Cursor. You pay in server time and maintenance, not licences.
 
+**Is Analytics Tracking Automation a good self-hosted Agent Skills tool in 2026?**
 Free and fast if tracking keeps slipping through the cracks. Review every schema it proposes before publishing anything.
 
 ## Similar Tools
@@ -150,11 +114,41 @@ Free and fast if tracking keeps slipping through the cracks. Review every schema
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **GitHub:** ★ 141
+- **Founded:** 2025
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-08-28
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Analytics Tracking Automation is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+AI Business Skills
+
+63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+SEO Skill Bench
+
+Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+
+Zapier GTM Cheat Codes
+
+Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+
+Codex SEO
+
+Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

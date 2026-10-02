@@ -1,5 +1,96 @@
 # CRM Tools
 
+- [Home](/)
+- [Tools](/tools/)
+- CRM
+## CRM Tools
+
+CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. 24 tools reviewed.
+
+24 TOOLS IN THIS CATEGORY
+
+## HOSTED SAAS CRMs***5*
+
+### Attio
+
+### Freshsales
+
+### HubSpot CRM
+
+### Pipedrive
+
+### Salesforce CRM
+
+## SELF-HOSTED OPEN SOURCE***11*
+
+### AlphOne
+
+### Django CRM
+
+### Dolibarr ERP/CRM
+
+### EspoCRM
+
+### Ever Gauzy
+
+### Frappe CRM
+
+### IDURAR ERP & CRM
+
+### Krayin CRM
+
+### Monica
+
+### SuiteCRM
+
+### Warpdrive
+
+## AGENT-READY, MCP-NATIVE***4*
+
+### Cordys CRM
+
+### Macro
+
+### Relaticle
+
+### Twenty
+
+## OUTBOUND & CHANNEL***3*
+
+### DeskcommCRM
+
+### ProspectOS
+
+### WaCRM
+
+## More CRM tools***1*
+
+### Zoho CRM
+
+**Compare:** [ActiveCampaign vs HubSpot CRM](/vs/activecampaign-vs-hubspot/) · [HubSpot CRM alternatives](/alternatives/hubspot-crm/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+
+## Key terms
+
+- [CRM](/glossary/crm/)
+- [Lead scoring](/glossary/lead-scoring/)
+- [MQL / SQL](/glossary/mql-sql/)
+- [Customer journey](/glossary/customer-journey/)
+Full definitions in the [martech glossary](/glossary/).
+
+A CRM is the system of record for who your customers are, what they bought, and what your team promised them. Every other tool in the stack reads from it or writes to it. What changed in the last year is that these systems stopped being passive. Salesforce now bundles Agentforce into existing Enterprise contracts at no extra cost. Attio enriches records and drafts outreach on its own. Freshsales scores deals with Freddy AI from the Pro tier. Pipedrive predicts which deals close. The record layer is where AI agents actually work, because it is the only place with the context they need.
+
+The failure mode is the one this category has always had, now with higher stakes: the CRM is a graveyard of half-entered records, and every forecast built on it inherits the rot. AI makes that worse before it makes it better, since a scoring model trained on stale deal data will confidently rank your pipeline wrong. Buyers also keep paying per seat for fields nobody fills in. We covered the cost side in the Agentforce free-tier post and the data side in the CDP reckoning, where the warehouse eats the profile store. The 50-day open-source audit tracked which CRM projects actually ship.
+
+The directory covers 24 tools in four clusters. The hosted suites run the pipeline for you: Salesforce, HubSpot, Pipedrive, Freshsales and Attio, priced per seat from free tiers up to enterprise contracts. The self-hosted majority is where this category is unusual: eleven systems, from EspoCRM and SuiteCRM to Warpdrive and Monica, that you run on your own server with no seat billing. Then come the agent-ready CRMs (Twenty, Relaticle, Macro, Cordys) built around MCP servers, and the outbound three (ProspectOS, WaCRM, DeskcommCRM) that scrape leads or sell through WhatsApp. Our reviews weight data ownership, per-seat economics, and whether the AI features survive contact with real pipeline data.
+
+## Which one fits
+
+Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monicahq.com) · [Krayin CRM](https://krayincrm.com)
+
+## Reading before you buy
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
 AI-native CRM with real-time data enrichment and agentic revenue workflows
 
 FreemiumDesk-reviewed
@@ -166,97 +257,6 @@ Which open-source CRM contenders, Twenty, Frappe and WaCRM, actually shipped in 
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
-- [Home](/)
-- [Tools](/tools/)
-- CRM
-## CRM Tools
-
-CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. 24 tools reviewed.
-
-24 TOOLS IN THIS CATEGORY
-
-## HOSTED SAAS CRMs***5*
-
-### Attio
-
-### Freshsales
-
-### HubSpot CRM
-
-### Pipedrive
-
-### Salesforce CRM
-
-## SELF-HOSTED OPEN SOURCE***11*
-
-### AlphOne
-
-### Django CRM
-
-### Dolibarr ERP/CRM
-
-### EspoCRM
-
-### Ever Gauzy
-
-### Frappe CRM
-
-### IDURAR ERP & CRM
-
-### Krayin CRM
-
-### Monica
-
-### SuiteCRM
-
-### Warpdrive
-
-## AGENT-READY, MCP-NATIVE***4*
-
-### Cordys CRM
-
-### Macro
-
-### Relaticle
-
-### Twenty
-
-## OUTBOUND & CHANNEL***3*
-
-### DeskcommCRM
-
-### ProspectOS
-
-### WaCRM
-
-## More CRM tools***1*
-
-### Zoho CRM
-
-**Compare:** [ActiveCampaign vs HubSpot CRM](/vs/activecampaign-vs-hubspot/) · [HubSpot CRM alternatives](/alternatives/hubspot-crm/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
-
-## Key terms
-
-- [CRM](/glossary/crm/)
-- [Lead scoring](/glossary/lead-scoring/)
-- [MQL / SQL](/glossary/mql-sql/)
-- [Customer journey](/glossary/customer-journey/)
-Full definitions in the [martech glossary](/glossary/).
-
-A CRM is the system of record for who your customers are, what they bought, and what your team promised them. Every other tool in the stack reads from it or writes to it. What changed in the last year is that these systems stopped being passive. Salesforce now bundles Agentforce into existing Enterprise contracts at no extra cost. Attio enriches records and drafts outreach on its own. Freshsales scores deals with Freddy AI from the Pro tier. Pipedrive predicts which deals close. The record layer is where AI agents actually work, because it is the only place with the context they need.
-
-The failure mode is the one this category has always had, now with higher stakes: the CRM is a graveyard of half-entered records, and every forecast built on it inherits the rot. AI makes that worse before it makes it better, since a scoring model trained on stale deal data will confidently rank your pipeline wrong. Buyers also keep paying per seat for fields nobody fills in. We covered the cost side in the Agentforce free-tier post and the data side in the CDP reckoning, where the warehouse eats the profile store. The 50-day open-source audit tracked which CRM projects actually ship.
-
-The directory covers 24 tools in four clusters. The hosted suites run the pipeline for you: Salesforce, HubSpot, Pipedrive, Freshsales and Attio, priced per seat from free tiers up to enterprise contracts. The self-hosted majority is where this category is unusual: eleven systems, from EspoCRM and SuiteCRM to Warpdrive and Monica, that you run on your own server with no seat billing. Then come the agent-ready CRMs (Twenty, Relaticle, Macro, Cordys) built around MCP servers, and the outbound three (ProspectOS, WaCRM, DeskcommCRM) that scrape leads or sell through WhatsApp. Our reviews weight data ownership, per-seat economics, and whether the AI features survive contact with real pipeline data.
-
-## Which one fits
-
-Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monicahq.com) · [Krayin CRM](https://krayincrm.com)
-
-## Reading before you buy
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 
 ```json
 {
@@ -296,7 +296,7 @@ Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monic
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 24,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-10-01",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -593,7 +593,7 @@ Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monic
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/crm/", "breadcrumb": {"@id": "https://martechsignal.com/categories/crm/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/crm/", "breadcrumb": {"@id": "https://martechsignal.com/categories/crm/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

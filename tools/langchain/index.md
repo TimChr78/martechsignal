@@ -1,67 +1,5 @@
 # LangChain review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Framework free under MIT; LangSmith free tier with paid from $39/mo and LangGraph Cloud from $39/mo published (the vendor pricing page: [pricing page](https://www.langchain.com/pricing), verified 2026-08-28). |
-| Feature depth | 7/10 | LLM chaining, agent orchestration, tool calling, structured output and RAG cover the agent stack (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
-| Integrations | 8/10 | OpenAI, Anthropic, Google AI, Pinecone, Chroma, n8n, Slack, Notion, Drive and GitHub documented (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
-| AI capability | 8/10 | Agent orchestration and RAG are the framework's reason to exist (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with the largest in the catalog (the source repository: [repository](https://github.com/langchain-ai/langchain), verified 2026-09-28). |
-| Operational maturity | 7/10 | Founded 2022 with commercial LangSmith/LangGraph arms behind the core (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $39/mo |
-| ✓ AI capabilities: LLM chaining |  |
-| ✓ Active public repository (147,371 GitHub stars counted at last check) |  |
-| ✓ Native integrations include OpenAI, Anthropic, Google AI (10 listed) |  |
-
-**What is LangChain?**
-LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 147,371 stars.
-
-**How much does LangChain cost?**
-LangChain has a free tier; paid plans start at $39/mo. Open source (MIT license); LangSmith free tier, paid plans from $39/mo; LangGraph Cloud from $39/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
-
-**Is LangChain a good self-hosted Workflow Automation tool in 2026?**
-For engineers building custom marketing AI: the standard foundation. Marketers should buy the products built on it.
-
-- **Pricing:** Open Source
-- **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 147371
-- **Founded:** 2022
-- **HQ:** San Francisco, CA, USA
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-08-28
-
-**Verdict:** LangChain is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 10 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
-
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-Tray.io
-
-AI-powered integration platform for building custom automation and AI agents
-
-Budibase
-
-Open-source operations platform for building AI agents, apps and automations on your own data
-
-Paperclip
-
-Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
-
-Make
-
-Visual automation platform for building complex workflows with AI agents and apps
-
-[More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
@@ -74,7 +12,7 @@ Open-source framework for building AI agents, chaining LLM calls, and connecting
 
 Workflow Automation · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit LangChain →](https://www.langchain.com)
 
@@ -85,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 47/60
 
 LangChain is the agent framework everything else measures against: 147,371 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Framework free under MIT; LangSmith free tier with paid from $39/mo and LangGraph Cloud from $39/mo published (the vendor pricing page: [pricing page](https://www.langchain.com/pricing), verified 2026-08-28). |
+| Feature depth | 7/10 | LLM chaining, agent orchestration, tool calling, structured output and RAG cover the agent stack (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
+| Integrations | 8/10 | OpenAI, Anthropic, Google AI, Pinecone, Chroma, n8n, Slack, Notion, Drive and GitHub documented (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
+| AI capability | 8/10 | Agent orchestration and RAG are the framework's reason to exist (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with the largest in the catalog (the source repository: [repository](https://github.com/langchain-ai/langchain), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2022 with commercial LangSmith/LangGraph arms behind the core (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -131,6 +79,14 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $39/mo |
+| ✓ AI capabilities: LLM chaining |  |
+| ✓ Active public repository (147,371 GitHub stars counted at last check) |  |
+| ✓ Native integrations include OpenAI, Anthropic, Google AI (10 listed) |  |
+
 ## Related concepts
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -145,10 +101,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is LangChain?**
 LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 147,371 stars.
 
+**How much does LangChain cost?**
 LangChain has a free tier; paid plans start at $39/mo. Open source (MIT license); LangSmith free tier, paid plans from $39/mo; LangGraph Cloud from $39/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
+**Is LangChain a good self-hosted Workflow Automation tool in 2026?**
 For engineers building custom marketing AI: the standard foundation. Marketers should buy the products built on it.
 
 ## Similar Tools
@@ -160,11 +119,46 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Workflow Automation](/categories/workflow-automation/)
+- **GitHub:** ★ 147371
+- **Founded:** 2022
+- **HQ:** San Francisco, CA, USA
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-08-28
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** LangChain is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 10 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Tray.io
+
+AI-powered integration platform for building custom automation and AI agents
+
+Budibase
+
+Open-source operations platform for building AI agents, apps and automations on your own data
+
+Paperclip
+
+Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+
+Make
+
+Visual automation platform for building complex workflows with AI agents and apps
+
+[More Workflow Automation Tools →](/categories/workflow-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

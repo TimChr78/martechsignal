@@ -1,72 +1,5 @@
 # Warpdrive review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with no per-seat billing; your only cost is the hosting server, stated plainly (the vendor pricing page: [vendor site](https://warpdrivecrm.com), verified 2026-09-07). |
-| Feature depth | 3/10 | Pipelines and Gmail integration cover the BD workflow minimum (vendor documentation: [vendor site](https://warpdrivecrm.com), verified 2026-09-28). |
-| Integrations | 3/10 | Gmail and Google Workspace with SSO, MinIO storage and Postgres documented (vendor documentation: [vendor site](https://warpdrivecrm.com), verified 2026-09-28). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://warpdrivecrm.com), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/sneg55/warpdrive), verified 2026-09-28). |
-| Operational maturity | 2/10 | With no API and a minimal dependency stack (vendor documentation: [vendor site](https://warpdrivecrm.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (73 GitHub stars) - smaller community and plugin ecosystem |
-| ✓ Native integrations include Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage (4 listed) |  |
-
-**What is Warpdrive?**
-Warpdrive: Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box. The public repository carries 73 stars.
-
-**How much does Warpdrive cost?**
-Warpdrive is open source - MIT licensed and free to self-host; the public repository carries 73 stars; native integrations cover Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage. You pay in server time and maintenance, not licences.
-
-**Is Warpdrive a good self-hosted CRM tool in 2026?**
-A scoped, honestly documented self-hosted Pipedrive alternative whose AI story is an MCP server rather than a model. One maintainer and a private upstream mean you are betting on a person, not a community.
-
-**Does Warpdrive import my existing Gmail when I connect a mailbox?**
-No. The docs are explicit that there is no backfill: the first sync records Gmail's current history cursor and starts from there, so mail already in the mailbox is not imported and a freshly connected inbox stays empty until new mail arrives. Inboxes are also personal; colleagues do not see yours and you do not see theirs. Sharing happens by linking a Gmail thread to a deal or contact so it appears on that record's timeline.
-
-**Can an AI assistant delete records or send email through Warpdrive's MCP server?**
-No on both counts. The MCP server exposes 29 tools (13 read, 16 write) and has no delete tools for CRM records and no send tool: email drafts are written for review and sending stays a human action. Every call runs as the OAuth signed-in user, bounded by that user's visibility and permission flags, and writes land in the change log attributed to that user. Access is revoked per client under Settings, Connected apps.
-
-**How do I back up a self-hosted Warpdrive instance?**
-Two volumes, both required: a Postgres dump and the miniodata volume, since attachments live in MinIO and the docs warn that a database dump alone restores records whose attachments are gone. The documented command is docker compose exec -T postgres pg_dump -U warpdrive warpdrive | gzip > backup-$(date +%F).sql.gz, followed by copying the miniodata volume, and they recommend testing a restore before you need one.
-
-- **Pricing:** Open Source
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 73
-- **API:** No
-- **Repository checked:** 2026-09-29
-- **Page updated:** 2026-09-07
-
-**Verdict:** Warpdrive is a tool in CRM with free and open source. The catalog documents 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Twenty
-
-The open-source alternative to Salesforce, designed for AI with modern CRM workflows
-
-BillionMail
-
-Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
-
-Cordys CRM
-
-Open-source AI CRM with built-in agents, conversational analytics, and private deployment
-
-DeskcommCRM
-
-Self-hosted open-source CRM with AI agents that sell through WhatsApp
-
-Salesforce CRM
-
-Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -79,7 +12,7 @@ Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail 
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Warpdrive →](https://warpdrivecrm.com)
 
@@ -90,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 28/60
 
 Warpdrive is the tiny Pipedrive alternative: pipelines and Gmail on your own server, MIT with no per-seat billing. At 72 stars it is a bet on a codebase, not a product decision.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free under MIT with no per-seat billing; your only cost is the hosting server, stated plainly (the vendor pricing page: [vendor site](https://warpdrivecrm.com), verified 2026-09-07). |
+| Feature depth | 3/10 | Pipelines and Gmail integration cover the BD workflow minimum (vendor documentation: [vendor site](https://warpdrivecrm.com), verified 2026-09-28). |
+| Integrations | 3/10 | Gmail and Google Workspace with SSO, MinIO storage and Postgres documented (vendor documentation: [vendor site](https://warpdrivecrm.com), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://warpdrivecrm.com), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/sneg55/warpdrive), verified 2026-09-28). |
+| Operational maturity | 2/10 | With no API and a minimal dependency stack (vendor documentation: [vendor site](https://warpdrivecrm.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -146,6 +89,12 @@ A scoped, honestly documented self-hosted Pipedrive alternative whose AI story i
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Young project (73 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ Native integrations include Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage (4 listed) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -160,16 +109,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Warpdrive?**
 Warpdrive: Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box. The public repository carries 73 stars.
 
+**How much does Warpdrive cost?**
 Warpdrive is open source - MIT licensed and free to self-host; the public repository carries 73 stars; native integrations cover Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage. You pay in server time and maintenance, not licences.
 
+**Is Warpdrive a good self-hosted CRM tool in 2026?**
 A scoped, honestly documented self-hosted Pipedrive alternative whose AI story is an MCP server rather than a model. One maintainer and a private upstream mean you are betting on a person, not a community.
 
+**Does Warpdrive import my existing Gmail when I connect a mailbox?**
 No. The docs are explicit that there is no backfill: the first sync records Gmail's current history cursor and starts from there, so mail already in the mailbox is not imported and a freshly connected inbox stays empty until new mail arrives. Inboxes are also personal; colleagues do not see yours and you do not see theirs. Sharing happens by linking a Gmail thread to a deal or contact so it appears on that record's timeline.
 
+**Can an AI assistant delete records or send email through Warpdrive's MCP server?**
 No on both counts. The MCP server exposes 29 tools (13 read, 16 write) and has no delete tools for CRM records and no send tool: email drafts are written for review and sending stays a human action. Every call runs as the OAuth signed-in user, bounded by that user's visibility and permission flags, and writes land in the change log attributed to that user. Access is revoked per client under Settings, Connected apps.
 
+**How do I back up a self-hosted Warpdrive instance?**
 Two volumes, both required: a Postgres dump and the miniodata volume, since attachments live in MinIO and the docs warn that a database dump alone restores records whose attachments are gone. The documented command is docker compose exec -T postgres pg_dump -U warpdrive warpdrive | gzip > backup-$(date +%F).sql.gz, followed by copying the miniodata volume, and they recommend testing a restore before you need one.
 
 ## Similar Tools
@@ -181,11 +136,44 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 73
+- **API:** No
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Warpdrive is a tool in CRM with free and open source. The catalog documents 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Twenty
+
+The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+
+BillionMail
+
+Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+
+Cordys CRM
+
+Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+
+DeskcommCRM
+
+Self-hosted open-source CRM with AI agents that sell through WhatsApp
+
+Salesforce CRM
+
+Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -204,7 +192,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/warpdrive/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-09-03",
     "offers": {
       "@type": "Offer",
@@ -331,7 +319,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/warpdrive/", "breadcrumb": {"@id": "https://martechsignal.com/tools/warpdrive/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/warpdrive/", "breadcrumb": {"@id": "https://martechsignal.com/tools/warpdrive/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

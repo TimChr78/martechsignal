@@ -1,7 +1,5 @@
 # Why Your Marketing Stack Doesn't Need Another AI Tool
 
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 UPDATED · 7 MIN
 
 ## Why Your Marketing Stack Doesn't Need Another AI Tool
@@ -10,7 +8,7 @@ UPDATED · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Why Your Marketing Stack Doesn't Need Another AI Tool
 
-JUL 27, 2026 · Updated 2026-10-02
+JUL 27, 2026
 
 Another AI tool will not fix a stack that cannot hand it clean context. These are the four boring repairs that make the tools you already pay for work as advertised.
 
@@ -115,6 +113,8 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -146,7 +146,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-07-27",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-07-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/",
   "image": {
     "@type": "ImageObject",
@@ -192,7 +192,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/", "breadcrumb": {"@id": "https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/", "breadcrumb": {"@id": "https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/#breadcrumb"}, "dateModified": "2026-07-27"}
 ```
 
 ```json

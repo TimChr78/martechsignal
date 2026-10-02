@@ -1,65 +1,5 @@
 # ALwrity review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free open-source and self-hosted with nothing to price, and honest WIP labeling (the vendor pricing page: [vendor site](https://alwrity.com), verified 2026-08-28). |
-| Feature depth | 5/10 | Content strategy, generation, SEO and social coverage promise the full platform at draft quality (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
-| Integrations | 2/10 | No named integrations in the catalog (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
-| AI capability | 6/10 | Multimodal generation and AI strategy planning are the platform's core claims (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
-| Openness | 8/10 | Open-source self-hosted with full source (the source repository: [repository](https://github.com/ALwrity/ALwrity), verified 2026-09-28). |
-| Operational maturity | 3/10 | A self-declared WIP state (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ API access for custom integrations |  |
-| ✓ AI capabilities: AI content strategy and planning |  |
-| ✓ Active public repository (1,178 GitHub stars counted at last check) |  |
-
-**What is ALwrity?**
-ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,178 stars.
-
-**How much does ALwrity cost?**
-ALwrity is open source - Free to self-host; the public repository carries 1,178 stars. You pay in server time and maintenance, not licences.
-
-**Is ALwrity a good self-hosted Marketing Automation tool in 2026?**
-A capable self-hosted content engine for technical marketers. Everyone else gets better results from maintained hosted tools.
-
-- **Pricing:** Open Source
-- **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 1178
-- **API:** Yes
-- **Repository checked:** 2026-10-01
-- **Page updated:** 2026-08-28
-
-**Verdict:** ALwrity is a tool in Marketing Automation with free and open source. The catalog documents 5 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Predis.ai
-
-AI-powered social media content generator for posts, videos, and ad creatives
-
-Hootsuite
-
-Social media management platform with AI-powered scheduling and analytics
-
-Sprout Social
-
-Enterprise social media management with AI-powered analytics and engagement tools
-
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-Ortto
-
-Customer data and marketing automation platform with journeys, CDP, and AI features
-
-[More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
@@ -72,7 +12,7 @@ AI-first digital marketing platform for content strategy, generation, publishing
 
 Marketing Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit ALwrity →](https://alwrity.com)
 
@@ -83,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 32/60
 
 ALwrity wants to be the whole AI marketing platform and says WIP in its own pricing notes. Treat it as a promising codebase to watch rather than a dependency.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free open-source and self-hosted with nothing to price, and honest WIP labeling (the vendor pricing page: [vendor site](https://alwrity.com), verified 2026-08-28). |
+| Feature depth | 5/10 | Content strategy, generation, SEO and social coverage promise the full platform at draft quality (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
+| Integrations | 2/10 | No named integrations in the catalog (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
+| AI capability | 6/10 | Multimodal generation and AI strategy planning are the platform's core claims (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
+| Openness | 8/10 | Open-source self-hosted with full source (the source repository: [repository](https://github.com/ALwrity/ALwrity), verified 2026-09-28). |
+| Operational maturity | 3/10 | A self-declared WIP state (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -113,6 +63,14 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ API access for custom integrations |  |
+| ✓ AI capabilities: AI content strategy and planning |  |
+| ✓ Active public repository (1,178 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [Marketing automation](/glossary/marketing-automation/)
@@ -127,10 +85,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is ALwrity?**
 ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,178 stars.
 
+**How much does ALwrity cost?**
 ALwrity is open source - Free to self-host; the public repository carries 1,178 stars. You pay in server time and maintenance, not licences.
 
+**Is ALwrity a good self-hosted Marketing Automation tool in 2026?**
 A capable self-hosted content engine for technical marketers. Everyone else gets better results from maintained hosted tools.
 
 ## Similar Tools
@@ -142,6 +103,13 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Marketing Automation](/categories/marketing-automation/)
+- **GitHub:** ★ 1178
+- **API:** Yes
+- **Repository checked:** 2026-10-01
+- **Page updated:** 2026-08-28
+
 ### Pricing
 
 Free open-source; self-hosted; WIP
@@ -151,6 +119,32 @@ Free open-source; self-hosted; WIP
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** ALwrity is a tool in Marketing Automation with free and open source. The catalog documents 5 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Predis.ai
+
+AI-powered social media content generator for posts, videos, and ad creatives
+
+Hootsuite
+
+Social media management platform with AI-powered scheduling and analytics
+
+Sprout Social
+
+Enterprise social media management with AI-powered analytics and engagement tools
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Ortto
+
+Customer data and marketing automation platform with journeys, CDP, and AI features
+
+[More Marketing Automation Tools →](/categories/marketing-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -169,7 +163,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/alwrity/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -272,7 +266,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/alwrity/", "breadcrumb": {"@id": "https://martechsignal.com/tools/alwrity/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/alwrity/", "breadcrumb": {"@id": "https://martechsignal.com/tools/alwrity/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

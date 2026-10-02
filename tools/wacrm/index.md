@@ -1,78 +1,5 @@
 # WaCRM review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free open-source and self-hosted with BYO OpenAI or Anthropic keys as the stated run cost (the vendor pricing page: [vendor site](https://wacrm.tech), verified 2026-09-07). |
-| Feature depth | 6/10 | Shared inbox, sales pipelines, broadcasts and automations cover the WhatsApp CRM loop (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
-| Integrations | 6/10 | Meta WhatsApp Cloud API, Supabase, OpenAI, Anthropic, pgvector and MCP clients documented (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
-| AI capability | 6/10 | Grounded auto-reply with human handoff over pgvector or Postgres full-text retrieval (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/ArnasDon/wacrm), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2026 as an early self-hosted project (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ AI capabilities: AI reply assistant (bring your own OpenAI or Anthropic key) |  |
-| ✓ Active public repository (2,475 GitHub stars counted at last check) |  |
-| ✓ Native integrations include Meta WhatsApp Cloud API, Supabase, OpenAI (8 listed) |  |
-
-**What is WaCRM?**
-WaCRM: Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. WaCRM ships with AI reply assistant (bring your own OpenAI or Anthropic key). The public repository carries 2,475 stars.
-
-**How much does WaCRM cost?**
-WaCRM is open source - MIT licensed and free to self-host; the public repository carries 2,475 stars; native integrations cover Meta WhatsApp Cloud API, Supabase, OpenAI. You pay in server time and maintenance, not licences.
-
-**Is WaCRM a good self-hosted CRM tool in 2026?**
-A legitimate starting point for WhatsApp-first sales teams that can run Node and Supabase; the official API brings template approvals and Meta vetting along with the delivery tracking.
-
-**Is WaCRM free?**
-The code is MIT-licensed and free to fork, modify, and ship, with no user or record limits. The costs around it are yours: a Supabase project, hosting, and WhatsApp Business API usage billed by Meta. The docs recommend Hostinger's managed Node.js hosting, where plans start at a few dollars a month, though the README notes it runs anywhere Node.js does, including Vercel, Railway, or your own VPS. The AI reply assistant has no per-seat fee because you bring your own OpenAI or Anthropic key.
-
-**Does WaCRM use the official WhatsApp API or WhatsApp Web?**
-The official one. Both the README and the docs site state that WaCRM talks to the Meta WhatsApp Business Cloud API using a phone number ID and access token you supply, and that any Meta-approved BSP exposing the same endpoints works. The practical consequences are delivery and read tracking on broadcasts, plus template management inside the app with live Meta approval status, balanced by a requirement that your number be approved by Meta and that broadcasts use Meta-approved templates.
-
-**Does WaCRM have AI features?**
-Yes. The AI reply assistant uses your own OpenAI or Anthropic key, stored encrypted, to draft one-click replies in the inbox or run an auto-reply bot with a per-conversation cap and human handoff, optionally grounded in a knowledge base retrieved with Postgres full-text search or pgvector when an embeddings key is set. There is also an MCP server so Claude, Cursor, and similar assistants can read the CRM, read-only by default with writes as an opt-in.
-
-**Can WaCRM run multiple WhatsApp numbers?**
-One phone number per user account: the schema enforces a unique phone_number_id and the API returns a 409 if you try to attach a number that is already claimed. Shared inbox access is handled by adding multiple humans to one account with owner, admin, agent, or viewer roles rather than by attaching several numbers to a team. If you need several numbers, run several instances, which the Docker setup supports but does not orchestrate for you.
-
-**What breaks if I skip the cron setup in WaCRM?**
-Automations and flows never run. The container schedules nothing internally, so the docs have you point an external cron at /api/automations/cron and /api/flows/cron with an x-cron-secret header; without it those endpoints return 503 and your auto replies and flows silently do not fire. From the inbox it looks like a broken WhatsApp connection, so check the cron before you debug the Cloud API.
-
-- **Pricing:** Open Source
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 2475
-- **Founded:** 2026
-- **HQ:** Open source
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** WaCRM is a tool in CRM with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-DeskcommCRM
-
-Self-hosted open-source CRM with AI agents that sell through WhatsApp
-
-Google Ads + Meta Ads + GA4 MCP
-
-MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
-
-React Email Editor
-
-Drag-n-Drop Email Editor Component for React.js
-
-BillionMail
-
-Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -85,7 +12,7 @@ Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, a
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit WaCRM →](https://wacrm.tech)
 
@@ -96,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 38/60
 
 WaCRM is self-hosted WhatsApp CRM with grounded auto-replies and human handoff, MIT with a few thousand stars. BYO model keys keep the AI costs yours and the data local.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free open-source and self-hosted with BYO OpenAI or Anthropic keys as the stated run cost (the vendor pricing page: [vendor site](https://wacrm.tech), verified 2026-09-07). |
+| Feature depth | 6/10 | Shared inbox, sales pipelines, broadcasts and automations cover the WhatsApp CRM loop (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
+| Integrations | 6/10 | Meta WhatsApp Cloud API, Supabase, OpenAI, Anthropic, pgvector and MCP clients documented (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
+| AI capability | 6/10 | Grounded auto-reply with human handoff over pgvector or Postgres full-text retrieval (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/ArnasDon/wacrm), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026 as an early self-hosted project (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -158,6 +95,14 @@ A legitimate starting point for WhatsApp-first sales teams that can run Node and
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: AI reply assistant (bring your own OpenAI or Anthropic key) |  |
+| ✓ Active public repository (2,475 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Meta WhatsApp Cloud API, Supabase, OpenAI (8 listed) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -172,20 +117,28 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is WaCRM?**
 WaCRM: Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. WaCRM ships with AI reply assistant (bring your own OpenAI or Anthropic key). The public repository carries 2,475 stars.
 
+**How much does WaCRM cost?**
 WaCRM is open source - MIT licensed and free to self-host; the public repository carries 2,475 stars; native integrations cover Meta WhatsApp Cloud API, Supabase, OpenAI. You pay in server time and maintenance, not licences.
 
+**Is WaCRM a good self-hosted CRM tool in 2026?**
 A legitimate starting point for WhatsApp-first sales teams that can run Node and Supabase; the official API brings template approvals and Meta vetting along with the delivery tracking.
 
+**Is WaCRM free?**
 The code is MIT-licensed and free to fork, modify, and ship, with no user or record limits. The costs around it are yours: a Supabase project, hosting, and WhatsApp Business API usage billed by Meta. The docs recommend Hostinger's managed Node.js hosting, where plans start at a few dollars a month, though the README notes it runs anywhere Node.js does, including Vercel, Railway, or your own VPS. The AI reply assistant has no per-seat fee because you bring your own OpenAI or Anthropic key.
 
+**Does WaCRM use the official WhatsApp API or WhatsApp Web?**
 The official one. Both the README and the docs site state that WaCRM talks to the Meta WhatsApp Business Cloud API using a phone number ID and access token you supply, and that any Meta-approved BSP exposing the same endpoints works. The practical consequences are delivery and read tracking on broadcasts, plus template management inside the app with live Meta approval status, balanced by a requirement that your number be approved by Meta and that broadcasts use Meta-approved templates.
 
+**Does WaCRM have AI features?**
 Yes. The AI reply assistant uses your own OpenAI or Anthropic key, stored encrypted, to draft one-click replies in the inbox or run an auto-reply bot with a per-conversation cap and human handoff, optionally grounded in a knowledge base retrieved with Postgres full-text search or pgvector when an embeddings key is set. There is also an MCP server so Claude, Cursor, and similar assistants can read the CRM, read-only by default with writes as an opt-in.
 
+**Can WaCRM run multiple WhatsApp numbers?**
 One phone number per user account: the schema enforces a unique phone_number_id and the API returns a 409 if you try to attach a number that is already claimed. Shared inbox access is handled by adding multiple humans to one account with owner, admin, agent, or viewer roles rather than by attaching several numbers to a team. If you need several numbers, run several instances, which the Docker setup supports but does not orchestrate for you.
 
+**What breaks if I skip the cron setup in WaCRM?**
 Automations and flows never run. The container schedules nothing internally, so the docs have you point an external cron at /api/automations/cron and /api/flows/cron with an x-cron-secret header; without it those endpoints return 503 and your auto replies and flows silently do not fire. From the inbox it looks like a broken WhatsApp connection, so check the cron before you debug the Cloud API.
 
 ## Similar Tools
@@ -197,6 +150,15 @@ Automations and flows never run. The container schedules nothing internally, so 
 - [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 2475
+- **Founded:** 2026
+- **HQ:** Open source
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 ### Pricing
 
 Free open-source; self-hosted
@@ -206,6 +168,28 @@ Free open-source; self-hosted
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** WaCRM is a tool in CRM with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+DeskcommCRM
+
+Self-hosted open-source CRM with AI agents that sell through WhatsApp
+
+Google Ads + Meta Ads + GA4 MCP
+
+MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+
+React Email Editor
+
+Drag-n-Drop Email Editor Component for React.js
+
+BillionMail
+
+Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

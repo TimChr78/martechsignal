@@ -1,61 +1,5 @@
 # MultiPost review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 10/10 | Free open-source browser extension with nothing to price (the vendor pricing page: [vendor site](https://multipost.app), verified 2026-08-28). |
-| Feature depth | 3/10 | One-click multi-platform publishing with per-platform content adaptation is deliberately narrow (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
-| Integrations | 2/10 | No named integrations; the extension works through the platforms' own web UIs (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
-| AI capability | 3/10 | AI content adaptation per platform is the one documented assistive feature (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
-| Openness | 9/10 | Apache-2.0 with full source visibility (the source repository: [repository](https://github.com/leaperone/MultiPost-Extension), verified 2026-09-28). |
-| Operational maturity | 4/10 | Community-maintained with no company behind it (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ API access for custom integrations |  |
-| ✓ AI capabilities: AI content adaptation per platform |  |
-| ✓ Active public repository (3,557 GitHub stars counted at last check) |  |
-
-**What is MultiPost?**
-MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,557 stars.
-
-**How much does MultiPost cost?**
-MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,557 stars. You pay in server time and maintenance, not licences.
-
-**Is MultiPost a good self-hosted Social Media tool in 2026?**
-Excellent lightweight cross-poster for individual creators; agencies need more machinery.
-
-- **Pricing:** Open Source
-- **Category:** [Social Media](/categories/social-media/)
-- **GitHub:** ★ 3557
-- **API:** Yes
-- **Repository checked:** 2026-10-01
-- **Page updated:** 2026-08-28
-
-**Verdict:** MultiPost is a tool in Social Media with free and open source. The catalog documents 2 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Hootsuite
-
-Social media management platform with AI-powered scheduling and analytics
-
-Sprout Social
-
-Enterprise social media management with AI-powered analytics and engagement tools
-
-Buffer
-
-Simple social media scheduling and analytics with AI-powered content tools
-
-Predis.ai
-
-AI-powered social media content generator for posts, videos, and ad creatives
-
-[More Social Media Tools →](/categories/social-media/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
@@ -68,7 +12,7 @@ Browser extension to publish content to multiple social media platforms with one
 
 Social Media · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit MultiPost →](https://multipost.app)
 
@@ -79,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 31/60
 
 MultiPost is a browser extension that does one thing: publish to many platforms from where you already write. Free, Apache-2.0, and small enough to read before installing.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free open-source browser extension with nothing to price (the vendor pricing page: [vendor site](https://multipost.app), verified 2026-08-28). |
+| Feature depth | 3/10 | One-click multi-platform publishing with per-platform content adaptation is deliberately narrow (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
+| Integrations | 2/10 | No named integrations; the extension works through the platforms' own web UIs (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
+| AI capability | 3/10 | AI content adaptation per platform is the one documented assistive feature (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
+| Openness | 9/10 | Apache-2.0 with full source visibility (the source repository: [repository](https://github.com/leaperone/MultiPost-Extension), verified 2026-09-28). |
+| Operational maturity | 4/10 | Community-maintained with no company behind it (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -106,6 +60,14 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ API access for custom integrations |  |
+| ✓ AI capabilities: AI content adaptation per platform |  |
+| ✓ Active public repository (3,557 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [Social listening](/glossary/social-listening/)
@@ -117,10 +79,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is MultiPost?**
 MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,557 stars.
 
+**How much does MultiPost cost?**
 MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,557 stars. You pay in server time and maintenance, not licences.
 
+**Is MultiPost a good self-hosted Social Media tool in 2026?**
 Excellent lightweight cross-poster for individual creators; agencies need more machinery.
 
 ## Similar Tools
@@ -135,6 +100,13 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Best for social media teams that want one-click multi-platform publishing and can host it themselves, with a free starting tier.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Social Media](/categories/social-media/)
+- **GitHub:** ★ 3557
+- **API:** Yes
+- **Repository checked:** 2026-10-01
+- **Page updated:** 2026-08-28
+
 ### Pricing
 
 Free open-source browser extension
@@ -146,6 +118,28 @@ Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** MultiPost is a tool in Social Media with free and open source. The catalog documents 2 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Hootsuite
+
+Social media management platform with AI-powered scheduling and analytics
+
+Sprout Social
+
+Enterprise social media management with AI-powered analytics and engagement tools
+
+Buffer
+
+Simple social media scheduling and analytics with AI-powered content tools
+
+Predis.ai
+
+AI-powered social media content generator for posts, videos, and ad creatives
+
+[More Social Media Tools →](/categories/social-media/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -164,7 +158,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/multipost-extension/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -267,7 +261,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/multipost-extension/", "breadcrumb": {"@id": "https://martechsignal.com/tools/multipost-extension/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/multipost-extension/", "breadcrumb": {"@id": "https://martechsignal.com/tools/multipost-extension/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

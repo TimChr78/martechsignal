@@ -1,5 +1,62 @@
 # Advertising & Paid Media Tools
 
+- [Home](/)
+- [Tools](/tools/)
+- Advertising & Paid Media
+## Advertising & Paid Media Tools
+
+Advertising and paid media tools: creative generators, bid platforms, automation, and open-source ad serving. 9 reviewed.
+
+9 TOOLS IN THIS CATEGORY
+
+## CREATIVE GENERATION***2*
+
+### AdCreative.ai
+
+### Pencil
+
+## OPTIMIZATION AND AUTOMATION***5*
+
+### Albert AI
+
+### Madgicx
+
+### Opteo
+
+### Revealbot (Birch)
+
+### Smartly.io
+
+## OPEN-SOURCE AD TOOLING***2*
+
+### advertools
+
+### Revive Adserver
+
+**Compare:** [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) · **Guide:** [Agentic advertising](/guides/agentic-ai-advertising/)
+
+## Key terms
+
+- [DSP](/glossary/dsp/)
+- [DCO](/glossary/dco/)
+- [Programmatic](/glossary/programmatic-advertising/)
+- [CRO](/glossary/cro/)
+Full definitions in the [martech glossary](/glossary/).
+
+Paid media tooling used to be three separate jobs: make the creative, place the buy, read the report. The ad platforms are collapsing that into agents. Google handed budget decisions to AI inside Google Ads, Microsoft rolled out AI campaign automation for search, and OpenAI is building the agents that will do the buying. The tools here moved the same direction at different speeds. Smartly.io puts creative production, media buying, and measurement in one contract. Pencil routes generation across models from OpenAI, Google, Adobe, and Runway behind a no-train policy and IP indemnification. Madgicx redistributes budget across Meta ad sets in real time without asking.
+
+The failure mode this category keeps producing is an agent spending money nobody approved, and our coverage here is strong because the vendors keep proving the point. Google Handed Your Ad Budget to AI Agents walked through Google's agentic rollout and the control gap it leaves open. OpenAI Isn't Building Ads. It's Building Agents made the case that the buying layer, not the ad format, is the story. AI ad account guardrails Google won't ship documents what you still have to build yourself, and Microsoft Just Removed the Steering Wheel From Search Ads shows the same drift from the other side. Platforms ship budget autonomy faster than the reporting to match, so the audit trail falls to you.
+
+The 9 tools split three ways. Creative generation: AdCreative.ai turns brand assets into scored ad variations, Pencil generates text, image, and video under enterprise controls. Optimization and automation: Albert AI runs campaigns autonomously at enterprise spend, Madgicx is the Meta-only operating layer, Smartly.io consolidates creative, buying, and measurement, while Revealbot (Birch) and Opteo stay non-autonomous by design. Open-source ad tooling: Revive Adserver is the self-hosted ad server (hosted edition at revive-adserver.net), advertools the MIT-licensed Python toolkit for keyword and ad text analysis. Our reviews weight the control surface first: who approves spend, what the audit trail records, how fast you can stop it.
+
+## Which one fits
+
+Vendors in this category: [Revive Adserver](https://www.revive-adserver.com) · [advertools](https://advertools.readthedocs.io) · [AdCreative.ai](https://www.adcreative.ai)
+
+## Reading before you buy
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
 AI platform generating high-converting ad creatives and social media post designs
 
 From $20/moDesk-reviewed
@@ -104,63 +161,6 @@ Microsoft's AI campaign automation takes the operator out of search buying
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
-- [Home](/)
-- [Tools](/tools/)
-- Advertising & Paid Media
-## Advertising & Paid Media Tools
-
-Advertising and paid media tools: creative generators, bid platforms, automation, and open-source ad serving. 9 reviewed.
-
-9 TOOLS IN THIS CATEGORY
-
-## CREATIVE GENERATION***2*
-
-### AdCreative.ai
-
-### Pencil
-
-## OPTIMIZATION AND AUTOMATION***5*
-
-### Albert AI
-
-### Madgicx
-
-### Opteo
-
-### Revealbot (Birch)
-
-### Smartly.io
-
-## OPEN-SOURCE AD TOOLING***2*
-
-### advertools
-
-### Revive Adserver
-
-**Compare:** [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) · **Guide:** [Agentic advertising](/guides/agentic-ai-advertising/)
-
-## Key terms
-
-- [DSP](/glossary/dsp/)
-- [DCO](/glossary/dco/)
-- [Programmatic](/glossary/programmatic-advertising/)
-- [CRO](/glossary/cro/)
-Full definitions in the [martech glossary](/glossary/).
-
-Paid media tooling used to be three separate jobs: make the creative, place the buy, read the report. The ad platforms are collapsing that into agents. Google handed budget decisions to AI inside Google Ads, Microsoft rolled out AI campaign automation for search, and OpenAI is building the agents that will do the buying. The tools here moved the same direction at different speeds. Smartly.io puts creative production, media buying, and measurement in one contract. Pencil routes generation across models from OpenAI, Google, Adobe, and Runway behind a no-train policy and IP indemnification. Madgicx redistributes budget across Meta ad sets in real time without asking.
-
-The failure mode this category keeps producing is an agent spending money nobody approved, and our coverage here is strong because the vendors keep proving the point. Google Handed Your Ad Budget to AI Agents walked through Google's agentic rollout and the control gap it leaves open. OpenAI Isn't Building Ads. It's Building Agents made the case that the buying layer, not the ad format, is the story. AI ad account guardrails Google won't ship documents what you still have to build yourself, and Microsoft Just Removed the Steering Wheel From Search Ads shows the same drift from the other side. Platforms ship budget autonomy faster than the reporting to match, so the audit trail falls to you.
-
-The 9 tools split three ways. Creative generation: AdCreative.ai turns brand assets into scored ad variations, Pencil generates text, image, and video under enterprise controls. Optimization and automation: Albert AI runs campaigns autonomously at enterprise spend, Madgicx is the Meta-only operating layer, Smartly.io consolidates creative, buying, and measurement, while Revealbot (Birch) and Opteo stay non-autonomous by design. Open-source ad tooling: Revive Adserver is the self-hosted ad server (hosted edition at revive-adserver.net), advertools the MIT-licensed Python toolkit for keyword and ad text analysis. Our reviews weight the control surface first: who approves spend, what the audit trail records, how fast you can stop it.
-
-## Which one fits
-
-Vendors in this category: [Revive Adserver](https://www.revive-adserver.com) · [advertools](https://advertools.readthedocs.io) · [AdCreative.ai](https://www.adcreative.ai)
-
-## Reading before you buy
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 
 ```json
 {
@@ -200,7 +200,7 @@ Vendors in this category: [Revive Adserver](https://www.revive-adserver.com) · 
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 9,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -317,7 +317,7 @@ Vendors in this category: [Revive Adserver](https://www.revive-adserver.com) · 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/advertising/", "breadcrumb": {"@id": "https://martechsignal.com/categories/advertising/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/advertising/", "breadcrumb": {"@id": "https://martechsignal.com/categories/advertising/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

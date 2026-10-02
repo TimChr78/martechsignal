@@ -1,82 +1,5 @@
 # Dynamic Yield review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 1/10 | No published pricing: the pricing page redirects to a Mastercard product page and every CTA ends at a demo request (: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
-| Feature depth | 8/10 | Multi-agent copilot, conversational commerce, predictive targeting and deep-learning ranking cover personalization at depth (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
-| Integrations | 8/10 | Ten named commerce and messaging connections from Shopify Plus and commercetools to Listrak and Smartling plus an API (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
-| AI capability | 8/10 | Experience OS Agents, Shopping Muse and NextML ranking make AI the architecture (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise platform inside a Mastercard contract (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2011 with enterprise commerce deployments and now card-network backing (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: experience OS Agents (multi-agent copilot) | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Shopify, Salesforce Commerce Cloud, commercetools (10 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
-| ✓ API access for custom integrations |  |
-
-**What is Dynamic Yield?**
-Dynamic Yield: AI-powered personalization platform for web, mobile, and email experiences. Dynamic Yield ships with experience OS Agents (multi-agent copilot). This page documents 10 integrations.
-
-**How much does Dynamic Yield cost?**
-Dynamic Yield uses enterprise pricing, so the number depends on your volume and contract. No published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
-
-**Is Dynamic Yield a good Personalization & CDP tool in 2026?**
-The most deeply documented enterprise personalization platform we assessed, with real AI features that ship under specific names. Go in expecting an implementation project and a procurement conversation, not a tag and a credit card.
-
-**Does Dynamic Yield work with Shopify?**
-Yes, and three routes are documented separately: a Shopify store integration, a Shopify Hydrogen 2 integration for headless storefronts, and Shopify Checkout personalization built as a Checkout UI extension. Other documented ecommerce connectors include Salesforce Commerce Cloud in both Controller and SFRA flavors, commercetools, Magento 2, and SAP Hybris.
-
-**What AI features does Dynamic Yield include?**
-The named, shipped ones are Experience OS Agents (a multi-agent system with Personalization Expert, Designer, Developer, Copywriter, and Analyst roles), Shopping Muse for conversational product discovery, Predictive Targeting for automated audience selection, NextML for deep learning ranking, AffinityML and VisualML for affinity and visual similarity, and Experience Search for semantic text and visual search. The docs note the agents propose changes and wait for approval before applying them.
-
-**How is Dynamic Yield implemented, script or API?**
-Both routes are documented and the docs recommend using them together. The script route drops api_static.js or api_dynamic.js on every page and suits teams that want visual editing. The API route calls the Experience API Choose endpoint server-side and suits headless or high-performance builds, with Kotlin, Swift, and React Native SDKs for apps. Two separate onboarding guides exist, one per route.
-
-**What are Dynamic Yield triggers?**
-Triggers are rules that fire experiences in real time: exit intent, scroll depth, cart abandonment, weather, referrer, or any first-party or third-party signal. They power pop-ups, recommendation refreshes, and message swaps inside Experience OS without code changes.
-
-**What does Dynamic Yield cost?**
-No price is published. The pricing page redirects to a Mastercard product page whose only calls to action are contact sales and book a demo, so budgeting happens inside a sales cycle. Expect an enterprise contract scaled to traffic and module scope.
-
-**Is Dynamic Yield worth it?**
-It is the vendor with the longest claimed run of Gartner Magic Quadrant leader placements in personalization engines, eight consecutive, and the developer documentation to back an enterprise rollout. If you cannot staff an implementation project, lighter testing and recommendation tools will deliver value faster.
-
-- **Pricing:** Enterprise
-- **Category:** [Personalization & CDP](/categories/personalization/)
-- **Founded:** 2011
-- **HQ:** New York, NY, USA
-- **API:** Yes
-- **Last verified:** 2026-09-06
-
-**Verdict:** Dynamic Yield is a tool in Personalization & CDP with custom pricing. The catalog documents 7 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-Nosto
-
-AI-powered ecommerce personalization with product recommendations and merchandising
-
-Clerk.io
-
-AI-powered ecommerce personalization with search, recommendations, and email
-
-Bloomreach
-
-AI-powered commerce experience platform with search, personalization, and CDP
-
-Hypotenuse AI
-
-AI content generation platform for ecommerce product descriptions and articles
-
-Apache Unomi
-
-Apache's open-source customer data platform and personalization engine
-
-[More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
@@ -89,7 +12,7 @@ AI-powered personalization platform for web, mobile, and email experiences
 
 Personalization & CDP · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Dynamic Yield →](https://www.dynamicyield.com)
 
@@ -100,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 35/60
 
 Dynamic Yield, now under Mastercard, is personalization depth for large commerce operations: agents, conversational shopping and predictive targeting. The pricing page tells you who the buyer is.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 1/10 | No published pricing: the pricing page redirects to a Mastercard product page and every CTA ends at a demo request (: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
+| Feature depth | 8/10 | Multi-agent copilot, conversational commerce, predictive targeting and deep-learning ranking cover personalization at depth (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
+| Integrations | 8/10 | Ten named commerce and messaging connections from Shopify Plus and commercetools to Listrak and Smartling plus an API (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
+| AI capability | 8/10 | Experience OS Agents, Shopping Muse and NextML ranking make AI the architecture (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise platform inside a Mastercard contract (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2011 with enterprise commerce deployments and now card-network backing (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -169,6 +102,13 @@ The most deeply documented enterprise personalization platform we assessed, with
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: experience OS Agents (multi-agent copilot) | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, Salesforce Commerce Cloud, commercetools (10 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [Personalization](/glossary/personalization/)
@@ -182,22 +122,31 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Dynamic Yield?**
 Dynamic Yield: AI-powered personalization platform for web, mobile, and email experiences. Dynamic Yield ships with experience OS Agents (multi-agent copilot). This page documents 10 integrations.
 
+**How much does Dynamic Yield cost?**
 Dynamic Yield uses enterprise pricing, so the number depends on your volume and contract. No published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts. Our last verified read of the pricing model was 2026-09-06; the vendor's pricing page carries the current quote criteria.
 
+**Is Dynamic Yield a good Personalization & CDP tool in 2026?**
 The most deeply documented enterprise personalization platform we assessed, with real AI features that ship under specific names. Go in expecting an implementation project and a procurement conversation, not a tag and a credit card.
 
+**Does Dynamic Yield work with Shopify?**
 Yes, and three routes are documented separately: a Shopify store integration, a Shopify Hydrogen 2 integration for headless storefronts, and Shopify Checkout personalization built as a Checkout UI extension. Other documented ecommerce connectors include Salesforce Commerce Cloud in both Controller and SFRA flavors, commercetools, Magento 2, and SAP Hybris.
 
+**What AI features does Dynamic Yield include?**
 The named, shipped ones are Experience OS Agents (a multi-agent system with Personalization Expert, Designer, Developer, Copywriter, and Analyst roles), Shopping Muse for conversational product discovery, Predictive Targeting for automated audience selection, NextML for deep learning ranking, AffinityML and VisualML for affinity and visual similarity, and Experience Search for semantic text and visual search. The docs note the agents propose changes and wait for approval before applying them.
 
+**How is Dynamic Yield implemented, script or API?**
 Both routes are documented and the docs recommend using them together. The script route drops api_static.js or api_dynamic.js on every page and suits teams that want visual editing. The API route calls the Experience API Choose endpoint server-side and suits headless or high-performance builds, with Kotlin, Swift, and React Native SDKs for apps. Two separate onboarding guides exist, one per route.
 
+**What are Dynamic Yield triggers?**
 Triggers are rules that fire experiences in real time: exit intent, scroll depth, cart abandonment, weather, referrer, or any first-party or third-party signal. They power pop-ups, recommendation refreshes, and message swaps inside Experience OS without code changes.
 
+**What does Dynamic Yield cost?**
 No price is published. The pricing page redirects to a Mastercard product page whose only calls to action are contact sales and book a demo, so budgeting happens inside a sales cycle. Expect an enterprise contract scaled to traffic and module scope.
 
+**Is Dynamic Yield worth it?**
 It is the vendor with the longest claimed run of Gartner Magic Quadrant leader placements in personalization engines, eight consecutive, and the developer documentation to back an enterprise rollout. If you cannot staff an implementation project, lighter testing and recommendation tools will deliver value faster.
 
 ## Similar Tools
@@ -212,6 +161,13 @@ It is the vendor with the longest claimed run of Gartner Magic Quadrant leader p
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Large commerce operations buying personalization depth over self-serve
 ### Quick Facts
 
+- **Pricing:** Enterprise
+- **Category:** [Personalization & CDP](/categories/personalization/)
+- **Founded:** 2011
+- **HQ:** New York, NY, USA
+- **API:** Yes
+- **Last verified:** 2026-09-06
+
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 
 ## Get the next teardown
@@ -219,6 +175,32 @@ Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Dynamic Yield is a tool in Personalization & CDP with custom pricing. The catalog documents 7 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
+Nosto
+
+AI-powered ecommerce personalization with product recommendations and merchandising
+
+Clerk.io
+
+AI-powered ecommerce personalization with search, recommendations, and email
+
+Bloomreach
+
+AI-powered commerce experience platform with search, personalization, and CDP
+
+Hypotenuse AI
+
+AI content generation platform for ecommerce product descriptions and articles
+
+Apache Unomi
+
+Apache's open-source customer data platform and personalization engine
+
+[More Personalization & CDP Tools →](/categories/personalization/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -237,7 +219,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/dynamic-yield/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-06",
     "datePublished": "2026-07-27"
   },
   {
@@ -381,7 +363,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/dynamic-yield/", "breadcrumb": {"@id": "https://martechsignal.com/tools/dynamic-yield/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/dynamic-yield/", "breadcrumb": {"@id": "https://martechsignal.com/tools/dynamic-yield/#breadcrumb"}, "dateModified": "2026-09-06"}
 ```
 
 ```json

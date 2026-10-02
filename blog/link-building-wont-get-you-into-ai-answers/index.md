@@ -1,7 +1,5 @@
 # Community Signals Beat Links for AI Answers
 
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 SEO · AI SEARCH · 8 MIN
 
 ## Link Building Won't Get You Into AI Answers. Community Signals Will.
@@ -10,7 +8,7 @@ SEO · AI SEARCH · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Link Building Won't Get You Into AI Answers. Community Signals Will.
 
-AUG 25, 2026 · Updated 2026-10-02
+AUG 25, 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -85,6 +83,8 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -116,7 +116,7 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
     }
   },
   "datePublished": "2026-08-25",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-25",
   "mainEntityOfPage": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/",
   "image": {
     "@type": "ImageObject",
@@ -162,7 +162,7 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/", "breadcrumb": {"@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/", "breadcrumb": {"@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/#breadcrumb"}, "dateModified": "2026-08-25"}
 ```
 
 ```json

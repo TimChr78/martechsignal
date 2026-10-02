@@ -1,17 +1,5 @@
 # SQREEM's bet: behavior beats language
 
-
-|  | The demo answers | The budget answers |
-| --- | --- | --- |
-| **Core question** | Does the story sound smart? | Does it predict the next purchase? |
-| **What gets optimized** | The explanation | Incremental lift |
-| **Proof it can fake** | Fluency | None |
-| **Where the evidence lives** | Vendor decks and walkthroughs | A holdout on your own spend |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-Verdict: credible critique, unproven engine, no reason to move budget yet
-
 AI · ADVERTISING · 6 MIN
 
 ## SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing
@@ -56,6 +44,14 @@ There's also an older argument hiding inside SQREEM's pitch. Multi-touch attribu
 
 ## What would have to be true
 
+
+|  | The demo answers | The budget answers |
+| --- | --- | --- |
+| **Core question** | Does the story sound smart? | Does it predict the next purchase? |
+| **What gets optimized** | The explanation | Incremental lift |
+| **Proof it can fake** | Fluency | None |
+| **Where the evidence lives** | Vendor decks and walkthroughs | A holdout on your own spend |
+
 If SQREEM is right, the money flowing into LLM-based marketing agents is aimed one layer too low: summarizing and executing instead of predicting. If SQREEM is wrong, the LBM is a rebrand of audience modeling with better timing. Both can be checked, but only with data the vendor has to release or the buyer has to generate.
 
 SQREEM's critique of LLM-based prediction holds up: a language model learns from what people write, and purchase behavior is not writing. But every number in the pitch, the 22% green-tea lift included, traces back to the vendor. There is no published benchmark, no public pricing, and no third-party test to date. The honest response to a claim this big is the boring one: run a holdout on your own spend, or wait for someone else's, before any budget moves.
@@ -87,6 +83,10 @@ Tools linked in this post: [HubSpot CRM](/tools/hubspot-crm/) · [Claude Ads](/t
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
+
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+Verdict: credible critique, unproven engine, no reason to move budget yet
 
 
 ```json

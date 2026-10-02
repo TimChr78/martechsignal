@@ -2531,8 +2531,13 @@ def test_r11_ml_wave_no_regressions():
     # L-10: sibling catalog file declared.
     assert "/catalog-categories.json" in (ROOT / "_headers").read_text()
     # L-11: byline clock agrees with schema clock (worst case from audit).
+    # r20 H-2 (2026-10-02): human-date pages carry no Updated note; the
+    # Last-verified stamp is the visible clock the schema must match.
     _tea = (ROOT / "tools" / "tealium" / "index.html").read_text()
-    _by = _re.search(r"[Uu]pdated <time datetime=\"([0-9-]+)\"", _tea).group(1)
+    _bym = _re.search(r"[Uu]pdated <time datetime=\"([0-9-]+)\"", _tea)
+    _bylv = _re.search(r"Last verified</dt><dd><time datetime=\"([0-9-]+)\"", _tea)
+    _by = _bym.group(1) if _bym else (_bylv.group(1) if _bylv else None)
+    assert _by, "tealium carries no visible date at all"
     _dm = _re.search(r"\"dateModified\": \"([0-9-]+)\"", _tea).group(1)
     assert _by == _dm, f"tealium byline {_by} vs schema {_dm}"
     # M-13: hub ItemLists carry typed nodes.

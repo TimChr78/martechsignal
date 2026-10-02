@@ -1,66 +1,5 @@
 # Customer.io review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Essentials $100/mo (5k profiles, 1M emails) and Premium $1,000/mo published with itemized overages at $0.009/profile and $0.12 per 1,000 emails (the vendor pricing page: [pricing page](https://customer.io/pricing), verified 2026-09-06). |
-| Feature depth | 8/10 | Email, push, SMS and in-app journeys over event data, with agent Routines and execution skills layered in beta (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
-| Integrations | 8/10 | Segment, Slack, Salesforce, Zapier, Shopify, Amplitude, Snowflake, Stripe plus ChatGPT and Claude over MCP documented (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
-| AI capability | 8/10 | An AI Agent with execution skills, scheduled Routines, LLM actions inside journeys and MCP connections to two model vendors (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API-first design and unusually open AI integrations (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
-| Operational maturity | 7/10 | Founded 2012 with priced tiers, published overages and a mature developer reputation (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI Agent (beta) with execution skills | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Segment, Slack, Salesforce (11 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is Customer.io?**
-Customer.io: Data-driven messaging platform for automated email, push, SMS, and in-app messages. Customer.io ships with AI Agent (beta) with execution skills. This page documents 11 integrations.
-
-**How much does Customer.io cost?**
-Customer.io starts at $100/mo. Essentials $100/mo billed monthly (5k profiles, 1M emails/mo); Premium $1,000/mo billed yearly; Enterprise quoted. Overages $0.009/profile, $0.12 per 1,000 emails, $10 per 100K AI credits; unlimited seats. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Customer.io worth paying for in 2026?**
-Best fit: product-led SaaS teams with an event pipeline that want lifecycle messaging their own agents can operate. Published pricing plus a real MCP and CLI surface make it unusually easy to evaluate from the docs alone.
-
-**Does Customer.io work with AI agents?**
-At three levels. Inside the product, the pricing table lists an AI Agent (beta) with segment building, custom execution skills, and scheduled Routines. Outside it, Customer.io publishes an MCP server with documented setup for ChatGPT, Claude Desktop, Cursor, and other IDEs, plus plugins for Claude Code, ChatGPT and Codex, and Cursor and Grok. A CLI with service accounts covers terminal agents.
-
-**Which channels does Customer.io support?**
-Email and transactional email, push and in-app with unlimited sends on every plan, SMS at custom volume, native WhatsApp, LINE, and webhooks that both send and receive. Anonymous messaging is available from Premium up. Data comes in through the Track or Data Pipelines APIs and SDKs for iOS, Android, React Native, Flutter, and JavaScript.
-
-- **Pricing:** From $100/mo
-- **Category:** [Email Marketing](/categories/email-marketing/)
-- **Founded:** 2012
-- **HQ:** Portland, OR, USA
-- **API:** Yes
-- **Last verified:** 2026-09-06
-
-**Verdict:** Customer.io is a tool in Email Marketing with paid plans starting at $100/mo. The catalog documents 6 AI features, 11 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-Resend
-
-Developer-first email API built around React Email, batch sending, and agent tooling
-
-React Email Editor
-
-Drag-n-Drop Email Editor Component for React.js
-
-Brevo
-
-Multichannel marketing platform billing by email volume, not contacts
-
-Ortto
-
-Customer data and marketing automation platform with journeys, CDP, and AI features
-
-[More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
@@ -73,7 +12,7 @@ Data-driven messaging platform for automated email, push, SMS, and in-app messag
 
 Email Marketing · From $100/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Customer.io →](https://customer.io)
 
@@ -84,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 41/60
 
 Customer.io is the data-driven messaging choice with an AI agent that actually executes: LLM actions in journeys and MCP access to ChatGPT and Claude. Pricing is published per tier with itemized overages, which rarer than it should be.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Essentials $100/mo (5k profiles, 1M emails) and Premium $1,000/mo published with itemized overages at $0.009/profile and $0.12 per 1,000 emails (the vendor pricing page: [pricing page](https://customer.io/pricing), verified 2026-09-06). |
+| Feature depth | 8/10 | Email, push, SMS and in-app journeys over event data, with agent Routines and execution skills layered in beta (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
+| Integrations | 8/10 | Segment, Slack, Salesforce, Zapier, Shopify, Amplitude, Snowflake, Stripe plus ChatGPT and Claude over MCP documented (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
+| AI capability | 8/10 | An AI Agent with execution skills, scheduled Routines, LLM actions inside journeys and MCP connections to two model vendors (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API-first design and unusually open AI integrations (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2012 with priced tiers, published overages and a mature developer reputation (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -151,6 +100,13 @@ Best fit: product-led SaaS teams with an event pipeline that want lifecycle mess
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI Agent (beta) with execution skills | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Segment, Slack, Salesforce (11 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [Email sequence](/glossary/email-sequence/)
@@ -163,14 +119,19 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Customer.io?**
 Customer.io: Data-driven messaging platform for automated email, push, SMS, and in-app messages. Customer.io ships with AI Agent (beta) with execution skills. This page documents 11 integrations.
 
+**How much does Customer.io cost?**
 Customer.io starts at $100/mo. Essentials $100/mo billed monthly (5k profiles, 1M emails/mo); Premium $1,000/mo billed yearly; Enterprise quoted. Overages $0.009/profile, $0.12 per 1,000 emails, $10 per 100K AI credits; unlimited seats. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Customer.io worth paying for in 2026?**
 Best fit: product-led SaaS teams with an event pipeline that want lifecycle messaging their own agents can operate. Published pricing plus a real MCP and CLI surface make it unusually easy to evaluate from the docs alone.
 
+**Does Customer.io work with AI agents?**
 At three levels. Inside the product, the pricing table lists an AI Agent (beta) with segment building, custom execution skills, and scheduled Routines. Outside it, Customer.io publishes an MCP server with documented setup for ChatGPT, Claude Desktop, Cursor, and other IDEs, plus plugins for Claude Code, ChatGPT and Codex, and Cursor and Grok. A CLI with service accounts covers terminal agents.
 
+**Which channels does Customer.io support?**
 Email and transactional email, push and in-app with unlimited sends on every plan, SMS at custom volume, native WhatsApp, LINE, and webhooks that both send and receive. Anonymous messaging is available from Premium up. Data comes in through the Track or Data Pipelines APIs and SDKs for iOS, Android, React Native, Flutter, and JavaScript.
 
 ## Similar Tools
@@ -185,6 +146,13 @@ Email and transactional email, push and in-app with unlimited sends on every pla
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Lifecycle teams writing behavior-triggered journeys on their own data
 ### Quick Facts
 
+- **Pricing:** From $100/mo
+- **Category:** [Email Marketing](/categories/email-marketing/)
+- **Founded:** 2012
+- **HQ:** Portland, OR, USA
+- **API:** Yes
+- **Last verified:** 2026-09-06
+
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 ## Get the next teardown
@@ -192,6 +160,28 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Customer.io is a tool in Email Marketing with paid plans starting at $100/mo. The catalog documents 6 AI features, 11 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
+Resend
+
+Developer-first email API built around React Email, batch sending, and agent tooling
+
+React Email Editor
+
+Drag-n-Drop Email Editor Component for React.js
+
+Brevo
+
+Multichannel marketing platform billing by email volume, not contacts
+
+Ortto
+
+Customer data and marketing automation platform with journeys, CDP, and AI features
+
+[More Email Marketing Tools →](/categories/email-marketing/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -210,7 +200,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/customer-io/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-06",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -329,7 +319,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/customer-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/customer-io/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/customer-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/customer-io/#breadcrumb"}, "dateModified": "2026-09-06"}
 ```
 
 ```json

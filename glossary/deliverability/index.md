@@ -1,26 +1,10 @@
 # Email Deliverability
 
-ActiveCampaign
-
-AI-powered marketing automation and CRM for small to mid-size businesses
-
-BillionMail
-
-Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Email Deliverability
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-28
 
 ## Definition
 
@@ -71,6 +55,22 @@ Sources: [RFC 5321 (SMTP)](https://datatracker.ietf.org/doc/rfc5321/) · [Active
 - [Email sequence](/glossary/email-sequence/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+ActiveCampaign
+
+AI-powered marketing automation and CRM for small to mid-size businesses
+
+BillionMail
+
+Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -81,7 +81,7 @@ Sources: [RFC 5321 (SMTP)](https://datatracker.ietf.org/doc/rfc5321/) · [Active
         "@type": "DefinedTerm",
         "name": "Email Deliverability",
         "description": "Deliverability is the measure of whether your emails actually reach the inbox instead of the spam folder. It depends on sender reputation, authentication records (SPF, DKIM, DMARC), list hygiene, engagement rates, and the content of the email itself.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -139,7 +139,7 @@ Sources: [RFC 5321 (SMTP)](https://datatracker.ietf.org/doc/rfc5321/) · [Active
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/deliverability/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/deliverability/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/deliverability/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/deliverability/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

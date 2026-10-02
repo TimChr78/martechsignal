@@ -1,21 +1,5 @@
 # Fifty days of open-source MarTech, audited
 
-
-| Project | Releases since Jul 26 | The notable one |
-| --- | --- | --- |
-| [n8n](/tools/n8n/) | 41 | Crossed 200,000 stars; 2.39 line |
-| [Ghost](/tools/ghost/) | 11 | v6.63.0, Node 24 support |
-| [Strapi](/tools/strapi/) | 7 | v5.53.0 |
-| [Twenty](/tools/twenty/) | ~10 | v2.39.0, workflow error handling |
-| [Frappe CRM](/tools/frappe-crm/) | 6 | v1.83.0 |
-| [Chatwoot](/tools/chatwoot/) | 3 | v4.17.0, WhatsApp deep-dive |
-| [Mautic](/tools/mautic/) | 1 | 7.2.0 Lynx Edition |
-| [Matomo](/tools/matomo/) | 1 beta | 6.0.0-b1, first major since 5.0 |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-✓ The July stack bet held
-
 OPEN SOURCE · MARTECH · 7 MIN
 
 ## Fifty days of open-source MarTech, audited
@@ -23,8 +7,6 @@ OPEN SOURCE · MARTECH · 7 MIN
 [How we review](/methodology/) · No affiliate links
 
 [Home](/) · [Blog](/blog/) · Fifty days of open-source MarTech, audited
-
- · Updated 2026-10-02
 
 Filed under [Open-Source Tools](/categories/open-source/) · [Workflow Automation](/categories/workflow-automation/)
 
@@ -37,6 +19,18 @@ The short version: nothing stalled. The automation layer shipped at a pace SaaS 
 Release counts come from the GitHub releases API between July 26 and September 14, 2026. Star figures come from our own daily snapshots, which begin on August 25, so star movement covers the final 21 days of the window. That is too short for trend claims, so stars appear here only as corroboration of something already visible in the release log.
 
 ## The window at a glance
+
+
+| Project | Releases since Jul 26 | The notable one |
+| --- | --- | --- |
+| [n8n](/tools/n8n/) | 41 | Crossed 200,000 stars; 2.39 line |
+| [Ghost](/tools/ghost/) | 11 | v6.63.0, Node 24 support |
+| [Strapi](/tools/strapi/) | 7 | v5.53.0 |
+| [Twenty](/tools/twenty/) | ~10 | v2.39.0, workflow error handling |
+| [Frappe CRM](/tools/frappe-crm/) | 6 | v1.83.0 |
+| [Chatwoot](/tools/chatwoot/) | 3 | v4.17.0, WhatsApp deep-dive |
+| [Mautic](/tools/mautic/) | 1 | 7.2.0 Lynx Edition |
+| [Matomo](/tools/matomo/) | 1 beta | 6.0.0-b1, first major since 5.0 |
 
 ## The CRM shelf got crowded
 
@@ -102,6 +96,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+✓ The July stack bet held
+
 
 ```json
 {
@@ -133,7 +131,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-09-14",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-14",
   "mainEntityOfPage": "https://martechsignal.com/blog/oss-martech-50-day-checkin/",
   "image": {
     "@type": "ImageObject",
@@ -179,7 +177,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/oss-martech-50-day-checkin/", "breadcrumb": {"@id": "https://martechsignal.com/blog/oss-martech-50-day-checkin/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/oss-martech-50-day-checkin/", "breadcrumb": {"@id": "https://martechsignal.com/blog/oss-martech-50-day-checkin/#breadcrumb"}, "dateModified": "2026-09-14"}
 ```
 
 ```json

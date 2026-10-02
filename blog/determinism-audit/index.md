@@ -1,5 +1,23 @@
 # Most of your marketing AI agents should be if/then
 
+AI AGENTS · MARKETING AUTOMATION · 9 MIN
+
+## Most of your marketing AI agents should be if/then
+
+[How we review](/methodology/) · No affiliate links
+
+[Home](/) · [Blog](/blog/) · Most of your marketing AI agents should be if/then
+
+SEP 11, 2026
+
+Filed under [Agent Skills](/categories/agent-skills/)
+
+An open-source project called the Agentic Determinism Index [landed on Hacker News on September 1](https://news.ycombinator.com/item?id=49522378). It collected 5 points and three comments. One commenter said it would matter for regulated industries. Marketing ops is not a regulated industry, which is exactly why nobody is going to run this audit for us.
+
+The repo ([lemma-ventures/agentic-determinism-index](https://github.com/lemma-ventures/agentic-determinism-index), MIT licensed, 4 stars at time of writing) asks hosted LLM APIs one narrow question: "If I send you the exact same request N times, concurrently, and again across days, how identical are your answers?" Byte-level comparison. No intelligence benchmark, no quality judgment. Just reproducibility, measured per provider, per model, per serving stack, over time.
+
+The answers should change how you staff your agent roadmap. Same model, same weights, different serving paths, wildly different scores from the September 12 reference snapshot:
+
 
 | Serving path | Model | Score | Mode share |
 | --- | --- | --- | --- |
@@ -9,34 +27,6 @@
 | OpenRouter (routed) | llama-3.1-8b-instruct | 31.87 | 44% |
 | OpenRouter | gpt-4o-mini | 36.49 | 42% |
 | Amazon Bedrock via OpenRouter | nova-lite-v1 | 14.62 | 20% |
-
-
-| Tier | What breaks | Typical occupants |
-| --- | --- | --- |
-| 1 | Nothing | Internal tagging suggestions, meeting summaries, draft briefs a human reads first anyway |
-| 2 | A draft gets weird | Ad copy variants, blog drafts, email subject tests, anything behind human review |
-| 3 | A customer sees it | Live chat replies, on-site personalization, triggered sends, social responses |
-| 4 | Money moves | Bid changes, budget pacing, list selection that gates a paid send |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-AI AGENTS · MARKETING AUTOMATION · 9 MIN
-
-## Most of your marketing AI agents should be if/then
-
-[How we review](/methodology/) · No affiliate links
-
-[Home](/) · [Blog](/blog/) · Most of your marketing AI agents should be if/then
-
-SEP 11, 2026 · Updated 2026-10-02
-
-Filed under [Agent Skills](/categories/agent-skills/)
-
-An open-source project called the Agentic Determinism Index [landed on Hacker News on September 1](https://news.ycombinator.com/item?id=49522378). It collected 5 points and three comments. One commenter said it would matter for regulated industries. Marketing ops is not a regulated industry, which is exactly why nobody is going to run this audit for us.
-
-The repo ([lemma-ventures/agentic-determinism-index](https://github.com/lemma-ventures/agentic-determinism-index), MIT licensed, 4 stars at time of writing) asks hosted LLM APIs one narrow question: "If I send you the exact same request N times, concurrently, and again across days, how identical are your answers?" Byte-level comparison. No intelligence benchmark, no quality judgment. Just reproducibility, measured per provider, per model, per serving stack, over time.
-
-The answers should change how you staff your agent roadmap. Same model, same weights, different serving paths, wildly different scores from the September 12 reference snapshot:
 
 Look at the three middle rows. The identical Llama model scores 89 on one provider and 32 on another. The repo states the lesson plainly: determinism is a property of the deployment, not the weights. You are not buying "GPT-4o-mini." You are buying whatever tuple of provider, snapshot, parameters, batching behavior, and GPU class answered the phone that day, and the index's stack-drift timeline shows that tuple churning constantly. One entry logged 13 backend fingerprint changes for a single (provider, model) pair in ten days. On August 26, NVIDIA's hosted API returned HTTP 410 Gone for a pinned Llama checkpoint overnight. Teams that had built on that string lost the ability to reproduce yesterday's outputs.
 
@@ -53,6 +43,14 @@ That is the problem in one sentence: marketing ops decides which steps need dete
 ## The audit: four tiers by blast radius
 
 This extends the [blast-radius quadrants](/blog/automation-blast-radius-audit/) from last week to anything you currently call an agent. One question per item: if it acts unexpectedly today, what breaks?
+
+
+| Tier | What breaks | Typical occupants |
+| --- | --- | --- |
+| 1 | Nothing | Internal tagging suggestions, meeting summaries, draft briefs a human reads first anyway |
+| 2 | A draft gets weird | Ad copy variants, blog drafts, email subject tests, anything behind human review |
+| 3 | A customer sees it | Live chat replies, on-site personalization, triggered sends, social responses |
+| 4 | Money moves | Bid changes, budget pacing, list selection that gates a paid send |
 
 The classification does the arguing for you.
 
@@ -114,6 +112,8 @@ More from the directory: [Jasper](/tools/jasper/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -145,7 +145,7 @@ More from the directory: [Jasper](/tools/jasper/)
     }
   },
   "datePublished": "2026-09-11",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-11",
   "mainEntityOfPage": "https://martechsignal.com/blog/determinism-audit/",
   "image": {
     "@type": "ImageObject",
@@ -191,7 +191,7 @@ More from the directory: [Jasper](/tools/jasper/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/determinism-audit/", "breadcrumb": {"@id": "https://martechsignal.com/blog/determinism-audit/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/determinism-audit/", "breadcrumb": {"@id": "https://martechsignal.com/blog/determinism-audit/#breadcrumb"}, "dateModified": "2026-09-11"}
 ```
 
 ```json

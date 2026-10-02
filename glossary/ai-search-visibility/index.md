@@ -1,26 +1,10 @@
 # AI Search Visibility
 
-Semrush
-
-All-in-one SEO and digital marketing platform with AI-powered insights and tools
-
-Surfer SEO
-
-AI-powered content optimization platform for SEO-driven article writing and audits
-
-Frase
-
-AI-powered SEO content platform for research, writing, and AI visibility tracking
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## AI Search Visibility
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-28
 
 ## Definition
 
@@ -75,6 +59,22 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
 - [SEO](/glossary/seo/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+Semrush
+
+All-in-one SEO and digital marketing platform with AI-powered insights and tools
+
+Surfer SEO
+
+AI-powered content optimization platform for SEO-driven article writing and audits
+
+Frase
+
+AI-powered SEO content platform for research, writing, and AI visibility tracking
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -85,7 +85,7 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
         "@type": "DefinedTerm",
         "name": "AI Search Visibility",
         "description": "AI search visibility measures how often and how prominently a brand, product, or content appears in AI-generated answers: Google AI Overviews, ChatGPT responses, Perplexity, Copilot, and similar systems. Unlike classic rank tracking, there is no single position - visibility means being cited, quoted, or linked inside a synthesized answer.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -143,7 +143,7 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-search-visibility/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/ai-search-visibility/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-search-visibility/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/ai-search-visibility/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

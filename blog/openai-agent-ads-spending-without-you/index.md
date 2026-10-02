@@ -1,36 +1,5 @@
 # OpenAI Is Building Agents That Spend Without You
 
-
-|  | Traditional programmatic | Agent-to-agent commerce |
-| --- | --- | --- |
-| **Who sees the ad** | A person | An agent, or nobody |
-| **What the click opens** | A webpage | A conversation, or nothing |
-| **What gets optimized** | Attention, CTR, viewability | Feed completeness, price, availability |
-| **Who negotiates** | Humans through DSPs and SSPs | Agents through AAMP |
-| **Where fraud lives** | Fake impressions and clicks | Unverified agents |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-AD SERVERcreative + targeting
-
-EXCHANGE / SSPauction
-
-DSPbid decision
-
-IMPRESSIONa human sees the ad
-
-CLICKa human decides
-
-LANDING PAGEa human converts, maybe
-
-YOUR FEED + MCPstructured catalog, live data
-
-BUYER'S AGENTreads attributes, compares
-
-YOUR SELLER AGENTnegotiates via AAMP
-
-TRANSACTIONno human in the loop
-
 AI · ADVERTISING · 11 MIN
 
 ## OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.
@@ -39,7 +8,7 @@ AI · ADVERTISING · 11 MIN
 
 [Home](/) · [Blog](/blog/) · OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.
 
-AUG 05, 2026 · Updated 2026-10-02
+AUG 05, 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -90,6 +59,15 @@ Here is the loop digital advertising has run since the 1990s:
 And here is the loop OpenAI's prototype and AAMP both point toward:
 
 The second flow has no impression and nothing to persuade. It is a data exchange followed by a transaction. The ad impression was always a workaround for the absence of a machine buyer, and a machine buyer now exists.
+
+
+|  | Traditional programmatic | Agent-to-agent commerce |
+| --- | --- | --- |
+| **Who sees the ad** | A person | An agent, or nobody |
+| **What the click opens** | A webpage | A conversation, or nothing |
+| **What gets optimized** | Attention, CTR, viewability | Feed completeness, price, availability |
+| **Who negotiates** | Humans through DSPs and SSPs | Agents through AAMP |
+| **Where fraud lives** | Fake impressions and clicks | Unverified agents |
 
 **❌ Who loses: the martech middle** The margin in the middle layer of the ad stack is a fee for human latency. Someone has to find the audience, judge the context, place the bid, verify the view. Buyer and seller agents transacting through the Deals API or Agentic Direct do all of that in milliseconds, and AAMP's reference flows show them working both through SSPs and DSPs and around them. The intermediaries that survive this will be execution pipes, not decision brokers. If your product's pitch starts with "we help media buyers," you should be paying very close attention.
 
@@ -159,6 +137,28 @@ More from the directory: [Zoho CRM](/tools/zoho-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+AD SERVERcreative + targeting
+
+EXCHANGE / SSPauction
+
+DSPbid decision
+
+IMPRESSIONa human sees the ad
+
+CLICKa human decides
+
+LANDING PAGEa human converts, maybe
+
+YOUR FEED + MCPstructured catalog, live data
+
+BUYER'S AGENTreads attributes, compares
+
+YOUR SELLER AGENTnegotiates via AAMP
+
+TRANSACTIONno human in the loop
+
 
 ```json
 {
@@ -190,7 +190,7 @@ More from the directory: [Zoho CRM](/tools/zoho-crm/)
     }
   },
   "datePublished": "2026-08-05",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-05",
   "mainEntityOfPage": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/",
   "image": {
     "@type": "ImageObject",
@@ -236,7 +236,7 @@ More from the directory: [Zoho CRM](/tools/zoho-crm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/", "breadcrumb": {"@id": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/", "breadcrumb": {"@id": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/#breadcrumb"}, "dateModified": "2026-08-05"}
 ```
 
 ```json

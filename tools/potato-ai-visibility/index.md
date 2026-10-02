@@ -1,61 +1,5 @@
 # Potato review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT, 100% local with a $0 mock mode; real runs use your own Anthropic key, stated plainly (the vendor pricing page: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-08-31). |
-| Feature depth | 4/10 | Mention coverage, citation validity and owned-versus-earned citation splits cover one measurement loop (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
-| Integrations | 3/10 | Anthropic Claude and a CLI with a local GUI wizard documented (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
-| AI capability | 5/10 | Measuring Claude's web-search answers with citation validity checks is applied AI measurement (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with fully local execution (the source repository: [repository](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
-| Operational maturity | 2/10 | Founded 2026 as a focused local tool (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (168 GitHub stars) - smaller community and plugin ecosystem |
-| ✓ AI capabilities: measures brand mention coverage in Claude web-search answers |  |
-| ✓ Native integrations include Anthropic Claude, CLI, Local GUI wizard (3 listed) |  |
-
-**What is Potato?**
-Potato: Free local tool that measures brand mentions and citations in Claude's web-search answers. Potato ships with measures brand mention coverage in Claude web-search answers. The public repository carries 168 stars.
-
-**How much does Potato cost?**
-Potato is open source - MIT licensed and free to self-host; the public repository carries 168 stars; native integrations cover Anthropic Claude, CLI, Local GUI wizard. You pay in server time and maintenance, not licences.
-
-**Is Potato a good self-hosted SEO & Search tool in 2026?**
-The most methodologically honest AI-visibility tool in this directory: scoped claims, deterministic scoring, cost-capped runs, and a reproducible method. Use it to track your Claude-answer presence over time; do not mistake it for a full AI-search measurement.
-
-- **Pricing:** Open Source
-- **Category:** [SEO & Search](/categories/seo/)
-- **GitHub:** ★ 168
-- **Founded:** 2026
-- **API:** Yes
-- **Repository checked:** 2026-09-29
-- **Page updated:** 2026-08-31
-
-**Verdict:** Potato is a tool in SEO & Search with free and open source. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-OtterlyAI
-
-AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
-
-Nightwatch
-
-Rank tracking across Google and AI answers, priced by keyword with unlimited seats
-
-Ahrefs
-
-Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
-
-Nimt.ai
-
-AI search tracking across 8 models with an agent that writes, fixes, and outreaches
-
-[More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
@@ -70,7 +14,7 @@ Free local tool that measures brand mentions and citations in Claude's web-searc
 
 SEO & Search · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Potato →](https://github.com/onism1767-creator/potato)
 
@@ -81,6 +25,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 32/60
 
 Potato measures one thing locally: whether Claude's web-search answers mention and cite your brand, with link-rot checking. MIT and 168 stars; the $0 mock mode makes it testable before you spend a cent.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free under MIT, 100% local with a $0 mock mode; real runs use your own Anthropic key, stated plainly (the vendor pricing page: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-08-31). |
+| Feature depth | 4/10 | Mention coverage, citation validity and owned-versus-earned citation splits cover one measurement loop (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
+| Integrations | 3/10 | Anthropic Claude and a CLI with a local GUI wizard documented (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
+| AI capability | 5/10 | Measuring Claude's web-search answers with citation validity checks is applied AI measurement (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with fully local execution (the source repository: [repository](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
+| Operational maturity | 2/10 | Founded 2026 as a focused local tool (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -122,6 +76,13 @@ The most methodologically honest AI-visibility tool in this directory: scoped cl
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Young project (168 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: measures brand mention coverage in Claude web-search answers |  |
+| ✓ Native integrations include Anthropic Claude, CLI, Local GUI wizard (3 listed) |  |
+
 ## Related concepts
 
 - [SEO](/glossary/seo/)
@@ -136,10 +97,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Potato?**
 Potato: Free local tool that measures brand mentions and citations in Claude's web-search answers. Potato ships with measures brand mention coverage in Claude web-search answers. The public repository carries 168 stars.
 
+**How much does Potato cost?**
 Potato is open source - MIT licensed and free to self-host; the public repository carries 168 stars; native integrations cover Anthropic Claude, CLI, Local GUI wizard. You pay in server time and maintenance, not licences.
 
+**Is Potato a good self-hosted SEO & Search tool in 2026?**
 The most methodologically honest AI-visibility tool in this directory: scoped claims, deterministic scoring, cost-capped runs, and a reproducible method. Use it to track your Claude-answer presence over time; do not mistake it for a full AI-search measurement.
 
 ## Similar Tools
@@ -151,11 +115,41 @@ The most methodologically honest AI-visibility tool in this directory: scoped cl
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [SEO & Search](/categories/seo/)
+- **GitHub:** ★ 168
+- **Founded:** 2026
+- **API:** Yes
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-08-31
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Potato is a tool in SEO & Search with free and open source. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
+
+OtterlyAI
+
+AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+
+Nightwatch
+
+Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+
+Ahrefs
+
+Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+
+Nimt.ai
+
+AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+
+[More SEO & Search Tools →](/categories/seo/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -174,7 +168,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/potato-ai-visibility/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-08-31",
     "offers": {
       "@type": "Offer",
@@ -277,7 +271,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/potato-ai-visibility/", "breadcrumb": {"@id": "https://martechsignal.com/tools/potato-ai-visibility/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/potato-ai-visibility/", "breadcrumb": {"@id": "https://martechsignal.com/tools/potato-ai-visibility/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

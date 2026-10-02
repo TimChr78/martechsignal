@@ -1,21 +1,5 @@
 # AI Agents Need Campaign State, Not Prompts
 
-
-| State the agent needs | Without a campaign schema | With a campaign schema |
-| --- | --- | --- |
-| **ICP / segment** | Re-described in every prompt, drifts over time | Read from one canonical field |
-| **Suppression list** | Hoped-for; agent has no idea who opted out | Checked against a live list before send |
-| **Offer + expiry** | Stale offers leak into copy weeks later | Single source; expired offers blocked |
-| **Brand rules / claims** | Pasted into prompts, inconsistently | Enforced by a validation step |
-| **Last test result** | Forgotten; the same losing variant returns | Persisted; informs the next variant |
-| **Channel permissions** | Agent emails people who only opted into SMS | Gated per channel in the schema |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-******JSON
-
-✓ State beats prompts
-
 AI · MARKETING OPS · 8 MIN
 
 ## Your AI Marketing Agent Doesn't Need Better Prompts
@@ -24,7 +8,7 @@ AI · MARKETING OPS · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Your AI Marketing Agent Doesn't Need Better Prompts
 
-AUG 03, 2026 · Updated 2026-10-02
+AUG 03, 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -49,6 +33,16 @@ A thread on r/MarketingAutomation last month captured this exactly. The poster's
 That is the unsexy answer, and it is the correct one. The teams getting consistent output from AI marketing agents are not running smarter prompts. They are running governed context.
 
 Consider what a single agent session has to know to send one compliant email:
+
+
+| State the agent needs | Without a campaign schema | With a campaign schema |
+| --- | --- | --- |
+| **ICP / segment** | Re-described in every prompt, drifts over time | Read from one canonical field |
+| **Suppression list** | Hoped-for; agent has no idea who opted out | Checked against a live list before send |
+| **Offer + expiry** | Stale offers leak into copy weeks later | Single source; expired offers blocked |
+| **Brand rules / claims** | Pasted into prompts, inconsistently | Enforced by a validation step |
+| **Last test result** | Forgotten; the same losing variant returns | Persisted; informs the next variant |
+| **Channel permissions** | Agent emails people who only opted into SMS | Gated per channel in the schema |
 
 The right column is not a product. It is a file format and a discipline.
 
@@ -122,6 +116,12 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+******JSON
+
+✓ State beats prompts
+
 
 ```json
 {
@@ -153,7 +153,7 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
     }
   },
   "datePublished": "2026-08-03",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-03",
   "mainEntityOfPage": "https://martechsignal.com/blog/ai-agents-need-campaign-state/",
   "image": {
     "@type": "ImageObject",
@@ -199,7 +199,7 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/#breadcrumb"}, "dateModified": "2026-08-03"}
 ```
 
 ```json

@@ -1,5 +1,37 @@
 # Marketing Technology Glossary
 
+## Martech Glossary
+
+Plain-English definitions of marketing technology terms. No jargon explaining jargon.
+
+30 TERMS · LINKED TO 85 TOOLS
+
+## A
+
+## C
+
+## D
+
+## E
+
+## F
+
+## G
+
+## L
+
+## M
+
+## P
+
+## S
+
+## U
+
+## W
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
 [A](#A)[C](#C)[D](#D)[E](#E)[F](#F)[G](#G)[L](#L)[M](#M)[P](#P)[S](#S)[U](#U)[W](#W)
 
 ABM
@@ -124,38 +156,6 @@ Workflow automation connects your software tools so that actions in one system t
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
-## Martech Glossary
-
-Plain-English definitions of marketing technology terms. No jargon explaining jargon.
-
-30 TERMS · LINKED TO 85 TOOLS
-
-## A
-
-## C
-
-## D
-
-## E
-
-## F
-
-## G
-
-## L
-
-## M
-
-## P
-
-## S
-
-## U
-
-## W
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 
 ```json
 {
@@ -186,7 +186,7 @@ Plain-English definitions of marketing technology terms. No jargon explaining ja
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 30,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -397,7 +397,7 @@ Plain-English definitions of marketing technology terms. No jargon explaining ja
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

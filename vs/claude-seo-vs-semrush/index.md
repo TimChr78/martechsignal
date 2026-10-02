@@ -1,36 +1,22 @@
-# Claude SEO vs Semrush (2026): pricing and AI
-
-
-| Dimension | Claude SEO | Semrush |
-| --- | --- | --- |
-| Pricing | Open Source | From $117/mo |
-| Open source | yes (mit) | no |
-| Integrations listed | 5 listed: Claude Code, Google Search Console, DataForSEO, Firecrawl (+1 more) | 8 listed: Google Analytics, Google Search Console, WordPress, Zapier (+4 more) |
-| Public API | yes | yes |
-
-
-| Scenario | Claude SEO | Semrush |
-| --- | --- | --- |
-| Cost basis | Free software; you pay your model provider and your time | Per seat subscription |
-| Free tier | MIT-licensed, unlimited use | Limited free account |
-| Entry paid | Optional Skool community mirror, priced by its owner | Pro $117/mo billed annually ($140 month-to-month) |
-| At volume | Audits cost tokens and attention, not credits. Run as many as the work needs. | Guru $250/mo and Business $500/mo lift the project and keyword quotas. |
-| Checked | 2026-09-27 | 2026-09-27 |
-
-- **Pick Claude SEO if:** you can host it yourself and want code-level control, starting free.
-- **Pick Semrush if:** you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo.
-
-[Agent Skills](/categories/agent-skills/)[Open-Source Tools](/categories/open-source/)[SEO & Search](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+# Claude SEO vs Semrush (2026): pricing, AI features, verdict
 
 ## Claude SEO vs Semrush (2026): pricing, AI features, verdict
+
+Pick Claude SEO if you can self-host and want code-level control of the audit, free and MIT-licensed. Pick Semrush if you want a hosted platform with keyword and content tools from $117/mo.
 
 Claude SEO and Semrush end up on the same shortlist. Claude SEO turns Claude Code into an SEO audit machine. Semrush is the closest thing the SEO industry has to an operating system: a platform that spans keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid advertising intelligence, social media management, and increasingly, AI search visibility.
 
 Most decisions here come down to where it runs, how it bills, and how deep the AI features go. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
 These two barely share a budget line. Semrush is a subscription suite with a large database behind it. claude-seo is free software that runs inside a coding session and audits one site at a time. Teams that keep both usually split the work: rank tracking and keyword research in one, technical audits in the other.
+
+## Claude SEO vs Semrush: the quick decision
+
+
+| Tool | Starts at | Pick it when |
+| --- | --- | --- |
+| Claude SEO | Open Source | You can self-host and want code-level control of the audit, free and MIT-licensed. |
+| Semrush | From $117/mo | You want a hosted platform the vendor runs, with keyword research and content tools from $117/mo. |
 
 [Claude SEO assessment](/tools/claude-seo/) · [Semrush assessment](/tools/semrush/)
 
@@ -42,9 +28,26 @@ Claude SEO
 
 Semrush
 
+
+| Dimension | Claude SEO | Semrush |
+| --- | --- | --- |
+| Pricing | Open Source | From $117/mo |
+| Open source | yes (mit) | no |
+| Integrations listed | 5 listed: Claude Code, Google Search Console, DataForSEO, Firecrawl (+1 more) | 8 listed: Google Analytics, Google Search Console, WordPress, Zapier (+4 more) |
+| Public API | yes | yes |
+
 ## Priced at volume
 
 Cost picture for a year of continuous use. All figures checked 2026-09-27 on vendor pricing pages.
+
+
+| Scenario | Claude SEO | Semrush |
+| --- | --- | --- |
+| Cost basis | Free software; you pay your model provider and your time | Per seat subscription |
+| Free tier | MIT-licensed, unlimited use | Limited free account |
+| Entry paid | Optional Skool community mirror, priced by its owner | Pro $117/mo billed annually ($140 month-to-month) |
+| At volume | Audits cost tokens and attention, not credits. Run as many as the work needs. | Guru $250/mo and Business $500/mo lift the project and keyword quotas. |
+| Checked | 2026-09-27 | 2026-09-27 |
 
 ## Positioning
 
@@ -108,6 +111,9 @@ Neither replaces an analyst. And if you publish fewer than a page a week, a spre
 
 ## Who should pick which
 
+- **Pick Claude SEO if:** you can host it yourself and want code-level control, starting free.
+- **Pick Semrush if:** you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo.
+
 ## Who should pick Claude SEO over Semrush?
 
 Teams that can host it themselves and want code-level control, starting free. It is MIT-licensed open source, so the audit machine runs inside Claude Code rather than on a vendor dashboard.
@@ -122,7 +128,7 @@ Yes, and the comparison suggests exactly that split: Semrush for the suite cover
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
-Last verified  · Updated 2026-10-02.
+Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
@@ -139,6 +145,10 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+[Agent Skills](/categories/agent-skills/)[Open-Source Tools](/categories/open-source/)[SEO & Search](/categories/seo/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -147,7 +157,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/claude-seo-vs-semrush/#article",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -230,10 +240,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/claude-seo-vs-semrush/", "breadcrumb": {"@id": "https://martechsignal.com/vs/claude-seo-vs-semrush/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

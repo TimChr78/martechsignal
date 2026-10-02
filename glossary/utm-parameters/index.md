@@ -1,26 +1,10 @@
 # UTM Parameters
 
-Amplitude
-
-AI-powered digital analytics platform for product and marketing teams
-
-Mixpanel
-
-Product analytics platform with AI-powered insights for user behavior tracking
-
-Attribution
-
-AI-powered marketing attribution platform connecting ad spend to revenue
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## UTM Parameters
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-07
 
 ## Definition
 
@@ -64,6 +48,22 @@ Sources: [Google campaign URL builder](https://ga-dev-tools.google/campaign-url-
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+Mixpanel
+
+Product analytics platform with AI-powered insights for user behavior tracking
+
+Attribution
+
+AI-powered marketing attribution platform connecting ad spend to revenue
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -74,7 +74,7 @@ Sources: [Google campaign URL builder](https://ga-dev-tools.google/campaign-url-
         "@type": "DefinedTerm",
         "name": "UTM Parameters",
         "description": "UTM parameters are tags appended to URLs to track where traffic comes from. A URL like example.com/page?utm_source=newsletter&utm_medium=email&utm_campaign=summer-sale tells your analytics platform that the visit came from a summer sale email campaign. Without them, all your email traffic shows up as 'direct' and you learn nothing.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-07",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -132,7 +132,7 @@ Sources: [Google campaign URL builder](https://ga-dev-tools.google/campaign-url-
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/utm-parameters/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/utm-parameters/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/utm-parameters/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/utm-parameters/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

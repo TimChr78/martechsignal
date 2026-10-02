@@ -1,64 +1,5 @@
 # SEO Skill Bench review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with leaderboard runs costing $1.70 to $4.46 in LLM tokens each, published as exact figures (the vendor pricing page: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
-| Feature depth | 4/10 | Headless skill execution, answer-key scoring and hallucination trap detection cover benchmarking narrowly (vendor documentation: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
-| Integrations | 2/10 | Claude Code is the only documented harness (vendor documentation: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
-| AI capability | 5/10 | Deterministic planted-defect scoring and trap avoidance measurement are meta-evaluation of AI output (vendor documentation: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with fully local execution (the source repository: [repository](https://github.com/aleclindz/seo-skill-bench), verified 2026-09-28). |
-| Operational maturity | 2/10 | A young benchmark project with no API (vendor documentation: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (51 GitHub stars) - smaller community and plugin ecosystem |
-| ✓ AI capabilities: headless execution of Claude Code SEO skills | ✗ Short native integration list - plan for API work |
-| ✓ Native integrations include Claude Code (1 listed) |  |
-
-**What is SEO Skill Bench?**
-SEO Skill Bench: Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects. SEO Skill Bench ships with headless execution of Claude Code SEO skills. The public repository carries 51 stars.
-
-**How much does SEO Skill Bench cost?**
-SEO Skill Bench is open source - MIT licensed and free to self-host; the public repository carries 51 stars. You pay in server time and maintenance, not licences.
-
-**Is SEO Skill Bench a good self-hosted Agent Skills tool in 2026?**
-Strengths include 51 GitHub stars, MIT licensing with free self-hosting. SEO Skill Bench documents 1 integration
-
-- **Pricing:** Open Source
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 51
-- **API:** No
-- **Repository checked:** 2026-09-29
-- **Page updated:** 2026-09-03
-
-**Verdict:** SEO Skill Bench is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integration and a self-hosting path. We reviewed it from vendor documentation on 2026-09-03. This is a desk review, not a hands-on test. Desk-reviewed
-
-Zapier GTM Cheat Codes
-
-Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
-
-Digital Marketing Pro
-
-163-skill AI marketing plugin for agencies with EU AI Act compliance
-
-Aaron Marketing Skills
-
-120 marketing skills across 7 disciplines for Claude Code with auditor gates
-
-AI Business Skills
-
-63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-
-Claude Ads
-
-Paid-media operations skill for Claude Code covering 12 ad platforms
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -71,7 +12,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit SEO Skill Bench →](https://seoagent.com/seo-skill-benchmark)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 31/60
 
 SEO Skill Bench scores Claude Code SEO skills against fixture sites with planted defects and hallucination traps. MIT, and each leaderboard run costs $1.70 to $4.46 in tokens, stated to the cent.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free under MIT with leaderboard runs costing $1.70 to $4.46 in LLM tokens each, published as exact figures (the vendor pricing page: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
+| Feature depth | 4/10 | Headless skill execution, answer-key scoring and hallucination trap detection cover benchmarking narrowly (vendor documentation: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
+| Integrations | 2/10 | Claude Code is the only documented harness (vendor documentation: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
+| AI capability | 5/10 | Deterministic planted-defect scoring and trap avoidance measurement are meta-evaluation of AI output (vendor documentation: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with fully local execution (the source repository: [repository](https://github.com/aleclindz/seo-skill-bench), verified 2026-09-28). |
+| Operational maturity | 2/10 | A young benchmark project with no API (vendor documentation: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -109,6 +60,13 @@ Free, MIT licensed. Runs cost LLM API tokens only: leaderboard runs cost $1.70 t
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Young project (51 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: headless execution of Claude Code SEO skills | ✗ Short native integration list - plan for API work |
+| ✓ Native integrations include Claude Code (1 listed) |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -122,10 +80,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is SEO Skill Bench?**
 SEO Skill Bench: Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects. SEO Skill Bench ships with headless execution of Claude Code SEO skills. The public repository carries 51 stars.
 
+**How much does SEO Skill Bench cost?**
 SEO Skill Bench is open source - MIT licensed and free to self-host; the public repository carries 51 stars. You pay in server time and maintenance, not licences.
 
+**Is SEO Skill Bench a good self-hosted Agent Skills tool in 2026?**
 Strengths include 51 GitHub stars, MIT licensing with free self-hosting. SEO Skill Bench documents 1 integration
 
 ## Similar Tools
@@ -137,11 +98,44 @@ Strengths include 51 GitHub stars, MIT licensing with free self-hosting. SEO Ski
 - [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **GitHub:** ★ 51
+- **API:** No
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-09-03
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** SEO Skill Bench is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integration and a self-hosting path. We reviewed it from vendor documentation on 2026-09-03. This is a desk review, not a hands-on test. Desk-reviewed
+
+Zapier GTM Cheat Codes
+
+Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+
+Digital Marketing Pro
+
+163-skill AI marketing plugin for agencies with EU AI Act compliance
+
+Aaron Marketing Skills
+
+120 marketing skills across 7 disciplines for Claude Code with auditor gates
+
+AI Business Skills
+
+63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+Claude Ads
+
+Paid-media operations skill for Claude Code covering 12 ad platforms
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -160,7 +154,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/seo-skill-bench/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-09-03",
     "offers": {
       "@type": "Offer",
@@ -263,7 +257,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/seo-skill-bench/", "breadcrumb": {"@id": "https://martechsignal.com/tools/seo-skill-bench/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/seo-skill-bench/", "breadcrumb": {"@id": "https://martechsignal.com/tools/seo-skill-bench/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

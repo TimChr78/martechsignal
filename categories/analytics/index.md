@@ -1,5 +1,65 @@
 # Analytics & Attribution Tools
 
+- [Home](/)
+- [Tools](/tools/)
+- Analytics & Attribution
+## Analytics & Attribution Tools
+
+Analytics and attribution tools: event tracking, funnels, and what multi-touch claims can and cannot prove. 11 reviewed.
+
+11 TOOLS IN THIS CATEGORY
+
+## PRODUCT BEHAVIOR***5*
+
+### Amplitude
+
+### Heap
+
+### Mixpanel
+
+### PostHog
+
+### Snowplow
+
+## AD SPEND ATTRIBUTION***3*
+
+### Attribution
+
+### Northbeam
+
+### Triple Whale
+
+## SELF-HOSTED WEB ANALYTICS***3*
+
+### Matomo
+
+### Plausible Analytics
+
+### Umami
+
+**Compare:** [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) · [Matomo vs PostHog](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/) · [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+
+## Key terms
+
+- [Attribution models](/glossary/marketing-attribution-models/)
+- [First-party data](/glossary/first-party-data/)
+- [DMP](/glossary/dmp/)
+Full definitions in the [martech glossary](/glossary/).
+
+Web analytics counts visits. Product analytics counts behavior: which users did what, in what order, and whether they came back. For a marketing team the difference is the gap between knowing a campaign sent 4,000 visitors and knowing it sent 4,000 visitors of whom maybe 300 activated and a few dozen still around in week three. The tools in this category track events instead of pageviews. Mixpanel stores every signup, click and purchase as a discrete event with properties. Heap captures every interaction by default, so you can define a metric months after the traffic arrived. Amplitude layers cohorts, funnels and session replay on top.
+
+The category matters because the two failure modes it fixes show up everywhere. The first is attribution fiction: multi-touch models distribute credit by formula, and the answer changes with every touchpoint you add. We argued in a recent post that signal loss didn't break measurement, it exposed what multi-touch attribution never measured in the first place. The second is budget bleeding: teams pay for tooling nobody audits while the reporting stack goes dark, because AI search keeps breaking the click paths those dashboards assume. Measurement that admits its own error bars is worth more than measurement that promises certainty. Most vendors in this space promise certainty.
+
+This directory covers 11 tools across three tiers. The open-source end runs wide: Snowplow is an event pipeline you self-host into your own warehouse, Matomo, Plausible and Umami are web analytics you host yourself, and PostHog bundles product analytics, flags and session replay behind an MIT core. Amplitude, Mixpanel and Heap are the freemium product analytics tier, free enough to start before procurement notices. Attribution, Northbeam and Triple Whale sit at the attribution end, connecting ad spend to revenue through multi-touch models and marketing mix modeling. Our reviews test how each handles consent, sampling and its own error bars, because a tool that hides its weaknesses is the wrong tool regardless of tier.
+
+## Which one fits
+
+Vendors in this category: [PostHog](https://posthog.com) · [Umami](https://umami.is) · [Plausible Analytics](https://plausible.io)
+
+## Reading before you buy
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
 AI-powered digital analytics platform for product and marketing teams
 
 FreemiumDesk-reviewed
@@ -108,66 +168,6 @@ The warehouse you own is the measurement backbone; skip the rebuild pitch
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
-- [Home](/)
-- [Tools](/tools/)
-- Analytics & Attribution
-## Analytics & Attribution Tools
-
-Analytics and attribution tools: event tracking, funnels, and what multi-touch claims can and cannot prove. 11 reviewed.
-
-11 TOOLS IN THIS CATEGORY
-
-## PRODUCT BEHAVIOR***5*
-
-### Amplitude
-
-### Heap
-
-### Mixpanel
-
-### PostHog
-
-### Snowplow
-
-## AD SPEND ATTRIBUTION***3*
-
-### Attribution
-
-### Northbeam
-
-### Triple Whale
-
-## SELF-HOSTED WEB ANALYTICS***3*
-
-### Matomo
-
-### Plausible Analytics
-
-### Umami
-
-**Compare:** [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) · [Matomo vs PostHog](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/) · [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
-
-## Key terms
-
-- [Attribution models](/glossary/marketing-attribution-models/)
-- [First-party data](/glossary/first-party-data/)
-- [DMP](/glossary/dmp/)
-Full definitions in the [martech glossary](/glossary/).
-
-Web analytics counts visits. Product analytics counts behavior: which users did what, in what order, and whether they came back. For a marketing team the difference is the gap between knowing a campaign sent 4,000 visitors and knowing it sent 4,000 visitors of whom maybe 300 activated and a few dozen still around in week three. The tools in this category track events instead of pageviews. Mixpanel stores every signup, click and purchase as a discrete event with properties. Heap captures every interaction by default, so you can define a metric months after the traffic arrived. Amplitude layers cohorts, funnels and session replay on top.
-
-The category matters because the two failure modes it fixes show up everywhere. The first is attribution fiction: multi-touch models distribute credit by formula, and the answer changes with every touchpoint you add. We argued in a recent post that signal loss didn't break measurement, it exposed what multi-touch attribution never measured in the first place. The second is budget bleeding: teams pay for tooling nobody audits while the reporting stack goes dark, because AI search keeps breaking the click paths those dashboards assume. Measurement that admits its own error bars is worth more than measurement that promises certainty. Most vendors in this space promise certainty.
-
-This directory covers 11 tools across three tiers. The open-source end runs wide: Snowplow is an event pipeline you self-host into your own warehouse, Matomo, Plausible and Umami are web analytics you host yourself, and PostHog bundles product analytics, flags and session replay behind an MIT core. Amplitude, Mixpanel and Heap are the freemium product analytics tier, free enough to start before procurement notices. Attribution, Northbeam and Triple Whale sit at the attribution end, connecting ad spend to revenue through multi-touch models and marketing mix modeling. Our reviews test how each handles consent, sampling and its own error bars, because a tool that hides its weaknesses is the wrong tool regardless of tier.
-
-## Which one fits
-
-Vendors in this category: [PostHog](https://posthog.com) · [Umami](https://umami.is) · [Plausible Analytics](https://plausible.io)
-
-## Reading before you buy
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 
 ```json
 {
@@ -207,7 +207,7 @@ Vendors in this category: [PostHog](https://posthog.com) · [Umami](https://umam
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 11,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -348,7 +348,7 @@ Vendors in this category: [PostHog](https://posthog.com) · [Umami](https://umam
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/analytics/", "breadcrumb": {"@id": "https://martechsignal.com/categories/analytics/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/analytics/", "breadcrumb": {"@id": "https://martechsignal.com/categories/analytics/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

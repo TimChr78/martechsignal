@@ -1,17 +1,5 @@
 # The AI-search funnel map GA4 won't give you
 
-
-| Stage | Prompt type (SEL framework) | Landing pages AI cites for it | What arrival at this stage means |
-| --- | --- | --- | --- |
-| Awareness | Problem, symptom, educational | Blog posts, guides, glossary, research explainers | You entered the conversation before the buyer knew the category existed |
-| Consideration | Solution, capability, use case | Use-case pages, feature explainers, "how does X work" | AI connects your brand to the solution and its capabilities |
-| Evaluation | Recommendation, comparison, alternatives | Comparison pages, alternatives pages, integration pages, review roundups you host | You made the shortlist and the buyer is checking fit |
-| Decision | Brand validation: pricing, reputation, implementation | Pricing, docs, security page, demo request | The buyer is resolving final objections; conversion rate here should crush every other stage |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-******JSON
-
 AI SEARCH · ANALYTICS · 11 MIN
 
 ## The AI-search funnel map GA4 won't give you
@@ -20,7 +8,7 @@ AI SEARCH · ANALYTICS · 11 MIN
 
 [Home](/) · [Blog](/blog/) · The AI-search funnel map GA4 won't give you
 
-SEP 10, 2026 · Updated 2026-10-02
+SEP 10, 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -55,6 +43,14 @@ You cannot repair any of this from the source side. You can work around it from 
 Here is the reframe. You cannot control what label arrives with an AI click, but you control which page AI cites for which question. Search Engine Land published the missing piece on August 31: Casey Nifong's [prompt mapping framework](https://searchengineland.com/map-ai-search-prompts-sales-funnel-486060), which organizes the questions buyers ask AI into four funnel stages, awareness, consideration, evaluation, decision, and tracks visibility separately at each one. Her example of why aggregates lie: a brand appearing in 40% of 100 tracked prompts might be at 70% for branded and comparison prompts and 10% for problem-discovery ones. The single score hides a brand that only exists once buyers already know what they want.
 
 Now run that same logic on the arrival side. Every page on your site belongs to a stage, and AI referrals land on pages. Cross the two and the funnel appears:
+
+
+| Stage | Prompt type (SEL framework) | Landing pages AI cites for it | What arrival at this stage means |
+| --- | --- | --- | --- |
+| Awareness | Problem, symptom, educational | Blog posts, guides, glossary, research explainers | You entered the conversation before the buyer knew the category existed |
+| Consideration | Solution, capability, use case | Use-case pages, feature explainers, "how does X work" | AI connects your brand to the solution and its capabilities |
+| Evaluation | Recommendation, comparison, alternatives | Comparison pages, alternatives pages, integration pages, review roundups you host | You made the shortlist and the buyer is checking fit |
+| Decision | Brand validation: pricing, reputation, implementation | Pricing, docs, security page, demo request | The buyer is resolving final objections; conversion rate here should crush every other stage |
 
 The referrer says ChatGPT sent them. The landing page says why. That combination is the funnel GA4 will never hand you pre-assembled, because the stage mapping is a claim about your content that only you can make.
 
@@ -114,6 +110,10 @@ More from the directory: [Anyword](/tools/anyword/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+******JSON
+
 
 ```json
 {
@@ -145,7 +145,7 @@ More from the directory: [Anyword](/tools/anyword/)
     }
   },
   "datePublished": "2026-09-10",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-10",
   "mainEntityOfPage": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/",
   "image": {
     "@type": "ImageObject",
@@ -191,7 +191,7 @@ More from the directory: [Anyword](/tools/anyword/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/#breadcrumb"}, "dateModified": "2026-09-10"}
 ```
 
 ```json

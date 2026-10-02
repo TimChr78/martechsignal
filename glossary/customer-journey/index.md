@@ -1,26 +1,10 @@
 # Customer Journey Mapping
 
-Amplitude
-
-AI-powered digital analytics platform for product and marketing teams
-
-Mixpanel
-
-Product analytics platform with AI-powered insights for user behavior tracking
-
-HubSpot CRM
-
-Free AI-powered CRM platform with sales, service, and marketing tools unified
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Customer Journey Mapping
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-07
 
 ## Definition
 
@@ -68,6 +52,22 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
 - [CRM](/glossary/crm/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+Mixpanel
+
+Product analytics platform with AI-powered insights for user behavior tracking
+
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -78,7 +78,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
         "@type": "DefinedTerm",
         "name": "Customer Journey Mapping",
         "description": "A customer journey map is a visual representation of every step a customer takes from first awareness to purchase and beyond. It documents touchpoints, emotions, pain points, and the channels involved at each stage. The goal is to find where the experience breaks down.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-07",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -136,7 +136,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/customer-journey/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/customer-journey/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/customer-journey/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/customer-journey/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

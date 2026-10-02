@@ -1,27 +1,22 @@
-# Matomo vs PostHog: 2026 comparison
-
-
-| Dimension | Matomo | PostHog |
-| --- | --- | --- |
-| Pricing | Open Source | Freemium |
-| Open source | yes (gpl-3.0) | yes (mit) |
-| Integrations listed | 8 listed: WordPress, Matomo Tag Manager, Google Tag Manager, Google Analytics Importer (+4 more) | 6 listed: Slack, GitHub, Zapier, Segment (+2 more) |
-| Public API | yes | yes |
-
-- **Pick Matomo if:** you want web analytics depth, EU data residency and raw data you own outright.
-- **Pick PostHog if:** the real questions are about product usage, and you want flags and experiments beside the funnel.
-
-[Analytics & Attribution](/categories/analytics/)[Open-Source Tools](/categories/open-source/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+# Matomo vs PostHog (2026): web analytics or product analytics
 
 ## Matomo vs PostHog (2026): web analytics or product analytics
+
+Pick Matomo if you want web analytics depth with EU residency and raw data you own, self-hosted free. Pick PostHog if your questions are about product usage, with flags and experiments beside the funnel.
 
 Matomo and PostHog get compared more than their categories suggest, because both answer the same executive question: what do people do on our thing? They answer it from opposite ends. Matomo is web analytics in the classic sense, built to replace Google Analytics with better privacy defaults. PostHog is product analytics with web numbers as one slice of the platform.
 
 The numbers below come from each vendor's own published materials, catalogued and checked this month. For the privacy-first three-way including Plausible, start with the quick-decision table on Matomo vs Plausible.
 
 Both products grew up open source and both still sell trust as much as features: one promises your analytics data stays yours, the other promises your product data answers questions without a data team. The trade-offs below follow from that split.
+
+## Matomo vs PostHog: the quick decision
+
+
+| Tool | Starts at | Pick it when |
+| --- | --- | --- |
+| Matomo | Open Source | You want web analytics depth, EU data residency and raw data you own outright. |
+| PostHog | Freemium | Your real questions are about product usage, with flags and experiments beside the funnel. |
 
 [Matomo assessment](/tools/matomo/) · [PostHog assessment](/tools/posthog/)
 
@@ -32,6 +27,14 @@ PostHog: [Official site](https://posthog.com) · [Pricing](https://posthog.com/p
 Matomo
 
 PostHog
+
+
+| Dimension | Matomo | PostHog |
+| --- | --- | --- |
+| Pricing | Open Source | Freemium |
+| Open source | yes (gpl-3.0) | yes (mit) |
+| Integrations listed | 8 listed: WordPress, Matomo Tag Manager, Google Tag Manager, Google Analytics Importer (+4 more) | 6 listed: Slack, GitHub, Zapier, Segment (+2 more) |
+| Public API | yes | yes |
 
 ## Positioning
 
@@ -95,6 +98,9 @@ If your question is purely commercial, 'which channel sells', a warehouse-native
 
 ## Who should pick which
 
+- **Pick Matomo if:** you want web analytics depth, EU data residency and raw data you own outright.
+- **Pick PostHog if:** the real questions are about product usage, and you want flags and experiments beside the funnel.
+
 ## Matomo or PostHog for a content site?
 
 Matomo. Web analytics depth, EU data residency and raw data the team owns outright are its verdict. PostHog aims at product teams, not pageview reporting.
@@ -109,7 +115,7 @@ PostHog Cloud for teams that accept hosted product analytics, Plausible for team
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
-Last verified  · Updated 2026-10-02.
+Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
@@ -127,6 +133,10 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+[Analytics & Attribution](/categories/analytics/)[Open-Source Tools](/categories/open-source/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -135,7 +145,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/matomo-vs-posthog/#article",
     "datePublished": "2026-09-28",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -218,10 +228,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/matomo-vs-posthog/", "breadcrumb": {"@id": "https://martechsignal.com/vs/matomo-vs-posthog/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

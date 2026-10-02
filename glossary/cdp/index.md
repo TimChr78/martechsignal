@@ -1,26 +1,10 @@
 # Customer Data Platform (CDP)
 
-Twilio Segment
-
-Customer data platform for collecting, unifying, and activating customer data
-
-Snowplow
-
-Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
-
-Amplitude
-
-AI-powered digital analytics platform for product and marketing teams
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Customer Data Platform (CDP)
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-25
 
 ## Definition
 
@@ -73,6 +57,22 @@ Sources: [CDP Institute](https://www.cdpinstitute.org/) · [Twilio Segment](http
 - [DMP](/glossary/dmp/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+Twilio Segment
+
+Customer data platform for collecting, unifying, and activating customer data
+
+Snowplow
+
+Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
+
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -83,7 +83,7 @@ Sources: [CDP Institute](https://www.cdpinstitute.org/) · [Twilio Segment](http
         "@type": "DefinedTerm",
         "name": "Customer Data Platform (CDP)",
         "description": "A customer data platform collects and unifies customer data from every touchpoint, website visits, email opens, purchases, support tickets, into a single profile that other systems can query. Unlike a CRM, which sales teams use to track deals, a CDP is built for marketers who need a real-time, always-on view of each customer across channels.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-25",
         "datePublished": "2026-09-25",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -141,7 +141,7 @@ Sources: [CDP Institute](https://www.cdpinstitute.org/) · [Twilio Segment](http
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/cdp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/cdp/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/cdp/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/cdp/#breadcrumb"}, "dateModified": "2026-09-25"}
 ```
 
 ```json

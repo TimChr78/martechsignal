@@ -1,73 +1,5 @@
 # NocoBase review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | The NocoBase pricing page publishes a full edition table: Community free with unlimited users and records, Standard at 800 USD and Professional at 8,000 USD as one-time licenses with a feature comparison, and only Enterprise is quote-only (nocobase.com/pricing: [pricing page](https://www.nocobase.com/pricing), verified 2026-09-26). |
-| Feature depth | 7/10 | Data-model-first building with configurable models, pages, workflow blocks and a plugin architecture covers the no-code baseline plus differentiators like server-side workflows, but there are no turnkey campaign senders in the box (vendor documentation: [vendor site](https://www.nocobase.com), verified 2026-09-26). |
-| Integrations | 4/10 | The core ships a REST API and webhooks with plugins for data sources and authentication, yet there are no turnkey marketing connectors and no marketplace catalog to count (vendor documentation: [vendor site](https://www.nocobase.com), verified 2026-09-26). |
-| AI capability | 7/10 | Version 2.0 ships AI employees (assistant agents over your data models) and AI-powered building with coding agents, and the pricing page states most AI employee capabilities ship in the free Community Edition (nocobase.com/pricing: [pricing page](https://www.nocobase.com/pricing), verified 2026-09-26). |
-| Openness | 7/10 | GitHub lists the repo under Apache-2.0, but the NocoBase License Agreement adds supplementary terms that prevail on conflict and forbid offering the software as a no-code or AI platform SaaS, so this is source-available rather than clean OSI (nocobase.com/en/agreement, GitHub nocobase/nocobase: [repository](https://github.com/nocobase/nocobase), verified 2026-09-26). |
-| Operational maturity | 8/10 | Published release notes and a roadmap, documentation in about ten languages, and a named company (NocoBase Pte. Ltd., Singapore) selling commercial editions with support (GitHub nocobase/nocobase, nocobase.com: [repository](https://github.com/nocobase/nocobase), verified 2026-09-26). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Open-source licensing with free self-hosting | ✗ Short native integration list - plan for API work |
-| ✓ AI capabilities: AI-assisted app building |  |
-| ✓ Active public repository (24,430 GitHub stars counted at last check) |  |
-
-**What is NocoBase?**
-NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,430 stars.
-
-**How much does NocoBase cost?**
-NocoBase is open source - Free to self-host; the public repository carries 24,430 stars; a paid hosted tier exists if you would rather not run the servers. You pay in server time and maintenance, not licences.
-
-**Is NocoBase a good self-hosted Workflow Automation tool in 2026?**
-The most credible self-hosted option for marketing teams that need owned, modeled campaign systems and have the technical help to build them.
-
-**What is NocoBase used for in marketing?**
-Marketing operations teams use it to build the systems generic tools don't cover well: lead routing and scoring, campaign and UTM trackers, content approval workflows, and lightweight marketing data hubs. Because it is self-hosted, consent records and lead data stay inside your own infrastructure, which matters for GDPR-constrained teams.
-
-**NocoBase vs Airtable: what's the difference?**
-Airtable is a polished cloud database you can use in minutes; NocoBase is a platform you model and assemble, self-hosted, with server-side workflows and no per-seat cost. Choose Airtable for speed and simplicity, NocoBase when data ownership, custom logic or scale matter more than a quick start.
-
-**Does NocoBase have a demo?**
-Yes, NocoBase runs a live demo on its website, and because the core is open source you can self-host a full instance with Docker in minutes to evaluate it on your own data. The project (sometimes misspelled Nacobase or Noco Base) documents deployment in several languages.
-
-- **Pricing:** Free tier
-- **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 24430
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-05
-
-**Verdict:** NocoBase is a tool in Workflow Automation with free and open source. The catalog documents 2 AI features, 2 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-05. This is a desk review, not a hands-on test. Desk-reviewed
-
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-Pipedream
-
-Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
-
-Tealium
-
-Enterprise customer data platform with real-time data orchestration and AI
-
-ToolJet
-
-Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
-
-Microsoft Power Automate
-
-Enterprise workflow automation inside the Microsoft Power Platform
-
-[More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
@@ -80,7 +12,7 @@ Open-source no-code platform with AI assistance for building business systems fa
 
 Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit NocoBase →](https://www.nocobase.com)
 
@@ -91,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 42/60
 
 A serious self-hosted construction kit whose pricing page is unusually concrete, with real edition prices and a free unlimited community tier. The weak spots sit outside the core: thin marketing connectors and a license whose supplementary terms limit how far the open source label stretches.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | The NocoBase pricing page publishes a full edition table: Community free with unlimited users and records, Standard at 800 USD and Professional at 8,000 USD as one-time licenses with a feature comparison, and only Enterprise is quote-only (nocobase.com/pricing: [pricing page](https://www.nocobase.com/pricing), verified 2026-09-26). |
+| Feature depth | 7/10 | Data-model-first building with configurable models, pages, workflow blocks and a plugin architecture covers the no-code baseline plus differentiators like server-side workflows, but there are no turnkey campaign senders in the box (vendor documentation: [vendor site](https://www.nocobase.com), verified 2026-09-26). |
+| Integrations | 4/10 | The core ships a REST API and webhooks with plugins for data sources and authentication, yet there are no turnkey marketing connectors and no marketplace catalog to count (vendor documentation: [vendor site](https://www.nocobase.com), verified 2026-09-26). |
+| AI capability | 7/10 | Version 2.0 ships AI employees (assistant agents over your data models) and AI-powered building with coding agents, and the pricing page states most AI employee capabilities ship in the free Community Edition (nocobase.com/pricing: [pricing page](https://www.nocobase.com/pricing), verified 2026-09-26). |
+| Openness | 7/10 | GitHub lists the repo under Apache-2.0, but the NocoBase License Agreement adds supplementary terms that prevail on conflict and forbid offering the software as a no-code or AI platform SaaS, so this is source-available rather than clean OSI (nocobase.com/en/agreement, GitHub nocobase/nocobase: [repository](https://github.com/nocobase/nocobase), verified 2026-09-26). |
+| Operational maturity | 8/10 | Published release notes and a roadmap, documentation in about ten languages, and a named company (NocoBase Pte. Ltd., Singapore) selling commercial editions with support (GitHub nocobase/nocobase, nocobase.com: [repository](https://github.com/nocobase/nocobase), verified 2026-09-26). |
 
 Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -144,6 +86,13 @@ The most credible self-hosted option for marketing teams that need owned, modele
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Open-source licensing with free self-hosting | ✗ Short native integration list - plan for API work |
+| ✓ AI capabilities: AI-assisted app building |  |
+| ✓ Active public repository (24,430 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -158,16 +107,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is NocoBase?**
 NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,430 stars.
 
+**How much does NocoBase cost?**
 NocoBase is open source - Free to self-host; the public repository carries 24,430 stars; a paid hosted tier exists if you would rather not run the servers. You pay in server time and maintenance, not licences.
 
+**Is NocoBase a good self-hosted Workflow Automation tool in 2026?**
 The most credible self-hosted option for marketing teams that need owned, modeled campaign systems and have the technical help to build them.
 
+**What is NocoBase used for in marketing?**
 Marketing operations teams use it to build the systems generic tools don't cover well: lead routing and scoring, campaign and UTM trackers, content approval workflows, and lightweight marketing data hubs. Because it is self-hosted, consent records and lead data stay inside your own infrastructure, which matters for GDPR-constrained teams.
 
+**NocoBase vs Airtable: what's the difference?**
 Airtable is a polished cloud database you can use in minutes; NocoBase is a platform you model and assemble, self-hosted, with server-side workflows and no per-seat cost. Choose Airtable for speed and simplicity, NocoBase when data ownership, custom logic or scale matter more than a quick start.
 
+**Does NocoBase have a demo?**
 Yes, NocoBase runs a live demo on its website, and because the core is open source you can self-host a full instance with Docker in minutes to evaluate it on your own data. The project (sometimes misspelled Nacobase or Noco Base) documents deployment in several languages.
 
 ## Similar Tools
@@ -182,6 +137,13 @@ Yes, NocoBase runs a live demo on its website, and because the core is open sour
 - [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/) — Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.
 ### Quick Facts
 
+- **Pricing:** Free tier
+- **Category:** [Workflow Automation](/categories/workflow-automation/)
+- **GitHub:** ★ 24430
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-05
+
 Related guides: [NocoBase vs Nocodb](/vs/nocodb-vs-nocobase/)
 
 ## Get the next teardown
@@ -189,6 +151,32 @@ Related guides: [NocoBase vs Nocodb](/vs/nocodb-vs-nocobase/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** NocoBase is a tool in Workflow Automation with free and open source. The catalog documents 2 AI features, 2 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-05. This is a desk review, not a hands-on test. Desk-reviewed
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Pipedream
+
+Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+
+Tealium
+
+Enterprise customer data platform with real-time data orchestration and AI
+
+ToolJet
+
+Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
+
+Microsoft Power Automate
+
+Enterprise workflow automation inside the Microsoft Power Platform
+
+[More Workflow Automation Tools →](/categories/workflow-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

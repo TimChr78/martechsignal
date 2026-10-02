@@ -1,64 +1,5 @@
 # Adobe Marketo Engage pricing
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 4/10 | Growth/Select/Prime/Ultimate packages exist (custom pricing from about $895/mo, annual contracts required) but no public tier table (the vendor pricing page: [pricing page](https://business.adobe.com/products/marketo/pricing.html), verified 2026-09-27). |
-| Feature depth | 9/10 | Lead management, engagement scoring, revenue attribution and account-based automation remain the deepest B2B set in the category (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
-| Integrations | 8/10 | Salesforce, Dynamics, Adobe Experience Cloud, Slack, Zoom, LinkedIn, Snowflake and Bizible documented plus an API (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
-| AI capability | 7/10 | AI lead scoring, predictive audiences, content personalization and generative copy run across the funnel (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise suite inside Adobe contracts (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
-| Operational maturity | 9/10 | Founded 2006 and running inside Adobe with the compliance machinery enterprise buyers expect (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI lead scoring | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Salesforce, Adobe Experience Cloud, Microsoft Dynamics (8 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is Adobe Marketo Engage?**
-Adobe Marketo Engage: Enterprise B2B marketing automation with AI-driven lead management and engagement. Adobe Marketo Engage ships with AI lead scoring. This page documents 8 integrations.
-
-**How much does Adobe Marketo Engage cost?**
-Adobe Marketo Engage starts at $895/mo. Custom pricing; Growth/Select/Prime/Ultimate packages; annual contracts required. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Adobe Marketo Engage a good Marketing Automation tool in 2026?**
-Buy it when program complexity and scale justify the ops headcount. For smaller teams it is overkill.
-
-- **Pricing:** Enterprise
-- **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **Founded:** 2006
-- **HQ:** San Jose, CA, USA
-- **API:** Yes
-- **Last verified:** 2026-09-27
-
-**Verdict:** Adobe Marketo Engage is a tool in Marketing Automation with paid plans starting at $895/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-Bloomreach
-
-AI-powered commerce experience platform with search, personalization, and CDP
-
-Braze
-
-Customer engagement platform with AI-powered real-time messaging across channels
-
-ActiveCampaign
-
-AI-powered marketing automation and CRM for small to mid-size businesses
-
-Hootsuite
-
-Social media management platform with AI-powered scheduling and analytics
-
-Laudspeaker
-
-Open-source customer engagement and product onboarding platform, alternative to Braze
-
-[More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
@@ -69,7 +10,7 @@ Enterprise B2B marketing automation with AI-driven lead management and engagemen
 
 Marketing Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Adobe Marketo Engage →](https://business.adobe.com/products/marketo.html)
 
@@ -80,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 39/60
 
 Marketo Engage is still the B2B automation engine of record for enterprises, now with predictive scoring bolted to every stage. Annual contracts and package pricing mean the real number arrives after procurement.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 4/10 | Growth/Select/Prime/Ultimate packages exist (custom pricing from about $895/mo, annual contracts required) but no public tier table (the vendor pricing page: [pricing page](https://business.adobe.com/products/marketo/pricing.html), verified 2026-09-27). |
+| Feature depth | 9/10 | Lead management, engagement scoring, revenue attribution and account-based automation remain the deepest B2B set in the category (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
+| Integrations | 8/10 | Salesforce, Dynamics, Adobe Experience Cloud, Slack, Zoom, LinkedIn, Snowflake and Bizible documented plus an API (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
+| AI capability | 7/10 | AI lead scoring, predictive audiences, content personalization and generative copy run across the funnel (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise suite inside Adobe contracts (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
+| Operational maturity | 9/10 | Founded 2006 and running inside Adobe with the compliance machinery enterprise buyers expect (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -128,6 +79,13 @@ Buy it when program complexity and scale justify the ops headcount. For smaller 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI lead scoring | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Salesforce, Adobe Experience Cloud, Microsoft Dynamics (8 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [Marketing automation](/glossary/marketing-automation/)
@@ -142,10 +100,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Adobe Marketo Engage?**
 Adobe Marketo Engage: Enterprise B2B marketing automation with AI-driven lead management and engagement. Adobe Marketo Engage ships with AI lead scoring. This page documents 8 integrations.
 
+**How much does Adobe Marketo Engage cost?**
 Adobe Marketo Engage starts at $895/mo. Custom pricing; Growth/Select/Prime/Ultimate packages; annual contracts required. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Adobe Marketo Engage a good Marketing Automation tool in 2026?**
 Buy it when program complexity and scale justify the ops headcount. For smaller teams it is overkill.
 
 ## Similar Tools
@@ -160,6 +121,13 @@ Buy it when program complexity and scale justify the ops headcount. For smaller 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Marketing ops teams whose requirement list starts with lead scoring
 ### Quick Facts
 
+- **Pricing:** Enterprise
+- **Category:** [Marketing Automation](/categories/marketing-automation/)
+- **Founded:** 2006
+- **HQ:** San Jose, CA, USA
+- **API:** Yes
+- **Last verified:** 2026-09-27
+
 Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
 
 ## Get the next teardown
@@ -167,6 +135,32 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Adobe Marketo Engage is a tool in Marketing Automation with paid plans starting at $895/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+
+Bloomreach
+
+AI-powered commerce experience platform with search, personalization, and CDP
+
+Braze
+
+Customer engagement platform with AI-powered real-time messaging across channels
+
+ActiveCampaign
+
+AI-powered marketing automation and CRM for small to mid-size businesses
+
+Hootsuite
+
+Social media management platform with AI-powered scheduling and analytics
+
+Laudspeaker
+
+Open-source customer engagement and product onboarding platform, alternative to Braze
+
+[More Marketing Automation Tools →](/categories/marketing-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -185,7 +179,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/adobe-marketo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -288,7 +282,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/adobe-marketo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/adobe-marketo/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/adobe-marketo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/adobe-marketo/#breadcrumb"}, "dateModified": "2026-09-27"}
 ```
 
 ```json

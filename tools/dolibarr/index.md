@@ -1,70 +1,5 @@
 # Dolibarr ERP/CRM pricing
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 6/10 | The software is free to self-host under GPL-3+ with no user limits, but no vendor tier table exists: commercial cloud offerings are third parties listed at saas.dolibarr.org and addon prices live per product on Dolistore (the vendor pricing page: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
-| Feature depth | 7/10 | About 100 modules across CRM and ERP plus 1,000-plus Dolistore addons and country-specific tax logic give real breadth, while marketing features stop at mass emailing and an email collector (vendor documentation: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
-| Integrations | 7/10 | REST and SOAP APIs, webhooks, a Zapier module, PayPal, Stripe, Paybox and LDAP sit beside the Dolistore marketplace of 1,000-plus third-party addons (vendor documentation: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
-| AI capability | 6/10 | The AI module, stable since version 21.0, drafts, rewrites, translates, spell-checks and autofills extrafields via an external AI API key, while the 24.0 MCP server and AI assistant remain experimental (vendor documentation: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
-| Openness | 10/10 | GPL-3.0 or later, free to self-host with no user or record limits, and a documented upgrade path from any version after 2.8 (the source repository: [repository](https://github.com/Dolibarr/dolibarr), verified 2026-09-26). |
-| Operational maturity | 8/10 | Calendar-versioned releases through 24.0.0 (August 2026), wiki documentation and a 1,000-plus addon ecosystem built over a project lifetime measured in decades (vendor documentation: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ GPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ AI capabilities: AI content generation and rewriting in editors (stable since 21.0) |  |
-| ✓ Active public repository (7,678 GitHub stars counted at last check) |  |
-| ✓ Native integrations include REST API, SOAP API, Webhooks (9 listed) |  |
-
-**What is Dolibarr ERP/CRM?**
-Dolibarr ERP/CRM: Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app. Dolibarr ERP/CRM ships with AI content generation and rewriting in editors (stable since 21.0). The public repository carries 7,678 stars.
-
-**How much does Dolibarr ERP/CRM cost?**
-Dolibarr ERP/CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 7,678 stars; native integrations cover REST API, SOAP API, Webhooks. You pay in server time and maintenance, not licences.
-
-**Is Dolibarr ERP/CRM a good self-hosted CRM tool in 2026?**
-The pragmatic small-organization ERP/CRM: start tiny, enable modules as you grow, and accept dated conventions in exchange for an upgrade path measured in decades.
-
-**Does Dolibarr have an API?**
-Yes. The README lists REST and SOAP APIs among the platform's general features, and the core ships dedicated API and webhook modules alongside a Zapier connector. Everything the interface does is also reachable programmatically, which is how most third-party addons integrate.
-
-**Is Dolibarr really free?**
-The software is GPL-3+ and free to self-host with no user or record limits. Costs are your server and your administration time. If you would rather not operate it, saas.dolibarr.org lists commercial cloud providers, and paid extensions are sold on the Dolistore marketplace.
-
-**Does Dolibarr have AI features?**
-Yes, and they are modest by design. The AI module became stable in version 21.0 and drafts, rewrites, translates, and spell-checks text in editors, and autofills extrafields, using an external AI API key you supply. Version 24.0 added an experimental MCP server and AI assistant. It is assistance inside forms, not AI-driven analysis.
-
-- **Pricing:** Open Source
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 7678
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-06
-
-**Verdict:** Dolibarr ERP/CRM is a tool in CRM with free and open source. The catalog documents 4 AI features, 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-Krayin CRM
-
-Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
-
-Relaticle
-
-Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
-
-Twenty
-
-The open-source alternative to Salesforce, designed for AI with modern CRM workflows
-
-IDURAR ERP & CRM
-
-Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -77,7 +12,7 @@ Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one P
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Dolibarr ERP/CRM →](https://www.dolibarr.org)
 
@@ -88,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 44/60
 
 The pragmatic small-organization ERP/CRM: enable the modules you need, keep it for decades, and pay nothing for the core. Campaign automation is not the job here, and the interface and reporting show the project's age.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | The software is free to self-host under GPL-3+ with no user limits, but no vendor tier table exists: commercial cloud offerings are third parties listed at saas.dolibarr.org and addon prices live per product on Dolistore (the vendor pricing page: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
+| Feature depth | 7/10 | About 100 modules across CRM and ERP plus 1,000-plus Dolistore addons and country-specific tax logic give real breadth, while marketing features stop at mass emailing and an email collector (vendor documentation: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
+| Integrations | 7/10 | REST and SOAP APIs, webhooks, a Zapier module, PayPal, Stripe, Paybox and LDAP sit beside the Dolistore marketplace of 1,000-plus third-party addons (vendor documentation: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
+| AI capability | 6/10 | The AI module, stable since version 21.0, drafts, rewrites, translates, spell-checks and autofills extrafields via an external AI API key, while the 24.0 MCP server and AI assistant remain experimental (vendor documentation: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
+| Openness | 10/10 | GPL-3.0 or later, free to self-host with no user or record limits, and a documented upgrade path from any version after 2.8 (the source repository: [repository](https://github.com/Dolibarr/dolibarr), verified 2026-09-26). |
+| Operational maturity | 8/10 | Calendar-versioned releases through 24.0.0 (August 2026), wiki documentation and a 1,000-plus addon ecosystem built over a project lifetime measured in decades (vendor documentation: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
 
 Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -154,6 +99,14 @@ The pragmatic small-organization ERP/CRM: start tiny, enable modules as you grow
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ GPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: AI content generation and rewriting in editors (stable since 21.0) |  |
+| ✓ Active public repository (7,678 GitHub stars counted at last check) |  |
+| ✓ Native integrations include REST API, SOAP API, Webhooks (9 listed) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -168,16 +121,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Dolibarr ERP/CRM?**
 Dolibarr ERP/CRM: Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app. Dolibarr ERP/CRM ships with AI content generation and rewriting in editors (stable since 21.0). The public repository carries 7,678 stars.
 
+**How much does Dolibarr ERP/CRM cost?**
 Dolibarr ERP/CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 7,678 stars; native integrations cover REST API, SOAP API, Webhooks. You pay in server time and maintenance, not licences.
 
+**Is Dolibarr ERP/CRM a good self-hosted CRM tool in 2026?**
 The pragmatic small-organization ERP/CRM: start tiny, enable modules as you grow, and accept dated conventions in exchange for an upgrade path measured in decades.
 
+**Does Dolibarr have an API?**
 Yes. The README lists REST and SOAP APIs among the platform's general features, and the core ships dedicated API and webhook modules alongside a Zapier connector. Everything the interface does is also reachable programmatically, which is how most third-party addons integrate.
 
+**Is Dolibarr really free?**
 The software is GPL-3+ and free to self-host with no user or record limits. Costs are your server and your administration time. If you would rather not operate it, saas.dolibarr.org lists commercial cloud providers, and paid extensions are sold on the Dolistore marketplace.
 
+**Does Dolibarr have AI features?**
 Yes, and they are modest by design. The AI module became stable in version 21.0 and drafts, rewrites, translates, and spell-checks text in editors, and autofills extrafields, using an external AI API key you supply. Version 24.0 added an experimental MCP server and AI assistant. It is assistance inside forms, not AI-driven analysis.
 
 ## Similar Tools
@@ -189,11 +148,40 @@ Yes, and they are modest by design. The AI module became stable in version 21.0 
 - [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 7678
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-06
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Dolibarr ERP/CRM is a tool in CRM with free and open source. The catalog documents 4 AI features, 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
+Krayin CRM
+
+Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
+
+Relaticle
+
+Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
+
+Twenty
+
+The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+
+IDURAR ERP & CRM
+
+Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

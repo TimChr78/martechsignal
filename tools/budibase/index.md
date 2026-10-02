@@ -1,74 +1,5 @@
 # Budibase review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Self-host free with unlimited actions, apps, agents and users in one workspace; Cloud Pro $19/mo annual published above it (the vendor pricing page: [pricing page](https://budibase.com/pricing), verified 2026-09-07). |
-| Feature depth | 7/10 | Apps, automations and AI agents over your databases cover the internal operations platform job (vendor documentation: [vendor site](https://budibase.com), verified 2026-09-28). |
-| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Oracle to Snowflake, S3, Sheets and REST (vendor documentation: [vendor site](https://budibase.com), verified 2026-09-28). |
-| AI capability | 6/10 | AI agents with tools, memory and structured outputs, model-agnostic across seven providers (vendor documentation: [vendor site](https://budibase.com), verified 2026-09-28). |
-| Openness | 8/10 | GPLv3 core with a BSL pro folder kept separate (the source repository: [repository](https://github.com/budibase/budibase), verified 2026-09-28). |
-| Operational maturity | 6/10 | With priced cloud tiers and beta-quality agent features shipping fast (vendor documentation: [vendor site](https://budibase.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $19/mo once past the free tier |
-| ✓ AI capabilities: AI agents with tools, memory and structured outputs (beta since March 2026) |  |
-| ✓ Active public repository (28,328 GitHub stars counted at last check) |  |
-| ✓ Native integrations include PostgreSQL, MySQL, MongoDB (12 listed) |  |
-
-**What is Budibase?**
-Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,328 stars.
-
-**How much does Budibase cost?**
-Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
-
-**Is Budibase a good self-hosted Workflow Automation tool in 2026?**
-The most interesting agent story in the open-source internal-tools class, wrapped in a layered license. A strong pick if you want agents acting over your own data and can accept the operational fine print that comes with them.
-
-**Is Budibase free to self-host?**
-Yes. The open-source self-hosted tier has unlimited actions, apps, automations, agents and users in one workspace, and the repo's licensing guidelines put the core under GPLv3 with client and component libraries under MPL 2.0. The paid parts live in a packages/pro folder under a Business Source License that converts to GPLv3 four years after publication, and paid self-hosted tiers validate their license against Budibase's account portal over the network. Staying on the free tier means nothing phones home for licensing, though Budibase AI features do call external endpoints and knowledge features need a GEMINI_API_KEY.
-
-**Budibase vs NocoBase: which should marketing ops pick?**
-They solve adjacent problems. NocoBase is data-model-first: you define the schema, then assemble pages and server-side workflows around it, which suits systems that must match your organization's data model exactly. Budibase gets you a working CRUD app faster on top of an existing datasource and adds an agents layer, an LLM with tools, permissions and Slack or Teams escalation, that NocoBase does not offer in the same form. Choose NocoBase when the data model and approval logic are the product; choose Budibase when you want apps and agents quickly over Postgres, MySQL or REST, and can live with row triggers that only fire on rows written through Budibase.
-
-**Which AI models can Budibase agents use?**
-It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Google, Mistral, Groq and OpenRouter, plus a custom provider option that accepts any OpenAI-compatible base URL, which is how locally hosted models connect. Two requirements surprise people. Knowledge sources, meaning retrieval over your own documents, currently support pgvector as the only vector store and require a GEMINI_API_KEY in the environment. And the primary agent channels are Slack and Microsoft Teams, since in-app agent chat is deprecated and the Discord and Telegram channels were removed in v3.44.1.
-
-- **Pricing:** Free tier
-- **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 28328
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** Budibase is a tool in Workflow Automation with free and open source. The catalog documents 3 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-ToolJet
-
-Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
-
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-Appsmith
-
-Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
-
-Tray.io
-
-AI-powered integration platform for building custom automation and AI agents
-
-Pipedream
-
-Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
-
-[More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
@@ -81,7 +12,7 @@ Open-source operations platform for building AI agents, apps and automations on 
 
 Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Budibase →](https://budibase.com)
 
@@ -92,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 42/60
 
 Budibase is the open-source operations platform where AI agents, apps and automations meet your own data. The self-hosted free tier is unusually complete: unlimited everything in one workspace.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Self-host free with unlimited actions, apps, agents and users in one workspace; Cloud Pro $19/mo annual published above it (the vendor pricing page: [pricing page](https://budibase.com/pricing), verified 2026-09-07). |
+| Feature depth | 7/10 | Apps, automations and AI agents over your databases cover the internal operations platform job (vendor documentation: [vendor site](https://budibase.com), verified 2026-09-28). |
+| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Oracle to Snowflake, S3, Sheets and REST (vendor documentation: [vendor site](https://budibase.com), verified 2026-09-28). |
+| AI capability | 6/10 | AI agents with tools, memory and structured outputs, model-agnostic across seven providers (vendor documentation: [vendor site](https://budibase.com), verified 2026-09-28). |
+| Openness | 8/10 | GPLv3 core with a BSL pro folder kept separate (the source repository: [repository](https://github.com/budibase/budibase), verified 2026-09-28). |
+| Operational maturity | 6/10 | With priced cloud tiers and beta-quality agent features shipping fast (vendor documentation: [vendor site](https://budibase.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -164,6 +105,14 @@ The most interesting agent story in the open-source internal-tools class, wrappe
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $19/mo once past the free tier |
+| ✓ AI capabilities: AI agents with tools, memory and structured outputs (beta since March 2026) |  |
+| ✓ Active public repository (28,328 GitHub stars counted at last check) |  |
+| ✓ Native integrations include PostgreSQL, MySQL, MongoDB (12 listed) |  |
+
 ## Related concepts
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -178,16 +127,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Budibase?**
 Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,328 stars.
 
+**How much does Budibase cost?**
 Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
+**Is Budibase a good self-hosted Workflow Automation tool in 2026?**
 The most interesting agent story in the open-source internal-tools class, wrapped in a layered license. A strong pick if you want agents acting over your own data and can accept the operational fine print that comes with them.
 
+**Is Budibase free to self-host?**
 Yes. The open-source self-hosted tier has unlimited actions, apps, automations, agents and users in one workspace, and the repo's licensing guidelines put the core under GPLv3 with client and component libraries under MPL 2.0. The paid parts live in a packages/pro folder under a Business Source License that converts to GPLv3 four years after publication, and paid self-hosted tiers validate their license against Budibase's account portal over the network. Staying on the free tier means nothing phones home for licensing, though Budibase AI features do call external endpoints and knowledge features need a GEMINI_API_KEY.
 
+**Budibase vs NocoBase: which should marketing ops pick?**
 They solve adjacent problems. NocoBase is data-model-first: you define the schema, then assemble pages and server-side workflows around it, which suits systems that must match your organization's data model exactly. Budibase gets you a working CRUD app faster on top of an existing datasource and adds an agents layer, an LLM with tools, permissions and Slack or Teams escalation, that NocoBase does not offer in the same form. Choose NocoBase when the data model and approval logic are the product; choose Budibase when you want apps and agents quickly over Postgres, MySQL or REST, and can live with row triggers that only fire on rows written through Budibase.
 
+**Which AI models can Budibase agents use?**
 It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Google, Mistral, Groq and OpenRouter, plus a custom provider option that accepts any OpenAI-compatible base URL, which is how locally hosted models connect. Two requirements surprise people. Knowledge sources, meaning retrieval over your own documents, currently support pgvector as the only vector store and require a GEMINI_API_KEY in the environment. And the primary agent channels are Slack and Microsoft Teams, since in-app agent chat is deprecated and the Discord and Telegram channels were removed in v3.44.1.
 
 ## Similar Tools
@@ -199,6 +154,13 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ### Quick Facts
 
+- **Pricing:** Free tier
+- **Category:** [Workflow Automation](/categories/workflow-automation/)
+- **GitHub:** ★ 28328
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 Related guides: [Budibase in Zapier alternatives](/alternatives/zapier/)
 
 ## Get the next teardown
@@ -206,6 +168,32 @@ Related guides: [Budibase in Zapier alternatives](/alternatives/zapier/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Budibase is a tool in Workflow Automation with free and open source. The catalog documents 3 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+ToolJet
+
+Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Appsmith
+
+Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
+
+Tray.io
+
+AI-powered integration platform for building custom automation and AI agents
+
+Pipedream
+
+Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+
+[More Workflow Automation Tools →](/categories/workflow-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

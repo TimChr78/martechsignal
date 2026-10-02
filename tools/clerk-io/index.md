@@ -1,60 +1,5 @@
 # Clerk.io review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 6/10 | From $119/mo published (verified Sep 2026) with custom pricing beyond based on traffic and modules (the vendor pricing page: [pricing page](https://www.clerk.io/pricing), verified 2026-09-28). |
-| Feature depth | 6/10 | Search, recommendations, email personalization and segmentation cover the commerce personalization set (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
-| Integrations | 6/10 | Shopify, WooCommerce, Magento, Klaviyo, GA, Meta Ads and Mailchimp documented plus an API (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
-| AI capability | 5/10 | Predictive analytics and personalization run the store experience quietly (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2011 with published entry pricing and monthly-to-yearly contracts (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI product recommendations | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Shopify, WooCommerce, Magento (7 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is Clerk.io?**
-Clerk.io: AI-powered ecommerce personalization with search, recommendations, and email. Clerk.io ships with AI product recommendations. This page documents 7 integrations.
-
-**How much does Clerk.io cost?**
-Clerk.io starts at $119/mo. From $119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Clerk.io worth paying for in 2026?**
-Solid modular pick for mid-size stores with traffic to feed the models. Thin catalogs get little from it.
-
-- **Pricing:** From $119/mo
-- **Category:** [Personalization & CDP](/categories/personalization/)
-- **Founded:** 2011
-- **HQ:** Copenhagen, Denmark
-- **API:** Yes
-- **Last verified:** 2026-09-25
-
-**Verdict:** Clerk.io is a tool in Personalization & CDP with paid plans starting at $119/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-Nosto
-
-AI-powered ecommerce personalization with product recommendations and merchandising
-
-Tealium
-
-Enterprise customer data platform with real-time data orchestration and AI
-
-Bloomreach
-
-AI-powered commerce experience platform with search, personalization, and CDP
-
-Dynamic Yield
-
-AI-powered personalization platform for web, mobile, and email experiences
-
-[More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
@@ -65,7 +10,7 @@ AI-powered ecommerce personalization with search, recommendations, and email
 
 Personalization & CDP · From $119/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Clerk.io →](https://www.clerk.io)
 
@@ -76,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 32/60
 
 Clerk.io covers search, recommendations and email personalization at a published entry price most personalization vendors hide. The custom tiers above it scale with traffic.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | From $119/mo published (verified Sep 2026) with custom pricing beyond based on traffic and modules (the vendor pricing page: [pricing page](https://www.clerk.io/pricing), verified 2026-09-28). |
+| Feature depth | 6/10 | Search, recommendations, email personalization and segmentation cover the commerce personalization set (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
+| Integrations | 6/10 | Shopify, WooCommerce, Magento, Klaviyo, GA, Meta Ads and Mailchimp documented plus an API (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
+| AI capability | 5/10 | Predictive analytics and personalization run the store experience quietly (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2011 with published entry pricing and monthly-to-yearly contracts (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -123,6 +78,13 @@ Solid modular pick for mid-size stores with traffic to feed the models. Thin cat
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI product recommendations | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, WooCommerce, Magento (7 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [Personalization](/glossary/personalization/)
@@ -136,10 +98,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Clerk.io?**
 Clerk.io: AI-powered ecommerce personalization with search, recommendations, and email. Clerk.io ships with AI product recommendations. This page documents 7 integrations.
 
+**How much does Clerk.io cost?**
 Clerk.io starts at $119/mo. From $119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Clerk.io worth paying for in 2026?**
 Solid modular pick for mid-size stores with traffic to feed the models. Thin catalogs get little from it.
 
 ## Similar Tools
@@ -154,6 +119,13 @@ Solid modular pick for mid-size stores with traffic to feed the models. Thin cat
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Mid-size stores that want search and recs without enterprise procurement
 ### Quick Facts
 
+- **Pricing:** From $119/mo
+- **Category:** [Personalization & CDP](/categories/personalization/)
+- **Founded:** 2011
+- **HQ:** Copenhagen, Denmark
+- **API:** Yes
+- **Last verified:** 2026-09-25
+
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 
 ## Get the next teardown
@@ -161,6 +133,28 @@ Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Clerk.io is a tool in Personalization & CDP with paid plans starting at $119/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+Nosto
+
+AI-powered ecommerce personalization with product recommendations and merchandising
+
+Tealium
+
+Enterprise customer data platform with real-time data orchestration and AI
+
+Bloomreach
+
+AI-powered commerce experience platform with search, personalization, and CDP
+
+Dynamic Yield
+
+AI-powered personalization platform for web, mobile, and email experiences
+
+[More Personalization & CDP Tools →](/categories/personalization/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -179,7 +173,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/clerk-io/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-25",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -282,7 +276,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/clerk-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/clerk-io/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/clerk-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/clerk-io/#breadcrumb"}, "dateModified": "2026-09-25"}
 ```
 
 ```json

@@ -1,62 +1,5 @@
 # AlphOne review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 5/10 | Self-hosting is free as stated in the README, but there is no pricing page, no published commercial or support terms, and the project is early-stage (the vendor pricing page: [pricing page](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
-| Feature depth | 4/10 | Contacts, tasks, an importer, configurable fields and a WhatsApp Cloud API channel cover core CRM plus a little more, and the plugin catalogue is still young (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
-| Integrations | 4/10 | GraphQL and REST APIs plus webhooks, an MCP server, a community n8n node and a WhatsApp Cloud API plugin cover programmatic access, with no marketplace behind them (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
-| AI capability | 6/10 | AlphOne speaks MCP from version 0.9.0 so agent clients can query tasks, contacts and fields through a defined tool list and agent-created records are marked, but there are no built-in AI features (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
-| Openness | 7/10 | The backend is source-available under Elastic License 2.0 with an AGPLv3 frontend: free to self-host, not OSI open source, and forbidden as a hosted service offered to third parties (the source repository: [repository](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
-| Operational maturity | 3/10 | Founded in 2026 with an active commit log, which places it at young-project maturity with no company or support track record behind it (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Elastic License 2.0 licence with free self-hosting | ✗ Young project (190 GitHub stars) - smaller community and plugin ecosystem |
-| ✓ API access for custom integrations |  |
-| ✓ API access for custom integrations |  |
-
-**What is AlphOne?**
-AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 190 stars. AlphOne offers a public API for custom integrations.
-
-**How much does AlphOne cost?**
-AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 190 stars. Check the licence terms before commercial use.
-
-**Is AlphOne a good self-hosted CRM tool in 2026?**
-An API-first CRM built to be driven by n8n and AI agents rather than replace them. Early-stage, split-licensed, and best judged as a foundation for an automated stack.
-
-- **Pricing:** Open Source
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 190
-- **Founded:** 2026
-- **HQ:** Open source
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-06
-
-**Verdict:** AlphOne is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-DeskcommCRM
-
-Self-hosted open-source CRM with AI agents that sell through WhatsApp
-
-Django CRM
-
-Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
-
-React Email Editor
-
-Drag-n-Drop Email Editor Component for React.js
-
-Notifuse
-
-Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -69,7 +12,7 @@ Plugin-first CRM (source-available, Elastic 2.0) written in Go
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit AlphOne →](https://github.com/gopherium/AlphOne)
 
@@ -80,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 29/60
 
 An API-first CRM designed to be driven by n8n and AI agents, with MCP support that older CRMs lack. It is early: thin features, a small community and a split license that rules out resale, so judge it as a foundation rather than a finished product.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 5/10 | Self-hosting is free as stated in the README, but there is no pricing page, no published commercial or support terms, and the project is early-stage (the vendor pricing page: [pricing page](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
+| Feature depth | 4/10 | Contacts, tasks, an importer, configurable fields and a WhatsApp Cloud API channel cover core CRM plus a little more, and the plugin catalogue is still young (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
+| Integrations | 4/10 | GraphQL and REST APIs plus webhooks, an MCP server, a community n8n node and a WhatsApp Cloud API plugin cover programmatic access, with no marketplace behind them (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
+| AI capability | 6/10 | AlphOne speaks MCP from version 0.9.0 so agent clients can query tasks, contacts and fields through a defined tool list and agent-created records are marked, but there are no built-in AI features (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
+| Openness | 7/10 | The backend is source-available under Elastic License 2.0 with an AGPLv3 frontend: free to self-host, not OSI open source, and forbidden as a hosted service offered to third parties (the source repository: [repository](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
+| Operational maturity | 3/10 | Founded in 2026 with an active commit log, which places it at young-project maturity with no company or support track record behind it (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
 
 Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -125,6 +78,13 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Elastic License 2.0 licence with free self-hosting | ✗ Young project (190 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ API access for custom integrations |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -139,10 +99,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is AlphOne?**
 AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 190 stars. AlphOne offers a public API for custom integrations.
 
+**How much does AlphOne cost?**
 AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 190 stars. Check the licence terms before commercial use.
 
+**Is AlphOne a good self-hosted CRM tool in 2026?**
 An API-first CRM built to be driven by n8n and AI agents rather than replace them. Early-stage, split-licensed, and best judged as a foundation for an automated stack.
 
 ## Similar Tools
@@ -154,11 +117,42 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 - [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 190
+- **Founded:** 2026
+- **HQ:** Open source
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-06
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** AlphOne is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
+DeskcommCRM
+
+Self-hosted open-source CRM with AI agents that sell through WhatsApp
+
+Django CRM
+
+Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
+
+React Email Editor
+
+Drag-n-Drop Email Editor Component for React.js
+
+Notifuse
+
+Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

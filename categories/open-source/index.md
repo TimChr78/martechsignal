@@ -1,5 +1,196 @@
 # Open-Source Tools
 
+- [Home](/)
+- [Tools](/tools/)
+- Open-Source Tools
+## Open-Source Tools
+
+80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
+
+81 TOOLS IN THIS CATEGORY
+
+## All tools in this category**
+
+### Aaron Marketing Skills
+
+### Activepieces
+
+### advertools
+
+### AI Business Skills
+
+### AI Marketing Suite
+
+### AlphOne
+
+### ALwrity
+
+### Analytics Tracking Automation
+
+### Apache Unomi
+
+### Appsmith
+
+### BillionMail
+
+### Budibase
+
+### ChatbotX
+
+### Chatwoot
+
+### Claude Ads
+
+### Claude SEO
+
+### Cordys CRM
+
+### DeskcommCRM
+
+### Diffmode Growth Tactics
+
+### Digital Marketing Pro
+
+### Django CRM
+
+### Dolibarr ERP/CRM
+
+### Email Marketing Bible
+
+### EspoCRM
+
+### Eve Marketing Team Template
+
+### Ever Gauzy
+
+### Flagsmith
+
+### Frappe CRM
+
+### Ghost
+
+### Google Ads + Meta Ads + GA4 MCP
+
+### Growth Lab
+
+### GrowthBook
+
+### IDURAR ERP & CRM
+
+### Jitsu
+
+### Khoj
+
+### Krayin CRM
+
+### LangChain
+
+### LanguageTool
+
+### Laudspeaker
+
+### LibreTranslate
+
+### Line Harness
+
+### Listmonk
+
+### Macro
+
+### Maizzle
+
+### Marketing Studio
+
+### Matomo
+
+### Mautic
+
+### Monica
+
+### MultiPost
+
+### n8n
+
+### n8n Marketing Flows
+
+### NocoBase
+
+### NocoDB
+
+### Notifo
+
+### Notifuse
+
+### Open Mercato
+
+### OpenClaw Marketing Skills
+
+### OpenOutreach
+
+### OpenSEO
+
+### Paperclip
+
+### Plausible Analytics
+
+### PostHog
+
+### Potato
+
+### Promptfoo
+
+### ProspectOS
+
+### React Email Editor
+
+### Relaticle
+
+### Revive Adserver
+
+### RudderStack
+
+### SEO Skill Bench
+
+### Seonaut
+
+### Snowplow
+
+### Strapi
+
+### SuiteCRM
+
+### ToolJet
+
+### Twenty
+
+### Umami
+
+### WaCRM
+
+### Warmbly
+
+### Warpdrive
+
+### Zapier GTM Cheat Codes
+
+**Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) · [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) · [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) · [Matomo vs PostHog](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/) · [n8n alternatives](/alternatives/n8n/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best workflow automation tools (2026)](/best/workflow-automation-tools/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) · [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) · [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) · [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) · [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) · [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) · [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) · [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) · [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/)
+
+## Key terms
+
+- [Marketing ops](/glossary/marketing-ops/)
+- [Workflow automation](/glossary/workflow-automation/)
+Full definitions in the [martech glossary](/glossary/).
+
+This index lists every open-source tool in the catalog: 80 projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.
+
+Open source does not mean zero cost. The real price is hosting, upgrades, and whoever answers the pager: projects with active commit histories and commercial sponsors behind them age better than one-maintainer efforts, however generous the license. The per-tool pages carry star counts, license fields, and self-host notes so you can judge maintenance health before you commit a server.
+
+License mix matters if you sell the output: MIT and Apache-2.0 projects (45 of the 80 here) impose almost no conditions on commercial use, while the AGPL-3.0 projects (16) require you to release source changes if you run a modified version as a service. Each tool page names its license explicitly so there are no surprises at procurement time.
+
+Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langchain.com) · [Paperclip](https://paperclip.ing)
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 
 Open SourceDesk-reviewedOSS
@@ -326,197 +517,6 @@ Open SourceDesk-reviewedOSS
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
-- [Home](/)
-- [Tools](/tools/)
-- Open-Source Tools
-## Open-Source Tools
-
-80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
-
-81 TOOLS IN THIS CATEGORY
-
-## All tools in this category**
-
-### Aaron Marketing Skills
-
-### Activepieces
-
-### advertools
-
-### AI Business Skills
-
-### AI Marketing Suite
-
-### AlphOne
-
-### ALwrity
-
-### Analytics Tracking Automation
-
-### Apache Unomi
-
-### Appsmith
-
-### BillionMail
-
-### Budibase
-
-### ChatbotX
-
-### Chatwoot
-
-### Claude Ads
-
-### Claude SEO
-
-### Cordys CRM
-
-### DeskcommCRM
-
-### Diffmode Growth Tactics
-
-### Digital Marketing Pro
-
-### Django CRM
-
-### Dolibarr ERP/CRM
-
-### Email Marketing Bible
-
-### EspoCRM
-
-### Eve Marketing Team Template
-
-### Ever Gauzy
-
-### Flagsmith
-
-### Frappe CRM
-
-### Ghost
-
-### Google Ads + Meta Ads + GA4 MCP
-
-### Growth Lab
-
-### GrowthBook
-
-### IDURAR ERP & CRM
-
-### Jitsu
-
-### Khoj
-
-### Krayin CRM
-
-### LangChain
-
-### LanguageTool
-
-### Laudspeaker
-
-### LibreTranslate
-
-### Line Harness
-
-### Listmonk
-
-### Macro
-
-### Maizzle
-
-### Marketing Studio
-
-### Matomo
-
-### Mautic
-
-### Monica
-
-### MultiPost
-
-### n8n
-
-### n8n Marketing Flows
-
-### NocoBase
-
-### NocoDB
-
-### Notifo
-
-### Notifuse
-
-### Open Mercato
-
-### OpenClaw Marketing Skills
-
-### OpenOutreach
-
-### OpenSEO
-
-### Paperclip
-
-### Plausible Analytics
-
-### PostHog
-
-### Potato
-
-### Promptfoo
-
-### ProspectOS
-
-### React Email Editor
-
-### Relaticle
-
-### Revive Adserver
-
-### RudderStack
-
-### SEO Skill Bench
-
-### Seonaut
-
-### Snowplow
-
-### Strapi
-
-### SuiteCRM
-
-### ToolJet
-
-### Twenty
-
-### Umami
-
-### WaCRM
-
-### Warmbly
-
-### Warpdrive
-
-### Zapier GTM Cheat Codes
-
-**Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) · [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) · [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) · [Matomo vs PostHog](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/) · [n8n alternatives](/alternatives/n8n/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best workflow automation tools (2026)](/best/workflow-automation-tools/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) · [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) · [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) · [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) · [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) · [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) · [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) · [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) · [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/)
-
-## Key terms
-
-- [Marketing ops](/glossary/marketing-ops/)
-- [Workflow automation](/glossary/workflow-automation/)
-Full definitions in the [martech glossary](/glossary/).
-
-This index lists every open-source tool in the catalog: 80 projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.
-
-Open source does not mean zero cost. The real price is hosting, upgrades, and whoever answers the pager: projects with active commit histories and commercial sponsors behind them age better than one-maintainer efforts, however generous the license. The per-tool pages carry star counts, license fields, and self-host notes so you can judge maintenance health before you commit a server.
-
-License mix matters if you sell the output: MIT and Apache-2.0 projects (45 of the 80 here) impose almost no conditions on commercial use, while the AGPL-3.0 projects (16) require you to release source changes if you run a modified version as a service. Each tool page names its license explicitly so there are no surprises at procurement time.
-
-Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langchain.com) · [Paperclip](https://paperclip.ing)
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 
 ```json
 {
@@ -556,7 +556,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 81,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-10-01",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -1537,7 +1537,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/open-source/", "breadcrumb": {"@id": "https://martechsignal.com/categories/open-source/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/open-source/", "breadcrumb": {"@id": "https://martechsignal.com/categories/open-source/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

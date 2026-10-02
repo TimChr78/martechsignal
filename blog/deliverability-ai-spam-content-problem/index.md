@@ -1,17 +1,5 @@
 # Deliverability in the AI-Spam Era Is a Content Problem
 
-
-|  | 2024 playbook | 2026 reality |
-| --- | --- | --- |
-| **Authentication** (SPF/DKIM/DMARC) | The hard requirement | The entry fee; everyone passes it |
-| **Spam complaint rate** | A metric to watch | The binding constraint (<0.1% target, 0.3% hard ceiling) |
-| **Sending volume** | More sends, more reach | Volume without engagement gets throttled or filtered |
-| **Copy** | Generic templates, once per list | Has to earn a click past an AI summary and a "report spam" button |
-| **Engagement** | Open rates | Clicks and genuine read behavior, since opens are inflated by AI auto-open |
-| **List quality** | Buy lists, append data | Consented, engaged list or the algorithm punishes you |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 EMAIL · DELIVERABILITY · 9 MIN
 
 ## Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem
@@ -20,7 +8,7 @@ EMAIL · DELIVERABILITY · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem
 
-AUG 21, 2026 · Updated 2026-10-02
+AUG 21, 2026
 
 Filed under [Email Marketing](/categories/email-marketing/)
 
@@ -57,6 +45,16 @@ The inbox is no different from the feed. An email that reads like a template wri
 ## What this means for marketing operations
 
 The shift is not that deliverability stopped being technical. It is that the technical work is now necessary but no longer sufficient, and the decisive variable has moved to content and list strategy. Your IT team can make you deliverable. They cannot make you read.
+
+
+|  | 2024 playbook | 2026 reality |
+| --- | --- | --- |
+| **Authentication** (SPF/DKIM/DMARC) | The hard requirement | The entry fee; everyone passes it |
+| **Spam complaint rate** | A metric to watch | The binding constraint (<0.1% target, 0.3% hard ceiling) |
+| **Sending volume** | More sends, more reach | Volume without engagement gets throttled or filtered |
+| **Copy** | Generic templates, once per list | Has to earn a click past an AI summary and a "report spam" button |
+| **Engagement** | Open rates | Clicks and genuine read behavior, since opens are inflated by AI auto-open |
+| **List quality** | Buy lists, append data | Consented, engaged list or the algorithm punishes you |
 
 The proof that content now gates deliverability is in the enforcement itself. Google gave political campaigns a verified-sender lane around its normal spam filtering, but even that program keeps the 0.3% spam rate as the condition for staying in it, and a violation over a 14-day window gets you removed ([MarTech's coverage](https://martech.org/google-gives-political-email-a-lane-around-spam-filters)). Verification gets a sender through the door. Recipient feedback keeps them there. That is the whole thesis in one program.
 
@@ -108,6 +106,8 @@ More from the directory: [IFTTT](/tools/ifttt/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -139,7 +139,7 @@ More from the directory: [IFTTT](/tools/ifttt/)
     }
   },
   "datePublished": "2026-08-21",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-21",
   "mainEntityOfPage": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/",
   "image": {
     "@type": "ImageObject",
@@ -185,7 +185,7 @@ More from the directory: [IFTTT](/tools/ifttt/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/", "breadcrumb": {"@id": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/", "breadcrumb": {"@id": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/#breadcrumb"}, "dateModified": "2026-08-21"}
 ```
 
 ```json

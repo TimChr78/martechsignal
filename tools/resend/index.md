@@ -1,72 +1,5 @@
 # Resend review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free 3,000 emails/mo (100/day, 3 domains), Transactional Pro $20/mo (50K), Scale $90 to $1,150/mo published tiers (the vendor pricing page: [pricing page](https://resend.com/pricing), verified 2026-09-28). |
-| Feature depth | 6/10 | Transactional and marketing email with batch sending and contact imports cover the developer email stack (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
-| Integrations | 6/10 | Next.js, Vercel, React Email, Zapier, an official Cursor plugin and Vercel Marketplace documented (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
-| AI capability | 6/10 | AI Email Editor with brand-voice drafting, template assistant and column mapping plus a hosted MCP server (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
-| Openness | 6/10 | MIT SDKs behind a closed sending service (the source repository: [repository](https://github.com/resend/react-email), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2023 with fast developer adoption and published tier ceilings (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI Email Editor with brand-voice drafting | ✗ Paid plans start at $20/mo once past the free tier |
-| ✓ Active public repository (19,799 GitHub stars counted at last check) | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Next.js, Vercel, React Email (6 listed) |  |
-| ✓ Free tier to evaluate before committing (Free 3,000 emails/mo (100/day cap, 3 domains); Transactional Pro $20/mo for 50,000) |  |
-
-**What is Resend?**
-Resend: Developer-first email API built around React Email, batch sending, and agent tooling. Resend ships with AI Email Editor with brand-voice drafting. The public repository carries 19,799 stars.
-
-**How much does Resend cost?**
-Resend has a free tier; paid plans start at $20/mo. Free 3,000 emails/mo (100/day cap, 3 domains); Transactional Pro $20/mo for 50,000; Scale $90-$1,150/mo published tiers; Enterprise custom; Marketing priced by contacts from $40/mo for 5,000; no annual discounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
-
-**Is Resend worth it past the free tier?**
-The most developer-native platform in email, with an honest free tier, real agent tooling, and a published limit sheet; check the transactional versus marketing split before committing either budget.
-
-**What are Resend's rate limits and batch limits?**
-The API allows 10 requests per second per team with no burst allowance; exceeding it returns 429, and Resend says it can raise the limit for trusted senders on request. Batch sending accepts up to 100 emails in a single call, and each batch counts as one request against the rate limit, but attachments are not supported on the batch endpoint. Per-email attachments cap at 40MB after base64 encoding, and a hard limit of 5x your monthly quota applies to sending.
-
-**Is Resend free, and what does the free tier include?**
-The transactional free plan includes 3,000 emails a month with a 100-per-day cap, 3 verified domains, 5 AI credits, and 10,000 automation runs a month. Pro is $20 a month for 50,000 emails, Scale publishes tiers from $90 for 100,000 to $1,150 for 2.5 million, and Enterprise is custom, with a 99.99% uptime SLA. Marketing email is a separate, contact-based subscription starting at $40 a month for 5,000 contacts. There are no annual discounts; the pricing FAQ answers that question with a plain no.
-
-**Does Resend work with AI agents and coding tools?**
-Yes, and it is one of the better-documented cases in email. Resend hosts an MCP server at mcp.resend.com/mcp with OAuth, ships an official Claude plugin (claude plugin install resend@claude-plugins-official), and documents a Resend skill and a React Email skill alongside a CLI. Clients listed in the docs include Claude Code, Claude, Cursor, Codex, Copilot, Windsurf, and Warp. The changelog shows steady investment: an official MCP server in April 2026, a remote MCP server in July, and an official Cursor plugin in August.
-
-- **Pricing:** Freemium
-- **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 19799
-- **Founded:** 2023
-- **HQ:** San Francisco, CA, USA
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** Resend is a tool in Email Marketing with a free tier. The catalog documents 4 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-React Email Editor
-
-Drag-n-Drop Email Editor Component for React.js
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
-
-Postmark
-
-Transactional email API with separated message streams, an MCP server, and published delivery numbers
-
-Loops
-
-Email marketing for SaaS: marketing, product, and transactional email in one tool
-
-[More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
@@ -79,7 +12,7 @@ Developer-first email API built around React Email, batch sending, and agent too
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Resend →](https://resend.com)
 
@@ -90,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 38/60
 
 Resend is developer email built around React Email, with a hosted MCP server and an official Cursor plugin. 19,799 stars on the MIT SDKs, and marketing prices published alongside transactional.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free 3,000 emails/mo (100/day, 3 domains), Transactional Pro $20/mo (50K), Scale $90 to $1,150/mo published tiers (the vendor pricing page: [pricing page](https://resend.com/pricing), verified 2026-09-28). |
+| Feature depth | 6/10 | Transactional and marketing email with batch sending and contact imports cover the developer email stack (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
+| Integrations | 6/10 | Next.js, Vercel, React Email, Zapier, an official Cursor plugin and Vercel Marketplace documented (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
+| AI capability | 6/10 | AI Email Editor with brand-voice drafting, template assistant and column mapping plus a hosted MCP server (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
+| Openness | 6/10 | MIT SDKs behind a closed sending service (the source repository: [repository](https://github.com/resend/react-email), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2023 with fast developer adoption and published tier ceilings (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -156,6 +99,14 @@ The most developer-native platform in email, with an honest free tier, real agen
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI Email Editor with brand-voice drafting | ✗ Paid plans start at $20/mo once past the free tier |
+| ✓ Active public repository (19,799 GitHub stars counted at last check) | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Next.js, Vercel, React Email (6 listed) |  |
+| ✓ Free tier to evaluate before committing (Free 3,000 emails/mo (100/day cap, 3 domains); Transactional Pro $20/mo for 50,000) |  |
+
 ## Related concepts
 
 - [Email sequence](/glossary/email-sequence/)
@@ -168,16 +119,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Resend?**
 Resend: Developer-first email API built around React Email, batch sending, and agent tooling. Resend ships with AI Email Editor with brand-voice drafting. The public repository carries 19,799 stars.
 
+**How much does Resend cost?**
 Resend has a free tier; paid plans start at $20/mo. Free 3,000 emails/mo (100/day cap, 3 domains); Transactional Pro $20/mo for 50,000; Scale $90-$1,150/mo published tiers; Enterprise custom; Marketing priced by contacts from $40/mo for 5,000; no annual discounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
+**Is Resend worth it past the free tier?**
 The most developer-native platform in email, with an honest free tier, real agent tooling, and a published limit sheet; check the transactional versus marketing split before committing either budget.
 
+**What are Resend's rate limits and batch limits?**
 The API allows 10 requests per second per team with no burst allowance; exceeding it returns 429, and Resend says it can raise the limit for trusted senders on request. Batch sending accepts up to 100 emails in a single call, and each batch counts as one request against the rate limit, but attachments are not supported on the batch endpoint. Per-email attachments cap at 40MB after base64 encoding, and a hard limit of 5x your monthly quota applies to sending.
 
+**Is Resend free, and what does the free tier include?**
 The transactional free plan includes 3,000 emails a month with a 100-per-day cap, 3 verified domains, 5 AI credits, and 10,000 automation runs a month. Pro is $20 a month for 50,000 emails, Scale publishes tiers from $90 for 100,000 to $1,150 for 2.5 million, and Enterprise is custom, with a 99.99% uptime SLA. Marketing email is a separate, contact-based subscription starting at $40 a month for 5,000 contacts. There are no annual discounts; the pricing FAQ answers that question with a plain no.
 
+**Does Resend work with AI agents and coding tools?**
 Yes, and it is one of the better-documented cases in email. Resend hosts an MCP server at mcp.resend.com/mcp with OAuth, ships an official Claude plugin (claude plugin install resend@claude-plugins-official), and documents a Resend skill and a React Email skill alongside a CLI. Clients listed in the docs include Claude Code, Claude, Cursor, Codex, Copilot, Windsurf, and Warp. The changelog shows steady investment: an official MCP server in April 2026, a remote MCP server in July, and an official Cursor plugin in August.
 
 ## Similar Tools
@@ -189,11 +146,42 @@ Yes, and it is one of the better-documented cases in email. Resend hosts an MCP 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Email Marketing](/categories/email-marketing/)
+- **GitHub:** ★ 19799
+- **Founded:** 2023
+- **HQ:** San Francisco, CA, USA
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Resend is a tool in Email Marketing with a free tier. The catalog documents 4 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+React Email Editor
+
+Drag-n-Drop Email Editor Component for React.js
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+Postmark
+
+Transactional email API with separated message streams, an MCP server, and published delivery numbers
+
+Loops
+
+Email marketing for SaaS: marketing, product, and transactional email in one tool
+
+[More Email Marketing Tools →](/categories/email-marketing/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

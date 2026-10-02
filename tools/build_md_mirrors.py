@@ -35,45 +35,64 @@ def html_to_md(html: str) -> str:
         return _html.unescape(re.sub(r"\s+", " ", x).strip())
 
     out = [f"# {title}", ""]
+    # r20 M-3 (2026-10-02): single position-sorted pass in document order.
+    # The old per-category passes hoisted <dl> bullets above the headings
+    # that precede them (empty "## Who should pick which" on all vs mirrors).
+    # Events fully contained in a larger emitted span are skipped (kills the
+    # old table-cell <p> doubles too).
+    _events = []
     for tm in re.finditer(r"<table[^>]*>(.*?)</table>", src, flags=re.S):
-        rows = re.findall(r"<tr[^>]*>(.*?)</tr>", tm.group(1), flags=re.S)
-        grid = [[inline(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", r, flags=re.S)] for r in rows]
-        grid = [g for g in grid if g]
-        if len(grid) >= 2:
-            w = max(len(g) for g in grid)
-            grid = [g + [""] * (w - len(g)) for g in grid]
-            tbl = ["| " + " | ".join(grid[0]) + " |",
-                   "| " + " | ".join("---" for _ in range(w)) + " |"]
-            tbl += ["| " + " | ".join(g) + " |" for g in grid[1:]]
-            out += ["", *tbl, ""]
+        _events.append((tm.start(), tm.end(), "table", tm))
     for dm in re.finditer(r"<details[^>]*>\s*<summary[^>]*>(.*?)</summary>(.*?)</details>", src, flags=re.S):
-        out += [f"**{inline(dm.group(1))}**", inline(dm.group(2)), ""]
+        _events.append((dm.start(), dm.end(), "details", dm))
     for dlm in re.finditer(r"<dl[^>]*>(.*?)</dl>", src, flags=re.S):
-        for dt in re.finditer(r"<dt[^>]*>(.*?)</dt>\s*<dd[^>]*>(.*?)</dd>", dlm.group(1), flags=re.S):
-            out += [f"- **{inline(dt.group(1))}:** {inline(dt.group(2))}"]
-        out += [""]
+        _events.append((dlm.start(), dlm.end(), "dl", dlm))
+    for m2 in re.finditer(r"<(h1|h2|h3|h4|p|li|blockquote|figcaption)[^>]*>(.*?)</\1>", src, flags=re.S):
+        _events.append((m2.start(), m2.end(), "flow", m2))
+    _events.sort(key=lambda e: (e[0], -(e[1] - e[0])))
+    _covered_until = -1
+    for _start, _end, _kind, _m in _events:
+        if _start < _covered_until:
+            continue
+        if _kind == "table":
+            rows = re.findall(r"<tr[^>]*>(.*?)</tr>", _m.group(1), flags=re.S)
+            grid = [[inline(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", r, flags=re.S)] for r in rows]
+            grid = [g for g in grid if g]
+            if len(grid) >= 2:
+                w = max(len(g) for g in grid)
+                grid = [g + [""] * (w - len(g)) for g in grid]
+                tbl = ["| " + " | ".join(grid[0]) + " |",
+                       "| " + " | ".join("---" for _ in range(w)) + " |"]
+                tbl += ["| " + " | ".join(g) + " |" for g in grid[1:]]
+                out += ["", *tbl, ""]
+                _covered_until = _end
+        elif _kind == "details":
+            out += [f"**{inline(_m.group(1))}**", inline(_m.group(2)), ""]
+            _covered_until = _end
+        elif _kind == "dl":
+            for dt in re.finditer(r"<dt[^>]*>(.*?)</dt>\s*<dd[^>]*>(.*?)</dd>", _m.group(1), flags=re.S):
+                out += [f"- **{inline(dt.group(1))}:** {inline(dt.group(2))}"]
+            out += [""]
+            _covered_until = _end
+        else:
+            tag, inner = _m.group(1), _m.group(2)
+            text = inline(inner)
+            if not text:
+                continue
+            if tag in ("h2", "h1"):
+                out += ["## " + text, ""]
+            elif tag in ("h3", "h4"):
+                out += ["### " + text, ""]
+            elif tag == "li":
+                out += ["- " + text]
+            elif tag == "blockquote":
+                out += ["> " + text, ""]
+            else:
+                out += [text, ""]
     for lv in re.finditer(r"<(div|section|header|footer|aside)[^>]*>((?:(?!<)[^<]|<(?:/?(?:strong|b|em|i|code|span|br|a|sup|sub|svg|path)\b[^>]*>))*?)</\1>", src, flags=re.S):
         t2 = inline(lv.group(2))
         if t2:
             out += [t2, ""]
-
-    for m2 in re.finditer(r"<(h1|h2|h3|h4|p|li|blockquote|figcaption)[^>]*>(.*?)</\1>", src, flags=re.S):
-        tag, inner = m2.group(1), m2.group(2)
-        text = inline(inner)
-        if not text:
-            continue
-        if tag == "h2":
-            out += ["## " + text, ""]
-        elif tag == "h1":
-            out += ["## " + text, ""]
-        elif tag in ("h3", "h4"):
-            out += ["### " + text, ""]
-        elif tag == "li":
-            out += ["- " + text]
-        elif tag == "blockquote":
-            out += ["> " + text, ""]
-        else:
-            out += [text, ""]
     for jl in re.finditer(r'<script type="application/ld[+]json">(.*?)</script>', html, flags=re.S):
         out += ["", "```json", jl.group(1).strip(), "```"]
     return "\n".join(out).strip() + "\n"

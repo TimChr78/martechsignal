@@ -1,7 +1,5 @@
 # AI visibility advice, audited against 775 logged citations
 
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 AI SEARCH · SEO · 7 MIN
 
 ## AI visibility advice, audited against 775 logged citations
@@ -10,7 +8,7 @@ AI SEARCH · SEO · 7 MIN
 
 [Home](/) · [Blog](/blog/) · AI visibility advice, audited against 775 logged citations
 
-SEP 22, 2026 · Updated 2026-10-02
+SEP 22, 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -96,6 +94,8 @@ More from the directory: [Khoj](/tools/khoj/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -127,7 +127,7 @@ More from the directory: [Khoj](/tools/khoj/)
     }
   },
   "datePublished": "2026-09-22",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-22",
   "mainEntityOfPage": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/",
   "image": {
     "@type": "ImageObject",
@@ -173,7 +173,7 @@ More from the directory: [Khoj](/tools/khoj/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/", "breadcrumb": {"@id": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/", "breadcrumb": {"@id": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/#breadcrumb"}, "dateModified": "2026-09-22"}
 ```
 
 ```json

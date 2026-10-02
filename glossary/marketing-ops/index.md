@@ -1,30 +1,10 @@
 # Marketing Operations (MarketingOps)
 
-HubSpot CRM
-
-Free AI-powered CRM platform with sales, service, and marketing tools unified
-
-ActiveCampaign
-
-AI-powered marketing automation and CRM for small to mid-size businesses
-
-Twilio Segment
-
-Customer data platform for collecting, unifying, and activating customer data
-
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Marketing Operations (MarketingOps)
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-08-23
 
 ## Definition
 
@@ -73,6 +53,26 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [ActiveCampaign]
 - [Marketing automation](/glossary/marketing-automation/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+ActiveCampaign
+
+AI-powered marketing automation and CRM for small to mid-size businesses
+
+Twilio Segment
+
+Customer data platform for collecting, unifying, and activating customer data
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -83,7 +83,7 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [ActiveCampaign]
         "@type": "DefinedTerm",
         "name": "Marketing Operations (MarketingOps)",
         "description": "Marketing operations is the function that manages the technology, processes, and data behind marketing execution. Marketing ops owns the CRM configuration, the automation workflows, the reporting dashboards, the data hygiene, and the tech stack evaluation. They're the people who make sure the campaign actually sends.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-08-23",
         "datePublished": "2026-08-23",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -141,7 +141,7 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [ActiveCampaign]
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-ops/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/marketing-ops/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-ops/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/marketing-ops/#breadcrumb"}, "dateModified": "2026-08-23"}
 ```
 
 ```json

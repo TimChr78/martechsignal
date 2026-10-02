@@ -1,13 +1,5 @@
 # Before your next automation, run the blast radius audit
 
-
-|  | Undoable | Not undoable |
-| --- | --- | --- |
-| **Customers see it** | Fires, then tells someone | Never fires silently |
-| **Customers don't see it** | Fires freely | Fires, but has to shout |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 MARKETING AUTOMATION · HOW-TO · 8 MIN
 
 ## Before your next automation, run the blast radius audit
@@ -16,7 +8,7 @@ MARKETING AUTOMATION · HOW-TO · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Before your next automation, run the blast radius audit
 
-SEP 08, 2026 · Updated 2026-10-02
+SEP 08, 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Workflow Automation](/categories/workflow-automation/)
 
@@ -37,6 +29,12 @@ Two questions measure the cost of a misfire:
 1. If this automation does the wrong thing, can you undo it? 2. Will a customer, prospect, or the public see it happen?
 
 Cross them and every automation in your stack lands in one of four quadrants.
+
+
+|  | Undoable | Not undoable |
+| --- | --- | --- |
+| **Customers see it** | Fires, then tells someone | Never fires silently |
+| **Customers don't see it** | Fires freely | Fires, but has to shout |
 
 The top-right quadrant is the one the Reddit threads keep naming without naming. A public send, a claim swapped into live copy, an opted-out contact re-enrolled by a sync: none of these can be unsent, and all of them are visible outside the building. Anything that lands there gets a human gate before it runs, or it does not run at all.
 
@@ -105,6 +103,8 @@ More from the directory: [BillionMail](/tools/billionmail/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -136,7 +136,7 @@ More from the directory: [BillionMail](/tools/billionmail/)
     }
   },
   "datePublished": "2026-09-08",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-08",
   "mainEntityOfPage": "https://martechsignal.com/blog/automation-blast-radius-audit/",
   "image": {
     "@type": "ImageObject",
@@ -182,7 +182,7 @@ More from the directory: [BillionMail](/tools/billionmail/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/automation-blast-radius-audit/", "breadcrumb": {"@id": "https://martechsignal.com/blog/automation-blast-radius-audit/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/automation-blast-radius-audit/", "breadcrumb": {"@id": "https://martechsignal.com/blog/automation-blast-radius-audit/#breadcrumb"}, "dateModified": "2026-09-08"}
 ```
 
 ```json

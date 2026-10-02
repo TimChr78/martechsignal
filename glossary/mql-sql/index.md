@@ -1,26 +1,10 @@
 # MQL / SQL
 
-HubSpot CRM
-
-Free AI-powered CRM platform with sales, service, and marketing tools unified
-
-Salesforce CRM
-
-Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
-
-ActiveCampaign
-
-AI-powered marketing automation and CRM for small to mid-size businesses
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-28
 
 ## Definition
 
@@ -73,6 +57,22 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
 - [Lead scoring](/glossary/lead-scoring/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+Salesforce CRM
+
+Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+
+ActiveCampaign
+
+AI-powered marketing automation and CRM for small to mid-size businesses
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -83,7 +83,7 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
         "@type": "DefinedTerm",
         "name": "MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)",
         "description": "An MQL is a lead that marketing deems ready for sales based on engagement signals: they downloaded three whitepapers, attended a webinar, and visited the pricing page. An SQL is a lead that sales has accepted and is actively working. The gap between the two is where most marketing-sales friction lives.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -141,7 +141,7 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/mql-sql/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/mql-sql/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/mql-sql/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/mql-sql/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

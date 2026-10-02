@@ -1,65 +1,5 @@
 # Growth Lab review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free under Apache 2.0 with Claude Code or Codex costs as the stated run expense (the vendor pricing page: [vendor site](https://growthlab.tsingyuai.com), verified 2026-08-28). |
-| Feature depth | 5/10 | SEO page growth and Xiaohongshu loops cover two growth motions end to end (vendor documentation: [vendor site](https://growthlab.tsingyuai.com), verified 2026-09-28). |
-| Integrations | 4/10 | Claude Code, Codex, IndexNow and Bing Webmaster Tools documented (vendor documentation: [vendor site](https://growthlab.tsingyuai.com), verified 2026-09-28). |
-| AI capability | 5/10 | Scenario research and SERP analysis feeding page creation run as agent loops (vendor documentation: [vendor site](https://growthlab.tsingyuai.com), verified 2026-09-28). |
-| Openness | 9/10 | Apache-2.0 with a self-hosted workspace (the source repository: [repository](https://github.com/tsingyuai/growth-lab), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2026 with no API of its own (vendor documentation: [vendor site](https://growthlab.tsingyuai.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ AI capabilities: SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing |  |
-| ✓ Active public repository (1,991 GitHub stars counted at last check) |  |
-
-**What is Growth Lab?**
-Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,991 stars.
-
-**How much does Growth Lab cost?**
-Growth Lab is open source - Apache-2.0 licensed and free to self-host; the public repository carries 1,991 stars; native integrations cover Claude Code, OpenAI Codex, IndexNow. You pay in server time and maintenance, not licences.
-
-**Is Growth Lab a good self-hosted Agent Skills tool in 2026?**
-Promising for teams ready to run self-hosted SEO loops with agent review. Everyone else should wait for maturity.
-
-- **Pricing:** Open Source
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 1991
-- **Founded:** 2026
-- **API:** No
-- **Repository checked:** 2026-10-01
-- **Page updated:** 2026-08-28
-
-**Verdict:** Growth Lab is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Codex SEO
-
-Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-
-SEO Skill Bench
-
-Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
-
-Claude SEO
-
-Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
-
-AI Business Skills
-
-63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-
-Aaron Marketing Skills
-
-120 marketing skills across 7 disciplines for Claude Code with auditor gates
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -72,7 +12,7 @@ Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and 
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Growth Lab →](https://growthlab.tsingyuai.com)
 
@@ -83,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 1,991 stars; the harness cost is on you.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free under Apache 2.0 with Claude Code or Codex costs as the stated run expense (the vendor pricing page: [vendor site](https://growthlab.tsingyuai.com), verified 2026-08-28). |
+| Feature depth | 5/10 | SEO page growth and Xiaohongshu loops cover two growth motions end to end (vendor documentation: [vendor site](https://growthlab.tsingyuai.com), verified 2026-09-28). |
+| Integrations | 4/10 | Claude Code, Codex, IndexNow and Bing Webmaster Tools documented (vendor documentation: [vendor site](https://growthlab.tsingyuai.com), verified 2026-09-28). |
+| AI capability | 5/10 | Scenario research and SERP analysis feeding page creation run as agent loops (vendor documentation: [vendor site](https://growthlab.tsingyuai.com), verified 2026-09-28). |
+| Openness | 9/10 | Apache-2.0 with a self-hosted workspace (the source repository: [repository](https://github.com/tsingyuai/growth-lab), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026 with no API of its own (vendor documentation: [vendor site](https://growthlab.tsingyuai.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -125,6 +75,13 @@ Promising for teams ready to run self-hosted SEO loops with agent review. Everyo
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing |  |
+| ✓ Active public repository (1,991 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -138,10 +95,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Growth Lab?**
 Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,991 stars.
 
+**How much does Growth Lab cost?**
 Growth Lab is open source - Apache-2.0 licensed and free to self-host; the public repository carries 1,991 stars; native integrations cover Claude Code, OpenAI Codex, IndexNow. You pay in server time and maintenance, not licences.
 
+**Is Growth Lab a good self-hosted Agent Skills tool in 2026?**
 Promising for teams ready to run self-hosted SEO loops with agent review. Everyone else should wait for maturity.
 
 ## Similar Tools
@@ -153,11 +113,45 @@ Promising for teams ready to run self-hosted SEO loops with agent review. Everyo
 - [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **GitHub:** ★ 1991
+- **Founded:** 2026
+- **API:** No
+- **Repository checked:** 2026-10-01
+- **Page updated:** 2026-08-28
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Growth Lab is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Codex SEO
+
+Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+
+SEO Skill Bench
+
+Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+
+Claude SEO
+
+Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
+
+AI Business Skills
+
+63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+Aaron Marketing Skills
+
+120 marketing skills across 7 disciplines for Claude Code with auditor gates
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -176,7 +170,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/growth-lab/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-03",
     "offers": {
       "@type": "Offer",
@@ -279,7 +273,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/growth-lab/", "breadcrumb": {"@id": "https://martechsignal.com/tools/growth-lab/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/growth-lab/", "breadcrumb": {"@id": "https://martechsignal.com/tools/growth-lab/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

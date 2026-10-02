@@ -1,16 +1,5 @@
 # Your Martech Budget Is Bleeding and Nobody's Me
 
-
-| Cost | What you see | What you actually pay |
-| --- | --- | --- |
-| License | Sticker price, per seat or tier | Sticker price plus the seats nobody uses (expect roughly half) |
-| Setup | "Self-serve onboarding" | Weeks of ops time configuring fields, segments, and templates |
-| Integrations | "Native CRM sync" | Sync maintenance every time either side changes a schema |
-| AI add-on | Included or a small uplift | Editing time on output (88% of it needs moderate to heavy edits) |
-| Measurement | Vendor dashboard | Clicks reported as wins because revenue was never wired up |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 MARTECH · MEASUREMENT · 8 MIN
 
 ## Your Martech Budget Is Bleeding and Nobody's Measuring It
@@ -19,7 +8,7 @@ MARTECH · MEASUREMENT · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Your Martech Budget Is Bleeding and Nobody's Measuring It
 
-AUG 06, 2026 · Updated 2026-10-02
+AUG 06, 2026
 
 Filed under [Analytics & Attribution](/categories/analytics/)
 
@@ -87,6 +76,15 @@ The food pantry thread nailed the psychology of step one. The commenter who does
 
 The visible part of a martech line item is the invoice. The rest is what the invoice never shows:
 
+
+| Cost | What you see | What you actually pay |
+| --- | --- | --- |
+| License | Sticker price, per seat or tier | Sticker price plus the seats nobody uses (expect roughly half) |
+| Setup | "Self-serve onboarding" | Weeks of ops time configuring fields, segments, and templates |
+| Integrations | "Native CRM sync" | Sync maintenance every time either side changes a schema |
+| AI add-on | Included or a small uplift | Editing time on output (88% of it needs moderate to heavy edits) |
+| Measurement | Vendor dashboard | Clicks reported as wins because revenue was never wired up |
+
 Those are directional numbers for a mid-market stack, not a quote, but the structure holds: the invoice is usually the smallest real cost of any tool you buy, and the only one anyone budgets for.
 
 **❌ The losing move: buying an AI tool to fix a measurement gap.** New tools add new dashboards, and new dashboards add new clicks to call success. If you couldn't measure the last five tools, the sixth one inherits the same blind spot with a better demo.
@@ -127,6 +125,8 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -158,7 +158,7 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
     }
   },
   "datePublished": "2026-08-06",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-06",
   "mainEntityOfPage": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/",
   "image": {
     "@type": "ImageObject",
@@ -204,7 +204,7 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/", "breadcrumb": {"@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/", "breadcrumb": {"@id": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/#breadcrumb"}, "dateModified": "2026-08-06"}
 ```
 
 ```json

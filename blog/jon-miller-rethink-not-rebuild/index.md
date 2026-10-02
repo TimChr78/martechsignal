@@ -1,17 +1,5 @@
 # Rethink, not rebuild: the replatform-for-AI trap
 
-
-|  | Replatform "for AI" | Rethink in place |
-| --- | --- | --- |
-| **Trigger** | A launch made you feel behind | Contract is up and the platform can't run what you need |
-| **Cost center** | A software swap that becomes a data plumbing project | No migration; budget stays on programs |
-| **Data risk** | Buying groups, intent, and history get copied out | Stays where it is |
-| **What AI arrives as** | A platform you must repopulate | A layer: MCP tool surfaces, vendor-shipped reasoning |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-Verdict: the replatform pitch is a trap
-
 MARKETING AUTOMATION · AI AGENTS · 6 MIN
 
 ## Rethink, not rebuild: Jon Miller and the replatform-for-AI trap
@@ -56,6 +44,14 @@ That is the contrarian reading of this launch. Vendors need the AI era to requir
 
 1. The cost center is your data, not the platform. Migrations are billed as software swaps and costed as data plumbing projects. The CDP wave taught this lesson expensively, and the warehouse-native stack is the correction ([our CDP reckoning post](/blog/cdp-reckoning-warehouse-native/), [our Fivetran post](/blog/you-dont-need-new-data-stack-fivetran/)). Buying groups, intent, and history: that is where the switching cost lives, and every vendor wants to take a copy of it. 2. Agents attack the reason replatforms were scary. The replatform-for-AI pitch relies on integration risk staying high, because that is what a migration budget is priced against. The same MCP pattern that lets agents drive Phave lets them drive the platform you already own. Phave itself is the proof: 319 MCP tools means agents operate it, and other platforms are racing to match that ([why your stack doesn't need another AI tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)). 3. Reasoning-over-rules is coming to your current platform anyway. If Miller is right that rules fail at ambiguity, incumbents have to respond, and fast. Salesforce is already doing it. Adobe is pushing AJO and Real-Time CDP as a Campaign successor. The AI reasoning layer is arriving as a layer, not only as a platform swap.
 
+
+|  | Replatform "for AI" | Rethink in place |
+| --- | --- | --- |
+| **Trigger** | A launch made you feel behind | Contract is up and the platform can't run what you need |
+| **Cost center** | A software swap that becomes a data plumbing project | No migration; budget stays on programs |
+| **Data risk** | Buying groups, intent, and history get copied out | Stays where it is |
+| **What AI arrives as** | A platform you must repopulate | A layer: MCP tool surfaces, vendor-shipped reasoning |
+
 Miller's diagnosis is right and his cure is optional. If your MAP runs your programs and the complaints are the rules layer's rigidity, the reasoning layer is likely to arrive where you already are, through MCP tool surfaces and vendor-shipped reasoning, and the data you would risk in a migration is the asset every vendor actually wants.
 
 ## If you do replatform, do it for one reason
@@ -93,6 +89,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 More from the directory: [MarketMuse](/tools/marketmuse/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
+
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+Verdict: the replatform pitch is a trap
 
 
 ```json

@@ -1,75 +1,5 @@
 # Paperclip review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Self-hosted free (MIT); hosted at EUR 10/mo or EUR 100/year with a 7-day no-card trial and unlimited teammates, all published (the vendor pricing page: [pricing page](https://paperclip.inc/pricing), verified 2026-09-28). |
-| Feature depth | 7/10 | Org-chart orchestration of agent teams with hire, schedule, budget and audit cover agent operations (vendor documentation: [vendor site](https://paperclip.ing), verified 2026-09-28). |
-| Integrations | 7/10 | Ten named agent harnesses from Claude Code and Codex to Hermes and OpenClaw Gateway (vendor documentation: [vendor site](https://paperclip.ing), verified 2026-09-28). |
-| AI capability | 7/10 | Per-agent budgets with warn-at-80% and hard-stop-at-100% controls are operational AI governance (vendor documentation: [vendor site](https://paperclip.ing), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with the second-largest in the catalog (the source repository: [repository](https://github.com/paperclipai/paperclip), verified 2026-09-28). |
-| Operational maturity | 5/10 | A simple hosted tier and model-spend tracking (vendor documentation: [vendor site](https://paperclip.ing), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at €10/mo once past the free tier |
-| ✓ AI capabilities: org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more) |  |
-| ✓ Active public repository (95,890 GitHub stars counted at last check) |  |
-| ✓ Native integrations include Claude Code, Codex, Cursor (local and cloud) (12 listed) |  |
-
-**What is Paperclip?**
-Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 95,890 stars.
-
-**How much does Paperclip cost?**
-Paperclip has a free tier; paid plans start at €10/mo. Self-hosted free (MIT). Hosted cloud: one plan at € 10/month or € 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
-
-**Is Paperclip worth it past the free tier?**
-The most credible attempt yet at governing agent fleets like headcount rather than scripts: real budgets, approvals, and audit, with honest defaults (dormant agents, no webhooks) and a deep public docs surface.
-
-**What happens when a Paperclip agent hits its budget cap?**
-At 80% of the cap (the default warnPercent) Paperclip records a soft incident and the agent keeps working. At 100% a hard incident fires: the scope is paused immediately, no more heartbeats are scheduled, in-progress runs are cancelled, and the docs state no work is lost. You resume through the budget-incident API with raise_budget_and_resume (the new amount must exceed current spend, or the call fails) or keep_paused. Budget-paused scopes auto-resume at 00:00 UTC on the first of the month.
-
-**Do Paperclip agents run 24/7 by default?**
-No. A new agent ships with timer heartbeats turned off, and the docs recommend leaving them off and enabling wake-on-demand instead: the agent shows as active on the dashboard but consumes nothing until work lands. There are four wake sources (timer, task assignment or comment, manual wake-now, and routines), and only the timer is not event-driven. For scheduled recurring work on the hosted cloud, routines run around the clock; self-hosted routines use cron in your timezone plus signed webhooks.
-
-**How do I connect Claude Code to Paperclip?**
-Create an agent whose adapter is claude_local. Claude Code must be installed and on PATH, and authentication uses ANTHROPIC_API_KEY, AWS Bedrock environment variables, or a Claude subscription login. The adapter stores the session id and resumes it on the next heartbeat when the working directory still matches, injects Paperclip skills by building a directory of symlinks passed with --add-dir, and exposes a Test Environment button that probes the CLI in headless print mode. maxTurnsPerRun defaults to 300.
-
-- **Pricing:** Freemium
-- **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 95890
-- **HQ:** EU
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** Paperclip is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Codex SEO
-
-Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-
-Zapier GTM Cheat Codes
-
-Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
-
-Digital Marketing Pro
-
-163-skill AI marketing plugin for agencies with EU AI Act compliance
-
-Workato
-
-Enterprise AI governance plus integration and automation on one platform
-
-Budibase
-
-Open-source operations platform for building AI agents, apps and automations on your own data
-
-[More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
@@ -82,7 +12,7 @@ Open-source control plane to manage AI agents like a company, hire, schedule, bu
 
 Workflow Automation · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Paperclip →](https://paperclip.ing)
 
@@ -93,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 44/60
 
 Paperclip is the control plane for AI agent teams: org-chart orchestration with per-agent budgets and audit. Tens of thousands of stars say the problem is real, and EUR 10/mo hosted undercuts every alternative.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Self-hosted free (MIT); hosted at EUR 10/mo or EUR 100/year with a 7-day no-card trial and unlimited teammates, all published (the vendor pricing page: [pricing page](https://paperclip.inc/pricing), verified 2026-09-28). |
+| Feature depth | 7/10 | Org-chart orchestration of agent teams with hire, schedule, budget and audit cover agent operations (vendor documentation: [vendor site](https://paperclip.ing), verified 2026-09-28). |
+| Integrations | 7/10 | Ten named agent harnesses from Claude Code and Codex to Hermes and OpenClaw Gateway (vendor documentation: [vendor site](https://paperclip.ing), verified 2026-09-28). |
+| AI capability | 7/10 | Per-agent budgets with warn-at-80% and hard-stop-at-100% controls are operational AI governance (vendor documentation: [vendor site](https://paperclip.ing), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with the second-largest in the catalog (the source repository: [repository](https://github.com/paperclipai/paperclip), verified 2026-09-28). |
+| Operational maturity | 5/10 | A simple hosted tier and model-spend tracking (vendor documentation: [vendor site](https://paperclip.ing), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -168,6 +108,14 @@ The most credible attempt yet at governing agent fleets like headcount rather th
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at €10/mo once past the free tier |
+| ✓ AI capabilities: org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more) |  |
+| ✓ Active public repository (95,890 GitHub stars counted at last check) |  |
+| ✓ Native integrations include Claude Code, Codex, Cursor (local and cloud) (12 listed) |  |
+
 ## Related concepts
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -182,16 +130,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Paperclip?**
 Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 95,890 stars.
 
+**How much does Paperclip cost?**
 Paperclip has a free tier; paid plans start at €10/mo. Self-hosted free (MIT). Hosted cloud: one plan at € 10/month or € 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
+**Is Paperclip worth it past the free tier?**
 The most credible attempt yet at governing agent fleets like headcount rather than scripts: real budgets, approvals, and audit, with honest defaults (dormant agents, no webhooks) and a deep public docs surface.
 
+**What happens when a Paperclip agent hits its budget cap?**
 At 80% of the cap (the default warnPercent) Paperclip records a soft incident and the agent keeps working. At 100% a hard incident fires: the scope is paused immediately, no more heartbeats are scheduled, in-progress runs are cancelled, and the docs state no work is lost. You resume through the budget-incident API with raise_budget_and_resume (the new amount must exceed current spend, or the call fails) or keep_paused. Budget-paused scopes auto-resume at 00:00 UTC on the first of the month.
 
+**Do Paperclip agents run 24/7 by default?**
 No. A new agent ships with timer heartbeats turned off, and the docs recommend leaving them off and enabling wake-on-demand instead: the agent shows as active on the dashboard but consumes nothing until work lands. There are four wake sources (timer, task assignment or comment, manual wake-now, and routines), and only the timer is not event-driven. For scheduled recurring work on the hosted cloud, routines run around the clock; self-hosted routines use cron in your timezone plus signed webhooks.
 
+**How do I connect Claude Code to Paperclip?**
 Create an agent whose adapter is claude_local. Claude Code must be installed and on PATH, and authentication uses ANTHROPIC_API_KEY, AWS Bedrock environment variables, or a Claude subscription login. The adapter stores the session id and resumes it on the next heartbeat when the working directory still matches, injects Paperclip skills by building a directory of symlinks passed with --add-dir, and exposes a Test Environment button that probes the CLI in headless print mode. maxTurnsPerRun defaults to 300.
 
 ## Similar Tools
@@ -203,11 +157,45 @@ Create an agent whose adapter is claude_local. Claude Code must be installed and
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Workflow Automation](/categories/workflow-automation/)
+- **GitHub:** ★ 95890
+- **HQ:** EU
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Paperclip is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Codex SEO
+
+Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+
+Zapier GTM Cheat Codes
+
+Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+
+Digital Marketing Pro
+
+163-skill AI marketing plugin for agencies with EU AI Act compliance
+
+Workato
+
+Enterprise AI governance plus integration and automation on one platform
+
+Budibase
+
+Open-source operations platform for building AI agents, apps and automations on your own data
+
+[More Workflow Automation Tools →](/categories/workflow-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

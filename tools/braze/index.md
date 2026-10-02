@@ -1,64 +1,5 @@
 # Braze review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 3/10 | Custom pricing on MAUs and message volume with enterprise contracts typical and no public tier table (the vendor pricing page: [pricing page](https://www.braze.com/pricing), verified 2026-08-28). |
-| Feature depth | 8/10 | Cross-channel messaging, journeys and predictive churn cover the engagement loop at event speed (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
-| Integrations | 8/10 | Segment, Snowflake, Salesforce, Amplitude, Shopify, Meta, Google Ads and mParticle documented plus an API (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
-| AI capability | 7/10 | BrazeAI intelligent timing, channel optimization and predictive churn are production features with years of data behind them (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise SaaS on annual contracts (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2011 and publicly listed with enterprise SLAs behind every deployment (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: brazeAI intelligent timing | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Segment, Snowflake, Salesforce (8 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
-| ✓ API access for custom integrations |  |
-
-**What is Braze?**
-Braze: Customer engagement platform with AI-powered real-time messaging across channels. Braze ships with brazeAI intelligent timing. This page documents 8 integrations.
-
-**How much does Braze cost?**
-Braze uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on MAUs and message volume; enterprise contracts typical. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
-
-**Is Braze a good Marketing Automation tool in 2026?**
-Worth it only at meaningful volume with dedicated ops. Smaller teams get 80% of the pattern from Customer.io at a fraction of the cost.
-
-- **Pricing:** Enterprise
-- **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **Founded:** 2011
-- **HQ:** New York, NY, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Braze is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Laudspeaker
-
-Open-source customer engagement and product onboarding platform, alternative to Braze
-
-Tealium
-
-Enterprise customer data platform with real-time data orchestration and AI
-
-Bloomreach
-
-AI-powered commerce experience platform with search, personalization, and CDP
-
-Ortto
-
-Customer data and marketing automation platform with journeys, CDP, and AI features
-
-Line Harness
-
-Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
-
-[More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
@@ -71,7 +12,7 @@ Customer engagement platform with AI-powered real-time messaging across channels
 
 Marketing Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Braze →](https://www.braze.com)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 36/60
 
 Braze is the real-time engagement layer for teams whose messages are events, not campaigns. Predictive churn and intelligent timing are mature; the MAU pricing model needs careful modeling before signing.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 3/10 | Custom pricing on MAUs and message volume with enterprise contracts typical and no public tier table (the vendor pricing page: [pricing page](https://www.braze.com/pricing), verified 2026-08-28). |
+| Feature depth | 8/10 | Cross-channel messaging, journeys and predictive churn cover the engagement loop at event speed (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
+| Integrations | 8/10 | Segment, Snowflake, Salesforce, Amplitude, Shopify, Meta, Google Ads and mParticle documented plus an API (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
+| AI capability | 7/10 | BrazeAI intelligent timing, channel optimization and predictive churn are production features with years of data behind them (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise SaaS on annual contracts (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2011 and publicly listed with enterprise SLAs behind every deployment (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -130,6 +81,13 @@ Worth it only at meaningful volume with dedicated ops. Smaller teams get 80% of 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: brazeAI intelligent timing | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Segment, Snowflake, Salesforce (8 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [Marketing automation](/glossary/marketing-automation/)
@@ -144,10 +102,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Braze?**
 Braze: Customer engagement platform with AI-powered real-time messaging across channels. Braze ships with brazeAI intelligent timing. This page documents 8 integrations.
 
+**How much does Braze cost?**
 Braze uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on MAUs and message volume; enterprise contracts typical. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
 
+**Is Braze a good Marketing Automation tool in 2026?**
 Worth it only at meaningful volume with dedicated ops. Smaller teams get 80% of the pattern from Customer.io at a fraction of the cost.
 
 ## Similar Tools
@@ -162,6 +123,13 @@ Worth it only at meaningful volume with dedicated ops. Smaller teams get 80% of 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Mobile-first brands tuning cross-channel engagement at scale
 ### Quick Facts
 
+- **Pricing:** Enterprise
+- **Category:** [Marketing Automation](/categories/marketing-automation/)
+- **Founded:** 2011
+- **HQ:** New York, NY, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
 
 ## Get the next teardown
@@ -169,6 +137,32 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Braze is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Laudspeaker
+
+Open-source customer engagement and product onboarding platform, alternative to Braze
+
+Tealium
+
+Enterprise customer data platform with real-time data orchestration and AI
+
+Bloomreach
+
+AI-powered commerce experience platform with search, personalization, and CDP
+
+Ortto
+
+Customer data and marketing automation platform with journeys, CDP, and AI features
+
+Line Harness
+
+Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
+
+[More Marketing Automation Tools →](/categories/marketing-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -187,7 +181,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/braze/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27"
   },
   {
@@ -283,7 +277,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/braze/", "breadcrumb": {"@id": "https://martechsignal.com/tools/braze/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/braze/", "breadcrumb": {"@id": "https://martechsignal.com/tools/braze/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

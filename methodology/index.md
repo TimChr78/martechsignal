@@ -1,17 +1,5 @@
 # Methodology
 
-
-| Pillar | What it measures | Anchor points |
-| --- | --- | --- |
-| Pricing transparency | Whether buyers can see real numbers before talking to sales. | 0: no public pricing · 3: quote-only pricing page · 5: entry price published · 7: full tier table with limits · 10: public tiers, limits, and documented free tier |
-| Feature depth | Coverage against what the category baseline requires. | 3: core capability only · 5: baseline covered · 8: baseline plus real differentiators · 10: category-defining breadth |
-| Integrations | Documented connection surface: API, native integrations, marketplace. | 0: none documented · 3: API or a few natives · 5: API plus 10-30 natives · 7: broad catalog and marketplace · 10: marketplace, open API, and iPaaS coverage |
-| AI capability | Shipped AI features, not AI marketing copy. | 0: none · 3: mentioned but thin · 5: one real shipped feature · 7: several shipped features · 10: AI-native surface (agents, MCP, protocol-level) |
-| Openness | Exit rights: source access, self-hosting, data portability. | 0: closed, no export · 3: data export exists · 5: full export and open API · 7: source-available or open-core · 10: open-source licence and self-hostable |
-| Operational maturity | Whether the product is maintained like a product. | 0: unknown or abandoned · 3: young or single maintainer · 5: steady cadence · 7: multiple releases a year, real docs, real company · 10: enterprise cadence, SLAs, ecosystem |
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Methodology
 
 By [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
@@ -29,6 +17,16 @@ Corrections are public. When a published claim is wrong, the fix ships with an e
 ## The MartechSignal Score
 
 Each evaluated tool receives a 0-10 score on six pillars. The total is the sum of the six, reported out of 60. Every pillar score on a tool page carries a one-line evidence statement naming its source. A score without evidence is a defect.
+
+
+| Pillar | What it measures | Anchor points |
+| --- | --- | --- |
+| Pricing transparency | Whether buyers can see real numbers before talking to sales. | 0: no public pricing · 3: quote-only pricing page · 5: entry price published · 7: full tier table with limits · 10: public tiers, limits, and documented free tier |
+| Feature depth | Coverage against what the category baseline requires. | 3: core capability only · 5: baseline covered · 8: baseline plus real differentiators · 10: category-defining breadth |
+| Integrations | Documented connection surface: API, native integrations, marketplace. | 0: none documented · 3: API or a few natives · 5: API plus 10-30 natives · 7: broad catalog and marketplace · 10: marketplace, open API, and iPaaS coverage |
+| AI capability | Shipped AI features, not AI marketing copy. | 0: none · 3: mentioned but thin · 5: one real shipped feature · 7: several shipped features · 10: AI-native surface (agents, MCP, protocol-level) |
+| Openness | Exit rights: source access, self-hosting, data portability. | 0: closed, no export · 3: data export exists · 5: full export and open API · 7: source-available or open-core · 10: open-source licence and self-hostable |
+| Operational maturity | Whether the product is maintained like a product. | 0: unknown or abandoned · 3: young or single maintainer · 5: steady cadence · 7: multiple releases a year, real docs, real company · 10: enterprise cadence, SLAs, ecosystem |
 
 The score is an editorial assessment against published anchors. It is not a lab benchmark, not a verified-buyer rating, and not influenced by vendors: we take no vendor money, run no affiliate links, and accept no payment for placement or scoring. Tools we cover include products we built ourselves; those pages say so on their face.
 
@@ -53,6 +51,8 @@ A claim ships on a page only when a source is attached to it at write time. If t
 Published errors get public entries. See the [corrections page](/corrections/) for the running log.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

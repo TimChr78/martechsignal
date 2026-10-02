@@ -1,31 +1,5 @@
 # Social Media Tools
 
-AI-powered consumer intelligence and social media management platform
-
-EnterpriseDesk-reviewed
-
-Simple social media scheduling and analytics with AI-powered content tools
-
-FreemiumDesk-reviewed
-
-Social media management platform with AI-powered scheduling and analytics
-
-From $99/moDesk-reviewed
-
-Browser extension to publish content to multiple social media platforms with one click
-
-Open SourceDesk-reviewedOSS
-
-AI-powered social media content generator for posts, videos, and ad creatives
-
-FreemiumDesk-reviewed
-
-Enterprise social media management with AI-powered analytics and engagement tools
-
-From $249/moDesk-reviewed
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - Social Media
@@ -66,6 +40,32 @@ Vendors in this category: [MultiPost](https://multipost.app) · [Brandwatch](htt
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+AI-powered consumer intelligence and social media management platform
+
+EnterpriseDesk-reviewed
+
+Simple social media scheduling and analytics with AI-powered content tools
+
+FreemiumDesk-reviewed
+
+Social media management platform with AI-powered scheduling and analytics
+
+From $99/moDesk-reviewed
+
+Browser extension to publish content to multiple social media platforms with one click
+
+Open SourceDesk-reviewedOSS
+
+AI-powered social media content generator for posts, videos, and ad creatives
+
+FreemiumDesk-reviewed
+
+Enterprise social media management with AI-powered analytics and engagement tools
+
+From $249/moDesk-reviewed
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 {
@@ -105,7 +105,7 @@ Vendors in this category: [MultiPost](https://multipost.app) · [Brandwatch](htt
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 6,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -186,7 +186,7 @@ Vendors in this category: [MultiPost](https://multipost.app) · [Brandwatch](htt
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/social-media/", "breadcrumb": {"@id": "https://martechsignal.com/categories/social-media/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/social-media/", "breadcrumb": {"@id": "https://martechsignal.com/categories/social-media/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

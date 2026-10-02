@@ -1,7 +1,5 @@
 # Contact
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
-
 ## Contact
 
 Corrections, tips, vendor news worth a look, or questions about how we test. I read everything sent here.
@@ -15,6 +13,8 @@ No database behind this form: the button just drafts the email in your client, s
 This inbox has one reader with a day job, so give it two or three business days before you nudge. Corrections jump the queue: if something on the site is wrong, say so in the subject line and it gets handled first. Vendor pitches get read eventually and buy no editorial consideration, because there is no way to buy one. The running log of published errors lives on the [corrections page](/corrections/).
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 
 ```json

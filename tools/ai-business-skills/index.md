@@ -1,65 +1,5 @@
 # AI Business Skills pricing
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 10/10 | Free under MIT with nothing to price (the vendor pricing page: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-08-28). |
-| Feature depth | 5/10 | 63 bilingual skills with marketing planning and 3-scenario KPIs for the VN market (vendor documentation: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
-| Integrations | 3/10 | Claude Code, OpenCode, Codex and VS Code documented as harnesses (vendor documentation: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
-| AI capability | 4/10 | Skill definitions for agents with avatar generation; no runtime intelligence of its own (vendor documentation: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with full source (the source repository: [repository](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2025; niche and young (vendor documentation: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ AI capabilities: 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master) |  |
-| ✓ Native integrations include Claude Code, OpenCode, Codex (4 listed) |  |
-
-**What is AI Business Skills?**
-AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 598 stars.
-
-**How much does AI Business Skills cost?**
-AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 598 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
-
-**Is AI Business Skills a good self-hosted Agent Skills tool in 2026?**
-The strongest free skill pack for Vietnamese-market marketing teams. Global agencies will find it useful mainly as a starting point.
-
-- **Pricing:** Open Source
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 598
-- **Founded:** 2025
-- **API:** No
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-08-28
-
-**Verdict:** AI Business Skills is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Zapier GTM Cheat Codes
-
-Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
-
-Codex SEO
-
-Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-
-Aaron Marketing Skills
-
-120 marketing skills across 7 disciplines for Claude Code with auditor gates
-
-AI Marketing Suite
-
-15-skill marketing suite for Claude Code with parallel agents and PDF reports
-
-Digital Marketing Pro
-
-163-skill AI marketing plugin for agencies with EU AI Act compliance
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -72,7 +12,7 @@ Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit AI Business Skills →](https://github.com/minhnv0807/ai-business-skills)
 
@@ -83,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 AI Business Skills is the bilingual pack: 63 skills split Vietnamese and Global with local benchmarks. Niche by design, and the strongest choice for Vietnam-market work.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free under MIT with nothing to price (the vendor pricing page: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-08-28). |
+| Feature depth | 5/10 | 63 bilingual skills with marketing planning and 3-scenario KPIs for the VN market (vendor documentation: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
+| Integrations | 3/10 | Claude Code, OpenCode, Codex and VS Code documented as harnesses (vendor documentation: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
+| AI capability | 4/10 | Skill definitions for agents with avatar generation; no runtime intelligence of its own (vendor documentation: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full source (the source repository: [repository](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2025; niche and young (vendor documentation: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -125,6 +75,13 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master) |  |
+| ✓ Native integrations include Claude Code, OpenCode, Codex (4 listed) |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -138,10 +95,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is AI Business Skills?**
 AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 598 stars.
 
+**How much does AI Business Skills cost?**
 AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 598 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
 
+**Is AI Business Skills a good self-hosted Agent Skills tool in 2026?**
 The strongest free skill pack for Vietnamese-market marketing teams. Global agencies will find it useful mainly as a starting point.
 
 ## Similar Tools
@@ -153,11 +113,45 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **GitHub:** ★ 598
+- **Founded:** 2025
+- **API:** No
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-08-28
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** AI Business Skills is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Zapier GTM Cheat Codes
+
+Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+
+Codex SEO
+
+Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+
+Aaron Marketing Skills
+
+120 marketing skills across 7 disciplines for Claude Code with auditor gates
+
+AI Marketing Suite
+
+15-skill marketing suite for Claude Code with parallel agents and PDF reports
+
+Digital Marketing Pro
+
+163-skill AI marketing plugin for agencies with EU AI Act compliance
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

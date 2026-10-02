@@ -1,78 +1,5 @@
 # Line Harness review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT on Cloudflare's free tier; LINE delivery fees and managed hosting pricing are stated as the run costs (the vendor pricing page: [pricing page](https://the-harness.com/line-harness/pricing/), verified 2026-09-28). |
-| Feature depth | 5/10 | Step delivery, lead scoring and broadcast management cover LINE CRM operations (vendor documentation: [vendor site](https://the-harness.com/line-harness/), verified 2026-09-28). |
-| Integrations | 6/10 | LINE Messaging API and LIFF, Google Calendar, Stripe and Slack webhooks, Cloudflare stack documented (vendor documentation: [vendor site](https://the-harness.com/line-harness/), verified 2026-09-28). |
-| AI capability | 6/10 | An MCP server drives scenario creation, inbox monitoring and broadcasts in natural language (vendor documentation: [vendor site](https://the-harness.com/line-harness/), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with your own Cloudflare deployment (the source repository: [repository](https://github.com/Shudesu/line-harness-oss), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2026 with managed hosting offered (vendor documentation: [vendor site](https://the-harness.com/line-harness/), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ AI capabilities: MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language) |  |
-| ✓ Native integrations include LINE Messaging API, LINE LIFF, Google Calendar (6 listed) |  |
-
-**What is Line Harness?**
-Line Harness: Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Line Harness ships with MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language). The public repository carries 596 stars.
-
-**How much does Line Harness cost?**
-Line Harness is open source - MIT licensed and free to self-host; the public repository carries 596 stars; native integrations cover LINE Messaging API, LINE LIFF, Google Calendar. You pay in server time and maintenance, not licences.
-
-**Is Line Harness a good self-hosted Marketing Automation tool in 2026?**
-The first credible free alternative to L-Step for LINE marketing in Japan. Outside Japan there is no use case.
-
-**What does L Harness cost to run?**
-The software is MIT licensed and free to self host on Cloudflare Workers, D1, and Pages, which the project states fits inside Cloudflare's free tier. You still pay for the LINE Official Account itself under LINE Yahoo's free message allotment and paid plans, a custom domain, any external AI provider, and an outsourced build if you commission one. Two operational caveats from the docs: D1 queries error out once daily read or write limits are hit rather than billing overage, and L Harness Cloud is a separate managed product with no published price.
-
-**What can an AI agent control through the MCP server?**
-The bundled @line-harness/mcp-server is documented as full operation from Claude Code in natural language. Named tools cover reading conversations (list_conversations, get_conversation) so an agent can monitor unanswered chats, building messages (create_scenario, update_step), and sending (broadcast, send_message), where sending requires user confirmation. The practical loop is an agent drafting and staging step sequences and broadcasts while you approve the sends.
-
-**What is step delivery on LINE?**
-Step delivery sends a pre built sequence of LINE messages where each step waits a set delay before the next, which is how Japanese LINE marketers run onboarding and nurture. In L Harness each step carries its own delay in minutes and steps can branch, and broadcasts go to all followers, tags, or segments on a schedule with automatic queueing past 500 recipients. Rich menus can auto switch per user or tag alongside the sequence.
-
-**What happens when a LINE account gets banned?**
-The docs describe BAN detection with automatic friend migration to the next account in a pool, and a traffic pool that spreads sending across multiple LINE Official Accounts, all managed from one dashboard with per account scoping for scenarios, tags, and delivery. Worth knowing that running several accounts to spread volume sits outside what LINE's terms are written for, so treat the pool as resilience rather than a growth lever.
-
-- **Pricing:** Open Source
-- **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 596
-- **Founded:** 2026
-- **HQ:** Tokyo, Japan
-- **API:** Yes
-- **Repository checked:** 2026-10-01
-- **Page updated:** 2026-09-07
-
-**Verdict:** Line Harness is a tool in Marketing Automation with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Salesforce Marketing Cloud
-
-Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
-
-Mautic
-
-Open-source marketing automation platform with email, campaigns, and lead management
-
-Ortto
-
-Customer data and marketing automation platform with journeys, CDP, and AI features
-
-Opteo
-
-Continuous Google Ads monitoring with one-click improvements
-
-Braze
-
-Customer engagement platform with AI-powered real-time messaging across channels
-
-[More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
@@ -85,7 +12,7 @@ Open-source CRM for LINE Official Accounts with step delivery, scoring, and an M
 
 Marketing Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Line Harness →](https://the-harness.com/line-harness/)
 
@@ -96,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 37/60
 
 Line Harness is LINE Official Account CRM with an MCP server so Claude Code can run your broadcasts. MIT and Cloudflare-native; the LINE delivery fees are the real bill.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free under MIT on Cloudflare's free tier; LINE delivery fees and managed hosting pricing are stated as the run costs (the vendor pricing page: [pricing page](https://the-harness.com/line-harness/pricing/), verified 2026-09-28). |
+| Feature depth | 5/10 | Step delivery, lead scoring and broadcast management cover LINE CRM operations (vendor documentation: [vendor site](https://the-harness.com/line-harness/), verified 2026-09-28). |
+| Integrations | 6/10 | LINE Messaging API and LIFF, Google Calendar, Stripe and Slack webhooks, Cloudflare stack documented (vendor documentation: [vendor site](https://the-harness.com/line-harness/), verified 2026-09-28). |
+| AI capability | 6/10 | An MCP server drives scenario creation, inbox monitoring and broadcasts in natural language (vendor documentation: [vendor site](https://the-harness.com/line-harness/), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with your own Cloudflare deployment (the source repository: [repository](https://github.com/Shudesu/line-harness-oss), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026 with managed hosting offered (vendor documentation: [vendor site](https://the-harness.com/line-harness/), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -142,6 +79,13 @@ The first credible free alternative to L-Step for LINE marketing in Japan. Outsi
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ AI capabilities: MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language) |  |
+| ✓ Native integrations include LINE Messaging API, LINE LIFF, Google Calendar (6 listed) |  |
+
 ## Related concepts
 
 - [Marketing automation](/glossary/marketing-automation/)
@@ -156,18 +100,25 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Line Harness?**
 Line Harness: Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Line Harness ships with MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language). The public repository carries 596 stars.
 
+**How much does Line Harness cost?**
 Line Harness is open source - MIT licensed and free to self-host; the public repository carries 596 stars; native integrations cover LINE Messaging API, LINE LIFF, Google Calendar. You pay in server time and maintenance, not licences.
 
+**Is Line Harness a good self-hosted Marketing Automation tool in 2026?**
 The first credible free alternative to L-Step for LINE marketing in Japan. Outside Japan there is no use case.
 
+**What does L Harness cost to run?**
 The software is MIT licensed and free to self host on Cloudflare Workers, D1, and Pages, which the project states fits inside Cloudflare's free tier. You still pay for the LINE Official Account itself under LINE Yahoo's free message allotment and paid plans, a custom domain, any external AI provider, and an outsourced build if you commission one. Two operational caveats from the docs: D1 queries error out once daily read or write limits are hit rather than billing overage, and L Harness Cloud is a separate managed product with no published price.
 
+**What can an AI agent control through the MCP server?**
 The bundled @line-harness/mcp-server is documented as full operation from Claude Code in natural language. Named tools cover reading conversations (list_conversations, get_conversation) so an agent can monitor unanswered chats, building messages (create_scenario, update_step), and sending (broadcast, send_message), where sending requires user confirmation. The practical loop is an agent drafting and staging step sequences and broadcasts while you approve the sends.
 
+**What is step delivery on LINE?**
 Step delivery sends a pre built sequence of LINE messages where each step waits a set delay before the next, which is how Japanese LINE marketers run onboarding and nurture. In L Harness each step carries its own delay in minutes and steps can branch, and broadcasts go to all followers, tags, or segments on a schedule with automatic queueing past 500 recipients. Rich menus can auto switch per user or tag alongside the sequence.
 
+**What happens when a LINE account gets banned?**
 The docs describe BAN detection with automatic friend migration to the next account in a pool, and a traffic pool that spreads sending across multiple LINE Official Accounts, all managed from one dashboard with per account scoping for scenarios, tags, and delivery. Worth knowing that running several accounts to spread volume sits outside what LINE's terms are written for, so treat the pool as resilience rather than a growth lever.
 
 ## Similar Tools
@@ -179,11 +130,46 @@ The docs describe BAN detection with automatic friend migration to the next acco
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Marketing Automation](/categories/marketing-automation/)
+- **GitHub:** ★ 596
+- **Founded:** 2026
+- **HQ:** Tokyo, Japan
+- **API:** Yes
+- **Repository checked:** 2026-10-01
+- **Page updated:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Line Harness is a tool in Marketing Automation with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Salesforce Marketing Cloud
+
+Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
+
+Mautic
+
+Open-source marketing automation platform with email, campaigns, and lead management
+
+Ortto
+
+Customer data and marketing automation platform with journeys, CDP, and AI features
+
+Opteo
+
+Continuous Google Ads monitoring with one-click improvements
+
+Braze
+
+Customer engagement platform with AI-powered real-time messaging across channels
+
+[More Marketing Automation Tools →](/categories/marketing-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -202,7 +188,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/line-harness/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-20",
     "offers": {
       "@type": "Offer",
@@ -337,7 +323,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/line-harness/", "breadcrumb": {"@id": "https://martechsignal.com/tools/line-harness/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/line-harness/", "breadcrumb": {"@id": "https://martechsignal.com/tools/line-harness/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

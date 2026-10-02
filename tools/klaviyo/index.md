@@ -1,64 +1,5 @@
 # Klaviyo review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Free up to 250 contacts/500 emails per month, then paid scales with contacts from about $20/mo (the vendor pricing page: [pricing page](https://www.klaviyo.com/pricing), verified 2026-08-28). |
-| Feature depth | 7/10 | Email, SMS, predictive analytics and product recommendations cover the ecommerce lifecycle (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
-| Integrations | 8/10 | Shopify, WooCommerce, BigCommerce, Salesforce, Slack, Zapier, Stripe and GA documented plus an API (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
-| AI capability | 6/10 | Predictive analytics, send-time optimization and product recommendations are commerce-tuned rather than agentic (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS; your list leaves as CSV or through the API (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2012 and publicly listed with the ecommerce track record brands price in (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI subject line assistant | ✗ Paid plans start at $20/mo once past the free tier |
-| ✓ G2 rating 4.6/5 | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Shopify, WooCommerce, BigCommerce (8 listed) |  |
-| ✓ Free tier to evaluate before committing (Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo) |  |
-
-**What is Klaviyo?**
-Klaviyo: AI-powered email and SMS marketing platform built for ecommerce brands. Klaviyo ships with AI subject line assistant. This page documents 8 integrations.
-
-**How much does Klaviyo cost?**
-Klaviyo has a free tier; paid plans start at $20/mo. Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
-
-**Is Klaviyo worth it past the free tier?**
-The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a CDP-backed stack fits better.
-
-- **Pricing:** Freemium
-- **Category:** [Email Marketing](/categories/email-marketing/)
-- **Third-party ratingsG2 rating:** 4.6/5 (1,361 reviews) · [source](https://www.g2.com/products/klaviyo/reviews)as of 2026-08-28
-- **Founded:** 2012
-- **HQ:** Boston, MA, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Klaviyo is a tool in Email Marketing with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Triple Whale
-
-AI-powered ecommerce analytics and attribution platform for DTC brands
-
-Brevo
-
-Multichannel marketing platform billing by email volume, not contacts
-
-Mailchimp
-
-All-in-one marketing platform with AI-powered email, automation, and analytics
-
-Clerk.io
-
-AI-powered ecommerce personalization with search, recommendations, and email
-
-Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
-
-[More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
@@ -71,7 +12,7 @@ AI-powered email and SMS marketing platform built for ecommerce brands
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Klaviyo →](https://www.klaviyo.com)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 39/60
 
 Klaviyo is the ecommerce messaging default for good reason: Shopify-grade data in, product recommendations out. Contact-based pricing is predictable until your list grows, then it grows with it.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Free up to 250 contacts/500 emails per month, then paid scales with contacts from about $20/mo (the vendor pricing page: [pricing page](https://www.klaviyo.com/pricing), verified 2026-08-28). |
+| Feature depth | 7/10 | Email, SMS, predictive analytics and product recommendations cover the ecommerce lifecycle (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
+| Integrations | 8/10 | Shopify, WooCommerce, BigCommerce, Salesforce, Slack, Zapier, Stripe and GA documented plus an API (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
+| AI capability | 6/10 | Predictive analytics, send-time optimization and product recommendations are commerce-tuned rather than agentic (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS; your list leaves as CSV or through the API (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2012 and publicly listed with the ecommerce track record brands price in (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -130,6 +81,14 @@ The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI subject line assistant | ✗ Paid plans start at $20/mo once past the free tier |
+| ✓ G2 rating 4.6/5 | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, WooCommerce, BigCommerce (8 listed) |  |
+| ✓ Free tier to evaluate before committing (Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo) |  |
+
 ## Related concepts
 
 - [Email sequence](/glossary/email-sequence/)
@@ -142,10 +101,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Klaviyo?**
 Klaviyo: AI-powered email and SMS marketing platform built for ecommerce brands. Klaviyo ships with AI subject line assistant. This page documents 8 integrations.
 
+**How much does Klaviyo cost?**
 Klaviyo has a free tier; paid plans start at $20/mo. Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
+**Is Klaviyo worth it past the free tier?**
 The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a CDP-backed stack fits better.
 
 ## Similar Tools
@@ -162,6 +124,14 @@ The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a 
 - [Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict](/vs/mailchimp-vs-klaviyo/) — Pick Klaviyo if you want ecommerce-native profiles and predictive flows, starting free up to 250 contacts with paid from around $20/mo.
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Email Marketing](/categories/email-marketing/)
+- **Third-party ratingsG2 rating:** 4.6/5 (1,361 reviews) · [source](https://www.g2.com/products/klaviyo/reviews)as of 2026-08-28
+- **Founded:** 2012
+- **HQ:** Boston, MA, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 ## Get the next teardown
@@ -169,6 +139,30 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Klaviyo is a tool in Email Marketing with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Triple Whale
+
+AI-powered ecommerce analytics and attribution platform for DTC brands
+
+Brevo
+
+Multichannel marketing platform billing by email volume, not contacts
+
+Mailchimp
+
+All-in-one marketing platform with AI-powered email, automation, and analytics
+
+Clerk.io
+
+AI-powered ecommerce personalization with search, recommendations, and email
+
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
+
+[More Email Marketing Tools →](/categories/email-marketing/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -187,7 +181,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/klaviyo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -299,7 +293,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/klaviyo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/klaviyo/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/klaviyo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/klaviyo/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

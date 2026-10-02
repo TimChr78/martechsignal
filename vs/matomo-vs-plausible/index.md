@@ -1,42 +1,20 @@
-# Matomo vs Plausible (2026): depth or simplicity
-
-
-| Tool | Starts at | Pick it when |
-| --- | --- | --- |
-| Matomo | Open Source | You want Google Analytics depth with EU data residency and full raw data ownership. |
-| Plausible Analytics | Open Source | You want a one-screen dashboard and a script lighter than the page it measures. |
-
-
-| Dimension | Matomo | Plausible Analytics |
-| --- | --- | --- |
-| Pricing | Open Source | Open Source |
-| Open source | yes (gpl-3.0) | yes (agpl-3.0) |
-| Integrations listed | 8 listed: WordPress, Matomo Tag Manager, Google Tag Manager, Google Analytics Importer (+4 more) | 6 listed: WordPress, Ghost, Webflow, Zapier (+2 more) |
-| Public API | yes | yes |
-
-
-| Scenario | Matomo | Plausible Analytics |
-| --- | --- | --- |
-| Cost basis | Cloud priced by hits; self-hosted core is free (GPL v3+) | Cloud priced by monthly pageviews; self-hosted is free (AGPL) |
-| Free tier | Self-hosted core, free forever | Self-hosted, free forever |
-| Entry paid | On-Premise premium bundles from 275 EUR/mo (Team); Cloud starts above the 50,000-hit tier | Starter $9/mo ($7.50/mo billed yearly) for up to 10K monthly pageviews |
-| At 10K pageviews/mo | Self-hosted: the server only. On Cloud, one pageview is several hits, so size the plan on hits not pageviews. The smallest published tier is 50,000 hits per month. | Starter covers exactly this site size at $9/mo, or $7.50/mo on the yearly rate. |
-| Checked | 2026-09-27 | 2026-09-27 |
-
-- **Pick Matomo if:** you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.
-- **Pick Plausible Analytics if:** you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.
-
-[Analytics & Attribution](/categories/analytics/)[Open-Source Tools](/categories/open-source/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+# Matomo vs Plausible (2026): analytics depth or a dashboard that stays small
 
 ## Matomo vs Plausible (2026): analytics depth or a dashboard that stays small
+
+Pick Matomo if you want Google Analytics depth with EU data residency and full raw data ownership. Pick Plausible if you want a one-screen dashboard and a script lighter than the page it measures.
 
 Both are open-source web analytics for teams that would rather not hand visitor data to an advertising company, and both self-host for free. The difference is depth and where the bill appears. Matomo is a full analytics suite whose advanced features are paid plugins and bundles; Plausible is a deliberately small tool with one dashboard, a lightweight script, and a low entry price.
 
 Teams choosing between them are usually content sites, privacy-conscious startups, and marketing ops leads with GDPR obligations. The axis is not accuracy. It is how much behavioral analytics you actually use, and whether your ops capacity can run a PHP analytics platform with archiving jobs versus a tool that mostly runs itself.
 
 ## Matomo vs Plausible: the quick decision
+
+
+| Tool | Starts at | Pick it when |
+| --- | --- | --- |
+| Matomo | Open Source | You want Google Analytics depth with EU data residency and full raw data ownership. |
+| Plausible Analytics | Open Source | You want a one-screen dashboard and a script lighter than the page it measures. |
 
 Also compared: [Matomo vs PostHog](/vs/matomo-vs-posthog/).
 
@@ -50,9 +28,26 @@ Matomo
 
 Plausible Analytics
 
+
+| Dimension | Matomo | Plausible Analytics |
+| --- | --- | --- |
+| Pricing | Open Source | Open Source |
+| Open source | yes (gpl-3.0) | yes (agpl-3.0) |
+| Integrations listed | 8 listed: WordPress, Matomo Tag Manager, Google Tag Manager, Google Analytics Importer (+4 more) | 6 listed: WordPress, Ghost, Webflow, Zapier (+2 more) |
+| Public API | yes | yes |
+
 ## Priced at volume
 
 Cost picture for a 10K-pageview-per-month site. All figures checked 2026-09-27 on vendor pricing pages.
+
+
+| Scenario | Matomo | Plausible Analytics |
+| --- | --- | --- |
+| Cost basis | Cloud priced by hits; self-hosted core is free (GPL v3+) | Cloud priced by monthly pageviews; self-hosted is free (AGPL) |
+| Free tier | Self-hosted core, free forever | Self-hosted, free forever |
+| Entry paid | On-Premise premium bundles from 275 EUR/mo (Team); Cloud starts above the 50,000-hit tier | Starter $9/mo ($7.50/mo billed yearly) for up to 10K monthly pageviews |
+| At 10K pageviews/mo | Self-hosted: the server only. On Cloud, one pageview is several hits, so size the plan on hits not pageviews. The smallest published tier is 50,000 hits per month. | Starter covers exactly this site size at $9/mo, or $7.50/mo on the yearly rate. |
+| Checked | 2026-09-27 | 2026-09-27 |
 
 ## Positioning
 
@@ -110,6 +105,9 @@ Skip both if you are an enterprise already paying for an analytics suite: the sw
 
 ## Who should pick which
 
+- **Pick Matomo if:** you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.
+- **Pick Plausible Analytics if:** you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.
+
 ## When does Matomo justify its weight over Plausible?
 
 When the team needs behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform it fully controls. Plausible wins when core traffic numbers, cookie-free by default, are the whole requirement.
@@ -124,7 +122,7 @@ Neither. That is PostHog territory: funnels, retention, session replay and featu
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
-Last verified  · Updated 2026-10-02.
+Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
@@ -142,6 +140,10 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+[Analytics & Attribution](/categories/analytics/)[Open-Source Tools](/categories/open-source/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -150,7 +152,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/matomo-vs-plausible/#article",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -233,10 +235,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/matomo-vs-plausible/", "breadcrumb": {"@id": "https://martechsignal.com/vs/matomo-vs-plausible/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

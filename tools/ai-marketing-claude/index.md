@@ -1,61 +1,5 @@
 # AI Marketing Suite pricing
 
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Short native integration list - plan for API work |
-| ✓ AI capabilities: 15 marketing skills with 5 parallel subagents |  |
-| ✓ Active public repository (2,699 GitHub stars counted at last check) |  |
-
-**What is AI Marketing Suite?**
-AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,699 stars.
-
-**How much does AI Marketing Suite cost?**
-AI Marketing Suite is open source - MIT licensed and free to self-host; the public repository carries 2,699 stars. You pay in server time and maintenance, not licences.
-
-**Is AI Marketing Suite a good self-hosted Agent Skills tool in 2026?**
-Best as a proposal-generation engine for agencies selling audits. For steady content work, the writing skills are the lasting value.
-
-- **Founded:** 2025
-- **Licence:** MIT
-- **Public API:** no
-- **Catalogued integrations:** 1
-- **GitHub stars:** 2,699
-
-- **Pricing:** Open Source
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 2699
-- **Founded:** 2025
-- **API:** No
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-28
-
-**Verdict:** AI Marketing Suite is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integration and a self-hosting path. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Claude SEO
-
-Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
-
-Aaron Marketing Skills
-
-120 marketing skills across 7 disciplines for Claude Code with auditor gates
-
-AI Business Skills
-
-63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-
-Digital Marketing Pro
-
-163-skill AI marketing plugin for agencies with EU AI Act compliance
-
-Eve Marketing Team Template
-
-Open-source team of marketing agents on eve: lead, content, social, SEO, email
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -68,7 +12,7 @@ KIND: Agent Skill (not an end-to-end platform)
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit AI Marketing Suite →](https://github.com/zubair-trabzada/ai-marketing-claude)
 
@@ -79,6 +23,12 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## Catalog facts: AI Marketing Suite
 
 Not yet scored against the rubric, so no verdict here. This is everything the catalog holds on the tool, verified against vendor sources.
+
+- **Founded:** 2025
+- **Licence:** MIT
+- **Public API:** no
+- **Catalogued integrations:** 1
+- **GitHub stars:** 2,699
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -150,6 +100,13 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Short native integration list - plan for API work |
+| ✓ AI capabilities: 15 marketing skills with 5 parallel subagents |  |
+| ✓ Active public repository (2,699 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -163,10 +120,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is AI Marketing Suite?**
 AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,699 stars.
 
+**How much does AI Marketing Suite cost?**
 AI Marketing Suite is open source - MIT licensed and free to self-host; the public repository carries 2,699 stars. You pay in server time and maintenance, not licences.
 
+**Is AI Marketing Suite a good self-hosted Agent Skills tool in 2026?**
 Best as a proposal-generation engine for agencies selling audits. For steady content work, the writing skills are the lasting value.
 
 ## Similar Tools
@@ -178,11 +138,45 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 - [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **GitHub:** ★ 2699
+- **Founded:** 2025
+- **API:** No
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-28
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** AI Marketing Suite is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integration and a self-hosting path. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Claude SEO
+
+Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
+
+Aaron Marketing Skills
+
+120 marketing skills across 7 disciplines for Claude Code with auditor gates
+
+AI Business Skills
+
+63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+Digital Marketing Pro
+
+163-skill AI marketing plugin for agencies with EU AI Act compliance
+
+Eve Marketing Team Template
+
+Open-source team of marketing agents on eve: lead, content, social, SEO, email
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

@@ -1,64 +1,5 @@
 # Heap review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 5/10 | Free (10K sessions/mo, 6 months history) is published; Growth and Pro are custom-priced (the vendor pricing page: [pricing page](https://www.heap.io/pricing), verified 2026-08-28). |
-| Feature depth | 7/10 | Autocapture, session replay analysis and digital experience insights cover the retroactive analysis story (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
-| Integrations | 7/10 | Slack, Salesforce, Zapier, Segment, Amplitude, Snowflake, Marketo and HubSpot documented plus an API (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
-| AI capability | 6/10 | AI autocapture labeling, replay analysis and anomaly detection serve the analysis loop (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with data exports to your warehouse (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
-| Operational maturity | 7/10 | Founded 2013 with enterprise analytics deployments behind the autocapture pitch (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI autocapture | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Slack, Salesforce, Zapier (8 listed) |  |
-| ✓ Free tier to evaluate before committing (Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing) |  |
-
-**What is Heap?**
-Heap: AI-powered product analytics with autocapture and digital experience insights. Heap ships with AI autocapture. This page documents 8 integrations.
-
-**How much does Heap cost?**
-Heap has a free tier, so you can run a real evaluation before paying. Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
-
-**Is Heap worth it past the free tier?**
-Choose it when you keep discovering untagged events after the fact. Disciplined taggers get more from Mixpanel.
-
-- **Pricing:** Freemium
-- **Category:** [Analytics & Attribution](/categories/analytics/)
-- **Founded:** 2013
-- **HQ:** San Francisco, CA, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Heap is a tool in Analytics & Attribution with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Mixpanel
-
-Product analytics platform with AI-powered insights for user behavior tracking
-
-Amplitude
-
-AI-powered digital analytics platform for product and marketing teams
-
-PostHog
-
-Open-source product analytics platform with session replay, feature flags, experiments, and surveys
-
-Matomo
-
-Open-source web analytics platform with full data ownership and AI-powered insights
-
-Northbeam
-
-AI-powered multi-touch attribution and marketing intelligence for ecommerce
-
-[More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
@@ -71,7 +12,7 @@ AI-powered product analytics with autocapture and digital experience insights
 
 Analytics & Attribution · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Heap →](https://www.heap.io)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 35/60
 
 Heap's autocapture means analysis starts after the questions, not before, which is the whole pitch. The free tier is small; the value shows up when retroactive funnels save a quarter of instrumentation work.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 5/10 | Free (10K sessions/mo, 6 months history) is published; Growth and Pro are custom-priced (the vendor pricing page: [pricing page](https://www.heap.io/pricing), verified 2026-08-28). |
+| Feature depth | 7/10 | Autocapture, session replay analysis and digital experience insights cover the retroactive analysis story (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
+| Integrations | 7/10 | Slack, Salesforce, Zapier, Segment, Amplitude, Snowflake, Marketo and HubSpot documented plus an API (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
+| AI capability | 6/10 | AI autocapture labeling, replay analysis and anomaly detection serve the analysis loop (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with data exports to your warehouse (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2013 with enterprise analytics deployments behind the autocapture pitch (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -130,6 +81,13 @@ Choose it when you keep discovering untagged events after the fact. Disciplined 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI autocapture | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Slack, Salesforce, Zapier (8 listed) |  |
+| ✓ Free tier to evaluate before committing (Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing) |  |
+
 ## Related concepts
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -143,10 +101,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Heap?**
 Heap: AI-powered product analytics with autocapture and digital experience insights. Heap ships with AI autocapture. This page documents 8 integrations.
 
+**How much does Heap cost?**
 Heap has a free tier, so you can run a real evaluation before paying. Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
 
+**Is Heap worth it past the free tier?**
 Choose it when you keep discovering untagged events after the fact. Disciplined taggers get more from Mixpanel.
 
 ## Similar Tools
@@ -161,6 +122,13 @@ Choose it when you keep discovering untagged events after the fact. Disciplined 
 - [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Teams that want retroactive analysis without a tagging plan first
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Analytics & Attribution](/categories/analytics/)
+- **Founded:** 2013
+- **HQ:** San Francisco, CA, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 ## Get the next teardown
@@ -168,6 +136,28 @@ Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Heap is a tool in Analytics & Attribution with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Mixpanel
+
+Product analytics platform with AI-powered insights for user behavior tracking
+
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+PostHog
+
+Open-source product analytics platform with session replay, feature flags, experiments, and surveys
+
+Matomo
+
+Open-source web analytics platform with full data ownership and AI-powered insights
+
+[More Analytics & Attribution Tools →](/categories/analytics/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -186,8 +176,15 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/heap/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
-    "datePublished": "2026-07-27"
+    "dateModified": "2026-09-29",
+    "datePublished": "2026-07-27",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "USD",
+      "url": "https://www.heap.io/pricing",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -279,10 +276,6 @@ One email when a new tool review lands, nothing else.
     }
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/heap/", "breadcrumb": {"@id": "https://martechsignal.com/tools/heap/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

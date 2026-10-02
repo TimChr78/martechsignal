@@ -1,64 +1,5 @@
 # Jasper review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Creator $39/mo annual ($49 monthly), Pro $59/mo annual ($69 monthly), Business custom, all published (the vendor pricing page: [pricing page](https://www.jasper.ai/pricing), verified 2026-08-28). |
-| Feature depth | 7/10 | Copy, images, campaign workflows and content repurposing cover the marketing content pipeline (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
-| Integrations | 6/10 | Chrome, Surfer SEO, Zapier, HubSpot, WordPress, Webflow, Canva and Google Docs documented plus an API (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
-| AI capability | 7/10 | Brand voice training plus campaign workflows make it more than a writing box (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2021 with priced self-serve tiers and a large user base behind it (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI copy generation | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Chrome, Surfer SEO, Zapier (8 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is Jasper?**
-Jasper: AI marketing content platform for creating on-brand copy, images, and campaigns. Jasper ships with AI copy generation. This page documents 8 integrations.
-
-**How much does Jasper cost?**
-Jasper starts at $39/mo. Creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Jasper worth paying for in 2026?**
-Best for enterprises needing brand-governed, multichannel output at scale. Solo users get more from raw models.
-
-- **Pricing:** From $39/mo
-- **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **Founded:** 2021
-- **HQ:** Austin, TX, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Jasper is a tool in AI Content & Copywriting with paid plans starting at $39/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-ContentBot
-
-AI content automation platform with workflows for blogs, ads, and social posts
-
-Hypotenuse AI
-
-AI content generation platform for ecommerce product descriptions and articles
-
-Copy.ai
-
-AI-powered GTM platform for sales and marketing content automation at scale
-
-Clearscope
-
-AI-powered content optimization platform for SEO teams and content writers
-
-Persado
-
-AI content creation and optimization platform for regulated financial services marketing
-
-[More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
@@ -71,7 +12,7 @@ AI marketing content platform for creating on-brand copy, images, and campaigns
 
 AI Content & Copywriting · From $39/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Jasper →](https://www.jasper.ai)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 37/60
 
 Jasper is the brand-voice-first content platform for marketing teams that publish at volume. At $39/mo entry it is accessible; the value depends entirely on how much brand governance you need.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Creator $39/mo annual ($49 monthly), Pro $59/mo annual ($69 monthly), Business custom, all published (the vendor pricing page: [pricing page](https://www.jasper.ai/pricing), verified 2026-08-28). |
+| Feature depth | 7/10 | Copy, images, campaign workflows and content repurposing cover the marketing content pipeline (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
+| Integrations | 6/10 | Chrome, Surfer SEO, Zapier, HubSpot, WordPress, Webflow, Canva and Google Docs documented plus an API (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
+| AI capability | 7/10 | Brand voice training plus campaign workflows make it more than a writing box (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2021 with priced self-serve tiers and a large user base behind it (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -130,6 +81,13 @@ Best for enterprises needing brand-governed, multichannel output at scale. Solo 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI copy generation | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Chrome, Surfer SEO, Zapier (8 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [AI content](/glossary/ai-content-generation/)
@@ -142,10 +100,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Jasper?**
 Jasper: AI marketing content platform for creating on-brand copy, images, and campaigns. Jasper ships with AI copy generation. This page documents 8 integrations.
 
+**How much does Jasper cost?**
 Jasper starts at $39/mo. Creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Jasper worth paying for in 2026?**
 Best for enterprises needing brand-governed, multichannel output at scale. Solo users get more from raw models.
 
 ## Similar Tools
@@ -161,6 +122,13 @@ Best for enterprises needing brand-governed, multichannel output at scale. Solo 
 - [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/) — Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.
 ### Quick Facts
 
+- **Pricing:** From $39/mo
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
+- **Founded:** 2021
+- **HQ:** Austin, TX, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 
 ## Get the next teardown
@@ -168,6 +136,32 @@ Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tool
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Jasper is a tool in AI Content & Copywriting with paid plans starting at $39/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+ContentBot
+
+AI content automation platform with workflows for blogs, ads, and social posts
+
+Hypotenuse AI
+
+AI content generation platform for ecommerce product descriptions and articles
+
+Copy.ai
+
+AI-powered GTM platform for sales and marketing content automation at scale
+
+Clearscope
+
+AI-powered content optimization platform for SEO teams and content writers
+
+Persado
+
+AI content creation and optimization platform for regulated financial services marketing
+
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -186,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/jasper/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -289,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/jasper/", "breadcrumb": {"@id": "https://martechsignal.com/tools/jasper/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/jasper/", "breadcrumb": {"@id": "https://martechsignal.com/tools/jasper/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

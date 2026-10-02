@@ -1,22 +1,10 @@
 # Agentic Marketing
 
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-Make
-
-Visual automation platform for building complex workflows with AI agents and apps
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Agentic Marketing
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-28
 
 ## Definition
 
@@ -73,6 +61,18 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com)
 - [Marketing ops](/glossary/marketing-ops/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Make
+
+Visual automation platform for building complex workflows with AI agents and apps
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -83,7 +83,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com)
         "@type": "DefinedTerm",
         "name": "Agentic Marketing",
         "description": "Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -141,7 +141,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/agentic-marketing/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/agentic-marketing/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/agentic-marketing/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/agentic-marketing/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

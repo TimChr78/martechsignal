@@ -1,64 +1,5 @@
 # HubSpot Marketing Hub pricing
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free CRM, Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo, all published (the vendor pricing page: [pricing page](https://www.hubspot.com/pricing/marketing), verified 2026-08-28). |
-| Feature depth | 8/10 | Content, email, campaigns, chatbot and predictive scoring cover the marketing hub role with the CRM underneath (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
-| Integrations | 8/10 | Salesforce, Slack, Zapier, Shopify, WordPress, Gmail, Outlook and Stripe documented plus a large app marketplace (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
-| AI capability | 6/10 | Content assistant, predictive lead scoring and campaign recommendations help across the workflow without running it (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with strong APIs; contact data exports are straightforward (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
-| Operational maturity | 9/10 | Founded 2006 with a public company's support and status infrastructure (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI content assistant | ✗ Paid plans start at $20/mo once past the free tier |
-| ✓ G2 rating 4.4/5 | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Salesforce, Slack, Zapier (8 listed) |  |
-| ✓ Free tier to evaluate before committing (Free CRM included) |  |
-
-**What is HubSpot Marketing Hub?**
-HubSpot Marketing Hub: All-in-one marketing automation with AI-powered content, email, and campaign tools. HubSpot Marketing Hub ships with AI content assistant. This page documents 8 integrations.
-
-**How much does HubSpot Marketing Hub cost?**
-HubSpot Marketing Hub has a free tier; paid plans start at $20/mo. Free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
-
-**Is HubSpot Marketing Hub worth it past the free tier?**
-The sensible default for SMB and growth teams that want one system. Fragments when you need true event-driven engagement at scale.
-
-- **Pricing:** Freemium
-- **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **Third-party ratingsG2 rating:** 4.4/5 · [source](https://www.g2.com/products/hubspot-marketing-hub/reviews)as of 2026-08-28
-- **Founded:** 2006
-- **HQ:** Cambridge, MA, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** HubSpot Marketing Hub is a tool in Marketing Automation with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-ActiveCampaign
-
-AI-powered marketing automation and CRM for small to mid-size businesses
-
-HubSpot CRM
-
-Free AI-powered CRM platform with sales, service, and marketing tools unified
-
-Mautic
-
-Open-source marketing automation platform with email, campaigns, and lead management
-
-Ortto
-
-Customer data and marketing automation platform with journeys, CDP, and AI features
-
-Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
-
-[More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
@@ -71,7 +12,7 @@ All-in-one marketing automation with AI-powered content, email, and campaign too
 
 Marketing Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit HubSpot Marketing Hub →](https://www.hubspot.com/products/marketing)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 42/60
 
 Marketing Hub is the low-friction way into serious automation: free CRM at the bottom, per-tier pricing published all the way to $3,600/mo. The jump to Professional is where the real budget conversation starts.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free CRM, Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo, all published (the vendor pricing page: [pricing page](https://www.hubspot.com/pricing/marketing), verified 2026-08-28). |
+| Feature depth | 8/10 | Content, email, campaigns, chatbot and predictive scoring cover the marketing hub role with the CRM underneath (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
+| Integrations | 8/10 | Salesforce, Slack, Zapier, Shopify, WordPress, Gmail, Outlook and Stripe documented plus a large app marketplace (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
+| AI capability | 6/10 | Content assistant, predictive lead scoring and campaign recommendations help across the workflow without running it (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with strong APIs; contact data exports are straightforward (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
+| Operational maturity | 9/10 | Founded 2006 with a public company's support and status infrastructure (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -130,6 +81,14 @@ The sensible default for SMB and growth teams that want one system. Fragments wh
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI content assistant | ✗ Paid plans start at $20/mo once past the free tier |
+| ✓ G2 rating 4.4/5 | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Salesforce, Slack, Zapier (8 listed) |  |
+| ✓ Free tier to evaluate before committing (Free CRM included) |  |
+
 ## Related concepts
 
 - [Marketing automation](/glossary/marketing-automation/)
@@ -144,10 +103,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is HubSpot Marketing Hub?**
 HubSpot Marketing Hub: All-in-one marketing automation with AI-powered content, email, and campaign tools. HubSpot Marketing Hub ships with AI content assistant. This page documents 8 integrations.
 
+**How much does HubSpot Marketing Hub cost?**
 HubSpot Marketing Hub has a free tier; paid plans start at $20/mo. Free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
+**Is HubSpot Marketing Hub worth it past the free tier?**
 The sensible default for SMB and growth teams that want one system. Fragments when you need true event-driven engagement at scale.
 
 ## Similar Tools
@@ -163,6 +125,14 @@ The sensible default for SMB and growth teams that want one system. Fragments wh
 - [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/) — Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Marketing Automation](/categories/marketing-automation/)
+- **Third-party ratingsG2 rating:** 4.4/5 · [source](https://www.g2.com/products/hubspot-marketing-hub/reviews)as of 2026-08-28
+- **Founded:** 2006
+- **HQ:** Cambridge, MA, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
 
 ## Get the next teardown
@@ -170,6 +140,30 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** HubSpot Marketing Hub is a tool in Marketing Automation with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+ActiveCampaign
+
+AI-powered marketing automation and CRM for small to mid-size businesses
+
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+Mautic
+
+Open-source marketing automation platform with email, campaigns, and lead management
+
+Ortto
+
+Customer data and marketing automation platform with journeys, CDP, and AI features
+
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
+
+[More Marketing Automation Tools →](/categories/marketing-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -188,7 +182,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/hubspot-marketing-hub/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -300,7 +294,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hubspot-marketing-hub/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hubspot-marketing-hub/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hubspot-marketing-hub/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hubspot-marketing-hub/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

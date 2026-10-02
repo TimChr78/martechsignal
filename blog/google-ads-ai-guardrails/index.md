@@ -1,7 +1,5 @@
 # AI ad account guardrails Google won't ship
 
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 GOOGLE ADS · AI · 7 MIN
 
 ## The guardrails Google won't ship for your AI ad account
@@ -10,7 +8,7 @@ GOOGLE ADS · AI · 7 MIN
 
 [Home](/) · [Blog](/blog/) · The guardrails Google won't ship for your AI ad account
 
-SEP 24, 2026 · Updated 2026-10-02
+SEP 24, 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -100,6 +98,8 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -131,7 +131,7 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
     }
   },
   "datePublished": "2026-09-24",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-24",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-ads-ai-guardrails/",
   "image": {
     "@type": "ImageObject",
@@ -189,7 +189,7 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-ads-ai-guardrails/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-ads-ai-guardrails/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-ads-ai-guardrails/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-ads-ai-guardrails/#breadcrumb"}, "dateModified": "2026-09-24"}
 ```
 
 ```json

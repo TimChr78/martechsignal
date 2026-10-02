@@ -81,8 +81,14 @@ def esc(s):
 
 def pricing_label(t):
     m = t.get("pricing_model", "paid")
+    _pf = t.get("paid_from")
     if m == "free": return "Free"
-    if m == "freemium": return "Freemium"
+    # r20 M-5 (2026-10-02): a model label alone is not a price - append the
+    # known paid entry so comparison columns carry numbers, not just labels.
+    if m == "freemium":
+        if _pf not in (None, 0):
+            return "Freemium from $" + str(_pf) + "/mo"
+        return "Freemium"
     if m == "open-source": return "Open Source"
     if m == "enterprise": return "Enterprise"
     p = t.get("price_from")
@@ -546,6 +552,12 @@ def _blame_edit_dates():
 _BLAME_DATES = None
 
 def _record_edit_date(slug, fallback):
+    # r20 H-2 (2026-10-02): the record's human-maintained date_updated is the
+    # visible clock (sidebar Last-verified); blame on tools.json spans wins
+    # only when the record declares no date. Builder output then already
+    # matches the sync-injector policy - no build-order dependence.
+    if fallback:
+        return fallback
     global _BLAME_DATES
     if _BLAME_DATES is None:
         _BLAME_DATES = _blame_edit_dates()
@@ -1105,6 +1117,8 @@ def _offer_for(t):
         # its quoted price. Both tiers require a real free-entry signal:
         # open-source (self-host free) or a free-carrying pricing model.
         if _pf == 0 and (t.get("open_source") or str(t.get("pricing_model") or "").lower() in ("freemium", "free", "open-core")):
+            if _paid == 0:
+                return _offer(0)
             return [_offer(0), _offer(_paid)]
         return _offer(_paid)
     if _pf is not None and _pf > 0:
@@ -1117,17 +1131,13 @@ def _offer_for(t):
     # r7 M5 (2026-09-28): mixed-model pages (free self-hosted core alongside
     # paid cloud/premium tiers listed in price_notes) contradict a zero Offer
     # on their own visible pricing. Only genuinely-free products keep it.
-    if _pf == 0 and (t.get("pricing_model") == "free" or t.get("open_source")):
-        # r16 M-9 (2026-09-29): open-source records stay free by definition
-        # (self-host); dollar figures in their notes are usage costs, not
-        # product tiers (seo-skill-bench precedent: $1.70-$4.46 are the
-        # caller's own LLM API tokens). Freemium-model records keep the
-        # nonzero blocker (r7 M5): quoted paid tiers in notes contradict a
-        # lone zero Offer. "$0" alone is a free price, not a paid tier.
-        if t.get("open_source") and str(t.get("pricing_model") or "") in ("open-source", "free"):
-            return _offer(0)
-        if not re.search(r"[€$£]\s?[1-9]|\d+\s?€", t.get("price_notes") or ""):
-            return _offer(0)
+    # r20 H-7 (2026-10-02): every free-tier tool (price_from 0 with a real
+    # free plan: freemium/free/open-core model or open-source) emits at least
+    # the 0 Offer. This overrides the r7 M5 lone-zero blocker: the page body
+    # documents the paid tiers, and a missing Offer reads as no-price-data.
+    # r16 M-9 still holds (open-source records stay free by definition).
+    if _pf == 0 and (t.get("open_source") or str(t.get("pricing_model") or "").lower() in ("freemium", "free", "open-core")):
+        return _offer(0)
     return None
 
 
@@ -3010,6 +3020,10 @@ def build_llms_txt(tools, cats):
         "## Machine-readable data",
         "",
         f"- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). {_records} records = {n_active} active + {_retired} non-active; the directory above lists only active tools",
+        # r20 M-7 (2026-10-02): the ARD catalog and category catalog were
+        # invisible to consumers following only llms.txt.
+        "- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 301 entries with representativeQueries (specVersion 1.0)",
+        "- [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above",
         "- [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows",
         "",
     ]
@@ -3481,18 +3495,24 @@ def sync_date_modified():
         if "deploy-out" in _p.parts or ".well-known" in _p.parts:
             continue
         _s = _p.read_text()
-        # r6 M-4/M-5 (2026-09-27): the REAL last-edit date wins. Declared dates
-        # (datePublished / <time>) are fallbacks, not authorities: generator-stamped
-        # "today" was leaking into dateModified and sitemap lastmod on 43 URLs.
-        _val = _blame_content_date(_p)
-        if not _val:
-            _m = _re.search(r'"datePublished"\s*:\s*"([^"]+)"', _s)
-            if _m:
-                _val = _m.group(1)
-        if not _val:
-            _m = _re.search(r'<time[^>]*datetime="([^"]+)"', _s)
-            if _m:
-                _val = _m.group(1)[:10]
+        # r20 H-2 (2026-10-02): the rebuild proved blame is a build stamp, not
+        # a content date - every regenerated file blames the regen date, so
+        # 298 pages got dateModified == build date. Declared human dates
+        # (Last-verified checks, datePublished, visible stamps) are the only
+        # verifiable freshness signals; blame fills ONLY pages that declare
+        # nothing. Derived "Updated <time>" notes are output, never a source.
+        _cands = []
+        _m = _re.search(r'"datePublished"[ ]*:[ ]*"([^"]+)"', _s)
+        if _m:
+            _cands.append(_m.group(1)[:10])
+        for _mt in _re.finditer(r'<time[^>]*datetime="([^"]+)"', _s):
+            _t10 = _mt.group(1)[:10]
+            if 'Updated' in _s[max(0, _mt.start() - 30):_mt.start()]:
+                continue
+            _cands.append(_t10)
+        _cands = sorted(set(_c for _c in _cands if '2000-01-01' <= _c <= '2030-01-01'))
+        _from_blame = not _cands
+        _val = _cands[-1] if _cands else _blame_content_date(_p)
         if not _val:
             continue
         # r18 H-2 (2026-09-30): the template entity (ItemList/Article) carries
@@ -3509,22 +3529,27 @@ def sync_date_modified():
         # byline moves with the unified date.
         _s = _re.sub(r'[Uu]pdated <time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>',
                      f'Updated <time datetime="{_val}">{_val}</time>', _s)
-        # A3 H-2 (2026-10-02): schema newer than every visible date with no
-        # Updated note = the mismatch the audit flagged. Insert the note after
-        # the first published <time> so the visible page corroborates the
-        # machine date.
-        if not _re.search(r'[Uu]pdated\s*<time', _s):
-            _vis = _re.findall(r'<time datetime="([0-9]{4}-[0-9]{2}-[0-9]{2})">', _s)
-            if _vis and all(_val > _v for _v in _vis):
-                try:
-                    import datetime as _dt2
-                    _ud = _dt2.datetime.strptime(_val, '%Y-%m-%d').strftime('%b %d, %Y').upper()
-                except ValueError:
-                    _ud = _val
-                # (the lambda below carries the group reference; never use a backslash literal here)
-                _s = _re.sub(r'(<time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>)',
-                             lambda _m: _m.group(1) + ' &middot; Updated <time datetime="' + _val + '">' + _ud + '</time>',
-                             _s, count=1)
+        # A3 H-2 (2026-10-02): kept for blame-fallback pages only (see r20 H-2
+        # block below). Human-date pages never gain an Updated note.
+        # r20 H-2 (2026-10-02): the Updated note is only meaningful when blame
+        # found a genuine post-publication edit. Human-date pages never gain
+        # one; a note duplicating Last-verified is removed, not rewritten.
+        if _from_blame:
+            if not _re.search(r'[Uu]pdated[ ]*<time', _s):
+                _vis = _re.findall(r'<time datetime="([0-9]{4}-[0-9]{2}-[0-9]{2})">', _s)
+                if _vis and all(_val > _v for _v in _vis):
+                    try:
+                        import datetime as _dt2
+                        _ud = _dt2.datetime.strptime(_val, '%Y-%m-%d').strftime('%b %d, %Y').upper()
+                    except ValueError:
+                        _ud = _val
+                    # (the lambda below carries the group reference; never use a backslash literal here)
+                    _s = _re.sub(r'(<time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>)',
+                                 lambda _m: _m.group(1) + ' &middot; Updated <time datetime="' + _val + '">' + _ud + '</time>',
+                                 _s, count=1)
+        else:
+            _s = _re.sub(r'[ ]*(?:&middot;|·)[ ]*[Uu]pdated <time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>',
+                         lambda _m: '', _s)
         # r16 L-7 (2026-09-29): pages that already define a WebPage node
         # keep it (unified above); every other page gets one with the
         # unfragmented page URL as @id (the guides pattern the audit calls

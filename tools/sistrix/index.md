@@ -1,66 +1,5 @@
 # SISTRIX review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Start EUR 119/mo through Premium EUR 799/mo published, cancelable monthly with annual discounts (the vendor pricing page: [pricing page](https://www.sistrix.com/pricing/), verified 2026-09-25). |
-| Feature depth | 6/10 | Visibility Index tracking, AI answer analysis and Amazon analysis cover the European SEO scope (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
-| Integrations | 5/10 | Search Console, GA, Slack and the SISTRIX API documented (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
-| AI capability | 5/10 | The AI Visibility module tracks mentions, rankings and citations in AI search engines (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
-| Operational maturity | 7/10 | Established European suite with a long-published index methodology (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI Visibility module: mentions, rankings and citations in AI search engines | ✗ Closed source - no self-hosting option |
-| ✓ 11 years of Visibility Index history on Professional and Premium. | ✗ Start keeps only 3 months of history and 10,000 results per analysis, and cannot add users later. |
-| ✓ Alerts by email or Slack, scheduled PDF reports, and white-label reports from Professional. | ✗ Crawls, SERP updates, content projects and API credits are all metered, with per-unit add-on prices on top of the subscription. |
-| ✓ Monthly cancelation, with a 14-day free trial that includes personal onboarding. | ✗ Listed prices exclude taxes, and outside enterprise agreements invoices are issued in euros only. |
-
-**What is SISTRIX?**
-SISTRIX: German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis. SISTRIX ships with AI Visibility module: mentions, rankings and citations in AI search engines. This page documents 4 integrations.
-
-**How much does SISTRIX cost?**
-SISTRIX starts at €119/mo. Start EUR 119/mo plus taxes; Plus EUR 239/mo; Professional EUR 419/mo; Premium EUR 799/mo. Cancelable monthly; annual contracts reduce the monthly rate (no public figure). Extra users EUR 24.90 on Plus and above. 14-day free trial. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is SISTRIX a good Geo & Llm Optimization tool in 2026?**
-The reference tool for German and European search data, now carrying AI-visibility and Amazon modules in the same account. The metering of credits and add-ons rewards planning over impulse use.
-
-**Does SISTRIX track visibility in AI search?**
-Yes. The Visibility in AI Answers module measures mentions, rankings and citations across AI search engines and sits in the same account as the Google and Amazon modules.
-
-**What does the SISTRIX API include?**
-Plus receives limited access covering only Visibility Index data. Professional and Premium open the full API and all features. Export and API credits are metered weekly per tier.
-
-- **Pricing:** From €119/mo
-- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
-- **HQ:** Germany
-- **API:** Yes
-- **Last verified:** 2026-09-25
-
-**Verdict:** SISTRIX is a tool in GEO & LLM Optimization with paid plans starting at €119/mo. The catalog documents 1 AI feature, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-Rankscale
-
-AI visibility tracking across 17+ answer engines for agencies and enterprise teams
-
-Profound
-
-Enterprise AI marketing platform: answer-engine visibility plus drafting agents
-
-Nimt.ai
-
-AI search tracking across 8 models with an agent that writes, fixes, and outreaches
-
-Ahrefs
-
-Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
-
-[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
@@ -71,7 +10,7 @@ German SEO suite built on the Visibility Index, with AI-answer and Amazon analys
 
 GEO & LLM Optimization · From €119/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit SISTRIX →](https://www.sistrix.com)
 
@@ -82,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 SISTRIX is the German SEO suite built on its Visibility Index, now with an AI Visibility module for mentions and citations. Monthly cancelable pricing from EUR 119 keeps it accountable.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Start EUR 119/mo through Premium EUR 799/mo published, cancelable monthly with annual discounts (the vendor pricing page: [pricing page](https://www.sistrix.com/pricing/), verified 2026-09-25). |
+| Feature depth | 6/10 | Visibility Index tracking, AI answer analysis and Amazon analysis cover the European SEO scope (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
+| Integrations | 5/10 | Search Console, GA, Slack and the SISTRIX API documented (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
+| AI capability | 5/10 | The AI Visibility module tracks mentions, rankings and citations in AI search engines (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Established European suite with a long-published index methodology (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -130,6 +79,14 @@ The reference tool for German and European search data, now carrying AI-visibili
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI Visibility module: mentions, rankings and citations in AI search engines | ✗ Closed source - no self-hosting option |
+| ✓ 11 years of Visibility Index history on Professional and Premium. | ✗ Start keeps only 3 months of history and 10,000 results per analysis, and cannot add users later. |
+| ✓ Alerts by email or Slack, scheduled PDF reports, and white-label reports from Professional. | ✗ Crawls, SERP updates, content projects and API credits are all metered, with per-unit add-on prices on top of the subscription. |
+| ✓ Monthly cancelation, with a 14-day free trial that includes personal onboarding. | ✗ Listed prices exclude taxes, and outside enterprise agreements invoices are issued in euros only. |
+
 ## Related concepts
 
 - [GEO](/glossary/geo/)
@@ -143,14 +100,19 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is SISTRIX?**
 SISTRIX: German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis. SISTRIX ships with AI Visibility module: mentions, rankings and citations in AI search engines. This page documents 4 integrations.
 
+**How much does SISTRIX cost?**
 SISTRIX starts at €119/mo. Start EUR 119/mo plus taxes; Plus EUR 239/mo; Professional EUR 419/mo; Premium EUR 799/mo. Cancelable monthly; annual contracts reduce the monthly rate (no public figure). Extra users EUR 24.90 on Plus and above. 14-day free trial. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is SISTRIX a good Geo & Llm Optimization tool in 2026?**
 The reference tool for German and European search data, now carrying AI-visibility and Amazon modules in the same account. The metering of credits and add-ons rewards planning over impulse use.
 
+**Does SISTRIX track visibility in AI search?**
 Yes. The Visibility in AI Answers module measures mentions, rankings and citations across AI search engines and sits in the same account as the Google and Amazon modules.
 
+**What does the SISTRIX API include?**
 Plus receives limited access covering only Visibility Index data. Professional and Premium open the full API and all features. Export and API credits are metered weekly per tier.
 
 ## Similar Tools
@@ -162,11 +124,39 @@ Plus receives limited access covering only Visibility Index data. Professional a
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ### Quick Facts
 
+- **Pricing:** From €119/mo
+- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
+- **HQ:** Germany
+- **API:** Yes
+- **Last verified:** 2026-09-25
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** SISTRIX is a tool in GEO & LLM Optimization with paid plans starting at €119/mo. The catalog documents 1 AI feature, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+Rankscale
+
+AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+
+Profound
+
+Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+
+Nimt.ai
+
+AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+
+Ahrefs
+
+Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+
+[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -185,7 +175,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/sistrix/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-25",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -304,7 +294,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/sistrix/", "breadcrumb": {"@id": "https://martechsignal.com/tools/sistrix/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/sistrix/", "breadcrumb": {"@id": "https://martechsignal.com/tools/sistrix/#breadcrumb"}, "dateModified": "2026-09-25"}
 ```
 
 ```json

@@ -1,67 +1,5 @@
 # SuiteCRM review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 6/10 | Free self-hosted open source with paid cloud hosting available; the hosting prices are not itemized in the catalog (the vendor pricing page: [vendor site](https://www.suitecrm.com), verified 2026-09-07). |
-| Feature depth | 7/10 | Sales, marketing and support automation across one codebase covers the full CRM triangle, the reason it persists (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
-| Integrations | 3/10 | No named integrations in the catalog; APIs and community modules carry the extension story (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0 self-hosted with the whole suite free (the source repository: [repository](https://github.com/SuiteCRM/SuiteCRM), verified 2026-09-28). |
-| Operational maturity | 7/10 | A SugarCRM fork with years of production deployments and a stable release cadence (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ API access for custom integrations |  |
-| ✓ Active public repository (5,779 GitHub stars counted at last check) |  |
-
-**What is SuiteCRM?**
-SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,779 stars. SuiteCRM offers a public API for custom integrations.
-
-**How much does SuiteCRM cost?**
-SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,779 stars. You pay in server time and maintenance, not licences.
-
-**Is SuiteCRM a good self-hosted CRM tool in 2026?**
-The established open-source CRM workhorse: unmatched module depth and free core workflows, with no AI, no mobile app, and a migration path that needs planning. Current, maintained, and still the default on-premise choice.
-
-**Does SuiteCRM have AI features?**
-No native ones. The documented feature set, release notes, roadmap, and user guide contain no AI, machine learning, or predictive capability, and there is no AI add-on in the vendor's price list; SuiteASSURED and the support tiers cover hosting, fixes, and guarantees. Teams that want scoring or prediction build it themselves against the documented V8 API with OAuth, or run enrichment and scoring in an external tool and write results back to records. Any vendor claiming AI-driven SuiteCRM features is describing custom work.
-
-**How do you migrate from SuiteCRM 7 to SuiteCRM 8?**
-As a fresh installation, not an in-place patch. The docs require the latest 7.x release as the source (migrating from an older 7.x will fail or produce unstable results), then a new SuiteCRM 8 install with three console commands: ./bin/console suitecrm:app:setup-legacy-migration, ./bin/console suitecrm:app:upgrade -t with the migration package, for example SuiteCRM-8.7.0, and ./bin/console suitecrm:app:upgrade-finalize. The 7 codebase is copied into public/legacy and continues to serve the legacy surface. Test on a copy, since 8.10 also removed the SOAP portal as a breaking change.
-
-- **Pricing:** Open Source
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 5779
-- **HQ:** Stirling, Scotland, UK
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** SuiteCRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Django CRM
-
-Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
-
-EspoCRM
-
-Lightweight open-source CRM with sales automation, marketing tools, and customer management
-
-Cordys CRM
-
-Open-source AI CRM with built-in agents, conversational analytics, and private deployment
-
-Krayin CRM
-
-Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -74,7 +12,7 @@ Enterprise-grade open-source CRM with sales, marketing, and support automation
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit SuiteCRM →](https://www.suitecrm.com)
 
@@ -85,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 SuiteCRM is the safe long-liver of open-source CRM: sales, marketing and support automation on one AGPL codebase. The AI era has not really arrived on it yet.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Free self-hosted open source with paid cloud hosting available; the hosting prices are not itemized in the catalog (the vendor pricing page: [vendor site](https://www.suitecrm.com), verified 2026-09-07). |
+| Feature depth | 7/10 | Sales, marketing and support automation across one codebase covers the full CRM triangle, the reason it persists (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
+| Integrations | 3/10 | No named integrations in the catalog; APIs and community modules carry the extension story (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 self-hosted with the whole suite free (the source repository: [repository](https://github.com/SuiteCRM/SuiteCRM), verified 2026-09-28). |
+| Operational maturity | 7/10 | A SugarCRM fork with years of production deployments and a stable release cadence (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -139,6 +87,13 @@ The established open-source CRM workhorse: unmatched module depth and free core 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ API access for custom integrations |  |
+| ✓ Active public repository (5,779 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -153,14 +108,19 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is SuiteCRM?**
 SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,779 stars. SuiteCRM offers a public API for custom integrations.
 
+**How much does SuiteCRM cost?**
 SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,779 stars. You pay in server time and maintenance, not licences.
 
+**Is SuiteCRM a good self-hosted CRM tool in 2026?**
 The established open-source CRM workhorse: unmatched module depth and free core workflows, with no AI, no mobile app, and a migration path that needs planning. Current, maintained, and still the default on-premise choice.
 
+**Does SuiteCRM have AI features?**
 No native ones. The documented feature set, release notes, roadmap, and user guide contain no AI, machine learning, or predictive capability, and there is no AI add-on in the vendor's price list; SuiteASSURED and the support tiers cover hosting, fixes, and guarantees. Teams that want scoring or prediction build it themselves against the documented V8 API with OAuth, or run enrichment and scoring in an external tool and write results back to records. Any vendor claiming AI-driven SuiteCRM features is describing custom work.
 
+**How do you migrate from SuiteCRM 7 to SuiteCRM 8?**
 As a fresh installation, not an in-place patch. The docs require the latest 7.x release as the source (migrating from an older 7.x will fail or produce unstable results), then a new SuiteCRM 8 install with three console commands: ./bin/console suitecrm:app:setup-legacy-migration, ./bin/console suitecrm:app:upgrade -t with the migration package, for example SuiteCRM-8.7.0, and ./bin/console suitecrm:app:upgrade-finalize. The 7 codebase is copied into public/legacy and continues to serve the legacy surface. Test on a copy, since 8.10 also removed the SOAP portal as a breaking change.
 
 ## Similar Tools
@@ -176,6 +136,14 @@ As a fresh installation, not an in-place patch. The docs require the latest 7.x 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Sales teams that want a mature, enterprise-shaped CRM they control
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 5779
+- **HQ:** Stirling, Scotland, UK
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 Related guides: [SuiteCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)
 
 ## Get the next teardown
@@ -183,6 +151,28 @@ Related guides: [SuiteCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** SuiteCRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Django CRM
+
+Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
+
+EspoCRM
+
+Lightweight open-source CRM with sales automation, marketing tools, and customer management
+
+Cordys CRM
+
+Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+
+Krayin CRM
+
+Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

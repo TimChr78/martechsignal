@@ -1,64 +1,5 @@
 # ContentBot review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Prepaid $0.50/1K words, Starter $9/mo and Premium $29/mo published with a free trial (the vendor pricing page: [pricing page](https://contentbot.ai/pricing), verified 2026-08-28). |
-| Feature depth | 5/10 | Blog, ad copy, image and bulk generation with workflows cover the content production loop (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
-| Integrations | 5/10 | WordPress, Chrome, Zapier, Shopify and Google Docs documented plus an API (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
-| AI capability | 5/10 | Bulk generation and content workflows are the automation core (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2021 with published per-word pricing (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI blog generation | ✗ Paid plans start at $9/mo once past the free tier |
-| ✓ Native integrations include WordPress, Chrome, Zapier (5 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available) |  |
-
-**What is ContentBot?**
-ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations.
-
-**How much does ContentBot cost?**
-ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
-
-**Is ContentBot worth it past the free tier?**
-Good value for high-volume, template-driven content pipelines. Teams doing premium long-form writing should stay with Jasper.
-
-- **Pricing:** Freemium
-- **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **Founded:** 2021
-- **HQ:** Cape Town, South Africa
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** ContentBot is a tool in AI Content & Copywriting with a free tier. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Jasper
-
-AI marketing content platform for creating on-brand copy, images, and campaigns
-
-Copy.ai
-
-AI-powered GTM platform for sales and marketing content automation at scale
-
-Hypotenuse AI
-
-AI content generation platform for ecommerce product descriptions and articles
-
-Anyword
-
-AI copywriting platform with predictive performance scores for marketing content
-
-Ghost
-
-Open-source publishing platform with built-in newsletters, memberships, and AI tools
-
-[More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
@@ -71,7 +12,7 @@ AI content automation platform with workflows for blogs, ads, and social posts
 
 AI Content & Copywriting · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit ContentBot →](https://contentbot.ai)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 32/60
 
 ContentBot is priced like a utility: $0.50 per 1,000 prepaid words with a $9 floor. The workflows and bulk generation make volume cheap; the output still needs an editor.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Prepaid $0.50/1K words, Starter $9/mo and Premium $29/mo published with a free trial (the vendor pricing page: [pricing page](https://contentbot.ai/pricing), verified 2026-08-28). |
+| Feature depth | 5/10 | Blog, ad copy, image and bulk generation with workflows cover the content production loop (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
+| Integrations | 5/10 | WordPress, Chrome, Zapier, Shopify and Google Docs documented plus an API (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
+| AI capability | 5/10 | Bulk generation and content workflows are the automation core (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2021 with published per-word pricing (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -127,6 +78,13 @@ Good value for high-volume, template-driven content pipelines. Teams doing premi
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI blog generation | ✗ Paid plans start at $9/mo once past the free tier |
+| ✓ Native integrations include WordPress, Chrome, Zapier (5 listed) | ✗ Closed source - no self-hosting option |
+| ✓ Free tier to evaluate before committing (Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available) |  |
+
 ## Related concepts
 
 - [AI content](/glossary/ai-content-generation/)
@@ -139,10 +97,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is ContentBot?**
 ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations.
 
+**How much does ContentBot cost?**
 ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
+**Is ContentBot worth it past the free tier?**
 Good value for high-volume, template-driven content pipelines. Teams doing premium long-form writing should stay with Jasper.
 
 ## Similar Tools
@@ -154,11 +115,44 @@ Good value for high-volume, template-driven content pipelines. Teams doing premi
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
+- **Founded:** 2021
+- **HQ:** Cape Town, South Africa
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** ContentBot is a tool in AI Content & Copywriting with a free tier. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Jasper
+
+AI marketing content platform for creating on-brand copy, images, and campaigns
+
+Copy.ai
+
+AI-powered GTM platform for sales and marketing content automation at scale
+
+Hypotenuse AI
+
+AI content generation platform for ecommerce product descriptions and articles
+
+Anyword
+
+AI copywriting platform with predictive performance scores for marketing content
+
+Ghost
+
+Open-source publishing platform with built-in newsletters, memberships, and AI tools
+
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -177,7 +171,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/contentbot/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -289,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/contentbot/", "breadcrumb": {"@id": "https://martechsignal.com/tools/contentbot/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/contentbot/", "breadcrumb": {"@id": "https://martechsignal.com/tools/contentbot/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

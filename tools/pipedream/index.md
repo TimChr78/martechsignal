@@ -1,56 +1,5 @@
 # Pipedream review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Free (100 credits/mo), Basic $29/mo (2,000 credits, 20M AI tokens), Advanced $49/mo, Connect $99/mo published, Business custom (the vendor pricing page, verified Sep 2026: [pricing page](https://pipedream.com/pricing), verified 2026-09-28). |
-| Feature depth | 7/10 | Data-driven triggers and HTTP steps with real code execution cover the programmable automation surface; the no-code layer is thinner than Make's (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
-| Integrations | 8/10 | 2,500+ integrations advertised around a code-first component model (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
-| AI capability | 5/10 | AI tokens are priced into the plans and code steps can call any model, but there is no documented AI product layer in the catalog (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
-| Openness | 4/10 | Closed platform, though code steps are plain Node or Python you can lift out (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
-| Operational maturity | 6/10 | A known developer platform with usage-based plans and years in market (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-|  | ✗ Closed source - no self-hosting option |
-
-**What is Pipedream?**
-Pipedream: Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps.
-
-**How much does Pipedream cost?**
-Pipedream starts at $29/mo. Basic $29/month (2,000 credits, 20M AI tokens), Advanced $49/month, Connect $99/month (verified Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Pipedream worth it past the free tier?**
-The automation platform for developers who want code control with SaaS convenience.
-
-- **Pricing:** Freemium
-- **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **API:** No
-- **Last verified:** 2026-09-25
-
-**Verdict:** Pipedream is a tool in Workflow Automation with paid plans starting at $29/mo. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
-Zapier
-
-No-code automation platform connecting 9,000+ apps with AI-powered workflows
-
-Make
-
-Visual automation platform for building complex workflows with AI agents and apps
-
-Activepieces
-
-Open-source workflow automation with a free cloud tier and on-prem hosting
-
-[More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
@@ -61,7 +10,7 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
 
 Workflow Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Pipedream →](https://pipedream.com)
 
@@ -72,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 37/60
 
 Pipedream is the developer's automation host: code steps first, connectors second. Teams that live in code get more done here than anywhere else; everyone else will fight it.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Free (100 credits/mo), Basic $29/mo (2,000 credits, 20M AI tokens), Advanced $49/mo, Connect $99/mo published, Business custom (the vendor pricing page, verified Sep 2026: [pricing page](https://pipedream.com/pricing), verified 2026-09-28). |
+| Feature depth | 7/10 | Data-driven triggers and HTTP steps with real code execution cover the programmable automation surface; the no-code layer is thinner than Make's (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
+| Integrations | 8/10 | 2,500+ integrations advertised around a code-first component model (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
+| AI capability | 5/10 | AI tokens are priced into the plans and code steps can call any model, but there is no documented AI product layer in the catalog (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
+| Openness | 4/10 | Closed platform, though code steps are plain Node or Python you can lift out (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | A known developer platform with usage-based plans and years in market (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -103,6 +62,11 @@ The automation platform for developers who want code control with SaaS convenien
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+|  | ✗ Closed source - no self-hosting option |
+
 ## Related concepts
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -117,10 +81,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Pipedream?**
 Pipedream: Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps.
 
+**How much does Pipedream cost?**
 Pipedream starts at $29/mo. Basic $29/month (2,000 credits, 20M AI tokens), Advanced $49/month, Connect $99/month (verified Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Pipedream worth it past the free tier?**
 The automation platform for developers who want code control with SaaS convenience.
 
 ## Similar Tools
@@ -135,6 +102,11 @@ The automation platform for developers who want code control with SaaS convenien
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for developer teams wanting code steps and MCP endpoints.
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Workflow Automation](/categories/workflow-automation/)
+- **API:** No
+- **Last verified:** 2026-09-25
+
 Related guides: [Pipedream in Zapier alternatives](/alternatives/zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/)
 
 ## Get the next teardown
@@ -142,6 +114,28 @@ Related guides: [Pipedream in Zapier alternatives](/alternatives/zapier/) · [Wo
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Pipedream is a tool in Workflow Automation with paid plans starting at $29/mo. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Zapier
+
+No-code automation platform connecting 9,000+ apps with AI-powered workflows
+
+Make
+
+Visual automation platform for building complex workflows with AI agents and apps
+
+Activepieces
+
+Open-source workflow automation with a free cloud tier and on-prem hosting
+
+[More Workflow Automation Tools →](/categories/workflow-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -160,7 +154,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/pipedream/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-25",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -263,7 +257,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pipedream/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pipedream/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pipedream/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pipedream/#breadcrumb"}, "dateModified": "2026-09-25"}
 ```
 
 ```json

@@ -388,6 +388,11 @@ def build_vs():
         body = ['<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/vs/">Head-to-head comparisons</a> / '
                 f'<span>{esc(page["title"])}</span></nav>',
                 f'<h1>{esc(page["title"])}</h1>']
+        # r20 H-3 (2026-10-02): the verdict opens the page, matching the /best/
+        # direct-answer pattern - every vs leaf states its pick in the first
+        # 60 words.
+        if page.get("direct_answer"):
+            body.append(f'<p class="direct-answer">{esc(page["direct_answer"])}</p>')
         for para in page["intro"]:
             body.append(f"<p>{esc(para)}</p>")
         # r8 H3 (2026-09-28): the target SERPs reward multi-way framing, so the
@@ -468,8 +473,12 @@ def build_vs():
             for para in page["migration"]:
                 body.append(f'<p>{esc(para)}</p>')
         if page.get("neither"):
-            # r8 H10 (2026-09-28): honest exit for readers who fit neither tool
-            body.append('<h2>When neither is the right answer</h2>')
+            # r8 H10 (2026-09-28): honest exit for readers who fit neither tool.
+            # r20 L-10 (2026-10-02): the 2-way heading survived onto the 3-way
+            # page, whose body says "Skip all three" - head the section for
+            # the page's own arity.
+            _neither_h = "When none of the three is the right answer" if c else "When neither is the right answer"
+            body.append(f'<h2>{_neither_h}</h2>')
             body.append(f'<p>{esc(page["neither"])}</p>')
         body.append(f'<h2>Who should pick which</h2>')
         _picks = [(a, page["pick_a_if"]), (b, page["pick_b_if"])]

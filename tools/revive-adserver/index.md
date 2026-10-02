@@ -1,75 +1,5 @@
 # Revive Adserver review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 5/10 | Self-hosted free (GPL-2.0); the hosted Aqua Platform sells with no public price (Sep 2026) (the vendor pricing page: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
-| Feature depth | 4/10 | Ad serving, targeting and reporting for publishers and networks cover the classic ad-server job (vendor documentation: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
-| Integrations | 3/10 | MaxMind GeoLite2, Google AdSense, MySQL and PHP documented; no API (vendor documentation: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
-| Openness | 8/10 | GPL-2.0 with full self-hosting (the source repository: [repository](https://github.com/revive-adserver/revive-adserver), verified 2026-09-28). |
-| Operational maturity | 5/10 | Long-lived open-source ad server with a hosted edition behind it (vendor documentation: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ GPL-2.0 licence with free self-hosting | ✗ You run the servers, apply updates and watch security advisories yourself. |
-| ✓ Active public repository (1,505 GitHub stars counted at last check) | ✗ Geotargeting quality depends on the MaxMind GeoLite2 plugin and its database updates. |
-| ✓ GPL-2.0 with no license fee and no per-impression charges. | ✗ The interface is mature in the old sense; anyone expecting a current SaaS UI will notice its age. |
-| ✓ Serves websites, apps and video players from one install. |  |
-| ✓ A hosted edition at revive-adserver.net exists for teams that want the software without running it. |  |
-
-**What is Revive Adserver?**
-Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,505 stars.
-
-**How much does Revive Adserver cost?**
-Revive Adserver is open source - GPL-2.0 licensed and free to self-host; the public repository carries 1,505 stars; native integrations cover MaxMind GeoLite2, Google AdSense, MySQL. You pay in server time and maintenance, not licences.
-
-**Is Revive Adserver a good self-hosted Advertising & Paid Media tool in 2026?**
-The dependable choice for ad serving on your own servers with no license fee and no per-impression cost. Expect to own the ops work.
-
-**Is Revive Adserver free?**
-Yes. The download edition is GPL-2.0 software with no license fee. A separate hosted edition is sold at revive-adserver.net by Aqua Platform, so you pay only if you want someone else to operate it.
-
-**What do I need to run it?**
-A PHP and MySQL stack. Installation, upgrade and configuration steps sit in the Administrator Guide on the project documentation site.
-
-**Does it support geotargeting?**
-Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 data; the project README lists GeoLite2 as a dependency.
-
-- **Pricing:** Open Source
-- **Category:** [Advertising & Paid Media](/categories/advertising/)
-- **GitHub:** ★ 1505
-- **API:** No
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-25
-
-**Verdict:** Revive Adserver is a tool in Advertising & Paid Media with free and open source. The catalog documents 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-Google Ads + Meta Ads + GA4 MCP
-
-MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
-
-Albert AI
-
-Autonomous AI platform that manages and optimizes digital advertising campaigns
-
-Line Harness
-
-Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
-
-Nightwatch
-
-Rank tracking across Google and AI answers, priced by keyword with unlimited seats
-
-AdCreative.ai
-
-AI platform generating high-converting ad creatives and social media post designs
-
-[More Advertising & Paid Media Tools →](/categories/advertising/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
@@ -80,7 +10,7 @@ Free open source ad server for publishers, ad networks and advertisers
 
 Advertising & Paid Media · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Revive Adserver →](https://www.revive-adserver.com)
 
@@ -91,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 27/60
 
 Revive Adserver is the free ad server for publishers who want to own delivery. GPL-2.0 and self-hosted; the hosted Aqua Platform hides its price and the platform shows its PHP age.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 5/10 | Self-hosted free (GPL-2.0); the hosted Aqua Platform sells with no public price (Sep 2026) (the vendor pricing page: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
+| Feature depth | 4/10 | Ad serving, targeting and reporting for publishers and networks cover the classic ad-server job (vendor documentation: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
+| Integrations | 3/10 | MaxMind GeoLite2, Google AdSense, MySQL and PHP documented; no API (vendor documentation: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
+| Openness | 8/10 | GPL-2.0 with full self-hosting (the source repository: [repository](https://github.com/revive-adserver/revive-adserver), verified 2026-09-28). |
+| Operational maturity | 5/10 | Long-lived open-source ad server with a hosted edition behind it (vendor documentation: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -132,6 +72,15 @@ The dependable choice for ad serving on your own servers with no license fee and
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ GPL-2.0 licence with free self-hosting | ✗ You run the servers, apply updates and watch security advisories yourself. |
+| ✓ Active public repository (1,505 GitHub stars counted at last check) | ✗ Geotargeting quality depends on the MaxMind GeoLite2 plugin and its database updates. |
+| ✓ GPL-2.0 with no license fee and no per-impression charges. | ✗ The interface is mature in the old sense; anyone expecting a current SaaS UI will notice its age. |
+| ✓ Serves websites, apps and video players from one install. |  |
+| ✓ A hosted edition at revive-adserver.net exists for teams that want the software without running it. |  |
+
 ## Related concepts
 
 - [DSP](/glossary/dsp/)
@@ -146,16 +95,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Revive Adserver?**
 Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,505 stars.
 
+**How much does Revive Adserver cost?**
 Revive Adserver is open source - GPL-2.0 licensed and free to self-host; the public repository carries 1,505 stars; native integrations cover MaxMind GeoLite2, Google AdSense, MySQL. You pay in server time and maintenance, not licences.
 
+**Is Revive Adserver a good self-hosted Advertising & Paid Media tool in 2026?**
 The dependable choice for ad serving on your own servers with no license fee and no per-impression cost. Expect to own the ops work.
 
+**Is Revive Adserver free?**
 Yes. The download edition is GPL-2.0 software with no license fee. A separate hosted edition is sold at revive-adserver.net by Aqua Platform, so you pay only if you want someone else to operate it.
 
+**What do I need to run it?**
 A PHP and MySQL stack. Installation, upgrade and configuration steps sit in the Administrator Guide on the project documentation site.
 
+**Does it support geotargeting?**
 Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 data; the project README lists GeoLite2 as a dependency.
 
 ## Similar Tools
@@ -167,11 +122,44 @@ Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 dat
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Advertising & Paid Media](/categories/advertising/)
+- **GitHub:** ★ 1505
+- **API:** No
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-25
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Revive Adserver is a tool in Advertising & Paid Media with free and open source. The catalog documents 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+Google Ads + Meta Ads + GA4 MCP
+
+MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+
+Albert AI
+
+Autonomous AI platform that manages and optimizes digital advertising campaigns
+
+Line Harness
+
+Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
+
+Nightwatch
+
+Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+
+AdCreative.ai
+
+AI platform generating high-converting ad creatives and social media post designs
+
+[More Advertising & Paid Media Tools →](/categories/advertising/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

@@ -1,64 +1,5 @@
 # Surfer SEO review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Discovery $49 to $59/mo, Standard $99 to $119, Pro $182 to $219 and Peace of Mind $299 to $359 published by billing choice (the vendor pricing page: [pricing page](https://surferseo.com/pricing/), verified 2026-09-28). |
-| Feature depth | 7/10 | Content editing, article generation, keyword research, audits and AI visibility tracking cover the content-SEO loop (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
-| Integrations | 6/10 | Google Docs, WordPress, Jasper, Zapier, Search Console and Semrush documented plus an API (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
-| AI capability | 6/10 | AI editor, generator and audit stack with SERP analysis and visibility tracking (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
-| Operational maturity | 7/10 | Founded 2017 as the category-defining content editor (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI content editor | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Google Docs, WordPress, Jasper (6 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is Surfer SEO?**
-Surfer SEO: AI-powered content optimization platform for SEO-driven article writing and audits. Surfer SEO ships with AI content editor. This page documents 6 integrations.
-
-**How much does Surfer SEO cost?**
-Surfer SEO starts at $49/mo. Discovery $49-59/mo; Standard $99-119/mo; Pro $182-219/mo; Peace of Mind $299-359/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Surfer SEO worth paying for in 2026?**
-Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a human editor; it is a compass, not a writer.
-
-- **Pricing:** From $49/mo
-- **Category:** [SEO & Search](/categories/seo/)
-- **Founded:** 2017
-- **HQ:** Wroclaw, Poland
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Surfer SEO is a tool in SEO & Search with paid plans starting at $49/mo. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Clearscope
-
-AI-powered content optimization platform for SEO teams and content writers
-
-MarketMuse
-
-AI-powered content strategy and optimization platform for SEO content teams
-
-Semrush
-
-All-in-one SEO and digital marketing platform with AI-powered insights and tools
-
-Frase
-
-AI-powered SEO content platform for research, writing, and AI visibility tracking
-
-OpenSEO
-
-Open source alternative to Ahrefs and Semrush
-
-[More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
@@ -71,7 +12,7 @@ AI-powered content optimization platform for SEO-driven article writing and audi
 
 SEO & Search · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Surfer SEO →](https://surferseo.com)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 36/60
 
 Surfer SEO owns the content-editor category and now tracks AI visibility too. Tier prices swing between monthly and annual billing, so read both columns before committing.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Discovery $49 to $59/mo, Standard $99 to $119, Pro $182 to $219 and Peace of Mind $299 to $359 published by billing choice (the vendor pricing page: [pricing page](https://surferseo.com/pricing/), verified 2026-09-28). |
+| Feature depth | 7/10 | Content editing, article generation, keyword research, audits and AI visibility tracking cover the content-SEO loop (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
+| Integrations | 6/10 | Google Docs, WordPress, Jasper, Zapier, Search Console and Semrush documented plus an API (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
+| AI capability | 6/10 | AI editor, generator and audit stack with SERP analysis and visibility tracking (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2017 as the category-defining content editor (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -129,6 +80,13 @@ Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a hu
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI content editor | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Google Docs, WordPress, Jasper (6 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [SEO](/glossary/seo/)
@@ -143,10 +101,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Surfer SEO?**
 Surfer SEO: AI-powered content optimization platform for SEO-driven article writing and audits. Surfer SEO ships with AI content editor. This page documents 6 integrations.
 
+**How much does Surfer SEO cost?**
 Surfer SEO starts at $49/mo. Discovery $49-59/mo; Standard $99-119/mo; Pro $182-219/mo; Peace of Mind $299-359/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Surfer SEO worth paying for in 2026?**
 Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a human editor; it is a compass, not a writer.
 
 ## Similar Tools
@@ -161,6 +122,13 @@ Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a hu
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for writers who want a live content score while drafting.
 ### Quick Facts
 
+- **Pricing:** From $49/mo
+- **Category:** [SEO & Search](/categories/seo/)
+- **Founded:** 2017
+- **HQ:** Wroclaw, Poland
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 ## Get the next teardown
@@ -168,6 +136,32 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Surfer SEO is a tool in SEO & Search with paid plans starting at $49/mo. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Clearscope
+
+AI-powered content optimization platform for SEO teams and content writers
+
+MarketMuse
+
+AI-powered content strategy and optimization platform for SEO content teams
+
+Semrush
+
+All-in-one SEO and digital marketing platform with AI-powered insights and tools
+
+Frase
+
+AI-powered SEO content platform for research, writing, and AI visibility tracking
+
+OpenSEO
+
+Open source alternative to Ahrefs and Semrush
+
+[More SEO & Search Tools →](/categories/seo/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -186,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/surfer-seo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -289,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/surfer-seo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/surfer-seo/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/surfer-seo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/surfer-seo/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

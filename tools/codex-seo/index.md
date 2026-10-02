@@ -1,65 +1,5 @@
 # Codex SEO review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Free to use with API costs for DataForSEO, Gemini, Google and Firecrawl stated as the run cost (the vendor pricing page: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-08-28). |
-| Feature depth | 6/10 | 26 SEO workflows with 24 TOML agent profiles and GEO/AEO optimization cover the agent-SEO surface (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
-| Integrations | 7/10 | DataForSEO, Google Search Console, Firecrawl and Gemini documented plus Codex as the harness (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
-| AI capability | 6/10 | GEO/AEO optimization workflows with agent profiles make it agent-native SEO tooling (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
-| Openness | 4/10 | Free and source-visible but under a proprietary courtesy licence, not OSS (the source repository: [repository](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
-| Operational maturity | 4/10 | Founded 2025 under a solo author's licence (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: 26 SEO workflows with 24 TOML agent profiles | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include OpenAI Codex, DataForSEO, Google Search Console (5 listed) |  |
-| ✓ Free tier to evaluate before committing (Free to use. The bundled licence is proprietary (courtesy of the author) - not an OSS licence) |  |
-
-**What is Codex SEO?**
-Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 772 stars.
-
-**How much does Codex SEO cost?**
-Codex SEO has a free tier, so you can run a real evaluation before paying. Free to use. The bundled licence is proprietary (courtesy of the author) - not an OSS licence. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
-
-**What does running Codex SEO actually cost?**
-The right SEO skill pack for Codex-based teams. Claude Code users should stick with the original Claude SEO.
-
-- **Pricing:** Free
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 772
-- **Founded:** 2025
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-08-28
-
-**Verdict:** Codex SEO is a tool in Agent Skills with a free tier. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Claude SEO
-
-Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
-
-AI Business Skills
-
-63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-
-Digital Marketing Pro
-
-163-skill AI marketing plugin for agencies with EU AI Act compliance
-
-Growth Lab
-
-Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
-
-Open Mercato
-
-Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -72,7 +12,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 
 Agent Skills · Free Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Codex SEO →](https://github.com/AgriciDaniel/codex-seo)
 
@@ -83,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 Codex SEO is a serious free skill suite: 26 workflows, 24 agent profiles and real API integrations. The proprietary courtesy licence means free today and unknowable later.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Free to use with API costs for DataForSEO, Gemini, Google and Firecrawl stated as the run cost (the vendor pricing page: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-08-28). |
+| Feature depth | 6/10 | 26 SEO workflows with 24 TOML agent profiles and GEO/AEO optimization cover the agent-SEO surface (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
+| Integrations | 7/10 | DataForSEO, Google Search Console, Firecrawl and Gemini documented plus Codex as the harness (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
+| AI capability | 6/10 | GEO/AEO optimization workflows with agent profiles make it agent-native SEO tooling (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
+| Openness | 4/10 | Free and source-visible but under a proprietary courtesy licence, not OSS (the source repository: [repository](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2025 under a solo author's licence (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -126,6 +76,13 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: 26 SEO workflows with 24 TOML agent profiles | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include OpenAI Codex, DataForSEO, Google Search Console (5 listed) |  |
+| ✓ Free tier to evaluate before committing (Free to use. The bundled licence is proprietary (courtesy of the author) - not an OSS licence) |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -139,10 +96,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Codex SEO?**
 Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 772 stars.
 
+**How much does Codex SEO cost?**
 Codex SEO has a free tier, so you can run a real evaluation before paying. Free to use. The bundled licence is proprietary (courtesy of the author) - not an OSS licence. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
 
+**What does running Codex SEO actually cost?**
 The right SEO skill pack for Codex-based teams. Claude Code users should stick with the original Claude SEO.
 
 ## Similar Tools
@@ -157,6 +117,14 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for Codex CLI users who want scripted SEO workflows.
 ### Quick Facts
 
+- **Pricing:** Free
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **GitHub:** ★ 772
+- **Founded:** 2025
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-08-28
+
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 ## Get the next teardown
@@ -164,6 +132,32 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Codex SEO is a tool in Agent Skills with a free tier. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Claude SEO
+
+Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
+
+AI Business Skills
+
+63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+Digital Marketing Pro
+
+163-skill AI marketing plugin for agencies with EU AI Act compliance
+
+Growth Lab
+
+Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
+
+Open Mercato
+
+Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

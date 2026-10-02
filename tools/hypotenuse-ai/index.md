@@ -1,64 +1,5 @@
 # Hypotenuse AI review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Essential $56/mo annual ($87 monthly) published with custom enterprise plans above it (the vendor pricing page: [pricing page](https://www.hypotenuse.ai/pricing), verified 2026-08-28). |
-| Feature depth | 6/10 | Articles, product descriptions, images and bulk generation cover the catalog content workflow (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
-| Integrations | 5/10 | Shopify, WordPress, Chrome, Zapier, Google Docs and Webflow documented plus an API (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
-| AI capability | 6/10 | Bulk generation with brand voice across text and images is the practical core (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2020 with one published tier and an enterprise option (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI article generation | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Shopify, WordPress, Chrome (6 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is Hypotenuse AI?**
-Hypotenuse AI: AI content generation platform for ecommerce product descriptions and articles. Hypotenuse AI ships with AI article generation. This page documents 6 integrations.
-
-**How much does Hypotenuse AI cost?**
-Hypotenuse AI starts at $56/mo. Essential $56/mo (annual) or $87/mo; custom enterprise plans available. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Hypotenuse AI worth paying for in 2026?**
-A strong specialist for bulk product catalog content at scale. General writing needs are better served elsewhere.
-
-- **Pricing:** From $56/mo
-- **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **Founded:** 2020
-- **HQ:** Singapore
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Hypotenuse AI is a tool in AI Content & Copywriting with paid plans starting at $56/mo. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Jasper
-
-AI marketing content platform for creating on-brand copy, images, and campaigns
-
-Predis.ai
-
-AI-powered social media content generator for posts, videos, and ad creatives
-
-Bloomreach
-
-AI-powered commerce experience platform with search, personalization, and CDP
-
-Nosto
-
-AI-powered ecommerce personalization with product recommendations and merchandising
-
-Strapi
-
-Open-source headless CMS with AI-powered content management and API-first design
-
-[More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
@@ -71,7 +12,7 @@ AI content generation platform for ecommerce product descriptions and articles
 
 AI Content & Copywriting · From $56/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Hypotenuse AI →](https://www.hypotenuse.ai)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 32/60
 
 Hypotenuse AI is built for catalog work: bulk product descriptions and articles at ecommerce scale. If your pain is 10,000 product pages, its workflow beats a general writing tool.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Essential $56/mo annual ($87 monthly) published with custom enterprise plans above it (the vendor pricing page: [pricing page](https://www.hypotenuse.ai/pricing), verified 2026-08-28). |
+| Feature depth | 6/10 | Articles, product descriptions, images and bulk generation cover the catalog content workflow (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
+| Integrations | 5/10 | Shopify, WordPress, Chrome, Zapier, Google Docs and Webflow documented plus an API (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
+| AI capability | 6/10 | Bulk generation with brand voice across text and images is the practical core (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2020 with one published tier and an enterprise option (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -129,6 +80,13 @@ A strong specialist for bulk product catalog content at scale. General writing n
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI article generation | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, WordPress, Chrome (6 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [AI content](/glossary/ai-content-generation/)
@@ -141,10 +99,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Hypotenuse AI?**
 Hypotenuse AI: AI content generation platform for ecommerce product descriptions and articles. Hypotenuse AI ships with AI article generation. This page documents 6 integrations.
 
+**How much does Hypotenuse AI cost?**
 Hypotenuse AI starts at $56/mo. Essential $56/mo (annual) or $87/mo; custom enterprise plans available. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Hypotenuse AI worth paying for in 2026?**
 A strong specialist for bulk product catalog content at scale. General writing needs are better served elsewhere.
 
 ## Similar Tools
@@ -159,6 +120,13 @@ A strong specialist for bulk product catalog content at scale. General writing n
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Catalog-heavy stores generating product content in bulk
 ### Quick Facts
 
+- **Pricing:** From $56/mo
+- **Category:** [AI Content & Copywriting](/categories/content-ai/)
+- **Founded:** 2020
+- **HQ:** Singapore
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 
 ## Get the next teardown
@@ -166,6 +134,32 @@ Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tool
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Hypotenuse AI is a tool in AI Content & Copywriting with paid plans starting at $56/mo. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Jasper
+
+AI marketing content platform for creating on-brand copy, images, and campaigns
+
+Predis.ai
+
+AI-powered social media content generator for posts, videos, and ad creatives
+
+Bloomreach
+
+AI-powered commerce experience platform with search, personalization, and CDP
+
+Nosto
+
+AI-powered ecommerce personalization with product recommendations and merchandising
+
+Strapi
+
+Open-source headless CMS with AI-powered content management and API-first design
+
+[More AI Content & Copywriting Tools →](/categories/content-ai/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -184,7 +178,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/hypotenuse-ai/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -287,7 +281,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hypotenuse-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hypotenuse-ai/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hypotenuse-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hypotenuse-ai/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

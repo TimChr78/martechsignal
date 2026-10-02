@@ -1,69 +1,5 @@
 # Loops review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 5/10 | Free up to 1,000 contacts and 4,000 sends per rolling 30 days published; paid plans are contact-based with no listed prices (the vendor pricing page: [pricing page](https://loops.so/pricing), verified 2026-09-28). |
-| Feature depth | 6/10 | Marketing, product and transactional email in one tool cover the SaaS messaging stack (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
-| Integrations | 6/10 | Stripe, Segment, Zapier, PostHog, Supabase, Clerk, Fivetran and Make documented plus an API (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
-| AI capability | 5/10 | LLM email translation, an AI workflow builder and an MCP server for agent access (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API and MCP access (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2022 with a developer-market product shape (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: LLM email translation | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Stripe, Segment, Zapier (8 listed) |  |
-| ✓ Free tier to evaluate before committing (Free up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days) |  |
-
-**What is Loops?**
-Loops: Email marketing for SaaS: marketing, product, and transactional email in one tool. Loops ships with LLM email translation. This page documents 8 integrations.
-
-**How much does Loops cost?**
-Loops has a free tier, so you can run a real evaluation before paying. Free up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days; paid plans are contact-based with unlimited sends and no published list prices. We last checked the plan structure on 2026-09-07; paid tiers mainly raise limits rather than unlocking core features.
-
-**Is Loops worth it past the free tier?**
-A focused, developer-friendly email platform for SaaS: strong API and agent access, honest scope, email only, and paid pricing you calculate rather than read.
-
-**Does Loops support custom HTML email?**
-No. Loops does not accept custom HTML emails; content is created in its editor or in LMX, the platform's XML-based markup, and reused through a Components API so edits cascade into every email that uses the component. Imports are supported from MJML, Emailify, and Email Love. The docs include a page titled Why we don't support HTML emails explaining the reasoning, so teams with strict design-control requirements should test the editor against their needs first.
-
-**How does Loops pricing work as your list grows?**
-It is contact-based, not send-based: Loops charges on subscribed contacts and does not charge separately for sending. The free plan covers 0 to 1,000 subscribed contacts and up to 4,000 sends in any rolling 30 days, with all features included and a small Powered by Loops footer. Paid plans remove the branding, raise throughput to 1,000 emails per second, and lift the send cap entirely, with no per-seat fees. Loops publishes no dollar figures on its pricing page; you move a slider to estimate cost, and unsubscribed contacts do not count toward the limit.
-
-**Can AI coding agents connect to Loops?**
-Yes, and it is documented as a first-class surface rather than a bolt-on. Loops publishes an MCP server so any MCP client can read and write contacts, events, and content, along with agent skills for Claude Code, Codex, and Cursor, setup and migrate CLI commands, and a Claude Connector added in August 2026. The REST API underneath exposes roughly 70 endpoints with a public OpenAPI spec at app.loops.so/openapi.json. Separately, an in-app AI agent can assemble a workflow from a prompt, and LLM Translation translates an email branch in one click.
-
-- **Pricing:** Freemium
-- **Category:** [Email Marketing](/categories/email-marketing/)
-- **Founded:** 2022
-- **HQ:** Washington, DC, USA
-- **API:** Yes
-- **Last verified:** 2026-09-07
-
-**Verdict:** Loops is a tool in Email Marketing with a free tier. The catalog documents 3 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Notifuse
-
-Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
-
-Resend
-
-Developer-first email API built around React Email, batch sending, and agent tooling
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
-
-Postmark
-
-Transactional email API with separated message streams, an MCP server, and published delivery numbers
-
-[More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
@@ -76,7 +12,7 @@ Email marketing for SaaS: marketing, product, and transactional email in one too
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Loops →](https://loops.so)
 
@@ -87,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 30/60
 
 Loops is SaaS email done in one tool: marketing, product and transactional with an MCP server for agents. Free to 1,000 contacts; paid pricing is contact-based and quoted rather than listed.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 5/10 | Free up to 1,000 contacts and 4,000 sends per rolling 30 days published; paid plans are contact-based with no listed prices (the vendor pricing page: [pricing page](https://loops.so/pricing), verified 2026-09-28). |
+| Feature depth | 6/10 | Marketing, product and transactional email in one tool cover the SaaS messaging stack (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
+| Integrations | 6/10 | Stripe, Segment, Zapier, PostHog, Supabase, Clerk, Fivetran and Make documented plus an API (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
+| AI capability | 5/10 | LLM email translation, an AI workflow builder and an MCP server for agent access (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2022 with a developer-market product shape (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -154,6 +100,13 @@ A focused, developer-friendly email platform for SaaS: strong API and agent acce
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: LLM email translation | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Stripe, Segment, Zapier (8 listed) |  |
+| ✓ Free tier to evaluate before committing (Free up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days) |  |
+
 ## Related concepts
 
 - [Email sequence](/glossary/email-sequence/)
@@ -166,16 +119,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Loops?**
 Loops: Email marketing for SaaS: marketing, product, and transactional email in one tool. Loops ships with LLM email translation. This page documents 8 integrations.
 
+**How much does Loops cost?**
 Loops has a free tier, so you can run a real evaluation before paying. Free up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days; paid plans are contact-based with unlimited sends and no published list prices. We last checked the plan structure on 2026-09-07; paid tiers mainly raise limits rather than unlocking core features.
 
+**Is Loops worth it past the free tier?**
 A focused, developer-friendly email platform for SaaS: strong API and agent access, honest scope, email only, and paid pricing you calculate rather than read.
 
+**Does Loops support custom HTML email?**
 No. Loops does not accept custom HTML emails; content is created in its editor or in LMX, the platform's XML-based markup, and reused through a Components API so edits cascade into every email that uses the component. Imports are supported from MJML, Emailify, and Email Love. The docs include a page titled Why we don't support HTML emails explaining the reasoning, so teams with strict design-control requirements should test the editor against their needs first.
 
+**How does Loops pricing work as your list grows?**
 It is contact-based, not send-based: Loops charges on subscribed contacts and does not charge separately for sending. The free plan covers 0 to 1,000 subscribed contacts and up to 4,000 sends in any rolling 30 days, with all features included and a small Powered by Loops footer. Paid plans remove the branding, raise throughput to 1,000 emails per second, and lift the send cap entirely, with no per-seat fees. Loops publishes no dollar figures on its pricing page; you move a slider to estimate cost, and unsubscribed contacts do not count toward the limit.
 
+**Can AI coding agents connect to Loops?**
 Yes, and it is documented as a first-class surface rather than a bolt-on. Loops publishes an MCP server so any MCP client can read and write contacts, events, and content, along with agent skills for Claude Code, Codex, and Cursor, setup and migrate CLI commands, and a Claude Connector added in August 2026. The REST API underneath exposes roughly 70 endpoints with a public OpenAPI spec at app.loops.so/openapi.json. Separately, an in-app AI agent can assemble a workflow from a prompt, and LLM Translation translates an email branch in one click.
 
 ## Similar Tools
@@ -187,11 +146,40 @@ Yes, and it is documented as a first-class surface rather than a bolt-on. Loops 
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Email Marketing](/categories/email-marketing/)
+- **Founded:** 2022
+- **HQ:** Washington, DC, USA
+- **API:** Yes
+- **Last verified:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Loops is a tool in Email Marketing with a free tier. The catalog documents 3 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Notifuse
+
+Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+
+Resend
+
+Developer-first email API built around React Email, batch sending, and agent tooling
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+Postmark
+
+Transactional email API with separated message streams, an MCP server, and published delivery numbers
+
+[More Email Marketing Tools →](/categories/email-marketing/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -210,8 +198,15 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/loops/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
-    "datePublished": "2026-07-27"
+    "dateModified": "2026-09-29",
+    "datePublished": "2026-07-27",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "USD",
+      "url": "https://loops.so/pricing",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -327,10 +322,6 @@ One email when a new tool review lands, nothing else.
     }
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/loops/", "breadcrumb": {"@id": "https://martechsignal.com/tools/loops/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

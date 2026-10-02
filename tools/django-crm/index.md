@@ -1,73 +1,5 @@
 # Django CRM review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Free self-hosted under MIT with no user caps or feature paywall; managed hosting exists from Bottle CRM with published vertical packs (the vendor pricing page: [vendor site](https://bottlecrm.io), verified 2026-09-06). |
-| Feature depth | 5/10 | Leads, campaigns and multi-tenant basics cover the CRM core; marketing automation depth is minimal (vendor documentation: [vendor site](https://bottlecrm.io), verified 2026-09-28). |
-| Integrations | 4/10 | REST API with an OpenAPI 3 schema, Google OAuth, optional SES and Sentry documented (vendor documentation: [vendor site](https://bottlecrm.io), verified 2026-09-28). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://bottlecrm.io), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with no paywalled features (the source repository: [repository](https://github.com/Django-CRM/Django-CRM), verified 2026-09-28). |
-| Operational maturity | 4/10 | Community-run with one managed-hosting vendor behind it (vendor documentation: [vendor site](https://bottlecrm.io), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ Active public repository (2,436 GitHub stars counted at last check) |  |
-| ✓ Native integrations include REST API (OpenAPI 3 schema), Swagger UI, Google OAuth (5 listed) |  |
-
-**What is Django CRM?**
-Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. The public repository carries 2,436 stars. Django CRM offers a public API for custom integrations.
-
-**How much does Django CRM cost?**
-Django CRM is open source - MIT licensed and free to self-host; the public repository carries 2,436 stars; native integrations cover REST API (OpenAPI 3 schema), Swagger UI, Google OAuth. You pay in server time and maintenance, not licences.
-
-**Is Django CRM a good self-hosted CRM tool in 2026?**
-A disciplined, well-documented multi-tenant CRM for Django teams that want to own the code. Everyone else gets faster value from a hosted product with a larger community.
-
-**Does Django CRM support MCP?**
-Not any more. The project shipped an MCP server at /mcp and then removed it, documenting the reasoning: it proxied eight entities to the same REST API and added no capability. The current guidance is to point an agent at the OpenAPI schema at GET /schema/ with a personal access token.
-
-**Can Django CRM run on SQLite or MySQL?**
-No. Multi-tenancy depends on PostgreSQL Row-Level Security, which has no SQLite equivalent, and the only non-test settings module configures PostgreSQL. SQLite appears only in test settings, and PostgreSQL 16 is the version the project's CI exercises.
-
-**How does multi-tenancy work in Django CRM?**
-Each request sets a PostgreSQL session variable (app.current_org) and Row-Level Security policies filter every table against it at the database layer. The app connects as a restricted crm_user role, never a superuser, because a superuser connection bypasses RLS entirely. That is what lets one deployment host many organizations.
-
-- **Pricing:** Open Source
-- **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 2436
-- **API:** Yes
-- **Repository checked:** 2026-10-01
-- **Page updated:** 2026-09-06
-
-**Verdict:** Django CRM is a tool in CRM with free and open source. The catalog documents 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-SuiteCRM
-
-Enterprise-grade open-source CRM with sales, marketing, and support automation
-
-Relaticle
-
-Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
-
-Twenty
-
-The open-source alternative to Salesforce, designed for AI with modern CRM workflows
-
-EspoCRM
-
-Lightweight open-source CRM with sales automation, marketing tools, and customer management
-
-Freshsales
-
-AI-powered CRM with built-in phone, email, and chat for sales teams
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -80,7 +12,7 @@ Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Django CRM →](https://bottlecrm.io)
 
@@ -91,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 32/60
 
 Django CRM is a CRM for teams that read Python: MIT, multi-tenant, no feature paywall at all. The trade is that everything around it, including AI, is your own build.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free self-hosted under MIT with no user caps or feature paywall; managed hosting exists from Bottle CRM with published vertical packs (the vendor pricing page: [vendor site](https://bottlecrm.io), verified 2026-09-06). |
+| Feature depth | 5/10 | Leads, campaigns and multi-tenant basics cover the CRM core; marketing automation depth is minimal (vendor documentation: [vendor site](https://bottlecrm.io), verified 2026-09-28). |
+| Integrations | 4/10 | REST API with an OpenAPI 3 schema, Google OAuth, optional SES and Sentry documented (vendor documentation: [vendor site](https://bottlecrm.io), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://bottlecrm.io), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with no paywalled features (the source repository: [repository](https://github.com/Django-CRM/Django-CRM), verified 2026-09-28). |
+| Operational maturity | 4/10 | Community-run with one managed-hosting vendor behind it (vendor documentation: [vendor site](https://bottlecrm.io), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -147,6 +89,13 @@ A disciplined, well-documented multi-tenant CRM for Django teams that want to ow
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
+| ✓ Active public repository (2,436 GitHub stars counted at last check) |  |
+| ✓ Native integrations include REST API (OpenAPI 3 schema), Swagger UI, Google OAuth (5 listed) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -161,16 +110,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Django CRM?**
 Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. The public repository carries 2,436 stars. Django CRM offers a public API for custom integrations.
 
+**How much does Django CRM cost?**
 Django CRM is open source - MIT licensed and free to self-host; the public repository carries 2,436 stars; native integrations cover REST API (OpenAPI 3 schema), Swagger UI, Google OAuth. You pay in server time and maintenance, not licences.
 
+**Is Django CRM a good self-hosted CRM tool in 2026?**
 A disciplined, well-documented multi-tenant CRM for Django teams that want to own the code. Everyone else gets faster value from a hosted product with a larger community.
 
+**Does Django CRM support MCP?**
 Not any more. The project shipped an MCP server at /mcp and then removed it, documenting the reasoning: it proxied eight entities to the same REST API and added no capability. The current guidance is to point an agent at the OpenAPI schema at GET /schema/ with a personal access token.
 
+**Can Django CRM run on SQLite or MySQL?**
 No. Multi-tenancy depends on PostgreSQL Row-Level Security, which has no SQLite equivalent, and the only non-test settings module configures PostgreSQL. SQLite appears only in test settings, and PostgreSQL 16 is the version the project's CI exercises.
 
+**How does multi-tenancy work in Django CRM?**
 Each request sets a PostgreSQL session variable (app.current_org) and Row-Level Security policies filter every table against it at the database layer. The app connects as a restricted crm_user role, never a superuser, because a superuser connection bypasses RLS entirely. That is what lets one deployment host many organizations.
 
 ## Similar Tools
@@ -182,11 +137,44 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 2436
+- **API:** Yes
+- **Repository checked:** 2026-10-01
+- **Page updated:** 2026-09-06
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Django CRM is a tool in CRM with free and open source. The catalog documents 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
+SuiteCRM
+
+Enterprise-grade open-source CRM with sales, marketing, and support automation
+
+Relaticle
+
+Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
+
+Twenty
+
+The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+
+EspoCRM
+
+Lightweight open-source CRM with sales automation, marketing tools, and customer management
+
+Freshsales
+
+AI-powered CRM with built-in phone, email, and chat for sales teams
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -205,7 +193,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/django-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-10-01",
     "datePublished": "2026-08-21",
     "offers": {
       "@type": "Offer",
@@ -332,7 +320,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/django-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/django-crm/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/django-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/django-crm/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

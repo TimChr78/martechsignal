@@ -1,65 +1,5 @@
 # Pencil review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Core $14/mo ($11 annual) with 50 generations, Growth $55/mo ($44 annual) with 250, Pro custom, all published (the vendor pricing page: [pricing page](https://trypencil.com/pricing), verified 2026-09-06). |
-| Feature depth | 6/10 | Text, image, video and ad creative generation with performance prediction cover the creative pipeline (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
-| Integrations | 6/10 | Nine named ad and DAM connections from Meta and Google Ads to DV360 and Bynder (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
-| AI capability | 8/10 | Multi-model aggregation across OpenAI, Google, Adobe, Runway and Bria with self-serve agents per medium (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS; no API documented in the catalog (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2018 with published tiers and enterprise creative deployments (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: multi-model aggregation: OpenAI, Google, Adobe, Runway, Bria (Claude listed as live) | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Meta (Facebook & Instagram Ads), Google Ads, TikTok Ads (11 listed) |  |
-
-**What is Pencil?**
-Pencil: AI-powered ad creative generation and performance prediction for paid media. Pencil ships with multi-model aggregation: OpenAI, Google, Adobe, Runway, Bria (Claude listed as live). This page documents 11 integrations.
-
-**How much does Pencil cost?**
-Pencil starts at $11/mo. Core $14/mo ($11/mo billed annually) with 50 generations; Growth $55/mo ($44/mo annual) with 250 generations and unlimited workspaces; Pro custom-priced with unlimited generations and committed consumption. Metered in generations, not seats. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Pencil worth paying for in 2026?**
-Generative creative with enterprise governance on top, now priced self-serve at the low end. Confirm which features are live and budget in generations rather than seats.
-
-**Which AI models does Pencil use?**
-The site names OpenAI, Google, Adobe, Runway, and Bria as the aggregated model sources, with the platform selecting the model per task. Claude is listed as now live on the integrations page, and Pro add-ons cover managed fine-tuning and bring-your-own models.
-
-**Is Pencil part of the Brandtech Group?**
-Yes. Brandtech Group branding appears across the site, the legal entity in the footer is Pencil AI Limited, and the product line is marketed as Pencil Pro alongside the self-serve Pencil plans. Case studies are published with Brandtech-affiliated brands such as Experian, Diageo, and L'Oreal.
-
-- **Pricing:** From $11/mo
-- **Category:** [Advertising & Paid Media](/categories/advertising/)
-- **Founded:** 2018
-- **HQ:** Singapore
-- **API:** No
-- **Last verified:** 2026-09-06
-
-**Verdict:** Pencil is a tool in Advertising & Paid Media with paid plans starting at $11/mo. The catalog documents 5 AI features and 11 integrations. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-Albert AI
-
-Autonomous AI platform that manages and optimizes digital advertising campaigns
-
-Smartly.io
-
-AI advertising platform spanning creative production, media buying, and measurement
-
-Madgicx
-
-AI-powered Meta ads optimization and creative workflow
-
-AdCreative.ai
-
-AI platform generating high-converting ad creatives and social media post designs
-
-[More Advertising & Paid Media Tools →](/categories/advertising/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
@@ -72,7 +12,7 @@ AI-powered ad creative generation and performance prediction for paid media
 
 Advertising & Paid Media · From $11/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Pencil →](https://trypencil.com)
 
@@ -83,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 37/60
 
 Pencil aggregates the generation models so you do not have to pick one, and predicts creative performance on top. At $14/mo entry it is the cheapest serious creative bench.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Core $14/mo ($11 annual) with 50 generations, Growth $55/mo ($44 annual) with 250, Pro custom, all published (the vendor pricing page: [pricing page](https://trypencil.com/pricing), verified 2026-09-06). |
+| Feature depth | 6/10 | Text, image, video and ad creative generation with performance prediction cover the creative pipeline (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
+| Integrations | 6/10 | Nine named ad and DAM connections from Meta and Google Ads to DV360 and Bynder (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
+| AI capability | 8/10 | Multi-model aggregation across OpenAI, Google, Adobe, Runway and Bria with self-serve agents per medium (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS; no API documented in the catalog (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2018 with published tiers and enterprise creative deployments (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -149,6 +99,12 @@ Generative creative with enterprise governance on top, now priced self-serve at 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: multi-model aggregation: OpenAI, Google, Adobe, Runway, Bria (Claude listed as live) | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Meta (Facebook & Instagram Ads), Google Ads, TikTok Ads (11 listed) |  |
+
 ## Related concepts
 
 - [DSP](/glossary/dsp/)
@@ -163,14 +119,19 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Pencil?**
 Pencil: AI-powered ad creative generation and performance prediction for paid media. Pencil ships with multi-model aggregation: OpenAI, Google, Adobe, Runway, Bria (Claude listed as live). This page documents 11 integrations.
 
+**How much does Pencil cost?**
 Pencil starts at $11/mo. Core $14/mo ($11/mo billed annually) with 50 generations; Growth $55/mo ($44/mo annual) with 250 generations and unlimited workspaces; Pro custom-priced with unlimited generations and committed consumption. Metered in generations, not seats. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Pencil worth paying for in 2026?**
 Generative creative with enterprise governance on top, now priced self-serve at the low end. Confirm which features are live and budget in generations rather than seats.
 
+**Which AI models does Pencil use?**
 The site names OpenAI, Google, Adobe, Runway, and Bria as the aggregated model sources, with the platform selecting the model per task. Claude is listed as now live on the integrations page, and Pro add-ons cover managed fine-tuning and bring-your-own models.
 
+**Is Pencil part of the Brandtech Group?**
 Yes. Brandtech Group branding appears across the site, the legal entity in the footer is Pencil AI Limited, and the product line is marketed as Pencil Pro alongside the self-serve Pencil plans. Case studies are published with Brandtech-affiliated brands such as Experian, Diageo, and L'Oreal.
 
 ## Similar Tools
@@ -185,6 +146,13 @@ Yes. Brandtech Group branding appears across the site, the legal entity in the f
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Best for advertising & paid media teams that want gwi-powered insights agent, starting at $14/mo.
 ### Quick Facts
 
+- **Pricing:** From $11/mo
+- **Category:** [Advertising & Paid Media](/categories/advertising/)
+- **Founded:** 2018
+- **HQ:** Singapore
+- **API:** No
+- **Last verified:** 2026-09-06
+
 Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 
 ## Get the next teardown
@@ -192,6 +160,28 @@ Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Pencil is a tool in Advertising & Paid Media with paid plans starting at $11/mo. The catalog documents 5 AI features and 11 integrations. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
+Albert AI
+
+Autonomous AI platform that manages and optimizes digital advertising campaigns
+
+Smartly.io
+
+AI advertising platform spanning creative production, media buying, and measurement
+
+Madgicx
+
+AI-powered Meta ads optimization and creative workflow
+
+AdCreative.ai
+
+AI platform generating high-converting ad creatives and social media post designs
+
+[More Advertising & Paid Media Tools →](/categories/advertising/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -210,7 +200,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/pencil/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-06",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -329,7 +319,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pencil/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pencil/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pencil/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pencil/#breadcrumb"}, "dateModified": "2026-09-06"}
 ```
 
 ```json

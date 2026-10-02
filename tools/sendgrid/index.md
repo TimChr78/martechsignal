@@ -1,64 +1,5 @@
 # Twilio SendGrid review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 6/10 | Free trial of 100 emails/day for 60 days and Essentials $19.95/mo published; Pro and Premier are custom (the vendor pricing page: [pricing page](https://www.twilio.com/en-us/products/email-api/pricing), verified 2026-08-28). |
-| Feature depth | 6/10 | Delivery API, templates and engagement tooling cover the sending stack; campaign depth is shallower than marketing platforms (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
-| Integrations | 7/10 | Twilio, Salesforce, Shopify, Zapier, Slack, WordPress, Segment and Snowflake documented plus the core API (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
-| AI capability | 5/10 | Deliverability optimization, engagement insights and send-time optimization are quietly useful rather than headline AI (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed platform; the API surface keeps it substitutable at the transport layer (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Twilio-owned since 2009-era operations with the volume track record email buyers price in (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI deliverability optimization | ✗ Paid plans start at $19.95/mo once past the free tier |
-| ✓ Native integrations include Twilio, Salesforce, Shopify (8 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free trial 100 emails/day for 60 days; Essentials $19.95/mo; Pro and Premier custom) |  |
-
-**What is Twilio SendGrid?**
-Twilio SendGrid: Scalable email delivery API with AI-powered deliverability and engagement tools. Twilio SendGrid ships with AI deliverability optimization. This page documents 8 integrations.
-
-**How much does Twilio SendGrid cost?**
-Twilio SendGrid has a free tier; paid plans start at $19.95/mo. Free trial 100 emails/day for 60 days; Essentials $19.95/mo; Pro and Premier custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
-
-**Is Twilio SendGrid worth it past the free tier?**
-Reliable, well-documented transactional email plumbing; marketers should look elsewhere for campaign work.
-
-- **Pricing:** Freemium
-- **Category:** [Email Marketing](/categories/email-marketing/)
-- **Founded:** 2009
-- **HQ:** Denver, CO, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Twilio SendGrid is a tool in Email Marketing with a free tier. The catalog documents 4 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Postmark
-
-Transactional email API with separated message streams, an MCP server, and published delivery numbers
-
-Resend
-
-Developer-first email API built around React Email, batch sending, and agent tooling
-
-Mailchimp
-
-All-in-one marketing platform with AI-powered email, automation, and analytics
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
-
-Klaviyo
-
-AI-powered email and SMS marketing platform built for ecommerce brands
-
-[More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
@@ -71,7 +12,7 @@ Scalable email delivery API with AI-powered deliverability and engagement tools
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Twilio SendGrid →](https://sendgrid.com)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 35/60
 
 SendGrid is infrastructure: an email API with deliverability machinery that marketing features are bolted onto. If your problem is getting mail delivered at volume, this is still the boring right answer.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Free trial of 100 emails/day for 60 days and Essentials $19.95/mo published; Pro and Premier are custom (the vendor pricing page: [pricing page](https://www.twilio.com/en-us/products/email-api/pricing), verified 2026-08-28). |
+| Feature depth | 6/10 | Delivery API, templates and engagement tooling cover the sending stack; campaign depth is shallower than marketing platforms (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
+| Integrations | 7/10 | Twilio, Salesforce, Shopify, Zapier, Slack, WordPress, Segment and Snowflake documented plus the core API (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
+| AI capability | 5/10 | Deliverability optimization, engagement insights and send-time optimization are quietly useful rather than headline AI (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed platform; the API surface keeps it substitutable at the transport layer (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Twilio-owned since 2009-era operations with the volume track record email buyers price in (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -129,6 +80,13 @@ Reliable, well-documented transactional email plumbing; marketers should look el
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI deliverability optimization | ✗ Paid plans start at $19.95/mo once past the free tier |
+| ✓ Native integrations include Twilio, Salesforce, Shopify (8 listed) | ✗ Closed source - no self-hosting option |
+| ✓ Free tier to evaluate before committing (Free trial 100 emails/day for 60 days; Essentials $19.95/mo; Pro and Premier custom) |  |
+
 ## Related concepts
 
 - [Email sequence](/glossary/email-sequence/)
@@ -141,10 +99,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Twilio SendGrid?**
 Twilio SendGrid: Scalable email delivery API with AI-powered deliverability and engagement tools. Twilio SendGrid ships with AI deliverability optimization. This page documents 8 integrations.
 
+**How much does Twilio SendGrid cost?**
 Twilio SendGrid has a free tier; paid plans start at $19.95/mo. Free trial 100 emails/day for 60 days; Essentials $19.95/mo; Pro and Premier custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
+**Is Twilio SendGrid worth it past the free tier?**
 Reliable, well-documented transactional email plumbing; marketers should look elsewhere for campaign work.
 
 ## Similar Tools
@@ -159,6 +120,13 @@ Reliable, well-documented transactional email plumbing; marketers should look el
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Product teams that need transactional delivery with marketing on the side
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Email Marketing](/categories/email-marketing/)
+- **Founded:** 2009
+- **HQ:** Denver, CO, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 ## Get the next teardown
@@ -166,6 +134,32 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Twilio SendGrid is a tool in Email Marketing with a free tier. The catalog documents 4 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Postmark
+
+Transactional email API with separated message streams, an MCP server, and published delivery numbers
+
+Resend
+
+Developer-first email API built around React Email, batch sending, and agent tooling
+
+Mailchimp
+
+All-in-one marketing platform with AI-powered email, automation, and analytics
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+Klaviyo
+
+AI-powered email and SMS marketing platform built for ecommerce brands
+
+[More Email Marketing Tools →](/categories/email-marketing/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -184,7 +178,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/sendgrid/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -296,7 +290,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/sendgrid/", "breadcrumb": {"@id": "https://martechsignal.com/tools/sendgrid/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/sendgrid/", "breadcrumb": {"@id": "https://martechsignal.com/tools/sendgrid/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

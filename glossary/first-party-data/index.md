@@ -1,26 +1,10 @@
 # First-Party Data
 
-Twilio Segment
-
-Customer data platform for collecting, unifying, and activating customer data
-
-Snowplow
-
-Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## First-Party Data
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-05
 
 ## Definition
 
@@ -77,6 +61,22 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [Twilio Segment](https:/
 - [DMP](/glossary/dmp/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+Twilio Segment
+
+Customer data platform for collecting, unifying, and activating customer data
+
+Snowplow
+
+Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -87,7 +87,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [Twilio Segment](https:/
         "@type": "DefinedTerm",
         "name": "First-Party Data",
         "description": "First-party data is information you collect directly from your customers and prospects: website behavior, purchase history, email engagement, survey responses, support interactions. You own it, you collected it with consent, and it doesn't depend on a third party's platform or cookie.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-05",
         "datePublished": "2026-09-05",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -145,7 +145,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [Twilio Segment](https:/
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/first-party-data/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/first-party-data/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/first-party-data/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/first-party-data/#breadcrumb"}, "dateModified": "2026-09-05"}
 ```
 
 ```json

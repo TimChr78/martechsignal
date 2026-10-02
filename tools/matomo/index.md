@@ -1,75 +1,5 @@
 # Matomo review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | matomo.org/pricing publishes Cloud from 22 EUR per month for 50,000 hits up to 14,850 EUR per month at 100 million hits and On-Premise bundles at 275, 1,450 and 3,400 EUR per month next to the free self-hosted core, with the small caveat that the static page shows a stale 29 EUR figure before scripts load (the vendor pricing page: [pricing page](https://matomo.org/pricing/), verified 2026-09-26). |
-| Feature depth | 8/10 | Core analytics, ecommerce tracking, goals, segments and the dashboard are free while funnels, cohorts, heatmaps, session recordings, A/B testing and attribution make up deep premium plugin coverage (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
-| Integrations | 7/10 | An official WordPress plugin with 100,000-plus installs, Tag Manager, a Google Analytics importer, Shopify and BigQuery sit beside a public plugin marketplace and an API (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
-| AI capability | 7/10 | A free official MCP Server plugin connects Matomo to ChatGPT and Claude with write actions behind approval, joined by AI chatbot traffic reports, an AIAgents plugin and the AI Connector (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
-| Openness | 10/10 | The core is GPL-3.0, self-hostable with no licence fee, and the vendor commits to keeping self-hosting free permanently (the source repository: [repository](https://github.com/matomo-org/matomo), verified 2026-09-26). |
-| Operational maturity | 8/10 | Founded in 2007, with releases through 5.13.0 in August 2026 plus an active 6.x branch, and a commercial Cloud operation behind it (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €22/mo |
-| ✓ AI capabilities: AI chatbot traffic reports |  |
-| ✓ Active public repository (21,919 GitHub stars counted at last check) |  |
-| ✓ Native integrations include WordPress, Matomo Tag Manager, Google Tag Manager (8 listed) |  |
-
-**What is Matomo?**
-Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,919 stars.
-
-**How much does Matomo cost?**
-Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
-
-**Is Matomo a good self-hosted Analytics & Attribution tool in 2026?**
-The analytics platform to pick when data residency and ownership are requirements rather than preferences. Budget for operations time and for the premium plugins you will use.
-
-**What is the cheapest Matomo Cloud plan?**
-The lowest tier is 22 euros per month for 50,000 hits, where a hit counts as a page view, event, download, outlink, onsite search, or content tracking request. Tiers scale to 1,600 euros per month at 10 million hits, and annual billing gives two months free. Watch the pricing page's static HTML, which shows a stale 29-euro figure until JavaScript loads the tier table.
-
-**Is Matomo really GDPR compliant?**
-Matomo claims adherence to GDPR, HIPAA, CCPA, LGPD, and PECR, with IP anonymization, configurable data anonymization, an opt-out, first-party cookies by default, and tools to delete visitor data on request. It states that France's CNIL lists it among tools usable without consent and that Cloud data stays in Europe. Those are vendor claims, and your compliance still depends on configuration, particularly cookie consent and retention.
-
-**Matomo or Google Analytics 4?**
-The differences that matter are ownership and sampling. Matomo stores data in your own database or its EU-based Cloud, generates unsampled reports on every plan, and exports raw data on request. GA4 keeps data in Google's infrastructure and applies sampling, which is why European regulator rulings feature in Matomo's comparisons. GA4 still wins on cost at low traffic and on Google Ads integration.
-
-**Does Matomo have AI features?**
-Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 added reports for AI chatbot content requests and real-time chatbot traffic, an AIAgents plugin ships enabled on new instances, and a free official MCP Server plugin connects Matomo to ChatGPT, Claude, and other MCP clients, with write actions requiring approval. There is no AI anomaly detection or predictive analytics in the product today.
-
-- **Pricing:** Open Source
-- **Category:** [Analytics & Attribution](/categories/analytics/)
-- **GitHub:** ★ 21919
-- **Founded:** 2007
-- **HQ:** Wellington, New Zealand
-- **API:** Yes
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-06
-
-**Verdict:** Matomo is a tool in Analytics & Attribution with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-Plausible Analytics
-
-Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
-
-PostHog
-
-Open-source product analytics platform with session replay, feature flags, experiments, and surveys
-
-Amplitude
-
-AI-powered digital analytics platform for product and marketing teams
-
-Triple Whale
-
-AI-powered ecommerce analytics and attribution platform for DTC brands
-
-[More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
@@ -82,7 +12,7 @@ Open-source web analytics platform with full data ownership and AI-powered insig
 
 Analytics & Attribution · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 Looking for options? [Best Matomo alternatives](/alternatives/matomo/)
 
@@ -95,6 +25,16 @@ Looking for options? [Best Matomo alternatives](/alternatives/matomo/)
 ## MartechSignal Score: 49/60
 
 The pick when analytics data residency is a requirement rather than a preference, with an open core and a real premium plugin business behind it. Budget both operations time for self-hosting and plugin fees for the headline behavioral features.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | matomo.org/pricing publishes Cloud from 22 EUR per month for 50,000 hits up to 14,850 EUR per month at 100 million hits and On-Premise bundles at 275, 1,450 and 3,400 EUR per month next to the free self-hosted core, with the small caveat that the static page shows a stale 29 EUR figure before scripts load (the vendor pricing page: [pricing page](https://matomo.org/pricing/), verified 2026-09-26). |
+| Feature depth | 8/10 | Core analytics, ecommerce tracking, goals, segments and the dashboard are free while funnels, cohorts, heatmaps, session recordings, A/B testing and attribution make up deep premium plugin coverage (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
+| Integrations | 7/10 | An official WordPress plugin with 100,000-plus installs, Tag Manager, a Google Analytics importer, Shopify and BigQuery sit beside a public plugin marketplace and an API (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
+| AI capability | 7/10 | A free official MCP Server plugin connects Matomo to ChatGPT and Claude with write actions behind approval, joined by AI chatbot traffic reports, an AIAgents plugin and the AI Connector (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
+| Openness | 10/10 | The core is GPL-3.0, self-hostable with no licence fee, and the vendor commits to keeping self-hosting free permanently (the source repository: [repository](https://github.com/matomo-org/matomo), verified 2026-09-26). |
+| Operational maturity | 8/10 | Founded in 2007, with releases through 5.13.0 in August 2026 plus an active 6.x branch, and a commercial Cloud operation behind it (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
 
 Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -162,6 +102,14 @@ The analytics platform to pick when data residency and ownership are requirement
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €22/mo |
+| ✓ AI capabilities: AI chatbot traffic reports |  |
+| ✓ Active public repository (21,919 GitHub stars counted at last check) |  |
+| ✓ Native integrations include WordPress, Matomo Tag Manager, Google Tag Manager (8 listed) |  |
+
 ## Related concepts
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -175,18 +123,25 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Matomo?**
 Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,919 stars.
 
+**How much does Matomo cost?**
 Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
 
+**Is Matomo a good self-hosted Analytics & Attribution tool in 2026?**
 The analytics platform to pick when data residency and ownership are requirements rather than preferences. Budget for operations time and for the premium plugins you will use.
 
+**What is the cheapest Matomo Cloud plan?**
 The lowest tier is 22 euros per month for 50,000 hits, where a hit counts as a page view, event, download, outlink, onsite search, or content tracking request. Tiers scale to 1,600 euros per month at 10 million hits, and annual billing gives two months free. Watch the pricing page's static HTML, which shows a stale 29-euro figure until JavaScript loads the tier table.
 
+**Is Matomo really GDPR compliant?**
 Matomo claims adherence to GDPR, HIPAA, CCPA, LGPD, and PECR, with IP anonymization, configurable data anonymization, an opt-out, first-party cookies by default, and tools to delete visitor data on request. It states that France's CNIL lists it among tools usable without consent and that Cloud data stays in Europe. Those are vendor claims, and your compliance still depends on configuration, particularly cookie consent and retention.
 
+**Matomo or Google Analytics 4?**
 The differences that matter are ownership and sampling. Matomo stores data in your own database or its EU-based Cloud, generates unsampled reports on every plan, and exports raw data on request. GA4 keeps data in Google's infrastructure and applies sampling, which is why European regulator rulings feature in Matomo's comparisons. GA4 still wins on cost at low traffic and on Google Ads integration.
 
+**Does Matomo have AI features?**
 Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 added reports for AI chatbot content requests and real-time chatbot traffic, an AIAgents plugin ships enabled on new instances, and a free official MCP Server plugin connects Matomo to ChatGPT, Claude, and other MCP clients, with write actions requiring approval. There is no AI anomaly detection or predictive analytics in the product today.
 
 ## Similar Tools
@@ -204,6 +159,15 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/) — you want web analytics depth, EU data residency and raw data you own outright.
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Analytics & Attribution](/categories/analytics/)
+- **GitHub:** ★ 21919
+- **Founded:** 2007
+- **HQ:** Wellington, New Zealand
+- **API:** Yes
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-06
+
 Related guides: [Alternatives to Matomo](/alternatives/matomo/) · [Matomo vs Plausible](/vs/matomo-vs-plausible/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)
 
 ## Get the next teardown
@@ -211,6 +175,28 @@ Related guides: [Alternatives to Matomo](/alternatives/matomo/) · [Matomo vs Pl
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Matomo is a tool in Analytics & Attribution with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
+Plausible Analytics
+
+Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
+
+PostHog
+
+Open-source product analytics platform with session replay, feature flags, experiments, and surveys
+
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+Triple Whale
+
+AI-powered ecommerce analytics and attribution platform for DTC brands
+
+[More Analytics & Attribution Tools →](/categories/analytics/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

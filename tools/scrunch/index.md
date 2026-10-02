@@ -1,69 +1,5 @@
 # Scrunch review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Core is $250/mo (125 prompts, 5 audits, 4 LLMs, 5 users) with published limits; Enterprise is custom (the vendor pricing page: [pricing page](https://scrunch.com/pricing/), verified 2026-09-25). |
-| Feature depth | 7/10 | Citation tracking across 4 to 9 LLMs, Agent Pages serving token-optimized content and agent-facing site diagnostics (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
-| Integrations | 5/10 | Looker Studio, MCP, a Query API and a CLI cover programmatic access without an app marketplace (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
-| AI capability | 7/10 | Agent Pages that serve token-optimized content to AI agents is infrastructure work aimed at how models actually read (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
-| Openness | 4/10 | Closed SaaS but with MCP, a Query API and a CLI keeping your data reachable (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2023 with enterprise SSO on the roadmap tiers; short history (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: brand monitoring and citation tracking across 4 to 9 LLMs | ✗ Closed source - no self-hosting option |
-| ✓ Monitoring, site diagnostics and agent-facing content delivery sit in one platform | ✗ AXP, the agent-facing delivery layer that defines the product, is Enterprise-only |
-| ✓ A free 30-second AI visibility audit needs no credit card, and the trial runs seven days | ✗ Core caps at four LLMs, one country, one persona, 25 sitemap pages and one page optimization a month |
-| ✓ Core includes five user licenses and email support with self-serve onboarding | ✗ The 2026 Sitecore acquisition changes who controls roadmap and contracts |
-
-**What is Scrunch?**
-Scrunch: The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents. Scrunch ships with brand monitoring and citation tracking across 4 to 9 LLMs. This page documents 4 integrations.
-
-**How much does Scrunch cost?**
-Scrunch starts at $250/mo. Core $250/mo (125 unique prompts, 5 site audits/mo, 1 brand workspace, 5 users, 4 LLMs). Enterprise custom (9 LLMs, AXP, API/MCP, Looker Studio, SSO). 7-day free trial on Core. Verified on scrunch.com/pricing Sep 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Scrunch worth paying for in 2026?**
-Scrunch pairs AI visibility monitoring with the ability to change what agents see, and that second half is the reason to shortlist it. Core at $250 per month is a monitoring plan; the AXP delivery layer needs an Enterprise contract. The 2026 Sitecore acquisition belongs in any long-term commitment discussion.
-
-**What is Scrunch AXP?**
-The Agent Experience Platform. It serves token-optimized content to AI agents through Agent Pages, shows agent traffic, and runs site diagnostics for agent readability. It is an Enterprise feature.
-
-**Who owns Scrunch?**
-Sitecore acquired Scrunch in 2026. Before that the company raised $26M: a $4M round in 2024 led by Mayfield and a $15M Series A in 2025 led by Decibel.
-
-**Which AI models does Scrunch track?**
-Core covers ChatGPT, Perplexity, Google AI Overviews and Copilot. Enterprise adds Claude, Gemini, Meta AI, Google AI Mode and Grok.
-
-- **Pricing:** From $250/mo
-- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
-- **Founded:** 2023
-- **API:** Yes
-- **Last verified:** 2026-09-25
-
-**Verdict:** Scrunch is a tool in GEO & LLM Optimization with paid plans starting at $250/mo. The catalog documents 5 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-Profound
-
-Enterprise AI marketing platform: answer-engine visibility plus drafting agents
-
-Rankscale
-
-AI visibility tracking across 17+ answer engines for agencies and enterprise teams
-
-Writesonic
-
-The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
-
-OtterlyAI
-
-AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
-
-[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
@@ -74,7 +10,7 @@ The AI Customer Experience Platform: monitor, optimize and serve your site to AI
 
 GEO & LLM Optimization · From $250/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Scrunch →](https://scrunch.com/)
 
@@ -85,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 35/60
 
 Scrunch's Agent Pages are the differentiator: it serves your content to AI crawlers in a form they can digest. The monitoring is competent; the serving layer is why you would pick it.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Core is $250/mo (125 prompts, 5 audits, 4 LLMs, 5 users) with published limits; Enterprise is custom (the vendor pricing page: [pricing page](https://scrunch.com/pricing/), verified 2026-09-25). |
+| Feature depth | 7/10 | Citation tracking across 4 to 9 LLMs, Agent Pages serving token-optimized content and agent-facing site diagnostics (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
+| Integrations | 5/10 | Looker Studio, MCP, a Query API and a CLI cover programmatic access without an app marketplace (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
+| AI capability | 7/10 | Agent Pages that serve token-optimized content to AI agents is infrastructure work aimed at how models actually read (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
+| Openness | 4/10 | Closed SaaS but with MCP, a Query API and a CLI keeping your data reachable (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2023 with enterprise SSO on the roadmap tiers; short history (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -135,6 +81,14 @@ Scrunch pairs AI visibility monitoring with the ability to change what agents se
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: brand monitoring and citation tracking across 4 to 9 LLMs | ✗ Closed source - no self-hosting option |
+| ✓ Monitoring, site diagnostics and agent-facing content delivery sit in one platform | ✗ AXP, the agent-facing delivery layer that defines the product, is Enterprise-only |
+| ✓ A free 30-second AI visibility audit needs no credit card, and the trial runs seven days | ✗ Core caps at four LLMs, one country, one persona, 25 sitemap pages and one page optimization a month |
+| ✓ Core includes five user licenses and email support with self-serve onboarding | ✗ The 2026 Sitecore acquisition changes who controls roadmap and contracts |
+
 ## Related concepts
 
 - [GEO](/glossary/geo/)
@@ -148,16 +102,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Scrunch?**
 Scrunch: The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents. Scrunch ships with brand monitoring and citation tracking across 4 to 9 LLMs. This page documents 4 integrations.
 
+**How much does Scrunch cost?**
 Scrunch starts at $250/mo. Core $250/mo (125 unique prompts, 5 site audits/mo, 1 brand workspace, 5 users, 4 LLMs). Enterprise custom (9 LLMs, AXP, API/MCP, Looker Studio, SSO). 7-day free trial on Core. Verified on scrunch.com/pricing Sep 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Scrunch worth paying for in 2026?**
 Scrunch pairs AI visibility monitoring with the ability to change what agents see, and that second half is the reason to shortlist it. Core at $250 per month is a monitoring plan; the AXP delivery layer needs an Enterprise contract. The 2026 Sitecore acquisition belongs in any long-term commitment discussion.
 
+**What is Scrunch AXP?**
 The Agent Experience Platform. It serves token-optimized content to AI agents through Agent Pages, shows agent traffic, and runs site diagnostics for agent readability. It is an Enterprise feature.
 
+**Who owns Scrunch?**
 Sitecore acquired Scrunch in 2026. Before that the company raised $26M: a $4M round in 2024 led by Mayfield and a $15M Series A in 2025 led by Decibel.
 
+**Which AI models does Scrunch track?**
 Core covers ChatGPT, Perplexity, Google AI Overviews and Copilot. Enterprise adds Claude, Gemini, Meta AI, Google AI Mode and Grok.
 
 ## Similar Tools
@@ -172,6 +132,12 @@ Core covers ChatGPT, Perplexity, Google AI Overviews and Copilot. Enterprise add
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for brands that want measurement and AI-crawler readiness in one product.
 ### Quick Facts
 
+- **Pricing:** From $250/mo
+- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
+- **Founded:** 2023
+- **API:** Yes
+- **Last verified:** 2026-09-25
+
 Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 ## Get the next teardown
@@ -179,6 +145,28 @@ Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Scrunch is a tool in GEO & LLM Optimization with paid plans starting at $250/mo. The catalog documents 5 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+Profound
+
+Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+
+Rankscale
+
+AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+
+Writesonic
+
+The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
+
+OtterlyAI
+
+AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+
+[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -197,7 +185,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/scrunch/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-25",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -324,7 +312,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/scrunch/", "breadcrumb": {"@id": "https://martechsignal.com/tools/scrunch/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/scrunch/", "breadcrumb": {"@id": "https://martechsignal.com/tools/scrunch/#breadcrumb"}, "dateModified": "2026-09-25"}
 ```
 
 ```json

@@ -1,61 +1,5 @@
 # Diffmode Growth Tactics pricing
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Free under Apache-2.0 with an LLM API key as the only run cost, stated (the vendor pricing page: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-08-31). |
-| Feature depth | 5/10 | Case-study mining, blind mechanism pairing and 4 rejection gates cover growth ideation with friction (vendor documentation: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
-| Integrations | 3/10 | Claude Code, Codex and Claude plugins documented as the harnesses (vendor documentation: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
-| AI capability | 6/10 | Blind pairing before analysis and enforced rejection gates are methodological choices, not model calls (vendor documentation: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
-| Openness | 9/10 | Apache-2.0 with local execution (the source repository: [repository](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2026; a young research pipeline (vendor documentation: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (162 GitHub stars) - smaller community and plugin ecosystem |
-| ✓ AI capabilities: mines 12-20 real case studies per run for growth mechanisms |  |
-| ✓ Native integrations include Claude Code, Codex, Claude plugins (3 listed) |  |
-
-**What is Diffmode Growth Tactics?**
-Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 162 stars.
-
-**How much does Diffmode Growth Tactics cost?**
-Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-host; the public repository carries 162 stars; native integrations cover Claude Code, Codex, Claude plugins. You pay in server time and maintenance, not licences.
-
-**Is Diffmode Growth Tactics a good self-hosted Agent Skills tool in 2026?**
-A clever use of coding agents for growth ideation with a real anti-generic mechanism built in. Worth a run for any bootstrapped product; expect to filter the 7 to 9 tactics down to one or two worth testing.
-
-- **Pricing:** Open Source
-- **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 162
-- **Founded:** 2026
-- **API:** Yes
-- **Repository checked:** 2026-09-29
-- **Page updated:** 2026-08-31
-
-**Verdict:** Diffmode Growth Tactics is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-Growth Lab
-
-Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
-
-Codex SEO
-
-Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-
-SEO Skill Bench
-
-Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
-
-AI Business Skills
-
-63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-
-[More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
@@ -68,7 +12,7 @@ Free Claude Code/Codex pipeline that mines case studies and rejects obvious grow
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Diffmode Growth Tactics →](https://github.com/acogood/diffmode_free)
 
@@ -79,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 35/60
 
 Diffmode's pipeline mines real case studies and then deliberately rejects the obvious plays. Ninety minutes per run buys novelty filtering, which is a fair trade if your growth ideas keep repeating.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free under Apache-2.0 with an LLM API key as the only run cost, stated (the vendor pricing page: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-08-31). |
+| Feature depth | 5/10 | Case-study mining, blind mechanism pairing and 4 rejection gates cover growth ideation with friction (vendor documentation: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
+| Integrations | 3/10 | Claude Code, Codex and Claude plugins documented as the harnesses (vendor documentation: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
+| AI capability | 6/10 | Blind pairing before analysis and enforced rejection gates are methodological choices, not model calls (vendor documentation: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
+| Openness | 9/10 | Apache-2.0 with local execution (the source repository: [repository](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026; a young research pipeline (vendor documentation: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -120,6 +74,13 @@ A clever use of coding agents for growth ideation with a real anti-generic mecha
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (162 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: mines 12-20 real case studies per run for growth mechanisms |  |
+| ✓ Native integrations include Claude Code, Codex, Claude plugins (3 listed) |  |
+
 ## Related concepts
 
 - [MCP](/glossary/mcp/)
@@ -133,10 +94,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Diffmode Growth Tactics?**
 Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 162 stars.
 
+**How much does Diffmode Growth Tactics cost?**
 Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-host; the public repository carries 162 stars; native integrations cover Claude Code, Codex, Claude plugins. You pay in server time and maintenance, not licences.
 
+**Is Diffmode Growth Tactics a good self-hosted Agent Skills tool in 2026?**
 A clever use of coding agents for growth ideation with a real anti-generic mechanism built in. Worth a run for any bootstrapped product; expect to filter the 7 to 9 tactics down to one or two worth testing.
 
 ## Similar Tools
@@ -148,11 +112,41 @@ A clever use of coding agents for growth ideation with a real anti-generic mecha
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [Agent Skills](/categories/agent-skills/)
+- **GitHub:** ★ 162
+- **Founded:** 2026
+- **API:** Yes
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-08-31
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Diffmode Growth Tactics is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
+
+Growth Lab
+
+Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
+
+Codex SEO
+
+Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+
+SEO Skill Bench
+
+Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+
+AI Business Skills
+
+63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+[More Agent Skills Tools →](/categories/agent-skills/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -171,7 +165,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/diffmode-growth-tactics/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-08-31",
     "offers": {
       "@type": "Offer",
@@ -274,7 +268,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/", "breadcrumb": {"@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/", "breadcrumb": {"@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

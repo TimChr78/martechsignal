@@ -1,64 +1,5 @@
 # Buffer review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 9/10 | Free for 3 channels, Essentials $5/channel/mo, Team $10/channel/mo with a 14-day trial, all published (the vendor pricing page: [pricing page](https://buffer.com/pricing), verified 2026-08-28). |
-| Feature depth | 5/10 | Scheduling, analytics and light engagement cover the small-team social routine (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
-| Integrations | 5/10 | Canva, Zapier, Shopify, GA, Slack and WordPress documented plus an API (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
-| AI capability | 4/10 | An AI assistant for posts, hashtag generation and repurposing help the writing step (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access and published pricing philosophy (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
-| Operational maturity | 7/10 | Founded 2010 with fifteen years of self-serve operations (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI assistant for posts | ✗ Paid plans start at $5/mo once past the free tier |
-| ✓ Native integrations include Canva, Zapier, Shopify (6 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial) |  |
-
-**What is Buffer?**
-Buffer: Simple social media scheduling and analytics with AI-powered content tools. Buffer ships with AI assistant for posts. This page documents 6 integrations.
-
-**How much does Buffer cost?**
-Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
-
-**Is Buffer worth it past the free tier?**
-Start here, especially on the free tier. Plan to graduate to Sprout when reporting depth and approvals matter.
-
-- **Pricing:** Freemium
-- **Category:** [Social Media](/categories/social-media/)
-- **Founded:** 2010
-- **HQ:** San Francisco, CA, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Buffer is a tool in Social Media with a free tier. The catalog documents 4 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Sprout Social
-
-Enterprise social media management with AI-powered analytics and engagement tools
-
-Hootsuite
-
-Social media management platform with AI-powered scheduling and analytics
-
-MultiPost
-
-Browser extension to publish content to multiple social media platforms with one click
-
-Predis.ai
-
-AI-powered social media content generator for posts, videos, and ad creatives
-
-Brandwatch
-
-AI-powered consumer intelligence and social media management platform
-
-[More Social Media Tools →](/categories/social-media/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
@@ -71,7 +12,7 @@ Simple social media scheduling and analytics with AI-powered content tools
 
 Social Media · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Buffer →](https://buffer.com)
 
@@ -82,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 33/60
 
 Buffer is still the simplest way to schedule across channels, priced per channel so costs stay legible. Its AI assistant helps with the post, not the strategy.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free for 3 channels, Essentials $5/channel/mo, Team $10/channel/mo with a 14-day trial, all published (the vendor pricing page: [pricing page](https://buffer.com/pricing), verified 2026-08-28). |
+| Feature depth | 5/10 | Scheduling, analytics and light engagement cover the small-team social routine (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
+| Integrations | 5/10 | Canva, Zapier, Shopify, GA, Slack and WordPress documented plus an API (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
+| AI capability | 4/10 | An AI assistant for posts, hashtag generation and repurposing help the writing step (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access and published pricing philosophy (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2010 with fifteen years of self-serve operations (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -127,6 +78,13 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI assistant for posts | ✗ Paid plans start at $5/mo once past the free tier |
+| ✓ Native integrations include Canva, Zapier, Shopify (6 listed) | ✗ Closed source - no self-hosting option |
+| ✓ Free tier to evaluate before committing (Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial) |  |
+
 ## Related concepts
 
 - [Social listening](/glossary/social-listening/)
@@ -138,10 +96,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Buffer?**
 Buffer: Simple social media scheduling and analytics with AI-powered content tools. Buffer ships with AI assistant for posts. This page documents 6 integrations.
 
+**How much does Buffer cost?**
 Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
+**Is Buffer worth it past the free tier?**
 Start here, especially on the free tier. Plan to graduate to Sprout when reporting depth and approvals matter.
 
 ## Similar Tools
@@ -156,6 +117,13 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Creators that want scheduling priced per channel, not per seat
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Social Media](/categories/social-media/)
+- **Founded:** 2010
+- **HQ:** San Francisco, CA, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 
 ## Get the next teardown
@@ -163,6 +131,32 @@ Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Buffer is a tool in Social Media with a free tier. The catalog documents 4 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Sprout Social
+
+Enterprise social media management with AI-powered analytics and engagement tools
+
+Hootsuite
+
+Social media management platform with AI-powered scheduling and analytics
+
+MultiPost
+
+Browser extension to publish content to multiple social media platforms with one click
+
+Predis.ai
+
+AI-powered social media content generator for posts, videos, and ad creatives
+
+Brandwatch
+
+AI-powered consumer intelligence and social media management platform
+
+[More Social Media Tools →](/categories/social-media/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -181,7 +175,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/buffer/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -293,7 +287,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/buffer/", "breadcrumb": {"@id": "https://martechsignal.com/tools/buffer/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/buffer/", "breadcrumb": {"@id": "https://martechsignal.com/tools/buffer/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

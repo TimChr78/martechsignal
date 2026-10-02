@@ -1,60 +1,5 @@
 # Clearscope review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Essentials $129/mo and Business $399/mo published with 20 AI drafts included; Enterprise custom (the vendor pricing page: [pricing page](https://www.clearscope.io/pricing), verified 2026-08-28). |
-| Feature depth | 5/10 | Content grading, keyword suggestions, drafts and briefs cover the content optimization workflow (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
-| Integrations | 5/10 | Google Docs, WordPress, Zapier, Search Console and Semrush documented plus an API (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
-| AI capability | 5/10 | AI grading and draft generation built on years of content performance data (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
-| Operational maturity | 7/10 | Founded 2017 with a settled place in SEO team workflows (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI content grading | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Google Docs, WordPress, Zapier (5 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is Clearscope?**
-Clearscope: AI-powered content optimization platform for SEO teams and content writers. Clearscope ships with AI content grading. This page documents 5 integrations.
-
-**How much does Clearscope cost?**
-Clearscope starts at $129/mo. Essentials $129/mo; Business $399/mo; Enterprise custom; 20 AI drafts included. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Clearscope worth paying for in 2026?**
-The reference tool for SEO copy scoring. Best when paired with a writer who wants ranking signals, not generated prose.
-
-- **Pricing:** From $129/mo
-- **Category:** [SEO & Search](/categories/seo/)
-- **Founded:** 2017
-- **HQ:** Austin, TX, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Clearscope is a tool in SEO & Search with paid plans starting at $129/mo. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Surfer SEO
-
-AI-powered content optimization platform for SEO-driven article writing and audits
-
-Frase
-
-AI-powered SEO content platform for research, writing, and AI visibility tracking
-
-Semrush
-
-All-in-one SEO and digital marketing platform with AI-powered insights and tools
-
-MarketMuse
-
-AI-powered content strategy and optimization platform for SEO content teams
-
-[More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
@@ -67,7 +12,7 @@ AI-powered content optimization platform for SEO teams and content writers
 
 SEO & Search · From $129/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Clearscope →](https://www.clearscope.io)
 
@@ -78,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 32/60
 
 Clearscope is the content grading standard SEO teams already know, with 20 AI drafts folded into the price. The grading model is the moat; the drafts are table stakes.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Essentials $129/mo and Business $399/mo published with 20 AI drafts included; Enterprise custom (the vendor pricing page: [pricing page](https://www.clearscope.io/pricing), verified 2026-08-28). |
+| Feature depth | 5/10 | Content grading, keyword suggestions, drafts and briefs cover the content optimization workflow (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
+| Integrations | 5/10 | Google Docs, WordPress, Zapier, Search Console and Semrush documented plus an API (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
+| AI capability | 5/10 | AI grading and draft generation built on years of content performance data (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2017 with a settled place in SEO team workflows (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -123,6 +78,13 @@ The reference tool for SEO copy scoring. Best when paired with a writer who want
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI content grading | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Google Docs, WordPress, Zapier (5 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [SEO](/glossary/seo/)
@@ -137,10 +99,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Clearscope?**
 Clearscope: AI-powered content optimization platform for SEO teams and content writers. Clearscope ships with AI content grading. This page documents 5 integrations.
 
+**How much does Clearscope cost?**
 Clearscope starts at $129/mo. Essentials $129/mo; Business $399/mo; Enterprise custom; 20 AI drafts included. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Clearscope worth paying for in 2026?**
 The reference tool for SEO copy scoring. Best when paired with a writer who wants ranking signals, not generated prose.
 
 ## Similar Tools
@@ -155,6 +120,13 @@ The reference tool for SEO copy scoring. Best when paired with a writer who want
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for content teams that grade drafts against search intent all day.
 ### Quick Facts
 
+- **Pricing:** From $129/mo
+- **Category:** [SEO & Search](/categories/seo/)
+- **Founded:** 2017
+- **HQ:** Austin, TX, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 ## Get the next teardown
@@ -162,6 +134,28 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Clearscope is a tool in SEO & Search with paid plans starting at $129/mo. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Surfer SEO
+
+AI-powered content optimization platform for SEO-driven article writing and audits
+
+Frase
+
+AI-powered SEO content platform for research, writing, and AI visibility tracking
+
+Semrush
+
+All-in-one SEO and digital marketing platform with AI-powered insights and tools
+
+MarketMuse
+
+AI-powered content strategy and optimization platform for SEO content teams
+
+[More SEO & Search Tools →](/categories/seo/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -180,7 +174,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/clearscope/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -283,7 +277,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/clearscope/", "breadcrumb": {"@id": "https://martechsignal.com/tools/clearscope/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/clearscope/", "breadcrumb": {"@id": "https://martechsignal.com/tools/clearscope/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

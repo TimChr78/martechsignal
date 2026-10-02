@@ -1,56 +1,5 @@
 # Zoho CRM review (2026): pricing, AI features, verdict
 
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: zia assistant for lead scoring, deal prediction and email sentiment | ✗ Paid plans start at €14/mo once past the free tier |
-| ✓ Native integrations include Zoho Mail, Zoho Books, Zoho Desk (6 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free for 3 users; Standard EUR 14/user/mo) |  |
-
-**What is Zoho CRM?**
-Zoho CRM: Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations.
-
-**How much does Zoho CRM cost?**
-Zoho CRM has a free tier; paid plans start at €14/mo. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked both ends of that split on 2026-09-28. The pricing section above shows what the free tier actually covers."
-
-**Is Zoho CRM worth it past the free tier?**
-Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline automation, lead scoring basics, and email included. EU buyers who prefer euro-denominated per-seat pricing scale from Standard at EUR 14 to Professional at EUR 23 (automation and AI) and Enterprise at EUR 40.
-
-- **Catalogued integrations:** 6
-
-- **Pricing:** Freemium
-- **Category:** [CRM](/categories/crm/)
-- **Free Tier Seats:** 3
-- **Paid Tiers:** 3 (Standard / Professional / Enterprise)
-- **Pricing Currency:** EUR
-- **Ai Assistant:** Zia
-
-**Verdict:** Zoho CRM is a tool in CRM with a free tier. The catalog documents 3 AI features and 6 integrations. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Pipedrive
-
-Sales-focused CRM with AI-powered pipeline management and deal forecasting
-
-Salesforce CRM
-
-Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
-
-Freshsales
-
-AI-powered CRM with built-in phone, email, and chat for sales teams
-
-HubSpot CRM
-
-Free AI-powered CRM platform with sales, service, and marketing tools unified
-
-Frappe CRM
-
-Fully featured, open source CRM
-
-[More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
@@ -61,7 +10,7 @@ Sales CRM with the Zia assistant, workflow automation and the Zoho suite around 
 
 CRM · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Zoho CRM →](https://www.zoho.com/crm/)
 
@@ -72,6 +21,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## Catalog facts: Zoho CRM
 
 Not yet scored against the rubric, so no verdict here. This is everything the catalog holds on the tool, verified against vendor sources.
+
+- **Catalogued integrations:** 6
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -110,6 +61,13 @@ Buyers who want a scored assessment against our rubric: Zoho CRM is one of three
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: zia assistant for lead scoring, deal prediction and email sentiment | ✗ Paid plans start at €14/mo once past the free tier |
+| ✓ Native integrations include Zoho Mail, Zoho Books, Zoho Desk (6 listed) | ✗ Closed source - no self-hosting option |
+| ✓ Free tier to evaluate before committing (Free for 3 users; Standard EUR 14/user/mo) |  |
+
 ## Related concepts
 
 - [CRM](/glossary/crm/)
@@ -124,10 +82,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Zoho CRM?**
 Zoho CRM: Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations.
 
+**How much does Zoho CRM cost?**
 Zoho CRM has a free tier; paid plans start at €14/mo. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked both ends of that split on 2026-09-28. The pricing section above shows what the free tier actually covers."
 
+**Is Zoho CRM worth it past the free tier?**
 Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline automation, lead scoring basics, and email included. EU buyers who prefer euro-denominated per-seat pricing scale from Standard at EUR 14 to Professional at EUR 23 (automation and AI) and Enterprise at EUR 40.
 
 ## Similar Tools
@@ -142,7 +103,12 @@ Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best value for small teams that want a full suite without an enterprise bill.
 ### Quick Facts
 
-### Project stats
+- **Pricing:** Freemium
+- **Category:** [CRM](/categories/crm/)
+- **Free Tier Seats:** 3
+- **Paid Tiers:** 3 (Standard / Professional / Enterprise)
+- **Pricing Currency:** EUR
+- **Ai Assistant:** Zia
 
 Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 
@@ -151,6 +117,32 @@ Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Zoho CRM is a tool in CRM with a free tier. The catalog documents 3 AI features and 6 integrations. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Pipedrive
+
+Sales-focused CRM with AI-powered pipeline management and deal forecasting
+
+Salesforce CRM
+
+Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+
+Freshsales
+
+AI-powered CRM with built-in phone, email, and chat for sales teams
+
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+Frappe CRM
+
+Fully featured, open source CRM
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -169,7 +161,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/zoho-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-28",
     "datePublished": "2026-09-28",
     "offers": [
       {
@@ -252,7 +244,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/zoho-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/zoho-crm/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/zoho-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/zoho-crm/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

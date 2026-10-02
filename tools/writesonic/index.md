@@ -1,75 +1,5 @@
 # Writesonic review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Starter $79/mo annual (50 prompts/50 answers daily, 15 articles/mo), Basic $199/mo, Growth $399/mo with concrete quotas (the vendor pricing page: [pricing page](https://writesonic.com/pricing), verified 2026-09-25). |
-| Feature depth | 7/10 | AI answer tracking across up to 10 platforms, article generation and site audits make one growth loop (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
-| Integrations | 6/10 | Search Console, Ahrefs, WordPress, GA, Looker Studio and Cloudflare documented plus an API (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
-| AI capability | 7/10 | Article generation inside a tracked-visibility loop is the platform's connective tissue (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2021 with priced tiers and quota-stated plans (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: tracks brand mentions in AI answers across up to 10 AI platforms | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Google Search Console, Ahrefs, WordPress (6 listed) | ✗ All 10 AI platforms, sentiment analysis, and the full Action Center are Enterprise-level features |
-| ✓ The entry plan bundles 15 AI articles and 10 site audits per month with daily tracking | ✗ Agentic workflow runs are trial-limited on the lower tiers (10 to 100 runs) |
-| ✓ 20+ native integrations plus a public API and MCP server for agent access | ✗ Starter is a one-user, one-project plan |
-| ✓ The free trial needs no credit card |  |
-
-**What is Writesonic?**
-Writesonic: The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. Writesonic ships with tracks brand mentions in AI answers across up to 10 AI platforms. This page documents 6 integrations.
-
-**How much does Writesonic cost?**
-Writesonic starts at $79/mo. Starter $79/mo billed annually (50 prompts/50 answers daily, 15 AI articles/mo, 10 site audits of 100 pages); Basic $199/mo; Growth $399/mo (sentiment analysis, Action Center trial); Enterprise custom (all 10 AI platforms, full Action Center). Annual billing saves 20% vs monthly. Free trial, no credit card (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Writesonic worth paying for in 2026?**
-Writesonic is the entry-level option in this batch that still bundles measurement, content, and audits: $79 per month billed annually buys daily tracking and 15 AI articles alongside the visibility dashboard. The limits are tier gates rather than missing features, since full engine coverage, sentiment, and the Action Center sit at Growth and Enterprise. It fits brands that want one subscription for GEO diagnosis and production and can live with three engines to start.
-
-**What is Writesonic's GEO product?**
-It is the For Brands side of Writesonic, positioned as an AI Search Growth Engine: track how AI platforms mention your brand, get AI articles and site audits to fix visibility gaps, and on higher tiers run sentiment analysis and agentic workflows.
-
-**Which AI platforms does Writesonic track?**
-Starter through Growth track ChatGPT, Gemini, and Google AI Overviews. Enterprise covers 10 platforms: ChatGPT, Perplexity, Claude, Gemini, Grok, DeepSeek, Microsoft Copilot, Meta AI, Google AI Mode, and Google AI Overviews.
-
-**Does Writesonic have an API?**
-Yes. Writesonic documents a public API and an MCP server, with 20+ native integrations across CMS, CDN, and analytics tools such as WordPress, Google Search Console, Ahrefs, and Looker Studio.
-
-- **Pricing:** From $79/mo
-- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
-- **Founded:** 2021
-- **HQ:** San Francisco, CA, USA
-- **API:** Yes
-- **Last verified:** 2026-09-25
-
-**Verdict:** Writesonic is a tool in GEO & LLM Optimization with paid plans starting at $79/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-Nightwatch
-
-Rank tracking across Google and AI answers, priced by keyword with unlimited seats
-
-Ahrefs
-
-Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
-
-Rankscale
-
-AI visibility tracking across 17+ answer engines for agencies and enterprise teams
-
-Scrunch
-
-The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
-
-Evertune
-
-GEO visibility measurement with content activation and a ChatGPT Ad Agent
-
-[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
@@ -80,7 +10,7 @@ The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one p
 
 GEO & LLM Optimization · From $79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Writesonic →](https://writesonic.com)
 
@@ -91,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 36/60
 
 Writesonic bundles GEO tracking with AI articles and audits, which makes it the content-plus-visibility buy. Watch the daily quotas against your real publishing cadence.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Starter $79/mo annual (50 prompts/50 answers daily, 15 articles/mo), Basic $199/mo, Growth $399/mo with concrete quotas (the vendor pricing page: [pricing page](https://writesonic.com/pricing), verified 2026-09-25). |
+| Feature depth | 7/10 | AI answer tracking across up to 10 platforms, article generation and site audits make one growth loop (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
+| Integrations | 6/10 | Search Console, Ahrefs, WordPress, GA, Looker Studio and Cloudflare documented plus an API (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
+| AI capability | 7/10 | Article generation inside a tracked-visibility loop is the platform's connective tissue (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2021 with priced tiers and quota-stated plans (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -145,6 +85,15 @@ Writesonic is the entry-level option in this batch that still bundles measuremen
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: tracks brand mentions in AI answers across up to 10 AI platforms | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Google Search Console, Ahrefs, WordPress (6 listed) | ✗ All 10 AI platforms, sentiment analysis, and the full Action Center are Enterprise-level features |
+| ✓ The entry plan bundles 15 AI articles and 10 site audits per month with daily tracking | ✗ Agentic workflow runs are trial-limited on the lower tiers (10 to 100 runs) |
+| ✓ 20+ native integrations plus a public API and MCP server for agent access | ✗ Starter is a one-user, one-project plan |
+| ✓ The free trial needs no credit card |  |
+
 ## Related concepts
 
 - [GEO](/glossary/geo/)
@@ -158,16 +107,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Writesonic?**
 Writesonic: The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. Writesonic ships with tracks brand mentions in AI answers across up to 10 AI platforms. This page documents 6 integrations.
 
+**How much does Writesonic cost?**
 Writesonic starts at $79/mo. Starter $79/mo billed annually (50 prompts/50 answers daily, 15 AI articles/mo, 10 site audits of 100 pages); Basic $199/mo; Growth $399/mo (sentiment analysis, Action Center trial); Enterprise custom (all 10 AI platforms, full Action Center). Annual billing saves 20% vs monthly. Free trial, no credit card (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Writesonic worth paying for in 2026?**
 Writesonic is the entry-level option in this batch that still bundles measurement, content, and audits: $79 per month billed annually buys daily tracking and 15 AI articles alongside the visibility dashboard. The limits are tier gates rather than missing features, since full engine coverage, sentiment, and the Action Center sit at Growth and Enterprise. It fits brands that want one subscription for GEO diagnosis and production and can live with three engines to start.
 
+**What is Writesonic's GEO product?**
 It is the For Brands side of Writesonic, positioned as an AI Search Growth Engine: track how AI platforms mention your brand, get AI articles and site audits to fix visibility gaps, and on higher tiers run sentiment analysis and agentic workflows.
 
+**Which AI platforms does Writesonic track?**
 Starter through Growth track ChatGPT, Gemini, and Google AI Overviews. Enterprise covers 10 platforms: ChatGPT, Perplexity, Claude, Gemini, Grok, DeepSeek, Microsoft Copilot, Meta AI, Google AI Mode, and Google AI Overviews.
 
+**Does Writesonic have an API?**
 Yes. Writesonic documents a public API and an MCP server, with 20+ native integrations across CMS, CDN, and analytics tools such as WordPress, Google Search Console, Ahrefs, and Looker Studio.
 
 ## Similar Tools
@@ -182,6 +137,13 @@ Yes. Writesonic documents a public API and an MCP server, with 20+ native integr
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for content teams that want AI search visibility tracking in the same platform that drafts the content.
 ### Quick Facts
 
+- **Pricing:** From $79/mo
+- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
+- **Founded:** 2021
+- **HQ:** San Francisco, CA, USA
+- **API:** Yes
+- **Last verified:** 2026-09-25
+
 Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 ## Get the next teardown
@@ -189,6 +151,32 @@ Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Writesonic is a tool in GEO & LLM Optimization with paid plans starting at $79/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+Nightwatch
+
+Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+
+Ahrefs
+
+Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+
+Rankscale
+
+AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+
+Scrunch
+
+The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+
+Evertune
+
+GEO visibility measurement with content activation and a ChatGPT Ad Agent
+
+[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -207,7 +195,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/writesonic/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-25",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -334,7 +322,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/writesonic/", "breadcrumb": {"@id": "https://martechsignal.com/tools/writesonic/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/writesonic/", "breadcrumb": {"@id": "https://martechsignal.com/tools/writesonic/#breadcrumb"}, "dateModified": "2026-09-25"}
 ```
 
 ```json

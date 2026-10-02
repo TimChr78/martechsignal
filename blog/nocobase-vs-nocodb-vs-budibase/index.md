@@ -1,5 +1,23 @@
 # NocoBase vs NocoDB vs Budibase: Pick by Team Shape
 
+OPEN SOURCE · WORKFLOW AUTOMATION · 10 MIN
+
+## NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet
+
+[How we review](/methodology/) · No affiliate links
+
+[Home](/) · [Blog](/blog/) · NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet
+
+SEP 09, 2026
+
+Filed under [Workflow Automation](/categories/workflow-automation/)
+
+Every marketing ops team we talk to about self-hosting ends up shortlisting the same three names: [NocoBase](/tools/nocobase/), [NocoDB](/tools/nocodb/), and [Budibase](/tools/budibase/). They all promise the same escape hatch out of per-seat SaaS: run it on your own server, keep the data in your own database, stop paying $24 a seat for what is essentially a spreadsheet with permissions. They deliver on that promise in three very different ways, and the wrong pick costs you a migration six months later.
+
+We pulled current numbers from all three GitHub repos and pricing pages this week (September 9, 2026), and cross-checked them against our own tool reviews. The short version: all three are free to self-host at both 10 users and 50, none of them is "open source" in the clean sense the word implies, and they split by what your team is actually trying to run. Spreadsheet replacement, operational system of record, or internal app builder. Pick the shape first and the tool falls out.
+
+## The quick table
+
 
 |  | NocoBase | NocoDB | Budibase |
 | --- | --- | --- | --- |
@@ -9,34 +27,6 @@
 | Min self-host spec | 2 cores, 4 GB RAM | 2 vCPU, 2 GB RAM | 2 cores, 6 GB RAM |
 | Free self-hosted seats | Unlimited | Unlimited | Unlimited |
 | What it is | Data-model-first system builder | Airtable-style layer over your SQL database | Internal app and automation platform |
-
-
-| Scenario | NocoBase | NocoDB | Budibase |
-| --- | --- | --- | --- |
-| Self-host, 10 users | $0 software + ~4 GB RAM box | $0 software + ~2 GB RAM box | $0 software + ~6 GB RAM box |
-| Self-host, 50 users | $0 software, same box works | $0 software, docs recommend 4 vCPU / 8 GB for production | $0 software, compose cluster recommended |
-| Paying for advanced features | $800 one-time (external DB sources, rebranding) or $8,000 one-time (SSO, approvals, subflows, audit history) | Enterprise self-host for AI and integrations (contact sales); cloud Plus caps at $108/mo, Business at $216/mo | $0 for everything except enterprise controls (audit logs, SCIM, backups) |
-| Cloud instead | Not offered as standard cloud | Free 3-user tier, then $108/mo unlimited seats (Plus) | Pro $19/mo + $5/end user/mo |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-OPEN SOURCE · WORKFLOW AUTOMATION · 10 MIN
-
-## NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet
-
-[How we review](/methodology/) · No affiliate links
-
-[Home](/) · [Blog](/blog/) · NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet
-
-SEP 09, 2026 · Updated 2026-10-02
-
-Filed under [Workflow Automation](/categories/workflow-automation/)
-
-Every marketing ops team we talk to about self-hosting ends up shortlisting the same three names: [NocoBase](/tools/nocobase/), [NocoDB](/tools/nocodb/), and [Budibase](/tools/budibase/). They all promise the same escape hatch out of per-seat SaaS: run it on your own server, keep the data in your own database, stop paying $24 a seat for what is essentially a spreadsheet with permissions. They deliver on that promise in three very different ways, and the wrong pick costs you a migration six months later.
-
-We pulled current numbers from all three GitHub repos and pricing pages this week (September 9, 2026), and cross-checked them against our own tool reviews. The short version: all three are free to self-host at both 10 users and 50, none of them is "open source" in the clean sense the word implies, and they split by what your team is actually trying to run. Spreadsheet replacement, operational system of record, or internal app builder. Pick the shape first and the tool falls out.
-
-## The quick table
 
 All three shipped releases within the last week. None of these projects is coasting.
 
@@ -86,6 +76,14 @@ Worth naming the two adjacent options teams also evaluate here: [ToolJet](/tools
 
 Self-hosted, the software line is $0 for all three at both team sizes. Unlimited seats is table stakes in this category. The real numbers are infrastructure plus whatever features force you to pay.
 
+
+| Scenario | NocoBase | NocoDB | Budibase |
+| --- | --- | --- | --- |
+| Self-host, 10 users | $0 software + ~4 GB RAM box | $0 software + ~2 GB RAM box | $0 software + ~6 GB RAM box |
+| Self-host, 50 users | $0 software, same box works | $0 software, docs recommend 4 vCPU / 8 GB for production | $0 software, compose cluster recommended |
+| Paying for advanced features | $800 one-time (external DB sources, rebranding) or $8,000 one-time (SSO, approvals, subflows, audit history) | Enterprise self-host for AI and integrations (contact sales); cloud Plus caps at $108/mo, Business at $216/mo | $0 for everything except enterprise controls (audit logs, SCIM, backups) |
+| Cloud instead | Not offered as standard cloud | Free 3-user tier, then $108/mo unlimited seats (Plus) | Pro $19/mo + $5/end user/mo |
+
 Two things stand out. NocoBase's paid tiers are one-time purchases with a one-year upgrade window, which is a genuinely different financial shape from every SaaS you are trying to escape: $8,000 once beats $24 per seat per month at 50 users ($14,400 a year) by the second year. And NocoDB's cloud pricing quietly admits the per-seat model is dead, capping at nine paid seats with unlimited users after. The industry is converging on flat pricing from both directions.
 
 The hidden cost at every tier is the same one: the person who maintains the Docker containers, the backups, and the upgrades. Budget a few hours a month and an engineer who does not mind owning it. That is still cheaper than 50 seats, but it is not zero.
@@ -130,6 +128,8 @@ More from the directory: [Trakkr](/tools/trakkr/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -161,7 +161,7 @@ More from the directory: [Trakkr](/tools/trakkr/)
     }
   },
   "datePublished": "2026-09-09",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-09",
   "mainEntityOfPage": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/",
   "image": {
     "@type": "ImageObject",
@@ -207,7 +207,7 @@ More from the directory: [Trakkr](/tools/trakkr/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/", "breadcrumb": {"@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/", "breadcrumb": {"@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/#breadcrumb"}, "dateModified": "2026-09-09"}
 ```
 
 ```json

@@ -1,60 +1,5 @@
 # Bloomreach review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 4/10 | Custom enterprise pricing with modules from about $35K/yr; the one published decision is Loomi AI included at no extra charge (the vendor pricing page: [pricing page](https://www.bloomreach.com/en/pricing), verified 2026-08-28). |
-| Feature depth | 8/10 | AI search, recommendations, predictive personalization, content generation and merchandising cover the commerce experience stack (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
-| Integrations | 7/10 | Shopify, Salesforce, Adobe, Google Cloud, Segment, Algolia, SAP and Commercetools documented plus an API (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
-| AI capability | 8/10 | Loomi AI spans search, recommendations and merchandising as one named intelligence layer, included in the price (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise platform; portability is a program (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2009 with enterprise modules and the support model that tier implies (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: loomi AI search | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Shopify, Salesforce, Adobe (8 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
-| ✓ API access for custom integrations |  |
-
-**What is Bloomreach?**
-Bloomreach: AI-powered commerce experience platform with search, personalization, and CDP. Bloomreach ships with loomi AI search. This page documents 8 integrations.
-
-**How much does Bloomreach cost?**
-Bloomreach uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
-
-**Is Bloomreach a good Marketing Automation tool in 2026?**
-The right platform for large retailers consolidating search, CDP, and messaging. Mid-market stores will find it heavy.
-
-- **Pricing:** Enterprise
-- **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **Founded:** 2009
-- **HQ:** Mountain View, CA, USA
-- **API:** Yes
-- **Last verified:** 2026-08-28
-
-**Verdict:** Bloomreach is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Nosto
-
-AI-powered ecommerce personalization with product recommendations and merchandising
-
-Salesforce Marketing Cloud
-
-Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
-
-Hypotenuse AI
-
-AI content generation platform for ecommerce product descriptions and articles
-
-Clerk.io
-
-AI-powered ecommerce personalization with search, recommendations, and email
-
-[More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
@@ -67,7 +12,7 @@ AI-powered commerce experience platform with search, personalization, and CDP
 
 Marketing Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Bloomreach →](https://www.bloomreach.com)
 
@@ -78,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 37/60
 
 Bloomreach is the commerce experience platform where search and merchandising do the heavy lifting, with Loomi AI priced in rather than upsold. It wants a real data plumbing commitment before it shines.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 4/10 | Custom enterprise pricing with modules from about $35K/yr; the one published decision is Loomi AI included at no extra charge (the vendor pricing page: [pricing page](https://www.bloomreach.com/en/pricing), verified 2026-08-28). |
+| Feature depth | 8/10 | AI search, recommendations, predictive personalization, content generation and merchandising cover the commerce experience stack (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
+| Integrations | 7/10 | Shopify, Salesforce, Adobe, Google Cloud, Segment, Algolia, SAP and Commercetools documented plus an API (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
+| AI capability | 8/10 | Loomi AI spans search, recommendations and merchandising as one named intelligence layer, included in the price (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise platform; portability is a program (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2009 with enterprise modules and the support model that tier implies (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -126,6 +81,13 @@ The right platform for large retailers consolidating search, CDP, and messaging.
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: loomi AI search | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Shopify, Salesforce, Adobe (8 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [Marketing automation](/glossary/marketing-automation/)
@@ -140,10 +102,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Bloomreach?**
 Bloomreach: AI-powered commerce experience platform with search, personalization, and CDP. Bloomreach ships with loomi AI search. This page documents 8 integrations.
 
+**How much does Bloomreach cost?**
 Bloomreach uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
 
+**Is Bloomreach a good Marketing Automation tool in 2026?**
 The right platform for large retailers consolidating search, CDP, and messaging. Mid-market stores will find it heavy.
 
 ## Similar Tools
@@ -158,6 +123,13 @@ The right platform for large retailers consolidating search, CDP, and messaging.
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Commerce brands that want content, search and campaigns in one engine
 ### Quick Facts
 
+- **Pricing:** Enterprise
+- **Category:** [Marketing Automation](/categories/marketing-automation/)
+- **Founded:** 2009
+- **HQ:** Mountain View, CA, USA
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
 Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
 
 ## Get the next teardown
@@ -165,6 +137,28 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Bloomreach is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Nosto
+
+AI-powered ecommerce personalization with product recommendations and merchandising
+
+Salesforce Marketing Cloud
+
+Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
+
+Hypotenuse AI
+
+AI content generation platform for ecommerce product descriptions and articles
+
+Clerk.io
+
+AI-powered ecommerce personalization with search, recommendations, and email
+
+[More Marketing Automation Tools →](/categories/marketing-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -183,7 +177,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/bloomreach/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27"
   },
   {
@@ -279,7 +273,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/bloomreach/", "breadcrumb": {"@id": "https://martechsignal.com/tools/bloomreach/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/bloomreach/", "breadcrumb": {"@id": "https://martechsignal.com/tools/bloomreach/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

@@ -1,4 +1,8 @@
-# Best CDP platforms (2026): 6 compared
+# Best Customer Data Platforms (2026): composable to self-hosted
+
+## Best Customer Data Platforms (2026): composable to self-hosted
+
+RudderStack fits warehouse-first teams that want a self-hostable event router with a free 250K events/mo tier. Hightouch activates data already in the warehouse with no event collection of its own. Jitsu is the fully open-source option. Apache Unomi suits consent- and residency-governed European stacks. Segment is the documented default at a price, Tealium the enterprise governance play.
 
 
 | Tool | Pricing | Open source | Best for |
@@ -7,20 +11,12 @@
 | [Hightouch](/tools/hightouch/) | Freemium | No | Best activation layer when the warehouse is already the source of truth. |
 | [Jitsu](/tools/jitsu/) | Freemium | Yes (MIT) | Best fully open-source event collection for self-hosting the pipeline. |
 | [Apache Unomi](/tools/apache-unomi/) | Open Source | Yes (Apache-2.0) | Best when data-residency rules and European-consent governance drive the architecture. |
-| [Twilio Segment](/tools/segment/) | Freemium | No | Best documented default when budget is not the deciding axis. |
+| [Twilio Segment](/tools/segment/) | Freemium from $120/mo | No | Best documented default when budget is not the deciding axis. |
 | [Tealium](/tools/tealium/) | Enterprise | No | Best enterprise governance and consent orchestration at large scale. |
-
-[Open-Source Tools](/categories/open-source/)[Personalization & CDP](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-## Best Customer Data Platforms (2026): composable to self-hosted
-
-RudderStack fits warehouse-first teams that want a self-hostable event router with a free 250K events/mo tier. Hightouch activates data already in the warehouse with no event collection of its own. Jitsu is the fully open-source option. Apache Unomi suits consent- and residency-governed European stacks. Segment is the documented default at a price, Tealium the enterprise governance play.
 
 **Our top pick: [RudderStack](#rudderstack)** — Best Segment-compatible router for warehouse-first stacks on a budget. [Try RudderStack](https://www.rudderstack.com/)
 
-Last verified  · Updated 2026-10-02.
+Last verified 2026-10-01.
 
 ## How we picked
 
@@ -57,7 +53,7 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 
 ## [RudderStack](/tools/rudderstack/)
 
-RudderStack routes events from SDKs into warehouses and 200+ cloud destinations with reverse ETL closing the loop. The self-hostable Go data plane (rudder-server, needs only PostgreSQL) plus a free 250K events/mo cloud tier make it the cheapest Segment-shaped start; Growth at $265/mo adds unlimited team members and 30-minute warehouse syncs.
+RudderStack is the budget Segment shaped pick in this list. Events route into warehouses and cloud destinations with reverse ETL back out. The trade is that the self hostable plane leaves profile storage to your warehouse.
 
 **Verdict:** Best Segment-compatible router for warehouse-first stacks on a budget.
 
@@ -69,7 +65,7 @@ Vendor: [Official site](https://www.rudderstack.com/) · [Pricing](https://www.r
 
 ## [Hightouch](/tools/hightouch/)
 
-Hightouch does not collect events at all: it queries the warehouse you already run and syncs audiences and traits into Salesforce, Braze, Klaviyo, Meta Ads, and Google Ads. Identity resolution and AI Decisioning extend it beyond batch reverse ETL. Free plan covers 2 active syncs monthly; self-serve covers 10; business tier quotes on usage.
+Hightouch is the warehouse only pick in this list. It syncs from a warehouse you already run instead of collecting events. That rules it out for any team without one.
 
 **Verdict:** Best activation layer when the warehouse is already the source of truth.
 
@@ -81,7 +77,7 @@ Vendor: [Official site](https://hightouch.com/) · [Pricing](https://hightouch.c
 
 ## [Jitsu](/tools/jitsu/)
 
-Jitsu is the fully open-source (MIT) event router in this list: self-host the Go data plane, keep data in your Postgres cluster, and mirror the Segment API so existing SDK code keeps working. Cloud adds a managed control plane; the free tier covers modest event counts.
+Jitsu is the fully open source collection pick in this list. The MIT license and Segment compatible API keep existing SDK code working. The trade is a smaller destination set and thinner managed identity against Segment.
 
 **Verdict:** Best fully open-source event collection for self-hosting the pipeline.
 
@@ -93,7 +89,7 @@ Vendor: [Official site](https://jitsu.com) · [Pricing](https://jitsu.com/pricin
 
 ## [Apache Unomi](/tools/apache-unomi/)
 
-Apache Unomi is the rules-based profile store of the ASF: Java war deployable, OSGi extension points, consent and privacy management contextually aware. Active community but a much smaller one (375 GitHub stars) and heavier operational lift than the routers.
+Apache Unomi is the governance plumbing pick in this list. Consent handling and data residency drive the choice. The trade is heavier operations and a plain UI against the routers here.
 
 **Verdict:** Best when data-residency rules and European-consent governance drive the architecture.
 
@@ -105,7 +101,7 @@ Vendor: [Official site](https://unomi.apache.org) · [GitHub](https://github.com
 
 ## [Twilio Segment](/tools/segment/)
 
-Twilio Segment remains the reference CDP: the widest SDK and destination catalog, the cleanest docs, and a protocol every router here copies. Pricing is the catch - free to 1,000 monthly tracked users, Team from $120/mo for 10,000 MTUs with per-event overages.
+Segment is the documented default in this list. Catalog breadth and docs lead the group. The trade is volume pricing that scales faster than the warehouse first and open source options here.
 
 **Verdict:** Best documented default when budget is not the deciding axis.
 
@@ -117,7 +113,7 @@ Vendor: [Official site](https://segment.com) · [Pricing](https://www.twilio.com
 
 ## [Tealium](/tools/tealium/)
 
-Tealium sells governance and enterprise control: tag management plus the Customer Data Hub with consent orchestration, regional deployment, and audit trails. No published pricing - annual enterprise contracts only.
+Tealium is the enterprise control pick in this list. Tag management plus consent orchestration and audit trails suit large scale teams. The trade is annual contract pricing with no published numbers.
 
 **Verdict:** Best enterprise governance and consent orchestration at large scale.
 
@@ -147,6 +143,10 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+[Open-Source Tools](/categories/open-source/)[Personalization & CDP](/categories/personalization/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -155,7 +155,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best Customer Data Platforms (2026): composable to self-hosted",
     "datePublished": "2026-10-01",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-10-01",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -263,10 +263,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/cdp/", "breadcrumb": {"@id": "https://martechsignal.com/best/cdp/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

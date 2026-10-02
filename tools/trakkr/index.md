@@ -1,70 +1,5 @@
 # Trakkr review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Growth is $100/mo per brand (50 prompts, 8 models, 3 seats) or $1,000/yr annual, Scale $500/mo for 10 brands, both published (the vendor pricing page: [pricing page](https://trakkr.ai/pricing), verified 2026-09-25). |
-| Feature depth | 6/10 | Citations, perception analysis, competitor rankings and action recommendations cover measurement and prioritization, stopping short of content execution (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
-| Integrations | 6/10 | Zapier, Slack, Sheets, Notion, HubSpot and WordPress are documented, which is a practical six for agency workflows (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
-| AI capability | 6/10 | Perception analysis of how AI describes your brand is the standout; the rest is model-output measurement (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS; no self-hosting or open export terms in the catalog (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
-| Operational maturity | 5/10 | Priced for brands and agencies with per-brand workspaces, but thin public company history (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: citation and AI crawler analytics | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Zapier, Slack, Google Sheets (6 listed) | ✗ Pricing is per brand, so costs scale linearly with a multi-brand portfolio |
-| ✓ Public pricing and a self-serve trial, no demo required | ✗ The prompt cap is fixed at 50 per brand; custom volume needs Enterprise |
-| ✓ 13 integrations including Zapier, Slack, Sheets, Notion, HubSpot and WordPress, plus REST API and MCP | ✗ The 14-day trial auto-converts to the $100 per month Growth plan unless you cancel |
-| ✓ Free tools and live benchmarks (visibility leaderboard, AI traffic index) let you sample the data before paying |  |
-
-**What is Trakkr?**
-Trakkr: AI visibility platform for brands and agencies: citations, perception, competitors. Trakkr ships with citation and AI crawler analytics. This page documents 6 integrations.
-
-**How much does Trakkr cost?**
-Trakkr starts at $100/mo. Growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands & prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Trakkr worth paying for in 2026?**
-Trakkr is the transparent option in this batch: public per-brand pricing, eight models on every plan, and an action list that ranks fixes by expected impact. It bundles content articles with tracking, which suits teams that want measurement and output on one bill. Multi-brand portfolios should model the per-brand cost before scaling.
-
-**What does Trakkr track?**
-Citations (what AI reads about you), Perception (how AI describes your brand) and Competitors (rankings and share of voice) across ChatGPT, Perplexity, Claude, Gemini, Google, Grok, Meta AI and DeepSeek.
-
-**Does Trakkr produce content?**
-Growth includes 25 AI-written articles per month and Scale includes 100, alongside tracking. Trakkr also publishes free tools such as an llms.txt generator and an AI site grader.
-
-**Is Trakkr pricing public?**
-Yes. Unlike most enterprise GEO platforms, Trakkr lists plan prices openly; custom volume, SSO and security review requirements go to Enterprise.
-
-- **Pricing:** From $100/mo
-- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
-- **HQ:** London, UK
-- **API:** Yes
-- **Last verified:** 2026-09-25
-
-**Verdict:** Trakkr is a tool in GEO & LLM Optimization with paid plans starting at $100/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-OtterlyAI
-
-AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
-
-Nimt.ai
-
-AI search tracking across 8 models with an agent that writes, fixes, and outreaches
-
-Ahrefs
-
-Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
-
-Writesonic
-
-The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
-
-[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
@@ -75,7 +10,7 @@ AI visibility platform for brands and agencies: citations, perception, competito
 
 GEO & LLM Optimization · From $100/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Trakkr →](https://trakkr.ai/)
 
@@ -86,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 Trakkr's interesting angle is perception: how models describe your brand, not only whether they cite it. Per-brand pricing suits agencies running multiple workspaces.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Growth is $100/mo per brand (50 prompts, 8 models, 3 seats) or $1,000/yr annual, Scale $500/mo for 10 brands, both published (the vendor pricing page: [pricing page](https://trakkr.ai/pricing), verified 2026-09-25). |
+| Feature depth | 6/10 | Citations, perception analysis, competitor rankings and action recommendations cover measurement and prioritization, stopping short of content execution (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
+| Integrations | 6/10 | Zapier, Slack, Sheets, Notion, HubSpot and WordPress are documented, which is a practical six for agency workflows (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
+| AI capability | 6/10 | Perception analysis of how AI describes your brand is the standout; the rest is model-output measurement (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS; no self-hosting or open export terms in the catalog (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
+| Operational maturity | 5/10 | Priced for brands and agencies with per-brand workspaces, but thin public company history (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -138,6 +83,15 @@ Trakkr is the transparent option in this batch: public per-brand pricing, eight 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: citation and AI crawler analytics | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Zapier, Slack, Google Sheets (6 listed) | ✗ Pricing is per brand, so costs scale linearly with a multi-brand portfolio |
+| ✓ Public pricing and a self-serve trial, no demo required | ✗ The prompt cap is fixed at 50 per brand; custom volume needs Enterprise |
+| ✓ 13 integrations including Zapier, Slack, Sheets, Notion, HubSpot and WordPress, plus REST API and MCP | ✗ The 14-day trial auto-converts to the $100 per month Growth plan unless you cancel |
+| ✓ Free tools and live benchmarks (visibility leaderboard, AI traffic index) let you sample the data before paying |  |
+
 ## Related concepts
 
 - [GEO](/glossary/geo/)
@@ -151,16 +105,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Trakkr?**
 Trakkr: AI visibility platform for brands and agencies: citations, perception, competitors. Trakkr ships with citation and AI crawler analytics. This page documents 6 integrations.
 
+**How much does Trakkr cost?**
 Trakkr starts at $100/mo. Growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands & prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Trakkr worth paying for in 2026?**
 Trakkr is the transparent option in this batch: public per-brand pricing, eight models on every plan, and an action list that ranks fixes by expected impact. It bundles content articles with tracking, which suits teams that want measurement and output on one bill. Multi-brand portfolios should model the per-brand cost before scaling.
 
+**What does Trakkr track?**
 Citations (what AI reads about you), Perception (how AI describes your brand) and Competitors (rankings and share of voice) across ChatGPT, Perplexity, Claude, Gemini, Google, Grok, Meta AI and DeepSeek.
 
+**Does Trakkr produce content?**
 Growth includes 25 AI-written articles per month and Scale includes 100, alongside tracking. Trakkr also publishes free tools such as an llms.txt generator and an AI site grader.
 
+**Is Trakkr pricing public?**
 Yes. Unlike most enterprise GEO platforms, Trakkr lists plan prices openly; custom volume, SSO and security review requirements go to Enterprise.
 
 ## Similar Tools
@@ -175,6 +135,12 @@ Yes. Unlike most enterprise GEO platforms, Trakkr lists plan prices openly; cust
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for GEO & LLM optimization teams that want competitor visibility rankings, starting at $100/mo.
 ### Quick Facts
 
+- **Pricing:** From $100/mo
+- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
+- **HQ:** London, UK
+- **API:** Yes
+- **Last verified:** 2026-09-25
+
 Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 ## Get the next teardown
@@ -182,6 +148,28 @@ Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Trakkr is a tool in GEO & LLM Optimization with paid plans starting at $100/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+OtterlyAI
+
+AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+
+Nimt.ai
+
+AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+
+Ahrefs
+
+Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+
+Writesonic
+
+The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
+
+[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -200,7 +188,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/trakkr/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-25",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -327,7 +315,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/trakkr/", "breadcrumb": {"@id": "https://martechsignal.com/tools/trakkr/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/trakkr/", "breadcrumb": {"@id": "https://martechsignal.com/tools/trakkr/#breadcrumb"}, "dateModified": "2026-09-25"}
 ```
 
 ```json

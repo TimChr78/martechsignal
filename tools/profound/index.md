@@ -1,70 +1,5 @@
 # Profound review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 3/10 | Quote-based with no published prices; the only public number is a free trial of 50 prompts daily for 7 days (the vendor pricing page, verified Sep 2026: [pricing page](https://www.tryprofound.com/pricing), verified 2026-09-28). |
-| Feature depth | 9/10 | Visibility tracking across up to 9 engines, Prompt Volumes demand data, drafting agents and citations analytics make it a platform rather than a tracker (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
-| Integrations | 6/10 | Six documented connections including GA, Cloudflare and WordPress, plus an API; it stops short of a broad marketplace (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
-| AI capability | 8/10 | AI Marketer agents that draft content and manage visibility work are core product, not add-ons (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise SaaS with no self-hosting or published data export guarantees in the catalog (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
-| Operational maturity | 6/10 | Sells to enterprise with the support model that implies, but the company is young and the catalog documents no founding year (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: answer-engine visibility tracking across up to 9 engines | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Google Analytics, Google Cloud Platform, Amazon Web Services (6 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
-| ✓ Enterprise spans nine answer engines including Exa and DeepSeek, with all-time history and CSV/JSON exports | ✗ No public pricing, and no exports or API on the trial, so you cannot audit data before a sales process |
-| ✓ Agent Analytics ties CDN and cloud logs plus Google Analytics to AI-sourced traffic | ✗ Trial prompts are fixed to a recommended set on three engines for seven days |
-| ✓ SSO/SAML and SOC 2 compliance come with Enterprise | ✗ The platform now bundles content, social and ad drafting agents, which is more surface area than a pure visibility tracker |
-
-**What is Profound?**
-Profound: Enterprise AI marketing platform: answer-engine visibility plus drafting agents. Profound ships with answer-engine visibility tracking across up to 9 engines. This page documents 6 integrations.
-
-**How much does Profound cost?**
-Profound uses enterprise pricing, so the number depends on your volume and contract. Quote-based; contact sales (Sep 2026). Free trial runs 50 prompts daily for 7 days on ChatGPT, Gemini and Google AI Overviews. Our last verified read of the pricing model was 2026-09-25; the vendor's pricing page carries the current quote criteria.
-
-**Is Profound a good Geo & Llm Optimization tool in 2026?**
-Profound is the enterprise pick of this batch: nine-engine monitoring plus agents that do the follow-up work, sold by quote after a narrow seven-day trial. Buy it when AI search is a funded program with headcount, not a side experiment. Teams that only need visibility numbers will pay for drafting agents they do not use.
-
-**Is this the same company as profound.ai?**
-No. This entry covers Profound at tryprofound.com, the AI marketing platform for answer engine visibility. It is a different company from other products using the Profound name.
-
-**Can I customize the prompts Profound tracks?**
-Not on trial. Trial users get a recommended prompt set based on their industry. Enterprise plans can edit, disable and add prompts.
-
-**Does Profound only measure AI visibility?**
-No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent Analytics) with agents that draft content, social posts, PR corrections and sponsored answer campaigns.
-
-- **Pricing:** Enterprise
-- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
-- **HQ:** New York, USA
-- **API:** Yes
-- **Last verified:** 2026-09-25
-
-**Verdict:** Profound is a tool in GEO & LLM Optimization with custom pricing. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-Rankscale
-
-AI visibility tracking across 17+ answer engines for agencies and enterprise teams
-
-OtterlyAI
-
-AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
-
-Scrunch
-
-The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
-
-Ahrefs
-
-Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
-
-[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
@@ -75,7 +10,7 @@ Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
 GEO & LLM Optimization · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Profound →](https://www.tryprofound.com/)
 
@@ -86,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 Profound is the enterprise pick for answer-engine visibility, with the widest engine coverage and demand data nobody else publishes. Pricing is a sales conversation, which is its own signal.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 3/10 | Quote-based with no published prices; the only public number is a free trial of 50 prompts daily for 7 days (the vendor pricing page, verified Sep 2026: [pricing page](https://www.tryprofound.com/pricing), verified 2026-09-28). |
+| Feature depth | 9/10 | Visibility tracking across up to 9 engines, Prompt Volumes demand data, drafting agents and citations analytics make it a platform rather than a tracker (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
+| Integrations | 6/10 | Six documented connections including GA, Cloudflare and WordPress, plus an API; it stops short of a broad marketplace (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
+| AI capability | 8/10 | AI Marketer agents that draft content and manage visibility work are core product, not add-ons (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise SaaS with no self-hosting or published data export guarantees in the catalog (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
+| Operational maturity | 6/10 | Sells to enterprise with the support model that implies, but the company is young and the catalog documents no founding year (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -138,6 +83,15 @@ Profound is the enterprise pick of this batch: nine-engine monitoring plus agent
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: answer-engine visibility tracking across up to 9 engines | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Google Analytics, Google Cloud Platform, Amazon Web Services (6 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
+| ✓ Enterprise spans nine answer engines including Exa and DeepSeek, with all-time history and CSV/JSON exports | ✗ No public pricing, and no exports or API on the trial, so you cannot audit data before a sales process |
+| ✓ Agent Analytics ties CDN and cloud logs plus Google Analytics to AI-sourced traffic | ✗ Trial prompts are fixed to a recommended set on three engines for seven days |
+| ✓ SSO/SAML and SOC 2 compliance come with Enterprise | ✗ The platform now bundles content, social and ad drafting agents, which is more surface area than a pure visibility tracker |
+
 ## Related concepts
 
 - [GEO](/glossary/geo/)
@@ -151,16 +105,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Profound?**
 Profound: Enterprise AI marketing platform: answer-engine visibility plus drafting agents. Profound ships with answer-engine visibility tracking across up to 9 engines. This page documents 6 integrations.
 
+**How much does Profound cost?**
 Profound uses enterprise pricing, so the number depends on your volume and contract. Quote-based; contact sales (Sep 2026). Free trial runs 50 prompts daily for 7 days on ChatGPT, Gemini and Google AI Overviews. Our last verified read of the pricing model was 2026-09-25; the vendor's pricing page carries the current quote criteria.
 
+**Is Profound a good Geo & Llm Optimization tool in 2026?**
 Profound is the enterprise pick of this batch: nine-engine monitoring plus agents that do the follow-up work, sold by quote after a narrow seven-day trial. Buy it when AI search is a funded program with headcount, not a side experiment. Teams that only need visibility numbers will pay for drafting agents they do not use.
 
+**Is this the same company as profound.ai?**
 No. This entry covers Profound at tryprofound.com, the AI marketing platform for answer engine visibility. It is a different company from other products using the Profound name.
 
+**Can I customize the prompts Profound tracks?**
 Not on trial. Trial users get a recommended prompt set based on their industry. Enterprise plans can edit, disable and add prompts.
 
+**Does Profound only measure AI visibility?**
 No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent Analytics) with agents that draft content, social posts, PR corrections and sponsored answer campaigns.
 
 ## Similar Tools
@@ -175,6 +135,12 @@ No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for GEO & LLM optimization teams that want chatgpt shopping visibility tracking, with pricing quoted per contract.
 ### Quick Facts
 
+- **Pricing:** Enterprise
+- **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
+- **HQ:** New York, USA
+- **API:** Yes
+- **Last verified:** 2026-09-25
+
 Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 ## Get the next teardown
@@ -182,6 +148,28 @@ Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Profound is a tool in GEO & LLM Optimization with custom pricing. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+Rankscale
+
+AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+
+OtterlyAI
+
+AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+
+Scrunch
+
+The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+
+Ahrefs
+
+Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+
+[More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -200,7 +188,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/profound/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-25",
     "datePublished": "2026-09-25"
   },
   {
@@ -320,7 +308,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/profound/", "breadcrumb": {"@id": "https://martechsignal.com/tools/profound/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/profound/", "breadcrumb": {"@id": "https://martechsignal.com/tools/profound/#breadcrumb"}, "dateModified": "2026-09-25"}
 ```
 
 ```json

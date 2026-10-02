@@ -1,5 +1,68 @@
 # Marketing Automation Tools
 
+- [Home](/)
+- [Tools](/tools/)
+- Marketing Automation
+## Marketing Automation Tools
+
+Marketing automation platforms reviewed: workflow depth, guardrails, and AI autonomy. 12 tools with dated pricing and verification dates.
+
+12 TOOLS IN THIS CATEGORY
+
+## SUITE PLATFORMS***7*
+
+### ActiveCampaign
+
+### Adobe Marketo Engage
+
+### Bloomreach
+
+### Braze
+
+### HubSpot Marketing Hub
+
+### Ortto
+
+### Salesforce Marketing Cloud
+
+## POINT + OPEN-SOURCE TOOLS***5*
+
+### ALwrity
+
+### Laudspeaker
+
+### Line Harness
+
+### Mautic
+
+### NocoDB
+
+**Compare:** [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Salesforce Marketing Cloud vs HubSpot Marketing Hub](/vs/salesforce-marketing-cloud-vs-hubspot/) · [ActiveCampaign vs Klaviyo](/vs/activecampaign-vs-klaviyo/) · [ActiveCampaign vs HubSpot CRM](/vs/activecampaign-vs-hubspot/) · [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
+
+## Key terms
+
+- [Marketing automation](/glossary/marketing-automation/)
+- [Customer journey](/glossary/customer-journey/)
+- [Lead scoring](/glossary/lead-scoring/)
+- [MQL / SQL](/glossary/mql-sql/)
+Full definitions in the [martech glossary](/glossary/).
+
+Marketing automation platforms orchestrate campaigns across email, ads and your site from one rules engine: who gets what message, when, and what happens after they click. It is also the category where AI autonomy arrived first. ActiveCampaign now brands itself an autonomous marketing platform. HubSpot ships Breeze agents inside its workflows. Salesforce rebuilt Marketing Cloud around Agentforce. Other categories assist; this one acts, which is why the buyer's question has changed from what can it do to what does it do when nobody is watching.
+
+The category exists to fix two old failure modes. The first is manual campaign assembly: the same journey rebuilt by hand in an email tool, an ad platform and a CMS, drifting apart within a month. The second is siloed customer data, where email never learns what the ads team already knows. Both are solved problems now. The new failure mode came with the agents: silent actions at scale. A journey that fires overnight, spends budget, or emails your whole list leaves no draft to review. We covered the audit that catches this in the silent-failure audit and the missing control in the approval-loophole post.
+
+The directory splits three ways. Suite platforms cover the whole journey: ActiveCampaign, Ortto and HubSpot Marketing Hub for the mid-market, Adobe Marketo and Salesforce Marketing Cloud (Agentforce) at the enterprise end. Point solutions go deep on one job: Braze and Bloomreach on real-time engagement and commerce data, Laudspeaker on open-source lifecycle messaging. The self-hosted edge is where the interesting moves are: Mautic, the established open-source platform you host yourself, ALwrity for AI content production, and L Harness for LINE-channel CRM your agents can drive through an MCP server. Our reviews weight workflow power and guardrails equally, because autonomy without an audit trail is just unlisted liability.
+
+Choosing a platform is step two. Step one is whether your stack can hand work to an agent at all. The [marketing automation checklist](/checklist/) scores that in 12 questions before you shortlist.
+
+## Which one fits
+
+Vendors in this category: [NocoDB](https://nocodb.com) · [Mautic](https://www.mautic.org) · [Laudspeaker](https://laudspeaker.com/?ref=github)
+
+## Reading before you buy
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
 AI-powered marketing automation and CRM for small to mid-size businesses
 
 From $15/moDesk-reviewed
@@ -116,69 +179,6 @@ The category thesis in practice: audit what agents actually sent, not what logs 
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
-- [Home](/)
-- [Tools](/tools/)
-- Marketing Automation
-## Marketing Automation Tools
-
-Marketing automation platforms reviewed: workflow depth, guardrails, and AI autonomy. 12 tools with dated pricing and verification dates.
-
-12 TOOLS IN THIS CATEGORY
-
-## SUITE PLATFORMS***7*
-
-### ActiveCampaign
-
-### Adobe Marketo Engage
-
-### Bloomreach
-
-### Braze
-
-### HubSpot Marketing Hub
-
-### Ortto
-
-### Salesforce Marketing Cloud
-
-## POINT + OPEN-SOURCE TOOLS***5*
-
-### ALwrity
-
-### Laudspeaker
-
-### Line Harness
-
-### Mautic
-
-### NocoDB
-
-**Compare:** [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Salesforce Marketing Cloud vs HubSpot Marketing Hub](/vs/salesforce-marketing-cloud-vs-hubspot/) · [ActiveCampaign vs Klaviyo](/vs/activecampaign-vs-klaviyo/) · [ActiveCampaign vs HubSpot CRM](/vs/activecampaign-vs-hubspot/) · [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
-
-## Key terms
-
-- [Marketing automation](/glossary/marketing-automation/)
-- [Customer journey](/glossary/customer-journey/)
-- [Lead scoring](/glossary/lead-scoring/)
-- [MQL / SQL](/glossary/mql-sql/)
-Full definitions in the [martech glossary](/glossary/).
-
-Marketing automation platforms orchestrate campaigns across email, ads and your site from one rules engine: who gets what message, when, and what happens after they click. It is also the category where AI autonomy arrived first. ActiveCampaign now brands itself an autonomous marketing platform. HubSpot ships Breeze agents inside its workflows. Salesforce rebuilt Marketing Cloud around Agentforce. Other categories assist; this one acts, which is why the buyer's question has changed from what can it do to what does it do when nobody is watching.
-
-The category exists to fix two old failure modes. The first is manual campaign assembly: the same journey rebuilt by hand in an email tool, an ad platform and a CMS, drifting apart within a month. The second is siloed customer data, where email never learns what the ads team already knows. Both are solved problems now. The new failure mode came with the agents: silent actions at scale. A journey that fires overnight, spends budget, or emails your whole list leaves no draft to review. We covered the audit that catches this in the silent-failure audit and the missing control in the approval-loophole post.
-
-The directory splits three ways. Suite platforms cover the whole journey: ActiveCampaign, Ortto and HubSpot Marketing Hub for the mid-market, Adobe Marketo and Salesforce Marketing Cloud (Agentforce) at the enterprise end. Point solutions go deep on one job: Braze and Bloomreach on real-time engagement and commerce data, Laudspeaker on open-source lifecycle messaging. The self-hosted edge is where the interesting moves are: Mautic, the established open-source platform you host yourself, ALwrity for AI content production, and L Harness for LINE-channel CRM your agents can drive through an MCP server. Our reviews weight workflow power and guardrails equally, because autonomy without an audit trail is just unlisted liability.
-
-Choosing a platform is step two. Step one is whether your stack can hand work to an agent at all. The [marketing automation checklist](/checklist/) scores that in 12 questions before you shortlist.
-
-## Which one fits
-
-Vendors in this category: [NocoDB](https://nocodb.com) · [Mautic](https://www.mautic.org) · [Laudspeaker](https://laudspeaker.com/?ref=github)
-
-## Reading before you buy
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 
 ```json
 {
@@ -218,7 +218,7 @@ Vendors in this category: [NocoDB](https://nocodb.com) · [Mautic](https://www.m
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 12,
-      "dateModified": "2026-10-02",
+      "dateModified": "2026-10-01",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -371,7 +371,7 @@ Vendors in this category: [NocoDB](https://nocodb.com) · [Mautic](https://www.m
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/marketing-automation/", "breadcrumb": {"@id": "https://martechsignal.com/categories/marketing-automation/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/marketing-automation/", "breadcrumb": {"@id": "https://martechsignal.com/categories/marketing-automation/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

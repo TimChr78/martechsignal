@@ -1,74 +1,5 @@
 # OpenSEO review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free (MIT) paying DataForSEO per call; hosted at $10/mo including $10 of usage, both published (the vendor pricing page: [pricing page](https://openseo.so/pricing), verified 2026-09-07). |
-| Feature depth | 5/10 | SEO research and auditing functions mirroring the suite incumbents cover the analyst workflow (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
-| Integrations | 3/10 | DataForSEO as the data layer; no named platform integrations in the catalog (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/every-app/open-seo), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2026 with a simple hosted tier behind it (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $10/mo |
-| ✓ Active public repository (22,103 GitHub stars counted at last check) |  |
-
-**What is OpenSEO?**
-OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 22,103 stars.
-
-**How much does OpenSEO cost?**
-OpenSEO has a free tier; paid plans start at $10/mo. Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
-
-**Is OpenSEO a good self-hosted SEO & Search tool in 2026?**
-A fast-moving self-hosted SEO workbench with a genuine AI-visibility layer and usage-based data costs; bring a DataForSEO budget and some ops appetite.
-
-**What does OpenSEO cost to run on my own DataForSEO account?**
-You pay DataForSEO directly at its published rates. The docs state that new DataForSEO accounts include $1 of free credit and that the minimum top-up is $50, and the README says self-hosted costs come in slightly lower than the estimates on the OpenSEO website because the hosted service charges 28% extra on every request it makes to DataForSEO. For reference, hosted OpenSEO is $10/month including $10 of usage, with one keyword search quoted at about $0.05 and a domain overview with a year of history at about $0.08.
-
-**How often does OpenSEO check keyword positions?**
-Rank tracking schedules are Daily, Weekly, Monthly (end of month), and Manual only, with weekly as the default. The docs note that daily checks use seven times more credits than weekly ones, and that deeper SERP depth costs more, with ten pages of results quoted as roughly eight times the cost of one page. Google Search Console data is free and does not draw on your paid usage.
-
-**Does the self-hosted version include the AI features?**
-Only if you supply keys for them. AI features such as SAM, the in-app SEO agent, require an OpenRouter API key in your environment file, and AI Visibility is powered by DataForSEO's LLM mention endpoints, so those calls bill against your DataForSEO account like any other query. The MCP server and the agent skills themselves ship in the repository with no extra licence.
-
-- **Pricing:** Open Source
-- **Category:** [SEO & Search](/categories/seo/)
-- **GitHub:** ★ 22103
-- **Founded:** 2026
-- **HQ:** Open source
-- **API:** No
-- **Repository checked:** 2026-10-02
-- **Page updated:** 2026-09-07
-
-**Verdict:** OpenSEO is a tool in SEO & Search with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-Semrush
-
-All-in-one SEO and digital marketing platform with AI-powered insights and tools
-
-AccuRanker
-
-Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
-
-Frase
-
-AI-powered SEO content platform for research, writing, and AI visibility tracking
-
-Nimt.ai
-
-AI search tracking across 8 models with an agent that writes, fixes, and outreaches
-
-Potato
-
-Free local tool that measures brand mentions and citations in Claude's web-search answers
-
-[More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
@@ -81,7 +12,7 @@ Open source alternative to Ahrefs and Semrush
 
 SEO & Search · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit OpenSEO →](https://openseo.so)
 
@@ -92,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 32/60
 
 OpenSEO is the open-source Ahrefs and Semrush alternative where you pay DataForSEO per call instead of a suite price. A $10/mo hosted option makes the economics easy to model.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Self-hosted free (MIT) paying DataForSEO per call; hosted at $10/mo including $10 of usage, both published (the vendor pricing page: [pricing page](https://openseo.so/pricing), verified 2026-09-07). |
+| Feature depth | 5/10 | SEO research and auditing functions mirroring the suite incumbents cover the analyst workflow (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
+| Integrations | 3/10 | DataForSEO as the data layer; no named platform integrations in the catalog (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/every-app/open-seo), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2026 with a simple hosted tier behind it (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -144,6 +85,12 @@ A fast-moving self-hosted SEO workbench with a genuine AI-visibility layer and u
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $10/mo |
+| ✓ Active public repository (22,103 GitHub stars counted at last check) |  |
+
 ## Related concepts
 
 - [SEO](/glossary/seo/)
@@ -158,16 +105,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is OpenSEO?**
 OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 22,103 stars.
 
+**How much does OpenSEO cost?**
 OpenSEO has a free tier; paid plans start at $10/mo. Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
+**Is OpenSEO a good self-hosted SEO & Search tool in 2026?**
 A fast-moving self-hosted SEO workbench with a genuine AI-visibility layer and usage-based data costs; bring a DataForSEO budget and some ops appetite.
 
+**What does OpenSEO cost to run on my own DataForSEO account?**
 You pay DataForSEO directly at its published rates. The docs state that new DataForSEO accounts include $1 of free credit and that the minimum top-up is $50, and the README says self-hosted costs come in slightly lower than the estimates on the OpenSEO website because the hosted service charges 28% extra on every request it makes to DataForSEO. For reference, hosted OpenSEO is $10/month including $10 of usage, with one keyword search quoted at about $0.05 and a domain overview with a year of history at about $0.08.
 
+**How often does OpenSEO check keyword positions?**
 Rank tracking schedules are Daily, Weekly, Monthly (end of month), and Manual only, with weekly as the default. The docs note that daily checks use seven times more credits than weekly ones, and that deeper SERP depth costs more, with ten pages of results quoted as roughly eight times the cost of one page. Google Search Console data is free and does not draw on your paid usage.
 
+**Does the self-hosted version include the AI features?**
 Only if you supply keys for them. AI features such as SAM, the in-app SEO agent, require an OpenRouter API key in your environment file, and AI Visibility is powered by DataForSEO's LLM mention endpoints, so those calls bill against your DataForSEO account like any other query. The MCP server and the agent skills themselves ship in the repository with no extra licence.
 
 ## Similar Tools
@@ -179,11 +132,46 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ### Quick Facts
 
+- **Pricing:** Open Source
+- **Category:** [SEO & Search](/categories/seo/)
+- **GitHub:** ★ 22103
+- **Founded:** 2026
+- **HQ:** Open source
+- **API:** No
+- **Repository checked:** 2026-10-02
+- **Page updated:** 2026-09-07
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** OpenSEO is a tool in SEO & Search with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+Semrush
+
+All-in-one SEO and digital marketing platform with AI-powered insights and tools
+
+AccuRanker
+
+Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+
+Frase
+
+AI-powered SEO content platform for research, writing, and AI visibility tracking
+
+Nimt.ai
+
+AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+
+Potato
+
+Free local tool that measures brand mentions and citations in Claude's web-search answers
+
+[More SEO & Search Tools →](/categories/seo/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json

@@ -1,18 +1,5 @@
 # IAB agentic buying rules land before ad stacks can honor them
 
-
-|  | What AAMP 3.0 assumes | What your stack runs today |
-| --- | --- | --- |
-| **Brief issued** | Machine-readable, agent-consumable | Email, doc, deck, or a form in a UI |
-| **Proposal discovery** | Agents query standardized ad product feeds | A planner checks publisher sites and rate cards by hand |
-| **Comparison and negotiation** | Agent compares proposals against the brief, negotiates terms | Threads of email, redlined PDFs, phone calls |
-| **Commitment to buy** | Deal ID flows into existing execution standards | A human signs the insertion order |
-| **Measurement terms** | Modular standard contract, adaptable per deal | Every measurement agreement negotiated from scratch |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-✓ Direction: right. Timeline: not yours.
-
 DIGITAL ADVERTISING · AI AGENTS · 8 MIN
 
 ## Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them
@@ -20,8 +7,6 @@ DIGITAL ADVERTISING · AI AGENTS · 8 MIN
 [How we review](/methodology/) · No affiliate links
 
 [Home](/) · [Blog](/blog/) · Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them
-
- · Updated 2026-10-02
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -36,6 +21,15 @@ OpenProposal gives sellers a machine-readable format for describing ad products 
 The quiet claim inside the announcement is worth stating plainly: agents can evaluate proposals from more publishers than a human planner could reasonably review. Wider consideration at the planning stage is the actual promise. Whether your organization can accept it depends on what sits between the brief and the money, and that is where the gap lives.
 
 ## The spec versus what you run today
+
+
+|  | What AAMP 3.0 assumes | What your stack runs today |
+| --- | --- | --- |
+| **Brief issued** | Machine-readable, agent-consumable | Email, doc, deck, or a form in a UI |
+| **Proposal discovery** | Agents query standardized ad product feeds | A planner checks publisher sites and rate cards by hand |
+| **Comparison and negotiation** | Agent compares proposals against the brief, negotiates terms | Threads of email, redlined PDFs, phone calls |
+| **Commitment to buy** | Deal ID flows into existing execution standards | A human signs the insertion order |
+| **Measurement terms** | Modular standard contract, adaptable per deal | Every measurement agreement negotiated from scratch |
 
 Every row on the right works. It also caps how fast you can buy and how much inventory you can consider. The left column describes machinery that mostly does not exist on the buyer side yet. That is the contrarian read on a standards announcement: the IAB standardized a workflow that most stacks have not digitized at all, so the spec arrives before the systems that could honor it.
 
@@ -96,6 +90,10 @@ More from the directory: [ManyChat](/tools/manychat/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+✓ Direction: right. Timeline: not yours.
+
 
 ```json
 {
@@ -127,7 +125,7 @@ More from the directory: [ManyChat](/tools/manychat/)
     }
   },
   "datePublished": "2026-09-28",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/",
   "image": {
     "@type": "ImageObject",
@@ -173,7 +171,7 @@ More from the directory: [ManyChat](/tools/manychat/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/", "breadcrumb": {"@id": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/", "breadcrumb": {"@id": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

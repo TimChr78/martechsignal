@@ -1,82 +1,5 @@
 # Amplitude review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 6/10 | Free 2M events/mo with no time limit and Plus starting at $0 scaling with volume; Growth and Enterprise are custom (verified Sep 2026: [vendor site](https://amplitude.com), verified 2026-09-28). |
-| Feature depth | 8/10 | Product analytics, funnels, cohorts and predictive analytics cover the behavioral analysis stack (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
-| Integrations | 8/10 | Segment, Snowflake, Salesforce, Braze, Slack, Zapier, Google Ads and Meta Ads documented plus an API (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
-| AI capability | 7/10 | AI root cause analysis, anomaly detection and natural-language queries turn analysis into answers (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with warehouse-native exports softening the lock-in (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2012 and publicly listed with enterprise analytics deployments behind it (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI root cause analysis | ✗ Closed source - no self-hosting option |
-| ✓ G2 rating 4.5/5 |  |
-| ✓ Native integrations include Segment, Snowflake, Salesforce (8 listed) |  |
-| ✓ Free tier to evaluate before committing (Free plan includes 2M events/month, no time limit. Plus starts at $0 and scales with event volume. Growth and Enterprise are custom-priced (verified Sep 2026)) |  |
-
-**What is Amplitude?**
-Amplitude: AI-powered digital analytics platform for product and marketing teams. Amplitude ships with AI root cause analysis. This page documents 8 integrations.
-
-**How much does Amplitude cost?**
-Amplitude has a free tier, so you can run a real evaluation before paying. Free plan includes 2M events/month, no time limit. Plus starts at $0 and scales with event volume. Growth and Enterprise are custom-priced (verified Sep 2026). We last checked the plan structure on 2026-09-25; paid tiers mainly raise limits rather than unlocking core features.
-
-**Is Amplitude worth it past the free tier?**
-Standard choice for product-led companies. For pure marketing analytics, Google Analytics 4 covers more channels with less cost.
-
-**Does Amplitude have heatmaps?**
-Not as classic click and scroll overlays. Amplitude's closest equivalents are session replay and journey analysis, which reconstruct where users struggle after the fact. If heatmap overlays are the requirement, tools like Hotjar or Microsoft Clarity fill that gap, and both pair fine with Amplitude data.
-
-**What are Amplitude's pricing tiers?**
-Four tiers.. Free: 2M events and 50,000 MTUs per month, 10 saved charts, 1,000 session replays, one year of data access, no credit card. Plus: usage based, first 2M events free, scaling to 70M events and 700,000 MTUs, two year retention, 20 behavioral cohorts, credit card required. Growth and Enterprise: both quoted by sales, with Enterprise adding unlimited projects, RBAC and SCIM, 50,000 replays, and a one business day SLA. A Startup Scholarship covers one free year of Growth for companies under $10M raised with fewer than 20 employees. Amplitude publishes no per tier dollar table; Plus is priced through an event volume calculator on its pricing page.
-
-**What is an MTU in Amplitude, and what happens if I exceed my limit?**
-An MTU is a unique user who triggers at least one event in your product in a calendar month. Anonymous users count by device ID, known users by user ID, and a person counts once across projects. The Free plan allows 50,000 MTUs and caps each at 1,000 events per month. On paid plans the limit is the MTU volume you purchase, and exceeding it can bring overage charges: each extra 1,000 events converts to one MTU at the plan's per unit rate, with alerts at 80%, 90%, 100%, and 110%. On Free, crossing the limit three times blocks the account; Amplitude keeps ingesting data but you cannot read it until you upgrade, and the account is deleted after six months over limit.
-
-**Amplitude vs Mixpanel: which should you pick?**
-Mixpanel is cheaper and does event analytics well, which is enough if behavioral charts are the whole job. Amplitude's comparison page argues for more than a point solution: experimentation, session replay, and a customer data platform in the same suite, plus autocapture, governance, and support it credits Mixpanel with lacking. Treat that as vendor framing. The practical test is whether you would buy a separate testing or replay tool anyway; if not, Mixpanel at a lower price point is the rational pick.
-
-**Do you need Amplitude if you already have Google Analytics 4?**
-They answer different questions. GA4 is built around acquisition, meaning which campaign or channel brought the visit, and it costs nothing. Amplitude is built around in product behavior: what a user did after arriving, which features retain, where a funnel breaks. Teams running a product led motion usually keep GA4 for channel reporting and add Amplitude for product decisions; teams that only need channel reporting usually do not need Amplitude at all. Amplitude's own comparison page positions GA4 as a web and ads point solution that depends on BigQuery for deeper analysis, which is the vendor's framing rather than an independent verdict.
-
-**Does Amplitude have AI features?**
-Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashboard Agent, Session Replay Agent, and Customer Feedback Agent, plus custom agents, predictive audiences, and automated anomaly detection. An MCP server connects Claude, Cursor, and other MCP clients, and Amplitude states it works on every plan including Free. Wave, described as a proactive product agent, is listed as reaching customers in the second half of 2026. Scope moves often; Amplitude's AI docs carry the current list.
-
-- **Pricing:** Freemium
-- **Category:** [Analytics & Attribution](/categories/analytics/)
-- **Third-party ratingsG2 rating:** 4.5/5 (3,865 reviews) · [source](https://www.g2.com/sellers/amplitude)as of 2026-09-01
-- **Founded:** 2012
-- **HQ:** San Francisco, CA, USA
-- **API:** Yes
-- **Last verified:** 2026-09-25
-
-**Verdict:** Amplitude is a tool in Analytics & Attribution with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-Heap
-
-AI-powered product analytics with autocapture and digital experience insights
-
-Mixpanel
-
-Product analytics platform with AI-powered insights for user behavior tracking
-
-PostHog
-
-Open-source product analytics platform with session replay, feature flags, experiments, and surveys
-
-Triple Whale
-
-AI-powered ecommerce analytics and attribution platform for DTC brands
-
-Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
-
-[More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
@@ -87,7 +10,7 @@ AI-powered digital analytics platform for product and marketing teams
 
 Analytics & Attribution · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Amplitude →](https://amplitude.com)
 
@@ -98,6 +21,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 40/60
 
 Amplitude is the analytics platform that answers product questions before marketing asks them, and the free 2M-event tier is genuinely usable. The AI root cause analysis earns its keep on messy funnels.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Free 2M events/mo with no time limit and Plus starting at $0 scaling with volume; Growth and Enterprise are custom (verified Sep 2026: [vendor site](https://amplitude.com), verified 2026-09-28). |
+| Feature depth | 8/10 | Product analytics, funnels, cohorts and predictive analytics cover the behavioral analysis stack (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
+| Integrations | 8/10 | Segment, Snowflake, Salesforce, Braze, Slack, Zapier, Google Ads and Meta Ads documented plus an API (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
+| AI capability | 7/10 | AI root cause analysis, anomaly detection and natural-language queries turn analysis into answers (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with warehouse-native exports softening the lock-in (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2012 and publicly listed with enterprise analytics deployments behind it (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -158,6 +91,14 @@ Standard choice for product-led companies. For pure marketing analytics, Google 
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI root cause analysis | ✗ Closed source - no self-hosting option |
+| ✓ G2 rating 4.5/5 |  |
+| ✓ Native integrations include Segment, Snowflake, Salesforce (8 listed) |  |
+| ✓ Free tier to evaluate before committing (Free plan includes 2M events/month, no time limit. Plus starts at $0 and scales with event volume. Growth and Enterprise are custom-priced (verified Sep 2026)) |  |
+
 ## Related concepts
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -171,22 +112,31 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Amplitude?**
 Amplitude: AI-powered digital analytics platform for product and marketing teams. Amplitude ships with AI root cause analysis. This page documents 8 integrations.
 
+**How much does Amplitude cost?**
 Amplitude has a free tier, so you can run a real evaluation before paying. Free plan includes 2M events/month, no time limit. Plus starts at $0 and scales with event volume. Growth and Enterprise are custom-priced (verified Sep 2026). We last checked the plan structure on 2026-09-25; paid tiers mainly raise limits rather than unlocking core features.
 
+**Is Amplitude worth it past the free tier?**
 Standard choice for product-led companies. For pure marketing analytics, Google Analytics 4 covers more channels with less cost.
 
+**Does Amplitude have heatmaps?**
 Not as classic click and scroll overlays. Amplitude's closest equivalents are session replay and journey analysis, which reconstruct where users struggle after the fact. If heatmap overlays are the requirement, tools like Hotjar or Microsoft Clarity fill that gap, and both pair fine with Amplitude data.
 
+**What are Amplitude's pricing tiers?**
 Four tiers.. Free: 2M events and 50,000 MTUs per month, 10 saved charts, 1,000 session replays, one year of data access, no credit card. Plus: usage based, first 2M events free, scaling to 70M events and 700,000 MTUs, two year retention, 20 behavioral cohorts, credit card required. Growth and Enterprise: both quoted by sales, with Enterprise adding unlimited projects, RBAC and SCIM, 50,000 replays, and a one business day SLA. A Startup Scholarship covers one free year of Growth for companies under $10M raised with fewer than 20 employees. Amplitude publishes no per tier dollar table; Plus is priced through an event volume calculator on its pricing page.
 
+**What is an MTU in Amplitude, and what happens if I exceed my limit?**
 An MTU is a unique user who triggers at least one event in your product in a calendar month. Anonymous users count by device ID, known users by user ID, and a person counts once across projects. The Free plan allows 50,000 MTUs and caps each at 1,000 events per month. On paid plans the limit is the MTU volume you purchase, and exceeding it can bring overage charges: each extra 1,000 events converts to one MTU at the plan's per unit rate, with alerts at 80%, 90%, 100%, and 110%. On Free, crossing the limit three times blocks the account; Amplitude keeps ingesting data but you cannot read it until you upgrade, and the account is deleted after six months over limit.
 
+**Amplitude vs Mixpanel: which should you pick?**
 Mixpanel is cheaper and does event analytics well, which is enough if behavioral charts are the whole job. Amplitude's comparison page argues for more than a point solution: experimentation, session replay, and a customer data platform in the same suite, plus autocapture, governance, and support it credits Mixpanel with lacking. Treat that as vendor framing. The practical test is whether you would buy a separate testing or replay tool anyway; if not, Mixpanel at a lower price point is the rational pick.
 
+**Do you need Amplitude if you already have Google Analytics 4?**
 They answer different questions. GA4 is built around acquisition, meaning which campaign or channel brought the visit, and it costs nothing. Amplitude is built around in product behavior: what a user did after arriving, which features retain, where a funnel breaks. Teams running a product led motion usually keep GA4 for channel reporting and add Amplitude for product decisions; teams that only need channel reporting usually do not need Amplitude at all. Amplitude's own comparison page positions GA4 as a web and ads point solution that depends on BigQuery for deeper analysis, which is the vendor's framing rather than an independent verdict.
 
+**Does Amplitude have AI features?**
 Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashboard Agent, Session Replay Agent, and Customer Feedback Agent, plus custom agents, predictive audiences, and automated anomaly detection. An MCP server connects Claude, Cursor, and other MCP clients, and Amplitude states it works on every plan including Free. Wave, described as a proactive product agent, is listed as reaching customers in the second half of 2026. Scope moves often; Amplitude's AI docs carry the current list.
 
 ## Similar Tools
@@ -201,6 +151,14 @@ Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashb
 - [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Product teams that want funnels and retention without an analyst queue
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Analytics & Attribution](/categories/analytics/)
+- **Third-party ratingsG2 rating:** 4.5/5 (3,865 reviews) · [source](https://www.g2.com/sellers/amplitude)as of 2026-09-01
+- **Founded:** 2012
+- **HQ:** San Francisco, CA, USA
+- **API:** Yes
+- **Last verified:** 2026-09-25
+
 Related guides: [Amplitude in Matomo alternatives](/alternatives/matomo/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 ## Get the next teardown
@@ -208,6 +166,30 @@ Related guides: [Amplitude in Matomo alternatives](/alternatives/matomo/) · [Ma
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Amplitude is a tool in Analytics & Attribution with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+Heap
+
+AI-powered product analytics with autocapture and digital experience insights
+
+Mixpanel
+
+Product analytics platform with AI-powered insights for user behavior tracking
+
+PostHog
+
+Open-source product analytics platform with session replay, feature flags, experiments, and surveys
+
+Triple Whale
+
+AI-powered ecommerce analytics and attribution platform for DTC brands
+
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
+
+[More Analytics & Attribution Tools →](/categories/analytics/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -227,7 +209,14 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-10-02",
-    "datePublished": "2026-07-27"
+    "datePublished": "2026-07-27",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "USD",
+      "url": "https://amplitude.com/pricing",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -367,10 +356,6 @@ One email when a new tool review lands, nothing else.
     }
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/amplitude/", "breadcrumb": {"@id": "https://martechsignal.com/tools/amplitude/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -1,18 +1,5 @@
 # What a Free SEO Audit Replaces (and What It Does Not)
 
-
-| Decision factor | Claude SEO | Semrush |
-| --- | --- | --- |
-| Cost | Free MIT skill; you pay API tokens per audit, roughly $6 per site in our runs | From $117/mo billed annually (Pro); Guru $250/mo; Business $500/mo; Semrush One $199/mo |
-| Data it owns | None; it reads public sources and crawls on demand | A keyword database of 25 billion keywords across more than 140 countries, plus a backlink index and a site crawler with 140-plus checks |
-| Ongoing monitoring | Point-in-time audits; no UI and no stored history | Daily position tracking, historical data on higher tiers, and scheduled crawls |
-| Audit depth | Evidence-linked findings with dependencies and an explicit check for whether a fix worked | A technical crawler that flags issues across a large rule set, aimed at monitoring rather than a written action plan |
-| AI search readiness | Scores pages for citability by AI answer engines, checks llms.txt and the structured data LLMs cite | Tracks AI visibility alongside traditional search, from a dashboard angle |
-| Who can use it | Developers and SEO practitioners already in Claude Code | Any marketer, with dashboards, integrations, and client-ready reporting |
-| Integrations | Claude Code, Google Search Console, DataForSEO, Firecrawl, Lighthouse | Google Analytics, Google Search Console, WordPress, Zapier, Slack, HubSpot, Salesforce, Looker Studio |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 SEO · AGENT SKILLS · 7 MIN
 
 ## What a free SEO audit replaces in your Semrush stack, and what it does not
@@ -21,7 +8,7 @@ SEO · AGENT SKILLS · 7 MIN
 
 [Home](/) · [Blog](/blog/) · What a free SEO audit replaces in your Semrush stack, and what it does not
 
-SEP 16, 2026 · Updated 2026-10-02
+SEP 16, 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -34,6 +21,17 @@ The cost gap makes the comparison feel lopsided: a free MIT skill against a plat
 Most readers should pick **Semrush**. Day-to-day SEO work is mostly recurring: tracking rankings, watching backlinks, researching keywords, and reporting to someone who does not open a terminal. Claude SEO does none of that. It wins the one job it was built for, a deep technical and AI-search audit of a site, and it does that job for the cost of API tokens. Buy Semrush for the platform work and keep Claude SEO for the audit, or defer the subscription until you need the data layer.
 
 ## The comparison at a glance
+
+
+| Decision factor | Claude SEO | Semrush |
+| --- | --- | --- |
+| Cost | Free MIT skill; you pay API tokens per audit, roughly $6 per site in our runs | From $117/mo billed annually (Pro); Guru $250/mo; Business $500/mo; Semrush One $199/mo |
+| Data it owns | None; it reads public sources and crawls on demand | A keyword database of 25 billion keywords across more than 140 countries, plus a backlink index and a site crawler with 140-plus checks |
+| Ongoing monitoring | Point-in-time audits; no UI and no stored history | Daily position tracking, historical data on higher tiers, and scheduled crawls |
+| Audit depth | Evidence-linked findings with dependencies and an explicit check for whether a fix worked | A technical crawler that flags issues across a large rule set, aimed at monitoring rather than a written action plan |
+| AI search readiness | Scores pages for citability by AI answer engines, checks llms.txt and the structured data LLMs cite | Tracks AI visibility alongside traditional search, from a dashboard angle |
+| Who can use it | Developers and SEO practitioners already in Claude Code | Any marketer, with dashboards, integrations, and client-ready reporting |
+| Integrations | Claude Code, Google Search Console, DataForSEO, Firecrawl, Lighthouse | Google Analytics, Google Search Console, WordPress, Zapier, Slack, HubSpot, Salesforce, Looker Studio |
 
 Neither tool is a complete answer, and the table shows why. Claude SEO has no database to stand on. Semrush has no terminal command that hands you a written, falsifiable fix list. The overlap is the site crawler, and even there the output shapes differ.
 
@@ -97,6 +95,8 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -128,7 +128,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-09-16",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-16",
   "mainEntityOfPage": "https://martechsignal.com/blog/what-free-seo-audit-replaces/",
   "image": {
     "@type": "ImageObject",
@@ -174,7 +174,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/what-free-seo-audit-replaces/", "breadcrumb": {"@id": "https://martechsignal.com/blog/what-free-seo-audit-replaces/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/what-free-seo-audit-replaces/", "breadcrumb": {"@id": "https://martechsignal.com/blog/what-free-seo-audit-replaces/#breadcrumb"}, "dateModified": "2026-09-16"}
 ```
 
 ```json

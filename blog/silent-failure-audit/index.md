@@ -1,15 +1,5 @@
 # Check outputs, not logs: the silent-failure audit
 
-
-| Platform | What "success" certifies | What it can hide |
-| --- | --- | --- |
-| Make (Skip handler) | The run completed; failed bundles were dropped | Any data loss the builder once called acceptable |
-| Zapier | The run completed or an error was handled | Filtered runs where nothing executed; errors handled forever without escalation |
-| n8n | The execution finished | Nodes with "continue on fail"; steps whose API call succeeded but whose effect didn't |
-| WhatsApp Cloud API (any tool) | The POST returned 200 | Delivery failures like 131047 that arrive later, on a webhook you may not subscribe to |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 AUTOMATION · AI AGENTS · 9 MIN
 
 ## Check outputs, not logs: the silent-failure audit
@@ -18,7 +8,7 @@ AUTOMATION · AI AGENTS · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Check outputs, not logs: the silent-failure audit
 
-SEP 10, 2026 · Updated 2026-10-02
+SEP 10, 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/) · [Agent Skills](/categories/agent-skills/)
 
@@ -37,6 +27,14 @@ Make's [Skip error handler](https://help.make.com/skip-error-handler) documentat
 Zapier's [run status documentation](https://help.zapier.com/hc/en-us/articles/20505304170637-Review-run-statuses-in-Zap-workflows) lists eleven statuses, and the interesting ones are not errors either. `Filtered` means a filter step stopped the run, so no subsequent steps executed at all. `Handled error` means an error handler caught a failure and ran an alternative path, and Zapier notes that a Zap with a handled error "will not turn off automatically" no matter how many times it happens. A Zap can run wrong every day for a month and its history stays free of anything you would notice while scrolling.
 
 In n8n, the mechanism is a node setting called "continue on fail." One commenter in the thread, Ok-Category2729, diagnosed a customer's broken WhatsApp integration to exactly that: "every execution showed green because it never threw, but the send message step was silently failing." He then stated the mental model the whole audit rests on: n8n success means the execution finished, not that the intended thing happened.
+
+
+| Platform | What "success" certifies | What it can hide |
+| --- | --- | --- |
+| Make (Skip handler) | The run completed; failed bundles were dropped | Any data loss the builder once called acceptable |
+| Zapier | The run completed or an error was handled | Filtered runs where nothing executed; errors handled forever without escalation |
+| n8n | The execution finished | Nodes with "continue on fail"; steps whose API call succeeded but whose effect didn't |
+| WhatsApp Cloud API (any tool) | The POST returned 200 | Delivery failures like 131047 that arrive later, on a webhook you may not subscribe to |
 
 A 200 response is a receipt for the request. The outcome shows up later, somewhere else, or never.
 
@@ -95,6 +93,8 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -126,7 +126,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-09-10",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-10",
   "mainEntityOfPage": "https://martechsignal.com/blog/silent-failure-audit/",
   "image": {
     "@type": "ImageObject",
@@ -172,7 +172,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/silent-failure-audit/", "breadcrumb": {"@id": "https://martechsignal.com/blog/silent-failure-audit/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/silent-failure-audit/", "breadcrumb": {"@id": "https://martechsignal.com/blog/silent-failure-audit/#breadcrumb"}, "dateModified": "2026-09-10"}
 ```
 
 ```json

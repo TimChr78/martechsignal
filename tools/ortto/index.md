@@ -1,73 +1,5 @@
 # Ortto review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 6/10 | Starter from $199/mo with a 14-day trial is published; larger plans require a 12-month commitment and email overage is $1 per 1,000 (the vendor pricing page: [pricing page](https://ortto.com/starter/), verified 2026-09-07). |
-| Feature depth | 7/10 | Journeys, a CDP layer and analytics in one platform cover the marketing automation loop end to end (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
-| Integrations | 7/10 | Twelve named connectors including Salesforce, Shopify, Stripe, Segment and Zendesk plus API access (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
-| AI capability | 5/10 | AI subject lines, content suggestions, natural-language segment filters and enrichment are helpful utilities rather than agents (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access; data leaves via export (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2015 with priced tiers and trials; a known mid-market option (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: AI subject line recommendations | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Slack, Shopify, Salesforce (13 listed) |  |
-| ✓ API access for custom integrations |  |
-
-**What is Ortto?**
-Ortto: Customer data and marketing automation platform with journeys, CDP, and AI features. Ortto ships with AI subject line recommendations. This page documents 13 integrations.
-
-**How much does Ortto cost?**
-Ortto starts at $199/mo. Starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
-
-**Is Ortto worth paying for in 2026?**
-A capable CDP-plus-journeys platform that now sits inside Canva: strong data model and channel range, contact-based pricing, and a pricing page that has gone missing at the worst possible time.
-
-**How many custom fields can I create in Ortto?**
-Plan-dependent: 100 person fields and 25 account fields on Professional, 150 and 25 on Business, and 200 and 50 on Enterprise. Fields are also effectively permanent, since the help centre states that once a custom field is created it cannot be modified to alter its name, field type, or values (only single and multi-select options are exceptions). Plan the schema before import rather than after.
-
-**What happens if I go over my Ortto email or SMS limits?**
-Email keeps sending and bills overage at $1 per 1,000 emails, while SMS sending stops once you exceed twice your monthly SMS credit limit. Email and SMS limits reset on the first of each month UTC. Both behaviours are documented in the help centre's plan management article, so an overage on email is a billing event, not a blocked campaign.
-
-**Does Ortto have an API, and which endpoint should I use?**
-Yes. Authentication uses a custom API key that you configure as a data source and can disconnect from the interface. Endpoints are regional: api.au.ap3api.com for Australia, api.eu.ap3api.com for Europe, and api.ap3api.com for everyone else. The developer guide covers the JSON payload for person and activity updates, and there are SDKs for iOS, Android, in-app notifications, and Flutter on top of the REST API and tracking snippet.
-
-- **Pricing:** From $199/mo
-- **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **Founded:** 2015
-- **HQ:** Sydney, Australia
-- **API:** Yes
-- **Last verified:** 2026-09-07
-
-**Verdict:** Ortto is a tool in Marketing Automation with paid plans starting at $199/mo. The catalog documents 6 AI features, 13 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-HubSpot Marketing Hub
-
-All-in-one marketing automation with AI-powered content, email, and campaign tools
-
-Braze
-
-Customer engagement platform with AI-powered real-time messaging across channels
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
-
-Salesforce Marketing Cloud
-
-Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
-
-Bloomreach
-
-AI-powered commerce experience platform with search, personalization, and CDP
-
-[More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
@@ -80,7 +12,7 @@ Customer data and marketing automation platform with journeys, CDP, and AI featu
 
 Marketing Automation · From $199/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Ortto →](https://ortto.com)
 
@@ -91,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 34/60
 
 Ortto bundles CDP and marketing automation at a mid-market price, with AI sprinkled where it saves time. The 12-month commitment on larger plans is the term to negotiate first.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Starter from $199/mo with a 14-day trial is published; larger plans require a 12-month commitment and email overage is $1 per 1,000 (the vendor pricing page: [pricing page](https://ortto.com/starter/), verified 2026-09-07). |
+| Feature depth | 7/10 | Journeys, a CDP layer and analytics in one platform cover the marketing automation loop end to end (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
+| Integrations | 7/10 | Twelve named connectors including Salesforce, Shopify, Stripe, Segment and Zendesk plus API access (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
+| AI capability | 5/10 | AI subject lines, content suggestions, natural-language segment filters and enrichment are helpful utilities rather than agents (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access; data leaves via export (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2015 with priced tiers and trials; a known mid-market option (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -168,6 +110,13 @@ A capable CDP-plus-journeys platform that now sits inside Canva: strong data mod
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: AI subject line recommendations | ✗ Closed source - no self-hosting option |
+| ✓ Native integrations include Slack, Shopify, Salesforce (13 listed) |  |
+| ✓ API access for custom integrations |  |
+
 ## Related concepts
 
 - [Marketing automation](/glossary/marketing-automation/)
@@ -182,16 +131,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Ortto?**
 Ortto: Customer data and marketing automation platform with journeys, CDP, and AI features. Ortto ships with AI subject line recommendations. This page documents 13 integrations.
 
+**How much does Ortto cost?**
 Ortto starts at $199/mo. Starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
+**Is Ortto worth paying for in 2026?**
 A capable CDP-plus-journeys platform that now sits inside Canva: strong data model and channel range, contact-based pricing, and a pricing page that has gone missing at the worst possible time.
 
+**How many custom fields can I create in Ortto?**
 Plan-dependent: 100 person fields and 25 account fields on Professional, 150 and 25 on Business, and 200 and 50 on Enterprise. Fields are also effectively permanent, since the help centre states that once a custom field is created it cannot be modified to alter its name, field type, or values (only single and multi-select options are exceptions). Plan the schema before import rather than after.
 
+**What happens if I go over my Ortto email or SMS limits?**
 Email keeps sending and bills overage at $1 per 1,000 emails, while SMS sending stops once you exceed twice your monthly SMS credit limit. Email and SMS limits reset on the first of each month UTC. Both behaviours are documented in the help centre's plan management article, so an overage on email is a billing event, not a blocked campaign.
 
+**Does Ortto have an API, and which endpoint should I use?**
 Yes. Authentication uses a custom API key that you configure as a data source and can disconnect from the interface. Endpoints are regional: api.au.ap3api.com for Australia, api.eu.ap3api.com for Europe, and api.ap3api.com for everyone else. The developer guide covers the JSON payload for person and activity updates, and there are SDKs for iOS, Android, in-app notifications, and Flutter on top of the REST API and tracking snippet.
 
 ## Similar Tools
@@ -206,6 +161,13 @@ Yes. Authentication uses a custom API key that you configure as a data source an
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Marketing teams that want email, SMS and journeys behind one login
 ### Quick Facts
 
+- **Pricing:** From $199/mo
+- **Category:** [Marketing Automation](/categories/marketing-automation/)
+- **Founded:** 2015
+- **HQ:** Sydney, Australia
+- **API:** Yes
+- **Last verified:** 2026-09-07
+
 Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
 
 ## Get the next teardown
@@ -213,6 +175,32 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Ortto is a tool in Marketing Automation with paid plans starting at $199/mo. The catalog documents 6 AI features, 13 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
+HubSpot Marketing Hub
+
+All-in-one marketing automation with AI-powered content, email, and campaign tools
+
+Braze
+
+Customer engagement platform with AI-powered real-time messaging across channels
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+Salesforce Marketing Cloud
+
+Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
+
+Bloomreach
+
+AI-powered commerce experience platform with search, personalization, and CDP
+
+[More Marketing Automation Tools →](/categories/marketing-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -231,7 +219,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/ortto/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-07",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -358,7 +346,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ortto/", "breadcrumb": {"@id": "https://martechsignal.com/tools/ortto/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ortto/", "breadcrumb": {"@id": "https://martechsignal.com/tools/ortto/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

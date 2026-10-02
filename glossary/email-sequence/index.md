@@ -1,26 +1,10 @@
 # Email Sequence (Drip Campaign)
 
-ActiveCampaign
-
-AI-powered marketing automation and CRM for small to mid-size businesses
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
-
-BillionMail
-
-Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Email Sequence (Drip Campaign)
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-28
 
 ## Definition
 
@@ -67,6 +51,22 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Customer.io](https
 - [Deliverability](/glossary/deliverability/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+ActiveCampaign
+
+AI-powered marketing automation and CRM for small to mid-size businesses
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+BillionMail
+
+Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -77,7 +77,7 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Customer.io](https
         "@type": "DefinedTerm",
         "name": "Email Sequence (Drip Campaign)",
         "description": "An email sequence is a series of automated emails sent on a schedule or triggered by behavior. A welcome sequence introduces new subscribers to your product. A nurture sequence educates leads over weeks. A win-back sequence tries to re-engage customers who stopped opening.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -135,7 +135,7 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Customer.io](https
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/email-sequence/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/email-sequence/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/email-sequence/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/email-sequence/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

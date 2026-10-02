@@ -1,7 +1,5 @@
 # The CDP Reckoning: Your Next CDP Is a Warehouse
 
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 CDP · CRM · 8 MIN
 
 ## The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For
@@ -10,7 +8,7 @@ CDP · CRM · 8 MIN
 
 [Home](/) · [Blog](/blog/) · The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For
 
-SEP 02, 2026 · Updated 2026-10-02
+SEP 02, 2026
 
 Filed under [CRM](/categories/crm/) · [Analytics & Attribution](/categories/analytics/)
 
@@ -101,6 +99,8 @@ More from the directory: [ChatbotX](/tools/chatbotx/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 
 ```json
 {
@@ -132,7 +132,7 @@ More from the directory: [ChatbotX](/tools/chatbotx/)
     }
   },
   "datePublished": "2026-09-02",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/",
   "image": {
     "@type": "ImageObject",
@@ -178,7 +178,7 @@ More from the directory: [ChatbotX](/tools/chatbotx/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/", "breadcrumb": {"@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/", "breadcrumb": {"@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/#breadcrumb"}, "dateModified": "2026-09-02"}
 ```
 
 ```json

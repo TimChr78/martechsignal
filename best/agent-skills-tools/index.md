@@ -1,5 +1,9 @@
 # Best Agent Skills tools (2026): 8 compared
 
+## Best Agent Skills tools (2026): 8 compared
+
+Claude SEO headlines for teams running SEO audits as agent skills. The rest split by platform and workflow: Claude Ads, GA4 and Meta connectors, and playbook packs. These are utilities rather than platforms, and each one carries a kind label saying exactly that.
+
 
 | Tool | Pricing | Best for |
 | --- | --- | --- |
@@ -12,17 +16,9 @@
 | [Eve Marketing Team Template](/tools/eve-marketing-team/) | Open Source | Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier. |
 | [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/) | Open Source | Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier. |
 
-[Agent Skills](/categories/agent-skills/)[Open-Source Tools](/categories/open-source/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-## Best Agent Skills tools (2026): 8 compared
-
-Claude SEO headlines for teams running SEO audits as agent skills. The rest split by platform and workflow: Claude Ads, GA4 and Meta connectors, and playbook packs. These are utilities rather than platforms, and each one carries a kind label saying exactly that.
-
 **Our top pick: [Claude SEO](#claude-seo)** — Best for SEO teams that want 25 audit sub-skills and 20 specialist agents inside Claude Code, free under the MIT license. [Try Claude SEO](https://claude-seo.md/)
 
-Last verified  · Updated 2026-10-02.
+Last verified 2026-09-28.
 
 ## How we picked
 
@@ -63,7 +59,7 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 
 ## [Claude SEO](/tools/claude-seo/)
 
-Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free, MIT-licensed. Self-hosted inside Claude Code. Optional paid community mirror on Skool (verified 2026-08-28). The catalog documents 5 AI features, 5 integrations, a public API, and a self-hosting path.
+Claude SEO is the SEO audit pick on this list, with 25 sub skills and 20 specialist agents. It is free under MIT and runs self hosted inside Claude Code. Choose it when organic audit depth matters more than paid media or email range.
 
 **Verdict:** Best for SEO teams that want 25 audit sub-skills and 20 specialist agents inside Claude Code, free under the MIT license.
 
@@ -75,7 +71,7 @@ Vendor: [Official site](https://claude-seo.md/) · [GitHub](https://github.com/A
 
 ## [Claude Ads](/tools/claude-ads/)
 
-Claude Ads is a paid-media operations skill that runs inside Claude Code. It starts free, and free, MIT-licensed. Runs inside Claude Code. API costs for Claude apply (verified 2026-08-28). The catalog documents 5 AI features, 12 integrations, a public API, and a self-hosting path.
+Claude Ads is the paid media operations pick, covering 12 ad platforms. It is free under MIT and runs inside Claude Code, with Claude API costs applying. Choose it over the SEO or email skills when multi platform ad work is the job.
 
 **Verdict:** Best for paid-media teams that run several ad platforms and want one Claude Code skill covering all 12, free under the MIT license.
 
@@ -87,7 +83,7 @@ Vendor: [Official site](https://github.com/AgriciDaniel/claude-ads) · [GitHub](
 
 ## [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/)
 
-google-meta-ads-ga4-mcp is an MCP server that lets AI assistants manage Google Ads, Meta Ads, and GA4 from one conversation. It starts free, and mIT-licensed repo; hosted MCP endpoint provided through Ryze AI (free trial, then paid plans) (verified 2026-09-07). The catalog documents 5 AI features, 11 integrations, a public API, and a self-hosting path.
+This MCP server is the connector pick, giving agents read and write control of Google Ads, Meta Ads and GA4. The repo is MIT licensed, with a hosted endpoint through Ryze AI on free trial then paid plans. Choose it when live account control matters more than a static skill file.
 
 **Verdict:** Best for performance teams that want Google Ads, Meta Ads and GA4 reachable from one MCP server, free to self-host.
 
@@ -99,7 +95,7 @@ Vendor: [Official site](https://github.com/irinabuht12-oss/google-meta-ads-ga4-m
 
 ## [Digital Marketing Pro](/tools/digital-marketing-pro/)
 
-Digital Marketing Pro is the heaviest skill pack in this category: 163 skills, 24 specialist agents, 18 commands, and 86 scripts. It starts free, and free, MIT-licensed. Runs on Claude Code, Codex, Cursor, Copilot CLI, and 35+ agent platforms (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
+Digital Marketing Pro is the broadest pack on this list, with 163 skills for agencies. It is free under MIT and runs on Claude Code, Codex, Cursor, Copilot CLI and more. Choose it when agency range matters more than single topic depth.
 
 **Verdict:** Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier.
 
@@ -111,7 +107,7 @@ Vendor: [Official site](https://github.com/indranilbanerjee/digital-marketing-pr
 
 ## [Email Marketing Bible](/tools/email-marketing-bible/)
 
-Email Marketing Bible is what happens when someone who ran an email SaaS (SmartrMail, ~28,000 customers, 6 billion emails sent, acquired in 2022) distills everything into a 55,000-word skill file. It starts free, and free and open source. Works with Claude Code, Claude Desktop, and MCP-compatible agents (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
+Email Marketing Bible is the email depth pick, with 19 playbooks and ESP control over MCP. It is free and open source for Claude Code, Claude Desktop and MCP agents. Choose it when email craft matters more than ads or SEO breadth.
 
 **Verdict:** Best for email marketers who want 19 playbooks with 908 cited sources and ESP control over MCP, free under the MIT license.
 
@@ -123,7 +119,7 @@ Vendor: [Official site](https://github.com/CosmoBlk/email-marketing-bible) · [G
 
 ## [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/)
 
-GTM Cheat Codes is the skill library Zapier's own go-to-market teams use with coding agents. It starts free, and free, MIT-licensed. Runs inside Codex, Claude Code, Cursor, and similar harnesses. Requires Zapier MCP or SDK credentials for connected actions (verified 2026-08-31). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
+Zapier GTM Cheat Codes is the Zapier workflow pick for campaign planning, CRM context and customer proof. It is free under MIT for Codex, Claude Code, Cursor and similar tools, with Zapier credentials needed for connected actions. Choose it when tying GTM work into Zapier matters more than standalone channel skills.
 
 **Verdict:** Best for GTM practitioners who want a cheat-code skill for Zapier and Google Tag Manager recipes, free to install.
 
@@ -135,7 +131,7 @@ Vendor: [Official site](https://github.com/zapier/gtm-cheat-codes) · [GitHub](h
 
 ## [Eve Marketing Team Template](/tools/eve-marketing-team/)
 
-Eve Marketing Team Template is Vercel's starter for running a five-person marketing team as software. It starts free, and free, MIT-licensed. Runs on eve (eve.dev); deploys to Vercel. You pay only for the AI model + SaaS connectors (Notion, Resend, Typefully) (verified 2026-08-31). The catalog documents 5 AI features, 6 integrations, a public API, and a self-hosting path.
+Eve Marketing Team is the team setup pick, with lead, content, social, SEO and email agents. It is free under MIT and runs on eve with Vercel deploy, and you pay only for model and connectors. Choose it when you want a ready team shape instead of assembling single skills.
 
 **Verdict:** Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier.
 
@@ -147,7 +143,7 @@ Vendor: [Official site](https://github.com/vercel-labs/marketing-team-eve-templa
 
 ## [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/)
 
-OpenClaw Marketing Skills gives OpenClaw agents a full marketing brain: 37 skills across CRO, copywriting, SEO, paid ads, email, growth, retention, sales, and strategy. It starts free, and free, MIT-licensed. Runs on OpenClaw agents. Cloud hosting available via MyClaw.ai (verified 2026-08-28). The catalog documents 5 AI features, 6 integrations, a public API, and a self-hosting path.
+OpenClaw Marketing Skills is the OpenClaw native pick, with 37 marketing skills and live data connectors. It is free under MIT for OpenClaw agents, with cloud hosting through MyClaw.ai. Choose it when you already run OpenClaw and want marketing inside that host.
 
 **Verdict:** Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier.
 
@@ -177,6 +173,10 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+[Agent Skills](/categories/agent-skills/)[Open-Source Tools](/categories/open-source/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -185,7 +185,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best Agent Skills tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -315,10 +315,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/agent-skills-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/agent-skills-tools/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

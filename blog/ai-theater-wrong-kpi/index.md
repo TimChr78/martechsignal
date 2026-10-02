@@ -1,18 +1,5 @@
 # AI theater: the wrong KPI your team rewards
 
-
-|  | The demo answers | The metric answers |
-| --- | --- | --- |
-| **Core question** | Does it run? | Did anyone act on the output? |
-| **Best day** | Launch day, live in front of the team | A random Tuesday in month three |
-| **Failure handling** | Happy path, by definition | Retries without duplicates, catch-up logic, alerts |
-| **Evidence** | Screenshots of the workflow graph | Platform IDs reconciled against published posts |
-| **Score kept** | Automations built | Manual hours actually removed |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-✓ The metric that survives contact with production
-
 AI AGENTS · MARKETING AUTOMATION · 9 MIN
 
 ## Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters
@@ -76,6 +63,15 @@ The demos also flatter the pipeline in a subtler way. If any step in the chain i
 
 Demos and production answer different questions:
 
+
+|  | The demo answers | The metric answers |
+| --- | --- | --- |
+| **Core question** | Does it run? | Did anyone act on the output? |
+| **Best day** | Launch day, live in front of the team | A random Tuesday in month three |
+| **Failure handling** | Happy path, by definition | Retries without duplicates, catch-up logic, alerts |
+| **Evidence** | Screenshots of the workflow graph | Platform IDs reconciled against published posts |
+| **Score kept** | Automations built | Manual hours actually removed |
+
 ## What to measure instead
 
 First, count outcomes per automation, not automations. The X-machine poster got there on his own: "ten workflows shipped" is an effort metric. Replies earned and manual hours removed are results metrics. Ask of every workflow the question he asked of his portfolio: who needs this?
@@ -121,6 +117,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 More from the directory: [Apache Unomi](/tools/apache-unomi/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
+
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+✓ The metric that survives contact with production
 
 
 ```json

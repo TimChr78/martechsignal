@@ -1,26 +1,10 @@
 # Attribution models
 
-Attribution
-
-AI-powered marketing attribution platform connecting ad spend to revenue
-
-Amplitude
-
-AI-powered digital analytics platform for product and marketing teams
-
-Mixpanel
-
-Product analytics platform with AI-powered insights for user behavior tracking
-
-[Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 ## Attribution Models (First-Touch, Last-Touch, Multi-Touch)
 
 GLOSSARY
 
-Definition last Updated 2026-10-02
+Definition last Updated 2026-09-28
 
 ## Definition
 
@@ -71,6 +55,22 @@ Sources: [Attribution](https://www.attributionapp.com) · [Amplitude](https://am
 - [First-party data](/glossary/first-party-data/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
+Attribution
+
+AI-powered marketing attribution platform connecting ad spend to revenue
+
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+Mixpanel
+
+Product analytics platform with AI-powered insights for user behavior tracking
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+
 
 ```json
 [
@@ -81,7 +81,7 @@ Sources: [Attribution](https://www.attributionapp.com) · [Amplitude](https://am
         "@type": "DefinedTerm",
         "name": "Attribution Models (First-Touch, Last-Touch, Multi-Touch)",
         "description": "An attribution model is the rule that decides which marketing touchpoint gets credit for a conversion. First-touch credits the first interaction. Last-touch credits the final one before purchase. Linear splits credit equally. Time-decay gives more weight to recent touches. Position-based (U-shaped) gives 40% to first and last, 20% to everything in between.",
-        "dateModified": "2026-10-02",
+        "dateModified": "2026-09-28",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -139,7 +139,7 @@ Sources: [Attribution](https://www.attributionapp.com) · [Amplitude](https://am
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-attribution-models/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/marketing-attribution-models/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-attribution-models/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/marketing-attribution-models/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

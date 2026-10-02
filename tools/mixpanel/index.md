@@ -1,77 +1,5 @@
 # Mixpanel review (2026): pricing, AI features, verdict
 
-
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 7/10 | Free (1M events/mo, unlimited seats, 10K replays) and usage-based Growth with the first 1M free and a public calculator (about $120/mo at 20M) (the vendor pricing page: [pricing page](https://mixpanel.com/pricing/), verified 2026-09-06). |
-| Feature depth | 7/10 | Funnels, retention, session replays and feature flags cover product analytics with experimentation attached (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
-| Integrations | 7/10 | Segment, Slack, Snowflake, BigQuery, Databricks, Redshift, HubSpot, Hotjar and CleverTap documented (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
-| AI capability | 7/10 | Root Cause Analysis and Experiments agents plus natural-language querying and Magic Playlists over replays (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with warehouse syncs keeping data yours (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2009 with a long self-serve history and transparent pricing machinery (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
-
-
-| Pros | Cons |
-| --- | --- |
-| ✓ AI capabilities: mixpanel AI agents (Root Cause Analysis, Experiments) | ✗ Closed source - no self-hosting option |
-| ✓ G2 rating 4.5/5 |  |
-| ✓ Native integrations include Segment, Slack, Snowflake (10 listed) |  |
-| ✓ Free tier to evaluate before committing (Free plan: unlimited seats, 1M events/mo, 10K session replays, 10 feature flags. Growth: usage-based, first 1M free up to 20M events/mo (calculator shows $120/mo billed annually at 18M events/yr). Enterprise: custom, up to 1T events/mo. Experiments and feature flags now included on Free and Growth) |  |
-
-**What is Mixpanel?**
-Mixpanel: Product analytics platform with AI-powered insights for user behavior tracking. Mixpanel ships with mixpanel AI agents (Root Cause Analysis, Experiments). This page documents 10 integrations.
-
-**How much does Mixpanel cost?**
-Mixpanel has a free tier, so you can run a real evaluation before paying. Free plan: unlimited seats, 1M events/mo, 10K session replays, 10 feature flags. Growth: usage-based, first 1M free up to 20M events/mo (calculator shows $120/mo billed annually at 18M events/yr). Enterprise: custom, up to 1T events/mo. Experiments and feature flags now included on Free and Growth. We last checked the plan structure on 2026-09-06; paid tiers mainly raise limits rather than unlocking core features.
-
-**Is Mixpanel worth it past the free tier?**
-Fast, well-documented product analytics with a genuine agent layer now on top. Own your event taxonomy and your event budget from day one.
-
-**How many events are free on Mixpanel?**
-The Free plan includes up to 1 million events per month with unlimited seats, 10,000 session replays, and 10 active feature flags. The 20 million events figure often quoted is the Growth plan ceiling, where the first million events are free each month.
-
-**How much does the Mixpanel Growth plan cost?**
-Growth is usage-based and starts at $0. The pricing calculator shows $120 per month billed annually (about $140 on monthly billing) at 18 million events per year, with volume discounts as usage rises. Experiments and feature flags are included in the plan.
-
-**Does Mixpanel offer self-hosting or EU hosting?**
-There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add custom data and replay retention policies and first-party tracking domains, and the integrations directory notes partner support for Mixpanel's EU servers, which matters for European data handling.
-
-- **Pricing:** Freemium
-- **Category:** [Analytics & Attribution](/categories/analytics/)
-- **Third-party ratingsG2 rating:** 4.5/5 · [source](https://www.g2.com/products/mixpanel/reviews)as of 2026-08-28
-- **Founded:** 2009
-- **HQ:** San Francisco, CA, USA
-- **API:** Yes
-- **Last verified:** 2026-09-06
-
-**Verdict:** Mixpanel is a tool in Analytics & Attribution with a free tier. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-Heap
-
-AI-powered product analytics with autocapture and digital experience insights
-
-PostHog
-
-Open-source product analytics platform with session replay, feature flags, experiments, and surveys
-
-Amplitude
-
-AI-powered digital analytics platform for product and marketing teams
-
-Snowplow
-
-Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
-
-Triple Whale
-
-AI-powered ecommerce analytics and attribution platform for DTC brands
-
-Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
-
-[More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
 - [Home](/)
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
@@ -84,7 +12,7 @@ Product analytics platform with AI-powered insights for user behavior tracking
 
 Analytics & Attribution · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Mixpanel →](https://mixpanel.com)
 
@@ -95,6 +23,16 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 ## MartechSignal Score: 39/60
 
 Mixpanel's pricing curve is the friendliest in analytics: 1M events free with unlimited seats, and the calculator shows the road up. The Magic Playlists over session replays are a sleeper feature.
+
+
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Free (1M events/mo, unlimited seats, 10K replays) and usage-based Growth with the first 1M free and a public calculator (about $120/mo at 20M) (the vendor pricing page: [pricing page](https://mixpanel.com/pricing/), verified 2026-09-06). |
+| Feature depth | 7/10 | Funnels, retention, session replays and feature flags cover product analytics with experimentation attached (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
+| Integrations | 7/10 | Segment, Slack, Snowflake, BigQuery, Databricks, Redshift, HubSpot, Hotjar and CleverTap documented (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
+| AI capability | 7/10 | Root Cause Analysis and Experiments agents plus natural-language querying and Magic Playlists over replays (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with warehouse syncs keeping data yours (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2009 with a long self-serve history and transparent pricing machinery (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -164,6 +102,14 @@ Fast, well-documented product analytics with a genuine agent layer now on top. O
 
 ## Pros and cons
 
+
+| Pros | Cons |
+| --- | --- |
+| ✓ AI capabilities: mixpanel AI agents (Root Cause Analysis, Experiments) | ✗ Closed source - no self-hosting option |
+| ✓ G2 rating 4.5/5 |  |
+| ✓ Native integrations include Segment, Slack, Snowflake (10 listed) |  |
+| ✓ Free tier to evaluate before committing (Free plan: unlimited seats, 1M events/mo, 10K session replays, 10 feature flags. Growth: usage-based, first 1M free up to 20M events/mo (calculator shows $120/mo billed annually at 18M events/yr). Enterprise: custom, up to 1T events/mo. Experiments and feature flags now included on Free and Growth) |  |
+
 ## Related concepts
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -177,16 +123,22 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
+**What is Mixpanel?**
 Mixpanel: Product analytics platform with AI-powered insights for user behavior tracking. Mixpanel ships with mixpanel AI agents (Root Cause Analysis, Experiments). This page documents 10 integrations.
 
+**How much does Mixpanel cost?**
 Mixpanel has a free tier, so you can run a real evaluation before paying. Free plan: unlimited seats, 1M events/mo, 10K session replays, 10 feature flags. Growth: usage-based, first 1M free up to 20M events/mo (calculator shows $120/mo billed annually at 18M events/yr). Enterprise: custom, up to 1T events/mo. Experiments and feature flags now included on Free and Growth. We last checked the plan structure on 2026-09-06; paid tiers mainly raise limits rather than unlocking core features.
 
+**Is Mixpanel worth it past the free tier?**
 Fast, well-documented product analytics with a genuine agent layer now on top. Own your event taxonomy and your event budget from day one.
 
+**How many events are free on Mixpanel?**
 The Free plan includes up to 1 million events per month with unlimited seats, 10,000 session replays, and 10 active feature flags. The 20 million events figure often quoted is the Growth plan ceiling, where the first million events are free each month.
 
+**How much does the Mixpanel Growth plan cost?**
 Growth is usage-based and starts at $0. The pricing calculator shows $120 per month billed annually (about $140 on monthly billing) at 18 million events per year, with volume discounts as usage rises. Experiments and feature flags are included in the plan.
 
+**Does Mixpanel offer self-hosting or EU hosting?**
 There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add custom data and replay retention policies and first-party tracking domains, and the integrations directory notes partner support for Mixpanel's EU servers, which matters for European data handling.
 
 ## Similar Tools
@@ -201,6 +153,14 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 - [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform, with a free starting tier.
 ### Quick Facts
 
+- **Pricing:** Freemium
+- **Category:** [Analytics & Attribution](/categories/analytics/)
+- **Third-party ratingsG2 rating:** 4.5/5 · [source](https://www.g2.com/products/mixpanel/reviews)as of 2026-08-28
+- **Founded:** 2009
+- **HQ:** San Francisco, CA, USA
+- **API:** Yes
+- **Last verified:** 2026-09-06
+
 Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 ## Get the next teardown
@@ -208,6 +168,30 @@ Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+**Verdict:** Mixpanel is a tool in Analytics & Attribution with a free tier. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
+Heap
+
+AI-powered product analytics with autocapture and digital experience insights
+
+PostHog
+
+Open-source product analytics platform with session replay, feature flags, experiments, and surveys
+
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+Snowplow
+
+Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
+
+Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
+
+[More Analytics & Attribution Tools →](/categories/analytics/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 
 ```json
@@ -227,7 +211,14 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-10-02",
-    "datePublished": "2026-07-27"
+    "datePublished": "2026-07-27",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "USD",
+      "url": "https://mixpanel.com/pricing/",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -343,10 +334,6 @@ One email when a new tool review lands, nothing else.
     }
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/mixpanel/", "breadcrumb": {"@id": "https://martechsignal.com/tools/mixpanel/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

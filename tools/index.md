@@ -1,5 +1,59 @@
 # AI Marketing Tool Directory
 
+## AI Marketing Tool Directory
+
+Browse by licence: [Open-source tools](/categories/open-source/) · [all categories](/categories/).
+
+Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.
+
+166 TOOLS · 13 CATEGORIES + OPEN-SOURCE INDEX · UPDATED WEEKLY
+
+Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 81 of them, with daily snapshots since Aug 25, 2026.
+
+A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The [marketing automation checklist](/checklist/) walks the 12 questions that decide it, and scores your answers in the browser.
+
+## Browse by category
+
+## Evaluating tools for your stack?
+
+The weekly newsletter tracks this category: one teardown, one workflow, no fluff.
+
+All 166 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
+
+## AI Content & Copywriting *13*
+
+## Advertising & Paid Media *9*
+
+## Agent Skills *18*
+
+## Analytics & Attribution *11*
+
+## CRM *24*
+
+## Chatbots & Conversational AI *6*
+
+## Email Marketing *16*
+
+## GEO & LLM Optimization *14*
+
+## Marketing Automation *12*
+
+## Personalization & CDP *11*
+
+## SEO & Search *9*
+
+## Social Media *6*
+
+## Workflow Automation *17*
+
+Scored on the six-pillar rubric: [aaron-marketing-skills](/tools/aaron-marketing-skills/), [accuranker](/tools/accuranker/), [activecampaign](/tools/activecampaign/), [activepieces](/tools/activepieces/), [adcreative-ai](/tools/adcreative-ai/), [adobe-llm-optimizer](/tools/adobe-llm-optimizer/), [adobe-marketo](/tools/adobe-marketo/), [advertools](/tools/advertools/), [ahrefs](/tools/ahrefs/), [ai-business-skills](/tools/ai-business-skills/), [albert-ai](/tools/albert-ai/), [alphone](/tools/alphone/), [alwrity](/tools/alwrity/), [amplitude](/tools/amplitude/), [analytics-tracking-automation](/tools/analytics-tracking-automation/), [anyword](/tools/anyword/), [apache-unomi](/tools/apache-unomi/), [appsmith](/tools/appsmith/), [attio](/tools/attio/), [attribution](/tools/attribution/), [billionmail](/tools/billionmail/), [bloomreach](/tools/bloomreach/), [brandwatch](/tools/brandwatch/), [braze](/tools/braze/), [budibase](/tools/budibase/), [buffer](/tools/buffer/), [chatbotx](/tools/chatbotx/), [chatfuel](/tools/chatfuel/), [chatwoot](/tools/chatwoot/), [claude-ads](/tools/claude-ads/), [claude-seo](/tools/claude-seo/), [clearscope](/tools/clearscope/), [clerk-io](/tools/clerk-io/), [codex-seo](/tools/codex-seo/), [contentbot](/tools/contentbot/), [copy-ai](/tools/copy-ai/), [cordys-crm](/tools/cordys-crm/), [customer-io](/tools/customer-io/), [deskcommcrm](/tools/deskcommcrm/), [diffmode-growth-tactics](/tools/diffmode-growth-tactics/), [django-crm](/tools/django-crm/), [dolibarr](/tools/dolibarr/), [dynamic-yield](/tools/dynamic-yield/), [email-marketing-bible](/tools/email-marketing-bible/), [espocrm](/tools/espocrm/), [eve-marketing-team](/tools/eve-marketing-team/), [ever-gauzy](/tools/ever-gauzy/), [evertune](/tools/evertune/), [flagsmith](/tools/flagsmith/), [frappe-crm](/tools/frappe-crm/), [frase](/tools/frase/), [freshsales](/tools/freshsales/), [ghost](/tools/ghost/), [google-meta-ads-ga4-mcp](/tools/google-meta-ads-ga4-mcp/), [growth-lab](/tools/growth-lab/), [growthbook](/tools/growthbook/), [heap](/tools/heap/), [hootsuite](/tools/hootsuite/), [hubspot-crm](/tools/hubspot-crm/), [hubspot-marketing-hub](/tools/hubspot-marketing-hub/), [hypotenuse-ai](/tools/hypotenuse-ai/), [idurar-erp-crm](/tools/idurar-erp-crm/), [ifttt](/tools/ifttt/), [intercom](/tools/intercom/), [jasper](/tools/jasper/), [jitsu](/tools/jitsu/), [khoj](/tools/khoj/), [klaviyo](/tools/klaviyo/), [krayin-crm](/tools/krayin-crm/), [langchain](/tools/langchain/), [languagetool](/tools/languagetool/), [laudspeaker](/tools/laudspeaker/), [libretranslate](/tools/libretranslate/), [line-harness](/tools/line-harness/), [listmonk](/tools/listmonk/), [loops](/tools/loops/), [macro](/tools/macro/), [madgicx](/tools/madgicx/), [mailchimp](/tools/mailchimp/), [maizzle](/tools/maizzle/), [make](/tools/make/), [manychat](/tools/manychat/), [marketing-studio](/tools/marketing-studio/), [marketmuse](/tools/marketmuse/), [matomo](/tools/matomo/), [mautic](/tools/mautic/), [mixpanel](/tools/mixpanel/), [monica](/tools/monica/), [multipost-extension](/tools/multipost-extension/), [n8n](/tools/n8n/), [n8n-marketing-flows](/tools/n8n-marketing-flows/), [nightwatch](/tools/nightwatch/), [nimt-ai](/tools/nimt-ai/), [nocobase](/tools/nocobase/), [nocodb](/tools/nocodb/), [northbeam](/tools/northbeam/), [nosto](/tools/nosto/), [notifo](/tools/notifo/), [notifuse](/tools/notifuse/), [open-mercato](/tools/open-mercato/), [openclaw-marketing-skills](/tools/openclaw-marketing-skills/), [openoutreach](/tools/openoutreach/), [openseo](/tools/openseo/), [opteo](/tools/opteo/), [ortto](/tools/ortto/), [otterlyai](/tools/otterlyai/), [pabbly-connect](/tools/pabbly-connect/), [paperclip](/tools/paperclip/), [pencil](/tools/pencil/), [persado](/tools/persado/), [phrasee](/tools/phrasee/), [pipedream](/tools/pipedream/), [pipedrive](/tools/pipedrive/), [plausible](/tools/plausible/), [posthog](/tools/posthog/), [postmark](/tools/postmark/), [potato-ai-visibility](/tools/potato-ai-visibility/), [power-automate](/tools/power-automate/), [predis-ai](/tools/predis-ai/), [profound](/tools/profound/), [promptfoo](/tools/promptfoo/), [prospectos](/tools/prospectos/), [rankscale](/tools/rankscale/), [react-email-editor](/tools/react-email-editor/), [relaticle](/tools/relaticle/), [resend](/tools/resend/), [revealbot](/tools/revealbot/), [revive-adserver](/tools/revive-adserver/), [salesforce-crm](/tools/salesforce-crm/), [salesforce-marketing-cloud](/tools/salesforce-marketing-cloud/), [scrunch](/tools/scrunch/), [segment](/tools/segment/), [semrush](/tools/semrush/), [sendgrid](/tools/sendgrid/), [seo-skill-bench](/tools/seo-skill-bench/), [seonaut](/tools/seonaut/), [sistrix](/tools/sistrix/), [smartly-io](/tools/smartly-io/), [snowplow](/tools/snowplow/), [sprout-social](/tools/sprout-social/), [strapi](/tools/strapi/), [suitecrm](/tools/suitecrm/), [superlines](/tools/superlines/), [surfer-seo](/tools/surfer-seo/), [tealium](/tools/tealium/), [tidio](/tools/tidio/), [tooljet](/tools/tooljet/), [trakkr](/tools/trakkr/), [tray-io](/tools/tray-io/), [triple-whale](/tools/triple-whale/), [twenty](/tools/twenty/), [umami](/tools/umami/), [wacrm](/tools/wacrm/), [warmbly](/tools/warmbly/), [warpdrive](/tools/warpdrive/), [workato](/tools/workato/), [writer](/tools/writer/), [writesonic](/tools/writesonic/), [zapier](/tools/zapier/), [zapier-gtm-cheat-codes](/tools/zapier-gtm-cheat-codes/)
+
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
 Anyword
 
 AI copywriting platform with predictive performance scores for marketing content
@@ -997,60 +1051,6 @@ No-code automation platform connecting 9,000+ apps with AI-powered workflows
 FreemiumDesk-reviewedWorkflow Automation
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-## AI Marketing Tool Directory
-
-Browse by licence: [Open-source tools](/categories/open-source/) · [all categories](/categories/).
-
-Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.
-
-166 TOOLS · 13 CATEGORIES + OPEN-SOURCE INDEX · UPDATED WEEKLY
-
-Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 81 of them, with daily snapshots since Aug 25, 2026.
-
-A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The [marketing automation checklist](/checklist/) walks the 12 questions that decide it, and scores your answers in the browser.
-
-## Browse by category
-
-## Evaluating tools for your stack?
-
-The weekly newsletter tracks this category: one teardown, one workflow, no fluff.
-
-All 166 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
-
-## AI Content & Copywriting *13*
-
-## Advertising & Paid Media *9*
-
-## Agent Skills *18*
-
-## Analytics & Attribution *11*
-
-## CRM *24*
-
-## Chatbots & Conversational AI *6*
-
-## Email Marketing *16*
-
-## GEO & LLM Optimization *14*
-
-## Marketing Automation *12*
-
-## Personalization & CDP *11*
-
-## SEO & Search *9*
-
-## Social Media *6*
-
-## Workflow Automation *17*
-
-Scored on the six-pillar rubric: [aaron-marketing-skills](/tools/aaron-marketing-skills/), [accuranker](/tools/accuranker/), [activecampaign](/tools/activecampaign/), [activepieces](/tools/activepieces/), [adcreative-ai](/tools/adcreative-ai/), [adobe-llm-optimizer](/tools/adobe-llm-optimizer/), [adobe-marketo](/tools/adobe-marketo/), [advertools](/tools/advertools/), [ahrefs](/tools/ahrefs/), [ai-business-skills](/tools/ai-business-skills/), [albert-ai](/tools/albert-ai/), [alphone](/tools/alphone/), [alwrity](/tools/alwrity/), [amplitude](/tools/amplitude/), [analytics-tracking-automation](/tools/analytics-tracking-automation/), [anyword](/tools/anyword/), [apache-unomi](/tools/apache-unomi/), [appsmith](/tools/appsmith/), [attio](/tools/attio/), [attribution](/tools/attribution/), [billionmail](/tools/billionmail/), [bloomreach](/tools/bloomreach/), [brandwatch](/tools/brandwatch/), [braze](/tools/braze/), [budibase](/tools/budibase/), [buffer](/tools/buffer/), [chatbotx](/tools/chatbotx/), [chatfuel](/tools/chatfuel/), [chatwoot](/tools/chatwoot/), [claude-ads](/tools/claude-ads/), [claude-seo](/tools/claude-seo/), [clearscope](/tools/clearscope/), [clerk-io](/tools/clerk-io/), [codex-seo](/tools/codex-seo/), [contentbot](/tools/contentbot/), [copy-ai](/tools/copy-ai/), [cordys-crm](/tools/cordys-crm/), [customer-io](/tools/customer-io/), [deskcommcrm](/tools/deskcommcrm/), [diffmode-growth-tactics](/tools/diffmode-growth-tactics/), [django-crm](/tools/django-crm/), [dolibarr](/tools/dolibarr/), [dynamic-yield](/tools/dynamic-yield/), [email-marketing-bible](/tools/email-marketing-bible/), [espocrm](/tools/espocrm/), [eve-marketing-team](/tools/eve-marketing-team/), [ever-gauzy](/tools/ever-gauzy/), [evertune](/tools/evertune/), [flagsmith](/tools/flagsmith/), [frappe-crm](/tools/frappe-crm/), [frase](/tools/frase/), [freshsales](/tools/freshsales/), [ghost](/tools/ghost/), [google-meta-ads-ga4-mcp](/tools/google-meta-ads-ga4-mcp/), [growth-lab](/tools/growth-lab/), [growthbook](/tools/growthbook/), [heap](/tools/heap/), [hootsuite](/tools/hootsuite/), [hubspot-crm](/tools/hubspot-crm/), [hubspot-marketing-hub](/tools/hubspot-marketing-hub/), [hypotenuse-ai](/tools/hypotenuse-ai/), [idurar-erp-crm](/tools/idurar-erp-crm/), [ifttt](/tools/ifttt/), [intercom](/tools/intercom/), [jasper](/tools/jasper/), [jitsu](/tools/jitsu/), [khoj](/tools/khoj/), [klaviyo](/tools/klaviyo/), [krayin-crm](/tools/krayin-crm/), [langchain](/tools/langchain/), [languagetool](/tools/languagetool/), [laudspeaker](/tools/laudspeaker/), [libretranslate](/tools/libretranslate/), [line-harness](/tools/line-harness/), [listmonk](/tools/listmonk/), [loops](/tools/loops/), [macro](/tools/macro/), [madgicx](/tools/madgicx/), [mailchimp](/tools/mailchimp/), [maizzle](/tools/maizzle/), [make](/tools/make/), [manychat](/tools/manychat/), [marketing-studio](/tools/marketing-studio/), [marketmuse](/tools/marketmuse/), [matomo](/tools/matomo/), [mautic](/tools/mautic/), [mixpanel](/tools/mixpanel/), [monica](/tools/monica/), [multipost-extension](/tools/multipost-extension/), [n8n](/tools/n8n/), [n8n-marketing-flows](/tools/n8n-marketing-flows/), [nightwatch](/tools/nightwatch/), [nimt-ai](/tools/nimt-ai/), [nocobase](/tools/nocobase/), [nocodb](/tools/nocodb/), [northbeam](/tools/northbeam/), [nosto](/tools/nosto/), [notifo](/tools/notifo/), [notifuse](/tools/notifuse/), [open-mercato](/tools/open-mercato/), [openclaw-marketing-skills](/tools/openclaw-marketing-skills/), [openoutreach](/tools/openoutreach/), [openseo](/tools/openseo/), [opteo](/tools/opteo/), [ortto](/tools/ortto/), [otterlyai](/tools/otterlyai/), [pabbly-connect](/tools/pabbly-connect/), [paperclip](/tools/paperclip/), [pencil](/tools/pencil/), [persado](/tools/persado/), [phrasee](/tools/phrasee/), [pipedream](/tools/pipedream/), [pipedrive](/tools/pipedrive/), [plausible](/tools/plausible/), [posthog](/tools/posthog/), [postmark](/tools/postmark/), [potato-ai-visibility](/tools/potato-ai-visibility/), [power-automate](/tools/power-automate/), [predis-ai](/tools/predis-ai/), [profound](/tools/profound/), [promptfoo](/tools/promptfoo/), [prospectos](/tools/prospectos/), [rankscale](/tools/rankscale/), [react-email-editor](/tools/react-email-editor/), [relaticle](/tools/relaticle/), [resend](/tools/resend/), [revealbot](/tools/revealbot/), [revive-adserver](/tools/revive-adserver/), [salesforce-crm](/tools/salesforce-crm/), [salesforce-marketing-cloud](/tools/salesforce-marketing-cloud/), [scrunch](/tools/scrunch/), [segment](/tools/segment/), [semrush](/tools/semrush/), [sendgrid](/tools/sendgrid/), [seo-skill-bench](/tools/seo-skill-bench/), [seonaut](/tools/seonaut/), [sistrix](/tools/sistrix/), [smartly-io](/tools/smartly-io/), [snowplow](/tools/snowplow/), [sprout-social](/tools/sprout-social/), [strapi](/tools/strapi/), [suitecrm](/tools/suitecrm/), [superlines](/tools/superlines/), [surfer-seo](/tools/surfer-seo/), [tealium](/tools/tealium/), [tidio](/tools/tidio/), [tooljet](/tools/tooljet/), [trakkr](/tools/trakkr/), [tray-io](/tools/tray-io/), [triple-whale](/tools/triple-whale/), [twenty](/tools/twenty/), [umami](/tools/umami/), [wacrm](/tools/wacrm/), [warmbly](/tools/warmbly/), [warpdrive](/tools/warpdrive/), [workato](/tools/workato/), [writer](/tools/writer/), [writesonic](/tools/writesonic/), [zapier](/tools/zapier/), [zapier-gtm-cheat-codes](/tools/zapier-gtm-cheat-codes/)
-
-## Get the next teardown
-
-One email when a new tool review lands, nothing else.
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 
 ```json
@@ -2765,7 +2765,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/", "breadcrumb": {"@id": "https://martechsignal.com/tools/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/", "breadcrumb": {"@id": "https://martechsignal.com/tools/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

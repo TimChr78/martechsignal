@@ -1,29 +1,5 @@
 # CI Tools: The First Category AI Killed
 
-
-| Line item | Artifact | Decay clock | Verdict |
-| --- | --- | --- | --- |
-| CI platforms (Klue, Crayon) | Battlecards, static briefs | Competitor ships every ~2 weeks | Exposed, collapsing now |
-| Sales enablement libraries | Decks and one-pagers in Highspot/Seismic | Product and pricing change monthly | Exposed; 37% of reps already freestyle |
-| Social media report generators | Monthly PDF summaries | Metrics move daily | Exposed; a model rebuilds the summary on demand |
-| One-shot SEO audit tools | Point-in-time report | SERPs shift weekly | Exposed |
-| Market research report subscriptions | Quarterly industry PDFs | Markets move continuously | Exposed, with a caveat below |
-| Marketing analytics dashboards | Boards that summarize, never act | Data refreshes, summaries lag | Partially exposed; the summarization layer is |
-| Email and campaign execution | Actions: sends, journeys, bids | N/A, the tool is the act | Not exposed |
-| Experimentation platforms | Live tests on live traffic | N/A, the tool owns the experiment | Not exposed |
-| CRM/CDP systems of record | Live customer state | N/A, they are the data | Not exposed; they get more valuable as agent context |
-| Consent and identity infrastructure | Governed actions and permissions | N/A | Not exposed; agents raise the stakes |
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
-MONITORcrawler watches pricing pages, release notes
-
-DOCUMENTbattlecard written, reviewed, published
-
-QUARTER PASSEScompetitor ships six things
-
-REP ASKS CLAUDEfresh answer, zero license fee
-
 AI · COMPETITIVE INTELLIGENCE · 13 MIN
 
 ## Competitive-Intel Tools Were the First Martech Category AI Killed
@@ -32,7 +8,7 @@ AI · COMPETITIVE INTELLIGENCE · 13 MIN
 
 [Home](/) · [Blog](/blog/) · Competitive-Intel Tools Were the First Martech Category AI Killed
 
-AUG 18, 2026 · Updated 2026-10-02
+AUG 18, 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -73,6 +49,20 @@ This is the part worth stealing. MarTech's piece lands on a test, and it general
 **Who opens it, and when did they last open it?** This is the audit you run at renewal. MarTech's version: ask the two people who are supposed to use the tool when they last opened it, and what they reached for instead. If the honest answer is a chatbot, the line item is shelfware you are about to pay for again. Usage logs and Gong-style evidence beat the vendor's adoption deck.
 
 Apply the three questions across a typical stack and a pattern shows up fast.
+
+
+| Line item | Artifact | Decay clock | Verdict |
+| --- | --- | --- | --- |
+| CI platforms (Klue, Crayon) | Battlecards, static briefs | Competitor ships every ~2 weeks | Exposed, collapsing now |
+| Sales enablement libraries | Decks and one-pagers in Highspot/Seismic | Product and pricing change monthly | Exposed; 37% of reps already freestyle |
+| Social media report generators | Monthly PDF summaries | Metrics move daily | Exposed; a model rebuilds the summary on demand |
+| One-shot SEO audit tools | Point-in-time report | SERPs shift weekly | Exposed |
+| Market research report subscriptions | Quarterly industry PDFs | Markets move continuously | Exposed, with a caveat below |
+| Marketing analytics dashboards | Boards that summarize, never act | Data refreshes, summaries lag | Partially exposed; the summarization layer is |
+| Email and campaign execution | Actions: sends, journeys, bids | N/A, the tool is the act | Not exposed |
+| Experimentation platforms | Live tests on live traffic | N/A, the tool owns the experiment | Not exposed |
+| CRM/CDP systems of record | Live customer state | N/A, they are the data | Not exposed; they get more valuable as agent context |
+| Consent and identity infrastructure | Governed actions and permissions | N/A | Not exposed; agents raise the stakes |
 
 Read down the table and the dividing line is clean. The exposed half all sell a representation of reality, refreshed on a schedule. The safe half all own a piece of reality: the live data, the action, the workflow where the work happens.
 
@@ -142,6 +132,16 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+MONITORcrawler watches pricing pages, release notes
+
+DOCUMENTbattlecard written, reviewed, published
+
+QUARTER PASSEScompetitor ships six things
+
+REP ASKS CLAUDEfresh answer, zero license fee
+
 
 ```json
 {
@@ -173,7 +173,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     }
   },
   "datePublished": "2026-08-18",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-08-18",
   "mainEntityOfPage": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/",
   "image": {
     "@type": "ImageObject",
@@ -219,7 +219,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/#breadcrumb"}, "dateModified": "2026-08-18"}
 ```
 
 ```json
