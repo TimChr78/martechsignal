@@ -4,7 +4,7 @@
   {
    "slug": "aaron-marketing-skills",
    "score_total": 40,
-   "verdict": "Aaron's 120 skills come with six auditor gates, which is the interesting part: outputs get checked before they ship. Apache-2.0 and 2853 stars make it the most adopted skill pack in this group.",
+   "verdict": "Aaron's 120 skills come with six auditor gates, which is the interesting part: outputs get checked before they ship. Apache-2.0 and {stars:aaron-marketing-skills} stars make it the most adopted skill pack in this group.",
    "pillars": {
     "pricing_transparency": {
      "score": 10,
@@ -516,7 +516,7 @@
   {
    "slug": "appsmith",
    "score_total": 39,
-   "verdict": "Appsmith is how internal tools get built in a week: 40980 stars of admin-panel plumbing over your own databases. The AI assist is an editor convenience, and its first datasource is already deprecated.",
+   "verdict": "Appsmith is how internal tools get built in a week: {stars:appsmith} stars of admin-panel plumbing over your own databases. The AI assist is an editor convenience, and its first datasource is already deprecated.",
    "pillars": {
     "pricing_transparency": {
      "score": 7,
@@ -868,7 +868,7 @@
   {
    "slug": "chatwoot",
    "score_total": 39,
-   "verdict": "Chatwoot is the open-source service suite with a three-part AI called Captain and 37377 stars behind it. Self-host the community edition free and buy cloud only when operations demand it.",
+   "verdict": "Chatwoot is the open-source service suite with a three-part AI called Captain and {stars:chatwoot} stars behind it. Self-host the community edition free and buy cloud only when operations demand it.",
    "pillars": {
     "pricing_transparency": {
      "score": 7,
@@ -1572,7 +1572,7 @@
   {
    "slug": "ghost",
    "score_total": 42,
-   "verdict": "Ghost is the independent publishing stack: 55468 stars, MIT, newsletters and memberships included. The AI layer is writing assistance where it should be, and Stripe payments keep the revenue yours.",
+   "verdict": "Ghost is the independent publishing stack: {stars:ghost} stars, MIT, newsletters and memberships included. The AI layer is writing assistance where it should be, and Stripe payments keep the revenue yours.",
    "pillars": {
     "pricing_transparency": {
      "score": 9,
@@ -1636,7 +1636,7 @@
   {
    "slug": "growth-lab",
    "score_total": 34,
-   "verdict": "Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 1991 stars; the harness cost is on you.",
+   "verdict": "Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and {stars:growth-lab} stars; the harness cost is on you.",
    "pillars": {
     "pricing_transparency": {
      "score": 8,
@@ -1668,7 +1668,7 @@
   {
    "slug": "growthbook",
    "score_total": 42,
-   "verdict": "GrowthBook is the open-source experiment stack with warehouse-native stats and an AI assistant metered by plan. MIT licensing and 8461 stars say the community believes in it.",
+   "verdict": "GrowthBook is the open-source experiment stack with warehouse-native stats and an AI assistant metered by plan. MIT licensing and {stars:growthbook} stars say the community believes in it.",
    "pillars": {
     "pricing_transparency": {
      "score": 8,
@@ -1828,7 +1828,7 @@
   {
    "slug": "idurar-erp-crm",
    "score_total": 31,
-   "verdict": "IDURAR is a full ERP-CRM-accounting stack under AGPL with 8841 stars, and lifetime licenses at $5,000 if you want the vendor's hand. Free self-hosting is the honest path for small teams.",
+   "verdict": "IDURAR is a full ERP-CRM-accounting stack under AGPL with {stars:idurar-erp-crm} stars, and lifetime licenses at $5,000 if you want the vendor's hand. Free self-hosting is the honest path for small teams.",
    "pillars": {
     "pricing_transparency": {
      "score": 7,
@@ -1988,7 +1988,7 @@
   {
    "slug": "khoj",
    "score_total": 37,
-   "verdict": "Khoj is the self-hosted research assistant at 37550 stars: chat with your documents and automate content workflows from Obsidian, Emacs or WhatsApp. Cloud pricing stays hidden; self-hosting is the documented path.",
+   "verdict": "Khoj is the self-hosted research assistant at {stars:khoj} stars: chat with your documents and automate content workflows from Obsidian, Emacs or WhatsApp. Cloud pricing stays hidden; self-hosting is the documented path.",
    "pillars": {
     "pricing_transparency": {
      "score": 5,
@@ -2084,7 +2084,7 @@
   {
    "slug": "langchain",
    "score_total": 47,
-   "verdict": "LangChain is the agent framework everything else measures against: 147332 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.",
+   "verdict": "LangChain is the agent framework everything else measures against: {stars:langchain} stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.",
    "pillars": {
     "pricing_transparency": {
      "score": 8,
@@ -2116,7 +2116,7 @@
   {
    "slug": "languagetool",
    "score_total": 37,
-   "verdict": "LanguageTool is the privacy-friendly grammar checker: self-hosted under LGPL, 15096 stars, 30+ languages. Premium prices localize by region, which is worth checking before you budget.",
+   "verdict": "LanguageTool is the privacy-friendly grammar checker: self-hosted under LGPL, {stars:languagetool} stars, 30+ languages. Premium prices localize by region, which is worth checking before you budget.",
    "pillars": {
     "pricing_transparency": {
      "score": 7,
@@ -2180,7 +2180,7 @@
   {
    "slug": "libretranslate",
    "score_total": 35,
-   "verdict": "LibreTranslate is the translation API you can own: AGPL, 16965 stars, billed per character only if you use their hosting. For localization at volume, self-hosting is the whole argument.",
+   "verdict": "LibreTranslate is the translation API you can own: AGPL, {stars:libretranslate} stars, billed per character only if you use their hosting. For localization at volume, self-hosting is the whole argument.",
    "pillars": {
     "pricing_transparency": {
      "score": 8,
@@ -2244,7 +2244,7 @@
   {
    "slug": "listmonk",
    "score_total": 37,
-   "verdict": "Listmonk is the self-hosted newsletter standard: 23640 stars of Go under AGPL with no paid tier anywhere. If you can run Postgres and SMTP, this is free forever by design.",
+   "verdict": "Listmonk is the self-hosted newsletter standard: {stars:listmonk} stars of Go under AGPL with no paid tier anywhere. If you can run Postgres and SMTP, this is free forever by design.",
    "pillars": {
     "pricing_transparency": {
      "score": 10,
@@ -2404,7 +2404,7 @@
   {
    "slug": "maizzle",
    "score_total": 32,
-   "verdict": "Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with 2862 stars and no AI story, which is fine for a compiler.",
+   "verdict": "Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with {stars:maizzle} stars and no AI story, which is fine for a compiler.",
    "pillars": {
     "pricing_transparency": {
      "score": 10,
@@ -2564,7 +2564,7 @@
   {
    "slug": "mautic",
    "score_total": 38,
-   "verdict": "Mautic is the open-source marketing automation standard: 10636 stars under GPL with managed hosting from EUR 247.50/mo. No AI features documented, and the campaign engine does not need them.",
+   "verdict": "Mautic is the open-source marketing automation standard: {stars:mautic} stars under GPL with managed hosting from EUR 247.50/mo. No AI features documented, and the campaign engine does not need them.",
    "pillars": {
     "pricing_transparency": {
      "score": 7,
@@ -2852,7 +2852,7 @@
   {
    "slug": "notifo",
    "score_total": 31,
-   "verdict": "Notifo is self-hosted notification plumbing: email, SMS and push through your own SES and MessageBird accounts. MIT with 882 stars and no AI story, which fits infrastructure.",
+   "verdict": "Notifo is self-hosted notification plumbing: email, SMS and push through your own SES and MessageBird accounts. MIT with {stars:notifo} stars and no AI story, which fits infrastructure.",
    "pillars": {
     "pricing_transparency": {
      "score": 7,
@@ -3364,7 +3364,7 @@
   {
    "slug": "plausible",
    "score_total": 38,
-   "verdict": "Plausible is privacy analytics you can self-host or buy for $9/mo, at 29272 stars. The script is light, the data is yours, and the AI insights stay out of the way.",
+   "verdict": "Plausible is privacy analytics you can self-host or buy for $9/mo, at {stars:plausible} stars. The script is light, the data is yours, and the AI insights stay out of the way.",
    "pillars": {
     "pricing_transparency": {
      "score": 9,
@@ -3396,7 +3396,7 @@
   {
    "slug": "posthog",
    "score_total": 43,
-   "verdict": "PostHog gives away more than anyone: a full free tier on every product, month after month. 40048 stars of MIT product analytics with AI observability that tracks your own LLM features.",
+   "verdict": "PostHog gives away more than anyone: a full free tier on every product, month after month. {stars:posthog} stars of MIT product analytics with AI observability that tracks your own LLM features.",
    "pillars": {
     "pricing_transparency": {
      "score": 8,
@@ -3460,7 +3460,7 @@
   {
    "slug": "potato-ai-visibility",
    "score_total": 32,
-   "verdict": "Potato measures one thing locally: whether Claude's web-search answers mention and cite your brand, with link-rot checking. MIT and 168 stars; the $0 mock mode makes it testable before you spend a cent.",
+   "verdict": "Potato measures one thing locally: whether Claude's web-search answers mention and cite your brand, with link-rot checking. MIT and {stars:potato-ai-visibility} stars; the $0 mock mode makes it testable before you spend a cent.",
    "pillars": {
     "pricing_transparency": {
      "score": 9,
@@ -3748,7 +3748,7 @@
   {
    "slug": "resend",
    "score_total": 38,
-   "verdict": "Resend is developer email built around React Email, with a hosted MCP server and an official Cursor plugin. 19801 stars on the MIT SDKs, and marketing prices published alongside transactional.",
+   "verdict": "Resend is developer email built around React Email, with a hosted MCP server and an official Cursor plugin. {stars:resend} stars on the MIT SDKs, and marketing prices published alongside transactional.",
    "pillars": {
     "pricing_transparency": {
      "score": 8,
@@ -4036,7 +4036,7 @@
   {
    "slug": "seonaut",
    "score_total": 30,
-   "verdict": "Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 798 stars; small, legible and honest about scope.",
+   "verdict": "Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at {stars:seonaut} stars; small, legible and honest about scope.",
    "pillars": {
     "pricing_transparency": {
      "score": 9,
@@ -4388,7 +4388,7 @@
   {
    "slug": "tooljet",
    "score_total": 42,
-   "verdict": "ToolJet generates internal apps from a prompt over 41018 stars of AGPL code, with an MCP server for the agent harnesses. Pricing is published down to builder seats and the Enterprise floor.",
+   "verdict": "ToolJet generates internal apps from a prompt over {stars:tooljet} stars of AGPL code, with an MCP server for the agent harnesses. Pricing is published down to builder seats and the Enterprise floor.",
    "pillars": {
     "pricing_transparency": {
      "score": 8,

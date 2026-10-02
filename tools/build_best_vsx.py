@@ -44,7 +44,7 @@ def _strip_pick_label(name, value):
                    "", str(value or ""), flags=_re.I)
 
 from build_tools import page_shell, esc, ROOT, pricing_label, out_links, _tool_fact_img
-from build_tools import CATEGORY_GUIDES, _pilot_shot, glossary_terms_html, GLOSSARY_CAT_TERMS
+from build_tools import CATEGORY_GUIDES, _pilot_shot, glossary_terms_html, GLOSSARY_CAT_TERMS, stars_token
 
 _MOMENTUM_ROWS = None
 
@@ -117,6 +117,37 @@ def build_best():
     built = []
     for page in data["pages"]:
         items = page["items"]
+        # A3 stardrift: resolve {stars:slug} tokens against the loaded catalog
+        # before anything renders (prose fields carry GitHub counts).
+        _a_sig = page.get("a_slug") or ""
+        _b_sig = page.get("b_slug") or ""
+        def _tk(v, default_name=""):
+            if isinstance(v, str):
+                return stars_token(default_name, v)
+            if isinstance(v, list):
+                return [stars_token(default_name, x) if isinstance(x, str) else x for x in v]
+            return v
+        def _tk_page(p):
+            p["intro"] = _tk(p.get("intro"))
+            for _sec in p.get("sections", []):
+                for _k in ("a", "b", "c"):
+                    if _sec.get(_k) is not None:
+                        _sec[_k] = _tk(_sec[_k], p.get(f"{_k}_slug", _a_sig))
+            for _k in ("pick_a_if", "pick_b_if", "pick_c_if", "neither", "migration"):
+                if p.get(_k) is not None:
+                    defname = {"pick_a_if": p.get("a_slug"), "pick_b_if": p.get("b_slug"),
+                               "pick_c_if": p.get("c_slug")}.get(_k, "")
+                    p[_k] = _tk(p[_k], defname)
+            for _qa in p.get("pilot_faq", []):
+                for _k in ("q", "a"):
+                    if _qa.get(_k):
+                        _qa[_k] = _tk(_qa[_k], _a_sig)
+            for _it in p.get("items", []):
+                for _k in ("assessment", "verdict", "skip_if", "unverified"):
+                    if isinstance(_it.get(_k), str):
+                        _it[_k] = _tk(_it[_k], _it.get("slug", ""))
+            return p
+        page = _tk_page(page)
         for it in items:
             assert it["slug"] in tools_by_slug, f"unknown tool slug {it['slug']}"
         body = ['<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/best/">Best-of lists</a> / '
@@ -326,6 +357,29 @@ def build_vs():
     tools_by_slug = _load_tools()
     built = []
     for page in data["pages"]:
+        # A3 stardrift: resolve {stars:slug} tokens against the loaded catalog
+        # before anything renders.
+        def _tk(v, default_name=""):
+            if isinstance(v, str):
+                return stars_token(default_name, v)
+            if isinstance(v, list):
+                return [stars_token(default_name, x) if isinstance(x, str) else x for x in v]
+            return v
+        for _sec in page.get("sections", []):
+            for _k in ("a", "b", "c"):
+                if _sec.get(_k) is not None:
+                    _sec[_k] = _tk(_sec[_k], page.get(f"{_k}_slug", ""))
+        for _k in ("pick_a_if", "pick_b_if", "pick_c_if", "neither"):
+            if page.get(_k) is not None:
+                defname = {"pick_a_if": page.get("a_slug"), "pick_b_if": page.get("b_slug"),
+                           "pick_c_if": page.get("c_slug")}.get(_k, "")
+                page[_k] = _tk(page[_k], defname)
+        for _qa in page.get("pilot_faq", []):
+            for _k in ("q", "a"):
+                if _qa.get(_k):
+                    _qa[_k] = _tk(_qa[_k], page.get("a_slug", ""))
+        for _i, _p in enumerate(page.get("intro", [])):
+            page["intro"][_i] = _tk(_p, "")
         a = tools_by_slug[page["a_slug"]]
         b = tools_by_slug[page["b_slug"]]
         # r8 H3 (2026-09-28): optional third column for real 3-way pages

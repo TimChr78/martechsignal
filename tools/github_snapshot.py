@@ -25,6 +25,16 @@ except Exception:
     hist = []
 
 # skip if today's snapshot already exists (idempotent)
+# A3 stardrift: sync the catalog to the newest history day even when today's
+# snapshot already exists (the landed-data path still needs the sync-back).
+import importlib.util as _ilu
+_spec = _ilu.spec_from_file_location("sync_stars", os.path.join(REPO, "tools", "sync_stars.py"))
+_mod = _ilu.module_from_spec(_spec)
+_spec.loader.exec_module(_mod)
+_synced = _mod.sync_from_history()
+if _synced:
+    print(f"[SYNC] {TODAY}: {_synced} catalog records synced to snapshot figures")
+
 if hist and hist[-1].get("date") == TODAY:
     print(f"[SILENT] snapshot for {TODAY} already exists")
     sys.exit(0)
@@ -62,20 +72,15 @@ json.dump(hist, open(HIST, "w"), indent=1)
 # the same date. Per-record human verification (date_updated on other
 # fields) is untouched — only the machine-counted GitHub figures sync.
 _tools_path = os.path.join(REPO, "tools", "tools.json")
-_catalog = json.load(open(_tools_path))
-_records = _catalog if isinstance(_catalog, list) else _catalog.get("tools", [])
-_synced = 0
-for _t in _records:
-    _snap = snapshot["repos"].get(_t.get("slug", ""))
-    if not _snap:
-        continue
-    if _t.get("github_stars") != _snap["stars"] or _t.get("github_forks") != _snap["forks"]:
-        _t["github_stars"] = _snap["stars"]
-        _t["github_forks"] = _snap["forks"]
-        _t["github_checked"] = TODAY
-        _synced += 1
+# A3 stardrift (2026-10-02): the inline one-off sync is gone; the daily
+# snapshot delegates to the single canonical sync module so catalog writes
+# follow ONE code path (indent=1 canon, drift-guarded).
+import importlib.util as _ilu
+_spec = _ilu.spec_from_file_location("sync_stars", os.path.join(REPO, "tools", "sync_stars.py"))
+_mod = _ilu.module_from_spec(_spec)
+_spec.loader.exec_module(_mod)
+_synced = _mod.sync_from_history()
 if _synced:
-    json.dump(_catalog, open(_tools_path, "w"), indent=2, ensure_ascii=False)
     print(f"[SYNC] {TODAY}: {_synced} catalog records synced to snapshot figures")
 
 if errors:

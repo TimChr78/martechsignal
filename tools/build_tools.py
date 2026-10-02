@@ -60,6 +60,18 @@ TOOLS_DIR = ROOT / "tools"
 CATS_DIR = ROOT / "categories"
 
 def load():
+    # A3 stardrift (2026-10-02): every build begins by syncing the catalog to
+    # the newest snapshot day, so rendered numbers can never trail the data
+    # (the race that kept resurfacing as stale prose literals).
+    try:
+        import importlib.util as _ilu
+        _spec = _ilu.spec_from_file_location(
+            "sync_stars", str(TOOLS_DIR / "sync_stars.py"))
+        _mod = _ilu.module_from_spec(_spec)
+        _spec.loader.exec_module(_mod)
+        _mod.sync_from_history()
+    except (OSError, ImportError, ValueError):
+        pass
     tools = json.loads((TOOLS_DIR / "tools.json").read_text())
     cats = json.loads((TOOLS_DIR / "categories.json").read_text())
     return tools, cats
@@ -804,10 +816,37 @@ _PILLAR_LABELS = {
 # the two research batches; every score on the page carries its evidence line,
 # the rubric lives at /methodology/.
 _SCORES = {}
+def stars_token(name, text):
+    """A3 stardrift architecture (2026-10-02, Tim): GitHub star counts live in
+    the catalog record ONLY. Content JSON carries a {stars:<slug>} token that
+    builders resolve from the record at render time, so a snapshot landing
+    mid-build can never leave stale prose literals."""
+    import re as _re
+    if not isinstance(text, str) or "{stars:" not in text:
+        return text
+    return _re.sub(r"\{stars:([^}]+)\}", lambda m: _fmt_stars_lookup(m.group(1)), text)
+
+
+_STARS_INDEX = None
+
+def _fmt_stars_lookup(slug):
+    global _STARS_INDEX
+    if _STARS_INDEX is None:
+        import json as _j
+        _STARS_INDEX = {}
+        for _r in _j.loads((_p := ROOT / "tools" / "tools.json").read_text()):
+            if isinstance(_r, dict) and _r.get("slug"):
+                _STARS_INDEX[_r["slug"]] = f"{_r.get('github_stars') or 0:,}"
+    return _STARS_INDEX.get(slug, "0")
+
+
 for _sf in ("score-content-a.json", "score-content-b.json"):
     _sp = ROOT / "tools" / _sf
     if _sp.exists():
         for _srec in json.loads(_sp.read_text())["tools"]:
+            for _k in ("verdict", "evidence", "notes"):
+                if isinstance(_srec.get(_k), str):
+                    _srec[_k] = stars_token(_srec.get("slug", ""), _srec[_k])
             _SCORES[_srec["slug"]] = _srec
 
 
@@ -1169,7 +1208,9 @@ def glossary_terms_html(terms, heading="Key terms"):
     )
 
 
+
 CATEGORY_GUIDES = {
+
     "marketing-automation": '<b>Guide:</b> <a href="/guides/workflow-automation-strategy/">automation strategy</a>',
     "content-ai": '<b>Guide:</b> <a href="/guides/ai-seo-tooling/">AI SEO tooling hub</a>',
     "advertising": '<b>Guide:</b> <a href="/guides/agentic-ai-advertising/">Agentic advertising</a>',
@@ -1221,6 +1262,25 @@ def build_tool_page(t, cats, all_tools, base="tools"):
     cat_map = {c["slug"]: c for c in cats}
     c = cat_map.get(t["category"], {})
     slug = t["slug"]
+    # A3 stardrift: resolve {stars:slug} prose tokens against the live record
+    # (description and deep_dive carry GitHub counts).
+    for _k in ("description", "seo_description", "tagline", "price_notes"):
+        if isinstance(t.get(_k), str):
+            t[_k] = stars_token(slug, t[_k])
+    if isinstance(t.get("deep_dive"), dict):
+        # A3 stardrift: the stats card must read the live record, not a static
+        # copy (the second star store that kept drifting).
+        _stats = t["deep_dive"].get("stats")
+        if isinstance(_stats, dict):
+            if "github_stars" in _stats and isinstance(t.get("github_stars"), int):
+                _stats["github_stars"] = f'{t["github_stars"]:,}'
+            if "forks" in _stats and isinstance(t.get("github_forks"), int):
+                _stats["forks"] = f'{t["github_forks"]:,}'
+        for _kk, _vv in list(t["deep_dive"].items()):
+            if isinstance(_vv, str):
+                t["deep_dive"][_kk] = stars_token(slug, _vv)
+            elif isinstance(_vv, list):
+                t["deep_dive"][_kk] = [stars_token(slug, x) if isinstance(x, str) else x for x in _vv]
 
     # Similar tools (R2 H-2, 2026-09-09): relevance-scored instead of JSON-array-order.
     # The old [:4] slice made the module an ordering artefact: only 5 distinct lists per
