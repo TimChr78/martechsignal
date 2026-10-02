@@ -237,7 +237,8 @@ One email when a new tool review lands, nothing else.
         "name": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
         "item": "https://martechsignal.com/vs/n8n-vs-zapier/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/vs/n8n-vs-zapier/#breadcrumb"
   }
 ]
 ```

@@ -86,7 +86,8 @@ From $249/moDesk-reviewed
           "name": "Social Media",
           "item": "https://martechsignal.com/categories/social-media/"
         }
-      ]
+      ],
+      "@id": "https://martechsignal.com/categories/social-media/#breadcrumb"
     },
     {
       "@type": "ItemList",

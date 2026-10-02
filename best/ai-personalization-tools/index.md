@@ -12,9 +12,9 @@ Dynamic Yield fits large commerce operations buying personalization depth. Segme
 | [Nosto](/tools/nosto/) | Enterprise | No | Merchants that want recommendations their merchandisers can steer |
 | [Clerk.io](/tools/clerk-io/) | From $119/mo | No | Mid-size stores that want search and recs without enterprise procurement |
 | [Tealium](/tools/tealium/) | Enterprise | No | Regulated enterprises that need governance around every customer event |
-| [Flagsmith](/tools/flagsmith/) | Freemium | Yes (BSD-3-Clause) | Teams that want their experiment engine as open as their stack |
-| [GrowthBook](/tools/growthbook/) | Freemium | Yes (MIT) | Best for product teams that want feature flags and A/B testing they can self-host, with a free Starter plan for 3 users. |
-| [Jitsu](/tools/jitsu/) | Freemium | Yes (MIT) | Best for data teams that want open-source event collection in their own warehouse, free to self-host. |
+| [Flagsmith](/tools/flagsmith/) | Freemium from $50/mo | Yes (BSD-3-Clause) | Teams that want their experiment engine as open as their stack |
+| [GrowthBook](/tools/growthbook/) | Freemium from $40/mo | Yes (MIT) | Best for product teams that want feature flags and A/B testing they can self-host, with a free Starter plan for 3 users. |
+| [Jitsu](/tools/jitsu/) | Freemium from $99/mo | Yes (MIT) | Best for data teams that want open-source event collection in their own warehouse, free to self-host. |
 
 **Our top pick: [Dynamic Yield](#dynamic-yield)** — Large commerce operations buying personalization depth over self-serve [Try Dynamic Yield](https://www.dynamicyield.com)
 
@@ -307,7 +307,8 @@ One email when a new tool review lands, nothing else.
         "name": "Best AI Personalization & CDP tools (2026): 8 compared",
         "item": "https://martechsignal.com/best/ai-personalization-tools/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/best/ai-personalization-tools/#breadcrumb"
   }
 ]
 ```

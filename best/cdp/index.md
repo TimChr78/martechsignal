@@ -9,7 +9,7 @@ RudderStack fits warehouse-first teams that want a self-hostable event router wi
 | --- | --- | --- | --- |
 | [RudderStack](/tools/rudderstack/) | Free tier | Source-available (fair-code) | Best Segment-compatible router for warehouse-first stacks on a budget. |
 | [Hightouch](/tools/hightouch/) | Freemium | No | Best activation layer when the warehouse is already the source of truth. |
-| [Jitsu](/tools/jitsu/) | Freemium | Yes (MIT) | Best fully open-source event collection for self-hosting the pipeline. |
+| [Jitsu](/tools/jitsu/) | Freemium from $99/mo | Yes (MIT) | Best fully open-source event collection for self-hosting the pipeline. |
 | [Apache Unomi](/tools/apache-unomi/) | Open Source | Yes (Apache-2.0) | Best when data-residency rules and European-consent governance drive the architecture. |
 | [Twilio Segment](/tools/segment/) | Freemium from $120/mo | No | Best documented default when budget is not the deciding axis. |
 | [Tealium](/tools/tealium/) | Enterprise | No | Best enterprise governance and consent orchestration at large scale. |
@@ -260,7 +260,8 @@ One email when a new tool review lands, nothing else.
         "name": "Best Customer Data Platforms (2026): composable to self-hosted",
         "item": "https://martechsignal.com/best/cdp/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/best/cdp/#breadcrumb"
   }
 ]
 ```

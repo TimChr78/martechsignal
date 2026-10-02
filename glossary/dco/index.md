@@ -129,7 +129,8 @@ AI copywriting platform with predictive performance scores for marketing content
         "name": "DCO",
         "item": "https://martechsignal.com/glossary/dco/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/dco/#breadcrumb"
   }
 ]
 ```

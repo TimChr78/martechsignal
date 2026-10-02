@@ -129,7 +129,8 @@ Customer context infrastructure: behavioral event pipeline for warehouses and AI
         "name": "DMP",
         "item": "https://martechsignal.com/glossary/dmp/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/dmp/#breadcrumb"
   }
 ]
 ```

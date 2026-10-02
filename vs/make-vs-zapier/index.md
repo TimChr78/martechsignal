@@ -230,7 +230,8 @@ One email when a new tool review lands, nothing else.
         "name": "Make vs Zapier (2026): pricing, AI features, verdict",
         "item": "https://martechsignal.com/vs/make-vs-zapier/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/vs/make-vs-zapier/#breadcrumb"
   }
 ]
 ```

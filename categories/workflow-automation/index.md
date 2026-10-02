@@ -72,7 +72,7 @@ Open SourceDesk-reviewedOSS
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
-Freemium from $10/moDesk-reviewedOSS
+Freemium from €10/moDesk-reviewedOSS
 
 No-code automation platform connecting 9,000+ apps with AI-powered workflows
 
@@ -84,7 +84,7 @@ Freemium from $9/moDesk-reviewed
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
-FreemiumDesk-reviewed
+Freemium from $29/moDesk-reviewed
 
 AI-powered integration platform for building custom automation and AI agents
 
@@ -216,7 +216,8 @@ Where the agent orchestration layer is heading next
           "name": "Workflow Automation",
           "item": "https://martechsignal.com/categories/workflow-automation/"
         }
-      ]
+      ],
+      "@id": "https://martechsignal.com/categories/workflow-automation/#breadcrumb"
     },
     {
       "@type": "ItemList",

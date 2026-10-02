@@ -140,7 +140,8 @@ AI-powered SEO content platform for research, writing, and AI visibility trackin
         "name": "AI Visibility",
         "item": "https://martechsignal.com/glossary/ai-search-visibility/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/ai-search-visibility/#breadcrumb"
   }
 ]
 ```

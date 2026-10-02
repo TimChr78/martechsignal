@@ -151,6 +151,7 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Appsmith](/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
 - [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 ## Related reading
 
 - [Budibase next to NocoBase and NocoDB: choosing between the three](/blog/nocobase-vs-nocodb-vs-budibase/)
@@ -190,6 +191,10 @@ Open-source platform for building admin panels and internal dashboards on your e
 Tray.io
 
 AI-powered integration platform for building custom automation and AI agents
+
+Pipedream
+
+Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 

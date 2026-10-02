@@ -138,7 +138,8 @@ AI-powered digital analytics platform for product and marketing teams
         "name": "CDP",
         "item": "https://martechsignal.com/glossary/cdp/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/cdp/#breadcrumb"
   }
 ]
 ```

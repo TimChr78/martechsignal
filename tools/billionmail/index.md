@@ -141,6 +141,7 @@ One documented one: AI email template generation, added in v4.0, where you descr
 - [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
+- [Mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -179,6 +180,10 @@ Developer-first email API built around React Email, batch sending, and agent too
 React Email Editor
 
 Drag-n-Drop Email Editor Component for React.js
+
+Mailchimp
+
+All-in-one marketing platform with AI-powered email, automation, and analytics
 
 [More Email Marketing Tools →](/categories/email-marketing/)
 

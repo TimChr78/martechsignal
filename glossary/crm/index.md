@@ -148,7 +148,8 @@ AI-powered CRM with built-in phone, email, and chat for sales teams
         "name": "CRM",
         "item": "https://martechsignal.com/glossary/crm/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/crm/#breadcrumb"
   }
 ]
 ```

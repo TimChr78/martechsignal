@@ -230,7 +230,8 @@ One email when a new tool review lands, nothing else.
         "name": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)",
         "item": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/#breadcrumb"
   }
 ]
 ```

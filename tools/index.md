@@ -310,7 +310,7 @@ Heap
 
 AI-powered product analytics with autocapture and digital experience insights
 
-FreemiumDesk-reviewedAnalytics & Attribution
+Freemium from $250/moDesk-reviewedAnalytics & Attribution
 
 Matomo
 
@@ -502,7 +502,7 @@ Zoho CRM
 
 Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
 
-Freemium from $14/moDesk-reviewedCRM
+Freemium from €14/moDesk-reviewedCRM
 
 ChatbotX
 
@@ -814,13 +814,13 @@ Flagsmith
 
 Open-source feature flag and remote config platform with segment targeting
 
-FreemiumDesk-reviewedPersonalization & CDPOSS
+Freemium from $50/moDesk-reviewedPersonalization & CDPOSS
 
 GrowthBook
 
 Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 
-FreemiumDesk-reviewedPersonalization & CDPOSS
+Freemium from $40/moDesk-reviewedPersonalization & CDPOSS
 
 Hightouch
 
@@ -832,7 +832,7 @@ Jitsu
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
 
-FreemiumDesk-reviewedPersonalization & CDPOSS
+Freemium from $99/moDesk-reviewedPersonalization & CDPOSS
 
 Nosto
 
@@ -1018,13 +1018,13 @@ Paperclip
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
-Freemium from $10/moDesk-reviewedWorkflow AutomationOSS
+Freemium from €10/moDesk-reviewedWorkflow AutomationOSS
 
 Pipedream
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
-FreemiumDesk-reviewedWorkflow Automation
+Freemium from $29/moDesk-reviewedWorkflow Automation
 
 ToolJet
 

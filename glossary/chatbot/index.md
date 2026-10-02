@@ -125,7 +125,8 @@ Open-source customer engagement suite with Captain AI and full self-hosting
         "name": "Chatbot",
         "item": "https://martechsignal.com/glossary/chatbot/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/chatbot/#breadcrumb"
   }
 ]
 ```

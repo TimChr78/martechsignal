@@ -128,6 +128,7 @@ The CLI generates attack probes against an application and reports findings. The
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 - [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 - [Evertune](/tools/evertune/): GEO visibility measurement with content activation and a ChatGPT Ad Agent
+- [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/): Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
 ## Related reading
 
 - [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
@@ -170,6 +171,10 @@ AI search monitoring for brand mentions and citations across ChatGPT and AI Over
 Evertune
 
 GEO visibility measurement with content activation and a ChatGPT Ad Agent
+
+Adobe LLM Optimizer
+
+Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
 
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
 

@@ -114,6 +114,7 @@ Reasonable middle ground between spreadsheet attribution and enterprise suites l
 - [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
 - [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 ## Related reading
 
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
@@ -151,6 +152,10 @@ AI-powered Meta ads optimization and creative workflow
 Albert AI
 
 Autonomous AI platform that manages and optimizes digital advertising campaigns
+
+PostHog
+
+Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 
 [More Analytics & Attribution Tools →](/categories/analytics/)
 

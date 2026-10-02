@@ -141,7 +141,8 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
         "name": "Workflow automation",
         "item": "https://martechsignal.com/glossary/workflow-automation/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/workflow-automation/#breadcrumb"
   }
 ]
 ```

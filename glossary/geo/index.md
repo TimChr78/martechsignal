@@ -109,7 +109,8 @@ AI visibility platform for brands and agencies: citations, perception, competito
         "name": "GEO",
         "item": "https://martechsignal.com/glossary/geo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/geo/#breadcrumb"
   }
 ]
 ```

@@ -147,6 +147,7 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 - [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 - [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
 - [Snowplow](/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
+- [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
@@ -190,6 +191,10 @@ AI-powered digital analytics platform for product and marketing teams
 Snowplow
 
 Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
+
+Triple Whale
+
+AI-powered ecommerce analytics and attribution platform for DTC brands
 
 Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 

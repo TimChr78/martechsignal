@@ -140,7 +140,8 @@ AI-powered marketing automation and CRM for small to mid-size businesses
         "name": "Lead scoring",
         "item": "https://martechsignal.com/glossary/lead-scoring/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/lead-scoring/#breadcrumb"
   }
 ]
 ```

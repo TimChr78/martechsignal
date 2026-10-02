@@ -142,7 +142,8 @@ AI-powered content optimization platform for SEO-driven article writing and audi
         "name": "AEO",
         "item": "https://martechsignal.com/glossary/aeo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/aeo/#breadcrumb"
   }
 ]
 ```

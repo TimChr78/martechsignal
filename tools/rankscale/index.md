@@ -131,6 +131,7 @@ Rankscale GmbH builds the product in Vienna, Austria. Its customer logo wall inc
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 - [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 - [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+- [SISTRIX](/tools/sistrix/): German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -172,6 +173,10 @@ AI search tracking across 8 models with an agent that writes, fixes, and outreac
 AccuRanker
 
 Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+
+SISTRIX
+
+German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
 
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
 

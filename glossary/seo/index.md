@@ -139,7 +139,8 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
         "name": "SEO",
         "item": "https://martechsignal.com/glossary/seo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/seo/#breadcrumb"
   }
 ]
 ```

@@ -12,7 +12,7 @@ Amplitude fits product teams that want funnels without an analyst queue. Matomo 
 | [Umami](/tools/umami/) | Open Source | Yes (MIT) | Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 | [Mixpanel](/tools/mixpanel/) | Freemium | No | Best for analytics & attribution teams that want the job covered in one platform, with a free starting tier. |
 | [Triple Whale](/tools/triple-whale/) | From $59/mo | No | DTC operators that want a daily attribution answer, dashboards included |
-| [Heap](/tools/heap/) | Freemium | No | Teams that want retroactive analysis without a tagging plan first |
+| [Heap](/tools/heap/) | Freemium from $250/mo | No | Teams that want retroactive analysis without a tagging plan first |
 | [Northbeam](/tools/northbeam/) | Enterprise | No | DTC brands whose incrementality questions deserve real modeling |
 | [Snowplow](/tools/snowplow/) | Free tier | Yes (Apache-2.0) | Best for analytics & attribution teams that want intent detection and can host it themselves, with a free starting tier. |
 
@@ -307,7 +307,8 @@ One email when a new tool review lands, nothing else.
         "name": "Best Marketing Analytics and Attribution tools (2026): 8 compared",
         "item": "https://martechsignal.com/best/marketing-analytics-tools/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/best/marketing-analytics-tools/#breadcrumb"
   }
 ]
 ```

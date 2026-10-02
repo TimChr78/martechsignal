@@ -137,7 +137,8 @@ Visual automation platform for building complex workflows with AI agents and app
         "name": "Agentic Marketing",
         "item": "https://martechsignal.com/glossary/agentic-marketing/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/agentic-marketing/#breadcrumb"
   }
 ]
 ```

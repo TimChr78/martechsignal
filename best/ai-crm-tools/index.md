@@ -250,7 +250,8 @@ One email when a new tool review lands, nothing else.
         "name": "Best AI CRM tools (2026): 6 compared",
         "item": "https://martechsignal.com/best/ai-crm-tools/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/best/ai-crm-tools/#breadcrumb"
   }
 ]
 ```

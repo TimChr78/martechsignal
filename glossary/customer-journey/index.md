@@ -133,7 +133,8 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
         "name": "Customer journey",
         "item": "https://martechsignal.com/glossary/customer-journey/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/customer-journey/#breadcrumb"
   }
 ]
 ```

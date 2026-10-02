@@ -110,6 +110,7 @@ Promising for teams ready to run self-hosted SEO loops with agent review. Everyo
 - [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 - [Claude SEO](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 - [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+- [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -148,6 +149,10 @@ Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agent
 AI Business Skills
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+Aaron Marketing Skills
+
+120 marketing skills across 7 disciplines for Claude Code with auditor gates
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 

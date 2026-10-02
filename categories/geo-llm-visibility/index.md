@@ -198,7 +198,8 @@ How two decades of SEO work became raw material for the answer engines
           "name": "GEO & LLM Optimization",
           "item": "https://martechsignal.com/categories/geo-llm-visibility/"
         }
-      ]
+      ],
+      "@id": "https://martechsignal.com/categories/geo-llm-visibility/#breadcrumb"
     },
     {
       "@type": "ItemList",
@@ -211,7 +212,7 @@ How two decades of SEO work became raw material for the answer engines
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 14,
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -388,7 +389,7 @@ How two decades of SEO work became raw material for the answer engines
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/geo-llm-visibility/", "breadcrumb": {"@id": "https://martechsignal.com/categories/geo-llm-visibility/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/geo-llm-visibility/", "breadcrumb": {"@id": "https://martechsignal.com/categories/geo-llm-visibility/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

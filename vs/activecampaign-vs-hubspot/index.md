@@ -232,7 +232,8 @@ One email when a new tool review lands, nothing else.
         "name": "ActiveCampaign vs HubSpot CRM (2026): pricing, automation",
         "item": "https://martechsignal.com/vs/activecampaign-vs-hubspot/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/vs/activecampaign-vs-hubspot/#breadcrumb"
   }
 ]
 ```

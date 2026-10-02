@@ -137,7 +137,8 @@ Open SourceDesk-reviewedOSS
           "name": "Email Marketing",
           "item": "https://martechsignal.com/categories/email-marketing/"
         }
-      ]
+      ],
+      "@id": "https://martechsignal.com/categories/email-marketing/#breadcrumb"
     },
     {
       "@type": "ItemList",

@@ -138,7 +138,8 @@ AI-powered marketing automation and CRM for small to mid-size businesses
         "name": "MQL / SQL",
         "item": "https://martechsignal.com/glossary/mql-sql/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/mql-sql/#breadcrumb"
   }
 ]
 ```

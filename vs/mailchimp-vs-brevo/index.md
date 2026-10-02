@@ -230,7 +230,8 @@ One email when a new tool review lands, nothing else.
         "name": "Mailchimp vs Brevo (2026): pricing, multichannel, verdict",
         "item": "https://martechsignal.com/vs/mailchimp-vs-brevo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/vs/mailchimp-vs-brevo/#breadcrumb"
   }
 ]
 ```

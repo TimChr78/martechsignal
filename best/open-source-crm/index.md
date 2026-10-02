@@ -265,7 +265,8 @@ One email when a new tool review lands, nothing else.
         "name": "Best open-source CRM tools (2026)",
         "item": "https://martechsignal.com/best/open-source-crm/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/best/open-source-crm/#breadcrumb"
   }
 ]
 ```

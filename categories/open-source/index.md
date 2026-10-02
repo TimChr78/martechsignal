@@ -216,7 +216,7 @@ Open SourceDesk-reviewedOSS
 
 Open-source feature flag and remote config platform with segment targeting
 
-FreemiumDesk-reviewedOSS
+Freemium from $50/moDesk-reviewedOSS
 
 Fully featured, open source CRM
 
@@ -236,7 +236,7 @@ Open SourceDesk-reviewedOSS
 
 Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 
-FreemiumDesk-reviewedOSS
+Freemium from $40/moDesk-reviewedOSS
 
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
@@ -244,7 +244,7 @@ Open SourceDesk-reviewedOSS
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
 
-FreemiumDesk-reviewedOSS
+Freemium from $99/moDesk-reviewedOSS
 
 Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
 
@@ -348,7 +348,7 @@ Open SourceDesk-reviewedOSS
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
-Freemium from $10/moDesk-reviewedOSS
+Freemium from €10/moDesk-reviewedOSS
 
 Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
 
@@ -462,7 +462,8 @@ Open SourceDesk-reviewedOSS
           "name": "Open-Source Tools",
           "item": "https://martechsignal.com/categories/open-source/"
         }
-      ]
+      ],
+      "@id": "https://martechsignal.com/categories/open-source/#breadcrumb"
     },
     {
       "@type": "ItemList",

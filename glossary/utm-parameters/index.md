@@ -129,7 +129,8 @@ AI-powered marketing attribution platform connecting ad spend to revenue
         "name": "UTM parameters",
         "item": "https://martechsignal.com/glossary/utm-parameters/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/utm-parameters/#breadcrumb"
   }
 ]
 ```

@@ -137,6 +137,7 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 - [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 - [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
 - [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
+- [AlphOne](/tools/alphone/): Plugin-first CRM (source-available, Elastic 2.0) written in Go
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -179,6 +180,10 @@ AI-powered CRM with built-in phone, email, and chat for sales teams
 Pipedrive
 
 Sales-focused CRM with AI-powered pipeline management and deal forecasting
+
+AlphOne
+
+Plugin-first CRM (source-available, Elastic 2.0) written in Go
 
 [More CRM Tools →](/categories/crm/)
 

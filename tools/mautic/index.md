@@ -144,6 +144,7 @@ The features page describes IP anonymization for visitor records, site tracking 
 - [ActiveCampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Adobe Marketo Engage](/tools/adobe-marketo/): Enterprise B2B marketing automation with AI-driven lead management and engagement
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -188,6 +189,10 @@ Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrati
 Albert AI
 
 Autonomous AI platform that manages and optimizes digital advertising campaigns
+
+Adobe Marketo Engage
+
+Enterprise B2B marketing automation with AI-driven lead management and engagement
 
 [More Marketing Automation Tools →](/categories/marketing-automation/)
 

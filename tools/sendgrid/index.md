@@ -114,6 +114,7 @@ Reliable, well-documented transactional email plumbing; marketers should look el
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [Mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [Klaviyo](/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
@@ -156,6 +157,10 @@ All-in-one marketing platform with AI-powered email, automation, and analytics
 Customer.io
 
 Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+Klaviyo
+
+AI-powered email and SMS marketing platform built for ecommerce brands
 
 [More Email Marketing Tools →](/categories/email-marketing/)
 

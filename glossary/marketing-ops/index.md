@@ -139,7 +139,8 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
         "name": "Marketing ops",
         "item": "https://martechsignal.com/glossary/marketing-ops/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/marketing-ops/#breadcrumb"
   }
 ]
 ```

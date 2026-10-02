@@ -136,7 +136,8 @@ Product analytics platform with AI-powered insights for user behavior tracking
         "name": "Attribution models",
         "item": "https://martechsignal.com/glossary/marketing-attribution-models/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/marketing-attribution-models/#breadcrumb"
   }
 ]
 ```

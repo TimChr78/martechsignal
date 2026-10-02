@@ -131,6 +131,7 @@ Yes. Writesonic documents a public API and an MCP server, with 20+ native integr
 - [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 - [Rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 - [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+- [Evertune](/tools/evertune/): GEO visibility measurement with content activation and a ChatGPT Ad Agent
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -173,6 +174,10 @@ AI visibility tracking across 17+ answer engines for agencies and enterprise tea
 Scrunch
 
 The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+
+Evertune
+
+GEO visibility measurement with content activation and a ChatGPT Ad Agent
 
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
 

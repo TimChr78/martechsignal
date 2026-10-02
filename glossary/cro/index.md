@@ -138,7 +138,8 @@ AI-powered ecommerce personalization with search, recommendations, and email
         "name": "CRO",
         "item": "https://martechsignal.com/glossary/cro/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/cro/#breadcrumb"
   }
 ]
 ```

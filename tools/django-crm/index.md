@@ -134,6 +134,7 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 - [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 - [EspoCRM](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management
+- [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
@@ -171,6 +172,10 @@ The open-source alternative to Salesforce, designed for AI with modern CRM workf
 EspoCRM
 
 Lightweight open-source CRM with sales automation, marketing tools, and customer management
+
+Freshsales
+
+AI-powered CRM with built-in phone, email, and chat for sales teams
 
 [More CRM Tools →](/categories/crm/)
 

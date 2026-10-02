@@ -137,7 +137,8 @@ Enterprise AI governance plus integration and automation on one platform
         "name": "AI Agent",
         "item": "https://martechsignal.com/glossary/ai-agent/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/ai-agent/#breadcrumb"
   }
 ]
 ```

@@ -174,7 +174,8 @@ The off-page playbook that actually moves AI citations
           "name": "SEO & Search",
           "item": "https://martechsignal.com/categories/seo/"
         }
-      ]
+      ],
+      "@id": "https://martechsignal.com/categories/seo/#breadcrumb"
     },
     {
       "@type": "ItemList",
@@ -187,7 +188,7 @@ The off-page playbook that actually moves AI citations
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 9,
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -304,7 +305,7 @@ The off-page playbook that actually moves AI citations
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/seo/", "breadcrumb": {"@id": "https://martechsignal.com/categories/seo/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/seo/", "breadcrumb": {"@id": "https://martechsignal.com/categories/seo/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

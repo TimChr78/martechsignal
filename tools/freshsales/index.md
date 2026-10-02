@@ -126,6 +126,7 @@ A bot session is any unique interaction between an end user and a bot. On chat, 
 - [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 - [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [Macro](/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
+- [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
@@ -168,6 +169,10 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
 Macro
 
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
+
+IDURAR ERP & CRM
+
+Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
 [More CRM Tools →](/categories/crm/)
 

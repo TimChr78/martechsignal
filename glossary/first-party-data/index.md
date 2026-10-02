@@ -142,7 +142,8 @@ Data-driven messaging platform for automated email, push, SMS, and in-app messag
         "name": "First-party data",
         "item": "https://martechsignal.com/glossary/first-party-data/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/first-party-data/#breadcrumb"
   }
 ]
 ```

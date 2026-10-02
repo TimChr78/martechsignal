@@ -310,7 +310,8 @@ One email when a new tool review lands, nothing else.
         "name": "Best AI SEO tools (2026): 8 compared",
         "item": "https://martechsignal.com/best/ai-seo-tools/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/best/ai-seo-tools/#breadcrumb"
   }
 ]
 ```

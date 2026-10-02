@@ -132,6 +132,7 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 - [SuiteCRM](/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation
 - [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
 - [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
+- [Ever Gauzy](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
@@ -176,6 +177,10 @@ Self-hosted open-source CRM with AI agents that sell through WhatsApp
 Pipedrive
 
 Sales-focused CRM with AI-powered pipeline management and deal forecasting
+
+Ever Gauzy
+
+Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 
 [More CRM Tools →](/categories/crm/)
 

@@ -178,7 +178,8 @@ Microsoft's AI campaign automation takes the operator out of search buying
           "name": "Advertising & Paid Media",
           "item": "https://martechsignal.com/categories/advertising/"
         }
-      ]
+      ],
+      "@id": "https://martechsignal.com/categories/advertising/#breadcrumb"
     },
     {
       "@type": "ItemList",
@@ -191,7 +192,7 @@ Microsoft's AI campaign automation takes the operator out of search buying
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 9,
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -308,7 +309,7 @@ Microsoft's AI campaign automation takes the operator out of search buying
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/advertising/", "breadcrumb": {"@id": "https://martechsignal.com/categories/advertising/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/advertising/", "breadcrumb": {"@id": "https://martechsignal.com/categories/advertising/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

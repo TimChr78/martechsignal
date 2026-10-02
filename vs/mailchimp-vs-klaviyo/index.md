@@ -230,7 +230,8 @@ One email when a new tool review lands, nothing else.
         "name": "Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict",
         "item": "https://martechsignal.com/vs/mailchimp-vs-klaviyo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/vs/mailchimp-vs-klaviyo/#breadcrumb"
   }
 ]
 ```

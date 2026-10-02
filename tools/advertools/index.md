@@ -112,6 +112,7 @@ It is a data toolkit rather than a tracking dashboard, but keyword generation, S
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 - [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors
+- [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -158,6 +159,10 @@ MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 OpenClaw Marketing Skills
 
 37 marketing skills for OpenClaw agents with live data connectors
+
+Madgicx
+
+AI-powered Meta ads optimization and creative workflow
 
 [More Advertising & Paid Media Tools →](/categories/advertising/)
 

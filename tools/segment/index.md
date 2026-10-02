@@ -147,6 +147,7 @@ Connections is the data pipeline: sources, destinations, Reverse ETL, and wareho
 - [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
 - [Hightouch](/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs
 - [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
+- [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
 ## Related reading
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
@@ -190,6 +191,10 @@ Composable CDP that activates warehouse data where marketing runs
 Amplitude
 
 AI-powered digital analytics platform for product and marketing teams
+
+Jitsu
+
+Open-source Segment alternative for event capture and warehouse-first data pipelines
 
 [More Personalization & CDP Tools →](/categories/personalization/)
 

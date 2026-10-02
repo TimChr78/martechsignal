@@ -129,7 +129,8 @@ AI platform generating high-converting ad creatives and social media post design
         "name": "AI content",
         "item": "https://martechsignal.com/glossary/ai-content-generation/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/ai-content-generation/#breadcrumb"
   }
 ]
 ```

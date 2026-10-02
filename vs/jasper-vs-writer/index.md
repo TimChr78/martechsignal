@@ -234,7 +234,8 @@ One email when a new tool review lands, nothing else.
         "name": "Jasper vs Writer (2026): pricing, AI features, verdict",
         "item": "https://martechsignal.com/vs/jasper-vs-writer/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/vs/jasper-vs-writer/#breadcrumb"
   }
 ]
 ```

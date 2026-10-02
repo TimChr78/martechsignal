@@ -130,6 +130,7 @@ Yes, and it is the platform's anchor module. The README lists employee time-trac
 - [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 - [Macro](/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
+- [Django CRM](/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
@@ -167,6 +168,10 @@ Enterprise marketing automation on Salesforce with Agentforce AI across email, S
 Macro
 
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
+
+Django CRM
+
+Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 
 [More CRM Tools →](/categories/crm/)
 

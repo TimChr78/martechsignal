@@ -123,6 +123,7 @@ A GEO analytics layer for the AI-search era: real-interface collection, MCP acce
 - [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 - [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 - [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+- [Frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -160,6 +161,10 @@ AI search monitoring for brand mentions and citations across ChatGPT and AI Over
 AccuRanker
 
 Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+
+Frase
+
+AI-powered SEO content platform for research, writing, and AI visibility tracking
 
 [More SEO & Search Tools →](/categories/seo/)
 

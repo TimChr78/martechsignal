@@ -123,7 +123,8 @@ AI platform generating high-converting ad creatives and social media post design
         "name": "Programmatic",
         "item": "https://martechsignal.com/glossary/programmatic-advertising/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/programmatic-advertising/#breadcrumb"
   }
 ]
 ```

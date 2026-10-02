@@ -161,7 +161,7 @@ Open SourceDesk-reviewedOSS
 
 Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
 
-Freemium from $14/moDesk-reviewed
+Freemium from €14/moDesk-reviewed
 
 MAPrecords before vendors
 
@@ -259,7 +259,8 @@ Which open-source CRM contenders, Twenty, Frappe and WaCRM, actually shipped in 
           "name": "CRM",
           "item": "https://martechsignal.com/categories/crm/"
         }
-      ]
+      ],
+      "@id": "https://martechsignal.com/categories/crm/#breadcrumb"
     },
     {
       "@type": "ItemList",

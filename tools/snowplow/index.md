@@ -141,6 +141,7 @@ Signals, launched in May 2025, is Snowplow's real-time context layer and the hom
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
 - [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
 - [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
+- [Attribution](/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
@@ -184,6 +185,10 @@ AI-powered digital analytics platform for product and marketing teams
 Twilio Segment
 
 Customer data platform for collecting, unifying, and activating customer data
+
+Attribution
+
+AI-powered marketing attribution platform connecting ad spend to revenue
 
 [More Analytics & Attribution Tools →](/categories/analytics/)
 

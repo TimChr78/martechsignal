@@ -782,7 +782,8 @@ Personalization & CDP***4*
         "name": "Trending",
         "item": "https://martechsignal.com/trending/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/trending/#breadcrumb"
   }
 ]
 ```

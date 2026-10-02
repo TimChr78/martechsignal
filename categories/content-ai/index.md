@@ -122,7 +122,8 @@ PaidDesk-reviewed
           "name": "AI Content & Copywriting",
           "item": "https://martechsignal.com/categories/content-ai/"
         }
-      ]
+      ],
+      "@id": "https://martechsignal.com/categories/content-ai/#breadcrumb"
     },
     {
       "@type": "ItemList",

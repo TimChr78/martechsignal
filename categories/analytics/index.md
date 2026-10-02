@@ -55,7 +55,7 @@ FreemiumDesk-reviewed
 
 AI-powered product analytics with autocapture and digital experience insights
 
-FreemiumDesk-reviewed
+Freemium from $250/moDesk-reviewed
 
 Product analytics platform with AI-powered insights for user behavior tracking
 
@@ -183,7 +183,8 @@ The warehouse you own is the measurement backbone; skip the rebuild pitch
           "name": "Analytics & Attribution",
           "item": "https://martechsignal.com/categories/analytics/"
         }
-      ]
+      ],
+      "@id": "https://martechsignal.com/categories/analytics/#breadcrumb"
     },
     {
       "@type": "ItemList",

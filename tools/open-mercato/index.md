@@ -135,6 +135,7 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 - [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
 - [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 - [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
+- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
@@ -174,6 +175,10 @@ The AI Customer Experience Platform: monitor, optimize and serve your site to AI
 Intercom
 
 AI-first customer service platform with Fin AI agent and omnichannel messaging
+
+AI Business Skills
+
+63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 

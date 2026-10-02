@@ -119,6 +119,7 @@ Both paths are documented on the docs site as migration guides, alongside deploy
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [Loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
 - [Twilio SendGrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
+- [Warmbly](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
@@ -160,6 +161,10 @@ Email marketing for SaaS: marketing, product, and transactional email in one too
 Twilio SendGrid
 
 Scalable email delivery API with AI-powered deliverability and engagement tools
+
+Warmbly
+
+Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 
 [More Email Marketing Tools →](/categories/email-marketing/)
 

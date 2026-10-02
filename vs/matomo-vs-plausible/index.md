@@ -232,7 +232,8 @@ One email when a new tool review lands, nothing else.
         "name": "Matomo vs Plausible (2026): analytics depth or simplicity",
         "item": "https://martechsignal.com/vs/matomo-vs-plausible/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/vs/matomo-vs-plausible/#breadcrumb"
   }
 ]
 ```

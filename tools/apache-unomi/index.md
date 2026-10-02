@@ -117,6 +117,7 @@ Not a marketer-facing one. Unomi is a REST server, and the privacy and configura
 - [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
 - [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
 - [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
+- [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -160,6 +161,10 @@ Open-source Segment alternative for event capture and warehouse-first data pipel
 RudderStack
 
 Warehouse-first CDP: open-source Go data plane plus managed routing
+
+Nosto
+
+AI-powered ecommerce personalization with product recommendations and merchandising
 
 [More Personalization & CDP Tools →](/categories/personalization/)
 

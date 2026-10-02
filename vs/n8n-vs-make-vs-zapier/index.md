@@ -244,7 +244,8 @@ One email when a new tool review lands, nothing else.
         "name": "n8n vs Make vs Zapier (2026): the three-way automation decision",
         "item": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/#breadcrumb"
   }
 ]
 ```

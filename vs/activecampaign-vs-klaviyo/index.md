@@ -232,7 +232,8 @@ One email when a new tool review lands, nothing else.
         "name": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
         "item": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/#breadcrumb"
   }
 ]
 ```

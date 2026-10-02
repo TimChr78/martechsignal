@@ -131,6 +131,7 @@ The community edition is free and self-hosted under a GPLv3-based license, with 
 - [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
 - [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [Dolibarr ERP/CRM](/tools/dolibarr/): Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
@@ -170,6 +171,10 @@ Fully featured, open source CRM
 Tealium
 
 Enterprise customer data platform with real-time data orchestration and AI
+
+Dolibarr ERP/CRM
+
+Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app
 
 [More CRM Tools →](/categories/crm/)
 

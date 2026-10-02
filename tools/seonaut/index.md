@@ -131,6 +131,7 @@ On core technical auditing, more than you might expect: broken links, redirect c
 - [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 - [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
+- [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
 ## Related reading
 
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
@@ -170,6 +171,10 @@ Drag-n-Drop Email Editor Component for React.js
 Salesforce Marketing Cloud
 
 Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
+
+MarketMuse
+
+AI-powered content strategy and optimization platform for SEO content teams
 
 [More SEO & Search Tools →](/categories/seo/)
 

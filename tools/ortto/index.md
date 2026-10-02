@@ -155,6 +155,7 @@ Yes. Authentication uses a custom API key that you configure as a data source an
 - [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
+- [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
@@ -197,6 +198,10 @@ Data-driven messaging platform for automated email, push, SMS, and in-app messag
 Salesforce Marketing Cloud
 
 Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
+
+Bloomreach
+
+AI-powered commerce experience platform with search, personalization, and CDP
 
 [More Marketing Automation Tools →](/categories/marketing-automation/)
 

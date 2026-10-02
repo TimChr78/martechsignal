@@ -120,7 +120,8 @@ Simple social media scheduling and analytics with AI-powered content tools
         "name": "Social listening",
         "item": "https://martechsignal.com/glossary/social-listening/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/social-listening/#breadcrumb"
   }
 ]
 ```

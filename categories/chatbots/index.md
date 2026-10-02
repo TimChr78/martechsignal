@@ -87,7 +87,8 @@ Freemium from $24/moDesk-reviewed
           "name": "Chatbots & Conversational AI",
           "item": "https://martechsignal.com/categories/chatbots/"
         }
-      ]
+      ],
+      "@id": "https://martechsignal.com/categories/chatbots/#breadcrumb"
     },
     {
       "@type": "ItemList",

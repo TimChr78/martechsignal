@@ -145,6 +145,7 @@ Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focu
 - [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
 - [Paperclip](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 - [Eve Marketing Team Template](/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email
+- [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -184,6 +185,10 @@ Open-source control plane to manage AI agents like a company, hire, schedule, bu
 Eve Marketing Team Template
 
 Open-source team of marketing agents on eve: lead, content, social, SEO, email
+
+Cordys CRM
+
+Open-source AI CRM with built-in agents, conversational analytics, and private deployment
 
 [More CRM Tools →](/categories/crm/)
 

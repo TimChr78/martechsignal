@@ -127,6 +127,7 @@ The docs describe BAN detection with automatic friend migration to the next acco
 - [Mautic](/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management
 - [Ortto](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
 - [Opteo](/tools/opteo/): Continuous Google Ads monitoring with one-click improvements
+- [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -166,6 +167,10 @@ Customer data and marketing automation platform with journeys, CDP, and AI featu
 Opteo
 
 Continuous Google Ads monitoring with one-click improvements
+
+Braze
+
+Customer engagement platform with AI-powered real-time messaging across channels
 
 [More Marketing Automation Tools →](/categories/marketing-automation/)
 

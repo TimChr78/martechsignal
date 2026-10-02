@@ -308,7 +308,8 @@ One email when a new tool review lands, nothing else.
         "name": "Best AI Marketing Automation tools (2026): 8 compared",
         "item": "https://martechsignal.com/best/ai-marketing-automation-tools/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/best/ai-marketing-automation-tools/#breadcrumb"
   }
 ]
 ```

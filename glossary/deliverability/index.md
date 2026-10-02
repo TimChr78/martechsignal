@@ -136,7 +136,8 @@ Data-driven messaging platform for automated email, push, SMS, and in-app messag
         "name": "Deliverability",
         "item": "https://martechsignal.com/glossary/deliverability/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/deliverability/#breadcrumb"
   }
 ]
 ```

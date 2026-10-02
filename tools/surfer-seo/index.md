@@ -116,6 +116,7 @@ Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a hu
 - [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
 - [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
 - [Frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
+- [OpenSEO](/tools/openseo/): Open source alternative to Ahrefs and Semrush
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -158,6 +159,10 @@ All-in-one SEO and digital marketing platform with AI-powered insights and tools
 Frase
 
 AI-powered SEO content platform for research, writing, and AI visibility tracking
+
+OpenSEO
+
+Open source alternative to Ahrefs and Semrush
 
 [More SEO & Search Tools →](/categories/seo/)
 

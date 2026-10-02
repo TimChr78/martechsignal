@@ -132,7 +132,8 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
         "name": "Email sequence",
         "item": "https://martechsignal.com/glossary/email-sequence/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/email-sequence/#breadcrumb"
   }
 ]
 ```

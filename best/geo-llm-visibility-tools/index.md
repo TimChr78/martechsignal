@@ -324,7 +324,8 @@ One email when a new tool review lands, nothing else.
         "name": "Best GEO & LLM Optimization tools (2026): 9 compared",
         "item": "https://martechsignal.com/best/geo-llm-visibility-tools/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/best/geo-llm-visibility-tools/#breadcrumb"
   }
 ]
 ```

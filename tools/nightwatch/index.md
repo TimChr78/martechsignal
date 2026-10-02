@@ -124,6 +124,7 @@ The trial runs 14 days with the full toolkit and no credit card required. If it 
 - [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 - [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 - [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -160,6 +161,10 @@ Brand Radar tracks brand mentions and citations across AI answers, YouTube and R
 Nimt.ai
 
 AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+
+Profound
+
+Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
 

@@ -119,6 +119,7 @@ Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 dat
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Line Harness](/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
 - [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+- [AdCreative.ai](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -156,6 +157,10 @@ Open-source CRM for LINE Official Accounts with step delivery, scoring, and an M
 Nightwatch
 
 Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+
+AdCreative.ai
+
+AI platform generating high-converting ad creatives and social media post designs
 
 [More Advertising & Paid Media Tools →](/categories/advertising/)
 

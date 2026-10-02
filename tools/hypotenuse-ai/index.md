@@ -114,6 +114,7 @@ A strong specialist for bulk product catalog content at scale. General writing n
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
 - [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
 - [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
+- [Strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -156,6 +157,10 @@ AI-powered commerce experience platform with search, personalization, and CDP
 Nosto
 
 AI-powered ecommerce personalization with product recommendations and merchandising
+
+Strapi
+
+Open-source headless CMS with AI-powered content management and API-first design
 
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
 

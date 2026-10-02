@@ -132,7 +132,8 @@ Visual automation platform for building complex workflows with AI agents and app
         "name": "MCP",
         "item": "https://martechsignal.com/glossary/mcp/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/mcp/#breadcrumb"
   }
 ]
 ```

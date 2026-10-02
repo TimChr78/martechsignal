@@ -129,7 +129,8 @@ Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
         "name": "ABM",
         "item": "https://martechsignal.com/glossary/abm/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/abm/#breadcrumb"
   }
 ]
 ```

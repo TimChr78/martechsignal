@@ -1044,6 +1044,7 @@ Yes. The catalog records a public API for Brevo, so custom integrations are poss
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 - [Mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
+- [Notifo](/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -1084,6 +1085,10 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 Mailchimp
 
 All-in-one marketing platform with AI-powered email, automation, and analytics
+
+Notifo
+
+Self-hosted multi-channel notification service for email, SMS, and web push
 
 [More Email Marketing Tools →](/categories/email-marketing/)
 

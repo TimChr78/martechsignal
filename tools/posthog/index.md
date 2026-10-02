@@ -132,6 +132,7 @@ PostHog AI answers questions about your data in plain language across web, Slack
 - [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
 - [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
 - [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
+- [Snowplow](/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -176,6 +177,10 @@ AI-powered product analytics with autocapture and digital experience insights
 Matomo
 
 Open-source web analytics platform with full data ownership and AI-powered insights
+
+Snowplow
+
+Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
 
 [More Analytics & Attribution Tools →](/categories/analytics/)
 

@@ -116,6 +116,7 @@ Choose it when you keep discovering untagged events after the fact. Disciplined 
 - [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
 - [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 - [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
+- [Northbeam](/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
@@ -158,6 +159,10 @@ Open-source product analytics platform with session replay, feature flags, exper
 Matomo
 
 Open-source web analytics platform with full data ownership and AI-powered insights
+
+Northbeam
+
+AI-powered multi-touch attribution and marketing intelligence for ecommerce
 
 [More Analytics & Attribution Tools →](/categories/analytics/)
 

@@ -47,7 +47,7 @@ Founder. Writes the tool teardowns and the automation audits. Roughly 19 years i
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/authors/", "breadcrumb": {"@id": "https://martechsignal.com/authors/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/authors/", "breadcrumb": {"@id": "https://martechsignal.com/authors/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

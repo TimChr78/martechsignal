@@ -55,11 +55,11 @@ EnterpriseDesk-reviewed
 
 Open-source feature flag and remote config platform with segment targeting
 
-FreemiumDesk-reviewedOSS
+Freemium from $50/moDesk-reviewedOSS
 
 Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 
-FreemiumDesk-reviewedOSS
+Freemium from $40/moDesk-reviewedOSS
 
 Composable CDP that activates warehouse data where marketing runs
 
@@ -67,7 +67,7 @@ FreemiumDesk-reviewed
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
 
-FreemiumDesk-reviewedOSS
+Freemium from $99/moDesk-reviewedOSS
 
 AI-powered ecommerce personalization with product recommendations and merchandising
 
@@ -113,7 +113,8 @@ Freemium from $120/moDesk-reviewed
           "name": "Personalization & CDP",
           "item": "https://martechsignal.com/categories/personalization/"
         }
-      ]
+      ],
+      "@id": "https://martechsignal.com/categories/personalization/#breadcrumb"
     },
     {
       "@type": "ItemList",

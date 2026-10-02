@@ -123,7 +123,8 @@ AI platform generating high-converting ad creatives and social media post design
         "name": "DSP",
         "item": "https://martechsignal.com/glossary/dsp/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/dsp/#breadcrumb"
   }
 ]
 ```

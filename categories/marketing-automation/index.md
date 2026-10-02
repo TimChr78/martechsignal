@@ -193,7 +193,8 @@ The category thesis in practice: audit what agents actually sent, not what logs 
           "name": "Marketing Automation",
           "item": "https://martechsignal.com/categories/marketing-automation/"
         }
-      ]
+      ],
+      "@id": "https://martechsignal.com/categories/marketing-automation/#breadcrumb"
     },
     {
       "@type": "ItemList",

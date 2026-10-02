@@ -118,6 +118,7 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 - [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
+- [OpenOutreach](/tools/openoutreach/): Open-source AI lead finder: describe your product and it finds and qualifies the leads
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -163,6 +164,10 @@ All-in-one marketing automation with AI-powered content, email, and campaign too
 Brevo
 
 Multichannel marketing platform billing by email volume, not contacts
+
+OpenOutreach
+
+Open-source AI lead finder: describe your product and it finds and qualifies the leads
 
 Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 

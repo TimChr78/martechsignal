@@ -129,7 +129,8 @@ AI-powered digital analytics platform for product and marketing teams
         "name": "Personalization",
         "item": "https://martechsignal.com/glossary/personalization/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/personalization/#breadcrumb"
   }
 ]
 ```

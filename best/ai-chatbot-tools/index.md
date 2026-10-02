@@ -257,7 +257,8 @@ One email when a new tool review lands, nothing else.
         "name": "Best Chatbots & Conversational AI tools (2026): 6 compared",
         "item": "https://martechsignal.com/best/ai-chatbot-tools/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/best/ai-chatbot-tools/#breadcrumb"
   }
 ]
 ```

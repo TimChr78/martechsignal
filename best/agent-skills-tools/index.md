@@ -312,7 +312,8 @@ One email when a new tool review lands, nothing else.
         "name": "Best Agent Skills tools (2026): 8 compared",
         "item": "https://martechsignal.com/best/agent-skills-tools/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/best/agent-skills-tools/#breadcrumb"
   }
 ]
 ```

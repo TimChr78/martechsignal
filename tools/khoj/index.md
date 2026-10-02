@@ -128,6 +128,7 @@ AGPL-3.0 covers the code. Using it internally is straightforward; deploying a mo
 - [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
 - [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
 - [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
+- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -165,6 +166,10 @@ All-in-one SEO and digital marketing platform with AI-powered insights and tools
 DeskcommCRM
 
 Self-hosted open-source CRM with AI agents that sell through WhatsApp
+
+Jasper
+
+AI marketing content platform for creating on-brand copy, images, and campaigns
 
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
 

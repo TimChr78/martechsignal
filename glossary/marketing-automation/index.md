@@ -143,7 +143,8 @@ Enterprise B2B marketing automation with AI-driven lead management and engagemen
         "name": "Marketing automation",
         "item": "https://martechsignal.com/glossary/marketing-automation/"
       }
-    ]
+    ],
+    "@id": "https://martechsignal.com/glossary/marketing-automation/#breadcrumb"
   }
 ]
 ```

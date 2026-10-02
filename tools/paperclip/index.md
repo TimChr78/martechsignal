@@ -154,6 +154,7 @@ Create an agent whose adapter is claude_local. Claude Code must be installed and
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 - [Digital Marketing Pro](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
 - [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
+- [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -192,6 +193,10 @@ Digital Marketing Pro
 Workato
 
 Enterprise AI governance plus integration and automation on one platform
+
+Budibase
+
+Open-source operations platform for building AI agents, apps and automations on your own data
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
