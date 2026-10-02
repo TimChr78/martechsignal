@@ -2532,7 +2532,7 @@ def test_r11_ml_wave_no_regressions():
     assert "/catalog-categories.json" in (ROOT / "_headers").read_text()
     # L-11: byline clock agrees with schema clock (worst case from audit).
     _tea = (ROOT / "tools" / "tealium" / "index.html").read_text()
-    _by = _re.search(r"updated <time datetime=\"([0-9-]+)\"", _tea).group(1)
+    _by = _re.search(r"[Uu]pdated <time datetime=\"([0-9-]+)\"", _tea).group(1)
     _dm = _re.search(r"\"dateModified\": \"([0-9-]+)\"", _tea).group(1)
     assert _by == _dm, f"tealium byline {_by} vs schema {_dm}"
     # M-13: hub ItemLists carry typed nodes.

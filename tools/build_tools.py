@@ -3377,6 +3377,26 @@ def _json_block_dates(jpath, depth):
         return {}
 
 
+_BOILERPLATE_LINES = None
+
+def _boilerplate_lines(min_pages=20):
+    """A3 H-2 (2026-10-02): lines repeated verbatim across many pages are
+    template boilerplate, not article revisions. Computed once per run."""
+    global _BOILERPLATE_LINES
+    if _BOILERPLATE_LINES is None:
+        from collections import Counter as _Counter
+        _counts = _Counter()
+        for _p in ROOT.rglob("index.html"):
+            if "deploy-out" in _p.parts or ".well-known" in _p.parts:
+                continue
+            try:
+                _counts.update(set(_l.strip() for _l in _p.read_text().splitlines() if _l.strip()))
+            except OSError:
+                pass
+        _BOILERPLATE_LINES = frozenset(l for l, n in _counts.items() if n >= min_pages)
+    return _BOILERPLATE_LINES
+
+
 def _blame_content_date(path):
     """H10 (r9, 2026-09-28): honest fallback edit date for a built HTML file.
     `git log -1` on built files always returns the last deploy (deploys commit
@@ -3391,7 +3411,28 @@ def _blame_content_date(path):
     except Exception:
         return None
     _best, _cur_date = None, None
+    # A3 H-2 (2026-10-02): only article prose counts as a revision. Template
+    # rollouts (author blocks, ard links, hero/CTA injections) previously
+    # stamped every page with the rollout date - the deploy-stamp fallacy in
+    # miniature. Boilerplate = lines repeated across many pages; injections
+    # = builder-owned blocks inside/outside <article>.
+    _art_start, _art_end, _lno = None, None, 0
+    try:
+        from pathlib import Path as _P
+        _lines = _P(path).read_text().splitlines()
+        for _i, _l in enumerate(_lines):
+            if "<article" in _l and _art_start is None:
+                _art_start = _i
+            if "</article>" in _l and _art_start is not None:
+                _art_end = _i
+                break
+    except OSError:
+        pass
+    _BOILER = _boilerplate_lines()
+    _INJECT = ("more-tools", "cta-strip", "related-concepts", "post-hero", "hub-links")
     for _ln in _out:
+        if _ln.startswith("\t"):
+            _lno += 1
         if _ln.startswith('author-time '):
             try:
                 _cur_date = _dt.datetime.fromtimestamp(int(_ln.split()[1]), _dt.timezone.utc).strftime('%Y-%m-%d')
@@ -3399,8 +3440,14 @@ def _blame_content_date(path):
                 _cur_date = None
         elif _ln.startswith('\t'):
             _c = _ln[1:]
-            if ('dateModified' in _c or '?v=' in _c
-                    or ('#person' in _c and 'sameAs' in _c)):
+            _outside = (_art_start is not None and _art_end is not None
+                        and not (_art_start <= _lno <= _art_end))
+            if (_outside or any(_k in _c for _k in _INJECT)
+                    or 'wordCount' in _c
+                    or 'dateModified' in _c or '?v=' in _c
+                    or ('#person' in _c and 'sameAs' in _c)
+                    or _c.strip() in _BOILER
+                    or len(_c.strip()) < 8):
                 _cur_date = None
                 continue
             if _cur_date and (not _best or _cur_date > _best):
@@ -3460,8 +3507,22 @@ def sync_date_modified():
         # schema clock (r11 L-11 pin). The pricing-verified <time> is a
         # separate factual stamp with its own meaning - only the "updated"
         # byline moves with the unified date.
-        _s = _re.sub(r'updated <time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[0-9]{4}-[0-9]{2}-[0-9]{2}</time>',
-                     f'updated <time datetime="{_val}">{_val}</time>', _s)
+        _s = _re.sub(r'[Uu]pdated <time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>',
+                     f'Updated <time datetime="{_val}">{_val}</time>', _s)
+        # A3 H-2 (2026-10-02): schema newer than every visible date with no
+        # Updated note = the mismatch the audit flagged. Insert the note after
+        # the first published <time> so the visible page corroborates the
+        # machine date.
+        if not _re.search(r'[Uu]pdated\s*<time', _s):
+            _vis = _re.findall(r'<time datetime="([0-9]{4}-[0-9]{2}-[0-9]{2})">', _s)
+            if _vis and all(_val > _v for _v in _vis):
+                try:
+                    import datetime as _dt2
+                    _ud = _dt2.datetime.strptime(_val, '%Y-%m-%d').strftime('%b %d, %Y').upper()
+                except ValueError:
+                    _ud = _val
+                _ins = ('\1 &middot; Updated <time datetime="' + _val + '">' + _ud + '</time>')
+                _s = _re.sub(r'(<time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>)', _ins, _s, count=1)
         # r16 L-7 (2026-09-29): pages that already define a WebPage node
         # keep it (unified above); every other page gets one with the
         # unfragmented page URL as @id (the guides pattern the audit calls
