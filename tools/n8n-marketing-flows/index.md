@@ -13,25 +13,25 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (178 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (179 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: LLM-powered post drafting and hashtag generation per platform |  |
 | ✓ Native integrations include n8n, Ollama, Meta Graph API (7 listed) |  |
 
 **What is n8n Marketing Flows?**
-n8n Marketing Flows: 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO. n8n Marketing Flows ships with LLM-powered post drafting and hashtag generation per platform. The public repository carries 178 stars.
+n8n Marketing Flows: 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO. n8n Marketing Flows ships with LLM-powered post drafting and hashtag generation per platform. The public repository carries 179 stars.
 
 **How much does n8n Marketing Flows cost?**
-n8n Marketing Flows is open source - MIT licensed and free to self-host; the public repository carries 178 stars; native integrations cover n8n, Ollama, Meta Graph API. You pay in server time and maintenance, not licences.
+n8n Marketing Flows is open source - MIT licensed and free to self-host; the public repository carries 179 stars; native integrations cover n8n, Ollama, Meta Graph API. You pay in server time and maintenance, not licences.
 
 **Is n8n Marketing Flows a good self-hosted Workflow Automation tool in 2026?**
 The largest verified free template pack for n8n marketing automation, with a genuinely free local-Ollama path and honest credential handling. Recommended if you run n8n and want proven starting points, especially for Chinese-language social and monitoring workflows.
 
 - **Pricing:** Open Source
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 178
+- **GitHub:** ★ 179
 - **Founded:** 2026
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-02
 - **Page updated:** 2026-08-31
 
 **Verdict:** n8n Marketing Flows is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
@@ -142,9 +142,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-n8n Marketing Flows: 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO. n8n Marketing Flows ships with LLM-powered post drafting and hashtag generation per platform. The public repository carries 178 stars.
+n8n Marketing Flows: 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO. n8n Marketing Flows ships with LLM-powered post drafting and hashtag generation per platform. The public repository carries 179 stars.
 
-n8n Marketing Flows is open source - MIT licensed and free to self-host; the public repository carries 178 stars; native integrations cover n8n, Ollama, Meta Graph API. You pay in server time and maintenance, not licences.
+n8n Marketing Flows is open source - MIT licensed and free to self-host; the public repository carries 179 stars; native integrations cover n8n, Ollama, Meta Graph API. You pay in server time and maintenance, not licences.
 
 The largest verified free template pack for n8n marketing automation, with a genuinely free local-Ollama path and honest credential handling. Recommended if you run n8n and want proven starting points, especially for Chinese-language social and monitoring workflows.
 
@@ -153,8 +153,8 @@ The largest verified free template pack for n8n marketing automation, with a gen
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -229,7 +229,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is n8n Marketing Flows?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "n8n Marketing Flows: 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO. n8n Marketing Flows ships with LLM-powered post drafting and hashtag generation per platform. The public repository carries 178 stars."
+          "text": "n8n Marketing Flows: 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO. n8n Marketing Flows ships with LLM-powered post drafting and hashtag generation per platform. The public repository carries 179 stars."
         }
       },
       {
@@ -237,7 +237,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does n8n Marketing Flows cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "n8n Marketing Flows is open source - MIT licensed and free to self-host; the public repository carries 178 stars; native integrations cover n8n, Ollama, Meta Graph API. You pay in server time and maintenance, not licences."
+          "text": "n8n Marketing Flows is open source - MIT licensed and free to self-host; the public repository carries 179 stars; native integrations cover n8n, Ollama, Meta Graph API. You pay in server time and maintenance, not licences."
         }
       },
       {

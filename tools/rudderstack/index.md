@@ -4,32 +4,32 @@
 | Pros | Cons |
 | --- | --- |
 | ✓ Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ Active public repository (4,495 GitHub stars counted at last check) |  |
+| ✓ Active public repository (4,494 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Snowflake, BigQuery, Redshift (8 listed) |  |
 
 **What is RudderStack?**
-RudderStack: Warehouse-first CDP: open-source Go data plane plus managed routing. The public repository carries 4,495 stars. RudderStack offers a public API for custom integrations.
+RudderStack: Warehouse-first CDP: open-source Go data plane plus managed routing. The public repository carries 4,494 stars. RudderStack offers a public API for custom integrations.
 
 **How much does RudderStack cost?**
-RudderStack is source-available rather than open source - Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licensed and free to self-host; the public repository carries 4,495 stars; native integrations cover Snowflake, BigQuery, Redshift. Check the licence terms before commercial use.
+RudderStack is source-available rather than open source - Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licensed and free to self-host; the public repository carries 4,494 stars; native integrations cover Snowflake, BigQuery, Redshift. Check the licence terms before commercial use.
 
 **Is RudderStack a good self-hosted Personalization & CDP tool in 2026?**
-Strengths include 4,495 GitHub stars, Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licensing with free self-hosting, an API for custom integrations. RudderStack documents 8 integrations
+Strengths include 4,494 GitHub stars, Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licensing with free self-hosting, an API for custom integrations. RudderStack documents 8 integrations
 
 - **Founded:** 2019
 - **Headquarters:** San Francisco, California
 - **Licence:** Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available)
 - **Public API:** yes
 - **Catalogued integrations:** 8
-- **GitHub stars:** 4,495
+- **GitHub stars:** 4,494
 
 - **Pricing:** Free tier
 - **Category:** [Personalization & CDP](/categories/personalization/)
-- **GitHub:** ★ 4495
+- **GitHub:** ★ 4494
 - **Founded:** 2019
 - **HQ:** San Francisco, California
 - **API:** Yes
-- **Repository checked:** 2026-10-01
+- **Repository checked:** 2026-10-02
 - **Page updated:** 2026-10-01
 
 **Verdict:** RudderStack is a tool in Personalization & CDP with free and open source. The catalog documents 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-01. This is a desk review, not a hands-on test. Desk-reviewed
@@ -115,11 +115,11 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-RudderStack: Warehouse-first CDP: open-source Go data plane plus managed routing. The public repository carries 4,495 stars. RudderStack offers a public API for custom integrations.
+RudderStack: Warehouse-first CDP: open-source Go data plane plus managed routing. The public repository carries 4,494 stars. RudderStack offers a public API for custom integrations.
 
-RudderStack is source-available rather than open source - Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licensed and free to self-host; the public repository carries 4,495 stars; native integrations cover Snowflake, BigQuery, Redshift. Check the licence terms before commercial use.
+RudderStack is source-available rather than open source - Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licensed and free to self-host; the public repository carries 4,494 stars; native integrations cover Snowflake, BigQuery, Redshift. Check the licence terms before commercial use.
 
-Strengths include 4,495 GitHub stars, Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licensing with free self-hosting, an API for custom integrations. RudderStack documents 8 integrations
+Strengths include 4,494 GitHub stars, Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licensing with free self-hosting, an API for custom integrations. RudderStack documents 8 integrations
 
 ## Similar Tools
 
@@ -200,7 +200,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is RudderStack?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "RudderStack: Warehouse-first CDP: open-source Go data plane plus managed routing. The public repository carries 4,495 stars. RudderStack offers a public API for custom integrations."
+          "text": "RudderStack: Warehouse-first CDP: open-source Go data plane plus managed routing. The public repository carries 4,494 stars. RudderStack offers a public API for custom integrations."
         }
       },
       {
@@ -208,7 +208,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does RudderStack cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "RudderStack is source-available rather than open source - Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licensed and free to self-host; the public repository carries 4,495 stars; native integrations cover Snowflake, BigQuery, Redshift. Check the licence terms before commercial use."
+          "text": "RudderStack is source-available rather than open source - Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licensed and free to self-host; the public repository carries 4,494 stars; native integrations cover Snowflake, BigQuery, Redshift. Check the licence terms before commercial use."
         }
       },
       {
@@ -216,7 +216,7 @@ One email when a new tool review lands, nothing else.
         "name": "Is RudderStack a good self-hosted Personalization & CDP tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Strengths include 4,495 GitHub stars, Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licensing with free self-hosting, an API for custom integrations. RudderStack documents 8 integrations"
+          "text": "Strengths include 4,494 GitHub stars, Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licensing with free self-hosting, an API for custom integrations. RudderStack documents 8 integrations"
         }
       }
     ]

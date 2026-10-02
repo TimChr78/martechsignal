@@ -28,7 +28,7 @@
     "Cursor"
    ],
    "github_repo": "aaron-he-zhu/aaron-marketing-skills",
-   "github_stars": 2853,
+   "github_stars": 2856,
    "open_source": true,
    "api_available": true,
    "founded": 2025,
@@ -45,8 +45,8 @@
     "verdict": "Useful starter kit for marketers adopting Claude Code. Customize before you trust the defaults."
    },
    "license": "Apache-2.0",
-   "github_forks": 366,
-   "github_checked": "2026-10-01",
+   "github_forks": 367,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/aaron-marketing-skills/"
   },
@@ -224,7 +224,7 @@
     "VS Code"
    ],
    "github_repo": "minhnv0807/ai-business-skills",
-   "github_stars": 596,
+   "github_stars": 598,
    "open_source": true,
    "api_available": false,
    "founded": 2025,
@@ -242,7 +242,7 @@
    },
    "license": "MIT",
    "github_forks": 230,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/ai-business-skills/"
   },
@@ -303,7 +303,7 @@
    "ai_features": [],
    "integrations": [],
    "github_repo": "gopherium/AlphOne",
-   "github_stars": 181,
+   "github_stars": 190,
    "open_source": true,
    "api_available": true,
    "description": "AlphOne is a plugin-first CRM with a Go backend exposing both GraphQL and REST APIs, a React single-page frontend, and a design that treats automation as an external concern: there is no built-in rules engine, because everything the UI does is available over HTTP with a token. Features ship as plugins with their own repositories; the current in-repo set covers fields, an importer, and a WhatsApp Cloud API channel that lands customer conversations in a shared inbox attached to the right contact. For marketing ops the notable part is how deliberately the project meets agents where they already work: it speaks MCP (Model Context Protocol) natively, so any MCP client can ask about today's tasks or waiting contacts, and there is a community n8n node (n8n-nodes-alphone) with documented end-to-end workflows, such as an inbound WhatsApp message creating a write-back task on the right contact. The same API-first logic works with Activepieces, Windmill, Node-RED, or a cron job with curl. Licensing needs a look before you commit: the Go backend and SQL migrations carry the Elastic License 2.0, which forbids offering AlphOne to third parties as a hosted service, while the frontend, tests, and docs are AGPLv3. That split is workable for a company extending a self-hosted CRM in Go, and rules out SaaS vendors reselling hosted CRM. At under two hundred stars the community is early-stage, but the repo ships with code coverage, sqlc, GraphQL codegen, and an active commit log. Evaluate it as an API-first foundation for an n8n- or agent-driven stack, not a finished SuiteCRM replacement.",
@@ -326,8 +326,8 @@
    },
    "seo_description": "AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. Open source & free to self-host.",
    "license": "Elastic License 2.0",
-   "github_forks": 33,
-   "github_checked": "2026-09-29",
+   "github_forks": 46,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/alphone/"
   },
@@ -497,8 +497,8 @@
     "verdict": "Free and fast if tracking keeps slipping through the cracks. Review every schema it proposes before publishing anything."
    },
    "license": "Apache-2.0",
-   "github_forks": 40,
-   "github_checked": "2026-09-29",
+   "github_forks": 41,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/analytics-tracking-automation/"
   },
@@ -578,13 +578,13 @@
     "REST / GraphQL"
    ],
    "github_repo": "appsmithorg/appsmith",
-   "github_stars": 40980,
+   "github_stars": 40984,
    "open_source": true,
    "api_available": true,
    "status": "active",
    "date_added": "2026-09-05",
    "date_updated": "2026-09-07",
-   "description": "Appsmith is an open-source low-code platform for building admin panels, internal dashboards and operational apps on the databases and APIs you already run: drag-and-drop interfaces wired to SQL or JavaScript queries, with git-based version control, environments and role-based access on top. The repo is Apache 2.0, and at 40980 GitHub stars with roughly 380 contributors it is the largest project in the internal-tools class we cover; releases land steadily (v2.3 shipped August 13, 2026). One licensing detail matters before you install: the docs recommend the appsmith-ee image, which is the commercial edition with a free plan, and you swap to appsmith-ce for the pure community build, so the edition you run is a choice at install time. For marketing operations the draw is consolidation: campaign metrics from ad platform APIs, lead-quality views beside the CRM, and approval panels wired to the warehouse, all in one tab and all self-hosted so lead and consent data stays in-house. The connector list is wide: PostgreSQL, MySQL, MongoDB, SQL Server, Oracle, Snowflake, Redshift, DynamoDB, Elasticsearch, Redis, S3 and Firestore, plus SaaS integrations including HubSpot, Salesforce, Google Sheets, Airtable, Jira, Notion and Mixpanel, and any REST or GraphQL API. AI help is in the community edition since v2.3: Ask AI writes SQL and JavaScript in the editor once an admin enables a provider, while the older Appsmith AI datasource reaches end of life on September 30, 2026. Trade-offs: it is a developer-leaning tool, so someone comfortable with SQL and JS should own it; the default Docker install wants 8 GB of RAM on the host and outbound access to cs.appsmith.com; and there are no marketing-specific templates, so the first useful app is on you. Pricing is per user: free for five cloud users, Business at $15 per user monthly, Enterprise from $2,500 per month for 100 users. This assessment is based on the documented architecture and public materials.",
+   "description": "Appsmith is an open-source low-code platform for building admin panels, internal dashboards and operational apps on the databases and APIs you already run: drag-and-drop interfaces wired to SQL or JavaScript queries, with git-based version control, environments and role-based access on top. The repo is Apache 2.0, and at {stars:appsmith} GitHub stars with roughly 380 contributors it is the largest project in the internal-tools class we cover; releases land steadily (v2.3 shipped August 13, 2026). One licensing detail matters before you install: the docs recommend the appsmith-ee image, which is the commercial edition with a free plan, and you swap to appsmith-ce for the pure community build, so the edition you run is a choice at install time. For marketing operations the draw is consolidation: campaign metrics from ad platform APIs, lead-quality views beside the CRM, and approval panels wired to the warehouse, all in one tab and all self-hosted so lead and consent data stays in-house. The connector list is wide: PostgreSQL, MySQL, MongoDB, SQL Server, Oracle, Snowflake, Redshift, DynamoDB, Elasticsearch, Redis, S3 and Firestore, plus SaaS integrations including HubSpot, Salesforce, Google Sheets, Airtable, Jira, Notion and Mixpanel, and any REST or GraphQL API. AI help is in the community edition since v2.3: Ask AI writes SQL and JavaScript in the editor once an admin enables a provider, while the older Appsmith AI datasource reaches end of life on September 30, 2026. Trade-offs: it is a developer-leaning tool, so someone comfortable with SQL and JS should own it; the default Docker install wants 8 GB of RAM on the host and outbound access to cs.appsmith.com; and there are no marketing-specific templates, so the first useful app is on you. Pricing is per user: free for five cloud users, Business at $15 per user monthly, Enterprise from $2,500 per month for 100 users. This assessment is based on the documented architecture and public materials.",
    "seo_description": "Appsmith: open-source admin panels and dashboards over your databases and APIs. Self-host free, Apache 2.0. Compare features & alternatives.",
    "deep_dive": {
     "hands_on": [
@@ -623,8 +623,8 @@
    "license": "Apache-2.0",
    "paid_from": 15,
    "currency": "USD",
-   "github_forks": 4784,
-   "github_checked": "2026-10-01",
+   "github_forks": 4787,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/appsmith/"
   },
   {
@@ -785,7 +785,7 @@
     "Send API (single and batch)"
    ],
    "github_repo": "Billionmail/BillionMail",
-   "github_stars": 15795,
+   "github_stars": 15815,
    "last_release": "v4.9 (2025-12-11)",
    "open_source": true,
    "api_available": true,
@@ -832,8 +832,8 @@
    "license": "AGPL-3.0",
    "paid_from": 98.9,
    "currency": "USD",
-   "github_forks": 1733,
-   "github_checked": "2026-10-01",
+   "github_forks": 1735,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/billionmail/"
   },
   {
@@ -1003,7 +1003,7 @@
     "REST API"
    ],
    "github_repo": "budibase/budibase",
-   "github_stars": 28327,
+   "github_stars": 28328,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -1047,8 +1047,8 @@
    },
    "paid_from": 19,
    "currency": "USD",
-   "github_forks": 2226,
-   "github_checked": "2026-10-01",
+   "github_forks": 2227,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/budibase/"
   },
   {
@@ -1112,7 +1112,7 @@
    ],
    "integrations": [],
    "github_repo": "ChatbotXIO/ChatbotX",
-   "github_stars": 851,
+   "github_stars": 857,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -1127,8 +1127,8 @@
     ],
     "verdict": "Right for technical teams that want ManyChat-style automation without lock-in. Everyone else should stay hosted."
    },
-   "github_forks": 244,
-   "github_checked": "2026-10-01",
+   "github_forks": 246,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/chatbotx/"
   },
@@ -1204,7 +1204,7 @@
     "LeadSquared"
    ],
    "github_repo": "chatwoot/chatwoot",
-   "github_stars": 37377,
+   "github_stars": 37422,
    "open_source": true,
    "api_available": true,
    "founded": 2019,
@@ -1212,7 +1212,7 @@
    "status": "active",
    "date_added": "2026-07-27",
    "date_updated": "2026-09-07",
-   "description": "Chatwoot is an open-source customer engagement platform that folds website live chat, email, WhatsApp, Telegram, Facebook, Instagram, SMS, LINE, TikTok, and an API channel into one team inbox, self-hostable or rented as cloud. The stack is Ruby on Rails with Vue, Sidekiq, Redis, and Postgres 16 with pgvector, and the repo sits near 37377 GitHub stars with v4.17.1 released in August 2026. Self-hosting is genuinely first-class: the Docker guide pulls chatwoot/chatwoot:latest, fetches the production compose file and .env example from the repo, runs db:chatwoot_prepare, then docker compose up -d, and a Linux installer script (cwctl) targets Ubuntu 24.04 with Heroku and DigitalOcean one-click paths documented. Documented sizing is 4GB RAM and 4 cores for up to 10,000 conversations a day, doubling for 20,000. AI arrives as Captain, positioned as the AI agent for customer support: an Assistant that answers first-response questions from your help centre, a Copilot that drafts and translates replies for agents, Memories that keep per-customer notes, reply suggestions, summarization, and content gap detection that surfaces questions your help centre does not answer. Captain is credit-metered, 1 credit per message, with 300,500, and 800 monthly credits on the paid cloud tiers and extra credits at $20 per 1,000; on self-hosted installs it requires Enterprise Edition with a paid plan plus your own OpenAI API key. Cloud pricing per agent per month billed annually is $0 (Hacker, 2 agents, 500 conversations), $19 (Startups), $39 (Business), and $99 (Enterprise with SSO and audit logs). Documented integrations are thinner than our earlier record claimed: Slack, Linear, Dialogflow, Google Translate, Cloudflare RealtimeKit, and LeadSquared are live, with Shopify and HubSpot listed for Q4 2026, so plan on the REST API and webhooks for the rest.",
+   "description": "Chatwoot is an open-source customer engagement platform that folds website live chat, email, WhatsApp, Telegram, Facebook, Instagram, SMS, LINE, TikTok, and an API channel into one team inbox, self-hostable or rented as cloud. The stack is Ruby on Rails with Vue, Sidekiq, Redis, and Postgres 16 with pgvector, and the repo sits near {stars:chatwoot} GitHub stars with v4.17.1 released in August 2026. Self-hosting is genuinely first-class: the Docker guide pulls chatwoot/chatwoot:latest, fetches the production compose file and .env example from the repo, runs db:chatwoot_prepare, then docker compose up -d, and a Linux installer script (cwctl) targets Ubuntu 24.04 with Heroku and DigitalOcean one-click paths documented. Documented sizing is 4GB RAM and 4 cores for up to 10,000 conversations a day, doubling for 20,000. AI arrives as Captain, positioned as the AI agent for customer support: an Assistant that answers first-response questions from your help centre, a Copilot that drafts and translates replies for agents, Memories that keep per-customer notes, reply suggestions, summarization, and content gap detection that surfaces questions your help centre does not answer. Captain is credit-metered, 1 credit per message, with 300,500, and 800 monthly credits on the paid cloud tiers and extra credits at $20 per 1,000; on self-hosted installs it requires Enterprise Edition with a paid plan plus your own OpenAI API key. Cloud pricing per agent per month billed annually is $0 (Hacker, 2 agents, 500 conversations), $19 (Startups), $39 (Business), and $99 (Enterprise with SSO and audit logs). Documented integrations are thinner than our earlier record claimed: Slack, Linear, Dialogflow, Google Translate, Cloudflare RealtimeKit, and LeadSquared are live, with Shopify and HubSpot listed for Q4 2026, so plan on the REST API and webhooks for the rest.",
    "seo_description": "Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Free to self-host; no licence fee.",
    "deep_dive": {
     "install": [
@@ -1226,7 +1226,7 @@
     "best_for": "Technical support and success teams that want a self-hosted inbox across web chat, WhatsApp, email, and social DMs without per-seat SaaS costs, and that can run Rails, Postgres, and Redis themselves. The API, webhooks, and agent bots make it a reasonable base for custom support tooling.",
     "not_for": "Teams that expect a broad native integration catalog out of the box (six integrations are live; Shopify and HubSpot are roadmap items for Q4 2026), and non-technical teams that want AI features without an OpenAI key: Captain on self-hosted requires Enterprise Edition with a paid plan.",
     "hands_on": [
-     "Researched from the repository, developers.chatwoot.com, and chatwoot.com (September 2026). Not a hands-on review. The repo is healthy: 37377 GitHub stars, v4.17.1 released August 27, 2026, and a commit log that has not slowed since the 2019 open-sourcing.",
+     "Researched from the repository, developers.chatwoot.com, and chatwoot.com (September 2026). Not a hands-on review. The repo is healthy: {stars:chatwoot} GitHub stars, v4.17.1 released August 27, 2026, and a commit log that has not slowed since the 2019 open-sourcing.",
      "The pricing correction is significant. Our record listed Hacker at $19/month and Startups at $49/month, and both are wrong against the current page: the ladder is Hacker at $0 (2 agents, 500 conversations a month, live chat only), Startups at $19, Business at $39, and Enterprise at $99, all per agent per month billed annually, with conversation retention rising from 30 days to 1, 2, then 3 years. The self-hosted page mirrors it with Community Edition free, Premium Support at $19, and Enterprise Edition at $99 per agent monthly.",
      "The license needs qualifying too. The LICENSE file grants MIT Expat to content outside named directories and states that everything under the enterprise/ directory follows enterprise/LICENSE, which is why GitHub reports the repo license as NOASSERTION rather than MIT. Calling the whole project MIT, as we did, overstates it: the community edition is MIT, and the AI and premium features live behind the enterprise directory and its paid licence.",
      "Two data fixes follow from that. Our AI list included sentiment analysis, which appears nowhere in the Captain documentation, and auto-replies, which is not an official feature name; the documented set is Assistant, Copilot, Memories, reply suggestions, summarization, and content gap detection, with label suggestions and audio transcription also consuming credits. Our integration list named WhatsApp and Telegram, which are channels rather than integrations, plus Zapier, Salesforce, Google Analytics, and HubSpot, none of which appear on the live integrations page: the shipped list is Slack, Linear, Dialogflow, Google Translate, Cloudflare RealtimeKit, and LeadSquared.",
@@ -1249,8 +1249,8 @@
     ]
    },
    "paid_from": 19,
-   "github_forks": 9094,
-   "github_checked": "2026-10-01",
+   "github_forks": 9103,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/chatwoot/"
   },
@@ -1285,7 +1285,7 @@
     "Pinterest Ads"
    ],
    "github_repo": "AgriciDaniel/claude-ads",
-   "github_stars": 9659,
+   "github_stars": 9670,
    "open_source": true,
    "api_available": true,
    "founded": 2025,
@@ -1302,8 +1302,8 @@
     "verdict": "Niche but interesting for technical teams that want model-drafted ad copy inside their Git workflow."
    },
    "license": "MIT",
-   "github_forks": 1428,
-   "github_checked": "2026-10-01",
+   "github_forks": 1436,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/claude-ads/"
   },
@@ -1331,7 +1331,7 @@
     "Lighthouse"
    ],
    "github_repo": "AgriciDaniel/claude-seo",
-   "github_stars": 18058,
+   "github_stars": 18136,
    "open_source": true,
    "api_available": true,
    "founded": "2026",
@@ -1481,8 +1481,8 @@
     "hands_on_verified": true
    },
    "license": "MIT",
-   "github_forks": 2653,
-   "github_checked": "2026-10-01",
+   "github_forks": 2665,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/claude-seo/"
   },
@@ -1600,7 +1600,7 @@
     "Gemini"
    ],
    "github_repo": "AgriciDaniel/codex-seo",
-   "github_stars": 771,
+   "github_stars": 772,
    "open_source": false,
    "api_available": true,
    "founded": 2025,
@@ -1618,7 +1618,7 @@
    },
    "license": "proprietary",
    "github_forks": 111,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/codex-seo/"
   },
@@ -1894,7 +1894,7 @@
     "MCP"
    ],
    "github_repo": "melgarafael/DeskcommCRM",
-   "github_stars": 4313,
+   "github_stars": 4350,
    "open_source": true,
    "api_available": true,
    "hq": "Brazil",
@@ -1903,8 +1903,8 @@
    "date_updated": "2026-09-14",
    "description": "DeskcommCRM is a Brazilian open-source project that packages a WhatsApp sales CRM with AI agents that answer customers, qualify leads, and move deals through a funnel. It is MIT licensed, self-hosted, and pitched as the open alternative to Kommo, Octadesk, and Intercom for businesses that sell by chat. It started as an ecommerce CRM and the community dragged it into clinics, real estate, infoproducts, and agencies; funnel vocabulary is configurable per pipeline, so a lead can become a \"patient\" or a \"buyer\" without forking the code.\n\nThe AI work is more built-out than most repos at this star count. Agents retrieve from a per-tenant knowledge base (RAG on Postgres pgvector), so answers come from your catalog and policies instead of model imagination. Every outbound message passes seven checks before sending: unsubscribe status, LGPD rules, anti-ban throttling, text variation, deterministic and semantic promise detection, and an automation disclosure. When the agent is about to promise a 24-hour delivery you do not offer, the check blocks it and logs what it would have said. Handoff to a human comes with a summary of the conversation rather than the raw transcript. Resolved conversations feed back into the knowledge base, and the system proposes prompt improvements to itself that a human has to approve. The whole CRM is exposed over MCP, so external agents can operate it too. You pick the AI provider at install (OpenRouter, Anthropic, OpenAI, or Google) and can swap it per subsystem later, with a spending cap per organization.\n\nPricing is the easy part: there is none. The full product is free under MIT, with no paid tier and no locked features, and agencies may host it for clients and charge for that. What you pay for is infrastructure: a VPS (4 GB RAM recommended; the stack boots on 2 GB but runs tight at 7 containers, and each WhatsApp session costs around 150 MB), a Supabase project for Postgres, auth, and storage, plus your own AI API keys. Installation is one script that generates secrets, applies the schema, and sets up the cron jobs the automations depend on, and updates back up the database first and roll back automatically if the new version comes up broken. The update path is tested in CI, which is more than most commercial vendors can say.\n\nThe closest comparison in this directory is WaCRM, another self-hosted Supabase-based WhatsApp CRM at a similar star count. WaCRM builds only on the official Meta Cloud API and calls itself a template; DeskcommCRM supports both the official API and QR-code connection through WAHA (faster to start, multi-number, with anti-ban throttling), and adds automation rules, RBAC, multi-tenancy with RLS isolation tests, and LGPD tooling. Against hosted players like ManyChat or Chatfuel the trade is the familiar one: you own the data and skip per-contact pricing, but you run the server. It is sales-first, unlike Chatwoot, which is support-first.\n\nTwo cautions. Documentation and community are Brazilian-Portuguese first (English and Spanish READMEs exist, but the depth is in Portuguese), and the project leans heavily on one maintainer. The QR-code WhatsApp connection is also unofficial, which is great for getting started and a ban risk the official Meta channel does not carry. If you want a polished SaaS or your team cannot operate Docker, stay with Kommo or ManyChat. If you sell through WhatsApp and want the whole operation on your own server, this is the most complete open option right now.",
    "license": "MIT",
-   "github_forks": 1090,
-   "github_checked": "2026-10-01",
+   "github_forks": 1116,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/deskcommcrm/"
   },
@@ -1976,7 +1976,7 @@
    "status": "active",
    "date_added": "2026-08-21",
    "date_updated": "2026-09-06",
-   "description": "Django CRM, sold hosted as Bottle CRM, is an open-source, multi-tenant CRM built on Django REST Framework with a Svelte 5 and SvelteKit frontend and a Flutter app for iOS and Android, all sharing one backend and one documented REST API. It covers leads, accounts, contacts, opportunities, support cases, tasks, and invoices, and the helpdesk is a real one: SLA timers, approvals, escalations, macros, and a knowledge base rather than a ticket list. The engineering decision that defines it is PostgreSQL Row-Level Security. Tenant isolation is enforced in the database through an app.current_org session variable, so one deployment can serve a startup or hundreds of organizations, and the docs are blunt that SQLite cannot run the application because RLS has no SQLite equivalent. The agent story is unusual for an open-source CRM and worth reading before you plan anything: the project shipped an MCP server at /mcp and then removed it, on the stated grounds that it covered eight entities and added nothing the REST API did not already do. Instead you mint a personal access token, stored only as a SHA-256 hash and shown once, point Claude, Cursor, or Codex at the OpenAPI 3 schema generated by drf-spectacular, and the agent works as a normal API client that inherits your role, org, and RLS scope. Two caveats the docs state plainly: the scopes field on tokens exists but nothing enforces it yet, so a token equals that user's full access, and invoice PDF generation runs synchronously through WeasyPrint. Licensing is MIT with no per-seat pricing, user caps, or feature paywalls. Requirements are Python 3.12 or later, Django 6.1 or later, PostgreSQL 16, Redis 7, and Node 24. The community is small at around 2,400 stars, with MicroPyramid as the commercial backer. Pick it for a Django codebase you can extend; the marketing surface is campaign basics, not automation.",
+   "description": "Django CRM, sold hosted as Bottle CRM, is an open-source, multi-tenant CRM built on Django REST Framework with a Svelte 5 and SvelteKit frontend and a Flutter app for iOS and Android, all sharing one backend and one documented REST API. It covers leads, accounts, contacts, opportunities, support cases, tasks, and invoices, and the helpdesk is a real one: SLA timers, approvals, escalations, macros, and a knowledge base rather than a ticket list. The engineering decision that defines it is PostgreSQL Row-Level Security. Tenant isolation is enforced in the database through an app.current_org session variable, so one deployment can serve a startup or hundreds of organizations, and the docs are blunt that SQLite cannot run the application because RLS has no SQLite equivalent. The agent story is unusual for an open-source CRM and worth reading before you plan anything: the project shipped an MCP server at /mcp and then removed it, on the stated grounds that it covered eight entities and added nothing the REST API did not already do. Instead you mint a personal access token, stored only as a SHA-256 hash and shown once, point Claude, Cursor, or Codex at the OpenAPI 3 schema generated by drf-spectacular, and the agent works as a normal API client that inherits your role, org, and RLS scope. Two caveats the docs state plainly: the scopes field on tokens exists but nothing enforces it yet, so a token equals that user's full access, and invoice PDF generation runs synchronously through WeasyPrint. Licensing is MIT with no per-seat pricing, user caps, or feature paywalls. Requirements are Python 3.12 or later, Django 6.1 or later, PostgreSQL 16, Redis 7, and Node 24. The community is small at around {stars:django-crm} stars, with MicroPyramid as the commercial backer. Pick it for a Django codebase you can extend; the marketing surface is campaign basics, not automation.",
    "deep_dive": {
     "hands_on": [
      "Assessed from the repository and its MkDocs documentation, which publishes to Read the Docs, rather than a running instance. The docs are unusually candid for a commercially backed project: they name the removed MCP server, the unenforced token scopes, and the fact that no benchmarked sizing guide exists rather than inventing one.",
@@ -2044,7 +2044,7 @@
     "Dolistore (1,000+ addons)"
    ],
    "github_repo": "Dolibarr/dolibarr",
-   "github_stars": 7675,
+   "github_stars": 7678,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -2087,7 +2087,7 @@
    },
    "license": "GPL-3.0",
    "github_forks": 3547,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/dolibarr/"
   },
@@ -2252,7 +2252,7 @@
     "MCP"
    ],
    "github_repo": "CosmoBlk/email-marketing-bible",
-   "github_stars": 321,
+   "github_stars": 322,
    "open_source": true,
    "api_available": true,
    "founded": 2026,
@@ -2271,7 +2271,7 @@
    "license": "MIT",
    "kind": "Agent Skill",
    "github_forks": 39,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/email-marketing-bible/"
   },
@@ -2288,7 +2288,7 @@
    "ai_features": [],
    "integrations": [],
    "github_repo": "espocrm/espocrm",
-   "github_stars": 3430,
+   "github_stars": 3432,
    "last_release": "10.0.7 (2026-09-03)",
    "open_source": true,
    "api_available": true,
@@ -2335,8 +2335,8 @@
    "currency": "EUR",
    "license": "AGPL-3.0",
    "paid_from": 12.9,
-   "github_forks": 986,
-   "github_checked": "2026-10-01",
+   "github_forks": 987,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/espocrm/"
   },
   {
@@ -2364,7 +2364,7 @@
     "eve.dev"
    ],
    "github_repo": "vercel-labs/marketing-team-eve-template",
-   "github_stars": 445,
+   "github_stars": 446,
    "open_source": true,
    "api_available": true,
    "founded": 2026,
@@ -2382,8 +2382,8 @@
    },
    "license": "MIT",
    "kind": "Utility",
-   "github_forks": 26,
-   "github_checked": "2026-10-01",
+   "github_forks": 27,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/eve-marketing-team/"
   },
@@ -2399,7 +2399,7 @@
    "ai_features": [],
    "integrations": [],
    "github_repo": "ever-co/ever-gauzy",
-   "github_stars": 8144,
+   "github_stars": 8153,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -2442,8 +2442,8 @@
    },
    "paid_from": 17,
    "license": "AGPL-3.0",
-   "github_forks": 1197,
-   "github_checked": "2026-10-01",
+   "github_forks": 1198,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/ever-gauzy/"
   },
@@ -2465,7 +2465,7 @@
     "Meta Lead Ads"
    ],
    "github_repo": "frappe/crm",
-   "github_stars": 3669,
+   "github_stars": 3692,
    "open_source": true,
    "api_available": false,
    "status": "active",
@@ -2512,8 +2512,8 @@
    },
    "paid_from": 5,
    "license": "AGPL-3.0",
-   "github_forks": 1483,
-   "github_checked": "2026-10-01",
+   "github_forks": 1492,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/frappe-crm/"
   },
@@ -2684,7 +2684,7 @@
     "Unsplash"
    ],
    "github_repo": "TryGhost/Ghost",
-   "github_stars": 55468,
+   "github_stars": 55475,
    "open_source": true,
    "api_available": true,
    "founded": 2013,
@@ -2692,7 +2692,7 @@
    "status": "active",
    "date_added": "2026-07-27",
    "date_updated": "2026-08-28",
-   "description": "Founded in 2013, headquartered in Singapore, and maintained as an MIT-licensed open-source project, Ghost gives publishers, creators, and media teams a single platform for websites, newsletters, and paid memberships. It combines content management, audience analytics, and subscription billing in one system, reducing the need to connect separate CMS, email, and payment tools. The self-hosted version is free under MIT, while managed Cloud plans include Starter at $9, Creator at $29, Team at $79, and Business at $199 per month.\n\nKey differentiators include a focused editing experience, native memberships and payments through Stripe, API access, and integrations with Zapier, Slack, Google Analytics, Mailchimp, Unsplash, and WordPress import. Its AI capabilities cover an AI writing assistant, AI content suggestions, and AI newsletter optimization, which can support drafting, editing, and distribution without a separate AI content stack. The open-source codebase, reflected by more than 55468 GitHub stars, allows organizations to self-host, customize workflows, and evaluate the platform's data handling directly.\n\nCompared with commercial alternatives such as Substack, WordPress.com, or a Webflow-plus-email stack, Ghost offers a more self-contained publishing and monetization workflow while still allowing ownership through self-hosting. It is less aimed at complex enterprise web builds or large e-commerce operations, but it provides a practical balance of flexibility, editorial simplicity, and audience monetization. Ghost is best for independent publishers, newsletter operators, membership sites, and small content teams that want an open-source platform with built-in subscriptions, AI-assisted publishing, and transparent pricing.",
+   "description": "Founded in 2013, headquartered in Singapore, and maintained as an MIT-licensed open-source project, Ghost gives publishers, creators, and media teams a single platform for websites, newsletters, and paid memberships. It combines content management, audience analytics, and subscription billing in one system, reducing the need to connect separate CMS, email, and payment tools. The self-hosted version is free under MIT, while managed Cloud plans include Starter at $9, Creator at $29, Team at $79, and Business at $199 per month.\n\nKey differentiators include a focused editing experience, native memberships and payments through Stripe, API access, and integrations with Zapier, Slack, Google Analytics, Mailchimp, Unsplash, and WordPress import. Its AI capabilities cover an AI writing assistant, AI content suggestions, and AI newsletter optimization, which can support drafting, editing, and distribution without a separate AI content stack. The open-source codebase, reflected by more than {stars:ghost} GitHub stars, allows organizations to self-host, customize workflows, and evaluate the platform's data handling directly.\n\nCompared with commercial alternatives such as Substack, WordPress.com, or a Webflow-plus-email stack, Ghost offers a more self-contained publishing and monetization workflow while still allowing ownership through self-hosting. It is less aimed at complex enterprise web builds or large e-commerce operations, but it provides a practical balance of flexibility, editorial simplicity, and audience monetization. Ghost is best for independent publishers, newsletter operators, membership sites, and small content teams that want an open-source platform with built-in subscriptions, AI-assisted publishing, and transparent pricing.",
    "seo_description": "Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Free to self-host; no licence fee.",
    "deep_dive": {
     "hands_on": [
@@ -2703,8 +2703,8 @@
    },
    "paid_from": 9,
    "license": "MIT",
-   "github_forks": 11987,
-   "github_checked": "2026-10-01",
+   "github_forks": 11988,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/ghost/"
   },
@@ -2739,7 +2739,7 @@
     "Gemini CLI"
    ],
    "github_repo": "irinabuht12-oss/google-meta-ads-ga4-mcp",
-   "github_stars": 3227,
+   "github_stars": 3243,
    "open_source": true,
    "api_available": true,
    "founded": 2026,
@@ -2776,7 +2776,7 @@
    "license": "MIT",
    "kind": "Utility",
    "github_forks": 365,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/"
   },
@@ -3083,7 +3083,7 @@
    "ai_features": [],
    "integrations": [],
    "github_repo": "idurar/idurar-erp-crm",
-   "github_stars": 8841,
+   "github_stars": 8842,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -3130,7 +3130,7 @@
    "paid_from": 5000,
    "currency": "USD",
    "github_forks": 3142,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "billing": "one-time",
    "page_url": "https://martechsignal.com/tools/idurar-erp-crm/"
   },
@@ -3312,7 +3312,7 @@
    ],
    "integrations": [],
    "github_repo": "krayin/laravel-crm",
-   "github_stars": 23965,
+   "github_stars": 23964,
    "last_release": "v2.2.5 (2026-08-04)",
    "open_source": true,
    "api_available": true,
@@ -3357,8 +3357,8 @@
    "license": "MIT",
    "paid_from": 1799,
    "currency": "USD",
-   "github_forks": 1647,
-   "github_checked": "2026-10-01",
+   "github_forks": 1648,
+   "github_checked": "2026-10-02",
    "billing": "one-time",
    "page_url": "https://martechsignal.com/tools/krayin-crm/"
   },
@@ -3393,7 +3393,7 @@
     "GitHub"
    ],
    "github_repo": "langchain-ai/langchain",
-   "github_stars": 147332,
+   "github_stars": 147371,
    "open_source": true,
    "api_available": true,
    "founded": 2022,
@@ -3411,8 +3411,8 @@
    },
    "paid_from": 39,
    "license": "MIT",
-   "github_forks": 24670,
-   "github_checked": "2026-10-01",
+   "github_forks": 24679,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/langchain/"
   },
@@ -3438,18 +3438,18 @@
    "status": "active",
    "date_added": "2026-07-27",
    "date_updated": "2026-08-28",
-   "description": "Designed as an open-source customer engagement and product onboarding platform, Laudspeaker helps teams automate lifecycle messaging without locking their data into a proprietary stack. It supports behavioral triggers, customer journey automation, and AI-powered messaging, allowing marketers and product teams to build sequences such as welcome flows, activation campaigns, re-engagement emails, in-app messages, and lifecycle nudges based on user actions. Because the platform is self-hostable and has an active GitHub presence with more than 2,626 stars, engineering teams can inspect the codebase, extend functionality, and connect it directly to their own data infrastructure through its API.\n\nThe platform is aimed at startups, technical growth teams, and companies that want more control over their marketing automation stack than a closed SaaS tool typically provides. Its open-source model is the main differentiator: while commercial alternatives such as Braze offer polished hosted infrastructure and enterprise support, Laudspeaker offers a lower-cost entry point and greater flexibility for teams willing to manage deployment and maintenance. Pricing includes a free open-source self-hosted option, with cloud plans available for organizations that prefer managed hosting. AI capabilities are practical rather than experimental, focusing on message generation, trigger-based automation, and journey orchestration. Best for technical marketing and product teams that need an open-source alternative to Braze for customer engagement, onboarding automation, and behavioral messaging.",
+   "description": "Designed as an open-source customer engagement and product onboarding platform, Laudspeaker helps teams automate lifecycle messaging without locking their data into a proprietary stack. It supports behavioral triggers, customer journey automation, and AI-powered messaging, allowing marketers and product teams to build sequences such as welcome flows, activation campaigns, re-engagement emails, in-app messages, and lifecycle nudges based on user actions. Because the platform is self-hostable and has an active GitHub presence with more than {stars:laudspeaker} stars, engineering teams can inspect the codebase, extend functionality, and connect it directly to their own data infrastructure through its API.\n\nThe platform is aimed at startups, technical growth teams, and companies that want more control over their marketing automation stack than a closed SaaS tool typically provides. Its open-source model is the main differentiator: while commercial alternatives such as Braze offer polished hosted infrastructure and enterprise support, Laudspeaker offers a lower-cost entry point and greater flexibility for teams willing to manage deployment and maintenance. Pricing includes a free open-source self-hosted option, with cloud plans available for organizations that prefer managed hosting. AI capabilities are practical rather than experimental, focusing on message generation, trigger-based automation, and journey orchestration. Best for technical marketing and product teams that need an open-source alternative to Braze for customer engagement, onboarding automation, and behavioral messaging.",
    "seo_description": "Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Free to self-host; no licence fee.",
    "deep_dive": {
     "hands_on": [
-     "Laudspeaker is the open-source Braze alternative: self-hosted customer engagement with behavioral triggers, journey automation, welcome and activation flows, re-engagement emails, and in-app messages, with data that stays yours and an API your engineers can extend. More than 2,626 stars and an active repo keep it alive, and cloud plans exist if you prefer managed hosting over running it yourself. The onboarding flows cover the standard product-led growth playbook out of the box.",
+     "Laudspeaker is the open-source Braze alternative: self-hosted customer engagement with behavioral triggers, journey automation, welcome and activation flows, re-engagement emails, and in-app messages, with data that stays yours and an API your engineers can extend. More than {stars:laudspeaker} stars and an active repo keep it alive, and cloud plans exist if you prefer managed hosting over running it yourself. The onboarding flows cover the standard product-led growth playbook out of the box.",
      "The open-source bargain applies: deployment, maintenance, and reliability land on your team, and the message templates and channel coverage are thinner than Braze's catalog. It suits technical growth teams and privacy-constrained companies where lock-in is the bigger risk than ops effort. Non-technical marketers will bounce off the setup, and enterprises that need support should stay hosted. Judge your team's ability to run services before choosing self-hosted over cloud."
     ],
     "verdict": "The open-source Braze alternative for technical growth teams that want data ownership. Others go hosted."
    },
    "license": "MIT",
-   "github_forks": 206,
-   "github_checked": "2026-10-01",
+   "github_forks": 205,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/laudspeaker/"
   },
@@ -3541,7 +3541,7 @@
     "WordPress"
    ],
    "github_repo": "knadh/listmonk",
-   "github_stars": 23640,
+   "github_stars": 23652,
    "open_source": true,
    "api_available": true,
    "founded": 2019,
@@ -3549,7 +3549,7 @@
    "status": "active",
    "date_added": "2026-07-27",
    "date_updated": "2026-08-28",
-   "description": "Built as an open-source, self-hosted mailing list manager, Listmonk gives marketing teams a lightweight way to run newsletters, subscriber lists, and email campaigns without relying on a hosted SaaS platform. Its Go backend is designed for speed and low operational overhead, while PostgreSQL handles subscriber and campaign data. The project is free under the AGPL license, with no paid tiers, and it exposes an API for custom workflows. It also supports practical integrations such as SMTP providers, Zapier, and WordPress, making it possible to connect signup forms, automation, and existing site infrastructure.\n\nListmonk is a good fit for technical marketers, developers, and privacy-conscious organizations that want direct control over email infrastructure and subscriber data. Founded in 2019 and based in Bangalore, India, the project has attracted strong open-source interest, with 23640 GitHub stars. Its AI capabilities are practical rather than central: AI-assisted template editing can help refine email layouts and copy, while AI campaign analytics can support performance review and optimization. These features sit alongside standard campaign tools such as segmentation, templates, and reporting.\n\nCompared with commercial alternatives such as Mailchimp, Campaign Monitor, or ActiveCampaign, Listmonk trades managed convenience for ownership, lower recurring costs, and greater flexibility. Teams will need to handle hosting, deliverability configuration, and maintenance themselves, so it is less suited to users who want a fully managed service. It is best for technically capable teams, indie publishers, SaaS companies, and nonprofits that want an open-source email platform with API access, self-hosted data control, and optional AI assistance for campaign production and analysis.",
+   "description": "Built as an open-source, self-hosted mailing list manager, Listmonk gives marketing teams a lightweight way to run newsletters, subscriber lists, and email campaigns without relying on a hosted SaaS platform. Its Go backend is designed for speed and low operational overhead, while PostgreSQL handles subscriber and campaign data. The project is free under the AGPL license, with no paid tiers, and it exposes an API for custom workflows. It also supports practical integrations such as SMTP providers, Zapier, and WordPress, making it possible to connect signup forms, automation, and existing site infrastructure.\n\nListmonk is a good fit for technical marketers, developers, and privacy-conscious organizations that want direct control over email infrastructure and subscriber data. Founded in 2019 and based in Bangalore, India, the project has attracted strong open-source interest, with {stars:listmonk} GitHub stars. Its AI capabilities are practical rather than central: AI-assisted template editing can help refine email layouts and copy, while AI campaign analytics can support performance review and optimization. These features sit alongside standard campaign tools such as segmentation, templates, and reporting.\n\nCompared with commercial alternatives such as Mailchimp, Campaign Monitor, or ActiveCampaign, Listmonk trades managed convenience for ownership, lower recurring costs, and greater flexibility. Teams will need to handle hosting, deliverability configuration, and maintenance themselves, so it is less suited to users who want a fully managed service. It is best for technically capable teams, indie publishers, SaaS companies, and nonprofits that want an open-source email platform with API access, self-hosted data control, and optional AI assistance for campaign production and analysis.",
    "seo_description": "Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Free to self-host; no licence fee.",
    "deep_dive": {
     "hands_on": [
@@ -3559,8 +3559,8 @@
     "verdict": "The strongest self-hosted mailing platform in this catalog; bring your own forms and workflows."
    },
    "license": "AGPL-3.0",
-   "github_forks": 2637,
-   "github_checked": "2026-10-01",
+   "github_forks": 2639,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/listmonk/"
   },
@@ -3662,7 +3662,7 @@
     "MCP"
    ],
    "github_repo": "macro-inc/macro",
-   "github_stars": 4499,
+   "github_stars": 4515,
    "open_source": true,
    "api_available": true,
    "founded": 2020,
@@ -3708,8 +3708,8 @@
    "last_release": "v2026.9.7.0 (2026-09-07)",
    "paid_from": 40,
    "license": "AGPL-3.0",
-   "github_forks": 435,
-   "github_checked": "2026-10-01",
+   "github_forks": 436,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/macro/"
   },
@@ -3867,8 +3867,8 @@
      ]
     ]
    },
-   "github_forks": 70,
-   "github_checked": "2026-10-01",
+   "github_forks": 71,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/maizzle/"
   },
@@ -4112,7 +4112,7 @@
     "Cookiebot"
    ],
    "github_repo": "matomo-org/matomo",
-   "github_stars": 21914,
+   "github_stars": 21919,
    "open_source": true,
    "api_available": true,
    "founded": 2007,
@@ -4162,8 +4162,8 @@
    "currency": "EUR",
    "license": "GPL-3.0",
    "paid_from": 22,
-   "github_forks": 2902,
-   "github_checked": "2026-10-01",
+   "github_forks": 2903,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/matomo/"
   },
   {
@@ -4190,7 +4190,7 @@
     "Zapier"
    ],
    "github_repo": "mautic/mautic",
-   "github_stars": 10636,
+   "github_stars": 10664,
    "open_source": true,
    "api_available": true,
    "founded": 2014,
@@ -4198,7 +4198,7 @@
    "status": "active",
    "date_added": "2026-07-27",
    "date_updated": "2026-09-07",
-   "description": "Mautic is the longest-running open-source marketing automation platform: email, landing pages, forms, segments, campaigns, contact scoring, and multi-channel messaging across email, SMS, web notifications, and mobile push, all self-hosted under GPL-3.0. Started in 2014, it has been community-governed since Acquia acquired Mautic Inc. in May 2019; the trademark is now held by fiscal host Open Source Collective and operations run through an elected Mautic Council, with Acquia and Dropsolid the largest funders. Around 10636 GitHub stars, eleven bundled plugin packages, and translations into 70 languages reflect that community. The current line is 7.x (7.2.0 shipped in September 2026) and its requirements are serious: PHP 8.2 or newer, minimums raised to MySQL 8.4 and MariaDB 10.11 in the 7.0 release, npm for asset builds, mandatory cron jobs for segments, campaigns, and the email queue, and command-line-only updates, since browser updating was removed in 5.0. Shared hosting is explicitly discouraged. Campaigns, segments, and points-based lead scoring are deterministic rule engines; there is no AI anywhere, and the project's AI Manifesto states plainly that it hosts or maintains no AI services and remains AI-agnostic, so any Mautic AI pitch is a third-party layer rather than a product feature. Integrations are plugin-based: Salesforce, HubSpot, Pipedrive, Zoho, and Dynamics among CRMs, plus WordPress, Twilio, Mailchimp, Gmail and Outlook connectors, Google Tag Manager, Amazon S3, and Zapier. The project's own comparison page positions Mautic for organizations whose automation grows more complex over time and that need control over data governance and infrastructure with predictable costs rather than contact-based fees, while conceding HubSpot for teams that want a polished hosted experience. The software is free; money enters through partner Dropsolid's managed hosting (from € 247.50 a month, 14-day trial, no card) and paid Extended Long Term Support for older versions. The honest costs are operational: upgrades, backups, deliverability, and cron management are yours, and campaigns cannot be moved between instances.",
+   "description": "Mautic is the longest-running open-source marketing automation platform: email, landing pages, forms, segments, campaigns, contact scoring, and multi-channel messaging across email, SMS, web notifications, and mobile push, all self-hosted under GPL-3.0. Started in 2014, it has been community-governed since Acquia acquired Mautic Inc. in May 2019; the trademark is now held by fiscal host Open Source Collective and operations run through an elected Mautic Council, with Acquia and Dropsolid the largest funders. Around {stars:mautic} GitHub stars, eleven bundled plugin packages, and translations into 70 languages reflect that community. The current line is 7.x (7.2.0 shipped in September 2026) and its requirements are serious: PHP 8.2 or newer, minimums raised to MySQL 8.4 and MariaDB 10.11 in the 7.0 release, npm for asset builds, mandatory cron jobs for segments, campaigns, and the email queue, and command-line-only updates, since browser updating was removed in 5.0. Shared hosting is explicitly discouraged. Campaigns, segments, and points-based lead scoring are deterministic rule engines; there is no AI anywhere, and the project's AI Manifesto states plainly that it hosts or maintains no AI services and remains AI-agnostic, so any Mautic AI pitch is a third-party layer rather than a product feature. Integrations are plugin-based: Salesforce, HubSpot, Pipedrive, Zoho, and Dynamics among CRMs, plus WordPress, Twilio, Mailchimp, Gmail and Outlook connectors, Google Tag Manager, Amazon S3, and Zapier. The project's own comparison page positions Mautic for organizations whose automation grows more complex over time and that need control over data governance and infrastructure with predictable costs rather than contact-based fees, while conceding HubSpot for teams that want a polished hosted experience. The software is free; money enters through partner Dropsolid's managed hosting (from € 247.50 a month, 14-day trial, no card) and paid Extended Long Term Support for older versions. The honest costs are operational: upgrades, backups, deliverability, and cron management are yours, and campaigns cannot be moved between instances.",
    "seo_description": "Mautic: Open-source marketing automation platform with email, campaigns, and lead management. Free to self-host; no licence fee.",
    "deep_dive": {
     "install": [
@@ -4236,8 +4236,8 @@
    "currency": "EUR",
    "license": "GPL-3.0",
    "paid_from": 247.5,
-   "github_forks": 3483,
-   "github_checked": "2026-10-01",
+   "github_forks": 3490,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/mautic/"
   },
   {
@@ -4336,7 +4336,7 @@
    "ai_features": [],
    "integrations": [],
    "github_repo": "monicahq/monica",
-   "github_stars": 25386,
+   "github_stars": 25391,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -4398,8 +4398,8 @@
    "license": "AGPL-3.0",
    "paid_from": 9,
    "currency": "USD",
-   "github_forks": 2613,
-   "github_checked": "2026-10-01",
+   "github_forks": 2612,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/monica/"
   },
   {
@@ -4466,7 +4466,7 @@
     "HubSpot"
    ],
    "github_repo": "n8n-io/n8n",
-   "github_stars": 206395,
+   "github_stars": 206478,
    "open_source": true,
    "api_available": true,
    "founded": 2019,
@@ -4474,7 +4474,7 @@
    "status": "active",
    "date_added": "2026-07-27",
    "date_updated": "2026-09-27",
-   "description": "Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. Its library of more than 400 nodes supports common business tools such as Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, while API access and custom code steps make it possible to extend workflows beyond prebuilt connectors. Founded in 2019 and headquartered in Berlin, Germany, it can be deployed in the cloud or self-hosted, giving organizations control over where data runs and how environments are managed.\n\nThe platform's AI capabilities are embedded directly into workflows through AI agent nodes, AI workflow automation, AI data transformation, AI content generation, and AI-powered integrations that can call language models as part of a larger process. This makes it useful not only for routine task automation, but also for building lightweight AI agents, enrichment pipelines, and content operations that combine human review with machine-generated output. Its open-source foundation, reflected in a large GitHub community with more than 206395 GitHub stars, is one of its clearest differentiators, especially for teams that want transparency, self-hosting, and deeper customization than many closed platforms allow.\n\nCompared with commercial automation tools, n8n generally offers more flexibility and control, though it may require more technical setup and ongoing maintenance. Pricing includes a free self-hosted option under a fair-code model, cloud plans starting at €20 per month on Starter and €50 per month on Pro, and custom enterprise pricing. It is best for technically comfortable marketing operations teams, agencies, and AI-focused organizations that want an extensible automation platform with strong AI agent support and the option to self-host.",
+   "description": "Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. Its library of more than 400 nodes supports common business tools such as Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, while API access and custom code steps make it possible to extend workflows beyond prebuilt connectors. Founded in 2019 and headquartered in Berlin, Germany, it can be deployed in the cloud or self-hosted, giving organizations control over where data runs and how environments are managed.\n\nThe platform's AI capabilities are embedded directly into workflows through AI agent nodes, AI workflow automation, AI data transformation, AI content generation, and AI-powered integrations that can call language models as part of a larger process. This makes it useful not only for routine task automation, but also for building lightweight AI agents, enrichment pipelines, and content operations that combine human review with machine-generated output. Its open-source foundation, reflected in a large GitHub community with more than {stars:n8n} GitHub stars, is one of its clearest differentiators, especially for teams that want transparency, self-hosting, and deeper customization than many closed platforms allow.\n\nCompared with commercial automation tools, n8n generally offers more flexibility and control, though it may require more technical setup and ongoing maintenance. Pricing includes a free self-hosted option under a fair-code model, cloud plans starting at €20 per month on Starter and €50 per month on Pro, and custom enterprise pricing. It is best for technically comfortable marketing operations teams, agencies, and AI-focused organizations that want an extensible automation platform with strong AI agent support and the option to self-host.",
    "seo_description": "n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. Free to self-host; no licence fee.",
    "deep_dive": {
     "hands_on": [
@@ -4493,8 +4493,8 @@
    "paid_from": 20,
    "date_verified": "2026-09-27",
    "currency": "EUR",
-   "github_forks": 60958,
-   "github_checked": "2026-10-01",
+   "github_forks": 60975,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/n8n/"
   },
   {
@@ -4523,7 +4523,7 @@
     "Discord"
    ],
    "github_repo": "YuriCrystal/n8n-marketing-flows",
-   "github_stars": 178,
+   "github_stars": 179,
    "open_source": true,
    "api_available": true,
    "founded": 2026,
@@ -4541,7 +4541,7 @@
    },
    "license": "MIT",
    "github_forks": 51,
-   "github_checked": "2026-09-29",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/n8n-marketing-flows/"
   },
@@ -4564,7 +4564,7 @@
     "Webhooks"
    ],
    "github_repo": "nocobase/nocobase",
-   "github_stars": 24419,
+   "github_stars": 24430,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -4576,7 +4576,7 @@
     "hands_on": [
      "NocoBase is a construction kit, not a finished tool. You define data models first (leads, campaigns, assets, vendors), then assemble pages and workflows around them from blocks. For marketing operations that is the whole appeal: the lead-scoring model, the UTM taxonomy, the approval chain for campaign copy, all of it can match how your team actually works instead of bending to a SaaS vendor's fixed schema. The trade is a steeper start than Airtable-class tools, because someone on the team has to think in data models.",
      "The practical marketing builds we see teams reach for are the unglamorous ones: a lead-routing system that assigns inbound leads by territory and score with a full audit trail, a campaign tracker that joins UTMs, budgets and results in one place, content approval flows with role-based sign-off, or a lightweight marketing data hub sitting between your ad platforms and your CRM. None of these exist as off-the-shelf NocoBase apps; all of them are a few blocks and one workflow away once the data model exists.",
-     "Two things separate NocoBase from most no-code platforms in a marketing stack. First, self-hosting: the core is open source (24419 GitHub stars and active development), so campaign data, consent records and lead history can live inside your own infrastructure, which matters for EU teams with GDPR obligations and for any marketing org tired of per-seat pricing on operational data. Second, the workflow engine runs server-side, so lead routing, enrichment calls and notification chains keep working whether or not a browser is open.",
+     "Two things separate NocoBase from most no-code platforms in a marketing stack. First, self-hosting: the core is open source ({stars:nocobase} GitHub stars and active development), so campaign data, consent records and lead history can live inside your own infrastructure, which matters for EU teams with GDPR obligations and for any marketing org tired of per-seat pricing on operational data. Second, the workflow engine runs server-side, so lead routing, enrichment calls and notification chains keep working whether or not a browser is open.",
      "Version 2.0 adds what NocoBase calls AI employees: assistant-style agents that work on top of the same data models and no-code interface rather than generating an app from a prompt. For marketing use that reads as assisted configuration and Q&A over your own operational data, not a magic app generator. The AI-assisted builder helps with initial scaffolding; the system you end up running is still the one you defined.",
      "This assessment is based on the documented architecture, the plugin ecosystem and the project's public materials. The integration story is API-first (REST API and webhooks in the core, with plugins for data sources and authentication), so connecting a MAP or CRM is standard work, but there are no turnkey marketing connectors in the box. Plan for integration effort the way you would plan for any self-hosted platform."
     ],
@@ -4598,8 +4598,8 @@
      ]
     ]
    },
-   "github_forks": 2899,
-   "github_checked": "2026-10-01",
+   "github_forks": 2900,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/nocobase/"
   },
@@ -4629,13 +4629,13 @@
     "AWS SES / SMTP / MailerSend (paid App Store)"
    ],
    "github_repo": "nocodb/nocodb",
-   "github_stars": 65137,
+   "github_stars": 65151,
    "open_source": true,
    "api_available": true,
    "status": "active",
    "date_added": "2026-09-05",
    "date_updated": "2026-09-07",
-   "description": "NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It is the largest project in this class at 65137 GitHub stars, with calendar-versioned releases (2026.08.2 shipped September 3, 2026). The license comes first: NocoDB is published under the Sustainable Use License, a fair-code, source-available license rather than an OSI-approved one. Internal business use is fine and self-hosting is free with unlimited records and seats, but offering it to others as a hosted service requires a commercial license, so the open source label on the marketing site overstates it. Self-hosting is a one-command job: the docs quickstart brings up a compose stack (NocoDB, a background worker, Postgres, Redis) on port 8080, or you can run the Docker image against an existing Postgres by setting NC_DB. Docs list 2 vCPU and 2 GB RAM as the minimum. For marketing teams the fit is the spreadsheet sprawl that runs campaign ops: content calendars, launch checklists, partner and influencer trackers, budget tables and lead lists, with forms feeding them and webhooks pushing changes into the rest of the stack. Community edition includes the six core views, conditional webhooks with custom payloads, and two workflows per base; timeline, gantt and list views, the AI field types, most integrations (Slack, SES, S3) and sources beyond Postgres and MySQL (SQL Server, Oracle) are paid. Cloud plans run from a free three-user tier through Plus at $12 per seat monthly billed annually to Business at $24 with external database connections and SAML SSO. Compared with NocoBase or Budibase it is much faster to value, and compared with Airtable you trade polish and the integration catalog for ownership and SQL access. This assessment is based on the documented architecture and public materials.",
+   "description": "NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It is the largest project in this class at {stars:nocodb} GitHub stars, with calendar-versioned releases (2026.08.2 shipped September 3, 2026). The license comes first: NocoDB is published under the Sustainable Use License, a fair-code, source-available license rather than an OSI-approved one. Internal business use is fine and self-hosting is free with unlimited records and seats, but offering it to others as a hosted service requires a commercial license, so the open source label on the marketing site overstates it. Self-hosting is a one-command job: the docs quickstart brings up a compose stack (NocoDB, a background worker, Postgres, Redis) on port 8080, or you can run the Docker image against an existing Postgres by setting NC_DB. Docs list 2 vCPU and 2 GB RAM as the minimum. For marketing teams the fit is the spreadsheet sprawl that runs campaign ops: content calendars, launch checklists, partner and influencer trackers, budget tables and lead lists, with forms feeding them and webhooks pushing changes into the rest of the stack. Community edition includes the six core views, conditional webhooks with custom payloads, and two workflows per base; timeline, gantt and list views, the AI field types, most integrations (Slack, SES, S3) and sources beyond Postgres and MySQL (SQL Server, Oracle) are paid. Cloud plans run from a free three-user tier through Plus at $12 per seat monthly billed annually to Business at $24 with external database connections and SAML SSO. Compared with NocoBase or Budibase it is much faster to value, and compared with Airtable you trade polish and the integration catalog for ownership and SQL access. This assessment is based on the documented architecture and public materials.",
    "seo_description": "NocoDB turns any database into an Airtable-style spreadsheet. Self-host free, no per-seat cost. Compare features, pricing & alternatives.",
    "deep_dive": {
     "hands_on": [
@@ -4674,7 +4674,7 @@
    "paid_from": 12,
    "currency": "USD",
    "github_forks": 5079,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/nocodb/"
   },
   {
@@ -4848,7 +4848,7 @@
     "faq_extra": [
      [
       "Is Notifo still maintained?",
-      "Partly, and the distinction matters. Commits continue: the most recent landed in August 2026 (a security fix) and the backend was migrated to .NET 10 in June 2026. But the last tagged release is 1.3.0 from November 2022, and the Docker Hub images under squidex/notifo were last pushed about four years ago, so nothing installable reflects the recent work. With 879 stars and a small maintainer group, treat it as a project you may need to build and patch yourself."
+      "Partly, and the distinction matters. Commits continue: the most recent landed in August 2026 (a security fix) and the backend was migrated to .NET 10 in June 2026. But the last tagged release is 1.3.0 from November 2022, and the Docker Hub images under squidex/notifo were last pushed about four years ago, so nothing installable reflects the recent work. With {stars:notifo} stars and a small maintainer group, treat it as a project you may need to build and patch yourself."
      ],
      [
       "Does Notifo work with SendGrid, Mailgun or Twilio?",
@@ -4900,7 +4900,7 @@
     "Supabase"
    ],
    "github_repo": "Notifuse/notifuse",
-   "github_stars": 2228,
+   "github_stars": 2230,
    "open_source": true,
    "api_available": true,
    "founded": 2025,
@@ -4919,7 +4919,7 @@
    "paid_from": 19,
    "license": "AGPL-3.0",
    "github_forks": 234,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/notifuse/"
   },
@@ -4939,7 +4939,7 @@
    ],
    "integrations": [],
    "github_repo": "open-mercato/open-mercato",
-   "github_stars": 1789,
+   "github_stars": 1792,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -4985,7 +4985,7 @@
    "last_release": "v0.7.0 (2026-08-26)",
    "license": "MIT",
    "github_forks": 432,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/open-mercato/"
   },
@@ -5064,13 +5064,13 @@
     "Claude Code"
    ],
    "github_repo": "eracle/OpenOutreach",
-   "github_stars": 3119,
+   "github_stars": 3121,
    "open_source": true,
    "api_available": false,
    "status": "active",
    "date_added": "2026-07-27",
    "date_updated": "2026-09-07",
-   "description": "OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts the usual cold-email workflow: you do not bring a list. You describe your product and your target market, and the agent finds the people who fit, writes a reason for each one, and emails them from your own mailbox. It is a self-hosted Python CLI installed with two commands, uv tool install openoutreach and then openoutreach, organized as three packages on one Django registry and database: OpenOutFind for discovery, qualification, and CRM, OpenOutSend for the outreach agent, mailbox, and send guards, and OpenOutreach as the wizard that ties them together. Lead discovery runs on BetterContact's Lead Finder, a licensed data provider, with a confidence gate that rations the paid email lookups, which cost one credit per verified work email; a free account comes with 40 credits and no card required. The AI work is split into named steps: an LLM turns your product description into search keywords, another pass qualifies candidates against your ICP and writes the plain-language reason (there is deliberately no score column), and the agent writes each opener while send guards handle the sending window, daily cap, and pacing. A Gaussian Process over profile embeddings that learns from your verdicts is documented as an active experiment that has not been shown to beat random ordering. LLM access is verified at the prompt and accepts OpenAI, Anthropic, or any OpenAI-compatible endpoint; any SMTP or IMAP mailbox with an app password works, and Google Workspace works out of the box. A Claude Code plugin is included, and the same logic ships as a skill for Codex or Cursor. CSV export is shaped for Instantly and Smartlead importers with no column mapping. GPLv3, around 3119 GitHub stars, funded by affiliate links rather than subscriptions.",
+   "description": "OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts the usual cold-email workflow: you do not bring a list. You describe your product and your target market, and the agent finds the people who fit, writes a reason for each one, and emails them from your own mailbox. It is a self-hosted Python CLI installed with two commands, uv tool install openoutreach and then openoutreach, organized as three packages on one Django registry and database: OpenOutFind for discovery, qualification, and CRM, OpenOutSend for the outreach agent, mailbox, and send guards, and OpenOutreach as the wizard that ties them together. Lead discovery runs on BetterContact's Lead Finder, a licensed data provider, with a confidence gate that rations the paid email lookups, which cost one credit per verified work email; a free account comes with 40 credits and no card required. The AI work is split into named steps: an LLM turns your product description into search keywords, another pass qualifies candidates against your ICP and writes the plain-language reason (there is deliberately no score column), and the agent writes each opener while send guards handle the sending window, daily cap, and pacing. A Gaussian Process over profile embeddings that learns from your verdicts is documented as an active experiment that has not been shown to beat random ordering. LLM access is verified at the prompt and accepts OpenAI, Anthropic, or any OpenAI-compatible endpoint; any SMTP or IMAP mailbox with an app password works, and Google Workspace works out of the box. A Claude Code plugin is included, and the same logic ships as a skill for Codex or Cursor. CSV export is shaped for Instantly and Smartlead importers with no column mapping. GPLv3, around {stars:openoutreach} GitHub stars, funded by affiliate links rather than subscriptions.",
    "deep_dive": {
     "install": [
      "Install the CLI with uv tool install openoutreach, then run openoutreach to start the wizard. State lives in ~/.openoutreach.",
@@ -5113,14 +5113,14 @@
    },
    "license": "GPL-3.0",
    "github_forks": 572,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/openoutreach/"
   },
   {
    "name": "OpenSEO",
    "slug": "openseo",
-   "description": "OpenSEO is an open-source, self-hosted SEO platform covering keyword research, rank tracking, competitor insights, backlink analysis, site audits, and AI search visibility, positioned as an alternative to Ahrefs and Semrush. The TypeScript project (repo every-app/open-seo) is MIT-licensed, held around 21981 GitHub stars as of September 2026, and has moved quickly since its February 2026 debut: AI Visibility and Prompt Explorer landed in April, an MCP server in May, agent skills and multi-project support in June, Local SEO in August, and on-demand SERP depth on September 2. Two deployment paths are documented. Docker is described as best for testing: clone the repo, copy .env.example to .env, and run docker compose up -d, which serves on port 3001 with authentication disabled, so it belongs behind your own reverse proxy or private network. For an internet-facing or team install the README recommends the Cloudflare path, where pnpm deploy:selfhost provisions D1, KV, R2, and a Cloudflare Access gate on Cloudflare's free plan. Data is the real cost. OpenSEO is a front end over DataForSEO: you bring your own API key (the base64 of your DataForSEO email and password), pay that vendor directly for what you use, and add a separate OpenRouter key for AI features such as SAM, the in-app SEO agent. New DataForSEO accounts include $1 of credit and the minimum top-up is $50. The hosted service at openseo.so charges $10/month including $10 of usage, and the README states plainly that the hosted margin is a 28% surcharge on every DataForSEO request, so self-hosting is slightly cheaper. Rank tracking defaults to weekly, and the docs note that daily checks use seven times more credits. Google Search Console and Google Analytics data is free. The trade-off is the usual one: you own the interface, the scheduling, and your own database, not the crawl index.",
+   "description": "OpenSEO is an open-source, self-hosted SEO platform covering keyword research, rank tracking, competitor insights, backlink analysis, site audits, and AI search visibility, positioned as an alternative to Ahrefs and Semrush. The TypeScript project (repo every-app/open-seo) is MIT-licensed, held around {stars:openseo} GitHub stars as of September 2026, and has moved quickly since its February 2026 debut: AI Visibility and Prompt Explorer landed in April, an MCP server in May, agent skills and multi-project support in June, Local SEO in August, and on-demand SERP depth on September 2. Two deployment paths are documented. Docker is described as best for testing: clone the repo, copy .env.example to .env, and run docker compose up -d, which serves on port 3001 with authentication disabled, so it belongs behind your own reverse proxy or private network. For an internet-facing or team install the README recommends the Cloudflare path, where pnpm deploy:selfhost provisions D1, KV, R2, and a Cloudflare Access gate on Cloudflare's free plan. Data is the real cost. OpenSEO is a front end over DataForSEO: you bring your own API key (the base64 of your DataForSEO email and password), pay that vendor directly for what you use, and add a separate OpenRouter key for AI features such as SAM, the in-app SEO agent. New DataForSEO accounts include $1 of credit and the minimum top-up is $50. The hosted service at openseo.so charges $10/month including $10 of usage, and the README states plainly that the hosted margin is a 28% surcharge on every DataForSEO request, so self-hosting is slightly cheaper. Rank tracking defaults to weekly, and the docs note that daily checks use seven times more credits. Google Search Console and Google Analytics data is free. The trade-off is the usual one: you own the interface, the scheduling, and your own database, not the crawl index.",
    "category": "seo",
    "open_source": true,
    "tags": [
@@ -5175,15 +5175,15 @@
     ]
    },
    "github_repo": "every-app/open-seo",
-   "github_stars": 21981,
+   "github_stars": 22103,
    "pricing_url": "https://openseo.so/pricing",
    "founded": 2026,
    "hq": "Open source",
    "license": "MIT",
    "paid_from": 10,
    "currency": "USD",
-   "github_forks": 2823,
-   "github_checked": "2026-10-01",
+   "github_forks": 2849,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/openseo/"
   },
   {
@@ -5337,7 +5337,7 @@
     "e2b, Cloudflare, and Modal sandboxes"
    ],
    "github_repo": "paperclipai/paperclip",
-   "github_stars": 95387,
+   "github_stars": 95890,
    "last_release": "v2026.831.1 (2026-09-02)",
    "open_source": true,
    "api_available": true,
@@ -5345,7 +5345,7 @@
    "status": "active",
    "date_added": "2026-07-27",
    "date_updated": "2026-09-07",
-   "description": "Paperclip is an open-source control plane for running a team of AI agents like a company: a Node.js server with a React UI that models org charts, goals, budgets, and governance instead of workflows. Its README is explicit: not an agent framework, not a workflow builder, not a chatbot, not a single-agent tool. Agents run wherever they already run (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Hermes, Grok, Kimi Code, or an OpenClaw gateway) and connect through adapters; if it can receive a heartbeat, the docs say, it's hired. The structure is a strict tree: every agent except the CEO has exactly one manager, and the CEO reports to you. Governance is the product. Agents cannot hire without filing a hire request into your approval queue, the CEO cannot move tasks to in progress until you approve its strategy, and budgets warn at 80% and hard-stop at 100%, pausing the scope until you raise the cap or the month resets. Every mutation produces a permanent activity record, config changes are revisioned, and one deployment can run unlimited companies with data isolation. Two details matter for anyone expecting an always-on swarm. Interval heartbeats are off by default: agents stay dormant until a task, a comment, a manual wake, or a routine arrives. And Paperclip pushes no outbound webhooks, so Slack alerting means a routine that polls. Model spend is yours: you bring provider keys, Paperclip tracks the cache-adjusted cost each agent accrues, and the docs estimate $3-15 a month for a moderately active worker. Self-hosting is free under MIT (Node.js 24.11+, pnpm 9.15+, embedded PostgreSQL, any 1 vCPU 2 GB VPS), the hosted cloud is one flat € 10/month plan with unlimited companies and EU hosting, and prebuilt company templates range from a five-agent engineering team to a 167-agent agency. At 95387 GitHub stars with calendar-versioned releases every week or two, it is among the most active agent-management projects available.",
+   "description": "Paperclip is an open-source control plane for running a team of AI agents like a company: a Node.js server with a React UI that models org charts, goals, budgets, and governance instead of workflows. Its README is explicit: not an agent framework, not a workflow builder, not a chatbot, not a single-agent tool. Agents run wherever they already run (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Hermes, Grok, Kimi Code, or an OpenClaw gateway) and connect through adapters; if it can receive a heartbeat, the docs say, it's hired. The structure is a strict tree: every agent except the CEO has exactly one manager, and the CEO reports to you. Governance is the product. Agents cannot hire without filing a hire request into your approval queue, the CEO cannot move tasks to in progress until you approve its strategy, and budgets warn at 80% and hard-stop at 100%, pausing the scope until you raise the cap or the month resets. Every mutation produces a permanent activity record, config changes are revisioned, and one deployment can run unlimited companies with data isolation. Two details matter for anyone expecting an always-on swarm. Interval heartbeats are off by default: agents stay dormant until a task, a comment, a manual wake, or a routine arrives. And Paperclip pushes no outbound webhooks, so Slack alerting means a routine that polls. Model spend is yours: you bring provider keys, Paperclip tracks the cache-adjusted cost each agent accrues, and the docs estimate $3-15 a month for a moderately active worker. Self-hosting is free under MIT (Node.js 24.11+, pnpm 9.15+, embedded PostgreSQL, any 1 vCPU 2 GB VPS), the hosted cloud is one flat € 10/month plan with unlimited companies and EU hosting, and prebuilt company templates range from a five-agent engineering team to a 167-agent agency. At {stars:paperclip} GitHub stars with calendar-versioned releases every week or two, it is among the most active agent-management projects available.",
    "seo_description": "Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Free to self-host; no licence fee.",
    "deep_dive": {
     "install": [
@@ -5383,8 +5383,8 @@
    "currency": "EUR",
    "license": "MIT",
    "paid_from": 10,
-   "github_forks": 16188,
-   "github_checked": "2026-10-01",
+   "github_forks": 16255,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/paperclip/"
   },
   {
@@ -5714,7 +5714,7 @@
     "Slack"
    ],
    "github_repo": "plausible/analytics",
-   "github_stars": 29272,
+   "github_stars": 29277,
    "open_source": true,
    "api_available": true,
    "founded": 2019,
@@ -5722,7 +5722,7 @@
    "status": "active",
    "date_added": "2026-07-27",
    "date_updated": "2026-08-28",
-   "description": "Plausible Analytics is a lightweight, privacy-friendly alternative to Google Analytics. It gives website owners the core traffic metrics without cookies, banners, or personal data collection. The open-source project launched in 2019 and is based in Tallinn, Estonia. It offers a simple dashboard for pageviews, visitors, sources, devices, locations, and goals, and skips the complexity and tracking overhead of larger analytics suites. The self-hosted version is free under the AGPL license, and a managed cloud plan starts at $9 per month for 10,000 pageviews, scaling with traffic.\n\nFor marketers and product teams evaluating martech stacks, Plausible is a practical option when privacy compliance, site performance, and straightforward reporting matter more than deep behavioral modeling. It integrates with WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack, and includes API access for custom reporting. Its AI features add AI-powered insights, anomaly detection, and traffic analysis, which help users spot unusual patterns or summarize trends without building manual alerts.\n\nCompared with commercial analytics platforms, Plausible trades extensive attribution and advertising integrations for a cleaner, more transparent setup and lower operational burden. The open-source codebase, backed by 29272 GitHub stars, lets teams inspect, self-host, or extend the tool rather than relying entirely on a vendor. It fits content sites, startups, agencies, and privacy-conscious teams that need reliable web analytics with optional AI assistance and predictable pricing.",
+   "description": "Plausible Analytics is a lightweight, privacy-friendly alternative to Google Analytics. It gives website owners the core traffic metrics without cookies, banners, or personal data collection. The open-source project launched in 2019 and is based in Tallinn, Estonia. It offers a simple dashboard for pageviews, visitors, sources, devices, locations, and goals, and skips the complexity and tracking overhead of larger analytics suites. The self-hosted version is free under the AGPL license, and a managed cloud plan starts at $9 per month for 10,000 pageviews, scaling with traffic.\n\nFor marketers and product teams evaluating martech stacks, Plausible is a practical option when privacy compliance, site performance, and straightforward reporting matter more than deep behavioral modeling. It integrates with WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack, and includes API access for custom reporting. Its AI features add AI-powered insights, anomaly detection, and traffic analysis, which help users spot unusual patterns or summarize trends without building manual alerts.\n\nCompared with commercial analytics platforms, Plausible trades extensive attribution and advertising integrations for a cleaner, more transparent setup and lower operational burden. The open-source codebase, backed by {stars:plausible} GitHub stars, lets teams inspect, self-host, or extend the tool rather than relying entirely on a vendor. It fits content sites, startups, agencies, and privacy-conscious teams that need reliable web analytics with optional AI assistance and predictable pricing.",
    "seo_description": "Plausible Analytics, Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Free to self-host; no licence fee. Compare.",
    "deep_dive": {
     "hands_on": [
@@ -5733,8 +5733,8 @@
    },
    "paid_from": 9,
    "license": "AGPL-3.0",
-   "github_forks": 1879,
-   "github_checked": "2026-10-01",
+   "github_forks": 1880,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/plausible/"
   },
@@ -5921,7 +5921,7 @@
     "Instagram"
    ],
    "github_repo": "nando0x/ProspectOS",
-   "github_stars": 227,
+   "github_stars": 228,
    "open_source": true,
    "api_available": true,
    "description": "ProspectOS is a local lead-prospecting tool for agencies and freelancers who sell websites or digital services to small businesses. It scans Google Maps by niche and city (or by pin and radius), checks each company's website to separate no-site from slow-or-insecure-site, scores the results, and generates an AI-written outreach message plus a PDF diagnosis per lead, all tracked in a visual kanban CRM. The stack is Flask, React 19, TypeScript, and SQLite, runs locally on Windows, and the repo shows 230 passing tests. The honest catch is in the project's own warnings: it is a scraping tool, Google Maps and Instagram scraping can violate those platforms' terms, and the Instagram module logs in with a personal account via instagrapi, which carries a real risk of checkpoint or ban. The README recommends a secondary account and moderate use. MIT-licensed with a few hundred stars, it is a working codebase for learning and prospecting at small scale, sold to nobody and hosted by you, with the compliance question deliberately left in your hands.",
@@ -5939,7 +5939,7 @@
    },
    "license": "MIT",
    "github_forks": 43,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/prospectos/"
   },
@@ -5998,7 +5998,7 @@
     "faq_extra": [
      [
       "Is React Email Editor really open source?",
-      "The npm package is, under MIT, with about 5232 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier."
+      "The npm package is, under MIT, with about {stars:react-email-editor} GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier."
      ],
      [
       "What are Unlayer's paid plans?",
@@ -6017,8 +6017,8 @@
    "paid_from": 250,
    "pricing_url": "https://unlayer.com/pricing",
    "license": "MIT",
-   "github_forks": 804,
-   "github_checked": "2026-10-01",
+   "github_forks": 805,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/react-email-editor/"
   },
@@ -6043,7 +6043,7 @@
     "CSV import/export"
    ],
    "github_repo": "relaticle/relaticle",
-   "github_stars": 1745,
+   "github_stars": 1748,
    "last_release": "v3.5.7 (2026-09-06)",
    "open_source": true,
    "api_available": true,
@@ -6051,7 +6051,7 @@
    "status": "active",
    "date_added": "2026-07-27",
    "date_updated": "2026-09-07",
-   "description": "Relaticle is an open-source CRM you run on your own server under the AGPL-3.0 license, built on Laravel 13, Filament 5, Livewire 4, and PHP 8.5. The repository was created in September 2024, the first stable release shipped in April 2025, and development moves fast: 86 releases so far, 74 of them in the twelve months to September 2026, with v3.5.7 landing on September 6, 2026 alongside 1745 GitHub stars and a claimed 2,000+ automated tests. The feature set covers companies, people, opportunities with custom pipeline stages and win/loss analysis, tasks, notes, and an activity log, on a customizable data model with 22 field types, conditional visibility, per-field encryption, and no schema migrations. AI is the pitch rather than an afterthought: a 37-tool MCP server at mcp.relaticle.com authenticates with OAuth 2.1 and PKCE or a personal access token, exposing search, fetch, and full create-read-update-delete across companies, people, opportunities, tasks, and notes to Claude, ChatGPT, Cursor, and other MCP clients, with destructive actions gated behind approval cards and requests capped at 120 per minute. There is also Rela, a built-in chat interface that answers questions about your records with model choices and one-click undo on approved destructive actions. Developers get a REST API v1 with twelve paths and a published OpenAPI 3.1 spec at api.relaticle.com, plus CSV import up to 10,000 rows and 10MB per file with column mapping and record-ID matching for updates. The business model outgrew the original no-premium-tiers promise: self-hosting is still free with unlimited users, but the site now sells Cloud Pro at $19 per workspace per month with 2,000 AI credits and an Enterprise tier from $20,000 a year. Per-seat pricing never arrived. Requirements are PostgreSQL 17 and Redis 7, with no MySQL path documented.",
+   "description": "Relaticle is an open-source CRM you run on your own server under the AGPL-3.0 license, built on Laravel 13, Filament 5, Livewire 4, and PHP 8.5. The repository was created in September 2024, the first stable release shipped in April 2025, and development moves fast: 86 releases so far, 74 of them in the twelve months to September 2026, with v3.5.7 landing on September 6, 2026 alongside {stars:relaticle} GitHub stars and a claimed 2,000+ automated tests. The feature set covers companies, people, opportunities with custom pipeline stages and win/loss analysis, tasks, notes, and an activity log, on a customizable data model with 22 field types, conditional visibility, per-field encryption, and no schema migrations. AI is the pitch rather than an afterthought: a 37-tool MCP server at mcp.relaticle.com authenticates with OAuth 2.1 and PKCE or a personal access token, exposing search, fetch, and full create-read-update-delete across companies, people, opportunities, tasks, and notes to Claude, ChatGPT, Cursor, and other MCP clients, with destructive actions gated behind approval cards and requests capped at 120 per minute. There is also Rela, a built-in chat interface that answers questions about your records with model choices and one-click undo on approved destructive actions. Developers get a REST API v1 with twelve paths and a published OpenAPI 3.1 spec at api.relaticle.com, plus CSV import up to 10,000 rows and 10MB per file with column mapping and record-ID matching for updates. The business model outgrew the original no-premium-tiers promise: self-hosting is still free with unlimited users, but the site now sells Cloud Pro at $19 per workspace per month with 2,000 AI credits and an Enterprise tier from $20,000 a year. Per-seat pricing never arrived. Requirements are PostgreSQL 17 and Redis 7, with no MySQL path documented.",
    "seo_description": "Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Free to self-host; no licence fee.",
    "deep_dive": {
     "install": [
@@ -6091,7 +6091,7 @@
    "paid_from": 19,
    "currency": "USD",
    "github_forks": 211,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/relaticle/"
   },
   {
@@ -6119,7 +6119,7 @@
     "Vercel Marketplace"
    ],
    "github_repo": "resend/react-email",
-   "github_stars": 19801,
+   "github_stars": 19799,
    "open_source": false,
    "api_available": true,
    "founded": 2023,
@@ -6143,7 +6143,7 @@
     "hands_on": [
      "Assessed from resend.com, resend.com/docs, and the changelog RSS in September 2026; we have no Resend account and have not sent through it. The documentation corpus is large and current: the changelog's newest entries are Link Checker (September 3, 2026), Single Sign-On (September 1), and an Email Metrics API (August 27).",
      "The correction that matters: the three AI features in our earlier record (AI deliverability optimization, AI spam detection, smart retry logic) appear nowhere in Resend's documentation. The documented AI surface is an AI Email Editor with brand-voice drafting and pre-send checks, an assistant in the template editor, AI column mapping on imports, and monthly AI credits; Deliverability Insights is explicitly a set of best-practice checks, not AI. Slack and Segment are not documented integrations, and Scale is not custom-priced.",
-     "Open source is the exit surface, and our record undersold it: react-email alone holds about 19801 GitHub stars under MIT, an order of magnitude larger than any Resend SDK repo, and the organization publishes roughly 100 repositories including the MCP server, CLI, skills, and OpenAPI spec. Templates you build in React Email keep working against another sender.",
+     "Open source is the exit surface, and our record undersold it: react-email alone holds about {stars:resend} GitHub stars under MIT, an order of magnitude larger than any Resend SDK repo, and the organization publishes roughly 100 repositories including the MCP server, CLI, skills, and OpenAPI spec. Templates you build in React Email keep working against another sender.",
      "The transactional and marketing split is the pricing trap. A team that starts on Pro for product email and later wants newsletters takes a second, contact-based subscription, and the docs recommend separate subdomains per stream anyway. IP pools are a $30 a month Scale add-on with an eligibility bar of 3,000 emails a day, so shared IPs are the default reality for most accounts."
     ],
     "verdict": "The most developer-native platform in email, with an honest free tier, real agent tooling, and a published limit sheet; check the transactional versus marketing split before committing either budget.",
@@ -6164,8 +6164,8 @@
    },
    "paid_from": 20,
    "license": "MIT",
-   "github_forks": 1091,
-   "github_checked": "2026-10-01",
+   "github_forks": 1092,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/resend/"
   },
@@ -6635,7 +6635,7 @@
    "status": "active",
    "date_added": "2026-09-03",
    "date_updated": "2026-09-03",
-   "description": "SEO Skill Bench answers the question every Claude Code SEO skill README can't: does the thing actually work once installed? It is an open benchmark that runs SEO skills for Claude Code and other coding agents against fixture websites with deliberately planted defects, then scores what they find. If you are choosing an SEO skill for your agent workflow, this is the closest thing to a published answer key.\n\nThe harness installs each entrant in a real headless Claude Code session (claude -p), not a simulation reconstructed from its README, and points it at the pivot-saas fixture site. Scoring follows a pre-registered 100-point rubric: 40 points for detecting planted defects, 25 for avoiding traps, meaning the skill never recommends fixing something that is already fine, 25 for blind-judged judgment calls, and 10 for execution. Scores are medians across runs. On the August 2026 board, SEOAgent led at 84.9 while the vanilla baseline with no skill scored 73.0. That spread tells you two things: skills can add real value, and some entrants score below doing nothing at all.\n\nSetup needs Node and a Claude Code install. You run node harness/run.mjs with a skill id and fixture, then the score and judge scripts, and entrants register with a one-line entry in skills.json. The leaderboard also publishes what each skill costs, kept outside the composite on purpose: resident tokens the skill occupies in every system prompt, per-run cost, and median time. Runs on the board cost between $1.70 and $4.46 and took 405 to 779 seconds. Heavy skills like Corey Haines' Marketing Skills carry 8,770 resident tokens, which dilutes every other skill you have installed.\n\nThe big caveat is the maintainer's conflict of interest. SEOAgent, the company behind the benchmark, also ships the top-ranked entrant. The structural mitigations are real: published fixtures, deterministic answer keys, a frozen rubric, blind judging, and a harness anyone can re-run. Still, treat the leaderboard as a strong signal rather than gospel. The benchmark only measures technical on-site audit work against one fixture. It says nothing about content strategy, links, or your actual site. At about 50 stars the community is small, and the repo's value is its method more than its momentum.\n\nCompared to picking a skill by GitHub stars or vibes, this is the most concrete public way to see detection rates and hallucination traps side by side. If you are building an agent-driven SEO workflow, run your candidate skill through this harness before you point it at a production site.",
+   "description": "SEO Skill Bench answers the question every Claude Code SEO skill README can't: does the thing actually work once installed? It is an open benchmark that runs SEO skills for Claude Code and other coding agents against fixture websites with deliberately planted defects, then scores what they find. If you are choosing an SEO skill for your agent workflow, this is the closest thing to a published answer key.\n\nThe harness installs each entrant in a real headless Claude Code session (claude -p), not a simulation reconstructed from its README, and points it at the pivot-saas fixture site. Scoring follows a pre-registered 100-point rubric: 40 points for detecting planted defects, 25 for avoiding traps, meaning the skill never recommends fixing something that is already fine, 25 for blind-judged judgment calls, and 10 for execution. Scores are medians across runs. On the August 2026 board, SEOAgent led at 84.9 while the vanilla baseline with no skill scored 73.0. That spread tells you two things: skills can add real value, and some entrants score below doing nothing at all.\n\nSetup needs Node and a Claude Code install. You run node harness/run.mjs with a skill id and fixture, then the score and judge scripts, and entrants register with a one-line entry in skills.json. The leaderboard also publishes what each skill costs, kept outside the composite on purpose: resident tokens the skill occupies in every system prompt, per-run cost, and median time. Runs on the board cost between $1.70 and $4.46 and took 405 to 779 seconds. Heavy skills like Corey Haines' Marketing Skills carry 8,770 resident tokens, which dilutes every other skill you have installed.\n\nThe big caveat is the maintainer's conflict of interest. SEOAgent, the company behind the benchmark, also ships the top-ranked entrant. The structural mitigations are real: published fixtures, deterministic answer keys, a frozen rubric, blind judging, and a harness anyone can re-run. Still, treat the leaderboard as a strong signal rather than gospel. The benchmark only measures technical on-site audit work against one fixture. It says nothing about content strategy, links, or your actual site. At about {stars:seo-skill-bench} stars the community is small, and the repo's value is its method more than its momentum.\n\nCompared to picking a skill by GitHub stars or vibes, this is the most concrete public way to see detection rates and hallucination traps side by side. If you are building an agent-driven SEO workflow, run your candidate skill through this harness before you point it at a production site.",
    "license": "MIT",
    "github_forks": 1,
    "github_checked": "2026-09-29",
@@ -6655,7 +6655,7 @@
    "ai_features": [],
    "integrations": [],
    "github_repo": "StJudeWasHere/seonaut",
-   "github_stars": 798,
+   "github_stars": 800,
    "last_release": "No tagged releases; ships as the :latest container image",
    "open_source": true,
    "api_available": false,
@@ -6702,7 +6702,7 @@
    "paid_from": 9,
    "license": "MIT",
    "github_forks": 134,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/seonaut/"
   },
@@ -6924,7 +6924,7 @@
     "Cloudinary"
    ],
    "github_repo": "strapi/strapi",
-   "github_stars": 73265,
+   "github_stars": 73272,
    "open_source": true,
    "api_available": true,
    "founded": 2015,
@@ -6932,7 +6932,7 @@
    "status": "active",
    "date_added": "2026-07-27",
    "date_updated": "2026-08-28",
-   "description": "Developed in Paris and launched in 2015, Strapi is an open-source headless CMS that gives marketing and engineering teams a centralized place to model, manage, and distribute content across websites, apps, and digital products. Its API-first architecture lets teams deliver structured content to front ends built with Next.js, Nuxt, Gatsby, and other frameworks, while integrations such as Zapier, Slack, Stripe, Algolia, and Cloudinary support common martech and commerce workflows. Because the core project is MIT licensed and publicly maintained, with more than 73265 GitHub stars, organizations can inspect the code, self-host it, or extend it without relying on a closed platform.\n\nStrapi is aimed at teams that need flexible content infrastructure rather than a traditional page-builder CMS. Its differentiators include customizable content types, role-based access, localization support, and a developer-friendly admin panel that can be adapted to editorial and campaign operations. AI features can assist with content generation, content workflows, media management, and translation, helping teams reduce manual production work while keeping human review in place. Pricing ranges from free self-hosted use under MIT to a free Cloud Developer plan, paid Pro at $99 per month, Team at $499 per month, and custom Enterprise agreements. Compared with commercial headless CMS platforms, Strapi generally offers greater control and lower entry cost, though self-hosting may require more internal development and maintenance resources. It fits technical marketing teams, agencies, and product organizations that want an open-source, API-driven CMS with AI-assisted content operations and the flexibility to deploy content wherever it is needed.",
+   "description": "Developed in Paris and launched in 2015, Strapi is an open-source headless CMS that gives marketing and engineering teams a centralized place to model, manage, and distribute content across websites, apps, and digital products. Its API-first architecture lets teams deliver structured content to front ends built with Next.js, Nuxt, Gatsby, and other frameworks, while integrations such as Zapier, Slack, Stripe, Algolia, and Cloudinary support common martech and commerce workflows. Because the core project is MIT licensed and publicly maintained, with more than {stars:strapi} GitHub stars, organizations can inspect the code, self-host it, or extend it without relying on a closed platform.\n\nStrapi is aimed at teams that need flexible content infrastructure rather than a traditional page-builder CMS. Its differentiators include customizable content types, role-based access, localization support, and a developer-friendly admin panel that can be adapted to editorial and campaign operations. AI features can assist with content generation, content workflows, media management, and translation, helping teams reduce manual production work while keeping human review in place. Pricing ranges from free self-hosted use under MIT to a free Cloud Developer plan, paid Pro at $99 per month, Team at $499 per month, and custom Enterprise agreements. Compared with commercial headless CMS platforms, Strapi generally offers greater control and lower entry cost, though self-hosting may require more internal development and maintenance resources. It fits technical marketing teams, agencies, and product organizations that want an open-source, API-driven CMS with AI-assisted content operations and the flexibility to deploy content wherever it is needed.",
    "seo_description": "Strapi: Open-source headless CMS with AI-powered content management and API-first design. Free to self-host; no licence fee.",
    "deep_dive": {
     "hands_on": [
@@ -6942,8 +6942,8 @@
     "verdict": "Our default headless CMS for custom builds; choose it for flexibility, not for turnkey publishing polish."
    },
    "paid_from": 99,
-   "github_forks": 9881,
-   "github_checked": "2026-10-01",
+   "github_forks": 9885,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/strapi/"
   },
@@ -6959,7 +6959,7 @@
    "ai_features": [],
    "integrations": [],
    "github_repo": "SuiteCRM/SuiteCRM",
-   "github_stars": 5777,
+   "github_stars": 5779,
    "last_release": "8.10.2 / 7.15.2 ESR (2026-07-31)",
    "open_source": true,
    "api_available": true,
@@ -7005,7 +7005,7 @@
    },
    "license": "AGPL-3.0",
    "github_forks": 2427,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/suitecrm/"
   },
@@ -7224,13 +7224,13 @@
     "REST / GraphQL / gRPC"
    ],
    "github_repo": "ToolJet/ToolJet",
-   "github_stars": 41018,
+   "github_stars": 41025,
    "open_source": true,
    "api_available": true,
    "status": "active",
    "date_added": "2026-09-05",
    "date_updated": "2026-09-07",
-   "description": "ToolJet is an open-source platform for building internal tools: admin panels, dashboards and operational apps that run against your databases, APIs and SaaS systems, built with a visual builder, a prompt-driven AI builder, or an MCP server that lets coding agents such as Claude Code and Cursor build and edit apps directly. The repo is AGPL-3.0 and now describes itself as the open-source foundation of ToolJet AI: AI app generation, AI query building, the agent builder, workflows, modules, git sync and audit logs belong to the paid editions, metered in AI credits on cloud and licensed on self-host. At 41018 GitHub stars with roughly 400 contributors, and with several releases a week on an LTS track (v3.20.x) plus a beta track, it sits alongside Appsmith at the top of this class. For marketing operations the builds are the same set as its peers: campaign dashboards over ad-platform APIs, lead-quality consoles beside the CRM, and approval panels, self-hosted so lead and consent data stays in-house. Around 50 data sources are documented, including PostgreSQL, MySQL, MongoDB, Snowflake, BigQuery, Elasticsearch, S3, Stripe, Slack, SendGrid, Airtable and NocoDB, plus generic REST, GraphQL and gRPC. Self-hosting has real requirements: x86 64-bit only (no arm64 images), PostgreSQL 16 recommended, Redis 7, and two separate Postgres databases, with MySQL explicitly unsupported; a single docker run command still gets you a working instance. Two honesty notes from the docs: self-hosted AI calls ToolJet's hosted api-gateway and python-server endpoints, so it is not air-gapped without ToolJet AI Enterprise, and the published images are tagged ee even though the repo license is AGPL, so the community and enterprise boundary is not spelled out in a license file. Cloud pricing runs from free (2 builders, 2 apps) to $79 per builder monthly billed annually, with Team at $199 and Enterprise from $3,000 per month. This assessment is based on the documented architecture and public materials.",
+   "description": "ToolJet is an open-source platform for building internal tools: admin panels, dashboards and operational apps that run against your databases, APIs and SaaS systems, built with a visual builder, a prompt-driven AI builder, or an MCP server that lets coding agents such as Claude Code and Cursor build and edit apps directly. The repo is AGPL-3.0 and now describes itself as the open-source foundation of ToolJet AI: AI app generation, AI query building, the agent builder, workflows, modules, git sync and audit logs belong to the paid editions, metered in AI credits on cloud and licensed on self-host. At {stars:tooljet} GitHub stars with roughly 400 contributors, and with several releases a week on an LTS track (v3.20.x) plus a beta track, it sits alongside Appsmith at the top of this class. For marketing operations the builds are the same set as its peers: campaign dashboards over ad-platform APIs, lead-quality consoles beside the CRM, and approval panels, self-hosted so lead and consent data stays in-house. Around 50 data sources are documented, including PostgreSQL, MySQL, MongoDB, Snowflake, BigQuery, Elasticsearch, S3, Stripe, Slack, SendGrid, Airtable and NocoDB, plus generic REST, GraphQL and gRPC. Self-hosting has real requirements: x86 64-bit only (no arm64 images), PostgreSQL 16 recommended, Redis 7, and two separate Postgres databases, with MySQL explicitly unsupported; a single docker run command still gets you a working instance. Two honesty notes from the docs: self-hosted AI calls ToolJet's hosted api-gateway and python-server endpoints, so it is not air-gapped without ToolJet AI Enterprise, and the published images are tagged ee even though the repo license is AGPL, so the community and enterprise boundary is not spelled out in a license file. Cloud pricing runs from free (2 builders, 2 apps) to $79 per builder monthly billed annually, with Team at $199 and Enterprise from $3,000 per month. This assessment is based on the documented architecture and public materials.",
    "seo_description": "ToolJet: open-source internal tools built by prompt or visual builder. AGPL, self-host free. Compare features, pricing & alternatives.",
    "deep_dive": {
     "hands_on": [
@@ -7238,7 +7238,7 @@
      "The MCP server is the distinctive piece and the reason agent-first teams shortlist ToolJet. It is marked beta, and it exposes your instance to a coding agent: the agent can generate and modify apps in place, inspect datasources, create and seed ToolJet DB tables, write queries against ToolJet DB, Postgres, REST or any plugin, and manage page and query permissions and users. ToolJet ships a packaged plugin for Claude Code (tooljet-app-builder) and Codex, and any other MCP client can register the server from the ToolJet/tooljet-mcp repo. You need a personal access token (tj_pat_) and Node 20 or newer.",
      "Editions and metering need reading before you budget. Cloud plans meter AI work in credits, and monthly credits do not carry forward; add-on credits cost $1 per 100. Enterprise adds bring-your-own-key AI at no credit cost and ToolJet AI Enterprise, which runs the AI server on your own infrastructure for a fully air-gapped deployment. Without that tier, self-hosted AI features call ToolJet's hosted api-gateway.tooljet.ai and python-server.tooljet.ai endpoints, which the setup docs tell you to whitelist. Related honesty note: the published Docker images are tagged ee even though the repo LICENSE is AGPL-3.0, and no separate license file spells out where community code ends.",
      "Self-hosting requirements are stricter than peers and worth planning around: x86 64-bit only, with arm64 explicitly unsupported; PostgreSQL 16.x recommended, with 13.x at end of life since November 2025 and upgrade guides published; Redis 7.x required; and two separate Postgres databases (TOOLJET_DB and PG_DB must differ, and the docs warn that sharing one causes deployment failure). MySQL is explicitly not on the roadmap. Workflows need WORKER=true and an external Redis once you run more than one replica, and the workflow engine itself moved from Temporal to BullMQ, with a migration guide.",
-     "This assessment is based on the repository, docs.tooljet.com and release notes. Calibration: development is genuinely active, with multiple releases per week and two on September 7, 2026, split across an LTS track (v3.20.x) and a beta track (v3.21.x); and ToolJet's own marketing numbers lag its repo, with the pricing page citing 41018 GitHub stars and the homepage 40,777 against an API count of 40,857. The 3.0 upgrade has documented breaking changes around dynamic component references and variable access, so test before upgrading."
+     "This assessment is based on the repository, docs.tooljet.com and release notes. Calibration: development is genuinely active, with multiple releases per week and two on September 7, 2026, split across an LTS track (v3.20.x) and a beta track (v3.21.x); and ToolJet's own marketing numbers lag its repo, with the pricing page citing {stars:tooljet} GitHub stars and the homepage 40,777 against an API count of 40,857. The 3.0 upgrade has documented breaking changes around dynamic component references and variable access, so test before upgrading."
     ],
     "install": [
      "README one-liner: docker run --name tooljet --restart unless-stopped -p 80:80 --platform linux/amd64 -v tooljet_data:/var/lib/postgresql/13/main tooljet/try:ee-lts-latest. The docs version of the same command mounts /var/lib/postgresql/16/main instead, reflecting the Postgres 16 migration; for a non-standard port add -p 8080:8080 -e PORT=8080. The README recommends the LTS tag over latest when upgrading.",
@@ -7269,8 +7269,8 @@
    "license": "AGPL-3.0",
    "paid_from": 79,
    "currency": "USD",
-   "github_forks": 5463,
-   "github_checked": "2026-10-01",
+   "github_forks": 5469,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/tooljet/"
   },
   {
@@ -7424,7 +7424,7 @@
     "Marketplace: Slack, Exa, People Data Labs"
    ],
    "github_repo": "twentyhq/twenty",
-   "github_stars": 57764,
+   "github_stars": 57811,
    "open_source": true,
    "api_available": true,
    "founded": 2023,
@@ -7469,8 +7469,8 @@
    },
    "paid_from": 9,
    "license": "AGPL-3.0",
-   "github_forks": 9376,
-   "github_checked": "2026-10-01",
+   "github_forks": 9394,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/twenty/"
   },
@@ -7493,14 +7493,14 @@
     "Community API clients (Laravel, Python, Go)"
    ],
    "github_repo": "umami-software/umami",
-   "github_stars": 39104,
+   "github_stars": 39115,
    "open_source": true,
    "api_available": true,
    "founded": 2020,
    "status": "active",
    "date_added": "2026-07-27",
    "date_updated": "2026-09-07",
-   "description": "Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor's cloud, created in 2020 by Mike Cao and now at v3 with roughly 39104 GitHub stars. It tracks pageviews, sessions, referrers, countries, devices, UTM parameters, and custom events without cookies and without collecting personal data, which is why sites use it to drop consent banners entirely. The v3 line has grown well past simple dashboards: session replay (v3.1, rrweb-based, off by default, replays kept 30 days), click and scroll heatmaps (v3.2), an attribution report with first-click and last-click models, funnels, retention, revenue, journey, and UTM reports, custom Boards dashboards, and TOTP two-factor auth, plus short links and tracking pixels on the cloud platform. Deployment is a Node.js app (18.18+) on PostgreSQL (12.14 minimum); v3 removed MySQL and MariaDB, and the docs publish a migration path through v2.19 for anyone still on MySQL. Install is docker compose up -d with a two-service file (app plus postgres:15-alpine) or pnpm install and pnpm run build from source; the build creates an admin/umami login you replace on first sign-in. Self-hosted instances keep an admin-only API, retain data indefinitely, and can turn off the app's anonymous telemetry with one environment variable. Cloud pricing is usage-based per event rather than per seat: Hobby is free to 100,000 events a month, Pro is $20 for 1 million, Business is $200 for 10 million with session replay, heatmaps, and the streaming API included, and Enterprise is custom. Self-hosted installs get the core analytics but not email reports or the streaming API. Compared with Google Analytics, Umami trades ad-ecosystem integrations and behavioral depth for a script the vendor puts under 2KB, no sampling, and full data ownership; compared with Matomo, it is lighter and less configurable. Best for developers and privacy-conscious marketing teams that want campaign and conversion numbers without surveillance overhead.",
+   "description": "Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor's cloud, created in 2020 by Mike Cao and now at v3 with roughly {stars:umami} GitHub stars. It tracks pageviews, sessions, referrers, countries, devices, UTM parameters, and custom events without cookies and without collecting personal data, which is why sites use it to drop consent banners entirely. The v3 line has grown well past simple dashboards: session replay (v3.1, rrweb-based, off by default, replays kept 30 days), click and scroll heatmaps (v3.2), an attribution report with first-click and last-click models, funnels, retention, revenue, journey, and UTM reports, custom Boards dashboards, and TOTP two-factor auth, plus short links and tracking pixels on the cloud platform. Deployment is a Node.js app (18.18+) on PostgreSQL (12.14 minimum); v3 removed MySQL and MariaDB, and the docs publish a migration path through v2.19 for anyone still on MySQL. Install is docker compose up -d with a two-service file (app plus postgres:15-alpine) or pnpm install and pnpm run build from source; the build creates an admin/umami login you replace on first sign-in. Self-hosted instances keep an admin-only API, retain data indefinitely, and can turn off the app's anonymous telemetry with one environment variable. Cloud pricing is usage-based per event rather than per seat: Hobby is free to 100,000 events a month, Pro is $20 for 1 million, Business is $200 for 10 million with session replay, heatmaps, and the streaming API included, and Enterprise is custom. Self-hosted installs get the core analytics but not email reports or the streaming API. Compared with Google Analytics, Umami trades ad-ecosystem integrations and behavioral depth for a script the vendor puts under 2KB, no sampling, and full data ownership; compared with Matomo, it is lighter and less configurable. Best for developers and privacy-conscious marketing teams that want campaign and conversion numbers without surveillance overhead.",
    "seo_description": "Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. Free to self-host; no licence fee.",
    "deep_dive": {
     "install": [
@@ -7537,8 +7537,8 @@
    },
    "paid_from": 20,
    "license": "MIT",
-   "github_forks": 8161,
-   "github_checked": "2026-10-01",
+   "github_forks": 8170,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/umami/"
   },
@@ -7568,7 +7568,7 @@
     "Hostinger"
    ],
    "github_repo": "ArnasDon/wacrm",
-   "github_stars": 2468,
+   "github_stars": 2475,
    "open_source": true,
    "api_available": true,
    "founded": 2026,
@@ -7619,8 +7619,8 @@
     ]
    },
    "license": "MIT",
-   "github_forks": 6362,
-   "github_checked": "2026-10-01",
+   "github_forks": 6378,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/wacrm/"
   },
@@ -7647,7 +7647,7 @@
    "status": "active",
    "date_added": "2026-09-03",
    "date_updated": "2026-09-07",
-   "description": "Warpdrive is a self-hosted, MIT-licensed CRM that reimplements Pipedrive's core business development loop: kanban pipelines, a deal workspace, contacts and organizations, and two-way Gmail. It is single-tenant, runs on your own box, and has no per-seat bill. The README's comparison table against Pipedrive marks products, projects, invoicing, forecasting, multi-currency, workflow automation, and native mobile apps as intentionally out of scope, and the docs are blunt about it: if your team needs those, this is not the right tool. What it covers is deep for a project this young: pipelines with weighted stage totals and rotting-deal indicators, people and orgs with JSONB custom fields, a leads inbox with CSV import and undo, funnel stats, RBAC, and Gmail with thread linking, open and click tracking, templates, merge fields, and scheduled send. Sync is go-forward only: the docs state there is no backfill, so existing mail is never imported. AI access exists, but not as AI features. There is no lead scoring or drafting model; instead the project ships a documented MCP server at /api/mcp with 29 tools, OAuth 2.1 protected, so Claude, ChatGPT, or Cursor can search and update the CRM under each user's own permissions. The server has no delete tools for CRM records and no send tool: drafts are written for review and sending stays human. Contact enrichment is not AI either; it wraps your own paid Apollo, RocketReach, or GetProspect keys behind a review step. Setup is docker compose up -d --build after copying .env.example, bringing up Postgres 16, MinIO, a background worker, and Caddy for TLS. Requirements are specific: a domain with a second s3. subdomain record, ports 80 and 443, and a Google Workspace OAuth client, since Google is both the SSO and the mail provider. One maintainer, 35 commits, one release, 72 stars, and a public mirror of a private upstream: treat it as a young tool worth an afternoon, not a settled platform.",
+   "description": "Warpdrive is a self-hosted, MIT-licensed CRM that reimplements Pipedrive's core business development loop: kanban pipelines, a deal workspace, contacts and organizations, and two-way Gmail. It is single-tenant, runs on your own box, and has no per-seat bill. The README's comparison table against Pipedrive marks products, projects, invoicing, forecasting, multi-currency, workflow automation, and native mobile apps as intentionally out of scope, and the docs are blunt about it: if your team needs those, this is not the right tool. What it covers is deep for a project this young: pipelines with weighted stage totals and rotting-deal indicators, people and orgs with JSONB custom fields, a leads inbox with CSV import and undo, funnel stats, RBAC, and Gmail with thread linking, open and click tracking, templates, merge fields, and scheduled send. Sync is go-forward only: the docs state there is no backfill, so existing mail is never imported. AI access exists, but not as AI features. There is no lead scoring or drafting model; instead the project ships a documented MCP server at /api/mcp with 29 tools, OAuth 2.1 protected, so Claude, ChatGPT, or Cursor can search and update the CRM under each user's own permissions. The server has no delete tools for CRM records and no send tool: drafts are written for review and sending stays human. Contact enrichment is not AI either; it wraps your own paid Apollo, RocketReach, or GetProspect keys behind a review step. Setup is docker compose up -d --build after copying .env.example, bringing up Postgres 16, MinIO, a background worker, and Caddy for TLS. Requirements are specific: a domain with a second s3. subdomain record, ports 80 and 443, and a Google Workspace OAuth client, since Google is both the SSO and the mail provider. One maintainer, 35 commits, one release, {stars:warpdrive} stars, and a public mirror of a private upstream: treat it as a young tool worth an afternoon, not a settled platform.",
    "deep_dive": {
     "install": [
      "Prerequisites (docs.warpdrivecrm.com/setup): a Linux box with Docker and the Compose plugin, a domain with A/AAAA records for both the app host and an s3. subdomain (browser uploads POST presigned requests there; skipping it breaks every upload), ports 80 and 443 open, and a Google OAuth client from the project that owns your Workspace.",
@@ -7660,7 +7660,7 @@
     "best_for": "Business-development teams already on Google Workspace that want Pipedrive's pipeline-and-Gmail loop on their own infrastructure: single-tenant, MIT licensed, no per-seat bill, data in your own Postgres and S3-compatible storage, and an MCP server so assistants can work the CRM under each user's permissions.",
     "not_for": "Teams that need products, projects, invoicing, forecasts, multi-currency, workflow automation beyond email scheduling, web forms, or native mobile apps: the README marks all of them out of scope and the docs say plainly that this is not the right tool if you need them. Also not for shops without Google Workspace, and not for bulk integration work: CSV is the documented import route, with no REST API, no webhooks, and no API keys.",
     "hands_on": [
-     "Assessed from github.com/sneg55/warpdrive, docs.warpdrivecrm.com (about 25 pages), and warpdrivecrm.com in September 2026; we have not deployed an instance. The repo is young and small: 72 stars, 35 commits, one contributor (Nikita Sawinyh), one release (v1.0.0, July 19, 2026), zero issues and zero pull requests ever filed, latest commit September 7, 2026. The docs site config describes the repo as a public mirror of a private source-of-truth repository, with pull requests merged upstream and synced back on the next release.",
+     "Assessed from github.com/sneg55/warpdrive, docs.warpdrivecrm.com (about 25 pages), and warpdrivecrm.com in September 2026; we have not deployed an instance. The repo is young and small: {stars:warpdrive} stars, 35 commits, one contributor (Nikita Sawinyh), one release (v1.0.0, July 19, 2026), zero issues and zero pull requests ever filed, latest commit September 7, 2026. The docs site config describes the repo as a public mirror of a private source-of-truth repository, with pull requests merged upstream and synced back on the next release.",
      "The correction that matters: our earlier text said the repo's CLAUDE.md and PostHog MCP config help developers work on the code rather than users sell, and recorded no API. Both were wrong. Warpdrive ships a user-facing MCP server as a documented headline feature: 29 tools (13 read, 16 write) at /api/mcp over OAuth 2.1, with no delete tools for CRM records and no send tool, so drafts are written for review and sending stays a human action. What remains true is the absence of a REST API, webhooks, and API keys.",
      "Second correction: our earlier summary implied the README compares Warpdrive with other open-source CRMs. The comparison table is against Pipedrive only, and its out-of-scope rows are verbatim: products, projects, invoicing, forecast, multi-currency, workflow automation (email scheduling only), web forms, marketplace, and native mobile apps. The README calls Warpdrive a focused, self-hosted CRM rather than a feature-for-feature clone, and says it is used in production for a single team's BD workflow.",
      "Free applies to the software, not every workflow: contact enrichment requires your own paid Apollo, RocketReach, or GetProspect keys, which are encrypted at rest and put the provider on a 24-hour cooldown when quota runs out. Backups need both a pg_dump and the miniodata volume; the docs note that a database dump alone restores records whose attachments are gone."
@@ -7941,7 +7941,7 @@
     "Google Sheets"
    ],
    "github_repo": "zapier/gtm-cheat-codes",
-   "github_stars": 340,
+   "github_stars": 341,
    "open_source": true,
    "api_available": true,
    "founded": 2026,
@@ -7959,7 +7959,7 @@
    },
    "license": "MIT",
    "github_forks": 22,
-   "github_checked": "2026-09-29",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/"
   },
@@ -7991,7 +7991,7 @@
     "SMTP"
    ],
    "github_repo": "warmbly/warmbly",
-   "github_stars": 340,
+   "github_stars": 343,
    "open_source": true,
    "license": "Apache-2.0",
    "api_available": true,
@@ -8011,7 +8011,7 @@
     "verdict": "The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you."
    },
    "github_forks": 74,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/warmbly/"
   },
@@ -8950,7 +8950,7 @@
    "status": "active",
    "date_added": "2026-09-25",
    "date_updated": "2026-09-25",
-   "description": "Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5094 GitHub stars on GitHub. It captures events from web, mobile, and server code through an HTML snippet, JavaScript and npm packages, React and React Native SDKs, iOS and Android SDKs, an HTTP API, a pixel API, and a Segment proxy, then routes them to warehouses and SaaS tools. The destination catalog covers BigQuery, Snowflake, Redshift, Postgres, and ClickHouse for storage, and Google Analytics 4, Google Ads, HubSpot, Salesforce, Mixpanel, PostHog, Amplitude, SendGrid, Resend, Hotjar, Microsoft Clarity, and webhooks downstream. Jitsu Functions run in a JavaScript runtime with access to npm packages and key-value storage, so events can be filtered, enriched, or rewritten before delivery. Other documented features include identity stitching, user profiles, sessions, deduplication, schema management, live event debugging, event backups, and a provisioned ClickHouse option.\n\nBilling counts active events, meaning events delivered to at least one destination. Captured events are always free, and a filtering function can drop noise before it counts. The free cloud plan includes 200,000 active events a month and one daily active sync. Business at USD 99 a month includes 2 million active events, then USD 40 per additional million, plus five monthly active syncs at USD 20 each after that. Enterprise is custom. Self-hosting the MIT-licensed code is free with no usage limits, and deployment options cover Jitsu Cloud, a managed single-tenant private cloud on GCP or AWS, and on-premises. The company went through YC S20 and is based in New York City.",
+   "description": "Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with {stars:jitsu} GitHub stars on GitHub. It captures events from web, mobile, and server code through an HTML snippet, JavaScript and npm packages, React and React Native SDKs, iOS and Android SDKs, an HTTP API, a pixel API, and a Segment proxy, then routes them to warehouses and SaaS tools. The destination catalog covers BigQuery, Snowflake, Redshift, Postgres, and ClickHouse for storage, and Google Analytics 4, Google Ads, HubSpot, Salesforce, Mixpanel, PostHog, Amplitude, SendGrid, Resend, Hotjar, Microsoft Clarity, and webhooks downstream. Jitsu Functions run in a JavaScript runtime with access to npm packages and key-value storage, so events can be filtered, enriched, or rewritten before delivery. Other documented features include identity stitching, user profiles, sessions, deduplication, schema management, live event debugging, event backups, and a provisioned ClickHouse option.\n\nBilling counts active events, meaning events delivered to at least one destination. Captured events are always free, and a filtering function can drop noise before it counts. The free cloud plan includes 200,000 active events a month and one daily active sync. Business at USD 99 a month includes 2 million active events, then USD 40 per additional million, plus five monthly active syncs at USD 20 each after that. Enterprise is custom. Self-hosting the MIT-licensed code is free with no usage limits, and deployment options cover Jitsu Cloud, a managed single-tenant private cloud on GCP or AWS, and on-premises. The company went through YC S20 and is based in New York City.",
    "pricing_model": "freemium",
    "price_from": 0,
    "price_notes": "Free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits.",
@@ -8958,7 +8958,7 @@
    "open_source": true,
    "license": "MIT",
    "github_repo": "jitsucom/jitsu",
-   "github_stars": 5094,
+   "github_stars": 5096,
    "ai_features": [
     "MCP Server for agent-driven setup"
    ],
@@ -8987,7 +8987,7 @@
     "cons": [
      "The free cloud plan caps connectors at one daily active sync, so anything past event streaming sits on a paid plan.",
      "Multiplexed and filtered events have billing edge cases that need reading the FAQ before budgeting.",
-     "Community support is the open-source path; the repository is active but not huge at 5094 GitHub stars."
+     "Community support is the open-source path; the repository is active but not huge at {stars:jitsu} GitHub stars."
     ],
     "pros_extra": [
      "Captured events are unlimited and free on every plan, so ingest volume alone never drives cost.",
@@ -9009,8 +9009,8 @@
      ]
     ]
    },
-   "github_forks": 404,
-   "github_checked": "2026-10-01",
+   "github_forks": 403,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/jitsu/"
   },
   {
@@ -9032,9 +9032,9 @@
    "date_added": "2026-10-01",
    "date_updated": "2026-10-01",
    "github_repo": "rudderlabs/rudder-server",
-   "github_stars": 4495,
-   "github_forks": 72,
-   "github_checked": "2026-10-01",
+   "github_stars": 4494,
+   "github_forks": 73,
+   "github_checked": "2026-10-02",
    "api_available": true,
    "ai_features": [],
    "integrations": [
@@ -9111,7 +9111,7 @@
    "status": "active",
    "date_added": "2026-09-25",
    "date_updated": "2026-09-25",
-   "description": "Apache Unomi is a Java customer data platform and personalization engine governed by the Apache Software Foundation, licensed Apache-2.0, with 375 stars on the apache/unomi repository. It runs as an OSGi application inside Apache Karaf and speaks HTTP REST with JSON payloads, managing user profiles, the events attached to those profiles, segments, scoring plans, and a rule system that fires actions when matching events arrive. The privacy REST API is the differentiator: integrators can build interfaces that let visitors see what has been collected, withdraw consent, anonymize past and future data, or delete a profile entirely. Unomi is also the reference implementation of the OASIS Context Server (CXS) specification for exchanging profile data between systems.\n\nThe documented quick start is a Docker Compose file pairing the apache/unomi image with Elasticsearch 7.10.2 and exposing ports 8181, 9443, and 8102 behind default karaf credentials. The site states plainly that this configuration is for discovery and not for production. The current stable release is 3.0.1, with 3.1.0 in development. Unomi is built to integrate with CMS, CRM, and mobile systems over its REST API, its storage layer works with Elasticsearch or MongoDB, and new conditions and actions are added as Karaf plugins rather than by forking the core.\n\nThere is no commercial cloud tier and no vendor selling support. Teams run it themselves and own the operations work. The project carries no licence fee and no paid feature tier, and the trade is a small community and a Java-heavy skill profile for full control over profile data.",
+   "description": "Apache Unomi is a Java customer data platform and personalization engine governed by the Apache Software Foundation, licensed Apache-2.0, with {stars:apache-unomi} stars on the apache/unomi repository. It runs as an OSGi application inside Apache Karaf and speaks HTTP REST with JSON payloads, managing user profiles, the events attached to those profiles, segments, scoring plans, and a rule system that fires actions when matching events arrive. The privacy REST API is the differentiator: integrators can build interfaces that let visitors see what has been collected, withdraw consent, anonymize past and future data, or delete a profile entirely. Unomi is also the reference implementation of the OASIS Context Server (CXS) specification for exchanging profile data between systems.\n\nThe documented quick start is a Docker Compose file pairing the apache/unomi image with Elasticsearch 7.10.2 and exposing ports 8181, 9443, and 8102 behind default karaf credentials. The site states plainly that this configuration is for discovery and not for production. The current stable release is 3.0.1, with 3.1.0 in development. Unomi is built to integrate with CMS, CRM, and mobile systems over its REST API, its storage layer works with Elasticsearch or MongoDB, and new conditions and actions are added as Karaf plugins rather than by forking the core.\n\nThere is no commercial cloud tier and no vendor selling support. Teams run it themselves and own the operations work. The project carries no licence fee and no paid feature tier, and the trade is a small community and a Java-heavy skill profile for full control over profile data.",
    "pricing_model": "open-source",
    "price_from": 0,
    "price_notes": "Free self-hosted Apache project; no commercial cloud tier",
@@ -9133,7 +9133,7 @@
     "hands_on": [
      "Assessed from unomi.apache.org and the project manual in September 2026, not from a running deployment. The quick start is a Docker Compose file pairing apache/unomi with Elasticsearch 7.10.2, and the site warns that the configuration is meant for discovery rather than production. The stack underneath is Java, OSGi, and Apache Karaf, which sets the skill profile of whoever ends up running it.",
      "The privacy story is the reason to look at Unomi at all. A privacy REST API backs consent management, data access requests, anonymization of past and future events, and full profile deletion, and none of it ships with a default UI. Teams get the endpoints and build the visitor-facing screens themselves. That is more work than a consent checkbox and more control than most CDPs hand over.",
-     "The project is the reference implementation of the OASIS Context Server specification, and extension happens by plugging new conditions and actions into Karaf. Version 3.0.1 is the current stable. The repository carries 375 stars, which is small for a CDP, so expect fewer third-party guides, fewer integrations off the shelf, and a narrower hiring pool than the commercial alternatives."
+     "The project is the reference implementation of the OASIS Context Server specification, and extension happens by plugging new conditions and actions into Karaf. Version 3.0.1 is the current stable. The repository carries {stars:apache-unomi} stars, which is small for a CDP, so expect fewer third-party guides, fewer integrations off the shelf, and a narrower hiring pool than the commercial alternatives."
     ],
     "verdict": "A real CDP with privacy controls that you fully own and fully operate. The price is Java operations work and a small ecosystem, measured in attention rather than dollars.",
     "best_for": "Organizations that need profile management and personalization on their own infrastructure, especially those with GDPR obligations and Java or OSGi skills in-house.",
@@ -9141,7 +9141,7 @@
     "cons": [
      "No commercial cloud tier and no paid support exist, so every operational problem belongs to your team.",
      "The quick start is a discovery setup; production hardening is documented but manual, and there is no default UI for privacy or configuration.",
-     "375 GitHub stars means a small contributor base and little third-party tooling around the core."
+     "{stars:apache-unomi} GitHub stars means a small contributor base and little third-party tooling around the core."
     ],
     "pros_extra": [
      "The privacy REST API covers consent, anonymization, and profile deletion out of the box, with no paid tier in front of it.",
@@ -9177,7 +9177,7 @@
    "status": "active",
    "date_added": "2026-09-25",
    "date_updated": "2026-09-25",
-   "description": "GrowthBook is an open-source feature flag and A/B testing platform with 8461 GitHub stars, built warehouse-native: experiments are analyzed in your own data warehouse instead of a vendor copy of your events. Flags support attribute-based targeting and gradual rollouts, and every cloud plan includes unlimited flags, experiments, and traffic. The statistics engine runs frequentist and Bayesian analysis, and Pro adds multi-arm bandits, split URL tests, a power calculator, and customizable dashboards.\n\nCloud pricing starts at zero. Starter is free for up to 3 users and 1 project. Pro runs USD 40 per seat per month for up to 30 users and 3 projects. Enterprise is custom and adds ramp schedules, approval workflows, SSO and SCIM, exportable audit logs, and a 99.99% uptime SLA. A managed warehouse is available for teams without their own: 1 million events a month on Starter, 2 million on Pro and then USD 30 per million. Supported warehouses include Snowflake, BigQuery, Databricks, ClickHouse, Trino, and Adobe Experience Platform Query Service.\n\nThe AI surface is real and dated. A hosted MCP server at mcp.growthbook.io connects to Claude, Cursor, and VS Code over OAuth so agents can create flags and read experiment results. The AI Visual Editor is a Pro feature, GrowthBook AI usage is metered per plan, and Enterprise can bring its own LLM provider. Version 5.1 added a Slack app and contextual bandits. Self-hosting is documented alongside cloud. The repository is MIT licensed except for three enterprise directories under a separate GrowthBook Enterprise License. The company was founded in 2020 by Graham McNicoll and Jeremy Dorn.",
+   "description": "GrowthBook is an open-source feature flag and A/B testing platform with {stars:growthbook} GitHub stars, built warehouse-native: experiments are analyzed in your own data warehouse instead of a vendor copy of your events. Flags support attribute-based targeting and gradual rollouts, and every cloud plan includes unlimited flags, experiments, and traffic. The statistics engine runs frequentist and Bayesian analysis, and Pro adds multi-arm bandits, split URL tests, a power calculator, and customizable dashboards.\n\nCloud pricing starts at zero. Starter is free for up to 3 users and 1 project. Pro runs USD 40 per seat per month for up to 30 users and 3 projects. Enterprise is custom and adds ramp schedules, approval workflows, SSO and SCIM, exportable audit logs, and a 99.99% uptime SLA. A managed warehouse is available for teams without their own: 1 million events a month on Starter, 2 million on Pro and then USD 30 per million. Supported warehouses include Snowflake, BigQuery, Databricks, ClickHouse, Trino, and Adobe Experience Platform Query Service.\n\nThe AI surface is real and dated. A hosted MCP server at mcp.growthbook.io connects to Claude, Cursor, and VS Code over OAuth so agents can create flags and read experiment results. The AI Visual Editor is a Pro feature, GrowthBook AI usage is metered per plan, and Enterprise can bring its own LLM provider. Version 5.1 added a Slack app and contextual bandits. Self-hosting is documented alongside cloud. The repository is MIT licensed except for three enterprise directories under a separate GrowthBook Enterprise License. The company was founded in 2020 by Graham McNicoll and Jeremy Dorn.",
    "pricing_model": "freemium",
    "price_from": 0,
    "price_notes": "Starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million.",
@@ -9185,7 +9185,7 @@
    "open_source": true,
    "license": "MIT",
    "github_repo": "growthbook/growthbook",
-   "github_stars": 8461,
+   "github_stars": 8464,
    "ai_features": [
     "GrowthBook AI assistant (usage-metered per plan)",
     "AI Visual Editor (Pro and up)",
@@ -9238,8 +9238,8 @@
      ]
     ]
    },
-   "github_forks": 867,
-   "github_checked": "2026-10-01",
+   "github_forks": 868,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/growthbook/"
   },
   {
@@ -9251,7 +9251,7 @@
    "status": "active",
    "date_added": "2026-09-25",
    "date_updated": "2026-09-25",
-   "description": "Flagsmith is an open-source feature flag and remote configuration platform, BSD-3-Clause, with 6585 GitHub stars, operated commercially by Bullet Train Ltd out of London. Flags and remote config values are managed per environment, with segment targeting, A/B and multivariate testing, and identity evaluation against user traits. Governance carries much of the pitch: role-based access control, four-eyes change requests, scheduled flag changes, audit logs, and flag governance policies. SDKs cover the usual server, web, and mobile stacks, an Edge API serves flags close to users, and real-time flag updates keep clients current. Deployment options are cloud, self-hosted, and private cloud, with data centers listed in East Ohio, London, California, Mumbai, Sydney, and Sao Paulo.\n\nCloud pricing has a free tier up to 50,000 API requests a month. The Scale plan is USD 50 per member per month as of September 2026, shown against a list price of 60 as a launch discount, and extra API calls start at USD 50 per million. Self-hosting the open-source code costs nothing.\n\nIntegrations run deep on the observability and delivery side: Datadog, Grafana, Dynatrace, New Relic, Sentry, GitHub, GitLab, Jira, Backstage, Amplitude, and Mixpanel all have native connections. An MCP server lets AI tools manage flags in natural language, and change requests and approval workflows stay in the loop when they do. Flag hygiene automation is pitched as the fix for stale flags piling up.",
+   "description": "Flagsmith is an open-source feature flag and remote configuration platform, BSD-3-Clause, with {stars:flagsmith} GitHub stars, operated commercially by Bullet Train Ltd out of London. Flags and remote config values are managed per environment, with segment targeting, A/B and multivariate testing, and identity evaluation against user traits. Governance carries much of the pitch: role-based access control, four-eyes change requests, scheduled flag changes, audit logs, and flag governance policies. SDKs cover the usual server, web, and mobile stacks, an Edge API serves flags close to users, and real-time flag updates keep clients current. Deployment options are cloud, self-hosted, and private cloud, with data centers listed in East Ohio, London, California, Mumbai, Sydney, and Sao Paulo.\n\nCloud pricing has a free tier up to 50,000 API requests a month. The Scale plan is USD 50 per member per month as of September 2026, shown against a list price of 60 as a launch discount, and extra API calls start at USD 50 per million. Self-hosting the open-source code costs nothing.\n\nIntegrations run deep on the observability and delivery side: Datadog, Grafana, Dynatrace, New Relic, Sentry, GitHub, GitLab, Jira, Backstage, Amplitude, and Mixpanel all have native connections. An MCP server lets AI tools manage flags in natural language, and change requests and approval workflows stay in the loop when they do. Flag hygiene automation is pitched as the fix for stale flags piling up.",
    "pricing_model": "freemium",
    "price_from": 0,
    "price_notes": "Cloud free tier up to 50,000 API requests/mo. Scale USD 50/member/month (list 60, launch discount shown Sep 2026). Extra API calls from USD 50 per million. Self-hosted open source is free.",
@@ -9325,14 +9325,14 @@
    "status": "active",
    "date_added": "2026-09-25",
    "date_updated": "2026-09-25",
-   "description": "LanguageTool is an open-source writing assistant and grammar checker, licensed LGPL-2.1, with 15096 GitHub stars and a rule-based engine that covers more than 30 languages. It checks grammar, punctuation, and spelling, and its AI layer adds style and tone suggestions alongside a paraphrasing tool. The server is a Java application you run yourself, and the clients cover browser add-ons for Chrome, Firefox, Edge, and Opera, mail add-ons for Gmail, Outlook, and Apple Mail, and extensions for office suites. Self-hosting and the browser add-ons are free. Premium features on languagetool.org, which include the AI style suggestions, unlimited paraphrasing, and extra error detection, started at SEK 49.96 per month as served in Sweden in September 2026. The vendor localizes currency, and higher tiers appeared at SEK 58.25 and SEK 149.67.\n\nThe project is maintained by LanguageTooler GmbH in Hamburg, part of Learneo since 2023, so there is a company behind the community codebase. That matters for privacy discussions: the self-hosted server keeps text on your own infrastructure, while the hosted checker sends text to LanguageTool's servers.\n\nFor marketing teams the practical use is quality control on multilingual copy. Writers get a second pass before publication, and style rules push contributors toward a shared tone across English, German, French, Spanish, and dozens of other languages. It checks text; it does not manage content or translate it, and the depth of the style suggestions varies by language. Teams that publish in several languages and want consistent grammar and style checking with the option to keep text in-house will find it fits.",
+   "description": "LanguageTool is an open-source writing assistant and grammar checker, licensed LGPL-2.1, with {stars:languagetool} GitHub stars and a rule-based engine that covers more than 30 languages. It checks grammar, punctuation, and spelling, and its AI layer adds style and tone suggestions alongside a paraphrasing tool. The server is a Java application you run yourself, and the clients cover browser add-ons for Chrome, Firefox, Edge, and Opera, mail add-ons for Gmail, Outlook, and Apple Mail, and extensions for office suites. Self-hosting and the browser add-ons are free. Premium features on languagetool.org, which include the AI style suggestions, unlimited paraphrasing, and extra error detection, started at SEK 49.96 per month as served in Sweden in September 2026. The vendor localizes currency, and higher tiers appeared at SEK 58.25 and SEK 149.67.\n\nThe project is maintained by LanguageTooler GmbH in Hamburg, part of Learneo since 2023, so there is a company behind the community codebase. That matters for privacy discussions: the self-hosted server keeps text on your own infrastructure, while the hosted checker sends text to LanguageTool's servers.\n\nFor marketing teams the practical use is quality control on multilingual copy. Writers get a second pass before publication, and style rules push contributors toward a shared tone across English, German, French, Spanish, and dozens of other languages. It checks text; it does not manage content or translate it, and the depth of the style suggestions varies by language. Teams that publish in several languages and want consistent grammar and style checking with the option to keep text in-house will find it fits.",
    "pricing_model": "freemium",
    "price_from": 0,
    "price_notes": "Free self-hosted and free addons; Premium from SEK 49.96/mo as served in Sweden (currency localized by vendor), Sep 2026",
    "open_source": true,
    "license": "LGPL-2.1",
    "github_repo": "languagetool-org/LanguageTool",
-   "github_stars": 15096,
+   "github_stars": 15099,
    "ai_features": [
     "AI style and tone suggestions",
     "Paraphrasing tool",
@@ -9389,7 +9389,7 @@
     ]
    },
    "github_forks": 1584,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/languagetool/"
   },
@@ -9402,14 +9402,14 @@
    "status": "active",
    "date_added": "2026-09-25",
    "date_updated": "2026-09-25",
-   "description": "Khoj is a self-hosted AI research and writing assistant, licensed AGPL-3.0 with 37550 GitHub stars. The project calls itself an AI second brain, and the feature list backs that up: it chats with local or online models such as Llama 3, Qwen, Gemma, GPT, Claude, Gemini, and DeepSeek, and answers questions drawn from the open web and your own documents, including images, PDFs, Markdown, org-mode files, Word documents, and Notion exports. Semantic search surfaces relevant files from that archive quickly.\n\nAccess points are wide for a self-hosted tool. There is a browser interface, a desktop app, mobile access, a WhatsApp channel, and plugins for Obsidian and Emacs. Custom agents carry their own knowledge, persona, model, and tools, and automated workflows deliver personal newsletters and smart notifications by email. Image generation and voice output are included. Self-hosting is free, and a hosted option called Khoj Cloud exists, though we found no public pricing page for it in September 2026; the main site is a thin landing shell that points at the app and the docs.\n\nFor content teams the practical value is document-grounded research and drafting: chat with your own archive of briefs, reports, and notes, then turn the answers into new copy. The AGPL-3.0 license means changes to a deployed instance carry source obligations, which matters before commercial use. Khoj fits teams that want AI assistance over private documents without sending those documents to a hosted model vendor.",
+   "description": "Khoj is a self-hosted AI research and writing assistant, licensed AGPL-3.0 with {stars:khoj} GitHub stars. The project calls itself an AI second brain, and the feature list backs that up: it chats with local or online models such as Llama 3, Qwen, Gemma, GPT, Claude, Gemini, and DeepSeek, and answers questions drawn from the open web and your own documents, including images, PDFs, Markdown, org-mode files, Word documents, and Notion exports. Semantic search surfaces relevant files from that archive quickly.\n\nAccess points are wide for a self-hosted tool. There is a browser interface, a desktop app, mobile access, a WhatsApp channel, and plugins for Obsidian and Emacs. Custom agents carry their own knowledge, persona, model, and tools, and automated workflows deliver personal newsletters and smart notifications by email. Image generation and voice output are included. Self-hosting is free, and a hosted option called Khoj Cloud exists, though we found no public pricing page for it in September 2026; the main site is a thin landing shell that points at the app and the docs.\n\nFor content teams the practical value is document-grounded research and drafting: chat with your own archive of briefs, reports, and notes, then turn the answers into new copy. The AGPL-3.0 license means changes to a deployed instance carry source obligations, which matters before commercial use. Khoj fits teams that want AI assistance over private documents without sending those documents to a hosted model vendor.",
    "pricing_model": "open-source",
    "price_from": 0,
    "price_notes": "Free self-hosted; Khoj Cloud available, no public pricing page found (Sep 2026)",
    "open_source": true,
    "license": "AGPL-3.0",
    "github_repo": "khoj-ai/khoj",
-   "github_stars": 37550,
+   "github_stars": 37559,
    "ai_features": [
     "Chat with local and online LLMs",
     "Document Q&A over images, PDFs, Markdown, Word, and Notion files",
@@ -9463,8 +9463,8 @@
      ]
     ]
    },
-   "github_forks": 2498,
-   "github_checked": "2026-10-01",
+   "github_forks": 2497,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/khoj/"
   },
@@ -9477,14 +9477,14 @@
    "status": "active",
    "date_added": "2026-09-25",
    "date_updated": "2026-09-25",
-   "description": "LibreTranslate is an open-source machine translation API, licensed AGPL-3.0 with 16965 GitHub stars. It runs neural translation models through Argos Translate and serves them over a REST interface with automatic language detection, so it fits content localization pipelines that need translation as a service rather than as a website. You can self-host it with Docker or pip and run it offline, which keeps text away from third-party translation vendors and their retention policies.\n\nSelf-hosting is free. The hosted instance at libretranslate.com charges per character through an API key, but the site publishes no price page we could extract in September 2026, so hosted costs need confirming before anyone budgets for them. The API surface is documented with Swagger, and other software can point its translation backend at a LibreTranslate server; Mastodon is the common example, and public instances such as Disroot run on it.\n\nQuality is the honest trade-off. The models are smaller than the commercial engines from Google or DeepL, so output fits gisting, internal drafts, and support content better than publish-ready marketing copy in every language pair. Teams that want machine translation under their own control, with an API their code can call, get a working system at no licence cost and can layer human review on top for anything customer-facing.",
+   "description": "LibreTranslate is an open-source machine translation API, licensed AGPL-3.0 with {stars:libretranslate} GitHub stars. It runs neural translation models through Argos Translate and serves them over a REST interface with automatic language detection, so it fits content localization pipelines that need translation as a service rather than as a website. You can self-host it with Docker or pip and run it offline, which keeps text away from third-party translation vendors and their retention policies.\n\nSelf-hosting is free. The hosted instance at libretranslate.com charges per character through an API key, but the site publishes no price page we could extract in September 2026, so hosted costs need confirming before anyone budgets for them. The API surface is documented with Swagger, and other software can point its translation backend at a LibreTranslate server; Mastodon is the common example, and public instances such as Disroot run on it.\n\nQuality is the honest trade-off. The models are smaller than the commercial engines from Google or DeepL, so output fits gisting, internal drafts, and support content better than publish-ready marketing copy in every language pair. Teams that want machine translation under their own control, with an API their code can call, get a working system at no licence cost and can layer human review on top for anything customer-facing.",
    "pricing_model": "open-source",
    "price_from": 0,
    "price_notes": "Free self-hosted; hosted API billed per character on libretranslate.com (Sep 2026)",
    "open_source": true,
    "license": "AGPL-3.0",
    "github_repo": "LibreTranslate/LibreTranslate",
-   "github_stars": 16965,
+   "github_stars": 16974,
    "ai_features": [
     "Neural machine translation via Argos Translate models",
     "Automatic language detection",
@@ -9535,7 +9535,7 @@
     "hands_on_verified": true
    },
    "github_forks": 1753,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/libretranslate/"
   },
@@ -9548,7 +9548,7 @@
    "status": "active",
    "date_added": "2026-09-25",
    "date_updated": "2026-09-25",
-   "description": "PostHog is an open-source product analytics platform with 40048 GitHub stars. One install covers event analytics, session replay, feature flags, A/B testing, surveys, error tracking, a data warehouse, data pipelines, and logs. The core code is MIT licensed, while the ee/ directory carries a separate enterprise license, so the openness is real but partial. The same product runs as PostHog Cloud in US and EU regions or self-hosted.\n\nPricing is usage-based credits on top of a free tier that renews every month for every product: 1M events, 5K session recordings, 1M feature flag requests, 100K exceptions, 1,500 survey responses, 10GB of logs, and more, with no card required and usage stopping at the limits. Pay-as-you-go adds six projects, seven-year data retention, and unlimited usage. Credit add-ons were shown as USD 5, 25, and 20 packs in September 2026. The free tier is not a trial; the vendor says 97 percent of companies never pay.\n\nThe AI features are part of the product rather than a bolt-on. PostHog AI answers questions about your data in plain language across web, Slack, desktop, and MCP, with 500 free credits each month, while AI Observability and Evaluations track LLM usage and Replay Vision assists session review. Integrations cover Slack, GitHub, Zapier, Segment, Sentry, and HubSpot. For marketing and product teams that want funnels, retention, and experiments in one place, PostHog replaces a stack of separate tools and keeps the free tier large enough for real work.",
+   "description": "PostHog is an open-source product analytics platform with {stars:posthog} GitHub stars. One install covers event analytics, session replay, feature flags, A/B testing, surveys, error tracking, a data warehouse, data pipelines, and logs. The core code is MIT licensed, while the ee/ directory carries a separate enterprise license, so the openness is real but partial. The same product runs as PostHog Cloud in US and EU regions or self-hosted.\n\nPricing is usage-based credits on top of a free tier that renews every month for every product: 1M events, 5K session recordings, 1M feature flag requests, 100K exceptions, 1,500 survey responses, 10GB of logs, and more, with no card required and usage stopping at the limits. Pay-as-you-go adds six projects, seven-year data retention, and unlimited usage. Credit add-ons were shown as USD 5, 25, and 20 packs in September 2026. The free tier is not a trial; the vendor says 97 percent of companies never pay.\n\nThe AI features are part of the product rather than a bolt-on. PostHog AI answers questions about your data in plain language across web, Slack, desktop, and MCP, with 500 free credits each month, while AI Observability and Evaluations track LLM usage and Replay Vision assists session review. Integrations cover Slack, GitHub, Zapier, Segment, Sentry, and HubSpot. For marketing and product teams that want funnels, retention, and experiments in one place, PostHog replaces a stack of separate tools and keeps the free tier large enough for real work.",
    "pricing_model": "freemium",
    "price_from": 0,
    "price_notes": "Full free tier on every product every month; usage-based credits beyond it (Sep 2026)",
@@ -9556,7 +9556,7 @@
    "open_source": true,
    "license": "MIT",
    "github_repo": "PostHog/posthog",
-   "github_stars": 40048,
+   "github_stars": 40086,
    "ai_features": [
     "PostHog AI assistant for natural language queries (500 free credits per month)",
     "AI Observability and LLM Evaluations",
@@ -9613,8 +9613,8 @@
      ]
     ]
    },
-   "github_forks": 3454,
-   "github_checked": "2026-10-01",
+   "github_forks": 3465,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/posthog/"
   },
   {
@@ -9677,8 +9677,8 @@
      ]
     ]
    },
-   "github_forks": 613,
-   "github_checked": "2026-10-01",
+   "github_forks": 614,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/revive-adserver/"
   },
@@ -9698,7 +9698,7 @@
    "open_source": true,
    "license": "MIT",
    "github_repo": "eliasdabbas/advertools",
-   "github_stars": 1469,
+   "github_stars": 1470,
    "ai_features": [
     "Claude SERP analytics module (advertools.serp_claude), added in v0.18.0"
    ],
@@ -9744,8 +9744,8 @@
     ],
     "hands_on_verified": true
    },
-   "github_forks": 256,
-   "github_checked": "2026-10-01",
+   "github_forks": 257,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/advertools/"
   },
@@ -9765,7 +9765,7 @@
    "open_source": true,
    "license": "MIT",
    "github_repo": "promptfoo/promptfoo",
-   "github_stars": 25602,
+   "github_stars": 25631,
    "ai_features": [
     "Model-graded evals where one LLM scores another's answers",
     "Automated red team probe generation against AI applications",
@@ -9815,8 +9815,8 @@
      ]
     ]
    },
-   "github_forks": 2415,
-   "github_checked": "2026-10-01",
+   "github_forks": 2422,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/promptfoo/"
   },
@@ -9858,9 +9858,9 @@
      "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
     ]
    },
-   "github_stars": 24823,
-   "github_forks": 4279,
-   "github_checked": "2026-10-01",
+   "github_stars": 24836,
+   "github_forks": 4286,
+   "github_checked": "2026-10-02",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/activepieces/"
   },
@@ -10044,7 +10044,7 @@
     "Claude Code"
    ],
    "github_repo": "zubair-trabzada/ai-marketing-claude",
-   "github_stars": 2695,
+   "github_stars": 2699,
    "open_source": true,
    "api_available": false,
    "founded": 2025,
@@ -10076,8 +10076,8 @@
    "license": "MIT",
    "kind": "Agent Skill",
    "currency": "USD",
-   "github_forks": 712,
-   "github_checked": "2026-10-01",
+   "github_forks": 713,
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/ai-marketing-claude/"
   },
   {
@@ -10107,7 +10107,7 @@
     "OpenClaw"
    ],
    "github_repo": "indranilbanerjee/digital-marketing-pro",
-   "github_stars": 842,
+   "github_stars": 843,
    "open_source": true,
    "api_available": true,
    "founded": 2025,
@@ -10141,7 +10141,7 @@
    "kind": "Agent Skill",
    "currency": "USD",
    "github_forks": 139,
-   "github_checked": "2026-10-01",
+   "github_checked": "2026-10-02",
    "page_url": "https://martechsignal.com/tools/digital-marketing-pro/"
   }
  ]

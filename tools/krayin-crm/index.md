@@ -16,10 +16,10 @@
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $1799 one-time |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module) |  |
-| ✓ Active public repository (23,965 GitHub stars counted at last check) |  |
+| ✓ Active public repository (23,964 GitHub stars counted at last check) |  |
 
 **What is Krayin CRM?**
-Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 23,965 stars.
+Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 23,964 stars.
 
 **How much does Krayin CRM cost?**
 Krayin CRM has a free tier; paid plans start at $1799 one-time. Free to self-host under MIT with no user limits. Paid: Webkul extensions (multi-tenant SaaS at $1,799 for Krayin 2.1.0; other extension prices unlisted) and vendor cloud hosting with no published prices. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
@@ -35,9 +35,9 @@ Yes, through the built-in import and export layer (the DataTransfer package), wh
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 23965
+- **GitHub:** ★ 23964
 - **API:** Yes
-- **Repository checked:** 2026-10-01
+- **Repository checked:** 2026-10-02
 - **Page updated:** 2026-09-07
 
 **Verdict:** Krayin CRM is a tool in CRM with free and open source. The catalog documents 2 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
@@ -157,7 +157,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 23,965 stars.
+Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 23,964 stars.
 
 Krayin CRM has a free tier; paid plans start at $1799 one-time. Free to self-host under MIT with no user limits. Paid: Webkul extensions (multi-tenant SaaS at $1,799 for Krayin 2.1.0; other extension prices unlisted) and vendor cloud hosting with no published prices. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
@@ -262,7 +262,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Krayin CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 23,965 stars."
+          "text": "Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 23,964 stars."
         }
       },
       {

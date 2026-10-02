@@ -108,12 +108,12 @@ We will refresh the tracker as the catalog snapshots accumulate. If a project in
 ## Related tools
 
 - [Growth Lab](/tools/growth-lab/) - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
-- [Postmark](/tools/postmark/) - Transactional email API with separated message streams, an MCP server, and published delivery numbers
-- [PostHog](/tools/posthog/) - Open-source product analytics platform with session replay, feature flags, experiments, and surveys
+- [SEO Skill Bench](/tools/seo-skill-bench/) - Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+- [n8n](/tools/n8n/) - Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 ## Glossary terms
 
 - [DMP](/glossary/dmp/)

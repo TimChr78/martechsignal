@@ -15,11 +15,11 @@
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $12/mo once past the free tier |
 | ✓ AI capabilities: nocoAI prompt-based schema, table, view and formula generation (paid) |  |
-| ✓ Active public repository (65,137 GitHub stars counted at last check) |  |
+| ✓ Active public repository (65,151 GitHub stars counted at last check) |  |
 | ✓ Native integrations include PostgreSQL, MySQL, SQLite (8 listed) |  |
 
 **What is NocoDB?**
-NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 65,137 stars.
+NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 65,151 stars.
 
 **How much does NocoDB cost?**
 NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
@@ -38,9 +38,9 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 
 - **Pricing:** Free tier
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 65137
+- **GitHub:** ★ 65151
 - **API:** Yes
-- **Repository checked:** 2026-10-01
+- **Repository checked:** 2026-10-02
 - **Page updated:** 2026-09-07
 
 **Verdict:** NocoDB is a tool in Marketing Automation with free and open source. The catalog documents 3 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
@@ -97,7 +97,7 @@ Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It is the largest project in this class at 65137 GitHub stars, with calendar-versioned releases (2026.08.2 shipped September 3, 2026). The license comes first: NocoDB is published under the Sustainable Use License, a fair-code, source-available license rather than an OSI-approved one. Internal business use is fine and self-hosting is free with unlimited records and seats, but offering it to others as a hosted service requires a commercial license, so the open source label on the marketing site overstates it. Self-hosting is a one-command job: the docs quickstart brings up a compose stack (NocoDB, a background worker, Postgres, Redis) on port 8080, or you can run the Docker image against an existing Postgres by setting NC_DB. Docs list 2 vCPU and 2 GB RAM as the minimum. For marketing teams the fit is the spreadsheet sprawl that runs campaign ops: content calendars, launch checklists, partner and influencer trackers, budget tables and lead lists, with forms feeding them and webhooks pushing changes into the rest of the stack. Community edition includes the six core views, conditional webhooks with custom payloads, and two workflows per base; timeline, gantt and list views, the AI field types, most integrations (Slack, SES, S3) and sources beyond Postgres and MySQL (SQL Server, Oracle) are paid. Cloud plans run from a free three-user tier through Plus at $12 per seat monthly billed annually to Business at $24 with external database connections and SAML SSO. Compared with NocoBase or Budibase it is much faster to value, and compared with Airtable you trade polish and the integration catalog for ownership and SQL access. This assessment is based on the documented architecture and public materials.
+NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It is the largest project in this class at 65,151 GitHub stars, with calendar-versioned releases (2026.08.2 shipped September 3, 2026). The license comes first: NocoDB is published under the Sustainable Use License, a fair-code, source-available license rather than an OSI-approved one. Internal business use is fine and self-hosting is free with unlimited records and seats, but offering it to others as a hosted service requires a commercial license, so the open source label on the marketing site overstates it. Self-hosting is a one-command job: the docs quickstart brings up a compose stack (NocoDB, a background worker, Postgres, Redis) on port 8080, or you can run the Docker image against an existing Postgres by setting NC_DB. Docs list 2 vCPU and 2 GB RAM as the minimum. For marketing teams the fit is the spreadsheet sprawl that runs campaign ops: content calendars, launch checklists, partner and influencer trackers, budget tables and lead lists, with forms feeding them and webhooks pushing changes into the rest of the stack. Community edition includes the six core views, conditional webhooks with custom payloads, and two workflows per base; timeline, gantt and list views, the AI field types, most integrations (Slack, SES, S3) and sources beyond Postgres and MySQL (SQL Server, Oracle) are paid. Cloud plans run from a free three-user tier through Plus at $12 per seat monthly billed annually to Business at $24 with external database connections and SAML SSO. Compared with NocoBase or Budibase it is much faster to value, and compared with Airtable you trade polish and the integration catalog for ownership and SQL access. This assessment is based on the documented architecture and public materials.
 
 NocoDB homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -174,7 +174,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 65,137 stars.
+NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 65,151 stars.
 
 NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
@@ -282,7 +282,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is NocoDB?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 65,137 stars."
+          "text": "NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 65,151 stars."
         }
       },
       {

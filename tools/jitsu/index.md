@@ -15,17 +15,17 @@
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ The free cloud plan caps connectors at one daily active sync, so anything past event streaming sits on a paid plan. |
 | ✓ AI capabilities: MCP Server for agent-driven setup | ✗ Multiplexed and filtered events have billing edge cases that need reading the FAQ before budgeting. |
-| ✓ Active public repository (5,094 GitHub stars counted at last check) | ✗ Community support is the open-source path; the repository is active but not huge at 5094 GitHub stars. |
+| ✓ Active public repository (5,096 GitHub stars counted at last check) | ✗ Community support is the open-source path; the repository is active but not huge at 5,096 GitHub stars. |
 | ✓ Native integrations include BigQuery, Snowflake, Google Analytics 4 (6 listed) |  |
 | ✓ Captured events are unlimited and free on every plan, so ingest volume alone never drives cost. |  |
 | ✓ Self-hosting the MIT-licensed code carries no usage limits and no licence fee. |  |
 | ✓ Deployment covers Jitsu Cloud, managed single-tenant private cloud on GCP or AWS, and on-premises as one product. |  |
 
 **What is Jitsu?**
-Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,094 stars.
+Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,096 stars.
 
 **How much does Jitsu cost?**
-Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,094 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences.
+Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,096 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences.
 
 **Is Jitsu worth it past the free tier?**
 The strongest option for teams that want Segment-like event collection with warehouse ownership and an open-source escape hatch. Read the active event rules before estimating the bill.
@@ -41,11 +41,11 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 
 - **Pricing:** Freemium
 - **Category:** [Personalization & CDP](/categories/personalization/)
-- **GitHub:** ★ 5094
+- **GitHub:** ★ 5096
 - **Founded:** 2020
 - **HQ:** New York City, United States (YC S20)
 - **API:** Yes
-- **Repository checked:** 2026-10-01
+- **Repository checked:** 2026-10-02
 - **Page updated:** 2026-09-25
 
 **Verdict:** Jitsu is a tool in Personalization & CDP with free and open source. The catalog documents 1 AI feature, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
@@ -96,7 +96,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5094 GitHub stars on GitHub. It captures events from web, mobile, and server code through an HTML snippet, JavaScript and npm packages, React and React Native SDKs, iOS and Android SDKs, an HTTP API, a pixel API, and a Segment proxy, then routes them to warehouses and SaaS tools. The destination catalog covers BigQuery, Snowflake, Redshift, Postgres, and ClickHouse for storage, and Google Analytics 4, Google Ads, HubSpot, Salesforce, Mixpanel, PostHog, Amplitude, SendGrid, Resend, Hotjar, Microsoft Clarity, and webhooks downstream. Jitsu Functions run in a JavaScript runtime with access to npm packages and key-value storage, so events can be filtered, enriched, or rewritten before delivery. Other documented features include identity stitching, user profiles, sessions, deduplication, schema management, live event debugging, event backups, and a provisioned ClickHouse option. Billing counts active events, meaning events delivered to at least one destination. Captured events are always free, and a filtering function can drop noise before it counts. The free cloud plan includes 200,000 active events a month and one daily active sync. Business at USD 99 a month includes 2 million active events, then USD 40 per additional million, plus five monthly active syncs at USD 20 each after that. Enterprise is custom. Self-hosting the MIT-licensed code is free with no usage limits, and deployment options cover Jitsu Cloud, a managed single-tenant private cloud on GCP or AWS, and on-premises. The company went through YC S20 and is based in New York City.
+Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,096 GitHub stars on GitHub. It captures events from web, mobile, and server code through an HTML snippet, JavaScript and npm packages, React and React Native SDKs, iOS and Android SDKs, an HTTP API, a pixel API, and a Segment proxy, then routes them to warehouses and SaaS tools. The destination catalog covers BigQuery, Snowflake, Redshift, Postgres, and ClickHouse for storage, and Google Analytics 4, Google Ads, HubSpot, Salesforce, Mixpanel, PostHog, Amplitude, SendGrid, Resend, Hotjar, Microsoft Clarity, and webhooks downstream. Jitsu Functions run in a JavaScript runtime with access to npm packages and key-value storage, so events can be filtered, enriched, or rewritten before delivery. Other documented features include identity stitching, user profiles, sessions, deduplication, schema management, live event debugging, event backups, and a provisioned ClickHouse option. Billing counts active events, meaning events delivered to at least one destination. Captured events are always free, and a filtering function can drop noise before it counts. The free cloud plan includes 200,000 active events a month and one daily active sync. Business at USD 99 a month includes 2 million active events, then USD 40 per additional million, plus five monthly active syncs at USD 20 each after that. Enterprise is custom. Self-hosting the MIT-licensed code is free with no usage limits, and deployment options cover Jitsu Cloud, a managed single-tenant private cloud on GCP or AWS, and on-premises. The company went through YC S20 and is based in New York City.
 
 ## AI Capabilities
 
@@ -152,9 +152,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,094 stars.
+Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,096 stars.
 
-Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,094 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences.
+Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,096 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences.
 
 The strongest option for teams that want Segment-like event collection with warehouse ownership and an open-source escape hatch. Read the active event rules before estimating the bill.
 
@@ -251,7 +251,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Jitsu?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,094 stars."
+          "text": "Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,096 stars."
         }
       },
       {
@@ -259,7 +259,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Jitsu cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,094 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences."
+          "text": "Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,096 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences."
         }
       },
       {

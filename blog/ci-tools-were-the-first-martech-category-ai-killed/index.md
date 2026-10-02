@@ -138,7 +138,7 @@ Our directory breaks down martech tools by what they actually deliver: static re
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [EspoCRM](/tools/espocrm/)
+More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

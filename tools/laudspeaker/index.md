@@ -31,7 +31,7 @@ The open-source Braze alternative for technical growth teams that want data owne
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
 - **GitHub:** ★ 2628
 - **API:** Yes
-- **Repository checked:** 2026-10-01
+- **Repository checked:** 2026-10-02
 - **Page updated:** 2026-08-28
 
 **Verdict:** Laudspeaker is a tool in Marketing Automation with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
@@ -88,7 +88,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Designed as an open-source customer engagement and product onboarding platform, Laudspeaker helps teams automate lifecycle messaging without locking their data into a proprietary stack. It supports behavioral triggers, customer journey automation, and AI-powered messaging, allowing marketers and product teams to build sequences such as welcome flows, activation campaigns, re-engagement emails, in-app messages, and lifecycle nudges based on user actions. Because the platform is self-hostable and has an active GitHub presence with more than 2,626 stars, engineering teams can inspect the codebase, extend functionality, and connect it directly to their own data infrastructure through its API. The platform is aimed at startups, technical growth teams, and companies that want more control over their marketing automation stack than a closed SaaS tool typically provides. Its open-source model is the main differentiator: while commercial alternatives such as Braze offer polished hosted infrastructure and enterprise support, Laudspeaker offers a lower-cost entry point and greater flexibility for teams willing to manage deployment and maintenance. Pricing includes a free open-source self-hosted option, with cloud plans available for organizations that prefer managed hosting. AI capabilities are practical rather than experimental, focusing on message generation, trigger-based automation, and journey orchestration. Best for technical marketing and product teams that need an open-source alternative to Braze for customer engagement, onboarding automation, and behavioral messaging.
+Designed as an open-source customer engagement and product onboarding platform, Laudspeaker helps teams automate lifecycle messaging without locking their data into a proprietary stack. It supports behavioral triggers, customer journey automation, and AI-powered messaging, allowing marketers and product teams to build sequences such as welcome flows, activation campaigns, re-engagement emails, in-app messages, and lifecycle nudges based on user actions. Because the platform is self-hostable and has an active GitHub presence with more than 2,628 stars, engineering teams can inspect the codebase, extend functionality, and connect it directly to their own data infrastructure through its API. The platform is aimed at startups, technical growth teams, and companies that want more control over their marketing automation stack than a closed SaaS tool typically provides. Its open-source model is the main differentiator: while commercial alternatives such as Braze offer polished hosted infrastructure and enterprise support, Laudspeaker offers a lower-cost entry point and greater flexibility for teams willing to manage deployment and maintenance. Pricing includes a free open-source self-hosted option, with cloud plans available for organizations that prefer managed hosting. AI capabilities are practical rather than experimental, focusing on message generation, trigger-based automation, and journey orchestration. Best for technical marketing and product teams that need an open-source alternative to Braze for customer engagement, onboarding automation, and behavioral messaging.
 
 ## AI Capabilities
 
@@ -105,7 +105,7 @@ Free open-source self-hosted; cloud plans available
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-Laudspeaker is the open-source Braze alternative: self-hosted customer engagement with behavioral triggers, journey automation, welcome and activation flows, re-engagement emails, and in-app messages, with data that stays yours and an API your engineers can extend. More than 2,626 stars and an active repo keep it alive, and cloud plans exist if you prefer managed hosting over running it yourself. The onboarding flows cover the standard product-led growth playbook out of the box.
+Laudspeaker is the open-source Braze alternative: self-hosted customer engagement with behavioral triggers, journey automation, welcome and activation flows, re-engagement emails, and in-app messages, with data that stays yours and an API your engineers can extend. More than 2,628 stars and an active repo keep it alive, and cloud plans exist if you prefer managed hosting over running it yourself. The onboarding flows cover the standard product-led growth playbook out of the box.
 
 The open-source bargain applies: deployment, maintenance, and reliability land on your team, and the message templates and channel coverage are thinner than Braze's catalog. It suits technical growth teams and privacy-constrained companies where lock-in is the bigger risk than ops effort. Non-technical marketers will bounce off the setup, and enterprises that need support should stay hosted. Judge your team's ability to run services before choosing self-hosted over cloud.
 
@@ -140,8 +140,8 @@ The open-source Braze alternative for technical growth teams that want data owne
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ## Also featured in
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Lifecycle messaging and onboarding journeys that live outside the CRM

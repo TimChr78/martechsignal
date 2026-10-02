@@ -27,7 +27,7 @@ Notifo is open source - MIT licensed and free to self-host; the public repositor
 Well-designed notification middleware with a genuine multi-channel model, undermined by a release gap: code moves, but the last release and images are from 2022. Build from source or look elsewhere.
 
 **Is Notifo still maintained?**
-Partly, and the distinction matters. Commits continue: the most recent landed in August 2026 (a security fix) and the backend was migrated to .NET 10 in June 2026. But the last tagged release is 1.3.0 from November 2022, and the Docker Hub images under squidex/notifo were last pushed about four years ago, so nothing installable reflects the recent work. With 879 stars and a small maintainer group, treat it as a project you may need to build and patch yourself.
+Partly, and the distinction matters. Commits continue: the most recent landed in August 2026 (a security fix) and the backend was migrated to .NET 10 in June 2026. But the last tagged release is 1.3.0 from November 2022, and the Docker Hub images under squidex/notifo were last pushed about four years ago, so nothing installable reflects the recent work. With {stars:notifo} stars and a small maintainer group, treat it as a project you may need to build and patch yourself.
 
 **Does Notifo work with SendGrid, Mailgun or Twilio?**
 Not as documented providers. Email goes through Amazon SES, SMS through MessageBird, and mobile push through Firebase, with web push custom-built; the README explicitly asks for contributions toward other email providers. There is no Twilio or SendGrid integration in the configuration or documentation. If those providers are requirements, you would need to write the integration yourself, or front Notifo with an SMTP relay that hides the provider behind SES-compatible SMTP settings.
@@ -49,10 +49,6 @@ Customer.io
 
 Data-driven messaging platform for automated email, push, SMS, and in-app messages
 
-Mautic
-
-Open-source marketing automation platform with email, campaigns, and lead management
-
 BillionMail
 
 Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
@@ -60,6 +56,10 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 Notifuse
 
 Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+
+Loops
+
+Email marketing for SaaS: marketing, product, and transactional email in one tool
 
 Listmonk
 
@@ -171,7 +171,7 @@ Notifo is open source - MIT licensed and free to self-host; the public repositor
 
 Well-designed notification middleware with a genuine multi-channel model, undermined by a release gap: code moves, but the last release and images are from 2022. Build from source or look elsewhere.
 
-Partly, and the distinction matters. Commits continue: the most recent landed in August 2026 (a security fix) and the backend was migrated to .NET 10 in June 2026. But the last tagged release is 1.3.0 from November 2022, and the Docker Hub images under squidex/notifo were last pushed about four years ago, so nothing installable reflects the recent work. With 879 stars and a small maintainer group, treat it as a project you may need to build and patch yourself.
+Partly, and the distinction matters. Commits continue: the most recent landed in August 2026 (a security fix) and the backend was migrated to .NET 10 in June 2026. But the last tagged release is 1.3.0 from November 2022, and the Docker Hub images under squidex/notifo were last pushed about four years ago, so nothing installable reflects the recent work. With {stars:notifo} stars and a small maintainer group, treat it as a project you may need to build and patch yourself.
 
 Not as documented providers. Email goes through Amazon SES, SMS through MessageBird, and mobile push through Firebase, with web push custom-built; the README explicitly asks for contributions toward other email providers. There is no Twilio or SendGrid integration in the configuration or documentation. If those providers are requirements, you would need to write the integration yourself, or front Notifo with an SMTP relay that hides the provider behind SES-compatible SMTP settings.
 
@@ -282,7 +282,7 @@ One email when a new tool review lands, nothing else.
         "name": "Is Notifo still maintained?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Partly, and the distinction matters. Commits continue: the most recent landed in August 2026 (a security fix) and the backend was migrated to .NET 10 in June 2026. But the last tagged release is 1.3.0 from November 2022, and the Docker Hub images under squidex/notifo were last pushed about four years ago, so nothing installable reflects the recent work. With 879 stars and a small maintainer group, treat it as a project you may need to build and patch yourself."
+          "text": "Partly, and the distinction matters. Commits continue: the most recent landed in August 2026 (a security fix) and the backend was migrated to .NET 10 in June 2026. But the last tagged release is 1.3.0 from November 2022, and the Docker Hub images under squidex/notifo were last pushed about four years ago, so nothing installable reflects the recent work. With {stars:notifo} stars and a small maintainer group, treat it as a project you may need to build and patch yourself."
         }
       },
       {

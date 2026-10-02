@@ -31,7 +31,7 @@ Free and fast if tracking keeps slipping through the cracks. Review every schema
 - **GitHub:** ★ 141
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-02
 - **Page updated:** 2026-08-28
 
 **Verdict:** Analytics Tracking Automation is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed

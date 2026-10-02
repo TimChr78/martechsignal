@@ -13,26 +13,26 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ Elastic License 2.0 licence with free self-hosting | ✗ Young project (181 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ Elastic License 2.0 licence with free self-hosting | ✗ Young project (190 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ API access for custom integrations |  |
 | ✓ API access for custom integrations |  |
 
 **What is AlphOne?**
-AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 181 stars. AlphOne offers a public API for custom integrations.
+AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 190 stars. AlphOne offers a public API for custom integrations.
 
 **How much does AlphOne cost?**
-AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 181 stars. Check the licence terms before commercial use.
+AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 190 stars. Check the licence terms before commercial use.
 
 **Is AlphOne a good self-hosted CRM tool in 2026?**
 An API-first CRM built to be driven by n8n and AI agents rather than replace them. Early-stage, split-licensed, and best judged as a foundation for an automated stack.
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 181
+- **GitHub:** ★ 190
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-02
 - **Page updated:** 2026-09-06
 
 **Verdict:** AlphOne is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
@@ -139,9 +139,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 181 stars. AlphOne offers a public API for custom integrations.
+AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 190 stars. AlphOne offers a public API for custom integrations.
 
-AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 181 stars. Check the licence terms before commercial use.
+AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 190 stars. Check the licence terms before commercial use.
 
 An API-first CRM built to be driven by n8n and AI agents rather than replace them. Early-stage, split-licensed, and best judged as a foundation for an automated stack.
 
@@ -150,8 +150,8 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -226,7 +226,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is AlphOne?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 181 stars. AlphOne offers a public API for custom integrations."
+          "text": "AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 190 stars. AlphOne offers a public API for custom integrations."
         }
       },
       {
@@ -234,7 +234,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does AlphOne cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 181 stars. Check the licence terms before commercial use."
+          "text": "AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 190 stars. Check the licence terms before commercial use."
         }
       },
       {

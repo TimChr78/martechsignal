@@ -15,11 +15,11 @@
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $39/mo |
 | ✓ AI capabilities: LLM chaining |  |
-| ✓ Active public repository (147,332 GitHub stars counted at last check) |  |
+| ✓ Active public repository (147,371 GitHub stars counted at last check) |  |
 | ✓ Native integrations include OpenAI, Anthropic, Google AI (10 listed) |  |
 
 **What is LangChain?**
-LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 147,332 stars.
+LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 147,371 stars.
 
 **How much does LangChain cost?**
 LangChain has a free tier; paid plans start at $39/mo. Open source (MIT license); LangSmith free tier, paid plans from $39/mo; LangGraph Cloud from $39/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
@@ -29,11 +29,11 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 
 - **Pricing:** Open Source
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 147332
+- **GitHub:** ★ 147371
 - **Founded:** 2022
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
-- **Repository checked:** 2026-10-01
+- **Repository checked:** 2026-10-02
 - **Page updated:** 2026-08-28
 
 **Verdict:** LangChain is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 10 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
@@ -84,7 +84,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 ## MartechSignal Score: 47/60
 
-LangChain is the agent framework everything else measures against: 147332 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.
+LangChain is the agent framework everything else measures against: 147,371 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 147,332 stars.
+LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 147,371 stars.
 
 LangChain has a free tier; paid plans start at $39/mo. Open source (MIT license); LangSmith free tier, paid plans from $39/mo; LangGraph Cloud from $39/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
@@ -157,7 +157,7 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -241,7 +241,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is LangChain?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 147,332 stars."
+          "text": "LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 147,371 stars."
         }
       },
       {
@@ -277,7 +277,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "LangChain is the agent framework everything else measures against: 147332 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.",
+    "reviewBody": "LangChain is the agent framework everything else measures against: 147,371 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/langchain/#app",
