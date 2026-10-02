@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2026 18:35:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 05:14:59 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing</title>
+      <link>https://martechsignal.com/blog/sqreem-behavioral-model-vs-llm/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/sqreem-behavioral-model-vs-llm/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>On September 23, 2026, the behavioral intelligence company SQREEM appointed Stephen Yap as CEO and handed him a contrarian pitch to sell: the company's Large Behavioral Model, a…</description>
+    </item>
     <item>
       <title>Rethink, not rebuild: Jon Miller and the replatform-for-AI trap</title>
       <link>https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/</link>

@@ -75,7 +75,7 @@ Plugin-first CRM (source-available, Elastic 2.0) written in Go
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Frappe CRM
-Re-check pending: pricing last verified 2026-09-06 (25 days ago).
+Re-check pending: pricing last verified 2026-09-06 (26 days ago).
 
 ## Frappe CRM review (2026): pricing, AI features, verdict
 
@@ -83,7 +83,7 @@ Fully featured, open source CRM
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Frappe CRM →](https://frappe.io/crm)
 
@@ -215,7 +215,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/frappe-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-25",
     "offers": [
       {
@@ -359,7 +359,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/frappe-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/frappe-crm/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/frappe-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/frappe-crm/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

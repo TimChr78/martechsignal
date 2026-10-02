@@ -145,7 +145,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI CRM tools (2026): 6 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -256,7 +256,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-crm-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-crm-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-crm-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-crm-tools/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -78,7 +78,7 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Monica
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## Monica review (2026): pricing, AI features, verdict
 
@@ -86,7 +86,7 @@ Open-source personal CRM for tracking friends, family, and business relationship
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Monica →](https://monicahq.com)
 
@@ -190,8 +190,8 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 ## Related reading
 
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for relationship-led founders and community businesses.
@@ -222,7 +222,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/monica/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-21",
     "offers": [
       {
@@ -374,7 +374,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/monica/", "breadcrumb": {"@id": "https://martechsignal.com/tools/monica/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/monica/", "breadcrumb": {"@id": "https://martechsignal.com/tools/monica/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

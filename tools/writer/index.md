@@ -78,7 +78,7 @@ Enterprise AI platform with Palmyra models, brand governance, and agents
 
 AI Content & Copywriting · Paid Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Writer →](https://writer.com)
 
@@ -195,8 +195,8 @@ Published in the developer docs: Palmyra X6 at $2 per million input tokens and $
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Enterprises that put brand governance ahead of raw output
@@ -228,7 +228,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/writer/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27"
   },
   {
@@ -348,7 +348,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/writer/", "breadcrumb": {"@id": "https://martechsignal.com/tools/writer/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/writer/", "breadcrumb": {"@id": "https://martechsignal.com/tools/writer/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -83,7 +83,7 @@ Our directory breaks down customer data platforms and activation tools by pricin
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Related tools
 
 - [Customer.io](/tools/customer-io/) - Data-driven messaging platform for automated email, push, SMS, and in-app messages
@@ -132,7 +132,7 @@ More from the directory: [ChatbotX](/tools/chatbotx/)
     }
   },
   "datePublished": "2026-09-02",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/",
   "image": {
     "@type": "ImageObject",
@@ -145,7 +145,7 @@ More from the directory: [ChatbotX](/tools/chatbotx/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1553,
+  "wordCount": 1551,
   "articleSection": "crm, analytics"
 }
 ```
@@ -178,7 +178,7 @@ More from the directory: [ChatbotX](/tools/chatbotx/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/", "breadcrumb": {"@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/", "breadcrumb": {"@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

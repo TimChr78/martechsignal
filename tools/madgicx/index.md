@@ -61,7 +61,7 @@ Free open source ad server for publishers, ad networks and advertisers
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Madgicx
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## Madgicx review (2026): pricing, AI features, verdict
 
@@ -69,7 +69,7 @@ AI-powered Meta ads optimization and creative workflow
 
 Advertising & Paid Media · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Madgicx →](https://madgicx.com/)
 
@@ -157,8 +157,8 @@ The most complete Meta-only operating layer in the directory: real breadth acros
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Best for advertising & paid media teams that want the job covered in one platform, starting at $49/mo.
@@ -189,7 +189,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/madgicx/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-07",
     "offers": {
       "@type": "Offer",
@@ -292,7 +292,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/madgicx/", "breadcrumb": {"@id": "https://martechsignal.com/tools/madgicx/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/madgicx/", "breadcrumb": {"@id": "https://martechsignal.com/tools/madgicx/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

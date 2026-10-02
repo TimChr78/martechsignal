@@ -2715,6 +2715,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:sqreem-behavioral-model-vs-llm",
+   "displayName": "SQREEM&#x27;s bet: behavior beats language",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/sqreem-behavioral-model-vs-llm/",
+   "description": "On September 23, 2026, the behavioral intelligence company SQREEM appointed Stephen Yap as CEO and handed him a contrarian pitch to sell: the.",
+   "representativeQueries": [
+    "sqreem&#x27;s bet: behavior beats language",
+    "sqreem behavioral model vs llm"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:watermark-provenance-tax-agents",
    "displayName": "What LLM watermarking means for marketing automation",
    "type": "text/html",

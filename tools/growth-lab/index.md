@@ -64,7 +64,7 @@ Aaron Marketing Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Growth Lab
-Re-check pending: pricing last verified 2026-08-28 (34 days ago).
+Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 ## Growth Lab review (2026): pricing, AI features, verdict
 
@@ -72,7 +72,7 @@ Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and 
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Growth Lab →](https://growthlab.tsingyuai.com)
 
@@ -176,7 +176,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/growth-lab/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-03",
     "offers": {
       "@type": "Offer",
@@ -279,7 +279,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/growth-lab/", "breadcrumb": {"@id": "https://martechsignal.com/tools/growth-lab/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/growth-lab/", "breadcrumb": {"@id": "https://martechsignal.com/tools/growth-lab/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

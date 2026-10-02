@@ -145,7 +145,7 @@ More from the directory: [Anyword](/tools/anyword/)
     }
   },
   "datePublished": "2026-09-10",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/",
   "image": {
     "@type": "ImageObject",
@@ -191,7 +191,7 @@ More from the directory: [Anyword](/tools/anyword/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

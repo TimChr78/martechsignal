@@ -75,7 +75,7 @@ AI-native CRM with real-time data enrichment and agentic revenue workflows
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Twenty
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## Twenty review (2026): pricing, AI features, verdict
 
@@ -83,7 +83,7 @@ The open-source alternative to Salesforce, designed for AI with modern CRM workf
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Twenty →](https://twenty.com)
 
@@ -225,7 +225,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/twenty/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -361,7 +361,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/twenty/", "breadcrumb": {"@id": "https://martechsignal.com/tools/twenty/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/twenty/", "breadcrumb": {"@id": "https://martechsignal.com/tools/twenty/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

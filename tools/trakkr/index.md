@@ -75,7 +75,7 @@ AI visibility platform for brands and agencies: citations, perception, competito
 
 GEO & LLM Optimization · From $100/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Trakkr →](https://trakkr.ai/)
 
@@ -200,7 +200,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/trakkr/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -327,7 +327,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/trakkr/", "breadcrumb": {"@id": "https://martechsignal.com/tools/trakkr/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/trakkr/", "breadcrumb": {"@id": "https://martechsignal.com/tools/trakkr/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -66,7 +66,7 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Intercom
-Re-check pending: pricing last verified 2026-08-28 (34 days ago).
+Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 ## Intercom review (2026): pricing, AI features, verdict
 
@@ -74,7 +74,7 @@ AI-first customer service platform with Fin AI agent and omnichannel messaging
 
 Chatbots & Conversational AI · From $29/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Intercom →](https://www.intercom.com)
 
@@ -188,7 +188,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/intercom/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -291,7 +291,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/intercom/", "breadcrumb": {"@id": "https://martechsignal.com/tools/intercom/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/intercom/", "breadcrumb": {"@id": "https://martechsignal.com/tools/intercom/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

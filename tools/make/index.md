@@ -77,7 +77,7 @@ Visual automation platform for building complex workflows with AI agents and app
 
 Workflow Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Make →](https://www.make.com)
 
@@ -193,7 +193,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/make/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -337,7 +337,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/make/", "breadcrumb": {"@id": "https://martechsignal.com/tools/make/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/make/", "breadcrumb": {"@id": "https://martechsignal.com/tools/make/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -111,7 +111,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
     }
   },
   "datePublished": "2026-09-27",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-benchmark/",
   "image": {
     "@type": "ImageObject",
@@ -164,7 +164,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-benchmark/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-benchmark/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-benchmark/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-benchmark/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -296,7 +296,7 @@ Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monic
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 24,
-      "dateModified": "2026-10-01",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -593,7 +593,7 @@ Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monic
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/crm/", "breadcrumb": {"@id": "https://martechsignal.com/categories/crm/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/crm/", "breadcrumb": {"@id": "https://martechsignal.com/categories/crm/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

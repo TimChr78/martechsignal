@@ -72,7 +72,7 @@ Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Ever Gauzy
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## Ever Gauzy review (2026): pricing, AI features, verdict
 
@@ -80,7 +80,7 @@ Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Ever Gauzy →](https://gauzy.co)
 
@@ -201,7 +201,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/ever-gauzy/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-25",
     "offers": [
       {
@@ -337,7 +337,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ever-gauzy/", "breadcrumb": {"@id": "https://martechsignal.com/tools/ever-gauzy/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ever-gauzy/", "breadcrumb": {"@id": "https://martechsignal.com/tools/ever-gauzy/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

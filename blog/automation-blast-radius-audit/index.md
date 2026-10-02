@@ -136,7 +136,7 @@ More from the directory: [BillionMail](/tools/billionmail/)
     }
   },
   "datePublished": "2026-09-08",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/automation-blast-radius-audit/",
   "image": {
     "@type": "ImageObject",
@@ -182,7 +182,7 @@ More from the directory: [BillionMail](/tools/billionmail/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/automation-blast-radius-audit/", "breadcrumb": {"@id": "https://martechsignal.com/blog/automation-blast-radius-audit/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/automation-blast-radius-audit/", "breadcrumb": {"@id": "https://martechsignal.com/blog/automation-blast-radius-audit/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

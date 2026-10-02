@@ -117,8 +117,8 @@ Last verified 2026-09-28.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Matomo - 21,914 stars, +109 in the 38-snapshot window to 2026-10-01 21,805→21,914 [verify on GitHub](https://github.com/matomo-org/matomo)
-- PostHog - 40,048 stars, +108 in the 6-snapshot window to 2026-10-01 39,940→40,048 [verify on GitHub](https://github.com/PostHog/posthog)
+- Matomo - 21,919 stars, +114 in the 39-snapshot window to 2026-10-02 21,805→21,919 [verify on GitHub](https://github.com/matomo-org/matomo)
+- PostHog - 40,086 stars, +146 in the 7-snapshot window to 2026-10-02 39,940→40,086 [verify on GitHub](https://github.com/PostHog/posthog)
 [All movers on the trending page](/trending/).
 
 ## Get the next teardown
@@ -135,7 +135,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/matomo-vs-posthog/#article",
     "datePublished": "2026-09-28",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -221,7 +221,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/matomo-vs-posthog/", "breadcrumb": {"@id": "https://martechsignal.com/vs/matomo-vs-posthog/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/matomo-vs-posthog/", "breadcrumb": {"@id": "https://martechsignal.com/vs/matomo-vs-posthog/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -62,7 +62,7 @@ AI-powered digital analytics platform for product and marketing teams
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Plausible Analytics
-Re-check pending: pricing last verified 2026-08-28 (34 days ago).
+Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 ## Plausible Analytics review (2026): pricing, AI features, verdict
 
@@ -70,7 +70,7 @@ Lightweight, privacy-friendly open-source web analytics alternative to Google An
 
 Analytics & Attribution · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Plausible Analytics →](https://plausible.io)
 
@@ -181,7 +181,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/plausible/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -293,7 +293,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/plausible/", "breadcrumb": {"@id": "https://martechsignal.com/tools/plausible/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/plausible/", "breadcrumb": {"@id": "https://martechsignal.com/tools/plausible/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

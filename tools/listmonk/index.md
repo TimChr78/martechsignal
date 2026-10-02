@@ -65,7 +65,7 @@ Modern email development framework using Tailwind CSS for responsive campaigns
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Listmonk
-Re-check pending: pricing last verified 2026-08-28 (34 days ago).
+Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 ## Listmonk review (2026): pricing, AI features, verdict
 
@@ -73,7 +73,7 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Listmonk →](https://listmonk.app)
 
@@ -180,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/listmonk/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -283,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/listmonk/", "breadcrumb": {"@id": "https://martechsignal.com/tools/listmonk/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/listmonk/", "breadcrumb": {"@id": "https://martechsignal.com/tools/listmonk/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

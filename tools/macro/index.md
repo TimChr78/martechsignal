@@ -71,7 +71,7 @@ Open-source AI CRM with built-in agents, conversational analytics, and private d
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Macro
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## Macro review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ Open source workspace with a self-updating, agent-driven CRM and shared AI team 
 
 CRM · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Macro →](https://macro.com)
 
@@ -216,7 +216,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/macro/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-13",
     "offers": {
       "@type": "Offer",
@@ -335,7 +335,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/macro/", "breadcrumb": {"@id": "https://martechsignal.com/tools/macro/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/macro/", "breadcrumb": {"@id": "https://martechsignal.com/tools/macro/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

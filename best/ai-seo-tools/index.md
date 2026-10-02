@@ -54,9 +54,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Promptfoo - 25,602 stars, +142 in the 6-snapshot window to 2026-10-01 25,460→25,602 [verify on GitHub](https://github.com/promptfoo/promptfoo)
-- Claude SEO - 18,058 stars, +2,962 in the 38-snapshot window to 2026-10-01 15,096→18,058 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
-- Codex SEO - 771 stars, +151 in the 38-snapshot window to 2026-10-01 620→771 [verify on GitHub](https://github.com/AgriciDaniel/codex-seo)
+- Promptfoo - 25,631 stars, +171 in the 7-snapshot window to 2026-10-02 25,460→25,631 [verify on GitHub](https://github.com/promptfoo/promptfoo)
+- Claude SEO - 18,136 stars, +3,040 in the 39-snapshot window to 2026-10-02 15,096→18,136 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
+- Codex SEO - 772 stars, +152 in the 39-snapshot window to 2026-10-02 620→772 [verify on GitHub](https://github.com/AgriciDaniel/codex-seo)
 [All movers on the trending page](/trending/).
 
 ## [Semrush](/tools/semrush/)
@@ -183,7 +183,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI SEO tools (2026): 8 compared",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -316,7 +316,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-seo-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-seo-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-seo-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-seo-tools/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

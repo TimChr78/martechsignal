@@ -139,7 +139,7 @@ More from the directory: [Jasper](/tools/jasper/)
     }
   },
   "datePublished": "2026-08-21",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/",
   "image": {
     "@type": "ImageObject",
@@ -185,7 +185,7 @@ More from the directory: [Jasper](/tools/jasper/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/", "breadcrumb": {"@id": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/", "breadcrumb": {"@id": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

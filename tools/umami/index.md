@@ -69,7 +69,7 @@ AI-powered digital analytics platform for product and marketing teams
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Umami
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## Umami review (2026): pricing, AI features, verdict
 
@@ -77,7 +77,7 @@ Open-source, cookieless web analytics with real-time dashboards, session replay,
 
 Analytics & Attribution · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Umami →](https://umami.is)
 
@@ -209,7 +209,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/umami/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -345,7 +345,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/umami/", "breadcrumb": {"@id": "https://martechsignal.com/tools/umami/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/umami/", "breadcrumb": {"@id": "https://martechsignal.com/tools/umami/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

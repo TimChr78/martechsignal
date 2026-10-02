@@ -69,7 +69,7 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
 
 CRM · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 Looking for options? [Best HubSpot CRM alternatives](/alternatives/hubspot-crm/)
 
@@ -188,7 +188,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/hubspot-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -300,7 +300,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hubspot-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hubspot-crm/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hubspot-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hubspot-crm/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

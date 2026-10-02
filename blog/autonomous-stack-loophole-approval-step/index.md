@@ -133,7 +133,7 @@ More from the directory: [Brevo](/tools/brevo/)
     }
   },
   "datePublished": "2026-09-07",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/",
   "image": {
     "@type": "ImageObject",
@@ -179,7 +179,7 @@ More from the directory: [Brevo](/tools/brevo/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

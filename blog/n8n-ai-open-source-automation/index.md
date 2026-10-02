@@ -225,7 +225,7 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
     }
   },
   "datePublished": "2026-07-28",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/n8n-ai-open-source-automation/",
   "image": {
     "@type": "ImageObject",
@@ -271,7 +271,7 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/n8n-ai-open-source-automation/", "breadcrumb": {"@id": "https://martechsignal.com/blog/n8n-ai-open-source-automation/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/n8n-ai-open-source-automation/", "breadcrumb": {"@id": "https://martechsignal.com/blog/n8n-ai-open-source-automation/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

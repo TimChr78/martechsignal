@@ -63,7 +63,7 @@ Open-source customer engagement suite with Captain AI and full self-hosting
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Tidio
-Re-check pending: pricing last verified 2026-08-28 (34 days ago).
+Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 ## Tidio review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ AI-powered live chat and chatbot platform with Lyro AI agent for customer suppor
 
 Chatbots & Conversational AI · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Tidio →](https://www.tidio.com)
 
@@ -185,7 +185,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/tidio/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -297,7 +297,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tidio/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tidio/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tidio/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tidio/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

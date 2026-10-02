@@ -72,7 +72,7 @@ Enterprise workflow automation inside the Microsoft Power Platform
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - NocoBase
-Re-check pending: pricing last verified 2026-09-05 (26 days ago).
+Re-check pending: pricing last verified 2026-09-05 (27 days ago).
 
 ## NocoBase review (2026): pricing, AI features, verdict
 
@@ -80,7 +80,7 @@ Open-source no-code platform with AI assistance for building business systems fa
 
 Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit NocoBase →](https://www.nocobase.com)
 
@@ -207,7 +207,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/nocobase/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-21",
     "offers": {
       "@type": "Offer",
@@ -334,7 +334,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/nocobase/", "breadcrumb": {"@id": "https://martechsignal.com/tools/nocobase/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/nocobase/", "breadcrumb": {"@id": "https://martechsignal.com/tools/nocobase/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

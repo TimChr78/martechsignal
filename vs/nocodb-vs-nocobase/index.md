@@ -124,8 +124,8 @@ Last verified 2026-09-28.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- NocoDB - 65,137 stars, +284 in the 26-snapshot window to 2026-10-01 64,853→65,137 [verify on GitHub](https://github.com/nocodb/nocodb)
-- NocoBase - 24,419 stars, +580 in the 38-snapshot window to 2026-10-01 23,839→24,419 [verify on GitHub](https://github.com/nocobase/nocobase)
+- NocoDB - 65,151 stars, +298 in the 27-snapshot window to 2026-10-02 64,853→65,151 [verify on GitHub](https://github.com/nocodb/nocodb)
+- NocoBase - 24,430 stars, +591 in the 39-snapshot window to 2026-10-02 23,839→24,430 [verify on GitHub](https://github.com/nocobase/nocobase)
 [All movers on the trending page](/trending/).
 
 ## Get the next teardown
@@ -142,7 +142,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/nocodb-vs-nocobase/#article",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -228,7 +228,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/nocodb-vs-nocobase/", "breadcrumb": {"@id": "https://martechsignal.com/vs/nocodb-vs-nocobase/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/nocodb-vs-nocobase/", "breadcrumb": {"@id": "https://martechsignal.com/vs/nocodb-vs-nocobase/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

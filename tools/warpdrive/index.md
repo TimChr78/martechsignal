@@ -71,7 +71,7 @@ Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Warpdrive
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## Warpdrive review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail 
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Warpdrive →](https://warpdrivecrm.com)
 
@@ -204,7 +204,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/warpdrive/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-03",
     "offers": {
       "@type": "Offer",
@@ -331,7 +331,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/warpdrive/", "breadcrumb": {"@id": "https://martechsignal.com/tools/warpdrive/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/warpdrive/", "breadcrumb": {"@id": "https://martechsignal.com/tools/warpdrive/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

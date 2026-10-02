@@ -59,7 +59,7 @@ AI-powered ecommerce personalization with search, recommendations, and email
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Bloomreach
-Re-check pending: pricing last verified 2026-08-28 (34 days ago).
+Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 ## Bloomreach review (2026): pricing, AI features, verdict
 
@@ -67,7 +67,7 @@ AI-powered commerce experience platform with search, personalization, and CDP
 
 Marketing Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Bloomreach →](https://www.bloomreach.com)
 
@@ -183,7 +183,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/bloomreach/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27"
   },
   {
@@ -279,7 +279,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/bloomreach/", "breadcrumb": {"@id": "https://martechsignal.com/tools/bloomreach/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/bloomreach/", "breadcrumb": {"@id": "https://martechsignal.com/tools/bloomreach/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -161,7 +161,7 @@ More from the directory: [Brandwatch](/tools/brandwatch/)
     }
   },
   "datePublished": "2026-08-26",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/",
   "image": {
     "@type": "ImageObject",
@@ -207,7 +207,7 @@ More from the directory: [Brandwatch](/tools/brandwatch/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/", "breadcrumb": {"@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

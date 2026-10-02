@@ -246,7 +246,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 17,
-      "dateModified": "2026-10-01",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -459,7 +459,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/workflow-automation/", "breadcrumb": {"@id": "https://martechsignal.com/categories/workflow-automation/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/workflow-automation/", "breadcrumb": {"@id": "https://martechsignal.com/categories/workflow-automation/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

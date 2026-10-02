@@ -71,7 +71,7 @@ Email marketing for SaaS: marketing, product, and transactional email in one too
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Resend
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## Resend review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ Developer-first email API built around React Email, batch sending, and agent too
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Resend →](https://resend.com)
 
@@ -212,7 +212,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/resend/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -348,7 +348,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/resend/", "breadcrumb": {"@id": "https://martechsignal.com/tools/resend/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/resend/", "breadcrumb": {"@id": "https://martechsignal.com/tools/resend/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

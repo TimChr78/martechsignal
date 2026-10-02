@@ -127,7 +127,7 @@ More from the directory: [LanguageTool](/tools/languagetool/)
     }
   },
   "datePublished": "2026-09-22",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/",
   "image": {
     "@type": "ImageObject",
@@ -173,7 +173,7 @@ More from the directory: [LanguageTool](/tools/languagetool/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/", "breadcrumb": {"@id": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/", "breadcrumb": {"@id": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

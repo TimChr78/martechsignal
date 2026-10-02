@@ -51,8 +51,8 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Jitsu - 5,094 stars, +3 in the 6-snapshot window to 2026-10-01 5,091→5,094 [verify on GitHub](https://github.com/jitsucom/jitsu)
-- Apache Unomi - 375 stars, +0 in the 6-snapshot window to 2026-10-01 375→375 [verify on GitHub](https://github.com/apache/unomi)
+- Jitsu - 5,096 stars, +5 in the 7-snapshot window to 2026-10-02 5,091→5,096 [verify on GitHub](https://github.com/jitsucom/jitsu)
+- Apache Unomi - 375 stars, +0 in the 7-snapshot window to 2026-10-02 375→375 [verify on GitHub](https://github.com/apache/unomi)
 [All movers on the trending page](/trending/).
 
 ## [RudderStack](/tools/rudderstack/)
@@ -155,7 +155,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best Customer Data Platforms (2026): composable to self-hosted",
     "datePublished": "2026-10-01",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -266,7 +266,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/cdp/", "breadcrumb": {"@id": "https://martechsignal.com/best/cdp/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/cdp/", "breadcrumb": {"@id": "https://martechsignal.com/best/cdp/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

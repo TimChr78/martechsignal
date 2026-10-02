@@ -80,7 +80,7 @@ Open-source machine translation API for content localization, self-hostable and 
 
 AI Content & Copywriting · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit LibreTranslate →](https://libretranslate.com)
 
@@ -190,7 +190,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/libretranslate/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -325,7 +325,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/libretranslate/", "breadcrumb": {"@id": "https://martechsignal.com/tools/libretranslate/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/libretranslate/", "breadcrumb": {"@id": "https://martechsignal.com/tools/libretranslate/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

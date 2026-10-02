@@ -74,7 +74,7 @@ AI-powered ecommerce analytics and attribution platform for DTC brands
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Matomo
-Re-check pending: pricing last verified 2026-09-06 (25 days ago).
+Re-check pending: pricing last verified 2026-09-06 (26 days ago).
 
 ## Matomo review (2026): pricing, AI features, verdict
 
@@ -82,7 +82,7 @@ Open-source web analytics platform with full data ownership and AI-powered insig
 
 Analytics & Attribution · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 Looking for options? [Best Matomo alternatives](/alternatives/matomo/)
 
@@ -229,7 +229,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/matomo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -373,7 +373,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/matomo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/matomo/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/matomo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/matomo/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

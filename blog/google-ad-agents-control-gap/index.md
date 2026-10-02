@@ -174,7 +174,7 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
     }
   },
   "datePublished": "2026-08-17",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-ad-agents-control-gap/",
   "image": {
     "@type": "ImageObject",
@@ -220,7 +220,7 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

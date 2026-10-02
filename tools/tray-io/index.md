@@ -71,7 +71,7 @@ No-code automation platform connecting 9,000+ apps with AI-powered workflows
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Tray.io
-Re-check pending: pricing last verified 2026-09-06 (25 days ago).
+Re-check pending: pricing last verified 2026-09-06 (26 days ago).
 
 ## Tray.io review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ AI-powered integration platform for building custom automation and AI agents
 
 Workflow Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Tray.io →](https://tray.ai)
 
@@ -225,7 +225,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/tray-io/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27"
   },
   {
@@ -353,7 +353,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tray-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tray-io/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tray-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tray-io/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

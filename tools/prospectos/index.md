@@ -61,7 +61,7 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - ProspectOS
-Re-check pending: pricing last verified 2026-08-31 (31 days ago).
+Re-check pending: pricing last verified 2026-08-31 (32 days ago).
 
 ## ProspectOS review (2026): pricing, AI features, verdict
 
@@ -69,7 +69,7 @@ Open-source lead prospecting CRM with Google Maps and Instagram scraping
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit ProspectOS →](https://github.com/nando0x/ProspectOS)
 
@@ -171,7 +171,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/prospectos/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-29",
     "offers": {
       "@type": "Offer",
@@ -274,7 +274,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/prospectos/", "breadcrumb": {"@id": "https://martechsignal.com/tools/prospectos/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/prospectos/", "breadcrumb": {"@id": "https://martechsignal.com/tools/prospectos/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

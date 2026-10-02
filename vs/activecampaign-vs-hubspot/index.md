@@ -142,7 +142,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/activecampaign-vs-hubspot/#article",
     "datePublished": "2026-10-01",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -228,7 +228,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/activecampaign-vs-hubspot/", "breadcrumb": {"@id": "https://martechsignal.com/vs/activecampaign-vs-hubspot/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/activecampaign-vs-hubspot/", "breadcrumb": {"@id": "https://martechsignal.com/vs/activecampaign-vs-hubspot/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

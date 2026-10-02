@@ -71,7 +71,7 @@ KIND: Agent Skill (not an end-to-end platform)
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Digital Marketing Pro →](https://github.com/indranilbanerjee/digital-marketing-pro)
 
@@ -220,7 +220,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/digital-marketing-pro/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",
@@ -302,7 +302,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/digital-marketing-pro/", "breadcrumb": {"@id": "https://martechsignal.com/tools/digital-marketing-pro/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/digital-marketing-pro/", "breadcrumb": {"@id": "https://martechsignal.com/tools/digital-marketing-pro/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

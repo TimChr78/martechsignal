@@ -61,7 +61,7 @@ AI advertising platform spanning creative production, media buying, and measurem
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Opteo
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## Opteo review (2026): pricing, AI features, verdict
 
@@ -69,7 +69,7 @@ Continuous Google Ads monitoring with one-click improvements
 
 Advertising & Paid Media · From $129/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Opteo →](https://opteo.com/)
 
@@ -185,7 +185,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/opteo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-07",
     "offers": {
       "@type": "Offer",
@@ -288,7 +288,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/opteo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/opteo/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/opteo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/opteo/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -59,7 +59,7 @@ Open-source Segment alternative for event capture and warehouse-first data pipel
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Tealium
-Re-check pending: pricing last verified 2026-08-28 (34 days ago).
+Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 ## Tealium review (2026): pricing, AI features, verdict
 
@@ -67,7 +67,7 @@ Enterprise customer data platform with real-time data orchestration and AI
 
 Personalization & CDP · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Tealium →](https://tealium.com)
 
@@ -183,7 +183,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/tealium/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27"
   },
   {
@@ -279,7 +279,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tealium/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tealium/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tealium/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tealium/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -161,7 +161,7 @@ More from the directory: [Zoho CRM](/tools/zoho-crm/)
     }
   },
   "datePublished": "2026-09-09",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/",
   "image": {
     "@type": "ImageObject",
@@ -207,7 +207,7 @@ More from the directory: [Zoho CRM](/tools/zoho-crm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/", "breadcrumb": {"@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/", "breadcrumb": {"@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

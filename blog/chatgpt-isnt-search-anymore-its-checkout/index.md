@@ -136,7 +136,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     }
   },
   "datePublished": "2026-09-01",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/",
   "image": {
     "@type": "ImageObject",
@@ -182,7 +182,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/", "breadcrumb": {"@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/", "breadcrumb": {"@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

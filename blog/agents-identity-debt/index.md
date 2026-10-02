@@ -142,7 +142,7 @@ More from the directory: [advertools](/tools/advertools/)
     }
   },
   "datePublished": "2026-08-13",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/agents-identity-debt/",
   "image": {
     "@type": "ImageObject",
@@ -188,7 +188,7 @@ More from the directory: [advertools](/tools/advertools/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agents-identity-debt/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agents-identity-debt/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agents-identity-debt/", "breadcrumb": {"@id": "https://martechsignal.com/blog/agents-identity-debt/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

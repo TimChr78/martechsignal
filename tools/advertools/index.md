@@ -79,7 +79,7 @@ Python toolkit for SEO and advertising analysis in pandas DataFrames
 
 Advertising & Paid Media · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit advertools →](https://advertools.readthedocs.io)
 
@@ -190,7 +190,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/advertools/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -309,7 +309,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/advertools/", "breadcrumb": {"@id": "https://martechsignal.com/tools/advertools/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/advertools/", "breadcrumb": {"@id": "https://martechsignal.com/tools/advertools/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

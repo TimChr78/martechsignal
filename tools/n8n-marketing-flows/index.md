@@ -64,7 +64,7 @@ Open-source control plane to manage AI agents like a company, hire, schedule, bu
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - n8n Marketing Flows
-Re-check pending: pricing last verified 2026-08-31 (31 days ago).
+Re-check pending: pricing last verified 2026-08-31 (32 days ago).
 
 ## n8n Marketing Flows review (2026): pricing, AI features, verdict
 
@@ -72,7 +72,7 @@ Re-check pending: pricing last verified 2026-08-31 (31 days ago).
 
 Workflow Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit n8n Marketing Flows →](https://github.com/YuriCrystal/n8n-marketing-flows)
 
@@ -180,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/n8n-marketing-flows/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-31",
     "offers": {
       "@type": "Offer",
@@ -283,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/n8n-marketing-flows/", "breadcrumb": {"@id": "https://martechsignal.com/tools/n8n-marketing-flows/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/n8n-marketing-flows/", "breadcrumb": {"@id": "https://martechsignal.com/tools/n8n-marketing-flows/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

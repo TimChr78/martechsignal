@@ -47,7 +47,7 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- MultiPost - 3,557 stars, +463 in the 38-snapshot window to 2026-10-01 3,094→3,557 [verify on GitHub](https://github.com/leaperone/MultiPost-Extension)
+- MultiPost - 3,557 stars, +463 in the 39-snapshot window to 2026-10-02 3,094→3,557 [verify on GitHub](https://github.com/leaperone/MultiPost-Extension)
 [All movers on the trending page](/trending/).
 
 ## [Hootsuite](/tools/hootsuite/)
@@ -150,7 +150,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI Social Media tools (2026): 6 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -261,7 +261,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-social-media-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-social-media-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-social-media-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-social-media-tools/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

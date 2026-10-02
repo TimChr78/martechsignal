@@ -76,7 +76,7 @@ Open-source feature flags and A/B testing with a visual editor and attribute-bas
 
 Personalization & CDP · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit GrowthBook →](https://www.growthbook.io)
 
@@ -198,7 +198,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/growthbook/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -317,7 +317,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/growthbook/", "breadcrumb": {"@id": "https://martechsignal.com/tools/growthbook/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/growthbook/", "breadcrumb": {"@id": "https://martechsignal.com/tools/growthbook/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

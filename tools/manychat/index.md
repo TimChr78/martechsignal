@@ -59,7 +59,7 @@ Enterprise social media management with AI-powered analytics and engagement tool
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - ManyChat
-Re-check pending: pricing last verified 2026-08-28 (34 days ago).
+Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 ## ManyChat review (2026): pricing, AI features, verdict
 
@@ -67,7 +67,7 @@ AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 
 Chatbots & Conversational AI · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit ManyChat →](https://manychat.com)
 
@@ -180,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/manychat/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -292,7 +292,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/manychat/", "breadcrumb": {"@id": "https://martechsignal.com/tools/manychat/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/manychat/", "breadcrumb": {"@id": "https://martechsignal.com/tools/manychat/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

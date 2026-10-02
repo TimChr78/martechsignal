@@ -105,7 +105,7 @@ Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics t
     "@type": "ItemList",
     "name": "Best Matomo alternatives (2026)",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -205,7 +205,7 @@ Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics t
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/alternatives/matomo/", "breadcrumb": {"@id": "https://martechsignal.com/alternatives/matomo/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/alternatives/matomo/", "breadcrumb": {"@id": "https://martechsignal.com/alternatives/matomo/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

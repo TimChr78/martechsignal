@@ -24,7 +24,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 
 GLOSSARY
 
-Definition last updated 2026-10-01
+Definition last updated 2026-10-02
 
 ## Definition
 
@@ -83,7 +83,7 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
         "@type": "DefinedTerm",
         "name": "Search Engine Optimization (SEO)",
         "description": "SEO is the practice of improving a website's visibility in organic (non-paid) search results. It covers technical factors (site speed, crawlability, structured data), content quality (relevance, depth, freshness), and authority signals (backlinks, brand mentions, domain reputation).",
-        "dateModified": "2026-10-01",
+        "dateModified": "2026-10-02",
         "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -141,7 +141,7 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/seo/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/seo/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/seo/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/seo/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -145,7 +145,7 @@ More from the directory: [Khoj](/tools/khoj/)
     }
   },
   "datePublished": "2026-09-11",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/determinism-audit/",
   "image": {
     "@type": "ImageObject",
@@ -191,7 +191,7 @@ More from the directory: [Khoj](/tools/khoj/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/determinism-audit/", "breadcrumb": {"@id": "https://martechsignal.com/blog/determinism-audit/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/determinism-audit/", "breadcrumb": {"@id": "https://martechsignal.com/blog/determinism-audit/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

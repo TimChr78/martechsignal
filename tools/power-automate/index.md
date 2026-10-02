@@ -65,7 +65,7 @@ Enterprise workflow automation inside the Microsoft Power Platform
 
 Workflow Automation · From $15/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Microsoft Power Automate →](https://powerautomate.microsoft.com)
 
@@ -164,7 +164,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/power-automate/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-27",
     "offers": {
       "@type": "Offer",
@@ -267,7 +267,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/power-automate/", "breadcrumb": {"@id": "https://martechsignal.com/tools/power-automate/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/power-automate/", "breadcrumb": {"@id": "https://martechsignal.com/tools/power-automate/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

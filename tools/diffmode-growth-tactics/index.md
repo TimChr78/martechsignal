@@ -60,7 +60,7 @@ AI Business Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Diffmode Growth Tactics
-Re-check pending: pricing last verified 2026-08-31 (31 days ago).
+Re-check pending: pricing last verified 2026-08-31 (32 days ago).
 
 ## Diffmode Growth Tactics review (2026): pricing, AI features, verdict
 
@@ -68,7 +68,7 @@ Free Claude Code/Codex pipeline that mines case studies and rejects obvious grow
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Diffmode Growth Tactics →](https://github.com/acogood/diffmode_free)
 
@@ -144,8 +144,8 @@ A clever use of coding agents for growth ideation with a real anti-generic mecha
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -171,7 +171,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/diffmode-growth-tactics/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-31",
     "offers": {
       "@type": "Offer",
@@ -274,7 +274,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/", "breadcrumb": {"@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/", "breadcrumb": {"@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

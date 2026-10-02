@@ -51,9 +51,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Matomo - 21,914 stars, +109 in the 38-snapshot window to 2026-10-01 21,805→21,914 [verify on GitHub](https://github.com/matomo-org/matomo)
-- Umami - 39,104 stars, +744 in the 38-snapshot window to 2026-10-01 38,360→39,104 [verify on GitHub](https://github.com/umami-software/umami)
-- Snowplow - 7,034 stars, +6 in the 38-snapshot window to 2026-10-01 7,028→7,034 [verify on GitHub](https://github.com/snowplow/snowplow)
+- Matomo - 21,919 stars, +114 in the 39-snapshot window to 2026-10-02 21,805→21,919 [verify on GitHub](https://github.com/matomo-org/matomo)
+- Umami - 39,115 stars, +755 in the 39-snapshot window to 2026-10-02 38,360→39,115 [verify on GitHub](https://github.com/umami-software/umami)
+- Snowplow - 7,034 stars, +6 in the 39-snapshot window to 2026-10-02 7,028→7,034 [verify on GitHub](https://github.com/snowplow/snowplow)
 [All movers on the trending page](/trending/).
 
 ## [Amplitude](/tools/amplitude/)
@@ -180,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best Marketing Analytics & Attribution tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -313,7 +313,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/marketing-analytics-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/marketing-analytics-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/marketing-analytics-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/marketing-analytics-tools/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

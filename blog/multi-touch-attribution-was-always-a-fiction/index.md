@@ -139,7 +139,7 @@ More from the directory: [Trakkr](/tools/trakkr/)
     }
   },
   "datePublished": "2026-08-14",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/",
   "image": {
     "@type": "ImageObject",
@@ -185,7 +185,7 @@ More from the directory: [Trakkr](/tools/trakkr/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/", "breadcrumb": {"@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/", "breadcrumb": {"@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -71,7 +71,7 @@ Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Warmbly →](https://warmbly.com)
 
@@ -190,7 +190,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/warmbly/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-24",
     "offers": [
       {
@@ -302,7 +302,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/warmbly/", "breadcrumb": {"@id": "https://martechsignal.com/tools/warmbly/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/warmbly/", "breadcrumb": {"@id": "https://martechsignal.com/tools/warmbly/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -76,7 +76,7 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - React Email Editor
-Re-check pending: pricing last verified 2026-09-06 (25 days ago).
+Re-check pending: pricing last verified 2026-09-06 (26 days ago).
 
 ## React Email Editor review (2026): pricing, AI features, verdict
 
@@ -84,7 +84,7 @@ Drag-n-Drop Email Editor Component for React.js
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit React Email Editor →](https://unlayer.com/)
 
@@ -225,7 +225,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/react-email-editor/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-25",
     "offers": [
       {
@@ -369,7 +369,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/react-email-editor/", "breadcrumb": {"@id": "https://martechsignal.com/tools/react-email-editor/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/react-email-editor/", "breadcrumb": {"@id": "https://martechsignal.com/tools/react-email-editor/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

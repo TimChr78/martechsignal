@@ -68,7 +68,7 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 
 Workflow Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 Looking for options? [Best n8n alternatives](/alternatives/n8n/)
 
@@ -192,7 +192,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/n8n/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -304,7 +304,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/n8n/", "breadcrumb": {"@id": "https://martechsignal.com/tools/n8n/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/n8n/", "breadcrumb": {"@id": "https://martechsignal.com/tools/n8n/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

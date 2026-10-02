@@ -64,7 +64,7 @@ OpenClaw Marketing Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Zapier GTM Cheat Codes
-Re-check pending: pricing last verified 2026-08-31 (31 days ago).
+Re-check pending: pricing last verified 2026-08-31 (32 days ago).
 
 ## Zapier GTM Cheat Codes review (2026): pricing, AI features, verdict
 
@@ -72,7 +72,7 @@ Zapier's installable coding-agent skills for GTM: campaign planning, CRM context
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Zapier GTM Cheat Codes →](https://github.com/zapier/gtm-cheat-codes)
 
@@ -153,8 +153,8 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for GTM practitioners who want a cheat-code skill for Zapier and Google Tag Manager recipes, free to install.
@@ -185,7 +185,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-31",
     "offers": {
       "@type": "Offer",
@@ -288,7 +288,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/", "breadcrumb": {"@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/", "breadcrumb": {"@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

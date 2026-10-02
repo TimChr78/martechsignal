@@ -167,7 +167,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
     }
   },
   "datePublished": "2026-07-29",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/",
   "image": {
     "@type": "ImageObject",
@@ -213,7 +213,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

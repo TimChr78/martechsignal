@@ -142,7 +142,7 @@ More from the directory: [SuiteCRM](/tools/suitecrm/)
     }
   },
   "datePublished": "2026-08-31",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/",
   "image": {
     "@type": "ImageObject",
@@ -188,7 +188,7 @@ More from the directory: [SuiteCRM](/tools/suitecrm/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/", "breadcrumb": {"@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/", "breadcrumb": {"@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

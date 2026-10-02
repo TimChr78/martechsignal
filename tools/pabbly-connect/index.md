@@ -63,7 +63,7 @@ Task-priced integration platform with a one-time lifetime purchase option
 
 Workflow Automation · From $16/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Pabbly Connect →](https://www.pabbly.com/connect/)
 
@@ -159,7 +159,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/pabbly-connect/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-27",
     "offers": {
       "@type": "Offer",
@@ -262,7 +262,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pabbly-connect/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pabbly-connect/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pabbly-connect/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pabbly-connect/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

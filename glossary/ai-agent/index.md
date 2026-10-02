@@ -20,7 +20,7 @@ Enterprise AI governance plus integration and automation on one platform
 
 GLOSSARY
 
-Definition last updated 2026-10-01
+Definition last updated 2026-10-02
 
 ## Definition
 
@@ -82,7 +82,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Workato](http
         "@type": "DefinedTerm",
         "name": "AI Agent",
         "description": "An AI agent is software that pursues a goal by taking a sequence of actions on its own: querying tools, making decisions against rules or a model, and adjusting based on results. In marketing, agents buy media, run outreach sequences, reconcile campaign data, and draft responses. The distinction from ordinary automation is agency over decisions: a workflow automation executes steps a human designed; an agent decides the steps.",
-        "dateModified": "2026-10-01",
+        "dateModified": "2026-10-02",
         "datePublished": "2026-09-25",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -140,7 +140,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Workato](http
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-agent/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/ai-agent/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-agent/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/ai-agent/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

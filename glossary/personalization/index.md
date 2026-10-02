@@ -20,7 +20,7 @@ AI-powered digital analytics platform for product and marketing teams
 
 GLOSSARY
 
-Definition last updated 2026-10-01
+Definition last updated 2026-10-02
 
 ## Definition
 
@@ -74,7 +74,7 @@ Sources: [Clerk.io](https://www.clerk.io) · [Bloomreach](https://www.bloomreach
         "@type": "DefinedTerm",
         "name": "Website Personalization",
         "description": "Website personalization changes what a visitor sees based on who they are or what they've done before. A returning customer sees product recommendations based on past purchases. A visitor from a healthcare company sees healthcare case studies. A first-time visitor sees a different hero section than someone on their fifth visit.",
-        "dateModified": "2026-10-01",
+        "dateModified": "2026-10-02",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -132,7 +132,7 @@ Sources: [Clerk.io](https://www.clerk.io) · [Bloomreach](https://www.bloomreach
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/personalization/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/personalization/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/personalization/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/personalization/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

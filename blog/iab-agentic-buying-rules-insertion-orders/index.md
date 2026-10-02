@@ -127,7 +127,7 @@ More from the directory: [MarketMuse](/tools/marketmuse/)
     }
   },
   "datePublished": "2026-09-28",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/",
   "image": {
     "@type": "ImageObject",
@@ -173,7 +173,7 @@ More from the directory: [MarketMuse](/tools/marketmuse/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/", "breadcrumb": {"@id": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/", "breadcrumb": {"@id": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

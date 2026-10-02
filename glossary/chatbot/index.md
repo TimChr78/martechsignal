@@ -20,7 +20,7 @@ Open-source customer engagement suite with Captain AI and full self-hosting
 
 GLOSSARY
 
-Definition last updated 2026-10-01
+Definition last updated 2026-10-02
 
 ## Definition
 
@@ -70,7 +70,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [ChatbotX](https://
         "@type": "DefinedTerm",
         "name": "Chatbot (Conversational AI)",
         "description": "A chatbot is software that conducts text or voice conversations with users, typically on a website, messaging app, or social platform. Rule-based chatbots follow decision trees. AI-powered chatbots use large language models to generate responses and handle questions they weren't explicitly programmed for.",
-        "dateModified": "2026-10-01",
+        "dateModified": "2026-10-02",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -128,7 +128,7 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [ChatbotX](https://
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/chatbot/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/chatbot/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/chatbot/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/chatbot/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

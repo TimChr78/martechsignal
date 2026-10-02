@@ -16,7 +16,7 @@ Visual automation platform for building complex workflows with AI agents and app
 
 GLOSSARY
 
-Definition last updated 2026-10-01
+Definition last updated 2026-10-02
 
 ## Definition
 
@@ -83,7 +83,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com)
         "@type": "DefinedTerm",
         "name": "Agentic Marketing",
         "description": "Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.",
-        "dateModified": "2026-10-01",
+        "dateModified": "2026-10-02",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -141,7 +141,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/agentic-marketing/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/agentic-marketing/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/agentic-marketing/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/agentic-marketing/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

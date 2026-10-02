@@ -73,7 +73,7 @@ n8n Marketing Flows
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Appsmith
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## Appsmith review (2026): pricing, AI features, verdict
 
@@ -81,7 +81,7 @@ Open-source platform for building admin panels and internal dashboards on your e
 
 Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Appsmith →](https://appsmith.com)
 
@@ -222,7 +222,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/appsmith/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-05",
     "offers": [
       {
@@ -358,7 +358,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/appsmith/", "breadcrumb": {"@id": "https://martechsignal.com/tools/appsmith/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/appsmith/", "breadcrumb": {"@id": "https://martechsignal.com/tools/appsmith/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

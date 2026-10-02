@@ -61,7 +61,7 @@ Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrati
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - AlphOne
-Re-check pending: pricing last verified 2026-09-06 (25 days ago).
+Re-check pending: pricing last verified 2026-09-06 (26 days ago).
 
 ## AlphOne review (2026): pricing, AI features, verdict
 
@@ -69,7 +69,7 @@ Plugin-first CRM (source-available, Elastic 2.0) written in Go
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit AlphOne →](https://github.com/gopherium/AlphOne)
 
@@ -177,7 +177,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/alphone/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-29",
     "offers": {
       "@type": "Offer",
@@ -280,7 +280,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/alphone/", "breadcrumb": {"@id": "https://martechsignal.com/tools/alphone/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/alphone/", "breadcrumb": {"@id": "https://martechsignal.com/tools/alphone/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

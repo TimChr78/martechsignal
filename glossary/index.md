@@ -186,7 +186,7 @@ Plain-English definitions of marketing technology terms. No jargon explaining ja
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 30,
-      "dateModified": "2026-10-01",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -397,7 +397,7 @@ Plain-English definitions of marketing technology terms. No jargon explaining ja
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

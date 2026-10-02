@@ -64,7 +64,7 @@ Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Codex SEO
-Re-check pending: pricing last verified 2026-08-28 (34 days ago).
+Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 ## Codex SEO review (2026): pricing, AI features, verdict
 
@@ -72,7 +72,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 
 Agent Skills · Free Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Codex SEO →](https://github.com/AgriciDaniel/codex-seo)
 
@@ -182,7 +182,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/codex-seo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",
@@ -285,7 +285,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/codex-seo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/codex-seo/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/codex-seo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/codex-seo/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

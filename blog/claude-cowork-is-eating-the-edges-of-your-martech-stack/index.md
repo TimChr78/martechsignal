@@ -145,7 +145,7 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
     }
   },
   "datePublished": "2026-07-30",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/",
   "image": {
     "@type": "ImageObject",
@@ -191,7 +191,7 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -73,7 +73,7 @@ Free local tool that measures brand mentions and citations in Claude's web-searc
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - OpenSEO
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## OpenSEO review (2026): pricing, AI features, verdict
 
@@ -81,7 +81,7 @@ Open source alternative to Ahrefs and Semrush
 
 SEO & Search · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit OpenSEO →](https://openseo.so)
 
@@ -202,7 +202,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/openseo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-07",
     "offers": [
       {
@@ -338,7 +338,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openseo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/openseo/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openseo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/openseo/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

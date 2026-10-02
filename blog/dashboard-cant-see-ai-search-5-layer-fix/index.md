@@ -150,7 +150,7 @@ More from the directory: [IFTTT](/tools/ifttt/)
     }
   },
   "datePublished": "2026-08-22",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/",
   "image": {
     "@type": "ImageObject",
@@ -196,7 +196,7 @@ More from the directory: [IFTTT](/tools/ifttt/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/", "breadcrumb": {"@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/", "breadcrumb": {"@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -75,7 +75,7 @@ Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
 GEO & LLM Optimization · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Profound →](https://www.tryprofound.com/)
 
@@ -200,7 +200,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/profound/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-25"
   },
   {
@@ -320,7 +320,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/profound/", "breadcrumb": {"@id": "https://martechsignal.com/tools/profound/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/profound/", "breadcrumb": {"@id": "https://martechsignal.com/tools/profound/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

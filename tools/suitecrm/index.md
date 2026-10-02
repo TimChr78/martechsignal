@@ -66,7 +66,7 @@ Free open-source Laravel CRM for SMEs and enterprises with full customer lifecyc
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - SuiteCRM
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## SuiteCRM review (2026): pricing, AI features, verdict
 
@@ -74,7 +74,7 @@ Enterprise-grade open-source CRM with sales, marketing, and support automation
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit SuiteCRM →](https://www.suitecrm.com)
 
@@ -201,7 +201,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/suitecrm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -320,7 +320,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/suitecrm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/suitecrm/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/suitecrm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/suitecrm/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

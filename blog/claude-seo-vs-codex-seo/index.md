@@ -129,7 +129,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
     }
   },
   "datePublished": "2026-09-15",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/",
   "image": {
     "@type": "ImageObject",
@@ -175,7 +175,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/", "breadcrumb": {"@id": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

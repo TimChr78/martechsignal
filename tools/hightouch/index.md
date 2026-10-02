@@ -63,7 +63,7 @@ Composable CDP that activates warehouse data where marketing runs
 
 Personalization & CDP · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Hightouch →](https://hightouch.com/)
 
@@ -169,7 +169,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/hightouch/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-10-01"
   },
   {
@@ -244,7 +244,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hightouch/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hightouch/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hightouch/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hightouch/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

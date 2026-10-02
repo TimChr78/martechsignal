@@ -71,7 +71,7 @@ Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Maizzle
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## Maizzle review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ Modern email development framework using Tailwind CSS for responsive campaigns
 
 Email Marketing · Free · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Maizzle →](https://maizzle.com)
 
@@ -194,7 +194,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/maizzle/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-21",
     "offers": {
       "@type": "Offer",
@@ -321,7 +321,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/maizzle/", "breadcrumb": {"@id": "https://martechsignal.com/tools/maizzle/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/maizzle/", "breadcrumb": {"@id": "https://martechsignal.com/tools/maizzle/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

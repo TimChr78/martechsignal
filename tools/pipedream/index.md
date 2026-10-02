@@ -61,7 +61,7 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
 
 Workflow Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Pipedream →](https://pipedream.com)
 
@@ -160,7 +160,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/pipedream/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -263,7 +263,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pipedream/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pipedream/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pipedream/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pipedream/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

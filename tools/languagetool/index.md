@@ -86,7 +86,7 @@ Open-source writing assistant and grammar checker with AI style and tone suggest
 
 AI Content & Copywriting · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit LanguageTool →](https://languagetool.org)
 
@@ -205,7 +205,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/languagetool/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -340,7 +340,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/languagetool/", "breadcrumb": {"@id": "https://martechsignal.com/tools/languagetool/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/languagetool/", "breadcrumb": {"@id": "https://martechsignal.com/tools/languagetool/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -66,7 +66,7 @@ AI-powered content strategy and optimization platform for SEO content teams
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Frase
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## Frase review (2026): pricing, AI features, verdict
 
@@ -74,7 +74,7 @@ AI-powered SEO content platform for research, writing, and AI visibility trackin
 
 SEO & Search · From $39/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Frase →](https://www.frase.io)
 
@@ -228,7 +228,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/frase/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -355,7 +355,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/frase/", "breadcrumb": {"@id": "https://martechsignal.com/tools/frase/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/frase/", "breadcrumb": {"@id": "https://martechsignal.com/tools/frase/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

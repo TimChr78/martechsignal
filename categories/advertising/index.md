@@ -200,7 +200,7 @@ Vendors in this category: [Revive Adserver](https://www.revive-adserver.com) · 
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 9,
-      "dateModified": "2026-10-01",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -317,7 +317,7 @@ Vendors in this category: [Revive Adserver](https://www.revive-adserver.com) · 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/advertising/", "breadcrumb": {"@id": "https://martechsignal.com/categories/advertising/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/advertising/", "breadcrumb": {"@id": "https://martechsignal.com/categories/advertising/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -122,7 +122,7 @@ Last verified 2026-09-28.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- n8n - 206,395 stars, +3,992 in the 38-snapshot window to 2026-10-01 202,403→206,395 [verify on GitHub](https://github.com/n8n-io/n8n)
+- n8n - 206,478 stars, +4,075 in the 39-snapshot window to 2026-10-02 202,403→206,478 [verify on GitHub](https://github.com/n8n-io/n8n)
 [All movers on the trending page](/trending/).
 
 ## Get the next teardown
@@ -139,7 +139,7 @@ One email when a new tool review lands, nothing else.
     "@type": "Article",
     "@id": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/#article",
     "datePublished": "2026-09-28",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -239,7 +239,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/", "breadcrumb": {"@id": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/", "breadcrumb": {"@id": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

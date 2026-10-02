@@ -8,13 +8,13 @@
 
 12CHECKLIST QUESTIONS
 
-BLOG · 2026-10-0101
+BLOG · 2026-10-0201
 
-BLOG · 2026-09-3002
+BLOG · 2026-10-0102
 
-BLOG · 2026-09-2903
+BLOG · 2026-09-3003
 
-BLOG · 2026-09-2804
+BLOG · 2026-09-2904
 
 [NocoBaseOpen-source no-code platform with AI assistance for building business systems fastAUTOMATION](/tools/nocobase/) [Twilio SegmentCustomer data platform for collecting, unifying, and activating customer dataPERSONALIZATION](/tools/segment/) [HubSpot CRMFree AI-powered CRM platform with sales, service, and marketing tools unifiedCRM](/tools/hubspot-crm/) [MatomoOpen-source web analytics platform with full data ownership and AI-powered insightsANALYTICS](/tools/matomo/) [NocoDBFree, self-hostable Airtable alternative that turns any database into a smart spreadsheetMARKETING AUTO](/tools/nocodb/) [TwentyThe open-source alternative to Salesforce, designed for AI with modern CRM workflowsCRM](/tools/twenty/) [n8nOpen-source workflow automation platform with AI agent capabilities and 400+ nodesAUTOMATION](/tools/n8n/) [DeskcommCRMSelf-hosted open-source CRM with AI agents that sell through WhatsAppCRM](/tools/deskcommcrm/)
 
@@ -82,6 +82,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing
+
+On September 23, 2026, the behavioral intelligence company SQREEM appointed Stephen Yap as CEO and handed him a contrarian pitch to sell: the company's Large Behavioral Model, a…
+
 ### Rethink, not rebuild: Jon Miller and the replatform-for-AI trap
 
 Jon Miller co-founded Marketo, then founded Engagio, the account-based marketing platform Demandbase bought in 2020 (Demandbase press release). This week he came back to the…
@@ -93,10 +97,6 @@ HubSpot published a post this month on the psychology of AI progress indicators.
 ### Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough
 
 On September 22, Salesforce published two blog posts. One, from the Commerce Cloud team, is titled "Build Agents Your Way with Claude and Commerce Cloud." It invites merchants to…
-
-### Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them
-
-Two announcements landed 24 hours apart this week, and they describe the same workflow from opposite ends. On September 22, IAB Tech Lab shipped AAMP 3.0 with a new specification…
 
 ## Tool index
 
@@ -134,5 +134,5 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png", "width": 512, "height": 512}, "founder": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person"}}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/", "description": "Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.", "publisher": {"@id": "https://martechsignal.com/#organization"}, "inLanguage": "en"}, {"@type": "WebPage", "@id": "https://martechsignal.com/", "url": "https://martechsignal.com/", "name": "MartechSignal", "isPartOf": {"@id": "https://martechsignal.com/#website"}, "about": {"@id": "https://martechsignal.com/#organization"}, "inLanguage": "en", "dateModified": "2026-10-01"}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png", "width": 512, "height": 512}, "founder": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person"}}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/", "description": "Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.", "publisher": {"@id": "https://martechsignal.com/#organization"}, "inLanguage": "en"}, {"@type": "WebPage", "@id": "https://martechsignal.com/", "url": "https://martechsignal.com/", "name": "MartechSignal", "isPartOf": {"@id": "https://martechsignal.com/#website"}, "about": {"@id": "https://martechsignal.com/#organization"}, "inLanguage": "en", "dateModified": "2026-10-02"}]}
 ```

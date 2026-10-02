@@ -116,7 +116,7 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
     }
   },
   "datePublished": "2026-08-25",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "mainEntityOfPage": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/",
   "image": {
     "@type": "ImageObject",
@@ -162,7 +162,7 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/", "breadcrumb": {"@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/", "breadcrumb": {"@id": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

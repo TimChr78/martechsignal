@@ -68,7 +68,7 @@ Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & 
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - IDURAR ERP & CRM
-Re-check pending: pricing last verified 2026-09-07 (24 days ago).
+Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 ## IDURAR ERP & CRM review (2026): pricing, AI features, verdict
 
@@ -76,7 +76,7 @@ Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit IDURAR ERP & CRM →](https://cloud.idurarapp.com)
 
@@ -172,8 +172,8 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -199,7 +199,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/idurar-erp-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-25",
     "offers": [
       {
@@ -335,7 +335,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/idurar-erp-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/idurar-erp-crm/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/idurar-erp-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/idurar-erp-crm/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

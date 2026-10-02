@@ -51,9 +51,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Flagsmith - 6,585 stars, +13 in the 6-snapshot window to 2026-10-01 6,572→6,585 [verify on GitHub](https://github.com/Flagsmith/flagsmith)
-- GrowthBook - 8,461 stars, +29 in the 6-snapshot window to 2026-10-01 8,432→8,461 [verify on GitHub](https://github.com/growthbook/growthbook)
-- Jitsu - 5,094 stars, +3 in the 6-snapshot window to 2026-10-01 5,091→5,094 [verify on GitHub](https://github.com/jitsucom/jitsu)
+- Flagsmith - 6,585 stars, +13 in the 7-snapshot window to 2026-10-02 6,572→6,585 [verify on GitHub](https://github.com/Flagsmith/flagsmith)
+- GrowthBook - 8,464 stars, +32 in the 7-snapshot window to 2026-10-02 8,432→8,464 [verify on GitHub](https://github.com/growthbook/growthbook)
+- Jitsu - 5,096 stars, +5 in the 7-snapshot window to 2026-10-02 5,091→5,096 [verify on GitHub](https://github.com/jitsucom/jitsu)
 [All movers on the trending page](/trending/).
 
 ## [Dynamic Yield](/tools/dynamic-yield/)
@@ -180,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI Personalization & CDP tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -313,7 +313,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-personalization-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-personalization-tools/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/ai-personalization-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/ai-personalization-tools/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

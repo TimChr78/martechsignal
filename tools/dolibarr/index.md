@@ -69,7 +69,7 @@ The open-source alternative to Salesforce, designed for AI with modern CRM workf
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Dolibarr ERP/CRM
-Re-check pending: pricing last verified 2026-09-06 (25 days ago).
+Re-check pending: pricing last verified 2026-09-06 (26 days ago).
 
 ## Dolibarr ERP/CRM review (2026): pricing, AI features, verdict
 
@@ -77,7 +77,7 @@ Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one P
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Dolibarr ERP/CRM →](https://www.dolibarr.org)
 
@@ -212,7 +212,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/dolibarr/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-25",
     "offers": {
       "@type": "Offer",
@@ -339,7 +339,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/dolibarr/", "breadcrumb": {"@id": "https://martechsignal.com/tools/dolibarr/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/dolibarr/", "breadcrumb": {"@id": "https://martechsignal.com/tools/dolibarr/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

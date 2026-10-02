@@ -16,7 +16,7 @@ AI visibility platform for brands and agencies: citations, perception, competito
 
 GLOSSARY
 
-Definition last updated 2026-10-01
+Definition last updated 2026-10-02
 
 ## Definition
 
@@ -55,7 +55,7 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
         "@type": "DefinedTerm",
         "name": "Generative engine optimization (GEO)",
         "description": "Generative engine optimization is the practice of getting a brand cited and correctly described inside AI-generated answers, the kind ChatGPT, Perplexity, Gemini, and AI Overviews return. Where classic SEO competes for a ranked link and a click, GEO competes for inclusion in a synthesized answer, so the metrics move from sessions to mentions, citations, and factual accuracy. The name is new and the job is partly old: technical SEO decides whether these engines can read your pages, digital PR decides whether independent sources repeat your claims, and GEO covers the gap between them. It is not rank tracking with fresh labels. Some answers still carry positions, but the unit that counts is the citation: named with or without a link, and factually right.",
-        "dateModified": "2026-10-01",
+        "dateModified": "2026-10-02",
         "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
@@ -113,7 +113,7 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/geo/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/geo/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/geo/", "breadcrumb": {"@id": "https://martechsignal.com/glossary/geo/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

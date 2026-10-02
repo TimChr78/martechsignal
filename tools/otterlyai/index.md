@@ -76,7 +76,7 @@ AI search monitoring for brand mentions and citations across ChatGPT and AI Over
 
 GEO & LLM Optimization · From €29/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit OtterlyAI →](https://otterly.ai/)
 
@@ -201,7 +201,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/otterlyai/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -328,7 +328,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/otterlyai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/otterlyai/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/otterlyai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/otterlyai/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

@@ -64,7 +64,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Eve Marketing Team Template
-Re-check pending: pricing last verified 2026-08-31 (31 days ago).
+Re-check pending: pricing last verified 2026-08-31 (32 days ago).
 
 KIND: Utility (not an end-to-end platform)
 
@@ -74,7 +74,7 @@ Open-source team of marketing agents on eve: lead, content, social, SEO, email
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
 
 [Visit Eve Marketing Team Template →](https://github.com/vercel-labs/marketing-team-eve-template)
 
@@ -185,7 +185,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/eve-marketing-team/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "datePublished": "2026-08-31",
     "offers": {
       "@type": "Offer",
@@ -288,7 +288,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/eve-marketing-team/", "breadcrumb": {"@id": "https://martechsignal.com/tools/eve-marketing-team/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/eve-marketing-team/", "breadcrumb": {"@id": "https://martechsignal.com/tools/eve-marketing-team/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

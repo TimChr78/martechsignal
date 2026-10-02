@@ -170,7 +170,7 @@ Read the full assessment of [Mailchimp](/tools/mailchimp/), or browse all [email
     "@type": "ItemList",
     "name": "Mailchimp alternatives (2026): 10 email platforms compared",
     "datePublished": "2026-10-01",
-    "dateModified": "2026-10-01",
+    "dateModified": "2026-10-02",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -325,7 +325,7 @@ Read the full assessment of [Mailchimp](/tools/mailchimp/), or browse all [email
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/alternatives/mailchimp/", "breadcrumb": {"@id": "https://martechsignal.com/alternatives/mailchimp/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/alternatives/mailchimp/", "breadcrumb": {"@id": "https://martechsignal.com/alternatives/mailchimp/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json
