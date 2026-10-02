@@ -3586,9 +3586,15 @@ def sync_date_modified():
         if _url == "https://martechsignal.com//":
             _url = "https://martechsignal.com/"
         # r16 L-7: unfragmented page URL as the WebPage @id (guides pattern).
+        # r22 H-1 (2026-10-03): NO breadcrumb @id pointer here. WebPage.breadcrumb
+        # pointing at a BreadcrumbList in a DIFFERENT ld+json block is not resolved
+        # by Google - it parses the pointer as a BreadcrumbList missing
+        # itemListElement ("Missing field 'itemListElement'", 52-page GSC error,
+        # first detected 2026-09-30). The standalone BreadcrumbList block is valid
+        # on its own; /blog/ pages without the pointer PASS. Ship WebPage with
+        # dateModified only.
         _block = ('<script type="application/ld+json">{"@context": "https://schema.org", '
                   '"@type": "WebPage", "@id": "' + _url + '", '
-                  '"breadcrumb": {"@id": "' + _url + '#breadcrumb"}, '
                   '"dateModified": "' + _val + '"}</script>')
         _p.write_text(_s.replace("</head>", _block + "\n</head>", 1))
         _n += 1
