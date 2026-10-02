@@ -21,7 +21,7 @@ DIGITAL ADVERTISING · AI AGENTS · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them
 
- · Updated 2026-10-02
+ · Updated 2026-10-02
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 

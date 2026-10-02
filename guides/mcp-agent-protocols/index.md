@@ -4,7 +4,7 @@
 
 ## MCP and agent protocols for marketers: the working hub
 
-Last verified  · Updated 2026-10-02.
+Last verified <time datetime="2026-09-28">2026-09-28</time>.
 
 Model Context Protocol turned integrations from per-vendor engineering projects into something closer to a driver model: one protocol, many tools, and an agent that can call them. For a martech stack this rewrites the economics of every "we should connect these two systems" conversation. This hub collects our work on that shift, and on the failure modes that arrive with it.
 

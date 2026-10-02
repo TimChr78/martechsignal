@@ -3521,8 +3521,10 @@ def sync_date_modified():
                     _ud = _dt2.datetime.strptime(_val, '%Y-%m-%d').strftime('%b %d, %Y').upper()
                 except ValueError:
                     _ud = _val
-                _ins = ('\1 &middot; Updated <time datetime="' + _val + '">' + _ud + '</time>')
-                _s = _re.sub(r'(<time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>)', _ins, _s, count=1)
+                # (the lambda below carries the group reference; never use a backslash literal here)
+                _s = _re.sub(r'(<time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>)',
+                             lambda _m: _m.group(1) + ' &middot; Updated <time datetime="' + _val + '">' + _ud + '</time>',
+                             _s, count=1)
         # r16 L-7 (2026-09-29): pages that already define a WebPage node
         # keep it (unified above); every other page gets one with the
         # unfragmented page URL as @id (the guides pattern the audit calls

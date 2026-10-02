@@ -24,7 +24,7 @@ OPEN SOURCE · MARTECH · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Fifty days of open-source MarTech, audited
 
- · Updated 2026-10-02
+ · Updated 2026-10-02
 
 Filed under [Open-Source Tools](/categories/open-source/) · [Workflow Automation](/categories/workflow-automation/)
 

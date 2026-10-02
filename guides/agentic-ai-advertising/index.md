@@ -4,7 +4,7 @@
 
 ## Agentic advertising: what platforms automate without you
 
-Last verified  · Updated 2026-10-02.
+Last verified <time datetime="2026-09-28">2026-09-28</time>.
 
 Advertising is where agent autonomy shows up first and hardest, because the platforms own the loop and the budget is already inside them. This hub orders the coverage: what is being automated, what is being spent, and which guardrails are real versus promised.
 

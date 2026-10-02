@@ -10,7 +10,7 @@ AI CONTENT · AI AGENTS · 7 MIN
 
 [Home](/) · [Blog](/blog/) · AI watermarks are now part of your agent's risk surface
 
- · Updated 2026-10-02
+ · Updated 2026-10-02
 
 Filed under [Agent Skills](/categories/agent-skills/)
 

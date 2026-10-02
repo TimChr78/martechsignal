@@ -10,7 +10,7 @@ AUTOMATION · AI AGENTS · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Salesforce's third no-code promise, audited
 
- · Updated 2026-10-02
+ · Updated 2026-10-02
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
