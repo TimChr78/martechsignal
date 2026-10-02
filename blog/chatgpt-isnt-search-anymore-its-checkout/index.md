@@ -19,7 +19,7 @@ SEO · AI SEARCH · 9 MIN
 
 [Home](/) · [Blog](/blog/) · ChatGPT Isn't Search Anymore, It's Checkout
 
-SEP 01, 2026 · Updated SEP 09, 2026
+SEP 01, 2026 · Updated 2026-10-02
 
 Filed under [SEO & Search](/categories/seo/) · [Advertising & Paid Media](/categories/advertising/)
 

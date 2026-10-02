@@ -71,7 +71,7 @@ Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Warmbly →](https://warmbly.com)
 

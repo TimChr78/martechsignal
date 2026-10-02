@@ -81,7 +81,7 @@ Open-source SEO crawler in Go for technical audits, self-hosted or cloud
 
 SEO & Search · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Seonaut →](https://seonaut.org)
 

@@ -114,7 +114,7 @@ Yes. Both are open-source database surfaces the team hosts itself, so the decisi
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## Browse the hubs behind this comparison
 

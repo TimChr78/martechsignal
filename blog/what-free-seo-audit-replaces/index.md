@@ -21,7 +21,7 @@ SEO · AGENT SKILLS · 7 MIN
 
 [Home](/) · [Blog](/blog/) · What a free SEO audit replaces in your Semrush stack, and what it does not
 
-SEP 16, 2026 · Updated SEP 28, 2026
+SEP 16, 2026 · Updated 2026-10-02
 
 Filed under [SEO & Search](/categories/seo/)
 

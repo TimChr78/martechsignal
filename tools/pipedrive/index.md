@@ -68,7 +68,7 @@ Sales-focused CRM with AI-powered pipeline management and deal forecasting
 
 CRM · From $14/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Pipedrive →](https://www.pipedrive.com)
 

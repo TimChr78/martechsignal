@@ -82,7 +82,7 @@ Open-source web analytics platform with full data ownership and AI-powered insig
 
 Analytics & Attribution · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 Looking for options? [Best Matomo alternatives](/alternatives/matomo/)
 

@@ -79,7 +79,7 @@ GEO visibility measurement with content activation and a ChatGPT Ad Agent
 
 GEO & LLM Optimization · From $800/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Evertune →](https://www.evertune.ai)
 

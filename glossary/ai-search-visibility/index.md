@@ -20,7 +20,7 @@ AI-powered SEO content platform for research, writing, and AI visibility trackin
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

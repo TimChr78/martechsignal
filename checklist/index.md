@@ -105,5 +105,5 @@ Want the fixes, not just the score? The MartechSignal newsletter covers exactly 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/checklist/", "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/checklist/", "dateModified": "2026-09-29"}
 ```

@@ -84,7 +84,7 @@ Open-source AI lead finder: describe your product and it finds and qualifies the
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit OpenOutreach →](https://openoutreach.app)
 

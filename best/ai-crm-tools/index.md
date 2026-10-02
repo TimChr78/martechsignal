@@ -20,7 +20,7 @@ Attio suits startups that want a CRM shaped around their own data model. HubSpot
 
 **Our top pick: [Attio](#attio)** — Best for startups that want a CRM shaped around their own data model. [Try Attio](https://attio.com)
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## How we picked
 

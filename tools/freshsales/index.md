@@ -75,7 +75,7 @@ AI-powered CRM with built-in phone, email, and chat for sales teams
 
 CRM · From $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Freshsales →](https://www.freshworks.com/crm/)
 

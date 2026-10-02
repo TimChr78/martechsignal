@@ -85,7 +85,7 @@ Open-source CRM for LINE Official Accounts with step delivery, scoring, and an M
 
 Marketing Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Line Harness →](https://the-harness.com/line-harness/)
 

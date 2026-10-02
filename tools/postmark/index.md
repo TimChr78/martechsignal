@@ -75,7 +75,7 @@ Transactional email API with separated message streams, an MCP server, and publi
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Postmark →](https://postmarkapp.com)
 

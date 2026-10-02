@@ -77,7 +77,7 @@ Bylined on [42 posts](/blog/) so far, and every tool page in the directory carri
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/authors/tim-christensen/", "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/authors/tim-christensen/", "dateModified": "2026-09-29"}
 ```
 
 ```json

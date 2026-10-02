@@ -20,7 +20,7 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

@@ -77,7 +77,7 @@ Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue att
 
 GEO & LLM Optimization · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Adobe LLM Optimizer →](https://business.adobe.com/products/brand-visibility.html)
 

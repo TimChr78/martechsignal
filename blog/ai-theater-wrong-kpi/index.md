@@ -153,7 +153,7 @@ More from the directory: [Apache Unomi](/tools/apache-unomi/)
     }
   },
   "datePublished": "2026-09-30",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-09-30",
   "mainEntityOfPage": "https://martechsignal.com/blog/ai-theater-wrong-kpi/",
   "image": {
     "@type": "ImageObject",
@@ -199,7 +199,7 @@ More from the directory: [Apache Unomi](/tools/apache-unomi/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-theater-wrong-kpi/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-theater-wrong-kpi/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-theater-wrong-kpi/", "breadcrumb": {"@id": "https://martechsignal.com/blog/ai-theater-wrong-kpi/#breadcrumb"}, "dateModified": "2026-09-30"}
 ```
 
 ```json

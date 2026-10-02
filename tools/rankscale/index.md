@@ -82,7 +82,7 @@ AI visibility tracking across 17+ answer engines for agencies and enterprise tea
 
 GEO & LLM Optimization · From €99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Rankscale →](https://rankscale.ai/)
 

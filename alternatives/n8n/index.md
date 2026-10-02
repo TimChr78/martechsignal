@@ -28,7 +28,7 @@ Before you move, draw the workflow inventory first: triggers, the apps touched, 
 
 The table below compares all twelve on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at.
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## [Make](/tools/make/)
 

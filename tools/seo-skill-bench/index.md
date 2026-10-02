@@ -71,7 +71,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit SEO Skill Bench →](https://seoagent.com/seo-skill-benchmark)
 

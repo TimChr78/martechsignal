@@ -67,7 +67,7 @@ Open-source ManyChat alternative built for AI, omnichannel chat marketing and au
 
 Chatbots & Conversational AI · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit ChatbotX →](https://chatbotx.io/docs)
 

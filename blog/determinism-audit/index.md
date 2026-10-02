@@ -28,7 +28,7 @@ AI AGENTS · MARKETING AUTOMATION · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Most of your marketing AI agents should be if/then
 
-SEP 11, 2026 · Updated SEP 12, 2026
+SEP 11, 2026 · Updated 2026-10-02
 
 Filed under [Agent Skills](/categories/agent-skills/)
 

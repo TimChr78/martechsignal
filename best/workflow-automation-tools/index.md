@@ -20,7 +20,7 @@ n8n suits teams that self-host and want code steps plus AI agents in their workf
 
 **Our top pick: [n8n](#n8n)** — Best for self-hosted workflows with code steps and AI agents. [Try n8n](https://n8n.io)
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## How we picked
 

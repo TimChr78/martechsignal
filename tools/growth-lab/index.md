@@ -72,7 +72,7 @@ Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and 
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Growth Lab →](https://growthlab.tsingyuai.com)
 

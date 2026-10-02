@@ -84,7 +84,7 @@ Product analytics platform with AI-powered insights for user behavior tracking
 
 Analytics & Attribution · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Mixpanel →](https://mixpanel.com)
 

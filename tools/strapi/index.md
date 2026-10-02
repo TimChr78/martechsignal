@@ -70,7 +70,7 @@ Open-source headless CMS with AI-powered content management and API-first design
 
 AI Content & Copywriting · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Strapi →](https://strapi.io)
 

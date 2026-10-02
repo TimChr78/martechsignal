@@ -71,7 +71,7 @@ AI-powered live chat and chatbot platform with Lyro AI agent for customer suppor
 
 Chatbots & Conversational AI · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Tidio →](https://www.tidio.com)
 

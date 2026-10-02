@@ -87,7 +87,7 @@ AI-powered digital analytics platform for product and marketing teams
 
 Analytics & Attribution · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Amplitude →](https://amplitude.com)
 

@@ -74,7 +74,7 @@ Free open-source Laravel CRM for SMEs and enterprises with full customer lifecyc
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Krayin CRM →](https://krayincrm.com)
 

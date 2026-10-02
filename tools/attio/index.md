@@ -71,7 +71,7 @@ AI-native CRM with real-time data enrichment and agentic revenue workflows
 
 CRM · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Attio →](https://attio.com)
 

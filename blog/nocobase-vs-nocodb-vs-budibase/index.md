@@ -28,7 +28,7 @@ OPEN SOURCE · WORKFLOW AUTOMATION · 10 MIN
 
 [Home](/) · [Blog](/blog/) · NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet
 
-SEP 09, 2026 · Updated SEP 28, 2026
+SEP 09, 2026 · Updated 2026-10-02
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 

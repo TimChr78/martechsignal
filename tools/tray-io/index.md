@@ -79,7 +79,7 @@ AI-powered integration platform for building custom automation and AI agents
 
 Workflow Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Tray.io →](https://tray.ai)
 

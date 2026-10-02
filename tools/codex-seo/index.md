@@ -72,7 +72,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 
 Agent Skills · Free Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Codex SEO →](https://github.com/AgriciDaniel/codex-seo)
 

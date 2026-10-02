@@ -80,7 +80,7 @@ The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one p
 
 GEO & LLM Optimization · From $79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Writesonic →](https://writesonic.com)
 

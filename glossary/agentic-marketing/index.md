@@ -16,7 +16,7 @@ Visual automation platform for building complex workflows with AI agents and app
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

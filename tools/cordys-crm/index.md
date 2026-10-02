@@ -91,7 +91,7 @@ Open-source AI CRM with built-in agents, conversational analytics, and private d
 
 CRM · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Cordys CRM →](https://cordys.cn)
 

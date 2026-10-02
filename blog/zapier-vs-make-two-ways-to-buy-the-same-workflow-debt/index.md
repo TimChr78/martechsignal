@@ -21,7 +21,7 @@ AUTOMATION · ZAPIER · 10 MIN
 
 [Home](/) · [Blog](/blog/) · Two ways to buy the same workflow debt: task-metered and operations-metered
 
-AUG 27, 2026 · Updated SEP 28, 2026
+AUG 27, 2026 · Updated 2026-10-02
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 

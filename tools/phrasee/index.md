@@ -79,7 +79,7 @@ AI messaging content platform; rebranded as Jacquard in June 2024
 
 AI Content & Copywriting · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Phrasee →](https://www.jacquard.com)
 

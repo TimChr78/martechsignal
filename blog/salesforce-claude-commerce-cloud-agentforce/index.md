@@ -21,7 +21,7 @@ AI AGENTS · SALESFORCE · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough
 
-SEP 29, 2026
+ · Updated 2026-10-02
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 

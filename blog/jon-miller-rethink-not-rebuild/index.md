@@ -125,7 +125,7 @@ More from the directory: [MarketMuse](/tools/marketmuse/)
     }
   },
   "datePublished": "2026-10-01",
-  "dateModified": "2026-10-02",
+  "dateModified": "2026-10-01",
   "mainEntityOfPage": "https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/",
   "image": {
     "@type": "ImageObject",
@@ -171,7 +171,7 @@ More from the directory: [MarketMuse](/tools/marketmuse/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/", "breadcrumb": {"@id": "https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/#breadcrumb"}, "dateModified": "2026-10-02"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/", "breadcrumb": {"@id": "https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

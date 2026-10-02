@@ -24,7 +24,7 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

@@ -80,7 +80,7 @@ Free open source ad server for publishers, ad networks and advertisers
 
 Advertising & Paid Media · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Revive Adserver →](https://www.revive-adserver.com)
 

@@ -34,5 +34,5 @@ Questions about this policy can go through the site's GitHub repository discussi
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/privacy/", "dateModified": "2026-09-30"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/privacy/", "dateModified": "2026-08-26"}
 ```

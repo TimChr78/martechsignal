@@ -73,7 +73,7 @@ Enterprise marketing automation on Salesforce with Agentforce AI across email, S
 
 Marketing Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Salesforce Marketing Cloud →](https://www.salesforce.com/products/marketing-cloud/)
 

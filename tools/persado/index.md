@@ -80,7 +80,7 @@ AI content creation and optimization platform for regulated financial services m
 
 AI Content & Copywriting · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Persado →](https://www.persado.com)
 

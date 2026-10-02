@@ -73,7 +73,7 @@ Data-driven messaging platform for automated email, push, SMS, and in-app messag
 
 Email Marketing · From $100/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Customer.io →](https://customer.io)
 

@@ -67,7 +67,7 @@ AI-powered social media content generator for posts, videos, and ad creatives
 
 Social Media · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Predis.ai →](https://predis.ai)
 

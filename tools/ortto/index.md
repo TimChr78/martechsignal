@@ -80,7 +80,7 @@ Customer data and marketing automation platform with journeys, CDP, and AI featu
 
 Marketing Automation · From $199/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Ortto →](https://ortto.com)
 

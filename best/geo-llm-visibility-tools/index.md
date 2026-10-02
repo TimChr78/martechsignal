@@ -23,7 +23,7 @@ Nimt AI leads for teams that want GEO measurement in one platform. OtterlyAI is 
 
 **Our top pick: [Nimt.ai](#nimt-ai)** — Best for teams that want tracking across 8 AI models plus an agent that writes, fixes and outreaches, starting from EUR 40 in credits. [Try Nimt.ai](https://nimt.ai)
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## How we picked
 

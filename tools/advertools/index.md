@@ -79,7 +79,7 @@ Python toolkit for SEO and advertising analysis in pandas DataFrames
 
 Advertising & Paid Media · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit advertools →](https://advertools.readthedocs.io)
 

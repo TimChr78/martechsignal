@@ -16,7 +16,7 @@ Customer context infrastructure: behavioral event pipeline for warehouses and AI
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

@@ -77,7 +77,7 @@ Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one P
 
 CRM · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Dolibarr ERP/CRM →](https://www.dolibarr.org)
 

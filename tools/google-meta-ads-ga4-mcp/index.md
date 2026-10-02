@@ -83,7 +83,7 @@ MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 
 Agent Skills · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Google Ads + Meta Ads + GA4 MCP →](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
 

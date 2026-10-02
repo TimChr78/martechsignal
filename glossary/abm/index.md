@@ -16,7 +16,7 @@ Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

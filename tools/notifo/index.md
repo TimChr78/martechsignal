@@ -81,7 +81,7 @@ Self-hosted multi-channel notification service for email, SMS, and web push
 
 Email Marketing · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Notifo →](https://notifo.io)
 

@@ -22,7 +22,7 @@ Claude SEO headlines for teams running SEO audits as agent skills. The rest spli
 
 **Our top pick: [Claude SEO](#claude-seo)** — Best for SEO teams that want 25 audit sub-skills and 20 specialist agents inside Claude Code, free under the MIT license. [Try Claude SEO](https://claude-seo.md/)
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## How we picked
 

@@ -10,7 +10,7 @@ CDP · CRM · 8 MIN
 
 [Home](/) · [Blog](/blog/) · The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For
 
-SEP 02, 2026 · Updated SEP 09, 2026
+SEP 02, 2026 · Updated 2026-10-02
 
 Filed under [CRM](/categories/crm/) · [Analytics & Attribution](/categories/analytics/)
 

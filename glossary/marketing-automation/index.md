@@ -24,7 +24,7 @@ Enterprise B2B marketing automation with AI-driven lead management and engagemen
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

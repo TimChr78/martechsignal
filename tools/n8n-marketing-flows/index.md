@@ -72,7 +72,7 @@ Re-check pending: pricing last verified 2026-08-31 (32 days ago).
 
 Workflow Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit n8n Marketing Flows →](https://github.com/YuriCrystal/n8n-marketing-flows)
 

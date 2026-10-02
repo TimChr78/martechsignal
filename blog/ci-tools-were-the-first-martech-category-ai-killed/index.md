@@ -32,7 +32,7 @@ AI · COMPETITIVE INTELLIGENCE · 13 MIN
 
 [Home](/) · [Blog](/blog/) · Competitive-Intel Tools Were the First Martech Category AI Killed
 
-AUG 18, 2026 · Updated SEP 09, 2026
+AUG 18, 2026 · Updated 2026-10-02
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 

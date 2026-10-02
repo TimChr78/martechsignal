@@ -20,7 +20,7 @@ RudderStack fits warehouse-first teams that want a self-hostable event router wi
 
 **Our top pick: [RudderStack](#rudderstack)** — Best Segment-compatible router for warehouse-first stacks on a budget. [Try RudderStack](https://www.rudderstack.com/)
 
-Last verified 2026-10-01.
+Last verified  · Updated 2026-10-02.
 
 ## How we picked
 

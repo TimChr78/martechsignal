@@ -89,7 +89,7 @@ AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 
 Advertising & Paid Media · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Revealbot (Birch) →](https://bir.ch)
 

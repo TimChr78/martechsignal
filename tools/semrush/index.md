@@ -70,7 +70,7 @@ All-in-one SEO and digital marketing platform with AI-powered insights and tools
 
 SEO & Search · From $117/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Semrush →](https://www.semrush.com)
 

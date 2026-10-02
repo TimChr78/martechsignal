@@ -80,7 +80,7 @@ AI-powered ecommerce personalization with product recommendations and merchandis
 
 Personalization & CDP · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Nosto →](https://www.nosto.com)
 

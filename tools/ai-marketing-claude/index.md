@@ -68,7 +68,7 @@ KIND: Agent Skill (not an end-to-end platform)
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit AI Marketing Suite →](https://github.com/zubair-trabzada/ai-marketing-claude)
 

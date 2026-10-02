@@ -67,7 +67,7 @@ AI platform generating high-converting ad creatives and social media post design
 
 Advertising & Paid Media · From $20/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit AdCreative.ai →](https://www.adcreative.ai)
 

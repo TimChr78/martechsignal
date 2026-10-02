@@ -71,7 +71,7 @@ AI-powered marketing attribution platform connecting ad spend to revenue
 
 Analytics & Attribution · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Attribution →](https://www.attributionapp.com)
 

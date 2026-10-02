@@ -80,7 +80,7 @@ Open-source no-code platform with AI assistance for building business systems fa
 
 Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit NocoBase →](https://www.nocobase.com)
 

@@ -77,7 +77,7 @@ Visual automation platform for building complex workflows with AI agents and app
 
 Workflow Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Make →](https://www.make.com)
 

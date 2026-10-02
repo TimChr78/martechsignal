@@ -71,7 +71,7 @@ AI-powered email and SMS marketing platform built for ecommerce brands
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Klaviyo →](https://www.klaviyo.com)
 

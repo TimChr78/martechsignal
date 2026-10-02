@@ -79,7 +79,7 @@ Open-source customer engagement suite with Captain AI and full self-hosting
 
 Chatbots & Conversational AI · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Chatwoot →](https://www.chatwoot.com)
 

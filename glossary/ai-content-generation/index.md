@@ -20,7 +20,7 @@ AI platform generating high-converting ad creatives and social media post design
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

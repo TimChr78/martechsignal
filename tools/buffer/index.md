@@ -71,7 +71,7 @@ Simple social media scheduling and analytics with AI-powered content tools
 
 Social Media · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Buffer →](https://buffer.com)
 

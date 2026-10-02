@@ -22,7 +22,7 @@ Revealbot fits buyers who trust rules they wrote over black boxes. Pencil pairs 
 
 **Our top pick: [Revealbot (Birch)](#revealbot)** — Media buyers that trust rules they wrote more than black boxes [Try Revealbot (Birch)](https://bir.ch)
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## How we picked
 

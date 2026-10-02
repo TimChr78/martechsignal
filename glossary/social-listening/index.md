@@ -16,7 +16,7 @@ Simple social media scheduling and analytics with AI-powered content tools
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

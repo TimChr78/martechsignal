@@ -22,7 +22,7 @@ Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we ha
 
 [Home](/) · [Blog](/blog/) · Claude SEO benchmark: every score we have earned, and what each one measured
 
-SEP 27, 2026 · Updated SEP 28, 2026
+SEP 27, 2026 · Updated 2026-10-02
 
 Filed under [SEO & Search](/categories/seo/)
 

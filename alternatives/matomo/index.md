@@ -19,7 +19,7 @@ The shortlist splits by what pushed you out. Lighter cookieless scripts suit tea
 
 When you compare, check what each tool does with cookies and consent, whether your historical statistics need to come across, and which reports you open each week. The prices below are the vendors' published ones, and we hold no account with any of these tools.
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## [Plausible Analytics](/tools/plausible/)
 

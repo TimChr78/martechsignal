@@ -22,7 +22,7 @@ Mautic comes first: HubSpot-class automation you host yourself. Listmonk sends n
 
 **Our top pick: [Mautic](#mautic)** — Marketing teams that want HubSpot-class automation they can host themselves [Try Mautic](https://www.mautic.org)
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## How we picked
 

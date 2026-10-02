@@ -87,7 +87,7 @@ Open-source product analytics platform with session replay, feature flags, exper
 
 Analytics & Attribution · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit PostHog →](https://posthog.com)
 

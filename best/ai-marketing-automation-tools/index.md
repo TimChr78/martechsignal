@@ -22,7 +22,7 @@ NocoDB tops this list because it covers automation plus data in one self-hosted 
 
 **Our top pick: [NocoDB](#nocodb)** — Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier. [Try NocoDB](https://nocodb.com)
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## How we picked
 

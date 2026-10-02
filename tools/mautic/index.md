@@ -82,7 +82,7 @@ Open-source marketing automation platform with email, campaigns, and lead manage
 
 Marketing Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Mautic →](https://www.mautic.org)
 

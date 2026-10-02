@@ -74,7 +74,7 @@ AI-first customer service platform with Fin AI agent and omnichannel messaging
 
 Chatbots & Conversational AI · From $29/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Intercom →](https://www.intercom.com)
 

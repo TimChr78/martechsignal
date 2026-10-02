@@ -65,7 +65,7 @@ Consumer-friendly automation connecting apps and smart devices
 
 Workflow Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit IFTTT →](https://ifttt.com)
 

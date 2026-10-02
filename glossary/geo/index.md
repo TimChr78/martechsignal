@@ -16,7 +16,7 @@ AI visibility platform for brands and agencies: citations, perception, competito
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

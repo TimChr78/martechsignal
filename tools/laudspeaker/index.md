@@ -72,7 +72,7 @@ Open-source customer engagement and product onboarding platform, alternative to 
 
 Marketing Automation · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Laudspeaker →](https://laudspeaker.com/?ref=github)
 

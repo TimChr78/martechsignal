@@ -24,7 +24,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

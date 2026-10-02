@@ -20,7 +20,7 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

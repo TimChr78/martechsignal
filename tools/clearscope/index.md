@@ -67,7 +67,7 @@ AI-powered content optimization platform for SEO teams and content writers
 
 SEO & Search · From $129/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Clearscope →](https://www.clearscope.io)
 

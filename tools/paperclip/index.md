@@ -82,7 +82,7 @@ Open-source control plane to manage AI agents like a company, hire, schedule, bu
 
 Workflow Automation · Freemium · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Paperclip →](https://paperclip.ing)
 

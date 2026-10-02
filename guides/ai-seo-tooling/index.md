@@ -4,7 +4,7 @@
 
 ## AI SEO tooling: benchmarks, comparisons, and the honest limits
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 AI SEO tooling covers two different promises: tools that help you produce and optimize content, and tools that tell you how visible you are inside AI-generated answers. Both markets are crowded and under-measured. This hub collects our benchmark work and the comparisons where we ran the tools ourselves.
 
@@ -74,7 +74,7 @@ Sources: [Semrush](https://www.semrush.com/) · [Semrush pricing](https://www.se
 
 
 ```json
-{"@context": "https://schema.org", "@type": "Article", "headline": "AI SEO tooling: benchmarks, comparisons, and the honest limits", "url": "https://martechsignal.com/guides/ai-seo-tooling/", "dateModified": "2026-09-30", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/ai-seo-tooling.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/ai-seo-tooling/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/ai-seo-tooling/"}}
+{"@context": "https://schema.org", "@type": "Article", "headline": "AI SEO tooling: benchmarks, comparisons, and the honest limits", "url": "https://martechsignal.com/guides/ai-seo-tooling/", "dateModified": "2026-10-02", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/ai-seo-tooling.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/ai-seo-tooling/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/ai-seo-tooling/"}}
 ```
 
 ```json

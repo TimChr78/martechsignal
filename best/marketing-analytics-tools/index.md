@@ -22,7 +22,7 @@ Amplitude fits product teams that want funnels without an analyst queue. Matomo 
 
 **Our top pick: [Amplitude](#amplitude)** — Product teams that want funnels and retention without an analyst queue [Try Amplitude](https://amplitude.com)
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## How we picked
 

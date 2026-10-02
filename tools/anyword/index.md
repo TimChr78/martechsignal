@@ -71,7 +71,7 @@ AI copywriting platform with predictive performance scores for marketing content
 
 AI Content & Copywriting · From $39/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Anyword →](https://www.anyword.com)
 

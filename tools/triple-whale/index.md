@@ -71,7 +71,7 @@ AI-powered ecommerce analytics and attribution platform for DTC brands
 
 Analytics & Attribution · From $59/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Triple Whale →](https://www.triplewhale.com)
 

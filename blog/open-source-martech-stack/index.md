@@ -62,7 +62,7 @@ UPDATED · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Open-Source Martech Stack vs $5K/mo Subscriptions
 
-JUL 27, 2026 · Updated SEP 28, 2026
+JUL 27, 2026 · Updated 2026-10-02
 
 Every marketing team pays the subscription tax. HubSpot at $800/mo. Salesforce at $150/user. Adobe Marketo at $2,000+. A mid-size B2B team easily burns $5,000–15,000/month on martech subscriptions, and the prices only go up.
 

@@ -67,7 +67,7 @@ Enterprise customer data platform with real-time data orchestration and AI
 
 Personalization & CDP · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Tealium →](https://tealium.com)
 

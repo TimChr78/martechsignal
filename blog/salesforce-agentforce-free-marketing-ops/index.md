@@ -20,7 +20,7 @@ SALESFORCE · AI AGENTS · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.
 
-AUG 07, 2026 · Updated SEP 25, 2026
+AUG 07, 2026 · Updated 2026-10-02
 
 Filed under [CRM](/categories/crm/)
 

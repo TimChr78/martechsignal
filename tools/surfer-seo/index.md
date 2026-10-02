@@ -71,7 +71,7 @@ AI-powered content optimization platform for SEO-driven article writing and audi
 
 SEO & Search · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Surfer SEO →](https://surferseo.com)
 

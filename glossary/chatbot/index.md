@@ -20,7 +20,7 @@ Open-source customer engagement suite with Captain AI and full self-hosting
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

@@ -65,7 +65,7 @@ AI-powered ecommerce personalization with search, recommendations, and email
 
 Personalization & CDP · From $119/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Clerk.io →](https://www.clerk.io)
 

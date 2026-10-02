@@ -69,7 +69,7 @@ Enterprise B2B marketing automation with AI-driven lead management and engagemen
 
 Marketing Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Adobe Marketo Engage →](https://business.adobe.com/products/marketo.html)
 

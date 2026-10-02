@@ -10,7 +10,7 @@ UPDATED · 12 MIN
 
 [Home](/) · [Blog](/blog/) · n8n + AI: The Open-Source Automation Engine
 
-JUL 28, 2026 · Updated SEP 25, 2026
+JUL 28, 2026 · Updated 2026-10-02
 
 In our [open-source martech stack analysis](/blog/open-source-martech-stack/), one tool kept surfacing: **n8n**. With 198K GitHub stars, per-execution pricing that undercuts Zapier by an order of magnitude, and AI agent capabilities built in rather than bolted on, n8n outperforms its commercial competitors on both cost and capability.
 

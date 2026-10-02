@@ -4,7 +4,7 @@
 
 ## Workflow automation without the AI-tool pile-on: the strategy hub
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 Most automation buying goes wrong in the same way: a tool demo promises leverage, the team adds it beside what they own, and eighteen months later the workflow debt is the platform. This hub orders the arguments we have published against that pattern, so you can make the case in whatever sequence your budget cycle needs.
 
@@ -78,7 +78,7 @@ Sources: [n8n](https://n8n.io/) · [n8n pricing](https://n8n.io/pricing/) · [Za
 
 
 ```json
-{"@context": "https://schema.org", "@type": "Article", "headline": "Workflow automation without the AI-tool pile-on: the strategy hub", "url": "https://martechsignal.com/guides/workflow-automation-strategy/", "dateModified": "2026-09-30", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/workflow-automation-strategy.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/workflow-automation-strategy/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/workflow-automation-strategy/"}}
+{"@context": "https://schema.org", "@type": "Article", "headline": "Workflow automation without the AI-tool pile-on: the strategy hub", "url": "https://martechsignal.com/guides/workflow-automation-strategy/", "dateModified": "2026-10-02", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/workflow-automation-strategy.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/workflow-automation-strategy/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/workflow-automation-strategy/"}}
 ```
 
 ```json

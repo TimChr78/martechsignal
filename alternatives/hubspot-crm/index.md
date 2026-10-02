@@ -19,7 +19,7 @@ Two kinds of buyers usually end up on this page. One already runs a marketing st
 
 Before you switch, map your contact and deal records onto the new tool's data model and check which of HubSpot's native connections (Gmail, Outlook, Slack, Salesforce, Shopify, Stripe, Google Analytics) you truly rely on, since a thinner integration list means middleware. Also decide whether you can run a server in exchange for predictable pricing. Everything below comes from the vendors' own documentation; we have no account with any of these tools.
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## [Twenty](/tools/twenty/)
 

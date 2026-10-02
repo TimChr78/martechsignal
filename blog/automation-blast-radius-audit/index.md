@@ -16,7 +16,7 @@ MARKETING AUTOMATION · HOW-TO · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Before your next automation, run the blast radius audit
 
-SEP 08, 2026 · Updated SEP 13, 2026
+SEP 08, 2026 · Updated 2026-10-02
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Workflow Automation](/categories/workflow-automation/)
 

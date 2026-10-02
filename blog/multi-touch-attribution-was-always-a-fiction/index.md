@@ -10,7 +10,7 @@ ANALYTICS · ATTRIBUTION · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Multi-Touch Attribution Was Always a Fiction
 
-AUG 14, 2026 · Updated SEP 27, 2026
+AUG 14, 2026 · Updated 2026-10-02
 
 Filed under [Analytics & Attribution](/categories/analytics/)
 

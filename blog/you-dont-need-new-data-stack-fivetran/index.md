@@ -26,7 +26,7 @@ AI · DATA STACK · 10 MIN
 
 [Home](/) · [Blog](/blog/) · You Don't Need a New Data Stack for AI. Fivetran Just Proved It
 
-AUG 20, 2026 · Updated SEP 26, 2026
+AUG 20, 2026 · Updated 2026-10-02
 
 Filed under [Analytics & Attribution](/categories/analytics/)
 

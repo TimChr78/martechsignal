@@ -75,7 +75,7 @@ Enterprise AI governance plus integration and automation on one platform
 
 Workflow Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Workato →](https://www.workato.com)
 

@@ -22,7 +22,7 @@ Mailchimp is the shortest path from idea to send for small businesses. Klaviyo t
 
 **Our top pick: [Mailchimp](#mailchimp)** — Small businesses that want the shortest path from idea to send [Try Mailchimp](https://mailchimp.com)
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## How we picked
 

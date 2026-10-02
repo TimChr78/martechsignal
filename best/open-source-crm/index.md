@@ -20,7 +20,7 @@ Most teams should start with EspoCRM. It is lean, free, and easy to extend piece
 
 **Our top pick: [EspoCRM](#espocrm)** — Best for lean sales teams that automate à la carte. [Try EspoCRM](https://www.espocrm.com)
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## How we picked
 

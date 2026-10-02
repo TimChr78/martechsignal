@@ -69,7 +69,7 @@ Paid-media operations skill for Claude Code covering 12 ad platforms
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Claude Ads →](https://github.com/AgriciDaniel/claude-ads)
 

@@ -67,7 +67,7 @@ AI chatbot platform for automating customer conversations on messaging channels
 
 Chatbots & Conversational AI · From $39/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Chatfuel →](https://chatfuel.com)
 

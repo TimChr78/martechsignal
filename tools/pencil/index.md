@@ -72,7 +72,7 @@ AI-powered ad creative generation and performance prediction for paid media
 
 Advertising & Paid Media · From $11/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Pencil →](https://trypencil.com)
 

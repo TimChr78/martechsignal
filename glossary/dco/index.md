@@ -16,7 +16,7 @@ AI copywriting platform with predictive performance scores for marketing content
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

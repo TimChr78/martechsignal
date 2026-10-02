@@ -89,7 +89,7 @@ AI-powered personalization platform for web, mobile, and email experiences
 
 Personalization & CDP · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Dynamic Yield →](https://www.dynamicyield.com)
 

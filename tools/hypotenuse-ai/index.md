@@ -71,7 +71,7 @@ AI content generation platform for ecommerce product descriptions and articles
 
 AI Content & Copywriting · From $56/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Hypotenuse AI →](https://www.hypotenuse.ai)
 

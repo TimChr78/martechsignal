@@ -24,7 +24,7 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 
 GLOSSARY
 
-Definition last updated 2026-10-02
+Definition last Updated 2026-10-02
 
 ## Definition
 

@@ -4,7 +4,7 @@
 
 ## Agentic advertising: what platforms automate without you
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 Advertising is where agent autonomy shows up first and hardest, because the platforms own the loop and the budget is already inside them. This hub orders the coverage: what is being automated, what is being spent, and which guardrails are real versus promised.
 
@@ -76,7 +76,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [IAB Tech Lab blog](http
 
 
 ```json
-{"@context": "https://schema.org", "@type": "Article", "headline": "Agentic advertising: what platforms automate without you", "url": "https://martechsignal.com/guides/agentic-ai-advertising/", "dateModified": "2026-09-30", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/agentic-ai-advertising.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/agentic-ai-advertising/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/agentic-ai-advertising/"}}
+{"@context": "https://schema.org", "@type": "Article", "headline": "Agentic advertising: what platforms automate without you", "url": "https://martechsignal.com/guides/agentic-ai-advertising/", "dateModified": "2026-10-02", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/agentic-ai-advertising.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/agentic-ai-advertising/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/agentic-ai-advertising/"}}
 ```
 
 ```json

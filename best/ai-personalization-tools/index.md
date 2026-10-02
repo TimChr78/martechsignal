@@ -22,7 +22,7 @@ Dynamic Yield fits large commerce operations buying personalization depth. Segme
 
 **Our top pick: [Dynamic Yield](#dynamic-yield)** — Large commerce operations buying personalization depth over self-serve [Try Dynamic Yield](https://www.dynamicyield.com)
 
-Last verified 2026-09-28.
+Last verified  · Updated 2026-10-02.
 
 ## How we picked
 

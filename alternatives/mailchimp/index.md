@@ -24,7 +24,7 @@ This list draws only from tools already in the catalog, each with verified prici
 
 Cuts to start from: cheapest for a rarely-sent large list is Brevo; strongest ecommerce data model is Klaviyo; fully self-hosted with no contact caps is Listmonk; developer-first transactional is Resend; platform-plus-CRM depth is HubSpot.
 
-Last verified 2026-10-01.
+Last verified  · Updated 2026-10-02.
 
 ## [Brevo](/tools/brevo/)
 

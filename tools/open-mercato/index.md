@@ -83,7 +83,7 @@ Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 
 Agent Skills · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-02
 
 [Visit Open Mercato →](https://www.openmercato.com/)
 
