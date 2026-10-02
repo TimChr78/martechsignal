@@ -3197,12 +3197,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:best:ai-email-marketing-tools",
-   "displayName": "Best AI Email tools for deliverability (2026)",
+   "displayName": "Best AI Email Marketing tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/ai-email-marketing-tools/",
    "description": "8 email marketing tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
    "representativeQueries": [
-    "best ai email tools for deliverability (2026)",
+    "best ai email marketing tools (2026): 8 compared",
     "ai email marketing tools pricing comparison"
    ]
   },
@@ -3230,12 +3230,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:best:ai-seo-tools",
-   "displayName": "Best AI SEO tools for audits and content (2026)",
+   "displayName": "Best AI SEO tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/ai-seo-tools/",
    "description": "Eight AI SEO tools compared on site audits, content optimization, and rank tracking, with a verdict and a skip-it line for each.",
    "representativeQueries": [
-    "best ai seo tools for audits and content (2026)",
+    "best ai seo tools (2026): 8 compared",
     "ai seo tools pricing comparison"
    ]
   },
@@ -3252,12 +3252,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:best:cdp",
-   "displayName": "Best CDP platforms (2026): 6 compared",
+   "displayName": "Best Customer Data Platforms (2026): composable to self-hosted",
    "type": "text/html",
    "url": "https://martechsignal.com/best/cdp/",
    "description": "Six customer data platforms compared on architecture, pricing shape, self-hosting, and data-residency, with a pick for each team profile.",
    "representativeQueries": [
-    "best cdp platforms (2026): 6 compared",
+    "best customer data platforms (2026): composable to self-hosted",
     "cdp pricing comparison"
    ]
   },
@@ -3274,12 +3274,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:best:marketing-analytics-tools",
-   "displayName": "Best Marketing Analytics tools (2026): 8 compared",
+   "displayName": "Best Marketing Analytics and Attribution tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/marketing-analytics-tools/",
    "description": "8 analytics &amp; attribution tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
    "representativeQueries": [
-    "best marketing analytics tools (2026): 8 compared",
+    "best marketing analytics and attribution tools (2026): 8 compared",
     "marketing analytics tools pricing comparison"
    ]
   },
@@ -3296,12 +3296,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:best:open-source-marketing-tools",
-   "displayName": "Best Open-Source Marketing Automation Tools (2026): 8 compared",
+   "displayName": "Best Open-Source Marketing Tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/open-source-marketing-tools/",
    "description": "8 open-source tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
    "representativeQueries": [
-    "best open-source marketing automation tools (2026): 8 compared",
+    "best open-source marketing tools (2026): 8 compared",
     "open source marketing tools pricing comparison"
    ]
   },
@@ -3318,199 +3318,199 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:activecampaign-vs-hubspot",
-   "displayName": "ActiveCampaign vs HubSpot (2026): automation vs platform",
+   "displayName": "ActiveCampaign vs HubSpot CRM (2026): pricing, automation",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/activecampaign-vs-hubspot/",
    "description": "ActiveCampaign versus HubSpot CRM on pricing, automation depth, AI features, and integrations, with a pick-this-one line for each side.",
    "representativeQueries": [
-    "activecampaign vs hubspot (2026): automation vs platform",
+    "activecampaign vs hubspot crm (2026): pricing, automation",
     "activecampaign vs hubspot comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:activecampaign-vs-klaviyo",
-   "displayName": "ActiveCampaign vs Klaviyo (2026): pricing and AI",
+   "displayName": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/",
    "description": "ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
    "representativeQueries": [
-    "activecampaign vs klaviyo (2026): pricing and ai",
+    "activecampaign vs klaviyo (2026): pricing, ai features, verdict",
     "activecampaign vs klaviyo comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:claude-seo-vs-semrush",
-   "displayName": "Claude SEO vs Semrush (2026): pricing and AI",
+   "displayName": "Claude SEO vs Semrush (2026): pricing, AI features, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/claude-seo-vs-semrush/",
    "description": "Claude SEO versus Semrush on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
    "representativeQueries": [
-    "claude seo vs semrush (2026): pricing and ai",
+    "claude seo vs semrush (2026): pricing, ai features, verdict",
     "claude seo vs semrush comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:jasper-vs-writer",
-   "displayName": "Jasper vs Writer (2026): pricing and AI",
+   "displayName": "Jasper vs Writer (2026): pricing, AI features, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/jasper-vs-writer/",
    "description": "Jasper versus Writer on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
    "representativeQueries": [
-    "jasper vs writer (2026): pricing and ai",
+    "jasper vs writer (2026): pricing, ai features, verdict",
     "jasper vs writer comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:mailchimp-vs-brevo",
-   "displayName": "Mailchimp vs Brevo (2026): pricing and multichannel",
+   "displayName": "Mailchimp vs Brevo (2026): pricing, multichannel, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/mailchimp-vs-brevo/",
    "description": "Mailchimp versus Brevo on pricing by volume versus contacts, channels, AI features, and integrations, with a pick-this-one line for each side.",
    "representativeQueries": [
-    "mailchimp vs brevo (2026): pricing and multichannel",
+    "mailchimp vs brevo (2026): pricing, multichannel, verdict",
     "mailchimp vs brevo comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:mailchimp-vs-klaviyo",
-   "displayName": "Mailchimp vs Klaviyo (2026): pricing and ecommerce",
+   "displayName": "Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/mailchimp-vs-klaviyo/",
    "description": "Mailchimp versus Klaviyo on pricing, ecommerce depth, AI features, and integrations, with a pick-this-one line for each side.",
    "representativeQueries": [
-    "mailchimp vs klaviyo (2026): pricing and ecommerce",
+    "mailchimp vs klaviyo (2026): pricing, ecommerce depth, verdict",
     "mailchimp vs klaviyo comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:make-vs-zapier",
-   "displayName": "Make vs Zapier (2026): pricing and AI",
+   "displayName": "Make vs Zapier (2026): pricing, AI features, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/make-vs-zapier/",
    "description": "Make versus Zapier on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
    "representativeQueries": [
-    "make vs zapier (2026): pricing and ai",
+    "make vs zapier (2026): pricing, ai features, verdict",
     "make vs zapier comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:matomo-vs-plausible",
-   "displayName": "Matomo vs Plausible (2026): depth or simplicity",
+   "displayName": "Matomo vs Plausible (2026): analytics depth or simplicity",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/matomo-vs-plausible/",
    "description": "Matomo vs Plausible compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a balanced pick for each team.",
    "representativeQueries": [
-    "matomo vs plausible (2026): depth or simplicity",
+    "matomo vs plausible (2026): analytics depth or simplicity",
     "matomo vs plausible comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:matomo-vs-posthog",
-   "displayName": "Matomo vs PostHog: 2026 comparison",
+   "displayName": "Matomo vs PostHog (2026): web analytics or product analytics",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/matomo-vs-posthog/",
    "description": "Matomo vs PostHog compared on price, deployment, privacy and scope. Web analytics depth against product analytics breadth, with real migration notes.",
    "representativeQueries": [
-    "matomo vs posthog: 2026 comparison",
+    "matomo vs posthog (2026): web analytics or product analytics",
     "matomo vs posthog comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:n8n-vs-make-vs-zapier",
-   "displayName": "n8n vs Make vs Zapier: 2026 three-way comparison",
+   "displayName": "n8n vs Make vs Zapier (2026): the three-way automation decision",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/",
    "description": "n8n vs Make vs Zapier on price, self-hosting, connectors and exit cost. A three-way decision table and real switching notes from the catalogued numbers.",
    "representativeQueries": [
-    "n8n vs make vs zapier: 2026 three-way comparison",
+    "n8n vs make vs zapier (2026): the three-way automation decision",
     "n8n vs make vs zapier comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:n8n-vs-zapier",
-   "displayName": "n8n vs Zapier (2026): self-host or catalog",
+   "displayName": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/n8n-vs-zapier/",
    "description": "n8n vs Zapier compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a clear pick for each team.",
    "representativeQueries": [
-    "n8n vs zapier (2026): self-host or catalog",
+    "n8n vs zapier (2026): self-hosted depth or catalog breadth",
     "n8n vs zapier comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:nocodb-vs-nocobase",
-   "displayName": "NocoDB vs NocoBase (2026): data model ownership",
+   "displayName": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/nocodb-vs-nocobase/",
    "description": "NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, and integrations, with catalog facts and a balanced pick for each team.",
    "representativeQueries": [
-    "nocodb vs nocobase (2026): data model ownership",
+    "nocodb vs nocobase (2026): spreadsheet layer or system builder",
     "nocodb vs nocobase comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:salesforce-marketing-cloud-vs-hubspot",
-   "displayName": "Salesforce vs HubSpot Marketing Hub (2026): pricing and AI",
+   "displayName": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/",
    "description": "Salesforce Marketing Cloud versus HubSpot Marketing Hub on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
    "representativeQueries": [
-    "salesforce vs hubspot marketing hub (2026): pricing and ai",
+    "salesforce marketing cloud vs hubspot marketing hub (2026)",
     "salesforce marketing cloud vs hubspot comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:alternatives:hubspot-crm",
-   "displayName": "HubSpot CRM Alternatives: 5 Options Compared (2026)",
+   "displayName": "Best HubSpot CRM alternatives (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/hubspot-crm/",
    "description": "Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive, with real pricing and honest limits.",
    "representativeQueries": [
-    "hubspot crm alternatives: 5 options compared (2026)",
+    "best hubspot crm alternatives (2026)",
     "hubspot crm alternatives"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:alternatives:mailchimp",
-   "displayName": "Mailchimp alternatives (2026): 10 compared",
+   "displayName": "Mailchimp alternatives (2026): 10 email platforms compared",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/mailchimp/",
    "description": "Ten Mailchimp alternatives compared on pricing shape, self-hosting, channels, and migration, with a best-fit and not-for line for each.",
    "representativeQueries": [
-    "mailchimp alternatives (2026): 10 compared",
+    "mailchimp alternatives (2026): 10 email platforms compared",
     "mailchimp alternatives"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:alternatives:matomo",
-   "displayName": "Matomo Alternatives: 5 Analytics Tools Compared (2026)",
+   "displayName": "Best Matomo alternatives (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/matomo/",
    "description": "Five Matomo alternatives: lightweight privacy analytics (Plausible, Umami), product suites, and a warehouse pipeline, with honest limits.",
    "representativeQueries": [
-    "matomo alternatives: 5 analytics tools compared (2026)",
+    "best matomo alternatives (2026)",
     "matomo alternatives"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:alternatives:n8n",
-   "displayName": "n8n Alternatives: 12 Tools Compared (2026)",
+   "displayName": "Best n8n alternatives (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/n8n/",
    "description": "n8n alternatives including Make, Zapier, Pipedream, and Activepieces, with pricing models and the buyer each one fits.",
    "representativeQueries": [
-    "n8n alternatives: 12 tools compared (2026)",
+    "best n8n alternatives (2026)",
     "n8n alternatives"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:alternatives:zapier",
-   "displayName": "Zapier Alternatives: 10 Tools Compared (2026)",
+   "displayName": "Best Zapier alternatives (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/zapier/",
    "description": "Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase, with real pricing models and the buyer each one fits.",
    "representativeQueries": [
-    "zapier alternatives: 10 tools compared (2026)",
+    "best zapier alternatives (2026)",
     "zapier alternatives"
    ]
   },

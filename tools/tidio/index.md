@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 AI-powered live chat and chatbot platform with Lyro AI agent for customer support
 
-Chatbots & Conversational AI · Freemium Desk-reviewed
+Chatbots & Conversational AI · Freemium from $24/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -121,7 +121,7 @@ Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Small shops adding live chat and an AI agent cheaply
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $24/mo
 - **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
 - **Founded:** 2013
 - **HQ:** Wroclaw, Poland

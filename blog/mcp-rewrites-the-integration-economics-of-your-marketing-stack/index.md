@@ -108,16 +108,16 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 
 - [Pipedream](/tools/pipedream/) - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [Tealium](/tools/tealium/) - Enterprise customer data platform with real-time data orchestration and AI
-- [Amplitude](/tools/amplitude/) - AI-powered digital analytics platform for product and marketing teams
+- [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [CDP](/glossary/cdp/)
@@ -126,7 +126,7 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [PostHog](/tools/posthog/)
+More from the directory: [RudderStack](/tools/rudderstack/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -180,7 +180,7 @@ The Bottom Line
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1381,
+  "wordCount": 1376,
   "articleSection": "workflow-automation"
 }
 ```

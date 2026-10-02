@@ -125,7 +125,7 @@ Yes. It lets AI tools manage flags, create segments, schedule changes, and autom
 
 ## Related reading
 
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ## Also featured in

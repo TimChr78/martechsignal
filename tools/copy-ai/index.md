@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 AI-powered GTM platform for sales and marketing content automation at scale
 
-AI Content & Copywriting · Freemium Desk-reviewed
+AI Content & Copywriting · Freemium from $49/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -121,7 +121,7 @@ Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — GTM teams that want workflows, not another blank prompt box
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $49/mo
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
 - **Founded:** 2020
 - **HQ:** Memphis, TN, USA

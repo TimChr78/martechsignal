@@ -116,7 +116,7 @@ The analytics tool we recommend by default for content and marketing sites; powe
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ## Also featured in
 
-- [Matomo vs Plausible (2026): analytics depth or a dashboard that stays small](/vs/matomo-vs-plausible/) — you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.
+- [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/) — you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.
 ### Quick Facts
 
 - **Pricing:** Open Source

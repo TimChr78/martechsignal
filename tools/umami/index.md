@@ -139,7 +139,7 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Also featured in
 
-- [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 - **Pricing:** Open Source

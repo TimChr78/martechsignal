@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 Scalable email delivery API with AI-powered deliverability and engagement tools
 
-Email Marketing · Freemium Desk-reviewed
+Email Marketing · Freemium from $19.95/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -120,7 +120,7 @@ Reliable, well-documented transactional email plumbing; marketers should look el
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Product teams that need transactional delivery with marketing on the side
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $19.95/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
 - **Founded:** 2009
 - **HQ:** Denver, CO, USA

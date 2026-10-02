@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 AI content automation platform with workflows for blogs, ads, and social posts
 
-AI Content & Copywriting · Freemium Desk-reviewed
+AI Content & Copywriting · Freemium from $9/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -115,7 +115,7 @@ Good value for high-volume, template-driven content pipelines. Teams doing premi
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $9/mo
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
 - **Founded:** 2021
 - **HQ:** Cape Town, South Africa

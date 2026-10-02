@@ -249,7 +249,7 @@ Why agent-to-tool protocols change what integrations should cost
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 18,
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -474,7 +474,7 @@ Why agent-to-tool protocols change what integrations should cost
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/agent-skills/", "breadcrumb": {"@id": "https://martechsignal.com/categories/agent-skills/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/agent-skills/", "breadcrumb": {"@id": "https://martechsignal.com/categories/agent-skills/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

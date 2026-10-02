@@ -12,7 +12,7 @@ AI-powered product analytics with autocapture and digital experience insights
 
 Analytics & Attribution · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Heap →](https://www.heap.io)
 
@@ -119,7 +119,7 @@ Choose it when you keep discovering untagged events after the fact. Disciplined 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Also featured in
 
-- [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Teams that want retroactive analysis without a tagging plan first
+- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Teams that want retroactive analysis without a tagging plan first
 ### Quick Facts
 
 - **Pricing:** Freemium
@@ -155,6 +155,10 @@ Matomo
 
 Open-source web analytics platform with full data ownership and AI-powered insights
 
+Northbeam
+
+AI-powered multi-touch attribution and marketing intelligence for ecommerce
+
 [More Analytics & Attribution Tools →](/categories/analytics/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
@@ -176,7 +180,7 @@ Open-source web analytics platform with full data ownership and AI-powered insig
     "mainEntityOfPage": "https://martechsignal.com/tools/heap/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-29",
+    "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -276,6 +280,10 @@ Open-source web analytics platform with full data ownership and AI-powered insig
     }
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/heap/", "breadcrumb": {"@id": "https://martechsignal.com/tools/heap/#breadcrumb"}, "dateModified": "2026-08-28"}
 ```
 
 ```json

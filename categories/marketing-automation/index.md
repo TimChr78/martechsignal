@@ -81,7 +81,7 @@ EnterpriseDesk-reviewed
 
 All-in-one marketing automation with AI-powered content, email, and campaign tools
 
-FreemiumDesk-reviewed
+Freemium from $20/moDesk-reviewed
 
 Customer data and marketing automation platform with journeys, CDP, and AI features
 
@@ -218,7 +218,7 @@ The category thesis in practice: audit what agents actually sent, not what logs 
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 12,
-      "dateModified": "2026-10-01",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -371,7 +371,7 @@ The category thesis in practice: audit what agents actually sent, not what logs 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/marketing-automation/", "breadcrumb": {"@id": "https://martechsignal.com/categories/marketing-automation/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/marketing-automation/", "breadcrumb": {"@id": "https://martechsignal.com/categories/marketing-automation/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

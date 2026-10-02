@@ -105,7 +105,7 @@ Tools linked in this post: [HubSpot CRM](/tools/hubspot-crm/) · [n8n](/tools/n8
 ## Comparison guides
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [Marketing ops](/glossary/marketing-ops/)
@@ -166,7 +166,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1715,
+  "wordCount": 1712,
   "articleSection": "marketing-automation, workflow-automation"
 }
 ```

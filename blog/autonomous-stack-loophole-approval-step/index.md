@@ -86,8 +86,8 @@ Our directory reviews marketing automation and workflow tools on what matters af
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 ## Comparison guides
 
+- [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -146,7 +146,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1707,
+  "wordCount": 1708,
   "articleSection": "marketing-automation, workflow-automation"
 }
 ```

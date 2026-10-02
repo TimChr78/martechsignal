@@ -90,7 +90,7 @@ Our SEO hub collects everything we have written on AI search visibility, citatio
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)
@@ -149,7 +149,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1818,
+  "wordCount": 1819,
   "articleSection": "seo, advertising"
 }
 ```

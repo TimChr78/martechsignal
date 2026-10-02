@@ -111,7 +111,7 @@ We will refresh the tracker as the catalog snapshots accumulate. If a project in
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [DMP](/glossary/dmp/)
@@ -168,7 +168,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1456,
+  "wordCount": 1457,
   "articleSection": "agent-skills"
 }
 ```

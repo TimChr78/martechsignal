@@ -12,7 +12,7 @@ Email marketing for SaaS: marketing, product, and transactional email in one too
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Loops →](https://loops.so)
 
@@ -198,7 +198,7 @@ Transactional email API with separated message streams, an MCP server, and publi
     "mainEntityOfPage": "https://martechsignal.com/tools/loops/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-29",
+    "dateModified": "2026-09-07",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -322,6 +322,10 @@ Transactional email API with separated message streams, an MCP server, and publi
     }
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/loops/", "breadcrumb": {"@id": "https://martechsignal.com/tools/loops/#breadcrumb"}, "dateModified": "2026-09-07"}
 ```
 
 ```json

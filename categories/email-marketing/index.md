@@ -67,7 +67,7 @@ Open SourceDesk-reviewedOSS
 
 Multichannel marketing platform billing by email volume, not contacts
 
-FreemiumDesk-reviewed
+Freemium from $9/moDesk-reviewed
 
 Data-driven messaging platform for automated email, push, SMS, and in-app messages
 
@@ -75,7 +75,7 @@ From $100/moDesk-reviewed
 
 AI-powered email and SMS marketing platform built for ecommerce brands
 
-FreemiumDesk-reviewed
+Freemium from $20/moDesk-reviewed
 
 Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 
@@ -87,7 +87,7 @@ FreemiumDesk-reviewed
 
 All-in-one marketing platform with AI-powered email, automation, and analytics
 
-FreemiumDesk-reviewed
+Freemium from $13/moDesk-reviewed
 
 Modern email development framework using Tailwind CSS for responsive campaigns
 
@@ -107,7 +107,7 @@ Open SourceDesk-reviewedOSS
 
 Transactional email API with separated message streams, an MCP server, and published delivery numbers
 
-FreemiumDesk-reviewed
+Freemium from $15/moDesk-reviewed
 
 Drag-n-Drop Email Editor Component for React.js
 
@@ -115,11 +115,11 @@ Open SourceDesk-reviewedOSS
 
 Developer-first email API built around React Email, batch sending, and agent tooling
 
-FreemiumDesk-reviewed
+Freemium from $20/moDesk-reviewed
 
 Scalable email delivery API with AI-powered deliverability and engagement tools
 
-FreemiumDesk-reviewed
+Freemium from $19.95/moDesk-reviewed
 
 Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 
@@ -166,7 +166,7 @@ Open SourceDesk-reviewedOSS
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 16,
-      "dateModified": "2026-10-01",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -367,7 +367,7 @@ Open SourceDesk-reviewedOSS
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/email-marketing/", "breadcrumb": {"@id": "https://martechsignal.com/categories/email-marketing/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/email-marketing/", "breadcrumb": {"@id": "https://martechsignal.com/categories/email-marketing/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

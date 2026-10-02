@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 
-Chatbots & Conversational AI · Freemium Desk-reviewed
+Chatbots & Conversational AI · Freemium from $14/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -120,7 +120,7 @@ The default choice for Instagram and Messenger funnels; value depends entirely o
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Creators monetizing DMs across Instagram and WhatsApp
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $14/mo
 - **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
 - **Founded:** 2015
 - **HQ:** San Francisco, CA, USA

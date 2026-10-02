@@ -12,7 +12,7 @@ Product analytics platform with AI-powered insights for user behavior tracking
 
 Analytics & Attribution · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Mixpanel →](https://mixpanel.com)
 
@@ -146,11 +146,11 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
-- [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform, with a free starting tier.
+- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform, with a free starting tier.
 ### Quick Facts
 
 - **Pricing:** Freemium
@@ -187,6 +187,10 @@ Snowplow
 
 Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
 
+Triple Whale
+
+AI-powered ecommerce analytics and attribution platform for DTC brands
+
 Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on test; the method is on our [methodology page](/methodology/).
 
 [More Analytics & Attribution Tools →](/categories/analytics/)
@@ -210,7 +214,7 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
     "mainEntityOfPage": "https://martechsignal.com/tools/mixpanel/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-06",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -334,6 +338,10 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
     }
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/mixpanel/", "breadcrumb": {"@id": "https://martechsignal.com/tools/mixpanel/#breadcrumb"}, "dateModified": "2026-09-06"}
 ```
 
 ```json

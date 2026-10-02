@@ -94,7 +94,7 @@ EnterpriseDesk-reviewed
 
 Customer data platform for collecting, unifying, and activating customer data
 
-FreemiumDesk-reviewed
+Freemium from $120/moDesk-reviewed
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
@@ -137,7 +137,7 @@ FreemiumDesk-reviewed
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 11,
-      "dateModified": "2026-10-01",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -278,7 +278,7 @@ FreemiumDesk-reviewed
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/personalization/", "breadcrumb": {"@id": "https://martechsignal.com/categories/personalization/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/personalization/", "breadcrumb": {"@id": "https://martechsignal.com/categories/personalization/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

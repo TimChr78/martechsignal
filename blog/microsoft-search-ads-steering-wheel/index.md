@@ -96,7 +96,7 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 
 - [DSP](/glossary/dsp/)
@@ -105,7 +105,7 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [RudderStack](/tools/rudderstack/)
+More from the directory: [SISTRIX](/tools/sistrix/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -155,7 +155,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1706,
+  "wordCount": 1707,
   "articleSection": "advertising"
 }
 ```

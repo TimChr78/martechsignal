@@ -8,7 +8,7 @@
 
 Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
 
-CRM · Freemium Desk-reviewed
+CRM · Freemium from $14/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -103,7 +103,7 @@ Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best value for small teams that want a full suite without an enterprise bill.
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $14/mo
 - **Category:** [CRM](/categories/crm/)
 - **Free Tier Seats:** 3
 - **Paid Tiers:** 3 (Standard / Professional / Enterprise)

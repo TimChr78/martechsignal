@@ -59,11 +59,11 @@ From $29/moDesk-reviewed
 
 AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 
-FreemiumDesk-reviewed
+Freemium from $14/moDesk-reviewed
 
 AI-powered live chat and chatbot platform with Lyro AI agent for customer support
 
-FreemiumDesk-reviewed
+Freemium from $24/moDesk-reviewed
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
@@ -106,7 +106,7 @@ FreemiumDesk-reviewed
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 6,
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -187,7 +187,7 @@ FreemiumDesk-reviewed
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/chatbots/", "breadcrumb": {"@id": "https://martechsignal.com/categories/chatbots/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/chatbots/", "breadcrumb": {"@id": "https://martechsignal.com/categories/chatbots/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

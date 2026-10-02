@@ -8,7 +8,7 @@ Claude SEO and Semrush end up on the same shortlist. Claude SEO turns Claude Cod
 
 Most decisions here come down to where it runs, how it bills, and how deep the AI features go. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
-These two barely share a budget line. Semrush is a subscription suite with a large database behind it. claude-seo is free software that runs inside a coding session and audits one site at a time. Teams that keep both usually split the work: rank tracking and keyword research in one, technical audits in the other.
+These two barely share a budget line. Semrush is a subscription suite with a large database behind it. Claude SEO is free software that runs inside a coding session and audits one site at a time. Teams that keep both usually split the work: rank tracking and keyword research in one, technical audits in the other.
 
 ## Claude SEO vs Semrush: the quick decision
 
@@ -99,7 +99,7 @@ Cost picture for a year of continuous use. All figures checked 2026-09-27 on ven
 
 ## Migration cost
 
-There is no data migration here because claude-seo keeps no database. What changes is the workflow: audits run inside a coding session instead of a web app, and findings land in markdown instead of a dashboard.
+There is no data migration here because Claude SEO keeps no database. What changes is the workflow: audits run inside a coding session instead of a web app, and findings land in markdown instead of a dashboard.
 
 The honest exit cost runs the other way. Keyword history and position tracking live in Semrush and do not fit inside a local tool, so teams that switch entirely give up that continuity. The common pattern is keeping Semrush for rank history while audits move to the local tool.
 
@@ -240,6 +240,10 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/claude-seo-vs-semrush/", "breadcrumb": {"@id": "https://martechsignal.com/vs/claude-seo-vs-semrush/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

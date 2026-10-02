@@ -89,15 +89,15 @@ Open SourceDesk-reviewedOSS
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
-FreemiumDesk-reviewedOSS
+Freemium from $10/moDesk-reviewedOSS
 
 No-code automation platform connecting 9,000+ apps with AI-powered workflows
 
-FreemiumDesk-reviewed
+Freemium from $19.99/moDesk-reviewed
 
 Visual automation platform for building complex workflows with AI agents and apps
 
-FreemiumDesk-reviewed
+Freemium from $9/moDesk-reviewed
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
@@ -129,11 +129,11 @@ Free tierDesk-reviewedOSS
 
 Open-source workflow automation with a free cloud tier and on-prem hosting
 
-FreemiumDesk-reviewedOSS
+Freemium from $20/moDesk-reviewedOSS
 
 Consumer-friendly automation connecting apps and smart devices
 
-FreemiumDesk-reviewed
+Freemium from $2.99/moDesk-reviewed
 
 Enterprise workflow automation inside the Microsoft Power Platform
 
@@ -246,7 +246,7 @@ Where the agent orchestration layer is heading next
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 17,
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -459,7 +459,7 @@ Where the agent orchestration layer is heading next
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/workflow-automation/", "breadcrumb": {"@id": "https://martechsignal.com/categories/workflow-automation/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/workflow-automation/", "breadcrumb": {"@id": "https://martechsignal.com/categories/workflow-automation/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

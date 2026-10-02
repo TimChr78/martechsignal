@@ -144,7 +144,7 @@ Signals, launched in May 2025, is Snowplow's real-time context layer and the hom
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ## Also featured in
 
-- [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want intent detection and can host it themselves, with a free starting tier.
+- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want intent detection and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 - **Pricing:** Free tier

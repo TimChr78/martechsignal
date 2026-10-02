@@ -59,7 +59,7 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 
 ## [Claude SEO](/tools/claude-seo/)
 
-Claude SEO is the SEO audit pick on this list, with 25 sub skills and 20 specialist agents. It is free under MIT and runs self hosted inside Claude Code. Choose it when organic audit depth matters more than paid media or email range.
+Claude SEO claims the SEO audit slot with 25 sub-skills and 20 specialist agents. The license is free MIT, self-hosted inside Claude Code. Choose Claude SEO when organic audit depth beats paid-media or email range.
 
 **Verdict:** Best for SEO teams that want 25 audit sub-skills and 20 specialist agents inside Claude Code, free under the MIT license.
 
@@ -71,7 +71,7 @@ Vendor: [Official site](https://claude-seo.md/) · [GitHub](https://github.com/A
 
 ## [Claude Ads](/tools/claude-ads/)
 
-Claude Ads is the paid media operations pick, covering 12 ad platforms. It is free under MIT and runs inside Claude Code, with Claude API costs applying. Choose it over the SEO or email skills when multi platform ad work is the job.
+Covering 12 ad platforms, Claude Ads owns paid-media operations on this list. Access is free under MIT inside Claude Code, plus Claude API costs. Prefer Claude Ads over the SEO or email skills when multi-platform ad work is the job.
 
 **Verdict:** Best for paid-media teams that run several ad platforms and want one Claude Code skill covering all 12, free under the MIT license.
 
@@ -83,7 +83,7 @@ Vendor: [Official site](https://github.com/AgriciDaniel/claude-ads) · [GitHub](
 
 ## [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/)
 
-This MCP server is the connector pick, giving agents read and write control of Google Ads, Meta Ads and GA4. The repo is MIT licensed, with a hosted endpoint through Ryze AI on free trial then paid plans. Choose it when live account control matters more than a static skill file.
+Google Ads + Meta Ads + GA4 MCP serves as the live-connector pick here. The repo is MIT-licensed, with a hosted Ryze AI endpoint on free trial then paid plans. Use this MCP server when live account control matters more than a static skill file.
 
 **Verdict:** Best for performance teams that want Google Ads, Meta Ads and GA4 reachable from one MCP server, free to self-host.
 
@@ -95,7 +95,7 @@ Vendor: [Official site](https://github.com/irinabuht12-oss/google-meta-ads-ga4-m
 
 ## [Digital Marketing Pro](/tools/digital-marketing-pro/)
 
-Digital Marketing Pro is the broadest pack on this list, with 163 skills for agencies. It is free under MIT and runs on Claude Code, Codex, Cursor, Copilot CLI and more. Choose it when agency range matters more than single topic depth.
+Digital Marketing Pro brings the broadest pack at 163 agency skills. Everything is free under MIT across Claude Code, Codex, Cursor, Copilot CLI and 35-plus platforms. Grab Digital Marketing Pro when agency range beats single-topic depth.
 
 **Verdict:** Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier.
 
@@ -107,7 +107,7 @@ Vendor: [Official site](https://github.com/indranilbanerjee/digital-marketing-pr
 
 ## [Email Marketing Bible](/tools/email-marketing-bible/)
 
-Email Marketing Bible is the email depth pick, with 19 playbooks and ESP control over MCP. It is free and open source for Claude Code, Claude Desktop and MCP agents. Choose it when email craft matters more than ads or SEO breadth.
+Email Marketing Bible delivers the email-depth slot with 19 playbooks and ESP control over MCP. The package is free and open source for Claude Code, Claude Desktop and MCP agents. Lean on Email Marketing Bible when email craft outweighs ads or SEO breadth.
 
 **Verdict:** Best for email marketers who want 19 playbooks with 908 cited sources and ESP control over MCP, free under the MIT license.
 
@@ -119,7 +119,7 @@ Vendor: [Official site](https://github.com/CosmoBlk/email-marketing-bible) · [G
 
 ## [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/)
 
-Zapier GTM Cheat Codes is the Zapier workflow pick for campaign planning, CRM context and customer proof. It is free under MIT for Codex, Claude Code, Cursor and similar tools, with Zapier credentials needed for connected actions. Choose it when tying GTM work into Zapier matters more than standalone channel skills.
+Zapier GTM Cheat Codes ties GTM work into Zapier for campaign planning, CRM context and customer proof. The skill is free MIT for Codex, Claude Code, Cursor and similar harnesses, with Zapier credentials required for connected actions. Adopt Zapier GTM Cheat Codes when Zapier ties matter more than standalone channel skills.
 
 **Verdict:** Best for GTM practitioners who want a cheat-code skill for Zapier and Google Tag Manager recipes, free to install.
 
@@ -131,7 +131,7 @@ Vendor: [Official site](https://github.com/zapier/gtm-cheat-codes) · [GitHub](h
 
 ## [Eve Marketing Team Template](/tools/eve-marketing-team/)
 
-Eve Marketing Team is the team setup pick, with lead, content, social, SEO and email agents. It is free under MIT and runs on eve with Vercel deploy, and you pay only for model and connectors. Choose it when you want a ready team shape instead of assembling single skills.
+Eve Marketing Team Template provides the ready-team shape with lead, content, social, SEO and email agents. Licensing is free MIT on eve with Vercel deploy, and you pay only for model plus connectors. Deploy Eve when a preset team shape beats assembling single skills.
 
 **Verdict:** Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier.
 
@@ -143,7 +143,7 @@ Vendor: [Official site](https://github.com/vercel-labs/marketing-team-eve-templa
 
 ## [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/)
 
-OpenClaw Marketing Skills is the OpenClaw native pick, with 37 marketing skills and live data connectors. It is free under MIT for OpenClaw agents, with cloud hosting through MyClaw.ai. Choose it when you already run OpenClaw and want marketing inside that host.
+OpenClaw Marketing Skills is the OpenClaw-native entry with 37 marketing skills and live data connectors. Use is free under MIT for OpenClaw agents, with cloud hosting via MyClaw.ai. Run OpenClaw Marketing Skills when marketing must live inside an existing OpenClaw host.
 
 **Verdict:** Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier.
 
@@ -315,6 +315,10 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/agent-skills-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/agent-skills-tools/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

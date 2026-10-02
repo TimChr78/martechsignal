@@ -8,7 +8,7 @@
 
 Open-source workflow automation with a free cloud tier and on-prem hosting
 
-Workflow Automation · Freemium · OPEN SOURCE Desk-reviewed
+Workflow Automation · Freemium from $20/mo · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -106,7 +106,7 @@ Strengths include 24,836 GitHub stars, open-source licensing with free self-host
 - [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $20/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **GitHub:** ★ 24836
 - **API:** Yes

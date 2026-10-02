@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 All-in-one marketing platform with AI-powered email, automation, and analytics
 
-Email Marketing · Freemium Desk-reviewed
+Email Marketing · Freemium from $13/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -126,7 +126,7 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 - [Mailchimp vs Brevo (2026): pricing, multichannel, verdict](/vs/mailchimp-vs-brevo/) — Pick Mailchimp if your team wants a broad commerce-flavored marketing suite with strong brand recognition, starting at $13/mo for Essentials (free to 500 contacts).
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $13/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
 - **Third-party ratingsG2 rating:** 4.4/5 · [source](https://www.g2.com/products/intuit-mailchimp-all-in-one-marketing-platform/reviews)as of 2026-08-28
 - **Founded:** 2001

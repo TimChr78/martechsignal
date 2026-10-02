@@ -84,8 +84,8 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 - [Claude Ads](/tools/claude-ads/) - Paid-media operations skill for Claude Code covering 12 ad platforms
 ## Comparison guides
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 - [Best n8n alternatives (2026)](/alternatives/n8n/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [GEO](/glossary/geo/)

@@ -54,7 +54,7 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 
 ## [n8n](/tools/n8n/)
 
-n8n is the self host pick in this list. It gives control and code steps where Zapier and Make give convenience. The trade is maintenance in exchange for no per task meter on your own servers.
+n8n holds the self-host pick in this group. Control plus code steps replace Zapier and Make convenience. Cloud starts at EUR 20/mo Starter, EUR 50/mo Pro, and EUR 667/mo Business, while self-hosted Community Edition is free. The trade is maintenance in exchange for no per-task meter on your own servers.
 
 **Verdict:** Best for self-hosted workflows with code steps and AI agents.
 
@@ -66,7 +66,7 @@ Vendor: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) ·
 
 ## [Zapier](/tools/zapier/)
 
-Zapier is the breadth pick in this list. It covers niche apps the smaller catalogs miss. The trade is task billing that can punish high volume runs.
+Zapier wins the breadth slot across niche apps the smaller catalogs miss. The free plan allows 100 tasks/mo, Professional is $19.99/mo annual, and Team is $69/mo annual. The trade is task billing that can punish high-volume runs.
 
 **Verdict:** Best for breadth and onboarding speed on niche integrations.
 
@@ -78,7 +78,7 @@ Vendor: [Official site](https://zapier.com) · [Pricing](https://zapier.com/pric
 
 ## [Make](/tools/make/)
 
-Make is the visual middle pick between Zapier and n8n. Branching and error handling stay visible in the graph. The trade is a credit meter with expiry against self hosting or flat billing.
+Make sits in the visual middle between Zapier and n8n. Branching and error handling stay visible in the graph. The free plan allows 1,000 credits/mo, and paid tiers are $9/mo Core, $16/mo Pro and $29/mo Teams for 10,000 credits/mo. The trade is a credit meter with expiry against self-hosting or flat billing.
 
 **Verdict:** Best for branching visual workflows on a small-team budget.
 
@@ -90,7 +90,7 @@ Vendor: [Official site](https://www.make.com) · [Pricing](https://www.make.com/
 
 ## [Pipedream](/tools/pipedream/)
 
-Pipedream is the developer pick in this list. Any step can be code, and any workflow can serve as an MCP endpoint. Paid tiers start at 29 dollars monthly, which suits code comfortable teams and excludes everyone else.
+Pipedream gives developers the code-first slot. Any step can be code, and any workflow can serve as an MCP endpoint. Paid tiers start at $29/month Basic, $49/month Advanced and $99/month Connect. That suits code-comfortable teams and excludes everyone else.
 
 **Verdict:** Best for developer teams wanting code steps and MCP endpoints.
 
@@ -102,7 +102,7 @@ Vendor: [Official site](https://pipedream.com) · [Pricing](https://pipedream.co
 
 ## [Workato](/tools/workato/)
 
-Workato is the enterprise governance pick in this list. It pairs integration with agent controls like access rules and approvals. The trade is a demo gated sales process with no public prices.
+Workato claims enterprise governance by pairing integration with agent controls like access rules and approvals. Pricing is unlisted with a usage-based model plus platform edition fee. The trade is a demo-gated sales process with no public prices.
 
 **Verdict:** Best for enterprises governing agents and integration in one platform.
 
@@ -114,7 +114,7 @@ Vendor: [Official site](https://www.workato.com) · [Pricing](https://www.workat
 
 ## [Tray.io](/tools/tray-io/)
 
-Tray.io is the AI app pick next to Workato. It combines integration with tooling for shipping governed AI apps. The trade is opaque pricing with usage metered in Tasks.
+Tray.io pairs integration with tooling for shipping governed AI apps next to Workato. Pricing is unlisted across Pro, Team and Enterprise, metered in Tasks. The trade is opaque pricing against transparent or self-hosted options.
 
 **Verdict:** Best for AI app governance plus integration on one platform.
 
@@ -264,6 +264,10 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/workflow-automation-tools/", "breadcrumb": {"@id": "https://martechsignal.com/best/workflow-automation-tools/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

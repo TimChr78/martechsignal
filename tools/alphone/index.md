@@ -114,7 +114,7 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ### Quick Facts
 
 - **Pricing:** Open Source

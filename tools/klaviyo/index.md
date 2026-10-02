@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 AI-powered email and SMS marketing platform built for ecommerce brands
 
-Email Marketing · Freemium Desk-reviewed
+Email Marketing · Freemium from $20/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -124,7 +124,7 @@ The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a 
 - [Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict](/vs/mailchimp-vs-klaviyo/) — Pick Klaviyo if you want ecommerce-native profiles and predictive flows, starting free up to 250 contacts with paid from around $20/mo.
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $20/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
 - **Third-party ratingsG2 rating:** 4.6/5 (1,361 reviews) · [source](https://www.g2.com/products/klaviyo/reviews)as of 2026-08-28
 - **Founded:** 2012

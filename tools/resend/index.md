@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 Developer-first email API built around React Email, batch sending, and agent tooling
 
-Email Marketing · Freemium Desk-reviewed
+Email Marketing · Freemium from $20/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -146,7 +146,7 @@ Yes, and it is one of the better-documented cases in email. Resend hosts an MCP 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $20/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
 - **GitHub:** ★ 19799
 - **Founded:** 2023

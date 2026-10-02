@@ -8,7 +8,7 @@
 
 No-code automation platform connecting 9,000+ apps with AI-powered workflows
 
-Workflow Automation · Freemium Desk-reviewed
+Workflow Automation · Freemium from $19.99/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -138,7 +138,7 @@ They meter differently. Zapier charges per task, and work repeated inside a Zap 
 - [Make vs Zapier (2026): pricing, AI features, verdict](/vs/make-vs-zapier/) — Pick Zapier if you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free.
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $19.99/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **Third-party ratingsG2 rating:** 4.5/5 (2,101 reviews) · [source](https://www.g2.com/products/zapier/reviews)as of 2026-08-28
 - **Founded:** 2011

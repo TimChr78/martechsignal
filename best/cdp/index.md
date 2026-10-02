@@ -53,7 +53,7 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 
 ## [RudderStack](/tools/rudderstack/)
 
-RudderStack is the budget Segment shaped pick in this list. Events route into warehouses and cloud destinations with reverse ETL back out. The trade is that the self hostable plane leaves profile storage to your warehouse.
+RudderStack plays the budget Segment-shaped router. Events route into warehouses and cloud destinations with reverse ETL back out. The free plan allows 250K events/mo, and Growth starts at $265/mo. The trade is that the self-hostable plane leaves profile storage to your warehouse.
 
 **Verdict:** Best Segment-compatible router for warehouse-first stacks on a budget.
 
@@ -65,7 +65,7 @@ Vendor: [Official site](https://www.rudderstack.com/) · [Pricing](https://www.r
 
 ## [Hightouch](/tools/hightouch/)
 
-Hightouch is the warehouse only pick in this list. It syncs from a warehouse you already run instead of collecting events. That rules it out for any team without one.
+Hightouch stays warehouse-only with nothing to collect events itself. Syncs run from a warehouse you already operate. The free plan allows 2 active syncs/mo, and entry deployments run around $1,000+/mo. That rules Hightouch out for any team without one.
 
 **Verdict:** Best activation layer when the warehouse is already the source of truth.
 
@@ -77,7 +77,7 @@ Vendor: [Official site](https://hightouch.com/) · [Pricing](https://hightouch.c
 
 ## [Jitsu](/tools/jitsu/)
 
-Jitsu is the fully open source collection pick in this list. The MIT license and Segment compatible API keep existing SDK code working. The trade is a smaller destination set and thinner managed identity against Segment.
+Jitsu brings fully open-source collection under MIT with a Segment-compatible API. Existing SDK code keeps working. The free plan allows 200K active events/mo, Business is $99/mo, extra volume is $40 per additional 1M, and extra syncs are $20 each. The trade is a smaller destination set and thinner managed identity against Segment.
 
 **Verdict:** Best fully open-source event collection for self-hosting the pipeline.
 
@@ -89,7 +89,7 @@ Vendor: [Official site](https://jitsu.com) · [Pricing](https://jitsu.com/pricin
 
 ## [Apache Unomi](/tools/apache-unomi/)
 
-Apache Unomi is the governance plumbing pick in this list. Consent handling and data residency drive the choice. The trade is heavier operations and a plain UI against the routers here.
+Apache Unomi supplies governance plumbing for consent handling and data residency. The project is free self-hosted Apache with no commercial cloud tier. The trade is heavier operations and a plain UI against the routers here.
 
 **Verdict:** Best when data-residency rules and European-consent governance drive the architecture.
 
@@ -101,7 +101,7 @@ Vendor: [Official site](https://unomi.apache.org) · [GitHub](https://github.com
 
 ## [Twilio Segment](/tools/segment/)
 
-Segment is the documented default in this list. Catalog breadth and docs lead the group. The trade is volume pricing that scales faster than the warehouse first and open source options here.
+Twilio Segment remains the documented default with catalog breadth and docs leading the group. The free plan covers 1,000 MTUs and 2 sources, Team starts at $120/mo for 10,000 MTUs, and overages run $10 to $12 per extra 1,000 MTUs. The trade is volume pricing scaling faster than the warehouse-first and open-source options here.
 
 **Verdict:** Best documented default when budget is not the deciding axis.
 
@@ -113,7 +113,7 @@ Vendor: [Official site](https://segment.com) · [Pricing](https://www.twilio.com
 
 ## [Tealium](/tools/tealium/)
 
-Tealium is the enterprise control pick in this list. Tag management plus consent orchestration and audit trails suit large scale teams. The trade is annual contract pricing with no published numbers.
+Tealium enforces enterprise control through tag management plus consent orchestration and audit trails. Pricing is enterprise custom on annual contracts. The trade suits large-scale teams and blocks smaller buyers.
 
 **Verdict:** Best enterprise governance and consent orchestration at large scale.
 
@@ -263,6 +263,10 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/cdp/", "breadcrumb": {"@id": "https://martechsignal.com/best/cdp/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

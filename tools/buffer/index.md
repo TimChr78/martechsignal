@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 Simple social media scheduling and analytics with AI-powered content tools
 
-Social Media · Freemium Desk-reviewed
+Social Media · Freemium from $5/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -117,7 +117,7 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Creators that want scheduling priced per channel, not per seat
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $5/mo
 - **Category:** [Social Media](/categories/social-media/)
 - **Founded:** 2010
 - **HQ:** San Francisco, CA, USA

@@ -8,6 +8,8 @@ DIGITAL ADVERTISING · AI AGENTS · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them
 
+SEP 28, 2026
+
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
 Two announcements landed 24 hours apart this week, and they describe the same workflow from opposite ends. On September 22, IAB Tech Lab shipped AAMP 3.0 with a new specification called OpenProposal, plus a proposed standard contract for measurement services. On September 23, MarTech reported that OpenAI is testing a third-party-style tracking cookie behind ChatGPT ads. One sets rules for machines negotiating media buys. The other shows a platform building measurement faster than the consent language that should govern it. Your stack sits in the middle and, today, supports neither.
@@ -76,8 +78,8 @@ The insertion order was written for humans because only humans could read a prop
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 ## Comparison guides
 
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
-- [Matomo vs Plausible (2026): analytics depth or a dashboard that stays small](/vs/matomo-vs-plausible/)
+- [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -138,7 +140,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1541,
+  "wordCount": 1539,
   "articleSection": "advertising"
 }
 ```

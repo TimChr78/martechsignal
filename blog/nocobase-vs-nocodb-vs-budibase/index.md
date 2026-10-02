@@ -114,8 +114,8 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 - [Zapier](/tools/zapier/) - No-code automation platform connecting 9,000+ apps with AI-powered workflows
 ## Comparison guides
 
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -124,7 +124,7 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Trakkr](/tools/trakkr/)
+More from the directory: [Writesonic](/tools/writesonic/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

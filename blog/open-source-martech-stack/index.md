@@ -176,8 +176,8 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 - [Jitsu](/tools/jitsu/) - Open-source Segment alternative for event capture and warehouse-first data pipelines
 ## Comparison guides
 
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
+- [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/)
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -186,7 +186,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/contentbot/) · [Email Marketing Bible](/tools/email-marketing-bible/) · [Heap](/tools/heap/) · [Klaviyo](/tools/klaviyo/) · [Line Harness](/tools/line-harness/) · [Mailchimp](/tools/mailchimp/) · [NocoBase](/tools/nocobase/) · [Open Mercato](/tools/open-mercato/) · [OpenSEO](/tools/openseo/) · [Pencil](/tools/pencil/) · [Phrasee](/tools/phrasee/) · [Revealbot (Birch)](/tools/revealbot/) · [ToolJet](/tools/tooljet/) · [WaCRM](/tools/wacrm/) · [Writesonic](/tools/writesonic/)
+More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/contentbot/) · [Email Marketing Bible](/tools/email-marketing-bible/) · [Heap](/tools/heap/) · [Klaviyo](/tools/klaviyo/) · [Line Harness](/tools/line-harness/) · [Mailchimp](/tools/mailchimp/) · [NocoBase](/tools/nocobase/) · [Open Mercato](/tools/open-mercato/) · [OpenSEO](/tools/openseo/) · [Pencil](/tools/pencil/) · [Phrasee](/tools/phrasee/) · [Revealbot (Birch)](/tools/revealbot/) · [ToolJet](/tools/tooljet/) · [WaCRM](/tools/wacrm/) · [Zoho CRM](/tools/zoho-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -236,7 +236,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1538,
+  "wordCount": 1539,
   "articleSection": ""
 }
 ```

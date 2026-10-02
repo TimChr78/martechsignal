@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 Transactional email API with separated message streams, an MCP server, and published delivery numbers
 
-Email Marketing · Freemium Desk-reviewed
+Email Marketing · Freemium from $15/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -148,7 +148,7 @@ Postmark ships tooling for AI agents rather than AI features. The official MCP s
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $15/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
 - **HQ:** Chicago, IL, USA
 - **API:** Yes

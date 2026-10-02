@@ -8,7 +8,7 @@
 
 Free AI-powered CRM platform with sales, service, and marketing tools unified
 
-CRM · Freemium Desk-reviewed
+CRM · Freemium from $20/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -116,15 +116,15 @@ Best starting CRM for small teams. Revisit ownership costs seriously once headco
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best free CRM, and the natural next step when the free tier starts to bite.
-- [ActiveCampaign vs HubSpot CRM (2026): pricing, automation, verdict](/vs/activecampaign-vs-hubspot/) — Pick HubSpot CRM if you want a free CRM to start with sales, service, and marketing on one record, with paid hubs from around $20/mo.
+- [ActiveCampaign vs HubSpot CRM (2026): pricing, automation](/vs/activecampaign-vs-hubspot/) — Pick HubSpot CRM if you want a free CRM to start with sales, service, and marketing on one record, with paid hubs from around $20/mo.
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $20/mo
 - **Category:** [CRM](/categories/crm/)
 - **Founded:** 2006
 - **HQ:** Cambridge, MA, USA

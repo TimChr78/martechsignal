@@ -37,7 +37,7 @@ Analytics and attribution tools: event tracking, funnels, and what multi-touch c
 
 ### Umami
 
-**Compare:** [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) · [Matomo vs PostHog](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/) · [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+**Compare:** [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) · [Matomo vs PostHog](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/) · [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 
 ## Key terms
 
@@ -207,7 +207,7 @@ The warehouse you own is the measurement backbone; skip the rebuild pitch
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 11,
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -348,7 +348,7 @@ The warehouse you own is the measurement backbone; skip the rebuild pitch
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/analytics/", "breadcrumb": {"@id": "https://martechsignal.com/categories/analytics/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/analytics/", "breadcrumb": {"@id": "https://martechsignal.com/categories/analytics/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

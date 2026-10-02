@@ -1,4 +1,4 @@
-# Zapier Alternatives: 10 Tools Compared (2026)
+# Best Zapier alternatives (2026)
 
 ## Best Zapier alternatives (2026)
 
@@ -16,17 +16,17 @@ Last verified 2026-09-28.
 | Tool | Price | Billing model | Self-host | Best for |
 | --- | --- | --- | --- | --- |
 | [n8n](/tools/n8n/) | Open Source | Contract | Yes | Marketing operations teams, agencies, and AI-focused organizations that want extensible automation with the option to self-host. |
-| [Make](/tools/make/) | Freemium | Contract | No | Technical marketing teams that have outgrown a linear editor and want branching, looping, and visible error handling. |
+| [Make](/tools/make/) | Freemium from $9/mo | Contract | No | Technical marketing teams that have outgrown a linear editor and want branching, looping, and visible error handling. |
 | [Pipedream](/tools/pipedream/) | Freemium | Credits, monthly | No | Developers and revenue operations teams that want arbitrary code in every step and managed authentication for the APIs around it. |
 | [Tray.io](/tools/tray-io/) | Enterprise | Contract, usage-based | No | Enterprises that need integrations and AI agents governed inside a compliance boundary, with SSO and regional hosting available. |
 | [Budibase](/tools/budibase/) | Free tier | Monthly plans, billed yearly | Yes | Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data. |
 | [Pabbly Connect](/tools/pabbly-connect/) | From $16/mo | Task tiers, yearly or one-time | No | Teams with steady, high automation volume that want the cheapest predictable bill in the category, or a one-time lifetime license instead of a subscription. |
 | [Microsoft Power Automate](/tools/power-automate/) | From $15/mo | Per bot, billed yearly | No | Organizations standardized on Microsoft 365 that want automation governed inside the tenant their IT department already manages. |
-| [IFTTT](/tools/ifttt/) | Freemium | Monthly plans, billed yearly | No | Edge and personal workflows: smart-device events, social triggers, quick connectivity where a full automation platform would be absurd. |
-| [Activepieces](/tools/activepieces/) | Freemium | Contract | Yes | Teams that want automation infrastructure they can inspect, self-host, or run air-gapped, with flat-fee cloud pricing and bring-your-own AI keys as the alternative. |
+| [IFTTT](/tools/ifttt/) | Freemium from $2.99/mo | Monthly plans, billed yearly | No | Edge and personal workflows: smart-device events, social triggers, quick connectivity where a full automation platform would be absurd. |
+| [Activepieces](/tools/activepieces/) | Freemium from $20/mo | Contract | Yes | Teams that want automation infrastructure they can inspect, self-host, or run air-gapped, with flat-fee cloud pricing and bring-your-own AI keys as the alternative. |
 | [Workato](/tools/workato/) | Enterprise | Contract, usage-based | No | Enterprise automation programs that want a governed, Gartner-class platform and have the budget a platform fee plus usage-based pricing implies. |
 
-## [n8n](/tools/n8n/)
+## [n8n as a Zapier alternative](/tools/n8n/)
 
 Open Source OSS
 
@@ -38,9 +38,9 @@ Vendor: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) ·
 
 n8n runs on a fair-code model: self-hosting is free, cloud Starter is €20 per month billed annually, Pro is €50, and enterprise pricing is custom. Workflows are graphs with code steps and API access, while Zapier counts every step against a task quota. It deploys in the cloud or on your own infrastructure, and its AI agent nodes can call language models inside a larger process.
 
-## [Make](/tools/make/)
+## [Make as a Zapier alternative](/tools/make/)
 
-Freemium
+Freemium from $9/mo
 
 Vendor: [Official site](https://www.make.com) · [Pricing](https://www.make.com/en/pricing)
 
@@ -50,7 +50,7 @@ Vendor: [Official site](https://www.make.com) · [Pricing](https://www.make.com/
 
 Make draws scenarios as a graph, so routers and error handling are visible rather than buried in configuration, and neither consumes credits. Billing moved to credits in August 2026: Free covers 1,000 credits a month with 2 active scenarios, Core is $9 a month, Pro $16, and Teams $29, each for 10,000 credits with a slider upward. For data-heavy work like CRM syncs and contact enrichment, where one module iterates over many rows, credits cost less than Zapier's per-task metering.
 
-## [Pipedream](/tools/pipedream/)
+## [Pipedream as a Zapier alternative](/tools/pipedream/)
 
 Freemium
 
@@ -62,7 +62,7 @@ Vendor: [Official site](https://pipedream.com) · [Pricing](https://pipedream.co
 
 Pipedream connects over 3,000 APIs and bills in credits rather than tasks: Basic is $29 a month for 2,000 credits and 20 million AI tokens, Advanced $49, and Connect $99, with a free tier of 100 credits a month. Any step can run arbitrary code, which Zapier's step model does not allow, and workflows can be deployed as MCP server endpoints that AI coding agents call directly. Advanced adds branching and parallelism controls, premium apps, and GitHub Sync for version-controlled deployment.
 
-## [Tray.io](/tools/tray-io/)
+## [Tray.io as a Zapier alternative](/tools/tray-io/)
 
 Enterprise
 
@@ -74,7 +74,7 @@ Vendor: [Official site](https://tray.ai) · [Pricing](https://tray.ai/pricing/)
 
 Tray.io is an AI orchestration platform with 700-plus pre-built connectors, a connector SDK, on-premise connectivity, and API management. Usage is metered in Tasks across integration, automation, MCP, and agents, and HIPAA, SSO, regional hosting, and Tray IDP are paid add-ons, all quote-based. Where Zapier sells self-serve tasks to individuals and teams, Tray.io sells a governed platform, which is the point when compliance is the reason you are leaving.
 
-## [Budibase](/tools/budibase/)
+## [Budibase as a Zapier alternative](/tools/budibase/)
 
 Free tier OSS
 
@@ -86,7 +86,7 @@ Vendor: [Official site](https://budibase.com) · [Pricing](https://budibase.com/
 
 Budibase is an open-core operations platform where self-hosting is free with unlimited actions, apps, agents, and users in one workspace, and cloud Pro is $19 a month billed annually with metered actions. You connect data sources (PostgreSQL, MySQL, MongoDB, Google Sheets, REST), build interfaces in a visual builder, and wire multi-step automations, with AI agents in beta since March 2026. It replaces Zapier when the automation is an internal tool over your own data rather than a bridge between SaaS apps.
 
-## [Pabbly Connect](/tools/pabbly-connect/)
+## [Pabbly Connect as a Zapier alternative](/tools/pabbly-connect/)
 
 From $16/mo
 
@@ -98,7 +98,7 @@ Vendor: [Official site](https://www.pabbly.com/connect/) · [Pricing](https://ww
 
 Nearly every ranking competitor lists Pabbly Connect, and the reason is arithmetic: task tiers from $16/month billed yearly and a $349 lifetime license change the total-cost picture for anyone keeping workflows alive for years. The platform layer around those workflows is thinner than the incumbents', so the savings come with trade-offs.
 
-## [Microsoft Power Automate](/tools/power-automate/)
+## [Microsoft Power Automate as a Zapier alternative](/tools/power-automate/)
 
 From $15/mo
 
@@ -110,9 +110,9 @@ Vendor: [Official site](https://powerautomate.microsoft.com) · [Pricing](https:
 
 Microsoft Power Automate wins on proximity: SharePoint, Dataverse, and Office connectors no third party can match. Verified pricing is $15 per user per month for Premium, with unattended bots at $150/month each. That per-bot line is where budgets surprise people, so model it before committing.
 
-## [IFTTT](/tools/ifttt/)
+## [IFTTT as a Zapier alternative](/tools/ifttt/)
 
-Freemium
+Freemium from $2.99/mo
 
 Vendor: [Official site](https://ifttt.com) · [Pricing](https://ifttt.com/plans)
 
@@ -122,9 +122,9 @@ Vendor: [Official site](https://ifttt.com) · [Pricing](https://ifttt.com/plans)
 
 IFTTT is the cheapest way into the category and the only one that reaches consumer devices at all. Pro runs $2.99/month billed annually for 20 Applets. Treat it as connectivity at the edges of a stack, not as the automation platform for it.
 
-## [Activepieces](/tools/activepieces/)
+## [Activepieces as a Zapier alternative](/tools/activepieces/)
 
-Freemium OSS
+Freemium from $20/mo OSS
 
 Vendor: [Official site](https://www.activepieces.com) · [Pricing](https://www.activepieces.com/pricing) · [GitHub](https://github.com/activepieces/activepieces)
 
@@ -134,7 +134,7 @@ Vendor: [Official site](https://www.activepieces.com) · [Pricing](https://www.a
 
 The most honest pricing page in the category: the same product runs on their cloud or your servers, the free tier is real (100 credits a day, no card), and Plus is $20/month flat for 10,000 credits rather than a per-task staircase. For agent-curious teams, MCP and API access ship even on free.
 
-## [Workato](/tools/workato/)
+## [Workato as a Zapier alternative](/tools/workato/)
 
 Enterprise
 

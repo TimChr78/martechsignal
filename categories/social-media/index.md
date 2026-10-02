@@ -46,7 +46,7 @@ EnterpriseDesk-reviewed
 
 Simple social media scheduling and analytics with AI-powered content tools
 
-FreemiumDesk-reviewed
+Freemium from $5/moDesk-reviewed
 
 Social media management platform with AI-powered scheduling and analytics
 
@@ -58,7 +58,7 @@ Open SourceDesk-reviewedOSS
 
 AI-powered social media content generator for posts, videos, and ad creatives
 
-FreemiumDesk-reviewed
+Freemium from $19/moDesk-reviewed
 
 Enterprise social media management with AI-powered analytics and engagement tools
 
@@ -105,7 +105,7 @@ From $249/moDesk-reviewed
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 6,
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -186,7 +186,7 @@ From $249/moDesk-reviewed
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/social-media/", "breadcrumb": {"@id": "https://martechsignal.com/categories/social-media/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/social-media/", "breadcrumb": {"@id": "https://martechsignal.com/categories/social-media/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

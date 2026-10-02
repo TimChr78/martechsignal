@@ -8,6 +8,8 @@ AUTOMATION · AI AGENTS · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Salesforce's third no-code promise, audited
 
+SEP 21, 2026
+
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
 Salesforce shipped two announcements in one day last week. Builder Central, a no-code AI workspace, enters beta this week. Campaign Agent, which turns a stated goal into a live campaign, goes GA in Marketing Cloud Next in October. Both promise that the work gets easier without specialists. This is the third time Salesforce has sold marketing ops that promise, so instead of re-quoting the keynote, here is an audit of what the two products actually automate and what still lands on an admin's desk.

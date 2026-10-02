@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
 
-CRM · Freemium · OPEN SOURCE Desk-reviewed
+CRM · Freemium from $40/mo · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -148,7 +148,7 @@ Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focu
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $40/mo
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 4515
 - **Founded:** 2020

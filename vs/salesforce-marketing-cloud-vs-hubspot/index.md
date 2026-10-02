@@ -1,6 +1,6 @@
-# Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict
+# Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)
 
-## Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict
+## Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)
 
 Pick Salesforce Marketing Cloud if you run a Salesforce-centered org with enterprise budget, from $1,500/mo. Pick HubSpot Marketing Hub if you want a free CRM to start on, with Starter at $20/mo.
 
@@ -163,13 +163,13 @@ One email when a new tool review lands, nothing else.
     "isPartOf": {
       "@id": "https://martechsignal.com/#website"
     },
-    "name": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict",
+    "name": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)",
     "url": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/",
     "mainEntityOfPage": {
       "@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/"
     },
     "inLanguage": "en",
-    "headline": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict",
+    "headline": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)",
     "image": "https://martechsignal.com/og/vs/salesforce-marketing-cloud-vs-hubspot.png",
     "about": [
       {
@@ -227,12 +227,16 @@ One email when a new tool review lands, nothing else.
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict",
+        "name": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)",
         "item": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/"
       }
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/", "breadcrumb": {"@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

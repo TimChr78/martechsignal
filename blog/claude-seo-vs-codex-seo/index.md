@@ -83,7 +83,7 @@ We have run [Claude SEO](/tools/claude-seo/) on production sites and reported th
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [ActiveCampaign vs HubSpot CRM (2026): pricing, automation](/vs/activecampaign-vs-hubspot/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -142,7 +142,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1373,
+  "wordCount": 1375,
   "articleSection": "agent-skills"
 }
 ```

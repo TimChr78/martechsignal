@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 AI-powered social media content generator for posts, videos, and ad creatives
 
-Social Media · Freemium Desk-reviewed
+Social Media · Freemium from $19/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -119,7 +119,7 @@ Efficient social content factory for small brands; B2B nuance still needs a huma
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Solo marketers that want daily post volume on a small budget
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $19/mo
 - **Category:** [Social Media](/categories/social-media/)
 - **Founded:** 2019
 - **HQ:** Pune, India

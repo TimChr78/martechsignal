@@ -1,6 +1,6 @@
-# ActiveCampaign vs HubSpot CRM (2026): pricing, automation, verdict
+# ActiveCampaign vs HubSpot CRM (2026): pricing, automation
 
-## ActiveCampaign vs HubSpot CRM (2026): pricing, automation, verdict
+## ActiveCampaign vs HubSpot CRM (2026): pricing, automation
 
 Pick ActiveCampaign if you want deep multi-step automation in one SMB-priced platform, from $15/mo. Pick HubSpot CRM if you want a free CRM with sales, service and marketing on one record.
 
@@ -165,13 +165,13 @@ One email when a new tool review lands, nothing else.
     "isPartOf": {
       "@id": "https://martechsignal.com/#website"
     },
-    "name": "ActiveCampaign vs HubSpot CRM (2026): pricing, automation, verdict",
+    "name": "ActiveCampaign vs HubSpot CRM (2026): pricing, automation",
     "url": "https://martechsignal.com/vs/activecampaign-vs-hubspot/",
     "mainEntityOfPage": {
       "@id": "https://martechsignal.com/vs/activecampaign-vs-hubspot/"
     },
     "inLanguage": "en",
-    "headline": "ActiveCampaign vs HubSpot CRM (2026): pricing, automation, verdict",
+    "headline": "ActiveCampaign vs HubSpot CRM (2026): pricing, automation",
     "image": "https://martechsignal.com/og/vs/activecampaign-vs-hubspot.png",
     "about": [
       {
@@ -229,12 +229,16 @@ One email when a new tool review lands, nothing else.
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "ActiveCampaign vs HubSpot CRM (2026): pricing, automation, verdict",
+        "name": "ActiveCampaign vs HubSpot CRM (2026): pricing, automation",
         "item": "https://martechsignal.com/vs/activecampaign-vs-hubspot/"
       }
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/activecampaign-vs-hubspot/", "breadcrumb": {"@id": "https://martechsignal.com/vs/activecampaign-vs-hubspot/#breadcrumb"}, "dateModified": "2026-10-01"}
 ```
 
 ```json

@@ -8,7 +8,7 @@
 
 Consumer-friendly automation connecting apps and smart devices
 
-Workflow Automation · Freemium Desk-reviewed
+Workflow Automation · Freemium from $2.99/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -103,7 +103,7 @@ Strengths include an API for custom integrations. Paid plans start at $2.99/mo
 - [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $2.99/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **Founded:** 2010
 - **HQ:** San Francisco, CA, USA

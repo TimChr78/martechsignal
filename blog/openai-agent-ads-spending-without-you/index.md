@@ -133,8 +133,6 @@ This post is part of the hub for this topic: [agentic ai advertising](/guides/ag
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Zoho CRM](/tools/zoho-crm/)
-
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

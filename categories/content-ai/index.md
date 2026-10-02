@@ -61,11 +61,11 @@ From $39/moDesk-reviewed
 
 AI content automation platform with workflows for blogs, ads, and social posts
 
-FreemiumDesk-reviewed
+Freemium from $9/moDesk-reviewed
 
 AI-powered GTM platform for sales and marketing content automation at scale
 
-FreemiumDesk-reviewed
+Freemium from $49/moDesk-reviewed
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
 
@@ -148,7 +148,7 @@ PaidDesk-reviewed
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 13,
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -313,7 +313,7 @@ PaidDesk-reviewed
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/content-ai/", "breadcrumb": {"@id": "https://martechsignal.com/categories/content-ai/#breadcrumb"}, "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/content-ai/", "breadcrumb": {"@id": "https://martechsignal.com/categories/content-ai/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

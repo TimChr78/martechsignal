@@ -8,6 +8,8 @@ OPEN SOURCE · MARTECH · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Fifty days of open-source MarTech, audited
 
+SEP 14, 2026
+
 Filed under [Open-Source Tools](/categories/open-source/) · [Workflow Automation](/categories/workflow-automation/)
 
 Fifty days after [the open-source MarTech stack](/blog/open-source-martech-stack/) piece, this is the first re-check: what shipped, what stalled, and where the energy went.
@@ -85,7 +87,7 @@ Tools linked in this post: [n8n](/tools/n8n/) · [Mautic](/tools/mautic/) · [Tw
 ## Comparison guides
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
-- [Matomo vs Plausible (2026): analytics depth or a dashboard that stays small](/vs/matomo-vs-plausible/)
+- [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -144,7 +146,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1488,
+  "wordCount": 1484,
   "articleSection": "open-source, workflow-automation"
 }
 ```

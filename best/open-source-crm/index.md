@@ -58,7 +58,7 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 
 ## [EspoCRM](/tools/espocrm/)
 
-EspoCRM earns its place as the lean pick in this list. The core stays light while automation and reports sit in a paid pack. That trade suits teams who prefer to buy automation piece by piece instead of carrying SuiteCRM breadth from day one.
+EspoCRM earns the lean slot in this lineup. The core stays light while automation and reports sit in a paid pack. Cloud runs from EUR 12.90/user/mo Basic to EUR 59/user/mo Ultimate. That trade suits teams buying automation piece by piece instead of carrying SuiteCRM breadth from day one.
 
 **Verdict:** Best for lean sales teams that automate à la carte.
 
@@ -70,7 +70,7 @@ Vendor: [Official site](https://www.espocrm.com) · [Pricing](https://www.espocr
 
 ## [SuiteCRM](/tools/suitecrm/)
 
-SuiteCRM is the breadth pick in this list. Automation and reports come in the free core where EspoCRM charges extra. The price is an older PHP stack to maintain plus no native AI or official mobile app.
+SuiteCRM takes the breadth slot against EspoCRM. Automation and reports ship in the free core where EspoCRM charges extra. The price is an older PHP stack to maintain, plus no native AI or official mobile app.
 
 **Verdict:** Best for teams that want the widest free feature set.
 
@@ -82,7 +82,7 @@ Vendor: [Official site](https://www.suitecrm.com) · [GitHub](https://github.com
 
 ## [Twenty](/tools/twenty/)
 
-Twenty is the technical pick in this list. Self hosting costs nothing and the extensibility assumes a TypeScript team. That makes it the opposite of Frappe CRM and Monica, which ask less of the person setting things up.
+Twenty makes the technical choice here. Self-hosting is free under AGPLv3 with Pro features included, while Cloud Pro is $9/user/mo yearly and Organization is $19/user/mo. That extensibility assumes a TypeScript team, the opposite of Frappe CRM and Monica.
 
 **Verdict:** Best for technically fluent teams wanting a modern extensible CRM.
 
@@ -94,7 +94,7 @@ Vendor: [Official site](https://twenty.com) · [Pricing](https://twenty.com/pric
 
 ## [Frappe CRM](/tools/frappe-crm/)
 
-Frappe CRM is the low cost pick in this list. Hosting starts at a per site price with no per user fee. The trade is a narrow integration set next to the wider options here.
+Frappe CRM keeps the low-cost slot with no per-user fee. Hosting starts at $5/mo per site, with dedicated servers from $20/mo to $60/mo. The trade is a narrow integration set beside the wider options here.
 
 **Verdict:** Best for budget-conscious sales teams, especially ERPNext shops.
 
@@ -106,7 +106,7 @@ Vendor: [Official site](https://frappe.io/crm) · [GitHub](https://github.com/fr
 
 ## [Krayin CRM](/tools/krayin-crm/)
 
-Krayin CRM is the Laravel pick in this list. It fits shops already on PHP and Laravel who want room to extend. The trade is thinner docs and a stack to feed against the simpler hosted options here.
+Krayin CRM fills the Laravel slot for PHP shops. Self-hosting is free under MIT with no user limits, and the multi-tenant SaaS extension costs $1,799. The trade is thinner docs and a stack to feed against the simpler hosted options here.
 
 **Verdict:** Best for Laravel shops that want room to extend a CRM.
 
@@ -118,7 +118,7 @@ Vendor: [Official site](https://krayincrm.com) · [Pricing](https://krayincrm.co
 
 ## [Monica](/tools/monica/)
 
-Monica is the outlier on this list. It tracks people and relationships rather than pipelines and deals. It belongs here for relationship led teams, not for anyone who needs active sales releases.
+Monica sits apart as the outlier. Tracking covers people and relationships rather than pipelines and deals. Self-hosting is free under AGPL, and hosted Monica is $9/month or $90/year. Monica belongs here for relationship-led teams, not for anyone needing active sales releases.
 
 **Verdict:** Best for relationship-led founders and community businesses.
 
@@ -268,6 +268,10 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/open-source-crm/", "breadcrumb": {"@id": "https://martechsignal.com/best/open-source-crm/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

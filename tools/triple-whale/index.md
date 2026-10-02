@@ -119,7 +119,7 @@ Genuinely useful DTC dashboard consolidation; treat attribution as directional, 
 - [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ## Also featured in
 
-- [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — DTC operators that want a daily attribution answer, dashboards included
+- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — DTC operators that want a daily attribution answer, dashboards included
 ### Quick Facts
 
 - **Pricing:** From $59/mo

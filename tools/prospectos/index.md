@@ -106,7 +106,7 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ### Quick Facts

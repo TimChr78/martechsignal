@@ -104,16 +104,16 @@ For the spec-sheet version of these two, with pricing rows side by side, see the
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Related tools
 
 - [Activepieces](/tools/activepieces/) - Open-source workflow automation with a free cloud tier and on-prem hosting
 - [Microsoft Power Automate](/tools/power-automate/) - Enterprise workflow automation inside the Microsoft Power Platform
-- [Paperclip](/tools/paperclip/) - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+- [Pabbly Connect](/tools/pabbly-connect/) - Task-priced integration platform with a one-time lifetime purchase option
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Make vs Zapier (2026): pricing, AI features, verdict](/vs/make-vs-zapier/)
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -170,7 +170,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2046,
+  "wordCount": 2044,
   "articleSection": "workflow-automation"
 }
 ```

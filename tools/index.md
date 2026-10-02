@@ -64,13 +64,13 @@ ContentBot
 
 AI content automation platform with workflows for blogs, ads, and social posts
 
-FreemiumDesk-reviewedAI Content & Copywriting
+Freemium from $9/moDesk-reviewedAI Content & Copywriting
 
 Copy.ai
 
 AI-powered GTM platform for sales and marketing content automation at scale
 
-FreemiumDesk-reviewedAI Content & Copywriting
+Freemium from $49/moDesk-reviewedAI Content & Copywriting
 
 Ghost
 
@@ -370,7 +370,7 @@ Attio
 
 AI-native CRM with real-time data enrichment and agentic revenue workflows
 
-FreemiumDesk-reviewedCRM
+Freemium from $29/moDesk-reviewedCRM
 
 Cordys CRM
 
@@ -424,7 +424,7 @@ HubSpot CRM
 
 Free AI-powered CRM platform with sales, service, and marketing tools unified
 
-FreemiumDesk-reviewedCRM
+Freemium from $20/moDesk-reviewedCRM
 
 IDURAR ERP & CRM
 
@@ -442,7 +442,7 @@ Macro
 
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
 
-FreemiumDesk-reviewedCRMOSS
+Freemium from $40/moDesk-reviewedCRMOSS
 
 Monica
 
@@ -502,7 +502,7 @@ Zoho CRM
 
 Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
 
-FreemiumDesk-reviewedCRM
+Freemium from $14/moDesk-reviewedCRM
 
 ChatbotX
 
@@ -532,13 +532,13 @@ ManyChat
 
 AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 
-FreemiumDesk-reviewedChatbots & Conversational AI
+Freemium from $14/moDesk-reviewedChatbots & Conversational AI
 
 Tidio
 
 AI-powered live chat and chatbot platform with Lyro AI agent for customer support
 
-FreemiumDesk-reviewedChatbots & Conversational AI
+Freemium from $24/moDesk-reviewedChatbots & Conversational AI
 
 BillionMail
 
@@ -550,7 +550,7 @@ Brevo
 
 Multichannel marketing platform billing by email volume, not contacts
 
-FreemiumDesk-reviewedEmail Marketing
+Freemium from $9/moDesk-reviewedEmail Marketing
 
 Customer.io
 
@@ -562,7 +562,7 @@ Klaviyo
 
 AI-powered email and SMS marketing platform built for ecommerce brands
 
-FreemiumDesk-reviewedEmail Marketing
+Freemium from $20/moDesk-reviewedEmail Marketing
 
 Listmonk
 
@@ -580,7 +580,7 @@ Mailchimp
 
 All-in-one marketing platform with AI-powered email, automation, and analytics
 
-FreemiumDesk-reviewedEmail Marketing
+Freemium from $13/moDesk-reviewedEmail Marketing
 
 Maizzle
 
@@ -610,7 +610,7 @@ Postmark
 
 Transactional email API with separated message streams, an MCP server, and published delivery numbers
 
-FreemiumDesk-reviewedEmail Marketing
+Freemium from $15/moDesk-reviewedEmail Marketing
 
 React Email Editor
 
@@ -622,13 +622,13 @@ Resend
 
 Developer-first email API built around React Email, batch sending, and agent tooling
 
-FreemiumDesk-reviewedEmail Marketing
+Freemium from $20/moDesk-reviewedEmail Marketing
 
 Twilio SendGrid
 
 Scalable email delivery API with AI-powered deliverability and engagement tools
 
-FreemiumDesk-reviewedEmail Marketing
+Freemium from $19.95/moDesk-reviewedEmail Marketing
 
 Warmbly
 
@@ -754,7 +754,7 @@ HubSpot Marketing Hub
 
 All-in-one marketing automation with AI-powered content, email, and campaign tools
 
-FreemiumDesk-reviewedMarketing Automation
+Freemium from $20/moDesk-reviewedMarketing Automation
 
 Laudspeaker
 
@@ -856,7 +856,7 @@ Twilio Segment
 
 Customer data platform for collecting, unifying, and activating customer data
 
-FreemiumDesk-reviewedPersonalization & CDP
+Freemium from $120/moDesk-reviewedPersonalization & CDP
 
 Clearscope
 
@@ -922,7 +922,7 @@ Buffer
 
 Simple social media scheduling and analytics with AI-powered content tools
 
-FreemiumDesk-reviewedSocial Media
+Freemium from $5/moDesk-reviewedSocial Media
 
 Hootsuite
 
@@ -940,7 +940,7 @@ Predis.ai
 
 AI-powered social media content generator for posts, videos, and ad creatives
 
-FreemiumDesk-reviewedSocial Media
+Freemium from $19/moDesk-reviewedSocial Media
 
 Sprout Social
 
@@ -952,7 +952,7 @@ Activepieces
 
 Open-source workflow automation with a free cloud tier and on-prem hosting
 
-FreemiumDesk-reviewedWorkflow AutomationOSS
+Freemium from $20/moDesk-reviewedWorkflow AutomationOSS
 
 Appsmith
 
@@ -970,7 +970,7 @@ IFTTT
 
 Consumer-friendly automation connecting apps and smart devices
 
-FreemiumDesk-reviewedWorkflow Automation
+Freemium from $2.99/moDesk-reviewedWorkflow Automation
 
 LangChain
 
@@ -982,7 +982,7 @@ Make
 
 Visual automation platform for building complex workflows with AI agents and apps
 
-FreemiumDesk-reviewedWorkflow Automation
+Freemium from $9/moDesk-reviewedWorkflow Automation
 
 Microsoft Power Automate
 
@@ -1018,7 +1018,7 @@ Paperclip
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
-FreemiumDesk-reviewedWorkflow AutomationOSS
+Freemium from $10/moDesk-reviewedWorkflow AutomationOSS
 
 Pipedream
 
@@ -1048,7 +1048,7 @@ Zapier
 
 No-code automation platform connecting 9,000+ apps with AI-powered workflows
 
-FreemiumDesk-reviewedWorkflow Automation
+Freemium from $19.99/moDesk-reviewedWorkflow Automation
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
@@ -2765,7 +2765,7 @@ FreemiumDesk-reviewedWorkflow Automation
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/", "breadcrumb": {"@id": "https://martechsignal.com/tools/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/", "breadcrumb": {"@id": "https://martechsignal.com/tools/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

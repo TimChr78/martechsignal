@@ -93,7 +93,7 @@ Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monic
 
 AI-native CRM with real-time data enrichment and agentic revenue workflows
 
-FreemiumDesk-reviewed
+Freemium from $29/moDesk-reviewed
 
 AI-powered CRM with built-in phone, email, and chat for sales teams
 
@@ -101,7 +101,7 @@ From $9/moDesk-reviewed
 
 Free AI-powered CRM platform with sales, service, and marketing tools unified
 
-FreemiumDesk-reviewed
+Freemium from $20/moDesk-reviewed
 
 Sales-focused CRM with AI-powered pipeline management and deal forecasting
 
@@ -161,7 +161,7 @@ FreemiumDesk-reviewedOSS
 
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
 
-FreemiumDesk-reviewedOSS
+Freemium from $40/moDesk-reviewedOSS
 
 Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
 
@@ -185,7 +185,7 @@ Open SourceDesk-reviewedOSS
 
 Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
 
-FreemiumDesk-reviewed
+Freemium from $14/moDesk-reviewed
 
 MAPrecords before vendors
 
@@ -296,7 +296,7 @@ Which open-source CRM contenders, Twenty, Frappe and WaCRM, actually shipped in 
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 24,
-      "dateModified": "2026-10-01",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -593,7 +593,7 @@ Which open-source CRM contenders, Twenty, Frappe and WaCRM, actually shipped in 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/crm/", "breadcrumb": {"@id": "https://martechsignal.com/categories/crm/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/crm/", "breadcrumb": {"@id": "https://martechsignal.com/categories/crm/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

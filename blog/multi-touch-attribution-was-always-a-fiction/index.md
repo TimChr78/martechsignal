@@ -92,7 +92,7 @@ Attribution platforms, CDPs, and analytics tools with pricing and AI features co
 - [Triple Whale](/tools/triple-whale/) - AI-powered ecommerce analytics and attribution platform for DTC brands
 ## Comparison guides
 
-- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
+- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
@@ -102,7 +102,7 @@ Attribution platforms, CDPs, and analytics tools with pricing and AI features co
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SISTRIX](/tools/sistrix/)
+More from the directory: [SuiteCRM](/tools/suitecrm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-06 (26 days ago).
 
 Customer data platform for collecting, unifying, and activating customer data
 
-Personalization & CDP · Freemium Desk-reviewed
+Personalization & CDP · Freemium from $120/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -154,7 +154,7 @@ Connections is the data pipeline: sources, destinations, Reverse ETL, and wareho
 - [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best documented default when budget is not the deciding axis.
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $120/mo
 - **Category:** [Personalization & CDP](/categories/personalization/)
 - **Founded:** 2012
 - **HQ:** San Francisco, CA, USA

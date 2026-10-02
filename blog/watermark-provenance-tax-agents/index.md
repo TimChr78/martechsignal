@@ -8,6 +8,8 @@ AI CONTENT · AI AGENTS · 7 MIN
 
 [Home](/) · [Blog](/blog/) · AI watermarks are now part of your agent's risk surface
 
+SEP 25, 2026
+
 Filed under [Agent Skills](/categories/agent-skills/)
 
 Anthropic watermarks every Claude response now, and a new study shows the mark changes agent behavior: tool calls, arguments, even refusals under attack.
@@ -66,8 +68,8 @@ The provenance tax is real, but the invoice is split. Platforms pay it in compli
 - [Nimt.ai](/tools/nimt-ai/) - AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 ## Comparison guides
 
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -124,7 +126,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1466,
+  "wordCount": 1469,
   "articleSection": "agent-skills"
 }
 ```

@@ -10,7 +10,7 @@ AI-powered digital analytics platform for product and marketing teams
 
 Analytics & Attribution · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-02
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Amplitude →](https://amplitude.com)
 
@@ -144,11 +144,11 @@ Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashb
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
-- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ## Also featured in
 
-- [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Product teams that want funnels and retention without an analyst queue
+- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Product teams that want funnels and retention without an analyst queue
 ### Quick Facts
 
 - **Pricing:** Freemium
@@ -208,7 +208,7 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
     "mainEntityOfPage": "https://martechsignal.com/tools/amplitude/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
+    "dateModified": "2026-09-25",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -356,6 +356,10 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
     }
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/amplitude/", "breadcrumb": {"@id": "https://martechsignal.com/tools/amplitude/#breadcrumb"}, "dateModified": "2026-09-25"}
 ```
 
 ```json

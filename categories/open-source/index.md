@@ -173,7 +173,7 @@
 
 ### Zapier GTM Cheat Codes
 
-**Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) · [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) · [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) · [Matomo vs PostHog](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/) · [n8n alternatives](/alternatives/n8n/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best workflow automation tools (2026)](/best/workflow-automation-tools/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) · [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) · [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) · [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) · [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) · [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) · [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) · [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) · [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/)
+**Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) · [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) · [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) · [Matomo vs PostHog](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/) · [n8n alternatives](/alternatives/n8n/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best workflow automation tools (2026)](/best/workflow-automation-tools/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) · [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) · [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) · [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) · [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) · [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) · [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) · [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) · [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/)
 
 ## Key terms
 
@@ -197,7 +197,7 @@ Open SourceDesk-reviewedOSS
 
 Open-source workflow automation with a free cloud tier and on-prem hosting
 
-FreemiumDesk-reviewedOSS
+Freemium from $20/moDesk-reviewedOSS
 
 Python toolkit for SEO and advertising analysis in pandas DataFrames
 
@@ -361,7 +361,7 @@ Open SourceDesk-reviewedOSS
 
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
 
-FreemiumDesk-reviewedOSS
+Freemium from $40/moDesk-reviewedOSS
 
 Modern email development framework using Tailwind CSS for responsive campaigns
 
@@ -429,7 +429,7 @@ Open SourceDesk-reviewedOSS
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
-FreemiumDesk-reviewedOSS
+Freemium from $10/moDesk-reviewedOSS
 
 Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
 
@@ -556,7 +556,7 @@ Open SourceDesk-reviewedOSS
         "@id": "https://martechsignal.com/#website"
       },
       "numberOfItems": 81,
-      "dateModified": "2026-10-01",
+      "dateModified": "2026-10-02",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -1537,7 +1537,7 @@ Open SourceDesk-reviewedOSS
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/open-source/", "breadcrumb": {"@id": "https://martechsignal.com/categories/open-source/#breadcrumb"}, "dateModified": "2026-10-01"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/open-source/", "breadcrumb": {"@id": "https://martechsignal.com/categories/open-source/#breadcrumb"}, "dateModified": "2026-10-02"}
 ```
 
 ```json

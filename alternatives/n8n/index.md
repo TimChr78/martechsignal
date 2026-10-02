@@ -1,4 +1,4 @@
-# n8n Alternatives: 12 Tools Compared (2026)
+# Best n8n alternatives (2026)
 
 ## Best n8n alternatives (2026)
 
@@ -15,22 +15,22 @@ Last verified 2026-09-28.
 
 | Tool | Price | Billing model | Self-host | Best for |
 | --- | --- | --- | --- | --- |
-| [Make](/tools/make/) | Freemium | Contract | No | Visual builders who want scenario-level control and cheaper runs at moderate volume. |
-| [Zapier](/tools/zapier/) | Freemium | Task tiers, billed yearly | No | Teams that want the largest app catalog and the least setup per workflow. |
+| [Make](/tools/make/) | Freemium from $9/mo | Contract | No | Visual builders who want scenario-level control and cheaper runs at moderate volume. |
+| [Zapier](/tools/zapier/) | Freemium from $19.99/mo | Task tiers, billed yearly | No | Teams that want the largest app catalog and the least setup per workflow. |
 | [Pipedream](/tools/pipedream/) | Freemium | Credits, monthly | No | Developers who want real code inside steps and a generous free tier to start. |
 | [Tray.io](/tools/tray-io/) | Enterprise | Contract, usage-based | No | Enterprises that want one iPaaS for marketing, RevOps, and IT with pro-code escape hatches. |
 | [Workato](/tools/workato/) | Enterprise | Contract, usage-based | No | Large orgs standardizing automation across departments with governance and AI add-ons. |
-| [Activepieces](/tools/activepieces/) | Freemium | Contract | Yes | Teams that want no-code automation with an open-source (MIT) core and affordable cloud plans. |
+| [Activepieces](/tools/activepieces/) | Freemium from $20/mo | Contract | Yes | Teams that want no-code automation with an open-source (MIT) core and affordable cloud plans. |
 | [Pabbly Connect](/tools/pabbly-connect/) | From $16/mo | Task tiers, yearly or one-time | No | Cost-sensitive teams running high-volume marketing workflows with simple shapes. |
 | [Microsoft Power Automate](/tools/power-automate/) | From $15/mo | Per bot, billed yearly | No | Microsoft-centric orgs that want automation next to the Office and Dynamics data. |
-| [IFTTT](/tools/ifttt/) | Freemium | Monthly plans, billed yearly | No | Solo operators and simple cross-app triggers at consumer pricing. |
+| [IFTTT](/tools/ifttt/) | Freemium from $2.99/mo | Monthly plans, billed yearly | No | Solo operators and simple cross-app triggers at consumer pricing. |
 | [Budibase](/tools/budibase/) | Free tier | Monthly plans, billed yearly | Yes | Internal tools with workflows attached: CRUD apps your team can actually run. |
 | [ToolJet](/tools/tooljet/) | Free tier | Credits, billed yearly | Yes | Internal-tool builders who want AI-assisted app generation on their own data. |
 | [Appsmith](/tools/appsmith/) | Free tier | Monthly plans, monthly | Yes | Admin panels and internal dashboards over your databases and APIs. |
 
-## [Make](/tools/make/)
+## [Make as a n8n alternative](/tools/make/)
 
-Freemium
+Freemium from $9/mo
 
 Vendor: [Official site](https://www.make.com) · [Pricing](https://www.make.com/en/pricing)
 
@@ -40,9 +40,9 @@ Vendor: [Official site](https://www.make.com) · [Pricing](https://www.make.com/
 
 Make runs scenarios on an operations meter and prices below Zapier at most volumes. Catalog pricing: Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom (verified 2026-09-27).
 
-## [Zapier](/tools/zapier/)
+## [Zapier as a n8n alternative](/tools/zapier/)
 
-Freemium
+Freemium from $19.99/mo
 
 Vendor: [Official site](https://zapier.com) · [Pricing](https://zapier.com/pricing)
 
@@ -52,7 +52,7 @@ Vendor: [Official site](https://zapier.com) · [Pricing](https://zapier.com/pric
 
 Zapier trades cost for breadth: the widest catalog, metered per task. Catalog pricing: Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual) (verified 2026-09-27).
 
-## [Pipedream](/tools/pipedream/)
+## [Pipedream as a n8n alternative](/tools/pipedream/)
 
 Freemium
 
@@ -64,7 +64,7 @@ Vendor: [Official site](https://pipedream.com) · [Pricing](https://pipedream.co
 
 Pipedream puts real code at the center and meters by event. Catalog pricing: Basic $29/month (2,000 credits, 20M AI tokens), Advanced $49/month, Connect $99/month (verified Sep 2026). (verified 2026-09-25).
 
-## [Tray.io](/tools/tray-io/)
+## [Tray.io as a n8n alternative](/tools/tray-io/)
 
 Enterprise
 
@@ -76,7 +76,7 @@ Vendor: [Official site](https://tray.ai) · [Pricing](https://tray.ai/pricing/)
 
 Tray.io is an enterprise iPaaS: stronger governance, bigger commitment. Catalog pricing: No published prices. Three tiers (Pro, Team, Enterprise) described by workspaces, log retention, and insights windows; usage metered in Tasks across integration, automation, MCP, and agents. HIPAA, SSO, regional hosting, and Tray IDP are paid add-ons. Demo or sales call required. (verified 2026-09-06).
 
-## [Workato](/tools/workato/)
+## [Workato as a n8n alternative](/tools/workato/)
 
 Enterprise
 
@@ -88,9 +88,9 @@ Vendor: [Official site](https://www.workato.com) · [Pricing](https://www.workat
 
 Workato bundles automation with enterprise AI workflows and pricing. Catalog pricing: No published prices; usage-based model with a platform edition fee plus a usage fee in one billing unit; editions Standard, Business, Enterprise, and Workato One; demo-gated trial (verified 2026-09-07).
 
-## [Activepieces](/tools/activepieces/)
+## [Activepieces as a n8n alternative](/tools/activepieces/)
 
-Freemium OSS
+Freemium from $20/mo OSS
 
 Vendor: [Official site](https://www.activepieces.com) · [Pricing](https://www.activepieces.com/pricing) · [GitHub](https://github.com/activepieces/activepieces)
 
@@ -100,7 +100,7 @@ Vendor: [Official site](https://www.activepieces.com) · [Pricing](https://www.a
 
 Activepieces is the open-source no-code option with an MIT core. Catalog pricing: Free (100 credits a day, unlimited flows, no card); Plus $20/mo flat (10,000 credits/mo, up to 5 users, bring your own AI keys); Team $200/mo flat (50,000 credits, 25 users, SSO); Ultimate custom. Overage $0.007 per credit on Plus and Team. Embed from $36,000/year. Verified 2026-09-27. (verified 2026-09-27).
 
-## [Pabbly Connect](/tools/pabbly-connect/)
+## [Pabbly Connect as a n8n alternative](/tools/pabbly-connect/)
 
 From $16/mo
 
@@ -112,7 +112,7 @@ Vendor: [Official site](https://www.pabbly.com/connect/) · [Pricing](https://ww
 
 Pabbly Connect undercuts everyone on raw workflow volume pricing. Catalog pricing: Task-based tiers billed yearly: from $16/mo at 10,000 tasks a month, scaling with volume to $254/mo at the largest listed tier; one-time lifetime deal at $349. Verified 2026-09-27. (verified 2026-09-27).
 
-## [Microsoft Power Automate](/tools/power-automate/)
+## [Microsoft Power Automate as a n8n alternative](/tools/power-automate/)
 
 From $15/mo
 
@@ -124,9 +124,9 @@ Vendor: [Official site](https://powerautomate.microsoft.com) · [Pricing](https:
 
 Power Automate is the default inside Microsoft shops. Catalog pricing: Power Automate Premium $15/user/month paid yearly; Process (unattended RPA) $150/bot/month; Hosted Process $215/bot/month. Verified 2026-09-27. (verified 2026-09-27).
 
-## [IFTTT](/tools/ifttt/)
+## [IFTTT as a n8n alternative](/tools/ifttt/)
 
-Freemium
+Freemium from $2.99/mo
 
 Vendor: [Official site](https://ifttt.com) · [Pricing](https://ifttt.com/plans)
 
@@ -136,7 +136,7 @@ Vendor: [Official site](https://ifttt.com) · [Pricing](https://ifttt.com/plans)
 
 IFTTT keeps automation consumer-shaped: simple triggers, flat pricing. Catalog pricing: Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. (verified 2026-09-27).
 
-## [Budibase](/tools/budibase/)
+## [Budibase as a n8n alternative](/tools/budibase/)
 
 Free tier OSS
 
@@ -148,7 +148,7 @@ Vendor: [Official site](https://budibase.com) · [Pricing](https://budibase.com/
 
 Budibase builds the internal app and the automation around it. Catalog pricing: Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. (verified 2026-09-07).
 
-## [ToolJet](/tools/tooljet/)
+## [ToolJet as a n8n alternative](/tools/tooljet/)
 
 Free tier OSS
 
@@ -160,7 +160,7 @@ Vendor: [Official site](https://tooljet.com) · [Pricing](https://tooljet.com/pr
 
 ToolJet pairs an internal-tool builder with AI-assisted generation. Catalog pricing: Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Pro $79/builder/mo billed annually, Team $199, Enterprise from $3,000/mo. Self-host Team $199/builder/mo. AI credits $1 per 100.; open source under AGPL-3.0 (verified 2026-09-07).
 
-## [Appsmith](/tools/appsmith/)
+## [Appsmith as a n8n alternative](/tools/appsmith/)
 
 Free tier OSS
 

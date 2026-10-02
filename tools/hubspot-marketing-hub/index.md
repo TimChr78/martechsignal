@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 All-in-one marketing automation with AI-powered content, email, and campaign tools
 
-Marketing Automation · Freemium Desk-reviewed
+Marketing Automation · Freemium from $20/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -122,10 +122,10 @@ The sensible default for SMB and growth teams that want one system. Fragments wh
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Teams that want marketing automation living beside their CRM
-- [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/) — Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.
+- [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)](/vs/salesforce-marketing-cloud-vs-hubspot/) — Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $20/mo
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
 - **Third-party ratingsG2 rating:** 4.4/5 · [source](https://www.g2.com/products/hubspot-marketing-hub/reviews)as of 2026-08-28
 - **Founded:** 2006

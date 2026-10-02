@@ -114,8 +114,8 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 ## Comparison guides
 
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
-- [Best AI Advertising &amp; Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [Agentic Marketing](/glossary/agentic-marketing/)
@@ -174,7 +174,7 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2140,
+  "wordCount": 2133,
   "articleSection": "agent-skills"
 }
 ```

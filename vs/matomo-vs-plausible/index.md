@@ -1,6 +1,6 @@
-# Matomo vs Plausible (2026): analytics depth or a dashboard that stays small
+# Matomo vs Plausible (2026): analytics depth or simplicity
 
-## Matomo vs Plausible (2026): analytics depth or a dashboard that stays small
+## Matomo vs Plausible (2026): analytics depth or simplicity
 
 Pick Matomo if you want Google Analytics depth with EU data residency and full raw data ownership. Pick Plausible if you want a one-screen dashboard and a script lighter than the page it measures.
 
@@ -165,13 +165,13 @@ One email when a new tool review lands, nothing else.
     "isPartOf": {
       "@id": "https://martechsignal.com/#website"
     },
-    "name": "Matomo vs Plausible (2026): analytics depth or a dashboard that stays small",
+    "name": "Matomo vs Plausible (2026): analytics depth or simplicity",
     "url": "https://martechsignal.com/vs/matomo-vs-plausible/",
     "mainEntityOfPage": {
       "@id": "https://martechsignal.com/vs/matomo-vs-plausible/"
     },
     "inLanguage": "en",
-    "headline": "Matomo vs Plausible (2026): analytics depth or a dashboard that stays small",
+    "headline": "Matomo vs Plausible (2026): analytics depth or simplicity",
     "image": "https://martechsignal.com/og/vs/matomo-vs-plausible.png",
     "about": [
       {
@@ -229,12 +229,16 @@ One email when a new tool review lands, nothing else.
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Matomo vs Plausible (2026): analytics depth or a dashboard that stays small",
+        "name": "Matomo vs Plausible (2026): analytics depth or simplicity",
         "item": "https://martechsignal.com/vs/matomo-vs-plausible/"
       }
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/matomo-vs-plausible/", "breadcrumb": {"@id": "https://martechsignal.com/vs/matomo-vs-plausible/#breadcrumb"}, "dateModified": "2026-09-28"}
 ```
 
 ```json

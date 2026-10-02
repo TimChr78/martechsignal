@@ -8,6 +8,8 @@ AI AGENTS · SALESFORCE · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough
 
+SEP 29, 2026
+
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
 On September 22, Salesforce published two blog posts. One, from the Commerce Cloud team, is titled "Build Agents Your Way with Claude and Commerce Cloud." It invites merchants to build commerce agents on Anthropic's Claude, and it names Claude as an intelligence layer that can sit on top of Salesforce's Commerce MCP server. The other, the [Dreamforce IT announcements recap](https://www.salesforce.com/blog/dreamforce-2026-top-it-announcements/), leads with AIforce, a platform layer that reaches every surface, where "Agentforce, Claude, or another agent of your choice" can take action inside your Salesforce permissions.
@@ -89,7 +91,7 @@ Tools linked in this post: [Salesforce Marketing Cloud](/tools/salesforce-market
 - [Bloomreach](/tools/bloomreach/) - AI-powered commerce experience platform with search, personalization, and CDP
 ## Comparison guides
 
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
@@ -149,7 +151,7 @@ Verdict: a win for merchants, a confession from Salesforce
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1506,
+  "wordCount": 1510,
   "articleSection": "marketing-automation"
 }
 ```

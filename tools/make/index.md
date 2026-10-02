@@ -8,7 +8,7 @@
 
 Visual automation platform for building complex workflows with AI agents and apps
 
-Workflow Automation · Freemium Desk-reviewed
+Workflow Automation · Freemium from $9/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -125,7 +125,7 @@ Yes. Make AI Agents are stated as available on all plans, including Free, and ru
 - [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/) — your builders are operators who want the clearest visual canvas and a free tier to start in.
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $9/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **Founded:** 2012
 - **HQ:** Prague, Czech Republic

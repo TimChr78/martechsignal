@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (35 days ago).
 
 AI-native CRM with real-time data enrichment and agentic revenue workflows
 
-CRM · Freemium Desk-reviewed
+CRM · Freemium from $29/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -123,7 +123,7 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for startups that want a CRM shaped around their own data model.
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $29/mo
 - **Category:** [CRM](/categories/crm/)
 - **Founded:** 2019
 - **HQ:** London, UK

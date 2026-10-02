@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (25 days ago).
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
-Workflow Automation · Freemium · OPEN SOURCE Desk-reviewed
+Workflow Automation · Freemium from $10/mo · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -157,7 +157,7 @@ Create an agent whose adapter is claude_local. Claude Code must be installed and
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ### Quick Facts
 
-- **Pricing:** Freemium
+- **Pricing:** Freemium from $10/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **GitHub:** ★ 95890
 - **HQ:** EU
