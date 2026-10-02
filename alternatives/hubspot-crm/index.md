@@ -15,11 +15,11 @@ Last verified 2026-09-28.
 
 | Tool | Price | Billing model | Self-host | Best for |
 | --- | --- | --- | --- | --- |
-| [Twenty](/tools/twenty/) | Open Source | Monthly plans, billed yearly | Yes | Technical teams, agencies, and privacy-conscious organizations that want a modern CRM they can self-host and extend with code. |
-| [EspoCRM](/tools/espocrm/) | Open Source | Monthly plans, monthly | Yes | Small teams that want a lightweight self-hosted CRM with solid sales automation and are willing to buy extensions as needed. |
-| [SuiteCRM](/tools/suitecrm/) | Open Source | Monthly plans, monthly | Yes | Organizations that want the broadest free module set in open-source CRM, from quotes and invoices to campaigns and cases, and can run PHP infrastructure. |
-| [Pipedrive](/tools/pipedrive/) | From $14/mo | Monthly plans, monthly | No | Sales teams that already run a separate marketing stack and want a pipeline-first CRM that reps will actually use. |
-| [Frappe CRM](/tools/frappe-crm/) | Open Source | Monthly plans, monthly | Yes | Budget-conscious sales teams that want unlimited users on an open-source CRM and are comfortable with the Frappe stack. |
+| [Twenty](/tools/twenty/) | Open Source | Free self-host, paid cloud | Yes | Technical teams, agencies, and privacy-conscious organizations that want a modern CRM they can self-host and extend with code. |
+| [EspoCRM](/tools/espocrm/) | Open Source | Free self-host, paid cloud | Yes | Small teams that want a lightweight self-hosted CRM with solid sales automation and are willing to buy extensions as needed. |
+| [SuiteCRM](/tools/suitecrm/) | Open Source | Free self-host, paid cloud | Yes | Organizations that want the broadest free module set in open-source CRM, from quotes and invoices to campaigns and cases, and can run PHP infrastructure. |
+| [Pipedrive](/tools/pipedrive/) | From $14/mo | See vendor | No | Sales teams that already run a separate marketing stack and want a pipeline-first CRM that reps will actually use. |
+| [Frappe CRM](/tools/frappe-crm/) | Open Source | Free self-host, paid cloud | Yes | Budget-conscious sales teams that want unlimited users on an open-source CRM and are comfortable with the Frappe stack. |
 
 ## [Twenty as a HubSpot CRM alternative](/tools/twenty/)
 
@@ -98,119 +98,3 @@ Read the full assessment of [HubSpot CRM](/tools/hubspot-crm/), or browse all [c
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-
-```json
-[
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Best HubSpot CRM alternatives (2026)",
-    "datePublished": "2026-09-26",
-    "dateModified": "2026-09-28",
-    "author": {
-      "@type": "Person",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/"
-    },
-    "publisher": {
-      "@id": "https://martechsignal.com/#organization"
-    },
-    "isPartOf": {
-      "@id": "https://martechsignal.com/#website"
-    },
-    "numberOfItems": 5,
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Twenty",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/twenty/#app",
-          "url": "https://martechsignal.com/tools/twenty/",
-          "name": "Twenty"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "EspoCRM",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/espocrm/#app",
-          "url": "https://martechsignal.com/tools/espocrm/",
-          "name": "EspoCRM"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "SuiteCRM",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/suitecrm/#app",
-          "url": "https://martechsignal.com/tools/suitecrm/",
-          "name": "SuiteCRM"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Pipedrive",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/pipedrive/#app",
-          "url": "https://martechsignal.com/tools/pipedrive/",
-          "name": "Pipedrive"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "name": "Frappe CRM",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/frappe-crm/#app",
-          "url": "https://martechsignal.com/tools/frappe-crm/",
-          "name": "Frappe CRM"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://martechsignal.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Alternatives guides",
-        "item": "https://martechsignal.com/alternatives/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "HubSpot CRM alternatives",
-        "item": "https://martechsignal.com/alternatives/hubspot-crm/"
-      }
-    ],
-    "@id": "https://martechsignal.com/alternatives/hubspot-crm/#breadcrumb"
-  }
-]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/alternatives/hubspot-crm/", "breadcrumb": {"@id": "https://martechsignal.com/alternatives/hubspot-crm/#breadcrumb"}, "dateModified": "2026-09-28"}
-```
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
-```

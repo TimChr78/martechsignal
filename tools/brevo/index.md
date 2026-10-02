@@ -1030,7 +1030,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Brevo: Multichannel marketing platform billing by email volume, not contacts. Brevo ships with AI content generator (subject lines and email copy). This page documents 8 integrations.
 
 **How much does Brevo cost?**
-Brevo has a free tier; paid plans start at $9/mo. Free plan (300 emails/day); Starter from $9/mo at 5,000 emails; Standard $18/mo at 5,000; Professional $499/mo; Enterprise custom; SMS credits sold separately (figures per 2026-09-29 third-party receipt; vendor pricing page renders price numbers only via JavaScript). We last checked both ends of that split on 2026-10-01. The pricing section above shows what the free tier actually covers."
+Brevo has a free tier; paid plans start at $9/mo. Free plan (300 emails/day); Starter from $9/mo at 5,000 emails; Standard $18/mo at 5,000; Professional $499/mo; Enterprise custom; SMS credits sold separately (figures per 2026-09-29 third-party receipt; vendor pricing page renders price numbers only via JavaScript). We last checked both ends of that split on 2026-10-01. The pricing section above shows what the free tier actually covers.
 
 **Is Brevo worth it past the free tier?**
 Brevo suits teams with a large but rarely-sent list that still want SMS, WhatsApp, and chat alongside email: the volume-metered plans keep stored contacts free of charge.
@@ -1044,7 +1044,6 @@ Yes. The catalog records a public API for Brevo, so custom integrations are poss
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 - [Mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
-- [Notifo](/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
@@ -1068,144 +1067,6 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
-**Verdict:** Brevo is a tool in Email Marketing with a free tier. The catalog documents 2 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-01. This is a desk review, not a hands-on test. Desk-reviewed
-
-Klaviyo
-
-AI-powered email and SMS marketing platform built for ecommerce brands
-
-Customer.io
-
-Data-driven messaging platform for automated email, push, SMS, and in-app messages
-
-Listmonk
-
-Open-source self-hosted newsletter and mailing list manager with a fast Go backend
-
-Mailchimp
-
-All-in-one marketing platform with AI-powered email, automation, and analytics
-
-Notifo
-
-Self-hosted multi-channel notification service for email, SMS, and web push
-
 [More Email Marketing Tools →](/categories/email-marketing/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-
-```json
-[
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "@id": "https://martechsignal.com/tools/brevo/#app",
-    "name": "Brevo",
-    "description": "Multichannel marketing platform billing by email volume, not contacts",
-    "image": "https://martechsignal.com/og/tools/brevo.png",
-    "url": "https://martechsignal.com/tools/brevo/",
-    "sameAs": [
-      "https://www.brevo.com/"
-    ],
-    "mainEntityOfPage": "https://martechsignal.com/tools/brevo/",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
-    "dateModified": "2026-10-01",
-    "datePublished": "2026-10-01",
-    "offers": [
-      {
-        "@type": "Offer",
-        "price": 0,
-        "priceCurrency": "USD",
-        "url": "https://www.brevo.com/pricing/",
-        "priceValidUntil": "2026-12-30"
-      },
-      {
-        "@type": "Offer",
-        "price": 9,
-        "priceCurrency": "USD",
-        "url": "https://www.brevo.com/pricing/",
-        "priceValidUntil": "2026-12-30"
-      }
-    ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://martechsignal.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Tools",
-        "item": "https://martechsignal.com/tools/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Email Marketing",
-        "item": "https://martechsignal.com/categories/email-marketing/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Brevo",
-        "item": "https://martechsignal.com/tools/brevo/"
-      }
-    ],
-    "@id": "https://martechsignal.com/tools/brevo/#breadcrumb"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is Brevo?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Brevo: Multichannel marketing platform billing by email volume, not contacts. Brevo ships with AI content generator (subject lines and email copy). This page documents 8 integrations."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How much does Brevo cost?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Brevo has a free tier; paid plans start at $9/mo. Free plan (300 emails/day); Starter from $9/mo at 5,000 emails; Standard $18/mo at 5,000; Professional $499/mo; Enterprise custom; SMS credits sold separately (figures per 2026-09-29 third-party receipt; vendor pricing page renders price numbers only via JavaScript). We last checked both ends of that split on 2026-10-01. The pricing section above shows what the free tier actually covers.\""
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is Brevo worth it past the free tier?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Brevo suits teams with a large but rarely-sent list that still want SMS, WhatsApp, and chat alongside email: the volume-metered plans keep stored contacts free of charge."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Does Brevo have an API?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. The catalog records a public API for Brevo, so custom integrations are possible. The Key Integrations section shows what ships natively."
-        }
-      }
-    ]
-  }
-]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/brevo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/brevo/#breadcrumb"}, "dateModified": "2026-10-01"}
-```
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
-```

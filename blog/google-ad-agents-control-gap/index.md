@@ -133,8 +133,6 @@ More from the directory: [LanguageTool](/tools/languagetool/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
-TC **[Tim Christensen](/authors/tim-christensen/)**
-
 TARGETbid + budget, set by you
 
 PLATFORM MODELmatching, pacing, format
@@ -142,87 +140,3 @@ PLATFORM MODELmatching, pacing, format
 AUCTIONmoney committed
 
 REPORTthe AI explains itself
-
-
-```json
-{
-  "@context": "https://schema.org",
-  "speakable": {
-    "@type": "SpeakableSpecification",
-    "cssSelectors": [
-      "h1",
-      "article h2"
-    ]
-  },
-  "@type": "BlogPosting",
-  "headline": "Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook",
-  "description": "The week of August 10 was a strange one for paid media. On Monday, Google announced new agentic capabilities for Ask Advisor, its AI assistant inside.",
-  "author": {
-    "@type": "Person",
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
-    "name": "Tim Christensen",
-    "url": "https://martechsignal.com/authors/tim-christensen/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "@id": "https://martechsignal.com/#organization",
-    "name": "MartechSignal",
-    "url": "https://martechsignal.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://martechsignal.com/logo.png"
-    }
-  },
-  "datePublished": "2026-08-17",
-  "dateModified": "2026-08-17",
-  "mainEntityOfPage": "https://martechsignal.com/blog/google-ad-agents-control-gap/",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://martechsignal.com/og/google-ad-agents-control-gap.png",
-    "width": 1200,
-    "height": 630
-  },
-  "isPartOf": {
-    "@type": "Blog",
-    "@id": "https://martechsignal.com/blog/#blog"
-  },
-  "inLanguage": "en",
-  "wordCount": 2398,
-  "articleSection": "advertising"
-}
-```
-
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://martechsignal.com/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Blog",
-      "item": "https://martechsignal.com/blog/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook",
-      "item": "https://martechsignal.com/blog/google-ad-agents-control-gap/"
-    }
-  ]
-}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/", "breadcrumb": {"@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/#breadcrumb"}, "dateModified": "2026-08-17"}
-```
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
-```

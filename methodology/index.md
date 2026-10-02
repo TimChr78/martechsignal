@@ -53,38 +53,3 @@ Published errors get public entries. See the [corrections page](/corrections/) f
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-
-```json
-[
-  {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://martechsignal.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Methodology",
-        "item": "https://martechsignal.com/methodology/"
-      }
-    ]
-  },
-  {
-    "@type": "WebPage",
-    "@id": "https://martechsignal.com/methodology/",
-    "name": "How we evaluate",
-    "description": "How MartechSignal researches tools, verifies prices and dates, and scores the six pillars: the rubric, the review policy, and the corrections process.",
-    "url": "https://martechsignal.com/methodology/",
-    "dateModified": "2026-10-02"
-  }
-]
-```
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
-```

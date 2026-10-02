@@ -15,11 +15,11 @@ Last verified 2026-09-28.
 
 | Tool | Price | Billing model | Self-host | Best for |
 | --- | --- | --- | --- | --- |
-| [Plausible Analytics](/tools/plausible/) | Open Source | Monthly plans, monthly | Yes | Content sites, startups, agencies, and privacy-conscious teams that want core traffic metrics without cookies, banners, or personal data collection. |
-| [Umami](/tools/umami/) | Open Source | Contract | Yes | Developers and privacy-conscious marketing teams that want campaign and conversion numbers without cookies or surveillance overhead. |
-| [PostHog](/tools/posthog/) | Freemium | Credits, monthly | Yes | Product teams that want funnels, retention, session replay, feature flags, and experiments in one place, on a free tier large enough for real work. |
-| [Snowplow](/tools/snowplow/) | Free tier | Monthly plans, monthly | Yes | Data teams that want behavioral events validated against schemas and delivered into their own warehouse or lake for reporting in BI tools. |
-| [Amplitude](/tools/amplitude/) | Freemium | Contract | No | Product and marketing teams that want funnels, retention, and experimentation without writing SQL, delivered as managed SaaS. |
+| [Plausible Analytics](/tools/plausible/) | Open Source | Free self-host, paid cloud | Yes | Content sites, startups, agencies, and privacy-conscious teams that want core traffic metrics without cookies, banners, or personal data collection. |
+| [Umami](/tools/umami/) | Open Source | Free self-host, paid cloud | Yes | Developers and privacy-conscious marketing teams that want campaign and conversion numbers without cookies or surveillance overhead. |
+| [PostHog](/tools/posthog/) | Freemium | Freemium, self-serve tiers | Yes | Product teams that want funnels, retention, session replay, feature flags, and experiments in one place, on a free tier large enough for real work. |
+| [Snowplow](/tools/snowplow/) | Free tier | See vendor | Yes | Data teams that want behavioral events validated against schemas and delivered into their own warehouse or lake for reporting in BI tools. |
+| [Amplitude](/tools/amplitude/) | Freemium | Freemium, self-serve tiers | No | Product and marketing teams that want funnels, retention, and experimentation without writing SQL, delivered as managed SaaS. |
 
 ## [Plausible Analytics as a Matomo alternative](/tools/plausible/)
 
@@ -98,119 +98,3 @@ Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics t
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-
-```json
-[
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Best Matomo alternatives (2026)",
-    "datePublished": "2026-09-26",
-    "dateModified": "2026-09-28",
-    "author": {
-      "@type": "Person",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/"
-    },
-    "publisher": {
-      "@id": "https://martechsignal.com/#organization"
-    },
-    "isPartOf": {
-      "@id": "https://martechsignal.com/#website"
-    },
-    "numberOfItems": 5,
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Plausible Analytics",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/plausible/#app",
-          "url": "https://martechsignal.com/tools/plausible/",
-          "name": "Plausible Analytics"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Umami",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/umami/#app",
-          "url": "https://martechsignal.com/tools/umami/",
-          "name": "Umami"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "PostHog",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/posthog/#app",
-          "url": "https://martechsignal.com/tools/posthog/",
-          "name": "PostHog"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Snowplow",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/snowplow/#app",
-          "url": "https://martechsignal.com/tools/snowplow/",
-          "name": "Snowplow"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "name": "Amplitude",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/amplitude/#app",
-          "url": "https://martechsignal.com/tools/amplitude/",
-          "name": "Amplitude"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://martechsignal.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Alternatives guides",
-        "item": "https://martechsignal.com/alternatives/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Matomo alternatives",
-        "item": "https://martechsignal.com/alternatives/matomo/"
-      }
-    ],
-    "@id": "https://martechsignal.com/alternatives/matomo/#breadcrumb"
-  }
-]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/alternatives/matomo/", "breadcrumb": {"@id": "https://martechsignal.com/alternatives/matomo/#breadcrumb"}, "dateModified": "2026-09-28"}
-```
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
-```

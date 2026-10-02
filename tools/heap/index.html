@@ -43,22 +43,13 @@
     "operatingSystem": "Web",
     "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
-    "offers": [
-      {
-        "@type": "Offer",
-        "price": 0,
-        "priceCurrency": "USD",
-        "url": "https://www.heap.io/pricing",
-        "priceValidUntil": "2026-11-26"
-      },
-      {
-        "@type": "Offer",
-        "price": 250,
-        "priceCurrency": "USD",
-        "url": "https://www.heap.io/pricing",
-        "priceValidUntil": "2026-11-26"
-      }
-    ]
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "USD",
+      "url": "https://www.heap.io/pricing",
+      "priceValidUntil": "2026-11-26"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -108,7 +99,7 @@
         "name": "How much does Heap cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Heap has a free tier; paid plans start at $250/mo. Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing Paid floor \u2248$250/mo equivalent of the published ~$3,000/yr startup Growth starting range. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
+          "text": "Heap has a free tier, so you can run a real evaluation before paying. Free (10K sessions/mo, 6-mo history); Growth and Pro are custom-priced - no published entry price, so the record carries no paid figure (r22 H-3). We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features."
         }
       },
       {
@@ -171,7 +162,7 @@
 <section class="page-head">
   <h1>Heap review (2026): pricing, AI features, verdict</h1>
   <p class="sub">AI-powered product analytics with autocapture and digital experience insights</p>
-  <p class="count">Analytics &amp; Attribution · Freemium from $250/mo <span class="tag desk">Desk-reviewed</span></p>
+  <p class="count">Analytics &amp; Attribution · Freemium <span class="tag desk">Desk-reviewed</span></p>
   <!-- L-11 (r11, 2026-09-29): byline date resolves through _record_edit_date,
        the same clock as schema dateModified, so the two always agree. -->
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
@@ -193,19 +184,19 @@ Heap is best suited for product teams that want to reduce the cycle time between
     <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/heap-2026-09.webp" alt="Screenshot of the Heap homepage" srcset="/og/screenshots/heap-2026-09-480.webp 480w, /og/screenshots/heap-2026-09-600.webp 600w, /og/screenshots/heap-2026-09-800.webp 800w, /og/screenshots/heap-2026-09.webp 1280w" sizes="(max-width:700px) 100vw, 662px" width="1280" height="800" fetchpriority="high" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.82rem;color:var(--muted);margin-top:.4rem">Heap homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     <h2>AI Capabilities</h2><ul class="feat-list"><li>AI autocapture</li><li>AI session replay analysis</li><li>AI-powered insights</li><li>Predictive analytics</li><li>AI anomaly detection</li></ul>
     <h2>Key Integrations</h2><ul class="integ-list"><li>Slack</li><li>Salesforce</li><li>Zapier</li><li>Segment</li><li>Amplitude</li><li>Snowflake</li><li>Marketo</li><li>HubSpot</li></ul>
-    <section class="pricing-block"><h2>Pricing</h2><p>Heap is freemium, with a free tier to start, paid plans start at $250/mo as of 2026-08.</p><p>Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing Paid floor ≈$250/mo equivalent of the published ~$3,000/yr startup Growth starting range.</p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Current plans and limits live on the <a href="https://www.heap.io/pricing" target="_blank" rel="noopener" data-umami-event="Pricing section click" data-umami-event-tool="Heap">Heap pricing page</a>.</p></section>
+    <section class="pricing-block"><h2>Pricing</h2><p>Heap is freemium, with a free tier to start.</p><p>Free (10K sessions/mo, 6-mo history); Growth and Pro are custom-priced - no published entry price, so the record carries no paid figure (r22 H-3).</p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Current plans and limits live on the <a href="https://www.heap.io/pricing" target="_blank" rel="noopener" data-umami-event="Pricing section click" data-umami-event-tool="Heap">Heap pricing page</a>.</p></section>
     <h2>Review notes</h2><p style="font-size:.78rem;color:var(--muted)">Researched from public documentation, and vendor materials. Not a hands-on test.</p><p>Heap&#x27;s pitch is capture everything, analyze later: install one snippet and every click, pageview, form fill, swipe, and scroll is recorded, so you can run retroactive analysis on interactions you never tagged. That ends the classic pain of needing six months of data on a feature nobody instrumented. The Contentsquare acquisition adds digital experience analytics alongside the product analytics, widening the lens.</p><p>Autocapture generates noise as surely as it generates coverage, so curation and chart hygiene become your job, and event volume drives pricing, which climbs faster than teams expect. Privacy review matters more than ever when everything is recorded. Teams with disciplined tagging may prefer Mixpanel&#x27;s precision, but teams that keep discovering untagged events will find Heap forgiving in exactly the way they need.</p><h2>Verdict</h2><p>Choose it when you keep discovering untagged events after the fact. Disciplined taggers get more from Mixpanel.</p>
-    <section class="pros-cons"><h2>Pros and cons</h2><table><caption>Strengths and trade-offs</caption><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: AI autocapture</td><td><span style="color:var(--red-text)">&#10007;</span> Paid plans start at $250/mo once past the free tier</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Native integrations include Slack, Salesforce, Zapier (8 listed)</td><td><span style="color:var(--red-text)">&#10007;</span> Closed source - no self-hosting option</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Free tier to evaluate before committing (Free (10K sessions/mo, 6-mo history))</td><td></td></tr></tbody></table></section>
+    <section class="pros-cons"><h2>Pros and cons</h2><table><caption>Strengths and trade-offs</caption><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: AI autocapture</td><td><span style="color:var(--red-text)">&#10007;</span> Closed source - no self-hosting option</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Native integrations include Slack, Salesforce, Zapier (8 listed)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Free tier to evaluate before committing (Free (10K sessions/mo, 6-mo history))</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><ul class="integ-list"><li><a href="/glossary/marketing-attribution-models/">Attribution models</a></li><li><a href="/glossary/first-party-data/">First-party data</a></li><li><a href="/glossary/dmp/">DMP</a></li></ul><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Heap?</summary><p>Heap: AI-powered product analytics with autocapture and digital experience insights. Heap ships with AI autocapture. This page documents 8 integrations.</p></details><details class="faq-item"><summary>How much does Heap cost?</summary><p>Heap has a free tier; paid plans start at $250/mo. Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing Paid floor ≈$250/mo equivalent of the published ~$3,000/yr startup Growth starting range. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.&quot;</p></details><details class="faq-item"><summary>Is Heap worth it past the free tier?</summary><p>Choose it when you keep discovering untagged events after the fact. Disciplined taggers get more from Mixpanel.</p></details></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Heap?</summary><p>Heap: AI-powered product analytics with autocapture and digital experience insights. Heap ships with AI autocapture. This page documents 8 integrations.</p></details><details class="faq-item"><summary>How much does Heap cost?</summary><p>Heap has a free tier, so you can run a real evaluation before paying. Free (10K sessions/mo, 6-mo history); Growth and Pro are custom-priced - no published entry price, so the record carries no paid figure (r22 H-3). We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.</p></details><details class="faq-item"><summary>Is Heap worth it past the free tier?</summary><p>Choose it when you keep discovering untagged events after the fact. Disciplined taggers get more from Mixpanel.</p></details></section>
     <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/mixpanel/"><div class="name">Mixpanel</div><div class="tagline">Product analytics platform with AI-powered insights for user behavior tracking</div></a><a class="tool-card" href="/tools/amplitude/"><div class="name">Amplitude</div><div class="tagline">AI-powered digital analytics platform for product and marketing teams</div></a><a class="tool-card" href="/tools/posthog/"><div class="name">PostHog</div><div class="tagline">Open-source product analytics platform with session replay, feature flags, experiments, and surveys</div></a><a class="tool-card" href="/tools/matomo/"><div class="name">Matomo</div><div class="tagline">Open-source web analytics platform with full data ownership and AI-powered insights</div></a><a class="tool-card" href="/tools/northbeam/"><div class="name">Northbeam</div><div class="tagline">AI-powered multi-touch attribution and marketing intelligence for ecommerce</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/you-dont-need-new-data-stack-fivetran/">You Don't Need a New Data Stack for AI. Fivetran Just Proved It</a></li><li><a href="/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/">MCP Rewrites the Integration Economics of Your Marketing Stack</a></li><li><a href="/blog/salesforce-agentforce-free-marketing-ops/">Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.</a></li></ul></section><section class="related-reading"><h2>Also featured in</h2><ul><li><a href="/best/marketing-analytics-tools/">Best Marketing Analytics and Attribution tools (2026): 8 compared</a> &mdash; Teams that want retroactive analysis without a tagging plan first</li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">
       <h3>Quick Facts</h3>
       <dl>
-        <div class="side-row"><dt>Pricing</dt><dd>Freemium from $250/mo</dd></div>
+        <div class="side-row"><dt>Pricing</dt><dd>Freemium</dd></div>
         <div class="side-row"><dt>Category</dt><dd><a href="/categories/analytics/">Analytics &amp; Attribution</a></dd></div>
         
         

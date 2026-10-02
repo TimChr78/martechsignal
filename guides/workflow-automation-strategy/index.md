@@ -73,20 +73,3 @@ Cost per happy event, cost of one failed month, and the exit price. Get those th
 Sources: [n8n](https://n8n.io/) · [n8n pricing](https://n8n.io/pricing/) · [Zapier](https://zapier.com/) · [Make](https://www.make.com/)
 
 © 2026 MartechSignal · by Tim Christensen
-
-
-```json
-{"@context": "https://schema.org", "@type": "Article", "headline": "Workflow automation without the AI-tool pile-on: the strategy hub", "url": "https://martechsignal.com/guides/workflow-automation-strategy/", "dateModified": "2026-09-28", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/workflow-automation-strategy.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/workflow-automation-strategy/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/workflow-automation-strategy/"}}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://martechsignal.com/guides/"}, {"@type": "ListItem", "position": 3, "name": "Workflow automation strategy", "item": "https://martechsignal.com/guides/workflow-automation-strategy/"}]}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://martechsignal.com/#website", "url": "https://martechsignal.com/", "name": "MartechSignal"}
-```
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
-```

@@ -42,21 +42,25 @@ def alt_card(item, tools_by_slug, target_name=""):
 
 
 def _billing_label(t):
-    """Categorical billing model derived from the catalog's verified price notes.
-    Deliberately labels, not numbers (the number rule: only the cost display)."""
+    """r22 H-1 (2026-10-02): derive the billing model from the record's OWN
+    pricing_model first; only fall back to price_notes wording when the model
+    is known. The r20 heuristic keyword-matched notes into "Contract" for
+    self-serve tools (Make "Contract" beside "Core $9/mo") - wrong-by-inference
+    on 166 records with billing: null."""
+    model = str(t.get("pricing_model") or "").lower()
+    if model in ("free",):
+        return "Free"
+    if model == "freemium":
+        return "Freemium, self-serve tiers"
+    if model == "open-source":
+        return "Free self-host" + (", paid cloud" if "cloud" in (t.get("price_notes") or "").lower() else "")
+    if model == "enterprise":
+        return "Contract"
     n = (t.get("price_notes") or "").lower()
     if "no published prices" in n or "custom" in n:
         return "Contract, usage-based" if "usage" in n else "Contract"
-    unit = ("Task tiers" if "task" in n else
-            "Credits" if "credit" in n else
-            "Per bot" if "bot/month" in n or "per bot" in n else
-            "Per user" if "user/month" in n or "per user" in n else
-            "Flat fee" if "flat" in n else "Monthly plans")
-    if "lifetime" in n:
-        return unit + ", yearly or one-time"
-    if "billed yearly" in n or "annual" in n or "paid yearly" in n:
-        return unit + ", billed yearly"
-    return unit + ", monthly"
+    # genuinely unknown: say so instead of guessing
+    return "See vendor"
 
 
 def matrix_table(page, tools_by_slug):

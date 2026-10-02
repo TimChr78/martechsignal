@@ -77,20 +77,3 @@ One caveat worth stating plainly: everything here is observation, not doctrine. 
 Sources: [Profound](https://www.tryprofound.com/) · [Profound pricing](https://www.tryprofound.com/pricing) · [OtterlyAI](https://otterly.ai/) · [Google Analytics support](https://support.google.com/analytics)
 
 © 2026 MartechSignal · by Tim Christensen
-
-
-```json
-{"@context": "https://schema.org", "@type": "Article", "headline": "Generative Engine Optimization (GEO): the working guide", "url": "https://martechsignal.com/guides/generative-engine-optimization/", "dateModified": "2026-09-28", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/generative-engine-optimization.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/generative-engine-optimization/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/generative-engine-optimization/"}}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://martechsignal.com/guides/"}, {"@type": "ListItem", "position": 3, "name": "Generative Engine Optimization", "item": "https://martechsignal.com/guides/generative-engine-optimization/"}]}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://martechsignal.com/#website", "url": "https://martechsignal.com/", "name": "MartechSignal"}
-```
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
-```

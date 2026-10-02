@@ -15,37 +15,3 @@ This inbox has one reader with a day job, so give it two or three business days 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
-
-
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Contact | MartechSignal",
-  "url": "https://martechsignal.com/contact/",
-  "description": "Corrections, tips, vendor news, or questions about how MartechSignal tests tools.",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "MartechSignal",
-    "url": "https://martechsignal.com/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "@id": "https://martechsignal.com/#organization",
-    "name": "MartechSignal",
-    "url": "https://martechsignal.com/",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://martechsignal.com/logo.png"
-    }
-  }
-}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}, {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://martechsignal.com/contact/"}]}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/contact/", "dateModified": "2026-09-27"}
-```

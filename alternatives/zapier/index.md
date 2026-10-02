@@ -17,16 +17,16 @@ Last verified 2026-09-28.
 
 | Tool | Price | Billing model | Self-host | Best for |
 | --- | --- | --- | --- | --- |
-| [n8n](/tools/n8n/) | Open Source | Contract | Yes | Marketing operations teams, agencies, and AI-focused organizations that want extensible automation with the option to self-host. |
-| [Make](/tools/make/) | Freemium from $9/mo | Contract | No | Technical marketing teams that have outgrown a linear editor and want branching, looping, and visible error handling. |
-| [Pipedream](/tools/pipedream/) | Freemium from $29/mo | Credits, monthly | No | Developers and revenue operations teams that want arbitrary code in every step and managed authentication for the APIs around it. |
-| [Tray.io](/tools/tray-io/) | Enterprise | Contract, usage-based | No | Enterprises that need integrations and AI agents governed inside a compliance boundary, with SSO and regional hosting available. |
-| [Budibase](/tools/budibase/) | Free tier | Monthly plans, billed yearly | Yes | Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data. |
-| [Pabbly Connect](/tools/pabbly-connect/) | From $16/mo | Task tiers, yearly or one-time | No | Teams with steady, high automation volume that want the cheapest predictable bill in the category, or a one-time lifetime license instead of a subscription. |
-| [Microsoft Power Automate](/tools/power-automate/) | From $15/mo | Per bot, billed yearly | No | Organizations standardized on Microsoft 365 that want automation governed inside the tenant their IT department already manages. |
-| [IFTTT](/tools/ifttt/) | Freemium from $2.99/mo | Monthly plans, billed yearly | No | Edge and personal workflows: smart-device events, social triggers, quick connectivity where a full automation platform would be absurd. |
-| [Activepieces](/tools/activepieces/) | Freemium from $20/mo | Contract | Yes | Teams that want automation infrastructure they can inspect, self-host, or run air-gapped, with flat-fee cloud pricing and bring-your-own AI keys as the alternative. |
-| [Workato](/tools/workato/) | Enterprise | Contract, usage-based | No | Enterprise automation programs that want a governed, Gartner-class platform and have the budget a platform fee plus usage-based pricing implies. |
+| [n8n](/tools/n8n/) | Open Source | Free self-host, paid cloud | Yes | Marketing operations teams, agencies, and AI-focused organizations that want extensible automation with the option to self-host. |
+| [Make](/tools/make/) | Freemium from $9/mo | Freemium, self-serve tiers | No | Technical marketing teams that have outgrown a linear editor and want branching, looping, and visible error handling. |
+| [Pipedream](/tools/pipedream/) | Freemium from $29/mo | Freemium, self-serve tiers | No | Developers and revenue operations teams that want arbitrary code in every step and managed authentication for the APIs around it. |
+| [Tray.io](/tools/tray-io/) | Enterprise | Contract | No | Enterprises that need integrations and AI agents governed inside a compliance boundary, with SSO and regional hosting available. |
+| [Budibase](/tools/budibase/) | Free tier | See vendor | Yes | Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data. |
+| [Pabbly Connect](/tools/pabbly-connect/) | From $16/mo | See vendor | No | Teams with steady, high automation volume that want the cheapest predictable bill in the category, or a one-time lifetime license instead of a subscription. |
+| [Microsoft Power Automate](/tools/power-automate/) | From $15/mo | See vendor | No | Organizations standardized on Microsoft 365 that want automation governed inside the tenant their IT department already manages. |
+| [IFTTT](/tools/ifttt/) | Freemium from $2.99/mo | Freemium, self-serve tiers | No | Edge and personal workflows: smart-device events, social triggers, quick connectivity where a full automation platform would be absurd. |
+| [Activepieces](/tools/activepieces/) | Freemium from $20/mo | Freemium, self-serve tiers | Yes | Teams that want automation infrastructure they can inspect, self-host, or run air-gapped, with flat-fee cloud pricing and bring-your-own AI keys as the alternative. |
+| [Workato](/tools/workato/) | Enterprise | Contract | No | Enterprise automation programs that want a governed, Gartner-class platform and have the budget a platform fee plus usage-based pricing implies. |
 
 ## [n8n as a Zapier alternative](/tools/n8n/)
 
@@ -165,174 +165,3 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-
-```json
-[
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Best Zapier alternatives (2026)",
-    "datePublished": "2026-09-26",
-    "dateModified": "2026-09-28",
-    "author": {
-      "@type": "Person",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/"
-    },
-    "publisher": {
-      "@id": "https://martechsignal.com/#organization"
-    },
-    "isPartOf": {
-      "@id": "https://martechsignal.com/#website"
-    },
-    "numberOfItems": 10,
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "n8n",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/n8n/#app",
-          "url": "https://martechsignal.com/tools/n8n/",
-          "name": "n8n"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Make",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/make/#app",
-          "url": "https://martechsignal.com/tools/make/",
-          "name": "Make"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Pipedream",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/pipedream/#app",
-          "url": "https://martechsignal.com/tools/pipedream/",
-          "name": "Pipedream"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Tray.io",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/tray-io/#app",
-          "url": "https://martechsignal.com/tools/tray-io/",
-          "name": "Tray.io"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "name": "Budibase",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/budibase/#app",
-          "url": "https://martechsignal.com/tools/budibase/",
-          "name": "Budibase"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
-        "name": "Pabbly Connect",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/pabbly-connect/#app",
-          "url": "https://martechsignal.com/tools/pabbly-connect/",
-          "name": "Pabbly Connect"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 7,
-        "name": "Microsoft Power Automate",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/power-automate/#app",
-          "url": "https://martechsignal.com/tools/power-automate/",
-          "name": "Microsoft Power Automate"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 8,
-        "name": "IFTTT",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/ifttt/#app",
-          "url": "https://martechsignal.com/tools/ifttt/",
-          "name": "IFTTT"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 9,
-        "name": "Activepieces",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/activepieces/#app",
-          "url": "https://martechsignal.com/tools/activepieces/",
-          "name": "Activepieces"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 10,
-        "name": "Workato",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/workato/#app",
-          "url": "https://martechsignal.com/tools/workato/",
-          "name": "Workato"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://martechsignal.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Alternatives guides",
-        "item": "https://martechsignal.com/alternatives/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Zapier alternatives",
-        "item": "https://martechsignal.com/alternatives/zapier/"
-      }
-    ],
-    "@id": "https://martechsignal.com/alternatives/zapier/#breadcrumb"
-  }
-]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/alternatives/zapier/", "breadcrumb": {"@id": "https://martechsignal.com/alternatives/zapier/#breadcrumb"}, "dateModified": "2026-09-28"}
-```
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
-```

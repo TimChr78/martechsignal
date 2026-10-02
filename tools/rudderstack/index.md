@@ -1079,7 +1079,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 RudderStack: Warehouse-first CDP: open-source Go data plane plus managed routing. The public repository carries 4,494 stars. RudderStack offers a public API for custom integrations.
 
 **How much does RudderStack cost?**
-RudderStack has a free tier; paid plans start at $265/mo. Free forever: 250K events/mo, 16 SDK sources, 200+ cloud destinations, warehouse destinations, reverse ETL. Growth from $265/mo (1M events, unlimited team members, 25 reverse-ETL connections, 30-min warehouse sync). Enterprise custom. Open-source data plane self-hostable (checked 2026-10-01). We last checked both ends of that split on 2026-10-01. The pricing section above shows what the free tier actually covers."
+RudderStack has a free tier; paid plans start at $265/mo. Free forever: 250K events/mo, 16 SDK sources, 200+ cloud destinations, warehouse destinations, reverse ETL. Growth from $265/mo (1M events, unlimited team members, 25 reverse-ETL connections, 30-min warehouse sync). Enterprise custom. Open-source data plane self-hostable (checked 2026-10-01). We last checked both ends of that split on 2026-10-01. The pricing section above shows what the free tier actually covers.
 
 **Is RudderStack a good self-hosted Personalization & CDP tool in 2026?**
 Best open-core CDP for teams that self-host the data plane: free 250K events/mo, Growth $265/mo, warehouse-native from the start.
@@ -1117,132 +1117,6 @@ One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
-**Verdict:** RudderStack is a tool in Personalization & CDP with free and open source. The catalog documents 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-01. This is a desk review, not a hands-on test. Desk-reviewed
-
-Tealium
-
-Enterprise customer data platform with real-time data orchestration and AI
-
-Twilio Segment
-
-Customer data platform for collecting, unifying, and activating customer data
-
-Jitsu
-
-Open-source Segment alternative for event capture and warehouse-first data pipelines
-
-GrowthBook
-
-Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
-
 [More Personalization & CDP Tools →](/categories/personalization/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-
-```json
-[
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "@id": "https://martechsignal.com/tools/rudderstack/#app",
-    "name": "RudderStack",
-    "description": "Warehouse-first CDP: open-source Go data plane plus managed routing",
-    "image": "https://martechsignal.com/og/tools/rudderstack.png",
-    "url": "https://martechsignal.com/tools/rudderstack/",
-    "sameAs": [
-      "https://www.rudderstack.com/"
-    ],
-    "mainEntityOfPage": "https://martechsignal.com/tools/rudderstack/",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web",
-    "dateModified": "2026-10-02",
-    "datePublished": "2026-10-01",
-    "offers": [
-      {
-        "@type": "Offer",
-        "price": 0,
-        "priceCurrency": "USD",
-        "url": "https://www.rudderstack.com/pricing/",
-        "priceValidUntil": "2026-12-30"
-      },
-      {
-        "@type": "Offer",
-        "price": 265,
-        "priceCurrency": "USD",
-        "url": "https://www.rudderstack.com/pricing/",
-        "priceValidUntil": "2026-12-30"
-      }
-    ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://martechsignal.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Tools",
-        "item": "https://martechsignal.com/tools/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Personalization & CDP",
-        "item": "https://martechsignal.com/categories/personalization/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "RudderStack",
-        "item": "https://martechsignal.com/tools/rudderstack/"
-      }
-    ],
-    "@id": "https://martechsignal.com/tools/rudderstack/#breadcrumb"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is RudderStack?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "RudderStack: Warehouse-first CDP: open-source Go data plane plus managed routing. The public repository carries 4,494 stars. RudderStack offers a public API for custom integrations."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How much does RudderStack cost?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "RudderStack has a free tier; paid plans start at $265/mo. Free forever: 250K events/mo, 16 SDK sources, 200+ cloud destinations, warehouse destinations, reverse ETL. Growth from $265/mo (1M events, unlimited team members, 25 reverse-ETL connections, 30-min warehouse sync). Enterprise custom. Open-source data plane self-hostable (checked 2026-10-01). We last checked both ends of that split on 2026-10-01. The pricing section above shows what the free tier actually covers.\""
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is RudderStack a good self-hosted Personalization & CDP tool in 2026?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Best open-core CDP for teams that self-host the data plane: free 250K events/mo, Growth $265/mo, warehouse-native from the start."
-        }
-      }
-    ]
-  }
-]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/rudderstack/", "breadcrumb": {"@id": "https://martechsignal.com/tools/rudderstack/#breadcrumb"}, "dateModified": "2026-10-02"}
-```
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
-```

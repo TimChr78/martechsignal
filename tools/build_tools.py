@@ -1668,12 +1668,12 @@ def build_tool_page(t, cats, all_tools, base="tools"):
                 a2 = (f"{name} has a free tier; paid plans start at {_money(t['paid_from'], t)}. "
                     + (_pn[0].upper() + _pn[1:] + ". " if _pn else "")
                     + f"We last checked both ends of that split on {_vd}. The pricing section "
-                    + "above shows what the free tier actually covers.\"")
+                    + "above shows what the free tier actually covers.")
             else:
                 a2 = (f"{name} is paid software; plans start at {_money(t['paid_from'], t)}. "
                     + (_pn[0].upper() + _pn[1:] + ". " if _pn else "")
                     + f"We last checked that price on {_vd}. The pricing section above lists "
-                    + "every plan we can verify, including annual-billing differences where the vendor publishes them.\"")
+                    + "every plan we can verify, including annual-billing differences where the vendor publishes them.")
         elif t.get("open_source"):
             # R2 L-1 (2026-09-08): source-available tools (alphone: Elastic 2.0) must not
             # be called open source here - the license sidebar says otherwise.

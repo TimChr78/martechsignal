@@ -123,12 +123,3 @@ Our Claude SEO review carried review-structured data for our own product. We rem
 2026-09-16
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
-
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@context": "https://schema.org", "@type": "WebPage", "publisher": {"@id": "https://martechsignal.com/#organization"}, "isPartOf": {"@id": "https://martechsignal.com/#website"}, "name": "Corrections", "url": "https://martechsignal.com/corrections/", "description": "Public corrections log for martechsignal.com.", "@id": "https://martechsignal.com/corrections/#webpage", "dateModified": "2026-09-30"}, {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/"}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}, {"@type": "ListItem", "position": 2, "name": "Corrections", "item": "https://martechsignal.com/corrections/"}]}
-```

@@ -103,12 +103,16 @@ def html_to_md(html: str) -> str:
                 out += ["> " + text, ""]
             else:
                 out += [text, ""]
+    # r22 H-2 (2026-10-02): the innermost-div pass re-emitted tool-card
+    # name+tagline pairs that the card pass already rendered as bullets
+    # (glossary definitions duplicated flat under the last letter heading).
+    # Skip content covered by an emitted card.
     for lv in re.finditer(r"<(div|section|header|footer|aside)[^>]*>((?:(?!<)[^<]|<(?:/?(?:strong|b|em|i|code|span|br|a|sup|sub|svg|path)\b[^>]*>))*?)</\1>", src, flags=re.S):
+        if lv.start() < _covered_until:
+            continue
         t2 = inline(lv.group(2))
         if t2:
             out += [t2, ""]
-    for jl in re.finditer(r'<script type="application/ld[+]json">(.*?)</script>', html, flags=re.S):
-        out += ["", "```json", jl.group(1).strip(), "```"]
     return "\n".join(out).strip() + "\n"
 
 def main():

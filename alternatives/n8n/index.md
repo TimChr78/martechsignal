@@ -17,18 +17,18 @@ Last verified 2026-09-28.
 
 | Tool | Price | Billing model | Self-host | Best for |
 | --- | --- | --- | --- | --- |
-| [Make](/tools/make/) | Freemium from $9/mo | Contract | No | Visual builders who want scenario-level control and cheaper runs at moderate volume. |
-| [Zapier](/tools/zapier/) | Freemium from $19.99/mo | Task tiers, billed yearly | No | Teams that want the largest app catalog and the least setup per workflow. |
-| [Pipedream](/tools/pipedream/) | Freemium from $29/mo | Credits, monthly | No | Developers who want real code inside steps and a generous free tier to start. |
-| [Tray.io](/tools/tray-io/) | Enterprise | Contract, usage-based | No | Enterprises that want one iPaaS for marketing, RevOps, and IT with pro-code escape hatches. |
-| [Workato](/tools/workato/) | Enterprise | Contract, usage-based | No | Large orgs standardizing automation across departments with governance and AI add-ons. |
-| [Activepieces](/tools/activepieces/) | Freemium from $20/mo | Contract | Yes | Teams that want no-code automation with an open-source (MIT) core and affordable cloud plans. |
-| [Pabbly Connect](/tools/pabbly-connect/) | From $16/mo | Task tiers, yearly or one-time | No | Cost-sensitive teams running high-volume marketing workflows with simple shapes. |
-| [Microsoft Power Automate](/tools/power-automate/) | From $15/mo | Per bot, billed yearly | No | Microsoft-centric orgs that want automation next to the Office and Dynamics data. |
-| [IFTTT](/tools/ifttt/) | Freemium from $2.99/mo | Monthly plans, billed yearly | No | Solo operators and simple cross-app triggers at consumer pricing. |
-| [Budibase](/tools/budibase/) | Free tier | Monthly plans, billed yearly | Yes | Internal tools with workflows attached: CRUD apps your team can actually run. |
-| [ToolJet](/tools/tooljet/) | Free tier | Credits, billed yearly | Yes | Internal-tool builders who want AI-assisted app generation on their own data. |
-| [Appsmith](/tools/appsmith/) | Free tier | Monthly plans, monthly | Yes | Admin panels and internal dashboards over your databases and APIs. |
+| [Make](/tools/make/) | Freemium from $9/mo | Freemium, self-serve tiers | No | Visual builders who want scenario-level control and cheaper runs at moderate volume. |
+| [Zapier](/tools/zapier/) | Freemium from $19.99/mo | Freemium, self-serve tiers | No | Teams that want the largest app catalog and the least setup per workflow. |
+| [Pipedream](/tools/pipedream/) | Freemium from $29/mo | Freemium, self-serve tiers | No | Developers who want real code inside steps and a generous free tier to start. |
+| [Tray.io](/tools/tray-io/) | Enterprise | Contract | No | Enterprises that want one iPaaS for marketing, RevOps, and IT with pro-code escape hatches. |
+| [Workato](/tools/workato/) | Enterprise | Contract | No | Large orgs standardizing automation across departments with governance and AI add-ons. |
+| [Activepieces](/tools/activepieces/) | Freemium from $20/mo | Freemium, self-serve tiers | Yes | Teams that want no-code automation with an open-source (MIT) core and affordable cloud plans. |
+| [Pabbly Connect](/tools/pabbly-connect/) | From $16/mo | See vendor | No | Cost-sensitive teams running high-volume marketing workflows with simple shapes. |
+| [Microsoft Power Automate](/tools/power-automate/) | From $15/mo | See vendor | No | Microsoft-centric orgs that want automation next to the Office and Dynamics data. |
+| [IFTTT](/tools/ifttt/) | Freemium from $2.99/mo | Freemium, self-serve tiers | No | Solo operators and simple cross-app triggers at consumer pricing. |
+| [Budibase](/tools/budibase/) | Free tier | See vendor | Yes | Internal tools with workflows attached: CRUD apps your team can actually run. |
+| [ToolJet](/tools/tooljet/) | Free tier | See vendor | Yes | Internal-tool builders who want AI-assisted app generation on their own data. |
+| [Appsmith](/tools/appsmith/) | Free tier | See vendor | Yes | Admin panels and internal dashboards over your databases and APIs. |
 
 ## [Make as a n8n alternative](/tools/make/)
 
@@ -191,196 +191,3 @@ Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automati
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
-
-
-```json
-[
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Best n8n alternatives (2026)",
-    "datePublished": "2026-09-28",
-    "dateModified": "2026-09-28",
-    "author": {
-      "@type": "Person",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/"
-    },
-    "publisher": {
-      "@id": "https://martechsignal.com/#organization"
-    },
-    "isPartOf": {
-      "@id": "https://martechsignal.com/#website"
-    },
-    "numberOfItems": 12,
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Make",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/make/#app",
-          "url": "https://martechsignal.com/tools/make/",
-          "name": "Make"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Zapier",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/zapier/#app",
-          "url": "https://martechsignal.com/tools/zapier/",
-          "name": "Zapier"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Pipedream",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/pipedream/#app",
-          "url": "https://martechsignal.com/tools/pipedream/",
-          "name": "Pipedream"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Tray.io",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/tray-io/#app",
-          "url": "https://martechsignal.com/tools/tray-io/",
-          "name": "Tray.io"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "name": "Workato",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/workato/#app",
-          "url": "https://martechsignal.com/tools/workato/",
-          "name": "Workato"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
-        "name": "Activepieces",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/activepieces/#app",
-          "url": "https://martechsignal.com/tools/activepieces/",
-          "name": "Activepieces"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 7,
-        "name": "Pabbly Connect",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/pabbly-connect/#app",
-          "url": "https://martechsignal.com/tools/pabbly-connect/",
-          "name": "Pabbly Connect"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 8,
-        "name": "Microsoft Power Automate",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/power-automate/#app",
-          "url": "https://martechsignal.com/tools/power-automate/",
-          "name": "Microsoft Power Automate"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 9,
-        "name": "IFTTT",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/ifttt/#app",
-          "url": "https://martechsignal.com/tools/ifttt/",
-          "name": "IFTTT"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 10,
-        "name": "Budibase",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/budibase/#app",
-          "url": "https://martechsignal.com/tools/budibase/",
-          "name": "Budibase"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 11,
-        "name": "ToolJet",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/tooljet/#app",
-          "url": "https://martechsignal.com/tools/tooljet/",
-          "name": "ToolJet"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 12,
-        "name": "Appsmith",
-        "item": {
-          "@type": "SoftwareApplication",
-          "@id": "https://martechsignal.com/tools/appsmith/#app",
-          "url": "https://martechsignal.com/tools/appsmith/",
-          "name": "Appsmith"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://martechsignal.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Alternatives guides",
-        "item": "https://martechsignal.com/alternatives/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "n8n alternatives",
-        "item": "https://martechsignal.com/alternatives/n8n/"
-      }
-    ],
-    "@id": "https://martechsignal.com/alternatives/n8n/#breadcrumb"
-  }
-]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/alternatives/n8n/", "breadcrumb": {"@id": "https://martechsignal.com/alternatives/n8n/#breadcrumb"}, "dateModified": "2026-09-28"}
-```
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
-```

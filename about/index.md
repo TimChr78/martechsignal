@@ -45,16 +45,3 @@ Analysis posts are opinionated by design, but claims are grounded in what the to
 Corrections, tips, and tool suggestions: reach Tim through the site or on [LinkedIn](https://www.linkedin.com/in/tchristensen78).
 
 © 2026 MartechSignal · by Tim Christensen
-
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "worksFor": {"@id": "https://martechsignal.com/#organization"}}, {"@type": "AboutPage", "name": "About MartechSignal", "url": "https://martechsignal.com/about/", "mainEntity": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "founder": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}}]}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/about/", "dateModified": "2026-09-29"}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}, {"@type": "ListItem", "position": 2, "name": "About", "item": "https://martechsignal.com/about/"}]}
-```

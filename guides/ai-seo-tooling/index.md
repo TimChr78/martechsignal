@@ -69,20 +69,3 @@ Tools drift, prices change quietly, and the crawler that was sharp in January ro
 Sources: [Semrush](https://www.semrush.com/) · [Semrush pricing](https://www.semrush.com/pricing/) · [Claude SEO](https://claude-seo.md/)
 
 © 2026 MartechSignal · by Tim Christensen
-
-
-```json
-{"@context": "https://schema.org", "@type": "Article", "headline": "AI SEO tooling: benchmarks, comparisons, and the honest limits", "url": "https://martechsignal.com/guides/ai-seo-tooling/", "dateModified": "2026-09-28", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/ai-seo-tooling.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/ai-seo-tooling/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/ai-seo-tooling/"}}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://martechsignal.com/guides/"}, {"@type": "ListItem", "position": 3, "name": "AI SEO tooling", "item": "https://martechsignal.com/guides/ai-seo-tooling/"}]}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://martechsignal.com/#website", "url": "https://martechsignal.com/", "name": "MartechSignal"}
-```
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
-```

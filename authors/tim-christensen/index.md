@@ -49,37 +49,3 @@ I do martech product ownership for an employer this site will never name. Naming
 Bylined on [45 posts](/blog/) so far, and every tool page in the directory carries the verification date behind its numbers. The research rules are public on the [methodology](/methodology/) page, including the source-claim rule.
 
 [TOOLS](/tools/) [BLOG](/blog/) [GLOSSARY](/glossary/) [CHECKLIST](/checklist/) [ABOUT](/about/)
-
-
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "ProfilePage",
-  "mainEntity": {
-    "@type": "Person",
-      "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.",
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
-    "name": "Tim Christensen",
-    "url": "https://martechsignal.com/authors/tim-christensen/",
-    "jobTitle": "Martech Product Owner",
-  "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"],
-  "worksFor": {"@id": "https://martechsignal.com/#organization"},
-    "sameAs": [
-      "https://www.linkedin.com/in/tchristensen78",
-      "https://github.com/timchr78"
-    ]
-  }
-}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}, {"@type": "ListItem", "position": 2, "name": "Authors", "item": "https://martechsignal.com/authors/"}, {"@type": "ListItem", "position": 3, "name": "Tim Christensen", "item": "https://martechsignal.com/authors/tim-christensen/"}]}
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/authors/tim-christensen/", "dateModified": "2026-10-02"}
-```
-
-```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}]}
-```
