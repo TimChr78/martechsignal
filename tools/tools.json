@@ -22,7 +22,7 @@
    "Cursor"
   ],
   "github_repo": "aaron-he-zhu/aaron-marketing-skills",
-  "github_stars": 2856,
+  "github_stars": 2858,
   "open_source": true,
   "api_available": true,
   "founded": 2025,
@@ -40,7 +40,7 @@
   },
   "license": "Apache-2.0",
   "github_forks": 367,
-  "github_checked": "2026-10-02",
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -214,7 +214,7 @@
    "VS Code"
   ],
   "github_repo": "minhnv0807/ai-business-skills",
-  "github_stars": 598,
+  "github_stars": 599,
   "open_source": true,
   "api_available": false,
   "founded": 2025,
@@ -231,8 +231,8 @@
    "verdict": "The strongest free skill pack for Vietnamese-market marketing teams. Global agencies will find it useful mainly as a starting point."
   },
   "license": "MIT",
-  "github_forks": 230,
-  "github_checked": "2026-10-02",
+  "github_forks": 229,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -291,7 +291,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "gopherium/AlphOne",
-  "github_stars": 190,
+  "github_stars": 198,
   "open_source": true,
   "api_available": true,
   "description": "AlphOne is a plugin-first CRM with a Go backend exposing both GraphQL and REST APIs, a React single-page frontend, and a design that treats automation as an external concern: there is no built-in rules engine, because everything the UI does is available over HTTP with a token. Features ship as plugins with their own repositories; the current in-repo set covers fields, an importer, and a WhatsApp Cloud API channel that lands customer conversations in a shared inbox attached to the right contact. For marketing ops the notable part is how deliberately the project meets agents where they already work: it speaks MCP (Model Context Protocol) natively, so any MCP client can ask about today's tasks or waiting contacts, and there is a community n8n node (n8n-nodes-alphone) with documented end-to-end workflows, such as an inbound WhatsApp message creating a write-back task on the right contact. The same API-first logic works with Activepieces, Windmill, Node-RED, or a cron job with curl. Licensing needs a look before you commit: the Go backend and SQL migrations carry the Elastic License 2.0, which forbids offering AlphOne to third parties as a hosted service, while the frontend, tests, and docs are AGPLv3. That split is workable for a company extending a self-hosted CRM in Go, and rules out SaaS vendors reselling hosted CRM. At under two hundred stars the community is early-stage, but the repo ships with code coverage, sqlc, GraphQL codegen, and an active commit log. Evaluate it as an API-first foundation for an n8n- or agent-driven stack, not a finished SuiteCRM replacement.",
@@ -314,8 +314,8 @@
   },
   "seo_description": "AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. Open source & free to self-host.",
   "license": "Elastic License 2.0",
-  "github_forks": 46,
-  "github_checked": "2026-10-02",
+  "github_forks": 49,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -351,8 +351,8 @@
    ],
    "verdict": "A capable self-hosted content engine for technical marketers. Everyone else gets better results from maintained hosted tools."
   },
-  "github_forks": 330,
-  "github_checked": "2026-10-01",
+  "github_forks": 329,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -561,7 +561,7 @@
    "REST / GraphQL"
   ],
   "github_repo": "appsmithorg/appsmith",
-  "github_stars": 40984,
+  "github_stars": 40992,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -606,8 +606,8 @@
   "license": "Apache-2.0",
   "paid_from": 15,
   "currency": "USD",
-  "github_forks": 4787,
-  "github_checked": "2026-10-02"
+  "github_forks": 4785,
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "attio",
@@ -763,7 +763,7 @@
    "Send API (single and batch)"
   ],
   "github_repo": "Billionmail/BillionMail",
-  "github_stars": 15815,
+  "github_stars": 15820,
   "last_release": "v4.9 (2025-12-11)",
   "open_source": true,
   "api_available": true,
@@ -811,7 +811,7 @@
   "paid_from": 98.9,
   "currency": "USD",
   "github_forks": 1735,
-  "github_checked": "2026-10-02"
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "bloomreach",
@@ -977,7 +977,7 @@
    "REST API"
   ],
   "github_repo": "budibase/budibase",
-  "github_stars": 28328,
+  "github_stars": 28331,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -1021,8 +1021,8 @@
   },
   "paid_from": 19,
   "currency": "USD",
-  "github_forks": 2227,
-  "github_checked": "2026-10-02"
+  "github_forks": 2225,
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "buffer",
@@ -1084,7 +1084,7 @@
   ],
   "integrations": [],
   "github_repo": "ChatbotXIO/ChatbotX",
-  "github_stars": 857,
+  "github_stars": 862,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -1100,7 +1100,7 @@
    "verdict": "Right for technical teams that want ManyChat-style automation without lock-in. Everyone else should stay hosted."
   },
   "github_forks": 246,
-  "github_checked": "2026-10-02",
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -1174,7 +1174,7 @@
    "LeadSquared"
   ],
   "github_repo": "chatwoot/chatwoot",
-  "github_stars": 37422,
+  "github_stars": 37448,
   "open_source": true,
   "api_available": true,
   "founded": 2019,
@@ -1219,8 +1219,8 @@
    ]
   },
   "paid_from": 19,
-  "github_forks": 9103,
-  "github_checked": "2026-10-02",
+  "github_forks": 9107,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -1254,7 +1254,7 @@
    "Pinterest Ads"
   ],
   "github_repo": "AgriciDaniel/claude-ads",
-  "github_stars": 9670,
+  "github_stars": 9683,
   "open_source": true,
   "api_available": true,
   "founded": 2025,
@@ -1271,8 +1271,8 @@
    "verdict": "Niche but interesting for technical teams that want model-drafted ad copy inside their Git workflow."
   },
   "license": "MIT",
-  "github_forks": 1436,
-  "github_checked": "2026-10-02",
+  "github_forks": 1434,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -1299,7 +1299,7 @@
    "Lighthouse"
   ],
   "github_repo": "AgriciDaniel/claude-seo",
-  "github_stars": 18136,
+  "github_stars": 18188,
   "open_source": true,
   "api_available": true,
   "founded": "2026",
@@ -1449,8 +1449,8 @@
    "hands_on_verified": true
   },
   "license": "MIT",
-  "github_forks": 2665,
-  "github_checked": "2026-10-02",
+  "github_forks": 2671,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -1565,7 +1565,7 @@
    "Gemini"
   ],
   "github_repo": "AgriciDaniel/codex-seo",
-  "github_stars": 772,
+  "github_stars": 776,
   "open_source": false,
   "api_available": true,
   "founded": 2025,
@@ -1583,7 +1583,7 @@
   },
   "license": "proprietary",
   "github_forks": 111,
-  "github_checked": "2026-10-02",
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -1701,7 +1701,7 @@
    "Docker"
   ],
   "github_repo": "1Panel-dev/CordysCRM",
-  "github_stars": 2758,
+  "github_stars": 2757,
   "open_source": true,
   "api_available": true,
   "founded": 2025,
@@ -1745,8 +1745,8 @@
    ]
   },
   "license": "GPL-3.0",
-  "github_forks": 571,
-  "github_checked": "2026-10-01",
+  "github_forks": 570,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -1854,7 +1854,7 @@
    "MCP"
   ],
   "github_repo": "melgarafael/DeskcommCRM",
-  "github_stars": 4350,
+  "github_stars": 4381,
   "open_source": true,
   "api_available": true,
   "hq": "Brazil",
@@ -1863,8 +1863,8 @@
   "date_updated": "2026-09-14",
   "description": "DeskcommCRM is a Brazilian open-source project that packages a WhatsApp sales CRM with AI agents that answer customers, qualify leads, and move deals through a funnel. It is MIT licensed, self-hosted, and pitched as the open alternative to Kommo, Octadesk, and Intercom for businesses that sell by chat. It started as an ecommerce CRM and the community dragged it into clinics, real estate, infoproducts, and agencies; funnel vocabulary is configurable per pipeline, so a lead can become a \"patient\" or a \"buyer\" without forking the code.\n\nThe AI work is more built-out than most repos at this star count. Agents retrieve from a per-tenant knowledge base (RAG on Postgres pgvector), so answers come from your catalog and policies instead of model imagination. Every outbound message passes seven checks before sending: unsubscribe status, LGPD rules, anti-ban throttling, text variation, deterministic and semantic promise detection, and an automation disclosure. When the agent is about to promise a 24-hour delivery you do not offer, the check blocks it and logs what it would have said. Handoff to a human comes with a summary of the conversation rather than the raw transcript. Resolved conversations feed back into the knowledge base, and the system proposes prompt improvements to itself that a human has to approve. The whole CRM is exposed over MCP, so external agents can operate it too. You pick the AI provider at install (OpenRouter, Anthropic, OpenAI, or Google) and can swap it per subsystem later, with a spending cap per organization.\n\nPricing is the easy part: there is none. The full product is free under MIT, with no paid tier and no locked features, and agencies may host it for clients and charge for that. What you pay for is infrastructure: a VPS (4 GB RAM recommended; the stack boots on 2 GB but runs tight at 7 containers, and each WhatsApp session costs around 150 MB), a Supabase project for Postgres, auth, and storage, plus your own AI API keys. Installation is one script that generates secrets, applies the schema, and sets up the cron jobs the automations depend on, and updates back up the database first and roll back automatically if the new version comes up broken. The update path is tested in CI, which is more than most commercial vendors can say.\n\nThe closest comparison in this directory is WaCRM, another self-hosted Supabase-based WhatsApp CRM at a similar star count. WaCRM builds only on the official Meta Cloud API and calls itself a template; DeskcommCRM supports both the official API and QR-code connection through WAHA (faster to start, multi-number, with anti-ban throttling), and adds automation rules, RBAC, multi-tenancy with RLS isolation tests, and LGPD tooling. Against hosted players like ManyChat or Chatfuel the trade is the familiar one: you own the data and skip per-contact pricing, but you run the server. It is sales-first, unlike Chatwoot, which is support-first.\n\nTwo cautions. Documentation and community are Brazilian-Portuguese first (English and Spanish READMEs exist, but the depth is in Portuguese), and the project leans heavily on one maintainer. The QR-code WhatsApp connection is also unofficial, which is great for getting started and a ban risk the official Meta channel does not carry. If you want a polished SaaS or your team cannot operate Docker, stay with Kommo or ManyChat. If you sell through WhatsApp and want the whole operation on your own server, this is the most complete open option right now.",
   "license": "MIT",
-  "github_forks": 1116,
-  "github_checked": "2026-10-02",
+  "github_forks": 1128,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -1928,7 +1928,7 @@
    "Sentry (optional)"
   ],
   "github_repo": "Django-CRM/Django-CRM",
-  "github_stars": 2436,
+  "github_stars": 2437,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -1971,7 +1971,7 @@
   "seo_description": "Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. Free to self-host; no licence fee.",
   "license": "MIT",
   "github_forks": 1052,
-  "github_checked": "2026-10-01",
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -2001,7 +2001,7 @@
    "Dolistore (1,000+ addons)"
   ],
   "github_repo": "Dolibarr/dolibarr",
-  "github_stars": 7678,
+  "github_stars": 7679,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -2043,8 +2043,8 @@
    ]
   },
   "license": "GPL-3.0",
-  "github_forks": 3547,
-  "github_checked": "2026-10-02",
+  "github_forks": 3548,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -2240,7 +2240,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "espocrm/espocrm",
-  "github_stars": 3432,
+  "github_stars": 3433,
   "last_release": "10.0.7 (2026-09-03)",
   "open_source": true,
   "api_available": true,
@@ -2288,7 +2288,7 @@
   "license": "AGPL-3.0",
   "paid_from": 12.9,
   "github_forks": 987,
-  "github_checked": "2026-10-02"
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "eve-marketing-team",
@@ -2333,8 +2333,8 @@
   },
   "license": "MIT",
   "kind": "Utility",
-  "github_forks": 27,
-  "github_checked": "2026-10-02",
+  "github_forks": 26,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -2349,7 +2349,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "ever-co/ever-gauzy",
-  "github_stars": 8153,
+  "github_stars": 8160,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -2392,8 +2392,8 @@
   },
   "paid_from": 17,
   "license": "AGPL-3.0",
-  "github_forks": 1198,
-  "github_checked": "2026-10-02",
+  "github_forks": 1196,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -2414,7 +2414,7 @@
    "Meta Lead Ads"
   ],
   "github_repo": "frappe/crm",
-  "github_stars": 3692,
+  "github_stars": 3700,
   "open_source": true,
   "api_available": false,
   "status": "active",
@@ -2461,8 +2461,8 @@
   },
   "paid_from": 5,
   "license": "AGPL-3.0",
-  "github_forks": 1492,
-  "github_checked": "2026-10-02",
+  "github_forks": 1494,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -2630,7 +2630,7 @@
    "Unsplash"
   ],
   "github_repo": "TryGhost/Ghost",
-  "github_stars": 55475,
+  "github_stars": 55474,
   "open_source": true,
   "api_available": true,
   "founded": 2013,
@@ -2649,8 +2649,8 @@
   },
   "paid_from": 9,
   "license": "MIT",
-  "github_forks": 11988,
-  "github_checked": "2026-10-02",
+  "github_forks": 11983,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -2684,7 +2684,7 @@
    "Gemini CLI"
   ],
   "github_repo": "irinabuht12-oss/google-meta-ads-ga4-mcp",
-  "github_stars": 3243,
+  "github_stars": 3391,
   "open_source": true,
   "api_available": true,
   "founded": 2026,
@@ -2721,7 +2721,7 @@
   "license": "MIT",
   "kind": "Utility",
   "github_forks": 365,
-  "github_checked": "2026-10-02",
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -3022,7 +3022,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "idurar/idurar-erp-crm",
-  "github_stars": 8842,
+  "github_stars": 8843,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -3069,7 +3069,7 @@
   "paid_from": 5000,
   "currency": "USD",
   "github_forks": 3142,
-  "github_checked": "2026-10-02",
+  "github_checked": "2026-10-03",
   "billing": "one-time"
  },
  {
@@ -3247,7 +3247,7 @@
   ],
   "integrations": [],
   "github_repo": "krayin/laravel-crm",
-  "github_stars": 23964,
+  "github_stars": 23962,
   "last_release": "v2.2.5 (2026-08-04)",
   "open_source": true,
   "api_available": true,
@@ -3292,8 +3292,8 @@
   "license": "MIT",
   "paid_from": 1799,
   "currency": "USD",
-  "github_forks": 1648,
-  "github_checked": "2026-10-02",
+  "github_forks": 1649,
+  "github_checked": "2026-10-03",
   "billing": "one-time"
  },
  {
@@ -3327,7 +3327,7 @@
    "GitHub"
   ],
   "github_repo": "langchain-ai/langchain",
-  "github_stars": 147371,
+  "github_stars": 147391,
   "open_source": true,
   "api_available": true,
   "founded": 2022,
@@ -3345,8 +3345,8 @@
   },
   "paid_from": 39,
   "license": "MIT",
-  "github_forks": 24679,
-  "github_checked": "2026-10-02",
+  "github_forks": 24686,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -3411,7 +3411,7 @@
    "Cloudflare Workers/D1/Pages"
   ],
   "github_repo": "Shudesu/line-harness-oss",
-  "github_stars": 596,
+  "github_stars": 597,
   "open_source": true,
   "api_available": true,
   "founded": 2026,
@@ -3448,7 +3448,7 @@
   "seo_description": "L Harness, Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Free to self-host; no licence fee.",
   "license": "MIT",
   "github_forks": 399,
-  "github_checked": "2026-10-01",
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -3472,7 +3472,7 @@
    "WordPress"
   ],
   "github_repo": "knadh/listmonk",
-  "github_stars": 23652,
+  "github_stars": 23665,
   "open_source": true,
   "api_available": true,
   "founded": 2019,
@@ -3490,8 +3490,8 @@
    "verdict": "The strongest self-hosted mailing platform in this catalog; bring your own forms and workflows."
   },
   "license": "AGPL-3.0",
-  "github_forks": 2639,
-  "github_checked": "2026-10-02",
+  "github_forks": 2642,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -3591,7 +3591,7 @@
    "MCP"
   ],
   "github_repo": "macro-inc/macro",
-  "github_stars": 4515,
+  "github_stars": 4528,
   "open_source": true,
   "api_available": true,
   "founded": 2020,
@@ -3637,8 +3637,8 @@
   "last_release": "v2026.9.7.0 (2026-09-07)",
   "paid_from": 40,
   "license": "AGPL-3.0",
-  "github_forks": 436,
-  "github_checked": "2026-10-02",
+  "github_forks": 437,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -3752,7 +3752,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "maizzle/maizzle",
-  "github_stars": 2862,
+  "github_stars": 2863,
   "open_source": true,
   "api_available": false,
   "status": "active",
@@ -3794,7 +3794,7 @@
    ]
   },
   "github_forks": 71,
-  "github_checked": "2026-10-02",
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -3919,7 +3919,7 @@
    "Blender"
   ],
   "github_repo": "ucsandman/marketing-studio",
-  "github_stars": 248,
+  "github_stars": 249,
   "open_source": true,
   "api_available": false,
   "description": "Marketing Studio is an agent-driven asset pipeline for Claude Code: you run /marketing in your product's repository, and the agent onboards your brand, captures your app with Playwright, and renders a launch asset suite through a chain of skills. One run produces a logo reveal (Blender plus Remotion), a product demo with camera moves, a 30 to 90 second launch video, a scored voiceover and music track via ElevenLabs, per-platform social clips for X, LinkedIn, and TikTok, plus OG images and README GIFs. The pipeline is deliberately ordered so cheap compositions render first and brand-token bugs surface before expensive assets, and a manifest lets a dead session resume instead of restarting. Around the render chain sit a derived content brief (the agent reads your README, routes, and landing page into a validated brief.json), a copy linter that blocks em dashes and hype vocabulary before render, per-brand film grade and motion tokens, and an export matrix. With a few hundred stars it is one of the more complete demonstrations of agentic creative production, and the honest framing is that it renders marketing assets from your repo, not strategy from thin air.",
@@ -3936,8 +3936,8 @@
    "verdict": "The most complete open-source take on agent-produced launch assets, with a real pipeline architecture behind the demo. Worth adopting if you already work in Claude Code and need repeatable launch creative; expect to invest in brand tokens and review passes before output is publishable."
   },
   "license": "MIT",
-  "github_forks": 33,
-  "github_checked": "2026-09-29",
+  "github_forks": 34,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -4033,7 +4033,7 @@
    "Cookiebot"
   ],
   "github_repo": "matomo-org/matomo",
-  "github_stars": 21919,
+  "github_stars": 21920,
   "open_source": true,
   "api_available": true,
   "founded": 2007,
@@ -4084,7 +4084,7 @@
   "license": "GPL-3.0",
   "paid_from": 22,
   "github_forks": 2903,
-  "github_checked": "2026-10-02"
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "mautic",
@@ -4110,7 +4110,7 @@
    "Zapier"
   ],
   "github_repo": "mautic/mautic",
-  "github_stars": 10664,
+  "github_stars": 10683,
   "open_source": true,
   "api_available": true,
   "founded": 2014,
@@ -4156,8 +4156,8 @@
   "currency": "EUR",
   "license": "GPL-3.0",
   "paid_from": 247.5,
-  "github_forks": 3490,
-  "github_checked": "2026-10-02"
+  "github_forks": 3491,
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "mixpanel",
@@ -4255,7 +4255,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "monicahq/monica",
-  "github_stars": 25391,
+  "github_stars": 25407,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -4317,8 +4317,8 @@
   "license": "AGPL-3.0",
   "paid_from": 9,
   "currency": "USD",
-  "github_forks": 2612,
-  "github_checked": "2026-10-02"
+  "github_forks": 2611,
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "multipost-extension",
@@ -4335,7 +4335,7 @@
   ],
   "integrations": [],
   "github_repo": "leaperone/MultiPost-Extension",
-  "github_stars": 3557,
+  "github_stars": 3552,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -4351,8 +4351,8 @@
    "verdict": "Excellent lightweight cross-poster for individual creators; agencies need more machinery."
   },
   "license": "Apache-2.0",
-  "github_forks": 415,
-  "github_checked": "2026-10-01",
+  "github_forks": 413,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -4383,7 +4383,7 @@
    "HubSpot"
   ],
   "github_repo": "n8n-io/n8n",
-  "github_stars": 206478,
+  "github_stars": 206531,
   "open_source": true,
   "api_available": true,
   "founded": 2019,
@@ -4410,8 +4410,8 @@
   "paid_from": 20,
   "date_verified": "2026-09-27",
   "currency": "EUR",
-  "github_forks": 60975,
-  "github_checked": "2026-10-02"
+  "github_forks": 60976,
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "n8n-marketing-flows",
@@ -4479,7 +4479,7 @@
    "Webhooks"
   ],
   "github_repo": "nocobase/nocobase",
-  "github_stars": 24430,
+  "github_stars": 24439,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -4513,8 +4513,8 @@
     ]
    ]
   },
-  "github_forks": 2900,
-  "github_checked": "2026-10-02",
+  "github_forks": 2903,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -4543,7 +4543,7 @@
    "AWS SES / SMTP / MailerSend (paid App Store)"
   ],
   "github_repo": "nocodb/nocodb",
-  "github_stars": 65151,
+  "github_stars": 65165,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -4588,7 +4588,7 @@
   "paid_from": 12,
   "currency": "USD",
   "github_forks": 5079,
-  "github_checked": "2026-10-02"
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "northbeam",
@@ -4828,8 +4828,8 @@
   },
   "paid_from": 19,
   "license": "AGPL-3.0",
-  "github_forks": 234,
-  "github_checked": "2026-10-02",
+  "github_forks": 233,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -4848,7 +4848,7 @@
   ],
   "integrations": [],
   "github_repo": "open-mercato/open-mercato",
-  "github_stars": 1792,
+  "github_stars": 1804,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -4893,8 +4893,8 @@
   "hq": "Open source",
   "last_release": "v0.7.0 (2026-08-26)",
   "license": "MIT",
-  "github_forks": 432,
-  "github_checked": "2026-10-02",
+  "github_forks": 434,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -4971,7 +4971,7 @@
    "Claude Code"
   ],
   "github_repo": "eracle/OpenOutreach",
-  "github_stars": 3121,
+  "github_stars": 3131,
   "open_source": true,
   "api_available": false,
   "status": "active",
@@ -5020,7 +5020,7 @@
   },
   "license": "GPL-3.0",
   "github_forks": 572,
-  "github_checked": "2026-10-02",
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -5081,15 +5081,15 @@
    ]
   },
   "github_repo": "every-app/open-seo",
-  "github_stars": 22103,
+  "github_stars": 22195,
   "pricing_url": "https://openseo.so/pricing",
   "founded": 2026,
   "hq": "Open source",
   "license": "MIT",
   "paid_from": 10,
   "currency": "USD",
-  "github_forks": 2849,
-  "github_checked": "2026-10-02"
+  "github_forks": 2858,
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "opteo",
@@ -5240,7 +5240,7 @@
    "e2b, Cloudflare, and Modal sandboxes"
   ],
   "github_repo": "paperclipai/paperclip",
-  "github_stars": 95890,
+  "github_stars": 96368,
   "last_release": "v2026.831.1 (2026-09-02)",
   "open_source": true,
   "api_available": true,
@@ -5286,8 +5286,8 @@
   "currency": "EUR",
   "license": "MIT",
   "paid_from": 10,
-  "github_forks": 16255,
-  "github_checked": "2026-10-02"
+  "github_forks": 16316,
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "pencil",
@@ -5611,7 +5611,7 @@
    "Slack"
   ],
   "github_repo": "plausible/analytics",
-  "github_stars": 29277,
+  "github_stars": 29284,
   "open_source": true,
   "api_available": true,
   "founded": 2019,
@@ -5630,8 +5630,8 @@
   },
   "paid_from": 9,
   "license": "AGPL-3.0",
-  "github_forks": 1880,
-  "github_checked": "2026-10-02",
+  "github_forks": 1879,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -5727,7 +5727,7 @@
    "Local GUI wizard"
   ],
   "github_repo": "onism1767-creator/potato",
-  "github_stars": 168,
+  "github_stars": 166,
   "open_source": true,
   "api_available": true,
   "founded": 2026,
@@ -5746,7 +5746,7 @@
   "license": "MIT",
   "kind": "Utility",
   "github_forks": 7,
-  "github_checked": "2026-09-29",
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -5814,7 +5814,7 @@
    "Instagram"
   ],
   "github_repo": "nando0x/ProspectOS",
-  "github_stars": 228,
+  "github_stars": 227,
   "open_source": true,
   "api_available": true,
   "description": "ProspectOS is a local lead-prospecting tool for agencies and freelancers who sell websites or digital services to small businesses. It scans Google Maps by niche and city (or by pin and radius), checks each company's website to separate no-site from slow-or-insecure-site, scores the results, and generates an AI-written outreach message plus a PDF diagnosis per lead, all tracked in a visual kanban CRM. The stack is Flask, React 19, TypeScript, and SQLite, runs locally on Windows, and the repo shows 230 passing tests. The honest catch is in the project's own warnings: it is a scraping tool, Google Maps and Instagram scraping can violate those platforms' terms, and the Instagram module logs in with a personal account via instagrapi, which carries a real risk of checkpoint or ban. The README recommends a secondary account and moderate use. MIT-licensed with a few hundred stars, it is a working codebase for learning and prospecting at small scale, sold to nobody and hosted by you, with the compliance question deliberately left in your hands.",
@@ -5831,8 +5831,8 @@
    "verdict": "A working, well-tested local prospecting tool with unusually honest documentation about its scraping risks. Suitable for individual freelancers who accept the terms-of-service exposure; not a team tool, and not compliant-by-design with Google or Instagram ToS."
   },
   "license": "MIT",
-  "github_forks": 43,
-  "github_checked": "2026-10-02",
+  "github_forks": 44,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -5934,7 +5934,7 @@
    "CSV import/export"
   ],
   "github_repo": "relaticle/relaticle",
-  "github_stars": 1748,
+  "github_stars": 1749,
   "last_release": "v3.5.7 (2026-09-06)",
   "open_source": true,
   "api_available": true,
@@ -5981,8 +5981,8 @@
   "license": "AGPL-3.0",
   "paid_from": 19,
   "currency": "USD",
-  "github_forks": 211,
-  "github_checked": "2026-10-02"
+  "github_forks": 210,
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "resend",
@@ -6009,7 +6009,7 @@
    "Vercel Marketplace"
   ],
   "github_repo": "resend/react-email",
-  "github_stars": 19799,
+  "github_stars": 19802,
   "open_source": false,
   "api_available": true,
   "founded": 2023,
@@ -6055,7 +6055,7 @@
   "paid_from": 20,
   "license": "MIT",
   "github_forks": 1092,
-  "github_checked": "2026-10-02",
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -6538,7 +6538,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "StJudeWasHere/seonaut",
-  "github_stars": 800,
+  "github_stars": 802,
   "last_release": "No tagged releases; ships as the :latest container image",
   "open_source": true,
   "api_available": false,
@@ -6585,7 +6585,7 @@
   "paid_from": 9,
   "license": "MIT",
   "github_forks": 134,
-  "github_checked": "2026-10-02",
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -6727,8 +6727,8 @@
   },
   "license": "Apache-2.0",
   "currency": "USD",
-  "github_forks": 1172,
-  "github_checked": "2026-09-29"
+  "github_forks": 1171,
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "sprout-social",
@@ -6837,7 +6837,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "SuiteCRM/SuiteCRM",
-  "github_stars": 5779,
+  "github_stars": 5781,
   "last_release": "8.10.2 / 7.15.2 ESR (2026-07-31)",
   "open_source": true,
   "api_available": true,
@@ -6882,8 +6882,8 @@
    ]
   },
   "license": "AGPL-3.0",
-  "github_forks": 2427,
-  "github_checked": "2026-10-02",
+  "github_forks": 2426,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -7097,7 +7097,7 @@
    "REST / GraphQL / gRPC"
   ],
   "github_repo": "ToolJet/ToolJet",
-  "github_stars": 41025,
+  "github_stars": 41027,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -7143,7 +7143,7 @@
   "paid_from": 79,
   "currency": "USD",
   "github_forks": 5469,
-  "github_checked": "2026-10-02"
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "tray-io",
@@ -7294,7 +7294,7 @@
    "Marketplace: Slack, Exa, People Data Labs"
   ],
   "github_repo": "twentyhq/twenty",
-  "github_stars": 57811,
+  "github_stars": 57834,
   "open_source": true,
   "api_available": true,
   "founded": 2023,
@@ -7339,8 +7339,8 @@
   },
   "paid_from": 9,
   "license": "AGPL-3.0",
-  "github_forks": 9394,
-  "github_checked": "2026-10-02",
+  "github_forks": 9395,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -7362,7 +7362,7 @@
    "Community API clients (Laravel, Python, Go)"
   ],
   "github_repo": "umami-software/umami",
-  "github_stars": 39115,
+  "github_stars": 39132,
   "open_source": true,
   "api_available": true,
   "founded": 2020,
@@ -7406,8 +7406,8 @@
   },
   "paid_from": 20,
   "license": "MIT",
-  "github_forks": 8170,
-  "github_checked": "2026-10-02",
+  "github_forks": 8177,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -7436,7 +7436,7 @@
    "Hostinger"
   ],
   "github_repo": "ArnasDon/wacrm",
-  "github_stars": 2475,
+  "github_stars": 2479,
   "open_source": true,
   "api_available": true,
   "founded": 2026,
@@ -7487,8 +7487,8 @@
    ]
   },
   "license": "MIT",
-  "github_forks": 6378,
-  "github_checked": "2026-10-02",
+  "github_forks": 6393,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -7853,7 +7853,7 @@
    "SMTP"
   ],
   "github_repo": "warmbly/warmbly",
-  "github_stars": 343,
+  "github_stars": 348,
   "open_source": true,
   "license": "Apache-2.0",
   "api_available": true,
@@ -7872,8 +7872,8 @@
    "not_for": "Teams that need a built-in B2B lead database, or anyone who wants a battle-tested managed sender and does not want to operate Postgres and Redis.",
    "verdict": "The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you."
   },
-  "github_forks": 74,
-  "github_checked": "2026-10-02",
+  "github_forks": 76,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -8806,7 +8806,7 @@
   "open_source": true,
   "license": "MIT",
   "github_repo": "jitsucom/jitsu",
-  "github_stars": 5096,
+  "github_stars": 5098,
   "ai_features": [
    "MCP Server for agent-driven setup"
   ],
@@ -8858,7 +8858,7 @@
    ]
   },
   "github_forks": 403,
-  "github_checked": "2026-10-02",
+  "github_checked": "2026-10-03",
   "paid_from": 99
  },
  {
@@ -8880,9 +8880,9 @@
   "date_added": "2026-10-01",
   "date_updated": "2026-10-01",
   "github_repo": "rudderlabs/rudder-server",
-  "github_stars": 4494,
+  "github_stars": 4493,
   "github_forks": 73,
-  "github_checked": "2026-10-02",
+  "github_checked": "2026-10-03",
   "api_available": true,
   "ai_features": [],
   "integrations": [
@@ -9031,7 +9031,7 @@
   "open_source": true,
   "license": "MIT",
   "github_repo": "growthbook/growthbook",
-  "github_stars": 8464,
+  "github_stars": 8466,
   "ai_features": [
    "GrowthBook AI assistant (usage-metered per plan)",
    "AI Visual Editor (Pro and up)",
@@ -9085,7 +9085,7 @@
    ]
   },
   "github_forks": 868,
-  "github_checked": "2026-10-02",
+  "github_checked": "2026-10-03",
   "paid_from": 40
  },
  {
@@ -9105,7 +9105,7 @@
   "open_source": true,
   "license": "BSD-3-Clause",
   "github_repo": "Flagsmith/flagsmith",
-  "github_stars": 6585,
+  "github_stars": 6584,
   "ai_features": [
    "MCP Server for natural-language flag management",
    "Automated flag hygiene",
@@ -9159,7 +9159,7 @@
    ]
   },
   "github_forks": 578,
-  "github_checked": "2026-10-01",
+  "github_checked": "2026-10-03",
   "paid_from": 50
  },
  {
@@ -9234,8 +9234,8 @@
     ]
    ]
   },
-  "github_forks": 1584,
-  "github_checked": "2026-10-02",
+  "github_forks": 1583,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -9254,7 +9254,7 @@
   "open_source": true,
   "license": "AGPL-3.0",
   "github_repo": "khoj-ai/khoj",
-  "github_stars": 37559,
+  "github_stars": 37555,
   "ai_features": [
    "Chat with local and online LLMs",
    "Document Q&A over images, PDFs, Markdown, Word, and Notion files",
@@ -9308,8 +9308,8 @@
     ]
    ]
   },
-  "github_forks": 2497,
-  "github_checked": "2026-10-02",
+  "github_forks": 2494,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -9328,7 +9328,7 @@
   "open_source": true,
   "license": "AGPL-3.0",
   "github_repo": "LibreTranslate/LibreTranslate",
-  "github_stars": 16974,
+  "github_stars": 16977,
   "ai_features": [
    "Neural machine translation via Argos Translate models",
    "Automatic language detection",
@@ -9379,7 +9379,7 @@
    "hands_on_verified": true
   },
   "github_forks": 1753,
-  "github_checked": "2026-10-02",
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -9399,7 +9399,7 @@
   "open_source": true,
   "license": "MIT",
   "github_repo": "PostHog/posthog",
-  "github_stars": 40086,
+  "github_stars": 40114,
   "ai_features": [
    "PostHog AI assistant for natural language queries (500 free credits per month)",
    "AI Observability and LLM Evaluations",
@@ -9456,8 +9456,8 @@
     ]
    ]
   },
-  "github_forks": 3465,
-  "github_checked": "2026-10-02"
+  "github_forks": 3467,
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "revive-adserver",
@@ -9519,8 +9519,8 @@
     ]
    ]
   },
-  "github_forks": 614,
-  "github_checked": "2026-10-02",
+  "github_forks": 613,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -9605,7 +9605,7 @@
   "open_source": true,
   "license": "MIT",
   "github_repo": "promptfoo/promptfoo",
-  "github_stars": 25631,
+  "github_stars": 25657,
   "ai_features": [
    "Model-graded evals where one LLM scores another's answers",
    "Automated red team probe generation against AI applications",
@@ -9655,8 +9655,8 @@
     ]
    ]
   },
-  "github_forks": 2422,
-  "github_checked": "2026-10-02",
+  "github_forks": 2425,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -9697,9 +9697,9 @@
     "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
    ]
   },
-  "github_stars": 24836,
-  "github_forks": 4286,
-  "github_checked": "2026-10-02",
+  "github_stars": 24862,
+  "github_forks": 4288,
+  "github_checked": "2026-10-03",
   "currency": "USD"
  },
  {
@@ -9878,7 +9878,7 @@
    "Claude Code"
   ],
   "github_repo": "zubair-trabzada/ai-marketing-claude",
-  "github_stars": 2699,
+  "github_stars": 2701,
   "open_source": true,
   "api_available": false,
   "founded": 2025,
@@ -9911,7 +9911,7 @@
   "kind": "Agent Skill",
   "currency": "USD",
   "github_forks": 713,
-  "github_checked": "2026-10-02"
+  "github_checked": "2026-10-03"
  },
  {
   "slug": "digital-marketing-pro",
@@ -9940,7 +9940,7 @@
    "OpenClaw"
   ],
   "github_repo": "indranilbanerjee/digital-marketing-pro",
-  "github_stars": 843,
+  "github_stars": 844,
   "open_source": true,
   "api_available": true,
   "founded": 2025,
@@ -9974,6 +9974,6 @@
   "kind": "Agent Skill",
   "currency": "USD",
   "github_forks": 139,
-  "github_checked": "2026-10-02"
+  "github_checked": "2026-10-03"
  }
 ]
