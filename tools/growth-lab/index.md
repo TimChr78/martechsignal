@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Growth Lab
-Re-check pending: pricing last verified 2026-08-28 (35 days ago).
+Re-check pending: pricing last verified 2026-08-28 (36 days ago).
 
 ## Growth Lab review (2026): pricing, AI features, verdict
 

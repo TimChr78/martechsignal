@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Notifo
-Re-check pending: pricing last verified 2026-09-07 (25 days ago).
+Re-check pending: pricing last verified 2026-09-07 (26 days ago).
 
 ## Notifo review (2026): pricing, AI features, verdict
 

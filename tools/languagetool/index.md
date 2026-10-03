@@ -144,7 +144,7 @@ No. It catches grammar, punctuation, and spelling problems and offers style and 
 - **GitHub:** ★ 15099
 - **HQ:** Hamburg, Germany
 - **API:** Yes
-- **Repository checked:** 2026-10-02
+- **Repository checked:** 2026-10-03
 - **Page updated:** 2026-09-25
 
 ## Get the next teardown

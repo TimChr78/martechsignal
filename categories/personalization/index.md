@@ -5,23 +5,29 @@
 - Personalization & CDP
 ## Personalization & CDP Tools
 
-Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization
+Ecommerce personalization, customer data platforms, and flags and testing. 11 tools reviewed.
 
 11 TOOLS IN THIS CATEGORY
 
-## All tools in this category**
+## STOREFRONT PERSONALIZATION***3*
 
-- [apache-unomi](/tools/apache-unomi/): Apache's open-source customer data platform and personalization engine
 - [clerk-io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
 - [dynamic-yield](/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences
-- [flagsmith](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting
-- [growthbook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
+- [nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
+## PACKAGED CDPS***2*
+
+- [segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
+- [tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+## WAREHOUSE PIPES AND COMPOSABLE ACTIVATION***4*
+
+- [apache-unomi](/tools/apache-unomi/): Apache's open-source customer data platform and personalization engine
 - [hightouch](/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs
 - [jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
-- [nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
 - [rudderstack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
-- [tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
-- [segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
+## FLAGS AND TESTING***2*
+
+- [flagsmith](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting
+- [growthbook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 **Compare:** [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) · [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/)
 
 ## Key terms
@@ -31,14 +37,66 @@ Customer data platforms, experimentation, and experience engines, from open-sour
 - [First-party data](/glossary/first-party-data/)
 Full definitions in the [martech glossary](/glossary/).
 
-Personalization stacks in three layers, and most failed projects bought the top one first. The data layer collects and unifies who the visitor is: Twilio Segment, Tealium, Jitsu, Apache Unomi. The experimentation layer runs tests and gates features: GrowthBook, Flagsmith. The experience layer decides what each visitor sees: Dynamic Yield, Nosto, Clerk.io. The pitch is simple: a returning customer should not see the same homepage as a first-time visitor. The layers above only work on clean identity data underneath.
+Personalization splits into three jobs and buyers mix them up. Storefront tools decide what each visitor sees. CDPs decide who each visitor is. Flags and tests decide who sees a change and whether it worked. This hub covers 11 tools across that split: three storefront engines, six data pipes and profile stores, and two testing and flag systems. Five of the eleven are open source with a self-hosted path.
 
-That is the buyer's failure mode: an experience engine with nothing to feed it. Dynamic Yield and Nosto score and recommend; they are only as good as the profiles below them. Start with plumbing pricing: Segment's Team plan is $120 a month for 10,000 monthly tracked users, Jitsu's free plan captures unlimited events with 200,000 active events a month and its Business plan runs $99, and Apache Unomi costs nothing but server time. Also know that feature flags are not personalization: GrowthBook Pro runs $40 per seat a month and Flagsmith's cloud free tier covers 50,000 API requests a month.
+The practical question is where the profile lives. Packaged CDPs hold it for you and bill on tracked users or events. Warehouse pipes send events to tables you own and let Hightouch push segments back out. Unomi sits alone as a self-hosted profile store with no cloud tier. If you cannot answer where identity gets resolved, fix that before you buy recommendations. Start with the pipes group if the warehouse already holds identities; start with storefront engines if recommendations must ship this quarter.
 
-The top tier sells by quote. Dynamic Yield publishes no prices and routes every call to action to a sales demo; Nosto charges a base platform fee plus a fee scaled on your store's volume. Clerk.io prices on traffic and modules, which at least scales with the store rather than the seat. When the price is opaque, negotiate on implementation and support, not list price. Evaluate on identity resolution, how fast segments update after an action, and whether the targeting rules survive contact with a real campaign calendar.
+## Which one fits
 
 Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith](https://www.flagsmith.com) · [Jitsu](https://jitsu.com)
 
+## Reading before you buy
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+COLLECTevents before tools
+
+**
+
+UNIFYprofiles or warehouse tables
+
+**
+
+PERSONALIZErecs, content, flags
+
+**
+
+TESTwhat changed, keep or kill
+
+IF You run a store and want recommendations and search without building it yourself
+
+[Clerk.io](/tools/clerk-io/) [Nosto](/tools/nosto/) [Dynamic Yield](/tools/dynamic-yield/)
+
+Clerk.io lists from $119 per month with traffic based custom pricing; Nosto is quote based on GMV turnover and traffic; Dynamic Yield publishes no pricing and sells through contact sales
+
+IF You want a packaged CDP that holds profiles for you
+
+[Twilio Segment](/tools/segment/) [Tealium](/tools/tealium/)
+
+Segment has a free tier at 1,000 monthly tracked users and Team from $120 per month; Tealium is enterprise custom with annual contracts
+
+IF You already live in the warehouse and want pipes you control
+
+[Jitsu](/tools/jitsu/) [RudderStack](/tools/rudderstack/) [Hightouch](/tools/hightouch/) [Apache Unomi](/tools/apache-unomi/)
+
+Jitsu is MIT self-hostable with a free cloud plan and Business at $99 per month; RudderStack has a free tier at 250K events per month and Growth from $265; Hightouch has a free plan at 2 active syncs per month; Unomi is a free self-hosted Apache project
+
+IF You need flags and tests to ship personalization safely
+
+[GrowthBook](/tools/growthbook/) [Flagsmith](/tools/flagsmith/)
+
+GrowthBook Starter is free for 3 users and Pro is $40 per seat per month; Flagsmith cloud is free to 50,000 API requests per month and Scale lists at $50 per member per month, and both are open source and self-hostable
+
+The CDP Reckoning: Your Next CDP Is a Warehouse
+
+Why the warehouse model changes what a CDP needs to do
+
+You Dont Need a New Data Stack: Fivetran
+
+When your current pipes are enough and a new stack adds cost without gain
+
+Agents and Identity Debt
+
+Identity gaps that break personalization once agents act on profiles
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

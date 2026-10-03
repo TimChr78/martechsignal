@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Claude Ads
-Re-check pending: pricing last verified 2026-08-28 (35 days ago).
+Re-check pending: pricing last verified 2026-08-28 (36 days ago).
 
 ## Claude Ads review (2026): pricing, AI features, verdict
 
@@ -88,7 +88,7 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: 250+ audit checks across 12 ad platforms |  |
-| ✓ Active public repository (9,670 GitHub stars counted at last check) |  |
+| ✓ Active public repository (9,683 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Google Ads, Meta Ads, YouTube Ads (12 listed) |  |
 
 ## Related concepts
@@ -105,10 +105,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Claude Ads?**
-Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,670 stars.
+Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,683 stars.
 
 **How much does Claude Ads cost?**
-Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,670 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
+Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,683 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
 
 **Is Claude Ads a good self-hosted Agent Skills tool in 2026?**
 Niche but interesting for technical teams that want model-drafted ad copy inside their Git workflow.
@@ -131,10 +131,10 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 9670
+- **GitHub:** ★ 9683
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-02
+- **Repository checked:** 2026-10-03
 - **Page updated:** 2026-08-28
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

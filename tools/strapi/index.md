@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Strapi
-Re-check pending: pricing last verified 2026-08-28 (35 days ago).
+Re-check pending: pricing last verified 2026-08-28 (36 days ago).
 
 ## Strapi review (2026): pricing, AI features, verdict
 

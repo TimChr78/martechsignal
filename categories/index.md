@@ -4,23 +4,23 @@
 
 All 13 categories plus a cross-cutting open-source index across the 166-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
 
-- [AI Content & Copywriting](/categories/content-ai/): AI copywriting, message optimization, and publishing platforms, from per-seat generators to governed enterprise suites
+- [AI Content & Copywriting](/categories/content-ai/): AI writing, copy, and publishing tools for marketing teams
 - [Advertising & Paid Media](/categories/advertising/): Ad creation, bidding, and campaign management
 - [Agent Skills](/categories/agent-skills/): Skills, plugins, and extensions for AI coding agents - what they automate in your marketing workflow
 - [Analytics & Attribution](/categories/analytics/): Marketing analytics, attribution, and reporting
 - [CRM](/categories/crm/): Customer relationship management and sales pipelines
 - [Chatbots & Conversational AI](/categories/chatbots/): Conversational AI for marketing and support, from social DM automation to per-resolution AI agents
-- [Email Marketing](/categories/email-marketing/): Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites
+- [Email Marketing](/categories/email-marketing/): Email sending, newsletters, and transactional delivery
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/): Track and improve how AI assistants mention, cite, and describe your brand
 - [Marketing Automation](/categories/marketing-automation/): End-to-end campaign orchestration and workflow automation
 - [Open-Source Tools](/categories/open-source/): 80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
-- [Personalization & CDP](/categories/personalization/): Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization
+- [Personalization & CDP](/categories/personalization/): Ecommerce personalization, customer data platforms, and experimentation
 - [SEO & Search](/categories/seo/): Search optimization, keyword research, and content strategy
 - [Social Media](/categories/social-media/): Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites
 - [Workflow Automation](/categories/workflow-automation/): No-code/low-code automation platforms and iPaaS
 ## [AI Content & Copywriting](/categories/content-ai/)
 
-AI copywriting, message optimization, and publishing platforms, from per-seat generators to governed enterprise suites. Includes [Anyword](/tools/anyword/), [ContentBot](/tools/contentbot/), [Copy.ai](/tools/copy-ai/).
+AI writing, copy, and publishing tools for marketing teams. Includes [Anyword](/tools/anyword/), [ContentBot](/tools/contentbot/), [Copy.ai](/tools/copy-ai/).
 
 ## [Advertising & Paid Media](/categories/advertising/)
 
@@ -44,7 +44,7 @@ Conversational AI for marketing and support, from social DM automation to per-re
 
 ## [Email Marketing](/categories/email-marketing/)
 
-Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites. Includes [BillionMail](/tools/billionmail/), [Customer.io](/tools/customer-io/), [Klaviyo](/tools/klaviyo/).
+Email sending, newsletters, and transactional delivery. Includes [BillionMail](/tools/billionmail/), [Customer.io](/tools/customer-io/), [Klaviyo](/tools/klaviyo/).
 
 ## [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 
@@ -60,7 +60,7 @@ End-to-end campaign orchestration and workflow automation. Includes [ActiveCampa
 
 ## [Personalization & CDP](/categories/personalization/)
 
-Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization. Includes [Apache Unomi](/tools/apache-unomi/), [Clerk.io](/tools/clerk-io/), [Dynamic Yield](/tools/dynamic-yield/).
+Ecommerce personalization, customer data platforms, and experimentation. Includes [Apache Unomi](/tools/apache-unomi/), [Clerk.io](/tools/clerk-io/), [Dynamic Yield](/tools/dynamic-yield/).
 
 ## [SEO & Search](/categories/seo/)
 

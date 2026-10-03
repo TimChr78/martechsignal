@@ -5,27 +5,33 @@
 - Email Marketing
 ## Email Marketing Tools
 
-Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites
+Email marketing across hosted, self-hosted, and transactional: contact vs volume pricing and inbox placement. 16 tools reviewed.
 
 16 TOOLS IN THIS CATEGORY
 
-## All tools in this category**
+## HOSTED CAMPAIGN PLATFORMS***5*
 
-- [billionmail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 - [brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
 - [customer-io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [klaviyo](/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
-- [listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 - [loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
 - [mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
-- [maizzle](/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns
-- [notifo](/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push
+## SELF-HOSTED SENDERS***3*
+
+- [billionmail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+- [listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 - [notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
-- [openoutreach](/tools/openoutreach/): Open-source AI lead finder: describe your product and it finds and qualifies the leads
+## TRANSACTIONAL AND DEVELOPER APIS***4*
+
+- [notifo](/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push
 - [postmark](/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers
-- [react-email-editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
 - [resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [sendgrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
+## TEMPLATES AND COLD OUTREACH***4*
+
+- [maizzle](/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns
+- [openoutreach](/tools/openoutreach/): Open-source AI lead finder: describe your product and it finds and qualifies the leads
+- [react-email-editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
 - [warmbly](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 **Compare:** [ActiveCampaign vs Klaviyo](/vs/activecampaign-vs-klaviyo/) · [Mailchimp vs Klaviyo](/vs/mailchimp-vs-klaviyo/) · [Mailchimp vs Brevo](/vs/mailchimp-vs-brevo/) · [Mailchimp alternatives](/alternatives/mailchimp/) · [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 
@@ -35,14 +41,78 @@ Campaign platforms, lifecycle automation, and transactional delivery APIs, from 
 - [Deliverability](/glossary/deliverability/)
 Full definitions in the [martech glossary](/glossary/).
 
-Email tools split into three layers, and buying the wrong one is the expensive mistake here. Campaign platforms like Mailchimp and Klaviyo build newsletters and automated flows. Lifecycle engines like Customer.io and Loops trigger messages off product events. Delivery APIs like Postmark, Resend, and Twilio SendGrid simply move the mail and price on volume. Feature-comparing all fifteen tools in this category compares things that do not compete with each other.
+Email splits into three jobs and you should buy for the job you have. Campaign tools send newsletters and flows. Transactional APIs send receipts and resets. Cold tools handle warmup and prospecting. Mixing them up is how teams pay contact prices for system mail or push sales mail through a pipe built for passwords resets. Pick the lane first, then compare on price model and deliverability work.
 
-The buyer's failure mode is paying for a campaign builder when the real problem is inbox placement. Sending infrastructure decides whether your mail arrives, and vendors rarely advertise those choices up front. Contact-based pricing then punishes list growth: Mailchimp's free plan covers 500 contacts and 1,000 emails a month, Klaviyo's covers 250 contacts and 500 sends, and paid tiers scale with contact count. Postmark instead charges on volume with 100 free emails a month and paid plans from $15. Resend gives you 3,000 free sends a month and 50,000 for $20.
+This set covers 16 tools across that split. Five hosted campaign platforms bill by contacts or volume, with free plans from Brevo, Mailchimp, Klaviyo, and Loops. Three self-hosted senders remove per-contact billing: BillionMail, Listmonk, and Notifuse. Four developer pipes cover transactional and notifications: Postmark, Resend, SendGrid, and Notifo. The last four are building blocks and cold outreach: Maizzle, React Email Editor, OpenOutreach, and Warmbly. Our notes weight real sending costs, what self-hosting asks of you, and whether cold features stay within mailbox limits. Self-hosting trades the contact bill for server and warmup work; price it honestly before switching.
 
-The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warmbly run on your own servers with no license cost, and Warmbly adds cold-email warmup with a hosted plan from $29 a month. That tier's price is operations: you own IP reputation, bounce handling, and list hygiene. On hosted, entry runs from Mailchimp Essentials at $13 a month up to Customer.io at $100 a month for 5,000 profiles. A newsletter sender and a transactional API fail differently, and the review notes in this directory grade each one on its own terms. Match the layer to your send pattern before you shortlist features.
+## Which one fits
 
 Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://resend.com) · [BillionMail](https://www.billionmail.com)
 
+## Reading before you buy
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+SPLITcampaigns, transactional, cold
+
+**
+
+PRICEcontacts vs volume vs self-host
+
+**
+
+BUILDtemplates, streams, warmup
+
+**
+
+SHIPwatch inbox placement
+
+IF You run newsletters or lifecycle campaigns and want a hosted tool
+
+[Brevo](/tools/brevo/) [Mailchimp](/tools/mailchimp/) [Loops](/tools/loops/)
+
+Brevo bills by volume with a free 300 per day plan and Starter from $9. Mailchimp has a free 500-contact plan with Essentials at $13. Loops is built for SaaS with a free 1,000 contacts and 4,000 sends per 30 days
+
+IF You sell from a store and live on flows and SMS
+
+[Klaviyo](/tools/klaviyo/) [Customer.io](/tools/customer-io/)
+
+Klaviyo is ecommerce-first with a free 250 contacts and 500 emails plan and paid from about $20. Customer.io fits data-triggered messaging across email, push, and SMS with Essentials at $100 per month
+
+IF You want to self-host and skip per-contact billing
+
+[Listmonk](/tools/listmonk/) [BillionMail](/tools/billionmail/) [Notifuse](/tools/notifuse/)
+
+Listmonk is free AGPL with no paid tiers. BillionMail is free AGPL with an optional $98.9 deployment service. Notifuse is free AGPL self-hosted with all features and Cloud from $19 for 2,500 contacts with BYO ESP
+
+IF You send receipts, resets, and onboarding mail that must arrive
+
+[Postmark](/tools/postmark/) [Resend](/tools/resend/) [Twilio SendGrid](/tools/sendgrid/)
+
+Postmark separates streams with a free 100 per month plan and paid from $15 for 10,000. Resend is API-first with a free 3,000 per month plan and Pro at $20 for 50,000. SendGrid starts with a 100 per day trial for 60 days and Essentials at $19.95
+
+IF You do cold outreach and need warmup and guardrails
+
+[Warmbly](/tools/warmbly/) [OpenOutreach](/tools/openoutreach/)
+
+Warmbly is Apache 2.0 to self-host with hosted plans from a free 10-mailbox tier up to $329. OpenOutreach is free GPLv3 self-hosted and you bring your own LLM keys and mailbox plus BetterContact credits
+
+IF You build the templates developers actually send
+
+[Maizzle](/tools/maizzle/) [React Email Editor](/tools/react-email-editor/) [Notifo](/tools/notifo/)
+
+Maizzle is a free MIT framework on Tailwind. React Email Editor gives you a drag and drop React component with a free builder tier. Notifo is MIT to self-host for email, SMS, and web push
+
+Deliverability: The AI Spam Content Problem
+
+Why inbox placement fails when content trips spam filters, and what to fix first
+
+Automation Blast Radius Audit
+
+How to cap what one broken automation run can break before it sends
+
+Silent Failure Audit
+
+Quiet send failures that reports miss, and the checks that catch them
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

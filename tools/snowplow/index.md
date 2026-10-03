@@ -157,7 +157,7 @@ Signals, launched in May 2025, is Snowplow's real-time context layer and the hom
 - **GitHub:** ★ 7034
 - **Founded:** 2012
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-03
 - **Page updated:** 2026-09-25
 
 Related guides: [Snowplow in Matomo alternatives](/alternatives/matomo/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/)

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Monica
-Re-check pending: pricing last verified 2026-09-07 (25 days ago).
+Re-check pending: pricing last verified 2026-09-07 (26 days ago).
 
 ## Monica review (2026): pricing, AI features, verdict
 
@@ -96,7 +96,7 @@ The reference implementation of the personal CRM category, honest about its limi
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo |
 | ✓ API access for custom integrations |  |
-| ✓ Active public repository (25,391 GitHub stars counted at last check) |  |
+| ✓ Active public repository (25,407 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -113,7 +113,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Monica?**
-Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,391 stars. Monica offers a public API for custom integrations.
+Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,407 stars. Monica offers a public API for custom integrations.
 
 **How much does Monica cost?**
 Monica has a free tier; paid plans start at $9/mo. Self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -155,9 +155,9 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 25391
+- **GitHub:** ★ 25407
 - **API:** Yes
-- **Repository checked:** 2026-10-02
+- **Repository checked:** 2026-10-03
 - **Page updated:** 2026-09-07
 
 Related guides: [Open Source Crm](/best/open-source-crm/)

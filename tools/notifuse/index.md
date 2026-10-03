@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Notifuse
-Re-check pending: pricing last verified 2026-08-28 (35 days ago).
+Re-check pending: pricing last verified 2026-08-28 (36 days ago).
 
 ## Notifuse review (2026): pricing, AI features, verdict
 
@@ -135,7 +135,7 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 - **GitHub:** ★ 2230
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-02
+- **Repository checked:** 2026-10-03
 - **Page updated:** 2026-08-28
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

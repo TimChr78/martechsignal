@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Codex SEO
-Re-check pending: pricing last verified 2026-08-28 (35 days ago).
+Re-check pending: pricing last verified 2026-08-28 (36 days ago).
 
 ## Codex SEO review (2026): pricing, AI features, verdict
 
@@ -97,7 +97,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Codex SEO?**
-Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 772 stars.
+Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 776 stars.
 
 **How much does Codex SEO cost?**
 Codex SEO has a free tier, so you can run a real evaluation before paying. Free to use. The bundled licence is proprietary (courtesy of the author) - not an OSS licence. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
@@ -124,10 +124,10 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 
 - **Pricing:** Free
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 772
+- **GitHub:** ★ 776
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-02
+- **Repository checked:** 2026-10-03
 - **Page updated:** 2026-08-28
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)

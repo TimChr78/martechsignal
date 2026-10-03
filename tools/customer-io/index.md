@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Customer.io
-Re-check pending: pricing last verified 2026-09-06 (26 days ago).
+Re-check pending: pricing last verified 2026-09-06 (27 days ago).
 
 ## Customer.io review (2026): pricing, AI features, verdict
 

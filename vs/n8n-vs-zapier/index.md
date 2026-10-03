@@ -55,7 +55,7 @@ Cost picture at 10K, 100K and 1M automation tasks per month (derived from publis
 
 ## Positioning
 
-**n8n:** n8n is an open-source workflow automation platform built for technical marketing and operations teams: a visual builder over 400-plus nodes with custom code steps and API access. Founded 2019 in Berlin, it sells flexibility and control, backed by 206,478 GitHub stars, the largest community in the category. The trade is setup and maintenance effort.
+**n8n:** n8n is an open-source workflow automation platform built for technical marketing and operations teams: a visual builder over 400-plus nodes with custom code steps and API access. Founded 2019 in Berlin, it sells flexibility and control, backed by 206,531 GitHub stars, the largest community in the category. The trade is setup and maintenance effort.
 
 **Zapier:** Zapier is the platform most people mean when they say connect two tools without writing code. Founded 2011 in San Francisco, it leads with breadth and onboarding speed: the default for form-to-CRM handoffs and lead-to-Slack alerts. Customization depth is not the pitch.
 
@@ -136,7 +136,7 @@ Last verified 2026-09-28.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- n8n - 206,478 stars, +4,075 in the 39-snapshot window to 2026-10-02 202,403→206,478 [verify on GitHub](https://github.com/n8n-io/n8n)
+- n8n - 206,531 stars, +4,128 in the 40-snapshot window to 2026-10-03 202,403→206,531 [verify on GitHub](https://github.com/n8n-io/n8n)
 [All movers on the trending page](/trending/).
 
 ## Get the next teardown

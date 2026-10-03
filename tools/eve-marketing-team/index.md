@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Eve Marketing Team Template
-Re-check pending: pricing last verified 2026-08-31 (32 days ago).
+Re-check pending: pricing last verified 2026-08-31 (33 days ago).
 
 KIND: Utility (not an end-to-end platform)
 
@@ -130,7 +130,7 @@ The fastest way to see a multi-agent marketing team running on real tools, and a
 - **GitHub:** ★ 446
 - **Founded:** 2026
 - **API:** Yes
-- **Repository checked:** 2026-10-02
+- **Repository checked:** 2026-10-03
 - **Page updated:** 2026-08-31
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

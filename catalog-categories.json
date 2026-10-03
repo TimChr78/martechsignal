@@ -182,7 +182,7 @@
  {
   "slug": "email-marketing",
   "name": "Email Marketing",
-  "description": "Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites",
+  "description": "Email sending, newsletters, and transactional delivery",
   "tools": [
    "billionmail",
    "customer-io",
@@ -201,7 +201,191 @@
    "warmbly",
    "brevo"
   ],
-  "intro": "Email tools split into three layers, and buying the wrong one is the expensive mistake here. Campaign platforms like Mailchimp and Klaviyo build newsletters and automated flows. Lifecycle engines like Customer.io and Loops trigger messages off product events. Delivery APIs like Postmark, Resend, and Twilio SendGrid simply move the mail and price on volume. Feature-comparing all fifteen tools in this category compares things that do not compete with each other.\n\nThe buyer's failure mode is paying for a campaign builder when the real problem is inbox placement. Sending infrastructure decides whether your mail arrives, and vendors rarely advertise those choices up front. Contact-based pricing then punishes list growth: Mailchimp's free plan covers 500 contacts and 1,000 emails a month, Klaviyo's covers 250 contacts and 500 sends, and paid tiers scale with contact count. Postmark instead charges on volume with 100 free emails a month and paid plans from $15. Resend gives you 3,000 free sends a month and 50,000 for $20.\n\nThe self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warmbly run on your own servers with no license cost, and Warmbly adds cold-email warmup with a hosted plan from $29 a month. That tier's price is operations: you own IP reputation, bounce handling, and list hygiene. On hosted, entry runs from Mailchimp Essentials at $13 a month up to Customer.io at $100 a month for 5,000 profiles. A newsletter sender and a transactional API fail differently, and the review notes in this directory grade each one on its own terms. Match the layer to your send pattern before you shortlist features."
+  "intro": "Newsletters, lifecycle flows, and transactional mail across 16 reviewed tools. Five hosted campaign platforms, three self-hosted senders, four developer APIs, and four template and outreach tools. Contact billing, volume billing, and free self-hosted paths compared so you pay for the sending you actually do. Start with sending volume: low-volume senders overpay on contact plans, high-volume senders overpay on per-email pricing.",
+  "hub": {
+   "chooser": [
+    {
+     "if": "You run newsletters or lifecycle campaigns and want a hosted tool",
+     "then": [
+      {
+       "name": "Brevo",
+       "slug": "brevo"
+      },
+      {
+       "name": "Mailchimp",
+       "slug": "mailchimp"
+      },
+      {
+       "name": "Loops",
+       "slug": "loops"
+      }
+     ],
+     "why": "Brevo bills by volume with a free 300 per day plan and Starter from $9. Mailchimp has a free 500-contact plan with Essentials at $13. Loops is built for SaaS with a free 1,000 contacts and 4,000 sends per 30 days"
+    },
+    {
+     "if": "You sell from a store and live on flows and SMS",
+     "then": [
+      {
+       "name": "Klaviyo",
+       "slug": "klaviyo"
+      },
+      {
+       "name": "Customer.io",
+       "slug": "customer-io"
+      }
+     ],
+     "why": "Klaviyo is ecommerce-first with a free 250 contacts and 500 emails plan and paid from about $20. Customer.io fits data-triggered messaging across email, push, and SMS with Essentials at $100 per month"
+    },
+    {
+     "if": "You want to self-host and skip per-contact billing",
+     "then": [
+      {
+       "name": "Listmonk",
+       "slug": "listmonk"
+      },
+      {
+       "name": "BillionMail",
+       "slug": "billionmail"
+      },
+      {
+       "name": "Notifuse",
+       "slug": "notifuse"
+      }
+     ],
+     "why": "Listmonk is free AGPL with no paid tiers. BillionMail is free AGPL with an optional $98.9 deployment service. Notifuse is free AGPL self-hosted with all features and Cloud from $19 for 2,500 contacts with BYO ESP"
+    },
+    {
+     "if": "You send receipts, resets, and onboarding mail that must arrive",
+     "then": [
+      {
+       "name": "Postmark",
+       "slug": "postmark"
+      },
+      {
+       "name": "Resend",
+       "slug": "resend"
+      },
+      {
+       "name": "Twilio SendGrid",
+       "slug": "sendgrid"
+      }
+     ],
+     "why": "Postmark separates streams with a free 100 per month plan and paid from $15 for 10,000. Resend is API-first with a free 3,000 per month plan and Pro at $20 for 50,000. SendGrid starts with a 100 per day trial for 60 days and Essentials at $19.95"
+    },
+    {
+     "if": "You do cold outreach and need warmup and guardrails",
+     "then": [
+      {
+       "name": "Warmbly",
+       "slug": "warmbly"
+      },
+      {
+       "name": "OpenOutreach",
+       "slug": "openoutreach"
+      }
+     ],
+     "why": "Warmbly is Apache 2.0 to self-host with hosted plans from a free 10-mailbox tier up to $329. OpenOutreach is free GPLv3 self-hosted and you bring your own LLM keys and mailbox plus BetterContact credits"
+    },
+    {
+     "if": "You build the templates developers actually send",
+     "then": [
+      {
+       "name": "Maizzle",
+       "slug": "maizzle"
+      },
+      {
+       "name": "React Email Editor",
+       "slug": "react-email-editor"
+      },
+      {
+       "name": "Notifo",
+       "slug": "notifo"
+      }
+     ],
+     "why": "Maizzle is a free MIT framework on Tailwind. React Email Editor gives you a drag and drop React component with a free builder tier. Notifo is MIT to self-host for email, SMS, and web push"
+    }
+   ],
+   "flow": [
+    {
+     "label": "SPLIT",
+     "sub": "campaigns, transactional, cold"
+    },
+    {
+     "label": "PRICE",
+     "sub": "contacts vs volume vs self-host"
+    },
+    {
+     "label": "BUILD",
+     "sub": "templates, streams, warmup"
+    },
+    {
+     "label": "SHIP",
+     "sub": "watch inbox placement",
+     "style": "ok"
+    }
+   ],
+   "groups": [
+    {
+     "label": "HOSTED CAMPAIGN PLATFORMS",
+     "slugs": [
+      "brevo",
+      "customer-io",
+      "klaviyo",
+      "loops",
+      "mailchimp"
+     ]
+    },
+    {
+     "label": "SELF-HOSTED SENDERS",
+     "slugs": [
+      "billionmail",
+      "listmonk",
+      "notifuse"
+     ]
+    },
+    {
+     "label": "TRANSACTIONAL AND DEVELOPER APIS",
+     "slugs": [
+      "notifo",
+      "postmark",
+      "resend",
+      "sendgrid"
+     ]
+    },
+    {
+     "label": "TEMPLATES AND COLD OUTREACH",
+     "slugs": [
+      "maizzle",
+      "openoutreach",
+      "react-email-editor",
+      "warmbly"
+     ]
+    }
+   ],
+   "lead": [
+    "Email splits into three jobs and you should buy for the job you have. Campaign tools send newsletters and flows. Transactional APIs send receipts and resets. Cold tools handle warmup and prospecting. Mixing them up is how teams pay contact prices for system mail or push sales mail through a pipe built for passwords resets. Pick the lane first, then compare on price model and deliverability work.",
+    "This set covers 16 tools across that split. Five hosted campaign platforms bill by contacts or volume, with free plans from Brevo, Mailchimp, Klaviyo, and Loops. Three self-hosted senders remove per-contact billing: BillionMail, Listmonk, and Notifuse. Four developer pipes cover transactional and notifications: Postmark, Resend, SendGrid, and Notifo. The last four are building blocks and cold outreach: Maizzle, React Email Editor, OpenOutreach, and Warmbly. Our notes weight real sending costs, what self-hosting asks of you, and whether cold features stay within mailbox limits. Self-hosting trades the contact bill for server and warmup work; price it honestly before switching."
+   ],
+   "meta": "Email marketing across hosted, self-hosted, and transactional: contact vs volume pricing and inbox placement. 16 tools reviewed.",
+   "reading": [
+    {
+     "note": "Why inbox placement fails when content trips spam filters, and what to fix first",
+     "slug": "deliverability-ai-spam-content-problem",
+     "title": "Deliverability: The AI Spam Content Problem"
+    },
+    {
+     "note": "How to cap what one broken automation run can break before it sends",
+     "slug": "automation-blast-radius-audit",
+     "title": "Automation Blast Radius Audit"
+    },
+    {
+     "note": "Quiet send failures that reports miss, and the checks that catch them",
+     "slug": "silent-failure-audit",
+     "title": "Silent Failure Audit"
+    }
+   ]
+  },
+  "tool_count": 16
  },
  {
   "slug": "crm",
@@ -441,7 +625,7 @@
  {
   "slug": "content-ai",
   "name": "AI Content & Copywriting",
-  "description": "AI copywriting, message optimization, and publishing platforms, from per-seat generators to governed enterprise suites",
+  "description": "AI writing, copy, and publishing tools for marketing teams",
   "tools": [
    "anyword",
    "contentbot",
@@ -457,7 +641,167 @@
    "strapi",
    "writer"
   ],
-  "intro": "Content AI covers three jobs that buyers keep conflating: drafting copy, scoring it before it ships, and publishing it. Copy.ai, Jasper, and ContentBot generate drafts. Anyword scores copy against predicted performance before you spend a send on it. Persado and Phrasee, which rebranded as Jacquard in June 2024, sell message optimization into regulated industries. Writer grounds its Palmyra models in your brand rules. Only the third job is infrastructure: Ghost and Strapi actually publish what you produce.\n\nThe trap is paying generator prices for an editor problem. Generated copy still needs a human pass for accuracy and voice, so judge these tools on workflow fit: how they brief, how they verify, and how drafts reach your editors. Per-seat pricing runs from ContentBot's $9 a month starter plan and Copy.ai's free 2,000 words a month to Jasper's Creator plan at $39 a month billed annually. Anyword starts at $39 a month annual, Hypotenuse AI at $56, with ecommerce product copy as its strength. Volume is the cheapest thing to buy here; verification and brand control are what the price differences actually reflect.\n\nThe enterprise tier prices by quote. Writer's Starter is self-serve, but Persado, Phrasee, and Writer's Enterprise all end in a sales conversation, which is where brand governance and compliance review actually live. The third tier is the publishing stack: Ghost (MIT, self-hostable, cloud from $9 a month), Strapi (headless CMS, cloud Pro at $99), LanguageTool for grammar across 30-plus languages, LibreTranslate for translation, and Khoj for self-hosted research workflows. Buy governance only after volume demands it."
+  "intro": "Drafts, scores, and published pages. We look at what each tool drafts, what it costs to run, and whether you can self-host it. This set covers 13 tools, five of them open source, from free self-hosting and $9 per month starters to quote-based enterprise plans. Our notes focus on picking by job: daily drafts, governed brand copy, owned publishing, or self-hosted helpers. Every price below comes from the vendor pricing page as catalogued, not from a review roundup.",
+  "hub": {
+   "chooser": [
+    {
+     "if": "You need daily marketing copy and want to start cheap",
+     "then": [
+      {
+       "name": "Copy.ai",
+       "slug": "copy-ai"
+      },
+      {
+       "name": "ContentBot",
+       "slug": "contentbot"
+      },
+      {
+       "name": "Jasper",
+       "slug": "jasper"
+      }
+     ],
+     "why": "Copy.ai has a free plan at 2,000 words per month and Pro at $49 per month or $36 annual; ContentBot starts at $9 per month with a prepaid per-word option at $0.50 per 1K words; Jasper Creator starts at $39 annual or $49 monthly"
+    },
+    {
+     "if": "You need scored or governed copy with brand control",
+     "then": [
+      {
+       "name": "Anyword",
+       "slug": "anyword"
+      },
+      {
+       "name": "Writer",
+       "slug": "writer"
+      }
+     ],
+     "why": "Anyword pairs copywriting with predictive performance scores from $39 per month annual; Writer is quote-based with Palmyra models, brand governance, and agents for teams that need control"
+    },
+    {
+     "if": "You work in regulated or high-stakes messaging",
+     "then": [
+      {
+       "name": "Persado",
+       "slug": "persado"
+      },
+      {
+       "name": "Phrasee",
+       "slug": "phrasee"
+      }
+     ],
+     "why": "Persado is enterprise custom pricing focused on finserv, retail, and travel; Phrasee, now Jacquard, is enterprise quote-based with no trial, built for message testing at scale"
+    },
+    {
+     "if": "You want to own the publishing stack",
+     "then": [
+      {
+       "name": "Ghost",
+       "slug": "ghost"
+      },
+      {
+       "name": "Strapi",
+       "slug": "strapi"
+      }
+     ],
+     "why": "Ghost is MIT self-hosted free with Cloud from $9 per month; Strapi is MIT self-hosted free with Cloud Developer free and paid tiers from $99 per month"
+    },
+    {
+     "if": "You want free self-hosted writing utilities",
+     "then": [
+      {
+       "name": "LanguageTool",
+       "slug": "languagetool"
+      },
+      {
+       "name": "Khoj",
+       "slug": "khoj"
+      },
+      {
+       "name": "LibreTranslate",
+       "slug": "libretranslate"
+      }
+     ],
+     "why": "LanguageTool is free self-hosted with Premium from SEK 49.96 per month; Khoj is free self-hosted for research and writing over your own docs; LibreTranslate is free self-hosted translation with hosted API billed per character"
+    }
+   ],
+   "flow": [
+    {
+     "label": "DRAFT",
+     "sub": "pick a workhorse first"
+    },
+    {
+     "label": "CHECK",
+     "style": "ai",
+     "sub": "scores, grammar, tone"
+    },
+    {
+     "label": "PUBLISH",
+     "sub": "own site or CMS"
+    },
+    {
+     "label": "AUDIT",
+     "style": "ok",
+     "sub": "what shipped, what flopped"
+    }
+   ],
+   "groups": [
+    {
+     "label": "COPYWRITING WORKHORSES",
+     "slugs": [
+      "anyword",
+      "contentbot",
+      "copy-ai",
+      "jasper",
+      "hypotenuse-ai"
+     ]
+    },
+    {
+     "label": "GOVERNED ENTERPRISE WRITING",
+     "slugs": [
+      "writer",
+      "persado",
+      "phrasee"
+     ]
+    },
+    {
+     "label": "OPEN PUBLISHING STACK",
+     "slugs": [
+      "ghost",
+      "strapi"
+     ]
+    },
+    {
+     "label": "SELF-HOSTED WRITING UTILITIES",
+     "slugs": [
+      "languagetool",
+      "khoj",
+      "libretranslate"
+     ]
+    }
+   ],
+   "lead": [
+    "Content AI is where most teams meet generative AI first. Drafts are cheap and fast. The scarce parts are taste, fact checks, and a clear voice. This set covers 13 tools across that full path, from first draft to published page. Five are open source and self-hostable. The rest run paid, freemium, or enterprise plans, with entry points from free tiers and $9 per month up to quote-based enterprise deals.",
+    "Start with the job, not the model. If you need daily ads, blogs, and social posts, the copywriting workhorses fit. If legal or brand reviews every word, look at the governed enterprise group. If you publish on your own domain, Ghost and Strapi hold the stack. If you want helpers you run yourself, the self-hosted utilities cover grammar, research, and translation. Keep an approval step in place and check what the tool actually changed before it ships. Every entry below names its price model and license so the shortlist takes minutes."
+   ],
+   "meta": "AI copywriting, publishing, and writing tools: drafts, governance, and self-hosted helpers. 13 tools reviewed.",
+   "reading": [
+    {
+     "note": "Why AI-written email gets flagged, and how to keep output readable and deliverable",
+     "slug": "deliverability-ai-spam-content-problem",
+     "title": "Deliverability and the AI Spam Content Problem"
+    },
+    {
+     "note": "Why links alone no longer earn a place in AI answers, and what content has to do instead",
+     "slug": "link-building-wont-get-you-into-ai-answers",
+     "title": "Link Building Will Not Get You Into AI Answers"
+    },
+    {
+     "note": "When another AI writing tool adds cost without adding shipped work",
+     "slug": "why-your-marketing-automation-stack-doesnt-need-another-ai-tool",
+     "title": "Why Your Marketing Automation Stack Does Not Need Another AI Tool"
+    }
+   ]
+  },
+  "tool_count": 13
  },
  {
   "slug": "analytics",
@@ -816,7 +1160,7 @@
  {
   "slug": "personalization",
   "name": "Personalization & CDP",
-  "description": "Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization",
+  "description": "Ecommerce personalization, customer data platforms, and experimentation",
   "tools": [
    "apache-unomi",
    "clerk-io",
@@ -830,7 +1174,154 @@
    "rudderstack",
    "hightouch"
   ],
-  "intro": "Personalization stacks in three layers, and most failed projects bought the top one first. The data layer collects and unifies who the visitor is: Twilio Segment, Tealium, Jitsu, Apache Unomi. The experimentation layer runs tests and gates features: GrowthBook, Flagsmith. The experience layer decides what each visitor sees: Dynamic Yield, Nosto, Clerk.io. The pitch is simple: a returning customer should not see the same homepage as a first-time visitor. The layers above only work on clean identity data underneath.\n\nThat is the buyer's failure mode: an experience engine with nothing to feed it. Dynamic Yield and Nosto score and recommend; they are only as good as the profiles below them. Start with plumbing pricing: Segment's Team plan is $120 a month for 10,000 monthly tracked users, Jitsu's free plan captures unlimited events with 200,000 active events a month and its Business plan runs $99, and Apache Unomi costs nothing but server time. Also know that feature flags are not personalization: GrowthBook Pro runs $40 per seat a month and Flagsmith's cloud free tier covers 50,000 API requests a month.\n\nThe top tier sells by quote. Dynamic Yield publishes no prices and routes every call to action to a sales demo; Nosto charges a base platform fee plus a fee scaled on your store's volume. Clerk.io prices on traffic and modules, which at least scales with the store rather than the seat. When the price is opaque, negotiate on implementation and support, not list price. Evaluate on identity resolution, how fast segments update after an action, and whether the targeting rules survive contact with a real campaign calendar."
+  "intro": "Storefront recommendations, customer data pipes, and the flags that gate what visitors see. We look at where profiles live, how pricing scales with traffic and events, and which tools you can self-host. This hub covers 11 tools: three storefront engines, six data platforms and pipes, and two testing systems, five of them open source. If profiles already live in your warehouse, skip the packaged CDPs and start with the pipes group.",
+  "hub": {
+   "chooser": [
+    {
+     "if": "You run a store and want recommendations and search without building it yourself",
+     "then": [
+      {
+       "name": "Clerk.io",
+       "slug": "clerk-io"
+      },
+      {
+       "name": "Nosto",
+       "slug": "nosto"
+      },
+      {
+       "name": "Dynamic Yield",
+       "slug": "dynamic-yield"
+      }
+     ],
+     "why": "Clerk.io lists from $119 per month with traffic based custom pricing; Nosto is quote based on GMV turnover and traffic; Dynamic Yield publishes no pricing and sells through contact sales"
+    },
+    {
+     "if": "You want a packaged CDP that holds profiles for you",
+     "then": [
+      {
+       "name": "Twilio Segment",
+       "slug": "segment"
+      },
+      {
+       "name": "Tealium",
+       "slug": "tealium"
+      }
+     ],
+     "why": "Segment has a free tier at 1,000 monthly tracked users and Team from $120 per month; Tealium is enterprise custom with annual contracts"
+    },
+    {
+     "if": "You already live in the warehouse and want pipes you control",
+     "then": [
+      {
+       "name": "Jitsu",
+       "slug": "jitsu"
+      },
+      {
+       "name": "RudderStack",
+       "slug": "rudderstack"
+      },
+      {
+       "name": "Hightouch",
+       "slug": "hightouch"
+      },
+      {
+       "name": "Apache Unomi",
+       "slug": "apache-unomi"
+      }
+     ],
+     "why": "Jitsu is MIT self-hostable with a free cloud plan and Business at $99 per month; RudderStack has a free tier at 250K events per month and Growth from $265; Hightouch has a free plan at 2 active syncs per month; Unomi is a free self-hosted Apache project"
+    },
+    {
+     "if": "You need flags and tests to ship personalization safely",
+     "then": [
+      {
+       "name": "GrowthBook",
+       "slug": "growthbook"
+      },
+      {
+       "name": "Flagsmith",
+       "slug": "flagsmith"
+      }
+     ],
+     "why": "GrowthBook Starter is free for 3 users and Pro is $40 per seat per month; Flagsmith cloud is free to 50,000 API requests per month and Scale lists at $50 per member per month, and both are open source and self-hostable"
+    }
+   ],
+   "flow": [
+    {
+     "label": "COLLECT",
+     "sub": "events before tools"
+    },
+    {
+     "label": "UNIFY",
+     "sub": "profiles or warehouse tables"
+    },
+    {
+     "label": "PERSONALIZE",
+     "sub": "recs, content, flags"
+    },
+    {
+     "label": "TEST",
+     "sub": "what changed, keep or kill",
+     "style": "ok"
+    }
+   ],
+   "groups": [
+    {
+     "label": "STOREFRONT PERSONALIZATION",
+     "slugs": [
+      "clerk-io",
+      "dynamic-yield",
+      "nosto"
+     ]
+    },
+    {
+     "label": "PACKAGED CDPS",
+     "slugs": [
+      "segment",
+      "tealium"
+     ]
+    },
+    {
+     "label": "WAREHOUSE PIPES AND COMPOSABLE ACTIVATION",
+     "slugs": [
+      "apache-unomi",
+      "hightouch",
+      "jitsu",
+      "rudderstack"
+     ]
+    },
+    {
+     "label": "FLAGS AND TESTING",
+     "slugs": [
+      "flagsmith",
+      "growthbook"
+     ]
+    }
+   ],
+   "lead": [
+    "Personalization splits into three jobs and buyers mix them up. Storefront tools decide what each visitor sees. CDPs decide who each visitor is. Flags and tests decide who sees a change and whether it worked. This hub covers 11 tools across that split: three storefront engines, six data pipes and profile stores, and two testing and flag systems. Five of the eleven are open source with a self-hosted path.",
+    "The practical question is where the profile lives. Packaged CDPs hold it for you and bill on tracked users or events. Warehouse pipes send events to tables you own and let Hightouch push segments back out. Unomi sits alone as a self-hosted profile store with no cloud tier. If you cannot answer where identity gets resolved, fix that before you buy recommendations. Start with the pipes group if the warehouse already holds identities; start with storefront engines if recommendations must ship this quarter."
+   ],
+   "meta": "Ecommerce personalization, customer data platforms, and flags and testing. {n} tools reviewed.",
+   "reading": [
+    {
+     "note": "Why the warehouse model changes what a CDP needs to do",
+     "slug": "cdp-reckoning-warehouse-native",
+     "title": "The CDP Reckoning: Your Next CDP Is a Warehouse"
+    },
+    {
+     "note": "When your current pipes are enough and a new stack adds cost without gain",
+     "slug": "you-dont-need-new-data-stack-fivetran",
+     "title": "You Dont Need a New Data Stack: Fivetran"
+    },
+    {
+     "note": "Identity gaps that break personalization once agents act on profiles",
+     "slug": "agents-identity-debt",
+     "title": "Agents and Identity Debt"
+    }
+   ]
+  },
+  "tool_count": 11
  },
  {
   "slug": "chatbots",

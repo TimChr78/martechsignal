@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - MultiPost
-Re-check pending: pricing last verified 2026-08-28 (35 days ago).
+Re-check pending: pricing last verified 2026-08-28 (36 days ago).
 
 ## MultiPost review (2026): pricing, AI features, verdict
 
@@ -66,7 +66,7 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 | ✓ Apache-2.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI content adaptation per platform |  |
-| ✓ Active public repository (3,557 GitHub stars counted at last check) |  |
+| ✓ Active public repository (3,552 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -80,10 +80,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is MultiPost?**
-MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,557 stars.
+MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,552 stars.
 
 **How much does MultiPost cost?**
-MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,557 stars. You pay in server time and maintenance, not licences.
+MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,552 stars. You pay in server time and maintenance, not licences.
 
 **Is MultiPost a good self-hosted Social Media tool in 2026?**
 Excellent lightweight cross-poster for individual creators; agencies need more machinery.
@@ -106,9 +106,9 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 
 - **Pricing:** Open Source
 - **Category:** [Social Media](/categories/social-media/)
-- **GitHub:** ★ 3557
+- **GitHub:** ★ 3552
 - **API:** Yes
-- **Repository checked:** 2026-10-01
+- **Repository checked:** 2026-10-03
 - **Page updated:** 2026-08-28
 
 ### Pricing

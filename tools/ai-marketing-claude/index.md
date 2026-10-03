@@ -28,7 +28,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** no
 - **Catalogued integrations:** 1
-- **GitHub stars:** 2,699
+- **GitHub stars:** 2,701
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -105,7 +105,7 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Short native integration list - plan for API work |
 | ✓ AI capabilities: 15 marketing skills with 5 parallel subagents |  |
-| ✓ Active public repository (2,699 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,701 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -121,10 +121,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is AI Marketing Suite?**
-AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,699 stars.
+AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,701 stars.
 
 **How much does AI Marketing Suite cost?**
-AI Marketing Suite is open source - MIT licensed and free to self-host; the public repository carries 2,699 stars. You pay in server time and maintenance, not licences.
+AI Marketing Suite is open source - MIT licensed and free to self-host; the public repository carries 2,701 stars. You pay in server time and maintenance, not licences.
 
 **Is AI Marketing Suite a good self-hosted Agent Skills tool in 2026?**
 Best as a proposal-generation engine for agencies selling audits. For steady content work, the writing skills are the lasting value.
@@ -145,10 +145,10 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 2699
+- **GitHub:** ★ 2701
 - **Founded:** 2025
 - **API:** No
-- **Repository checked:** 2026-10-02
+- **Repository checked:** 2026-10-03
 - **Page updated:** 2026-09-28
 
 ## Get the next teardown

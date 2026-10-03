@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - ALwrity
-Re-check pending: pricing last verified 2026-08-28 (35 days ago).
+Re-check pending: pricing last verified 2026-08-28 (36 days ago).
 
 ## ALwrity review (2026): pricing, AI features, verdict
 
@@ -112,7 +112,7 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
 - **GitHub:** ★ 1178
 - **API:** Yes
-- **Repository checked:** 2026-10-01
+- **Repository checked:** 2026-10-03
 - **Page updated:** 2026-08-28
 
 ### Pricing

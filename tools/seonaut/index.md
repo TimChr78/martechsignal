@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Seonaut
-Re-check pending: pricing last verified 2026-09-07 (25 days ago).
+Re-check pending: pricing last verified 2026-09-07 (26 days ago).
 
 ## Seonaut review (2026): pricing, AI features, verdict
 
@@ -22,7 +22,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 30/60
 
-Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 800 stars; small, legible and honest about scope.
+Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 802 stars; small, legible and honest about scope.
 
 
 | Pillar | Score | Evidence |
@@ -108,7 +108,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Seonaut?**
-Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 800 stars.
+Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 802 stars.
 
 **How much does Seonaut cost?**
 Seonaut has a free tier; paid plans start at $9/mo. MIT-licensed self-hosted free; cloud Lite free for 1 project and 500 URLs per project, Growth $9/mo for 5 projects and 10,000 URLs with recurring audits. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -141,11 +141,11 @@ On core technical auditing, more than you might expect: broken links, redirect c
 
 - **Pricing:** Open Source
 - **Category:** [SEO & Search](/categories/seo/)
-- **GitHub:** ★ 800
+- **GitHub:** ★ 802
 - **Founded:** 2022
 - **HQ:** Open source
 - **API:** No
-- **Repository checked:** 2026-10-02
+- **Repository checked:** 2026-10-03
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

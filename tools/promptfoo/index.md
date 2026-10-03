@@ -85,7 +85,7 @@ An eval framework that can double as GEO prompt tracking for teams willing to wr
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ GEO tracking is assembled from eval primitives; no packaged GEO dashboard ships with it. |
 | ✓ AI capabilities: model-graded evals where one LLM scores another's answers | ✗ The 10k probes per month limit shown for hosted red teaming constrains large attack suites. |
-| ✓ Active public repository (25,631 GitHub stars counted at last check) | ✗ Cloud and enterprise pricing has no public numbers as of September 2026, so buyers end up in a sales conversation. |
+| ✓ Active public repository (25,657 GitHub stars counted at last check) | ✗ Cloud and enterprise pricing has no public numbers as of September 2026, so buyers end up in a sales conversation. |
 | ✓ Native integrations include OpenAI, Anthropic, Azure OpenAI (5 listed) |  |
 | ✓ MIT license with a large open-source repo, so the eval engine can run fully local. |  |
 | ✓ One tool covers prompt evals, model comparison and red teaming. |  |
@@ -105,10 +105,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Promptfoo?**
-Promptfoo: Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming. Promptfoo ships with model-graded evals where one LLM scores another's answers. The public repository carries 25,631 stars.
+Promptfoo: Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming. Promptfoo ships with model-graded evals where one LLM scores another's answers. The public repository carries 25,657 stars.
 
 **How much does Promptfoo cost?**
-Promptfoo is open source - MIT licensed and free to self-host; the public repository carries 25,631 stars; native integrations cover OpenAI, Anthropic, Azure OpenAI. You pay in server time and maintenance, not licences.
+Promptfoo is open source - MIT licensed and free to self-host; the public repository carries 25,657 stars; native integrations cover OpenAI, Anthropic, Azure OpenAI. You pay in server time and maintenance, not licences.
 
 **Is Promptfoo worth it past the free tier?**
 An eval framework that can double as GEO prompt tracking for teams willing to write YAML and grading rules. Not a substitute for a visibility dashboard.
@@ -141,9 +141,9 @@ The CLI generates attack probes against an application and reports findings. The
 
 - **Pricing:** Freemium
 - **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
-- **GitHub:** ★ 25631
+- **GitHub:** ★ 25657
 - **API:** Yes
-- **Repository checked:** 2026-10-02
+- **Repository checked:** 2026-10-03
 - **Page updated:** 2026-09-25
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
