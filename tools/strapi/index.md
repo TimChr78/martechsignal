@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Strapi
-Re-check pending: pricing last verified 2026-08-28 (36 days ago).
+Re-check pending: pricing last verified 2026-08-28 (38 days ago).
 
 ## Strapi review (2026): pricing, AI features, verdict
 
@@ -85,7 +85,7 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $99/mo |
 | ✓ AI capabilities: AI content generation |  |
-| ✓ Active public repository (73,272 GitHub stars counted at last check) |  |
+| ✓ Active public repository (73,275 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Next.js, Nuxt, Gatsby (8 listed) |  |
 
 ## Related concepts
@@ -101,7 +101,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Strapi?**
-Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,272 stars.
+Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,275 stars.
 
 **How much does Strapi cost?**
 Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -118,8 +118,8 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Teams that want a headless CMS with AI inside their own stack
@@ -127,11 +127,11 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 
 - **Pricing:** Open Source
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **GitHub:** ★ 73272
+- **GitHub:** ★ 73275
 - **Founded:** 2015
 - **HQ:** Paris, France
 - **API:** Yes
-- **Repository checked:** 2026-10-02
+- **Repository checked:** 2026-10-05
 - **Page updated:** 2026-08-28
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)

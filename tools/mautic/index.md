@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Mautic
-Re-check pending: pricing last verified 2026-09-07 (26 days ago).
+Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 ## Mautic review (2026): pricing, AI features, verdict
 
@@ -103,7 +103,7 @@ The most complete open-source answer to HubSpot if you have the ops capacity to 
 | Pros | Cons |
 | --- | --- |
 | ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €247.5/mo |
-| ✓ Active public repository (10,683 GitHub stars counted at last check) |  |
+| ✓ Active public repository (10,697 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Salesforce, HubSpot, Pipedrive (10 listed) |  |
 
 ## Related concepts
@@ -121,7 +121,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Mautic?**
-Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,683 stars. Mautic offers a public API for custom integrations.
+Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,697 stars. Mautic offers a public API for custom integrations.
 
 **How much does Mautic cost?**
 Mautic has a free tier; paid plans start at €247.5/mo. Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -148,8 +148,8 @@ The features page describes IP anonymization for visitor records, site tracking 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ## Also featured in
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Marketing teams that want HubSpot-class automation they can host themselves
@@ -157,11 +157,11 @@ The features page describes IP anonymization for visitor records, site tracking 
 
 - **Pricing:** Open Source
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 10683
+- **GitHub:** ★ 10697
 - **Founded:** 2014
 - **HQ:** Community project; fiscal host Open Source Collective
 - **API:** Yes
-- **Repository checked:** 2026-10-03
+- **Repository checked:** 2026-10-05
 - **Page updated:** 2026-09-07
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)

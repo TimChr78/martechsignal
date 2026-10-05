@@ -76,7 +76,7 @@ The dependable choice for ad serving on your own servers with no license fee and
 | Pros | Cons |
 | --- | --- |
 | ✓ GPL-2.0 licence with free self-hosting | ✗ You run the servers, apply updates and watch security advisories yourself. |
-| ✓ Active public repository (1,505 GitHub stars counted at last check) | ✗ Geotargeting quality depends on the MaxMind GeoLite2 plugin and its database updates. |
+| ✓ Active public repository (1,506 GitHub stars counted at last check) | ✗ Geotargeting quality depends on the MaxMind GeoLite2 plugin and its database updates. |
 | ✓ GPL-2.0 with no license fee and no per-impression charges. | ✗ The interface is mature in the old sense; anyone expecting a current SaaS UI will notice its age. |
 | ✓ Serves websites, apps and video players from one install. |  |
 | ✓ A hosted edition at revive-adserver.net exists for teams that want the software without running it. |  |
@@ -96,10 +96,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Revive Adserver?**
-Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,505 stars.
+Revive Adserver: Free open source ad server for publishers, ad networks and advertisers. The public repository carries 1,506 stars.
 
 **How much does Revive Adserver cost?**
-Revive Adserver is open source - GPL-2.0 licensed and free to self-host; the public repository carries 1,505 stars; native integrations cover MaxMind GeoLite2, Google AdSense, MySQL. You pay in server time and maintenance, not licences.
+Revive Adserver is open source - GPL-2.0 licensed and free to self-host; the public repository carries 1,506 stars; native integrations cover MaxMind GeoLite2, Google AdSense, MySQL. You pay in server time and maintenance, not licences.
 
 **Is Revive Adserver a good self-hosted Advertising & Paid Media tool in 2026?**
 The dependable choice for ad serving on your own servers with no license fee and no per-impression cost. Expect to own the ops work.
@@ -123,15 +123,15 @@ Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 dat
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Advertising & Paid Media](/categories/advertising/)
-- **GitHub:** ★ 1505
+- **GitHub:** ★ 1506
 - **API:** No
-- **Repository checked:** 2026-10-03
+- **Repository checked:** 2026-10-05
 - **Page updated:** 2026-09-25
 
 ## Get the next teardown

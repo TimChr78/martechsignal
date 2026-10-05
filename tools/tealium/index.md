@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Tealium
-Re-check pending: pricing last verified 2026-08-28 (36 days ago).
+Re-check pending: pricing last verified 2026-08-28 (38 days ago).
 
 ## Tealium review (2026): pricing, AI features, verdict
 

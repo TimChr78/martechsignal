@@ -89,7 +89,7 @@ The right choice when you want owned automation with code-level control and no p
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at €20/mo |
 | ✓ AI capabilities: AI agent nodes |  |
-| ✓ Active public repository (206,531 GitHub stars counted at last check) |  |
+| ✓ Active public repository (206,673 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Slack, Google Sheets, Gmail (8 listed) |  |
 
 ## Related concepts
@@ -107,7 +107,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is n8n?**
-n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,531 stars.
+n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,673 stars.
 
 **How much does n8n cost?**
 n8n has a free tier; paid plans start at €20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -124,8 +124,8 @@ The right choice when you want owned automation with code-level control and no p
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for self-hosted workflows with code steps and AI agents.
@@ -136,11 +136,11 @@ The right choice when you want owned automation with code-level control and no p
 
 - **Pricing:** Open Source
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 206531
+- **GitHub:** ★ 206673
 - **Founded:** 2019
 - **HQ:** Berlin, Germany
 - **API:** Yes
-- **Repository checked:** 2026-10-03
+- **Repository checked:** 2026-10-05
 - **Page updated:** 2026-09-27
 
 Related guides: [n8n in Zapier alternatives](/alternatives/zapier/) · [n8n vs Zapier](/vs/n8n-vs-zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

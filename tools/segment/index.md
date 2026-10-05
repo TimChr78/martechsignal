@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Twilio Segment
-Re-check pending: pricing last verified 2026-09-06 (27 days ago).
+Re-check pending: pricing last verified 2026-09-06 (29 days ago).
 
 ## Twilio Segment review (2026): pricing, AI features, verdict
 

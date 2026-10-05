@@ -130,8 +130,8 @@ Last verified 2026-09-28.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- NocoDB - 65,165 stars, +312 in the 28-snapshot window to 2026-10-03 64,853→65,165 [verify on GitHub](https://github.com/nocodb/nocodb)
-- NocoBase - 24,439 stars, +600 in the 40-snapshot window to 2026-10-03 23,839→24,439 [verify on GitHub](https://github.com/nocobase/nocobase)
+- NocoDB - 65,190 stars, +337 in the 30-snapshot window to 2026-10-05 64,853→65,190 [verify on GitHub](https://github.com/nocodb/nocodb)
+- NocoBase - 24,451 stars, +612 in the 42-snapshot window to 2026-10-05 23,839→24,451 [verify on GitHub](https://github.com/nocobase/nocobase)
 [All movers on the trending page](/trending/).
 
 ## Get the next teardown

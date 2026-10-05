@@ -8,6 +8,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent
+
+An agent can now run a marketing loop end to end on open source. We counted this morning from the directory: 19 of the 81 open-source tools we track list an MCP server among their…
+
 ### SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing
 
 On September 23, 2026, the behavioral intelligence company SQREEM appointed Stephen Yap as CEO and handed him a contrarian pitch to sell: the company's Large Behavioral Model, a…
@@ -19,10 +23,6 @@ Jon Miller co-founded Marketo, then founded Engagio, the account-based marketing
 ### Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters
 
 HubSpot published a post this month on the psychology of AI progress indicators. In it, Phill Agnew describes something most of us watched happen in 2025: the major answer engines…
-
-### Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough
-
-On September 22, Salesforce published two blog posts. One, from the Commerce Cloud team, is titled "Build Agents Your Way with Claude and Commerce Cloud." It invites merchants to…
 
 ## Tool index
 

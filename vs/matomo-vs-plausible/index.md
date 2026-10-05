@@ -130,8 +130,8 @@ Last verified 2026-09-28.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Matomo - 21,920 stars, +115 in the 40-snapshot window to 2026-10-03 21,805→21,920 [verify on GitHub](https://github.com/matomo-org/matomo)
-- Plausible Analytics - 29,284 stars, +536 in the 40-snapshot window to 2026-10-03 28,748→29,284 [verify on GitHub](https://github.com/plausible/analytics)
+- Matomo - 21,923 stars, +118 in the 42-snapshot window to 2026-10-05 21,805→21,923 [verify on GitHub](https://github.com/matomo-org/matomo)
+- Plausible Analytics - 29,314 stars, +566 in the 42-snapshot window to 2026-10-05 28,748→29,314 [verify on GitHub](https://github.com/plausible/analytics)
 [All movers on the trending page](/trending/).
 
 ## Get the next teardown

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - OpenSEO
-Re-check pending: pricing last verified 2026-09-07 (26 days ago).
+Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 ## OpenSEO review (2026): pricing, AI features, verdict
 
@@ -89,7 +89,7 @@ A fast-moving self-hosted SEO workbench with a genuine AI-visibility layer and u
 | Pros | Cons |
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $10/mo |
-| ✓ Active public repository (22,195 GitHub stars counted at last check) |  |
+| ✓ Active public repository (22,363 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -106,7 +106,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is OpenSEO?**
-OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 22,195 stars.
+OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 22,363 stars.
 
 **How much does OpenSEO cost?**
 OpenSEO has a free tier; paid plans start at $10/mo. Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -133,17 +133,17 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [SEO & Search](/categories/seo/)
-- **GitHub:** ★ 22195
+- **GitHub:** ★ 22363
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** No
-- **Repository checked:** 2026-10-03
+- **Repository checked:** 2026-10-05
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

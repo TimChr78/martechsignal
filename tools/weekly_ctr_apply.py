@@ -180,16 +180,19 @@ def apply_entry(entry, do_build=True):
                 for line in raw.strip().splitlines():
                     m=re.match(r'(\w+):\s*(.+)', line)
                     if m: meta[m.group(1)]=m.group(2).strip().strip('"').strip("'")
-                old_title = meta.get("title","")
-                # replace title line
+                old_title = meta.get("seo_title") or meta.get("title","")
+                # replace title line. build_blog.py renders <title>/og:title from the
+                # seo_title frontmatter when present (H1 keeps the full title), so
+                # patching only `title:` silently did nothing on posts that have one.
                 if new_title:
-                    if re.search(r'^title:\s*.*', raw, flags=re.MULTILINE):
-                        raw = re.sub(r'^title:\s*.*', f'title: "{new_title}"', raw, flags=re.MULTILINE)
+                    key = "seo_title" if re.search(r'^seo_title:\s*.*', raw, flags=re.MULTILINE) else "title"
+                    if re.search(rf'^{key}:\s*.*', raw, flags=re.MULTILINE):
+                        raw = re.sub(rf'^{key}:\s*.*', f'{key}: "{new_title}"', raw, flags=re.MULTILINE)
                     else:
-                        raw = f'title: "{new_title}"\n' + raw
-                    print(f"  ✓ {target.name}: title {old_title!r} -> {new_title!r}")
-                # blog meta: we store proposed meta as frontmatter seo_description if present, else rely on build_blog excerpt
-                # Introduce optional seo_description frontmatter field (build_blog.py should be patched to prefer it, but for now we just record it)
+                        raw = f'{key}: "{new_title}"\n' + raw
+                    print(f"  ✓ {target.name}: {key} {old_title!r} -> {new_title!r}")
+                # blog meta: stored as frontmatter seo_description; build_blog.py
+                # prefers it over the first-paragraph excerpt (patched 2026-10-05).
                 if new_meta:
                     if "seo_description" in raw:
                         raw = re.sub(r'^seo_description:\s*.*', f'seo_description: "{new_meta}"', raw, flags=re.MULTILINE)

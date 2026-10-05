@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Umami
-Re-check pending: pricing last verified 2026-09-07 (26 days ago).
+Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 ## Umami review (2026): pricing, AI features, verdict
 
@@ -96,7 +96,7 @@ Light, honest, cookieless analytics you can own outright; the AI-free tracking s
 | Pros | Cons |
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $20/mo |
-| ✓ Active public repository (39,132 GitHub stars counted at last check) |  |
+| ✓ Active public repository (39,175 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WordPress (community plugin), Next.js, Vercel (5 listed) |  |
 
 ## Related concepts
@@ -113,7 +113,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Umami?**
-Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 39,132 stars. Umami offers a public API for custom integrations.
+Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 39,175 stars. Umami offers a public API for custom integrations.
 
 **How much does Umami cost?**
 Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -139,8 +139,8 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.
@@ -148,10 +148,10 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 
 - **Pricing:** Open Source
 - **Category:** [Analytics & Attribution](/categories/analytics/)
-- **GitHub:** ★ 39132
+- **GitHub:** ★ 39175
 - **Founded:** 2020
 - **API:** Yes
-- **Repository checked:** 2026-10-03
+- **Repository checked:** 2026-10-05
 - **Page updated:** 2026-09-07
 
 Related guides: [Umami in Matomo alternatives](/alternatives/matomo/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/)

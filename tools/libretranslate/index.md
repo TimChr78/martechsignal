@@ -77,7 +77,7 @@ The translation API to run yourself when cost control and data handling matter m
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Translation quality sits below the large commercial engines, especially in uncommon language pairs |
 | ✓ AI capabilities: neural machine translation via Argos Translate models | ✗ The hosted API publishes no extractable price page, so per-character costs are unknown until quoted |
-| ✓ Active public repository (16,977 GitHub stars counted at last check) | ✗ Self-hosting demands GPU or CPU capacity that scales with volume, and translation is resource-heavy |
+| ✓ Active public repository (16,989 GitHub stars counted at last check) | ✗ Self-hosting demands GPU or CPU capacity that scales with volume, and translation is resource-heavy |
 | ✓ Free to self-host under AGPL-3.0, including commercial use, with no per-character billing |  |
 | ✓ Runs offline once models are downloaded, which settles data handling questions outright |  |
 | ✓ The Swagger-documented REST API makes it a drop-in translation backend for other software |  |
@@ -95,10 +95,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is LibreTranslate?**
-LibreTranslate: Open-source machine translation API for content localization, self-hostable and free of vendor lock-in. LibreTranslate ships with neural machine translation via Argos Translate models. The public repository carries 16,977 stars.
+LibreTranslate: Open-source machine translation API for content localization, self-hostable and free of vendor lock-in. LibreTranslate ships with neural machine translation via Argos Translate models. The public repository carries 16,989 stars.
 
 **How much does LibreTranslate cost?**
-LibreTranslate is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 16,977 stars; native integrations cover Mastodon, Argos Translate, OpenAPI/Swagger. You pay in server time and maintenance, not licences.
+LibreTranslate is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 16,989 stars; native integrations cover Mastodon, Argos Translate, OpenAPI/Swagger. You pay in server time and maintenance, not licences.
 
 **Is LibreTranslate a good self-hosted AI Content & Copywriting tool in 2026?**
 The translation API to run yourself when cost control and data handling matter more than peak quality. Good for drafts and internal content; keep human review for customer-facing copy.
@@ -124,15 +124,15 @@ Anything that can call a REST API. Mastodon is the best-known example, where adm
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **GitHub:** ★ 16977
+- **GitHub:** ★ 16989
 - **API:** Yes
-- **Repository checked:** 2026-10-03
+- **Repository checked:** 2026-10-05
 - **Page updated:** 2026-09-25
 
 ## Get the next teardown

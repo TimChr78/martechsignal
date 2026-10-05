@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Oct 2026 13:09:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 05:27:30 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent</title>
+      <link>https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description>An agent can now run a marketing loop end to end on open source. We counted this morning from the directory: 19 of the 81 open-source tools we track list an MCP server among their…</description>
+    </item>
     <item>
       <title>SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing</title>
       <link>https://martechsignal.com/blog/sqreem-behavioral-model-vs-llm/</link>

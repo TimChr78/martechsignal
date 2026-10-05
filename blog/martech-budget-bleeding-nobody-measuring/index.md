@@ -121,6 +121,6 @@ Browse the [MartechSignal tools directory](/tools/) before the next renewal. The
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [PostHog](/tools/posthog/)
+More from the directory: [Writesonic](/tools/writesonic/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

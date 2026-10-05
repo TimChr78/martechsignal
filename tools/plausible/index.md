@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Plausible Analytics
-Re-check pending: pricing last verified 2026-08-28 (36 days ago).
+Re-check pending: pricing last verified 2026-08-28 (38 days ago).
 
 ## Plausible Analytics review (2026): pricing, AI features, verdict
 
@@ -82,7 +82,7 @@ The analytics tool we recommend by default for content and marketing sites; powe
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo |
 | ✓ AI capabilities: AI-powered insights |  |
-| ✓ Active public repository (29,284 GitHub stars counted at last check) |  |
+| ✓ Active public repository (29,314 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WordPress, Ghost, Webflow (6 listed) |  |
 
 ## Related concepts
@@ -99,7 +99,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Plausible Analytics?**
-Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,284 stars.
+Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,314 stars.
 
 **How much does Plausible Analytics cost?**
 Plausible Analytics has a free tier; paid plans start at $9/mo. Self-hosted free (AGPL); Cloud from $9/mo (10K pageviews); scales with traffic. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -125,11 +125,11 @@ The analytics tool we recommend by default for content and marketing sites; powe
 
 - **Pricing:** Open Source
 - **Category:** [Analytics & Attribution](/categories/analytics/)
-- **GitHub:** ★ 29284
+- **GitHub:** ★ 29314
 - **Founded:** 2019
 - **HQ:** Tallinn, Estonia
 - **API:** Yes
-- **Repository checked:** 2026-10-03
+- **Repository checked:** 2026-10-05
 - **Page updated:** 2026-08-28
 
 Related guides: [Plausible Analytics in Matomo alternatives](/alternatives/matomo/) · [Plausible Analytics vs Matomo](/vs/matomo-vs-plausible/)

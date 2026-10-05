@@ -473,8 +473,14 @@ def build_post(meta: dict, body_html: str) -> str:
     # on the homepage ("specification c", "actually me").
     first_p = re.search(r'<p>(.+?)</p>', body_html, re.DOTALL)
     _raw_ex = re.sub(r'<[^>]+>', '', first_p.group(1)) if first_p else ''
-    excerpt = (_raw_ex[:200].rsplit(' ', 1)[0].rstrip(' ,;:') + '\u2026'
+    excerpt = (_raw_ex[:200].rsplit(' ', 1)[0].rstrip(' ,;:') + '…'
                if len(_raw_ex) > 200 else _raw_ex)
+    # Explicit meta description override (frontmatter seo_description), written by
+    # the weekly CTR loop via weekly_ctr_apply.py. Without this an approved blog
+    # meta was recorded in frontmatter but never rendered - the description kept
+    # falling back to the first-paragraph excerpt.
+    if (meta.get('seo_description') or '').strip():
+        excerpt = meta['seo_description'].strip()
 
     # Read time from word count (~200 wpm), tags as kicker
     words = len(re.sub(r'<[^>]+>', ' ', body_html).split())

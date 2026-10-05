@@ -50,9 +50,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Promptfoo - 25,657 stars, +197 in the 8-snapshot window to 2026-10-03 25,460→25,657 [verify on GitHub](https://github.com/promptfoo/promptfoo)
-- Claude SEO - 18,188 stars, +3,092 in the 40-snapshot window to 2026-10-03 15,096→18,188 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
-- Codex SEO - 776 stars, +156 in the 40-snapshot window to 2026-10-03 620→776 [verify on GitHub](https://github.com/AgriciDaniel/codex-seo)
+- Promptfoo - 25,710 stars, +250 in the 10-snapshot window to 2026-10-05 25,460→25,710 [verify on GitHub](https://github.com/promptfoo/promptfoo)
+- Claude SEO - 18,284 stars, +3,188 in the 42-snapshot window to 2026-10-05 15,096→18,284 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
+- Codex SEO - 777 stars, +157 in the 42-snapshot window to 2026-10-05 620→777 [verify on GitHub](https://github.com/AgriciDaniel/codex-seo)
 [All movers on the trending page](/trending/).
 
 ## [Semrush](/tools/semrush/)

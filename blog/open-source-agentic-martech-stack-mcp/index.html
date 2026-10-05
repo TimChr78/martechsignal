@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>19 open-source MCP servers, one marketing agent</title>
+<meta name="description" content="An agent can now run a marketing loop end to end on open source. We counted this morning from the directory: 19 of the 81 open-source tools we track list.">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="article">
+<link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="19 open-source MCP servers, one marketing agent">
+<meta property="og:description" content="An agent can now run a marketing loop end to end on open source. We counted this morning from the directory: 19 of the 81 open-source tools we track list.">
+<meta property="og:url" content="https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/">
+<meta property="og:image" content="https://martechsignal.com/og/open-source-agentic-martech-stack-mcp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/">
+<link rel="ard ai-catalog" type="application/json" href="https://martechsignal.com/.well-known/ard.json">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin><style>:root{--bg: #080E1A;--card: #0F1B31;--line: #1D2B47;--line2: #2A3D63;--text: #E9EEF8;--muted: #8FA1C0;--amber: #FFB224;--green: #3DDC97;--red: #F87171;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--body: 'Archivo', 'Archivo-fallback', sans-serif}*{margin: 0;padding: 0;box-sizing: border-box}html{scroll-behavior: smooth}body{background: var(--bg);color: var(--text);font-family: var(--body);line-height: 1.65;-webkit-font-smoothing: antialiased}.page-post body, body.page-post{line-height: 1.7}::selection{background: var(--amber);color: #141005}a{color: inherit}.bg{position: fixed;inset: 0;z-index: -1;background: radial-gradient(900px 520px at 88% -8%, rgba(255,178,36,.11), transparent 62%), radial-gradient(760px 560px at -12% 34%, rgba(61,220,151,.07), transparent 60%), radial-gradient(700px 400px at 60% 110%, rgba(255,92,92,.05), transparent 60%), var(--bg)}.bg::before{content: "";position: absolute;inset: 0;background-image: linear-gradient(rgba(140,165,210,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(140,165,210,.05) 1px, transparent 1px);background-size: 46px 46px;mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 30%, transparent 100%)}.page-tools .bg::before{display: none}.wrap{max-width: 1080px;margin: 0 auto;padding: 0 1.25rem}.masthead{border-bottom: 1px solid var(--line)}.mast-in{max-width: 1080px;margin: 0 auto;padding: 1.1rem 1.25rem;display: flex;align-items: center;justify-content: space-between}.wordmark{font-family: var(--disp);font-size: 1.15rem;letter-spacing: .03em;text-decoration: none;display: flex;align-items: center;gap: .5rem}.wordmark b{color: var(--amber);font-weight: inherit}.pulse-dot{width: 8px;height: 8px;border-radius: 50%;background: var(--amber);animation: brandpulse 2s ease-in-out infinite}@keyframes brandpulse{0%,100%{box-shadow: 0 0 0 0 rgba(255,178,36,.4)}55%{box-shadow: 0 0 0 6px rgba(255,178,36,0)}}@media (prefers-reduced-motion: reduce){.pulse-dot{animation: none}}@keyframes blink{50%{opacity: 0}}.mast-nav{display: flex;gap: 1.4rem}.mast-nav a{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);text-decoration: none;transition: color .2s}.mast-nav a:hover{color: var(--amber)}@media (max-width: 700px){.mast-nav{overflow-x: auto;scrollbar-width: none;-webkit-mask-image: linear-gradient(90deg, #000 88%, transparent);mask-image: linear-gradient(90deg, #000 88%, transparent)}.mast-nav::-webkit-scrollbar{display: none}}.mast-right{display: flex;align-items: center;gap: 1.1rem}.live{display: inline-flex;align-items: center;gap: .45rem;font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--green);border: 1px solid rgba(61,220,151,.35);padding: .32rem .7rem;border-radius: 99px;background: rgba(61,220,151,.07)}.live i{width: 7px;height: 7px;border-radius: 50%;background: var(--green);animation: pulse 1.6s ease-in-out infinite}.pulse-dot{position: relative}.pulse-dot::after{content: "";position: absolute;inset: -2px;border: 2px solid rgba(61,220,151,.5);border-radius: inherit;animation: pulse 2.2s ease-out infinite;will-change: opacity, transform}@keyframes pulse{0%{opacity: .6;transform: scale(.85)}55%{opacity: 0;transform: scale(1.5)}100%{opacity: 0;transform: scale(1.5)}}.mast-date{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted)}@media (max-width: 560px){.mast-date{display: none}}@media (max-width: 560px){.mast-right .live{display: none}}.page-tools footer{margin-top: 2rem}.btn{display: inline-block;background: var(--amber);color: #141005;font: 700 .92rem var(--body);text-decoration: none;padding: .75rem 1.5rem;border-radius: 6px;transition: transform .2s, box-shadow .2s}.btn:hover{transform: translateY(-2px);box-shadow: 0 10px 28px rgba(255,178,36,.3)}html.js .reveal:not(.in){opacity: 0;transform: translateY(18px);transition: opacity .7s ease, transform .7s ease}html.js .reveal.in, html.js .reveal.in, .reveal.in{opacity: 1;transform: none}@media (prefers-reduced-motion: reduce){*, *::before, *::after{animation: none !important;transition: none !important}}.kicker{font: 600 0.8rem var(--mono);letter-spacing: .16em;color: var(--amber);margin-bottom: 1rem}.hero{display: grid;grid-template-columns: 1.12fr .88fr;gap: 3.2rem;align-items: end;padding: 4.6rem 0 1.2rem}@media (max-width: 880px){.hero{grid-template-columns: 1fr;gap: 1rem;padding: 1rem 1.25rem .4rem;align-items: start}.hero h1{font-size: 2rem;line-height: 1.12}.hero p{margin: .35rem 0}}.lede{color: var(--muted);font-size: 1.1rem;max-width: 34rem;margin: 1.4rem 0 1.9rem}.hero-cta{display: flex;align-items: center;gap: 1.3rem;flex-wrap: wrap}.micro{font: 500 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);margin-top: 1.5rem}.spec{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.5rem 1.5rem 1.7rem;box-shadow: 0 24px 60px rgba(2,6,16,.5)}@keyframes eq{from{transform: scaleY(.35)}to{transform: scaleY(1)}}.spec dl{display: grid;gap: 0}.spec dl > div{display: flex;justify-content: space-between;align-items: baseline;padding: .62rem 0;border-top: 1px dashed var(--line2)}.spec dt{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted);text-transform: uppercase}.spec dd{font: 600 .86rem var(--body);color: var(--text)}.spec dd.ok{color: var(--green)}.crumb{padding: 1.2rem 0 .4rem;font: 500 0.8rem var(--mono);letter-spacing: .1em;color: var(--muted)}.crumb a{color: var(--muted);text-decoration: none;transition: color .2s}.crumb a{min-height: 44px;display: inline-flex;align-items: center}.crumb a:hover{color: var(--amber)}.crumb span{color: var(--amber)}.page-tools .page-head{padding: 2.2rem 0 1.6rem;border-bottom: 1px solid var(--line)}.page-tools .page-head h1{font-family: var(--disp);font-weight: 400;font-size: clamp(1.8rem, 4vw, 2.8rem);letter-spacing: -.01em}.page-tools .page-head .sub{color: var(--muted);font-size: 1.05rem;margin-top: .6rem;max-width: 42rem}.page-tools .page-head .count{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--amber);margin-top: .8rem}.tool-grid{display: grid;grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));gap: 1.2rem;padding: 1.8rem 0}.tool-card{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.4rem 1.5rem;text-decoration: none;transition: border-color .25s, transform .25s, box-shadow .25s;display: flex;flex-direction: column;gap: .6rem}.tool-card:hover{border-color: var(--amber);transform: translateY(-3px);box-shadow: 0 12px 36px rgba(2,6,16,.5)}.tool-card .name{font: 700 1.1rem var(--body);letter-spacing: -.01em;margin: 0}.tool-card .tagline{color: var(--muted);font-size: .9rem;line-height: 1.5;flex: 1}.tool-card .meta{display: flex;gap: .6rem;flex-wrap: wrap;align-items: center}.tool-card img{width: 100%;height: auto;display: block;border-radius: 8px}.made-badge{font-size: .92rem;line-height: 1.5;border: 1px solid var(--amber);border-radius: 8px;padding: .6rem .9rem;margin: .8rem 0;background: rgba(255,255,255,.02)}.hero-cols{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:2.5rem;align-items:start}@media(max-width:1080px){.hero-cols{grid-template-columns:1fr}}.hero-side .stats-card{display:grid;gap:1rem;grid-template-columns:repeat(3,1fr);text-align:center}@media(max-width:700px){.hero-side .stats-card{grid-template-columns:1fr}}.cat-nav{display: flex;gap: .6rem;flex-wrap: wrap;padding: 1.2rem 0}.cat-pill{font: 600 0.8rem var(--mono);letter-spacing: .08em;padding: .45rem .9rem;border-radius: 99px;border: 1px solid var(--line2);color: var(--muted);text-decoration: none;transition: all .2s}.cat-pill:hover, .cat-pill.active{border-color: var(--amber);color: var(--amber);background: rgba(255,178,36,.06)}@keyframes wirepulse{0%{left: 0;opacity: 0}12%{opacity: 1}88%{opacity: 1}100%{left: calc(100% - 8px);opacity: 0}}#progress{position: fixed;top: 0;left: 0;height: 3px;width: 0;background: var(--amber);z-index: 99;box-shadow: 0 0 12px rgba(255,178,36,.6)}@media (prefers-reduced-motion: reduce){#progress{display: none}}html, body{overflow-x: clip}.bg{width: 100vw;max-width: 100%}@media (max-width: 480px){.mast-in{row-gap: .5rem;padding-inline: clamp(.9rem, 4vw, 1.5rem)}}.tool-body, .page-tools main p, .page-tools main li{max-width: 72ch}.page-tools main h2, .page-tools main h3{max-width: 40ch}:root{--body: 'Archivo', 'Archivo-fallback', sans-serif;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace}.mast-nav a, .foot-links a, footer nav a, .footer-nav a{display: inline-block;padding: 12px 8px;margin: -12px -8px}.breadcrumbs a, .crumbs a{display: inline-block;padding: 12px 6px;margin: -12px -6px}.disclosure-strip{font: 500 .78rem var(--mono);letter-spacing: .06em;color: var(--muted);margin: .5rem 0 0}@media (max-width: 700px){.disclosure-strip, .vs-figures figcaption{font-size: 13px}}.tool-card.is-hidden,.hub-group.is-hidden{display:none}.crumb a,.footer a,.alt-back a,.back,.hub-links a,.post-list a{display:inline-block;padding-block:5px}.mast-nav a{display:inline-block;padding-block:4px}.crumb a,.byline a,.post-meta a,.foot-links a{display:inline-block}.crumb ol{align-items:center}.crumb li{display:flex;align-items:center}.crumb li:not(:last-child)::after{content:"/";margin-inline:.4rem;color:var(--muted)}@media (max-width:700px){.mast-in{flex-wrap:nowrap;align-items:center;gap:.5rem;padding:.2rem 0}.wordmark{flex:0 0 auto}.mast-nav{flex:1 1 auto;display:flex;flex-wrap:nowrap;overflow-x:auto;gap:.1rem;scrollbar-width:none}.mast-nav::-webkit-scrollbar{display:none}.mast-nav{-webkit-mask-image:linear-gradient(90deg,#000 92%,transparent);mask-image:linear-gradient(90deg,#000 92%,transparent)}.mast-nav a{flex:0 0 auto;min-height:44px;display:inline-flex;align-items:center;padding-inline:.55rem;font-size:.78rem}.crumb a,.byline a,.post-meta a{position:relative}.crumb a::after,.byline a::after,.post-meta a::after{content:"";position:absolute;inset-block:-10px;inset-inline:-4px}}</style><link rel="stylesheet" href="/style.min.css?v=fc1c2048"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelectors": [
+      "h1",
+      "article h2"
+    ]
+  },
+  "@type": "BlogPosting",
+  "headline": "The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent",
+  "description": "An agent can now run a marketing loop end to end on open source. We counted this morning from the directory: 19 of the 81 open-source tools we track list.",
+  "author": {
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/logo.png"
+    }
+  },
+  "datePublished": "2026-10-05",
+  "dateModified": "2026-10-05",
+  "mainEntityOfPage": "https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/open-source-agentic-martech-stack-mcp.png",
+    "width": 1200,
+    "height": 630
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://martechsignal.com/blog/#blog"
+  },
+  "inLanguage": "en",
+  "wordCount": 1338,
+  "articleSection": "open-source, agent-skills"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent",
+      "item": "https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/"
+    }
+  ]
+}
+</script>
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+<script src="/site.js?v=dee24ac7" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/", "dateModified": "2026-10-05"}</script>
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">OPEN SOURCE · MCP · 7 MIN</p>
+<h1>The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent</h1>
+
+<img class="post-hero" src="/og/hero-open-source-agentic-martech-stack-mcp.webp" alt="The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent" width="1200" height="630" srcset="/og/hero-open-source-agentic-martech-stack-mcp-480.webp 480w, /og/hero-open-source-agentic-martech-stack-mcp-800.webp 800w, /og/hero-open-source-agentic-martech-stack-mcp.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="disclosure-strip"><a href="/methodology/">How we review</a> · No affiliate links</p>
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent</p>
+<p class="meta"><time datetime="2026-10-05">OCT 05, 2026</time></p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/open-source/">Open-Source Tools</a> · <a href="/categories/agent-skills/">Agent Skills</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#what-the-count-covers">What the count covers</a> · <a href="#the-loop-layer-by-layer">The loop, layer by layer</a> · <a href="#tool-counts-are-the-real-story">Tool counts are the real story</a> · <a href="#the-edge-cases-stated-plainly">The edge cases, stated plainly</a> · <a href="#what-this-stack-asks-of-you">What this stack asks of you</a></nav>
+<p>An agent can now run a marketing loop end to end on open source. We counted this morning from the <a href="/tools/">directory</a>: 19 of the 81 open-source tools we track list an MCP server among their AI features. Five of them cover the whole loop. A CRM holds the records, an automation platform does the sends, analytics watches the results, a flagging tool runs the experiments, and one gateway reaches the two platforms that have no open path at all, Google Ads and Meta Ads. The software costs nothing. The bill is hosting time and supervision.</p>
+
+<h2 id="what-the-count-covers">What the count covers</h2>
+
+<p>A number like this is only as good as its counting rule, so here is ours. A tool is in if its catalog record names an MCP server as one of its AI features. That gives 19, listed below. Four more tools document working MCP servers in their research notes without the headline listing, and three mentions fail the test outright. Those edge cases get their own section further down, because they are where sloppy counts go wrong.</p>
+
+<div class="table-wrap"><table><thead><tr><th>Tool</th><th>The MCP claim in its catalog record</th></tr></thead><tbody><tr><td><a href="/tools/twenty/">Twenty</a></td><td>Native MCP server on Cloud workspaces (vendor site claim)</td></tr><tr><td><a href="/tools/relaticle/">Relaticle</a></td><td>37-tool MCP server</td></tr><tr><td><a href="/tools/activepieces/">Activepieces</a></td><td>MCP and API access, free tier</td></tr><tr><td><a href="/tools/matomo/">Matomo</a></td><td>Official MCP Server plugin</td></tr><tr><td><a href="/tools/jitsu/">Jitsu</a></td><td>MCP server for agent-driven setup</td></tr><tr><td><a href="/tools/growthbook/">GrowthBook</a></td><td>MCP server for Claude, Cursor, and VS Code</td></tr><tr><td><a href="/tools/google-meta-ads-ga4-mcp/">Google Ads + Meta Ads + GA4 MCP</a></td><td>250+ MCP tools across the three platforms</td></tr><tr><td><a href="/tools/open-mercato/">Open Mercato</a></td><td>MCP server exposing about 70 tools</td></tr><tr><td><a href="/tools/nocodb/">NocoDB</a></td><td>MCP server for record-level agent access</td></tr><tr><td><a href="/tools/flagsmith/">Flagsmith</a></td><td>MCP server for natural-language flag management</td></tr><tr><td><a href="/tools/tooljet/">ToolJet</a></td><td>MCP server (beta) for Claude Code, Codex, and Cursor builds</td></tr><tr><td><a href="/tools/cordys-crm/">Cordys CRM</a></td><td>MCP server with 11 tools for external AI agents</td></tr><tr><td><a href="/tools/deskcommcrm/">DeskcommCRM</a></td><td>MCP server exposing the CRM to external agents</td></tr><tr><td><a href="/tools/dolibarr/">Dolibarr ERP/CRM</a></td><td>Experimental MCP server and AI assistant (24.0)</td></tr><tr><td><a href="/tools/email-marketing-bible/">Email Marketing Bible</a></td><td>ESP control via MCP: Klaviyo, Mailchimp, Resend, beehiiv, Omnisend</td></tr><tr><td><a href="/tools/line-harness/">Line Harness</a></td><td>MCP server for Claude Code: scenarios, inbox, broadcasts</td></tr><tr><td><a href="/tools/macro/">Macro</a></td><td>MCP server exposing unified workspace search</td></tr><tr><td><a href="/tools/react-email-editor/">React Email Editor</a></td><td>Unlayer MCP server (beta), 14 documented tools</td></tr><tr><td><a href="/tools/wacrm/">WaCRM</a></td><td>MCP server for Claude and Cursor</td></tr></tbody></table></div>
+
+<h2 id="the-loop-layer-by-layer">The loop, layer by layer</h2>
+
+<p>Here is the stack the brief promises, with the role each server plays. The agent harness on top can be any MCP client: Claude Code, Cursor, a custom script. The catalog does not gate on which one.</p>
+
+<div class="table-wrap"><table class="cmp">
+<thead><tr><th>Layer</th><th>Pick</th><th>Cost to start</th></tr></thead></div>
+<tr>
+  <td><strong>Records</strong></td>
+  <td class="oss-price"><a href="/tools/twenty/">Twenty</a> (Cloud) or <a href="/tools/relaticle/">Relaticle</a> (self-hosted)</td>
+  <td class="oss-price">$0 self-hosted; Twenty Cloud Pro $9/user/mo</td>
+</tr>
+<tr>
+  <td><strong>Hands</strong></td>
+  <td class="oss-price"><a href="/tools/activepieces/">Activepieces</a></td>
+  <td class="oss-price">Free tier, 100 credits/day</td>
+</tr>
+<tr>
+  <td><strong>Eyes</strong></td>
+  <td class="oss-price"><a href="/tools/matomo/">Matomo</a> + <a href="/tools/jitsu/">Jitsu</a></td>
+  <td class="oss-price">$0; Jitsu free tier 200k events/mo</td>
+</tr>
+<tr>
+  <td><strong>Experiments</strong></td>
+  <td class="oss-price"><a href="/tools/growthbook/">GrowthBook</a></td>
+  <td class="oss-price">Starter free, 3 users</td>
+</tr>
+<tr>
+  <td><strong>Paid gateway</strong></td>
+  <td class="oss-price"><a href="/tools/google-meta-ads-ga4-mcp/">google-meta-ads-ga4-mcp</a></td>
+  <td class="oss-price">$0, MIT licensed</td>
+</tr>
+<tr>
+  <td><strong>Stack total</strong></td>
+  <td class="oss-price">License cost of the five layers</td>
+  <td class="oss-price">$0 + hosting</td>
+</tr>
+<tr>
+  <td><strong>SaaS anchors</strong></td>
+  <td class="com-price"><a href="/tools/zapier/">Zapier</a> Professional $19.99/mo, <a href="/tools/klaviyo/">Klaviyo</a> from ~$20/mo, <a href="/tools/segment/">Segment</a> Team $120/mo</td>
+  <td class="com-price">$160/mo and up, before a CRM or experiments suite</td>
+</tr>
+</table>
+
+<p>In practice, Matomo's plugin exposes reports to MCP clients, with write actions gated, so the agent reads traffic itself instead of waiting for a screenshot. Jitsu's server is for setup rather than queries: the agent wires new event pipelines in plain language. GrowthBook exposes flag and experiment management to the same client, so the agent can read an experiment result and, with permissions set carefully, ship the winner. Activepieces is the hands: its flows become callable tools over MCP, which is how a decision turns into an email that goes out. Twenty's site says every Cloud workspace ships with a native MCP server that reads and writes CRM data; Relaticle's server exposes 37 tools if you would rather keep the records on your own box.</p>
+
+<div class="callout">
+<p><strong>The ad platforms are the exception, and one server covers them.</strong> Nothing open source replaces a Google or Meta ads account; both stay paid and closed. The way in is <a href="/tools/google-meta-ads-ga4-mcp/">google-meta-ads-ga4-mcp</a>: 250-plus tools for campaign reads, pauses, budget moves, and spend reconciliation across Google Ads, Meta Ads, and GA4 in one place. The record counts roughly 150 Google Ads tools and 80-plus Meta tools inside that total. One MCP registration replaces the tab-juggling.</p>
+</div>
+
+<h2 id="tool-counts-are-the-real-story">Tool counts are the real story</h2>
+
+<p>Nineteen is the headline, but the interesting number is granularity. MCP servers vary widely in what they expose; some offer a handful of tools and some offer hundreds.</p>
+
+<p><a href="/tools/relaticle/">Relaticle</a> documents 37 tools. <a href="/tools/open-mercato/">Open Mercato</a>, an MIT-licensed commerce and CRM framework, exposes about 70. The ads gateway carries 250-plus. At the thin end, <a href="/tools/cordys-crm/">Cordys CRM</a> ships 11. When you plan an agent's responsibilities, this matters more than the count of servers: a server with 11 tools can read records but will not run your lifecycle marketing. Depth, not presence, is the selection criterion, and it is the reason the five-layer stack above picks one deep server per layer instead of ten shallow ones.</p>
+
+<h2 id="the-edge-cases-stated-plainly">The edge cases, stated plainly</h2>
+
+<p>Four tools document real MCP servers without carrying the headline listing: <a href="/tools/posthog/">PostHog</a>, whose official hosted server <a href="https://github.com/PostHog/mcp">lives in its own repo</a> and ships flag, analytics, and error-tracking tools to any MCP client; <a href="/tools/alphone/">AlphOne</a>, which has spoken MCP natively since version 0.9.0; <a href="/tools/openseo/">OpenSEO</a>, which added a server in May 2026; and <a href="/tools/warpdrive/">Warpdrive</a>, which exposes 29 OAuth-protected tools over its API. Count those and the total becomes 23. We keep the headline at 19 because the counting rule has to come from one field in the record, and the rule is stated before the number.</p>
+
+<p>Three mentions do not count at all. <a href="/tools/django-crm/">Django CRM</a> shipped an MCP server and removed it, on the stated grounds that it covered eight entities and added nothing its API lacked. <a href="/tools/promptfoo/">Promptfoo</a>'s MCP proxy belongs to its hosted cloud product, not the MIT-licensed repo. <a href="/tools/zapier-gtm-cheat-codes/">Zapier GTM Cheat Codes</a> consumes Zapier's MCP for its actions rather than shipping a server. A naive grep for "MCP" would have counted all three.</p>
+
+<h2 id="what-this-stack-asks-of-you">What this stack asks of you</h2>
+
+<p>The licensing is free; nothing else about it is free.</p>
+
+<p>Someone hosts the CRM, the automation engine, and the analytics. Someone updates them. Someone writes the agent's permissions so that "read the experiment" and "pause the campaign" sit at different trust levels, because in this stack they are technically one tool call apart. The servers also vary in maturity: Dolibarr's arrives in version 24.0 with the word "experimental" <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">in the project's own changelog</a>, and Twenty ties its native server to Cloud workspaces rather than self-hosted installs. An MCP server is a tool interface, not autonomy. The judgment still has to live in the harness, the permissions, and whoever reviews the agent's week.</p>
+
+<div class="verdict win">
+<div class="verdict-label">✓ Where this holds up</div>
+
+<p>For a team already comfortable with Docker and an agent CLI, the five-layer loop is assembleable this week at zero license cost, and every layer has a catalog page documenting exactly what its server exposes. The honest comparison is not "$0 vs $160/mo"; it is $0 plus real operational work versus $160/mo plus someone else's uptime. Teams without an ops person should buy the SaaS. Teams with one should start with the deepest server in the layer they trust least.</p>
+</div>
+
+<p><strong>Tools linked in this post:</strong> <a href="/tools/twenty/">Twenty</a> | <a href="/tools/relaticle/">Relaticle</a> | <a href="/tools/activepieces/">Activepieces</a> | <a href="/tools/matomo/">Matomo</a> | <a href="/tools/jitsu/">Jitsu</a> | <a href="/tools/growthbook/">GrowthBook</a> | <a href="/tools/google-meta-ads-ga4-mcp/">google-meta-ads-ga4-mcp</a> | <a href="/tools/open-mercato/">Open Mercato</a> | <a href="/tools/nocodb/">NocoDB</a> | <a href="/tools/flagsmith/">Flagsmith</a> | <a href="/tools/tooljet/">ToolJet</a> | <a href="/tools/cordys-crm/">Cordys CRM</a> | <a href="/tools/deskcommcrm/">DeskcommCRM</a> | <a href="/tools/dolibarr/">Dolibarr ERP/CRM</a> | <a href="/tools/email-marketing-bible/">Email Marketing Bible</a> | <a href="/tools/line-harness/">Line Harness</a> | <a href="/tools/macro/">Macro</a> | <a href="/tools/react-email-editor/">React Email Editor</a> | <a href="/tools/wacrm/">WaCRM</a> | <a href="/tools/zapier/">Zapier</a> | <a href="/tools/klaviyo/">Klaviyo</a> | <a href="/tools/segment/">Segment</a> | <a href="/tools/posthog/">PostHog</a> | <a href="/tools/alphone/">AlphOne</a> | <a href="/tools/openseo/">OpenSEO</a> | <a href="/tools/warpdrive/">Warpdrive</a> | <a href="/tools/django-crm/">Django CRM</a> | <a href="/tools/promptfoo/">Promptfoo</a> | <a href="/tools/zapier-gtm-cheat-codes/">Zapier GTM Cheat Codes</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/salesforce-claude-commerce-cloud-agentforce/">Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough</a></li><li><a href="/blog/salesforce-agentforce-free-marketing-ops/">Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.</a></li><li><a href="/blog/open-source-martech-stack/">Open-Source Martech Stack vs $5K/mo Subscriptions</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/nimt-ai/">Nimt.ai</a> - AI search tracking across 8 models with an agent that writes, fixes, and outreaches</li><li><a href="/tools/resend/">Resend</a> - Developer-first email API built around React Email, batch sending, and agent tooling</li><li><a href="/tools/postmark/">Postmark</a> - Transactional email API with separated message streams, an MCP server, and published delivery numbers</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/agent-skills-tools/">Best Agent Skills tools (2026): 8 compared</a></li><li><a href="/best/marketing-analytics-tools/">Best Marketing Analytics and Attribution tools (2026): 8 compared</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/mcp/">MCP</a></li><li><a href="/glossary/aeo/">AEO</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}</script></body>
+</html>

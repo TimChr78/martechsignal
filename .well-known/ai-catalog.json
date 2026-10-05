@@ -2627,6 +2627,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:open-source-agentic-martech-stack-mcp",
+   "displayName": "19 open-source MCP servers, one marketing agent",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/",
+   "description": "An agent can now run a marketing loop end to end on open source. We counted this morning from the directory: 19 of the 81 open-source tools we track list.",
+   "representativeQueries": [
+    "19 open-source mcp servers, one marketing agent",
+    "open source agentic martech stack mcp"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:open-source-martech-stack",
    "displayName": "Open-Source Martech Stack vs $5K/mo Subscriptions",
    "type": "text/html",

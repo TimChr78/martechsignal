@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Chatwoot
-Re-check pending: pricing last verified 2026-09-07 (26 days ago).
+Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 ## Chatwoot review (2026): pricing, AI features, verdict
 
@@ -110,7 +110,7 @@ The strongest self-hostable support inbox in open source, with real AI now bolte
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $19/mo |
 | ✓ AI capabilities: captain Assistant (AI chatbot) |  |
-| ✓ Active public repository (37,448 GitHub stars counted at last check) |  |
+| ✓ Active public repository (37,539 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Slack, Linear, Dialogflow (6 listed) |  |
 
 ## Related concepts
@@ -126,7 +126,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Chatwoot?**
-Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 37,448 stars.
+Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 37,539 stars.
 
 **How much does Chatwoot cost?**
 Chatwoot has a free tier; paid plans start at $19/mo. Community Edition free self-hosted (MIT Expat; the enterprise/ directory is separately licensed). Cloud: Hacker free (2 agents), Startups $19, Business $39, Enterprise $99 per agent/mo billed annually. Captain AI credits $20 per 1,000. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -152,8 +152,8 @@ Every Captain action consumes 1 credit per message because a fixed model configu
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Teams that want an open-source inbox with AI help included
@@ -161,11 +161,11 @@ Every Captain action consumes 1 credit per message because a fixed model configu
 
 - **Pricing:** Open Source
 - **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
-- **GitHub:** ★ 37448
+- **GitHub:** ★ 37539
 - **Founded:** 2019
 - **HQ:** Distributed team across the US and India; YC profile lists San Francisco
 - **API:** Yes
-- **Repository checked:** 2026-10-03
+- **Repository checked:** 2026-10-05
 - **Page updated:** 2026-09-07
 
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)

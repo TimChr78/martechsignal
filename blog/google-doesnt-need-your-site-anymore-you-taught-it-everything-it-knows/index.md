@@ -105,7 +105,7 @@ The play is to own something the machine cannot answer without you. Google does 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Madgicx](/tools/madgicx/)
+More from the directory: [RudderStack](/tools/rudderstack/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
