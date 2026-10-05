@@ -8,7 +8,7 @@
 
 Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
 
-Analytics & Attribution · Free tier · OPEN SOURCE Desk-reviewed
+Analytics & Attribution · Open-core · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -145,14 +145,14 @@ Signals, launched in May 2025, is Snowplow's real-time context layer and the hom
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want intent detection and can host it themselves, with a free starting tier.
 ### Quick Facts
 
-- **Pricing:** Free tier
+- **Pricing:** Open-core
 - **Category:** [Analytics & Attribution](/categories/analytics/)
 - **GitHub:** ★ 7035
 - **Founded:** 2012

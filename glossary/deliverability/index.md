@@ -4,8 +4,6 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-28
-
 ## Definition
 
 Deliverability is the measure of whether your emails actually reach the inbox instead of the spam folder. It depends on sender reputation, authentication records (SPF, DKIM, DMARC), list hygiene, engagement rates, and the content of the email itself.
@@ -53,6 +51,8 @@ Sources: [RFC 5321 (SMTP)](https://datatracker.ietf.org/doc/rfc5321/) · [Active
 
 [Email Marketing](/categories/email-marketing/) [Best Email Marketing tools](/best/ai-email-marketing-tools/)
 
+- [Email Marketing](/categories/email-marketing/)
+- [Best Email Marketing tools](/best/ai-email-marketing-tools/)
 ## See also
 
 - [Email sequence](/glossary/email-sequence/)

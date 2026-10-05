@@ -11,12 +11,12 @@ Conversational AI for marketing and support, from social DM automation to per-re
 
 ## All tools in this category**
 
-- [chatbotx](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
-- [chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
-- [chatwoot](/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting
-- [intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
-- [manychat](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
-- [tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support
+- [ChatbotX Open-source ManyChat alternative built for AI, omni](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
+- [Chatfuel AI chatbot platform for automating customer convers](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
+- [Chatwoot Open-source customer engagement suite with Captain ](/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting
+- [Intercom AI-first customer service platform with Fin AI agen](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
+- [ManyChat AI-powered chat marketing platform for Instagram, W](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
+- [Tidio AI-powered live chat and chatbot platform with Lyro AI](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support
 **Compare:** [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/)
 
 ## Key terms

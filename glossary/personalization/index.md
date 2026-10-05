@@ -4,8 +4,6 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-28
-
 ## Definition
 
 Website personalization changes what a visitor sees based on who they are or what they've done before. A returning customer sees product recommendations based on past purchases. A visitor from a healthcare company sees healthcare case studies. A first-time visitor sees a different hero section than someone on their fifth visit.
@@ -49,6 +47,8 @@ Sources: [Clerk.io](https://www.clerk.io) · [Bloomreach](https://www.bloomreach
 
 [Personalization & CDP](/categories/personalization/) [Best Personalization & CDP tools](/best/ai-personalization-tools/)
 
+- [Personalization & CDP](/categories/personalization/)
+- [Best Personalization & CDP tools](/best/ai-personalization-tools/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [Browse all tools →](/tools/)

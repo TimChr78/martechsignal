@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 
-Email Marketing · Open Source Desk-reviewed
+Email Marketing · Open Source from $98.9/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -149,7 +149,7 @@ One documented one: AI email template generation, added in v4.0, where you descr
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from $98.9/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
 - **GitHub:** ★ 15837
 - **Founded:** 2025

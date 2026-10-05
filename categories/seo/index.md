@@ -11,19 +11,19 @@ SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 
 
 ## OPEN SOURCE / SELF-HOSTED***2*
 
-- [openseo](/tools/openseo/): Open source alternative to Ahrefs and Semrush
-- [seonaut](/tools/seonaut/): Open-source SEO crawler in Go for technical audits, self-hosted or cloud
+- [OpenSEO Open source alternative to Ahrefs and Semrush Open S](/tools/openseo/): Open source alternative to Ahrefs and Semrush
+- [Seonaut Open-source SEO crawler in Go for technical audits, ](/tools/seonaut/): Open-source SEO crawler in Go for technical audits, self-hosted or cloud
 ## COMMERCIAL***5*
 
-- [semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
-- [clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
-- [marketmuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
-- [surfer-seo](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
-- [frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
+- [Semrush All-in-one SEO and digital marketing platform with A](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
+- [Clearscope AI-powered content optimization platform for SEO ](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
+- [MarketMuse AI-powered content strategy and optimization plat](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
+- [Surfer SEO AI-powered content optimization platform for SEO-](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
+- [Frase AI-powered SEO content platform for research, writing,](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
 ## AI SEARCH VISIBILITY***2*
 
-- [potato-ai-visibility](/tools/potato-ai-visibility/): Free local tool that measures brand mentions and citations in Claude's web-search answers
-- [superlines](/tools/superlines/): AI Search Intelligence platform for brands and agencies
+- [Potato Free local tool that measures brand mentions and cita](/tools/potato-ai-visibility/): Free local tool that measures brand mentions and citations in Claude's web-search answers
+- [Superlines AI Search Intelligence platform for brands and ag](/tools/superlines/): AI Search Intelligence platform for brands and agencies
 **Compare:** [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
 
 ## Key terms

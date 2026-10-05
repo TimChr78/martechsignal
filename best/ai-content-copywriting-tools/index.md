@@ -14,7 +14,7 @@ Writer fits enterprises that put brand governance ahead of raw output. Persado s
 | [Anyword](/tools/anyword/) | From $39/mo | No | yes | Performance marketers that want a score before paying to publish |
 | [Copy.ai](/tools/copy-ai/) | Freemium from $49/mo | No | yes | GTM teams that want workflows, not another blank prompt box |
 | [Hypotenuse AI](/tools/hypotenuse-ai/) | From $56/mo | No | yes | Catalog-heavy stores generating product content in bulk |
-| [Strapi](/tools/strapi/) | Open Source | Yes | yes | Teams that want a headless CMS with AI inside their own stack |
+| [Strapi](/tools/strapi/) | Open Source from $99/mo | Yes | yes | Teams that want a headless CMS with AI inside their own stack |
 
 **Our top pick: [Writer](#writer)** — Enterprises that put brand governance ahead of raw output [Try Writer](https://writer.com)
 
@@ -34,6 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+- [AI Content & Copywriting](/categories/content-ai/)
+- [Open-Source Tools](/categories/open-source/)
 **Guide:** [AI SEO tooling hub](/guides/ai-seo-tooling/)
 
 ## Key terms
@@ -166,7 +168,5 @@ Persado for large senders that want wording tested against response data at scal
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[AI Content & Copywriting](/categories/content-ai/)[Open-Source Tools](/categories/open-source/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

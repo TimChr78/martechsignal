@@ -164,24 +164,26 @@ All 23 tools mentioned in this article are in our directory with pricing, GitHub
 
 More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/contentbot/) · [Email Marketing Bible](/tools/email-marketing-bible/) · [Heap](/tools/heap/) · [Klaviyo](/tools/klaviyo/) · [L Harness](/tools/line-harness/) · [Mailchimp](/tools/mailchimp/) · [NocoBase](/tools/nocobase/) · [Open Mercato](/tools/open-mercato/) · [OpenSEO](/tools/openseo/) · [Pencil](/tools/pencil/) · [Phrasee](/tools/phrasee/) · [Revealbot (Birch)](/tools/revealbot/) · [WaCRM](/tools/wacrm/) · [ToolJet](/tools/tooljet/)
 
+**Related reading:** [Open-source agentic martech stack with MCP](/blog/open-source-agentic-martech-stack-mcp/) - composing 19 MCP-shipping open-source tools into a full agent loop with no SaaS in the path.
+
 ## Related reading
 
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ## Related tools
 
 - [Listmonk](/tools/listmonk/) - Open-source self-hosted newsletter and mailing list manager with a fast Go backend
-- [Matomo](/tools/matomo/) - Open-source web analytics platform with full data ownership and AI-powered insights
 - [Jitsu](/tools/jitsu/) - Open-source Segment alternative for event capture and warehouse-first data pipelines
+- [Matomo](/tools/matomo/) - Open-source web analytics platform with full data ownership and AI-powered insights
 ## Comparison guides
 
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)
-- [CDP](/glossary/cdp/)
+- [Marketing ops](/glossary/marketing-ops/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

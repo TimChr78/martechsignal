@@ -52,7 +52,9 @@ def html_to_md(html: str) -> str:
     # r21 M-8 (2026-10-02): card grids (glossary index, hubs) carry their
     # content in nested divs the flow pass cannot see - emit cards as
     # linked bullets in document order instead of dropping them.
-    for cm in re.finditer(r'<a class="tool-card" href="([^"]+)">(.*?)</a>', src, flags=re.S):
+    # r24 M-8 (2026-10-05): same for cat-pill hub links (best/* "Browse the
+    # hubs" sections) and tool-row homepage index rows - 28 empty ## sections.
+    for cm in re.finditer(r'<a class="(?:tool-card|cat-pill|tool-row)" href="([^"]+)">(.*?)</a>', src, flags=re.S):
         _events.append((cm.start(), cm.end(), "card", cm))
     _events.sort(key=lambda e: (e[0], -(e[1] - e[0])))
     _covered_until = -1
@@ -80,9 +82,11 @@ def html_to_md(html: str) -> str:
             out += [""]
             _covered_until = _end
         elif _kind == "card":
-            _cn = re.search(r'<div class="name"[^>]*>(.*?)</div>', _m.group(2), flags=re.S)
-            _ct = re.search(r'<div class="tagline"[^>]*>(.*?)</div>', _m.group(2), flags=re.S)
-            _clabel = inline(_cn.group(1)) if _cn else _m.group(1).strip("/").split("/")[-1]
+            _cn = re.search(r'<(?:div|span) class="name"[^>]*>(.*?)</(?:div|span)>', _m.group(2), flags=re.S)
+            _ct = re.search(r'<(?:div|span) class="(?:tagline|take)"[^>]*>(.*?)</(?:div|span)>', _m.group(2), flags=re.S)
+            _clabel = inline(_cn.group(1)) if _cn else inline(_m.group(2))[:60]
+            if not _clabel:
+                _clabel = _m.group(1).strip("/").split("/")[-1]
             _cline = f"- [{_clabel}]({_m.group(1)})"
             if _ct and inline(_ct.group(1)):
                 _cline += f": {inline(_ct.group(1))}"

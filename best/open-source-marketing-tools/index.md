@@ -2,18 +2,18 @@
 
 ## Best Open-Source Marketing Tools (2026): 8 compared
 
-Mautic comes first: HubSpot-class automation you host yourself. Listmonk sends newsletters with no per-contact billing. Laudspeaker runs lifecycle messaging outside the CRM. SuiteCRM covers sales. Everything here self-hosts free, so hosting effort is the price you actually pay. The other four play the same game in narrower lanes; the table below lines them up.
+Mautic comes first: HubSpot-class automation you host yourself. Listmonk sends newsletters with no per-contact billing. Laudspeaker runs lifecycle messaging outside the CRM. SuiteCRM covers sales. Everything here self-hosts free, so hosting effort is the price you actually pay. The other four play the same game in narrower lanes, compared in full on this page.
 
 
 | Tool | Pricing | Public API | Best for |
 | --- | --- | --- | --- |
-| [Mautic](/tools/mautic/) | Open Source | yes | Marketing teams that want HubSpot-class automation they can host themselves |
+| [Mautic](/tools/mautic/) | Open Source from €247.5/mo | yes | Marketing teams that want HubSpot-class automation they can host themselves |
 | [Listmonk](/tools/listmonk/) | Open Source | yes | Newsletter and lifecycle email at one list price, with no per-contact billing |
 | [Laudspeaker](/tools/laudspeaker/) | Open Source | yes | Lifecycle messaging and onboarding journeys that live outside the CRM |
 | [SuiteCRM](/tools/suitecrm/) | Open Source | yes | Sales teams that want a mature, enterprise-shaped CRM they control |
-| [n8n](/tools/n8n/) | Open Source | yes | Workflow teams that want automation they can audit line by line |
-| [Matomo](/tools/matomo/) | Open Source | yes | Analytics teams that want traffic data on servers they control |
-| [Twenty](/tools/twenty/) | Open Source | yes | CRM teams that want open source without accepting feature poverty |
+| [n8n](/tools/n8n/) | Open Source from €20/mo | yes | Workflow teams that want automation they can audit line by line |
+| [Matomo](/tools/matomo/) | Open Source from €22/mo | yes | Analytics teams that want traffic data on servers they control |
+| [Twenty](/tools/twenty/) | Open Source from $9/mo | yes | CRM teams that want open source without accepting feature poverty |
 | [OpenOutreach](/tools/openoutreach/) | Open Source | no | Email marketing teams that want agent-written openers and self-hosting |
 
 **Our top pick: [Mautic](#mautic)** — Marketing teams that want HubSpot-class automation they can host themselves [Try Mautic](https://www.mautic.org)
@@ -36,6 +36,12 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+- [Analytics & Attribution](/categories/analytics/)
+- [CRM](/categories/crm/)
+- [Email Marketing](/categories/email-marketing/)
+- [Marketing Automation](/categories/marketing-automation/)
+- [Open-Source Tools](/categories/open-source/)
+- [Workflow Automation](/categories/workflow-automation/)
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Key terms
@@ -177,7 +183,5 @@ Twenty for CRM teams that want open source without feature poverty, SuiteCRM for
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[Analytics & Attribution](/categories/analytics/)[CRM](/categories/crm/)[Email Marketing](/categories/email-marketing/)[Marketing Automation](/categories/marketing-automation/)[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -96,7 +96,22 @@ def pricing_label(t):
             _sym = "€" if str(t.get("currency") or "").upper() == "EUR" else "$"
             return "Freemium from " + _sym + str(_entry) + "/mo"
         return "Freemium"
-    if m == "open-source": return "Open Source"
+    # r24 M-1 (2026-10-05): 19 open-source/open-core rows carried a published
+    # paid_from the label hid - n8n showed "Open Source" beside Zapier's
+    # "$19.99/mo" on the same leaf. Render the figure with the model word.
+    # Scoped to paid_from ONLY (L-18: price_from holds unsourced values on
+    # sfmc/marketo that must never render).
+    if m == "open-source" or m == "open-core":
+        _word = "Open Source" if m == "open-source" else "Open-core"
+        if _pf not in (None, 0):
+            _sym = "€" if str(t.get("currency") or "").upper() == "EUR" else "$"
+            # r16 M-5: one-time billing figures are non-recurring (idurar
+            # $5,000 lifetime, krayin $1,799 flat) - /mo would manufacture
+            # a subscription. Match page prose: "$5000 one-time".
+            if str(t.get("billing") or "").lower() == "one-time":
+                return f"{_word} from {_sym}{_pf} one-time"
+            return f"{_word} from {_sym}{_pf}/mo"
+        return _word
     if m == "enterprise": return "Enterprise"
     p = t.get("price_from")
     if p == 0: return "Free tier"
@@ -326,7 +341,7 @@ def _seo_title_for(t, cats):
             return cand3
     return f"{name} review (2026)"[:57]
 
-def _sentence_clip(text, budget, min_len=30):
+def _sentence_clip(text, budget, min_len=30, sentences_only=False):
     """Cut text at a sentence boundary, else a clause boundary, else "".
 
     r23 M-3 (2026-10-05): the old clippers cut at any word boundary and then
@@ -338,6 +353,12 @@ def _sentence_clip(text, budget, min_len=30):
     caller falls back to a shorter honest description instead of inventing
     terminal punctuation for a clause fragment. Never appends "." to a cut
     that is not sentence-complete; sentence cuts keep their own period.
+
+    r24 H-1 (2026-10-05): sentences_only=True for meta-description paths.
+    Clause cuts ("...someone signs up", "...calls to action") still fail a
+    strict prefix instrument - 16 survivors, 11 in one generator. Meta
+    callers pass sentences_only so a cut is complete sentences or ""; the
+    "" fallback is a generic true sentence, never a punctuated fragment.
     """
     import re as _re
     text = " ".join((text or "").split())
@@ -346,11 +367,21 @@ def _sentence_clip(text, budget, min_len=30):
     window = text[:budget]
     if window.count("(") > window.count(")"):
         window = window[:window.rfind("(")].rstrip()
-    # Sentence boundary first: last ". "/!"/? " with enough substance before it
-    # (guards against "e.g. ..." producing a stub).
-    for m in reversed(list(_re.finditer(r"[.!?](?=\s|$)", window))):
-        if m.start() >= min_len:
-            return window[:m.start() + 1]
+    # Sentence boundary first: last sentence-end with enough substance before
+    # it (guards against "e.g. ..." producing a stub). Accumulate ALL complete
+    # sentences that fit so multi-sentence descriptions keep every sentence.
+    _ends = [m.start() + 1 for m in _re.finditer(r"[.!?](?=\s|$)", window)
+             if m.start() >= min_len]
+    if _ends:
+        # Longest prefix of complete sentences within budget.
+        _best = None
+        for _e in _ends:
+            if _e <= budget:
+                _best = _e
+        if _best:
+            return window[:_best]
+    if sentences_only:
+        return ""
     # Clause boundary second, no fabricated period.
     for sep in ("; ", ", ", ": ", " - ", " \u2014 "):
         i = window.rfind(sep)
@@ -376,8 +407,10 @@ def _clip_meta_text(text, budget):
     with fabricated periods ("Compare top."). It now delegates to
     _sentence_clip: sentence boundary, else clause boundary, else "" so the
     caller drops the sentence instead of punctuating a fragment.
+
+    r24 H-1: sentences_only - meta descriptions must be complete sentences.
     """
-    return _sentence_clip(text, budget)
+    return _sentence_clip(text, budget, sentences_only=True)
 
 
 def _ends_on_function_word(text):

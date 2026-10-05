@@ -26,6 +26,14 @@ HubSpot published a post this month on the psychology of AI progress indicators.
 
 ## Tool index
 
+- [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
+- [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+- [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
+- [Twilio SendGrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
+- [NocoDB](/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
 ## Comparisons and best-of lists
 
 Verdicts with receipts: every list below names what each tool costs from the vendor’s own pricing page, what it fits worst, and who should skip it. The head-to-head comparisons state pick-conditions instead of a winner; the best-of lists and tool pages give the verdict. Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.

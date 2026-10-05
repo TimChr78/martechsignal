@@ -4,11 +4,9 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-28
-
 ## Definition
 
-An MQL is a lead that marketing deems ready for sales based on engagement signals: they downloaded three whitepapers, attended a webinar, and visited the pricing page. An SQL is a lead that sales has accepted and is actively working. The gap between the two is where most marketing-sales friction lives.
+An MQL is a lead that marketing deems ready for sales based on engagement signals. Typical signals: three downloaded whitepapers, an attended webinar, and a visit to the pricing page. An SQL is a lead that sales has accepted and is actively working. The gap between the two is where most marketing-sales friction lives.
 
 ## Why it matters
 
@@ -53,6 +51,11 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
 
 [CRM](/categories/crm/) [Best CRM tools](/best/ai-crm-tools/) [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/)
 
+- [CRM](/categories/crm/)
+- [Best CRM tools](/best/ai-crm-tools/)
+- [Marketing Automation](/categories/marketing-automation/)
+- [Best Marketing Automation tools](/best/ai-marketing-automation-tools/)
+- [Automation strategy](/guides/workflow-automation-strategy/)
 ## See also
 
 - [ABM](/glossary/abm/)

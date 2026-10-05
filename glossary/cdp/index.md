@@ -4,11 +4,9 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-25
-
 ## Definition
 
-A customer data platform collects and unifies customer data from every touchpoint, website visits, email opens, purchases, support tickets, into a single profile that other systems can query. Unlike a CRM, which sales teams use to track deals, a CDP is built for marketers who need a real-time, always-on view of each customer across channels.
+A customer data platform collects and unifies customer data from every touchpoint. Website visits, email opens, purchases and support tickets merge into a single profile that other systems can query. Unlike a CRM, which sales teams use to track deals, a CDP is built for marketers who need a real-time, always-on view of each customer across channels.
 
 ## Why it matters
 
@@ -53,6 +51,8 @@ Sources: [CDP Institute](https://www.cdpinstitute.org/) · [Twilio Segment](http
 
 [Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
 
+- [Analytics & Attribution](/categories/analytics/)
+- [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
 ## See also
 
 - [Customer journey](/glossary/customer-journey/)

@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
 
-Marketing Automation · Free tier · OPEN SOURCE Desk-reviewed
+Marketing Automation · Open-core from $12/mo · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -159,7 +159,7 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 - [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/) — Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.
 ### Quick Facts
 
-- **Pricing:** Free tier
+- **Pricing:** Open-core from $12/mo
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
 - **GitHub:** ★ 65190
 - **API:** Yes

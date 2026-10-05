@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (38 days ago).
 
 Open-source headless CMS with AI-powered content management and API-first design
 
-AI Content & Copywriting · Open Source Desk-reviewed
+AI Content & Copywriting · Open Source from $99/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -118,14 +118,14 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Teams that want a headless CMS with AI inside their own stack
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from $99/mo
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
 - **GitHub:** ★ 73275
 - **Founded:** 2015

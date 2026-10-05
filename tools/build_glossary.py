@@ -23,12 +23,14 @@ def _meta_155(text):
     "...moving a." / "...requesting a demo. It." to four glossary leaves.
     Sentence boundary first via _sentence_clip; when nothing fits, fall back
     to the term name (always true) instead of punctuating a fragment.
+
+    r24 H-1: sentences_only - clause cuts still fail a strict instrument.
     """
     from build_tools import _sentence_clip as _sc, esc as _esc
     text = " ".join((text or "").split())
-    cut = _sc(text, 155)
+    cut = _sc(text, 155, sentences_only=True)
     while cut and len(_esc(cut)) > 155:
-        cut = _sc(cut, len(cut) - 10)
+        cut = _sc(cut, len(cut) - 10, sentences_only=True)
     return cut
 
 TOOLS_DIR = ROOT / "tools"

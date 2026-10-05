@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Open-source operations platform for building AI agents, apps and automations on your own data
 
-Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
+Workflow Automation · Open-core from $19/mo · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -159,7 +159,7 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ### Quick Facts
 
-- **Pricing:** Free tier
+- **Pricing:** Open-core from $19/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **GitHub:** ★ 28331
 - **API:** Yes

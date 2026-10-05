@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (38 days ago).
 
 Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 
-Email Marketing · Open Source Desk-reviewed
+Email Marketing · Open Source from $19/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -130,7 +130,7 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from $19/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
 - **GitHub:** ★ 2233
 - **Founded:** 2025

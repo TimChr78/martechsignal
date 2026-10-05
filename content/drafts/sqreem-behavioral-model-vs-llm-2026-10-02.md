@@ -1,5 +1,6 @@
 ---
 title: "SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing"
+seo_description: "SQREEM claims a state-space behavioral model beats LLMs at predicting buyers. The evidence is vendor-grade, but the gap is real."
 seo_title: "SQREEM's bet: behavior beats language"
 slug: sqreem-behavioral-model-vs-llm
 date: 2026-10-02

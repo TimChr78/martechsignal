@@ -4,8 +4,6 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-07
-
 ## Definition
 
 Workflow automation connects your software tools so that actions in one system trigger actions in another. A new form submission creates a CRM record, sends a Slack notification, and adds the contact to an email sequence. No human copies data between tabs.
@@ -54,6 +52,10 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Tray.io](http
 
 [Workflow Automation](/categories/workflow-automation/) [Best Workflow Automation tools](/best/workflow-automation-tools/) [MCP and agent protocols](/guides/mcp-agent-protocols/) [Automation strategy](/guides/workflow-automation-strategy/)
 
+- [Workflow Automation](/categories/workflow-automation/)
+- [Best Workflow Automation tools](/best/workflow-automation-tools/)
+- [MCP and agent protocols](/guides/mcp-agent-protocols/)
+- [Automation strategy](/guides/workflow-automation-strategy/)
 ## See also
 
 - [Marketing automation](/glossary/marketing-automation/)

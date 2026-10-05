@@ -7,7 +7,7 @@ n8n suits teams that self-host and want code steps plus AI agents in their workf
 
 | Tool | Pricing | Open source | Public API | Best for |
 | --- | --- | --- | --- | --- |
-| [n8n](/tools/n8n/) | Open Source | Yes | yes | Best for self-hosted workflows with code steps and AI agents. |
+| [n8n](/tools/n8n/) | Open Source from €20/mo | Yes | yes | Best for self-hosted workflows with code steps and AI agents. |
 | [Zapier](/tools/zapier/) | Freemium from $19.99/mo | No | yes | Best for breadth and onboarding speed on niche integrations. |
 | [Make](/tools/make/) | Freemium from $9/mo | No | yes | Best for branching visual workflows on a small-team budget. |
 | [Pipedream](/tools/pipedream/) | Freemium from $29/mo | No | no | Best for developer teams wanting code steps and MCP endpoints. |
@@ -34,6 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+- [Open-Source Tools](/categories/open-source/)
+- [Workflow Automation](/categories/workflow-automation/)
 **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Key terms
@@ -143,7 +145,5 @@ Pipedream. Code steps are first-class instead of bolted on, and it exposes MCP e
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

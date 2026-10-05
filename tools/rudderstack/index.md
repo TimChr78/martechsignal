@@ -8,7 +8,7 @@
 
 Warehouse-first CDP: open-source Go data plane plus managed routing
 
-Personalization & CDP · Free tier · OPEN SOURCE Desk-reviewed
+Personalization & CDP · Open-core from $265/mo · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -1093,14 +1093,14 @@ Best open-core CDP for teams that self-host the data plane: free 250K events/mo,
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Also featured in
 
 - [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best Segment-compatible router for warehouse-first stacks on a budget.
 ### Quick Facts
 
-- **Pricing:** Free tier
+- **Pricing:** Open-core from $265/mo
 - **Category:** [Personalization & CDP](/categories/personalization/)
 - **GitHub:** ★ 4493
 - **Founded:** 2019

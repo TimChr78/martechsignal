@@ -11,29 +11,29 @@ Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents,
 
 ## OPEN SOURCE / SELF-HOSTED***4*
 
-- [langchain](/tools/langchain/): Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
-- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-- [n8n-marketing-flows](/tools/n8n-marketing-flows/): 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
-- [paperclip](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+- [LangChain Open-source framework for building AI agents, chai](/tools/langchain/): Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
+- [n8n Open-source workflow automation platform with AI agent c](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [n8n Marketing Flows 79 free, one-click import n8n workflows ](/tools/n8n-marketing-flows/): 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
+- [Paperclip Open-source control plane to manage AI agents like](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 ## COMMERCIAL***5*
 
-- [zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
-- [make](/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
-- [pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
-- [tray-io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
-- [workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
+- [Zapier No-code automation platform connecting 9,000+ apps wi](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
+- [Make Visual automation platform for building complex workflo](/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
+- [Pipedream Workflow automation with 2,500+ integrations, buil](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+- [Tray.io AI-powered integration platform for building custom ](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
+- [Workato Enterprise AI governance plus integration and automa](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
 ## LOW-CODE INTERNAL BUILDERS***4*
 
-- [appsmith](/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
-- [budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
-- [nocobase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
-- [tooljet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
+- [Appsmith Open-source platform for building admin panels and ](/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
+- [Budibase Open-source operations platform for building AI age](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
+- [NocoBase Open-source no-code platform with AI assistance for](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
+- [ToolJet Open-source low-code platform for internal tools: pr](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 ## More Workflow Automation tools***4*
 
-- [activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
-- [ifttt](/tools/ifttt/): Consumer-friendly automation connecting apps and smart devices
-- [power-automate](/tools/power-automate/): Enterprise workflow automation inside the Microsoft Power Platform
-- [pabbly-connect](/tools/pabbly-connect/): Task-priced integration platform with a one-time lifetime purchase option
+- [Activepieces Open-source workflow automation with a free clo](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
+- [IFTTT Consumer-friendly automation connecting apps and smart](/tools/ifttt/): Consumer-friendly automation connecting apps and smart devices
+- [Microsoft Power Automate Enterprise workflow automation insi](/tools/power-automate/): Enterprise workflow automation inside the Microsoft Power Platform
+- [Pabbly Connect Task-priced integration platform with a one-t](/tools/pabbly-connect/): Task-priced integration platform with a one-time lifetime purchase option
 **Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) · [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Make vs Zapier](/vs/make-vs-zapier/) · [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) · [Zapier alternatives](/alternatives/zapier/) · [n8n alternatives](/alternatives/n8n/) · [Best workflow automation tools (2026)](/best/workflow-automation-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Key terms

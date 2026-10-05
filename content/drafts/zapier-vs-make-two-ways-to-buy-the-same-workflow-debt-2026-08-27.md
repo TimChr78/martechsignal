@@ -1,5 +1,6 @@
 ---
 title: "Two ways to buy the same workflow debt: task-metered and operations-metered"
+seo_description: "Zapier and Make bill the same automation differently. Task metering versus operations metering, and which debt costs less."
 seo_title: "Two Ways to Buy the Same Workflow Debt"
 slug: zapier-vs-make-two-ways-to-buy-the-same-workflow-debt
 date: 2026-08-27

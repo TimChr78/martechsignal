@@ -115,7 +115,7 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
+- [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

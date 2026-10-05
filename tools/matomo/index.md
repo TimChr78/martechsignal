@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-06 (29 days ago).
 
 Open-source web analytics platform with full data ownership and AI-powered insights
 
-Analytics & Attribution · Open Source Desk-reviewed
+Analytics & Attribution · Open Source from €22/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -163,7 +163,7 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/) — you want web analytics depth, EU data residency and raw data you own outright.
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from €22/mo
 - **Category:** [Analytics & Attribution](/categories/analytics/)
 - **GitHub:** ★ 21923
 - **Founded:** 2007

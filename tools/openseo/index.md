@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Open source alternative to Ahrefs and Semrush
 
-SEO & Search · Open Source Desk-reviewed
+SEO & Search · Open Source from $10/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -137,7 +137,7 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from $10/mo
 - **Category:** [SEO & Search](/categories/seo/)
 - **GitHub:** ★ 22363
 - **Founded:** 2026

@@ -8,7 +8,7 @@
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
-Workflow Automation · Open Source Desk-reviewed
+Workflow Automation · Open Source from €20/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -124,8 +124,8 @@ The right choice when you want owned automation with code-level control and no p
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for self-hosted workflows with code steps and AI agents.
@@ -134,7 +134,7 @@ The right choice when you want owned automation with code-level control and no p
 - [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/) — you want self-hosting, code steps and billing that rewards complex workflows.
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from €20/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **GitHub:** ★ 206673
 - **Founded:** 2019

@@ -7,7 +7,7 @@ RudderStack fits warehouse-first teams that want a self-hostable event router wi
 
 | Tool | Pricing | Open source | Best for |
 | --- | --- | --- | --- |
-| [RudderStack](/tools/rudderstack/) | Free tier | Source-available (fair-code) | Best Segment-compatible router for warehouse-first stacks on a budget. |
+| [RudderStack](/tools/rudderstack/) | Open-core from $265/mo | Source-available (fair-code) | Best Segment-compatible router for warehouse-first stacks on a budget. |
 | [Hightouch](/tools/hightouch/) | Freemium | No | Best activation layer when the warehouse is already the source of truth. |
 | [Jitsu](/tools/jitsu/) | Freemium from $99/mo | Yes (MIT) | Best fully open-source event collection for self-hosting the pipeline. |
 | [Apache Unomi](/tools/apache-unomi/) | Open Source | Yes (Apache-2.0) | Best when data-residency rules and European-consent governance drive the architecture. |
@@ -34,6 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+- [Open-Source Tools](/categories/open-source/)
+- [Personalization & CDP](/categories/personalization/)
 ## Key terms
 
 - [Marketing ops](/glossary/marketing-ops/)
@@ -142,7 +144,5 @@ RudderStack's 250K-events free tier and Hightouch's 2-sync free plan are both $0
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[Open-Source Tools](/categories/open-source/)[Personalization & CDP](/categories/personalization/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

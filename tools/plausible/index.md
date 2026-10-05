@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (38 days ago).
 
 Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
 
-Analytics & Attribution · Open Source Desk-reviewed
+Analytics & Attribution · Open Source from $9/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -116,14 +116,14 @@ The analytics tool we recommend by default for content and marketing sites; powe
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ## Also featured in
 
 - [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/) — you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from $9/mo
 - **Category:** [Analytics & Attribution](/categories/analytics/)
 - **GitHub:** ★ 29314
 - **Founded:** 2019

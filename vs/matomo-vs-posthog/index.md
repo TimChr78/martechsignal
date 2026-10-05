@@ -15,7 +15,7 @@ Both products grew up open source and both still sell trust as much as features:
 
 | Tool | Starts at | Pick it when |
 | --- | --- | --- |
-| Matomo | Open Source | You want web analytics depth, EU data residency and raw data you own outright. |
+| Matomo | Open Source from €22/mo | You want web analytics depth, EU data residency and raw data you own outright. |
 | PostHog | Freemium | Your real questions are about product usage, with flags and experiments beside the funnel. |
 
 [Matomo assessment](/tools/matomo/) · [PostHog assessment](/tools/posthog/)
@@ -31,7 +31,7 @@ PostHog
 
 | Dimension | Matomo | PostHog |
 | --- | --- | --- |
-| Pricing | Open Source | Freemium |
+| Pricing | Open Source from €22/mo | Freemium |
 | Open source | yes (gpl-3.0) | yes (mit) |
 | Integrations listed | 8 listed: WordPress, Matomo Tag Manager, Google Tag Manager, Google Analytics Importer (+4 more) | 6 listed: Slack, GitHub, Zapier, Segment (+2 more) |
 | Public API | yes | yes |
@@ -119,6 +119,8 @@ Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
+- [Analytics & Attribution](/categories/analytics/)
+- [Open-Source Tools](/categories/open-source/)
 ## Open-source momentum, with receipts
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
@@ -132,7 +134,5 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[Analytics & Attribution](/categories/analytics/)[Open-Source Tools](/categories/open-source/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Open-source marketing automation platform with email, campaigns, and lead management
 
-Marketing Automation · Open Source Desk-reviewed
+Marketing Automation · Open Source from €247.5/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -155,7 +155,7 @@ The features page describes IP anonymization for visitor records, site tracking 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Marketing teams that want HubSpot-class automation they can host themselves
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from €247.5/mo
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
 - **GitHub:** ★ 10697
 - **Founded:** 2014

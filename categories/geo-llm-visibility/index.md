@@ -11,24 +11,24 @@ AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overvie
 
 ## GEO-NATIVE PLATFORMS***8*
 
-- [profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
-- [scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
-- [otterlyai](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
-- [rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
-- [trakkr](/tools/trakkr/): AI visibility platform for brands and agencies: citations, perception, competitors
-- [evertune](/tools/evertune/): GEO visibility measurement with content activation and a ChatGPT Ad Agent
-- [nimt-ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
-- [writesonic](/tools/writesonic/): The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
+- [Profound Enterprise AI marketing platform: answer-engine vis](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [Scrunch The AI Customer Experience Platform: monitor, optimi](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+- [OtterlyAI AI search monitoring for brand mentions and citati](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+- [Rankscale AI visibility tracking across 17+ answer engines f](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+- [Trakkr AI visibility platform for brands and agencies: citat](/tools/trakkr/): AI visibility platform for brands and agencies: citations, perception, competitors
+- [Evertune GEO visibility measurement with content activation ](/tools/evertune/): GEO visibility measurement with content activation and a ChatGPT Ad Agent
+- [Nimt.ai AI search tracking across 8 models with an agent tha](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [Writesonic The AI Search Growth Engine: GEO tracking, AI art](/tools/writesonic/): The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
 ## SUITE MODULES & ADD-ONS***5*
 
-- [accuranker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
-- [nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
-- [sistrix](/tools/sistrix/): German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
-- [ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
-- [adobe-llm-optimizer](/tools/adobe-llm-optimizer/): Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
+- [AccuRanker Daily keyword rank tracking with AccuLLM visibili](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+- [Nightwatch Rank tracking across Google and AI answers, price](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+- [SISTRIX German SEO suite built on the Visibility Index, with](/tools/sistrix/): German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
+- [Ahrefs Brand Radar tracks brand mentions and citations acros](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+- [Adobe LLM Optimizer Adobe's enterprise GEO system for AI vis](/tools/adobe-llm-optimizer/): Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
 ## OPEN-SOURCE / DIY***1*
 
-- [promptfoo](/tools/promptfoo/): Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming
+- [Promptfoo Open source LLM eval toolkit for prompt testing, b](/tools/promptfoo/): Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming
 **Compare:** [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) · **Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) · [GEO, defined](/glossary/geo/)
 
 ## Key terms

@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Lightweight open-source CRM with sales automation, marketing tools, and customer management
 
-CRM · Open Source Desk-reviewed
+CRM · Open Source from €12.9/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -143,7 +143,7 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for lean sales teams that automate à la carte.
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from €12.9/mo
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 3438
 - **Founded:** 2011

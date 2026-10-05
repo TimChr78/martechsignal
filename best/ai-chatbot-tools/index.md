@@ -8,7 +8,7 @@ Intercom fits support teams that want AI resolutions they can audit. Chatwoot gi
 | Tool | Pricing | Open source | Best for |
 | --- | --- | --- | --- |
 | [Intercom](/tools/intercom/) | From $29/mo | No | Support teams that want AI resolutions auditable at $0.99 each |
-| [Chatwoot](/tools/chatwoot/) | Open Source | Yes | Teams that want an open-source inbox with AI help included |
+| [Chatwoot](/tools/chatwoot/) | Open Source from $19/mo | Yes | Teams that want an open-source inbox with AI help included |
 | [Tidio](/tools/tidio/) | Freemium from $24/mo | No | Small shops adding live chat and an AI agent cheaply |
 | [Chatfuel](/tools/chatfuel/) | From $39/mo | No | Messaging-first brands scripting conversations like campaigns |
 | [ManyChat](/tools/manychat/) | Freemium from $14/mo | No | Creators monetizing DMs across Instagram and WhatsApp |
@@ -32,6 +32,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+- [Chatbots & Conversational AI](/categories/chatbots/)
+- [Open-Source Tools](/categories/open-source/)
 ## Key terms
 
 - [Chatbot](/glossary/chatbot/)
@@ -139,7 +141,5 @@ ManyChat for creators monetizing DMs across Instagram and WhatsApp. ChatbotX giv
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[Chatbots & Conversational AI](/categories/chatbots/)[Open-Source Tools](/categories/open-source/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-06 (29 days ago).
 
 Fully featured, open source CRM
 
-CRM · Open Source Desk-reviewed
+CRM · Open Source from $5/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -141,14 +141,14 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for budget-conscious sales teams, especially ERPNext shops.
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from $5/mo
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 3719
 - **API:** No

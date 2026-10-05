@@ -59,7 +59,7 @@ Adobe Marketo Engage homepage. Vendor page shown as a dated reference capture; a
 - Bizible
 ## Pricing
 
-Adobe Marketo Engage is sold on enterprise contracts, from $895/mo as of 2026-09.
+Adobe Marketo Engage is sold on quote-based enterprise contracts.
 
 Custom pricing; Growth/Select/Prime/Ultimate packages; annual contracts required
 
@@ -83,7 +83,7 @@ Buy it when program complexity and scale justify the ops headcount. For smaller 
 | Pros | Cons |
 | --- | --- |
 | ✓ AI capabilities: AI lead scoring | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Salesforce, Adobe Experience Cloud, Microsoft Dynamics (8 listed) |  |
+| ✓ Native integrations include Salesforce, Adobe Experience Cloud, Microsoft Dynamics (8 listed) | ✗ Enterprise pricing is quote-based - no public numbers |
 | ✓ API access for custom integrations |  |
 
 ## Related concepts
@@ -104,7 +104,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Adobe Marketo Engage: Enterprise B2B marketing automation with AI-driven lead management and engagement. Adobe Marketo Engage ships with AI lead scoring. This page documents 8 integrations.
 
 **How much does Adobe Marketo Engage cost?**
-Adobe Marketo Engage starts at $895/mo. Custom pricing; Growth/Select/Prime/Ultimate packages; annual contracts required. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Adobe Marketo Engage uses enterprise pricing, so the number depends on your volume and contract. Custom pricing; Growth/Select/Prime/Ultimate packages; annual contracts required. Our last verified read of the pricing model was 2026-09-27; the vendor's pricing page carries the current quote criteria.
 
 **Is Adobe Marketo Engage a good Marketing Automation tool in 2026?**
 Buy it when program complexity and scale justify the ops headcount. For smaller teams it is overkill.
@@ -118,7 +118,7 @@ Buy it when program complexity and scale justify the ops headcount. For smaller 
 - [Laudspeaker](/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze
 ## Related reading
 
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ## Also featured in

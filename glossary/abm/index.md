@@ -4,8 +4,6 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-28
-
 ## Definition
 
 Account-based marketing flips the traditional funnel. Instead of generating a large volume of leads and filtering down, you identify the specific accounts you want to win and build personalized campaigns for each one. Marketing and sales work the same target list from day one.
@@ -48,6 +46,11 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
 
 [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/) [CRM](/categories/crm/) [Best CRM tools](/best/ai-crm-tools/)
 
+- [Marketing Automation](/categories/marketing-automation/)
+- [Best Marketing Automation tools](/best/ai-marketing-automation-tools/)
+- [Automation strategy](/guides/workflow-automation-strategy/)
+- [CRM](/categories/crm/)
+- [Best CRM tools](/best/ai-crm-tools/)
 ## See also
 
 - [Agentic Marketing](/glossary/agentic-marketing/)

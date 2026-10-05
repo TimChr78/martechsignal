@@ -1,5 +1,6 @@
 ---
 title: "You Don't Need a New Data Stack for AI. Fivetran Just Proved It"
+seo_description: "Fivetran proved AI runs fine on the warehouse you already own. Skip the rebuild and fix the pipes instead."
 seo_title: "Fivetran Proved You Don't Need a New Data Stack"
 slug: you-dont-need-new-data-stack-fivetran
 date: 2026-08-20

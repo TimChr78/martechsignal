@@ -8,13 +8,13 @@ Amplitude fits product teams that want funnels without an analyst queue. Matomo 
 | Tool | Pricing | Open source | Best for |
 | --- | --- | --- | --- |
 | [Amplitude](/tools/amplitude/) | Freemium | No | Product teams that want funnels and retention without an analyst queue |
-| [Matomo](/tools/matomo/) | Open Source | Yes (GPL-3.0) | Teams that want GA-grade analytics with the data staying home |
-| [Umami](/tools/umami/) | Open Source | Yes (MIT) | Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Matomo](/tools/matomo/) | Open Source from €22/mo | Yes (GPL-3.0) | Teams that want GA-grade analytics with the data staying home |
+| [Umami](/tools/umami/) | Open Source from $20/mo | Yes (MIT) | Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 | [Mixpanel](/tools/mixpanel/) | Freemium | No | Best for analytics & attribution teams that want the job covered in one platform, with a free starting tier. |
 | [Triple Whale](/tools/triple-whale/) | From $59/mo | No | DTC operators that want a daily attribution answer, dashboards included |
 | [Heap](/tools/heap/) | Freemium | No | Teams that want retroactive analysis without a tagging plan first |
 | [Northbeam](/tools/northbeam/) | Enterprise | No | DTC brands whose incrementality questions deserve real modeling |
-| [Snowplow](/tools/snowplow/) | Free tier | Yes (Apache-2.0) | Best for analytics & attribution teams that want intent detection and can host it themselves, with a free starting tier. |
+| [Snowplow](/tools/snowplow/) | Open-core | Yes (Apache-2.0) | Best for analytics & attribution teams that want intent detection and can host it themselves, with a free starting tier. |
 
 **Our top pick: [Amplitude](#amplitude)** — Product teams that want funnels and retention without an analyst queue [Try Amplitude](https://amplitude.com)
 
@@ -34,6 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+- [Analytics & Attribution](/categories/analytics/)
+- [Open-Source Tools](/categories/open-source/)
 ## Key terms
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -167,7 +169,5 @@ Heap. It captures everything and lets teams analyze retroactively, so tracking s
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[Analytics & Attribution](/categories/analytics/)[Open-Source Tools](/categories/open-source/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

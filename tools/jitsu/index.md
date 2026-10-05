@@ -129,7 +129,7 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 - [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
 ## Related reading
 
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
 ## Also featured in

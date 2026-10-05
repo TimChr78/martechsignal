@@ -361,20 +361,22 @@ def _clean_excerpt(text, limit=155):
     r23 M-3 (2026-10-05): word-boundary cut + fabricated period shipped
     "...we track list." on a new post. Sentence boundary first via
     build_tools._sentence_clip; the excerpt is never given invented terminal
-    punctuation for a clause fragment."""
+    punctuation for a clause fragment.
+    r24 H-1: sentences_only with a generic true fallback - the legacy
+    word-boundary shrink below only runs when the caller passes no title,
+    and it no longer appends a period to a fragment."""
     try:
         from build_tools import _sentence_clip as _sc
     except ImportError:
         _sc = None
     text = " ".join((text or "").split())
     if _sc is not None:
-        cut = _sc(text, limit)
+        cut = _sc(text, limit, sentences_only=True)
         while cut and len(html.escape(cut)) > limit:
-            cut = _sc(cut, len(cut) - 10)
+            cut = _sc(cut, len(cut) - 10, sentences_only=True)
         if cut:
             return cut
-        # Nothing sentence-complete fits: fall through to the legacy
-        # word-boundary shrink below rather than shipping an empty meta.
+        return "Analysis from the MartechSignal blog."
     if len(html.escape(text)) <= limit:
         return text
     while True:

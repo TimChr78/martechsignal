@@ -13,7 +13,7 @@ Every number below is catalogued from each vendor's own published materials and 
 
 | Tool | Starts at | Pick it when |
 | --- | --- | --- |
-| n8n | Open Source | You self-host and want code steps with billing that rewards complex workflows. |
+| n8n | Open Source from €20/mo | You self-host and want code steps with billing that rewards complex workflows. |
 | Make | Freemium from $9/mo | Your builders are operators who want the clearest visual canvas and a free tier to start in. |
 | Zapier | Freemium from $19.99/mo | You need the widest connector catalog and the workflow has to work on day one. |
 
@@ -34,7 +34,7 @@ Zapier
 
 | Dimension | n8n | Make | Zapier |
 | --- | --- | --- | --- |
-| Pricing | Open Source | Freemium from $9/mo | Freemium from $19.99/mo |
+| Pricing | Open Source from €20/mo | Freemium from $9/mo | Freemium from $19.99/mo |
 | Open source | yes | no | no |
 | Integrations listed | 8 listed: Slack, Google Sheets, Gmail, Airtable (+4 more) | not listed | 8 listed: Salesforce, HubSpot, Slack, Microsoft Dynamics 365 (+4 more) |
 | Public API | yes | yes | yes |
@@ -123,6 +123,8 @@ Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
+- [Open-Source Tools](/categories/open-source/)
+- [Workflow Automation](/categories/workflow-automation/)
 **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Open-source momentum, with receipts
@@ -137,7 +139,5 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -4,11 +4,9 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-28
-
 ## Definition
 
-Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.
+Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes. Typical decisions: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.
 
 ## Why it matters
 
@@ -56,6 +54,9 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com)
 
 [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/)
 
+- [Marketing Automation](/categories/marketing-automation/)
+- [Best Marketing Automation tools](/best/ai-marketing-automation-tools/)
+- [Automation strategy](/guides/workflow-automation-strategy/)
 ## See also
 
 - [ABM](/glossary/abm/)

@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (38 days ago).
 
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 
-Workflow Automation · Open Source Hands-on
+Workflow Automation · Open Source from $39/mo Hands-on
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -124,7 +124,7 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from $39/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **GitHub:** ★ 147449
 - **Founded:** 2022

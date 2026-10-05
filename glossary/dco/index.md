@@ -4,11 +4,9 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-28
-
 ## Definition
 
-Dynamic creative optimization assembles ad creatives in real time from modular components, headlines, images, calls to action, and selects the combination most likely to perform for each individual viewer. Instead of designing 50 ad variants, you design the components and let the algorithm assemble them.
+Dynamic creative optimization assembles ad creatives in real time from modular components. Headlines, images and calls to action combine into the variant most likely to perform for each viewer. Instead of designing 50 ad variants, you design the components and let the algorithm assemble them.
 
 ## Why it matters
 
@@ -48,6 +46,12 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
 
 [Advertising & Paid Media](/categories/advertising/) [Best Advertising & Paid Media tools](/best/ai-advertising-tools/) [Agentic advertising](/guides/agentic-ai-advertising/) [AI Content & Copywriting](/categories/content-ai/) [Best AI Content & Copywriting tools](/best/ai-content-copywriting-tools/) [AI SEO tooling](/guides/ai-seo-tooling/)
 
+- [Advertising & Paid Media](/categories/advertising/)
+- [Best Advertising & Paid Media tools](/best/ai-advertising-tools/)
+- [Agentic advertising](/guides/agentic-ai-advertising/)
+- [AI Content & Copywriting](/categories/content-ai/)
+- [Best AI Content & Copywriting tools](/best/ai-content-copywriting-tools/)
+- [AI SEO tooling](/guides/ai-seo-tooling/)
 ## See also
 
 - [AEO](/glossary/aeo/)

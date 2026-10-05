@@ -85,12 +85,12 @@ The AI-visibility dashboards will keep selling the count, because the count goes
 ## Glossary terms
 
 - [GEO](/glossary/geo/)
-- [AI Visibility](/glossary/ai-search-visibility/)
+- [SEO](/glossary/seo/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [ManyChat](/tools/manychat/)
+More from the directory: [MarketMuse](/tools/marketmuse/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

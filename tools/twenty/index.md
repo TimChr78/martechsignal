@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 
-CRM · Open Source Desk-reviewed
+CRM · Open Source from $9/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -150,7 +150,7 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Also featured in
 
@@ -158,7 +158,7 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — CRM teams that want open source without accepting feature poverty
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from $9/mo
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 57914
 - **Founded:** 2023

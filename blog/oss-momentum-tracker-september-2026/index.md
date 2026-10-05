@@ -115,7 +115,7 @@ We will refresh the tracker as the catalog snapshots accumulate. If a project in
 ## Glossary terms
 
 - [DMP](/glossary/dmp/)
-- [AI Agent](/glossary/ai-agent/)
+- [DCO](/glossary/dco/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

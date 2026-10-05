@@ -4,8 +4,6 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-07
-
 ## Definition
 
 A data management platform collects and organizes audience data, mostly anonymous, cookie-based identifiers, for use in programmatic advertising. Advertisers use DMPs to build audience segments and push them to demand-side platforms for ad targeting.
@@ -48,6 +46,8 @@ Sources: [Twilio Segment](https://segment.com) · [Snowplow](https://snowplow.io
 
 [Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
 
+- [Analytics & Attribution](/categories/analytics/)
+- [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
 ## See also
 
 - [CDP](/glossary/cdp/)

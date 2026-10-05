@@ -4,19 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Agentic Marketing | Definition | MartechSignal</title>
-<meta name="description" content="Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection">
+<meta name="description" content="Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes.">
 <link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="Agentic Marketing | Definition | MartechSignal">
-<meta property="og:description" content="Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection">
+<meta property="og:description" content="Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes.">
 <meta property="og:url" content="https://martechsignal.com/glossary/agentic-marketing/">
 <meta property="og:image" content="https://martechsignal.com/og/glossary/agentic-marketing.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Agentic Marketing | Definition | MartechSignal">
-<meta name="twitter:description" content="Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection">
+<meta name="twitter:description" content="Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes.">
 <meta name="twitter:image" content="https://martechsignal.com/og/glossary/agentic-marketing.png">
 <link rel="canonical" href="https://martechsignal.com/glossary/agentic-marketing/">
 <link rel="ard ai-catalog" type="application/json" href="https://martechsignal.com/.well-known/ard.json">
@@ -33,9 +33,7 @@
       {
         "@type": "DefinedTerm",
         "name": "Agentic Marketing",
-        "description": "Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.",
-        "dateModified": "2026-09-28",
-        "datePublished": "2026-09-28",
+        "description": "Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes. Typical decisions: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set",
           "@type": "DefinedTermSet",
@@ -97,7 +95,7 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "@id": "https://martechsignal.com/glossary/agentic-marketing/",
-  "dateModified": "2026-09-28",
+  "dateModified": "2026-10-05",
   "breadcrumb": {
     "@id": "https://martechsignal.com/glossary/agentic-marketing/#breadcrumb"
   }
@@ -118,12 +116,12 @@
 <section class="page-head">
   <h1>Agentic Marketing</h1>
   <p class="count">GLOSSARY</p>
-  <p class="meta">Definition last Updated <time datetime="2026-09-28">2026-09-28</time></p>
+  
 </section>
 <div class="detail">
   <div class="detail-main">
     <h2>Definition</h2>
-    <p>Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.</p>
+    <p>Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes. Typical decisions: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.</p>
     <h2>Why it matters</h2>
     <p>The term crystallized as vendors needed language distinct from generic AI features. Agentic implies goals plus constraints: you set the objective and the guardrails, the agent operates inside them. Critics note the boundary between an agentic feature and a plain automated rule is often marketing copy rather than architecture.</p>
     <h2>How it works</h2><p>Agentic deployments start from a process inventory: which marketing decisions are repetitive, verifiable, and bounded. Those become agent-owned processes with explicit success metrics and guardrails. Everything else stays human-led with AI assistance. The architecture question is never whether agents can do the work but whether failures are detectable fast enough to bound the damage. You pick one process with a clear success metric and a bounded blast radius, like budget reallocation inside a fixed daily cap, and give the agent ownership of it with an audit log. Everything runs against shared state, campaign settings, audience definitions, suppression lists, so the agent is not improvising from a prompt. When the log shows decisions you cannot reconstruct, shrink the scope before you expand it.</p><h2>Practical uses</h2><p>Early production uses: budget pacing within hard caps, creative variant rotation against holdout tests, suppression-list synchronization across platforms, and anomaly-triggered campaign pauses. Content generation remains mostly AI-assisted rather than agentic because verification is expensive.</p><h2>How to choose</h2><p>Vendors claiming agentic behavior should show the guardrail surface: where limits are set, how actions are logged, and what the intervention path looks like. If the answer is a chat prompt, it is assistance with better marketing.</p><h2>The numbers</h2><p>Scope discipline: teams report stable results delegating 10-25% of decisions to agents initially, expanding as verification matures. Attempting majority delegation in quarter one correlates with rollback. Measure decision quality, not decision volume - the useful metric is error rate per delegated process, tracked weekly. Agentic pricing is usually usage-based: credits or per-action fees layered on a platform subscription, and rates vary by vendor. Salesforce&#x27;s Agentforce credits are one concrete example: one agent action consumes 20 credits priced at $0.10 each. Budget for the supervision too, because someone has to read the audit log. The cheap first step is delegating a single process for one month and comparing its decisions against what your team would have done.</p><h2>Common mistakes</h2><p>Agentic rollouts fail most often from vague objectives. Give an agent raise ROAS with no constraint and it optimizes into tiny, weird audiences; the fix is minimum-volume floors and creative diversity requirements, written down before launch. Agentic marketing is not marketing automation with a new label. Automation executes steps you designed; an agent chooses steps inside constraints you set. The confusion works both ways: vendors call plain automation agentic, and teams expect automation-style predictability from agents that adapt. Judge any pitch on the control surface instead: budget caps, state access, what runs unreviewed, and what the audit trail records.</p><h2>What changed with AI</h2><p>The agentic label is itself an AI-era phenomenon, and it is becoming table stakes in vendor messaging. The audit question for any agentic claim: what decision did this system make last week that a rule could not have?</p>

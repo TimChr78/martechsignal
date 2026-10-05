@@ -160,3 +160,5 @@ All 23 tools mentioned in this article are in our directory with pricing, GitHub
 <a class="btn" href="/categories/open-source/">VIEW OPEN-SOURCE TOOLS →</a>
 
 More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/contentbot/) · [Email Marketing Bible](/tools/email-marketing-bible/) · [Heap](/tools/heap/) · [Klaviyo](/tools/klaviyo/) · [L Harness](/tools/line-harness/) · [Mailchimp](/tools/mailchimp/) · [NocoBase](/tools/nocobase/) · [Open Mercato](/tools/open-mercato/) · [OpenSEO](/tools/openseo/) · [Pencil](/tools/pencil/) · [Phrasee](/tools/phrasee/) · [Revealbot (Birch)](/tools/revealbot/) · [WaCRM](/tools/wacrm/) · [ToolJet](/tools/tooljet/)
+
+**Related reading:** [Open-source agentic martech stack with MCP](/blog/open-source-agentic-martech-stack-mcp/) - composing 19 MCP-shipping open-source tools into a full agent loop with no SaaS in the path.

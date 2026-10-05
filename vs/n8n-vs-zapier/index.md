@@ -13,7 +13,7 @@ Teams usually arrive at this comparison after hitting one of two walls: a Zapier
 
 | Tool | Starts at | Pick it when |
 | --- | --- | --- |
-| n8n | Open Source | You want self-hosting, code steps and per-execution pricing over per-task billing. |
+| n8n | Open Source from €20/mo | You want self-hosting, code steps and per-execution pricing over per-task billing. |
 | Zapier | Freemium from $19.99/mo | You want the deepest app catalog and the least thinking about edge cases. |
 
 And for the Make side of the family: [Make vs Zapier](/vs/make-vs-zapier/).
@@ -33,7 +33,7 @@ Zapier
 
 | Dimension | n8n | Zapier |
 | --- | --- | --- |
-| Pricing | Open Source | Freemium from $19.99/mo |
+| Pricing | Open Source from €20/mo | Freemium from $19.99/mo |
 | Open source | yes | no |
 | Integrations listed | 8 listed: Slack, Google Sheets, Gmail, Airtable (+4 more) | 8 listed: Salesforce, HubSpot, Slack, Microsoft Dynamics 365 (+4 more) |
 | Public API | yes | yes |
@@ -130,6 +130,8 @@ Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
+- [Open-Source Tools](/categories/open-source/)
+- [Workflow Automation](/categories/workflow-automation/)
 **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Open-source momentum, with receipts
@@ -144,7 +146,5 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

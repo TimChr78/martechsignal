@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 
-CRM · Open Source Desk-reviewed
+CRM · Open Source from $17/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -138,7 +138,7 @@ Yes, and it is the platform's anchor module. The README lists employee time-trac
 - [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from $17/mo
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 8175
 - **API:** Yes

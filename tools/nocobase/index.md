@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-05 (30 days ago).
 
 Open-source no-code platform with AI assistance for building business systems fast
 
-Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
+Workflow Automation · Open-core · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -136,13 +136,13 @@ Yes, NocoBase runs a live demo on its website, and because the core is open sour
 
 - [How NocoBase compares with NocoDB and Budibase for self-hosted marketing ops](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ## Also featured in
 
 - [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/) — Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.
 ### Quick Facts
 
-- **Pricing:** Free tier
+- **Pricing:** Open-core
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **GitHub:** ★ 24451
 - **API:** Yes

@@ -4,11 +4,9 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-25
-
 ## Definition
 
-An AI agent is software that pursues a goal by taking a sequence of actions on its own: querying tools, making decisions against rules or a model, and adjusting based on results. In marketing, agents buy media, run outreach sequences, reconcile campaign data, and draft responses. The distinction from ordinary automation is agency over decisions: a workflow automation executes steps a human designed; an agent decides the steps.
+An AI agent is software that pursues a goal by taking a sequence of actions on its own. It works by querying tools, making decisions against rules or a model, and adjusting based on results. In marketing, agents buy media, run outreach sequences, reconcile campaign data, and draft responses. The distinction from ordinary automation is agency over decisions: a workflow automation executes steps a human designed; an agent decides the steps.
 
 ## Why it matters
 
@@ -57,6 +55,13 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Workato](http
 
 [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/) [Workflow Automation](/categories/workflow-automation/) [Best Workflow Automation tools](/best/workflow-automation-tools/) [MCP and agent protocols](/guides/mcp-agent-protocols/) [Automation strategy](/guides/workflow-automation-strategy/)
 
+- [Marketing Automation](/categories/marketing-automation/)
+- [Best Marketing Automation tools](/best/ai-marketing-automation-tools/)
+- [Automation strategy](/guides/workflow-automation-strategy/)
+- [Workflow Automation](/categories/workflow-automation/)
+- [Best Workflow Automation tools](/best/workflow-automation-tools/)
+- [MCP and agent protocols](/guides/mcp-agent-protocols/)
+- [Automation strategy](/guides/workflow-automation-strategy/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [Browse all tools →](/tools/)

@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (38 days ago).
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
 
-AI Content & Copywriting · Open Source Desk-reviewed
+AI Content & Copywriting · Open Source from $9/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -120,7 +120,7 @@ Choose Ghost for editorial sites with paid membership intent. Skip it if you nee
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from $9/mo
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
 - **GitHub:** ★ 55485
 - **Founded:** 2013

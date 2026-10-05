@@ -105,6 +105,4 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Zoho CRM](/tools/zoho-crm/)
-
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

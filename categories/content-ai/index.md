@@ -11,25 +11,25 @@ AI copywriting, publishing, and writing tools: drafts, governance, and self-host
 
 ## COPYWRITING WORKHORSES***5*
 
-- [anyword](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content
-- [contentbot](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
-- [copy-ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
-- [jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
-- [hypotenuse-ai](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
+- [Anyword AI copywriting platform with predictive performance ](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content
+- [ContentBot AI content automation platform with workflows for](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
+- [Copy.ai AI-powered GTM platform for sales and marketing cont](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
+- [Jasper AI marketing content platform for creating on-brand c](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
+- [Hypotenuse AI AI content generation platform for ecommerce p](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
 ## GOVERNED ENTERPRISE WRITING***3*
 
-- [writer](/tools/writer/): Enterprise AI platform with Palmyra models, brand governance, and agents
-- [persado](/tools/persado/): AI content creation and optimization platform for regulated financial services marketing
-- [phrasee](/tools/phrasee/): AI messaging content platform; rebranded as Jacquard in June 2024
+- [Writer Enterprise AI platform with Palmyra models, brand gov](/tools/writer/): Enterprise AI platform with Palmyra models, brand governance, and agents
+- [Persado AI content creation and optimization platform for re](/tools/persado/): AI content creation and optimization platform for regulated financial services marketing
+- [Phrasee AI messaging content platform; rebranded as Jacquard](/tools/phrasee/): AI messaging content platform; rebranded as Jacquard in June 2024
 ## OPEN PUBLISHING STACK***2*
 
-- [ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
-- [strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
+- [Ghost Open-source publishing platform with built-in newslett](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
+- [Strapi Open-source headless CMS with AI-powered content mana](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
 ## SELF-HOSTED WRITING UTILITIES***3*
 
-- [languagetool](/tools/languagetool/): Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
-- [khoj](/tools/khoj/): Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
-- [libretranslate](/tools/libretranslate/): Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
+- [LanguageTool Open-source writing assistant and grammar check](/tools/languagetool/): Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
+- [Khoj Self-hosted AI research and writing assistant that chat](/tools/khoj/): Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
+- [LibreTranslate Open-source machine translation API for conte](/tools/libretranslate/): Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
 **Compare:** [Jasper vs Writer](/vs/jasper-vs-writer/) · [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) · **Guide:** [AI SEO tooling hub](/guides/ai-seo-tooling/)
 
 ## Key terms

@@ -8,7 +8,7 @@
 
 Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 
-Email Marketing · Open Source Desk-reviewed
+Email Marketing · Open Source from $29/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -122,14 +122,14 @@ The most complete open-source cold email stack we have listed, but young (launch
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier.
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from $29/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
 - **GitHub:** ★ 351
 - **Founded:** 2026

@@ -11,20 +11,20 @@ Marketing automation platforms reviewed: workflow depth, guardrails, and AI auto
 
 ## SUITE PLATFORMS***7*
 
-- [activecampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
-- [adobe-marketo](/tools/adobe-marketo/): Enterprise B2B marketing automation with AI-driven lead management and engagement
-- [bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
-- [braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
-- [hubspot-marketing-hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
-- [ortto](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
-- [salesforce-marketing-cloud](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
+- [ActiveCampaign AI-powered marketing automation and CRM for s](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
+- [Adobe Marketo Engage Enterprise B2B marketing automation wit](/tools/adobe-marketo/): Enterprise B2B marketing automation with AI-driven lead management and engagement
+- [Bloomreach AI-powered commerce experience platform with sear](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
+- [Braze Customer engagement platform with AI-powered real-time](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
+- [HubSpot Marketing Hub All-in-one marketing automation with A](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
+- [Ortto Customer data and marketing automation platform with j](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
+- [Salesforce Marketing Cloud Enterprise marketing automation o](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 ## POINT + OPEN-SOURCE TOOLS***5*
 
-- [alwrity](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
-- [laudspeaker](/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze
-- [line-harness](/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
-- [mautic](/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management
-- [nocodb](/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
+- [ALwrity AI-first digital marketing platform for content stra](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
+- [Laudspeaker Open-source customer engagement and product onbo](/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze
+- [Line Harness Open-source CRM for LINE Official Accounts with](/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
+- [Mautic Open-source marketing automation platform with email,](/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management
+- [NocoDB Free, self-hostable Airtable alternative that turns a](/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
 **Compare:** [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Salesforce Marketing Cloud vs HubSpot Marketing Hub](/vs/salesforce-marketing-cloud-vs-hubspot/) · [ActiveCampaign vs Klaviyo](/vs/activecampaign-vs-klaviyo/) · [ActiveCampaign vs HubSpot CRM](/vs/activecampaign-vs-hubspot/) · [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Key terms

@@ -11,28 +11,28 @@ Email marketing across hosted, self-hosted, and transactional: contact vs volume
 
 ## HOSTED CAMPAIGN PLATFORMS***5*
 
-- [brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
-- [customer-io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
-- [klaviyo](/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
-- [loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
-- [mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
+- [Brevo Multichannel marketing platform billing by email volum](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
+- [Customer.io Data-driven messaging platform for automated ema](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [Klaviyo AI-powered email and SMS marketing platform built fo](/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
+- [Loops Email marketing for SaaS: marketing, product, and tran](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
+- [Mailchimp All-in-one marketing platform with AI-powered emai](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
 ## SELF-HOSTED SENDERS***3*
 
-- [billionmail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
-- [listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
-- [notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+- [BillionMail Open-source mail server, newsletter, and email m](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+- [Listmonk Open-source self-hosted newsletter and mailing list](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+- [Notifuse Open-source, self-hosted email marketing platform w](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 ## TRANSACTIONAL AND DEVELOPER APIS***4*
 
-- [notifo](/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push
-- [postmark](/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers
-- [resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
-- [sendgrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
+- [Notifo Self-hosted multi-channel notification service for em](/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push
+- [Postmark Transactional email API with separated message stre](/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers
+- [Resend Developer-first email API built around React Email, b](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
+- [Twilio SendGrid Scalable email delivery API with AI-powered ](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
 ## TEMPLATES AND COLD OUTREACH***4*
 
-- [maizzle](/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns
-- [openoutreach](/tools/openoutreach/): Open-source AI lead finder: describe your product and it finds and qualifies the leads
-- [react-email-editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
-- [warmbly](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
+- [Maizzle Modern email development framework using Tailwind CS](/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns
+- [OpenOutreach Open-source AI lead finder: describe your produ](/tools/openoutreach/): Open-source AI lead finder: describe your product and it finds and qualifies the leads
+- [React Email Editor Drag-n-Drop Email Editor Component for Re](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
+- [Warmbly Open-source cold email platform with warmup, campaig](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 **Compare:** [ActiveCampaign vs Klaviyo](/vs/activecampaign-vs-klaviyo/) · [Mailchimp vs Klaviyo](/vs/mailchimp-vs-klaviyo/) · [Mailchimp vs Brevo](/vs/mailchimp-vs-brevo/) · [Mailchimp alternatives](/alternatives/mailchimp/) · [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 
 ## Key terms

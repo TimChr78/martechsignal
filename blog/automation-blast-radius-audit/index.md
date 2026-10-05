@@ -90,7 +90,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 ## Comparison guides
 
 - [Best n8n alternatives (2026)](/alternatives/n8n/)
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -99,6 +99,6 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [BillionMail](/tools/billionmail/)
+More from the directory: [Brandwatch](/tools/brandwatch/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

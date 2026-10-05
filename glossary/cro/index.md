@@ -4,8 +4,6 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-07
-
 ## Definition
 
 Conversion rate optimization is the practice of increasing the percentage of visitors who take a desired action, buying, signing up, requesting a demo. It combines A/B testing, user research, analytics, and UX design to remove friction from the conversion path.
@@ -53,6 +51,10 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
 
 [Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [Personalization & CDP](/categories/personalization/) [Best Personalization & CDP tools](/best/ai-personalization-tools/)
 
+- [Analytics & Attribution](/categories/analytics/)
+- [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
+- [Personalization & CDP](/categories/personalization/)
+- [Best Personalization & CDP tools](/best/ai-personalization-tools/)
 ## See also
 
 - [AEO](/glossary/aeo/)

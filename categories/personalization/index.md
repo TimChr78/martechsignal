@@ -11,23 +11,23 @@ Ecommerce personalization, customer data platforms, and flags and testing. 11 to
 
 ## STOREFRONT PERSONALIZATION***3*
 
-- [clerk-io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
-- [dynamic-yield](/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences
-- [nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
+- [Clerk.io AI-powered ecommerce personalization with search, r](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
+- [Dynamic Yield AI-powered personalization platform for web, m](/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences
+- [Nosto AI-powered ecommerce personalization with product reco](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
 ## PACKAGED CDPS***2*
 
-- [segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
-- [tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [Twilio Segment Customer data platform for collecting, unifyi](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
+- [Tealium Enterprise customer data platform with real-time dat](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
 ## WAREHOUSE PIPES AND COMPOSABLE ACTIVATION***4*
 
-- [apache-unomi](/tools/apache-unomi/): Apache's open-source customer data platform and personalization engine
-- [hightouch](/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs
-- [jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
-- [rudderstack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
+- [Apache Unomi Apache's open-source customer data platform and](/tools/apache-unomi/): Apache's open-source customer data platform and personalization engine
+- [Hightouch Composable CDP that activates warehouse data where](/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs
+- [Jitsu Open-source Segment alternative for event capture and ](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
+- [RudderStack Warehouse-first CDP: open-source Go data plane p](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
 ## FLAGS AND TESTING***2*
 
-- [flagsmith](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting
-- [growthbook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
+- [Flagsmith Open-source feature flag and remote config platfor](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting
+- [GrowthBook Open-source feature flags and A/B testing with a ](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 **Compare:** [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) · [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/)
 
 ## Key terms

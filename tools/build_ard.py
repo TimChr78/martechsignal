@@ -163,11 +163,16 @@ def build():
         "ai-policy": (["martechsignal ai policy", "llm usage policy site"],
                       "Content policy for AI systems: citation, grounding, and training"),
         "corrections": (["martechsignal corrections", "site errata"], "Published corrections"),
-        "authors": (["martechsignal authors", "who writes martechsignal"], "Author hub"),
+        "authors": (["martechsignal authors", "who writes martechsignal"], "Author hub",
+                    "https://martechsignal.com/authors/tim-christensen/"),
         "privacy": (["martechsignal privacy policy", "martechsignal data handling"], "Privacy policy"),
         "terms": (["martechsignal terms of service", "martechsignal usage terms"], "Terms of service"),
     }
-    for slug, (qs, desc) in core.items():
+    for slug, core_val in core.items():
+        qs, desc = core_val[0], core_val[1]
+        # r24 L-15 (2026-10-05): an entry may carry an explicit URL when the
+        # slug path is not the canonical page (/authors/ 301s to the person).
+        _url = core_val[2] if len(core_val) > 2 else f"https://martechsignal.com/{slug}/"
         p = ROOT / slug / "index.html"
         if p.exists():
             title, pdesc = _page_info(p)
@@ -175,7 +180,7 @@ def build():
                 "identifier": f"urn:air:{PUBLISHER}:pages:{slug}",
                 "displayName": title,
                 "type": "text/html",
-                "url": f"https://martechsignal.com/{slug}/",
+                "url": _url,
                 "description": pdesc or desc,
                 "representativeQueries": qs[:5],
             })

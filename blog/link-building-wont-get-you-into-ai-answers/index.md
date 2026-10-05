@@ -74,12 +74,12 @@ Links still rank pages on Google, and nothing in either article says otherwise. 
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
-- [AI Visibility](/glossary/ai-search-visibility/)
+- [GEO](/glossary/geo/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SuiteCRM](/tools/suitecrm/)
+More from the directory: [Writesonic](/tools/writesonic/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

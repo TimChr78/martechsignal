@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-06 (29 days ago).
 
 Drag-n-Drop Email Editor Component for React.js
 
-Email Marketing · Open Source Desk-reviewed
+Email Marketing · Open Source from $250/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -151,14 +151,14 @@ If you need a fully open pipeline with no third-party dependency, yes, and you s
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Developer teams that want email templates versioned as code
 ### Quick Facts
 
-- **Pricing:** Open Source
+- **Pricing:** Open Source from $250/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
 - **GitHub:** ★ 5233
 - **API:** No

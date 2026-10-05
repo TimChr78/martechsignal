@@ -4,8 +4,6 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-25
-
 ## Definition
 
 The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a database, send an email, read a file - in a uniform format any MCP-compatible client can use. It replaces one-off integrations between each model and each tool with a single protocol on each side.
@@ -56,6 +54,13 @@ Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](htt
 
 [Workflow Automation](/categories/workflow-automation/) [Best Workflow Automation tools](/best/workflow-automation-tools/) [MCP and agent protocols](/guides/mcp-agent-protocols/) [Automation strategy](/guides/workflow-automation-strategy/) [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/)
 
+- [Workflow Automation](/categories/workflow-automation/)
+- [Best Workflow Automation tools](/best/workflow-automation-tools/)
+- [MCP and agent protocols](/guides/mcp-agent-protocols/)
+- [Automation strategy](/guides/workflow-automation-strategy/)
+- [Marketing Automation](/categories/marketing-automation/)
+- [Best Marketing Automation tools](/best/ai-marketing-automation-tools/)
+- [Automation strategy](/guides/workflow-automation-strategy/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [Browse all tools →](/tools/)

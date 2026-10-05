@@ -14,6 +14,20 @@ A directory tells you what exists. It does not tell you whether your stack can h
 
 ## Browse by category
 
+- [Marketing Automation (12)](/categories/marketing-automation/)
+- [Email Marketing (16)](/categories/email-marketing/)
+- [CRM (24)](/categories/crm/)
+- [AI Content & Copywriting (13)](/categories/content-ai/)
+- [Analytics & Attribution (11)](/categories/analytics/)
+- [Social Media (6)](/categories/social-media/)
+- [Advertising & Paid Media (9)](/categories/advertising/)
+- [Personalization & CDP (11)](/categories/personalization/)
+- [Chatbots & Conversational AI (6)](/categories/chatbots/)
+- [SEO & Search (9)](/categories/seo/)
+- [GEO & LLM Optimization (14)](/categories/geo-llm-visibility/)
+- [Workflow Automation (17)](/categories/workflow-automation/)
+- [Agent Skills (18)](/categories/agent-skills/)
+- [Open-Source Tools (81)](/categories/open-source/)
 ## Evaluating tools for your stack?
 
 The weekly newsletter tracks this category: one teardown, one workflow, no fluff.
@@ -76,7 +90,7 @@ Ghost
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
 
-Open SourceDesk-reviewedAI Content & CopywritingOSS
+Open Source from $9/moDesk-reviewedAI Content & CopywritingOSS
 
 Hypotenuse AI
 
@@ -124,7 +138,7 @@ Strapi
 
 Open-source headless CMS with AI-powered content management and API-first design
 
-Open SourceDesk-reviewedAI Content & CopywritingOSS
+Open Source from $99/moDesk-reviewedAI Content & CopywritingOSS
 
 Writer
 
@@ -316,7 +330,7 @@ Matomo
 
 Open-source web analytics platform with full data ownership and AI-powered insights
 
-Open SourceDesk-reviewedAnalytics & AttributionOSS
+Open Source from €22/moDesk-reviewedAnalytics & AttributionOSS
 
 Mixpanel
 
@@ -334,7 +348,7 @@ Plausible Analytics
 
 Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
 
-Open SourceDesk-reviewedAnalytics & AttributionOSS
+Open Source from $9/moDesk-reviewedAnalytics & AttributionOSS
 
 PostHog
 
@@ -346,7 +360,7 @@ Snowplow
 
 Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
 
-Free tierDesk-reviewedAnalytics & AttributionOSS
+Open-coreDesk-reviewedAnalytics & AttributionOSS
 
 Triple Whale
 
@@ -358,7 +372,7 @@ Umami
 
 Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps
 
-Open SourceDesk-reviewedAnalytics & AttributionOSS
+Open Source from $20/moDesk-reviewedAnalytics & AttributionOSS
 
 AlphOne
 
@@ -400,19 +414,19 @@ EspoCRM
 
 Lightweight open-source CRM with sales automation, marketing tools, and customer management
 
-Open SourceDesk-reviewedCRMOSS
+Open Source from €12.9/moDesk-reviewedCRMOSS
 
 Ever Gauzy
 
 Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 
-Open SourceDesk-reviewedCRMOSS
+Open Source from $17/moDesk-reviewedCRMOSS
 
 Frappe CRM
 
 Fully featured, open source CRM
 
-Open SourceDesk-reviewedCRMOSS
+Open Source from $5/moDesk-reviewedCRMOSS
 
 Freshsales
 
@@ -430,13 +444,13 @@ IDURAR ERP & CRM
 
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
-Open SourceDesk-reviewedCRMOSS
+Open Source from $5000/moDesk-reviewedCRMOSS
 
 Krayin CRM
 
 Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
 
-Open SourceDesk-reviewedCRMOSS
+Open Source from $1799/moDesk-reviewedCRMOSS
 
 Macro
 
@@ -448,7 +462,7 @@ Monica
 
 Open-source personal CRM for tracking friends, family, and business relationships
 
-Open SourceDesk-reviewedCRMOSS
+Open Source from $9/moDesk-reviewedCRMOSS
 
 Pipedrive
 
@@ -466,7 +480,7 @@ Relaticle
 
 Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
 
-Open SourceDesk-reviewedCRMOSS
+Open Source from $19/moDesk-reviewedCRMOSS
 
 Salesforce CRM
 
@@ -484,7 +498,7 @@ Twenty
 
 The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 
-Open SourceDesk-reviewedCRMOSS
+Open Source from $9/moDesk-reviewedCRMOSS
 
 WaCRM
 
@@ -520,7 +534,7 @@ Chatwoot
 
 Open-source customer engagement suite with Captain AI and full self-hosting
 
-Open SourceDesk-reviewedChatbots & Conversational AIOSS
+Open Source from $19/moDesk-reviewedChatbots & Conversational AIOSS
 
 Intercom
 
@@ -544,7 +558,7 @@ BillionMail
 
 Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 
-Open SourceDesk-reviewedEmail MarketingOSS
+Open Source from $98.9/moDesk-reviewedEmail MarketingOSS
 
 Brevo
 
@@ -598,7 +612,7 @@ Notifuse
 
 Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 
-Open SourceDesk-reviewedEmail MarketingOSS
+Open Source from $19/moDesk-reviewedEmail MarketingOSS
 
 OpenOutreach
 
@@ -616,7 +630,7 @@ React Email Editor
 
 Drag-n-Drop Email Editor Component for React.js
 
-Open SourceDesk-reviewedEmail MarketingOSS
+Open Source from $250/moDesk-reviewedEmail MarketingOSS
 
 Resend
 
@@ -634,7 +648,7 @@ Warmbly
 
 Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 
-Open SourceDesk-reviewedEmail MarketingOSS
+Open Source from $29/moDesk-reviewedEmail MarketingOSS
 
 AccuRanker
 
@@ -772,13 +786,13 @@ Mautic
 
 Open-source marketing automation platform with email, campaigns, and lead management
 
-Open SourceDesk-reviewedMarketing AutomationOSS
+Open Source from €247.5/moDesk-reviewedMarketing AutomationOSS
 
 NocoDB
 
 Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
 
-Free tierDesk-reviewedMarketing AutomationOSS
+Open-core from $12/moDesk-reviewedMarketing AutomationOSS
 
 Ortto
 
@@ -844,7 +858,7 @@ RudderStack
 
 Warehouse-first CDP: open-source Go data plane plus managed routing
 
-Free tierDesk-reviewedPersonalization & CDPOSS
+Open-core from $265/moDesk-reviewedPersonalization & CDPOSS
 
 Tealium
 
@@ -880,7 +894,7 @@ OpenSEO
 
 Open source alternative to Ahrefs and Semrush
 
-Open SourceDesk-reviewedSEO & SearchOSS
+Open Source from $10/moDesk-reviewedSEO & SearchOSS
 
 Potato
 
@@ -898,7 +912,7 @@ Seonaut
 
 Open-source SEO crawler in Go for technical audits, self-hosted or cloud
 
-Open SourceDesk-reviewedSEO & SearchOSS
+Open Source from $9/moDesk-reviewedSEO & SearchOSS
 
 Superlines
 
@@ -958,13 +972,13 @@ Appsmith
 
 Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
 
-Free tierDesk-reviewedWorkflow AutomationOSS
+Open-core from $15/moDesk-reviewedWorkflow AutomationOSS
 
 Budibase
 
 Open-source operations platform for building AI agents, apps and automations on your own data
 
-Free tierDesk-reviewedWorkflow AutomationOSS
+Open-core from $19/moDesk-reviewedWorkflow AutomationOSS
 
 IFTTT
 
@@ -976,7 +990,7 @@ LangChain
 
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 
-Open SourceHands-onWorkflow AutomationOSS
+Open Source from $39/moHands-onWorkflow AutomationOSS
 
 Make
 
@@ -994,7 +1008,7 @@ n8n
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
-Open SourceDesk-reviewedWorkflow AutomationOSS
+Open Source from €20/moDesk-reviewedWorkflow AutomationOSS
 
 n8n Marketing Flows
 
@@ -1006,7 +1020,7 @@ NocoBase
 
 Open-source no-code platform with AI assistance for building business systems fast
 
-Free tierDesk-reviewedWorkflow AutomationOSS
+Open-coreDesk-reviewedWorkflow AutomationOSS
 
 Pabbly Connect
 
@@ -1030,7 +1044,7 @@ ToolJet
 
 Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 
-Free tierDesk-reviewedWorkflow AutomationOSS
+Open-core from $79/moDesk-reviewedWorkflow AutomationOSS
 
 Tray.io
 

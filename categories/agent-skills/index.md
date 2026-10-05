@@ -11,28 +11,28 @@ Agent skills and MCP tools for coding agents: what each package automates in a m
 
 ## SEO AND CONTENT SKILLS***7*
 
-- [aaron-marketing-skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
-- [claude-seo](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
-- [codex-seo](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-- [diffmode-growth-tactics](/tools/diffmode-growth-tactics/): Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
-- [email-marketing-bible](/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
-- [growth-lab](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
-- [seo-skill-bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+- [Aaron Marketing Skills 120 marketing skills across 7 discipl](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
+- [Claude SEO Open-source SEO skill for Claude Code with 25 sub](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
+- [Codex SEO Codex-first SEO skill suite with 26 workflows, 24 ](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+- [Diffmode Growth Tactics Free Claude Code/Codex pipeline that](/tools/diffmode-growth-tactics/): Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
+- [Email Marketing Bible 55K-word email marketing skill with 90](/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
+- [Growth Lab Open-source skills that run SEO and Xiaohongshu g](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
+- [SEO Skill Bench Open benchmark that scores Claude Code SEO s](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 ## CAMPAIGN AND ASSET SKILLS***9*
 
-- [ai-business-skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-- [analytics-tracking-automation](/tools/analytics-tracking-automation/): AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
-- [claude-ads](/tools/claude-ads/): Paid-media operations skill for Claude Code covering 12 ad platforms
-- [eve-marketing-team](/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email
-- [google-meta-ads-ga4-mcp](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
-- [marketing-studio](/tools/marketing-studio/): Agent-driven marketing studio for Claude Code: launch assets from one command
-- [open-mercato](/tools/open-mercato/): Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
-- [openclaw-marketing-skills](/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors
-- [zapier-gtm-cheat-codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+- [AI Business Skills 63 bilingual marketing skills (Vietnamese](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+- [Analytics Tracking Automation AI skill for GA4 + GTM event t](/tools/analytics-tracking-automation/): AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
+- [Claude Ads Paid-media operations skill for Claude Code cover](/tools/claude-ads/): Paid-media operations skill for Claude Code covering 12 ad platforms
+- [Eve Marketing Team Template Open-source team of marketing ag](/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email
+- [Google Ads + Meta Ads + GA4 MCP MCP server giving AI agents ](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+- [Marketing Studio Agent-driven marketing studio for Claude Co](/tools/marketing-studio/): Agent-driven marketing studio for Claude Code: launch assets from one command
+- [Open Mercato Open-source TypeScript foundation for AI-built ](/tools/open-mercato/): Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
+- [OpenClaw Marketing Skills 37 marketing skills for OpenClaw a](/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors
+- [Zapier GTM Cheat Codes Zapier's installable coding-agent ski](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 ## More Agent Skills tools***2*
 
-- [ai-marketing-claude](/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports
-- [digital-marketing-pro](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
+- [AI Marketing Suite 15-skill marketing suite for Claude Code ](/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports
+- [Digital Marketing Pro 163-skill AI marketing plugin for agen](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
 **Compare:** [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 
 ## Key terms

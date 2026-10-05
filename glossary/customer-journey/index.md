@@ -4,8 +4,6 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-07
-
 ## Definition
 
 A customer journey map is a visual representation of every step a customer takes from first awareness to purchase and beyond. It documents touchpoints, emotions, pain points, and the channels involved at each stage. The goal is to find where the experience breaks down.
@@ -49,6 +47,10 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
 
 [Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [CRM](/categories/crm/) [Best CRM tools](/best/ai-crm-tools/)
 
+- [Analytics & Attribution](/categories/analytics/)
+- [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
+- [CRM](/categories/crm/)
+- [Best CRM tools](/best/ai-crm-tools/)
 ## See also
 
 - [CDP](/glossary/cdp/)

@@ -4,11 +4,9 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-28
-
 ## Definition
 
-Marketing automation is software that runs repetitive marketing tasks without manual intervention: sending a welcome email when someone signs up, moving a lead to a nurture sequence after they download a whitepaper, alerting sales when a prospect visits the pricing page three times in a week.
+Marketing automation is software that runs repetitive marketing tasks without manual intervention. It sends a welcome email when someone signs up, moves a lead to a nurture sequence after they download a whitepaper, and alerts sales when a prospect visits the pricing page three times in a week.
 
 ## Why it matters
 
@@ -54,6 +52,9 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Braze](https://www
 
 [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/)
 
+- [Marketing Automation](/categories/marketing-automation/)
+- [Best Marketing Automation tools](/best/ai-marketing-automation-tools/)
+- [Automation strategy](/guides/workflow-automation-strategy/)
 ## See also
 
 - [ABM](/glossary/abm/)

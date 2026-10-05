@@ -4,8 +4,6 @@
 
 GLOSSARY
 
-Definition last Updated 2026-09-07
-
 ## Definition
 
 SEO is the practice of improving a website's visibility in organic (non-paid) search results. It covers technical factors (site speed, crawlability, structured data), content quality (relevance, depth, freshness), and authority signals (backlinks, brand mentions, domain reputation).
@@ -50,6 +48,11 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
 
 [SEO & Search](/categories/seo/) [Best SEO & Search tools](/best/ai-seo-tools/) [AI SEO tooling](/guides/ai-seo-tooling/) [Agent Skills](/categories/agent-skills/) [Best Agent Skills tools](/best/agent-skills-tools/)
 
+- [SEO & Search](/categories/seo/)
+- [Best SEO & Search tools](/best/ai-seo-tools/)
+- [AI SEO tooling](/guides/ai-seo-tooling/)
+- [Agent Skills](/categories/agent-skills/)
+- [Best Agent Skills tools](/best/agent-skills-tools/)
 ## See also
 
 - [AI Visibility](/glossary/ai-search-visibility/)

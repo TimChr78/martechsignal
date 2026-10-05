@@ -82,20 +82,22 @@ For a team already comfortable with Docker and an agent CLI, the five-layer loop
 
 **Tools linked in this post:** [Twenty](/tools/twenty/) | [Relaticle](/tools/relaticle/) | [Activepieces](/tools/activepieces/) | [Matomo](/tools/matomo/) | [Jitsu](/tools/jitsu/) | [GrowthBook](/tools/growthbook/) | [google-meta-ads-ga4-mcp](/tools/google-meta-ads-ga4-mcp/) | [Open Mercato](/tools/open-mercato/) | [NocoDB](/tools/nocodb/) | [Flagsmith](/tools/flagsmith/) | [ToolJet](/tools/tooljet/) | [Cordys CRM](/tools/cordys-crm/) | [DeskcommCRM](/tools/deskcommcrm/) | [Dolibarr ERP/CRM](/tools/dolibarr/) | [Email Marketing Bible](/tools/email-marketing-bible/) | [Line Harness](/tools/line-harness/) | [Macro](/tools/macro/) | [React Email Editor](/tools/react-email-editor/) | [WaCRM](/tools/wacrm/) | [Zapier](/tools/zapier/) | [Klaviyo](/tools/klaviyo/) | [Segment](/tools/segment/) | [PostHog](/tools/posthog/) | [AlphOne](/tools/alphone/) | [OpenSEO](/tools/openseo/) | [Warpdrive](/tools/warpdrive/) | [Django CRM](/tools/django-crm/) | [Promptfoo](/tools/promptfoo/) | [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/)
 
+**Related reading:** [Open-source martech stack vs subscriptions](/blog/open-source-martech-stack/) - the cost side of the same decision: when self-hosting beats SaaS pricing.
+
 ## Related reading
 
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ## Related tools
 
 - [Nimt.ai](/tools/nimt-ai/) - AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 - [Resend](/tools/resend/) - Developer-first email API built around React Email, batch sending, and agent tooling
-- [Postmark](/tools/postmark/) - Transactional email API with separated message streams, an MCP server, and published delivery numbers
+- [BillionMail](/tools/billionmail/) - Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
+- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/)
 ## Glossary terms
 
 - [MCP](/glossary/mcp/)

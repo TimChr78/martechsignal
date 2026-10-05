@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 
-Workflow Automation · Free tier · OPEN SOURCE Desk-reviewed
+Workflow Automation · Open-core from $79/mo · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -158,7 +158,7 @@ Yes, through the ToolJet MCP server, which the README marks as beta. You create 
 - [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ### Quick Facts
 
-- **Pricing:** Free tier
+- **Pricing:** Open-core from $79/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **GitHub:** ★ 41040
 - **API:** Yes
