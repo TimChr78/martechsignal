@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Line Harness
-Re-check pending: pricing last verified 2026-09-07 (28 days ago).
+Re-check pending: pricing last verified 2026-09-07 (29 days ago).
 
 ## Line Harness review (2026): pricing, AI features, verdict
 

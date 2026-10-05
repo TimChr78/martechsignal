@@ -4,6 +4,18 @@
 
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
 
+## Third unit vocabulary: per-member and per-agent prices qualified (October 6)
+
+A follow-up audit found the same unit-stripped class in a third wording: Flagsmith's Scale tier at USD 50/member/month and Chatwoot's cloud tiers at $19 to $99 per agent/month rendered as bare "$50/mo" and "$19/mo" across tool pages, hub cards, mirrors, and schema Offers. Both catalog records now declare their unit (member, agent), and the qualifier is no longer a two-word list: any countable unit noun renders on every template surface, paid schema Offers suppress on all of them, and the build test suite sweeps every record's entry-figure context for unit nouns it has not seen before (reported for review, not silently skipped). The same wave flattened a wrong "/seat" qualifier on Marketing Hub copy: Starter at $20/mo is contact-metered, not per-seat, so both comparison sentences now read "$20/mo" and only the CRM record keeps "/seat".
+
+Also corrected: the /categories/ hub briefly rendered a raw, unfilled count token where the open-source count belongs (a template token the hub renderer never filled; the renderer now fills it, and the page reads 81). The delay between this log's entries is itself logged: the October 5 unit wave below shipped without its same-day entry, breaking this page's own precedent; the entry is backfilled here with the regression included, as the page requires of itself.
+
+## Automatic pricing re-verification is live (October 6)
+
+The pricing re-check queue the audits carried for thirteen rounds is now worked automatically instead of watched. A weekly job scores every catalog record by staleness, reader traffic, and comparison-page citations, re-fetches the top twelve vendor pricing pages politely (conditional requests, robots respected), and confirms the catalog figures against what the vendor publishes today. Matching records get a fresh verification date; anything else (a changed price, a moved page, a script-rendered figure) is queued with evidence for human review. The script never writes a price on its own.
+
+First run's catches, fixed the same day: Chatfuel restructured its plans (the catalog's $39/mo is now Business at $18/mo billed yearly, $20/mo monthly, with Agency tiers from $90/mo; tool page, comparison copy, and meta updated), and AdCreative's pricing page moved onto its homepage (catalog link updated). Attio's entry was confirmed unchanged at $29/seat/mo against the vendor's own documentation after a false alarm caused by a euro-rendered page.
+
 ## Per-user enterprise prices now carry their unit everywhere
 
 October 5’s second corrections entry fixed one Salesforce comparison snippet that showed “from $25/mo” for an enterprise edition whose entry is $1,500/mo per org. The follow-up audit found the same unit-stripped figure on five more surfaces: the tool-page pricing hero, the FAQ answer and its JSON-LD twin, the catalog description paragraph, the schema Offer node, and the catalog record itself.
@@ -103,6 +115,10 @@ Three Claude SEO comparison posts were published without approval by a pipeline 
 Our Claude SEO review carried review-structured data for our own product. We removed the markup; the editorial text remains, clearly labelled.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+2026-10-06
+
+2026-10-06
 
 2026-10-05
 

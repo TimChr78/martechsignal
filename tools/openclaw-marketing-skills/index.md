@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - OpenClaw Marketing Skills
-Re-check pending: pricing last verified 2026-08-28 (38 days ago).
+Re-check pending: pricing last verified 2026-08-28 (39 days ago).
 
 ## OpenClaw Marketing Skills review (2026): pricing, AI features, verdict
 

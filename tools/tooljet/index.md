@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - ToolJet
-Re-check pending: pricing last verified 2026-09-07 (28 days ago).
+Re-check pending: pricing last verified 2026-09-07 (29 days ago).
 
 ## ToolJet review (2026): pricing, AI features, verdict
 

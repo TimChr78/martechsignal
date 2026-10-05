@@ -372,7 +372,11 @@ def _clean_excerpt(text, limit=155):
     # r28 N-11 (2026-10-06): a stray blockquote marker rode a body excerpt
     # into a meta as "&gt;", then escaped again to "&amp;gt;". Unescape the
     # input so pre-escaped strays can never double-escape downstream.
+    # r30 N-11 (2026-10-06): the marker itself is the defect, not the
+    # escaping — "&gt;" in a meta is a correct ">", but a leading quote
+    # glyph opens the snippet. Strip blockquote markers from excerpts.
     text = html.unescape(text or "")
+    text = re.sub(r"^(>\s*)+", "", text or "")
     text = " ".join((text or "").split())
     if _sc is not None:
         cut = _sc(text, limit, sentences_only=True)

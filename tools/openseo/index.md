@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - OpenSEO
-Re-check pending: pricing last verified 2026-09-07 (28 days ago).
+Re-check pending: pricing last verified 2026-09-07 (29 days ago).
 
 ## OpenSEO review (2026): pricing, AI features, verdict
 

@@ -92,6 +92,20 @@ def _fmt_num(v):
         return f"{int(f):,}"
     return str(int(f))
 
+def _unit_suffix(t):
+    """r30 H-4 (2026-10-06): the unit class speaks in nouns, not just
+    user/seat — member (flagsmith), agent (chatwoot), and any future
+    countable noun qualify identically. Only \"org\" (flat org-wide price,
+    drift) renders bare and keeps its Offer."""
+    _u = str(t.get("price_unit") or "").lower()
+    return f"/{_u}/mo" if _u and _u != "org" else "/mo"
+
+
+def _has_unit(t):
+    _u = str(t.get("price_unit") or "").lower()
+    return bool(_u) and _u != "org"
+
+
 def pricing_label(t):
     m = t.get("pricing_model", "paid")
     _pf = t.get("paid_from")
@@ -110,7 +124,7 @@ def pricing_label(t):
             # r28 H-2 (2026-10-06): per-user/per-seat entry figures carry the
             # record's unit — "Freemium from $29/seat/mo", never bare.
             _uu = str(t.get("price_unit") or "").lower()
-            _usfx = f"/{_uu}/mo" if _uu in ("user", "seat") else "/mo"
+            _usfx = _unit_suffix(t)
             return "Freemium from " + _sym + _fmt_num(_entry) + _usfx
         return "Freemium"
     # r24 M-1 (2026-10-05): 19 open-source/open-core rows carried a published
@@ -129,7 +143,7 @@ def pricing_label(t):
                 return f"{_word} from {_sym}{_fmt_num(_pf)} one-time"
             # r28 H-2 (2026-10-06): per-user/per-seat paid entries qualify.
             _uu = str(t.get("price_unit") or "").lower()
-            _usfx = f"/{_uu}/mo" if _uu in ("user", "seat") else "/mo"
+            _usfx = _unit_suffix(t)
             return f"{_word} from {_sym}{_fmt_num(_pf)}{_usfx}"
         return _word
     if m == "enterprise": return "Enterprise"
@@ -141,7 +155,7 @@ def pricing_label(t):
         _sym = "\u20ac" if str(t.get("currency") or "").upper() == "EUR" else "$"
         # r28 H-2 (2026-10-06): per-user/per-seat entries qualify here too.
         _uu = str(t.get("price_unit") or "").lower()
-        _usfx = f"/{_uu}/mo" if _uu in ("user", "seat") else "/mo"
+        _usfx = _unit_suffix(t)
         return f"From {_sym}{_fmt_num(p)}{_usfx}"
     return "Paid"
 
@@ -244,8 +258,8 @@ def pricing_section_html(t):
     # qualifier _money emits — "from $25/user/mo", never "from $25/mo".
     # r28 H-2 (2026-10-06): per-seat records render "/seat/mo" the same way.
     _pu = str(t.get("price_unit") or "").lower()
-    if _pu in ("user", "seat") and _unit == "/mo":
-        _unit = f"/{_pu}/mo"
+    if _has_unit(t) and _unit == "/mo":
+        _unit = _unit_suffix(t)
     if model == "enterprise" and pf:
         tail = f", from {_price_money(sym, pf)}{_unit}"
     elif pf and pf != 0:
@@ -1065,10 +1079,8 @@ def _money(p, t):
     # r28 H-2 (2026-10-06): the same class one tier down — per-seat records
     # ($29/seat/mo) render identically qualified via price_unit:"seat".
     _unit_w = str(t.get("price_unit") or "").lower()
-    if _unit_w == "user":
-        return f"{_sym}{_fmt_num(p)}/user/mo"
-    if _unit_w == "seat":
-        return f"{_sym}{_fmt_num(p)}/seat/mo"
+    if _has_unit(t):
+        return f"{_sym}{_fmt_num(p)}{_unit_suffix(t)}"
     return f"{_sym}{_fmt_num(p)}/mo"
 
 def _score_band(t):
@@ -1263,14 +1275,15 @@ def _offer_for(t):
             if _paid == 0:
                 return _offer(0)
             # r29 N-14: unit-priced paid tier suppresses to the $0 node alone.
-            if _pu in ("user", "seat"):
+            # r30 H-4: any countable unit, not just user/seat.
+            if _has_unit(t):
                 return _offer(0)
             return [_offer(0), _offer(_paid)]
-        if _pu in ("user", "seat"):
+        if _has_unit(t):
             return None
         return _offer(_paid)
     if _pf is not None and _pf > 0:
-        if _pu in ("user", "seat"):
+        if _has_unit(t):
             return None
         return _offer(_pf)
     # A2 M5: price: 0 only where "Free" is literally true: a genuinely free

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Loops
-Re-check pending: pricing last verified 2026-09-07 (28 days ago).
+Re-check pending: pricing last verified 2026-09-07 (29 days ago).
 
 ## Loops review (2026): pricing, AI features, verdict
 

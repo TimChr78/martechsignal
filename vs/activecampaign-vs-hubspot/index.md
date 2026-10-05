@@ -114,7 +114,7 @@ Neither fits a team whose core need is ecommerce messaging driven by purchase da
 ## Who should pick which
 
 - **Pick ActiveCampaign if:** you want deep multi-step automation in one SMB-priced platform, starting at $15/mo on Starter.
-- **Pick HubSpot CRM if:** you want a free CRM to start with sales, service, and marketing on one record, with paid hubs from around $20/seat/mo.
+- **Pick HubSpot CRM if:** you want a free CRM to start with sales, service, and marketing on one record, with paid hubs from around $20/mo.
 
 ## Which one fits automation-first, and which fits platform-first?
 

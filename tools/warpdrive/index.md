@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Warpdrive
-Re-check pending: pricing last verified 2026-09-07 (28 days ago).
+Re-check pending: pricing last verified 2026-09-07 (29 days ago).
 
 ## Warpdrive review (2026): pricing, AI features, verdict
 

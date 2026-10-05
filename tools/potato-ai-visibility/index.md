@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Potato
-Re-check pending: pricing last verified 2026-08-31 (35 days ago).
+Re-check pending: pricing last verified 2026-08-31 (36 days ago).
 
 KIND: Utility (not an end-to-end platform)
 

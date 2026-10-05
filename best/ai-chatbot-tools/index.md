@@ -8,7 +8,7 @@ Intercom fits support teams that want AI resolutions they can audit. Chatwoot gi
 | Tool | Pricing | Open source | Best for |
 | --- | --- | --- | --- |
 | [Intercom](/tools/intercom/) | From $29/seat/mo | No | Support teams that want AI resolutions auditable at $0.99 each |
-| [Chatwoot](/tools/chatwoot/) | Open Source from $19/mo | Yes | Teams that want an open-source inbox with AI help included |
+| [Chatwoot](/tools/chatwoot/) | Open Source from $19/agent/mo | Yes | Teams that want an open-source inbox with AI help included |
 | [Tidio](/tools/tidio/) | Freemium from $24/mo | No | Small shops adding live chat and an AI agent cheaply |
 | [Chatfuel](/tools/chatfuel/) | From $18/mo | No | Messaging-first brands scripting conversations like campaigns |
 | [ManyChat](/tools/manychat/) | Freemium from $14/mo | No | Creators monetizing DMs across Instagram and WhatsApp |

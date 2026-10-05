@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - DeskcommCRM
+Re-check pending: pricing last verified 2026-09-14 (22 days ago).
+
 ## DeskcommCRM review (2026): pricing, AI features, verdict
 
 Self-hosted open-source CRM with AI agents that sell through WhatsApp

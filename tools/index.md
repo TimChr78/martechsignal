@@ -123,7 +123,7 @@ All 166 tools, grouped by category. Each card links to a full teardown with pric
 
 - [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation (Open Source)
 - [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels (From $18/mo)
-- [Chatwoot](/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting (Open Source from $19/mo)
+- [Chatwoot](/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting (Open Source from $19/agent/mo)
 - [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging (From $29/seat/mo)
 - [ManyChat](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger (Freemium from $14/mo)
 - [Tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support (Freemium from $24/mo)
@@ -180,7 +180,7 @@ All 166 tools, grouped by category. Each card links to a full teardown with pric
 - [Apache Unomi](/tools/apache-unomi/): Apache's open-source customer data platform and personalization engine (Open Source)
 - [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email (From $119/mo)
 - [Dynamic Yield](/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences (Enterprise)
-- [Flagsmith](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting (Freemium from $50/mo)
+- [Flagsmith](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting (Freemium from $50/member/mo)
 - [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting (Freemium from $40/seat/mo)
 - [Hightouch](/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs (Freemium)
 - [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines (Freemium from $99/mo)

@@ -26,7 +26,7 @@ Ecommerce personalization, customer data platforms, and flags and testing. 11 to
 - [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing (Open-core from $265/mo)
 ## FLAGS AND TESTING (2)
 
-- [Flagsmith](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting (Freemium from $50/mo)
+- [Flagsmith](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting (Freemium from $50/member/mo)
 - [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting (Freemium from $40/seat/mo)
 **Compare:** [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) · [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/)
 

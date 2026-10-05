@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - NocoBase
-Re-check pending: pricing last verified 2026-09-05 (30 days ago).
+Re-check pending: pricing last verified 2026-09-05 (31 days ago).
 
 ## NocoBase review (2026): pricing, AI features, verdict
 

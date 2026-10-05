@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - AdCreative.ai
-Re-check pending: pricing last verified 2026-08-28 (38 days ago).
+Re-check pending: pricing last verified 2026-08-28 (39 days ago).
 
 ## AdCreative.ai review (2026): pricing, AI features, verdict
 

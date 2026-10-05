@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Email Marketing Bible
-Re-check pending: pricing last verified 2026-08-28 (38 days ago).
+Re-check pending: pricing last verified 2026-08-28 (39 days ago).
 
 KIND: Agent Skill (not an end-to-end platform)
 

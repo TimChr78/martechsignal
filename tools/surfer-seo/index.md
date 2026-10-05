@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Surfer SEO
-Re-check pending: pricing last verified 2026-08-28 (38 days ago).
+Re-check pending: pricing last verified 2026-08-28 (39 days ago).
 
 ## Surfer SEO review (2026): pricing, AI features, verdict
 

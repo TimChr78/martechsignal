@@ -2101,6 +2101,12 @@ def test_content_updated_restamps_date_modified():
     assert not _bad, f"stale dateModified on revised leaves: {_bad[:8]}"
 
 
+_KNOWN_UNITS = {"user", "seat", "member", "agent"}
+_PERIOD_WORDS = {"mo", "month", "months", "yr", "year", "years", "yearly",
+                 "annual", "annually", "quarter", "quarterly", "lifetime",
+                 "one-time", "trial", "plan", "plans", "tier", "tiers"}
+
+
 def _notes_unit(notes, entry=None):
     """r28 H-2 (2026-10-06): does price_notes attach /user|/seat (or per-user
     / per-seat prose) to the record's ENTRY figure? Keys the entry figure
@@ -2109,7 +2115,13 @@ def _notes_unit(notes, entry=None):
     r29 H-3 (2026-10-06): class-scoped, not token-scoped — zoho-crm writes
     'EUR 14/user/mo' (currency word, no symbol) and growthbook 'USD
     40/seat/month' (word + /month). Currency words, spaced symbols, and
-    /month suffixes all match; /month alone is billing period, never unit."""
+    /month suffixes all match; /month alone is billing period, never unit.
+    r30 H-4 (2026-10-06): the class speaks in nouns — member (flagsmith
+    'USD 50/member/month'), agent (chatwoot '$19..$99 per agent/mo', where
+    the unit binds the tier LIST, so the window is sentence scope). Any
+    /noun or per-noun binding the entry figure returns the noun; the fence
+    fails on known units and reports unknown ones for adjudication (the
+    monica/buffer lesson: not every per-noun is a price unit)."""
     import re as _re
     _CUR = r"(?:[\$€£]\s?|EUR\s?|USD\s?|GBP\s?)"
     _pat = _CUR + r"([\d,]+(?:\.\d+)?)"
@@ -2123,7 +2135,19 @@ def _notes_unit(notes, entry=None):
                 break
         if not _hit:
             return ""
-        _around = notes[max(0, _hit.start() - 4):_hit.end() + 24].lower()
+        # r30 H-4b: the entry figure's OWN suffix decides. "$19/mo billed
+        # annually, ... end users $5/user/mo" (budibase) is flat at the
+        # entry — the later /user binds the $5 add-on, not the entry.
+        # Only a bare entry falls through to the sentence scan.
+        if _re.match(r"\s?/(mo|months?|yr|years?)\b", notes[_hit.end():_hit.end() + 9], _re.I):
+            return ""
+        # r30 H-4: sentence scope — chatwoot's unit binds the tier list
+        # ("Startups $19, Business $39, Enterprise $99 per agent/mo"), not
+        # the entry figure's immediate neighbours.
+        _start = max(0, _hit.start() - 4)
+        _stop = notes.find(".", _hit.end())
+        _stop = _hit.end() + 24 if _stop < 0 else min(_stop, _hit.end() + 160)
+        _around = notes[_start:_stop].lower()
     else:
         _m = _re.search(_pat, notes or "", _re.I)
         if not _m:
@@ -2133,6 +2157,9 @@ def _notes_unit(notes, entry=None):
         return "user"
     if "/seat" in _around or "per seat" in _around or "per-seat" in _around:
         return "seat"
+    for _noun in _re.findall(r"/([a-z]+)/(?:mo|month|months|yr|year)\b", _around) + _re.findall(r"per ([a-z]+)", _around):
+        if _noun not in _PERIOD_WORDS:
+            return _noun
     return ""
 
 
@@ -2145,8 +2172,8 @@ def test_per_user_enterprise_figures_qualified_everywhere():
     restored — only price>0 fails)."""
     import json as _j, re as _re
     _tools = {_t["slug"]: _t for _t in _j.loads((ROOT / "tools" / "tools.json").read_text())}
-    _flagged = [s for s, _t in _tools.items() if str(_t.get("price_unit") or "").lower() == "user"]
-    assert _flagged, "price_unit=user records vanished from the catalog"
+    _flagged = [s for s, _t in _tools.items() if str(_t.get("price_unit") or "").lower() not in ("", "org")]
+    assert _flagged, "unit-priced records vanished from the catalog"
     # Structural fence (r27 rec 1 leading indicator): every enterprise record
     # with a numeric price_from must declare its unit — the next enterprise
     # row ships figure-free or unit-true on day one, no per-surface fix.
@@ -2155,17 +2182,27 @@ def test_per_user_enterprise_figures_qualified_everywhere():
     # unit-priced declares price_unit (user|seat|org).
     # r29 H-3 (2026-10-06): entry-bound (paid_from, else price_from) and
     # class-scoped — zoho-crm/growthbook write currency words, not symbols.
+    # r30 H-4 (2026-10-06): the membership test is the entry figure's own
+    # notes-context binding it to ANY countable unit (user/seat/member/
+    # agent/...) — no tokenizer on either side reads the third vocabulary
+    # yet, so the build reads it. Known units fail; unknown nouns report
+    # into .unit-guard.json for adjudication without failing the build.
     _swept = 0
     _nounit = []
+    _review = []
     for _s, _t in _tools.items():
         _entry = _t.get("paid_from") or _t.get("price_from") or 0
         if not _entry:
             continue
         _swept += 1
-        if _notes_unit(_t.get("price_notes") or "", _entry) and not str(_t.get("price_unit") or ""):
-            _nounit.append(_s)
+        _found = _notes_unit(_t.get("price_notes") or "", _entry)
+        if _found and not str(_t.get("price_unit") or ""):
+            if _found in _KNOWN_UNITS:
+                _nounit.append(f"{_s} (/{_found})")
+            elif _s not in [ _r[0] for _r in _review ]:
+                _review.append((_s, _found))
     import json as _jj
-    (ROOT / "tools" / ".unit-guard.json").write_text(_jj.dumps({"swept": _swept, "unit_priced": len([_s for _s, _t in _tools.items() if str(_t.get("price_unit") or "")]), "missing": _nounit}))
+    (ROOT / "tools" / ".unit-guard.json").write_text(_jj.dumps({"swept": _swept, "unit_priced": len([_s for _s, _t in _tools.items() if str(_t.get("price_unit") or "")]), "missing": _nounit, "review": _review}))
     assert not _nounit, f"unit-priced entry without price_unit: {_nounit}"
     _names = [_tools[_s]["name"] for _s in _flagged]
     _bad = []
@@ -2205,6 +2242,41 @@ def test_per_user_enterprise_figures_qualified_everywhere():
                 if float(_om.group(1)) > 0:
                     _bad.append(f"{_html.parent.name}: paid Offer on per-user record")
                     break
+    # r30 H-4 (2026-10-06): the audit's falsifiability, verbatim — every
+    # rendered form of a unit record's entry figure carries the unit or is
+    # absent. Entry figure without /{unit} anywhere on its own tool page.
+    for _s in _flagged:
+        _t = _tools[_s]
+        _unit = str(_t.get("price_unit") or "").lower()
+        _entry = _t.get("paid_from") or _t.get("price_from") or 0
+        if not _entry or not _unit:
+            continue
+        _ph = (ROOT / "tools" / _s / "index.html").read_text(errors="ignore")
+        _vis = _re.sub(r'<script type="application/ld\+json">.*?</script>', "", _ph, flags=_re.S)
+        # r30 H-4c: "see also" citations quote sibling comparison pages on
+        # their terms (hubspot-crm cites the vs page's contact-metered
+        # "$20/mo" hub figure). The cited page is swept on its own; the
+        # citation is not this record's entry presentation.
+        _vis = _re.sub(r"<li>.*?</li>", lambda _m: "" if _re.search(r'href="/(vs|best|alternatives)/', _m.group(0)) else _m.group(0), _vis, flags=_re.S)
+        _sym = "€" if str(_t.get("currency") or "").upper() == "EUR" else ("£" if str(_t.get("currency") or "").upper() == "GBP" else "$")
+        _num = str(int(_entry)) if float(_entry) == int(float(_entry)) else str(_entry)
+        _fig = _re.escape(f"{_sym}{_num}")
+        _bare = 0
+        for _m in _re.finditer(_fig + r"(?![0-9])", _vis):
+            _sent = _vis[max(0, _m.start() - 160):_m.start() + 80]
+            # r30 H-4c: word-form units count ("team seats start at $40",
+            # macro) — only plural nouns, so "agent-driven" prose never
+            # qualifies a figure by accident.
+            # r30 H-4d: user/seat are industry synonyms (pipedrive's record
+            # says user, its review prose says seat) — either satisfies.
+            _units = {_unit} | ({"user", "seat"} if _unit in ("user", "seat") else set())
+            _ok = (f"/{_unit}" in _sent or f"per {_unit}" in _sent or f"per-{_unit}" in _sent
+                   or _re.search(rf"\b{_unit}s\b", _sent)
+                   or any(f"/{_u}" in _sent or f"per {_u}" in _sent for _u in _units - {_unit}))
+            if not _ok:
+                _bare += 1
+                if _bare == 1:
+                    _bad.append(f"{_s}: bare entry figure without /{_unit}: {_sent[:90]}")
     assert not _bad, f"unqualified per-user figures: {_bad[:8]}"
 
 
@@ -2219,13 +2291,13 @@ def test_corrections_counts_match_build_tallies():
         _d = _j.loads((ROOT / _f).read_text())
         for _p in _d["pages"]:
             _clauses = _re.split(r"[.;]", _p.get("meta", ""))
-            if any(_re.search(r"[\$€]\d[\d,.]*\s*/(user|seat)", _c) for _c in _clauses):
+            if any(_re.search(r"[\$€]\d[\d,.]*\s*/(user|seat|member|agent)", _c) for _c in _clauses):
                 _mm += 1
     _hc = 0
     for _fam in ("best", "vs", "alternatives"):
         _h = (ROOT / _fam / "index.html").read_text(errors="ignore")
         for _li in _re.finditer(r"<li>.*?</li>", _h, _re.S):
-            if _re.search(r"[\$€]\d[\d,.]*\s*/(user|seat)", _li.group(0)):
+            if _re.search(r"[\$€]\d[\d,.]*\s*/(user|seat|member|agent)", _li.group(0)):
                 _hc += 1
     _entry = (ROOT / "corrections" / "index.md").read_text(errors="ignore")
     _words = {"eight": 8, "nine": 9, "seven": 7, "ten": 10, "six": 6}
@@ -2333,9 +2405,9 @@ def test_float_residues_and_seat_qualifiers():
                         _best_pos, _owner = _pos, _ts
                 _check = [(_owner, _th[_owner])] if _owner and _best_pos >= 0 else list(_th.items())
                 for _ts, _hh in _check:
-                    if (_fig + "/user") in _hh or (_fig + "/seat") in _hh:
+                    if (_fig + "/user") in _hh or (_fig + "/seat") in _hh or (_fig + "/member") in _hh or (_fig + "/agent") in _hh:
                         _ctx = _meta[max(0, _fm.start() - 80):_fm.start() + 40]
-                        if "/user" not in _ctx and "/seat" not in _ctx and "per user" not in _ctx and "per seat" not in _ctx:
+                        if "/user" not in _ctx and "/seat" not in _ctx and "/member" not in _ctx and "/agent" not in _ctx and "per user" not in _ctx and "per seat" not in _ctx and "per member" not in _ctx and "per agent" not in _ctx:
                             _viol.append(f"{_pg.get('slug')}: {_fig} ({_ts})")
     assert not _viol, f"money metas dropping page qualifiers: {_viol[:6]}"
 

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - ALwrity
-Re-check pending: pricing last verified 2026-08-28 (38 days ago).
+Re-check pending: pricing last verified 2026-08-28 (39 days ago).
 
 ## ALwrity review (2026): pricing, AI features, verdict
 

@@ -319,7 +319,7 @@
 
 - [Best Agent Skills tools (2026): 8 compared](https://martechsignal.com/best/agent-skills-tools/): 8 agent skills tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](https://martechsignal.com/best/ai-advertising-tools/): Revealbot (Birch) from $49/mo, Pencil from $11/mo. 8 advertising & paid media tools compared on pricing, AI features, and integrations.
-- [Best Chatbots & Conversational AI tools (2026): 6 compared](https://martechsignal.com/best/ai-chatbot-tools/): Intercom from $29/seat/mo, Chatwoot from $19/mo. 6 chatbots & conversational ai tools compared on pricing, AI features, and integrations.
+- [Best Chatbots & Conversational AI tools (2026): 6 compared](https://martechsignal.com/best/ai-chatbot-tools/): Intercom from $29/seat/mo, Chatwoot from $19/agent/mo. 6 chatbots & conversational ai tools compared on pricing, AI features, and integrations.
 - [Best AI Content & Copywriting tools (2026): 8 compared](https://martechsignal.com/best/ai-content-copywriting-tools/): Jasper from $39/mo, Anyword from $39/mo. 8 ai content & copywriting tools compared on pricing, AI features, and integrations.
 - [Best AI CRM tools (2026): 6 compared](https://martechsignal.com/best/ai-crm-tools/): Attio from $29/seat/mo, HubSpot CRM from $20/seat/mo. 6 CRM tools compared on pricing, AI features, and integrations, each with a verdict.
 - [Best AI Email Marketing tools (2026): 8 compared](https://martechsignal.com/best/ai-email-marketing-tools/): Mailchimp from $13/mo, Klaviyo from $20/mo. 8 email marketing tools compared on pricing, AI features, and integrations.
