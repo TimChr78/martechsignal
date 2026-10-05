@@ -116,6 +116,8 @@ Vendor: [Official site](https://www.freshworks.com/crm/) · [Pricing](https://ww
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+Compare or swap: [ActiveCampaign vs HubSpot CRM (2026): pricing, automation](/vs/activecampaign-vs-hubspot/) · [HubSpot CRM alternatives](/alternatives/hubspot-crm/)
+
 ## What is the best free CRM?
 
 HubSpot CRM. The free tier covers contacts, pipeline, and basic automation with no time limit. It is also the natural next step when the free tier starts to bite, since paid tiers unlock from the same account.

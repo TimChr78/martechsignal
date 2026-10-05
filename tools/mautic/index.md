@@ -60,7 +60,7 @@ Mautic homepage, captured September 2026. Vendor page shown as a dated reference
 
 Mautic is free to self-host under the GPL-3.0 licence, paid plans start at €247.50/mo as of 2026-09.
 
-Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions.
+Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from €247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions.
 
 Current plans and limits live on the [Mautic pricing page](https://www.mautic.org/pricing).
 
@@ -126,7 +126,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,697 stars. Mautic offers a public API for custom integrations.
 
 **How much does Mautic cost?**
-Mautic has a free tier; paid plans start at €247.50/mo. Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Mautic has a free tier; paid plans start at €247.50/mo. Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from €247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is Mautic a good self-hosted Marketing Automation tool in 2026?**
 The most complete open-source answer to HubSpot if you have the ops capacity to run it: real campaigns, segments, and scoring under GPL-3.0, no AI, and no shortcuts on maintenance.

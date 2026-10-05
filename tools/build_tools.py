@@ -828,7 +828,7 @@ def build_hub(tools, cats):
   <p class="count">{len([t for t in tools if t.get('status')=='active'])} TOOLS · {len([c for c in cats if c.get('slug') != 'open-source'])} CATEGORIES + OPEN-SOURCE INDEX · UPDATED WEEKLY</p>
 </section>
 <img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial (the open-source meta-category is excluded)" width="1200" height="630" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
-<p style="max-width:680px;color:var(--muted);margin:-0.5rem 0 0;font-size:.92rem">Watching which open-source tools actually gain traction? <a href="/trending/">Open-source martech momentum</a> tracks GitHub stars for all {len([t for t in tools if t.get('open_source')])} of them, with daily snapshots since Aug 25, 2026.</p>
+<p style="max-width:680px;color:var(--muted);margin:-0.5rem 0 0;font-size:.92rem">Watching which open-source tools actually gain traction? <a href="/trending/">Open-source martech momentum</a> tracks GitHub stars for all {len([t for t in tools if t.get('open_source') and t.get('status', 'active') == 'active'])} of them, with daily snapshots since Aug 25, 2026.</p>
 <p style="max-width:680px;color:var(--muted);margin:.6rem 0 0;font-size:.92rem">A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The <a href="/checklist/">marketing automation checklist</a> walks the 12 questions that decide it, and scores your answers in the browser.</p>
 <h2>Browse by category</h2>
 <nav class="cat-nav">{pills}</nav>
@@ -3077,7 +3077,10 @@ def build_llms_txt(tools, cats):
                          + (f": {_gd}" if _gd else ""))
     lines += ["", "## Categories", ""]
     for c in sorted(cats, key=lambda x: x["name"].lower()):
-        lines.append(f"- [{c['name']}](https://martechsignal.com/categories/{c['slug']}/)")
+        # r26 L-19 (2026-10-05): llms.txt is plain text - unescape the catalog
+        # entity (&amp; in 7 category names) so agents read the character.
+        _nm = c['name'].replace('&amp;', '&').replace('&#x27;', chr(39))
+        lines.append(f"- [{_nm}](https://martechsignal.com/categories/{c['slug']}/)")
     # A3 M-9 (2026-09-27): the guides/comparisons and site pages were missing
     # from llms.txt (12 sitemap URLs), and the policy was unreadable to agents.
     lines += ["", "## Guides and comparisons", "",
@@ -3676,9 +3679,17 @@ def sync_date_modified():
             _cands.append(_t10)
         _cands = sorted(set(_c for _c in _cands if '2000-01-01' <= _c <= '2030-01-01'))
         _from_blame = not _cands
-        _val = _cands[-1] if _cands else _blame_content_date(_p)
+        _val: str = _cands[-1] if _cands else ( _blame_content_date(_p) or "")
         if not _val:
             continue
+        # r26 M-1 (2026-10-05): builders declare content-aware dateModified
+        # (money leaves take max(date_updated, content_updated)) but this pass
+        # rewrote every stamp to the visible-dates max, erasing prose-layer
+        # edits. Never move a stamp backward: unify forward to the max of the
+        # computed value and any dateModified the builders declared.
+        for _em in _re.finditer(r'\"dateModified\"\s*:\s*\"([0-9]{4}-[0-9]{2}-[0-9]{2})', _s):
+            if '2000-01-01' <= _em.group(1) <= '2030-01-01' and _em.group(1) > _val:
+                _val = str(_em.group(1))
         # r18 H-2 (2026-09-30): the template entity (ItemList/Article) carries
         # its own authored dateModified while the injector adds a second one
         # with the blame date - 101 pages with 2 distinct values, and the

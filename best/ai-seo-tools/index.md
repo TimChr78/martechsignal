@@ -157,6 +157,8 @@ Vendor: [Official site](https://github.com/AgriciDaniel/codex-seo) · [GitHub](h
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+Compare or swap: [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
+
 ## Which AI SEO tool should a full SEO team pick?
 
 Semrush. It keeps audits, rank tracking and content scoring in one suite, so a team stops stitching point tools together. Ahrefs answers the AI-visibility question too, but only makes sense if you already pay for it.

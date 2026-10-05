@@ -4,6 +4,10 @@
 
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
 
+## Snippet prices corrected and source fenced (October 5, second wave)
+
+The pricing-snippet rewrite shipped the same day briefly showed Salesforce Marketing Cloud "from $25/mo" in the /vs/ comparison snippet; the page itself says $1,500/mo (the $25 figure is per-user, Starter tier). The snippet now says "enterprise from $1,500/mo", and a build-time test now fails any future snippet whose figures do not appear verbatim on the page. Money-leaf metas across the 34 comparison pages now carry verified entry prices (33 of 34; pages with no published price carry none). Also this wave: the /tools/ mirror now answers cost questions (prices on every card), the /best/ pages link their related comparisons, and changed pages now carry an honest dateModified so search engines can see the edit.
+
 ## Remediation wave logged: the 2026-10-02/03/05 audit fixes
 
 The October audit remediation shipped across three deploys (October 2, 3 and 5) and touched most of the site's pages. The corrections a reader could have seen: Heap's page no longer shows an inferred $250/mo figure - Growth and Pro are custom-priced with no published entry price, so no paid figure is shown. The /alternatives/ Billing-model column now reads each tool's catalog pricing model instead of a mostly-empty notes field (Make and n8n no longer read "Contract"; only Tray.io and Workato do, correctly). A stray trailing quote is gone from pricing FAQ answers across 58 pages. Three new category hubs shipped (email marketing, content AI, personalization).
@@ -91,6 +95,8 @@ Three Claude SEO comparison posts were published without approval by a pipeline 
 Our Claude SEO review carried review-structured data for our own product. We removed the markup; the editorial text remains, clearly labelled.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+2026-10-05
 
 2026-10-05
 

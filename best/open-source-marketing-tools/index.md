@@ -166,6 +166,8 @@ Vendor: [Official site](https://openoutreach.app) · [GitHub](https://github.com
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+Compare or swap: [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/) · [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/) · [n8n alternatives](/alternatives/n8n/) · [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/)
+
 ## Which open-source tool replaces HubSpot-class automation?
 
 Mautic. It gives marketing teams HubSpot-class automation they host themselves. Laudspeaker covers the lifecycle messaging and onboarding journeys that live outside the CRM.

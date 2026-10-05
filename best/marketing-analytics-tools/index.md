@@ -152,6 +152,8 @@ Vendor: [Official site](https://snowplow.io) · [GitHub](https://github.com/snow
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+Compare or swap: [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/) · [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/)
+
 ## Which analytics tool keeps data on our own servers?
 
 Matomo. It gives GA-grade analytics with the data staying home. Snowplow goes further for teams that can host it themselves and want intent detection on their own pipeline. Umami covers smaller teams with the same self-hosting instinct.

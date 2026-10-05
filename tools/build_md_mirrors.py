@@ -110,6 +110,12 @@ def html_to_md(html: str) -> str:
             _cline = f"- [{_clabel}]({_m.group(1)})"
             if _ct and inline(_ct.group(1)):
                 _cline += f": {inline(_ct.group(1))}"
+            # r26 M-3 (2026-10-05): the tools mirror answered nothing about
+            # cost (0 price tokens vs 92 in HTML). Carry the card's own price
+            # tag - same catalog record the HTML renders.
+            _cp = re.search(r'<span class="tag pricing"[^>]*>(.*?)</span>', _m.group(2), flags=re.S)
+            if _cp and inline(_cp.group(1)):
+                _cline += f" ({inline(_cp.group(1))})"
             out += [_cline]
             _covered_until = _end
         else:

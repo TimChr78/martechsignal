@@ -11,19 +11,19 @@ Advertising and paid media tools: creative generators, bid platforms, automation
 
 ## CREATIVE GENERATION (2)
 
-- [AdCreative.ai AI platform generating high-converting ad crea](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
-- [Pencil AI-powered ad creative generation and performance pre](/tools/pencil/): AI-powered ad creative generation and performance prediction for paid media
+- [AdCreative.ai AI platform generating high-converting ad crea](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs (From $20/mo)
+- [Pencil AI-powered ad creative generation and performance pre](/tools/pencil/): AI-powered ad creative generation and performance prediction for paid media (From $11/mo)
 ## OPTIMIZATION AND AUTOMATION (5)
 
-- [Albert AI Autonomous AI platform that manages and optimizes ](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
-- [Madgicx AI-powered Meta ads optimization and creative workfl](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
-- [Opteo Continuous Google Ads monitoring with one-click improv](/tools/opteo/): Continuous Google Ads monitoring with one-click improvements
-- [Revealbot (Birch) AI-powered ad automation and rules engine ](/tools/revealbot/): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
-- [Smartly.io AI advertising platform spanning creative product](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
+- [Albert AI Autonomous AI platform that manages and optimizes ](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns (Enterprise)
+- [Madgicx AI-powered Meta ads optimization and creative workfl](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow (From $49/mo)
+- [Opteo Continuous Google Ads monitoring with one-click improv](/tools/opteo/): Continuous Google Ads monitoring with one-click improvements (From $129/mo)
+- [Revealbot (Birch) AI-powered ad automation and rules engine ](/tools/revealbot/): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads (From $49/mo)
+- [Smartly.io AI advertising platform spanning creative product](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement (Enterprise)
 ## OPEN-SOURCE AD TOOLING (2)
 
-- [advertools Python toolkit for SEO and advertising analysis i](/tools/advertools/): Python toolkit for SEO and advertising analysis in pandas DataFrames
-- [Revive Adserver Free open source ad server for publishers, a](/tools/revive-adserver/): Free open source ad server for publishers, ad networks and advertisers
+- [advertools Python toolkit for SEO and advertising analysis i](/tools/advertools/): Python toolkit for SEO and advertising analysis in pandas DataFrames (Open Source)
+- [Revive Adserver Free open source ad server for publishers, a](/tools/revive-adserver/): Free open source ad server for publishers, ad networks and advertisers (Open Source)
 **Compare:** [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) · **Guide:** [Agentic advertising](/guides/agentic-ai-advertising/)
 
 ## Key terms

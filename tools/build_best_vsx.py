@@ -276,6 +276,23 @@ def build_best():
             f'{len([t for t in tools_by_slug.values() if t.get("status") == "active" and t.get("kind") != "Guide"])} tools</a> '
             'or read <a href="/methodology/">how we evaluate</a>, '
             'or download the <a href="/catalog-tools.json">machine-readable catalog</a>.</p>')
+        # r26 L-15 (2026-10-05): /best/ leaves linked neither comparison family
+        # (0 in/out across 16 leaves, six rounds). Point each pick at the
+        # head-to-heads and alternatives guides that exist for its tools.
+        _fam = []
+        for _bt in items:
+            _s = _bt.get("slug")
+            for _vp in json.loads((ROOT / "tools" / "vsx-content.json").read_text())["pages"]:
+                if _s in (_vp.get("a_slug"), _vp.get("b_slug"), _vp.get("c_slug")):
+                    _fam.append(f'<a href="/vs/{_vp["slug"]}/">{esc(_vp["title"])}</a>')
+            if (ROOT / "alternatives" / _s / "index.html").exists():
+                _fam.append(f'<a href="/alternatives/{_s}/">{esc(tools_by_slug[_s]["name"])} alternatives</a>')
+        if _fam:
+            _seen = set(); _uniq = []
+            for _a2 in _fam:
+                if _a2 not in _seen:
+                    _seen.add(_a2); _uniq.append(_a2)
+            body.append('<p class="vs-links">Compare or swap: ' + ' · '.join(_uniq[:4]) + '</p>')
         # r10 H-1 pilot (2026-09-29): 3 question-form H2s with direct answers
         # (humanizer-passed, catalog-grounded) on flagged pages only.
         for _qa in (page.get("pilot_faq") or []):
@@ -285,7 +302,7 @@ def build_best():
             "@context": "https://schema.org",
             "@type": "ItemList",
             "name": page["title"],
-            "datePublished": page.get("date_published", ""), "dateModified": page.get("date_updated", ""),
+            "datePublished": page.get("date_published", ""), "dateModified": max(page.get("date_updated", ""), page.get("content_updated", "")),  # r26 M-1: prose/template edits restamp via content_updated; Last verified stays on price-check date
             "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
             # r15 M-2 (2026-09-29): money-template graphs join publisher + site.
             "publisher": {"@id": "https://martechsignal.com/#organization"},
@@ -553,7 +570,7 @@ def build_vs():
             # WebPage node (unfragmented page URL, guides pattern) is added
             # by the M9 injector.
             "@id": f"https://martechsignal.com/vs/{page['slug']}/#article",
-            "datePublished": page.get("date_published", ""), "dateModified": page.get("date_updated", ""),
+            "datePublished": page.get("date_published", ""), "dateModified": max(page.get("date_updated", ""), page.get("content_updated", "")),  # r26 M-1: prose/template edits restamp via content_updated; Last verified stays on price-check date
             "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
             # r15 M-2 (2026-09-29): money-template graphs join publisher + site.
             "publisher": {"@id": "https://martechsignal.com/#organization"},

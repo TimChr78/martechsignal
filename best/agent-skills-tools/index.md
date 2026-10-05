@@ -157,6 +157,8 @@ Vendor: [Official site](https://github.com/LeoYeAI/openclaw-marketing-skills) ·
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+Compare or swap: [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
+
 ## Which skill pack turns Claude Code into an SEO auditor?
 
 Claude SEO. It turns Claude Code into an SEO audit machine, starts free and is MIT-licensed. Claude Ads is the paid-media sibling for ad operations inside the same CLI.

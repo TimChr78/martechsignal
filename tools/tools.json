@@ -748,7 +748,7 @@
   "category": "email-marketing",
   "pricing_model": "open-source",
   "price_from": 0,
-  "price_notes": "Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.9 per instance.",
+  "price_notes": "Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.90 per instance.",
   "ai_features": [
    "AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi)",
    "AI website profiling for brand-aware templates"
@@ -4095,7 +4095,7 @@
   "pricing_model": "open-source",
   "pricing_url": "https://www.mautic.org/pricing",
   "price_from": 0,
-  "price_notes": "Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions.",
+  "price_notes": "Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from €247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions.",
   "ai_features": [],
   "integrations": [
    "Salesforce",

@@ -136,7 +136,7 @@ def build():
             "@context": "https://schema.org",
             "@type": "ItemList",
             "name": page["title"],
-            "datePublished": page.get("date_published", ""), "dateModified": page.get("date_updated", ""),
+            "datePublished": page.get("date_published", ""), "dateModified": max(page.get("date_updated", ""), page.get("content_updated", "")),  # r26 M-1: prose/template edits restamp via content_updated; Last verified stays on price-check date
             "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
             # r15 M-2 (2026-09-29): money-template graphs join publisher + site.
             "publisher": {"@id": "https://martechsignal.com/#organization"},

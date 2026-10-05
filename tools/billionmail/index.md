@@ -61,7 +61,7 @@ BillionMail homepage, captured September 2026. Vendor page shown as a dated refe
 
 BillionMail is free to self-host under the AGPL-3.0 licence, paid plans start at $98.90/mo as of 2026-09.
 
-Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.9 per instance.
+Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.90 per instance.
 
 ## How to install
 
@@ -123,7 +123,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,837 stars.
 
 **How much does BillionMail cost?**
-BillionMail has a free tier; paid plans start at $98.90/mo. Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.9 per instance. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+BillionMail has a free tier; paid plans start at $98.90/mo. Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.90 per instance. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is BillionMail a good self-hosted Email Marketing tool in 2026?**
 A genuinely complete open-source mail server with a usable campaign layer on top, priced at zero and paid for in operations time. Judge the stalled commit cadence as seriously as the feature list.

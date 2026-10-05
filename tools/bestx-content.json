@@ -65,7 +65,8 @@
      "q": "What open source CRM works for a Laravel team?",
      "a": "Krayin. It is built on Laravel, so a PHP team reads the codebase like their own work and extends it without learning a new stack. Frappe CRM plays the same role for shops already running ERPNext."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "workflow-automation-tools",
@@ -132,7 +133,8 @@
      "q": "Which automation platform suits developers?",
      "a": "Pipedream. Code steps are first-class instead of bolted on, and it exposes MCP endpoints for agent workflows. n8n is the open alternative if your team would rather self-host than pay per execution."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "ai-seo-tools",
@@ -217,7 +219,8 @@
      "q": "Which tool grades content while writers draft?",
      "a": "Surfer SEO for the live score inside the draft, Clearscope for grading finished drafts against search intent. Frase covers small teams that want research, briefs and drafting in one login instead of three tabs."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "ai-marketing-automation-tools",
@@ -294,7 +297,8 @@
      "q": "Is there an option a team can host itself?",
      "a": "NocoDB. It covers the automation job in one platform and the team can host it. Ortto is the hosted opposite: email, SMS and journeys behind one login for teams that never want to touch a server."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "ai-email-marketing-tools",
@@ -372,7 +376,8 @@
      "q": "What sends transactional email reliably?",
      "a": "Twilio SendGrid. It is built for delivery rates and scale on receipts, alerts, and password resets, with marketing campaigns as a side dish. Product teams pick it when the inbox placement of system mail is the thing that cannot break."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "ai-crm-tools",
@@ -444,7 +449,8 @@
      "q": "Which CRM gives the most for the least money?",
      "a": "Zoho CRM. Small teams get a full suite, sales plus marketing plus support, without an enterprise bill. The free tier handles the basics and paid plans stay cheap as you add seats."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "ai-content-copywriting-tools",
@@ -521,7 +527,8 @@
      "q": "Which copy tool tests language against data?",
      "a": "Persado for large senders that want wording tested against response data at scale, Phrasee for tone-of-voice analysis. Strapi is the odd one out: a headless CMS with AI inside your own stack, not a copy generator."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "marketing-analytics-tools",
@@ -598,7 +605,8 @@
      "q": "Which tool works without a tagging plan first?",
      "a": "Heap. It captures everything and lets teams analyze retroactively, so tracking starts before the plan is finished. Amplitude fits product teams that want funnels and retention without waiting on an analyst queue."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "ai-social-media-tools",
@@ -663,7 +671,8 @@
      "q": "Which tool is for research, not scheduling?",
      "a": "Brandwatch. It sells consumer intelligence to research teams, not a posting queue. Buy it when the question is what the market thinks, and pair it with any scheduler above for the publishing side."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "ai-advertising-tools",
@@ -740,7 +749,8 @@
      "q": "Is there anything a technical team can run itself?",
      "a": "advertools. It covers the advertising job in a form a technical team can host. Opteo and Madgicx are the hosted equivalents for teams that want the platform covered without running infrastructure."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "ai-personalization-tools",
@@ -817,7 +827,8 @@
      "q": "Is there an open option for experimentation?",
      "a": "Flagsmith for teams that want their experiment engine as open as their stack, GrowthBook for hosted teams that want the platform covered in one place. Jitsu covers the same self-hosted instinct on the data collection side."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "ai-chatbot-tools",
@@ -882,7 +893,8 @@
      "q": "Which bot tool fits creators selling over DMs?",
      "a": "ManyChat for creators monetizing DMs across Instagram and WhatsApp. ChatbotX gives developers the same playbook as source code when the hosted version stops being enough."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "geo-llm-visibility-tools",
@@ -975,7 +987,8 @@
      "q": "Is there a GEO tool inside a suite we already buy?",
      "a": "Adobe LLM Optimizer for estates already paying Adobe, with pricing on quote. Scrunch fits brands that want measurement and AI-crawler readiness in one product instead of bolting a checker onto a suite."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "open-source-marketing-tools",
@@ -1053,7 +1066,8 @@
      "q": "Which open CRM does not feel like a downgrade?",
      "a": "Twenty for CRM teams that want open source without feature poverty, SuiteCRM for sales teams that want a mature enterprise-shaped CRM they control. n8n and Matomo round out the stack: automation you can audit line by line, analytics on servers you control."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "agent-skills-tools",
@@ -1130,7 +1144,8 @@
      "q": "What is the biggest skill pack, and the lightest team setup?",
      "a": "Digital Marketing Pro is the heaviest: 163 skills, 24 specialist agents and 18 commands. Eve Marketing Team Template is the lightest start: Vercel's starter for running a five-person marketing team as software. OpenClaw Marketing Skills sits between, with 37 skills across CRO, copywriting and SEO."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   },
   {
    "slug": "cdp",
@@ -1197,7 +1212,8 @@
      "q": "Which one is cheapest to start?",
      "a": "RudderStack's 250K-events free tier and Hightouch's 2-sync free plan are both $0. Segment's free tier stops at 1,000 monthly tracked users, then Team pricing starts at $120/mo."
     }
-   ]
+   ],
+   "content_updated": "2026-10-05"
   }
  ]
 }

@@ -152,6 +152,8 @@ Vendor: [Official site](https://unlayer.com/) · [Pricing](https://unlayer.com/p
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+Compare or swap: [Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict](/vs/mailchimp-vs-klaviyo/) · [Mailchimp vs Brevo (2026): pricing, multichannel, verdict](/vs/mailchimp-vs-brevo/) · [Mailchimp alternatives](/alternatives/mailchimp/) · [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/)
+
 ## Can I self-host email marketing software?
 
 Yes. Notifuse covers the full job in one self-hosted platform, OpenOutreach adds agent-written openers, and Warmbly drafts follow-up replies. You trade the monthly bill for hosting and upkeep, so it pays off once your list is large.

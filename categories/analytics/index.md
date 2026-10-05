@@ -11,21 +11,21 @@ Analytics and attribution tools: event tracking, funnels, and what multi-touch c
 
 ## PRODUCT BEHAVIOR (5)
 
-- [Amplitude AI-powered digital analytics platform for product ](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
-- [Heap AI-powered product analytics with autocapture and digit](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
-- [Mixpanel Product analytics platform with AI-powered insights](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
-- [PostHog Open-source product analytics platform with session ](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
-- [Snowplow Customer context infrastructure: behavioral event p](/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
+- [Amplitude AI-powered digital analytics platform for product ](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams (Freemium)
+- [Heap AI-powered product analytics with autocapture and digit](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights (Freemium)
+- [Mixpanel Product analytics platform with AI-powered insights](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking (Freemium)
+- [PostHog Open-source product analytics platform with session ](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys (Freemium)
+- [Snowplow Customer context infrastructure: behavioral event p](/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents (Open-core)
 ## AD SPEND ATTRIBUTION (3)
 
-- [Attribution AI-powered marketing attribution platform connec](/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue
-- [Northbeam AI-powered multi-touch attribution and marketing i](/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce
-- [Triple Whale AI-powered ecommerce analytics and attribution ](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
+- [Attribution AI-powered marketing attribution platform connec](/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue (Enterprise)
+- [Northbeam AI-powered multi-touch attribution and marketing i](/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce (Enterprise)
+- [Triple Whale AI-powered ecommerce analytics and attribution ](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands (From $59/mo)
 ## SELF-HOSTED WEB ANALYTICS (3)
 
-- [Matomo Open-source web analytics platform with full data own](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
-- [Plausible Analytics Lightweight, privacy-friendly open-sourc](/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
-- [Umami Open-source, cookieless web analytics with real-time d](/tools/umami/): Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps
+- [Matomo Open-source web analytics platform with full data own](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights (Open Source from €22/mo)
+- [Plausible Analytics Lightweight, privacy-friendly open-sourc](/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics (Open Source from $9/mo)
+- [Umami Open-source, cookieless web analytics with real-time d](/tools/umami/): Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps (Open Source from $20/mo)
 **Compare:** [Matomo vs Plausible Analytics](/vs/matomo-vs-plausible/) · [Matomo vs PostHog](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/) · [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 
 ## Key terms

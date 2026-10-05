@@ -11,38 +11,38 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 
 ## HOSTED SAAS CRMs (5)
 
-- [Attio AI-native CRM with real-time data enrichment and agent](/tools/attio/): AI-native CRM with real-time data enrichment and agentic revenue workflows
-- [Freshsales AI-powered CRM with built-in phone, email, and ch](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
-- [HubSpot CRM Free AI-powered CRM platform with sales, service](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
-- [Pipedrive Sales-focused CRM with AI-powered pipeline managem](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
-- [Salesforce CRM Enterprise CRM platform with Einstein AI for ](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+- [Attio AI-native CRM with real-time data enrichment and agent](/tools/attio/): AI-native CRM with real-time data enrichment and agentic revenue workflows (Freemium from $29/mo)
+- [Freshsales AI-powered CRM with built-in phone, email, and ch](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams (From $9/mo)
+- [HubSpot CRM Free AI-powered CRM platform with sales, service](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified (Freemium from $20/mo)
+- [Pipedrive Sales-focused CRM with AI-powered pipeline managem](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting (From $14/mo)
+- [Salesforce CRM Enterprise CRM platform with Einstein AI for ](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams (Enterprise)
 ## SELF-HOSTED OPEN SOURCE (11)
 
-- [AlphOne Plugin-first CRM (source-available, Elastic 2.0) wri](/tools/alphone/): Plugin-first CRM (source-available, Elastic 2.0) written in Go
-- [Django CRM Multi-tenant open-source CRM on Django with leads](/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
-- [Dolibarr ERP/CRM Modular French open-source ERP/CRM: invoici](/tools/dolibarr/): Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app
-- [EspoCRM Lightweight open-source CRM with sales automation, m](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management
-- [Ever Gauzy Open business management platform: ERP, CRM, HRM,](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking
-- [Frappe CRM Fully featured, open source CRM Open Source from ](/tools/frappe-crm/): Fully featured, open source CRM
-- [IDURAR ERP & CRM Free Open Source ERP CRM Software Accountin](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
-- [Krayin CRM Free open-source Laravel CRM for SMEs and enterpr](/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
-- [Monica Open-source personal CRM for tracking friends, family](/tools/monica/): Open-source personal CRM for tracking friends, family, and business relationships
-- [SuiteCRM Enterprise-grade open-source CRM with sales, market](/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation
-- [Warpdrive Self-hosted open-source Pipedrive alternative for ](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
+- [AlphOne Plugin-first CRM (source-available, Elastic 2.0) wri](/tools/alphone/): Plugin-first CRM (source-available, Elastic 2.0) written in Go (Open Source)
+- [Django CRM Multi-tenant open-source CRM on Django with leads](/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting (Open Source)
+- [Dolibarr ERP/CRM Modular French open-source ERP/CRM: invoici](/tools/dolibarr/): Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app (Open Source)
+- [EspoCRM Lightweight open-source CRM with sales automation, m](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management (Open Source from €12.90/mo)
+- [Ever Gauzy Open business management platform: ERP, CRM, HRM,](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking (Open Source from $17/mo)
+- [Frappe CRM Fully featured, open source CRM Open Source from ](/tools/frappe-crm/): Fully featured, open source CRM (Open Source from $5/mo)
+- [IDURAR ERP & CRM Free Open Source ERP CRM Software Accountin](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React (Open Source from $5,000 one-time)
+- [Krayin CRM Free open-source Laravel CRM for SMEs and enterpr](/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management (Open Source from $1,799 one-time)
+- [Monica Open-source personal CRM for tracking friends, family](/tools/monica/): Open-source personal CRM for tracking friends, family, and business relationships (Open Source from $9/mo)
+- [SuiteCRM Enterprise-grade open-source CRM with sales, market](/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation (Open Source)
+- [Warpdrive Self-hosted open-source Pipedrive alternative for ](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box (Open Source)
 ## AGENT-READY, MCP-NATIVE (4)
 
-- [Cordys CRM Open-source AI CRM with built-in agents, conversa](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
-- [Macro Open source workspace with a self-updating, agent-driv](/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
-- [Relaticle Open-source CRM with native AI agent support, 37 M](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
-- [Twenty The open-source alternative to Salesforce, designed f](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+- [Cordys CRM Open-source AI CRM with built-in agents, conversa](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment (Freemium)
+- [Macro Open source workspace with a self-updating, agent-driv](/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory (Freemium from $40/mo)
+- [Relaticle Open-source CRM with native AI agent support, 37 M](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament (Open Source from $19/mo)
+- [Twenty The open-source alternative to Salesforce, designed f](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (Open Source from $9/mo)
 ## OUTBOUND & CHANNEL (3)
 
-- [DeskcommCRM Self-hosted open-source CRM with AI agents that ](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
-- [ProspectOS Open-source lead prospecting CRM with Google Maps](/tools/prospectos/): Open-source lead prospecting CRM with Google Maps and Instagram scraping
-- [WaCRM Self-hostable CRM for WhatsApp with shared inbox, sale](/tools/wacrm/): Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations
+- [DeskcommCRM Self-hosted open-source CRM with AI agents that ](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp (Open Source)
+- [ProspectOS Open-source lead prospecting CRM with Google Maps](/tools/prospectos/): Open-source lead prospecting CRM with Google Maps and Instagram scraping (Open Source)
+- [WaCRM Self-hostable CRM for WhatsApp with shared inbox, sale](/tools/wacrm/): Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations (Open Source)
 ## More CRM tools (1)
 
-- [Zoho CRM Sales CRM with the Zia assistant, workflow automati](/tools/zoho-crm/): Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
+- [Zoho CRM Sales CRM with the Zia assistant, workflow automati](/tools/zoho-crm/): Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it (Freemium from €14/mo)
 **Compare:** [ActiveCampaign vs HubSpot CRM](/vs/activecampaign-vs-hubspot/) · [HubSpot CRM alternatives](/alternatives/hubspot-crm/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 
 ## Key terms

@@ -2037,6 +2037,64 @@ def test_one_time_prices_carry_no_monthly_suffix():
     assert not bad, f"pricing lead seam: {bad[:8]}"
 
 
+def test_money_meta_figures_match_page_verbatim():
+    """r26 H-1 (2026-10-05): the SFMC-vs-HubSpot snippet advertised "$25/mo"
+    while the page's own surfaces said $1,500/mo entry / $25/user/mo - the
+    meta generator took a per-user figure and dropped the unit. Every
+    figure+unit token in a money-leaf meta must occur verbatim in the built
+    leaf HTML. Plus the fenced-records pin: the two enterprise records whose
+    catalog figures carry units the meta clause cannot express
+    (salesforce-marketing-cloud, adobe-marketo) never contribute a
+    "<Name> from $X" clause to any money meta."""
+    import json as _j, re as _re
+    _fenced = {"salesforce-marketing-cloud", "adobe-marketo"}
+    _bad = []
+    for _f, _fam in (("tools/bestx-content.json", "best"),
+                     ("tools/vsx-content.json", "vs"),
+                     ("tools/alternatives-content.json", "alternatives")):
+        _d = _j.loads((ROOT / _f).read_text())
+        _pages = _d if isinstance(_d, list) else _d.get("pages", [])
+        for _pg in _pages:
+            _meta = _pg.get("meta", "")
+            _h = (ROOT / _fam / _pg["slug"] / "index.html")
+            _html = _h.read_text(errors="ignore") if _h.exists() else ""
+            for _m in _re.finditer(r"[\$€][\d,]+(?:\.\d+)?(?:/mo|/user/mo| one-time)?", _meta):
+                if _m.group(0) not in _html:
+                    _bad.append(f"{_pg.get('slug')}:{_m.group(0)} not on page")
+            for _fs in _fenced:
+                _t = next((x for x in _j.loads((ROOT / "tools" / "tools.json").read_text())
+                           if isinstance(x, dict) and x.get("slug") == _fs), {})
+                if _t and f"{_t.get('name', '')} from " in _meta and _re.search(r"[\$€]\d", _meta):
+                    _bad.append(f"{_pg.get('slug')}: fenced {_fs} contributes a figure")
+    assert not _bad, f"money meta/page figure mismatch: {_bad[:8]}"
+
+
+def test_content_updated_restamps_date_modified():
+    """r26 M-1 (2026-10-05): prose/template-layer edits (rewritten metas, new
+    cross-links) never moved dateModified - 84/98 changed pages kept stale
+    stamps because sync_date_modified rewrote every stamp to the visible-dates
+    max. Builders declare max(date_updated, content_updated) and the sync
+    never moves a stamp backward. Every money leaf carrying content_updated
+    must render dateModified >= it."""
+    import json as _j, re as _re
+    _bad = []
+    for _f, _fam in (("tools/bestx-content.json", "best"),
+                     ("tools/vsx-content.json", "vs"),
+                     ("tools/alternatives-content.json", "alternatives")):
+        _d = _j.loads((ROOT / _f).read_text())
+        _pages = _d if isinstance(_d, list) else _d.get("pages", [])
+        for _pg in _pages:
+            _cu = _pg.get("content_updated", "")
+            if not _cu:
+                continue
+            _h = (ROOT / _fam / _pg["slug"] / "index.html")
+            _html = _h.read_text(errors="ignore") if _h.exists() else ""
+            _dms = _re.findall(r'"dateModified"\s*:\s*"([0-9]{4}-[0-9]{2}-[0-9]{2})', _html)
+            if not _dms or min(_dms) < _cu:
+                _bad.append(f"{_pg.get('slug')}: dateModified {_dms[:2]} < content_updated {_cu}")
+    assert not _bad, f"stale dateModified on revised leaves: {_bad[:8]}"
+
+
 def test_hubs_link_all_children_with_derived_counts():
     """r16 H-3 (2026-09-29): the /vs/ hub linked 7 of 10 leaves while saying
     "three", /alternatives/ linked 3 of 4 while saying "three" and "five".

@@ -11,19 +11,19 @@ SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 
 
 ## OPEN SOURCE / SELF-HOSTED (2)
 
-- [OpenSEO Open source alternative to Ahrefs and Semrush Open S](/tools/openseo/): Open source alternative to Ahrefs and Semrush
-- [Seonaut Open-source SEO crawler in Go for technical audits, ](/tools/seonaut/): Open-source SEO crawler in Go for technical audits, self-hosted or cloud
+- [OpenSEO Open source alternative to Ahrefs and Semrush Open S](/tools/openseo/): Open source alternative to Ahrefs and Semrush (Open Source from $10/mo)
+- [Seonaut Open-source SEO crawler in Go for technical audits, ](/tools/seonaut/): Open-source SEO crawler in Go for technical audits, self-hosted or cloud (Open Source from $9/mo)
 ## COMMERCIAL (5)
 
-- [Semrush All-in-one SEO and digital marketing platform with A](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
-- [Clearscope AI-powered content optimization platform for SEO ](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
-- [MarketMuse AI-powered content strategy and optimization plat](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
-- [Surfer SEO AI-powered content optimization platform for SEO-](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
-- [Frase AI-powered SEO content platform for research, writing,](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
+- [Semrush All-in-one SEO and digital marketing platform with A](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools (From $117/mo)
+- [Clearscope AI-powered content optimization platform for SEO ](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers (From $129/mo)
+- [MarketMuse AI-powered content strategy and optimization plat](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams (Paid)
+- [Surfer SEO AI-powered content optimization platform for SEO-](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits (From $49/mo)
+- [Frase AI-powered SEO content platform for research, writing,](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking (From $39/mo)
 ## AI SEARCH VISIBILITY (2)
 
-- [Potato Free local tool that measures brand mentions and cita](/tools/potato-ai-visibility/): Free local tool that measures brand mentions and citations in Claude's web-search answers
-- [Superlines AI Search Intelligence platform for brands and ag](/tools/superlines/): AI Search Intelligence platform for brands and agencies
+- [Potato Free local tool that measures brand mentions and cita](/tools/potato-ai-visibility/): Free local tool that measures brand mentions and citations in Claude's web-search answers (Open Source)
+- [Superlines AI Search Intelligence platform for brands and ag](/tools/superlines/): AI Search Intelligence platform for brands and agencies (From €79/mo)
 **Compare:** [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
 
 ## Key terms
