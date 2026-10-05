@@ -7,7 +7,7 @@ NocoDB tops this list because it covers automation plus data in one self-hosted 
 
 | Tool | Pricing | Open source | Best for |
 | --- | --- | --- | --- |
-| [NocoDB](/tools/nocodb/) | Open-core from $12/mo | Yes | Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [NocoDB](/tools/nocodb/) | Open-core from $12/seat/mo | Yes | Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 | [Ortto](/tools/ortto/) | From $199/mo | No | Marketing teams that want email, SMS and journeys behind one login |
 | [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) | Enterprise | No | Enterprise estates already bought into Salesforce's cloud stack |
 | [ActiveCampaign](/tools/activecampaign/) | From $15/mo | No | SMB teams that want real automation without enterprise procurement |
@@ -34,8 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Marketing Automation…](/categories/marketing-automation/)
-- [Open-Source Tools…](/categories/open-source/)
+- [Marketing Automation](/categories/marketing-automation/)
+- [Open-Source Tools](/categories/open-source/)
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Key terms

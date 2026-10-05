@@ -47,9 +47,9 @@ Sources: [Anyword](https://www.anyword.com) · [ALwrity](https://alwrity.com) ·
 
 [AI Content & Copywriting](/categories/content-ai/) [Best AI Content & Copywriting tools](/best/ai-content-copywriting-tools/) [AI SEO tooling](/guides/ai-seo-tooling/)
 
-- [AI Content & Copywriting…](/categories/content-ai/)
-- [Best AI Content & Copywriting tools…](/best/ai-content-copywriting-tools/)
-- [AI SEO tooling…](/guides/ai-seo-tooling/)
+- [AI Content & Copywriting](/categories/content-ai/)
+- [Best AI Content & Copywriting tools](/best/ai-content-copywriting-tools/)
+- [AI SEO tooling](/guides/ai-seo-tooling/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [Browse all tools →](/tools/)

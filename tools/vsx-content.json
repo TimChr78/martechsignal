@@ -1338,7 +1338,7 @@
     "Most decisions here come down to how it bills. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
     "The choice usually lands on one question: which system owns the contact. ActiveCampaign prices automation depth per tier starting at $15/mo. HubSpot prices seats per hub, free to start, with the bill arriving as the team and the contact database grow."
    ],
-   "meta": "ActiveCampaign from $15/mo, HubSpot CRM from $20/mo. ActiveCampaign versus HubSpot CRM on pricing, automation depth, AI features, and integrations.",
+   "meta": "ActiveCampaign from $15/mo, HubSpot CRM from $20/seat/mo. ActiveCampaign versus HubSpot CRM on pricing, automation depth, AI features, and integrations.",
    "migration": [
     "Moving lists is the easy afternoon. ActiveCampaign automations do not export into HubSpot workflows, so every multi-step sequence gets rebuilt and re-verified, and lead scoring rules get re-expressed in the new vocabulary.",
     "Deliverability deserves its own line in the plan. Consent records and suppression lists have to travel with the contacts, and sending reputation does not. Warm the new setup gradually instead of importing the whole database and mailing it on day one.",

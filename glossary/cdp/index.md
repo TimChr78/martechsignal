@@ -51,8 +51,8 @@ Sources: [CDP Institute](https://www.cdpinstitute.org/) · [Twilio Segment](http
 
 [Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
 
-- [Analytics & Attribution…](/categories/analytics/)
-- [Best Analytics & Attribution tools…](/best/marketing-analytics-tools/)
+- [Analytics & Attribution](/categories/analytics/)
+- [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
 ## See also
 
 - [Customer journey](/glossary/customer-journey/)

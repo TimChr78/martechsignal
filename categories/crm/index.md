@@ -11,17 +11,17 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 
 ## HOSTED SAAS CRMs (5)
 
-- [Attio](/tools/attio/): AI-native CRM with real-time data enrichment and agentic revenue workflows (Freemium from $29/mo)
-- [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams (From $9/mo)
-- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified (Freemium from $20/mo)
-- [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting (From $14/mo)
+- [Attio](/tools/attio/): AI-native CRM with real-time data enrichment and agentic revenue workflows (Freemium from $29/seat/mo)
+- [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams (From $9/user/mo)
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified (Freemium from $20/seat/mo)
+- [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting (From $14/user/mo)
 - [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams (Enterprise)
 ## SELF-HOSTED OPEN SOURCE (11)
 
 - [AlphOne](/tools/alphone/): Plugin-first CRM (source-available, Elastic 2.0) written in Go (Open Source)
 - [Django CRM](/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting (Open Source)
 - [Dolibarr ERP/CRM](/tools/dolibarr/): Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app (Open Source)
-- [EspoCRM](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management (Open Source from €12.90/mo)
+- [EspoCRM](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management (Open Source from €12.90/user/mo)
 - [Ever Gauzy](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking (Open Source from $17/mo)
 - [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM (Open Source from $5/mo)
 - [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React (Open Source from $5,000 one-time)
@@ -32,9 +32,9 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 ## AGENT-READY, MCP-NATIVE (4)
 
 - [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment (Freemium)
-- [Macro](/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory (Freemium from $40/mo)
+- [Macro](/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory (Freemium from $40/seat/mo)
 - [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament (Open Source from $19/mo)
-- [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (Open Source from $9/mo)
+- [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (Open Source from $9/user/mo)
 ## OUTBOUND & CHANNEL (3)
 
 - [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp (Open Source)

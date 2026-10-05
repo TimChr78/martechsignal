@@ -51,8 +51,8 @@ Sources: [Attribution](https://www.attributionapp.com) · [Amplitude](https://am
 
 [Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
 
-- [Analytics & Attribution…](/categories/analytics/)
-- [Best Analytics & Attribution tools…](/best/marketing-analytics-tools/)
+- [Analytics & Attribution](/categories/analytics/)
+- [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
 ## See also
 
 - [First-party data](/glossary/first-party-data/)

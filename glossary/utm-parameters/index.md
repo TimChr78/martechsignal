@@ -47,8 +47,8 @@ Sources: [Google campaign URL builder](https://ga-dev-tools.google/campaign-url-
 
 [Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
 
-- [Analytics & Attribution…](/categories/analytics/)
-- [Best Analytics & Attribution tools…](/best/marketing-analytics-tools/)
+- [Analytics & Attribution](/categories/analytics/)
+- [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [Browse all tools →](/tools/)

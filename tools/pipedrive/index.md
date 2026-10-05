@@ -8,7 +8,7 @@
 
 Sales-focused CRM with AI-powered pipeline management and deal forecasting
 
-CRM · From $14/mo Desk-reviewed
+CRM · From $14/user/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -16,7 +16,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Pipedrive is a tool in CRM with paid plans starting at $14/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Pipedrive is a tool in CRM with paid plans starting at $14/user/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Pipedrive →](https://www.pipedrive.com)
 
@@ -61,7 +61,7 @@ Pipedrive homepage, captured September 2026. Vendor page shown as a dated refere
 - WhatsApp
 ## Pricing
 
-Pipedrive is sold on paid plans, from $14/mo as of 2026-09.
+Pipedrive is sold on paid plans, from $14/user/mo as of 2026-09.
 
 Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo
 
@@ -106,7 +106,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Pipedrive: Sales-focused CRM with AI-powered pipeline management and deal forecasting. Pipedrive ships with AI sales assistant. This page documents 8 integrations.
 
 **How much does Pipedrive cost?**
-Pipedrive starts at $14/mo. Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Pipedrive starts at $14/user/mo. Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Pipedrive worth paying for in 2026?**
 The easiest CRM to get a sales team to actually adopt; add-on pricing is where complexity creeps back.
@@ -127,7 +127,7 @@ The easiest CRM to get a sales team to actually adopt; add-on pricing is where c
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for small sales teams that live in one pipeline view.
 ### Quick Facts
 
-- **Pricing:** From $14/mo
+- **Pricing:** From $14/user/mo
 - **Category:** [CRM](/categories/crm/)
 - **Third-party ratingsG2 rating:** 4.3/5 (3,181 reviews) · [source](https://www.g2.com/products/pipedrive/reviews)as of 2026-08-28
 - **Founded:** 2010

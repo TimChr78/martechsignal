@@ -607,7 +607,8 @@
   "paid_from": 15,
   "currency": "USD",
   "github_forks": 4787,
-  "github_checked": "2026-10-05"
+  "github_checked": "2026-10-05",
+  "price_unit": "user"
  },
  {
   "slug": "attio",
@@ -654,7 +655,8 @@
    "verdict": "Worth a look when your CRM needs custom objects and live segments more than it needs a sales methodology out of the box."
   },
   "paid_from": 29,
-  "currency": "USD"
+  "currency": "USD",
+  "price_unit": "seat"
  },
  {
   "slug": "attribution",
@@ -2237,7 +2239,7 @@
   "pricing_model": "open-source",
   "pricing_url": "https://www.espocrm.com/cloud/",
   "price_from": 0,
-  "price_notes": "Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from € 12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack.",
+  "price_notes": "Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from €12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack.",
   "ai_features": [],
   "integrations": [],
   "github_repo": "espocrm/espocrm",
@@ -2289,7 +2291,8 @@
   "license": "AGPL-3.0",
   "paid_from": 12.9,
   "github_forks": 989,
-  "github_checked": "2026-10-05"
+  "github_checked": "2026-10-05",
+  "price_unit": "user"
  },
  {
   "slug": "eve-marketing-team",
@@ -2604,7 +2607,8 @@
    ]
   },
   "paid_from": 9,
-  "currency": "USD"
+  "currency": "USD",
+  "price_unit": "user"
  },
  {
   "slug": "ghost",
@@ -2907,7 +2911,8 @@
    "verdict": "Best starting CRM for small teams. Revisit ownership costs seriously once headcount and workflows multiply."
   },
   "paid_from": 20,
-  "currency": "USD"
+  "currency": "USD",
+  "price_unit": "seat"
  },
  {
   "slug": "hubspot-marketing-hub",
@@ -3127,7 +3132,8 @@
     "as_of": "2026-08-28"
    }
   ],
-  "currency": "USD"
+  "currency": "USD",
+  "price_unit": "seat"
  },
  {
   "slug": "jasper",
@@ -3640,7 +3646,8 @@
   "license": "AGPL-3.0",
   "github_forks": 442,
   "github_checked": "2026-10-05",
-  "currency": "USD"
+  "currency": "USD",
+  "price_unit": "seat"
  },
  {
   "slug": "madgicx",
@@ -4589,7 +4596,8 @@
   "paid_from": 12,
   "currency": "USD",
   "github_forks": 5081,
-  "github_checked": "2026-10-05"
+  "github_checked": "2026-10-05",
+  "price_unit": "seat"
  },
  {
   "slug": "northbeam",
@@ -5586,7 +5594,8 @@
     "as_of": "2026-08-28"
    }
   ],
-  "currency": "USD"
+  "currency": "USD",
+  "price_unit": "user"
  },
  {
   "slug": "plausible",
@@ -6777,7 +6786,8 @@
    ],
    "verdict": "Best-in-class workflow and reporting for serious social teams; hard to justify below five seats."
   },
-  "currency": "USD"
+  "currency": "USD",
+  "price_unit": "seat"
  },
  {
   "slug": "strapi",
@@ -7344,7 +7354,8 @@
   "license": "AGPL-3.0",
   "github_forks": 9421,
   "github_checked": "2026-10-05",
-  "currency": "USD"
+  "currency": "USD",
+  "price_unit": "user"
  },
  {
   "slug": "umami",
@@ -9778,7 +9789,8 @@
     "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
    ]
   },
-  "currency": "USD"
+  "currency": "USD",
+  "price_unit": "user"
  },
  {
   "slug": "ifttt",

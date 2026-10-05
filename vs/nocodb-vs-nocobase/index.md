@@ -13,7 +13,7 @@ The teams choosing between them are marketing ops and internal-tools owners with
 
 | Tool | Starts at | Pick it when |
 | --- | --- | --- |
-| NocoDB | Open-core from $12/mo | Your tables already exist and you want a spreadsheet-style surface over data you own, self-hosted free. |
+| NocoDB | Open-core from $12/seat/mo | Your tables already exist and you want a spreadsheet-style surface over data you own, self-hosted free. |
 | NocoBase | Open-core | You are designing operational systems from scratch and can invest in data-model thinking up front. |
 
 [NocoDB assessment](/tools/nocodb/) · [NocoBase assessment](/tools/nocobase/)
@@ -29,7 +29,7 @@ NocoBase
 
 | Dimension | NocoDB | NocoBase |
 | --- | --- | --- |
-| Pricing | Open-core from $12/mo | Open-core |
+| Pricing | Open-core from $12/seat/mo | Open-core |
 | Open source | yes | yes |
 | Integrations listed | 8 listed: PostgreSQL, MySQL, SQLite, REST APIs (v3) with Swagger (+4 more) | 2 listed: REST API, Webhooks |
 | Public API | yes | yes |
@@ -124,9 +124,9 @@ Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
-- [Marketing Automation…](/categories/marketing-automation/)
-- [Open-Source Tools…](/categories/open-source/)
-- [Workflow Automation…](/categories/workflow-automation/)
+- [Marketing Automation](/categories/marketing-automation/)
+- [Open-Source Tools](/categories/open-source/)
+- [Workflow Automation](/categories/workflow-automation/)
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Open-source momentum, with receipts

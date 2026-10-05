@@ -134,7 +134,7 @@ Last verified 2026-10-01.
 
 ## Browse the hubs behind this comparison
 
-- [Email Marketing…](/categories/email-marketing/)
+- [Email Marketing](/categories/email-marketing/)
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

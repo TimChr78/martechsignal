@@ -13,7 +13,7 @@ Mautic comes first: HubSpot-class automation you host yourself. Listmonk sends n
 | [SuiteCRM](/tools/suitecrm/) | Open Source | yes | Sales teams that want a mature, enterprise-shaped CRM they control |
 | [n8n](/tools/n8n/) | Open Source from €20/mo | yes | Workflow teams that want automation they can audit line by line |
 | [Matomo](/tools/matomo/) | Open Source from €22/mo | yes | Analytics teams that want traffic data on servers they control |
-| [Twenty](/tools/twenty/) | Open Source from $9/mo | yes | CRM teams that want open source without accepting feature poverty |
+| [Twenty](/tools/twenty/) | Open Source from $9/user/mo | yes | CRM teams that want open source without accepting feature poverty |
 | [OpenOutreach](/tools/openoutreach/) | Open Source | no | Email marketing teams that want agent-written openers and self-hosting |
 
 **Our top pick: [Mautic](#mautic)** — Marketing teams that want HubSpot-class automation they can host themselves [Try Mautic](https://www.mautic.org)
@@ -36,12 +36,12 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Analytics & Attribution…](/categories/analytics/)
-- [CRM…](/categories/crm/)
-- [Email Marketing…](/categories/email-marketing/)
-- [Marketing Automation…](/categories/marketing-automation/)
-- [Open-Source Tools…](/categories/open-source/)
-- [Workflow Automation…](/categories/workflow-automation/)
+- [Analytics & Attribution](/categories/analytics/)
+- [CRM](/categories/crm/)
+- [Email Marketing](/categories/email-marketing/)
+- [Marketing Automation](/categories/marketing-automation/)
+- [Open-Source Tools](/categories/open-source/)
+- [Workflow Automation](/categories/workflow-automation/)
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Key terms

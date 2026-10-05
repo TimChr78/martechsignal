@@ -8,7 +8,7 @@ Hootsuite fits teams running many accounts where scheduling has to survive staff
 | Tool | Pricing | Open source | Best for |
 | --- | --- | --- | --- |
 | [Hootsuite](/tools/hootsuite/) | From $99/mo | No | Teams running many accounts that need scheduling which survives staff turnover |
-| [Sprout Social](/tools/sprout-social/) | From $249/mo | No | Social teams that want listening and engagement behind a polished UI |
+| [Sprout Social](/tools/sprout-social/) | From $249/seat/mo | No | Social teams that want listening and engagement behind a polished UI |
 | [Brandwatch](/tools/brandwatch/) | Enterprise | No | Research teams that want consumer intelligence more than a scheduler |
 | [Predis.ai](/tools/predis-ai/) | Freemium from $19/mo | No | Solo marketers that want daily post volume on a small budget |
 | [Buffer](/tools/buffer/) | Freemium from $5/mo | No | Creators that want scheduling priced per channel, not per seat |
@@ -32,8 +32,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Open-Source Tools…](/categories/open-source/)
-- [Social Media…](/categories/social-media/)
+- [Open-Source Tools](/categories/open-source/)
+- [Social Media](/categories/social-media/)
 ## Key terms
 
 - [Marketing ops](/glossary/marketing-ops/)

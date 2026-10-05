@@ -130,7 +130,7 @@ Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
-- [Marketing Automation…](/categories/marketing-automation/)
+- [Marketing Automation](/categories/marketing-automation/)
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Get the next teardown

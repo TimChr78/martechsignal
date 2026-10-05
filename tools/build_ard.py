@@ -41,12 +41,22 @@ def cat_queries(c):
 
 def _page_meta(rel):
     """r27 N-3 (2026-10-05): rendered page meta description for ARD entries —
-    page bytes by construction. Returns "" when the page is missing."""
+    page bytes by construction. Returns "" when the page is missing.
+    r28 N-11 (2026-10-06): meta tags fail body-scoped answer-presence checks
+    (4 category entries "exist only in meta"). Prefer the visible lede
+    paragraph (p.sub) — body prose by construction; meta is the fallback."""
     import re as _re2
     _f = ROOT / rel / "index.html"
     if not _f.exists():
         return ""
-    _m = _re2.search(r'name="description" content="(.*?)"', _f.read_text(errors="ignore"))
+    _h = _f.read_text(errors="ignore")
+    _s = _re2.search(r'<p class="sub"[^>]*>(.*?)</p>', _h, _re2.S)
+    if _s:
+        _t = _re2.sub(r"<[^>]+>", "", _s.group(1))
+        _t = _html.unescape(_re2.sub(r"\s+", " ", _t).strip())
+        if len(_t) >= 20:
+            return _t
+    _m = _re2.search(r'name="description" content="(.*?)"', _h)
     if not _m:
         return ""
     return _html.unescape(_m.group(1))
@@ -118,6 +128,11 @@ def build():
             "url": f"https://martechsignal.com/catalog-{fname}",
             # r16 M-4 (2026-09-29): the two catalog entries carried
             # byte-identical representativeQueries. Disambiguated per file.
+            # r28 N-11 (2026-10-06): ...and carried no description at all.
+            # Data files get functional descriptions (schema, not prose).
+            "description": ("Machine-readable tool catalog: one record per tool with pricing, category, AI features, and verification dates."
+                            if fname == "tools.json" else
+                            "Machine-readable category taxonomy: slugs, names, and hub relations for the tool directory."),
             "representativeQueries": qs,
         })
     # A3 H-5 (2026-09-26): walk the built tree so every published page has an
@@ -134,6 +149,13 @@ def build():
         # r25 L-25 (2026-10-05): unescape entities - an agent consuming the
         # JSON saw "Advertising &amp; Paid Media", not the character.
         title = _html.unescape(title)
+        # r28 N-11 (2026-10-06): hub entries "exist only in meta" under
+        # body-scoped checks — prefer the visible lede like _page_meta.
+        s = _re.search(r'<p class="sub"[^>]*>(.*?)</p>', html, _re.S)
+        if s:
+            t = _html.unescape(_re.sub(r"\s+", " ", _re.sub(r"<[^>]+>", "", s.group(1))).strip())
+            if len(t) >= 20:
+                return title, t[:200]
         d = _re.search(r'<meta name="description" content="([^"]{0,200})"', html)
         return title, (_html.unescape(d.group(1)) if d else "")
 

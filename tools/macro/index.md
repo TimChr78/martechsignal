@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
 
-CRM · Freemium from $40/mo · OPEN SOURCE Desk-reviewed
+CRM · Freemium from $40/seat/mo · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -18,7 +18,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Macro is a tool in CRM with paid plans starting at $40/mo. The catalog documents 8 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Macro is a tool in CRM with paid plans starting at $40/seat/mo. The catalog documents 8 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Macro →](https://macro.com)
 
@@ -62,7 +62,7 @@ Macro homepage, captured September 2026. Vendor page shown as a dated reference 
 - MCP
 ## Pricing
 
-Macro is freemium, with a free tier to start, paid plans from $40/mo as of 2026-09.
+Macro is freemium, with a free tier to start, paid plans from $40/seat/mo as of 2026-09.
 
 Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0.
 
@@ -108,7 +108,7 @@ A genuinely open-source workspace whose CRM is a byproduct of team email: real f
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $40/mo |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $40/seat/mo |
 | ✓ AI capabilities: agent-driven CRM that builds contact and company records from your team's email |  |
 | ✓ Active public repository (4,550 GitHub stars counted at last check) |  |
 
@@ -130,7 +130,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,550 stars.
 
 **How much does Macro cost?**
-Macro is paid software; plans start at $40/mo. Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Macro is paid software; plans start at $40/seat/mo. Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Macro worth it past the free tier?**
 A genuinely open-source workspace whose CRM is a byproduct of team email: real for contact capture and context, not yet a pipeline tool. The license is new, the pace is fast, and the compliance posture is far ahead of the project's age.
@@ -155,7 +155,7 @@ Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focu
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ### Quick Facts
 
-- **Pricing:** Freemium from $40/mo
+- **Pricing:** Freemium from $40/seat/mo
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 4550
 - **Founded:** 2020

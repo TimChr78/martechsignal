@@ -55,10 +55,10 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [Twilio Segment](https:/
 
 [Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [Email Marketing](/categories/email-marketing/) [Best Email Marketing tools](/best/ai-email-marketing-tools/)
 
-- [Analytics & Attribution…](/categories/analytics/)
-- [Best Analytics & Attribution tools…](/best/marketing-analytics-tools/)
-- [Email Marketing…](/categories/email-marketing/)
-- [Best Email Marketing tools…](/best/ai-email-marketing-tools/)
+- [Analytics & Attribution](/categories/analytics/)
+- [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
+- [Email Marketing](/categories/email-marketing/)
+- [Best Email Marketing tools](/best/ai-email-marketing-tools/)
 ## See also
 
 - [Attribution models](/glossary/marketing-attribution-models/)

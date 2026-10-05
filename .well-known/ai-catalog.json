@@ -2115,7 +2115,7 @@
    "displayName": "Chatbots & Conversational AI",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/chatbots/",
-   "description": "6 chatbot and conversational-AI platforms compared on channels, handover-to-human flows, AI features and self-hosting options.",
+   "description": "Conversational AI for marketing and support, from social DM automation to per-resolution AI agents",
    "representativeQueries": [
     "best chatbots & conversational ai tools",
     "chatbots & conversational ai comparison",
@@ -2187,7 +2187,7 @@
    "displayName": "Open-Source Tools",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/open-source/",
-   "description": "81 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.",
+   "description": "80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.",
    "representativeQueries": [
     "best open-source tools tools",
     "open-source tools comparison",
@@ -2223,7 +2223,7 @@
    "displayName": "Social Media",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/social-media/",
-   "description": "6 social media management tools for scheduling, listening and reporting - what each one actually automates and what it costs.",
+   "description": "Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites",
    "representativeQueries": [
     "best social media tools",
     "social media comparison",
@@ -2270,6 +2270,7 @@
    "displayName": "MartechSignal tools.json (machine-readable)",
    "type": "application/json",
    "url": "https://martechsignal.com/catalog-tools.json",
+   "description": "Machine-readable tool catalog: one record per tool with pricing, category, AI features, and verification dates.",
    "representativeQueries": [
     "martechsignal tool catalog data",
     "ai marketing tools dataset with pricing"
@@ -2280,6 +2281,7 @@
    "displayName": "MartechSignal categories.json (machine-readable)",
    "type": "application/json",
    "url": "https://martechsignal.com/catalog-categories.json",
+   "description": "Machine-readable category taxonomy: slugs, names, and hub relations for the tool directory.",
    "representativeQueries": [
     "martechsignal category taxonomy",
     "martech tool categories list"
@@ -2752,7 +2754,7 @@
    "displayName": "What a Free SEO Audit Replaces (and What It Does Not)",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/what-free-seo-audit-replaces/",
-   "description": "&gt; Editor's note (2026-09-28): this piece replaces an earlier comparison post that was published without approval and pulled the same day.",
+   "description": "> Editor's note (2026-09-28): this piece replaces an earlier comparison post that was published without approval and pulled the same day.",
    "representativeQueries": [
     "what a free seo audit replaces (and what it does not)",
     "what free seo audit replaces"
@@ -3299,7 +3301,7 @@
    "displayName": "Best open-source CRM tools (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/best/open-source-crm/",
-   "description": "EspoCRM from €12.90/mo, Twenty from $9/user/mo. Six open-source CRMs compared on licensing, pricing, AI features, and real maintenance costs.",
+   "description": "EspoCRM from €12.90/user/mo, Twenty from $9/user/mo. Six open-source CRMs compared on licensing, pricing, AI features, and real maintenance costs.",
    "representativeQueries": [
     "best open-source crm tools (2026)",
     "open source crm pricing comparison"
@@ -3475,7 +3477,7 @@
    "displayName": "Best HubSpot CRM alternatives (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/hubspot-crm/",
-   "description": "Twenty from $9/user/mo, EspoCRM from €12.90/mo. Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive.",
+   "description": "Twenty from $9/user/mo, EspoCRM from €12.90/user/mo. Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive.",
    "representativeQueries": [
     "best hubspot crm alternatives (2026)",
     "hubspot crm alternatives"
@@ -3685,7 +3687,7 @@
    "displayName": "AI Marketing Tool Directory",
    "type": "text/html",
    "url": "https://martechsignal.com/tools/",
-   "description": "Browse 166 curated AI marketing automation tools across 14 categories - open-source and SaaS, with assessments desk-researched from vendor.",
+   "description": "Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.",
    "representativeQueries": [
     "martechsignal tool directory",
     "all ai marketing tools"
@@ -3707,7 +3709,7 @@
    "displayName": "Strategy Guides: GEO, Automation, AI SEO",
    "type": "text/html",
    "url": "https://martechsignal.com/guides/",
-   "description": "Strategy guides for marketers: generative engine optimization, agentic advertising, workflow automation, AI SEO tooling and agent protocols.",
+   "description": "Longer reference pages that support the directory. These are not tools, so they are not counted in the tool totals.",
    "representativeQueries": [
     "martechsignal guides",
     "how-to guides"
@@ -3729,7 +3731,7 @@
    "displayName": "Marketing Technology Glossary",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/",
-   "description": "Plain-English definitions of 30 marketing technology terms, linked to real tools in our directory.",
+   "description": "Plain-English definitions of marketing technology terms. No jargon explaining jargon.",
    "representativeQueries": [
     "martechsignal glossary",
     "marketing term definitions"
@@ -3740,7 +3742,7 @@
    "displayName": "Open-Source MarTech Momentum: GitHub Stars",
    "type": "text/html",
    "url": "https://martechsignal.com/trending/",
-   "description": "Daily GitHub star snapshots for 81 open-source martech tools: weekly movers, sparklines, and category leaderboards.",
+   "description": "Every morning we snapshot the GitHub stars of all 81 open-source tools in our 166-tool catalog (all of them list a public GitHub repository). 80 have enough history to chart here; a repository needs 5",
    "representativeQueries": [
     "trending martech tools",
     "what tools trend on github"

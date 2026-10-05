@@ -16,7 +16,7 @@ Social scheduling, listening, and analytics, from per-channel schedulers to ente
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics (From $99/mo)
 - [MultiPost](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click (Open Source)
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives (Freemium from $19/mo)
-- [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools (From $249/mo)
+- [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools (From $249/seat/mo)
 **Compare:** [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/)
 
 ## Key terms

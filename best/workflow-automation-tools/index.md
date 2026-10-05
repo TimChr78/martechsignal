@@ -34,8 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Open-Source Tools…](/categories/open-source/)
-- [Workflow Automation…](/categories/workflow-automation/)
+- [Open-Source Tools](/categories/open-source/)
+- [Workflow Automation](/categories/workflow-automation/)
 **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Key terms

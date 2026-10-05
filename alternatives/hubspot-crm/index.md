@@ -15,15 +15,15 @@ Last verified 2026-09-28.
 
 | Tool | Price | Billing model | Self-host | Best for |
 | --- | --- | --- | --- | --- |
-| [Twenty](/tools/twenty/) | Open Source from $9/mo | Free self-host, paid cloud | Yes | Technical teams, agencies, and privacy-conscious organizations that want a modern CRM they can self-host and extend with code. |
-| [EspoCRM](/tools/espocrm/) | Open Source from €12.90/mo | Free self-host, paid cloud | Yes | Small teams that want a lightweight self-hosted CRM with solid sales automation and are willing to buy extensions as needed. |
+| [Twenty](/tools/twenty/) | Open Source from $9/user/mo | Free self-host, paid cloud | Yes | Technical teams, agencies, and privacy-conscious organizations that want a modern CRM they can self-host and extend with code. |
+| [EspoCRM](/tools/espocrm/) | Open Source from €12.90/user/mo | Free self-host, paid cloud | Yes | Small teams that want a lightweight self-hosted CRM with solid sales automation and are willing to buy extensions as needed. |
 | [SuiteCRM](/tools/suitecrm/) | Open Source | Free self-host, paid cloud | Yes | Organizations that want the broadest free module set in open-source CRM, from quotes and invoices to campaigns and cases, and can run PHP infrastructure. |
-| [Pipedrive](/tools/pipedrive/) | From $14/mo | See vendor | No | Sales teams that already run a separate marketing stack and want a pipeline-first CRM that reps will actually use. |
+| [Pipedrive](/tools/pipedrive/) | From $14/user/mo | See vendor | No | Sales teams that already run a separate marketing stack and want a pipeline-first CRM that reps will actually use. |
 | [Frappe CRM](/tools/frappe-crm/) | Open Source from $5/mo | Free self-host, paid cloud | Yes | Budget-conscious sales teams that want unlimited users on an open-source CRM and are comfortable with the Frappe stack. |
 
 ## [Twenty as a HubSpot CRM alternative](/tools/twenty/)
 
-Open Source from $9/mo OSS
+Open Source from $9/user/mo OSS
 
 Vendor: [Official site](https://twenty.com) · [Pricing](https://twenty.com/pricing) · [GitHub](https://github.com/twentyhq/twenty)
 
@@ -35,7 +35,7 @@ Twenty is open source under AGPLv3 where HubSpot is closed, and self-hosting on 
 
 ## [EspoCRM as a HubSpot CRM alternative](/tools/espocrm/)
 
-Open Source from €12.90/mo OSS
+Open Source from €12.90/user/mo OSS
 
 Vendor: [Official site](https://www.espocrm.com) · [Pricing](https://www.espocrm.com/cloud/) · [GitHub](https://github.com/espocrm/espocrm)
 
@@ -59,7 +59,7 @@ SuiteCRM is AGPLv3, forked from SugarCRM Community Edition, and its module list 
 
 ## [Pipedrive as a HubSpot CRM alternative](/tools/pipedrive/)
 
-From $14/mo
+From $14/user/mo
 
 Vendor: [Official site](https://www.pipedrive.com) · [Pricing](https://www.pipedrive.com/en/pricing)
 

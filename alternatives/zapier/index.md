@@ -23,7 +23,7 @@ Last verified 2026-09-28.
 | [Tray.io](/tools/tray-io/) | Enterprise | Contract | No | Enterprises that need integrations and AI agents governed inside a compliance boundary, with SSO and regional hosting available. |
 | [Budibase](/tools/budibase/) | Open-core from $19/mo | See vendor | Yes | Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data. |
 | [Pabbly Connect](/tools/pabbly-connect/) | From $16/mo | See vendor | No | Teams with steady, high automation volume that want the cheapest predictable bill in the category, or a one-time lifetime license instead of a subscription. |
-| [Microsoft Power Automate](/tools/power-automate/) | From $15/mo | See vendor | No | Organizations standardized on Microsoft 365 that want automation governed inside the tenant their IT department already manages. |
+| [Microsoft Power Automate](/tools/power-automate/) | From $15/user/mo | See vendor | No | Organizations standardized on Microsoft 365 that want automation governed inside the tenant their IT department already manages. |
 | [IFTTT](/tools/ifttt/) | Freemium from $2.99/mo | Freemium, self-serve tiers | No | Edge and personal workflows: smart-device events, social triggers, quick connectivity where a full automation platform would be absurd. |
 | [Activepieces](/tools/activepieces/) | Freemium from $20/mo | Freemium, self-serve tiers | Yes | Teams that want automation infrastructure they can inspect, self-host, or run air-gapped, with flat-fee cloud pricing and bring-your-own AI keys as the alternative. |
 | [Workato](/tools/workato/) | Enterprise | Contract | No | Enterprise automation programs that want a governed, Gartner-class platform and have the budget a platform fee plus usage-based pricing implies. |
@@ -102,7 +102,7 @@ Nearly every ranking competitor lists Pabbly Connect, and the reason is arithmet
 
 ## [Microsoft Power Automate as a Zapier alternative](/tools/power-automate/)
 
-From $15/mo
+From $15/user/mo
 
 Vendor: [Official site](https://powerautomate.microsoft.com) · [Pricing](https://powerautomate.microsoft.com/en-us/pricing/)
 

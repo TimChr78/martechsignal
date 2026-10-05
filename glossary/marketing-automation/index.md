@@ -52,9 +52,9 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Braze](https://www
 
 [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/)
 
-- [Marketing Automation…](/categories/marketing-automation/)
-- [Best Marketing Automation tools…](/best/ai-marketing-automation-tools/)
-- [Automation strategy…](/guides/workflow-automation-strategy/)
+- [Marketing Automation](/categories/marketing-automation/)
+- [Best Marketing Automation tools](/best/ai-marketing-automation-tools/)
+- [Automation strategy](/guides/workflow-automation-strategy/)
 ## See also
 
 - [ABM](/glossary/abm/)

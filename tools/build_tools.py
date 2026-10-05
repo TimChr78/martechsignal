@@ -107,7 +107,11 @@ def pricing_label(t):
             # r13 H-2 pattern (2026-09-29): symbol from record.currency -
             # r21 H-2 (2026-10-02) caught this label hardcoding $ on EUR records.
             _sym = "€" if str(t.get("currency") or "").upper() == "EUR" else "$"
-            return "Freemium from " + _sym + _fmt_num(_entry) + "/mo"
+            # r28 H-2 (2026-10-06): per-user/per-seat entry figures carry the
+            # record's unit — "Freemium from $29/seat/mo", never bare.
+            _uu = str(t.get("price_unit") or "").lower()
+            _usfx = f"/{_uu}/mo" if _uu in ("user", "seat") else "/mo"
+            return "Freemium from " + _sym + _fmt_num(_entry) + _usfx
         return "Freemium"
     # r24 M-1 (2026-10-05): 19 open-source/open-core rows carried a published
     # paid_from the label hid - n8n showed "Open Source" beside Zapier's
@@ -123,7 +127,10 @@ def pricing_label(t):
             # a subscription. Match page prose: "$5000 one-time".
             if str(t.get("billing") or "").lower() == "one-time":
                 return f"{_word} from {_sym}{_fmt_num(_pf)} one-time"
-            return f"{_word} from {_sym}{_fmt_num(_pf)}/mo"
+            # r28 H-2 (2026-10-06): per-user/per-seat paid entries qualify.
+            _uu = str(t.get("price_unit") or "").lower()
+            _usfx = f"/{_uu}/mo" if _uu in ("user", "seat") else "/mo"
+            return f"{_word} from {_sym}{_fmt_num(_pf)}{_usfx}"
         return _word
     if m == "enterprise": return "Enterprise"
     p = t.get("price_from")
@@ -132,7 +139,10 @@ def pricing_label(t):
     # pages shipped "$224" in hero chip + sidebar while verdicts said EUR).
     if p:
         _sym = "\u20ac" if str(t.get("currency") or "").upper() == "EUR" else "$"
-        return f"From {_sym}{_fmt_num(p)}/mo"
+        # r28 H-2 (2026-10-06): per-user/per-seat entries qualify here too.
+        _uu = str(t.get("price_unit") or "").lower()
+        _usfx = f"/{_uu}/mo" if _uu in ("user", "seat") else "/mo"
+        return f"From {_sym}{_fmt_num(p)}{_usfx}"
     return "Paid"
 
 # ── SEO title / meta template (CTR-optimized, ≤60 / ≤155) ──────────
@@ -232,8 +242,10 @@ def pricing_section_html(t):
     _unit = " one-time" if str(t.get("billing") or "").lower() == "one-time" else "/mo"
     # r27 H-1 (2026-10-05): the pricing hero carries the same per-user
     # qualifier _money emits — "from $25/user/mo", never "from $25/mo".
-    if str(t.get("price_unit") or "").lower() == "user" and _unit == "/mo":
-        _unit = "/user/mo"
+    # r28 H-2 (2026-10-06): per-seat records render "/seat/mo" the same way.
+    _pu = str(t.get("price_unit") or "").lower()
+    if _pu in ("user", "seat") and _unit == "/mo":
+        _unit = f"/{_pu}/mo"
     if model == "enterprise" and pf:
         tail = f", from {_price_money(sym, pf)}{_unit}"
     elif pf and pf != 0:
@@ -1050,8 +1062,13 @@ def _money(p, t):
     # Records carrying price_unit:"user" render the qualifier everywhere this
     # formatter reaches (FAQ answers + twins, tool metas, verdict frag, table
     # cells) — one field, all surfaces, the marketo pattern generalized.
-    if str(t.get("price_unit") or "").lower() == "user":
+    # r28 H-2 (2026-10-06): the same class one tier down — per-seat records
+    # ($29/seat/mo) render identically qualified via price_unit:"seat".
+    _unit_w = str(t.get("price_unit") or "").lower()
+    if _unit_w == "user":
         return f"{_sym}{_fmt_num(p)}/user/mo"
+    if _unit_w == "seat":
+        return f"{_sym}{_fmt_num(p)}/seat/mo"
     return f"{_sym}{_fmt_num(p)}/mo"
 
 def _score_band(t):
@@ -1204,7 +1221,9 @@ def _offer_for(t):
     # price:25 node reads as "$25 for the product". Per-user enterprise
     # records (the two Salesforce rows) emit no Offer, the marketo pattern;
     # per-org entry figures (drift $2,500) keep theirs.
-    if str(t.get("price_unit") or "").lower() == "user":
+    # r28 H-2 (2026-10-06): same for per-seat records — Offer cannot carry
+    # the /seat unit either. All price_unit records suppress; org keeps.
+    if str(t.get("price_unit") or "").lower() in ("user", "seat"):
         return None
     _paid = t.get("paid_from")
     _pf = t.get("price_from")

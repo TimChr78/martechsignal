@@ -55,9 +55,9 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
 
 [SEO & Search](/categories/seo/) [Best SEO & Search tools](/best/ai-seo-tools/) [AI SEO tooling](/guides/ai-seo-tooling/)
 
-- [SEO & Search…](/categories/seo/)
-- [Best SEO & Search tools…](/best/ai-seo-tools/)
-- [AI SEO tooling…](/guides/ai-seo-tooling/)
+- [SEO & Search](/categories/seo/)
+- [Best SEO & Search tools](/best/ai-seo-tools/)
+- [AI SEO tooling](/guides/ai-seo-tooling/)
 ## See also
 
 - [SEO](/glossary/seo/)

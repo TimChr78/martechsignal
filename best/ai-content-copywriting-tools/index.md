@@ -34,8 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [AI Content & Copywriting…](/categories/content-ai/)
-- [Open-Source Tools…](/categories/open-source/)
+- [AI Content & Copywriting](/categories/content-ai/)
+- [Open-Source Tools](/categories/open-source/)
 **Guide:** [AI SEO tooling hub](/guides/ai-seo-tooling/)
 
 ## Key terms

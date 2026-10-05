@@ -111,9 +111,16 @@ def html_to_md(html: str) -> str:
             if not _clabel:
                 # r27 N-2 (2026-10-05): the 60-char fallback cut link text
                 # mid-word ("ad crea"). Break at a word boundary with ellipsis.
-                _raw60 = inline(_m.group(2))[:60]
-                _sp = _raw60.rfind(" ")
-                _clabel = (_raw60[:_sp] + "…") if _sp > 30 else (_raw60 + "…")
+                # r28 N-7 (2026-10-06): the ellipsis fired unconditionally —
+                # short related-link texts ("CRM", 3-25 chars) gained a
+                # phantom "…" their pages never carry. Only cut long text.
+                _full = inline(_m.group(2))
+                if len(_full) <= 60:
+                    _clabel = _full
+                else:
+                    _raw60 = _full[:60]
+                    _sp = _raw60.rfind(" ")
+                    _clabel = (_raw60[:_sp] + "…") if _sp > 30 else (_raw60 + "…")
             if not _clabel:
                 _clabel = _m.group(1).strip("/").split("/")[-1]
             _cline = f"- [{_clabel}]({_m.group(1)})"

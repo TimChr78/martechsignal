@@ -121,8 +121,8 @@ Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
-- [Analytics & Attribution…](/categories/analytics/)
-- [Open-Source Tools…](/categories/open-source/)
+- [Analytics & Attribution](/categories/analytics/)
+- [Open-Source Tools](/categories/open-source/)
 ## Open-source momentum, with receipts
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.

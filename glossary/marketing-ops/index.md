@@ -48,13 +48,13 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [ActiveCampaign]
 
 [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/) [Workflow Automation](/categories/workflow-automation/) [Best Workflow Automation tools](/best/workflow-automation-tools/) [MCP and agent protocols](/guides/mcp-agent-protocols/) [Automation strategy](/guides/workflow-automation-strategy/)
 
-- [Marketing Automation…](/categories/marketing-automation/)
-- [Best Marketing Automation tools…](/best/ai-marketing-automation-tools/)
-- [Automation strategy…](/guides/workflow-automation-strategy/)
-- [Workflow Automation…](/categories/workflow-automation/)
-- [Best Workflow Automation tools…](/best/workflow-automation-tools/)
-- [MCP and agent protocols…](/guides/mcp-agent-protocols/)
-- [Automation strategy…](/guides/workflow-automation-strategy/)
+- [Marketing Automation](/categories/marketing-automation/)
+- [Best Marketing Automation tools](/best/ai-marketing-automation-tools/)
+- [Automation strategy](/guides/workflow-automation-strategy/)
+- [Workflow Automation](/categories/workflow-automation/)
+- [Best Workflow Automation tools](/best/workflow-automation-tools/)
+- [MCP and agent protocols](/guides/mcp-agent-protocols/)
+- [Automation strategy](/guides/workflow-automation-strategy/)
 ## See also
 
 - [ABM](/glossary/abm/)

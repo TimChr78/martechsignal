@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Lightweight open-source CRM with sales automation, marketing tools, and customer management
 
-CRM · Open Source from €12.90/mo Desk-reviewed
+CRM · Open Source from €12.90/user/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -46,9 +46,9 @@ EspoCRM homepage, captured September 2026. Vendor page shown as a dated referenc
 
 ## Pricing
 
-EspoCRM is free to self-host under the AGPL-3.0 licence, paid plans start at €12.90/mo as of 2026-09.
+EspoCRM is free to self-host under the AGPL-3.0 licence, paid plans start at €12.90/user/mo as of 2026-09.
 
-Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from € 12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack.
+Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from €12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack.
 
 Current plans and limits live on the [EspoCRM pricing page](https://www.espocrm.com/cloud/).
 
@@ -92,7 +92,7 @@ A fast-moving, well-documented self-hosted CRM whose free core covers the sales 
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at €12.90/mo |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at €12.90/user/mo |
 | ✓ API access for custom integrations |  |
 | ✓ Active public repository (3,438 GitHub stars counted at last check) |  |
 
@@ -114,7 +114,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. The public repository carries 3,438 stars. EspoCRM offers a public API for custom integrations.
 
 **How much does EspoCRM cost?**
-EspoCRM has a free tier; paid plans start at €12.90/mo. Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from € 12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+EspoCRM has a free tier; paid plans start at €12.90/user/mo. Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from €12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is EspoCRM a good self-hosted CRM tool in 2026?**
 A fast-moving, well-documented self-hosted CRM whose free core covers the sales and support basics, with the automation, reporting, and AI depth sitting in paid extensions and cloud plans.
@@ -145,7 +145,7 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for lean sales teams that automate à la carte.
 ### Quick Facts
 
-- **Pricing:** Open Source from €12.90/mo
+- **Pricing:** Open Source from €12.90/user/mo
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 3438
 - **Founded:** 2011

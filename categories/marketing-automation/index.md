@@ -24,7 +24,7 @@ Marketing automation platforms reviewed: workflow depth, guardrails, and AI auto
 - [Laudspeaker](/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze (Open Source)
 - [Line Harness](/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control (Open Source)
 - [Mautic](/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management (Open Source from €247.50/mo)
-- [NocoDB](/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet (Open-core from $12/mo)
+- [NocoDB](/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet (Open-core from $12/seat/mo)
 **Compare:** [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Salesforce Marketing Cloud vs HubSpot Marketing Hub](/vs/salesforce-marketing-cloud-vs-hubspot/) · [ActiveCampaign vs Klaviyo](/vs/activecampaign-vs-klaviyo/) · [ActiveCampaign vs HubSpot CRM](/vs/activecampaign-vs-hubspot/) · [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Key terms

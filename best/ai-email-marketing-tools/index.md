@@ -34,8 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Email Marketing…](/categories/email-marketing/)
-- [Open-Source Tools…](/categories/open-source/)
+- [Email Marketing](/categories/email-marketing/)
+- [Open-Source Tools](/categories/open-source/)
 ## Key terms
 
 - [Email sequence](/glossary/email-sequence/)

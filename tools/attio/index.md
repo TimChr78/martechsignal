@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (38 days ago).
 
 AI-native CRM with real-time data enrichment and agentic revenue workflows
 
-CRM · Freemium from $29/mo Desk-reviewed
+CRM · Freemium from $29/seat/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -63,7 +63,7 @@ Attio homepage, captured September 2026. Vendor page shown as a dated reference 
 - Stripe
 ## Pricing
 
-Attio is freemium, with a free tier to start, paid plans start at $29/mo as of 2026-08.
+Attio is freemium, with a free tier to start, paid plans start at $29/seat/mo as of 2026-08.
 
 Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing
 
@@ -86,7 +86,7 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AI capabilities: AI data enrichment | ✗ Paid plans start at $29/mo once past the free tier |
+| ✓ AI capabilities: AI data enrichment | ✗ Paid plans start at $29/seat/mo once past the free tier |
 | ✓ Native integrations include Slack, Gmail, Outlook (8 listed) | ✗ Closed source - no self-hosting option |
 | ✓ Free tier to evaluate before committing (Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing) |  |
 
@@ -108,7 +108,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Attio: AI-native CRM with real-time data enrichment and agentic revenue workflows. Attio ships with AI data enrichment. This page documents 8 integrations.
 
 **How much does Attio cost?**
-Attio has a free tier; paid plans start at $29/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Attio has a free tier; paid plans start at $29/seat/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
 **Is Attio worth it past the free tier?**
 Worth a look when your CRM needs custom objects and live segments more than it needs a sales methodology out of the box.
@@ -130,7 +130,7 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for startups that want a CRM shaped around their own data model.
 ### Quick Facts
 
-- **Pricing:** Freemium from $29/mo
+- **Pricing:** Freemium from $29/seat/mo
 - **Category:** [CRM](/categories/crm/)
 - **Founded:** 2019
 - **HQ:** London, UK

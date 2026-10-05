@@ -20,7 +20,7 @@ We express this policy with the three content signals defined by the Cloudflare 
 - **ai-train** (we say no): training or fine-tuning AI models.
 ## How this is enforced
 
-Anthropic runs three separately controlled crawlers: ClaudeBot collects training data and stays blocked here; Claude-User and Claude-SearchBot handle retrieval and search and stay open. That split is why the same robots.txt can say yes to AI answers and no to training without contradicting itself.
+Anthropic runs three separately controlled crawlers: ClaudeBot collects training data and stays blocked here; Claude-User and Claude-SearchBot handle retrieval and search and stay open. That split is why the same robots.txt can say yes to AI answers and no to training without contradicting itself. The same open treatment covers the other named retrieval agents: OpenAI's OAI-SearchBot and ChatGPT-User, and Perplexity's PerplexityBot and Perplexity-User, all admitted via the robots.txt wildcard group and named here so the allowance is explicit, not implied.
 
 Our robots.txt declares the signals, and it blocks the well-known training crawlers outright: GPTBot, ClaudeBot, Google-Extended, CCBot, Applebot-Extended, meta-externalagent, Bytespider, Amazonbot, cohere-ai, Diffbot, AI2Bot (including AI2Bot-Dolma), ImagesiftBot, PanguBot, omgili, omgilibot, Timpibot, KangarooBot, Kangaroo Bot, and Cotoyogi. Search crawlers and user-triggered fetch agents are left open on purpose. The signals are a stated preference and a reservation of rights, not a technical guarantee. Some tools ignore robots.txt; the policy stands either way.
 

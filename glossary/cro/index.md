@@ -51,10 +51,10 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
 
 [Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [Personalization & CDP](/categories/personalization/) [Best Personalization & CDP tools](/best/ai-personalization-tools/)
 
-- [Analytics & Attribution…](/categories/analytics/)
-- [Best Analytics & Attribution tools…](/best/marketing-analytics-tools/)
-- [Personalization & CDP…](/categories/personalization/)
-- [Best Personalization & CDP tools…](/best/ai-personalization-tools/)
+- [Analytics & Attribution](/categories/analytics/)
+- [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
+- [Personalization & CDP](/categories/personalization/)
+- [Best Personalization & CDP tools](/best/ai-personalization-tools/)
 ## See also
 
 - [AEO](/glossary/aeo/)

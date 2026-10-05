@@ -54,9 +54,9 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com)
 
 [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/)
 
-- [Marketing Automation…](/categories/marketing-automation/)
-- [Best Marketing Automation tools…](/best/ai-marketing-automation-tools/)
-- [Automation strategy…](/guides/workflow-automation-strategy/)
+- [Marketing Automation](/categories/marketing-automation/)
+- [Best Marketing Automation tools](/best/ai-marketing-automation-tools/)
+- [Automation strategy](/guides/workflow-automation-strategy/)
 ## See also
 
 - [ABM](/glossary/abm/)

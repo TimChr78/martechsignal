@@ -134,7 +134,7 @@ Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
-- [AI Content & Copywriting…](/categories/content-ai/)
+- [AI Content & Copywriting](/categories/content-ai/)
 **Guide:** [AI SEO tooling hub](/guides/ai-seo-tooling/)
 
 ## Get the next teardown

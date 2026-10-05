@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
 
-Workflow Automation · Open-core from $15/mo · OPEN SOURCE Desk-reviewed
+Workflow Automation · Open-core from $15/user/mo · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -65,7 +65,7 @@ Appsmith homepage, captured September 2026. Vendor page shown as a dated referen
 - REST / GraphQL
 ## Pricing
 
-Appsmith is open core: the self-hosted version is free, paid plans start at $15/mo as of 2026-09.
+Appsmith is open core: the self-hosted version is free, paid plans start at $15/user/mo as of 2026-09.
 
 Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users.
 
@@ -110,7 +110,7 @@ The safest default in the open-source internal-tools class: Apache 2.0 core, the
 
 | Pros | Cons |
 | --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $15/mo once past the free tier |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $15/user/mo once past the free tier |
 | ✓ AI capabilities: ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3) |  |
 | ✓ Active public repository (41,018 GitHub stars counted at last check) |  |
 | ✓ Native integrations include PostgreSQL, MySQL, MongoDB (13 listed) |  |
@@ -133,7 +133,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 41,018 stars.
 
 **How much does Appsmith cost?**
-Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Appsmith has a free tier; paid plans start at $15/user/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is Appsmith a good self-hosted Workflow Automation tool in 2026?**
 The safest default in the open-source internal-tools class: Apache 2.0 core, the widest documented connector list, real git-based workflows and steady releases, provided a developer owns it.
@@ -161,7 +161,7 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 
-- **Pricing:** Open-core from $15/mo
+- **Pricing:** Open-core from $15/user/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **GitHub:** ★ 41018
 - **API:** Yes

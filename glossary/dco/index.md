@@ -46,12 +46,12 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
 
 [Advertising & Paid Media](/categories/advertising/) [Best Advertising & Paid Media tools](/best/ai-advertising-tools/) [Agentic advertising](/guides/agentic-ai-advertising/) [AI Content & Copywriting](/categories/content-ai/) [Best AI Content & Copywriting tools](/best/ai-content-copywriting-tools/) [AI SEO tooling](/guides/ai-seo-tooling/)
 
-- [Advertising & Paid Media…](/categories/advertising/)
-- [Best Advertising & Paid Media tools…](/best/ai-advertising-tools/)
-- [Agentic advertising…](/guides/agentic-ai-advertising/)
-- [AI Content & Copywriting…](/categories/content-ai/)
-- [Best AI Content & Copywriting tools…](/best/ai-content-copywriting-tools/)
-- [AI SEO tooling…](/guides/ai-seo-tooling/)
+- [Advertising & Paid Media](/categories/advertising/)
+- [Best Advertising & Paid Media tools](/best/ai-advertising-tools/)
+- [Agentic advertising](/guides/agentic-ai-advertising/)
+- [AI Content & Copywriting](/categories/content-ai/)
+- [Best AI Content & Copywriting tools](/best/ai-content-copywriting-tools/)
+- [AI SEO tooling](/guides/ai-seo-tooling/)
 ## See also
 
 - [AEO](/glossary/aeo/)

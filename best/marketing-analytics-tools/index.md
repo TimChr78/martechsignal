@@ -34,8 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Analytics & Attribution…](/categories/analytics/)
-- [Open-Source Tools…](/categories/open-source/)
+- [Analytics & Attribution](/categories/analytics/)
+- [Open-Source Tools](/categories/open-source/)
 ## Key terms
 
 - [Attribution models](/glossary/marketing-attribution-models/)

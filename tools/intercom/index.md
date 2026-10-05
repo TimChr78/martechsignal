@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (38 days ago).
 
 AI-first customer service platform with Fin AI agent and omnichannel messaging
 
-Chatbots & Conversational AI · From $29/mo Desk-reviewed
+Chatbots & Conversational AI · From $29/seat/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -18,7 +18,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Intercom is a tool in Chatbots & Conversational AI with paid plans starting at $29/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Intercom is a tool in Chatbots & Conversational AI with paid plans starting at $29/seat/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Intercom →](https://www.intercom.com)
 
@@ -63,7 +63,7 @@ Intercom homepage, captured September 2026. Vendor page shown as a dated referen
 - Segment
 ## Pricing
 
-Intercom is sold on paid plans, from $29/mo as of 2026-08.
+Intercom is sold on paid plans, from $29/seat/mo as of 2026-08.
 
 Essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution
 
@@ -106,7 +106,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Intercom: AI-first customer service platform with Fin AI agent and omnichannel messaging. Intercom ships with fin AI agent. This page documents 8 integrations.
 
 **How much does Intercom cost?**
-Intercom starts at $29/mo. Essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Intercom starts at $29/seat/mo. Essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Intercom worth paying for in 2026?**
 Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly changes the total cost at scale.
@@ -128,7 +128,7 @@ Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly c
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Support teams that want AI resolutions auditable at $0.99 each
 ### Quick Facts
 
-- **Pricing:** From $29/mo
+- **Pricing:** From $29/seat/mo
 - **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
 - **Third-party ratingsG2 rating:** 4.5/5 (3,855 reviews) · [source](https://www.g2.com/products/intercom/reviews)as of 2026-08-28
 - **Founded:** 2011

@@ -7,12 +7,12 @@ Attio suits startups that want a CRM shaped around their own data model. HubSpot
 
 | Tool | Pricing | Public API | Best for |
 | --- | --- | --- | --- |
-| [Attio](/tools/attio/) | Freemium from $29/mo | yes | Best for startups that want a CRM shaped around their own data model. |
-| [HubSpot CRM](/tools/hubspot-crm/) | Freemium from $20/mo | yes | Best free CRM, and the natural next step when the free tier starts to bite. |
+| [Attio](/tools/attio/) | Freemium from $29/seat/mo | yes | Best for startups that want a CRM shaped around their own data model. |
+| [HubSpot CRM](/tools/hubspot-crm/) | Freemium from $20/seat/mo | yes | Best free CRM, and the natural next step when the free tier starts to bite. |
 | [Salesforce CRM](/tools/salesforce-crm/) | Enterprise | yes | Best for enterprises that need the CRM everything else integrates with. |
 | [Zoho CRM](/tools/zoho-crm/) | Freemium from €14/mo | no | Best value for small teams that want a full suite without an enterprise bill. |
-| [Pipedrive](/tools/pipedrive/) | From $14/mo | yes | Best for small sales teams that live in one pipeline view. |
-| [Freshsales](/tools/freshsales/) | From $9/mo | yes | Best for budget-conscious teams that still want AI lead scoring. |
+| [Pipedrive](/tools/pipedrive/) | From $14/user/mo | yes | Best for small sales teams that live in one pipeline view. |
+| [Freshsales](/tools/freshsales/) | From $9/user/mo | yes | Best for budget-conscious teams that still want AI lead scoring. |
 
 **Our top pick: [Attio](#attio)** — Best for startups that want a CRM shaped around their own data model. [Try Attio](https://attio.com)
 
@@ -32,7 +32,7 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [CRM…](/categories/crm/)
+- [CRM](/categories/crm/)
 ## Key terms
 
 - [CRM](/glossary/crm/)

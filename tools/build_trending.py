@@ -184,7 +184,7 @@ def build_page():
         "@type": "CollectionPage",
         "@id": "https://martechsignal.com/trending/",
         "name": "Open-Source MarTech Momentum",
-        "description": f"GitHub star momentum for {oss_n} tracked open-source martech tools, with daily snapshots and verified star counts.",
+        "description": f"GitHub star momentum for {oss_n} tracked open-source martech tools ({n_repos} with full chart history), with daily snapshots and verified star counts.",
         "url": "https://martechsignal.com/trending/",
         "isPartOf": {"@type": "WebSite", "name": "MartechSignal", "url": "https://martechsignal.com/"},
         # r25 L-16 (2026-10-05): own breadcrumb edge, same pattern as hubs.
@@ -285,7 +285,7 @@ def build_page():
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page_shell(
         "Open-Source MarTech Momentum: GitHub Stars | MartechSignal",
-        f"Daily GitHub star snapshots for {oss_n} open-source martech tools: weekly movers, sparklines, and category leaderboards.",
+        f"Daily GitHub star snapshots for {oss_n} open-source martech tools ({n_repos} charted): weekly movers, sparklines, and category leaderboards.",
         "/trending/", body, [schema, breadcrumb]))
     print(f"  \u2713 {out.relative_to(ROOT)}  ({len(hist)} snapshots, {n_repos} repos, window {d0}..{d1})")
     return out

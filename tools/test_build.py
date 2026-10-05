@@ -963,13 +963,16 @@ def test_pricing_symbols_follow_record_currency():
 def test_freemium_pages_carry_both_offer_tiers():
     """r13 H-2(c) (2026-09-29): freemium pages with a free entry tier expose
     an offers array containing price 0 AND the paid entry (HubSpot showed
-    only USD 20 while the headline says Free CRM)."""
+    only USD 20 while the headline says Free CRM).
+    r28 H-2 (2026-10-06): hubspot-crm is now a price_unit:seat record — its
+    Offer is suppressed (schema cannot carry the unit), so buffer (free +
+    $5 paid, unit-free) carries the example."""
     import json as _j
     import re as _re
-    html = (ROOT / "tools" / "hubspot-crm" / "index.html").read_text()
+    html = (ROOT / "tools" / "buffer" / "index.html").read_text()
     prices = sorted({m.group(1) for m in
                      _re.finditer(r'"price":\s*([0-9.]+)', html)})
-    assert "0" in prices and "20" in prices, f"hubspot offer prices: {prices}"
+    assert "0" in prices and "5" in prices, f"buffer offer prices: {prices}"
 
 
 def test_identity_graph_is_unfragmented():
@@ -2095,6 +2098,24 @@ def test_content_updated_restamps_date_modified():
     assert not _bad, f"stale dateModified on revised leaves: {_bad[:8]}"
 
 
+def _notes_unit(notes):
+    """r28 H-2 (2026-10-06): does price_notes attach /user|/seat (or per-user
+    / per-seat prose) to the record's ENTRY figure? Keys the entry figure
+    specifically (§9 trap c) — any-figure matching over-counts honestly-flat
+    records that mention seats elsewhere. Returns 'user'|'seat'|''."""
+    import re as _re
+    _m = _re.search(r"[\$€]\s?([\d,]+(?:\.\d+)?)", notes or "")
+    if not _m:
+        return ""
+    _fig = _m.group(0)
+    _around = notes[max(0, _m.start() - 4):_m.end() + 24]
+    if "/user" in _around or "per user" in _around or "per-user" in _around:
+        return "user"
+    if "/seat" in _around or "per seat" in _around or "per-seat" in _around:
+        return "seat"
+    return ""
+
+
 def test_per_user_enterprise_figures_qualified_everywhere():
     """r27 H-1 (2026-10-05): the $25/mo per-user leak survived its meta-only
     fix on five more surfaces. Root fix: price_unit:'user' on the record,
@@ -2108,11 +2129,14 @@ def test_per_user_enterprise_figures_qualified_everywhere():
     # Structural fence (r27 rec 1 leading indicator): every enterprise record
     # with a numeric price_from must declare its unit — the next enterprise
     # row ships figure-free or unit-true on day one, no per-surface fix.
+    # r28 H-2 (2026-10-06): generalized to every model — the same leak lived
+    # on 12 freemium/paid/open records. Any record whose entry figure is
+    # unit-priced declares price_unit (user|seat|org).
     _nounit = [s for s, _t in _tools.items()
-               if str(_t.get("pricing_model") or "").lower() == "enterprise"
-               and (_t.get("price_from") or 0) > 0
+               if ((_t.get("price_from") or 0) > 0 or (_t.get("paid_from") or 0) > 0)
+               and _notes_unit(_t.get("price_notes") or "")
                and not str(_t.get("price_unit") or "")]
-    assert not _nounit, f"enterprise price_from without price_unit: {_nounit}"
+    assert not _nounit, f"unit-priced entry without price_unit: {_nounit}"
     _names = [_tools[_s]["name"] for _s in _flagged]
     _bad = []
     _pages = []

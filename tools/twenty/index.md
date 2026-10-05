@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 
-CRM · Open Source from $9/mo Desk-reviewed
+CRM · Open Source from $9/user/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -61,7 +61,7 @@ Twenty homepage, captured September 2026. Vendor page shown as a dated reference
 - Marketplace: Slack, Exa, People Data Labs
 ## Pricing
 
-Twenty is free to self-host under the AGPL-3.0 licence, paid plans start at $9/mo as of 2026-09.
+Twenty is free to self-host under the AGPL-3.0 licence, paid plans start at $9/user/mo as of 2026-09.
 
 Self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without.
 
@@ -105,7 +105,7 @@ The fastest-moving open-source CRM in this directory, honest about its limits an
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/user/mo |
 | ✓ AI capabilities: AI Chatbot with access to your workspace data |  |
 | ✓ Active public repository (57,914 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Gmail & Google Calendar, Outlook & Microsoft Calendar, IMAP / SMTP / CalDAV (7 listed) |  |
@@ -128,7 +128,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 57,914 stars.
 
 **How much does Twenty cost?**
-Twenty has a free tier; paid plans start at $9/mo. Self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Twenty has a free tier; paid plans start at $9/user/mo. Self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is Twenty a good self-hosted CRM tool in 2026?**
 The fastest-moving open-source CRM in this directory, honest about its limits and genuinely free to self-host at the Pro tier; adopt it as a platform you build on, not a finished product you switch on.
@@ -160,7 +160,7 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — CRM teams that want open source without accepting feature poverty
 ### Quick Facts
 
-- **Pricing:** Open Source from $9/mo
+- **Pricing:** Open Source from $9/user/mo
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 57914
 - **Founded:** 2023

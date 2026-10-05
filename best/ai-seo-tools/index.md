@@ -34,10 +34,10 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Agent Skills…](/categories/agent-skills/)
-- [GEO & LLM Optimization…](/categories/geo-llm-visibility/)
-- [Open-Source Tools…](/categories/open-source/)
-- [SEO & Search…](/categories/seo/)
+- [Agent Skills](/categories/agent-skills/)
+- [GEO & LLM Optimization](/categories/geo-llm-visibility/)
+- [Open-Source Tools](/categories/open-source/)
+- [SEO & Search](/categories/seo/)
 **Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) · [GEO, defined](/glossary/geo/)
 
 ## Key terms

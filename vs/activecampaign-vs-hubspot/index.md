@@ -16,7 +16,7 @@ The choice usually lands on one question: which system owns the contact. ActiveC
 | Tool | Starts at | Pick it when |
 | --- | --- | --- |
 | ActiveCampaign | From $15/mo | You want deep multi-step automation in one SMB-priced platform, starting at $15/mo. |
-| HubSpot CRM | Freemium from $20/mo | You want a free CRM to start with, sales, service and marketing on one record. |
+| HubSpot CRM | Freemium from $20/seat/mo | You want a free CRM to start with, sales, service and marketing on one record. |
 
 [ActiveCampaign assessment](/tools/activecampaign/) · [HubSpot CRM assessment](/tools/hubspot-crm/)
 
@@ -33,7 +33,7 @@ HubSpot CRM
 
 | Dimension | ActiveCampaign | HubSpot CRM |
 | --- | --- | --- |
-| Pricing | From $15/mo | Freemium from $20/mo |
+| Pricing | From $15/mo | Freemium from $20/seat/mo |
 | Open source | no | no |
 | Integrations listed | 8 listed: Shopify, Salesforce, Slack, Zapier (+4 more) | 8 listed: Gmail, Outlook, Slack, Zapier (+4 more) |
 | Public API | yes | yes |
@@ -134,8 +134,8 @@ Last verified 2026-10-01.
 
 ## Browse the hubs behind this comparison
 
-- [CRM…](/categories/crm/)
-- [Marketing Automation…](/categories/marketing-automation/)
+- [CRM](/categories/crm/)
+- [Marketing Automation](/categories/marketing-automation/)
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Get the next teardown

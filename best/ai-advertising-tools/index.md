@@ -34,8 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Advertising & Paid Media…](/categories/advertising/)
-- [Open-Source Tools…](/categories/open-source/)
+- [Advertising & Paid Media](/categories/advertising/)
+- [Open-Source Tools](/categories/open-source/)
 **Guide:** [Agentic advertising](/guides/agentic-ai-advertising/)
 
 ## Key terms

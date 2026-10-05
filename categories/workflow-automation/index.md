@@ -24,7 +24,7 @@ Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents,
 - [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform (Enterprise)
 ## LOW-CODE INTERNAL BUILDERS (4)
 
-- [Appsmith](/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs (Open-core from $15/mo)
+- [Appsmith](/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs (Open-core from $15/user/mo)
 - [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data (Open-core from $19/mo)
 - [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast (Open-core)
 - [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps (Open-core from $79/mo)
@@ -32,7 +32,7 @@ Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents,
 
 - [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting (Freemium from $20/mo)
 - [IFTTT](/tools/ifttt/): Consumer-friendly automation connecting apps and smart devices (Freemium from $2.99/mo)
-- [Microsoft Power Automate](/tools/power-automate/): Enterprise workflow automation inside the Microsoft Power Platform (From $15/mo)
+- [Microsoft Power Automate](/tools/power-automate/): Enterprise workflow automation inside the Microsoft Power Platform (From $15/user/mo)
 - [Pabbly Connect](/tools/pabbly-connect/): Task-priced integration platform with a one-time lifetime purchase option (From $16/mo)
 **Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) · [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) · [Make vs Zapier](/vs/make-vs-zapier/) · [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) · [Zapier alternatives](/alternatives/zapier/) · [n8n alternatives](/alternatives/n8n/) · [Best workflow automation tools (2026)](/best/workflow-automation-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 

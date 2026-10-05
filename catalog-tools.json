@@ -625,6 +625,7 @@
    "currency": "USD",
    "github_forks": 4787,
    "github_checked": "2026-10-05",
+   "price_unit": "user",
    "page_url": "https://martechsignal.com/tools/appsmith/"
   },
   {
@@ -673,6 +674,7 @@
    },
    "paid_from": 29,
    "currency": "USD",
+   "price_unit": "seat",
    "page_url": "https://martechsignal.com/tools/attio/"
   },
   {
@@ -2285,7 +2287,7 @@
    "pricing_model": "open-source",
    "pricing_url": "https://www.espocrm.com/cloud/",
    "price_from": 0,
-   "price_notes": "Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from € 12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack.",
+   "price_notes": "Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from €12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack.",
    "ai_features": [],
    "integrations": [],
    "github_repo": "espocrm/espocrm",
@@ -2338,6 +2340,7 @@
    "paid_from": 12.9,
    "github_forks": 989,
    "github_checked": "2026-10-05",
+   "price_unit": "user",
    "page_url": "https://martechsignal.com/tools/espocrm/"
   },
   {
@@ -2658,6 +2661,7 @@
    },
    "paid_from": 9,
    "currency": "USD",
+   "price_unit": "user",
    "page_url": "https://martechsignal.com/tools/freshsales/"
   },
   {
@@ -2967,6 +2971,7 @@
    },
    "paid_from": 20,
    "currency": "USD",
+   "price_unit": "seat",
    "page_url": "https://martechsignal.com/tools/hubspot-crm/"
   },
   {
@@ -3191,6 +3196,7 @@
     }
    ],
    "currency": "USD",
+   "price_unit": "seat",
    "page_url": "https://martechsignal.com/tools/intercom/"
   },
   {
@@ -3713,6 +3719,7 @@
    "github_forks": 442,
    "github_checked": "2026-10-05",
    "currency": "USD",
+   "price_unit": "seat",
    "page_url": "https://martechsignal.com/tools/macro/"
   },
   {
@@ -4678,6 +4685,7 @@
    "currency": "USD",
    "github_forks": 5081,
    "github_checked": "2026-10-05",
+   "price_unit": "seat",
    "page_url": "https://martechsignal.com/tools/nocodb/"
   },
   {
@@ -5691,6 +5699,7 @@
     }
    ],
    "currency": "USD",
+   "price_unit": "user",
    "page_url": "https://martechsignal.com/tools/pipedrive/"
   },
   {
@@ -6902,6 +6911,7 @@
     "verdict": "Best-in-class workflow and reporting for serious social teams; hard to justify below five seats."
    },
    "currency": "USD",
+   "price_unit": "seat",
    "page_url": "https://martechsignal.com/tools/sprout-social/"
   },
   {
@@ -7479,6 +7489,7 @@
    "github_forks": 9421,
    "github_checked": "2026-10-05",
    "currency": "USD",
+   "price_unit": "user",
    "page_url": "https://martechsignal.com/tools/twenty/"
   },
   {
@@ -9950,6 +9961,7 @@
     ]
    },
    "currency": "USD",
+   "price_unit": "user",
    "page_url": "https://martechsignal.com/tools/power-automate/"
   },
   {

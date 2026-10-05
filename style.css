@@ -697,7 +697,10 @@ ul.integ-list li { display: inline-block; margin: 0 .5rem .5rem 0 }
 .crumb a,.footer a,.alt-back a,.vs-links a,.back,.hub-links a,.post-list a{display:inline-block;padding-block:5px}
 /* r27 N-1 (2026-10-05): the vs-links cross-link blocks shipped with no rule —
    single-line links measured 17px tap height, flush against the verdict. */
+/* r28 N-1 (2026-10-06): 36.4px still short of the 44px pattern — min-height
+   (the adopted group has none) closes it. */
 .vs-links{margin:1.2rem 0 0}
+.vs-links a{display:inline-block;min-height:44px;line-height:44px;padding-block:0}
 .mast-nav a{display:inline-block;padding-block:4px}
 /* r7 M20 (2026-09-28): desktop breakpoint above 880px - long posts put the
    mini-TOC in a sticky right rail so the measure gutter is no longer dead
