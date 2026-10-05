@@ -87,7 +87,7 @@ Tools linked in this post: [n8n](/tools/n8n/) · [Mautic](/tools/mautic/) · [Tw
 ## Comparison guides
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
-- [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/)
+- [Best HubSpot CRM alternatives (2026)](/alternatives/hubspot-crm/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
