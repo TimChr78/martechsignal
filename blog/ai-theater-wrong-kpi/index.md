@@ -94,9 +94,9 @@ Tools linked in this post: [HubSpot CRM](/tools/hubspot-crm/) · [n8n](/tools/n8
 
 ## Related reading
 
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ## Related tools
 
 - [ALwrity](/tools/alwrity/) - AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social

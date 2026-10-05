@@ -86,7 +86,7 @@ For a team already comfortable with Docker and an agent CLI, the five-layer loop
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ## Related tools
 
 - [Nimt.ai](/tools/nimt-ai/) - AI search tracking across 8 models with an agent that writes, fixes, and outreaches

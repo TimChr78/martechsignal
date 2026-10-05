@@ -2834,7 +2834,7 @@
    "pricing_model": "freemium",
    "pricing_url": "https://www.heap.io/pricing",
    "price_from": 0,
-   "price_notes": "Free (10K sessions/mo, 6-mo history); Growth and Pro are custom-priced - no published entry price, so the record carries no paid figure (r22 H-3).",
+   "price_notes": "Free (10K sessions/mo, 6-mo history); Growth and Pro are custom-priced with no published entry price.",
    "ai_features": [
     "AI autocapture",
     "AI session replay analysis",
@@ -8528,7 +8528,7 @@
    ],
    "api_available": true,
    "pricing_url": "https://rankscale.ai/pricing",
-   "seo_description": "Rankscale: AI visibility tracking across 17+ engines, credit-based from a lower Essentials tier. Query fan-out, page audits and Looker Studio. Compare top.",
+   "seo_description": "Rankscale: AI visibility tracking across 17+ answer engines for agencies and enterprise teams. Starts at €99/mo.",
    "hq": "Vienna, Austria",
    "deep_dive": {
     "hands_on": [

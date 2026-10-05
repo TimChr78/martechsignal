@@ -109,8 +109,8 @@ Our directory breaks down martech tools by what they actually deliver: static re
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Related tools
 
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) - Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
