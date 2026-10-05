@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
 
-CRM · Open Source from $1799/mo Desk-reviewed
+CRM · Open Source from $1799 one-time Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -144,7 +144,7 @@ Yes, through the built-in import and export layer (the DataTransfer package), wh
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for Laravel shops that want room to extend a CRM.
 ### Quick Facts
 
-- **Pricing:** Open Source from $1799/mo
+- **Pricing:** Open Source from $1799 one-time
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 23968
 - **API:** Yes

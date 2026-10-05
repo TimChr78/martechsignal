@@ -26,9 +26,9 @@ Last verified 2026-09-28.
 | [Pabbly Connect](/tools/pabbly-connect/) | From $16/mo | See vendor | No | Cost-sensitive teams running high-volume marketing workflows with simple shapes. |
 | [Microsoft Power Automate](/tools/power-automate/) | From $15/mo | See vendor | No | Microsoft-centric orgs that want automation next to the Office and Dynamics data. |
 | [IFTTT](/tools/ifttt/) | Freemium from $2.99/mo | Freemium, self-serve tiers | No | Solo operators and simple cross-app triggers at consumer pricing. |
-| [Budibase](/tools/budibase/) | Free tier | See vendor | Yes | Internal tools with workflows attached: CRUD apps your team can actually run. |
-| [ToolJet](/tools/tooljet/) | Free tier | See vendor | Yes | Internal-tool builders who want AI-assisted app generation on their own data. |
-| [Appsmith](/tools/appsmith/) | Free tier | See vendor | Yes | Admin panels and internal dashboards over your databases and APIs. |
+| [Budibase](/tools/budibase/) | Open-core from $19/mo | See vendor | Yes | Internal tools with workflows attached: CRUD apps your team can actually run. |
+| [ToolJet](/tools/tooljet/) | Open-core from $79/mo | See vendor | Yes | Internal-tool builders who want AI-assisted app generation on their own data. |
+| [Appsmith](/tools/appsmith/) | Open-core from $15/mo | See vendor | Yes | Admin panels and internal dashboards over your databases and APIs. |
 
 ## [Make as a n8n alternative](/tools/make/)
 
@@ -140,7 +140,7 @@ IFTTT keeps automation consumer-shaped: simple triggers, flat pricing. Catalog p
 
 ## [Budibase as a n8n alternative](/tools/budibase/)
 
-Free tier OSS
+Open-core from $19/mo OSS
 
 Vendor: [Official site](https://budibase.com) · [Pricing](https://budibase.com/pricing) · [GitHub](https://github.com/budibase/budibase)
 
@@ -152,7 +152,7 @@ Budibase builds the internal app and the automation around it. Catalog pricing: 
 
 ## [ToolJet as a n8n alternative](/tools/tooljet/)
 
-Free tier OSS
+Open-core from $79/mo OSS
 
 Vendor: [Official site](https://tooljet.com) · [Pricing](https://tooljet.com/pricing) · [GitHub](https://github.com/ToolJet/ToolJet)
 
@@ -164,7 +164,7 @@ ToolJet pairs an internal-tool builder with AI-assisted generation. Catalog pric
 
 ## [Appsmith as a n8n alternative](/tools/appsmith/)
 
-Free tier OSS
+Open-core from $15/mo OSS
 
 Vendor: [Official site](https://appsmith.com) · [Pricing](https://www.appsmith.com/pricing) · [GitHub](https://github.com/appsmithorg/appsmith)
 

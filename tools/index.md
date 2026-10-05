@@ -444,13 +444,13 @@ IDURAR ERP & CRM
 
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
-Open Source from $5000/moDesk-reviewedCRMOSS
+Open Source from $5000 one-timeDesk-reviewedCRMOSS
 
 Krayin CRM
 
 Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
 
-Open Source from $1799/moDesk-reviewedCRMOSS
+Open Source from $1799 one-timeDesk-reviewedCRMOSS
 
 Macro
 

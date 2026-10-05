@@ -2345,7 +2345,7 @@
    "displayName": "Before your next automation, run the blast radius audit",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/automation-blast-radius-audit/",
-   "description": "Analysis from the MartechSignal blog.",
+   "description": "One broken automation can corrupt your CRM silently. Map every workflow blast radius before your next change.",
    "representativeQueries": [
     "before your next automation, run the blast radius audit",
     "automation blast radius audit"
@@ -2598,7 +2598,7 @@
    "displayName": "Multi-Touch Attribution Was Always a Fiction",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/",
-   "description": "Analysis from the MartechSignal blog.",
+   "description": "Multi-touch attribution never measured what it claimed. What actually works for crediting marketing spend.",
    "representativeQueries": [
     "multi-touch attribution was always a fiction",
     "multi touch attribution was always a fiction"
@@ -2730,7 +2730,7 @@
    "displayName": "SQREEM&#x27;s bet: behavior beats language",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/sqreem-behavioral-model-vs-llm/",
-   "description": "Analysis from the MartechSignal blog.",
+   "description": "SQREEM claims a state-space behavioral model beats LLMs at predicting buyers. The evidence is vendor-grade, but the gap is real.",
    "representativeQueries": [
     "sqreem&#x27;s bet: behavior beats language",
     "sqreem behavioral model vs llm"
@@ -2774,7 +2774,7 @@
    "displayName": "Fivetran Proved You Don&#x27;t Need a New Data Stack",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/",
-   "description": "Analysis from the MartechSignal blog.",
+   "description": "Fivetran proved AI runs fine on the warehouse you already own. Skip the rebuild and fix the pipes instead.",
    "representativeQueries": [
     "fivetran proved you don&#x27;t need a new data stack",
     "you dont need new data stack fivetran"
@@ -2785,7 +2785,7 @@
    "displayName": "Two Ways to Buy the Same Workflow Debt",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/",
-   "description": "Analysis from the MartechSignal blog.",
+   "description": "Zapier and Make bill the same automation differently. Task metering versus operations metering, and which debt costs less.",
    "representativeQueries": [
     "two ways to buy the same workflow debt",
     "zapier vs make two ways to buy the same workflow debt"
@@ -2820,7 +2820,7 @@
    "displayName": "Agentic Marketing | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/agentic-marketing/",
-   "description": "Agentic Marketing: definition in the MartechSignal glossary.",
+   "description": "Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes.",
    "representativeQueries": [
     "what is agentic marketing",
     "agentic marketing definition",
@@ -2832,7 +2832,7 @@
    "displayName": "AI Agent | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/ai-agent/",
-   "description": "AI Agent: definition in the MartechSignal glossary.",
+   "description": "An AI agent is software that pursues a goal by taking a sequence of actions on its own.",
    "representativeQueries": [
     "what is ai agent",
     "ai agent definition",
@@ -2844,7 +2844,7 @@
    "displayName": "AI Content Generation | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/ai-content-generation/",
-   "description": "AI Content Generation: definition in the MartechSignal glossary.",
+   "description": "AI content generation uses large language models to produce marketing copy.",
    "representativeQueries": [
     "what is ai content generation",
     "ai content generation definition",
@@ -2856,7 +2856,7 @@
    "displayName": "AI Search Visibility | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/ai-search-visibility/",
-   "description": "AI Search Visibility: definition in the MartechSignal glossary.",
+   "description": "AI search visibility measures how often and how prominently a brand, product, or content appears in AI-generated answers.",
    "representativeQueries": [
     "what is ai search visibility",
     "ai search visibility definition",
@@ -2868,7 +2868,7 @@
    "displayName": "Customer Data Platform (CDP) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/cdp/",
-   "description": "Customer Data Platform (CDP): definition in the MartechSignal glossary.",
+   "description": "A customer data platform collects and unifies customer data from every touchpoint.",
    "representativeQueries": [
     "what is cdp",
     "cdp definition",
@@ -2928,7 +2928,7 @@
    "displayName": "Dynamic Creative Optimization (DCO) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/dco/",
-   "description": "Dynamic Creative Optimization (DCO): definition in the MartechSignal glossary.",
+   "description": "Dynamic creative optimization assembles ad creatives in real time from modular components.",
    "representativeQueries": [
     "what is dco",
     "dco definition",
@@ -2988,7 +2988,7 @@
    "displayName": "First-Party Data | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/first-party-data/",
-   "description": "First-Party Data: definition in the MartechSignal glossary.",
+   "description": "First-party data is information you collect directly from your customers and prospects.",
    "representativeQueries": [
     "what is first party data",
     "first party data definition",
@@ -3000,7 +3000,7 @@
    "displayName": "Generative engine optimization (GEO) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/geo/",
-   "description": "Generative engine optimization (GEO): definition in the MartechSignal glossary.",
+   "description": "Generative engine optimization is the practice of getting a brand cited and correctly described inside AI-generated answers.",
    "representativeQueries": [
     "what is geo",
     "geo definition",
@@ -3036,7 +3036,7 @@
    "displayName": "Marketing Automation | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/marketing-automation/",
-   "description": "Marketing Automation: definition in the MartechSignal glossary.",
+   "description": "Marketing automation is software that runs repetitive marketing tasks without manual intervention.",
    "representativeQueries": [
     "what is marketing automation",
     "marketing automation definition",
@@ -3072,7 +3072,7 @@
    "displayName": "MQL / SQL | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/mql-sql/",
-   "description": "MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead): definition in the MartechSignal glossary.",
+   "description": "An MQL is a lead that marketing deems ready for sales based on engagement signals.",
    "representativeQueries": [
     "what is mql sql",
     "mql sql definition",
@@ -3120,7 +3120,7 @@
    "displayName": "Social Listening | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/social-listening/",
-   "description": "Social Listening: definition in the MartechSignal glossary.",
+   "description": "Social listening is the practice of monitoring social media channels, forums, review sites, and news outlets.",
    "representativeQueries": [
     "what is social listening",
     "social listening definition",

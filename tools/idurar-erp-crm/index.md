@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
-CRM · Open Source from $5000/mo Desk-reviewed
+CRM · Open Source from $5000 one-time Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -139,7 +139,7 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 
-- **Pricing:** Open Source from $5000/mo
+- **Pricing:** Open Source from $5000 one-time
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 8847
 - **API:** Yes

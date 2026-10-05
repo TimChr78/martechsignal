@@ -15,15 +15,15 @@ Last verified 2026-09-28.
 
 | Tool | Price | Billing model | Self-host | Best for |
 | --- | --- | --- | --- | --- |
-| [Plausible Analytics](/tools/plausible/) | Open Source | Free self-host, paid cloud | Yes | Content sites, startups, agencies, and privacy-conscious teams that want core traffic metrics without cookies, banners, or personal data collection. |
-| [Umami](/tools/umami/) | Open Source | Free self-host, paid cloud | Yes | Developers and privacy-conscious marketing teams that want campaign and conversion numbers without cookies or surveillance overhead. |
+| [Plausible Analytics](/tools/plausible/) | Open Source from $9/mo | Free self-host, paid cloud | Yes | Content sites, startups, agencies, and privacy-conscious teams that want core traffic metrics without cookies, banners, or personal data collection. |
+| [Umami](/tools/umami/) | Open Source from $20/mo | Free self-host, paid cloud | Yes | Developers and privacy-conscious marketing teams that want campaign and conversion numbers without cookies or surveillance overhead. |
 | [PostHog](/tools/posthog/) | Freemium | Freemium, self-serve tiers | Yes | Product teams that want funnels, retention, session replay, feature flags, and experiments in one place, on a free tier large enough for real work. |
-| [Snowplow](/tools/snowplow/) | Free tier | See vendor | Yes | Data teams that want behavioral events validated against schemas and delivered into their own warehouse or lake for reporting in BI tools. |
+| [Snowplow](/tools/snowplow/) | Open-core | See vendor | Yes | Data teams that want behavioral events validated against schemas and delivered into their own warehouse or lake for reporting in BI tools. |
 | [Amplitude](/tools/amplitude/) | Freemium | Freemium, self-serve tiers | No | Product and marketing teams that want funnels, retention, and experimentation without writing SQL, delivered as managed SaaS. |
 
 ## [Plausible Analytics as a Matomo alternative](/tools/plausible/)
 
-Open Source OSS
+Open Source from $9/mo OSS
 
 Vendor: [Official site](https://plausible.io) · [Pricing](https://plausible.io/#pricing) · [GitHub](https://github.com/plausible/analytics)
 
@@ -35,7 +35,7 @@ Plausible is open source under AGPL and free to self-host, with managed cloud fr
 
 ## [Umami as a Matomo alternative](/tools/umami/)
 
-Open Source OSS
+Open Source from $20/mo OSS
 
 Vendor: [Official site](https://umami.is) · [Pricing](https://umami.is/pricing) · [GitHub](https://github.com/umami-software/umami)
 
@@ -59,7 +59,7 @@ PostHog's core is MIT licensed, with an ee/ directory under a separate enterpris
 
 ## [Snowplow as a Matomo alternative](/tools/snowplow/)
 
-Free tier OSS
+Open-core OSS
 
 Vendor: [Official site](https://snowplow.io) · [GitHub](https://github.com/snowplow/snowplow)
 

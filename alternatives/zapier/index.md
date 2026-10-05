@@ -17,11 +17,11 @@ Last verified 2026-09-28.
 
 | Tool | Price | Billing model | Self-host | Best for |
 | --- | --- | --- | --- | --- |
-| [n8n](/tools/n8n/) | Open Source | Free self-host, paid cloud | Yes | Marketing operations teams, agencies, and AI-focused organizations that want extensible automation with the option to self-host. |
+| [n8n](/tools/n8n/) | Open Source from €20/mo | Free self-host, paid cloud | Yes | Marketing operations teams, agencies, and AI-focused organizations that want extensible automation with the option to self-host. |
 | [Make](/tools/make/) | Freemium from $9/mo | Freemium, self-serve tiers | No | Technical marketing teams that have outgrown a linear editor and want branching, looping, and visible error handling. |
 | [Pipedream](/tools/pipedream/) | Freemium from $29/mo | Freemium, self-serve tiers | No | Developers and revenue operations teams that want arbitrary code in every step and managed authentication for the APIs around it. |
 | [Tray.io](/tools/tray-io/) | Enterprise | Contract | No | Enterprises that need integrations and AI agents governed inside a compliance boundary, with SSO and regional hosting available. |
-| [Budibase](/tools/budibase/) | Free tier | See vendor | Yes | Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data. |
+| [Budibase](/tools/budibase/) | Open-core from $19/mo | See vendor | Yes | Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data. |
 | [Pabbly Connect](/tools/pabbly-connect/) | From $16/mo | See vendor | No | Teams with steady, high automation volume that want the cheapest predictable bill in the category, or a one-time lifetime license instead of a subscription. |
 | [Microsoft Power Automate](/tools/power-automate/) | From $15/mo | See vendor | No | Organizations standardized on Microsoft 365 that want automation governed inside the tenant their IT department already manages. |
 | [IFTTT](/tools/ifttt/) | Freemium from $2.99/mo | Freemium, self-serve tiers | No | Edge and personal workflows: smart-device events, social triggers, quick connectivity where a full automation platform would be absurd. |
@@ -30,7 +30,7 @@ Last verified 2026-09-28.
 
 ## [n8n as a Zapier alternative](/tools/n8n/)
 
-Open Source OSS
+Open Source from €20/mo OSS
 
 Vendor: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) · [GitHub](https://github.com/n8n-io/n8n)
 
@@ -78,7 +78,7 @@ Tray.io is an AI orchestration platform with 700-plus pre-built connectors, a co
 
 ## [Budibase as a Zapier alternative](/tools/budibase/)
 
-Free tier OSS
+Open-core from $19/mo OSS
 
 Vendor: [Official site](https://budibase.com) · [Pricing](https://budibase.com/pricing) · [GitHub](https://github.com/budibase/budibase)
 
