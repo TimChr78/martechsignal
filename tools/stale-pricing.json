@@ -21,12 +21,6 @@
       "days_stale": 38
     },
     {
-      "slug": "albert-ai",
-      "name": "Albert AI",
-      "date_updated": "2026-08-28",
-      "days_stale": 38
-    },
-    {
       "slug": "alphone",
       "name": "AlphOne",
       "date_updated": "2026-09-06",
@@ -45,22 +39,10 @@
       "days_stale": 38
     },
     {
-      "slug": "anyword",
-      "name": "Anyword",
-      "date_updated": "2026-08-28",
-      "days_stale": 38
-    },
-    {
       "slug": "appsmith",
       "name": "Appsmith",
       "date_updated": "2026-09-07",
       "days_stale": 28
-    },
-    {
-      "slug": "attio",
-      "name": "Attio",
-      "date_updated": "2026-08-28",
-      "days_stale": 38
     },
     {
       "slug": "attribution",
@@ -81,12 +63,6 @@
       "days_stale": 28
     },
     {
-      "slug": "bloomreach",
-      "name": "Bloomreach",
-      "date_updated": "2026-08-28",
-      "days_stale": 38
-    },
-    {
       "slug": "brandwatch",
       "name": "Brandwatch",
       "date_updated": "2026-08-28",
@@ -105,20 +81,8 @@
       "days_stale": 28
     },
     {
-      "slug": "buffer",
-      "name": "Buffer",
-      "date_updated": "2026-08-28",
-      "days_stale": 38
-    },
-    {
       "slug": "chatbotx",
       "name": "ChatbotX",
-      "date_updated": "2026-08-28",
-      "days_stale": 38
-    },
-    {
-      "slug": "chatfuel",
-      "name": "Chatfuel",
       "date_updated": "2026-08-28",
       "days_stale": 38
     },
@@ -127,18 +91,6 @@
       "name": "Chatwoot",
       "date_updated": "2026-09-07",
       "days_stale": 28
-    },
-    {
-      "slug": "claude-ads",
-      "name": "Claude Ads",
-      "date_updated": "2026-08-28",
-      "days_stale": 38
-    },
-    {
-      "slug": "clearscope",
-      "name": "Clearscope",
-      "date_updated": "2026-08-28",
-      "days_stale": 38
     },
     {
       "slug": "codex-seo",

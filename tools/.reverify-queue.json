@@ -1,0 +1,34 @@
+[
+ {
+  "slug": "adcreative-ai",
+  "name": "AdCreative.ai",
+  "kind": "fetch-error",
+  "url": "https://www.adcreative.ai/pricing",
+  "detail": "HTTP 404",
+  "queued_at": "2026-10-05"
+ },
+ {
+  "slug": "brandwatch",
+  "name": "Brandwatch",
+  "kind": "needs-render",
+  "url": "https://www.brandwatch.com/plans/",
+  "detail": "no currency figures in static HTML (likely JS-rendered)",
+  "queued_at": "2026-10-05"
+ },
+ {
+  "slug": "braze",
+  "name": "Braze",
+  "kind": "needs-render",
+  "url": "https://www.braze.com/pricing",
+  "detail": "no currency figures in static HTML (likely JS-rendered)",
+  "queued_at": "2026-10-05"
+ },
+ {
+  "slug": "chatfuel",
+  "name": "Chatfuel",
+  "kind": "mismatch",
+  "url": "https://chatfuel.com/pricing",
+  "detail": "catalog expects ['39.00']; page shows ['100.00', '1080.00', '18.00', '20.00', '216.00', '90.00']; missing ['39.00']",
+  "queued_at": "2026-10-05"
+ }
+]

@@ -1,0 +1,87 @@
+{
+ "adcreative-ai": {
+  "status": "fetch-404",
+  "errors": 1,
+  "last_check": "2026-10-05",
+  "backoff_until": "2026-10-12"
+ },
+ "albert-ai": {
+  "etag": "",
+  "lastmod": "",
+  "status": "confirmed",
+  "last_check": "2026-10-05",
+  "errors": 0,
+  "backoff_until": ""
+ },
+ "anyword": {
+  "etag": "",
+  "lastmod": "Mon, 05 Oct 2026 21:42:38 GMT",
+  "status": "confirmed",
+  "last_check": "2026-10-05",
+  "errors": 0,
+  "backoff_until": ""
+ },
+ "attio": {
+  "status": "confirmed-llms.txt",
+  "last_check": "2026-10-05",
+  "errors": 0,
+  "backoff_until": ""
+ },
+ "bloomreach": {
+  "status": "confirmed",
+  "backoff_until": "",
+  "etag": "",
+  "lastmod": "Mon, 05 Oct 2026 21:09:46 GMT",
+  "last_check": "2026-10-05",
+  "errors": 0
+ },
+ "brandwatch": {
+  "status": "needs-render",
+  "backoff_until": "2026-11-04",
+  "etag": "",
+  "lastmod": "",
+  "last_check": "2026-10-05"
+ },
+ "braze": {
+  "status": "needs-render",
+  "backoff_until": "2026-11-04",
+  "etag": "",
+  "lastmod": "",
+  "last_check": "2026-10-05"
+ },
+ "buffer": {
+  "status": "confirmed",
+  "backoff_until": "",
+  "etag": "",
+  "lastmod": "",
+  "last_check": "2026-10-05",
+  "errors": 0
+ },
+ "chatbotx": {
+  "status": "no-pricing-link",
+  "backoff_until": "2027-01-03"
+ },
+ "chatfuel": {
+  "status": "mismatch",
+  "backoff_until": "2026-11-04",
+  "etag": "",
+  "lastmod": "",
+  "last_check": "2026-10-05"
+ },
+ "claude-ads": {
+  "etag": "W/\"e53a38a5dd4d4dad43c53e8ed6849eae\"",
+  "lastmod": "",
+  "status": "confirmed",
+  "last_check": "2026-10-05",
+  "errors": 0,
+  "backoff_until": ""
+ },
+ "clearscope": {
+  "etag": "W/\"80aea392fc73a8dba7e67acac4ccd1b9\"",
+  "lastmod": "",
+  "status": "confirmed",
+  "last_check": "2026-10-05",
+  "errors": 0,
+  "backoff_until": ""
+ }
+}

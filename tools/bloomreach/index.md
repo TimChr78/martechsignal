@@ -4,8 +4,6 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Bloomreach
-Re-check pending: pricing last verified 2026-08-28 (38 days ago).
-
 ## Bloomreach review (2026): pricing, AI features, verdict
 
 AI-powered commerce experience platform with search, personalization, and CDP
@@ -18,7 +16,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Bloomreach is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Bloomreach is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Bloomreach →](https://www.bloomreach.com)
 
@@ -108,7 +106,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Bloomreach: AI-powered commerce experience platform with search, personalization, and CDP. Bloomreach ships with loomi AI search. This page documents 8 integrations.
 
 **How much does Bloomreach cost?**
-Bloomreach uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
+Bloomreach uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge. Our last verified read of the pricing model was 2026-10-05; the vendor's pricing page carries the current quote criteria.
 
 **Is Bloomreach a good Marketing Automation tool in 2026?**
 The right platform for large retailers consolidating search, CDP, and messaging. Mid-market stores will find it heavy.
@@ -134,7 +132,7 @@ The right platform for large retailers consolidating search, CDP, and messaging.
 - **Founded:** 2009
 - **HQ:** Mountain View, CA, USA
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-10-05
 
 Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
 

@@ -4,8 +4,6 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Buffer
-Re-check pending: pricing last verified 2026-08-28 (38 days ago).
-
 ## Buffer review (2026): pricing, AI features, verdict
 
 Simple social media scheduling and analytics with AI-powered content tools
@@ -18,7 +16,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Buffer is a tool in Social Media with a free tier. The catalog documents 4 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Buffer is a tool in Social Media with a free tier. The catalog documents 4 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Buffer →](https://buffer.com)
 
@@ -60,7 +58,7 @@ Buffer homepage, captured September 2026. Vendor page shown as a dated reference
 - WordPress
 ## Pricing
 
-Buffer is freemium, with a free tier to start, paid plans start at $5/mo as of 2026-08.
+Buffer is freemium, with a free tier to start, paid plans start at $5/mo as of 2026-10.
 
 Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial
 
@@ -102,7 +100,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Buffer: Simple social media scheduling and analytics with AI-powered content tools. Buffer ships with AI assistant for posts. This page documents 6 integrations.
 
 **How much does Buffer cost?**
-Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-10-05. The pricing section above shows what the free tier actually covers.
 
 **Is Buffer worth it past the free tier?**
 Start here, especially on the free tier. Plan to graduate to Sprout when reporting depth and approvals matter.
@@ -129,7 +127,7 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 - **Founded:** 2010
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-10-05
 
 Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 

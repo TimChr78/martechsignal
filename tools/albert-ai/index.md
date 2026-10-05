@@ -4,8 +4,6 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Albert AI
-Re-check pending: pricing last verified 2026-08-28 (38 days ago).
-
 ## Albert AI review (2026): pricing, AI features, verdict
 
 Autonomous AI platform that manages and optimizes digital advertising campaigns
@@ -18,7 +16,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Albert AI is a tool in Advertising & Paid Media with custom pricing. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Albert AI is a tool in Advertising & Paid Media with custom pricing. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Albert AI →](https://albert.ai)
 
@@ -106,7 +104,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Albert AI: Autonomous AI platform that manages and optimizes digital advertising campaigns. Albert AI ships with autonomous campaign management. This page documents 6 integrations.
 
 **How much does Albert AI cost?**
-Albert AI uses enterprise pricing, so the number depends on your volume and contract. Enterprise custom pricing; percentage of ad spend model; demo required. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
+Albert AI uses enterprise pricing, so the number depends on your volume and contract. Enterprise custom pricing; percentage of ad spend model; demo required. Our last verified read of the pricing model was 2026-10-05; the vendor's pricing page carries the current quote criteria.
 
 **Is Albert AI a good Advertising & Paid Media tool in 2026?**
 Strong for enterprise media teams with large budgets and mature conversion tracking. Smaller advertisers cannot feed its experiment engine.
@@ -132,7 +130,7 @@ Strong for enterprise media teams with large budgets and mature conversion track
 - **Founded:** 2012
 - **HQ:** New York, NY, USA
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-10-05
 
 Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 

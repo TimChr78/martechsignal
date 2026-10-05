@@ -97,7 +97,7 @@ AdCreative.ai produces creative volume with scores attached. Starter is $39/mo a
 
 **Verdict:** Lean teams that want creative volume with a score attached
 
-Vendor: [Official site](https://www.adcreative.ai) · [Pricing](https://www.adcreative.ai/pricing)
+Vendor: [Official site](https://www.adcreative.ai) · [Pricing](https://www.adcreative.ai/)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 

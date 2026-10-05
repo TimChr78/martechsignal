@@ -861,8 +861,9 @@
     {
      "slug": "chatfuel",
      "verdict": "Messaging-first brands scripting conversations like campaigns",
-     "assessment": "Chatfuel belongs here for brands automating social messaging channels. Plans start at $39/mo with AI PRO at $69/mo, and no free plan exists. Choose Chatfuel over Tidio or ManyChat when Instagram, WhatsApp and Messenger automation beats free entry.",
-     "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics."
+     "assessment": "Chatfuel belongs here for brands automating social messaging channels. Business starts at $18/mo billed yearly ($20/mo monthly), and no free plan exists. Choose Chatfuel over Tidio or ManyChat when Instagram, WhatsApp and Messenger automation beats free entry.",
+     "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.",
+     "date_updated": "2026-10-05"
     },
     {
      "slug": "manychat",

@@ -12,7 +12,7 @@ Conversational AI for marketing and support, from social DM automation to per-re
 ## All tools in this category
 
 - [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation (Open Source)
-- [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels (From $39/mo)
+- [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels (From $18/mo)
 - [Chatwoot](/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting (Open Source from $19/mo)
 - [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging (From $29/seat/mo)
 - [ManyChat](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger (Freemium from $14/mo)

@@ -10,7 +10,7 @@ Intercom fits support teams that want AI resolutions they can audit. Chatwoot gi
 | [Intercom](/tools/intercom/) | From $29/seat/mo | No | Support teams that want AI resolutions auditable at $0.99 each |
 | [Chatwoot](/tools/chatwoot/) | Open Source from $19/mo | Yes | Teams that want an open-source inbox with AI help included |
 | [Tidio](/tools/tidio/) | Freemium from $24/mo | No | Small shops adding live chat and an AI agent cheaply |
-| [Chatfuel](/tools/chatfuel/) | From $39/mo | No | Messaging-first brands scripting conversations like campaigns |
+| [Chatfuel](/tools/chatfuel/) | From $18/mo | No | Messaging-first brands scripting conversations like campaigns |
 | [ManyChat](/tools/manychat/) | Freemium from $14/mo | No | Creators monetizing DMs across Instagram and WhatsApp |
 | [ChatbotX](/tools/chatbotx/) | Open Source | Yes | Developers that want ManyChat's playbook as source code |
 
@@ -88,7 +88,7 @@ Vendor: [Official site](https://www.tidio.com) · [Pricing](https://www.tidio.co
 
 ## [Chatfuel](/tools/chatfuel/)
 
-Chatfuel belongs here for brands automating social messaging channels. Plans start at $39/mo with AI PRO at $69/mo, and no free plan exists. Choose Chatfuel over Tidio or ManyChat when Instagram, WhatsApp and Messenger automation beats free entry.
+Chatfuel belongs here for brands automating social messaging channels. Business starts at $18/mo billed yearly ($20/mo monthly), and no free plan exists. Choose Chatfuel over Tidio or ManyChat when Instagram, WhatsApp and Messenger automation beats free entry.
 
 **Verdict:** Messaging-first brands scripting conversations like campaigns
 

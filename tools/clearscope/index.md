@@ -4,8 +4,6 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Clearscope
-Re-check pending: pricing last verified 2026-08-28 (38 days ago).
-
 ## Clearscope review (2026): pricing, AI features, verdict
 
 AI-powered content optimization platform for SEO teams and content writers
@@ -18,7 +16,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Clearscope is a tool in SEO & Search with paid plans starting at $129/mo. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Clearscope is a tool in SEO & Search with paid plans starting at $129/mo. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Clearscope →](https://www.clearscope.io)
 
@@ -60,7 +58,7 @@ Clearscope homepage, captured September 2026. Vendor page shown as a dated refer
 - Semrush
 ## Pricing
 
-Clearscope is sold on paid plans, from $129/mo as of 2026-08.
+Clearscope is sold on paid plans, from $129/mo as of 2026-10.
 
 Essentials $129/mo; Business $399/mo; Enterprise custom; 20 AI drafts included
 
@@ -105,7 +103,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Clearscope: AI-powered content optimization platform for SEO teams and content writers. Clearscope ships with AI content grading. This page documents 5 integrations.
 
 **How much does Clearscope cost?**
-Clearscope starts at $129/mo. Essentials $129/mo; Business $399/mo; Enterprise custom; 20 AI drafts included. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Clearscope starts at $129/mo. Essentials $129/mo; Business $399/mo; Enterprise custom; 20 AI drafts included. We last checked that price on 2026-10-05. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Clearscope worth paying for in 2026?**
 The reference tool for SEO copy scoring. Best when paired with a writer who wants ranking signals, not generated prose.
@@ -131,7 +129,7 @@ The reference tool for SEO copy scoring. Best when paired with a writer who want
 - **Founded:** 2017
 - **HQ:** Austin, TX, USA
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-10-05
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 

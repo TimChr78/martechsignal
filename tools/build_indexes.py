@@ -24,12 +24,29 @@ def load():
     return cats, tools
 
 
+def _hub_desc(c, tools):
+    """Fill the {n} token the same way the category page does: live OSS
+    count for the cross-cutting open-source index, list length otherwise."""
+    raw = c.get("description") or ""
+    if "{n}" not in raw:
+        return raw
+    if c.get("slug") == "open-source" or c.get("cross_cutting"):
+        n = len([t for t in tools if t.get("open_source") and t.get("status") == "active"])
+    else:
+        n = len(c.get("tools") or [])
+    return raw.replace("{n}", str(n))
+
+
 def build_categories(cats, tools):
     total = len([t for t in tools if t.get("status", "active") == "active"])  # SX-4: acquired tools excluded from counts
     cards = []
     for c in sorted(cats, key=lambda x: x["name"]):
         n = len(c.get("tools") or [])
-        desc = esc(c.get("description") or "")
+        # r29 reverify (2026-10-06): the open-source description carries the
+        # {n} token (filled with the live OSS count on its own page) but this
+        # hub rendered it raw — the leak went live via deploy.sh's post-suite
+        # rebuild. Substitute here with the same count the category page uses.
+        desc = esc(_hub_desc(c, tools))
         cards.append(
             f'<a class="tool-card" href="/categories/{c["slug"]}/">'
             f'<div class="name">{esc(c["name"])}</div>'
@@ -44,7 +61,7 @@ def build_categories(cats, tools):
         links = ", ".join(
             '<a href="/tools/%s/">%s</a>' % (s, esc(by_slug.get(s, s)))
             for s in (c.get("tools") or [])[:3])
-        lead = esc(c.get("description") or "")
+        lead = esc(_hub_desc(c, tools))
         tail = (" Includes %s." % links) if links else ""
         depth.append(
             f'<section class="cat-depth"><h2><a href="/categories/{c["slug"]}/">{esc(c["name"])}</a></h2>'

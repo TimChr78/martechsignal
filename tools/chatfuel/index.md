@@ -4,13 +4,11 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Chatfuel
-Re-check pending: pricing last verified 2026-08-28 (38 days ago).
-
 ## Chatfuel review (2026): pricing, AI features, verdict
 
 AI chatbot platform for automating customer conversations on messaging channels
 
-Chatbots & Conversational AI · From $39/mo Desk-reviewed
+Chatbots & Conversational AI · From $18/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -18,7 +16,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Chatfuel is a tool in Chatbots & Conversational AI with paid plans starting at $39/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Chatfuel is a tool in Chatbots & Conversational AI with paid plans starting at $18/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Chatfuel →](https://chatfuel.com)
 
@@ -40,7 +38,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Chatfuel is an AI messaging automation platform built specifically for social media channels: Instagram, WhatsApp, Facebook Messenger, and TikTok. Where general-purpose chatbot builders treat social media as one of many channels, Chatfuel's entire architecture is built around the **conversational commerce flows native to social platforms**: DM-based lead capture, comment-to-DM automations, interactive product catalog conversations, and automated customer re-engagement through message sequences. Over 18,000 businesses use Chatfuel to automate their entire sales cycle from first message to returning customer without any coding. Key features include: **visual flow builder** (drag-and-drop conversation design with triggers, conditions, actions, and AI responses), **AI-powered natural language understanding** (trained on ecommerce and service conversations, with entity extraction for product names, dates, prices), **social-native integrations** (Instagram post comment to DM automation, WhatsApp catalog integration, Facebook Shop integration), **broadcast messaging** (one-to-many message pushes within platform rules), **A/B testing** for conversation flows, and **analytics dashboard** (message volume, conversion rates, drop-off points, and revenue attribution). Chatfuel uses a cascade of Llama 405B models via Nebius AI Studio for its AI responses, an architectural choice that swaps typical GPT-model dependency for open-weight LLMs. Chatfuel's pricing starts at $39/mo with an AI PRO tier at $69/mo and usage-based tiers above that; there is no free plan, though a free trial is available. It competes with ManyChat (more Instagram-focused, larger template library), Tidio (web-chat first, AI agent Lyro), and Intercom (enterprise, broader scope). Chatfuel is best suited for ecommerce brands, agencies, and SMBs whose customer interactions primarily happen in social media DMs rather than on a website, businesses selling through Instagram Shops, WhatsApp Business, or Facebook Marketplace where the chat is the storefront. It is not a website live chat tool or a full customer service platform; it's a social commerce automation engine.
+Chatfuel is an AI messaging automation platform built specifically for social media channels: Instagram, WhatsApp, Facebook Messenger, and TikTok. Where general-purpose chatbot builders treat social media as one of many channels, Chatfuel's entire architecture is built around the **conversational commerce flows native to social platforms**: DM-based lead capture, comment-to-DM automations, interactive product catalog conversations, and automated customer re-engagement through message sequences. Over 18,000 businesses use Chatfuel to automate their entire sales cycle from first message to returning customer without any coding. Key features include: **visual flow builder** (drag-and-drop conversation design with triggers, conditions, actions, and AI responses), **AI-powered natural language understanding** (trained on ecommerce and service conversations, with entity extraction for product names, dates, prices), **social-native integrations** (Instagram post comment to DM automation, WhatsApp catalog integration, Facebook Shop integration), **broadcast messaging** (one-to-many message pushes within platform rules), **A/B testing** for conversation flows, and **analytics dashboard** (message volume, conversion rates, drop-off points, and revenue attribution). Chatfuel uses a cascade of Llama 405B models via Nebius AI Studio for its AI responses, an architectural choice that swaps typical GPT-model dependency for open-weight LLMs. Chatfuel's Business plan is $18/mo billed yearly ($20/mo monthly) with Agency tiers from $90/mo billed yearly; every plan starts with a free trial and there is no free plan. It competes with ManyChat (more Instagram-focused, larger template library), Tidio (web-chat first, AI agent Lyro), and Intercom (enterprise, broader scope). Chatfuel is best suited for ecommerce brands, agencies, and SMBs whose customer interactions primarily happen in social media DMs rather than on a website, businesses selling through Instagram Shops, WhatsApp Business, or Facebook Marketplace where the chat is the storefront. It is not a website live chat tool or a full customer service platform; it's a social commerce automation engine.
 
 Chatfuel homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -61,9 +59,9 @@ Chatfuel homepage, captured September 2026. Vendor page shown as a dated referen
 - HubSpot
 ## Pricing
 
-Chatfuel is sold on paid plans, from $39/mo as of 2026-08.
+Chatfuel is sold on paid plans, from $18/mo as of 2026-10.
 
-Starts at $39/mo; AI PRO $69/mo; no free plan (free trial available); usage-based tiers
+Business $18/mo billed yearly ($20/mo monthly); Agency S from $90/mo billed yearly; free trial on every plan, no free plan (re-verified 2026-10-05)
 
 Current plans and limits live on the [Chatfuel pricing page](https://chatfuel.com/pricing).
 
@@ -104,7 +102,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Chatfuel: AI chatbot platform for automating customer conversations on messaging channels. Chatfuel ships with AI chatbot builder. This page documents 6 integrations.
 
 **How much does Chatfuel cost?**
-Chatfuel starts at $39/mo. Starts at $39/mo; AI PRO $69/mo; no free plan (free trial available); usage-based tiers. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Chatfuel starts at $18/mo. Business $18/mo billed yearly ($20/mo monthly); Agency S from $90/mo billed yearly; free trial on every plan, no free plan (re-verified 2026-10-05). We last checked that price on 2026-10-05. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Chatfuel worth paying for in 2026?**
 A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B teams need a more general builder.
@@ -125,12 +123,12 @@ A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B tea
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Messaging-first brands scripting conversations like campaigns
 ### Quick Facts
 
-- **Pricing:** From $39/mo
+- **Pricing:** From $18/mo
 - **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
 - **Founded:** 2015
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-10-05
 
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 

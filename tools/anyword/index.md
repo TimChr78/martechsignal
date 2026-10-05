@@ -4,8 +4,6 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Anyword
-Re-check pending: pricing last verified 2026-08-28 (38 days ago).
-
 ## Anyword review (2026): pricing, AI features, verdict
 
 AI copywriting platform with predictive performance scores for marketing content
@@ -18,7 +16,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Anyword is a tool in AI Content & Copywriting with paid plans starting at $39/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Anyword is a tool in AI Content & Copywriting with paid plans starting at $39/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Anyword →](https://www.anyword.com)
 
@@ -62,7 +60,7 @@ Anyword homepage, captured September 2026. Vendor page shown as a dated referenc
 - Meta Ads
 ## Pricing
 
-Anyword is sold on paid plans, from $39/mo as of 2026-08.
+Anyword is sold on paid plans, from $39/mo as of 2026-10.
 
 Starter $39/mo (annual) or $49/mo; Data-Driven $79/mo (annual) or $99/mo; 7-day free trial
 
@@ -105,7 +103,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Anyword: AI copywriting platform with predictive performance scores for marketing content. Anyword ships with predictive performance score. This page documents 7 integrations.
 
 **How much does Anyword cost?**
-Anyword starts at $39/mo. Starter $39/mo (annual) or $49/mo; Data-Driven $79/mo (annual) or $99/mo; 7-day free trial. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Anyword starts at $39/mo. Starter $39/mo (annual) or $49/mo; Data-Driven $79/mo (annual) or $99/mo; 7-day free trial. We last checked that price on 2026-10-05. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Anyword worth paying for in 2026?**
 Valuable when you need an instant, numbers-based copy check across many channels. Established writers can pass.
@@ -132,7 +130,7 @@ Valuable when you need an instant, numbers-based copy check across many channels
 - **Founded:** 2019
 - **HQ:** New York, NY, USA
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-10-05
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 

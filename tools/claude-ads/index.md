@@ -4,8 +4,6 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Claude Ads
-Re-check pending: pricing last verified 2026-08-28 (38 days ago).
-
 ## Claude Ads review (2026): pricing, AI features, verdict
 
 Paid-media operations skill for Claude Code covering 12 ad platforms
@@ -18,7 +16,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Claude Ads is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Claude Ads is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Claude Ads →](https://github.com/AgriciDaniel/claude-ads)
 
@@ -137,7 +135,7 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 - **Founded:** 2025
 - **API:** Yes
 - **Repository checked:** 2026-10-05
-- **Page updated:** 2026-08-28
+- **Page updated:** 2026-10-05
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
