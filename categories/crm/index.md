@@ -42,7 +42,7 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 - [WaCRM](/tools/wacrm/): Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations (Open Source)
 ## More CRM tools (1)
 
-- [Zoho CRM](/tools/zoho-crm/): Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it (Freemium from €14/mo)
+- [Zoho CRM](/tools/zoho-crm/): Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it (Freemium from €14/user/mo)
 **Compare:** [ActiveCampaign vs HubSpot CRM](/vs/activecampaign-vs-hubspot/) · [HubSpot CRM alternatives](/alternatives/hubspot-crm/) · [Best open-source CRM tools (2026)](/best/open-source-crm/) · [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 
 ## Key terms

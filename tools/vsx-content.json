@@ -1346,7 +1346,7 @@
    ],
    "neither": "Neither fits a team whose core need is ecommerce messaging driven by purchase data: that is Klaviyo territory. And below a few thousand contacts with simple newsletters, both are heavier than the job.",
    "pick_a_if": "Pick ActiveCampaign if you want deep multi-step automation in one SMB-priced platform, starting at $15/mo on Starter.",
-   "pick_b_if": "Pick HubSpot CRM if you want a free CRM to start with sales, service, and marketing on one record, with paid hubs from around $20/mo.",
+   "pick_b_if": "Pick HubSpot CRM if you want a free CRM to start with sales, service, and marketing on one record, with paid hubs from around $20/seat/mo.",
    "pilot_faq": [
     {
      "a": "ActiveCampaign for teams that want the deepest automation per dollar in one SMB platform. HubSpot for teams standardizing sales, service, and marketing on one contact record with room to grow into paid hubs.",

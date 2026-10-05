@@ -5,7 +5,7 @@
 - Open-Source Tools
 ## Open-Source Tools
 
-80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
+81 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
 
 81 TOOLS IN THIS CATEGORY
 
@@ -42,7 +42,7 @@
 - [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools (Open Source from $9/mo)
 - [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4 (Freemium)
 - [Growth Lab](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex (Open Source)
-- [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting (Freemium from $40/mo)
+- [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting (Freemium from $40/seat/mo)
 - [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React (Open Source from $5,000 one-time)
 - [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines (Freemium from $99/mo)
 - [Khoj](/tools/khoj/): Self-hosted AI research and writing assistant that chats with your documents and automates content workflows (Open Source)
@@ -100,7 +100,7 @@
 - [Workflow automation](/glossary/workflow-automation/)
 Full definitions in the [martech glossary](/glossary/).
 
-This index lists every open-source tool in the catalog: 80 projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.
+This index lists every open-source tool in the catalog: 81 projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.
 
 Open source does not mean zero cost. The real price is hosting, upgrades, and whoever answers the pager: projects with active commit histories and commercial sponsors behind them age better than one-maintainer efforts, however generous the license. The per-tool pages carry star counts, license fields, and self-host notes so you can judge maintenance health before you commit a server.
 

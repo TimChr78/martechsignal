@@ -8,7 +8,7 @@
 
 Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
 
-CRM · Freemium from €14/mo Desk-reviewed
+CRM · Freemium from €14/user/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -47,7 +47,7 @@ Zoho CRM covers pipeline automation, lead scoring and forecasting with its Zia a
 - Zapier
 ## Pricing
 
-Zoho CRM is freemium, with a free tier to start, paid plans start at €14/mo as of 2026-09.
+Zoho CRM is freemium, with a free tier to start, paid plans start at €14/user/mo as of 2026-09.
 
 Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT)
 
@@ -66,7 +66,7 @@ Buyers who want a scored assessment against our rubric: Zoho CRM is one of three
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AI capabilities: zia assistant for lead scoring, deal prediction and email sentiment | ✗ Paid plans start at €14/mo once past the free tier |
+| ✓ AI capabilities: zia assistant for lead scoring, deal prediction and email sentiment | ✗ Paid plans start at €14/user/mo once past the free tier |
 | ✓ Native integrations include Zoho Mail, Zoho Books, Zoho Desk (6 listed) | ✗ Closed source - no self-hosting option |
 | ✓ Free tier to evaluate before committing (Free for 3 users; Standard EUR 14/user/mo) |  |
 
@@ -88,7 +88,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Zoho CRM: Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations.
 
 **How much does Zoho CRM cost?**
-Zoho CRM has a free tier; paid plans start at €14/mo. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked both ends of that split on 2026-09-28. The pricing section above shows what the free tier actually covers.
+Zoho CRM has a free tier; paid plans start at €14/user/mo. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked both ends of that split on 2026-09-28. The pricing section above shows what the free tier actually covers.
 
 **Is Zoho CRM worth it past the free tier?**
 Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline automation, lead scoring basics, and email included. EU buyers who prefer euro-denominated per-seat pricing scale from Standard at EUR 14 to Professional at EUR 23 (automation and AI) and Enterprise at EUR 40.
@@ -110,7 +110,7 @@ Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best value for small teams that want a full suite without an enterprise bill.
 ### Quick Facts
 
-- **Pricing:** Freemium from €14/mo
+- **Pricing:** Freemium from €14/user/mo
 - **Category:** [CRM](/categories/crm/)
 - **Free Tier Seats:** 3
 - **Paid Tiers:** 3 (Standard / Professional / Enterprise)

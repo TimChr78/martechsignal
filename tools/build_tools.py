@@ -1219,12 +1219,15 @@ def _offer_for(t):
     must fall back to non-product schema."""
     # r27 H-1 (2026-10-05): schema.org Offer has no per-user semantics — a
     # price:25 node reads as "$25 for the product". Per-user enterprise
-    # records (the two Salesforce rows) emit no Offer, the marketo pattern;
-    # per-org entry figures (drift $2,500) keep theirs.
+    # records (the two Salesforce rows) emit no paid Offer, the marketo
+    # pattern; per-org entry figures (drift $2,500) keep theirs.
     # r28 H-2 (2026-10-06): same for per-seat records — Offer cannot carry
-    # the /seat unit either. All price_unit records suppress; org keeps.
-    if str(t.get("price_unit") or "").lower() in ("user", "seat"):
-        return None
+    # the /seat unit either. All price_unit records suppress paid nodes.
+    # r29 N-14 (2026-10-06): suppression is per-Offer, not per-page —
+    # Offer(price:0) needs no unit and was never in the defect class. The
+    # six free-tier records keep their $0 node; matomo's intact pair proves
+    # the pattern. Paid-model unit records (no free tier) emit nothing.
+    _pu = str(t.get("price_unit") or "").lower()
     _paid = t.get("paid_from")
     _pf = t.get("price_from")
     _cur = (t.get("currency") or "USD").strip().upper()
@@ -1259,9 +1262,16 @@ def _offer_for(t):
         if _pf == 0 and (t.get("open_source") or str(t.get("pricing_model") or "").lower() in ("freemium", "free", "open-core")):
             if _paid == 0:
                 return _offer(0)
+            # r29 N-14: unit-priced paid tier suppresses to the $0 node alone.
+            if _pu in ("user", "seat"):
+                return _offer(0)
             return [_offer(0), _offer(_paid)]
+        if _pu in ("user", "seat"):
+            return None
         return _offer(_paid)
     if _pf is not None and _pf > 0:
+        if _pu in ("user", "seat"):
+            return None
         return _offer(_pf)
     # A2 M5: price: 0 only where "Free" is literally true: a genuinely free
     # product, or the open-source edition of one (the paid_from branch above

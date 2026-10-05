@@ -13,7 +13,7 @@ Dynamic Yield fits large commerce operations buying personalization depth. Segme
 | [Clerk.io](/tools/clerk-io/) | From $119/mo | No | Mid-size stores that want search and recs without enterprise procurement |
 | [Tealium](/tools/tealium/) | Enterprise | No | Regulated enterprises that need governance around every customer event |
 | [Flagsmith](/tools/flagsmith/) | Freemium from $50/mo | Yes (BSD-3-Clause) | Teams that want their experiment engine as open as their stack |
-| [GrowthBook](/tools/growthbook/) | Freemium from $40/mo | Yes (MIT) | Best for product teams that want feature flags and A/B testing they can self-host, with a free Starter plan for 3 users. |
+| [GrowthBook](/tools/growthbook/) | Freemium from $40/seat/mo | Yes (MIT) | Best for product teams that want feature flags and A/B testing they can self-host, with a free Starter plan for 3 users. |
 | [Jitsu](/tools/jitsu/) | Freemium from $99/mo | Yes (MIT) | Best for data teams that want open-source event collection in their own warehouse, free to self-host. |
 
 **Our top pick: [Dynamic Yield](#dynamic-yield)** — Large commerce operations buying personalization depth over self-serve [Try Dynamic Yield](https://www.dynamicyield.com)

@@ -118,7 +118,7 @@ All 166 tools, grouped by category. Each card links to a full teardown with pric
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (Open Source from $9/user/mo)
 - [WaCRM](/tools/wacrm/): Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations (Open Source)
 - [Warpdrive](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box (Open Source)
-- [Zoho CRM](/tools/zoho-crm/): Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it (Freemium from €14/mo)
+- [Zoho CRM](/tools/zoho-crm/): Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it (Freemium from €14/user/mo)
 ## Chatbots & Conversational AI *6*
 
 - [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation (Open Source)
@@ -181,7 +181,7 @@ All 166 tools, grouped by category. Each card links to a full teardown with pric
 - [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email (From $119/mo)
 - [Dynamic Yield](/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences (Enterprise)
 - [Flagsmith](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting (Freemium from $50/mo)
-- [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting (Freemium from $40/mo)
+- [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting (Freemium from $40/seat/mo)
 - [Hightouch](/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs (Freemium)
 - [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines (Freemium from $99/mo)
 - [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising (Enterprise)

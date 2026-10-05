@@ -2038,7 +2038,7 @@
   "slug": "open-source",
   "name": "Open-Source Tools",
   "cross_cutting": true,
-  "description": "80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.",
+  "description": "{n} open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.",
   "meta": "The self-hostable shelf: open-source MarTech across every category, licence claims checkable against the vendor's own repository. {n} tools reviewed.",
   "tools": [
    "aaron-marketing-skills",
@@ -2123,6 +2123,6 @@
    "warpdrive",
    "zapier-gtm-cheat-codes"
   ],
-  "intro": "This index lists every open-source tool in the catalog: 80 projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.\n\nOpen source does not mean zero cost. The real price is hosting, upgrades, and whoever answers the pager: projects with active commit histories and commercial sponsors behind them age better than one-maintainer efforts, however generous the license. The per-tool pages carry star counts, license fields, and self-host notes so you can judge maintenance health before you commit a server.\n\nLicense mix matters if you sell the output: MIT and Apache-2.0 projects (45 of the 80 here) impose almost no conditions on commercial use, while the AGPL-3.0 projects (16) require you to release source changes if you run a modified version as a service. Each tool page names its license explicitly so there are no surprises at procurement time."
+  "intro": "This index lists every open-source tool in the catalog: {n} projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.\n\nOpen source does not mean zero cost. The real price is hosting, upgrades, and whoever answers the pager: projects with active commit histories and commercial sponsors behind them age better than one-maintainer efforts, however generous the license. The per-tool pages carry star counts, license fields, and self-host notes so you can judge maintenance health before you commit a server.\n\nLicense mix matters if you sell the output: MIT and Apache-2.0 projects (45 of the 80 here) impose almost no conditions on commercial use, while the AGPL-3.0 projects (16) require you to release source changes if you run a modified version as a service. Each tool page names its license explicitly so there are no surprises at procurement time."
  }
 ]

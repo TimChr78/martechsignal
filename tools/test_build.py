@@ -1465,7 +1465,10 @@ def test_free_entry_pages_carry_both_offer_tiers():
     for f in (ROOT / "tools").glob("*/index.html"):
         h = f.read_text()
         m = _re.search(r'"offers": \{"@type": "Offer", "price": ([\d.]+)', h)
-        if m and idx.get(f.parent.name, {}).get("price_from") == 0:
+        # r29 N-14 (2026-10-06): unit-priced records restore the honest $0
+        # node alone — a single ZERO offer is the fix, not the defect. Only
+        # single paid-tier (>0) offers fail.
+        if m and float(m.group(1)) > 0 and idx.get(f.parent.name, {}).get("price_from") == 0:
             bad.append(f.parent.name)
     assert not bad, f"single paid-tier Offer on free-entry pages: {bad[:6]}"
 
@@ -2098,17 +2101,34 @@ def test_content_updated_restamps_date_modified():
     assert not _bad, f"stale dateModified on revised leaves: {_bad[:8]}"
 
 
-def _notes_unit(notes):
+def _notes_unit(notes, entry=None):
     """r28 H-2 (2026-10-06): does price_notes attach /user|/seat (or per-user
     / per-seat prose) to the record's ENTRY figure? Keys the entry figure
     specifically (§9 trap c) — any-figure matching over-counts honestly-flat
-    records that mention seats elsewhere. Returns 'user'|'seat'|''."""
+    records that mention seats elsewhere. Returns 'user'|'seat'|''.
+    r29 H-3 (2026-10-06): class-scoped, not token-scoped — zoho-crm writes
+    'EUR 14/user/mo' (currency word, no symbol) and growthbook 'USD
+    40/seat/month' (word + /month). Currency words, spaced symbols, and
+    /month suffixes all match; /month alone is billing period, never unit."""
     import re as _re
-    _m = _re.search(r"[\$€]\s?([\d,]+(?:\.\d+)?)", notes or "")
-    if not _m:
-        return ""
-    _fig = _m.group(0)
-    _around = notes[max(0, _m.start() - 4):_m.end() + 24]
+    _CUR = r"(?:[\$€£]\s?|EUR\s?|USD\s?|GBP\s?)"
+    _pat = _CUR + r"([\d,]+(?:\.\d+)?)"
+    if entry:
+        _want = str(entry).replace(",", "").rstrip("0").rstrip(".")
+        _hit = None
+        for _m in _re.finditer(_pat, notes or "", _re.I):
+            _got = _m.group(1).replace(",", "").rstrip("0").rstrip(".")
+            if _got == _want:
+                _hit = _m
+                break
+        if not _hit:
+            return ""
+        _around = notes[max(0, _hit.start() - 4):_hit.end() + 24].lower()
+    else:
+        _m = _re.search(_pat, notes or "", _re.I)
+        if not _m:
+            return ""
+        _around = notes[max(0, _m.start() - 4):_m.end() + 24].lower()
     if "/user" in _around or "per user" in _around or "per-user" in _around:
         return "user"
     if "/seat" in _around or "per seat" in _around or "per-seat" in _around:
@@ -2120,8 +2140,9 @@ def test_per_user_enterprise_figures_qualified_everywhere():
     """r27 H-1 (2026-10-05): the $25/mo per-user leak survived its meta-only
     fix on five more surfaces. Root fix: price_unit:'user' on the record,
     _money + hero qualify centrally, Offer suppressed (schema has no unit
-    semantics). Bare $25 without /user or per-user in-sentence: 0. Offers
-    on price_unit=user records: 0."""
+    semantics). Bare $25 without /user or per-user in-sentence: 0. Paid
+    Offers on price_unit=user records: 0 (r29 N-14: the honest $0 node is
+    restored — only price>0 fails)."""
     import json as _j, re as _re
     _tools = {_t["slug"]: _t for _t in _j.loads((ROOT / "tools" / "tools.json").read_text())}
     _flagged = [s for s, _t in _tools.items() if str(_t.get("price_unit") or "").lower() == "user"]
@@ -2132,10 +2153,19 @@ def test_per_user_enterprise_figures_qualified_everywhere():
     # r28 H-2 (2026-10-06): generalized to every model — the same leak lived
     # on 12 freemium/paid/open records. Any record whose entry figure is
     # unit-priced declares price_unit (user|seat|org).
-    _nounit = [s for s, _t in _tools.items()
-               if ((_t.get("price_from") or 0) > 0 or (_t.get("paid_from") or 0) > 0)
-               and _notes_unit(_t.get("price_notes") or "")
-               and not str(_t.get("price_unit") or "")]
+    # r29 H-3 (2026-10-06): entry-bound (paid_from, else price_from) and
+    # class-scoped — zoho-crm/growthbook write currency words, not symbols.
+    _swept = 0
+    _nounit = []
+    for _s, _t in _tools.items():
+        _entry = _t.get("paid_from") or _t.get("price_from") or 0
+        if not _entry:
+            continue
+        _swept += 1
+        if _notes_unit(_t.get("price_notes") or "", _entry) and not str(_t.get("price_unit") or ""):
+            _nounit.append(_s)
+    import json as _jj
+    (ROOT / "tools" / ".unit-guard.json").write_text(_jj.dumps({"swept": _swept, "unit_priced": len([_s for _s, _t in _tools.items() if str(_t.get("price_unit") or "")]), "missing": _nounit}))
     assert not _nounit, f"unit-priced entry without price_unit: {_nounit}"
     _names = [_tools[_s]["name"] for _s in _flagged]
     _bad = []
@@ -2169,9 +2199,43 @@ def test_per_user_enterprise_figures_qualified_everywhere():
             if "/user" not in _sent and "per user" not in _sent:
                 _bad.append(f"{_html.parent.name}: {_sent[:100]}")
         if _html.parent.parent.name == "tools" and _html.parent.name in _flagged:
-            if '"@type": "Offer"' in _h or '"@type":"Offer"' in _h:
-                _bad.append(f"{_html.parent.name}: Offer on per-user record")
+            # r29 N-14 (2026-10-06): the honest $0 node is restored on
+            # free-tier unit records — only PAID (>0) Offer prices fail.
+            for _om in _re.finditer(r'"@type":\s*"Offer"[^}]*?"price":\s*([\d.]+)', _h):
+                if float(_om.group(1)) > 0:
+                    _bad.append(f"{_html.parent.name}: paid Offer on per-user record")
+                    break
     assert not _bad, f"unqualified per-user figures: {_bad[:8]}"
+
+
+def test_corrections_counts_match_build_tallies():
+    """r29 N-13 (2026-10-06): the per-user corrections entry miscounted its
+    own wave three rounds running (3 → 7 → 9 → 8). Quantitative clauses are
+    recomputed from build tallies here: qualified money-leaf metas and
+    hub-list items must equal the entry's published digits."""
+    import json as _j, re as _re
+    _mm = 0
+    for _f in ("tools/bestx-content.json", "tools/vsx-content.json", "tools/alternatives-content.json"):
+        _d = _j.loads((ROOT / _f).read_text())
+        for _p in _d["pages"]:
+            _clauses = _re.split(r"[.;]", _p.get("meta", ""))
+            if any(_re.search(r"[\$€]\d[\d,.]*\s*/(user|seat)", _c) for _c in _clauses):
+                _mm += 1
+    _hc = 0
+    for _fam in ("best", "vs", "alternatives"):
+        _h = (ROOT / _fam / "index.html").read_text(errors="ignore")
+        for _li in _re.finditer(r"<li>.*?</li>", _h, _re.S):
+            if _re.search(r"[\$€]\d[\d,.]*\s*/(user|seat)", _li.group(0)):
+                _hc += 1
+    _entry = (ROOT / "corrections" / "index.md").read_text(errors="ignore")
+    _words = {"eight": 8, "nine": 9, "seven": 7, "ten": 10, "six": 6}
+    _m1 = _re.search(r"(eight|nine|seven|ten|six|\d+) money-leaf metas", _entry)
+    _m2 = _re.search(r"(eight|nine|seven|ten|six|\d+) comparison-hub cards", _entry)
+    assert _m1 and _m2, "corrections entry missing machine-checkable count clauses"
+    _c1 = _words.get(_m1.group(1), int(_m1.group(1)) if _m1.group(1).isdigit() else -1)
+    _c2 = _words.get(_m2.group(1), int(_m2.group(1)) if _m2.group(1).isdigit() else -1)
+    assert _c1 == _mm, f"entry claims {_c1} qualified metas, build has {_mm}"
+    assert _c2 == _hc, f"entry claims {_c2} hub cards, build has {_hc}"
 
 
 def test_trending_counts_reconcile_with_catalog():
