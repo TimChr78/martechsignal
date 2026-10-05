@@ -13,7 +13,7 @@ All 13 categories plus a cross-cutting open-source index across the 166-tool dir
 - [Email Marketing](/categories/email-marketing/): Email sending, newsletters, and transactional delivery
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/): Track and improve how AI assistants mention, cite, and describe your brand
 - [Marketing Automation](/categories/marketing-automation/): End-to-end campaign orchestration and workflow automation
-- [Open-Source Tools](/categories/open-source/): 80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
+- [Open-Source Tools](/categories/open-source/): {n} open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
 - [Personalization & CDP](/categories/personalization/): Ecommerce personalization, customer data platforms, and experimentation
 - [SEO & Search](/categories/seo/): Search optimization, keyword research, and content strategy
 - [Social Media](/categories/social-media/): Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites
@@ -56,7 +56,7 @@ End-to-end campaign orchestration and workflow automation. Includes [ActiveCampa
 
 ## [Open-Source Tools](/categories/open-source/)
 
-80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [Activepieces](/tools/activepieces/), [advertools](/tools/advertools/).
+{n} open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [Activepieces](/tools/activepieces/), [advertools](/tools/advertools/).
 
 ## [Personalization & CDP](/categories/personalization/)
 
