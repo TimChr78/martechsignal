@@ -43,8 +43,8 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [ChatbotX](https://
 
 [Chatbots & Conversational AI](/categories/chatbots/) [Best Chatbots & Conversational AI tools](/best/ai-chatbot-tools/)
 
-- [Chatbots & Conversational AI](/categories/chatbots/)
-- [Best Chatbots & Conversational AI tools](/best/ai-chatbot-tools/)
+- [Chatbots & Conversational AI…](/categories/chatbots/)
+- [Best Chatbots & Conversational AI…](/best/ai-chatbot-tools/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [Browse all tools →](/tools/)

@@ -51,8 +51,8 @@ Sources: [RFC 5321 (SMTP)](https://datatracker.ietf.org/doc/rfc5321/) · [Active
 
 [Email Marketing](/categories/email-marketing/) [Best Email Marketing tools](/best/ai-email-marketing-tools/)
 
-- [Email Marketing](/categories/email-marketing/)
-- [Best Email Marketing tools](/best/ai-email-marketing-tools/)
+- [Email Marketing…](/categories/email-marketing/)
+- [Best Email Marketing tools…](/best/ai-email-marketing-tools/)
 ## See also
 
 - [Email sequence](/glossary/email-sequence/)

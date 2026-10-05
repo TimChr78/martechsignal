@@ -47,8 +47,8 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Customer.io](https
 
 [Email Marketing](/categories/email-marketing/) [Best Email Marketing tools](/best/ai-email-marketing-tools/)
 
-- [Email Marketing](/categories/email-marketing/)
-- [Best Email Marketing tools](/best/ai-email-marketing-tools/)
+- [Email Marketing…](/categories/email-marketing/)
+- [Best Email Marketing tools…](/best/ai-email-marketing-tools/)
 ## See also
 
 - [Deliverability](/glossary/deliverability/)

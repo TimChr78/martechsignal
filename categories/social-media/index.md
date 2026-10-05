@@ -11,12 +11,12 @@ Social scheduling, listening, and analytics, from per-channel schedulers to ente
 
 ## All tools in this category
 
-- [Brandwatch AI-powered consumer intelligence and social media](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform (Enterprise)
-- [Buffer Simple social media scheduling and analytics with AI-](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools (Freemium from $5/mo)
-- [Hootsuite Social media management platform with AI-powered s](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics (From $99/mo)
-- [MultiPost Browser extension to publish content to multiple s](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click (Open Source)
-- [Predis.ai AI-powered social media content generator for post](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives (Freemium from $19/mo)
-- [Sprout Social Enterprise social media management with AI-pow](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools (From $249/mo)
+- [Brandwatch](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform (Enterprise)
+- [Buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools (Freemium from $5/mo)
+- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics (From $99/mo)
+- [MultiPost](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click (Open Source)
+- [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives (Freemium from $19/mo)
+- [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools (From $249/mo)
 **Compare:** [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/)
 
 ## Key terms

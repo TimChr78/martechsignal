@@ -49,9 +49,9 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
 
 [Advertising & Paid Media](/categories/advertising/) [Best Advertising & Paid Media tools](/best/ai-advertising-tools/) [Agentic advertising](/guides/agentic-ai-advertising/)
 
-- [Advertising & Paid Media](/categories/advertising/)
-- [Best Advertising & Paid Media tools](/best/ai-advertising-tools/)
-- [Agentic advertising](/guides/agentic-ai-advertising/)
+- [Advertising & Paid Media…](/categories/advertising/)
+- [Best Advertising & Paid Media tools…](/best/ai-advertising-tools/)
+- [Agentic advertising…](/guides/agentic-ai-advertising/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [Browse all tools →](/tools/)

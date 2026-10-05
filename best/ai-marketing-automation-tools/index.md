@@ -34,8 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Marketing Automation](/categories/marketing-automation/)
-- [Open-Source Tools](/categories/open-source/)
+- [Marketing Automation…](/categories/marketing-automation/)
+- [Open-Source Tools…](/categories/open-source/)
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Key terms

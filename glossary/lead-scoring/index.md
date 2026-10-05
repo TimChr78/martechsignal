@@ -55,11 +55,11 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
 
 [CRM](/categories/crm/) [Best CRM tools](/best/ai-crm-tools/) [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/)
 
-- [CRM](/categories/crm/)
-- [Best CRM tools](/best/ai-crm-tools/)
-- [Marketing Automation](/categories/marketing-automation/)
-- [Best Marketing Automation tools](/best/ai-marketing-automation-tools/)
-- [Automation strategy](/guides/workflow-automation-strategy/)
+- [CRM…](/categories/crm/)
+- [Best CRM tools…](/best/ai-crm-tools/)
+- [Marketing Automation…](/categories/marketing-automation/)
+- [Best Marketing Automation tools…](/best/ai-marketing-automation-tools/)
+- [Automation strategy…](/guides/workflow-automation-strategy/)
 ## See also
 
 - [MQL / SQL](/glossary/mql-sql/)

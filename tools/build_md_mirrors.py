@@ -102,9 +102,18 @@ def html_to_md(html: str) -> str:
             out += [""]
             _covered_until = _end
         elif _kind == "card":
-            _cn = re.search(r'<(?:div|span) class="name"[^>]*>(.*?)</(?:div|span)>', _m.group(2), flags=re.S)
-            _ct = re.search(r'<(?:div|span) class="(?:tagline|take)"[^>]*>(.*?)</(?:div|span)>', _m.group(2), flags=re.S)
-            _clabel = inline(_cn.group(1)) if _cn else inline(_m.group(2))[:60]
+            # r27 N-2 (2026-10-05): category cards carry <h3 class="name">,
+            # not div/span — the old pattern missed and the 60-char fallback
+            # pasted name+description into link text. Match any tag.
+            _cn = re.search(r'<[a-z0-9]+ class="name"[^>]*>(.*?)</[a-z0-9]+>', _m.group(2), flags=re.S)
+            _ct = re.search(r'<[a-z0-9]+ class="(?:tagline|take)"[^>]*>(.*?)</[a-z0-9]+>', _m.group(2), flags=re.S)
+            _clabel = inline(_cn.group(1)) if _cn else ""
+            if not _clabel:
+                # r27 N-2 (2026-10-05): the 60-char fallback cut link text
+                # mid-word ("ad crea"). Break at a word boundary with ellipsis.
+                _raw60 = inline(_m.group(2))[:60]
+                _sp = _raw60.rfind(" ")
+                _clabel = (_raw60[:_sp] + "…") if _sp > 30 else (_raw60 + "…")
             if not _clabel:
                 _clabel = _m.group(1).strip("/").split("/")[-1]
             _cline = f"- [{_clabel}]({_m.group(1)})"

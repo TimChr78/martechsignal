@@ -34,10 +34,10 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Agent Skills](/categories/agent-skills/)
-- [GEO & LLM Optimization](/categories/geo-llm-visibility/)
-- [Open-Source Tools](/categories/open-source/)
-- [SEO & Search](/categories/seo/)
+- [Agent Skills…](/categories/agent-skills/)
+- [GEO & LLM Optimization…](/categories/geo-llm-visibility/)
+- [Open-Source Tools…](/categories/open-source/)
+- [SEO & Search…](/categories/seo/)
 **Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) · [GEO, defined](/glossary/geo/)
 
 ## Key terms
@@ -56,7 +56,6 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 
 - Promptfoo - 25,710 stars, +250 in the 10-snapshot window to 2026-10-05 25,460→25,710 [verify on GitHub](https://github.com/promptfoo/promptfoo)
 - Claude SEO - 18,284 stars, +3,188 in the 42-snapshot window to 2026-10-05 15,096→18,284 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
-- Codex SEO - 777 stars, +157 in the 42-snapshot window to 2026-10-05 620→777 [verify on GitHub](https://github.com/AgriciDaniel/codex-seo)
 [All movers on the trending page](/trending/).
 
 ## [Semrush](/tools/semrush/)

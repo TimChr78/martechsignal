@@ -124,9 +124,9 @@ Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
-- [Marketing Automation](/categories/marketing-automation/)
-- [Open-Source Tools](/categories/open-source/)
-- [Workflow Automation](/categories/workflow-automation/)
+- [Marketing Automation…](/categories/marketing-automation/)
+- [Open-Source Tools…](/categories/open-source/)
+- [Workflow Automation…](/categories/workflow-automation/)
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Open-source momentum, with receipts

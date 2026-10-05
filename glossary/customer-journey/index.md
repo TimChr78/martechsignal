@@ -47,10 +47,10 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
 
 [Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [CRM](/categories/crm/) [Best CRM tools](/best/ai-crm-tools/)
 
-- [Analytics & Attribution](/categories/analytics/)
-- [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
-- [CRM](/categories/crm/)
-- [Best CRM tools](/best/ai-crm-tools/)
+- [Analytics & Attribution…](/categories/analytics/)
+- [Best Analytics & Attribution tools…](/best/marketing-analytics-tools/)
+- [CRM…](/categories/crm/)
+- [Best CRM tools…](/best/ai-crm-tools/)
 ## See also
 
 - [CDP](/glossary/cdp/)

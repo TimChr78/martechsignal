@@ -32,7 +32,7 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [CRM](/categories/crm/)
+- [CRM…](/categories/crm/)
 ## Key terms
 
 - [CRM](/glossary/crm/)

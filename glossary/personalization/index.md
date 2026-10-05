@@ -47,8 +47,8 @@ Sources: [Clerk.io](https://www.clerk.io) · [Bloomreach](https://www.bloomreach
 
 [Personalization & CDP](/categories/personalization/) [Best Personalization & CDP tools](/best/ai-personalization-tools/)
 
-- [Personalization & CDP](/categories/personalization/)
-- [Best Personalization & CDP tools](/best/ai-personalization-tools/)
+- [Personalization & CDP…](/categories/personalization/)
+- [Best Personalization & CDP tools…](/best/ai-personalization-tools/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [Browse all tools →](/tools/)

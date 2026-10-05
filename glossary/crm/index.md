@@ -53,8 +53,8 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
 
 [CRM](/categories/crm/) [Best CRM tools](/best/ai-crm-tools/)
 
-- [CRM](/categories/crm/)
-- [Best CRM tools](/best/ai-crm-tools/)
+- [CRM…](/categories/crm/)
+- [Best CRM tools…](/best/ai-crm-tools/)
 ## See also
 
 - [CDP](/glossary/cdp/)

@@ -2079,7 +2079,7 @@
    "displayName": "Advertising & Paid Media",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/advertising/",
-   "description": "Ad creation, bidding, and campaign management",
+   "description": "Advertising and paid media tools: creative generators, bid platforms, automation, and open-source ad serving. 9 reviewed.",
    "representativeQueries": [
     "best advertising & paid media tools",
     "advertising & paid media comparison",
@@ -2091,7 +2091,7 @@
    "displayName": "Agent Skills",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/agent-skills/",
-   "description": "Skills, plugins, and extensions for AI coding agents - what they automate in your marketing workflow",
+   "description": "Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 18 reviewed.",
    "representativeQueries": [
     "best agent skills tools",
     "agent skills comparison",
@@ -2103,7 +2103,7 @@
    "displayName": "Analytics & Attribution",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/analytics/",
-   "description": "Marketing analytics, attribution, and reporting",
+   "description": "Analytics and attribution tools: event tracking, funnels, and what multi-touch claims can and cannot prove. 11 reviewed.",
    "representativeQueries": [
     "best analytics & attribution tools",
     "analytics & attribution comparison",
@@ -2115,7 +2115,7 @@
    "displayName": "Chatbots & Conversational AI",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/chatbots/",
-   "description": "Conversational AI for marketing and support, from social DM automation to per-resolution AI agents",
+   "description": "6 chatbot and conversational-AI platforms compared on channels, handover-to-human flows, AI features and self-hosting options.",
    "representativeQueries": [
     "best chatbots & conversational ai tools",
     "chatbots & conversational ai comparison",
@@ -2127,7 +2127,7 @@
    "displayName": "AI Content & Copywriting",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/content-ai/",
-   "description": "AI writing, copy, and publishing tools for marketing teams",
+   "description": "AI copywriting, publishing, and writing tools: drafts, governance, and self-hosted helpers. 13 tools reviewed.",
    "representativeQueries": [
     "best ai content & copywriting tools",
     "ai content & copywriting comparison",
@@ -2139,7 +2139,7 @@
    "displayName": "CRM",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/crm/",
-   "description": "Customer relationship management and sales pipelines",
+   "description": "CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. 24 tools reviewed.",
    "representativeQueries": [
     "best crm tools",
     "crm comparison",
@@ -2151,7 +2151,7 @@
    "displayName": "Email Marketing",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/email-marketing/",
-   "description": "Email sending, newsletters, and transactional delivery",
+   "description": "Email marketing across hosted, self-hosted, and transactional: contact vs volume pricing and inbox placement. 16 tools reviewed.",
    "representativeQueries": [
     "best email marketing tools",
     "email marketing comparison",
@@ -2163,7 +2163,7 @@
    "displayName": "GEO & LLM Optimization",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/geo-llm-visibility/",
-   "description": "Track and improve how AI assistants mention, cite, and describe your brand",
+   "description": "AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overviews. 14 reviewed with dated facts.",
    "representativeQueries": [
     "best geo & llm optimization tools",
     "geo & llm optimization comparison",
@@ -2175,7 +2175,7 @@
    "displayName": "Marketing Automation",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/marketing-automation/",
-   "description": "End-to-end campaign orchestration and workflow automation",
+   "description": "Marketing automation platforms reviewed: workflow depth, guardrails, and AI autonomy. 12 tools with dated pricing and verification dates.",
    "representativeQueries": [
     "best marketing automation tools",
     "marketing automation comparison",
@@ -2187,7 +2187,7 @@
    "displayName": "Open-Source Tools",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/open-source/",
-   "description": "80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.",
+   "description": "81 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.",
    "representativeQueries": [
     "best open-source tools tools",
     "open-source tools comparison",
@@ -2199,7 +2199,7 @@
    "displayName": "Personalization & CDP",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/personalization/",
-   "description": "Ecommerce personalization, customer data platforms, and experimentation",
+   "description": "Ecommerce personalization, customer data platforms, and flags and testing. 11 tools reviewed.",
    "representativeQueries": [
     "best personalization & cdp tools",
     "personalization & cdp comparison",
@@ -2211,7 +2211,7 @@
    "displayName": "SEO & Search",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/seo/",
-   "description": "Search optimization, keyword research, and content strategy",
+   "description": "SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 9 tools with verified pricing.",
    "representativeQueries": [
     "best seo & search tools",
     "seo & search comparison",
@@ -2223,7 +2223,7 @@
    "displayName": "Social Media",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/social-media/",
-   "description": "Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites",
+   "description": "6 social media management tools for scheduling, listening and reporting - what each one actually automates and what it costs.",
    "representativeQueries": [
     "best social media tools",
     "social media comparison",
@@ -2235,7 +2235,7 @@
    "displayName": "Workflow Automation",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/workflow-automation/",
-   "description": "No-code/low-code automation platforms and iPaaS",
+   "description": "Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents, and enterprise governance. 17 reviewed.",
    "representativeQueries": [
     "best workflow automation tools",
     "workflow automation comparison",
@@ -3200,7 +3200,7 @@
    "displayName": "Best AI CRM tools (2026): 6 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/ai-crm-tools/",
-   "description": "Attio from $29/mo, HubSpot CRM from $20/mo. 6 crm tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "Attio from $29/seat/mo, HubSpot CRM from $20/mo. 6 CRM tools compared on pricing, AI features, and integrations, each with a verdict.",
    "representativeQueries": [
     "best ai crm tools (2026): 6 compared",
     "ai crm tools pricing comparison"
@@ -3299,7 +3299,7 @@
    "displayName": "Best open-source CRM tools (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/best/open-source-crm/",
-   "description": "EspoCRM from €12.90/mo, Twenty from $9/mo. Six open-source CRMs compared on licensing, pricing, AI features, and real maintenance costs.",
+   "description": "EspoCRM from €12.90/mo, Twenty from $9/user/mo. Six open-source CRMs compared on licensing, pricing, AI features, and real maintenance costs.",
    "representativeQueries": [
     "best open-source crm tools (2026)",
     "open source crm pricing comparison"
@@ -3475,7 +3475,7 @@
    "displayName": "Best HubSpot CRM alternatives (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/hubspot-crm/",
-   "description": "Twenty from $9/mo, EspoCRM from €12.90/mo. Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive.",
+   "description": "Twenty from $9/user/mo, EspoCRM from €12.90/mo. Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive.",
    "representativeQueries": [
     "best hubspot crm alternatives (2026)",
     "hubspot crm alternatives"
@@ -3740,7 +3740,7 @@
    "displayName": "Open-Source MarTech Momentum: GitHub Stars",
    "type": "text/html",
    "url": "https://martechsignal.com/trending/",
-   "description": "Daily GitHub star snapshots for 82 open-source martech tools: weekly movers, sparklines, and category leaderboards.",
+   "description": "Daily GitHub star snapshots for 81 open-source martech tools: weekly movers, sparklines, and category leaderboards.",
    "representativeQueries": [
     "trending martech tools",
     "what tools trend on github"

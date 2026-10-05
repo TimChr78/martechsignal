@@ -2095,6 +2095,163 @@ def test_content_updated_restamps_date_modified():
     assert not _bad, f"stale dateModified on revised leaves: {_bad[:8]}"
 
 
+def test_per_user_enterprise_figures_qualified_everywhere():
+    """r27 H-1 (2026-10-05): the $25/mo per-user leak survived its meta-only
+    fix on five more surfaces. Root fix: price_unit:'user' on the record,
+    _money + hero qualify centrally, Offer suppressed (schema has no unit
+    semantics). Bare $25 without /user or per-user in-sentence: 0. Offers
+    on price_unit=user records: 0."""
+    import json as _j, re as _re
+    _tools = {_t["slug"]: _t for _t in _j.loads((ROOT / "tools" / "tools.json").read_text())}
+    _flagged = [s for s, _t in _tools.items() if str(_t.get("price_unit") or "").lower() == "user"]
+    assert _flagged, "price_unit=user records vanished from the catalog"
+    # Structural fence (r27 rec 1 leading indicator): every enterprise record
+    # with a numeric price_from must declare its unit — the next enterprise
+    # row ships figure-free or unit-true on day one, no per-surface fix.
+    _nounit = [s for s, _t in _tools.items()
+               if str(_t.get("pricing_model") or "").lower() == "enterprise"
+               and (_t.get("price_from") or 0) > 0
+               and not str(_t.get("price_unit") or "")]
+    assert not _nounit, f"enterprise price_from without price_unit: {_nounit}"
+    _names = [_tools[_s]["name"] for _s in _flagged]
+    _bad = []
+    _pages = []
+    for _s in _flagged:
+        _pages.append(ROOT / "tools" / _s / "index.html")
+    for _html in ROOT.rglob("index.html"):
+        if "deploy-out" in _html.parts or "node_modules" in _html.parts:
+            continue
+        if _html in _pages:
+            continue
+        # r27 fixup: corrections/ and blog/ legitimately QUOTE past defects
+        # when logging them ("briefly showed $25/mo") — the fence targets
+        # catalog-derived surfaces, not errata prose about the defect.
+        try:
+            _rel0 = _html.relative_to(ROOT).parts[0]
+        except ValueError:
+            _rel0 = ""
+        if _rel0 in ("corrections", "blog"):
+            continue
+        try:
+            _h0 = _html.read_text(errors="ignore")
+        except OSError:
+            continue
+        if any(_n in _h0 for _n in _names):
+            _pages.append(_html)
+    for _html in _pages:
+        _h = _html.read_text(errors="ignore")
+        for _m in _re.finditer(r"\$25(?![0-9])", _h):
+            _sent = _h[max(0, _m.start() - 200):_m.start() + 100]
+            if "/user" not in _sent and "per user" not in _sent:
+                _bad.append(f"{_html.parent.name}: {_sent[:100]}")
+        if _html.parent.parent.name == "tools" and _html.parent.name in _flagged:
+            if '"@type": "Offer"' in _h or '"@type":"Offer"' in _h:
+                _bad.append(f"{_html.parent.name}: Offer on per-user record")
+    assert not _bad, f"unqualified per-user figures: {_bad[:8]}"
+
+
+def test_trending_counts_reconcile_with_catalog():
+    """r27 L-17 (2026-10-05): trending said 82, tools page 81 — two tracked
+    repos (codex-seo proprietary, resend/react-email side library) are not
+    open-source tools. Rows filter to open_source; meta carries the catalog
+    count. No &amp; entities in either llms file (r27 L-19)."""
+    import json as _j
+    _tools = _j.loads((ROOT / "tools" / "tools.json").read_text())
+    _oss = sum(1 for _t in _tools if _t.get("open_source") and _t.get("status", "active") == "active")
+    _h = (ROOT / "trending" / "index.html").read_text(errors="ignore")
+    assert f"all {_oss} open-source tools" in _h.replace("  ", " ") or f"all {_oss} " in _h, \
+        f"trending sub not carrying catalog oss count {_oss}"
+    assert f"for {_oss} open-source martech tools" in _h, "trending meta not carrying catalog count"
+    assert "codex-seo" not in _h and "resend/react-email" not in _h, "non-oss repos still charted"
+    for _f in ("llms.txt", "llms-full.txt"):
+        _t = (ROOT / _f).read_text(errors="ignore")
+        _ents = [ _l for _l in _t.splitlines() if _l.startswith("- [") and "&amp;" in _l.split("](")[0]]
+        assert not _ents, f"{_f} link text carries entities: {_ents[:3]}"
+
+
+def test_category_mirrors_and_ard_categories_page_derived():
+    """r27 N-2/N-3 (2026-10-05): category mirror link text pasted name+desc
+    (h3.name missed, 60-char cut); ARD category descriptions paraphrased
+    off-page. Link text now name-only (<=40 chars); ARD category
+    descriptions are the rendered page metas."""
+    import json as _j, re as _re
+    _bad = []
+    for _md in (ROOT / "categories").glob("*/index.md"):
+        for _l in _md.read_text(errors="ignore").splitlines():
+            _m = _re.match(r"- \[(.*?)\]\(", _l)
+            if _m and len(_m.group(1)) > 40:
+                _bad.append(f"{_md.parent.name}: {_m.group(1)[:50]}")
+    assert not _bad, f"long category-mirror link text: {_bad[:6]}"
+    _ard = _j.loads((ROOT / ".well-known" / "ard.json").read_text())
+    _entries = _ard if isinstance(_ard, list) else _ard.get("entries", [])
+    _miss = []
+    for _e in _entries:
+        if "/categories/" not in _e.get("url", ""):
+            continue
+        _slug = _e["url"].rstrip("/").split("/")[-1]
+        _p = ROOT / "categories" / _slug / "index.html"
+        if _p.exists() and _e.get("description", "")[:80] not in _p.read_text(errors="ignore"):
+            _miss.append(_slug)
+    assert not _miss, f"ARD category descriptions not on page: {_miss}"
+
+
+def test_float_residues_and_seat_qualifiers():
+    """r27 N-4/L-21 (2026-10-05): $98.9 x3 + mautic spaced EUR; money metas
+    quoting figures the tool page qualifies must carry the qualifier."""
+    import json as _j, re as _re
+    _h = (ROOT / "tools" / "billionmail" / "index.html").read_text(errors="ignore")
+    assert not _re.search(r"\$98\.9(?!0)", _h), "billionmail $98.9 residue alive"
+    _m = (ROOT / "tools" / "mautic" / "index.html").read_text(errors="ignore")
+    assert "€ 247.50" not in _m and "€ 247,50" not in _m, "mautic spaced-EUR residue alive"
+    _viol = []
+    for _f, _fam in (("tools/bestx-content.json", "best"),
+                     ("tools/vsx-content.json", "vs"),
+                     ("tools/alternatives-content.json", "alternatives")):
+        _d = _j.loads((ROOT / _f).read_text())
+        for _pg in (_d if isinstance(_d, list) else _d.get("pages", [])):
+            _meta = _pg.get("meta", "")
+            _tslugs = []
+            if "vsx" in _f:
+                _tslugs = [_pg.get("a_slug"), _pg.get("b_slug"), _pg.get("c_slug")]
+            else:
+                _tslugs = [ _it.get("slug") for _it in (_pg.get("items") or [])]
+            _th = {}
+            for _ts in _tslugs:
+                if not _ts:
+                    continue
+                _p = ROOT / "tools" / _ts / "index.html"
+                if _p.exists():
+                    _th[_ts] = _p.read_text(errors="ignore")
+            for _fm in _re.finditer(r"[\$€](\d[\d,.]*)", _meta):
+                _fig = _fm.group(0)
+                # r27 fixup (2026-10-05): the figure belongs to the tool NAMED
+                # nearest before it ("ActiveCampaign from $15/mo" is
+                # ActiveCampaign's flat contact pricing, not HubSpot's
+                # coincidental $15/seat). Only the named tool gates.
+                _before = _meta[:_fm.start()]
+                _owner = None
+                _best_pos = -1
+                try:
+                    _cat = {_t["slug"]: _t["name"] for _t in _j.loads((ROOT / "tools" / "tools.json").read_text())}
+                except Exception:
+                    _cat = {}
+                for _ts in _th:
+                    _nm = _cat.get(_ts, "")
+                    _pos = _before.rfind(_nm) if _nm else -1
+                    if _pos < 0 and _nm:
+                        # last-word fallback ("HubSpot CRM" vs "HubSpot")
+                        _pos = _before.rfind(_nm.split()[-1])
+                    if _pos > _best_pos:
+                        _best_pos, _owner = _pos, _ts
+                _check = [(_owner, _th[_owner])] if _owner and _best_pos >= 0 else list(_th.items())
+                for _ts, _hh in _check:
+                    if (_fig + "/user") in _hh or (_fig + "/seat") in _hh:
+                        _ctx = _meta[max(0, _fm.start() - 80):_fm.start() + 40]
+                        if "/user" not in _ctx and "/seat" not in _ctx and "per user" not in _ctx and "per seat" not in _ctx:
+                            _viol.append(f"{_pg.get('slug')}: {_fig} ({_ts})")
+    assert not _viol, f"money metas dropping page qualifiers: {_viol[:6]}"
+
+
 def test_hubs_link_all_children_with_derived_counts():
     """r16 H-3 (2026-09-29): the /vs/ hub linked 7 of 10 leaves while saying
     "three", /alternatives/ linked 3 of 4 while saying "three" and "five".

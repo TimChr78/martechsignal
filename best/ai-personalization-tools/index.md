@@ -34,8 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Open-Source Tools](/categories/open-source/)
-- [Personalization & CDP](/categories/personalization/)
+- [Open-Source Tools…](/categories/open-source/)
+- [Personalization & CDP…](/categories/personalization/)
 ## Key terms
 
 - [Marketing ops](/glossary/marketing-ops/)

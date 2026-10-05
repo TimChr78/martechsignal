@@ -1,0 +1,174 @@
+{
+ "agent-protocol-vs-data-plumbing": {
+  "dm": "2026-09-27",
+  "sig": "4891849fe69db24c"
+ },
+ "agents-identity-debt": {
+  "dm": "2026-09-25",
+  "sig": "b2df6304248aa6d4"
+ },
+ "ai-agents-need-campaign-state": {
+  "dm": "2026-09-27",
+  "sig": "e7ef0dc1dc2025e9"
+ },
+ "ai-search-funnel-map-ga4-wont-give-you": {
+  "dm": "2026-09-25",
+  "sig": "97da4f445c266d99"
+ },
+ "ai-theater-wrong-kpi": {
+  "dm": "2026-09-30",
+  "sig": "7718a798f8223034"
+ },
+ "automation-blast-radius-audit": {
+  "dm": "2026-09-08",
+  "sig": "1ce0eec9fe9eb284"
+ },
+ "autonomous-marketing-platform-label-contest": {
+  "dm": "2026-09-28",
+  "sig": "9d0bcd6e0f71efaa"
+ },
+ "autonomous-stack-loophole-approval-step": {
+  "dm": "2026-09-09",
+  "sig": "d9c81011115c6e1a"
+ },
+ "cdp-reckoning-warehouse-native": {
+  "dm": "2026-09-09",
+  "sig": "72c48fbbb7530be3"
+ },
+ "chatgpt-isnt-search-anymore-its-checkout": {
+  "dm": "2026-09-09",
+  "sig": "c95620755323a6b9"
+ },
+ "ci-tools-were-the-first-martech-category-ai-killed": {
+  "dm": "2026-09-09",
+  "sig": "057e2aacd19f67f1"
+ },
+ "claude-seo-benchmark": {
+  "dm": "2026-09-28",
+  "sig": "83107cc3a4f957e2"
+ },
+ "claude-seo-vs-codex-seo": {
+  "dm": "2026-09-27",
+  "sig": "2e259f8dc4c6fee8"
+ },
+ "claude-seo-vs-seonaut": {
+  "dm": "2026-09-27",
+  "sig": "4b30bc10a3b4083f"
+ },
+ "dashboard-cant-see-ai-search-5-layer-fix": {
+  "dm": "2026-09-28",
+  "sig": "2fc3ffb11a60658a"
+ },
+ "deliverability-ai-spam-content-problem": {
+  "dm": "2026-09-09",
+  "sig": "226fb8a50eab52a0"
+ },
+ "determinism-audit": {
+  "dm": "2026-09-12",
+  "sig": "c5838775fc018e3f"
+ },
+ "geo-experiments-vs-ai-visibility-playbook": {
+  "dm": "2026-09-27",
+  "sig": "9e9fd7f1ff8f7fd2"
+ },
+ "google-ad-agents-control-gap": {
+  "dm": "2026-09-25",
+  "sig": "b024e4cd256ba55d"
+ },
+ "google-ads-ai-guardrails": {
+  "dm": "2026-09-27",
+  "sig": "420518b1bf2df013"
+ },
+ "iab-agentic-buying-rules-insertion-orders": {
+  "dm": "2026-09-28",
+  "sig": "9a8b1a3b3fa2fa6a"
+ },
+ "jon-miller-rethink-not-rebuild": {
+  "dm": "2026-10-01",
+  "sig": "1ba69584b2399d3e"
+ },
+ "link-building-wont-get-you-into-ai-answers": {
+  "dm": "2026-09-26",
+  "sig": "ad76a0841232855d"
+ },
+ "martech-budget-bleeding-nobody-measuring": {
+  "dm": "2026-09-28",
+  "sig": "0c28a5aa158cb26a"
+ },
+ "microsoft-search-ads-steering-wheel": {
+  "dm": "2026-09-09",
+  "sig": "91bc8f7a2e99e915"
+ },
+ "multi-touch-attribution-was-always-a-fiction": {
+  "dm": "2026-08-14",
+  "sig": "6cf537b8c9e01c83"
+ },
+ "n8n-ai-open-source-automation": {
+  "dm": "2026-09-25",
+  "sig": "dd62fa64987ca175"
+ },
+ "nocobase-vs-nocodb-vs-budibase": {
+  "dm": "2026-09-28",
+  "sig": "87e5aa2d347c9bbc"
+ },
+ "open-source-agentic-martech-stack-mcp": {
+  "dm": "2026-10-05",
+  "sig": "27444da749f619b3"
+ },
+ "open-source-martech-stack": {
+  "dm": "2026-07-27",
+  "sig": "b5bc76a79defa14e"
+ },
+ "openai-agent-ads-spending-without-you": {
+  "dm": "2026-09-28",
+  "sig": "78f8a513930d561d"
+ },
+ "oss-martech-50-day-checkin": {
+  "dm": "2026-09-14",
+  "sig": "b36daf4ee07e0912"
+ },
+ "oss-momentum-tracker-september-2026": {
+  "dm": "2026-09-30",
+  "sig": "243a2cea28fe43f6"
+ },
+ "salesforce-agentforce-free-marketing-ops": {
+  "dm": "2026-09-25",
+  "sig": "1ce327eded43d17a"
+ },
+ "salesforce-claude-commerce-cloud-agentforce": {
+  "dm": "2026-09-29",
+  "sig": "1d18388ef547727f"
+ },
+ "salesforce-third-no-code-promise": {
+  "dm": "2026-09-21",
+  "sig": "f0371691f5ae564d"
+ },
+ "silent-failure-audit": {
+  "dm": "2026-09-11",
+  "sig": "76d38812cc0d73e1"
+ },
+ "sqreem-behavioral-model-vs-llm": {
+  "dm": "2026-10-02",
+  "sig": "0faeca417590b3da"
+ },
+ "watermark-provenance-tax-agents": {
+  "dm": "2026-09-25",
+  "sig": "02112853ff9a5406"
+ },
+ "what-free-seo-audit-replaces": {
+  "dm": "2026-09-28",
+  "sig": "e6aa5544dad6f9e0"
+ },
+ "why-your-marketing-automation-stack-doesnt-need-another-ai-tool": {
+  "dm": "2026-09-28",
+  "sig": "81c3c6cb7572de23"
+ },
+ "you-dont-need-new-data-stack-fivetran": {
+  "dm": "2026-08-20",
+  "sig": "bb278119d520e987"
+ },
+ "zapier-vs-make-two-ways-to-buy-the-same-workflow-debt": {
+  "dm": "2026-08-27",
+  "sig": "e91a4d25ac6c9426"
+ }
+}

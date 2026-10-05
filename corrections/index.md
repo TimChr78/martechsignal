@@ -4,6 +4,14 @@
 
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
 
+## Per-user enterprise prices now carry their unit everywhere
+
+October 5’s second corrections entry fixed one Salesforce comparison snippet that showed “from $25/mo” for an enterprise edition whose entry is $1,500/mo per org. The follow-up audit found the same unit-stripped figure on five more surfaces: the tool-page pricing hero, the FAQ answer and its JSON-LD twin, the catalog description paragraph, the schema Offer node, and the catalog record itself.
+
+Root fix, not another surface patch: both Salesforce catalog records now declare price_unit “user”, the shared money formatter renders “$25/user/mo” on every template surface at once, and schema Offer nodes are suppressed on per-user records. Drift’s $2,500/mo floor is declared “org” and keeps its Offer. Any future enterprise record with a numeric entry figure must declare its unit or the build test suite fails.
+
+Also corrected in this wave: BillionMail’s three $98.9 residues are now $98.90, Mautic’s spaced figure is now €247.50, three money snippets carry the per-user/per-seat qualifier their tool pages keep, and the trending page counts only open-source-flagged repositories.
+
 ## Snippet prices corrected and source fenced (October 5, second wave)
 
 The pricing-snippet rewrite shipped the same day briefly showed Salesforce Marketing Cloud "from $25/mo" in the /vs/ comparison snippet; the page itself says $1,500/mo (the $25 figure is per-user, Starter tier). The snippet now says "enterprise from $1,500/mo", and a build-time test now fails any future snippet whose figures do not appear verbatim on the page. Money-leaf metas across the 34 comparison pages now carry verified entry prices (33 of 34; pages with no published price carry none). Also this wave: the /tools/ mirror now answers cost questions (prices on every card), the /best/ pages link their related comparisons, and changed pages now carry an honest dateModified so search engines can see the edit.
@@ -95,6 +103,8 @@ Three Claude SEO comparison posts were published without approval by a pipeline 
 Our Claude SEO review carried review-structured data for our own product. We removed the markup; the editorial text remains, clearly labelled.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+2026-10-05
 
 2026-10-05
 

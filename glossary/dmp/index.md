@@ -46,8 +46,8 @@ Sources: [Twilio Segment](https://segment.com) · [Snowplow](https://snowplow.io
 
 [Analytics & Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
 
-- [Analytics & Attribution](/categories/analytics/)
-- [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)
+- [Analytics & Attribution…](/categories/analytics/)
+- [Best Analytics & Attribution tools…](/best/marketing-analytics-tools/)
 ## See also
 
 - [CDP](/glossary/cdp/)

@@ -14,20 +14,20 @@ A directory tells you what exists. It does not tell you whether your stack can h
 
 ## Browse by category
 
-- [Marketing Automation (12)](/categories/marketing-automation/)
-- [Email Marketing (16)](/categories/email-marketing/)
-- [CRM (24)](/categories/crm/)
-- [AI Content & Copywriting (13)](/categories/content-ai/)
-- [Analytics & Attribution (11)](/categories/analytics/)
-- [Social Media (6)](/categories/social-media/)
-- [Advertising & Paid Media (9)](/categories/advertising/)
-- [Personalization & CDP (11)](/categories/personalization/)
-- [Chatbots & Conversational AI (6)](/categories/chatbots/)
-- [SEO & Search (9)](/categories/seo/)
-- [GEO & LLM Optimization (14)](/categories/geo-llm-visibility/)
-- [Workflow Automation (17)](/categories/workflow-automation/)
-- [Agent Skills (18)](/categories/agent-skills/)
-- [Open-Source Tools (81)](/categories/open-source/)
+- [Marketing Automation (12)…](/categories/marketing-automation/)
+- [Email Marketing (16)…](/categories/email-marketing/)
+- [CRM (24)…](/categories/crm/)
+- [AI Content & Copywriting (13)…](/categories/content-ai/)
+- [Analytics & Attribution (11)…](/categories/analytics/)
+- [Social Media (6)…](/categories/social-media/)
+- [Advertising & Paid Media (9)…](/categories/advertising/)
+- [Personalization & CDP (11)…](/categories/personalization/)
+- [Chatbots & Conversational AI (6)…](/categories/chatbots/)
+- [SEO & Search (9)…](/categories/seo/)
+- [GEO & LLM Optimization (14)…](/categories/geo-llm-visibility/)
+- [Workflow Automation (17)…](/categories/workflow-automation/)
+- [Agent Skills (18)…](/categories/agent-skills/)
+- [Open-Source Tools (81)…](/categories/open-source/)
 ## Evaluating tools for your stack?
 
 The weekly newsletter tracks this category: one teardown, one workflow, no fluff.

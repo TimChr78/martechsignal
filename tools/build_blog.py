@@ -389,8 +389,32 @@ def _clean_excerpt(text, limit=155):
 
 def _date_modified(meta, date_str):
     """R2 M-7 (2026-09-08): dateModified must reflect real edits. Use the last git commit
-    that touched the draft; fall back to file mtime, then the publish date."""
-    import subprocess as _sp, os as _os
+    that touched the draft; fall back to file mtime, then the publish date.
+    r27 rec 2 (2026-10-05): commits that touch the draft without changing the
+    rendered copy (front-matter-only edits, line-ending normalizations) moved
+    dateModified with zero byte delta — 6 blogs restamped 2026-10-05 with no
+    rendered change. Guard on a content signature: same signature as the last
+    build keeps the last stamp; only a real copy change advances it. The
+    signature masks the rotating more-tools module (rotation is not prose)."""
+    import subprocess as _sp, os as _os, json as _js, hashlib as _hl
+    slug = meta.get('slug') or ''
+    _sig_src = "|".join([
+        str(meta.get('title') or ''), str(meta.get('seo_title') or ''),
+        str(meta.get('seo_description') or ''),
+        re.sub(r'(?s)<p class="more-tools"[^>]*>.*?</p>', ' ', str(meta.get('_body_html') or '')),
+    ])
+    _sig = _hl.sha1(_sig_src.encode()).hexdigest()[:16]
+    _sigf = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.blog-sigs.json')
+    _sigs = {}
+    try:
+        if _os.path.exists(_sigf):
+            _sigs = _js.loads(open(_sigf).read())
+    except Exception:
+        _sigs = {}
+    _prev = _sigs.get(slug) if slug else None
+    if _prev and _prev.get('sig') == _sig and _prev.get('dm'):
+        return _prev['dm']
+    _dm = None
     dp = meta.get('_draft_path')
     if dp and _os.path.exists(dp):
         try:
@@ -398,21 +422,26 @@ def _date_modified(meta, date_str):
                           capture_output=True, text=True, timeout=10,
                           cwd=_os.path.dirname(_os.path.abspath(dp)) or '.')
             if out.returncode == 0 and out.stdout.strip():
-                return out.stdout.strip()[:10]
+                _dm = out.stdout.strip()[:10]
         except Exception:
             pass
+    if not _dm:
+        _dm = date_str  # r6 M-5: mtime is not a copy change; publish date is the honest floor
+    # r27 rec 2: persist the signature so the next no-op touch keeps this stamp.
+    if slug:
         try:
-            import datetime as _dt
-            return date_str  # r6 M-5: mtime is not a copy change; publish date is the honest floor
+            _sigs[slug] = {'sig': _sig, 'dm': _dm}
+            open(_sigf, 'w').write(_js.dumps(_sigs, indent=1, sort_keys=True))
         except Exception:
             pass
-    return date_str
+    return _dm
 
 
 def build_post(meta: dict, body_html: str) -> str:
     """Generate the full HTML page for a blog post."""
     title = meta.get('title', 'Untitled')
     body_html, extras = _build_toc_and_chip(body_html, meta.get('categories') or meta.get('category'))
+    meta['_body_html'] = body_html  # r27 rec 2: signature input for the stamp guard
     # SEO title: optional frontmatter override (<=60ch) for <title>/og:title; H1 keeps full title
     seo_title = meta.get('seo_title') or title
     date_str = meta.get('date', datetime.now().strftime('%Y-%m-%d'))
@@ -539,8 +568,11 @@ def build_post(meta: dict, body_html: str) -> str:
                      "@id": "https://martechsignal.com/blog/#blog"},
         "inLanguage": "en",
         # r8 M23 (2026-09-28): count prose only - the TOC and filed-under chips
-                # are scaffolding and made schema drift +121..+272 from the body.
-                "wordCount": len(re.sub(r"<[^>]+>", " ", re.sub(r"(?s)<nav\b.*?</nav>|<p class=\"meta[^\"]*\"[^>]*>.*?</p>", " ", body_html)).split()),
+        # are scaffolding and made schema drift +121..+272 from the body.
+        # r27 N-5 (2026-10-05): the rotating more-tools module (+1 word
+        # swaps on zero-change posts) jittered wordCount 1831→1832 —
+        # rotation is not prose, mask it like the TOC.
+        "wordCount": len(re.sub(r"<[^>]+>", " ", re.sub(r"(?s)<nav\b.*?</nav>|<p class=\"meta[^\"]*\"[^>]*>.*?</p>|<p class=\"more-tools\"[^>]*>.*?</p>", " ", body_html)).split()),
         "articleSection": ", ".join(meta.get("categories") or ([meta["category"]] if meta.get("category") else []) or []),
     }
     breadcrumb_schema = {

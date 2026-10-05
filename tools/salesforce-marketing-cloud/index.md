@@ -18,7 +18,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Salesforce Marketing Cloud is a tool in Marketing Automation with paid plans starting at $25/mo. The catalog documents 5 AI features, 9 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Salesforce Marketing Cloud is a tool in Marketing Automation with paid plans starting at $25/user/mo. The catalog documents 5 AI features, 9 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Salesforce Marketing Cloud →](https://www.salesforce.com/products/marketing-cloud/)
 
@@ -64,7 +64,7 @@ Salesforce Marketing Cloud homepage, captured September 2026. Vendor page shown 
 - Meta Ads
 ## Pricing
 
-Salesforce Marketing Cloud is sold on enterprise contracts, from $25/mo as of 2026-09.
+Salesforce Marketing Cloud is sold on enterprise contracts, from $25/user/mo as of 2026-09.
 
 Per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month
 
@@ -123,7 +123,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Salesforce Marketing Cloud: Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web. Salesforce Marketing Cloud ships with agentforce campaign creation. This page documents 9 integrations.
 
 **How much does Salesforce Marketing Cloud cost?**
-Salesforce Marketing Cloud starts at $25/mo. Per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Salesforce Marketing Cloud starts at $25/user/mo. Per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Salesforce Marketing Cloud a good Marketing Automation tool in 2026?**
 The safest choice inside a Salesforce org with marketing ops headcount and an expensive one outside it; published per-org pricing now lets you model the real number before you call sales.

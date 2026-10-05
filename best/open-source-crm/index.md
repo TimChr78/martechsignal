@@ -34,8 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [CRM](/categories/crm/)
-- [Open-Source Tools](/categories/open-source/)
+- [CRM…](/categories/crm/)
+- [Open-Source Tools…](/categories/open-source/)
 ## Key terms
 
 - [CRM](/glossary/crm/)
@@ -131,6 +131,8 @@ Vendor: [Official site](https://monicahq.com) · [GitHub](https://github.com/mon
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+
+Compare or swap: [HubSpot CRM alternatives](/alternatives/hubspot-crm/)
 
 ## Which open source CRM is easiest to run?
 

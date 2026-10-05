@@ -18,7 +18,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Salesforce CRM is a tool in CRM with paid plans starting at $25/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Salesforce CRM is a tool in CRM with paid plans starting at $25/user/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Salesforce CRM →](https://www.salesforce.com/crm/)
 
@@ -63,7 +63,7 @@ Salesforce CRM homepage, captured September 2026. Vendor page shown as a dated r
 - DocuSign
 ## Pricing
 
-Salesforce CRM is sold on enterprise contracts, from $25/mo as of 2026-08.
+Salesforce CRM is sold on enterprise contracts, from $25/user/mo as of 2026-08.
 
 Starter $25/user/mo; Professional $80/user/mo; Enterprise $165/user/mo; Unlimited $330/user/mo
 
@@ -108,7 +108,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Salesforce CRM: Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. Salesforce CRM ships with einstein AI lead scoring. This page documents 8 integrations.
 
 **How much does Salesforce CRM cost?**
-Salesforce CRM starts at $25/mo. Starter $25/user/mo; Professional $80/user/mo; Enterprise $165/user/mo; Unlimited $330/user/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Salesforce CRM starts at $25/user/mo. Starter $25/user/mo; Professional $80/user/mo; Enterprise $165/user/mo; Unlimited $330/user/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Salesforce CRM a good CRM tool in 2026?**
 Unmatched depth for complex sales organizations; count the total cost before committing mid-market budgets.

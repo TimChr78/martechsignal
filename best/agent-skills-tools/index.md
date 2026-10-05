@@ -34,8 +34,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Agent Skills](/categories/agent-skills/)
-- [Open-Source Tools](/categories/open-source/)
+- [Agent Skills…](/categories/agent-skills/)
+- [Open-Source Tools…](/categories/open-source/)
 ## Key terms
 
 - [MCP](/glossary/mcp/)

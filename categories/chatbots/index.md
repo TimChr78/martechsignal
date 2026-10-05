@@ -11,12 +11,12 @@ Conversational AI for marketing and support, from social DM automation to per-re
 
 ## All tools in this category
 
-- [ChatbotX Open-source ManyChat alternative built for AI, omni](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation (Open Source)
-- [Chatfuel AI chatbot platform for automating customer convers](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels (From $39/mo)
-- [Chatwoot Open-source customer engagement suite with Captain ](/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting (Open Source from $19/mo)
-- [Intercom AI-first customer service platform with Fin AI agen](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging (From $29/mo)
-- [ManyChat AI-powered chat marketing platform for Instagram, W](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger (Freemium from $14/mo)
-- [Tidio AI-powered live chat and chatbot platform with Lyro AI](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support (Freemium from $24/mo)
+- [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation (Open Source)
+- [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels (From $39/mo)
+- [Chatwoot](/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting (Open Source from $19/mo)
+- [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging (From $29/mo)
+- [ManyChat](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger (Freemium from $14/mo)
+- [Tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support (Freemium from $24/mo)
 **Compare:** [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/)
 
 ## Key terms

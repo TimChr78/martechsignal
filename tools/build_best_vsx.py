@@ -279,6 +279,9 @@ def build_best():
         # r26 L-15 (2026-10-05): /best/ leaves linked neither comparison family
         # (0 in/out across 16 leaves, six rounds). Point each pick at the
         # head-to-heads and alternatives guides that exist for its tools.
+        # r27 rec 5 (2026-10-05): page-level overrides for cross-family edges
+        # the per-pick rule cannot derive.
+        _BEST_ALT_MAP = {"open-source-crm": ("hubspot-crm",)}
         _fam = []
         for _bt in items:
             _s = _bt.get("slug")
@@ -287,6 +290,11 @@ def build_best():
                     _fam.append(f'<a href="/vs/{_vp["slug"]}/">{esc(_vp["title"])}</a>')
             if (ROOT / "alternatives" / _s / "index.html").exists():
                 _fam.append(f'<a href="/alternatives/{_s}/">{esc(tools_by_slug[_s]["name"])} alternatives</a>')
+        # r27 rec 5 (2026-10-05): page-level cross-family edges the per-pick
+        # rule cannot derive — open-source-crm's picks have no own
+        # alternatives pages, but 4 overlap alternatives/hubspot-crm.
+        for _aslug in _BEST_ALT_MAP.get(page.get("slug", ""), ()):
+            _fam.append(f'<a href="/alternatives/{_aslug}/">{esc(tools_by_slug[_aslug]["name"])} alternatives</a>')
         if _fam:
             _seen = set(); _uniq = []
             for _a2 in _fam:

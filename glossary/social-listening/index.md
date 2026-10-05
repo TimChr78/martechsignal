@@ -42,8 +42,8 @@ Sources: [Brandwatch](https://www.brandwatch.com) · [Buffer](https://buffer.com
 
 [Social Media](/categories/social-media/) [Best Social Media tools](/best/ai-social-media-tools/)
 
-- [Social Media](/categories/social-media/)
-- [Best Social Media tools](/best/ai-social-media-tools/)
+- [Social Media…](/categories/social-media/)
+- [Best Social Media tools…](/best/ai-social-media-tools/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 [Browse all tools →](/tools/)

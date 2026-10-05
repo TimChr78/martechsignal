@@ -52,10 +52,10 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Tray.io](http
 
 [Workflow Automation](/categories/workflow-automation/) [Best Workflow Automation tools](/best/workflow-automation-tools/) [MCP and agent protocols](/guides/mcp-agent-protocols/) [Automation strategy](/guides/workflow-automation-strategy/)
 
-- [Workflow Automation](/categories/workflow-automation/)
-- [Best Workflow Automation tools](/best/workflow-automation-tools/)
-- [MCP and agent protocols](/guides/mcp-agent-protocols/)
-- [Automation strategy](/guides/workflow-automation-strategy/)
+- [Workflow Automation…](/categories/workflow-automation/)
+- [Best Workflow Automation tools…](/best/workflow-automation-tools/)
+- [MCP and agent protocols…](/guides/mcp-agent-protocols/)
+- [Automation strategy…](/guides/workflow-automation-strategy/)
 ## See also
 
 - [Marketing automation](/glossary/marketing-automation/)

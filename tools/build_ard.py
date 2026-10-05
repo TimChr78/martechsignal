@@ -39,6 +39,19 @@ def cat_queries(c):
     return [f"best {n} tools", f"{n} comparison", f"{n} software"]
 
 
+def _page_meta(rel):
+    """r27 N-3 (2026-10-05): rendered page meta description for ARD entries —
+    page bytes by construction. Returns "" when the page is missing."""
+    import re as _re2
+    _f = ROOT / rel / "index.html"
+    if not _f.exists():
+        return ""
+    _m = _re2.search(r'name="description" content="(.*?)"', _f.read_text(errors="ignore"))
+    if not _m:
+        return ""
+    return _html.unescape(_m.group(1))
+
+
 def build():
     tools = [t for t in json.loads(TOOLS_JSON.read_text())
              if t.get("status", "active") == "active"]
@@ -59,7 +72,11 @@ def build():
             "displayName": c["name"],
             "type": "text/html",
             "url": f"https://martechsignal.com/categories/{c['slug']}/",
-            "description": (c.get("description") or "")[:200],
+            # r27 N-3 (2026-10-05): categories.json blurbs ("Ad creation,
+            # bidding, and campaign management") appear nowhere on the page
+            # (4/15 first-80-char match). Use the rendered page meta, which
+            # is page bytes by construction; fall back to the blurb.
+            "description": (_page_meta(f"categories/{c['slug']}") or c.get("description") or "")[:200],
             "representativeQueries": cat_queries(c),
         })
     # r15 L-7 (2026-09-29): the shipped manifest held only the 2 catalog

@@ -230,6 +230,10 @@ def pricing_section_html(t):
     # r16 M-5 (2026-09-29): one-time billing records (lifetime license, flat
     # extension price) must not carry a /mo suffix anywhere, titles included.
     _unit = " one-time" if str(t.get("billing") or "").lower() == "one-time" else "/mo"
+    # r27 H-1 (2026-10-05): the pricing hero carries the same per-user
+    # qualifier _money emits — "from $25/user/mo", never "from $25/mo".
+    if str(t.get("price_unit") or "").lower() == "user" and _unit == "/mo":
+        _unit = "/user/mo"
     if model == "enterprise" and pf:
         tail = f", from {_price_money(sym, pf)}{_unit}"
     elif pf and pf != 0:
@@ -1041,6 +1045,13 @@ def _money(p, t):
     # suffix manufactures a subscription. billing:"one-time" renders as-is.
     if str(t.get("billing") or "").lower() == "one-time":
         return f"{_sym}{_fmt_num(p)} one-time"
+    # r27 H-1 (2026-10-05): per-user enterprise figures ($25/mo on the two
+    # Salesforce records) published unit-stripped on every template surface.
+    # Records carrying price_unit:"user" render the qualifier everywhere this
+    # formatter reaches (FAQ answers + twins, tool metas, verdict frag, table
+    # cells) — one field, all surfaces, the marketo pattern generalized.
+    if str(t.get("price_unit") or "").lower() == "user":
+        return f"{_sym}{_fmt_num(p)}/user/mo"
     return f"{_sym}{_fmt_num(p)}/mo"
 
 def _score_band(t):
@@ -1189,6 +1200,12 @@ def _offer_for(t):
     only from the tool's real catalog price, or None. Never fabricates
     price: 0 - enterprise / no-list-price tools return None and emitters
     must fall back to non-product schema."""
+    # r27 H-1 (2026-10-05): schema.org Offer has no per-user semantics — a
+    # price:25 node reads as "$25 for the product". Per-user enterprise
+    # records (the two Salesforce rows) emit no Offer, the marketo pattern;
+    # per-org entry figures (drift $2,500) keep theirs.
+    if str(t.get("price_unit") or "").lower() == "user":
+        return None
     _paid = t.get("paid_from")
     _pf = t.get("price_from")
     _cur = (t.get("currency") or "USD").strip().upper()
@@ -3099,6 +3116,9 @@ def build_llms_txt(tools, cats):
                     _fh = f.read_text()
                     m = _re.search(r"<title>([^<]+)</title>", _fh)
                     ttl = (m.group(1) if m else child.name).split("|")[0].split("\u00b7")[0].strip()
+                    # r27 L-19 (2026-10-05): titles are HTML-escaped (&amp; in
+                    # 5 best titles) — llms.txt is plain text, unescape.
+                    ttl = ttl.replace("&amp;", "&").replace("&#x27;", "'")
                     # r23 M-2 (2026-10-05): comparison entries without
                     # descriptions are pointer-only; carry the meta description.
                     _dm = _re.search(r'name="description" content="(.*?)"', _fh)
@@ -3127,6 +3147,9 @@ def build_llms_txt(tools, cats):
             _ans = _ans.replace("&amp;", "&").replace("&#x27;", "'").replace("&quot;", '"')
             m = _re.search(r"<title>([^<]+)</title>", _fh)
             ttl = (m.group(1) if m else child.name).split("|")[0].split("\u00b7")[0].strip()
+            # r27 L-19 (2026-10-05): same entity unescape as the comparisons
+            # loop above — Key decisions titles carried the same &amp;.
+            ttl = ttl.replace("&amp;", "&").replace("&#x27;", "'")
             lines.append(f"- [{ttl}](https://martechsignal.com/{fam}/{child.name}/index.md): {_ans}")
             _n_dec += 1
     lines += ["", "## Site", "",

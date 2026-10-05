@@ -32,8 +32,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Open-Source Tools](/categories/open-source/)
-- [Social Media](/categories/social-media/)
+- [Open-Source Tools…](/categories/open-source/)
+- [Social Media…](/categories/social-media/)
 ## Key terms
 
 - [Marketing ops](/glossary/marketing-ops/)

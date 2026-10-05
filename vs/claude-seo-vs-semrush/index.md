@@ -132,9 +132,9 @@ Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
-- [Agent Skills](/categories/agent-skills/)
-- [Open-Source Tools](/categories/open-source/)
-- [SEO & Search](/categories/seo/)
+- [Agent Skills…](/categories/agent-skills/)
+- [Open-Source Tools…](/categories/open-source/)
+- [SEO & Search…](/categories/seo/)
 ## Open-source momentum, with receipts
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.

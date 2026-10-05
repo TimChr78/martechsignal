@@ -134,8 +134,8 @@ Last verified 2026-10-01.
 
 ## Browse the hubs behind this comparison
 
-- [CRM](/categories/crm/)
-- [Marketing Automation](/categories/marketing-automation/)
+- [CRM…](/categories/crm/)
+- [Marketing Automation…](/categories/marketing-automation/)
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Get the next teardown

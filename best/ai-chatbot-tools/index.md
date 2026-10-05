@@ -32,8 +32,8 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Chatbots & Conversational AI](/categories/chatbots/)
-- [Open-Source Tools](/categories/open-source/)
+- [Chatbots & Conversational AI…](/categories/chatbots/)
+- [Open-Source Tools…](/categories/open-source/)
 ## Key terms
 
 - [Chatbot](/glossary/chatbot/)

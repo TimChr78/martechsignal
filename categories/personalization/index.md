@@ -11,23 +11,23 @@ Ecommerce personalization, customer data platforms, and flags and testing. 11 to
 
 ## STOREFRONT PERSONALIZATION (3)
 
-- [Clerk.io AI-powered ecommerce personalization with search, r](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email (From $119/mo)
-- [Dynamic Yield AI-powered personalization platform for web, m](/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences (Enterprise)
-- [Nosto AI-powered ecommerce personalization with product reco](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising (Enterprise)
+- [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email (From $119/mo)
+- [Dynamic Yield](/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences (Enterprise)
+- [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising (Enterprise)
 ## PACKAGED CDPS (2)
 
-- [Twilio Segment Customer data platform for collecting, unifyi](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data (Freemium from $120/mo)
-- [Tealium Enterprise customer data platform with real-time dat](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI (Enterprise)
+- [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data (Freemium from $120/mo)
+- [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI (Enterprise)
 ## WAREHOUSE PIPES AND COMPOSABLE ACTIVATION (4)
 
-- [Apache Unomi Apache's open-source customer data platform and](/tools/apache-unomi/): Apache's open-source customer data platform and personalization engine (Open Source)
-- [Hightouch Composable CDP that activates warehouse data where](/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs (Freemium)
-- [Jitsu Open-source Segment alternative for event capture and ](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines (Freemium from $99/mo)
-- [RudderStack Warehouse-first CDP: open-source Go data plane p](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing (Open-core from $265/mo)
+- [Apache Unomi](/tools/apache-unomi/): Apache's open-source customer data platform and personalization engine (Open Source)
+- [Hightouch](/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs (Freemium)
+- [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines (Freemium from $99/mo)
+- [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing (Open-core from $265/mo)
 ## FLAGS AND TESTING (2)
 
-- [Flagsmith Open-source feature flag and remote config platfor](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting (Freemium from $50/mo)
-- [GrowthBook Open-source feature flags and A/B testing with a ](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting (Freemium from $40/mo)
+- [Flagsmith](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting (Freemium from $50/mo)
+- [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting (Freemium from $40/mo)
 **Compare:** [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) · [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/)
 
 ## Key terms

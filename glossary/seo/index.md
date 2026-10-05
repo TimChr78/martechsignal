@@ -48,11 +48,11 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
 
 [SEO & Search](/categories/seo/) [Best SEO & Search tools](/best/ai-seo-tools/) [AI SEO tooling](/guides/ai-seo-tooling/) [Agent Skills](/categories/agent-skills/) [Best Agent Skills tools](/best/agent-skills-tools/)
 
-- [SEO & Search](/categories/seo/)
-- [Best SEO & Search tools](/best/ai-seo-tools/)
-- [AI SEO tooling](/guides/ai-seo-tooling/)
-- [Agent Skills](/categories/agent-skills/)
-- [Best Agent Skills tools](/best/agent-skills-tools/)
+- [SEO & Search…](/categories/seo/)
+- [Best SEO & Search tools…](/best/ai-seo-tools/)
+- [AI SEO tooling…](/guides/ai-seo-tooling/)
+- [Agent Skills…](/categories/agent-skills/)
+- [Best Agent Skills tools…](/best/agent-skills-tools/)
 ## See also
 
 - [AI Visibility](/glossary/ai-search-visibility/)

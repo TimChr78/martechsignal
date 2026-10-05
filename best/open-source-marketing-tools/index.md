@@ -36,12 +36,12 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
-- [Analytics & Attribution](/categories/analytics/)
-- [CRM](/categories/crm/)
-- [Email Marketing](/categories/email-marketing/)
-- [Marketing Automation](/categories/marketing-automation/)
-- [Open-Source Tools](/categories/open-source/)
-- [Workflow Automation](/categories/workflow-automation/)
+- [Analytics & Attribution…](/categories/analytics/)
+- [CRM…](/categories/crm/)
+- [Email Marketing…](/categories/email-marketing/)
+- [Marketing Automation…](/categories/marketing-automation/)
+- [Open-Source Tools…](/categories/open-source/)
+- [Workflow Automation…](/categories/workflow-automation/)
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
 ## Key terms

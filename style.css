@@ -694,7 +694,10 @@ ul.integ-list li { display: inline-block; margin: 0 .5rem .5rem 0 }
 
 .tool-card.is-hidden,.hub-group.is-hidden{display:none}
 /* r7 M13 (2026-09-28): tap targets >= 24px for navigational links */
-.crumb a,.footer a,.alt-back a,.back,.hub-links a,.post-list a{display:inline-block;padding-block:5px}
+.crumb a,.footer a,.alt-back a,.vs-links a,.back,.hub-links a,.post-list a{display:inline-block;padding-block:5px}
+/* r27 N-1 (2026-10-05): the vs-links cross-link blocks shipped with no rule —
+   single-line links measured 17px tap height, flush against the verdict. */
+.vs-links{margin:1.2rem 0 0}
 .mast-nav a{display:inline-block;padding-block:4px}
 /* r7 M20 (2026-09-28): desktop breakpoint above 880px - long posts put the
    mini-TOC in a sticky right rail so the measure gutter is no longer dead
