@@ -9,19 +9,19 @@ Analytics and attribution tools: event tracking, funnels, and what multi-touch c
 
 11 TOOLS IN THIS CATEGORY
 
-## PRODUCT BEHAVIOR***5*
+## PRODUCT BEHAVIOR (5)
 
 - [Amplitude AI-powered digital analytics platform for product ](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
 - [Heap AI-powered product analytics with autocapture and digit](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
 - [Mixpanel Product analytics platform with AI-powered insights](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
 - [PostHog Open-source product analytics platform with session ](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 - [Snowplow Customer context infrastructure: behavioral event p](/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
-## AD SPEND ATTRIBUTION***3*
+## AD SPEND ATTRIBUTION (3)
 
 - [Attribution AI-powered marketing attribution platform connec](/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue
 - [Northbeam AI-powered multi-touch attribution and marketing i](/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce
 - [Triple Whale AI-powered ecommerce analytics and attribution ](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
-## SELF-HOSTED WEB ANALYTICS***3*
+## SELF-HOSTED WEB ANALYTICS (3)
 
 - [Matomo Open-source web analytics platform with full data own](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
 - [Plausible Analytics Lightweight, privacy-friendly open-sourc](/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics

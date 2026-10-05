@@ -6,7 +6,7 @@ Pick Mailchimp if you want a broad commerce-flavored suite with strong brand rec
 
 Mailchimp and Brevo end up on the same shortlist when the mailing list arrives before the budget does. Mailchimp is the most recognized name in email marketing, with over 11 million users, an Intuit-owned platform spanning landing pages, social ads, SMS, automation, and a basic CRM. Brevo (born as Sendinblue) prices by monthly email volume instead of contact count and folds email, SMS, WhatsApp, chat, and a light CRM into one account.
 
-Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
+Most decisions here come down to how it bills. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
 The choice usually lands on one question: does your list talk often, or just exist. Mailchimp charges per contact and rewards rarely-sent lists badly; Brevo charges per send and keeps 300 free emails a day flowing. Store-heavy teams still lean Mailchimp's commerce suite; multichannel-heavy teams on modest budgets lean Brevo.
 
@@ -19,6 +19,8 @@ The choice usually lands on one question: does your list talk often, or just exi
 | Brevo | Freemium from $9/mo | Your list is large but rarely sent, or you need multichannel on a tight budget, paid from $9/mo. |
 
 [Mailchimp assessment](/tools/mailchimp/) · [Brevo assessment](/tools/brevo/)
+
+Shopping wider: [Mailchimp alternatives](/alternatives/mailchimp/)
 
 Mailchimp: [Official site](https://mailchimp.com) · [Pricing](https://mailchimp.com/pricing/marketing/)
 

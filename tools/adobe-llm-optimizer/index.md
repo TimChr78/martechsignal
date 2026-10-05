@@ -16,6 +16,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Adobe LLM Optimizer is a tool in GEO & LLM Optimization with custom pricing. The catalog documents 5 AI features and 6 integrations. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Adobe LLM Optimizer →](https://business.adobe.com/products/brand-visibility.html)
 
 ## MartechSignal Score: 35/60

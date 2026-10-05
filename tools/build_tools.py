@@ -79,6 +79,19 @@ def load():
 def esc(s):
     return html.escape(str(s)) if s else ""
 
+def _fmt_num(v):
+    """r25 L-23 (2026-10-05): catalog 12.90 rendered "€12.9", 5000 "$5000".
+    Fractional figures keep 2 decimals, integers >= 1000 get separators."""
+    try:
+        f = float(v)
+    except (TypeError, ValueError):
+        return str(v)
+    if f != int(f):
+        return f"{f:,.2f}"
+    if abs(f) >= 1000:
+        return f"{int(f):,}"
+    return str(int(f))
+
 def pricing_label(t):
     m = t.get("pricing_model", "paid")
     _pf = t.get("paid_from")
@@ -94,7 +107,7 @@ def pricing_label(t):
             # r13 H-2 pattern (2026-09-29): symbol from record.currency -
             # r21 H-2 (2026-10-02) caught this label hardcoding $ on EUR records.
             _sym = "€" if str(t.get("currency") or "").upper() == "EUR" else "$"
-            return "Freemium from " + _sym + str(_entry) + "/mo"
+            return "Freemium from " + _sym + _fmt_num(_entry) + "/mo"
         return "Freemium"
     # r24 M-1 (2026-10-05): 19 open-source/open-core rows carried a published
     # paid_from the label hid - n8n showed "Open Source" beside Zapier's
@@ -109,8 +122,8 @@ def pricing_label(t):
             # $5,000 lifetime, krayin $1,799 flat) - /mo would manufacture
             # a subscription. Match page prose: "$5000 one-time".
             if str(t.get("billing") or "").lower() == "one-time":
-                return f"{_word} from {_sym}{_pf} one-time"
-            return f"{_word} from {_sym}{_pf}/mo"
+                return f"{_word} from {_sym}{_fmt_num(_pf)} one-time"
+            return f"{_word} from {_sym}{_fmt_num(_pf)}/mo"
         return _word
     if m == "enterprise": return "Enterprise"
     p = t.get("price_from")
@@ -119,7 +132,7 @@ def pricing_label(t):
     # pages shipped "$224" in hero chip + sidebar while verdicts said EUR).
     if p:
         _sym = "\u20ac" if str(t.get("currency") or "").upper() == "EUR" else "$"
-        return f"From {_sym}{p}/mo"
+        return f"From {_sym}{_fmt_num(p)}/mo"
     return "Paid"
 
 # ── SEO title / meta template (CTR-optimized, ≤60 / ≤155) ──────────
@@ -179,7 +192,7 @@ _PRICING_SECTION_SIGNAL = re.compile(r"\d|free|custom|tier|licen|quote|seat|user
 
 def _price_money(sym, value):
     try:
-        return f"{sym}{float(value):g}"
+        return f"{sym}{_fmt_num(value)}"
     except (TypeError, ValueError):
         return f"{sym}{value}"
 
@@ -1027,8 +1040,8 @@ def _money(p, t):
     # non-recurring figure (lifetime license, flat extension price) — a /mo
     # suffix manufactures a subscription. billing:"one-time" renders as-is.
     if str(t.get("billing") or "").lower() == "one-time":
-        return f"{_sym}{p} one-time"
-    return f"{_sym}{p}/mo"
+        return f"{_sym}{_fmt_num(p)} one-time"
+    return f"{_sym}{_fmt_num(p)}/mo"
 
 def _score_band(t):
     # Visible score band for scored tools (extractable facts-first opening).
@@ -2907,6 +2920,9 @@ def main():
                 "name": "Strategy Guides: GEO, Automation, AI SEO",
                 "url": "https://martechsignal.com/guides/",
                 "description": "Strategy guides for marketers: GEO, agentic advertising, workflow automation, AI SEO tooling and agent protocols.",
+                # r25 L-16 (2026-10-05): the CollectionPage carries its own
+                # breadcrumb edge (page_shell auto-emits the BreadcrumbList).
+                "breadcrumb": {"@id": "https://martechsignal.com/guides/#breadcrumb"},
                 # r11 H-6 (2026-09-29): the only hub without entity list
                 # markup. hasPart mirrors the body list via _STATIC_HUBS.
                 "hasPart": [
@@ -3053,7 +3069,12 @@ def build_llms_txt(tools, cats):
         glossary_terms = json.loads(glossary_json.read_text())
         lines += ["", "## Glossary", ""]
         for gt in sorted(glossary_terms, key=lambda x: x["term"].lower()):
-            lines.append(f"- [{gt['term']}](https://martechsignal.com/glossary/{gt['slug']}/)")
+            # r25 L-20 (2026-10-05): bare links described the family only as
+            # URLs. Carry each term's first sentence (complete by the r25
+            # colon-split edits, pinned complete by the meta instrument).
+            _gd = _sentence_clip(str(gt.get("definition") or ""), 160)
+            lines.append(f"- [{gt['term']}](https://martechsignal.com/glossary/{gt['slug']}/)"
+                         + (f": {_gd}" if _gd else ""))
     lines += ["", "## Categories", ""]
     for c in sorted(cats, key=lambda x: x["name"].lower()):
         lines.append(f"- [{c['name']}](https://martechsignal.com/categories/{c['slug']}/)")
@@ -3108,7 +3129,7 @@ def build_llms_txt(tools, cats):
     lines += ["", "## Site", "",
               "- [About](https://martechsignal.com/about/): who runs MartechSignal and the editorial policy",
               "- [Methodology](https://martechsignal.com/methodology/): how tools are researched, dated and priced",
-              "- [Authors](https://martechsignal.com/authors/)",
+              "- [Authors](https://martechsignal.com/authors/tim-christensen/): Tim Christensen, editor",
               "- [AI content policy](https://martechsignal.com/ai-policy/): citation and grounding are welcome; "
               "training model weights on this corpus is not permitted",
               "- [Checklist](https://martechsignal.com/checklist/): tool selection checklist",
@@ -3128,7 +3149,7 @@ def build_llms_txt(tools, cats):
               "- [Glossary](https://martechsignal.com/glossary/)",
               # L-6 (r11, 2026-09-29): Checklist/About/Corrections already
               # listed under ## Site above — no repeats here.
-              "- [Author](https://martechsignal.com/authors/tim-christensen/)",
+              # r25 L-21 (2026-10-05): Author lives under ## Site now — no repeat.
               "- [Contact](https://martechsignal.com/contact/)",
               "- [RSS feed](https://martechsignal.com/rss.xml)", ""]
     out = ROOT / "llms.txt"
@@ -3181,6 +3202,19 @@ def build_llms_txt(tools, cats):
                 para = para.strip()
                 if para:
                     full_lines.append(para)
+            full_lines.append("")
+    # r25 L-20 (2026-10-05): the glossary was the one family described only
+    # as URLs. Carry full definitions - first sentences are complete by the
+    # r25 colon-split edits.
+    if glossary_json.exists():
+        full_lines += ["### Glossary", ""]
+        _gterms = json.loads(glossary_json.read_text())
+        for gt in sorted(_gterms, key=lambda x: x["term"].lower()):
+            _gd = str(gt.get("definition") or "").strip()
+            if not _gd:
+                continue
+            full_lines.append(f"[{gt['term']}](https://martechsignal.com/glossary/{gt['slug']}/)")
+            full_lines.append(_gd)
             full_lines.append("")
     full_out = ROOT / "llms-full.txt"
     full_out.write_text("\n".join(full_lines))

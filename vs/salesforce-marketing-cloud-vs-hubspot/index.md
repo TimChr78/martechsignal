@@ -6,7 +6,7 @@ Pick Salesforce Marketing Cloud if you run a Salesforce-centered org with enterp
 
 Salesforce Marketing Cloud and HubSpot Marketing Hub end up on the same shortlist. Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing pages, lead capture, campaign management, and marketing automation in a single platform.
 
-Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
+Most decisions here come down to how it bills. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
 ## Salesforce Marketing Cloud vs HubSpot Marketing Hub: the quick decision
 

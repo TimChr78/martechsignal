@@ -10,7 +10,7 @@ The pricing shape explains a second wave of searches. Self-hosting is free under
 
 Before you move, draw the workflow inventory first: triggers, the apps touched, whether code steps matter, and who debugs when a run fails at 2am. Then match the meter, because executions, tasks, operations, and events are not the same bill. As everywhere on this site, the figures come from vendors' published material with verification dates on each review page, and we hold no account with any of these services.
 
-The table below compares all twelve on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at.
+All twelve are compared on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at.
 
 Last verified 2026-09-28.
 
@@ -187,6 +187,8 @@ Activepieces. Its core is MIT-licensed open source with an affordable cloud besi
 Workato for governance and AI add-ons across departments, Tray.io for one iPaaS spanning marketing, RevOps and IT with pro-code escape hatches. Pipedream covers developers who want real code inside steps and a generous free tier.
 
 Read the full assessment of [n8n](/tools/n8n/), or browse all [workflow automation tools](/categories/workflow-automation/).
+
+Down to two finalists: [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/) · [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/).
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

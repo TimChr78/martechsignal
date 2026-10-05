@@ -8,7 +8,7 @@ Matomo is the reference point for teams that want web analytics they own, and it
 
 The shortlist splits by what pushed you out. Lighter cookieless scripts suit teams that only need traffic and campaign numbers. Teams that live in funnels and retention are better served by product analytics suites. An event pipeline fits when raw behavioral data belongs in your own warehouse. Matomo still holds one ground the others do not: the consent-free position it claims through a CNIL listing, plus its commitment to keeping self-hosting free, so check whether your compliance case depends on either.
 
-When you compare, check what each tool does with cookies and consent, whether your historical statistics need to come across, and which reports you open each week. The prices below are the vendors' published ones, and we hold no account with any of these tools.
+When you compare, check what each tool does with cookies and consent, whether your historical statistics need to come across, and which reports you open each week. The prices are the vendors' published ones, and we hold no account with any of these tools.
 
 Last verified 2026-09-28.
 
@@ -94,6 +94,8 @@ When the questions turn product-shaped: funnels, retention, session replay, flag
 Snowplow. Behavioral events validated against schemas and delivered into the team's own pipeline beat any dashboard export. That is the point where analytics stops being a tool choice and becomes a data contract.
 
 Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics tools](/categories/analytics/).
+
+Down to two finalists: [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/) · [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/).
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

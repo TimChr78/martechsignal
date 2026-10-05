@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Revealbot (Birch) is a tool in Advertising & Paid Media with paid plans starting at $49/mo. The catalog documents 4 AI features, 12 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Revealbot (Birch) →](https://bir.ch)
 
 ## MartechSignal Score: 38/60

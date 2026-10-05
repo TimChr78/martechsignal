@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Intercom is a tool in Chatbots & Conversational AI with paid plans starting at $29/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Intercom →](https://www.intercom.com)
 
 ## MartechSignal Score: 42/60

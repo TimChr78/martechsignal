@@ -2483,9 +2483,9 @@ def test_r11_ml_wave_no_regressions():
     """r11 M/L wave (2026-09-29): one pin per fixed finding, so the next
     rebuild cannot silently reintroduce them."""
     import re as _re
-    # M-1: about counts match ground truth (163 active / 165 records).
+    # M-1: about counts match ground truth (166 active / 168 records).
     _about = (ROOT / "about" / "index.html").read_text()
-    assert "163 active tool records" in _about and "165 records" in _about
+    assert "166 active tool records" in _about and "168 records" in _about
     # M-2: boilerplate citation-slot sentence gone from all tool pages.
     _boiler = [p.parent.name for p in (ROOT / "tools").glob("*/index.html")
                if "review covers features, pricing" in p.read_text()]

@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Opteo is a tool in Advertising & Paid Media with paid plans starting at $129/mo. The catalog documents 3 AI features and 2 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Opteo →](https://opteo.com/)
 
 ## MartechSignal Score: 29/60

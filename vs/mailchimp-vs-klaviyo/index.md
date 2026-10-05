@@ -6,7 +6,7 @@ Pick Mailchimp if you want broad channel coverage with a free plan to 500 contac
 
 Mailchimp and Klaviyo end up on the same shortlist whenever a store outgrows newsletters. Mailchimp is the most recognized name in email marketing, with over 11 million users from solopreneurs to mid-market, and an Intuit-owned platform that now spans landing pages, ads, SMS, automation, and a basic CRM. Klaviyo is the dominant email and SMS platform for ecommerce brands, built around behavioral profiles from purchase history, browsing, and predicted lifetime value.
 
-Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
+Most decisions here come down to how it bills. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
 The choice usually lands on one question: is the store the center of the data model or one channel among several. Klaviyo assumes commerce data is the foundation and prices by contacts. Mailchimp assumes a mixed audience and prices by plan tier, which stays cheap for small lists and climbs steeply once ecommerce volume arrives.
 
@@ -19,6 +19,8 @@ The choice usually lands on one question: is the store the center of the data mo
 | Klaviyo | Freemium from $20/mo | You run an ecommerce store and want predictive flows, free to 250 contacts, paid from around $20/mo. |
 
 [Mailchimp assessment](/tools/mailchimp/) · [Klaviyo assessment](/tools/klaviyo/)
+
+Shopping wider: [Mailchimp alternatives](/alternatives/mailchimp/)
 
 Mailchimp: [Official site](https://mailchimp.com) · [Pricing](https://mailchimp.com/pricing/marketing/)
 

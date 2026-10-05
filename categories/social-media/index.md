@@ -9,7 +9,7 @@ Social scheduling, listening, and analytics, from per-channel schedulers to ente
 
 6 TOOLS IN THIS CATEGORY
 
-## All tools in this category**
+## All tools in this category
 
 - [Brandwatch AI-powered consumer intelligence and social media](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform
 - [Buffer Simple social media scheduling and analytics with AI-](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools

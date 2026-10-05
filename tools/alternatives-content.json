@@ -4,7 +4,7 @@
    "slug": "hubspot-crm",
    "title": "Best HubSpot CRM alternatives (2026)",
    "seo_title": "Best HubSpot CRM alternatives (2026)",
-   "meta": "Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive, with real pricing and honest limits.",
+   "meta": "Twenty from $9/mo, EspoCRM from €12.90/mo. Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive.",
    "intro": [
     "HubSpot CRM is free forever, quick to set up, and for a lot of small teams it is the right place to start. The case for switching appears as a company grows: automation, permissions, and reporting depth live on the higher tiers, and Sales Hub runs $20 per seat per month at Starter, $100 at Professional, and $150 at Enterprise. Across sales, service, and marketing seats that adds up fast, and the product is not open source, so there is no way to run it on your own infrastructure.",
     "Two kinds of buyers usually end up on this page. One already runs a marketing stack and wants a CRM the sales team will adopt without paying for a suite around it. The other wants customer data on its own servers, with code access to the schema and no per-seat bill attached to every new colleague.",
@@ -64,12 +64,12 @@
    "slug": "zapier",
    "title": "Best Zapier alternatives (2026)",
    "seo_title": "Best Zapier alternatives (2026)",
-   "meta": "Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase, with real pricing models and the buyer each one fits.",
+   "meta": "n8n from €20/mo, Make from $9/mo. Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase.",
    "intro": [
     "Zapier connects more apps than anything else in this directory, and most teams never need to leave it. The teams that search for alternatives usually share one of two complaints. Task metering counts every step and every external connector call, so a twenty step workflow consumes roughly twenty tasks per run and multi-step automations get expensive quickly. Or they need branching logic, self-hosting, or real code inside a step, none of which the linear editor is built for.",
     "The free plan shows the shape of the pricing: 100 tasks a month, two-step Zaps only, no premium apps, and 15-minute polling. Professional starts at $19.99 per month billed annually at the 750 task tier, and Zapier's AI agents are metered separately in activities rather than tasks.",
     "Before you move, list the apps each workflow touches and confirm the replacement covers the niche ones: tools without an n8n node or a Make module usually have a Zapier integration, not the reverse. Then recount every workflow step by step, because tasks, credits, and compute time are different meters and a lower sticker price can hide a larger bill. As everywhere on this site, the figures come from vendors' published material and we hold no account with any of these services.",
-    "The table below compares all ten on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at. Every number in the price column comes from the vendor's own pricing page with its verification date on the tool's review page."
+    "All ten are compared on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at. Every number in the price column comes from the vendor's own pricing page with its verification date on the tool's review page."
    ],
    "items": [
     {
@@ -155,11 +155,11 @@
    "slug": "matomo",
    "title": "Best Matomo alternatives (2026)",
    "seo_title": "Best Matomo alternatives (2026)",
-   "meta": "Five Matomo alternatives: lightweight privacy analytics (Plausible, Umami), product suites, and a warehouse pipeline, with honest limits.",
+   "meta": "Plausible Analytics from $9/mo, Umami from $20/mo. Five Matomo alternatives: lightweight privacy analytics (Plausible, Umami), product suites.",
    "intro": [
     "Matomo is the reference point for teams that want web analytics they own, and its core stays free forever under GPL v3 or later. Funnels, cohorts, custom reports, form analytics, A/B testing, heatmaps and session recordings, and multi-channel attribution are paid premium plugins, with On-Premise bundles running 275 euros a month for Team and 3,400 for Enterprise. Cloud starts at 22 euros a month for 50,000 hits and climbs with traffic. The self-hosted stack is a PHP and MySQL application that needs an archiving cron job above a few hundred visits a day.",
     "The shortlist splits by what pushed you out. Lighter cookieless scripts suit teams that only need traffic and campaign numbers. Teams that live in funnels and retention are better served by product analytics suites. An event pipeline fits when raw behavioral data belongs in your own warehouse. Matomo still holds one ground the others do not: the consent-free position it claims through a CNIL listing, plus its commitment to keeping self-hosting free, so check whether your compliance case depends on either.",
-    "When you compare, check what each tool does with cookies and consent, whether your historical statistics need to come across, and which reports you open each week. The prices below are the vendors' published ones, and we hold no account with any of these tools."
+    "When you compare, check what each tool does with cookies and consent, whether your historical statistics need to come across, and which reports you open each week. The prices are the vendors' published ones, and we hold no account with any of these tools."
    ],
    "items": [
     {
@@ -215,12 +215,12 @@
    "slug": "n8n",
    "title": "Best n8n alternatives (2026)",
    "seo_title": "Best n8n alternatives (2026)",
-   "meta": "n8n alternatives including Make, Zapier, Pipedream, and Activepieces, with pricing models and the buyer each one fits.",
+   "meta": "Make from $9/mo, Zapier from $19.99/mo. n8n alternatives including Make, Zapier, Pipedream, and Activepieces.",
    "intro": [
     "n8n earns its users on control: fair-code licensing, self-hosting, code steps inside a visual canvas, and AI agent nodes that call language models inside a larger workflow. The teams that look for alternatives usually land on one of three gripes. The canvas gets heavy once a workflow runs long, debugging favors people who can read the execution data, and the connector library counts in nodes and community packages rather than the thousands of turnkey integrations SaaS catalogs advertise.",
     "The pricing shape explains a second wave of searches. Self-hosting is free under the sustainable use license, Cloud Starter runs about twenty euros a month, and heavier use moves to a per-execution meter. Teams that hit the ceiling usually did it with polling loops or chatty sub-workflows, where a task-metered or operations-metered rival bills the same workload differently, sometimes for less.",
     "Before you move, draw the workflow inventory first: triggers, the apps touched, whether code steps matter, and who debugs when a run fails at 2am. Then match the meter, because executions, tasks, operations, and events are not the same bill. As everywhere on this site, the figures come from vendors' published material with verification dates on each review page, and we hold no account with any of these services.",
-    "The table below compares all twelve on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at."
+    "All twelve are compared on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at."
    ],
    "items": [
     {
@@ -318,7 +318,7 @@
    "slug": "mailchimp",
    "title": "Mailchimp alternatives (2026): 10 email platforms compared",
    "seo_title": "Mailchimp alternatives (2026): 10 email platforms compared",
-   "meta": "Ten Mailchimp alternatives compared on pricing shape, self-hosting, channels, and migration, with a best-fit and not-for line for each.",
+   "meta": "Brevo from $9/mo, Klaviyo from $20/mo. Ten Mailchimp alternatives compared on pricing shape, self-hosting, channels, and migration.",
    "date_published": "2026-10-01",
    "date_updated": "2026-10-01",
    "intro": [

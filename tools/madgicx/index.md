@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Madgicx is a tool in Advertising & Paid Media with paid plans starting at $49/mo. The catalog documents 5 AI features and 4 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Madgicx →](https://madgicx.com/)
 
 ## MartechSignal Score: 30/60

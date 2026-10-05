@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Hypotenuse AI is a tool in AI Content & Copywriting with paid plans starting at $56/mo. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Hypotenuse AI →](https://www.hypotenuse.ai)
 
 ## MartechSignal Score: 32/60

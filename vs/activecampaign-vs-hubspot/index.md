@@ -6,7 +6,7 @@ Pick ActiveCampaign if you want deep multi-step automation in one SMB-priced pla
 
 ActiveCampaign and HubSpot CRM end up on the same shortlist when automation outgrows the email tool. ActiveCampaign combines marketing automation, email, and a light CRM in one platform for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. HubSpot CRM brings sales, service, and marketing workflows into one platform around a unified contact record, with a free CRM that on-ramps teams into paid hubs.
 
-Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
+Most decisions here come down to how it bills. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
 The choice usually lands on one question: which system owns the contact. ActiveCampaign prices automation depth per tier starting at $15/mo. HubSpot prices seats per hub, free to start, with the bill arriving as the team and the contact database grow.
 
@@ -19,6 +19,8 @@ The choice usually lands on one question: which system owns the contact. ActiveC
 | HubSpot CRM | Freemium from $20/mo | You want a free CRM to start with, sales, service and marketing on one record. |
 
 [ActiveCampaign assessment](/tools/activecampaign/) · [HubSpot CRM assessment](/tools/hubspot-crm/)
+
+Shopping wider: [HubSpot CRM alternatives](/alternatives/hubspot-crm/)
 
 ActiveCampaign: [Official site](https://www.activecampaign.com) · [Pricing](https://www.activecampaign.com/pricing)
 

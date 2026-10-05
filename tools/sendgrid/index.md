@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Twilio SendGrid is a tool in Email Marketing with a free tier. The catalog documents 4 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Twilio SendGrid →](https://sendgrid.com)
 
 ## MartechSignal Score: 35/60

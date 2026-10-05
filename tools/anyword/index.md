@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Anyword is a tool in AI Content & Copywriting with paid plans starting at $39/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Anyword →](https://www.anyword.com)
 
 ## MartechSignal Score: 35/60

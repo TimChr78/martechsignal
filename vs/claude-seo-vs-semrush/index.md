@@ -6,7 +6,7 @@ Pick Claude SEO if you can self-host and want code-level control of the audit, f
 
 Claude SEO and Semrush end up on the same shortlist. Claude SEO turns Claude Code into an SEO audit machine. Semrush is the closest thing the SEO industry has to an operating system: a platform that spans keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid advertising intelligence, social media management, and increasingly, AI search visibility.
 
-Most decisions here come down to where it runs, how it bills, and how deep the AI features go. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
+Most decisions here come down to where it runs, how it bills, and how deep the AI features go. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
 These two barely share a budget line. Semrush is a subscription suite with a large database behind it. Claude SEO is free software that runs inside a coding session and audits one site at a time. Teams that keep both usually split the work: rank tracking and keyword research in one, technical audits in the other.
 

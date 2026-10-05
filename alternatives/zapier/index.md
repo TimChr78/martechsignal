@@ -10,7 +10,7 @@ The free plan shows the shape of the pricing: 100 tasks a month, two-step Zaps o
 
 Before you move, list the apps each workflow touches and confirm the replacement covers the niche ones: tools without an n8n node or a Make module usually have a Zapier integration, not the reverse. Then recount every workflow step by step, because tasks, credits, and compute time are different meters and a lower sticker price can hide a larger bill. As everywhere on this site, the figures come from vendors' published material and we hold no account with any of these services.
 
-The table below compares all ten on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at. Every number in the price column comes from the vendor's own pricing page with its verification date on the tool's review page.
+All ten are compared on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at. Every number in the price column comes from the vendor's own pricing page with its verification date on the tool's review page.
 
 Last verified 2026-09-28.
 
@@ -161,6 +161,8 @@ Pipedream for arbitrary code in every step with managed infrastructure, Budibase
 Tray.io. It keeps integrations and AI agents governed inside a compliance boundary, which neither Zapier nor Make promises. Make covers the middle: branching and looping for technical marketing teams that outgrew linear editors.
 
 Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow automation tools](/categories/workflow-automation/).
+
+Down to two finalists: [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/) · [Make vs Zapier (2026): pricing, AI features, verdict](/vs/make-vs-zapier/) · [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/).
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

@@ -6,9 +6,9 @@ Pick Make if you want the most visual scenario builder with a generous free tier
 
 Make and Zapier end up on the same shortlist. Make, the platform formerly known as Integromat, sits between Zapier's simplicity and n8n's depth. Zapier is the automation platform most people mean when they say they want to connect two tools without writing code.
 
-Most decisions here come down to price and fit. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
+Most decisions here come down to price and fit. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
-Both platforms now sell AI features on top of the same plumbing: triggers, actions, and a scheduler between them. The price gap and the credit-versus-task metering decide more deals than any feature list, so the volume table below is the part to read twice.
+Both platforms now sell AI features on top of the same plumbing: triggers, actions, and a scheduler between them. The price gap and the credit-versus-task metering decide more deals than any feature list, so the volume table is the part to read twice.
 
 The pair pages beside this one (n8n vs Zapier, and the three-way) carry the wider automation-platform picture; here we stay on the two visual builders that fight for the same buyer.
 
@@ -23,6 +23,8 @@ The pair pages beside this one (n8n vs Zapier, and the three-way) carry the wide
 The pair pages carry the same evidence in depth: [n8n vs Zapier](/vs/n8n-vs-zapier/).
 
 [Make assessment](/tools/make/) · [Zapier assessment](/tools/zapier/)
+
+Shopping wider: [Zapier alternatives](/alternatives/zapier/)
 
 Make: [Official site](https://www.make.com) · [Pricing](https://www.make.com/en/pricing)
 

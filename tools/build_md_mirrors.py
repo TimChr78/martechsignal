@@ -22,6 +22,18 @@ def html_to_md(html: str) -> str:
     title = re.search(r"<title>([^<]+)</title>", html)
     title = _html.unescape(title.group(1)).split("|")[0].split("\u00b7")[0].strip() if title else "MartechSignal"
     src = re.sub(r"<(script|style|head)[^>]*>.*?</\1>", " ", html, flags=re.S)
+    # r25 L-15 (2026-10-05): hub-group-label headings carry an empty <i></i>
+    # spacer and an <em>count</em> the emphasis pass renders as ***2* stubs
+    # (## CREATIVE GENERATION***2* across 15 mirrors). Normalize at the
+    # source: empty inline spacers die, heading counts become (N).
+    src = re.sub(r"<h([234]) class=\"hub-group-label\"><span>(.*?)</span><i></i><em>(\d+)</em></h\1>",
+                 r"<h\1>\2 (\3)</h\1>", src)
+    src = re.sub(r"<(i|em)></\1>", "", src)
+    # r25 M-4 (2026-10-05): the tools-directory slug run ("Scored on the
+    # six-pillar rubric: slug, slug, ...") is SEO boilerplate the card pass
+    # now renders properly with names+taglines - drop it, keep "Related"
+    # variants (real cross-links on tool pages).
+    src = re.sub(r'<p class="alt-back">Scored on the six-pillar rubric:.*?</p>', "", src, flags=re.S)
 
     def inline(x):
         x = re.sub(r"<(strong|b)[^>]*>(.*?)</\1>", r"**\2**", x, flags=re.S)
@@ -49,12 +61,20 @@ def html_to_md(html: str) -> str:
         _events.append((dlm.start(), dlm.end(), "dl", dlm))
     for m2 in re.finditer(r"<(h1|h2|h3|h4|p|li|blockquote|figcaption)[^>]*>(.*?)</\1>", src, flags=re.S):
         _events.append((m2.start(), m2.end(), "flow", m2))
+    # r25 M-4/L-26 (2026-10-05): verdict/lead prose lives in bare divs the
+    # flow pass cannot see (heap's hero verdict never reached its mirror).
+    # Capture only known-prose div classes - never generic divs (layout noise).
+    for vm in re.finditer(r'<(div) class="(?:verdict|lede|lead|deck|standfirst|tldr|key-takeaway)"[^>]*>(.*?)</\1>', src, flags=re.S):
+        _events.append((vm.start(), vm.end(), "flow", vm))
     # r21 M-8 (2026-10-02): card grids (glossary index, hubs) carry their
     # content in nested divs the flow pass cannot see - emit cards as
     # linked bullets in document order instead of dropping them.
     # r24 M-8 (2026-10-05): same for cat-pill hub links (best/* "Browse the
     # hubs" sections) and tool-row homepage index rows - 28 empty ## sections.
-    for cm in re.finditer(r'<a class="(?:tool-card|cat-pill|tool-row)" href="([^"]+)">(.*?)</a>', src, flags=re.S):
+    # r25 M-4/L-15 (2026-10-05): anchors carry data-* attributes between class
+    # and href (<a class="tool-card" data-cat=... href=...>) - allow them, or
+    # the whole tools directory grid goes missing from its own mirror.
+    for cm in re.finditer(r'<a class="(?:tool-card|cat-pill|tool-row)"[^>]*href="([^"]+)"[^>]*>(.*?)</a>', src, flags=re.S):
         _events.append((cm.start(), cm.end(), "card", cm))
     _events.sort(key=lambda e: (e[0], -(e[1] - e[0])))
     _covered_until = -1

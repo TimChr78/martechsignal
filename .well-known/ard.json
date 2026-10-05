@@ -2290,7 +2290,7 @@
    "displayName": "Agent protocol vs data plumbing: what actually fails",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/",
-   "description": "MCP keeps winning the protocol argument while 85% of enterprises, by Fivetran&#x27;s count, run agents on data that cannot support them.",
+   "description": "MCP keeps winning the protocol argument while 85% of enterprises, by Fivetran's count, run agents on data that cannot support them.",
    "representativeQueries": [
     "agent protocol vs data plumbing: what actually fails",
     "agent protocol vs data plumbing"
@@ -2320,12 +2320,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:blog:ai-search-funnel-map-ga4-wont-give-you",
-   "displayName": "The AI-search funnel map GA4 won&#x27;t give you",
+   "displayName": "The AI-search funnel map GA4 won't give you",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/",
-   "description": "Two things landed since we published the 5-layer fix for dashboards that can&#x27;t see AI search.",
+   "description": "Two things landed since we published the 5-layer fix for dashboards that can't see AI search.",
    "representativeQueries": [
-    "the ai-search funnel map ga4 won&#x27;t give you",
+    "the ai-search funnel map ga4 won't give you",
     "ai search funnel map ga4 wont give you"
    ]
   },
@@ -2367,7 +2367,7 @@
    "displayName": "The Approval Step You Deleted Was the Audit Trail",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/",
-   "description": "MarTech published a piece on August 31 called &quot;The terrifying loophole in your autonomous tech stack&quot;. The loophole is real.",
+   "description": "MarTech published a piece on August 31 called \"The terrifying loophole in your autonomous tech stack\". The loophole is real.",
    "representativeQueries": [
     "the approval step you deleted was the audit trail",
     "autonomous stack loophole approval step"
@@ -2386,12 +2386,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:blog:chatgpt-isnt-search-anymore-its-checkout",
-   "displayName": "ChatGPT Isn&#x27;t Search Anymore, It&#x27;s Checkout",
+   "displayName": "ChatGPT Isn't Search Anymore, It's Checkout",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/",
    "description": "On August 18, OpenAI announced ChatGPT Ads is expanding to 31 European countries, its largest geographic expansion so far.",
    "representativeQueries": [
-    "chatgpt isn&#x27;t search anymore, it&#x27;s checkout",
+    "chatgpt isn't search anymore, it's checkout",
     "chatgpt isnt search anymore its checkout"
    ]
   },
@@ -2411,7 +2411,7 @@
    "displayName": "Claude Cowork is eating the edges of your martech stack",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/",
-   "description": "For the past three years, marketing ops teams have been promised &quot;AI-powered automation&quot; by every vendor in the stack. You know how that went.",
+   "description": "For the past three years, marketing ops teams have been promised \"AI-powered automation\" by every vendor in the stack. You know how that went.",
    "representativeQueries": [
     "claude cowork is eating the edges of your martech stack",
     "claude cowork is eating the edges of your martech stack"
@@ -2452,12 +2452,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:blog:dashboard-cant-see-ai-search-5-layer-fix",
-   "displayName": "Your Dashboard Can&#x27;t See AI Search: 5-Layer Fix",
+   "displayName": "Your Dashboard Can't See AI Search: 5-Layer Fix",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/",
    "description": "On August 17 we ran our Google Search Console diagnostic on this site. Twenty-eight days of data, query by query.",
    "representativeQueries": [
-    "your dashboard can&#x27;t see ai search: 5-layer fix",
+    "your dashboard can't see ai search: 5-layer fix",
     "dashboard cant see ai search 5 layer fix"
    ]
   },
@@ -2507,12 +2507,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:blog:google-ads-ai-guardrails",
-   "displayName": "AI ad account guardrails Google won&#x27;t ship",
+   "displayName": "AI ad account guardrails Google won't ship",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/google-ads-ai-guardrails/",
    "description": "Google ships AI ad automation faster than it ships the safety reporting to match, so guardrails for an AI-managed account are still a do-it-yourself job.",
    "representativeQueries": [
-    "ai ad account guardrails google won&#x27;t ship",
+    "ai ad account guardrails google won't ship",
     "google ads ai guardrails"
    ]
   },
@@ -2562,12 +2562,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:blog:martech-budget-bleeding-nobody-measuring",
-   "displayName": "Your Martech Budget Is Bleeding and Nobody&#x27;s Me",
+   "displayName": "Your Martech Budget Is Bleeding and Nobody's Me",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/",
-   "description": "A food pantry worker posted on r/MarketingAutomation last week with a problem I can&#x27;t stop thinking about.",
+   "description": "A food pantry worker posted on r/MarketingAutomation last week with a problem I can't stop thinking about.",
    "representativeQueries": [
-    "your martech budget is bleeding and nobody&#x27;s me",
+    "your martech budget is bleeding and nobody's me",
     "martech budget bleeding nobody measuring"
    ]
   },
@@ -2705,12 +2705,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:blog:salesforce-third-no-code-promise",
-   "displayName": "Salesforce&#x27;s third no-code promise, audited",
+   "displayName": "Salesforce's third no-code promise, audited",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/salesforce-third-no-code-promise/",
    "description": "Salesforce shipped two announcements in one day last week. Builder Central, a no-code AI workspace, enters beta this week.",
    "representativeQueries": [
-    "salesforce&#x27;s third no-code promise, audited",
+    "salesforce's third no-code promise, audited",
     "salesforce third no code promise"
    ]
   },
@@ -2727,12 +2727,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:blog:sqreem-behavioral-model-vs-llm",
-   "displayName": "SQREEM&#x27;s bet: behavior beats language",
+   "displayName": "SQREEM's bet: behavior beats language",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/sqreem-behavioral-model-vs-llm/",
    "description": "SQREEM claims a state-space behavioral model beats LLMs at predicting buyers. The evidence is vendor-grade, but the gap is real.",
    "representativeQueries": [
-    "sqreem&#x27;s bet: behavior beats language",
+    "sqreem's bet: behavior beats language",
     "sqreem behavioral model vs llm"
    ]
   },
@@ -2752,7 +2752,7 @@
    "displayName": "What a Free SEO Audit Replaces (and What It Does Not)",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/what-free-seo-audit-replaces/",
-   "description": "&amp;gt; Editor&#x27;s note (2026-09-28): this piece replaces an earlier comparison post that was published without approval and pulled the same day.",
+   "description": "&gt; Editor's note (2026-09-28): this piece replaces an earlier comparison post that was published without approval and pulled the same day.",
    "representativeQueries": [
     "what a free seo audit replaces (and what it does not)",
     "what free seo audit replaces"
@@ -2760,23 +2760,23 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:blog:why-your-marketing-automation-stack-doesnt-need-another-ai-tool",
-   "displayName": "Why Your Marketing Stack Doesn&#x27;t Need Another AI Tool",
+   "displayName": "Why Your Marketing Stack Doesn't Need Another AI Tool",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/",
    "description": "Another AI tool will not fix a stack that cannot hand it clean context.",
    "representativeQueries": [
-    "why your marketing stack doesn&#x27;t need another ai tool",
+    "why your marketing stack doesn't need another ai tool",
     "why your marketing automation stack doesnt need another ai tool"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:blog:you-dont-need-new-data-stack-fivetran",
-   "displayName": "Fivetran Proved You Don&#x27;t Need a New Data Stack",
+   "displayName": "Fivetran Proved You Don't Need a New Data Stack",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/",
    "description": "Fivetran proved AI runs fine on the warehouse you already own. Skip the rebuild and fix the pipes instead.",
    "representativeQueries": [
-    "fivetran proved you don&#x27;t need a new data stack",
+    "fivetran proved you don't need a new data stack",
     "you dont need new data stack fivetran"
    ]
   },
@@ -3084,7 +3084,7 @@
    "displayName": "Website Personalization | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/personalization/",
-   "description": "Website personalization changes what a visitor sees based on who they are or what they&#x27;ve done before.",
+   "description": "Website personalization changes what a visitor sees based on who they are or what they've done before.",
    "representativeQueries": [
     "what is personalization",
     "personalization definition",
@@ -3108,7 +3108,7 @@
    "displayName": "Search Engine Optimization (SEO) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/seo/",
-   "description": "SEO is the practice of improving a website&#x27;s visibility in organic (non-paid) search results.",
+   "description": "SEO is the practice of improving a website's visibility in organic (non-paid) search results.",
    "representativeQueries": [
     "what is seo",
     "seo definition",
@@ -3164,34 +3164,34 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:best:ai-advertising-tools",
-   "displayName": "Best AI Advertising &amp; Paid Media tools (2026): 8 compared",
+   "displayName": "Best AI Advertising & Paid Media tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/ai-advertising-tools/",
-   "description": "8 advertising &amp; paid media tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "Revealbot (Birch) from $49/mo, Pencil from $11/mo. 8 advertising & paid media tools compared on pricing, AI features, and integrations.",
    "representativeQueries": [
-    "best ai advertising &amp; paid media tools (2026): 8 compared",
+    "best ai advertising & paid media tools (2026): 8 compared",
     "ai advertising tools pricing comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:best:ai-chatbot-tools",
-   "displayName": "Best Chatbots &amp; Conversational AI tools (2026): 6 compared",
+   "displayName": "Best Chatbots & Conversational AI tools (2026): 6 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/ai-chatbot-tools/",
-   "description": "6 chatbots &amp; conversational ai tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "Intercom from $29/mo, Chatwoot from $19/mo. 6 chatbots & conversational ai tools compared on pricing, AI features, and integrations.",
    "representativeQueries": [
-    "best chatbots &amp; conversational ai tools (2026): 6 compared",
+    "best chatbots & conversational ai tools (2026): 6 compared",
     "ai chatbot tools pricing comparison"
    ]
   },
   {
    "identifier": "urn:air:martechsignal.com:best:ai-content-copywriting-tools",
-   "displayName": "Best AI Content &amp; Copywriting tools (2026): 8 compared",
+   "displayName": "Best AI Content & Copywriting tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/ai-content-copywriting-tools/",
-   "description": "8 ai content &amp; copywriting tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "Jasper from $39/mo, Anyword from $39/mo. 8 ai content & copywriting tools compared on pricing, AI features, and integrations.",
    "representativeQueries": [
-    "best ai content &amp; copywriting tools (2026): 8 compared",
+    "best ai content & copywriting tools (2026): 8 compared",
     "ai content copywriting tools pricing comparison"
    ]
   },
@@ -3200,7 +3200,7 @@
    "displayName": "Best AI CRM tools (2026): 6 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/ai-crm-tools/",
-   "description": "6 crm tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "Attio from $29/mo, HubSpot CRM from $20/mo. 6 crm tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
    "representativeQueries": [
     "best ai crm tools (2026): 6 compared",
     "ai crm tools pricing comparison"
@@ -3211,7 +3211,7 @@
    "displayName": "Best AI Email Marketing tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/ai-email-marketing-tools/",
-   "description": "8 email marketing tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "Mailchimp from $13/mo, Klaviyo from $20/mo. 8 email marketing tools compared on pricing, AI features, and integrations.",
    "representativeQueries": [
     "best ai email marketing tools (2026): 8 compared",
     "ai email marketing tools pricing comparison"
@@ -3222,7 +3222,7 @@
    "displayName": "Best AI Marketing Automation tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/ai-marketing-automation-tools/",
-   "description": "8 marketing automation tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "NocoDB from $12/mo, Ortto from $199/mo. 8 marketing automation tools compared on pricing, AI features, and integrations.",
    "representativeQueries": [
     "best ai marketing automation tools (2026): 8 compared",
     "ai marketing automation tools pricing comparison"
@@ -3230,12 +3230,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:best:ai-personalization-tools",
-   "displayName": "Best AI Personalization &amp; CDP tools (2026): 8 compared",
+   "displayName": "Best AI Personalization & CDP tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/ai-personalization-tools/",
-   "description": "8 personalization &amp; cdp tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "Twilio Segment from $120/mo, Clerk.io from $119/mo. 8 personalization & cdp tools compared on pricing, AI features, and integrations.",
    "representativeQueries": [
-    "best ai personalization &amp; cdp tools (2026): 8 compared",
+    "best ai personalization & cdp tools (2026): 8 compared",
     "ai personalization tools pricing comparison"
    ]
   },
@@ -3244,7 +3244,7 @@
    "displayName": "Best AI SEO tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/ai-seo-tools/",
-   "description": "Eight AI SEO tools compared on site audits, content optimization, and rank tracking, with a verdict and a skip-it line for each.",
+   "description": "Semrush from $117/mo, Clearscope from $129/mo. Eight AI SEO tools compared on site audits, content optimization, and rank tracking.",
    "representativeQueries": [
     "best ai seo tools (2026): 8 compared",
     "ai seo tools pricing comparison"
@@ -3255,7 +3255,7 @@
    "displayName": "Best AI Social Media tools (2026): 6 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/ai-social-media-tools/",
-   "description": "6 social media tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "Hootsuite from $99/mo, Sprout Social from $249/mo. 6 social media tools compared on pricing, AI features, and integrations.",
    "representativeQueries": [
     "best ai social media tools (2026): 6 compared",
     "ai social media tools pricing comparison"
@@ -3266,7 +3266,7 @@
    "displayName": "Best Customer Data Platforms (2026): composable to self-hosted",
    "type": "text/html",
    "url": "https://martechsignal.com/best/cdp/",
-   "description": "Six customer data platforms compared on architecture, pricing shape, self-hosting, and data-residency, with a pick for each team profile.",
+   "description": "RudderStack from $265/mo, Jitsu from $99/mo. Six customer data platforms compared on architecture, pricing shape, self-hosting, and data-residency.",
    "representativeQueries": [
     "best customer data platforms (2026): composable to self-hosted",
     "cdp pricing comparison"
@@ -3274,12 +3274,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:best:geo-llm-visibility-tools",
-   "displayName": "Best GEO &amp; LLM Optimization tools (2026): 9 compared",
+   "displayName": "Best GEO & LLM Optimization tools (2026): 9 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/geo-llm-visibility-tools/",
-   "description": "9 geo &amp; llm optimization tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "Nimt.ai from €79/mo, OtterlyAI from €29/mo. 9 geo & llm optimization tools compared on pricing, AI features, and integrations.",
    "representativeQueries": [
-    "best geo &amp; llm optimization tools (2026): 9 compared",
+    "best geo & llm optimization tools (2026): 9 compared",
     "geo llm visibility tools pricing comparison"
    ]
   },
@@ -3288,7 +3288,7 @@
    "displayName": "Best Marketing Analytics and Attribution tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/marketing-analytics-tools/",
-   "description": "8 analytics &amp; attribution tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "Matomo from €22/mo, Umami from $20/mo. 8 analytics & attribution tools compared on pricing, AI features, and integrations.",
    "representativeQueries": [
     "best marketing analytics and attribution tools (2026): 8 compared",
     "marketing analytics tools pricing comparison"
@@ -3299,7 +3299,7 @@
    "displayName": "Best open-source CRM tools (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/best/open-source-crm/",
-   "description": "Six open-source CRMs compared on licensing, pricing, AI features, and real maintenance costs, with a verdict and a skip-it line for each.",
+   "description": "EspoCRM from €12.90/mo, Twenty from $9/mo. Six open-source CRMs compared on licensing, pricing, AI features, and real maintenance costs.",
    "representativeQueries": [
     "best open-source crm tools (2026)",
     "open source crm pricing comparison"
@@ -3310,7 +3310,7 @@
    "displayName": "Best Open-Source Marketing Tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/open-source-marketing-tools/",
-   "description": "8 open-source tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "Mautic from €247.50/mo, n8n from €20/mo. 8 open-source tools compared on pricing, AI features, and integrations.",
    "representativeQueries": [
     "best open-source marketing tools (2026): 8 compared",
     "open source marketing tools pricing comparison"
@@ -3321,7 +3321,7 @@
    "displayName": "Best workflow automation tools (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/best/workflow-automation-tools/",
-   "description": "Six workflow automation platforms compared on billing units, self-hosting, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "n8n from €20/mo, Zapier from $19.99/mo. Six workflow automation platforms compared on billing units, self-hosting, AI features, and integrations.",
    "representativeQueries": [
     "best workflow automation tools (2026)",
     "workflow automation tools pricing comparison"
@@ -3332,7 +3332,7 @@
    "displayName": "ActiveCampaign vs HubSpot CRM (2026): pricing, automation",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/activecampaign-vs-hubspot/",
-   "description": "ActiveCampaign versus HubSpot CRM on pricing, automation depth, AI features, and integrations, with a pick-this-one line for each side.",
+   "description": "ActiveCampaign from $15/mo, HubSpot CRM from $20/mo. ActiveCampaign versus HubSpot CRM on pricing, automation depth, AI features, and integrations.",
    "representativeQueries": [
     "activecampaign vs hubspot crm (2026): pricing, automation",
     "activecampaign vs hubspot comparison"
@@ -3343,7 +3343,7 @@
    "displayName": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/",
-   "description": "ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "description": "ActiveCampaign from $15/mo, Klaviyo from $20/mo. ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations.",
    "representativeQueries": [
     "activecampaign vs klaviyo (2026): pricing, ai features, verdict",
     "activecampaign vs klaviyo comparison"
@@ -3354,7 +3354,7 @@
    "displayName": "Claude SEO vs Semrush (2026): pricing, AI features, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/claude-seo-vs-semrush/",
-   "description": "Claude SEO versus Semrush on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "description": "Semrush from $117/mo. Claude SEO versus Semrush on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
    "representativeQueries": [
     "claude seo vs semrush (2026): pricing, ai features, verdict",
     "claude seo vs semrush comparison"
@@ -3365,7 +3365,7 @@
    "displayName": "Jasper vs Writer (2026): pricing, AI features, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/jasper-vs-writer/",
-   "description": "Jasper versus Writer on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "description": "Jasper from $39/mo. Jasper versus Writer on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
    "representativeQueries": [
     "jasper vs writer (2026): pricing, ai features, verdict",
     "jasper vs writer comparison"
@@ -3376,7 +3376,7 @@
    "displayName": "Mailchimp vs Brevo (2026): pricing, multichannel, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/mailchimp-vs-brevo/",
-   "description": "Mailchimp versus Brevo on pricing by volume versus contacts, channels, AI features, and integrations, with a pick-this-one line for each side.",
+   "description": "Mailchimp from $13/mo, Brevo from $9/mo. Mailchimp versus Brevo on pricing by volume versus contacts, channels, AI features, and integrations.",
    "representativeQueries": [
     "mailchimp vs brevo (2026): pricing, multichannel, verdict",
     "mailchimp vs brevo comparison"
@@ -3387,7 +3387,7 @@
    "displayName": "Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/mailchimp-vs-klaviyo/",
-   "description": "Mailchimp versus Klaviyo on pricing, ecommerce depth, AI features, and integrations, with a pick-this-one line for each side.",
+   "description": "Mailchimp from $13/mo, Klaviyo from $20/mo. Mailchimp versus Klaviyo on pricing, ecommerce depth, AI features, and integrations.",
    "representativeQueries": [
     "mailchimp vs klaviyo (2026): pricing, ecommerce depth, verdict",
     "mailchimp vs klaviyo comparison"
@@ -3398,7 +3398,7 @@
    "displayName": "Make vs Zapier (2026): pricing, AI features, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/make-vs-zapier/",
-   "description": "Make versus Zapier on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "description": "Make from $9/mo, Zapier from $19.99/mo. Make versus Zapier on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
    "representativeQueries": [
     "make vs zapier (2026): pricing, ai features, verdict",
     "make vs zapier comparison"
@@ -3409,7 +3409,7 @@
    "displayName": "Matomo vs Plausible (2026): analytics depth or simplicity",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/matomo-vs-plausible/",
-   "description": "Matomo vs Plausible compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a balanced pick for each team.",
+   "description": "Matomo from €22/mo, Plausible Analytics from $9/mo. Matomo vs Plausible compared on pricing, self-hosting, AI features, and integrations.",
    "representativeQueries": [
     "matomo vs plausible (2026): analytics depth or simplicity",
     "matomo vs plausible comparison"
@@ -3420,7 +3420,7 @@
    "displayName": "Matomo vs PostHog (2026): web analytics or product analytics",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/matomo-vs-posthog/",
-   "description": "Matomo vs PostHog compared on price, deployment, privacy and scope. Web analytics depth against product analytics breadth, with real migration notes.",
+   "description": "Matomo from €22/mo. Matomo vs PostHog compared on price, deployment, privacy and scope.",
    "representativeQueries": [
     "matomo vs posthog (2026): web analytics or product analytics",
     "matomo vs posthog comparison"
@@ -3431,7 +3431,7 @@
    "displayName": "n8n vs Make vs Zapier (2026): the three-way automation decision",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/",
-   "description": "n8n vs Make vs Zapier on price, self-hosting, connectors and exit cost. A three-way decision table and real switching notes from the catalogued numbers.",
+   "description": "n8n from €20/mo, Make from $9/mo. n8n vs Make vs Zapier on price, self-hosting, connectors and exit cost.",
    "representativeQueries": [
     "n8n vs make vs zapier (2026): the three-way automation decision",
     "n8n vs make vs zapier comparison"
@@ -3442,7 +3442,7 @@
    "displayName": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/n8n-vs-zapier/",
-   "description": "n8n vs Zapier compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a clear pick for each team.",
+   "description": "n8n from €20/mo, Zapier from $19.99/mo. n8n vs Zapier compared on pricing, self-hosting, AI features, and integrations.",
    "representativeQueries": [
     "n8n vs zapier (2026): self-hosted depth or catalog breadth",
     "n8n vs zapier comparison"
@@ -3453,7 +3453,7 @@
    "displayName": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/nocodb-vs-nocobase/",
-   "description": "NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, and integrations, with catalog facts and a balanced pick for each team.",
+   "description": "NocoDB from $12/mo. NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, and integrations.",
    "representativeQueries": [
     "nocodb vs nocobase (2026): spreadsheet layer or system builder",
     "nocodb vs nocobase comparison"
@@ -3464,7 +3464,7 @@
    "displayName": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/",
-   "description": "Salesforce Marketing Cloud versus HubSpot Marketing Hub on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "description": "Salesforce Marketing Cloud from $25/mo, HubSpot Marketing Hub from $20/mo. Salesforce Marketing Cloud versus HubSpot Marketing Hub on pricing, deployment.",
    "representativeQueries": [
     "salesforce marketing cloud vs hubspot marketing hub (2026)",
     "salesforce marketing cloud vs hubspot comparison"
@@ -3475,7 +3475,7 @@
    "displayName": "Best HubSpot CRM alternatives (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/hubspot-crm/",
-   "description": "Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive, with real pricing and honest limits.",
+   "description": "Twenty from $9/mo, EspoCRM from €12.90/mo. Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive.",
    "representativeQueries": [
     "best hubspot crm alternatives (2026)",
     "hubspot crm alternatives"
@@ -3486,7 +3486,7 @@
    "displayName": "Mailchimp alternatives (2026): 10 email platforms compared",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/mailchimp/",
-   "description": "Ten Mailchimp alternatives compared on pricing shape, self-hosting, channels, and migration, with a best-fit and not-for line for each.",
+   "description": "Brevo from $9/mo, Klaviyo from $20/mo. Ten Mailchimp alternatives compared on pricing shape, self-hosting, channels, and migration.",
    "representativeQueries": [
     "mailchimp alternatives (2026): 10 email platforms compared",
     "mailchimp alternatives"
@@ -3497,7 +3497,7 @@
    "displayName": "Best Matomo alternatives (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/matomo/",
-   "description": "Five Matomo alternatives: lightweight privacy analytics (Plausible, Umami), product suites, and a warehouse pipeline, with honest limits.",
+   "description": "Plausible Analytics from $9/mo, Umami from $20/mo. Five Matomo alternatives: lightweight privacy analytics (Plausible, Umami), product suites.",
    "representativeQueries": [
     "best matomo alternatives (2026)",
     "matomo alternatives"
@@ -3508,7 +3508,7 @@
    "displayName": "Best n8n alternatives (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/n8n/",
-   "description": "n8n alternatives including Make, Zapier, Pipedream, and Activepieces, with pricing models and the buyer each one fits.",
+   "description": "Make from $9/mo, Zapier from $19.99/mo. n8n alternatives including Make, Zapier, Pipedream, and Activepieces.",
    "representativeQueries": [
     "best n8n alternatives (2026)",
     "n8n alternatives"
@@ -3519,10 +3519,76 @@
    "displayName": "Best Zapier alternatives (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/zapier/",
-   "description": "Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase, with real pricing models and the buyer each one fits.",
+   "description": "n8n from €20/mo, Make from $9/mo. Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase.",
    "representativeQueries": [
     "best zapier alternatives (2026)",
     "zapier alternatives"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:guides:agentic-ai-advertising",
+   "displayName": "Agentic advertising: what platforms automate without you",
+   "type": "text/html",
+   "url": "https://martechsignal.com/guides/agentic-ai-advertising/",
+   "description": "The agentic-advertising coverage in one place: AI Overviews and zero-click pressure, autonomous spend in the platforms, and available guardrail work.",
+   "representativeQueries": [
+    "agentic advertising: what platforms automate without you",
+    "agentic ai advertising guide"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:guides:ai-seo-tooling",
+   "displayName": "AI SEO tooling: benchmarks, comparisons, and the honest limits",
+   "type": "text/html",
+   "url": "https://martechsignal.com/guides/ai-seo-tooling/",
+   "description": "What AI SEO tools actually measure, how the benchmark suite tests them, and which comparisons hold up when you run the tool instead of reading the pitch.",
+   "representativeQueries": [
+    "ai seo tooling: benchmarks, comparisons, and the honest limits",
+    "ai seo tooling guide"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:guides:generative-engine-optimization",
+   "displayName": "Generative Engine Optimization (GEO): the working guide",
+   "type": "text/html",
+   "url": "https://martechsignal.com/guides/generative-engine-optimization/",
+   "description": "What generative engine optimization actually changes: how AI answers pick sources, what to measure when clicks stop, and the tooling that exists in 2026.",
+   "representativeQueries": [
+    "generative engine optimization (geo): the working guide",
+    "generative engine optimization guide"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:guides:mcp-agent-protocols",
+   "displayName": "MCP and agent protocols for marketers: the working hub",
+   "type": "text/html",
+   "url": "https://martechsignal.com/guides/mcp-agent-protocols/",
+   "description": "What Model Context Protocol and the agent protocol layer change about martech integration economics, plus the failure modes worth auditing first.",
+   "representativeQueries": [
+    "mcp and agent protocols for marketers: the working hub",
+    "mcp agent protocols guide"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:guides:workflow-automation-strategy",
+   "displayName": "Workflow automation without the AI-tool pile-on: the strategy hub",
+   "type": "text/html",
+   "url": "https://martechsignal.com/guides/workflow-automation-strategy/",
+   "description": "The workflow automation coverage in one place: where AI tools fit, long-run no-code costs, and how to audit what you already own.",
+   "representativeQueries": [
+    "workflow automation without the ai-tool pile-on: the strategy hub",
+    "workflow automation strategy guide"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:pages:home",
+   "displayName": "MartechSignal | AI Marketing Automation, Researched",
+   "type": "text/html",
+   "url": "https://martechsignal.com/",
+   "description": "Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy. Honest assessments, no sponsored rankings.",
+   "representativeQueries": [
+    "martechsignal",
+    "ai marketing tool reviews"
    ]
   },
   {
@@ -3612,6 +3678,115 @@
    "representativeQueries": [
     "martechsignal terms of service",
     "martechsignal usage terms"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:pages:tools",
+   "displayName": "AI Marketing Tool Directory",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/",
+   "description": "Browse 166 curated AI marketing automation tools across 14 categories - open-source and SaaS, with assessments desk-researched from vendor.",
+   "representativeQueries": [
+    "martechsignal tool directory",
+    "all ai marketing tools"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:pages:categories",
+   "displayName": "Categories",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/",
+   "description": "Browse all 13 categories plus the open-source index across 166 marketing-automation tools: licences, stars and plain-English summaries.",
+   "representativeQueries": [
+    "martechsignal categories",
+    "browse tools by category"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:pages:guides",
+   "displayName": "Strategy Guides: GEO, Automation, AI SEO",
+   "type": "text/html",
+   "url": "https://martechsignal.com/guides/",
+   "description": "Strategy guides for marketers: generative engine optimization, agentic advertising, workflow automation, AI SEO tooling and agent protocols.",
+   "representativeQueries": [
+    "martechsignal guides",
+    "how-to guides"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:pages:blog",
+   "displayName": "Blog",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/",
+   "description": "Deep-dives, tool teardowns, and hot takes on AI in marketing automation.",
+   "representativeQueries": [
+    "martechsignal blog",
+    "marketing teardown blog"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:pages:glossary",
+   "displayName": "Marketing Technology Glossary",
+   "type": "text/html",
+   "url": "https://martechsignal.com/glossary/",
+   "description": "Plain-English definitions of 30 marketing technology terms, linked to real tools in our directory.",
+   "representativeQueries": [
+    "martechsignal glossary",
+    "marketing term definitions"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:pages:trending",
+   "displayName": "Open-Source MarTech Momentum: GitHub Stars",
+   "type": "text/html",
+   "url": "https://martechsignal.com/trending/",
+   "description": "Daily GitHub star snapshots for 82 open-source martech tools: weekly movers, sparklines, and category leaderboards.",
+   "representativeQueries": [
+    "trending martech tools",
+    "what tools trend on github"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:pages:contact",
+   "displayName": "Contact",
+   "type": "text/html",
+   "url": "https://martechsignal.com/contact/",
+   "description": "Corrections, tips, vendor news, or questions about how MartechSignal tests tools. Email tim@martechsignal.com or use the contact form.",
+   "representativeQueries": [
+    "contact martechsignal"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:pages:best",
+   "displayName": "Best-of lists (2026): open-source CRM, workflow, AI SEO",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/",
+   "description": "Sixteen best-of lists with catalog-grounded pricing, a verdict and a skip-it line per tool: open-source CRM, workflow automation platforms and AI SEO.",
+   "representativeQueries": [
+    "best ai marketing tools",
+    "top picks by category"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:pages:vs",
+   "displayName": "Head-to-head comparisons (2026)",
+   "type": "text/html",
+   "url": "https://martechsignal.com/vs/",
+   "description": "Thirteen head-to-head comparisons of overlapping marketing tools, built on catalog facts with a clear pick for each team.",
+   "representativeQueries": [
+    "tool comparisons",
+    "x vs y"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:pages:alternatives",
+   "displayName": "Alternatives guides (2026)",
+   "type": "text/html",
+   "url": "https://martechsignal.com/alternatives/",
+   "description": "Five alternatives guides: credible options besides HubSpot CRM, Zapier, Matomo, n8n and Mailchimp, with who each pick fits and vendor-published pricing.",
+   "representativeQueries": [
+    "tool alternatives",
+    "x alternatives"
    ]
   }
  ]

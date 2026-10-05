@@ -115,4 +115,4 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
-******JSON
+JSON

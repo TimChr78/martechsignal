@@ -16,6 +16,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Adobe Marketo Engage is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Adobe Marketo Engage →](https://business.adobe.com/products/marketo.html)
 
 ## MartechSignal Score: 39/60

@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** HubSpot Marketing Hub is a tool in Marketing Automation with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit HubSpot Marketing Hub →](https://www.hubspot.com/products/marketing)
 
 ## MartechSignal Score: 42/60

@@ -16,6 +16,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** AccuRanker is a tool in GEO & LLM Optimization with paid plans starting at €224/mo. The catalog documents 1 AI feature, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit AccuRanker →](https://www.accuranker.com)
 
 ## MartechSignal Score: 33/60

@@ -16,6 +16,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Rankscale is a tool in GEO & LLM Optimization with paid plans starting at €99/mo. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Rankscale →](https://rankscale.ai/)
 
 ## MartechSignal Score: 35/60

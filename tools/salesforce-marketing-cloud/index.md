@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Salesforce Marketing Cloud is a tool in Marketing Automation with paid plans starting at $25/mo. The catalog documents 5 AI features, 9 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Salesforce Marketing Cloud →](https://www.salesforce.com/products/marketing-cloud/)
 
 ## MartechSignal Score: 42/60

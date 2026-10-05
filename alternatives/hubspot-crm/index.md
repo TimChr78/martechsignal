@@ -16,7 +16,7 @@ Last verified 2026-09-28.
 | Tool | Price | Billing model | Self-host | Best for |
 | --- | --- | --- | --- | --- |
 | [Twenty](/tools/twenty/) | Open Source from $9/mo | Free self-host, paid cloud | Yes | Technical teams, agencies, and privacy-conscious organizations that want a modern CRM they can self-host and extend with code. |
-| [EspoCRM](/tools/espocrm/) | Open Source from €12.9/mo | Free self-host, paid cloud | Yes | Small teams that want a lightweight self-hosted CRM with solid sales automation and are willing to buy extensions as needed. |
+| [EspoCRM](/tools/espocrm/) | Open Source from €12.90/mo | Free self-host, paid cloud | Yes | Small teams that want a lightweight self-hosted CRM with solid sales automation and are willing to buy extensions as needed. |
 | [SuiteCRM](/tools/suitecrm/) | Open Source | Free self-host, paid cloud | Yes | Organizations that want the broadest free module set in open-source CRM, from quotes and invoices to campaigns and cases, and can run PHP infrastructure. |
 | [Pipedrive](/tools/pipedrive/) | From $14/mo | See vendor | No | Sales teams that already run a separate marketing stack and want a pipeline-first CRM that reps will actually use. |
 | [Frappe CRM](/tools/frappe-crm/) | Open Source from $5/mo | Free self-host, paid cloud | Yes | Budget-conscious sales teams that want unlimited users on an open-source CRM and are comfortable with the Frappe stack. |
@@ -35,7 +35,7 @@ Twenty is open source under AGPLv3 where HubSpot is closed, and self-hosting on 
 
 ## [EspoCRM as a HubSpot CRM alternative](/tools/espocrm/)
 
-Open Source from €12.9/mo OSS
+Open Source from €12.90/mo OSS
 
 Vendor: [Official site](https://www.espocrm.com) · [Pricing](https://www.espocrm.com/cloud/) · [GitHub](https://github.com/espocrm/espocrm)
 
@@ -94,6 +94,8 @@ SuiteCRM. Its verdict claims the broadest free module set in open-source CRM, fr
 Pipedrive. It is pipeline-first by design for sales teams whose marketing lives elsewhere. That split is exactly when HubSpot's all-in-one pricing stops earning its seat.
 
 Read the full assessment of [HubSpot CRM](/tools/hubspot-crm/), or browse all [crm tools](/categories/crm/).
+
+Down to two finalists: [ActiveCampaign vs HubSpot CRM (2026): pricing, automation](/vs/activecampaign-vs-hubspot/).
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

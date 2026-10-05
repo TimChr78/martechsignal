@@ -119,6 +119,17 @@ def build():
             f'<a href="/tools/{target["slug"]}/">{esc(target["name"])}</a>, or browse all '
             f'<a href="/categories/{target["category"]}/">'
             f'{esc(target["category"].replace("-", " "))} tools</a>.</p>')
+        # r25 M-1 (2026-10-05): reverse direction of the vs/alternatives silo.
+        # An alternatives reader down to two finalists gets the head-to-head.
+        _vsx_path = ROOT / "tools" / "vsx-content.json"
+        _vsx = json.loads(_vsx_path.read_text())["pages"] if _vsx_path.exists() else []
+        _vsl = []
+        for _vp in _vsx:
+            _involved = [s for s in (_vp.get("a_slug"), _vp.get("b_slug"), _vp.get("c_slug")) if s]
+            if page["slug"] in _involved:
+                _vsl.append(f'<a href="/vs/{_vp["slug"]}/">{esc(_vp["title"])}</a>')
+        if _vsl:
+            body.append('<p class="alt-back">Down to two finalists: ' + ' · '.join(_vsl) + '.</p>')
 
         items = page["items"]
         schema = {

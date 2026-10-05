@@ -16,6 +16,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** ActiveCampaign is a tool in Marketing Automation with paid plans starting at $15/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit ActiveCampaign →](https://www.activecampaign.com)
 
 ## MartechSignal Score: 40/60

@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Attribution is a tool in Analytics & Attribution with custom pricing. The catalog documents 4 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Attribution →](https://www.attributionapp.com)
 
 ## MartechSignal Score: 27/60

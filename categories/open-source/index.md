@@ -9,7 +9,7 @@
 
 81 TOOLS IN THIS CATEGORY
 
-## All tools in this category**
+## All tools in this category
 
 - [Aaron Marketing Skills 120 marketing skills across 7 discipl](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 - [Activepieces Open-source workflow automation with a free clo](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting

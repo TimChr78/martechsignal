@@ -7,7 +7,7 @@ Mautic comes first: HubSpot-class automation you host yourself. Listmonk sends n
 
 | Tool | Pricing | Public API | Best for |
 | --- | --- | --- | --- |
-| [Mautic](/tools/mautic/) | Open Source from €247.5/mo | yes | Marketing teams that want HubSpot-class automation they can host themselves |
+| [Mautic](/tools/mautic/) | Open Source from €247.50/mo | yes | Marketing teams that want HubSpot-class automation they can host themselves |
 | [Listmonk](/tools/listmonk/) | Open Source | yes | Newsletter and lifecycle email at one list price, with no per-contact billing |
 | [Laudspeaker](/tools/laudspeaker/) | Open Source | yes | Lifecycle messaging and onboarding journeys that live outside the CRM |
 | [SuiteCRM](/tools/suitecrm/) | Open Source | yes | Sales teams that want a mature, enterprise-shaped CRM they control |

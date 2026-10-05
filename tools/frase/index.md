@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Frase is a tool in SEO & Search with paid plans starting at $39/mo. The catalog documents 8 AI features, 14 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Frase →](https://www.frase.io)
 
 ## MartechSignal Score: 37/60

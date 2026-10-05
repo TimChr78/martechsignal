@@ -68,6 +68,9 @@ def build_categories(cats, tools):
         "name": "Categories",
         "url": "https://martechsignal.com/categories/",
         "description": f"All {_n_real} tool categories plus an open-source index in the MartechSignal directory.",
+        # r25 L-16 (2026-10-05): the CollectionPage carries its own breadcrumb
+        # edge (page_shell auto-emits the matching BreadcrumbList with @id).
+        "breadcrumb": {"@id": "https://martechsignal.com/categories/#breadcrumb"},
         # r11 M-9 (2026-09-29): hasPart for the 14 children — same pattern
         # as the /guides/ fix (r11 H-6). Single source: the cats list below.
         "hasPart": [
@@ -103,6 +106,8 @@ def build_authors():
         "name": "Authors",
         "url": "https://martechsignal.com/authors/",
         "description": "MartechSignal authors.",
+        # r25 L-16 (2026-10-05): own breadcrumb edge, same pattern as hubs.
+        "breadcrumb": {"@id": "https://martechsignal.com/authors/#breadcrumb"},
     }
     return page_shell(
         "Authors | MartechSignal",

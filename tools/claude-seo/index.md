@@ -18,6 +18,8 @@ Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we ha
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Claude SEO is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
+
 [Visit Claude SEO →](https://claude-seo.md/)
 
 ## Benchmark log: 43/60

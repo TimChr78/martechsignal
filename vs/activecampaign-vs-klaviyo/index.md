@@ -6,7 +6,7 @@ Pick ActiveCampaign if you want automation plus CRM in one SMB-priced platform, 
 
 ActiveCampaign and Klaviyo end up on the same shortlist. ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento.
 
-Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
+Most decisions here come down to how it bills. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
 The choice usually lands on one question: how much of the customer relationship lives in the tool. ActiveCampaign wants to run email, SMS, and a light CRM in one place. Klaviyo wants to own the ecommerce messaging stack and the data underneath it. The pricing pages will not decide this for you; the contact tiers look similar and the shape of the product does not.
 

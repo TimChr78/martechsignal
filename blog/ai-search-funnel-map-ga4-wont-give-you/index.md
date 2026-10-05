@@ -110,4 +110,4 @@ More from the directory: [Anyword](/tools/anyword/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
-******JSON
+JSON

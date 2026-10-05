@@ -9,7 +9,7 @@ Marketing automation platforms reviewed: workflow depth, guardrails, and AI auto
 
 12 TOOLS IN THIS CATEGORY
 
-## SUITE PLATFORMS***7*
+## SUITE PLATFORMS (7)
 
 - [ActiveCampaign AI-powered marketing automation and CRM for s](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
 - [Adobe Marketo Engage Enterprise B2B marketing automation wit](/tools/adobe-marketo/): Enterprise B2B marketing automation with AI-driven lead management and engagement
@@ -18,7 +18,7 @@ Marketing automation platforms reviewed: workflow depth, guardrails, and AI auto
 - [HubSpot Marketing Hub All-in-one marketing automation with A](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 - [Ortto Customer data and marketing automation platform with j](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
 - [Salesforce Marketing Cloud Enterprise marketing automation o](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
-## POINT + OPEN-SOURCE TOOLS***5*
+## POINT + OPEN-SOURCE TOOLS (5)
 
 - [ALwrity AI-first digital marketing platform for content stra](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
 - [Laudspeaker Open-source customer engagement and product onbo](/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze

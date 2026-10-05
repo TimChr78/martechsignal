@@ -24,7 +24,7 @@ Last verified 2026-10-01.
 | [Maizzle](/tools/maizzle/) | Free | Free | Yes | Agencies and developers building fast, clean HTML email templates with Tailwind as code. |
 | [Postmark](/tools/postmark/) | Freemium from $15/mo | Freemium, self-serve tiers | No | SaaS products that need transactional email with best-in-class deliverability discipline. |
 | [Loops](/tools/loops/) | Freemium | Freemium, self-serve tiers | No | Modern SaaS marketing teams that want a clean lifecycle builder with webhook-native events. |
-| [BillionMail](/tools/billionmail/) | Open Source from $98.9/mo | Free self-host, paid cloud | Yes | Self-hosters who want an open-source Mailchimp-shaped experience - campaigns, templates, and statistics in one panel. |
+| [BillionMail](/tools/billionmail/) | Open Source from $98.90/mo | Free self-host, paid cloud | Yes | Self-hosters who want an open-source Mailchimp-shaped experience - campaigns, templates, and statistics in one panel. |
 
 ## [Brevo as a Mailchimp alternative](/tools/brevo/)
 
@@ -136,7 +136,7 @@ Loops starts free and prices as the contact list grows; API and event hooks are 
 
 ## [BillionMail as a Mailchimp alternative](/tools/billionmail/)
 
-Open Source from $98.9/mo OSS
+Open Source from $98.90/mo OSS
 
 Vendor: [Official site](https://www.billionmail.com) · [GitHub](https://github.com/Billionmail/BillionMail)
 
@@ -159,6 +159,8 @@ Listmonk (AGPLv3, single-binary Go) and BillionMail (fair-code licence). Mautic 
 Klaviyo - purchase-event data models flow segments and revenue reporting that Mailchimp's Essentials and Standard tiers approximate but do not match.
 
 Read the full assessment of [Mailchimp](/tools/mailchimp/), or browse all [email marketing tools](/categories/email-marketing/).
+
+Down to two finalists: [Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict](/vs/mailchimp-vs-klaviyo/) · [Mailchimp vs Brevo (2026): pricing, multichannel, verdict](/vs/mailchimp-vs-brevo/).
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

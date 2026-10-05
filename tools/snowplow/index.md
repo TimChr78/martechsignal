@@ -16,6 +16,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Snowplow is a tool in Analytics & Attribution with free and open source. The catalog documents 3 AI features, 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Snowplow →](https://snowplow.io)
 
 ## MartechSignal Score: 42/60

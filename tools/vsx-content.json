@@ -4,12 +4,12 @@
    "slug": "n8n-vs-zapier",
    "title": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
    "seo_title": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
-   "meta": "n8n vs Zapier compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a clear pick for each team.",
+   "meta": "n8n from €20/mo, Zapier from $19.99/mo. n8n vs Zapier compared on pricing, self-hosting, AI features, and integrations.",
    "a_slug": "n8n",
    "b_slug": "zapier",
    "intro": [
     "The real difference here is not a feature checklist. It is where your automations run and who pays when they work. n8n runs the whole engine on your own hardware under a fair-code license, while Zapier sells access to a hosted platform whose main asset is a catalog of more than 9,000 apps. Both now ship AI agents, so the AI column rarely decides this purchase on its own.",
-    "Teams usually arrive at this comparison after hitting one of two walls: a Zapier bill that scales with every successful run, or an n8n instance that needs someone to maintain it. The axis is metered convenience against owned infrastructure, and the catalog numbers below show what each side charges for the same five-step lead-intake workflow."
+    "Teams usually arrive at this comparison after hitting one of two walls: a Zapier bill that scales with every successful run, or an n8n instance that needs someone to maintain it. The axis is metered convenience against owned infrastructure, and the catalog numbers show what each side charges for the same five-step lead-intake workflow."
    ],
    "sections": [
     {
@@ -144,7 +144,7 @@
    "slug": "nocodb-vs-nocobase",
    "title": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
    "seo_title": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
-   "meta": "NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, and integrations, with catalog facts and a balanced pick for each team.",
+   "meta": "NocoDB from $12/mo. NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, and integrations.",
    "a_slug": "nocodb",
    "b_slug": "nocobase",
    "intro": [
@@ -262,7 +262,7 @@
    "slug": "matomo-vs-plausible",
    "title": "Matomo vs Plausible (2026): analytics depth or simplicity",
    "seo_title": "Matomo vs Plausible (2026): analytics depth or simplicity",
-   "meta": "Matomo vs Plausible compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a balanced pick for each team.",
+   "meta": "Matomo from €22/mo, Plausible Analytics from $9/mo. Matomo vs Plausible compared on pricing, self-hosting, AI features, and integrations.",
    "a_slug": "matomo",
    "b_slug": "plausible",
    "intro": [
@@ -387,12 +387,12 @@
    "slug": "claude-seo-vs-semrush",
    "title": "Claude SEO vs Semrush (2026): pricing, AI features, verdict",
    "seo_title": "Claude SEO vs Semrush (2026): pricing, AI features, verdict",
-   "meta": "Claude SEO versus Semrush on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "meta": "Semrush from $117/mo. Claude SEO versus Semrush on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
    "a_slug": "claude-seo",
    "b_slug": "semrush",
    "intro": [
     "Claude SEO and Semrush end up on the same shortlist. Claude SEO turns Claude Code into an SEO audit machine. Semrush is the closest thing the SEO industry has to an operating system: a platform that spans keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid advertising intelligence, social media management, and increasingly, AI search visibility.",
-    "Most decisions here come down to where it runs, how it bills, and how deep the AI features go. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "Most decisions here come down to where it runs, how it bills, and how deep the AI features go. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
     "These two barely share a budget line. Semrush is a subscription suite with a large database behind it. Claude SEO is free software that runs inside a coding session and audits one site at a time. Teams that keep both usually split the work: rank tracking and keyword research in one, technical audits in the other."
    ],
    "pick_a_if": "Pick Claude SEO if you can host it yourself and want code-level control, starting free.",
@@ -511,12 +511,12 @@
    "slug": "salesforce-marketing-cloud-vs-hubspot",
    "title": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)",
    "seo_title": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)",
-   "meta": "Salesforce Marketing Cloud versus HubSpot Marketing Hub on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "meta": "Salesforce Marketing Cloud from $25/mo, HubSpot Marketing Hub from $20/mo. Salesforce Marketing Cloud versus HubSpot Marketing Hub on pricing, deployment.",
    "a_slug": "salesforce-marketing-cloud",
    "b_slug": "hubspot-marketing-hub",
    "intro": [
     "Salesforce Marketing Cloud and HubSpot Marketing Hub end up on the same shortlist. Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing pages, lead capture, campaign management, and marketing automation in a single platform.",
-    "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test."
+    "Most decisions here come down to how it bills. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test."
    ],
    "pick_a_if": "Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.",
    "pick_b_if": "Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.",
@@ -634,13 +634,13 @@
    "slug": "make-vs-zapier",
    "title": "Make vs Zapier (2026): pricing, AI features, verdict",
    "seo_title": "Make vs Zapier (2026): pricing, AI features, verdict",
-   "meta": "Make versus Zapier on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "meta": "Make from $9/mo, Zapier from $19.99/mo. Make versus Zapier on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
    "a_slug": "make",
    "b_slug": "zapier",
    "intro": [
     "Make and Zapier end up on the same shortlist. Make, the platform formerly known as Integromat, sits between Zapier's simplicity and n8n's depth. Zapier is the automation platform most people mean when they say they want to connect two tools without writing code.",
-    "Most decisions here come down to price and fit. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
-    "Both platforms now sell AI features on top of the same plumbing: triggers, actions, and a scheduler between them. The price gap and the credit-versus-task metering decide more deals than any feature list, so the volume table below is the part to read twice.",
+    "Most decisions here come down to price and fit. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "Both platforms now sell AI features on top of the same plumbing: triggers, actions, and a scheduler between them. The price gap and the credit-versus-task metering decide more deals than any feature list, so the volume table is the part to read twice.",
     "The pair pages beside this one (n8n vs Zapier, and the three-way) carry the wider automation-platform picture; here we stay on the two visual builders that fight for the same buyer."
    ],
    "pick_a_if": "Pick Make if you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.",
@@ -761,12 +761,12 @@
    "slug": "activecampaign-vs-klaviyo",
    "title": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
    "seo_title": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
-   "meta": "ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "meta": "ActiveCampaign from $15/mo, Klaviyo from $20/mo. ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations.",
    "a_slug": "activecampaign",
    "b_slug": "klaviyo",
    "intro": [
     "ActiveCampaign and Klaviyo end up on the same shortlist. ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento.",
-    "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "Most decisions here come down to how it bills. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
     "The choice usually lands on one question: how much of the customer relationship lives in the tool. ActiveCampaign wants to run email, SMS, and a light CRM in one place. Klaviyo wants to own the ecommerce messaging stack and the data underneath it. The pricing pages will not decide this for you; the contact tiers look similar and the shape of the product does not."
    ],
    "pick_a_if": "Pick ActiveCampaign if you want a hosted platform the vendor runs for you, and ai content generation and predictive sending matters to your team, starting at $15/mo.",
@@ -885,12 +885,12 @@
    "slug": "jasper-vs-writer",
    "title": "Jasper vs Writer (2026): pricing, AI features, verdict",
    "seo_title": "Jasper vs Writer (2026): pricing, AI features, verdict",
-   "meta": "Jasper versus Writer on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "meta": "Jasper from $39/mo. Jasper versus Writer on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
    "a_slug": "jasper",
    "b_slug": "writer",
    "intro": [
     "Jasper and Writer end up on the same shortlist. Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform.",
-    "Most decisions here come down to price and fit. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "Most decisions here come down to price and fit. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
     "Both sell AI writing to marketing departments, and both pitch governance harder than generation. Jasper publishes its prices and sells self-serve. Writer keeps the price table behind a conversation and sells to companies that start with a security review. That difference predicts the rest of the comparison.",
     "Both platforms sell to marketing leadership rather than individual writers, so the pricing conversation runs through a sales process at the top tiers."
    ],
@@ -1013,7 +1013,7 @@
    "c_slug": "zapier",
    "title": "n8n vs Make vs Zapier (2026): the three-way automation decision",
    "seo_title": "n8n vs Make vs Zapier (2026): the three-way automation decision",
-   "meta": "n8n vs Make vs Zapier on price, self-hosting, connectors and exit cost. A three-way decision table and real switching notes from the catalogued numbers.",
+   "meta": "n8n from €20/mo, Make from $9/mo. n8n vs Make vs Zapier on price, self-hosting, connectors and exit cost.",
    "date_published": "2026-09-28",
    "date_updated": "2026-09-28",
    "intro": [
@@ -1106,12 +1106,12 @@
    "b_slug": "posthog",
    "title": "Matomo vs PostHog (2026): web analytics or product analytics",
    "seo_title": "Matomo vs PostHog (2026): web analytics or product analytics",
-   "meta": "Matomo vs PostHog compared on price, deployment, privacy and scope. Web analytics depth against product analytics breadth, with real migration notes.",
+   "meta": "Matomo from €22/mo. Matomo vs PostHog compared on price, deployment, privacy and scope.",
    "date_published": "2026-09-28",
    "date_updated": "2026-09-28",
    "intro": [
     "Matomo and PostHog get compared more than their categories suggest, because both answer the same executive question: what do people do on our thing? They answer it from opposite ends. Matomo is web analytics in the classic sense, built to replace Google Analytics with better privacy defaults. PostHog is product analytics with web numbers as one slice of the platform.",
-    "The numbers below come from each vendor's own published materials, catalogued and checked this month. For the privacy-first three-way including Plausible, start with the quick-decision table on Matomo vs Plausible.",
+    "The numbers come from each vendor's own published materials, catalogued and checked this month. For the privacy-first three-way including Plausible, start with the quick-decision table on Matomo vs Plausible.",
     "Both products grew up open source and both still sell trust as much as features: one promises your analytics data stays yours, the other promises your product data answers questions without a data team. The trade-offs below follow from that split."
    ],
    "sections": [
@@ -1200,10 +1200,10 @@
    "date_updated": "2026-10-01",
    "intro": [
     "Mailchimp and Klaviyo end up on the same shortlist whenever a store outgrows newsletters. Mailchimp is the most recognized name in email marketing, with over 11 million users from solopreneurs to mid-market, and an Intuit-owned platform that now spans landing pages, ads, SMS, automation, and a basic CRM. Klaviyo is the dominant email and SMS platform for ecommerce brands, built around behavioral profiles from purchase history, browsing, and predicted lifetime value.",
-    "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "Most decisions here come down to how it bills. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
     "The choice usually lands on one question: is the store the center of the data model or one channel among several. Klaviyo assumes commerce data is the foundation and prices by contacts. Mailchimp assumes a mixed audience and prices by plan tier, which stays cheap for small lists and climbs steeply once ecommerce volume arrives."
    ],
-   "meta": "Mailchimp versus Klaviyo on pricing, ecommerce depth, AI features, and integrations, with a pick-this-one line for each side.",
+   "meta": "Mailchimp from $13/mo, Klaviyo from $20/mo. Mailchimp versus Klaviyo on pricing, ecommerce depth, AI features, and integrations.",
    "migration": [
     "Moving lists is the easy afternoon. Klaviyo's flows, segments, and predictive models rebuild from the event stream, so the Shopify or WooCommerce integration moves first and history replays into fresh profiles; template styling gets redone in the new editor.",
     "Deliverability deserves its own line in the plan. Consent records and suppression lists have to travel with the contacts, and sending reputation does not. Warm the new setup gradually instead of importing the whole list and mailing it on day one.",
@@ -1324,10 +1324,10 @@
    "date_updated": "2026-10-01",
    "intro": [
     "ActiveCampaign and HubSpot CRM end up on the same shortlist when automation outgrows the email tool. ActiveCampaign combines marketing automation, email, and a light CRM in one platform for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. HubSpot CRM brings sales, service, and marketing workflows into one platform around a unified contact record, with a free CRM that on-ramps teams into paid hubs.",
-    "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "Most decisions here come down to how it bills. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
     "The choice usually lands on one question: which system owns the contact. ActiveCampaign prices automation depth per tier starting at $15/mo. HubSpot prices seats per hub, free to start, with the bill arriving as the team and the contact database grow."
    ],
-   "meta": "ActiveCampaign versus HubSpot CRM on pricing, automation depth, AI features, and integrations, with a pick-this-one line for each side.",
+   "meta": "ActiveCampaign from $15/mo, HubSpot CRM from $20/mo. ActiveCampaign versus HubSpot CRM on pricing, automation depth, AI features, and integrations.",
    "migration": [
     "Moving lists is the easy afternoon. ActiveCampaign automations do not export into HubSpot workflows, so every multi-step sequence gets rebuilt and re-verified, and lead scoring rules get re-expressed in the new vocabulary.",
     "Deliverability deserves its own line in the plan. Consent records and suppression lists have to travel with the contacts, and sending reputation does not. Warm the new setup gradually instead of importing the whole database and mailing it on day one.",
@@ -1445,14 +1445,14 @@
    "slug": "mailchimp-vs-brevo",
    "title": "Mailchimp vs Brevo (2026): pricing, multichannel, verdict",
    "seo_title": "Mailchimp vs Brevo (2026): pricing, multichannel, verdict",
-   "meta": "Mailchimp versus Brevo on pricing by volume versus contacts, channels, AI features, and integrations, with a pick-this-one line for each side.",
+   "meta": "Mailchimp from $13/mo, Brevo from $9/mo. Mailchimp versus Brevo on pricing by volume versus contacts, channels, AI features, and integrations.",
    "a_slug": "mailchimp",
    "b_slug": "brevo",
    "date_published": "2026-10-01",
    "date_updated": "2026-10-01",
    "intro": [
     "Mailchimp and Brevo end up on the same shortlist when the mailing list arrives before the budget does. Mailchimp is the most recognized name in email marketing, with over 11 million users, an Intuit-owned platform spanning landing pages, social ads, SMS, automation, and a basic CRM. Brevo (born as Sendinblue) prices by monthly email volume instead of contact count and folds email, SMS, WhatsApp, chat, and a light CRM into one account.",
-    "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
+    "Most decisions here come down to how it bills. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.",
     "The choice usually lands on one question: does your list talk often, or just exist. Mailchimp charges per contact and rewards rarely-sent lists badly; Brevo charges per send and keeps 300 free emails a day flowing. Store-heavy teams still lean Mailchimp's commerce suite; multichannel-heavy teams on modest budgets lean Brevo."
    ],
    "sections": [

@@ -9,25 +9,25 @@ Email marketing across hosted, self-hosted, and transactional: contact vs volume
 
 16 TOOLS IN THIS CATEGORY
 
-## HOSTED CAMPAIGN PLATFORMS***5*
+## HOSTED CAMPAIGN PLATFORMS (5)
 
 - [Brevo Multichannel marketing platform billing by email volum](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
 - [Customer.io Data-driven messaging platform for automated ema](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [Klaviyo AI-powered email and SMS marketing platform built fo](/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
 - [Loops Email marketing for SaaS: marketing, product, and tran](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
 - [Mailchimp All-in-one marketing platform with AI-powered emai](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
-## SELF-HOSTED SENDERS***3*
+## SELF-HOSTED SENDERS (3)
 
 - [BillionMail Open-source mail server, newsletter, and email m](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 - [Listmonk Open-source self-hosted newsletter and mailing list](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 - [Notifuse Open-source, self-hosted email marketing platform w](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
-## TRANSACTIONAL AND DEVELOPER APIS***4*
+## TRANSACTIONAL AND DEVELOPER APIS (4)
 
 - [Notifo Self-hosted multi-channel notification service for em](/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push
 - [Postmark Transactional email API with separated message stre](/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers
 - [Resend Developer-first email API built around React Email, b](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [Twilio SendGrid Scalable email delivery API with AI-powered ](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
-## TEMPLATES AND COLD OUTREACH***4*
+## TEMPLATES AND COLD OUTREACH (4)
 
 - [Maizzle Modern email development framework using Tailwind CS](/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns
 - [OpenOutreach Open-source AI lead finder: describe your produ](/tools/openoutreach/): Open-source AI lead finder: describe your product and it finds and qualifies the leads
@@ -71,7 +71,7 @@ IF You run newsletters or lifecycle campaigns and want a hosted tool
 
 [Brevo](/tools/brevo/) [Mailchimp](/tools/mailchimp/) [Loops](/tools/loops/)
 
-Brevo bills by volume with a free 300 per day plan and Starter from $9. Mailchimp has a free 500-contact plan with Essentials at $13. Loops is built for SaaS with a free 1,000 contacts and 4,000 sends per 30 days
+Brevo bills by volume with a free 300 emails per day plan and Starter from $9. Mailchimp has a free 500-contact plan with Essentials at $13. Loops is built for SaaS with a free 1,000 contacts and 4,000 sends per 30 days
 
 IF You sell from a store and live on flows and SMS
 
@@ -89,7 +89,7 @@ IF You send receipts, resets, and onboarding mail that must arrive
 
 [Postmark](/tools/postmark/) [Resend](/tools/resend/) [Twilio SendGrid](/tools/sendgrid/)
 
-Postmark separates streams with a free 100 per month plan and paid from $15 for 10,000. Resend is API-first with a free 3,000 per month plan and Pro at $20 for 50,000. SendGrid starts with a 100-emails-per-day trial for 60 days and Essentials at $19.95
+Postmark separates streams with a free 100 emails per month plan and paid from $15 for 10,000 emails. Resend is API-first with a free 3,000 emails per month plan and Pro at $20 for 50,000 emails. SendGrid starts with a 100-emails-per-day trial for 60 days and Essentials at $19.95
 
 IF You do cold outreach and need warmup and guardrails
 

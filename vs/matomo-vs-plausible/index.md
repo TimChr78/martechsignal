@@ -20,6 +20,8 @@ Also compared: [Matomo vs PostHog](/vs/matomo-vs-posthog/).
 
 [Matomo assessment](/tools/matomo/) · [Plausible Analytics assessment](/tools/plausible/)
 
+Shopping wider: [Matomo alternatives](/alternatives/matomo/)
+
 Matomo: [Official site](https://matomo.org) · [Pricing](https://matomo.org/pricing/) · [GitHub](https://github.com/matomo-org/matomo)
 
 Plausible Analytics: [Official site](https://plausible.io) · [Pricing](https://plausible.io/#pricing) · [GitHub](https://github.com/plausible/analytics)

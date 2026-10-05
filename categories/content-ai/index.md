@@ -9,23 +9,23 @@ AI copywriting, publishing, and writing tools: drafts, governance, and self-host
 
 13 TOOLS IN THIS CATEGORY
 
-## COPYWRITING WORKHORSES***5*
+## COPYWRITING WORKHORSES (5)
 
 - [Anyword AI copywriting platform with predictive performance ](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content
 - [ContentBot AI content automation platform with workflows for](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
 - [Copy.ai AI-powered GTM platform for sales and marketing cont](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
 - [Jasper AI marketing content platform for creating on-brand c](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
 - [Hypotenuse AI AI content generation platform for ecommerce p](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
-## GOVERNED ENTERPRISE WRITING***3*
+## GOVERNED ENTERPRISE WRITING (3)
 
 - [Writer Enterprise AI platform with Palmyra models, brand gov](/tools/writer/): Enterprise AI platform with Palmyra models, brand governance, and agents
 - [Persado AI content creation and optimization platform for re](/tools/persado/): AI content creation and optimization platform for regulated financial services marketing
 - [Phrasee AI messaging content platform; rebranded as Jacquard](/tools/phrasee/): AI messaging content platform; rebranded as Jacquard in June 2024
-## OPEN PUBLISHING STACK***2*
+## OPEN PUBLISHING STACK (2)
 
 - [Ghost Open-source publishing platform with built-in newslett](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
 - [Strapi Open-source headless CMS with AI-powered content mana](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
-## SELF-HOSTED WRITING UTILITIES***3*
+## SELF-HOSTED WRITING UTILITIES (3)
 
 - [LanguageTool Open-source writing assistant and grammar check](/tools/languagetool/): Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
 - [Khoj Self-hosted AI research and writing assistant that chat](/tools/khoj/): Self-hosted AI research and writing assistant that chats with your documents and automates content workflows

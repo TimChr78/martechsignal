@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Mixpanel is a tool in Analytics & Attribution with a free tier. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Mixpanel →](https://mixpanel.com)
 
 ## MartechSignal Score: 39/60

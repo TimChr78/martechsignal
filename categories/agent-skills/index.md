@@ -9,7 +9,7 @@ Agent skills and MCP tools for coding agents: what each package automates in a m
 
 18 TOOLS IN THIS CATEGORY
 
-## SEO AND CONTENT SKILLS***7*
+## SEO AND CONTENT SKILLS (7)
 
 - [Aaron Marketing Skills 120 marketing skills across 7 discipl](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 - [Claude SEO Open-source SEO skill for Claude Code with 25 sub](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
@@ -18,7 +18,7 @@ Agent skills and MCP tools for coding agents: what each package automates in a m
 - [Email Marketing Bible 55K-word email marketing skill with 90](/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
 - [Growth Lab Open-source skills that run SEO and Xiaohongshu g](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
 - [SEO Skill Bench Open benchmark that scores Claude Code SEO s](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
-## CAMPAIGN AND ASSET SKILLS***9*
+## CAMPAIGN AND ASSET SKILLS (9)
 
 - [AI Business Skills 63 bilingual marketing skills (Vietnamese](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 - [Analytics Tracking Automation AI skill for GA4 + GTM event t](/tools/analytics-tracking-automation/): AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
@@ -29,7 +29,7 @@ Agent skills and MCP tools for coding agents: what each package automates in a m
 - [Open Mercato Open-source TypeScript foundation for AI-built ](/tools/open-mercato/): Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 - [OpenClaw Marketing Skills 37 marketing skills for OpenClaw a](/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors
 - [Zapier GTM Cheat Codes Zapier's installable coding-agent ski](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
-## More Agent Skills tools***2*
+## More Agent Skills tools (2)
 
 - [AI Marketing Suite 15-skill marketing suite for Claude Code ](/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports
 - [Digital Marketing Pro 163-skill AI marketing plugin for agen](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance

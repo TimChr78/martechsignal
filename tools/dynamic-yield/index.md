@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Dynamic Yield is a tool in Personalization & CDP with custom pricing. The catalog documents 7 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Dynamic Yield →](https://www.dynamicyield.com)
 
 ## MartechSignal Score: 35/60

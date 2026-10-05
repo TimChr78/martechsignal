@@ -16,6 +16,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Microsoft Power Automate is a tool in Workflow Automation with paid plans starting at $15/mo. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Microsoft Power Automate →](https://powerautomate.microsoft.com)
 
 ## MartechSignal Score: 38/60

@@ -16,6 +16,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Pabbly Connect is a tool in Workflow Automation with paid plans starting at $16/mo. The catalog documents 1 AI feature, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Pabbly Connect →](https://www.pabbly.com/connect/)
 
 ## MartechSignal Score: 29/60

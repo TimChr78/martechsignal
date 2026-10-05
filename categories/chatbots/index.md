@@ -9,7 +9,7 @@ Conversational AI for marketing and support, from social DM automation to per-re
 
 6 TOOLS IN THIS CATEGORY
 
-## All tools in this category**
+## All tools in this category
 
 - [ChatbotX Open-source ManyChat alternative built for AI, omni](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 - [Chatfuel AI chatbot platform for automating customer convers](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels

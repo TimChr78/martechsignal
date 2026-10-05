@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Phrasee is a tool in AI Content & Copywriting with custom pricing. The catalog documents 4 AI features and 12 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Phrasee →](https://www.jacquard.com)
 
 ## MartechSignal Score: 31/60

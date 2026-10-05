@@ -116,6 +116,6 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
-******JSON
+JSON
 
 ✓ State beats prompts

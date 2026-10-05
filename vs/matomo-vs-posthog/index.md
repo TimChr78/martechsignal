@@ -6,7 +6,7 @@ Pick Matomo if you want web analytics depth with EU residency and raw data you o
 
 Matomo and PostHog get compared more than their categories suggest, because both answer the same executive question: what do people do on our thing? They answer it from opposite ends. Matomo is web analytics in the classic sense, built to replace Google Analytics with better privacy defaults. PostHog is product analytics with web numbers as one slice of the platform.
 
-The numbers below come from each vendor's own published materials, catalogued and checked this month. For the privacy-first three-way including Plausible, start with the quick-decision table on Matomo vs Plausible.
+The numbers come from each vendor's own published materials, catalogued and checked this month. For the privacy-first three-way including Plausible, start with the quick-decision table on Matomo vs Plausible.
 
 Both products grew up open source and both still sell trust as much as features: one promises your analytics data stays yours, the other promises your product data answers questions without a data team. The trade-offs below follow from that split.
 
@@ -19,6 +19,8 @@ Both products grew up open source and both still sell trust as much as features:
 | PostHog | Freemium | Your real questions are about product usage, with flags and experiments beside the funnel. |
 
 [Matomo assessment](/tools/matomo/) · [PostHog assessment](/tools/posthog/)
+
+Shopping wider: [Matomo alternatives](/alternatives/matomo/)
 
 Matomo: [Official site](https://matomo.org) · [Pricing](https://matomo.org/pricing/) · [GitHub](https://github.com/matomo-org/matomo)
 

@@ -6,7 +6,7 @@ Pick Jasper if you want brand-voice copy generation with public pricing, from $3
 
 Jasper and Writer end up on the same shortlist. Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform.
 
-Most decisions here come down to price and fit. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
+Most decisions here come down to price and fit. The figures quoted are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
 Both sell AI writing to marketing departments, and both pitch governance harder than generation. Jasper publishes its prices and sells self-serve. Writer keeps the price table behind a conversation and sells to companies that start with a security review. That difference predicts the rest of the comparison.
 

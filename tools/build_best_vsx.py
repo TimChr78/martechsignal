@@ -413,6 +413,14 @@ def build_vs():
                             f'<a href="{esc(link["href"])}">{esc(link["label"])}</a>.</p>')
         body.append(f'<p class="vs-links"><a href="/tools/{a["slug"]}/">{esc(a["name"])} assessment</a> · '
                     f'<a href="/tools/{b["slug"]}/">{esc(b["name"])} assessment</a></p>')
+        # r25 M-1 (2026-10-05): /vs/ and /alternatives/ never acknowledged
+        # each other (0 leaf-to-leaf links both ways, five rounds). A head-to-head
+        # reader shopping wider gets the alternatives guide for each tool.
+        _alt = [f'<a href="/alternatives/{_xt["slug"]}/">{esc(_xt["name"])} alternatives</a>'
+                for _xt in trio
+                if (ROOT / "alternatives" / _xt["slug"] / "index.html").exists()]
+        if _alt:
+            body.append('<p class="vs-links">Shopping wider: ' + ' · '.join(_alt) + '</p>')
         # r15 M-8 (2026-09-29): first shot is the LCP element — eager/high.
         _first = True
         for _vt in [t for t in (a, b) if t]:

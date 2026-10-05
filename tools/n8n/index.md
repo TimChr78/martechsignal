@@ -18,6 +18,8 @@ Looking for options? [Best n8n alternatives](/alternatives/n8n/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** n8n is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit n8n →](https://n8n.io)
 
 ## MartechSignal Score: 52/60

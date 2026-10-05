@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Marketing Studio is a tool in Agent Skills with free and open source. The catalog documents 4 AI features, 2 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Marketing Studio →](https://github.com/ucsandman/marketing-studio)
 
 ## MartechSignal Score: 32/60

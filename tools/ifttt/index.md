@@ -16,6 +16,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** IFTTT is a tool in Workflow Automation with a free tier. The catalog documents 2 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit IFTTT →](https://ifttt.com)
 
 ## MartechSignal Score: 34/60

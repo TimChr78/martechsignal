@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Customer.io is a tool in Email Marketing with paid plans starting at $100/mo. The catalog documents 6 AI features, 11 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Customer.io →](https://customer.io)
 
 ## MartechSignal Score: 41/60

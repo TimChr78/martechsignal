@@ -10,13 +10,15 @@ Re-check pending: pricing last verified 2026-09-07 (28 days ago).
 
 Open-source marketing automation platform with email, campaigns, and lead management
 
-Marketing Automation · Open Source from €247.5/mo Desk-reviewed
+Marketing Automation · Open Source from €247.50/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [Visit Mautic →](https://www.mautic.org)
 
 [How we review](/methodology/) · No affiliate links
+
+**Verdict:** Mautic is a tool in Marketing Automation with free and open source. The catalog documents 10 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Mautic →](https://www.mautic.org)
 
@@ -56,7 +58,7 @@ Mautic homepage, captured September 2026. Vendor page shown as a dated reference
 - Zapier
 ## Pricing
 
-Mautic is free to self-host under the GPL-3.0 licence, paid plans start at €247.5/mo as of 2026-09.
+Mautic is free to self-host under the GPL-3.0 licence, paid plans start at €247.50/mo as of 2026-09.
 
 Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions.
 
@@ -102,7 +104,7 @@ The most complete open-source answer to HubSpot if you have the ops capacity to 
 
 | Pros | Cons |
 | --- | --- |
-| ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €247.5/mo |
+| ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €247.50/mo |
 | ✓ Active public repository (10,697 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Salesforce, HubSpot, Pipedrive (10 listed) |  |
 
@@ -124,7 +126,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,697 stars. Mautic offers a public API for custom integrations.
 
 **How much does Mautic cost?**
-Mautic has a free tier; paid plans start at €247.5/mo. Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Mautic has a free tier; paid plans start at €247.50/mo. Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is Mautic a good self-hosted Marketing Automation tool in 2026?**
 The most complete open-source answer to HubSpot if you have the ops capacity to run it: real campaigns, segments, and scoring under GPL-3.0, no AI, and no shortcuts on maintenance.
@@ -155,7 +157,7 @@ The features page describes IP anonymization for visitor records, site tracking 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Marketing teams that want HubSpot-class automation they can host themselves
 ### Quick Facts
 
-- **Pricing:** Open Source from €247.5/mo
+- **Pricing:** Open Source from €247.50/mo
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
 - **GitHub:** ★ 10697
 - **Founded:** 2014

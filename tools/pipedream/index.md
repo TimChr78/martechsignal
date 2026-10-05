@@ -16,6 +16,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Pipedream is a tool in Workflow Automation with paid plans starting at $29/mo. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Pipedream →](https://pipedream.com)
 
 ## MartechSignal Score: 37/60

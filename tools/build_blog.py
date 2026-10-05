@@ -527,7 +527,7 @@ def build_post(meta: dict, body_html: str) -> str:
         "headline": title,
         "description": _clean_excerpt(excerpt),
         "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
-        "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/logo.png"}},
+        "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/logo.png"}},
         "datePublished": date_str,
         "dateModified": _date_modified(meta, date_str),
         "mainEntityOfPage": f"https://martechsignal.com/blog/{slug}/",
@@ -680,7 +680,7 @@ def build_index(posts: list) -> str:
         "url": "https://martechsignal.com/blog/",
         "description": "Deep-dives, tool teardowns, and hot takes on AI in marketing automation.",
         "inLanguage": "en",
-        "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/"},
+        "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/logo.png"}},
         "blogPost": [
             {
                 "@type": "BlogPosting",

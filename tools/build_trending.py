@@ -180,6 +180,8 @@ def build_page():
         "description": f"GitHub star momentum for {n_repos} tracked open-source martech tools, with daily snapshots and verified star counts.",
         "url": "https://martechsignal.com/trending/",
         "isPartOf": {"@type": "WebSite", "name": "MartechSignal", "url": "https://martechsignal.com/"},
+        # r25 L-16 (2026-10-05): own breadcrumb edge, same pattern as hubs.
+        "breadcrumb": {"@id": "https://martechsignal.com/trending/#breadcrumb"},
         "dateModified": d1,
         # r7 M19 (2026-09-28): declare the ranked table as an ItemList in the
         # same order the page renders it.

@@ -20,6 +20,8 @@ Looking for options? [Best Matomo alternatives](/alternatives/matomo/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Matomo is a tool in Analytics & Attribution with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Matomo →](https://matomo.org)
 
 ## MartechSignal Score: 49/60

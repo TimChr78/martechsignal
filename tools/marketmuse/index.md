@@ -18,6 +18,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** MarketMuse is a tool in SEO & Search with custom pricing. The catalog documents 4 AI features and 4 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit MarketMuse →](https://www.marketmuse.com)
 
 ## MartechSignal Score: 28/60

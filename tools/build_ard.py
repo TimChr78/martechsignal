@@ -12,6 +12,7 @@ Validate before deploying (audit: a schema-ERRORING catalog flips Lighthouse's
 ard-schema audit from N/A into a counted failure):
     uv run --with jsonschema python tools/build_ard.py --validate
 """
+import html as _html
 import json, sys
 from pathlib import Path
 
@@ -113,8 +114,11 @@ def build():
         m = _re.search(r"<title>([^<]+)</title>", html)
         title = (m.group(1) if m else index_path.parent.name).strip()
         title = _re.sub(r"\s*[|\u00b7]\s*MarTechSignal.*$", "", title, flags=_re.I).strip() or title
+        # r25 L-25 (2026-10-05): unescape entities - an agent consuming the
+        # JSON saw "Advertising &amp; Paid Media", not the character.
+        title = _html.unescape(title)
         d = _re.search(r'<meta name="description" content="([^"]{0,200})"', html)
-        return title, (d.group(1) if d else "")
+        return title, (_html.unescape(d.group(1)) if d else "")
 
     def _queries(kind, words, title):
         if kind == "glossary":
@@ -125,6 +129,8 @@ def build():
             return [title.lower(), words + " alternatives"]
         if kind == "best":
             return [title.lower(), words + " pricing comparison"]
+        if kind == "guides":
+            return [title.lower(), words + " guide"]
         return [title.lower(), words]
 
     def _walk(kind, folder, ns, extra_q=None):
@@ -150,6 +156,9 @@ def build():
     _walk("best", "best", "best")
     _walk("vs", "vs", "vs")
     _walk("alternatives", "alternatives", "alternatives")
+    # r25 M-2 (2026-10-05): guides was the only money family with no ARD
+    # entry - 0/5 leaves covered four rounds running.
+    _walk("guides", "guides", "guides")
 
     # Core hand pages (always present, curated queries).
     core = {
@@ -167,7 +176,30 @@ def build():
                     "https://martechsignal.com/authors/tim-christensen/"),
         "privacy": (["martechsignal privacy policy", "martechsignal data handling"], "Privacy policy"),
         "terms": (["martechsignal terms of service", "martechsignal usage terms"], "Terms of service"),
+        # r25 M-2 (2026-10-05): the eight hubs plus contact/trending had no
+        # entry - descriptions fall back to each hub's own meta via _page_info.
+        "tools": (["martechsignal tool directory", "all ai marketing tools"], "Tool directory"),
+        "categories": (["martechsignal categories", "browse tools by category"], "Categories"),
+        "guides": (["martechsignal guides", "how-to guides"], "Guides hub"),
+        "blog": (["martechsignal blog", "marketing teardown blog"], "Blog"),
+        "glossary": (["martechsignal glossary", "marketing term definitions"], "Glossary"),
+        "trending": (["trending martech tools", "what tools trend on github"], "Trending"),
+        "contact": (["contact martechsignal"], "Contact"),
+        "best": (["best ai marketing tools", "top picks by category"], "Best-tools hub"),
+        "vs": (["tool comparisons", "x vs y"], "Comparisons hub"),
+        "alternatives": (["tool alternatives", "x alternatives"], "Alternatives hub"),
     }
+    # r25 M-2: the root URL itself had no entry.
+    if (ROOT / "index.html").exists():
+        _rt, _rd = _page_info(ROOT / "index.html")
+        entries.append({
+            "identifier": f"urn:air:{PUBLISHER}:pages:home",
+            "displayName": _rt,
+            "type": "text/html",
+            "url": "https://martechsignal.com/",
+            "description": _rd or "Independent reviews of AI marketing tools: pricing, AI features, verdicts.",
+            "representativeQueries": ["martechsignal", "ai marketing tool reviews"],
+        })
     for slug, core_val in core.items():
         qs, desc = core_val[0], core_val[1]
         # r24 L-15 (2026-10-05): an entry may carry an explicit URL when the

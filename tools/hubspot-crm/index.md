@@ -18,6 +18,8 @@ Looking for options? [Best HubSpot CRM alternatives](/alternatives/hubspot-crm/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** HubSpot CRM is a tool in CRM with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit HubSpot CRM →](https://www.hubspot.com/products/crm)
 
 ## MartechSignal Score: 47/60

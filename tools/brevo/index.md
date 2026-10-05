@@ -16,6 +16,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
+**Verdict:** Brevo is a tool in Email Marketing with a free tier. The catalog documents 2 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-01. This is a desk review, not a hands-on test. Desk-reviewed
+
 [Visit Brevo →](https://www.brevo.com/)
 
 ## Catalog facts: Brevo

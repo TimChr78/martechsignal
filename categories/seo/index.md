@@ -9,18 +9,18 @@ SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 
 
 9 TOOLS IN THIS CATEGORY
 
-## OPEN SOURCE / SELF-HOSTED***2*
+## OPEN SOURCE / SELF-HOSTED (2)
 
 - [OpenSEO Open source alternative to Ahrefs and Semrush Open S](/tools/openseo/): Open source alternative to Ahrefs and Semrush
 - [Seonaut Open-source SEO crawler in Go for technical audits, ](/tools/seonaut/): Open-source SEO crawler in Go for technical audits, self-hosted or cloud
-## COMMERCIAL***5*
+## COMMERCIAL (5)
 
 - [Semrush All-in-one SEO and digital marketing platform with A](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
 - [Clearscope AI-powered content optimization platform for SEO ](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
 - [MarketMuse AI-powered content strategy and optimization plat](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
 - [Surfer SEO AI-powered content optimization platform for SEO-](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
 - [Frase AI-powered SEO content platform for research, writing,](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
-## AI SEARCH VISIBILITY***2*
+## AI SEARCH VISIBILITY (2)
 
 - [Potato Free local tool that measures brand mentions and cita](/tools/potato-ai-visibility/): Free local tool that measures brand mentions and citations in Claude's web-search answers
 - [Superlines AI Search Intelligence platform for brands and ag](/tools/superlines/): AI Search Intelligence platform for brands and agencies

@@ -262,36 +262,36 @@
 
 ## Glossary
 
-- [Account-Based Marketing (ABM)](https://martechsignal.com/glossary/abm/)
-- [Agentic Marketing](https://martechsignal.com/glossary/agentic-marketing/)
-- [AI Agent](https://martechsignal.com/glossary/ai-agent/)
-- [AI Content Generation](https://martechsignal.com/glossary/ai-content-generation/)
-- [AI Search Visibility](https://martechsignal.com/glossary/ai-search-visibility/)
-- [Answer Engine Optimization (AEO)](https://martechsignal.com/glossary/aeo/)
-- [Attribution Models (First-Touch, Last-Touch, Multi-Touch)](https://martechsignal.com/glossary/marketing-attribution-models/)
-- [Chatbot (Conversational AI)](https://martechsignal.com/glossary/chatbot/)
-- [Conversion Rate Optimization (CRO)](https://martechsignal.com/glossary/cro/)
-- [Customer Data Platform (CDP)](https://martechsignal.com/glossary/cdp/)
-- [Customer Journey Mapping](https://martechsignal.com/glossary/customer-journey/)
-- [Customer Relationship Management (CRM)](https://martechsignal.com/glossary/crm/)
-- [Data Management Platform (DMP)](https://martechsignal.com/glossary/dmp/)
-- [Demand-Side Platform (DSP)](https://martechsignal.com/glossary/dsp/)
-- [Dynamic Creative Optimization (DCO)](https://martechsignal.com/glossary/dco/)
-- [Email Deliverability](https://martechsignal.com/glossary/deliverability/)
-- [Email Sequence (Drip Campaign)](https://martechsignal.com/glossary/email-sequence/)
-- [First-Party Data](https://martechsignal.com/glossary/first-party-data/)
-- [Generative engine optimization (GEO)](https://martechsignal.com/glossary/geo/)
-- [Lead Scoring](https://martechsignal.com/glossary/lead-scoring/)
-- [Marketing Automation](https://martechsignal.com/glossary/marketing-automation/)
-- [Marketing Operations (MarketingOps)](https://martechsignal.com/glossary/marketing-ops/)
-- [Model Context Protocol (MCP)](https://martechsignal.com/glossary/mcp/)
-- [MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)](https://martechsignal.com/glossary/mql-sql/)
-- [Programmatic Advertising](https://martechsignal.com/glossary/programmatic-advertising/)
-- [Search Engine Optimization (SEO)](https://martechsignal.com/glossary/seo/)
-- [Social Listening](https://martechsignal.com/glossary/social-listening/)
-- [UTM Parameters](https://martechsignal.com/glossary/utm-parameters/)
-- [Website Personalization](https://martechsignal.com/glossary/personalization/)
-- [Workflow Automation (iPaaS)](https://martechsignal.com/glossary/workflow-automation/)
+- [Account-Based Marketing (ABM)](https://martechsignal.com/glossary/abm/): Account-based marketing flips the traditional funnel.
+- [Agentic Marketing](https://martechsignal.com/glossary/agentic-marketing/): Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes.
+- [AI Agent](https://martechsignal.com/glossary/ai-agent/): An AI agent is software that pursues a goal by taking a sequence of actions on its own.
+- [AI Content Generation](https://martechsignal.com/glossary/ai-content-generation/): AI content generation uses large language models to produce marketing copy.
+- [AI Search Visibility](https://martechsignal.com/glossary/ai-search-visibility/): AI search visibility measures how often and how prominently a brand, product, or content appears in AI-generated answers.
+- [Answer Engine Optimization (AEO)](https://martechsignal.com/glossary/aeo/): Answer Engine Optimization is the practice of structuring content so AI answer systems can find, trust, and cite it.
+- [Attribution Models (First-Touch, Last-Touch, Multi-Touch)](https://martechsignal.com/glossary/marketing-attribution-models/): An attribution model is the rule that decides which marketing touchpoint gets credit for a conversion. First-touch credits the first interaction.
+- [Chatbot (Conversational AI)](https://martechsignal.com/glossary/chatbot/): A chatbot is software that conducts text or voice conversations with users, typically on a website, messaging app, or social platform.
+- [Conversion Rate Optimization (CRO)](https://martechsignal.com/glossary/cro/): Conversion rate optimization is the practice of increasing the percentage of visitors who take a desired action, buying, signing up, requesting a demo.
+- [Customer Data Platform (CDP)](https://martechsignal.com/glossary/cdp/): A customer data platform collects and unifies customer data from every touchpoint.
+- [Customer Journey Mapping](https://martechsignal.com/glossary/customer-journey/): A customer journey map is a visual representation of every step a customer takes from first awareness to purchase and beyond.
+- [Customer Relationship Management (CRM)](https://martechsignal.com/glossary/crm/): A CRM is the system of record for every interaction your company has with a prospect or customer.
+- [Data Management Platform (DMP)](https://martechsignal.com/glossary/dmp/): A data management platform collects and organizes audience data, mostly anonymous, cookie-based identifiers, for use in programmatic advertising.
+- [Demand-Side Platform (DSP)](https://martechsignal.com/glossary/dsp/): A demand-side platform is the buying interface for programmatic advertising.
+- [Dynamic Creative Optimization (DCO)](https://martechsignal.com/glossary/dco/): Dynamic creative optimization assembles ad creatives in real time from modular components.
+- [Email Deliverability](https://martechsignal.com/glossary/deliverability/): Deliverability is the measure of whether your emails actually reach the inbox instead of the spam folder.
+- [Email Sequence (Drip Campaign)](https://martechsignal.com/glossary/email-sequence/): An email sequence is a series of automated emails sent on a schedule or triggered by behavior. A welcome sequence introduces new subscribers to your product.
+- [First-Party Data](https://martechsignal.com/glossary/first-party-data/): First-party data is information you collect directly from your customers and prospects.
+- [Generative engine optimization (GEO)](https://martechsignal.com/glossary/geo/): Generative engine optimization is the practice of getting a brand cited and correctly described inside AI-generated answers.
+- [Lead Scoring](https://martechsignal.com/glossary/lead-scoring/): Lead scoring assigns a numerical value to each prospect based on their likelihood to buy.
+- [Marketing Automation](https://martechsignal.com/glossary/marketing-automation/): Marketing automation is software that runs repetitive marketing tasks without manual intervention.
+- [Marketing Operations (MarketingOps)](https://martechsignal.com/glossary/marketing-ops/): Marketing operations is the function that manages the technology, processes, and data behind marketing execution.
+- [Model Context Protocol (MCP)](https://martechsignal.com/glossary/mcp/): The Model Context Protocol is an open standard for connecting AI models to external tools and data sources.
+- [MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)](https://martechsignal.com/glossary/mql-sql/): An MQL is a lead that marketing deems ready for sales based on engagement signals.
+- [Programmatic Advertising](https://martechsignal.com/glossary/programmatic-advertising/): Programmatic advertising is the automated buying and selling of ad inventory through real-time bidding.
+- [Search Engine Optimization (SEO)](https://martechsignal.com/glossary/seo/): SEO is the practice of improving a website's visibility in organic (non-paid) search results.
+- [Social Listening](https://martechsignal.com/glossary/social-listening/): Social listening is the practice of monitoring social media channels, forums, review sites, and news outlets.
+- [UTM Parameters](https://martechsignal.com/glossary/utm-parameters/): UTM parameters are tags appended to URLs to track where traffic comes from.
+- [Website Personalization](https://martechsignal.com/glossary/personalization/): Website personalization changes what a visitor sees based on who they are or what they've done before.
+- [Workflow Automation (iPaaS)](https://martechsignal.com/glossary/workflow-automation/): Workflow automation connects your software tools so that actions in one system trigger actions in another.
 
 ## Categories
 
@@ -318,39 +318,39 @@
 - [Strategy guides](https://martechsignal.com/guides/)
 
 - [Best Agent Skills tools (2026): 8 compared](https://martechsignal.com/best/agent-skills-tools/): 8 agent skills tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best AI Advertising &amp; Paid Media tools (2026): 8 compared](https://martechsignal.com/best/ai-advertising-tools/): 8 advertising & paid media tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](https://martechsignal.com/best/ai-chatbot-tools/): 6 chatbots & conversational ai tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best AI Content &amp; Copywriting tools (2026): 8 compared](https://martechsignal.com/best/ai-content-copywriting-tools/): 8 ai content & copywriting tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best AI CRM tools (2026): 6 compared](https://martechsignal.com/best/ai-crm-tools/): 6 crm tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best AI Email Marketing tools (2026): 8 compared](https://martechsignal.com/best/ai-email-marketing-tools/): 8 email marketing tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best AI Marketing Automation tools (2026): 8 compared](https://martechsignal.com/best/ai-marketing-automation-tools/): 8 marketing automation tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](https://martechsignal.com/best/ai-personalization-tools/): 8 personalization & cdp tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best AI SEO tools (2026): 8 compared](https://martechsignal.com/best/ai-seo-tools/): Eight AI SEO tools compared on site audits, content optimization, and rank tracking, with a verdict and a skip-it line for each.
-- [Best AI Social Media tools (2026): 6 compared](https://martechsignal.com/best/ai-social-media-tools/): 6 social media tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best Customer Data Platforms (2026): composable to self-hosted](https://martechsignal.com/best/cdp/): Six customer data platforms compared on architecture, pricing shape, self-hosting, and data-residency, with a pick for each team profile.
-- [Best GEO &amp; LLM Optimization tools (2026): 9 compared](https://martechsignal.com/best/geo-llm-visibility-tools/): 9 geo & llm optimization tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best Marketing Analytics and Attribution tools (2026): 8 compared](https://martechsignal.com/best/marketing-analytics-tools/): 8 analytics & attribution tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best open-source CRM tools (2026)](https://martechsignal.com/best/open-source-crm/): Six open-source CRMs compared on licensing, pricing, AI features, and real maintenance costs, with a verdict and a skip-it line for each.
-- [Best Open-Source Marketing Tools (2026): 8 compared](https://martechsignal.com/best/open-source-marketing-tools/): 8 open-source tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best workflow automation tools (2026)](https://martechsignal.com/best/workflow-automation-tools/): Six workflow automation platforms compared on billing units, self-hosting, AI features, and integrations, with a verdict and a skip-it line for each.
-- [ActiveCampaign vs HubSpot CRM (2026): pricing, automation](https://martechsignal.com/vs/activecampaign-vs-hubspot/): ActiveCampaign versus HubSpot CRM on pricing, automation depth, AI features, and integrations, with a pick-this-one line for each side.
-- [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](https://martechsignal.com/vs/activecampaign-vs-klaviyo/): ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
-- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](https://martechsignal.com/vs/claude-seo-vs-semrush/): Claude SEO versus Semrush on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
-- [Jasper vs Writer (2026): pricing, AI features, verdict](https://martechsignal.com/vs/jasper-vs-writer/): Jasper versus Writer on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
-- [Mailchimp vs Brevo (2026): pricing, multichannel, verdict](https://martechsignal.com/vs/mailchimp-vs-brevo/): Mailchimp versus Brevo on pricing by volume versus contacts, channels, AI features, and integrations, with a pick-this-one line for each side.
-- [Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict](https://martechsignal.com/vs/mailchimp-vs-klaviyo/): Mailchimp versus Klaviyo on pricing, ecommerce depth, AI features, and integrations, with a pick-this-one line for each side.
-- [Make vs Zapier (2026): pricing, AI features, verdict](https://martechsignal.com/vs/make-vs-zapier/): Make versus Zapier on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
-- [Matomo vs Plausible (2026): analytics depth or simplicity](https://martechsignal.com/vs/matomo-vs-plausible/): Matomo vs Plausible compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a balanced pick for each team.
-- [Matomo vs PostHog (2026): web analytics or product analytics](https://martechsignal.com/vs/matomo-vs-posthog/): Matomo vs PostHog compared on price, deployment, privacy and scope. Web analytics depth against product analytics breadth, with real migration notes.
-- [n8n vs Make vs Zapier (2026): the three-way automation decision](https://martechsignal.com/vs/n8n-vs-make-vs-zapier/): n8n vs Make vs Zapier on price, self-hosting, connectors and exit cost. A three-way decision table and real switching notes from the catalogued numbers.
-- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](https://martechsignal.com/vs/n8n-vs-zapier/): n8n vs Zapier compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a clear pick for each team.
-- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](https://martechsignal.com/vs/nocodb-vs-nocobase/): NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, and integrations, with catalog facts and a balanced pick for each team.
-- [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)](https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/): Salesforce Marketing Cloud versus HubSpot Marketing Hub on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
-- [Best HubSpot CRM alternatives (2026)](https://martechsignal.com/alternatives/hubspot-crm/): Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive, with real pricing and honest limits.
-- [Mailchimp alternatives (2026): 10 email platforms compared](https://martechsignal.com/alternatives/mailchimp/): Ten Mailchimp alternatives compared on pricing shape, self-hosting, channels, and migration, with a best-fit and not-for line for each.
-- [Best Matomo alternatives (2026)](https://martechsignal.com/alternatives/matomo/): Five Matomo alternatives: lightweight privacy analytics (Plausible, Umami), product suites, and a warehouse pipeline, with honest limits.
-- [Best n8n alternatives (2026)](https://martechsignal.com/alternatives/n8n/): n8n alternatives including Make, Zapier, Pipedream, and Activepieces, with pricing models and the buyer each one fits.
-- [Best Zapier alternatives (2026)](https://martechsignal.com/alternatives/zapier/): Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase, with real pricing models and the buyer each one fits.
+- [Best AI Advertising &amp; Paid Media tools (2026): 8 compared](https://martechsignal.com/best/ai-advertising-tools/): Revealbot (Birch) from $49/mo, Pencil from $11/mo. 8 advertising & paid media tools compared on pricing, AI features, and integrations.
+- [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](https://martechsignal.com/best/ai-chatbot-tools/): Intercom from $29/mo, Chatwoot from $19/mo. 6 chatbots & conversational ai tools compared on pricing, AI features, and integrations.
+- [Best AI Content &amp; Copywriting tools (2026): 8 compared](https://martechsignal.com/best/ai-content-copywriting-tools/): Jasper from $39/mo, Anyword from $39/mo. 8 ai content & copywriting tools compared on pricing, AI features, and integrations.
+- [Best AI CRM tools (2026): 6 compared](https://martechsignal.com/best/ai-crm-tools/): Attio from $29/mo, HubSpot CRM from $20/mo. 6 crm tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
+- [Best AI Email Marketing tools (2026): 8 compared](https://martechsignal.com/best/ai-email-marketing-tools/): Mailchimp from $13/mo, Klaviyo from $20/mo. 8 email marketing tools compared on pricing, AI features, and integrations.
+- [Best AI Marketing Automation tools (2026): 8 compared](https://martechsignal.com/best/ai-marketing-automation-tools/): NocoDB from $12/mo, Ortto from $199/mo. 8 marketing automation tools compared on pricing, AI features, and integrations.
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](https://martechsignal.com/best/ai-personalization-tools/): Twilio Segment from $120/mo, Clerk.io from $119/mo. 8 personalization & cdp tools compared on pricing, AI features, and integrations.
+- [Best AI SEO tools (2026): 8 compared](https://martechsignal.com/best/ai-seo-tools/): Semrush from $117/mo, Clearscope from $129/mo. Eight AI SEO tools compared on site audits, content optimization, and rank tracking.
+- [Best AI Social Media tools (2026): 6 compared](https://martechsignal.com/best/ai-social-media-tools/): Hootsuite from $99/mo, Sprout Social from $249/mo. 6 social media tools compared on pricing, AI features, and integrations.
+- [Best Customer Data Platforms (2026): composable to self-hosted](https://martechsignal.com/best/cdp/): RudderStack from $265/mo, Jitsu from $99/mo. Six customer data platforms compared on architecture, pricing shape, self-hosting, and data-residency.
+- [Best GEO &amp; LLM Optimization tools (2026): 9 compared](https://martechsignal.com/best/geo-llm-visibility-tools/): Nimt.ai from €79/mo, OtterlyAI from €29/mo. 9 geo & llm optimization tools compared on pricing, AI features, and integrations.
+- [Best Marketing Analytics and Attribution tools (2026): 8 compared](https://martechsignal.com/best/marketing-analytics-tools/): Matomo from €22/mo, Umami from $20/mo. 8 analytics & attribution tools compared on pricing, AI features, and integrations.
+- [Best open-source CRM tools (2026)](https://martechsignal.com/best/open-source-crm/): EspoCRM from €12.90/mo, Twenty from $9/mo. Six open-source CRMs compared on licensing, pricing, AI features, and real maintenance costs.
+- [Best Open-Source Marketing Tools (2026): 8 compared](https://martechsignal.com/best/open-source-marketing-tools/): Mautic from €247.50/mo, n8n from €20/mo. 8 open-source tools compared on pricing, AI features, and integrations.
+- [Best workflow automation tools (2026)](https://martechsignal.com/best/workflow-automation-tools/): n8n from €20/mo, Zapier from $19.99/mo. Six workflow automation platforms compared on billing units, self-hosting, AI features, and integrations.
+- [ActiveCampaign vs HubSpot CRM (2026): pricing, automation](https://martechsignal.com/vs/activecampaign-vs-hubspot/): ActiveCampaign from $15/mo, HubSpot CRM from $20/mo. ActiveCampaign versus HubSpot CRM on pricing, automation depth, AI features, and integrations.
+- [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](https://martechsignal.com/vs/activecampaign-vs-klaviyo/): ActiveCampaign from $15/mo, Klaviyo from $20/mo. ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations.
+- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](https://martechsignal.com/vs/claude-seo-vs-semrush/): Semrush from $117/mo. Claude SEO versus Semrush on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
+- [Jasper vs Writer (2026): pricing, AI features, verdict](https://martechsignal.com/vs/jasper-vs-writer/): Jasper from $39/mo. Jasper versus Writer on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
+- [Mailchimp vs Brevo (2026): pricing, multichannel, verdict](https://martechsignal.com/vs/mailchimp-vs-brevo/): Mailchimp from $13/mo, Brevo from $9/mo. Mailchimp versus Brevo on pricing by volume versus contacts, channels, AI features, and integrations.
+- [Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict](https://martechsignal.com/vs/mailchimp-vs-klaviyo/): Mailchimp from $13/mo, Klaviyo from $20/mo. Mailchimp versus Klaviyo on pricing, ecommerce depth, AI features, and integrations.
+- [Make vs Zapier (2026): pricing, AI features, verdict](https://martechsignal.com/vs/make-vs-zapier/): Make from $9/mo, Zapier from $19.99/mo. Make versus Zapier on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
+- [Matomo vs Plausible (2026): analytics depth or simplicity](https://martechsignal.com/vs/matomo-vs-plausible/): Matomo from €22/mo, Plausible Analytics from $9/mo. Matomo vs Plausible compared on pricing, self-hosting, AI features, and integrations.
+- [Matomo vs PostHog (2026): web analytics or product analytics](https://martechsignal.com/vs/matomo-vs-posthog/): Matomo from €22/mo. Matomo vs PostHog compared on price, deployment, privacy and scope.
+- [n8n vs Make vs Zapier (2026): the three-way automation decision](https://martechsignal.com/vs/n8n-vs-make-vs-zapier/): n8n from €20/mo, Make from $9/mo. n8n vs Make vs Zapier on price, self-hosting, connectors and exit cost.
+- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](https://martechsignal.com/vs/n8n-vs-zapier/): n8n from €20/mo, Zapier from $19.99/mo. n8n vs Zapier compared on pricing, self-hosting, AI features, and integrations.
+- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](https://martechsignal.com/vs/nocodb-vs-nocobase/): NocoDB from $12/mo. NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, and integrations.
+- [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)](https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/): Salesforce Marketing Cloud from $25/mo, HubSpot Marketing Hub from $20/mo. Salesforce Marketing Cloud versus HubSpot Marketing Hub on pricing, deployment.
+- [Best HubSpot CRM alternatives (2026)](https://martechsignal.com/alternatives/hubspot-crm/): Twenty from $9/mo, EspoCRM from €12.90/mo. Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive.
+- [Mailchimp alternatives (2026): 10 email platforms compared](https://martechsignal.com/alternatives/mailchimp/): Brevo from $9/mo, Klaviyo from $20/mo. Ten Mailchimp alternatives compared on pricing shape, self-hosting, channels, and migration.
+- [Best Matomo alternatives (2026)](https://martechsignal.com/alternatives/matomo/): Plausible Analytics from $9/mo, Umami from $20/mo. Five Matomo alternatives: lightweight privacy analytics (Plausible, Umami), product suites.
+- [Best n8n alternatives (2026)](https://martechsignal.com/alternatives/n8n/): Make from $9/mo, Zapier from $19.99/mo. n8n alternatives including Make, Zapier, Pipedream, and Activepieces.
+- [Best Zapier alternatives (2026)](https://martechsignal.com/alternatives/zapier/): n8n from €20/mo, Make from $9/mo. Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase.
 - [Agentic advertising: what platforms automate without you](https://martechsignal.com/guides/agentic-ai-advertising/): The agentic-advertising coverage in one place: AI Overviews and zero-click pressure, autonomous spend in the platforms, and available guardrail work.
 - [AI SEO tooling: benchmarks, comparisons, and the honest limits](https://martechsignal.com/guides/ai-seo-tooling/): What AI SEO tools actually measure, how the benchmark suite tests them, and which comparisons hold up when you run the tool instead of reading the pitch.
 - [Generative Engine Optimization (GEO): the working guide](https://martechsignal.com/guides/generative-engine-optimization/): What generative engine optimization actually changes: how AI answers pick sources, what to measure when clicks stop, and the tooling that exists in 2026.
@@ -398,7 +398,7 @@
 
 - [About](https://martechsignal.com/about/): who runs MartechSignal and the editorial policy
 - [Methodology](https://martechsignal.com/methodology/): how tools are researched, dated and priced
-- [Authors](https://martechsignal.com/authors/)
+- [Authors](https://martechsignal.com/authors/tim-christensen/): Tim Christensen, editor
 - [AI content policy](https://martechsignal.com/ai-policy/): citation and grounding are welcome; training model weights on this corpus is not permitted
 - [Checklist](https://martechsignal.com/checklist/): tool selection checklist
 - [Corrections](https://martechsignal.com/corrections/): published errata
@@ -413,13 +413,12 @@
 - [Categories](https://martechsignal.com/categories/)
 - [Trending open-source tools](https://martechsignal.com/trending/)
 - [Glossary](https://martechsignal.com/glossary/)
-- [Author](https://martechsignal.com/authors/tim-christensen/)
 - [Contact](https://martechsignal.com/contact/)
 - [RSS feed](https://martechsignal.com/rss.xml)
 
 ## Machine-readable data
 
 - [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 168 records = 166 active + 2 non-active; the directory above lists only active tools
-- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 302 entries with representativeQueries (specVersion 1.0)
+- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 318 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

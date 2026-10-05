@@ -9,18 +9,18 @@ Advertising and paid media tools: creative generators, bid platforms, automation
 
 9 TOOLS IN THIS CATEGORY
 
-## CREATIVE GENERATION***2*
+## CREATIVE GENERATION (2)
 
 - [AdCreative.ai AI platform generating high-converting ad crea](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
 - [Pencil AI-powered ad creative generation and performance pre](/tools/pencil/): AI-powered ad creative generation and performance prediction for paid media
-## OPTIMIZATION AND AUTOMATION***5*
+## OPTIMIZATION AND AUTOMATION (5)
 
 - [Albert AI Autonomous AI platform that manages and optimizes ](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Madgicx AI-powered Meta ads optimization and creative workfl](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
 - [Opteo Continuous Google Ads monitoring with one-click improv](/tools/opteo/): Continuous Google Ads monitoring with one-click improvements
 - [Revealbot (Birch) AI-powered ad automation and rules engine ](/tools/revealbot/): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 - [Smartly.io AI advertising platform spanning creative product](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
-## OPEN-SOURCE AD TOOLING***2*
+## OPEN-SOURCE AD TOOLING (2)
 
 - [advertools Python toolkit for SEO and advertising analysis i](/tools/advertools/): Python toolkit for SEO and advertising analysis in pandas DataFrames
 - [Revive Adserver Free open source ad server for publishers, a](/tools/revive-adserver/): Free open source ad server for publishers, ad networks and advertisers

@@ -73,8 +73,11 @@ def _hub(section, h1, seo_title, meta, intro, children):
         for para in _sec["paras"]:
             _check_clean(para, f"{section}/guide-para")
             body.append(f"<p>{para}</p>")
+    # r25 L-19 (2026-10-05): visible hub child links are relative (site
+    # convention, matching nav/crumb hrefs) - schema hasPart keeps absolute
+    # URLs. Previously every hub mixed both forms.
     items = "".join(
-        f'<li><a href="{c["url"]}">{esc(c["title"])}</a><br>{esc(c["meta"])}</li>'
+        f'<li><a href="{c["url"].replace("https://martechsignal.com", "")}">{esc(c["title"])}</a><br>{esc(c["meta"])}</li>'
         for c in children)
     body.append("<h2>Pages in this section</h2>")
     body.append(f'<ul class="hub-list">{items}</ul>')
@@ -91,12 +94,17 @@ def _hub(section, h1, seo_title, meta, intro, children):
         "name": h1,
         "url": base,
         "description": meta,
+        # r25 L-16 (2026-10-05): the CollectionPage itself carries the
+        # breadcrumb edge - previously only hasPart children did, pointing
+        # at a BreadcrumbList the hub node never claimed.
+        "breadcrumb": {"@id": base + "#breadcrumb"},
         "hasPart": [{"@type": "WebPage", "name": c["title"], "url": c["url"]}
                     for c in children],
     }
     breadcrumb = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
+        "@id": base + "#breadcrumb",
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home",
              "item": "https://martechsignal.com/"},

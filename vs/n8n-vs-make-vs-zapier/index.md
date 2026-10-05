@@ -19,6 +19,8 @@ Every number below is catalogued from each vendor's own published materials and 
 
 [n8n assessment](/tools/n8n/) · [Make assessment](/tools/make/)
 
+Shopping wider: [n8n alternatives](/alternatives/n8n/) · [Zapier alternatives](/alternatives/zapier/)
+
 n8n: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) · [GitHub](https://github.com/n8n-io/n8n)
 
 Make: [Official site](https://www.make.com) · [Pricing](https://www.make.com/en/pricing)

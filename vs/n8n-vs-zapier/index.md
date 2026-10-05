@@ -6,7 +6,7 @@ Pick n8n if you want self-hosted depth with code steps and workflow-friendly bil
 
 The real difference here is not a feature checklist. It is where your automations run and who pays when they work. n8n runs the whole engine on your own hardware under a fair-code license, while Zapier sells access to a hosted platform whose main asset is a catalog of more than 9,000 apps. Both now ship AI agents, so the AI column rarely decides this purchase on its own.
 
-Teams usually arrive at this comparison after hitting one of two walls: a Zapier bill that scales with every successful run, or an n8n instance that needs someone to maintain it. The axis is metered convenience against owned infrastructure, and the catalog numbers below show what each side charges for the same five-step lead-intake workflow.
+Teams usually arrive at this comparison after hitting one of two walls: a Zapier bill that scales with every successful run, or an n8n instance that needs someone to maintain it. The axis is metered convenience against owned infrastructure, and the catalog numbers show what each side charges for the same five-step lead-intake workflow.
 
 ## n8n vs Zapier: the quick decision
 
@@ -21,6 +21,8 @@ And for the Make side of the family: [Make vs Zapier](/vs/make-vs-zapier/).
 All three face off properly on the three-way page: [n8n vs Make vs Zapier](/vs/n8n-vs-make-vs-zapier/).
 
 [n8n assessment](/tools/n8n/) · [Zapier assessment](/tools/zapier/)
+
+Shopping wider: [n8n alternatives](/alternatives/n8n/) · [Zapier alternatives](/alternatives/zapier/)
 
 n8n: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) · [GitHub](https://github.com/n8n-io/n8n)
 
