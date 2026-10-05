@@ -27,7 +27,7 @@ Bloomreach is the commerce experience platform where search and merchandising do
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 4/10 | Custom enterprise pricing with modules from about $35K/yr; the one published decision is Loomi AI included at no extra charge (the vendor pricing page: [pricing page](https://www.bloomreach.com/en/pricing), verified 2026-08-28). |
+| Pricing transparency | 4/10 | Custom enterprise pricing with modules from about $35K/yr; the one published decision is Loomi AI included at no extra charge (the vendor pricing page: [pricing page](https://www.bloomreach.com/en/pricing), verified 2026-10-05). |
 | Feature depth | 8/10 | AI search, recommendations, predictive personalization, content generation and merchandising cover the commerce experience stack (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
 | Integrations | 7/10 | Shopify, Salesforce, Adobe, Google Cloud, Segment, Algolia, SAP and Commercetools documented plus an API (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
 | AI capability | 8/10 | Loomi AI spans search, recommendations and merchandising as one named intelligence layer, included in the price (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |

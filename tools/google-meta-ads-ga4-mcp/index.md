@@ -31,7 +31,7 @@ This MCP server gives agents read/write control of Google Ads, Meta Ads and GA4 
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | MIT-licensed repo free; the hosted endpoint has a free trial then paid plans, both stated (the vendor pricing page: [pricing page](https://www.get-ryze.ai/payment-setup), verified 2026-09-07). |
+| Pricing transparency | 7/10 | MIT-licensed repo free; the hosted endpoint has a free trial then paid plans, both stated (the vendor pricing page: [pricing section](https://www.get-ryze.ai/payment-setup), verified 2026-09-07). |
 | Feature depth | 7/10 | 250+ MCP tools spanning campaign management, analytics and optimization across three surfaces (vendor documentation: [vendor site](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp), verified 2026-09-28). |
 | Integrations | 8/10 | Google Ads, Meta Ads and GA4 plus nine named agent clients from Claude Code to n8n and Gemini CLI (vendor documentation: [vendor site](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp), verified 2026-09-28). |
 | AI capability | 7/10 | Natural-language campaign creation and pausing through MCP is the documented agent workflow (vendor documentation: [vendor site](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp), verified 2026-09-28). |
@@ -72,7 +72,7 @@ Google Ads + Meta Ads + GA4 MCP is freemium, with a free tier to start.
 
 MIT-licensed repo; hosted MCP endpoint provided through Ryze AI (free trial, then paid plans).
 
-Current plans and limits live on the [Google Ads + Meta Ads + GA4 MCP pricing page](https://www.get-ryze.ai/payment-setup).
+Current plans and limits live on the [Google Ads + Meta Ads + GA4 MCP pricing section](https://www.get-ryze.ai/payment-setup).
 
 ## Review notes
 

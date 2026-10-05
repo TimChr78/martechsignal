@@ -289,6 +289,30 @@ def check_record(t, cache, fetcher, today):
     return "mismatch", ev
 
 
+def _sync_rationale_dates(slugs, today):
+    """Move pricing-transparency evidence dates with confirmed records."""
+    n = 0
+    for f in ("tools/score-content-a.json", "tools/score-content-b.json"):
+        p = ROOT / f
+        try:
+            dd = json.loads(p.read_text())
+        except (OSError, ValueError):
+            continue
+        for t in dd.get("tools", []):
+            if t.get("slug") not in slugs:
+                continue
+            try:
+                ev = t["pillars"]["pricing_transparency"]["evidence"]
+            except KeyError:
+                continue
+            new = re.sub(r"verified \d{4}-\d{2}-\d{2}", f"verified {today}", ev)
+            if new != ev:
+                t["pillars"]["pricing_transparency"]["evidence"] = new
+                n += 1
+        p.write_text(json.dumps(dd, indent=1, ensure_ascii=False))
+    return n
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--cap", type=int, default=12)
@@ -363,6 +387,12 @@ def main():
                 if t["slug"] in confirmed:
                     t["date_updated"] = today
             TOOLS_JSON.write_text(json.dumps(tools, indent=1, ensure_ascii=False))
+            # r31 H-7 (2026-10-06): the rationale cache lagged record updates
+            # as a class (9 date-stale cells). A confirmed re-verification
+            # moves the scoring rationale's evidence date with the record —
+            # figures confirmed unchanged, so date-only sync is honest.
+            _synced = _sync_rationale_dates(set(confirmed), today)
+            print(f"- rationale evidence dates synced: {_synced}")
         CACHE_JSON.write_text(json.dumps(cache, indent=1, ensure_ascii=False))
         QUEUE_JSON.write_text(json.dumps(queue, indent=1, ensure_ascii=False))
 

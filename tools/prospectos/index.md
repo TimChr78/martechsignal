@@ -29,7 +29,7 @@ ProspectOS is MIT lead prospecting with Google Maps and Instagram scraping built
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT self-hosted with scraping API costs called out as the run expense (the vendor pricing page: [pricing page](https://github.com/nando0x/ProspectOS), verified 2026-08-31). |
+| Pricing transparency | 8/10 | Free under MIT self-hosted with scraping API costs called out as the run expense (the vendor pricing page: [pricing section](https://github.com/nando0x/ProspectOS), verified 2026-08-31). |
 | Feature depth | 4/10 | Lead discovery and contact enrichment cover the prospecting loop (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
 | Integrations | 3/10 | Google Maps and Instagram documented as data sources plus an API (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
 | AI capability | 3/10 | Lead discovery and enrichment run as data automation more than model work (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
@@ -58,7 +58,7 @@ ProspectOS is free to self-host under the MIT licence.
 
 Free and open source (MIT). Self-hosted; scraping APIs may have their own costs.
 
-Current plans and limits live on the [ProspectOS pricing page](https://github.com/nando0x/ProspectOS).
+Current plans and limits live on the [ProspectOS pricing section](https://github.com/nando0x/ProspectOS).
 
 ## Review notes
 

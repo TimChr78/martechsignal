@@ -27,7 +27,7 @@ LanguageTool is the privacy-friendly grammar checker: self-hosted under LGPL, 15
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free self-hosted and free addons; Premium from SEK 49.96/mo as served in Sweden with currency localized by the vendor (Sep 2026) (the vendor pricing page: [pricing page](https://languagetool.org/premium), verified 2026-09-28). |
+| Pricing transparency | 7/10 | Free self-hosted and free addons; Premium from SEK 49.96/mo as served in Sweden with currency localized by the vendor (Sep 2026) (the vendor pricing page: [pricing section](https://languagetool.org/premium), verified 2026-09-28). |
 | Feature depth | 5/10 | Grammar checking, paraphrasing and style suggestions across 30+ languages (vendor documentation: [vendor site](https://languagetool.org), verified 2026-09-28). |
 | Integrations | 5/10 | Chrome, Firefox, Edge, Gmail, Outlook and LibreOffice documented plus an API (vendor documentation: [vendor site](https://languagetool.org), verified 2026-09-28). |
 | AI capability | 5/10 | AI style and tone suggestions and AI-powered checking sit on the rule engine (vendor documentation: [vendor site](https://languagetool.org), verified 2026-09-28). |
@@ -59,7 +59,7 @@ LanguageTool is freemium, with a free tier to start.
 
 Free self-hosted and free addons; Premium from SEK 49.96/mo as served in Sweden (currency localized by vendor), Sep 2026
 
-Current plans and limits live on the [LanguageTool pricing page](https://languagetool.org/premium).
+Current plans and limits live on the [LanguageTool pricing section](https://languagetool.org/premium).
 
 ## Best for
 

@@ -19,7 +19,7 @@ Last verified 2026-10-01.
 | [Klaviyo](/tools/klaviyo/) | Freemium from $20/mo | Freemium, self-serve tiers | No | Ecommerce brands that want purchase data driving the messaging: flows, segments, and predictive analytics built on order history. |
 | [Customer.io](/tools/customer-io/) | From $100/mo | See vendor | No | Product-led teams that want event data and journeys across email, SMS, push, and in-app from one workspace. |
 | [Resend](/tools/resend/) | Freemium from $20/mo | Freemium, self-serve tiers | No | Developer teams sending transactional email with React Email components and API-first tooling. |
-| [Twilio SendGrid](/tools/sendgrid/) | Freemium from $19.95/mo | Freemium, self-serve tiers | No | High-volume transactional senders that want an established deliverability stack and shared token infra (Twilio). |
+| [Twilio SendGrid](/tools/sendgrid/) | From $19.95/mo | Contract | No | High-volume transactional senders that want an established deliverability stack and shared token infra (Twilio). |
 | [Listmonk](/tools/listmonk/) | Open Source | Free self-host | Yes | Fully self-hosted sending at zero licence cost: fast Go-based newsletter and mailing-list manager with no contact caps. |
 | [Maizzle](/tools/maizzle/) | Free | Free | Yes | Agencies and developers building fast, clean HTML email templates with Tailwind as code. |
 | [Postmark](/tools/postmark/) | Freemium from $15/mo | Freemium, self-serve tiers | No | SaaS products that need transactional email with best-in-class deliverability discipline. |
@@ -76,7 +76,7 @@ Resend's catalog entry starts free and scales by usage; templates ship as code (
 
 ## [Twilio SendGrid as a Mailchimp alternative](/tools/sendgrid/)
 
-Freemium from $19.95/mo
+From $19.95/mo
 
 Vendor: [Official site](https://sendgrid.com) · [Pricing](https://www.twilio.com/en-us/products/email-api/pricing)
 

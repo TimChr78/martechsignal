@@ -103,7 +103,7 @@ All 166 tools, grouped by category. Each card links to a full teardown with pric
 - [Dolibarr ERP/CRM](/tools/dolibarr/): Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app (Open Source)
 - [EspoCRM](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management (Open Source from €12.90/user/mo)
 - [Ever Gauzy](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking (Open Source from $17/mo)
-- [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM (Open Source from $5/mo)
+- [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM (Open Source from $5/site/mo)
 - [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams (From $9/user/mo)
 - [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified (Freemium from $20/seat/mo)
 - [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React (Open Source from $5,000 one-time)
@@ -112,7 +112,7 @@ All 166 tools, grouped by category. Each card links to a full teardown with pric
 - [Monica](/tools/monica/): Open-source personal CRM for tracking friends, family, and business relationships (Open Source from $9/mo)
 - [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting (From $14/user/mo)
 - [ProspectOS](/tools/prospectos/): Open-source lead prospecting CRM with Google Maps and Instagram scraping (Open Source)
-- [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament (Open Source from $19/mo)
+- [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament (Open Source from $19/workspace/mo)
 - [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams (Enterprise)
 - [SuiteCRM](/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation (Open Source)
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (Open Source from $9/user/mo)
@@ -143,7 +143,7 @@ All 166 tools, grouped by category. Each card links to a full teardown with pric
 - [Postmark](/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers (Freemium from $15/mo)
 - [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js (Open Source from $250/mo)
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling (Freemium from $20/mo)
-- [Twilio SendGrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools (Freemium from $19.95/mo)
+- [Twilio SendGrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools (From $19.95/mo)
 - [Warmbly](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM (Open Source from $29/mo)
 ## GEO & LLM Optimization *14*
 
@@ -202,7 +202,7 @@ All 166 tools, grouped by category. Each card links to a full teardown with pric
 ## Social Media *6*
 
 - [Brandwatch](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform (Enterprise)
-- [Buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools (Freemium from $5/mo)
+- [Buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools (Freemium from $5/channel/mo)
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics (From $99/mo)
 - [MultiPost](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click (Open Source)
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives (Freemium from $19/mo)

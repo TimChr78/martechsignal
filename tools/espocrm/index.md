@@ -29,7 +29,7 @@ EspoCRM is the lightweight AGPL CRM with a real extension economy. The add-on pr
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 5/10 | Free self-hosted core under AGPLv3 is fully clear; the Advanced Pack and Intelligence add-ons exist but their prices are not listed (the vendor pricing page: [pricing page](https://www.espocrm.com/cloud/), verified 2026-09-07). |
+| Pricing transparency | 5/10 | Free self-hosted core under AGPLv3 is fully clear; the Advanced Pack and Intelligence add-ons exist but their prices are not listed (the vendor pricing page: [pricing section](https://www.espocrm.com/cloud/), verified 2026-09-07). |
 | Feature depth | 6/10 | Sales, marketing and customer management with workflow add-ons make a complete small-team CRM; BPM depth lives in the paid Advanced Pack (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
 | Integrations | 3/10 | No named integrations in the catalog; a documented API carries the connection story (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
 | AI capability | 3/10 | The Intelligence add-on exists but no AI features are itemized in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
@@ -50,7 +50,7 @@ EspoCRM is free to self-host under the AGPL-3.0 licence, paid plans start at €
 
 Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from €12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack.
 
-Current plans and limits live on the [EspoCRM pricing page](https://www.espocrm.com/cloud/).
+Current plans and limits live on the [EspoCRM pricing section](https://www.espocrm.com/cloud/).
 
 ## How to install
 

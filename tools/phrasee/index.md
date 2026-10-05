@@ -29,7 +29,7 @@ Phrasee, now Jacquard, has optimized enterprise message language for a decade an
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Quote-based with no published price list and no trial; last public terms (2023) described annual enterprise agreements (the vendor pricing page: [pricing page](https://www.jacquard.com/book-a-demo/), verified 2026-09-07). |
+| Pricing transparency | 2/10 | Quote-based with no published price list and no trial; last public terms (2023) described annual enterprise agreements (the vendor pricing page: [pricing section](https://www.jacquard.com/book-a-demo/), verified 2026-09-07). |
 | Feature depth | 7/10 | Brand-safe generation, performance prediction, tone analysis and automated A/B/N testing make a focused message optimization suite (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
 | Integrations | 7/10 | A dozen named enterprise ESPs from Salesforce Marketing Cloud to Emarsys documented (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
 | AI capability | 7/10 | The Neural engine's performance prediction over generated variants is a decade-old asset few can match (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
@@ -70,7 +70,7 @@ Phrasee is sold on quote-based enterprise contracts.
 
 Enterprise, quote-based; no published price list and no trial. Last published terms (2023) described flexible enterprise pricing, billed annually, unlimited seats and content creation
 
-Current plans and limits live on the [Phrasee pricing page](https://www.jacquard.com/book-a-demo/).
+Current plans and limits live on the [Phrasee pricing section](https://www.jacquard.com/book-a-demo/).
 
 ## How to install
 

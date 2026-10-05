@@ -8,7 +8,7 @@
 
 Simple social media scheduling and analytics with AI-powered content tools
 
-Social Media · Freemium from $5/mo Desk-reviewed
+Social Media · Freemium from $5/channel/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -27,7 +27,7 @@ Buffer is still the simplest way to schedule across channels, priced per channel
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free for 3 channels, Essentials $5/channel/mo, Team $10/channel/mo with a 14-day trial, all published (the vendor pricing page: [pricing page](https://buffer.com/pricing), verified 2026-08-28). |
+| Pricing transparency | 9/10 | Free for 3 channels, Essentials $5/channel/mo, Team $10/channel/mo with a 14-day trial, all published (the vendor pricing page: [pricing page](https://buffer.com/pricing), verified 2026-10-05). |
 | Feature depth | 5/10 | Scheduling, analytics and light engagement cover the small-team social routine (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
 | Integrations | 5/10 | Canva, Zapier, Shopify, GA, Slack and WordPress documented plus an API (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
 | AI capability | 4/10 | An AI assistant for posts, hashtag generation and repurposing help the writing step (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
@@ -58,7 +58,7 @@ Buffer homepage, captured September 2026. Vendor page shown as a dated reference
 - WordPress
 ## Pricing
 
-Buffer is freemium, with a free tier to start, paid plans start at $5/mo as of 2026-10.
+Buffer is freemium, with a free tier to start, paid plans start at $5/channel/mo as of 2026-10.
 
 Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial
 
@@ -81,7 +81,7 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AI capabilities: AI assistant for posts | ✗ Paid plans start at $5/mo once past the free tier |
+| ✓ AI capabilities: AI assistant for posts | ✗ Paid plans start at $5/channel/mo once past the free tier |
 | ✓ Native integrations include Canva, Zapier, Shopify (6 listed) | ✗ Closed source - no self-hosting option |
 | ✓ Free tier to evaluate before committing (Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial) |  |
 
@@ -100,7 +100,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Buffer: Simple social media scheduling and analytics with AI-powered content tools. Buffer ships with AI assistant for posts. This page documents 6 integrations.
 
 **How much does Buffer cost?**
-Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-10-05. The pricing section above shows what the free tier actually covers.
+Buffer has a free tier; paid plans start at $5/channel/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-10-05. The pricing section above shows what the free tier actually covers.
 
 **Is Buffer worth it past the free tier?**
 Start here, especially on the free tier. Plan to graduate to Sprout when reporting depth and approvals matter.
@@ -122,7 +122,7 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Creators that want scheduling priced per channel, not per seat
 ### Quick Facts
 
-- **Pricing:** Freemium from $5/mo
+- **Pricing:** Freemium from $5/channel/mo
 - **Category:** [Social Media](/categories/social-media/)
 - **Founded:** 2010
 - **HQ:** San Francisco, CA, USA

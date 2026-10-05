@@ -29,7 +29,7 @@ DeskcommCRM is WhatsApp selling as self-hosted MIT software: RAG knowledge per t
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT with no paid tiers; run costs are a 4GB VPS, Supabase and your AI keys, stated plainly (the vendor pricing page: [pricing page](https://deskcomm.com.br/#preco), verified 2026-09-14). |
+| Pricing transparency | 8/10 | Free under MIT with no paid tiers; run costs are a 4GB VPS, Supabase and your AI keys, stated plainly (the vendor pricing page: [pricing section](https://deskcomm.com.br/#preco), verified 2026-09-14). |
 | Feature depth | 6/10 | Lead qualification agents, pipeline movement and per-tenant RAG cover WhatsApp-based selling (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
 | Integrations | 7/10 | WhatsApp via WAHA and the official Cloud API, Supabase, Nuvemshop, Zapier, n8n, OpenRouter and MCP (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
 | AI capability | 7/10 | RAG-backed agents with seven-check pre-send guardrails show real production thinking (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
@@ -69,7 +69,7 @@ DeskcommCRM is free to self-host under the MIT licence.
 
 Free and MIT licensed, no paid tier or locked features. You pay for a VPS (4 GB RAM recommended), a Supabase project, and your own AI API keys. Agencies may host it for clients and charge.
 
-Current plans and limits live on the [DeskcommCRM pricing page](https://deskcomm.com.br/#preco).
+Current plans and limits live on the [DeskcommCRM pricing section](https://deskcomm.com.br/#preco).
 
 ## Pros and cons
 

@@ -1096,6 +1096,7 @@
    },
    "paid_from": 5,
    "currency": "USD",
+   "price_unit": "channel",
    "page_url": "https://martechsignal.com/tools/buffer/"
   },
   {
@@ -2499,7 +2500,7 @@
     "faq_extra": [
      [
       "Does Frappe CRM charge per user?",
-      "No. The pricing page states that you do not pay per user and that leads, deals, contacts, and sales agents are unlimited on every plan. Costs come from infrastructure: free if you self-host, from $5 per month for a Frappe Cloud site, or $20 to $60 per month for a dedicated server depending on provider and resources."
+      "No. The pricing page states that you do not pay per user and that leads, deals, contacts, and sales agents are unlimited on every plan. Costs come from infrastructure: free if you self-host, from $5/site/mo for Frappe Cloud hosting, or $20 to $60 per month for a dedicated server depending on provider and resources."
      ],
      [
       "Does Frappe CRM integrate with WhatsApp?",
@@ -2520,6 +2521,7 @@
    "github_forks": 1506,
    "github_checked": "2026-10-05",
    "currency": "USD",
+   "price_unit": "site",
    "page_url": "https://martechsignal.com/tools/frappe-crm/"
   },
   {
@@ -2628,7 +2630,7 @@
    "date_added": "2026-07-27",
    "date_updated": "2026-09-27",
    "description": "Freshsales is Freshworks' sales CRM, and its pitch is built-in capability: phone, email, chat, and sales sequences live in the product, so a sales team runs without bolt-ons. Freddy AI is the differentiator, and it is scoped narrowly enough to be credible: contact and intent scoring to surface which leads deserve attention, deal insights and recommendations on at-risk deals, AI writing help in email, and now the Freddy AI Agent as a paid add-on at $49 per 100 bot sessions. Pricing restructured recently and is lower than most reviews still state: Growth at $9 per user per month billed annually, covering kanban views, contact lifecycle stages, chat, email, and phone, email templates, and basic workflows; Pro at $39, adding contact scoring, deal insights, custom sales activities, territory management, and sales sequences; and Enterprise at $59, adding forecasting insights, field-level permissions, custom modules, sandbox, and audit logs. The AI you are paying for is tier-gated: scoring and deal insights start at Pro, not Growth. The permanent free plan no longer appears on the pricing page, so the entry point is a 21-day trial of the fully loaded product with no credit card. Freshworks reports 74,000-plus businesses using the CRM. What you get beyond the CRM is the ecosystem argument: Freshsales Suite bundles Freshmarketer so sales and marketing share one contact record, and Freshdesk, Freshchat, and the Freddy AI platform extend the same data into support and service. Sales campaigns for lead capture, qualification, routing, and tracking are part of the current pitch. The trade-offs are unchanged in kind: marketplace and integration depth trail HubSpot, AI scoring needs transaction history before it warms up, and enterprise process control sits below Salesforce. For a sales-led mid-market team that wants built-in communication channels and predictable per-seat pricing under HubSpot's, it is the pragmatic pick; marketing-led organizations will still want a dedicated marketing platform beside it.",
-   "seo_description": "Freshsales: AI-powered CRM with built-in phone, email, and chat for sales teams. Free to use. Compare AI features, integrations & top alternatives.",
+   "seo_description": "Freshsales: AI-powered CRM with built-in phone, email, and chat. From $9/user/mo with a 21-day trial.",
    "deep_dive": {
     "hands_on": [
      "Assessed from Freshworks' product and pricing pages rather than an account. The pricing page restructured: three plans at $9, $39, and $59 per user per month billed annually, with AI sold partly as a metered add-on - the Freddy AI Agent at $49 per 100 bot sessions - and Branded documents at $19 per user per month.",
@@ -6105,6 +6107,7 @@
    "currency": "USD",
    "github_forks": 212,
    "github_checked": "2026-10-05",
+   "price_unit": "workspace",
    "page_url": "https://martechsignal.com/tools/relaticle/"
   },
   {
@@ -6539,9 +6542,9 @@
    "tagline": "Scalable email delivery API with AI-powered deliverability and engagement tools",
    "website": "https://sendgrid.com",
    "category": "email-marketing",
-   "pricing_model": "freemium",
+   "pricing_model": "paid",
    "pricing_url": "https://www.twilio.com/en-us/products/email-api/pricing",
-   "price_from": 0,
+   "price_from": 19.95,
    "price_notes": "Free trial 100 emails/day for 60 days; Essentials $19.95/mo; Pro and Premier custom",
    "ai_features": [
     "AI deliverability optimization",

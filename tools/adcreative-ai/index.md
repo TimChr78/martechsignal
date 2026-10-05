@@ -29,7 +29,7 @@ AdCreative.ai sells conversion-scored generated creatives at self-serve prices. 
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Starter $39/mo ($20/mo annual), Professional $249/mo, Ultimate $599/mo published with Enterprise custom (the vendor pricing page: [pricing page](https://www.adcreative.ai/), verified 2026-08-28). |
+| Pricing transparency | 7/10 | Starter $39/mo ($20/mo annual), Professional $249/mo, Ultimate $599/mo published with Enterprise custom (the vendor pricing page: [pricing section](https://www.adcreative.ai/), verified 2026-08-28). |
 | Feature depth | 5/10 | Creative generation, scoring and copy cover the ad asset workflow narrowly (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
 | Integrations | 5/10 | Meta, Google, TikTok and LinkedIn Ads plus Shopify, Canva, Zapier and Slack documented (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
 | AI capability | 6/10 | Performance scoring over generated creatives is the differentiating model claim (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
@@ -67,7 +67,7 @@ AdCreative.ai is sold on paid plans, from $20/mo as of 2026-08.
 
 Starter $39/mo (annual $20/mo); Professional $249/mo; Ultimate $599/mo; Enterprise custom (pricing page moved to homepage section; re-check 2026-10-05)
 
-Current plans and limits live on the [AdCreative.ai pricing page](https://www.adcreative.ai/).
+Current plans and limits live on the [AdCreative.ai pricing section](https://www.adcreative.ai/).
 
 ## Review notes
 

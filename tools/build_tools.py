@@ -274,11 +274,14 @@ def pricing_section_html(t):
     url = str(t.get("pricing_url") or "").strip()
     link = ""
     if url and url != "#":
+        # r31 L-35 (2026-10-06): when the vendor folded pricing into the
+        # homepage, "pricing page" misnames the target — label follows URL.
+        _plabel = "pricing page" if "pric" in url.lower() else "pricing section"
         link = ('<p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">'
                 'Current plans and limits live on the '
                 f'<a href="{esc(url)}" target="_blank" rel="noopener" '
                 f'data-umami-event="Pricing section click" '
-                f'data-umami-event-tool="{esc(t.get("name") or "")}">{name} pricing page</a>.</p>')
+                f'data-umami-event-tool="{esc(t.get("name") or "")}">{name} {_plabel}</a>.</p>')
     return ('<section class="pricing-block"><h2>Pricing</h2>'
             f'<p>{lead}{tail}.</p><p>{esc(notes)}</p>{link}</section>')
 
@@ -1162,7 +1165,11 @@ def _evidence_cell(t, rec, ev):
         url, label = ((_repo_url, 'repository') if _repo_url
                       else (t.get('website') or '', 'vendor site'))
     elif 'pric' in low:
-        url, label = ((t.get('pricing_url') or '', 'pricing page')
+        # r31 L-35 (2026-10-06): label follows URL — a homepage pricing
+        # section is not a "pricing page" (adcreative-ai).
+        _purl = t.get('pricing_url') or ''
+        _plabel = 'pricing page' if 'pric' in _purl.lower() else 'pricing section'
+        url, label = ((_purl, _plabel)
                       if t.get('pricing_url')
                       else (t.get('website') or '', 'vendor site'))
     elif 'changelog' in low or 'release' in low or 'version' in low:

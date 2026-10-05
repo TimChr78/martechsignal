@@ -5,7 +5,7 @@
 - Open-Source Tools
 ## Open-Source Tools
 
-81 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
+81 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.
 
 81 TOOLS IN THIS CATEGORY
 
@@ -38,7 +38,7 @@
 - [Eve Marketing Team Template](/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email (Open Source)
 - [Ever Gauzy](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking (Open Source from $17/mo)
 - [Flagsmith](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting (Freemium from $50/member/mo)
-- [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM (Open Source from $5/mo)
+- [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM (Open Source from $5/site/mo)
 - [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools (Open Source from $9/mo)
 - [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4 (Freemium)
 - [Growth Lab](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex (Open Source)
@@ -77,7 +77,7 @@
 - [Promptfoo](/tools/promptfoo/): Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming (Freemium)
 - [ProspectOS](/tools/prospectos/): Open-source lead prospecting CRM with Google Maps and Instagram scraping (Open Source)
 - [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js (Open Source from $250/mo)
-- [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament (Open Source from $19/mo)
+- [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament (Open Source from $19/workspace/mo)
 - [Revive Adserver](/tools/revive-adserver/): Free open source ad server for publishers, ad networks and advertisers (Open Source)
 - [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing (Open-core from $265/mo)
 - [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects (Open Source)

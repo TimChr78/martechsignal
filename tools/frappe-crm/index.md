@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-09-06 (30 days ago).
 
 Fully featured, open source CRM
 
-CRM · Open Source from $5/mo Desk-reviewed
+CRM · Open Source from $5/site/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -53,7 +53,7 @@ Frappe CRM homepage, captured September 2026. Vendor page shown as a dated refer
 - Meta Lead Ads
 ## Pricing
 
-Frappe CRM is free to self-host under the AGPL-3.0 licence, paid plans start at $5/mo as of 2026-09.
+Frappe CRM is free to self-host under the AGPL-3.0 licence, paid plans start at $5/site/mo as of 2026-09.
 
 Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud.
 
@@ -94,7 +94,7 @@ A lean, fast-moving open-source CRM that costs almost nothing to run and gives u
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5/mo |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5/site/mo |
 | ✓ Active public repository (3,719 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Twilio, Exotel, WhatsApp (5 listed) |  |
 
@@ -116,13 +116,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Frappe CRM: Fully featured, open source CRM. The public repository carries 3,719 stars.
 
 **How much does Frappe CRM cost?**
-Frappe CRM has a free tier; paid plans start at $5/mo. Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
+Frappe CRM has a free tier; paid plans start at $5/site/mo. Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
 
 **Is Frappe CRM a good self-hosted CRM tool in 2026?**
 A lean, fast-moving open-source CRM that costs almost nothing to run and gives up AI, native mobile, and connector breadth to get there. Read the AGPL terms and pin your branch before you install.
 
 **Does Frappe CRM charge per user?**
-No. The pricing page states that you do not pay per user and that leads, deals, contacts, and sales agents are unlimited on every plan. Costs come from infrastructure: free if you self-host, from $5 per month for a Frappe Cloud site, or $20 to $60 per month for a dedicated server depending on provider and resources.
+No. The pricing page states that you do not pay per user and that leads, deals, contacts, and sales agents are unlimited on every plan. Costs come from infrastructure: free if you self-host, from $5/site/mo for Frappe Cloud hosting, or $20 to $60 per month for a dedicated server depending on provider and resources.
 
 **Does Frappe CRM integrate with WhatsApp?**
 Not on its own. WhatsApp support comes from a separate third-party app, Frappe WhatsApp by Shridhar, which you install alongside the CRM and connect using WhatsApp Business Cloud API credentials and a webhook verify token. It adds a WhatsApp tab to lead and deal pages and sends from approved templates; the docs note you can only initiate communication with customers.
@@ -150,7 +150,7 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for budget-conscious sales teams, especially ERPNext shops.
 ### Quick Facts
 
-- **Pricing:** Open Source from $5/mo
+- **Pricing:** Open Source from $5/site/mo
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 3719
 - **API:** No

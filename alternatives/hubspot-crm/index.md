@@ -19,7 +19,7 @@ Last verified 2026-09-28.
 | [EspoCRM](/tools/espocrm/) | Open Source from €12.90/user/mo | Free self-host, paid cloud | Yes | Small teams that want a lightweight self-hosted CRM with solid sales automation and are willing to buy extensions as needed. |
 | [SuiteCRM](/tools/suitecrm/) | Open Source | Free self-host, paid cloud | Yes | Organizations that want the broadest free module set in open-source CRM, from quotes and invoices to campaigns and cases, and can run PHP infrastructure. |
 | [Pipedrive](/tools/pipedrive/) | From $14/user/mo | See vendor | No | Sales teams that already run a separate marketing stack and want a pipeline-first CRM that reps will actually use. |
-| [Frappe CRM](/tools/frappe-crm/) | Open Source from $5/mo | Free self-host, paid cloud | Yes | Budget-conscious sales teams that want unlimited users on an open-source CRM and are comfortable with the Frappe stack. |
+| [Frappe CRM](/tools/frappe-crm/) | Open Source from $5/site/mo | Free self-host, paid cloud | Yes | Budget-conscious sales teams that want unlimited users on an open-source CRM and are comfortable with the Frappe stack. |
 
 ## [Twenty as a HubSpot CRM alternative](/tools/twenty/)
 
@@ -71,7 +71,7 @@ Pipedrive is a paid SaaS CRM priced from $14 per user per month on Essential, wi
 
 ## [Frappe CRM as a HubSpot CRM alternative](/tools/frappe-crm/)
 
-Open Source from $5/mo OSS
+Open Source from $5/site/mo OSS
 
 Vendor: [Official site](https://frappe.io/crm) · [GitHub](https://github.com/frappe/crm)
 

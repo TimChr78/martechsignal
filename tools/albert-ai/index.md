@@ -27,7 +27,7 @@ Albert AI is autonomous media buying taken literally: it runs campaigns, not sug
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Enterprise custom pricing as a percentage of ad spend with a demo required and no public numbers (the vendor pricing page: [pricing page](https://albert.ai/contact/), verified 2026-08-28). |
+| Pricing transparency | 2/10 | Enterprise custom pricing as a percentage of ad spend with a demo required and no public numbers (the vendor pricing page: [pricing section](https://albert.ai/contact/), verified 2026-10-05). |
 | Feature depth | 7/10 | Autonomous campaign management, budget allocation, targeting and cross-channel orchestration cover the paid loop end to end (vendor documentation: [vendor site](https://albert.ai), verified 2026-09-28). |
 | Integrations | 5/10 | Meta, Google and YouTube Ads plus Salesforce, Adobe Analytics and GA documented (vendor documentation: [vendor site](https://albert.ai), verified 2026-09-28). |
 | AI capability | 8/10 | Autonomous campaign management is the product thesis, not a feature line (vendor documentation: [vendor site](https://albert.ai), verified 2026-09-28). |
@@ -63,7 +63,7 @@ Albert AI is sold on quote-based enterprise contracts.
 
 Enterprise custom pricing; percentage of ad spend model; demo required
 
-Current plans and limits live on the [Albert AI pricing page](https://albert.ai/contact/).
+Current plans and limits live on the [Albert AI pricing section](https://albert.ai/contact/).
 
 ## Review notes
 

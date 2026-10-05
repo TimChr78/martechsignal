@@ -29,7 +29,7 @@ IDURAR is a full ERP-CRM-accounting stack under AGPL with 8,847 stars, and lifet
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Self-host free under AGPL-3.0; lifetime licenses published at $5,000 Professional and $10,000 Enterprise (the vendor pricing page: [pricing page](https://www.idurarapp.com), verified 2026-09-07). |
+| Pricing transparency | 7/10 | Self-host free under AGPL-3.0; lifetime licenses published at $5,000 Professional and $10,000 Enterprise (the vendor pricing page: [pricing section](https://www.idurarapp.com), verified 2026-09-07). |
 | Feature depth | 6/10 | ERP, CRM, accounting and invoicing cover the small-business back office (vendor documentation: [vendor site](https://cloud.idurarapp.com), verified 2026-09-28). |
 | Integrations | 2/10 | No named integrations in the catalog (vendor documentation: [vendor site](https://cloud.idurarapp.com), verified 2026-09-28). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://cloud.idurarapp.com), verified 2026-09-28). |
@@ -50,7 +50,7 @@ IDURAR ERP & CRM is free to self-host under the AGPL-3.0 licence, paid plans sta
 
 Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support.
 
-Current plans and limits live on the [IDURAR ERP & CRM pricing page](https://www.idurarapp.com).
+Current plans and limits live on the [IDURAR ERP & CRM pricing section](https://www.idurarapp.com).
 
 ## How to install
 

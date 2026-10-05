@@ -27,7 +27,7 @@ Anyword's predictive performance score is the reason to buy it: generated copy a
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Starter $39/mo annual ($49 monthly), Data-Driven $79/mo annual ($99 monthly) with a 7-day trial, all published (the vendor pricing page: [pricing page](https://www.anyword.com/pricing), verified 2026-08-28). |
+| Pricing transparency | 8/10 | Starter $39/mo annual ($49 monthly), Data-Driven $79/mo annual ($99 monthly) with a 7-day trial, all published (the vendor pricing page: [pricing page](https://www.anyword.com/pricing), verified 2026-10-05). |
 | Feature depth | 6/10 | Copy generation, brand voice, channel optimization and A/B testing cover the copy workflow around its scoring core (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
 | Integrations | 5/10 | Chrome, HubSpot, WordPress, Zapier, Mailchimp, Google Ads and Meta Ads documented plus an API (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
 | AI capability | 7/10 | The predictive performance score per copy variant is a model advantage competitors describe but rarely quantify (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |

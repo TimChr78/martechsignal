@@ -27,7 +27,7 @@ IFTTT is consumer automation at consumer prices: $2.99/mo gets 20 Applets and $8
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free (2 Applets), Pro $2.99/mo annual (20 Applets), Pro+ $8.99/mo annual (unlimited), all published with exact counts (the vendor pricing page: [pricing page](https://ifttt.com/plans), verified 2026-09-28). |
+| Pricing transparency | 9/10 | Free (2 Applets), Pro $2.99/mo annual (20 Applets), Pro+ $8.99/mo annual (unlimited), all published with exact counts (the vendor pricing page: [pricing section](https://ifttt.com/plans), verified 2026-09-28). |
 | Feature depth | 5/10 | Applet automation with code steps cover consumer and smart-device workflows (vendor documentation: [vendor site](https://ifttt.com), verified 2026-09-28). |
 | Integrations | 6/10 | Gmail, Sheets, Twitter, Discord, webhooks and YouTube documented plus an API (vendor documentation: [vendor site](https://ifttt.com), verified 2026-09-28). |
 | AI capability | 3/10 | AI services on Pro+ and query/filter code steps are the automation layer's only AI surface (vendor documentation: [vendor site](https://ifttt.com), verified 2026-09-28). |
@@ -58,7 +58,7 @@ IFTTT is freemium, with a free tier to start, paid plans start at $2.99/mo as of
 
 Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27.
 
-Current plans and limits live on the [IFTTT pricing page](https://ifttt.com/plans).
+Current plans and limits live on the [IFTTT pricing section](https://ifttt.com/plans).
 
 ## Review notes
 

@@ -27,7 +27,7 @@ Hootsuite is the established social suite: broad network coverage and scheduling
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Standard $99/mo and Professional $149/mo ($99/mo annual) published; Team and Enterprise are custom (the vendor pricing page: [pricing page](https://www.hootsuite.com/plans), verified 2026-09-27). |
+| Pricing transparency | 6/10 | Standard $99/mo and Professional $149/mo ($99/mo annual) published; Team and Enterprise are custom (the vendor pricing page: [pricing section](https://www.hootsuite.com/plans), verified 2026-09-27). |
 | Feature depth | 7/10 | Scheduling, listening, analytics and engagement across the major networks cover the social operations loop (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
 | Integrations | 7/10 | Canva, Salesforce, HubSpot, Slack, Adobe, GA, Shopify and Dropbox documented plus an API (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
 | AI capability | 5/10 | Caption generation, best-time-to-post and hashtag suggestions are useful conveniences (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
@@ -65,7 +65,7 @@ Hootsuite is sold on paid plans, from $99/mo as of 2026-09.
 
 Standard $99/mo; Professional $149/mo (annual $99/mo); Team and Enterprise custom
 
-Current plans and limits live on the [Hootsuite pricing page](https://www.hootsuite.com/plans).
+Current plans and limits live on the [Hootsuite pricing section](https://www.hootsuite.com/plans).
 
 ## Review notes
 

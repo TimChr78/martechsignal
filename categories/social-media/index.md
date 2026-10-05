@@ -12,7 +12,7 @@ Social scheduling, listening, and analytics, from per-channel schedulers to ente
 ## All tools in this category
 
 - [Brandwatch](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform (Enterprise)
-- [Buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools (Freemium from $5/mo)
+- [Buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools (Freemium from $5/channel/mo)
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics (From $99/mo)
 - [MultiPost](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click (Open Source)
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives (Freemium from $19/mo)

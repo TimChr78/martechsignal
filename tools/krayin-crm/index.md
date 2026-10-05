@@ -29,7 +29,7 @@ Krayin is the Laravel CRM for teams that want to own the code and extend it in P
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Free to self-host under MIT with no user limits is perfectly clear; Webkul's extension prices are mostly unlisted beyond the $1,799 multi-tenant module (the vendor pricing page: [pricing page](https://krayincrm.com/extensions/), verified 2026-09-07). |
+| Pricing transparency | 6/10 | Free to self-host under MIT with no user limits is perfectly clear; Webkul's extension prices are mostly unlisted beyond the $1,799 multi-tenant module (the vendor pricing page: [pricing section](https://krayincrm.com/extensions/), verified 2026-09-07). |
 | Feature depth | 6/10 | Full customer lifecycle management with automation packages (triggers, conditions, actions) covers SME CRM needs; campaign machinery is thin (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
 | Integrations | 3/10 | No named integrations in the catalog; Laravel and Webkul extensions carry the connection story (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
 | AI capability | 5/10 | Magic AI lead creation from uploaded PDFs and images via an OpenRouter module is real but narrow (vendor documentation: [vendor site](https://krayincrm.com), verified 2026-09-28). |
@@ -54,7 +54,7 @@ Krayin CRM is free to self-host under the MIT licence, paid plans start at $1,79
 
 Free to self-host under MIT with no user limits. Paid: Webkul extensions (multi-tenant SaaS at $1,799 for Krayin 2.1.0; other extension prices unlisted) and vendor cloud hosting with no published prices.
 
-Current plans and limits live on the [Krayin CRM pricing page](https://krayincrm.com/extensions/).
+Current plans and limits live on the [Krayin CRM pricing section](https://krayincrm.com/extensions/).
 
 ## How to install
 

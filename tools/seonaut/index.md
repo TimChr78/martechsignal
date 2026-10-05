@@ -29,7 +29,7 @@ Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: on
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Self-hosted free (MIT); cloud Lite free for 1 project/500 URLs, Growth $9/mo for 5 projects/10K URLs published (the vendor pricing page: [pricing page](https://seonaut.org/), verified 2026-09-07). |
+| Pricing transparency | 9/10 | Self-hosted free (MIT); cloud Lite free for 1 project/500 URLs, Growth $9/mo for 5 projects/10K URLs published (the vendor pricing page: [pricing section](https://seonaut.org/), verified 2026-09-07). |
 | Feature depth | 4/10 | Technical SEO crawling with recurring audits cover the audit job (vendor documentation: [vendor site](https://seonaut.org), verified 2026-09-28). |
 | Integrations | 2/10 | No named integrations in the catalog and no API (vendor documentation: [vendor site](https://seonaut.org), verified 2026-09-28). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://seonaut.org), verified 2026-09-28). |
@@ -50,7 +50,7 @@ Seonaut is free to self-host under the MIT licence, paid plans start at $9/mo as
 
 MIT-licensed self-hosted free; cloud Lite free for 1 project and 500 URLs per project, Growth $9/mo for 5 projects and 10,000 URLs with recurring audits
 
-Current plans and limits live on the [Seonaut pricing page](https://seonaut.org/).
+Current plans and limits live on the [Seonaut pricing section](https://seonaut.org/).
 
 ## How to install
 

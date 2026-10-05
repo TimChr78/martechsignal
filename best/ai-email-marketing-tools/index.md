@@ -10,7 +10,7 @@ Mailchimp is the shortest path from idea to send for small businesses. Klaviyo t
 | [Mailchimp](/tools/mailchimp/) | Freemium from $13/mo | No | yes | Small businesses that want the shortest path from idea to send |
 | [Klaviyo](/tools/klaviyo/) | Freemium from $20/mo | No | yes | DTC brands that want store data doing the segmentation |
 | [Customer.io](/tools/customer-io/) | From $100/mo | No | yes | Lifecycle teams writing behavior-triggered journeys on their own data |
-| [Twilio SendGrid](/tools/sendgrid/) | Freemium from $19.95/mo | No | yes | Product teams that need transactional delivery with marketing on the side |
+| [Twilio SendGrid](/tools/sendgrid/) | From $19.95/mo | No | yes | Product teams that need transactional delivery with marketing on the side |
 | [Warmbly](/tools/warmbly/) | Open Source from $29/mo | Yes (Apache-2.0) | yes | Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier. |
 | [Notifuse](/tools/notifuse/) | Open Source from $19/mo | Yes (AGPL-3.0) | yes | Best for email marketing teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 | [OpenOutreach](/tools/openoutreach/) | Open Source | Yes (GPL-3.0) | no | Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier. |

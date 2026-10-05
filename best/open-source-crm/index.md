@@ -10,7 +10,7 @@ Most teams should start with EspoCRM. It is lean, free, and easy to extend piece
 | [EspoCRM](/tools/espocrm/) | Open Source from €12.90/user/mo | yes | Best for lean sales teams that automate à la carte. |
 | [SuiteCRM](/tools/suitecrm/) | Open Source | yes | Best for teams that want the widest free feature set. |
 | [Twenty](/tools/twenty/) | Open Source from $9/user/mo | yes | Best for technically fluent teams wanting a modern extensible CRM. |
-| [Frappe CRM](/tools/frappe-crm/) | Open Source from $5/mo | no | Best for budget-conscious sales teams, especially ERPNext shops. |
+| [Frappe CRM](/tools/frappe-crm/) | Open Source from $5/site/mo | no | Best for budget-conscious sales teams, especially ERPNext shops. |
 | [Krayin CRM](/tools/krayin-crm/) | Open Source from $1,799 one-time | yes | Best for Laravel shops that want room to extend a CRM. |
 | [Monica](/tools/monica/) | Open Source from $9/mo | yes | Best for relationship-led founders and community businesses. |
 

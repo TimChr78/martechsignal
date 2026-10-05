@@ -23,7 +23,7 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 - [Dolibarr ERP/CRM](/tools/dolibarr/): Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app (Open Source)
 - [EspoCRM](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management (Open Source from €12.90/user/mo)
 - [Ever Gauzy](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking (Open Source from $17/mo)
-- [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM (Open Source from $5/mo)
+- [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM (Open Source from $5/site/mo)
 - [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React (Open Source from $5,000 one-time)
 - [Krayin CRM](/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management (Open Source from $1,799 one-time)
 - [Monica](/tools/monica/): Open-source personal CRM for tracking friends, family, and business relationships (Open Source from $9/mo)
@@ -33,7 +33,7 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 
 - [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment (Freemium)
 - [Macro](/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory (Freemium from $40/seat/mo)
-- [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament (Open Source from $19/mo)
+- [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament (Open Source from $19/workspace/mo)
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (Open Source from $9/user/mo)
 ## OUTBOUND & CHANNEL (3)
 

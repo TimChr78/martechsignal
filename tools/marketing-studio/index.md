@@ -29,7 +29,7 @@ Marketing Studio renders launch assets and demo videos from one Claude Code comm
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with Claude Code API access as the stated requirement (the vendor pricing page: [pricing page](https://github.com/ucsandman/marketing-studio), verified 2026-08-31). |
+| Pricing transparency | 9/10 | Free under MIT with Claude Code API access as the stated requirement (the vendor pricing page: [pricing section](https://github.com/ucsandman/marketing-studio), verified 2026-08-31). |
 | Feature depth | 4/10 | Launch assets, demo video rendering, social clips and OG images cover the launch kit (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
 | Integrations | 3/10 | Claude Code and Blender documented as the two dependencies (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
 | AI capability | 5/10 | Agent-driven asset and video generation through Blender is a real pipeline (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
@@ -60,7 +60,7 @@ Marketing Studio is free to self-host under the MIT licence.
 
 Free and open source (MIT). Requires Claude Code and API access.
 
-Current plans and limits live on the [Marketing Studio pricing page](https://github.com/ucsandman/marketing-studio).
+Current plans and limits live on the [Marketing Studio pricing section](https://github.com/ucsandman/marketing-studio).
 
 ## Review notes
 

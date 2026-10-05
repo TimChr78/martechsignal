@@ -69,7 +69,7 @@ Writer is sold on paid plans.
 
 Quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026).
 
-Current plans and limits live on the [Writer pricing page](https://writer.com/plans/).
+Current plans and limits live on the [Writer pricing section](https://writer.com/plans/).
 
 ## How to install
 

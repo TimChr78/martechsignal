@@ -29,7 +29,7 @@ Listmonk is the self-hosted newsletter standard: 23,694 stars of Go under AGPL w
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free and open-source under AGPL with self-hosting and no paid tiers at all (the vendor pricing page: [pricing page](https://listmonk.app), verified 2026-08-28). |
+| Pricing transparency | 10/10 | Free and open-source under AGPL with self-hosting and no paid tiers at all (the vendor pricing page: [pricing section](https://listmonk.app), verified 2026-08-28). |
 | Feature depth | 5/10 | Newsletter and mailing-list management with templates and campaigns cover the sending job (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
 | Integrations | 4/10 | PostgreSQL, SMTP, Zapier and WordPress documented plus an API (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
 | AI capability | 3/10 | AI-assisted template editing and campaign analytics are the two documented AI features (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
@@ -60,7 +60,7 @@ Listmonk is free to self-host under the AGPL-3.0 licence.
 
 Free and open-source (AGPL); self-hosted; no paid tiers
 
-Current plans and limits live on the [Listmonk pricing page](https://listmonk.app).
+Current plans and limits live on the [Listmonk pricing section](https://listmonk.app).
 
 ## Review notes
 

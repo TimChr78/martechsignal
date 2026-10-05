@@ -27,7 +27,7 @@ Chatfuel is messaging-channel automation with AI flows that behave like sales sc
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | From $39/mo with AI PRO at $69/mo and usage-based tiers published; a free trial replaces the free plan (the vendor pricing page: [pricing page](https://chatfuel.com/pricing), verified 2026-08-28). |
+| Pricing transparency | 7/10 | Business $18/mo billed yearly ($20/mo monthly) with Agency tiers from $90/mo billed yearly; every plan starts with a free trial, no free plan (the vendor pricing page: [pricing page](https://chatfuel.com/pricing), verified 2026-10-05). |
 | Feature depth | 5/10 | Conversation flows, lead capture and analytics cover the messaging automation loop (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
 | Integrations | 5/10 | Shopify, Zapier, Google Sheets, Stripe, Mailchimp and HubSpot documented plus an API (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
 | AI capability | 5/10 | AI flow building and auto-replies automate conversations without full autonomy (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |

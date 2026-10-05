@@ -27,7 +27,7 @@ Adobe LLM Optimizer is for shops already inside Experience Cloud: CDN-edge fixes
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Quote-based within Adobe Experience Cloud with no public numbers as of Sep 2026 (the vendor pricing page: [pricing page](https://business.adobe.com/products/brand-visibility.html), verified 2026-09-28). |
+| Pricing transparency | 2/10 | Quote-based within Adobe Experience Cloud with no public numbers as of Sep 2026 (the vendor pricing page: [pricing section](https://business.adobe.com/products/brand-visibility.html), verified 2026-09-28). |
 | Feature depth | 8/10 | Share-of-voice across ten LLM families, ~300M enriched AI search prompts and CDN-edge content optimization served to crawlers (vendor documentation: [vendor site](https://business.adobe.com/products/brand-visibility.html), verified 2026-09-28). |
 | Integrations | 7/10 | Native ties to Adobe Analytics, CJA and AEM plus three CDN providers make it deep inside its own stack and narrow outside it (vendor documentation: [vendor site](https://business.adobe.com/products/brand-visibility.html), verified 2026-09-28). |
 | AI capability | 8/10 | CDN-edge optimizations served to AI crawlers and clickstream-enriched prompt data are capabilities no standalone tracker has (vendor documentation: [vendor site](https://business.adobe.com/products/brand-visibility.html), verified 2026-09-28). |
@@ -61,7 +61,7 @@ Adobe LLM Optimizer is sold on quote-based enterprise contracts.
 
 Quote-based within Adobe Experience Cloud (Sep 2026)
 
-Current plans and limits live on the [Adobe LLM Optimizer pricing page](https://business.adobe.com/products/brand-visibility.html).
+Current plans and limits live on the [Adobe LLM Optimizer pricing section](https://business.adobe.com/products/brand-visibility.html).
 
 ## Best for
 

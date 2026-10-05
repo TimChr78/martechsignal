@@ -29,7 +29,7 @@ An API-first CRM designed to be driven by n8n and AI agents, with MCP support th
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 5/10 | Self-hosting is free as stated in the README, but there is no pricing page, no published commercial or support terms, and the project is early-stage (the vendor pricing page: [pricing page](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
+| Pricing transparency | 5/10 | Self-hosting is free as stated in the README, but there is no pricing page, no published commercial or support terms, and the project is early-stage (the vendor pricing page: [pricing section](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
 | Feature depth | 4/10 | Contacts, tasks, an importer, configurable fields and a WhatsApp Cloud API channel cover core CRM plus a little more, and the plugin catalogue is still young (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
 | Integrations | 4/10 | GraphQL and REST APIs plus webhooks, an MCP server, a community n8n node and a WhatsApp Cloud API plugin cover programmatic access, with no marketplace behind them (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
 | AI capability | 6/10 | AlphOne speaks MCP from version 0.9.0 so agent clients can query tasks, contacts and fields through a defined tool list and agent-created records are marked, but there are no built-in AI features (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
@@ -50,7 +50,7 @@ AlphOne is free to self-host under the Elastic License 2.0 licence.
 
 Free to self-host. Split license: backend under Elastic License 2.0 (source-available, not OSI open source), check terms for commercial use.
 
-Current plans and limits live on the [AlphOne pricing page](https://github.com/gopherium/AlphOne).
+Current plans and limits live on the [AlphOne pricing section](https://github.com/gopherium/AlphOne).
 
 ## Best for
 

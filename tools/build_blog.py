@@ -274,6 +274,18 @@ def markdown_to_html(md: str) -> str:
             continue
 
         # Blockquote-like (lines starting with >)
+        # r31 L-34 (2026-10-06): the comment promised blockquotes but the
+        # branch was never implemented — `> ` lines fell into Paragraph
+        # and rendered a literal "&gt;" glyph. Real <blockquote> now.
+        if line.strip().startswith('>'):
+            quote_lines = []
+            while i < len(lines) and lines[i].strip().startswith('>'):
+                quote_lines.append(re.sub(r'^>\s?', '', lines[i].strip()))
+                i += 1
+            if quote_lines:
+                text = inline_format(' '.join(quote_lines))
+                out.append(f'<blockquote><p>{text}</p></blockquote>')
+                continue
         # Paragraph (collect until blank line)
         para_lines = []
         while i < len(lines) and lines[i].strip() and not re.match(r'^(#{1,3}\s|-\s|[--]{2,}$)', lines[i]):

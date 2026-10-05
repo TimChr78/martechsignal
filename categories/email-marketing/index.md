@@ -26,7 +26,7 @@ Email marketing across hosted, self-hosted, and transactional: contact vs volume
 - [Notifo](/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push (Open Source)
 - [Postmark](/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers (Freemium from $15/mo)
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling (Freemium from $20/mo)
-- [Twilio SendGrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools (Freemium from $19.95/mo)
+- [Twilio SendGrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools (From $19.95/mo)
 ## TEMPLATES AND COLD OUTREACH (4)
 
 - [Maizzle](/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns (Free)

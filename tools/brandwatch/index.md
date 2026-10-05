@@ -29,7 +29,7 @@ Brandwatch is consumer intelligence first and social management second: the data
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Custom enterprise pricing across Consumer Intelligence, Social Management and Influencer modules with no public numbers (the vendor pricing page: [pricing page](https://www.brandwatch.com/plans/), verified 2026-08-28). |
+| Pricing transparency | 2/10 | Custom enterprise pricing across Consumer Intelligence, Social Management and Influencer modules with no public numbers (the vendor pricing page: [pricing section](https://www.brandwatch.com/plans/), verified 2026-08-28). |
 | Feature depth | 8/10 | Consumer intelligence, social management and influencer modules cover research through execution (vendor documentation: [vendor site](https://www.brandwatch.com), verified 2026-09-28). |
 | Integrations | 6/10 | Slack, Salesforce, Zapier, Tableau, GA, Meta Business Suite and Hootsuite documented plus an API (vendor documentation: [vendor site](https://www.brandwatch.com), verified 2026-09-28). |
 | AI capability | 7/10 | Image recognition, trend detection and audience segmentation over a large historical dataset (vendor documentation: [vendor site](https://www.brandwatch.com), verified 2026-09-28). |
@@ -66,7 +66,7 @@ Brandwatch is sold on quote-based enterprise contracts.
 
 Custom enterprise pricing; Consumer Intelligence, Social Management, and Influencer modules
 
-Current plans and limits live on the [Brandwatch pricing page](https://www.brandwatch.com/plans/).
+Current plans and limits live on the [Brandwatch pricing section](https://www.brandwatch.com/plans/).
 
 ## Review notes
 

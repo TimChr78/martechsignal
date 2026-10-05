@@ -69,7 +69,7 @@ Smartly.io is sold on quote-based enterprise contracts.
 
 Not published. No rate card appears on the site and the /pricing URL returns a 404; the only path is a demo request via smartly.io/get-demo
 
-Current plans and limits live on the [Smartly.io pricing page](https://www.smartly.io/get-demo).
+Current plans and limits live on the [Smartly.io pricing section](https://www.smartly.io/get-demo).
 
 ## How to install
 

@@ -29,7 +29,7 @@ Ortto bundles CDP and marketing automation at a mid-market price, with AI sprink
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Starter from $199/mo with a 14-day trial is published; larger plans require a 12-month commitment and email overage is $1 per 1,000 (the vendor pricing page: [pricing page](https://ortto.com/starter/), verified 2026-09-07). |
+| Pricing transparency | 6/10 | Starter from $199/mo with a 14-day trial is published; larger plans require a 12-month commitment and email overage is $1 per 1,000 (the vendor pricing page: [pricing section](https://ortto.com/starter/), verified 2026-09-07). |
 | Feature depth | 7/10 | Journeys, a CDP layer and analytics in one platform cover the marketing automation loop end to end (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
 | Integrations | 7/10 | Twelve named connectors including Salesforce, Shopify, Stripe, Segment and Zendesk plus API access (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
 | AI capability | 5/10 | AI subject lines, content suggestions, natural-language segment filters and enrichment are helpful utilities rather than agents (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
@@ -73,7 +73,7 @@ Ortto is sold on paid plans, from $199/mo as of 2026-09.
 
 Starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000
 
-Current plans and limits live on the [Ortto pricing page](https://ortto.com/starter/).
+Current plans and limits live on the [Ortto pricing section](https://ortto.com/starter/).
 
 ## How to install
 

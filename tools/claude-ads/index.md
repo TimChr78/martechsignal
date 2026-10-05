@@ -27,7 +27,7 @@ Claude Ads is paid-media operations as a skill: 250+ audit checks across 12 plat
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with only Claude API costs to account for, stated plainly (the vendor pricing page: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-08-28). |
+| Pricing transparency | 9/10 | Free under MIT with only Claude API costs to account for, stated plainly (the vendor pricing page: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-10-05). |
 | Feature depth | 7/10 | 250+ audit checks, parallel subagent audits with confidence scoring and creative brief generation (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
 | Integrations | 8/10 | Twelve named ad platforms from Google, Meta and TikTok to Apple Ads and Reddit Ads (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
 | AI capability | 8/10 | Parallel subagent account audits with confidence scoring are native-agent architecture (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |

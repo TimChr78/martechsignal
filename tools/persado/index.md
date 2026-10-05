@@ -29,7 +29,7 @@ Persado sells message math to regulated industries: scored language per recipien
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Enterprise custom pricing with no public numbers; the focus is finserv, retail and travel contracts (the vendor pricing page: [pricing page](https://www.persado.com/contact/), verified 2026-09-07). |
+| Pricing transparency | 2/10 | Enterprise custom pricing with no public numbers; the focus is finserv, retail and travel contracts (the vendor pricing page: [pricing section](https://www.persado.com/contact/), verified 2026-09-07). |
 | Feature depth | 7/10 | Create, Optimize and Automate cover generation, message scoring and per-recipient personalization at send time (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
 | Integrations | 7/10 | Nine named enterprise ESP connections including Salesforce Marketing Cloud, Braze, Eloqua and Klaviyo documented (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
 | AI capability | 8/10 | Per-recipient personalization at send time backed by a long-running language performance dataset (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
@@ -69,7 +69,7 @@ Persado is sold on quote-based enterprise contracts.
 
 Enterprise custom pricing; focused on regulated industries (finserv, retail, travel)
 
-Current plans and limits live on the [Persado pricing page](https://www.persado.com/contact/).
+Current plans and limits live on the [Persado pricing section](https://www.persado.com/contact/).
 
 ## How to install
 

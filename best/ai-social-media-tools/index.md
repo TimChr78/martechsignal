@@ -11,7 +11,7 @@ Hootsuite fits teams running many accounts where scheduling has to survive staff
 | [Sprout Social](/tools/sprout-social/) | From $249/seat/mo | No | Social teams that want listening and engagement behind a polished UI |
 | [Brandwatch](/tools/brandwatch/) | Enterprise | No | Research teams that want consumer intelligence more than a scheduler |
 | [Predis.ai](/tools/predis-ai/) | Freemium from $19/mo | No | Solo marketers that want daily post volume on a small budget |
-| [Buffer](/tools/buffer/) | Freemium from $5/mo | No | Creators that want scheduling priced per channel, not per seat |
+| [Buffer](/tools/buffer/) | Freemium from $5/channel/mo | No | Creators that want scheduling priced per channel, not per seat |
 | [MultiPost](/tools/multipost-extension/) | Open Source | Yes (Apache-2.0) | Best for social media teams that want one-click multi-platform publishing and can host it themselves, with a free starting tier. |
 
 **Our top pick: [Hootsuite](#hootsuite)** — Teams running many accounts that need scheduling which survives staff turnover [Try Hootsuite](https://www.hootsuite.com)

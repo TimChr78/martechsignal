@@ -966,13 +966,16 @@ def test_freemium_pages_carry_both_offer_tiers():
     only USD 20 while the headline says Free CRM).
     r28 H-2 (2026-10-06): hubspot-crm is now a price_unit:seat record — its
     Offer is suppressed (schema cannot carry the unit), so buffer (free +
-    $5 paid, unit-free) carries the example."""
+    $5 paid, unit-free) carries the example.
+    r31 H-6 (2026-10-06): buffer declared price_unit:channel, so its paid
+    node suppresses to the honest $0 alone. mailchimp (free + $13 paid,
+    unit-free) carries the example now."""
     import json as _j
     import re as _re
-    html = (ROOT / "tools" / "buffer" / "index.html").read_text()
+    html = (ROOT / "tools" / "mailchimp" / "index.html").read_text()
     prices = sorted({m.group(1) for m in
                      _re.finditer(r'"price":\s*([0-9.]+)', html)})
-    assert "0" in prices and "5" in prices, f"buffer offer prices: {prices}"
+    assert "0" in prices and "13" in prices, f"mailchimp offer prices: {prices}"
 
 
 def test_identity_graph_is_unfragmented():
@@ -2101,7 +2104,7 @@ def test_content_updated_restamps_date_modified():
     assert not _bad, f"stale dateModified on revised leaves: {_bad[:8]}"
 
 
-_KNOWN_UNITS = {"user", "seat", "member", "agent"}
+_KNOWN_UNITS = {"user", "seat", "member", "agent", "channel", "site", "workspace"}
 _PERIOD_WORDS = {"mo", "month", "months", "yr", "year", "years", "yearly",
                  "annual", "annually", "quarter", "quarterly", "lifetime",
                  "one-time", "trial", "plan", "plans", "tier", "tiers"}
@@ -2262,7 +2265,7 @@ def test_per_user_enterprise_figures_qualified_everywhere():
         _num = str(int(_entry)) if float(_entry) == int(float(_entry)) else str(_entry)
         _fig = _re.escape(f"{_sym}{_num}")
         _bare = 0
-        for _m in _re.finditer(_fig + r"(?![0-9])", _vis):
+        for _m in _re.finditer(_fig + r"(?![0-9A-Za-z])", _vis):
             _sent = _vis[max(0, _m.start() - 160):_m.start() + 80]
             # r30 H-4c: word-form units count ("team seats start at $40",
             # macro) — only plural nouns, so "agent-driven" prose never
@@ -2308,6 +2311,60 @@ def test_corrections_counts_match_build_tallies():
     _c2 = _words.get(_m2.group(1), int(_m2.group(1)) if _m2.group(1).isdigit() else -1)
     assert _c1 == _mm, f"entry claims {_c1} qualified metas, build has {_mm}"
     assert _c2 == _hc, f"entry claims {_c2} hub cards, build has {_hc}"
+
+
+def test_reverify_rationale_dates_track_records():
+    """r31 H-7 (2026-10-06): the rationale cache lagged record updates as a
+    class (9 date-stale cells). A pricing-transparency evidence date must
+    equal its record's verification date — the reverify job syncs them on
+    every confirm, so drift means the sync broke, not that prose aged."""
+    import json as _j, re as _re
+    _tools = {_t["slug"]: _t for _t in _j.loads((ROOT / "tools" / "tools.json").read_text()) if isinstance(_t, dict)}
+    _bad = []
+    for _f in ("tools/score-content-a.json", "tools/score-content-b.json"):
+        for _t in _j.loads((ROOT / _f).read_text()).get("tools", []):
+            try:
+                _ev = _t["pillars"]["pricing_transparency"]["evidence"]
+            except KeyError:
+                continue
+            _m = _re.search(r"verified (\d{4}-\d{2}-\d{2})", _ev)
+            if not _m:
+                continue
+            _du = (_tools.get(_t.get("slug"), {}).get("date_updated") or "")[:10]
+            # r31 H-7b: the invariant is cell >= record — evidence reviewed
+            # without a record change (dynamic-yield, smartly-io) is
+            # fresher prose, not lag. Only cell < record fails.
+            if _du and _m.group(1) < _du:
+                _bad.append(f"{_t.get('slug')}: cell {_m.group(1)} vs record {_du}")
+    assert not _bad, f"rationale evidence dates lagging records: {_bad[:8]}"
+
+
+def test_category_blurb_figures_trace_to_records():
+    """r31 H-7 (2026-10-06): the chatbots blurb cited a $39/AI-PRO structure
+    the record no longer contains, three pixels from an updated card. Every
+    figure in a category blurb must appear in its record's price fields."""
+    import json as _j, re as _re
+    _tools = {_t["slug"]: _t for _t in _j.loads((ROOT / "tools" / "tools.json").read_text()) if isinstance(_t, dict)}
+    _cats = _j.loads((ROOT / "catalog-categories.json").read_text())
+    _cats = _cats if isinstance(_cats, list) else _cats.get("categories", [])
+    _bad = []
+    for _c in _cats:
+        for _k in ("blurb", "description", "intro", "lede"):
+            _v = _c.get(_k) or ""
+            if not isinstance(_v, str):
+                continue
+            for _m in _re.finditer(r"[\$€](\d[\d,.]*)", _v):
+                _fig = _m.group(1).replace(",", "")
+                _owner = None
+                for _s, _t in _tools.items():
+                    if _t.get("name", "").lower() in _v[:_m.start()].lower()[-60:]:
+                        _owner = _s
+                if not _owner:
+                    continue
+                _rec = _j.dumps(_tools[_owner])
+                if _fig not in _rec.replace(",", ""):
+                    _bad.append(f"{_c.get('slug')}/{_k}: {_m.group(0)} not in {_owner} record")
+    assert not _bad, f"blurb figures untraced to records: {_bad[:6]}"
 
 
 def test_trending_counts_reconcile_with_catalog():

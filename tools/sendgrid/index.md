@@ -10,7 +10,7 @@ Re-check pending: pricing last verified 2026-08-28 (39 days ago).
 
 Scalable email delivery API with AI-powered deliverability and engagement tools
 
-Email Marketing · Freemium from $19.95/mo Desk-reviewed
+Email Marketing · From $19.95/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -18,7 +18,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Twilio SendGrid is a tool in Email Marketing with a free tier. The catalog documents 4 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Twilio SendGrid is a tool in Email Marketing with paid plans starting at $19.95/mo. The catalog documents 4 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Twilio SendGrid →](https://sendgrid.com)
 
@@ -62,7 +62,7 @@ Twilio SendGrid homepage, captured September 2026. Vendor page shown as a dated 
 - Snowflake
 ## Pricing
 
-Twilio SendGrid is freemium, with a free tier to start, paid plans start at $19.95/mo as of 2026-08.
+Twilio SendGrid is sold on paid plans, from $19.95/mo as of 2026-08.
 
 Free trial 100 emails/day for 60 days; Essentials $19.95/mo; Pro and Premier custom
 
@@ -85,9 +85,9 @@ Reliable, well-documented transactional email plumbing; marketers should look el
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AI capabilities: AI deliverability optimization | ✗ Paid plans start at $19.95/mo once past the free tier |
+| ✓ AI capabilities: AI deliverability optimization | ✗ Paid plans start at $19.95/mo |
 | ✓ Native integrations include Twilio, Salesforce, Shopify (8 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free trial 100 emails/day for 60 days; Essentials $19.95/mo; Pro and Premier custom) |  |
+| ✓ API access for custom integrations |  |
 
 ## Related concepts
 
@@ -105,9 +105,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Twilio SendGrid: Scalable email delivery API with AI-powered deliverability and engagement tools. Twilio SendGrid ships with AI deliverability optimization. This page documents 8 integrations.
 
 **How much does Twilio SendGrid cost?**
-Twilio SendGrid has a free tier; paid plans start at $19.95/mo. Free trial 100 emails/day for 60 days; Essentials $19.95/mo; Pro and Premier custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Twilio SendGrid is paid software; plans start at $19.95/mo. Free trial 100 emails/day for 60 days; Essentials $19.95/mo; Pro and Premier custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
-**Is Twilio SendGrid worth it past the free tier?**
+**Is Twilio SendGrid worth paying for in 2026?**
 Reliable, well-documented transactional email plumbing; marketers should look elsewhere for campaign work.
 
 ## Similar Tools
@@ -127,7 +127,7 @@ Reliable, well-documented transactional email plumbing; marketers should look el
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Product teams that need transactional delivery with marketing on the side
 ### Quick Facts
 
-- **Pricing:** Freemium from $19.95/mo
+- **Pricing:** From $19.95/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
 - **Founded:** 2009
 - **HQ:** Denver, CO, USA
