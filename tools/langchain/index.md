@@ -22,7 +22,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 47/60
 
-LangChain is the agent framework everything else measures against: 147,391 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.
+LangChain is the agent framework everything else measures against: 147,449 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.
 
 
 | Pillar | Score | Evidence |

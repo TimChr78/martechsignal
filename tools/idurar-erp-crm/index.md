@@ -22,7 +22,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 31/60
 
-IDURAR is a full ERP-CRM-accounting stack under AGPL with 8,843 stars, and lifetime licenses at $5,000 if you want the vendor's hand. Free self-hosting is the honest path for small teams.
+IDURAR is a full ERP-CRM-accounting stack under AGPL with 8,847 stars, and lifetime licenses at $5,000 if you want the vendor's hand. Free self-hosting is the honest path for small teams.
 
 
 | Pillar | Score | Evidence |

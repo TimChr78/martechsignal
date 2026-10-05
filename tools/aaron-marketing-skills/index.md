@@ -22,7 +22,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 40/60
 
-Aaron's 120 skills come with six auditor gates, which is the interesting part: outputs get checked before they ship. Apache-2.0 and 2,858 stars make it the most adopted skill pack in this group.
+Aaron's 120 skills come with six auditor gates, which is the interesting part: outputs get checked before they ship. Apache-2.0 and 2,869 stars make it the most adopted skill pack in this group.
 
 
 | Pillar | Score | Evidence |
