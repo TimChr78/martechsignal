@@ -83,13 +83,13 @@ IF You want to self-host and skip per-contact billing
 
 [Listmonk](/tools/listmonk/) [BillionMail](/tools/billionmail/) [Notifuse](/tools/notifuse/)
 
-Listmonk is free AGPL with no paid tiers. BillionMail is free AGPL with an optional $98.9 deployment service. Notifuse is free AGPL self-hosted with all features and Cloud from $19 for 2,500 contacts with BYO ESP
+Listmonk is free AGPL with no paid tiers. BillionMail is free AGPL with an optional $98.9 per-instance deployment service. Notifuse is free AGPL self-hosted with all features and Cloud from $19 for 2,500 contacts with BYO ESP
 
 IF You send receipts, resets, and onboarding mail that must arrive
 
 [Postmark](/tools/postmark/) [Resend](/tools/resend/) [Twilio SendGrid](/tools/sendgrid/)
 
-Postmark separates streams with a free 100 per month plan and paid from $15 for 10,000. Resend is API-first with a free 3,000 per month plan and Pro at $20 for 50,000. SendGrid starts with a 100 per day trial for 60 days and Essentials at $19.95
+Postmark separates streams with a free 100 per month plan and paid from $15 for 10,000. Resend is API-first with a free 3,000 per month plan and Pro at $20 for 50,000. SendGrid starts with a 100-emails-per-day trial for 60 days and Essentials at $19.95
 
 IF You do cold outreach and need warmup and guardrails
 

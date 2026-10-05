@@ -63,7 +63,7 @@ Heap homepage, captured September 2026. Vendor page shown as a dated reference c
 
 Heap is freemium, with a free tier to start.
 
-Free (10K sessions/mo, 6-mo history); Growth and Pro are custom-priced - no published entry price, so the record carries no paid figure (r22 H-3).
+Free (10K sessions/mo, 6-mo history); Growth and Pro are custom-priced with no published entry price.
 
 Current plans and limits live on the [Heap pricing page](https://www.heap.io/pricing).
 
@@ -105,7 +105,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Heap: AI-powered product analytics with autocapture and digital experience insights. Heap ships with AI autocapture. This page documents 8 integrations.
 
 **How much does Heap cost?**
-Heap has a free tier, so you can run a real evaluation before paying. Free (10K sessions/mo, 6-mo history); Growth and Pro are custom-priced - no published entry price, so the record carries no paid figure (r22 H-3). We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
+Heap has a free tier, so you can run a real evaluation before paying. Free (10K sessions/mo, 6-mo history); Growth and Pro are custom-priced with no published entry price. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
 
 **Is Heap worth it past the free tier?**
 Choose it when you keep discovering untagged events after the fact. Disciplined taggers get more from Mixpanel.
@@ -120,8 +120,8 @@ Choose it when you keep discovering untagged events after the fact. Disciplined 
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Teams that want retroactive analysis without a tagging plan first

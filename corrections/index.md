@@ -4,6 +4,14 @@
 
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
 
+## Remediation wave logged: the 2026-10-02/03/05 audit fixes
+
+The October audit remediation shipped across three deploys (October 2, 3 and 5) and touched most of the site's pages. The corrections a reader could have seen: Heap's page no longer shows an inferred $250/mo figure - Growth and Pro are custom-priced with no published entry price, so no paid figure is shown. The /alternatives/ Billing-model column now reads each tool's catalog pricing model instead of a mostly-empty notes field (Make and n8n no longer read "Contract"; only Tray.io and Workato do, correctly). A stray trailing quote is gone from pricing FAQ answers across 58 pages. Three new category hubs shipped (email marketing, content AI, personalization).
+
+One earlier disposition on this page is reversed: we had declined the WebPage.breadcrumb edge as optional with no rich-result effect, and a later fix attempt deleted the edge entirely to satisfy a counter. That was the wrong fix. The edge is now restored on all pages with every breadcrumb node carrying its identifier, so the site's structured-data graph is connected again rather than merely unflagged.
+
+Structural work with no visible change: the speakable markup property is corrected, and meta descriptions now cut on sentence boundaries instead of mid-clause.
+
 ## Disposition: chart PNGs stay PNG, SuiteCRM pounds become £
 
 Two low-priority audit notes assessed with evidence. First, the six chart images under /og/charts/ are the only PNG srcsets in the corpus (three entries flagged). They stay PNG deliberately: the bar charts are PIL-rendered with 14-22px labels, and lossy WebP blurs small text at these sizes while optimized PNG keeps labels sharp. The photographic/illustrated OG corpus stays WebP. Second, SuiteCRM commercial-hosting figures were written as words ("50 pounds monthly"); they now render as £ figures (£50, £143/£198/£308 tiers, £2,520 Quick Start), matching house symbol form. The record keeps its USD typing because the self-hosted product itself is free - the sterling figures are third-party hosting, now explicitly symboled.
@@ -83,6 +91,8 @@ Three Claude SEO comparison posts were published without approval by a pipeline 
 Our Claude SEO review carried review-structured data for our own product. We removed the markup; the editorial text remains, clearly labelled.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+2026-10-05
 
 2026-09-30
 

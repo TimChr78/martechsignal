@@ -102,7 +102,7 @@ This post is part of the hub for this topic: [workflow automation strategy](/gui
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
 ## Glossary terms
 
 - [Lead scoring](/glossary/lead-scoring/)

@@ -100,9 +100,9 @@ Strengths include an API for custom integrations. Paid plans start at $16/mo
 - [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ### Quick Facts
 
 - **Pricing:** From $16/mo

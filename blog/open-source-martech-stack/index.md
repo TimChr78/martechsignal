@@ -176,8 +176,8 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 - [Jitsu](/tools/jitsu/) - Open-source Segment alternative for event capture and warehouse-first data pipelines
 ## Comparison guides
 
-- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)

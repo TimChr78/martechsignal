@@ -108,7 +108,7 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Related tools
 
 - [Pipedream](/tools/pipedream/) - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
@@ -126,7 +126,7 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Zoho CRM](/tools/zoho-crm/)
+More from the directory: [Writesonic](/tools/writesonic/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

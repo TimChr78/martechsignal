@@ -90,7 +90,7 @@ Our SEO hub collects everything we have written on AI search visibility, citatio
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
+- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)

@@ -34,6 +34,14 @@ def build():
         capture_output=True, text=True, timeout=900, cwd=str(ROOT),
     )
     assert r.returncode == 0, f"Build failed:\n{r.stderr}"
+    # r23 H-2: builders do not emit the breadcrumb edge natively; the sync
+    # pass owns it in deploy.sh ordering, so it owns it here too. Without
+    # this, the fixture rebuild strips edges and the graph test flakes.
+    s = subprocess.run(
+        [sys.executable, str(ROOT / "tools" / "sync_breadcrumbs.py")],
+        capture_output=True, text=True, timeout=900, cwd=str(ROOT),
+    )
+    assert s.returncode == 0, f"Breadcrumb sync failed:\n{s.stderr}"
     return r.stdout
 
 
@@ -2645,21 +2653,138 @@ def _walk_nodes(d):
                 yield from _walk_nodes(v)
 
 
-def test_no_cross_block_breadcrumb_pointers():
-    """r22 H-1 (2026-10-03): Google does not resolve @id references across
-    separate ld+json blocks, so WebPage.breadcrumb: {"@id": ...} parses as a
-    BreadcrumbList missing itemListElement (52-page GSC error, first seen
-    2026-09-30 via a straggler emitter, sync_date_modified). Standalone
-    BreadcrumbList blocks are valid alone; the pointer is never valid.
-    Hard-fails the build on the pointer pattern in ANY generated page
-    (§13.6 snippet-and-gsc-lessons)."""
-    pages = [p for p in ROOT.rglob("index.html") if "node_modules" not in p.parts]
-    offenders = []
+def test_breadcrumb_graph_connected():
+    """r23 H-2 (2026-10-05): REPLACES test_no_cross_block_breadcrumb_pointers,
+    whose premise was wrong. A pure {"@id"} pointer cannot parse as a
+    BreadcrumbList; the Sep-30 GSC itemListElement errors coincided with the
+    56 BreadcrumbLists that carried no @id. Deleting the edge to satisfy
+    "dangling == 0" removed 293 graph edges and added 1 @id - the metric
+    passed while the graph got emptier. This test asserts the MEANING, not
+    just the count, page-wide (crumbs and WebPage usually live in different
+    script blocks): every BreadcrumbList has @id, every page carrying a
+    WebPage node also carries a resolving breadcrumb edge, and no edge
+    dangles at a missing @id."""
+    pages = [p for p in ROOT.rglob("index.html") if "node_modules" not in p.parts and "deploy-out" not in p.parts]
+    no_id, no_edge, dangling = [], [], []
     for p in pages:
         html = p.read_text(errors="ignore")
+        crumbs, webs = [], []
         for data in _ldjson_blocks(html):
             for node in _walk_nodes(data):
-                bc = node.get("breadcrumb")
-                if isinstance(bc, dict) and "itemListElement" not in bc:
-                    offenders.append(str(p.relative_to(ROOT)))
-    assert not offenders, f"cross-block breadcrumb @id pointers on: {offenders[:10]}"
+                t = node.get("@type")
+                if t == "BreadcrumbList" or (isinstance(t, list) and "BreadcrumbList" in t):
+                    crumbs.append(node)
+                if t == "WebPage" or (isinstance(t, list) and "WebPage" in t):
+                    webs.append(node)
+        if not crumbs and not webs:
+            continue
+        ids = {c.get("@id") for c in crumbs if c.get("@id")}
+        if any("@id" not in c for c in crumbs):
+            no_id.append(str(p.relative_to(ROOT)))
+        if webs:
+            if not crumbs:
+                no_edge.append(str(p.relative_to(ROOT)))
+                continue
+            for w in webs:
+                bc = w.get("breadcrumb")
+                if not (isinstance(bc, dict) and bc.get("@id") in ids):
+                    no_edge.append(str(p.relative_to(ROOT)))
+                    break
+            for w in webs:
+                bc = w.get("breadcrumb")
+                if isinstance(bc, dict) and bc.get("@id") and bc.get("@id") not in ids:
+                    dangling.append(str(p.relative_to(ROOT)))
+    assert not no_id, f"BreadcrumbList nodes without @id on: {no_id[:10]}"
+    assert not no_edge, f"WebPage without resolving breadcrumb edge on: {no_edge[:10]}"
+    assert not dangling, f"dangling breadcrumb edges on: {dangling[:10]}"
+
+
+def test_no_audit_ticket_refs_in_catalog():
+    """r23 H-1 (2026-10-05): the Heap fix wrote "(r22 H-3)" and "the record
+    carries no paid figure" into price_notes, a rendered field. Fails on any
+    catalog record whose rendered prose contains an audit-ticket reference."""
+    import json as _j
+    cat = _j.loads((ROOT / "tools" / "tools.json").read_text())
+    recs = cat if isinstance(cat, list) else cat.get("tools", [])
+    bad = []
+    for t in recs:
+        if not isinstance(t, dict):
+            continue
+        blob = " ".join(str(t.get(k) or "") for k in
+                        ("tagline", "description", "price_notes", "hands_on", "faq"))
+        m = __import__("re").search(r"r2[0-9] [A-Z]-[0-9]|\bthe record\b", blob)
+        if m:
+            bad.append(f"{t.get('slug')}: ...{blob[max(0, m.start()-30):m.end()+30]}...")
+    assert not bad, f"audit/internal refs in rendered catalog fields: {bad[:6]}"
+
+
+def test_meta_descriptions_sentence_complete():
+    """r23 M-3 (2026-10-05): six pages shipped fragments ("Compare top.",
+    "...moving a.", "...requesting a demo. It.", "...we track list.") when
+    clippers cut mid-clause and appended a fabricated period. Unit-pins
+    _sentence_clip on the exact six inputs: sentence boundary or dropped
+    sentence, never a punctuated fragment. (A generic rendered-page scan
+    cannot distinguish an honest clause cut from a stub, so the guard lives
+    at the generator, pinned here.)"""
+    import sys as _sys
+    import re as _re
+    _sys.path.insert(0, str(ROOT / "tools"))
+    from build_tools import _sentence_clip as _sc
+    cases = [
+        # (input, budget, must_not_end_with)
+        ("Query fan-out, page audits and Looker Studio. Compare top marketing tools side by side.", 120, "Compare top."),
+        ("Marketing automation is software that runs repetitive marketing tasks without manual intervention: sending a welcome email when someone signs up, moving a lead down the funnel.", 155, "moving a."),
+        ("Conversion rate optimization is the practice of increasing the percentage of visitors who take a desired action, buying, signing up, requesting a demo. It requires testing.", 155, "It."),
+        ("An agent can now run a marketing loop end to end on open source. We counted this morning from the directory: 19 of the 81 open-source tools we track list an MCP server.", 155, "list."),
+    ]
+    for text, budget, frag in cases:
+        out = _sc(text, budget)
+        assert frag not in out or out.rstrip().endswith((".", "!", "?")) and frag not in out.split(".")[-1], \
+            f"fragment '{frag}' survives sentence clip: {out!r}"
+        # No fabricated terminal period on a non-sentence: if the output does
+        # not end with sentence punctuation it must be a clause cut >= 30 chars.
+        if out and not _re.search(r"[.!?]$", out):
+            assert len(out) >= 30, f"stub clause cut: {out!r}"
+    # The six live pages carry no punctuated fragment.
+    pages = {
+        "tools/rankscale/index.html": "Compare top.",
+        "glossary/marketing-automation/index.html": "moving a.",
+        "glossary/cro/index.html": "It.",
+        "glossary/dco/index.html": "combination.",
+        "glossary/chatbot/index.html": "chatbots.",
+        "blog/open-source-agentic-martech-stack-mcp/index.html": "list.",
+    }
+    for rel, frag in pages.items():
+        m = _re.search(r'name="description" content="(.*?)"', (ROOT / rel).read_text(errors="ignore"))
+        assert m, f"no meta description on {rel}"
+        d = m.group(1)
+        assert not d.rstrip().endswith(frag), f"fragment '{frag}' live on {rel}: ...{d[-60:]}"
+
+
+def test_speakable_uses_valid_property():
+    """r23 M-1 (2026-10-05): all 46 SpeakableSpecification nodes used
+    "cssSelectors" (plural), which is not a schema.org property - 100% of
+    speakable markup was inert. Fails on the plural form anywhere rendered."""
+    bad = [str(p.relative_to(ROOT)) for p in ROOT.rglob("index.html")
+           if "node_modules" not in p.parts and "deploy-out" not in p.parts
+           and "cssSelectors" in p.read_text(errors="ignore")]
+    assert not bad, f"invalid SpeakableSpecification.cssSelectors on: {bad[:8]}"
+
+
+def test_llms_carries_decision_answers():
+    """r23 M-2 (2026-10-05): 0 of 34 rendered decision answers reached the LLM
+    artifacts. llms.txt must carry a Key-decisions section whose entry count
+    matches the rendered p.direct-answer count."""
+    import re as _re
+    n_rendered = 0
+    for p in ROOT.rglob("index.html"):
+        if "node_modules" in p.parts or "deploy-out" in p.parts:
+            continue
+        n_rendered += len(_re.findall(r'<p class="direct-answer">', p.read_text(errors="ignore")))
+    llms = (ROOT / "llms.txt").read_text(errors="ignore")
+    section = _re.search(r"## Key decisions", llms)
+    n_llms = len(_re.findall(r"^-\s*\[", llms.split("## Key decisions")[1].split("## ")[0], _re.M)) \
+        if section else 0
+    assert section, "llms.txt has no ## Key decisions section"
+    assert n_rendered > 0 and n_llms == n_rendered, \
+        f"llms decisions {n_llms} != rendered direct-answers {n_rendered}"

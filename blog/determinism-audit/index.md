@@ -98,8 +98,8 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 - [Intercom](/tools/intercom/) - AI-first customer service platform with Fin AI agent and omnichannel messaging
 ## Comparison guides
 
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
-- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

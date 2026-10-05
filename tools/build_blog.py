@@ -357,8 +357,24 @@ def _build_toc_and_chip(body_html: str, categories=None):
 def _clean_excerpt(text, limit=155):
     """Word-boundary meta excerpt with terminal punctuation; no mid-word cuts (audit H-3).
     L3 (r9): callers escape the result into the meta tag, so quotes expand to
-    entities after clipping. Re-shrink until the ESCAPED text fits the limit."""
+    entities after clipping. Re-shrink until the ESCAPED text fits the limit.
+    r23 M-3 (2026-10-05): word-boundary cut + fabricated period shipped
+    "...we track list." on a new post. Sentence boundary first via
+    build_tools._sentence_clip; the excerpt is never given invented terminal
+    punctuation for a clause fragment."""
+    try:
+        from build_tools import _sentence_clip as _sc
+    except ImportError:
+        _sc = None
     text = " ".join((text or "").split())
+    if _sc is not None:
+        cut = _sc(text, limit)
+        while cut and len(html.escape(cut)) > limit:
+            cut = _sc(cut, len(cut) - 10)
+        if cut:
+            return cut
+        # Nothing sentence-complete fits: fall through to the legacy
+        # word-boundary shrink below rather than shipping an empty meta.
     if len(html.escape(text)) <= limit:
         return text
     while True:
@@ -504,7 +520,7 @@ def build_post(meta: dict, body_html: str) -> str:
     # JSON-LD: Article + BreadcrumbList (Google starter guide: structured data for title/breadcrumb)
     article_schema = {
         "@context": "https://schema.org",
-        "speakable": {"@type": "SpeakableSpecification", "cssSelectors": ["h1", "article h2"]},
+        "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["h1", "article h2"]},
         "@type": "BlogPosting",
         "headline": title,
         "description": _clean_excerpt(excerpt),
@@ -528,6 +544,9 @@ def build_post(meta: dict, body_html: str) -> str:
     breadcrumb_schema = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
+        # r23 H-2 (2026-10-05): every BreadcrumbList carries @id so the
+        # WebPage.breadcrumb edge resolves on all 314 pages.
+        "@id": f"https://martechsignal.com/blog/{slug}/#breadcrumb",
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"},
             {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://martechsignal.com/blog/"},
@@ -704,7 +723,7 @@ def build_index(posts: list) -> str:
 {_shared_tags()}
 {schema_tag}
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
-<script type="application/ld+json">{{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}}, {{"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://martechsignal.com/blog/"}}]}}</script>
+<script type="application/ld+json">{{"@context": "https://schema.org", "@type": "BreadcrumbList", "@id": "https://martechsignal.com/blog/#breadcrumb", "itemListElement": [{{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}}, {{"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://martechsignal.com/blog/"}}]}}</script>
   <script src="/site.js" defer></script>
   </head>
 <body class="page-blog-index">

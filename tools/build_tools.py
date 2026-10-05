@@ -326,6 +326,39 @@ def _seo_title_for(t, cats):
             return cand3
     return f"{name} review (2026)"[:57]
 
+def _sentence_clip(text, budget, min_len=30):
+    """Cut text at a sentence boundary, else a clause boundary, else "".
+
+    r23 M-3 (2026-10-05): the old clippers cut at any word boundary and then
+    appended a fabricated period, shipping fragments like "Compare top.",
+    "...moving a." and "...requesting a demo. It." to the SERP snippet,
+    og:description and JSON-LD description at once. New rule, matching the
+    auditor's falsifiability: cut on a sentence boundary or drop the
+    sentence. Returns "" when no complete sentence or clause fits, so the
+    caller falls back to a shorter honest description instead of inventing
+    terminal punctuation for a clause fragment. Never appends "." to a cut
+    that is not sentence-complete; sentence cuts keep their own period.
+    """
+    import re as _re
+    text = " ".join((text or "").split())
+    if len(text) <= budget:
+        return text
+    window = text[:budget]
+    if window.count("(") > window.count(")"):
+        window = window[:window.rfind("(")].rstrip()
+    # Sentence boundary first: last ". "/!"/? " with enough substance before it
+    # (guards against "e.g. ..." producing a stub).
+    for m in reversed(list(_re.finditer(r"[.!?](?=\s|$)", window))):
+        if m.start() >= min_len:
+            return window[:m.start() + 1]
+    # Clause boundary second, no fabricated period.
+    for sep in ("; ", ", ", ": ", " - ", " \u2014 "):
+        i = window.rfind(sep)
+        if i >= max(budget * 0.5, min_len):
+            return window[:i].rstrip(" ,;:-\u2014")
+    return ""
+
+
 def _clip_meta_text(text, budget):
     """Cut meta text on a natural boundary (GSC follow-up 2026-09-13).
 
@@ -338,17 +371,13 @@ def _clip_meta_text(text, budget):
     Order of preference: drop an unterminated parenthetical, then cut at a sentence /
     semicolon / comma / dash, then fall back to a word boundary. Trailing connectors
     and punctuation are stripped so the result always reads as a finished phrase.
+
+    r23 M-3 (2026-10-05): the word-boundary fallback shipped clause fragments
+    with fabricated periods ("Compare top."). It now delegates to
+    _sentence_clip: sentence boundary, else clause boundary, else "" so the
+    caller drops the sentence instead of punctuating a fragment.
     """
-    if len(text) <= budget:
-        return text
-    window = text[:budget]
-    if window.count("(") > window.count(")"):
-        window = window[:window.rfind("(")].rstrip()
-    for sep in (". ", "; ", ", ", " - ", " \u2014 "):
-        i = window.rfind(sep)
-        if i >= budget * 0.5:
-            return window[:i].rstrip(" ,;:-\u2014")
-    return window.rsplit(" ", 1)[0].rstrip(" ,;:-\u2014+")
+    return _sentence_clip(text, budget)
 
 
 def _ends_on_function_word(text):
@@ -380,7 +409,9 @@ def _seo_description_for(t, cats):
             if len(first) >= 20:
                 tagline = first
             else:
-                tagline = _clip_meta_text(desc, 90)
+                # r23 M-3: _clip_meta_text returns "" when no clean cut fits;
+                # fall back to the category label, never to an empty tagline.
+                tagline = _clip_meta_text(desc, 90) or f"{cat_map.get(t.get('category'), 'Marketing')} tool"
         else:
             tagline = f"{cat_map.get(t.get('category'), 'Marketing')} tool"
     tagline_sent = tagline if tagline.endswith(".") else tagline + "."
@@ -420,7 +451,11 @@ def _seo_description_for(t, cats):
     budget = 155 - overhead
     if budget > 30:
         trunc = _clip_meta_text(tagline_sent.rstrip("."), budget)
-        if trunc and not _ends_on_function_word(trunc):
+        # r23 M-3: a short clipped clause with no sentence end ("Compare top")
+        # is a stub, not a description - drop the tagline, keep name+pricing.
+        import re as _re2
+        _has_end = bool(_re2.search(r"[.!?]$", trunc))
+        if trunc and not _ends_on_function_word(trunc) and (_has_end or len(trunc) >= 50):
             ts = trunc + "." if not trunc.endswith((".", "!", "?")) else trunc
             cand = f"{name}: {ts} {price_phrase}"
             if len(esc(cand)) <= 155:
@@ -3004,9 +3039,39 @@ def build_llms_txt(tools, cats):
             for child in sorted(fam_dir.iterdir()):
                 f = child / "index.html"
                 if child.is_dir() and f.exists():
-                    m = _re.search(r"<title>([^<]+)</title>", f.read_text())
+                    _fh = f.read_text()
+                    m = _re.search(r"<title>([^<]+)</title>", _fh)
                     ttl = (m.group(1) if m else child.name).split("|")[0].split("\u00b7")[0].strip()
-                    lines.append(f"- [{ttl}](https://martechsignal.com/{fam}/{child.name}/)")
+                    # r23 M-2 (2026-10-05): comparison entries without
+                    # descriptions are pointer-only; carry the meta description.
+                    _dm = _re.search(r'name="description" content="(.*?)"', _fh)
+                    _dd = (_dm.group(1) if _dm else "").replace("&amp;", "&").replace("&#x27;", "'")
+                    lines.append(f"- [{ttl}](https://martechsignal.com/{fam}/{child.name}/)"
+                                 + (f": {_dd}" if _dd else ""))
+    # r23 M-2 (2026-10-05): 0 of 34 decision answers reached a model reading
+    # only the LLM artifacts. Carry every rendered p.direct-answer verbatim.
+    # Entries point at the index.md mirror (full prose), which also keeps
+    # every URL in llms.txt unique (r11 no-duplicates pin).
+    lines += ["", "## Key decisions", ""]
+    _n_dec = 0
+    for fam in ("best", "vs", "alternatives"):
+        fam_dir = ROOT / fam
+        if not fam_dir.is_dir():
+            continue
+        for child in sorted(fam_dir.iterdir()):
+            f = child / "index.html"
+            if not (child.is_dir() and f.exists()):
+                continue
+            _fh = f.read_text()
+            _da = _re.search(r'<p class="direct-answer">(.*?)</p>', _fh, _re.S)
+            if not _da:
+                continue
+            _ans = _re.sub(r"<[^>]+>", "", _da.group(1)).strip()
+            _ans = _ans.replace("&amp;", "&").replace("&#x27;", "'").replace("&quot;", '"')
+            m = _re.search(r"<title>([^<]+)</title>", _fh)
+            ttl = (m.group(1) if m else child.name).split("|")[0].split("\u00b7")[0].strip()
+            lines.append(f"- [{ttl}](https://martechsignal.com/{fam}/{child.name}/index.md): {_ans}")
+            _n_dec += 1
     lines += ["", "## Site", "",
               "- [About](https://martechsignal.com/about/): who runs MartechSignal and the editorial policy",
               "- [Methodology](https://martechsignal.com/methodology/): how tools are researched, dated and priced",
@@ -3039,13 +3104,22 @@ def build_llms_txt(tools, cats):
     # A2 L11: the surfaces count different scopes; say so once, with derived numbers.
     _records = len(tools)
     _retired = _records - n_active
+    # r23 M-2: derive the ARD entry count from the artifact, never hardcode it.
+    _ard_n = n_active
+    try:
+        _ard_doc = json.loads((ROOT / ".well-known" / "ard.json").read_text())
+        _ard_n = len(_ard_doc.get("entries", [])) or n_active
+    except Exception:
+        pass
     lines += [
         "## Machine-readable data",
         "",
         f"- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). {_records} records = {n_active} active + {_retired} non-active; the directory above lists only active tools",
         # r20 M-7 (2026-10-02): the ARD catalog and category catalog were
         # invisible to consumers following only llms.txt.
-        "- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 301 entries with representativeQueries (specVersion 1.0)",
+        # r23 M-2 (2026-10-05): the entry count is derived, never hardcoded.
+        "- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - "
+        f"{_ard_n} entries with representativeQueries (specVersion 1.0)",
         "- [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above",
         "- [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows",
         "",
@@ -3586,13 +3660,12 @@ def sync_date_modified():
         if _url == "https://martechsignal.com//":
             _url = "https://martechsignal.com/"
         # r16 L-7: unfragmented page URL as the WebPage @id (guides pattern).
-        # r22 H-1 (2026-10-03): NO breadcrumb @id pointer here. WebPage.breadcrumb
-        # pointing at a BreadcrumbList in a DIFFERENT ld+json block is not resolved
-        # by Google - it parses the pointer as a BreadcrumbList missing
-        # itemListElement ("Missing field 'itemListElement'", 52-page GSC error,
-        # first detected 2026-09-30). The standalone BreadcrumbList block is valid
-        # on its own; /blog/ pages without the pointer PASS. Ship WebPage with
-        # dateModified only.
+        # r23 H-2 (2026-10-05): the r22 deletion of the breadcrumb edge was
+        # wrong - the old {"@id"}-only pointer could not have caused the GSC
+        # itemListElement errors; the 56 @id-less BreadcrumbLists did.
+        # The edge is restored by tools/sync_breadcrumbs.py (runs after every
+        # builder), which also names every node. Ship WebPage with
+        # dateModified only here; the sync pass adds the edge.
         _block = ('<script type="application/ld+json">{"@context": "https://schema.org", '
                   '"@type": "WebPage", "@id": "' + _url + '", '
                   '"dateModified": "' + _val + '"}</script>')

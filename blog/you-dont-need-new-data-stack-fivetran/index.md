@@ -102,11 +102,11 @@ Our directory breaks down data and activation tools by pricing model, connector 
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Related tools
 
-- [Triple Whale](/tools/triple-whale/) - AI-powered ecommerce analytics and attribution platform for DTC brands
 - [Amplitude](/tools/amplitude/) - AI-powered digital analytics platform for product and marketing teams
+- [Triple Whale](/tools/triple-whale/) - AI-powered ecommerce analytics and attribution platform for DTC brands
 - [Tealium](/tools/tealium/) - Enterprise customer data platform with real-time data orchestration and AI
 ## Comparison guides
 

@@ -112,7 +112,7 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 - [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
 - **Pricing:** Open Source

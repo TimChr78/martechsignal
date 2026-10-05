@@ -105,8 +105,8 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Related tools
 
 - [Pipedream](/tools/pipedream/) - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
@@ -115,7 +115,7 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/)
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

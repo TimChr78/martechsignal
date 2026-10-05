@@ -120,8 +120,8 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for email marketers who want 19 playbooks with 908 cited sources and ESP control over MCP, free under the MIT license.
