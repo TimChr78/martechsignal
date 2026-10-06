@@ -91,6 +91,9 @@ Content-Signal: ai-train=no
 Disallow: /
 
 Sitemap: https://martechsignal.com/sitemap.xml
+# r32 L-37 (2026-10-06): every page serves a Markdown mirror at <path>index.md
+# (content-type text/markdown) for retrievers - same content, clean money-token
+# parity. Discoverable by convention; this comment is the pointer.
 # M17 (r9, 2026-09-28): machine-readable catalog entry points for AI systems.
 # (Plain comments, not directives - crawlers ignore unknown lines per RFC 9309.)
 # A-3 (v2.4.0 audit): ARD entry source (spec §5.1)

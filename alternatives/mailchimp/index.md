@@ -84,7 +84,7 @@ Vendor: [Official site](https://sendgrid.com) · [Pricing](https://www.twilio.co
 
 **Not for:** Marketing teams wanting campaign design-driven sends; its strength is infrastructure, not campaign UX.
 
-Sendgrid covers email API and SMTP relief at scale with a free tier for testing; Twilio ownership keeps it enterprise-default for notification-style sends.
+Sendgrid covers email API and SMTP relief at scale with a 60-day free trial for testing; Twilio ownership keeps it enterprise-default for notification-style sends.
 
 ## [Listmonk as a Mailchimp alternative](/tools/listmonk/)
 

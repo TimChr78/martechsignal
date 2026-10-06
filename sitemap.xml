@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://martechsignal.com/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/checklist/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/blog/agents-identity-debt/</loc><lastmod>2026-09-25</lastmod></url>
   <url><loc>https://martechsignal.com/blog/ai-agents-need-campaign-state/</loc><lastmod>2026-09-27</lastmod></url>
@@ -10,7 +10,7 @@
   <url><loc>https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://martechsignal.com/blog/n8n-ai-open-source-automation/</loc><lastmod>2026-09-25</lastmod></url>
-  <url><loc>https://martechsignal.com/blog/open-source-martech-stack/</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/open-source-martech-stack/</loc><lastmod>2026-07-27</lastmod></url>
   <url><loc>https://martechsignal.com/blog/openai-agent-ads-spending-without-you/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/blog/salesforce-agentforce-free-marketing-ops/</loc><lastmod>2026-09-25</lastmod></url>
   <url><loc>https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/</loc><lastmod>2026-09-28</lastmod></url>
@@ -49,7 +49,7 @@
   <url><loc>https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://martechsignal.com/blog/sqreem-behavioral-model-vs-llm/</loc><lastmod>2026-10-02</lastmod></url>
   <url><loc>https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/tools/</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://martechsignal.com/tools/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/contact/</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://martechsignal.com/corrections/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/about/</loc><lastmod>2026-10-05</lastmod></url>
@@ -229,51 +229,51 @@
   <url><loc>https://martechsignal.com/guides/workflow-automation-strategy/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/guides/ai-seo-tooling/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/guides/agentic-ai-advertising/</loc><lastmod>2026-09-28</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/marketing-automation/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/email-marketing/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/crm/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/content-ai/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/analytics/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/social-media/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/advertising/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/personalization/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/chatbots/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/seo/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/geo-llm-visibility/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/workflow-automation/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/agent-skills/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/open-source/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/abm/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/agentic-marketing/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/ai-agent/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/ai-content-generation/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/ai-search-visibility/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/aeo/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/marketing-attribution-models/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/chatbot/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/cro/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/cdp/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/customer-journey/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/crm/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/dmp/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/dsp/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/dco/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/deliverability/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/email-sequence/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/first-party-data/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/geo/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/lead-scoring/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/marketing-automation/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/marketing-ops/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/mcp/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/mql-sql/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/programmatic-advertising/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/seo/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/social-listening/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/utm-parameters/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/personalization/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/workflow-automation/</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/marketing-automation/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/email-marketing/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/crm/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/content-ai/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/analytics/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/social-media/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/advertising/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/personalization/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/chatbots/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/seo/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/geo-llm-visibility/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/workflow-automation/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/agent-skills/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/open-source/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/abm/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/agentic-marketing/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/ai-agent/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/ai-content-generation/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/ai-search-visibility/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/aeo/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/marketing-attribution-models/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/chatbot/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/cro/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/cdp/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/customer-journey/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/crm/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/dmp/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/dsp/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/dco/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/deliverability/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/email-sequence/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/first-party-data/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/geo/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/lead-scoring/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/marketing-automation/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/marketing-ops/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/mcp/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/mql-sql/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/programmatic-advertising/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/seo/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/social-listening/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/utm-parameters/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/personalization/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/workflow-automation/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/alternatives/</loc></url>
   <url><loc>https://martechsignal.com/alternatives/hubspot-crm/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/alternatives/mailchimp/</loc><lastmod>2026-10-05</lastmod></url>

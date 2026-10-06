@@ -159,7 +159,7 @@ All 166 tools, grouped by category. Each card links to a full teardown with pric
 - [Rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams (From €99/mo)
 - [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents (From $250/mo)
 - [SISTRIX](/tools/sistrix/): German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis (From €119/mo)
-- [Trakkr](/tools/trakkr/): AI visibility platform for brands and agencies: citations, perception, competitors (From $100/mo)
+- [Trakkr](/tools/trakkr/): AI visibility platform for brands and agencies: citations, perception, competitors (From $100/brand/mo)
 - [Writesonic](/tools/writesonic/): The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform (From $79/mo)
 ## Marketing Automation *12*
 
@@ -222,7 +222,7 @@ All 166 tools, grouped by category. Each card links to a full teardown with pric
 - [Pabbly Connect](/tools/pabbly-connect/): Task-priced integration platform with a one-time lifetime purchase option (From $16/mo)
 - [Paperclip](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit (Freemium from €10/mo)
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps (Freemium from $29/mo)
-- [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps (Open-core from $79/mo)
+- [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps (Open-core from $79/builder/mo)
 - [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents (Enterprise)
 - [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform (Enterprise)
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows (Freemium from $19.99/mo)

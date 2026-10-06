@@ -85,7 +85,7 @@
 - [Snowplow](/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents (Open-core)
 - [Strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design (Open Source from $99/mo)
 - [SuiteCRM](/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation (Open Source)
-- [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps (Open-core from $79/mo)
+- [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps (Open-core from $79/builder/mo)
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (Open Source from $9/user/mo)
 - [Umami](/tools/umami/): Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps (Open Source from $20/mo)
 - [WaCRM](/tools/wacrm/): Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations (Open Source)

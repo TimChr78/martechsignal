@@ -71,7 +71,7 @@ Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Chatfuel is built around the social sales funnel: comment-to-DM automations pull engagement into conversations, DM funnels capture and qualify leads, and product catalog conversations close sales inside Instagram, WhatsApp, Facebook Messenger, and TikTok. Over 18,000 businesses run reply-and-convert loops on it, and the platform has been at this since 2015, so the flow library is mature and the channel quirks are already worked out.
 
-It is flow automation first and open-ended AI second, so builders who want free-form chatbot behavior will feel constrained. Pricing starts around $39 a month and per-channel plans stack up when you run several networks, with advanced features shifting by tier. DTC brands that sell in DMs get the most value; B2B lead capture feels cramped next to general-purpose chatbot builders.
+It is flow automation first and open-ended AI second, so builders who want free-form chatbot behavior will feel constrained. Pricing starts at $18/mo billed yearly on Business with Agency tiers from $90/mo, and add-on channel usage stacks up when you run several networks, with advanced features shifting by tier. DTC brands that sell in DMs get the most value; B2B lead capture feels cramped next to general-purpose chatbot builders.
 
 ## Verdict
 

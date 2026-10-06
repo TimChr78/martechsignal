@@ -27,7 +27,7 @@ Last verified 2026-09-28.
 | [Microsoft Power Automate](/tools/power-automate/) | From $15/user/mo | See vendor | No | Microsoft-centric orgs that want automation next to the Office and Dynamics data. |
 | [IFTTT](/tools/ifttt/) | Freemium from $2.99/mo | Freemium, self-serve tiers | No | Solo operators and simple cross-app triggers at consumer pricing. |
 | [Budibase](/tools/budibase/) | Open-core from $19/mo | See vendor | Yes | Internal tools with workflows attached: CRUD apps your team can actually run. |
-| [ToolJet](/tools/tooljet/) | Open-core from $79/mo | See vendor | Yes | Internal-tool builders who want AI-assisted app generation on their own data. |
+| [ToolJet](/tools/tooljet/) | Open-core from $79/builder/mo | See vendor | Yes | Internal-tool builders who want AI-assisted app generation on their own data. |
 | [Appsmith](/tools/appsmith/) | Open-core from $15/user/mo | See vendor | Yes | Admin panels and internal dashboards over your databases and APIs. |
 
 ## [Make as a n8n alternative](/tools/make/)
@@ -152,7 +152,7 @@ Budibase builds the internal app and the automation around it. Catalog pricing: 
 
 ## [ToolJet as a n8n alternative](/tools/tooljet/)
 
-Open-core from $79/mo OSS
+Open-core from $79/builder/mo OSS
 
 Vendor: [Official site](https://tooljet.com) · [Pricing](https://tooljet.com/pricing) · [GitHub](https://github.com/ToolJet/ToolJet)
 

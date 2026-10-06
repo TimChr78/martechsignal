@@ -290,7 +290,9 @@ def check_record(t, cache, fetcher, today):
 
 
 def _sync_rationale_dates(slugs, today):
-    """Move pricing-transparency evidence dates with confirmed records."""
+    """Move pricing-transparency evidence dates with confirmed records.
+    r32 L-38: the `scored` field renders as "verified {date}" in scoring
+    cells — a confirm re-verifies that pillar today, so it moves too."""
     n = 0
     for f in ("tools/score-content-a.json", "tools/score-content-b.json"):
         p = ROOT / f
@@ -301,6 +303,9 @@ def _sync_rationale_dates(slugs, today):
         for t in dd.get("tools", []):
             if t.get("slug") not in slugs:
                 continue
+            if t.get("scored") and t["scored"] != today:
+                t["scored"] = today
+                n += 1
             try:
                 ev = t["pillars"]["pricing_transparency"]["evidence"]
             except KeyError:
@@ -318,6 +323,9 @@ def main():
     ap.add_argument("--cap", type=int, default=12)
     ap.add_argument("--budget-seconds", type=int, default=600)
     ap.add_argument("--dry-run", action="store_true")
+    # r32 L-38 (2026-10-06): targeted re-checks — comma-separated slugs
+    # jump the triage queue (one-day rationale cohort, post-edit confirms).
+    ap.add_argument("--only-slugs", default="")
     args = ap.parse_args()
     t0 = time.time()
     today = date.today().isoformat()
@@ -347,6 +355,9 @@ def main():
         cited_boost = 2.0 if t["slug"] in cited else 1.0
         scored.append((overdue * w * cited_boost, t))
     scored.sort(key=lambda x: -x[0])
+    _only = {s.strip() for s in (args.only_slugs or "").split(",") if s.strip()}
+    if _only:
+        scored = [(s, t) for s, t in scored if t["slug"] in _only]
 
     fetcher = PoliteFetcher()
     results = {}
@@ -359,8 +370,10 @@ def main():
             continue
         if score <= 0:
             # still fresh and never problematic: only check when overdue
+            # (r32 L-38: --only-slugs forces the check regardless — a
+            # targeted re-check is explicit intent, not triage).
             stale = cache.get(t["slug"], {})
-            if not stale.get("errors") and (t.get("date_updated") or "")[:10] >= str(date.fromisoformat(today) - timedelta(days=21)):
+            if not _only and not stale.get("errors") and (t.get("date_updated") or "")[:10] >= str(date.fromisoformat(today) - timedelta(days=21)):
                 continue
         status, ev = check_record(t, cache, fetcher, today)
         results[status] = results.get(status, 0) + 1

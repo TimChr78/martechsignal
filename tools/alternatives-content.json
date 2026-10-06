@@ -359,7 +359,7 @@
      "slug": "sendgrid",
      "best_for": "High-volume transactional senders that want an established deliverability stack and shared token infra (Twilio).",
      "not_for": "Marketing teams wanting campaign design-driven sends; its strength is infrastructure, not campaign UX.",
-     "why": "Sendgrid covers email API and SMTP relief at scale with a free tier for testing; Twilio ownership keeps it enterprise-default for notification-style sends."
+     "why": "Sendgrid covers email API and SMTP relief at scale with a 60-day free trial for testing; Twilio ownership keeps it enterprise-default for notification-style sends."
     },
     {
      "slug": "listmonk",

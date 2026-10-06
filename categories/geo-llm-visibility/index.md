@@ -15,7 +15,7 @@ AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overvie
 - [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents (From $250/mo)
 - [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews (From €29/mo)
 - [Rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams (From €99/mo)
-- [Trakkr](/tools/trakkr/): AI visibility platform for brands and agencies: citations, perception, competitors (From $100/mo)
+- [Trakkr](/tools/trakkr/): AI visibility platform for brands and agencies: citations, perception, competitors (From $100/brand/mo)
 - [Evertune](/tools/evertune/): GEO visibility measurement with content activation and a ChatGPT Ad Agent (From $800/mo)
 - [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches (From €79/mo)
 - [Writesonic](/tools/writesonic/): The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform (From $79/mo)

@@ -83,5 +83,23 @@
   "last_check": "2026-10-05",
   "errors": 0,
   "backoff_until": ""
+ },
+ "claude-seo": {
+  "status": "no-pricing-link",
+  "backoff_until": "2027-01-04"
+ },
+ "hubspot-crm": {
+  "etag": "",
+  "lastmod": "Mon, 05 Oct 2026 20:15:45 GMT",
+  "status": "needs-render",
+  "last_check": "2026-10-06",
+  "backoff_until": "2026-11-05"
+ },
+ "n8n": {
+  "etag": "",
+  "lastmod": "",
+  "status": "needs-render",
+  "last_check": "2026-10-06",
+  "backoff_until": "2026-11-05"
  }
 }

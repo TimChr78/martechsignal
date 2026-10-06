@@ -2104,10 +2104,22 @@ def test_content_updated_restamps_date_modified():
     assert not _bad, f"stale dateModified on revised leaves: {_bad[:8]}"
 
 
-_KNOWN_UNITS = {"user", "seat", "member", "agent", "channel", "site", "workspace"}
 _PERIOD_WORDS = {"mo", "month", "months", "yr", "year", "years", "yearly",
                  "annual", "annually", "quarter", "quarterly", "lifetime",
-                 "one-time", "trial", "plan", "plans", "tier", "tiers"}
+                 "one-time", "trial", "plan", "plans", "tier", "tiers",
+                 "day", "days", "week", "weeks", "hour", "hours",
+                 "minute", "minutes"}
+# r32 H-9 (2026-10-06): adjudicated-benign bindings — the general census
+# fails loud on every undeclared noun EXCEPT these, each with its round of
+# adjudication. A new noun fails; promotion to this map needs a reason.
+_CENSUS_BENIGN = {
+    "billionmail": ("instance", "r31 review: per-instance hosts, not monthly billing"),
+    "segment": ("extra", "r32: MTU-overage adjective, entry is platform flat"),
+    "jitsu": ("additional", "r32: overage adjective, entry is platform flat"),
+    "power-automate": ("bot", "r32 H-9: $150/bot/month is a distinct product tier qualified inline"),
+    "intercom": ("resolution", "r32 H-9: $0.99/resolution usage add-on carries its unit inline"),
+    "activepieces": ("credit", "r32 H-9: $0.007 per credit overage rate with its unit inline"),
+}
 
 
 def _notes_unit(notes, entry=None):
@@ -2138,11 +2150,21 @@ def _notes_unit(notes, entry=None):
                 break
         if not _hit:
             return ""
-        # r30 H-4b: the entry figure's OWN suffix decides. "$19/mo billed
-        # annually, ... end users $5/user/mo" (budibase) is flat at the
-        # entry — the later /user binds the $5 add-on, not the entry.
-        # Only a bare entry falls through to the sentence scan.
-        if _re.match(r"\s?/(mo|months?|yr|years?)\b", notes[_hit.end():_hit.end() + 9], _re.I):
+        # r32 H-9 (2026-10-06): the trakkr refinement — a bare /mo suffix
+        # no longer ends the inquiry. "$100/mo per brand" binds the ENTRY
+        # in the same clause; "$19/mo billed annually ... $5/user/mo"
+        # (budibase) leaves it flat. After a bare period suffix, the next
+        # 24 characters decide: a per-X or /X continuation is the entry's
+        # unit, anything else is flat.
+        _per = _re.match(r"\s?/(mo|months?|yr|years?)\b", notes[_hit.end():_hit.end() + 9], _re.I)
+        if _per:
+            _cont = notes[_hit.end() + _per.end():_hit.end() + _per.end() + 24].lower()
+            _m2 = _re.search(r"(?:per\s+|per-|/)([a-z]+)", _cont)
+            if _m2:
+                _noun = _m2.group(1)
+                _noun = _noun[:-1] if _noun.endswith("s") and not _noun.endswith("ss") else _noun
+                if _noun not in _PERIOD_WORDS:
+                    return _noun
             return ""
         # r30 H-4: sentence scope — chatwoot's unit binds the tier list
         # ("Startups $19, Business $39, Enterprise $99 per agent/mo"), not
@@ -2161,6 +2183,7 @@ def _notes_unit(notes, entry=None):
     if "/seat" in _around or "per seat" in _around or "per-seat" in _around:
         return "seat"
     for _noun in _re.findall(r"/([a-z]+)/(?:mo|month|months|yr|year)\b", _around) + _re.findall(r"per ([a-z]+)", _around):
+        _noun = _noun[:-1] if _noun.endswith("s") and not _noun.endswith("ss") else _noun
         if _noun not in _PERIOD_WORDS:
             return _noun
     return ""
@@ -2200,10 +2223,13 @@ def test_per_user_enterprise_figures_qualified_everywhere():
         _swept += 1
         _found = _notes_unit(_t.get("price_notes") or "", _entry)
         if _found and not str(_t.get("price_unit") or ""):
-            if _found in _KNOWN_UNITS:
+            # r32 H-9: the general census — any bound noun fails unless
+            # adjudicated-benign (singularized compare; the map holds the
+            # reason and its round). No silent review queue: a new noun is
+            # a new vocabulary, and vocabularies fail loud now.
+            _ben = _CENSUS_BENIGN.get(_s)
+            if not (_ben and _ben[0] == _found):
                 _nounit.append(f"{_s} (/{_found})")
-            elif _s not in [ _r[0] for _r in _review ]:
-                _review.append((_s, _found))
     import json as _jj
     (ROOT / "tools" / ".unit-guard.json").write_text(_jj.dumps({"swept": _swept, "unit_priced": len([_s for _s, _t in _tools.items() if str(_t.get("price_unit") or "")]), "missing": _nounit, "review": _review}))
     assert not _nounit, f"unit-priced entry without price_unit: {_nounit}"
@@ -2334,8 +2360,22 @@ def test_reverify_rationale_dates_track_records():
             # r31 H-7b: the invariant is cell >= record — evidence reviewed
             # without a record change (dynamic-yield, smartly-io) is
             # fresher prose, not lag. Only cell < record fails.
+            # r32 L-38: the `scored` field renders as the cell's "verified"
+            # date — same direction, same reason.
             if _du and _m.group(1) < _du:
                 _bad.append(f"{_t.get('slug')}: cell {_m.group(1)} vs record {_du}")
+            # r32 L-38 postscript (2026-10-06): a scored-vs-record check was
+            # tried here and reverted within the hour — the one-day cohort
+            # (claude-seo, hubspot-crm, n8n: scored 09-26, records 09-27)
+            # dissolved on inspection. The 09-27 record touches were deploy
+            # rebuilds and disclosure prose, not pricing-evidence changes;
+            # the cells' 09-26 is when the pillar was last verified (true)
+            # and the records' 09-27 is when they were last touched (true).
+            # Different clocks, both honest. Forcing scored >= date_updated
+            # would demand re-verification on every unrelated edit — exactly
+            # the stamp-churn the methodology page prohibits. The reverify
+            # job still moves `scored` on genuine confirms (that IS a
+            # re-verification); this test does not second-guess the gap.
     assert not _bad, f"rationale evidence dates lagging records: {_bad[:8]}"
 
 
@@ -2365,6 +2405,33 @@ def test_category_blurb_figures_trace_to_records():
                 if _fig not in _rec.replace(",", ""):
                     _bad.append(f"{_c.get('slug')}/{_k}: {_m.group(0)} not in {_owner} record")
     assert not _bad, f"blurb figures untraced to records: {_bad[:6]}"
+
+
+def test_blog_markup_conversions_keep_stamps():
+    """r32 L-36 (2026-10-06): five posts converted to real blockquote markup
+    in one wave; exactly one moved its stamp. Rule: markup-only conversions
+    do not move stamps (signature normalizes blockquote wrappers). Snapshot
+    pins all five + sitemap alignment so the next conversion wave either
+    keeps every stamp or fails loud."""
+    import re as _re
+    _five = {
+        "ai-theater-wrong-kpi": "2026-09-30",
+        "jon-miller-rethink-not-rebuild": "2026-10-01",
+        "n8n-ai-open-source-automation": "2026-09-25",
+        "what-free-seo-audit-replaces": "2026-09-28",
+        "open-source-martech-stack": "2026-07-27",
+    }
+    _sm = (ROOT / "sitemap.xml").read_text()
+    _bad = []
+    for _slug, _dm in _five.items():
+        _h = (ROOT / "blog" / _slug / "index.html").read_text()
+        _dms = set(_re.findall(r'"dateModified":\s*"([0-9-]*)"', _h))
+        if _dms != {_dm}:
+            _bad.append(f"{_slug}: page stamps {_dms} != {_dm}")
+        _m = _re.search(_slug + r"/</loc><lastmod>([0-9-]*)", _sm)
+        if not _m or _m.group(1) != _dm:
+            _bad.append(f"{_slug}: sitemap { _m.group(1) if _m else 'MISSING'} != {_dm}")
+    assert not _bad, f"conversion-wave stamp drift: {_bad}"
 
 
 def test_trending_counts_reconcile_with_catalog():

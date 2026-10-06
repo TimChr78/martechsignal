@@ -27,7 +27,7 @@ Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents,
 - [Appsmith](/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs (Open-core from $15/user/mo)
 - [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data (Open-core from $19/mo)
 - [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast (Open-core)
-- [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps (Open-core from $79/mo)
+- [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps (Open-core from $79/builder/mo)
 ## More Workflow Automation tools (4)
 
 - [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting (Freemium from $20/mo)

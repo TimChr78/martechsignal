@@ -2327,7 +2327,12 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         except ValueError:
             _age2 = -1
         if _age2 > 21:
-            body = body.replace("</nav>", "</nav>" + f'<p class="kind-note">Re-check pending: pricing last verified {_du} ({_age2} days ago).</p>', 1)
+            # r32 M-5 (2026-10-06): a record redecided between vendor
+            # fetches discloses the redecision date, not only the last
+            # fetch — "stale in reverse" otherwise. Opt-in `redecided`
+            # field carries the one-line slot text.
+            _red = f" {esc(str(t.get('redecided')))}" if t.get("redecided") else ""
+            body = body.replace("</nav>", "</nav>" + f'<p class="kind-note">Re-check pending: pricing last verified {_du} ({_age2} days ago).{_red}</p>', 1)
     body = body + _SUB_INLINE
     out.write_text(page_shell(
         seo_title,

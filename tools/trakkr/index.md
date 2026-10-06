@@ -8,7 +8,7 @@
 
 AI visibility platform for brands and agencies: citations, perception, competitors
 
-GEO & LLM Optimization · From $100/mo Desk-reviewed
+GEO & LLM Optimization · From $100/brand/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -16,7 +16,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Trakkr is a tool in GEO & LLM Optimization with paid plans starting at $100/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Trakkr is a tool in GEO & LLM Optimization with paid plans starting at $100/brand/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Trakkr →](https://trakkr.ai/)
 
@@ -38,7 +38,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Trakkr is a London-made AI visibility platform for brands and agencies. It tracks where AI recommends you across eight models (ChatGPT, Perplexity, Claude, Gemini, Google, Grok, Meta AI and DeepSeek), then explains why and suggests fixes. The product splits into Citations (what AI reads about you, with crawler analytics and a live feed of prompts citing your domain), Perception (how AI understands your brand), Competitors (rankings and share of voice), Automations and an Agent that ranks suggested actions by expected impact. Free tools include an AI Query Scanner, an AI Site Grader, an llms.txt generator and a public visibility leaderboard. Pricing is public, which is unusual in this batch. Growth is $100 per month per brand: daily tracking, 50 prompts per brand, all eight models, 25 articles a month and three seats, or $1,000 billed annually. Scale is $500 per month for 10 brands with 100 articles a month, API access and client portals, or $5,000 annually. Enterprise starts at $1,000 per month billed annually with unlimited brands and prompts, SSO and a security review. The 14-day trial runs Growth and converts at $100 per month unless you cancel. Trakkr was founded by Mack Grenfell, who also founded Byword. Integrations run wide: Zapier, Slack, Google Sheets, Make, webhooks, Discord, Linear, Notion, WordPress, Shopify, Webflow, HubSpot and Airtable, plus a REST API and an MCP server for Claude, ChatGPT and Cursor. Per-brand pricing makes it cheap to start and costly to fan out. A 20-brand portfolio needs a custom quote rather than two Scale plans.
+Trakkr is a London-made AI visibility platform for brands and agencies. It tracks where AI recommends you across eight models (ChatGPT, Perplexity, Claude, Gemini, Google, Grok, Meta AI and DeepSeek), then explains why and suggests fixes. The product splits into Citations (what AI reads about you, with crawler analytics and a live feed of prompts citing your domain), Perception (how AI understands your brand), Competitors (rankings and share of voice), Automations and an Agent that ranks suggested actions by expected impact. Free tools include an AI Query Scanner, an AI Site Grader, an llms.txt generator and a public visibility leaderboard. Pricing is public, which is unusual in this batch. Growth is $100 per month per brand: daily tracking, 50 prompts per brand, all eight models, 25 articles a month and three seats, or $1,000 billed annually. Scale is $500 per month for 10 brands with 100 articles a month, API access and client portals, or $5,000 annually. Enterprise starts at $1,000 per month billed annually with unlimited brands and prompts, SSO and a security review. The 14-day trial runs Growth and converts at $100/brand/mo (Growth) unless you cancel. Trakkr was founded by Mack Grenfell, who also founded Byword. Integrations run wide: Zapier, Slack, Google Sheets, Make, webhooks, Discord, Linear, Notion, WordPress, Shopify, Webflow, HubSpot and Airtable, plus a REST API and an MCP server for Claude, ChatGPT and Cursor. Per-brand pricing makes it cheap to start and costly to fan out. A 20-brand portfolio needs a custom quote rather than two Scale plans.
 
 ## AI Capabilities
 
@@ -57,9 +57,9 @@ Trakkr is a London-made AI visibility platform for brands and agencies. It track
 - WordPress
 ## Pricing
 
-Trakkr is sold on paid plans, from $100/mo as of 2026-09.
+Trakkr is sold on paid plans, from $100/brand/mo as of 2026-09.
 
-Growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands & prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public).
+Growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands & prompts, SSO). 14-day trial on Growth, auto-converts at $100/brand/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public).
 
 Current plans and limits live on the [Trakkr pricing page](https://trakkr.ai/pricing).
 
@@ -75,9 +75,9 @@ Companies with many brands on tight budgets, since pricing is per brand and the 
 
 Assessed from Trakkr's site, pricing page and docs index in September 2026.The dashboard answers three questions in order: where AI recommends you (visibility score and rankings against competitors), why (perception and citation analysis, including which pages AI reads and crawler analytics for the bots hitting your site), and what to do (an action list where each item carries an expected impact score, ranked by ROI). The live conversation feed shows prompts citing your domain as they happen, which is the closest thing in this batch to watching AI search work in real time.
 
-Onboarding is a domain field and a 14-day trial that runs the Growth plan. Growth is $100 per month for one brand with daily tracking, 50 prompts per brand and all eight models. There is an unusual addition: 25 AI-written articles per month are included (100 on Scale), so the subscription bundles content production with measurement. Trakkr also publishes free tools (AI Query Scanner, AI Site Grader, llms.txt generator) and live benchmarks (visibility leaderboard, AI traffic index), which is how most people will first touch the product.
+Onboarding is a domain field and a 14-day trial that runs the Growth plan. Growth is $100/brand/mo (one brand) with daily tracking, 50 prompts per brand and all eight models. There is an unusual addition: 25 AI-written articles per month are included (100 on Scale), so the subscription bundles content production with measurement. Trakkr also publishes free tools (AI Query Scanner, AI Site Grader, llms.txt generator) and live benchmarks (visibility leaderboard, AI traffic index), which is how most people will first touch the product.
 
-Scale at $500 per month covers 10 brands with API access and client portals, which is where agencies land. Enterprise starts at $1,000 per month billed annually with unlimited brands and prompts, SSO and a security review. Three things to know before you start: pricing is per brand, so a portfolio of 20 brands needs a custom quote rather than two Scale plans; the prompt cap is fixed at 50 per brand with custom volume handled in Enterprise; and the trial auto-converts to the $100 Growth plan after 14 days unless you cancel.
+Scale at $500 per month covers 10 brands with API access and client portals, which is where agencies land. Enterprise starts at $1,000 per month billed annually with unlimited brands and prompts, SSO and a security review. Three things to know before you start: pricing is per brand, so a portfolio of 20 brands needs a custom quote rather than two Scale plans; the prompt cap is fixed at 50 per brand with custom volume handled in Enterprise; and the trial auto-converts to the $100/brand/mo Growth plan after 14 days unless you cancel.
 
 ## Verdict
 
@@ -91,7 +91,7 @@ Trakkr is the transparent option in this batch: public per-brand pricing, eight 
 | ✓ AI capabilities: citation and AI crawler analytics | ✗ Closed source - no self-hosting option |
 | ✓ Native integrations include Zapier, Slack, Google Sheets (6 listed) | ✗ Pricing is per brand, so costs scale linearly with a multi-brand portfolio |
 | ✓ Public pricing and a self-serve trial, no demo required | ✗ The prompt cap is fixed at 50 per brand; custom volume needs Enterprise |
-| ✓ 13 integrations including Zapier, Slack, Sheets, Notion, HubSpot and WordPress, plus REST API and MCP | ✗ The 14-day trial auto-converts to the $100 per month Growth plan unless you cancel |
+| ✓ 13 integrations including Zapier, Slack, Sheets, Notion, HubSpot and WordPress, plus REST API and MCP | ✗ The 14-day trial auto-converts to the $100/brand/mo Growth plan unless you cancel |
 | ✓ Free tools and live benchmarks (visibility leaderboard, AI traffic index) let you sample the data before paying |  |
 
 ## Related concepts
@@ -111,7 +111,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Trakkr: AI visibility platform for brands and agencies: citations, perception, competitors. Trakkr ships with citation and AI crawler analytics. This page documents 6 integrations.
 
 **How much does Trakkr cost?**
-Trakkr starts at $100/mo. Growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands & prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Trakkr starts at $100/brand/mo. Growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands & prompts, SSO). 14-day trial on Growth, auto-converts at $100/brand/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Trakkr worth paying for in 2026?**
 Trakkr is the transparent option in this batch: public per-brand pricing, eight models on every plan, and an action list that ranks fixes by expected impact. It bundles content articles with tracking, which suits teams that want measurement and output on one bill. Multi-brand portfolios should model the per-brand cost before scaling.
@@ -127,8 +127,8 @@ Yes. Unlike most enterprise GEO platforms, Trakkr lists plan prices openly; cust
 
 ## Similar Tools
 
-- [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 - [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 - [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 - [Writesonic](/tools/writesonic/): The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
 ## Related reading
@@ -141,7 +141,7 @@ Yes. Unlike most enterprise GEO platforms, Trakkr lists plan prices openly; cust
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for GEO & LLM optimization teams that want competitor visibility rankings, starting at $100/mo.
 ### Quick Facts
 
-- **Pricing:** From $100/mo
+- **Pricing:** From $100/brand/mo
 - **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - **HQ:** London, UK
 - **API:** Yes

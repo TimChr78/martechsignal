@@ -415,13 +415,24 @@ def _date_modified(meta, date_str):
     dateModified with zero byte delta — 6 blogs restamped 2026-10-05 with no
     rendered change. Guard on a content signature: same signature as the last
     build keeps the last stamp; only a real copy change advances it. The
-    signature masks the rotating more-tools module (rotation is not prose)."""
+    signature masks the rotating more-tools module (rotation is not prose).
+    r32 L-36 (2026-10-06): markup-only conversions (e.g. `> ` lines becoming
+    real blockquotes) change bytes but not facts, and must not move stamps.
+    The signature normalizes blockquote wrappers away before hashing, so a
+    conversion round-trips to the same signature and keeps its stamp."""
     import subprocess as _sp, os as _os, json as _js, hashlib as _hl
     slug = meta.get('slug') or ''
+    # r32 L-36: normalize blockquote wrappers before signing — a `> ` line
+    # rendered as <p>&gt; ...</p> and as <blockquote><p>...</p></blockquote>
+    # is the same prose. (The old glyph form is unescaped first so both
+    # eras of markup reduce to the same plain paragraph.)
+    _body4sig = str(meta.get('_body_html') or '')
+    _body4sig = re.sub(r'<p>\s*&gt;\s?', '<p>', _body4sig)
+    _body4sig = re.sub(r'(?s)<blockquote>\s*<p>(.*?)</p>\s*</blockquote>', r'<p>\1</p>', _body4sig)
     _sig_src = "|".join([
         str(meta.get('title') or ''), str(meta.get('seo_title') or ''),
         str(meta.get('seo_description') or ''),
-        re.sub(r'(?s)<p class="more-tools"[^>]*>.*?</p>', ' ', str(meta.get('_body_html') or '')),
+        re.sub(r'(?s)<p class="more-tools"[^>]*>.*?</p>', ' ', _body4sig),
     ])
     _sig = _hl.sha1(_sig_src.encode()).hexdigest()[:16]
     _sigf = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.blog-sigs.json')
