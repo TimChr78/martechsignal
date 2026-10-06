@@ -2605,6 +2605,33 @@ def test_glossary_hub_pinned_at_own_content_date():
     assert _m and _m.group(1) == "2026-10-05", f"glossary hub dm: {_m.group(1) if _m else 'MISSING'}"
 
 
+def test_pin_mask_erases_template_churn():
+    """r36 structural-2 (2026-10-06): the fingerprint mask must erase
+    schema/chrome contents, counts, and positions. The first schema-mask
+    attempt shipped a no-op regex (unescaped + in ld+json) and the suite
+    stayed green because it only asserted outcomes. This test pins the
+    mechanism: raw builder bytes vs fully post-processed bytes of the
+    same page hash equal."""
+    import re as _re
+    import hashlib as _hl
+    import sys as _sys
+    _sys.path.insert(0, str(ROOT / "tools"))
+    from build_tools import _fingerprint_mask as _mask
+    _raw = (ROOT / "glossary" / "mcp" / "index.html").read_text(errors="ignore")
+    assert "ld+json" in _raw, "fixture page lost its schema block"
+    # simulate the post-sync writers: versioned bundle hash, an injected
+    # breadcrumb block, and pretty-print whitespace inside schema.
+    _pretty = _raw.replace('/site.js" defer>', '/site.js?v=deadbeef" defer>')
+    _m = _re.search(r'(<script type="application/ld\+json">.*?</script>)', _raw, flags=_re.S)
+    assert _m, "fixture page has no extractable schema block"
+    _pretty = _pretty.replace(_m.group(1), _m.group(1)
+        + '\n<script type="application/ld+json">{"@type":"BreadcrumbList"}</script>', 1)
+    _pretty = _pretty.replace('{"@context"', '{\n  "@context"', 1)
+    assert _hl.sha1(_mask(_raw).encode()).hexdigest() == \
+        _hl.sha1(_mask(_pretty).encode()).hexdigest(), \
+        "mask leaks template churn into fingerprints"
+
+
 def test_glossary_terms_keep_genuine_block_dates():
     """r36 structural (2026-10-06): term leaves carry no declared dates
     since L-47 dropped datePublished, so any pin-algorithm change drops

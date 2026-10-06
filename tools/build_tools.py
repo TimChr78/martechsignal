@@ -3725,6 +3725,23 @@ def _blame_content_date(path):
     return _best
 
 
+def _fingerprint_mask(_s):
+    """r36 structural-2 (2026-10-06): pin fingerprints see reader-visible
+    content only. Dates, template chrome (alternate/stylesheet/site.js),
+    and whole JSON-LD blocks are erased - contents, counts, and positions
+    (post-sync writers add blocks after hashing). No rendered page
+    contains the literal SCHEMA/CHROME sentinels, so nothing real is lost.
+    Tested directly by test_pin_mask_erases_template_churn."""
+    _m = re.sub(r"\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2})?([+-]\d{2}:?\d{2}|Z)?)?", "DATE", _s)
+    _m = re.sub(r'<link rel="alternate"[^>]*>', "CHROME", _m)
+    _m = re.sub(r'<link rel="stylesheet"[^>]*>', "CHROME", _m)
+    _m = re.sub(r'<script src="/site\.js[^"]*"[^>]*></script>', "CHROME", _m)
+    _m = re.sub(r'<script type="application/ld\+json">.*?</script>', "SCHEMA", _m, flags=re.S)
+    _m = re.sub(r"(SCHEMA|CHROME)", "", _m)
+    _m = re.sub(r"\n\s*\n", "\n", _m)
+    return _m
+
+
 def sync_date_modified():
     """M9 (2026-09-27): every page publishes a dateModified so the sitemap keeps
     <lastmod>. Date source order: the page's own datePublished, the visible <time>,
@@ -3817,25 +3834,10 @@ def sync_date_modified():
         # an entity-unescape commit that changed zero rendered bytes).
         # Same content-sig keeps the pinned stamp; changed content releases
         # it by mismatch, so data-driven restamps (best leaves, tools) are
-        # unaffected.
-        _mask = _re.sub(r"\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2})?([+-]\d{2}:?\d{2}|Z)?)?", "DATE", _s)
-        # r35 M-14 (2026-10-06): template-owned bytes are not page content.
-        # Mask them alongside dates so template edits (link forms,
-        # bundle hashes) never void pins; only reader-visible content
-        # changes release a pin by mismatch. Per the
-        # methodology, template changes do not move stamps.
-        _mask = _re.sub(r'<link rel="alternate"[^>]*>', "CHROME", _mask)
-        _mask = _re.sub(r'<link rel="stylesheet"[^>]*>', "CHROME", _mask)
-        _mask = _re.sub(r'<script src="/site\.js[^"]*"[^>]*></script>', "CHROME", _mask)
-        # r36 structural (2026-10-06): the schema block is template-owned.
-        # sync_breadcrumbs rewrites it after this hash (pretty-print plus
-        # the breadcrumb edge), so any glossary rebuild voided the pin on
-        # the next run and the hub restamped every deploy. Mask the whole
-        # block for fingerprints; dates were extracted as candidates above,
-        # so clocks still ride real date changes. Content changes (prose,
-        # prices, figures) live outside schema and still release pins.
-        # Schema-only churn is carved out by the methodology rule.
-        _mask = _re.sub(r'<script type="application/ld+json">.*?</script>', "SCHEMA", _mask, flags=_re.S)
+        # unaffected. Fingerprints cover reader-visible content only;
+        # template chrome, dates, and schema blocks are erased by
+        # _fingerprint_mask (r35 M-14, r36 structural-2).
+        _mask = _fingerprint_mask(_s)
         _sig = __import__("hashlib").sha1(_mask.encode()).hexdigest()[:16]
         _key = _p.relative_to(ROOT).as_posix()
         _prev = _DMSIGS.get(_key)
