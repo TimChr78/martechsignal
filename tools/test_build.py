@@ -2605,6 +2605,28 @@ def test_glossary_hub_pinned_at_own_content_date():
     assert _m and _m.group(1) == "2026-10-05", f"glossary hub dm: {_m.group(1) if _m else 'MISSING'}"
 
 
+def test_glossary_terms_keep_genuine_block_dates():
+    """r36 structural (2026-10-06): term leaves carry no declared dates
+    since L-47 dropped datePublished, so any pin-algorithm change drops
+    them to blame-today (28 terms flipped to build-day in one sync while
+    the suite stayed green). Every term keeps its glossary.json block
+    date - the builder emits it, sync must not overwrite it."""
+    import re as _re
+    import sys as _sys
+    _sys.path.insert(0, str(ROOT / "tools"))
+    from build_tools import _json_block_dates as _bd
+    _blocks = _bd("tools/glossary.json", 2)
+    _bad = []
+    for _slug, _genuine in _blocks.items():
+        _f = ROOT / "glossary" / _slug / "index.html"
+        if not _f.exists():
+            continue
+        _m = _re.search(r'"dateModified": "([0-9-]+)"', _f.read_text(errors="ignore"))
+        if not _m or _m.group(1) != _genuine:
+            _bad.append(f"{_slug}={_m.group(1) if _m else 'MISSING'} (genuine {_genuine})")
+    assert not _bad, f"term dates drifted off block dates: {_bad}"
+
+
 def test_earned_restamps_move_and_only_they_do():
     """r36 M-15 (2026-10-06): alternatives/zapier took the record-driven
     chip ripple - it restamps. Trakkr took a prose-only edit: tool pages

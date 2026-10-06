@@ -3827,6 +3827,15 @@ def sync_date_modified():
         _mask = _re.sub(r'<link rel="alternate"[^>]*>', "CHROME", _mask)
         _mask = _re.sub(r'<link rel="stylesheet"[^>]*>', "CHROME", _mask)
         _mask = _re.sub(r'<script src="/site\.js[^"]*"[^>]*></script>', "CHROME", _mask)
+        # r36 structural (2026-10-06): the schema block is template-owned.
+        # sync_breadcrumbs rewrites it after this hash (pretty-print plus
+        # the breadcrumb edge), so any glossary rebuild voided the pin on
+        # the next run and the hub restamped every deploy. Mask the whole
+        # block for fingerprints; dates were extracted as candidates above,
+        # so clocks still ride real date changes. Content changes (prose,
+        # prices, figures) live outside schema and still release pins.
+        # Schema-only churn is carved out by the methodology rule.
+        _mask = _re.sub(r'<script type="application/ld+json">.*?</script>', "SCHEMA", _mask, flags=_re.S)
         _sig = __import__("hashlib").sha1(_mask.encode()).hexdigest()[:16]
         _key = _p.relative_to(ROOT).as_posix()
         _prev = _DMSIGS.get(_key)
