@@ -152,8 +152,8 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 - [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for technically fluent teams wanting a modern extensible CRM.
