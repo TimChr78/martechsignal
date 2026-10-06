@@ -763,7 +763,6 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>{schema_block}
-<link rel="alternate" type="text/markdown" href="https://martechsignal.com{canonical}index.md">
 {_stylesheet_tags()}
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 <script src="/site.js" defer></script>
@@ -3879,7 +3878,11 @@ def sync_date_modified():
         _sigf.write_text(_js.dumps(_DMSIGS, indent=1, sort_keys=True))
 
 if __name__ == "__main__":
-    sync_date_modified()
+    # r34 pinfix-2 (2026-10-06): no standalone sync before main(). main()
+    # runs L16 link normalization before its own sync so pins hash final
+    # bytes; a pre-builder sync here hashed the regen-fresh absolute-link
+    # form and re-pinned every glossary stamp at the builder date, undoing
+    # the revert on every deploy-chain build.
     refresh_homepage_counts()
     minify_css()
     main()

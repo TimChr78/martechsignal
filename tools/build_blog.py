@@ -656,7 +656,6 @@ def build_post(meta: dict, body_html: str) -> str:
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{canon}">
-<link rel="alternate" type="text/markdown" href="https://martechsignal.com/blog/{slug}/index.md">
 <link rel="ard ai-catalog" type="application/json" href="https://martechsignal.com/.well-known/ard.json">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
