@@ -8,6 +8,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### Agencies don't want to own your AI tools or your data: the retainer model just broke
+
+At AdExchanger's Programmatic IO in New York, a panel of agency executives argued that the agency should not own the agentic AI tools built for a client, and should not own the…
+
 ### The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent
 
 An agent can now run a marketing loop end to end on open source. We counted this morning from the directory: 19 of the 81 open-source tools we track list an MCP server among their…
@@ -19,10 +23,6 @@ On September 23, 2026, the behavioral intelligence company SQREEM appointed Step
 ### Rethink, not rebuild: Jon Miller and the replatform-for-AI trap
 
 Jon Miller co-founded Marketo, then founded Engagio, the account-based marketing platform Demandbase bought in 2020 (Demandbase press release). This week he came back to the…
-
-### Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters
-
-HubSpot published a post this month on the psychology of AI progress indicators. In it, Phill Agnew describes something most of us watched happen in 2025: the major answer engines…
 
 ## Tool index
 

@@ -28,11 +28,11 @@
   "sig": "52fd70cca1458b37"
  },
  "categories/agent-skills/index.html": {
-  "dm": "2026-10-05",
+  "dm": "2026-10-06",
   "sig": "413ffd8e8a65a234"
  },
  "categories/analytics/index.html": {
-  "dm": "2026-10-05",
+  "dm": "2026-10-06",
   "sig": "5232f457cc26eb2b"
  },
  "categories/chatbots/index.html": {
@@ -40,11 +40,11 @@
   "sig": "d27c00d6f62077e5"
  },
  "categories/content-ai/index.html": {
-  "dm": "2026-10-05",
+  "dm": "2026-10-06",
   "sig": "af9578be30751f73"
  },
  "categories/crm/index.html": {
-  "dm": "2026-10-05",
+  "dm": "2026-10-06",
   "sig": "36fe5ad2a15513b7"
  },
  "categories/email-marketing/index.html": {
@@ -60,7 +60,7 @@
   "sig": "aafda21024bd1f26"
  },
  "categories/marketing-automation/index.html": {
-  "dm": "2026-10-05",
+  "dm": "2026-10-06",
   "sig": "245e750b7d0cefab"
  },
  "categories/open-source/index.html": {
@@ -68,11 +68,11 @@
   "sig": "a9bc5efd23e961d8"
  },
  "categories/personalization/index.html": {
-  "dm": "2026-10-05",
+  "dm": "2026-10-06",
   "sig": "420b533c25aeb3a4"
  },
  "categories/seo/index.html": {
-  "dm": "2026-10-05",
+  "dm": "2026-10-06",
   "sig": "892ed5dbea0dcf0f"
  },
  "categories/social-media/index.html": {
@@ -225,7 +225,7 @@
  },
  "index.html": {
   "dm": "2026-10-05",
-  "sig": "b9b2681d700489f7"
+  "sig": "63873a1839bb4bb0"
  },
  "methodology/index.html": {
   "dm": "2026-10-05",
@@ -240,8 +240,8 @@
   "sig": "e5f67cb07ebae0e2"
  },
  "trending/index.html": {
-  "dm": "2026-10-05",
-  "sig": "fd4dd8998766ea92"
+  "dm": "2026-10-06",
+  "sig": "7d4857334b8212bd"
  },
  "vs/index.html": {
   "dm": "2026-10-06",

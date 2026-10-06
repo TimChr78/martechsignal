@@ -77,7 +77,7 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (227 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (228 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: lead discovery | ✗ Short native integration list - plan for API work |
 | ✓ Native integrations include Google Maps, Instagram (2 listed) |  |
 
@@ -96,10 +96,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is ProspectOS?**
-ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 227 stars.
+ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 228 stars.
 
 **How much does ProspectOS cost?**
-ProspectOS is open source - MIT licensed and free to self-host; the public repository carries 227 stars. You pay in server time and maintenance, not licences.
+ProspectOS is open source - MIT licensed and free to self-host; the public repository carries 228 stars. You pay in server time and maintenance, not licences.
 
 **Is ProspectOS a good self-hosted CRM tool in 2026?**
 A working, well-tested local prospecting tool with unusually honest documentation about its scraping risks. Suitable for individual freelancers who accept the terms-of-service exposure; not a team tool, and not compliant-by-design with Google or Instagram ToS.
@@ -113,17 +113,17 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 ## Related reading
 
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 227
+- **GitHub:** ★ 228
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** Yes
-- **Repository checked:** 2026-10-03
+- **Repository checked:** 2026-10-06
 - **Page updated:** 2026-08-31
 
 ## Get the next teardown

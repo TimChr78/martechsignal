@@ -165,7 +165,7 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **GitHub:** ★ 41018
 - **API:** Yes
-- **Repository checked:** 2026-10-05
+- **Repository checked:** 2026-10-06
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

@@ -40,7 +40,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Warpdrive is a self-hosted, MIT-licensed CRM that reimplements Pipedrive's core business development loop: kanban pipelines, a deal workspace, contacts and organizations, and two-way Gmail. It is single-tenant, runs on your own box, and has no per-seat bill. The README's comparison table against Pipedrive marks products, projects, invoicing, forecasting, multi-currency, workflow automation, and native mobile apps as intentionally out of scope, and the docs are blunt about it: if your team needs those, this is not the right tool. What it covers is deep for a project this young: pipelines with weighted stage totals and rotting-deal indicators, people and orgs with JSONB custom fields, a leads inbox with CSV import and undo, funnel stats, RBAC, and Gmail with thread linking, open and click tracking, templates, merge fields, and scheduled send. Sync is go-forward only: the docs state there is no backfill, so existing mail is never imported. AI access exists, but not as AI features. There is no lead scoring or drafting model; instead the project ships a documented MCP server at /api/mcp with 29 tools, OAuth 2.1 protected, so Claude, ChatGPT, or Cursor can search and update the CRM under each user's own permissions. The server has no delete tools for CRM records and no send tool: drafts are written for review and sending stays human. Contact enrichment is not AI either; it wraps your own paid Apollo, RocketReach, or GetProspect keys behind a review step. Setup is docker compose up -d --build after copying .env.example, bringing up Postgres 16, MinIO, a background worker, and Caddy for TLS. Requirements are specific: a domain with a second s3. subdomain record, ports 80 and 443, and a Google Workspace OAuth client, since Google is both the SSO and the mail provider. One maintainer, 35 commits, one release, 73 stars, and a public mirror of a private upstream: treat it as a young tool worth an afternoon, not a settled platform.
+Warpdrive is a self-hosted, MIT-licensed CRM that reimplements Pipedrive's core business development loop: kanban pipelines, a deal workspace, contacts and organizations, and two-way Gmail. It is single-tenant, runs on your own box, and has no per-seat bill. The README's comparison table against Pipedrive marks products, projects, invoicing, forecasting, multi-currency, workflow automation, and native mobile apps as intentionally out of scope, and the docs are blunt about it: if your team needs those, this is not the right tool. What it covers is deep for a project this young: pipelines with weighted stage totals and rotting-deal indicators, people and orgs with JSONB custom fields, a leads inbox with CSV import and undo, funnel stats, RBAC, and Gmail with thread linking, open and click tracking, templates, merge fields, and scheduled send. Sync is go-forward only: the docs state there is no backfill, so existing mail is never imported. AI access exists, but not as AI features. There is no lead scoring or drafting model; instead the project ships a documented MCP server at /api/mcp with 29 tools, OAuth 2.1 protected, so Claude, ChatGPT, or Cursor can search and update the CRM under each user's own permissions. The server has no delete tools for CRM records and no send tool: drafts are written for review and sending stays human. Contact enrichment is not AI either; it wraps your own paid Apollo, RocketReach, or GetProspect keys behind a review step. Setup is docker compose up -d --build after copying .env.example, bringing up Postgres 16, MinIO, a background worker, and Caddy for TLS. Requirements are specific: a domain with a second s3. subdomain record, ports 80 and 443, and a Google Workspace OAuth client, since Google is both the SSO and the mail provider. One maintainer, 35 commits, one release, 72 stars, and a public mirror of a private upstream: treat it as a young tool worth an afternoon, not a settled platform.
 
 Warpdrive homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -77,7 +77,7 @@ Teams that need products, projects, invoicing, forecasts, multi-currency, workfl
 
 ## Review notes
 
-Assessed from github.com/sneg55/warpdrive, docs.warpdrivecrm.com (about 25 pages), and warpdrivecrm.com in September 2026; we have not deployed an instance. The repo is young and small: 73 stars, 35 commits, one contributor (Nikita Sawinyh), one release (v1.0.0, July 19, 2026), zero issues and zero pull requests ever filed, latest commit September 7, 2026. The docs site config describes the repo as a public mirror of a private source-of-truth repository, with pull requests merged upstream and synced back on the next release.
+Assessed from github.com/sneg55/warpdrive, docs.warpdrivecrm.com (about 25 pages), and warpdrivecrm.com in September 2026; we have not deployed an instance. The repo is young and small: 72 stars, 35 commits, one contributor (Nikita Sawinyh), one release (v1.0.0, July 19, 2026), zero issues and zero pull requests ever filed, latest commit September 7, 2026. The docs site config describes the repo as a public mirror of a private source-of-truth repository, with pull requests merged upstream and synced back on the next release.
 
 The correction that matters: our earlier text said the repo's CLAUDE.md and PostHog MCP config help developers work on the code rather than users sell, and recorded no API. Both were wrong. Warpdrive ships a user-facing MCP server as a documented headline feature: 29 tools (13 read, 16 write) at /api/mcp over OAuth 2.1, with no delete tools for CRM records and no send tool, so drafts are written for review and sending stays a human action. What remains true is the absence of a REST API, webhooks, and API keys.
 
@@ -94,7 +94,7 @@ A scoped, honestly documented self-hosted Pipedrive alternative whose AI story i
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (73 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (72 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ Native integrations include Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage (4 listed) |  |
 
 ## Related concepts
@@ -112,10 +112,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Warpdrive?**
-Warpdrive: Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box. The public repository carries 73 stars.
+Warpdrive: Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box. The public repository carries 72 stars.
 
 **How much does Warpdrive cost?**
-Warpdrive is open source - MIT licensed and free to self-host; the public repository carries 73 stars; native integrations cover Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage. You pay in server time and maintenance, not licences.
+Warpdrive is open source - MIT licensed and free to self-host; the public repository carries 72 stars; native integrations cover Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage. You pay in server time and maintenance, not licences.
 
 **Is Warpdrive a good self-hosted CRM tool in 2026?**
 A scoped, honestly documented self-hosted Pipedrive alternative whose AI story is an MCP server rather than a model. One maintainer and a private upstream mean you are betting on a person, not a community.
@@ -145,9 +145,9 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 73
+- **GitHub:** ★ 72
 - **API:** No
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-06
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

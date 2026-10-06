@@ -2288,6 +2288,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:agency-retainer-agentic-tools",
+   "displayName": "The retainer just broke: agencies won't own tools or data",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/agency-retainer-agentic-tools/",
+   "description": "Analysis from the MartechSignal blog.",
+   "representativeQueries": [
+    "the retainer just broke: agencies won't own tools or data",
+    "agency retainer agentic tools"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:agent-protocol-vs-data-plumbing",
    "displayName": "Agent protocol vs data plumbing: what actually fails",
    "type": "text/html",
@@ -3742,7 +3753,7 @@
    "displayName": "Open-Source MarTech Momentum: GitHub Stars",
    "type": "text/html",
    "url": "https://martechsignal.com/trending/",
-   "description": "Every morning we snapshot the GitHub stars of all 81 open-source tools in our 166-tool catalog (all of them list a public GitHub repository). 80 have enough history to chart here; a repository needs 5",
+   "description": "Every morning we snapshot the GitHub stars of all 81 open-source tools in our 166-tool catalog (all of them list a public GitHub repository). 81 have enough history to chart here; a repository needs 5",
    "representativeQueries": [
     "trending martech tools",
     "what tools trend on github"

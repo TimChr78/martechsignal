@@ -147,7 +147,7 @@ On core technical auditing, more than you might expect: broken links, redirect c
 - **Founded:** 2022
 - **HQ:** Open source
 - **API:** No
-- **Repository checked:** 2026-10-05
+- **Repository checked:** 2026-10-06
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

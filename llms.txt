@@ -213,6 +213,7 @@
 
 ## Analysis
 
+- [The retainer just broke: agencies won't own tools or data](https://martechsignal.com/blog/agency-retainer-agentic-tools/) (2026-10-06)
 - [19 open-source MCP servers, one marketing agent](https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/) (2026-10-05)
 - [SQREEM's bet: behavior beats language](https://martechsignal.com/blog/sqreem-behavioral-model-vs-llm/) (2026-10-02)
 - [Rethink, not rebuild: the replatform-for-AI trap](https://martechsignal.com/blog/jon-miller-rethink-not-rebuild/) (2026-10-01)

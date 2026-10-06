@@ -90,7 +90,7 @@ The AI-visibility dashboards will keep selling the count, because the count goes
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [MarketMuse](/tools/marketmuse/)
+More from the directory: [OpenOutreach](/tools/openoutreach/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

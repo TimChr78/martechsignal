@@ -102,7 +102,7 @@ A legitimate starting point for WhatsApp-first sales teams that can run Node and
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: AI reply assistant (bring your own OpenAI or Anthropic key) |  |
-| ✓ Active public repository (2,498 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,505 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Meta WhatsApp Cloud API, Supabase, OpenAI (8 listed) |  |
 
 ## Related concepts
@@ -120,10 +120,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is WaCRM?**
-WaCRM: Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. WaCRM ships with AI reply assistant (bring your own OpenAI or Anthropic key). The public repository carries 2,498 stars.
+WaCRM: Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. WaCRM ships with AI reply assistant (bring your own OpenAI or Anthropic key). The public repository carries 2,505 stars.
 
 **How much does WaCRM cost?**
-WaCRM is open source - MIT licensed and free to self-host; the public repository carries 2,498 stars; native integrations cover Meta WhatsApp Cloud API, Supabase, OpenAI. You pay in server time and maintenance, not licences.
+WaCRM is open source - MIT licensed and free to self-host; the public repository carries 2,505 stars; native integrations cover Meta WhatsApp Cloud API, Supabase, OpenAI. You pay in server time and maintenance, not licences.
 
 **Is WaCRM a good self-hosted CRM tool in 2026?**
 A legitimate starting point for WhatsApp-first sales teams that can run Node and Supabase; the official API brings template approvals and Meta vetting along with the delivery tracking.
@@ -158,11 +158,11 @@ Automations and flows never run. The container schedules nothing internally, so 
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 2498
+- **GitHub:** ★ 2505
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** Yes
-- **Repository checked:** 2026-10-05
+- **Repository checked:** 2026-10-06
 - **Page updated:** 2026-09-07
 
 ### Pricing

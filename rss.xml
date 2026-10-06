@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2026 02:22:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 05:23:32 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Agencies don't want to own your AI tools or your data: the retainer model just broke</title>
+      <link>https://martechsignal.com/blog/agency-retainer-agentic-tools/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/agency-retainer-agentic-tools/</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description>At AdExchanger's Programmatic IO in New York, a panel of agency executives argued that the agency should not own the agentic AI tools built for a client, and should not own the…</description>
+    </item>
     <item>
       <title>The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent</title>
       <link>https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/</link>
