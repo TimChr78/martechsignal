@@ -8,7 +8,7 @@ AI · COMPETITIVE INTELLIGENCE · 13 MIN
 
 [Home](/) · [Blog](/blog/) · Competitive-Intel Tools Were the First Martech Category AI Killed
 
-AUG 18, 2026
+AUG 18, 2026 · Updated SEP 09, 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -118,7 +118,7 @@ Our directory breaks down martech tools by what they actually deliver: static re
 - [Ortto](/tools/ortto/) - Customer data and marketing automation platform with journeys, CDP, and AI features
 ## Comparison guides
 
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 

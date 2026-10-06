@@ -110,8 +110,6 @@ Triple Whale answers daily attribution for DTC brands. Conversion starts at $59/
 
 Vendor: [Official site](https://www.triplewhale.com) · [Pricing](https://www.triplewhale.com/pricing)
 
-**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
-
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Heap](/tools/heap/)
@@ -133,8 +131,6 @@ Northbeam models multi-touch attribution for larger ecommerce spend. Pricing is 
 **Verdict:** DTC brands whose incrementality questions deserve real modeling
 
 Vendor: [Official site](https://www.northbeam.io) · [Pricing](https://www.northbeam.io/pricing)
-
-**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 

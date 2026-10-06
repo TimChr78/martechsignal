@@ -10,6 +10,7 @@ Run from /opt/data/martechsignal/:  python3 tools/build_glossary.py
 import json
 from pathlib import Path
 from datetime import datetime
+import html as _html
 
 from build_tools import page_shell, esc, ROOT, _category_display, _json_block_dates
 
@@ -228,7 +229,7 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
 
     rt_html = ""
     if related_terms:
-        links = " · ".join(f'<a href="/glossary/{rt["slug"]}/" style="color:var(--amber)">{esc(rt["short"])}</a>' for rt in related_terms)
+        links = " · ".join(f'<a href="/glossary/{rt["slug"]}/" style="color:var(--amber)">{esc(_html.unescape(rt["short"]))}</a>' for rt in related_terms)
         rt_html = f'<h2>Related terms</h2><p style="color:var(--muted)">{links}</p>'
 
     # M10: value flows back - link the term to posts that use it in practice
@@ -236,7 +237,7 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
     seen = term.get("related_posts") or []
     if seen:
         plinks = " · ".join(
-            f'<a href="/blog/{p["slug"]}/" style="color:var(--amber)">{esc(p["title"])}</a>'
+            f'<a href="/blog/{p["slug"]}/" style="color:var(--amber)">{esc(_html.unescape(p["title"]))}</a>'
             for p in seen
         )
         posts_html = f'<h2>Seen in the wild</h2><p style="color:var(--muted)">{plinks}</p>'
@@ -359,7 +360,8 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
         if len(title) > 60:
             title = f"{title_term2} | Definition"
     # A2 L9 (2026-09-26): related terms had no mutual linking structure.
-    import re as _re, html as _html
+    # (html arrives as _html from module top since r33 M-9.)
+    import re as _re
     _tok = set(_re.findall(r'[a-z]{4,}', (term.get('term', '') + ' ' + (term.get('short') or '')).lower()))
     _see = []
     for _o in all_terms:
@@ -371,7 +373,7 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
         if len(_see) >= 3:
             break
     if _see:
-        _links = ''.join(f'<li><a href="/glossary/{_o["slug"]}/">{_html.escape(_o.get("short") or _o["term"])}</a></li>' for _o in _see)
+        _links = ''.join(f'<li><a href="/glossary/{_o["slug"]}/">{_html.escape(_html.unescape(_o.get("short") or _o["term"]))}</a></li>' for _o in _see)
         body += '<section class="seealso"><h2>See also</h2><ul>' + _links + '</ul></section>'
     out.write_text(page_shell(
         title,

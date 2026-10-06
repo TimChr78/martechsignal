@@ -8,7 +8,7 @@ GOOGLE ADS · AI · 7 MIN
 
 [Home](/) · [Blog](/blog/) · The guardrails Google won't ship for your AI ad account
 
-SEP 24, 2026
+SEP 24, 2026 · Updated SEP 27, 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -94,7 +94,7 @@ The boring setup wins. You know what the AI can see, you know what it can't touc
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [RudderStack](/tools/rudderstack/)
+More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

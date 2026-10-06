@@ -56,8 +56,6 @@ Hootsuite covers the multi-account suite slot. The setup suits teams running man
 
 Vendor: [Official site](https://www.hootsuite.com) · [Pricing](https://www.hootsuite.com/plans)
 
-**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
-
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Sprout Social](/tools/sprout-social/)
@@ -68,8 +66,6 @@ Sprout Social takes the premium slot far above Buffer and Predis.ai. Standard is
 
 Vendor: [Official site](https://sproutsocial.com) · [Pricing](https://sproutsocial.com/pricing/)
 
-**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
-
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Brandwatch](/tools/brandwatch/)
@@ -79,8 +75,6 @@ Brandwatch leans into research over plain scheduling. Consumer Intelligence, Soc
 **Verdict:** Research teams that want consumer intelligence more than a scheduler
 
 Vendor: [Official site](https://www.brandwatch.com) · [Pricing](https://www.brandwatch.com/plans/)
-
-**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 

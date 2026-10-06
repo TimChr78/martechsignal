@@ -8,7 +8,7 @@ MCP · MODEL-CONTEXT-PROTOCOL · 7 MIN
 
 [Home](/) · [Blog](/blog/) · MCP Rewrites the Integration Economics of Your Marketing Stack
 
-JUL 29, 2026
+JUL 29, 2026 · Updated SEP 27, 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 
@@ -125,6 +125,8 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
+
+More from the directory: [Zoho CRM](/tools/zoho-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

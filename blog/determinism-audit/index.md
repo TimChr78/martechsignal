@@ -8,7 +8,7 @@ AI AGENTS · MARKETING AUTOMATION · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Most of your marketing AI agents should be if/then
 
-SEP 11, 2026
+SEP 11, 2026 · Updated SEP 12, 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 
@@ -99,7 +99,7 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 ## Comparison guides
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
-- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

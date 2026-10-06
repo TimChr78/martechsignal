@@ -4392,7 +4392,7 @@
    "pillars": {
     "pricing_transparency": {
      "score": 8,
-     "evidence": "Self-host CE free (AGPL-3.0), Cloud Free (2 builders), Pro $79/builder/mo annual, Team $199, Enterprise from $3,000/mo published (the vendor pricing page)."
+     "evidence": "Self-host CE free (AGPL-3.0), Cloud Free (2 builders), Basic $23/builder/mo, Pro $79/builder/mo annual, Team $199/builder/mo, Enterprise custom published (the vendor pricing page, verified 2026-10-06)."
     },
     "feature_depth": {
      "score": 7,
@@ -4415,7 +4415,7 @@
      "evidence": "With priced cloud tiers and an Enterprise floor published (vendor documentation)."
     }
    },
-   "scored": "2026-09-28"
+   "scored": "2026-10-06"
   },
   {
    "slug": "trakkr",

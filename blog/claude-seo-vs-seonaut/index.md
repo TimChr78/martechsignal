@@ -10,7 +10,7 @@ Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we ha
 
 [Home](/) · [Blog](/blog/) · Claude SEO vs Seonaut: which free SEO checker should you run
 
-SEP 17, 2026
+SEP 17, 2026 · Updated SEP 27, 2026
 
 Filed under [SEO & Search](/categories/seo/)
 

@@ -75,8 +75,6 @@ Ortto unites journeys and CDP for the mid market. Starter is from $199/mo with a
 
 Vendor: [Official site](https://ortto.com) · [Pricing](https://ortto.com/starter/)
 
-**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
-
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/)
@@ -86,8 +84,6 @@ Salesforce Marketing Cloud anchors the Salesforce estate. Growth is $1,500/mo an
 **Verdict:** Enterprise estates already bought into Salesforce's cloud stack
 
 Vendor: [Official site](https://www.salesforce.com/products/marketing-cloud/) · [Pricing](https://www.salesforce.com/products/marketing-cloud/pricing/)
-
-**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
@@ -99,8 +95,6 @@ ActiveCampaign automates for SMBs with a built-in CRM. Starter is $15/mo and Plu
 
 Vendor: [Official site](https://www.activecampaign.com) · [Pricing](https://www.activecampaign.com/pricing)
 
-**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
-
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Adobe Marketo Engage](/tools/adobe-marketo/)
@@ -110,8 +104,6 @@ Adobe Marketo Engage runs complex B2B demand programs. Pricing is custom across 
 **Verdict:** Marketing ops teams whose requirement list starts with lead scoring
 
 Vendor: [Official site](https://business.adobe.com/products/marketo.html) · [Pricing](https://business.adobe.com/products/marketo/pricing.html)
-
-**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
@@ -123,8 +115,6 @@ Bloomreach powers commerce content, search and campaigns from one engine. Pricin
 
 Vendor: [Official site](https://www.bloomreach.com) · [Pricing](https://www.bloomreach.com/en/pricing)
 
-**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
-
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Braze](/tools/braze/)
@@ -134,8 +124,6 @@ Braze delivers cross-channel engagement for scaled messaging programs. Pricing i
 **Verdict:** Mobile-first brands tuning cross-channel engagement at scale
 
 Vendor: [Official site](https://www.braze.com) · [Pricing](https://www.braze.com/pricing)
-
-**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 

@@ -8,7 +8,7 @@ OPEN SOURCE · DATA · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Where open-source martech momentum actually lives
 
-SEP 26, 2026
+SEP 26, 2026 · Updated SEP 30, 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 
@@ -111,7 +111,7 @@ We will refresh the tracker as the catalog snapshots accumulate. If a project in
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [DMP](/glossary/dmp/)

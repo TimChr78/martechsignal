@@ -500,7 +500,7 @@ def build_post(meta: dict, body_html: str) -> str:
 
     related = suggest_links.suggest_for_text(body_html, max_suggestions=3, exclude_slug=slug)
     if related:
-        links = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['title'], quote=False) + '</a></li>' for item in related)
+        links = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(html.unescape(item['title']), quote=False) + '</a></li>' for item in related)
         body_html += '<section class="related-reading"><h2>Related reading</h2><ul>' + links + '</ul></section>'
 
     # Blog -> Tools: suggest 2-3 relevant tools via keyword overlap
@@ -519,7 +519,7 @@ def build_post(meta: dict, body_html: str) -> str:
     # /best/ + /vs/ + /alternatives/ pages were orphaned with zero inlinks).
     commercial = suggest_links.suggest_commercial_for_text(body_html, max_suggestions=2)
     if commercial:
-        clinks = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['title'], quote=False) + '</a></li>' for item in commercial)
+        clinks = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(html.unescape(item['title']), quote=False) + '</a></li>' for item in commercial)
         body_html += '<section class="related-reading"><h2>Comparison guides</h2><ul>' + clinks + '</ul></section>'
         existing_tool_slugs.update(item['slug'] for item in related_tools)
 

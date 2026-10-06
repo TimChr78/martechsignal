@@ -8,7 +8,7 @@ AUTOMATION · AI AGENTS · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Your agent protocol matters less than your data plumbing
 
-SEP 23, 2026
+SEP 23, 2026 · Updated SEP 27, 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 
@@ -83,7 +83,7 @@ The connectivity debate turned out to be the easy half, and most teams have quie
 ## Comparison guides
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

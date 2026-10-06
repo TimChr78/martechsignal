@@ -86,8 +86,6 @@ Customer.io runs behavior-driven journeys across email, push, SMS and in-app. Es
 
 Vendor: [Official site](https://customer.io) · [Pricing](https://customer.io/pricing)
 
-**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
-
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Twilio SendGrid](/tools/sendgrid/)
@@ -97,8 +95,6 @@ Twilio SendGrid delivers transactional email through an API first. The trial cov
 **Verdict:** Product teams that need transactional delivery with marketing on the side
 
 Vendor: [Official site](https://sendgrid.com) · [Pricing](https://www.twilio.com/en-us/products/email-api/pricing)
-
-**Skip it if the free tier's limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 

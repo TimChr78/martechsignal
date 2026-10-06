@@ -46,7 +46,7 @@ MCP exists because of AI; the practical risk is quota economics. Hosted-model pr
 
 ## Seen in the wild
 
-[OpenAI Isn&#x27;t Building Ads. It&#x27;s Building Agents](/blog/openai-agent-ads-spending-without-you/)
+[OpenAI Isn't Building Ads. It's Building Agents](/blog/openai-agent-ads-spending-without-you/)
 
 Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](https://n8n.io) · [Make](https://www.make.com)
 

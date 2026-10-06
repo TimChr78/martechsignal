@@ -267,7 +267,10 @@ def build_best():
   <p>{esc(it['assessment'])}</p>
   <p><strong>Verdict:</strong> {esc(it['verdict'])}</p>
   {out_links(t)}
-  <p><strong>{esc(it['skip_if'])}</strong></p>
+  {f'<p><strong>{esc(it["skip_if"])}</strong></p>' if t.get("price_from") == 0 and it.get("skip_if") else ""}
+  <!-- r33 M-6 (2026-10-06): the free-tier skip line renders only on records
+       whose price_from is 0. Paid sendgrid carried it as template residue;
+       record-keyed suppression closes the class instead of card-by-card. -->
   <p class="meta unverified"><strong>What we could not verify:</strong> {esc(it.get('unverified', 'installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.'))}</p>
 </section>""")
         body.append(

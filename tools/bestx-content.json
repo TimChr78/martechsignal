@@ -331,8 +331,7 @@
     {
      "slug": "sendgrid",
      "verdict": "Product teams that need transactional delivery with marketing on the side",
-     "assessment": "Twilio SendGrid delivers transactional email through an API first. The trial covers 100 emails per day for 60 days, with Essentials at $19.95/mo. Pick it over the campaign tools here when delivery leads and marketing rides along.",
-     "skip_if": "Skip it if the free tier's limits already cover your real volume; the paid tiers are where the full workflow lives."
+     "assessment": "Twilio SendGrid delivers transactional email through an API first. The trial covers 100 emails per day for 60 days, with Essentials at $19.95/mo. Pick it over the campaign tools here when delivery leads and marketing rides along."
     },
     {
      "slug": "warmbly",

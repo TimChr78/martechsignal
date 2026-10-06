@@ -2476,6 +2476,50 @@ def test_blog_markup_conversions_keep_stamps():
     assert not _bad, f"conversion-wave stamp drift: {_bad}"
 
 
+def test_best_skip_if_only_on_free_tier_records():
+    """r33 M-6 (2026-10-06): the best-leaf "Skip it if the free tier" line
+    rendered on sendgrid's card after the record went paid. The builder
+    suppresses it unless the record's price_from is 0; this pins that every
+    carrier in content is free-tiered, so a future redecision fails here
+    instead of shipping."""
+    import json as _j
+    _recs = {_t["slug"]: _t for _t in _j.loads((ROOT / "tools" / "tools.json").read_text()) if isinstance(_t, dict)}
+    _bx = _j.loads((ROOT / "tools" / "bestx-content.json").read_text())
+    _bad = []
+    for _p in _bx.get("pages", []):
+        for _it in _p.get("items", []):
+            if isinstance(_it, dict) and isinstance(_it.get("skip_if"), str) and "free tier" in _it["skip_if"]:
+                _r = _recs.get(_it.get("slug"), {})
+                if _r.get("price_from") != 0:
+                    _bad.append(f"{_p.get('slug')}/{_it.get('slug')}: paid record carries free-tier skip line")
+    assert not _bad, f"free-tier skip lines on paid records: {_bad}"
+
+
+def test_no_double_escaped_entities_in_rendered_text():
+    """r33 M-9 (2026-10-06): source strings stored once-escaped got escaped
+    again at interpolation (related-reading titles, glossary tickers) plus
+    entity-literals in a draft (n8n's &euro;). Visible text must contain no
+    double-escaped entities."""
+    import re as _re
+    _pat = _re.compile(r"&amp;(amp|euro|quot|lt|gt|#x27|#39|cross|check);|&amp;#[0-9]+;")
+    _bad = []
+    for _html in ROOT.rglob("index.html"):
+        if "deploy-out" in _html.parts or "node_modules" in _html.parts:
+            continue
+        try:
+            _h = _html.read_text(errors="ignore")
+        except OSError:
+            continue
+        _h = _re.sub(r"<script.*?</script>", "", _h, flags=_re.S)
+        _h = _re.sub(r"<style.*?</style>", "", _h, flags=_re.S)
+        _m = _pat.search(_h)
+        if _m:
+            _bad.append(f"{_html.parent.name}: {_m.group(0)}")
+            if len(_bad) >= 8:
+                break
+    assert not _bad, f"double-escaped entities: {_bad}"
+
+
 def test_trending_counts_reconcile_with_catalog():
     """r27 L-17 (2026-10-05): trending said 82, tools page 81 — two tracked
     repos (codex-seo proprietary, resend/react-email side library) are not

@@ -10,7 +10,7 @@ Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we ha
 
 [Home](/) · [Blog](/blog/) · Claude SEO vs Codex SEO: same audit, pick the agent you already pay for
 
-SEP 15, 2026
+SEP 15, 2026 · Updated SEP 27, 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 

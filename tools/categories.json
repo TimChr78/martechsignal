@@ -17,7 +17,6 @@
    "ortto",
    "salesforce-marketing-cloud"
   ],
-  "intro": "Marketing automation platforms orchestrate campaigns across email, ads, and site content from one rules engine. This is the category where AI autonomy arrived first: ActiveCampaign now brands itself an autonomous marketing platform, and HubSpot ships agents inside its workflows. The practical question for buyers is not capability but control: can you audit what the system sent, cap what it spends, and revert a decision it made overnight? Our reviews weight workflow power and guardrails equally.",
   "hub": {
    "meta": "Marketing automation platforms reviewed: workflow depth, guardrails, and AI autonomy. {n} tools with dated pricing and verification dates.",
    "flow": [
@@ -201,7 +200,6 @@
    "warmbly",
    "brevo"
   ],
-  "intro": "Newsletters, lifecycle flows, and transactional mail across 16 reviewed tools. Five hosted campaign platforms, three self-hosted senders, four developer APIs, and four template and outreach tools. Contact billing, volume billing, and free self-hosted paths compared so you pay for the sending you actually do. Start with sending volume: low-volume senders overpay on contact plans, high-volume senders overpay on per-email pricing.",
   "hub": {
    "chooser": [
     {
@@ -417,7 +415,6 @@
    "warpdrive",
    "zoho-crm"
   ],
-  "intro": "Systems of record for customer relationships and sales pipelines. We look at AI scoring, data hygiene, per-seat economics, and what self-hosting  costs you in practice. This is the deepest category in the directory: {n} systems, twenty-one of them open source or freemium, with usable entry points from $14 per month down to free self-hosting. That abundance is the trap. Open-source CRMs differ less on features than on upgrade discipline, API completeness, and whether the community would survive if the founding company vanished. Our hands-on notes focus on migration paths and what breaks after year one.",
   "hub": {
    "meta": "CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. {n} tools reviewed.",
    "flow": [
@@ -641,7 +638,6 @@
    "strapi",
    "writer"
   ],
-  "intro": "Drafts, scores, and published pages. We look at what each tool drafts, what it costs to run, and whether you can self-host it. This set covers 13 tools, five of them open source, from free self-hosting and $9 per month starters to quote-based enterprise plans. Our notes focus on picking by job: daily drafts, governed brand copy, owned publishing, or self-hosted helpers. Every price below comes from the vendor pricing page as catalogued, not from a review roundup.",
   "hub": {
    "chooser": [
     {
@@ -820,7 +816,6 @@
    "triple-whale",
    "umami"
   ],
-  "intro": "Analytics and attribution tools answer two questions: what happened, and which marketing touch caused it. Product analytics (event tracking, funnels, retention) has converged on a standard shape. The attribution side is messier: every model distributes credit differently, and the choice changes team behavior. With AI search reducing click paths, the measurement question is shifting from clicks to outcomes. Our reviews test data pipelines, model transparency, and how honestly each tool treats the limits of its own numbers. Seven products make the cut here, mixing one open-source tracker you can self-host with freemium product analytics and enterprise attribution suites priced on contract or custom tiers. The split matters because measurement tooling fails in two different ways: hosted platforms fail silently when consent rules break their data flow, while self-hosted options fail loudly at 3am on your own server. We weight vendor-side honesty about sampling and attribution windows heavily in every verdict.",
   "hub": {
    "meta": "Analytics and attribution tools: event tracking, funnels, and what multi-touch claims can and cannot prove. {n} reviewed.",
    "flow": [
@@ -1005,7 +1000,6 @@
    "revive-adserver",
    "smartly-io"
   ],
-  "intro": "Advertising and paid media tools cover the buying side: demand-side platforms, creative optimizers, and bid management. The category is absorbing AI faster than almost any other. Platforms now promise autonomous budget allocation, generated ad variations, and agents that negotiate inventory without a human in the loop. That makes the control surface the real differentiator: who approves spend, what the audit trail looks like, and how quickly you can stop an agent that has gone sideways. We grade each tool on those questions before features. Of the nine platforms we track here, none is open source and two gate everything behind a sales call, which tells you exactly where the bargaining power sits. Entry pricing runs from $39 per month up to $4,000 and beyond for enterprise creative stacks, so the realistic question is rarely can we afford AI ads but which layer of the buying process you are willing to hand over.",
   "hub": {
    "meta": "Advertising and paid media tools: creative generators, bid platforms, automation, and open-source ad serving. {n} reviewed.",
    "flow": [
@@ -1174,7 +1168,6 @@
    "rudderstack",
    "hightouch"
   ],
-  "intro": "Storefront recommendations, customer data pipes, and the flags that gate what visitors see. We look at where profiles live, how pricing scales with traffic and events, and which tools you can self-host. This hub covers 11 tools: three storefront engines, six data platforms and pipes, and two testing systems, five of them open source. If profiles already live in your warehouse, skip the packaged CDPs and start with the pipes group.",
   "hub": {
    "chooser": [
     {
@@ -1496,14 +1489,12 @@
      "note": "The off-page playbook that actually moves AI citations"
     }
    ]
-  },
-  "intro": "Keyword research, content optimization, and search visibility platforms. With AI answers reshaping search, we test which tools still earn their subscription."
+  }
  },
  {
   "slug": "geo-llm-visibility",
   "name": "GEO & LLM Optimization",
   "description": "Track and improve how AI assistants mention, cite, and describe your brand",
-  "intro": "Monitoring and optimization tools for AI search: who cites you in ChatGPT, Perplexity and AI Overviews, what the answers say, and what to change about it.",
   "hub": {
    "meta": "AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overviews. {n} reviewed with dated facts.",
    "flow": [
@@ -1866,8 +1857,7 @@
      "note": "Where the agent orchestration layer is heading next"
     }
    ]
-  },
-  "intro": "No-code/low-code automation platforms and iPaaS. Each platform bets on a different trade-off between speed, self-hosting, AI agents, and enterprise governance."
+  }
  },
  {
   "slug": "agent-skills",
@@ -2031,8 +2021,7 @@
      "note": "Why agent-to-tool protocols change what integrations should cost"
     }
    ]
-  },
-  "intro": "Agent skills are prompt-and-script packages that give coding agents like Claude Code specialist capabilities: SEO audits, copywriting frameworks, data pulls: without building a product around them. The category barely existed two years ago; it now includes marketplace distributions with tens of thousands of users. Quality varies enormously, and provenance matters: some packages append self-promotion to their output. We install, run, and inspect what these skills change, including the fine print. All {n} entries are open source or freemium, most distributed as skill packs or agent frameworks rather than hosted products, which flips the usual evaluation criteria. There is no sales team to blame and no SLA to fall back on; quality lives in the repo's issue discipline, documentation, and how predictable the skill behaves inside a real workflow. Every review here comes from loading the pack into our own agents and shipping something with it."
+  }
  },
  {
   "slug": "open-source",

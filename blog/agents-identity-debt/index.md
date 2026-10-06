@@ -8,7 +8,7 @@ AI · AGENTS · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Your Agents Are Only as Smart as Your Identity Debt
 
-AUG 13, 2026
+AUG 13, 2026 · Updated SEP 25, 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 

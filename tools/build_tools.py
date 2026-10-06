@@ -3724,6 +3724,15 @@ def sync_date_modified():
     attributes unchanged lines to their real commits instead."""
     import re as _re
     _n = 0
+    # r33 M-8 store: pins dateless pages' stamps across rebuilds (see the
+    # fingerprint block below). Committed, so the pin holds everywhere.
+    import json as _js
+    _sigf = ROOT / "tools" / ".dm-sigs.json"
+    try:
+        _DMSIGS = _js.loads(_sigf.read_text()) if _sigf.exists() else {}
+    except (OSError, ValueError):
+        _DMSIGS = {}
+    _DMSIG_DIRTY = []
     # r16 L-7 one-time migration: earlier injector runs stamped WebPage nodes
     # with a #webpage fragment @id; the canonical form is now the
     # unfragmented page URL (guides pattern). Normalize in place.
@@ -3767,6 +3776,28 @@ def sync_date_modified():
         for _em in _re.finditer(r'\"dateModified\"\s*:\s*\"([0-9]{4}-[0-9]{2}-[0-9]{2})', _s):
             if '2000-01-01' <= _em.group(1) <= '2030-01-01' and _em.group(1) > _val:
                 _val = str(_em.group(1))
+        # r33 M-8 (2026-10-06): blame on a regenerated file is the build
+        # date, so dateless pages restamped every rebuild (41 pages/day
+        # enumerated). Fingerprint the date-masked HTML like the blog
+        # sig-guard: same content keeps its stamp, changed content takes
+        # the new one. The store is committed, so the pin holds across
+        # builds and checkouts; a page whose only diff is dates never moves.
+        if _from_blame:
+            _mask = _re.sub(r"\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2})?([+-]\d{2}:?\d{2}|Z)?)?", "DATE", _s)
+            _sig = __import__("hashlib").sha1(_mask.encode()).hexdigest()[:16]
+            _key = _p.relative_to(ROOT).as_posix()
+            _prev = _DMSIGS.get(_key)
+            if _prev and _prev.get("sig") == _sig and _prev.get("dm"):
+                _val = _prev["dm"]
+            else:
+                # First sight: pin the stamp the page already carries (no
+                # restamp tonight), so the store seeds without moving
+                # anything; only genuine content diffs move stamps after.
+                _cur = _re.search(r'"dateModified"\s*:\s*"([0-9]{4}-[0-9]{2}-[0-9]{2})', _s)
+                _seed = _cur.group(1) if _cur and "2000-01-01" <= _cur.group(1) <= "2030-01-01" else _val
+                _DMSIGS[_key] = {"sig": _sig, "dm": _seed}
+                _val = _seed
+                _DMSIG_DIRTY.append(1)
         # r18 H-2 (2026-09-30): the template entity (ItemList/Article) carries
         # its own authored dateModified while the injector adds a second one
         # with the blame date - 101 pages with 2 distinct values, and the
@@ -3827,6 +3858,8 @@ def sync_date_modified():
         _p.write_text(_s.replace("</head>", _block + "\n</head>", 1))
         _n += 1
     print(f"M9: dateModified published on {_n} pages (sitemap lastmod follows)")
+    if _DMSIG_DIRTY:
+        _sigf.write_text(_js.dumps(_DMSIGS, indent=1, sort_keys=True))
 
 if __name__ == "__main__":
     sync_date_modified()

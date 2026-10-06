@@ -61,8 +61,6 @@ Writer earns this list spot for enterprises that rank brand governance first. Pr
 
 Vendor: [Official site](https://writer.com) · [Pricing](https://writer.com/plans/)
 
-**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
-
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Persado](/tools/persado/)
@@ -72,8 +70,6 @@ Persado made this list for regulated marketing across financial services, retail
 **Verdict:** Large senders that want language tested against response data at scale
 
 Vendor: [Official site](https://www.persado.com) · [Pricing](https://www.persado.com/contact/)
-
-**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
@@ -85,8 +81,6 @@ Phrasee, now Jacquard since June 2024, belongs here for tested enterprise messag
 
 Vendor: [Official site](https://www.jacquard.com) · [Pricing](https://www.jacquard.com/book-a-demo/)
 
-**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
-
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Jasper](/tools/jasper/)
@@ -97,8 +91,6 @@ Jasper covers the mid-market brand-voice slot on this list. Creator runs $39/mo 
 
 Vendor: [Official site](https://www.jasper.ai) · [Pricing](https://www.jasper.ai/pricing)
 
-**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
-
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Anyword](/tools/anyword/)
@@ -108,8 +100,6 @@ For predictive scores before publishing, Anyword takes this list slot. Starter c
 **Verdict:** Performance marketers that want a score before paying to publish
 
 Vendor: [Official site](https://www.anyword.com) · [Pricing](https://www.anyword.com/pricing)
-
-**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
@@ -132,8 +122,6 @@ Hypotenuse AI fills the ecommerce catalog slot, built for product descriptions a
 **Verdict:** Catalog-heavy stores generating product content in bulk
 
 Vendor: [Official site](https://www.hypotenuse.ai) · [Pricing](https://www.hypotenuse.ai/pricing)
-
-**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 

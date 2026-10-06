@@ -4,13 +4,17 @@
 
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
 
+## Vendor re-verification catches a stale ladder; hub stamps pinned (October 6)
+
+An external check of ToolJet’s pricing page found our record out of date: the vendor now sells four cloud tiers including Basic at $23/builder/mo, prices Team per builder ($199/builder/mo, not a $199 flat total), and publishes no $3,000 Enterprise floor. The record, its scoring cell, and every generated surface now carry the refreshed ladder with today’s verification date. The same wave keyed the best-leaf "Skip it if the free tier" line on the record (SendGrid’s paid card no longer asserts a free tier), fixed twenty-two double-escaped entities across fourteen pages at their two interpolation boundaries, and stopped the daily hub restamps: dateless pages now keep their stamp until their content changes, pinned by a committed fingerprint store. Precision correction appended to the wave-twelve entry above: its analytics half was wrong (unrendered field), and eleven dead intro fields are deleted with it.
+
 ## Fifth unit vocabulary: per-brand and per-builder prices qualified (October 6)
 
 A follow-up audit found the same unit-stripped class in a fifth wording: Trakkr’s Growth tier at $100/brand/mo and ToolJet’s Pro tier at $79/builder/mo rendered as bare monthly figures across tool pages, hub cards, mirrors, and schema Offers. Both catalog records now declare their unit, and five more bare $100 sentences inside Trakkr’s own prose (meta, description, research notes, FAQ, cons list) carry it too. The guardrail changed with them a second time: the general census now reads through a bare "/mo" suffix to the clause behind it ("$100/mo per brand" binds the entry where "$19/mo billed annually" leaves it flat), time words include days and hours, and adjudicated-benign bindings carry their reason and round instead of sitting in a silent review queue. The same wave closed the automation path’s research-note gap (Chatfuel’s note no longer sells the deleted $39 plans), corrected the SendGrid alternatives sentence to the 60-day trial the record allows, gave redecided records a dated disclosure slot in the pending note, and wrote the blog clause of the stamp rule (markup-only conversions do not move stamps; the one moved stamp reverted).
 
 ## Fourth unit vocabulary: per-channel, per-site, and per-workspace prices qualified (October 6)
 
-A follow-up audit found the same unit-stripped class in a fourth wording: Buffer’s paid tier at $5/channel/mo, Frappe CRM’s cloud hosting from $5/site/mo, and Relaticle’s entry at $19/workspace/mo rendered as bare monthly figures across tool pages, hub cards, mirrors, and schema Offers. All three catalog records now declare their unit, and the guardrail changed with them: the test suite no longer checks figures against a list of known nouns but runs a general census (the entry figure’s own notes context, any per-X or /X binding, time words excluded), so a fifth vocabulary fails loud instead of shipping. The same wave fixed the automation path’s blind spot: Chatfuel’s research note still sold the deleted $39 plans three surfaces away from the corrected $18 ladder, and the chatbots and analytics hub intros cited plan structures their records no longer contain. SendGrid’s record was redecided from freemium to paid ($19.95/mo, no permanent free tier) and the alternatives page corrected with it; Freshsales’ meta now states its $9/user/mo entry instead of a trial-only description.
+A follow-up audit found the same unit-stripped class in a fourth wording: Buffer’s paid tier at $5/channel/mo, Frappe CRM’s cloud hosting from $5/site/mo, and Relaticle’s entry at $19/workspace/mo rendered as bare monthly figures across tool pages, hub cards, mirrors, and schema Offers. All three catalog records now declare their unit, and the guardrail changed with them: the test suite no longer checks figures against a list of known nouns but runs a general census (the entry figure’s own notes context, any per-X or /X binding, time words excluded), so a fifth vocabulary fails loud instead of shipping. The same wave fixed the automation path’s blind spot: Chatfuel’s research note still sold the deleted $39 plans three surfaces away from the corrected $18 ladder, and the chatbots hub intro cited plan structures its record no longer contained. (Precision correction, October 6: the entry as first written also named the analytics hub intro; that field is unrendered legacy on hubbed categories and the page was byte-identical, so only the chatbots half is true. Eleven dead intro fields with the same property, three holding stale figures, are deleted in the next wave.) SendGrid’s record was redecided from freemium to paid ($19.95/mo, no permanent free tier) and the alternatives page corrected with it; Freshsales’ meta now states its $9/user/mo entry instead of a trial-only description.
 
 ## Third unit vocabulary: per-member and per-agent prices qualified (October 6)
 
@@ -123,6 +127,8 @@ Three Claude SEO comparison posts were published without approval by a pipeline 
 Our Claude SEO review carried review-structured data for our own product. We removed the markup; the editorial text remains, clearly labelled.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+2026-10-06
 
 2026-10-06
 
