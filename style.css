@@ -747,3 +747,12 @@ ul.integ-list li { display: inline-block; margin: 0 .5rem .5rem 0 }
   p a, td a, li a, .fine a{position:relative}
   p a::after, td a::after, li a::after, .fine a::after{content:"";position:absolute;inset-block:-8px;inset-inline:0}
 }
+/* Hub shortcut rows share the category chip rail. */
+.hub-jump{margin-top:1.2rem}
+.hub-jump .jump-label{align-self:center;font:600 .78rem var(--mono);letter-spacing:.1em;color:var(--muted);margin-right:.2rem}
+/* Portrait phones: the one-row rail squeezes the nav into a ~150px strip
+   next to the brand. Stack brand over a full-width nav row instead. */
+@media (max-width:480px){
+  .mast-in{flex-direction:column;align-items:stretch;gap:0;padding:.6rem 0 .3rem}
+  .mast-nav{flex:none;width:100%}
+}

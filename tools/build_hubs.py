@@ -54,7 +54,48 @@ def _check_clean(text, where):
         assert bad not in low, f"banned token {bad!r} in {where}"
 
 
-def _hub(section, h1, seo_title, meta, intro, children):
+_ACRONYMS = {"crm": "CRM", "ai": "AI", "seo": "SEO", "cdp": "CDP",
+             "geo": "GEO", "llm": "LLM"}
+_SMALL = {"and", "or", "the", "of", "for", "vs", "a", "an", "to", "in", "on"}
+
+
+def _cap_word(w):
+    parts = w.split("-")
+    out = []
+    for p in parts:
+        if p.isupper():
+            out.append(p)
+        elif p.lower() in _ACRONYMS:
+            out.append(_ACRONYMS[p.lower()])
+        elif p.islower():
+            out.append(p.capitalize())
+        else:
+            out.append(p)
+    return "-".join(out)
+
+
+def _short_best(title):
+    import re as _re3
+    t = title
+    if t.startswith("Best "):
+        t = t[5:]
+    t = t.split(" (")[0]
+    t = _re3.sub(r" [Tt]ools$", "", t)
+    words = t.split(" ")
+    return " ".join(_cap_word(w) if i == 0 or w.lower() not in _SMALL else w.lower()
+                     for i, w in enumerate(words)) if words else t
+
+
+def _excerpt(html_para, limit=160):
+    import re as _re2
+    text = _re2.sub(r"<[^>]+>", "", html_para).strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit].rsplit(" ", 1)[0]
+    return cut + "…"
+
+
+def _hub(section, h1, seo_title, meta, intro, children, jump):
     base = f"https://martechsignal.com/{section}/"
     for text, where in ((h1, "h1"), (seo_title, "seo_title"), (meta, "meta")):
         _check_clean(text, f"{section}/{where}")
@@ -64,23 +105,37 @@ def _hub(section, h1, seo_title, meta, intro, children):
     for para in intro:
         _check_clean(para, f"{section}/intro")
         body.append(f"<p>{para}</p>")
+    # Visual shortcut row: compact chips for scanners, cards below for
+    # browsers. Labels derive from existing titles (no new copy).
+    _chips = "".join(
+        f'<a class="cat-pill" href="{c["url"].replace("https://martechsignal.com", "")}">{esc(c["short"])}</a>'
+        for c in children)
+    body.append(f'<nav class="cat-nav hub-jump" aria-label="{esc(jump)} shortcuts">'
+                f'<span class="jump-label">{esc(jump)}:</span>{_chips}</nav>')
     # M15 (2026-09-27): expanded guide sections (criteria, use cases, process).
     # Content lives in tools/hub-guides.json so the humanizer pass has one home.
     _guides = json.loads((Path(__file__).resolve().parent / "hub-guides.json").read_text())
+    _guide_html = []
     for _sec in _guides.get(section, []):
         _check_clean(_sec["h2"], f"{section}/guide-h2")
-        body.append(f"<h2>{esc(_sec['h2'])}</h2>")
+        _paras = "".join(f"<p>{p}</p>" for p in _sec["paras"])
         for para in _sec["paras"]:
             _check_clean(para, f"{section}/guide-para")
-            body.append(f"<p>{para}</p>")
+        _guide_html.append(
+            f"<h2>{esc(_sec['h2'])}</h2>"
+            f"<details class=\"faq-item\"><summary>{esc(_excerpt(_sec['paras'][0]))}</summary>"
+            f"{_paras}</details>")
     # r25 L-19 (2026-10-05): visible hub child links are relative (site
     # convention, matching nav/crumb hrefs) - schema hasPart keeps absolute
     # URLs. Previously every hub mixed both forms.
-    items = "".join(
-        f'<li><a href="{c["url"].replace("https://martechsignal.com", "")}">{esc(c["title"])}</a><br>{esc(c["meta"])}</li>'
+    _cards = "".join(
+        f'<a class="tool-card" href="{c["url"].replace("https://martechsignal.com", "")}">'
+        f"<p class=\"name\">{esc(c['title'])}</p>"
+        f"<p class=\"tagline\">{esc(c['meta'])}</p></a>"
         for c in children)
     body.append("<h2>Pages in this section</h2>")
-    body.append(f'<ul class="hub-list">{items}</ul>')
+    body.append(f'<div class="tool-grid">{_cards}</div>')
+    body.extend(_guide_html)
     body.append('<p class="alt-back">Prices and features on every page in this '
                 'section come from the vendor\'s own published materials, as '
                 'catalogued on the tool pages. Read <a href="/methodology/">how '
@@ -222,6 +277,8 @@ def build():
     _best_kids = _children(BESTX, "/best/")
     _vs_kids = _children(VSX, "/vs/")
     _alt_kids = _children(ALT, "/alternatives/")
+    for _c in _best_kids:
+        _c["short"] = _short_best(_c["title"])
     _nb = _num.get(len(_best_kids), str(len(_best_kids)))
     _nv = _num.get(len(_vs_kids), str(len(_vs_kids)))
     _na = _num.get(len(_alt_kids), str(len(_alt_kids)))
@@ -243,6 +300,8 @@ def build():
         return " ".join("vs" if w == "vs" else _brands.get(w, w.upper() if w == "crm" else w.capitalize())
                            for w in slug.split("-"))
     _vs_slugs = [c["url"].rstrip("/").split("/")[-1] for c in _vs_kids]
+    for _c, _s in zip(_vs_kids, _vs_slugs):
+        _c["short"] = _pair(_s)
     _vs_links = " ".join(
         f'<a href="https://martechsignal.com/vs/{s}/">{_pair(s)}</a>' + ("," if i < len(_vs_slugs) - 2 else " and" if i < len(_vs_slugs) - 1 else ".")
         for i, s in enumerate(_vs_slugs))
@@ -253,6 +312,8 @@ def build():
     import json as _json
     _alt_raw = _json.loads(ALT.read_text())["pages"]
     _alt_targets = [p["title"].replace("Best ", "").split(" (")[0] for p in _alt_raw]
+    for _c, _t in zip(_alt_kids, _alt_targets):
+        _c["short"] = _t.removesuffix(" alternatives")
     _alt_counts = [len(p.get("items") or []) for p in _alt_raw]
     _alt_links = " ".join(
         f'<a href="https://martechsignal.com/alternatives/{p["slug"]}/">{t} ({n} compared)</a>' + ("," if i < len(_alt_raw) - 2 else " and" if i < len(_alt_raw) - 1 else ".")
@@ -273,21 +334,21 @@ def build():
          f"{_nb} best-of lists with catalog-grounded pricing, a verdict and "
          "a skip-it line per tool: open-source CRM, workflow automation "
          "platforms and AI SEO.",
-         _best_intro, _best_kids),
+         _best_intro, _best_kids, "Lists"),
         ("vs", "Head-to-head comparisons",
          "Head-to-head comparisons (2026)",
          f"{_nv} head-to-head comparisons of overlapping marketing tools, "
          "built on catalog facts with a clear pick for each team.",
-         _vs_intro, _vs_kids),
+         _vs_intro, _vs_kids, "Comparisons"),
         ("alternatives", "Alternatives guides",
          "Alternatives guides (2026)",
          f"{_na} alternatives guides: credible options besides "
          f"{', '.join(t.removesuffix(' alternatives') for t in _alt_targets[:-1])} and {_alt_targets[-1].removesuffix(' alternatives')}, with who each pick fits and vendor-published pricing.",
-         _alt_intro, _alt_kids),
+         _alt_intro, _alt_kids, "Guides"),
     ]
-    for section, h1, seo_title, meta, intro, children in sections:
+    for section, h1, seo_title, meta, intro, children, jump in sections:
         assert children, f"hub /{section}/ has no live children"
-        n = _hub(section, h1, seo_title, meta, intro, children)
+        n = _hub(section, h1, seo_title, meta, intro, children, jump)
         print(f"  wrote {section}/index.html ({n} children listed, "
               f"intro ~{sum(len(p.split()) for p in intro)} words)")
     _money_strip(_best_kids, _vs_slugs, _alt_raw)

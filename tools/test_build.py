@@ -1113,7 +1113,7 @@ def test_best_hub_prose_matches_haspart():
     assert m, "best hub missing derived live-list sentence"
     words = {"Fifteen": 15, "Sixteen": 16}
     n = words.get(m.group(1), -1)
-    leaf_links = len(_re.findall(r'<li><a href="[^"]*/best/[^"]*/">', html))
+    leaf_links = len(_re.findall(r'<a class="tool-card" href="/best/', html))
     assert n == leaf_links and n > 3, f"hub prose says {m.group(1)} but lists {leaf_links} leaves"
 
 
@@ -2329,8 +2329,9 @@ def test_per_user_enterprise_figures_qualified_everywhere():
                 continue
             if (_t.get("name") or "") not in _xh:
                 continue
-            _xvis = _re.sub(r'<script type="application/ld\+json">.*?</script>', "", _xh, flags=_re.S)
+            _xvis = _re.sub(r'<script type="application/ld[+]json">.*?</script>', "", _xh, flags=_re.S)
             _xvis = _re.sub(r"<li>.*?</li>", lambda _m: "" if _re.search(r'href="/(vs|best|alternatives)/', _m.group(0)) else _m.group(0), _xvis, flags=_re.S)
+            _xvis = _re.sub(r'<a class="tool-card" href="/(vs|best|alternatives)/.*?</a>', "", _xvis, flags=_re.S)
             for _m in _re.finditer(_fig + r"(?![0-9A-Za-z])", _xvis):
                 _sent = _xvis[max(0, _m.start() - 160):_m.start() + 80]
                 # r32 H-9c: cross-page figures collide (buffer and frappe both
@@ -2367,8 +2368,8 @@ def test_corrections_counts_match_build_tallies():
     _hc = 0
     for _fam in ("best", "vs", "alternatives"):
         _h = (ROOT / _fam / "index.html").read_text(errors="ignore")
-        for _li in _re.finditer(r"<li>.*?</li>", _h, _re.S):
-            if _re.search(r"[\$€]\d[\d,.]*\s*/(user|seat|member|agent)", _li.group(0)):
+        for _card in _re.finditer(r'<a class="tool-card".*?</a>', _h, _re.S):
+            if _re.search(r"[\$€]\d[\d,.]*\s*/(user|seat|member|agent)", _card.group(0)):
                 _hc += 1
     _entry = (ROOT / "corrections" / "index.md").read_text(errors="ignore")
     _words = {"eight": 8, "nine": 9, "seven": 7, "ten": 10, "six": 6}
