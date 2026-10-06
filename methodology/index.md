@@ -2,7 +2,7 @@
 
 ## Methodology
 
-By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+By [Tim Christensen](/authors/tim-christensen/)
 
 Everything on MartechSignal follows one evidence standard and one scoring rubric. Both are published here so you can check our work.
 
