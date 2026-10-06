@@ -96,8 +96,8 @@ Our directory breaks marketing tools down by what they measure, what they integr
 - [Ahrefs](/tools/ahrefs/) - Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 ## Comparison guides
 
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)

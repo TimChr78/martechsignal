@@ -81,8 +81,8 @@ Tools linked in this post: [n8n](/tools/n8n/) | [Google Ads + Meta Ads + GA4 MCP
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 ## Comparison guides
 
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 - [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/)
-- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
