@@ -103,7 +103,7 @@ IF You want to self-host and stop paying per seat
 
 [Frappe CRM](/tools/frappe-crm/) [EspoCRM](/tools/espocrm/) [Warpdrive](/tools/warpdrive/)
 
-Frappe CRM is AGPL with hosting from $5 a month if you outgrow your own box; EspoCRM adds workflows and BPM behind paid add-on packs; Warpdrive is the MIT Pipedrive alternative with Gmail sync and no seat billing
+Frappe CRM is AGPL with hosting from $5/site/mo if you outgrow your own box; EspoCRM adds workflows and BPM behind paid add-on packs; Warpdrive is the MIT Pipedrive alternative with Gmail sync and no seat billing
 
 IF You need ERP, invoicing and CRM in one system
 

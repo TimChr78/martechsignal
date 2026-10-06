@@ -924,7 +924,7 @@
     },
     {
      "slug": "trakkr",
-     "verdict": "Best for GEO & LLM optimization teams that want competitor visibility rankings, starting at $100/mo.",
+     "verdict": "Best for GEO & LLM optimization teams that want competitor visibility rankings, starting at $100/brand/mo.",
      "assessment": "Trakkr prices by brand for teams and agencies. Growth is $100/mo per brand, while Scale is $500/mo for 10 brands. Pick it over the single-brand tools here when multi-brand or client tracking drives the purchase.",
      "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.",
      "unverified": "how the day-over-day mention deltas hold up for prompts with few citations, where noise is highest."
@@ -978,7 +978,7 @@
    "pilot_faq": [
     {
      "q": "What is the cheapest way to start measuring AI visibility?",
-     "a": "OtterlyAI at an entry price, or Trakkr from $100 when competitor visibility rankings matter from day one. Nimt.ai starts at €79 for teams that want the full platform, while Writesonic starts at $79 rather than a single metric."
+     "a": "OtterlyAI at an entry price, or Trakkr from $100/brand/mo when competitor visibility rankings matter from day one. Nimt.ai starts at €79 for teams that want the full platform, while Writesonic starts at $79 rather than a single metric."
     },
     {
      "q": "Which GEO tool watches shopping answers?",

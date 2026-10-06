@@ -9,7 +9,7 @@ Nimt AI leads for teams that want GEO measurement in one platform. OtterlyAI is 
 | --- | --- | --- | --- |
 | [Nimt.ai](/tools/nimt-ai/) | From €79/mo | yes | Best for teams that want tracking across 8 AI models plus an agent that writes, fixes and outreaches, starting from EUR 40 in credits. |
 | [OtterlyAI](/tools/otterlyai/) | From €29/mo | yes | Teams starting GEO measurement at an entry price |
-| [Trakkr](/tools/trakkr/) | From $100/brand/mo | yes | Best for GEO & LLM optimization teams that want competitor visibility rankings, starting at $100/mo. |
+| [Trakkr](/tools/trakkr/) | From $100/brand/mo | yes | Best for GEO & LLM optimization teams that want competitor visibility rankings, starting at $100/brand/mo. |
 | [Writesonic](/tools/writesonic/) | From $79/mo | yes | Best for content teams that want AI search visibility tracking in the same platform that drafts the content. |
 | [Profound](/tools/profound/) | Enterprise | yes | Best for GEO & LLM optimization teams that want chatgpt shopping visibility tracking, with pricing quoted per contract. |
 | [Rankscale](/tools/rankscale/) | From €99/mo | yes | Best for GEO & LLM optimization teams that want query fan-out retrieval insights, starting at €99/mo. |
@@ -75,7 +75,7 @@ Vendor: [Official site](https://otterly.ai/) · [Pricing](https://otterly.ai/pri
 
 Trakkr prices by brand for teams and agencies. Growth is $100/mo per brand, while Scale is $500/mo for 10 brands. Pick it over the single-brand tools here when multi-brand or client tracking drives the purchase.
 
-**Verdict:** Best for GEO & LLM optimization teams that want competitor visibility rankings, starting at $100/mo.
+**Verdict:** Best for GEO & LLM optimization teams that want competitor visibility rankings, starting at $100/brand/mo.
 
 Vendor: [Official site](https://trakkr.ai/) · [Pricing](https://trakkr.ai/pricing)
 
@@ -159,7 +159,7 @@ Every price quoted here comes from the vendor's own pricing page as catalogued o
 
 ## What is the cheapest way to start measuring AI visibility?
 
-OtterlyAI at an entry price, or Trakkr from $100 when competitor visibility rankings matter from day one. Nimt.ai starts at €79 for teams that want the full platform, while Writesonic starts at $79 rather than a single metric.
+OtterlyAI at an entry price, or Trakkr from $100/brand/mo when competitor visibility rankings matter from day one. Nimt.ai starts at €79 for teams that want the full platform, while Writesonic starts at $79 rather than a single metric.
 
 ## Which GEO tool watches shopping answers?
 

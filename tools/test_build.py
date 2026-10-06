@@ -2120,6 +2120,12 @@ _CENSUS_BENIGN = {
     "intercom": ("resolution", "r32 H-9: $0.99/resolution usage add-on carries its unit inline"),
     "activepieces": ("credit", "r32 H-9: $0.007 per credit overage rate with its unit inline"),
 }
+# r32 H-9c (2026-10-06): cross-page figures that are deliberately flat.
+# HubSpot's $20 is contact-metered hubs, not the CRM record's seat figure
+# (r30 L-30/N-16) - the vs page is correct and the fence must not fight it.
+_CROSS_BENIGN = {
+    ("activecampaign-vs-hubspot", "hubspot-crm"): "r30: paid hubs are contact-metered; $20/mo flat is correct here",
+}
 
 
 def _notes_unit(notes, entry=None):
@@ -2290,6 +2296,9 @@ def test_per_user_enterprise_figures_qualified_everywhere():
         _sym = "€" if str(_t.get("currency") or "").upper() == "EUR" else ("£" if str(_t.get("currency") or "").upper() == "GBP" else "$")
         _num = str(int(_entry)) if float(_entry) == int(float(_entry)) else str(_entry)
         _fig = _re.escape(f"{_sym}{_num}")
+        # r32 H-9b: unit-synonym set hoisted — shared by the own-page fence
+        # and the cross-page fence below.
+        _units = {_unit} | ({"user", "seat"} if _unit in ("user", "seat") else set())
         _bare = 0
         for _m in _re.finditer(_fig + r"(?![0-9A-Za-z])", _vis):
             _sent = _vis[max(0, _m.start() - 160):_m.start() + 80]
@@ -2298,14 +2307,47 @@ def test_per_user_enterprise_figures_qualified_everywhere():
             # qualifies a figure by accident.
             # r30 H-4d: user/seat are industry synonyms (pipedrive's record
             # says user, its review prose says seat) — either satisfies.
-            _units = {_unit} | ({"user", "seat"} if _unit in ("user", "seat") else set())
             _ok = (f"/{_unit}" in _sent or f"per {_unit}" in _sent or f"per-{_unit}" in _sent
                    or _re.search(rf"\b{_unit}s\b", _sent)
-                   or any(f"/{_u}" in _sent or f"per {_u}" in _sent for _u in _units - {_unit}))
+                   or any(f"/{_u}" in _sent or f"per {_u}" in _sent or f"per-{_u}" in _sent for _u in _units - {_unit}))
             if not _ok:
                 _bare += 1
                 if _bare == 1:
                     _bad.append(f"{_s}: bare entry figure without /{_unit}: {_sent[:90]}")
+        # r32 H-9b (2026-10-06): the fence covers every surface that presents
+        # the record, not just its tool page. Trakkr's best/geo verdict
+        # ("starting at $100/mo") shipped bare while the tool page stood
+        # fully qualified — cross-page prose is an entry presentation too.
+        for _xp in _pages:
+            if _xp == (ROOT / "tools" / _s / "index.html"):
+                continue
+            if (_xp.parent.name, _s) in _CROSS_BENIGN:
+                continue
+            try:
+                _xh = _xp.read_text(errors="ignore")
+            except OSError:
+                continue
+            if (_t.get("name") or "") not in _xh:
+                continue
+            _xvis = _re.sub(r'<script type="application/ld\+json">.*?</script>', "", _xh, flags=_re.S)
+            _xvis = _re.sub(r"<li>.*?</li>", lambda _m: "" if _re.search(r'href="/(vs|best|alternatives)/', _m.group(0)) else _m.group(0), _xvis, flags=_re.S)
+            for _m in _re.finditer(_fig + r"(?![0-9A-Za-z])", _xvis):
+                _sent = _xvis[max(0, _m.start() - 160):_m.start() + 80]
+                # r32 H-9c: cross-page figures collide (buffer and frappe both
+                # enter at $5; grid cards sit 100px apart). Blame the match
+                # only if the record's own name presents it — the window must
+                # contain the name as well as the figure. A bare $5 inside a
+                # flat record's card is that card's business, caught (or not)
+                # under its own record's pass.
+                _who = _xvis[max(0, _m.start() - 300):_m.start() + 80]
+                if (_t.get("name") or "") not in _who:
+                    continue
+                _ok = (f"/{_unit}" in _sent or f"per {_unit}" in _sent or f"per-{_unit}" in _sent
+                       or _re.search(rf"\b{_unit}s\b", _sent)
+                       or any(f"/{_u}" in _sent or f"per {_u}" in _sent or f"per-{_u}" in _sent for _u in _units - {_unit}))
+                if not _ok:
+                    _bad.append(f"{_s} on {_xp.parent.name}: bare entry figure without /{_unit}: {_sent[:90]}")
+                    break
     assert not _bad, f"unqualified per-user figures: {_bad[:8]}"
 
 
