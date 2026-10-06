@@ -8,7 +8,7 @@
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
-Workflow Automation · Freemium from $29/mo Desk-reviewed
+Workflow Automation · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -16,7 +16,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Pipedream is a tool in Workflow Automation with paid plans starting at $29/mo. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Pipedream is a tool in Workflow Automation with a free tier. We reviewed it from vendor documentation on 2026-10-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Pipedream →](https://pipedream.com)
 
@@ -44,7 +44,7 @@ Pipedream homepage, captured September 2026. Vendor page shown as a dated refere
 
 ## Pricing
 
-Pipedream is freemium, with a free tier to start, paid plans from $29/mo as of 2026-09.
+Pipedream is freemium, with a free tier to start.
 
 Basic $29/month (2,000 credits, 20M AI tokens), Advanced $49/month, Connect $99/month (verified Sep 2026).
 
@@ -67,7 +67,7 @@ The automation platform for developers who want code control with SaaS convenien
 
 | Pros | Cons |
 | --- | --- |
-|  | ✗ Closed source - no self-hosting option |
+| ✓ Free tier to evaluate before committing (Basic $29/month (2,000 credits, 20M AI tokens), Advanced $49/month, Connect $99/month (verified Sep 2026)) | ✗ Closed source - no self-hosting option |
 
 ## Related concepts
 
@@ -87,7 +87,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Pipedream: Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps.
 
 **How much does Pipedream cost?**
-Pipedream starts at $29/mo. Basic $29/month (2,000 credits, 20M AI tokens), Advanced $49/month, Connect $99/month (verified Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Pipedream has a free tier, so you can run a real evaluation before paying. Basic $29/month (2,000 credits, 20M AI tokens), Advanced $49/month, Connect $99/month (verified Sep 2026). We last checked the plan structure on 2026-10-06; paid tiers mainly raise limits rather than unlocking core features.
 
 **Is Pipedream worth it past the free tier?**
 The automation platform for developers who want code control with SaaS convenience.
@@ -108,10 +108,10 @@ The automation platform for developers who want code control with SaaS convenien
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for developer teams wanting code steps and MCP endpoints.
 ### Quick Facts
 
-- **Pricing:** Freemium from $29/mo
+- **Pricing:** Freemium
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **API:** No
-- **Last verified:** 2026-09-25
+- **Last verified:** 2026-10-06
 
 Related guides: [Pipedream in Zapier alternatives](/alternatives/zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/)
 

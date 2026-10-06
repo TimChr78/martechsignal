@@ -19,7 +19,7 @@ Last verified 2026-09-28.
 | --- | --- | --- | --- | --- |
 | [n8n](/tools/n8n/) | Open Source from €20/mo | Free self-host, paid cloud | Yes | Marketing operations teams, agencies, and AI-focused organizations that want extensible automation with the option to self-host. |
 | [Make](/tools/make/) | Freemium from $9/mo | Freemium, self-serve tiers | No | Technical marketing teams that have outgrown a linear editor and want branching, looping, and visible error handling. |
-| [Pipedream](/tools/pipedream/) | Freemium from $29/mo | Freemium, self-serve tiers | No | Developers and revenue operations teams that want arbitrary code in every step and managed authentication for the APIs around it. |
+| [Pipedream](/tools/pipedream/) | Freemium | Freemium, self-serve tiers | No | Developers and revenue operations teams that want arbitrary code in every step and managed authentication for the APIs around it. |
 | [Tray.io](/tools/tray-io/) | Enterprise | Contract | No | Enterprises that need integrations and AI agents governed inside a compliance boundary, with SSO and regional hosting available. |
 | [Budibase](/tools/budibase/) | Open-core from $19/mo | See vendor | Yes | Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data. |
 | [Pabbly Connect](/tools/pabbly-connect/) | From $16/mo | See vendor | No | Teams with steady, high automation volume that want the cheapest predictable bill in the category, or a one-time lifetime license instead of a subscription. |
@@ -54,7 +54,7 @@ Make draws scenarios as a graph, so routers and error handling are visible rathe
 
 ## [Pipedream as a Zapier alternative](/tools/pipedream/)
 
-Freemium from $29/mo
+Freemium
 
 Vendor: [Official site](https://pipedream.com) · [Pricing](https://pipedream.com/pricing)
 

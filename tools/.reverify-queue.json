@@ -30,5 +30,13 @@
   "url": "https://n8n.io/pricing/",
   "detail": "no currency figures in static HTML (likely JS-rendered)",
   "queued_at": "2026-10-06"
+ },
+ {
+  "slug": "pipedream",
+  "name": "Pipedream",
+  "kind": "ladder-drift",
+  "url": "https://pipedream.com/pricing",
+  "detail": "2026-10-06 vendor page pivoted to Connect pricing (Free $0 / Startup $99 / Business custom); record paid ladder ($29/$49/$99 credits-era) no longer appears. price_from corrected to 0 on Free $0 evidence; paid tiers need full re-record",
+  "queued_at": "2026-10-06"
  }
 ]

@@ -2537,6 +2537,64 @@ def test_tooljet_ladder_has_no_enterprise_floor():
     assert "Team $199," not in _n8n and "Team $199<" not in _n8n, "alternatives/n8n still sells bare Team $199"
 
 
+def test_skip_if_lines_carry_conditional_leads():
+    """r35 L-46 (2026-10-06): the restored slot re-exposed three prefix-less
+    fragments (ahrefs/promptfoo/scrunch) plus two well-formed "Skip it
+    without X" variants. Every skip_if renders with a conditional lead so no
+    fragment ships as a bare assertion."""
+    import json as _j
+    _bx = _j.loads((ROOT / "tools" / "bestx-content.json").read_text())
+    _bad = []
+    for _p in _bx.get("pages", []):
+        for _it in _p.get("items", []):
+            if isinstance(_it, dict) and isinstance(_it.get("skip_if"), str):
+                _t = _it["skip_if"].strip().lower()
+                if not (_t.startswith("skip it if") or _t.startswith("skip it without")):
+                    _bad.append(f"{_p.get('slug')}/{_it.get('slug')}: {_it['skip_if'][:60]}")
+    assert not _bad, f"lead-less skip_if lines: {_bad}"
+
+
+def test_glossary_leaves_carry_no_datepublished():
+    """r35 L-47 (2026-10-06): datePublished from block-edit blame is false
+    page semantics (abm existed by 09-22, read 09-28). Leaves ship
+    dateModified only; creation dates we do not know are omitted."""
+    import re as _re
+    _bad = []
+    for _g in (ROOT / "glossary").glob("*/index.html"):
+        _h = _g.read_text(errors="ignore")
+        if _re.search(r'"datePublished"\s*:', _h):
+            _bad.append(_g.parent.name)
+    assert not _bad, f"glossary leaves with datePublished: {_bad}"
+
+
+def test_no_generic_blog_metas():
+    """r35 L-45 (2026-10-06): the new agency post shipped the corpus's only
+    generic meta description (the excerpt-cutter fallback). No post may
+    carry the fallback string."""
+    import re as _re
+    _bad = []
+    for _b in (ROOT / "blog").glob("*/index.html"):
+        _h = _b.read_text(errors="ignore")
+        _m = _re.search(r'<meta name="description" content="([^"]*)"', _h)
+        if _m and _m.group(1).strip() == "Analysis from the MartechSignal blog.":
+            _bad.append(_b.parent.name)
+    assert not _bad, f"posts with generic fallback meta: {_bad}"
+
+
+def test_freemium_records_carry_zero_price_from():
+    """r35 L-48 (2026-10-06): pipedream paired pricing_model freemium with
+    price_from 29 (macro paired it with 40) - the exact pair the H-12 fix
+    keyed around. Convention: a free tier means price_from 0; paid entries
+    ride paid_from. The next consumer reading price_from as plan-availability
+    must see 0 on every free-tier record."""
+    import json as _j
+    _tools = _j.loads((ROOT / "tools" / "tools.json").read_text())
+    _bad = [f"{_t.get('slug')}:{_t.get('price_from')}" for _t in _tools
+            if isinstance(_t, dict) and _t.get("pricing_model") in ("free", "freemium")
+            and _t.get("price_from") not in (0, "0", None, 0.0)]
+    assert not _bad, f"free-tier records with nonzero price_from: {_bad}"
+
+
 def test_no_double_escaped_entities_in_rendered_text():
     """r33 M-9 (2026-10-06): source strings stored once-escaped got escaped
     again at interpolation (related-reading titles, glossary tickers) plus

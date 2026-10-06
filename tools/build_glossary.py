@@ -307,9 +307,10 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
             "description": term["definition"],
             **({"dateModified": term_date} if term_date else {}),
             # r16 L-8 (2026-09-29): leaves carried only dateModified.
-            # datePublished falls back to the term date so naive parsers
-            # can date the entry.
-            **({"datePublished": term_date} if term_date else {}),
+            # r35 L-47 (2026-10-06): datePublished from block-edit blame is
+            # false page semantics (abm existed by 09-22, read 09-28). Page
+            # creation is unknown, so no datePublished ships; per the
+            # methodology a claim without a source is removed, not softened.
             "inDefinedTermSet": {
                 "@id": "https://martechsignal.com/glossary/#set",
                 "@type": "DefinedTermSet",

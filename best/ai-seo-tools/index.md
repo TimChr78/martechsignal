@@ -114,7 +114,7 @@ Ahrefs answers AI visibility from inside its SEO suite through Brand Radar. Lite
 
 Vendor: [Official site](https://ahrefs.com) · [Pricing](https://ahrefs.com/pricing)
 
-**you are buying GEO as a standalone capability: you would be paying for a whole SEO suite.**
+**Skip it if you are buying GEO as a standalone capability: you would be paying for a whole SEO suite.**
 
 **What we could not verify:** the AI-visibility coverage depth against the dedicated trackers listed on our GEO page.
 
@@ -126,7 +126,7 @@ Promptfoo tests prompts and tracks brand answers from a CLI. The open source CLI
 
 Vendor: [Official site](https://promptfoo.dev) · [Pricing](https://www.promptfoo.dev/pricing/) · [GitHub](https://github.com/promptfoo/promptfoo)
 
-**you want a managed dashboard out of the box: this is a toolkit, not a product tour.**
+**Skip it if you want a managed dashboard out of the box: this is a toolkit, not a product tour.**
 
 **What we could not verify:** how model-graded evals hold up across graders; different graders disagree on the same answers.
 

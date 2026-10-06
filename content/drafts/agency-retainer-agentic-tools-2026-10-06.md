@@ -7,6 +7,7 @@ author: Tim Christensen
 tags: [AI Agents, Advertising, Agencies]
 categories: [advertising, agent-skills]
 excerpt: Agency execs said clients should own the AI tools and the data, and that the hours-based retainer is dying. Somebody still has to own the parts that break.
+seo_description: "Agency execs at Programmatic IO said clients should own the AI tools and the data, and the hours retainer is dying. What the retainer buys now."
 ---
 
 At AdExchanger's Programmatic IO in New York, a panel of agency executives argued that the agency should not own the agentic AI tools built for a client, and should not own the data those tools run on. The panel included Sir Martin Sorrell (S4 Capital), Bob Lord (Horizon Media), Maggie Summers (Dentsu X), and Shane McAndrew (WPP Media). AdExchanger's Anthony Vargas reported it on October 1, 2026 under the title "Why Agencies Think They Shouldn't Own Agentic AI Tools Or The Data Used To Build Them."

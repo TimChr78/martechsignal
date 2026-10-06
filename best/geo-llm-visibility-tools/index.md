@@ -151,7 +151,7 @@ Scrunch joins monitoring with site readiness for AI agents. Core is $250/mo for 
 
 Vendor: [Official site](https://scrunch.com/) · [Pricing](https://scrunch.com/pricing/)
 
-**you only need a mentions dashboard: the Core plan buys a broader mandate than tracking alone.**
+**Skip it if you only need a mentions dashboard: the Core plan buys a broader mandate than tracking alone.**
 
 **What we could not verify:** how the AI shopping visibility scores map to real purchase influence in an answer engine.
 

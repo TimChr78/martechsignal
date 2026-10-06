@@ -19,7 +19,7 @@ Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents,
 
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows (Freemium from $19.99/mo)
 - [Make](/tools/make/): Visual automation platform for building complex workflows with AI agents and apps (Freemium from $9/mo)
-- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps (Freemium from $29/mo)
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps (Freemium)
 - [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents (Enterprise)
 - [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform (Enterprise)
 ## LOW-CODE INTERNAL BUILDERS (4)

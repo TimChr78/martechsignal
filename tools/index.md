@@ -221,7 +221,7 @@ All 166 tools, grouped by category. Each card links to a full teardown with pric
 - [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast (Open-core)
 - [Pabbly Connect](/tools/pabbly-connect/): Task-priced integration platform with a one-time lifetime purchase option (From $16/mo)
 - [Paperclip](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit (Freemium from €10/mo)
-- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps (Freemium from $29/mo)
+- [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps (Freemium)
 - [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps (Open-core from $23/builder/mo)
 - [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents (Enterprise)
 - [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform (Enterprise)

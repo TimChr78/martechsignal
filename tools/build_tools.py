@@ -2160,7 +2160,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         {'<div class="side-row"><dt>Founded</dt><dd>' + str(t['founded']) + '</dd></div>' if t.get('founded') else ''}
         {'<div class="side-row"><dt>HQ</dt><dd>' + esc(t['hq']) + '</dd></div>' if t.get('hq') else ''}
         <div class="side-row"><dt>API</dt><dd>{'Yes' if t.get('api_available') else 'No'}</dd></div>
-        {'<div class="side-row"><dt>Repository checked</dt><dd><time datetime="' + esc(t['github_checked']) + '">' + esc(t['github_checked']) + '</time></dd></div><div class="side-row"><dt>Page updated</dt><dd><time datetime="' + esc(t['date_updated']) + '">' + esc(t['date_updated']) + '</time></dd></div>' if t.get('github_checked') and t.get('date_updated') else ''}
+        {'<div class="side-row"><dt>Repository checked</dt><dd><time data-derived="stars-refresh" datetime="' + esc(t['github_checked']) + '">' + esc(t['github_checked']) + '</time></dd></div><div class="side-row"><dt>Page updated</dt><dd><time datetime="' + esc(t['date_updated']) + '">' + esc(t['date_updated']) + '</time></dd></div>' if t.get('github_checked') and t.get('date_updated') else ''}
         {'<div class="side-row"><dt>Last verified</dt><dd><time datetime="' + esc(t['date_updated']) + '">' + esc(t['date_updated']) + '</time></dd></div>' if t.get('date_updated') and not t.get('github_checked') else ''}
       </dl>
     </div>
@@ -3767,6 +3767,12 @@ def sync_date_modified():
             _t10 = _mt.group(1)[:10]
             if 'Updated' in _s[max(0, _mt.start() - 30):_mt.start()]:
                 continue
+            if 'data-derived' in _mt.group(0):
+                # r35 M-14 (2026-10-06): derived recomputation (stars
+                # refreshes, rotations, counters) is carved out of stamps,
+                # uniformly, every family. The Repository-checked time is
+                # true output but not a freshness signal.
+                continue
             _cands.append(_t10)
         _cands = sorted(set(_c for _c in _cands if '2000-01-01' <= _c <= '2030-01-01'))
         _from_blame = not _cands
@@ -3795,11 +3801,24 @@ def sync_date_modified():
         # it by mismatch, so data-driven restamps (best leaves, tools) are
         # unaffected.
         _mask = _re.sub(r"\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2})?([+-]\d{2}:?\d{2}|Z)?)?", "DATE", _s)
+        # r35 M-14 (2026-10-06): template-owned bytes are not page content.
+        # Mask them alongside dates so template edits (link forms,
+        # bundle hashes) never void pins; only reader-visible content
+        # changes release a pin (float to today below). Per the
+        # methodology, template changes do not move stamps.
+        _mask = _re.sub(r'<link rel="alternate"[^>]*>', "CHROME", _mask)
+        _mask = _re.sub(r'<link rel="stylesheet"[^>]*>', "CHROME", _mask)
+        _mask = _re.sub(r'<script src="/site\.js[^"]*"[^>]*></script>', "CHROME", _mask)
         _sig = __import__("hashlib").sha1(_mask.encode()).hexdigest()[:16]
         _key = _p.relative_to(ROOT).as_posix()
         _prev = _DMSIGS.get(_key)
         if _prev and _prev.get("sig") == _sig and _prev.get("dm"):
             _val = _prev["dm"]
+        elif _prev and _prev.get("sig") != _sig:
+            # Declared-date page whose content moved: re-pin at the new
+            # stamp so the next identical rebuild holds it.
+            _DMSIGS[_key] = {"sig": _sig, "dm": _val}
+            _DMSIG_DIRTY.append(1)
         elif _from_blame:
             # First sight: pin the stamp the page already carries (no
             # restamp tonight), so the store seeds without moving
@@ -3809,9 +3828,8 @@ def sync_date_modified():
             _DMSIGS[_key] = {"sig": _sig, "dm": _seed}
             _val = _seed
             _DMSIG_DIRTY.append(1)
-        elif _prev and _prev.get("sig") != _sig:
-            # Declared-date page whose content moved: re-pin at the new
-            # stamp so the next identical rebuild holds it.
+        elif not _prev and not _from_blame:
+            # Declared-date page, first sight: record the pin.
             _DMSIGS[_key] = {"sig": _sig, "dm": _val}
             _DMSIG_DIRTY.append(1)
         # r18 H-2 (2026-09-30): the template entity (ItemList/Article) carries
