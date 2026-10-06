@@ -13,7 +13,7 @@
  },
  "authors/index.html": {
   "dm": "2026-10-05",
-  "sig": "8561c2e41910fd91"
+  "sig": "13705ed65b1a25c6"
  },
  "authors/tim-christensen/index.html": {
   "dm": "2026-10-05",
@@ -56,8 +56,8 @@
   "sig": "b2f2ed9973abb725"
  },
  "categories/index.html": {
-  "dm": "2026-10-05",
-  "sig": "98839f43a6622e97"
+  "dm": "2026-10-06",
+  "sig": "d9bdd5d3b0e48508"
  },
  "categories/marketing-automation/index.html": {
   "dm": "2026-10-06",
@@ -97,127 +97,127 @@
  },
  "glossary/abm/index.html": {
   "dm": "2026-10-05",
-  "sig": "49d51df53f367c69"
+  "sig": "85e67c13664580fc"
  },
  "glossary/aeo/index.html": {
   "dm": "2026-10-05",
-  "sig": "697df3ff353487ed"
+  "sig": "228932bc2f3d5a02"
  },
  "glossary/agentic-marketing/index.html": {
   "dm": "2026-10-05",
-  "sig": "d9e2cc008e0ad6cd"
+  "sig": "c1c625a8ee61e0a5"
  },
  "glossary/ai-agent/index.html": {
   "dm": "2026-10-05",
-  "sig": "70ee3efe97227d45"
+  "sig": "10fba6e9ae1966ee"
  },
  "glossary/ai-content-generation/index.html": {
   "dm": "2026-10-05",
-  "sig": "c5d79d2123708c09"
+  "sig": "a2020853d1be9a8b"
  },
  "glossary/ai-search-visibility/index.html": {
   "dm": "2026-10-05",
-  "sig": "06fefe6fd3d39b37"
+  "sig": "ad6dcb00a3ec3b2e"
  },
  "glossary/cdp/index.html": {
   "dm": "2026-10-05",
-  "sig": "c11a07fc31b9153d"
+  "sig": "baff598279bd67fb"
  },
  "glossary/chatbot/index.html": {
   "dm": "2026-10-05",
-  "sig": "efc8823a2e73cfdc"
+  "sig": "ffd8954fb4cc9645"
  },
  "glossary/crm/index.html": {
   "dm": "2026-10-05",
-  "sig": "19d06d498689714e"
+  "sig": "9e1eef2c86aed1f4"
  },
  "glossary/cro/index.html": {
   "dm": "2026-10-05",
-  "sig": "a0f4c6c799cdad3f"
+  "sig": "3df21bfd43de7178"
  },
  "glossary/customer-journey/index.html": {
   "dm": "2026-10-05",
-  "sig": "728cc74b90234998"
+  "sig": "5d36cef864cee28c"
  },
  "glossary/dco/index.html": {
   "dm": "2026-10-05",
-  "sig": "849a3c177bee5733"
+  "sig": "b6269355689a0adf"
  },
  "glossary/deliverability/index.html": {
   "dm": "2026-10-05",
-  "sig": "bb9048d82041baa3"
+  "sig": "801329fa8a12ba73"
  },
  "glossary/dmp/index.html": {
   "dm": "2026-10-02",
-  "sig": "2ab23435511384c4"
+  "sig": "cb4550cd351456c7"
  },
  "glossary/dsp/index.html": {
   "dm": "2026-10-05",
-  "sig": "c2f830d6a5851105"
+  "sig": "2b27f610d1d5ec0d"
  },
  "glossary/email-sequence/index.html": {
   "dm": "2026-10-05",
-  "sig": "bdb1ae59c3abeea6"
+  "sig": "ca2703a5c13ebcb6"
  },
  "glossary/first-party-data/index.html": {
   "dm": "2026-10-05",
-  "sig": "fe023d82032780e8"
+  "sig": "b43522283161da5a"
  },
  "glossary/geo/index.html": {
   "dm": "2026-10-05",
-  "sig": "dcb9c0a6e34290ed"
+  "sig": "24604326ab6658fe"
  },
  "glossary/index.html": {
-  "dm": "2026-10-05",
-  "sig": "7ce59bb25bd82065"
+  "dm": "2026-10-06",
+  "sig": "ccd690a9024dbd12"
  },
  "glossary/lead-scoring/index.html": {
-  "dm": "2026-10-05",
-  "sig": "2f40d7a9aa33fd3b"
+  "dm": "2026-10-06",
+  "sig": "2ba682cb6a8487ee"
  },
  "glossary/marketing-attribution-models/index.html": {
   "dm": "2026-10-02",
-  "sig": "58cf7a1fb19ffead"
+  "sig": "d435c656ee8aea99"
  },
  "glossary/marketing-automation/index.html": {
   "dm": "2026-10-05",
-  "sig": "b1e90e29a6b58da0"
+  "sig": "a9e621ea96b5b872"
  },
  "glossary/marketing-ops/index.html": {
   "dm": "2026-10-05",
-  "sig": "d5520602d63fd1a3"
+  "sig": "4636e29a406a63b7"
  },
  "glossary/mcp/index.html": {
-  "dm": "2026-10-05",
-  "sig": "d7c3e292392148bc"
+  "dm": "2026-10-06",
+  "sig": "e3ce23fc0c682524"
  },
  "glossary/mql-sql/index.html": {
   "dm": "2026-10-05",
-  "sig": "119d4bedb12ab5f6"
+  "sig": "914cc0356aa233a4"
  },
  "glossary/personalization/index.html": {
   "dm": "2026-10-05",
-  "sig": "8a664453beb0f583"
+  "sig": "ea869c8bdee77f4c"
  },
  "glossary/programmatic-advertising/index.html": {
   "dm": "2026-10-05",
-  "sig": "7a8c26bd382e07e7"
+  "sig": "d03adeddf9a6d782"
  },
  "glossary/seo/index.html": {
   "dm": "2026-10-05",
-  "sig": "cd80ec7f4bac352e"
+  "sig": "924334a1ec89745f"
  },
  "glossary/social-listening/index.html": {
   "dm": "2026-10-05",
-  "sig": "8f777d383bf45efe"
+  "sig": "36dc8b21be9bec9c"
  },
  "glossary/utm-parameters/index.html": {
   "dm": "2026-10-05",
-  "sig": "b65a0ba863fe208f"
+  "sig": "aa7fad8e4a08865f"
  },
  "glossary/workflow-automation/index.html": {
   "dm": "2026-10-05",
-  "sig": "c1186289dbe71bc4"
+  "sig": "ca1e711846bec7d0"
  },
  "guides/index.html": {
   "dm": "2026-10-06",
@@ -241,7 +241,7 @@
  },
  "trending/index.html": {
   "dm": "2026-10-06",
-  "sig": "196ba44e42d8a790"
+  "sig": "508dd147155b0c6e"
  },
  "vs/index.html": {
   "dm": "2026-10-06",
