@@ -2595,6 +2595,58 @@ def test_freemium_records_carry_zero_price_from():
     assert not _bad, f"free-tier records with nonzero price_from: {_bad}"
 
 
+def test_glossary_hub_pinned_at_own_content_date():
+    """r36 L-44 (2026-10-06): the hub renders slug links only, so leaf edits
+    never change its bytes - max-leaf dating stamped it 10-06 with zero hub
+    change, three rounds running. The hub follows its own content via pin."""
+    import re as _re
+    _h = (ROOT / "glossary" / "index.html").read_text(errors="ignore")
+    _m = _re.search(r'"dateModified": "([0-9-]+)"', _h)
+    assert _m and _m.group(1) == "2026-10-05", f"glossary hub dm: {_m.group(1) if _m else 'MISSING'}"
+
+
+def test_earned_restamps_move_and_only_they_do():
+    """r36 M-15 (2026-10-06): alternatives/zapier took the record-driven
+    chip ripple - it restamps. Trakkr took a prose-only edit: tool pages
+    stamp the verification day, so its clock correctly stays 09-25.
+    Seven static/policy pages took build-day stamps with no content change
+    in the same window - none may carry the build date."""
+    import re as _re
+    _dm = lambda f: (_re.search(r'"dateModified": "([0-9-]+)"', (ROOT / f).read_text(errors="ignore")) or [None, None])[1]
+    assert _dm("tools/trakkr/index.html") == "2026-09-25", "trakkr verification-day stamp moved on a prose-only edit"
+    assert _dm("alternatives/zapier/index.html") == "2026-10-06", "zapier earned restamp missing"
+    _static = ["about/index.html", "ai-policy/index.html", "checklist/index.html",
+               "authors/tim-christensen/index.html", "contact/index.html",
+               "categories/advertising/index.html", "privacy/index.html"]
+    _bad = [f for f in _static if _dm(f) == "2026-10-06"]
+    assert not _bad, f"content-free build-day stamps: {_bad}"
+
+
+def test_queued_rerecord_disclosed_on_page():
+    """r36 L-51 (2026-10-06): pipedream's paid ladder is queued for
+    re-record while its free tier verifies today - the age gate stays
+    silent, so the opt-in queue note carries the disclosure."""
+    _h = (ROOT / "tools" / "pipedream" / "index.html").read_text(errors="ignore")
+    assert "Update queued:" in _h and "re-record" in _h, "pipedream queue note missing"
+
+
+def test_all_records_carry_date_added():
+    """r36 L-52 (2026-10-06): tool datePublished := record date_added; three
+    records fell back to the edit date. Every record carries creation date."""
+    import json as _j
+    _tools = _j.loads((ROOT / "tools" / "tools.json").read_text())
+    _bad = [_t.get("slug") for _t in _tools if isinstance(_t, dict) and not _t.get("date_added")]
+    assert not _bad, f"records without date_added: {_bad}"
+
+
+def test_mirror_carries_quick_facts_side_rows():
+    """r36 L-53 (2026-10-06): the no-Review tool template renders Quick-Facts
+    as bare div.side-row rows outside any <dl> - the mirror's dl pass never
+    saw them (claude-seo omitted Repository checked / Page updated)."""
+    _m = (ROOT / "tools" / "claude-seo" / "index.md").read_text(errors="ignore")
+    assert "Repository checked" in _m and "Page updated" in _m, "claude-seo mirror missing side-rows"
+
+
 def test_no_double_escaped_entities_in_rendered_text():
     """r33 M-9 (2026-10-06): source strings stored once-escaped got escaped
     again at interpolation (related-reading titles, glossary tickers) plus

@@ -2325,6 +2325,12 @@ def build_tool_page(t, cats, all_tools, base="tools"):
             _age2 = (_dt2.date.today() - _dt2.date.fromisoformat(_du)).days
         except ValueError:
             _age2 = -1
+        # r36 L-51 (2026-10-06): a record whose data is queued for
+        # re-record discloses it on the page even when freshly verified -
+        # the age gate below would stay silent (pipedream verified 10-06,
+        # paid ladder queued the same day). Opt-in `queue_note` slot text.
+        if t.get("queue_note"):
+            body = body.replace("</nav>", "</nav>" + f'<p class="kind-note">Update queued: {esc(str(t["queue_note"]))}</p>', 1)
         if _age2 > 21:
             # r32 M-5 (2026-10-06): a record redecided between vendor
             # fetches discloses the redecision date, not only the last
@@ -3774,6 +3780,18 @@ def sync_date_modified():
                 # true output but not a freshness signal.
                 continue
             _cands.append(_t10)
+        # r36 M-15 (2026-10-06): the file's own builder-emitted dateModified
+        # joins the candidates on declared pages (pages already carrying
+        # datePublished or visible times). Builder dates are data-driven
+        # (records, content_updated, term dates); without this, sync capped
+        # alternatives/zapier at its visible price-check date after the
+        # builder correctly emitted the content_updated restamp. Dateless
+        # pages are unaffected (no candidates means the blame path below).
+        if _cands:
+            _dd = chr(92) + 'd'
+            _fm = _re.search('"dateModified"' + _dd + '*' + ':' + _dd + '*"' + '([0-9-]{10})"', _s)
+            if _fm:
+                _cands.append(_fm.group(1))
         _cands = sorted(set(_c for _c in _cands if '2000-01-01' <= _c <= '2030-01-01'))
         _from_blame = not _cands
         _val: str = _cands[-1] if _cands else ( _blame_content_date(_p) or "")
@@ -3804,7 +3822,7 @@ def sync_date_modified():
         # r35 M-14 (2026-10-06): template-owned bytes are not page content.
         # Mask them alongside dates so template edits (link forms,
         # bundle hashes) never void pins; only reader-visible content
-        # changes release a pin (float to today below). Per the
+        # changes release a pin by mismatch. Per the
         # methodology, template changes do not move stamps.
         _mask = _re.sub(r'<link rel="alternate"[^>]*>', "CHROME", _mask)
         _mask = _re.sub(r'<link rel="stylesheet"[^>]*>', "CHROME", _mask)
@@ -3812,7 +3830,15 @@ def sync_date_modified():
         _sig = __import__("hashlib").sha1(_mask.encode()).hexdigest()[:16]
         _key = _p.relative_to(ROOT).as_posix()
         _prev = _DMSIGS.get(_key)
-        if _prev and _prev.get("sig") == _sig and _prev.get("dm"):
+        if _prev and _prev.get("lock"):
+            # r36 one-shot (2026-10-06): auditor-ordered revert (glossary
+            # hub, static pages). The pinned dm holds regardless of sig,
+            # then the lock is consumed so future content changes verify
+            # normally instead of freezing.
+            _val = _prev["dm"]
+            _DMSIGS[_key] = {"sig": _sig, "dm": _val}
+            _DMSIG_DIRTY.append(1)
+        elif _prev and _prev.get("sig") == _sig and _prev.get("dm"):
             _val = _prev["dm"]
         elif _prev and _prev.get("sig") != _sig:
             # Declared-date page whose content moved: re-pin at the new

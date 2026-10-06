@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Pipedream
+Update queued: Paid-plan ladder changed on the vendor page in October 2026 (now Connect-based); the free tier is verified, the paid tiers are queued for re-record.
+
 ## Pipedream review (2026): pricing, AI features, verdict
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps

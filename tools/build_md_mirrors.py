@@ -59,6 +59,11 @@ def html_to_md(html: str) -> str:
         _events.append((dm.start(), dm.end(), "details", dm))
     for dlm in re.finditer(r"<dl[^>]*>(.*?)</dl>", src, flags=re.S):
         _events.append((dlm.start(), dlm.end(), "dl", dlm))
+    # r36 L-53 (2026-10-06): the no-Review tool template renders Quick-Facts
+    # as bare div.side-row rows, not inside a <dl> - the dl pass never sees
+    # them (claude-seo's mirror omitted Repository checked / Page updated).
+    for srm in re.finditer(r'<div class="side-row"[^>]*>\s*<dt[^>]*>(.*?)</dt>\s*<dd[^>]*>(.*?)</dd>\s*</div>', src, flags=re.S):
+        _events.append((srm.start(), srm.end(), "siderow", srm))
     for m2 in re.finditer(r"<(h1|h2|h3|h4|p|li|blockquote|figcaption)[^>]*>(.*?)</\1>", src, flags=re.S):
         _events.append((m2.start(), m2.end(), "flow", m2))
     # r25 M-4/L-26 (2026-10-05): verdict/lead prose lives in bare divs the
@@ -100,6 +105,9 @@ def html_to_md(html: str) -> str:
             for dt in re.finditer(r"<dt[^>]*>(.*?)</dt>\s*<dd[^>]*>(.*?)</dd>", _m.group(1), flags=re.S):
                 out += [f"- **{inline(dt.group(1))}:** {inline(dt.group(2))}"]
             out += [""]
+            _covered_until = _end
+        elif _kind == "siderow":
+            out += [f"- **{inline(_m.group(1))}:** {inline(_m.group(2))}"]
             _covered_until = _end
         elif _kind == "card":
             # r27 N-2 (2026-10-05): category cards carry <h3 class="name">,

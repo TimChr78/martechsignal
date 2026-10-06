@@ -5198,6 +5198,7 @@
    "currency": "USD",
    "github_forks": 2904,
    "github_checked": "2026-10-06",
+   "date_added": "2026-07-27",
    "page_url": "https://martechsignal.com/tools/openseo/"
   },
   {
@@ -5645,6 +5646,8 @@
    "pricing_url": "https://pipedream.com/pricing",
    "price_notes": "Basic $29/month (2,000 credits, 20M AI tokens), Advanced $49/month, Connect $99/month (verified Sep 2026).",
    "pricing_model": "freemium",
+   "date_added": "2026-07-28",
+   "queue_note": "Paid-plan ladder changed on the vendor page in October 2026 (now Connect-based); the free tier is verified, the paid tiers are queued for re-record.",
    "page_url": "https://martechsignal.com/tools/pipedream/"
   },
   {
@@ -10055,6 +10058,7 @@
    },
    "paid_from": 14,
    "price_unit": "user",
+   "date_added": "2026-09-28",
    "page_url": "https://martechsignal.com/tools/zoho-crm/"
   },
   {

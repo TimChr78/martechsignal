@@ -117,6 +117,8 @@ Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline
 - **Pricing Currency:** EUR
 - **Ai Assistant:** Zia
 
+- **API:** No
+- **Last verified:** 2026-09-28
 Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 
 ## Get the next teardown
