@@ -141,7 +141,7 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
 - **Pricing:** Open Source

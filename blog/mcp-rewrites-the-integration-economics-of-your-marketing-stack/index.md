@@ -8,7 +8,7 @@ MCP · MODEL-CONTEXT-PROTOCOL · 7 MIN
 
 [Home](/) · [Blog](/blog/) · MCP Rewrites the Integration Economics of Your Marketing Stack
 
-JUL 29, 2026 · Updated SEP 27, 2026
+JUL 29, 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 

@@ -13,7 +13,7 @@
  },
  "authors/index.html": {
   "dm": "2026-10-06",
-  "sig": "8561c2e41910fd91"
+  "sig": "865384f74c094b55"
  },
  "authors/tim-christensen/index.html": {
   "dm": "2026-10-05",
@@ -56,8 +56,8 @@
   "sig": "cfcc1e7d6bda204e"
  },
  "categories/index.html": {
-  "dm": "2026-10-05",
-  "sig": "98839f43a6622e97"
+  "dm": "2026-10-06",
+  "sig": "aafda21024bd1f26"
  },
  "categories/marketing-automation/index.html": {
   "dm": "2026-10-05",
@@ -241,7 +241,7 @@
  },
  "trending/index.html": {
   "dm": "2026-10-05",
-  "sig": "96b419d6a259e64f"
+  "sig": "fd4dd8998766ea92"
  },
  "vs/index.html": {
   "dm": "2026-10-06",

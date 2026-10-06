@@ -8,7 +8,7 @@ AI · ADVERTISING · 11 MIN
 
 [Home](/) · [Blog](/blog/) · OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.
 
-AUG 05, 2026 · Updated SEP 28, 2026
+AUG 05, 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 

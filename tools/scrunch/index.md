@@ -131,7 +131,7 @@ Core covers ChatGPT, Perplexity, Google AI Overviews and Copilot. Enterprise add
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ## Also featured in
 

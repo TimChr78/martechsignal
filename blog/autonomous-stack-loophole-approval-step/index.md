@@ -8,7 +8,7 @@ MARKETING AUTOMATION · AI AGENTS · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Your autonomous stack's loophole is the approval step you deleted
 
-SEP 07, 2026 · Updated SEP 09, 2026
+SEP 07, 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Workflow Automation](/categories/workflow-automation/)
 
@@ -78,7 +78,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ## Related tools
 
 - [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns

@@ -8,7 +8,7 @@ AI · MARKETING OPS · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Claude Cowork is eating the edges of your martech stack
 
-JUL 30, 2026 · Updated SEP 17, 2026
+JUL 30, 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 
