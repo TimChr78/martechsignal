@@ -6,7 +6,7 @@ We make mistakes; when we find one, we fix it and say so here. This log is newes
 
 ## Fifth unit vocabulary: per-brand and per-builder prices qualified (October 6)
 
-A follow-up audit found the same unit-stripped class in a fifth wording: Trakkr's Growth tier at $100/brand/mo and ToolJet's Pro tier at $79/builder/mo rendered as bare monthly figures across tool pages, hub cards, mirrors, and schema Offers. Both catalog records now declare their unit, and five more bare $100 sentences inside Trakkr's own prose (meta, description, research notes, FAQ, cons list) carry it too. The guardrail changed with them a second time: the general census now reads through a bare "/mo" suffix to the clause behind it ("$100/mo per brand" binds the entry where "$19/mo billed annually" leaves it flat), time words include days and hours, and adjudicated-benign bindings carry their reason and round instead of sitting in a silent review queue. The same wave closed the automation path's research-note gap (Chatfuel's note no longer sells the deleted $39 plans), corrected the SendGrid alternatives sentence to the 60-day trial the record allows, gave redecided records a dated disclosure slot in the pending note, and wrote the blog clause of the stamp rule (markup-only conversions do not move stamps; the one moved stamp reverted).
+A follow-up audit found the same unit-stripped class in a fifth wording: Trakkr’s Growth tier at $100/brand/mo and ToolJet’s Pro tier at $79/builder/mo rendered as bare monthly figures across tool pages, hub cards, mirrors, and schema Offers. Both catalog records now declare their unit, and five more bare $100 sentences inside Trakkr’s own prose (meta, description, research notes, FAQ, cons list) carry it too. The guardrail changed with them a second time: the general census now reads through a bare "/mo" suffix to the clause behind it ("$100/mo per brand" binds the entry where "$19/mo billed annually" leaves it flat), time words include days and hours, and adjudicated-benign bindings carry their reason and round instead of sitting in a silent review queue. The same wave closed the automation path’s research-note gap (Chatfuel’s note no longer sells the deleted $39 plans), corrected the SendGrid alternatives sentence to the 60-day trial the record allows, gave redecided records a dated disclosure slot in the pending note, and wrote the blog clause of the stamp rule (markup-only conversions do not move stamps; the one moved stamp reverted).
 
 ## Fourth unit vocabulary: per-channel, per-site, and per-workspace prices qualified (October 6)
 
@@ -26,9 +26,9 @@ First run's catches, fixed the same day: Chatfuel restructured its plans (the ca
 
 ## Per-user enterprise prices now carry their unit everywhere
 
-October 5’s second corrections entry fixed one Salesforce comparison snippet that showed “from $25/mo” for an enterprise edition whose entry is $1,500/mo per org. The follow-up audit found the same unit-stripped figure on five more surfaces: the tool-page pricing hero, the FAQ answer and its JSON-LD twin, the catalog description paragraph, the schema Offer node, and the catalog record itself.
+October 5’s second corrections entry fixed one Salesforce comparison snippet that showed "from $25/mo" for an enterprise edition whose entry is $1,500/mo per org. The follow-up audit found the same unit-stripped figure on five more surfaces: the tool-page pricing hero, the FAQ answer and its JSON-LD twin, the catalog description paragraph, the schema Offer node, and the catalog record itself.
 
-Root fix, not another surface patch: both Salesforce catalog records now declare price_unit “user”, the shared money formatter renders “$25/user/mo” on every template surface at once, and schema Offer nodes are suppressed on per-user records. Drift’s $2,500/mo floor is declared “org” (drift has no directory page, so no Offer node was ever emitted for it; the declaration governs future per-org figures). Any future record with a unit-priced entry figure must declare its unit in the catalog or the build test suite fails the change.
+Root fix, not another surface patch: both Salesforce catalog records now declare price_unit "user", the shared money formatter renders "$25/user/mo" on every template surface at once, and schema Offer nodes are suppressed on per-user records. Drift’s $2,500/mo floor is declared "org" (drift has no directory page, so no Offer node was ever emitted for it; the declaration governs future per-org figures). Any future record with a unit-priced entry figure must declare its unit in the catalog or the build test suite fails the change.
 
 Also corrected in this wave: BillionMail’s three $98.9 residues are now $98.90, Mautic’s spaced figure is now €247.50, eight money-leaf metas carry the per-user/per-seat qualifier their tool pages keep, as do eight comparison-hub cards (the SFMC contrast carries the org qualifier instead: enterprise from $1,500/mo), and the trending page counts only open-source-flagged repositories. A follow-up audit found the same unit-stripped class on twelve per-user/per-seat records outside enterprise; those records now declare price_unit too, with schema Offers suppressed wherever the schema cannot carry the unit.
 
@@ -64,7 +64,7 @@ Today's SEO audit flagged three links to one vendor domain as returning 503 duri
 
 ## Audit low-priority dispositions: four findings declined with evidence
 
-Today’s SEO audit low tail included four items we are not changing, and we are recording why. (1) Retired-product records (former Autopilot, Drift) stay in the catalog with no public page: both were acquired, both carry a named successor, and the catalog is the paper trail. (2) Two spelling variants of one deny-listed bot name are cosmetic: both variants are denied, so crawlers are unaffected. (3) The IndexNow “deployment gap” probed key paths that never existed (/indexnow.txt, /indexnow-keys/, indexnow.json); both real key files return HTTP 200 and submissions are succeeding. (4) Screenshot srcsets capped at 800w while the source captures are 1280px masters; 1200w honest-downscale rungs were added on 2026-09-29 with a build-time check. Two sitewide build-time checks (token repetition, star-literal-vs-catalog) and per-finding checks for the items we did fix fail the build if any of this regresses.
+Today’s SEO audit low tail included four items we are not changing, and we are recording why. (1) Retired-product records (former Autopilot, Drift) stay in the catalog with no public page: both were acquired, both carry a named successor, and the catalog is the paper trail. (2) Two spelling variants of one deny-listed bot name are cosmetic: both variants are denied, so crawlers are unaffected. (3) The IndexNow "deployment gap" probed key paths that never existed (/indexnow.txt, /indexnow-keys/, indexnow.json); both real key files return HTTP 200 and submissions are succeeding. (4) Screenshot srcsets capped at 800w while the source captures are 1280px masters; 1200w honest-downscale rungs were added on 2026-09-29 with a build-time check. Two sitewide build-time checks (token repetition, star-literal-vs-catalog) and per-finding checks for the items we did fix fail the build if any of this regresses.
 
 ## Correction to our own corrections entry: the star sync shipped incomplete
 
@@ -123,6 +123,8 @@ Three Claude SEO comparison posts were published without approval by a pipeline 
 Our Claude SEO review carried review-structured data for our own product. We removed the markup; the editorial text remains, clearly labelled.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+2026-10-06
 
 2026-10-06
 
