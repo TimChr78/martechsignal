@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-09-07
+
 ## Definition
 
 Conversion rate optimization is the practice of increasing the percentage of visitors who take a desired action, buying, signing up, requesting a demo. It combines A/B testing, user research, analytics, and UX design to remove friction from the conversion path.

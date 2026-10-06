@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-10-05
+
 ## Definition
 
 Marketing automation is software that runs repetitive marketing tasks without manual intervention. It sends a welcome email when someone signs up, moves a lead to a nurture sequence after they download a whitepaper, and alerts sales when a prospect visits the pricing page three times in a week.

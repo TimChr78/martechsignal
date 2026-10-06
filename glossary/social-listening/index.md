@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-10-05
+
 ## Definition
 
 Social listening is the practice of monitoring social media channels, forums, review sites, and news outlets. It tracks mentions of your brand, competitors, products, or industry topics, and goes beyond tracking @mentions to capturing untagged conversations where people discuss your category without naming you.

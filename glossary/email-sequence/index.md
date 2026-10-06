@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-09-28
+
 ## Definition
 
 An email sequence is a series of automated emails sent on a schedule or triggered by behavior. A welcome sequence introduces new subscribers to your product. A nurture sequence educates leads over weeks. A win-back sequence tries to re-engage customers who stopped opening.

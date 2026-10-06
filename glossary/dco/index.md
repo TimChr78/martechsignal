@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-10-05
+
 ## Definition
 
 Dynamic creative optimization assembles ad creatives in real time from modular components. Headlines, images and calls to action combine into the variant most likely to perform for each viewer. Instead of designing 50 ad variants, you design the components and let the algorithm assemble them.

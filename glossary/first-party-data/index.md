@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-10-05
+
 ## Definition
 
 First-party data is information you collect directly from your customers and prospects. That means website behavior, purchase history, email engagement, survey responses and support interactions. You own it, you collected it with consent, and it doesn't depend on a third party's platform or cookie.

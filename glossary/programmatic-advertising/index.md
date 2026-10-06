@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-09-05
+
 ## Definition
 
 Programmatic advertising is the automated buying and selling of ad inventory through real-time bidding. Instead of a media buyer calling a publisher to negotiate a placement, software matches available impressions with advertiser bids in milliseconds, millions of times per day.

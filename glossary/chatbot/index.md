@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-09-28
+
 ## Definition
 
 A chatbot is software that conducts text or voice conversations with users, typically on a website, messaging app, or social platform. Rule-based chatbots follow decision trees. AI-powered chatbots use large language models to generate responses and handle questions they weren't explicitly programmed for.

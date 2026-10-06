@@ -392,7 +392,11 @@ def main():
 
     # H10 (r9, 2026-09-28): per-term edit dates from glossary.json blame so
     # lastmod reflects real definition edits, not build day.
-    term_dates = _json_block_dates("tools/glossary.json", 4)
+    # r34 L-42 FIX (2026-10-06): depth is 2 (top-level term blocks carry
+    # two-space slugs). Depth 4 matched only nested blocks, left most terms
+    # dateless, and dateless pages took the regen date on every rebuild -
+    # the 31 false 10-06 bumps. With depth 2 all 30 terms resolve.
+    term_dates = _json_block_dates("tools/glossary.json", 2)
 
     print("Hub:")
     build_hub(terms, term_dates)

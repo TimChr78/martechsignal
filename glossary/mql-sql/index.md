@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-10-05
+
 ## Definition
 
 An MQL is a lead that marketing deems ready for sales based on engagement signals. Typical signals: three downloaded whitepapers, an attended webinar, and a visit to the pricing page. An SQL is a lead that sales has accepted and is actively working. The gap between the two is where most marketing-sales friction lives.

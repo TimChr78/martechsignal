@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-10-05
+
 ## Definition
 
 AI content generation uses large language models to produce marketing copy. Typical output: blog posts, ad headlines, product descriptions, email subject lines, social captions. The tools take a brief or a prompt and output draft text that a human reviews, edits, and publishes.

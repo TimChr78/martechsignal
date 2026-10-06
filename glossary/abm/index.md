@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-09-28
+
 ## Definition
 
 Account-based marketing flips the traditional funnel. Instead of generating a large volume of leads and filtering down, you identify the specific accounts you want to win and build personalized campaigns for each one. Marketing and sales work the same target list from day one.

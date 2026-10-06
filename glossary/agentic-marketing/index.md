@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-10-05
+
 ## Definition
 
 Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes. Typical decisions: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.

@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-09-28
+
 ## Definition
 
 Answer Engine Optimization is the practice of structuring content so AI answer systems can find, trust, and cite it. It inherits technical SEO - crawlability, clean markup, server rendering - and adds what answer engines specifically reward: direct question-shaped passages, dated authorship, original data, and entity clarity about who is making claims.

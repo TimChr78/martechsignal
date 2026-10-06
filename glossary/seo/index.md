@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-09-07
+
 ## Definition
 
 SEO is the practice of improving a website's visibility in organic (non-paid) search results. It covers technical factors (site speed, crawlability, structured data), content quality (relevance, depth, freshness), and authority signals (backlinks, brand mentions, domain reputation).

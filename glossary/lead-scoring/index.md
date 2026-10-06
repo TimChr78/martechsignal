@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-10-06
+
 ## Definition
 
 Lead scoring assigns a numerical value to each prospect based on their likelihood to buy. Points accumulate for demographic fit (job title, company size) and behavioral signals (page visits, email opens, content downloads). Sales prioritizes the highest scores.

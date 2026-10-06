@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-09-28
+
 ## Definition
 
 A CRM is the system of record for every interaction your company has with a prospect or customer. It stores contact details, conversation history, deal stages, and activity logs. Sales teams use it to manage pipelines. Marketing teams use it to segment audiences. Support teams use it to track tickets.

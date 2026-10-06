@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-10-05
+
 ## Definition
 
 AI search visibility measures how often and how prominently a brand, product, or content appears in AI-generated answers. The main surfaces: Google AI Overviews, ChatGPT responses, Perplexity, Copilot, and similar systems. Unlike classic rank tracking, there is no single position - visibility means being cited, quoted, or linked inside a synthesized answer.

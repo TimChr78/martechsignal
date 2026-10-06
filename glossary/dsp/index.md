@@ -4,6 +4,8 @@
 
 GLOSSARY
 
+Definition last Updated 2026-09-28
+
 ## Definition
 
 A demand-side platform is the buying interface for programmatic advertising. Advertisers use a DSP to bid on ad impressions across ad exchanges in real time, setting targeting parameters, budget caps, and bidding strategies in one place instead of negotiating with each publisher individually.
