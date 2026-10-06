@@ -3035,6 +3035,12 @@ def main():
 
     print(f"\nDone! {len(active)} tool pages + {len(cats)} categories + {n_hubs} hub")
 
+    # r34 L-42 FIX (2026-10-06): L16 rewrites alternate-link bytes, so it must
+    # run BEFORE the fingerprint sync - pins hash final bytes, and any writer
+    # after the hash voids every pin on the next run (31 glossary pages
+    # oscillated for a full wave because page_shell emits the absolute link
+    # form and L16 rewrites it relative after sync hashed).
+    sync_md_alternates()
     sync_date_modified()  # M9: before sitemap so <lastmod> covers every family
     # Sitemap
     build_sitemap(tools, cats)
