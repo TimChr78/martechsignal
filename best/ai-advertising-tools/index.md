@@ -63,6 +63,8 @@ Revealbot (Birch) automates Meta, Google and TikTok ads through user-written rul
 
 Vendor: [Official site](https://bir.ch) · [Pricing](https://bir.ch/pricing)
 
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
+
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Pencil](/tools/pencil/)
@@ -72,6 +74,8 @@ Pencil generates ad creative at the lowest entry price here. Core is $14/mo with
 **Verdict:** Best for advertising & paid media teams that want gwi-powered insights agent, starting at $14/mo.
 
 Vendor: [Official site](https://trypencil.com) · [Pricing](https://trypencil.com/pricing)
+
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
@@ -83,6 +87,8 @@ Smartly.io unites creative production, media buying and measurement for large te
 
 Vendor: [Official site](https://www.smartly.io) · [Pricing](https://www.smartly.io/get-demo)
 
+**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [AdCreative.ai](/tools/adcreative-ai/)
@@ -92,6 +98,8 @@ AdCreative.ai produces creative volume with scores attached. Starter is $39/mo a
 **Verdict:** Lean teams that want creative volume with a score attached
 
 Vendor: [Official site](https://www.adcreative.ai) · [Pricing](https://www.adcreative.ai/)
+
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
@@ -103,6 +111,8 @@ Albert AI takes over daily campaign optimization autonomously. Pricing is enterp
 
 Vendor: [Official site](https://albert.ai) · [Pricing](https://albert.ai/contact/)
 
+**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Madgicx](/tools/madgicx/)
@@ -112,6 +122,8 @@ Madgicx focuses on Meta ads optimization and creative workflow. The entry AI Ads
 **Verdict:** Best for advertising & paid media teams that want the job covered in one platform, starting at $49/mo.
 
 Vendor: [Official site](https://madgicx.com/) · [Pricing](https://madgicx.com/pricing)
+
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
@@ -134,6 +146,8 @@ Opteo watches Google Ads accounts with one-click improvements. Basic is $129/mo 
 **Verdict:** Best for advertising & paid media teams that want the job covered in one platform, starting at $129/mo.
 
 Vendor: [Official site](https://opteo.com/) · [Pricing](https://opteo.com/pricing/)
+
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 

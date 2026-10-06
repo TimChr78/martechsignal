@@ -62,6 +62,8 @@ Dynamic Yield decides which content and offers each visitor sees. No pricing is 
 
 Vendor: [Official site](https://www.dynamicyield.com) · [Pricing](https://www.dynamicyield.com/pricing/)
 
+**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Twilio Segment](/tools/segment/)
@@ -84,6 +86,8 @@ Nosto personalizes store search, recommendations and merchandising from shared b
 
 Vendor: [Official site](https://www.nosto.com) · [Pricing](https://www.nosto.com/pricing/)
 
+**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Clerk.io](/tools/clerk-io/)
@@ -94,6 +98,8 @@ Clerk.io serves mid-size stores with a public price floor. Plans start from $119
 
 Vendor: [Official site](https://www.clerk.io) · [Pricing](https://www.clerk.io/pricing)
 
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
+
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Tealium](/tools/tealium/)
@@ -103,6 +109,8 @@ Tealium governs enterprise collection and audiences in real time. Pricing is cus
 **Verdict:** Regulated enterprises that need governance around every customer event
 
 Vendor: [Official site](https://tealium.com) · [Pricing](https://tealium.com/pricing/)
+
+**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 

@@ -160,7 +160,7 @@ Vendor: [Official site](https://tooljet.com) · [Pricing](https://tooljet.com/pr
 
 **Not for:** Standalone automation without an app around it.
 
-ToolJet pairs an internal-tool builder with AI-assisted generation. Catalog pricing: Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Pro $79/builder/mo billed annually, Team $199, Enterprise from $3,000/mo. Self-host Team $199/builder/mo. AI credits $1 per 100.; open source under AGPL-3.0 (verified 2026-09-07).
+ToolJet pairs an internal-tool builder with AI-assisted generation. Catalog pricing: Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Basic $23/builder/mo, Pro $79/builder/mo billed annually, Team $199/builder/mo, Enterprise custom. Self-host Team $199/builder/mo. AI credits $1 per 100.; open source under AGPL-3.0 (verified 2026-10-06).
 
 ## [Appsmith as a n8n alternative](/tools/appsmith/)
 

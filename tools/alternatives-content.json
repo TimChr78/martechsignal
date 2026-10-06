@@ -290,7 +290,7 @@
      "slug": "tooljet",
      "best_for": "Internal-tool builders who want AI-assisted app generation on their own data.",
      "not_for": "Standalone automation without an app around it.",
-     "why": "ToolJet pairs an internal-tool builder with AI-assisted generation. Catalog pricing: Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Pro $79/builder/mo billed annually, Team $199, Enterprise from $3,000/mo. Self-host Team $199/builder/mo. AI credits $1 per 100.; open source under AGPL-3.0 (verified 2026-09-07)."
+     "why": "ToolJet pairs an internal-tool builder with AI-assisted generation. Catalog pricing: Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Basic $23/builder/mo, Pro $79/builder/mo billed annually, Team $199/builder/mo, Enterprise custom. Self-host Team $199/builder/mo. AI credits $1 per 100.; open source under AGPL-3.0 (verified 2026-10-06)."
     },
     {
      "slug": "appsmith",
@@ -316,7 +316,7 @@
     }
    ],
    "direct_answer": "Pick Make for visual scenario control, Zapier for the largest app catalog, or Pipedream for code-first steps. Stay on n8n when self-hosting and workflow-friendly billing decide it.",
-   "content_updated": "2026-10-05"
+   "content_updated": "2026-10-06"
   },
   {
    "slug": "mailchimp",

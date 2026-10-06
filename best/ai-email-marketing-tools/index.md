@@ -86,6 +86,8 @@ Customer.io runs behavior-driven journeys across email, push, SMS and in-app. Es
 
 Vendor: [Official site](https://customer.io) · [Pricing](https://customer.io/pricing)
 
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
+
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Twilio SendGrid](/tools/sendgrid/)

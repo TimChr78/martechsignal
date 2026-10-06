@@ -36,6 +36,16 @@ from pathlib import Path
 import re as _re
 
 
+def _free_tier_mismatch(record, line):
+    # r34 H-12 (2026-10-06): only the free-tier variant of the skip_if slot
+    # is keyed at all, and on pricing_model (free/freemium) — never on
+    # price_from (pipedream is freemium with price_from 29). Every other
+    # variant renders whenever the record carries it.
+    if not line or not _re.search(r"free[- ]?(tier|plan|forever|account)", line, _re.I):
+        return False
+    return (record or {}).get("pricing_model") not in ("free", "freemium")
+
+
 def _strip_pick_label(name, value):
     # r17 H-2 (2026-09-30): pick_*_if data values embed the label the <dt>
     # already carries ("Pick n8n if ..."). The <dd> must continue the
@@ -267,10 +277,13 @@ def build_best():
   <p>{esc(it['assessment'])}</p>
   <p><strong>Verdict:</strong> {esc(it['verdict'])}</p>
   {out_links(t)}
-  {f'<p><strong>{esc(it["skip_if"])}</strong></p>' if t.get("price_from") == 0 and it.get("skip_if") else ""}
-  <!-- r33 M-6 (2026-10-06): the free-tier skip line renders only on records
-       whose price_from is 0. Paid sendgrid carried it as template residue;
-       record-keyed suppression closes the class instead of card-by-card. -->
+  {f'<p><strong>{esc(it["skip_if"])}</strong></p>' if it.get("skip_if") and not _free_tier_mismatch(t, it["skip_if"]) else ""}
+  <!-- r34 H-12 (2026-10-06): r33 M-6 keyed the whole five-variant slot on
+       price_from == 0 and deleted 49 honest lines to kill one wrong one.
+       Restored: the slot renders whenever the record carries it; only the
+       free-tier variant is keyed, on pricing_model (free/freemium), not on
+       price_from (pipedream is freemium with price_from 29). SendGrid's
+       false line stays out of the data, not the template. -->
   <p class="meta unverified"><strong>What we could not verify:</strong> {esc(it.get('unverified', 'installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.'))}</p>
 </section>""")
         body.append(

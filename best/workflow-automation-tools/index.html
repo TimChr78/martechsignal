@@ -32,7 +32,7 @@
     "@type": "ItemList",
     "name": "Best workflow automation tools (2026)",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-10-05",
+    "dateModified": "2026-10-06",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -148,7 +148,7 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "@id": "https://martechsignal.com/best/workflow-automation-tools/",
-  "dateModified": "2026-10-05",
+  "dateModified": "2026-10-06",
   "breadcrumb": {
     "@id": "https://martechsignal.com/best/workflow-automation-tools/#breadcrumb"
   }
@@ -187,9 +187,12 @@
   <p><strong>Verdict:</strong> Best for self-hosted workflows with code steps and AI agents.</p>
   <p class="meta out-links">Vendor: <a href="https://n8n.io" rel="noopener">Official site</a> · <a href="https://n8n.io/pricing/" rel="noopener">Pricing</a> · <a href="https://github.com/n8n-io/n8n" rel="noopener">GitHub</a></p>
   <p><strong>Skip it if you want zero maintenance and instant breadth.</strong></p>
-  <!-- r33 M-6 (2026-10-06): the free-tier skip line renders only on records
-       whose price_from is 0. Paid sendgrid carried it as template residue;
-       record-keyed suppression closes the class instead of card-by-card. -->
+  <!-- r34 H-12 (2026-10-06): r33 M-6 keyed the whole five-variant slot on
+       price_from == 0 and deleted 49 honest lines to kill one wrong one.
+       Restored: the slot renders whenever the record carries it; only the
+       free-tier variant is keyed, on pricing_model (free/freemium), not on
+       price_from (pipedream is freemium with price_from 29). SendGrid's
+       false line stays out of the data, not the template. -->
   <p class="meta unverified"><strong>What we could not verify:</strong> installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.</p>
 </section>
 <section class="best-item" id="zapier">
@@ -200,9 +203,12 @@
   <p><strong>Verdict:</strong> Best for breadth and onboarding speed on niche integrations.</p>
   <p class="meta out-links">Vendor: <a href="https://zapier.com" rel="noopener">Official site</a> · <a href="https://zapier.com/pricing" rel="noopener">Pricing</a></p>
   <p><strong>Skip it if task billing would punish your run volume.</strong></p>
-  <!-- r33 M-6 (2026-10-06): the free-tier skip line renders only on records
-       whose price_from is 0. Paid sendgrid carried it as template residue;
-       record-keyed suppression closes the class instead of card-by-card. -->
+  <!-- r34 H-12 (2026-10-06): r33 M-6 keyed the whole five-variant slot on
+       price_from == 0 and deleted 49 honest lines to kill one wrong one.
+       Restored: the slot renders whenever the record carries it; only the
+       free-tier variant is keyed, on pricing_model (free/freemium), not on
+       price_from (pipedream is freemium with price_from 29). SendGrid's
+       false line stays out of the data, not the template. -->
   <p class="meta unverified"><strong>What we could not verify:</strong> installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.</p>
 </section>
 <section class="best-item" id="make">
@@ -213,9 +219,12 @@
   <p><strong>Verdict:</strong> Best for branching visual workflows on a small-team budget.</p>
   <p class="meta out-links">Vendor: <a href="https://www.make.com" rel="noopener">Official site</a> · <a href="https://www.make.com/en/pricing" rel="noopener">Pricing</a></p>
   <p><strong>Skip it if credit expiry beats a flat or self-hosted bill.</strong></p>
-  <!-- r33 M-6 (2026-10-06): the free-tier skip line renders only on records
-       whose price_from is 0. Paid sendgrid carried it as template residue;
-       record-keyed suppression closes the class instead of card-by-card. -->
+  <!-- r34 H-12 (2026-10-06): r33 M-6 keyed the whole five-variant slot on
+       price_from == 0 and deleted 49 honest lines to kill one wrong one.
+       Restored: the slot renders whenever the record carries it; only the
+       free-tier variant is keyed, on pricing_model (free/freemium), not on
+       price_from (pipedream is freemium with price_from 29). SendGrid's
+       false line stays out of the data, not the template. -->
   <p class="meta unverified"><strong>What we could not verify:</strong> installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.</p>
 </section>
 <section class="best-item" id="pipedream">
@@ -225,10 +234,13 @@
   <p>Pipedream gives developers the code-first slot. Any step can be code, and any workflow can serve as an MCP endpoint. Paid tiers start at $29/month Basic, $49/month Advanced and $99/month Connect. That suits code-comfortable teams and excludes everyone else.</p>
   <p><strong>Verdict:</strong> Best for developer teams wanting code steps and MCP endpoints.</p>
   <p class="meta out-links">Vendor: <a href="https://pipedream.com" rel="noopener">Official site</a> · <a href="https://pipedream.com/pricing" rel="noopener">Pricing</a></p>
-  
-  <!-- r33 M-6 (2026-10-06): the free-tier skip line renders only on records
-       whose price_from is 0. Paid sendgrid carried it as template residue;
-       record-keyed suppression closes the class instead of card-by-card. -->
+  <p><strong>Skip it if nobody will write code inside an automation step.</strong></p>
+  <!-- r34 H-12 (2026-10-06): r33 M-6 keyed the whole five-variant slot on
+       price_from == 0 and deleted 49 honest lines to kill one wrong one.
+       Restored: the slot renders whenever the record carries it; only the
+       free-tier variant is keyed, on pricing_model (free/freemium), not on
+       price_from (pipedream is freemium with price_from 29). SendGrid's
+       false line stays out of the data, not the template. -->
   <p class="meta unverified"><strong>What we could not verify:</strong> installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.</p>
 </section>
 <section class="best-item" id="workato">
@@ -238,10 +250,13 @@
   <p>Workato claims enterprise governance by pairing integration with agent controls like access rules and approvals. Pricing is unlisted with a usage-based model plus platform edition fee. The trade is a demo-gated sales process with no public prices.</p>
   <p><strong>Verdict:</strong> Best for enterprises governing agents and integration in one platform.</p>
   <p class="meta out-links">Vendor: <a href="https://www.workato.com" rel="noopener">Official site</a> · <a href="https://www.workato.com/pricing" rel="noopener">Pricing</a></p>
-  
-  <!-- r33 M-6 (2026-10-06): the free-tier skip line renders only on records
-       whose price_from is 0. Paid sendgrid carried it as template residue;
-       record-keyed suppression closes the class instead of card-by-card. -->
+  <p><strong>Skip it without an enterprise budget and a sales process.</strong></p>
+  <!-- r34 H-12 (2026-10-06): r33 M-6 keyed the whole five-variant slot on
+       price_from == 0 and deleted 49 honest lines to kill one wrong one.
+       Restored: the slot renders whenever the record carries it; only the
+       free-tier variant is keyed, on pricing_model (free/freemium), not on
+       price_from (pipedream is freemium with price_from 29). SendGrid's
+       false line stays out of the data, not the template. -->
   <p class="meta unverified"><strong>What we could not verify:</strong> installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.</p>
 </section>
 <section class="best-item" id="tray-io">
@@ -251,10 +266,13 @@
   <p>Tray.io pairs integration with tooling for shipping governed AI apps next to Workato. Pricing is unlisted across Pro, Team and Enterprise, metered in Tasks. The trade is opaque pricing against transparent or self-hosted options.</p>
   <p><strong>Verdict:</strong> Best for AI app governance plus integration on one platform.</p>
   <p class="meta out-links">Vendor: <a href="https://tray.ai" rel="noopener">Official site</a> · <a href="https://tray.ai/pricing/" rel="noopener">Pricing</a></p>
-  
-  <!-- r33 M-6 (2026-10-06): the free-tier skip line renders only on records
-       whose price_from is 0. Paid sendgrid carried it as template residue;
-       record-keyed suppression closes the class instead of card-by-card. -->
+  <p><strong>Skip it if transparent pricing or self-hosting is required.</strong></p>
+  <!-- r34 H-12 (2026-10-06): r33 M-6 keyed the whole five-variant slot on
+       price_from == 0 and deleted 49 honest lines to kill one wrong one.
+       Restored: the slot renders whenever the record carries it; only the
+       free-tier variant is keyed, on pricing_model (free/freemium), not on
+       price_from (pipedream is freemium with price_from 29). SendGrid's
+       false line stays out of the data, not the template. -->
   <p class="meta unverified"><strong>What we could not verify:</strong> installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.</p>
 </section>
 <p class="alt-back">Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse <a href="/tools/">all 166 tools</a> or read <a href="/methodology/">how we evaluate</a>, or download the <a href="/catalog-tools.json">machine-readable catalog</a>.</p>

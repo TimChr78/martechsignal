@@ -98,6 +98,8 @@ Pipedream gives developers the code-first slot. Any step can be code, and any wo
 
 Vendor: [Official site](https://pipedream.com) · [Pricing](https://pipedream.com/pricing)
 
+**Skip it if nobody will write code inside an automation step.**
+
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Workato](/tools/workato/)
@@ -108,6 +110,8 @@ Workato claims enterprise governance by pairing integration with agent controls 
 
 Vendor: [Official site](https://www.workato.com) · [Pricing](https://www.workato.com/pricing)
 
+**Skip it without an enterprise budget and a sales process.**
+
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Tray.io](/tools/tray-io/)
@@ -117,6 +121,8 @@ Tray.io pairs integration with tooling for shipping governed AI apps next to Wor
 **Verdict:** Best for AI app governance plus integration on one platform.
 
 Vendor: [Official site](https://tray.ai) · [Pricing](https://tray.ai/pricing/)
+
+**Skip it if transparent pricing or self-hosting is required.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 

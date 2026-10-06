@@ -62,10 +62,18 @@ def price_label(t):
     pf = t.get("price_from")
     pm = t.get("pricing_model") or ""
     if t.get("open_source"): return "Open source"
-    if pf in (None, 0, "0"): return "Free tier"
+    # r34 M-13 (2026-10-06): "Free tier" keys on pricing_model, never on
+    # price_from — sendgrid carries price_from 19.95 as a paid record and a
+    # stale "Free tier" badge survived in raster. Unit-qualified figures
+    # (trakkr "From $100/brand/mo") so badges match the text-layer fence.
+    if pm in ("free", "freemium") or (pf in (None, 0, "0") and not pm):
+        return "Free tier"
+    if pf in (None, 0, "0"): return pm or "See pricing"
     try:
         v = float(pf)
-        return f"From ${int(v)}/mo" if v == int(v) else f"From ${v}/mo"
+        unit = (t.get("price_unit") or "").strip()
+        fig = f"${int(v)}" if v == int(v) else f"${v}"
+        return f"From {fig}/{unit}/mo" if unit else f"From {fig}/mo"
     except (TypeError, ValueError):
         return pm or "See pricing"
 

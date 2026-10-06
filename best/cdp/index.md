@@ -122,6 +122,8 @@ Tealium enforces enterprise control through tag management plus consent orchestr
 
 Vendor: [Official site](https://tealium.com) · [Pricing](https://tealium.com/pricing/)
 
+**Skip it if procurement cannot fund an unquoted annual contract or the team is below enterprise scale.**
+
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).

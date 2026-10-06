@@ -58,6 +58,8 @@ Intercom anchors the support-platform slot around the Fin AI agent. Essential is
 
 Vendor: [Official site](https://www.intercom.com) · [Pricing](https://www.intercom.com/pricing)
 
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
+
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Chatwoot](/tools/chatwoot/)
@@ -91,6 +93,8 @@ Chatfuel belongs here for brands automating social messaging channels. Business 
 **Verdict:** Messaging-first brands scripting conversations like campaigns
 
 Vendor: [Official site](https://chatfuel.com) · [Pricing](https://chatfuel.com/pricing)
+
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 

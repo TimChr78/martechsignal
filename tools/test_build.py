@@ -2476,23 +2476,65 @@ def test_blog_markup_conversions_keep_stamps():
     assert not _bad, f"conversion-wave stamp drift: {_bad}"
 
 
-def test_best_skip_if_only_on_free_tier_records():
-    """r33 M-6 (2026-10-06): the best-leaf "Skip it if the free tier" line
-    rendered on sendgrid's card after the record went paid. The builder
-    suppresses it unless the record's price_from is 0; this pins that every
-    carrier in content is free-tiered, so a future redecision fails here
-    instead of shipping."""
+def test_best_skip_if_slot_renders_except_mismatched_free_tier():
+    """r34 H-12 (2026-10-06): r33 M-6 keyed the whole five-variant skip_if
+    slot on price_from == 0 and deleted 49 honest lines to kill one wrong
+    one. The slot renders whenever the record carries it; only the
+    free-tier variant is keyed, on pricing_model (free/freemium) — never on
+    price_from (pipedream is freemium with price_from 29). This fails loud
+    on both halves: a free-tier line on a paid record, and a carried line
+    missing from its rendered leaf."""
     import json as _j
+    import re as _re
     _recs = {_t["slug"]: _t for _t in _j.loads((ROOT / "tools" / "tools.json").read_text()) if isinstance(_t, dict)}
     _bx = _j.loads((ROOT / "tools" / "bestx-content.json").read_text())
     _bad = []
+    _missing = []
     for _p in _bx.get("pages", []):
+        _leaf = ROOT / "best" / _p.get("slug", "") / "index.html"
+        _h = _leaf.read_text(errors="ignore") if _leaf.exists() else ""
         for _it in _p.get("items", []):
-            if isinstance(_it, dict) and isinstance(_it.get("skip_if"), str) and "free tier" in _it["skip_if"]:
-                _r = _recs.get(_it.get("slug"), {})
-                if _r.get("price_from") != 0:
-                    _bad.append(f"{_p.get('slug')}/{_it.get('slug')}: paid record carries free-tier skip line")
+            if not (isinstance(_it, dict) and isinstance(_it.get("skip_if"), str)):
+                continue
+            _r = _recs.get(_it.get("slug"), {})
+            _is_free_claim = bool(_re.search(r"free[- ]?(tier|plan|forever|account)", _it["skip_if"], _re.I))
+            if _is_free_claim and _r.get("pricing_model") not in ("free", "freemium"):
+                _bad.append(f"{_p.get('slug')}/{_it.get('slug')}: free-tier skip line on { _r.get('pricing_model')} record")
+            elif not _is_free_claim or _r.get("pricing_model") in ("free", "freemium"):
+                import html as _hh
+                if _hh.escape(_it["skip_if"])[:60] not in _h and _it["skip_if"][:60] not in _h:
+                    _missing.append(f"{_p.get('slug')}/{_it.get('slug')}: carried skip_if not rendered")
     assert not _bad, f"free-tier skip lines on paid records: {_bad}"
+    assert not _missing, f"carried skip_if lines missing from leaves: {_missing[:8]}"
+
+
+def test_badge_price_label_keys_free_tier_on_model_and_qualifies_units():
+    """r34 M-13 (2026-10-06): the webp fact-card layer sold sendgrid a
+    "Free tier" its paid record revoked and trakkr a unit-stripped
+    "$100/mo". "Free tier" keys on pricing_model; figures carry price_unit
+    so raster matches the text-layer fence."""
+    pytest.importorskip("PIL")
+    sys.path.insert(0, str(ROOT / "tools"))
+    import generate_media as _gm
+    _recs = {_t["slug"]: _t for _t in json.loads((ROOT / "tools" / "tools.json").read_text()) if isinstance(_t, dict)}
+    assert _gm.price_label(_recs["sendgrid"]) != "Free tier", "sendgrid is paid: no Free-tier badge"
+    assert _gm.price_label(_recs["trakkr"]) == "From $100/brand/mo", "trakkr badge carries /brand/mo"
+    assert _gm.price_label(_recs["chatfuel"]) == "From $18/mo", "chatfuel badge follows the record"
+    assert _gm.price_label(_recs["pipedream"]) == "Free tier", "freemium keeps Free-tier badge whatever price_from"
+    assert _gm.price_label(_recs["freshsales"]) == "From $9/user/mo", "freshsales badge carries /user/mo"
+
+
+def test_tooljet_ladder_has_no_enterprise_floor():
+    """r34 M-10/M-11 (2026-10-06): the refresh deleted the $3,000 Enterprise
+    floor but left it asserted in one alternatives cell and three tooljet
+    page surfaces (verdict, maturity cell, reviewBody). No surface may
+    assert a floor the record does not carry."""
+    _tj = (ROOT / "tools" / "tooljet" / "index.html").read_text(errors="ignore")
+    assert "Enterprise floor" not in _tj, "tooljet leaf still asserts an Enterprise floor"
+    assert "Enterprise from $3,000" not in _tj, "tooljet leaf still sells the deleted floor"
+    _n8n = (ROOT / "alternatives" / "n8n" / "index.html").read_text(errors="ignore")
+    assert "Enterprise from $3,000" not in _n8n, "alternatives/n8n still sells the deleted floor"
+    assert "Team $199," not in _n8n and "Team $199<" not in _n8n, "alternatives/n8n still sells bare Team $199"
 
 
 def test_no_double_escaped_entities_in_rendered_text():

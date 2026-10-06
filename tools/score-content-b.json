@@ -4388,7 +4388,7 @@
   {
    "slug": "tooljet",
    "score_total": 42,
-   "verdict": "ToolJet generates internal apps from a prompt over {stars:tooljet} stars of AGPL code, with an MCP server for the agent harnesses. Pricing is published down to builder seats and the Enterprise floor.",
+   "verdict": "ToolJet generates internal apps from a prompt over {stars:tooljet} stars of AGPL code, with an MCP server for the agent harnesses. Pricing is published per builder seat from $23/mo, with Enterprise custom-quoted.",
    "pillars": {
     "pricing_transparency": {
      "score": 8,
@@ -4412,7 +4412,7 @@
     },
     "operational_maturity": {
      "score": 6,
-     "evidence": "With priced cloud tiers and an Enterprise floor published (vendor documentation)."
+     "evidence": "With priced cloud tiers from $23/builder/mo and Enterprise custom-quoted (vendor documentation, verified 2026-10-06)."
     }
    },
    "scored": "2026-10-06"

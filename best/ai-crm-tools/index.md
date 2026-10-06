@@ -74,6 +74,8 @@ Salesforce CRM serves as the enterprise anchor built around Einstein AI. Starter
 
 Vendor: [Official site](https://www.salesforce.com/crm/) · [Pricing](https://www.salesforce.com/editions-pricing/overview/)
 
+**Skip it if you have fewer than fifty seats and no dedicated admin: the platform costs more to run than to buy.**
+
 **What we could not verify:** total cost of ownership with Einstein add-ons and a partner implementation folded in.
 
 ## [Zoho CRM](/tools/zoho-crm/)
@@ -96,6 +98,8 @@ Pipedrive keeps the pipeline-first slot focused on deals and forecasting. Essent
 
 Vendor: [Official site](https://www.pipedrive.com) · [Pricing](https://www.pipedrive.com/en/pricing)
 
+**Skip it if marketing and service sit in the same system: Pipedrive is a sales tool, not a suite.**
+
 **What we could not verify:** how the AI forecasting behaves on short, noisy pipelines where most SMB deals live.
 
 ## [Freshsales](/tools/freshsales/)
@@ -105,6 +109,8 @@ Freshsales lands as the low-entry-price pick with built-in phone, email and chat
 **Verdict:** Best for budget-conscious teams that still want AI lead scoring.
 
 Vendor: [Official site](https://www.freshworks.com/crm/) · [Pricing](https://www.freshworks.com/crm/pricing/)
+
+**Skip it if you need deep custom objects: the data model thins out at scale.**
 
 **What we could not verify:** custom-object behaviour at scale, and how Freddy scoring holds up on thin data.
 

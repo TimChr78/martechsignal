@@ -4,9 +4,13 @@
 
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
 
+## Over-narrow fix restored; stale floor purged; raster badges regenerated (October 6)
+
+A follow-up audit found our own fix had been keyed one level too coarsely: suppressing SendGrid’s false free-tier line by record hid forty-nine honest guidance lines from sixteen comparison pages. The slot is restored; only free-tier assertions are keyed now, on the pricing model instead of the price figure. The same audit found the deleted ToolJet $3,000 Enterprise floor still asserted in four places (one alternatives cell, the tool page verdict, its scoring cell, and the review schema): all four now say custom-quoted, matching the record. The image layer was regenerated from the catalog for the first time: card badges that still sold SendGrid a free tier, Chatfuel $39, and a unit-stripped $100 now match the text (including per-brand and per-seat units). Twelve comparison pages, this log, the rulebook page, and one alternatives page restamped for content changes in the same wave; thirty-one glossary pages reverted to their pre-bump stamps after a source edit moved blame dates under byte-identical output. Precision corrections: the wave-twelve entry’s “eleven dead intro fields are deleted” was wrong in the same way its analytics half was (this log, October 6, twice). Three category intros remain because they are live rendered copy with record-accurate figures (Buffer, Hootsuite, Sprout, Intercom, ManyChat checked line by line), not dead fields. The rulebook wording fix from the last wave is logged here, late: editorial wording changes move this log’s stamp, not the tool stamps. The per-record verification run reports the audit asked for stay repo-side for now; the weekly pricing job’s first scheduled run will show whether they need to be served.
+
 ## Vendor re-verification catches a stale ladder; hub stamps pinned (October 6)
 
-An external check of ToolJet’s pricing page found our record out of date: the vendor now sells four cloud tiers including Basic at $23/builder/mo, prices Team per builder ($199/builder/mo, not a $199 flat total), and publishes no $3,000 Enterprise floor. The record, its scoring cell, and every generated surface now carry the refreshed ladder with today’s verification date. The same wave keyed the best-leaf "Skip it if the free tier" line on the record (SendGrid’s paid card no longer asserts a free tier), fixed twenty-two double-escaped entities across fourteen pages at their two interpolation boundaries, and stopped the daily hub restamps: dateless pages now keep their stamp until their content changes, pinned by a committed fingerprint store. Precision correction appended to the wave-twelve entry above: its analytics half was wrong (unrendered field), and eleven dead intro fields are deleted with it.
+An external check of ToolJet’s pricing page found our record out of date: the vendor now sells four cloud tiers including Basic at $23/builder/mo, prices Team per builder ($199/builder/mo, not a $199 flat total), and publishes no $3,000 Enterprise floor. The record, its scoring cell, and every generated surface now carry the refreshed ladder with today’s verification date. The same wave keyed the best-leaf "Skip it if the free tier" line on the record (SendGrid’s paid card no longer asserts a free tier), fixed twenty-two double-escaped entities across fourteen pages at their two interpolation boundaries, and stopped the daily hub restamps: dateless pages now keep their stamp until their content changes, pinned by a committed fingerprint store. Precision correction appended to the wave-twelve entry above: its analytics half was wrong (unrendered field), and eight dead intro fields are deleted with it; three intros stay because they render live with record-accurate figures (see the October 6 entry above).
 
 ## Fifth unit vocabulary: per-brand and per-builder prices qualified (October 6)
 
@@ -127,6 +131,8 @@ Three Claude SEO comparison posts were published without approval by a pipeline 
 Our Claude SEO review carried review-structured data for our own product. We removed the markup; the editorial text remains, clearly labelled.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+2026-10-06
 
 2026-10-06
 

@@ -518,6 +518,23 @@ def build_post(meta: dict, body_html: str) -> str:
     # A2 C1 (2026-09-26): comparison guides join the post-linking layer (the
     # /best/ + /vs/ + /alternatives/ pages were orphaned with zero inlinks).
     commercial = suggest_links.suggest_commercial_for_text(body_html, max_suggestions=2)
+    # r34 N-r34/2 (2026-10-06): per-post commercial exclusion. The CDP
+    # reckoning post keyword-matched the email-marketing best leaf (a
+    # warehouse-native CDP argument linking an email-buying guide is
+    # fit-worsening); frontmatter commercial_exclude drops listed slugs.
+    _cexc = meta.get("commercial_exclude") or []
+    if isinstance(_cexc, str):
+        _cexc = [_cexc]
+    if _cexc:
+        _cexs = set(_cexc)
+        def _cslug(it):
+            return (it.get("slug") or it.get("url", "").strip("/").split("/")[-1])
+        commercial = [it for it in commercial if _cslug(it) not in _cexs]
+        if len(commercial) < 2:
+            _back = [it for it in suggest_links.suggest_commercial_for_text(
+                body_html, max_suggestions=4) if _cslug(it) not in _cexs
+                and it not in commercial]
+            commercial += _back[:2 - len(commercial)]
     if commercial:
         clinks = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(html.unescape(item['title']), quote=False) + '</a></li>' for item in commercial)
         body_html += '<section class="related-reading"><h2>Comparison guides</h2><ul>' + clinks + '</ul></section>'

@@ -2,7 +2,7 @@
 
 ## Methodology
 
-By [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-05
+By [Tim Christensen](/authors/tim-christensen/) · Updated 2026-10-06
 
 Everything on MartechSignal follows one evidence standard and one scoring rubric. Both are published here so you can check our work.
 
@@ -48,7 +48,7 @@ A claim ships on a page only when a source is attached to it at write time. If t
 
 ## Freshness stamps
 
-A page's dateModified answers "when did the underlying facts last change", not "when was this file last rebuilt". Tool pages ride the vendor-data verification day: re-verifying a price against the vendor page moves the stamp; rebuilding the page for a template change does not. Comparison pages restamp when their content changes: new verdicts, new prices, new picks. Pure template changes (cross-link blocks, CSS, schema reshapes that carry no new facts) leave every stamp they touch unmoved, and the visible "prices as of" line names the verification day on the pages that carry it, so a reader never has to trust the stamp alone. Blog posts restamp only when their bytes change. r32 L-36 (2026-10-06): markup conversions are byte changes with no new facts. Five posts converted to real blockquote markup in one wave and exactly one of the five moved its stamp, the inconsistent middle under both clauses. The rule for markup-only conversions: they do not move stamps. The one moved stamp is reverted, not grandfathered, and this sentence is why. Editorial corrections of our own wording with no vendor-data change (a mislabeled qualifier, a stale anchor) do not move tool-page stamps; the correction is logged on the corrections page like any other factual fix, and that page's own stamp moves instead. When a stamp is wrong, the correction is logged on the corrections page like any other factual fix.
+A page's dateModified answers "when did the underlying facts last change", not "when was this file last rebuilt". Tool pages ride the vendor-data verification day: re-verifying a price against the vendor page moves the stamp; rebuilding the page for a template change does not. Comparison pages restamp when their content changes: new verdicts, new prices, new picks. Pure template changes (cross-link blocks, CSS, schema reshapes that carry no new facts) leave every stamp they touch unmoved, and the visible "prices as of" line names the verification day on the pages that carry it, so a reader never has to trust the stamp alone. Blog posts restamp only when their bytes change. r32 L-36 (2026-10-06): markup conversions are byte changes with no new facts. Five posts converted to real blockquote markup in one wave and exactly one of the five moved its stamp, the inconsistent middle under both clauses. The rule for markup-only conversions: they do not move stamps. The one moved stamp is reverted, not grandfathered, and this sentence is why. Editorial corrections of our own wording with no vendor-data change (a mislabeled qualifier, a stale anchor) do not move tool-page stamps; the correction is logged on the corrections page like any other factual fix, and that page's own stamp moves instead. When a stamp is wrong, the correction is logged on the corrections page like any other factual fix. r34 M-12 (2026-10-06): the rule cuts both ways. A wave that changed reader-visible copy on twelve best leaves, this page, and one alternatives page shipped all of them with unmoved clocks while correctly pinning ten untouched hubs. Changed pages restamp; the pin store now feeds both directions.
 
 ## Corrections
 

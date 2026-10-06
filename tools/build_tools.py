@@ -3782,22 +3782,33 @@ def sync_date_modified():
         # sig-guard: same content keeps its stamp, changed content takes
         # the new one. The store is committed, so the pin holds across
         # builds and checkouts; a page whose only diff is dates never moves.
-        if _from_blame:
-            _mask = _re.sub(r"\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2})?([+-]\d{2}:?\d{2}|Z)?)?", "DATE", _s)
-            _sig = __import__("hashlib").sha1(_mask.encode()).hexdigest()[:16]
-            _key = _p.relative_to(ROOT).as_posix()
-            _prev = _DMSIGS.get(_key)
-            if _prev and _prev.get("sig") == _sig and _prev.get("dm"):
-                _val = _prev["dm"]
-            else:
-                # First sight: pin the stamp the page already carries (no
-                # restamp tonight), so the store seeds without moving
-                # anything; only genuine content diffs move stamps after.
-                _cur = _re.search(r'"dateModified"\s*:\s*"([0-9]{4}-[0-9]{2}-[0-9]{2})', _s)
-                _seed = _cur.group(1) if _cur and "2000-01-01" <= _cur.group(1) <= "2030-01-01" else _val
-                _DMSIGS[_key] = {"sig": _sig, "dm": _seed}
-                _val = _seed
-                _DMSIG_DIRTY.append(1)
+        # r34 M-12/L-42 (2026-10-06): pins bind builder-declared dates too.
+        # The max-unify above lets a moved blame source restamp
+        # byte-identical output (31 glossary pages bumped 10-05 to 10-06 by
+        # an entity-unescape commit that changed zero rendered bytes).
+        # Same content-sig keeps the pinned stamp; changed content releases
+        # it by mismatch, so data-driven restamps (best leaves, tools) are
+        # unaffected.
+        _mask = _re.sub(r"\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2})?([+-]\d{2}:?\d{2}|Z)?)?", "DATE", _s)
+        _sig = __import__("hashlib").sha1(_mask.encode()).hexdigest()[:16]
+        _key = _p.relative_to(ROOT).as_posix()
+        _prev = _DMSIGS.get(_key)
+        if _prev and _prev.get("sig") == _sig and _prev.get("dm"):
+            _val = _prev["dm"]
+        elif _from_blame:
+            # First sight: pin the stamp the page already carries (no
+            # restamp tonight), so the store seeds without moving
+            # anything; only genuine content diffs move stamps after.
+            _cur = _re.search(r'"dateModified"\s*:\s*"([0-9]{4}-[0-9]{2}-[0-9]{2})', _s)
+            _seed = _cur.group(1) if _cur and "2000-01-01" <= _cur.group(1) <= "2030-01-01" else _val
+            _DMSIGS[_key] = {"sig": _sig, "dm": _seed}
+            _val = _seed
+            _DMSIG_DIRTY.append(1)
+        elif _prev and _prev.get("sig") != _sig:
+            # Declared-date page whose content moved: re-pin at the new
+            # stamp so the next identical rebuild holds it.
+            _DMSIGS[_key] = {"sig": _sig, "dm": _val}
+            _DMSIG_DIRTY.append(1)
         # r18 H-2 (2026-09-30): the template entity (ItemList/Article) carries
         # its own authored dateModified while the injector adds a second one
         # with the blame date - 101 pages with 2 distinct values, and the
