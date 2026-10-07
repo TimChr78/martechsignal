@@ -98,8 +98,8 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 - [Intercom](/tools/intercom/) - AI-first customer service platform with Fin AI agent and omnichannel messaging
 ## Comparison guides
 
-- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -108,6 +108,6 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [MarketMuse](/tools/marketmuse/)
+More from the directory: [OpenOutreach](/tools/openoutreach/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

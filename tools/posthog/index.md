@@ -88,7 +88,7 @@ The default choice for product and marketing analytics when one tool should cove
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ The ee/ directory is under a separate enterprise license, so the codebase is not wholly MIT |
 | ✓ AI capabilities: postHog AI assistant for natural language queries (500 free credits per month) | ✗ Usage-based pricing means costs track volume, and heavy session replay or event traffic moves the bill |
-| ✓ Active public repository (40,154 GitHub stars counted at last check) | ✗ Feature depth per product trails the focused specialists in each category |
+| ✓ Active public repository (40,167 GitHub stars counted at last check) | ✗ Feature depth per product trails the focused specialists in each category |
 | ✓ Native integrations include Slack, GitHub, Zapier (6 listed) |  |
 | ✓ The monthly free tier covers every product and stops usage at the limits, so a spike cannot create a surprise invoice |  |
 | ✓ One platform replaces several separate martech purchases with one tag and one billing page |  |
@@ -108,10 +108,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is PostHog?**
-PostHog: Open-source product analytics platform with session replay, feature flags, experiments, and surveys. PostHog ships with postHog AI assistant for natural language queries (500 free credits per month). The public repository carries 40,154 stars.
+PostHog: Open-source product analytics platform with session replay, feature flags, experiments, and surveys. PostHog ships with postHog AI assistant for natural language queries (500 free credits per month). The public repository carries 40,167 stars.
 
 **How much does PostHog cost?**
-PostHog is open source - MIT licensed and free to self-host; the public repository carries 40,154 stars; native integrations cover Slack, GitHub, Zapier. You pay in server time and maintenance, not licences.
+PostHog is open source - MIT licensed and free to self-host; the public repository carries 40,167 stars; native integrations cover Slack, GitHub, Zapier. You pay in server time and maintenance, not licences.
 
 **Is PostHog worth it past the free tier?**
 The default choice for product and marketing analytics when one tool should cover funnels, replay, flags, and surveys. The free tier is large enough to run a real product on, and the per-product billing limits keep costs bounded.
@@ -147,11 +147,11 @@ PostHog AI answers questions about your data in plain language across web, Slack
 
 - **Pricing:** Freemium
 - **Category:** [Analytics & Attribution](/categories/analytics/)
-- **GitHub:** ★ 40154
+- **GitHub:** ★ 40167
 - **Founded:** 2020
 - **HQ:** San Francisco, United States
 - **API:** Yes
-- **Repository checked:** 2026-10-06
+- **Repository checked:** 2026-10-07
 - **Page updated:** 2026-09-25
 
 Related guides: [PostHog in Matomo alternatives](/alternatives/matomo/)

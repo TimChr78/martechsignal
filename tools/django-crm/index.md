@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Django CRM
-Re-check pending: pricing last verified 2026-09-06 (30 days ago).
+Re-check pending: pricing last verified 2026-09-06 (31 days ago).
 
 ## Django CRM review (2026): pricing, AI features, verdict
 
@@ -95,7 +95,7 @@ A disciplined, well-documented multi-tenant CRM for Django teams that want to ow
 | Pros | Cons |
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ Active public repository (2,435 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,438 GitHub stars counted at last check) |  |
 | ✓ Native integrations include REST API (OpenAPI 3 schema), Swagger UI, Google OAuth (5 listed) |  |
 
 ## Related concepts
@@ -113,10 +113,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Django CRM?**
-Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. The public repository carries 2,435 stars. Django CRM offers a public API for custom integrations.
+Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. The public repository carries 2,438 stars. Django CRM offers a public API for custom integrations.
 
 **How much does Django CRM cost?**
-Django CRM is open source - MIT licensed and free to self-host; the public repository carries 2,435 stars; native integrations cover REST API (OpenAPI 3 schema), Swagger UI, Google OAuth. You pay in server time and maintenance, not licences.
+Django CRM is open source - MIT licensed and free to self-host; the public repository carries 2,438 stars; native integrations cover REST API (OpenAPI 3 schema), Swagger UI, Google OAuth. You pay in server time and maintenance, not licences.
 
 **Is Django CRM a good self-hosted CRM tool in 2026?**
 A disciplined, well-documented multi-tenant CRM for Django teams that want to own the code. Everyone else gets faster value from a hosted product with a larger community.
@@ -140,15 +140,15 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 2435
+- **GitHub:** ★ 2438
 - **API:** Yes
-- **Repository checked:** 2026-10-06
+- **Repository checked:** 2026-10-07
 - **Page updated:** 2026-09-06
 
 ## Get the next teardown

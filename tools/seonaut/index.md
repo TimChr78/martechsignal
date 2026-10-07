@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Seonaut
-Re-check pending: pricing last verified 2026-09-07 (29 days ago).
+Re-check pending: pricing last verified 2026-09-07 (30 days ago).
 
 ## Seonaut review (2026): pricing, AI features, verdict
 

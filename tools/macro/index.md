@@ -108,7 +108,7 @@ A genuinely open-source workspace whose CRM is a byproduct of team email: real f
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $40/seat/mo once past the free tier |
 | ✓ AI capabilities: agent-driven CRM that builds contact and company records from your team's email |  |
-| ✓ Active public repository (4,565 GitHub stars counted at last check) |  |
+| ✓ Active public repository (4,577 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -125,7 +125,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Macro?**
-Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,565 stars.
+Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,577 stars.
 
 **How much does Macro cost?**
 Macro has a free tier; paid plans start at $40/seat/mo. Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0. We last checked both ends of that split on 2026-10-06. The pricing section above shows what the free tier actually covers.
@@ -155,11 +155,11 @@ Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focu
 
 - **Pricing:** Freemium from $40/seat/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 4565
+- **GitHub:** ★ 4577
 - **Founded:** 2020
 - **HQ:** New York, NY, USA
 - **API:** Yes
-- **Repository checked:** 2026-10-06
+- **Repository checked:** 2026-10-07
 - **Page updated:** 2026-10-06
 
 ## Get the next teardown

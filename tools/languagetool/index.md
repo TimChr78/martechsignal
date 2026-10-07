@@ -88,7 +88,7 @@ The writing checker to run yourself when text cannot leave your infrastructure, 
 | --- | --- |
 | ✓ LGPL-2.1 licence with free self-hosting | ✗ The AI style and tone suggestions sit behind Premium, so the free tier is the rule-based checker plus basic add-ons |
 | ✓ AI capabilities: AI style and tone suggestions | ✗ Suggestion depth varies by language, with English getting the most attention |
-| ✓ Active public repository (15,107 GitHub stars counted at last check) | ✗ Pricing is served in localized currency, so published figures differ by market and are hard to compare |
+| ✓ Active public repository (15,110 GitHub stars counted at last check) | ✗ Pricing is served in localized currency, so published figures differ by market and are hard to compare |
 | ✓ Native integrations include Google Chrome, Mozilla Firefox, Microsoft Edge (6 listed) |  |
 | ✓ The self-hosted server is free and keeps checked text on your own infrastructure |  |
 | ✓ Client coverage is broad: browsers, mail clients, and office suites without a separate connector |  |
@@ -107,10 +107,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is LanguageTool?**
-LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,107 stars.
+LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,110 stars.
 
 **How much does LanguageTool cost?**
-LanguageTool is open source - LGPL-2.1 licensed and free to self-host; the public repository carries 15,107 stars; native integrations cover Google Chrome, Mozilla Firefox, Microsoft Edge. You pay in server time and maintenance, not licences.
+LanguageTool is open source - LGPL-2.1 licensed and free to self-host; the public repository carries 15,110 stars; native integrations cover Google Chrome, Mozilla Firefox, Microsoft Edge. You pay in server time and maintenance, not licences.
 
 **Is LanguageTool worth it past the free tier?**
 The writing checker to run yourself when text cannot leave your infrastructure, and a solid free add-on stack when it can. Pay for Premium only if the AI style suggestions and paraphrasing land in daily use.
@@ -143,10 +143,10 @@ No. It catches grammar, punctuation, and spelling problems and offers style and 
 
 - **Pricing:** Freemium
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **GitHub:** ★ 15107
+- **GitHub:** ★ 15110
 - **HQ:** Hamburg, Germany
 - **API:** Yes
-- **Repository checked:** 2026-10-06
+- **Repository checked:** 2026-10-07
 - **Page updated:** 2026-09-25
 
 ## Get the next teardown

@@ -213,6 +213,7 @@
 
 ## Analysis
 
+- [Braze moves AI into campaign ops: who approves?](https://martechsignal.com/blog/braze-ai-campaign-operations/) (2026-10-07)
 - [The retainer just broke: agencies won't own tools or data](https://martechsignal.com/blog/agency-retainer-agentic-tools/) (2026-10-06)
 - [19 open-source MCP servers, one marketing agent](https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/) (2026-10-05)
 - [SQREEM's bet: behavior beats language](https://martechsignal.com/blog/sqreem-behavioral-model-vs-llm/) (2026-10-02)

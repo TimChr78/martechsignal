@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Relaticle
-Re-check pending: pricing last verified 2026-09-07 (29 days ago).
+Re-check pending: pricing last verified 2026-09-07 (30 days ago).
 
 ## Relaticle review (2026): pricing, AI features, verdict
 
@@ -104,7 +104,7 @@ A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: 
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/workspace/mo |
 | ✓ AI capabilities: native AI agent support |  |
-| ✓ Active public repository (1,752 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,755 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -121,7 +121,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Relaticle?**
-Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,752 stars.
+Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,755 stars.
 
 **How much does Relaticle cost?**
 Relaticle has a free tier; paid plans start at $19/workspace/mo. Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -147,16 +147,16 @@ Self-hosting is free under AGPL-3.0 with unlimited users and records on your own
 ## Related reading
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $19/workspace/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 1752
+- **GitHub:** ★ 1755
 - **Founded:** 2024
 - **API:** Yes
-- **Repository checked:** 2026-10-06
+- **Repository checked:** 2026-10-07
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

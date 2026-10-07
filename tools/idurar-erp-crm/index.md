@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - IDURAR ERP & CRM
-Re-check pending: pricing last verified 2026-09-07 (29 days ago).
+Re-check pending: pricing last verified 2026-09-07 (30 days ago).
 
 ## IDURAR ERP & CRM review (2026): pricing, AI features, verdict
 
@@ -94,7 +94,7 @@ A compact AGPL starting point for custom MERN invoicing and payments work, not a
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5,000 one-time |
 | ✓ API access for custom integrations |  |
-| ✓ Active public repository (8,844 GitHub stars counted at last check) |  |
+| ✓ Active public repository (8,854 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -111,7 +111,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is IDURAR ERP & CRM?**
-IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,844 stars. IDURAR ERP & CRM offers a public API for custom integrations.
+IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,854 stars. IDURAR ERP & CRM offers a public API for custom integrations.
 
 **How much does IDURAR ERP & CRM cost?**
 IDURAR ERP & CRM has a free tier; paid plans start at $5,000 one-time. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -143,9 +143,9 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 
 - **Pricing:** Open Source from $5,000 one-time
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 8844
+- **GitHub:** ★ 8854
 - **API:** Yes
-- **Repository checked:** 2026-10-06
+- **Repository checked:** 2026-10-07
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

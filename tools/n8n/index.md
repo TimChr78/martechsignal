@@ -91,7 +91,7 @@ The right choice when you want owned automation with code-level control and no p
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at €20/mo |
 | ✓ AI capabilities: AI agent nodes |  |
-| ✓ Active public repository (206,737 GitHub stars counted at last check) |  |
+| ✓ Active public repository (206,786 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Slack, Google Sheets, Gmail (8 listed) |  |
 
 ## Related concepts
@@ -109,7 +109,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is n8n?**
-n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,737 stars.
+n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,786 stars.
 
 **How much does n8n cost?**
 n8n has a free tier; paid plans start at €20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -126,8 +126,8 @@ The right choice when you want owned automation with code-level control and no p
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for self-hosted workflows with code steps and AI agents.
@@ -138,11 +138,11 @@ The right choice when you want owned automation with code-level control and no p
 
 - **Pricing:** Open Source from €20/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 206737
+- **GitHub:** ★ 206786
 - **Founded:** 2019
 - **HQ:** Berlin, Germany
 - **API:** Yes
-- **Repository checked:** 2026-10-06
+- **Repository checked:** 2026-10-07
 - **Page updated:** 2026-09-27
 
 Related guides: [n8n in Zapier alternatives](/alternatives/zapier/) · [n8n vs Zapier](/vs/n8n-vs-zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

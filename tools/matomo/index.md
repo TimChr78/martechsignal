@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Matomo
-Re-check pending: pricing last verified 2026-09-06 (30 days ago).
+Re-check pending: pricing last verified 2026-09-06 (31 days ago).
 
 ## Matomo review (2026): pricing, AI features, verdict
 
@@ -109,7 +109,7 @@ The analytics platform to pick when data residency and ownership are requirement
 | --- | --- |
 | ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €22/mo |
 | ✓ AI capabilities: AI chatbot traffic reports |  |
-| ✓ Active public repository (21,924 GitHub stars counted at last check) |  |
+| ✓ Active public repository (21,929 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WordPress, Matomo Tag Manager, Google Tag Manager (8 listed) |  |
 
 ## Related concepts
@@ -126,7 +126,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Matomo?**
-Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,924 stars.
+Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,929 stars.
 
 **How much does Matomo cost?**
 Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -167,11 +167,11 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 
 - **Pricing:** Open Source from €22/mo
 - **Category:** [Analytics & Attribution](/categories/analytics/)
-- **GitHub:** ★ 21924
+- **GitHub:** ★ 21929
 - **Founded:** 2007
 - **HQ:** Wellington, New Zealand
 - **API:** Yes
-- **Repository checked:** 2026-10-06
+- **Repository checked:** 2026-10-07
 - **Page updated:** 2026-09-06
 
 Related guides: [Alternatives to Matomo](/alternatives/matomo/) · [Matomo vs Plausible](/vs/matomo-vs-plausible/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

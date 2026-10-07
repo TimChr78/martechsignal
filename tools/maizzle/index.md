@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Maizzle
-Re-check pending: pricing last verified 2026-09-07 (29 days ago).
+Re-check pending: pricing last verified 2026-09-07 (30 days ago).
 
 ## Maizzle review (2026): pricing, AI features, verdict
 
@@ -83,7 +83,7 @@ The strongest answer for developer-maintained email templates in 2026, now on Ta
 | Pros | Cons |
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ Active public repository (2,864 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,863 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -98,10 +98,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Maizzle?**
-Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,864 stars.
+Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,863 stars.
 
 **How much does Maizzle cost?**
-Maizzle is open source - Free to self-host; the public repository carries 2,864 stars. You pay in server time and maintenance, not licences.
+Maizzle is open source - Free to self-host; the public repository carries 2,863 stars. You pay in server time and maintenance, not licences.
 
 **What does running Maizzle actually cost?**
 The strongest answer for developer-maintained email templates in 2026, now on Tailwind 4 and Vite; budget migration time from v5, and keep a separate tool for sending and analytics.
@@ -131,9 +131,9 @@ Both paths are documented on the docs site as migration guides, alongside deploy
 
 - **Pricing:** Free
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 2864
+- **GitHub:** ★ 2863
 - **API:** No
-- **Repository checked:** 2026-10-05
+- **Repository checked:** 2026-10-07
 - **Page updated:** 2026-09-07
 
 ### Pricing

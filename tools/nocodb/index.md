@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - NocoDB
-Re-check pending: pricing last verified 2026-09-07 (29 days ago).
+Re-check pending: pricing last verified 2026-09-07 (30 days ago).
 
 ## NocoDB review (2026): pricing, AI features, verdict
 
@@ -108,7 +108,7 @@ The shortest self-hosted path from spreadsheet chaos to a permissioned, API-cove
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $12/seat/mo once past the free tier |
 | ✓ AI capabilities: nocoAI prompt-based schema, table, view and formula generation (paid) |  |
-| ✓ Active public repository (65,195 GitHub stars counted at last check) |  |
+| ✓ Active public repository (65,210 GitHub stars counted at last check) |  |
 | ✓ Native integrations include PostgreSQL, MySQL, SQLite (8 listed) |  |
 
 ## Related concepts
@@ -126,7 +126,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is NocoDB?**
-NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 65,195 stars.
+NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 65,210 stars.
 
 **How much does NocoDB cost?**
 NocoDB has a free tier; paid plans start at $12/seat/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -163,9 +163,9 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 
 - **Pricing:** Open-core from $12/seat/mo
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 65195
+- **GitHub:** ★ 65210
 - **API:** Yes
-- **Repository checked:** 2026-10-06
+- **Repository checked:** 2026-10-07
 - **Page updated:** 2026-09-07
 
 Related guides: [NocoDB vs Nocobase](/vs/nocodb-vs-nocobase/) · [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)

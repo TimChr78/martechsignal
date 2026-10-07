@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Line Harness
-Re-check pending: pricing last verified 2026-09-07 (29 days ago).
+Re-check pending: pricing last verified 2026-09-07 (30 days ago).
 
 ## Line Harness review (2026): pricing, AI features, verdict
 
@@ -103,10 +103,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Line Harness?**
-Line Harness: Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Line Harness ships with MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language). The public repository carries 597 stars.
+Line Harness: Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Line Harness ships with MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language). The public repository carries 598 stars.
 
 **How much does Line Harness cost?**
-Line Harness is open source - MIT licensed and free to self-host; the public repository carries 597 stars; native integrations cover LINE Messaging API, LINE LIFF, Google Calendar. You pay in server time and maintenance, not licences.
+Line Harness is open source - MIT licensed and free to self-host; the public repository carries 598 stars; native integrations cover LINE Messaging API, LINE LIFF, Google Calendar. You pay in server time and maintenance, not licences.
 
 **Is Line Harness a good self-hosted Marketing Automation tool in 2026?**
 The first credible free alternative to L-Step for LINE marketing in Japan. Outside Japan there is no use case.
@@ -139,11 +139,11 @@ The docs describe BAN detection with automatic friend migration to the next acco
 
 - **Pricing:** Open Source
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 597
+- **GitHub:** ★ 598
 - **Founded:** 2026
 - **HQ:** Tokyo, Japan
 - **API:** Yes
-- **Repository checked:** 2026-10-06
+- **Repository checked:** 2026-10-07
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

@@ -30,7 +30,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** yes
 - **Catalogued integrations:** 8
-- **GitHub stars:** 850
+- **GitHub stars:** 854
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -132,10 +132,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Digital Marketing Pro?**
-Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 850 stars.
+Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 854 stars.
 
 **How much does Digital Marketing Pro cost?**
-Digital Marketing Pro is open source - MIT licensed and free to self-host; the public repository carries 850 stars; native integrations cover Claude Code, Anthropic Cowork, OpenAI Codex. You pay in server time and maintenance, not licences.
+Digital Marketing Pro is open source - MIT licensed and free to self-host; the public repository carries 854 stars; native integrations cover Claude Code, Anthropic Cowork, OpenAI Codex. You pay in server time and maintenance, not licences.
 
 **Is Digital Marketing Pro a good self-hosted Agent Skills tool in 2026?**
 Reasonable scaffolding for agent-run campaign planning; brings process, not magic.
@@ -162,10 +162,10 @@ Yes. The catalog records a public API for Digital Marketing Pro, so custom integ
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 850
+- **GitHub:** ★ 854
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-05
+- **Repository checked:** 2026-10-07
 - **Page updated:** 2026-09-28
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

@@ -2387,6 +2387,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:braze-ai-campaign-operations",
+   "displayName": "Braze moves AI into campaign ops: who approves?",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/braze-ai-campaign-operations/",
+   "description": "Braze announced Decisioning Studio Go, Agentic Standards, and Operator Connect at Forge. AI now picks variants, runs QA, and builds campaigns.",
+   "representativeQueries": [
+    "braze moves ai into campaign ops: who approves?",
+    "braze ai campaign operations"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:cdp-reckoning-warehouse-native",
    "displayName": "The CDP Reckoning: Your Next CDP Is a Warehouse",
    "type": "text/html",

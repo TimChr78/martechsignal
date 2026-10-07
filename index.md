@@ -8,6 +8,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### Braze moved AI from content to campaign operations: who approves when the campaign runs itself
+
+At its Forge conference in Las Vegas, Braze announced three products that move AI out of the copy editor and into campaign operations: BrazeAI Decisioning Studio Go, Agentic…
+
 ### Agencies don't want to own your AI tools or your data: the retainer model just broke
 
 At AdExchanger's Programmatic IO in New York, a panel of agency executives argued that the agency should not own the agentic AI tools built for a client, and should not own the…
@@ -19,10 +23,6 @@ An agent can now run a marketing loop end to end on open source. We counted this
 ### SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing
 
 On September 23, 2026, the behavioral intelligence company SQREEM appointed Stephen Yap as CEO and handed him a contrarian pitch to sell: the company's Large Behavioral Model, a…
-
-### Rethink, not rebuild: Jon Miller and the replatform-for-AI trap
-
-Jon Miller co-founded Marketo, then founded Engagio, the account-based marketing platform Demandbase bought in 2020 (Demandbase press release). This week he came back to the…
 
 ## Tool index
 

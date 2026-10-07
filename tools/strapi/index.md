@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Strapi
-Re-check pending: pricing last verified 2026-08-28 (39 days ago).
+Re-check pending: pricing last verified 2026-08-28 (40 days ago).
 
 ## Strapi review (2026): pricing, AI features, verdict
 
@@ -87,7 +87,7 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $99/mo |
 | ✓ AI capabilities: AI content generation |  |
-| ✓ Active public repository (73,280 GitHub stars counted at last check) |  |
+| ✓ Active public repository (73,287 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Next.js, Nuxt, Gatsby (8 listed) |  |
 
 ## Related concepts
@@ -103,7 +103,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Strapi?**
-Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,280 stars.
+Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,287 stars.
 
 **How much does Strapi cost?**
 Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -120,8 +120,8 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Teams that want a headless CMS with AI inside their own stack
@@ -129,11 +129,11 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 
 - **Pricing:** Open Source from $99/mo
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **GitHub:** ★ 73280
+- **GitHub:** ★ 73287
 - **Founded:** 2015
 - **HQ:** Paris, France
 - **API:** Yes
-- **Repository checked:** 2026-10-06
+- **Repository checked:** 2026-10-07
 - **Page updated:** 2026-08-28
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
