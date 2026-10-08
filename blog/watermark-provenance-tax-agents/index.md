@@ -64,8 +64,8 @@ The provenance tax is real, but the invoice is split. Platforms pay it in compli
 ## Related tools
 
 - [Digital Marketing Pro](/tools/digital-marketing-pro/) - 163-skill AI marketing plugin for agencies with EU AI Act compliance
+- [Marketing Skills (coreyhaines31)](/tools/marketingskills/) - ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Claude SEO](/tools/claude-seo/) - Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
-- [Nimt.ai](/tools/nimt-ai/) - AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 ## Comparison guides
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)

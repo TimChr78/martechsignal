@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Semrush
-Re-check pending: pricing last verified 2026-08-28 (40 days ago).
+Re-check pending: pricing last verified 2026-08-28 (41 days ago).
 
 ## Semrush review (2026): pricing, AI features, verdict
 
@@ -115,8 +115,8 @@ The most complete all-in-one SEO platform on the market; buy the tier you need, 
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for SEO teams that want audits, rank tracking and content scoring in one suite.

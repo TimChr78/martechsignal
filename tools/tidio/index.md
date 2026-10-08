@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Tidio
-Re-check pending: pricing last verified 2026-08-28 (40 days ago).
+Re-check pending: pricing last verified 2026-08-28 (41 days ago).
 
 ## Tidio review (2026): pricing, AI features, verdict
 

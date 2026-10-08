@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Eve Marketing Team Template
-Re-check pending: pricing last verified 2026-08-31 (37 days ago).
+Re-check pending: pricing last verified 2026-08-31 (38 days ago).
 
 KIND: Utility (not an end-to-end platform)
 
@@ -113,9 +113,9 @@ The fastest way to see a multi-agent marketing team running on real tools, and a
 ## Similar Tools
 
 - [Email Marketing Bible](/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
+- [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
-- [Digital Marketing Pro](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 ## Related reading
 

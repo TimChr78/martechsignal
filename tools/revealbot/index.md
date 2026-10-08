@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Revealbot (Birch)
-Re-check pending: pricing last verified 2026-09-07 (30 days ago).
+Re-check pending: pricing last verified 2026-09-07 (31 days ago).
 
 ## Revealbot (Birch) review (2026): pricing, AI features, verdict
 

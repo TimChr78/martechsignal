@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://martechsignal.com/</loc><lastmod>2026-10-07</lastmod></url>
-  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://martechsignal.com/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://martechsignal.com/checklist/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/blog/agents-identity-debt/</loc><lastmod>2026-09-25</lastmod></url>
   <url><loc>https://martechsignal.com/blog/ai-agents-need-campaign-state/</loc><lastmod>2026-09-27</lastmod></url>
@@ -51,7 +51,7 @@
   <url><loc>https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/blog/agency-retainer-agentic-tools/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/blog/braze-ai-campaign-operations/</loc><lastmod>2026-10-07</lastmod></url>
-  <url><loc>https://martechsignal.com/tools/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/tools/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://martechsignal.com/contact/</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://martechsignal.com/corrections/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/about/</loc><lastmod>2026-10-05</lastmod></url>
@@ -225,6 +225,7 @@
   <url><loc>https://martechsignal.com/tools/zoho-crm/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/tools/ai-marketing-claude/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/tools/digital-marketing-pro/</loc><lastmod>2026-09-28</lastmod></url>
+  <url><loc>https://martechsignal.com/tools/marketingskills/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://martechsignal.com/guides/</loc></url>
   <url><loc>https://martechsignal.com/guides/generative-engine-optimization/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/guides/mcp-agent-protocols/</loc><lastmod>2026-09-28</lastmod></url>
@@ -243,8 +244,8 @@
   <url><loc>https://martechsignal.com/categories/seo/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/categories/geo-llm-visibility/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/categories/workflow-automation/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/agent-skills/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/open-source/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/agent-skills/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/open-source/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/abm/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/agentic-marketing/</loc><lastmod>2026-10-05</lastmod></url>

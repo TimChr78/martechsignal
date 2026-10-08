@@ -135,7 +135,7 @@ Not a marketer-facing one. Unomi is a REST server, and the privacy and configura
 - **GitHub:** ★ 375
 - **HQ:** Apache Software Foundation (community-governed)
 - **API:** Yes
-- **Repository checked:** 2026-09-29
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-09-25
 
 Related guides: [Cdp](/best/cdp/)

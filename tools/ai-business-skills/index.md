@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - AI Business Skills
-Re-check pending: pricing last verified 2026-08-28 (40 days ago).
+Re-check pending: pricing last verified 2026-08-28 (41 days ago).
 
 ## AI Business Skills review (2026): pricing, AI features, verdict
 
@@ -108,10 +108,10 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 
 ## Similar Tools
 
+- [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 - [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
-- [AI Marketing Suite](/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports
 - [Digital Marketing Pro](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
 ## Related reading
 

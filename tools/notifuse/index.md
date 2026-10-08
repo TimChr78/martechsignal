@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Notifuse
-Re-check pending: pricing last verified 2026-08-28 (40 days ago).
+Re-check pending: pricing last verified 2026-08-28 (41 days ago).
 
 ## Notifuse review (2026): pricing, AI features, verdict
 
@@ -92,7 +92,7 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/mo |
 | ✓ AI capabilities: AI email copy generation via Anthropic, OpenAI, or Gemini |  |
-| ✓ Active public repository (2,236 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,237 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Amazon SES, Postmark, SendGrid (12 listed) |  |
 
 ## Related concepts
@@ -108,7 +108,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Notifuse?**
-Notifuse: Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations. Notifuse ships with AI email copy generation via Anthropic, OpenAI, or Gemini. The public repository carries 2,236 stars.
+Notifuse: Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations. Notifuse ships with AI email copy generation via Anthropic, OpenAI, or Gemini. The public repository carries 2,237 stars.
 
 **How much does Notifuse cost?**
 Notifuse has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0, all features). Cloud from $19/mo (2,500 contacts); BYO ESP, unlimited sends. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -134,10 +134,10 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 
 - **Pricing:** Open Source from $19/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 2236
+- **GitHub:** ★ 2237
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-08-28
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

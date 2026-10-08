@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - ProspectOS
-Re-check pending: pricing last verified 2026-08-31 (37 days ago).
+Re-check pending: pricing last verified 2026-08-31 (38 days ago).
 
 ## ProspectOS review (2026): pricing, AI features, verdict
 
@@ -113,7 +113,7 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 ## Related reading
 
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ### Quick Facts
 

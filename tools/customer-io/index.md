@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Customer.io
-Re-check pending: pricing last verified 2026-09-06 (31 days ago).
+Re-check pending: pricing last verified 2026-09-06 (32 days ago).
 
 ## Customer.io review (2026): pricing, AI features, verdict
 
@@ -144,9 +144,9 @@ Email and transactional email, push and in-app with unlimited sends on every pla
 - [Ortto](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
 ## Related reading
 
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Lifecycle teams writing behavior-triggered journeys on their own data

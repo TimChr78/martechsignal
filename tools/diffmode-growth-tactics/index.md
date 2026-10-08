@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Diffmode Growth Tactics
-Re-check pending: pricing last verified 2026-08-31 (37 days ago).
+Re-check pending: pricing last verified 2026-08-31 (38 days ago).
 
 ## Diffmode Growth Tactics review (2026): pricing, AI features, verdict
 
@@ -107,15 +107,15 @@ A clever use of coding agents for growth ideation with a real anti-generic mecha
 
 ## Similar Tools
 
+- [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Growth Lab](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 - [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
-- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ### Quick Facts
 
 - **Pricing:** Open Source

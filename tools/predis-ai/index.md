@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Predis.ai
-Re-check pending: pricing last verified 2026-08-28 (40 days ago).
+Re-check pending: pricing last verified 2026-08-28 (41 days ago).
 
 ## Predis.ai review (2026): pricing, AI features, verdict
 

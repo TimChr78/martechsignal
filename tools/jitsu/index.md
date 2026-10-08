@@ -38,7 +38,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,099 GitHub stars on GitHub. It captures events from web, mobile, and server code through an HTML snippet, JavaScript and npm packages, React and React Native SDKs, iOS and Android SDKs, an HTTP API, a pixel API, and a Segment proxy, then routes them to warehouses and SaaS tools. The destination catalog covers BigQuery, Snowflake, Redshift, Postgres, and ClickHouse for storage, and Google Analytics 4, Google Ads, HubSpot, Salesforce, Mixpanel, PostHog, Amplitude, SendGrid, Resend, Hotjar, Microsoft Clarity, and webhooks downstream. Jitsu Functions run in a JavaScript runtime with access to npm packages and key-value storage, so events can be filtered, enriched, or rewritten before delivery. Other documented features include identity stitching, user profiles, sessions, deduplication, schema management, live event debugging, event backups, and a provisioned ClickHouse option. Billing counts active events, meaning events delivered to at least one destination. Captured events are always free, and a filtering function can drop noise before it counts. The free cloud plan includes 200,000 active events a month and one daily active sync. Business at USD 99 a month includes 2 million active events, then USD 40 per additional million, plus five monthly active syncs at USD 20 each after that. Enterprise is custom. Self-hosting the MIT-licensed code is free with no usage limits, and deployment options cover Jitsu Cloud, a managed single-tenant private cloud on GCP or AWS, and on-premises. The company went through YC S20 and is based in New York City.
+Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,103 GitHub stars on GitHub. It captures events from web, mobile, and server code through an HTML snippet, JavaScript and npm packages, React and React Native SDKs, iOS and Android SDKs, an HTTP API, a pixel API, and a Segment proxy, then routes them to warehouses and SaaS tools. The destination catalog covers BigQuery, Snowflake, Redshift, Postgres, and ClickHouse for storage, and Google Analytics 4, Google Ads, HubSpot, Salesforce, Mixpanel, PostHog, Amplitude, SendGrid, Resend, Hotjar, Microsoft Clarity, and webhooks downstream. Jitsu Functions run in a JavaScript runtime with access to npm packages and key-value storage, so events can be filtered, enriched, or rewritten before delivery. Other documented features include identity stitching, user profiles, sessions, deduplication, schema management, live event debugging, event backups, and a provisioned ClickHouse option. Billing counts active events, meaning events delivered to at least one destination. Captured events are always free, and a filtering function can drop noise before it counts. The free cloud plan includes 200,000 active events a month and one daily active sync. Business at USD 99 a month includes 2 million active events, then USD 40 per additional million, plus five monthly active syncs at USD 20 each after that. Enterprise is custom. Self-hosting the MIT-licensed code is free with no usage limits, and deployment options cover Jitsu Cloud, a managed single-tenant private cloud on GCP or AWS, and on-premises. The company went through YC S20 and is based in New York City.
 
 ## AI Capabilities
 
@@ -86,8 +86,8 @@ The strongest option for teams that want Segment-like event collection with ware
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $99/mo once past the free tier |
 | ✓ AI capabilities: MCP Server for agent-driven setup | ✗ The free cloud plan caps connectors at one daily active sync, so anything past event streaming sits on a paid plan. |
-| ✓ Active public repository (5,101 GitHub stars counted at last check) | ✗ Multiplexed and filtered events have billing edge cases that need reading the FAQ before budgeting. |
-| ✓ Native integrations include BigQuery, Snowflake, Google Analytics 4 (6 listed) | ✗ Community support is the open-source path; the repository is active but not huge at 5,099 GitHub stars. |
+| ✓ Active public repository (5,103 GitHub stars counted at last check) | ✗ Multiplexed and filtered events have billing edge cases that need reading the FAQ before budgeting. |
+| ✓ Native integrations include BigQuery, Snowflake, Google Analytics 4 (6 listed) | ✗ Community support is the open-source path; the repository is active but not huge at 5,103 GitHub stars. |
 | ✓ Captured events are unlimited and free on every plan, so ingest volume alone never drives cost. |  |
 | ✓ Self-hosting the MIT-licensed code carries no usage limits and no licence fee. |  |
 | ✓ Deployment covers Jitsu Cloud, managed single-tenant private cloud on GCP or AWS, and on-premises as one product. |  |
@@ -106,7 +106,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Jitsu?**
-Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,101 stars.
+Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,103 stars.
 
 **How much does Jitsu cost?**
 Jitsu has a free tier; paid plans start at $99/mo. Free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits. We last checked both ends of that split on 2026-09-25. The pricing section above shows what the free tier actually covers.
@@ -142,11 +142,11 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 
 - **Pricing:** Freemium from $99/mo
 - **Category:** [Personalization & CDP](/categories/personalization/)
-- **GitHub:** ★ 5101
+- **GitHub:** ★ 5103
 - **Founded:** 2020
 - **HQ:** New York City, United States (YC S20)
 - **API:** Yes
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-09-25
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/) · [Cdp](/best/cdp/)

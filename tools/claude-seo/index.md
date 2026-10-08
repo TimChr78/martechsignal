@@ -124,7 +124,7 @@ The most thorough free SEO audit you can run without leaving your terminal. Scor
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Runs inside Claude Code, so a paid Anthropic subscription is part of the real cost |
 | ✓ AI capabilities: 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO | ✗ Grader strictness shifts between versions, so scores are not comparable across releases |
-| ✓ Active public repository (18,426 GitHub stars counted at last check) | ✗ Multi-site config needs manual .env work and API keys for DataForSEO and Firecrawl |
+| ✓ Active public repository (18,491 GitHub stars counted at last check) | ✗ Multi-site config needs manual .env work and API keys for DataForSEO and Firecrawl |
 | ✓ Native integrations include Claude Code, Google Search Console, DataForSEO (5 listed) |  |
 | ✓ MIT licensed with no paid tier, so the whole audit stack is inspectable |  |
 
@@ -142,10 +142,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Claude SEO?**
-Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 18,426 stars.
+Claude SEO: Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents. Claude SEO ships with 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO. The public repository carries 18,491 stars.
 
 **How much does Claude SEO cost?**
-Claude SEO is open source - MIT licensed and free to self-host; the public repository carries 18,426 stars; native integrations cover Claude Code, Google Search Console, DataForSEO. You pay in server time and maintenance, not licences.
+Claude SEO is open source - MIT licensed and free to self-host; the public repository carries 18,491 stars; native integrations cover Claude Code, Google Search Console, DataForSEO. You pay in server time and maintenance, not licences.
 
 **Is Claude SEO a good self-hosted Agent Skills tool in 2026?**
 The most thorough free SEO audit you can run without leaving your terminal. Scores only mean something within one grader version, so pin the version and track deltas, not absolutes. It caught real bugs in our own production deploy pipeline on day one.
@@ -197,8 +197,8 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **Github Stars:** 18,426
-- **Forks:** 2,698
+- **Github Stars:** 18,491
+- **Forks:** 2,705
 - **Sub Skills:** 25
 - **Agents:** 18
 - **Commands:** 30
@@ -209,10 +209,10 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 
 **4.5 / 5**The audits found real, verifiable issues on every run, which earns the high score. Scoring shifts between grader versions and is sometimes erratic, so not a 5. No paid placement, no affiliate link: the tool is free and open source.
 
-- **GitHub:** ★ 18426
+- **GitHub:** ★ 18491
 - **Founded:** 2026
 - **API:** Yes
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-09-27
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/) · [Agent Skills Tools](/best/agent-skills-tools/)
 

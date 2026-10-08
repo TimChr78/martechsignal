@@ -6,9 +6,9 @@ Browse by licence: [Open-source tools](/categories/open-source/) · [all categor
 
 Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.
 
-166 TOOLS · 13 CATEGORIES + OPEN-SOURCE INDEX · UPDATED WEEKLY
+167 TOOLS · 13 CATEGORIES + OPEN-SOURCE INDEX · UPDATED WEEKLY
 
-Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 81 of them, with daily snapshots since Aug 25, 2026.
+Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 82 of them, with daily snapshots since Aug 25, 2026.
 
 A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The [marketing automation checklist](/checklist/) walks the 12 questions that decide it, and scores your answers in the browser.
 
@@ -26,13 +26,13 @@ A directory tells you what exists. It does not tell you whether your stack can h
 - [SEO & Search (9)](/categories/seo/)
 - [GEO & LLM Optimization (14)](/categories/geo-llm-visibility/)
 - [Workflow Automation (17)](/categories/workflow-automation/)
-- [Agent Skills (18)](/categories/agent-skills/)
-- [Open-Source Tools (81)](/categories/open-source/)
+- [Agent Skills (19)](/categories/agent-skills/)
+- [Open-Source Tools (82)](/categories/open-source/)
 ## Evaluating tools for your stack?
 
 The weekly newsletter tracks this category: one teardown, one workflow, no fluff.
 
-All 166 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
+All 167 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
 
 ## AI Content & Copywriting *13*
 
@@ -60,7 +60,7 @@ All 166 tools, grouped by category. Each card links to a full teardown with pric
 - [Revealbot (Birch)](/tools/revealbot/): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads (From $49/mo)
 - [Revive Adserver](/tools/revive-adserver/): Free open source ad server for publishers, ad networks and advertisers (Open Source)
 - [Smartly.io](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement (Enterprise)
-## Agent Skills *18*
+## Agent Skills *19*
 
 - [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates (Open Source)
 - [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents (Open Source)
@@ -75,6 +75,7 @@ All 166 tools, grouped by category. Each card links to a full teardown with pric
 - [Eve Marketing Team Template](/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email (Open Source)
 - [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4 (Freemium)
 - [Growth Lab](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex (Open Source)
+- [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines (Open Source)
 - [Marketing Studio](/tools/marketing-studio/): Agent-driven marketing studio for Claude Code: launch assets from one command (Open Source)
 - [Open Mercato](/tools/open-mercato/): Open-source TypeScript foundation for AI-built commerce, CRM, and ERP (Open Source)
 - [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors (Open Source)

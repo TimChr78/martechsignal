@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Notifo
-Re-check pending: pricing last verified 2026-09-07 (30 days ago).
+Re-check pending: pricing last verified 2026-09-07 (31 days ago).
 
 ## Notifo review (2026): pricing, AI features, verdict
 
@@ -24,7 +24,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 31/60
 
-Notifo is self-hosted notification plumbing: email, SMS and push through your own SES and MessageBird accounts. MIT with 882 stars and no AI story, which fits infrastructure.
+Notifo is self-hosted notification plumbing: email, SMS and push through your own SES and MessageBird accounts. MIT with 881 stars and no AI story, which fits infrastructure.
 
 
 | Pillar | Score | Evidence |
@@ -116,10 +116,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Notifo?**
-Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 882 stars. Notifo offers a public API for custom integrations.
+Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 881 stars. Notifo offers a public API for custom integrations.
 
 **How much does Notifo cost?**
-Notifo is open source - MIT licensed and free to self-host; the public repository carries 882 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences.
+Notifo is open source - MIT licensed and free to self-host; the public repository carries 881 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences.
 
 **Is Notifo a good self-hosted Email Marketing tool in 2026?**
 Well-designed notification middleware with a genuine multi-channel model, undermined by a release gap: code moves, but the last release and images are from 2022. Build from source or look elsewhere.
@@ -149,10 +149,10 @@ No, they are unrelated projects with confusingly similar names. Notifo (notifo-i
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 882
+- **GitHub:** ★ 881
 - **Founded:** 2020
 - **API:** Yes
-- **Repository checked:** 2026-10-01
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

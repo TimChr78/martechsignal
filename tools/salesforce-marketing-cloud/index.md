@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Salesforce Marketing Cloud
-Re-check pending: pricing last verified 2026-09-06 (31 days ago).
+Re-check pending: pricing last verified 2026-09-06 (32 days ago).
 
 ## Salesforce Marketing Cloud review (2026): pricing, AI features, verdict
 

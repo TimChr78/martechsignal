@@ -114,7 +114,7 @@ Vendor: [Official site](https://www.freshworks.com/crm/) · [Pricing](https://ww
 
 **What we could not verify:** custom-object behaviour at scale, and how Freddy scoring holds up on thin data.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 167 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 Compare or swap: [ActiveCampaign vs HubSpot CRM (2026): pricing, automation](/vs/activecampaign-vs-hubspot/) · [HubSpot CRM alternatives](/alternatives/hubspot-crm/)
 

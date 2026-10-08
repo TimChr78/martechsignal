@@ -49,9 +49,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Matomo - 21,929 stars, +124 in the 44-snapshot window to 2026-10-07 21,805→21,929 [verify on GitHub](https://github.com/matomo-org/matomo)
-- Umami - 39,208 stars, +848 in the 44-snapshot window to 2026-10-07 38,360→39,208 [verify on GitHub](https://github.com/umami-software/umami)
-- Snowplow - 7,036 stars, +8 in the 44-snapshot window to 2026-10-07 7,028→7,036 [verify on GitHub](https://github.com/snowplow/snowplow)
+- Matomo - 21,934 stars, +129 in the 45-snapshot window to 2026-10-08 21,805→21,934 [verify on GitHub](https://github.com/matomo-org/matomo)
+- Umami - 39,231 stars, +871 in the 45-snapshot window to 2026-10-08 38,360→39,231 [verify on GitHub](https://github.com/umami-software/umami)
+- Snowplow - 7,035 stars, +7 in the 45-snapshot window to 2026-10-08 7,028→7,035 [verify on GitHub](https://github.com/snowplow/snowplow)
 [All movers on the trending page](/trending/).
 
 ## [Amplitude](/tools/amplitude/)
@@ -150,7 +150,7 @@ Vendor: [Official site](https://snowplow.io) · [GitHub](https://github.com/snow
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 167 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 Compare or swap: [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/) · [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/)
 

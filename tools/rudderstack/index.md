@@ -29,7 +29,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available)
 - **Public API:** yes
 - **Catalogued integrations:** 8
-- **GitHub stars:** 4,493
+- **GitHub stars:** 4,495
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -1061,7 +1061,7 @@ Best open-core CDP for teams that self-host the data plane: free 250K events/mo,
 | Pros | Cons |
 | --- | --- |
 | ✓ Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available) licence with free self-hosting | ✗ Paid plans start at $265/mo once past the free tier |
-| ✓ Active public repository (4,493 GitHub stars counted at last check) |  |
+| ✓ Active public repository (4,495 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Snowflake, BigQuery, Redshift (8 listed) |  |
 
 ## Related concepts
@@ -1078,7 +1078,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is RudderStack?**
-RudderStack: Warehouse-first CDP: open-source Go data plane plus managed routing. The public repository carries 4,493 stars. RudderStack offers a public API for custom integrations.
+RudderStack: Warehouse-first CDP: open-source Go data plane plus managed routing. The public repository carries 4,495 stars. RudderStack offers a public API for custom integrations.
 
 **How much does RudderStack cost?**
 RudderStack has a free tier; paid plans start at $265/mo. Free forever: 250K events/mo, 16 SDK sources, 200+ cloud destinations, warehouse destinations, reverse ETL. Growth from $265/mo (1M events, unlimited team members, 25 reverse-ETL connections, 30-min warehouse sync). Enterprise custom. Open-source data plane self-hostable (checked 2026-10-01). We last checked both ends of that split on 2026-10-01. The pricing section above shows what the free tier actually covers.
@@ -1104,11 +1104,11 @@ Best open-core CDP for teams that self-host the data plane: free 250K events/mo,
 
 - **Pricing:** Open-core from $265/mo
 - **Category:** [Personalization & CDP](/categories/personalization/)
-- **GitHub:** ★ 4493
+- **GitHub:** ★ 4495
 - **Founded:** 2019
 - **HQ:** San Francisco, California
 - **API:** Yes
-- **Repository checked:** 2026-10-03
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-10-01
 
 Related guides: [Cdp](/best/cdp/)

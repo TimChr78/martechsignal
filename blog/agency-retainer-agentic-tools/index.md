@@ -91,7 +91,7 @@ Tools linked in this post: [n8n](/tools/n8n/) | [Google Ads + Meta Ads + GA4 MCP
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
+More from the directory: [Marketing Skills (coreyhaines31)](/tools/marketingskills/) · [AdCreative.ai](/tools/adcreative-ai/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

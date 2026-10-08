@@ -5,9 +5,9 @@
 - Open-Source Tools
 ## Open-Source Tools
 
-81 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.
+82 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.
 
-81 TOOLS IN THIS CATEGORY
+82 TOOLS IN THIS CATEGORY
 
 ## All tools in this category
 
@@ -55,6 +55,7 @@
 - [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend (Open Source)
 - [Macro](/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory (Freemium from $40/seat/mo)
 - [Maizzle](/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns (Free)
+- [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines (Open Source)
 - [Marketing Studio](/tools/marketing-studio/): Agent-driven marketing studio for Claude Code: launch assets from one command (Open Source)
 - [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights (Open Source from €22/mo)
 - [Mautic](/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management (Open Source from €247.50/mo)
@@ -100,7 +101,7 @@
 - [Workflow automation](/glossary/workflow-automation/)
 Full definitions in the [martech glossary](/glossary/).
 
-This index lists every open-source tool in the catalog: 81 projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.
+This index lists every open-source tool in the catalog: 82 projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.
 
 Open source does not mean zero cost. The real price is hosting, upgrades, and whoever answers the pager: projects with active commit histories and commercial sponsors behind them age better than one-maintainer efforts, however generous the license. The per-tool pages carry star counts, license fields, and self-host notes so you can judge maintenance health before you commit a server.
 

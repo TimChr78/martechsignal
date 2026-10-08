@@ -1069,5 +1069,23 @@
   "url": "https://zapier.com/blog/feeds/latest/",
   "reason": "RSS blog post, not a tool candidate",
   "rejected_at": "2026-10-01"
+ },
+ {
+  "name": "MailAccess",
+  "url": "https://github.com/KatrielMoses/MailAccess",
+  "reason": "OSINT/security recon tool; no marketing-automation AI features",
+  "rejected_at": "2026-10-08"
+ },
+ {
+  "name": "The 8 best platforms to create and sell online courses in 2026",
+  "url": "https://zapier.com/blog/feeds/latest/",
+  "reason": "RSS blog post, not a tool candidate",
+  "rejected_at": "2026-10-08"
+ },
+ {
+  "name": "Extending Fin as the most open Agent platform",
+  "url": "https://www.intercom.com/blog/feed/",
+  "reason": "RSS blog post, not a tool candidate",
+  "rejected_at": "2026-10-08"
  }
 ]

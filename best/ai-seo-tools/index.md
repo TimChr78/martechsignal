@@ -54,8 +54,8 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Promptfoo - 25,766 stars, +306 in the 12-snapshot window to 2026-10-07 25,460→25,766 [verify on GitHub](https://github.com/promptfoo/promptfoo)
-- Claude SEO - 18,426 stars, +3,330 in the 44-snapshot window to 2026-10-07 15,096→18,426 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
+- Promptfoo - 25,800 stars, +340 in the 13-snapshot window to 2026-10-08 25,460→25,800 [verify on GitHub](https://github.com/promptfoo/promptfoo)
+- Claude SEO - 18,491 stars, +3,395 in the 45-snapshot window to 2026-10-08 15,096→18,491 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
 [All movers on the trending page](/trending/).
 
 ## [Semrush](/tools/semrush/)
@@ -154,7 +154,7 @@ Vendor: [Official site](https://github.com/AgriciDaniel/codex-seo) · [GitHub](h
 
 **What we could not verify:** workflow stability across Codex CLI releases, which the suite tracks closely.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 166 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 167 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 Compare or swap: [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 

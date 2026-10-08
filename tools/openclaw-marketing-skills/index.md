@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - OpenClaw Marketing Skills
-Re-check pending: pricing last verified 2026-08-28 (40 days ago).
+Re-check pending: pricing last verified 2026-08-28 (41 days ago).
 
 ## OpenClaw Marketing Skills review (2026): pricing, AI features, verdict
 
@@ -84,7 +84,7 @@ Solid add-on pack for agent stacks; thin as a primary playbook source.
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy |  |
-| ✓ Active public repository (1,042 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,041 GitHub stars counted at last check) |  |
 | ✓ Native integrations include OpenClaw, Google Ads API, Google Search Console (6 listed) |  |
 
 ## Related concepts
@@ -101,23 +101,23 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is OpenClaw Marketing Skills?**
-OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,042 stars.
+OpenClaw Marketing Skills: 37 marketing skills for OpenClaw agents with live data connectors. OpenClaw Marketing Skills ships with 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy. The public repository carries 1,041 stars.
 
 **How much does OpenClaw Marketing Skills cost?**
-OpenClaw Marketing Skills is open source - MIT licensed and free to self-host; the public repository carries 1,042 stars; native integrations cover OpenClaw, Google Ads API, Google Search Console. You pay in server time and maintenance, not licences.
+OpenClaw Marketing Skills is open source - MIT licensed and free to self-host; the public repository carries 1,041 stars; native integrations cover OpenClaw, Google Ads API, Google Search Console. You pay in server time and maintenance, not licences.
 
 **Is OpenClaw Marketing Skills a good self-hosted Agent Skills tool in 2026?**
 Solid add-on pack for agent stacks; thin as a primary playbook source.
 
 ## Similar Tools
 
+- [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 - [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 - [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
-- [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 ## Related reading
 
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Also featured in
@@ -127,10 +127,10 @@ Solid add-on pack for agent stacks; thin as a primary playbook source.
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 1042
+- **GitHub:** ★ 1041
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-06
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-08-28
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

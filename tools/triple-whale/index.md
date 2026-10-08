@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Triple Whale
-Re-check pending: pricing last verified 2026-08-28 (40 days ago).
+Re-check pending: pricing last verified 2026-08-28 (41 days ago).
 
 ## Triple Whale review (2026): pricing, AI features, verdict
 

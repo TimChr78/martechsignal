@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - ChatbotX
-Re-check pending: pricing last verified 2026-08-28 (40 days ago).
+Re-check pending: pricing last verified 2026-08-28 (41 days ago).
 
 ## ChatbotX review (2026): pricing, AI features, verdict
 
@@ -83,10 +83,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is ChatbotX?**
-ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 878 stars.
+ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 879 stars.
 
 **How much does ChatbotX cost?**
-ChatbotX is open source - Free to self-host; the public repository carries 878 stars. You pay in server time and maintenance, not licences.
+ChatbotX is open source - Free to self-host; the public repository carries 879 stars. You pay in server time and maintenance, not licences.
 
 **Is ChatbotX a good self-hosted Chatbots & Conversational AI tool in 2026?**
 Right for technical teams that want ManyChat-style automation without lock-in. Everyone else should stay hosted.
@@ -109,9 +109,9 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 
 - **Pricing:** Open Source
 - **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
-- **GitHub:** ★ 878
+- **GitHub:** ★ 879
 - **API:** Yes
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-08-28
 
 ### Pricing

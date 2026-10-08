@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Umami
-Re-check pending: pricing last verified 2026-09-07 (30 days ago).
+Re-check pending: pricing last verified 2026-09-07 (31 days ago).
 
 ## Umami review (2026): pricing, AI features, verdict
 
@@ -40,7 +40,7 @@ Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor's cloud, created in 2020 by Mike Cao and now at v3 with roughly 39,186 GitHub stars. It tracks pageviews, sessions, referrers, countries, devices, UTM parameters, and custom events without cookies and without collecting personal data, which is why sites use it to drop consent banners entirely. The v3 line has grown well past simple dashboards: session replay (v3.1, rrweb-based, off by default, replays kept 30 days), click and scroll heatmaps (v3.2), an attribution report with first-click and last-click models, funnels, retention, revenue, journey, and UTM reports, custom Boards dashboards, and TOTP two-factor auth, plus short links and tracking pixels on the cloud platform. Deployment is a Node.js app (18.18+) on PostgreSQL (12.14 minimum); v3 removed MySQL and MariaDB, and the docs publish a migration path through v2.19 for anyone still on MySQL. Install is docker compose up -d with a two-service file (app plus postgres:15-alpine) or pnpm install and pnpm run build from source; the build creates an admin/umami login you replace on first sign-in. Self-hosted instances keep an admin-only API, retain data indefinitely, and can turn off the app's anonymous telemetry with one environment variable. Cloud pricing is usage-based per event rather than per seat: Hobby is free to 100,000 events a month, Pro is $20 for 1 million, Business is $200 for 10 million with session replay, heatmaps, and the streaming API included, and Enterprise is custom. Self-hosted installs get the core analytics but not email reports or the streaming API. Compared with Google Analytics, Umami trades ad-ecosystem integrations and behavioral depth for a script the vendor puts under 2KB, no sampling, and full data ownership; compared with Matomo, it is lighter and less configurable. Best for developers and privacy-conscious marketing teams that want campaign and conversion numbers without surveillance overhead.
+Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor's cloud, created in 2020 by Mike Cao and now at v3 with roughly 39,231 GitHub stars. It tracks pageviews, sessions, referrers, countries, devices, UTM parameters, and custom events without cookies and without collecting personal data, which is why sites use it to drop consent banners entirely. The v3 line has grown well past simple dashboards: session replay (v3.1, rrweb-based, off by default, replays kept 30 days), click and scroll heatmaps (v3.2), an attribution report with first-click and last-click models, funnels, retention, revenue, journey, and UTM reports, custom Boards dashboards, and TOTP two-factor auth, plus short links and tracking pixels on the cloud platform. Deployment is a Node.js app (18.18+) on PostgreSQL (12.14 minimum); v3 removed MySQL and MariaDB, and the docs publish a migration path through v2.19 for anyone still on MySQL. Install is docker compose up -d with a two-service file (app plus postgres:15-alpine) or pnpm install and pnpm run build from source; the build creates an admin/umami login you replace on first sign-in. Self-hosted instances keep an admin-only API, retain data indefinitely, and can turn off the app's anonymous telemetry with one environment variable. Cloud pricing is usage-based per event rather than per seat: Hobby is free to 100,000 events a month, Pro is $20 for 1 million, Business is $200 for 10 million with session replay, heatmaps, and the streaming API included, and Enterprise is custom. Self-hosted installs get the core analytics but not email reports or the streaming API. Compared with Google Analytics, Umami trades ad-ecosystem integrations and behavioral depth for a script the vendor puts under 2KB, no sampling, and full data ownership; compared with Matomo, it is lighter and less configurable. Best for developers and privacy-conscious marketing teams that want campaign and conversion numbers without surveillance overhead.
 
 Umami homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -98,7 +98,7 @@ Light, honest, cookieless analytics you can own outright; the AI-free tracking s
 | Pros | Cons |
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $20/mo |
-| ✓ Active public repository (39,208 GitHub stars counted at last check) |  |
+| ✓ Active public repository (39,231 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WordPress (community plugin), Next.js, Vercel (5 listed) |  |
 
 ## Related concepts
@@ -115,7 +115,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Umami?**
-Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 39,208 stars. Umami offers a public API for custom integrations.
+Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 39,231 stars. Umami offers a public API for custom integrations.
 
 **How much does Umami cost?**
 Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -150,10 +150,10 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 
 - **Pricing:** Open Source from $20/mo
 - **Category:** [Analytics & Attribution](/categories/analytics/)
-- **GitHub:** ★ 39208
+- **GitHub:** ★ 39231
 - **Founded:** 2020
 - **API:** Yes
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-09-07
 
 Related guides: [Umami in Matomo alternatives](/alternatives/matomo/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/)

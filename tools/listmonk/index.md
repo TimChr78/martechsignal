@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Listmonk
-Re-check pending: pricing last verified 2026-08-28 (40 days ago).
+Re-check pending: pricing last verified 2026-08-28 (41 days ago).
 
 ## Listmonk review (2026): pricing, AI features, verdict
 
@@ -24,7 +24,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 37/60
 
-Listmonk is the self-hosted newsletter standard: 23,701 stars of Go under AGPL with no paid tier anywhere. If you can run Postgres and SMTP, this is free forever by design.
+Listmonk is the self-hosted newsletter standard: 23,714 stars of Go under AGPL with no paid tier anywhere. If you can run Postgres and SMTP, this is free forever by design.
 
 
 | Pillar | Score | Evidence |
@@ -40,7 +40,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Built as an open-source, self-hosted mailing list manager, Listmonk gives marketing teams a lightweight way to run newsletters, subscriber lists, and email campaigns without relying on a hosted SaaS platform. Its Go backend is designed for speed and low operational overhead, while PostgreSQL handles subscriber and campaign data. The project is free under the AGPL license, with no paid tiers, and it exposes an API for custom workflows. It also supports practical integrations such as SMTP providers, Zapier, and WordPress, making it possible to connect signup forms, automation, and existing site infrastructure. Listmonk is a good fit for technical marketers, developers, and privacy-conscious organizations that want direct control over email infrastructure and subscriber data. Founded in 2019 and based in Bangalore, India, the project has attracted strong open-source interest, with 23,701 GitHub stars. Its AI capabilities are practical rather than central: AI-assisted template editing can help refine email layouts and copy, while AI campaign analytics can support performance review and optimization. These features sit alongside standard campaign tools such as segmentation, templates, and reporting. Compared with commercial alternatives such as Mailchimp, Campaign Monitor, or ActiveCampaign, Listmonk trades managed convenience for ownership, lower recurring costs, and greater flexibility. Teams will need to handle hosting, deliverability configuration, and maintenance themselves, so it is less suited to users who want a fully managed service. It is best for technically capable teams, indie publishers, SaaS companies, and nonprofits that want an open-source email platform with API access, self-hosted data control, and optional AI assistance for campaign production and analysis.
+Built as an open-source, self-hosted mailing list manager, Listmonk gives marketing teams a lightweight way to run newsletters, subscriber lists, and email campaigns without relying on a hosted SaaS platform. Its Go backend is designed for speed and low operational overhead, while PostgreSQL handles subscriber and campaign data. The project is free under the AGPL license, with no paid tiers, and it exposes an API for custom workflows. It also supports practical integrations such as SMTP providers, Zapier, and WordPress, making it possible to connect signup forms, automation, and existing site infrastructure. Listmonk is a good fit for technical marketers, developers, and privacy-conscious organizations that want direct control over email infrastructure and subscriber data. Founded in 2019 and based in Bangalore, India, the project has attracted strong open-source interest, with 23,714 GitHub stars. Its AI capabilities are practical rather than central: AI-assisted template editing can help refine email layouts and copy, while AI campaign analytics can support performance review and optimization. These features sit alongside standard campaign tools such as segmentation, templates, and reporting. Compared with commercial alternatives such as Mailchimp, Campaign Monitor, or ActiveCampaign, Listmonk trades managed convenience for ownership, lower recurring costs, and greater flexibility. Teams will need to handle hosting, deliverability configuration, and maintenance themselves, so it is less suited to users who want a fully managed service. It is best for technically capable teams, indie publishers, SaaS companies, and nonprofits that want an open-source email platform with API access, self-hosted data control, and optional AI assistance for campaign production and analysis.
 
 Listmonk homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -81,7 +81,7 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: AI-assisted template editing |  |
-| ✓ Active public repository (23,709 GitHub stars counted at last check) |  |
+| ✓ Active public repository (23,714 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -96,10 +96,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Listmonk?**
-Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 23,709 stars.
+Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 23,714 stars.
 
 **How much does Listmonk cost?**
-Listmonk is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 23,709 stars; native integrations cover PostgreSQL, SMTP, Zapier. You pay in server time and maintenance, not licences.
+Listmonk is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 23,714 stars; native integrations cover PostgreSQL, SMTP, Zapier. You pay in server time and maintenance, not licences.
 
 **Is Listmonk a good self-hosted Email Marketing tool in 2026?**
 The strongest self-hosted mailing platform in this catalog; bring your own forms and workflows.
@@ -123,11 +123,11 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 23709
+- **GitHub:** ★ 23714
 - **Founded:** 2019
 - **HQ:** Bangalore, India
 - **API:** Yes
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-08-28
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)

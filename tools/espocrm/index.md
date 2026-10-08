@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - EspoCRM
-Re-check pending: pricing last verified 2026-09-07 (30 days ago).
+Re-check pending: pricing last verified 2026-09-07 (31 days ago).
 
 ## EspoCRM review (2026): pricing, AI features, verdict
 
@@ -94,7 +94,7 @@ A fast-moving, well-documented self-hosted CRM whose free core covers the sales 
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at €12.90/user/mo |
 | ✓ API access for custom integrations |  |
-| ✓ Active public repository (3,444 GitHub stars counted at last check) |  |
+| ✓ Active public repository (3,451 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -111,7 +111,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is EspoCRM?**
-EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. The public repository carries 3,444 stars. EspoCRM offers a public API for custom integrations.
+EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. The public repository carries 3,451 stars. EspoCRM offers a public API for custom integrations.
 
 **How much does EspoCRM cost?**
 EspoCRM has a free tier; paid plans start at €12.90/user/mo. Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from €12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -138,8 +138,8 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for lean sales teams that automate à la carte.
@@ -147,11 +147,11 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 
 - **Pricing:** Open Source from €12.90/user/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 3444
+- **GitHub:** ★ 3451
 - **Founded:** 2011
 - **HQ:** Delaware, USA
 - **API:** Yes
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-09-07
 
 Related guides: [EspoCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/)

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Google Ads + Meta Ads + GA4 MCP
-Re-check pending: pricing last verified 2026-09-07 (30 days ago).
+Re-check pending: pricing last verified 2026-09-07 (31 days ago).
 
 KIND: Utility (not an end-to-end platform)
 
@@ -93,7 +93,7 @@ High-value tooling for performance teams already running agents and MCP. Keep hu
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: 250+ MCP tools for campaign management, analytics, and optimization |  |
-| ✓ Active public repository (4,099 GitHub stars counted at last check) |  |
+| ✓ Active public repository (4,230 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Google Ads, Meta Ads, GA4 (11 listed) |  |
 
 ## Related concepts
@@ -110,10 +110,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Google Ads + Meta Ads + GA4 MCP?**
-Google Ads + Meta Ads + GA4 MCP: MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4. Google Ads + Meta Ads + GA4 MCP ships with 250+ MCP tools for campaign management, analytics, and optimization. The public repository carries 4,099 stars.
+Google Ads + Meta Ads + GA4 MCP: MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4. Google Ads + Meta Ads + GA4 MCP ships with 250+ MCP tools for campaign management, analytics, and optimization. The public repository carries 4,230 stars.
 
 **How much does Google Ads + Meta Ads + GA4 MCP cost?**
-Google Ads + Meta Ads + GA4 MCP is open source - MIT licensed and free to self-host; the public repository carries 4,099 stars; native integrations cover Google Ads, Meta Ads, GA4. You pay in server time and maintenance, not licences.
+Google Ads + Meta Ads + GA4 MCP is open source - MIT licensed and free to self-host; the public repository carries 4,230 stars; native integrations cover Google Ads, Meta Ads, GA4. You pay in server time and maintenance, not licences.
 
 **Is Google Ads + Meta Ads + GA4 MCP worth it past the free tier?**
 High-value tooling for performance teams already running agents and MCP. Keep human approval on every write.
@@ -148,10 +148,10 @@ Two layers. The repo is MIT licensed and its pricing FAQ states the MCP server i
 
 - **Pricing:** Freemium
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 4099
+- **GitHub:** ★ 4230
 - **Founded:** 2026
 - **API:** Yes
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-09-07
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

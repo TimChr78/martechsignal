@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Resend
-Re-check pending: pricing last verified 2026-09-07 (30 days ago).
+Re-check pending: pricing last verified 2026-09-07 (31 days ago).
 
 ## Resend review (2026): pricing, AI features, verdict
 
@@ -24,7 +24,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 38/60
 
-Resend is developer email built around React Email, with a hosted MCP server and an official Cursor plugin. 19,809 stars on the MIT SDKs, and marketing prices published alongside transactional.
+Resend is developer email built around React Email, with a hosted MCP server and an official Cursor plugin. 19,819 stars on the MIT SDKs, and marketing prices published alongside transactional.
 
 
 | Pillar | Score | Evidence |
@@ -91,7 +91,7 @@ Assessed from resend.com, resend.com/docs, and the changelog RSS in September 20
 
 The correction that matters: the three AI features in our earlier record (AI deliverability optimization, AI spam detection, smart retry logic) appear nowhere in Resend's documentation. The documented AI surface is an AI Email Editor with brand-voice drafting and pre-send checks, an assistant in the template editor, AI column mapping on imports, and monthly AI credits; Deliverability Insights is explicitly a set of best-practice checks, not AI. Slack and Segment are not documented integrations, and Scale is not custom-priced.
 
-Open source is the exit surface, and our record undersold it: react-email alone holds about 19,809 GitHub stars under MIT, an order of magnitude larger than any Resend SDK repo, and the organization publishes roughly 100 repositories including the MCP server, CLI, skills, and OpenAPI spec. Templates you build in React Email keep working against another sender.
+Open source is the exit surface, and our record undersold it: react-email alone holds about 19,819 GitHub stars under MIT, an order of magnitude larger than any Resend SDK repo, and the organization publishes roughly 100 repositories including the MCP server, CLI, skills, and OpenAPI spec. Templates you build in React Email keep working against another sender.
 
 The transactional and marketing split is the pricing trap. A team that starts on Pro for product email and later wants newsletters takes a second, contact-based subscription, and the docs recommend separate subdomains per stream anyway. IP pools are a $30 a month Scale add-on with an eligibility bar of 3,000 emails a day, so shared IPs are the default reality for most accounts.
 
@@ -105,7 +105,7 @@ The most developer-native platform in email, with an honest free tier, real agen
 | Pros | Cons |
 | --- | --- |
 | ✓ AI capabilities: AI Email Editor with brand-voice drafting | ✗ Paid plans start at $20/mo once past the free tier |
-| ✓ Active public repository (19,814 GitHub stars counted at last check) | ✗ Closed source - no self-hosting option |
+| ✓ Active public repository (19,819 GitHub stars counted at last check) | ✗ Closed source - no self-hosting option |
 | ✓ Native integrations include Next.js, Vercel, React Email (6 listed) |  |
 | ✓ Free tier to evaluate before committing (Free 3,000 emails/mo (100/day cap, 3 domains); Transactional Pro $20/mo for 50,000) |  |
 
@@ -122,7 +122,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Resend?**
-Resend: Developer-first email API built around React Email, batch sending, and agent tooling. Resend ships with AI Email Editor with brand-voice drafting. The public repository carries 19,814 stars.
+Resend: Developer-first email API built around React Email, batch sending, and agent tooling. Resend ships with AI Email Editor with brand-voice drafting. The public repository carries 19,819 stars.
 
 **How much does Resend cost?**
 Resend has a free tier; paid plans start at $20/mo. Free 3,000 emails/mo (100/day cap, 3 domains); Transactional Pro $20/mo for 50,000; Scale $90-$1,150/mo published tiers; Enterprise custom; Marketing priced by contacts from $40/mo for 5,000; no annual discounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -148,17 +148,17 @@ Yes, and it is one of the better-documented cases in email. Resend hosts an MCP 
 ## Related reading
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $20/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 19814
+- **GitHub:** ★ 19819
 - **Founded:** 2023
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

@@ -2,7 +2,7 @@
 
 ## Categories
 
-All 13 categories plus a cross-cutting open-source index across the 166-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
+All 13 categories plus a cross-cutting open-source index across the 167-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
 
 - [AI Content & Copywriting](/categories/content-ai/): AI writing, copy, and publishing tools for marketing teams
 - [Advertising & Paid Media](/categories/advertising/): Ad creation, bidding, and campaign management
@@ -13,7 +13,7 @@ All 13 categories plus a cross-cutting open-source index across the 166-tool dir
 - [Email Marketing](/categories/email-marketing/): Email sending, newsletters, and transactional delivery
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/): Track and improve how AI assistants mention, cite, and describe your brand
 - [Marketing Automation](/categories/marketing-automation/): End-to-end campaign orchestration and workflow automation
-- [Open-Source Tools](/categories/open-source/): 81 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.
+- [Open-Source Tools](/categories/open-source/): 82 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.
 - [Personalization & CDP](/categories/personalization/): Ecommerce personalization, customer data platforms, and experimentation
 - [SEO & Search](/categories/seo/): Search optimization, keyword research, and content strategy
 - [Social Media](/categories/social-media/): Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites
@@ -56,7 +56,7 @@ End-to-end campaign orchestration and workflow automation. Includes [ActiveCampa
 
 ## [Open-Source Tools](/categories/open-source/)
 
-81 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [Activepieces](/tools/activepieces/), [advertools](/tools/advertools/).
+82 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [Activepieces](/tools/activepieces/), [advertools](/tools/advertools/).
 
 ## [Personalization & CDP](/categories/personalization/)
 

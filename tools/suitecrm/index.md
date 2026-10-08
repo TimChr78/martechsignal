@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - SuiteCRM
-Re-check pending: pricing last verified 2026-09-07 (30 days ago).
+Re-check pending: pricing last verified 2026-09-07 (31 days ago).
 
 ## SuiteCRM review (2026): pricing, AI features, verdict
 
@@ -94,7 +94,7 @@ The established open-source CRM workhorse: unmatched module depth and free core 
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
-| ✓ Active public repository (5,783 GitHub stars counted at last check) |  |
+| ✓ Active public repository (5,787 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -111,10 +111,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is SuiteCRM?**
-SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,783 stars. SuiteCRM offers a public API for custom integrations.
+SuiteCRM: Enterprise-grade open-source CRM with sales, marketing, and support automation. The public repository carries 5,787 stars. SuiteCRM offers a public API for custom integrations.
 
 **How much does SuiteCRM cost?**
-SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,783 stars. You pay in server time and maintenance, not licences.
+SuiteCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 5,787 stars. You pay in server time and maintenance, not licences.
 
 **Is SuiteCRM a good self-hosted CRM tool in 2026?**
 The established open-source CRM workhorse: unmatched module depth and free core workflows, with no AI, no mobile app, and a migration path that needs planning. Current, maintained, and still the default on-premise choice.
@@ -144,10 +144,10 @@ As a fresh installation, not an in-place patch. The docs require the latest 7.x 
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 5783
+- **GitHub:** ★ 5787
 - **HQ:** Stirling, Scotland, UK
 - **API:** Yes
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-09-07
 
 Related guides: [SuiteCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

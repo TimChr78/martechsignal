@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Marketing Studio
-Re-check pending: pricing last verified 2026-08-31 (37 days ago).
+Re-check pending: pricing last verified 2026-08-31 (38 days ago).
 
 ## Marketing Studio review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ The most complete open-source take on agent-produced launch assets, with a real 
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (250 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (251 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: launch asset generation | ✗ Short native integration list - plan for API work |
 | ✓ Native integrations include Claude Code, Blender (2 listed) |  |
 
@@ -97,20 +97,20 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Marketing Studio?**
-Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 250 stars.
+Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 251 stars.
 
 **How much does Marketing Studio cost?**
-Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 250 stars. You pay in server time and maintenance, not licences.
+Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 251 stars. You pay in server time and maintenance, not licences.
 
 **Is Marketing Studio a good self-hosted Agent Skills tool in 2026?**
 The most complete open-source take on agent-produced launch assets, with a real pipeline architecture behind the demo. Worth adopting if you already work in Claude Code and need repeatable launch creative; expect to invest in brand tokens and review passes before output is publishable.
 
 ## Similar Tools
 
+- [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 - [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 - [AI Marketing Suite](/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports
-- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -120,11 +120,11 @@ The most complete open-source take on agent-produced launch assets, with a real 
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 250
+- **GitHub:** ★ 251
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** No
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-08-31
 
 ## Get the next teardown

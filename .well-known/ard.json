@@ -1091,6 +1091,19 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:tools:marketingskills",
+   "displayName": "Marketing Skills (coreyhaines31) pricing & plans",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/marketingskills/",
+   "description": "~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines",
+   "representativeQueries": [
+    "open source marketing skills (coreyhaines31)",
+    "Marketing Skills (coreyhaines31) pricing",
+    "Marketing Skills (coreyhaines31) alternatives",
+    "agent skills tools like Marketing Skills (coreyhaines31)"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:tools:marketmuse",
    "displayName": "MarketMuse pricing & plans",
    "type": "text/html",
@@ -2091,7 +2104,7 @@
    "displayName": "Agent Skills",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/agent-skills/",
-   "description": "Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 18 reviewed.",
+   "description": "Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 19 reviewed.",
    "representativeQueries": [
     "best agent skills tools",
     "agent skills comparison",
@@ -2187,7 +2200,7 @@
    "displayName": "Open-Source Tools",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/open-source/",
-   "description": "81 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.",
+   "description": "82 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.",
    "representativeQueries": [
     "best open-source tools tools",
     "open-source tools comparison",
@@ -3720,7 +3733,7 @@
    "displayName": "Categories",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/",
-   "description": "Browse all 13 categories plus the open-source index across 166 marketing-automation tools: licences, stars and plain-English summaries.",
+   "description": "Browse all 13 categories plus the open-source index across 167 marketing-automation tools: licences, stars and plain-English summaries.",
    "representativeQueries": [
     "martechsignal categories",
     "browse tools by category"
@@ -3764,7 +3777,7 @@
    "displayName": "Open-Source MarTech Momentum: GitHub Stars",
    "type": "text/html",
    "url": "https://martechsignal.com/trending/",
-   "description": "Every morning we snapshot the GitHub stars of all 81 open-source tools in our 166-tool catalog (all of them list a public GitHub repository). 81 have enough history to chart here; a repository needs 5",
+   "description": "Every morning we snapshot the GitHub stars of all 82 open-source tools in our 167-tool catalog (all of them list a public GitHub repository). 81 have enough history to chart here; a repository needs 5",
    "representativeQueries": [
     "trending martech tools",
     "what tools trend on github"

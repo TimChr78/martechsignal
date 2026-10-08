@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Plausible Analytics
-Re-check pending: pricing last verified 2026-08-28 (40 days ago).
+Re-check pending: pricing last verified 2026-08-28 (41 days ago).
 
 ## Plausible Analytics review (2026): pricing, AI features, verdict
 
@@ -24,7 +24,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 38/60
 
-Plausible is privacy analytics you can self-host or buy for $9/mo, at 29,321 stars. The script is light, the data is yours, and the AI insights stay out of the way.
+Plausible is privacy analytics you can self-host or buy for $9/mo, at 29,339 stars. The script is light, the data is yours, and the AI insights stay out of the way.
 
 
 | Pillar | Score | Evidence |
@@ -40,7 +40,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Plausible Analytics is a lightweight, privacy-friendly alternative to Google Analytics. It gives website owners the core traffic metrics without cookies, banners, or personal data collection. The open-source project launched in 2019 and is based in Tallinn, Estonia. It offers a simple dashboard for pageviews, visitors, sources, devices, locations, and goals, and skips the complexity and tracking overhead of larger analytics suites. The self-hosted version is free under the AGPL license, and a managed cloud plan starts at $9 per month for 10,000 pageviews, scaling with traffic. For marketers and product teams evaluating martech stacks, Plausible is a practical option when privacy compliance, site performance, and straightforward reporting matter more than deep behavioral modeling. It integrates with WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack, and includes API access for custom reporting. Its AI features add AI-powered insights, anomaly detection, and traffic analysis, which help users spot unusual patterns or summarize trends without building manual alerts. Compared with commercial analytics platforms, Plausible trades extensive attribution and advertising integrations for a cleaner, more transparent setup and lower operational burden. The open-source codebase, backed by 29,321 GitHub stars, lets teams inspect, self-host, or extend the tool rather than relying entirely on a vendor. It fits content sites, startups, agencies, and privacy-conscious teams that need reliable web analytics with optional AI assistance and predictable pricing.
+Plausible Analytics is a lightweight, privacy-friendly alternative to Google Analytics. It gives website owners the core traffic metrics without cookies, banners, or personal data collection. The open-source project launched in 2019 and is based in Tallinn, Estonia. It offers a simple dashboard for pageviews, visitors, sources, devices, locations, and goals, and skips the complexity and tracking overhead of larger analytics suites. The self-hosted version is free under the AGPL license, and a managed cloud plan starts at $9 per month for 10,000 pageviews, scaling with traffic. For marketers and product teams evaluating martech stacks, Plausible is a practical option when privacy compliance, site performance, and straightforward reporting matter more than deep behavioral modeling. It integrates with WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack, and includes API access for custom reporting. Its AI features add AI-powered insights, anomaly detection, and traffic analysis, which help users spot unusual patterns or summarize trends without building manual alerts. Compared with commercial analytics platforms, Plausible trades extensive attribution and advertising integrations for a cleaner, more transparent setup and lower operational burden. The open-source codebase, backed by 29,339 GitHub stars, lets teams inspect, self-host, or extend the tool rather than relying entirely on a vendor. It fits content sites, startups, agencies, and privacy-conscious teams that need reliable web analytics with optional AI assistance and predictable pricing.
 
 Plausible Analytics homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -84,7 +84,7 @@ The analytics tool we recommend by default for content and marketing sites; powe
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo |
 | ✓ AI capabilities: AI-powered insights |  |
-| ✓ Active public repository (29,332 GitHub stars counted at last check) |  |
+| ✓ Active public repository (29,339 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WordPress, Ghost, Webflow (6 listed) |  |
 
 ## Related concepts
@@ -101,7 +101,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Plausible Analytics?**
-Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,332 stars.
+Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,339 stars.
 
 **How much does Plausible Analytics cost?**
 Plausible Analytics has a free tier; paid plans start at $9/mo. Self-hosted free (AGPL); Cloud from $9/mo (10K pageviews); scales with traffic. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -127,11 +127,11 @@ The analytics tool we recommend by default for content and marketing sites; powe
 
 - **Pricing:** Open Source from $9/mo
 - **Category:** [Analytics & Attribution](/categories/analytics/)
-- **GitHub:** ★ 29332
+- **GitHub:** ★ 29339
 - **Founded:** 2019
 - **HQ:** Tallinn, Estonia
 - **API:** Yes
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-08-28
 
 Related guides: [Plausible Analytics in Matomo alternatives](/alternatives/matomo/) · [Plausible Analytics vs Matomo](/vs/matomo-vs-plausible/)

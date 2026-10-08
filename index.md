@@ -32,8 +32,8 @@ On September 23, 2026, the behavioral intelligence company SQREEM appointed Step
 - [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
+- [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 - [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
-- [Twilio SendGrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
 ## Comparisons and best-of lists
 
 Verdicts with receipts: every list below names what each tool costs from the vendor’s own pricing page, what it fits worst, and who should skip it. The head-to-head comparisons state pick-conditions instead of a winner; the best-of lists and tool pages give the verdict. Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.
@@ -46,7 +46,7 @@ Verdicts with receipts: every list below names what each tool costs from the ven
 
 ## How to read the directory
 
-The directory holds **166 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **160** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
+The directory holds **167 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **160** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
 
 Every number in the directory carries a date. Prices, integration counts, AI feature lists, star counts: each one shows the day we last checked it against the vendor's own documentation. When a number moves, the page moves with it. The n8n star count is the obvious example. Three different figures had settled into our own pages before we re-checked the repository and re-stamped the date.
 

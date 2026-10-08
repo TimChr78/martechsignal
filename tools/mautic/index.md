@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Mautic
-Re-check pending: pricing last verified 2026-09-07 (30 days ago).
+Re-check pending: pricing last verified 2026-09-07 (31 days ago).
 
 ## Mautic review (2026): pricing, AI features, verdict
 
@@ -24,7 +24,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 38/60
 
-Mautic is the open-source marketing automation standard: 10,710 stars under GPL with managed hosting from EUR 247.50/mo. No AI features documented, and the campaign engine does not need them.
+Mautic is the open-source marketing automation standard: 10,726 stars under GPL with managed hosting from EUR 247.50/mo. No AI features documented, and the campaign engine does not need them.
 
 
 | Pillar | Score | Evidence |
@@ -40,7 +40,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Mautic is the longest-running open-source marketing automation platform: email, landing pages, forms, segments, campaigns, contact scoring, and multi-channel messaging across email, SMS, web notifications, and mobile push, all self-hosted under GPL-3.0. Started in 2014, it has been community-governed since Acquia acquired Mautic Inc. in May 2019; the trademark is now held by fiscal host Open Source Collective and operations run through an elected Mautic Council, with Acquia and Dropsolid the largest funders. Around 10,710 GitHub stars, eleven bundled plugin packages, and translations into 70 languages reflect that community. The current line is 7.x (7.2.0 shipped in September 2026) and its requirements are serious: PHP 8.2 or newer, minimums raised to MySQL 8.4 and MariaDB 10.11 in the 7.0 release, npm for asset builds, mandatory cron jobs for segments, campaigns, and the email queue, and command-line-only updates, since browser updating was removed in 5.0. Shared hosting is explicitly discouraged. Campaigns, segments, and points-based lead scoring are deterministic rule engines; there is no AI anywhere, and the project's AI Manifesto states plainly that it hosts or maintains no AI services and remains AI-agnostic, so any Mautic AI pitch is a third-party layer rather than a product feature. Integrations are plugin-based: Salesforce, HubSpot, Pipedrive, Zoho, and Dynamics among CRMs, plus WordPress, Twilio, Mailchimp, Gmail and Outlook connectors, Google Tag Manager, Amazon S3, and Zapier. The project's own comparison page positions Mautic for organizations whose automation grows more complex over time and that need control over data governance and infrastructure with predictable costs rather than contact-based fees, while conceding HubSpot for teams that want a polished hosted experience. The software is free; money enters through partner Dropsolid's managed hosting (from €247.50 a month, 14-day trial, no card) and paid Extended Long Term Support for older versions. The honest costs are operational: upgrades, backups, deliverability, and cron management are yours, and campaigns cannot be moved between instances.
+Mautic is the longest-running open-source marketing automation platform: email, landing pages, forms, segments, campaigns, contact scoring, and multi-channel messaging across email, SMS, web notifications, and mobile push, all self-hosted under GPL-3.0. Started in 2014, it has been community-governed since Acquia acquired Mautic Inc. in May 2019; the trademark is now held by fiscal host Open Source Collective and operations run through an elected Mautic Council, with Acquia and Dropsolid the largest funders. Around 10,726 GitHub stars, eleven bundled plugin packages, and translations into 70 languages reflect that community. The current line is 7.x (7.2.0 shipped in September 2026) and its requirements are serious: PHP 8.2 or newer, minimums raised to MySQL 8.4 and MariaDB 10.11 in the 7.0 release, npm for asset builds, mandatory cron jobs for segments, campaigns, and the email queue, and command-line-only updates, since browser updating was removed in 5.0. Shared hosting is explicitly discouraged. Campaigns, segments, and points-based lead scoring are deterministic rule engines; there is no AI anywhere, and the project's AI Manifesto states plainly that it hosts or maintains no AI services and remains AI-agnostic, so any Mautic AI pitch is a third-party layer rather than a product feature. Integrations are plugin-based: Salesforce, HubSpot, Pipedrive, Zoho, and Dynamics among CRMs, plus WordPress, Twilio, Mailchimp, Gmail and Outlook connectors, Google Tag Manager, Amazon S3, and Zapier. The project's own comparison page positions Mautic for organizations whose automation grows more complex over time and that need control over data governance and infrastructure with predictable costs rather than contact-based fees, while conceding HubSpot for teams that want a polished hosted experience. The software is free; money enters through partner Dropsolid's managed hosting (from €247.50 a month, 14-day trial, no card) and paid Extended Long Term Support for older versions. The honest costs are operational: upgrades, backups, deliverability, and cron management are yours, and campaigns cannot be moved between instances.
 
 Mautic homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -105,7 +105,7 @@ The most complete open-source answer to HubSpot if you have the ops capacity to 
 | Pros | Cons |
 | --- | --- |
 | ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €247.50/mo |
-| ✓ Active public repository (10,717 GitHub stars counted at last check) |  |
+| ✓ Active public repository (10,726 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Salesforce, HubSpot, Pipedrive (10 listed) |  |
 
 ## Related concepts
@@ -123,7 +123,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Mautic?**
-Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,717 stars. Mautic offers a public API for custom integrations.
+Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,726 stars. Mautic offers a public API for custom integrations.
 
 **How much does Mautic cost?**
 Mautic has a free tier; paid plans start at €247.50/mo. Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from €247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -159,11 +159,11 @@ The features page describes IP anonymization for visitor records, site tracking 
 
 - **Pricing:** Open Source from €247.50/mo
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 10717
+- **GitHub:** ★ 10726
 - **Founded:** 2014
 - **HQ:** Community project; fiscal host Open Source Collective
 - **API:** Yes
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-08
 - **Page updated:** 2026-09-07
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)

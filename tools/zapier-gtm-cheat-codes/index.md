@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Zapier GTM Cheat Codes
-Re-check pending: pricing last verified 2026-08-31 (37 days ago).
+Re-check pending: pricing last verified 2026-08-31 (38 days ago).
 
 ## Zapier GTM Cheat Codes review (2026): pricing, AI features, verdict
 
@@ -112,10 +112,10 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 
 ## Similar Tools
 
+- [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 - [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-- [Digital Marketing Pro](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
 - [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors
 ## Related reading
 

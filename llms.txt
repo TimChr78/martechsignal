@@ -1,7 +1,7 @@
 # MartechSignal
 
 > Independent reviews of AI marketing automation tools. Structured research on
-> 166 martech platforms | pricing, self-hosting, APIs, and which AI features
+> 167 martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -33,6 +33,7 @@
 - [Eve Marketing Team Template](https://martechsignal.com/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email (open source)
 - [Google Ads + Meta Ads + GA4 MCP](https://martechsignal.com/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4 (open source)
 - [Growth Lab](https://martechsignal.com/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex (open source)
+- [Marketing Skills (coreyhaines31)](https://martechsignal.com/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines (open source)
 - [Marketing Studio](https://martechsignal.com/tools/marketing-studio/): Agent-driven marketing studio for Claude Code: launch assets from one command (open source)
 - [Open Mercato](https://martechsignal.com/tools/open-mercato/): Open-source TypeScript foundation for AI-built commerce, CRM, and ERP (open source)
 - [OpenClaw Marketing Skills](https://martechsignal.com/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors (open source)
@@ -420,7 +421,7 @@
 
 ## Machine-readable data
 
-- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 168 records = 166 active + 2 non-active; the directory above lists only active tools
-- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 319 entries with representativeQueries (specVersion 1.0)
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 169 records = 167 active + 2 non-active; the directory above lists only active tools
+- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 320 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows
