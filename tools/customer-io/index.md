@@ -145,8 +145,8 @@ Email and transactional email, push and in-app with unlimited sends on every pla
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Lifecycle teams writing behavior-triggered journeys on their own data

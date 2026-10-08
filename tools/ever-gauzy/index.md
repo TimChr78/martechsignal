@@ -136,8 +136,8 @@ Yes, and it is the platform's anchor module. The README lists employee time-trac
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $17/mo

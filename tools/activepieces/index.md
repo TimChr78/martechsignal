@@ -109,8 +109,8 @@ Strengths include 24,940 GitHub stars, open-source licensing with free self-host
 ## Related reading
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $20/mo

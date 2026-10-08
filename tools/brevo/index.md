@@ -1050,8 +1050,8 @@ Yes. The catalog records a public API for Brevo, so custom integrations are poss
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Also featured in
 
 - [Mailchimp vs Brevo (2026): pricing, multichannel, verdict](/vs/mailchimp-vs-brevo/) — Pick Brevo if your list is large but rarely sent, or you need one multichannel account on a tight budget, starting free at 300 emails/day with paid from $9/mo.

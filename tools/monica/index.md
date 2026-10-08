@@ -148,8 +148,8 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 ## Related reading
 
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for relationship-led founders and community businesses.

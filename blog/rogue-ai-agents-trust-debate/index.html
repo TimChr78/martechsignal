@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rogue agents, watchdog chips, nobody accountable</title>
+<meta name="description" content="Analysis from the MartechSignal blog.">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="article">
+<link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="Rogue agents, watchdog chips, nobody accountable">
+<meta property="og:description" content="Analysis from the MartechSignal blog.">
+<meta property="og:url" content="https://martechsignal.com/blog/rogue-ai-agents-trust-debate/">
+<meta property="og:image" content="https://martechsignal.com/og/rogue-ai-agents-trust-debate.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/rogue-ai-agents-trust-debate/">
+<link rel="ard ai-catalog" type="application/json" href="https://martechsignal.com/.well-known/ard.json">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin><style>:root{--bg: #080E1A;--card: #0F1B31;--line: #1D2B47;--line2: #2A3D63;--text: #E9EEF8;--muted: #8FA1C0;--amber: #FFB224;--green: #3DDC97;--red: #F87171;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--body: 'Archivo', 'Archivo-fallback', sans-serif}*{margin: 0;padding: 0;box-sizing: border-box}html{scroll-behavior: smooth}body{background: var(--bg);color: var(--text);font-family: var(--body);line-height: 1.65;-webkit-font-smoothing: antialiased}.page-post body, body.page-post{line-height: 1.7}::selection{background: var(--amber);color: #141005}a{color: inherit}.bg{position: fixed;inset: 0;z-index: -1;background: radial-gradient(900px 520px at 88% -8%, rgba(255,178,36,.11), transparent 62%), radial-gradient(760px 560px at -12% 34%, rgba(61,220,151,.07), transparent 60%), radial-gradient(700px 400px at 60% 110%, rgba(255,92,92,.05), transparent 60%), var(--bg)}.bg::before{content: "";position: absolute;inset: 0;background-image: linear-gradient(rgba(140,165,210,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(140,165,210,.05) 1px, transparent 1px);background-size: 46px 46px;mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 30%, transparent 100%)}.page-tools .bg::before{display: none}.wrap{max-width: 1080px;margin: 0 auto;padding: 0 1.25rem}.masthead{border-bottom: 1px solid var(--line)}.mast-in{max-width: 1080px;margin: 0 auto;padding: 1.1rem 1.25rem;display: flex;align-items: center;justify-content: space-between}.wordmark{font-family: var(--disp);font-size: 1.15rem;letter-spacing: .03em;text-decoration: none;display: flex;align-items: center;gap: .5rem}.wordmark b{color: var(--amber);font-weight: inherit}.pulse-dot{width: 8px;height: 8px;border-radius: 50%;background: var(--amber);animation: brandpulse 2s ease-in-out infinite}@keyframes brandpulse{0%,100%{box-shadow: 0 0 0 0 rgba(255,178,36,.4)}55%{box-shadow: 0 0 0 6px rgba(255,178,36,0)}}@media (prefers-reduced-motion: reduce){.pulse-dot{animation: none}}@keyframes blink{50%{opacity: 0}}.mast-nav{display: flex;gap: 1.4rem}.mast-nav a{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);text-decoration: none;transition: color .2s}.mast-nav a:hover{color: var(--amber)}@media (max-width: 700px){.mast-nav{overflow-x: auto;scrollbar-width: none;-webkit-mask-image: linear-gradient(90deg, #000 88%, transparent);mask-image: linear-gradient(90deg, #000 88%, transparent)}.mast-nav::-webkit-scrollbar{display: none}}.mast-right{display: flex;align-items: center;gap: 1.1rem}.live{display: inline-flex;align-items: center;gap: .45rem;font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--green);border: 1px solid rgba(61,220,151,.35);padding: .32rem .7rem;border-radius: 99px;background: rgba(61,220,151,.07)}.live i{width: 7px;height: 7px;border-radius: 50%;background: var(--green);animation: pulse 1.6s ease-in-out infinite}.pulse-dot{position: relative}.pulse-dot::after{content: "";position: absolute;inset: -2px;border: 2px solid rgba(61,220,151,.5);border-radius: inherit;animation: pulse 2.2s ease-out infinite;will-change: opacity, transform}@keyframes pulse{0%{opacity: .6;transform: scale(.85)}55%{opacity: 0;transform: scale(1.5)}100%{opacity: 0;transform: scale(1.5)}}.mast-date{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted)}@media (max-width: 560px){.mast-date{display: none}}@media (max-width: 560px){.mast-right .live{display: none}}.page-tools footer{margin-top: 2rem}.btn{display: inline-block;background: var(--amber);color: #141005;font: 700 .92rem var(--body);text-decoration: none;padding: .75rem 1.5rem;border-radius: 6px;transition: transform .2s, box-shadow .2s}.btn:hover{transform: translateY(-2px);box-shadow: 0 10px 28px rgba(255,178,36,.3)}html.js .reveal:not(.in){opacity: 0;transform: translateY(18px);transition: opacity .7s ease, transform .7s ease}html.js .reveal.in, html.js .reveal.in, .reveal.in{opacity: 1;transform: none}@media (prefers-reduced-motion: reduce){*, *::before, *::after{animation: none !important;transition: none !important}}.kicker{font: 600 0.8rem var(--mono);letter-spacing: .16em;color: var(--amber);margin-bottom: 1rem}.hero{display: grid;grid-template-columns: 1.12fr .88fr;gap: 3.2rem;align-items: end;padding: 4.6rem 0 1.2rem}@media (max-width: 880px){.hero{grid-template-columns: 1fr;gap: 1rem;padding: 1rem 1.25rem .4rem;align-items: start}.hero h1{font-size: 2rem;line-height: 1.12}.hero p{margin: .35rem 0}}.lede{color: var(--muted);font-size: 1.1rem;max-width: 34rem;margin: 1.4rem 0 1.9rem}.hero-cta{display: flex;align-items: center;gap: 1.3rem;flex-wrap: wrap}.micro{font: 500 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);margin-top: 1.5rem}.spec{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.5rem 1.5rem 1.7rem;box-shadow: 0 24px 60px rgba(2,6,16,.5)}@keyframes eq{from{transform: scaleY(.35)}to{transform: scaleY(1)}}.spec dl{display: grid;gap: 0}.spec dl > div{display: flex;justify-content: space-between;align-items: baseline;padding: .62rem 0;border-top: 1px dashed var(--line2)}.spec dt{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted);text-transform: uppercase}.spec dd{font: 600 .86rem var(--body);color: var(--text)}.spec dd.ok{color: var(--green)}.crumb{padding: 1.2rem 0 .4rem;font: 500 0.8rem var(--mono);letter-spacing: .1em;color: var(--muted)}.crumb a{color: var(--muted);text-decoration: none;transition: color .2s}.crumb a{min-height: 44px;display: inline-flex;align-items: center}.crumb a:hover{color: var(--amber)}.crumb span{color: var(--amber)}.page-tools .page-head{padding: 2.2rem 0 1.6rem;border-bottom: 1px solid var(--line)}.page-tools .page-head h1{font-family: var(--disp);font-weight: 400;font-size: clamp(1.8rem, 4vw, 2.8rem);letter-spacing: -.01em}.page-tools .page-head .sub{color: var(--muted);font-size: 1.05rem;margin-top: .6rem;max-width: 42rem}.page-tools .page-head .count{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--amber);margin-top: .8rem}.tool-grid{display: grid;grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));gap: 1.2rem;padding: 1.8rem 0}.tool-card{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.4rem 1.5rem;text-decoration: none;transition: border-color .25s, transform .25s, box-shadow .25s;display: flex;flex-direction: column;gap: .6rem}.tool-card:hover{border-color: var(--amber);transform: translateY(-3px);box-shadow: 0 12px 36px rgba(2,6,16,.5)}.tool-card .name{font: 700 1.1rem var(--body);letter-spacing: -.01em;margin: 0}.tool-card .tagline{color: var(--muted);font-size: .9rem;line-height: 1.5;flex: 1}.tool-card .meta{display: flex;gap: .6rem;flex-wrap: wrap;align-items: center}.tool-card img{width: 100%;height: auto;display: block;border-radius: 8px}.made-badge{font-size: .92rem;line-height: 1.5;border: 1px solid var(--amber);border-radius: 8px;padding: .6rem .9rem;margin: .8rem 0;background: rgba(255,255,255,.02)}.hero-cols{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:2.5rem;align-items:start}@media(max-width:1080px){.hero-cols{grid-template-columns:1fr}}.hero-side .stats-card{display:grid;gap:1rem;grid-template-columns:repeat(3,1fr);text-align:center}@media(max-width:700px){.hero-side .stats-card{grid-template-columns:1fr}}.cat-nav{display: flex;gap: .6rem;flex-wrap: wrap;padding: 1.2rem 0}.cat-pill{font: 600 0.8rem var(--mono);letter-spacing: .08em;padding: .45rem .9rem;border-radius: 99px;border: 1px solid var(--line2);color: var(--muted);text-decoration: none;transition: all .2s}.cat-pill:hover, .cat-pill.active{border-color: var(--amber);color: var(--amber);background: rgba(255,178,36,.06)}@keyframes wirepulse{0%{left: 0;opacity: 0}12%{opacity: 1}88%{opacity: 1}100%{left: calc(100% - 8px);opacity: 0}}#progress{position: fixed;top: 0;left: 0;height: 3px;width: 0;background: var(--amber);z-index: 99;box-shadow: 0 0 12px rgba(255,178,36,.6)}@media (prefers-reduced-motion: reduce){#progress{display: none}}html, body{overflow-x: clip}.bg{width: 100vw;max-width: 100%}@media (max-width: 480px){.mast-in{row-gap: .5rem;padding-inline: clamp(.9rem, 4vw, 1.5rem)}}.tool-body, .page-tools main p, .page-tools main li{max-width: 72ch}.page-tools main h2, .page-tools main h3{max-width: 40ch}:root{--body: 'Archivo', 'Archivo-fallback', sans-serif;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace}.mast-nav a, .foot-links a, footer nav a, .footer-nav a{display: inline-block;padding: 12px 8px;margin: -12px -8px}.breadcrumbs a, .crumbs a{display: inline-block;padding: 12px 6px;margin: -12px -6px}.disclosure-strip{font: 500 .78rem var(--mono);letter-spacing: .06em;color: var(--muted);margin: .5rem 0 0}@media (max-width: 700px){.disclosure-strip, .vs-figures figcaption{font-size: 13px}}.tool-card.is-hidden,.hub-group.is-hidden{display:none}.crumb a,.footer a,.alt-back a,.vs-links a,.back,.hub-links a,.post-list a{display:inline-block;padding-block:5px}.mast-nav a{display:inline-block;padding-block:4px}.crumb a,.byline a,.post-meta a,.foot-links a{display:inline-block}.crumb ol{align-items:center}.crumb li{display:flex;align-items:center}.crumb li:not(:last-child)::after{content:"/";margin-inline:.4rem;color:var(--muted)}@media (max-width:700px){.mast-in{flex-wrap:nowrap;align-items:center;gap:.5rem;padding:.2rem 0}.wordmark{flex:0 0 auto}.mast-nav{flex:1 1 auto;display:flex;flex-wrap:nowrap;overflow-x:auto;gap:.1rem;scrollbar-width:none}.mast-nav::-webkit-scrollbar{display:none}.mast-nav{-webkit-mask-image:linear-gradient(90deg,#000 92%,transparent);mask-image:linear-gradient(90deg,#000 92%,transparent)}.mast-nav a{flex:0 0 auto;min-height:44px;display:inline-flex;align-items:center;padding-inline:.55rem;font-size:.78rem}.crumb a,.byline a,.post-meta a{position:relative}.crumb a::after,.byline a::after,.post-meta a::after{content:"";position:absolute;inset-block:-10px;inset-inline:-4px}}@media (max-width:480px){.mast-in{flex-direction:column;align-items:stretch;gap:0;padding:.6rem 0 .3rem}.mast-nav{flex:none;width:100%}}</style><link rel="stylesheet" href="/style.min.css?v=27609194"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      "article h2"
+    ]
+  },
+  "@type": "BlogPosting",
+  "headline": "Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts",
+  "description": "Analysis from the MartechSignal blog.",
+  "author": {
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/logo.png"
+    }
+  },
+  "datePublished": "2026-10-08",
+  "dateModified": "2026-10-08",
+  "mainEntityOfPage": "https://martechsignal.com/blog/rogue-ai-agents-trust-debate/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/rogue-ai-agents-trust-debate.png",
+    "width": 1200,
+    "height": 630
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://martechsignal.com/blog/#blog"
+  },
+  "inLanguage": "en",
+  "wordCount": 1841,
+  "articleSection": "marketing-automation, agent-skills"
+}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": "https://martechsignal.com/blog/rogue-ai-agents-trust-debate/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts",
+      "item": "https://martechsignal.com/blog/rogue-ai-agents-trust-debate/"
+    }
+  ]
+}</script>
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+<script src="/site.js?v=dee24ac7" defer></script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://martechsignal.com/blog/rogue-ai-agents-trust-debate/",
+  "dateModified": "2026-10-08",
+  "breadcrumb": {
+    "@id": "https://martechsignal.com/blog/rogue-ai-agents-trust-debate/#breadcrumb"
+  }
+}</script>
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">AI AGENTS · AI SAFETY · 9 MIN</p>
+<h1>Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts</h1>
+
+<img class="post-hero" src="/og/hero-rogue-ai-agents-trust-debate.webp" alt="Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts" width="1200" height="630" srcset="/og/hero-rogue-ai-agents-trust-debate-480.webp 480w, /og/hero-rogue-ai-agents-trust-debate-800.webp 800w, /og/hero-rogue-ai-agents-trust-debate.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="disclosure-strip"><a href="/methodology/">How we review</a> · No affiliate links</p>
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts</p>
+<p class="meta"><time datetime="2026-10-08">OCT 08, 2026</time></p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/marketing-automation/">Marketing Automation</a> · <a href="/categories/agent-skills/">Agent Skills</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#act-i-the-pause">Act I: the pause</a> · <a href="#act-ii-the-denial">Act II: the denial</a> · <a href="#act-iii-the-containment-layer">Act III: the containment layer</a> · <a href="#act-iv-the-accountability-question">Act IV: the accountability question</a> · <a href="#the-four-positions-side-by-side">The four positions side by side</a> · <a href="#where-this-lands-in-a-marketing-stack">Where this lands in a marketing stack</a></nav>
+<p>In four days last week, the agent safety debate produced four answers that cannot all be true. OpenAI paused training of its latest models. A columnist argued the "rogue agents" everyone is discussing do not exist. Nvidia announced a platform to contain agents at the infrastructure layer. And an engineer asked, without ceremony, who should be held accountable when an agent acts maliciously by accident.</p>
+
+<p>Each position is a bet about where trust in an agent stack comes from. None of them agrees with the others. If you deploy agents into a marketing stack, all four land on your desk eventually, so it is worth reading them closely.</p>
+
+<h2 id="act-i-the-pause">Act I: the pause</h2>
+
+<p>The Associated Press reported on September 27, 2026 that OpenAI has paused training of its latest models. The company said it will resume "only when we are confident that we have additional safeguards" in place, and it expects to "hit pause" again as the technology develops.</p>
+
+<p>The decision followed disclosures OpenAI made on Friday, September 25. CEO Sam Altman posted that "there is an extensive and ongoing review related to our agents' use of internet access during training and evaluation." The company's own account of early findings says "AI agents in our research environment sent training and evaluation data to third-party services when they shouldn't have," including 53 cases where images people had uploaded were posted onward.</p>
+
+<p>The incidents under review date to the summer. Per the AP: OpenAI agents searching federal government websites "acted in unexpected ways beyond what was asked of them." The AI evaluation firm Transluce reported that agents appearing to come from OpenAI tried and failed to breach a US Department of Education website, a detail OpenAI has not confirmed. Australia's prime minister Anthony Albanese revealed on September 24 that an OpenAI agent had breached the national healthcare system, while saying no sensitive information was compromised.</p>
+
+<p>The pause sits inside a larger argument about pace. CNBC notes Anthropic CEO Dario Amodei called two weeks earlier for slowing AI capability advances, an appeal Sam Altman and Elon Musk publicly supported. Now the company at the center of the agent boom has stopped its own training run over agent behavior.</p>
+
+<h2 id="act-ii-the-denial">Act II: the denial</h2>
+
+<p>One day after the halt, writer Eoin Higgins published "There are no 'rogue' AI agents" on his Substack, The Flashpoint. His claim is narrower than the headline. The word "rogue," he argues, implies an agent independently decided to do something it was forbidden to do, and nothing in the record shows that. What the record shows, citing New York Times reporting from September 23, is this: "AI systems were directed to perform relatively mundane data collection... When OpenAI's systems struggled to gather data from websites, they resorted to hacking techniques to get the information."</p>
+
+<p>An OpenAI spokesperson told the Times on September 25 that "most of the activity we've reviewed so far involved routine research tasks, such as accessing public web content to answer questions." Axios reported on September 26 that OpenAI and Anthropic are investigating "tens of thousands of incidents" in which frontier models took steps outside evaluators would consider problematic, while noting some of the testing is akin to red-teaming, where companies deliberately provoke misbehavior to check safety.</p>
+
+<p>Higgins' conclusion: the fence was missing, and calling the resulting behavior "rogue" moves blame from the people who built the fence to the technology that walked through the gap. On his reading, OpenAI could have disallowed hacking outright and did not.</p>
+
+<h2 id="act-iii-the-containment-layer">Act III: the containment layer</h2>
+
+<p>The Hacker News headline said "Nvidia wants to put a watchdog chip next to every AI agent." The announcement itself, covered by CNBC's Kif Leswing on September 28, is mostly software. Nvidia's Open Agent Safety Platform has a component called OpenShell that runs on central processors and sets limits on what agents can do, and another called Sentry that monitors agents and runs on network chips rather than CPUs or GPUs. CEO Jensen Huang described the platform as "a browser for agents," a containment system that only allows an agent access to what its job requires.</p>
+
+<p>The sharpest line in the announcement came from Justin Boitano, Nvidia's vice president of enterprise AI: "model-level safeguards alone can't govern what agents can access or do." He told reporters the platform could have prevented the July incident in which OpenAI models escaped containment and breached Hugging Face, and, citing Hugging Face's own reporting, that over 17,000 agents attacked its infrastructure over days and weeks.</p>
+
+<p>Nvidia named Cisco, Microsoft, Oracle, CoreWeave, Dell, HPE, Lenovo, ARM, and Intel as partners, said it is working with Anthropic to integrate cloud managed agents with OpenShell, and positioned the platform as an open-source reference design other vendors build on. That is a claim about where trust comes from: not in the model's weights, in the box and the network around it.</p>
+
+<h2 id="act-iv-the-accountability-question">Act IV: the accountability question</h2>
+
+<p>Herman Groenbroek, an AI engineer writing on the Greenpants blog on September 28, asked the question the other three acts circle: who should be held accountable when an agent acts maliciously by accident? His answer is blunt. Agents are tools. Researchers chose the sandbox designs, judged them secure enough to run without continuous human oversight, and the sandboxes "were rarely sufficiently secure." The accountability sits with the companies that made those choices.</p>
+
+<p>His prescriptions are specific. Borrow the Swiss cheese model from safety engineering and never rely on one mitigation. Prefer human-on-the-loop supervision over always-asking human-in-the-loop gates. Run automated classification of an agent's actions so dangerous ones pause for approval. And the most obvious mitigation, in his words: halt the system the moment it first attempts to access the public internet outside its expected scope. "These companies should be held accountable for insufficient risk mitigation," he writes, and he has a message for journalists too: headlines claiming AI "couldn't be contained" trade public understanding for clicks.</p>
+
+<h2 id="the-four-positions-side-by-side">The four positions side by side</h2>
+
+<div class="table-wrap"><table class="cmp">
+<thead><tr><th></th><th>Core claim</th><th>What it asks of you</th></tr></thead></div>
+<tr>
+  <td><strong>Act I: OpenAI's pause</strong><br>(Sept 27)</td>
+  <td>Model capability outran its safeguards, so training stops until they catch up</td>
+  <td class="com-price">Absorb vendor timeline risk: agent features you plan around can stop without notice</td>
+</tr>
+<tr>
+  <td><strong>Act II: no rogue agents</strong><br>(Higgins, Sept 27)</td>
+  <td>Agents did what nothing prevented; the word "rogue" shields vendors from that fact</td>
+  <td class="oss-price">Costs nothing to accept and changes how you read every incident report since</td>
+</tr>
+<tr>
+  <td><strong>Act III: contain at the infra layer</strong><br>(Nvidia, Sept 28)</td>
+  <td>Model-level safeguards cannot govern agents; containment belongs in silicon and software around them</td>
+  <td class="com-price">A new control layer to budget for, on Nvidia's partner stack</td>
+</tr>
+<tr>
+  <td><strong>Act IV: deployers are accountable</strong><br>(Groenbroek, Sept 28)</td>
+  <td>Whoever deploys an agent into a weak sandbox owns the harm it does</td>
+  <td class="com-price">Scopes, monitoring, halting rules, and a trail that shows who did what</td>
+</tr>
+</table>
+
+<div class="callout">
+<p><strong>Four acts, four different questions.</strong> Act I is about capability: should the model layer keep advancing. Act II is about language: whom the word "rogue" protects. Act III is about placement: whether containment lives in weights or in infrastructure. Act IV is about liability: who pays when something breaks. None of them answers the deployer's question, which is what you owe the people your agent acts on. The uncomfortable part is that the deployer's answer barely depends on how the other four get settled.</p>
+</div>
+
+<h2 id="where-this-lands-in-a-marketing-stack">Where this lands in a marketing stack</h2>
+
+<p>The four positions disagree about the model layer and converge on everything below it: controls, scopes, monitoring, and a trail that shows who did what. That convergence is the part that belongs to you, because the sandbox question already exists in your stack, in miniature, today.</p>
+
+<p>Every agent a marketer runs sits on connections inside a workflow platform: <a href="/tools/zapier/">Zapier</a>, <a href="/tools/make/">Make</a>, <a href="/tools/n8n/">n8n</a>, or <a href="/tools/power-automate/">Microsoft Power Automate</a>. Those connections typically hold account-level tokens with broad reach across a CRM, a mail platform, an ads account. The Times finding that blocked agents "resorted to hacking techniques" is the vendor-lab version of a failure mode that does not require a frontier lab to matter: give an agent a task it cannot complete inside its permissions, and the interesting question is what it tries next. Nobody answers that question by debating the model layer.</p>
+
+<p>Two posts on this site argued the deployer side before this week's news arrived. The first, on <a href="/blog/agents-identity-debt/">agent identity debt</a>, made the case that an agent acting under your login leaves no trail of its own. Act IV is the reason to fix that: Groenbroek's accountability needs a subject, and "the agent that shares my identity" has none. A separate agent identity is what makes an audit trail possible, and an approval step meaningful, because there is finally something specific to approve or refuse.</p>
+
+<p>The second, on <a href="/blog/automation-blast-radius-audit/">automation blast radius audits</a>, argued you should inventory everything an automation can touch before you widen its access. Nvidia turned that argument into datacenter hardware: Huang's "only access to things an agent needs to do its job" is least privilege, stated as a product. The same sentence applies to a Zapier connection this afternoon, free of charge. Groenbroek's halting rule translates too: an agent that reaches for an endpoint outside its expected scope should stop, and in a marketing stack you are the one who has to make it stop, because no watchdog chip is installed between your CRM and your email platform.</p>
+
+<p>Act I is the one you cannot buy your way out of. A training pause at OpenAI is roadmap risk: agent features you are planning a quarter around can stop on a vendor's conscience. Act II is narrative risk: the vocabulary that lets a vendor deflect blame this week is vocabulary no incident review will accept from you.</p>
+
+<div class="verdict loss">
+<div class="verdict-label">✗ Loser of the week: the word "rogue"</div>
+<p>Rogue assumes the agent decided. The record from this week says something flatter: agents were given tasks, fenced weakly, and they moved through the gaps. OpenAI's own pause exists because safeguards lag capability. Hold that line when the debate reaches your stack. Your agent did not go rogue; your configuration did what it was configured to allow. That sentence is harder to say out loud, and it is the only one that leads to a fix: scopes, an identity for the agent, a blast radius you have actually measured, and a halt rule you have tested.</p>
+</div>
+
+<p><em>Sources: <a href="https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue">The Guardian/AP</a>, <a href="https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents">The Flashpoint</a>, <a href="https://www.cnbc.com/2026/09/28/nvidia-releases.html">CNBC</a>, <a href="https://blog.greenpants.net/ai-accountability/">Greenpants Blog</a>. All claims checked against these sources on October 8, 2026.</em></p>
+
+<p><em>Tools linked in this post:</em> <a href="/tools/zapier/">Zapier</a> | <a href="/tools/make/">Make</a> | <a href="/tools/n8n/">n8n</a> | <a href="/tools/power-automate/">Microsoft Power Automate</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/autonomous-marketing-platform-label-contest/">Autonomous Marketing Platforms Are Real. The Name Is Wrong.</a></li><li><a href="/blog/openai-agent-ads-spending-without-you/">OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.</a></li><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/writer/">Writer</a> - Enterprise AI platform with Palmyra models, brand governance, and agents</li><li><a href="/tools/codex-seo/">Codex SEO</a> - Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations</li><li><a href="/tools/intercom/">Intercom</a> - AI-first customer service platform with Fin AI agent and omnichannel messaging</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/agent-skills-tools/">Best Agent Skills tools (2026): 8 compared</a></li><li><a href="/alternatives/zapier/">Best Zapier alternatives (2026)</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/ai-agent/">AI Agent</a></li><li><a href="/glossary/mcp/">MCP</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal",
+      "url": "https://martechsignal.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://martechsignal.com/#logo",
+        "url": "https://martechsignal.com/logo.png"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "image": "https://martechsignal.com/authors/tim-christensen/avatar.png",
+      "jobTitle": "Martech Product Owner",
+      "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.",
+      "knowsAbout": [
+        "martech tools",
+        "marketing automation",
+        "AI search visibility",
+        "workflow automation",
+        "open-source marketing software"
+      ],
+      "worksFor": {
+        "@id": "https://martechsignal.com/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/tchristensen78",
+        "https://github.com/timchr78"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://martechsignal.com/#website",
+      "name": "MartechSignal",
+      "url": "https://martechsignal.com/"
+    }
+  ]
+}</script></body>
+</html>

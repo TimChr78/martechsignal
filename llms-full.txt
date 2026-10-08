@@ -214,6 +214,7 @@
 
 ## Analysis
 
+- [Rogue agents, watchdog chips, nobody accountable](https://martechsignal.com/blog/rogue-ai-agents-trust-debate/) (2026-10-08)
 - [Braze moves AI into campaign ops: who approves?](https://martechsignal.com/blog/braze-ai-campaign-operations/) (2026-10-07)
 - [The retainer just broke: agencies won't own tools or data](https://martechsignal.com/blog/agency-retainer-agentic-tools/) (2026-10-06)
 - [19 open-source MCP servers, one marketing agent](https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/) (2026-10-05)
@@ -422,7 +423,7 @@
 ## Machine-readable data
 
 - [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 169 records = 167 active + 2 non-active; the directory above lists only active tools
-- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 320 entries with representativeQueries (specVersion 1.0)
+- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 321 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows
 

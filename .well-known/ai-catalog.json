@@ -2719,6 +2719,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:rogue-ai-agents-trust-debate",
+   "displayName": "Rogue agents, watchdog chips, nobody accountable",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/rogue-ai-agents-trust-debate/",
+   "description": "Analysis from the MartechSignal blog.",
+   "representativeQueries": [
+    "rogue agents, watchdog chips, nobody accountable",
+    "rogue ai agents trust debate"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:salesforce-agentforce-free-marketing-ops",
    "displayName": "Agentforce Is Free: What Marketing Ops Can Build",
    "type": "text/html",

@@ -148,8 +148,8 @@ Yes, and it is documented as a first-class surface rather than a bolt-on. Loops 
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ### Quick Facts
 
 - **Pricing:** Freemium

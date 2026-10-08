@@ -134,8 +134,8 @@ AGPL-3.0 covers the code. Using it internally is straightforward; deploying a mo
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
 ### Quick Facts
 
 - **Pricing:** Open Source

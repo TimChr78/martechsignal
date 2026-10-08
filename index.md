@@ -8,6 +8,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts
+
+In four days last week, the agent safety debate produced four answers that cannot all be true. OpenAI paused training of its latest models. A columnist argued the "rogue agents"…
+
 ### Braze moved AI from content to campaign operations: who approves when the campaign runs itself
 
 At its Forge conference in Las Vegas, Braze announced three products that move AI out of the copy editor and into campaign operations: BrazeAI Decisioning Studio Go, Agentic…
@@ -20,10 +24,6 @@ At AdExchanger's Programmatic IO in New York, a panel of agency executives argue
 
 An agent can now run a marketing loop end to end on open source. We counted this morning from the directory: 19 of the 81 open-source tools we track list an MCP server among their…
 
-### SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing
-
-On September 23, 2026, the behavioral intelligence company SQREEM appointed Stephen Yap as CEO and handed him a contrarian pitch to sell: the company's Large Behavioral Model, a…
-
 ## Tool index
 
 - [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
@@ -31,9 +31,9 @@ On September 23, 2026, the behavioral intelligence company SQREEM appointed Step
 - [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-- [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
-- [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+- [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
+- [Twilio SendGrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
 ## Comparisons and best-of lists
 
 Verdicts with receipts: every list below names what each tool costs from the vendor’s own pricing page, what it fits worst, and who should skip it. The head-to-head comparisons state pick-conditions instead of a winner; the best-of lists and tool pages give the verdict. Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.

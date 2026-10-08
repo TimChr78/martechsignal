@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2026 05:03:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 05:10:48 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts</title>
+      <link>https://martechsignal.com/blog/rogue-ai-agents-trust-debate/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/rogue-ai-agents-trust-debate/</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description>In four days last week, the agent safety debate produced four answers that cannot all be true. OpenAI paused training of its latest models. A columnist argued the "rogue agents"…</description>
+    </item>
     <item>
       <title>Braze moved AI from content to campaign operations: who approves when the campaign runs itself</title>
       <link>https://martechsignal.com/blog/braze-ai-campaign-operations/</link>
