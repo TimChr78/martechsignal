@@ -118,8 +118,8 @@ Valuable when you need an instant, numbers-based copy check across many channels
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Performance marketers that want a score before paying to publish

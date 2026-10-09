@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - ContentBot
-Re-check pending: pricing last verified 2026-08-28 (41 days ago).
+Re-check pending: pricing last verified 2026-08-28 (42 days ago).
 
 ## ContentBot review (2026): pricing, AI features, verdict
 
@@ -118,8 +118,8 @@ Good value for high-volume, template-driven content pipelines. Teams doing premi
 ## Related reading
 
 - [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $9/mo

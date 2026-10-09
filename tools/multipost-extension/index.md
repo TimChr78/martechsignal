@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - MultiPost
-Re-check pending: pricing last verified 2026-08-28 (41 days ago).
+Re-check pending: pricing last verified 2026-08-28 (42 days ago).
 
 ## MultiPost review (2026): pricing, AI features, verdict
 
@@ -68,7 +68,7 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 | ✓ Apache-2.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI content adaptation per platform |  |
-| ✓ Active public repository (3,598 GitHub stars counted at last check) |  |
+| ✓ Active public repository (3,602 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -82,10 +82,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is MultiPost?**
-MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,598 stars.
+MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,602 stars.
 
 **How much does MultiPost cost?**
-MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,598 stars. You pay in server time and maintenance, not licences.
+MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,602 stars. You pay in server time and maintenance, not licences.
 
 **Is MultiPost a good self-hosted Social Media tool in 2026?**
 Excellent lightweight cross-poster for individual creators; agencies need more machinery.
@@ -99,8 +99,8 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Best for social media teams that want one-click multi-platform publishing and can host it themselves, with a free starting tier.
@@ -108,9 +108,9 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 
 - **Pricing:** Open Source
 - **Category:** [Social Media](/categories/social-media/)
-- **GitHub:** ★ 3598
+- **GitHub:** ★ 3602
 - **API:** Yes
-- **Repository checked:** 2026-10-08
+- **Repository checked:** 2026-10-09
 - **Page updated:** 2026-08-28
 
 ### Pricing

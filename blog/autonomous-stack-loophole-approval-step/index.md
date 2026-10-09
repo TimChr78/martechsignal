@@ -78,7 +78,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ## Related tools
 
 - [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
@@ -96,6 +96,6 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [EspoCRM](/tools/espocrm/)
+More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

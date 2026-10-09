@@ -147,8 +147,8 @@ Signals, launched in May 2025, is Snowplow's real-time context layer and the hom
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want intent detection and can host it themselves, with a free starting tier.
@@ -159,7 +159,7 @@ Signals, launched in May 2025, is Snowplow's real-time context layer and the hom
 - **GitHub:** ★ 7035
 - **Founded:** 2012
 - **API:** Yes
-- **Repository checked:** 2026-10-08
+- **Repository checked:** 2026-10-09
 - **Page updated:** 2026-09-25
 
 Related guides: [Snowplow in Matomo alternatives](/alternatives/matomo/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/)

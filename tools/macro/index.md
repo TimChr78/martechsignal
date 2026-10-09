@@ -108,7 +108,7 @@ A genuinely open-source workspace whose CRM is a byproduct of team email: real f
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $40/seat/mo once past the free tier |
 | ✓ AI capabilities: agent-driven CRM that builds contact and company records from your team's email |  |
-| ✓ Active public repository (4,590 GitHub stars counted at last check) |  |
+| ✓ Active public repository (4,596 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -125,7 +125,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Macro?**
-Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,590 stars.
+Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 4,596 stars.
 
 **How much does Macro cost?**
 Macro has a free tier; paid plans start at $40/seat/mo. Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0. We last checked both ends of that split on 2026-10-06. The pricing section above shows what the free tier actually covers.
@@ -149,17 +149,17 @@ Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focu
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $40/seat/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 4590
+- **GitHub:** ★ 4596
 - **Founded:** 2020
 - **HQ:** New York, NY, USA
 - **API:** Yes
-- **Repository checked:** 2026-10-08
+- **Repository checked:** 2026-10-09
 - **Page updated:** 2026-10-06
 
 ## Get the next teardown

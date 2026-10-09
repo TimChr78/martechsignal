@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - AdCreative.ai
-Re-check pending: pricing last verified 2026-08-28 (41 days ago).
+Re-check pending: pricing last verified 2026-08-28 (42 days ago).
 
 ## AdCreative.ai review (2026): pricing, AI features, verdict
 
@@ -122,8 +122,8 @@ Buy it when ad volume is your bottleneck and speed matters. Skip it if your bran
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Lean teams that want creative volume with a score attached

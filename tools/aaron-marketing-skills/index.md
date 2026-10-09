@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Aaron Marketing Skills
-Re-check pending: pricing last verified 2026-08-28 (41 days ago).
+Re-check pending: pricing last verified 2026-08-28 (42 days ago).
 
 ## Aaron Marketing Skills review (2026): pricing, AI features, verdict
 
@@ -24,7 +24,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 40/60
 
-Aaron's 120 skills come with six auditor gates, which is the interesting part: outputs get checked before they ship. Apache-2.0 and 2,883 stars make it the most adopted skill pack in this group.
+Aaron's 120 skills come with six auditor gates, which is the interesting part: outputs get checked before they ship. Apache-2.0 and 2,888 stars make it the most adopted skill pack in this group.
 
 
 | Pillar | Score | Evidence |
@@ -82,7 +82,7 @@ Useful starter kit for marketers adopting Claude Code. Customize before you trus
 | --- | --- |
 | ✓ Apache-2.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: 120 skills across SEO/GEO, influencer, paid ads, email, launch, social, and brand narrative |  |
-| ✓ Active public repository (2,883 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,888 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -98,10 +98,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Aaron Marketing Skills?**
-Aaron Marketing Skills: 120 marketing skills across 7 disciplines for Claude Code with auditor gates. Aaron Marketing Skills ships with 120 skills across SEO/GEO, influencer, paid ads, email, launch, social, and brand narrative. The public repository carries 2,883 stars.
+Aaron Marketing Skills: 120 marketing skills across 7 disciplines for Claude Code with auditor gates. Aaron Marketing Skills ships with 120 skills across SEO/GEO, influencer, paid ads, email, launch, social, and brand narrative. The public repository carries 2,888 stars.
 
 **How much does Aaron Marketing Skills cost?**
-Aaron Marketing Skills is open source - Apache-2.0 licensed and free to self-host; the public repository carries 2,883 stars; native integrations cover Claude Code, Codex, Gemini CLI. You pay in server time and maintenance, not licences.
+Aaron Marketing Skills is open source - Apache-2.0 licensed and free to self-host; the public repository carries 2,888 stars; native integrations cover Claude Code, Codex, Gemini CLI. You pay in server time and maintenance, not licences.
 
 **Is Aaron Marketing Skills a good self-hosted Agent Skills tool in 2026?**
 Useful starter kit for marketers adopting Claude Code. Customize before you trust the defaults.
@@ -116,16 +116,16 @@ Useful starter kit for marketers adopting Claude Code. Customize before you trus
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 2883
+- **GitHub:** ★ 2888
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-08
+- **Repository checked:** 2026-10-09
 - **Page updated:** 2026-08-28
 
 ## Get the next teardown

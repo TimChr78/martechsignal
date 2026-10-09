@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Cordys CRM
-Re-check pending: pricing last verified 2026-09-07 (31 days ago).
+Re-check pending: pricing last verified 2026-09-07 (32 days ago).
 
 ## Cordys CRM review (2026): pricing, AI features, verdict
 
@@ -84,7 +84,7 @@ Watch it for self-hosted CRM needs. The feature ceiling is below Salesforce, but
 | --- | --- |
 | ✓ GPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: maxKB sales agents connected over the API |  |
-| ✓ Active public repository (2,762 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,766 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -101,10 +101,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Cordys CRM?**
-Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,762 stars.
+Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,766 stars.
 
 **How much does Cordys CRM cost?**
-Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,762 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences.
+Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,766 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences.
 
 **Is Cordys CRM worth it past the free tier?**
 Watch it for self-hosted CRM needs. The feature ceiling is below Salesforce, but the cost floor is unbeatable.
@@ -137,17 +137,17 @@ The community edition is free and self-hosted under a GPLv3-based license, with 
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ### Quick Facts
 
 - **Pricing:** Freemium
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 2762
+- **GitHub:** ★ 2766
 - **Founded:** 2025
 - **HQ:** China
 - **API:** Yes
-- **Repository checked:** 2026-10-08
+- **Repository checked:** 2026-10-09
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

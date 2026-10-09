@@ -49,9 +49,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Matomo - 21,934 stars, +129 in the 45-snapshot window to 2026-10-08 21,805→21,934 [verify on GitHub](https://github.com/matomo-org/matomo)
-- Umami - 39,231 stars, +871 in the 45-snapshot window to 2026-10-08 38,360→39,231 [verify on GitHub](https://github.com/umami-software/umami)
-- Snowplow - 7,035 stars, +7 in the 45-snapshot window to 2026-10-08 7,028→7,035 [verify on GitHub](https://github.com/snowplow/snowplow)
+- Matomo - 21,936 stars, +131 in the 46-snapshot window to 2026-10-09 21,805→21,936 [verify on GitHub](https://github.com/matomo-org/matomo)
+- Umami - 39,255 stars, +895 in the 46-snapshot window to 2026-10-09 38,360→39,255 [verify on GitHub](https://github.com/umami-software/umami)
+- Snowplow - 7,035 stars, +7 in the 46-snapshot window to 2026-10-09 7,028→7,035 [verify on GitHub](https://github.com/snowplow/snowplow)
 [All movers on the trending page](/trending/).
 
 ## [Amplitude](/tools/amplitude/)

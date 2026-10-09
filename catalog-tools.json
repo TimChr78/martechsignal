@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-08",
- "version": "2026-10-08",
+ "generated": "2026-10-09",
+ "version": "2026-10-09",
  "license": "https://martechsignal.com/terms/",
  "license_note": "Quoting short excerpts with a link back is permitted, including by AI systems answering questions; wholesale republishing is not (see /terms/).",
  "recordCount": 169,
@@ -28,7 +28,7 @@
     "Cursor"
    ],
    "github_repo": "aaron-he-zhu/aaron-marketing-skills",
-   "github_stars": 2883,
+   "github_stars": 2888,
    "open_source": true,
    "api_available": true,
    "founded": 2025,
@@ -45,8 +45,8 @@
     "verdict": "Useful starter kit for marketers adopting Claude Code. Customize before you trust the defaults."
    },
    "license": "Apache-2.0",
-   "github_forks": 371,
-   "github_checked": "2026-10-08",
+   "github_forks": 370,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/aaron-marketing-skills/"
   },
@@ -349,7 +349,7 @@
    ],
    "integrations": [],
    "github_repo": "ALwrity/ALwrity",
-   "github_stars": 1187,
+   "github_stars": 1189,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -365,7 +365,7 @@
     "verdict": "A capable self-hosted content engine for technical marketers. Everyone else gets better results from maintained hosted tools."
    },
    "github_forks": 331,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/alwrity/"
   },
@@ -578,7 +578,7 @@
     "REST / GraphQL"
    ],
    "github_repo": "appsmithorg/appsmith",
-   "github_stars": 41030,
+   "github_stars": 41041,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -623,8 +623,8 @@
    "license": "Apache-2.0",
    "paid_from": 15,
    "currency": "USD",
-   "github_forks": 4791,
-   "github_checked": "2026-10-08",
+   "github_forks": 4795,
+   "github_checked": "2026-10-09",
    "price_unit": "user",
    "page_url": "https://martechsignal.com/tools/appsmith/"
   },
@@ -787,7 +787,7 @@
     "Send API (single and batch)"
    ],
    "github_repo": "Billionmail/BillionMail",
-   "github_stars": 15862,
+   "github_stars": 15865,
    "last_release": "v4.9 (2025-12-11)",
    "open_source": true,
    "api_available": true,
@@ -835,7 +835,7 @@
    "paid_from": 98.9,
    "currency": "USD",
    "github_forks": 1743,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "page_url": "https://martechsignal.com/tools/billionmail/"
   },
   {
@@ -1005,7 +1005,7 @@
     "REST API"
    ],
    "github_repo": "budibase/budibase",
-   "github_stars": 28328,
+   "github_stars": 28331,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -1049,8 +1049,8 @@
    },
    "paid_from": 19,
    "currency": "USD",
-   "github_forks": 2231,
-   "github_checked": "2026-10-08",
+   "github_forks": 2232,
+   "github_checked": "2026-10-09",
    "page_url": "https://martechsignal.com/tools/budibase/"
   },
   {
@@ -1207,7 +1207,7 @@
     "LeadSquared"
    ],
    "github_repo": "chatwoot/chatwoot",
-   "github_stars": 37613,
+   "github_stars": 37640,
    "open_source": true,
    "api_available": true,
    "founded": 2019,
@@ -1252,8 +1252,8 @@
     ]
    },
    "paid_from": 19,
-   "github_forks": 9159,
-   "github_checked": "2026-10-08",
+   "github_forks": 9167,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "price_unit": "agent",
    "page_url": "https://martechsignal.com/tools/chatwoot/"
@@ -1289,7 +1289,7 @@
     "Pinterest Ads"
    ],
    "github_repo": "AgriciDaniel/claude-ads",
-   "github_stars": 9791,
+   "github_stars": 9826,
    "open_source": true,
    "api_available": true,
    "founded": 2025,
@@ -1306,8 +1306,8 @@
     "verdict": "Niche but interesting for technical teams that want model-drafted ad copy inside their Git workflow."
    },
    "license": "MIT",
-   "github_forks": 1447,
-   "github_checked": "2026-10-08",
+   "github_forks": 1451,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/claude-ads/"
   },
@@ -1335,7 +1335,7 @@
     "Lighthouse"
    ],
    "github_repo": "AgriciDaniel/claude-seo",
-   "github_stars": 18491,
+   "github_stars": 18563,
    "open_source": true,
    "api_available": true,
    "founded": "2026",
@@ -1485,8 +1485,8 @@
     "hands_on_verified": true
    },
    "license": "MIT",
-   "github_forks": 2705,
-   "github_checked": "2026-10-08",
+   "github_forks": 2720,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/claude-seo/"
   },
@@ -1604,7 +1604,7 @@
     "Gemini"
    ],
    "github_repo": "AgriciDaniel/codex-seo",
-   "github_stars": 791,
+   "github_stars": 796,
    "open_source": false,
    "api_available": true,
    "founded": 2025,
@@ -1622,7 +1622,7 @@
    },
    "license": "proprietary",
    "github_forks": 111,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/codex-seo/"
   },
@@ -1743,7 +1743,7 @@
     "Docker"
    ],
    "github_repo": "1Panel-dev/CordysCRM",
-   "github_stars": 2762,
+   "github_stars": 2766,
    "open_source": true,
    "api_available": true,
    "founded": 2025,
@@ -1787,8 +1787,8 @@
     ]
    },
    "license": "GPL-3.0",
-   "github_forks": 571,
-   "github_checked": "2026-10-08",
+   "github_forks": 574,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/cordys-crm/"
   },
@@ -1898,7 +1898,7 @@
     "MCP"
    ],
    "github_repo": "melgarafael/DeskcommCRM",
-   "github_stars": 4477,
+   "github_stars": 4494,
    "open_source": true,
    "api_available": true,
    "hq": "Brazil",
@@ -1907,8 +1907,8 @@
    "date_updated": "2026-09-14",
    "description": "DeskcommCRM is a Brazilian open-source project that packages a WhatsApp sales CRM with AI agents that answer customers, qualify leads, and move deals through a funnel. It is MIT licensed, self-hosted, and pitched as the open alternative to Kommo, Octadesk, and Intercom for businesses that sell by chat. It started as an ecommerce CRM and the community dragged it into clinics, real estate, infoproducts, and agencies; funnel vocabulary is configurable per pipeline, so a lead can become a \"patient\" or a \"buyer\" without forking the code.\n\nThe AI work is more built-out than most repos at this star count. Agents retrieve from a per-tenant knowledge base (RAG on Postgres pgvector), so answers come from your catalog and policies instead of model imagination. Every outbound message passes seven checks before sending: unsubscribe status, LGPD rules, anti-ban throttling, text variation, deterministic and semantic promise detection, and an automation disclosure. When the agent is about to promise a 24-hour delivery you do not offer, the check blocks it and logs what it would have said. Handoff to a human comes with a summary of the conversation rather than the raw transcript. Resolved conversations feed back into the knowledge base, and the system proposes prompt improvements to itself that a human has to approve. The whole CRM is exposed over MCP, so external agents can operate it too. You pick the AI provider at install (OpenRouter, Anthropic, OpenAI, or Google) and can swap it per subsystem later, with a spending cap per organization.\n\nPricing is the easy part: there is none. The full product is free under MIT, with no paid tier and no locked features, and agencies may host it for clients and charge for that. What you pay for is infrastructure: a VPS (4 GB RAM recommended; the stack boots on 2 GB but runs tight at 7 containers, and each WhatsApp session costs around 150 MB), a Supabase project for Postgres, auth, and storage, plus your own AI API keys. Installation is one script that generates secrets, applies the schema, and sets up the cron jobs the automations depend on, and updates back up the database first and roll back automatically if the new version comes up broken. The update path is tested in CI, which is more than most commercial vendors can say.\n\nThe closest comparison in this directory is WaCRM, another self-hosted Supabase-based WhatsApp CRM at a similar star count. WaCRM builds only on the official Meta Cloud API and calls itself a template; DeskcommCRM supports both the official API and QR-code connection through WAHA (faster to start, multi-number, with anti-ban throttling), and adds automation rules, RBAC, multi-tenancy with RLS isolation tests, and LGPD tooling. Against hosted players like ManyChat or Chatfuel the trade is the familiar one: you own the data and skip per-contact pricing, but you run the server. It is sales-first, unlike Chatwoot, which is support-first.\n\nTwo cautions. Documentation and community are Brazilian-Portuguese first (English and Spanish READMEs exist, but the depth is in Portuguese), and the project leans heavily on one maintainer. The QR-code WhatsApp connection is also unofficial, which is great for getting started and a ban risk the official Meta channel does not carry. If you want a polished SaaS or your team cannot operate Docker, stay with Kommo or ManyChat. If you sell through WhatsApp and want the whole operation on your own server, this is the most complete open option right now.",
    "license": "MIT",
-   "github_forks": 1176,
-   "github_checked": "2026-10-08",
+   "github_forks": 1189,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/deskcommcrm/"
   },
@@ -2048,7 +2048,7 @@
     "Dolistore (1,000+ addons)"
    ],
    "github_repo": "Dolibarr/dolibarr",
-   "github_stars": 7701,
+   "github_stars": 7704,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -2090,8 +2090,8 @@
     ]
    },
    "license": "GPL-3.0",
-   "github_forks": 3555,
-   "github_checked": "2026-10-08",
+   "github_forks": 3558,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/dolibarr/"
   },
@@ -2257,7 +2257,7 @@
     "MCP"
    ],
    "github_repo": "CosmoBlk/email-marketing-bible",
-   "github_stars": 327,
+   "github_stars": 330,
    "open_source": true,
    "api_available": true,
    "founded": 2026,
@@ -2276,7 +2276,7 @@
    "license": "MIT",
    "kind": "Agent Skill",
    "github_forks": 39,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/email-marketing-bible/"
   },
@@ -2293,7 +2293,7 @@
    "ai_features": [],
    "integrations": [],
    "github_repo": "espocrm/espocrm",
-   "github_stars": 3451,
+   "github_stars": 3466,
    "last_release": "10.0.7 (2026-09-03)",
    "open_source": true,
    "api_available": true,
@@ -2341,7 +2341,7 @@
    "license": "AGPL-3.0",
    "paid_from": 12.9,
    "github_forks": 991,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "price_unit": "user",
    "page_url": "https://martechsignal.com/tools/espocrm/"
   },
@@ -2370,7 +2370,7 @@
     "eve.dev"
    ],
    "github_repo": "vercel-labs/marketing-team-eve-template",
-   "github_stars": 447,
+   "github_stars": 449,
    "open_source": true,
    "api_available": true,
    "founded": 2026,
@@ -2389,7 +2389,7 @@
    "license": "MIT",
    "kind": "Utility",
    "github_forks": 26,
-   "github_checked": "2026-10-05",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/eve-marketing-team/"
   },
@@ -2405,7 +2405,7 @@
    "ai_features": [],
    "integrations": [],
    "github_repo": "ever-co/ever-gauzy",
-   "github_stars": 8214,
+   "github_stars": 8265,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -2448,8 +2448,8 @@
    },
    "paid_from": 17,
    "license": "AGPL-3.0",
-   "github_forks": 1205,
-   "github_checked": "2026-10-08",
+   "github_forks": 1217,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/ever-gauzy/"
   },
@@ -2471,7 +2471,7 @@
     "Meta Lead Ads"
    ],
    "github_repo": "frappe/crm",
-   "github_stars": 3747,
+   "github_stars": 3754,
    "open_source": true,
    "api_available": false,
    "status": "active",
@@ -2519,7 +2519,7 @@
    "paid_from": 5,
    "license": "AGPL-3.0",
    "github_forks": 1512,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "price_unit": "site",
    "page_url": "https://martechsignal.com/tools/frappe-crm/"
@@ -2692,7 +2692,7 @@
     "Unsplash"
    ],
    "github_repo": "TryGhost/Ghost",
-   "github_stars": 55495,
+   "github_stars": 55501,
    "open_source": true,
    "api_available": true,
    "founded": 2013,
@@ -2711,8 +2711,8 @@
    },
    "paid_from": 9,
    "license": "MIT",
-   "github_forks": 11983,
-   "github_checked": "2026-10-08",
+   "github_forks": 11987,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/ghost/"
   },
@@ -2747,7 +2747,7 @@
     "Gemini CLI"
    ],
    "github_repo": "irinabuht12-oss/google-meta-ads-ga4-mcp",
-   "github_stars": 4230,
+   "github_stars": 4278,
    "open_source": true,
    "api_available": true,
    "founded": 2026,
@@ -2784,7 +2784,7 @@
    "license": "MIT",
    "kind": "Utility",
    "github_forks": 366,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/"
   },
@@ -2811,7 +2811,7 @@
     "Bing Webmaster Tools"
    ],
    "github_repo": "tsingyuai/growth-lab",
-   "github_stars": 1995,
+   "github_stars": 1997,
    "open_source": true,
    "api_available": false,
    "founded": 2026,
@@ -2829,7 +2829,7 @@
    },
    "license": "Apache-2.0",
    "github_forks": 172,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/growth-lab/"
   },
@@ -3093,7 +3093,7 @@
    "ai_features": [],
    "integrations": [],
    "github_repo": "idurar/idurar-erp-crm",
-   "github_stars": 8858,
+   "github_stars": 8863,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -3139,8 +3139,8 @@
    "license": "AGPL-3.0",
    "paid_from": 5000,
    "currency": "USD",
-   "github_forks": 3142,
-   "github_checked": "2026-10-08",
+   "github_forks": 3141,
+   "github_checked": "2026-10-09",
    "billing": "one-time",
    "page_url": "https://martechsignal.com/tools/idurar-erp-crm/"
   },
@@ -3323,7 +3323,7 @@
    ],
    "integrations": [],
    "github_repo": "krayin/laravel-crm",
-   "github_stars": 23981,
+   "github_stars": 23988,
    "last_release": "v2.2.5 (2026-08-04)",
    "open_source": true,
    "api_available": true,
@@ -3369,7 +3369,7 @@
    "paid_from": 1799,
    "currency": "USD",
    "github_forks": 1655,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "billing": "one-time",
    "page_url": "https://martechsignal.com/tools/krayin-crm/"
   },
@@ -3404,7 +3404,7 @@
     "GitHub"
    ],
    "github_repo": "langchain-ai/langchain",
-   "github_stars": 147551,
+   "github_stars": 147408,
    "open_source": true,
    "api_available": true,
    "founded": 2022,
@@ -3422,8 +3422,8 @@
    },
    "paid_from": 39,
    "license": "MIT",
-   "github_forks": 24726,
-   "github_checked": "2026-10-08",
+   "github_forks": 24738,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/langchain/"
   },
@@ -3490,7 +3490,7 @@
     "Cloudflare Workers/D1/Pages"
    ],
    "github_repo": "Shudesu/line-harness-oss",
-   "github_stars": 599,
+   "github_stars": 600,
    "open_source": true,
    "api_available": true,
    "founded": 2026,
@@ -3526,8 +3526,8 @@
    },
    "seo_description": "L Harness, Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Free to self-host; no licence fee.",
    "license": "MIT",
-   "github_forks": 400,
-   "github_checked": "2026-10-08",
+   "github_forks": 401,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/line-harness/"
   },
@@ -3552,7 +3552,7 @@
     "WordPress"
    ],
    "github_repo": "knadh/listmonk",
-   "github_stars": 23714,
+   "github_stars": 23723,
    "open_source": true,
    "api_available": true,
    "founded": 2019,
@@ -3570,8 +3570,8 @@
     "verdict": "The strongest self-hosted mailing platform in this catalog; bring your own forms and workflows."
    },
    "license": "AGPL-3.0",
-   "github_forks": 2653,
-   "github_checked": "2026-10-08",
+   "github_forks": 2657,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/listmonk/"
   },
@@ -3673,7 +3673,7 @@
     "MCP"
    ],
    "github_repo": "macro-inc/macro",
-   "github_stars": 4590,
+   "github_stars": 4596,
    "open_source": true,
    "api_available": true,
    "founded": 2020,
@@ -3720,7 +3720,7 @@
    "paid_from": 40,
    "license": "AGPL-3.0",
    "github_forks": 444,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "price_unit": "seat",
    "page_url": "https://martechsignal.com/tools/macro/"
@@ -3879,8 +3879,8 @@
      ]
     ]
    },
-   "github_forks": 71,
-   "github_checked": "2026-10-07",
+   "github_forks": 72,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/maizzle/"
   },
@@ -4124,7 +4124,7 @@
     "Cookiebot"
    ],
    "github_repo": "matomo-org/matomo",
-   "github_stars": 21934,
+   "github_stars": 21936,
    "open_source": true,
    "api_available": true,
    "founded": 2007,
@@ -4174,8 +4174,8 @@
    "currency": "EUR",
    "license": "GPL-3.0",
    "paid_from": 22,
-   "github_forks": 2905,
-   "github_checked": "2026-10-08",
+   "github_forks": 2906,
+   "github_checked": "2026-10-09",
    "page_url": "https://martechsignal.com/tools/matomo/"
   },
   {
@@ -4202,7 +4202,7 @@
     "Zapier"
    ],
    "github_repo": "mautic/mautic",
-   "github_stars": 10726,
+   "github_stars": 10733,
    "open_source": true,
    "api_available": true,
    "founded": 2014,
@@ -4248,8 +4248,8 @@
    "currency": "EUR",
    "license": "GPL-3.0",
    "paid_from": 247.5,
-   "github_forks": 3489,
-   "github_checked": "2026-10-08",
+   "github_forks": 3491,
+   "github_checked": "2026-10-09",
    "page_url": "https://martechsignal.com/tools/mautic/"
   },
   {
@@ -4349,7 +4349,7 @@
    "ai_features": [],
    "integrations": [],
    "github_repo": "monicahq/monica",
-   "github_stars": 25452,
+   "github_stars": 25456,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -4412,7 +4412,7 @@
    "paid_from": 9,
    "currency": "USD",
    "github_forks": 2617,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "page_url": "https://martechsignal.com/tools/monica/"
   },
   {
@@ -4430,7 +4430,7 @@
    ],
    "integrations": [],
    "github_repo": "leaperone/MultiPost-Extension",
-   "github_stars": 3598,
+   "github_stars": 3602,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -4447,7 +4447,7 @@
    },
    "license": "Apache-2.0",
    "github_forks": 415,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/multipost-extension/"
   },
@@ -4479,7 +4479,7 @@
     "HubSpot"
    ],
    "github_repo": "n8n-io/n8n",
-   "github_stars": 206844,
+   "github_stars": 206746,
    "open_source": true,
    "api_available": true,
    "founded": 2019,
@@ -4506,8 +4506,8 @@
    "paid_from": 20,
    "date_verified": "2026-09-27",
    "currency": "EUR",
-   "github_forks": 61012,
-   "github_checked": "2026-10-08",
+   "github_forks": 61025,
+   "github_checked": "2026-10-09",
    "page_url": "https://martechsignal.com/tools/n8n/"
   },
   {
@@ -4577,7 +4577,7 @@
     "Webhooks"
    ],
    "github_repo": "nocobase/nocobase",
-   "github_stars": 24488,
+   "github_stars": 24501,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -4612,7 +4612,7 @@
     ]
    },
    "github_forks": 2906,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/nocobase/"
   },
@@ -4642,7 +4642,7 @@
     "AWS SES / SMTP / MailerSend (paid App Store)"
    ],
    "github_repo": "nocodb/nocodb",
-   "github_stars": 65214,
+   "github_stars": 65218,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -4687,7 +4687,7 @@
    "paid_from": 12,
    "currency": "USD",
    "github_forks": 5082,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "price_unit": "seat",
    "page_url": "https://martechsignal.com/tools/nocodb/"
   },
@@ -4914,7 +4914,7 @@
     "Supabase"
    ],
    "github_repo": "Notifuse/notifuse",
-   "github_stars": 2237,
+   "github_stars": 2238,
    "open_source": true,
    "api_available": true,
    "founded": 2025,
@@ -4933,7 +4933,7 @@
    "paid_from": 19,
    "license": "AGPL-3.0",
    "github_forks": 234,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/notifuse/"
   },
@@ -4953,7 +4953,7 @@
    ],
    "integrations": [],
    "github_repo": "open-mercato/open-mercato",
-   "github_stars": 1822,
+   "github_stars": 1832,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -4998,8 +4998,8 @@
    "hq": "Open source",
    "last_release": "v0.7.0 (2026-08-26)",
    "license": "MIT",
-   "github_forks": 445,
-   "github_checked": "2026-10-08",
+   "github_forks": 447,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/open-mercato/"
   },
@@ -5028,7 +5028,7 @@
     "MyClaw.ai"
    ],
    "github_repo": "LeoYeAI/openclaw-marketing-skills",
-   "github_stars": 1041,
+   "github_stars": 1042,
    "open_source": true,
    "api_available": true,
    "founded": 2025,
@@ -5046,7 +5046,7 @@
    },
    "license": "MIT",
    "github_forks": 378,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/openclaw-marketing-skills/"
   },
@@ -5078,7 +5078,7 @@
     "Claude Code"
    ],
    "github_repo": "eracle/OpenOutreach",
-   "github_stars": 3197,
+   "github_stars": 3207,
    "open_source": true,
    "api_available": false,
    "status": "active",
@@ -5126,8 +5126,8 @@
     ]
    },
    "license": "GPL-3.0",
-   "github_forks": 590,
-   "github_checked": "2026-10-08",
+   "github_forks": 593,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/openoutreach/"
   },
@@ -5189,15 +5189,15 @@
     ]
    },
    "github_repo": "every-app/open-seo",
-   "github_stars": 22677,
+   "github_stars": 22816,
    "pricing_url": "https://openseo.so/pricing",
    "founded": 2026,
    "hq": "Open source",
    "license": "MIT",
    "paid_from": 10,
    "currency": "USD",
-   "github_forks": 2942,
-   "github_checked": "2026-10-08",
+   "github_forks": 2965,
+   "github_checked": "2026-10-09",
    "date_added": "2026-07-27",
    "page_url": "https://martechsignal.com/tools/openseo/"
   },
@@ -5352,7 +5352,7 @@
     "e2b, Cloudflare, and Modal sandboxes"
    ],
    "github_repo": "paperclipai/paperclip",
-   "github_stars": 98520,
+   "github_stars": 98907,
    "last_release": "v2026.831.1 (2026-09-02)",
    "open_source": true,
    "api_available": true,
@@ -5398,8 +5398,8 @@
    "currency": "EUR",
    "license": "MIT",
    "paid_from": 10,
-   "github_forks": 16642,
-   "github_checked": "2026-10-08",
+   "github_forks": 16699,
+   "github_checked": "2026-10-09",
    "page_url": "https://martechsignal.com/tools/paperclip/"
   },
   {
@@ -5732,7 +5732,7 @@
     "Slack"
    ],
    "github_repo": "plausible/analytics",
-   "github_stars": 29339,
+   "github_stars": 29349,
    "open_source": true,
    "api_available": true,
    "founded": 2019,
@@ -5751,8 +5751,8 @@
    },
    "paid_from": 9,
    "license": "AGPL-3.0",
-   "github_forks": 1884,
-   "github_checked": "2026-10-08",
+   "github_forks": 1885,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/plausible/"
   },
@@ -5987,7 +5987,7 @@
     "Anthropic"
    ],
    "github_repo": "unlayer/react-email-editor",
-   "github_stars": 5234,
+   "github_stars": 5235,
    "open_source": true,
    "api_available": false,
    "status": "active",
@@ -6036,7 +6036,7 @@
    "pricing_url": "https://unlayer.com/pricing",
    "license": "MIT",
    "github_forks": 806,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/react-email-editor/"
   },
@@ -6061,7 +6061,7 @@
     "CSV import/export"
    ],
    "github_repo": "relaticle/relaticle",
-   "github_stars": 1756,
+   "github_stars": 1757,
    "last_release": "v3.5.7 (2026-09-06)",
    "open_source": true,
    "api_available": true,
@@ -6108,8 +6108,8 @@
    "license": "AGPL-3.0",
    "paid_from": 19,
    "currency": "USD",
-   "github_forks": 216,
-   "github_checked": "2026-10-08",
+   "github_forks": 217,
+   "github_checked": "2026-10-09",
    "price_unit": "workspace",
    "page_url": "https://martechsignal.com/tools/relaticle/"
   },
@@ -6138,7 +6138,7 @@
     "Vercel Marketplace"
    ],
    "github_repo": "resend/react-email",
-   "github_stars": 19819,
+   "github_stars": 19822,
    "open_source": false,
    "api_available": true,
    "founded": 2023,
@@ -6184,7 +6184,7 @@
    "paid_from": 20,
    "license": "MIT",
    "github_forks": 1095,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/resend/"
   },
@@ -6679,7 +6679,7 @@
    "ai_features": [],
    "integrations": [],
    "github_repo": "StJudeWasHere/seonaut",
-   "github_stars": 804,
+   "github_stars": 805,
    "last_release": "No tagged releases; ships as the :latest container image",
    "open_source": true,
    "api_available": false,
@@ -6726,7 +6726,7 @@
    "paid_from": 9,
    "license": "MIT",
    "github_forks": 133,
-   "github_checked": "2026-10-06",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/seonaut/"
   },
@@ -6870,8 +6870,8 @@
    },
    "license": "Apache-2.0",
    "currency": "USD",
-   "github_forks": 1172,
-   "github_checked": "2026-10-08",
+   "github_forks": 1171,
+   "github_checked": "2026-10-09",
    "page_url": "https://martechsignal.com/tools/snowplow/"
   },
   {
@@ -6949,7 +6949,7 @@
     "Cloudinary"
    ],
    "github_repo": "strapi/strapi",
-   "github_stars": 73290,
+   "github_stars": 73292,
    "open_source": true,
    "api_available": true,
    "founded": 2015,
@@ -6967,8 +6967,8 @@
     "verdict": "Our default headless CMS for custom builds; choose it for flexibility, not for turnkey publishing polish."
    },
    "paid_from": 99,
-   "github_forks": 9882,
-   "github_checked": "2026-10-08",
+   "github_forks": 9880,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/strapi/"
   },
@@ -6984,7 +6984,7 @@
    "ai_features": [],
    "integrations": [],
    "github_repo": "SuiteCRM/SuiteCRM",
-   "github_stars": 5787,
+   "github_stars": 5789,
    "last_release": "8.10.2 / 7.15.2 ESR (2026-07-31)",
    "open_source": true,
    "api_available": true,
@@ -7030,7 +7030,7 @@
    },
    "license": "AGPL-3.0",
    "github_forks": 2427,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/suitecrm/"
   },
@@ -7249,7 +7249,7 @@
     "REST / GraphQL / gRPC"
    ],
    "github_repo": "ToolJet/ToolJet",
-   "github_stars": 41045,
+   "github_stars": 41052,
    "open_source": true,
    "api_available": true,
    "status": "active",
@@ -7294,8 +7294,8 @@
    "license": "AGPL-3.0",
    "paid_from": 23,
    "currency": "USD",
-   "github_forks": 5482,
-   "github_checked": "2026-10-08",
+   "github_forks": 5485,
+   "github_checked": "2026-10-09",
    "price_unit": "builder",
    "page_url": "https://martechsignal.com/tools/tooljet/"
   },
@@ -7450,7 +7450,7 @@
     "Marketplace: Slack, Exa, People Data Labs"
    ],
    "github_repo": "twentyhq/twenty",
-   "github_stars": 58053,
+   "github_stars": 58108,
    "open_source": true,
    "api_available": true,
    "founded": 2023,
@@ -7495,8 +7495,8 @@
    },
    "paid_from": 9,
    "license": "AGPL-3.0",
-   "github_forks": 9473,
-   "github_checked": "2026-10-08",
+   "github_forks": 9482,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "price_unit": "user",
    "page_url": "https://martechsignal.com/tools/twenty/"
@@ -7520,7 +7520,7 @@
     "Community API clients (Laravel, Python, Go)"
    ],
    "github_repo": "umami-software/umami",
-   "github_stars": 39231,
+   "github_stars": 39255,
    "open_source": true,
    "api_available": true,
    "founded": 2020,
@@ -7564,8 +7564,8 @@
    },
    "paid_from": 20,
    "license": "MIT",
-   "github_forks": 8234,
-   "github_checked": "2026-10-08",
+   "github_forks": 8241,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/umami/"
   },
@@ -7595,7 +7595,7 @@
     "Hostinger"
    ],
    "github_repo": "ArnasDon/wacrm",
-   "github_stars": 2516,
+   "github_stars": 2524,
    "open_source": true,
    "api_available": true,
    "founded": 2026,
@@ -7646,8 +7646,8 @@
     ]
    },
    "license": "MIT",
-   "github_forks": 6457,
-   "github_checked": "2026-10-08",
+   "github_forks": 6468,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/wacrm/"
   },
@@ -8018,7 +8018,7 @@
     "SMTP"
    ],
    "github_repo": "warmbly/warmbly",
-   "github_stars": 355,
+   "github_stars": 356,
    "open_source": true,
    "license": "Apache-2.0",
    "api_available": true,
@@ -8037,8 +8037,8 @@
     "not_for": "Teams that need a built-in B2B lead database, or anyone who wants a battle-tested managed sender and does not want to operate Postgres and Redis.",
     "verdict": "The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you."
    },
-   "github_forks": 81,
-   "github_checked": "2026-10-08",
+   "github_forks": 82,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/warmbly/"
   },
@@ -8986,7 +8986,7 @@
    "open_source": true,
    "license": "MIT",
    "github_repo": "jitsucom/jitsu",
-   "github_stars": 5103,
+   "github_stars": 5104,
    "ai_features": [
     "MCP Server for agent-driven setup"
    ],
@@ -9038,7 +9038,7 @@
     ]
    },
    "github_forks": 404,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "paid_from": 99,
    "page_url": "https://martechsignal.com/tools/jitsu/"
   },
@@ -9061,9 +9061,9 @@
    "date_added": "2026-10-01",
    "date_updated": "2026-10-01",
    "github_repo": "rudderlabs/rudder-server",
-   "github_stars": 4495,
-   "github_forks": 73,
-   "github_checked": "2026-10-08",
+   "github_stars": 4497,
+   "github_forks": 76,
+   "github_checked": "2026-10-09",
    "api_available": true,
    "ai_features": [],
    "integrations": [
@@ -9215,7 +9215,7 @@
    "open_source": true,
    "license": "MIT",
    "github_repo": "growthbook/growthbook",
-   "github_stars": 8482,
+   "github_stars": 8484,
    "ai_features": [
     "GrowthBook AI assistant (usage-metered per plan)",
     "AI Visual Editor (Pro and up)",
@@ -9268,8 +9268,8 @@
      ]
     ]
    },
-   "github_forks": 872,
-   "github_checked": "2026-10-08",
+   "github_forks": 874,
+   "github_checked": "2026-10-09",
    "paid_from": 40,
    "price_unit": "seat",
    "page_url": "https://martechsignal.com/tools/growthbook/"
@@ -9291,7 +9291,7 @@
    "open_source": true,
    "license": "BSD-3-Clause",
    "github_repo": "Flagsmith/flagsmith",
-   "github_stars": 6590,
+   "github_stars": 6591,
    "ai_features": [
     "MCP Server for natural-language flag management",
     "Automated flag hygiene",
@@ -9345,7 +9345,7 @@
     ]
    },
    "github_forks": 580,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "paid_from": 50,
    "price_unit": "member",
    "page_url": "https://martechsignal.com/tools/flagsmith/"
@@ -9366,7 +9366,7 @@
    "open_source": true,
    "license": "LGPL-2.1",
    "github_repo": "languagetool-org/LanguageTool",
-   "github_stars": 15112,
+   "github_stars": 15116,
    "ai_features": [
     "AI style and tone suggestions",
     "Paraphrasing tool",
@@ -9423,7 +9423,7 @@
     ]
    },
    "github_forks": 1583,
-   "github_checked": "2026-10-08",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/languagetool/"
   },
@@ -9443,7 +9443,7 @@
    "open_source": true,
    "license": "AGPL-3.0",
    "github_repo": "khoj-ai/khoj",
-   "github_stars": 37597,
+   "github_stars": 37606,
    "ai_features": [
     "Chat with local and online LLMs",
     "Document Q&A over images, PDFs, Markdown, Word, and Notion files",
@@ -9497,8 +9497,8 @@
      ]
     ]
    },
-   "github_forks": 2499,
-   "github_checked": "2026-10-08",
+   "github_forks": 2502,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/khoj/"
   },
@@ -9518,7 +9518,7 @@
    "open_source": true,
    "license": "AGPL-3.0",
    "github_repo": "LibreTranslate/LibreTranslate",
-   "github_stars": 17003,
+   "github_stars": 17006,
    "ai_features": [
     "Neural machine translation via Argos Translate models",
     "Automatic language detection",
@@ -9568,8 +9568,8 @@
     ],
     "hands_on_verified": true
    },
-   "github_forks": 1762,
-   "github_checked": "2026-10-08",
+   "github_forks": 1769,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/libretranslate/"
   },
@@ -9590,7 +9590,7 @@
    "open_source": true,
    "license": "MIT",
    "github_repo": "PostHog/posthog",
-   "github_stars": 40182,
+   "github_stars": 40197,
    "ai_features": [
     "PostHog AI assistant for natural language queries (500 free credits per month)",
     "AI Observability and LLM Evaluations",
@@ -9647,8 +9647,8 @@
      ]
     ]
    },
-   "github_forks": 3478,
-   "github_checked": "2026-10-08",
+   "github_forks": 3486,
+   "github_checked": "2026-10-09",
    "page_url": "https://martechsignal.com/tools/posthog/"
   },
   {
@@ -9711,8 +9711,8 @@
      ]
     ]
    },
-   "github_forks": 615,
-   "github_checked": "2026-10-08",
+   "github_forks": 614,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/revive-adserver/"
   },
@@ -9732,7 +9732,7 @@
    "open_source": true,
    "license": "MIT",
    "github_repo": "eliasdabbas/advertools",
-   "github_stars": 1472,
+   "github_stars": 1473,
    "ai_features": [
     "Claude SERP analytics module (advertools.serp_claude), added in v0.18.0"
    ],
@@ -9779,7 +9779,7 @@
     "hands_on_verified": true
    },
    "github_forks": 258,
-   "github_checked": "2026-10-07",
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/advertools/"
   },
@@ -9799,7 +9799,7 @@
    "open_source": true,
    "license": "MIT",
    "github_repo": "promptfoo/promptfoo",
-   "github_stars": 25800,
+   "github_stars": 25825,
    "ai_features": [
     "Model-graded evals where one LLM scores another's answers",
     "Automated red team probe generation against AI applications",
@@ -9849,8 +9849,8 @@
      ]
     ]
    },
-   "github_forks": 2451,
-   "github_checked": "2026-10-08",
+   "github_forks": 2452,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/promptfoo/"
   },
@@ -9892,9 +9892,9 @@
      "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
     ]
    },
-   "github_stars": 24940,
-   "github_forks": 4302,
-   "github_checked": "2026-10-08",
+   "github_stars": 24959,
+   "github_forks": 4314,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/activepieces/"
   },
@@ -10081,7 +10081,7 @@
     "Claude Code"
    ],
    "github_repo": "zubair-trabzada/ai-marketing-claude",
-   "github_stars": 2719,
+   "github_stars": 2723,
    "open_source": true,
    "api_available": false,
    "founded": 2025,
@@ -10113,8 +10113,8 @@
    "license": "MIT",
    "kind": "Agent Skill",
    "currency": "USD",
-   "github_forks": 714,
-   "github_checked": "2026-10-08",
+   "github_forks": 712,
+   "github_checked": "2026-10-09",
    "page_url": "https://martechsignal.com/tools/ai-marketing-claude/"
   },
   {
@@ -10144,7 +10144,7 @@
     "OpenClaw"
    ],
    "github_repo": "indranilbanerjee/digital-marketing-pro",
-   "github_stars": 855,
+   "github_stars": 858,
    "open_source": true,
    "api_available": true,
    "founded": 2025,
@@ -10177,8 +10177,8 @@
    "license": "MIT",
    "kind": "Agent Skill",
    "currency": "USD",
-   "github_forks": 138,
-   "github_checked": "2026-10-08",
+   "github_forks": 137,
+   "github_checked": "2026-10-09",
    "page_url": "https://martechsignal.com/tools/digital-marketing-pro/"
   },
   {
@@ -10206,7 +10206,7 @@
     "Agent Skills spec agents"
    ],
    "github_repo": "coreyhaines31/marketingskills",
-   "github_stars": 53615,
+   "github_stars": 53797,
    "open_source": true,
    "api_available": false,
    "founded": null,
@@ -10217,8 +10217,8 @@
    "description": "marketingskills is the biggest marketing skill library for coding agents in this directory: around 50 skills covering CRO, copywriting, SEO, analytics, paid ads, growth loops, and sales ops. It's built by Corey Haines, who runs the Swipe Files newsletter and the Conversion Factory agency, and it shows. These read like playbooks from someone who has actually run marketing programs, not summaries of other people's blog posts. Skills are plain Markdown files that work with Claude Code, OpenAI Codex, Cursor, Windsurf, and anything else following the Agent Skills spec. The repo has 53,000+ GitHub stars, 8,000 forks, was pushed the morning I checked, and carries an MIT license.\n\nThe structural idea is shared context. A product-marketing skill holds your product, audience, and positioning, and every other skill reads it first before writing anything, so your copy output doesn't come out generic. Skills cross-reference each other: copywriting pulls in cro and ab-testing, revops pulls in sales-enablement and cold-email, customer-research feeds the rest. Day to day you install the pack, describe a task (\"audit this landing page\", \"write my cold email follow-ups\", \"plan a programmatic SEO template\"), and the agent loads the matching framework. Output lands as working documents: audits, copy drafts, test plans, launch checklists. Not chat replies that evaporate.\n\nInstallation is one command: npx skills add coreyhaines31/marketingskills. The CLI detects which agents you have and drops skills into .claude/skills/ or the shared .agents/skills/ directory. You can install individual skills with --skill cro copywriting. Claude Code and Codex users can also add the repo as a plugin marketplace and install from inside a session. One gotcha the README calls out honestly: if you ask your agent to run the install for you, it may land skills only in .agents/skills/, which Claude Code doesn't read. Pass -a claude-code explicitly.\n\nTwo things to know before you commit. First, there are disclosed paid partners (Converly for conversion tracking and Ploy for site building at the moment) listed in the tool registry alongside neutral options. The repo states partners don't influence what core skills recommend, and the disclosure rules are public, but you should know the funding exists. Second, these are frameworks and checklists, not software. Nothing sends your email or bids on your ads; the skills shape how your agent thinks about the task. Against Aaron Marketing Skills, with its 120 skills, auditor gates, and lifecycle phases, this pack is looser and more readable: Aaron is process, Corey is judgment. Most founder-led and SaaS marketing teams should start here. At 53,000 stars, if a skill misbehaves, someone has probably already filed the issue.",
    "seo_description": "Marketing Skills by Corey Haines: ~50 open-source marketing skills for Claude Code, Codex, and Cursor. CRO, copywriting, SEO, analytics. Free, MIT.",
    "license": "MIT",
-   "github_forks": 8000,
-   "github_checked": "2026-10-08",
+   "github_forks": 8002,
+   "github_checked": "2026-10-09",
    "currency": "USD",
    "page_url": "https://martechsignal.com/tools/marketingskills/"
   }

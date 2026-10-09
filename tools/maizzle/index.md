@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Maizzle
-Re-check pending: pricing last verified 2026-09-07 (31 days ago).
+Re-check pending: pricing last verified 2026-09-07 (32 days ago).
 
 ## Maizzle review (2026): pricing, AI features, verdict
 
@@ -133,7 +133,7 @@ Both paths are documented on the docs site as migration guides, alongside deploy
 - **Category:** [Email Marketing](/categories/email-marketing/)
 - **GitHub:** ★ 2863
 - **API:** No
-- **Repository checked:** 2026-10-07
+- **Repository checked:** 2026-10-09
 - **Page updated:** 2026-09-07
 
 ### Pricing

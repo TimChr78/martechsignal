@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Attribution
-Re-check pending: pricing last verified 2026-08-28 (41 days ago).
+Re-check pending: pricing last verified 2026-08-28 (42 days ago).
 
 ## Attribution review (2026): pricing, AI features, verdict
 
@@ -120,8 +120,8 @@ Reasonable middle ground between spreadsheet attribution and enterprise suites l
 ## Related reading
 
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
 ### Quick Facts
 
 - **Pricing:** Enterprise

@@ -30,7 +30,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** no
 - **Catalogued integrations:** 1
-- **GitHub stars:** 2,719
+- **GitHub stars:** 2,723
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -107,7 +107,7 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Short native integration list - plan for API work |
 | ✓ AI capabilities: 15 marketing skills with 5 parallel subagents |  |
-| ✓ Active public repository (2,719 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,723 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -123,10 +123,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is AI Marketing Suite?**
-AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,719 stars.
+AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,723 stars.
 
 **How much does AI Marketing Suite cost?**
-AI Marketing Suite is open source - MIT licensed and free to self-host; the public repository carries 2,719 stars. You pay in server time and maintenance, not licences.
+AI Marketing Suite is open source - MIT licensed and free to self-host; the public repository carries 2,723 stars. You pay in server time and maintenance, not licences.
 
 **Is AI Marketing Suite a good self-hosted Agent Skills tool in 2026?**
 Best as a proposal-generation engine for agencies selling audits. For steady content work, the writing skills are the lasting value.
@@ -141,16 +141,16 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 2719
+- **GitHub:** ★ 2723
 - **Founded:** 2025
 - **API:** No
-- **Repository checked:** 2026-10-08
+- **Repository checked:** 2026-10-09
 - **Page updated:** 2026-09-28
 
 ## Get the next teardown

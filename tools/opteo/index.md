@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Opteo
-Re-check pending: pricing last verified 2026-09-07 (31 days ago).
+Re-check pending: pricing last verified 2026-09-07 (32 days ago).
 
 ## Opteo review (2026): pricing, AI features, verdict
 
@@ -122,8 +122,8 @@ A focused Google Ads quality-control layer: less ambitious than cross-channel pl
 ## Related reading
 
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Best for advertising & paid media teams that want the job covered in one platform, starting at $129/mo.

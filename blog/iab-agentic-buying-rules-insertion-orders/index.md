@@ -69,13 +69,13 @@ The insertion order was written for humans because only humans could read a prop
 ## Related reading
 
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Related tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/) - ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
-- [Paperclip](/tools/paperclip/) - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+- [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 ## Comparison guides
 
 - [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/)
@@ -88,7 +88,7 @@ The insertion order was written for humans because only humans could read a prop
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Writesonic](/tools/writesonic/)
+More from the directory: [Zoho CRM](/tools/zoho-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

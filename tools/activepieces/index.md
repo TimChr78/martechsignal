@@ -73,7 +73,7 @@ Researched from the vendor's public pricing and product pages on 2026-09-27. Not
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $20/mo once past the free tier |
 | ✓ AI capabilities: chat-to-automation builder |  |
-| ✓ Active public repository (24,940 GitHub stars counted at last check) |  |
+| ✓ Active public repository (24,959 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Slack, Gmail, Google Sheets (6 listed) |  |
 
 ## Related concepts
@@ -91,13 +91,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Activepieces?**
-Activepieces: Open-source workflow automation with a free cloud tier and on-prem hosting. Activepieces ships with chat-to-automation builder. The public repository carries 24,940 stars.
+Activepieces: Open-source workflow automation with a free cloud tier and on-prem hosting. Activepieces ships with chat-to-automation builder. The public repository carries 24,959 stars.
 
 **How much does Activepieces cost?**
 Activepieces has a free tier; paid plans start at $20/mo. Free (100 credits a day, unlimited flows, no card); Plus $20/mo flat (10,000 credits/mo, up to 5 users, bring your own AI keys); Team $200/mo flat (50,000 credits, 25 users, SSO); Ultimate custom. Overage $0.007 per credit on Plus and Team. Embed from $36,000/year. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 **Is Activepieces worth it past the free tier?**
-Strengths include 24,940 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. Paid plans start at $20/mo
+Strengths include 24,959 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. Paid plans start at $20/mo
 
 ## Similar Tools
 
@@ -109,15 +109,15 @@ Strengths include 24,940 GitHub stars, open-source licensing with free self-host
 ## Related reading
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $20/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 24940
+- **GitHub:** ★ 24959
 - **API:** Yes
-- **Repository checked:** 2026-10-08
+- **Repository checked:** 2026-10-09
 - **Page updated:** 2026-09-27
 
 Related guides: [Activepieces in Zapier alternatives](/alternatives/zapier/)

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Django CRM
-Re-check pending: pricing last verified 2026-09-06 (32 days ago).
+Re-check pending: pricing last verified 2026-09-06 (33 days ago).
 
 ## Django CRM review (2026): pricing, AI features, verdict
 
@@ -140,8 +140,8 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ### Quick Facts
 
 - **Pricing:** Open Source

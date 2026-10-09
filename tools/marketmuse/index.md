@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - MarketMuse
-Re-check pending: pricing last verified 2026-09-07 (31 days ago).
+Re-check pending: pricing last verified 2026-09-07 (32 days ago).
 
 ## MarketMuse review (2026): pricing, AI features, verdict
 
@@ -149,8 +149,8 @@ A query is spent when you enter a focus topic into one of the applications (Rese
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts
 
 - **Pricing:** Paid

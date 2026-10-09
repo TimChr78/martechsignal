@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Workato
-Re-check pending: pricing last verified 2026-09-07 (31 days ago).
+Re-check pending: pricing last verified 2026-09-07 (32 days ago).
 
 ## Workato review (2026): pricing, AI features, verdict
 
@@ -144,8 +144,8 @@ Yes, for training. The Workato Automation Institute's certificate programs (Auto
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for enterprises governing agents and integration in one platform.

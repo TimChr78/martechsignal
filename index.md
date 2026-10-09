@@ -8,6 +8,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### Amazon's Ad Agents Come With Instructions. Google's Came With Promises.
+
+Two stories ran on AdExchanger the same day, September 29. James Hercher covered Amazon's unBoxed announcements in San Francisco, where the company turned its ad platform into a…
+
 ### Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts
 
 In four days last week, the agent safety debate produced four answers that cannot all be true. OpenAI paused training of its latest models. A columnist argued the "rogue agents"…
@@ -19,10 +23,6 @@ At its Forge conference in Las Vegas, Braze announced three products that move A
 ### Agencies don't want to own your AI tools or your data: the retainer model just broke
 
 At AdExchanger's Programmatic IO in New York, a panel of agency executives argued that the agency should not own the agentic AI tools built for a client, and should not own the…
-
-### The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent
-
-An agent can now run a marketing loop end to end on open source. We counted this morning from the directory: 19 of the 81 open-source tools we track list an MCP server among their…
 
 ## Tool index
 

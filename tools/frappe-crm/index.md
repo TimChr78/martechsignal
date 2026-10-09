@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Frappe CRM
-Re-check pending: pricing last verified 2026-09-06 (32 days ago).
+Re-check pending: pricing last verified 2026-09-06 (33 days ago).
 
 ## Frappe CRM review (2026): pricing, AI features, verdict
 
@@ -95,7 +95,7 @@ A lean, fast-moving open-source CRM that costs almost nothing to run and gives u
 | Pros | Cons |
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5/site/mo |
-| ✓ Active public repository (3,747 GitHub stars counted at last check) |  |
+| ✓ Active public repository (3,754 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Twilio, Exotel, WhatsApp (5 listed) |  |
 
 ## Related concepts
@@ -113,7 +113,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Frappe CRM?**
-Frappe CRM: Fully featured, open source CRM. The public repository carries 3,747 stars.
+Frappe CRM: Fully featured, open source CRM. The public repository carries 3,754 stars.
 
 **How much does Frappe CRM cost?**
 Frappe CRM has a free tier; paid plans start at $5/site/mo. Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -143,8 +143,8 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for budget-conscious sales teams, especially ERPNext shops.
@@ -152,9 +152,9 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 
 - **Pricing:** Open Source from $5/site/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 3747
+- **GitHub:** ★ 3754
 - **API:** No
-- **Repository checked:** 2026-10-08
+- **Repository checked:** 2026-10-09
 - **Page updated:** 2026-09-06
 
 Related guides: [Frappe CRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/)

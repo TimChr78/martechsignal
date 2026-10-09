@@ -23,6 +23,10 @@
   "dm": "2026-09-30",
   "sig": "b7bd372dbd3202df"
  },
+ "amazon-agentic-ad-formats-brand-controls": {
+  "dm": "2026-10-09",
+  "sig": "c2cd029948beddc4"
+ },
  "automation-blast-radius-audit": {
   "dm": "2026-09-08",
   "sig": "1ce0eec9fe9eb284"

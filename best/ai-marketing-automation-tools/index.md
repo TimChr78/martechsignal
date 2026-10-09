@@ -52,7 +52,7 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- NocoDB - 65,214 stars, +361 in the 33-snapshot window to 2026-10-08 64,853→65,214 [verify on GitHub](https://github.com/nocodb/nocodb)
+- NocoDB - 65,218 stars, +365 in the 34-snapshot window to 2026-10-09 64,853→65,218 [verify on GitHub](https://github.com/nocodb/nocodb)
 [All movers on the trending page](/trending/).
 
 ## [NocoDB](/tools/nocodb/)

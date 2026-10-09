@@ -88,7 +88,7 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: 250+ audit checks across 12 ad platforms |  |
-| ✓ Active public repository (9,791 GitHub stars counted at last check) |  |
+| ✓ Active public repository (9,826 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Google Ads, Meta Ads, YouTube Ads (12 listed) |  |
 
 ## Related concepts
@@ -105,10 +105,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Claude Ads?**
-Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,791 stars.
+Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 9,826 stars.
 
 **How much does Claude Ads cost?**
-Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,791 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
+Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 9,826 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
 
 **Is Claude Ads a good self-hosted Agent Skills tool in 2026?**
 Niche but interesting for technical teams that want model-drafted ad copy inside their Git workflow.
@@ -121,9 +121,9 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 - [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 ## Related reading
 
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for paid-media teams that run several ad platforms and want one Claude Code skill covering all 12, free under the MIT license.
@@ -131,10 +131,10 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 9791
+- **GitHub:** ★ 9826
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-08
+- **Repository checked:** 2026-10-09
 - **Page updated:** 2026-10-05
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

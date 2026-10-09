@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Salesforce Marketing Cloud
-Re-check pending: pricing last verified 2026-09-06 (32 days ago).
+Re-check pending: pricing last verified 2026-09-06 (33 days ago).
 
 ## Salesforce Marketing Cloud review (2026): pricing, AI features, verdict
 
@@ -143,8 +143,8 @@ Only at the small end. Starter Suite and Pro Suite carry a 'try for free' link o
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Enterprise estates already bought into Salesforce's cloud stack

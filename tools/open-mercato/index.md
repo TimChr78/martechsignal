@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Open Mercato
-Re-check pending: pricing last verified 2026-09-07 (31 days ago).
+Re-check pending: pricing last verified 2026-09-07 (32 days ago).
 
 ## Open Mercato review (2026): pricing, AI features, verdict
 
@@ -98,7 +98,7 @@ A credible AI-first foundation for engineering-led commerce and CRM builds; earl
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI development harness with 192 evaluation cases |  |
-| ✓ Active public repository (1,822 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,832 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -114,10 +114,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Open Mercato?**
-Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,822 stars.
+Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,832 stars.
 
 **How much does Open Mercato cost?**
-Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,822 stars. You pay in server time and maintenance, not licences.
+Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,832 stars. You pay in server time and maintenance, not licences.
 
 **Is Open Mercato a good self-hosted Agent Skills tool in 2026?**
 A credible AI-first foundation for engineering-led commerce and CRM builds; early, fast-moving, and not a turnkey product.
@@ -141,17 +141,17 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 1822
+- **GitHub:** ★ 1832
 - **Founded:** 2025
 - **HQ:** Open source
 - **API:** Yes
-- **Repository checked:** 2026-10-08
+- **Repository checked:** 2026-10-09
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

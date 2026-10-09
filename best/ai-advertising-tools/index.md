@@ -52,7 +52,7 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- advertools - 1,472 stars, +8 in the 13-snapshot window to 2026-10-08 1,464→1,472 [verify on GitHub](https://github.com/eliasdabbas/advertools)
+- advertools - 1,473 stars, +9 in the 14-snapshot window to 2026-10-09 1,464→1,473 [verify on GitHub](https://github.com/eliasdabbas/advertools)
 [All movers on the trending page](/trending/).
 
 ## [Revealbot (Birch)](/tools/revealbot/)

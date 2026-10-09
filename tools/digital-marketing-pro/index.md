@@ -30,7 +30,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** yes
 - **Catalogued integrations:** 8
-- **GitHub stars:** 855
+- **GitHub stars:** 858
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -132,10 +132,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Digital Marketing Pro?**
-Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 855 stars.
+Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Digital Marketing Pro ships with 163 skills with 24 specialist agents. The public repository carries 858 stars.
 
 **How much does Digital Marketing Pro cost?**
-Digital Marketing Pro is open source - MIT licensed and free to self-host; the public repository carries 855 stars; native integrations cover Claude Code, Anthropic Cowork, OpenAI Codex. You pay in server time and maintenance, not licences.
+Digital Marketing Pro is open source - MIT licensed and free to self-host; the public repository carries 858 stars; native integrations cover Claude Code, Anthropic Cowork, OpenAI Codex. You pay in server time and maintenance, not licences.
 
 **Is Digital Marketing Pro a good self-hosted Agent Skills tool in 2026?**
 Reasonable scaffolding for agent-run campaign planning; brings process, not magic.
@@ -153,8 +153,8 @@ Yes. The catalog records a public API for Digital Marketing Pro, so custom integ
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier.
@@ -162,10 +162,10 @@ Yes. The catalog records a public API for Digital Marketing Pro, so custom integ
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 855
+- **GitHub:** ★ 858
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-08
+- **Repository checked:** 2026-10-09
 - **Page updated:** 2026-09-28
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Nosto
-Re-check pending: pricing last verified 2026-09-07 (31 days ago).
+Re-check pending: pricing last verified 2026-09-07 (32 days ago).
 
 ## Nosto review (2026): pricing, AI features, verdict
 
@@ -157,8 +157,8 @@ Nosto documents a consent-conditional pattern: wrap the tracking script (connect
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Merchants that want recommendations their merchandisers can steer

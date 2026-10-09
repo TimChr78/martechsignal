@@ -90,7 +90,7 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ## Related tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/) - ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
@@ -108,6 +108,6 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [OpenOutreach](/tools/openoutreach/)
+More from the directory: [RudderStack](/tools/rudderstack/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

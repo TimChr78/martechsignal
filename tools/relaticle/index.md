@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Relaticle
-Re-check pending: pricing last verified 2026-09-07 (31 days ago).
+Re-check pending: pricing last verified 2026-09-07 (32 days ago).
 
 ## Relaticle review (2026): pricing, AI features, verdict
 
@@ -40,7 +40,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Relaticle is an open-source CRM you run on your own server under the AGPL-3.0 license, built on Laravel 13, Filament 5, Livewire 4, and PHP 8.5. The repository was created in September 2024, the first stable release shipped in April 2025, and development moves fast: 86 releases so far, 74 of them in the twelve months to September 2026, with v3.5.7 landing on September 6, 2026 alongside 1,756 GitHub stars and a claimed 2,000+ automated tests. The feature set covers companies, people, opportunities with custom pipeline stages and win/loss analysis, tasks, notes, and an activity log, on a customizable data model with 22 field types, conditional visibility, per-field encryption, and no schema migrations. AI is the pitch rather than an afterthought: a 37-tool MCP server at mcp.relaticle.com authenticates with OAuth 2.1 and PKCE or a personal access token, exposing search, fetch, and full create-read-update-delete across companies, people, opportunities, tasks, and notes to Claude, ChatGPT, Cursor, and other MCP clients, with destructive actions gated behind approval cards and requests capped at 120 per minute. There is also Rela, a built-in chat interface that answers questions about your records with model choices and one-click undo on approved destructive actions. Developers get a REST API v1 with twelve paths and a published OpenAPI 3.1 spec at api.relaticle.com, plus CSV import up to 10,000 rows and 10MB per file with column mapping and record-ID matching for updates. The business model outgrew the original no-premium-tiers promise: self-hosting is still free with unlimited users, but the site now sells Cloud Pro at $19 per workspace per month with 2,000 AI credits and an Enterprise tier from $20,000 a year. Per-seat pricing never arrived. Requirements are PostgreSQL 17 and Redis 7, with no MySQL path documented.
+Relaticle is an open-source CRM you run on your own server under the AGPL-3.0 license, built on Laravel 13, Filament 5, Livewire 4, and PHP 8.5. The repository was created in September 2024, the first stable release shipped in April 2025, and development moves fast: 86 releases so far, 74 of them in the twelve months to September 2026, with v3.5.7 landing on September 6, 2026 alongside 1,757 GitHub stars and a claimed 2,000+ automated tests. The feature set covers companies, people, opportunities with custom pipeline stages and win/loss analysis, tasks, notes, and an activity log, on a customizable data model with 22 field types, conditional visibility, per-field encryption, and no schema migrations. AI is the pitch rather than an afterthought: a 37-tool MCP server at mcp.relaticle.com authenticates with OAuth 2.1 and PKCE or a personal access token, exposing search, fetch, and full create-read-update-delete across companies, people, opportunities, tasks, and notes to Claude, ChatGPT, Cursor, and other MCP clients, with destructive actions gated behind approval cards and requests capped at 120 per minute. There is also Rela, a built-in chat interface that answers questions about your records with model choices and one-click undo on approved destructive actions. Developers get a REST API v1 with twelve paths and a published OpenAPI 3.1 spec at api.relaticle.com, plus CSV import up to 10,000 rows and 10MB per file with column mapping and record-ID matching for updates. The business model outgrew the original no-premium-tiers promise: self-hosting is still free with unlimited users, but the site now sells Cloud Pro at $19 per workspace per month with 2,000 AI credits and an Enterprise tier from $20,000 a year. Per-seat pricing never arrived. Requirements are PostgreSQL 17 and Redis 7, with no MySQL path documented.
 
 Relaticle homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -104,7 +104,7 @@ A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: 
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/workspace/mo |
 | ✓ AI capabilities: native AI agent support |  |
-| ✓ Active public repository (1,756 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,757 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -121,7 +121,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Relaticle?**
-Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,756 stars.
+Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,757 stars.
 
 **How much does Relaticle cost?**
 Relaticle has a free tier; paid plans start at $19/workspace/mo. Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -147,16 +147,16 @@ Self-hosting is free under AGPL-3.0 with unlimited users and records on your own
 ## Related reading
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $19/workspace/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 1756
+- **GitHub:** ★ 1757
 - **Founded:** 2024
 - **API:** Yes
-- **Repository checked:** 2026-10-08
+- **Repository checked:** 2026-10-09
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

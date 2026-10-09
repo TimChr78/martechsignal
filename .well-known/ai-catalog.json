@@ -2367,6 +2367,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:amazon-agentic-ad-formats-brand-controls",
+   "displayName": "Amazon's Agentic Ads Ship With Brand Controls",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/amazon-agentic-ad-formats-brand-controls/",
+   "description": "Amazon's Branded Conversations ship with a written brand-input contract. Google shipped a slogan. The same agentic story, two different endings.",
+   "representativeQueries": [
+    "amazon's agentic ads ship with brand controls",
+    "amazon agentic ad formats brand controls"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:automation-blast-radius-audit",
    "displayName": "Before your next automation, run the blast radius audit",
    "type": "text/html",

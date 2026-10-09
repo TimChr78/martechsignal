@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Mixpanel
-Re-check pending: pricing last verified 2026-09-06 (32 days ago).
+Re-check pending: pricing last verified 2026-09-06 (33 days ago).
 
 ## Mixpanel review (2026): pricing, AI features, verdict
 
@@ -153,8 +153,8 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform, with a free starting tier.
