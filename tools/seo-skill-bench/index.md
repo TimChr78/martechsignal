@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - SEO Skill Bench
-Re-check pending: pricing last verified 2026-09-03 (36 days ago).
+Re-check pending: pricing last verified 2026-09-03 (39 days ago).
 
 ## SEO Skill Bench review (2026): pricing, AI features, verdict
 
@@ -96,7 +96,7 @@ Strengths include 51 GitHub stars, MIT licensing with free self-hosting. SEO Ski
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 - [Digital Marketing Pro](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
-- [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
+- [Instagram Skills](/tools/instagram-skills/): 9 Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtags
 - [Claude Ads](/tools/claude-ads/): Paid-media operations skill for Claude Code covering 12 ad platforms
 ## Related reading
 

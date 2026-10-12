@@ -49,9 +49,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Flagsmith - 6,591 stars, +19 in the 14-snapshot window to 2026-10-09 6,572→6,591 [verify on GitHub](https://github.com/Flagsmith/flagsmith)
-- GrowthBook - 8,484 stars, +52 in the 14-snapshot window to 2026-10-09 8,432→8,484 [verify on GitHub](https://github.com/growthbook/growthbook)
-- Jitsu - 5,104 stars, +13 in the 14-snapshot window to 2026-10-09 5,091→5,104 [verify on GitHub](https://github.com/jitsucom/jitsu)
+- Flagsmith - 6,593 stars, +21 in the 17-snapshot window to 2026-10-12 6,572→6,593 [verify on GitHub](https://github.com/Flagsmith/flagsmith)
+- GrowthBook - 8,487 stars, +55 in the 17-snapshot window to 2026-10-12 8,432→8,487 [verify on GitHub](https://github.com/growthbook/growthbook)
+- Jitsu - 5,107 stars, +16 in the 17-snapshot window to 2026-10-12 5,091→5,107 [verify on GitHub](https://github.com/jitsucom/jitsu)
 [All movers on the trending page](/trending/).
 
 ## [Dynamic Yield](/tools/dynamic-yield/)
@@ -150,7 +150,7 @@ Vendor: [Official site](https://jitsu.com) · [Pricing](https://jitsu.com/pricin
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 167 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 168 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 ## Which personalization tool fits a regulated enterprise?
 

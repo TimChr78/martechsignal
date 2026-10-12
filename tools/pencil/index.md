@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Pencil
-Re-check pending: pricing last verified 2026-09-06 (33 days ago).
+Re-check pending: pricing last verified 2026-09-06 (36 days ago).
 
 ## Pencil review (2026): pricing, AI features, verdict
 

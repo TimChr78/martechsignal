@@ -52,7 +52,7 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- advertools - 1,473 stars, +9 in the 14-snapshot window to 2026-10-09 1,464→1,473 [verify on GitHub](https://github.com/eliasdabbas/advertools)
+- advertools - 1,475 stars, +11 in the 17-snapshot window to 2026-10-12 1,464→1,475 [verify on GitHub](https://github.com/eliasdabbas/advertools)
 [All movers on the trending page](/trending/).
 
 ## [Revealbot (Birch)](/tools/revealbot/)
@@ -151,7 +151,7 @@ Vendor: [Official site](https://opteo.com/) · [Pricing](https://opteo.com/prici
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 167 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 168 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 ## Which ad tool keeps humans in control of the rules?
 

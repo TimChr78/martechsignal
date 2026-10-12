@@ -45,7 +45,7 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- MultiPost - 3,602 stars, +508 in the 46-snapshot window to 2026-10-09 3,094→3,602 [verify on GitHub](https://github.com/leaperone/MultiPost-Extension)
+- MultiPost - 3,625 stars, +531 in the 49-snapshot window to 2026-10-12 3,094→3,625 [verify on GitHub](https://github.com/leaperone/MultiPost-Extension)
 [All movers on the trending page](/trending/).
 
 ## [Hootsuite](/tools/hootsuite/)
@@ -120,7 +120,7 @@ Vendor: [Official site](https://multipost.app) · [GitHub](https://github.com/le
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 167 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 168 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 ## Which scheduler survives staff turnover?
 

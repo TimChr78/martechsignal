@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Jasper
-Re-check pending: pricing last verified 2026-08-28 (42 days ago).
+Re-check pending: pricing last verified 2026-08-28 (45 days ago).
 
 ## Jasper review (2026): pricing, AI features, verdict
 

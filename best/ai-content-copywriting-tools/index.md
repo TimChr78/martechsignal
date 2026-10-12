@@ -50,7 +50,7 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Strapi - 73,292 stars, +278 in the 46-snapshot window to 2026-10-09 73,014→73,292 [verify on GitHub](https://github.com/strapi/strapi)
+- Strapi - 73,295 stars, +281 in the 49-snapshot window to 2026-10-12 73,014→73,295 [verify on GitHub](https://github.com/strapi/strapi)
 [All movers on the trending page](/trending/).
 
 ## [Writer](/tools/writer/)
@@ -149,7 +149,7 @@ Vendor: [Official site](https://strapi.io) · [Pricing](https://strapi.io/pricin
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 167 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 168 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 Compare or swap: [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
 

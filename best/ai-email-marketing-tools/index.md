@@ -48,10 +48,10 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Warmbly - 356 stars, +38 in the 15-snapshot window to 2026-10-09 318→356 [verify on GitHub](https://github.com/warmbly/warmbly)
-- Notifuse - 2,238 stars, +162 in the 46-snapshot window to 2026-10-09 2,076→2,238 [verify on GitHub](https://github.com/Notifuse/notifuse)
-- OpenOutreach - 3,207 stars, +389 in the 46-snapshot window to 2026-10-09 2,818→3,207 [verify on GitHub](https://github.com/eracle/OpenOutreach)
-- React Email Editor - 5,235 stars, +28 in the 46-snapshot window to 2026-10-09 5,207→5,235 [verify on GitHub](https://github.com/unlayer/react-email-editor)
+- Warmbly - 406 stars, +88 in the 18-snapshot window to 2026-10-12 318→406 [verify on GitHub](https://github.com/warmbly/warmbly)
+- Notifuse - 2,245 stars, +169 in the 49-snapshot window to 2026-10-12 2,076→2,245 [verify on GitHub](https://github.com/Notifuse/notifuse)
+- OpenOutreach - 3,240 stars, +422 in the 49-snapshot window to 2026-10-12 2,818→3,240 [verify on GitHub](https://github.com/eracle/OpenOutreach)
+- React Email Editor - 5,236 stars, +29 in the 49-snapshot window to 2026-10-12 5,207→5,236 [verify on GitHub](https://github.com/unlayer/react-email-editor)
 [All movers on the trending page](/trending/).
 
 ## [Mailchimp](/tools/mailchimp/)
@@ -148,7 +148,7 @@ Vendor: [Official site](https://unlayer.com/) · [Pricing](https://unlayer.com/p
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 167 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 168 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 Compare or swap: [Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict](/vs/mailchimp-vs-klaviyo/) · [Mailchimp vs Brevo (2026): pricing, multichannel, verdict](/vs/mailchimp-vs-brevo/) · [Mailchimp alternatives](/alternatives/mailchimp/) · [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/)
 

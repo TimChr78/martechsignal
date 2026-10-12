@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Marketing Studio
-Re-check pending: pricing last verified 2026-08-31 (39 days ago).
+Re-check pending: pricing last verified 2026-08-31 (42 days ago).
 
 ## Marketing Studio review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ The most complete open-source take on agent-produced launch assets, with a real 
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (251 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (252 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: launch asset generation | ✗ Short native integration list - plan for API work |
 | ✓ Native integrations include Claude Code, Blender (2 listed) |  |
 
@@ -97,10 +97,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Marketing Studio?**
-Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 251 stars.
+Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 252 stars.
 
 **How much does Marketing Studio cost?**
-Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 251 stars. You pay in server time and maintenance, not licences.
+Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 252 stars. You pay in server time and maintenance, not licences.
 
 **Is Marketing Studio a good self-hosted Agent Skills tool in 2026?**
 The most complete open-source take on agent-produced launch assets, with a real pipeline architecture behind the demo. Worth adopting if you already work in Claude Code and need repeatable launch creative; expect to invest in brand tokens and review passes before output is publishable.
@@ -120,11 +120,11 @@ The most complete open-source take on agent-produced launch assets, with a real 
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 251
+- **GitHub:** ★ 252
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** No
-- **Repository checked:** 2026-10-08
+- **Repository checked:** 2026-10-12
 - **Page updated:** 2026-08-31
 
 ## Get the next teardown

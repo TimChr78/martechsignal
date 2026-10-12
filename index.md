@@ -29,9 +29,9 @@ At AdExchanger's Programmatic IO in New York, a panel of agency executives argue
 - [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 - [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
-- [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
-- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
 - [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
 - [Twilio SendGrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
 ## Comparisons and best-of lists
@@ -46,7 +46,7 @@ Verdicts with receipts: every list below names what each tool costs from the ven
 
 ## How to read the directory
 
-The directory holds **167 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **160** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
+The directory holds **168 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **160** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
 
 Every number in the directory carries a date. Prices, integration counts, AI feature lists, star counts: each one shows the day we last checked it against the vendor's own documentation. When a number moves, the page moves with it. The n8n star count is the obvious example. Three different figures had settled into our own pages before we re-checked the repository and re-stamped the date.
 
