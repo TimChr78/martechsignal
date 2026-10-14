@@ -2,7 +2,7 @@
 
 AI MARKETING AUTOMATION · WEEKLY
 
-## AI Marketing Tools, Researched. Your stack isn't ready.
+## AI Marketing Tools, Researched.Your stack isn't ready.
 
 Every week we audit the AI marketing automation landscape, the agents, the workflows, the vendor lock-in, and tell you what actually works. No sponsored rankings. No press-release rewrites.
 
@@ -29,11 +29,11 @@ At its Forge conference in Las Vegas, Braze announced three products that move A
 - [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
-- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
-- [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
-- [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
+- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [Warmbly](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 ## Comparisons and best-of lists
 
 Verdicts with receipts: every list below names what each tool costs from the vendor’s own pricing page, what it fits worst, and who should skip it. The head-to-head comparisons state pick-conditions instead of a winner; the best-of lists and tool pages give the verdict. Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.

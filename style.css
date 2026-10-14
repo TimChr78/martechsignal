@@ -46,6 +46,14 @@ img.post-figure { max-width: 100%; height: auto; border: 1px solid var(--line); 
 ::selection { background: var(--amber); color: #141005 }
 a { color: inherit }
 .mono { font-family: var(--mono) }
+/* r37 DESIGN W1-4 (2026-10-14): no single-word orphan lines on display heads.
+   W1-7: default focus outline is near-invisible on the dark palette; one
+   global amber ring for keyboard users. Both rules use headers outside the
+   critical-CSS allowlist (h1 / :is) on purpose: zero critical-block delta. */
+h1 { text-wrap: balance }
+:is(a, button, summary, input, textarea, select):focus-visible {
+  outline: 2px solid var(--amber); outline-offset: 2px
+}
 
 /* ---------- background ---------- */
 .bg {
@@ -96,6 +104,17 @@ a { color: inherit }
 @media (max-width: 700px) {
   .mast-nav { overflow-x: auto; scrollbar-width: none; -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent); mask-image: linear-gradient(90deg, #000 88%, transparent) }
   .mast-nav::-webkit-scrollbar { display: none }
+  /* r37 DESIGN W1-1 (2026-10-14): 8 links clipped mid-word at 390px and the
+     scroll affordance read as broken. Show the four highest-priority links;
+     every hidden destination stays reachable via foot-links (footer carries
+     all sections) and the hub pages themselves. Selectors carry the nav
+     element prefix so this rule stays OUT of the critical-CSS allowlist
+     extraction (a critical-block delta rewrites every page's inline <style>,
+     which churns dm-sigs and restamps dateless pages - see r37 notes). */
+  nav.mast-nav a[href="/alternatives/"],
+  nav.mast-nav a[href="/categories/"],
+  nav.mast-nav a[href="/glossary/"],
+  nav.mast-nav a[href="/#subscribe"] { display: none }
 }
 /* homepage extras */
 .mast-right { display: flex; align-items: center; gap: 1.1rem }
@@ -152,14 +171,27 @@ html.js .reveal.in, html.js .reveal.in, .reveal.in { opacity: 1; transform: none
 /* ============================================================
    HOMEPAGE  (.page-home)
    ============================================================ */
+/* r37 DESIGN W1-5 (2026-10-14): hero compression lives in .page-home-scoped
+   overrides below, NOT in these base rules: .hero/.lede are on the critical
+   allowlist, and a critical-block delta rewrites every page's inline <style>
+   (dm-sig churn + dateless restamps). Base rules stay byte-identical. */
 .hero { display: grid; grid-template-columns: 1.12fr .88fr; gap: 3.2rem; align-items: end; padding: 4.6rem 0 1.2rem }
 @media (max-width: 880px) { .hero { grid-template-columns: 1fr; gap: 1rem; padding: 1rem 1.25rem .4rem; align-items: start }
   .hero h1 { font-size: 2rem; line-height: 1.12 }
   .hero p { margin: .35rem 0 } }
-.page-home h1 { font-family: var(--disp); font-size: clamp(2.5rem, 5.6vw, 4.3rem); line-height: 1.03; letter-spacing: -.015em; font-weight: 400 }
+.page-home h1 { font-family: var(--disp); font-size: clamp(2.4rem, 4.8vw, 3.7rem); line-height: 1.03; letter-spacing: -.015em; font-weight: 400 }
 .page-home h1 em { font-style: normal; color: var(--amber); position: relative; white-space: nowrap }
 .page-home h1 em::after { content: ""; position: absolute; left: 0; right: 0; bottom: .06em; height: .14em; background: linear-gradient(90deg, var(--amber), rgba(255,178,36,.15)); border-radius: 2px }
+/* r37 DESIGN W1-3 (2026-10-14): the hero uses span.hl, not em. The old
+   inline-only .hl gradient bar (30% amber block behind the text) read as a
+   broken selection artifact in screenshots. Two-tone amber sentence instead,
+   echoing the MARTECH-white / SIGNAL-amber wordmark. */
+.page-home h1 .hl { color: var(--amber) }
+/* r37 DESIGN W1-5: tighter homepage hero so Latest-writing cards reach the
+   first viewport at 1280x577 (was 4.6rem pad + 4 CTAs, zero content shown) */
+.page-home .hero { padding: 2.8rem 0 1rem }
 .lede { color: var(--muted); font-size: 1.1rem; max-width: 34rem; margin: 1.4rem 0 1.9rem }
+.page-home .lede { margin: 1rem 0 1.35rem }
 .hero-cta { display: flex; align-items: center; gap: 1.3rem; flex-wrap: wrap }
 .micro { font: 500 0.8rem var(--mono); letter-spacing: .14em; color: var(--muted); margin-top: 1.5rem }
 
