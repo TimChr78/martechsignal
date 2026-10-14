@@ -114,7 +114,8 @@ h1 { text-wrap: balance }
   nav.mast-nav a[href="/alternatives/"],
   nav.mast-nav a[href="/categories/"],
   nav.mast-nav a[href="/glossary/"],
-  nav.mast-nav a[href="/#subscribe"] { display: none }
+  nav.mast-nav a[href="/#subscribe"],
+  nav.mast-nav a[href="#subscribe"] { display: none }
 }
 /* homepage extras */
 .mast-right { display: flex; align-items: center; gap: 1.1rem }

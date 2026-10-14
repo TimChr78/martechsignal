@@ -2,7 +2,7 @@
 
 AI MARKETING AUTOMATION · WEEKLY
 
-## AI Marketing Tools, Researched.Your stack isn't ready.
+## AI Marketing Tools, Researched.Your stackisn't ready.
 
 Every week we audit the AI marketing automation landscape, the agents, the workflows, the vendor lock-in, and tell you what actually works. No sponsored rankings. No press-release rewrites.
 
