@@ -7,7 +7,7 @@ author: Tim Christensen
 tags: [AI Agents, AI Safety, Trust]
 categories: [marketing-automation, agent-skills]
 excerpt: "OpenAI paused training, a columnist denied rogue agents exist, Nvidia shipped containment, and an engineer asked who pays when agents misbehave."
-seo_description: "The agent trust debate in four positions: OpenAI's training pause, the no-rogue-agents argument, Nvidia's containment platform, deployer accountability."
+seo_description: "The agent trust debate in four positions: OpenAI's training pause, the no-rogue-agents argument, Nvidia containment, deployer accountability."
 ---
 
 In four days last week, the agent safety debate produced four answers that cannot all be true. OpenAI paused training of its latest models. A columnist argued the "rogue agents" everyone is discussing do not exist. Nvidia announced a platform to contain agents at the infrastructure layer. And an engineer asked, without ceremony, who should be held accountable when an agent acts maliciously by accident.

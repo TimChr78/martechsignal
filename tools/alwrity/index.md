@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - ALwrity
-Re-check pending: pricing last verified 2026-08-28 (45 days ago).
+Re-check pending: pricing last verified 2026-08-28 (47 days ago).
 
 ## ALwrity review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 | ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI content strategy and planning |  |
-| ✓ Active public repository (1,188 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,190 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -88,10 +88,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is ALwrity?**
-ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,188 stars.
+ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,190 stars.
 
 **How much does ALwrity cost?**
-ALwrity is open source - Free to self-host; the public repository carries 1,188 stars. You pay in server time and maintenance, not licences.
+ALwrity is open source - Free to self-host; the public repository carries 1,190 stars. You pay in server time and maintenance, not licences.
 
 **Is ALwrity a good self-hosted Marketing Automation tool in 2026?**
 A capable self-hosted content engine for technical marketers. Everyone else gets better results from maintained hosted tools.
@@ -106,15 +106,15 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
-- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 1188
+- **GitHub:** ★ 1190
 - **API:** Yes
-- **Repository checked:** 2026-10-12
+- **Repository checked:** 2026-10-14
 - **Page updated:** 2026-08-28
 
 ### Pricing

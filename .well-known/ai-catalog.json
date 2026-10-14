@@ -2747,7 +2747,7 @@
    "displayName": "Rogue agents, watchdog chips, nobody accountable",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/rogue-ai-agents-trust-debate/",
-   "description": "Analysis from the MartechSignal blog.",
+   "description": "The agent trust debate in four positions: OpenAI's training pause, the no-rogue-agents argument, Nvidia containment, deployer accountability.",
    "representativeQueries": [
     "rogue agents, watchdog chips, nobody accountable",
     "rogue ai agents trust debate"
@@ -2828,6 +2828,17 @@
    "representativeQueries": [
     "what a free seo audit replaces (and what it does not)",
     "what free seo audit replaces"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:blog:where-manual-work-hides-marketing-automation",
+   "displayName": "Where manual work hides in marketing automation",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/where-manual-work-hides-marketing-automation/",
+   "description": "Setup is the fast part of a campaign. Practitioners name the real time sinks: approval queues, QA, content variants, and version proof. How to shrink each.",
+   "representativeQueries": [
+    "where manual work hides in marketing automation",
+    "where manual work hides marketing automation"
    ]
   },
   {
@@ -3812,7 +3823,7 @@
    "displayName": "Open-Source MarTech Momentum: GitHub Stars",
    "type": "text/html",
    "url": "https://martechsignal.com/trending/",
-   "description": "Every morning we snapshot the GitHub stars of all 83 open-source tools in our 168-tool catalog (all of them list a public GitHub repository). 81 have enough history to chart here; a repository needs 5",
+   "description": "Every morning we snapshot the GitHub stars of all 83 open-source tools in our 168-tool catalog (all of them list a public GitHub repository). 82 have enough history to chart here; a repository needs 5",
    "representativeQueries": [
     "trending martech tools",
     "what tools trend on github"

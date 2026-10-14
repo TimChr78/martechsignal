@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - OpenClaw Marketing Skills
-Re-check pending: pricing last verified 2026-08-28 (45 days ago).
+Re-check pending: pricing last verified 2026-08-28 (47 days ago).
 
 ## OpenClaw Marketing Skills review (2026): pricing, AI features, verdict
 
@@ -130,7 +130,7 @@ Solid add-on pack for agent stacks; thin as a primary playbook source.
 - **GitHub:** ★ 1044
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-12
+- **Repository checked:** 2026-10-14
 - **Page updated:** 2026-08-28
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

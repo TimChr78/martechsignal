@@ -8,6 +8,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### Where the manual work still hides in your marketing automation
+
+Building the campaign is the fast part. In a recent r/MarketingAutomation thread, a CRM and lifecycle marketer put it plainly: "setting up the actual automation is rarely the part…
+
 ### Amazon's Ad Agents Come With Instructions. Google's Came With Promises.
 
 Two stories ran on AdExchanger the same day, September 29. James Hercher covered Amazon's unBoxed announcements in San Francisco, where the company turned its ad platform into a…
@@ -20,20 +24,16 @@ In four days last week, the agent safety debate produced four answers that canno
 
 At its Forge conference in Las Vegas, Braze announced three products that move AI out of the copy editor and into campaign operations: BrazeAI Decisioning Studio Go, Agentic…
 
-### Agencies don't want to own your AI tools or your data: the retainer model just broke
-
-At AdExchanger's Programmatic IO in New York, a panel of agency executives argued that the agency should not own the agentic AI tools built for a client, and should not own the…
-
 ## Tool index
 
 - [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
-- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+- [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
 - [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
 - [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
-- [Twilio SendGrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
 ## Comparisons and best-of lists
 
 Verdicts with receipts: every list below names what each tool costs from the vendor’s own pricing page, what it fits worst, and who should skip it. The head-to-head comparisons state pick-conditions instead of a winner; the best-of lists and tool pages give the verdict. Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Maizzle
-Re-check pending: pricing last verified 2026-09-07 (35 days ago).
+Re-check pending: pricing last verified 2026-09-07 (37 days ago).
 
 ## Maizzle review (2026): pricing, AI features, verdict
 
@@ -24,7 +24,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 32/60
 
-Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with 2,864 stars and no AI story, which is fine for a compiler.
+Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with 2,863 stars and no AI story, which is fine for a compiler.
 
 
 | Pillar | Score | Evidence |
@@ -83,7 +83,7 @@ The strongest answer for developer-maintained email templates in 2026, now on Ta
 | Pros | Cons |
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ Active public repository (2,864 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,863 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -98,10 +98,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Maizzle?**
-Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,864 stars.
+Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,863 stars.
 
 **How much does Maizzle cost?**
-Maizzle is open source - Free to self-host; the public repository carries 2,864 stars. You pay in server time and maintenance, not licences.
+Maizzle is open source - Free to self-host; the public repository carries 2,863 stars. You pay in server time and maintenance, not licences.
 
 **What does running Maizzle actually cost?**
 The strongest answer for developer-maintained email templates in 2026, now on Tailwind 4 and Vite; budget migration time from v5, and keep a separate tool for sending and analytics.
@@ -126,14 +126,14 @@ Both paths are documented on the docs site as migration guides, alongside deploy
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 - [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
 ### Quick Facts
 
 - **Pricing:** Free
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 2864
+- **GitHub:** ★ 2863
 - **API:** No
-- **Repository checked:** 2026-10-12
+- **Repository checked:** 2026-10-14
 - **Page updated:** 2026-09-07
 
 ### Pricing

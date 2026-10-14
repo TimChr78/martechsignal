@@ -1,9 +1,11 @@
 {
  "adcreative-ai": {
-  "status": "fetch-404",
-  "errors": 1,
-  "last_check": "2026-10-05",
-  "backoff_until": "2026-10-12"
+  "status": "confirmed",
+  "errors": 0,
+  "last_check": "2026-10-12",
+  "backoff_until": "",
+  "etag": "",
+  "lastmod": "Fri, 02 Oct 2026 18:13:21 GMT"
  },
  "albert-ai": {
   "etag": "",
@@ -101,5 +103,65 @@
   "status": "needs-render",
   "last_check": "2026-10-06",
   "backoff_until": "2026-11-05"
+ },
+ "codex-seo": {
+  "etag": "W/\"6a10e5e6e15d68172fd2045ac6985fac\"",
+  "lastmod": "",
+  "status": "confirmed",
+  "last_check": "2026-10-12",
+  "errors": 0,
+  "backoff_until": ""
+ },
+ "copy-ai": {
+  "etag": "",
+  "lastmod": "Wed, 07 Oct 2026 08:36:54 GMT",
+  "status": "mismatch",
+  "last_check": "2026-10-12",
+  "backoff_until": "2026-11-11"
+ },
+ "email-marketing-bible": {
+  "etag": "W/\"6a10e5e6e15d68172fd2045ac6985fac\"",
+  "lastmod": "",
+  "status": "confirmed",
+  "last_check": "2026-10-12",
+  "errors": 0,
+  "backoff_until": ""
+ },
+ "heap": {
+  "etag": "\"104c4c98519890605620caa633cdb248-ssl\"",
+  "lastmod": "",
+  "status": "confirmed",
+  "last_check": "2026-10-12",
+  "errors": 0,
+  "backoff_until": ""
+ },
+ "hubspot-marketing-hub": {
+  "etag": "",
+  "lastmod": "Fri, 09 Oct 2026 14:22:13 GMT",
+  "status": "needs-render",
+  "last_check": "2026-10-12",
+  "backoff_until": "2026-11-11"
+ },
+ "hypotenuse-ai": {
+  "etag": "",
+  "lastmod": "Mon, 12 Oct 2026 06:31:04 GMT",
+  "status": "needs-render",
+  "last_check": "2026-10-12",
+  "backoff_until": "2026-11-11"
+ },
+ "intercom": {
+  "etag": "",
+  "lastmod": "",
+  "status": "confirmed",
+  "last_check": "2026-10-12",
+  "errors": 0,
+  "backoff_until": ""
+ },
+ "jasper": {
+  "etag": "",
+  "lastmod": "Fri, 09 Oct 2026 18:24:31 GMT",
+  "status": "mismatch",
+  "last_check": "2026-10-12",
+  "backoff_until": "2026-11-11"
  }
 }

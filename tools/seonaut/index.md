@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Seonaut
-Re-check pending: pricing last verified 2026-09-07 (35 days ago).
+Re-check pending: pricing last verified 2026-09-07 (37 days ago).
 
 ## Seonaut review (2026): pricing, AI features, verdict
 
@@ -147,7 +147,7 @@ On core technical auditing, more than you might expect: broken links, redirect c
 - **Founded:** 2022
 - **HQ:** Open source
 - **API:** No
-- **Repository checked:** 2026-10-12
+- **Repository checked:** 2026-10-14
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

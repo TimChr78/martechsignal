@@ -38,5 +38,37 @@
   "url": "https://pipedream.com/pricing",
   "detail": "2026-10-06 vendor page pivoted to Connect pricing (Free $0 / Startup $99 / Business custom); record paid ladder ($29/$49/$99 credits-era) no longer appears. price_from corrected to 0 on Free $0 evidence; paid tiers need full re-record",
   "queued_at": "2026-10-06"
+ },
+ {
+  "slug": "copy-ai",
+  "name": "Copy.ai",
+  "kind": "mismatch",
+  "url": "https://www.copy.ai/prices",
+  "detail": "catalog expects ['49.00'] (USD); page shows ['1000.00', '12000.00', '2.60', '2000.00', '24.00', '24000.00', '288.00', '29.00', '3000.00', '36000.00', '650.00']; missing ['49.00']",
+  "queued_at": "2026-10-12"
+ },
+ {
+  "slug": "hubspot-marketing-hub",
+  "name": "HubSpot Marketing Hub",
+  "kind": "needs-render",
+  "url": "https://www.hubspot.com/pricing/marketing",
+  "detail": "no currency figures in static HTML (likely JS-rendered)",
+  "queued_at": "2026-10-12"
+ },
+ {
+  "slug": "hypotenuse-ai",
+  "name": "Hypotenuse AI",
+  "kind": "needs-render",
+  "url": "https://www.hypotenuse.ai/pricing",
+  "detail": "no currency figures in static HTML (likely JS-rendered)",
+  "queued_at": "2026-10-12"
+ },
+ {
+  "slug": "jasper",
+  "name": "Jasper",
+  "kind": "mismatch",
+  "url": "https://www.jasper.ai/pricing",
+  "detail": "catalog expects ['39.00'] (USD); page shows ['59.00', '69.00']; missing ['39.00']",
+  "queued_at": "2026-10-12"
  }
 ]

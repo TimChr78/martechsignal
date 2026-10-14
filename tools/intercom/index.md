@@ -4,8 +4,6 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Intercom
-Re-check pending: pricing last verified 2026-08-28 (45 days ago).
-
 ## Intercom review (2026): pricing, AI features, verdict
 
 AI-first customer service platform with Fin AI agent and omnichannel messaging
@@ -18,7 +16,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Intercom is a tool in Chatbots & Conversational AI with paid plans starting at $29/seat/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Intercom is a tool in Chatbots & Conversational AI with paid plans starting at $29/seat/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-12. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Intercom →](https://www.intercom.com)
 
@@ -29,14 +27,14 @@ Intercom's Fin is the strongest public proof that AI resolution beats deflection
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (the vendor pricing page: [pricing page](https://www.intercom.com/pricing), verified 2026-08-28). |
-| Feature depth | 8/10 | Omnichannel messaging, ticketing and an AI agent with copilot cover the service loop (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
-| Integrations | 8/10 | Slack, Salesforce, HubSpot, Zapier, Shopify, Stripe, Zendesk and Segment documented plus an API (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
-| AI capability | 8/10 | Fin resolves conversations autonomously at a published per-resolution price, with routing and summaries behind it (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with strong API coverage (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
-| Operational maturity | 8/10 | Founded 2011 with enterprise service deployments and public price honesty (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
+| Pricing transparency | 7/10 | Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (the vendor pricing page: [pricing page](https://www.intercom.com/pricing), verified 2026-10-12). |
+| Feature depth | 8/10 | Omnichannel messaging, ticketing and an AI agent with copilot cover the service loop (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-10-12). |
+| Integrations | 8/10 | Slack, Salesforce, HubSpot, Zapier, Shopify, Stripe, Zendesk and Segment documented plus an API (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-10-12). |
+| AI capability | 8/10 | Fin resolves conversations autonomously at a published per-resolution price, with routing and summaries behind it (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-10-12). |
+| Openness | 3/10 | Closed SaaS with strong API coverage (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-10-12). |
+| Operational maturity | 8/10 | Founded 2011 with enterprise service deployments and public price honesty (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-10-12). |
 
-Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-10-12 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -63,7 +61,7 @@ Intercom homepage, captured September 2026. Vendor page shown as a dated referen
 - Segment
 ## Pricing
 
-Intercom is sold on paid plans, from $29/seat/mo as of 2026-08.
+Intercom is sold on paid plans, from $29/seat/mo as of 2026-10.
 
 Essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution
 
@@ -106,7 +104,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Intercom: AI-first customer service platform with Fin AI agent and omnichannel messaging. Intercom ships with fin AI agent. This page documents 8 integrations.
 
 **How much does Intercom cost?**
-Intercom starts at $29/seat/mo. Essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Intercom starts at $29/seat/mo. Essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution. We last checked that price on 2026-10-12. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Intercom worth paying for in 2026?**
 Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly changes the total cost at scale.
@@ -121,8 +119,8 @@ Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly c
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Support teams that want AI resolutions auditable at $0.99 each
@@ -134,7 +132,7 @@ Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly c
 - **Founded:** 2011
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-10-12
 
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 

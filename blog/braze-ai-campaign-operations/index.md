@@ -56,17 +56,17 @@ One review screen where a human blesses agent-assembled work before anything shi
 ## Related reading
 
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/) - All-in-one marketing automation with AI-powered content, email, and campaign tools
 - [Persado](/tools/persado/) - AI content creation and optimization platform for regulated financial services marketing
-- [Intercom](/tools/intercom/) - AI-first customer service platform with Fin AI agent and omnichannel messaging
+- [Laudspeaker](/tools/laudspeaker/) - Open-source customer engagement and product onboarding platform, alternative to Braze
 ## Comparison guides
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

@@ -136,7 +136,7 @@
    "pillars": {
     "pricing_transparency": {
      "score": 7,
-     "evidence": "Starter $39/mo ($20/mo annual), Professional $249/mo, Ultimate $599/mo published with Enterprise custom (the vendor pricing page, verified 2026-08-28)."
+     "evidence": "Starter $39/mo ($20/mo annual), Professional $249/mo, Ultimate $599/mo published with Enterprise custom (the vendor pricing page, verified 2026-10-12)."
     },
     "feature_depth": {
      "score": 5,
@@ -159,7 +159,7 @@
      "evidence": "Founded 2021 with self-serve pricing and a wide trial funnel (vendor documentation)."
     }
    },
-   "scored": "2026-09-28"
+   "scored": "2026-10-12"
   },
   {
    "slug": "adobe-llm-optimizer",
@@ -1000,7 +1000,7 @@
    "pillars": {
     "pricing_transparency": {
      "score": 7,
-     "evidence": "Free to use with API costs for DataForSEO, Gemini, Google and Firecrawl stated as the run cost (the vendor pricing page, verified 2026-08-28)."
+     "evidence": "Free to use with API costs for DataForSEO, Gemini, Google and Firecrawl stated as the run cost (the vendor pricing page, verified 2026-10-12)."
     },
     "feature_depth": {
      "score": 6,
@@ -1023,7 +1023,7 @@
      "evidence": "Founded 2025 under a solo author's licence (vendor documentation)."
     }
    },
-   "scored": "2026-09-28"
+   "scored": "2026-10-12"
   },
   {
    "slug": "contentbot",
@@ -1288,7 +1288,7 @@
    "pillars": {
     "pricing_transparency": {
      "score": 10,
-     "evidence": "Free and open source with no tiers to price (the vendor pricing page, verified 2026-08-28)."
+     "evidence": "Free and open source with no tiers to price (the vendor pricing page, verified 2026-10-12)."
     },
     "feature_depth": {
      "score": 6,
@@ -1311,7 +1311,7 @@
      "evidence": "Founded 2026; a young project with a large knowledge artifact (vendor documentation)."
     }
    },
-   "scored": "2026-09-28"
+   "scored": "2026-10-12"
   },
   {
    "slug": "espocrm",
@@ -1704,7 +1704,7 @@
    "pillars": {
     "pricing_transparency": {
      "score": 5,
-     "evidence": "Free (10K sessions/mo, 6 months history) is published; Growth and Pro are custom-priced (the vendor pricing page, verified 2026-08-28)."
+     "evidence": "Free (10K sessions/mo, 6 months history) is published; Growth and Pro are custom-priced (the vendor pricing page, verified 2026-10-12)."
     },
     "feature_depth": {
      "score": 7,
@@ -1727,7 +1727,7 @@
      "evidence": "Founded 2013 with enterprise analytics deployments behind the autocapture pitch (vendor documentation)."
     }
    },
-   "scored": "2026-09-28"
+   "scored": "2026-10-12"
   },
   {
    "slug": "hootsuite",
@@ -1896,7 +1896,7 @@
    "pillars": {
     "pricing_transparency": {
      "score": 7,
-     "evidence": "Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (the vendor pricing page, verified 2026-08-28)."
+     "evidence": "Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (the vendor pricing page, verified 2026-10-12)."
     },
     "feature_depth": {
      "score": 8,
@@ -1919,7 +1919,7 @@
      "evidence": "Founded 2011 with enterprise service deployments and public price honesty (vendor documentation)."
     }
    },
-   "scored": "2026-09-28"
+   "scored": "2026-10-12"
   },
   {
    "slug": "jasper",

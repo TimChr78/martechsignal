@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - ChatbotX
-Re-check pending: pricing last verified 2026-08-28 (45 days ago).
+Re-check pending: pricing last verified 2026-08-28 (47 days ago).
 
 ## ChatbotX review (2026): pricing, AI features, verdict
 
@@ -83,10 +83,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is ChatbotX?**
-ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 891 stars.
+ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 903 stars.
 
 **How much does ChatbotX cost?**
-ChatbotX is open source - Free to self-host; the public repository carries 891 stars. You pay in server time and maintenance, not licences.
+ChatbotX is open source - Free to self-host; the public repository carries 903 stars. You pay in server time and maintenance, not licences.
 
 **Is ChatbotX a good self-hosted Chatbots & Conversational AI tool in 2026?**
 Right for technical teams that want ManyChat-style automation without lock-in. Everyone else should stay hosted.
@@ -100,8 +100,8 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Developers that want ManyChat's playbook as source code
@@ -109,9 +109,9 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 
 - **Pricing:** Open Source
 - **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
-- **GitHub:** ★ 891
+- **GitHub:** ★ 903
 - **API:** Yes
-- **Repository checked:** 2026-10-12
+- **Repository checked:** 2026-10-14
 - **Page updated:** 2026-08-28
 
 ### Pricing

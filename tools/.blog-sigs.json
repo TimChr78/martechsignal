@@ -145,7 +145,7 @@
  },
  "rogue-ai-agents-trust-debate": {
   "dm": "2026-10-08",
-  "sig": "a9bd92d7c2aaea0a"
+  "sig": "bdab0e1d8a320481"
  },
  "salesforce-agentforce-free-marketing-ops": {
   "dm": "2026-09-25",
@@ -174,6 +174,10 @@
  "what-free-seo-audit-replaces": {
   "dm": "2026-09-28",
   "sig": "2e0de0d44f553ba4"
+ },
+ "where-manual-work-hides-marketing-automation": {
+  "dm": "2026-10-14",
+  "sig": "d868f947f2858cdf"
  },
  "why-your-marketing-automation-stack-doesnt-need-another-ai-tool": {
   "dm": "2026-09-28",

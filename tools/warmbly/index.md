@@ -90,7 +90,7 @@ The most complete open-source cold email stack we have listed, but young (launch
 | Pros | Cons |
 | --- | --- |
 | ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $29/mo |
-| ✓ AI capabilities: AI agent steps in campaign sequences that branch on classified reply intent | ✗ Young project (406 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: AI agent steps in campaign sequences that branch on classified reply intent | ✗ Young project (430 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ Native integrations include HubSpot, Slack, Zapier (8 listed) |  |
 
 ## Related concepts
@@ -106,7 +106,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Warmbly?**
-Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 406 stars.
+Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 430 stars.
 
 **How much does Warmbly cost?**
 Warmbly has a free tier; paid plans start at $29/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers.
@@ -124,8 +124,8 @@ The most complete open-source cold email stack we have listed, but young (launch
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier.
@@ -133,11 +133,11 @@ The most complete open-source cold email stack we have listed, but young (launch
 
 - **Pricing:** Open Source from $29/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 406
+- **GitHub:** ★ 430
 - **Founded:** 2026
 - **HQ:** London, UK
 - **API:** Yes
-- **Repository checked:** 2026-10-12
+- **Repository checked:** 2026-10-14
 - **Page updated:** 2026-09-24
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

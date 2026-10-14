@@ -24323,5 +24323,1205 @@
     "pushed": "2026-10-08"
    }
   }
+ },
+ {
+  "date": "2026-10-13",
+  "repos": {
+   "aaron-marketing-skills": {
+    "full_name": "aaron-he-zhu/aaron-marketing-skills",
+    "stars": 2908,
+    "forks": 374,
+    "open_issues": 0,
+    "pushed": "2026-10-13"
+   },
+   "ai-business-skills": {
+    "full_name": "minhnv0807/ai-business-skills",
+    "stars": 613,
+    "forks": 229,
+    "open_issues": 3,
+    "pushed": "2026-09-12"
+   },
+   "alphone": {
+    "full_name": "gopherium/AlphOne",
+    "stars": 284,
+    "forks": 64,
+    "open_issues": 30,
+    "pushed": "2026-10-12"
+   },
+   "alwrity": {
+    "full_name": "ALwrity/ALwrity",
+    "stars": 1189,
+    "forks": 332,
+    "open_issues": 115,
+    "pushed": "2026-10-05"
+   },
+   "analytics-tracking-automation": {
+    "full_name": "jtrackingai/analytics-tracking-automation",
+    "stars": 142,
+    "forks": 41,
+    "open_issues": 1,
+    "pushed": "2026-04-29"
+   },
+   "appsmith": {
+    "full_name": "appsmithorg/appsmith",
+    "stars": 41054,
+    "forks": 4804,
+    "open_issues": 4514,
+    "pushed": "2026-10-13"
+   },
+   "billionmail": {
+    "full_name": "Billionmail/BillionMail",
+    "stars": 15899,
+    "forks": 1747,
+    "open_issues": 244,
+    "pushed": "2026-06-11"
+   },
+   "budibase": {
+    "full_name": "budibase/budibase",
+    "stars": 28332,
+    "forks": 2232,
+    "open_issues": 268,
+    "pushed": "2026-10-12"
+   },
+   "chatbotx": {
+    "full_name": "ChatbotXIO/ChatbotX",
+    "stars": 900,
+    "forks": 256,
+    "open_issues": 61,
+    "pushed": "2026-10-13"
+   },
+   "chatwoot": {
+    "full_name": "chatwoot/chatwoot",
+    "stars": 37740,
+    "forks": 9195,
+    "open_issues": 1588,
+    "pushed": "2026-10-12"
+   },
+   "claude-ads": {
+    "full_name": "AgriciDaniel/claude-ads",
+    "stars": 9932,
+    "forks": 1467,
+    "open_issues": 27,
+    "pushed": "2026-10-07"
+   },
+   "claude-seo": {
+    "full_name": "AgriciDaniel/claude-seo",
+    "stars": 18793,
+    "forks": 2752,
+    "open_issues": 35,
+    "pushed": "2026-10-04"
+   },
+   "codex-seo": {
+    "full_name": "AgriciDaniel/codex-seo",
+    "stars": 809,
+    "forks": 113,
+    "open_issues": 27,
+    "pushed": "2026-09-11"
+   },
+   "cordys-crm": {
+    "full_name": "1Panel-dev/CordysCRM",
+    "stars": 2781,
+    "forks": 574,
+    "open_issues": 51,
+    "pushed": "2026-10-13"
+   },
+   "deskcommcrm": {
+    "full_name": "melgarafael/DeskcommCRM",
+    "stars": 4556,
+    "forks": 1219,
+    "open_issues": 303,
+    "pushed": "2026-10-13"
+   },
+   "diffmode-growth-tactics": {
+    "full_name": "acogood/diffmode_free",
+    "stars": 164,
+    "forks": 0,
+    "open_issues": 0,
+    "pushed": "2026-08-10"
+   },
+   "django-crm": {
+    "full_name": "Django-CRM/Django-CRM",
+    "stars": 2448,
+    "forks": 1057,
+    "open_issues": 86,
+    "pushed": "2026-10-02"
+   },
+   "dolibarr": {
+    "full_name": "Dolibarr/dolibarr",
+    "stars": 7723,
+    "forks": 3565,
+    "open_issues": 1028,
+    "pushed": "2026-10-13"
+   },
+   "email-marketing-bible": {
+    "full_name": "CosmoBlk/email-marketing-bible",
+    "stars": 336,
+    "forks": 40,
+    "open_issues": 1,
+    "pushed": "2026-10-09"
+   },
+   "espocrm": {
+    "full_name": "espocrm/espocrm",
+    "stars": 3479,
+    "forks": 999,
+    "open_issues": 65,
+    "pushed": "2026-10-12"
+   },
+   "eve-marketing-team": {
+    "full_name": "vercel-labs/marketing-team-eve-template",
+    "stars": 450,
+    "forks": 25,
+    "open_issues": 1,
+    "pushed": "2026-10-07"
+   },
+   "ever-gauzy": {
+    "full_name": "ever-co/ever-gauzy",
+    "stars": 8355,
+    "forks": 1237,
+    "open_issues": 438,
+    "pushed": "2026-10-13"
+   },
+   "frappe-crm": {
+    "full_name": "frappe/crm",
+    "stars": 3783,
+    "forks": 1519,
+    "open_issues": 261,
+    "pushed": "2026-10-12"
+   },
+   "ghost": {
+    "full_name": "TryGhost/Ghost",
+    "stars": 55524,
+    "forks": 11989,
+    "open_issues": 187,
+    "pushed": "2026-10-13"
+   },
+   "google-meta-ads-ga4-mcp": {
+    "full_name": "irinabuht12-oss/google-meta-ads-ga4-mcp",
+    "stars": 4685,
+    "forks": 367,
+    "open_issues": 2,
+    "pushed": "2026-10-12"
+   },
+   "growth-lab": {
+    "full_name": "tsingyuai/growth-lab",
+    "stars": 2000,
+    "forks": 172,
+    "open_issues": 0,
+    "pushed": "2026-09-28"
+   },
+   "idurar-erp-crm": {
+    "full_name": "idurar/idurar-erp-crm",
+    "stars": 8880,
+    "forks": 3141,
+    "open_issues": 485,
+    "pushed": "2026-08-14"
+   },
+   "krayin-crm": {
+    "full_name": "krayin/laravel-crm",
+    "stars": 23999,
+    "forks": 1664,
+    "open_issues": 117,
+    "pushed": "2026-10-09"
+   },
+   "langchain": {
+    "full_name": "langchain-ai/langchain",
+    "stars": 147717,
+    "forks": 24773,
+    "open_issues": 640,
+    "pushed": "2026-10-12"
+   },
+   "laudspeaker": {
+    "full_name": "laudspeaker/laudspeaker",
+    "stars": 2628,
+    "forks": 205,
+    "open_issues": 36,
+    "pushed": "2026-07-10"
+   },
+   "line-harness": {
+    "full_name": "Shudesu/line-harness-oss",
+    "stars": 601,
+    "forks": 404,
+    "open_issues": 63,
+    "pushed": "2026-10-12"
+   },
+   "listmonk": {
+    "full_name": "knadh/listmonk",
+    "stars": 23768,
+    "forks": 2669,
+    "open_issues": 108,
+    "pushed": "2026-10-12"
+   },
+   "macro": {
+    "full_name": "macro-inc/macro",
+    "stars": 4651,
+    "forks": 451,
+    "open_issues": 257,
+    "pushed": "2026-10-13"
+   },
+   "maizzle": {
+    "full_name": "maizzle/maizzle",
+    "stars": 2864,
+    "forks": 72,
+    "open_issues": 0,
+    "pushed": "2026-06-16"
+   },
+   "marketing-studio": {
+    "full_name": "ucsandman/marketing-studio",
+    "stars": 252,
+    "forks": 33,
+    "open_issues": 1,
+    "pushed": "2026-09-06"
+   },
+   "matomo": {
+    "full_name": "matomo-org/matomo",
+    "stars": 21950,
+    "forks": 2912,
+    "open_issues": 2536,
+    "pushed": "2026-10-13"
+   },
+   "mautic": {
+    "full_name": "mautic/mautic",
+    "stars": 10752,
+    "forks": 3492,
+    "open_issues": 282,
+    "pushed": "2026-10-12"
+   },
+   "monica": {
+    "full_name": "monicahq/monica",
+    "stars": 25475,
+    "forks": 2620,
+    "open_issues": 791,
+    "pushed": "2026-09-24"
+   },
+   "multipost-extension": {
+    "full_name": "leaperone/MultiPost-Extension",
+    "stars": 3632,
+    "forks": 420,
+    "open_issues": 23,
+    "pushed": "2026-10-06"
+   },
+   "n8n": {
+    "full_name": "n8n-io/n8n",
+    "stars": 207159,
+    "forks": 61107,
+    "open_issues": 1180,
+    "pushed": "2026-10-13"
+   },
+   "n8n-marketing-flows": {
+    "full_name": "YuriCrystal/n8n-marketing-flows",
+    "stars": 180,
+    "forks": 51,
+    "open_issues": 0,
+    "pushed": "2026-06-27"
+   },
+   "nocobase": {
+    "full_name": "nocobase/nocobase",
+    "stars": 24557,
+    "forks": 2911,
+    "open_issues": 361,
+    "pushed": "2026-10-13"
+   },
+   "nocodb": {
+    "full_name": "nocodb/nocodb",
+    "stars": 65258,
+    "forks": 5083,
+    "open_issues": 706,
+    "pushed": "2026-10-13"
+   },
+   "notifo": {
+    "full_name": "notifo-io/notifo",
+    "stars": 881,
+    "forks": 83,
+    "open_issues": 19,
+    "pushed": "2026-09-20"
+   },
+   "notifuse": {
+    "full_name": "Notifuse/notifuse",
+    "stars": 2245,
+    "forks": 235,
+    "open_issues": 21,
+    "pushed": "2026-09-30"
+   },
+   "open-mercato": {
+    "full_name": "open-mercato/open-mercato",
+    "stars": 1848,
+    "forks": 453,
+    "open_issues": 1371,
+    "pushed": "2026-10-12"
+   },
+   "openclaw-marketing-skills": {
+    "full_name": "LeoYeAI/openclaw-marketing-skills",
+    "stars": 1044,
+    "forks": 379,
+    "open_issues": 2,
+    "pushed": "2026-06-02"
+   },
+   "openoutreach": {
+    "full_name": "eracle/OpenOutreach",
+    "stars": 3255,
+    "forks": 597,
+    "open_issues": 0,
+    "pushed": "2026-10-12"
+   },
+   "openseo": {
+    "full_name": "every-app/open-seo",
+    "stars": 23347,
+    "forks": 3075,
+    "open_issues": 245,
+    "pushed": "2026-10-08"
+   },
+   "paperclip": {
+    "full_name": "paperclipai/paperclip",
+    "stars": 101041,
+    "forks": 16980,
+    "open_issues": 6014,
+    "pushed": "2026-10-13"
+   },
+   "plausible": {
+    "full_name": "plausible/analytics",
+    "stars": 29381,
+    "forks": 1894,
+    "open_issues": 69,
+    "pushed": "2026-10-12"
+   },
+   "potato-ai-visibility": {
+    "full_name": "onism1767-creator/potato",
+    "stars": 166,
+    "forks": 7,
+    "open_issues": 0,
+    "pushed": "2026-06-22"
+   },
+   "prospectos": {
+    "full_name": "nando0x/ProspectOS",
+    "stars": 230,
+    "forks": 45,
+    "open_issues": 4,
+    "pushed": "2026-07-27"
+   },
+   "react-email-editor": {
+    "full_name": "unlayer/react-email-editor",
+    "stars": 5240,
+    "forks": 804,
+    "open_issues": 246,
+    "pushed": "2026-10-12"
+   },
+   "relaticle": {
+    "full_name": "relaticle/relaticle",
+    "stars": 1763,
+    "forks": 218,
+    "open_issues": 29,
+    "pushed": "2026-10-12"
+   },
+   "resend": {
+    "full_name": "resend/react-email",
+    "stars": 19834,
+    "forks": 1092,
+    "open_issues": 36,
+    "pushed": "2026-10-08"
+   },
+   "seo-skill-bench": {
+    "full_name": "aleclindz/seo-skill-bench",
+    "stars": 51,
+    "forks": 1,
+    "open_issues": 0,
+    "pushed": "2026-08-21"
+   },
+   "seonaut": {
+    "full_name": "StJudeWasHere/seonaut",
+    "stars": 807,
+    "forks": 135,
+    "open_issues": 9,
+    "pushed": "2026-10-08"
+   },
+   "snowplow": {
+    "full_name": "snowplow/snowplow",
+    "stars": 7037,
+    "forks": 1171,
+    "open_issues": 59,
+    "pushed": "2026-06-26"
+   },
+   "strapi": {
+    "full_name": "strapi/strapi",
+    "stars": 73298,
+    "forks": 9878,
+    "open_issues": 595,
+    "pushed": "2026-10-13"
+   },
+   "suitecrm": {
+    "full_name": "SuiteCRM/SuiteCRM",
+    "stars": 5795,
+    "forks": 2430,
+    "open_issues": 1393,
+    "pushed": "2026-10-07"
+   },
+   "tooljet": {
+    "full_name": "ToolJet/ToolJet",
+    "stars": 41089,
+    "forks": 5497,
+    "open_issues": 843,
+    "pushed": "2026-10-13"
+   },
+   "twenty": {
+    "full_name": "twentyhq/twenty",
+    "stars": 58261,
+    "forks": 9516,
+    "open_issues": 135,
+    "pushed": "2026-10-13"
+   },
+   "umami": {
+    "full_name": "umami-software/umami",
+    "stars": 39341,
+    "forks": 8281,
+    "open_issues": 121,
+    "pushed": "2026-10-13"
+   },
+   "wacrm": {
+    "full_name": "ArnasDon/wacrm",
+    "stars": 2545,
+    "forks": 6509,
+    "open_issues": 9,
+    "pushed": "2026-10-07"
+   },
+   "warpdrive": {
+    "full_name": "sneg55/warpdrive",
+    "stars": 76,
+    "forks": 5,
+    "open_issues": 0,
+    "pushed": "2026-10-03"
+   },
+   "zapier-gtm-cheat-codes": {
+    "full_name": "zapier/gtm-cheat-codes",
+    "stars": 342,
+    "forks": 22,
+    "open_issues": 0,
+    "pushed": "2026-07-13"
+   },
+   "warmbly": {
+    "full_name": "warmbly/warmbly",
+    "stars": 418,
+    "forks": 89,
+    "open_issues": 6,
+    "pushed": "2026-10-12"
+   },
+   "jitsu": {
+    "full_name": "jitsucom/jitsu",
+    "stars": 5107,
+    "forks": 402,
+    "open_issues": 47,
+    "pushed": "2026-10-12"
+   },
+   "rudderstack": {
+    "full_name": "rudderlabs/rudder-server",
+    "stars": 4498,
+    "forks": 77,
+    "open_issues": 43,
+    "pushed": "2026-10-13"
+   },
+   "apache-unomi": {
+    "full_name": "apache/unomi",
+    "stars": 378,
+    "forks": 147,
+    "open_issues": 11,
+    "pushed": "2026-10-12"
+   },
+   "growthbook": {
+    "full_name": "growthbook/growthbook",
+    "stars": 8496,
+    "forks": 876,
+    "open_issues": 833,
+    "pushed": "2026-10-13"
+   },
+   "flagsmith": {
+    "full_name": "Flagsmith/flagsmith",
+    "stars": 6591,
+    "forks": 582,
+    "open_issues": 742,
+    "pushed": "2026-10-12"
+   },
+   "languagetool": {
+    "full_name": "languagetool-org/LanguageTool",
+    "stars": 15125,
+    "forks": 1587,
+    "open_issues": 2153,
+    "pushed": "2026-10-12"
+   },
+   "khoj": {
+    "full_name": "khoj-ai/khoj",
+    "stars": 37665,
+    "forks": 2509,
+    "open_issues": 168,
+    "pushed": "2026-08-02"
+   },
+   "libretranslate": {
+    "full_name": "LibreTranslate/LibreTranslate",
+    "stars": 17064,
+    "forks": 1775,
+    "open_issues": 128,
+    "pushed": "2026-10-12"
+   },
+   "posthog": {
+    "full_name": "PostHog/posthog",
+    "stars": 40247,
+    "forks": 3506,
+    "open_issues": 5570,
+    "pushed": "2026-10-13"
+   },
+   "revive-adserver": {
+    "full_name": "revive-adserver/revive-adserver",
+    "stars": 1509,
+    "forks": 613,
+    "open_issues": 159,
+    "pushed": "2026-10-12"
+   },
+   "advertools": {
+    "full_name": "eliasdabbas/advertools",
+    "stars": 1477,
+    "forks": 259,
+    "open_issues": 5,
+    "pushed": "2026-06-30"
+   },
+   "promptfoo": {
+    "full_name": "promptfoo/promptfoo",
+    "stars": 25949,
+    "forks": 2470,
+    "open_issues": 710,
+    "pushed": "2026-10-13"
+   },
+   "activepieces": {
+    "full_name": "activepieces/activepieces",
+    "stars": 25025,
+    "forks": 4330,
+    "open_issues": 706,
+    "pushed": "2026-10-12"
+   },
+   "ai-marketing-claude": {
+    "full_name": "zubair-trabzada/ai-marketing-claude",
+    "stars": 2745,
+    "forks": 716,
+    "open_issues": 6,
+    "pushed": "2026-03-02"
+   },
+   "digital-marketing-pro": {
+    "full_name": "indranilbanerjee/digital-marketing-pro",
+    "stars": 872,
+    "forks": 139,
+    "open_issues": 0,
+    "pushed": "2026-10-11"
+   },
+   "marketingskills": {
+    "full_name": "coreyhaines31/marketingskills",
+    "stars": 54403,
+    "forks": 8074,
+    "open_issues": 57,
+    "pushed": "2026-10-13"
+   },
+   "instagram-skills": {
+    "full_name": "sergebulaev/instagram-skills",
+    "stars": 386,
+    "forks": 88,
+    "open_issues": 3,
+    "pushed": "2026-10-07"
+   }
+  }
+ },
+ {
+  "date": "2026-10-14",
+  "repos": {
+   "aaron-marketing-skills": {
+    "full_name": "aaron-he-zhu/aaron-marketing-skills",
+    "stars": 2945,
+    "forks": 378,
+    "open_issues": 0,
+    "pushed": "2026-10-14"
+   },
+   "ai-business-skills": {
+    "full_name": "minhnv0807/ai-business-skills",
+    "stars": 613,
+    "forks": 229,
+    "open_issues": 3,
+    "pushed": "2026-09-12"
+   },
+   "alphone": {
+    "full_name": "gopherium/AlphOne",
+    "stars": 283,
+    "forks": 64,
+    "open_issues": 36,
+    "pushed": "2026-10-13"
+   },
+   "alwrity": {
+    "full_name": "ALwrity/ALwrity",
+    "stars": 1190,
+    "forks": 332,
+    "open_issues": 115,
+    "pushed": "2026-10-05"
+   },
+   "analytics-tracking-automation": {
+    "full_name": "jtrackingai/analytics-tracking-automation",
+    "stars": 142,
+    "forks": 41,
+    "open_issues": 1,
+    "pushed": "2026-04-29"
+   },
+   "appsmith": {
+    "full_name": "appsmithorg/appsmith",
+    "stars": 41060,
+    "forks": 4806,
+    "open_issues": 4511,
+    "pushed": "2026-10-14"
+   },
+   "billionmail": {
+    "full_name": "Billionmail/BillionMail",
+    "stars": 15902,
+    "forks": 1750,
+    "open_issues": 244,
+    "pushed": "2026-06-11"
+   },
+   "budibase": {
+    "full_name": "budibase/budibase",
+    "stars": 28333,
+    "forks": 2231,
+    "open_issues": 272,
+    "pushed": "2026-10-13"
+   },
+   "chatbotx": {
+    "full_name": "ChatbotXIO/ChatbotX",
+    "stars": 903,
+    "forks": 257,
+    "open_issues": 63,
+    "pushed": "2026-10-14"
+   },
+   "chatwoot": {
+    "full_name": "chatwoot/chatwoot",
+    "stars": 37764,
+    "forks": 9199,
+    "open_issues": 1587,
+    "pushed": "2026-10-14"
+   },
+   "claude-ads": {
+    "full_name": "AgriciDaniel/claude-ads",
+    "stars": 9962,
+    "forks": 1472,
+    "open_issues": 27,
+    "pushed": "2026-10-07"
+   },
+   "claude-seo": {
+    "full_name": "AgriciDaniel/claude-seo",
+    "stars": 18878,
+    "forks": 2759,
+    "open_issues": 37,
+    "pushed": "2026-10-04"
+   },
+   "codex-seo": {
+    "full_name": "AgriciDaniel/codex-seo",
+    "stars": 810,
+    "forks": 113,
+    "open_issues": 27,
+    "pushed": "2026-09-11"
+   },
+   "cordys-crm": {
+    "full_name": "1Panel-dev/CordysCRM",
+    "stars": 2784,
+    "forks": 574,
+    "open_issues": 56,
+    "pushed": "2026-10-14"
+   },
+   "deskcommcrm": {
+    "full_name": "melgarafael/DeskcommCRM",
+    "stars": 4570,
+    "forks": 1230,
+    "open_issues": 340,
+    "pushed": "2026-10-13"
+   },
+   "diffmode-growth-tactics": {
+    "full_name": "acogood/diffmode_free",
+    "stars": 165,
+    "forks": 0,
+    "open_issues": 0,
+    "pushed": "2026-08-10"
+   },
+   "django-crm": {
+    "full_name": "Django-CRM/Django-CRM",
+    "stars": 2447,
+    "forks": 1057,
+    "open_issues": 89,
+    "pushed": "2026-10-02"
+   },
+   "dolibarr": {
+    "full_name": "Dolibarr/dolibarr",
+    "stars": 7727,
+    "forks": 3568,
+    "open_issues": 957,
+    "pushed": "2026-10-14"
+   },
+   "email-marketing-bible": {
+    "full_name": "CosmoBlk/email-marketing-bible",
+    "stars": 338,
+    "forks": 40,
+    "open_issues": 1,
+    "pushed": "2026-10-13"
+   },
+   "espocrm": {
+    "full_name": "espocrm/espocrm",
+    "stars": 3485,
+    "forks": 1000,
+    "open_issues": 63,
+    "pushed": "2026-10-13"
+   },
+   "eve-marketing-team": {
+    "full_name": "vercel-labs/marketing-team-eve-template",
+    "stars": 452,
+    "forks": 25,
+    "open_issues": 1,
+    "pushed": "2026-10-07"
+   },
+   "ever-gauzy": {
+    "full_name": "ever-co/ever-gauzy",
+    "stars": 8363,
+    "forks": 1238,
+    "open_issues": 457,
+    "pushed": "2026-10-14"
+   },
+   "frappe-crm": {
+    "full_name": "frappe/crm",
+    "stars": 3784,
+    "forks": 1522,
+    "open_issues": 269,
+    "pushed": "2026-10-13"
+   },
+   "ghost": {
+    "full_name": "TryGhost/Ghost",
+    "stars": 55531,
+    "forks": 11993,
+    "open_issues": 197,
+    "pushed": "2026-10-14"
+   },
+   "google-meta-ads-ga4-mcp": {
+    "full_name": "irinabuht12-oss/google-meta-ads-ga4-mcp",
+    "stars": 4735,
+    "forks": 366,
+    "open_issues": 2,
+    "pushed": "2026-10-12"
+   },
+   "growth-lab": {
+    "full_name": "tsingyuai/growth-lab",
+    "stars": 1991,
+    "forks": 172,
+    "open_issues": 0,
+    "pushed": "2026-09-28"
+   },
+   "idurar-erp-crm": {
+    "full_name": "idurar/idurar-erp-crm",
+    "stars": 8879,
+    "forks": 3143,
+    "open_issues": 485,
+    "pushed": "2026-08-14"
+   },
+   "krayin-crm": {
+    "full_name": "krayin/laravel-crm",
+    "stars": 24004,
+    "forks": 1665,
+    "open_issues": 117,
+    "pushed": "2026-10-13"
+   },
+   "langchain": {
+    "full_name": "langchain-ai/langchain",
+    "stars": 147800,
+    "forks": 24788,
+    "open_issues": 641,
+    "pushed": "2026-10-13"
+   },
+   "laudspeaker": {
+    "full_name": "laudspeaker/laudspeaker",
+    "stars": 2629,
+    "forks": 205,
+    "open_issues": 36,
+    "pushed": "2026-07-10"
+   },
+   "line-harness": {
+    "full_name": "Shudesu/line-harness-oss",
+    "stars": 602,
+    "forks": 403,
+    "open_issues": 63,
+    "pushed": "2026-10-12"
+   },
+   "listmonk": {
+    "full_name": "knadh/listmonk",
+    "stars": 23776,
+    "forks": 2674,
+    "open_issues": 107,
+    "pushed": "2026-10-14"
+   },
+   "macro": {
+    "full_name": "macro-inc/macro",
+    "stars": 4666,
+    "forks": 454,
+    "open_issues": 275,
+    "pushed": "2026-10-14"
+   },
+   "maizzle": {
+    "full_name": "maizzle/maizzle",
+    "stars": 2863,
+    "forks": 72,
+    "open_issues": 0,
+    "pushed": "2026-06-16"
+   },
+   "marketing-studio": {
+    "full_name": "ucsandman/marketing-studio",
+    "stars": 252,
+    "forks": 33,
+    "open_issues": 1,
+    "pushed": "2026-09-06"
+   },
+   "matomo": {
+    "full_name": "matomo-org/matomo",
+    "stars": 21953,
+    "forks": 2914,
+    "open_issues": 2541,
+    "pushed": "2026-10-14"
+   },
+   "mautic": {
+    "full_name": "mautic/mautic",
+    "stars": 10760,
+    "forks": 3495,
+    "open_issues": 291,
+    "pushed": "2026-10-13"
+   },
+   "monica": {
+    "full_name": "monicahq/monica",
+    "stars": 25480,
+    "forks": 2622,
+    "open_issues": 791,
+    "pushed": "2026-09-24"
+   },
+   "multipost-extension": {
+    "full_name": "leaperone/MultiPost-Extension",
+    "stars": 3641,
+    "forks": 420,
+    "open_issues": 23,
+    "pushed": "2026-10-06"
+   },
+   "n8n": {
+    "full_name": "n8n-io/n8n",
+    "stars": 207286,
+    "forks": 61124,
+    "open_issues": 1180,
+    "pushed": "2026-10-14"
+   },
+   "n8n-marketing-flows": {
+    "full_name": "YuriCrystal/n8n-marketing-flows",
+    "stars": 180,
+    "forks": 51,
+    "open_issues": 0,
+    "pushed": "2026-06-27"
+   },
+   "nocobase": {
+    "full_name": "nocobase/nocobase",
+    "stars": 24571,
+    "forks": 2911,
+    "open_issues": 362,
+    "pushed": "2026-10-14"
+   },
+   "nocodb": {
+    "full_name": "nocodb/nocodb",
+    "stars": 65269,
+    "forks": 5086,
+    "open_issues": 706,
+    "pushed": "2026-10-13"
+   },
+   "notifo": {
+    "full_name": "notifo-io/notifo",
+    "stars": 881,
+    "forks": 83,
+    "open_issues": 19,
+    "pushed": "2026-09-20"
+   },
+   "notifuse": {
+    "full_name": "Notifuse/notifuse",
+    "stars": 2245,
+    "forks": 235,
+    "open_issues": 20,
+    "pushed": "2026-09-30"
+   },
+   "open-mercato": {
+    "full_name": "open-mercato/open-mercato",
+    "stars": 1852,
+    "forks": 454,
+    "open_issues": 1455,
+    "pushed": "2026-10-14"
+   },
+   "openclaw-marketing-skills": {
+    "full_name": "LeoYeAI/openclaw-marketing-skills",
+    "stars": 1044,
+    "forks": 379,
+    "open_issues": 2,
+    "pushed": "2026-06-02"
+   },
+   "openoutreach": {
+    "full_name": "eracle/OpenOutreach",
+    "stars": 3261,
+    "forks": 601,
+    "open_issues": 0,
+    "pushed": "2026-10-13"
+   },
+   "openseo": {
+    "full_name": "every-app/open-seo",
+    "stars": 23500,
+    "forks": 3107,
+    "open_issues": 210,
+    "pushed": "2026-10-08"
+   },
+   "paperclip": {
+    "full_name": "paperclipai/paperclip",
+    "stars": 101641,
+    "forks": 17045,
+    "open_issues": 6075,
+    "pushed": "2026-10-14"
+   },
+   "plausible": {
+    "full_name": "plausible/analytics",
+    "stars": 29393,
+    "forks": 1898,
+    "open_issues": 71,
+    "pushed": "2026-10-13"
+   },
+   "potato-ai-visibility": {
+    "full_name": "onism1767-creator/potato",
+    "stars": 166,
+    "forks": 7,
+    "open_issues": 0,
+    "pushed": "2026-06-22"
+   },
+   "prospectos": {
+    "full_name": "nando0x/ProspectOS",
+    "stars": 231,
+    "forks": 45,
+    "open_issues": 4,
+    "pushed": "2026-07-27"
+   },
+   "react-email-editor": {
+    "full_name": "unlayer/react-email-editor",
+    "stars": 5242,
+    "forks": 804,
+    "open_issues": 246,
+    "pushed": "2026-10-12"
+   },
+   "relaticle": {
+    "full_name": "relaticle/relaticle",
+    "stars": 1764,
+    "forks": 220,
+    "open_issues": 27,
+    "pushed": "2026-10-13"
+   },
+   "resend": {
+    "full_name": "resend/react-email",
+    "stars": 19838,
+    "forks": 1093,
+    "open_issues": 36,
+    "pushed": "2026-10-08"
+   },
+   "seo-skill-bench": {
+    "full_name": "aleclindz/seo-skill-bench",
+    "stars": 51,
+    "forks": 1,
+    "open_issues": 0,
+    "pushed": "2026-08-21"
+   },
+   "seonaut": {
+    "full_name": "StJudeWasHere/seonaut",
+    "stars": 806,
+    "forks": 136,
+    "open_issues": 9,
+    "pushed": "2026-10-08"
+   },
+   "snowplow": {
+    "full_name": "snowplow/snowplow",
+    "stars": 7039,
+    "forks": 1171,
+    "open_issues": 59,
+    "pushed": "2026-06-26"
+   },
+   "strapi": {
+    "full_name": "strapi/strapi",
+    "stars": 73301,
+    "forks": 9882,
+    "open_issues": 599,
+    "pushed": "2026-10-14"
+   },
+   "suitecrm": {
+    "full_name": "SuiteCRM/SuiteCRM",
+    "stars": 5796,
+    "forks": 2431,
+    "open_issues": 1393,
+    "pushed": "2026-10-07"
+   },
+   "tooljet": {
+    "full_name": "ToolJet/ToolJet",
+    "stars": 41090,
+    "forks": 5497,
+    "open_issues": 851,
+    "pushed": "2026-10-14"
+   },
+   "twenty": {
+    "full_name": "twentyhq/twenty",
+    "stars": 58299,
+    "forks": 9526,
+    "open_issues": 132,
+    "pushed": "2026-10-14"
+   },
+   "umami": {
+    "full_name": "umami-software/umami",
+    "stars": 39354,
+    "forks": 8295,
+    "open_issues": 96,
+    "pushed": "2026-10-13"
+   },
+   "wacrm": {
+    "full_name": "ArnasDon/wacrm",
+    "stars": 2547,
+    "forks": 6521,
+    "open_issues": 15,
+    "pushed": "2026-10-13"
+   },
+   "warpdrive": {
+    "full_name": "sneg55/warpdrive",
+    "stars": 76,
+    "forks": 5,
+    "open_issues": 0,
+    "pushed": "2026-10-03"
+   },
+   "zapier-gtm-cheat-codes": {
+    "full_name": "zapier/gtm-cheat-codes",
+    "stars": 342,
+    "forks": 22,
+    "open_issues": 0,
+    "pushed": "2026-07-13"
+   },
+   "warmbly": {
+    "full_name": "warmbly/warmbly",
+    "stars": 430,
+    "forks": 90,
+    "open_issues": 14,
+    "pushed": "2026-10-14"
+   },
+   "jitsu": {
+    "full_name": "jitsucom/jitsu",
+    "stars": 5106,
+    "forks": 402,
+    "open_issues": 43,
+    "pushed": "2026-10-13"
+   },
+   "rudderstack": {
+    "full_name": "rudderlabs/rudder-server",
+    "stars": 4497,
+    "forks": 78,
+    "open_issues": 45,
+    "pushed": "2026-10-13"
+   },
+   "apache-unomi": {
+    "full_name": "apache/unomi",
+    "stars": 378,
+    "forks": 147,
+    "open_issues": 11,
+    "pushed": "2026-10-13"
+   },
+   "growthbook": {
+    "full_name": "growthbook/growthbook",
+    "stars": 8497,
+    "forks": 876,
+    "open_issues": 829,
+    "pushed": "2026-10-14"
+   },
+   "flagsmith": {
+    "full_name": "Flagsmith/flagsmith",
+    "stars": 6590,
+    "forks": 583,
+    "open_issues": 744,
+    "pushed": "2026-10-14"
+   },
+   "languagetool": {
+    "full_name": "languagetool-org/LanguageTool",
+    "stars": 15127,
+    "forks": 1587,
+    "open_issues": 2153,
+    "pushed": "2026-10-13"
+   },
+   "khoj": {
+    "full_name": "khoj-ai/khoj",
+    "stars": 37676,
+    "forks": 2511,
+    "open_issues": 168,
+    "pushed": "2026-08-02"
+   },
+   "libretranslate": {
+    "full_name": "LibreTranslate/LibreTranslate",
+    "stars": 17069,
+    "forks": 1777,
+    "open_issues": 128,
+    "pushed": "2026-10-12"
+   },
+   "posthog": {
+    "full_name": "PostHog/posthog",
+    "stars": 40270,
+    "forks": 3508,
+    "open_issues": 5549,
+    "pushed": "2026-10-14"
+   },
+   "revive-adserver": {
+    "full_name": "revive-adserver/revive-adserver",
+    "stars": 1510,
+    "forks": 613,
+    "open_issues": 159,
+    "pushed": "2026-10-12"
+   },
+   "advertools": {
+    "full_name": "eliasdabbas/advertools",
+    "stars": 1476,
+    "forks": 259,
+    "open_issues": 5,
+    "pushed": "2026-06-30"
+   },
+   "promptfoo": {
+    "full_name": "promptfoo/promptfoo",
+    "stars": 25983,
+    "forks": 2475,
+    "open_issues": 712,
+    "pushed": "2026-10-14"
+   },
+   "activepieces": {
+    "full_name": "activepieces/activepieces",
+    "stars": 25041,
+    "forks": 4338,
+    "open_issues": 705,
+    "pushed": "2026-10-14"
+   },
+   "ai-marketing-claude": {
+    "full_name": "zubair-trabzada/ai-marketing-claude",
+    "stars": 2753,
+    "forks": 718,
+    "open_issues": 6,
+    "pushed": "2026-03-02"
+   },
+   "digital-marketing-pro": {
+    "full_name": "indranilbanerjee/digital-marketing-pro",
+    "stars": 882,
+    "forks": 141,
+    "open_issues": 0,
+    "pushed": "2026-10-11"
+   },
+   "marketingskills": {
+    "full_name": "coreyhaines31/marketingskills",
+    "stars": 54591,
+    "forks": 8100,
+    "open_issues": 19,
+    "pushed": "2026-10-14"
+   },
+   "instagram-skills": {
+    "full_name": "sergebulaev/instagram-skills",
+    "stars": 400,
+    "forks": 91,
+    "open_issues": 3,
+    "pushed": "2026-10-07"
+   }
+  }
  }
 ]

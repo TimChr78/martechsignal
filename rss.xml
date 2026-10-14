@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 05:07:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 08:15:02 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Where the manual work still hides in your marketing automation</title>
+      <link>https://martechsignal.com/blog/where-manual-work-hides-marketing-automation/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/where-manual-work-hides-marketing-automation/</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Building the campaign is the fast part. In a recent r/MarketingAutomation thread, a CRM and lifecycle marketer put it plainly: "setting up the actual automation is rarely the part…</description>
+    </item>
     <item>
       <title>Amazon's Ad Agents Come With Instructions. Google's Came With Promises.</title>
       <link>https://martechsignal.com/blog/amazon-agentic-ad-formats-brand-controls/</link>

@@ -58,14 +58,14 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Mautic - 10,749 stars, +363 in the 49-snapshot window to 2026-10-12 10,386→10,749 [verify on GitHub](https://github.com/mautic/mautic)
-- Listmonk - 23,753 stars, +632 in the 49-snapshot window to 2026-10-12 23,121→23,753 [verify on GitHub](https://github.com/knadh/listmonk)
-- Laudspeaker - 2,628 stars, +10 in the 49-snapshot window to 2026-10-12 2,618→2,628 [verify on GitHub](https://github.com/laudspeaker/laudspeaker)
-- SuiteCRM - 5,793 stars, +103 in the 49-snapshot window to 2026-10-12 5,690→5,793 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
-- n8n - 207,039 stars, +4,636 in the 49-snapshot window to 2026-10-12 202,403→207,039 [verify on GitHub](https://github.com/n8n-io/n8n)
-- Matomo - 21,946 stars, +141 in the 49-snapshot window to 2026-10-12 21,805→21,946 [verify on GitHub](https://github.com/matomo-org/matomo)
-- Twenty - 58,223 stars, +2,698 in the 49-snapshot window to 2026-10-12 55,525→58,223 [verify on GitHub](https://github.com/twentyhq/twenty)
-- OpenOutreach - 3,240 stars, +422 in the 49-snapshot window to 2026-10-12 2,818→3,240 [verify on GitHub](https://github.com/eracle/OpenOutreach)
+- Mautic - 10,760 stars, +374 in the 51-snapshot window to 2026-10-14 10,386→10,760 [verify on GitHub](https://github.com/mautic/mautic)
+- Listmonk - 23,776 stars, +655 in the 51-snapshot window to 2026-10-14 23,121→23,776 [verify on GitHub](https://github.com/knadh/listmonk)
+- Laudspeaker - 2,629 stars, +11 in the 51-snapshot window to 2026-10-14 2,618→2,629 [verify on GitHub](https://github.com/laudspeaker/laudspeaker)
+- SuiteCRM - 5,796 stars, +106 in the 51-snapshot window to 2026-10-14 5,690→5,796 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
+- n8n - 207,286 stars, +4,883 in the 51-snapshot window to 2026-10-14 202,403→207,286 [verify on GitHub](https://github.com/n8n-io/n8n)
+- Matomo - 21,953 stars, +148 in the 51-snapshot window to 2026-10-14 21,805→21,953 [verify on GitHub](https://github.com/matomo-org/matomo)
+- Twenty - 58,299 stars, +2,774 in the 51-snapshot window to 2026-10-14 55,525→58,299 [verify on GitHub](https://github.com/twentyhq/twenty)
+- OpenOutreach - 3,261 stars, +443 in the 51-snapshot window to 2026-10-14 2,818→3,261 [verify on GitHub](https://github.com/eracle/OpenOutreach)
 [All movers on the trending page](/trending/).
 
 ## [Mautic](/tools/mautic/)
