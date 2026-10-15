@@ -541,7 +541,7 @@
  },
  "index.html": {
   "dm": "2026-10-15",
-  "sig": "34bcfa301c48a8e5"
+  "sig": "d751d6221612be02"
  },
  "methodology/index.html": {
   "dm": "2026-10-06",
@@ -1122,6 +1122,10 @@
  "tools/sendgrid/index.html": {
   "dm": "2026-08-28",
   "sig": "2882fcd9930e5847"
+ },
+ "tools/sendportal/index.html": {
+  "dm": "2026-10-15",
+  "sig": "a2202078391a35ef"
  },
  "tools/seo-skill-bench/index.html": {
   "dm": "2026-09-03",
