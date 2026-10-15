@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - DeskcommCRM
-Re-check pending: pricing last verified 2026-09-14 (30 days ago).
+Re-check pending: pricing last verified 2026-09-14 (31 days ago).
 
 ## DeskcommCRM review (2026): pricing, AI features, verdict
 

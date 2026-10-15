@@ -8,6 +8,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### Who eats the spending gap when agentic spend outpaces proof?
+
+Last week this blog walked the rogue agents debate to a flat conclusion: your agent did not go rogue, your configuration did what it was configured to allow. That sentence is…
+
 ### Where the manual work still hides in your marketing automation
 
 Building the campaign is the fast part. In a recent r/MarketingAutomation thread, a CRM and lifecycle marketer put it plainly: "setting up the actual automation is rarely the part…
@@ -19,10 +23,6 @@ Two stories ran on AdExchanger the same day, September 29. James Hercher covered
 ### Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts
 
 In four days last week, the agent safety debate produced four answers that cannot all be true. OpenAI paused training of its latest models. A columnist argued the "rogue agents"…
-
-### Braze moved AI from content to campaign operations: who approves when the campaign runs itself
-
-At its Forge conference in Las Vegas, Braze announced three products that move AI out of the copy editor and into campaign operations: BrazeAI Decisioning Studio Go, Agentic…
 
 ## Tool index
 

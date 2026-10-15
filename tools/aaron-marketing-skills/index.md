@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Aaron Marketing Skills
-Re-check pending: pricing last verified 2026-08-28 (47 days ago).
+Re-check pending: pricing last verified 2026-08-28 (48 days ago).
 
 ## Aaron Marketing Skills review (2026): pricing, AI features, verdict
 

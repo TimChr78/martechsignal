@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Open Mercato
-Re-check pending: pricing last verified 2026-09-07 (37 days ago).
+Re-check pending: pricing last verified 2026-09-07 (38 days ago).
 
 ## Open Mercato review (2026): pricing, AI features, verdict
 

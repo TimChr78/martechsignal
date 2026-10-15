@@ -215,6 +215,7 @@
 
 ## Analysis
 
+- [Who eats the spending gap when agentic spend outpaces proof?](https://martechsignal.com/blog/who-eats-the-spending-gap-agentic-proof/) (2026-10-15)
 - [Where manual work hides in marketing automation](https://martechsignal.com/blog/where-manual-work-hides-marketing-automation/) (2026-10-14)
 - [Amazon's Agentic Ads Ship With Brand Controls](https://martechsignal.com/blog/amazon-agentic-ad-formats-brand-controls/) (2026-10-09)
 - [Rogue agents, watchdog chips, nobody accountable](https://martechsignal.com/blog/rogue-ai-agents-trust-debate/) (2026-10-08)

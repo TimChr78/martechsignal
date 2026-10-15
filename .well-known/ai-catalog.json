@@ -2842,6 +2842,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:who-eats-the-spending-gap-agentic-proof",
+   "displayName": "Who eats the spending gap when agentic spend outpaces proof?",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/who-eats-the-spending-gap-agentic-proof/",
+   "description": "The proof gap: spend committed while evidence is still pending. Four mechanisms, a per-run metering ledger, and who owns the miss.",
+   "representativeQueries": [
+    "who eats the spending gap when agentic spend outpaces proof?",
+    "who eats the spending gap agentic proof"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:why-your-marketing-automation-stack-doesnt-need-another-ai-tool",
    "displayName": "Why Your Marketing Stack Doesn't Need Another AI Tool",
    "type": "text/html",

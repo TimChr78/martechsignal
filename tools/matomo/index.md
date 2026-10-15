@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Matomo
-Re-check pending: pricing last verified 2026-09-06 (38 days ago).
+Re-check pending: pricing last verified 2026-09-06 (39 days ago).
 
 ## Matomo review (2026): pricing, AI features, verdict
 
