@@ -10101,5 +10101,74 @@
   },
   "currency": "USD",
   "github_checked": "2026-10-14"
+ },
+ {
+  "slug": "sendportal",
+  "name": "SendPortal",
+  "tagline": "Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server",
+  "website": "https://sendportal.io",
+  "category": "email-marketing",
+  "pricing_model": "open-source",
+  "pricing_url": "https://github.com/mettle/sendportal",
+  "price_from": 0,
+  "price_notes": "Free to self-host under MIT, with unlimited subscribers, campaigns, users and workspaces. No official hosted tier; you pay for your own PHP 8.3+ server plus an email provider (SES, Mailgun, SendGrid, Postmark, Mailjet, Postal or SMTP). SES is the cheapest route at $0.10 per 1,000 emails.",
+  "ai_features": [],
+  "integrations": [
+   "Amazon SES",
+   "Mailgun",
+   "SendGrid",
+   "Postmark",
+   "Mailjet",
+   "Postal",
+   "SMTP",
+   "REST API",
+   "CSV import"
+  ],
+  "github_repo": "mettle/sendportal",
+  "github_stars": 2173,
+  "github_forks": 468,
+  "github_checked": "2026-10-15",
+  "last_release": "v4.0.0 (2026-10-12)",
+  "license": "MIT",
+  "open_source": true,
+  "api_available": true,
+  "founded": 2020,
+  "hq": "London, UK",
+  "status": "active",
+  "date_added": "2026-10-15",
+  "date_updated": "2026-10-15",
+  "description": "SendPortal is a self-hosted email marketing app under the MIT license, built on Laravel by Mettle, a London agency. The pitch is simple: run your newsletters from your own server and pay an email API per message instead of paying Mailchimp per subscriber. It covers subscriber lists, tags and segments, HTML templates, campaigns, per-message tracking of sends, opens, clicks, bounces and unsubscribes, and multiple workspaces, so an agency can run several clients from one install.\n\nThe honest part first, because the AI question comes up with every tool in this directory: there is no AI here. No subject line generation, no send time optimization, no predictive anything. The docs list subscribers, tags, templates, campaigns, messages and workspaces, and that is the whole feature surface. There is also no automation builder, so drip sequences and triggered flows are out of scope. SendPortal is a campaign sending engine with clean reporting, and it does not pretend to be more.\n\nPricing is the easy part. The software is free with no seat or subscriber limits, and there is no official hosted tier (sendportal.io has no pricing page at all). What you actually pay for is a PHP 8.3+ server and an email provider. It ships drivers for Amazon SES, Mailgun, SendGrid, Postmark, Mailjet, Postal and plain SMTP. Pointing it at SES is the cheap route at $0.10 per 1,000 emails, which is how the fraction-of-the-cost claim holds up: a 50,000 subscriber newsletter costs about $5 per send on SES versus hundreds of dollars a month on Mailchimp.\n\nThe maintenance history deserves a straight look. Version 4.0.0 shipped on October 12, 2026, moving the app to Laravel 13 and PHP 8.3, and it was the first release since v3.0.1 in April 2024. A two and a half year gap between releases is a long silence, though the current code is fresh and the repo (2,173 stars, 468 forks) still gets fixes. The natural comparison in this directory is Listmonk, which has ten times the stars and runs as a single Go binary. SendPortal answers with the PHP ecosystem: MIT instead of AGPL, native multi-workspace support, and a sendportal-core Composer package that drops into an existing Laravel app. If your product already runs on Laravel with its own auth, you can add a newsletter feature without standing up a separate service, which Listmonk cannot do.\n\nWho should skip it: marketers who want AI copywriting or automation flows should look at BillionMail or Notifuse in this directory instead, and teams that do not run PHP are better off with Listmonk. Who should consider it: Laravel shops, agencies that want per-client workspaces on one install, and anyone tired of contact-based pricing.",
+  "seo_description": "SendPortal review: self-hosted MIT-licensed email marketing on Laravel. Unlimited subscribers and workspaces, REST API, no AI features. Pricing and setup.",
+  "deep_dive": {
+   "install": [
+    "Stand-alone: git clone --depth 1 --branch v4.0.0 https://github.com/mettle/sendportal.git, run composer install, set the database and mail service in .env, run the sp:install Artisan command (it creates the schema and admin user), and point nginx or Apache at the public/ directory.",
+    "Package route: composer require mettle/sendportal-core inside an existing Laravel 13 app that already handles user authentication. The core package carries subscriber, campaign and tracking logic; the full SendPortal app is a wrapper around it.",
+    "Database: MySQL 5.7 or later, or PostgreSQL 10 or later. Version support: v4 needs PHP 8.3+ and Laravel 13; v3 covers PHP 8.2 with Laravel 10/11; v2 covers PHP 7.3+ with Laravel 8+."
+   ],
+   "requirements": "PHP 8.3 or newer, Composer, Git, MySQL 5.7+ or PostgreSQL 10+, and a web server (Apache or nginx) serving the public/ directory. Built on Laravel 13. An email delivery account with one of the supported providers: Amazon SES, Postmark, SendGrid, Mailgun, Mailjet, Postal, or any SMTP server.",
+   "best_for": "Laravel and PHP teams and agencies that want to own their newsletter stack: MIT license, unlimited subscribers, multiple workspaces for clients, and a REST API covering subscribers, tags, templates and campaigns. Especially strong when you want to embed email marketing into an existing Laravel product through the sendportal-core package.",
+   "not_for": "Marketers expecting AI content, send time optimization or automation sequences: none of that ships. Also not for teams that do not want to manage PHP hosting, or anyone who reads the April 2024 to October 2026 release gap as abandonment risk. Listmonk (Go, single binary, much larger community) is the safer self-hosted default.",
+   "hands_on": [
+    "Researched from the GitHub repository, the sendportal.io landing page and the v4 docs. Not a hands-on install test.",
+    "The feature surface is exactly what the docs list: subscribers, tags, templates, campaigns, messages and workspaces, plus a REST API for templates, subscribers, tags, tag-subscribers, subscriber-tags and campaigns. No AI features, no automation builder, and no drag-and-drop editor appear anywhere in the docs.",
+    "Delivery is bring-your-own-provider: AWS SES, Postmark, SendGrid, Mailgun, Mailjet, Postal or SMTP. Tracking covers sends, opens, clicks, bounces and unsubscribes per message, and subscribers import via CSV or API.",
+    "Release history: v4.0.0 on October 12, 2026 (Laravel 13 upgrade, plus a fix for sp:install skipping migrations), then nothing since v3.0.1 on April 19, 2024. 52 open issues, 468 forks, MIT license."
+   ],
+   "verdict": "A clean, MIT-licensed self-hosted newsletter sender for PHP shops, freshly updated to Laravel 13 after a long quiet period. No AI and no automation, so the subscription money you save is paid back in features you do not get.",
+   "faq_extra": [
+    [
+     "Does SendPortal have AI features?",
+     "No. SendPortal has zero AI capabilities: no content generation, no subject line suggestions, no send time optimization, and no predictive segmentation. It is a campaign management and delivery tool. If AI is a requirement, the self-hosted alternatives in this directory that ship it are BillionMail and Notifuse."
+    ],
+    [
+     "Is SendPortal really free?",
+     "The software is free under the MIT license with unlimited subscribers, campaigns, users and workspaces, and there is no official hosted version to buy. Your costs are infrastructure: a PHP 8.3+ server with MySQL or PostgreSQL, plus an email delivery provider. Amazon SES is the cheapest supported option at $0.10 per 1,000 emails; Mailgun, SendGrid, Postmark and Mailjet bill at their standard rates."
+    ],
+    [
+     "SendPortal vs Listmonk: which self-hosted email tool should you pick?",
+     "Listmonk is the popular default: a single Go binary with PostgreSQL, AGPL licensed, around 23,800 GitHub stars against SendPortal's 2,173. Choose SendPortal when you run PHP: it is MIT licensed, which is friendlier than AGPL for embedding in commercial products, it supports multiple client workspaces, and its sendportal-core package installs into an existing Laravel app so your product can offer newsletters natively. Listmonk wins on community size and simpler operations."
+    ]
+   ]
+  }
  }
 ]

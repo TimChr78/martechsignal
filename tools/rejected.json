@@ -1087,5 +1087,17 @@
   "url": "https://www.intercom.com/blog/feed/",
   "reason": "RSS blog post, not a tool candidate",
   "rejected_at": "2026-10-08"
+ },
+ {
+  "name": "5 Tips To Train Your AI Tools: Get Rid of Those Hallucinations",
+  "url": "https://www.salesforce.com/blog/feed/",
+  "reason": "RSS blog post, not a tool candidate",
+  "rejected_at": "2026-10-15"
+ },
+ {
+  "name": "What's New in Service Cloud: 10 Launches That Help Resolve Customer Service Cases Faster",
+  "url": "https://www.salesforce.com/blog/feed/",
+  "reason": "RSS blog post, not a tool candidate",
+  "rejected_at": "2026-10-15"
  }
 ]
