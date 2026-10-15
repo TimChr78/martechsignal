@@ -106,10 +106,10 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 
 ## Similar Tools
 
+- [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server
 - [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
-- [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
 - [Maizzle](/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns
 ## Related reading
 

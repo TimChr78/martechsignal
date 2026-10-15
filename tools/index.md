@@ -6,16 +6,16 @@ Browse by licence: [Open-source tools](/categories/open-source/) · [all categor
 
 Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.
 
-168 TOOLS · 13 CATEGORIES + OPEN-SOURCE INDEX · UPDATED WEEKLY
+169 TOOLS · 13 CATEGORIES + OPEN-SOURCE INDEX · UPDATED WEEKLY
 
-Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 83 of them, with daily snapshots since Aug 25, 2026.
+Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 84 of them, with daily snapshots since Aug 25, 2026.
 
 A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The [marketing automation checklist](/checklist/) walks the 12 questions that decide it, and scores your answers in the browser.
 
 ## Browse by category
 
 - [Marketing Automation (12)](/categories/marketing-automation/)
-- [Email Marketing (16)](/categories/email-marketing/)
+- [Email Marketing (17)](/categories/email-marketing/)
 - [CRM (24)](/categories/crm/)
 - [AI Content & Copywriting (13)](/categories/content-ai/)
 - [Analytics & Attribution (11)](/categories/analytics/)
@@ -27,12 +27,12 @@ A directory tells you what exists. It does not tell you whether your stack can h
 - [GEO & LLM Optimization (14)](/categories/geo-llm-visibility/)
 - [Workflow Automation (17)](/categories/workflow-automation/)
 - [Agent Skills (20)](/categories/agent-skills/)
-- [Open-Source Tools (83)](/categories/open-source/)
+- [Open-Source Tools (84)](/categories/open-source/)
 ## Evaluating tools for your stack?
 
 The weekly newsletter tracks this category: one teardown, one workflow, no fluff.
 
-All 168 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
+All 169 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
 
 ## AI Content & Copywriting *13*
 
@@ -129,7 +129,7 @@ All 168 tools, grouped by category. Each card links to a full teardown with pric
 - [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging (From $29/seat/mo)
 - [ManyChat](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger (Freemium from $14/mo)
 - [Tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support (Freemium from $24/mo)
-## Email Marketing *16*
+## Email Marketing *17*
 
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free (Open Source from $98.90/mo)
 - [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts (Freemium from $9/mo)
@@ -145,6 +145,7 @@ All 168 tools, grouped by category. Each card links to a full teardown with pric
 - [Postmark](/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers (Freemium from $15/mo)
 - [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js (Open Source from $250/mo)
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling (Freemium from $20/mo)
+- [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server (Open Source)
 - [Twilio SendGrid](/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools (From $19.95/mo)
 - [Warmbly](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM (Open Source from $29/mo)
 ## GEO & LLM Optimization *14*

@@ -118,10 +118,10 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 
 ## Similar Tools
 
+- [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server
 - [Loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 - [Mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
-- [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)

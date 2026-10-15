@@ -5,9 +5,9 @@
 - Open-Source Tools
 ## Open-Source Tools
 
-83 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.
+84 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.
 
-83 TOOLS IN THIS CATEGORY
+84 TOOLS IN THIS CATEGORY
 
 ## All tools in this category
 
@@ -82,6 +82,7 @@
 - [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament (Open Source from $19/workspace/mo)
 - [Revive Adserver](/tools/revive-adserver/): Free open source ad server for publishers, ad networks and advertisers (Open Source)
 - [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing (Open-core from $265/mo)
+- [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server (Open Source)
 - [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects (Open Source)
 - [Seonaut](/tools/seonaut/): Open-source SEO crawler in Go for technical audits, self-hosted or cloud (Open Source from $9/mo)
 - [Snowplow](/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents (Open-core)
@@ -102,7 +103,7 @@
 - [Workflow automation](/glossary/workflow-automation/)
 Full definitions in the [martech glossary](/glossary/).
 
-This index lists every open-source tool in the catalog: 83 projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.
+This index lists every open-source tool in the catalog: 84 projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.
 
 Open source does not mean zero cost. The real price is hosting, upgrades, and whoever answers the pager: projects with active commit histories and commercial sponsors behind them age better than one-maintainer efforts, however generous the license. The per-tool pages carry star counts, license fields, and self-host notes so you can judge maintenance health before you commit a server.
 

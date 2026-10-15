@@ -140,9 +140,9 @@ One documented one: AI email template generation, added in v4.0, where you descr
 ## Similar Tools
 
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+- [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server
 - [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
-- [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
 - [Mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
 ## Related reading
 

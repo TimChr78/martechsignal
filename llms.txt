@@ -1,7 +1,7 @@
 # MartechSignal
 
 > Independent reviews of AI marketing automation tools. Structured research on
-> 168 martech platforms | pricing, self-hosting, APIs, and which AI features
+> 169 martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -123,6 +123,7 @@
 - [Postmark](https://martechsignal.com/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers
 - [React Email Editor](https://martechsignal.com/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js (open source)
 - [Resend](https://martechsignal.com/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
+- [SendPortal](https://martechsignal.com/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server (open source)
 - [Twilio SendGrid](https://martechsignal.com/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
 - [Warmbly](https://martechsignal.com/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM (open source)
 
@@ -426,7 +427,7 @@
 
 ## Machine-readable data
 
-- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 170 records = 168 active + 2 non-active; the directory above lists only active tools
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 171 records = 169 active + 2 non-active; the directory above lists only active tools
 - [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 326 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

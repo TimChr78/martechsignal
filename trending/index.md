@@ -2,7 +2,7 @@
 
 ## Open-source martech momentum
 
-Every morning we snapshot the GitHub stars of all 83 open-source tools in our 168-tool catalog (all of them list a public GitHub repository). 82 have enough history to chart here; a repository needs 5 daily snapshots before it appears, which is why the charted set can be smaller. Inclusion rule, stated once: the catalog's open-source flag plus a GitHub repo URL. This page shows what moved in the window Aug 25 to Oct 14, 2026, tracked since Aug 25, 2026.
+Every morning we snapshot the GitHub stars of all 84 open-source tools in our 169-tool catalog (all of them list a public GitHub repository). 82 have enough history to chart here; a repository needs 5 daily snapshots before it appears, which is why the charted set can be smaller. Inclusion rule, stated once: the catalog's open-source flag plus a GitHub repo URL. This page shows what moved in the window Aug 25 to Oct 14, 2026, tracked since Aug 25, 2026.
 
 82 REPOS · 51 DAILY SNAPSHOTS · WINDOW 2026-08-25 TO 2026-10-14
 
