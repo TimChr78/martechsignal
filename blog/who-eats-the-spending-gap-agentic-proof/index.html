@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who eats the spending gap when agentic spend outpaces proof?</title>
+<meta name="description" content="The proof gap: spend committed while evidence is still pending. Four mechanisms, a per-run metering ledger, and who owns the miss.">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="article">
+<link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="Who eats the spending gap when agentic spend outpaces proof?">
+<meta property="og:description" content="The proof gap: spend committed while evidence is still pending. Four mechanisms, a per-run metering ledger, and who owns the miss.">
+<meta property="og:url" content="https://martechsignal.com/blog/who-eats-the-spending-gap-agentic-proof/">
+<meta property="og:image" content="https://martechsignal.com/og/who-eats-the-spending-gap-agentic-proof.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/who-eats-the-spending-gap-agentic-proof/">
+<link rel="ard ai-catalog" type="application/json" href="https://martechsignal.com/.well-known/ard.json">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin><style>:root{--bg: #080E1A;--card: #0F1B31;--line: #1D2B47;--line2: #2A3D63;--text: #E9EEF8;--muted: #8FA1C0;--amber: #FFB224;--green: #3DDC97;--red: #F87171;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--body: 'Archivo', 'Archivo-fallback', sans-serif}*{margin: 0;padding: 0;box-sizing: border-box}html{scroll-behavior: smooth}body{background: var(--bg);color: var(--text);font-family: var(--body);line-height: 1.65;-webkit-font-smoothing: antialiased}.page-post body, body.page-post{line-height: 1.7}::selection{background: var(--amber);color: #141005}a{color: inherit}.bg{position: fixed;inset: 0;z-index: -1;background: radial-gradient(900px 520px at 88% -8%, rgba(255,178,36,.11), transparent 62%), radial-gradient(760px 560px at -12% 34%, rgba(61,220,151,.07), transparent 60%), radial-gradient(700px 400px at 60% 110%, rgba(255,92,92,.05), transparent 60%), var(--bg)}.bg::before{content: "";position: absolute;inset: 0;background-image: linear-gradient(rgba(140,165,210,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(140,165,210,.05) 1px, transparent 1px);background-size: 46px 46px;mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 30%, transparent 100%)}.page-tools .bg::before{display: none}.wrap{max-width: 1080px;margin: 0 auto;padding: 0 1.25rem}.masthead{border-bottom: 1px solid var(--line)}.mast-in{max-width: 1080px;margin: 0 auto;padding: 1.1rem 1.25rem;display: flex;align-items: center;justify-content: space-between}.wordmark{font-family: var(--disp);font-size: 1.15rem;letter-spacing: .03em;text-decoration: none;display: flex;align-items: center;gap: .5rem}.wordmark b{color: var(--amber);font-weight: inherit}.pulse-dot{width: 8px;height: 8px;border-radius: 50%;background: var(--amber);animation: brandpulse 2s ease-in-out infinite}@keyframes brandpulse{0%,100%{box-shadow: 0 0 0 0 rgba(255,178,36,.4)}55%{box-shadow: 0 0 0 6px rgba(255,178,36,0)}}@media (prefers-reduced-motion: reduce){.pulse-dot{animation: none}}@keyframes blink{50%{opacity: 0}}.mast-nav{display: flex;gap: 1.4rem}.mast-nav a{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);text-decoration: none;transition: color .2s}.mast-nav a:hover{color: var(--amber)}@media (max-width: 700px){.mast-nav{overflow-x: auto;scrollbar-width: none;-webkit-mask-image: linear-gradient(90deg, #000 88%, transparent);mask-image: linear-gradient(90deg, #000 88%, transparent)}.mast-nav::-webkit-scrollbar{display: none}}.mast-right{display: flex;align-items: center;gap: 1.1rem}.live{display: inline-flex;align-items: center;gap: .45rem;font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--green);border: 1px solid rgba(61,220,151,.35);padding: .32rem .7rem;border-radius: 99px;background: rgba(61,220,151,.07)}.live i{width: 7px;height: 7px;border-radius: 50%;background: var(--green);animation: pulse 1.6s ease-in-out infinite}.pulse-dot{position: relative}.pulse-dot::after{content: "";position: absolute;inset: -2px;border: 2px solid rgba(61,220,151,.5);border-radius: inherit;animation: pulse 2.2s ease-out infinite;will-change: opacity, transform}@keyframes pulse{0%{opacity: .6;transform: scale(.85)}55%{opacity: 0;transform: scale(1.5)}100%{opacity: 0;transform: scale(1.5)}}.mast-date{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted)}@media (max-width: 560px){.mast-date{display: none}}@media (max-width: 560px){.mast-right .live{display: none}}.page-tools footer{margin-top: 2rem}.btn{display: inline-block;background: var(--amber);color: #141005;font: 700 .92rem var(--body);text-decoration: none;padding: .75rem 1.5rem;border-radius: 6px;transition: transform .2s, box-shadow .2s}.btn:hover{transform: translateY(-2px);box-shadow: 0 10px 28px rgba(255,178,36,.3)}html.js .reveal:not(.in){opacity: 0;transform: translateY(18px);transition: opacity .7s ease, transform .7s ease}html.js .reveal.in, html.js .reveal.in, .reveal.in{opacity: 1;transform: none}@media (prefers-reduced-motion: reduce){*, *::before, *::after{animation: none !important;transition: none !important}}.kicker{font: 600 0.8rem var(--mono);letter-spacing: .16em;color: var(--amber);margin-bottom: 1rem}.hero{display: grid;grid-template-columns: 1.12fr .88fr;gap: 3.2rem;align-items: end;padding: 4.6rem 0 1.2rem}@media (max-width: 880px){.hero{grid-template-columns: 1fr;gap: 1rem;padding: 1rem 1.25rem .4rem;align-items: start}.hero h1{font-size: 2rem;line-height: 1.12}.hero p{margin: .35rem 0}}.lede{color: var(--muted);font-size: 1.1rem;max-width: 34rem;margin: 1.4rem 0 1.9rem}.hero-cta{display: flex;align-items: center;gap: 1.3rem;flex-wrap: wrap}.micro{font: 500 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);margin-top: 1.5rem}.spec{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.5rem 1.5rem 1.7rem;box-shadow: 0 24px 60px rgba(2,6,16,.5)}@keyframes eq{from{transform: scaleY(.35)}to{transform: scaleY(1)}}.spec dl{display: grid;gap: 0}.spec dl > div{display: flex;justify-content: space-between;align-items: baseline;padding: .62rem 0;border-top: 1px dashed var(--line2)}.spec dt{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted);text-transform: uppercase}.spec dd{font: 600 .86rem var(--body);color: var(--text)}.spec dd.ok{color: var(--green)}.crumb{padding: 1.2rem 0 .4rem;font: 500 0.8rem var(--mono);letter-spacing: .1em;color: var(--muted)}.crumb a{color: var(--muted);text-decoration: none;transition: color .2s}.crumb a{min-height: 44px;display: inline-flex;align-items: center}.crumb a:hover{color: var(--amber)}.crumb span{color: var(--amber)}.page-tools .page-head{padding: 2.2rem 0 1.6rem;border-bottom: 1px solid var(--line)}.page-tools .page-head h1{font-family: var(--disp);font-weight: 400;font-size: clamp(1.8rem, 4vw, 2.8rem);letter-spacing: -.01em}.page-tools .page-head .sub{color: var(--muted);font-size: 1.05rem;margin-top: .6rem;max-width: 42rem}.page-tools .page-head .count{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--amber);margin-top: .8rem}.tool-grid{display: grid;grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));gap: 1.2rem;padding: 1.8rem 0}.tool-card{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.4rem 1.5rem;text-decoration: none;transition: border-color .25s, transform .25s, box-shadow .25s;display: flex;flex-direction: column;gap: .6rem}.tool-card:hover{border-color: var(--amber);transform: translateY(-3px);box-shadow: 0 12px 36px rgba(2,6,16,.5)}.tool-card .name{font: 700 1.1rem var(--body);letter-spacing: -.01em;margin: 0}.tool-card .tagline{color: var(--muted);font-size: .9rem;line-height: 1.5;flex: 1}.tool-card .meta{display: flex;gap: .6rem;flex-wrap: wrap;align-items: center}.tool-card img{width: 100%;height: auto;display: block;border-radius: 8px}.made-badge{font-size: .92rem;line-height: 1.5;border: 1px solid var(--amber);border-radius: 8px;padding: .6rem .9rem;margin: .8rem 0;background: rgba(255,255,255,.02)}.hero-cols{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:2.5rem;align-items:start}@media(max-width:1080px){.hero-cols{grid-template-columns:1fr}}.hero-side .stats-card{display:grid;gap:1rem;grid-template-columns:repeat(3,1fr);text-align:center}@media(max-width:700px){.hero-side .stats-card{grid-template-columns:1fr}}.cat-nav{display: flex;gap: .6rem;flex-wrap: wrap;padding: 1.2rem 0}.cat-pill{font: 600 0.8rem var(--mono);letter-spacing: .08em;padding: .45rem .9rem;border-radius: 99px;border: 1px solid var(--line2);color: var(--muted);text-decoration: none;transition: all .2s}.cat-pill:hover, .cat-pill.active{border-color: var(--amber);color: var(--amber);background: rgba(255,178,36,.06)}@keyframes wirepulse{0%{left: 0;opacity: 0}12%{opacity: 1}88%{opacity: 1}100%{left: calc(100% - 8px);opacity: 0}}#progress{position: fixed;top: 0;left: 0;height: 3px;width: 0;background: var(--amber);z-index: 99;box-shadow: 0 0 12px rgba(255,178,36,.6)}@media (prefers-reduced-motion: reduce){#progress{display: none}}html, body{overflow-x: clip}.bg{width: 100vw;max-width: 100%}@media (max-width: 480px){.mast-in{row-gap: .5rem;padding-inline: clamp(.9rem, 4vw, 1.5rem)}}.tool-body, .page-tools main p, .page-tools main li{max-width: 72ch}.page-tools main h2, .page-tools main h3{max-width: 40ch}:root{--body: 'Archivo', 'Archivo-fallback', sans-serif;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace}.mast-nav a, .foot-links a, footer nav a, .footer-nav a{display: inline-block;padding: 12px 8px;margin: -12px -8px}.breadcrumbs a, .crumbs a{display: inline-block;padding: 12px 6px;margin: -12px -6px}.disclosure-strip{font: 500 .78rem var(--mono);letter-spacing: .06em;color: var(--muted);margin: .5rem 0 0}@media (max-width: 700px){.disclosure-strip, .vs-figures figcaption{font-size: 13px}}.tool-card.is-hidden,.hub-group.is-hidden{display:none}.crumb a,.footer a,.alt-back a,.vs-links a,.back,.hub-links a,.post-list a{display:inline-block;padding-block:5px}.mast-nav a{display:inline-block;padding-block:4px}.crumb a,.byline a,.post-meta a,.foot-links a{display:inline-block}.crumb ol{align-items:center}.crumb li{display:flex;align-items:center}.crumb li:not(:last-child)::after{content:"/";margin-inline:.4rem;color:var(--muted)}@media (max-width:700px){.mast-in{flex-wrap:nowrap;align-items:center;gap:.5rem;padding:.2rem 0}.wordmark{flex:0 0 auto}.mast-nav{flex:1 1 auto;display:flex;flex-wrap:nowrap;overflow-x:auto;gap:.1rem;scrollbar-width:none}.mast-nav::-webkit-scrollbar{display:none}.mast-nav{-webkit-mask-image:linear-gradient(90deg,#000 92%,transparent);mask-image:linear-gradient(90deg,#000 92%,transparent)}.mast-nav a{flex:0 0 auto;min-height:44px;display:inline-flex;align-items:center;padding-inline:.55rem;font-size:.78rem}.crumb a,.byline a,.post-meta a{position:relative}.crumb a::after,.byline a::after,.post-meta a::after{content:"";position:absolute;inset-block:-10px;inset-inline:-4px}}@media (max-width:480px){.mast-in{flex-direction:column;align-items:stretch;gap:0;padding:.6rem 0 .3rem}.mast-nav{flex:none;width:100%}}</style><link rel="stylesheet" href="/style.min.css?v=2f1faf57"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      "article h2"
+    ]
+  },
+  "@type": "BlogPosting",
+  "headline": "Who eats the spending gap when agentic spend outpaces proof?",
+  "description": "The proof gap: spend committed while evidence is still pending. Four mechanisms, a per-run metering ledger, and who owns the miss.",
+  "author": {
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/logo.png"
+    }
+  },
+  "datePublished": "2026-10-15",
+  "dateModified": "2026-10-15",
+  "mainEntityOfPage": "https://martechsignal.com/blog/who-eats-the-spending-gap-agentic-proof/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/who-eats-the-spending-gap-agentic-proof.png",
+    "width": 1200,
+    "height": 630
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://martechsignal.com/blog/#blog"
+  },
+  "inLanguage": "en",
+  "wordCount": 1671,
+  "articleSection": "analytics"
+}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": "https://martechsignal.com/blog/who-eats-the-spending-gap-agentic-proof/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Who eats the spending gap when agentic spend outpaces proof?",
+      "item": "https://martechsignal.com/blog/who-eats-the-spending-gap-agentic-proof/"
+    }
+  ]
+}</script>
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+<script src="/site.js?v=dee24ac7" defer></script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://martechsignal.com/blog/who-eats-the-spending-gap-agentic-proof/",
+  "dateModified": "2026-10-15",
+  "breadcrumb": {
+    "@id": "https://martechsignal.com/blog/who-eats-the-spending-gap-agentic-proof/#breadcrumb"
+  }
+}</script>
+
+<link rel="alternate" type="text/markdown" href="/blog/who-eats-the-spending-gap-agentic-proof/index.md" title="Markdown mirror">
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">AI AGENTS · MEASUREMENT · 8 MIN</p>
+<h1>Who eats the spending gap when agentic spend outpaces proof?</h1>
+
+<img class="post-hero" src="/og/hero-who-eats-the-spending-gap-agentic-proof.webp" alt="Who eats the spending gap when agentic spend outpaces proof?" width="1200" height="630" srcset="/og/hero-who-eats-the-spending-gap-agentic-proof-480.webp 480w, /og/hero-who-eats-the-spending-gap-agentic-proof-800.webp 800w, /og/hero-who-eats-the-spending-gap-agentic-proof.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="disclosure-strip"><a href="/methodology/">How we review</a> · No affiliate links</p>
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · Who eats the spending gap when agentic spend outpaces proof?</p>
+<p class="meta"><time datetime="2026-10-15">OCT 15, 2026</time></p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/analytics/">Analytics & Attribution</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-arithmetic-first">The arithmetic first</a> · <a href="#a-ledger-that-fits-on-one-line-per-run">A ledger that fits on one line per run</a> · <a href="#two-instruments-routinely-mistaken-for-one">Two instruments, routinely mistaken for one</a> · <a href="#the-ownership-answer">The ownership answer</a></nav>
+<p>Last week this blog walked the <a href="/blog/rogue-ai-agents-trust-debate/">rogue agents debate</a> to a flat conclusion: your agent did not go rogue, your configuration did what it was configured to allow. That sentence is comfortable for about a week. It says nothing about money. An agent can hold every permission correctly, buy on signals from sources you approved, act inside the authority you granted, and log every decision, and still spend too much. Nothing misbehaves. The evidence just arrives after the money.</p>
+
+<p>Evgeny Popov put a number on that problem in an <a href="https://www.adexchanger.com/data-driven-thinking/who-eats-the-spending-gap-when-agentic-spend-outpaces-proof-of-impact">October 7 AdExchanger column</a>. He calls it the proof gap: spend committed while the evidence needed to assess a change is still pending. The rogue debate argued about intent. This is a measurement problem with a balance attached, which makes it more useful to anyone actually running agents.</p>
+
+<h2 id="the-arithmetic-first">The arithmetic first</h2>
+
+<p>His example: a brand hands an agent $200,000 and lets it move $1,000 an hour into a new mix of CTV and retail media. The first sales readout fit to judge that change needs 48 hours to mature. By then, $48,000 has gone into a decision nobody has assessed, and the readout does not settle the $48,000 either. It produces an estimate, with error bars, about a change that is already two days old.</p>
+
+<p>The two controls most stacks trust never enter that math. The budget caps total spend. Pacing caps the rate. Neither caps how much can ride on a single untested change while the test is open. An agent can keep both green and buy blind the whole time. This site argued in August that <a href="/blog/martech-budget-bleeding-nobody-measuring/">stack budgets bleed when nobody meters them</a>; subscriptions at least bleed at human speed. An agent bleeds by the hour.</p>
+
+<h3>Pacing poses as validation</h3>
+
+<p>The first mechanism is the one above, stated as a failure mode. Green pacing with a pending readout is not control, it is spend with a clean complexion. Teams read "on budget, on pace" as "under management" because the dashboard has no column for money committed ahead of its evidence.</p>
+
+<h3>The clock does not match the goal</h3>
+
+<p>A model reprices in milliseconds. A business outcome takes weeks to become real. Popov's point, which he developed in <a href="https://www.adexchanger.com/data-driven-thinking/why-agentic-measurement-will-reprice-the-ad-market/">an earlier column in the series</a>, is that faster measurement narrows the gap but never closes it. The 48-hour readout is not truth arriving late. It is a rough estimate arriving exactly on time, and treating it as a verdict is how teams talk themselves into scaling a guess.</p>
+
+<h3>Changes compound faster than they can be isolated</h3>
+
+<p>An agent does not move one variable. It shifts bids, audiences, and channel mix at once, so the same weak guess ends up driving spend across several budgets, which is Popov's compounding point. When the readout finally lands, it prices the bundle, not the pieces. Anyone who has watched a multi-touch model hand credit to a channel it could not actually see knows how that story goes; <a href="/blog/multi-touch-attribution-was-always-a-fiction/">attribution precision was always partly a fiction</a>. The agent version is the same fiction at machine speed.</p>
+
+<h3>The cap sits inside the objective</h3>
+
+<p>Popov's rule for any test allowance: a ceiling the agent is rewarded for reaching stops being a ceiling. If the agent is optimized for delivery and spend throughput, the allowance is a target with extra steps. The count also resets quietly when spend moves to a new channel or a second agent takes the handoff. Caps an agent can route around are pacing with better paperwork.</p>
+
+<div class="callout">
+<p><strong>The number your stack does not have.</strong> Marketing stacks measure spend and pacing beautifully. Almost none of them can answer a simpler question at any given hour: how many dollars are committed right now to changes whose evidence is still pending? Call that the proof-gap ledger. Until it exists, "in budget" and "under control" look identical on the dashboard and mean different things in the P&amp;L.</p>
+</div>
+
+<h2 id="a-ledger-that-fits-on-one-line-per-run">A ledger that fits on one line per run</h2>
+
+<p>Popov's buying-side proposal is a risk budget: the most an agent may commit under an unvalidated change before it must show agreed evidence or obtain fresh approval. His worked example grants $12,000 to test a new mix, nothing more until the readout clears a threshold both sides set in advance. That policy converts into fields you can log on every agent run:</p>
+
+<div class="table-wrap"><table class="cmp">
+<thead><tr><th>Field</th><th>What it holds</th><th>What it catches</th></tr></thead></div>
+<tr><td><strong>change</strong></td><td>What moved: bids, audience, mix, budget</td><td>Bundles no readout can unbundle</td></tr>
+<tr><td><strong>committed_pending</strong></td><td>Dollars spent on this change while its evidence window is open</td><td>The $48,000 figure, live instead of discovered after the fact</td></tr>
+<tr><td><strong>evidence_standard</strong></td><td>Pixel event, causal estimate with stated uncertainty, or agent confidence, named before the first bid</td><td>A log entry getting praised as a verdict</td></tr>
+<tr><td><strong>clock</strong></td><td>How long until this goal can honestly be read</td><td>48-hour gates on work built to pay back in months</td></tr>
+<tr><td><strong>allowance</strong></td><td>The risk budget for this test, and who may raise it</td><td>Agents grading their own homework</td></tr>
+<tr><td><strong>resets</strong></td><td>Channel moves or handoffs that would restart the count</td><td>Cap evasion by relay</td></tr>
+<tr><td><strong>miss_owner</strong></td><td>Who eats a shortfall, by name or by clause</td><td>A gap that everyone owns, so nobody does</td></tr>
+</table>
+
+<p>On the evidence standard, Popov is blunt: a pixel records an event, a sound causal test estimates how much the ads changed outcomes with stated uncertainty, and the agent's own confidence score is not independent validation.</p>
+
+<p>The readouts come from your measurement layer. Attribution platforms such as <a href="/tools/northbeam/">Northbeam</a> or <a href="/tools/triple-whale/">Triple Whale</a> for ecommerce produce the sales-side estimates, and experiment tooling such as <a href="/tools/posthog/">PostHog</a> runs the holdouts that produce causal reads with error bars. None of them keeps the ledger, and none should. The ledger is policy: an allowance and an evidence standard agreed before the first bid. Vendors can sell you the readout. The restraint has to be yours.</p>
+
+<h2 id="two-instruments-routinely-mistaken-for-one">Two instruments, routinely mistaken for one</h2>
+
+<p>The second half of the column is about who holds the losses. Markets that trade ahead of proof lean on two tools: a risk budget that limits what you commit while you learn, and a contract that assigns a defined loss to someone else when a defined part of the test goes wrong. Popov's warning is that the industry is about to treat them as one instrument. They are not.</p>
+
+<div class="table-wrap"><table class="cmp">
+<thead><tr><th></th><th>Risk budget</th><th>Underwritten guarantee</th></tr></thead></div>
+<tr><td><strong>Limits</strong></td><td>What you commit while you learn</td><td>What you lose when the test misses</td></tr>
+<tr><td><strong>Set by</strong></td><td>The buyer, before the first bid</td><td>The contract, negotiated per condition</td></tr>
+<tr><td><strong>Costs</strong></td><td class="oss-price">Nothing; it is restraint</td><td class="com-price">A fee, priced for the risk transferred</td></tr>
+<tr><td><strong>Cash behind it</strong></td><td>None; the money is simply unspent</td><td>A funded counterparty balance sheet</td></tr>
+</table>
+
+<p>The precedents he cites are already live. <a href="https://www.munichre.com/en/solutions/for-industry-clients/insure-ai/faq.html">Munich Re</a> has backed AI vendors' performance guarantees with a reinsurer's balance sheet since 2018. <a href="https://ads.tiktok.com/resources/help/article/about-roi-protection-for-gmv-max-campaigns?lang=en">TikTok</a> hands eligible GMV Max campaigns ad credits when ROI falls below 90% of the daily target. One is third-party capital paid in cash. The other is the seller's own count, paid in credits, behind exclusions that include the day a campaign is paused. His summary line survives retelling: coverage does not validate the strategy. It changes who eats the miss.</p>
+
+<h2 id="the-ownership-answer">The ownership answer</h2>
+
+<p>Popov traces the family history to the early 1990s sequential liability fight, when the question was whether an agency owed the publisher before the brand had paid the agency. That was credit risk: who eats the loss if the money never arrives. The agentic version is proof risk: who eats the loss if the outcome never arrives. His closing split is clean. The standard of proof belongs in the test. The promise to pay belongs in the contract. The cash behind the promise belongs on someone's balance sheet.</p>
+
+<p>For a marketing stack, the answer this year is unglamorous. The agent cannot validate itself, and the vendor's credits do not validate your strategy, so until a contract names a counting source and a funded remedy, the brand eats the gap by default, quietly, inside a pacing report that reads as success. Popov predicts that by the end of 2027 at least one media deal between independent firms will settle from escrow, with terms naming the source used to count results and a cash remedy for a counting error. I would take that bet at "at least one." The part that should nag a deployer is simpler: if that clause landed on your desk next quarter, your stack would have to produce the evidence it demands. Until it can, the ledger above is the whole job.</p>
+
+<div class="verdict loss">
+<div class="verdict-label">✗ Loser: the pacing dashboard as a governance instrument</div>
+<p>A pacing report answers one thing: whether spend is on schedule. It was never asked how much money was committed ahead of its own evidence, and it cannot say. An agent can hold budget and pace perfectly and still put $48,000 into an unassessed change in two days. Governance starts where the ledger starts: dollars committed while evidence is pending, an evidence standard fixed before the first bid, and a named owner for the miss. Budget compliance is none of those.</p>
+</div>
+
+<p><em>Sources: <a href="https://www.adexchanger.com/data-driven-thinking/who-eats-the-spending-gap-when-agentic-spend-outpaces-proof-of-impact">AdExchanger, "Who Eats The Spending Gap When Agentic Spend Outpaces Proof Of Impact?", Evgeny Popov, October 7, 2026</a>, <a href="https://www.adexchanger.com/data-driven-thinking/why-agentic-measurement-will-reprice-the-ad-market/">Popov on agentic measurement repricing the ad market</a>, <a href="https://www.munichre.com/en/solutions/for-industry-clients/insure-ai/faq.html">Munich Re insure:AI FAQ</a>, <a href="https://ads.tiktok.com/resources/help/article/about-roi-protection-for-gmv-max-campaigns?lang=en">TikTok ROI protection for GMV Max campaigns</a>. Every figure in this post traces to one of these pages, checked October 15, 2026.</em></p>
+
+<p><em>Tools linked in this post:</em> <a href="/tools/northbeam/">Northbeam</a> | <a href="/tools/triple-whale/">Triple Whale</a> | <a href="/tools/posthog/">PostHog</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/rogue-ai-agents-trust-debate/">Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts</a></li><li><a href="/blog/autonomous-marketing-platform-label-contest/">Autonomous Marketing Platforms Are Real. The Name Is Wrong.</a></li><li><a href="/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/">MCP Rewrites the Integration Economics of Your Marketing Stack</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/paperclip/">Paperclip</a> - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit</li><li><a href="/tools/scrunch/">Scrunch</a> - The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents</li><li><a href="/tools/intercom/">Intercom</a> - AI-first customer service platform with Fin AI agent and omnichannel messaging</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/agent-skills-tools/">Best Agent Skills tools (2026): 8 compared</a></li><li><a href="/best/ai-advertising-tools/">Best AI Advertising &amp; Paid Media tools (2026): 8 compared</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/ai-agent/">AI Agent</a></li><li><a href="/glossary/agentic-marketing/">Agentic Marketing</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal",
+      "url": "https://martechsignal.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://martechsignal.com/#logo",
+        "url": "https://martechsignal.com/logo.png"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "image": "https://martechsignal.com/authors/tim-christensen/avatar.png",
+      "jobTitle": "Martech Product Owner",
+      "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.",
+      "knowsAbout": [
+        "martech tools",
+        "marketing automation",
+        "AI search visibility",
+        "workflow automation",
+        "open-source marketing software"
+      ],
+      "worksFor": {
+        "@id": "https://martechsignal.com/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/tchristensen78",
+        "https://github.com/timchr78"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://martechsignal.com/#website",
+      "name": "MartechSignal",
+      "url": "https://martechsignal.com/"
+    }
+  ]
+}</script></body>
+</html>
