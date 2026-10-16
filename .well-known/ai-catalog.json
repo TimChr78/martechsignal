@@ -2327,6 +2327,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:aeo-for-seo-what-changes-when-buyers-ask",
+   "displayName": "AEO for SEO: what changes when buyers ask instead of search",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/aeo-for-seo-what-changes-when-buyers-ask/",
+   "description": "When buyers ask engines instead of searching, CTR stops measuring visibility. What to track instead: prompt share, citations, AI referrals.",
+   "representativeQueries": [
+    "aeo for seo: what changes when buyers ask instead of search",
+    "aeo for seo what changes when buyers ask"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:agency-retainer-agentic-tools",
    "displayName": "The retainer just broke: agencies won't own tools or data",
    "type": "text/html",

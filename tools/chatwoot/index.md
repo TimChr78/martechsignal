@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Chatwoot
-Re-check pending: pricing last verified 2026-09-07 (38 days ago).
+Re-check pending: pricing last verified 2026-09-07 (39 days ago).
 
 ## Chatwoot review (2026): pricing, AI features, verdict
 
@@ -112,7 +112,7 @@ The strongest self-hostable support inbox in open source, with real AI now bolte
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $19/agent/mo |
 | ✓ AI capabilities: captain Assistant (AI chatbot) |  |
-| ✓ Active public repository (37,764 GitHub stars counted at last check) |  |
+| ✓ Active public repository (37,843 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Slack, Linear, Dialogflow (6 listed) |  |
 
 ## Related concepts
@@ -128,7 +128,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Chatwoot?**
-Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 37,764 stars.
+Chatwoot: Open-source customer engagement suite with Captain AI and full self-hosting. Chatwoot ships with captain Assistant (AI chatbot). The public repository carries 37,843 stars.
 
 **How much does Chatwoot cost?**
 Chatwoot has a free tier; paid plans start at $19/agent/mo. Community Edition free self-hosted (MIT Expat; the enterprise/ directory is separately licensed). Cloud: Hacker free (2 agents), Startups $19, Business $39, Enterprise $99 per agent/mo billed annually. Captain AI credits $20 per 1,000. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -154,8 +154,8 @@ Every Captain action consumes 1 credit per message because a fixed model configu
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Teams that want an open-source inbox with AI help included
@@ -163,11 +163,11 @@ Every Captain action consumes 1 credit per message because a fixed model configu
 
 - **Pricing:** Open Source from $19/agent/mo
 - **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
-- **GitHub:** ★ 37764
+- **GitHub:** ★ 37843
 - **Founded:** 2019
 - **HQ:** Distributed team across the US and India; YC profile lists San Francisco
 - **API:** Yes
-- **Repository checked:** 2026-10-14
+- **Repository checked:** 2026-10-16
 - **Page updated:** 2026-09-07
 
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)

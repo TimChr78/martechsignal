@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Analytics Tracking Automation
-Re-check pending: pricing last verified 2026-08-28 (48 days ago).
+Re-check pending: pricing last verified 2026-08-28 (49 days ago).
 
 ## Analytics Tracking Automation review (2026): pricing, AI features, verdict
 
@@ -81,7 +81,7 @@ Free and fast if tracking keeps slipping through the cracks. Review every schema
 
 | Pros | Cons |
 | --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (142 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (144 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: automated site analysis and page grouping by business purpose |  |
 | ✓ Native integrations include GA4, Google Tag Manager, Cursor (5 listed) |  |
 
@@ -99,10 +99,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Analytics Tracking Automation?**
-Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 142 stars.
+Analytics Tracking Automation: AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live. Analytics Tracking Automation ships with automated site analysis and page grouping by business purpose. The public repository carries 144 stars.
 
 **How much does Analytics Tracking Automation cost?**
-Analytics Tracking Automation is open source - Apache-2.0 licensed and free to self-host; the public repository carries 142 stars; native integrations cover GA4, Google Tag Manager, Cursor. You pay in server time and maintenance, not licences.
+Analytics Tracking Automation is open source - Apache-2.0 licensed and free to self-host; the public repository carries 144 stars; native integrations cover GA4, Google Tag Manager, Cursor. You pay in server time and maintenance, not licences.
 
 **Is Analytics Tracking Automation a good self-hosted Agent Skills tool in 2026?**
 Free and fast if tracking keeps slipping through the cracks. Review every schema it proposes before publishing anything.
@@ -116,16 +116,16 @@ Free and fast if tracking keeps slipping through the cracks. Review every schema
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 142
+- **GitHub:** ★ 144
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-05
+- **Repository checked:** 2026-10-16
 - **Page updated:** 2026-08-28
 
 ## Get the next teardown

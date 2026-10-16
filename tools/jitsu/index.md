@@ -86,7 +86,7 @@ The strongest option for teams that want Segment-like event collection with ware
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $99/mo once past the free tier |
 | ✓ AI capabilities: MCP Server for agent-driven setup | ✗ The free cloud plan caps connectors at one daily active sync, so anything past event streaming sits on a paid plan. |
-| ✓ Active public repository (5,106 GitHub stars counted at last check) | ✗ Multiplexed and filtered events have billing edge cases that need reading the FAQ before budgeting. |
+| ✓ Active public repository (5,107 GitHub stars counted at last check) | ✗ Multiplexed and filtered events have billing edge cases that need reading the FAQ before budgeting. |
 | ✓ Native integrations include BigQuery, Snowflake, Google Analytics 4 (6 listed) | ✗ Community support is the open-source path; the repository is active but not huge at 5,106 GitHub stars. |
 | ✓ Captured events are unlimited and free on every plan, so ingest volume alone never drives cost. |  |
 | ✓ Self-hosting the MIT-licensed code carries no usage limits and no licence fee. |  |
@@ -106,7 +106,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Jitsu?**
-Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,106 stars.
+Jitsu: Open-source Segment alternative for event capture and warehouse-first data pipelines. Jitsu ships with MCP Server for agent-driven setup. The public repository carries 5,107 stars.
 
 **How much does Jitsu cost?**
 Jitsu has a free tier; paid plans start at $99/mo. Free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits. We last checked both ends of that split on 2026-09-25. The pricing section above shows what the free tier actually covers.
@@ -132,8 +132,8 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Best for data teams that want open-source event collection in their own warehouse, free to self-host.
@@ -142,11 +142,11 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 
 - **Pricing:** Freemium from $99/mo
 - **Category:** [Personalization & CDP](/categories/personalization/)
-- **GitHub:** ★ 5106
+- **GitHub:** ★ 5107
 - **Founded:** 2020
 - **HQ:** New York City, United States (YC S20)
 - **API:** Yes
-- **Repository checked:** 2026-10-14
+- **Repository checked:** 2026-10-16
 - **Page updated:** 2026-09-25
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/) · [Cdp](/best/cdp/)

@@ -8,6 +8,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### AEO for SEO: what changes when buyers ask instead of search
+
+Somewhere between the query and the shortlist, the results page stopped being mandatory. A buyer comparing marketing platforms can ask ChatGPT, Gemini, or Perplexity to name the…
+
 ### Who eats the spending gap when agentic spend outpaces proof?
 
 Last week this blog walked the rogue agents debate to a flat conclusion: your agent did not go rogue, your configuration did what it was configured to allow. That sentence is…
@@ -19,10 +23,6 @@ Building the campaign is the fast part. In a recent r/MarketingAutomation thread
 ### Amazon's Ad Agents Come With Instructions. Google's Came With Promises.
 
 Two stories ran on AdExchanger the same day, September 29. James Hercher covered Amazon's unBoxed announcements in San Francisco, where the company turned its ad platform into a…
-
-### Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts
-
-In four days last week, the agent safety debate produced four answers that cannot all be true. OpenAI paused training of its latest models. A columnist argued the "rogue agents"…
 
 ## Tool index
 

@@ -133,7 +133,7 @@ Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 dat
 - **Category:** [Advertising & Paid Media](/categories/advertising/)
 - **GitHub:** ★ 1510
 - **API:** No
-- **Repository checked:** 2026-10-14
+- **Repository checked:** 2026-10-16
 - **Page updated:** 2026-09-25
 
 ## Get the next teardown

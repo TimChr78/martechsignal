@@ -216,6 +216,7 @@
 
 ## Analysis
 
+- [AEO for SEO: what changes when buyers ask instead of search](https://martechsignal.com/blog/aeo-for-seo-what-changes-when-buyers-ask/) (2026-10-16)
 - [Who eats the spending gap when agentic spend outpaces proof?](https://martechsignal.com/blog/who-eats-the-spending-gap-agentic-proof/) (2026-10-15)
 - [Where manual work hides in marketing automation](https://martechsignal.com/blog/where-manual-work-hides-marketing-automation/) (2026-10-14)
 - [Amazon's Agentic Ads Ship With Brand Controls](https://martechsignal.com/blog/amazon-agentic-ad-formats-brand-controls/) (2026-10-09)
@@ -428,7 +429,7 @@
 ## Machine-readable data
 
 - [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 171 records = 169 active + 2 non-active; the directory above lists only active tools
-- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 326 entries with representativeQueries (specVersion 1.0)
+- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 327 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows
 

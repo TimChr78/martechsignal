@@ -139,7 +139,7 @@ Last verified 2026-09-28.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Claude SEO - 18,878 stars, +3,782 in the 51-snapshot window to 2026-10-14 15,096→18,878 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
+- Claude SEO - 19,010 stars, +3,914 in the 52-snapshot window to 2026-10-16 15,096→19,010 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
 [All movers on the trending page](/trending/).
 
 ## Get the next teardown

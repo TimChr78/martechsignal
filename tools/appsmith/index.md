@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Appsmith
-Re-check pending: pricing last verified 2026-09-07 (38 days ago).
+Re-check pending: pricing last verified 2026-09-07 (39 days ago).
 
 ## Appsmith review (2026): pricing, AI features, verdict
 
@@ -112,7 +112,7 @@ The safest default in the open-source internal-tools class: Apache 2.0 core, the
 | --- | --- |
 | ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $15/user/mo once past the free tier |
 | ✓ AI capabilities: ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3) |  |
-| ✓ Active public repository (41,060 GitHub stars counted at last check) |  |
+| ✓ Active public repository (41,068 GitHub stars counted at last check) |  |
 | ✓ Native integrations include PostgreSQL, MySQL, MongoDB (13 listed) |  |
 
 ## Related concepts
@@ -130,7 +130,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Appsmith?**
-Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 41,060 stars.
+Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 41,068 stars.
 
 **How much does Appsmith cost?**
 Appsmith has a free tier; paid plans start at $15/user/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -157,15 +157,15 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 
 - **Pricing:** Open-core from $15/user/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 41060
+- **GitHub:** ★ 41068
 - **API:** Yes
-- **Repository checked:** 2026-10-14
+- **Repository checked:** 2026-10-16
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

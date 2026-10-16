@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Phrasee
-Re-check pending: pricing last verified 2026-09-07 (38 days ago).
+Re-check pending: pricing last verified 2026-09-07 (39 days ago).
 
 ## Phrasee review (2026): pricing, AI features, verdict
 
@@ -154,8 +154,8 @@ Vendor-published results range widely. Currys reports 42% uplift in opens, 93% i
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Best for AI content & copywriting teams that want ai tone-of-voice analysis, with pricing quoted per contract.

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Ghost
-Re-check pending: pricing last verified 2026-08-28 (48 days ago).
+Re-check pending: pricing last verified 2026-08-28 (49 days ago).
 
 ## Ghost review (2026): pricing, AI features, verdict
 
@@ -85,7 +85,7 @@ Choose Ghost for editorial sites with paid membership intent. Skip it if you nee
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $9/mo |
 | ✓ AI capabilities: AI writing assistant |  |
-| ✓ Active public repository (55,531 GitHub stars counted at last check) |  |
+| ✓ Active public repository (55,544 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Zapier, Slack, WordPress import (7 listed) |  |
 
 ## Related concepts
@@ -101,7 +101,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Ghost?**
-Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Ghost ships with AI writing assistant. The public repository carries 55,531 stars.
+Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Ghost ships with AI writing assistant. The public repository carries 55,544 stars.
 
 **How much does Ghost cost?**
 Ghost has a free tier; paid plans start at $9/mo. Self-hosted free (MIT); Cloud Starter $9/mo; Creator $29/mo; Team $79/mo; Business $199/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -118,17 +118,17 @@ Choose Ghost for editorial sites with paid membership intent. Skip it if you nee
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
-- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $9/mo
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **GitHub:** ★ 55531
+- **GitHub:** ★ 55544
 - **Founded:** 2013
 - **HQ:** Singapore
 - **API:** Yes
-- **Repository checked:** 2026-10-14
+- **Repository checked:** 2026-10-16
 - **Page updated:** 2026-08-28
 
 ## Get the next teardown

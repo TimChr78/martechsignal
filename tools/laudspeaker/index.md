@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Laudspeaker
-Re-check pending: pricing last verified 2026-08-28 (48 days ago).
+Re-check pending: pricing last verified 2026-08-28 (49 days ago).
 
 ## Laudspeaker review (2026): pricing, AI features, verdict
 
@@ -73,7 +73,7 @@ The open-source Braze alternative for technical growth teams that want data owne
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI-powered messaging |  |
-| ✓ Active public repository (2,629 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,627 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -90,10 +90,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Laudspeaker?**
-Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Laudspeaker ships with AI-powered messaging. The public repository carries 2,629 stars.
+Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Laudspeaker ships with AI-powered messaging. The public repository carries 2,627 stars.
 
 **How much does Laudspeaker cost?**
-Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,629 stars. You pay in server time and maintenance, not licences.
+Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,627 stars. You pay in server time and maintenance, not licences.
 
 **Is Laudspeaker a good self-hosted Marketing Automation tool in 2026?**
 The open-source Braze alternative for technical growth teams that want data ownership. Others go hosted.
@@ -117,9 +117,9 @@ The open-source Braze alternative for technical growth teams that want data owne
 
 - **Pricing:** Open Source
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 2629
+- **GitHub:** ★ 2627
 - **API:** Yes
-- **Repository checked:** 2026-10-14
+- **Repository checked:** 2026-10-16
 - **Page updated:** 2026-08-28
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)

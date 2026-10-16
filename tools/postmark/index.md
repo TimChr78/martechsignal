@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Postmark
-Re-check pending: pricing last verified 2026-09-07 (38 days ago).
+Re-check pending: pricing last verified 2026-09-07 (39 days ago).
 
 ## Postmark review (2026): pricing, AI features, verdict
 

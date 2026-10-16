@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Strapi
-Re-check pending: pricing last verified 2026-08-28 (48 days ago).
+Re-check pending: pricing last verified 2026-08-28 (49 days ago).
 
 ## Strapi review (2026): pricing, AI features, verdict
 
@@ -87,7 +87,7 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $99/mo |
 | ✓ AI capabilities: AI content generation |  |
-| ✓ Active public repository (73,301 GitHub stars counted at last check) |  |
+| ✓ Active public repository (73,319 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Next.js, Nuxt, Gatsby (8 listed) |  |
 
 ## Related concepts
@@ -103,7 +103,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Strapi?**
-Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,301 stars.
+Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,319 stars.
 
 **How much does Strapi cost?**
 Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -120,8 +120,8 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Teams that want a headless CMS with AI inside their own stack
@@ -129,11 +129,11 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 
 - **Pricing:** Open Source from $99/mo
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **GitHub:** ★ 73301
+- **GitHub:** ★ 73319
 - **Founded:** 2015
 - **HQ:** Paris, France
 - **API:** Yes
-- **Repository checked:** 2026-10-14
+- **Repository checked:** 2026-10-16
 - **Page updated:** 2026-08-28
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)

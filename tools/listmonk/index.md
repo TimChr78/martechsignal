@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Listmonk
-Re-check pending: pricing last verified 2026-08-28 (48 days ago).
+Re-check pending: pricing last verified 2026-08-28 (49 days ago).
 
 ## Listmonk review (2026): pricing, AI features, verdict
 
@@ -81,7 +81,7 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: AI-assisted template editing |  |
-| ✓ Active public repository (23,776 GitHub stars counted at last check) |  |
+| ✓ Active public repository (23,799 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -96,10 +96,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Listmonk?**
-Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 23,776 stars.
+Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 23,799 stars.
 
 **How much does Listmonk cost?**
-Listmonk is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 23,776 stars; native integrations cover PostgreSQL, SMTP, Zapier. You pay in server time and maintenance, not licences.
+Listmonk is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 23,799 stars; native integrations cover PostgreSQL, SMTP, Zapier. You pay in server time and maintenance, not licences.
 
 **Is Listmonk a good self-hosted Email Marketing tool in 2026?**
 The strongest self-hosted mailing platform in this catalog; bring your own forms and workflows.
@@ -123,11 +123,11 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 23776
+- **GitHub:** ★ 23799
 - **Founded:** 2019
 - **HQ:** Bangalore, India
 - **API:** Yes
-- **Repository checked:** 2026-10-14
+- **Repository checked:** 2026-10-16
 - **Page updated:** 2026-08-28
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)

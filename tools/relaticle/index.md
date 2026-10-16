@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Relaticle
-Re-check pending: pricing last verified 2026-09-07 (38 days ago).
+Re-check pending: pricing last verified 2026-09-07 (39 days ago).
 
 ## Relaticle review (2026): pricing, AI features, verdict
 
@@ -104,7 +104,7 @@ A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: 
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/workspace/mo |
 | ✓ AI capabilities: native AI agent support |  |
-| ✓ Active public repository (1,764 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,769 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -121,7 +121,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Relaticle?**
-Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,764 stars.
+Relaticle: Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. Relaticle ships with native AI agent support. The public repository carries 1,769 stars.
 
 **How much does Relaticle cost?**
 Relaticle has a free tier; paid plans start at $19/workspace/mo. Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -153,10 +153,10 @@ Self-hosting is free under AGPL-3.0 with unlimited users and records on your own
 
 - **Pricing:** Open Source from $19/workspace/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 1764
+- **GitHub:** ★ 1769
 - **Founded:** 2024
 - **API:** Yes
-- **Repository checked:** 2026-10-14
+- **Repository checked:** 2026-10-16
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

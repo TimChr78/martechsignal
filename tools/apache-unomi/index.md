@@ -77,7 +77,7 @@ A real CDP with privacy controls that you fully own and fully operate. The price
 
 | Pros | Cons |
 | --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (378 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Young project (380 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ The privacy REST API covers consent, anonymization, and profile deletion out of the box, with no paid tier in front of it. | ✗ No commercial cloud tier and no paid support exist, so every operational problem belongs to your team. |
 | ✓ Running on Karaf as an OSGi bundle makes new conditions and actions pluggable without forking the core. | ✗ The quick start is a discovery setup; production hardening is documented but manual, and there is no default UI for privacy or configuration. |
 | ✓ Elasticsearch or MongoDB for storage and REST with JSON everywhere keeps the integration surface conventional. | ✗ 378 GitHub stars means a small contributor base and little third-party tooling around the core. |
@@ -96,10 +96,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Apache Unomi?**
-Apache Unomi: Apache's open-source customer data platform and personalization engine. The public repository carries 378 stars. Apache Unomi offers a public API for custom integrations.
+Apache Unomi: Apache's open-source customer data platform and personalization engine. The public repository carries 380 stars. Apache Unomi offers a public API for custom integrations.
 
 **How much does Apache Unomi cost?**
-Apache Unomi is open source - Apache-2.0 licensed and free to self-host; the public repository carries 378 stars; native integrations cover Apache Karaf, Elasticsearch, MongoDB. You pay in server time and maintenance, not licences.
+Apache Unomi is open source - Apache-2.0 licensed and free to self-host; the public repository carries 380 stars; native integrations cover Apache Karaf, Elasticsearch, MongoDB. You pay in server time and maintenance, not licences.
 
 **Is Apache Unomi a good self-hosted Personalization & CDP tool in 2026?**
 A real CDP with privacy controls that you fully own and fully operate. The price is Java operations work and a small ecosystem, measured in attention rather than dollars.
@@ -132,10 +132,10 @@ Not a marketer-facing one. Unomi is a REST server, and the privacy and configura
 
 - **Pricing:** Open Source
 - **Category:** [Personalization & CDP](/categories/personalization/)
-- **GitHub:** ★ 378
+- **GitHub:** ★ 380
 - **HQ:** Apache Software Foundation (community-governed)
 - **API:** Yes
-- **Repository checked:** 2026-10-14
+- **Repository checked:** 2026-10-16
 - **Page updated:** 2026-09-25
 
 Related guides: [Cdp](/best/cdp/)

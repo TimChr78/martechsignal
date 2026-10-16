@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - OpenSEO
-Re-check pending: pricing last verified 2026-09-07 (38 days ago).
+Re-check pending: pricing last verified 2026-09-07 (39 days ago).
 
 ## OpenSEO review (2026): pricing, AI features, verdict
 
@@ -91,7 +91,7 @@ A fast-moving self-hosted SEO workbench with a genuine AI-visibility layer and u
 | Pros | Cons |
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $10/mo |
-| ✓ Active public repository (23,500 GitHub stars counted at last check) |  |
+| ✓ Active public repository (23,764 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -108,7 +108,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is OpenSEO?**
-OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 23,500 stars.
+OpenSEO: Open source alternative to Ahrefs and Semrush. The public repository carries 23,764 stars.
 
 **How much does OpenSEO cost?**
 OpenSEO has a free tier; paid plans start at $10/mo. Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -135,17 +135,17 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $10/mo
 - **Category:** [SEO & Search](/categories/seo/)
-- **GitHub:** ★ 23500
+- **GitHub:** ★ 23764
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** No
-- **Repository checked:** 2026-10-14
+- **Repository checked:** 2026-10-16
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown
