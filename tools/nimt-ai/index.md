@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Nimt.ai
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## Nimt.ai review (2026): pricing, AI features, verdict
 
 AI search tracking across 8 models with an agent that writes, fixes, and outreaches

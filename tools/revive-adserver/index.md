@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Revive Adserver
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## Revive Adserver review (2026): pricing, AI features, verdict
 
 Free open source ad server for publishers, ad networks and advertisers

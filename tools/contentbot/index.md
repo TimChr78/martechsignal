@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - ContentBot
-Re-check pending: pricing last verified 2026-08-28 (49 days ago).
+Re-check pending: pricing last verified 2026-08-28 (50 days ago).
 
 ## ContentBot review (2026): pricing, AI features, verdict
 
@@ -110,8 +110,8 @@ Good value for high-volume, template-driven content pipelines. Teams doing premi
 
 ## Similar Tools
 
-- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
 - [Copy.ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
+- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
 - [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
 - [Anyword](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content
 - [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools

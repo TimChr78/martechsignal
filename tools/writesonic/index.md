@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Writesonic
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## Writesonic review (2026): pricing, AI features, verdict
 
 The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform

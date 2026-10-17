@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Snowplow
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## Snowplow review (2026): pricing, AI features, verdict
 
 Customer context infrastructure: behavioral event pipeline for warehouses and AI agents

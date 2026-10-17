@@ -4,8 +4,6 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Northbeam
-Re-check pending: pricing last verified 2026-08-28 (49 days ago).
-
 ## Northbeam review (2026): pricing, AI features, verdict
 
 AI-powered multi-touch attribution and marketing intelligence for ecommerce
@@ -18,7 +16,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Northbeam is a tool in Analytics & Attribution with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Northbeam is a tool in Analytics & Attribution with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-17. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Northbeam →](https://www.northbeam.io)
 
@@ -29,14 +27,14 @@ Northbeam does attribution math for DTC brands serious about incrementality: MMM
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 3/10 | Custom pricing by data volume on monthly billing, aimed at brands above $50K/mo revenue, with no public tier table (the vendor pricing page: [pricing page](https://www.northbeam.io/pricing), verified 2026-08-28). |
-| Feature depth | 7/10 | MTA, media mix modeling, incrementality testing and predictive budget allocation cover the modern attribution stack (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
-| Integrations | 6/10 | Shopify, Meta, Google, TikTok and Snapchat Ads, Klaviyo, Slack and Snowflake documented plus an API (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
-| AI capability | 7/10 | AI attribution modeling, creative analytics and predictive budget allocation are the product's core math (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with data flowing to your warehouse (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2019 with priced bands and a defined ICP above $50K/mo revenue (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
+| Pricing transparency | 3/10 | Custom pricing by data volume on monthly billing, aimed at brands above $50K/mo revenue, with no public tier table (the vendor pricing page: [pricing page](https://www.northbeam.io/pricing), verified 2026-10-17). |
+| Feature depth | 7/10 | MTA, media mix modeling, incrementality testing and predictive budget allocation cover the modern attribution stack (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-10-17). |
+| Integrations | 6/10 | Shopify, Meta, Google, TikTok and Snapchat Ads, Klaviyo, Slack and Snowflake documented plus an API (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-10-17). |
+| AI capability | 7/10 | AI attribution modeling, creative analytics and predictive budget allocation are the product's core math (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-10-17). |
+| Openness | 3/10 | Closed SaaS with data flowing to your warehouse (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-10-17). |
+| Operational maturity | 6/10 | Founded 2019 with priced bands and a defined ICP above $50K/mo revenue (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-10-17). |
 
-Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-10-17 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -107,7 +105,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Northbeam: AI-powered multi-touch attribution and marketing intelligence for ecommerce. Northbeam ships with AI multi-touch attribution. This page documents 8 integrations.
 
 **How much does Northbeam cost?**
-Northbeam uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on data volume; monthly billing; best for brands $50K+/mo revenue. Our last verified read of the pricing model was 2026-08-28; the vendor's pricing page carries the current quote criteria.
+Northbeam uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on data volume; monthly billing; best for brands $50K+/mo revenue. Our last verified read of the pricing model was 2026-10-17; the vendor's pricing page carries the current quote criteria.
 
 **Is Northbeam a good Analytics & Attribution tool in 2026?**
 Credible MTA for heavy paid-media spenders; directional signal, not truth, and priced accordingly.
@@ -133,7 +131,7 @@ Credible MTA for heavy paid-media spenders; directional signal, not truth, and p
 - **Founded:** 2019
 - **HQ:** New York, NY, USA
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-10-17
 
 Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 

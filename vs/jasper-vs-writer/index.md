@@ -2,7 +2,7 @@
 
 ## Jasper vs Writer (2026): pricing, AI features, verdict
 
-Pick Jasper if you want brand-voice copy generation with public pricing, from $39/mo. Pick Writer if you need knowledge-grounded enterprise content and buy through a quoted contract.
+Pick Jasper if you want brand-voice copy generation with public pricing, from $59/mo. Pick Writer if you need knowledge-grounded enterprise content and buy through a quoted contract.
 
 Jasper and Writer end up on the same shortlist. Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform.
 
@@ -17,7 +17,7 @@ Both platforms sell to marketing leadership rather than individual writers, so t
 
 | Tool | Starts at | Pick it when |
 | --- | --- | --- |
-| Jasper | From $39/mo | You want brand-voice copy generation with public pricing, starting at $39/mo. |
+| Jasper | From $59/mo | You want brand-voice copy generation with public pricing, starting at $59/mo. |
 | Writer | Paid | You need knowledge-grounded enterprise content and buy through a quoted contract. |
 
 [Jasper assessment](/tools/jasper/) · [Writer assessment](/tools/writer/)
@@ -33,23 +33,23 @@ Writer
 
 | Dimension | Jasper | Writer |
 | --- | --- | --- |
-| Pricing | From $39/mo | Paid |
+| Pricing | From $59/mo | Paid |
 | Open source | no | no |
 | Integrations listed | 8 listed: Chrome, Surfer SEO, Zapier, HubSpot (+4 more) | 12 listed: Slack, Google Workspace, Microsoft 365, Salesforce (+8 more) |
 | Public API | yes | yes |
 
 ## Priced at volume
 
-Cost picture for one marketing team. All figures checked 2026-09-27 on vendor pricing pages.
+Cost picture for one marketing team. All figures checked 2026-10-17 on vendor pricing pages.
 
 
 | Scenario | Jasper | Writer |
 | --- | --- | --- |
 | Cost basis | Per seat subscription | Quote-based |
 | Free tier | No free tier in the published table | No public price table for anonymous visitors |
-| Entry paid | Creator $39/mo billed annually ($49 month-to-month), one seat | Custom quote (verified Sep 2026) |
-| For a team | Pro at $59/mo billed annually ($69 month-to-month) is the published step up. Business is custom. | Everything is quoted. Expect a conversation about seats, SSO, and governance before you see a number. |
-| Checked | 2026-09-27 | 2026-09-27 |
+| Entry paid | Pro $59/mo billed annually ($69 month-to-month), one seat | Custom quote (verified Sep 2026) |
+| For a team | Business is quoted custom. Pro is the only published tier, step up for campaigns and multiple brand voices. | Everything is quoted. Expect a conversation about seats, SSO, and governance before you see a number. |
+| Checked | 2026-10-17 | 2026-10-17 |
 
 ## Positioning
 
@@ -59,7 +59,7 @@ Cost picture for one marketing team. All figures checked 2026-09-27 on vendor pr
 
 ## Pricing
 
-**Jasper:** Creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom (verified 2026-08-28).
+**Jasper:** Pro $59/mo billed annually or $69/mo month-to-month; Business custom (verified 2026-10-17).
 
 **Writer:** Pricing is paid and quoted per contract, and quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026) (verified 2026-09-25).
 
@@ -95,7 +95,7 @@ Cost picture for one marketing team. All figures checked 2026-09-27 on vendor pr
 
 ## Decision notes
 
-**Jasper:** Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.
+**Jasper:** Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $59/mo.
 
 **Writer:** Pick Writer if you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team.
 
@@ -113,7 +113,7 @@ Neither fits technical documentation with strict terminology control: determinis
 
 ## Who should pick which
 
-- **Pick Jasper if:** you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.
+- **Pick Jasper if:** you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $59/mo.
 - **Pick Writer if:** you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team.
 
 ## Jasper or Writer for brand control?
@@ -130,7 +130,7 @@ Yes. Both are hosted platforms the vendor runs for the buyer. Teams that want AI
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
-Last verified 2026-09-28.
+Last verified 2026-10-17.
 
 ## Browse the hubs behind this comparison
 

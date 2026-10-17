@@ -40,14 +40,6 @@
   "queued_at": "2026-10-06"
  },
  {
-  "slug": "copy-ai",
-  "name": "Copy.ai",
-  "kind": "mismatch",
-  "url": "https://www.copy.ai/prices",
-  "detail": "catalog expects ['49.00'] (USD); page shows ['1000.00', '12000.00', '2.60', '2000.00', '24.00', '24000.00', '288.00', '29.00', '3000.00', '36000.00', '650.00']; missing ['49.00']",
-  "queued_at": "2026-10-12"
- },
- {
   "slug": "hubspot-marketing-hub",
   "name": "HubSpot Marketing Hub",
   "kind": "needs-render",
@@ -64,11 +56,35 @@
   "queued_at": "2026-10-12"
  },
  {
-  "slug": "jasper",
-  "name": "Jasper",
+  "slug": "klaviyo",
+  "name": "Klaviyo",
   "kind": "mismatch",
-  "url": "https://www.jasper.ai/pricing",
-  "detail": "catalog expects ['39.00'] (USD); page shows ['59.00', '69.00']; missing ['39.00']",
-  "queued_at": "2026-10-12"
+  "url": "https://www.klaviyo.com/pricing",
+  "detail": "catalog expects ['20.00'] (USD); page shows ['1.00', '5.00']; missing ['20.00']",
+  "queued_at": "2026-10-17"
+ },
+ {
+  "slug": "listmonk",
+  "name": "Listmonk",
+  "kind": "needs-render",
+  "url": "https://listmonk.app",
+  "detail": "no currency figures in static HTML (likely JS-rendered)",
+  "queued_at": "2026-10-17"
+ },
+ {
+  "slug": "mailchimp",
+  "name": "Mailchimp",
+  "kind": "mismatch",
+  "url": "https://mailchimp.com/pricing/marketing/",
+  "detail": "catalog expects ['13.00'] (USD); page shows ['299.00']; missing ['13.00']",
+  "queued_at": "2026-10-17"
+ },
+ {
+  "slug": "manychat",
+  "name": "ManyChat",
+  "kind": "fetch-error",
+  "url": "https://manychat.com/pricing",
+  "detail": "HTTP 403",
+  "queued_at": "2026-10-17"
  }
 ]

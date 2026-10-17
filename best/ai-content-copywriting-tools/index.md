@@ -10,15 +10,15 @@ Writer fits enterprises that put brand governance ahead of raw output. Persado s
 | [Writer](/tools/writer/) | Paid | No | yes | Enterprises that put brand governance ahead of raw output |
 | [Persado](/tools/persado/) | Enterprise | No | yes | Large senders that want language tested against response data at scale |
 | [Phrasee](/tools/phrasee/) | Enterprise | No | no | Best for AI content & copywriting teams that want ai tone-of-voice analysis, with pricing quoted per contract. |
-| [Jasper](/tools/jasper/) | From $39/mo | No | yes | Marketing teams enforcing one brand voice across many writers |
+| [Jasper](/tools/jasper/) | From $59/mo | No | yes | Marketing teams enforcing one brand voice across many writers |
 | [Anyword](/tools/anyword/) | From $39/mo | No | yes | Performance marketers that want a score before paying to publish |
-| [Copy.ai](/tools/copy-ai/) | Freemium from $49/mo | No | yes | GTM teams that want workflows, not another blank prompt box |
+| [Copy.ai](/tools/copy-ai/) | From $24/mo | No | yes | GTM teams that want workflows, not another blank prompt box |
 | [Hypotenuse AI](/tools/hypotenuse-ai/) | From $56/mo | No | yes | Catalog-heavy stores generating product content in bulk |
 | [Strapi](/tools/strapi/) | Open Source from $99/mo | Yes | yes | Teams that want a headless CMS with AI inside their own stack |
 
 **Our top pick: [Writer](#writer)** — Enterprises that put brand governance ahead of raw output [Try Writer](https://writer.com)
 
-Last verified 2026-09-28.
+Last verified 2026-10-17.
 
 ## How we picked
 
@@ -50,7 +50,7 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Strapi - 73,319 stars, +305 in the 52-snapshot window to 2026-10-16 73,014→73,319 [verify on GitHub](https://github.com/strapi/strapi)
+- Strapi - 73,323 stars, +309 in the 53-snapshot window to 2026-10-17 73,014→73,323 [verify on GitHub](https://github.com/strapi/strapi)
 [All movers on the trending page](/trending/).
 
 ## [Writer](/tools/writer/)
@@ -91,7 +91,7 @@ Vendor: [Official site](https://www.jacquard.com) · [Pricing](https://www.jacqu
 
 ## [Jasper](/tools/jasper/)
 
-Jasper covers the mid-market brand-voice slot on this list. Creator runs $39/mo annual or $49/mo, and Pro runs $59/mo annual or $69/mo. Take Jasper over the quote-based tools for clear tiers and faster signup.
+Jasper covers the mid-market brand-voice slot on this list. Pro runs $59/mo annual or $69/mo, and Business is quoted custom. Take Jasper over the quote-based tools for a public price table and faster signup.
 
 **Verdict:** Marketing teams enforcing one brand voice across many writers
 
@@ -115,13 +115,13 @@ Vendor: [Official site](https://www.anyword.com) · [Pricing](https://www.anywor
 
 ## [Copy.ai](/tools/copy-ai/)
 
-Copy.ai holds the low-friction entry slot here. The free plan allows 2,000 words/mo, and Pro costs $49/mo or $36/mo annual. Start with Copy.ai to begin free and grow into GTM workflows.
+Copy.ai holds the cheapest entry slot now that its free plan is gone: Chat costs $29/mo or $24/mo billed annually, and Growth starts at $1,000/mo. Take Copy.ai when you want GTM workflows rather than another writing tool.
 
 **Verdict:** GTM teams that want workflows, not another blank prompt box
 
 Vendor: [Official site](https://www.copy.ai) · [Pricing](https://www.copy.ai/prices)
 
-**Skip it if the free tier's limits already cover your real volume; the paid tiers are where the full workflow lives.**
+**Skip it if you only need a writing assistant: the platform is built around GTM workflows, and entry starts at $29/mo.**
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 

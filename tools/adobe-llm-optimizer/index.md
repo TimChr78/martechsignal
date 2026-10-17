@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Adobe LLM Optimizer
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## Adobe LLM Optimizer review (2026): pricing, AI features, verdict
 
 Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution

@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Amplitude
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## Amplitude review (2026): pricing, AI features, verdict
 
 AI-powered digital analytics platform for product and marketing teams

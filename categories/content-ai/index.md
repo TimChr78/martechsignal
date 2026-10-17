@@ -13,8 +13,8 @@ AI copywriting, publishing, and writing tools: drafts, governance, and self-host
 
 - [Anyword](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content (From $39/mo)
 - [ContentBot](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts (Freemium from $9/mo)
-- [Copy.ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale (Freemium from $49/mo)
-- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns (From $39/mo)
+- [Copy.ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale (From $24/mo)
+- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns (From $59/mo)
 - [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles (From $56/mo)
 ## GOVERNED ENTERPRISE WRITING (3)
 
@@ -68,7 +68,7 @@ IF You need daily marketing copy and want to start cheap
 
 [Copy.ai](/tools/copy-ai/) [ContentBot](/tools/contentbot/) [Jasper](/tools/jasper/)
 
-Copy.ai has a free plan at 2,000 words per month and Pro at $49 per month or $36 annual; ContentBot starts at $9 per month with a prepaid per-word option at $0.50 per 1K words; Jasper Creator starts at $39 annual or $49 monthly
+Copy.ai starts at $29 per month for its Chat tier ($24 billed annually) since retiring the free plan; ContentBot starts at $9 per month with a prepaid per-word option at $0.50 per 1K words; Jasper starts at $59 per month billed annually ($69 monthly)
 
 IF You need scored or governed copy with brand control
 

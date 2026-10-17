@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Krayin CRM
-Re-check pending: pricing last verified 2026-09-07 (39 days ago).
+Re-check pending: pricing last verified 2026-09-07 (40 days ago).
 
 ## Krayin CRM review (2026): pricing, AI features, verdict
 
@@ -150,7 +150,7 @@ Yes, through the built-in import and export layer (the DataTransfer package), wh
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 24014
 - **API:** Yes
-- **Repository checked:** 2026-10-16
+- **Repository checked:** 2026-10-17
 - **Page updated:** 2026-09-07
 
 Related guides: [Open Source Crm](/best/open-source-crm/)

@@ -20,7 +20,7 @@ Outputs (all under tools/):
   .reverify-queue.json  mismatch/needs-render/error items with evidence
   tools.json            date_updated bumps on CONFIRM only
 
-Exit 1 when the queue is non-empty so the cron status surfaces it.
+Exit 1 when the queue is non-empty (findings, not a run failure: the cron\nrunner prints the queue and still exits 0; a crash also exits 1 but prints no\nQUEUE-NONEMPTY marker, which is what separates the two).
 Stdlib only. Safe for no_agent cron.
 """
 import argparse

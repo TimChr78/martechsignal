@@ -163,5 +163,49 @@
   "status": "mismatch",
   "last_check": "2026-10-12",
   "backoff_until": "2026-11-11"
+ },
+ "klaviyo": {
+  "etag": "",
+  "lastmod": "",
+  "status": "mismatch",
+  "last_check": "2026-10-17",
+  "backoff_until": "2026-11-16"
+ },
+ "laudspeaker": {
+  "status": "homepage-ERR:URLError",
+  "errors": 1,
+  "backoff_until": "2026-10-24"
+ },
+ "listmonk": {
+  "etag": "\"6ad1ccd9-2a8d\"",
+  "lastmod": "Fri, 16 Oct 2026 07:06:01 GMT",
+  "status": "needs-render",
+  "last_check": "2026-10-17",
+  "backoff_until": "2026-11-16"
+ },
+ "mailchimp": {
+  "etag": "",
+  "lastmod": "",
+  "status": "mismatch",
+  "last_check": "2026-10-17",
+  "backoff_until": "2026-11-16"
+ },
+ "manychat": {
+  "status": "fetch-403",
+  "errors": 1,
+  "last_check": "2026-10-17",
+  "backoff_until": "2026-10-24"
+ },
+ "multipost-extension": {
+  "status": "no-pricing-link",
+  "backoff_until": "2027-01-15"
+ },
+ "northbeam": {
+  "etag": "",
+  "lastmod": "Sat, 17 Oct 2026 08:53:35 GMT",
+  "status": "confirmed",
+  "last_check": "2026-10-17",
+  "errors": 0,
+  "backoff_until": ""
  }
 }

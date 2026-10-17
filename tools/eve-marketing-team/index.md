@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Eve Marketing Team Template
-Re-check pending: pricing last verified 2026-08-31 (46 days ago).
+Re-check pending: pricing last verified 2026-08-31 (47 days ago).
 
 KIND: Utility (not an end-to-end platform)
 

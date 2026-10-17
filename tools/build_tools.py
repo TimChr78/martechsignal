@@ -3804,6 +3804,18 @@ def sync_date_modified():
         # alternatives/zapier at its visible price-check date after the
         # builder correctly emitted the content_updated restamp. Dateless
         # pages are unaffected (no candidates means the blame path below).
+        # r37 L-50 (2026-10-17): glossary leaves declare dateModified from
+        # tools/glossary.json block blame and show it as "Definition last
+        # Updated". That visible time is excluded above as a derived note, so a
+        # leaf carried no declared candidate at all and fell through to repo
+        # blame: one content churn (star sync) restamped 28 genuine term dates
+        # to the last deploy date. A DefinedTerm block is the page's own
+        # declared authority for its date, so it seeds the candidates. Dateless
+        # pages still take the blame path.
+        if not _cands and '"@type": "DefinedTerm"' in _s:
+            _fm0 = _re.search('"dateModified"' + chr(92) + 's*:' + chr(92) + 's*"([0-9-]{10})"', _s)
+            if _fm0:
+                _cands.append(_fm0.group(1))
         if _cands:
             _dd = chr(92) + 'd'
             _fm = _re.search('"dateModified"' + _dd + '*' + ':' + _dd + '*"' + '([0-9-]{10})"', _s)

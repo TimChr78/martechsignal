@@ -49,14 +49,14 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Claude SEO - 19,010 stars, +3,914 in the 52-snapshot window to 2026-10-16 15,096→19,010 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
-- Claude Ads - 10,018 stars, +1,545 in the 52-snapshot window to 2026-10-16 8,473→10,018 [verify on GitHub](https://github.com/AgriciDaniel/claude-ads)
-- Google Ads + Meta Ads + GA4 MCP - 5,047 stars, +3,979 in the 52-snapshot window to 2026-10-16 1,068→5,047 [verify on GitHub](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
-- Digital Marketing Pro - 890 stars, +122 in the 50-snapshot window to 2026-10-16 768→890 [verify on GitHub](https://github.com/indranilbanerjee/digital-marketing-pro)
-- Email Marketing Bible - 342 stars, +63 in the 52-snapshot window to 2026-10-16 279→342 [verify on GitHub](https://github.com/CosmoBlk/email-marketing-bible)
-- Zapier GTM Cheat Codes - 343 stars, +11 in the 45-snapshot window to 2026-10-16 332→343 [verify on GitHub](https://github.com/zapier/gtm-cheat-codes)
-- Eve Marketing Team Template - 453 stars, +23 in the 45-snapshot window to 2026-10-16 430→453 [verify on GitHub](https://github.com/vercel-labs/marketing-team-eve-template)
-- OpenClaw Marketing Skills - 1,045 stars, +6 in the 52-snapshot window to 2026-10-16 1,039→1,045 [verify on GitHub](https://github.com/LeoYeAI/openclaw-marketing-skills)
+- Claude SEO - 19,075 stars, +3,979 in the 53-snapshot window to 2026-10-17 15,096→19,075 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
+- Claude Ads - 10,049 stars, +1,576 in the 53-snapshot window to 2026-10-17 8,473→10,049 [verify on GitHub](https://github.com/AgriciDaniel/claude-ads)
+- Google Ads + Meta Ads + GA4 MCP - 5,086 stars, +4,018 in the 53-snapshot window to 2026-10-17 1,068→5,086 [verify on GitHub](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
+- Digital Marketing Pro - 892 stars, +124 in the 51-snapshot window to 2026-10-17 768→892 [verify on GitHub](https://github.com/indranilbanerjee/digital-marketing-pro)
+- Email Marketing Bible - 343 stars, +64 in the 53-snapshot window to 2026-10-17 279→343 [verify on GitHub](https://github.com/CosmoBlk/email-marketing-bible)
+- Zapier GTM Cheat Codes - 343 stars, +11 in the 46-snapshot window to 2026-10-17 332→343 [verify on GitHub](https://github.com/zapier/gtm-cheat-codes)
+- Eve Marketing Team Template - 453 stars, +23 in the 46-snapshot window to 2026-10-17 430→453 [verify on GitHub](https://github.com/vercel-labs/marketing-team-eve-template)
+- OpenClaw Marketing Skills - 1,046 stars, +7 in the 53-snapshot window to 2026-10-17 1,039→1,046 [verify on GitHub](https://github.com/LeoYeAI/openclaw-marketing-skills)
 [All movers on the trending page](/trending/).
 
 ## [Claude SEO](/tools/claude-seo/)

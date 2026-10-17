@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Rankscale
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## Rankscale review (2026): pricing, AI features, verdict
 
 AI visibility tracking across 17+ answer engines for agencies and enterprise teams

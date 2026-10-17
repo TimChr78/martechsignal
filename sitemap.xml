@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://martechsignal.com/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://martechsignal.com/checklist/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/blog/agents-identity-debt/</loc><lastmod>2026-09-25</lastmod></url>
   <url><loc>https://martechsignal.com/blog/ai-agents-need-campaign-state/</loc><lastmod>2026-09-27</lastmod></url>
@@ -56,7 +56,7 @@
   <url><loc>https://martechsignal.com/blog/where-manual-work-hides-marketing-automation/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://martechsignal.com/blog/who-eats-the-spending-gap-agentic-proof/</loc><lastmod>2026-10-15</lastmod></url>
   <url><loc>https://martechsignal.com/blog/aeo-for-seo-what-changes-when-buyers-ask/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://martechsignal.com/tools/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://martechsignal.com/tools/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://martechsignal.com/contact/</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://martechsignal.com/corrections/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/about/</loc><lastmod>2026-10-05</lastmod></url>
@@ -93,7 +93,7 @@
   <url><loc>https://martechsignal.com/tools/clerk-io/</loc><lastmod>2026-09-25</lastmod></url>
   <url><loc>https://martechsignal.com/tools/codex-seo/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://martechsignal.com/tools/contentbot/</loc><lastmod>2026-08-28</lastmod></url>
-  <url><loc>https://martechsignal.com/tools/copy-ai/</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://martechsignal.com/tools/copy-ai/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://martechsignal.com/tools/cordys-crm/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://martechsignal.com/tools/customer-io/</loc><lastmod>2026-09-06</lastmod></url>
   <url><loc>https://martechsignal.com/tools/deskcommcrm/</loc><lastmod>2026-09-14</lastmod></url>
@@ -118,7 +118,7 @@
   <url><loc>https://martechsignal.com/tools/hypotenuse-ai/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://martechsignal.com/tools/idurar-erp-crm/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://martechsignal.com/tools/intercom/</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://martechsignal.com/tools/jasper/</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://martechsignal.com/tools/jasper/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://martechsignal.com/tools/klaviyo/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://martechsignal.com/tools/krayin-crm/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://martechsignal.com/tools/langchain/</loc><lastmod>2026-08-28</lastmod></url>
@@ -143,7 +143,7 @@
   <url><loc>https://martechsignal.com/tools/n8n-marketing-flows/</loc><lastmod>2026-08-31</lastmod></url>
   <url><loc>https://martechsignal.com/tools/nocobase/</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>https://martechsignal.com/tools/nocodb/</loc><lastmod>2026-09-07</lastmod></url>
-  <url><loc>https://martechsignal.com/tools/northbeam/</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://martechsignal.com/tools/northbeam/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://martechsignal.com/tools/nosto/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://martechsignal.com/tools/notifo/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://martechsignal.com/tools/notifuse/</loc><lastmod>2026-08-28</lastmod></url>
@@ -242,7 +242,7 @@
   <url><loc>https://martechsignal.com/categories/marketing-automation/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/categories/email-marketing/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://martechsignal.com/categories/crm/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/content-ai/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/content-ai/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://martechsignal.com/categories/analytics/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/categories/social-media/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/categories/advertising/</loc><lastmod>2026-10-05</lastmod></url>
@@ -253,7 +253,7 @@
   <url><loc>https://martechsignal.com/categories/workflow-automation/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/categories/agent-skills/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://martechsignal.com/categories/open-source/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://martechsignal.com/glossary/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/glossary/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/abm/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/agentic-marketing/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/ai-agent/</loc><lastmod>2026-10-05</lastmod></url>
@@ -297,7 +297,7 @@
   <url><loc>https://martechsignal.com/best/agent-skills-tools/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/best/ai-advertising-tools/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/best/ai-chatbot-tools/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://martechsignal.com/best/ai-content-copywriting-tools/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://martechsignal.com/best/ai-content-copywriting-tools/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://martechsignal.com/best/ai-crm-tools/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/best/ai-email-marketing-tools/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/best/ai-marketing-automation-tools/</loc><lastmod>2026-10-06</lastmod></url>
@@ -313,7 +313,7 @@
   <url><loc>https://martechsignal.com/vs/activecampaign-vs-hubspot/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/vs/activecampaign-vs-klaviyo/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/vs/claude-seo-vs-semrush/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/vs/jasper-vs-writer/</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://martechsignal.com/vs/jasper-vs-writer/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://martechsignal.com/vs/mailchimp-vs-brevo/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/vs/mailchimp-vs-klaviyo/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/vs/make-vs-zapier/</loc><lastmod>2026-10-05</lastmod></url>

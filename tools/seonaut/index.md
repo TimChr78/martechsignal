@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Seonaut
-Re-check pending: pricing last verified 2026-09-07 (39 days ago).
+Re-check pending: pricing last verified 2026-09-07 (40 days ago).
 
 ## Seonaut review (2026): pricing, AI features, verdict
 
@@ -24,7 +24,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 30/60
 
-Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 806 stars; small, legible and honest about scope.
+Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 808 stars; small, legible and honest about scope.
 
 
 | Pillar | Score | Evidence |

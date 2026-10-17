@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Evertune
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## Evertune review (2026): pricing, AI features, verdict
 
 GEO visibility measurement with content activation and a ChatGPT Ad Agent

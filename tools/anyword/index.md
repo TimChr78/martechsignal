@@ -111,9 +111,9 @@ Valuable when you need an instant, numbers-based copy check across many channels
 ## Similar Tools
 
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [Copy.ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
 - [ContentBot](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
-- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
 - [LibreTranslate](/tools/libretranslate/): Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
 ## Related reading
 

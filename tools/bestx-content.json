@@ -455,7 +455,7 @@
    "slug": "ai-content-copywriting-tools",
    "title": "Best AI Content & Copywriting tools (2026): 8 compared",
    "seo_title": "Best AI Content & Copywriting tools (2026): 8 compared",
-   "meta": "Jasper from $39/mo, Anyword from $39/mo. 8 ai content & copywriting tools compared on pricing, AI features, and integrations.",
+   "meta": "Jasper from $59/mo, Anyword from $39/mo. 8 ai content & copywriting tools compared on pricing, AI features, and integrations.",
    "intro": [
     "Thirteen content and copywriting tools are catalogued. Eight made the list. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
     "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
@@ -482,7 +482,7 @@
     {
      "slug": "jasper",
      "verdict": "Marketing teams enforcing one brand voice across many writers",
-     "assessment": "Jasper covers the mid-market brand-voice slot on this list. Creator runs $39/mo annual or $49/mo, and Pro runs $59/mo annual or $69/mo. Take Jasper over the quote-based tools for clear tiers and faster signup.",
+     "assessment": "Jasper covers the mid-market brand-voice slot on this list. Pro runs $59/mo annual or $69/mo, and Business is quoted custom. Take Jasper over the quote-based tools for a public price table and faster signup.",
      "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics."
     },
     {
@@ -494,8 +494,8 @@
     {
      "slug": "copy-ai",
      "verdict": "GTM teams that want workflows, not another blank prompt box",
-     "assessment": "Copy.ai holds the low-friction entry slot here. The free plan allows 2,000 words/mo, and Pro costs $49/mo or $36/mo annual. Start with Copy.ai to begin free and grow into GTM workflows.",
-     "skip_if": "Skip it if the free tier's limits already cover your real volume; the paid tiers are where the full workflow lives."
+     "assessment": "Copy.ai holds the cheapest entry slot now that its free plan is gone: Chat costs $29/mo or $24/mo billed annually, and Growth starts at $1,000/mo. Take Copy.ai when you want GTM workflows rather than another writing tool.",
+     "skip_if": "Skip it if you only need a writing assistant: the platform is built around GTM workflows, and entry starts at $29/mo."
     },
     {
      "slug": "hypotenuse-ai",
@@ -511,7 +511,7 @@
     }
    ],
    "date_published": "2026-09-27",
-   "date_updated": "2026-09-28",
+   "date_updated": "2026-10-17",
    "direct_answer": "Writer fits enterprises that put brand governance ahead of raw output. Persado suits large senders testing language against response data. Phrasee does tone-of-voice analysis. Jasper keeps one brand voice across many writers. Copy.ai covers volume drafting but sits lower here, because governance beats output.",
    "pilot_faq": [
     {
@@ -527,7 +527,7 @@
      "a": "Persado for large senders that want wording tested against response data at scale, Phrasee for tone-of-voice analysis. Strapi is the odd one out: a headless CMS with AI inside your own stack, not a copy generator."
     }
    ],
-   "content_updated": "2026-10-06"
+   "content_updated": "2026-10-17"
   },
   {
    "slug": "marketing-analytics-tools",

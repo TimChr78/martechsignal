@@ -29,7 +29,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** yes
 - **Catalogued integrations:** 9
-- **GitHub stars:** 2,172
+- **GitHub stars:** 2,173
 - **Last release:** v4.0.0 (2026-10-12)
 
 The full rubric is on the [methodology page](/methodology/).
@@ -96,7 +96,7 @@ A clean, MIT-licensed self-hosted newsletter sender for PHP shops, freshly updat
 | Pros | Cons |
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ Active public repository (2,172 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,173 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Amazon SES, Mailgun, SendGrid (9 listed) |  |
 
 ## Related concepts
@@ -112,10 +112,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is SendPortal?**
-SendPortal: Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server. The public repository carries 2,172 stars. SendPortal offers a public API for custom integrations.
+SendPortal: Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server. The public repository carries 2,173 stars. SendPortal offers a public API for custom integrations.
 
 **How much does SendPortal cost?**
-SendPortal is open source - MIT licensed and free to self-host; the public repository carries 2,172 stars; native integrations cover Amazon SES, Mailgun, SendGrid. You pay in server time and maintenance, not licences.
+SendPortal is open source - MIT licensed and free to self-host; the public repository carries 2,173 stars; native integrations cover Amazon SES, Mailgun, SendGrid. You pay in server time and maintenance, not licences.
 
 **Is SendPortal a good self-hosted Email Marketing tool in 2026?**
 A clean, MIT-licensed self-hosted newsletter sender for PHP shops, freshly updated to Laravel 13 after a long quiet period. No AI and no automation, so the subscription money you save is paid back in features you do not get.
@@ -148,11 +148,11 @@ The most recent release in our catalog is v4.0.0 (2026-10-12). For the full hist
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 2172
+- **GitHub:** ★ 2173
 - **Founded:** 2020
 - **HQ:** London, UK
 - **API:** Yes
-- **Repository checked:** 2026-10-16
+- **Repository checked:** 2026-10-17
 - **Page updated:** 2026-10-15
 
 ## Get the next teardown

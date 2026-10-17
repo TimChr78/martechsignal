@@ -4,13 +4,11 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Copy.ai
-Re-check pending: pricing last verified 2026-08-28 (49 days ago).
-
 ## Copy.ai review (2026): pricing, AI features, verdict
 
 AI-powered GTM platform for sales and marketing content automation at scale
 
-AI Content & Copywriting · Freemium from $49/mo Desk-reviewed
+AI Content & Copywriting · From $24/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -18,29 +16,29 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Copy.ai is a tool in AI Content & Copywriting with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Copy.ai is a tool in AI Content & Copywriting with paid plans starting at $24/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-17. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Copy.ai →](https://www.copy.ai)
 
 ## MartechSignal Score: 35/60
 
-Copy.ai has moved from writing helper to GTM workflow automation, and the free plan still exists. Teams wanting a writing tool will find a sales platform; teams wanting the reverse will be happier elsewhere.
+Copy.ai has moved from writing helper to GTM workflow automation, and the free plan is gone. Teams wanting a writing tool will find a sales platform; teams wanting the reverse will be happier elsewhere.
 
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free (2,000 words/mo), Pro $49/mo ($36/mo annual), Enterprise custom, all published (the vendor pricing page: [pricing page](https://www.copy.ai/prices), verified 2026-08-28). |
-| Feature depth | 6/10 | Copy generation, workflow automation, brand voice and sales outreach cover the GTM content surface (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
-| Integrations | 6/10 | Slack, Zapier, HubSpot, Salesforce, Chrome, WordPress, Webflow and Shopify documented plus an API (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
-| AI capability | 6/10 | Workflow automation and sales outreach are the agentic edges of a generation core (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2020 with one of the category's largest free user bases (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
+| Pricing transparency | 8/10 | Chat $29/mo ($24/mo annual), Growth $1,000/mo, Expansion $2,000/mo, Scale $3,000/mo, Enterprise custom, all published (the vendor pricing page: [pricing page](https://www.copy.ai/prices), verified 2026-10-17). |
+| Feature depth | 6/10 | Copy generation, workflow automation, brand voice and sales outreach cover the GTM content surface (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-10-17). |
+| Integrations | 6/10 | Slack, Zapier, HubSpot, Salesforce, Chrome, WordPress, Webflow and Shopify documented plus an API (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-10-17). |
+| AI capability | 6/10 | Workflow automation and sales outreach are the agentic edges of a generation core (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-10-17). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-10-17). |
+| Operational maturity | 6/10 | Founded 2020 with one of the category's largest free user bases (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-10-17). |
 
-Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-10-17 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
-Copy.ai started in 2020 as an AI copywriting tool but has undergone one of the sharper strategic pivots in the AI marketing space, repositioning as a GTM AI platform that orchestrates sales and marketing workflows rather than just generating text. The platform now organizes around go-to-market motions: prospecting (account research, personalized outreach), inbound (lead qualification, meeting prep), content (blog posts, social, email), and deal execution (proposal generation, competitive research). Its Prospecting Cockpit is the standout feature, combining company research, contact data enrichment, and AI-generated outreach sequences in one workflow. Copy.ai offers a large suite of free AI tools that serve as an acquisition funnel for the paid platform. Integrations include Salesforce, HubSpot, Google Workspace, and Slack. The free tier provides limited access; the Pro plan at $49/month includes unlimited words and workflow automation; the enterprise tier adds SSO, dedicated support, and custom workflows. Copy.ai competes with Jasper (agent workspace approach) and Writer (enterprise compliance approach), differentiating on its GTM workflow orchestration. For revenue teams that want AI to participate in the end-to-end sales motion rather than just help with copy, Copy.ai is the most workflow-native option in the category.
+Copy.ai started in 2020 as an AI copywriting tool but has undergone one of the sharper strategic pivots in the AI marketing space, repositioning as a GTM AI platform that orchestrates sales and marketing workflows rather than just generating text. The platform now organizes around go-to-market motions: prospecting (account research, personalized outreach), inbound (lead qualification, meeting prep), content (blog posts, social, email), and deal execution (proposal generation, competitive research). Its Prospecting Cockpit is the standout feature, combining company research, contact data enrichment, and AI-generated outreach sequences in one workflow. Copy.ai offers a large suite of free AI tools that serve as an acquisition funnel for the paid platform. Integrations include Salesforce, HubSpot, Google Workspace, and Slack. The free plan is gone: entry is now the Chat tier at $29/month ($24/month billed annually), then Growth at $1,000/month, Expansion at $2,000/month and Scale at $3,000/month, with Enterprise quoted custom. Copy.ai competes with Jasper (agent workspace approach) and Writer (enterprise compliance approach), differentiating on its GTM workflow orchestration. For revenue teams that want AI to participate in the end-to-end sales motion rather than just help with copy, Copy.ai is the most workflow-native option in the category.
 
 Copy.ai homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -63,9 +61,9 @@ Copy.ai homepage, captured September 2026. Vendor page shown as a dated referenc
 - Shopify
 ## Pricing
 
-Copy.ai is freemium, with a free tier to start, paid plans start at $49/mo as of 2026-08.
+Copy.ai is sold on paid plans, from $24/mo as of 2026-10.
 
-Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom
+Chat $29/mo or $24/mo billed annually; Growth $1,000/mo; Expansion $2,000/mo; Scale $3,000/mo; Enterprise custom
 
 Current plans and limits live on the [Copy.ai pricing page](https://www.copy.ai/prices).
 
@@ -86,9 +84,9 @@ Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure 
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AI capabilities: AI copy generation | ✗ Paid plans start at $49/mo once past the free tier |
+| ✓ AI capabilities: AI copy generation | ✗ Paid plans start at $24/mo |
 | ✓ Native integrations include Slack, Zapier, HubSpot (8 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom) |  |
+| ✓ API access for custom integrations |  |
 
 ## Related concepts
 
@@ -106,33 +104,33 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Copy.ai: AI-powered GTM platform for sales and marketing content automation at scale. Copy.ai ships with AI copy generation. This page documents 8 integrations.
 
 **How much does Copy.ai cost?**
-Copy.ai has a free tier; paid plans start at $49/mo. Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Copy.ai is paid software; plans start at $24/mo. Chat $29/mo or $24/mo billed annually; Growth $1,000/mo; Expansion $2,000/mo; Scale $3,000/mo; Enterprise custom. We last checked that price on 2026-10-17. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
-**Is Copy.ai worth it past the free tier?**
+**Is Copy.ai worth paying for in 2026?**
 Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure content teams have cheaper options.
 
 ## Similar Tools
 
-- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
 - [ContentBot](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
+- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
 - [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
-- [ALwrity](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
+- [Anyword](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — GTM teams that want workflows, not another blank prompt box
 ### Quick Facts
 
-- **Pricing:** Freemium from $49/mo
+- **Pricing:** From $24/mo
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
 - **Founded:** 2020
 - **HQ:** Memphis, TN, USA
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-10-17
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 

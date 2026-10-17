@@ -38,10 +38,10 @@ All 169 tools, grouped by category. Each card links to a full teardown with pric
 
 - [Anyword](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content (From $39/mo)
 - [ContentBot](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts (Freemium from $9/mo)
-- [Copy.ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale (Freemium from $49/mo)
+- [Copy.ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale (From $24/mo)
 - [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools (Open Source from $9/mo)
 - [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles (From $56/mo)
-- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns (From $39/mo)
+- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns (From $59/mo)
 - [Khoj](/tools/khoj/): Self-hosted AI research and writing assistant that chats with your documents and automates content workflows (Open Source)
 - [LanguageTool](/tools/languagetool/): Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages (Freemium)
 - [LibreTranslate](/tools/libretranslate/): Open-source machine translation API for content localization, self-hostable and free of vendor lock-in (Open Source)

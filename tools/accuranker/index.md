@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - AccuRanker
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## AccuRanker review (2026): pricing, AI features, verdict
 
 Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews

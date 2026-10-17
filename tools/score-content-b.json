@@ -1060,11 +1060,11 @@
   {
    "slug": "copy-ai",
    "score_total": 35,
-   "verdict": "Copy.ai has moved from writing helper to GTM workflow automation, and the free plan still exists. Teams wanting a writing tool will find a sales platform; teams wanting the reverse will be happier elsewhere.",
+   "verdict": "Copy.ai has moved from writing helper to GTM workflow automation, and the free plan is gone. Teams wanting a writing tool will find a sales platform; teams wanting the reverse will be happier elsewhere.",
    "pillars": {
     "pricing_transparency": {
      "score": 8,
-     "evidence": "Free (2,000 words/mo), Pro $49/mo ($36/mo annual), Enterprise custom, all published (the vendor pricing page, verified 2026-08-28)."
+     "evidence": "Chat $29/mo ($24/mo annual), Growth $1,000/mo, Expansion $2,000/mo, Scale $3,000/mo, Enterprise custom, all published (the vendor pricing page, verified 2026-10-17)."
     },
     "feature_depth": {
      "score": 6,
@@ -1087,7 +1087,7 @@
      "evidence": "Founded 2020 with one of the category's largest free user bases (vendor documentation)."
     }
    },
-   "scored": "2026-09-28"
+   "scored": "2026-10-17"
   },
   {
    "slug": "cordys-crm",
@@ -1924,11 +1924,11 @@
   {
    "slug": "jasper",
    "score_total": 37,
-   "verdict": "Jasper is the brand-voice-first content platform for marketing teams that publish at volume. At $39/mo entry it is accessible; the value depends entirely on how much brand governance you need.",
+   "verdict": "Jasper is the brand-voice-first content platform for marketing teams that publish at volume. At $59/mo entry it is accessible; the value depends entirely on how much brand governance you need.",
    "pillars": {
     "pricing_transparency": {
      "score": 8,
-     "evidence": "Creator $39/mo annual ($49 monthly), Pro $59/mo annual ($69 monthly), Business custom, all published (the vendor pricing page, verified 2026-08-28)."
+     "evidence": "Pro $59/mo annual ($69 monthly), Business custom, all published (the vendor pricing page, verified 2026-10-17)."
     },
     "feature_depth": {
      "score": 7,
@@ -1951,7 +1951,7 @@
      "evidence": "Founded 2021 with priced self-serve tiers and a large user base behind it (vendor documentation)."
     }
    },
-   "scored": "2026-09-28"
+   "scored": "2026-10-17"
   },
   {
    "slug": "jitsu",
@@ -2792,7 +2792,7 @@
    "pillars": {
     "pricing_transparency": {
      "score": 3,
-     "evidence": "Custom pricing by data volume on monthly billing, aimed at brands above $50K/mo revenue, with no public tier table (the vendor pricing page, verified 2026-08-28)."
+     "evidence": "Custom pricing by data volume on monthly billing, aimed at brands above $50K/mo revenue, with no public tier table (the vendor pricing page, verified 2026-10-17)."
     },
     "feature_depth": {
      "score": 7,
@@ -2815,7 +2815,7 @@
      "evidence": "Founded 2019 with priced bands and a defined ICP above $50K/mo revenue (vendor documentation)."
     }
    },
-   "scored": "2026-09-28"
+   "scored": "2026-10-17"
   },
   {
    "slug": "nosto",

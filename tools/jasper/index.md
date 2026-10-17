@@ -4,13 +4,11 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Jasper
-Re-check pending: pricing last verified 2026-08-28 (49 days ago).
-
 ## Jasper review (2026): pricing, AI features, verdict
 
 AI marketing content platform for creating on-brand copy, images, and campaigns
 
-AI Content & Copywriting · From $39/mo Desk-reviewed
+AI Content & Copywriting · From $59/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
@@ -18,29 +16,29 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** Jasper is a tool in AI Content & Copywriting with paid plans starting at $39/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Jasper is a tool in AI Content & Copywriting with paid plans starting at $59/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-17. This is a desk review, not a hands-on test. Desk-reviewed
 
 [Visit Jasper →](https://www.jasper.ai)
 
 ## MartechSignal Score: 37/60
 
-Jasper is the brand-voice-first content platform for marketing teams that publish at volume. At $39/mo entry it is accessible; the value depends entirely on how much brand governance you need.
+Jasper is the brand-voice-first content platform for marketing teams that publish at volume. At $59/mo entry it is accessible; the value depends entirely on how much brand governance you need.
 
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Creator $39/mo annual ($49 monthly), Pro $59/mo annual ($69 monthly), Business custom, all published (the vendor pricing page: [pricing page](https://www.jasper.ai/pricing), verified 2026-08-28). |
-| Feature depth | 7/10 | Copy, images, campaign workflows and content repurposing cover the marketing content pipeline (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
-| Integrations | 6/10 | Chrome, Surfer SEO, Zapier, HubSpot, WordPress, Webflow, Canva and Google Docs documented plus an API (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
-| AI capability | 7/10 | Brand voice training plus campaign workflows make it more than a writing box (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
-| Operational maturity | 6/10 | Founded 2021 with priced self-serve tiers and a large user base behind it (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
+| Pricing transparency | 8/10 | Pro $59/mo annual ($69 monthly), Business custom, all published (the vendor pricing page: [pricing page](https://www.jasper.ai/pricing), verified 2026-10-17). |
+| Feature depth | 7/10 | Copy, images, campaign workflows and content repurposing cover the marketing content pipeline (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-10-17). |
+| Integrations | 6/10 | Chrome, Surfer SEO, Zapier, HubSpot, WordPress, Webflow, Canva and Google Docs documented plus an API (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-10-17). |
+| AI capability | 7/10 | Brand voice training plus campaign workflows make it more than a writing box (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-10-17). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-10-17). |
+| Operational maturity | 6/10 | Founded 2021 with priced self-serve tiers and a large user base behind it (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-10-17). |
 
-Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-10-17 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
-Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. The platform now offers over 100 specialized AI agents for content creation, campaign management, brand governance, and analytics, organized around marketing workflows rather than isolated content pieces. Campaigns let teams brief an AI agent with brand context, audience data, and campaign goals, then generate coordinated assets across channels (blog posts, social media, email sequences, ad copy) from a single brief. The platform integrates with Google Docs, Chrome, Surfer SEO, Grammarly, and CMS tools, and includes a company knowledge base where teams can upload brand guidelines, product specs, and audience research that all generated content references. Jasper raised over $125 million in venture funding and went through a significant restructuring in 2024-2025, narrowing focus from the broad SMB market to enterprise marketing teams. Pricing starts at $39/month billed annually ($49 month-to-month) for the Creator plan with one user and basic features; the Pro plan at $69/month adds campaigns and multiple brand voices; Business plans with SSO, analytics, and unlimited users are custom-quoted. Jasper competes with Copy.ai (GTM workflows), Writer (enterprise compliance), and ChatGPT Enterprise (general-purpose). Its differentiation is marketing depth: an AI workspace built for how marketing teams operate, rather than a general-purpose AI that can write anything.
+Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. The platform now offers over 100 specialized AI agents for content creation, campaign management, brand governance, and analytics, organized around marketing workflows rather than isolated content pieces. Campaigns let teams brief an AI agent with brand context, audience data, and campaign goals, then generate coordinated assets across channels (blog posts, social media, email sequences, ad copy) from a single brief. The platform integrates with Google Docs, Chrome, Surfer SEO, Grammarly, and CMS tools, and includes a company knowledge base where teams can upload brand guidelines, product specs, and audience research that all generated content references. Jasper raised over $125 million in venture funding and went through a significant restructuring in 2024-2025, narrowing focus from the broad SMB market to enterprise marketing teams. Pricing is now a single published tier: Pro at $59/month billed annually ($69 month-to-month), with Business plans including SSO, analytics, and unlimited users quoted custom. Jasper competes with Copy.ai (GTM workflows), Writer (enterprise compliance), and ChatGPT Enterprise (general-purpose). Its differentiation is marketing depth: an AI workspace built for how marketing teams operate, rather than a general-purpose AI that can write anything.
 
 Jasper homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -63,9 +61,9 @@ Jasper homepage, captured September 2026. Vendor page shown as a dated reference
 - Google Docs
 ## Pricing
 
-Jasper is sold on paid plans, from $39/mo as of 2026-08.
+Jasper is sold on paid plans, from $59/mo as of 2026-10.
 
-Creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom
+Pro $59/mo (billed yearly) or $69/mo (billed monthly); Business custom
 
 Current plans and limits live on the [Jasper pricing page](https://www.jasper.ai/pricing).
 
@@ -106,17 +104,17 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 Jasper: AI marketing content platform for creating on-brand copy, images, and campaigns. Jasper ships with AI copy generation. This page documents 8 integrations.
 
 **How much does Jasper cost?**
-Jasper starts at $39/mo. Creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Jasper starts at $59/mo. Pro $59/mo (billed yearly) or $69/mo (billed monthly); Business custom. We last checked that price on 2026-10-17. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Jasper worth paying for in 2026?**
 Best for enterprises needing brand-governed, multichannel output at scale. Solo users get more from raw models.
 
 ## Similar Tools
 
-- [ContentBot](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
 - [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
+- [ContentBot](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
 - [Copy.ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
-- [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
+- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
 - [Persado](/tools/persado/): AI content creation and optimization platform for regulated financial services marketing
 ## Related reading
 
@@ -126,15 +124,15 @@ Best for enterprises needing brand-governed, multichannel output at scale. Solo 
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Marketing teams enforcing one brand voice across many writers
-- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/) — Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.
+- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/) — Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $59/mo.
 ### Quick Facts
 
-- **Pricing:** From $39/mo
+- **Pricing:** From $59/mo
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
 - **Founded:** 2021
 - **HQ:** Austin, TX, USA
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-10-17
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 

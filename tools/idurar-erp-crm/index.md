@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - IDURAR ERP & CRM
-Re-check pending: pricing last verified 2026-09-07 (39 days ago).
+Re-check pending: pricing last verified 2026-09-07 (40 days ago).
 
 ## IDURAR ERP & CRM review (2026): pricing, AI features, verdict
 
@@ -24,7 +24,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 31/60
 
-IDURAR is a full ERP-CRM-accounting stack under AGPL with 8,879 stars, and lifetime licenses at $5,000 if you want the vendor's hand. Free self-hosting is the honest path for small teams.
+IDURAR is a full ERP-CRM-accounting stack under AGPL with 8,880 stars, and lifetime licenses at $5,000 if you want the vendor's hand. Free self-hosting is the honest path for small teams.
 
 
 | Pillar | Score | Evidence |
@@ -145,7 +145,7 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 8880
 - **API:** Yes
-- **Repository checked:** 2026-10-16
+- **Repository checked:** 2026-10-17
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

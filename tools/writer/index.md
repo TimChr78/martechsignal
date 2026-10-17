@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Writer
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## Writer review (2026): pricing, AI features, verdict
 
 Enterprise AI platform with Palmyra models, brand governance, and agents
@@ -150,8 +152,8 @@ Published in the developer docs: Palmyra X6 at $2 per million input tokens and $
 ## Similar Tools
 
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
-- [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
 - [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
+- [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
 - [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
 - [LanguageTool](/tools/languagetool/): Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
 ## Related reading

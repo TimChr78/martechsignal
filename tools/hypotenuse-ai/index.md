@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Hypotenuse AI
-Re-check pending: pricing last verified 2026-08-28 (49 days ago).
+Re-check pending: pricing last verified 2026-08-28 (50 days ago).
 
 ## Hypotenuse AI review (2026): pricing, AI features, verdict
 
@@ -112,8 +112,8 @@ A strong specialist for bulk product catalog content at scale. General writing n
 
 ## Similar Tools
 
-- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
+- [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
 - [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
 - [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
 - [Strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design

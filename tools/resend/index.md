@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Resend
-Re-check pending: pricing last verified 2026-09-07 (39 days ago).
+Re-check pending: pricing last verified 2026-09-07 (40 days ago).
 
 ## Resend review (2026): pricing, AI features, verdict
 
@@ -24,7 +24,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 38/60
 
-Resend is developer email built around React Email, with a hosted MCP server and an official Cursor plugin. 19,838 stars on the MIT SDKs, and marketing prices published alongside transactional.
+Resend is developer email built around React Email, with a hosted MCP server and an official Cursor plugin. 19,847 stars on the MIT SDKs, and marketing prices published alongside transactional.
 
 
 | Pillar | Score | Evidence |
@@ -91,7 +91,7 @@ Assessed from resend.com, resend.com/docs, and the changelog RSS in September 20
 
 The correction that matters: the three AI features in our earlier record (AI deliverability optimization, AI spam detection, smart retry logic) appear nowhere in Resend's documentation. The documented AI surface is an AI Email Editor with brand-voice drafting and pre-send checks, an assistant in the template editor, AI column mapping on imports, and monthly AI credits; Deliverability Insights is explicitly a set of best-practice checks, not AI. Slack and Segment are not documented integrations, and Scale is not custom-priced.
 
-Open source is the exit surface, and our record undersold it: react-email alone holds about 19,838 GitHub stars under MIT, an order of magnitude larger than any Resend SDK repo, and the organization publishes roughly 100 repositories including the MCP server, CLI, skills, and OpenAPI spec. Templates you build in React Email keep working against another sender.
+Open source is the exit surface, and our record undersold it: react-email alone holds about 19,847 GitHub stars under MIT, an order of magnitude larger than any Resend SDK repo, and the organization publishes roughly 100 repositories including the MCP server, CLI, skills, and OpenAPI spec. Templates you build in React Email keep working against another sender.
 
 The transactional and marketing split is the pricing trap. A team that starts on Pro for product email and later wants newsletters takes a second, contact-based subscription, and the docs recommend separate subdomains per stream anyway. IP pools are a $30 a month Scale add-on with an eligibility bar of 3,000 emails a day, so shared IPs are the default reality for most accounts.
 
@@ -158,7 +158,7 @@ Yes, and it is one of the better-documented cases in email. Resend hosts an MCP 
 - **Founded:** 2023
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
-- **Repository checked:** 2026-10-16
+- **Repository checked:** 2026-10-17
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

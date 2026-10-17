@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Ahrefs
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## Ahrefs review (2026): pricing, AI features, verdict
 
 Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit

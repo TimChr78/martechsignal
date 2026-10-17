@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Nightwatch
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## Nightwatch review (2026): pricing, AI features, verdict
 
 Rank tracking across Google and AI answers, priced by keyword with unlimited seats

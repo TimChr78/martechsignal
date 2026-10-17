@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - OtterlyAI
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## OtterlyAI review (2026): pricing, AI features, verdict
 
 AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews

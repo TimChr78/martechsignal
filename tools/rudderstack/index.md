@@ -1108,7 +1108,7 @@ Best open-core CDP for teams that self-host the data plane: free 250K events/mo,
 - **Founded:** 2019
 - **HQ:** San Francisco, California
 - **API:** Yes
-- **Repository checked:** 2026-10-16
+- **Repository checked:** 2026-10-17
 - **Page updated:** 2026-10-01
 
 Related guides: [Cdp](/best/cdp/)

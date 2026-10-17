@@ -45,7 +45,7 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- MultiPost - 3,655 stars, +561 in the 52-snapshot window to 2026-10-16 3,094→3,655 [verify on GitHub](https://github.com/leaperone/MultiPost-Extension)
+- MultiPost - 3,659 stars, +565 in the 53-snapshot window to 2026-10-17 3,094→3,659 [verify on GitHub](https://github.com/leaperone/MultiPost-Extension)
 [All movers on the trending page](/trending/).
 
 ## [Hootsuite](/tools/hootsuite/)

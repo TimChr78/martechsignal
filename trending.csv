@@ -1,83 +1,83 @@
 slug,name,category,category_name,stars_now,stars_at_start,delta,growth_pct,snapshots,window_start,window_end
-paperclip,Paperclip,workflow-automation,Workflow Automation,102800,79356,23444,29.5,52,2026-08-25,2026-10-16
-openseo,OpenSEO,seo,SEO & Search,23764,17739,6025,34.0,38,2026-08-25,2026-10-16
-n8n,n8n,workflow-automation,Workflow Automation,207565,202403,5162,2.6,52,2026-08-25,2026-10-16
-ever-gauzy,Ever Gauzy,crm,CRM,8380,4348,4032,92.7,52,2026-08-25,2026-10-16
-google-meta-ads-ga4-mcp,Google Ads + Meta Ads + GA4 MCP,agent-skills,Agent Skills,5047,1068,3979,372.6,52,2026-08-25,2026-10-16
-claude-seo,Claude SEO,agent-skills,Agent Skills,19010,15096,3914,25.9,52,2026-08-25,2026-10-16
-langchain,LangChain,workflow-automation,Workflow Automation,147897,144973,2924,2.0,52,2026-08-25,2026-10-16
-twenty,Twenty,crm,CRM,58401,55525,2876,5.2,52,2026-08-25,2026-10-16
-deskcommcrm,DeskcommCRM,crm,CRM,4625,2535,2090,82.4,31,2026-08-25,2026-10-16
-chatwoot,Chatwoot,chatbots,Chatbots & Conversational AI,37843,36209,1634,4.5,52,2026-08-25,2026-10-16
-claude-ads,Claude Ads,agent-skills,Agent Skills,10018,8473,1545,18.2,52,2026-08-25,2026-10-16
-marketingskills,Marketing Skills (coreyhaines31),agent-skills,Agent Skills,54928,53797,1131,2.1,7,2026-08-25,2026-10-16
-umami,Umami,analytics,Analytics & Attribution,39401,38360,1041,2.7,52,2026-08-25,2026-10-16
-nocobase,NocoBase,workflow-automation,Workflow Automation,24593,23839,754,3.2,52,2026-08-25,2026-10-16
-plausible,Plausible Analytics,analytics,Analytics & Attribution,29466,28748,718,2.5,52,2026-08-25,2026-10-16
-listmonk,Listmonk,email-marketing,Email Marketing,23799,23121,678,2.9,52,2026-08-25,2026-10-16
-macro,Macro,crm,CRM,4690,4038,652,16.1,52,2026-08-25,2026-10-16
-promptfoo,Promptfoo,geo-llm-visibility,GEO & LLM Optimization,26029,25460,569,2.2,20,2026-08-25,2026-10-16
-multipost-extension,MultiPost,social-media,Social Media,3655,3094,561,18.1,52,2026-08-25,2026-10-16
-wacrm,WaCRM,crm,CRM,2555,2054,501,24.4,52,2026-08-25,2026-10-16
-ghost,Ghost,content-ai,AI Content & Copywriting,55544,55057,487,0.9,52,2026-08-25,2026-10-16
-openoutreach,OpenOutreach,email-marketing,Email Marketing,3297,2818,479,17.0,52,2026-08-25,2026-10-16
-billionmail,BillionMail,email-marketing,Email Marketing,15915,15450,465,3.0,52,2026-08-25,2026-10-16
-nocodb,NocoDB,marketing-automation,Marketing Automation,65287,64853,434,0.7,40,2026-08-25,2026-10-16
-frappe-crm,Frappe CRM,crm,CRM,3795,3390,405,11.9,52,2026-08-25,2026-10-16
-mautic,Mautic,marketing-automation,Marketing Automation,10778,10386,392,3.8,52,2026-08-25,2026-10-16
-monica,Monica,crm,CRM,25488,25105,383,1.5,52,2026-08-25,2026-10-16
-posthog,PostHog,analytics,Analytics & Attribution,40301,39940,361,0.9,20,2026-08-25,2026-10-16
-aaron-marketing-skills,Aaron Marketing Skills,agent-skills,Agent Skills,2963,2641,322,12.2,52,2026-08-25,2026-10-16
-activepieces,Activepieces,workflow-automation,Workflow Automation,25065,24743,322,1.3,19,2026-08-25,2026-10-16
-strapi,Strapi,content-ai,AI Content & Copywriting,73319,73014,305,0.4,52,2026-08-25,2026-10-16
-krayin-crm,Krayin CRM,crm,CRM,24014,23711,303,1.3,52,2026-08-25,2026-10-16
-chatbotx,ChatbotX,chatbots,Chatbots & Conversational AI,915,665,250,37.6,52,2026-08-25,2026-10-16
-libretranslate,LibreTranslate,content-ai,AI Content & Copywriting,17087,16838,249,1.5,20,2026-08-25,2026-10-16
-appsmith,Appsmith,workflow-automation,Workflow Automation,41068,40821,247,0.6,40,2026-08-25,2026-10-16
-tooljet,ToolJet,workflow-automation,Workflow Automation,41093,40848,245,0.6,40,2026-08-25,2026-10-16
-relaticle,Relaticle,crm,CRM,1769,1528,241,15.8,52,2026-08-25,2026-10-16
-ai-marketing-claude,AI Marketing Suite,agent-skills,Agent Skills,2762,2544,218,8.6,50,2026-08-25,2026-10-16
-espocrm,EspoCRM,crm,CRM,3489,3291,198,6.0,52,2026-08-25,2026-10-16
-dolibarr,Dolibarr ERP/CRM,crm,CRM,7730,7536,194,2.6,52,2026-08-25,2026-10-16
-khoj,Khoj,content-ai,AI Content & Copywriting,37697,37503,194,0.5,20,2026-08-25,2026-10-16
-open-mercato,Open Mercato,agent-skills,Agent Skills,1861,1681,180,10.7,52,2026-08-25,2026-10-16
-notifuse,Notifuse,email-marketing,Email Marketing,2246,2076,170,8.2,52,2026-08-25,2026-10-16
-idurar-erp-crm,IDURAR ERP & CRM,crm,CRM,8880,8719,161,1.8,52,2026-08-25,2026-10-16
-growth-lab,Growth Lab,agent-skills,Agent Skills,1993,1840,153,8.3,52,2026-08-25,2026-10-16
-matomo,Matomo,analytics,Analytics & Attribution,21953,21805,148,0.7,52,2026-08-25,2026-10-16
-cordys-crm,Cordys CRM,crm,CRM,2788,2654,134,5.0,52,2026-08-25,2026-10-16
-warmbly,Warmbly,email-marketing,Email Marketing,442,318,124,39.0,21,2026-08-25,2026-10-16
-digital-marketing-pro,Digital Marketing Pro,agent-skills,Agent Skills,890,768,122,15.9,50,2026-08-25,2026-10-16
-alphone,AlphOne,crm,CRM,283,175,108,61.7,45,2026-08-25,2026-10-16
-suitecrm,SuiteCRM,crm,CRM,5795,5690,105,1.8,52,2026-08-25,2026-10-16
-budibase,Budibase,workflow-automation,Workflow Automation,28334,28256,78,0.3,40,2026-08-25,2026-10-16
-growthbook,GrowthBook,personalization,Personalization & CDP,8504,8432,72,0.9,20,2026-08-25,2026-10-16
-email-marketing-bible,Email Marketing Bible,agent-skills,Agent Skills,342,279,63,22.6,52,2026-08-25,2026-10-16
-ai-business-skills,AI Business Skills,agent-skills,Agent Skills,616,554,62,11.2,52,2026-08-25,2026-10-16
-alwrity,ALwrity,marketing-automation,Marketing Automation,1192,1134,58,5.1,52,2026-08-25,2026-10-16
-django-crm,Django CRM,crm,CRM,2450,2394,56,2.3,52,2026-08-25,2026-10-16
-languagetool,LanguageTool,content-ai,AI Content & Copywriting,15140,15089,51,0.3,20,2026-08-25,2026-10-16
-react-email-editor,React Email Editor,email-marketing,Email Marketing,5244,5207,37,0.7,52,2026-08-25,2026-10-16
-seonaut,Seonaut,seo,SEO & Search,808,771,37,4.8,52,2026-08-25,2026-10-16
-marketing-studio,Marketing Studio,agent-skills,Agent Skills,252,220,32,14.5,45,2026-08-25,2026-10-16
-line-harness,Line Harness,marketing-automation,Marketing Automation,602,571,31,5.4,52,2026-08-25,2026-10-16
-prospectos,ProspectOS,crm,CRM,232,208,24,11.5,45,2026-08-25,2026-10-16
-eve-marketing-team,Eve Marketing Team Template,agent-skills,Agent Skills,453,430,23,5.3,45,2026-08-25,2026-10-16
-flagsmith,Flagsmith,personalization,Personalization & CDP,6594,6572,22,0.3,20,2026-08-25,2026-10-16
-advertools,advertools,advertising,Advertising & Paid Media,1481,1464,17,1.2,20,2026-08-25,2026-10-16
-jitsu,Jitsu,personalization,Personalization & CDP,5107,5091,16,0.3,20,2026-08-25,2026-10-16
-snowplow,Snowplow,analytics,Analytics & Attribution,7041,7028,13,0.2,52,2026-08-25,2026-10-16
-zapier-gtm-cheat-codes,Zapier GTM Cheat Codes,agent-skills,Agent Skills,343,332,11,3.3,45,2026-08-25,2026-10-16
-maizzle,Maizzle,email-marketing,Email Marketing,2863,2853,10,0.4,52,2026-08-25,2026-10-16
-analytics-tracking-automation,Analytics Tracking Automation,agent-skills,Agent Skills,144,135,9,6.7,52,2026-08-25,2026-10-16
-laudspeaker,Laudspeaker,marketing-automation,Marketing Automation,2627,2618,9,0.3,52,2026-08-25,2026-10-16
-n8n-marketing-flows,n8n Marketing Flows,workflow-automation,Workflow Automation,180,174,6,3.4,45,2026-08-25,2026-10-16
-openclaw-marketing-skills,OpenClaw Marketing Skills,agent-skills,Agent Skills,1045,1039,6,0.6,52,2026-08-25,2026-10-16
-rudderstack,RudderStack,personalization,Personalization & CDP,4500,4494,6,0.1,14,2026-08-25,2026-10-16
-diffmode-growth-tactics,Diffmode Growth Tactics,agent-skills,Agent Skills,165,160,5,3.1,45,2026-08-25,2026-10-16
-apache-unomi,Apache Unomi,personalization,Personalization & CDP,380,375,5,1.3,20,2026-08-25,2026-10-16
-notifo,Notifo,email-marketing,Email Marketing,882,878,4,0.5,52,2026-08-25,2026-10-16
-revive-adserver,Revive Adserver,advertising,Advertising & Paid Media,1510,1506,4,0.3,20,2026-08-25,2026-10-16
-warpdrive,Warpdrive,crm,CRM,76,73,3,4.1,42,2026-08-25,2026-10-16
-seo-skill-bench,SEO Skill Bench,agent-skills,Agent Skills,51,51,0,0.0,42,2026-08-25,2026-10-16
-potato-ai-visibility,Potato,seo,SEO & Search,166,167,-1,-0.6,45,2026-08-25,2026-10-16
+paperclip,Paperclip,workflow-automation,Workflow Automation,103222,79356,23866,30.1,53,2026-08-25,2026-10-17
+openseo,OpenSEO,seo,SEO & Search,23856,17739,6117,34.5,39,2026-08-25,2026-10-17
+n8n,n8n,workflow-automation,Workflow Automation,207729,202403,5326,2.6,53,2026-08-25,2026-10-17
+ever-gauzy,Ever Gauzy,crm,CRM,8384,4348,4036,92.8,53,2026-08-25,2026-10-17
+google-meta-ads-ga4-mcp,Google Ads + Meta Ads + GA4 MCP,agent-skills,Agent Skills,5086,1068,4018,376.2,53,2026-08-25,2026-10-17
+claude-seo,Claude SEO,agent-skills,Agent Skills,19075,15096,3979,26.4,53,2026-08-25,2026-10-17
+langchain,LangChain,workflow-automation,Workflow Automation,147950,144973,2977,2.1,53,2026-08-25,2026-10-17
+twenty,Twenty,crm,CRM,58429,55525,2904,5.2,53,2026-08-25,2026-10-17
+deskcommcrm,DeskcommCRM,crm,CRM,4646,2535,2111,83.3,32,2026-08-25,2026-10-17
+chatwoot,Chatwoot,chatbots,Chatbots & Conversational AI,37873,36209,1664,4.6,53,2026-08-25,2026-10-17
+claude-ads,Claude Ads,agent-skills,Agent Skills,10049,8473,1576,18.6,53,2026-08-25,2026-10-17
+marketingskills,Marketing Skills (coreyhaines31),agent-skills,Agent Skills,55130,53797,1333,2.5,8,2026-08-25,2026-10-17
+umami,Umami,analytics,Analytics & Attribution,39423,38360,1063,2.8,53,2026-08-25,2026-10-17
+nocobase,NocoBase,workflow-automation,Workflow Automation,24598,23839,759,3.2,53,2026-08-25,2026-10-17
+plausible,Plausible Analytics,analytics,Analytics & Attribution,29503,28748,755,2.6,53,2026-08-25,2026-10-17
+listmonk,Listmonk,email-marketing,Email Marketing,23814,23121,693,3.0,53,2026-08-25,2026-10-17
+macro,Macro,crm,CRM,4703,4038,665,16.5,53,2026-08-25,2026-10-17
+promptfoo,Promptfoo,geo-llm-visibility,GEO & LLM Optimization,26070,25460,610,2.4,21,2026-08-25,2026-10-17
+multipost-extension,MultiPost,social-media,Social Media,3659,3094,565,18.3,53,2026-08-25,2026-10-17
+wacrm,WaCRM,crm,CRM,2560,2054,506,24.6,53,2026-08-25,2026-10-17
+ghost,Ghost,content-ai,AI Content & Copywriting,55551,55057,494,0.9,53,2026-08-25,2026-10-17
+openoutreach,OpenOutreach,email-marketing,Email Marketing,3311,2818,493,17.5,53,2026-08-25,2026-10-17
+billionmail,BillionMail,email-marketing,Email Marketing,15920,15450,470,3.0,53,2026-08-25,2026-10-17
+nocodb,NocoDB,marketing-automation,Marketing Automation,65288,64853,435,0.7,41,2026-08-25,2026-10-17
+frappe-crm,Frappe CRM,crm,CRM,3800,3390,410,12.1,53,2026-08-25,2026-10-17
+mautic,Mautic,marketing-automation,Marketing Automation,10784,10386,398,3.8,53,2026-08-25,2026-10-17
+monica,Monica,crm,CRM,25494,25105,389,1.5,53,2026-08-25,2026-10-17
+posthog,PostHog,analytics,Analytics & Attribution,40313,39940,373,0.9,21,2026-08-25,2026-10-17
+activepieces,Activepieces,workflow-automation,Workflow Automation,25077,24743,334,1.3,20,2026-08-25,2026-10-17
+aaron-marketing-skills,Aaron Marketing Skills,agent-skills,Agent Skills,2969,2641,328,12.4,53,2026-08-25,2026-10-17
+strapi,Strapi,content-ai,AI Content & Copywriting,73323,73014,309,0.4,53,2026-08-25,2026-10-17
+krayin-crm,Krayin CRM,crm,CRM,24014,23711,303,1.3,53,2026-08-25,2026-10-17
+libretranslate,LibreTranslate,content-ai,AI Content & Copywriting,17098,16838,260,1.5,21,2026-08-25,2026-10-17
+chatbotx,ChatbotX,chatbots,Chatbots & Conversational AI,922,665,257,38.6,53,2026-08-25,2026-10-17
+appsmith,Appsmith,workflow-automation,Workflow Automation,41076,40821,255,0.6,41,2026-08-25,2026-10-17
+tooljet,ToolJet,workflow-automation,Workflow Automation,41099,40848,251,0.6,41,2026-08-25,2026-10-17
+relaticle,Relaticle,crm,CRM,1769,1528,241,15.8,53,2026-08-25,2026-10-17
+ai-marketing-claude,AI Marketing Suite,agent-skills,Agent Skills,2766,2544,222,8.7,51,2026-08-25,2026-10-17
+khoj,Khoj,content-ai,AI Content & Copywriting,37713,37503,210,0.6,21,2026-08-25,2026-10-17
+espocrm,EspoCRM,crm,CRM,3495,3291,204,6.2,53,2026-08-25,2026-10-17
+dolibarr,Dolibarr ERP/CRM,crm,CRM,7733,7536,197,2.6,53,2026-08-25,2026-10-17
+open-mercato,Open Mercato,agent-skills,Agent Skills,1865,1681,184,10.9,53,2026-08-25,2026-10-17
+notifuse,Notifuse,email-marketing,Email Marketing,2247,2076,171,8.2,53,2026-08-25,2026-10-17
+idurar-erp-crm,IDURAR ERP & CRM,crm,CRM,8880,8719,161,1.8,53,2026-08-25,2026-10-17
+matomo,Matomo,analytics,Analytics & Attribution,21958,21805,153,0.7,53,2026-08-25,2026-10-17
+growth-lab,Growth Lab,agent-skills,Agent Skills,1992,1840,152,8.3,53,2026-08-25,2026-10-17
+cordys-crm,Cordys CRM,crm,CRM,2793,2654,139,5.2,53,2026-08-25,2026-10-17
+warmbly,Warmbly,email-marketing,Email Marketing,446,318,128,40.3,22,2026-08-25,2026-10-17
+digital-marketing-pro,Digital Marketing Pro,agent-skills,Agent Skills,892,768,124,16.1,51,2026-08-25,2026-10-17
+alphone,AlphOne,crm,CRM,283,175,108,61.7,46,2026-08-25,2026-10-17
+suitecrm,SuiteCRM,crm,CRM,5797,5690,107,1.9,53,2026-08-25,2026-10-17
+budibase,Budibase,workflow-automation,Workflow Automation,28331,28256,75,0.3,41,2026-08-25,2026-10-17
+growthbook,GrowthBook,personalization,Personalization & CDP,8505,8432,73,0.9,21,2026-08-25,2026-10-17
+ai-business-skills,AI Business Skills,agent-skills,Agent Skills,619,554,65,11.7,53,2026-08-25,2026-10-17
+email-marketing-bible,Email Marketing Bible,agent-skills,Agent Skills,343,279,64,22.9,53,2026-08-25,2026-10-17
+alwrity,ALwrity,marketing-automation,Marketing Automation,1192,1134,58,5.1,53,2026-08-25,2026-10-17
+languagetool,LanguageTool,content-ai,AI Content & Copywriting,15147,15089,58,0.4,21,2026-08-25,2026-10-17
+django-crm,Django CRM,crm,CRM,2450,2394,56,2.3,53,2026-08-25,2026-10-17
+react-email-editor,React Email Editor,email-marketing,Email Marketing,5244,5207,37,0.7,53,2026-08-25,2026-10-17
+seonaut,Seonaut,seo,SEO & Search,808,771,37,4.8,53,2026-08-25,2026-10-17
+line-harness,Line Harness,marketing-automation,Marketing Automation,603,571,32,5.6,53,2026-08-25,2026-10-17
+marketing-studio,Marketing Studio,agent-skills,Agent Skills,252,220,32,14.5,46,2026-08-25,2026-10-17
+prospectos,ProspectOS,crm,CRM,232,208,24,11.5,46,2026-08-25,2026-10-17
+eve-marketing-team,Eve Marketing Team Template,agent-skills,Agent Skills,453,430,23,5.3,46,2026-08-25,2026-10-17
+flagsmith,Flagsmith,personalization,Personalization & CDP,6595,6572,23,0.3,21,2026-08-25,2026-10-17
+advertools,advertools,advertising,Advertising & Paid Media,1482,1464,18,1.2,21,2026-08-25,2026-10-17
+jitsu,Jitsu,personalization,Personalization & CDP,5108,5091,17,0.3,21,2026-08-25,2026-10-17
+snowplow,Snowplow,analytics,Analytics & Attribution,7041,7028,13,0.2,53,2026-08-25,2026-10-17
+zapier-gtm-cheat-codes,Zapier GTM Cheat Codes,agent-skills,Agent Skills,343,332,11,3.3,46,2026-08-25,2026-10-17
+analytics-tracking-automation,Analytics Tracking Automation,agent-skills,Agent Skills,144,135,9,6.7,53,2026-08-25,2026-10-17
+laudspeaker,Laudspeaker,marketing-automation,Marketing Automation,2627,2618,9,0.3,53,2026-08-25,2026-10-17
+maizzle,Maizzle,email-marketing,Email Marketing,2862,2853,9,0.3,53,2026-08-25,2026-10-17
+openclaw-marketing-skills,OpenClaw Marketing Skills,agent-skills,Agent Skills,1046,1039,7,0.7,53,2026-08-25,2026-10-17
+n8n-marketing-flows,n8n Marketing Flows,workflow-automation,Workflow Automation,180,174,6,3.4,46,2026-08-25,2026-10-17
+rudderstack,RudderStack,personalization,Personalization & CDP,4500,4494,6,0.1,15,2026-08-25,2026-10-17
+diffmode-growth-tactics,Diffmode Growth Tactics,agent-skills,Agent Skills,165,160,5,3.1,46,2026-08-25,2026-10-17
+apache-unomi,Apache Unomi,personalization,Personalization & CDP,380,375,5,1.3,21,2026-08-25,2026-10-17
+notifo,Notifo,email-marketing,Email Marketing,882,878,4,0.5,53,2026-08-25,2026-10-17
+revive-adserver,Revive Adserver,advertising,Advertising & Paid Media,1510,1506,4,0.3,21,2026-08-25,2026-10-17
+warpdrive,Warpdrive,crm,CRM,76,73,3,4.1,43,2026-08-25,2026-10-17
+seo-skill-bench,SEO Skill Bench,agent-skills,Agent Skills,51,51,0,0.0,43,2026-08-25,2026-10-17
+potato-ai-visibility,Potato,seo,SEO & Search,166,167,-1,-0.6,46,2026-08-25,2026-10-17

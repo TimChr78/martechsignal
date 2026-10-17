@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Trakkr
+Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+
 ## Trakkr review (2026): pricing, AI features, verdict
 
 AI visibility platform for brands and agencies: citations, perception, competitors
