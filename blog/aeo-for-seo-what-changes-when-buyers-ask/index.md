@@ -88,7 +88,7 @@ Keep the crawlable fast pages, the consistent entity facts, the habit of updatin
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [MailCheap](/tools/mailcheap/) · [AdCreative.ai](/tools/adcreative-ai/)
+More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

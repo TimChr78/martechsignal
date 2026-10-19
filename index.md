@@ -8,6 +8,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### Someone found a live agent fleet in the wild. Most of its runs failed.
+
+On 4 October 2026 at 16:59 UTC, one agent run finally got its answer. Chengdu Zoo: north gate, 71% of arrivals. East gate, 23%. Southeast gate, 6%. The numbers arrived as plain…
+
 ### AEO for SEO: what changes when buyers ask instead of search
 
 Somewhere between the query and the shortlist, the results page stopped being mandatory. A buyer comparing marketing platforms can ask ChatGPT, Gemini, or Perplexity to name the…
@@ -20,20 +24,16 @@ Last week this blog walked the rogue agents debate to a flat conclusion: your ag
 
 Building the campaign is the fast part. In a recent r/MarketingAutomation thread, a CRM and lifecycle marketer put it plainly: "setting up the actual automation is rarely the part…
 
-### Amazon's Ad Agents Come With Instructions. Google's Came With Promises.
-
-Two stories ran on AdExchanger the same day, September 29. James Hercher covered Amazon's unBoxed announcements in San Francisco, where the company turned its ad platform into a…
-
 ## Tool index
 
 - [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
-- [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
-- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
 - [Warmbly](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
+- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
+- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 ## Comparisons and best-of lists
 
 Verdicts with receipts: every list below names what each tool costs from the vendor’s own pricing page, what it fits worst, and who should skip it. The head-to-head comparisons state pick-conditions instead of a winner; the best-of lists and tool pages give the verdict. Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.

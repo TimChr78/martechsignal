@@ -2362,6 +2362,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:agent-fleet-in-the-wild-2026-10-19",
+   "displayName": "A live agent fleet in the wild, mostly failing",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/agent-fleet-in-the-wild-2026-10-19/",
+   "description": "A real agent fleet burned 35,300 requests against one map service and mostly failed. Agent reliability is now a stack design constraint.",
+   "representativeQueries": [
+    "a live agent fleet in the wild, mostly failing",
+    "agent fleet in the wild 2026 10 19"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:agent-protocol-vs-data-plumbing",
    "displayName": "Agent protocol vs data plumbing: what actually fails",
    "type": "text/html",

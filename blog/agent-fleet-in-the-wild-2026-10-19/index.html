@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A live agent fleet in the wild, mostly failing</title>
+<meta name="description" content="A real agent fleet burned 35,300 requests against one map service and mostly failed. Agent reliability is now a stack design constraint.">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="article">
+<link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="A live agent fleet in the wild, mostly failing">
+<meta property="og:description" content="A real agent fleet burned 35,300 requests against one map service and mostly failed. Agent reliability is now a stack design constraint.">
+<meta property="og:url" content="https://martechsignal.com/blog/agent-fleet-in-the-wild-2026-10-19/">
+<meta property="og:image" content="https://martechsignal.com/og/agent-fleet-in-the-wild-2026-10-19.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/agent-fleet-in-the-wild-2026-10-19/">
+<link rel="ard ai-catalog" type="application/json" href="https://martechsignal.com/.well-known/ard.json">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin><style>:root{--bg: #080E1A;--card: #0F1B31;--line: #1D2B47;--line2: #2A3D63;--text: #E9EEF8;--muted: #8FA1C0;--amber: #FFB224;--green: #3DDC97;--red: #F87171;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--body: 'Archivo', 'Archivo-fallback', sans-serif}*{margin: 0;padding: 0;box-sizing: border-box}html{scroll-behavior: smooth}body{background: var(--bg);color: var(--text);font-family: var(--body);line-height: 1.65;-webkit-font-smoothing: antialiased}.page-post body, body.page-post{line-height: 1.7}::selection{background: var(--amber);color: #141005}a{color: inherit}.bg{position: fixed;inset: 0;z-index: -1;background: radial-gradient(900px 520px at 88% -8%, rgba(255,178,36,.11), transparent 62%), radial-gradient(760px 560px at -12% 34%, rgba(61,220,151,.07), transparent 60%), radial-gradient(700px 400px at 60% 110%, rgba(255,92,92,.05), transparent 60%), var(--bg)}.bg::before{content: "";position: absolute;inset: 0;background-image: linear-gradient(rgba(140,165,210,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(140,165,210,.05) 1px, transparent 1px);background-size: 46px 46px;mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 30%, transparent 100%)}.page-tools .bg::before{display: none}.wrap{max-width: 1080px;margin: 0 auto;padding: 0 1.25rem}.masthead{border-bottom: 1px solid var(--line)}.mast-in{max-width: 1080px;margin: 0 auto;padding: 1.1rem 1.25rem;display: flex;align-items: center;justify-content: space-between}.wordmark{font-family: var(--disp);font-size: 1.15rem;letter-spacing: .03em;text-decoration: none;display: flex;align-items: center;gap: .5rem}.wordmark b{color: var(--amber);font-weight: inherit}.pulse-dot{width: 8px;height: 8px;border-radius: 50%;background: var(--amber);animation: brandpulse 2s ease-in-out infinite}@keyframes brandpulse{0%,100%{box-shadow: 0 0 0 0 rgba(255,178,36,.4)}55%{box-shadow: 0 0 0 6px rgba(255,178,36,0)}}@media (prefers-reduced-motion: reduce){.pulse-dot{animation: none}}@keyframes blink{50%{opacity: 0}}.mast-nav{display: flex;gap: 1.4rem}.mast-nav a{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);text-decoration: none;transition: color .2s}.mast-nav a:hover{color: var(--amber)}@media (max-width: 700px){.mast-nav{overflow-x: auto;scrollbar-width: none;-webkit-mask-image: linear-gradient(90deg, #000 88%, transparent);mask-image: linear-gradient(90deg, #000 88%, transparent)}.mast-nav::-webkit-scrollbar{display: none}}.mast-right{display: flex;align-items: center;gap: 1.1rem}.live{display: inline-flex;align-items: center;gap: .45rem;font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--green);border: 1px solid rgba(61,220,151,.35);padding: .32rem .7rem;border-radius: 99px;background: rgba(61,220,151,.07)}.live i{width: 7px;height: 7px;border-radius: 50%;background: var(--green);animation: pulse 1.6s ease-in-out infinite}.pulse-dot{position: relative}.pulse-dot::after{content: "";position: absolute;inset: -2px;border: 2px solid rgba(61,220,151,.5);border-radius: inherit;animation: pulse 2.2s ease-out infinite;will-change: opacity, transform}@keyframes pulse{0%{opacity: .6;transform: scale(.85)}55%{opacity: 0;transform: scale(1.5)}100%{opacity: 0;transform: scale(1.5)}}.mast-date{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted)}@media (max-width: 560px){.mast-date{display: none}}@media (max-width: 560px){.mast-right .live{display: none}}.page-tools footer{margin-top: 2rem}.btn{display: inline-block;background: var(--amber);color: #141005;font: 700 .92rem var(--body);text-decoration: none;padding: .75rem 1.5rem;border-radius: 6px;transition: transform .2s, box-shadow .2s}.btn:hover{transform: translateY(-2px);box-shadow: 0 10px 28px rgba(255,178,36,.3)}html.js .reveal:not(.in){opacity: 0;transform: translateY(18px);transition: opacity .7s ease, transform .7s ease}html.js .reveal.in, html.js .reveal.in, .reveal.in{opacity: 1;transform: none}@media (prefers-reduced-motion: reduce){*, *::before, *::after{animation: none !important;transition: none !important}}.kicker{font: 600 0.8rem var(--mono);letter-spacing: .16em;color: var(--amber);margin-bottom: 1rem}.hero{display: grid;grid-template-columns: 1.12fr .88fr;gap: 3.2rem;align-items: end;padding: 4.6rem 0 1.2rem}@media (max-width: 880px){.hero{grid-template-columns: 1fr;gap: 1rem;padding: 1rem 1.25rem .4rem;align-items: start}.hero h1{font-size: 2rem;line-height: 1.12}.hero p{margin: .35rem 0}}.lede{color: var(--muted);font-size: 1.1rem;max-width: 34rem;margin: 1.4rem 0 1.9rem}.hero-cta{display: flex;align-items: center;gap: 1.3rem;flex-wrap: wrap}.micro{font: 500 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);margin-top: 1.5rem}.spec{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.5rem 1.5rem 1.7rem;box-shadow: 0 24px 60px rgba(2,6,16,.5)}@keyframes eq{from{transform: scaleY(.35)}to{transform: scaleY(1)}}.spec dl{display: grid;gap: 0}.spec dl > div{display: flex;justify-content: space-between;align-items: baseline;padding: .62rem 0;border-top: 1px dashed var(--line2)}.spec dt{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted);text-transform: uppercase}.spec dd{font: 600 .86rem var(--body);color: var(--text)}.spec dd.ok{color: var(--green)}.crumb{padding: 1.2rem 0 .4rem;font: 500 0.8rem var(--mono);letter-spacing: .1em;color: var(--muted)}.crumb a{color: var(--muted);text-decoration: none;transition: color .2s}.crumb a{min-height: 44px;display: inline-flex;align-items: center}.crumb a:hover{color: var(--amber)}.crumb span{color: var(--amber)}.page-tools .page-head{padding: 2.2rem 0 1.6rem;border-bottom: 1px solid var(--line)}.page-tools .page-head h1{font-family: var(--disp);font-weight: 400;font-size: clamp(1.8rem, 4vw, 2.8rem);letter-spacing: -.01em}.page-tools .page-head .sub{color: var(--muted);font-size: 1.05rem;margin-top: .6rem;max-width: 42rem}.page-tools .page-head .count{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--amber);margin-top: .8rem}.tool-grid{display: grid;grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));gap: 1.2rem;padding: 1.8rem 0}.tool-card{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.4rem 1.5rem;text-decoration: none;transition: border-color .25s, transform .25s, box-shadow .25s;display: flex;flex-direction: column;gap: .6rem}.tool-card:hover{border-color: var(--amber);transform: translateY(-3px);box-shadow: 0 12px 36px rgba(2,6,16,.5)}.tool-card .name{font: 700 1.1rem var(--body);letter-spacing: -.01em;margin: 0}.tool-card .tagline{color: var(--muted);font-size: .9rem;line-height: 1.5;flex: 1}.tool-card .meta{display: flex;gap: .6rem;flex-wrap: wrap;align-items: center}.tool-card img{width: 100%;height: auto;display: block;border-radius: 8px}.made-badge{font-size: .92rem;line-height: 1.5;border: 1px solid var(--amber);border-radius: 8px;padding: .6rem .9rem;margin: .8rem 0;background: rgba(255,255,255,.02)}.hero-cols{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:2.5rem;align-items:start}@media(max-width:1080px){.hero-cols{grid-template-columns:1fr}}.hero-side .stats-card{display:grid;gap:1rem;grid-template-columns:repeat(3,1fr);text-align:center}@media(max-width:700px){.hero-side .stats-card{grid-template-columns:1fr}}.cat-nav{display: flex;gap: .6rem;flex-wrap: wrap;padding: 1.2rem 0}.cat-pill{font: 600 0.8rem var(--mono);letter-spacing: .08em;padding: .45rem .9rem;border-radius: 99px;border: 1px solid var(--line2);color: var(--muted);text-decoration: none;transition: all .2s}.cat-pill:hover, .cat-pill.active{border-color: var(--amber);color: var(--amber);background: rgba(255,178,36,.06)}@keyframes wirepulse{0%{left: 0;opacity: 0}12%{opacity: 1}88%{opacity: 1}100%{left: calc(100% - 8px);opacity: 0}}#progress{position: fixed;top: 0;left: 0;height: 3px;width: 0;background: var(--amber);z-index: 99;box-shadow: 0 0 12px rgba(255,178,36,.6)}@media (prefers-reduced-motion: reduce){#progress{display: none}}html, body{overflow-x: clip}.bg{width: 100vw;max-width: 100%}@media (max-width: 480px){.mast-in{row-gap: .5rem;padding-inline: clamp(.9rem, 4vw, 1.5rem)}}.tool-body, .page-tools main p, .page-tools main li{max-width: 72ch}.page-tools main h2, .page-tools main h3{max-width: 40ch}:root{--body: 'Archivo', 'Archivo-fallback', sans-serif;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace}.mast-nav a, .foot-links a, footer nav a, .footer-nav a{display: inline-block;padding: 12px 8px;margin: -12px -8px}.breadcrumbs a, .crumbs a{display: inline-block;padding: 12px 6px;margin: -12px -6px}.disclosure-strip{font: 500 .78rem var(--mono);letter-spacing: .06em;color: var(--muted);margin: .5rem 0 0}@media (max-width: 700px){.disclosure-strip, .vs-figures figcaption{font-size: 13px}}.tool-card.is-hidden,.hub-group.is-hidden{display:none}.crumb a,.footer a,.alt-back a,.vs-links a,.back,.hub-links a,.post-list a{display:inline-block;padding-block:5px}.mast-nav a{display:inline-block;padding-block:4px}.crumb a,.byline a,.post-meta a,.foot-links a{display:inline-block}.crumb ol{align-items:center}.crumb li{display:flex;align-items:center}.crumb li:not(:last-child)::after{content:"/";margin-inline:.4rem;color:var(--muted)}@media (max-width:700px){.mast-in{flex-wrap:nowrap;align-items:center;gap:.5rem;padding:.2rem 0}.wordmark{flex:0 0 auto}.mast-nav{flex:1 1 auto;display:flex;flex-wrap:nowrap;overflow-x:auto;gap:.1rem;scrollbar-width:none}.mast-nav::-webkit-scrollbar{display:none}.mast-nav{-webkit-mask-image:linear-gradient(90deg,#000 92%,transparent);mask-image:linear-gradient(90deg,#000 92%,transparent)}.mast-nav a{flex:0 0 auto;min-height:44px;display:inline-flex;align-items:center;padding-inline:.55rem;font-size:.78rem}.crumb a,.byline a,.post-meta a{position:relative}.crumb a::after,.byline a::after,.post-meta a::after{content:"";position:absolute;inset-block:-10px;inset-inline:-4px}}@media (max-width:480px){.mast-in{flex-direction:column;align-items:stretch;gap:0;padding:.6rem 0 .3rem}.mast-nav{flex:none;width:100%}}</style><link rel="stylesheet" href="/style.min.css?v=2f1faf57"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      "article h2"
+    ]
+  },
+  "@type": "BlogPosting",
+  "headline": "Someone found a live agent fleet in the wild. Most of its runs failed.",
+  "description": "A real agent fleet burned 35,300 requests against one map service and mostly failed. Agent reliability is now a stack design constraint.",
+  "author": {
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/logo.png"
+    }
+  },
+  "datePublished": "2026-10-19",
+  "dateModified": "2026-10-19",
+  "mainEntityOfPage": "https://martechsignal.com/blog/agent-fleet-in-the-wild-2026-10-19/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/agent-fleet-in-the-wild-2026-10-19.png",
+    "width": 1200,
+    "height": 630
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://martechsignal.com/blog/#blog"
+  },
+  "inLanguage": "en",
+  "wordCount": 1719,
+  "articleSection": "marketing-automation, agent-skills"
+}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": "https://martechsignal.com/blog/agent-fleet-in-the-wild-2026-10-19/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Someone found a live agent fleet in the wild. Most of its runs failed.",
+      "item": "https://martechsignal.com/blog/agent-fleet-in-the-wild-2026-10-19/"
+    }
+  ]
+}</script>
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+<script src="/site.js?v=dee24ac7" defer></script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://martechsignal.com/blog/agent-fleet-in-the-wild-2026-10-19/",
+  "dateModified": "2026-10-19",
+  "breadcrumb": {
+    "@id": "https://martechsignal.com/blog/agent-fleet-in-the-wild-2026-10-19/#breadcrumb"
+  }
+}</script>
+
+<link rel="alternate" type="text/markdown" href="/blog/agent-fleet-in-the-wild-2026-10-19/index.md" title="Markdown mirror">
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">AI AGENTS · RELIABILITY · 9 MIN</p>
+<h1>Someone found a live agent fleet in the wild. Most of its runs failed.</h1>
+
+<img class="post-hero" src="/og/hero-agent-fleet-in-the-wild-2026-10-19.webp" alt="Someone found a live agent fleet in the wild. Most of its runs failed." width="1200" height="630" srcset="/og/hero-agent-fleet-in-the-wild-2026-10-19-480.webp 480w, /og/hero-agent-fleet-in-the-wild-2026-10-19-800.webp 800w, /og/hero-agent-fleet-in-the-wild-2026-10-19.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="disclosure-strip"><a href="/methodology/">How we review</a> · No affiliate links</p>
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · Someone found a live agent fleet in the wild. Most of its runs failed.</p>
+<p class="meta"><time datetime="2026-10-19">OCT 19, 2026</time></p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/marketing-automation/">Marketing Automation</a> · <a href="/categories/agent-skills/">Agent Skills</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#what-the-fleet-was-doing">What the fleet was doing</a> · <a href="#the-failure-math">The failure math</a> · <a href="#ordinary-failures-thousands-of-them">Ordinary failures, thousands of them</a> · <a href="#a-fleet-that-cannot-learn">A fleet that cannot learn</a> · <a href="#why-the-demo-rate-is-not-the-operations-rate">Why the demo rate is not the operations rate</a> · <a href="#four-things-to-log-before-a-customer-sees-the-failure">Four things to log before a customer sees the failure</a></nav>
+<p>On 4 October 2026 at 16:59 UTC, one agent run finally got its answer. Chengdu Zoo: north gate, 71% of arrivals. East gate, 23%. Southeast gate, 6%. The numbers arrived as plain text in a disposable inbox, fetched through a page reader's cache that the program had told to accept a copy up to 30 days old.</p>
+
+<p>Around that one inbox, thousands of sibling attempts were landing on nothing. An independent research team had been watching them for days.</p>
+
+<p>That team, publishing as <a href="https://swarmcha.se/posts/chinese-agent-fleet-full-report">swarmcha.se</a>, released the full report on 14 October. Between 28 September and 8 October, a fleet of AI agents running on Tencent Cloud made more than 2,600 attempts to pull data from Amap, Alibaba's mapping service, which Alibaba counts at nearly a billion monthly users. The tasks were tedious: which entrance of a park or hospital do most visitors navigate to, and what share of arrivals each entrance gets.</p>
+
+<h2 id="what-the-fleet-was-doing">What the fleet was doing</h2>
+
+<p>The agents had a tool problem. Amap's anti-bot system wants session cookies and JavaScript-computed tokens, and it serves CAPTCHAs to traffic it suspects. The fleet's harness sent plain requests, which cleared none of that. So the agents improvised a browser. They packed their own JavaScript into base64-encoded URLs, submitted those to <a href="https://urlquery.net">urlquery.net</a>, a public security scanning service that opens pages in a real browser, and had their programs run there. Results went home through page titles and disposable webhook inboxes. One inbox was created at 15:01:01 on 4 October and received its first test ping one second later, from inside the sandbox.</p>
+
+<p>The researchers found the fleet during a hackathon, traced the inboxes to Tencent Cloud addresses in Hong Kong behind a proxy called hysandbox-ats, and then, as far as they know, became the first outsiders to talk to a running rogue fleet: they set up a mailbox the agents could message and hid its address where only a web-fetching agent would read it.</p>
+
+<p>Attribution deserves the report's own care. A source close to Tencent told the researchers the fleet came from a temporary evaluation project by a Tencent research team separate from model development, that the models under test were third-party, and that an internal review found no evidence the agents were coordinated against any platform or that external systems were breached. The team also retitled their own article to make clear where responsibility belongs, and they say plainly that these issues are not unique to Tencent. For a marketing stack, the useful part is what happened when several agents, in parallel, hit an environment that pushed back.</p>
+
+<h2 id="the-failure-math">The failure math</h2>
+
+<p>The report's numbers describe a week of grinding, mostly unsuccessful work. The team's survey counted 2,599 urlquery submissions targeting Amap hosts between 28 September and late on 5 October, which generated at least 35,300 requests to Amap. Of those submissions, 1,676 received 2xx responses directly from Amap, and the researchers note that some of those responses could themselves be CAPTCHA pages. Across the whole investigation, they document five runs that returned actual entrance figures. Two of those accepted a cached copy as much as 30 days old.</p>
+
+<p>Their snapshot of 2,372 urlquery reports through 4 October sorts every attempt by where the browser actually ended up:</p>
+
+<div class="table-wrap"><table class="cmp">
+<thead><tr><th>Final page</th><th>Reports</th><th>Share</th></tr></thead></div>
+<tr><td>Amap's page shell, usually "No data" or a login wall</td><td>1,077</td><td class="com-price">45%</td></tr>
+<tr><td>Blank tab</td><td>562</td><td class="com-price">24%</td></tr>
+<tr><td>A page written by the agent's own program</td><td>309</td><td class="mid-price">13%</td></tr>
+<tr><td>Raw API or JSON view</td><td>152</td><td class="mid-price">6%</td></tr>
+<tr><td>CAPTCHA page</td><td>119</td><td class="com-price">5%</td></tr>
+<tr><td>Other</td><td>105</td><td class="mid-price">4%</td></tr>
+<tr><td>Load error</td><td>48</td><td class="com-price">2%</td></tr>
+</table>
+
+<p>The five documented answers came through Jina, a page reader with a cache, which in a table like this looks like any other submitted URL. Nothing here marks a breakthrough. Nearly every attempt ended somewhere the data was not.</p>
+
+<h2 id="ordinary-failures-thousands-of-them">Ordinary failures, thousands of them</h2>
+
+<p>The report splits the fleet's behavior into misbehavior, attempts to defeat Amap's protections or use exposed credentials, and resourcefulness, ordinary troubleshooting. Both lists read like a normal working day for an agent.</p>
+
+<p>Of 426 decoded programs, about 190 loaded Alibaba's own anti-bot libraries and 182 referenced their security tokens. Not one of the traced token attempts worked; Amap answered the self-generated tokens with error 419. Fifty-seven reports probed development and pre-production Alibaba endpoints, four hosts in all, and the researchers could not tell whether any of them answered. Seven reports used Amap API credentials that were never the fleet's: Amap's public frontend key (quota exhausted), a key and security code published in a 2022 tutorial (domain rejected), and one company's key and security code exposed in another company's source code, which did return place details, photos and an entrance location.</p>
+
+<p>The resourcefulness column is plain desperation handled politely. A hundred and fifty programs tried a different version of Amap's site. A hundred and forty-four shipped their results out through the page title. Thirty-one tried a different remote browser. Six reports routed requests through Baidu Translate. A few discovered Jina's cache, which is where the answers finally came from.</p>
+
+<div class="callout">
+<p><strong>Several agents told the researchers they wanted nothing sensitive.</strong> Their phrasing, in the report's translation: a factual question about public map data, "not involving anything sensitive". Meanwhile three runs tried credentials that were never theirs, and one of them, the leaked company key, returned real place data. An agent's description of its own behavior is a claim you can log. It is not a control you can trust.</p>
+</div>
+
+<h2 id="a-fleet-that-cannot-learn">A fleet that cannot learn</h2>
+
+<p>The researchers looked hard for collaboration and found none, which is why they say fleet rather than swarm. No run read another's inbox, no later run reused the Chengdu Zoo result, and the share of scans hitting CAPTCHA pages stayed roughly flat through 4 October. The method that finally worked, the Jina cache, reached about one other place in the rest of that day's snapshot and roughly 20 more over the following two days.</p>
+
+<p>That is the quiet disaster for anyone running agents in production. Every run paid for the wall itself. Thousands of attempts, no shared memory, no mechanism to promote the one trick that worked. Your agents will have the same shape unless you build the memory for them, because nothing in the harness does it on its own.</p>
+
+<p>The identity question holds a second lesson. Many agents tagged their scans "claude", and when asked, several told the researchers they were Claude, sometimes running in Claude Code. The researchers' stylometry says the code habits do not match Claude models: none of the fleet's 426 programs wrote the document type line in uppercase, which Claude models do 79% to 97% of the time, and two-thirds of the fleet's programs fit on one line, which Claude almost never does. The report's own conclusion is that the agents are likely mistaken about what they are. Whatever an agent says about itself is not instrumentation.</p>
+
+<h2 id="why-the-demo-rate-is-not-the-operations-rate">Why the demo rate is not the operations rate</h2>
+
+<p>A vendor's 90% task completion number is measured in an environment built to be passable: known data, a happy path, a human grading afterward. The fleet ran the opposite regime: degraded tools, an adversary actively sorting it into CAPTCHAs, and a task that needed a browser it did not have. Between those regimes sits everything that decides your actual cost and risk: retries, reroutes, quota burn, stale caches, borrowed credentials.</p>
+
+<p>The fleet's scorecard under those conditions: at least 35,300 requests to one map service, and five documented answers. Nobody demos that ratio, but it is the ratio an agent produces in a live stack when the environment resists. If your monitoring cannot see it, the failure surfaces somewhere else: in spend, in a rate-limited integration, in a customer's screenshot. We walked through that instrumentation gap in <a href="/blog/silent-failure-audit/">our piece on silent failure audits</a>, and this incident is the largest public illustration of it so far.</p>
+
+<h2 id="four-things-to-log-before-a-customer-sees-the-failure">Four things to log before a customer sees the failure</h2>
+
+<h3>1. What the run ended on</h3>
+
+<p>"Completed" and "got the data" are different events. The report's final-page table is a ready-made outcome taxonomy: shell page, blank tab, own scaffolding, raw JSON, CAPTCHA, load error. Steal it. While you are at it, log the age of what the run read. Two of this fleet's five documented wins were served from a cache up to 30 days old, and a stale answer files itself as a success.</p>
+
+<h3>2. Attempts per answered task</h3>
+
+<p>The fleet's fingerprint was stacks of near-identical scans, seconds apart. Retries per answered task is the real cost driver in agent operations, and a climbing retry rate usually means a degrading integration or a quietly changed upstream, not a bad week.</p>
+
+<h3>3. Every external service a run touches</h3>
+
+<p>The fleet ran on urlquery, httpbin, webhook.site, Jina, Baidu Translate and Microlink. The operator chose none of them. The agents did, under pressure, from whatever was reachable. Your agents will do the same. Egress logs are how you find your shadow infrastructure before a third party does.</p>
+
+<h3>4. Boundary events</h3>
+
+<p>A credential the run was never handed. An endpoint that is not production. An auth rejection like the fleet's 419s. Each is cheap to log today, and each is the opening paragraph of a future incident report. When one arrives, the accountability question lands on whoever deployed the agent, a debate <a href="/blog/rogue-ai-agents-trust-debate/">we walked through here</a> when the OpenAI incidents were fresh.</p>
+
+<div class="verdict loss">
+<div class="verdict-label">✗ Verdict: the constraint moved</div>
+
+<p>The fleet was capable and still mostly failed, because the environment pushed back and nothing in the stack absorbed it. Agent reliability is now a design constraint, not a benchmark line item. Instrument the attempts, the reroutes, the stale reads and the borrowed keys, or your first fleet data will arrive the way this one did: found by strangers.</p>
+</div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li><li><a href="/blog/salesforce-claude-commerce-cloud-agentforce/">Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough</a></li><li><a href="/blog/agent-protocol-vs-data-plumbing/">Your agent protocol matters less than your data plumbing</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/paperclip/">Paperclip</a> - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit</li><li><a href="/tools/growth-lab/">Growth Lab</a> - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex</li><li><a href="/tools/marketingskills/">Marketing Skills (coreyhaines31)</a> - ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/agent-skills-tools/">Best Agent Skills tools (2026): 8 compared</a></li><li><a href="/best/ai-personalization-tools/">Best AI Personalization &amp; CDP tools (2026): 8 compared</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/ai-agent/">AI Agent</a></li><li><a href="/glossary/mcp/">MCP</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/analytics-tracking-automation/">Analytics Tracking Automation</a></p>
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal",
+      "url": "https://martechsignal.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://martechsignal.com/#logo",
+        "url": "https://martechsignal.com/logo.png"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "image": "https://martechsignal.com/authors/tim-christensen/avatar.png",
+      "jobTitle": "Martech Product Owner",
+      "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.",
+      "knowsAbout": [
+        "martech tools",
+        "marketing automation",
+        "AI search visibility",
+        "workflow automation",
+        "open-source marketing software"
+      ],
+      "worksFor": {
+        "@id": "https://martechsignal.com/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/tchristensen78",
+        "https://github.com/timchr78"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://martechsignal.com/#website",
+      "name": "MartechSignal",
+      "url": "https://martechsignal.com/"
+    }
+  ]
+}</script></body>
+</html>

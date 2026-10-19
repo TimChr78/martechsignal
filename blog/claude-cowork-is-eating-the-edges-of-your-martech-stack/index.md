@@ -108,7 +108,7 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Khoj](/tools/khoj/)
+More from the directory: [LanguageTool](/tools/languagetool/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

@@ -94,7 +94,7 @@ The boring setup wins. You know what the AI can see, you know what it can't touc
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SISTRIX](/tools/sistrix/)
+More from the directory: [SuiteCRM](/tools/suitecrm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

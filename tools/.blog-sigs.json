@@ -7,6 +7,10 @@
   "dm": "2026-10-06",
   "sig": "e7a687be646679cb"
  },
+ "agent-fleet-in-the-wild-2026-10-19": {
+  "dm": "2026-10-19",
+  "sig": "fc69244eb5311e99"
+ },
  "agent-protocol-vs-data-plumbing": {
   "dm": "2026-09-27",
   "sig": "4891849fe69db24c"

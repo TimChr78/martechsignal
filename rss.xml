@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 05:05:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 05:22:33 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Someone found a live agent fleet in the wild. Most of its runs failed.</title>
+      <link>https://martechsignal.com/blog/agent-fleet-in-the-wild-2026-10-19/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/agent-fleet-in-the-wild-2026-10-19/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description>On 4 October 2026 at 16:59 UTC, one agent run finally got its answer. Chengdu Zoo: north gate, 71% of arrivals. East gate, 23%. Southeast gate, 6%. The numbers arrived as plain…</description>
+    </item>
     <item>
       <title>AEO for SEO: what changes when buyers ask instead of search</title>
       <link>https://martechsignal.com/blog/aeo-for-seo-what-changes-when-buyers-ask/</link>
