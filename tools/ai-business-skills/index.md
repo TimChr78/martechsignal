@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - AI Business Skills
-Re-check pending: pricing last verified 2026-08-28 (50 days ago).
+Re-check pending: pricing last verified 2026-08-28 (52 days ago).
 
 ## AI Business Skills review (2026): pricing, AI features, verdict
 
@@ -125,7 +125,7 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 - **GitHub:** ★ 619
 - **Founded:** 2025
 - **API:** No
-- **Repository checked:** 2026-10-17
+- **Repository checked:** 2026-10-19
 - **Page updated:** 2026-08-28
 
 ## Get the next teardown

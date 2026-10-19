@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Customer.io
-Re-check pending: pricing last verified 2026-09-06 (41 days ago).
+Re-check pending: pricing last verified 2026-09-06 (43 days ago).
 
 ## Customer.io review (2026): pricing, AI features, verdict
 
@@ -140,8 +140,8 @@ Email and transactional email, push and in-app with unlimited sends on every pla
 
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
+- [MailCheap](/tools/mailcheap/): Newsletter platform billed per email sent, with full MCP control for AI agents
 - [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
-- [Ortto](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)

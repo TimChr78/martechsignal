@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - ProspectOS
-Re-check pending: pricing last verified 2026-08-31 (47 days ago).
+Re-check pending: pricing last verified 2026-08-31 (49 days ago).
 
 ## ProspectOS review (2026): pricing, AI features, verdict
 

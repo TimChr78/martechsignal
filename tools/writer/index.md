@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Writer
-Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+Re-check pending: pricing last verified 2026-09-25 (24 days ago).
 
 ## Writer review (2026): pricing, AI features, verdict
 

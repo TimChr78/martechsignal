@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Pipedrive
+Re-check pending: pricing last verified 2026-09-27 (22 days ago).
+
 ## Pipedrive review (2026): pricing, AI features, verdict
 
 Sales-focused CRM with AI-powered pipeline management and deal forecasting

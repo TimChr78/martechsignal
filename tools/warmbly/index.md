@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Warmbly
-Re-check pending: pricing last verified 2026-09-24 (23 days ago).
+Re-check pending: pricing last verified 2026-09-24 (25 days ago).
 
 ## Warmbly review (2026): pricing, AI features, verdict
 
@@ -92,7 +92,7 @@ The most complete open-source cold email stack we have listed, but young (launch
 | Pros | Cons |
 | --- | --- |
 | ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $29/mo |
-| ✓ AI capabilities: AI agent steps in campaign sequences that branch on classified reply intent | ✗ Young project (446 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ AI capabilities: AI agent steps in campaign sequences that branch on classified reply intent | ✗ Young project (458 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ Native integrations include HubSpot, Slack, Zapier (8 listed) |  |
 
 ## Related concepts
@@ -108,7 +108,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Warmbly?**
-Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 446 stars.
+Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 458 stars.
 
 **How much does Warmbly cost?**
 Warmbly has a free tier; paid plans start at $29/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers.
@@ -118,10 +118,10 @@ The most complete open-source cold email stack we have listed, but young (launch
 
 ## Similar Tools
 
+- [MailCheap](/tools/mailcheap/): Newsletter platform billed per email sent, with full MCP control for AI agents
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 - [Loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
-- [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 - [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
 ## Related reading
 
@@ -135,11 +135,11 @@ The most complete open-source cold email stack we have listed, but young (launch
 
 - **Pricing:** Open Source from $29/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 446
+- **GitHub:** ★ 458
 - **Founded:** 2026
 - **HQ:** London, UK
 - **API:** Yes
-- **Repository checked:** 2026-10-17
+- **Repository checked:** 2026-10-19
 - **Page updated:** 2026-09-24
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

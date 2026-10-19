@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - BillionMail
-Re-check pending: pricing last verified 2026-09-07 (40 days ago).
+Re-check pending: pricing last verified 2026-09-07 (42 days ago).
 
 ## BillionMail review (2026): pricing, AI features, verdict
 
@@ -104,7 +104,7 @@ A genuinely complete open-source mail server with a usable campaign layer on top
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $98.90/mo |
 | ✓ AI capabilities: AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi) |  |
-| ✓ Active public repository (15,920 GitHub stars counted at last check) |  |
+| ✓ Active public repository (15,925 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Postfix, Dovecot, Rspamd (7 listed) |  |
 
 ## Related concepts
@@ -120,7 +120,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is BillionMail?**
-BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,920 stars.
+BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,925 stars.
 
 **How much does BillionMail cost?**
 BillionMail has a free tier; paid plans start at $98.90/mo. Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.90 per instance. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -141,8 +141,8 @@ One documented one: AI email template generation, added in v4.0, where you descr
 
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 - [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server
+- [MailCheap](/tools/mailcheap/): Newsletter platform billed per email sent, with full MCP control for AI agents
 - [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
-- [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [Mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
 ## Related reading
 
@@ -153,10 +153,10 @@ One documented one: AI email template generation, added in v4.0, where you descr
 
 - **Pricing:** Open Source from $98.90/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 15920
+- **GitHub:** ★ 15925
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-17
+- **Repository checked:** 2026-10-19
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

@@ -1,7 +1,7 @@
 # MartechSignal
 
 > Independent reviews of AI marketing automation tools. Structured research on
-> 169 martech platforms | pricing, self-hosting, APIs, and which AI features
+> 170 martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -115,6 +115,7 @@
 - [Klaviyo](https://martechsignal.com/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
 - [Listmonk](https://martechsignal.com/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend (open source)
 - [Loops](https://martechsignal.com/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
+- [MailCheap](https://martechsignal.com/tools/mailcheap/): Newsletter platform billed per email sent, with full MCP control for AI agents (open source)
 - [Mailchimp](https://martechsignal.com/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
 - [Maizzle](https://martechsignal.com/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns (open source)
 - [Notifo](https://martechsignal.com/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push (open source)
@@ -428,7 +429,7 @@
 
 ## Machine-readable data
 
-- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 171 records = 169 active + 2 non-active; the directory above lists only active tools
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 172 records = 170 active + 2 non-active; the directory above lists only active tools
 - [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 328 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

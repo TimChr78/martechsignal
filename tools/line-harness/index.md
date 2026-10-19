@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Line Harness
-Re-check pending: pricing last verified 2026-09-07 (40 days ago).
+Re-check pending: pricing last verified 2026-09-07 (42 days ago).
 
 ## Line Harness review (2026): pricing, AI features, verdict
 
@@ -143,7 +143,7 @@ The docs describe BAN detection with automatic friend migration to the next acco
 - **Founded:** 2026
 - **HQ:** Tokyo, Japan
 - **API:** Yes
-- **Repository checked:** 2026-10-17
+- **Repository checked:** 2026-10-19
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

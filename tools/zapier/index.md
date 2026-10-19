@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Zapier
+Re-check pending: pricing last verified 2026-09-27 (22 days ago).
+
 ## Zapier review (2026): pricing, AI features, verdict
 
 No-code automation platform connecting 9,000+ apps with AI-powered workflows

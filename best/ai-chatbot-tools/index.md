@@ -46,8 +46,8 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Chatwoot - 37,873 stars, +1,664 in the 53-snapshot window to 2026-10-17 36,209→37,873 [verify on GitHub](https://github.com/chatwoot/chatwoot)
-- ChatbotX - 922 stars, +257 in the 53-snapshot window to 2026-10-17 665→922 [verify on GitHub](https://github.com/ChatbotXIO/ChatbotX)
+- Chatwoot - 37,940 stars, +1,731 in the 55-snapshot window to 2026-10-19 36,209→37,940 [verify on GitHub](https://github.com/chatwoot/chatwoot)
+- ChatbotX - 971 stars, +306 in the 55-snapshot window to 2026-10-19 665→971 [verify on GitHub](https://github.com/ChatbotXIO/ChatbotX)
 [All movers on the trending page](/trending/).
 
 ## [Intercom](/tools/intercom/)
@@ -122,7 +122,7 @@ Vendor: [Official site](https://chatbotx.io/docs) · [GitHub](https://github.com
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 169 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 170 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 ## Which chatbot gives auditable AI resolutions?
 

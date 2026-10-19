@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - React Email Editor
-Re-check pending: pricing last verified 2026-09-06 (41 days ago).
+Re-check pending: pricing last verified 2026-09-06 (43 days ago).
 
 ## React Email Editor review (2026): pricing, AI features, verdict
 
@@ -107,7 +107,7 @@ The fastest route to a real email builder inside a React app, and an honest one 
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $250/mo |
 | ✓ AI capabilities: AI Assistant chat editing |  |
-| ✓ Active public repository (5,244 GitHub stars counted at last check) |  |
+| ✓ Active public repository (5,246 GitHub stars counted at last check) |  |
 | ✓ Native integrations include React, Angular, Vue (7 listed) |  |
 
 ## Related concepts
@@ -123,7 +123,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is React Email Editor?**
-React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,244 stars.
+React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,246 stars.
 
 **How much does React Email Editor cost?**
 React Email Editor has a free tier; paid plans start at $250/mo. Free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -148,7 +148,7 @@ If you need a fully open pipeline with no third-party dependency, yes, and you s
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
-- [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+- [MailCheap](/tools/mailcheap/): Newsletter platform billed per email sent, with full MCP control for AI agents
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 ## Related reading
 
@@ -162,9 +162,9 @@ If you need a fully open pipeline with no third-party dependency, yes, and you s
 
 - **Pricing:** Open Source from $250/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 5244
+- **GitHub:** ★ 5246
 - **API:** No
-- **Repository checked:** 2026-10-16
+- **Repository checked:** 2026-10-19
 - **Page updated:** 2026-09-06
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

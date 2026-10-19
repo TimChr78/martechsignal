@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Pabbly Connect
+Re-check pending: pricing last verified 2026-09-27 (22 days ago).
+
 ## Pabbly Connect review (2026): pricing, AI features, verdict
 
 Task-priced integration platform with a one-time lifetime purchase option

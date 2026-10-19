@@ -50,12 +50,12 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- EspoCRM - 3,495 stars, +204 in the 53-snapshot window to 2026-10-17 3,291→3,495 [verify on GitHub](https://github.com/espocrm/espocrm)
-- SuiteCRM - 5,797 stars, +107 in the 53-snapshot window to 2026-10-17 5,690→5,797 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
-- Twenty - 58,429 stars, +2,904 in the 53-snapshot window to 2026-10-17 55,525→58,429 [verify on GitHub](https://github.com/twentyhq/twenty)
-- Frappe CRM - 3,800 stars, +410 in the 53-snapshot window to 2026-10-17 3,390→3,800 [verify on GitHub](https://github.com/frappe/crm)
-- Krayin CRM - 24,014 stars, +303 in the 53-snapshot window to 2026-10-17 23,711→24,014 [verify on GitHub](https://github.com/krayin/laravel-crm)
-- Monica - 25,494 stars, +389 in the 53-snapshot window to 2026-10-17 25,105→25,494 [verify on GitHub](https://github.com/monicahq/monica)
+- EspoCRM - 3,499 stars, +208 in the 55-snapshot window to 2026-10-19 3,291→3,499 [verify on GitHub](https://github.com/espocrm/espocrm)
+- SuiteCRM - 5,796 stars, +106 in the 55-snapshot window to 2026-10-19 5,690→5,796 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
+- Twenty - 58,511 stars, +2,986 in the 55-snapshot window to 2026-10-19 55,525→58,511 [verify on GitHub](https://github.com/twentyhq/twenty)
+- Frappe CRM - 3,816 stars, +426 in the 55-snapshot window to 2026-10-19 3,390→3,816 [verify on GitHub](https://github.com/frappe/crm)
+- Krayin CRM - 24,020 stars, +309 in the 55-snapshot window to 2026-10-19 23,711→24,020 [verify on GitHub](https://github.com/krayin/laravel-crm)
+- Monica - 25,506 stars, +401 in the 55-snapshot window to 2026-10-19 25,105→25,506 [verify on GitHub](https://github.com/monicahq/monica)
 [All movers on the trending page](/trending/).
 
 ## [EspoCRM](/tools/espocrm/)
@@ -130,7 +130,7 @@ Vendor: [Official site](https://monicahq.com) · [GitHub](https://github.com/mon
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 169 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 170 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 Compare or swap: [HubSpot CRM alternatives](/alternatives/hubspot-crm/)
 

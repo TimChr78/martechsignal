@@ -67,7 +67,7 @@ Cost picture for a 10K-pageview-per-month site. All figures checked 2026-09-27 o
 
 **Matomo:** Installation is a documented nine-step wizard: matomo.zip from builds.matomo.org, PHP 8.1 or newer with MySQL 8 or MariaDB 10.6, and an archiving cron job for sites above a few hundred visits a day. WordPress, Shopify, Google Tag Manager, the Google Analytics Importer, and consent tools (OneTrust, Cookiebot) are documented, and cloud data stays in Europe.
 
-**Plausible Analytics:** Self-hosting is a small job: an AGPL codebase with 29,503 GitHub stars and a tracking script that weighs under a kilobyte on the page. Cookie-free operation removes the consent-banner question for analytics entirely. Integrations cover WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack.
+**Plausible Analytics:** Self-hosting is a small job: an AGPL codebase with 29,546 GitHub stars and a tracking script that weighs under a kilobyte on the page. Cookie-free operation removes the consent-banner question for analytics entirely. Integrations cover WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack.
 
 ## AI features
 
@@ -134,8 +134,8 @@ Last verified 2026-09-28.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Matomo - 21,958 stars, +153 in the 53-snapshot window to 2026-10-17 21,805→21,958 [verify on GitHub](https://github.com/matomo-org/matomo)
-- Plausible Analytics - 29,503 stars, +755 in the 53-snapshot window to 2026-10-17 28,748→29,503 [verify on GitHub](https://github.com/plausible/analytics)
+- Matomo - 21,961 stars, +156 in the 55-snapshot window to 2026-10-19 21,805→21,961 [verify on GitHub](https://github.com/matomo-org/matomo)
+- Plausible Analytics - 29,546 stars, +798 in the 55-snapshot window to 2026-10-19 28,748→29,546 [verify on GitHub](https://github.com/plausible/analytics)
 [All movers on the trending page](/trending/).
 
 ## Get the next teardown

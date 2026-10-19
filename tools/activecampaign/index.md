@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - ActiveCampaign
+Re-check pending: pricing last verified 2026-09-27 (22 days ago).
+
 ## ActiveCampaign review (2026): pricing, AI features, verdict
 
 AI-powered marketing automation and CRM for small to mid-size businesses

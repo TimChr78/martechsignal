@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Jitsu
-Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+Re-check pending: pricing last verified 2026-09-25 (24 days ago).
 
 ## Jitsu review (2026): pricing, AI features, verdict
 

@@ -7,7 +7,7 @@
 
 Email marketing across hosted, self-hosted, and transactional: contact vs volume pricing and inbox placement. 16 tools reviewed.
 
-17 TOOLS IN THIS CATEGORY
+18 TOOLS IN THIS CATEGORY
 
 ## HOSTED CAMPAIGN PLATFORMS (5)
 
@@ -33,8 +33,9 @@ Email marketing across hosted, self-hosted, and transactional: contact vs volume
 - [OpenOutreach](/tools/openoutreach/): Open-source AI lead finder: describe your product and it finds and qualifies the leads (Open Source)
 - [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js (Open Source from $250/mo)
 - [Warmbly](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM (Open Source from $29/mo)
-## More Email Marketing tools (1)
+## More Email Marketing tools (2)
 
+- [MailCheap](/tools/mailcheap/): Newsletter platform billed per email sent, with full MCP control for AI agents (From $19/mo)
 - [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server (Open Source)
 **Compare:** [ActiveCampaign vs Klaviyo](/vs/activecampaign-vs-klaviyo/) · [Mailchimp vs Klaviyo](/vs/mailchimp-vs-klaviyo/) · [Mailchimp vs Brevo](/vs/mailchimp-vs-brevo/) · [Mailchimp alternatives](/alternatives/mailchimp/) · [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) · [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 

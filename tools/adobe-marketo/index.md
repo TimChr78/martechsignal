@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Adobe Marketo Engage
+Re-check pending: pricing last verified 2026-09-27 (22 days ago).
+
 ## Adobe Marketo Engage review (2026): pricing, AI features, verdict
 
 Enterprise B2B marketing automation with AI-driven lead management and engagement

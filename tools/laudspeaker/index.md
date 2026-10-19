@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Laudspeaker
-Re-check pending: pricing last verified 2026-08-28 (50 days ago).
+Re-check pending: pricing last verified 2026-08-28 (52 days ago).
 
 ## Laudspeaker review (2026): pricing, AI features, verdict
 
@@ -119,7 +119,7 @@ The open-source Braze alternative for technical growth teams that want data owne
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
 - **GitHub:** ★ 2627
 - **API:** Yes
-- **Repository checked:** 2026-10-16
+- **Repository checked:** 2026-10-19
 - **Page updated:** 2026-08-28
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)

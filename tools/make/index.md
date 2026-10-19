@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Make
+Re-check pending: pricing last verified 2026-09-27 (22 days ago).
+
 ## Make review (2026): pricing, AI features, verdict
 
 Visual automation platform for building complex workflows with AI agents and apps

@@ -49,9 +49,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- RudderStack - 4,500 stars, +6 in the 15-snapshot window to 2026-10-17 4,494→4,500 [verify on GitHub](https://github.com/rudderlabs/rudder-server)
-- Jitsu - 5,108 stars, +17 in the 21-snapshot window to 2026-10-17 5,091→5,108 [verify on GitHub](https://github.com/jitsucom/jitsu)
-- Apache Unomi - 380 stars, +5 in the 21-snapshot window to 2026-10-17 375→380 [verify on GitHub](https://github.com/apache/unomi)
+- RudderStack - 4,500 stars, +6 in the 17-snapshot window to 2026-10-19 4,494→4,500 [verify on GitHub](https://github.com/rudderlabs/rudder-server)
+- Jitsu - 5,108 stars, +17 in the 23-snapshot window to 2026-10-19 5,091→5,108 [verify on GitHub](https://github.com/jitsucom/jitsu)
+- Apache Unomi - 380 stars, +5 in the 23-snapshot window to 2026-10-19 375→380 [verify on GitHub](https://github.com/apache/unomi)
 [All movers on the trending page](/trending/).
 
 ## [RudderStack](/tools/rudderstack/)
@@ -126,7 +126,7 @@ Vendor: [Official site](https://tealium.com) · [Pricing](https://tealium.com/pr
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 169 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 170 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 ## What is the difference between a classic and a composable CDP?
 

@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Sprout Social
+Re-check pending: pricing last verified 2026-09-27 (22 days ago).
+
 ## Sprout Social review (2026): pricing, AI features, verdict
 
 Enterprise social media management with AI-powered analytics and engagement tools

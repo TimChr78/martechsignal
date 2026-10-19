@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Attribution
-Re-check pending: pricing last verified 2026-08-28 (50 days ago).
+Re-check pending: pricing last verified 2026-08-28 (52 days ago).
 
 ## Attribution review (2026): pricing, AI features, verdict
 

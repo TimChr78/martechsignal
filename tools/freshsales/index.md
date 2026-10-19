@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Freshsales
+Re-check pending: pricing last verified 2026-09-27 (22 days ago).
+
 ## Freshsales review (2026): pricing, AI features, verdict
 
 AI-powered CRM with built-in phone, email, and chat for sales teams

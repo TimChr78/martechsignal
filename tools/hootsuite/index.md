@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Hootsuite
+Re-check pending: pricing last verified 2026-09-27 (22 days ago).
+
 ## Hootsuite review (2026): pricing, AI features, verdict
 
 Social media management platform with AI-powered scheduling and analytics

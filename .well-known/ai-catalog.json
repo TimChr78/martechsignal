@@ -1042,6 +1042,19 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:tools:mailcheap",
+   "displayName": "MailCheap pricing & plans",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/mailcheap/",
+   "description": "Newsletter platform billed per email sent, with full MCP control for AI agents",
+   "representativeQueries": [
+    "open source mailcheap",
+    "MailCheap pricing",
+    "MailCheap alternatives",
+    "email marketing tools like MailCheap"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:tools:mailchimp",
    "displayName": "Mailchimp pricing & plans",
    "type": "text/html",
@@ -2226,7 +2239,7 @@
    "displayName": "Open-Source Tools",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/open-source/",
-   "description": "84 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.",
+   "description": "85 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.",
    "representativeQueries": [
     "best open-source tools tools",
     "open-source tools comparison",
@@ -3814,7 +3827,7 @@
    "displayName": "Categories",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/",
-   "description": "Browse all 13 categories plus the open-source index across 169 marketing-automation tools: licences, stars and plain-English summaries.",
+   "description": "Browse all 13 categories plus the open-source index across 170 marketing-automation tools: licences, stars and plain-English summaries.",
    "representativeQueries": [
     "martechsignal categories",
     "browse tools by category"
@@ -3858,7 +3871,7 @@
    "displayName": "Open-Source MarTech Momentum: GitHub Stars",
    "type": "text/html",
    "url": "https://martechsignal.com/trending/",
-   "description": "Every morning we snapshot the GitHub stars of all 84 open-source tools in our 169-tool catalog (all of them list a public GitHub repository). 82 have enough history to chart here; a repository needs 5",
+   "description": "Every morning we snapshot the GitHub stars of all 85 open-source tools in our 170-tool catalog (all of them list a public GitHub repository). 83 have enough history to chart here; a repository needs 5",
    "representativeQueries": [
     "trending martech tools",
     "what tools trend on github"

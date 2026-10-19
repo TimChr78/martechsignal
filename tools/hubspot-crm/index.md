@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - HubSpot CRM
+Re-check pending: pricing last verified 2026-09-27 (22 days ago).
+
 ## HubSpot CRM review (2026): pricing, AI features, verdict
 
 Free AI-powered CRM platform with sales, service, and marketing tools unified

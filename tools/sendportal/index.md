@@ -29,7 +29,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** yes
 - **Catalogued integrations:** 9
-- **GitHub stars:** 2,173
+- **GitHub stars:** 2,175
 - **Last release:** v4.0.0 (2026-10-12)
 
 The full rubric is on the [methodology page](/methodology/).
@@ -96,7 +96,7 @@ A clean, MIT-licensed self-hosted newsletter sender for PHP shops, freshly updat
 | Pros | Cons |
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ Active public repository (2,173 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,175 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Amazon SES, Mailgun, SendGrid (9 listed) |  |
 
 ## Related concepts
@@ -112,10 +112,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is SendPortal?**
-SendPortal: Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server. The public repository carries 2,173 stars. SendPortal offers a public API for custom integrations.
+SendPortal: Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server. The public repository carries 2,175 stars. SendPortal offers a public API for custom integrations.
 
 **How much does SendPortal cost?**
-SendPortal is open source - MIT licensed and free to self-host; the public repository carries 2,173 stars; native integrations cover Amazon SES, Mailgun, SendGrid. You pay in server time and maintenance, not licences.
+SendPortal is open source - MIT licensed and free to self-host; the public repository carries 2,175 stars; native integrations cover Amazon SES, Mailgun, SendGrid. You pay in server time and maintenance, not licences.
 
 **Is SendPortal a good self-hosted Email Marketing tool in 2026?**
 A clean, MIT-licensed self-hosted newsletter sender for PHP shops, freshly updated to Laravel 13 after a long quiet period. No AI and no automation, so the subscription money you save is paid back in features you do not get.
@@ -137,7 +137,7 @@ The most recent release in our catalog is v4.0.0 (2026-10-12). For the full hist
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 - [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
-- [Mautic](/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management
+- [MailCheap](/tools/mailcheap/): Newsletter platform billed per email sent, with full MCP control for AI agents
 - [Warmbly](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 ## Related reading
 
@@ -148,11 +148,11 @@ The most recent release in our catalog is v4.0.0 (2026-10-12). For the full hist
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 2173
+- **GitHub:** ★ 2175
 - **Founded:** 2020
 - **HQ:** London, UK
 - **API:** Yes
-- **Repository checked:** 2026-10-17
+- **Repository checked:** 2026-10-19
 - **Page updated:** 2026-10-15
 
 ## Get the next teardown

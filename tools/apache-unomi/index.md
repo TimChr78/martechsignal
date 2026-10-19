@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Apache Unomi
-Re-check pending: pricing last verified 2026-09-25 (22 days ago).
+Re-check pending: pricing last verified 2026-09-25 (24 days ago).
 
 ## Apache Unomi review (2026): pricing, AI features, verdict
 

@@ -92,16 +92,16 @@ For a team already comfortable with Docker and an agent CLI, the five-layer loop
 ## Related tools
 
 - [Nimt.ai](/tools/nimt-ai/) - AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [MailCheap](/tools/mailcheap/) - Newsletter platform billed per email sent, with full MCP control for AI agents
 - [Resend](/tools/resend/) - Developer-first email API built around React Email, batch sending, and agent tooling
-- [BillionMail](/tools/billionmail/) - Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/)
+- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 ## Glossary terms
 
 - [MCP](/glossary/mcp/)
-- [AEO](/glossary/aeo/)
+- [UTM parameters](/glossary/utm-parameters/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

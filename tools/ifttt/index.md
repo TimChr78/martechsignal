@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - IFTTT
+Re-check pending: pricing last verified 2026-09-27 (22 days ago).
+
 ## IFTTT review (2026): pricing, AI features, verdict
 
 Consumer-friendly automation connecting apps and smart devices

@@ -49,9 +49,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Matomo - 21,958 stars, +153 in the 53-snapshot window to 2026-10-17 21,805→21,958 [verify on GitHub](https://github.com/matomo-org/matomo)
-- Umami - 39,423 stars, +1,063 in the 53-snapshot window to 2026-10-17 38,360→39,423 [verify on GitHub](https://github.com/umami-software/umami)
-- Snowplow - 7,041 stars, +13 in the 53-snapshot window to 2026-10-17 7,028→7,041 [verify on GitHub](https://github.com/snowplow/snowplow)
+- Matomo - 21,961 stars, +156 in the 55-snapshot window to 2026-10-19 21,805→21,961 [verify on GitHub](https://github.com/matomo-org/matomo)
+- Umami - 39,458 stars, +1,098 in the 55-snapshot window to 2026-10-19 38,360→39,458 [verify on GitHub](https://github.com/umami-software/umami)
+- Snowplow - 7,042 stars, +14 in the 55-snapshot window to 2026-10-19 7,028→7,042 [verify on GitHub](https://github.com/snowplow/snowplow)
 [All movers on the trending page](/trending/).
 
 ## [Amplitude](/tools/amplitude/)
@@ -150,7 +150,7 @@ Vendor: [Official site](https://snowplow.io) · [GitHub](https://github.com/snow
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 169 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 170 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 Compare or swap: [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/) · [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/)
 
