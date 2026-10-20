@@ -49,9 +49,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Flagsmith - 6,599 stars, +27 in the 23-snapshot window to 2026-10-19 6,572→6,599 [verify on GitHub](https://github.com/Flagsmith/flagsmith)
-- GrowthBook - 8,508 stars, +76 in the 23-snapshot window to 2026-10-19 8,432→8,508 [verify on GitHub](https://github.com/growthbook/growthbook)
-- Jitsu - 5,108 stars, +17 in the 23-snapshot window to 2026-10-19 5,091→5,108 [verify on GitHub](https://github.com/jitsucom/jitsu)
+- Flagsmith - 6,602 stars, +30 in the 24-snapshot window to 2026-10-20 6,572→6,602 [verify on GitHub](https://github.com/Flagsmith/flagsmith)
+- GrowthBook - 8,512 stars, +80 in the 24-snapshot window to 2026-10-20 8,432→8,512 [verify on GitHub](https://github.com/growthbook/growthbook)
+- Jitsu - 5,108 stars, +17 in the 24-snapshot window to 2026-10-20 5,091→5,108 [verify on GitHub](https://github.com/jitsucom/jitsu)
 [All movers on the trending page](/trending/).
 
 ## [Dynamic Yield](/tools/dynamic-yield/)

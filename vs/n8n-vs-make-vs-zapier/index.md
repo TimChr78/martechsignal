@@ -133,7 +133,7 @@ Last verified 2026-09-28.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- n8n - 207,949 stars, +5,546 in the 55-snapshot window to 2026-10-19 202,403→207,949 [verify on GitHub](https://github.com/n8n-io/n8n)
+- n8n - 208,067 stars, +5,664 in the 56-snapshot window to 2026-10-20 202,403→208,067 [verify on GitHub](https://github.com/n8n-io/n8n)
 [All movers on the trending page](/trending/).
 
 ## Get the next teardown

@@ -50,7 +50,7 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Strapi - 73,341 stars, +327 in the 55-snapshot window to 2026-10-19 73,014→73,341 [verify on GitHub](https://github.com/strapi/strapi)
+- Strapi - 73,345 stars, +331 in the 56-snapshot window to 2026-10-20 73,014→73,345 [verify on GitHub](https://github.com/strapi/strapi)
 [All movers on the trending page](/trending/).
 
 ## [Writer](/tools/writer/)

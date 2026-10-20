@@ -207,5 +207,12 @@
   "last_check": "2026-10-17",
   "errors": 0,
   "backoff_until": ""
+ },
+ "notifuse": {
+  "etag": "\"034dcde269cf07becb8b491038dd8eb18cfe738dff4f6c5d113bdb270f75e856\"",
+  "lastmod": "Thu, 15 Oct 2026 21:29:50 GMT",
+  "status": "mismatch",
+  "last_check": "2026-10-19",
+  "backoff_until": "2026-11-18"
  }
 }

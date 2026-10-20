@@ -86,8 +86,6 @@ But do not replatform *for* AI. If the stack you have runs your programs, the AI
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Zoho CRM](/tools/zoho-crm/)
-
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 Verdict: the replatform pitch is a trap

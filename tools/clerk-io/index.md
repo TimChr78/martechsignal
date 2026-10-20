@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Clerk.io
-Re-check pending: pricing last verified 2026-09-25 (24 days ago).
+Re-check pending: pricing last verified 2026-09-25 (25 days ago).
 
 ## Clerk.io review (2026): pricing, AI features, verdict
 

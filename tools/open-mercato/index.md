@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Open Mercato
-Re-check pending: pricing last verified 2026-09-07 (42 days ago).
+Re-check pending: pricing last verified 2026-09-07 (43 days ago).
 
 ## Open Mercato review (2026): pricing, AI features, verdict
 
@@ -151,7 +151,7 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 - **Founded:** 2025
 - **HQ:** Open source
 - **API:** Yes
-- **Repository checked:** 2026-10-19
+- **Repository checked:** 2026-10-20
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

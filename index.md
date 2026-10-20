@@ -8,6 +8,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### HubSpot's credit rules are a budget design problem, not a pricing problem.
+
+On 15 October HubSpot gave its credits model a set of spending controls: account caps, seat swaps, a pay-as-you-go option. MarTech's coverage framed the change as predictability…
+
 ### Someone found a live agent fleet in the wild. Most of its runs failed.
 
 On 4 October 2026 at 16:59 UTC, one agent run finally got its answer. Chengdu Zoo: north gate, 71% of arrivals. East gate, 23%. Southeast gate, 6%. The numbers arrived as plain…
@@ -19,10 +23,6 @@ Somewhere between the query and the shortlist, the results page stopped being ma
 ### Who eats the spending gap when agentic spend outpaces proof?
 
 Last week this blog walked the rogue agents debate to a flat conclusion: your agent did not go rogue, your configuration did what it was configured to allow. That sentence is…
-
-### Where the manual work still hides in your marketing automation
-
-Building the campaign is the fast part. In a recent r/MarketingAutomation thread, a CRM and lifecycle marketer put it plainly: "setting up the actual automation is rarely the part…
 
 ## Tool index
 

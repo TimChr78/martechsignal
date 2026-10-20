@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 05:22:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 05:15:38 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>HubSpot's credit rules are a budget design problem, not a pricing problem.</title>
+      <link>https://martechsignal.com/blog/hubspot-credit-rules-budget-design-2026-10-20/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/hubspot-credit-rules-budget-design-2026-10-20/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>On 15 October HubSpot gave its credits model a set of spending controls: account caps, seat swaps, a pay-as-you-go option. MarTech's coverage framed the change as predictability…</description>
+    </item>
     <item>
       <title>Someone found a live agent fleet in the wild. Most of its runs failed.</title>
       <link>https://martechsignal.com/blog/agent-fleet-in-the-wild-2026-10-19/</link>

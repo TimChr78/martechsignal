@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Monica
-Re-check pending: pricing last verified 2026-09-07 (42 days ago).
+Re-check pending: pricing last verified 2026-09-07 (43 days ago).
 
 ## Monica review (2026): pricing, AI features, verdict
 
@@ -147,9 +147,9 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 - [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 ## Related reading
 
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for relationship-led founders and community businesses.
@@ -159,7 +159,7 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 25506
 - **API:** Yes
-- **Repository checked:** 2026-10-19
+- **Repository checked:** 2026-10-20
 - **Page updated:** 2026-09-07
 
 Related guides: [Open Source Crm](/best/open-source-crm/)

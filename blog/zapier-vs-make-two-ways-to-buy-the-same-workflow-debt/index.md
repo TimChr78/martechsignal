@@ -104,12 +104,12 @@ For the spec-sheet version of these two, with pricing rows side by side, see the
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
 ## Related tools
 
 - [Activepieces](/tools/activepieces/) - Open-source workflow automation with a free cloud tier and on-prem hosting
-- [Microsoft Power Automate](/tools/power-automate/) - Enterprise workflow automation inside the Microsoft Power Platform
 - [Pabbly Connect](/tools/pabbly-connect/) - Task-priced integration platform with a one-time lifetime purchase option
+- [Paperclip](/tools/paperclip/) - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)

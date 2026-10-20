@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Ever Gauzy
-Re-check pending: pricing last verified 2026-09-07 (42 days ago).
+Re-check pending: pricing last verified 2026-09-07 (43 days ago).
 
 ## Ever Gauzy review (2026): pricing, AI features, verdict
 
@@ -92,7 +92,7 @@ Unusually broad open-source business platform with published cloud pricing; best
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $17/mo |
 | ✓ API access for custom integrations |  |
-| ✓ Active public repository (8,394 GitHub stars counted at last check) |  |
+| ✓ Active public repository (8,403 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -109,7 +109,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Ever Gauzy?**
-Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 8,394 stars. Ever Gauzy offers a public API for custom integrations.
+Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 8,403 stars. Ever Gauzy offers a public API for custom integrations.
 
 **How much does Ever Gauzy cost?**
 Ever Gauzy has a free tier; paid plans start at $17/mo. Self-hosted free (AGPLv3 Community Edition); Cloud Starter free for 1 company and 1 employee, Small Business $17/mo billed annually, Enterprise $139/mo billed annually. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -136,15 +136,15 @@ Yes, and it is the platform's anchor module. The README lists employee time-trac
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $17/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 8394
+- **GitHub:** ★ 8403
 - **API:** Yes
-- **Repository checked:** 2026-10-19
+- **Repository checked:** 2026-10-20
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

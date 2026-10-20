@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - EspoCRM
-Re-check pending: pricing last verified 2026-09-07 (42 days ago).
+Re-check pending: pricing last verified 2026-09-07 (43 days ago).
 
 ## EspoCRM review (2026): pricing, AI features, verdict
 
@@ -94,7 +94,7 @@ A fast-moving, well-documented self-hosted CRM whose free core covers the sales 
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at €12.90/user/mo |
 | ✓ API access for custom integrations |  |
-| ✓ Active public repository (3,499 GitHub stars counted at last check) |  |
+| ✓ Active public repository (3,498 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -111,7 +111,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is EspoCRM?**
-EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. The public repository carries 3,499 stars. EspoCRM offers a public API for custom integrations.
+EspoCRM: Lightweight open-source CRM with sales automation, marketing tools, and customer management. The public repository carries 3,498 stars. EspoCRM offers a public API for custom integrations.
 
 **How much does EspoCRM cost?**
 EspoCRM has a free tier; paid plans start at €12.90/user/mo. Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from €12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -138,8 +138,8 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for lean sales teams that automate à la carte.
@@ -147,11 +147,11 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 
 - **Pricing:** Open Source from €12.90/user/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 3499
+- **GitHub:** ★ 3498
 - **Founded:** 2011
 - **HQ:** Delaware, USA
 - **API:** Yes
-- **Repository checked:** 2026-10-19
+- **Repository checked:** 2026-10-20
 - **Page updated:** 2026-09-07
 
 Related guides: [EspoCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/)

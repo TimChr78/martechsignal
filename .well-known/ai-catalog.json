@@ -2637,6 +2637,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:hubspot-credit-rules-budget-design-2026-10-20",
+   "displayName": "HubSpot credits are a budget design problem",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/hubspot-credit-rules-budget-design-2026-10-20/",
+   "description": "Auto-upgrade locks a higher credit pack for the rest of the term while pay-as-you-go resets monthly. The rule sheet to settle before you sign.",
+   "representativeQueries": [
+    "hubspot credits are a budget design problem",
+    "hubspot credit rules budget design 2026 10 20"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:iab-agentic-buying-rules-insertion-orders",
    "displayName": "IAB agentic buying rules land before ad stacks can honor them",
    "type": "text/html",
@@ -3882,7 +3893,7 @@
    "displayName": "Open-Source MarTech Momentum: GitHub Stars",
    "type": "text/html",
    "url": "https://martechsignal.com/trending/",
-   "description": "Every morning we snapshot the GitHub stars of all 85 open-source tools in our 170-tool catalog (all of them list a public GitHub repository). 83 have enough history to chart here; a repository needs 5",
+   "description": "Every morning we snapshot the GitHub stars of all 85 open-source tools in our 170-tool catalog (all of them list a public GitHub repository). 84 have enough history to chart here; a repository needs 5",
    "representativeQueries": [
     "trending martech tools",
     "what tools trend on github"

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Seonaut
-Re-check pending: pricing last verified 2026-09-07 (42 days ago).
+Re-check pending: pricing last verified 2026-09-07 (43 days ago).
 
 ## Seonaut review (2026): pricing, AI features, verdict
 
@@ -24,7 +24,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 30/60
 
-Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 809 stars; small, legible and honest about scope.
+Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 810 stars; small, legible and honest about scope.
 
 
 | Pillar | Score | Evidence |
@@ -110,7 +110,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Seonaut?**
-Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 809 stars.
+Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 810 stars.
 
 **How much does Seonaut cost?**
 Seonaut has a free tier; paid plans start at $9/mo. MIT-licensed self-hosted free; cloud Lite free for 1 project and 500 URLs per project, Growth $9/mo for 5 projects and 10,000 URLs with recurring audits. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -137,17 +137,17 @@ On core technical auditing, more than you might expect: broken links, redirect c
 ## Related reading
 
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $9/mo
 - **Category:** [SEO & Search](/categories/seo/)
-- **GitHub:** ★ 809
+- **GitHub:** ★ 810
 - **Founded:** 2022
 - **HQ:** Open source
 - **API:** No
-- **Repository checked:** 2026-10-19
+- **Repository checked:** 2026-10-20
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

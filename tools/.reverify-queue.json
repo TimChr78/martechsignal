@@ -86,5 +86,13 @@
   "url": "https://manychat.com/pricing",
   "detail": "HTTP 403",
   "queued_at": "2026-10-17"
+ },
+ {
+  "slug": "notifuse",
+  "name": "Notifuse",
+  "kind": "mismatch",
+  "url": "https://www.notifuse.com/pricing",
+  "detail": "catalog expects ['19.00'] (USD); page shows ['16.00', '290.00']; missing ['19.00']",
+  "queued_at": "2026-10-19"
  }
 ]

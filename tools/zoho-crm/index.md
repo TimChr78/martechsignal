@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Zoho CRM
+Re-check pending: pricing last verified 2026-09-28 (22 days ago).
+
 ## Zoho CRM review (2026): pricing, AI features, verdict
 
 Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
