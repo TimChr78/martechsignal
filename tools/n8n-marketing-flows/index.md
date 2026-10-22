@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - n8n Marketing Flows
-Re-check pending: pricing last verified 2026-08-31 (50 days ago).
+Re-check pending: pricing last verified 2026-08-31 (52 days ago).
 
 ## n8n Marketing Flows review (2026): pricing, AI features, verdict
 
@@ -120,8 +120,8 @@ The largest verified free template pack for n8n marketing automation, with a gen
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ### Quick Facts
 
 - **Pricing:** Open Source

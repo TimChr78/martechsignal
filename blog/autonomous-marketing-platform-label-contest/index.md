@@ -124,6 +124,6 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
+More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

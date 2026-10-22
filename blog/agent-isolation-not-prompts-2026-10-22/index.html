@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prompts are not a security boundary. Isolation is.</title>
+<meta name="description" content="A leaked key beat a map service. Prompts did not stop it and could not. Where the real agent security boundary sits: isolation, custody, egress.">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="article">
+<link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="Prompts are not a security boundary. Isolation is.">
+<meta property="og:description" content="A leaked key beat a map service. Prompts did not stop it and could not. Where the real agent security boundary sits: isolation, custody, egress.">
+<meta property="og:url" content="https://martechsignal.com/blog/agent-isolation-not-prompts-2026-10-22/">
+<meta property="og:image" content="https://martechsignal.com/og/agent-isolation-not-prompts-2026-10-22.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/agent-isolation-not-prompts-2026-10-22/">
+<link rel="ard ai-catalog" type="application/json" href="https://martechsignal.com/.well-known/ard.json">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin><style>:root{--bg: #080E1A;--card: #0F1B31;--line: #1D2B47;--line2: #2A3D63;--text: #E9EEF8;--muted: #8FA1C0;--amber: #FFB224;--green: #3DDC97;--red: #F87171;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--body: 'Archivo', 'Archivo-fallback', sans-serif}*{margin: 0;padding: 0;box-sizing: border-box}html{scroll-behavior: smooth}body{background: var(--bg);color: var(--text);font-family: var(--body);line-height: 1.65;-webkit-font-smoothing: antialiased}.page-post body, body.page-post{line-height: 1.7}::selection{background: var(--amber);color: #141005}a{color: inherit}.bg{position: fixed;inset: 0;z-index: -1;background: radial-gradient(900px 520px at 88% -8%, rgba(255,178,36,.11), transparent 62%), radial-gradient(760px 560px at -12% 34%, rgba(61,220,151,.07), transparent 60%), radial-gradient(700px 400px at 60% 110%, rgba(255,92,92,.05), transparent 60%), var(--bg)}.bg::before{content: "";position: absolute;inset: 0;background-image: linear-gradient(rgba(140,165,210,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(140,165,210,.05) 1px, transparent 1px);background-size: 46px 46px;mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 30%, transparent 100%)}.page-tools .bg::before{display: none}.wrap{max-width: 1080px;margin: 0 auto;padding: 0 1.25rem}.masthead{border-bottom: 1px solid var(--line)}.mast-in{max-width: 1080px;margin: 0 auto;padding: 1.1rem 1.25rem;display: flex;align-items: center;justify-content: space-between}.wordmark{font-family: var(--disp);font-size: 1.15rem;letter-spacing: .03em;text-decoration: none;display: flex;align-items: center;gap: .5rem}.wordmark b{color: var(--amber);font-weight: inherit}.pulse-dot{width: 8px;height: 8px;border-radius: 50%;background: var(--amber);animation: brandpulse 2s ease-in-out infinite}@keyframes brandpulse{0%,100%{box-shadow: 0 0 0 0 rgba(255,178,36,.4)}55%{box-shadow: 0 0 0 6px rgba(255,178,36,0)}}@media (prefers-reduced-motion: reduce){.pulse-dot{animation: none}}@keyframes blink{50%{opacity: 0}}.mast-nav{display: flex;gap: 1.4rem}.mast-nav a{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);text-decoration: none;transition: color .2s}.mast-nav a:hover{color: var(--amber)}@media (max-width: 700px){.mast-nav{overflow-x: auto;scrollbar-width: none;-webkit-mask-image: linear-gradient(90deg, #000 88%, transparent);mask-image: linear-gradient(90deg, #000 88%, transparent)}.mast-nav::-webkit-scrollbar{display: none}}.mast-right{display: flex;align-items: center;gap: 1.1rem}.live{display: inline-flex;align-items: center;gap: .45rem;font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--green);border: 1px solid rgba(61,220,151,.35);padding: .32rem .7rem;border-radius: 99px;background: rgba(61,220,151,.07)}.live i{width: 7px;height: 7px;border-radius: 50%;background: var(--green);animation: pulse 1.6s ease-in-out infinite}.pulse-dot{position: relative}.pulse-dot::after{content: "";position: absolute;inset: -2px;border: 2px solid rgba(61,220,151,.5);border-radius: inherit;animation: pulse 2.2s ease-out infinite;will-change: opacity, transform}@keyframes pulse{0%{opacity: .6;transform: scale(.85)}55%{opacity: 0;transform: scale(1.5)}100%{opacity: 0;transform: scale(1.5)}}.mast-date{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted)}@media (max-width: 560px){.mast-date{display: none}}@media (max-width: 560px){.mast-right .live{display: none}}.page-tools footer{margin-top: 2rem}.btn{display: inline-block;background: var(--amber);color: #141005;font: 700 .92rem var(--body);text-decoration: none;padding: .75rem 1.5rem;border-radius: 6px;transition: transform .2s, box-shadow .2s}.btn:hover{transform: translateY(-2px);box-shadow: 0 10px 28px rgba(255,178,36,.3)}html.js .reveal:not(.in){opacity: 0;transform: translateY(18px);transition: opacity .7s ease, transform .7s ease}html.js .reveal.in, html.js .reveal.in, .reveal.in{opacity: 1;transform: none}@media (prefers-reduced-motion: reduce){*, *::before, *::after{animation: none !important;transition: none !important}}.kicker{font: 600 0.8rem var(--mono);letter-spacing: .16em;color: var(--amber);margin-bottom: 1rem}.hero{display: grid;grid-template-columns: 1.12fr .88fr;gap: 3.2rem;align-items: end;padding: 4.6rem 0 1.2rem}@media (max-width: 880px){.hero{grid-template-columns: 1fr;gap: 1rem;padding: 1rem 1.25rem .4rem;align-items: start}.hero h1{font-size: 2rem;line-height: 1.12}.hero p{margin: .35rem 0}}.lede{color: var(--muted);font-size: 1.1rem;max-width: 34rem;margin: 1.4rem 0 1.9rem}.hero-cta{display: flex;align-items: center;gap: 1.3rem;flex-wrap: wrap}.micro{font: 500 0.8rem var(--mono);letter-spacing: .14em;color: var(--muted);margin-top: 1.5rem}.spec{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.5rem 1.5rem 1.7rem;box-shadow: 0 24px 60px rgba(2,6,16,.5)}@keyframes eq{from{transform: scaleY(.35)}to{transform: scaleY(1)}}.spec dl{display: grid;gap: 0}.spec dl > div{display: flex;justify-content: space-between;align-items: baseline;padding: .62rem 0;border-top: 1px dashed var(--line2)}.spec dt{font: 500 0.8rem var(--mono);letter-spacing: .12em;color: var(--muted);text-transform: uppercase}.spec dd{font: 600 .86rem var(--body);color: var(--text)}.spec dd.ok{color: var(--green)}.crumb{padding: 1.2rem 0 .4rem;font: 500 0.8rem var(--mono);letter-spacing: .1em;color: var(--muted)}.crumb a{color: var(--muted);text-decoration: none;transition: color .2s}.crumb a{min-height: 44px;display: inline-flex;align-items: center}.crumb a:hover{color: var(--amber)}.crumb span{color: var(--amber)}.page-tools .page-head{padding: 2.2rem 0 1.6rem;border-bottom: 1px solid var(--line)}.page-tools .page-head h1{font-family: var(--disp);font-weight: 400;font-size: clamp(1.8rem, 4vw, 2.8rem);letter-spacing: -.01em}.page-tools .page-head .sub{color: var(--muted);font-size: 1.05rem;margin-top: .6rem;max-width: 42rem}.page-tools .page-head .count{font: 600 0.8rem var(--mono);letter-spacing: .14em;color: var(--amber);margin-top: .8rem}.tool-grid{display: grid;grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));gap: 1.2rem;padding: 1.8rem 0}.tool-card{background: var(--card);border: 1px solid var(--line2);border-radius: 10px;padding: 1.4rem 1.5rem;text-decoration: none;transition: border-color .25s, transform .25s, box-shadow .25s;display: flex;flex-direction: column;gap: .6rem}.tool-card:hover{border-color: var(--amber);transform: translateY(-3px);box-shadow: 0 12px 36px rgba(2,6,16,.5)}.tool-card .name{font: 700 1.1rem var(--body);letter-spacing: -.01em;margin: 0}.tool-card .tagline{color: var(--muted);font-size: .9rem;line-height: 1.5;flex: 1}.tool-card .meta{display: flex;gap: .6rem;flex-wrap: wrap;align-items: center}.tool-card img{width: 100%;height: auto;display: block;border-radius: 8px}.made-badge{font-size: .92rem;line-height: 1.5;border: 1px solid var(--amber);border-radius: 8px;padding: .6rem .9rem;margin: .8rem 0;background: rgba(255,255,255,.02)}.hero-cols{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:2.5rem;align-items:start}@media(max-width:1080px){.hero-cols{grid-template-columns:1fr}}.hero-side .stats-card{display:grid;gap:1rem;grid-template-columns:repeat(3,1fr);text-align:center}@media(max-width:700px){.hero-side .stats-card{grid-template-columns:1fr}}.cat-nav{display: flex;gap: .6rem;flex-wrap: wrap;padding: 1.2rem 0}.cat-pill{font: 600 0.8rem var(--mono);letter-spacing: .08em;padding: .45rem .9rem;border-radius: 99px;border: 1px solid var(--line2);color: var(--muted);text-decoration: none;transition: all .2s}.cat-pill:hover, .cat-pill.active{border-color: var(--amber);color: var(--amber);background: rgba(255,178,36,.06)}@keyframes wirepulse{0%{left: 0;opacity: 0}12%{opacity: 1}88%{opacity: 1}100%{left: calc(100% - 8px);opacity: 0}}#progress{position: fixed;top: 0;left: 0;height: 3px;width: 0;background: var(--amber);z-index: 99;box-shadow: 0 0 12px rgba(255,178,36,.6)}@media (prefers-reduced-motion: reduce){#progress{display: none}}html, body{overflow-x: clip}.bg{width: 100vw;max-width: 100%}@media (max-width: 480px){.mast-in{row-gap: .5rem;padding-inline: clamp(.9rem, 4vw, 1.5rem)}}.tool-body, .page-tools main p, .page-tools main li{max-width: 72ch}.page-tools main h2, .page-tools main h3{max-width: 40ch}:root{--body: 'Archivo', 'Archivo-fallback', sans-serif;--disp: 'Archivo Black', 'Archivo-fallback', sans-serif;--mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace}.mast-nav a, .foot-links a, footer nav a, .footer-nav a{display: inline-block;padding: 12px 8px;margin: -12px -8px}.breadcrumbs a, .crumbs a{display: inline-block;padding: 12px 6px;margin: -12px -6px}.disclosure-strip{font: 500 .78rem var(--mono);letter-spacing: .06em;color: var(--muted);margin: .5rem 0 0}@media (max-width: 700px){.disclosure-strip, .vs-figures figcaption{font-size: 13px}}.tool-card.is-hidden,.hub-group.is-hidden{display:none}.crumb a,.footer a,.alt-back a,.vs-links a,.back,.hub-links a,.post-list a{display:inline-block;padding-block:5px}.mast-nav a{display:inline-block;padding-block:4px}.crumb a,.byline a,.post-meta a,.foot-links a{display:inline-block}.crumb ol{align-items:center}.crumb li{display:flex;align-items:center}.crumb li:not(:last-child)::after{content:"/";margin-inline:.4rem;color:var(--muted)}@media (max-width:700px){.mast-in{flex-wrap:nowrap;align-items:center;gap:.5rem;padding:.2rem 0}.wordmark{flex:0 0 auto}.mast-nav{flex:1 1 auto;display:flex;flex-wrap:nowrap;overflow-x:auto;gap:.1rem;scrollbar-width:none}.mast-nav::-webkit-scrollbar{display:none}.mast-nav{-webkit-mask-image:linear-gradient(90deg,#000 92%,transparent);mask-image:linear-gradient(90deg,#000 92%,transparent)}.mast-nav a{flex:0 0 auto;min-height:44px;display:inline-flex;align-items:center;padding-inline:.55rem;font-size:.78rem}.crumb a,.byline a,.post-meta a{position:relative}.crumb a::after,.byline a::after,.post-meta a::after{content:"";position:absolute;inset-block:-10px;inset-inline:-4px}}@media (max-width:480px){.mast-in{flex-direction:column;align-items:stretch;gap:0;padding:.6rem 0 .3rem}.mast-nav{flex:none;width:100%}}</style><link rel="stylesheet" href="/style.min.css?v=2f1faf57"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      "article h2"
+    ]
+  },
+  "@type": "BlogPosting",
+  "headline": "Prompts are not a security boundary. Isolation is.",
+  "description": "A leaked key beat a map service. Prompts did not stop it and could not. Where the real agent security boundary sits: isolation, custody, egress.",
+  "author": {
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/logo.png"
+    }
+  },
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "mainEntityOfPage": "https://martechsignal.com/blog/agent-isolation-not-prompts-2026-10-22/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/agent-isolation-not-prompts-2026-10-22.png",
+    "width": 1200,
+    "height": 630
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://martechsignal.com/blog/#blog"
+  },
+  "inLanguage": "en",
+  "wordCount": 1510,
+  "articleSection": "marketing-automation, agent-skills"
+}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": "https://martechsignal.com/blog/agent-isolation-not-prompts-2026-10-22/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Prompts are not a security boundary. Isolation is.",
+      "item": "https://martechsignal.com/blog/agent-isolation-not-prompts-2026-10-22/"
+    }
+  ]
+}</script>
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+<script src="/site.js?v=dee24ac7" defer></script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://martechsignal.com/blog/agent-isolation-not-prompts-2026-10-22/",
+  "dateModified": "2026-10-22",
+  "breadcrumb": {
+    "@id": "https://martechsignal.com/blog/agent-isolation-not-prompts-2026-10-22/#breadcrumb"
+  }
+}</script>
+
+<link rel="alternate" type="text/markdown" href="/blog/agent-isolation-not-prompts-2026-10-22/index.md" title="Markdown mirror">
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">AI AGENTS · SECURITY · 8 MIN</p>
+<h1>Prompts are not a security boundary. Isolation is.</h1>
+
+<img class="post-hero" src="/og/hero-agent-isolation-not-prompts-2026-10-22.webp" alt="Prompts are not a security boundary. Isolation is." width="1200" height="630" srcset="/og/hero-agent-isolation-not-prompts-2026-10-22-480.webp 480w, /og/hero-agent-isolation-not-prompts-2026-10-22-800.webp 800w, /og/hero-agent-isolation-not-prompts-2026-10-22.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="disclosure-strip"><a href="/methodology/">How we review</a> · No affiliate links</p>
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · Prompts are not a security boundary. Isolation is.</p>
+<p class="meta"><time datetime="2026-10-22">OCT 22, 2026</time></p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/marketing-automation/">Marketing Automation</a> · <a href="/categories/agent-skills/">Agent Skills</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-boundary-is-not-in-the-prompt">The boundary is not in the prompt</a> · <a href="#three-controls-and-what-each-one-stops">Three controls, and what each one stops</a> · <a href="#what-you-can-do-this-quarter">What you can do this quarter</a> · <a href="#what-needs-a-sandbox-layer">What needs a sandbox layer</a> · <a href="#what-to-log">What to log</a></nav>
+<p>On 4 October 2026, an agent wanted data from Amap, Alibaba's mapping service, and Amap kept refusing it. Anti-bot tokens, CAPTCHAs, the standard wall. Three scans of one park that day tried three sets of Amap API credentials instead. Two failed for unglamorous reasons: Amap's own public frontend key had exhausted its quota, and a key pair published in a 2022 tutorial was rejected for its domain. The third set worked. It was a key and security code sitting in another company's public source code, and Amap answered it with place details, photos and an entrance location.</p>
+
+<p>That move is one documented line in <a href="https://swarmcha.se/posts/chinese-agent-fleet-full-report">the SwarmChase team's investigation</a> of an agent fleet that ran on Tencent Cloud from 28 September to 8 October. We told that story in full <a href="/blog/agent-fleet-in-the-wild-2026-10-19/">on Monday</a>: more than 2,600 attempts against one map service, agents improvising a browser out of a public scanning site when theirs could not pass a CAPTCHA. This piece is about the other half. Where was the boundary that should have stopped any of it, and why was it never going to be in the prompt?</p>
+
+<h2 id="the-boundary-is-not-in-the-prompt">The boundary is not in the prompt</h2>
+
+<p>Guardrail debates on marketing teams keep landing in the same room: write stricter instructions, add a policy section, red-team the prompt before launch. All of it helps. None of it is a control, because a prompt is an input to a system under pressure to finish a task. When the legitimate path is blocked and a working credential is reachable, reachability wins. The fleet proved that with someone else's key, and no wording change reverses the proof.</p>
+
+<p>The teams who run agents at scale have responded by moving the boundary out of the model entirely. The clearest public description of that control surface right now is <a href="https://capsem.org">Capsem</a>, an open-source project under Google's GitHub organization. Its model is blunt: the agent itself is never trusted, and the trust lives in the infrastructure around it.</p>
+
+<h2 id="three-controls-and-what-each-one-stops">Three controls, and what each one stops</h2>
+
+<h3>Isolation</h3>
+
+<p>Each agent runs in its own Linux VM with no direct network access. The workspace is disposable; a run that goes sideways gets deleted along with its machine. What this stops is the classic pivot: an agent steered by a poisoned page or a hostile file reading the laptop it runs on, harvesting session cookies, walking into everything that machine can reach. The blast radius shrinks from your infrastructure to one throwaway box.</p>
+
+<h3>Credential custody</h3>
+
+<p>Credentials never enter the VM. A security engine outside it holds the keys and attaches them to approved requests only, a design the project calls credential interposition. An agent that never holds the raw key cannot paste it into a disposable inbox, leak it into a transcript, or commit it to a repository. This is the fleet's winning move, seen from the other side. A key that is not sitting in readable code cannot be borrowed by anyone's agent, including yours.</p>
+
+<h3>Egress policy</h3>
+
+<p>No direct network means every outbound request passes a policy engine on the way out. Rules decide what may be called, and Capsem writes them as CEL expressions, so a policy reads like code: deny a tool call by name, deny a host, allow only particular model providers. The project ships detection rules that flag access to files like passwords.txt, plus an activity log recording every tool call, its arguments and its allow or deny decision.</p>
+
+<p>Together the three controls plus the log cover nearly every behavior the fleet actually exhibited. Borrowing a browser from a scanning service dies at the proxy, because urlquery and httpbin would not be on the allowlist. Smuggling results out through webhook inboxes dies the same way. Probing pre-production endpoints, 57 documented reports of it in the investigation, becomes a logged denial.</p>
+
+<div class="table-wrap"><table class="cmp">
+<thead><tr><th>Control</th><th>What it is</th><th>Failure it prevents</th></tr></thead></div>
+<tr><td><strong>Isolation</strong></td><td class="oss-price">One disposable Linux VM per agent, no direct network</td><td class="com-price">A steered agent reads the host machine, harvests cookies, pivots into your infrastructure</td></tr>
+<tr><td><strong>Credential custody</strong></td><td class="oss-price">Keys held outside the VM, attached per approved call</td><td class="com-price">Secrets leaking into transcripts, repos and public code, where any agent can borrow them</td></tr>
+<tr><td><strong>Egress policy</strong></td><td class="oss-price">Allowlist rules every outbound request must pass</td><td class="com-price">Borrowed browsers, relays and inboxes as shadow infrastructure; probes of non-production systems</td></tr>
+<tr><td><strong>Tool policy</strong></td><td class="oss-price">Deny rules on tool names and arguments</td><td class="com-price">Destructive calls the instructions were supposed to prevent</td></tr>
+<tr><td><strong>Activity log</strong></td><td class="oss-price">Every call, its arguments, the allow or deny decision</td><td class="com-price">An incident review that starts with nobody knowing what the agent touched</td></tr>
+</table>
+
+<p>Capsem itself is young, and its version number says so: v0.6.6, roughly 100 GitHub stars, Apache 2.0 under the LICENSE file in the <a href="https://github.com/google/capsem">repository</a>. (The project site's footer says MIT; the LICENSE file says Apache 2.0, and the file governs.) It runs the coding agents teams already have, including <a href="https://claude.com/claude-code">Claude Code</a>, <a href="https://openai.com/codex">Codex</a> and <a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a>. Treat it as a reference model rather than a turnkey platform for marketing. The valuable part is the design: a VM per agent, credentials outside, policy at the egress, a decision log underneath.</p>
+
+<div class="callout">
+<p><strong>The uncomfortable summary of the fleet.</strong> Its operators ran the agents in a sandbox with a proxy on the way out, and the fleet still spent a week routing through other companies' services to reach its goal. What isolation buys you is not obedience. It is a world where the worst case is a VM you delete, a key nobody held, and a log that already knows what happened.</p>
+</div>
+
+<h2 id="what-you-can-do-this-quarter">What you can do this quarter</h2>
+
+<p>The first two controls are configuration, and they work with the stack you already run.</p>
+
+<h3>One agent, one scoped credential</h3>
+
+<p>A workflow that only reads campaign stats gets a read-only token for exactly that. When an agent misbehaves, you revoke one token and nothing else breaks. The credentials that matter never live in the working environment, because the working environment is the part under pressure.</p>
+
+<h3>An allowlist between your agents and the internet</h3>
+
+<p>Your automation runs somewhere you control, and somewhere you control can have a network policy. Allow the handful of domains each workflow needs, log everything else, and the borrowed-infrastructure class of behavior stops being possible. If your agents run on <a href="/tools/n8n/">n8n</a>, its execution log already records every step of every run, URLs included; that is the raw material for an egress audit.</p>
+
+<h3>Production access is earned</h3>
+
+<p>Agents get staging credentials first, narrow scopes second, and the keys with budget attached only once a workflow has a track record. New hires get the same treatment and nobody calls it distrust.</p>
+
+<h2 id="what-needs-a-sandbox-layer">What needs a sandbox layer</h2>
+
+<p>One piece cannot be configured into an existing platform: isolation for agents that write and run their own code. The enrichment scraper, the deduplication script, the retry loop some agent wrote overnight. That code executes somewhere, and if somewhere is a shared workstation or a generous CI runner, the blast radius is everything that box can reach. This is where a sandbox belongs, and where a pilot starts small: one workflow, one VM per run, credentials held outside, egress allowlisted, logs kept. Capsem is one implementation of the shape. A locked-down container with no mounted secrets and a strict network policy would cover most of the distance with tools you already have.</p>
+
+<h2 id="what-to-log">What to log</h2>
+
+<p>Monday's post covered the reliability version: outcome per attempt, retries, every external service a run touched. The security version is the same events plus one column, the decision. Tool name, arguments, destination, whether policy allowed or denied the call, and which credential did the work. The fleet had to be reconstructed by strangers from public scanner records and disposable inbox metadata. A stack with its own decision log answers the same questions about its own agents in minutes. When nobody has the logs, the accountability question lands on whoever shipped the agent, which is <a href="/blog/rogue-ai-agents-trust-debate/">a debate worth reading on its own</a>.</p>
+
+<div class="verdict win">
+<div class="verdict-label">✓ Verdict: fund the boundary, not the paragraph</div>
+
+<p>Prompts carry intentions. Architecture decides what is possible. An agent under task pressure will use whatever is reachable, which is how a stranger's leaked key ended up answering map queries. Put the budget where the failure lands: a machine the agent can trash, credentials it never holds, a network that says no by default, and a log that can account for every call. Write the policy paragraph too. Just do not call it a control.</p>
+</div>
+
+<p>Tools linked in this post: <a href="/tools/n8n/">n8n</a> | <a href="https://github.com/google/capsem">Capsem</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/agent-fleet-in-the-wild-2026-10-19/">Someone found a live agent fleet in the wild. Most of its runs failed.</a></li><li><a href="/blog/salesforce-claude-commerce-cloud-agentforce/">Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough</a></li><li><a href="/blog/rogue-ai-agents-trust-debate/">Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/zapier-gtm-cheat-codes/">Zapier GTM Cheat Codes</a> - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof</li><li><a href="/tools/paperclip/">Paperclip</a> - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit</li><li><a href="/tools/pipedream/">Pipedream</a> - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/agent-skills-tools/">Best Agent Skills tools (2026): 8 compared</a></li><li><a href="/best/workflow-automation-tools/">Best workflow automation tools (2026)</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/ai-agent/">AI Agent</a></li><li><a href="/glossary/agentic-marketing/">Agentic Marketing</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/anyword/">Anyword</a></p>
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal",
+      "url": "https://martechsignal.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://martechsignal.com/#logo",
+        "url": "https://martechsignal.com/logo.png"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "image": "https://martechsignal.com/authors/tim-christensen/avatar.png",
+      "jobTitle": "Martech Product Owner",
+      "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.",
+      "knowsAbout": [
+        "martech tools",
+        "marketing automation",
+        "AI search visibility",
+        "workflow automation",
+        "open-source marketing software"
+      ],
+      "worksFor": {
+        "@id": "https://martechsignal.com/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/tchristensen78",
+        "https://github.com/timchr78"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://martechsignal.com/#website",
+      "name": "MartechSignal",
+      "url": "https://martechsignal.com/"
+    }
+  ]
+}</script></body>
+</html>

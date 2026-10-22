@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Adobe Marketo Engage
-Re-check pending: pricing last verified 2026-09-27 (23 days ago).
+Re-check pending: pricing last verified 2026-09-27 (25 days ago).
 
 ## Adobe Marketo Engage review (2026): pricing, AI features, verdict
 

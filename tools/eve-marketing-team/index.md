@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Eve Marketing Team Template
-Re-check pending: pricing last verified 2026-08-31 (50 days ago).
+Re-check pending: pricing last verified 2026-08-31 (52 days ago).
 
 KIND: Utility (not an end-to-end platform)
 
@@ -120,8 +120,8 @@ The fastest way to see a multi-agent marketing team running on real tools, and a
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier.
@@ -132,7 +132,7 @@ The fastest way to see a multi-agent marketing team running on real tools, and a
 - **GitHub:** ★ 455
 - **Founded:** 2026
 - **API:** Yes
-- **Repository checked:** 2026-10-20
+- **Repository checked:** 2026-10-22
 - **Page updated:** 2026-08-31
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

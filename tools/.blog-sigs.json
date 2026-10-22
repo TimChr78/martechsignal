@@ -11,6 +11,10 @@
   "dm": "2026-10-19",
   "sig": "fc69244eb5311e99"
  },
+ "agent-isolation-not-prompts-2026-10-22": {
+  "dm": "2026-10-22",
+  "sig": "c86e3eb5f65b589a"
+ },
  "agent-protocol-vs-data-plumbing": {
   "dm": "2026-09-27",
   "sig": "4891849fe69db24c"

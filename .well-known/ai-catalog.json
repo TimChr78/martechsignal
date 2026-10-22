@@ -2373,6 +2373,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:agent-isolation-not-prompts-2026-10-22",
+   "displayName": "Prompts are not a security boundary. Isolation is.",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/agent-isolation-not-prompts-2026-10-22/",
+   "description": "A leaked key beat a map service. Prompts did not stop it and could not. Where the real agent security boundary sits: isolation, custody, egress.",
+   "representativeQueries": [
+    "prompts are not a security boundary. isolation is.",
+    "agent isolation not prompts 2026 10 22"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:agent-protocol-vs-data-plumbing",
    "displayName": "Agent protocol vs data plumbing: what actually fails",
    "type": "text/html",

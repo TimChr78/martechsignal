@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - ALwrity
-Re-check pending: pricing last verified 2026-08-28 (53 days ago).
+Re-check pending: pricing last verified 2026-08-28 (55 days ago).
 
 ## ALwrity review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 | ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI content strategy and planning |  |
-| ✓ Active public repository (1,196 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,201 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -88,10 +88,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is ALwrity?**
-ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,196 stars.
+ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,201 stars.
 
 **How much does ALwrity cost?**
-ALwrity is open source - Free to self-host; the public repository carries 1,196 stars. You pay in server time and maintenance, not licences.
+ALwrity is open source - Free to self-host; the public repository carries 1,201 stars. You pay in server time and maintenance, not licences.
 
 **Is ALwrity a good self-hosted Marketing Automation tool in 2026?**
 A capable self-hosted content engine for technical marketers. Everyone else gets better results from maintained hosted tools.
@@ -106,15 +106,15 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 1196
+- **GitHub:** ★ 1201
 - **API:** Yes
-- **Repository checked:** 2026-10-19
+- **Repository checked:** 2026-10-22
 - **Page updated:** 2026-08-28
 
 ### Pricing

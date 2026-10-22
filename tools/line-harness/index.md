@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Line Harness
-Re-check pending: pricing last verified 2026-09-07 (43 days ago).
+Re-check pending: pricing last verified 2026-09-07 (45 days ago).
 
 ## Line Harness review (2026): pricing, AI features, verdict
 
@@ -133,8 +133,8 @@ The docs describe BAN detection with automatic friend migration to the next acco
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -143,7 +143,7 @@ The docs describe BAN detection with automatic friend migration to the next acco
 - **Founded:** 2026
 - **HQ:** Tokyo, Japan
 - **API:** Yes
-- **Repository checked:** 2026-10-19
+- **Repository checked:** 2026-10-22
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

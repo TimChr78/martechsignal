@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - AI Business Skills
-Re-check pending: pricing last verified 2026-08-28 (53 days ago).
+Re-check pending: pricing last verified 2026-08-28 (55 days ago).
 
 ## AI Business Skills review (2026): pricing, AI features, verdict
 
@@ -98,10 +98,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is AI Business Skills?**
-AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 619 stars.
+AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 622 stars.
 
 **How much does AI Business Skills cost?**
-AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 619 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
+AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 622 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
 
 **Is AI Business Skills a good self-hosted Agent Skills tool in 2026?**
 The strongest free skill pack for Vietnamese-market marketing teams. Global agencies will find it useful mainly as a starting point.
@@ -116,16 +116,16 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
-- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 619
+- **GitHub:** ★ 622
 - **Founded:** 2025
 - **API:** No
-- **Repository checked:** 2026-10-19
+- **Repository checked:** 2026-10-22
 - **Page updated:** 2026-08-28
 
 ## Get the next teardown

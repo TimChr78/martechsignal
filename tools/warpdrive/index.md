@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Warpdrive
-Re-check pending: pricing last verified 2026-09-07 (43 days ago).
+Re-check pending: pricing last verified 2026-09-07 (45 days ago).
 
 ## Warpdrive review (2026): pricing, AI features, verdict
 
@@ -147,7 +147,7 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 76
 - **API:** No
-- **Repository checked:** 2026-10-12
+- **Repository checked:** 2026-10-22
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

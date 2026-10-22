@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Zapier GTM Cheat Codes
-Re-check pending: pricing last verified 2026-08-31 (50 days ago).
+Re-check pending: pricing last verified 2026-08-31 (52 days ago).
 
 ## Zapier GTM Cheat Codes review (2026): pricing, AI features, verdict
 
@@ -84,7 +84,7 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (345 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (348 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: installable skills for campaign planning, postmortems, and launch packages |  |
 | ✓ Native integrations include Zapier MCP, Zapier SDK, Claude Code (8 listed) |  |
 
@@ -102,10 +102,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Zapier GTM Cheat Codes?**
-Zapier GTM Cheat Codes: Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof. Zapier GTM Cheat Codes ships with installable skills for campaign planning, postmortems, and launch packages. The public repository carries 345 stars.
+Zapier GTM Cheat Codes: Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof. Zapier GTM Cheat Codes ships with installable skills for campaign planning, postmortems, and launch packages. The public repository carries 348 stars.
 
 **How much does Zapier GTM Cheat Codes cost?**
-Zapier GTM Cheat Codes is open source - MIT licensed and free to self-host; the public repository carries 345 stars; native integrations cover Zapier MCP, Zapier SDK, Claude Code. You pay in server time and maintenance, not licences.
+Zapier GTM Cheat Codes is open source - MIT licensed and free to self-host; the public repository carries 348 stars; native integrations cover Zapier MCP, Zapier SDK, Claude Code. You pay in server time and maintenance, not licences.
 
 **Is Zapier GTM Cheat Codes a good self-hosted Agent Skills tool in 2026?**
 A credible, governance-aware starter kit for GTM teams already living in Zapier-connected stacks and coding agents. Adopt the patterns even if you skip the skills; treat the workflows as templates to adapt, not drop-in automation.
@@ -120,8 +120,8 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
-- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for GTM practitioners who want a cheat-code skill for Zapier and Google Tag Manager recipes, free to install.
@@ -129,10 +129,10 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 345
+- **GitHub:** ★ 348
 - **Founded:** 2026
 - **API:** Yes
-- **Repository checked:** 2026-10-20
+- **Repository checked:** 2026-10-22
 - **Page updated:** 2026-08-31
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

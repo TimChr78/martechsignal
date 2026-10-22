@@ -84,7 +84,7 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (348 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (349 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: 55K-word knowledge base from 908 sources |  |
 | ✓ Native integrations include Klaviyo, Mailchimp, Resend (8 listed) |  |
 
@@ -102,10 +102,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Email Marketing Bible?**
-Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 348 stars.
+Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 349 stars.
 
 **How much does Email Marketing Bible cost?**
-Email Marketing Bible is open source - MIT licensed and free to self-host; the public repository carries 348 stars; native integrations cover Klaviyo, Mailchimp, Resend. You pay in server time and maintenance, not licences.
+Email Marketing Bible is open source - MIT licensed and free to self-host; the public repository carries 349 stars; native integrations cover Klaviyo, Mailchimp, Resend. You pay in server time and maintenance, not licences.
 
 **Is Email Marketing Bible a good self-hosted Agent Skills tool in 2026?**
 The fastest path to email-competent agents, with real ESP control via MCP. List hygiene stays on you.
@@ -120,8 +120,8 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for email marketers who want 19 playbooks with 908 cited sources and ESP control over MCP, free under the MIT license.
@@ -129,10 +129,10 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 348
+- **GitHub:** ★ 349
 - **Founded:** 2026
 - **API:** Yes
-- **Repository checked:** 2026-10-19
+- **Repository checked:** 2026-10-22
 - **Page updated:** 2026-10-12
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

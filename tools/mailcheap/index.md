@@ -28,7 +28,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Headquarters:** Singapore
 - **Public API:** yes
 - **Catalogued integrations:** 12
-- **GitHub stars:** 1,257
+- **GitHub stars:** 1,295
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -73,7 +73,7 @@ Current plans and limits live on the [MailCheap pricing page](https://mailcheap.
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: MCP server exposing full dashboard parity (create, schedule, send, report, import) |  |
-| ✓ Active public repository (1,257 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,295 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Amazon SES, PostShiba, Upstash QStash (12 listed) |  |
 
 ## Related concepts
@@ -89,13 +89,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is MailCheap?**
-MailCheap: Newsletter platform billed per email sent, with full MCP control for AI agents. MailCheap ships with MCP server exposing full dashboard parity (create, schedule, send, report, import). The public repository carries 1,257 stars.
+MailCheap: Newsletter platform billed per email sent, with full MCP control for AI agents. MailCheap ships with MCP server exposing full dashboard parity (create, schedule, send, report, import). The public repository carries 1,295 stars.
 
 **How much does MailCheap cost?**
-MailCheap is open source - Free to self-host; the public repository carries 1,257 stars; native integrations cover Amazon SES, PostShiba, Upstash QStash. You pay in server time and maintenance, not licences.
+MailCheap is open source - Free to self-host; the public repository carries 1,295 stars; native integrations cover Amazon SES, PostShiba, Upstash QStash. You pay in server time and maintenance, not licences.
 
 **Is MailCheap worth paying for in 2026?**
-Strengths include 1,257 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. MailCheap documents 12 integrations
+Strengths include 1,295 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. MailCheap documents 12 integrations
 
 ## Similar Tools
 
@@ -107,17 +107,17 @@ Strengths include 1,257 GitHub stars, open-source licensing with free self-hosti
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
 - **Pricing:** From $19/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 1257
+- **GitHub:** ★ 1295
 - **Founded:** 2026
 - **HQ:** Singapore
 - **API:** Yes
-- **Repository checked:** 2026-10-20
+- **Repository checked:** 2026-10-22
 - **Page updated:** 2026-10-19
 
 ## Get the next teardown

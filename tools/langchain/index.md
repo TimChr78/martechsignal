@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - LangChain
-Re-check pending: pricing last verified 2026-08-28 (53 days ago).
+Re-check pending: pricing last verified 2026-08-28 (55 days ago).
 
 ## LangChain review (2026): pricing, AI features, verdict
 
@@ -24,7 +24,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
 
 ## MartechSignal Score: 47/60
 
-LangChain is the agent framework everything else measures against: 148,097 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.
+LangChain is the agent framework everything else measures against: 148,235 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.
 
 
 | Pillar | Score | Evidence |
@@ -86,7 +86,7 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $39/mo |
 | ✓ AI capabilities: LLM chaining |  |
-| ✓ Active public repository (148,097 GitHub stars counted at last check) |  |
+| ✓ Active public repository (148,235 GitHub stars counted at last check) |  |
 | ✓ Native integrations include OpenAI, Anthropic, Google AI (10 listed) |  |
 
 ## Related concepts
@@ -104,7 +104,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is LangChain?**
-LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 148,097 stars.
+LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 148,235 stars.
 
 **How much does LangChain cost?**
 LangChain has a free tier; paid plans start at $39/mo. Open source (MIT license); LangSmith free tier, paid plans from $39/mo; LangGraph Cloud from $39/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -122,17 +122,17 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $39/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 148097
+- **GitHub:** ★ 148235
 - **Founded:** 2022
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
-- **Repository checked:** 2026-10-20
+- **Repository checked:** 2026-10-22
 - **Page updated:** 2026-08-28
 
 ## Get the next teardown

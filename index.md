@@ -8,6 +8,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### Prompts are not a security boundary. Isolation is.
+
+On 4 October 2026, an agent wanted data from Amap, Alibaba's mapping service, and Amap kept refusing it. Anti-bot tokens, CAPTCHAs, the standard wall. Three scans of one park that…
+
 ### HubSpot's credit rules are a budget design problem, not a pricing problem.
 
 On 15 October HubSpot gave its credits model a set of spending controls: account caps, seat swaps, a pay-as-you-go option. MarTech's coverage framed the change as predictability…
@@ -19,10 +23,6 @@ On 4 October 2026 at 16:59 UTC, one agent run finally got its answer. Chengdu Zo
 ### AEO for SEO: what changes when buyers ask instead of search
 
 Somewhere between the query and the shortlist, the results page stopped being mandatory. A buyer comparing marketing platforms can ask ChatGPT, Gemini, or Perplexity to name the…
-
-### Who eats the spending gap when agentic spend outpaces proof?
-
-Last week this blog walked the rogue agents debate to a flat conclusion: your agent did not go rogue, your configuration did what it was configured to allow. That sentence is…
 
 ## Tool index
 

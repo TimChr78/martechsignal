@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Pencil
-Re-check pending: pricing last verified 2026-09-06 (44 days ago).
+Re-check pending: pricing last verified 2026-09-06 (46 days ago).
 
 ## Pencil review (2026): pricing, AI features, verdict
 
@@ -145,8 +145,8 @@ Yes. Brandtech Group branding appears across the site, the legal entity in the f
 ## Related reading
 
 - [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Best for advertising & paid media teams that want gwi-powered insights agent, starting at $14/mo.

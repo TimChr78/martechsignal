@@ -106,7 +106,7 @@ Our directory breaks marketing tools down by what they measure, what they integr
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Brandwatch](/tools/brandwatch/)
+More from the directory: [Brevo](/tools/brevo/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

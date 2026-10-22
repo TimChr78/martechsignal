@@ -92,7 +92,7 @@ The connectivity debate turned out to be the easy half, and most teams have quie
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Anyword](/tools/anyword/)
+More from the directory: [Apache Unomi](/tools/apache-unomi/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

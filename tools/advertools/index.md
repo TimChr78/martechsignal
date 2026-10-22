@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - advertools
-Re-check pending: pricing last verified 2026-09-25 (25 days ago).
+Re-check pending: pricing last verified 2026-09-25 (27 days ago).
 
 ## advertools review (2026): pricing, AI features, verdict
 
@@ -131,7 +131,7 @@ It is a data toolkit rather than a tracking dashboard, but keyword generation, S
 - **Category:** [Advertising & Paid Media](/categories/advertising/)
 - **GitHub:** ★ 1483
 - **API:** Yes
-- **Repository checked:** 2026-10-20
+- **Repository checked:** 2026-10-22
 - **Page updated:** 2026-09-25
 
 ### Pricing

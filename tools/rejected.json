@@ -1099,5 +1099,29 @@
   "url": "https://www.salesforce.com/blog/feed/",
   "reason": "RSS blog post, not a tool candidate",
   "rejected_at": "2026-10-15"
+ },
+ {
+  "name": "7 Headless Software Tips For Startups",
+  "url": "https://www.salesforce.com/blog/feed/",
+  "reason": "RSS blog post, not a tool candidate",
+  "rejected_at": "2026-10-22"
+ },
+ {
+  "name": "Salesforce Named a Leader in Inaugural IDC MarketScape for Worldwide Agentic AI Platforms",
+  "url": "https://www.salesforce.com/blog/feed/",
+  "reason": "RSS blog post, not a tool candidate",
+  "rejected_at": "2026-10-22"
+ },
+ {
+  "name": "Use one Zapier MCP server across all your AI tools",
+  "url": "https://zapier.com/blog/feeds/latest/",
+  "reason": "RSS blog post, not a tool candidate",
+  "rejected_at": "2026-10-22"
+ },
+ {
+  "name": "Introducing Fin 4: Customer Agent, Operator, and major upgrades to the Intercom helpdesk",
+  "url": "https://www.intercom.com/blog/feed/",
+  "reason": "RSS blog post, not a tool candidate",
+  "rejected_at": "2026-10-22"
  }
 ]

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - SEO Skill Bench
-Re-check pending: pricing last verified 2026-09-03 (47 days ago).
+Re-check pending: pricing last verified 2026-09-03 (49 days ago).
 
 ## SEO Skill Bench review (2026): pricing, AI features, verdict
 
@@ -101,8 +101,8 @@ Strengths include 51 GitHub stars, MIT licensing with free self-hosting. SEO Ski
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
+- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
 ### Quick Facts
 
 - **Pricing:** Open Source

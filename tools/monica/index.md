@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Monica
-Re-check pending: pricing last verified 2026-09-07 (43 days ago).
+Re-check pending: pricing last verified 2026-09-07 (45 days ago).
 
 ## Monica review (2026): pricing, AI features, verdict
 
@@ -98,7 +98,7 @@ The reference implementation of the personal CRM category, honest about its limi
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo |
 | ✓ API access for custom integrations |  |
-| ✓ Active public repository (25,506 GitHub stars counted at last check) |  |
+| ✓ Active public repository (25,513 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -115,7 +115,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Monica?**
-Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,506 stars. Monica offers a public API for custom integrations.
+Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,513 stars. Monica offers a public API for custom integrations.
 
 **How much does Monica cost?**
 Monica has a free tier; paid plans start at $9/mo. Self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -148,8 +148,8 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 ## Related reading
 
 - [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for relationship-led founders and community businesses.
@@ -157,9 +157,9 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 
 - **Pricing:** Open Source from $9/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 25506
+- **GitHub:** ★ 25513
 - **API:** Yes
-- **Repository checked:** 2026-10-20
+- **Repository checked:** 2026-10-22
 - **Page updated:** 2026-09-07
 
 Related guides: [Open Source Crm](/best/open-source-crm/)

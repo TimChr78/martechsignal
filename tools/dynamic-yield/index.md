@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Dynamic Yield
-Re-check pending: pricing last verified 2026-09-06 (44 days ago).
+Re-check pending: pricing last verified 2026-09-06 (46 days ago).
 
 ## Dynamic Yield review (2026): pricing, AI features, verdict
 
@@ -161,8 +161,8 @@ It is the vendor with the longest claimed run of Gartner Magic Quadrant leader p
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Large commerce operations buying personalization depth over self-serve
