@@ -33,7 +33,3 @@ Retrieval sends readers to the source. Training does not. We publish pricing res
 Want to train on the corpus, license it, or ask about a use this page does not cover? [Contact us](/contact/). Licensing is available; silence is not consent.
 
 Two non-standard extensions appear in the robots.txt on purpose: Content-Signal declares what each crawler may do with what it fetches, and Agentmap names the machine-readable catalog in /.well-known/ard.json. Agentmap stays a comment because the directive is non-standard and trips strict parsers; only Content-Signal is a live directive. Parsers that follow RFC 9309 ignore what they do not know, which is the intended behavior.
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)

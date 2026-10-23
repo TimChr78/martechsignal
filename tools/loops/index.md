@@ -6,21 +6,24 @@
 - Loops
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Email Marketing
+
 ## Loops review (2026): pricing, AI features, verdict
 
 Email marketing for SaaS: marketing, product, and transactional email in one tool
 
-Email Marketing · Freemium Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Loops →](https://loops.so)
+30/60
+
+- **Price:** Freemium
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Loops is a tool in Email Marketing with a free tier. The catalog documents 3 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Loops →](https://loops.so)
 
 ## MartechSignal Score: 30/60
 
@@ -139,7 +142,7 @@ It is contact-based, not send-based: Loops charges on subscribed contacts and do
 **Can AI coding agents connect to Loops?**
 Yes, and it is documented as a first-class surface rather than a bolt-on. Loops publishes an MCP server so any MCP client can read and write contacts, events, and content, along with agent skills for Claude Code, Codex, and Cursor, setup and migrate CLI commands, and a Claude Connector added in August 2026. The REST API underneath exposes roughly 70 endpoints with a public OpenAPI spec at app.loops.so/openapi.json. Separately, an in-app AI agent can assemble a workflow from a prompt, and LLM Translation translates an email branch in one click.
 
-## Similar Tools
+## Similar tools
 
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
@@ -148,8 +151,8 @@ Yes, and it is documented as a first-class surface rather than a bolt-on. Loops 
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ### Quick Facts
 
 - **Pricing:** Freemium
@@ -163,8 +166,4 @@ Yes, and it is documented as a first-class surface rather than a bolt-on. Loops 
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

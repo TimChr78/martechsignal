@@ -6,21 +6,25 @@
 - Line Harness
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Marketing Automation
+
 ## Line Harness review (2026): pricing, AI features, verdict
 
 Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
 
-Marketing Automation · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Line Harness →](https://the-harness.com/line-harness/)
+37/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 603
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Line Harness is a tool in Marketing Automation with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Line Harness →](https://the-harness.com/line-harness/)
 
 ## MartechSignal Score: 37/60
 
@@ -123,7 +127,7 @@ Step delivery sends a pre built sequence of LINE messages where each step waits 
 **What happens when a LINE account gets banned?**
 The docs describe BAN detection with automatic friend migration to the next account in a pool, and a traffic pool that spreads sending across multiple LINE Official Accounts, all managed from one dashboard with per account scoping for scenarios, tags, and delivery. Worth knowing that running several accounts to spread volume sits outside what LINE's terms are written for, so treat the pool as resilience rather than a growth lever.
 
-## Similar Tools
+## Similar tools
 
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 - [Mautic](/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management
@@ -132,9 +136,9 @@ The docs describe BAN detection with automatic friend migration to the next acco
 - [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
 ## Related reading
 
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -150,8 +154,4 @@ The docs describe BAN detection with automatic friend migration to the next acco
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

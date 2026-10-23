@@ -6,21 +6,25 @@
 - Warpdrive
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## Warpdrive review (2026): pricing, AI features, verdict
 
 Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Warpdrive →](https://warpdrivecrm.com)
+28/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 76
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Warpdrive is a tool in CRM with free and open source. The catalog documents 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Warpdrive →](https://warpdrivecrm.com)
 
 ## MartechSignal Score: 28/60
 
@@ -129,7 +133,7 @@ No on both counts. The MCP server exposes 29 tools (13 read, 16 write) and has n
 **How do I back up a self-hosted Warpdrive instance?**
 Two volumes, both required: a Postgres dump and the miniodata volume, since attachments live in MinIO and the docs warn that a database dump alone restores records whose attachments are gone. The documented command is docker compose exec -T postgres pg_dump -U warpdrive warpdrive | gzip > backup-$(date +%F).sql.gz, followed by copying the miniodata volume, and they recommend testing a restore before you need one.
 
-## Similar Tools
+## Similar tools
 
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
@@ -139,8 +143,8 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 ## Related reading
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -154,8 +158,4 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

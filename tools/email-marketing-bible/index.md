@@ -4,23 +4,27 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Email Marketing Bible
-KIND: Agent Skill (not an end-to-end platform)
+Kind: Agent Skill (not an end-to-end platform)
+
+Review · Agent Skills
 
 ## Email Marketing Bible review (2026): pricing, AI features, verdict
 
 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-12 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Email Marketing Bible →](https://github.com/CosmoBlk/email-marketing-bible)
+40/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 349
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Email Marketing Bible is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-12. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Email Marketing Bible →](https://github.com/CosmoBlk/email-marketing-bible)
 
 ## MartechSignal Score: 40/60
 
@@ -110,7 +114,7 @@ Email Marketing Bible is open source - MIT licensed and free to self-host; the p
 **Is Email Marketing Bible a good self-hosted Agent Skills tool in 2026?**
 The fastest path to email-competent agents, with real ESP control via MCP. List hygiene stays on you.
 
-## Similar Tools
+## Similar tools
 
 - [Eve Marketing Team Template](/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email
 - [AI Marketing Suite](/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports
@@ -120,8 +124,8 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for email marketers who want 19 playbooks with 908 cited sources and ESP control over MCP, free under the MIT license.
@@ -141,8 +145,4 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

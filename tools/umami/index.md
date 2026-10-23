@@ -6,21 +6,25 @@
 - Umami
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Analytics & Attribution
+
 ## Umami review (2026): pricing, AI features, verdict
 
 Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps
 
-Analytics & Attribution · Open Source from $20/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $20/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Umami →](https://umami.is)
+40/60
+
+- **Price:** Open Source from $20/mo
+- **Licence:** MIT
+- **GitHub stars:** 39,514
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Umami is a tool in Analytics & Attribution with free and open source. The catalog documents 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Umami →](https://umami.is)
 
 ## MartechSignal Score: 40/60
 
@@ -132,7 +136,7 @@ Yes, natively since v2.11.0. All five standard parameters (utm_source, utm_mediu
 **What happened to MySQL support in Umami v3?**
 It was removed. The v3 upgrade guide announces that Umami is standardizing on PostgreSQL, and the FAQ states PostgreSQL 12.14 or newer is the only supported database. Existing MySQL users migrate by upgrading to v2.19.0 first, exporting with mysqldump or CSV, and importing with a tool such as pgloader or pg_chameleon; the docs walk the full path. MariaDB, which v2 tolerated as a MySQL variant, goes with it.
 
-## Similar Tools
+## Similar tools
 
 - [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 - [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
@@ -141,8 +145,8 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.
@@ -162,8 +166,4 @@ Related guides: [Umami in Matomo alternatives](/alternatives/matomo/) · [Market
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -1,6 +1,6 @@
 # You Taught Google Everything It Knows
 
-AI SEARCH · AI OVERVIEWS · 7 MIN
+AI Search · AI Overviews · 7 min read
 
 ## Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.
 
@@ -8,7 +8,7 @@ AI SEARCH · AI OVERVIEWS · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.
 
-JUL 31, 2026
+31 Jul 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -96,7 +96,7 @@ The play is to own something the machine cannot answer without you. Google does 
 ## Comparison guides
 
 - [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
-- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
+- [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)
@@ -105,8 +105,6 @@ The play is to own something the machine cannot answer without you. Google does 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Writesonic](/tools/writesonic/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
+More from the directory: [Trakkr](/tools/trakkr/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

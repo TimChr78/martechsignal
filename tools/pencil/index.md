@@ -6,21 +6,24 @@
 - Pencil
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Advertising & Paid Media
+
 ## Pencil review (2026): pricing, AI features, verdict
 
 AI-powered ad creative generation and performance prediction for paid media
 
-Advertising & Paid Media · From $11/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · From $11/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Pencil →](https://trypencil.com)
+37/60
+
+- **Price:** From $11/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Pencil is a tool in Advertising & Paid Media with paid plans starting at $11/mo. The catalog documents 5 AI features and 11 integrations. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Pencil →](https://trypencil.com)
 
 ## MartechSignal Score: 37/60
 
@@ -136,7 +139,7 @@ The site names OpenAI, Google, Adobe, Runway, and Bria as the aggregated model s
 **Is Pencil part of the Brandtech Group?**
 Yes. Brandtech Group branding appears across the site, the legal entity in the footer is Pencil AI Limited, and the product line is marketed as Pencil Pro alongside the self-serve Pencil plans. Case studies are published with Brandtech-affiliated brands such as Experian, Diageo, and L'Oreal.
 
-## Similar Tools
+## Similar tools
 
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Smartly.io](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
@@ -144,8 +147,8 @@ Yes. Brandtech Group branding appears across the site, the legal entity in the f
 - [AdCreative.ai](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
 ## Related reading
 
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ## Also featured in
 
@@ -165,8 +168,4 @@ Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Advertising & Paid Media Tools →](/categories/advertising/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

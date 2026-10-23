@@ -96,7 +96,3 @@ Snowplow. Behavioral events validated against schemas and delivered into the tea
 Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics tools](/categories/analytics/).
 
 Down to two finalists: [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/) · [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/).
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

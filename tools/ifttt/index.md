@@ -6,21 +6,24 @@
 - IFTTT
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Workflow Automation
+
 ## IFTTT review (2026): pricing, AI features, verdict
 
 Consumer-friendly automation connecting apps and smart devices
 
-Workflow Automation · Freemium from $2.99/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · Freemium from $2.99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit IFTTT →](https://ifttt.com)
+34/60
+
+- **Price:** Freemium from $2.99/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** IFTTT is a tool in Workflow Automation with a free tier. The catalog documents 2 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit IFTTT →](https://ifttt.com)
 
 ## MartechSignal Score: 34/60
 
@@ -98,7 +101,7 @@ IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard s
 **Is IFTTT worth it past the free tier?**
 Strengths include an API for custom integrations. Paid plans start at $2.99/mo
 
-## Similar Tools
+## Similar tools
 
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
@@ -107,8 +110,8 @@ Strengths include an API for custom integrations. Paid plans start at $2.99/mo
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $2.99/mo
@@ -124,8 +127,4 @@ Related guides: [IFTTT in Zapier alternatives](/alternatives/zapier/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

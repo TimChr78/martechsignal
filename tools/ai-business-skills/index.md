@@ -6,21 +6,25 @@
 - AI Business Skills
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Agent Skills
+
 ## AI Business Skills review (2026): pricing, AI features, verdict
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit AI Business Skills →](https://github.com/minhnv0807/ai-business-skills)
+34/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 622
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** AI Business Skills is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit AI Business Skills →](https://github.com/minhnv0807/ai-business-skills)
 
 ## MartechSignal Score: 34/60
 
@@ -106,7 +110,7 @@ AI Business Skills is open source - MIT licensed and free to self-host; the publ
 **Is AI Business Skills a good self-hosted Agent Skills tool in 2026?**
 The strongest free skill pack for Vietnamese-market marketing teams. Global agencies will find it useful mainly as a starting point.
 
-## Similar Tools
+## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
@@ -116,8 +120,8 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
-- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -132,8 +136,4 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

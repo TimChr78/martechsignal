@@ -1,6 +1,6 @@
 # Salesforce's third no-code promise, audited
 
-AUTOMATION · AI AGENTS · 7 MIN
+Automation · AI Agents · 7 min read
 
 ## Salesforce's third no-code promise, audited
 
@@ -8,7 +8,7 @@ AUTOMATION · AI AGENTS · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Salesforce's third no-code promise, audited
 
-SEP 21, 2026
+21 Sep 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -85,7 +85,7 @@ Browse the [MartechSignal tools directory](/tools/salesforce-marketing-cloud/) t
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -93,7 +93,5 @@ Browse the [MartechSignal tools directory](/tools/salesforce-marketing-cloud/) t
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

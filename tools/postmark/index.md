@@ -6,21 +6,24 @@
 - Postmark
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Email Marketing
+
 ## Postmark review (2026): pricing, AI features, verdict
 
 Transactional email API with separated message streams, an MCP server, and published delivery numbers
 
-Email Marketing · Freemium from $15/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Freemium from $15/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Postmark →](https://postmarkapp.com)
+34/60
+
+- **Price:** Freemium from $15/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Postmark is a tool in Email Marketing with a free tier. The catalog documents 3 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Postmark →](https://postmarkapp.com)
 
 ## MartechSignal Score: 34/60
 
@@ -141,7 +144,7 @@ The free plan covers 100 emails a month with no overages. Paid plans all start a
 **What do Postmark's MCP server and agent skills do?**
 Postmark ships tooling for AI agents rather than AI features. The official MCP server reached version 2.0 in July 2026 with 24 tools, including delivery diagnostics, and five open-source Postmark Skills teach coding agents to send email. The developer docs also publish ten copy-paste prompts for Cursor, Copilot, Claude, and ChatGPT, plus an llms.txt file for assistant context. Everything still sends through the same REST API and your server token, so the agent path adds no new deliverability behavior.
 
-## Similar Tools
+## Similar tools
 
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
@@ -150,8 +153,8 @@ Postmark ships tooling for AI agents rather than AI features. The official MCP s
 ## Related reading
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $15/mo
@@ -164,8 +167,4 @@ Postmark ships tooling for AI agents rather than AI features. The official MCP s
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

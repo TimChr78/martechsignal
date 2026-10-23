@@ -4,7 +4,7 @@
 
 Every morning we snapshot the GitHub stars of all 85 open-source tools in our 170-tool catalog (all of them list a public GitHub repository). 84 have enough history to chart here; a repository needs 5 daily snapshots before it appears, which is why the charted set can be smaller. Inclusion rule, stated once: the catalog's open-source flag plus a GitHub repo URL. This page shows what moved in the window Aug 25 to Oct 22, 2026, tracked since Aug 25, 2026.
 
-84 REPOS · 58 DAILY SNAPSHOTS · WINDOW 2026-08-25 TO 2026-10-22
+84 repos · 58 daily snapshots · window 2026-08-25 to 2026-10-22
 
 Stars are a weak signal on their own. A repo can sit near the top of GitHub trending for a week on one HN post, and a 500-star project gaining 50 stars is a different story than a 40,000-star project gaining the same 50. The percentages below favor small bases for exactly that reason, so read the absolute deltas next to them. No projections here: just what the snapshots recorded, over the stated window, and nothing else.
 
@@ -51,8 +51,6 @@ The ranking above is the spine of this topic. These pages are the cluster around
 - [Best open-source CRM](/best/open-source-crm/)
 - [The GEO guide](/guides/generative-engine-optimization/), for the visibility question this stack feeds
 - [The guides index](/guides/), which collects all six cluster guides
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 Agent Skills*19*
 
 [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/)
@@ -246,5 +244,3 @@ Advertising & Paid Media*2*
 [advertools](/tools/advertools/)
 
 [Revive Adserver](/tools/revive-adserver/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,25 @@
 - Twenty
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## Twenty review (2026): pricing, AI features, verdict
 
 The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 
-CRM · Open Source from $9/user/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $9/user/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Twenty →](https://twenty.com)
+42/60
+
+- **Price:** Open Source from $9/user/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 59,278
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Twenty is a tool in CRM with free and open source. The catalog documents 4 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Twenty →](https://twenty.com)
 
 ## MartechSignal Score: 42/60
 
@@ -142,7 +146,7 @@ Through CSV import or the API (the pricing FAQ suggests the API for 50,000-plus 
 **Does Twenty train AI models on my CRM data?**
 Twenty has no model of its own; the legal FAQ states that CRM content can be used to train AI models depending on the terms of its AI sub-processors, which is as much as it can control. You can turn AI off completely by disabling all models under Settings, AI, Models. Cloud data sits on AWS in Frankfurt, Germany, sub-processors are listed at trust.twenty.com, and EU standard contractual clauses apply.
 
-## Similar Tools
+## Similar tools
 
 - [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
 - [Warpdrive](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
@@ -152,8 +156,8 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for technically fluent teams wanting a modern extensible CRM.
@@ -175,8 +179,4 @@ Related guides: [Twenty in Hubspot Crm alternatives](/alternatives/hubspot-crm/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

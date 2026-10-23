@@ -6,23 +6,27 @@
 - n8n
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Workflow Automation
+
 ## n8n review (2026): pricing, AI features, verdict
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
-Workflow Automation · Open Source from €20/mo Desk-reviewed
-
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · Open Source from €20/mo Desk-reviewed
 
 Looking for options? [Best n8n alternatives](/alternatives/n8n/)
 
-[Visit n8n →](https://n8n.io)
+MartechSignal score
+
+52/60
+
+- **Price:** Open Source from €20/mo
+- **Licence:** Open source
+- **GitHub stars:** 208,269
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** n8n is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit n8n →](https://n8n.io)
 
 ## MartechSignal Score: 52/60
 
@@ -119,7 +123,7 @@ n8n has a free tier; paid plans start at €20/mo. Self-hosted Community Edition
 **Is n8n a good self-hosted Workflow Automation tool in 2026?**
 The right choice when you want owned automation with code-level control and no per-task tax.
 
-## Similar Tools
+## Similar tools
 
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
@@ -128,8 +132,8 @@ The right choice when you want owned automation with code-level control and no p
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for self-hosted workflows with code steps and AI agents.
@@ -153,8 +157,4 @@ Related guides: [n8n in Zapier alternatives](/alternatives/zapier/) · [n8n vs Z
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

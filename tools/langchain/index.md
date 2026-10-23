@@ -6,21 +6,25 @@
 - LangChain
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Workflow Automation
+
 ## LangChain review (2026): pricing, AI features, verdict
 
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 
-Workflow Automation · Open Source from $39/mo Hands-on
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source from $39/mo Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit LangChain →](https://www.langchain.com)
+47/60
+
+- **Price:** Open Source from $39/mo
+- **Licence:** MIT
+- **GitHub stars:** 148,235
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** LangChain is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 10 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
-
-[Visit LangChain →](https://www.langchain.com)
 
 ## MartechSignal Score: 47/60
 
@@ -112,7 +116,7 @@ LangChain has a free tier; paid plans start at $39/mo. Open source (MIT license)
 **Is LangChain a good self-hosted Workflow Automation tool in 2026?**
 For engineers building custom marketing AI: the standard foundation. Marketers should buy the products built on it.
 
-## Similar Tools
+## Similar tools
 
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
@@ -121,9 +125,9 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 - [Make](/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $39/mo
@@ -139,8 +143,4 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

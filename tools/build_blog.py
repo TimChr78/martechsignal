@@ -56,6 +56,7 @@ from datetime import datetime, timezone
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import suggest_links
+from site_chrome import HEAD_TAGS, chrome_footer, chrome_top
 
 try:  # canonical category names (MUSE-11); falls back to the old label
     from build_tools import _category_display as _cat_display
@@ -358,9 +359,8 @@ def _build_toc_and_chip(body_html: str, categories=None):
         new_body = _re.sub(r"<h2([^>]*)>(.*?)</h2>", _add, body_html, flags=_re.S)
         if len(items) >= 3:
             links = " \u00b7 ".join(f'<a href="#{a}">{t}</a>' for a, t in items[:8])
-            toc_html = ('<nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;'
-                        'border:1px solid var(--line);border-radius:10px;font-size:.85rem">'
-                        '<b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br>'
+            toc_html = ('<nav class="mini-toc">'
+                        '<b>On this page</b><br>'
                         f"{links}</nav>")
             body_html = new_body
     return body_html, chip_html + toc_html
@@ -476,12 +476,12 @@ def build_post(meta: dict, body_html: str) -> str:
     # SEO title: optional frontmatter override (<=60ch) for <title>/og:title; H1 keeps full title
     seo_title = meta.get('seo_title') or title
     date_str = meta.get('date', datetime.now().strftime('%Y-%m-%d'))
-    date_display = datetime.strptime(date_str, '%Y-%m-%d').strftime('%b %d, %Y').upper()
+    date_display = datetime.strptime(date_str, '%Y-%m-%d').strftime('%d %b %Y')
     # A3 H-2 (2026-09-26): when dateModified differs from published, SHOW both
     # dates on the page so the visible date and the schema can never contradict.
     _dm = _date_modified(meta, date_str)
     if _dm and _dm != date_str:
-        _ud = datetime.strptime(_dm, '%Y-%m-%d').strftime('%b %d, %Y').upper()
+        _ud = datetime.strptime(_dm, '%Y-%m-%d').strftime('%d %b %Y')
         upd = f' · Updated <time datetime="{_dm}">{_ud}</time>'
     else:
         upd = ''
@@ -561,7 +561,7 @@ def build_post(meta: dict, body_html: str) -> str:
         more_links = []
     if more_links:
         mlinks = ' · '.join('<a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['name'], quote=False) + '</a>' for item in more_links)
-        body_html += '<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: ' + mlinks + '</p>'
+        body_html += '<p class="more-tools">More from the directory: ' + mlinks + '</p>'
 
     # First paragraph as excerpt (strip HTML tags). r11 M-7 (2026-09-29):
     # word-boundary cut with ellipsis — the raw [:200] slice ended mid-word
@@ -584,7 +584,7 @@ def build_post(meta: dict, body_html: str) -> str:
     # L11 (r9): 'recovered' is a pipeline-internal tag (recovered drafts); it
     # must never render as a kicker. Display it as Updated.
     _kick = [('Updated' if t.lower() == 'recovered' else t) for t in tags[:2]]
-    kicker = ' · '.join(t.upper() for t in _kick) if _kick else 'DEEP DIVE · MARTECH'
+    kicker = ' · '.join(_kick) if _kick else 'Deep dive · Martech'
     # Human byline - the site's named author (see footer/about); org stays in JSON-LD
     byline = 'Tim Christensen'
 
@@ -660,9 +660,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>{_shared_tags()}<script type="application/ld+json">
+{HEAD_TAGS}{_shared_tags()}<script type="application/ld+json">
 {json.dumps(article_schema, indent=2)}
 </script>
 <script type="application/ld+json">
@@ -672,27 +670,21 @@ def build_post(meta: dict, body_html: str) -> str:
 <script src="/site.js" defer></script>
 </head>
 <body class="page-post">
-<div class="bg" aria-hidden="true"></div>
+{chrome_top(f"/blog/{slug}/")}
 <div id="progress" aria-hidden="true"></div>
-<header class="masthead">
-  <div class="mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
-    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
-  </div>
-</header>
 <main class="wrap">
-<a class="back" href="/blog/">← ALL WRITING</a>
+<a class="back" href="/blog/">← All writing</a>
 <article>
 
-<p class="kicker">{kicker} · {read_min} MIN</p>
+<p class="kicker">{kicker} · {read_min} min read</p>
 <h1>{html.escape(title)}</h1>
 {_made_box}
-<img class="post-hero" src="/og/hero-{slug}.webp" alt="{title}" width="1200" height="630" srcset="/og/hero-{slug}-480.webp 480w, /og/hero-{slug}-800.webp 800w, /og/hero-{slug}.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">\n<p class="disclosure-strip"><a href="/methodology/">How we review</a> \u00b7 No affiliate links</p>
+<img class="post-hero" src="/og/hero-{slug}.webp" alt="{title}" width="1200" height="630" srcset="/og/hero-{slug}-480.webp 480w, /og/hero-{slug}-800.webp 800w, /og/hero-{slug}.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async">\n<p class="disclosure-strip"><a href="/methodology/">How we review</a> \u00b7 No affiliate links</p>
 <p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · {title}</p>
 <p class="meta"><time datetime="{date_str}">{date_display}</time>{upd}</p>
 <div class="byline">
   <span class="av">TC</span>
-  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">{byline}</a></b></span>
+  <span class="who"><b><a href="/authors/tim-christensen/">{byline}</a></b></span>
 </div>
 
 {extras}
@@ -701,17 +693,12 @@ def build_post(meta: dict, body_html: str) -> str:
 <div class="cta-strip">
 <h3>One email. <span class="amber">Every Friday.</span></h3>
 <p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
-<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">Subscribe →</a>
 </div>
 
 </article>
 </main>
-<footer>
-  <div class="foot-in">
-    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
-    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
-  </div>
-</footer>
+{chrome_footer()}
 
 {_H9_TAG}</body>
 </html>"""
@@ -801,6 +788,7 @@ def build_index(posts: list) -> str:
 <link rel="alternate" type="application/rss+xml" title="MartechSignal" href="/rss.xml">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+{HEAD_TAGS}
 {_shared_tags()}
 {schema_tag}
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
@@ -808,18 +796,12 @@ def build_index(posts: list) -> str:
   <script src="/site.js" defer></script>
   </head>
 <body class="page-blog-index">
-<div class="bg" aria-hidden="true"></div>
-<header class="masthead">
-  <div class="mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
-    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
-  </div>
-</header>
+{chrome_top("/blog/")}
 <main class="wrap">
   <div class="page-head reveal">
-    <p class="kicker">// THE BLOG | DEEPER THAN THE NEWSLETTER</p>
+    <p class="kicker">The blog · Deeper than the newsletter</p>
     <h1>Long-form signal.</h1>
-    <p>Tool teardowns, workflow recipes, and vendor moves decoded | published between newsletter issues.</p>
+    <p>Tool teardowns, workflow recipes, and vendor moves decoded, published between newsletter issues.</p>
   </div>
   <div class="sub-strip reveal">
     <div>
@@ -854,12 +836,7 @@ def build_index(posts: list) -> str:
 {blog_list}
   </ul>
 </main>
-<footer>
-  <div class="foot-in">
-    <p>© {datetime.now().year} MartechSignal · by Tim Christensen</p>
-    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
-  </div>
-</footer>
+{chrome_footer()}
 
 {_H9_TAG}</body>
 </html>"""
@@ -896,7 +873,7 @@ def apply_fill_to_legacy_posts():
         if not links:
             continue
         mlinks = " \u00b7 ".join(links)
-        line = f'<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: {mlinks}</p>'
+        line = f'<p class="more-tools">More from the directory: {mlinks}</p>'
         if "</article>" in html_src:
             html_src = html_src.replace("</article>", line + "\n</article>", 1)
         else:
@@ -961,7 +938,7 @@ def scan_existing_posts(draft_slugs: set) -> list:
 
 
 def update_homepage(posts: list, count: int = 4) -> bool:
-    """Regenerate the 'Latest signals' block in the hand-crafted homepage.
+    """Regenerate the "Latest" block in the hand-crafted homepage.
 
     Replaces only the content between <!-- LATEST:START --> and
     <!-- LATEST:END --> markers in index.html, leaving the rest of the
@@ -977,24 +954,66 @@ def update_homepage(posts: list, count: int = 4) -> bool:
         print("No posts to feature on homepage.")
         return False
 
-    rows = []
-    for idx, post in enumerate(posts_sorted, start=1):
-        title = html.escape(post['title'], quote=False)
+    def _sentence_case(label: str) -> str:
+        """'AI Agents' -> 'AI agents'; keep short all-caps acronyms and
+        mixed-case brand names (HubSpot, MarTech) exactly as authored."""
+        out = []
+        for pos, word in enumerate(label.split()):
+            letters = re.sub(r'[^A-Za-z]', '', word)
+            if letters and letters.isupper() and len(letters) <= 4:
+                out.append(word)
+            elif letters and any(c.isupper() for c in letters[1:]) and not letters.isupper():
+                out.append(word)
+            elif pos == 0:
+                out.append(word[:1].upper() + word[1:].lower())
+            else:
+                out.append(word.lower())
+        return ' '.join(out)
+
+    def _category(post: dict) -> str:
+        # Kickers live on the rendered post (AI AGENTS · SECURITY · 8 MIN);
+        # take the first tag, sentence-cased, falling back to "Blog".
         slug = post.get('slug', slugify(post['title']))
-        # r11 M-7 (2026-09-29): word-boundary cut with ellipsis — the old
-        # raw excerpt ran mid-word ("specification c", "actually me").
-        _raw = post.get('excerpt', '')
-        _cut = _raw[:180].rsplit(' ', 1)[0] if len(_raw) > 180 else _raw
-        excerpt = html.escape(_cut.rstrip(' ,;:') + ('\u2026' if len(_raw) > 180 else ''), quote=False)
-        date_disp = post['date']
-        rows.append(
-            f'    <a class="story reveal" href="/blog/{slug}/">\n'
-            f'      <div class="story-head"><span class="kicker">BLOG · {date_disp}</span><span class="no">{idx:02d}</span></div>\n'
-            f'      <h3>{title}</h3>\n'
-            f'      <p>{excerpt}</p>\n'
-            f'      <span class="story-cta">READ →</span>\n'
-            f'    </a>'
-        )
+        post_file = BLOG_DIR / slug / 'index.html'
+        if post_file.exists():
+            m = re.search(r'<p class="kicker">([^<]*)</p>', post_file.read_text())
+            if m:
+                tag = m.group(1).split('\u00b7')[0].strip()
+                if tag:
+                    return html.escape(_sentence_case(tag), quote=False)
+        return 'Blog'
+
+    def _dates(date_str: str):
+        try:
+            dt = datetime.strptime(date_str, '%Y-%m-%d')
+            return dt.strftime('%d %b %Y'), dt.strftime('%d %b')
+        except ValueError:
+            return date_str, date_str
+
+    first = posts_sorted[0]
+    first_title = html.escape(first['title'], quote=False)
+    first_slug = first.get('slug', slugify(first['title']))
+    # r11 M-7 (2026-09-29): word-boundary cut with ellipsis — the old
+    # raw excerpt ran mid-word ("specification c", "actually me").
+    _raw = first.get('excerpt', '')
+    _cut = _raw[:180].rsplit(' ', 1)[0] if len(_raw) > 180 else _raw
+    first_excerpt = html.escape(_cut.rstrip(' ,;:') + ('\u2026' if len(_raw) > 180 else ''), quote=False)
+    first_date, _ = _dates(first['date'])
+    rows = [f'    <article class="lead"><a href="/blog/{first_slug}/">\n'
+            f'      <div class="meta"><span class="cat">{_category(first)}</span><span>{first_date}</span></div>\n'
+            f'      <h3>{first_title}</h3>\n'
+            f'      <p>{first_excerpt}</p>\n'
+            f'    </a></article>']
+    if len(posts_sorted) > 1:
+        list_rows = []
+        for post in posts_sorted[1:4]:
+            title = html.escape(post['title'], quote=False)
+            slug = post.get('slug', slugify(post['title']))
+            _, date_short = _dates(post['date'])
+            list_rows.append(
+                f'      <a href="/blog/{slug}/"><div class="meta"><span class="cat">{_category(post)}</span>'
+                f'<span>{date_short}</span></div><h3>{title}</h3></a>')
+        rows.append('    <div class="list">\n' + "\n".join(list_rows) + '\n    </div>')
     block = "\n".join(rows)
 
     content = homepage.read_text()

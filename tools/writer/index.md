@@ -6,21 +6,24 @@
 - Writer
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · AI Content & Copywriting
+
 ## Writer review (2026): pricing, AI features, verdict
 
 Enterprise AI platform with Palmyra models, brand governance, and agents
 
-AI Content & Copywriting · Paid Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Paid Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Writer →](https://writer.com)
+36/60
+
+- **Price:** Paid
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Writer is a tool in AI Content & Copywriting with custom pricing. The catalog documents 5 AI features, 12 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Writer →](https://writer.com)
 
 ## MartechSignal Score: 36/60
 
@@ -149,7 +152,7 @@ Starter is the self-serve tier: a 14-day free trial with no credit card, up to 5
 **How much do the Palmyra models cost via the API?**
 Published in the developer docs: Palmyra X6 at $2 per million input tokens and $8 per million output tokens with a 1M context window, Palmyra X5 at $0.60 and $6.00 with the same window, and Palmyra X4 at $2.50 and $10.00 with 128k context and a documented deprecation date of November 18, 2026. X5 is also available on Amazon Bedrock; the docs quote X6 at $0.12 of average cost per finished task.
 
-## Similar Tools
+## Similar tools
 
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
 - [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
@@ -159,8 +162,8 @@ Published in the developer docs: Palmyra X6 at $2 per million input tokens and $
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Enterprises that put brand governance ahead of raw output
@@ -180,8 +183,4 @@ Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tool
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

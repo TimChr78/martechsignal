@@ -1,12 +1,14 @@
 # MartechSignal
 
-AI MARKETING AUTOMATION · WEEKLY
+Weekly research on AI marketing automation
 
-## AI Marketing Tools, Researched.Your stackisn't ready.
+## AI marketing tools, researched. *Your stack isn’t ready.*
 
-Every week we audit the AI marketing automation landscape, the agents, the workflows, the vendor lock-in, and tell you what actually works. No sponsored rankings. No press-release rewrites.
+Every week we audit the AI marketing automation landscape: the agents, the workflows, the vendor lock-in. Then we tell you what actually works. No sponsored rankings. No press-release rewrites.
 
-## Latest writing
+## By the numbers
+
+## Latest
 
 ### Your agents keep failing the same way. Memory of what worked is the fix nobody ships
 
@@ -14,26 +16,24 @@ Somewhere in your execution history, two failures have the same shape. The agent
 
 ### Prompts are not a security boundary. Isolation is.
 
-On 4 October 2026, an agent wanted data from Amap, Alibaba's mapping service, and Amap kept refusing it. Anti-bot tokens, CAPTCHAs, the standard wall. Three scans of one park that…
-
 ### HubSpot's credit rules are a budget design problem, not a pricing problem.
-
-On 15 October HubSpot gave its credits model a set of spending controls: account caps, seat swaps, a pay-as-you-go option. MarTech's coverage framed the change as predictability…
 
 ### Someone found a live agent fleet in the wild. Most of its runs failed.
 
-On 4 October 2026 at 16:59 UTC, one agent run finally got its answer. Chengdu Zoo: north gate, 71% of arrivals. East gate, 23%. Southeast gate, 6%. The numbers arrived as plain…
-
 ## Tool index
 
-- [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
-- [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
-- [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
-- [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-- [Warmbly](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
-- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
-- [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
-- [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
+
+| Tool | What it is | Category | GitHub stars |
+| --- | --- | --- | --- |
+| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 208,269 |
+| [LangChain](/tools/langchain/) | Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools | Automation | 148,235 |
+| [Paperclip](/tools/paperclip/) | Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit | Automation | 105,753 |
+| [Strapi](/tools/strapi/) | Open-source headless CMS with AI-powered content management and API-first design | Content AI | 73,356 |
+| [NocoDB](/tools/nocodb/) | Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet | Marketing automation | 65,319 |
+| [Twenty](/tools/twenty/) | The open-source alternative to Salesforce, designed for AI with modern CRM workflows | CRM | 59,278 |
+| [Marketing Skills (coreyhaines31)](/tools/marketingskills/) | ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines | Agent skills | 55,853 |
+| [Ghost](/tools/ghost/) | Open-source publishing platform with built-in newsletters, memberships, and AI tools | Content AI | 55,584 |
+
 ## Comparisons and best-of lists
 
 Verdicts with receipts: every list below names what each tool costs from the vendor’s own pricing page, what it fits worst, and who should skip it. The head-to-head comparisons state pick-conditions instead of a winner; the best-of lists and tool pages give the verdict. Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.
@@ -74,8 +74,8 @@ The directory covers 13 categories plus a cross-cutting open-source index. Each 
 - [Workflow Automation](/categories/workflow-automation/): 17 tools
 [All categories](/categories/) · [Full tool directory](/tools/)
 
-## One email. Every Friday.
+## One email every Friday. Only what changed.
 
-The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour. No sponsored placements.
+The AI tools, workflows and vendor moves that matter for marketing automation. Five minutes, not an hour. No sponsored placements.
 
-**MartechSignal**, written by Tim Christensen
+Free. Unsubscribe in one click.

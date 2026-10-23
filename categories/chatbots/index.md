@@ -7,7 +7,7 @@
 
 Conversational AI for marketing and support, from social DM automation to per-resolution AI agents
 
-6 TOOLS IN THIS CATEGORY
+6 tools in this category
 
 ## All tools in this category
 
@@ -32,7 +32,3 @@ The failure mode is a confident wrong answer. Rule-based bots deflect FAQs relia
 Three tiers, then: social chat marketing (ManyChat, Chatfuel, ChatbotX), live chat with bots (Tidio), and AI-first support suites (Intercom, Chatwoot). Pick by channel first and by pricing model second. Before you sign, test what happens when the bot meets a question its training did not cover, and how fast a human takes over. Chatwoot's Community Edition self-hosts free and its cloud starts at $19/agent/mo for the Startups plan, which makes it the cheapest way to run that test at real volume.
 
 Vendors in this category: [Chatwoot](https://www.chatwoot.com) · [ChatbotX](https://chatbotx.io/docs) · [Chatfuel](https://chatfuel.com)
-
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

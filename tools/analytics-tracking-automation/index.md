@@ -6,21 +6,25 @@
 - Analytics Tracking Automation
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Agent Skills
+
 ## Analytics Tracking Automation review (2026): pricing, AI features, verdict
 
 AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Analytics Tracking Automation →](https://www.jtracking.ai/skills)
+34/60
+
+- **Price:** Open Source
+- **Licence:** Apache-2.0
+- **GitHub stars:** 144
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Analytics Tracking Automation is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Analytics Tracking Automation →](https://www.jtracking.ai/skills)
 
 ## MartechSignal Score: 34/60
 
@@ -107,7 +111,7 @@ Analytics Tracking Automation is open source - Apache-2.0 licensed and free to s
 **Is Analytics Tracking Automation a good self-hosted Agent Skills tool in 2026?**
 Free and fast if tracking keeps slipping through the cracks. Review every schema it proposes before publishing anything.
 
-## Similar Tools
+## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
@@ -117,7 +121,7 @@ Free and fast if tracking keeps slipping through the cracks. Review every schema
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -132,8 +136,4 @@ Free and fast if tracking keeps slipping through the cracks. Review every schema
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

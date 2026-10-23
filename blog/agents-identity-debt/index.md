@@ -1,6 +1,6 @@
 # Your Agents Are Only as Smart as Your Identity Debt
 
-AI · AGENTS · 9 MIN
+AI · Agents · 9 min read
 
 ## Your Agents Are Only as Smart as Your Identity Debt
 
@@ -8,7 +8,7 @@ AI · AGENTS · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Your Agents Are Only as Smart as Your Identity Debt
 
-AUG 13, 2026
+13 Aug 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -95,8 +95,8 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 - [Braze](/tools/braze/) - Customer engagement platform with AI-powered real-time messaging across channels
 ## Comparison guides
 
-- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/)
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
+- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -106,5 +106,3 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [BillionMail](/tools/billionmail/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

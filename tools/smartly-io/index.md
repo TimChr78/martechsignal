@@ -6,21 +6,24 @@
 - Smartly.io
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Advertising & Paid Media
+
 ## Smartly.io review (2026): pricing, AI features, verdict
 
 AI advertising platform spanning creative production, media buying, and measurement
 
-Advertising & Paid Media · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Smartly.io →](https://www.smartly.io)
+34/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Smartly.io is a tool in Advertising & Paid Media with custom pricing. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Smartly.io →](https://www.smartly.io)
 
 ## MartechSignal Score: 34/60
 
@@ -136,7 +139,7 @@ The platforms page lists Amazon, Google, Meta, Pinterest, Reddit, Roku, Snapchat
 **What is Smartly AI Studio?**
 The creative AI layer. It prepares images (upscaling, background removal, per-placement cropping), turns static product shots into video with scene generation, video assembly, and text-to-speech, enriches catalogs with generated tags and metadata, and can build a product catalog from a website URL. Smartly also curates a set of third-party enterprise AI tools for image, video, text, and audio. The company reports 1.8 million assets generated and a 27 percent average performance lift, both vendor figures.
 
-## Similar Tools
+## Similar tools
 
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
@@ -145,8 +148,8 @@ The creative AI layer. It prepares images (upscaling, background removal, per-pl
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Enterprises consolidating creative production and media buying in one contract
@@ -165,8 +168,4 @@ Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Advertising & Paid Media Tools →](/categories/advertising/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -434,6 +434,6 @@
 ## Machine-readable data
 
 - [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 172 records = 170 active + 2 non-active; the directory above lists only active tools
-- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 332 entries with representativeQueries (specVersion 1.0)
+- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 333 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

@@ -6,21 +6,25 @@
 - PostHog
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Analytics & Attribution
+
 ## PostHog review (2026): pricing, AI features, verdict
 
 Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 
-Analytics & Attribution · Freemium · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Freemium · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit PostHog →](https://posthog.com)
+43/60
+
+- **Price:** Freemium
+- **Licence:** MIT
+- **GitHub stars:** 40,378
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** PostHog is a tool in Analytics & Attribution with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit PostHog →](https://posthog.com)
 
 ## MartechSignal Score: 43/60
 
@@ -130,7 +134,7 @@ Usage-based credits per product on top of the free allowances, with per-product 
 **What AI features does PostHog include?**
 PostHog AI answers questions about your data in plain language across web, Slack, desktop, and MCP, with 500 credits free each month. AI Observability and Evaluations track LLM usage, and Replay Vision assists session replay review.
 
-## Similar Tools
+## Similar tools
 
 - [Mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
 - [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
@@ -140,8 +144,8 @@ PostHog AI answers questions about your data in plain language across web, Slack
 ## Related reading
 
 - [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Also featured in
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/) — the real questions are about product usage, and you want flags and experiments beside the funnel.
@@ -162,8 +166,4 @@ Related guides: [PostHog in Matomo alternatives](/alternatives/matomo/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

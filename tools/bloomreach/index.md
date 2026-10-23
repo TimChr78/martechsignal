@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Bloomreach
+Review · Marketing Automation
+
 ## Bloomreach review (2026): pricing, AI features, verdict
 
 AI-powered commerce experience platform with search, personalization, and CDP
 
-Marketing Automation · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-05 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Bloomreach →](https://www.bloomreach.com)
+37/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Bloomreach is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Bloomreach →](https://www.bloomreach.com)
 
 ## MartechSignal Score: 37/60
 
@@ -111,7 +114,7 @@ Bloomreach uses enterprise pricing, so the number depends on your volume and con
 **Is Bloomreach a good Marketing Automation tool in 2026?**
 The right platform for large retailers consolidating search, CDP, and messaging. Mid-market stores will find it heavy.
 
-## Similar Tools
+## Similar tools
 
 - [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
@@ -120,7 +123,7 @@ The right platform for large retailers consolidating search, CDP, and messaging.
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Also featured in
 
@@ -140,8 +143,4 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

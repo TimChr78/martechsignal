@@ -1,6 +1,6 @@
 # The Approval Step You Deleted Was the Audit Trail
 
-MARKETING AUTOMATION · AI AGENTS · 9 MIN
+Marketing Automation · AI Agents · 9 min read
 
 ## Your autonomous stack's loophole is the approval step you deleted
 
@@ -8,7 +8,7 @@ MARKETING AUTOMATION · AI AGENTS · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Your autonomous stack's loophole is the approval step you deleted
 
-SEP 07, 2026
+07 Sep 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Workflow Automation](/categories/workflow-automation/)
 
@@ -78,7 +78,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 
 - [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
@@ -87,7 +87,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 ## Comparison guides
 
 - [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -97,5 +97,3 @@ Our directory reviews marketing automation and workflow tools on what matters af
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [IFTTT](/tools/ifttt/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

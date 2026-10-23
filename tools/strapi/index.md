@@ -6,21 +6,25 @@
 - Strapi
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · AI Content & Copywriting
+
 ## Strapi review (2026): pricing, AI features, verdict
 
 Open-source headless CMS with AI-powered content management and API-first design
 
-AI Content & Copywriting · Open Source from $99/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source from $99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Strapi →](https://strapi.io)
+43/60
+
+- **Price:** Open Source from $99/mo
+- **Licence:** Open source
+- **GitHub stars:** 73,356
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Strapi is a tool in AI Content & Copywriting with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Strapi →](https://strapi.io)
 
 ## MartechSignal Score: 43/60
 
@@ -111,7 +115,7 @@ Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Clou
 **Is Strapi a good self-hosted AI Content & Copywriting tool in 2026?**
 Our default headless CMS for custom builds; choose it for flexibility, not for turnkey publishing polish.
 
-## Similar Tools
+## Similar tools
 
 - [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
@@ -120,8 +124,8 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Teams that want a headless CMS with AI inside their own stack
@@ -142,8 +146,4 @@ Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tool
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

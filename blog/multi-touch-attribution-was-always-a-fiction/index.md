@@ -1,6 +1,6 @@
 # Multi-Touch Attribution Was Always a Fiction
 
-ANALYTICS · ATTRIBUTION · 8 MIN
+Analytics · Attribution · 8 min read
 
 ## Multi-Touch Attribution Was Always a Fiction
 
@@ -8,7 +8,7 @@ ANALYTICS · ATTRIBUTION · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Multi-Touch Attribution Was Always a Fiction
 
-AUG 14, 2026
+14 Aug 2026
 
 Filed under [Analytics & Attribution](/categories/analytics/)
 
@@ -101,7 +101,5 @@ Attribution platforms, CDPs, and analytics tools with pricing and AI features co
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

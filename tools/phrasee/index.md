@@ -6,21 +6,24 @@
 - Phrasee
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · AI Content & Copywriting
+
 ## Phrasee review (2026): pricing, AI features, verdict
 
 AI messaging content platform; rebranded as Jacquard in June 2024
 
-AI Content & Copywriting · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Phrasee →](https://www.jacquard.com)
+31/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Phrasee is a tool in AI Content & Copywriting with custom pricing. The catalog documents 4 AI features and 12 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Phrasee →](https://www.jacquard.com)
 
 ## MartechSignal Score: 31/60
 
@@ -144,7 +147,7 @@ Yes. Salesforce Marketing Cloud appears on the archived 2023 partner list alongs
 **What lift can I realistically expect from Phrasee or Jacquard?**
 Vendor-published results range widely. Currys reports 42% uplift in opens, 93% in clicks, and 102% in revenue; P&O Cruises 13% opens and 18% clicks; Home Chef 21% opens and 29% clicks; Confused.com 12% on clicks. The platform-wide claims are a 9.7% median click uplift for the predicted champion, rising to 19% with testing, and a 66% win rate at predicting the top-performing variant against human controls. All of these are the company's own numbers, not independent audits.
 
-## Similar Tools
+## Similar tools
 
 - [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
 - [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
@@ -154,8 +157,8 @@ Vendor-published results range widely. Currys reports 42% uplift in opens, 93% i
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Best for AI content & copywriting teams that want ai tone-of-voice analysis, with pricing quoted per contract.
@@ -174,8 +177,4 @@ Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tool
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

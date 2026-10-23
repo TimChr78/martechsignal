@@ -1,6 +1,6 @@
 # AEO for SEO: what changes when buyers ask instead of search
 
-SEO · AI SEARCH · 6 MIN
+SEO · AI Search · 6 min read
 
 ## AEO for SEO: what changes when buyers ask instead of search
 
@@ -8,7 +8,7 @@ SEO · AI SEARCH · 6 MIN
 
 [Home](/) · [Blog](/blog/) · AEO for SEO: what changes when buyers ask instead of search
 
-OCT 16, 2026
+16 Oct 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -89,7 +89,5 @@ Keep the crawlable fast pages, the consistent entity facts, the habit of updatin
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 ✓ The Fundamentals Hold

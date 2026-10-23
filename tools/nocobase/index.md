@@ -6,21 +6,25 @@
 - NocoBase
 Re-check pending: pricing last verified 2026-09-05 (48 days ago).
 
+Review · Workflow Automation
+
 ## NocoBase review (2026): pricing, AI features, verdict
 
 Open-source no-code platform with AI assistance for building business systems fast
 
-Workflow Automation · Open-core · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-05 · Open-core · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit NocoBase →](https://www.nocobase.com)
+42/60
+
+- **Price:** Open-core
+- **Licence:** Open source
+- **GitHub stars:** 24,660
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** NocoBase is a tool in Workflow Automation with free and open source. The catalog documents 2 AI features, 2 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-05. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit NocoBase →](https://www.nocobase.com)
 
 ## MartechSignal Score: 42/60
 
@@ -127,7 +131,7 @@ Airtable is a polished cloud database you can use in minutes; NocoBase is a plat
 **Does NocoBase have a demo?**
 Yes, NocoBase runs a live demo on its website, and because the core is open source you can self-host a full instance with Docker in minutes to evaluate it on your own data. The project (sometimes misspelled Nacobase or Noco Base) documents deployment in several languages.
 
-## Similar Tools
+## Similar tools
 
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
@@ -138,7 +142,7 @@ Yes, NocoBase runs a live demo on its website, and because the core is open sour
 
 - [How NocoBase compares with NocoDB and Budibase for self-hosted marketing ops](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Also featured in
 
 - [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/) — Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.
@@ -157,8 +161,4 @@ Related guides: [NocoBase vs Nocodb](/vs/nocodb-vs-nocobase/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

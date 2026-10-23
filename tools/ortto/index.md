@@ -6,21 +6,24 @@
 - Ortto
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Marketing Automation
+
 ## Ortto review (2026): pricing, AI features, verdict
 
 Customer data and marketing automation platform with journeys, CDP, and AI features
 
-Marketing Automation · From $199/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · From $199/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Ortto →](https://ortto.com)
+34/60
+
+- **Price:** From $199/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Ortto is a tool in Marketing Automation with paid plans starting at $199/mo. The catalog documents 6 AI features, 13 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Ortto →](https://ortto.com)
 
 ## MartechSignal Score: 34/60
 
@@ -151,7 +154,7 @@ Email keeps sending and bills overage at $1 per 1,000 emails, while SMS sending 
 **Does Ortto have an API, and which endpoint should I use?**
 Yes. Authentication uses a custom API key that you configure as a data source and can disconnect from the interface. Endpoints are regional: api.au.ap3api.com for Australia, api.eu.ap3api.com for Europe, and api.ap3api.com for everyone else. The developer guide covers the JSON payload for person and activity updates, and there are SDKs for iOS, Android, in-app notifications, and Flutter on top of the REST API and tracking snippet.
 
-## Similar Tools
+## Similar tools
 
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 - [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
@@ -161,8 +164,8 @@ Yes. Authentication uses a custom API key that you configure as a data source an
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Marketing teams that want email, SMS and journeys behind one login
@@ -181,8 +184,4 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

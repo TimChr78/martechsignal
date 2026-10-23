@@ -7,9 +7,9 @@
 
 Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 20 reviewed.
 
-20 TOOLS IN THIS CATEGORY
+20 tools in this category
 
-## SEO AND CONTENT SKILLS (7)
+## SEO and content skills (7)
 
 - [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates (Open Source)
 - [Claude SEO](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents (Open Source)
@@ -18,7 +18,7 @@ Agent skills and MCP tools for coding agents: what each package automates in a m
 - [Email Marketing Bible](/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP (Open Source)
 - [Growth Lab](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex (Open Source)
 - [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects (Open Source)
-## CAMPAIGN AND ASSET SKILLS (9)
+## Campaign and asset skills (9)
 
 - [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents (Open Source)
 - [Analytics Tracking Automation](/tools/analytics-tracking-automation/): AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live (Open Source)
@@ -56,21 +56,19 @@ Vendors in this category: [Marketing Skills (coreyhaines31)](https://marketing-s
 
 ## Reading before you buy
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-INSTALLclone + load into agent
+Installclone + load into agent
 
 **
 
-RUNpoint it at a real project
+Runpoint it at a real project
 
 **
 
-VERIFYcheck the output against the site
+Verifycheck the output against the site
 
 **
 
-WIRE INscheduled, not one-off
+Wire inscheduled, not one-off
 
 IF You want SEO audits and content fixes running inside your terminal
 
@@ -119,5 +117,3 @@ How to compare agents on budget authority, state, approval gates and audit trail
 MCP Rewrites the Integration Economics of Your Marketing Stack
 
 Why agent-to-tool protocols change what integrations should cost
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

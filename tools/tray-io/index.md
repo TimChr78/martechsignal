@@ -6,21 +6,24 @@
 - Tray.io
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Workflow Automation
+
 ## Tray.io review (2026): pricing, AI features, verdict
 
 AI-powered integration platform for building custom automation and AI agents
 
-Workflow Automation · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Tray.io →](https://tray.ai)
+36/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Tray.io is a tool in Workflow Automation with custom pricing. The catalog documents 6 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Tray.io →](https://tray.ai)
 
 ## MartechSignal Score: 36/60
 
@@ -147,7 +150,7 @@ No prices are published. The pricing page names Pro, Team, and Enterprise tiers 
 **Tray.ai or Zapier: when is the upgrade worth it?**
 Zapier fits single-task automations owned by individuals. Tray fits programs: multiple workspaces, callable workflows, data tables, version control through the Sync CLI, log masking, and audit trails, plus agents governed through Agent Gateway. If you need governance, compliance certifications, or centrally controlled agents, Tray earns its cost. If you are wiring five apps together, it does not.
 
-## Similar Tools
+## Similar tools
 
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
@@ -155,9 +158,9 @@ Zapier fits single-task automations owned by individuals. Tray fits programs: mu
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
 ## Related reading
 
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for AI app governance plus integration on one platform.
@@ -176,8 +179,4 @@ Related guides: [Tray.io in Zapier alternatives](/alternatives/zapier/) · [Work
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

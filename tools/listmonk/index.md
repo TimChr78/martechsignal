@@ -6,21 +6,25 @@
 - Listmonk
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Email Marketing
+
 ## Listmonk review (2026): pricing, AI features, verdict
 
 Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 
-Email Marketing · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Listmonk →](https://listmonk.app)
+37/60
+
+- **Price:** Open Source
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 23,905
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Listmonk is a tool in Email Marketing with free and open source. The catalog documents 2 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Listmonk →](https://listmonk.app)
 
 ## MartechSignal Score: 37/60
 
@@ -104,7 +108,7 @@ Listmonk is open source - AGPL-3.0 licensed and free to self-host; the public re
 **Is Listmonk a good self-hosted Email Marketing tool in 2026?**
 The strongest self-hosted mailing platform in this catalog; bring your own forms and workflows.
 
-## Similar Tools
+## Similar tools
 
 - [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server
 - [MailCheap](/tools/mailcheap/): Newsletter platform billed per email sent, with full MCP control for AI agents
@@ -136,8 +140,4 @@ Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

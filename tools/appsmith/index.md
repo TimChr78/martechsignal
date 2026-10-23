@@ -6,21 +6,25 @@
 - Appsmith
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Workflow Automation
+
 ## Appsmith review (2026): pricing, AI features, verdict
 
 Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
 
-Workflow Automation · Open-core from $15/user/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open-core from $15/user/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Appsmith →](https://appsmith.com)
+39/60
+
+- **Price:** Open-core from $15/user/mo
+- **Licence:** Apache-2.0
+- **GitHub stars:** 41,103
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Appsmith is a tool in Workflow Automation with free and open source. The catalog documents 2 AI features, 13 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Appsmith →](https://appsmith.com)
 
 ## MartechSignal Score: 39/60
 
@@ -147,7 +151,7 @@ Retool is a hosted commercial platform; Appsmith is Apache 2.0 and self-hostable
 **Which databases and SaaS tools does Appsmith connect to?**
 Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server, Oracle, Snowflake, Redshift, Databricks, DynamoDB, Firestore, Elasticsearch, Redis, ArangoDB, S3 and SMTP, plus any REST or GraphQL API. SaaS connectors cover HubSpot, Salesforce, Google Sheets, Google Drive, Airtable, Jira, Notion, Mixpanel, Monday.com, Linear, GitHub, Gmail and Outlook, among others. Marketing teams usually pair it with a warehouse or call ad platform APIs directly rather than expecting deep native marketing connectors; the queries are SQL or JavaScript you write.
 
-## Similar Tools
+## Similar tools
 
 - [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 - [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
@@ -157,8 +161,8 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ### Quick Facts
 
 - **Pricing:** Open-core from $15/user/mo
@@ -172,8 +176,4 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

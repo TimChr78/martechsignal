@@ -6,21 +6,24 @@
 - Frase
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · SEO & Search
+
 ## Frase review (2026): pricing, AI features, verdict
 
 AI-powered SEO content platform for research, writing, and AI visibility tracking
 
-SEO & Search · From $39/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · From $39/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Frase →](https://www.frase.io)
+37/60
+
+- **Price:** From $39/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Frase is a tool in SEO & Search with paid plans starting at $39/mo. The catalog documents 8 AI features, 14 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Frase →](https://www.frase.io)
 
 ## MartechSignal Score: 37/60
 
@@ -154,7 +157,7 @@ The docs draw the line explicitly: AI Visibility is about tracking, GEO is about
 **Does Frase still integrate with Surfer SEO?**
 We found no Surfer integration in Frase's integrations page or docs index; Surfer is a competitor, and Frase publishes a comparison page against it. The documented integrations are Google Search Console, Google Analytics 4, Google Docs (an OAuth connector for imports, brand voice, and exports), Notion, Slack, Linear, GitHub, and direct publishing to WordPress, Webflow, Sanity, and Wix, with Zapier, Make, and n8n possible through the REST API. An earlier Chrome extension is not documented anywhere we could read.
 
-## Similar Tools
+## Similar tools
 
 - [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
 - [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
@@ -162,9 +165,9 @@ We found no Surfer integration in Frase's integrations page or docs index; Surfe
 - [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
 ## Related reading
 
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for small content teams that want research, briefs and drafting in one tool.
@@ -181,8 +184,4 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

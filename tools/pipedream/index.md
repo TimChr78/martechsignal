@@ -6,21 +6,24 @@
 - Pipedream
 Update queued: Paid-plan ladder changed on the vendor page in October 2026 (now Connect-based); the free tier is verified, the paid tiers are queued for re-record.
 
+Review · Workflow Automation
+
 ## Pipedream review (2026): pricing, AI features, verdict
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
-Workflow Automation · Freemium Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-06 · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Pipedream →](https://pipedream.com)
+37/60
+
+- **Price:** Freemium
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Pipedream is a tool in Workflow Automation with a free tier. We reviewed it from vendor documentation on 2026-10-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Pipedream →](https://pipedream.com)
 
 ## MartechSignal Score: 37/60
 
@@ -94,7 +97,7 @@ Pipedream has a free tier, so you can run a real evaluation before paying. Basic
 **Is Pipedream worth it past the free tier?**
 The automation platform for developers who want code control with SaaS convenience.
 
-## Similar Tools
+## Similar tools
 
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
@@ -103,8 +106,8 @@ The automation platform for developers who want code control with SaaS convenien
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for developer teams wanting code steps and MCP endpoints.
@@ -121,8 +124,4 @@ Related guides: [Pipedream in Zapier alternatives](/alternatives/zapier/) · [Wo
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

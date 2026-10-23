@@ -6,23 +6,27 @@
 - Google Ads + Meta Ads + GA4 MCP
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
-KIND: Utility (not an end-to-end platform)
+Kind: Utility (not an end-to-end platform)
+
+Review · Agent Skills
 
 ## Google Ads + Meta Ads + GA4 MCP review (2026): pricing, AI features, verdict
 
 MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 
-Agent Skills · Freemium · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Freemium · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Google Ads + Meta Ads + GA4 MCP →](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
+41/60
+
+- **Price:** Freemium
+- **Licence:** MIT
+- **GitHub stars:** 5,482
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Google Ads + Meta Ads + GA4 MCP is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 11 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Google Ads + Meta Ads + GA4 MCP →](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
 
 ## MartechSignal Score: 41/60
 
@@ -130,7 +134,7 @@ The README claims full read and write across all three platforms and contrasts t
 **How much does it cost?**
 Two layers. The repo is MIT licensed and its pricing FAQ states the MCP server itself is free, with you paying only for the AI assistant you use and your ad spend. The hosted endpoint is run by Ryze AI, whose own plans start at $89 a month for Paid ads Autopilot with a 7 day free trial and scale to $1,499 for Ecom Autopilot. If you want only the MCP connection and not Ryze's managed services, confirm what the free path covers before you build on it.
 
-## Similar Tools
+## Similar tools
 
 - [Claude Ads](/tools/claude-ads/): Paid-media operations skill for Claude Code covering 12 ad platforms
 - [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors
@@ -139,8 +143,8 @@ Two layers. The repo is MIT licensed and its pricing FAQ states the MCP server i
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for performance teams that want Google Ads, Meta Ads and GA4 reachable from one MCP server, free to self-host.
@@ -160,8 +164,4 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

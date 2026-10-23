@@ -1,6 +1,6 @@
 # Before your next automation, run the blast radius audit
 
-MARKETING AUTOMATION · HOW-TO · 8 MIN
+Marketing Automation · How-To · 8 min read
 
 ## Before your next automation, run the blast radius audit
 
@@ -8,7 +8,7 @@ MARKETING AUTOMATION · HOW-TO · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Before your next automation, run the blast radius audit
 
-SEP 08, 2026
+08 Sep 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Workflow Automation](/categories/workflow-automation/)
 
@@ -81,7 +81,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 
 - [Laudspeaker](/tools/laudspeaker/) - Open-source customer engagement and product onboarding platform, alternative to Braze
@@ -100,5 +100,3 @@ Our directory reviews marketing automation and workflow tools on what matters af
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

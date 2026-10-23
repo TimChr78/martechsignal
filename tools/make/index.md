@@ -6,21 +6,24 @@
 - Make
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Workflow Automation
+
 ## Make review (2026): pricing, AI features, verdict
 
 Visual automation platform for building complex workflows with AI agents and apps
 
-Workflow Automation · Freemium from $9/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · Freemium from $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Make →](https://www.make.com)
+38/60
+
+- **Price:** Freemium from $9/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Make is a tool in Workflow Automation with a free tier. The catalog documents 5 AI features and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Make →](https://www.make.com)
 
 ## MartechSignal Score: 38/60
 
@@ -115,7 +118,7 @@ Pick on data shape more than on list price. Make draws scenarios as a graph, so 
 **Does Make have AI agents?**
 Yes. Make AI Agents are stated as available on all plans, including Free, and run inside scenarios. The wider AI surface includes Maia by Make, the Make AI Toolkit, the Make MCP Server for connecting external agents, and a Make Code App billed at 2 credits per second. Note that AI features can consume credits above the default one per action when they run on Make's AI Provider, so agent heavy scenarios cost more per run than plain module chains.
 
-## Similar Tools
+## Similar tools
 
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
@@ -123,9 +126,9 @@ Yes. Make AI Agents are stated as available on all plans, including Free, and ru
 - [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
 ## Related reading
 
-- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for branching visual workflows on a small-team budget.
@@ -146,8 +149,4 @@ Related guides: [Make in Zapier alternatives](/alternatives/zapier/) · [Workflo
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

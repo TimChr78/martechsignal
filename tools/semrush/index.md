@@ -6,21 +6,24 @@
 - Semrush
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · SEO & Search
+
 ## Semrush review (2026): pricing, AI features, verdict
 
 All-in-one SEO and digital marketing platform with AI-powered insights and tools
 
-SEO & Search · From $117/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · From $117/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Semrush →](https://www.semrush.com)
+40/60
+
+- **Price:** From $117/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Semrush is a tool in SEO & Search with paid plans starting at $117/mo. The catalog documents 6 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Semrush →](https://www.semrush.com)
 
 ## MartechSignal Score: 40/60
 
@@ -106,7 +109,7 @@ Semrush starts at $117/mo. Pro $117/mo (annual) or $140/mo; Guru $250/mo; Busine
 **Is Semrush worth paying for in 2026?**
 The most complete all-in-one SEO platform on the market; buy the tier you need, not the one marketing suggests.
 
-## Similar Tools
+## Similar tools
 
 - [Surfer SEO](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
 - [Frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
@@ -115,8 +118,8 @@ The most complete all-in-one SEO platform on the market; buy the tier you need, 
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
-- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for SEO teams that want audits, rank tracking and content scoring in one suite.
@@ -137,8 +140,4 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

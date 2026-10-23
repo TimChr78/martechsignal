@@ -6,21 +6,22 @@
 - Hightouch
 Re-check pending: pricing last verified 2026-10-01 (22 days ago).
 
+Review · Personalization & CDP
+
 ## Hightouch review (2026): pricing, AI features, verdict
 
 Composable CDP that activates warehouse data where marketing runs
 
-Personalization & CDP · Freemium Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01 · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit Hightouch →](https://hightouch.com/)
+- **Price:** Freemium
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Hightouch is a tool in Personalization & CDP with a free tier. The catalog documents 2 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-10-01. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Hightouch →](https://hightouch.com/)
 
 ## Catalog facts: Hightouch
 
@@ -937,7 +938,7 @@ Hightouch fits teams whose source of truth already lives in Snowflake, BigQuery,
 **Does Hightouch have an API?**
 Yes. The catalog records a public API for Hightouch, so custom integrations are possible. The Key Integrations section shows what ships natively.
 
-## Similar Tools
+## Similar tools
 
 - [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
 - [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
@@ -945,9 +946,9 @@ Yes. The catalog records a public API for Hightouch, so custom integrations are 
 - [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
 ## Related reading
 
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
 - [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best activation layer when the warehouse is already the source of truth.
@@ -966,8 +967,4 @@ Related guides: [Cdp](/best/cdp/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,25 @@
 - ChatbotX
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Chatbots & Conversational AI
+
 ## ChatbotX review (2026): pricing, AI features, verdict
 
 Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 
-Chatbots & Conversational AI · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit ChatbotX →](https://chatbotx.io/docs)
+31/60
+
+- **Price:** Open Source
+- **Licence:** Open source
+- **GitHub stars:** 988
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** ChatbotX is a tool in Chatbots & Conversational AI with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit ChatbotX →](https://chatbotx.io/docs)
 
 ## MartechSignal Score: 31/60
 
@@ -91,7 +95,7 @@ ChatbotX is open source - Free to self-host; the public repository carries 988 s
 **Is ChatbotX a good self-hosted Chatbots & Conversational AI tool in 2026?**
 Right for technical teams that want ManyChat-style automation without lock-in. Everyone else should stay hosted.
 
-## Similar Tools
+## Similar tools
 
 - [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
 - [ManyChat](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
@@ -100,8 +104,8 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Developers that want ManyChat's playbook as source code
@@ -124,8 +128,4 @@ Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Chatbots & Conversational AI Tools →](/categories/chatbots/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

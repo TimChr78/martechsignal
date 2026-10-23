@@ -6,21 +6,25 @@
 - Chatwoot
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Chatbots & Conversational AI
+
 ## Chatwoot review (2026): pricing, AI features, verdict
 
 Open-source customer engagement suite with Captain AI and full self-hosting
 
-Chatbots & Conversational AI · Open Source from $19/agent/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $19/agent/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Chatwoot →](https://www.chatwoot.com)
+39/60
+
+- **Price:** Open Source from $19/agent/mo
+- **Licence:** Open source
+- **GitHub stars:** 38,077
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Chatwoot is a tool in Chatbots & Conversational AI with free and open source. The catalog documents 6 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Chatwoot →](https://www.chatwoot.com)
 
 ## MartechSignal Score: 39/60
 
@@ -145,7 +149,7 @@ Yes, but not on the free community edition: the guide lists Chatwoot Enterprise 
 **What do Chatwoot's AI credits cover and how do they bill?**
 Every Captain action consumes 1 credit per message because a fixed model configuration is used, and the documented credit-consuming actions include assistant responses, Copilot lookups, editor actions such as rephrase, summarize, and suggest a reply, label suggestions, workflow model calls, and audio transcription. Paid cloud plans include 300 credits monthly on Startups, 500 on Business, and 800 on Enterprise, additional credits bill at $20 per 1,000, and purchased credits expire after 6 months and require an active subscription.
 
-## Similar Tools
+## Similar tools
 
 - [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
 - [Tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support
@@ -154,8 +158,8 @@ Every Captain action consumes 1 credit per message because a fixed model configu
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Teams that want an open-source inbox with AI help included
@@ -176,8 +180,4 @@ Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Chatbots & Conversational AI Tools →](/categories/chatbots/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

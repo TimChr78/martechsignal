@@ -4,21 +4,23 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Instagram Skills
+Review · Agent Skills
+
 ## Instagram Skills review (2026): pricing, AI features, verdict
 
 9 Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtags
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-12 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit Instagram Skills →](https://github.com/sergebulaev/instagram-skills)
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 545
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Instagram Skills is a tool in Agent Skills with free and open source. The catalog documents 9 AI features, 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-12. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Instagram Skills →](https://github.com/sergebulaev/instagram-skills)
 
 ## Catalog facts: Instagram Skills
 
@@ -119,7 +121,7 @@ The most Instagram-specific free skill pack we list. Best if you already work in
 **Does Instagram Skills have an API?**
 Yes. The catalog records a public API for Instagram Skills, so custom integrations are possible. The Key Integrations section shows what ships natively.
 
-## Similar Tools
+## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
@@ -129,8 +131,8 @@ Yes. The catalog records a public API for Instagram Skills, so custom integratio
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -144,8 +146,4 @@ Yes. The catalog records a public API for Instagram Skills, so custom integratio
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

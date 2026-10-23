@@ -4,21 +4,25 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Codex SEO
+Review · Agent Skills
+
 ## Codex SEO review (2026): pricing, AI features, verdict
 
 Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 
-Agent Skills · Free Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-12 · Free Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Codex SEO →](https://github.com/AgriciDaniel/codex-seo)
+34/60
+
+- **Price:** Free
+- **Licence:** proprietary
+- **GitHub stars:** 853
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Codex SEO is a tool in Agent Skills with a free tier. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-10-12. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Codex SEO →](https://github.com/AgriciDaniel/codex-seo)
 
 ## MartechSignal Score: 34/60
 
@@ -105,7 +109,7 @@ Codex SEO has a free tier, so you can run a real evaluation before paying. Free 
 **What does running Codex SEO actually cost?**
 The right SEO skill pack for Codex-based teams. Claude Code users should stick with the original Claude SEO.
 
-## Similar Tools
+## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Claude SEO](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
@@ -115,8 +119,8 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for Codex CLI users who want scripted SEO workflows.
@@ -136,8 +140,4 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

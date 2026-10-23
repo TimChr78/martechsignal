@@ -6,21 +6,25 @@
 - Django CRM
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · CRM
+
 ## Django CRM review (2026): pricing, AI features, verdict
 
 Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Django CRM →](https://bottlecrm.io)
+32/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 2,456
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Django CRM is a tool in CRM with free and open source. The catalog documents 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Django CRM →](https://bottlecrm.io)
 
 ## MartechSignal Score: 32/60
 
@@ -130,7 +134,7 @@ No. Multi-tenancy depends on PostgreSQL Row-Level Security, which has no SQLite 
 **How does multi-tenancy work in Django CRM?**
 Each request sets a PostgreSQL session variable (app.current_org) and Row-Level Security policies filter every table against it at the database layer. The app connects as a restricted crm_user role, never a superuser, because a superuser connection bypasses RLS entirely. That is what lets one deployment host many organizations.
 
-## Similar Tools
+## Similar tools
 
 - [SuiteCRM](/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation
 - [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
@@ -140,8 +144,8 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -155,8 +159,4 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

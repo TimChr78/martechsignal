@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MartechSignal redesign: mockup</title>
+<style>
+@font-face{font-family:'Newsreader';font-weight:400 600;font-style:normal;src:url(data:font/woff2;base64,__NR__) format('woff2')}
+@font-face{font-family:'Newsreader';font-weight:400 600;font-style:italic;src:url(data:font/woff2;base64,__NRI__) format('woff2')}
+@font-face{font-family:'Archivo';font-weight:400 700;src:url(data:font/woff2;base64,__AR__) format('woff2')}
+
+/* ===== tokens ===== */
+:root{
+  color-scheme:light;
+  --bg:#F6F4EF; --surface:#FFFFFF; --sunk:#EFECE5;
+  --ink:#18181B; --ink-2:#3F3D39; --muted:#67635B;
+  --line:#DDD8CD; --rule:#18181B;
+  --accent:#B93A1A; --accent-ink:#FFFFFF; --tint:#F5E4DC;
+  --pos:#1E6F47; --neg:#B42318;
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --sans:'Archivo',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --code:ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+:root[data-theme=dark]{
+  color-scheme:dark;
+  --bg:#131312; --surface:#1B1B19; --sunk:#0E0E0D;
+  --ink:#ECE9E2; --ink-2:#CFCBC2; --muted:#9C978D;
+  --line:#2D2C29; --rule:#ECE9E2;
+  --accent:#F0754F; --accent-ink:#131312; --tint:#2B1C16;
+  --pos:#5DBE8A; --neg:#F08A74;
+}
+
+/* ===== base ===== */
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:400 1rem/1.6 var(--sans);-webkit-font-smoothing:antialiased;font-variant-numeric:lining-nums}
+a{color:inherit}
+::selection{background:var(--accent);color:var(--accent-ink)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 1.5rem}
+h1,h2,h3{font-family:var(--serif);font-weight:500;letter-spacing:-.012em;text-wrap:balance}
+
+/* ===== masthead ===== */
+.topbar{border-bottom:1px solid var(--line);font-size:.8125rem;color:var(--muted)}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;height:2.25rem}
+.theme-toggle{display:inline-flex;align-items:center;gap:.4rem;background:none;border:1px solid var(--line);border-radius:999px;padding:.2rem .65rem;font:500 .8125rem var(--sans);color:var(--ink-2);cursor:pointer}
+.theme-toggle:hover{border-color:var(--ink-2)}
+.theme-toggle svg{width:14px;height:14px}
+.masthead{border-bottom:1px solid var(--rule)}
+.mast-in{display:flex;align-items:baseline;justify-content:space-between;padding-block:1.1rem .9rem;gap:2rem}
+.wordmark{font:600 1.75rem/1 var(--serif);letter-spacing:-.02em;text-decoration:none;display:inline-flex;align-items:baseline;gap:.35rem}
+.wordmark .mark{display:inline-flex;align-items:flex-end;gap:2px;height:.7em;transform:translateY(-.02em)}
+.wordmark .mark i{display:block;width:4px;background:var(--accent)}
+.wordmark .mark i:nth-child(1){height:40%}.wordmark .mark i:nth-child(2){height:70%}.wordmark .mark i:nth-child(3){height:100%}
+.mast-nav{display:flex;gap:1.6rem;font-size:.9375rem}
+.mast-nav a{text-decoration:none;color:var(--ink-2);padding:.25rem 0;border-bottom:2px solid transparent}
+.mast-nav a:hover{color:var(--ink);border-bottom-color:var(--accent)}
+.mast-nav a.sub{color:var(--accent);font-weight:600}
+
+/* ===== homepage hero ===== */
+.hero{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:4rem;padding:3.5rem 0 3rem;border-bottom:1px solid var(--line)}
+.eyebrow{font:600 .8125rem var(--sans);color:var(--accent);margin-bottom:1rem}
+.hero h1{font-size:clamp(2.4rem,5.2vw,4rem);line-height:1.04;font-weight:500;letter-spacing:-.025em}
+.hero h1 em{font-style:italic;color:var(--muted);font-weight:400}
+.lede{font:400 1.25rem/1.5 var(--serif);color:var(--ink-2);max-width:36rem;margin:1.4rem 0 1.8rem}
+.actions{display:flex;gap:1.4rem;align-items:center;flex-wrap:wrap}
+.btn{display:inline-block;background:var(--ink);color:var(--bg);font:600 .9375rem var(--sans);text-decoration:none;padding:.75rem 1.25rem;border-radius:4px}
+.btn:hover{background:var(--accent);color:var(--accent-ink)}
+.textlink{font:600 .9375rem var(--sans);text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:.25em;text-decoration-thickness:2px}
+.figures{align-self:end;border-top:2px solid var(--rule)}
+.figures h2{font:600 .8125rem var(--sans);color:var(--muted);padding:.6rem 0 .2rem}
+.fig{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--line);padding:.75rem 0}
+.fig b{font:500 2.25rem/1 var(--serif);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.fig span{color:var(--muted);font-size:.9375rem;text-align:right}
+
+/* ===== sections ===== */
+.section{padding:2.75rem 0 1rem}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;border-top:2px solid var(--rule);padding-top:.6rem;margin-bottom:1.5rem}
+.sec-head h2{font:600 1.5rem var(--serif)}
+.sec-head a{font:500 .875rem var(--sans);color:var(--muted);text-decoration:none}
+.sec-head a:hover{color:var(--accent)}
+
+/* latest: lead + list */
+.latest{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:3rem}
+.lead a{text-decoration:none}
+.meta{font:500 .8125rem var(--sans);color:var(--muted);display:flex;gap:.6rem;align-items:center}
+.meta .cat{color:var(--accent);font-weight:600}
+.lead h3{font-size:2.1rem;line-height:1.12;margin:.6rem 0 .8rem;letter-spacing:-.02em}
+.lead a:hover h3,.list a:hover h3{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.15em}
+.lead p{font:400 1.125rem/1.55 var(--serif);color:var(--ink-2)}
+.list a{display:block;text-decoration:none;padding:1rem 0;border-bottom:1px solid var(--line)}
+.list a:first-child{padding-top:0}
+.list h3{font-size:1.2rem;line-height:1.25;margin-top:.35rem}
+
+/* tool index as a table */
+.tindex{width:100%;border-collapse:collapse;font-size:.9375rem}
+.tindex th{font:600 .8125rem var(--sans);color:var(--muted);text-align:left;padding:.5rem .75rem .5rem 0;border-bottom:1px solid var(--rule)}
+.tindex td{padding:.8rem .75rem .8rem 0;border-bottom:1px solid var(--line);vertical-align:baseline}
+.tindex td.name a{font-weight:600;text-decoration:none}
+.tindex tr:hover td{background:var(--sunk)}
+.tindex td.desc{color:var(--ink-2)}
+.tindex td.num{text-align:right;font-variant-numeric:tabular-nums;color:var(--muted);white-space:nowrap}
+.tindex th.num{text-align:right}
+.tag{display:inline-block;font:500 .75rem/1 var(--sans);padding:.3rem .5rem;border-radius:3px;background:var(--sunk);color:var(--ink-2);white-space:nowrap}
+.tag.oss{background:transparent;border:1px solid var(--line)}
+
+/* subscribe */
+.subscribe{margin:3rem 0;background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--accent);padding:2.25rem;display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:center}
+.subscribe h2{font-size:1.9rem;line-height:1.1}
+.subscribe p{color:var(--ink-2);margin-top:.5rem}
+.sub-form{display:flex;gap:.5rem}
+.sub-form input{flex:1;min-width:0;background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:.7rem .9rem;font:400 1rem var(--sans);color:var(--ink)}
+.sub-form input:focus{outline:none;border-color:var(--ink)}
+.sub-form button{background:var(--accent);color:var(--accent-ink);border:0;border-radius:4px;padding:.7rem 1.2rem;font:600 .9375rem var(--sans);cursor:pointer}
+.fine{font-size:.8125rem;color:var(--muted);margin-top:.6rem}
+
+/* ===== review page sample ===== */
+.divider{margin:3rem 0 0;padding:.5rem 0;text-align:center;font:600 .8125rem var(--sans);color:var(--muted);background:var(--sunk);border-block:1px dashed var(--line)}
+.crumbs{font-size:.875rem;color:var(--muted);padding:1.5rem 0 0}
+.crumbs a{text-decoration:none}.crumbs a:hover{color:var(--accent)}
+.crumbs span{margin:0 .4rem;opacity:.6}
+.review-head{padding:1.25rem 0 2rem;border-bottom:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:3rem;align-items:end}
+.review-head h1{font-size:clamp(2.2rem,4.4vw,3.2rem);line-height:1.06;letter-spacing:-.022em}
+.review-head .dek{font:400 1.25rem/1.45 var(--serif);color:var(--ink-2);margin:.8rem 0 1rem;max-width:38rem}
+.byline{font-size:.875rem;color:var(--muted)}
+.byline a{color:var(--ink);text-decoration-color:var(--line);text-underline-offset:.2em}
+.scorebox{border:1px solid var(--rule);padding:1rem 1.1rem;background:var(--surface)}
+.scorebox .lbl{font:600 .8125rem var(--sans);color:var(--muted)}
+.scorebox .val{font:500 3.2rem/1 var(--serif);letter-spacing:-.03em;margin:.3rem 0}
+.scorebox .val small{font-size:1.2rem;color:var(--muted)}
+.bar{height:6px;background:var(--sunk);border-radius:3px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent)}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:.25rem .9rem;margin-top:.8rem;font-size:.875rem}
+.facts dt{color:var(--muted)}
+.body{display:grid;grid-template-columns:minmax(0,40rem) 1fr;gap:4rem;padding:2rem 0 4rem}
+.verdict{border-left:3px solid var(--accent);padding:.2rem 0 .2rem 1.2rem;margin-bottom:2rem}
+.verdict b{font:600 .8125rem var(--sans);color:var(--accent);display:block;margin-bottom:.3rem}
+.verdict p{font:400 1.2rem/1.5 var(--serif)}
+.prose p{font:400 1.125rem/1.65 var(--serif);color:var(--ink);margin-bottom:1.1rem}
+.prose h2{font-size:1.65rem;margin:2.2rem 0 .8rem}
+.scores{width:100%;border-collapse:collapse;font-size:.9375rem;margin:1rem 0 2rem}
+.scores caption{text-align:left;font:600 .8125rem var(--sans);color:var(--muted);padding-bottom:.5rem}
+.scores th{text-align:left;font:600 .8125rem var(--sans);color:var(--muted);border-bottom:1px solid var(--rule);padding:.45rem .8rem .45rem 0}
+.scores td{border-bottom:1px solid var(--line);padding:.75rem .8rem .75rem 0;vertical-align:top;color:var(--ink-2)}
+.scores td:first-child{color:var(--ink);font-weight:600;white-space:nowrap}
+.scores td.s{font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--ink)}
+.scores td.s.hi{color:var(--pos);font-weight:600}
+.aside h3{font:600 .8125rem var(--sans);color:var(--muted);border-top:2px solid var(--rule);padding-top:.5rem;margin-bottom:.6rem;letter-spacing:0}
+.aside ul{list-style:none;margin-bottom:2rem}
+.aside li{border-bottom:1px solid var(--line);padding:.55rem 0;font-size:.9375rem}
+.aside li a{text-decoration:none}.aside li a:hover{color:var(--accent)}
+.note{font-size:.875rem;color:var(--muted);background:var(--sunk);padding:.8rem 1rem;border-radius:4px}
+
+footer{border-top:2px solid var(--rule);padding:2rem 0 3rem;font-size:.875rem;color:var(--muted)}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:2rem}
+footer h4{font:600 .8125rem var(--sans);color:var(--ink);margin-bottom:.6rem}
+footer a{display:block;text-decoration:none;padding:.15rem 0}
+footer a:hover{color:var(--accent)}
+footer .wm{font:600 1.25rem var(--serif);color:var(--ink);margin-bottom:.5rem}
+
+@media(max-width:860px){
+  .hero,.latest,.review-head,.body{grid-template-columns:minmax(0,1fr);gap:2rem}
+  .subscribe{grid-template-columns:minmax(0,1fr);gap:1.25rem}
+  .mast-in{flex-direction:column;align-items:flex-start;gap:.6rem;padding-block:.9rem 0}
+  .mast-nav{gap:1.25rem;overflow-x:auto;max-width:100%;scrollbar-width:none;padding-bottom:.5rem;
+    mask-image:linear-gradient(90deg,#000 85%,transparent);-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent)}
+  .mast-nav::-webkit-scrollbar{display:none}
+  .mast-nav a{flex:0 0 auto}
+  .tindex td.desc,.tindex th.desc{display:none}
+  footer .cols{grid-template-columns:1fr 1fr}
+}
+@media(max-width:560px){
+  .wrap{padding-inline:1.125rem}
+  .topbar .tagline{display:none}
+  .wordmark{font-size:1.5rem}
+  .hero{padding:2rem 0 2rem;gap:1.75rem}
+  .hero h1{font-size:2.35rem}
+  .lede{font-size:1.125rem;margin:1rem 0 1.4rem}
+  .figures{display:grid;grid-template-columns:repeat(3,1fr);border-top-width:1px}
+  .figures h2{grid-column:1/-1}
+  .fig{flex-direction:column;align-items:flex-start;gap:.3rem;border-bottom:0;padding:.4rem 0 0}
+  .fig b{font-size:2rem}
+  .fig span{text-align:left;font-size:.8125rem;line-height:1.3}
+  .lead h3{font-size:1.65rem}
+  .lead p{font-size:1.0625rem}
+  .subscribe{padding:1.5rem 1.25rem;margin:2rem 0}
+  .subscribe h2{font-size:1.5rem}
+  .sub-form{flex-direction:column}
+  .review-head h1{font-size:2.1rem}
+  .scorebox .val{font-size:2.6rem}
+  .scores td:first-child{white-space:normal}
+  .prose p{font-size:1.0625rem}
+}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap">
+  <span><span class="date">Friday 23 October 2026</span><span class="tagline"> · Independent research on AI marketing tools</span></span>
+  <button class="theme-toggle" id="tt" type="button" aria-label="Switch color theme">
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="6"/><path d="M8 2a6 6 0 0 0 0 12z" fill="currentColor"/></svg>
+    <span id="ttl" class="tt-label">Dark</span>
+  </button>
+</div></div>
+<header class="masthead"><div class="wrap mast-in">
+  <a class="wordmark" href="#">MartechSignal<span class="mark" aria-hidden="true"><i></i><i></i><i></i></span></a>
+  <nav class="mast-nav"><a href="#">Tools</a><a href="#">Best</a><a href="#">Comparisons</a><a href="#">Alternatives</a><a href="#">Categories</a><a href="#">Glossary</a><a href="#">Blog</a><a class="sub" href="#">Subscribe</a></nav>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <p class="eyebrow">Weekly research on AI marketing automation</p>
+      <h1>AI marketing tools, researched. <em>Your stack isn’t ready.</em></h1>
+      <p class="lede">Every week we audit the AI marketing automation landscape: the agents, the workflows, the vendor lock-in. Then we tell you what actually works. No sponsored rankings. No press-release rewrites.</p>
+      <div class="actions"><a class="btn" href="#">Browse the tools</a><a class="textlink" href="#">See what’s trending</a></div>
+    </div>
+    <aside class="figures">
+      <h2>By the numbers</h2>
+      <div class="fig"><b>170</b><span>tools audited</span></div>
+      <div class="fig"><b>57</b><span>posts published</span></div>
+      <div class="fig"><b>12</b><span>checklist questions</span></div>
+    </aside>
+  </section>
+
+  <section class="section">
+    <div class="sec-head"><h2>Latest</h2><a href="#">All posts →</a></div>
+    <div class="latest">
+      <article class="lead"><a href="#">
+        <div class="meta"><span class="cat">Agents</span><span>23 Oct 2026</span></div>
+        <h3>Your agents keep failing the same way. Memory of what worked is the fix nobody ships</h3>
+        <p>Somewhere in your execution history, two failures have the same shape. The agent said it updated the CRM, and the tool log shows no call. Or it queried a source, got an empty result, and carried on as if it hadn’t.</p>
+      </a></article>
+      <div class="list">
+        <a href="#"><div class="meta"><span class="cat">Security</span><span>22 Oct</span></div><h3>Prompts are not a security boundary. Isolation is.</h3></a>
+        <a href="#"><div class="meta"><span class="cat">Pricing</span><span>20 Oct</span></div><h3>HubSpot’s credit rules are a budget design problem, not a pricing problem</h3></a>
+        <a href="#"><div class="meta"><span class="cat">Agents</span><span>19 Oct</span></div><h3>Someone found a live agent fleet in the wild. Most of its runs failed.</h3></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="sec-head"><h2>Tool index</h2><a href="#">All 170 tools →</a></div>
+    <table class="tindex">
+      <thead><tr><th>Tool</th><th class="desc">What it is</th><th>Category</th><th class="num">GitHub stars</th></tr></thead>
+      <tbody>
+        <tr><td class="name"><a href="#">n8n</a></td><td class="desc">Open-source workflow automation with AI agent nodes and 400+ integrations</td><td><span class="tag">Automation</span></td><td class="num">208,269</td></tr>
+        <tr><td class="name"><a href="#">LangChain</a></td><td class="desc">Framework for building LLM-powered agents and applications</td><td><span class="tag">Agents</span></td><td class="num">148,235</td></tr>
+        <tr><td class="name"><a href="#">Twenty</a></td><td class="desc">The open-source alternative to Salesforce, designed for AI-native CRM workflows</td><td><span class="tag">CRM</span></td><td class="num">59,278</td></tr>
+        <tr><td class="name"><a href="#">Ghost</a></td><td class="desc">Open-source publishing and newsletter platform</td><td><span class="tag">Email</span></td><td class="num">55,584</td></tr>
+        <tr><td class="name"><a href="#">Profound</a></td><td class="desc">Enterprise answer-engine visibility plus drafting agents</td><td><span class="tag">GEO / LLM visibility</span></td><td class="num">n/a</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="subscribe">
+    <div><h2>One email a week. Only what changed.</h2><p>Pricing moves, new agents worth testing, and the tools we’d drop. Read by marketing ops teams.</p></div>
+    <div><form class="sub-form" onsubmit="return false"><input type="email" placeholder="you@company.com" aria-label="Email"><button>Subscribe</button></form><p class="fine">Free. Unsubscribe in one click. No vendor sponsorships.</p></div>
+  </section>
+
+  <div class="divider">Below: the same system on a tool review page</div>
+
+  <nav class="crumbs"><a href="#">Home</a><span>/</span><a href="#">Tools</a><span>/</span><a href="#">Workflow automation</a><span>/</span>n8n</nav>
+  <header class="review-head">
+    <div>
+      <p class="eyebrow">Review · Workflow automation</p>
+      <h1>n8n review (2026): pricing, AI features, verdict</h1>
+      <p class="dek">Open-source workflow automation with AI agent capabilities and 400+ nodes. Self-host it free, or pay from €20/month.</p>
+      <p class="byline">By <a href="#">Tim Christensen</a> · Pricing verified 27 Sep 2026 · Desk review · No affiliate links</p>
+    </div>
+    <div class="scorebox">
+      <div class="lbl">MartechSignal score</div>
+      <div class="val">52<small>/60</small></div>
+      <div class="bar"><i style="width:86.6%"></i></div>
+      <dl class="facts"><dt>Price</dt><dd>from €20/mo</dd><dt>Licence</dt><dd>Fair-code</dd><dt>Self-host</dt><dd>Yes</dd></dl>
+    </div>
+  </header>
+  <div class="body">
+    <div class="prose">
+      <div class="verdict"><b>Verdict</b><p>The strongest overall score in this batch: owned automation with code-level control and a real AI agent surface. The cost is maintenance, a learning curve, and a fair-code licence that is not open source in the OSI sense.</p></div>
+      <table class="scores">
+        <caption>Pillar scores and evidence</caption>
+        <thead><tr><th>Pillar</th><th>Score</th><th>Evidence</th></tr></thead>
+        <tbody>
+          <tr><td>Pricing transparency</td><td class="s hi">10/10</td><td>Starter €20 (2,500 executions), Pro €50, Business €667, with per-plan limits published.</td></tr>
+          <tr><td>Feature depth</td><td class="s">8/10</td><td>400+ nodes, custom code steps, versioned workflows and AI agent nodes.</td></tr>
+          <tr><td>Integrations</td><td class="s hi">10/10</td><td>The widest integration surface in this batch, every integration on every plan.</td></tr>
+        </tbody>
+      </table>
+      <h2>What n8n is good at</h2>
+      <p>n8n sits between Zapier-style point-and-click automation and writing your own glue code. You build workflows visually, but any node can drop into JavaScript or Python, and the whole thing can run on your own server.</p>
+    </div>
+    <aside class="aside">
+      <h3>Compare</h3>
+      <ul><li><a href="#">n8n vs Make</a></li><li><a href="#">n8n vs Zapier</a></li><li><a href="#">Best n8n alternatives</a></li></ul>
+      <h3>How we review</h3>
+      <p class="note">Scores come from public vendor documentation, verified on the date shown. We take no affiliate fees or sponsorships.</p>
+    </aside>
+  </div>
+</main>
+
+<footer><div class="wrap cols">
+  <div><div class="wm">MartechSignal</div><p>Independent research on AI marketing automation. © 2026</p></div>
+  <div><h4>Research</h4><a href="#">Tools</a><a href="#">Best</a><a href="#">Comparisons</a><a href="#">Trending</a></div>
+  <div><h4>Read</h4><a href="#">Blog</a><a href="#">Guides</a><a href="#">Glossary</a><a href="#">RSS</a></div>
+  <div><h4>About</h4><a href="#">Methodology</a><a href="#">Corrections</a><a href="#">AI policy</a><a href="#">Contact</a></div>
+</div></footer>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('tt'),l=document.getElementById('ttl');
+function set(t){r.dataset.theme=t;l.textContent=t==='dark'?'Light':'Dark'}
+set(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+b.onclick=function(){set(r.dataset.theme==='dark'?'light':'dark')}})();
+</script>
+</body>
+</html>

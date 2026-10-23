@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Intercom
+Review · Chatbots & Conversational AI
+
 ## Intercom review (2026): pricing, AI features, verdict
 
 AI-first customer service platform with Fin AI agent and omnichannel messaging
 
-Chatbots & Conversational AI · From $29/seat/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-12 · From $29/seat/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Intercom →](https://www.intercom.com)
+42/60
+
+- **Price:** From $29/seat/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Intercom is a tool in Chatbots & Conversational AI with paid plans starting at $29/seat/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-12. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Intercom →](https://www.intercom.com)
 
 ## MartechSignal Score: 42/60
 
@@ -109,7 +112,7 @@ Intercom starts at $29/seat/mo. Essential $29/seat/mo; Advanced $85/seat/mo; Exp
 **Is Intercom worth paying for in 2026?**
 Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly changes the total cost at scale.
 
-## Similar Tools
+## Similar tools
 
 - [Tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support
 - [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
@@ -119,8 +122,8 @@ Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly c
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Support teams that want AI resolutions auditable at $0.99 each
@@ -140,8 +143,4 @@ Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Chatbots & Conversational AI Tools →](/categories/chatbots/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

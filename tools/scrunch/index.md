@@ -6,21 +6,24 @@
 - Scrunch
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Scrunch review (2026): pricing, AI features, verdict
 
 The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 
-GEO & LLM Optimization · From $250/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From $250/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Scrunch →](https://scrunch.com/)
+35/60
+
+- **Price:** From $250/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Scrunch is a tool in GEO & LLM Optimization with paid plans starting at $250/mo. The catalog documents 5 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Scrunch →](https://scrunch.com/)
 
 ## MartechSignal Score: 35/60
 
@@ -124,7 +127,7 @@ Sitecore acquired Scrunch in 2026. Before that the company raised $26M: a $4M ro
 **Which AI models does Scrunch track?**
 Core covers ChatGPT, Perplexity, Google AI Overviews and Copilot. Enterprise adds Claude, Gemini, Meta AI, Google AI Mode and Grok.
 
-## Similar Tools
+## Similar tools
 
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 - [Rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
@@ -132,9 +135,9 @@ Core covers ChatGPT, Perplexity, Google AI Overviews and Copilot. Enterprise add
 - [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 ## Related reading
 
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for brands that want measurement and AI-crawler readiness in one product.
@@ -152,8 +155,4 @@ Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,25 @@
 - Diffmode Growth Tactics
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
+Review · Agent Skills
+
 ## Diffmode Growth Tactics review (2026): pricing, AI features, verdict
 
 Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Diffmode Growth Tactics →](https://github.com/acogood/diffmode_free)
+35/60
+
+- **Price:** Open Source
+- **Licence:** Apache-2.0
+- **GitHub stars:** 165
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Diffmode Growth Tactics is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Diffmode Growth Tactics →](https://github.com/acogood/diffmode_free)
 
 ## MartechSignal Score: 35/60
 
@@ -105,7 +109,7 @@ Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-ho
 **Is Diffmode Growth Tactics a good self-hosted Agent Skills tool in 2026?**
 A clever use of coding agents for growth ideation with a real anti-generic mechanism built in. Worth a run for any bootstrapped product; expect to filter the 7 to 9 tactics down to one or two worth testing.
 
-## Similar Tools
+## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Growth Lab](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
@@ -114,8 +118,8 @@ A clever use of coding agents for growth ideation with a real anti-generic mecha
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -130,8 +134,4 @@ A clever use of coding agents for growth ideation with a real anti-generic mecha
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

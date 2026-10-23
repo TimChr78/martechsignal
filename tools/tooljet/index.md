@@ -4,21 +4,25 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - ToolJet
+Review · Workflow Automation
+
 ## ToolJet review (2026): pricing, AI features, verdict
 
 Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 
-Workflow Automation · Open-core from $23/builder/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-06 · Open-core from $23/builder/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit ToolJet →](https://tooljet.com)
+42/60
+
+- **Price:** Open-core from $23/builder/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 41,115
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** ToolJet is a tool in Workflow Automation with free and open source. The catalog documents 3 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit ToolJet →](https://tooljet.com)
 
 ## MartechSignal Score: 42/60
 
@@ -145,7 +149,7 @@ Retool is the commercial incumbent: hosted, closed source, priced per user at a 
 **Can Claude Code or Cursor build ToolJet apps?**
 Yes, through the ToolJet MCP server, which the README marks as beta. You create a ToolJet personal access token and run Node 20 or newer, then in Claude Code install the packaged plugin with /plugin marketplace add ToolJet/tooljet-mcp followed by /plugin install tooljet-app-builder@tooljet. Codex has equivalent commands, and Cursor or Cline connect by registering the stdio server from the ToolJet/tooljet-mcp repository. Once connected, the agent can generate and modify apps, inspect datasources, create and seed ToolJet DB tables, write queries and manage permissions, drawing on its own model subscription rather than your ToolJet AI credits.
 
-## Similar Tools
+## Similar tools
 
 - [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
 - [Appsmith](/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
@@ -153,9 +157,9 @@ Yes, through the ToolJet MCP server, which the README marks as beta. You create 
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 ## Related reading
 
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ### Quick Facts
 
 - **Pricing:** Open-core from $23/builder/mo
@@ -169,8 +173,4 @@ Yes, through the ToolJet MCP server, which the README marks as beta. You create 
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

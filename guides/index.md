@@ -19,6 +19,3 @@ Read a guide, then follow it into the catalog. Every guide links the tools, comp
 - [Workflow automation strategy](/guides/workflow-automation-strategy/) - where AI tools fit, what no-code costs long-term, and how to audit what you own
 - [AI SEO tooling](/guides/ai-seo-tooling/) - benchmarks and head-to-heads where the tools were actually run
 - [Agentic advertising](/guides/agentic-ai-advertising/) - autonomous spend in the platforms and the guardrails that exist today
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

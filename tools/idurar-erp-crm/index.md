@@ -6,21 +6,25 @@
 - IDURAR ERP & CRM
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## IDURAR ERP & CRM review (2026): pricing, AI features, verdict
 
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
-CRM · Open Source from $5,000 one-time Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $5,000 one-time Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit IDURAR ERP & CRM →](https://cloud.idurarapp.com)
+31/60
+
+- **Price:** Open Source from $5,000 one-time
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 8,905
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** IDURAR ERP & CRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit IDURAR ERP & CRM →](https://cloud.idurarapp.com)
 
 ## MartechSignal Score: 31/60
 
@@ -128,7 +132,7 @@ Self-hosting the Community Edition is free. The vendor site publishes two one-ti
 **Can IDURAR replace SuiteCRM or Dolibarr for a sales team?**
 No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines, cases, campaigns and role-based teams; IDURAR's repository has three application models (clients, invoices, payments) and a single owner role. It competes as a developer base for custom billing and customer invoicing tools, where its small MERN codebase and generated REST routes are the advantage. If the requirement is a CRM your team configures in the admin UI, the config-first open-source CRMs are the better fit.
 
-## Similar Tools
+## Similar tools
 
 - [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM
 - [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
@@ -137,8 +141,8 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
+- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $5,000 one-time
@@ -152,8 +156,4 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

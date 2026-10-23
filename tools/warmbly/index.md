@@ -6,21 +6,25 @@
 - Warmbly
 Re-check pending: pricing last verified 2026-09-24 (29 days ago).
 
+Review · Email Marketing
+
 ## Warmbly review (2026): pricing, AI features, verdict
 
 Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 
-Email Marketing · Open Source from $29/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-24 · Open Source from $29/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Warmbly →](https://warmbly.com)
+38/60
+
+- **Price:** Open Source from $29/mo
+- **Licence:** Apache-2.0
+- **GitHub stars:** 468
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Warmbly is a tool in Email Marketing with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-24. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Warmbly →](https://warmbly.com)
 
 ## MartechSignal Score: 38/60
 
@@ -116,7 +120,7 @@ Warmbly has a free tier; paid plans start at $29/mo. Free to self-host under Apa
 **Is Warmbly a good self-hosted Email Marketing tool in 2026?**
 The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you.
 
-## Similar Tools
+## Similar tools
 
 - [MailCheap](/tools/mailcheap/): Newsletter platform billed per email sent, with full MCP control for AI agents
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
@@ -126,8 +130,8 @@ The most complete open-source cold email stack we have listed, but young (launch
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier.
@@ -148,8 +152,4 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

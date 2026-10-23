@@ -6,21 +6,24 @@
 - Mixpanel
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Analytics & Attribution
+
 ## Mixpanel review (2026): pricing, AI features, verdict
 
 Product analytics platform with AI-powered insights for user behavior tracking
 
-Analytics & Attribution · Freemium Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Mixpanel →](https://mixpanel.com)
+39/60
+
+- **Price:** Freemium
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Mixpanel is a tool in Analytics & Attribution with a free tier. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Mixpanel →](https://mixpanel.com)
 
 ## MartechSignal Score: 39/60
 
@@ -143,7 +146,7 @@ Growth is usage-based and starts at $0. The pricing calculator shows $120 per mo
 **Does Mixpanel offer self-hosting or EU hosting?**
 There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add custom data and replay retention policies and first-party tracking domains, and the integrations directory notes partner support for Mixpanel's EU servers, which matters for European data handling.
 
-## Similar Tools
+## Similar tools
 
 - [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
 - [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
@@ -152,9 +155,9 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 - [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
 ## Related reading
 
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform, with a free starting tier.
@@ -174,8 +177,4 @@ Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

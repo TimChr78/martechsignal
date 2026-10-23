@@ -4,21 +4,23 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - MailCheap
+Review · Email Marketing
+
 ## MailCheap review (2026): pricing, AI features, verdict
 
 Newsletter platform billed per email sent, with full MCP control for AI agents
 
-Email Marketing · From $19/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-19 · From $19/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit MailCheap →](https://mailcheap.ai)
+- **Price:** From $19/mo
+- **Licence:** Open source
+- **GitHub stars:** 1,295
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** MailCheap is a tool in Email Marketing with paid plans starting at $19/mo. The catalog documents 6 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-19. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit MailCheap →](https://mailcheap.ai)
 
 ## Catalog facts: MailCheap
 
@@ -97,7 +99,7 @@ MailCheap is open source - Free to self-host; the public repository carries 1,29
 **Is MailCheap worth paying for in 2026?**
 Strengths include 1,295 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. MailCheap documents 12 integrations
 
-## Similar Tools
+## Similar tools
 
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
@@ -107,8 +109,8 @@ Strengths include 1,295 GitHub stars, open-source licensing with free self-hosti
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ### Quick Facts
 
 - **Pricing:** From $19/mo
@@ -124,8 +126,4 @@ Strengths include 1,295 GitHub stars, open-source licensing with free self-hosti
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

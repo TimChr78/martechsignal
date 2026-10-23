@@ -6,21 +6,25 @@
 - OpenOutreach
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Email Marketing
+
 ## OpenOutreach review (2026): pricing, AI features, verdict
 
 Open-source AI lead finder: describe your product and it finds and qualifies the leads
 
-Email Marketing · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit OpenOutreach →](https://openoutreach.app)
+39/60
+
+- **Price:** Open Source
+- **Licence:** GPL-3.0
+- **GitHub stars:** 3,369
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** OpenOutreach is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 9 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit OpenOutreach →](https://openoutreach.app)
 
 ## MartechSignal Score: 39/60
 
@@ -142,7 +146,7 @@ With a Gaussian Process over 384 dimensional FastEmbed profile embeddings. When 
 **What does an OpenOutreach export look like?**
 One CSV written to stdout with email, first_name, last_name, company, title, website, linkedin_url, reason, lead_id, and qualified_at. There is no score column by design: the written reason carries the qualification instead. The shape matches Instantly and Smartlead importers without column mapping, so the handoff is a file redirect rather than a transformation. In Docker you get a container that runs one job and exits with no open ports, which suits a scheduled pipeline rather than a dashboard.
 
-## Similar Tools
+## Similar tools
 
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
@@ -152,8 +156,8 @@ One CSV written to stdout with email, first_name, last_name, company, title, web
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier.
@@ -173,8 +177,4 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/) · [
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

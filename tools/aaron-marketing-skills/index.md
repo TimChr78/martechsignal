@@ -6,21 +6,25 @@
 - Aaron Marketing Skills
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Agent Skills
+
 ## Aaron Marketing Skills review (2026): pricing, AI features, verdict
 
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Aaron Marketing Skills →](https://github.com/aaron-he-zhu/aaron-marketing-skills)
+40/60
+
+- **Price:** Open Source
+- **Licence:** Apache-2.0
+- **GitHub stars:** 2,998
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Aaron Marketing Skills is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Aaron Marketing Skills →](https://github.com/aaron-he-zhu/aaron-marketing-skills)
 
 ## MartechSignal Score: 40/60
 
@@ -106,7 +110,7 @@ Aaron Marketing Skills is open source - Apache-2.0 licensed and free to self-hos
 **Is Aaron Marketing Skills a good self-hosted Agent Skills tool in 2026?**
 Useful starter kit for marketers adopting Claude Code. Customize before you trust the defaults.
 
-## Similar Tools
+## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
@@ -116,8 +120,8 @@ Useful starter kit for marketers adopting Claude Code. Customize before you trus
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -132,8 +136,4 @@ Useful starter kit for marketers adopting Claude Code. Customize before you trus
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

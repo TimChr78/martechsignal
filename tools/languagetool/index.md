@@ -6,21 +6,25 @@
 - LanguageTool
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · AI Content & Copywriting
+
 ## LanguageTool review (2026): pricing, AI features, verdict
 
 Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
 
-AI Content & Copywriting · Freemium · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Freemium · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit LanguageTool →](https://languagetool.org)
+37/60
+
+- **Price:** Freemium
+- **Licence:** LGPL-2.1
+- **GitHub stars:** 15,177
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** LanguageTool is a tool in AI Content & Copywriting with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit LanguageTool →](https://languagetool.org)
 
 ## MartechSignal Score: 37/60
 
@@ -129,7 +133,7 @@ More than 30, including English, German, French, Spanish, Portuguese, Dutch, Pol
 **Can LanguageTool replace a human editor?**
 No. It catches grammar, punctuation, and spelling problems and offers style and tone suggestions, but it does not judge argument, structure, or brand fit. Treat it as a fast second pass before a human review.
 
-## Similar Tools
+## Similar tools
 
 - [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
 - [Warpdrive](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
@@ -139,8 +143,8 @@ No. It catches grammar, punctuation, and spelling problems and offers style and 
 ## Related reading
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ### Quick Facts
 
 - **Pricing:** Freemium
@@ -155,8 +159,4 @@ No. It catches grammar, punctuation, and spelling problems and offers style and 
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

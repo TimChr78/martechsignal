@@ -6,23 +6,27 @@
 - Claude SEO
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Agent Skills
+
 ## Claude SEO review (2026): pricing, AI features, verdict
 
 Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 
-Agent Skills · Open Source Hands-on
-
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · Open Source Hands-on
 
 Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. We run it on our own sites and depend on it in our audit pipeline, which is why it carries no Review markup. See the [corrections log](/corrections/).
 
-[Visit Claude SEO →](https://claude-seo.md/)
+Benchmark log
+
+43/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 19,613
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Claude SEO is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
-
-[Visit Claude SEO →](https://claude-seo.md/)
 
 ## Benchmark log: 43/60
 
@@ -179,7 +183,7 @@ Within one version, yes: our score moved 61 to 66 to 72 to 74.6 as we fixed flag
 **Does Claude SEO work as SEO analysis software?**
 It runs as analysis software inside your terminal rather than a dashboard. Each audit crawls every URL, grades seven categories, and writes a full report with prioritized fixes. We published three complete reports from real runs on this site's own domain.
 
-## Similar Tools
+## Similar tools
 
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 - [AI Marketing Suite](/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports
@@ -188,8 +192,8 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for Claude Code users who want SEO audits run by agents instead of dashboards.
@@ -222,8 +226,4 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/) · [Agent Skills Tools](/bes
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

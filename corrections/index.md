@@ -140,8 +140,6 @@ Three Claude SEO comparison posts were published without approval by a pipeline 
 
 Our Claude SEO review carried review-structured data for our own product. We removed the markup; the editorial text remains, clearly labelled.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 2026-10-06
 
 2026-10-06
@@ -201,5 +199,3 @@ Our Claude SEO review carried review-structured data for our own product. We rem
 2026-09-13
 
 2026-09-16
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)

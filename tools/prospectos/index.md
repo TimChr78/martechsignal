@@ -6,21 +6,25 @@
 - ProspectOS
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
+Review · CRM
+
 ## ProspectOS review (2026): pricing, AI features, verdict
 
 Open-source lead prospecting CRM with Google Maps and Instagram scraping
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit ProspectOS →](https://github.com/nando0x/ProspectOS)
+29/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 235
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** ProspectOS is a tool in CRM with free and open source. The catalog documents 2 AI features, 2 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit ProspectOS →](https://github.com/nando0x/ProspectOS)
 
 ## MartechSignal Score: 29/60
 
@@ -104,7 +108,7 @@ ProspectOS is open source - MIT licensed and free to self-host; the public repos
 **Is ProspectOS a good self-hosted CRM tool in 2026?**
 A working, well-tested local prospecting tool with unusually honest documentation about its scraping risks. Suitable for individual freelancers who accept the terms-of-service exposure; not a team tool, and not compliant-by-design with Google or Instagram ToS.
 
-## Similar Tools
+## Similar tools
 
 - [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
 - [Line Harness](/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
@@ -113,8 +117,8 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 ## Related reading
 
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
 - [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -130,8 +134,4 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

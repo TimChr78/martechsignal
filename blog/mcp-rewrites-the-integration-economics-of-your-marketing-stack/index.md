@@ -1,6 +1,6 @@
 # MCP Rewrites the Integration Economics of Your Stack
 
-MCP · MODEL-CONTEXT-PROTOCOL · 7 MIN
+mcp · model-context-protocol · 7 min read
 
 ## MCP Rewrites the Integration Economics of Your Marketing Stack
 
@@ -8,7 +8,7 @@ MCP · MODEL-CONTEXT-PROTOCOL · 7 MIN
 
 [Home](/) · [Blog](/blog/) · MCP Rewrites the Integration Economics of Your Marketing Stack
 
-JUL 29, 2026
+29 Jul 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 
@@ -106,27 +106,25 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 
 ## Related reading
 
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Related tools
 
 - [Pipedream](/tools/pipedream/) - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [Tealium](/tools/tealium/) - Enterprise customer data platform with real-time data orchestration and AI
-- [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
+- [Amplitude](/tools/amplitude/) - AI-powered digital analytics platform for product and marketing teams
 ## Comparison guides
 
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [CDP](/glossary/cdp/)
-- [MCP](/glossary/mcp/)
+- [Customer journey](/glossary/customer-journey/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 ✓ MCP-Native Wins: Cost + Flexibility
 

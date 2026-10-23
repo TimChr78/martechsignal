@@ -6,21 +6,25 @@
 - Zapier GTM Cheat Codes
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
+Review · Agent Skills
+
 ## Zapier GTM Cheat Codes review (2026): pricing, AI features, verdict
 
 Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Zapier GTM Cheat Codes →](https://github.com/zapier/gtm-cheat-codes)
+38/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 348
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Zapier GTM Cheat Codes is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Zapier GTM Cheat Codes →](https://github.com/zapier/gtm-cheat-codes)
 
 ## MartechSignal Score: 38/60
 
@@ -110,7 +114,7 @@ Zapier GTM Cheat Codes is open source - MIT licensed and free to self-host; the 
 **Is Zapier GTM Cheat Codes a good self-hosted Agent Skills tool in 2026?**
 A credible, governance-aware starter kit for GTM teams already living in Zapier-connected stacks and coding agents. Adopt the patterns even if you skip the skills; treat the workflows as templates to adapt, not drop-in automation.
 
-## Similar Tools
+## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
@@ -121,7 +125,7 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for GTM practitioners who want a cheat-code skill for Zapier and Google Tag Manager recipes, free to install.
@@ -141,8 +145,4 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

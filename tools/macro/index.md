@@ -4,21 +4,25 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Macro
+Review · CRM
+
 ## Macro review (2026): pricing, AI features, verdict
 
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
 
-CRM · Freemium from $40/seat/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-06 · Freemium from $40/seat/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Macro →](https://macro.com)
+36/60
+
+- **Price:** Freemium from $40/seat/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 4,815
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Macro is a tool in CRM with free and open source. The catalog documents 8 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Macro →](https://macro.com)
 
 ## MartechSignal Score: 36/60
 
@@ -139,7 +143,7 @@ Attio is a dedicated CRM: deal objects, pipeline views, enrichment, and integrat
 **Can you self-host Macro?**
 Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host at macro.com.
 
-## Similar Tools
+## Similar tools
 
 - [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
 - [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
@@ -150,7 +154,7 @@ Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focu
 
 - [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
 - [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $40/seat/mo
@@ -166,8 +170,4 @@ Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focu
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

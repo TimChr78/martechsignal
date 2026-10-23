@@ -6,23 +6,25 @@
 - AI Marketing Suite
 Re-check pending: pricing last verified 2026-09-28 (25 days ago).
 
-KIND: Agent Skill (not an end-to-end platform)
+Kind: Agent Skill (not an end-to-end platform)
+
+Review · Agent Skills
 
 ## AI Marketing Suite review (2026): pricing, AI features, verdict
 
 15-skill marketing suite for Claude Code with parallel agents and PDF reports
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit AI Marketing Suite →](https://github.com/zubair-trabzada/ai-marketing-claude)
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 2,781
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** AI Marketing Suite is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integration and a self-hosting path. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit AI Marketing Suite →](https://github.com/zubair-trabzada/ai-marketing-claude)
 
 ## Catalog facts: AI Marketing Suite
 
@@ -133,7 +135,7 @@ AI Marketing Suite is open source - MIT licensed and free to self-host; the publ
 **Is AI Marketing Suite a good self-hosted Agent Skills tool in 2026?**
 Best as a proposal-generation engine for agencies selling audits. For steady content work, the writing skills are the lasting value.
 
-## Similar Tools
+## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Claude SEO](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
@@ -143,8 +145,8 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -159,8 +161,4 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

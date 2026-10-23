@@ -6,21 +6,25 @@
 - Relaticle
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## Relaticle review (2026): pricing, AI features, verdict
 
 Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
 
-CRM · Open Source from $19/workspace/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $19/workspace/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Relaticle →](https://relaticle.com)
+36/60
+
+- **Price:** Open Source from $19/workspace/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 1,776
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Relaticle is a tool in CRM with free and open source. The catalog documents 3 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Relaticle →](https://relaticle.com)
 
 ## MartechSignal Score: 36/60
 
@@ -138,7 +142,7 @@ The hosted MCP endpoint at mcp.relaticle.com exposes 37 tools: cross-entity sear
 **Is Relaticle free, and what does Cloud Pro add?**
 Self-hosting is free under AGPL-3.0 with unlimited users and records on your own server. The paid tiers are hosted: Cloud Pro is $19 per workspace per month ($228 billed yearly, or $24 month to month) with a 14-day trial and no card required, adding 2,000 AI credits a month on top of unlimited users, records, the REST API, and the MCP server. Enterprise starts at $20,000 a year, billed yearly, and the site stresses it is never per seat. Self-hosted instances default to the Free plan's 300 AI credits a month unless you bring your own key for more.
 
-## Similar Tools
+## Similar tools
 
 - [MailCheap](/tools/mailcheap/): Newsletter platform billed per email sent, with full MCP control for AI agents
 - [Django CRM](/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
@@ -146,9 +150,9 @@ Self-hosting is free under AGPL-3.0 with unlimited users and records on your own
 - [Paperclip](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 ## Related reading
 
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $19/workspace/mo
@@ -163,8 +167,4 @@ Self-hosting is free under AGPL-3.0 with unlimited users and records on your own
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

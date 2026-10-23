@@ -4,21 +4,23 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - SendPortal
+Review · Email Marketing
+
 ## SendPortal review (2026): pricing, AI features, verdict
 
 Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server
 
-Email Marketing · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-15 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit SendPortal →](https://sendportal.io)
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 2,179
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** SendPortal is a tool in Email Marketing with free and open source. The catalog documents 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-15. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit SendPortal →](https://sendportal.io)
 
 ## Catalog facts: SendPortal
 
@@ -132,7 +134,7 @@ Listmonk is the popular default: a single Go binary with PostgreSQL, AGPL licens
 **Is SendPortal still actively developed?**
 The most recent release in our catalog is v4.0.0 (2026-10-12). For the full history, check the vendor changelog linked from the official site.
 
-## Similar Tools
+## Similar tools
 
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 - [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
@@ -142,8 +144,8 @@ The most recent release in our catalog is v4.0.0 (2026-10-12). For the full hist
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -159,8 +161,4 @@ The most recent release in our catalog is v4.0.0 (2026-10-12). For the full hist
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

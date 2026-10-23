@@ -2,9 +2,9 @@
 
 ## First-Party Data
 
-GLOSSARY
+Glossary
 
-Definition last Updated 2026-10-05
+Definition last updated 2026-10-05
 
 ## Definition
 
@@ -66,8 +66,4 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [Twilio Segment](https:/
 - [Attribution models](/glossary/marketing-attribution-models/)
 - [CDP](/glossary/cdp/)
 - [DMP](/glossary/dmp/)
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

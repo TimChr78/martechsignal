@@ -1,6 +1,6 @@
 # Agentforce Is Free: What Marketing Ops Can Build
 
-SALESFORCE · AI AGENTS · 9 MIN
+Salesforce · AI Agents · 9 min read
 
 ## Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.
 
@@ -8,7 +8,7 @@ SALESFORCE · AI AGENTS · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.
 
-AUG 07, 2026
+07 Aug 2026
 
 Filed under [CRM](/categories/crm/)
 
@@ -120,7 +120,7 @@ Browse the [MartechSignal tools directory](/tools/) for what's competing with Ag
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
+- [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -128,5 +128,3 @@ Browse the [MartechSignal tools directory](/tools/) for what's competing with Ag
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

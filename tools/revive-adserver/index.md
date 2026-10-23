@@ -6,21 +6,25 @@
 - Revive Adserver
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Advertising & Paid Media
+
 ## Revive Adserver review (2026): pricing, AI features, verdict
 
 Free open source ad server for publishers, ad networks and advertisers
 
-Advertising & Paid Media · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Revive Adserver →](https://www.revive-adserver.com)
+27/60
+
+- **Price:** Open Source
+- **Licence:** GPL-2.0
+- **GitHub stars:** 1,510
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Revive Adserver is a tool in Advertising & Paid Media with free and open source. The catalog documents 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Revive Adserver →](https://www.revive-adserver.com)
 
 ## MartechSignal Score: 27/60
 
@@ -117,7 +121,7 @@ A PHP and MySQL stack. Installation, upgrade and configuration steps sit in the 
 **Does it support geotargeting?**
 Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 data; the project README lists GeoLite2 as a dependency.
 
-## Similar Tools
+## Similar tools
 
 - [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
@@ -127,8 +131,8 @@ Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 dat
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -142,8 +146,4 @@ Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 dat
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Advertising & Paid Media Tools →](/categories/advertising/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,24 @@
 - Amplitude
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Analytics & Attribution
+
 ## Amplitude review (2026): pricing, AI features, verdict
 
 AI-powered digital analytics platform for product and marketing teams
 
-Analytics & Attribution · Freemium Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Amplitude →](https://amplitude.com)
+40/60
+
+- **Price:** Freemium
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Amplitude is a tool in Analytics & Attribution with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Amplitude →](https://amplitude.com)
 
 ## MartechSignal Score: 40/60
 
@@ -143,7 +146,7 @@ They answer different questions. GA4 is built around acquisition, meaning which 
 **Does Amplitude have AI features?**
 Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashboard Agent, Session Replay Agent, and Customer Feedback Agent, plus custom agents, predictive audiences, and automated anomaly detection. An MCP server connects Claude, Cursor, and other MCP clients, and Amplitude states it works on every plan including Free. Wave, described as a proactive product agent, is listed as reaching customers in the second half of 2026. Scope moves often; Amplitude's AI docs carry the current list.
 
-## Similar Tools
+## Similar tools
 
 - [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
 - [Mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
@@ -151,8 +154,8 @@ Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashb
 - [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
 ## Related reading
 
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
@@ -173,8 +176,4 @@ Related guides: [Amplitude in Matomo alternatives](/alternatives/matomo/) · [Ma
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,22 @@
 - Brevo
 Re-check pending: pricing last verified 2026-10-01 (22 days ago).
 
+Review · Email Marketing
+
 ## Brevo review (2026): pricing, AI features, verdict
 
 Multichannel marketing platform billing by email volume, not contacts
 
-Email Marketing · Freemium from $9/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01 · Freemium from $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit Brevo →](https://www.brevo.com/)
+- **Price:** Freemium from $9/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Brevo is a tool in Email Marketing with a free tier. The catalog documents 2 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-01. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Brevo →](https://www.brevo.com/)
 
 ## Catalog facts: Brevo
 
@@ -1042,7 +1043,7 @@ Brevo suits teams with a large but rarely-sent list that still want SMS, WhatsAp
 **Does Brevo have an API?**
 Yes. The catalog records a public API for Brevo, so custom integrations are possible. The Key Integrations section shows what ships natively.
 
-## Similar Tools
+## Similar tools
 
 - [Klaviyo](/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
@@ -1051,9 +1052,9 @@ Yes. The catalog records a public API for Brevo, so custom integrations are poss
 - [Notifo](/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push
 ## Related reading
 
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
 ## Also featured in
 
 - [Mailchimp vs Brevo (2026): pricing, multichannel, verdict](/vs/mailchimp-vs-brevo/) — Pick Brevo if your list is large but rarely sent, or you need one multichannel account on a tight budget, starting free at 300 emails/day with paid from $9/mo.
@@ -1070,8 +1071,4 @@ Yes. The catalog records a public API for Brevo, so custom integrations are poss
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

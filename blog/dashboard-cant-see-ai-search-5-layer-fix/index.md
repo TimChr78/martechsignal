@@ -1,6 +1,6 @@
 # Your Dashboard Can't See AI Search: 5-Layer Fix
 
-SEO · AI SEARCH · 11 MIN
+SEO · AI Search · 11 min read
 
 ## Your Dashboard Can't See AI Search, Here's the 5-Layer Fix
 
@@ -8,7 +8,7 @@ SEO · AI SEARCH · 11 MIN
 
 [Home](/) · [Blog](/blog/) · Your Dashboard Can't See AI Search, Here's the 5-Layer Fix
 
-AUG 22, 2026
+22 Aug 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -93,7 +93,7 @@ This post is part of the [generative engine optimization hub](/guides/generative
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 ## Related tools
 
 - [Ahrefs](/tools/ahrefs/) - Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
@@ -101,18 +101,16 @@ This post is part of the [generative engine optimization hub](/guides/generative
 - [Rankscale](/tools/rankscale/) - AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 ## Comparison guides
 
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
-- [AI Visibility](/glossary/ai-search-visibility/)
+- [GEO](/glossary/geo/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [OpenOutreach](/tools/openoutreach/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 JSON

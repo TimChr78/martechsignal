@@ -6,21 +6,24 @@
 - Ahrefs
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Ahrefs review (2026): pricing, AI features, verdict
 
 Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 
-GEO & LLM Optimization · From $129/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From $129/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Ahrefs →](https://ahrefs.com)
+42/60
+
+- **Price:** From $129/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Ahrefs is a tool in GEO & LLM Optimization with paid plans starting at $129/mo. The catalog documents 1 AI feature, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Ahrefs →](https://ahrefs.com)
 
 ## MartechSignal Score: 42/60
 
@@ -122,7 +125,7 @@ Brand Radar runs 450M+ search-backed prompts through AI platforms and stores the
 **Which AI platforms are covered?**
 The Index covers AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot. Custom Prompts adds Claude. YouTube, TikTok and Reddit visibility are included free while in beta.
 
-## Similar Tools
+## Similar tools
 
 - [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 - [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
@@ -131,8 +134,8 @@ The Index covers AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot.
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
-- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best if you already pay for Ahrefs and want the AI question answered from your existing stack.
@@ -150,8 +153,4 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

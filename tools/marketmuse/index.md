@@ -6,21 +6,24 @@
 - MarketMuse
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · SEO & Search
+
 ## MarketMuse review (2026): pricing, AI features, verdict
 
 AI-powered content strategy and optimization platform for SEO content teams
 
-SEO & Search · Paid Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Paid Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit MarketMuse →](https://www.marketmuse.com)
+28/60
+
+- **Price:** Paid
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** MarketMuse is a tool in SEO & Search with custom pricing. The catalog documents 4 AI features and 4 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit MarketMuse →](https://www.marketmuse.com)
 
 ## MartechSignal Score: 28/60
 
@@ -139,7 +142,7 @@ We found no API documentation anywhere on docs.marketmuse.com, and the site has 
 **What is a MarketMuse query and how many do I need?**
 A query is spent when you enter a focus topic into one of the applications (Research, Compete, or Optimize). The Free plan includes 10 queries a month, Optimize 100, and Research and Strategy are unlimited, so a solo user testing workflows will exhaust the free ceiling in one planning session. Tracked topics and content briefs are counted separately, and both extra seats and extra topics can be purchased as add-ons under Settings, Subscription.
 
-## Similar Tools
+## Similar tools
 
 - [Surfer SEO](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
 - [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
@@ -149,8 +152,8 @@ A query is spent when you enter a focus topic into one of the applications (Rese
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ### Quick Facts
 
 - **Pricing:** Paid
@@ -164,8 +167,4 @@ A query is spent when you enter a focus topic into one of the applications (Rese
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

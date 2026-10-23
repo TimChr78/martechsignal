@@ -6,21 +6,24 @@
 - Salesforce CRM
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · CRM
+
 ## Salesforce CRM review (2026): pricing, AI features, verdict
 
 Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 
-CRM · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Salesforce CRM →](https://www.salesforce.com/crm/)
+42/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Salesforce CRM is a tool in CRM with paid plans starting at $25/user/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Salesforce CRM →](https://www.salesforce.com/crm/)
 
 ## MartechSignal Score: 42/60
 
@@ -113,7 +116,7 @@ Salesforce CRM starts at $25/user/mo. Starter $25/user/mo; Professional $80/user
 **Is Salesforce CRM a good CRM tool in 2026?**
 Unmatched depth for complex sales organizations; count the total cost before committing mid-market budgets.
 
-## Similar Tools
+## Similar tools
 
 - [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
@@ -122,8 +125,8 @@ Unmatched depth for complex sales organizations; count the total cost before com
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for enterprises that need the CRM everything else integrates with.
@@ -143,8 +146,4 @@ Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,24 @@
 - ManyChat
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Chatbots & Conversational AI
+
 ## ManyChat review (2026): pricing, AI features, verdict
 
 AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 
-Chatbots & Conversational AI · Freemium from $14/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Freemium from $14/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit ManyChat →](https://manychat.com)
+35/60
+
+- **Price:** Freemium from $14/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** ManyChat is a tool in Chatbots & Conversational AI with a free tier. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit ManyChat →](https://manychat.com)
 
 ## MartechSignal Score: 35/60
 
@@ -110,7 +113,7 @@ ManyChat has a free tier; paid plans start at $14/mo. Free plan; Essential $14/m
 **Is ManyChat worth it past the free tier?**
 The default choice for Instagram and Messenger funnels; value depends entirely on living in DMs.
 
-## Similar Tools
+## Similar tools
 
 - [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
 - [Tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support
@@ -119,8 +122,8 @@ The default choice for Instagram and Messenger funnels; value depends entirely o
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Creators monetizing DMs across Instagram and WhatsApp
@@ -139,8 +142,4 @@ Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Chatbots & Conversational AI Tools →](/categories/chatbots/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

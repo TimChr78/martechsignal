@@ -1,6 +1,6 @@
 # AI theater: the wrong KPI your team rewards
 
-AI AGENTS · MARKETING AUTOMATION · 9 MIN
+AI Agents · Marketing Automation · 9 min read
 
 ## Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters
 
@@ -8,7 +8,7 @@ AI AGENTS · MARKETING AUTOMATION · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters
 
-SEP 30, 2026
+30 Sep 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Workflow Automation](/categories/workflow-automation/)
 
@@ -94,8 +94,8 @@ Tools linked in this post: [HubSpot CRM](/tools/hubspot-crm/) · [n8n](/tools/n8
 
 ## Related reading
 
-- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
 - [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ## Related tools
 
@@ -115,7 +115,5 @@ Tools linked in this post: [HubSpot CRM](/tools/hubspot-crm/) · [n8n](/tools/n8
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [ChatbotX](/tools/chatbotx/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 ✓ The metric that survives contact with production

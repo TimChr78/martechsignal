@@ -6,21 +6,24 @@
 - Predis.ai
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Social Media
+
 ## Predis.ai review (2026): pricing, AI features, verdict
 
 AI-powered social media content generator for posts, videos, and ad creatives
 
-Social Media · Freemium from $19/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Freemium from $19/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Predis.ai →](https://predis.ai)
+30/60
+
+- **Price:** Freemium from $19/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Predis.ai is a tool in Social Media with a free tier. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Predis.ai →](https://predis.ai)
 
 ## MartechSignal Score: 30/60
 
@@ -109,7 +112,7 @@ Predis.ai has a free tier; paid plans start at $19/mo. Free plan available; Core
 **Is Predis.ai worth it past the free tier?**
 Efficient social content factory for small brands; B2B nuance still needs a human editor.
 
-## Similar Tools
+## Similar tools
 
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
 - [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
@@ -118,8 +121,8 @@ Efficient social content factory for small brands; B2B nuance still needs a huma
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Solo marketers that want daily post volume on a small budget
@@ -138,8 +141,4 @@ Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Social Media Tools →](/categories/social-media/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

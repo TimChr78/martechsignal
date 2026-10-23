@@ -6,21 +6,22 @@
 - Zoho CRM
 Re-check pending: pricing last verified 2026-09-28 (25 days ago).
 
+Review · CRM
+
 ## Zoho CRM review (2026): pricing, AI features, verdict
 
 Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
 
-CRM · Freemium from €14/user/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28 · Freemium from €14/user/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit Zoho CRM →](https://www.zoho.com/crm/)
+- **Price:** Freemium from €14/user/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Zoho CRM is a tool in CRM with a free tier. The catalog documents 3 AI features and 6 integrations. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Zoho CRM →](https://www.zoho.com/crm/)
 
 ## Catalog facts: Zoho CRM
 
@@ -95,7 +96,7 @@ Zoho CRM has a free tier; paid plans start at €14/user/mo. Free for 3 users; S
 **Is Zoho CRM worth it past the free tier?**
 Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline automation, lead scoring basics, and email included. EU buyers who prefer euro-denominated per-seat pricing scale from Standard at EUR 14 to Professional at EUR 23 (automation and AI) and Enterprise at EUR 40.
 
-## Similar Tools
+## Similar tools
 
 - [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
 - [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
@@ -105,8 +106,8 @@ Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best value for small teams that want a full suite without an enterprise bill.
@@ -127,8 +128,4 @@ Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

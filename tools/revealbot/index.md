@@ -6,21 +6,24 @@
 - Revealbot (Birch)
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Advertising & Paid Media
+
 ## Revealbot (Birch) review (2026): pricing, AI features, verdict
 
 AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 
-Advertising & Paid Media · From $49/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Revealbot (Birch) →](https://bir.ch)
+38/60
+
+- **Price:** From $49/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Revealbot (Birch) is a tool in Advertising & Paid Media with paid plans starting at $49/mo. The catalog documents 4 AI features, 12 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Revealbot (Birch) →](https://bir.ch)
 
 ## MartechSignal Score: 38/60
 
@@ -149,7 +152,7 @@ Anything from every 15 minutes to every 72 hours, or on specific days and hourly
 **What is Bïrch MCP?**
 An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Codex over OAuth with no API key. The marketing page describes five tools and read only access; the help center is more precise. Campaign analysis cannot create, edit, pause, or delete anything, but rule management can duplicate, rename, move, activate, or pause rules and change which ad accounts they watch, across every platform and including drafts. Existing connections need to reconnect to pick up the write tools.
 
-## Similar Tools
+## Similar tools
 
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
@@ -159,8 +162,8 @@ An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Co
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Media buyers that trust rules they wrote more than black boxes
@@ -179,8 +182,4 @@ Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Advertising & Paid Media Tools →](/categories/advertising/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

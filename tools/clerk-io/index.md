@@ -6,21 +6,24 @@
 - Clerk.io
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Personalization & CDP
+
 ## Clerk.io review (2026): pricing, AI features, verdict
 
 AI-powered ecommerce personalization with search, recommendations, and email
 
-Personalization & CDP · From $119/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From $119/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Clerk.io →](https://www.clerk.io)
+32/60
+
+- **Price:** From $119/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Clerk.io is a tool in Personalization & CDP with paid plans starting at $119/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Clerk.io →](https://www.clerk.io)
 
 ## MartechSignal Score: 32/60
 
@@ -111,7 +114,7 @@ Clerk.io starts at $119/mo. From $119/month (verified Sep 2026). Custom pricing 
 **Is Clerk.io worth paying for in 2026?**
 Solid modular pick for mid-size stores with traffic to feed the models. Thin catalogs get little from it.
 
-## Similar Tools
+## Similar tools
 
 - [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
@@ -120,8 +123,8 @@ Solid modular pick for mid-size stores with traffic to feed the models. Thin cat
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Mid-size stores that want search and recs without enterprise procurement
@@ -140,8 +143,4 @@ Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

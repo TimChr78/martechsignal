@@ -6,21 +6,25 @@
 - Marketing Studio
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
+Review · Agent Skills
+
 ## Marketing Studio review (2026): pricing, AI features, verdict
 
 Agent-driven marketing studio for Claude Code: launch assets from one command
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Marketing Studio →](https://github.com/ucsandman/marketing-studio)
+32/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 252
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Marketing Studio is a tool in Agent Skills with free and open source. The catalog documents 4 AI features, 2 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Marketing Studio →](https://github.com/ucsandman/marketing-studio)
 
 ## MartechSignal Score: 32/60
 
@@ -105,7 +109,7 @@ Marketing Studio is open source - MIT licensed and free to self-host; the public
 **Is Marketing Studio a good self-hosted Agent Skills tool in 2026?**
 The most complete open-source take on agent-produced launch assets, with a real pipeline architecture behind the demo. Worth adopting if you already work in Claude Code and need repeatable launch creative; expect to invest in brand tokens and review passes before output is publishable.
 
-## Similar Tools
+## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
@@ -115,7 +119,7 @@ The most complete open-source take on agent-produced launch assets, with a real 
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -131,8 +135,4 @@ The most complete open-source take on agent-produced launch assets, with a real 
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

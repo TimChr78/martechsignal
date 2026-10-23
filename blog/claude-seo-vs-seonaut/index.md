@@ -1,6 +1,6 @@
 # Claude SEO vs Seonaut: which free SEO checker wins
 
-SEO · OPEN SOURCE · 8 MIN
+SEO · Open Source · 8 min read
 
 ## Claude SEO vs Seonaut: which free SEO checker should you run
 
@@ -10,7 +10,7 @@ Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we ha
 
 [Home](/) · [Blog](/blog/) · Claude SEO vs Seonaut: which free SEO checker should you run
 
-SEP 17, 2026
+17 Sep 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -95,5 +95,3 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [MarketMuse](/tools/marketmuse/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

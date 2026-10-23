@@ -1,6 +1,6 @@
 # The AI-search funnel map GA4 won't give you
 
-AI SEARCH · ANALYTICS · 11 MIN
+AI Search · Analytics · 11 min read
 
 ## The AI-search funnel map GA4 won't give you
 
@@ -8,7 +8,7 @@ AI SEARCH · ANALYTICS · 11 MIN
 
 [Home](/) · [Blog](/blog/) · The AI-search funnel map GA4 won't give you
 
-SEP 10, 2026
+10 Sep 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -96,7 +96,7 @@ Our directory breaks marketing tools down by what they measure, what they integr
 - [Ahrefs](/tools/ahrefs/) - Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 ## Comparison guides
 
-- [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
@@ -107,7 +107,5 @@ Our directory breaks marketing tools down by what they measure, what they integr
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [Brevo](/tools/brevo/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 JSON

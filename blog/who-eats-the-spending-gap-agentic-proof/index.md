@@ -1,6 +1,6 @@
 # Who eats the spending gap when agentic spend outpaces proof?
 
-AI AGENTS · MEASUREMENT · 8 MIN
+AI Agents · Measurement · 8 min read
 
 ## Who eats the spending gap when agentic spend outpaces proof?
 
@@ -8,7 +8,7 @@ AI AGENTS · MEASUREMENT · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Who eats the spending gap when agentic spend outpaces proof?
 
-OCT 15, 2026
+15 Oct 2026
 
 Filed under [Analytics & Attribution](/categories/analytics/)
 
@@ -98,7 +98,7 @@ A pacing report answers one thing: whether spend is on schedule. It was never as
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/)
+- [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -106,7 +106,5 @@ A pacing report answers one thing: whether spend is on schedule. It was never as
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 ✗ Loser: the pacing dashboard as a governance instrument

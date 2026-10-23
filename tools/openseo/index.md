@@ -6,21 +6,25 @@
 - OpenSEO
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · SEO & Search
+
 ## OpenSEO review (2026): pricing, AI features, verdict
 
 Open source alternative to Ahrefs and Semrush
 
-SEO & Search · Open Source from $10/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $10/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit OpenSEO →](https://openseo.so)
+32/60
+
+- **Price:** Open Source from $10/mo
+- **Licence:** MIT
+- **GitHub stars:** 24,461
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** OpenSEO is a tool in SEO & Search with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit OpenSEO →](https://openseo.so)
 
 ## MartechSignal Score: 32/60
 
@@ -125,7 +129,7 @@ Rank tracking schedules are Daily, Weekly, Monthly (end of month), and Manual on
 **Does the self-hosted version include the AI features?**
 Only if you supply keys for them. AI features such as SAM, the in-app SEO agent, require an OpenRouter API key in your environment file, and AI Visibility is powered by DataForSEO's LLM mention endpoints, so those calls bill against your DataForSEO account like any other query. The MCP server and the agent skills themselves ship in the repository with no extra licence.
 
-## Similar Tools
+## Similar tools
 
 - [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
 - [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
@@ -135,8 +139,8 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
-- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $10/mo
@@ -152,8 +156,4 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

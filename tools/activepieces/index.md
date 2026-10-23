@@ -6,21 +6,25 @@
 - Activepieces
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Workflow Automation
+
 ## Activepieces review (2026): pricing, AI features, verdict
 
 Open-source workflow automation with a free cloud tier and on-prem hosting
 
-Workflow Automation · Freemium from $20/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · Freemium from $20/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Activepieces →](https://www.activepieces.com)
+39/60
+
+- **Price:** Freemium from $20/mo
+- **Licence:** Open source
+- **GitHub stars:** 25,166
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Activepieces is a tool in Workflow Automation with free and open source. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Activepieces →](https://www.activepieces.com)
 
 ## MartechSignal Score: 39/60
 
@@ -101,7 +105,7 @@ Activepieces has a free tier; paid plans start at $20/mo. Free (100 credits a da
 **Is Activepieces worth it past the free tier?**
 Strengths include 25,166 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. Paid plans start at $20/mo
 
-## Similar Tools
+## Similar tools
 
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
@@ -110,9 +114,9 @@ Strengths include 25,166 GitHub stars, open-source licensing with free self-host
 - [LangChain](/tools/langchain/): Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 ## Related reading
 
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $20/mo
@@ -128,8 +132,4 @@ Related guides: [Activepieces in Zapier alternatives](/alternatives/zapier/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

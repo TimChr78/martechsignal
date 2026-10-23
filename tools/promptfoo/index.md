@@ -6,21 +6,25 @@
 - Promptfoo
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Promptfoo review (2026): pricing, AI features, verdict
 
 Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming
 
-GEO & LLM Optimization · Freemium · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Freemium · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Promptfoo →](https://promptfoo.dev)
+42/60
+
+- **Price:** Freemium
+- **Licence:** MIT
+- **GitHub stars:** 26,251
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Promptfoo is a tool in GEO & LLM Optimization with free and open source. The catalog documents 3 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Promptfoo →](https://promptfoo.dev)
 
 ## MartechSignal Score: 42/60
 
@@ -126,7 +130,7 @@ It is an LLM eval toolkit. Marketers use it for GEO-style work by running fixed 
 **What does red teaming include?**
 The CLI generates attack probes against an application and reports findings. The hosted red team product shows a 10k probes per month limit.
 
-## Similar Tools
+## Similar tools
 
 - [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
@@ -136,8 +140,8 @@ The CLI generates attack probes against an application and reports findings. The
 ## Related reading
 
 - [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
-- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best free entry point, provided someone on the team can run a CLI.
@@ -156,8 +160,4 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,24 @@
 - Superlines
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · SEO & Search
+
 ## Superlines review (2026): pricing, AI features, verdict
 
 AI Search Intelligence platform for brands and agencies
 
-SEO & Search · From €79/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · From €79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Superlines →](https://www.superlines.io/)
+31/60
+
+- **Price:** From €79/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Superlines is a tool in SEO & Search with paid plans starting at €79/mo. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Superlines →](https://www.superlines.io/)
 
 ## MartechSignal Score: 31/60
 
@@ -119,7 +122,7 @@ Superlines starts at €79/mo. Starter €79/mo (3 engines, 50 prompts, 1 brand,
 **Is Superlines worth paying for in 2026?**
 A GEO analytics layer for the AI-search era: real-interface collection, MCP access and agency-grade multi-brand support, priced from €79 per month.
 
-## Similar Tools
+## Similar tools
 
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 - [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
@@ -129,8 +132,8 @@ A GEO analytics layer for the AI-search era: real-interface collection, MCP acce
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ### Quick Facts
 
 - **Pricing:** From €79/mo
@@ -144,8 +147,4 @@ A GEO analytics layer for the AI-search era: real-interface collection, MCP acce
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

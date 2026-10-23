@@ -69,5 +69,3 @@ For most B2B teams the practical timeline is measured in quarters, not years. Th
 If this is new territory, the sequencing that works is small and dull. Weeks one and two: inventory every claim you make about price, capability and availability, with its source page and last-checked date. Weeks three and four: fix the inventory until every claim is true on a page an agent can parse, and delete the ones you cannot defend. Weeks five and eight: stand up the weekly prompt-set measurement and record your first baseline. Then run one campaign cycle with the new rules and compare the quality of inbound against the same quarter last year. That is the whole plan. The teams that skip the inventory step spend the quarter arguing with models instead.
 
 Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [IAB Tech Lab blog](https://iabtechlab.com/blog/)
-
-© 2026 MartechSignal · by Tim Christensen

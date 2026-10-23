@@ -6,21 +6,25 @@
 - SEO Skill Bench
 Re-check pending: pricing last verified 2026-09-03 (50 days ago).
 
+Review · Agent Skills
+
 ## SEO Skill Bench review (2026): pricing, AI features, verdict
 
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-03 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit SEO Skill Bench →](https://seoagent.com/seo-skill-benchmark)
+31/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 51
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** SEO Skill Bench is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integration and a self-hosting path. We reviewed it from vendor documentation on 2026-09-03. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit SEO Skill Bench →](https://seoagent.com/seo-skill-benchmark)
 
 ## MartechSignal Score: 31/60
 
@@ -91,7 +95,7 @@ SEO Skill Bench is open source - MIT licensed and free to self-host; the public 
 **Is SEO Skill Bench a good self-hosted Agent Skills tool in 2026?**
 Strengths include 51 GitHub stars, MIT licensing with free self-hosting. SEO Skill Bench documents 1 integration
 
-## Similar Tools
+## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
@@ -101,8 +105,8 @@ Strengths include 51 GitHub stars, MIT licensing with free self-hosting. SEO Ski
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
-- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -116,8 +120,4 @@ Strengths include 51 GitHub stars, MIT licensing with free self-hosting. SEO Ski
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

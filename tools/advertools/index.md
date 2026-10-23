@@ -6,21 +6,25 @@
 - advertools
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Advertising & Paid Media
+
 ## advertools review (2026): pricing, AI features, verdict
 
 Python toolkit for SEO and advertising analysis in pandas DataFrames
 
-Advertising & Paid Media · Open Source Hands-on
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit advertools →](https://advertools.readthedocs.io)
+38/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 1,483
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** advertools is a tool in Advertising & Paid Media with free and open source. The catalog documents 1 AI feature, 5 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
-
-[Visit advertools →](https://advertools.readthedocs.io)
 
 ## MartechSignal Score: 38/60
 
@@ -110,7 +114,7 @@ Yes. The package returns pandas DataFrames, so the work happens in notebooks and
 **Can it help with GEO and AI visibility work?**
 It is a data toolkit rather than a tracking dashboard, but keyword generation, SERP parsing and the Claude SERP analytics module added in v0.18.0 cover the data-preparation side of that work.
 
-## Similar Tools
+## Similar tools
 
 - [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
@@ -120,8 +124,8 @@ It is a data toolkit rather than a tracking dashboard, but keyword generation, S
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Best for advertising & paid media teams that want the job covered in one platform and can host it themselves, with a free starting tier.
@@ -144,8 +148,4 @@ Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Advertising & Paid Media Tools →](/categories/advertising/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,25 @@
 - Jitsu
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Personalization & CDP
+
 ## Jitsu review (2026): pricing, AI features, verdict
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
 
-Personalization & CDP · Freemium from $99/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Freemium from $99/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Jitsu →](https://jitsu.com)
+36/60
+
+- **Price:** Freemium from $99/mo
+- **Licence:** MIT
+- **GitHub stars:** 5,113
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Jitsu is a tool in Personalization & CDP with free and open source. The catalog documents 1 AI feature, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Jitsu →](https://jitsu.com)
 
 ## MartechSignal Score: 36/60
 
@@ -125,7 +129,7 @@ A successful data transfer from a connector to a destination. Repeated syncs on 
 **Can Jitsu replace Segment?**
 It covers the same collection and routing job and the docs ship a Segment proxy for an existing implementation. Check the destination catalog against your stack before switching, since the list is warehouse-heavy.
 
-## Similar Tools
+## Similar tools
 
 - [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
@@ -133,9 +137,9 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 - [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
 ## Related reading
 
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Best for data teams that want open-source event collection in their own warehouse, free to self-host.
@@ -157,8 +161,4 @@ Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/) · [
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

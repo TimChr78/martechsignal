@@ -6,21 +6,24 @@
 - OtterlyAI
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## OtterlyAI review (2026): pricing, AI features, verdict
 
 AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 
-GEO & LLM Optimization · From €29/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From €29/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit OtterlyAI →](https://otterly.ai/)
+34/60
+
+- **Price:** From €29/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** OtterlyAI is a tool in GEO & LLM Optimization with paid plans starting at €29/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit OtterlyAI →](https://otterly.ai/)
 
 ## MartechSignal Score: 34/60
 
@@ -127,7 +130,7 @@ ChatGPT, Google AI Overviews, Perplexity and Microsoft Copilot come standard. Cl
 **Does OtterlyAI have an API?**
 Yes. Standard and above include API and MCP access (2,000 requests per month each on Standard, 5,000 on Premium), documented at docs.otterly.ai.
 
-## Similar Tools
+## Similar tools
 
 - [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 - [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
@@ -136,7 +139,7 @@ Yes. Standard and above include API and MCP access (2,000 requests per month eac
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Also featured in
 
@@ -156,8 +159,4 @@ Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

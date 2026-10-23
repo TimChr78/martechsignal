@@ -6,21 +6,24 @@
 - Nosto
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Personalization & CDP
+
 ## Nosto review (2026): pricing, AI features, verdict
 
 AI-powered ecommerce personalization with product recommendations and merchandising
 
-Personalization & CDP · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Nosto →](https://www.nosto.com)
+33/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Nosto is a tool in Personalization & CDP with custom pricing. The catalog documents 5 AI features, 11 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Nosto →](https://www.nosto.com)
 
 ## MartechSignal Score: 33/60
 
@@ -147,7 +150,7 @@ They are costed in points per second rather than requests. Search GraphQL allows
 **How do visitors opt out of Nosto tracking?**
 Nosto documents a consent-conditional pattern: wrap the tracking script (connect.nosto.com/include/$accountID) in a check of your consent cookie so it is injected only after a visitor accepts, which the help center says disables the initialization of Nosto entirely for that user. A data processing agreement is published at nosto.com/legal/terms-conditions-dpa. For implementation, that means opt-out lives in your storefront template rather than in a Nosto settings toggle.
 
-## Similar Tools
+## Similar tools
 
 - [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
 - [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
@@ -157,8 +160,8 @@ Nosto documents a consent-conditional pattern: wrap the tracking script (connect
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Merchants that want recommendations their merchandisers can steer
@@ -177,8 +180,4 @@ Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,24 @@
 - Hootsuite
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Social Media
+
 ## Hootsuite review (2026): pricing, AI features, verdict
 
 Social media management platform with AI-powered scheduling and analytics
 
-Social Media · From $99/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · From $99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Hootsuite →](https://www.hootsuite.com)
+36/60
+
+- **Price:** From $99/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Hootsuite is a tool in Social Media with paid plans starting at $99/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Hootsuite →](https://www.hootsuite.com)
 
 ## MartechSignal Score: 36/60
 
@@ -110,7 +113,7 @@ Hootsuite starts at $99/mo. Standard $99/mo; Professional $149/mo (annual $99/mo
 **Is Hootsuite worth paying for in 2026?**
 The right call for multi-team, multi-brand social programs with governance needs. Small teams overpay for it.
 
-## Similar Tools
+## Similar tools
 
 - [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
@@ -119,7 +122,7 @@ The right call for multi-team, multi-brand social programs with governance needs
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Also featured in
 
@@ -139,8 +142,4 @@ Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Social Media Tools →](/categories/social-media/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

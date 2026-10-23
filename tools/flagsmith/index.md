@@ -6,21 +6,25 @@
 - Flagsmith
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Personalization & CDP
+
 ## Flagsmith review (2026): pricing, AI features, verdict
 
 Open-source feature flag and remote config platform with segment targeting
 
-Personalization & CDP · Freemium from $50/member/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Freemium from $50/member/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Flagsmith →](https://www.flagsmith.com)
+40/60
+
+- **Price:** Freemium from $50/member/mo
+- **Licence:** BSD-3-Clause
+- **GitHub stars:** 6,610
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Flagsmith is a tool in Personalization & CDP with free and open source. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Flagsmith →](https://www.flagsmith.com)
 
 ## MartechSignal Score: 40/60
 
@@ -125,7 +129,7 @@ Yes. The code is BSD-3-Clause on GitHub, and self-hosted and private cloud deplo
 **Does Flagsmith have an MCP server?**
 Yes. It lets AI tools manage flags, create segments, schedule changes, and automate flag hygiene in natural language, with change requests and approvals still in the loop.
 
-## Similar Tools
+## Similar tools
 
 - [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 - [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines
@@ -134,9 +138,9 @@ Yes. It lets AI tools manage flags, create segments, schedule changes, and autom
 - [Hightouch](/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs
 ## Related reading
 
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Teams that want their experiment engine as open as their stack
@@ -156,8 +160,4 @@ Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

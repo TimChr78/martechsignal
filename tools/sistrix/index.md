@@ -6,21 +6,24 @@
 - SISTRIX
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## SISTRIX review (2026): pricing, AI features, verdict
 
 German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
 
-GEO & LLM Optimization · From €119/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From €119/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit SISTRIX →](https://www.sistrix.com)
+34/60
+
+- **Price:** From €119/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** SISTRIX is a tool in GEO & LLM Optimization with paid plans starting at €119/mo. The catalog documents 1 AI feature, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit SISTRIX →](https://www.sistrix.com)
 
 ## MartechSignal Score: 34/60
 
@@ -119,7 +122,7 @@ Yes. The Visibility in AI Answers module measures mentions, rankings and citatio
 **What does the SISTRIX API include?**
 Plus receives limited access covering only Visibility Index data. Professional and Premium open the full API and all features. Export and API credits are metered weekly per tier.
 
-## Similar Tools
+## Similar tools
 
 - [Rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
@@ -128,8 +131,8 @@ Plus receives limited access covering only Visibility Index data. Professional a
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ### Quick Facts
 
 - **Pricing:** From €119/mo
@@ -142,8 +145,4 @@ Plus receives limited access covering only Visibility Index data. Professional a
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

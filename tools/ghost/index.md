@@ -6,21 +6,25 @@
 - Ghost
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · AI Content & Copywriting
+
 ## Ghost review (2026): pricing, AI features, verdict
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
 
-AI Content & Copywriting · Open Source from $9/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source from $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Ghost →](https://ghost.org)
+42/60
+
+- **Price:** Open Source from $9/mo
+- **Licence:** MIT
+- **GitHub stars:** 55,584
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Ghost is a tool in AI Content & Copywriting with free and open source. The catalog documents 3 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Ghost →](https://ghost.org)
 
 ## MartechSignal Score: 42/60
 
@@ -109,7 +113,7 @@ Ghost has a free tier; paid plans start at $9/mo. Self-hosted free (MIT); Cloud 
 **Is Ghost a good self-hosted AI Content & Copywriting tool in 2026?**
 Choose Ghost for editorial sites with paid membership intent. Skip it if you need a general-purpose CMS.
 
-## Similar Tools
+## Similar tools
 
 - [Strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
 - [ALwrity](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
@@ -135,8 +139,4 @@ Choose Ghost for editorial sites with paid membership intent. Skip it if you nee
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

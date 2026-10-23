@@ -6,21 +6,25 @@
 - LibreTranslate
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · AI Content & Copywriting
+
 ## LibreTranslate review (2026): pricing, AI features, verdict
 
 Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
 
-AI Content & Copywriting · Open Source Hands-on
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit LibreTranslate →](https://libretranslate.com)
+35/60
+
+- **Price:** Open Source
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 17,141
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** LibreTranslate is a tool in AI Content & Copywriting with free and open source. The catalog documents 3 AI features, 3 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
-
-[Visit LibreTranslate →](https://libretranslate.com)
 
 ## MartechSignal Score: 35/60
 
@@ -119,7 +123,7 @@ Yes. Once the language models are on disk, the server works with no internet con
 **What connects to LibreTranslate?**
 Anything that can call a REST API. Mastodon is the best-known example, where admins point the post translation backend at a LibreTranslate instance, and the Swagger docs cover the rest.
 
-## Similar Tools
+## Similar tools
 
 - [Strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
@@ -128,8 +132,8 @@ Anything that can call a REST API. Mastodon is the best-known example, where adm
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -143,8 +147,4 @@ Anything that can call a REST API. Mastodon is the best-known example, where adm
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

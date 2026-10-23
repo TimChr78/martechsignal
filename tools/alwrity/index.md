@@ -6,21 +6,25 @@
 - ALwrity
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Marketing Automation
+
 ## ALwrity review (2026): pricing, AI features, verdict
 
 AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
 
-Marketing Automation · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit ALwrity →](https://alwrity.com)
+32/60
+
+- **Price:** Open Source
+- **Licence:** Open source
+- **GitHub stars:** 1,201
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** ALwrity is a tool in Marketing Automation with free and open source. The catalog documents 5 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit ALwrity →](https://alwrity.com)
 
 ## MartechSignal Score: 32/60
 
@@ -96,7 +100,7 @@ ALwrity is open source - Free to self-host; the public repository carries 1,201 
 **Is ALwrity a good self-hosted Marketing Automation tool in 2026?**
 A capable self-hosted content engine for technical marketers. Everyone else gets better results from maintained hosted tools.
 
-## Similar Tools
+## Similar tools
 
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
@@ -106,8 +110,8 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -125,8 +129,4 @@ Free open-source; self-hosted; WIP
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Chatfuel
+Review · Chatbots & Conversational AI
+
 ## Chatfuel review (2026): pricing, AI features, verdict
 
 AI chatbot platform for automating customer conversations on messaging channels
 
-Chatbots & Conversational AI · From $18/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-05 · From $18/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Chatfuel →](https://chatfuel.com)
+31/60
+
+- **Price:** From $18/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Chatfuel is a tool in Chatbots & Conversational AI with paid plans starting at $18/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Chatfuel →](https://chatfuel.com)
 
 ## MartechSignal Score: 31/60
 
@@ -107,7 +110,7 @@ Chatfuel starts at $18/mo. Business $18/mo billed yearly ($20/mo monthly); Agenc
 **Is Chatfuel worth paying for in 2026?**
 A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B teams need a more general builder.
 
-## Similar Tools
+## Similar tools
 
 - [ManyChat](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 - [Tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support
@@ -116,8 +119,8 @@ A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B tea
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Messaging-first brands scripting conversations like campaigns
@@ -136,8 +139,4 @@ Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Chatbots & Conversational AI Tools →](/categories/chatbots/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

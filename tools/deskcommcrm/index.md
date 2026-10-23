@@ -6,21 +6,25 @@
 - DeskcommCRM
 Re-check pending: pricing last verified 2026-09-14 (39 days ago).
 
+Review · CRM
+
 ## DeskcommCRM review (2026): pricing, AI features, verdict
 
 Self-hosted open-source CRM with AI agents that sell through WhatsApp
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit DeskcommCRM →](https://deskcomm.com.br)
+41/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 4,786
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** DeskcommCRM is a tool in CRM with free and open source. The catalog documents 7 AI features, 10 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-14. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit DeskcommCRM →](https://deskcomm.com.br)
 
 ## MartechSignal Score: 41/60
 
@@ -104,7 +108,7 @@ DeskcommCRM is open source - MIT licensed and free to self-host; the public repo
 **Is DeskcommCRM a good self-hosted CRM tool in 2026?**
 Strengths include 4,786 GitHub stars, MIT licensing with free self-hosting, an API for custom integrations. DeskcommCRM documents 10 integrations
 
-## Similar Tools
+## Similar tools
 
 - [WaCRM](/tools/wacrm/): Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations
 - [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
@@ -112,9 +116,9 @@ Strengths include 4,786 GitHub stars, MIT licensing with free self-hosting, an A
 - [Khoj](/tools/khoj/): Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
 ## Related reading
 
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -129,8 +133,4 @@ Strengths include 4,786 GitHub stars, MIT licensing with free self-hosting, an A
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

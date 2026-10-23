@@ -1,6 +1,6 @@
 # Rogue agents, watchdog chips, nobody accountable
 
-AI AGENTS · AI SAFETY · 9 MIN
+AI Agents · AI Safety · 9 min read
 
 ## Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts
 
@@ -8,7 +8,7 @@ AI AGENTS · AI SAFETY · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts
 
-OCT 08, 2026
+08 Oct 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Agent Skills](/categories/agent-skills/)
 
@@ -80,9 +80,9 @@ Rogue assumes the agent decided. The record from this week says something flatte
 
 ## Related reading
 
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Related tools
 
 - [Writer](/tools/writer/) - Enterprise AI platform with Palmyra models, brand governance, and agents
@@ -91,7 +91,7 @@ Rogue assumes the agent decided. The record from this week says something flatte
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -99,7 +99,5 @@ Rogue assumes the agent decided. The record from this week says something flatte
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 ✗ Loser of the week: the word "rogue"

@@ -6,21 +6,25 @@
 - Dolibarr ERP/CRM
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · CRM
+
 ## Dolibarr ERP/CRM review (2026): pricing, AI features, verdict
 
 Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Dolibarr ERP/CRM →](https://www.dolibarr.org)
+44/60
+
+- **Price:** Open Source
+- **Licence:** GPL-3.0
+- **GitHub stars:** 7,761
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Dolibarr ERP/CRM is a tool in CRM with free and open source. The catalog documents 4 AI features, 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Dolibarr ERP/CRM →](https://www.dolibarr.org)
 
 ## MartechSignal Score: 44/60
 
@@ -141,7 +145,7 @@ The software is GPL-3+ and free to self-host with no user or record limits. Cost
 **Does Dolibarr have AI features?**
 Yes, and they are modest by design. The AI module became stable in version 21.0 and drafts, rewrites, translates, and spell-checks text in editors, and autofills extrafields, using an external AI API key you supply. Version 24.0 added an experimental MCP server and AI assistant. It is assistance inside forms, not AI-driven analysis.
 
-## Similar Tools
+## Similar tools
 
 - [Krayin CRM](/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
 - [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
@@ -165,8 +169,4 @@ Yes, and they are modest by design. The AI module became stable in version 21.0 
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

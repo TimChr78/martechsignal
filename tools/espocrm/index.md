@@ -6,21 +6,25 @@
 - EspoCRM
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## EspoCRM review (2026): pricing, AI features, verdict
 
 Lightweight open-source CRM with sales automation, marketing tools, and customer management
 
-CRM · Open Source from €12.90/user/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from €12.90/user/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit EspoCRM →](https://www.espocrm.com)
+33/60
+
+- **Price:** Open Source from €12.90/user/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 3,508
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** EspoCRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit EspoCRM →](https://www.espocrm.com)
 
 ## MartechSignal Score: 33/60
 
@@ -128,7 +132,7 @@ The self-hosted edition is free under AGPLv3 with no user limits in the license.
 **EspoCRM vs SuiteCRM: which open-source CRM fits better?**
 Both are AGPL-licensed PHP applications you self-host, and both cover accounts, contacts, leads, opportunities, cases, and campaigns. The difference is where the automation lives: SuiteCRM ships its workflow engine free in the core, while EspoCRM gates workflows, BPM, and reports behind the paid Advanced Pack, and instead gives you a cleaner interface, multiple pipelines, and a much more complete API story with an OpenAPI spec and clients in seven languages. SuiteCRM's advantage is module depth and longevity on legacy PHP deployments; EspoCRM's is development pace, with the 10.0 line shipped in July 2026.
 
-## Similar Tools
+## Similar tools
 
 - [Krayin CRM](/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
 - [SuiteCRM](/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation
@@ -138,8 +142,8 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
-- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for lean sales teams that automate à la carte.
@@ -160,8 +164,4 @@ Related guides: [EspoCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

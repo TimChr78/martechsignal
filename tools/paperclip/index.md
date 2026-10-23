@@ -6,21 +6,25 @@
 - Paperclip
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Workflow Automation
+
 ## Paperclip review (2026): pricing, AI features, verdict
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
-Workflow Automation · Freemium from €10/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Freemium from €10/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Paperclip →](https://paperclip.ing)
+44/60
+
+- **Price:** Freemium from €10/mo
+- **Licence:** MIT
+- **GitHub stars:** 105,753
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Paperclip is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Paperclip →](https://paperclip.ing)
 
 ## MartechSignal Score: 44/60
 
@@ -150,7 +154,7 @@ No. A new agent ships with timer heartbeats turned off, and the docs recommend l
 **How do I connect Claude Code to Paperclip?**
 Create an agent whose adapter is claude_local. Claude Code must be installed and on PATH, and authentication uses ANTHROPIC_API_KEY, AWS Bedrock environment variables, or a Claude subscription login. The adapter stores the session id and resumes it on the next heartbeat when the working directory still matches, injects Paperclip skills by building a directory of symlinks passed with --add-dir, and exposes a Test Environment button that probes the CLI in headless print mode. maxTurnsPerRun defaults to 300.
 
-## Similar Tools
+## Similar tools
 
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
@@ -160,8 +164,8 @@ Create an agent whose adapter is claude_local. Claude Code must be installed and
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ### Quick Facts
 
 - **Pricing:** Freemium from €10/mo
@@ -176,8 +180,4 @@ Create an agent whose adapter is claude_local. Claude Code must be installed and
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

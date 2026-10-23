@@ -71,5 +71,3 @@ Then model the bad month. Retries, replays and error-handling paths all bill. A 
 Cost per happy event, cost of one failed month, and the exit price. Get those three from the vendor in writing and the platform decision stops being a preference argument.
 
 Sources: [n8n](https://n8n.io/) · [n8n pricing](https://n8n.io/pricing/) · [Zapier](https://zapier.com/) · [Make](https://www.make.com/)
-
-© 2026 MartechSignal · by Tim Christensen

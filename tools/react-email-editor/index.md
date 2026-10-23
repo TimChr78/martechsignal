@@ -6,21 +6,25 @@
 - React Email Editor
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Email Marketing
+
 ## React Email Editor review (2026): pricing, AI features, verdict
 
 Drag-n-Drop Email Editor Component for React.js
 
-Email Marketing · Open Source from $250/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Open Source from $250/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit React Email Editor →](https://unlayer.com/)
+39/60
+
+- **Price:** Open Source from $250/mo
+- **Licence:** MIT
+- **GitHub stars:** 5,246
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** React Email Editor is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 7 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit React Email Editor →](https://unlayer.com/)
 
 ## MartechSignal Score: 39/60
 
@@ -143,7 +147,7 @@ Yes, but only on the Optimize plan. You enable it with amp: true in the options,
 **Should I build my own editor on GrapesJS or MJML instead?**
 If you need a fully open pipeline with no third-party dependency, yes, and you should budget for it: email client compatibility, a design schema, undo history, and preview tooling are the hard parts, and they are what the $250 to $2,000 per month buys. Unlayer has no MJML export, so a strict MJML workflow means rolling your own. Teams that can absorb that engineering cost should; product teams that cannot will ship faster with the wrapper.
 
-## Similar Tools
+## Similar tools
 
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
@@ -153,8 +157,8 @@ If you need a fully open pipeline with no third-party dependency, yes, and you s
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Developer teams that want email templates versioned as code
@@ -173,8 +177,4 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

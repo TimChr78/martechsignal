@@ -6,21 +6,25 @@
 - OpenClaw Marketing Skills
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Agent Skills
+
 ## OpenClaw Marketing Skills review (2026): pricing, AI features, verdict
 
 37 marketing skills for OpenClaw agents with live data connectors
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit OpenClaw Marketing Skills →](https://github.com/LeoYeAI/openclaw-marketing-skills)
+39/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 1,048
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** OpenClaw Marketing Skills is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit OpenClaw Marketing Skills →](https://github.com/LeoYeAI/openclaw-marketing-skills)
 
 ## MartechSignal Score: 39/60
 
@@ -109,7 +113,7 @@ OpenClaw Marketing Skills is open source - MIT licensed and free to self-host; t
 **Is OpenClaw Marketing Skills a good self-hosted Agent Skills tool in 2026?**
 Solid add-on pack for agent stacks; thin as a primary playbook source.
 
-## Similar Tools
+## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
@@ -117,9 +121,9 @@ Solid add-on pack for agent stacks; thin as a primary playbook source.
 - [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 ## Related reading
 
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier.
@@ -139,8 +143,4 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

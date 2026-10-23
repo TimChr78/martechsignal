@@ -6,21 +6,25 @@
 - Resend
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Email Marketing
+
 ## Resend review (2026): pricing, AI features, verdict
 
 Developer-first email API built around React Email, batch sending, and agent tooling
 
-Email Marketing · Freemium from $20/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Freemium from $20/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Resend →](https://resend.com)
+38/60
+
+- **Price:** Freemium from $20/mo
+- **Licence:** MIT
+- **GitHub stars:** 19,857
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Resend is a tool in Email Marketing with a free tier. The catalog documents 4 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Resend →](https://resend.com)
 
 ## MartechSignal Score: 38/60
 
@@ -139,7 +143,7 @@ The transactional free plan includes 3,000 emails a month with a 100-per-day cap
 **Does Resend work with AI agents and coding tools?**
 Yes, and it is one of the better-documented cases in email. Resend hosts an MCP server at mcp.resend.com/mcp with OAuth, ships an official Claude plugin (claude plugin install resend@claude-plugins-official), and documents a Resend skill and a React Email skill alongside a CLI. Clients listed in the docs include Claude Code, Claude, Cursor, Codex, Copilot, Windsurf, and Warp. The changelog shows steady investment: an official MCP server in April 2026, a remote MCP server in July, and an official Cursor plugin in August.
 
-## Similar Tools
+## Similar tools
 
 - [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
@@ -148,8 +152,8 @@ Yes, and it is one of the better-documented cases in email. Resend hosts an MCP 
 ## Related reading
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
-- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $20/mo
@@ -165,8 +169,4 @@ Yes, and it is one of the better-documented cases in email. Resend hosts an MCP 
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

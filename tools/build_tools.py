@@ -46,6 +46,7 @@ from pathlib import Path
 from datetime import datetime
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import suggest_links
+from site_chrome import HEAD_TAGS, chrome_footer, chrome_top
 
 ROOT = Path(__file__).resolve().parent.parent  # martechsignal/
 
@@ -178,14 +179,13 @@ def pricing_card(t):
         return ""
     url = (t.get("pricing_url") or "").strip()
     if url and url != "#":
-        cta = (f'<div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);'
-               f'color:var(--amber);text-decoration:none" href="{esc(url)}" target="_blank" '
+        cta = (f'<div class="cta-early"><a href="{esc(url)}" target="_blank" '
                f'rel="noopener" data-umami-event="Pricing click" '
-               f'data-umami-event-tool="{esc(t["name"])}">VIEW PRICING →</a></div>')
+               f'data-umami-event-tool="{esc(t["name"])}">View pricing →</a></div>')
     else:
         cta = ""
     return (f'<div class="side-card"><h3>Pricing</h3>'
-            f'<p style="color:var(--muted);font-size:.9rem">{esc(notes)}</p>{cta}</div>')
+            f'<p class="fine">{esc(notes)}</p>{cta}</div>')
 
 
 # Comparison posts (GSC follow-up, 2026-09-13): the three-way comparison post is the
@@ -277,7 +277,7 @@ def pricing_section_html(t):
         # r31 L-35 (2026-10-06): when the vendor folded pricing into the
         # homepage, "pricing page" misnames the target — label follows URL.
         _plabel = "pricing page" if "pric" in url.lower() else "pricing section"
-        link = ('<p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">'
+        link = ('<p class="fine" style="margin:.4rem 0 0">'
                 'Current plans and limits live on the '
                 f'<a href="{esc(url)}" target="_blank" rel="noopener" '
                 f'data-umami-event="Pricing section click" '
@@ -332,7 +332,7 @@ def _category_display(cat_slug):
     return words
 
 
-_SUB_INLINE = '<section class="subscribe sub-inline" id="subscribe"><h2>Get the next teardown</h2><p>One email when a new tool review lands, nothing else.</p><form class="sub-form" action="https://app.kit.com/forms/9136291/subscriptions" method="post" data-sv-form="9136291" data-uid="f315181f90" target="_blank"><input type="hidden" name="newsletter[subscriber][first_name]" value=""><input type="email" name="email_address" autocomplete="email" placeholder="you@company.com" aria-label="Email address" required><button type="submit">SUBSCRIBE</button></form></section>'
+_SUB_INLINE = '<section class="subscribe sub-inline" id="subscribe"><h2>Get the next teardown</h2><p>One email when a new tool review lands, nothing else.</p><form class="sub-form" action="https://app.kit.com/forms/9136291/subscriptions" method="post" data-sv-form="9136291" data-uid="f315181f90" target="_blank"><input type="hidden" name="newsletter[subscriber][first_name]" value=""><input type="email" name="email_address" autocomplete="email" placeholder="you@company.com" aria-label="Email address" required><button type="submit">Subscribe</button></form></section>'
 
 
 def cat_h1(cat_name):
@@ -615,11 +615,10 @@ def screenshot_figure(slug, tool_name):
     # M5 (r9, 2026-09-28): this is the first in-body image and renders
     # in-viewport on desktop; lazy-loading it delays LCP. Eager + high priority.
     return (
-        '<figure class="tool-screenshot" style="margin:1.2rem 0">'
+        '<figure class="tool-screenshot">'
         f'<img src="/{img_src}" alt="Screenshot of the {esc(tool_name)} homepage"{_sset} '
-        'width="1280" height="800" fetchpriority="high" '
-        'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)">'
-        f'<figcaption style="font-size:.82rem;color:var(--muted);margin-top:.4rem">'
+        'width="1280" height="800" fetchpriority="high">'
+        f'<figcaption>'
         f'{esc(what)}. Vendor page shown as a dated reference capture; all site content '
         'belongs to its owner.</figcaption></figure>'
     )
@@ -760,31 +759,17 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>{schema_block}
+{HEAD_TAGS}{schema_block}
 {_stylesheet_tags()}
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 <script src="/site.js" defer></script>
 </head>
 <body class="page-tools">
-<div class="bg" aria-hidden="true"></div>
-<header class="masthead">
-  <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
-    <nav class="mast-nav" aria-label="Primary"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
-  </div>
-</header>
+{chrome_top(canonical)}
 <main class="wrap">
 {body}
 </main>
-<footer aria-label="Footer">
-  <div class="wrap">
-    <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/guides/">GUIDES</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/llms.txt">AI CATALOG</a><a href="/#subscribe">SUBSCRIBE</a></div>
-    <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
-  </div>
-</footer>
+{chrome_footer()}
 {_H9_TAG}</body>
 </html>"""
 
@@ -796,7 +781,7 @@ def build_hub(tools, cats):
     _chart = ROOT / "og" / "charts" / "oss-by-category.png"
     chart_v = hashlib.sha256(_chart.read_bytes()).hexdigest()[:10] if _chart.exists() else "1"
     # category pills
-    pills = '<a class="cat-pill active" href="/tools/">ALL</a>\n'
+    pills = '<a class="cat-pill active" href="/tools/">All</a>\n'
     for c in cats:
         if c["slug"] == "open-source":
             n = sum(1 for t in tools if t.get("open_source") and t.get("status") == "active")
@@ -856,12 +841,12 @@ def build_hub(tools, cats):
     body = f"""<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><span>Tools</span></nav>
 <section class="page-head">
   <h1>AI Marketing Tool Directory</h1>
-  <p class="sub">Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.</p>
-  <p class="count">{len([t for t in tools if t.get('status')=='active'])} TOOLS · {len([c for c in cats if c.get('slug') != 'open-source'])} CATEGORIES + OPEN-SOURCE INDEX · UPDATED WEEKLY</p>
+  <p class="sub">Curated tools for AI-powered marketing automation, from email and CRM to content generation and workflow automation.</p>
+  <p class="count">{len([t for t in tools if t.get('status')=='active'])} tools · {len([c for c in cats if c.get('slug') != 'open-source'])} categories + open-source index · Updated weekly</p>
 </section>
-<img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial (the open-source meta-category is excluded)" width="1200" height="630" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
-<p style="max-width:680px;color:var(--muted);margin:-0.5rem 0 0;font-size:.92rem">Watching which open-source tools actually gain traction? <a href="/trending/">Open-source martech momentum</a> tracks GitHub stars for all {len([t for t in tools if t.get('open_source') and t.get('status', 'active') == 'active'])} of them, with daily snapshots since Aug 25, 2026.</p>
-<p style="max-width:680px;color:var(--muted);margin:.6rem 0 0;font-size:.92rem">A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The <a href="/checklist/">marketing automation checklist</a> walks the 12 questions that decide it, and scores your answers in the browser.</p>
+<img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial (the open-source meta-category is excluded)" width="1200" height="630" style="max-width:100%;height:auto;margin:1.5rem 0">
+<p class="fine" style="max-width:680px;margin:-0.5rem 0 0">Watching which open-source tools actually gain traction? <a href="/trending/">Open-source martech momentum</a> tracks GitHub stars for all {len([t for t in tools if t.get('open_source') and t.get('status', 'active') == 'active'])} of them, with daily snapshots since Aug 25, 2026.</p>
+<p class="fine" style="max-width:680px;margin:.6rem 0 0">A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The <a href="/checklist/">marketing automation checklist</a> walks the 12 questions that decide it, and scores your answers in the browser.</p>
 <h2>Browse by category</h2>
 <nav class="cat-nav">{pills}</nav>
 <div class="sub-strip"><div><h2>Evaluating tools for your stack?</h2><p>The weekly newsletter tracks this category: one teardown, one workflow, no fluff.</p></div><a class="btn" href="/#subscribe" data-umami-event="Hub subscribe click">Subscribe</a></div>
@@ -1094,19 +1079,18 @@ def _score_band(t):
     if not rec:
         return "", None
     rows = "".join(
-        '<tr><td>' + _PILLAR_LABELS[k] + '</td><td style="text-align:right">'
+        '<tr><td>' + _PILLAR_LABELS[k] + '</td><td class="num">'
         + str(rec["pillars"][k]["score"]) + '/10</td>'
         + '<td>' + _evidence_cell(t, rec, rec["pillars"][k]["evidence"]) + '</td></tr>'
         for k in _PILLAR_ORDER)
     band = (
-        '<section class="score-band" style="margin:1.25rem 0;padding:1.1rem 1.25rem;'
-        'border:1px solid var(--line);border-radius:12px">'
-        '<h2 style="margin:0 0 .3rem">' + ('Benchmark log: ' if t["slug"] == "claude-seo" else 'MartechSignal Score: ') + str(rec["score_total"]) + '/60</h2>'
-        '<p style="margin:.35rem 0">' + esc(rec["verdict"]) + '</p>'
-        '<div class="table-wrap" style="margin:.75rem 0"><table><caption>Pillar scores and evidence</caption>'
+        '<section class="score-band" id="score">'
+        '<h2>' + ('Benchmark log: ' if t["slug"] == "claude-seo" else 'MartechSignal Score: ') + str(rec["score_total"]) + '/60</h2>'
+        '<p>' + esc(rec["verdict"]) + '</p>'
+        '<div class="table-wrap"><table><caption>Pillar scores and evidence</caption>'
         '<thead><tr><th>Pillar</th><th>Score</th><th>Evidence</th></tr></thead>'
         '<tbody>' + rows + '</tbody></table></div>'
-        '<p style="margin:.35rem 0;font-size:.85rem;color:var(--muted)">Scored ' + esc(rec.get("scored", "2026-09-26")) + ' '
+        '<p class="fine">Scored ' + esc(rec.get("scored", "2026-09-26")) + ' '
         'against our published rubric: six pillars, 0-10 each. ' + (
             'This is our own tool, scored from running it in our benchmark suite and four '
             'production audit cycles. Per our review policy we do not publish first-party '
@@ -1382,7 +1366,7 @@ def glossary_terms_html(terms, heading="Key terms"):
     return (
         f'<section class="related-concepts"><h2>{esc(heading)}</h2>'
         f'<ul class="integ-list">{links}</ul>'
-        '<p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">'
+        '<p class="fine" style="margin:.4rem 0 0">'
         'Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>'
     )
 
@@ -1498,7 +1482,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         def _home(r):
             return "guides" if r["slug"] in _gslugs else "tools"
         items = "".join(f'<a class="tool-card" href="/{_home(r)}/{r["slug"]}/"><div class="name">{esc(r["name"])}</div><div class="tagline">{esc(r.get("tagline",""))}</div></a>' for r in related)
-        related_html = f'<h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">{items}</div>'
+        related_html = f'<h2>Similar tools</h2><div class="tool-grid">{items}</div>'
 
     source_text = ' '.join(str(t.get(key, '')) for key in ('name', 'tagline', 'description', 'ai_features', 'integrations'))
     related_posts = suggest_links.suggest_for_text(source_text, max_suggestions=3, rotate_key=slug)
@@ -1633,9 +1617,9 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         for p, c_ in zip(_pros, _cons):
             _pc_rows += (
                 "<tr><td>"
-                + (f'<span style="color:var(--ok-text)">&#10003;</span> {esc(p)}' if p else "")
+                + (f'<span class="up">&#10003;</span> {esc(p)}' if p else "")
                 + "</td><td>"
-                + (f'<span style="color:var(--red-text)">&#10007;</span> {esc(c_)}' if c_ else "")
+                + (f'<span class="down">&#10007;</span> {esc(c_)}' if c_ else "")
                 + "</td></tr>"
             )
     proscons_html = (
@@ -1708,7 +1692,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
             full, half = int(score), (score - int(score)) >= 0.25
             stars = "★" * full + ("☆" if half else "") + "·" * (mx - full - (1 if half else 0))
             rating_html = (f'<div class="side-card" id="rating"><h3>Our rating</h3>'
-                           f'<p style="font-size:1.35rem;letter-spacing:2px;color:var(--amber);margin:.2rem 0">{esc(stars)}</p>'
+                           f'<p style="font-size:1.35rem;letter-spacing:2px;margin:.2rem 0">{esc(stars)}</p>'
                            f'<p><b>{score:g} / {mx}</b>'
                            + (f'<br>{esc(er["basis"])}</p>' if er.get("basis") else '</p>')
                            + '</div>')
@@ -1736,7 +1720,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
                 # r10 H-5 (2026-09-29): never cite a source repository for
                 # closed-source tools (it cannot exist).
                 _src_bit = ("the source repository, " if t.get("github_repo") else "")
-                paras = ('<p style="font-size:.78rem;color:var(--muted)">'
+                paras = ('<p class="fine">'
                          'Researched from public documentation, ' + _src_bit + 'and vendor '
                          'materials. Not a hands-on test.</p>') + paras
             parts.append(f'<h2>Review notes</h2>{paras}')
@@ -2030,7 +2014,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
             f'<div class="side-row"><dt>{esc(str(er.get("source","")))} rating</dt>'
             f'<dd>{esc(str(er.get("score","")))}/{esc(str(er.get("max",5)))}{esc(count_s)}'
             f' · <a href="{esc(str(er.get("url","#")))}" target="_blank" rel="noopener nofollow">source</a>'
-            f'<br><span style="font-size:.8rem;color:var(--muted)">as of {esc(str(er.get("as_of","")))}</span></dd></div>'
+            f'<br><span class="fine">as of {esc(str(er.get("as_of","")))}</span></dd></div>'
         )
     if ext_lines:
         # R2 C-2 (2026-09-08): the old wording ("we rate only tools we run") directly
@@ -2038,7 +2022,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         # State plainly whose ratings these are; link the methodology for the policy.
         srcs = sorted({str(er.get("source", "")).strip() for er in t.get("external_ratings") if er.get("source")})
         src_txt = "/".join(srcs) if srcs else "third-party platforms"
-        note = ('<div class="side-row" style="font-size:.8rem;color:var(--muted)">'
+        note = ('<div class="side-row fine">'
                 f'Ratings shown are third-party ({esc(src_txt)}), not MartechSignal\'s. '
                 'This is not a hands-on test; the method is on our '
                 '<a href="/methodology/">methodology page</a>.</div>')
@@ -2070,24 +2054,21 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         if t.get("last_release"):
             _facts.append(f'<dt>Last release</dt><dd>{esc(t["last_release"])}</dd>')
         if _facts:
-            score_html = (
-                '<section class="score-band" style="margin:1.25rem 0;padding:1.1rem 1.25rem;'
-                'border:1px solid var(--line);border-radius:12px">'
-                '<h2 style="margin:0 0 .3rem">Catalog facts: '
+              score_html = (
+                '<section class="score-band" id="score">'
+                '<h2>Catalog facts: '
                 + esc(t["name"]) + '</h2>'
-                '<p style="margin:.35rem 0">Not yet scored against the rubric, so no verdict here. '
+                '<p>Not yet scored against the rubric, so no verdict here. '
                 'This is everything the catalog holds on the tool, verified against vendor sources.</p>'
                 '<dl>' + "".join(f"<div>{f}</div>" for f in _facts) + "</dl>"
-                '<p style="margin:.35rem 0;font-size:.85rem;color:var(--muted)">The full rubric is on the '
+                '<p class="fine">The full rubric is on the '
                 '<a href="/methodology/">methodology page</a>.</p></section>')
         else:
             # r6 M-6 (2026-09-27): unscored pages say so on the page.
             score_html = ('<p class="unscored-note">Not yet scored against the rubric; '
                           'scored pages show six pillars.</p>')
-    # r6 L-11 (2026-09-27): the real CTA belongs above the fold, in the verdict block.
-    if t.get("website"):
-        score_html = (f'<p class="verdict-cta"><a class="btn" href="{t["website"]}" '
-                      f'rel="noopener" target="_blank">Visit {t["name"]} &#8594;</a></p>') + score_html
+    # r6 L-11 (2026-09-27): the real CTA moved to the review-header score
+    # panel (redesign 2026-10-23); no second button above the score band.
     _ain = len(t.get('ai_features') or [])
     # r15 L-13 (2026-09-29): "1 AI features" on 9 pages — singularize.
     _caps = ([f"{_ain} AI feature" if _ain == 1 else f"{_ain} AI features"] if _ain else [])
@@ -2118,17 +2099,52 @@ def build_tool_page(t, cats, all_tools, base="tools"):
            else (f'We reviewed it from vendor documentation on {_vdate}. This is a desk review, not a hands-on test. '
                  + _review_tag(t)))
         + '</div>')
-    body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li><li><a href="/{base}/">{"Guides" if base == "guides" else "Tools"}</a></li><li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li><li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
-<section class="page-head">
-  <h1>{_tool_h1(t)}</h1>
-  <p class="sub">{esc(t.get('tagline',''))}</p>
-  <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{(' · OPEN SOURCE' if t.get('open_source') and 'open source' not in pricing_label(t).lower() else '')} {_review_tag(t)}</p>
-  <!-- L-11 (r11, 2026-09-29): byline date resolves through _record_edit_date,
-       the same clock as schema dateModified, so the two always agree. -->
-  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="{esc(_record_edit_date(t['slug'], t.get('date_updated','')))}">{esc(_record_edit_date(t['slug'], t.get('date_updated','')))}</time></p>
-  {('<p class="made-badge">Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. We run it on our own sites and depend on it in our audit pipeline, which is why it carries no Review markup. See the <a href="/corrections/">corrections log</a>.</p>') if t["slug"] == "claude-seo" else ''}
-  {('<p class="alt-link" style="font-size:.85rem;margin-top:.35rem">Looking for options? <a href="/alternatives/' + t["slug"] + '/">Best ' + esc(t["name"]) + ' alternatives</a></p>') if t["slug"] in _ALT_SLUGS else ''}
-  {('<p class="cta-early" style="margin-top:.9rem"><a href="' + esc(t.get('website','#')) + '" target="_blank" rel="noopener">Visit ' + esc(t["name"]) + ' &#8594;</a></p>') if t.get('website') else ''}
+    # Redesign (2026-10-23): editorial review header. Headline on the left,
+    # score panel on the right. The panel is the page's only above-the-fold
+    # CTA: the old .cta-early and .verdict-cta buttons were duplicates.
+    _rec_hdr = _SCORES.get(t["slug"])
+    _sbox = [
+        '<p class="lbl">'
+        + ('Benchmark log' if t["slug"] == "claude-seo" else
+           ('MartechSignal score' if _rec_hdr else 'Not yet scored'))
+        + '</p>'
+    ]
+    if _rec_hdr:
+        _tot = _rec_hdr["score_total"]
+        _sbox.append(f'<p class="val">{_tot}<small>/60</small></p>')
+        _sbox.append(f'<div class="bar"><i style="width:{round(_tot / 60 * 100, 1)}%"></i></div>')
+    _sbox.append('<dl class="facts">')
+    _sbox.append(f'<dt>Price</dt><dd>{esc(pricing_label(t))}</dd>')
+    _sbox.append('<dt>Licence</dt><dd>'
+                 + esc(t.get("license") or ("Open source" if t.get("open_source")
+                                            else "Proprietary"))
+                 + '</dd>')
+    if t.get("github_stars"):
+        _sbox.append(f'<dt>GitHub stars</dt><dd>{t["github_stars"]:,}</dd>')
+    _sbox.append('</dl>')
+    if t.get("website"):
+        _sbox.append(
+            f'<a class="btn" href="{esc(t["website"])}" rel="noopener" target="_blank" '
+            f'data-umami-event="Tool header CTA click" data-umami-event-tool="{esc(t["name"])}">'
+            f'Visit {esc(t["name"])} &#8594;</a>')
+    if _rec_hdr:
+        _sbox.append('<a class="textlink" href="#score">Score breakdown &#8595;</a>')
+    scorebox_html = ('<aside class="scorebox" aria-label="Score summary">'
+                     + "".join(_sbox) + '</aside>')
+    _by_date = esc(_record_edit_date(t['slug'], t.get('date_updated', '')))
+    body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/{base}/">{"Guides" if base == "guides" else "Tools"}</a></li><li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li><li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
+<section class="page-head review-head">
+  <div class="rh-main">
+    <p class="eyebrow">Review · {esc(c.get('name',''))}</p>
+    <h1>{_tool_h1(t)}</h1>
+    <p class="sub">{esc(t.get('tagline',''))}</p>
+    <!-- L-11 (r11, 2026-09-29): byline date resolves through _record_edit_date,
+         the same clock as schema dateModified, so the two always agree. -->
+    <p class="byline">By <a href="/authors/tim-christensen/">Tim Christensen</a> · updated <time datetime="{_by_date}">{_by_date}</time> · {esc(pricing_label(t))}{(' · Open source' if t.get('open_source') and 'open source' not in pricing_label(t).lower() else '')} {_review_tag(t)}</p>
+    {('<p class="made-badge">Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. We run it on our own sites and depend on it in our audit pipeline, which is why it carries no Review markup. See the <a href="/corrections/">corrections log</a>.</p>') if t["slug"] == "claude-seo" else ''}
+    {('<p class="alt-link">Looking for options? <a href="/alternatives/' + t["slug"] + '/">Best ' + esc(t["name"]) + ' alternatives</a></p>') if t["slug"] in _ALT_SLUGS else ''}
+  </div>
+  {scorebox_html}
 </section>
 {disclosure_html}
 {verdict_html}
@@ -2166,7 +2182,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
     </div>
     <div class="side-card cta-card">
       <a class="btn-sm" href="{esc(t.get('website','#'))}" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="{esc(t['name'])}">Visit {esc(t['name'])} →</a>
-      <div style="margin-top:.8rem"><a href="/categories/{t['category']}/" style="font:600 .8rem var(--mono);color:var(--muted);text-decoration:none">More {esc(cat_h1(c.get('name','')))} →</a></div>
+      <div class="fine" style="margin-top:.8rem"><a href="/categories/{t['category']}/">More {esc(cat_h1(c.get('name','')))} →</a></div>
     </div>
     {"" if pricing_html else pricing_card(t)}
   </aside>
@@ -2316,7 +2332,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         seo_desc = seo_desc.rstrip(" ,;:-") + "."
     # r6 M-2: visible kind label for non-platform entries
     if t.get("kind"):
-        body = body.replace("</nav>", "</nav>" + f'<p class="kind-note">KIND: {esc(t["kind"])} (not an end-to-end platform)</p>', 1)
+        body = body.replace("</nav>", "</nav>" + f'<p class="kind-note">Kind: {esc(t["kind"])} (not an end-to-end platform)</p>', 1)
     # r6 M-8: visible auto-flag when pricing facts are past the 21-day window.
     import datetime as _dt2
     _du = t.get("date_updated")
@@ -2506,14 +2522,14 @@ def build_category_page(cat, tools):
             _intro = cat["intro"]
             _paras = _intro if isinstance(_intro, list) else re.split(r"\n\s*\n", _intro.strip())
             intro_html = "".join(
-                f'<p class="cat-intro" style="max-width:680px;color:var(--muted);margin:.5rem 0 0">{esc(p.strip())}</p>'
+                f'<p class="cat-intro">{esc(p.strip())}</p>'
                 for p in _paras if p.strip()
             )
-        body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0"><li><a href="/">Home</a></li><li><a href="/tools/">Tools</a></li><li><span aria-current="page">{esc(cat['name'])}</span></li></ol></nav>
+        body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/tools/">Tools</a></li><li><span aria-current="page">{esc(cat['name'])}</span></li></ol></nav>
 <section class="page-head">
   <h1>{cat_h1(cat['name'])}</h1>
   <p class="sub">{esc(cat.get('description',''))}</p>
-  <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>
+  <p class="count">{len(cat_tools)} tools in this category</p>
 </section>
 <!-- L-1 (r11, 2026-09-29): section heading restores H1-H2-H3 order -->
 <h2 class="hub-group-label"><span>All tools in this category</span><i></i></h2>
@@ -2573,16 +2589,16 @@ def build_category_page(cat, tools):
         checklist_callout = ""
         if cat["slug"] == "marketing-automation":
             checklist_callout = (
-                '<p class="cat-intro" style="max-width:680px;color:var(--muted);margin:1rem 0 0">'
+                '<p class="cat-intro">'
                 'Choosing a platform is step two. Step one is whether your stack can hand work to an agent at all. '
                 'The <a href="/checklist/">marketing automation checklist</a> scores that in 12 questions before you shortlist.</p>'
             )
 
-        body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0"><li><a href="/">Home</a></li><li><a href="/tools/">Tools</a></li><li><span aria-current="page">{esc(cat['name'])}</span></li></ol></nav>
+        body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/tools/">Tools</a></li><li><span aria-current="page">{esc(cat['name'])}</span></li></ol></nav>
 <section class="page-head hub-head">
   <h1>{cat_h1(cat['name'])}</h1>
   <p class="sub">{esc(hub.get('meta', cat.get('description','')))}</p>
-  <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>
+  <p class="count">{len(cat_tools)} tools in this category</p>
 </section>
 
 {groups_html}
@@ -2984,7 +3000,7 @@ def main():
             title="Strategy Guides: GEO, Automation, AI SEO | MartechSignal",
             description="Strategy guides for marketers: generative engine optimization, agentic advertising, workflow automation, AI SEO tooling and agent protocols.",
             canonical="https://martechsignal.com/guides/",
-            body='<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li><li><span aria-current="page">Guides</span></li></ol></nav>'
+            body='<nav class="crumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><span aria-current="page">Guides</span></li></ol></nav>'
                  '<section class="page-head"><h1>Catalog guides</h1>'
                  '<p class="sub">Longer reference pages that support the directory. These are not tools, so they are not counted in the tool totals.</p></section>'
                  + _gintro +
@@ -3428,17 +3444,16 @@ def minify_css():
 # the full bundle loads non-blocking right after.
 _CRITICAL_PREFIXES = (
     ":root", "*", "html", "body", "::selection",
-    ".bg", ".wrap", "a",
-    ".masthead", ".mast-in", ".wordmark", ".mast-nav", ".mast-right",
-    ".live", ".mast-date", ".pulse-dot",
+    ".wrap", "a",
+    # 2026-10 redesign: top bar + masthead are the first paint on every page
+    ".topbar", ".theme-toggle", ".masthead", ".mast-in", ".wordmark", ".mast-nav",
     ".crumb", ".breadcrumbs", ".crumbs",
     ".page-head", ".page-tools", ".sub", ".count", ".byline",
     ".verdict-cta", ".cta-early", ".alt-link", ".btn", ".disclosure-strip",
-    ".kicker", ".back", ".post-hero", ".meta",
-    ".hero", ".hero-cols", ".hero-side", ".stats-card", ".stat",
-    ".lede", ".hero-cta", ".micro", ".spec",
-    ".score-band", ".unscored-note",
-    ".cat-nav", ".cat-pill", ".made-badge",
+    ".eyebrow", ".kicker", ".back", ".post-hero", ".meta",
+    ".hero", ".figures", ".fig",
+    ".lede", ".hero-cta",
+    ".cat-nav",
     ".tool-grid", ".tool-card",
     "#progress",
 )
@@ -3736,8 +3751,15 @@ def _fingerprint_mask(_s):
     _m = re.sub(r'<link rel="alternate"[^>]*>', "CHROME", _m)
     _m = re.sub(r'<link rel="stylesheet"[^>]*>', "CHROME", _m)
     _m = re.sub(r'<script src="/site\.js[^"]*"[^>]*></script>', "CHROME", _m)
+    # 2026-10 redesign: fonts, critical CSS and topbar/masthead/footer are
+    # template chrome. Without masking them, any stylesheet or chrome edit
+    # restamps dateModified on every page (the redesign did exactly that).
+    _m = re.sub(r"<style[^>]*>.*?</style>", "STYLE", _m, flags=re.S)
+    _m = re.sub(r'<div class="topbar".*?</div>\s*</div>', "CHROME", _m, flags=re.S)
+    _m = re.sub(r'<header class="masthead".*?</header>', "CHROME", _m, flags=re.S)
+    _m = re.sub(r"<footer\b.*?</footer>", "CHROME", _m, flags=re.S)
     _m = re.sub(r'<script type="application/ld\+json">.*?</script>', "SCHEMA", _m, flags=re.S)
-    _m = re.sub(r"(SCHEMA|CHROME)", "", _m)
+    _m = re.sub(r"(SCHEMA|CHROME|STYLE)", "", _m)
     _m = re.sub(r"\n\s*\n", "\n", _m)
     return _m
 
@@ -3893,8 +3915,11 @@ def sync_date_modified():
         # schema clock (r11 L-11 pin). The pricing-verified <time> is a
         # separate factual stamp with its own meaning - only the "updated"
         # byline moves with the unified date.
-        _s = _re.sub(r'[Uu]pdated <time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>',
-                     f'Updated <time datetime="{_val}">{_val}</time>', _s)
+        # Redesign (2026-10-23): case-preserving so the sentence-case byline
+        # ("· updated <time>") keeps its lower-case word while still tracking
+        # the schema clock. Only the word's case is preserved.
+        _s = _re.sub(r'([Uu])pdated <time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>',
+                     lambda _m: _m.group(1) + 'pdated <time datetime="' + _val + '">' + _val + '</time>', _s)
         # A3 H-2 (2026-10-02): kept for blame-fallback pages only (see r20 H-2
         # block below). Human-date pages never gain an Updated note.
         # r20 H-2 (2026-10-02): the Updated note is only meaningful when blame
@@ -3906,7 +3931,7 @@ def sync_date_modified():
                 if _vis and all(_val > _v for _v in _vis):
                     try:
                         import datetime as _dt2
-                        _ud = _dt2.datetime.strptime(_val, '%Y-%m-%d').strftime('%b %d, %Y').upper()
+                        _ud = _dt2.datetime.strptime(_val, '%Y-%m-%d').strftime('%d %b %Y')
                     except ValueError:
                         _ud = _val
                     # (the lambda below carries the group reference; never use a backslash literal here)
@@ -3914,7 +3939,11 @@ def sync_date_modified():
                                  lambda _m: _m.group(1) + ' &middot; Updated <time datetime="' + _val + '">' + _ud + '</time>',
                                  _s, count=1)
         else:
-            _s = _re.sub(r'[ ]*(?:&middot;|·)[ ]*[Uu]pdated <time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>',
+            # r20 H-2 (2026-10-02), redesign (2026-10-23): drop only the
+            # capital-U note this sync injects as a duplicate of Last-verified.
+            # The tool header's own lower-case "· updated <time>" is the L-11
+            # byline clock and stays.
+            _s = _re.sub(r'[ ]*(?:&middot;|·)[ ]*Updated <time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>',
                          lambda _m: '', _s)
         # r16 L-7 (2026-09-29): pages that already define a WebPage node
         # keep it (unified above); every other page gets one with the

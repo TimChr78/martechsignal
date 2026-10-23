@@ -6,21 +6,24 @@
 - Surfer SEO
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · SEO & Search
+
 ## Surfer SEO review (2026): pricing, AI features, verdict
 
 AI-powered content optimization platform for SEO-driven article writing and audits
 
-SEO & Search · From $49/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Surfer SEO →](https://surferseo.com)
+36/60
+
+- **Price:** From $49/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Surfer SEO is a tool in SEO & Search with paid plans starting at $49/mo. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Surfer SEO →](https://surferseo.com)
 
 ## MartechSignal Score: 36/60
 
@@ -112,7 +115,7 @@ Surfer SEO starts at $49/mo. Discovery $49-59/mo; Standard $99-119/mo; Pro $182-
 **Is Surfer SEO worth paying for in 2026?**
 Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a human editor; it is a compass, not a writer.
 
-## Similar Tools
+## Similar tools
 
 - [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
 - [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
@@ -122,7 +125,7 @@ Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a hu
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 - [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ## Also featured in
 
@@ -142,8 +145,4 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,24 @@
 - Twilio Segment
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Personalization & CDP
+
 ## Twilio Segment review (2026): pricing, AI features, verdict
 
 Customer data platform for collecting, unifying, and activating customer data
 
-Personalization & CDP · Freemium from $120/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Freemium from $120/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Twilio Segment →](https://segment.com)
+46/60
+
+- **Price:** Freemium from $120/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Twilio Segment is a tool in Personalization & CDP with a free tier. The catalog documents 6 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Twilio Segment →](https://segment.com)
 
 ## MartechSignal Score: 46/60
 
@@ -143,7 +146,7 @@ On the docs side, yes: every Segment documentation page exposes a markdown versi
 **What is the difference between Segment Connections, Unify, and Engage?**
 Connections is the data pipeline: sources, destinations, Reverse ETL, and warehouse sync. Unify, formerly Profiles, adds identity resolution, a profile explorer, and the Profile API. Engage builds on Unify for activation: audiences, computed and SQL traits, predictions, and campaigns over SMS, email, and WhatsApp. Protocols, the tracking-plan governance layer, is a separate add-on, and each layer gates at a higher plan.
 
-## Similar Tools
+## Similar tools
 
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
 - [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
@@ -153,8 +156,8 @@ Connections is the data pipeline: sources, destinations, Reverse ETL, and wareho
 ## Related reading
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Teams whose personalization problem is really a data plumbing problem
@@ -174,8 +177,4 @@ Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/) · [
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

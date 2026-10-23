@@ -6,21 +6,24 @@
 - Klaviyo
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Email Marketing
+
 ## Klaviyo review (2026): pricing, AI features, verdict
 
 AI-powered email and SMS marketing platform built for ecommerce brands
 
-Email Marketing · Freemium from $20/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Freemium from $20/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Klaviyo →](https://www.klaviyo.com)
+39/60
+
+- **Price:** Freemium from $20/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Klaviyo is a tool in Email Marketing with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Klaviyo →](https://www.klaviyo.com)
 
 ## MartechSignal Score: 39/60
 
@@ -112,7 +115,7 @@ Klaviyo has a free tier; paid plans start at $20/mo. Free up to 250 contacts/500
 **Is Klaviyo worth it past the free tier?**
 The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a CDP-backed stack fits better.
 
-## Similar Tools
+## Similar tools
 
 - [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
 - [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
@@ -121,8 +124,8 @@ The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a 
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — DTC brands that want store data doing the segmentation
@@ -144,8 +147,4 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

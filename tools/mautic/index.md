@@ -6,21 +6,25 @@
 - Mautic
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Marketing Automation
+
 ## Mautic review (2026): pricing, AI features, verdict
 
 Open-source marketing automation platform with email, campaigns, and lead management
 
-Marketing Automation · Open Source from €247.50/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from €247.50/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Mautic →](https://www.mautic.org)
+38/60
+
+- **Price:** Open Source from €247.50/mo
+- **Licence:** GPL-3.0
+- **GitHub stars:** 10,822
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Mautic is a tool in Marketing Automation with free and open source. The catalog documents 10 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Mautic →](https://www.mautic.org)
 
 ## MartechSignal Score: 38/60
 
@@ -140,7 +144,7 @@ PHP 8.2, 8.3, 8.4, or 8.5 with the xml, mysql, imap, zip, intl, curl, gd, mbstri
 **How does Mautic handle GDPR compliance?**
 The features page describes IP anonymization for visitor records, site tracking that can be placed behind a cookie consent gate, automated cleanup of anonymous visitors, audit logs, and inactive contacts after a configurable time frame, and CCPA do-not-sell list syncing through MaxMind-powered cron jobs (mautic:max-mind:purge and mautic:donotsell:download). Contacts get a preference center and frequency rules. Worth knowing: the documentation itself has no dedicated GDPR page, so these capabilities live on a marketing page and the implementation work stays with whoever operates the instance.
 
-## Similar Tools
+## Similar tools
 
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 - [ActiveCampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
@@ -150,8 +154,8 @@ The features page describes IP anonymization for visitor records, site tracking 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Marketing teams that want HubSpot-class automation they can host themselves
@@ -172,8 +176,4 @@ Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,25 @@
 - Frappe CRM
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · CRM
+
 ## Frappe CRM review (2026): pricing, AI features, verdict
 
 Fully featured, open source CRM
 
-CRM · Open Source from $5/site/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Open Source from $5/site/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Frappe CRM →](https://frappe.io/crm)
+36/60
+
+- **Price:** Open Source from $5/site/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 3,841
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Frappe CRM is a tool in CRM with free and open source. The catalog documents 5 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Frappe CRM →](https://frappe.io/crm)
 
 ## MartechSignal Score: 36/60
 
@@ -133,7 +137,7 @@ Frappe CRM is a standalone app with a purpose-built sales interface, while ERPNe
 **Can Frappe CRM make phone calls?**
 Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal, and contact pages, an incoming call pop-up with accept, reject, and mute, a recording toggle, and the ability to attach notes or tasks from the call. Twilio needs an Account SID, Auth Token, and a Twilio number with a webhook URL; Exotel needs an Account SID, subdomain, API key, API token, and Exophone, plus completed KYC.
 
-## Similar Tools
+## Similar tools
 
 - [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
 - [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
@@ -143,8 +147,8 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for budget-conscious sales teams, especially ERPNext shops.
@@ -163,8 +167,4 @@ Related guides: [Frappe CRM in Hubspot Crm alternatives](/alternatives/hubspot-c
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

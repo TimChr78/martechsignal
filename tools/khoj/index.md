@@ -6,21 +6,25 @@
 - Khoj
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · AI Content & Copywriting
+
 ## Khoj review (2026): pricing, AI features, verdict
 
 Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
 
-AI Content & Copywriting · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Khoj →](https://khoj.dev)
+37/60
+
+- **Price:** Open Source
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 37,782
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Khoj is a tool in AI Content & Copywriting with free and open source. The catalog documents 5 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Khoj →](https://khoj.dev)
 
 ## MartechSignal Score: 37/60
 
@@ -126,7 +130,7 @@ Yes. It chats with local models alongside hosted ones from OpenAI, Anthropic, Go
 **Does the license affect commercial use?**
 AGPL-3.0 covers the code. Using it internally is straightforward; deploying a modified version for outside users creates source disclosure obligations, which is worth a legal check first.
 
-## Similar Tools
+## Similar tools
 
 - [Strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
 - [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
@@ -135,9 +139,9 @@ AGPL-3.0 covers the code. Using it internally is straightforward; deploying a mo
 - [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
 ## Related reading
 
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -151,8 +155,4 @@ AGPL-3.0 covers the code. Using it internally is straightforward; deploying a mo
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More AI Content & Copywriting Tools →](/categories/content-ai/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

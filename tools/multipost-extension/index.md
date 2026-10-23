@@ -6,21 +6,25 @@
 - MultiPost
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Social Media
+
 ## MultiPost review (2026): pricing, AI features, verdict
 
 Browser extension to publish content to multiple social media platforms with one click
 
-Social Media · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit MultiPost →](https://multipost.app)
+31/60
+
+- **Price:** Open Source
+- **Licence:** Apache-2.0
+- **GitHub stars:** 3,679
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** MultiPost is a tool in Social Media with free and open source. The catalog documents 2 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit MultiPost →](https://multipost.app)
 
 ## MartechSignal Score: 31/60
 
@@ -90,7 +94,7 @@ MultiPost is open source - Apache-2.0 licensed and free to self-host; the public
 **Is MultiPost a good self-hosted Social Media tool in 2026?**
 Excellent lightweight cross-poster for individual creators; agencies need more machinery.
 
-## Similar Tools
+## Similar tools
 
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
 - [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
@@ -123,8 +127,4 @@ Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Social Media Tools →](/categories/social-media/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,25 @@
 - SuiteCRM
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## SuiteCRM review (2026): pricing, AI features, verdict
 
 Enterprise-grade open-source CRM with sales, marketing, and support automation
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit SuiteCRM →](https://www.suitecrm.com)
+34/60
+
+- **Price:** Open Source
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 5,806
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** SuiteCRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit SuiteCRM →](https://www.suitecrm.com)
 
 ## MartechSignal Score: 34/60
 
@@ -125,7 +129,7 @@ No native ones. The documented feature set, release notes, roadmap, and user gui
 **How do you migrate from SuiteCRM 7 to SuiteCRM 8?**
 As a fresh installation, not an in-place patch. The docs require the latest 7.x release as the source (migrating from an older 7.x will fail or produce unstable results), then a new SuiteCRM 8 install with three console commands: ./bin/console suitecrm:app:setup-legacy-migration, ./bin/console suitecrm:app:upgrade -t with the migration package, for example SuiteCRM-8.7.0, and ./bin/console suitecrm:app:upgrade-finalize. The 7 codebase is copied into public/legacy and continues to serve the legacy surface. Test on a copy, since 8.10 also removed the SOAP portal as a breaking change.
 
-## Similar Tools
+## Similar tools
 
 - [Django CRM](/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 - [EspoCRM](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management
@@ -133,9 +137,9 @@ As a fresh installation, not an in-place patch. The docs require the latest 7.x 
 - [Krayin CRM](/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for teams that want the widest free feature set.
@@ -156,8 +160,4 @@ Related guides: [SuiteCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

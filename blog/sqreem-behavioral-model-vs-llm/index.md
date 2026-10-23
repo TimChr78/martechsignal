@@ -1,6 +1,6 @@
 # SQREEM's bet: behavior beats language
 
-AI · ADVERTISING · 6 MIN
+AI · Advertising · 6 min read
 
 ## SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing
 
@@ -8,7 +8,7 @@ AI · ADVERTISING · 6 MIN
 
 [Home](/) · [Blog](/blog/) · SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing
 
-OCT 02, 2026
+02 Oct 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/) · [Analytics & Attribution](/categories/analytics/)
 
@@ -62,9 +62,9 @@ Tools linked in this post: [HubSpot CRM](/tools/hubspot-crm/) · [Claude Ads](/t
 
 ## Related reading
 
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
 ## Related tools
 
 - [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
@@ -72,16 +72,14 @@ Tools linked in this post: [HubSpot CRM](/tools/hubspot-crm/) · [Claude Ads](/t
 - [Revealbot (Birch)](/tools/revealbot/) - AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 ## Comparison guides
 
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
-- [Lead scoring](/glossary/lead-scoring/)
+- [AI Agent](/glossary/ai-agent/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 Verdict: credible critique, unproven engine, no reason to move budget yet

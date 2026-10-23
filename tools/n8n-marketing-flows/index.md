@@ -6,21 +6,25 @@
 - n8n Marketing Flows
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
+Review · Workflow Automation
+
 ## n8n Marketing Flows review (2026): pricing, AI features, verdict
 
 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
 
-Workflow Automation · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit n8n Marketing Flows →](https://github.com/YuriCrystal/n8n-marketing-flows)
+36/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 181
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** n8n Marketing Flows is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit n8n Marketing Flows →](https://github.com/YuriCrystal/n8n-marketing-flows)
 
 ## MartechSignal Score: 36/60
 
@@ -110,7 +114,7 @@ n8n Marketing Flows is open source - MIT licensed and free to self-host; the pub
 **Is n8n Marketing Flows a good self-hosted Workflow Automation tool in 2026?**
 The largest verified free template pack for n8n marketing automation, with a genuinely free local-Ollama path and honest credential handling. Recommended if you run n8n and want proven starting points, especially for Chinese-language social and monitoring workflows.
 
-## Similar Tools
+## Similar tools
 
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
@@ -120,8 +124,8 @@ The largest verified free template pack for n8n marketing automation, with a gen
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
-- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -136,8 +140,4 @@ The largest verified free template pack for n8n marketing automation, with a gen
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

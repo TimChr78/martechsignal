@@ -6,21 +6,25 @@
 - Notifo
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Email Marketing
+
 ## Notifo review (2026): pricing, AI features, verdict
 
 Self-hosted multi-channel notification service for email, SMS, and web push
 
-Email Marketing · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Notifo →](https://notifo.io)
+31/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 883
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Notifo is a tool in Email Marketing with free and open source. The catalog documents 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Notifo →](https://notifo.io)
 
 ## MartechSignal Score: 31/60
 
@@ -133,7 +137,7 @@ Not as documented providers. Email goes through Amazon SES, SMS through MessageB
 **Notifo vs Notifuse: are they the same thing?**
 No, they are unrelated projects with confusingly similar names. Notifo (notifo-io/notifo) is a C#/.NET multi-channel notification service under MIT, built by the Squidex team, covering email, SMS, web push, mobile push and in-app sockets behind one API. Notifuse (notifuse/notifuse) is a Go-based self-hosted email marketing and transactional platform with a paid cloud, positioned against Mailchimp and Brevo. If you want campaign and newsletter sending, you want Notifuse or similar; if you want an API for product notifications, that is Notifo's job.
 
-## Similar Tools
+## Similar tools
 
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
@@ -143,8 +147,8 @@ No, they are unrelated projects with confusingly similar names. Notifo (notifo-i
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -159,8 +163,4 @@ No, they are unrelated projects with confusingly similar names. Notifo (notifo-i
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

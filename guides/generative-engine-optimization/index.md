@@ -75,5 +75,3 @@ GEO lands badly when it becomes nobody's job and well when it becomes one person
 One caveat worth stating plainly: everything here is observation, not doctrine. The engines change their behavior without notice, and the honest GEO practice is to re-check your assumptions against your own prompt set every quarter rather than to trust any guide, including this one.
 
 Sources: [Profound](https://www.tryprofound.com/) · [Profound pricing](https://www.tryprofound.com/pricing) · [OtterlyAI](https://otterly.ai/) · [Google Analytics support](https://support.google.com/analytics)
-
-© 2026 MartechSignal · by Tim Christensen

@@ -6,21 +6,24 @@
 - Salesforce Marketing Cloud
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Marketing Automation
+
 ## Salesforce Marketing Cloud review (2026): pricing, AI features, verdict
 
 Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 
-Marketing Automation · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Salesforce Marketing Cloud →](https://www.salesforce.com/products/marketing-cloud/)
+42/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Salesforce Marketing Cloud is a tool in Marketing Automation with paid plans starting at $25/user/mo. The catalog documents 5 AI features, 9 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Salesforce Marketing Cloud →](https://www.salesforce.com/products/marketing-cloud/)
 
 ## MartechSignal Score: 42/60
 
@@ -134,7 +137,7 @@ The product is being rebranded. Salesforce now presents it as Agentforce Marketi
 **Is there a free trial for Marketing Cloud?**
 Only at the small end. Starter Suite and Pro Suite carry a 'try for free' link on the pricing page. Marketing Cloud Next Growth and Advanced list no self-serve trial: they are sold through sales, billed annually, and paid in advance, and the Premier success plan adds 30 percent of net license fees on top of the license.
 
-## Similar Tools
+## Similar tools
 
 - [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
@@ -143,8 +146,8 @@ Only at the small end. Starter Suite and Pro Suite carry a 'try for free' link o
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Enterprise estates already bought into Salesforce's cloud stack
@@ -164,8 +167,4 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

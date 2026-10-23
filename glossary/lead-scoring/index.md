@@ -2,9 +2,9 @@
 
 ## Lead Scoring
 
-GLOSSARY
+Glossary
 
-Definition last Updated 2026-10-06
+Definition last updated 2026-10-06
 
 ## Definition
 
@@ -65,8 +65,4 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
 ## See also
 
 - [MQL / SQL](/glossary/mql-sql/)
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

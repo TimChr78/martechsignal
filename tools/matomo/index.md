@@ -6,23 +6,27 @@
 - Matomo
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Analytics & Attribution
+
 ## Matomo review (2026): pricing, AI features, verdict
 
 Open-source web analytics platform with full data ownership and AI-powered insights
 
-Analytics & Attribution · Open Source from €22/mo Desk-reviewed
-
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Open Source from €22/mo Desk-reviewed
 
 Looking for options? [Best Matomo alternatives](/alternatives/matomo/)
 
-[Visit Matomo →](https://matomo.org)
+MartechSignal score
+
+49/60
+
+- **Price:** Open Source from €22/mo
+- **Licence:** GPL-3.0
+- **GitHub stars:** 21,969
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Matomo is a tool in Analytics & Attribution with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Matomo →](https://matomo.org)
 
 ## MartechSignal Score: 49/60
 
@@ -146,7 +150,7 @@ The differences that matter are ownership and sampling. Matomo stores data in yo
 **Does Matomo have AI features?**
 Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 added reports for AI chatbot content requests and real-time chatbot traffic, an AIAgents plugin ships enabled on new instances, and a free official MCP Server plugin connects Matomo to ChatGPT, Claude, and other MCP clients, with write actions requiring approval. There is no AI anomaly detection or predictive analytics in the product today.
 
-## Similar Tools
+## Similar tools
 
 - [Plausible Analytics](/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
 - [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
@@ -155,8 +159,8 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Teams that want GA-grade analytics with the data staying home
@@ -180,8 +184,4 @@ Related guides: [Alternatives to Matomo](/alternatives/matomo/) · [Matomo vs Pl
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,24 @@
 - Workato
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Workflow Automation
+
 ## Workato review (2026): pricing, AI features, verdict
 
 Enterprise AI governance plus integration and automation on one platform
 
-Workflow Automation · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Workato →](https://www.workato.com)
+36/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Workato is a tool in Workflow Automation with custom pricing. The catalog documents 6 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Workato →](https://www.workato.com)
 
 ## MartechSignal Score: 36/60
 
@@ -135,7 +138,7 @@ It is Workato's product for exposing your apps, data, and processes as governed 
 **Is there a free way to learn Workato before buying?**
 Yes, for training. The Workato Automation Institute's certificate programs (Automation Pro I, II, and III) are free with a valid Workato account, and the company reports 10,000+ graduates and 20,000+ certificates awarded across 80+ countries, with the stated caveat that free access is not guaranteed to continue. There is also a Workato CLI for macOS, Windows, and Linux on the developer portal. Product access itself is demo-gated: no self-serve signup and no published trial length.
 
-## Similar Tools
+## Similar tools
 
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
@@ -144,8 +147,8 @@ Yes, for training. The Workato Automation Institute's certificate programs (Auto
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for enterprises governing agents and integration in one platform.
@@ -168,10 +171,6 @@ Related guides: [Workato in Zapier alternatives](/alternatives/zapier/) · [Work
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
-[VIEW PRICING →](https://www.workato.com/pricing)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
+[View pricing →](https://www.workato.com/pricing)

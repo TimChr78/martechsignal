@@ -1,6 +1,6 @@
 # Claude Cowork is eating the edges of your martech stack
 
-AI · MARKETING OPS · 8 MIN
+AI · Marketing Ops · 8 min read
 
 ## Claude Cowork is eating the edges of your martech stack
 
@@ -8,7 +8,7 @@ AI · MARKETING OPS · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Claude Cowork is eating the edges of your martech stack
 
-JUL 30, 2026
+30 Jul 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 
@@ -88,9 +88,9 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 
 ## Related reading
 
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ## Related tools
 
 - [Digital Marketing Pro](/tools/digital-marketing-pro/) - 163-skill AI marketing plugin for agencies with EU AI Act compliance
@@ -99,7 +99,7 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 ## Comparison guides
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/)
 ## Glossary terms
 
 - [Marketing ops](/glossary/marketing-ops/)
@@ -109,7 +109,5 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [LibreTranslate](/tools/libretranslate/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

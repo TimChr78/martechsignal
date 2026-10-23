@@ -6,21 +6,24 @@
 - Profound
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Profound review (2026): pricing, AI features, verdict
 
 Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
-GEO & LLM Optimization · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Profound →](https://www.tryprofound.com/)
+34/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Profound is a tool in GEO & LLM Optimization with custom pricing. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Profound →](https://www.tryprofound.com/)
 
 ## MartechSignal Score: 34/60
 
@@ -127,7 +130,7 @@ Not on trial. Trial users get a recommended prompt set based on their industry. 
 **Does Profound only measure AI visibility?**
 No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent Analytics) with agents that draft content, social posts, PR corrections and sponsored answer campaigns.
 
-## Similar Tools
+## Similar tools
 
 - [Rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 - [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
@@ -136,8 +139,8 @@ No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for GEO & LLM optimization teams that want chatgpt shopping visibility tracking, with pricing quoted per contract.
@@ -155,8 +158,4 @@ Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

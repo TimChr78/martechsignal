@@ -6,21 +6,25 @@
 - Notifuse
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Email Marketing
+
 ## Notifuse review (2026): pricing, AI features, verdict
 
 Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 
-Email Marketing · Open Source from $19/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source from $19/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Notifuse →](https://www.notifuse.com)
+38/60
+
+- **Price:** Open Source from $19/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 2,255
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Notifuse is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Notifuse →](https://www.notifuse.com)
 
 ## MartechSignal Score: 38/60
 
@@ -116,7 +120,7 @@ Notifuse has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0
 **Is Notifuse a good self-hosted Email Marketing tool in 2026?**
 Sensible self-hosted routing layer for engineers; overkill for marketers.
 
-## Similar Tools
+## Similar tools
 
 - [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server
 - [Loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
@@ -126,7 +130,7 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want the job covered in one platform and can host it themselves, with a free starting tier.
@@ -146,8 +150,4 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

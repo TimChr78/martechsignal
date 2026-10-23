@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Attio
+Review · CRM
+
 ## Attio review (2026): pricing, AI features, verdict
 
 AI-native CRM with real-time data enrichment and agentic revenue workflows
 
-CRM · Freemium from $29/seat/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-05 · Freemium from $29/seat/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Attio →](https://attio.com)
+37/60
+
+- **Price:** Freemium from $29/seat/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Attio is a tool in CRM with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Attio →](https://attio.com)
 
 ## MartechSignal Score: 37/60
 
@@ -111,7 +114,7 @@ Attio has a free tier; paid plans start at $29/seat/mo. Free (3 seats); Plus $29
 **Is Attio worth it past the free tier?**
 Worth a look when your CRM needs custom objects and live segments more than it needs a sales methodology out of the box.
 
-## Similar Tools
+## Similar tools
 
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
@@ -121,8 +124,8 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for startups that want a CRM shaped around their own data model.
@@ -141,8 +144,4 @@ Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

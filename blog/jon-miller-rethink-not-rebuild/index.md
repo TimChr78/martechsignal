@@ -1,6 +1,6 @@
 # Rethink, not rebuild: the replatform-for-AI trap
 
-MARKETING AUTOMATION · AI AGENTS · 6 MIN
+Marketing Automation · AI Agents · 6 min read
 
 ## Rethink, not rebuild: Jon Miller and the replatform-for-AI trap
 
@@ -8,7 +8,7 @@ MARKETING AUTOMATION · AI AGENTS · 6 MIN
 
 [Home](/) · [Blog](/blog/) · Rethink, not rebuild: Jon Miller and the replatform-for-AI trap
 
-OCT 01, 2026
+01 Oct 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -66,9 +66,9 @@ But do not replatform *for* AI. If the stack you have runs your programs, the AI
 
 ## Related reading
 
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Related tools
 
 - [Bloomreach](/tools/bloomreach/) - AI-powered commerce experience platform with search, personalization, and CDP
@@ -77,7 +77,7 @@ But do not replatform *for* AI. If the stack you have runs your programs, the AI
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 ## Glossary terms
 
 - [DSP](/glossary/dsp/)
@@ -85,7 +85,5 @@ But do not replatform *for* AI. If the stack you have runs your programs, the AI
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 Verdict: the replatform pitch is a trap

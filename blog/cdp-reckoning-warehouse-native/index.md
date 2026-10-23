@@ -1,6 +1,6 @@
 # The CDP Reckoning: Your Next CDP Is a Warehouse
 
-CDP · CRM · 8 MIN
+CDP · CRM · 8 min read
 
 ## The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For
 
@@ -8,7 +8,7 @@ CDP · CRM · 8 MIN
 
 [Home](/) · [Blog](/blog/) · The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For
 
-SEP 02, 2026
+02 Sep 2026
 
 Filed under [CRM](/categories/crm/) · [Analytics & Attribution](/categories/analytics/)
 
@@ -96,7 +96,5 @@ Our directory breaks down customer data platforms and activation tools by pricin
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [Jasper](/tools/jasper/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

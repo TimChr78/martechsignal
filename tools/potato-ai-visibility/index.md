@@ -6,23 +6,27 @@
 - Potato
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
-KIND: Utility (not an end-to-end platform)
+Kind: Utility (not an end-to-end platform)
+
+Review · SEO & Search
 
 ## Potato review (2026): pricing, AI features, verdict
 
 Free local tool that measures brand mentions and citations in Claude's web-search answers
 
-SEO & Search · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Potato →](https://github.com/onism1767-creator/potato)
+32/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 166
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Potato is a tool in SEO & Search with free and open source. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Potato →](https://github.com/onism1767-creator/potato)
 
 ## MartechSignal Score: 32/60
 
@@ -108,7 +112,7 @@ Potato is open source - MIT licensed and free to self-host; the public repositor
 **Is Potato a good self-hosted SEO & Search tool in 2026?**
 The most methodologically honest AI-visibility tool in this directory: scoped claims, deterministic scoring, cost-capped runs, and a reproducible method. Use it to track your Claude-answer presence over time; do not mistake it for a full AI-search measurement.
 
-## Similar Tools
+## Similar tools
 
 - [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 - [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
@@ -117,8 +121,8 @@ The most methodologically honest AI-visibility tool in this directory: scoped cl
 ## Related reading
 
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -133,8 +137,4 @@ The most methodologically honest AI-visibility tool in this directory: scoped cl
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

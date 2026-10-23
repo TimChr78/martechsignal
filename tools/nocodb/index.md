@@ -6,21 +6,25 @@
 - NocoDB
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Marketing Automation
+
 ## NocoDB review (2026): pricing, AI features, verdict
 
 Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
 
-Marketing Automation · Open-core from $12/seat/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open-core from $12/seat/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit NocoDB →](https://nocodb.com)
+45/60
+
+- **Price:** Open-core from $12/seat/mo
+- **Licence:** Open source
+- **GitHub stars:** 65,319
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** NocoDB is a tool in Marketing Automation with free and open source. The catalog documents 3 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit NocoDB →](https://nocodb.com)
 
 ## MartechSignal Score: 45/60
 
@@ -143,7 +147,7 @@ Ownership and cost structure. Your data lives in your own Postgres or MySQL, sel
 **Can NocoDB use my existing Postgres or MySQL database?**
 Yes, that is the core design: connect an external data source and NocoDB builds spreadsheet views, forms, permissions and webhooks over your existing tables. Community edition covers PostgreSQL (14 or later recommended) and MySQL (5.7 or later); SQL Server and Oracle are enterprise add-ons. Schema editing is disabled by default and the docs advise keeping it that way, so the default setup writes data without altering your tables. On NocoDB Cloud, external connections are not available on the Plus plan and require Business.
 
-## Similar Tools
+## Similar tools
 
 - [Ever Gauzy](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
@@ -153,8 +157,8 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 ## Related reading
 
 - [Where NocoDB sits against NocoBase and Budibase](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier.
@@ -174,8 +178,4 @@ Related guides: [NocoDB vs Nocobase](/vs/nocodb-vs-nocobase/) · [Ai Marketing A
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

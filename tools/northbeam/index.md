@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Northbeam
+Review · Analytics & Attribution
+
 ## Northbeam review (2026): pricing, AI features, verdict
 
 AI-powered multi-touch attribution and marketing intelligence for ecommerce
 
-Analytics & Attribution · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-17 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Northbeam →](https://www.northbeam.io)
+32/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Northbeam is a tool in Analytics & Attribution with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-17. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Northbeam →](https://www.northbeam.io)
 
 ## MartechSignal Score: 32/60
 
@@ -110,7 +113,7 @@ Northbeam uses enterprise pricing, so the number depends on your volume and cont
 **Is Northbeam a good Analytics & Attribution tool in 2026?**
 Credible MTA for heavy paid-media spenders; directional signal, not truth, and priced accordingly.
 
-## Similar Tools
+## Similar tools
 
 - [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
 - [Attribution](/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue
@@ -119,8 +122,8 @@ Credible MTA for heavy paid-media spenders; directional signal, not truth, and p
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — DTC brands whose incrementality questions deserve real modeling
@@ -139,8 +142,4 @@ Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

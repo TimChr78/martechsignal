@@ -6,23 +6,27 @@
 - Eve Marketing Team Template
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
-KIND: Utility (not an end-to-end platform)
+Kind: Utility (not an end-to-end platform)
+
+Review · Agent Skills
 
 ## Eve Marketing Team Template review (2026): pricing, AI features, verdict
 
 Open-source team of marketing agents on eve: lead, content, social, SEO, email
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Eve Marketing Team Template →](https://github.com/vercel-labs/marketing-team-eve-template)
+38/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 455
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Eve Marketing Team Template is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Eve Marketing Team Template →](https://github.com/vercel-labs/marketing-team-eve-template)
 
 ## MartechSignal Score: 38/60
 
@@ -110,7 +114,7 @@ Eve Marketing Team Template is open source - MIT licensed and free to self-host;
 **Is Eve Marketing Team Template a good self-hosted Agent Skills tool in 2026?**
 The fastest way to see a multi-agent marketing team running on real tools, and a solid reference for designing your own specialist-team architecture. A template that fits Vercel-plus-Slack shops; teams with different stacks should treat it as a blueprint rather than a deployment.
 
-## Similar Tools
+## Similar tools
 
 - [Email Marketing Bible](/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
@@ -120,8 +124,8 @@ The fastest way to see a multi-agent marketing team running on real tools, and a
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier.
@@ -141,8 +145,4 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

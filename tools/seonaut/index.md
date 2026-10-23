@@ -6,21 +6,25 @@
 - Seonaut
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · SEO & Search
+
 ## Seonaut review (2026): pricing, AI features, verdict
 
 Open-source SEO crawler in Go for technical audits, self-hosted or cloud
 
-SEO & Search · Open Source from $9/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Seonaut →](https://seonaut.org)
+30/60
+
+- **Price:** Open Source from $9/mo
+- **Licence:** MIT
+- **GitHub stars:** 823
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Seonaut is a tool in SEO & Search with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Seonaut →](https://seonaut.org)
 
 ## MartechSignal Score: 30/60
 
@@ -127,7 +131,7 @@ The self-hosted Community edition is MIT-licensed and free, including commercial
 **Does SEOnaut compare to Screaming Frog?**
 On core technical auditing, more than you might expect: broken links, redirect chains and loops, missing and duplicate metas, heading structure, hreflang, canonical tags, alt text, orphan and dead-end pages, and response-time checks, with 79 issue types in code and ECharts dashboards. The gaps are the commercial tool's strengths: no JavaScript rendering, no API, no team features, no integrated keyword or log-file analysis, and no tagged releases. The project itself makes no comparison claims; it positions as created by SEOs for everyone rather than as a Screaming Frog competitor. For a no-cost, self-hosted crawl of server-rendered sites, it covers the technical layer; for client-facing audits of JS-heavy sites, a rendering crawler remains the safer choice.
 
-## Similar Tools
+## Similar tools
 
 - [OpenSEO](/tools/openseo/): Open source alternative to Ahrefs and Semrush
 - [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
@@ -137,8 +141,8 @@ On core technical auditing, more than you might expect: broken links, redirect c
 ## Related reading
 
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
-- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $9/mo
@@ -154,8 +158,4 @@ On core technical auditing, more than you might expect: broken links, redirect c
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More SEO & Search Tools →](/categories/seo/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

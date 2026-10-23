@@ -1,6 +1,6 @@
 # Autonomous Marketing Platforms Are Real. The Name Is Wrong.
 
-AGENT SKILLS · ADVERTISING · 11 MIN
+Agent Skills · Advertising · 11 min read
 
 ## Autonomous Marketing Platforms Are Real. The Name Is Wrong.
 
@@ -8,7 +8,7 @@ AGENT SKILLS · ADVERTISING · 11 MIN
 
 [Home](/) · [Blog](/blog/) · Autonomous Marketing Platforms Are Real. The Name Is Wrong.
 
-AUG 26, 2026
+26 Aug 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 
@@ -105,8 +105,8 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 ## Related reading
 
 - [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 
 - [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
@@ -125,5 +125,3 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

@@ -6,23 +6,26 @@
 - Mailchimp
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Email Marketing
+
 ## Mailchimp review (2026): pricing, AI features, verdict
 
 All-in-one marketing platform with AI-powered email, automation, and analytics
 
-Email Marketing · Freemium from $13/mo Desk-reviewed
-
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Freemium from $13/mo Desk-reviewed
 
 Looking for options? [Best Mailchimp alternatives](/alternatives/mailchimp/)
 
-[Visit Mailchimp →](https://mailchimp.com)
+MartechSignal score
+
+38/60
+
+- **Price:** Freemium from $13/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Mailchimp is a tool in Email Marketing with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Mailchimp →](https://mailchimp.com)
 
 ## MartechSignal Score: 38/60
 
@@ -114,7 +117,7 @@ Mailchimp has a free tier; paid plans start at $13/mo. Free plan (500 contacts, 
 **Is Mailchimp worth it past the free tier?**
 Fine as a starting point, especially free. Budget to migrate once automation depth or list size starts to strain the plan structure.
 
-## Similar Tools
+## Similar tools
 
 - [Klaviyo](/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
@@ -123,9 +126,9 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 - [OpenOutreach](/tools/openoutreach/): Open-source AI lead finder: describe your product and it finds and qualifies the leads
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Small businesses that want the shortest path from idea to send
@@ -147,8 +150,4 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

@@ -6,21 +6,25 @@
 - BillionMail
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Email Marketing
+
 ## BillionMail review (2026): pricing, AI features, verdict
 
 Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 
-Email Marketing · Open Source from $98.90/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $98.90/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit BillionMail →](https://www.billionmail.com)
+39/60
+
+- **Price:** Open Source from $98.90/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 15,941
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** BillionMail is a tool in Email Marketing with free and open source. The catalog documents 2 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit BillionMail →](https://www.billionmail.com)
 
 ## MartechSignal Score: 39/60
 
@@ -137,7 +141,7 @@ Listmonk is a lean newsletter and mailing-list manager: one Go binary, PostgreSQ
 **Does BillionMail have AI features?**
 One documented one: AI email template generation, added in v4.0, where you describe the email and the editor produces a template, with Anthropic, OpenAI, Gemini, DeepSeek, Grok and Kimi as configurable providers, plus website profiling that pulls brand details from a domain. There is no documented send-time optimization or predictive sending; scheduling is a plain send-time field, and timing quality comes from warmup and rate limits rather than a model. You must configure your own provider key, since AI features stay disabled until a model is set up.
 
-## Similar Tools
+## Similar tools
 
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 - [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server
@@ -147,8 +151,8 @@ One documented one: AI email template generation, added in v4.0, where you descr
 ## Related reading
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $98.90/mo
@@ -163,8 +167,4 @@ One documented one: AI email template generation, added in v4.0, where you descr
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

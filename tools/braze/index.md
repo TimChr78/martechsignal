@@ -6,21 +6,24 @@
 - Braze
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Marketing Automation
+
 ## Braze review (2026): pricing, AI features, verdict
 
 Customer engagement platform with AI-powered real-time messaging across channels
 
-Marketing Automation · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Braze →](https://www.braze.com)
+36/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Braze is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Braze →](https://www.braze.com)
 
 ## MartechSignal Score: 36/60
 
@@ -113,7 +116,7 @@ Braze uses enterprise pricing, so the number depends on your volume and contract
 **Is Braze a good Marketing Automation tool in 2026?**
 Worth it only at meaningful volume with dedicated ops. Smaller teams get 80% of the pattern from Customer.io at a fraction of the cost.
 
-## Similar Tools
+## Similar tools
 
 - [Laudspeaker](/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
@@ -122,9 +125,9 @@ Worth it only at meaningful volume with dedicated ops. Smaller teams get 80% of 
 - [Line Harness](/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
 ## Related reading
 
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Mobile-first brands tuning cross-channel engagement at scale
@@ -143,8 +146,4 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

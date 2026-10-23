@@ -6,21 +6,24 @@
 - Dynamic Yield
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Personalization & CDP
+
 ## Dynamic Yield review (2026): pricing, AI features, verdict
 
 AI-powered personalization platform for web, mobile, and email experiences
 
-Personalization & CDP · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Dynamic Yield →](https://www.dynamicyield.com)
+35/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Dynamic Yield is a tool in Personalization & CDP with custom pricing. The catalog documents 7 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Dynamic Yield →](https://www.dynamicyield.com)
 
 ## MartechSignal Score: 35/60
 
@@ -151,7 +154,7 @@ No price is published. The pricing page redirects to a Mastercard product page w
 **Is Dynamic Yield worth it?**
 It is the vendor with the longest claimed run of Gartner Magic Quadrant leader placements in personalization engines, eight consecutive, and the developer documentation to back an enterprise rollout. If you cannot staff an implementation project, lighter testing and recommendation tools will deliver value faster.
 
-## Similar Tools
+## Similar tools
 
 - [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
 - [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
@@ -160,9 +163,9 @@ It is the vendor with the longest claimed run of Gartner Magic Quadrant leader p
 - [Apache Unomi](/tools/apache-unomi/): Apache's open-source customer data platform and personalization engine
 ## Related reading
 
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Large commerce operations buying personalization depth over self-serve
@@ -181,8 +184,4 @@ Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

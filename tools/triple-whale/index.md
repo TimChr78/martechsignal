@@ -6,21 +6,24 @@
 - Triple Whale
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Analytics & Attribution
+
 ## Triple Whale review (2026): pricing, AI features, verdict
 
 AI-powered ecommerce analytics and attribution platform for DTC brands
 
-Analytics & Attribution · From $59/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · From $59/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Triple Whale →](https://www.triplewhale.com)
+33/60
+
+- **Price:** From $59/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Triple Whale is a tool in Analytics & Attribution with paid plans starting at $59/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Triple Whale →](https://www.triplewhale.com)
 
 ## MartechSignal Score: 33/60
 
@@ -112,7 +115,7 @@ Triple Whale starts at $59/mo. Conversion $59/mo; Retention $179/mo; Foundation 
 **Is Triple Whale worth paying for in 2026?**
 Genuinely useful DTC dashboard consolidation; treat attribution as directional, warehouse for truth.
 
-## Similar Tools
+## Similar tools
 
 - [Northbeam](/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce
 - [Attribution](/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue
@@ -122,8 +125,8 @@ Genuinely useful DTC dashboard consolidation; treat attribution as directional, 
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — DTC operators that want a daily attribution answer, dashboards included
@@ -142,8 +145,4 @@ Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

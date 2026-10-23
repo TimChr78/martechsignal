@@ -6,21 +6,25 @@
 - WaCRM
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## WaCRM review (2026): pricing, AI features, verdict
 
 Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit WaCRM →](https://wacrm.tech)
+38/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 2,595
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** WaCRM is a tool in CRM with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit WaCRM →](https://wacrm.tech)
 
 ## MartechSignal Score: 38/60
 
@@ -143,7 +147,7 @@ One phone number per user account: the schema enforces a unique phone_number_id 
 **What breaks if I skip the cron setup in WaCRM?**
 Automations and flows never run. The container schedules nothing internally, so the docs have you point an external cron at /api/automations/cron and /api/flows/cron with an x-cron-secret header; without it those endpoints return 503 and your auto replies and flows silently do not fire. From the inbox it looks like a broken WhatsApp connection, so check the cron before you debug the Cloud API.
 
-## Similar Tools
+## Similar tools
 
 - [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
 - [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
@@ -151,9 +155,9 @@ Automations and flows never run. The container schedules nothing internally, so 
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 ## Related reading
 
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -173,8 +177,4 @@ Free open-source; self-hosted
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

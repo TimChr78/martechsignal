@@ -6,21 +6,25 @@
 - Laudspeaker
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Marketing Automation
+
 ## Laudspeaker review (2026): pricing, AI features, verdict
 
 Open-source customer engagement and product onboarding platform, alternative to Braze
 
-Marketing Automation · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Laudspeaker →](https://laudspeaker.com/?ref=github)
+30/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 2,630
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Laudspeaker is a tool in Marketing Automation with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Laudspeaker →](https://laudspeaker.com/?ref=github)
 
 ## MartechSignal Score: 30/60
 
@@ -98,7 +102,7 @@ Laudspeaker is open source - MIT licensed and free to self-host; the public repo
 **Is Laudspeaker a good self-hosted Marketing Automation tool in 2026?**
 The open-source Braze alternative for technical growth teams that want data ownership. Others go hosted.
 
-## Similar Tools
+## Similar tools
 
 - [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
 - [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
@@ -107,9 +111,9 @@ The open-source Braze alternative for technical growth teams that want data owne
 - [ActiveCampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
 ## Related reading
 
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Also featured in
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Lifecycle messaging and onboarding journeys that live outside the CRM
@@ -128,8 +132,4 @@ Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Marketing Automation Tools →](/categories/marketing-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

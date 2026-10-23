@@ -6,21 +6,24 @@
 - Freshsales
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · CRM
+
 ## Freshsales review (2026): pricing, AI features, verdict
 
 AI-powered CRM with built-in phone, email, and chat for sales teams
 
-CRM · From $9/user/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · From $9/user/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Freshsales →](https://www.freshworks.com/crm/)
+33/60
+
+- **Price:** From $9/user/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Freshsales is a tool in CRM with paid plans starting at $9/user/mo. The catalog documents 5 AI features and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Freshsales →](https://www.freshworks.com/crm/)
 
 ## MartechSignal Score: 33/60
 
@@ -124,7 +127,7 @@ The current pricing page lists three paid plans and a 21-day trial of the fully 
 **What is a Freshsales bot session?**
 A bot session is any unique interaction between an end user and a bot. On chat, all of one end user's bot interactions in a day count as one session lasting up to 24 hours. Only customer-facing AI bot features consume sessions; agent-facing AI features do not.
 
-## Similar Tools
+## Similar tools
 
 - [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
 - [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
@@ -133,9 +136,9 @@ A bot session is any unique interaction between an end user and a bot. On chat, 
 - [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 ## Related reading
 
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
-- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for budget-conscious teams that still want AI lead scoring.
@@ -154,8 +157,4 @@ Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

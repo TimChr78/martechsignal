@@ -1,6 +1,6 @@
 # Where manual work hides in marketing automation
 
-MARKETING AUTOMATION · MARKETING OPS · 6 MIN
+Marketing Automation · Marketing Ops · 6 min read
 
 ## Where the manual work still hides in your marketing automation
 
@@ -8,7 +8,7 @@ MARKETING AUTOMATION · MARKETING OPS · 6 MIN
 
 [Home](/) · [Blog](/blog/) · Where the manual work still hides in your marketing automation
 
-OCT 14, 2026
+14 Oct 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Workflow Automation](/categories/workflow-automation/)
 
@@ -74,9 +74,9 @@ Automate the checks before the words. Link validation, merge-tag tests, UTM gene
 
 ## Related reading
 
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
@@ -84,15 +84,13 @@ Automate the checks before the words. Link validation, merge-tag tests, UTM gene
 - [Bloomreach](/tools/bloomreach/) - AI-powered commerce experience platform with search, personalization, and CDP
 ## Comparison guides
 
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
-- [ActiveCampaign vs HubSpot CRM (2026): pricing, automation](/vs/activecampaign-vs-hubspot/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 ✓ The order that works

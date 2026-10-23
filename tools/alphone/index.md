@@ -6,21 +6,25 @@
 - AlphOne
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · CRM
+
 ## AlphOne review (2026): pricing, AI features, verdict
 
 Plugin-first CRM (source-available, Elastic 2.0) written in Go
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit AlphOne →](https://github.com/gopherium/AlphOne)
+29/60
+
+- **Price:** Open Source
+- **Licence:** Elastic License 2.0
+- **GitHub stars:** 284
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** AlphOne is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit AlphOne →](https://github.com/gopherium/AlphOne)
 
 ## MartechSignal Score: 29/60
 
@@ -110,7 +114,7 @@ AlphOne is source-available rather than open source - Elastic License 2.0 licens
 **Is AlphOne a good self-hosted CRM tool in 2026?**
 An API-first CRM built to be driven by n8n and AI agents rather than replace them. Early-stage, split-licensed, and best judged as a foundation for an automated stack.
 
-## Similar Tools
+## Similar tools
 
 - [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
 - [Django CRM](/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
@@ -119,8 +123,8 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -136,8 +140,4 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

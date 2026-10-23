@@ -2,9 +2,9 @@
 
 ## AI Content Generation
 
-GLOSSARY
+Glossary
 
-Definition last Updated 2026-10-05
+Definition last updated 2026-10-05
 
 ## Definition
 
@@ -52,8 +52,4 @@ Sources: [Anyword](https://www.anyword.com) · [ALwrity](https://alwrity.com) ·
 - [AI Content & Copywriting](/categories/content-ai/)
 - [Best AI Content & Copywriting tools](/best/ai-content-copywriting-tools/)
 - [AI SEO tooling](/guides/ai-seo-tooling/)
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [Browse all tools →](/tools/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

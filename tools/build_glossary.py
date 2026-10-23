@@ -91,16 +91,16 @@ def build_hub(terms, term_dates=None):
         first = t["term"][0].upper()
         letters.setdefault(first, []).append(t)
 
-    alpha_nav = '<div class="alpha-nav" style="display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem 0">'
+    alpha_nav = '<div class="alpha-nav">'
     for letter in sorted(letters.keys()):
-        alpha_nav += f'<a href="#{letter}" style="font:600 .85rem var(--mono);color:var(--amber);text-decoration:none;padding:.2rem .5rem;border:1px solid var(--line2);border-radius:4px">{letter}</a>'
+        alpha_nav += f'<a href="#{letter}">{letter}</a>'
     alpha_nav += '</div>'
 
     # Term cards grouped by letter
     cards = ""
     for letter in sorted(letters.keys()):
-        cards += f'<h2 id="{letter}" style="margin-top:2rem;font:700 1.1rem var(--sans)">{letter}</h2>\n'
-        cards += '<div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">\n'
+        cards += f'<h2 id="{letter}">{letter}</h2>\n'
+        cards += '<div class="tool-grid">\n'
         for t in letters[letter]:
             cards += f"""<a class="tool-card" href="/glossary/{t['slug']}/">
   <div class="name">{esc(t['short'])}</div>
@@ -112,7 +112,7 @@ def build_hub(terms, term_dates=None):
 <section class="page-head">
   <h1>Martech Glossary</h1>
   <p class="sub">Plain-English definitions of marketing technology terms. No jargon explaining jargon.</p>
-  <p class="count">{len(terms)} TERMS · LINKED TO {sum(len(t.get('related_tools',[])) for t in terms)} TOOLS</p>
+  <p class="count">{len(terms)} terms · linked to {sum(len(t.get('related_tools',[])) for t in terms)} tools</p>
 </section>
 {alpha_nav}
 {cards}"""
@@ -199,7 +199,7 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
             if t:
                 items += f'<a class="tool-card" href="/tools/{r_slug}/"><div class="name">{esc(t["name"])}</div><div class="tagline">{esc(t.get("tagline",""))}</div></a>'
         if items:
-            related_html = f'<h2>Tools in this space</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">{items}</div>'
+            related_html = f'<h2>Tools in this space</h2><div class="tool-grid">{items}</div>'
 
     # Related categories
     cat_html = ""
@@ -229,18 +229,18 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
 
     rt_html = ""
     if related_terms:
-        links = " · ".join(f'<a href="/glossary/{rt["slug"]}/" style="color:var(--amber)">{esc(_html.unescape(rt["short"]))}</a>' for rt in related_terms)
-        rt_html = f'<h2>Related terms</h2><p style="color:var(--muted)">{links}</p>'
+        links = " · ".join(f'<a href="/glossary/{rt["slug"]}/">{esc(_html.unescape(rt["short"]))}</a>' for rt in related_terms)
+        rt_html = f'<h2>Related terms</h2><p class="fine">{links}</p>'
 
     # M10: value flows back - link the term to posts that use it in practice
     posts_html = ""
     seen = term.get("related_posts") or []
     if seen:
         plinks = " · ".join(
-            f'<a href="/blog/{p["slug"]}/" style="color:var(--amber)">{esc(_html.unescape(p["title"]))}</a>'
+            f'<a href="/blog/{p["slug"]}/">{esc(_html.unescape(p["title"]))}</a>'
             for p in seen
         )
-        posts_html = f'<h2>Seen in the wild</h2><p style="color:var(--muted)">{plinks}</p>'
+        posts_html = f'<h2>Seen in the wild</h2><p class="fine">{plinks}</p>'
 
     # optional deep-dive sections (audit H2: glossary pages must exceed 300 words)
     dd = term.get("deep_dive") or {}
@@ -269,7 +269,7 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
     body = f"""<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/glossary/">Glossary</a><span class="crumb-sep" aria-hidden="true">/</span><span>{esc(term['short'])}</span></nav>
 <section class="page-head">
   <h1>{esc(term['term'])}</h1>
-  <p class="count">GLOSSARY</p>
+  <p class="count">Glossary</p>
   {f'<p class="meta">Definition last updated <time datetime="{term_date}">{term_date}</time></p>' if term_date else ''}
 </section>
 <div class="detail">
@@ -287,7 +287,7 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
   <aside class="sidebar">
     <div class="side-card">
       <h3>Categories</h3>
-      <p>{cat_html if cat_html else '<span style="color:var(--muted)">General</span>'}</p>
+      <p>{cat_html if cat_html else '<span class="fine">General</span>'}</p>
     </div>
     <div class="side-card">
       <a class="btn-sm" href="/tools/">Browse all tools →</a>

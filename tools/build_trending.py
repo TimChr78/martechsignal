@@ -44,8 +44,8 @@ def spark_svg(values):
         y = SPARK_PAD + inner_h - ((v - lo) / span) * inner_h
         pts.append(f"{x:.1f},{y:.1f}")
     polylines = (
-        f'<polyline points="{" ".join(pts)}" fill="none" stroke="#8FA1C0" stroke-opacity="0.5" stroke-width="1.5"/>'
-        f'<polyline points="{pts[0]} {pts[-1]}" fill="none" stroke="#FFB224" stroke-width="2"/>'
+        f'<polyline points="{" ".join(pts)}" fill="none" stroke="var(--line)" stroke-opacity="0.5" stroke-width="1.5"/>'
+        f'<polyline points="{pts[0]} {pts[-1]}" fill="none" stroke="var(--accent)" stroke-width="2"/>'
     )
     label = f"{star(values[0])}&rarr;{star(values[-1])}"
     return (
@@ -158,7 +158,7 @@ def build_page():
 <section class="page-head">
   <h1>Open-source martech momentum</h1>
   <p class="sub">Every morning we snapshot the GitHub stars of all {oss_n} open-source tools in our {total_n}-tool catalog (all of them list a public GitHub repository). {n_repos} have enough history to chart here; a repository needs {min_days} daily snapshots before it appears, which is why the charted set can be smaller. Inclusion rule, stated once: the catalog's open-source flag plus a GitHub repo URL. This page shows what moved in the window {window}, tracked since Aug 25, 2026.</p>
-  <p class="count">{n_repos} REPOS &middot; {len(hist)} DAILY SNAPSHOTS &middot; WINDOW {esc(d0)} TO {esc(d1)}</p>
+  <p class="count">{n_repos} repos &middot; {len(hist)} daily snapshots &middot; window {esc(d0)} to {esc(d1)}</p>
 </section>
 <section class="trend-note">
   <p>Stars are a weak signal on their own. A repo can sit near the top of GitHub trending for a week on one HN post, and a 500-star project gaining 50 stars is a different story than a 40,000-star project gaining the same 50. The percentages below favor small bases for exactly that reason, so read the absolute deltas next to them. No projections here: just what the snapshots recorded, over the stated window, and nothing else.</p>

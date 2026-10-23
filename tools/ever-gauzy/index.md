@@ -6,21 +6,25 @@
 - Ever Gauzy
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## Ever Gauzy review (2026): pricing, AI features, verdict
 
 Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 
-CRM · Open Source from $17/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $17/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Ever Gauzy →](https://gauzy.co)
+32/60
+
+- **Price:** Open Source from $17/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 8,412
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Ever Gauzy is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Ever Gauzy →](https://gauzy.co)
 
 ## MartechSignal Score: 32/60
 
@@ -126,7 +130,7 @@ Yes for internal business use, with one obligation to understand. Gauzy's defaul
 **Does Ever Gauzy include employee time tracking?**
 Yes, and it is the platform's anchor module. The README lists employee time-tracking, activity, and productivity tracking as a core capability, and it ships with dedicated desktop applications: Gauzy Desktop and a Desktop Timer app for Windows, Mac, and Linux, so tracked time feeds the same platform that handles invoicing, estimates, and payroll-adjacent reporting. The related features (schedules, appointments, time off, holidays) sit in the same module set. Note that activity tracking of this kind is employee monitoring in substance, so involve the people being tracked before rollout rather than after.
 
-## Similar Tools
+## Similar tools
 
 - [NocoDB](/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
 - [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
@@ -136,8 +140,8 @@ Yes, and it is the platform's anchor module. The README lists employee time-trac
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $17/mo
@@ -151,8 +155,4 @@ Yes, and it is the platform's anchor module. The README lists employee time-trac
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More CRM Tools →](/categories/crm/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

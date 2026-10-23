@@ -6,21 +6,24 @@
 - Writesonic
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Writesonic review (2026): pricing, AI features, verdict
 
 The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
 
-GEO & LLM Optimization · From $79/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From $79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Writesonic →](https://writesonic.com)
+36/60
+
+- **Price:** From $79/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Writesonic is a tool in GEO & LLM Optimization with paid plans starting at $79/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Writesonic →](https://writesonic.com)
 
 ## MartechSignal Score: 36/60
 
@@ -129,7 +132,7 @@ Starter through Growth track ChatGPT, Gemini, and Google AI Overviews. Enterpris
 **Does Writesonic have an API?**
 Yes. Writesonic documents a public API and an MCP server, with 20+ native integrations across CMS, CDN, and analytics tools such as WordPress, Google Search Console, Ahrefs, and Looker Studio.
 
-## Similar Tools
+## Similar tools
 
 - [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 - [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
@@ -139,8 +142,8 @@ Yes. Writesonic documents a public API and an MCP server, with 20+ native integr
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for content teams that want AI search visibility tracking in the same platform that drafts the content.
@@ -159,8 +162,4 @@ Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

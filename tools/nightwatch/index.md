@@ -6,21 +6,24 @@
 - Nightwatch
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Nightwatch review (2026): pricing, AI features, verdict
 
 Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 
-GEO & LLM Optimization · From €79/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From €79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Nightwatch →](https://nightwatch.io)
+35/60
+
+- **Price:** From €79/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Nightwatch is a tool in GEO & LLM Optimization with paid plans starting at €79/mo. The catalog documents 1 AI feature, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Nightwatch →](https://nightwatch.io)
 
 ## MartechSignal Score: 35/60
 
@@ -122,7 +125,7 @@ ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews, on every plan. Ea
 **What happens when the free trial ends?**
 The trial runs 14 days with the full toolkit and no credit card required. If it is not canceled within those 14 days, Nightwatch bills a regular monthly subscription and sends reminder emails before the trial ends.
 
-## Similar Tools
+## Similar tools
 
 - [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
 - [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
@@ -132,8 +135,8 @@ The trial runs 14 days with the full toolkit and no credit card required. If it 
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ### Quick Facts
 
 - **Pricing:** From €79/mo
@@ -146,8 +149,4 @@ The trial runs 14 days with the full toolkit and no credit card required. If it 
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

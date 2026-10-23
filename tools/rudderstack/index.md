@@ -6,21 +6,23 @@
 - RudderStack
 Re-check pending: pricing last verified 2026-10-01 (22 days ago).
 
+Review · Personalization & CDP
+
 ## RudderStack review (2026): pricing, AI features, verdict
 
 Warehouse-first CDP: open-source Go data plane plus managed routing
 
-Personalization & CDP · Open-core from $265/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01 · Open-core from $265/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit RudderStack →](https://www.rudderstack.com/)
+- **Price:** Open-core from $265/mo
+- **Licence:** Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available)
+- **GitHub stars:** 4,504
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** RudderStack is a tool in Personalization & CDP with free and open source. The catalog documents 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-01. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit RudderStack →](https://www.rudderstack.com/)
 
 ## Catalog facts: RudderStack
 
@@ -1088,7 +1090,7 @@ RudderStack has a free tier; paid plans start at $265/mo. Free forever: 250K eve
 **Is RudderStack a good self-hosted Personalization & CDP tool in 2026?**
 Best open-core CDP for teams that self-host the data plane: free 250K events/mo, Growth $265/mo, warehouse-native from the start.
 
-## Similar Tools
+## Similar tools
 
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
 - [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
@@ -1097,8 +1099,8 @@ Best open-core CDP for teams that self-host the data plane: free 250K events/mo,
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
 ## Also featured in
 
 - [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best Segment-compatible router for warehouse-first stacks on a budget.
@@ -1119,8 +1121,4 @@ Related guides: [Cdp](/best/cdp/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

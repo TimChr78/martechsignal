@@ -6,21 +6,25 @@
 - Open Mercato
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Agent Skills
+
 ## Open Mercato review (2026): pricing, AI features, verdict
 
 Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Open Mercato →](https://www.openmercato.com/)
+34/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 1,879
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Open Mercato is a tool in Agent Skills with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Open Mercato →](https://www.openmercato.com/)
 
 ## MartechSignal Score: 34/60
 
@@ -131,7 +135,7 @@ The framework is built around agent tooling. The repo's AGENTS.md defines a spec
 **What does Open Mercato cost to run?**
 The core is MIT-licensed and free to self-host, including all documented core modules, so costs are your infrastructure (PostgreSQL 17 with pgvector, Redis 7, Meilisearch) and engineering time. A separate Enterprise Edition package adds SSO with OIDC and SCIM 2.0, MFA, sudo re-authentication, and record locks, and ships outside the MIT core; no price is published anywhere on the site or docs. The site mentions community and commercial support tiers without amounts, so enterprise pricing and support are quote-based by absence of a published list.
 
-## Similar Tools
+## Similar tools
 
 - [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
 - [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
@@ -141,8 +145,8 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -158,8 +162,4 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

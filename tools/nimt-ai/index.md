@@ -6,21 +6,24 @@
 - Nimt.ai
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Nimt.ai review (2026): pricing, AI features, verdict
 
 AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 
-GEO & LLM Optimization · From €79/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From €79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Nimt.ai →](https://nimt.ai)
+35/60
+
+- **Price:** From €79/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Nimt.ai is a tool in GEO & LLM Optimization with paid plans starting at €79/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Nimt.ai →](https://nimt.ai)
 
 ## MartechSignal Score: 35/60
 
@@ -129,7 +132,7 @@ Eight: ChatGPT, ChatGPT Search, Microsoft Copilot, Google AI Mode, Google AI Ove
 **Does Nimt publish content automatically?**
 No. The agent drafts content, page fixes, and outreach, and you approve changes before anything is applied. It can also take on recurring jobs and report back in the app or Slack.
 
-## Similar Tools
+## Similar tools
 
 - [Nightwatch](/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 - [Rankscale](/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
@@ -157,8 +160,4 @@ Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

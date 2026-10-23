@@ -1,6 +1,6 @@
 # HubSpot credits are a budget design problem
 
-HUBSPOT · PRICING · 8 MIN
+HubSpot · Pricing · 8 min read
 
 ## HubSpot's credit rules are a budget design problem, not a pricing problem.
 
@@ -8,7 +8,7 @@ HUBSPOT · PRICING · 8 MIN
 
 [Home](/) · [Blog](/blog/) · HubSpot's credit rules are a budget design problem, not a pricing problem.
 
-OCT 20, 2026
+20 Oct 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -98,8 +98,8 @@ Tools linked in this post: [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ## Related tools
 
 - [Make](/tools/make/) - Visual automation platform for building complex workflows with AI agents and apps
@@ -108,7 +108,7 @@ Tools linked in this post: [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -117,8 +117,6 @@ Tools linked in this post: [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Zoho CRM](/tools/zoho-crm/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
+More from the directory: [Writesonic](/tools/writesonic/)
 
 ✓ The configuration that survives a finance review

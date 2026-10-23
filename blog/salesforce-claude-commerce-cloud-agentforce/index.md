@@ -1,6 +1,6 @@
 # Salesforce puts Claude in Commerce Cloud: a quiet admission
 
-AI AGENTS · SALESFORCE · 8 MIN
+AI Agents · Salesforce · 8 min read
 
 ## Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough
 
@@ -8,7 +8,7 @@ AI AGENTS · SALESFORCE · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough
 
-SEP 29, 2026
+29 Sep 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -91,8 +91,8 @@ Tools linked in this post: [Salesforce Marketing Cloud](/tools/salesforce-market
 - [Bloomreach](/tools/bloomreach/) - AI-powered commerce experience platform with search, personalization, and CDP
 ## Comparison guides
 
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -100,7 +100,5 @@ Tools linked in this post: [Salesforce Marketing Cloud](/tools/salesforce-market
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 Verdict: a win for merchants, a confession from Salesforce

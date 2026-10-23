@@ -6,21 +6,24 @@
 - Customer.io
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Email Marketing
+
 ## Customer.io review (2026): pricing, AI features, verdict
 
 Data-driven messaging platform for automated email, push, SMS, and in-app messages
 
-Email Marketing · From $100/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · From $100/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Customer.io →](https://customer.io)
+41/60
+
+- **Price:** From $100/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Customer.io is a tool in Email Marketing with paid plans starting at $100/mo. The catalog documents 6 AI features, 11 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Customer.io →](https://customer.io)
 
 ## MartechSignal Score: 41/60
 
@@ -136,7 +139,7 @@ At three levels. Inside the product, the pricing table lists an AI Agent (beta) 
 **Which channels does Customer.io support?**
 Email and transactional email, push and in-app with unlimited sends on every plan, SMS at custom volume, native WhatsApp, LINE, and webhooks that both send and receive. Anonymous messaging is available from Premium up. Data comes in through the Track or Data Pipelines APIs and SDKs for iOS, Android, React Native, Flutter, and JavaScript.
 
-## Similar Tools
+## Similar tools
 
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
@@ -144,9 +147,9 @@ Email and transactional email, push and in-app with unlimited sends on every pla
 - [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
 ## Related reading
 
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Lifecycle teams writing behavior-triggered journeys on their own data
@@ -165,8 +168,4 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

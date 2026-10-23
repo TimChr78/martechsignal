@@ -6,21 +6,24 @@
 - Trakkr
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Trakkr review (2026): pricing, AI features, verdict
 
 AI visibility platform for brands and agencies: citations, perception, competitors
 
-GEO & LLM Optimization · From $100/brand/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From $100/brand/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Trakkr →](https://trakkr.ai/)
+34/60
+
+- **Price:** From $100/brand/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Trakkr is a tool in GEO & LLM Optimization with paid plans starting at $100/brand/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Trakkr →](https://trakkr.ai/)
 
 ## MartechSignal Score: 34/60
 
@@ -127,7 +130,7 @@ Growth includes 25 AI-written articles per month and Scale includes 100, alongsi
 **Is Trakkr pricing public?**
 Yes. Unlike most enterprise GEO platforms, Trakkr lists plan prices openly; custom volume, SSO and security review requirements go to Enterprise.
 
-## Similar Tools
+## Similar tools
 
 - [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 - [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
@@ -136,8 +139,8 @@ Yes. Unlike most enterprise GEO platforms, Trakkr lists plan prices openly; cust
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for GEO & LLM optimization teams that want competitor visibility rankings, starting at $100/brand/mo.
@@ -155,8 +158,4 @@ Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

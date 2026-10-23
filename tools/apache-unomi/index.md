@@ -6,21 +6,25 @@
 - Apache Unomi
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Personalization & CDP
+
 ## Apache Unomi review (2026): pricing, AI features, verdict
 
 Apache's open-source customer data platform and personalization engine
 
-Personalization & CDP · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Apache Unomi →](https://unomi.apache.org)
+36/60
+
+- **Price:** Open Source
+- **Licence:** Apache-2.0
+- **GitHub stars:** 380
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Apache Unomi is a tool in Personalization & CDP with free and open source. The catalog documents 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Apache Unomi →](https://unomi.apache.org)
 
 ## MartechSignal Score: 36/60
 
@@ -115,7 +119,7 @@ Java and Apache Karaf, with Elasticsearch or MongoDB for storage. The documented
 **Does Unomi have an admin UI?**
 Not a marketer-facing one. Unomi is a REST server, and the privacy and configuration interfaces in particular are left to developers to expose, as the project documentation states.
 
-## Similar Tools
+## Similar tools
 
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
 - [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
@@ -125,8 +129,8 @@ Not a marketer-facing one. Unomi is a REST server, and the privacy and configura
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
 ## Also featured in
 
 - [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best when data-residency rules and European-consent governance drive the architecture.
@@ -146,8 +150,4 @@ Related guides: [Cdp](/best/cdp/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Personalization & CDP Tools →](/categories/personalization/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

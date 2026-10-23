@@ -6,21 +6,24 @@
 - Rankscale
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Rankscale review (2026): pricing, AI features, verdict
 
 AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 
-GEO & LLM Optimization · From €99/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From €99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Rankscale →](https://rankscale.ai/)
+35/60
+
+- **Price:** From €99/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Rankscale is a tool in GEO & LLM Optimization with paid plans starting at €99/mo. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Rankscale →](https://rankscale.ai/)
 
 ## MartechSignal Score: 35/60
 
@@ -129,7 +132,7 @@ Pro includes a seven-day trial with no charge until day seven. Yearly billing sa
 **Where is Rankscale based?**
 Rankscale GmbH builds the product in Vienna, Austria. Its customer logo wall includes Bosch, UBS, Cartier and Otto.
 
-## Similar Tools
+## Similar tools
 
 - [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
@@ -139,8 +142,8 @@ Rankscale GmbH builds the product in Vienna, Austria. Its customer logo wall inc
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for GEO & LLM optimization teams that want query fan-out retrieval insights, starting at €99/mo.
@@ -158,8 +161,4 @@ Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

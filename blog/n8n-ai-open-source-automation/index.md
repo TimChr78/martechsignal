@@ -1,6 +1,6 @@
 # n8n + AI: The Open-Source Automation Engine
 
-UPDATED · 12 MIN
+Updated · 12 min read
 
 ## n8n + AI: The Open-Source Automation Engine
 
@@ -8,7 +8,7 @@ UPDATED · 12 MIN
 
 [Home](/) · [Blog](/blog/) · n8n + AI: The Open-Source Automation Engine
 
-JUL 28, 2026
+28 Jul 2026
 
 In our [open-source martech stack analysis](/blog/open-source-martech-stack/), one tool kept surfacing: **n8n**. With 198K GitHub stars, per-execution pricing that undercuts Zapier by an order of magnitude, and AI agent capabilities built in rather than bolted on, n8n outperforms its commercial competitors on both cost and capability.
 
@@ -168,9 +168,9 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
 
 ## Related reading
 
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ## Related tools
 
 - [Zapier](/tools/zapier/) - No-code automation platform connecting 9,000+ apps with AI-powered workflows
@@ -187,7 +187,5 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

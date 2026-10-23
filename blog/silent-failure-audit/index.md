@@ -1,6 +1,6 @@
 # Check outputs, not logs: the silent-failure audit
 
-AUTOMATION · AI AGENTS · 9 MIN
+Automation · AI Agents · 9 min read
 
 ## Check outputs, not logs: the silent-failure audit
 
@@ -8,7 +8,7 @@ AUTOMATION · AI AGENTS · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Check outputs, not logs: the silent-failure audit
 
-SEP 10, 2026
+10 Sep 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/) · [Agent Skills](/categories/agent-skills/)
 
@@ -90,5 +90,3 @@ Our directory reviews workflow and marketing automation tools on what happens af
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

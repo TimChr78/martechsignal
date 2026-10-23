@@ -1,6 +1,6 @@
 # OpenAI Is Building Agents That Spend Without You
 
-AI · ADVERTISING · 11 MIN
+AI · Advertising · 11 min read
 
 ## OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.
 
@@ -8,7 +8,7 @@ AI · ADVERTISING · 11 MIN
 
 [Home](/) · [Blog](/blog/) · OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.
 
-AUG 05, 2026
+05 Aug 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -114,8 +114,8 @@ This post is part of the hub for this topic: [agentic ai advertising](/guides/ag
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 - [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ## Related tools
 
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
@@ -132,5 +132,3 @@ This post is part of the hub for this topic: [agentic ai advertising](/guides/ag
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

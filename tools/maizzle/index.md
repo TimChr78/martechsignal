@@ -6,21 +6,25 @@
 - Maizzle
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Email Marketing
+
 ## Maizzle review (2026): pricing, AI features, verdict
 
 Modern email development framework using Tailwind CSS for responsive campaigns
 
-Email Marketing · Free · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Free · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Maizzle →](https://maizzle.com)
+32/60
+
+- **Price:** Free
+- **Licence:** Open source
+- **GitHub stars:** 2,861
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Maizzle is a tool in Email Marketing with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Maizzle →](https://maizzle.com)
 
 ## MartechSignal Score: 32/60
 
@@ -115,7 +119,7 @@ Through dedicated components and build-time conditioning rather than runtime hac
 **Can I migrate from MJML or React Email to Maizzle?**
 Both paths are documented on the docs site as migration guides, alongside deployment guides for Nodemailer, SendGrid, Mailgun, Postmark, Resend, AWS SES, and Cloudflare. The v5-to-v6 upgrade guide is the more demanding read for existing Maizzle users: templates become Vue single-file components, configuration consolidates into maizzle.config.ts and defineConfig(), several components were renamed or removed, and the build key flattened to the root. Coming from MJML or React Email is a fresh start with npx maizzle new rather than a conversion, which the guides treat as the normal path.
 
-## Similar Tools
+## Similar tools
 
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 - [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server
@@ -124,8 +128,8 @@ Both paths are documented on the docs site as migration guides, alongside deploy
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
 - **Pricing:** Free
@@ -143,8 +147,4 @@ Free and open source (MIT)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Email Marketing Tools →](/categories/email-marketing/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

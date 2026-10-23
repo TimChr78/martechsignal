@@ -1,6 +1,6 @@
 # Your Martech Budget Is Bleeding and Nobody's Me
 
-MARTECH · MEASUREMENT · 8 MIN
+Martech · Measurement · 8 min read
 
 ## Your Martech Budget Is Bleeding and Nobody's Measuring It
 
@@ -8,7 +8,7 @@ MARTECH · MEASUREMENT · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Your Martech Budget Is Bleeding and Nobody's Measuring It
 
-AUG 06, 2026
+06 Aug 2026
 
 Filed under [Analytics & Attribution](/categories/analytics/)
 
@@ -111,8 +111,8 @@ Browse the [MartechSignal tools directory](/tools/) before the next renewal. The
 - [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/) - Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
 ## Comparison guides
 
-- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [Marketing ops](/glossary/marketing-ops/)
@@ -120,5 +120,3 @@ Browse the [MartechSignal tools directory](/tools/) before the next renewal. The
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

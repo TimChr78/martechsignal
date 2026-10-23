@@ -6,21 +6,24 @@
 - Microsoft Power Automate
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Workflow Automation
+
 ## Microsoft Power Automate review (2026): pricing, AI features, verdict
 
 Enterprise workflow automation inside the Microsoft Power Platform
 
-Workflow Automation · From $15/user/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · From $15/user/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Microsoft Power Automate →](https://powerautomate.microsoft.com)
+38/60
+
+- **Price:** From $15/user/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Microsoft Power Automate is a tool in Workflow Automation with paid plans starting at $15/user/mo. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Microsoft Power Automate →](https://powerautomate.microsoft.com)
 
 ## MartechSignal Score: 38/60
 
@@ -99,7 +102,7 @@ Microsoft Power Automate is paid software; plans start at $15/user/mo. Power Aut
 **Is Microsoft Power Automate worth paying for in 2026?**
 Strengths include an API for custom integrations. Paid plans start at $15/user/mo
 
-## Similar Tools
+## Similar tools
 
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
 - [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
@@ -108,8 +111,8 @@ Strengths include an API for custom integrations. Paid plans start at $15/user/m
 ## Related reading
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
 ### Quick Facts
 
 - **Pricing:** From $15/user/mo
@@ -125,8 +128,4 @@ Related guides: [Microsoft Power Automate in Zapier alternatives](/alternatives/
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Workflow Automation Tools →](/categories/workflow-automation/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

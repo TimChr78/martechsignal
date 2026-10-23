@@ -1,6 +1,6 @@
 # Agents keep failing the same way. Memory is the fix
 
-AI AGENTS · AUTOMATION · 8 MIN
+AI Agents · Automation · 8 min read
 
 ## Your agents keep failing the same way. Memory of what worked is the fix nobody ships
 
@@ -8,7 +8,7 @@ AI AGENTS · AUTOMATION · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Your agents keep failing the same way. Memory of what worked is the fix nobody ships
 
-OCT 23, 2026
+23 Oct 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/) · [Agent Skills](/categories/agent-skills/)
 
@@ -88,9 +88,9 @@ Tools linked in this post: [n8n](/tools/n8n/) · [Make](/tools/make/) · [Zapier
 
 ## Related reading
 
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
 ## Related tools
 
 - [Growth Lab](/tools/growth-lab/) - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
@@ -99,7 +99,7 @@ Tools linked in this post: [n8n](/tools/n8n/) · [Make](/tools/make/) · [Zapier
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -107,7 +107,5 @@ Tools linked in this post: [n8n](/tools/n8n/) · [Make](/tools/make/) · [Zapier
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 ✓ Fix the loop, not the prompt

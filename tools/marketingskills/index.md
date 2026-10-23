@@ -4,21 +4,23 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Marketing Skills (coreyhaines31)
+Review · Agent Skills
+
 ## Marketing Skills (coreyhaines31) review (2026): pricing, AI features, verdict
 
 ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-08 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit Marketing Skills (coreyhaines31) →](https://marketing-skills.com)
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 55,853
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Marketing Skills (coreyhaines31) is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-10-08. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Marketing Skills (coreyhaines31) →](https://marketing-skills.com)
 
 ## Catalog facts: Marketing Skills (coreyhaines31)
 
@@ -89,7 +91,7 @@ Marketing Skills (coreyhaines31) is open source - MIT licensed and free to self-
 **Is Marketing Skills (coreyhaines31) a good self-hosted Agent Skills tool in 2026?**
 Strengths include 55,853 GitHub stars, MIT licensing with free self-hosting. Marketing Skills (coreyhaines31) documents 5 integrations
 
-## Similar Tools
+## Similar tools
 
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 - [Growth Lab](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
@@ -99,8 +101,8 @@ Strengths include 55,853 GitHub stars, MIT licensing with free self-hosting. Mar
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -114,8 +116,4 @@ Strengths include 55,853 GitHub stars, MIT licensing with free self-hosting. Mar
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Agent Skills Tools →](/categories/agent-skills/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

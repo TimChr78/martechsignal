@@ -6,21 +6,25 @@
 - Plausible Analytics
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Analytics & Attribution
+
 ## Plausible Analytics review (2026): pricing, AI features, verdict
 
 Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
 
-Analytics & Attribution · Open Source from $9/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source from $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Plausible Analytics →](https://plausible.io)
+38/60
+
+- **Price:** Open Source from $9/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 29,594
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Plausible Analytics is a tool in Analytics & Attribution with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Plausible Analytics →](https://plausible.io)
 
 ## MartechSignal Score: 38/60
 
@@ -109,7 +113,7 @@ Plausible Analytics has a free tier; paid plans start at $9/mo. Self-hosted free
 **Is Plausible Analytics a good self-hosted Analytics & Attribution tool in 2026?**
 The analytics tool we recommend by default for content and marketing sites; power users will want a second layer.
 
-## Similar Tools
+## Similar tools
 
 - [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
 - [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
@@ -118,8 +122,8 @@ The analytics tool we recommend by default for content and marketing sites; powe
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
 - [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/) — you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.
@@ -140,8 +144,4 @@ Related guides: [Plausible Analytics in Matomo alternatives](/alternatives/matom
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Analytics & Attribution Tools →](/categories/analytics/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

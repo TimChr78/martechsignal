@@ -1,6 +1,6 @@
 # Braze moves AI into campaign ops: who approves?
 
-AI AGENTS · MARKETING AUTOMATION · 6 MIN
+AI Agents · Marketing Automation · 6 min read
 
 ## Braze moved AI from content to campaign operations: who approves when the campaign runs itself
 
@@ -8,7 +8,7 @@ AI AGENTS · MARKETING AUTOMATION · 6 MIN
 
 [Home](/) · [Blog](/blog/) · Braze moved AI from content to campaign operations: who approves when the campaign runs itself
 
-OCT 07, 2026
+07 Oct 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Agent Skills](/categories/agent-skills/)
 
@@ -55,18 +55,18 @@ One review screen where a human blesses agent-assembled work before anything shi
 
 ## Related reading
 
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 - [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Related tools
 
-- [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/) - All-in-one marketing automation with AI-powered content, email, and campaign tools
-- [Persado](/tools/persado/) - AI content creation and optimization platform for regulated financial services marketing
 - [Laudspeaker](/tools/laudspeaker/) - Open-source customer engagement and product onboarding platform, alternative to Braze
+- [Digital Marketing Pro](/tools/digital-marketing-pro/) - 163-skill AI marketing plugin for agencies with EU AI Act compliance
+- [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 ## Comparison guides
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -76,7 +76,5 @@ One review screen where a human blesses agent-assembled work before anything shi
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [Instagram Skills](/tools/instagram-skills/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 ✓ Where this lands

@@ -1,6 +1,6 @@
 # Google Handed Your Ad Budget to AI Agents
 
-AI · ADVERTISING · 12 MIN
+AI · Advertising · 12 min read
 
 ## Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook
 
@@ -8,7 +8,7 @@ AI · ADVERTISING · 12 MIN
 
 [Home](/) · [Blog](/blog/) · Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook
 
-AUG 17, 2026
+17 Aug 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -109,9 +109,9 @@ Advertising platforms, attribution vendors, and the measurement layer that keeps
 
 ## Related reading
 
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ## Related tools
 
 - [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
@@ -119,19 +119,17 @@ Advertising platforms, attribution vendors, and the measurement layer that keeps
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 ## Comparison guides
 
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
+- [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/)
 ## Glossary terms
 
-- [DSP](/glossary/dsp/)
 - [AI Visibility](/glossary/ai-search-visibility/)
+- [DSP](/glossary/dsp/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SuiteCRM](/tools/suitecrm/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
+More from the directory: [SISTRIX](/tools/sistrix/)
 
 TARGETbid + budget, set by you
 

@@ -6,21 +6,24 @@
 - Tidio
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Chatbots & Conversational AI
+
 ## Tidio review (2026): pricing, AI features, verdict
 
 AI-powered live chat and chatbot platform with Lyro AI agent for customer support
 
-Chatbots & Conversational AI · Freemium from $24/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Freemium from $24/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Tidio →](https://www.tidio.com)
+36/60
+
+- **Price:** Freemium from $24/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Tidio is a tool in Chatbots & Conversational AI with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Tidio →](https://www.tidio.com)
 
 ## MartechSignal Score: 36/60
 
@@ -111,7 +114,7 @@ Tidio has a free tier; paid plans start at $24/mo. Free plan (50 conversations);
 **Is Tidio worth it past the free tier?**
 Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
 
-## Similar Tools
+## Similar tools
 
 - [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
 - [Chatfuel](/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
@@ -121,8 +124,8 @@ Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Small shops adding live chat and an AI agent cheaply
@@ -141,8 +144,4 @@ Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 One email when a new tool review lands, nothing else.
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 [More Chatbots & Conversational AI Tools →](/categories/chatbots/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
