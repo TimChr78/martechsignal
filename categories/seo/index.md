@@ -46,8 +46,6 @@ Vendors in this category: [OpenSEO](https://openseo.so) · [Seonaut](https://seo
 
 ## Reading before you buy
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 CRAWLfind what breaks
 
 **
@@ -109,5 +107,3 @@ The AI-visibility measurement gap, documented with our own GSC numbers: 1,427 im
 Link Building Won't Get You Into AI Answers. Community Signals Will.
 
 The off-page playbook that actually moves AI citations
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

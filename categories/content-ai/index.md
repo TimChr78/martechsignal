@@ -48,8 +48,6 @@ Vendors in this category: [Strapi](https://strapi.io) · [Ghost](https://ghost.o
 
 ## Reading before you buy
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 DRAFTpick a workhorse first
 
 **
@@ -105,5 +103,3 @@ Why links alone no longer earn a place in AI answers, and what content has to do
 Why Your Marketing Automation Stack Does Not Need Another AI Tool
 
 When another AI writing tool adds cost without adding shipped work
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

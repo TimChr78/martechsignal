@@ -101,6 +101,4 @@ Tools linked in this post: [Salesforce Marketing Cloud](/tools/salesforce-market
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
-
 Verdict: a win for merchants, a confession from Salesforce

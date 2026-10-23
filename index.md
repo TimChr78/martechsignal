@@ -26,14 +26,14 @@ On 4 October 2026 at 16:59 UTC, one agent run finally got its answer. Chengdu Zo
 
 ## Tool index
 
-- [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
-- [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
-- [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-- [Warmbly](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
-- [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
-- [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
-- [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
+- [LangChain](/tools/langchain/): Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
+- [Paperclip](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+- [Strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
+- [NocoDB](/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
+- [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+- [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
+- [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
 ## Comparisons and best-of lists
 
 Verdicts with receipts: every list below names what each tool costs from the vendor’s own pricing page, what it fits worst, and who should skip it. The head-to-head comparisons state pick-conditions instead of a winner; the best-of lists and tool pages give the verdict. Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.
@@ -77,5 +77,3 @@ The directory covers 13 categories plus a cross-cutting open-source index. Each 
 ## One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour. No sponsored placements.
-
-**MartechSignal**, written by Tim Christensen

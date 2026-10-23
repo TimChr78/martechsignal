@@ -50,8 +50,6 @@ Vendors in this category: [Promptfoo](https://promptfoo.dev) · [AccuRanker](htt
 
 ## Reading before you buy
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 PROMPT SETquestions buyers ask
 
 **
@@ -113,5 +111,3 @@ The off-page playbook that actually moves AI citations
 Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.
 
 How two decades of SEO work became raw material for the answer engines
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

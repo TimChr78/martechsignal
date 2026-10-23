@@ -67,5 +67,3 @@ For teams adopting the protocol, that composition is the operational argument. Y
 Four questions. Is the server code published or reviewable. Which tools write, and can writes be disabled. Does it use sampling, and can that be turned off. How are tool names versioned when behavior changes. Good vendors have crisp answers. The absence of answers is itself the answer.
 
 Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [Claude SEO](https://claude-seo.md/)
-
-© 2026 MartechSignal · by Tim Christensen

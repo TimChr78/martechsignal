@@ -81,7 +81,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 
 - [Laudspeaker](/tools/laudspeaker/) - Open-source customer engagement and product onboarding platform, alternative to Braze
@@ -100,5 +100,3 @@ Our directory reviews marketing automation and workflow tools on what matters af
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

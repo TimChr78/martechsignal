@@ -46,8 +46,6 @@ Vendors in this category: [Revive Adserver](https://www.revive-adserver.com) · 
 
 ## Reading before you buy
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 AUDITbudget before agents
 
 **
@@ -113,5 +111,3 @@ Guardrails for an AI-managed Google Ads account are still a do-it-yourself job, 
 Microsoft Just Removed the Steering Wheel From Search Ads
 
 Microsoft's AI campaign automation takes the operator out of search buying
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

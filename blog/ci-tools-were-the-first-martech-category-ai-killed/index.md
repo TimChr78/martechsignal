@@ -109,8 +109,8 @@ Our directory breaks down martech tools by what they actually deliver: static re
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Related tools
 
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) - Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
@@ -119,7 +119,7 @@ Our directory breaks down martech tools by what they actually deliver: static re
 ## Comparison guides
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
-- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
+- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 ## Glossary terms
 
 - [CDP](/glossary/cdp/)
@@ -129,5 +129,3 @@ Our directory breaks down martech tools by what they actually deliver: static re
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [LanguageTool](/tools/languagetool/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

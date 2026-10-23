@@ -73,7 +73,9 @@ if [ "$DO_BUILD" -eq 1 ]; then
     # r23 H-2: breadcrumb graph normalizer - every BreadcrumbList gets @id,
     # every WebPage gets its breadcrumb edge. Runs after every HTML builder.
     python3 tools/sync_breadcrumbs.py
-python3 tools/build_md_mirrors.py
+    # 2026-10 redesign: normalize shared chrome on hand-authored pages too.
+    python3 tools/sync_chrome.py
+    python3 tools/build_md_mirrors.py
     # Homepage tool-index: re-ground featured tools in GSC impressions + stars.
     # Refresh the durable cache first (home/hermes/.hermes/data/gsc-pages-28d.json;
     # /opt/data is wiped on Hermes updates). Non-fatal: falls back to stars-only.

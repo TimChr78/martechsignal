@@ -47,8 +47,6 @@ Vendors in this category: [PostHog](https://posthog.com) · [Umami](https://umam
 
 ## Reading before you buy
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 INSTRUMENTevents before the vendor
 
 **
@@ -110,5 +108,3 @@ Signal loss didn't break measurement. It exposed what MTA never measured
 You Don't Need a New Data Stack for AI | Fivetran Just Proved It
 
 The warehouse you own is the measurement backbone; skip the rebuild pitch
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

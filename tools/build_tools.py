@@ -46,6 +46,7 @@ from pathlib import Path
 from datetime import datetime
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import suggest_links
+from site_chrome import HEAD_TAGS, chrome_footer, chrome_top
 
 ROOT = Path(__file__).resolve().parent.parent  # martechsignal/
 
@@ -760,31 +761,17 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>{schema_block}
+{HEAD_TAGS}{schema_block}
 {_stylesheet_tags()}
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 <script src="/site.js" defer></script>
 </head>
 <body class="page-tools">
-<div class="bg" aria-hidden="true"></div>
-<header class="masthead">
-  <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
-    <nav class="mast-nav" aria-label="Primary"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
-  </div>
-</header>
+{chrome_top(canonical)}
 <main class="wrap">
 {body}
 </main>
-<footer aria-label="Footer">
-  <div class="wrap">
-    <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/guides/">GUIDES</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/llms.txt">AI CATALOG</a><a href="/#subscribe">SUBSCRIBE</a></div>
-    <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
-  </div>
-</footer>
+{chrome_footer()}
 {_H9_TAG}</body>
 </html>"""
 
@@ -3428,17 +3415,16 @@ def minify_css():
 # the full bundle loads non-blocking right after.
 _CRITICAL_PREFIXES = (
     ":root", "*", "html", "body", "::selection",
-    ".bg", ".wrap", "a",
-    ".masthead", ".mast-in", ".wordmark", ".mast-nav", ".mast-right",
-    ".live", ".mast-date", ".pulse-dot",
+    ".wrap", "a",
+    # 2026-10 redesign: top bar + masthead are the first paint on every page
+    ".topbar", ".theme-toggle", ".masthead", ".mast-in", ".wordmark", ".mast-nav",
     ".crumb", ".breadcrumbs", ".crumbs",
     ".page-head", ".page-tools", ".sub", ".count", ".byline",
     ".verdict-cta", ".cta-early", ".alt-link", ".btn", ".disclosure-strip",
-    ".kicker", ".back", ".post-hero", ".meta",
-    ".hero", ".hero-cols", ".hero-side", ".stats-card", ".stat",
-    ".lede", ".hero-cta", ".micro", ".spec",
-    ".score-band", ".unscored-note",
-    ".cat-nav", ".cat-pill", ".made-badge",
+    ".eyebrow", ".kicker", ".back", ".post-hero", ".meta",
+    ".hero", ".figures", ".fig",
+    ".lede", ".hero-cta",
+    ".cat-nav", ".cat-pill",
     ".tool-grid", ".tool-card",
     "#progress",
 )
@@ -3736,8 +3722,15 @@ def _fingerprint_mask(_s):
     _m = re.sub(r'<link rel="alternate"[^>]*>', "CHROME", _m)
     _m = re.sub(r'<link rel="stylesheet"[^>]*>', "CHROME", _m)
     _m = re.sub(r'<script src="/site\.js[^"]*"[^>]*></script>', "CHROME", _m)
+    # 2026-10 redesign: fonts, critical CSS and topbar/masthead/footer are
+    # template chrome. Without masking them, any stylesheet or chrome edit
+    # restamps dateModified on every page (the redesign did exactly that).
+    _m = re.sub(r"<style[^>]*>.*?</style>", "STYLE", _m, flags=re.S)
+    _m = re.sub(r'<div class="topbar".*?</div>\s*</div>', "CHROME", _m, flags=re.S)
+    _m = re.sub(r'<header class="masthead".*?</header>', "CHROME", _m, flags=re.S)
+    _m = re.sub(r"<footer\b.*?</footer>", "CHROME", _m, flags=re.S)
     _m = re.sub(r'<script type="application/ld\+json">.*?</script>', "SCHEMA", _m, flags=re.S)
-    _m = re.sub(r"(SCHEMA|CHROME)", "", _m)
+    _m = re.sub(r"(SCHEMA|CHROME|STYLE)", "", _m)
     _m = re.sub(r"\n\s*\n", "\n", _m)
     return _m
 

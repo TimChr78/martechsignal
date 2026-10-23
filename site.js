@@ -7,21 +7,49 @@
   document.documentElement.classList.add('js');
 })();
 (function () {
-  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var els = document.querySelectorAll('.reveal');
-  if (!('IntersectionObserver' in window) || reduced) {
-    els.forEach(function (el) { el.classList.add('in'); });
-    return;
+  // The redesign has no scroll reveals; keep .in so old markup never stays hidden.
+  document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
+})();
+(function () {
+  var toggles = document.querySelectorAll('.theme-toggle');
+  if (!toggles.length) return;
+  var root = document.documentElement;
+  var mq = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+
+  function stored() {
+    try {
+      var v = localStorage.getItem('ms-theme');
+      return (v === 'light' || v === 'dark') ? v : null;
+    } catch (e) { return null; }
   }
-  var io = new IntersectionObserver(function (entries) {
-    entries.forEach(function (e) {
-      if (e.isIntersecting) {
-        e.target.classList.add('in');
-        io.unobserve(e.target);
-      }
+  function effective() {
+    var attr = root.getAttribute('data-theme');
+    if (attr === 'light' || attr === 'dark') return attr;
+    return mq && mq.matches ? 'dark' : 'light';
+  }
+  function render() {
+    var next = effective() === 'dark' ? 'light' : 'dark';
+    toggles.forEach(function (btn) {
+      btn.removeAttribute('hidden');
+      var label = btn.querySelector('.tt-label');
+      if (label) label.textContent = next === 'dark' ? 'Dark' : 'Light';
+      btn.setAttribute('aria-label', next === 'dark' ? 'Switch to dark theme' : 'Switch to light theme');
     });
-  }, { rootMargin: '0px 0px -8% 0px' });
-  els.forEach(function (el) { io.observe(el); });
+  }
+  toggles.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var next = effective() === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('ms-theme', next); } catch (e) {}
+      render();
+    });
+  });
+  if (mq) {
+    var onChange = function () { if (!stored()) render(); };
+    if (mq.addEventListener) mq.addEventListener('change', onChange);
+    else if (mq.addListener) mq.addListener(onChange);
+  }
+  render();
 })();
 
 // M10: directory filter (category / price model / licence). The bar renders

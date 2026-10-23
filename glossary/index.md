@@ -60,6 +60,3 @@ Plain-English definitions of marketing technology terms. No jargon explaining ja
 
 - [Personalization](/glossary/personalization/): Website personalization changes what a visitor sees based on who they are or what they've done before. A returning custo…
 - [Workflow automation](/glossary/workflow-automation/): Workflow automation connects your software tools so that actions in one system trigger actions in another. A new form su…
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

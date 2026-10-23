@@ -92,5 +92,3 @@ The spec head-to-head of the two tools lives in the [/vs/claude-seo-vs-semrush/ 
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

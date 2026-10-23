@@ -65,8 +65,6 @@ Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monic
 
 ## Reading before you buy
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 MAPrecords before vendors
 
 **
@@ -134,5 +132,3 @@ Why the warehouse is eating the profile store your CRM assumes it owns
 Fifty days of open-source MarTech, audited
 
 Which open-source CRM contenders, Twenty, Frappe and WaCRM, actually shipped in 50 days
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

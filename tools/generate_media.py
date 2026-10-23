@@ -1,62 +1,178 @@
 #!/usr/bin/env python3
 """Generate branded media cards for every martechsignal.com entity.
 
-Outputs (1200x630 PNG, brand style: navy #080E1A / amber #FFB224):
+Outputs (1200x630 PNG, editorial style from design/DESIGN.md: paper #F6F4EF,
+ink type, one vermilion accent):
   og/tools/<slug>.png     - tool card: name, category, pricing, badges
   og/categories/<slug>.png - category card
   og/glossary/<slug>.png   - glossary card
   og/charts/*.png          - data charts from tools.json
-  og/author-tim-christensen.png - author monogram
+  og/authors/tim-christensen.png - author card
 
-Run from repo root: .venv-imggen/bin/python tools/generate_media.py
-Wired into deploy.sh after build. Deterministic: regenerates only when data changes.
+Run from repo root: uv run --with pillow python tools/generate_media.py
+Wired into deploy.sh after build.
+
+STYLE_VERSION is part of the card identity: bump it whenever the visual system
+changes so any content-hash based cache invalidates.
 """
-import json, hashlib, sys
+import hashlib
+import json
+import sys
 from pathlib import Path
+
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "og"
-BG = (8, 14, 26); AMBER = (255, 178, 36); TEXT = (232, 236, 244); MUTED = (140, 150, 168)
-CARD = (13, 20, 36); BORDER = (40, 52, 74); DIM = (24, 32, 50)
-FB = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-FR = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+W, H = 1200, 630
 
-def font(sz, bold=True):
-    return ImageFont.truetype(FB if bold else FR, sz)
+STYLE_VERSION = "2026-10-editorial-1"
+
+# Palette (design/DESIGN.md, light theme)
+PAPER = (246, 244, 239)   # #F6F4EF
+SURFACE = (255, 255, 255)  # #FFFFFF
+SUNK = (239, 236, 229)    # #EFECE5
+INK = (24, 24, 27)        # #18181B
+INK2 = (63, 61, 57)       # #3F3D39
+MUTED = (103, 99, 91)     # #67635B
+LINE = (221, 216, 205)    # #DDD8CD
+ACCENT = (185, 58, 26)    # #B93A1A
+POS = (30, 111, 71)       # #1E6F47
+
+MARGIN = 80
+RIGHT = W - MARGIN
+CONTENT_W = RIGHT - MARGIN
+
+FONT_DIR = ROOT / "design" / "og-fonts"
+SERIF = str(FONT_DIR / "Newsreader-Display-Medium.ttf")
+SERIF_ITALIC = str(FONT_DIR / "Newsreader-Display-Italic.ttf")
+SANS = str(FONT_DIR / "Archivo-Medium.ttf")
+SANS_SEMI = str(FONT_DIR / "Archivo-SemiBold.ttf")
+
+KEEP_UPPER = {"ai": "AI", "seo": "SEO", "geo": "GEO", "llm": "LLM",
+              "cdp": "CDP", "crm": "CRM", "api": "API", "ga4": "GA4",
+              "mcp": "MCP", "abm": "ABM"}
+
+
+def serif(size):
+    return ImageFont.truetype(SERIF, size)
+
+
+def serif_italic(size):
+    return ImageFont.truetype(SERIF_ITALIC, size)
+
+
+def sans(size, semibold=False):
+    return ImageFont.truetype(SANS_SEMI if semibold else SANS, size)
+
+
+def sentence_case(text: str) -> str:
+    """'Workflow Automation' -> 'Workflow automation' (acronyms preserved)."""
+    words = text.replace("-", " ").split()
+    out = []
+    for i, word in enumerate(words):
+        low = word.lower()
+        if low in KEEP_UPPER:
+            out.append(KEEP_UPPER[low])
+        elif word == "&":
+            out.append(word)
+        elif i == 0:
+            out.append(word[:1].upper() + word[1:].lower())
+        else:
+            out.append(word.lower())
+    return " ".join(out)
+
 
 def base_canvas():
-    img = Image.new("RGB", (1200, 630), BG)
-    d = ImageDraw.Draw(img)
-    d.rectangle([0, 0, 1200, 6], fill=AMBER)
-    return img, d
+    img = Image.new("RGB", (W, H), PAPER)
+    return img, ImageDraw.Draw(img)
 
-def brand_header(img, d, label):
-    d.rounded_rectangle([80, 60, 144, 124], radius=12, fill=CARD, outline=BORDER, width=2)
-    d.rounded_rectangle([98, 74, 126, 110], radius=4, fill=AMBER)
-    d.text((164, 78), "MARTECH", font=font(30), fill=TEXT)
-    w = d.textlength("MARTECH", font=font(30))
-    d.text((166 + w, 78), "SIGNAL", font=font(30), fill=AMBER)
-    d.text((80, 150), label.upper(), font=font(22), fill=MUTED)
 
-def footer(d, right_text):
-    d.line([80, 540, 1120, 540], fill=BORDER, width=1)
-    d.text((80, 562), "Independent reviews · No sponsorships", font=font(22), fill=MUTED)
-    tw = d.textlength(right_text, font=font(22))
-    d.text((1120 - tw, 562), right_text, font=font(22), fill=AMBER)
-
-def wrap(d, text, font_obj, max_w, max_lines=2):
-    words, lines, cur = text.split(), [], ""
-    for w in words:
-        trial = (cur + " " + w).strip()
-        if d.textlength(trial, font=font_obj) <= max_w:
-            cur = trial
-        else:
-            if cur: lines.append(cur)
-            cur = w
-            if len(lines) == max_lines: break
-    if cur and len(lines) < max_lines: lines.append(cur)
+def wrap(d, text, font_obj, max_w, max_lines=None):
+    lines = []
+    for para in text.split("\n"):
+        cur = ""
+        for word in para.split():
+            trial = (cur + " " + word).strip()
+            if d.textlength(trial, font=font_obj) <= max_w:
+                cur = trial
+            else:
+                if cur:
+                    lines.append(cur)
+                cur = word
+        if cur:
+            lines.append(cur)
+    if max_lines is not None and len(lines) > max_lines:
+        lines = lines[:max_lines]
+        last = lines[-1].rstrip()
+        if not last.endswith(("…", ".", "!", "?", ":", ";", ",")):
+            lines[-1] = last + "…"
     return lines
+
+
+def draw_chrome(d, label: str):
+    """Wordmark + mark, 2px rule, and the accent label line."""
+    f = serif(40)
+    x, y = MARGIN, 64
+    d.text((x, y), "MartechSignal", font=f, fill=INK, anchor="la")
+    tw = d.textlength("MartechSignal", font=f)
+    ascent, _ = f.getmetrics()
+    baseline = y + ascent
+
+    bx = x + tw + 10
+    mark_h = 28
+    for i, frac in enumerate((0.4, 0.7, 1.0)):
+        bar_h = int(round(mark_h * frac))
+        left = bx + i * 10
+        d.rectangle([left, baseline - bar_h, left + 7, baseline], fill=ACCENT)
+
+    d.rectangle([MARGIN, 128, RIGHT - 1, 129], fill=INK)
+    d.text((MARGIN, 156), label, font=sans(24, semibold=True), fill=ACCENT,
+           anchor="la")
+
+
+def draw_title(d, title: str, max_lines: int = 4, top: int = 210):
+    """Auto-size 72 -> 46 so the headline fits max_lines of 1040px."""
+    size = 72
+    while True:
+        f = serif(size)
+        lines = wrap(d, title, f, CONTENT_W)
+        if len(lines) <= max_lines or size <= 46:
+            break
+        size -= 2
+    lines = lines[:max_lines]
+    line_h = int(round(size * 1.12))
+    for i, line in enumerate(lines):
+        d.text((MARGIN, top + i * line_h), line, font=f, fill=INK, anchor="la")
+    return top + len(lines) * line_h
+
+
+def draw_footer(d, right_text="martechsignal.com"):
+    d.line([MARGIN, 540, RIGHT, 540], fill=LINE, width=1)
+    d.text((MARGIN, 560), "Independent research on AI marketing automation",
+           font=sans(22), fill=MUTED, anchor="la")
+    rf = sans(22, semibold=True)
+    tw = d.textlength(right_text, font=rf)
+    d.text((RIGHT - tw, 560), right_text, font=rf, fill=INK, anchor="la")
+
+
+def draw_chips(d, badges, x, y):
+    """Sentence-case chips: sunk pill, or green outline for 'Open source'."""
+    f = sans(20)
+    pad, height = 16, 38
+    for badge in badges:
+        bw = int(d.textlength(badge, font=f)) + 2 * pad
+        if badge.strip().lower() == "open source":
+            d.rounded_rectangle([x, y, x + bw, y + height], radius=4,
+                                outline=POS, width=2)
+            d.text((x + pad, y + height / 2), badge, font=f, fill=POS,
+                   anchor="lm")
+        else:
+            d.rounded_rectangle([x, y, x + bw, y + height], radius=4, fill=SUNK)
+            d.text((x + pad, y + height / 2), badge, font=f, fill=INK2,
+                   anchor="lm")
+        x += bw + 10
+
 
 def price_label(t):
     pf = t.get("price_from")
@@ -77,9 +193,9 @@ def price_label(t):
     except (TypeError, ValueError):
         return pm or "See pricing"
 
+
 def sha(data: str) -> str:
     return hashlib.sha256(data.encode()).hexdigest()
-
 
 
 def _media_tools():
@@ -91,21 +207,23 @@ def _media_tools():
             out.extend(json.load(open(p)))
     return out
 
+
 def gen_tool_card(t, d_out):
     name = t["name"]
-    cat = (t.get("category") or "").replace("-", " ").title()
+    cat = sentence_case((t.get("category") or "").replace("-", " "))
     tagline = (t.get("tagline") or t.get("description") or "").strip().rstrip(".")[:180]
     img, d = base_canvas()
-    brand_header(img, d, f"{cat} review")
-    # Name (big)
-    nf = font(64 if len(name) <= 22 else 54 if len(name) <= 30 else 44)
-    d.text((80, 210), name, font=nf, fill=TEXT)
-    y = 300
-    # Tagline wrapped
-    for line in wrap(d, tagline, font(28), 1000):
-        d.text((80, y), line, font=font(28), fill=MUTED); y += 42
-    # Badges row
-    by = 470
+    draw_chrome(d, f"Tool review · {cat}" if cat else "Tool review")
+
+    # Name (serif, auto-sized; at most two lines so the tagline still fits)
+    bottom = draw_title(d, name, max_lines=2)
+
+    # Tagline wrapped in the sans body face
+    ty = max(bottom + 18, 310)
+    for line in wrap(d, tagline, sans(24), CONTENT_W, max_lines=2):
+        d.text((MARGIN, ty), line, font=sans(24), fill=INK2, anchor="la")
+        ty += 32
+
     badges = [price_label(t)]
     if t.get("api_available"): badges.append("API")
     if t.get("github_stars"):
@@ -113,62 +231,64 @@ def gen_tool_card(t, d_out):
             stars = int(t["github_stars"])
             badges.append(f"{stars//1000}k GitHub stars" if stars >= 1000 else f"{stars} GitHub stars")
         except (TypeError, ValueError): pass
-    bx = 80
-    for b in badges[:3]:
-        bw = d.textlength(b, font=font(24)) + 36
-        d.rounded_rectangle([bx, by, bx + bw, by + 48], radius=8, fill=DIM, outline=BORDER, width=1)
-        d.text((bx + 18, by + 10), b, font=font(24), fill=AMBER)
-        bx += bw + 16
-    footer(d, "martechsignal.com")
+    draw_chips(d, badges[:3], MARGIN, 470)
+    draw_footer(d)
     img.save(d_out, "PNG", optimize=True)
 
+
 def gen_category_card(c, count, d_out):
-    name = c["name"]
+    name = sentence_case(c["name"])
     desc = (c.get("intro") or c.get("description") or "").strip().split(". ")[0][:200]
     img, d = base_canvas()
-    brand_header(img, d, "category guide")
-    d.text((80, 210), name, font=font(60 if len(name) <= 26 else 48), fill=TEXT)
-    y = 310
-    for line in wrap(d, desc, font(28), 1000):
-        d.text((80, y), line, font=font(28), fill=MUTED); y += 42
-    d.text((80, 462), f"{count} tools reviewed & compared", font=font(26), fill=TEXT)
-    footer(d, "martechsignal.com")
+    draw_chrome(d, "Category")
+
+    bottom = draw_title(d, name, max_lines=2)
+    ty = max(bottom + 18, 310)
+    for line in wrap(d, desc, sans(24), CONTENT_W, max_lines=2):
+        d.text((MARGIN, ty), line, font=sans(24), fill=INK2, anchor="la")
+        ty += 32
+    d.text((MARGIN, 478), f"{count} tools reviewed & compared", font=sans(22),
+           fill=MUTED, anchor="la")
+    draw_footer(d)
     img.save(d_out, "PNG", optimize=True)
+
 
 def gen_glossary_card(g, defn, d_out):
     term = g.get("term") or g.get("short")
-    short = g.get("short") or term
     img, d = base_canvas()
-    brand_header(img, d, "glossary definition")
-    tf = font(72 if len(term) <= 20 else 58 if len(term) <= 30 else 44)
-    d.text((80, 220), term, font=tf, fill=TEXT)
-    y = 330
-    for line in wrap(d, defn.strip()[:250], font(28), 1000, max_lines=3):
-        d.text((80, y), line, font=font(28), fill=MUTED); y += 42
-    footer(d, "martechsignal.com")
+    draw_chrome(d, "Glossary")
+
+    bottom = draw_title(d, term, max_lines=2)
+    ty = max(bottom + 16, 330)
+    raw = defn.strip()
+    if len(raw) > 250:
+        raw = raw[:250].rsplit(" ", 1)[0].rstrip(",;:.") + "…"
+    for line in wrap(d, raw, sans(24), CONTENT_W, max_lines=3):
+        d.text((MARGIN, ty), line, font=sans(24), fill=INK2, anchor="la")
+        ty += 30
+    draw_footer(d)
     img.save(d_out, "PNG", optimize=True)
 
+
 def gen_author_card():
-    from PIL import ImageDraw as D
     img, d = base_canvas()
-    brand_header(img, d, "author")
-    # Monogram
-    d.rounded_rectangle([80, 230, 260, 410], radius=24, fill=CARD, outline=AMBER, width=3)
-    mf = font(96)
-    tw = d.textlength("TC", font=mf)
-    d.text((170 - tw/2, 275), "TC", font=mf, fill=AMBER)
-    d.text((300, 250), "Tim Christensen", font=font(56), fill=TEXT)
-    d.text((302, 330), "Martech Product Owner · Malmö", font=font(28), fill=MUTED)
+    draw_chrome(d, "Author")
+    d.text((MARGIN, 210), "Tim Christensen", font=serif(72), fill=INK,
+           anchor="la")
+    d.text((MARGIN, 318), "Martech product owner · Malmö",
+           font=serif_italic(34), fill=INK2, anchor="la")
     for i, line in enumerate(["Writes the MartechSignal teardowns:",
-                               "hands-on reviews of AI marketing",
-                               "automation tools, no sponsorships."]):
-        d.text((302, 380 + i*38), line, font=font(24), fill=MUTED)
-    footer(d, "martechsignal.com/authors/tim-christensen")
-    img.save(ROOT / "og" / "authors" / "tim-christensen.png", "PNG", optimize=True)
+                              "hands-on reviews of AI marketing",
+                              "automation tools, no sponsorships."]):
+        d.text((MARGIN, 380 + i * 32), line, font=sans(24), fill=MUTED,
+               anchor="la")
+    draw_footer(d, "martechsignal.com/authors/tim-christensen")
+    img.save(ROOT / "og" / "authors" / "tim-christensen.png", "PNG",
+             optimize=True)
+
 
 def gen_charts(tools, cats, out_dir):
-    """SVG-free simple bar charts via PIL from tools.json aggregates."""
-    # Chart 1: open-source vs commercial per category (stacked bars)
+    """Simple bar charts via PIL from tools.json aggregates (data unchanged)."""
     from collections import Counter
     active = [t for t in tools if t.get("status") == "active"]
     oss = Counter(); total = Counter()
@@ -185,17 +305,21 @@ def gen_charts(tools, cats, out_dir):
     cats_sorted = sorted((k for k in total if k != "open-source"), key=lambda k: -total[k])
     shown = sum(total[k] for k in cats_sorted)
     oss_all = sum(1 for t in active if t.get("open_source"))
-    W, H, LH = 1200, 630, 34
-    top_pad, bot_pad = 130, 90
     img, d = base_canvas()
-    d.text((80, 70), "Open-source share by category", font=font(40), fill=TEXT)
-    d.text((80, 122), f"{shown} tools in {len(cats_sorted)} categories · martechsignal.com directory", font=font(22), fill=MUTED)
-    d.text((80, 152), f"open-source is a meta-category ({oss_all} OSS tools) and is excluded here", font=font(18), fill=MUTED)
+    d.text((MARGIN, 70), "Open-source share by category", font=serif(40),
+           fill=INK, anchor="la")
+    d.text((MARGIN, 122),
+           f"{shown} tools in {len(cats_sorted)} categories · martechsignal.com directory",
+           font=sans(19), fill=MUTED, anchor="la")
+    d.text((MARGIN, 150),
+           f"open-source is a meta-category ({oss_all} OSS tools) and is excluded here",
+           font=sans(17), fill=MUTED, anchor="la")
     n = len(cats_sorted)
     # Two-line wrapped labels under each bar (readable at OG size; no truncation mid-word)
     label_fs = 14
-    bar_w, gap = 56, 30
-    x0 = 80
+    gap = 22
+    bar_w = max(24, (CONTENT_W - (n - 1) * gap) // max(n, 1))
+    x0 = MARGIN
     LABELS = {
         "marketing-automation": ["marketing", "automation"],
         "workflow-automation": ["workflow", "automation"],
@@ -229,50 +353,62 @@ def gen_charts(tools, cats, out_dir):
         if cur:
             lines.append(cur)
         return lines[:3]
-    baseline = 566
+
+    baseline = 560
+    top_bar = 280
+    max_total = max(total.values())
+    # Hairline gridlines at quarter steps of the tallest bar.
+    for k in range(1, 5):
+        gy = baseline - int(top_bar * k / 4)
+        d.line([MARGIN, gy, RIGHT, gy], fill=LINE, width=1)
+
     for i, c in enumerate(cats_sorted):
         tot, o = total[c], oss[c]
-        h_full = 280 * tot / max(total.values())
-        h_oss = 280 * o / max(total.values())
+        h_full = top_bar * tot / max_total
+        h_oss = top_bar * o / max_total
         x = x0 + i * (bar_w + gap)
-        d.rectangle([x, 560 - h_full - bot_pad + bot_pad, x + bar_w, 560], fill=DIM, outline=BORDER)
+        d.rectangle([x, baseline - int(h_full), x + bar_w, baseline], fill=SUNK,
+                    outline=LINE)
         if o:
-            d.rectangle([x, 560 - h_oss, x + bar_w, 560], fill=AMBER)
+            d.rectangle([x, baseline - int(h_oss), x + bar_w, baseline],
+                        fill=ACCENT)
         cnt = f"{tot}"
-        cw = d.textlength(cnt, font=font(18))
-        d.text((x + bar_w/2 - cw/2, 560 - h_full - 26), cnt, font=font(18), fill=TEXT)
+        cw = d.textlength(cnt, font=sans(18))
+        d.text((x + bar_w / 2 - cw / 2, baseline - h_full - 26), cnt,
+               font=sans(18), fill=INK, anchor="la")
         # centered wrapped category label
         lines = _wrap(c)
-        y = baseline
+        y = baseline + 14
         for ln in lines:
-            lf = font(label_fs, bold=False)
+            lf = sans(label_fs)
             lw = d.textlength(ln, font=lf)
             maxw = bar_w + gap - 6
             if lw > maxw:  # shrink-to-fit so long single words don't collide
                 fs2 = max(10, int(label_fs * maxw / lw))
-                lf = font(fs2, bold=False)
+                lf = sans(fs2)
                 lw = d.textlength(ln, font=lf)
-            d.text((x + bar_w/2 - lw/2, y), ln, font=lf, fill=MUTED)
+            d.text((x + bar_w / 2 - lw / 2, y), ln, font=lf, fill=INK2,
+                   anchor="la")
             y += 19
     # legend (top-right, clear of the short bars at the right end)
-    d.rectangle([900, 190, 924, 210], fill=AMBER)
-    d.text((932, 192), "open source", font=font(20), fill=MUTED)
-    d.rectangle([900, 222, 924, 242], fill=DIM, outline=BORDER)
-    d.text((932, 224), "commercial", font=font(20), fill=MUTED)
+    d.rectangle([900, 190, 914, 204], fill=ACCENT)
+    d.text((924, 190), "Open source", font=sans(20), fill=MUTED, anchor="la")
+    d.rectangle([900, 222, 914, 236], fill=SUNK, outline=LINE)
+    d.text((924, 222), "Commercial", font=sans(20), fill=MUTED, anchor="la")
     out = out_dir / "oss-by-category.png"
     img.save(out, "PNG", optimize=True)
+
 
 def gen_vs_card(a_name, b_name, d_out):
     """r10 H-4 (2026-09-29): per-comparison social/schema image (A vs B)."""
     img, d = base_canvas()
-    brand_header(img, d, "head-to-head comparison")
+    draw_chrome(d, "Comparison")
     title = f"{a_name} vs {b_name}"
-    tf = font(64 if len(title) <= 30 else 50 if len(title) <= 40 else 40)
-    y = 230
-    for line in wrap(d, title, tf, 1000):
-        d.text((80, y), line, font=tf, fill=TEXT); y += 78
-    d.text((80, 462), "Pricing, features and verdict compared", font=font(26), fill=MUTED)
-    footer(d, "martechsignal.com")
+    bottom = draw_title(d, title, max_lines=3)
+    d.text((MARGIN, max(bottom + 20, 470)),
+           "Pricing, features and verdict compared", font=sans(22), fill=MUTED,
+           anchor="la")
+    draw_footer(d)
     img.save(d_out, "PNG", optimize=True)
 
 

@@ -69,13 +69,13 @@ Tools linked in this post: [Amazon Ads](https://advertising.amazon.com/) | [Chat
 ## Related reading
 
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ## Related tools
 
 - [Smartly.io](/tools/smartly-io/) - AI advertising platform spanning creative production, media buying, and measurement
-- [Growth Lab](/tools/growth-lab/) - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
 - [Scrunch](/tools/scrunch/) - The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+- [Growth Lab](/tools/growth-lab/) - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
 ## Comparison guides
 
 - [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
@@ -89,5 +89,3 @@ Tools linked in this post: [Amazon Ads](https://advertising.amazon.com/) | [Chat
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [EspoCRM](/tools/espocrm/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

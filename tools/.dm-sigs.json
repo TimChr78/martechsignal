@@ -1,1322 +1,1322 @@
 {
  "about/index.html": {
   "dm": "2026-10-05",
-  "sig": "cc1c402984200957"
+  "sig": "d7f82833e0a264d4"
  },
  "ai-policy/index.html": {
   "dm": "2026-10-05",
-  "sig": "38f72e7509df859e"
+  "sig": "e1594d6825def3fa"
  },
  "alternatives/hubspot-crm/index.html": {
   "dm": "2026-10-05",
-  "sig": "1c709879fa7148eb"
+  "sig": "2f32307a3fd2efeb"
  },
  "alternatives/index.html": {
   "dm": "2026-10-06",
-  "sig": "d1cb7c88fcf7e8f2"
+  "sig": "ccfb0ebdcc110b73"
  },
  "alternatives/mailchimp/index.html": {
   "dm": "2026-10-05",
-  "sig": "29c473ef84a4edb6"
+  "sig": "991348d8272f24d0"
  },
  "alternatives/matomo/index.html": {
   "dm": "2026-10-05",
-  "sig": "2a1a3edbd02e67a7"
+  "sig": "648eed9c628494ca"
  },
  "alternatives/n8n/index.html": {
   "dm": "2026-10-06",
-  "sig": "653cbbc8caf9049a"
+  "sig": "5cc88271eab677c1"
  },
  "alternatives/zapier/index.html": {
   "dm": "2026-10-06",
-  "sig": "c824fea8ea00ed76"
+  "sig": "6f2b11b83c84107f"
  },
  "authors/index.html": {
   "dm": "2026-10-05",
-  "sig": "daa7c45f5e15a5eb"
+  "sig": "b3942b977df6b5ca"
  },
  "authors/tim-christensen/index.html": {
   "dm": "2026-10-05",
-  "sig": "c26685c1e0dfd98b"
+  "sig": "441b0e5e9824287f"
  },
  "best/agent-skills-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "110b4d6282e0fd1a"
+  "sig": "b9dc56d600996cd2"
  },
  "best/ai-advertising-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "a9dcd980840378bd"
+  "sig": "2e783bb015b1b975"
  },
  "best/ai-chatbot-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "b21ae9c211b1f29b"
+  "sig": "3a57aafd22d31bf2"
  },
  "best/ai-content-copywriting-tools/index.html": {
   "dm": "2026-10-17",
-  "sig": "0b03b0929cc5df03"
+  "sig": "3ca0faa7ea318edc"
  },
  "best/ai-crm-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "df8d8dc5fd2a2a64"
+  "sig": "2125dc1579a262e3"
  },
  "best/ai-email-marketing-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "fa54b9000dda3aef"
+  "sig": "1f46712a65b333fa"
  },
  "best/ai-marketing-automation-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "f8a6e0a605c3061b"
+  "sig": "046e4cd337b0b06c"
  },
  "best/ai-personalization-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "2faa4fae127c5265"
+  "sig": "1170049221d9c6a9"
  },
  "best/ai-seo-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "14ab806f50a1482e"
+  "sig": "e3bcab090e556953"
  },
  "best/ai-social-media-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "2647f3c51df09968"
+  "sig": "56c6a439ef23bfd0"
  },
  "best/cdp/index.html": {
   "dm": "2026-10-06",
-  "sig": "2406b46ba487ac35"
+  "sig": "8287e4a4d9ab96d1"
  },
  "best/geo-llm-visibility-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "4a206ba52caeebb6"
+  "sig": "aa5f0d2d39a0355a"
  },
  "best/index.html": {
   "dm": "2026-10-17",
-  "sig": "04c553a6b5c69d69"
+  "sig": "86b0ba5d70f462c9"
  },
  "best/marketing-analytics-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "6271d299c0bdfd0d"
+  "sig": "e878bc7ef4ccebe4"
  },
  "best/open-source-crm/index.html": {
   "dm": "2026-10-06",
-  "sig": "7f4dd52f7115c003"
+  "sig": "2de9eca68162c969"
  },
  "best/open-source-marketing-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "274b222259115499"
+  "sig": "43cbe3b7f8e04ab7"
  },
  "best/workflow-automation-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "61253be6bf145e3d"
+  "sig": "c60f76fa877f780c"
  },
  "blog/aeo-for-seo-what-changes-when-buyers-ask/index.html": {
   "dm": "2026-10-16",
-  "sig": "239aba1bd2ad44d5"
+  "sig": "4bac44f0f1c71f61"
  },
  "blog/agency-retainer-agentic-tools/index.html": {
   "dm": "2026-10-06",
-  "sig": "2b56bba13bbb5b45"
+  "sig": "f2718d380234f871"
  },
  "blog/agent-fleet-in-the-wild-2026-10-19/index.html": {
   "dm": "2026-10-19",
-  "sig": "c6aa382c763f3d26"
+  "sig": "8a7818b459e13c13"
  },
  "blog/agent-isolation-not-prompts-2026-10-22/index.html": {
   "dm": "2026-10-22",
-  "sig": "007c0237e923c8b3"
+  "sig": "1b1b54dbf732a954"
  },
  "blog/agent-protocol-vs-data-plumbing/index.html": {
   "dm": "2026-09-27",
-  "sig": "762b438785f3ed62"
+  "sig": "f834f5fc4e77df97"
  },
  "blog/agents-identity-debt/index.html": {
   "dm": "2026-09-25",
-  "sig": "ecfd053dabded32e"
+  "sig": "f569a0b9dceb502e"
  },
  "blog/ai-agents-need-campaign-state/index.html": {
   "dm": "2026-09-27",
-  "sig": "16da5c8b1896e31b"
+  "sig": "2106e39e3779a3fa"
  },
  "blog/ai-search-funnel-map-ga4-wont-give-you/index.html": {
   "dm": "2026-09-25",
-  "sig": "0522f00e01555a0b"
+  "sig": "061c6ec472e0adaf"
  },
  "blog/ai-theater-wrong-kpi/index.html": {
   "dm": "2026-09-30",
-  "sig": "c6efc8457dc9c2f1"
+  "sig": "55db8ca00afff1cf"
  },
  "blog/amazon-agentic-ad-formats-brand-controls/index.html": {
   "dm": "2026-10-09",
-  "sig": "a3ac8e7014e079c9"
+  "sig": "a9ea56fc2fb0489b"
  },
  "blog/automation-blast-radius-audit/index.html": {
   "dm": "2026-09-08",
-  "sig": "3daffd219f9568c7"
+  "sig": "0acc4d32c92bce8f"
  },
  "blog/autonomous-marketing-platform-label-contest/index.html": {
   "dm": "2026-09-28",
-  "sig": "dad5eb1121894f8d"
+  "sig": "6e90e608b9bf1bde"
  },
  "blog/autonomous-stack-loophole-approval-step/index.html": {
   "dm": "2026-09-09",
-  "sig": "3d081ae27cd069c3"
+  "sig": "ac1bf1308d46edf0"
  },
  "blog/braze-ai-campaign-operations/index.html": {
   "dm": "2026-10-07",
-  "sig": "0d8fe056b71f8aab"
+  "sig": "13a93cadd2c803f7"
  },
  "blog/cdp-reckoning-warehouse-native/index.html": {
   "dm": "2026-09-09",
-  "sig": "bfbee3d09c2588f3"
+  "sig": "b6db8db50083fb92"
  },
  "blog/chatgpt-isnt-search-anymore-its-checkout/index.html": {
   "dm": "2026-09-09",
-  "sig": "6dc26dfe4e3e6347"
+  "sig": "296a76233cdedfd1"
  },
  "blog/ci-tools-were-the-first-martech-category-ai-killed/index.html": {
   "dm": "2026-09-09",
-  "sig": "58b3d23bc7cd64f7"
+  "sig": "f354d328622abda1"
  },
  "blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/index.html": {
   "dm": "2026-09-17",
-  "sig": "4f5f3aa6a582ad67"
+  "sig": "1ea3c695ffe5ec5b"
  },
  "blog/claude-seo-benchmark/index.html": {
   "dm": "2026-09-28",
-  "sig": "70abf3190dd387c8"
+  "sig": "5752272e41e0f4ac"
  },
  "blog/claude-seo-vs-codex-seo/index.html": {
   "dm": "2026-09-27",
-  "sig": "9a94b0c819cc221d"
+  "sig": "352c81dc2d42c22d"
  },
  "blog/claude-seo-vs-seonaut/index.html": {
   "dm": "2026-09-27",
-  "sig": "6d3f08b512d38ca7"
+  "sig": "493e91d5ab41591a"
  },
  "blog/dashboard-cant-see-ai-search-5-layer-fix/index.html": {
   "dm": "2026-09-28",
-  "sig": "2b52b64ddad93a86"
+  "sig": "14ac807ed9aad2db"
  },
  "blog/deliverability-ai-spam-content-problem/index.html": {
   "dm": "2026-09-09",
-  "sig": "013d65b160d0c6f2"
+  "sig": "15deda851c7e4c0a"
  },
  "blog/determinism-audit/index.html": {
   "dm": "2026-09-12",
-  "sig": "e758e4967dc317b6"
+  "sig": "6a404371d2063957"
  },
  "blog/geo-experiments-vs-ai-visibility-playbook/index.html": {
   "dm": "2026-09-27",
-  "sig": "0d0426fff2721c42"
+  "sig": "5bba34e96ec0285b"
  },
  "blog/google-ad-agents-control-gap/index.html": {
   "dm": "2026-09-25",
-  "sig": "c98d02ecfacc6db7"
+  "sig": "e0b824722025e0ed"
  },
  "blog/google-ads-ai-guardrails/index.html": {
   "dm": "2026-09-27",
-  "sig": "ea36e4edb1d72906"
+  "sig": "af35d8b8108e1903"
  },
  "blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/index.html": {
   "dm": "2026-09-27",
-  "sig": "b23ea9c157e51430"
+  "sig": "6d75b95f8fa3c54e"
  },
  "blog/hubspot-credit-rules-budget-design-2026-10-20/index.html": {
   "dm": "2026-10-20",
-  "sig": "e418172dc9d38c50"
+  "sig": "355ac58af856e690"
  },
  "blog/iab-agentic-buying-rules-insertion-orders/index.html": {
   "dm": "2026-09-28",
-  "sig": "a0d2e41145793e7e"
+  "sig": "832cabf8d47097db"
  },
  "blog/index.html": {
   "dm": "2026-10-23",
-  "sig": "4320f2c74e27aa50"
+  "sig": "6fafac980410995c"
  },
  "blog/jon-miller-rethink-not-rebuild/index.html": {
   "dm": "2026-10-01",
-  "sig": "f97c7a0e98429135"
+  "sig": "c9b65cb75c6bf25c"
  },
  "blog/link-building-wont-get-you-into-ai-answers/index.html": {
   "dm": "2026-09-26",
-  "sig": "a4a53d0408d1ffd9"
+  "sig": "1a6ec3f308f4bbd4"
  },
  "blog/martech-budget-bleeding-nobody-measuring/index.html": {
   "dm": "2026-09-28",
-  "sig": "37c093494e79ce42"
+  "sig": "d66ef0b1721459b8"
  },
  "blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/index.html": {
   "dm": "2026-09-27",
-  "sig": "3a2da27d881dc81c"
+  "sig": "b36019b2fe9cd128"
  },
  "blog/microsoft-search-ads-steering-wheel/index.html": {
   "dm": "2026-09-09",
-  "sig": "9dd2d35aead590b6"
+  "sig": "1d32c5c1a66b2b5c"
  },
  "blog/multi-touch-attribution-was-always-a-fiction/index.html": {
   "dm": "2026-08-14",
-  "sig": "a3828dfa2eec0052"
+  "sig": "9b3bb31887fdfa07"
  },
  "blog/n8n-ai-open-source-automation/index.html": {
   "dm": "2026-09-25",
-  "sig": "57d23c016f89f640"
+  "sig": "c07fa6f47a1274e7"
  },
  "blog/nocobase-vs-nocodb-vs-budibase/index.html": {
   "dm": "2026-09-28",
-  "sig": "161229f970867dd4"
+  "sig": "7cadcc99f2bde89a"
  },
  "blog/open-source-agentic-martech-stack-mcp/index.html": {
   "dm": "2026-10-05",
-  "sig": "11c8e802cbee2bcc"
+  "sig": "32d91426d5311221"
  },
  "blog/open-source-martech-stack/index.html": {
   "dm": "2026-07-27",
-  "sig": "e9d0c509db45c0c8"
+  "sig": "d494a13e75683618"
  },
  "blog/openai-agent-ads-spending-without-you/index.html": {
   "dm": "2026-09-28",
-  "sig": "9337a46ab71fbb9e"
+  "sig": "fd446cf32175bcc9"
  },
  "blog/oss-martech-50-day-checkin/index.html": {
   "dm": "2026-09-14",
-  "sig": "e328fef34b366c2c"
+  "sig": "d1d0495e6b74890e"
  },
  "blog/oss-momentum-tracker-september-2026/index.html": {
   "dm": "2026-09-30",
-  "sig": "638defb3516b84b8"
+  "sig": "f6e5ce2c7551b0e2"
  },
  "blog/procedural-memory-agents/index.html": {
   "dm": "2026-10-23",
-  "sig": "31ae9430ea10882e"
+  "sig": "fb3db2f4ec1b1e6c"
  },
  "blog/rogue-ai-agents-trust-debate/index.html": {
   "dm": "2026-10-08",
-  "sig": "24767531628e9618"
+  "sig": "9c2102b15ca9458c"
  },
  "blog/salesforce-agentforce-free-marketing-ops/index.html": {
   "dm": "2026-09-25",
-  "sig": "cad0975b12ecfa56"
+  "sig": "484aef62fae5e7bd"
  },
  "blog/salesforce-claude-commerce-cloud-agentforce/index.html": {
   "dm": "2026-09-29",
-  "sig": "d1365b15f3791805"
+  "sig": "381d21c3c9eeaa82"
  },
  "blog/salesforce-third-no-code-promise/index.html": {
   "dm": "2026-09-21",
-  "sig": "50865495433139c3"
+  "sig": "1a661af0742b3e0a"
  },
  "blog/silent-failure-audit/index.html": {
   "dm": "2026-09-11",
-  "sig": "a708ee890eed370d"
+  "sig": "a2873b43befc04c2"
  },
  "blog/sqreem-behavioral-model-vs-llm/index.html": {
   "dm": "2026-10-02",
-  "sig": "77c2233235d16356"
+  "sig": "01d281d486ac4810"
  },
  "blog/watermark-provenance-tax-agents/index.html": {
   "dm": "2026-09-25",
-  "sig": "0745263053e75c09"
+  "sig": "8e5b82510a2edf09"
  },
  "blog/what-free-seo-audit-replaces/index.html": {
   "dm": "2026-09-28",
-  "sig": "a65393de8b199fe0"
+  "sig": "ffd25c9fff19dc35"
  },
  "blog/where-manual-work-hides-marketing-automation/index.html": {
   "dm": "2026-10-14",
-  "sig": "d13adbba841fbe2c"
+  "sig": "39b26b197b800178"
  },
  "blog/who-eats-the-spending-gap-agentic-proof/index.html": {
   "dm": "2026-10-15",
-  "sig": "5ad983f16cabb8d9"
+  "sig": "ebeb5b20d7bdf582"
  },
  "blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/index.html": {
   "dm": "2026-09-28",
-  "sig": "c1fb75144acb3740"
+  "sig": "3b9f18f4561db596"
  },
  "blog/you-dont-need-new-data-stack-fivetran/index.html": {
   "dm": "2026-08-20",
-  "sig": "87ec6aec9951da1c"
+  "sig": "993ac3c5b3df9ae0"
  },
  "blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/index.html": {
   "dm": "2026-08-27",
-  "sig": "22dba26538890ec2"
+  "sig": "38f5b7bab7bb9659"
  },
  "categories/advertising/index.html": {
   "dm": "2026-10-05",
-  "sig": "7de38cdca07771e6"
+  "sig": "65e64ce78f6e772b"
  },
  "categories/agent-skills/index.html": {
   "dm": "2026-10-14",
-  "sig": "1d0e9b3e8e1bb68a"
+  "sig": "dab6398beb7ad087"
  },
  "categories/analytics/index.html": {
   "dm": "2026-10-06",
-  "sig": "d34ff1b89d419bff"
+  "sig": "002c7ce904ae34a9"
  },
  "categories/chatbots/index.html": {
   "dm": "2026-10-06",
-  "sig": "2c0bc9191666d453"
+  "sig": "2d6f244b6365b0a5"
  },
  "categories/content-ai/index.html": {
   "dm": "2026-10-17",
-  "sig": "52bc05175749e8a0"
+  "sig": "cf6e8d320c666260"
  },
  "categories/crm/index.html": {
   "dm": "2026-10-06",
-  "sig": "db25b546d1b59215"
+  "sig": "5844d57a8c80723a"
  },
  "categories/email-marketing/index.html": {
   "dm": "2026-10-19",
-  "sig": "ed59d87e18c68702"
+  "sig": "8b593cb6d68be583"
  },
  "categories/geo-llm-visibility/index.html": {
   "dm": "2026-10-06",
-  "sig": "7b3db81a556475be"
+  "sig": "0e7360425694d2ed"
  },
  "categories/index.html": {
   "dm": "2026-10-19",
-  "sig": "187f17f30336bff7"
+  "sig": "253a5b31f18cf56d"
  },
  "categories/marketing-automation/index.html": {
   "dm": "2026-10-06",
-  "sig": "ed29467a03d4731f"
+  "sig": "20a2e7dd9a911466"
  },
  "categories/open-source/index.html": {
   "dm": "2026-10-19",
-  "sig": "0e9751b67e0fb98e"
+  "sig": "4cbd4cfc938573e5"
  },
  "categories/personalization/index.html": {
   "dm": "2026-10-06",
-  "sig": "c6057df495889210"
+  "sig": "f985a2bf9246d3be"
  },
  "categories/seo/index.html": {
   "dm": "2026-10-06",
-  "sig": "4d4ad35c3e97a3ab"
+  "sig": "a65348849d17a41b"
  },
  "categories/social-media/index.html": {
   "dm": "2026-10-06",
-  "sig": "f19ea82fd318408c"
+  "sig": "f710a09c68ee3cca"
  },
  "categories/workflow-automation/index.html": {
   "dm": "2026-10-06",
-  "sig": "9da3520aaa1b0a59"
+  "sig": "5c6ad21c35663e04"
  },
  "checklist/index.html": {
   "dm": "2026-10-05",
-  "sig": "7c2765cdabdfc1bc"
+  "sig": "2fc56b816435f55c"
  },
  "contact/index.html": {
   "dm": "2026-09-27",
-  "sig": "d70970c5140c15d7"
+  "sig": "a7d25ee1027d60fb"
  },
  "corrections/index.html": {
   "dm": "2026-10-06",
-  "sig": "7520c1a748c007ae"
+  "sig": "5d981901dcb7d731"
  },
  "glossary/abm/index.html": {
   "dm": "2026-09-28",
-  "sig": "f7ff616a17ea1a21"
+  "sig": "9dbe45c3fc558c55"
  },
  "glossary/aeo/index.html": {
   "dm": "2026-09-28",
-  "sig": "56c36f812930fa0c"
+  "sig": "9ff6f7d1022f4df5"
  },
  "glossary/agentic-marketing/index.html": {
   "dm": "2026-10-05",
-  "sig": "38416cceef99e341"
+  "sig": "cd810fc6d5f4a47b"
  },
  "glossary/ai-agent/index.html": {
   "dm": "2026-10-05",
-  "sig": "8f73e71b301b5e6a"
+  "sig": "1b4ac03bc47e3107"
  },
  "glossary/ai-content-generation/index.html": {
   "dm": "2026-10-05",
-  "sig": "7dba2454142c4058"
+  "sig": "9abb33aec8827952"
  },
  "glossary/ai-search-visibility/index.html": {
   "dm": "2026-10-05",
-  "sig": "6e5c3fd2337fb509"
+  "sig": "fe760392e3bdda57"
  },
  "glossary/cdp/index.html": {
   "dm": "2026-10-05",
-  "sig": "3c6d3d15595e5906"
+  "sig": "fc6f52447a59fd6d"
  },
  "glossary/chatbot/index.html": {
   "dm": "2026-09-28",
-  "sig": "4c49907ce0f0a44d"
+  "sig": "d518d71f3851162b"
  },
  "glossary/crm/index.html": {
   "dm": "2026-09-28",
-  "sig": "7ba840439ddf54cf"
+  "sig": "c48d2df4b5a8d922"
  },
  "glossary/cro/index.html": {
   "dm": "2026-09-07",
-  "sig": "9b3e534c9e1b207b"
+  "sig": "0682bd383b3d97fc"
  },
  "glossary/customer-journey/index.html": {
   "dm": "2026-09-07",
-  "sig": "cb9d730890227199"
+  "sig": "ce6af8e42163fedf"
  },
  "glossary/dco/index.html": {
   "dm": "2026-10-05",
-  "sig": "c95c4d733f337b0e"
+  "sig": "096edef1773f85fb"
  },
  "glossary/deliverability/index.html": {
   "dm": "2026-09-28",
-  "sig": "34039a76dc223ed0"
+  "sig": "12376427eb36b2d9"
  },
  "glossary/dmp/index.html": {
   "dm": "2026-09-07",
-  "sig": "e5a1be9f08867aa5"
+  "sig": "1c845873b56965fb"
  },
  "glossary/dsp/index.html": {
   "dm": "2026-09-28",
-  "sig": "b3e70f8c7ceead3e"
+  "sig": "b0a5e3a7978a8eac"
  },
  "glossary/email-sequence/index.html": {
   "dm": "2026-09-28",
-  "sig": "567494c6ace9b5bc"
+  "sig": "92484f742fabfb13"
  },
  "glossary/first-party-data/index.html": {
   "dm": "2026-10-05",
-  "sig": "8d66173ab02884ef"
+  "sig": "237e12c88fc302fc"
  },
  "glossary/geo/index.html": {
   "dm": "2026-10-05",
-  "sig": "5c7b36d362a21326"
+  "sig": "73d87593a5433ee8"
  },
  "glossary/index.html": {
   "dm": "2026-10-05",
-  "sig": "0568fa23b8dc65b7"
+  "sig": "ff456a522900aa65"
  },
  "glossary/lead-scoring/index.html": {
   "dm": "2026-10-06",
-  "sig": "5ef3bed4f2b357a8"
+  "sig": "66ea27f9b856c16a"
  },
  "glossary/marketing-attribution-models/index.html": {
   "dm": "2026-09-28",
-  "sig": "269f5ec62a2d9147"
+  "sig": "05d6d09318a33d33"
  },
  "glossary/marketing-automation/index.html": {
   "dm": "2026-10-05",
-  "sig": "768cedfe2ebf259d"
+  "sig": "2816ea48b681a4ac"
  },
  "glossary/marketing-ops/index.html": {
   "dm": "2026-08-23",
-  "sig": "62e66bc381da9060"
+  "sig": "ece07af14accd656"
  },
  "glossary/mcp/index.html": {
   "dm": "2026-10-06",
-  "sig": "9a1a0533b7e6db91"
+  "sig": "f633990374da16e7"
  },
  "glossary/mql-sql/index.html": {
   "dm": "2026-10-05",
-  "sig": "bf1c8f69f4dad09b"
+  "sig": "73fcee0889b54516"
  },
  "glossary/personalization/index.html": {
   "dm": "2026-09-28",
-  "sig": "db49fdcbbc979f75"
+  "sig": "23304314db868923"
  },
  "glossary/programmatic-advertising/index.html": {
   "dm": "2026-09-05",
-  "sig": "a399d28fdb78de6b"
+  "sig": "60070b23a773ece0"
  },
  "glossary/seo/index.html": {
   "dm": "2026-09-07",
-  "sig": "566928a01360d5ec"
+  "sig": "0e9ef31aa39a10f4"
  },
  "glossary/social-listening/index.html": {
   "dm": "2026-10-05",
-  "sig": "0304963da833dbec"
+  "sig": "e9b0b635acbfdc84"
  },
  "glossary/utm-parameters/index.html": {
   "dm": "2026-09-07",
-  "sig": "f43c9d19cd17e12c"
+  "sig": "d4615eb7b79bdd8a"
  },
  "glossary/workflow-automation/index.html": {
   "dm": "2026-09-07",
-  "sig": "6ddffc79e884d659"
+  "sig": "33d13c7aafb32868"
  },
  "guides/agentic-ai-advertising/index.html": {
   "dm": "2026-09-28",
-  "sig": "72f53c7dff54b9c4"
+  "sig": "19520df3c9be8411"
  },
  "guides/ai-seo-tooling/index.html": {
   "dm": "2026-09-28",
-  "sig": "d61a12090272e4e0"
+  "sig": "b3540aa2efaeb352"
  },
  "guides/generative-engine-optimization/index.html": {
   "dm": "2026-09-28",
-  "sig": "5ae74ee142a84145"
+  "sig": "d716768b51ddcb81"
  },
  "guides/index.html": {
   "dm": "2026-10-06",
-  "sig": "6cb73b6aca1ac3d1"
+  "sig": "a36289cddb6ed6fa"
  },
  "guides/mcp-agent-protocols/index.html": {
   "dm": "2026-09-28",
-  "sig": "5dfafbca2b2d8d81"
+  "sig": "43d3663b69d94878"
  },
  "guides/workflow-automation-strategy/index.html": {
   "dm": "2026-09-28",
-  "sig": "24964d8bb7eb4b90"
+  "sig": "fc113e5c8c06d3af"
  },
  "index.html": {
   "dm": "2026-10-23",
-  "sig": "2a582285a2f87fce"
+  "sig": "921cc0d8049ae693"
  },
  "methodology/index.html": {
   "dm": "2026-10-06",
-  "sig": "5340802ed3690952"
+  "sig": "53c7584fe1d06005"
  },
  "privacy/index.html": {
   "dm": "2026-08-26",
-  "sig": "b73b6962b0b243f0"
+  "sig": "ee0bf0a466380842"
  },
  "terms/index.html": {
   "dm": "2026-08-26",
-  "sig": "d03816ef7d673ff1"
+  "sig": "14acb1d92d602d91"
  },
  "tools/aaron-marketing-skills/index.html": {
   "dm": "2026-08-28",
-  "sig": "845b0b3ceca14b35"
+  "sig": "a63b0819dac042fa"
  },
  "tools/accuranker/index.html": {
   "dm": "2026-09-25",
-  "sig": "2cbe6a0aa3f6e90e"
+  "sig": "689d920a1d8c5de5"
  },
  "tools/activecampaign/index.html": {
   "dm": "2026-09-27",
-  "sig": "d89ac66e07f79bb6"
+  "sig": "2d3d8f8c01f1261c"
  },
  "tools/activepieces/index.html": {
   "dm": "2026-09-27",
-  "sig": "20a3f634da465fcf"
+  "sig": "fde05e0d31036d42"
  },
  "tools/adcreative-ai/index.html": {
   "dm": "2026-10-12",
-  "sig": "79345c2f995f68fe"
+  "sig": "702c830578859bf3"
  },
  "tools/adobe-llm-optimizer/index.html": {
   "dm": "2026-09-25",
-  "sig": "28fdd80f43b3a506"
+  "sig": "fdcf04d99764b3c1"
  },
  "tools/adobe-marketo/index.html": {
   "dm": "2026-09-27",
-  "sig": "67c5fb8d6b746b7c"
+  "sig": "73bfc503a37f9d49"
  },
  "tools/advertools/index.html": {
   "dm": "2026-09-25",
-  "sig": "75f8d2b9120dcda2"
+  "sig": "4c51ff6d9da962a3"
  },
  "tools/ahrefs/index.html": {
   "dm": "2026-09-25",
-  "sig": "6023c6954ee5228f"
+  "sig": "dfdddcdc7e47bb6e"
  },
  "tools/ai-business-skills/index.html": {
   "dm": "2026-08-28",
-  "sig": "0843872073bfdc01"
+  "sig": "36f8218412d4bc49"
  },
  "tools/ai-marketing-claude/index.html": {
   "dm": "2026-09-28",
-  "sig": "99896f515ae4a850"
+  "sig": "922394d487e53e6c"
  },
  "tools/albert-ai/index.html": {
   "dm": "2026-10-05",
-  "sig": "20521a22c7375b5c"
+  "sig": "7589e2da4cc8ecff"
  },
  "tools/alphone/index.html": {
   "dm": "2026-09-06",
-  "sig": "cab0af9735c1b403"
+  "sig": "aa05a885c6e08350"
  },
  "tools/alwrity/index.html": {
   "dm": "2026-08-28",
-  "sig": "85f39188775d9b9f"
+  "sig": "2a1b933aa2322b76"
  },
  "tools/amplitude/index.html": {
   "dm": "2026-09-25",
-  "sig": "444095c94dd3b5cc"
+  "sig": "792582e4f5473027"
  },
  "tools/analytics-tracking-automation/index.html": {
   "dm": "2026-08-28",
-  "sig": "e2f3b15f4a89f32b"
+  "sig": "f974540e9862061d"
  },
  "tools/anyword/index.html": {
   "dm": "2026-10-05",
-  "sig": "615dd5b08179317a"
+  "sig": "334700c0a57b5e22"
  },
  "tools/apache-unomi/index.html": {
   "dm": "2026-09-25",
-  "sig": "cc11d5fe364fcd3a"
+  "sig": "44f5830ee361cf86"
  },
  "tools/appsmith/index.html": {
   "dm": "2026-09-07",
-  "sig": "c1bcb0f45cd208b5"
+  "sig": "ce62d1e5674274b3"
  },
  "tools/attio/index.html": {
   "dm": "2026-10-05",
-  "sig": "586373e0aa1210ab"
+  "sig": "8c02b67066731f4c"
  },
  "tools/attribution/index.html": {
   "dm": "2026-08-28",
-  "sig": "72794bd465f20b60"
+  "sig": "1675fc6d1d33e467"
  },
  "tools/billionmail/index.html": {
   "dm": "2026-09-07",
-  "sig": "263da1dff8f39d76"
+  "sig": "89169388bf8f6f32"
  },
  "tools/bloomreach/index.html": {
   "dm": "2026-10-05",
-  "sig": "28af76d14ebda0cd"
+  "sig": "e2e7ec5180a5bde0"
  },
  "tools/brandwatch/index.html": {
   "dm": "2026-08-28",
-  "sig": "c09b14db0096a947"
+  "sig": "9c1689e09d345345"
  },
  "tools/braze/index.html": {
   "dm": "2026-08-28",
-  "sig": "0f258a5e94c661ec"
+  "sig": "55cfe4e2d5e12892"
  },
  "tools/brevo/index.html": {
   "dm": "2026-10-01",
-  "sig": "c4dc02d882763704"
+  "sig": "ff86888cefd9a108"
  },
  "tools/budibase/index.html": {
   "dm": "2026-09-07",
-  "sig": "0ff57f245594f7c5"
+  "sig": "4ffa3bb35b4dc06c"
  },
  "tools/buffer/index.html": {
   "dm": "2026-10-05",
-  "sig": "402d91c02deac25f"
+  "sig": "931ad737c23f1778"
  },
  "tools/chatbotx/index.html": {
   "dm": "2026-08-28",
-  "sig": "5cd90043c7b93ed9"
+  "sig": "235fabe6806fd2a5"
  },
  "tools/chatfuel/index.html": {
   "dm": "2026-10-05",
-  "sig": "9ba20f6f6dd9f434"
+  "sig": "b95981c7766f2fba"
  },
  "tools/chatwoot/index.html": {
   "dm": "2026-09-07",
-  "sig": "f7da840cdf31c165"
+  "sig": "aaa9382d8f45b368"
  },
  "tools/claude-ads/index.html": {
   "dm": "2026-10-05",
-  "sig": "e3c3fb13dfd07473"
+  "sig": "82f375431eed02cf"
  },
  "tools/claude-seo/index.html": {
   "dm": "2026-09-27",
-  "sig": "a8700b86354409f5"
+  "sig": "7238ace7d99d7f88"
  },
  "tools/clearscope/index.html": {
   "dm": "2026-10-05",
-  "sig": "51dc70eff85e65d4"
+  "sig": "5c0b5f7c8f2856ce"
  },
  "tools/clerk-io/index.html": {
   "dm": "2026-09-25",
-  "sig": "4f4ac7e139a52acd"
+  "sig": "f4f0bc274d21f31b"
  },
  "tools/codex-seo/index.html": {
   "dm": "2026-10-12",
-  "sig": "e0779365bff38f5c"
+  "sig": "d4d6341b2c21dfaf"
  },
  "tools/contentbot/index.html": {
   "dm": "2026-08-28",
-  "sig": "d92cee62af4c4fae"
+  "sig": "f62a8a6ed71e29c1"
  },
  "tools/copy-ai/index.html": {
   "dm": "2026-10-17",
-  "sig": "8ab57ba560769ab6"
+  "sig": "c70c31b467fc6f07"
  },
  "tools/cordys-crm/index.html": {
   "dm": "2026-09-07",
-  "sig": "6a8e2a472d7471d2"
+  "sig": "69a69287c63a6692"
  },
  "tools/customer-io/index.html": {
   "dm": "2026-09-06",
-  "sig": "e8faa436310f723a"
+  "sig": "b4d4ff46f3509cd3"
  },
  "tools/deskcommcrm/index.html": {
   "dm": "2026-09-14",
-  "sig": "01d75bc113db045f"
+  "sig": "de9602ad328dac04"
  },
  "tools/diffmode-growth-tactics/index.html": {
   "dm": "2026-08-31",
-  "sig": "9fee8dc50c5d833c"
+  "sig": "5e9dc9ed2e188219"
  },
  "tools/digital-marketing-pro/index.html": {
   "dm": "2026-09-28",
-  "sig": "ad493943177e0462"
+  "sig": "9abc6b080208351a"
  },
  "tools/django-crm/index.html": {
   "dm": "2026-09-06",
-  "sig": "cab55c364b263a6b"
+  "sig": "ce73625f5506efe2"
  },
  "tools/dolibarr/index.html": {
   "dm": "2026-09-06",
-  "sig": "d01bb2e68578b3b2"
+  "sig": "16197902257c7ab3"
  },
  "tools/dynamic-yield/index.html": {
   "dm": "2026-09-06",
-  "sig": "5bf166e423a2e320"
+  "sig": "2206933d0ecf9322"
  },
  "tools/email-marketing-bible/index.html": {
   "dm": "2026-10-12",
-  "sig": "c18860743e7d59e6"
+  "sig": "885e8804b889e757"
  },
  "tools/espocrm/index.html": {
   "dm": "2026-09-07",
-  "sig": "8efa6f5be7a454cb"
+  "sig": "1546cd36110ec419"
  },
  "tools/eve-marketing-team/index.html": {
   "dm": "2026-08-31",
-  "sig": "becdacd365ec4a6e"
+  "sig": "ed2b0243fcfdaa79"
  },
  "tools/ever-gauzy/index.html": {
   "dm": "2026-09-07",
-  "sig": "6cc153c71e973bcb"
+  "sig": "6bd707475010f0f8"
  },
  "tools/evertune/index.html": {
   "dm": "2026-09-25",
-  "sig": "85283fdea757876a"
+  "sig": "a9a3055843b4d82b"
  },
  "tools/flagsmith/index.html": {
   "dm": "2026-09-25",
-  "sig": "8c48d153ee5a3608"
+  "sig": "440fd509c82e133f"
  },
  "tools/frappe-crm/index.html": {
   "dm": "2026-09-06",
-  "sig": "e2c374ce086b5b33"
+  "sig": "b96caeeed367d9ad"
  },
  "tools/frase/index.html": {
   "dm": "2026-09-07",
-  "sig": "06a75250b600b4cf"
+  "sig": "eb494cdb76d807e3"
  },
  "tools/freshsales/index.html": {
   "dm": "2026-09-27",
-  "sig": "c6874af98a1faaf8"
+  "sig": "8c667017ef1782b0"
  },
  "tools/ghost/index.html": {
   "dm": "2026-08-28",
-  "sig": "c293b82e2441618d"
+  "sig": "a1fd8332899053a7"
  },
  "tools/google-meta-ads-ga4-mcp/index.html": {
   "dm": "2026-09-07",
-  "sig": "a976507e81147178"
+  "sig": "72e3ff5eee5445a1"
  },
  "tools/growth-lab/index.html": {
   "dm": "2026-08-28",
-  "sig": "f5db4ee0b48e5d9a"
+  "sig": "1d3363d307dc84c0"
  },
  "tools/growthbook/index.html": {
   "dm": "2026-09-25",
-  "sig": "c1bcd57cb09677da"
+  "sig": "5137fb08833dbfbc"
  },
  "tools/heap/index.html": {
   "dm": "2026-10-12",
-  "sig": "3b761eac71c8d7c9"
+  "sig": "9d31d2c2ea673bf7"
  },
  "tools/hightouch/index.html": {
   "dm": "2026-10-01",
-  "sig": "a7cd2582152783ff"
+  "sig": "a49377d334f35ff2"
  },
  "tools/hootsuite/index.html": {
   "dm": "2026-09-27",
-  "sig": "8369edcaa454f95a"
+  "sig": "3350fa58a6f9e556"
  },
  "tools/hubspot-crm/index.html": {
   "dm": "2026-09-27",
-  "sig": "1b767d7a9d3802cc"
+  "sig": "034b19822c5e9253"
  },
  "tools/hubspot-marketing-hub/index.html": {
   "dm": "2026-08-28",
-  "sig": "e88b87a79447fa12"
+  "sig": "3ed18c9b64d3c349"
  },
  "tools/hypotenuse-ai/index.html": {
   "dm": "2026-08-28",
-  "sig": "5dda682caccf134d"
+  "sig": "7a0a5c65c8dd1d69"
  },
  "tools/idurar-erp-crm/index.html": {
   "dm": "2026-09-07",
-  "sig": "b34735d599be2e49"
+  "sig": "9b4f04d906ef486b"
  },
  "tools/ifttt/index.html": {
   "dm": "2026-09-27",
-  "sig": "dee6f3fac0284b87"
+  "sig": "96faa14b1b77608a"
  },
  "tools/index.html": {
   "dm": "2026-10-19",
-  "sig": "2b51e04f5962bc7b"
+  "sig": "166ff1a11e91cd88"
  },
  "tools/instagram-skills/index.html": {
   "dm": "2026-10-12",
-  "sig": "ef17cf90a9bfcc61"
+  "sig": "338869324d58ac82"
  },
  "tools/intercom/index.html": {
   "dm": "2026-10-12",
-  "sig": "e14db72b4ff77d2d"
+  "sig": "b16aaa0ba82e35f4"
  },
  "tools/jasper/index.html": {
   "dm": "2026-10-17",
-  "sig": "624a0fa3a8e77cae"
+  "sig": "8fbd0654335bfa6d"
  },
  "tools/jitsu/index.html": {
   "dm": "2026-09-25",
-  "sig": "39265182b466482e"
+  "sig": "6932ef857f1b3136"
  },
  "tools/khoj/index.html": {
   "dm": "2026-09-25",
-  "sig": "c24808a65ac3470d"
+  "sig": "a8fc286f3edc3a14"
  },
  "tools/klaviyo/index.html": {
   "dm": "2026-08-28",
-  "sig": "42e989fcfc631a53"
+  "sig": "923034b7efb16014"
  },
  "tools/krayin-crm/index.html": {
   "dm": "2026-09-07",
-  "sig": "11daf56a5c578802"
+  "sig": "398bf89596ae13f7"
  },
  "tools/langchain/index.html": {
   "dm": "2026-08-28",
-  "sig": "27f3ce8b0751d53d"
+  "sig": "cd74ae1a154622e4"
  },
  "tools/languagetool/index.html": {
   "dm": "2026-09-25",
-  "sig": "3e1d4ebdd0d1f57e"
+  "sig": "cb1a9f6d999e1d5f"
  },
  "tools/laudspeaker/index.html": {
   "dm": "2026-08-28",
-  "sig": "cb7de9d72668d8d4"
+  "sig": "1a9f6a1270b70944"
  },
  "tools/libretranslate/index.html": {
   "dm": "2026-09-25",
-  "sig": "998609ba5e763d42"
+  "sig": "ac81908ddbd735e9"
  },
  "tools/line-harness/index.html": {
   "dm": "2026-09-07",
-  "sig": "c4760a9dfe7980c7"
+  "sig": "029cebac12be3902"
  },
  "tools/listmonk/index.html": {
   "dm": "2026-08-28",
-  "sig": "a1cfb7e2fff11df1"
+  "sig": "3616e7f8fbd33688"
  },
  "tools/loops/index.html": {
   "dm": "2026-09-07",
-  "sig": "fbb94a0cf96888e0"
+  "sig": "c2e6a374958216b0"
  },
  "tools/macro/index.html": {
   "dm": "2026-10-06",
-  "sig": "09fefa99fc1045dd"
+  "sig": "06600c6299f67f95"
  },
  "tools/madgicx/index.html": {
   "dm": "2026-09-07",
-  "sig": "5f453127abf830b5"
+  "sig": "db6631aad1192309"
  },
  "tools/mailcheap/index.html": {
   "dm": "2026-10-19",
-  "sig": "bfbc361ca0178d34"
+  "sig": "79b7fbab161b90cc"
  },
  "tools/mailchimp/index.html": {
   "dm": "2026-08-28",
-  "sig": "a5ce35a8994468ff"
+  "sig": "b47760f45770bdab"
  },
  "tools/maizzle/index.html": {
   "dm": "2026-09-07",
-  "sig": "7bb62426160cc540"
+  "sig": "62937327e9583290"
  },
  "tools/make/index.html": {
   "dm": "2026-09-27",
-  "sig": "7fad91c215ee48f8"
+  "sig": "7b334ef50679cd78"
  },
  "tools/manychat/index.html": {
   "dm": "2026-08-28",
-  "sig": "484f4ea66c3fd3d6"
+  "sig": "48c6159622734763"
  },
  "tools/marketing-studio/index.html": {
   "dm": "2026-08-31",
-  "sig": "c56d7ba68b9ec7c7"
+  "sig": "fc98e72cd95278c0"
  },
  "tools/marketingskills/index.html": {
   "dm": "2026-10-08",
-  "sig": "20538f50dd7077ad"
+  "sig": "41ce8972cd9e1c24"
  },
  "tools/marketmuse/index.html": {
   "dm": "2026-09-07",
-  "sig": "86e4c7d2c008d831"
+  "sig": "5be3cf33d095fa03"
  },
  "tools/matomo/index.html": {
   "dm": "2026-09-06",
-  "sig": "aef0bc4c71724694"
+  "sig": "286d52b89ab1789a"
  },
  "tools/mautic/index.html": {
   "dm": "2026-09-07",
-  "sig": "3b62c96950b7a948"
+  "sig": "87e3c5ca6eeddbdf"
  },
  "tools/mixpanel/index.html": {
   "dm": "2026-09-06",
-  "sig": "03fb59492b2bccaa"
+  "sig": "300f6e070616aa6b"
  },
  "tools/monica/index.html": {
   "dm": "2026-09-07",
-  "sig": "af1e06fa5f8c8ef9"
+  "sig": "1d41262f2eae1d46"
  },
  "tools/multipost-extension/index.html": {
   "dm": "2026-08-28",
-  "sig": "c355827897d4db7d"
+  "sig": "7ab3f2d68898fab9"
  },
  "tools/n8n-marketing-flows/index.html": {
   "dm": "2026-08-31",
-  "sig": "44082adec94245c4"
+  "sig": "14b3078ad056013c"
  },
  "tools/n8n/index.html": {
   "dm": "2026-09-27",
-  "sig": "63927756cbb8adc4"
+  "sig": "2c102fad84c4ab64"
  },
  "tools/nightwatch/index.html": {
   "dm": "2026-09-25",
-  "sig": "364c1642e30d1df8"
+  "sig": "11100b81437b9af8"
  },
  "tools/nimt-ai/index.html": {
   "dm": "2026-09-25",
-  "sig": "c220c7835991d6fc"
+  "sig": "11369f00d132f04b"
  },
  "tools/nocobase/index.html": {
   "dm": "2026-09-05",
-  "sig": "82272c46e33888ba"
+  "sig": "9ff05dd836071952"
  },
  "tools/nocodb/index.html": {
   "dm": "2026-09-07",
-  "sig": "0f1b00d34cb31f3b"
+  "sig": "686fa3e8d18c60ad"
  },
  "tools/northbeam/index.html": {
   "dm": "2026-10-17",
-  "sig": "9997d97244af9e47"
+  "sig": "fae6b71900103dda"
  },
  "tools/nosto/index.html": {
   "dm": "2026-09-07",
-  "sig": "9bbaeaaa81042ddd"
+  "sig": "ea358c766ca9d6a9"
  },
  "tools/notifo/index.html": {
   "dm": "2026-09-07",
-  "sig": "575b6ff87c691f84"
+  "sig": "0f22b9b18f6aa9b6"
  },
  "tools/notifuse/index.html": {
   "dm": "2026-08-28",
-  "sig": "eb4788fadce1e946"
+  "sig": "28c11f2d7f627617"
  },
  "tools/open-mercato/index.html": {
   "dm": "2026-09-07",
-  "sig": "253c8d1db33eba39"
+  "sig": "2f3e3c98dcc6bf43"
  },
  "tools/openclaw-marketing-skills/index.html": {
   "dm": "2026-08-28",
-  "sig": "6f3ac6627e51a430"
+  "sig": "d35234a49fa02af5"
  },
  "tools/openoutreach/index.html": {
   "dm": "2026-09-07",
-  "sig": "45a67ff1795e4553"
+  "sig": "042b75bdfcd28b9b"
  },
  "tools/openseo/index.html": {
   "dm": "2026-09-07",
-  "sig": "7320bc0588f9bc20"
+  "sig": "21f83a4a71cf671e"
  },
  "tools/opteo/index.html": {
   "dm": "2026-09-07",
-  "sig": "378b35016a224960"
+  "sig": "062f9173d6473d35"
  },
  "tools/ortto/index.html": {
   "dm": "2026-09-07",
-  "sig": "3851ccd6486aa0e1"
+  "sig": "91756403d83986b4"
  },
  "tools/otterlyai/index.html": {
   "dm": "2026-09-25",
-  "sig": "74acb14869cf5dee"
+  "sig": "696d49e685c91731"
  },
  "tools/pabbly-connect/index.html": {
   "dm": "2026-09-27",
-  "sig": "3044041caf0624f3"
+  "sig": "f6ed21f09e40b9b4"
  },
  "tools/paperclip/index.html": {
   "dm": "2026-09-07",
-  "sig": "fe605edab9cf2e93"
+  "sig": "3ba188e2c86b644f"
  },
  "tools/pencil/index.html": {
   "dm": "2026-09-06",
-  "sig": "cfdb2da2be2522bc"
+  "sig": "ddca2c89bddd48cb"
  },
  "tools/persado/index.html": {
   "dm": "2026-09-07",
-  "sig": "70fe6642686cc38a"
+  "sig": "751d2d79bb73ddd2"
  },
  "tools/phrasee/index.html": {
   "dm": "2026-09-07",
-  "sig": "f8b74f137e049bec"
+  "sig": "98d0ea57004e808e"
  },
  "tools/pipedream/index.html": {
   "dm": "2026-10-06",
-  "sig": "6ef3e7407d77637d"
+  "sig": "75f89549be8776bb"
  },
  "tools/pipedrive/index.html": {
   "dm": "2026-09-27",
-  "sig": "7349ab97a0440ec9"
+  "sig": "5c78494e937091ed"
  },
  "tools/plausible/index.html": {
   "dm": "2026-08-28",
-  "sig": "37e10d84669ff2aa"
+  "sig": "322d15d14992b5e0"
  },
  "tools/posthog/index.html": {
   "dm": "2026-09-25",
-  "sig": "035dea4b44640066"
+  "sig": "bc00ba7884012bc6"
  },
  "tools/postmark/index.html": {
   "dm": "2026-09-07",
-  "sig": "ac50d57a34c9604d"
+  "sig": "994bd92c452cc2fa"
  },
  "tools/potato-ai-visibility/index.html": {
   "dm": "2026-08-31",
-  "sig": "7e6adf0284f09d57"
+  "sig": "c5c0d2d63ca239fe"
  },
  "tools/power-automate/index.html": {
   "dm": "2026-09-27",
-  "sig": "1f9e1cdc2cc6df50"
+  "sig": "0f8ce56a3f70c6a7"
  },
  "tools/predis-ai/index.html": {
   "dm": "2026-08-28",
-  "sig": "4ab7caf482ccfd3d"
+  "sig": "d1eba752aafd8aff"
  },
  "tools/profound/index.html": {
   "dm": "2026-09-25",
-  "sig": "67d2b9c26c4de36d"
+  "sig": "345627295f6a2a21"
  },
  "tools/promptfoo/index.html": {
   "dm": "2026-09-25",
-  "sig": "55fa3c8e31a536de"
+  "sig": "bf01f9b4c072501f"
  },
  "tools/prospectos/index.html": {
   "dm": "2026-08-31",
-  "sig": "6c58f8797f9cead3"
+  "sig": "b8ea47333c896df8"
  },
  "tools/rankscale/index.html": {
   "dm": "2026-09-25",
-  "sig": "9bcb5b647759f7d6"
+  "sig": "43cc734e8cef9489"
  },
  "tools/react-email-editor/index.html": {
   "dm": "2026-09-06",
-  "sig": "cb107cf1b91607e2"
+  "sig": "4fe93054ebd39cc5"
  },
  "tools/relaticle/index.html": {
   "dm": "2026-09-07",
-  "sig": "5450702312e21daa"
+  "sig": "7f1b9aa30fd212ed"
  },
  "tools/resend/index.html": {
   "dm": "2026-09-07",
-  "sig": "a1fe3a0344457b65"
+  "sig": "1d01080b0d572cd4"
  },
  "tools/revealbot/index.html": {
   "dm": "2026-09-07",
-  "sig": "fba1a6c93d58e006"
+  "sig": "50a515837cab7c52"
  },
  "tools/revive-adserver/index.html": {
   "dm": "2026-09-25",
-  "sig": "b015e4a06417e502"
+  "sig": "16da3621fddb68b2"
  },
  "tools/rudderstack/index.html": {
   "dm": "2026-10-01",
-  "sig": "c11bb404046111ef"
+  "sig": "dc0683f115cb7929"
  },
  "tools/salesforce-crm/index.html": {
   "dm": "2026-08-28",
-  "sig": "f96f7a5b1ce05370"
+  "sig": "e3264bd11ab1e0b9"
  },
  "tools/salesforce-marketing-cloud/index.html": {
   "dm": "2026-09-06",
-  "sig": "00966732b86cbf66"
+  "sig": "f9172e0715c059ca"
  },
  "tools/scrunch/index.html": {
   "dm": "2026-09-25",
-  "sig": "1f20c493f9f18cbb"
+  "sig": "b725ed9314900181"
  },
  "tools/segment/index.html": {
   "dm": "2026-09-06",
-  "sig": "84ea202226045423"
+  "sig": "5aa6318ab0acfb93"
  },
  "tools/semrush/index.html": {
   "dm": "2026-08-28",
-  "sig": "06384d6eefcf46b0"
+  "sig": "61c5f8ae4ffe3cba"
  },
  "tools/sendgrid/index.html": {
   "dm": "2026-08-28",
-  "sig": "8f0b428071434ee2"
+  "sig": "4c43bb92f358bd8f"
  },
  "tools/sendportal/index.html": {
   "dm": "2026-10-15",
-  "sig": "55e16c445987f5c6"
+  "sig": "ebd04ccf7a78aeda"
  },
  "tools/seo-skill-bench/index.html": {
   "dm": "2026-09-03",
-  "sig": "759d1330e8e748da"
+  "sig": "0c36279b4e1e32c1"
  },
  "tools/seonaut/index.html": {
   "dm": "2026-09-07",
-  "sig": "9fb0103551e0829f"
+  "sig": "8f7b12ae7e644ef7"
  },
  "tools/sistrix/index.html": {
   "dm": "2026-09-25",
-  "sig": "66caf6f650eefb93"
+  "sig": "88bb0f8d683b7936"
  },
  "tools/smartly-io/index.html": {
   "dm": "2026-09-06",
-  "sig": "4f45abe172bc89e7"
+  "sig": "a876de97f1226217"
  },
  "tools/snowplow/index.html": {
   "dm": "2026-09-25",
-  "sig": "d145281e953da27c"
+  "sig": "0e547e52669ca166"
  },
  "tools/sprout-social/index.html": {
   "dm": "2026-09-27",
-  "sig": "7b33d630e2c750e2"
+  "sig": "bb14bbdb62d10ec4"
  },
  "tools/strapi/index.html": {
   "dm": "2026-08-28",
-  "sig": "f1b10ccbd4ed8619"
+  "sig": "0069ba3852947c41"
  },
  "tools/suitecrm/index.html": {
   "dm": "2026-09-07",
-  "sig": "d7249f06e8791c80"
+  "sig": "88962c68af400d4c"
  },
  "tools/superlines/index.html": {
   "dm": "2026-09-07",
-  "sig": "2338114f71c76f43"
+  "sig": "db01c1482f9f3cdd"
  },
  "tools/surfer-seo/index.html": {
   "dm": "2026-08-28",
-  "sig": "cef031804dd2456f"
+  "sig": "540def76ca4229b5"
  },
  "tools/tealium/index.html": {
   "dm": "2026-08-28",
-  "sig": "1f34a52b8e8f1061"
+  "sig": "3a6b84a21cc7a533"
  },
  "tools/tidio/index.html": {
   "dm": "2026-08-28",
-  "sig": "a73d04d222b8ba0a"
+  "sig": "6c9166a09a2138cc"
  },
  "tools/tooljet/index.html": {
   "dm": "2026-10-06",
-  "sig": "54880dcc1978dbaf"
+  "sig": "ca7e63dd0cb1bce6"
  },
  "tools/trakkr/index.html": {
   "dm": "2026-09-25",
-  "sig": "f1f97e5f5d07471c"
+  "sig": "cd2dc22c54426611"
  },
  "tools/tray-io/index.html": {
   "dm": "2026-09-06",
-  "sig": "0eae6ad180fed877"
+  "sig": "2978e6cc2e99db0b"
  },
  "tools/triple-whale/index.html": {
   "dm": "2026-08-28",
-  "sig": "ec454161d66c0ee7"
+  "sig": "03dddf754b3c8d18"
  },
  "tools/twenty/index.html": {
   "dm": "2026-09-07",
-  "sig": "25fd02620edaadb7"
+  "sig": "375cfff94c303608"
  },
  "tools/umami/index.html": {
   "dm": "2026-09-07",
-  "sig": "b48ffd801e761689"
+  "sig": "79c3c426d130b887"
  },
  "tools/wacrm/index.html": {
   "dm": "2026-09-07",
-  "sig": "e3c8d6c3b331b467"
+  "sig": "8179289a49abefb6"
  },
  "tools/warmbly/index.html": {
   "dm": "2026-09-24",
-  "sig": "1916d626ae0f4362"
+  "sig": "ebecc133d8659fbe"
  },
  "tools/warpdrive/index.html": {
   "dm": "2026-09-07",
-  "sig": "c3b2984537648203"
+  "sig": "c926dadae578fe3c"
  },
  "tools/workato/index.html": {
   "dm": "2026-09-07",
-  "sig": "80b41926e5e49197"
+  "sig": "946020d7903568a6"
  },
  "tools/writer/index.html": {
   "dm": "2026-09-25",
-  "sig": "7d5fd32d0bd9ace2"
+  "sig": "d6ce71f89ddfc0be"
  },
  "tools/writesonic/index.html": {
   "dm": "2026-09-25",
-  "sig": "076f82ab288b97ea"
+  "sig": "4b84a27b7f09b5b1"
  },
  "tools/zapier-gtm-cheat-codes/index.html": {
   "dm": "2026-08-31",
-  "sig": "003605efa326cea9"
+  "sig": "68da219e19795f31"
  },
  "tools/zapier/index.html": {
   "dm": "2026-09-27",
-  "sig": "af649dd9333a56e8"
+  "sig": "8524a44b0d0939c8"
  },
  "tools/zoho-crm/index.html": {
   "dm": "2026-09-28",
-  "sig": "dc52f84340e3fd8d"
+  "sig": "3a096bf839c77528"
  },
  "trending/index.html": {
   "dm": "2026-10-22",
-  "sig": "171bdfb668f8a6ca"
+  "sig": "2c7194954a9078c7"
  },
  "vs/activecampaign-vs-hubspot/index.html": {
   "dm": "2026-10-05",
-  "sig": "00565f0a004a35f5"
+  "sig": "fa5a9c2a678c574c"
  },
  "vs/activecampaign-vs-klaviyo/index.html": {
   "dm": "2026-10-05",
-  "sig": "43240f083dfaddbb"
+  "sig": "6767111dac9b4d7d"
  },
  "vs/claude-seo-vs-semrush/index.html": {
   "dm": "2026-10-05",
-  "sig": "99dbf5fdd2f07658"
+  "sig": "2e8427f72da7736e"
  },
  "vs/index.html": {
   "dm": "2026-10-17",
-  "sig": "9a56b1a6bbd53dc7"
+  "sig": "7d08789faf5fb677"
  },
  "vs/jasper-vs-writer/index.html": {
   "dm": "2026-10-17",
-  "sig": "7d82cd32baf9b4ce"
+  "sig": "82ae3aeac1386647"
  },
  "vs/mailchimp-vs-brevo/index.html": {
   "dm": "2026-10-05",
-  "sig": "68511b0494f484f8"
+  "sig": "dbcff4363caf4b6b"
  },
  "vs/mailchimp-vs-klaviyo/index.html": {
   "dm": "2026-10-05",
-  "sig": "5cfa48de89d3e8c2"
+  "sig": "83740a286a3d5f1e"
  },
  "vs/make-vs-zapier/index.html": {
   "dm": "2026-10-05",
-  "sig": "9dcca5ad3728da24"
+  "sig": "f22c58ea51dcd641"
  },
  "vs/matomo-vs-plausible/index.html": {
   "dm": "2026-10-05",
-  "sig": "67dcb74527d46fbd"
+  "sig": "65a012a9d483b25d"
  },
  "vs/matomo-vs-posthog/index.html": {
   "dm": "2026-10-05",
-  "sig": "e4678f7d2fb9084a"
+  "sig": "52fb93532b1fccb7"
  },
  "vs/n8n-vs-make-vs-zapier/index.html": {
   "dm": "2026-10-05",
-  "sig": "2de88eb76be40a83"
+  "sig": "7b7f3a23a13cdc6d"
  },
  "vs/n8n-vs-zapier/index.html": {
   "dm": "2026-10-05",
-  "sig": "408dab4108b99b8a"
+  "sig": "39f9d0818a8fc30e"
  },
  "vs/nocodb-vs-nocobase/index.html": {
   "dm": "2026-10-05",
-  "sig": "20298f835fd5c9a5"
+  "sig": "383e024e7437f94f"
  },
  "vs/salesforce-marketing-cloud-vs-hubspot/index.html": {
   "dm": "2026-10-05",
-  "sig": "b5c48d490540339f"
+  "sig": "4c31a334033c361c"
  }
 }

@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
-"""Generate per-post OG cards (1200x630) matching MartechSignal's dark/amber brand.
+"""Generate per-post OG cards (1200x630) in MartechSignal's editorial style.
 
 Reads blog posts' title/date from the built HTML, renders PNG cards into
 og/<slug>.png. Run after build_blog.py, before deploy.
+
+Design: warm paper, ink serif headline, one vermilion accent (design/DESIGN.md).
+The STYLE_VERSION below is part of the card identity: bump it whenever the
+visual system changes so any content-hash based consumer invalidates.
 """
 import html
 import re
 import sys
-import textwrap
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -15,27 +18,58 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "og"
 W, H = 1200, 630
-BG = (8, 14, 26)          # #080E1A
-AMBER = (255, 178, 36)    # #FFB224
-TEXT = (232, 236, 244)
-MUTED = (140, 150, 168)
 
-FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-FONT_REG = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+# Bumped whenever the card design changes, so cached/hashed consumers refresh.
+STYLE_VERSION = "2026-10-editorial-1"
+
+# Palette (design/DESIGN.md, light theme)
+PAPER = (246, 244, 239)   # #F6F4EF
+SURFACE = (255, 255, 255)  # #FFFFFF
+SUNK = (239, 236, 229)    # #EFECE5
+INK = (24, 24, 27)        # #18181B
+INK2 = (63, 61, 57)       # #3F3D39
+MUTED = (103, 99, 91)     # #67635B
+LINE = (221, 216, 205)    # #DDD8CD
+ACCENT = (185, 58, 26)    # #B93A1A
+POS = (30, 111, 71)       # #1E6F47
+
+MARGIN = 80
+RIGHT = W - MARGIN
+CONTENT_W = RIGHT - MARGIN
+
+FONT_DIR = ROOT / "design" / "og-fonts"
+SERIF = str(FONT_DIR / "Newsreader-Display-Medium.ttf")
+SERIF_ITALIC = str(FONT_DIR / "Newsreader-Display-Italic.ttf")
+SANS = str(FONT_DIR / "Archivo-Medium.ttf")
+SANS_SEMI = str(FONT_DIR / "Archivo-SemiBold.ttf")
+
+MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
 
-def font(size, bold=True):
-    return ImageFont.truetype(FONT_BOLD if bold else FONT_REG, size)
+def serif(size):
+    return ImageFont.truetype(SERIF, size)
 
 
-def draw_logo(draw):
-    """Rounded square + amber bar, echoing the favicon."""
-    x, y = 80, 72
-    draw.rounded_rectangle([x, y, x + 64, y + 64], radius=12, fill=(13, 20, 36), outline=(40, 52, 74), width=2)
-    draw.rounded_rectangle([x + 18, y + 14, x + 46, y + 50], radius=4, fill=AMBER)
+def serif_italic(size):
+    return ImageFont.truetype(SERIF_ITALIC, size)
 
 
-def wrap(draw, text, max_width, f):
+def sans(size, semibold=False):
+    return ImageFont.truetype(SANS_SEMI if semibold else SANS, size)
+
+
+def format_date(iso: str) -> str:
+    """ISO (YYYY-MM-DD) -> '23 Oct 2026' as used in visible copy."""
+    try:
+        y, m, d = (int(part) for part in iso.split("-"))
+        return f"{d:02d} {MONTHS[m - 1]} {y}"
+    except (ValueError, IndexError):
+        return iso or ""
+
+
+def wrap(draw, text, f, max_width, max_lines=None):
+    """Greedy word wrap; keeps the existing behaviour for unbreakable words."""
     lines = []
     for para in text.split("\n"):
         cur = ""
@@ -49,40 +83,69 @@ def wrap(draw, text, max_width, f):
                 cur = word
         if cur:
             lines.append(cur)
-    return lines
+        if max_lines is not None and len(lines) >= max_lines:
+            break
+    return lines if max_lines is None else lines[:max_lines]
+
+
+def draw_chrome(d, label: str):
+    """Wordmark + mark, 2px rule, and the accent label line."""
+    f = serif(40)
+    x, y = MARGIN, 64
+    d.text((x, y), "MartechSignal", font=f, fill=INK, anchor="la")
+    tw = d.textlength("MartechSignal", font=f)
+    ascent, _ = f.getmetrics()
+    baseline = y + ascent
+
+    # Three accent bars, bottom-aligned to the wordmark baseline.
+    bx = x + tw + 10
+    mark_h = 28
+    for i, frac in enumerate((0.4, 0.7, 1.0)):
+        bar_h = int(round(mark_h * frac))
+        left = bx + i * 10
+        d.rectangle([left, baseline - bar_h, left + 7, baseline], fill=ACCENT)
+
+    d.rectangle([MARGIN, 128, RIGHT - 1, 129], fill=INK)
+    d.text((MARGIN, 156), label, font=sans(24, semibold=True), fill=ACCENT,
+           anchor="la")
+
+
+def draw_title(d, title: str, max_lines: int = 4, top: int = 210):
+    """Auto-size 72 -> 46 so the headline fits max_lines of 1040px."""
+    size = 72
+    while True:
+        f = serif(size)
+        lines = wrap(d, title, f, CONTENT_W)
+        if len(lines) <= max_lines or size <= 46:
+            break
+        size -= 2
+    lines = lines[:max_lines]
+    if len(lines) == max_lines and len(wrap(d, title, f, CONTENT_W)) > max_lines:
+        last = lines[-1].rstrip()
+        if not last.endswith(("…", ".", "!", "?", ":", ";", ",")):
+            lines[-1] = last + "…"
+    line_h = int(round(size * 1.12))
+    for i, line in enumerate(lines):
+        d.text((MARGIN, top + i * line_h), line, font=f, fill=INK, anchor="la")
+    return top + len(lines) * line_h
+
+
+def draw_footer(d, right_text: str = "martechsignal.com"):
+    d.line([MARGIN, 540, RIGHT, 540], fill=LINE, width=1)
+    d.text((MARGIN, 560), "Independent research on AI marketing automation",
+           font=sans(22), fill=MUTED, anchor="la")
+    rf = sans(22, semibold=True)
+    tw = d.textlength(right_text, font=rf)
+    d.text((RIGHT - tw, 560), right_text, font=rf, fill=INK, anchor="la")
 
 
 def render(slug: str, title: str, date: str) -> Path:
-    img = Image.new("RGB", (W, H), BG)
+    img = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(img)
 
-    # subtle top amber rule
-    d.rectangle([0, 0, W, 6], fill=AMBER)
-
-    draw_logo(d)
-    d.text((170, 88), "MARTECH", font=font(34), fill=TEXT)
-    w = d.textlength("MARTECH", font=font(34))
-    d.text((172 + w, 88), "SIGNAL", font=font(34), fill=AMBER)
-
-    # date chip
-    d.text((80, 190), date.upper(), font=font(24), fill=MUTED)
-
-    # headline (auto-size: shrink for long titles)
-    size = 76 if len(title) <= 60 else (64 if len(title) <= 90 else 54)
-    f = font(size)
-    lines = wrap(d, title, W - 160, f)
-    while len(lines) > 4 and size > 44:
-        size -= 6
-        f = font(size)
-        lines = wrap(d, title, W - 160, f)
-    y = 250
-    for line in lines[:5]:
-        d.text((80, y), line, font=f, fill=TEXT)
-        y += int(size * 1.18)
-
-    # footer
-    d.text((80, H - 90), "AI marketing automation, audited", font=font(26), fill=MUTED)
-    d.text((W - 340, H - 90), "martechsignal.com", font=font(26), fill=AMBER)
+    draw_chrome(d, format_date(date))
+    draw_title(d, title)
+    draw_footer(d)
 
     OUT.mkdir(exist_ok=True)
     out = OUT / f"{slug}.png"
@@ -90,52 +153,42 @@ def render(slug: str, title: str, date: str) -> Path:
     return out
 
 
+def save_renditions(card_path: Path, slug: str):
+    """Emit the hero .webp srcset trio every <img class="post-hero"> uses."""
+    card = Image.open(card_path).convert("RGB")
+    for width in (1200, 800, 480):
+        suffix = "" if width == 1200 else f"-{width}"
+        img = (card if width == 1200 else card.resize(
+            (width, round(card.height * width / card.width)), Image.LANCZOS))
+        img.save(ROOT / "og" / f"hero-{slug}{suffix}.webp", "WEBP", quality=82)
+
+
+def render_post(child: Path, label: str = "") -> bool:
+    f = child / "index.html"
+    if not (child.is_dir() and f.exists()):
+        return False
+    h = f.read_text()
+    m = re.search(r"<title>(.*?)</title>", h)
+    d = re.search(r'"datePublished":\s*"(\d{4}-\d{2}-\d{2})"', h)
+    if not m:
+        return False
+    title = html.unescape(m.group(1))
+    slug = child.name
+    out = render(slug, title, d.group(1) if d else "")
+    save_renditions(out, slug)
+    note = f", {label}" if label else ""
+    print(f"  ✓ og/{slug}.png ({out.stat().st_size // 1024} KB{note})")
+    return True
+
+
 def main():
-    posts_dir = ROOT / "blog"
     count = 0
-    for child in sorted(posts_dir.iterdir()):
-        f = child / "index.html"
-        if not (child.is_dir() and f.exists()):
-            continue
-        h = f.read_text()
-        m = re.search(r"<title>(.*?)</title>", h)
-        d = re.search(r'"datePublished":\s*"(\d{4}-\d{2}-\d{2})"', h)
-        if not m:
-            continue
-        title = html.unescape(m.group(1))
-        slug = child.name
-        out = render(slug, title, d.group(1) if d else "")
-        # r7 (2026-09-28): also emit the hero .webp srcset trio that every
-        # <img class="post-hero"> references (M-11 srcset). These used to come
-        # from a one-off script and silently went missing for later posts.
-        _card = Image.open(out).convert("RGB")
-        for _w in (1200, 800, 480):
-            _sfx = "" if _w == 1200 else f"-{_w}"
-            _img = (_card if _w == 1200 else _card.resize(
-                (_w, round(_card.height * _w / _card.width)), Image.LANCZOS))
-            _img.save(ROOT / "og" / f"hero-{slug}{_sfx}.webp", "WEBP", quality=82)
-        print(f"  ✓ og/{slug}.png ({out.stat().st_size // 1024} KB)")
-        count += 1
+    for child in sorted((ROOT / "blog").iterdir()):
+        if render_post(child):
+            count += 1
     for child in sorted((ROOT / "guides").iterdir()):
-        f = child / "index.html"
-        if not (child.is_dir() and f.exists()):
-            continue
-        h = f.read_text()
-        m = re.search(r"<title>(.*?)</title>", h)
-        d = re.search(r'"datePublished":\s*"(\d{4}-\d{2}-\d{2})"', h)
-        if not m:
-            continue
-        title = html.unescape(m.group(1))
-        slug = child.name
-        out = render(slug, title, d.group(1) if d else "")
-        _card = Image.open(out).convert("RGB")
-        for _w in (1200, 800, 480):
-            _sfx = "" if _w == 1200 else f"-{_w}"
-            _img = (_card if _w == 1200 else _card.resize(
-                (_w, round(_card.height * _w / _card.width)), Image.LANCZOS))
-            _img.save(ROOT / "og" / f"hero-{slug}{_sfx}.webp", "WEBP", quality=82)
-        print(f"  ✓ og/{slug}.png ({out.stat().st_size // 1024} KB, guide)")
-        count += 1
+        if render_post(child, "guide"):
+            count += 1
     print(f"Generated {count} OG cards")
 
 

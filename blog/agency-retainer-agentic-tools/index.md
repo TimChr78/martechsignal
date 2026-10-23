@@ -71,9 +71,9 @@ Tools linked in this post: [n8n](/tools/n8n/) | [Google Ads + Meta Ads + GA4 MCP
 
 ## Related reading
 
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Related tools
 
 - [Cordys CRM](/tools/cordys-crm/) - Open-source AI CRM with built-in agents, conversational analytics, and private deployment
@@ -92,7 +92,5 @@ Tools linked in this post: [n8n](/tools/n8n/) | [Google Ads + Meta Ads + GA4 MCP
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [advertools](/tools/advertools/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 ✗ The retainer as pitched

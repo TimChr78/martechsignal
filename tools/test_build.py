@@ -42,6 +42,13 @@ def build():
         capture_output=True, text=True, timeout=900, cwd=str(ROOT),
     )
     assert s.returncode == 0, f"Breadcrumb sync failed:\n{s.stderr}"
+    # Deploy.sh runs the chrome sweep right after breadcrumbs; mirror it or M1
+    # can leave a second stale critical block on pages built before the batch.
+    c = subprocess.run(
+        [sys.executable, str(ROOT / "tools" / "sync_chrome.py")],
+        capture_output=True, text=True, timeout=900, cwd=str(ROOT),
+    )
+    assert c.returncode == 0, f"Chrome sync failed:\n{c.stderr}"
     return r.stdout
 
 
@@ -1440,8 +1447,8 @@ def test_perf_recommendations_applied():
     css = (ROOT / "style.min.css").read_text()
     assert "font-display: swap" not in css and "font-display:swap" not in css, \
         "swap survives in shipped CSS"
-    assert css.count("font-display: optional") + css.count("font-display:optional") >= 4, \
-        "optional missing on shipped faces"
+    assert css.count("font-display: optional") + css.count("font-display:optional") >= 3, \
+        "optional missing on shipped faces (Newsreader normal+italic, Archivo)"
     vs = (ROOT / "vs" / "n8n-vs-make-vs-zapier" / "index.html").read_text()
     assert 'fetchpriority="high"' in vs, "vs hero missing fetchpriority"
     assert vs.count('fetchpriority="high"') == 1, "more than one high-priority image per vs page"
@@ -2999,20 +3006,53 @@ def test_tool_hero_image_priority_and_sizes():
 
 
 def test_font_payload_is_minimal_and_preloaded():
-    """M3/M4 (r9, 2026-09-28) as revised by r16 L-3 (2026-09-29): only shipped
-    mono weights (500/600) keep @font-face; the 400 file is gone. Only 600 is
-    preloaded: 500 measured `unloaded` on 2 of 5 audit runs (slow connections
-    expire font-display:optional's ~100ms block before it arrives, so the
-    preload bytes download and never paint). Optional never swaps, so the
-    zero-CLS guarantee holds either way; 500 loads on demand when fast."""
+    """2026-10 redesign: Newsreader + Archivo are the only families; both are
+    preloaded and /theme.js runs before the stylesheet so stored theme choices
+    apply without a flash. Spline Sans Mono and Archivo Black are retired."""
     css = (ROOT / "style.css").read_text()
     assert "spline-sans-mono-400" not in css, "dead 400 @font-face still shipped"
     assert not (ROOT / "fonts" / "spline-sans-mono-400.woff2").exists(), \
         "dead 400 font file still on disk"
     for tpl in ("tools/n8n/index.html", "blog/claude-seo-benchmark/index.html"):
         html = (ROOT / tpl).read_text()
-        assert 'preload" href="/fonts/spline-sans-mono-600.woff2"' in html, f"{tpl} misses 600 preload"
-        assert 'preload" href="/fonts/spline-sans-mono-500.woff2"' not in html, f"{tpl} still preloads 500"
+        assert 'preload" href="/fonts/newsreader-var.woff2"' in html, f"{tpl} misses serif preload"
+        assert 'preload" href="/fonts/archivo-var.woff2"' in html, f"{tpl} misses sans preload"
+        assert '<script src="/theme.js"></script>' in html, f"{tpl} misses theme.js"
+        assert 'preload" href="/fonts/spline-sans-mono' not in html, \
+            f"{tpl} still preloads a retired mono"
+        assert 'preload" href="/fonts/archivo-black-400.woff2"' not in html, \
+            f"{tpl} still preloads retired Archivo Black"
+
+
+def test_shared_chrome_is_single_and_canonical():
+    """2026-10 redesign: one topbar, one masthead and one footer per page; the
+    decorative glows/dot-grid/pulse dots are gone. tools/site_chrome.py is the
+    only source, and it flags the current section."""
+    pages = []
+    for f in sorted(ROOT.rglob("*.html")):
+        parts = f.relative_to(ROOT).parts
+        if any(p in {"deploy-out", "node_modules", "design", ".git"} for p in parts):
+            continue
+        if f.parent == ROOT / "tools" and f.name != "index.html":
+            continue  # methodology-content.html is a source fragment, not a page
+        pages.append(f)
+    bad = []
+    for f in pages:
+        h = f.read_text(errors="ignore")
+        for attr, want in (('class="topbar"', 1), ('class="masthead"', 1),
+                           ('class="site-foot"', 1), ('class="bg"', 0),
+                           ('pulse-dot', 0)):
+            got = h.count(attr)
+            if got != want:
+                bad.append((str(f.relative_to(ROOT)), attr, got))
+    assert not bad, f"shared chrome drift: {bad[:8]}"
+
+    sys.path.insert(0, str(ROOT / "tools"))
+    from site_chrome import chrome_top
+    top = chrome_top("/tools/n8n/")
+    assert '<a href="/tools/" aria-current="page">Tools</a>' in top
+    assert top.count('aria-current="page"') == 1
+    assert "aria-current" not in chrome_top("/")
 
 
 def test_critical_css_inline_and_deferred():
@@ -3143,7 +3183,7 @@ def test_mobile_nav_has_swipe_cue():
     """r10 H-10 (2026-09-29): the one-row mobile nav rail keeps its form but
     carries a discoverability cue (edge fade), not a blind swipe."""
     css = (ROOT / "style.css").read_text()
-    assert "mask-image:linear-gradient(90deg,#000 92%,transparent)" in css, \
+    assert "mask-image: linear-gradient(90deg, #000 85%, transparent)" in css, \
         "mobile nav swipe cue missing"
 
 

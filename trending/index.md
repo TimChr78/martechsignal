@@ -51,8 +51,6 @@ The ranking above is the spine of this topic. These pages are the cluster around
 - [Best open-source CRM](/best/open-source-crm/)
 - [The GEO guide](/guides/generative-engine-optimization/), for the visibility question this stack feeds
 - [The guides index](/guides/), which collects all six cluster guides
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 Agent Skills*19*
 
 [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/)
@@ -246,5 +244,3 @@ Advertising & Paid Media*2*
 [advertools](/tools/advertools/)
 
 [Revive Adserver](/tools/revive-adserver/)
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)

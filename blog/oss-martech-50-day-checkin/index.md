@@ -96,6 +96,4 @@ Tools linked in this post: [n8n](/tools/n8n/) · [Mautic](/tools/mautic/) · [Tw
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
-
 ✓ The July stack bet held

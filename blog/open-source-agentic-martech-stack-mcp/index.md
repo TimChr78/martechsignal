@@ -106,6 +106,4 @@ For a team already comfortable with Docker and an agent CLI, the five-layer loop
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
-
 ✓ Where this holds up

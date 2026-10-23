@@ -119,5 +119,3 @@ Our directory breaks down data and activation tools by pricing model, connector 
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)

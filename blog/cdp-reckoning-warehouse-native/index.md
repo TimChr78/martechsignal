@@ -97,6 +97,4 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 
 More from the directory: [Jasper](/tools/jasper/)
 
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
-
 TC **[Tim Christensen](/authors/tim-christensen/)**

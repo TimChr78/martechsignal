@@ -22,6 +22,12 @@ def html_to_md(html: str) -> str:
     title = re.search(r"<title>([^<]+)</title>", html)
     title = _html.unescape(title.group(1)).split("|")[0].split("\u00b7")[0].strip() if title else "MartechSignal"
     src = re.sub(r"<(script|style|head)[^>]*>.*?</\1>", " ", html, flags=re.S)
+    # 2026-10 redesign: shared chrome is navigation, not article content. Drop
+    # topbar + masthead + footer by their new classes (and any legacy footer)
+    # so mirrors open on the page's own heading instead of the tagline.
+    src = re.sub(r'<div class="topbar"[\s\S]*?</div>\s*</div>', " ", src, count=1)
+    src = re.sub(r'<header class="masthead"[\s\S]*?</header>', " ", src, count=1)
+    src = re.sub(r'<footer\b[\s\S]*?</footer>', " ", src, count=1)
     # r25 L-15 (2026-10-05): hub-group-label headings carry an empty <i></i>
     # spacer and an <em>count</em> the emphasis pass renders as ***2* stubs
     # (## CREATIVE GENERATION***2* across 15 mirrors). Normalize at the

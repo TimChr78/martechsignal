@@ -109,9 +109,9 @@ Advertising platforms, attribution vendors, and the measurement layer that keeps
 
 ## Related reading
 
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Related tools
 
 - [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
@@ -119,8 +119,8 @@ Advertising platforms, attribution vendors, and the measurement layer that keeps
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 ## Comparison guides
 
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/)
+- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
 ## Glossary terms
 
 - [DSP](/glossary/dsp/)
@@ -130,8 +130,6 @@ Advertising platforms, attribution vendors, and the measurement layer that keeps
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
 More from the directory: [SuiteCRM](/tools/suitecrm/)
-
-**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 TARGETbid + budget, set by you
 

@@ -56,6 +56,7 @@ from datetime import datetime, timezone
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import suggest_links
+from site_chrome import HEAD_TAGS, chrome_footer, chrome_top
 
 try:  # canonical category names (MUSE-11); falls back to the old label
     from build_tools import _category_display as _cat_display
@@ -660,9 +661,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>{_shared_tags()}<script type="application/ld+json">
+{HEAD_TAGS}{_shared_tags()}<script type="application/ld+json">
 {json.dumps(article_schema, indent=2)}
 </script>
 <script type="application/ld+json">
@@ -672,14 +671,8 @@ def build_post(meta: dict, body_html: str) -> str:
 <script src="/site.js" defer></script>
 </head>
 <body class="page-post">
-<div class="bg" aria-hidden="true"></div>
+{chrome_top(f"/blog/{slug}/")}
 <div id="progress" aria-hidden="true"></div>
-<header class="masthead">
-  <div class="mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
-    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
-  </div>
-</header>
 <main class="wrap">
 <a class="back" href="/blog/">← ALL WRITING</a>
 <article>
@@ -706,12 +699,7 @@ def build_post(meta: dict, body_html: str) -> str:
 
 </article>
 </main>
-<footer>
-  <div class="foot-in">
-    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
-    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
-  </div>
-</footer>
+{chrome_footer()}
 
 {_H9_TAG}</body>
 </html>"""
@@ -801,6 +789,7 @@ def build_index(posts: list) -> str:
 <link rel="alternate" type="application/rss+xml" title="MartechSignal" href="/rss.xml">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+{HEAD_TAGS}
 {_shared_tags()}
 {schema_tag}
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
@@ -808,13 +797,7 @@ def build_index(posts: list) -> str:
   <script src="/site.js" defer></script>
   </head>
 <body class="page-blog-index">
-<div class="bg" aria-hidden="true"></div>
-<header class="masthead">
-  <div class="mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
-    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
-  </div>
-</header>
+{chrome_top("/blog/")}
 <main class="wrap">
   <div class="page-head reveal">
     <p class="kicker">// THE BLOG | DEEPER THAN THE NEWSLETTER</p>
@@ -854,12 +837,7 @@ def build_index(posts: list) -> str:
 {blog_list}
   </ul>
 </main>
-<footer>
-  <div class="foot-in">
-    <p>© {datetime.now().year} MartechSignal · by Tim Christensen</p>
-    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
-  </div>
-</footer>
+{chrome_footer()}
 
 {_H9_TAG}</body>
 </html>"""

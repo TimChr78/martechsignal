@@ -49,8 +49,6 @@ Vendors in this category: [NocoDB](https://nocodb.com) · [Mautic](https://www.m
 
 ## Reading before you buy
 
-© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
-
 MAPjourneys before vendors
 
 **
@@ -116,5 +114,3 @@ What happened to the last category agents absorbed, and the pattern repeating he
 Check outputs, not logs: the silent-failure audit
 
 The category thesis in practice: audit what agents actually sent, not what logs claim
-
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
