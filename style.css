@@ -257,6 +257,8 @@ main a.btn:hover, main a.btn-sm:hover, main a.btn-cta:hover { color: var(--accen
 .subscribe.sub-inline { display: block; padding: 1.5rem 1.75rem; margin: 3rem 0 0 }
 .subscribe.sub-inline h2 { font-size: 1.4rem }
 .subscribe.sub-inline .sub-form { max-width: 30rem; margin-top: 1rem }
+.sub-form:has(.consent) { flex-wrap: wrap }
+.sub-form .consent { flex: 0 0 100%; margin: .25rem 0 0 }
 @media (max-width: 860px) {
   .hero, .latest { grid-template-columns: minmax(0, 1fr); gap: 2rem }
   .subscribe { grid-template-columns: minmax(0, 1fr); gap: 1.25rem }
