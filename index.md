@@ -25,14 +25,14 @@ Somewhere in your execution history, two failures have the same shape. The agent
 
 | Tool | What it is | Category | GitHub stars |
 | --- | --- | --- | --- |
-| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 208,269 |
-| [LangChain](/tools/langchain/) | Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools | Automation | 148,235 |
-| [Paperclip](/tools/paperclip/) | Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit | Automation | 105,753 |
-| [Strapi](/tools/strapi/) | Open-source headless CMS with AI-powered content management and API-first design | Content AI | 73,356 |
-| [NocoDB](/tools/nocodb/) | Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet | Marketing automation | 65,319 |
+| [NocoBase](/tools/nocobase/) | Open-source no-code platform with AI assistance for building business systems fast | Automation | 24,660 |
 | [Twenty](/tools/twenty/) | The open-source alternative to Salesforce, designed for AI with modern CRM workflows | CRM | 59,278 |
-| [Marketing Skills (coreyhaines31)](/tools/marketingskills/) | ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines | Agent skills | 55,853 |
-| [Ghost](/tools/ghost/) | Open-source publishing platform with built-in newsletters, memberships, and AI tools | Content AI | 55,584 |
+| [Profound](/tools/profound/) | Enterprise AI marketing platform: answer-engine visibility plus drafting agents | Geo llm visibility | n/a |
+| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 208,269 |
+| [Warmbly](/tools/warmbly/) | Open-source cold email platform with warmup, campaigns, unified inbox, and CRM | Email | 468 |
+| [Hootsuite](/tools/hootsuite/) | Social media management platform with AI-powered scheduling and analytics | Social | n/a |
+| [ChatbotX](/tools/chatbotx/) | Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation | Chatbots | 988 |
+| [Activepieces](/tools/activepieces/) | Open-source workflow automation with a free cloud tier and on-prem hosting | Automation | 25,166 |
 
 ## Comparisons and best-of lists
 

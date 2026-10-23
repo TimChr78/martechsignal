@@ -21,21 +21,21 @@
    "meta": "Marketing automation platforms reviewed: workflow depth, guardrails, and AI autonomy. {n} tools with dated pricing and verification dates.",
    "flow": [
     {
-     "label": "MAP",
+     "label": "Map",
      "sub": "journeys before vendors"
     },
     {
-     "label": "AUTOMATE",
+     "label": "Automate",
      "sub": "the work between channels",
      "style": "ai"
     },
     {
-     "label": "GATE",
+     "label": "Gate",
      "sub": "what must never fire silently",
      "style": "ok"
     },
     {
-     "label": "PICK",
+     "label": "Pick",
      "sub": "fit to your stack"
     }
    ],
@@ -132,7 +132,7 @@
    ],
    "groups": [
     {
-     "label": "SUITE PLATFORMS",
+     "label": "Suite platforms",
      "slugs": [
       "activecampaign",
       "adobe-marketo",
@@ -144,7 +144,7 @@
      ]
     },
     {
-     "label": "POINT + OPEN-SOURCE TOOLS",
+     "label": "Point + open-source tools",
      "slugs": [
       "alwrity",
       "laudspeaker",
@@ -305,26 +305,26 @@
    ],
    "flow": [
     {
-     "label": "SPLIT",
+     "label": "Split",
      "sub": "campaigns, transactional, cold"
     },
     {
-     "label": "PRICE",
+     "label": "Price",
      "sub": "contacts vs volume vs self-host"
     },
     {
-     "label": "BUILD",
+     "label": "Build",
      "sub": "templates, streams, warmup"
     },
     {
-     "label": "SHIP",
+     "label": "Ship",
      "sub": "watch inbox placement",
      "style": "ok"
     }
    ],
    "groups": [
     {
-     "label": "HOSTED CAMPAIGN PLATFORMS",
+     "label": "Hosted campaign platforms",
      "slugs": [
       "brevo",
       "customer-io",
@@ -334,7 +334,7 @@
      ]
     },
     {
-     "label": "SELF-HOSTED SENDERS",
+     "label": "Self-hosted senders",
      "slugs": [
       "billionmail",
       "listmonk",
@@ -342,7 +342,7 @@
      ]
     },
     {
-     "label": "TRANSACTIONAL AND DEVELOPER APIS",
+     "label": "Transactional and developer APIs",
      "slugs": [
       "notifo",
       "postmark",
@@ -351,7 +351,7 @@
      ]
     },
     {
-     "label": "TEMPLATES AND COLD OUTREACH",
+     "label": "Templates and cold outreach",
      "slugs": [
       "maizzle",
       "openoutreach",
@@ -419,20 +419,20 @@
    "meta": "CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. {n} tools reviewed.",
    "flow": [
     {
-     "label": "MAP",
+     "label": "Map",
      "sub": "records before vendors"
     },
     {
-     "label": "AUTOMATE",
+     "label": "Automate",
      "sub": "scoring, drafts, follow-ups",
      "style": "ai"
     },
     {
-     "label": "PICK",
+     "label": "Pick",
      "sub": "hosted, freemium, self-hosted"
     },
     {
-     "label": "AUDIT",
+     "label": "Audit",
      "sub": "what the AI changed",
      "style": "ok"
     }
@@ -556,7 +556,7 @@
    ],
    "groups": [
     {
-     "label": "HOSTED SAAS CRMs",
+     "label": "Hosted SaaS CRMs",
      "slugs": [
       "attio",
       "freshsales",
@@ -566,7 +566,7 @@
      ]
     },
     {
-     "label": "SELF-HOSTED OPEN SOURCE",
+     "label": "Self-hosted open source",
      "slugs": [
       "alphone",
       "django-crm",
@@ -582,7 +582,7 @@
      ]
     },
     {
-     "label": "AGENT-READY, MCP-NATIVE",
+     "label": "Agent-ready, MCP-native",
      "slugs": [
       "cordys-crm",
       "macro",
@@ -591,7 +591,7 @@
      ]
     },
     {
-     "label": "OUTBOUND & CHANNEL",
+     "label": "Outbound & channel",
      "slugs": [
       "deskcommcrm",
       "prospectos",
@@ -721,27 +721,27 @@
    ],
    "flow": [
     {
-     "label": "DRAFT",
+     "label": "Draft",
      "sub": "pick a workhorse first"
     },
     {
-     "label": "CHECK",
+     "label": "Check",
      "style": "ai",
      "sub": "scores, grammar, tone"
     },
     {
-     "label": "PUBLISH",
+     "label": "Publish",
      "sub": "own site or CMS"
     },
     {
-     "label": "AUDIT",
+     "label": "Audit",
      "style": "ok",
      "sub": "what shipped, what flopped"
     }
    ],
    "groups": [
     {
-     "label": "COPYWRITING WORKHORSES",
+     "label": "Copywriting workhorses",
      "slugs": [
       "anyword",
       "contentbot",
@@ -751,7 +751,7 @@
      ]
     },
     {
-     "label": "GOVERNED ENTERPRISE WRITING",
+     "label": "Governed enterprise writing",
      "slugs": [
       "writer",
       "persado",
@@ -759,14 +759,14 @@
      ]
     },
     {
-     "label": "OPEN PUBLISHING STACK",
+     "label": "Open publishing stack",
      "slugs": [
       "ghost",
       "strapi"
      ]
     },
     {
-     "label": "SELF-HOSTED WRITING UTILITIES",
+     "label": "Self-hosted writing utilities",
      "slugs": [
       "languagetool",
       "khoj",
@@ -820,19 +820,19 @@
    "meta": "Analytics and attribution tools: event tracking, funnels, and what multi-touch claims can and cannot prove. {n} reviewed.",
    "flow": [
     {
-     "label": "INSTRUMENT",
+     "label": "Instrument",
      "sub": "events before the vendor"
     },
     {
-     "label": "MAP",
+     "label": "Map",
      "sub": "metrics to campaigns"
     },
     {
-     "label": "PICK",
+     "label": "Pick",
      "sub": "open source, freemium, enterprise"
     },
     {
-     "label": "WIRE",
+     "label": "Wire",
      "sub": "into reporting someone owns",
      "style": "ok"
     }
@@ -926,7 +926,7 @@
    ],
    "groups": [
     {
-     "label": "PRODUCT BEHAVIOR",
+     "label": "Product behavior",
      "slugs": [
       "amplitude",
       "heap",
@@ -936,7 +936,7 @@
      ]
     },
     {
-     "label": "AD SPEND ATTRIBUTION",
+     "label": "Ad spend attribution",
      "slugs": [
       "attribution",
       "northbeam",
@@ -944,7 +944,7 @@
      ]
     },
     {
-     "label": "SELF-HOSTED WEB ANALYTICS",
+     "label": "Self-hosted web analytics",
      "slugs": [
       "matomo",
       "plausible",
@@ -1004,20 +1004,20 @@
    "meta": "Advertising and paid media tools: creative generators, bid platforms, automation, and open-source ad serving. {n} reviewed.",
    "flow": [
     {
-     "label": "AUDIT",
+     "label": "Audit",
      "sub": "budget before agents"
     },
     {
-     "label": "GENERATE",
+     "label": "Generate",
      "sub": "creative at variant volume",
      "style": "ai"
     },
     {
-     "label": "AUTOMATE",
+     "label": "Automate",
      "sub": "rules or full autonomy"
     },
     {
-     "label": "GATE",
+     "label": "Gate",
      "sub": "who approves the spend",
      "style": "ok"
     }
@@ -1103,14 +1103,14 @@
    ],
    "groups": [
     {
-     "label": "CREATIVE GENERATION",
+     "label": "Creative generation",
      "slugs": [
       "adcreative-ai",
       "pencil"
      ]
     },
     {
-     "label": "OPTIMIZATION AND AUTOMATION",
+     "label": "Optimization and automation",
      "slugs": [
       "albert-ai",
       "madgicx",
@@ -1120,7 +1120,7 @@
      ]
     },
     {
-     "label": "OPEN-SOURCE AD TOOLING",
+     "label": "Open-source ad tooling",
      "slugs": [
       "advertools",
       "revive-adserver"
@@ -1241,26 +1241,26 @@
    ],
    "flow": [
     {
-     "label": "COLLECT",
+     "label": "Collect",
      "sub": "events before tools"
     },
     {
-     "label": "UNIFY",
+     "label": "Unify",
      "sub": "profiles or warehouse tables"
     },
     {
-     "label": "PERSONALIZE",
+     "label": "Personalize",
      "sub": "recs, content, flags"
     },
     {
-     "label": "TEST",
+     "label": "Test",
      "sub": "what changed, keep or kill",
      "style": "ok"
     }
    ],
    "groups": [
     {
-     "label": "STOREFRONT PERSONALIZATION",
+     "label": "Storefront personalization",
      "slugs": [
       "clerk-io",
       "dynamic-yield",
@@ -1268,14 +1268,14 @@
      ]
     },
     {
-     "label": "PACKAGED CDPS",
+     "label": "Packaged CDPs",
      "slugs": [
       "segment",
       "tealium"
      ]
     },
     {
-     "label": "WAREHOUSE PIPES AND COMPOSABLE ACTIVATION",
+     "label": "Warehouse pipes and composable activation",
      "slugs": [
       "apache-unomi",
       "hightouch",
@@ -1284,7 +1284,7 @@
      ]
     },
     {
-     "label": "FLAGS AND TESTING",
+     "label": "Flags and testing",
      "slugs": [
       "flagsmith",
       "growthbook"
@@ -1349,20 +1349,20 @@
    "meta": "SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. {n} tools with verified pricing.",
    "flow": [
     {
-     "label": "CRAWL",
+     "label": "Crawl",
      "sub": "find what breaks"
     },
     {
-     "label": "GAPS",
+     "label": "Gaps",
      "sub": "topics + keywords"
     },
     {
-     "label": "OPTIMIZE",
+     "label": "Optimize",
      "sub": "brief → draft → grade",
      "style": "ai"
     },
     {
-     "label": "MEASURE",
+     "label": "Measure",
      "sub": "Google + AI answers",
      "style": "ok"
     }
@@ -1448,14 +1448,14 @@
    ],
    "groups": [
     {
-     "label": "OPEN SOURCE / SELF-HOSTED",
+     "label": "Open source / self-hosted",
      "slugs": [
       "openseo",
       "seonaut"
      ]
     },
     {
-     "label": "COMMERCIAL",
+     "label": "Commercial",
      "slugs": [
       "semrush",
       "clearscope",
@@ -1465,7 +1465,7 @@
      ]
     },
     {
-     "label": "AI SEARCH VISIBILITY",
+     "label": "AI search visibility",
      "slugs": [
       "potato-ai-visibility",
       "superlines"
@@ -1499,20 +1499,20 @@
    "meta": "AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overviews. {n} reviewed with dated facts.",
    "flow": [
     {
-     "label": "PROMPT SET",
+     "label": "Prompt set",
      "sub": "questions buyers ask"
     },
     {
-     "label": "TRACK",
+     "label": "Track",
      "sub": "mentions + citations"
     },
     {
-     "label": "DIAGNOSE",
+     "label": "Diagnose",
      "sub": "why them, not you",
      "style": "ai"
     },
     {
-     "label": "FIX",
+     "label": "Fix",
      "sub": "content + sources",
      "style": "ok"
     }
@@ -1614,7 +1614,7 @@
    ],
    "groups": [
     {
-     "label": "GEO-NATIVE PLATFORMS",
+     "label": "GEO-native platforms",
      "slugs": [
       "profound",
       "scrunch",
@@ -1627,7 +1627,7 @@
      ]
     },
     {
-     "label": "SUITE MODULES & ADD-ONS",
+     "label": "Suite modules & add-ons",
      "slugs": [
       "accuranker",
       "nightwatch",
@@ -1637,7 +1637,7 @@
      ]
     },
     {
-     "label": "OPEN-SOURCE / DIY",
+     "label": "Open-source / DIY",
      "slugs": [
       "promptfoo"
      ]
@@ -1705,20 +1705,20 @@
    "meta": "Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents, and enterprise governance. {n} reviewed.",
    "flow": [
     {
-     "label": "TRIGGER",
+     "label": "Trigger",
      "sub": "new deal in CRM"
     },
     {
-     "label": "FILTER",
+     "label": "Filter",
      "sub": "value > $500"
     },
     {
-     "label": "AI AGENT",
+     "label": "AI agent",
      "sub": "draft the follow-up",
      "style": "ai"
     },
     {
-     "label": "ACTION",
+     "label": "Action",
      "sub": "send + log result",
      "style": "ok"
     }
@@ -1812,7 +1812,7 @@
    ],
    "groups": [
     {
-     "label": "OPEN SOURCE / SELF-HOSTED",
+     "label": "Open source / self-hosted",
      "slugs": [
       "langchain",
       "n8n",
@@ -1821,7 +1821,7 @@
      ]
     },
     {
-     "label": "COMMERCIAL",
+     "label": "Commercial",
      "slugs": [
       "zapier",
       "make",
@@ -1831,7 +1831,7 @@
      ]
     },
     {
-     "label": "LOW-CODE INTERNAL BUILDERS",
+     "label": "Low-code internal builders",
      "slugs": [
       "appsmith",
       "budibase",
@@ -1887,20 +1887,20 @@
    "meta": "Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. {n} reviewed.",
    "flow": [
     {
-     "label": "INSTALL",
+     "label": "Install",
      "sub": "clone + load into agent"
     },
     {
-     "label": "RUN",
+     "label": "Run",
      "sub": "point it at a real project",
      "style": "ai"
     },
     {
-     "label": "VERIFY",
+     "label": "Verify",
      "sub": "check the output against the site"
     },
     {
-     "label": "WIRE IN",
+     "label": "Wire in",
      "sub": "scheduled, not one-off",
      "style": "ok"
     }
@@ -1978,7 +1978,7 @@
    ],
    "groups": [
     {
-     "label": "SEO AND CONTENT SKILLS",
+     "label": "SEO and content skills",
      "slugs": [
       "aaron-marketing-skills",
       "claude-seo",
@@ -1990,7 +1990,7 @@
      ]
     },
     {
-     "label": "CAMPAIGN AND ASSET SKILLS",
+     "label": "Campaign and asset skills",
      "slugs": [
       "ai-business-skills",
       "analytics-tracking-automation",

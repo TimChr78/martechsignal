@@ -15,7 +15,10 @@ for f in ROOT.rglob("index.html"):
     if "node_modules" in f.parts:
         continue
     b = f.read_bytes()
-    new = pat.sub(f"/style.css?v={want}".encode(), b)
+    # Only /style.min.css is published (.assetsignore excludes the pre-minify file), so the
+    # hash sync must preserve the .min form: substituting the bare name pointed every page at
+    # a stylesheet the deploy never uploads (caught 2026-10-23 before a redesign deploy).
+    new = pat.sub(f"/style.min.css?v={want}".encode(), b)
     if new != b:
         f.write_bytes(new)
         fixed += 1
@@ -23,7 +26,10 @@ for f in ROOT.rglob("index.html"):
 f404 = ROOT / "404.html"
 if f404.exists():
     b = f404.read_bytes()
-    new = pat.sub(f"/style.css?v={want}".encode(), b)
+    # Only /style.min.css is published (.assetsignore excludes the pre-minify file), so the
+    # hash sync must preserve the .min form: substituting the bare name pointed every page at
+    # a stylesheet the deploy never uploads (caught 2026-10-23 before a redesign deploy).
+    new = pat.sub(f"/style.min.css?v={want}".encode(), b)
     if new != b:
         f404.write_bytes(new)
         fixed += 1

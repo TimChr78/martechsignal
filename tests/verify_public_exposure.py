@@ -29,11 +29,16 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "https://martechsignal.com"
 PUBLIC_PAGES = [
-    "/", "/404.html", "/style.css", "/sitemap.xml", "/robots.txt", "/rss.xml",
+    # r8 L2 unpublished the pre-minify /style.css (only style.min.css ships), but this
+    # list still demanded a 200 for it — the check has been red since then. Fixed
+    # 2026-10-23, and the 2026-10 redesign assets are now guarded here too, so a
+    # missing font or theme.js fails the boundary check instead of shipping broken.
+    "/", "/404.html", "/style.min.css", "/theme.js", "/sitemap.xml", "/robots.txt", "/rss.xml",
     "/llms.txt", "/tools/", "/tools/nocobase/", "/blog/", "/blog/index.html",
     "/glossary/", "/glossary/aeo/", "/categories/", "/authors/tim-christensen/",
     "/checklist/", "/trending/", "/about/", "/contact/", "/privacy/", "/terms/",
-    "/fonts/archivo-var.woff2", "/og.png",
+    "/fonts/archivo-var.woff2", "/fonts/newsreader-var.woff2",
+    "/fonts/newsreader-italic-var.woff2", "/og.png",
     "/.well-known/indexnow-da88cd820092dc919206516858cd73d9.txt",
 ]
 
