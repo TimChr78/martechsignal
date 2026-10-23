@@ -2,7 +2,7 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Resource-Policy: same-site
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://analytics.martechsignal.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https://martechsignal.com; connect-src 'self' https://analytics.martechsignal.com https://cloudflareinsights.com https://app.kit.com; base-uri 'self'; frame-ancestors 'none'; form-action 'self' https://app.kit.com
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://analytics.martechsignal.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https://martechsignal.com; connect-src 'self' https://analytics.martechsignal.com https://cloudflareinsights.com https://app.kit.com; base-uri 'self'; frame-ancestors 'none'; form-action 'self' https://app.kit.com https://am.martechsignal.com
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin

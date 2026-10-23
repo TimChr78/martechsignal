@@ -29,6 +29,13 @@ def build():
         capture_output=True, text=True, timeout=900, cwd=str(ROOT),
     )
     assert hubs.returncode == 0, f"Hub build failed:\n{hubs.stderr}"
+    # deploy.sh builds the noindex subscribe pages before build_tools so the
+    # sitemap/dateModified passes see them; mirror that here.
+    subs = subprocess.run(
+        [sys.executable, str(ROOT / "tools" / "build_subscribe_pages.py")],
+        capture_output=True, text=True, timeout=900, cwd=str(ROOT),
+    )
+    assert subs.returncode == 0, f"Subscribe page build failed:\n{subs.stderr}"
     r = subprocess.run(
         [sys.executable, str(BUILD_SCRIPT)],
         capture_output=True, text=True, timeout=900, cwd=str(ROOT),

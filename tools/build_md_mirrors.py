@@ -14,7 +14,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-SKIP_PREFIXES = ()  # H10: every page family gets a real mirror
+# The noindex /subscribe/ utility pages (result screens + internal test page)
+# are not content and must not publish markdown mirrors.
+SKIP_PREFIXES = ("subscribe/",)  # H10: every page family gets a real mirror
 
 def html_to_md(html: str) -> str:
     """H10 (2026-09-27): >=95% parity extractor. Tables become pipe tables,

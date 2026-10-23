@@ -46,6 +46,9 @@ REQUIRED = [
     "llms.txt", "llms-full.txt", "og.png", "_redirects", "_headers",
     "blog/index.html", "tools/index.html", "glossary/index.html",
     "categories/index.html", "authors/index.html", "trending/index.html",
+    # Noindex newsletter utility pages - public, but never indexed or linked.
+    "subscribe/check-your-inbox/index.html", "subscribe/welcome/index.html",
+    "subscribe/oops/index.html", "subscribe/test/index.html",
     "fonts/archivo-var.woff2", "fonts/newsreader-var.woff2", "theme.js",
     "og/agents-identity-debt.png",
     "indexnow-da88cd820092dc919206516858cd73d9.txt",

@@ -129,6 +129,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0 }
 .foot-col a:hover, .foot-links a:hover { color: var(--accent) }
 .foot-links { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem }
 .fine { font-size: .8125rem; color: var(--muted) }
+.hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden }
 @media (max-width: 760px) {
   .foot-cols { grid-template-columns: 1fr 1fr; gap: 1.75rem 1.5rem }
   .foot-brand { grid-column: 1 / -1 }
