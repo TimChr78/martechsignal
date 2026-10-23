@@ -6,21 +6,25 @@
 - NocoDB
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Marketing Automation
+
 ## NocoDB review (2026): pricing, AI features, verdict
 
 Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
 
-Marketing Automation · Open-core from $12/seat/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open-core from $12/seat/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit NocoDB →](https://nocodb.com)
+45/60
+
+- **Price:** Open-core from $12/seat/mo
+- **Licence:** Open source
+- **GitHub stars:** 65,319
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** NocoDB is a tool in Marketing Automation with free and open source. The catalog documents 3 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit NocoDB →](https://nocodb.com)
 
 ## MartechSignal Score: 45/60
 

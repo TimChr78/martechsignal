@@ -6,21 +6,25 @@
 - Maizzle
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Email Marketing
+
 ## Maizzle review (2026): pricing, AI features, verdict
 
 Modern email development framework using Tailwind CSS for responsive campaigns
 
-Email Marketing · Free · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Free · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Maizzle →](https://maizzle.com)
+32/60
+
+- **Price:** Free
+- **Licence:** Open source
+- **GitHub stars:** 2,861
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Maizzle is a tool in Email Marketing with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Maizzle →](https://maizzle.com)
 
 ## MartechSignal Score: 32/60
 

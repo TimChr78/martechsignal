@@ -6,21 +6,25 @@
 - Django CRM
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · CRM
+
 ## Django CRM review (2026): pricing, AI features, verdict
 
 Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Django CRM →](https://bottlecrm.io)
+32/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 2,456
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Django CRM is a tool in CRM with free and open source. The catalog documents 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Django CRM →](https://bottlecrm.io)
 
 ## MartechSignal Score: 32/60
 

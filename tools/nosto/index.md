@@ -6,21 +6,24 @@
 - Nosto
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Personalization & CDP
+
 ## Nosto review (2026): pricing, AI features, verdict
 
 AI-powered ecommerce personalization with product recommendations and merchandising
 
-Personalization & CDP · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Nosto →](https://www.nosto.com)
+33/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Nosto is a tool in Personalization & CDP with custom pricing. The catalog documents 5 AI features, 11 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Nosto →](https://www.nosto.com)
 
 ## MartechSignal Score: 33/60
 

@@ -6,21 +6,25 @@
 - Jitsu
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Personalization & CDP
+
 ## Jitsu review (2026): pricing, AI features, verdict
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
 
-Personalization & CDP · Freemium from $99/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Freemium from $99/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Jitsu →](https://jitsu.com)
+36/60
+
+- **Price:** Freemium from $99/mo
+- **Licence:** MIT
+- **GitHub stars:** 5,113
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Jitsu is a tool in Personalization & CDP with free and open source. The catalog documents 1 AI feature, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Jitsu →](https://jitsu.com)
 
 ## MartechSignal Score: 36/60
 

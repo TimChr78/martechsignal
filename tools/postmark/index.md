@@ -6,21 +6,24 @@
 - Postmark
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Email Marketing
+
 ## Postmark review (2026): pricing, AI features, verdict
 
 Transactional email API with separated message streams, an MCP server, and published delivery numbers
 
-Email Marketing · Freemium from $15/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Freemium from $15/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Postmark →](https://postmarkapp.com)
+34/60
+
+- **Price:** Freemium from $15/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Postmark is a tool in Email Marketing with a free tier. The catalog documents 3 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Postmark →](https://postmarkapp.com)
 
 ## MartechSignal Score: 34/60
 

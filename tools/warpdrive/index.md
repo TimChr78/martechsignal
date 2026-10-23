@@ -6,21 +6,25 @@
 - Warpdrive
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## Warpdrive review (2026): pricing, AI features, verdict
 
 Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Warpdrive →](https://warpdrivecrm.com)
+28/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 76
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Warpdrive is a tool in CRM with free and open source. The catalog documents 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Warpdrive →](https://warpdrivecrm.com)
 
 ## MartechSignal Score: 28/60
 

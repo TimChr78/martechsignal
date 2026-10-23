@@ -6,21 +6,25 @@
 - Apache Unomi
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Personalization & CDP
+
 ## Apache Unomi review (2026): pricing, AI features, verdict
 
 Apache's open-source customer data platform and personalization engine
 
-Personalization & CDP · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Apache Unomi →](https://unomi.apache.org)
+36/60
+
+- **Price:** Open Source
+- **Licence:** Apache-2.0
+- **GitHub stars:** 380
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Apache Unomi is a tool in Personalization & CDP with free and open source. The catalog documents 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Apache Unomi →](https://unomi.apache.org)
 
 ## MartechSignal Score: 36/60
 

@@ -4,7 +4,7 @@
 
 Glossary
 
-Definition last Updated 2026-08-23
+Definition last updated 2026-08-23
 
 ## Definition
 

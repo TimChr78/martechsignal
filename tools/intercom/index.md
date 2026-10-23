@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Intercom
+Review · Chatbots & Conversational AI
+
 ## Intercom review (2026): pricing, AI features, verdict
 
 AI-first customer service platform with Fin AI agent and omnichannel messaging
 
-Chatbots & Conversational AI · From $29/seat/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-12 · From $29/seat/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Intercom →](https://www.intercom.com)
+42/60
+
+- **Price:** From $29/seat/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Intercom is a tool in Chatbots & Conversational AI with paid plans starting at $29/seat/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-12. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Intercom →](https://www.intercom.com)
 
 ## MartechSignal Score: 42/60
 

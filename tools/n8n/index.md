@@ -6,23 +6,27 @@
 - n8n
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Workflow Automation
+
 ## n8n review (2026): pricing, AI features, verdict
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
-Workflow Automation · Open Source from €20/mo Desk-reviewed
-
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · Open Source from €20/mo Desk-reviewed
 
 Looking for options? [Best n8n alternatives](/alternatives/n8n/)
 
-[Visit n8n →](https://n8n.io)
+MartechSignal score
+
+52/60
+
+- **Price:** Open Source from €20/mo
+- **Licence:** Open source
+- **GitHub stars:** 208,269
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** n8n is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit n8n →](https://n8n.io)
 
 ## MartechSignal Score: 52/60
 

@@ -6,21 +6,25 @@
 - Twenty
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## Twenty review (2026): pricing, AI features, verdict
 
 The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 
-CRM · Open Source from $9/user/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $9/user/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Twenty →](https://twenty.com)
+42/60
+
+- **Price:** Open Source from $9/user/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 59,278
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Twenty is a tool in CRM with free and open source. The catalog documents 4 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Twenty →](https://twenty.com)
 
 ## MartechSignal Score: 42/60
 

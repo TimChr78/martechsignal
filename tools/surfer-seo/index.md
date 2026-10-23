@@ -6,21 +6,24 @@
 - Surfer SEO
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · SEO & Search
+
 ## Surfer SEO review (2026): pricing, AI features, verdict
 
 AI-powered content optimization platform for SEO-driven article writing and audits
 
-SEO & Search · From $49/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Surfer SEO →](https://surferseo.com)
+36/60
+
+- **Price:** From $49/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Surfer SEO is a tool in SEO & Search with paid plans starting at $49/mo. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Surfer SEO →](https://surferseo.com)
 
 ## MartechSignal Score: 36/60
 

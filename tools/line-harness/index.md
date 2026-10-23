@@ -6,21 +6,25 @@
 - Line Harness
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Marketing Automation
+
 ## Line Harness review (2026): pricing, AI features, verdict
 
 Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
 
-Marketing Automation · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Line Harness →](https://the-harness.com/line-harness/)
+37/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 603
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Line Harness is a tool in Marketing Automation with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Line Harness →](https://the-harness.com/line-harness/)
 
 ## MartechSignal Score: 37/60
 

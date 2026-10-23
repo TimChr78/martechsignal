@@ -6,23 +6,27 @@
 - Google Ads + Meta Ads + GA4 MCP
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
-KIND: Utility (not an end-to-end platform)
+Kind: Utility (not an end-to-end platform)
+
+Review · Agent Skills
 
 ## Google Ads + Meta Ads + GA4 MCP review (2026): pricing, AI features, verdict
 
 MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 
-Agent Skills · Freemium · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Freemium · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Google Ads + Meta Ads + GA4 MCP →](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
+41/60
+
+- **Price:** Freemium
+- **Licence:** MIT
+- **GitHub stars:** 5,482
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Google Ads + Meta Ads + GA4 MCP is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 11 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Google Ads + Meta Ads + GA4 MCP →](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
 
 ## MartechSignal Score: 41/60
 

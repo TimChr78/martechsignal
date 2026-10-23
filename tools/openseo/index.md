@@ -6,21 +6,25 @@
 - OpenSEO
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · SEO & Search
+
 ## OpenSEO review (2026): pricing, AI features, verdict
 
 Open source alternative to Ahrefs and Semrush
 
-SEO & Search · Open Source from $10/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $10/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit OpenSEO →](https://openseo.so)
+32/60
+
+- **Price:** Open Source from $10/mo
+- **Licence:** MIT
+- **GitHub stars:** 24,461
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** OpenSEO is a tool in SEO & Search with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit OpenSEO →](https://openseo.so)
 
 ## MartechSignal Score: 32/60
 

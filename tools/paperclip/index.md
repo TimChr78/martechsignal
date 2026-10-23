@@ -6,21 +6,25 @@
 - Paperclip
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Workflow Automation
+
 ## Paperclip review (2026): pricing, AI features, verdict
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
-Workflow Automation · Freemium from €10/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Freemium from €10/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Paperclip →](https://paperclip.ing)
+44/60
+
+- **Price:** Freemium from €10/mo
+- **Licence:** MIT
+- **GitHub stars:** 105,753
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Paperclip is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Paperclip →](https://paperclip.ing)
 
 ## MartechSignal Score: 44/60
 

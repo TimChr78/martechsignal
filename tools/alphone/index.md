@@ -6,21 +6,25 @@
 - AlphOne
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · CRM
+
 ## AlphOne review (2026): pricing, AI features, verdict
 
 Plugin-first CRM (source-available, Elastic 2.0) written in Go
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit AlphOne →](https://github.com/gopherium/AlphOne)
+29/60
+
+- **Price:** Open Source
+- **Licence:** Elastic License 2.0
+- **GitHub stars:** 284
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** AlphOne is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit AlphOne →](https://github.com/gopherium/AlphOne)
 
 ## MartechSignal Score: 29/60
 

@@ -6,21 +6,25 @@
 - React Email Editor
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Email Marketing
+
 ## React Email Editor review (2026): pricing, AI features, verdict
 
 Drag-n-Drop Email Editor Component for React.js
 
-Email Marketing · Open Source from $250/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Open Source from $250/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit React Email Editor →](https://unlayer.com/)
+39/60
+
+- **Price:** Open Source from $250/mo
+- **Licence:** MIT
+- **GitHub stars:** 5,246
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** React Email Editor is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 7 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit React Email Editor →](https://unlayer.com/)
 
 ## MartechSignal Score: 39/60
 

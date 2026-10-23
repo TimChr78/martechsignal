@@ -6,21 +6,24 @@
 - HubSpot Marketing Hub
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Marketing Automation
+
 ## HubSpot Marketing Hub review (2026): pricing, AI features, verdict
 
 All-in-one marketing automation with AI-powered content, email, and campaign tools
 
-Marketing Automation · Freemium from $20/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Freemium from $20/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit HubSpot Marketing Hub →](https://www.hubspot.com/products/marketing)
+42/60
+
+- **Price:** Freemium from $20/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** HubSpot Marketing Hub is a tool in Marketing Automation with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit HubSpot Marketing Hub →](https://www.hubspot.com/products/marketing)
 
 ## MartechSignal Score: 42/60
 

@@ -6,21 +6,24 @@
 - Pencil
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Advertising & Paid Media
+
 ## Pencil review (2026): pricing, AI features, verdict
 
 AI-powered ad creative generation and performance prediction for paid media
 
-Advertising & Paid Media · From $11/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · From $11/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Pencil →](https://trypencil.com)
+37/60
+
+- **Price:** From $11/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Pencil is a tool in Advertising & Paid Media with paid plans starting at $11/mo. The catalog documents 5 AI features and 11 integrations. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Pencil →](https://trypencil.com)
 
 ## MartechSignal Score: 37/60
 

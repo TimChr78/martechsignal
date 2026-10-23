@@ -6,21 +6,24 @@
 - Twilio SendGrid
 Re-check pending: pricing last verified 2026-08-28 (56 days ago). Reclassified paid on 2026-10-06 from September vendor evidence; re-check queued.
 
+Review · Email Marketing
+
 ## Twilio SendGrid review (2026): pricing, AI features, verdict
 
 Scalable email delivery API with AI-powered deliverability and engagement tools
 
-Email Marketing · From $19.95/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · From $19.95/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Twilio SendGrid →](https://sendgrid.com)
+35/60
+
+- **Price:** From $19.95/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Twilio SendGrid is a tool in Email Marketing with paid plans starting at $19.95/mo. The catalog documents 4 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Twilio SendGrid →](https://sendgrid.com)
 
 ## MartechSignal Score: 35/60
 

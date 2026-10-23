@@ -6,21 +6,24 @@
 - Frase
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · SEO & Search
+
 ## Frase review (2026): pricing, AI features, verdict
 
 AI-powered SEO content platform for research, writing, and AI visibility tracking
 
-SEO & Search · From $39/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · From $39/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Frase →](https://www.frase.io)
+37/60
+
+- **Price:** From $39/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Frase is a tool in SEO & Search with paid plans starting at $39/mo. The catalog documents 8 AI features, 14 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Frase →](https://www.frase.io)
 
 ## MartechSignal Score: 37/60
 

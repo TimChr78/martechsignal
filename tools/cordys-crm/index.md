@@ -6,21 +6,25 @@
 - Cordys CRM
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## Cordys CRM review (2026): pricing, AI features, verdict
 
 Open-source AI CRM with built-in agents, conversational analytics, and private deployment
 
-CRM · Freemium · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Freemium · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Cordys CRM →](https://cordys.cn)
+35/60
+
+- **Price:** Freemium
+- **Licence:** GPL-3.0
+- **GitHub stars:** 2,806
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Cordys CRM is a tool in CRM with free and open source. The catalog documents 5 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Cordys CRM →](https://cordys.cn)
 
 ## MartechSignal Score: 35/60
 

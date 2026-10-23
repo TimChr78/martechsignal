@@ -1084,7 +1084,7 @@ def _score_band(t):
         + '<td>' + _evidence_cell(t, rec, rec["pillars"][k]["evidence"]) + '</td></tr>'
         for k in _PILLAR_ORDER)
     band = (
-        '<section class="score-band">'
+        '<section class="score-band" id="score">'
         '<h2>' + ('Benchmark log: ' if t["slug"] == "claude-seo" else 'MartechSignal Score: ') + str(rec["score_total"]) + '/60</h2>'
         '<p>' + esc(rec["verdict"]) + '</p>'
         '<div class="table-wrap"><table><caption>Pillar scores and evidence</caption>'
@@ -2055,7 +2055,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
             _facts.append(f'<dt>Last release</dt><dd>{esc(t["last_release"])}</dd>')
         if _facts:
               score_html = (
-                '<section class="score-band">'
+                '<section class="score-band" id="score">'
                 '<h2>Catalog facts: '
                 + esc(t["name"]) + '</h2>'
                 '<p>Not yet scored against the rubric, so no verdict here. '
@@ -2067,10 +2067,8 @@ def build_tool_page(t, cats, all_tools, base="tools"):
             # r6 M-6 (2026-09-27): unscored pages say so on the page.
             score_html = ('<p class="unscored-note">Not yet scored against the rubric; '
                           'scored pages show six pillars.</p>')
-    # r6 L-11 (2026-09-27): the real CTA belongs above the fold, in the verdict block.
-    if t.get("website"):
-        score_html = (f'<p class="verdict-cta"><a class="btn" href="{t["website"]}" '
-                      f'rel="noopener" target="_blank">Visit {t["name"]} &#8594;</a></p>') + score_html
+    # r6 L-11 (2026-09-27): the real CTA moved to the review-header score
+    # panel (redesign 2026-10-23); no second button above the score band.
     _ain = len(t.get('ai_features') or [])
     # r15 L-13 (2026-09-29): "1 AI features" on 9 pages — singularize.
     _caps = ([f"{_ain} AI feature" if _ain == 1 else f"{_ain} AI features"] if _ain else [])
@@ -2101,17 +2099,52 @@ def build_tool_page(t, cats, all_tools, base="tools"):
            else (f'We reviewed it from vendor documentation on {_vdate}. This is a desk review, not a hands-on test. '
                  + _review_tag(t)))
         + '</div>')
+    # Redesign (2026-10-23): editorial review header. Headline on the left,
+    # score panel on the right. The panel is the page's only above-the-fold
+    # CTA: the old .cta-early and .verdict-cta buttons were duplicates.
+    _rec_hdr = _SCORES.get(t["slug"])
+    _sbox = [
+        '<p class="lbl">'
+        + ('Benchmark log' if t["slug"] == "claude-seo" else
+           ('MartechSignal score' if _rec_hdr else 'Not yet scored'))
+        + '</p>'
+    ]
+    if _rec_hdr:
+        _tot = _rec_hdr["score_total"]
+        _sbox.append(f'<p class="val">{_tot}<small>/60</small></p>')
+        _sbox.append(f'<div class="bar"><i style="width:{round(_tot / 60 * 100, 1)}%"></i></div>')
+    _sbox.append('<dl class="facts">')
+    _sbox.append(f'<dt>Price</dt><dd>{esc(pricing_label(t))}</dd>')
+    _sbox.append('<dt>Licence</dt><dd>'
+                 + esc(t.get("license") or ("Open source" if t.get("open_source")
+                                            else "Proprietary"))
+                 + '</dd>')
+    if t.get("github_stars"):
+        _sbox.append(f'<dt>GitHub stars</dt><dd>{t["github_stars"]:,}</dd>')
+    _sbox.append('</dl>')
+    if t.get("website"):
+        _sbox.append(
+            f'<a class="btn" href="{esc(t["website"])}" rel="noopener" target="_blank" '
+            f'data-umami-event="Tool header CTA click" data-umami-event-tool="{esc(t["name"])}">'
+            f'Visit {esc(t["name"])} &#8594;</a>')
+    if _rec_hdr:
+        _sbox.append('<a class="textlink" href="#score">Score breakdown &#8595;</a>')
+    scorebox_html = ('<aside class="scorebox" aria-label="Score summary">'
+                     + "".join(_sbox) + '</aside>')
+    _by_date = esc(_record_edit_date(t['slug'], t.get('date_updated', '')))
     body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/{base}/">{"Guides" if base == "guides" else "Tools"}</a></li><li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li><li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
-<section class="page-head">
-  <h1>{_tool_h1(t)}</h1>
-  <p class="sub">{esc(t.get('tagline',''))}</p>
-  <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{(' · OPEN SOURCE' if t.get('open_source') and 'open source' not in pricing_label(t).lower() else '')} {_review_tag(t)}</p>
-  <!-- L-11 (r11, 2026-09-29): byline date resolves through _record_edit_date,
-       the same clock as schema dateModified, so the two always agree. -->
-  <p class="byline">MartechSignal editorial review by <a href="/authors/tim-christensen/">Tim Christensen</a> · updated <time datetime="{esc(_record_edit_date(t['slug'], t.get('date_updated','')))}">{esc(_record_edit_date(t['slug'], t.get('date_updated','')))}</time></p>
-  {('<p class="made-badge">Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. We run it on our own sites and depend on it in our audit pipeline, which is why it carries no Review markup. See the <a href="/corrections/">corrections log</a>.</p>') if t["slug"] == "claude-seo" else ''}
-  {('<p class="alt-link">Looking for options? <a href="/alternatives/' + t["slug"] + '/">Best ' + esc(t["name"]) + ' alternatives</a></p>') if t["slug"] in _ALT_SLUGS else ''}
-  {('<p class="cta-early"><a href="' + esc(t.get('website','#')) + '" target="_blank" rel="noopener">Visit ' + esc(t["name"]) + ' &#8594;</a></p>') if t.get('website') else ''}
+<section class="page-head review-head">
+  <div class="rh-main">
+    <p class="eyebrow">Review · {esc(c.get('name',''))}</p>
+    <h1>{_tool_h1(t)}</h1>
+    <p class="sub">{esc(t.get('tagline',''))}</p>
+    <!-- L-11 (r11, 2026-09-29): byline date resolves through _record_edit_date,
+         the same clock as schema dateModified, so the two always agree. -->
+    <p class="byline">By <a href="/authors/tim-christensen/">Tim Christensen</a> · updated <time datetime="{_by_date}">{_by_date}</time> · {esc(pricing_label(t))}{(' · Open source' if t.get('open_source') and 'open source' not in pricing_label(t).lower() else '')} {_review_tag(t)}</p>
+    {('<p class="made-badge">Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. We run it on our own sites and depend on it in our audit pipeline, which is why it carries no Review markup. See the <a href="/corrections/">corrections log</a>.</p>') if t["slug"] == "claude-seo" else ''}
+    {('<p class="alt-link">Looking for options? <a href="/alternatives/' + t["slug"] + '/">Best ' + esc(t["name"]) + ' alternatives</a></p>') if t["slug"] in _ALT_SLUGS else ''}
+  </div>
+  {scorebox_html}
 </section>
 {disclosure_html}
 {verdict_html}
@@ -2299,7 +2332,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         seo_desc = seo_desc.rstrip(" ,;:-") + "."
     # r6 M-2: visible kind label for non-platform entries
     if t.get("kind"):
-        body = body.replace("</nav>", "</nav>" + f'<p class="kind-note">KIND: {esc(t["kind"])} (not an end-to-end platform)</p>', 1)
+        body = body.replace("</nav>", "</nav>" + f'<p class="kind-note">Kind: {esc(t["kind"])} (not an end-to-end platform)</p>', 1)
     # r6 M-8: visible auto-flag when pricing facts are past the 21-day window.
     import datetime as _dt2
     _du = t.get("date_updated")
@@ -3420,7 +3453,7 @@ _CRITICAL_PREFIXES = (
     ".eyebrow", ".kicker", ".back", ".post-hero", ".meta",
     ".hero", ".figures", ".fig",
     ".lede", ".hero-cta",
-    ".cat-nav", ".cat-pill",
+    ".cat-nav",
     ".tool-grid", ".tool-card",
     "#progress",
 )
@@ -3882,8 +3915,11 @@ def sync_date_modified():
         # schema clock (r11 L-11 pin). The pricing-verified <time> is a
         # separate factual stamp with its own meaning - only the "updated"
         # byline moves with the unified date.
-        _s = _re.sub(r'[Uu]pdated <time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>',
-                     f'Updated <time datetime="{_val}">{_val}</time>', _s)
+        # Redesign (2026-10-23): case-preserving so the sentence-case byline
+        # ("· updated <time>") keeps its lower-case word while still tracking
+        # the schema clock. Only the word's case is preserved.
+        _s = _re.sub(r'([Uu])pdated <time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>',
+                     lambda _m: _m.group(1) + 'pdated <time datetime="' + _val + '">' + _val + '</time>', _s)
         # A3 H-2 (2026-10-02): kept for blame-fallback pages only (see r20 H-2
         # block below). Human-date pages never gain an Updated note.
         # r20 H-2 (2026-10-02): the Updated note is only meaningful when blame
@@ -3903,7 +3939,11 @@ def sync_date_modified():
                                  lambda _m: _m.group(1) + ' &middot; Updated <time datetime="' + _val + '">' + _ud + '</time>',
                                  _s, count=1)
         else:
-            _s = _re.sub(r'[ ]*(?:&middot;|·)[ ]*[Uu]pdated <time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>',
+            # r20 H-2 (2026-10-02), redesign (2026-10-23): drop only the
+            # capital-U note this sync injects as a duplicate of Last-verified.
+            # The tool header's own lower-case "· updated <time>" is the L-11
+            # byline clock and stays.
+            _s = _re.sub(r'[ ]*(?:&middot;|·)[ ]*Updated <time datetime="[0-9]{4}-[0-9]{2}-[0-9]{2}">[^<]*</time>',
                          lambda _m: '', _s)
         # r16 L-7 (2026-09-29): pages that already define a WebPage node
         # keep it (unified above); every other page gets one with the

@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Anyword
+Review · AI Content & Copywriting
+
 ## Anyword review (2026): pricing, AI features, verdict
 
 AI copywriting platform with predictive performance scores for marketing content
 
-AI Content & Copywriting · From $39/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-05 · From $39/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Anyword →](https://www.anyword.com)
+35/60
+
+- **Price:** From $39/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Anyword is a tool in AI Content & Copywriting with paid plans starting at $39/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Anyword →](https://www.anyword.com)
 
 ## MartechSignal Score: 35/60
 
@@ -118,8 +121,8 @@ Valuable when you need an instant, numbers-based copy check across many channels
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Performance marketers that want a score before paying to publish

@@ -6,21 +6,24 @@
 - MarketMuse
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · SEO & Search
+
 ## MarketMuse review (2026): pricing, AI features, verdict
 
 AI-powered content strategy and optimization platform for SEO content teams
 
-SEO & Search · Paid Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Paid Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit MarketMuse →](https://www.marketmuse.com)
+28/60
+
+- **Price:** Paid
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** MarketMuse is a tool in SEO & Search with custom pricing. The catalog documents 4 AI features and 4 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit MarketMuse →](https://www.marketmuse.com)
 
 ## MartechSignal Score: 28/60
 

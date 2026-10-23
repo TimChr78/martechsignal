@@ -6,21 +6,25 @@
 - Strapi
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · AI Content & Copywriting
+
 ## Strapi review (2026): pricing, AI features, verdict
 
 Open-source headless CMS with AI-powered content management and API-first design
 
-AI Content & Copywriting · Open Source from $99/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source from $99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Strapi →](https://strapi.io)
+43/60
+
+- **Price:** Open Source from $99/mo
+- **Licence:** Open source
+- **GitHub stars:** 73,356
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Strapi is a tool in AI Content & Copywriting with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Strapi →](https://strapi.io)
 
 ## MartechSignal Score: 43/60
 
@@ -120,8 +124,8 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Teams that want a headless CMS with AI inside their own stack

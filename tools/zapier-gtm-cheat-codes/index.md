@@ -6,21 +6,25 @@
 - Zapier GTM Cheat Codes
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
+Review · Agent Skills
+
 ## Zapier GTM Cheat Codes review (2026): pricing, AI features, verdict
 
 Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Zapier GTM Cheat Codes →](https://github.com/zapier/gtm-cheat-codes)
+38/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 348
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Zapier GTM Cheat Codes is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Zapier GTM Cheat Codes →](https://github.com/zapier/gtm-cheat-codes)
 
 ## MartechSignal Score: 38/60
 
@@ -120,8 +124,8 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for GTM practitioners who want a cheat-code skill for Zapier and Google Tag Manager recipes, free to install.

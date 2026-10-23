@@ -6,21 +6,24 @@
 - Ahrefs
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Ahrefs review (2026): pricing, AI features, verdict
 
 Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 
-GEO & LLM Optimization · From $129/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From $129/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Ahrefs →](https://ahrefs.com)
+42/60
+
+- **Price:** From $129/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Ahrefs is a tool in GEO & LLM Optimization with paid plans starting at $129/mo. The catalog documents 1 AI feature, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Ahrefs →](https://ahrefs.com)
 
 ## MartechSignal Score: 42/60
 

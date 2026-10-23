@@ -6,21 +6,25 @@
 - LanguageTool
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · AI Content & Copywriting
+
 ## LanguageTool review (2026): pricing, AI features, verdict
 
 Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
 
-AI Content & Copywriting · Freemium · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Freemium · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit LanguageTool →](https://languagetool.org)
+37/60
+
+- **Price:** Freemium
+- **Licence:** LGPL-2.1
+- **GitHub stars:** 15,177
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** LanguageTool is a tool in AI Content & Copywriting with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit LanguageTool →](https://languagetool.org)
 
 ## MartechSignal Score: 37/60
 

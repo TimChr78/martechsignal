@@ -6,23 +6,27 @@
 - Matomo
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Analytics & Attribution
+
 ## Matomo review (2026): pricing, AI features, verdict
 
 Open-source web analytics platform with full data ownership and AI-powered insights
 
-Analytics & Attribution · Open Source from €22/mo Desk-reviewed
-
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Open Source from €22/mo Desk-reviewed
 
 Looking for options? [Best Matomo alternatives](/alternatives/matomo/)
 
-[Visit Matomo →](https://matomo.org)
+MartechSignal score
+
+49/60
+
+- **Price:** Open Source from €22/mo
+- **Licence:** GPL-3.0
+- **GitHub stars:** 21,969
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Matomo is a tool in Analytics & Attribution with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Matomo →](https://matomo.org)
 
 ## MartechSignal Score: 49/60
 

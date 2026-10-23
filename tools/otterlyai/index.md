@@ -6,21 +6,24 @@
 - OtterlyAI
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## OtterlyAI review (2026): pricing, AI features, verdict
 
 AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 
-GEO & LLM Optimization · From €29/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From €29/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit OtterlyAI →](https://otterly.ai/)
+34/60
+
+- **Price:** From €29/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** OtterlyAI is a tool in GEO & LLM Optimization with paid plans starting at €29/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit OtterlyAI →](https://otterly.ai/)
 
 ## MartechSignal Score: 34/60
 

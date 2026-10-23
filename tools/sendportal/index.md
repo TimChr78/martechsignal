@@ -4,21 +4,23 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - SendPortal
+Review · Email Marketing
+
 ## SendPortal review (2026): pricing, AI features, verdict
 
 Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server
 
-Email Marketing · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-15 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit SendPortal →](https://sendportal.io)
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 2,179
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** SendPortal is a tool in Email Marketing with free and open source. The catalog documents 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-15. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit SendPortal →](https://sendportal.io)
 
 ## Catalog facts: SendPortal
 

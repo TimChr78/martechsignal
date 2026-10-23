@@ -6,21 +6,25 @@
 - Snowplow
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Analytics & Attribution
+
 ## Snowplow review (2026): pricing, AI features, verdict
 
 Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
 
-Analytics & Attribution · Open-core · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Open-core · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Snowplow →](https://snowplow.io)
+42/60
+
+- **Price:** Open-core
+- **Licence:** Apache-2.0
+- **GitHub stars:** 7,044
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Snowplow is a tool in Analytics & Attribution with free and open source. The catalog documents 3 AI features, 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Snowplow →](https://snowplow.io)
 
 ## MartechSignal Score: 42/60
 

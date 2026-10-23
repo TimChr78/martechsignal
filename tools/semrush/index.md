@@ -6,21 +6,24 @@
 - Semrush
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · SEO & Search
+
 ## Semrush review (2026): pricing, AI features, verdict
 
 All-in-one SEO and digital marketing platform with AI-powered insights and tools
 
-SEO & Search · From $117/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · From $117/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Semrush →](https://www.semrush.com)
+40/60
+
+- **Price:** From $117/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Semrush is a tool in SEO & Search with paid plans starting at $117/mo. The catalog documents 6 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Semrush →](https://www.semrush.com)
 
 ## MartechSignal Score: 40/60
 

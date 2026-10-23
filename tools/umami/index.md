@@ -6,21 +6,25 @@
 - Umami
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Analytics & Attribution
+
 ## Umami review (2026): pricing, AI features, verdict
 
 Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps
 
-Analytics & Attribution · Open Source from $20/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $20/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Umami →](https://umami.is)
+40/60
+
+- **Price:** Open Source from $20/mo
+- **Licence:** MIT
+- **GitHub stars:** 39,514
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Umami is a tool in Analytics & Attribution with free and open source. The catalog documents 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Umami →](https://umami.is)
 
 ## MartechSignal Score: 40/60
 

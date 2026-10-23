@@ -6,21 +6,24 @@
 - Ortto
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Marketing Automation
+
 ## Ortto review (2026): pricing, AI features, verdict
 
 Customer data and marketing automation platform with journeys, CDP, and AI features
 
-Marketing Automation · From $199/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · From $199/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Ortto →](https://ortto.com)
+34/60
+
+- **Price:** From $199/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Ortto is a tool in Marketing Automation with paid plans starting at $199/mo. The catalog documents 6 AI features, 13 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Ortto →](https://ortto.com)
 
 ## MartechSignal Score: 34/60
 

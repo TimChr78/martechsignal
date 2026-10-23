@@ -4,21 +4,25 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Codex SEO
+Review · Agent Skills
+
 ## Codex SEO review (2026): pricing, AI features, verdict
 
 Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 
-Agent Skills · Free Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-12 · Free Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Codex SEO →](https://github.com/AgriciDaniel/codex-seo)
+34/60
+
+- **Price:** Free
+- **Licence:** proprietary
+- **GitHub stars:** 853
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Codex SEO is a tool in Agent Skills with a free tier. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-10-12. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Codex SEO →](https://github.com/AgriciDaniel/codex-seo)
 
 ## MartechSignal Score: 34/60
 

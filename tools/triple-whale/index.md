@@ -6,21 +6,24 @@
 - Triple Whale
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Analytics & Attribution
+
 ## Triple Whale review (2026): pricing, AI features, verdict
 
 AI-powered ecommerce analytics and attribution platform for DTC brands
 
-Analytics & Attribution · From $59/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · From $59/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Triple Whale →](https://www.triplewhale.com)
+33/60
+
+- **Price:** From $59/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Triple Whale is a tool in Analytics & Attribution with paid plans starting at $59/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Triple Whale →](https://www.triplewhale.com)
 
 ## MartechSignal Score: 33/60
 

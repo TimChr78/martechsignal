@@ -6,21 +6,25 @@
 - Flagsmith
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Personalization & CDP
+
 ## Flagsmith review (2026): pricing, AI features, verdict
 
 Open-source feature flag and remote config platform with segment targeting
 
-Personalization & CDP · Freemium from $50/member/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Freemium from $50/member/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Flagsmith →](https://www.flagsmith.com)
+40/60
+
+- **Price:** Freemium from $50/member/mo
+- **Licence:** BSD-3-Clause
+- **GitHub stars:** 6,610
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Flagsmith is a tool in Personalization & CDP with free and open source. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Flagsmith →](https://www.flagsmith.com)
 
 ## MartechSignal Score: 40/60
 

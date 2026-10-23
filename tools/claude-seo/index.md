@@ -6,23 +6,27 @@
 - Claude SEO
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Agent Skills
+
 ## Claude SEO review (2026): pricing, AI features, verdict
 
 Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 
-Agent Skills · Open Source Hands-on
-
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · Open Source Hands-on
 
 Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we have no affiliation with its author. We run it on our own sites and depend on it in our audit pipeline, which is why it carries no Review markup. See the [corrections log](/corrections/).
 
-[Visit Claude SEO →](https://claude-seo.md/)
+Benchmark log
+
+43/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 19,613
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Claude SEO is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
-
-[Visit Claude SEO →](https://claude-seo.md/)
 
 ## Benchmark log: 43/60
 

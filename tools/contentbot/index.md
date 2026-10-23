@@ -6,21 +6,24 @@
 - ContentBot
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · AI Content & Copywriting
+
 ## ContentBot review (2026): pricing, AI features, verdict
 
 AI content automation platform with workflows for blogs, ads, and social posts
 
-AI Content & Copywriting · Freemium from $9/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Freemium from $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit ContentBot →](https://contentbot.ai)
+32/60
+
+- **Price:** Freemium from $9/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** ContentBot is a tool in AI Content & Copywriting with a free tier. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit ContentBot →](https://contentbot.ai)
 
 ## MartechSignal Score: 32/60
 

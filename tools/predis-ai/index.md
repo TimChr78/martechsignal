@@ -6,21 +6,24 @@
 - Predis.ai
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Social Media
+
 ## Predis.ai review (2026): pricing, AI features, verdict
 
 AI-powered social media content generator for posts, videos, and ad creatives
 
-Social Media · Freemium from $19/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Freemium from $19/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Predis.ai →](https://predis.ai)
+30/60
+
+- **Price:** Freemium from $19/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Predis.ai is a tool in Social Media with a free tier. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Predis.ai →](https://predis.ai)
 
 ## MartechSignal Score: 30/60
 
@@ -117,9 +120,9 @@ Efficient social content factory for small brands; B2B nuance still needs a huma
 - [MultiPost](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click
 ## Related reading
 
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Solo marketers that want daily post volume on a small budget

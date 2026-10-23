@@ -6,21 +6,25 @@
 - OpenOutreach
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Email Marketing
+
 ## OpenOutreach review (2026): pricing, AI features, verdict
 
 Open-source AI lead finder: describe your product and it finds and qualifies the leads
 
-Email Marketing · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit OpenOutreach →](https://openoutreach.app)
+39/60
+
+- **Price:** Open Source
+- **Licence:** GPL-3.0
+- **GitHub stars:** 3,369
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** OpenOutreach is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 9 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit OpenOutreach →](https://openoutreach.app)
 
 ## MartechSignal Score: 39/60
 

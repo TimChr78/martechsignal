@@ -6,21 +6,25 @@
 - ChatbotX
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Chatbots & Conversational AI
+
 ## ChatbotX review (2026): pricing, AI features, verdict
 
 Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 
-Chatbots & Conversational AI · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit ChatbotX →](https://chatbotx.io/docs)
+31/60
+
+- **Price:** Open Source
+- **Licence:** Open source
+- **GitHub stars:** 988
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** ChatbotX is a tool in Chatbots & Conversational AI with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit ChatbotX →](https://chatbotx.io/docs)
 
 ## MartechSignal Score: 31/60
 

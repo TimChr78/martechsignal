@@ -6,21 +6,25 @@
 - advertools
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Advertising & Paid Media
+
 ## advertools review (2026): pricing, AI features, verdict
 
 Python toolkit for SEO and advertising analysis in pandas DataFrames
 
-Advertising & Paid Media · Open Source Hands-on
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit advertools →](https://advertools.readthedocs.io)
+38/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 1,483
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** advertools is a tool in Advertising & Paid Media with free and open source. The catalog documents 1 AI feature, 5 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
-
-[Visit advertools →](https://advertools.readthedocs.io)
 
 ## MartechSignal Score: 38/60
 

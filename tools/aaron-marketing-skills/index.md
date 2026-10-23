@@ -6,21 +6,25 @@
 - Aaron Marketing Skills
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Agent Skills
+
 ## Aaron Marketing Skills review (2026): pricing, AI features, verdict
 
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Aaron Marketing Skills →](https://github.com/aaron-he-zhu/aaron-marketing-skills)
+40/60
+
+- **Price:** Open Source
+- **Licence:** Apache-2.0
+- **GitHub stars:** 2,998
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Aaron Marketing Skills is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Aaron Marketing Skills →](https://github.com/aaron-he-zhu/aaron-marketing-skills)
 
 ## MartechSignal Score: 40/60
 

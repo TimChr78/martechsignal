@@ -6,21 +6,25 @@
 - IDURAR ERP & CRM
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## IDURAR ERP & CRM review (2026): pricing, AI features, verdict
 
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
-CRM · Open Source from $5,000 one-time Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $5,000 one-time Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit IDURAR ERP & CRM →](https://cloud.idurarapp.com)
+31/60
+
+- **Price:** Open Source from $5,000 one-time
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 8,905
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** IDURAR ERP & CRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit IDURAR ERP & CRM →](https://cloud.idurarapp.com)
 
 ## MartechSignal Score: 31/60
 

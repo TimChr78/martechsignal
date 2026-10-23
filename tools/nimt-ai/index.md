@@ -6,21 +6,24 @@
 - Nimt.ai
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Nimt.ai review (2026): pricing, AI features, verdict
 
 AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 
-GEO & LLM Optimization · From €79/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From €79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Nimt.ai →](https://nimt.ai)
+35/60
+
+- **Price:** From €79/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Nimt.ai is a tool in GEO & LLM Optimization with paid plans starting at €79/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Nimt.ai →](https://nimt.ai)
 
 ## MartechSignal Score: 35/60
 

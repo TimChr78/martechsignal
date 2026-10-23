@@ -6,21 +6,25 @@
 - AI Business Skills
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Agent Skills
+
 ## AI Business Skills review (2026): pricing, AI features, verdict
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit AI Business Skills →](https://github.com/minhnv0807/ai-business-skills)
+34/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 622
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** AI Business Skills is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit AI Business Skills →](https://github.com/minhnv0807/ai-business-skills)
 
 ## MartechSignal Score: 34/60
 

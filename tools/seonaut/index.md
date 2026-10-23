@@ -6,21 +6,25 @@
 - Seonaut
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · SEO & Search
+
 ## Seonaut review (2026): pricing, AI features, verdict
 
 Open-source SEO crawler in Go for technical audits, self-hosted or cloud
 
-SEO & Search · Open Source from $9/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Seonaut →](https://seonaut.org)
+30/60
+
+- **Price:** Open Source from $9/mo
+- **Licence:** MIT
+- **GitHub stars:** 823
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Seonaut is a tool in SEO & Search with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Seonaut →](https://seonaut.org)
 
 ## MartechSignal Score: 30/60
 

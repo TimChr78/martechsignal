@@ -527,9 +527,30 @@ ul.integ-list li a:hover { color: var(--accent) }
 .related-reading li a:hover, .related-tools li a:hover, .related-glossary li a:hover { color: var(--accent) }
 .related-reading h2, .related-tools h2, .related-glossary h2, .related-concepts h2, .pros-cons h2, .pricing-block h2, .faq-block h2 { font-size: 1.6rem; margin-bottom: .8rem }
 
+/* review header: headline left, score panel right */
+.page-head.review-head { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 1rem 3rem; align-items: end }
+.review-head .rh-main { min-width: 0 }
+.scorebox { border: 1px solid var(--rule); background: var(--surface); padding: 1rem 1.1rem 1.1rem }
+.scorebox .lbl { font: 600 .8125rem var(--sans); color: var(--muted) }
+.scorebox .val { font: 500 3.2rem/1 var(--serif); letter-spacing: -.03em; margin: .3rem 0 .5rem; color: var(--ink) }
+.scorebox .val small { font-size: 1.2rem; color: var(--muted); letter-spacing: 0 }
+.scorebox .bar { height: 6px; background: var(--sunk); border-radius: 3px; overflow: hidden }
+.scorebox .bar i { display: block; height: 100%; background: var(--accent) }
+.scorebox .facts { display: grid; grid-template-columns: auto 1fr; gap: .3rem .9rem; margin: .9rem 0 0; font-size: .875rem }
+.scorebox .facts dt { color: var(--muted) }
+.scorebox .facts dd { color: var(--ink); font-weight: 500 }
+.scorebox .btn { display: block; margin-top: 1rem }
+.scorebox .textlink { display: inline-block; margin-top: .75rem; font-size: .875rem }
+@media (max-width: 860px) { .page-head.review-head { grid-template-columns: minmax(0, 1fr) } }
+
 /* score band: verdict panel above the detail grid */
 .score-band { margin: 1.5rem 0; padding: 1.25rem 1.5rem; background: var(--surface); border: 1px solid var(--rule); border-radius: 0 }
-.score-band h2 { font-size: 1.6rem }
+.page-tools main .score-band > h2 { font-size: 1.6rem; margin: 0 0 .4rem }
+.score-band > dl { display: grid; grid-template-columns: max-content 1fr; gap: 0 1.5rem; margin: 1rem 0; font-size: .9375rem; max-width: 40rem }
+.score-band > dl > div { display: contents }
+.score-band dt, .score-band dd { padding: .45rem 0; border-bottom: 1px solid var(--line) }
+.score-band dt { color: var(--muted) }
+.score-band dd { color: var(--ink); font-weight: 500 }
 .score-band > p { font: 400 1.0625rem/1.55 var(--serif); color: var(--ink-2); max-width: 46rem }
 .score-band td:nth-child(2) { font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; white-space: nowrap }
 

@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Jasper
+Review · AI Content & Copywriting
+
 ## Jasper review (2026): pricing, AI features, verdict
 
 AI marketing content platform for creating on-brand copy, images, and campaigns
 
-AI Content & Copywriting · From $59/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-17 · From $59/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Jasper →](https://www.jasper.ai)
+37/60
+
+- **Price:** From $59/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Jasper is a tool in AI Content & Copywriting with paid plans starting at $59/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-17. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Jasper →](https://www.jasper.ai)
 
 ## MartechSignal Score: 37/60
 

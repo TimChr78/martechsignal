@@ -6,21 +6,25 @@
 - Appsmith
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Workflow Automation
+
 ## Appsmith review (2026): pricing, AI features, verdict
 
 Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
 
-Workflow Automation · Open-core from $15/user/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open-core from $15/user/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Appsmith →](https://appsmith.com)
+39/60
+
+- **Price:** Open-core from $15/user/mo
+- **Licence:** Apache-2.0
+- **GitHub stars:** 41,103
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Appsmith is a tool in Workflow Automation with free and open source. The catalog documents 2 AI features, 13 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Appsmith →](https://appsmith.com)
 
 ## MartechSignal Score: 39/60
 

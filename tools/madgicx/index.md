@@ -6,21 +6,24 @@
 - Madgicx
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Advertising & Paid Media
+
 ## Madgicx review (2026): pricing, AI features, verdict
 
 AI-powered Meta ads optimization and creative workflow
 
-Advertising & Paid Media · From $49/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Madgicx →](https://madgicx.com/)
+30/60
+
+- **Price:** From $49/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Madgicx is a tool in Advertising & Paid Media with paid plans starting at $49/mo. The catalog documents 5 AI features and 4 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Madgicx →](https://madgicx.com/)
 
 ## MartechSignal Score: 30/60
 

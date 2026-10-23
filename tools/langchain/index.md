@@ -6,21 +6,25 @@
 - LangChain
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Workflow Automation
+
 ## LangChain review (2026): pricing, AI features, verdict
 
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 
-Workflow Automation · Open Source from $39/mo Hands-on
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source from $39/mo Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit LangChain →](https://www.langchain.com)
+47/60
+
+- **Price:** Open Source from $39/mo
+- **Licence:** MIT
+- **GitHub stars:** 148,235
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** LangChain is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 10 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
-
-[Visit LangChain →](https://www.langchain.com)
 
 ## MartechSignal Score: 47/60
 

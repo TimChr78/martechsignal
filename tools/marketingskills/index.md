@@ -4,21 +4,23 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Marketing Skills (coreyhaines31)
+Review · Agent Skills
+
 ## Marketing Skills (coreyhaines31) review (2026): pricing, AI features, verdict
 
 ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-08 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit Marketing Skills (coreyhaines31) →](https://marketing-skills.com)
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 55,853
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Marketing Skills (coreyhaines31) is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-10-08. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Marketing Skills (coreyhaines31) →](https://marketing-skills.com)
 
 ## Catalog facts: Marketing Skills (coreyhaines31)
 

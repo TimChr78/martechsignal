@@ -6,21 +6,24 @@
 - Adobe LLM Optimizer
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Adobe LLM Optimizer review (2026): pricing, AI features, verdict
 
 Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
 
-GEO & LLM Optimization · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Adobe LLM Optimizer →](https://business.adobe.com/products/brand-visibility.html)
+35/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Adobe LLM Optimizer is a tool in GEO & LLM Optimization with custom pricing. The catalog documents 5 AI features and 6 integrations. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Adobe LLM Optimizer →](https://business.adobe.com/products/brand-visibility.html)
 
 ## MartechSignal Score: 35/60
 

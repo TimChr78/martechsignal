@@ -6,21 +6,25 @@
 - WaCRM
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## WaCRM review (2026): pricing, AI features, verdict
 
 Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit WaCRM →](https://wacrm.tech)
+38/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 2,595
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** WaCRM is a tool in CRM with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit WaCRM →](https://wacrm.tech)
 
 ## MartechSignal Score: 38/60
 

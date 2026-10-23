@@ -6,21 +6,25 @@
 - Relaticle
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## Relaticle review (2026): pricing, AI features, verdict
 
 Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
 
-CRM · Open Source from $19/workspace/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $19/workspace/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Relaticle →](https://relaticle.com)
+36/60
+
+- **Price:** Open Source from $19/workspace/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 1,776
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Relaticle is a tool in CRM with free and open source. The catalog documents 3 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Relaticle →](https://relaticle.com)
 
 ## MartechSignal Score: 36/60
 

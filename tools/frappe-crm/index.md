@@ -6,21 +6,25 @@
 - Frappe CRM
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · CRM
+
 ## Frappe CRM review (2026): pricing, AI features, verdict
 
 Fully featured, open source CRM
 
-CRM · Open Source from $5/site/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Open Source from $5/site/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Frappe CRM →](https://frappe.io/crm)
+36/60
+
+- **Price:** Open Source from $5/site/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 3,841
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Frappe CRM is a tool in CRM with free and open source. The catalog documents 5 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Frappe CRM →](https://frappe.io/crm)
 
 ## MartechSignal Score: 36/60
 

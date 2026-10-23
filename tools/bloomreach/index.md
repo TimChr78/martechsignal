@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Bloomreach
+Review · Marketing Automation
+
 ## Bloomreach review (2026): pricing, AI features, verdict
 
 AI-powered commerce experience platform with search, personalization, and CDP
 
-Marketing Automation · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-05 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Bloomreach →](https://www.bloomreach.com)
+37/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Bloomreach is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Bloomreach →](https://www.bloomreach.com)
 
 ## MartechSignal Score: 37/60
 

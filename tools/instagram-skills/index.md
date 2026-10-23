@@ -4,21 +4,23 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Instagram Skills
+Review · Agent Skills
+
 ## Instagram Skills review (2026): pricing, AI features, verdict
 
 9 Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtags
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-12 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit Instagram Skills →](https://github.com/sergebulaev/instagram-skills)
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 545
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Instagram Skills is a tool in Agent Skills with free and open source. The catalog documents 9 AI features, 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-12. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Instagram Skills →](https://github.com/sergebulaev/instagram-skills)
 
 ## Catalog facts: Instagram Skills
 

@@ -6,21 +6,24 @@
 - Customer.io
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Email Marketing
+
 ## Customer.io review (2026): pricing, AI features, verdict
 
 Data-driven messaging platform for automated email, push, SMS, and in-app messages
 
-Email Marketing · From $100/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · From $100/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Customer.io →](https://customer.io)
+41/60
+
+- **Price:** From $100/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Customer.io is a tool in Email Marketing with paid plans starting at $100/mo. The catalog documents 6 AI features, 11 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Customer.io →](https://customer.io)
 
 ## MartechSignal Score: 41/60
 

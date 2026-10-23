@@ -6,21 +6,24 @@
 - Salesforce CRM
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · CRM
+
 ## Salesforce CRM review (2026): pricing, AI features, verdict
 
 Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 
-CRM · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Salesforce CRM →](https://www.salesforce.com/crm/)
+42/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Salesforce CRM is a tool in CRM with paid plans starting at $25/user/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Salesforce CRM →](https://www.salesforce.com/crm/)
 
 ## MartechSignal Score: 42/60
 

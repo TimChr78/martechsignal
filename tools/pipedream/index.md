@@ -6,21 +6,24 @@
 - Pipedream
 Update queued: Paid-plan ladder changed on the vendor page in October 2026 (now Connect-based); the free tier is verified, the paid tiers are queued for re-record.
 
+Review · Workflow Automation
+
 ## Pipedream review (2026): pricing, AI features, verdict
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
-Workflow Automation · Freemium Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-06 · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Pipedream →](https://pipedream.com)
+37/60
+
+- **Price:** Freemium
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Pipedream is a tool in Workflow Automation with a free tier. We reviewed it from vendor documentation on 2026-10-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Pipedream →](https://pipedream.com)
 
 ## MartechSignal Score: 37/60
 

@@ -6,21 +6,25 @@
 - Promptfoo
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Promptfoo review (2026): pricing, AI features, verdict
 
 Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming
 
-GEO & LLM Optimization · Freemium · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Freemium · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Promptfoo →](https://promptfoo.dev)
+42/60
+
+- **Price:** Freemium
+- **Licence:** MIT
+- **GitHub stars:** 26,251
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Promptfoo is a tool in GEO & LLM Optimization with free and open source. The catalog documents 3 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Promptfoo →](https://promptfoo.dev)
 
 ## MartechSignal Score: 42/60
 

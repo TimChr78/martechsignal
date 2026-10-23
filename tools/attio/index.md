@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Attio
+Review · CRM
+
 ## Attio review (2026): pricing, AI features, verdict
 
 AI-native CRM with real-time data enrichment and agentic revenue workflows
 
-CRM · Freemium from $29/seat/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-05 · Freemium from $29/seat/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Attio →](https://attio.com)
+37/60
+
+- **Price:** Freemium from $29/seat/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Attio is a tool in CRM with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Attio →](https://attio.com)
 
 ## MartechSignal Score: 37/60
 
@@ -121,7 +124,7 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ## Also featured in
 

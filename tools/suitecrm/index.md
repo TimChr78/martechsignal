@@ -6,21 +6,25 @@
 - SuiteCRM
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## SuiteCRM review (2026): pricing, AI features, verdict
 
 Enterprise-grade open-source CRM with sales, marketing, and support automation
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit SuiteCRM →](https://www.suitecrm.com)
+34/60
+
+- **Price:** Open Source
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 5,806
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** SuiteCRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit SuiteCRM →](https://www.suitecrm.com)
 
 ## MartechSignal Score: 34/60
 

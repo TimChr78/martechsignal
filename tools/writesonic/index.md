@@ -6,21 +6,24 @@
 - Writesonic
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Writesonic review (2026): pricing, AI features, verdict
 
 The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
 
-GEO & LLM Optimization · From $79/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From $79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Writesonic →](https://writesonic.com)
+36/60
+
+- **Price:** From $79/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Writesonic is a tool in GEO & LLM Optimization with paid plans starting at $79/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Writesonic →](https://writesonic.com)
 
 ## MartechSignal Score: 36/60
 

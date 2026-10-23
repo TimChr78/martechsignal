@@ -6,21 +6,25 @@
 - PostHog
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Analytics & Attribution
+
 ## PostHog review (2026): pricing, AI features, verdict
 
 Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 
-Analytics & Attribution · Freemium · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Freemium · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit PostHog →](https://posthog.com)
+43/60
+
+- **Price:** Freemium
+- **Licence:** MIT
+- **GitHub stars:** 40,378
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** PostHog is a tool in Analytics & Attribution with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit PostHog →](https://posthog.com)
 
 ## MartechSignal Score: 43/60
 

@@ -4,21 +4,23 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - MailCheap
+Review · Email Marketing
+
 ## MailCheap review (2026): pricing, AI features, verdict
 
 Newsletter platform billed per email sent, with full MCP control for AI agents
 
-Email Marketing · From $19/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-19 · From $19/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit MailCheap →](https://mailcheap.ai)
+- **Price:** From $19/mo
+- **Licence:** Open source
+- **GitHub stars:** 1,295
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** MailCheap is a tool in Email Marketing with paid plans starting at $19/mo. The catalog documents 6 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-19. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit MailCheap →](https://mailcheap.ai)
 
 ## Catalog facts: MailCheap
 

@@ -6,21 +6,24 @@
 - Hootsuite
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Social Media
+
 ## Hootsuite review (2026): pricing, AI features, verdict
 
 Social media management platform with AI-powered scheduling and analytics
 
-Social Media · From $99/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · From $99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Hootsuite →](https://www.hootsuite.com)
+36/60
+
+- **Price:** From $99/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Hootsuite is a tool in Social Media with paid plans starting at $99/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Hootsuite →](https://www.hootsuite.com)
 
 ## MartechSignal Score: 36/60
 
@@ -120,7 +123,7 @@ The right call for multi-team, multi-brand social programs with governance needs
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Teams running many accounts that need scheduling which survives staff turnover

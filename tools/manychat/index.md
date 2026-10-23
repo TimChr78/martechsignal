@@ -6,21 +6,24 @@
 - ManyChat
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Chatbots & Conversational AI
+
 ## ManyChat review (2026): pricing, AI features, verdict
 
 AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 
-Chatbots & Conversational AI · Freemium from $14/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Freemium from $14/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit ManyChat →](https://manychat.com)
+35/60
+
+- **Price:** Freemium from $14/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** ManyChat is a tool in Chatbots & Conversational AI with a free tier. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit ManyChat →](https://manychat.com)
 
 ## MartechSignal Score: 35/60
 

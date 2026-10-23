@@ -6,21 +6,25 @@
 - Laudspeaker
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Marketing Automation
+
 ## Laudspeaker review (2026): pricing, AI features, verdict
 
 Open-source customer engagement and product onboarding platform, alternative to Braze
 
-Marketing Automation · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Laudspeaker →](https://laudspeaker.com/?ref=github)
+30/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 2,630
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Laudspeaker is a tool in Marketing Automation with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Laudspeaker →](https://laudspeaker.com/?ref=github)
 
 ## MartechSignal Score: 30/60
 

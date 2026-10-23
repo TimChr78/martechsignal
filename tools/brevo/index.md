@@ -6,21 +6,22 @@
 - Brevo
 Re-check pending: pricing last verified 2026-10-01 (22 days ago).
 
+Review · Email Marketing
+
 ## Brevo review (2026): pricing, AI features, verdict
 
 Multichannel marketing platform billing by email volume, not contacts
 
-Email Marketing · Freemium from $9/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01 · Freemium from $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit Brevo →](https://www.brevo.com/)
+- **Price:** Freemium from $9/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Brevo is a tool in Email Marketing with a free tier. The catalog documents 2 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-01. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Brevo →](https://www.brevo.com/)
 
 ## Catalog facts: Brevo
 

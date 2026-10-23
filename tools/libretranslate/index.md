@@ -6,21 +6,25 @@
 - LibreTranslate
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · AI Content & Copywriting
+
 ## LibreTranslate review (2026): pricing, AI features, verdict
 
 Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
 
-AI Content & Copywriting · Open Source Hands-on
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Open Source Hands-on
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit LibreTranslate →](https://libretranslate.com)
+35/60
+
+- **Price:** Open Source
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 17,141
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** LibreTranslate is a tool in AI Content & Copywriting with free and open source. The catalog documents 3 AI features, 3 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
-
-[Visit LibreTranslate →](https://libretranslate.com)
 
 ## MartechSignal Score: 35/60
 

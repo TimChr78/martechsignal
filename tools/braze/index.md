@@ -6,21 +6,24 @@
 - Braze
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Marketing Automation
+
 ## Braze review (2026): pricing, AI features, verdict
 
 Customer engagement platform with AI-powered real-time messaging across channels
 
-Marketing Automation · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Braze →](https://www.braze.com)
+36/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Braze is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Braze →](https://www.braze.com)
 
 ## MartechSignal Score: 36/60
 

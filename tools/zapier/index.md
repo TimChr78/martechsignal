@@ -6,23 +6,26 @@
 - Zapier
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Workflow Automation
+
 ## Zapier review (2026): pricing, AI features, verdict
 
 No-code automation platform connecting 9,000+ apps with AI-powered workflows
 
-Workflow Automation · Freemium from $19.99/mo Desk-reviewed
-
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · Freemium from $19.99/mo Desk-reviewed
 
 Looking for options? [Best Zapier alternatives](/alternatives/zapier/)
 
-[Visit Zapier →](https://zapier.com)
+MartechSignal score
+
+44/60
+
+- **Price:** Freemium from $19.99/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Zapier is a tool in Workflow Automation with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Zapier →](https://zapier.com)
 
 ## MartechSignal Score: 44/60
 

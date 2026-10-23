@@ -6,21 +6,25 @@
 - Marketing Studio
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
+Review · Agent Skills
+
 ## Marketing Studio review (2026): pricing, AI features, verdict
 
 Agent-driven marketing studio for Claude Code: launch assets from one command
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Marketing Studio →](https://github.com/ucsandman/marketing-studio)
+32/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 252
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Marketing Studio is a tool in Agent Skills with free and open source. The catalog documents 4 AI features, 2 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Marketing Studio →](https://github.com/ucsandman/marketing-studio)
 
 ## MartechSignal Score: 32/60
 

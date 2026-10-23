@@ -6,23 +6,27 @@
 - Eve Marketing Team Template
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
-KIND: Utility (not an end-to-end platform)
+Kind: Utility (not an end-to-end platform)
+
+Review · Agent Skills
 
 ## Eve Marketing Team Template review (2026): pricing, AI features, verdict
 
 Open-source team of marketing agents on eve: lead, content, social, SEO, email
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Eve Marketing Team Template →](https://github.com/vercel-labs/marketing-team-eve-template)
+38/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 455
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Eve Marketing Team Template is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Eve Marketing Team Template →](https://github.com/vercel-labs/marketing-team-eve-template)
 
 ## MartechSignal Score: 38/60
 

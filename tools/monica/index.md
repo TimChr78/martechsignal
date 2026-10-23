@@ -6,21 +6,25 @@
 - Monica
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## Monica review (2026): pricing, AI features, verdict
 
 Open-source personal CRM for tracking friends, family, and business relationships
 
-CRM · Open Source from $9/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Monica →](https://monicahq.com)
+34/60
+
+- **Price:** Open Source from $9/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 25,513
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Monica is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Monica →](https://monicahq.com)
 
 ## MartechSignal Score: 34/60
 

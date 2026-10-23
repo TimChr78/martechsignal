@@ -6,21 +6,25 @@
 - GrowthBook
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Personalization & CDP
+
 ## GrowthBook review (2026): pricing, AI features, verdict
 
 Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 
-Personalization & CDP · Freemium from $40/seat/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Freemium from $40/seat/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit GrowthBook →](https://www.growthbook.io)
+42/60
+
+- **Price:** Freemium from $40/seat/mo
+- **Licence:** MIT
+- **GitHub stars:** 8,521
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** GrowthBook is a tool in Personalization & CDP with free and open source. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit GrowthBook →](https://www.growthbook.io)
 
 ## MartechSignal Score: 42/60
 

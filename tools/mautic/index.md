@@ -6,21 +6,25 @@
 - Mautic
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Marketing Automation
+
 ## Mautic review (2026): pricing, AI features, verdict
 
 Open-source marketing automation platform with email, campaigns, and lead management
 
-Marketing Automation · Open Source from €247.50/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from €247.50/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Mautic →](https://www.mautic.org)
+38/60
+
+- **Price:** Open Source from €247.50/mo
+- **Licence:** GPL-3.0
+- **GitHub stars:** 10,822
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Mautic is a tool in Marketing Automation with free and open source. The catalog documents 10 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Mautic →](https://www.mautic.org)
 
 ## MartechSignal Score: 38/60
 

@@ -6,21 +6,24 @@
 - Make
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Workflow Automation
+
 ## Make review (2026): pricing, AI features, verdict
 
 Visual automation platform for building complex workflows with AI agents and apps
 
-Workflow Automation · Freemium from $9/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · Freemium from $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Make →](https://www.make.com)
+38/60
+
+- **Price:** Freemium from $9/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Make is a tool in Workflow Automation with a free tier. The catalog documents 5 AI features and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Make →](https://www.make.com)
 
 ## MartechSignal Score: 38/60
 

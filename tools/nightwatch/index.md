@@ -6,21 +6,24 @@
 - Nightwatch
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Nightwatch review (2026): pricing, AI features, verdict
 
 Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 
-GEO & LLM Optimization · From €79/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From €79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Nightwatch →](https://nightwatch.io)
+35/60
+
+- **Price:** From €79/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Nightwatch is a tool in GEO & LLM Optimization with paid plans starting at €79/mo. The catalog documents 1 AI feature, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Nightwatch →](https://nightwatch.io)
 
 ## MartechSignal Score: 35/60
 

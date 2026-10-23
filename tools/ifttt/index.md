@@ -6,21 +6,24 @@
 - IFTTT
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Workflow Automation
+
 ## IFTTT review (2026): pricing, AI features, verdict
 
 Consumer-friendly automation connecting apps and smart devices
 
-Workflow Automation · Freemium from $2.99/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · Freemium from $2.99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit IFTTT →](https://ifttt.com)
+34/60
+
+- **Price:** Freemium from $2.99/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** IFTTT is a tool in Workflow Automation with a free tier. The catalog documents 2 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit IFTTT →](https://ifttt.com)
 
 ## MartechSignal Score: 34/60
 

@@ -6,21 +6,25 @@
 - OpenClaw Marketing Skills
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Agent Skills
+
 ## OpenClaw Marketing Skills review (2026): pricing, AI features, verdict
 
 37 marketing skills for OpenClaw agents with live data connectors
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit OpenClaw Marketing Skills →](https://github.com/LeoYeAI/openclaw-marketing-skills)
+39/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 1,048
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** OpenClaw Marketing Skills is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit OpenClaw Marketing Skills →](https://github.com/LeoYeAI/openclaw-marketing-skills)
 
 ## MartechSignal Score: 39/60
 

@@ -6,21 +6,24 @@
 - Klaviyo
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Email Marketing
+
 ## Klaviyo review (2026): pricing, AI features, verdict
 
 AI-powered email and SMS marketing platform built for ecommerce brands
 
-Email Marketing · Freemium from $20/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Freemium from $20/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Klaviyo →](https://www.klaviyo.com)
+39/60
+
+- **Price:** Freemium from $20/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Klaviyo is a tool in Email Marketing with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Klaviyo →](https://www.klaviyo.com)
 
 ## MartechSignal Score: 39/60
 
@@ -122,7 +125,7 @@ The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a 
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — DTC brands that want store data doing the segmentation

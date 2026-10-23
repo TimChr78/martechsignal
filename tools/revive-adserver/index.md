@@ -6,21 +6,25 @@
 - Revive Adserver
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Advertising & Paid Media
+
 ## Revive Adserver review (2026): pricing, AI features, verdict
 
 Free open source ad server for publishers, ad networks and advertisers
 
-Advertising & Paid Media · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Revive Adserver →](https://www.revive-adserver.com)
+27/60
+
+- **Price:** Open Source
+- **Licence:** GPL-2.0
+- **GitHub stars:** 1,510
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Revive Adserver is a tool in Advertising & Paid Media with free and open source. The catalog documents 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Revive Adserver →](https://www.revive-adserver.com)
 
 ## MartechSignal Score: 27/60
 

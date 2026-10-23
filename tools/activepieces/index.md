@@ -6,21 +6,25 @@
 - Activepieces
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Workflow Automation
+
 ## Activepieces review (2026): pricing, AI features, verdict
 
 Open-source workflow automation with a free cloud tier and on-prem hosting
 
-Workflow Automation · Freemium from $20/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · Freemium from $20/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Activepieces →](https://www.activepieces.com)
+39/60
+
+- **Price:** Freemium from $20/mo
+- **Licence:** Open source
+- **GitHub stars:** 25,166
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Activepieces is a tool in Workflow Automation with free and open source. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Activepieces →](https://www.activepieces.com)
 
 ## MartechSignal Score: 39/60
 

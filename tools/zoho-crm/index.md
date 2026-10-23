@@ -6,21 +6,22 @@
 - Zoho CRM
 Re-check pending: pricing last verified 2026-09-28 (25 days ago).
 
+Review · CRM
+
 ## Zoho CRM review (2026): pricing, AI features, verdict
 
 Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
 
-CRM · Freemium from €14/user/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28 · Freemium from €14/user/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit Zoho CRM →](https://www.zoho.com/crm/)
+- **Price:** Freemium from €14/user/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Zoho CRM is a tool in CRM with a free tier. The catalog documents 3 AI features and 6 integrations. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Zoho CRM →](https://www.zoho.com/crm/)
 
 ## Catalog facts: Zoho CRM
 

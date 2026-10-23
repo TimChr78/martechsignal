@@ -6,21 +6,24 @@
 - Superlines
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · SEO & Search
+
 ## Superlines review (2026): pricing, AI features, verdict
 
 AI Search Intelligence platform for brands and agencies
 
-SEO & Search · From €79/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · From €79/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Superlines →](https://www.superlines.io/)
+31/60
+
+- **Price:** From €79/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Superlines is a tool in SEO & Search with paid plans starting at €79/mo. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Superlines →](https://www.superlines.io/)
 
 ## MartechSignal Score: 31/60
 

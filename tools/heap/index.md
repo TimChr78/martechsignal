@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Heap
+Review · Analytics & Attribution
+
 ## Heap review (2026): pricing, AI features, verdict
 
 AI-powered product analytics with autocapture and digital experience insights
 
-Analytics & Attribution · Freemium Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-12 · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Heap →](https://www.heap.io)
+35/60
+
+- **Price:** Freemium
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Heap is a tool in Analytics & Attribution with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-12. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Heap →](https://www.heap.io)
 
 ## MartechSignal Score: 35/60
 

@@ -6,21 +6,25 @@
 - Budibase
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Workflow Automation
+
 ## Budibase review (2026): pricing, AI features, verdict
 
 Open-source operations platform for building AI agents, apps and automations on your own data
 
-Workflow Automation · Open-core from $19/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open-core from $19/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Budibase →](https://budibase.com)
+42/60
+
+- **Price:** Open-core from $19/mo
+- **Licence:** Open source
+- **GitHub stars:** 28,340
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Budibase is a tool in Workflow Automation with free and open source. The catalog documents 3 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Budibase →](https://budibase.com)
 
 ## MartechSignal Score: 42/60
 
@@ -158,7 +162,7 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 
 - [Budibase next to NocoBase and NocoDB: choosing between the three](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ### Quick Facts
 
 - **Pricing:** Open-core from $19/mo

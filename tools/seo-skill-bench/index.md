@@ -6,21 +6,25 @@
 - SEO Skill Bench
 Re-check pending: pricing last verified 2026-09-03 (50 days ago).
 
+Review · Agent Skills
+
 ## SEO Skill Bench review (2026): pricing, AI features, verdict
 
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-03 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit SEO Skill Bench →](https://seoagent.com/seo-skill-benchmark)
+31/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 51
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** SEO Skill Bench is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integration and a self-hosting path. We reviewed it from vendor documentation on 2026-09-03. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit SEO Skill Bench →](https://seoagent.com/seo-skill-benchmark)
 
 ## MartechSignal Score: 31/60
 

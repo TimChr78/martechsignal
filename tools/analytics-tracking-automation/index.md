@@ -6,21 +6,25 @@
 - Analytics Tracking Automation
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Agent Skills
+
 ## Analytics Tracking Automation review (2026): pricing, AI features, verdict
 
 AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Analytics Tracking Automation →](https://www.jtracking.ai/skills)
+34/60
+
+- **Price:** Open Source
+- **Licence:** Apache-2.0
+- **GitHub stars:** 144
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Analytics Tracking Automation is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Analytics Tracking Automation →](https://www.jtracking.ai/skills)
 
 ## MartechSignal Score: 34/60
 

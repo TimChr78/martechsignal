@@ -6,21 +6,25 @@
 - Ever Gauzy
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## Ever Gauzy review (2026): pricing, AI features, verdict
 
 Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 
-CRM · Open Source from $17/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from $17/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Ever Gauzy →](https://gauzy.co)
+32/60
+
+- **Price:** Open Source from $17/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 8,412
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Ever Gauzy is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Ever Gauzy →](https://gauzy.co)
 
 ## MartechSignal Score: 32/60
 

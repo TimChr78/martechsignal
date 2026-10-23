@@ -6,21 +6,25 @@
 - ALwrity
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Marketing Automation
+
 ## ALwrity review (2026): pricing, AI features, verdict
 
 AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
 
-Marketing Automation · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit ALwrity →](https://alwrity.com)
+32/60
+
+- **Price:** Open Source
+- **Licence:** Open source
+- **GitHub stars:** 1,201
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** ALwrity is a tool in Marketing Automation with free and open source. The catalog documents 5 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit ALwrity →](https://alwrity.com)
 
 ## MartechSignal Score: 32/60
 
@@ -106,8 +110,8 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
 ### Quick Facts
 
 - **Pricing:** Open Source

@@ -6,21 +6,24 @@
 - Tealium
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Personalization & CDP
+
 ## Tealium review (2026): pricing, AI features, verdict
 
 Enterprise customer data platform with real-time data orchestration and AI
 
-Personalization & CDP · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Tealium →](https://tealium.com)
+32/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Tealium is a tool in Personalization & CDP with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Tealium →](https://tealium.com)
 
 ## MartechSignal Score: 32/60
 

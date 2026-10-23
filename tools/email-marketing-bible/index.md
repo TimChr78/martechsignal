@@ -4,23 +4,27 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Email Marketing Bible
-KIND: Agent Skill (not an end-to-end platform)
+Kind: Agent Skill (not an end-to-end platform)
+
+Review · Agent Skills
 
 ## Email Marketing Bible review (2026): pricing, AI features, verdict
 
 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-12 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Email Marketing Bible →](https://github.com/CosmoBlk/email-marketing-bible)
+40/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 349
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Email Marketing Bible is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-12. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Email Marketing Bible →](https://github.com/CosmoBlk/email-marketing-bible)
 
 ## MartechSignal Score: 40/60
 

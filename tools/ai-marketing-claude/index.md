@@ -6,23 +6,25 @@
 - AI Marketing Suite
 Re-check pending: pricing last verified 2026-09-28 (25 days ago).
 
-KIND: Agent Skill (not an end-to-end platform)
+Kind: Agent Skill (not an end-to-end platform)
+
+Review · Agent Skills
 
 ## AI Marketing Suite review (2026): pricing, AI features, verdict
 
 15-skill marketing suite for Claude Code with parallel agents and PDF reports
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit AI Marketing Suite →](https://github.com/zubair-trabzada/ai-marketing-claude)
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 2,781
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** AI Marketing Suite is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integration and a self-hosting path. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit AI Marketing Suite →](https://github.com/zubair-trabzada/ai-marketing-claude)
 
 ## Catalog facts: AI Marketing Suite
 

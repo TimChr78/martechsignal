@@ -6,21 +6,25 @@
 - Plausible Analytics
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Analytics & Attribution
+
 ## Plausible Analytics review (2026): pricing, AI features, verdict
 
 Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
 
-Analytics & Attribution · Open Source from $9/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source from $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Plausible Analytics →](https://plausible.io)
+38/60
+
+- **Price:** Open Source from $9/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 29,594
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Plausible Analytics is a tool in Analytics & Attribution with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Plausible Analytics →](https://plausible.io)
 
 ## MartechSignal Score: 38/60
 

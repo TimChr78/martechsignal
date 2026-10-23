@@ -6,21 +6,25 @@
 - Resend
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Email Marketing
+
 ## Resend review (2026): pricing, AI features, verdict
 
 Developer-first email API built around React Email, batch sending, and agent tooling
 
-Email Marketing · Freemium from $20/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Freemium from $20/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Resend →](https://resend.com)
+38/60
+
+- **Price:** Freemium from $20/mo
+- **Licence:** MIT
+- **GitHub stars:** 19,857
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Resend is a tool in Email Marketing with a free tier. The catalog documents 4 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Resend →](https://resend.com)
 
 ## MartechSignal Score: 38/60
 

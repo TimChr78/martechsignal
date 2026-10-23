@@ -6,21 +6,24 @@
 - Scrunch
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Scrunch review (2026): pricing, AI features, verdict
 
 The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 
-GEO & LLM Optimization · From $250/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From $250/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Scrunch →](https://scrunch.com/)
+35/60
+
+- **Price:** From $250/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Scrunch is a tool in GEO & LLM Optimization with paid plans starting at $250/mo. The catalog documents 5 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Scrunch →](https://scrunch.com/)
 
 ## MartechSignal Score: 35/60
 

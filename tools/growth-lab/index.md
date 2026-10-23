@@ -6,21 +6,25 @@
 - Growth Lab
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Agent Skills
+
 ## Growth Lab review (2026): pricing, AI features, verdict
 
 Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Growth Lab →](https://growthlab.tsingyuai.com)
+34/60
+
+- **Price:** Open Source
+- **Licence:** Apache-2.0
+- **GitHub stars:** 1,968
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Growth Lab is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Growth Lab →](https://growthlab.tsingyuai.com)
 
 ## MartechSignal Score: 34/60
 

@@ -6,21 +6,24 @@
 - Clerk.io
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · Personalization & CDP
+
 ## Clerk.io review (2026): pricing, AI features, verdict
 
 AI-powered ecommerce personalization with search, recommendations, and email
 
-Personalization & CDP · From $119/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · From $119/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Clerk.io →](https://www.clerk.io)
+32/60
+
+- **Price:** From $119/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Clerk.io is a tool in Personalization & CDP with paid plans starting at $119/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Clerk.io →](https://www.clerk.io)
 
 ## MartechSignal Score: 32/60
 

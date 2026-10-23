@@ -6,21 +6,24 @@
 - Revealbot (Birch)
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Advertising & Paid Media
+
 ## Revealbot (Birch) review (2026): pricing, AI features, verdict
 
 AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 
-Advertising & Paid Media · From $49/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Revealbot (Birch) →](https://bir.ch)
+38/60
+
+- **Price:** From $49/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Revealbot (Birch) is a tool in Advertising & Paid Media with paid plans starting at $49/mo. The catalog documents 4 AI features, 12 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Revealbot (Birch) →](https://bir.ch)
 
 ## MartechSignal Score: 38/60
 
@@ -159,8 +162,8 @@ An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Co
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Media buyers that trust rules they wrote more than black boxes

@@ -6,21 +6,25 @@
 - Notifuse
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Email Marketing
+
 ## Notifuse review (2026): pricing, AI features, verdict
 
 Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 
-Email Marketing · Open Source from $19/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source from $19/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Notifuse →](https://www.notifuse.com)
+38/60
+
+- **Price:** Open Source from $19/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 2,255
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Notifuse is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Notifuse →](https://www.notifuse.com)
 
 ## MartechSignal Score: 38/60
 

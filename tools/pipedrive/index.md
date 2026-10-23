@@ -6,21 +6,24 @@
 - Pipedrive
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · CRM
+
 ## Pipedrive review (2026): pricing, AI features, verdict
 
 Sales-focused CRM with AI-powered pipeline management and deal forecasting
 
-CRM · From $14/user/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · From $14/user/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Pipedrive →](https://www.pipedrive.com)
+38/60
+
+- **Price:** From $14/user/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Pipedrive is a tool in CRM with paid plans starting at $14/user/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Pipedrive →](https://www.pipedrive.com)
 
 ## MartechSignal Score: 38/60
 
@@ -122,8 +125,8 @@ The easiest CRM to get a sales team to actually adopt; add-on pricing is where c
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for small sales teams that live in one pipeline view.

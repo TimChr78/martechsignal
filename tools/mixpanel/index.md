@@ -6,21 +6,24 @@
 - Mixpanel
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Analytics & Attribution
+
 ## Mixpanel review (2026): pricing, AI features, verdict
 
 Product analytics platform with AI-powered insights for user behavior tracking
 
-Analytics & Attribution · Freemium Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Mixpanel →](https://mixpanel.com)
+39/60
+
+- **Price:** Freemium
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Mixpanel is a tool in Analytics & Attribution with a free tier. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Mixpanel →](https://mixpanel.com)
 
 ## MartechSignal Score: 39/60
 

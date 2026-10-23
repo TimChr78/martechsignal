@@ -6,21 +6,25 @@
 - ProspectOS
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
+Review · CRM
+
 ## ProspectOS review (2026): pricing, AI features, verdict
 
 Open-source lead prospecting CRM with Google Maps and Instagram scraping
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit ProspectOS →](https://github.com/nando0x/ProspectOS)
+29/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 235
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** ProspectOS is a tool in CRM with free and open source. The catalog documents 2 AI features, 2 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit ProspectOS →](https://github.com/nando0x/ProspectOS)
 
 ## MartechSignal Score: 29/60
 

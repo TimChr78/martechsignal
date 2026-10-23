@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Copy.ai
+Review · AI Content & Copywriting
+
 ## Copy.ai review (2026): pricing, AI features, verdict
 
 AI-powered GTM platform for sales and marketing content automation at scale
 
-AI Content & Copywriting · From $24/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-17 · From $24/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Copy.ai →](https://www.copy.ai)
+35/60
+
+- **Price:** From $24/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Copy.ai is a tool in AI Content & Copywriting with paid plans starting at $24/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-10-17. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Copy.ai →](https://www.copy.ai)
 
 ## MartechSignal Score: 35/60
 

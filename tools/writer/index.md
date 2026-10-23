@@ -6,21 +6,24 @@
 - Writer
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · AI Content & Copywriting
+
 ## Writer review (2026): pricing, AI features, verdict
 
 Enterprise AI platform with Palmyra models, brand governance, and agents
 
-AI Content & Copywriting · Paid Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Paid Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Writer →](https://writer.com)
+36/60
+
+- **Price:** Paid
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Writer is a tool in AI Content & Copywriting with custom pricing. The catalog documents 5 AI features, 12 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Writer →](https://writer.com)
 
 ## MartechSignal Score: 36/60
 

@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Buffer
+Review · Social Media
+
 ## Buffer review (2026): pricing, AI features, verdict
 
 Simple social media scheduling and analytics with AI-powered content tools
 
-Social Media · Freemium from $5/channel/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-05 · Freemium from $5/channel/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Buffer →](https://buffer.com)
+33/60
+
+- **Price:** Freemium from $5/channel/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Buffer is a tool in Social Media with a free tier. The catalog documents 4 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Buffer →](https://buffer.com)
 
 ## MartechSignal Score: 33/60
 
@@ -114,9 +117,9 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 - [Brandwatch](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform
 ## Related reading
 
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Creators that want scheduling priced per channel, not per seat

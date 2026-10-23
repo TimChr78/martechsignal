@@ -6,21 +6,24 @@
 - Phrasee
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · AI Content & Copywriting
+
 ## Phrasee review (2026): pricing, AI features, verdict
 
 AI messaging content platform; rebranded as Jacquard in June 2024
 
-AI Content & Copywriting · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Phrasee →](https://www.jacquard.com)
+31/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Phrasee is a tool in AI Content & Copywriting with custom pricing. The catalog documents 4 AI features and 12 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Phrasee →](https://www.jacquard.com)
 
 ## MartechSignal Score: 31/60
 

@@ -6,21 +6,24 @@
 - Pabbly Connect
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Workflow Automation
+
 ## Pabbly Connect review (2026): pricing, AI features, verdict
 
 Task-priced integration platform with a one-time lifetime purchase option
 
-Workflow Automation · From $16/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · From $16/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Pabbly Connect →](https://www.pabbly.com/connect/)
+29/60
+
+- **Price:** From $16/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Pabbly Connect is a tool in Workflow Automation with paid plans starting at $16/mo. The catalog documents 1 AI feature, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Pabbly Connect →](https://www.pabbly.com/connect/)
 
 ## MartechSignal Score: 29/60
 

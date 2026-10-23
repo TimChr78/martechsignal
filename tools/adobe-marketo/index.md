@@ -6,21 +6,24 @@
 - Adobe Marketo Engage
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Marketing Automation
+
 ## Adobe Marketo Engage review (2026): pricing, AI features, verdict
 
 Enterprise B2B marketing automation with AI-driven lead management and engagement
 
-Marketing Automation · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Adobe Marketo Engage →](https://business.adobe.com/products/marketo.html)
+39/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Adobe Marketo Engage is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Adobe Marketo Engage →](https://business.adobe.com/products/marketo.html)
 
 ## MartechSignal Score: 39/60
 

@@ -6,21 +6,22 @@
 - Hightouch
 Re-check pending: pricing last verified 2026-10-01 (22 days ago).
 
+Review · Personalization & CDP
+
 ## Hightouch review (2026): pricing, AI features, verdict
 
 Composable CDP that activates warehouse data where marketing runs
 
-Personalization & CDP · Freemium Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01 · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit Hightouch →](https://hightouch.com/)
+- **Price:** Freemium
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Hightouch is a tool in Personalization & CDP with a free tier. The catalog documents 2 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-10-01. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Hightouch →](https://hightouch.com/)
 
 ## Catalog facts: Hightouch
 

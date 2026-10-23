@@ -6,21 +6,25 @@
 - Diffmode Growth Tactics
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
+Review · Agent Skills
+
 ## Diffmode Growth Tactics review (2026): pricing, AI features, verdict
 
 Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Diffmode Growth Tactics →](https://github.com/acogood/diffmode_free)
+35/60
+
+- **Price:** Open Source
+- **Licence:** Apache-2.0
+- **GitHub stars:** 165
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Diffmode Growth Tactics is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Diffmode Growth Tactics →](https://github.com/acogood/diffmode_free)
 
 ## MartechSignal Score: 35/60
 

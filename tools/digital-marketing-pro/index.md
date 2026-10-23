@@ -6,23 +6,25 @@
 - Digital Marketing Pro
 Re-check pending: pricing last verified 2026-09-28 (25 days ago).
 
-KIND: Agent Skill (not an end-to-end platform)
+Kind: Agent Skill (not an end-to-end platform)
+
+Review · Agent Skills
 
 ## Digital Marketing Pro review (2026): pricing, AI features, verdict
 
 163-skill AI marketing plugin for agencies with EU AI Act compliance
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit Digital Marketing Pro →](https://github.com/indranilbanerjee/digital-marketing-pro)
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 903
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Digital Marketing Pro is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Digital Marketing Pro →](https://github.com/indranilbanerjee/digital-marketing-pro)
 
 ## Catalog facts: Digital Marketing Pro
 

@@ -6,21 +6,25 @@
 - Ghost
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · AI Content & Copywriting
+
 ## Ghost review (2026): pricing, AI features, verdict
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
 
-AI Content & Copywriting · Open Source from $9/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source from $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Ghost →](https://ghost.org)
+42/60
+
+- **Price:** Open Source from $9/mo
+- **Licence:** MIT
+- **GitHub stars:** 55,584
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Ghost is a tool in AI Content & Copywriting with free and open source. The catalog documents 3 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Ghost →](https://ghost.org)
 
 ## MartechSignal Score: 42/60
 
@@ -117,9 +121,9 @@ Choose Ghost for editorial sites with paid membership intent. Skip it if you nee
 - [Plausible Analytics](/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
 ## Related reading
 
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $9/mo

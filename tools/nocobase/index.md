@@ -6,21 +6,25 @@
 - NocoBase
 Re-check pending: pricing last verified 2026-09-05 (48 days ago).
 
+Review · Workflow Automation
+
 ## NocoBase review (2026): pricing, AI features, verdict
 
 Open-source no-code platform with AI assistance for building business systems fast
 
-Workflow Automation · Open-core · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-05 · Open-core · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit NocoBase →](https://www.nocobase.com)
+42/60
+
+- **Price:** Open-core
+- **Licence:** Open source
+- **GitHub stars:** 24,660
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** NocoBase is a tool in Workflow Automation with free and open source. The catalog documents 2 AI features, 2 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-05. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit NocoBase →](https://www.nocobase.com)
 
 ## MartechSignal Score: 42/60
 

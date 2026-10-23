@@ -6,23 +6,27 @@
 - Potato
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
-KIND: Utility (not an end-to-end platform)
+Kind: Utility (not an end-to-end platform)
+
+Review · SEO & Search
 
 ## Potato review (2026): pricing, AI features, verdict
 
 Free local tool that measures brand mentions and citations in Claude's web-search answers
 
-SEO & Search · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Potato →](https://github.com/onism1767-creator/potato)
+32/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 166
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Potato is a tool in SEO & Search with free and open source. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Potato →](https://github.com/onism1767-creator/potato)
 
 ## MartechSignal Score: 32/60
 

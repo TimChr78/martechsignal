@@ -6,21 +6,24 @@
 - Microsoft Power Automate
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Workflow Automation
+
 ## Microsoft Power Automate review (2026): pricing, AI features, verdict
 
 Enterprise workflow automation inside the Microsoft Power Platform
 
-Workflow Automation · From $15/user/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · From $15/user/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Microsoft Power Automate →](https://powerautomate.microsoft.com)
+38/60
+
+- **Price:** From $15/user/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Microsoft Power Automate is a tool in Workflow Automation with paid plans starting at $15/user/mo. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Microsoft Power Automate →](https://powerautomate.microsoft.com)
 
 ## MartechSignal Score: 38/60
 

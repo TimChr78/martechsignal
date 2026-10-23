@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Chatfuel
+Review · Chatbots & Conversational AI
+
 ## Chatfuel review (2026): pricing, AI features, verdict
 
 AI chatbot platform for automating customer conversations on messaging channels
 
-Chatbots & Conversational AI · From $18/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-05 · From $18/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Chatfuel →](https://chatfuel.com)
+31/60
+
+- **Price:** From $18/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Chatfuel is a tool in Chatbots & Conversational AI with paid plans starting at $18/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Chatfuel →](https://chatfuel.com)
 
 ## MartechSignal Score: 31/60
 
@@ -116,8 +119,8 @@ A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B tea
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Messaging-first brands scripting conversations like campaigns

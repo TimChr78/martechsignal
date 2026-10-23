@@ -6,21 +6,25 @@
 - Dolibarr ERP/CRM
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · CRM
+
 ## Dolibarr ERP/CRM review (2026): pricing, AI features, verdict
 
 Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Dolibarr ERP/CRM →](https://www.dolibarr.org)
+44/60
+
+- **Price:** Open Source
+- **Licence:** GPL-3.0
+- **GitHub stars:** 7,761
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Dolibarr ERP/CRM is a tool in CRM with free and open source. The catalog documents 4 AI features, 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Dolibarr ERP/CRM →](https://www.dolibarr.org)
 
 ## MartechSignal Score: 44/60
 

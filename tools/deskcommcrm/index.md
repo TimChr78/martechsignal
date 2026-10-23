@@ -6,21 +6,25 @@
 - DeskcommCRM
 Re-check pending: pricing last verified 2026-09-14 (39 days ago).
 
+Review · CRM
+
 ## DeskcommCRM review (2026): pricing, AI features, verdict
 
 Self-hosted open-source CRM with AI agents that sell through WhatsApp
 
-CRM · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit DeskcommCRM →](https://deskcomm.com.br)
+41/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 4,786
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** DeskcommCRM is a tool in CRM with free and open source. The catalog documents 7 AI features, 10 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-14. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit DeskcommCRM →](https://deskcomm.com.br)
 
 ## MartechSignal Score: 41/60
 

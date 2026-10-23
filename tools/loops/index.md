@@ -6,21 +6,24 @@
 - Loops
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Email Marketing
+
 ## Loops review (2026): pricing, AI features, verdict
 
 Email marketing for SaaS: marketing, product, and transactional email in one tool
 
-Email Marketing · Freemium Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Loops →](https://loops.so)
+30/60
+
+- **Price:** Freemium
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Loops is a tool in Email Marketing with a free tier. The catalog documents 3 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Loops →](https://loops.so)
 
 ## MartechSignal Score: 30/60
 

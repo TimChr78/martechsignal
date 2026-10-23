@@ -6,21 +6,24 @@
 - Dynamic Yield
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Personalization & CDP
+
 ## Dynamic Yield review (2026): pricing, AI features, verdict
 
 AI-powered personalization platform for web, mobile, and email experiences
 
-Personalization & CDP · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Dynamic Yield →](https://www.dynamicyield.com)
+35/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Dynamic Yield is a tool in Personalization & CDP with custom pricing. The catalog documents 7 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Dynamic Yield →](https://www.dynamicyield.com)
 
 ## MartechSignal Score: 35/60
 

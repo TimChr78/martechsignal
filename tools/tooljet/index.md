@@ -4,21 +4,25 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - ToolJet
+Review · Workflow Automation
+
 ## ToolJet review (2026): pricing, AI features, verdict
 
 Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 
-Workflow Automation · Open-core from $23/builder/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-06 · Open-core from $23/builder/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit ToolJet →](https://tooljet.com)
+42/60
+
+- **Price:** Open-core from $23/builder/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 41,115
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** ToolJet is a tool in Workflow Automation with free and open source. The catalog documents 3 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit ToolJet →](https://tooljet.com)
 
 ## MartechSignal Score: 42/60
 

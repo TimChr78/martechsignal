@@ -6,21 +6,24 @@
 - Tidio
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Chatbots & Conversational AI
+
 ## Tidio review (2026): pricing, AI features, verdict
 
 AI-powered live chat and chatbot platform with Lyro AI agent for customer support
 
-Chatbots & Conversational AI · Freemium from $24/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Freemium from $24/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Tidio →](https://www.tidio.com)
+36/60
+
+- **Price:** Freemium from $24/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Tidio is a tool in Chatbots & Conversational AI with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Tidio →](https://www.tidio.com)
 
 ## MartechSignal Score: 36/60
 

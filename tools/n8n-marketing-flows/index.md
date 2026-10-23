@@ -6,21 +6,25 @@
 - n8n Marketing Flows
 Re-check pending: pricing last verified 2026-08-31 (53 days ago).
 
+Review · Workflow Automation
+
 ## n8n Marketing Flows review (2026): pricing, AI features, verdict
 
 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
 
-Workflow Automation · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit n8n Marketing Flows →](https://github.com/YuriCrystal/n8n-marketing-flows)
+36/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 181
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** n8n Marketing Flows is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit n8n Marketing Flows →](https://github.com/YuriCrystal/n8n-marketing-flows)
 
 ## MartechSignal Score: 36/60
 

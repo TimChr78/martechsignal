@@ -6,23 +6,26 @@
 - HubSpot CRM
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · CRM
+
 ## HubSpot CRM review (2026): pricing, AI features, verdict
 
 Free AI-powered CRM platform with sales, service, and marketing tools unified
 
-CRM · Freemium from $20/seat/mo Desk-reviewed
-
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · Freemium from $20/seat/mo Desk-reviewed
 
 Looking for options? [Best HubSpot CRM alternatives](/alternatives/hubspot-crm/)
 
-[Visit HubSpot CRM →](https://www.hubspot.com/products/crm)
+MartechSignal score
+
+47/60
+
+- **Price:** Freemium from $20/seat/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** HubSpot CRM is a tool in CRM with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit HubSpot CRM →](https://www.hubspot.com/products/crm)
 
 ## MartechSignal Score: 47/60
 

@@ -6,23 +6,26 @@
 - Mailchimp
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Email Marketing
+
 ## Mailchimp review (2026): pricing, AI features, verdict
 
 All-in-one marketing platform with AI-powered email, automation, and analytics
 
-Email Marketing · Freemium from $13/mo Desk-reviewed
-
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Freemium from $13/mo Desk-reviewed
 
 Looking for options? [Best Mailchimp alternatives](/alternatives/mailchimp/)
 
-[Visit Mailchimp →](https://mailchimp.com)
+MartechSignal score
+
+38/60
+
+- **Price:** Freemium from $13/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Mailchimp is a tool in Email Marketing with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Mailchimp →](https://mailchimp.com)
 
 ## MartechSignal Score: 38/60
 

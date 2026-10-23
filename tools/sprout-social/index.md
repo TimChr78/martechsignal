@@ -6,21 +6,24 @@
 - Sprout Social
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Social Media
+
 ## Sprout Social review (2026): pricing, AI features, verdict
 
 Enterprise social media management with AI-powered analytics and engagement tools
 
-Social Media · From $249/seat/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · From $249/seat/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Sprout Social →](https://sproutsocial.com)
+37/60
+
+- **Price:** From $249/seat/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Sprout Social is a tool in Social Media with paid plans starting at $249/seat/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Sprout Social →](https://sproutsocial.com)
 
 ## MartechSignal Score: 37/60
 
@@ -119,8 +122,8 @@ Best-in-class workflow and reporting for serious social teams; hard to justify b
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Social teams that want listening and engagement behind a polished UI

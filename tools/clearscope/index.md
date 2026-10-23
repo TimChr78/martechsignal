@@ -4,21 +4,24 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Clearscope
+Review · SEO & Search
+
 ## Clearscope review (2026): pricing, AI features, verdict
 
 AI-powered content optimization platform for SEO teams and content writers
 
-SEO & Search · From $129/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-05 · From $129/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Clearscope →](https://www.clearscope.io)
+32/60
+
+- **Price:** From $129/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Clearscope is a tool in SEO & Search with paid plans starting at $129/mo. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-10-05. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Clearscope →](https://www.clearscope.io)
 
 ## MartechSignal Score: 32/60
 

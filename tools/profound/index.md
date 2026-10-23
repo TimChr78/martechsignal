@@ -6,21 +6,24 @@
 - Profound
 Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
+Review · GEO & LLM Optimization
+
 ## Profound review (2026): pricing, AI features, verdict
 
 Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
-GEO & LLM Optimization · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Profound →](https://www.tryprofound.com/)
+34/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Profound is a tool in GEO & LLM Optimization with custom pricing. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Profound →](https://www.tryprofound.com/)
 
 ## MartechSignal Score: 34/60
 

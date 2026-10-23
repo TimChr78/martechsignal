@@ -6,21 +6,25 @@
 - EspoCRM
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · CRM
+
 ## EspoCRM review (2026): pricing, AI features, verdict
 
 Lightweight open-source CRM with sales automation, marketing tools, and customer management
 
-CRM · Open Source from €12.90/user/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source from €12.90/user/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit EspoCRM →](https://www.espocrm.com)
+33/60
+
+- **Price:** Open Source from €12.90/user/mo
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 3,508
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** EspoCRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit EspoCRM →](https://www.espocrm.com)
 
 ## MartechSignal Score: 33/60
 

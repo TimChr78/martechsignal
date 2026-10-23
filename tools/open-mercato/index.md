@@ -6,21 +6,25 @@
 - Open Mercato
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Agent Skills
+
 ## Open Mercato review (2026): pricing, AI features, verdict
 
 Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 
-Agent Skills · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Open Mercato →](https://www.openmercato.com/)
+34/60
+
+- **Price:** Open Source
+- **Licence:** MIT
+- **GitHub stars:** 1,879
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Open Mercato is a tool in Agent Skills with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Open Mercato →](https://www.openmercato.com/)
 
 ## MartechSignal Score: 34/60
 

@@ -6,21 +6,24 @@
 - Workato
 Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
+Review · Workflow Automation
+
 ## Workato review (2026): pricing, AI features, verdict
 
 Enterprise AI governance plus integration and automation on one platform
 
-Workflow Automation · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Workato →](https://www.workato.com)
+36/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Workato is a tool in Workflow Automation with custom pricing. The catalog documents 6 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Workato →](https://www.workato.com)
 
 ## MartechSignal Score: 36/60
 

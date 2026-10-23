@@ -6,21 +6,24 @@
 - ActiveCampaign
 Re-check pending: pricing last verified 2026-09-27 (26 days ago).
 
+Review · Marketing Automation
+
 ## ActiveCampaign review (2026): pricing, AI features, verdict
 
 AI-powered marketing automation and CRM for small to mid-size businesses
 
-Marketing Automation · From $15/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27 · From $15/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit ActiveCampaign →](https://www.activecampaign.com)
+40/60
+
+- **Price:** From $15/mo
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** ActiveCampaign is a tool in Marketing Automation with paid plans starting at $15/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit ActiveCampaign →](https://www.activecampaign.com)
 
 ## MartechSignal Score: 40/60
 

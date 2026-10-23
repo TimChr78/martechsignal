@@ -6,21 +6,23 @@
 - RudderStack
 Re-check pending: pricing last verified 2026-10-01 (22 days ago).
 
+Review · Personalization & CDP
+
 ## RudderStack review (2026): pricing, AI features, verdict
 
 Warehouse-first CDP: open-source Go data plane plus managed routing
 
-Personalization & CDP · Open-core from $265/mo · OPEN SOURCE Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-01 · Open-core from $265/mo · Open source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+Not yet scored
 
-[Visit RudderStack →](https://www.rudderstack.com/)
+- **Price:** Open-core from $265/mo
+- **Licence:** Elastic License 2.0 stack (rudder-server repo declares NOASSERTION on GitHub API; docs treat data plane as source-available)
+- **GitHub stars:** 4,504
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** RudderStack is a tool in Personalization & CDP with free and open source. The catalog documents 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-10-01. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit RudderStack →](https://www.rudderstack.com/)
 
 ## Catalog facts: RudderStack
 
@@ -1097,8 +1099,8 @@ Best open-core CDP for teams that self-host the data plane: free 250K events/mo,
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
 ## Also featured in
 
 - [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best Segment-compatible router for warehouse-first stacks on a budget.

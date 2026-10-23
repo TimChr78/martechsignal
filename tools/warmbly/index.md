@@ -6,21 +6,25 @@
 - Warmbly
 Re-check pending: pricing last verified 2026-09-24 (29 days ago).
 
+Review · Email Marketing
+
 ## Warmbly review (2026): pricing, AI features, verdict
 
 Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 
-Email Marketing · Open Source from $29/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-24 · Open Source from $29/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Warmbly →](https://warmbly.com)
+38/60
+
+- **Price:** Open Source from $29/mo
+- **Licence:** Apache-2.0
+- **GitHub stars:** 468
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Warmbly is a tool in Email Marketing with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-24. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Warmbly →](https://warmbly.com)
 
 ## MartechSignal Score: 38/60
 

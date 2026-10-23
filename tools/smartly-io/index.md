@@ -6,21 +6,24 @@
 - Smartly.io
 Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
+Review · Advertising & Paid Media
+
 ## Smartly.io review (2026): pricing, AI features, verdict
 
 AI advertising platform spanning creative production, media buying, and measurement
 
-Advertising & Paid Media · Enterprise Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06 · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Smartly.io →](https://www.smartly.io)
+34/60
+
+- **Price:** Enterprise
+- **Licence:** Proprietary
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Smartly.io is a tool in Advertising & Paid Media with custom pricing. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Smartly.io →](https://www.smartly.io)
 
 ## MartechSignal Score: 34/60
 
@@ -145,8 +148,8 @@ The creative AI layer. It prepares images (upscaling, background removal, per-pl
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Enterprises consolidating creative production and media buying in one contract

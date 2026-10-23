@@ -6,21 +6,25 @@
 - Listmonk
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Email Marketing
+
 ## Listmonk review (2026): pricing, AI features, verdict
 
 Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 
-Email Marketing · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit Listmonk →](https://listmonk.app)
+37/60
+
+- **Price:** Open Source
+- **Licence:** AGPL-3.0
+- **GitHub stars:** 23,905
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** Listmonk is a tool in Email Marketing with free and open source. The catalog documents 2 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit Listmonk →](https://listmonk.app)
 
 ## MartechSignal Score: 37/60
 

@@ -6,21 +6,25 @@
 - MultiPost
 Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
+Review · Social Media
+
 ## MultiPost review (2026): pricing, AI features, verdict
 
 Browser extension to publish content to multiple social media platforms with one click
 
-Social Media · Open Source Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Open Source Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/)
+MartechSignal score
 
-[Visit MultiPost →](https://multipost.app)
+31/60
+
+- **Price:** Open Source
+- **Licence:** Apache-2.0
+- **GitHub stars:** 3,679
 
 [How we review](/methodology/) · No affiliate links
 
 **Verdict:** MultiPost is a tool in Social Media with free and open source. The catalog documents 2 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-[Visit MultiPost →](https://multipost.app)
 
 ## MartechSignal Score: 31/60
 
@@ -99,8 +103,8 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
-- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Best for social media teams that want one-click multi-platform publishing and can host it themselves, with a free starting tier.
