@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 28/60
 
-Warpdrive is the tiny Pipedrive alternative: pipelines and Gmail on your own server, MIT with no per-seat billing. At 72 stars it is a bet on a codebase, not a product decision.
+Warpdrive is the tiny Pipedrive alternative: pipelines and Gmail on your own server, MIT with no per-seat billing. At a few dozen stars it is a bet on a codebase, not a product decision.
 
 
 | Pillar | Score | Evidence |

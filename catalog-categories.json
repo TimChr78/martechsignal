@@ -184,10 +184,12 @@
   "description": "Email sending, newsletters, and transactional delivery",
   "tools": [
    "billionmail",
+   "brevo",
    "customer-io",
    "klaviyo",
    "listmonk",
    "loops",
+   "mailcheap",
    "mailchimp",
    "maizzle",
    "notifo",
@@ -197,8 +199,8 @@
    "react-email-editor",
    "resend",
    "sendgrid",
-   "warmbly",
-   "brevo"
+   "sendportal",
+   "warmbly"
   ],
   "hub": {
    "chooser": [
@@ -330,6 +332,7 @@
       "customer-io",
       "klaviyo",
       "loops",
+      "mailcheap",
       "mailchimp"
      ]
     },
@@ -338,7 +341,8 @@
      "slugs": [
       "billionmail",
       "listmonk",
-      "notifuse"
+      "notifuse",
+      "sendportal"
      ]
     },
     {
@@ -362,9 +366,9 @@
    ],
    "lead": [
     "Email splits into three jobs and you should buy for the job you have. Campaign tools send newsletters and flows. Transactional APIs send receipts and resets. Cold tools handle warmup and prospecting. Mixing them up is how teams pay contact prices for system mail or push sales mail through a pipe built for passwords resets. Pick the lane first, then compare on price model and deliverability work.",
-    "This set covers 16 tools across that split. Five hosted campaign platforms bill by contacts or volume, with free plans from Brevo, Mailchimp, Klaviyo, and Loops. Three self-hosted senders remove per-contact billing: BillionMail, Listmonk, and Notifuse. Four developer pipes cover transactional and notifications: Postmark, Resend, SendGrid, and Notifo. The last four are building blocks and cold outreach: Maizzle, React Email Editor, OpenOutreach, and Warmbly. Our notes weight real sending costs, what self-hosting asks of you, and whether cold features stay within mailbox limits. Self-hosting trades the contact bill for server and warmup work; price it honestly before switching."
+    "This set covers {n} tools across that split. Six hosted campaign platforms bill by contacts, volume, or emails sent, with free plans from Brevo, Mailchimp, Klaviyo, and Loops. Four self-hosted senders remove per-contact billing: BillionMail, Listmonk, Notifuse, and SendPortal. Four developer pipes cover transactional and notifications: Postmark, Resend, SendGrid, and Notifo. The last four are building blocks and cold outreach: Maizzle, React Email Editor, OpenOutreach, and Warmbly. Our notes weight real sending costs, what self-hosting asks of you, and whether cold features stay within mailbox limits. Self-hosting trades the contact bill for server and warmup work; price it honestly before switching."
    ],
-   "meta": "Email marketing across hosted, self-hosted, and transactional: contact vs volume pricing and inbox placement. 16 tools reviewed.",
+   "meta": "Email marketing across hosted, self-hosted, and transactional: contact vs volume pricing and inbox placement. {n} tools reviewed.",
    "reading": [
     {
      "note": "Why inbox placement fails when content trips spam filters, and what to fix first",
@@ -383,7 +387,7 @@
     }
    ]
   },
-  "tool_count": 16
+  "tool_count": 18
  },
  {
   "slug": "crm",
@@ -1877,7 +1881,9 @@
    "eve-marketing-team",
    "google-meta-ads-ga4-mcp",
    "growth-lab",
+   "instagram-skills",
    "marketing-studio",
+   "marketingskills",
    "open-mercato",
    "openclaw-marketing-skills",
    "seo-skill-bench",
@@ -2063,6 +2069,7 @@
    "growth-lab",
    "growthbook",
    "idurar-erp-crm",
+   "instagram-skills",
    "jitsu",
    "khoj",
    "krayin-crm",
@@ -2073,8 +2080,10 @@
    "line-harness",
    "listmonk",
    "macro",
+   "mailcheap",
    "maizzle",
    "marketing-studio",
+   "marketingskills",
    "matomo",
    "mautic",
    "monica",
@@ -2099,6 +2108,7 @@
    "relaticle",
    "revive-adserver",
    "rudderstack",
+   "sendportal",
    "seo-skill-bench",
    "seonaut",
    "snowplow",

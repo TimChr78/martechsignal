@@ -44,7 +44,7 @@ Conversational AI for marketing and support, from social DM automation to per-re
 
 ## [Email Marketing](/categories/email-marketing/)
 
-Email sending, newsletters, and transactional delivery. Includes [BillionMail](/tools/billionmail/), [Customer.io](/tools/customer-io/), [Klaviyo](/tools/klaviyo/).
+Email sending, newsletters, and transactional delivery. Includes [BillionMail](/tools/billionmail/), [Brevo](/tools/brevo/), [Customer.io](/tools/customer-io/).
 
 ## [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 
