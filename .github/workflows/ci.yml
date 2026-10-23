@@ -10,7 +10,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      # fetch-depth: 0 — full history is required: test_glossary_terms_keep_genuine_block_dates
+      # derives each term's date from git blame, which on a shallow clone resolves every
+      # line to the single fetched commit (the run day). See intake_check.py for the gate.
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:

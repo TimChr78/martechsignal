@@ -137,6 +137,20 @@ class TestDataIntegrity:
             assert actual == expected, \
                 f"Category '{c['slug']}': json has {len(actual)} tools, tools.json has {len(expected)}"
 
+    def test_intake_gate_is_clean(self):
+        """r38 (2026-10-23): mailcheap and sendportal were added to tools.json by
+        hand with no categories.json membership, no currency and stale star prose.
+        Nothing checked that at intake, so seven cases went red days later, in CI.
+        tools/intake_check.py is the gate the intake step now has to pass (deploy.sh
+        aborts on it); this pins the same rules so CI catches a half-wired record."""
+        import importlib.util as _ilu
+        spec = _ilu.spec_from_file_location("intake_check", ROOT / "tools" / "intake_check.py")
+        assert spec and spec.loader, "tools/intake_check.py is missing or unimportable"
+        mod = _ilu.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        problems, _fixes, _advisories, _slugs = mod.check(fix=False)
+        assert not problems, f"intake gate: {problems[:6]}"
+
 
 # ── 2. Build output ──────────────────────────────────────────────────
 

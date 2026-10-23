@@ -45,6 +45,15 @@ fi
 
 cd "$(dirname "$0")"
 
+# ── Intake gate (always, even with --no-build) ─────────────────────
+# A record added to tools.json by hand must have its derived surfaces in
+# categories.json, its currency, and agreeing prose. If it does not, abort
+# here rather than publishing a half-wired page and discovering it in CI.
+if ! python3 tools/intake_check.py; then
+    echo "⛔ intake gate failed — fix the records above before deploying" >&2
+    exit 1
+fi
+
 # ── Build from source (skip with --no-build) ───────────────────────
 # Regenerate all generated HTML so the upload reflects current source.
 # Under `set -e`, a build failure aborts the deploy (don't ship half-built site).
