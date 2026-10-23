@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Listmonk
-Re-check pending: pricing last verified 2026-08-28 (55 days ago).
+Re-check pending: pricing last verified 2026-08-28 (56 days ago).
 
 ## Listmonk review (2026): pricing, AI features, verdict
 

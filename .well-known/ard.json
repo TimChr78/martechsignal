@@ -2813,6 +2813,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:procedural-memory-agents",
+   "displayName": "Agents keep failing the same way. Memory is the fix",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/procedural-memory-agents/",
+   "description": "Agent failures repeat in the same shapes and prompt fixes never compound. Procedural memory stores what worked and hands it back on similar tasks.",
+   "representativeQueries": [
+    "agents keep failing the same way. memory is the fix",
+    "procedural memory agents"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:rogue-ai-agents-trust-debate",
    "displayName": "Rogue agents, watchdog chips, nobody accountable",
    "type": "text/html",

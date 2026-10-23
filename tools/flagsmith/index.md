@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Flagsmith
-Re-check pending: pricing last verified 2026-09-25 (27 days ago).
+Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
 ## Flagsmith review (2026): pricing, AI features, verdict
 

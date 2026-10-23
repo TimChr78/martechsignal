@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - LanguageTool
-Re-check pending: pricing last verified 2026-09-25 (27 days ago).
+Re-check pending: pricing last verified 2026-09-25 (28 days ago).
 
 ## LanguageTool review (2026): pricing, AI features, verdict
 

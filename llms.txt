@@ -217,6 +217,7 @@
 
 ## Analysis
 
+- [Agents keep failing the same way. Memory is the fix](https://martechsignal.com/blog/procedural-memory-agents/) (2026-10-23)
 - [Prompts are not a security boundary. Isolation is.](https://martechsignal.com/blog/agent-isolation-not-prompts-2026-10-22/) (2026-10-22)
 - [HubSpot credits are a budget design problem](https://martechsignal.com/blog/hubspot-credit-rules-budget-design-2026-10-20/) (2026-10-20)
 - [A live agent fleet in the wild, mostly failing](https://martechsignal.com/blog/agent-fleet-in-the-wild-2026-10-19/) (2026-10-19)
@@ -433,6 +434,6 @@
 ## Machine-readable data
 
 - [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 172 records = 170 active + 2 non-active; the directory above lists only active tools
-- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 331 entries with representativeQueries (specVersion 1.0)
+- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 332 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

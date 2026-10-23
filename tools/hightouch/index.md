@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Hightouch
+Re-check pending: pricing last verified 2026-10-01 (22 days ago).
+
 ## Hightouch review (2026): pricing, AI features, verdict
 
 Composable CDP that activates warehouse data where marketing runs

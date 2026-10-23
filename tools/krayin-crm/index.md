@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Krayin CRM
-Re-check pending: pricing last verified 2026-09-07 (45 days ago).
+Re-check pending: pricing last verified 2026-09-07 (46 days ago).
 
 ## Krayin CRM review (2026): pricing, AI features, verdict
 

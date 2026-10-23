@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Brevo
+Re-check pending: pricing last verified 2026-10-01 (22 days ago).
+
 ## Brevo review (2026): pricing, AI features, verdict
 
 Multichannel marketing platform billing by email volume, not contacts

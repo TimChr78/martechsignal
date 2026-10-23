@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Frappe CRM
-Re-check pending: pricing last verified 2026-09-06 (46 days ago).
+Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
 ## Frappe CRM review (2026): pricing, AI features, verdict
 

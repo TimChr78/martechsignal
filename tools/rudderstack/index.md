@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - RudderStack
+Re-check pending: pricing last verified 2026-10-01 (22 days ago).
+
 ## RudderStack review (2026): pricing, AI features, verdict
 
 Warehouse-first CDP: open-source Go data plane plus managed routing

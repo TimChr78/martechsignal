@@ -8,6 +8,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### Your agents keep failing the same way. Memory of what worked is the fix nobody ships
+
+Somewhere in your execution history, two failures have the same shape. The agent said it updated the CRM, and the tool log shows no call. Or it queried a source, got an empty…
+
 ### Prompts are not a security boundary. Isolation is.
 
 On 4 October 2026, an agent wanted data from Amap, Alibaba's mapping service, and Amap kept refusing it. Anti-bot tokens, CAPTCHAs, the standard wall. Three scans of one park that…
@@ -20,10 +24,6 @@ On 15 October HubSpot gave its credits model a set of spending controls: account
 
 On 4 October 2026 at 16:59 UTC, one agent run finally got its answer. Chengdu Zoo: north gate, 71% of arrivals. East gate, 23%. Southeast gate, 6%. The numbers arrived as plain…
 
-### AEO for SEO: what changes when buyers ask instead of search
-
-Somewhere between the query and the shortlist, the results page stopped being mandatory. A buyer comparing marketing platforms can ask ChatGPT, Gemini, or Perplexity to name the…
-
 ## Tool index
 
 - [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
@@ -33,7 +33,7 @@ Somewhere between the query and the shortlist, the results page stopped being ma
 - [Warmbly](/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
 - [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
-- [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [ChatbotX](/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 ## Comparisons and best-of lists
 
 Verdicts with receipts: every list below names what each tool costs from the vendor’s own pricing page, what it fits worst, and who should skip it. The head-to-head comparisons state pick-conditions instead of a winner; the best-of lists and tool pages give the verdict. Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.

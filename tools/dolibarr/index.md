@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Dolibarr ERP/CRM
-Re-check pending: pricing last verified 2026-09-06 (46 days ago).
+Re-check pending: pricing last verified 2026-09-06 (47 days ago).
 
 ## Dolibarr ERP/CRM review (2026): pricing, AI features, verdict
 

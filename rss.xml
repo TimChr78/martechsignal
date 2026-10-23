@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2026 05:18:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 05:12:18 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Your agents keep failing the same way. Memory of what worked is the fix nobody ships</title>
+      <link>https://martechsignal.com/blog/procedural-memory-agents/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/procedural-memory-agents/</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Somewhere in your execution history, two failures have the same shape. The agent said it updated the CRM, and the tool log shows no call. Or it queried a source, got an empty…</description>
+    </item>
     <item>
       <title>Prompts are not a security boundary. Isolation is.</title>
       <link>https://martechsignal.com/blog/agent-isolation-not-prompts-2026-10-22/</link>
