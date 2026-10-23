@@ -1,6 +1,6 @@
 # Microsoft Just Removed the Steering Wheel From Search Ads
 
-ADVERTISING · MICROSOFT · 9 MIN
+Advertising · Microsoft · 9 min read
 
 ## Microsoft Just Removed the Steering Wheel From Search Ads
 
@@ -8,7 +8,7 @@ ADVERTISING · MICROSOFT · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Microsoft Just Removed the Steering Wheel From Search Ads
 
-AUG 31, 2026
+31 Aug 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -95,8 +95,8 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 - [Nosto](/tools/nosto/) - AI-powered ecommerce personalization with product recommendations and merchandising
 ## Comparison guides
 
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [DSP](/glossary/dsp/)

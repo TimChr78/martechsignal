@@ -1,6 +1,6 @@
 # OpenAI Is Building Agents That Spend Without You
 
-AI · ADVERTISING · 11 MIN
+AI · Advertising · 11 min read
 
 ## OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.
 
@@ -8,7 +8,7 @@ AI · ADVERTISING · 11 MIN
 
 [Home](/) · [Blog](/blog/) · OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.
 
-AUG 05, 2026
+05 Aug 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 

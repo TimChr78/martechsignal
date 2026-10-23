@@ -105,7 +105,7 @@ Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-ho
 **Is Diffmode Growth Tactics a good self-hosted Agent Skills tool in 2026?**
 A clever use of coding agents for growth ideation with a real anti-generic mechanism built in. Worth a run for any bootstrapped product; expect to filter the 7 to 9 tactics down to one or two worth testing.
 
-## Similar Tools
+## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Growth Lab](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
@@ -114,8 +114,8 @@ A clever use of coding agents for growth ideation with a real anti-generic mecha
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
 - **Pricing:** Open Source

@@ -110,7 +110,7 @@ Heap has a free tier, so you can run a real evaluation before paying. Free (10K 
 **Is Heap worth it past the free tier?**
 Choose it when you keep discovering untagged events after the fact. Disciplined taggers get more from Mixpanel.
 
-## Similar Tools
+## Similar tools
 
 - [Mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
 - [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
@@ -120,8 +120,8 @@ Choose it when you keep discovering untagged events after the fact. Disciplined 
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Teams that want retroactive analysis without a tagging plan first

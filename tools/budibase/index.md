@@ -147,7 +147,7 @@ They solve adjacent problems. NocoBase is data-model-first: you define the schem
 **Which AI models can Budibase agents use?**
 It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Google, Mistral, Groq and OpenRouter, plus a custom provider option that accepts any OpenAI-compatible base URL, which is how locally hosted models connect. Two requirements surprise people. Knowledge sources, meaning retrieval over your own documents, currently support pgvector as the only vector store and require a GEMINI_API_KEY in the environment. And the primary agent channels are Slack and Microsoft Teams, since in-app agent chat is deprecated and the Discord and Telegram channels were removed in v3.44.1.
 
-## Similar Tools
+## Similar tools
 
 - [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
@@ -158,7 +158,7 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 
 - [Budibase next to NocoBase and NocoDB: choosing between the three](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ### Quick Facts
 
 - **Pricing:** Open-core from $19/mo

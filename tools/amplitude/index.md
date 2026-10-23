@@ -143,7 +143,7 @@ They answer different questions. GA4 is built around acquisition, meaning which 
 **Does Amplitude have AI features?**
 Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashboard Agent, Session Replay Agent, and Customer Feedback Agent, plus custom agents, predictive audiences, and automated anomaly detection. An MCP server connects Claude, Cursor, and other MCP clients, and Amplitude states it works on every plan including Free. Wave, described as a proactive product agent, is listed as reaching customers in the second half of 2026. Scope moves often; Amplitude's AI docs carry the current list.
 
-## Similar Tools
+## Similar tools
 
 - [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
 - [Mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
@@ -152,8 +152,8 @@ Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashb
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
-- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Product teams that want funnels and retention without an analyst queue

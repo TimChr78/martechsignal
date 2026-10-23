@@ -7,16 +7,16 @@
 
 CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. 24 tools reviewed.
 
-24 TOOLS IN THIS CATEGORY
+24 tools in this category
 
-## HOSTED SAAS CRMs (5)
+## Hosted SaaS CRMs (5)
 
 - [Attio](/tools/attio/): AI-native CRM with real-time data enrichment and agentic revenue workflows (Freemium from $29/seat/mo)
 - [Freshsales](/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams (From $9/user/mo)
 - [HubSpot CRM](/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified (Freemium from $20/seat/mo)
 - [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting (From $14/user/mo)
 - [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams (Enterprise)
-## SELF-HOSTED OPEN SOURCE (11)
+## Self-hosted open source (11)
 
 - [AlphOne](/tools/alphone/): Plugin-first CRM (source-available, Elastic 2.0) written in Go (Open Source)
 - [Django CRM](/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting (Open Source)
@@ -29,13 +29,13 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 - [Monica](/tools/monica/): Open-source personal CRM for tracking friends, family, and business relationships (Open Source from $9/mo)
 - [SuiteCRM](/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation (Open Source)
 - [Warpdrive](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box (Open Source)
-## AGENT-READY, MCP-NATIVE (4)
+## Agent-ready, MCP-native (4)
 
 - [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment (Freemium)
 - [Macro](/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory (Freemium from $40/seat/mo)
 - [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament (Open Source from $19/workspace/mo)
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (Open Source from $9/user/mo)
-## OUTBOUND & CHANNEL (3)
+## Outbound & channel (3)
 
 - [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp (Open Source)
 - [ProspectOS](/tools/prospectos/): Open-source lead prospecting CRM with Google Maps and Instagram scraping (Open Source)
@@ -65,19 +65,19 @@ Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monic
 
 ## Reading before you buy
 
-MAPrecords before vendors
+Maprecords before vendors
 
 **
 
-AUTOMATEscoring, drafts, follow-ups
+Automatescoring, drafts, follow-ups
 
 **
 
-PICKhosted, freemium, self-hosted
+Pickhosted, freemium, self-hosted
 
 **
 
-AUDITwhat the AI changed
+Auditwhat the AI changed
 
 IF You are an enterprise that wants one vendor for sales, service and marketing
 

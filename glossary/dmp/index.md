@@ -2,7 +2,7 @@
 
 ## Data Management Platform (DMP)
 
-GLOSSARY
+Glossary
 
 Definition last Updated 2026-09-07
 

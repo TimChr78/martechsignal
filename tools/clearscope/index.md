@@ -108,7 +108,7 @@ Clearscope starts at $129/mo. Essentials $129/mo; Business $399/mo; Enterprise c
 **Is Clearscope worth paying for in 2026?**
 The reference tool for SEO copy scoring. Best when paired with a writer who wants ranking signals, not generated prose.
 
-## Similar Tools
+## Similar tools
 
 - [Surfer SEO](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
 - [Frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
@@ -117,8 +117,8 @@ The reference tool for SEO copy scoring. Best when paired with a writer who want
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for content teams that grade drafts against search intent all day.

@@ -1,6 +1,6 @@
 # NocoBase vs NocoDB vs Budibase: Pick by Team Shape
 
-OPEN SOURCE · WORKFLOW AUTOMATION · 10 MIN
+Open Source · Workflow Automation · 10 min read
 
 ## NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet
 
@@ -8,7 +8,7 @@ OPEN SOURCE · WORKFLOW AUTOMATION · 10 MIN
 
 [Home](/) · [Blog](/blog/) · NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet
 
-SEP 09, 2026
+09 Sep 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 
@@ -105,8 +105,8 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Related tools
 
 - [Pipedream](/tools/pipedream/) - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps

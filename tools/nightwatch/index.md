@@ -122,7 +122,7 @@ ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews, on every plan. Ea
 **What happens when the free trial ends?**
 The trial runs 14 days with the full toolkit and no credit card required. If it is not canceled within those 14 days, Nightwatch bills a regular monthly subscription and sends reminder emails before the trial ends.
 
-## Similar Tools
+## Similar tools
 
 - [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
 - [OtterlyAI](/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews

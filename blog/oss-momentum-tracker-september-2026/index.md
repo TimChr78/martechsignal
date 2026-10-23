@@ -1,6 +1,6 @@
 # Open-source martech momentum: the agent-skills layer wins
 
-OPEN SOURCE · DATA · 7 MIN
+Open Source · Data · 7 min read
 
 ## Where open-source martech momentum actually lives
 
@@ -8,7 +8,7 @@ OPEN SOURCE · DATA · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Where open-source martech momentum actually lives
 
-SEP 26, 2026
+26 Sep 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 

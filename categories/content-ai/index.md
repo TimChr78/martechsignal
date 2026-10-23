@@ -7,25 +7,25 @@
 
 AI copywriting, publishing, and writing tools: drafts, governance, and self-hosted helpers. 13 tools reviewed.
 
-13 TOOLS IN THIS CATEGORY
+13 tools in this category
 
-## COPYWRITING WORKHORSES (5)
+## Copywriting workhorses (5)
 
 - [Anyword](/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content (From $39/mo)
 - [ContentBot](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts (Freemium from $9/mo)
 - [Copy.ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale (From $24/mo)
 - [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns (From $59/mo)
 - [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles (From $56/mo)
-## GOVERNED ENTERPRISE WRITING (3)
+## Governed enterprise writing (3)
 
 - [Writer](/tools/writer/): Enterprise AI platform with Palmyra models, brand governance, and agents (Paid)
 - [Persado](/tools/persado/): AI content creation and optimization platform for regulated financial services marketing (Enterprise)
 - [Phrasee](/tools/phrasee/): AI messaging content platform; rebranded as Jacquard in June 2024 (Enterprise)
-## OPEN PUBLISHING STACK (2)
+## Open publishing stack (2)
 
 - [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools (Open Source from $9/mo)
 - [Strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design (Open Source from $99/mo)
-## SELF-HOSTED WRITING UTILITIES (3)
+## Self-hosted writing utilities (3)
 
 - [LanguageTool](/tools/languagetool/): Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages (Freemium)
 - [Khoj](/tools/khoj/): Self-hosted AI research and writing assistant that chats with your documents and automates content workflows (Open Source)
@@ -48,19 +48,19 @@ Vendors in this category: [Strapi](https://strapi.io) · [Ghost](https://ghost.o
 
 ## Reading before you buy
 
-DRAFTpick a workhorse first
+Draftpick a workhorse first
 
 **
 
-CHECKscores, grammar, tone
+Checkscores, grammar, tone
 
 **
 
-PUBLISHown site or CMS
+Publishown site or CMS
 
 **
 
-AUDITwhat shipped, what flopped
+Auditwhat shipped, what flopped
 
 IF You need daily marketing copy and want to start cheap
 

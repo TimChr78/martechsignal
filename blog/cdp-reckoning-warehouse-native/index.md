@@ -1,6 +1,6 @@
 # The CDP Reckoning: Your Next CDP Is a Warehouse
 
-CDP · CRM · 8 MIN
+CDP · CRM · 8 min read
 
 ## The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For
 
@@ -8,7 +8,7 @@ CDP · CRM · 8 MIN
 
 [Home](/) · [Blog](/blog/) · The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For
 
-SEP 02, 2026
+02 Sep 2026
 
 Filed under [CRM](/categories/crm/) · [Analytics & Attribution](/categories/analytics/)
 
@@ -81,7 +81,7 @@ Our directory breaks down customer data platforms and activation tools by pricin
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Related tools
 
 - [Customer.io](/tools/customer-io/) - Data-driven messaging platform for automated email, push, SMS, and in-app messages

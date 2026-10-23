@@ -1088,7 +1088,7 @@ RudderStack has a free tier; paid plans start at $265/mo. Free forever: 250K eve
 **Is RudderStack a good self-hosted Personalization & CDP tool in 2026?**
 Best open-core CDP for teams that self-host the data plane: free 250K events/mo, Growth $265/mo, warehouse-native from the start.
 
-## Similar Tools
+## Similar tools
 
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
 - [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
@@ -1097,8 +1097,8 @@ Best open-core CDP for teams that self-host the data plane: free 250K events/mo,
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Also featured in
 
 - [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best Segment-compatible router for warehouse-first stacks on a budget.

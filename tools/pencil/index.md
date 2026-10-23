@@ -136,7 +136,7 @@ The site names OpenAI, Google, Adobe, Runway, and Bria as the aggregated model s
 **Is Pencil part of the Brandtech Group?**
 Yes. Brandtech Group branding appears across the site, the legal entity in the footer is Pencil AI Limited, and the product line is marketed as Pencil Pro alongside the self-serve Pencil plans. Case studies are published with Brandtech-affiliated brands such as Experian, Diageo, and L'Oreal.
 
-## Similar Tools
+## Similar tools
 
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Smartly.io](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
@@ -144,9 +144,9 @@ Yes. Brandtech Group branding appears across the site, the legal entity in the f
 - [AdCreative.ai](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
 ## Related reading
 
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Best for advertising & paid media teams that want gwi-powered insights agent, starting at $14/mo.

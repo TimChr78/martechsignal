@@ -1,6 +1,6 @@
 # Autonomous Marketing Platforms Are Real. The Name Is Wrong.
 
-AGENT SKILLS · ADVERTISING · 11 MIN
+Agent Skills · Advertising · 11 min read
 
 ## Autonomous Marketing Platforms Are Real. The Name Is Wrong.
 
@@ -8,7 +8,7 @@ AGENT SKILLS · ADVERTISING · 11 MIN
 
 [Home](/) · [Blog](/blog/) · Autonomous Marketing Platforms Are Real. The Name Is Wrong.
 
-AUG 26, 2026
+26 Aug 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 

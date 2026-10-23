@@ -112,7 +112,7 @@ Surfer SEO starts at $49/mo. Discovery $49-59/mo; Standard $99-119/mo; Pro $182-
 **Is Surfer SEO worth paying for in 2026?**
 Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a human editor; it is a compass, not a writer.
 
-## Similar Tools
+## Similar tools
 
 - [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
 - [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
@@ -122,8 +122,8 @@ Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a hu
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for writers who want a live content score while drafting.

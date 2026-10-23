@@ -1,6 +1,6 @@
 # Rethink, not rebuild: the replatform-for-AI trap
 
-MARKETING AUTOMATION · AI AGENTS · 6 MIN
+Marketing Automation · AI Agents · 6 min read
 
 ## Rethink, not rebuild: Jon Miller and the replatform-for-AI trap
 
@@ -8,7 +8,7 @@ MARKETING AUTOMATION · AI AGENTS · 6 MIN
 
 [Home](/) · [Blog](/blog/) · Rethink, not rebuild: Jon Miller and the replatform-for-AI trap
 
-OCT 01, 2026
+01 Oct 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -66,8 +66,8 @@ But do not replatform *for* AI. If the stack you have runs your programs, the AI
 
 ## Related reading
 
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Related tools
 

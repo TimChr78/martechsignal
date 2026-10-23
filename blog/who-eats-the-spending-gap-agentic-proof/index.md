@@ -1,6 +1,6 @@
 # Who eats the spending gap when agentic spend outpaces proof?
 
-AI AGENTS · MEASUREMENT · 8 MIN
+AI Agents · Measurement · 8 min read
 
 ## Who eats the spending gap when agentic spend outpaces proof?
 
@@ -8,7 +8,7 @@ AI AGENTS · MEASUREMENT · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Who eats the spending gap when agentic spend outpaces proof?
 
-OCT 15, 2026
+15 Oct 2026
 
 Filed under [Analytics & Attribution](/categories/analytics/)
 
@@ -89,7 +89,7 @@ A pacing report answers one thing: whether spend is on schedule. It was never as
 
 - [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
 ## Related tools
 
 - [Paperclip](/tools/paperclip/) - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
@@ -101,8 +101,8 @@ A pacing report answers one thing: whether spend is on schedule. It was never as
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/)
 ## Glossary terms
 
-- [Agentic Marketing](/glossary/agentic-marketing/)
 - [AI Agent](/glossary/ai-agent/)
+- [Agentic Marketing](/glossary/agentic-marketing/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

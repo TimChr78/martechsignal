@@ -108,7 +108,7 @@ ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; S
 **Is ContentBot worth it past the free tier?**
 Good value for high-volume, template-driven content pipelines. Teams doing premium long-form writing should stay with Jasper.
 
-## Similar Tools
+## Similar tools
 
 - [Copy.ai](/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
 - [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns

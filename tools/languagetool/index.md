@@ -129,7 +129,7 @@ More than 30, including English, German, French, Spanish, Portuguese, Dutch, Pol
 **Can LanguageTool replace a human editor?**
 No. It catches grammar, punctuation, and spelling problems and offers style and tone suggestions, but it does not judge argument, structure, or brand fit. Treat it as a fast second pass before a human review.
 
-## Similar Tools
+## Similar tools
 
 - [Ghost](/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools
 - [Warpdrive](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
@@ -140,7 +140,7 @@ No. It catches grammar, punctuation, and spelling problems and offers style and 
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ### Quick Facts
 
 - **Pricing:** Freemium

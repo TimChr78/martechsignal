@@ -1,6 +1,6 @@
 # Claude SEO vs Codex SEO: same audit, pick your agent
 
-AGENT SKILLS · SEO · 7 MIN
+Agent Skills · SEO · 7 min read
 
 ## Claude SEO vs Codex SEO: same audit, pick the agent you already pay for
 
@@ -10,7 +10,7 @@ Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we ha
 
 [Home](/) · [Blog](/blog/) · Claude SEO vs Codex SEO: same audit, pick the agent you already pay for
 
-SEP 15, 2026
+15 Sep 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 

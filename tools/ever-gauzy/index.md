@@ -126,7 +126,7 @@ Yes for internal business use, with one obligation to understand. Gauzy's defaul
 **Does Ever Gauzy include employee time tracking?**
 Yes, and it is the platform's anchor module. The README lists employee time-tracking, activity, and productivity tracking as a core capability, and it ships with dedicated desktop applications: Gauzy Desktop and a Desktop Timer app for Windows, Mac, and Linux, so tracked time feeds the same platform that handles invoicing, estimates, and payroll-adjacent reporting. The related features (schedules, appointments, time off, holidays) sit in the same module set. Note that activity tracking of this kind is employee monitoring in substance, so involve the people being tracked before rollout rather than after.
 
-## Similar Tools
+## Similar tools
 
 - [NocoDB](/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
 - [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
@@ -136,8 +136,8 @@ Yes, and it is the platform's anchor module. The README lists employee time-trac
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $17/mo

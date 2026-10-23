@@ -1,6 +1,6 @@
 # You Taught Google Everything It Knows
 
-AI SEARCH · AI OVERVIEWS · 7 MIN
+AI Search · AI Overviews · 7 min read
 
 ## Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.
 
@@ -8,7 +8,7 @@ AI SEARCH · AI OVERVIEWS · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.
 
-JUL 31, 2026
+31 Jul 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -87,7 +87,7 @@ The play is to own something the machine cannot answer without you. Google does 
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 - [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ## Related tools
 
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
@@ -96,7 +96,7 @@ The play is to own something the machine cannot answer without you. Google does 
 ## Comparison guides
 
 - [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
-- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
+- [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)
@@ -105,6 +105,6 @@ The play is to own something the machine cannot answer without you. Google does 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Writesonic](/tools/writesonic/)
+More from the directory: [Trakkr](/tools/trakkr/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

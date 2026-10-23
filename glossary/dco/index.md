@@ -2,7 +2,7 @@
 
 ## Dynamic Creative Optimization (DCO)
 
-GLOSSARY
+Glossary
 
 Definition last Updated 2026-10-05
 

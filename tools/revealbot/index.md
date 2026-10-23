@@ -149,7 +149,7 @@ Anything from every 15 minutes to every 72 hours, or on specific days and hourly
 **What is Bïrch MCP?**
 An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Codex over OAuth with no API key. The marketing page describes five tools and read only access; the help center is more precise. Campaign analysis cannot create, edit, pause, or delete anything, but rule management can duplicate, rename, move, activate, or pause rules and change which ad accounts they watch, across every platform and including drafts. Existing connections need to reconnect to pick up the write tools.
 
-## Similar Tools
+## Similar tools
 
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
@@ -159,8 +159,8 @@ An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Co
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Media buyers that trust rules they wrote more than black boxes

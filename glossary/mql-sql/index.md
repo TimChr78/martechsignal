@@ -2,7 +2,7 @@
 
 ## MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)
 
-GLOSSARY
+Glossary
 
 Definition last Updated 2026-10-05
 

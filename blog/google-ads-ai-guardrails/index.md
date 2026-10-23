@@ -1,6 +1,6 @@
 # AI ad account guardrails Google won't ship
 
-GOOGLE ADS · AI · 7 MIN
+Google Ads · AI · 7 min read
 
 ## The guardrails Google won't ship for your AI ad account
 
@@ -8,7 +8,7 @@ GOOGLE ADS · AI · 7 MIN
 
 [Home](/) · [Blog](/blog/) · The guardrails Google won't ship for your AI ad account
 
-SEP 24, 2026
+24 Sep 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -75,8 +75,8 @@ The boring setup wins. You know what the AI can see, you know what it can't touc
 ## Related reading
 
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 
 - [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
@@ -85,7 +85,7 @@ The boring setup wins. You know what the AI can see, you know what it can't touc
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 
 - [DSP](/glossary/dsp/)
@@ -94,6 +94,6 @@ The boring setup wins. You know what the AI can see, you know what it can't touc
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Trakkr](/tools/trakkr/)
+More from the directory: [SuiteCRM](/tools/suitecrm/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

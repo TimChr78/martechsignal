@@ -1,6 +1,6 @@
 # Fifty days of open-source MarTech, audited
 
-OPEN SOURCE · MARTECH · 7 MIN
+Open Source · MarTech · 7 min read
 
 ## Fifty days of open-source MarTech, audited
 
@@ -8,7 +8,7 @@ OPEN SOURCE · MARTECH · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Fifty days of open-source MarTech, audited
 
-SEP 14, 2026
+14 Sep 2026
 
 Filed under [Open-Source Tools](/categories/open-source/) · [Workflow Automation](/categories/workflow-automation/)
 
@@ -87,7 +87,7 @@ Tools linked in this post: [n8n](/tools/n8n/) · [Mautic](/tools/mautic/) · [Tw
 ## Comparison guides
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
-- [Best HubSpot CRM alternatives (2026)](/alternatives/hubspot-crm/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

@@ -1013,17 +1013,21 @@ def test_identity_graph_is_unfragmented():
     assert '"@id": "https://martechsignal.com/#logo"' in home, "homepage logo lost @id"
 
 
-def test_homepage_keeps_concept_d_and_analytics():
-    """r14 H-1 (2026-09-29): the r12 head surgery silently dropped the
-    hand-maintained Concept D layout block (6,538 B) and the Umami loader
-    from the homepage. Both are pinned: emitted classes must resolve and
-    the loader must ship."""
+def test_homepage_uses_editorial_markup_and_analytics():
+    """2026-10 redesign: the homepage hero, latest list, figures and tool index
+    use the shared editorial classes; the legacy Concept D block is gone while
+    the generated critical CSS and the Umami loader ship."""
     html = (ROOT / "index.html").read_text()
     head = html.split("</head>")[0]
-    for cls in (".dot-grid", ".glow-amber", ".hero-kicker", ".stats-band"):
-        assert cls in head, f"Concept D selector {cls} missing"
+    for cls in (".wrap", ".hero", ".figures", ".fig", ".eyebrow"):
+        assert cls in head, f"critical selector {cls} missing"
+    for stale in (".dot-grid", ".glow-amber", ".stats-band",
+                  "Concept D homepage", 'class="story reveal"', 'class="tool-row"'):
+        assert stale not in html, f"legacy homepage markup still present: {stale}"
+    assert 'class="hero"' in html and 'class="figures"' in html, "hero restructure missing"
+    assert '<b id="s1">' in html and '<b id="s2">' in html, "figure ids moved off the number"
+    assert 'class="tindex"' in html, "tool index table missing"
     assert "analytics.martechsignal.com/script.js" in html, "Umami loader missing"
-    assert html.count("Concept D homepage") == 1, "Concept D block duplicated or gone"
 
 
 def test_sweep_never_shrinks_head_assets():
@@ -3324,8 +3328,8 @@ def test_r11_ml_wave_no_regressions():
         assert _tok in _robots, f"robots missing {_tok}"
     # M-7: homepage story excerpts end cleanly (ellipsis) or are uncut.
     _home = (ROOT / "index.html").read_text()
-    _stories = _re.findall(r'<a class="story reveal".*?<p>(.*?)</p>', _home, _re.S)
-    assert _stories, "no homepage stories found"
+    _stories = _re.findall(r'<article class="lead".*?<p>(.*?)</p>', _home, _re.S)
+    assert _stories, "no homepage lead story found"
     for _s in _stories:
         assert _s.endswith("\u2026") or len(_s) < 170, f"ragged excerpt: {_s[-40:]}"
     # M-8: glossary hub declares the DefinedTermSet terms reference.

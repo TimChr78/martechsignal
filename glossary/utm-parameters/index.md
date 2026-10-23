@@ -2,7 +2,7 @@
 
 ## UTM Parameters
 
-GLOSSARY
+Glossary
 
 Definition last Updated 2026-09-07
 

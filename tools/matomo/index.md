@@ -146,7 +146,7 @@ The differences that matter are ownership and sampling. Matomo stores data in yo
 **Does Matomo have AI features?**
 Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 added reports for AI chatbot content requests and real-time chatbot traffic, an AIAgents plugin ships enabled on new instances, and a free official MCP Server plugin connects Matomo to ChatGPT, Claude, and other MCP clients, with write actions requiring approval. There is no AI anomaly detection or predictive analytics in the product today.
 
-## Similar Tools
+## Similar tools
 
 - [Plausible Analytics](/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
 - [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
@@ -155,8 +155,8 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Teams that want GA-grade analytics with the data staying home

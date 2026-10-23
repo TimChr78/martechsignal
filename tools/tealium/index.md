@@ -112,7 +112,7 @@ Tealium uses enterprise pricing, so the number depends on your volume and contra
 **Is Tealium a good Personalization & CDP tool in 2026?**
 Best for enterprises that need governed, consent-aware data plumbing at scale. Warehouse-native CDP approaches are cheaper where identity needs are simpler.
 
-## Similar Tools
+## Similar tools
 
 - [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
 - [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data

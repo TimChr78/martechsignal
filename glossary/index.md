@@ -4,7 +4,7 @@
 
 Plain-English definitions of marketing technology terms. No jargon explaining jargon.
 
-30 TERMS · LINKED TO 85 TOOLS
+30 terms · linked to 85 tools
 
 ## A
 

@@ -132,7 +132,7 @@ Listmonk is the popular default: a single Go binary with PostgreSQL, AGPL licens
 **Is SendPortal still actively developed?**
 The most recent release in our catalog is v4.0.0 (2026-10-12). For the full history, check the vendor changelog linked from the official site.
 
-## Similar Tools
+## Similar tools
 
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 - [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend
@@ -142,8 +142,8 @@ The most recent release in our catalog is v4.0.0 (2026-10-12). For the full hist
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
 ### Quick Facts
 
 - **Pricing:** Open Source

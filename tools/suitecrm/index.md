@@ -125,7 +125,7 @@ No native ones. The documented feature set, release notes, roadmap, and user gui
 **How do you migrate from SuiteCRM 7 to SuiteCRM 8?**
 As a fresh installation, not an in-place patch. The docs require the latest 7.x release as the source (migrating from an older 7.x will fail or produce unstable results), then a new SuiteCRM 8 install with three console commands: ./bin/console suitecrm:app:setup-legacy-migration, ./bin/console suitecrm:app:upgrade -t with the migration package, for example SuiteCRM-8.7.0, and ./bin/console suitecrm:app:upgrade-finalize. The 7 codebase is copied into public/legacy and continues to serve the legacy surface. Test on a copy, since 8.10 also removed the SOAP portal as a breaking change.
 
-## Similar Tools
+## Similar tools
 
 - [Django CRM](/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 - [EspoCRM](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management
@@ -134,8 +134,8 @@ As a fresh installation, not an in-place patch. The docs require the latest 7.x 
 ## Related reading
 
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for teams that want the widest free feature set.

@@ -133,7 +133,7 @@ Not as documented providers. Email goes through Amazon SES, SMS through MessageB
 **Notifo vs Notifuse: are they the same thing?**
 No, they are unrelated projects with confusingly similar names. Notifo (notifo-io/notifo) is a C#/.NET multi-channel notification service under MIT, built by the Squidex team, covering email, SMS, web push, mobile push and in-app sockets behind one API. Notifuse (notifuse/notifuse) is a Go-based self-hosted email marketing and transactional platform with a paid cloud, positioned against Mailchimp and Brevo. If you want campaign and newsletter sending, you want Notifuse or similar; if you want an API for product notifications, that is Notifo's job.
 
-## Similar Tools
+## Similar tools
 
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
@@ -143,8 +143,8 @@ No, they are unrelated projects with confusingly similar names. Notifo (notifo-i
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ### Quick Facts
 
 - **Pricing:** Open Source

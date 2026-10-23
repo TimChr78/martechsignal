@@ -7,7 +7,7 @@
 
 Conversational AI for marketing and support, from social DM automation to per-resolution AI agents
 
-6 TOOLS IN THIS CATEGORY
+6 tools in this category
 
 ## All tools in this category
 

@@ -1,6 +1,6 @@
 # Claude SEO benchmark: the living score tracker
 
-AI · SEO · 3 MIN
+AI · SEO · 3 min read
 
 ## Claude SEO benchmark: every score we have earned, and what each one measured
 
@@ -10,7 +10,7 @@ Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we ha
 
 [Home](/) · [Blog](/blog/) · Claude SEO benchmark: every score we have earned, and what each one measured
 
-SEP 27, 2026
+27 Sep 2026
 
 Filed under [SEO & Search](/categories/seo/)
 

@@ -1,6 +1,6 @@
 # Most of your marketing AI agents should be if/then
 
-AI AGENTS · MARKETING AUTOMATION · 9 MIN
+AI Agents · Marketing Automation · 9 min read
 
 ## Most of your marketing AI agents should be if/then
 
@@ -8,7 +8,7 @@ AI AGENTS · MARKETING AUTOMATION · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Most of your marketing AI agents should be if/then
 
-SEP 11, 2026
+11 Sep 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 
@@ -90,7 +90,7 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ## Related tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/) - ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
@@ -99,7 +99,7 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -108,4 +108,4 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SendPortal](/tools/sendportal/)
+More from the directory: [RudderStack](/tools/rudderstack/)

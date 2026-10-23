@@ -2,7 +2,7 @@
 
 ## Model Context Protocol (MCP)
 
-GLOSSARY
+Glossary
 
 Definition last Updated 2026-10-06
 

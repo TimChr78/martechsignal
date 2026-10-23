@@ -127,7 +127,7 @@ The self-hosted Community edition is MIT-licensed and free, including commercial
 **Does SEOnaut compare to Screaming Frog?**
 On core technical auditing, more than you might expect: broken links, redirect chains and loops, missing and duplicate metas, heading structure, hreflang, canonical tags, alt text, orphan and dead-end pages, and response-time checks, with 79 issue types in code and ECharts dashboards. The gaps are the commercial tool's strengths: no JavaScript rendering, no API, no team features, no integrated keyword or log-file analysis, and no tagged releases. The project itself makes no comparison claims; it positions as created by SEOs for everyone rather than as a Screaming Frog competitor. For a no-cost, self-hosted crawl of server-rendered sites, it covers the technical layer; for client-facing audits of JS-heavy sites, a rendering crawler remains the safer choice.
 
-## Similar Tools
+## Similar tools
 
 - [OpenSEO](/tools/openseo/): Open source alternative to Ahrefs and Semrush
 - [Scrunch](/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents

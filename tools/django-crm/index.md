@@ -130,7 +130,7 @@ No. Multi-tenancy depends on PostgreSQL Row-Level Security, which has no SQLite 
 **How does multi-tenancy work in Django CRM?**
 Each request sets a PostgreSQL session variable (app.current_org) and Row-Level Security policies filter every table against it at the database layer. The app connects as a restricted crm_user role, never a superuser, because a superuser connection bypasses RLS entirely. That is what lets one deployment host many organizations.
 
-## Similar Tools
+## Similar tools
 
 - [SuiteCRM](/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation
 - [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
@@ -140,8 +140,8 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
 - **Pricing:** Open Source

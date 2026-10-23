@@ -136,7 +136,7 @@ At three levels. Inside the product, the pricing table lists an AI Agent (beta) 
 **Which channels does Customer.io support?**
 Email and transactional email, push and in-app with unlimited sends on every plan, SMS at custom volume, native WhatsApp, LINE, and webhooks that both send and receive. Anonymous messaging is available from Premium up. Data comes in through the Track or Data Pipelines APIs and SDKs for iOS, Android, React Native, Flutter, and JavaScript.
 
-## Similar Tools
+## Similar tools
 
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [React Email Editor](/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js
@@ -145,8 +145,8 @@ Email and transactional email, push and in-app with unlimited sends on every pla
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Lifecycle teams writing behavior-triggered journeys on their own data

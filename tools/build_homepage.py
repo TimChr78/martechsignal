@@ -2,7 +2,8 @@
 """build_homepage.py - regenerate the front page Tool index section with grounded data.
 
 Grounding: GSC impressions (28d, primary) then GitHub stars (secondary).
-Counts: ALL {N} TOOLS + "+{N-8} MORE TOOLS" derived from tools.json active count.
+Counts: "All {N} tools" in the section head and "See all {N} tools" link,
+both derived from the tools.json active count.
 
 Reads:
   - tools/tools.json            (active slugs, names, categories, taglines)
@@ -17,6 +18,7 @@ Writes:
 Usage: python3 tools/build_homepage.py [--dry-run]
 """
 import json, re, sys
+import html as _html
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -27,13 +29,13 @@ INDEX = ROOT / "index.html"
 
 SHOW = 8  # tool rows shown on the front page
 
-# Tag mapping (category -> front-page tag label, matches existing style)
+# Tag mapping (category -> front-page label, sentence case for the redesign)
 TAGS = {
-    "workflow-automation": "AUTOMATION", "email-marketing": "EMAIL", "crm": "CRM",
-    "analytics": "ANALYTICS", "seo": "SEO", "agent-skills": "AGENT SKILLS",
-    "marketing-automation": "MARKETING AUTO", "personalization": "PERSONALIZATION",
-    "advertising": "ADS", "social-media": "SOCIAL", "content-ai": "CONTENT AI",
-    "chatbots": "CHATBOTS", "open-source": "OPEN SOURCE",
+    "workflow-automation": "Automation", "email-marketing": "Email", "crm": "CRM",
+    "analytics": "Analytics", "seo": "SEO", "agent-skills": "Agent skills",
+    "marketing-automation": "Marketing automation", "personalization": "Personalization",
+    "advertising": "Advertising", "social-media": "Social", "content-ai": "Content AI",
+    "chatbots": "Chatbots", "open-source": "Open source",
 }
 
 def load_gsc_impressions(path):
@@ -116,31 +118,32 @@ def main():
 
     lines = []
     for r in picks:
-        tag = TAGS.get(r["cat"], r["cat"].upper())
-        take = r["tagline"] or f"{r['name']} review"
+        tag = TAGS.get(r["cat"], r["cat"].replace("-", " ").capitalize())
+        take = _html.escape(r["tagline"] or f"{r['name']} review", quote=False)
+        name = _html.escape(r["name"], quote=False)
+        star_disp = f"{int(r['stars']):,}" if r["stars"] else "n/a"
         lines.append(
-            f'    <a class="tool-row" href="/tools/{r["slug"]}/"><span class="name">{r["name"]}</span>'
-            f'<span class="take">{take}</span><span class="tag">{tag}</span></a>')
+            f'      <tr><td class="name"><a href="/tools/{r["slug"]}/">{name}</a></td>'
+            f'<td class="desc">{take}</td><td><span class="tag">{tag}</span></td>'
+            f'<td class="num">{star_disp}</td></tr>')
     section = f'''<section class="section">
-  <div class="section-head">
-    <h2>Tool index</h2>
-    <a href="/tools/">ALL {total} TOOLS →</a>
-  </div>
-  <div class="tool-index">
+  <div class="sec-head"><h2>Tool index</h2><a href="/tools/">All {total} tools →</a></div>
+  <table class="tindex">
+    <thead><tr><th>Tool</th><th class="desc">What it is</th><th>Category</th><th class="num">GitHub stars</th></tr></thead>
+    <tbody>
 {chr(10).join(lines)}
-  </div>
-  <a class="more-tools" href="/tools/">+{total - SHOW} MORE TOOLS →</a>
+    </tbody>
+  </table>
+  <a class="more-tools" href="/tools/">See all {total} tools →</a>
 </section>'''
 
     html = INDEX.read_text()
     new_html, n = re.subn(
-        r'<section class="section">\s*<div class="section-head">\s*<h2>Tool index</h2>.*?</section>',
+        r'<section class="section">\s*<div class="sec-head"><h2>Tool index</h2>.*?</section>',
         section, html, count=1, flags=re.S)
     if n != 1:
         print("ERROR: Tool index section not found")
         sys.exit(1)
-    # sanity: no other stale counts in headers
-    new_html = new_html.replace('tools/">+92', f'tools/">+{total - SHOW}')
     # hero stat + twitter meta were hand-maintained and rotted at 133; derive from total
     new_html = re.sub(r'(id="s1">)\d+', rf'\g<1>{total}', new_html, count=1)
     # SX-4: the posts stat was hand-maintained at 33; count published posts from blog/

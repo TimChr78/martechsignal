@@ -143,7 +143,7 @@ Growth is usage-based and starts at $0. The pricing calculator shows $120 per mo
 **Does Mixpanel offer self-hosting or EU hosting?**
 There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add custom data and replay retention policies and first-party tracking domains, and the integrations directory notes partner support for Mixpanel's EU servers, which matters for European data handling.
 
-## Similar Tools
+## Similar tools
 
 - [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
 - [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
@@ -153,8 +153,8 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform, with a free starting tier.

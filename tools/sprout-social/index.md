@@ -110,7 +110,7 @@ Sprout Social starts at $249/seat/mo. Standard $249/seat/mo; Professional $399/s
 **Is Sprout Social worth paying for in 2026?**
 Best-in-class workflow and reporting for serious social teams; hard to justify below five seats.
 
-## Similar Tools
+## Similar tools
 
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
 - [Brandwatch](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform
@@ -119,8 +119,8 @@ Best-in-class workflow and reporting for serious social teams; hard to justify b
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
-- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Social teams that want listening and engagement behind a polished UI

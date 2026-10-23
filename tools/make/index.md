@@ -115,7 +115,7 @@ Pick on data shape more than on list price. Make draws scenarios as a graph, so 
 **Does Make have AI agents?**
 Yes. Make AI Agents are stated as available on all plans, including Free, and run inside scenarios. The wider AI surface includes Maia by Make, the Make AI Toolkit, the Make MCP Server for connecting external agents, and a Make Code App billed at 2 credits per second. Note that AI features can consume credits above the default one per action when they run on Make's AI Provider, so agent heavy scenarios cost more per run than plain module chains.
 
-## Similar Tools
+## Similar tools
 
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
@@ -124,8 +124,8 @@ Yes. Make AI Agents are stated as available on all plans, including Free, and ru
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for branching visual workflows on a small-team budget.

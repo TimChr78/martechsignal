@@ -2,7 +2,7 @@
 
 ## Website Personalization
 
-GLOSSARY
+Glossary
 
 Definition last Updated 2026-09-28
 

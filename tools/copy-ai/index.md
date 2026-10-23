@@ -109,7 +109,7 @@ Copy.ai is paid software; plans start at $24/mo. Chat $29/mo or $24/mo billed an
 **Is Copy.ai worth paying for in 2026?**
 Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure content teams have cheaper options.
 
-## Similar Tools
+## Similar tools
 
 - [ContentBot](/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
 - [Jasper](/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns

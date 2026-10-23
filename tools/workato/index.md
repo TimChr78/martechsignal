@@ -135,7 +135,7 @@ It is Workato's product for exposing your apps, data, and processes as governed 
 **Is there a free way to learn Workato before buying?**
 Yes, for training. The Workato Automation Institute's certificate programs (Automation Pro I, II, and III) are free with a valid Workato account, and the company reports 10,000+ graduates and 20,000+ certificates awarded across 80+ countries, with the stated caveat that free access is not guaranteed to continue. There is also a Workato CLI for macOS, Windows, and Linux on the developer portal. Product access itself is demo-gated: no self-serve signup and no published trial length.
 
-## Similar Tools
+## Similar tools
 
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
@@ -170,4 +170,4 @@ One email when a new tool review lands, nothing else.
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
-[VIEW PRICING →](https://www.workato.com/pricing)
+[View pricing →](https://www.workato.com/pricing)

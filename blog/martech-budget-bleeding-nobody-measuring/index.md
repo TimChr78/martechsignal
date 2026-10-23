@@ -1,6 +1,6 @@
 # Your Martech Budget Is Bleeding and Nobody's Me
 
-MARTECH · MEASUREMENT · 8 MIN
+Martech · Measurement · 8 min read
 
 ## Your Martech Budget Is Bleeding and Nobody's Measuring It
 
@@ -8,7 +8,7 @@ MARTECH · MEASUREMENT · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Your Martech Budget Is Bleeding and Nobody's Measuring It
 
-AUG 06, 2026
+06 Aug 2026
 
 Filed under [Analytics & Attribution](/categories/analytics/)
 

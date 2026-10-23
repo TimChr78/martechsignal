@@ -126,7 +126,7 @@ Yes. It chats with local models alongside hosted ones from OpenAI, Anthropic, Go
 **Does the license affect commercial use?**
 AGPL-3.0 covers the code. Using it internally is straightforward; deploying a modified version for outside users creates source disclosure obligations, which is worth a legal check first.
 
-## Similar Tools
+## Similar tools
 
 - [Strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
 - [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams

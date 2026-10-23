@@ -1,6 +1,6 @@
 # 19 open-source MCP servers, one marketing agent
 
-OPEN SOURCE · MCP · 7 MIN
+Open Source · MCP · 7 min read
 
 ## The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent
 
@@ -8,7 +8,7 @@ OPEN SOURCE · MCP · 7 MIN
 
 [Home](/) · [Blog](/blog/) · The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent
 
-OCT 05, 2026
+05 Oct 2026
 
 Filed under [Open-Source Tools](/categories/open-source/) · [Agent Skills](/categories/agent-skills/)
 

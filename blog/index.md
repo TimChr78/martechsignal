@@ -1,10 +1,10 @@
 # Blog
 
-// THE BLOG | DEEPER THAN THE NEWSLETTER
+The blog · Deeper than the newsletter
 
 ## Long-form signal.
 
-Tool teardowns, workflow recipes, and vendor moves decoded | published between newsletter issues.
+Tool teardowns, workflow recipes, and vendor moves decoded, published between newsletter issues.
 
 ## Prefer it in your inbox?
 

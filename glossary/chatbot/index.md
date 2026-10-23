@@ -2,7 +2,7 @@
 
 ## Chatbot (Conversational AI)
 
-GLOSSARY
+Glossary
 
 Definition last Updated 2026-09-28
 

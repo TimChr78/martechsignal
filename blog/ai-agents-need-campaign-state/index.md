@@ -1,6 +1,6 @@
 # AI Agents Need Campaign State, Not Prompts
 
-AI · MARKETING OPS · 8 MIN
+AI · Marketing Ops · 8 min read
 
 ## Your AI Marketing Agent Doesn't Need Better Prompts
 
@@ -8,7 +8,7 @@ AI · MARKETING OPS · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Your AI Marketing Agent Doesn't Need Better Prompts
 
-AUG 03, 2026
+03 Aug 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -102,8 +102,8 @@ The agents are good enough. The context is not.
 - [Mixpanel](/tools/mixpanel/) - Product analytics platform with AI-powered insights for user behavior tracking
 ## Comparison guides
 
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

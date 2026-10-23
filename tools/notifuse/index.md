@@ -116,7 +116,7 @@ Notifuse has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0
 **Is Notifuse a good self-hosted Email Marketing tool in 2026?**
 Sensible self-hosted routing layer for engineers; overkill for marketers.
 
-## Similar Tools
+## Similar tools
 
 - [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server
 - [Loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
@@ -125,8 +125,8 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want the job covered in one platform and can host it themselves, with a free starting tier.

@@ -7,20 +7,20 @@
 
 SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 9 tools with verified pricing.
 
-9 TOOLS IN THIS CATEGORY
+9 tools in this category
 
-## OPEN SOURCE / SELF-HOSTED (2)
+## Open source / self-hosted (2)
 
 - [OpenSEO](/tools/openseo/): Open source alternative to Ahrefs and Semrush (Open Source from $10/mo)
 - [Seonaut](/tools/seonaut/): Open-source SEO crawler in Go for technical audits, self-hosted or cloud (Open Source from $9/mo)
-## COMMERCIAL (5)
+## Commercial (5)
 
 - [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools (From $117/mo)
 - [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers (From $129/mo)
 - [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams (Paid)
 - [Surfer SEO](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits (From $49/mo)
 - [Frase](/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking (From $39/mo)
-## AI SEARCH VISIBILITY (2)
+## AI search visibility (2)
 
 - [Potato](/tools/potato-ai-visibility/): Free local tool that measures brand mentions and citations in Claude's web-search answers (Open Source)
 - [Superlines](/tools/superlines/): AI Search Intelligence platform for brands and agencies (From €79/mo)
@@ -46,19 +46,19 @@ Vendors in this category: [OpenSEO](https://openseo.so) · [Seonaut](https://seo
 
 ## Reading before you buy
 
-CRAWLfind what breaks
+Crawlfind what breaks
 
 **
 
-GAPStopics + keywords
+Gapstopics + keywords
 
 **
 
-OPTIMIZEbrief → draft → grade
+Optimizebrief → draft → grade
 
 **
 
-MEASUREGoogle + AI answers
+MeasureGoogle + AI answers
 
 IF You need a technical audit and rank data, not writing help
 

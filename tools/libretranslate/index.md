@@ -119,7 +119,7 @@ Yes. Once the language models are on disk, the server works with no internet con
 **What connects to LibreTranslate?**
 Anything that can call a REST API. Mastodon is the best-known example, where admins point the post translation backend at a LibreTranslate instance, and the Swagger docs cover the rest.
 
-## Similar Tools
+## Similar tools
 
 - [Strapi](/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
@@ -128,8 +128,8 @@ Anything that can call a REST API. Mastodon is the best-known example, where adm
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ### Quick Facts
 
 - **Pricing:** Open Source

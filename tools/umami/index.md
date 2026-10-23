@@ -132,7 +132,7 @@ Yes, natively since v2.11.0. All five standard parameters (utm_source, utm_mediu
 **What happened to MySQL support in Umami v3?**
 It was removed. The v3 upgrade guide announces that Umami is standardizing on PostgreSQL, and the FAQ states PostgreSQL 12.14 or newer is the only supported database. Existing MySQL users migrate by upgrading to v2.19.0 first, exporting with mysqldump or CSV, and importing with a tool such as pgloader or pg_chameleon; the docs walk the full path. MariaDB, which v2 tolerated as a MySQL variant, goes with it.
 
-## Similar Tools
+## Similar tools
 
 - [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 - [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
@@ -141,8 +141,8 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.

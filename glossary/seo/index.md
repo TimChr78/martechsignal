@@ -2,7 +2,7 @@
 
 ## Search Engine Optimization (SEO)
 
-GLOSSARY
+Glossary
 
 Definition last Updated 2026-09-07
 

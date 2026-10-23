@@ -97,7 +97,7 @@ MailCheap is open source - Free to self-host; the public repository carries 1,29
 **Is MailCheap worth paying for in 2026?**
 Strengths include 1,295 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. MailCheap documents 12 integrations
 
-## Similar Tools
+## Similar tools
 
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
@@ -107,8 +107,8 @@ Strengths include 1,295 GitHub stars, open-source licensing with free self-hosti
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ### Quick Facts
 
 - **Pricing:** From $19/mo

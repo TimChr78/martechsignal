@@ -1,6 +1,6 @@
 # Check outputs, not logs: the silent-failure audit
 
-AUTOMATION · AI AGENTS · 9 MIN
+Automation · AI Agents · 9 min read
 
 ## Check outputs, not logs: the silent-failure audit
 
@@ -8,7 +8,7 @@ AUTOMATION · AI AGENTS · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Check outputs, not logs: the silent-failure audit
 
-SEP 10, 2026
+10 Sep 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/) · [Agent Skills](/categories/agent-skills/)
 
@@ -71,9 +71,9 @@ Our directory reviews workflow and marketing automation tools on what happens af
 
 ## Related reading
 
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ## Related tools
 
 - [Zapier](/tools/zapier/) - No-code automation platform connecting 9,000+ apps with AI-powered workflows

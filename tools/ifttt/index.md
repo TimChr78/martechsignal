@@ -98,7 +98,7 @@ IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard s
 **Is IFTTT worth it past the free tier?**
 Strengths include an API for custom integrations. Paid plans start at $2.99/mo
 
-## Similar Tools
+## Similar tools
 
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
@@ -106,7 +106,7 @@ Strengths include an API for custom integrations. Paid plans start at $2.99/mo
 - [Activepieces](/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting
 ## Related reading
 
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts

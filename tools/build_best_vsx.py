@@ -255,7 +255,7 @@ def build_best():
             body.append(
                 '<section class="hub-links"><h2>Browse the hubs behind these picks</h2>'
                 f'<div class="cat-nav">{_pills}</div>'
-                + (f'<p style="margin:.6rem 0 0;font-size:.92rem">{_gbits}</p>' if _gbits else "")
+                + (f'<p class="fine" style="margin:.6rem 0 0">{_gbits}</p>' if _gbits else "")
                 + "</section>")
         # t_68251141: best pages carry the same glossary strips as category
         # hubs (terms union over the featured tools' categories). No link sinks.
@@ -378,7 +378,7 @@ def _plabel(t):
         return str(t.get("price_notes") or t.get("price_from") or "see page")
 
 
-_SUB_INLINE = '<section class="subscribe sub-inline" id="subscribe"><h2>Get the next teardown</h2><p>One email when a new tool review lands, nothing else.</p><form class="sub-form" action="https://app.kit.com/forms/9136291/subscriptions" method="post" data-sv-form="9136291" data-uid="f315181f90" target="_blank"><input type="hidden" name="newsletter[subscriber][first_name]" value=""><input type="email" name="email_address" autocomplete="email" placeholder="you@company.com" aria-label="Email address" required><button type="submit">SUBSCRIBE</button></form></section>'
+_SUB_INLINE = '<section class="subscribe sub-inline" id="subscribe"><h2>Get the next teardown</h2><p>One email when a new tool review lands, nothing else.</p><form class="sub-form" action="https://app.kit.com/forms/9136291/subscriptions" method="post" data-sv-form="9136291" data-uid="f315181f90" target="_blank"><input type="hidden" name="newsletter[subscriber][first_name]" value=""><input type="email" name="email_address" autocomplete="email" placeholder="you@company.com" aria-label="Email address" required><button type="submit">Subscribe</button></form></section>'
 
 
 def _integ_cell(t):
@@ -568,7 +568,7 @@ def build_vs():
             body.append(
                 '<section class="hub-links"><h2>Browse the hubs behind this comparison</h2>'
                 f'<div class="cat-nav">{_vs_pills}</div>'
-                + (f'<p style="margin:.6rem 0 0;font-size:.92rem">{_vs_g}</p>' if _vs_g else "")
+                + (f'<p class="fine" style="margin:.6rem 0 0">{_vs_g}</p>' if _vs_g else "")
                 + "</section>")
             body.append(_momentum_block([t["slug"] for t in (a, b) if t]))
 

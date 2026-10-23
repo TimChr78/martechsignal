@@ -125,7 +125,7 @@ A successful data transfer from a connector to a destination. Repeated syncs on 
 **Can Jitsu replace Segment?**
 It covers the same collection and routing job and the docs ship a Segment proxy for an existing implementation. Check the destination catalog against your stack before switching, since the list is warehouse-heavy.
 
-## Similar Tools
+## Similar tools
 
 - [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
@@ -134,8 +134,8 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Best for data teams that want open-source event collection in their own warehouse, free to self-host.

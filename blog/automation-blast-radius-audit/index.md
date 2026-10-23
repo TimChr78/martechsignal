@@ -1,6 +1,6 @@
 # Before your next automation, run the blast radius audit
 
-MARKETING AUTOMATION · HOW-TO · 8 MIN
+Marketing Automation · How-To · 8 min read
 
 ## Before your next automation, run the blast radius audit
 
@@ -8,7 +8,7 @@ MARKETING AUTOMATION · HOW-TO · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Before your next automation, run the blast radius audit
 
-SEP 08, 2026
+08 Sep 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Workflow Automation](/categories/workflow-automation/)
 

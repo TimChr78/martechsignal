@@ -127,7 +127,7 @@ Airtable is a polished cloud database you can use in minutes; NocoBase is a plat
 **Does NocoBase have a demo?**
 Yes, NocoBase runs a live demo on its website, and because the core is open source you can self-host a full instance with Docker in minutes to evaluate it on your own data. The project (sometimes misspelled Nacobase or Noco Base) documents deployment in several languages.
 
-## Similar Tools
+## Similar tools
 
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps

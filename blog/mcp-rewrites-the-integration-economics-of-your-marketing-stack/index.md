@@ -1,6 +1,6 @@
 # MCP Rewrites the Integration Economics of Your Stack
 
-MCP · MODEL-CONTEXT-PROTOCOL · 7 MIN
+mcp · model-context-protocol · 7 min read
 
 ## MCP Rewrites the Integration Economics of Your Marketing Stack
 
@@ -8,7 +8,7 @@ MCP · MODEL-CONTEXT-PROTOCOL · 7 MIN
 
 [Home](/) · [Blog](/blog/) · MCP Rewrites the Integration Economics of Your Marketing Stack
 
-JUL 29, 2026
+29 Jul 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 
@@ -116,12 +116,12 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 - [Amplitude](/tools/amplitude/) - AI-powered digital analytics platform for product and marketing teams
 ## Comparison guides
 
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [CDP](/glossary/cdp/)
-- [MCP](/glossary/mcp/)
+- [Customer journey](/glossary/customer-journey/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

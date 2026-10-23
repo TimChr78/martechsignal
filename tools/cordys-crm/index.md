@@ -127,7 +127,7 @@ Eleven documented tools: a global search across objects, add and update for lead
 **How much does Cordys CRM cost for a company?**
 The community edition is free and self-hosted under a GPLv3-based license, with two strings attached: no swapping out the logo or copyright notices, and an API capped at 1,000 calls a day. Enterprise is published at ¥30,000, ¥60,000, and ¥120,000 per year, tiered by company revenue, with unlimited API calls, custom branding, embedded DataEase, and a built-in AI workbench; flagship adds hot-standby and distributed high availability. Budget separately for a DataEase commercial edition if you want BI dashboards embedded.
 
-## Similar Tools
+## Similar tools
 
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 - [DeskcommCRM](/tools/deskcommcrm/): Self-hosted open-source CRM with AI agents that sell through WhatsApp
@@ -137,8 +137,8 @@ The community edition is free and self-hosted under a GPLv3-based license, with 
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ### Quick Facts
 
 - **Pricing:** Freemium

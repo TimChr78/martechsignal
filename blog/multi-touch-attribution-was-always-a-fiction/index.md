@@ -1,6 +1,6 @@
 # Multi-Touch Attribution Was Always a Fiction
 
-ANALYTICS · ATTRIBUTION · 8 MIN
+Analytics · Attribution · 8 min read
 
 ## Multi-Touch Attribution Was Always a Fiction
 
@@ -8,7 +8,7 @@ ANALYTICS · ATTRIBUTION · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Multi-Touch Attribution Was Always a Fiction
 
-AUG 14, 2026
+14 Aug 2026
 
 Filed under [Analytics & Attribution](/categories/analytics/)
 

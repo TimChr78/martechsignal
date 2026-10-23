@@ -138,7 +138,7 @@ The hosted plan is $9 per month or $90 per year with unlimited contacts, notes, 
 **Can you export your data out of Monica, and can you migrate from hosted to self-hosted?**
 Yes on both. Export covers contacts, relationships, notes, reminders, activities, custom fields, and other supported account data with attachments, and the pricing FAQ states it plainly as a right rather than a premium feature, so it works on every plan and costs nothing. The same page confirms you can export from hosted Monica and import into a compatible self-hosted installation. Contacts also support per-contact vCard download. Verify the import path against your self-hosted version before cancelling the hosted account, since the two code lines differ.
 
-## Similar Tools
+## Similar tools
 
 - [Ever Gauzy](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 - [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM
@@ -148,8 +148,8 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 ## Related reading
 
 - [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for relationship-led founders and community businesses.

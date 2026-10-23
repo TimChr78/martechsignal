@@ -141,7 +141,7 @@ The software is GPL-3+ and free to self-host with no user or record limits. Cost
 **Does Dolibarr have AI features?**
 Yes, and they are modest by design. The AI module became stable in version 21.0 and drafts, rewrites, translates, and spell-checks text in editors, and autofills extrafields, using an external AI API key you supply. Version 24.0 added an experimental MCP server and AI assistant. It is assistance inside forms, not AI-driven analysis.
 
-## Similar Tools
+## Similar tools
 
 - [Krayin CRM](/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
 - [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
@@ -150,8 +150,8 @@ Yes, and they are modest by design. The AI module became stable in version 21.0 
 ## Related reading
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
 - **Pricing:** Open Source

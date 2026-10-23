@@ -95,7 +95,7 @@ Zoho CRM has a free tier; paid plans start at €14/user/mo. Free for 3 users; S
 **Is Zoho CRM worth it past the free tier?**
 Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline automation, lead scoring basics, and email included. EU buyers who prefer euro-denominated per-seat pricing scale from Standard at EUR 14 to Professional at EUR 23 (automation and AI) and Enterprise at EUR 40.
 
-## Similar Tools
+## Similar tools
 
 - [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
 - [Salesforce CRM](/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
@@ -105,8 +105,8 @@ Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best value for small teams that want a full suite without an enterprise bill.

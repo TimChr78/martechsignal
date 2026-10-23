@@ -1,6 +1,6 @@
 # Rogue agents, watchdog chips, nobody accountable
 
-AI AGENTS · AI SAFETY · 9 MIN
+AI Agents · AI Safety · 9 min read
 
 ## Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts
 
@@ -8,7 +8,7 @@ AI AGENTS · AI SAFETY · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts
 
-OCT 08, 2026
+08 Oct 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Agent Skills](/categories/agent-skills/)
 
@@ -81,8 +81,8 @@ Rogue assumes the agent decided. The record from this week says something flatte
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ## Related tools
 
 - [Writer](/tools/writer/) - Enterprise AI platform with Palmyra models, brand governance, and agents

@@ -143,7 +143,7 @@ Ownership and cost structure. Your data lives in your own Postgres or MySQL, sel
 **Can NocoDB use my existing Postgres or MySQL database?**
 Yes, that is the core design: connect an external data source and NocoDB builds spreadsheet views, forms, permissions and webhooks over your existing tables. Community edition covers PostgreSQL (14 or later recommended) and MySQL (5.7 or later); SQL Server and Oracle are enterprise add-ons. Schema editing is disabled by default and the docs advise keeping it that way, so the default setup writes data without altering your tables. On NocoDB Cloud, external connections are not available on the Plus plan and require Business.
 
-## Similar Tools
+## Similar tools
 
 - [Ever Gauzy](/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 - [Twenty](/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows
@@ -153,8 +153,8 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 ## Related reading
 
 - [Where NocoDB sits against NocoBase and Budibase](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier.

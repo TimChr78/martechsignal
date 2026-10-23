@@ -1,6 +1,6 @@
 # AI theater: the wrong KPI your team rewards
 
-AI AGENTS · MARKETING AUTOMATION · 9 MIN
+AI Agents · Marketing Automation · 9 min read
 
 ## Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters
 
@@ -8,7 +8,7 @@ AI AGENTS · MARKETING AUTOMATION · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters
 
-SEP 30, 2026
+30 Sep 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Workflow Automation](/categories/workflow-automation/)
 
@@ -94,9 +94,9 @@ Tools linked in this post: [HubSpot CRM](/tools/hubspot-crm/) · [n8n](/tools/n8
 
 ## Related reading
 
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ## Related tools
 
 - [ALwrity](/tools/alwrity/) - AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social

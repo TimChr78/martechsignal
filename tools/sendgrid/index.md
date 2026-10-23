@@ -110,7 +110,7 @@ Twilio SendGrid is paid software; plans start at $19.95/mo. Free trial 100 email
 **Is Twilio SendGrid worth paying for in 2026?**
 Reliable, well-documented transactional email plumbing; marketers should look elsewhere for campaign work.
 
-## Similar Tools
+## Similar tools
 
 - [Postmark](/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling

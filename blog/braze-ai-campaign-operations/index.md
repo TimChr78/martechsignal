@@ -1,6 +1,6 @@
 # Braze moves AI into campaign ops: who approves?
 
-AI AGENTS · MARKETING AUTOMATION · 6 MIN
+AI Agents · Marketing Automation · 6 min read
 
 ## Braze moved AI from content to campaign operations: who approves when the campaign runs itself
 
@@ -8,7 +8,7 @@ AI AGENTS · MARKETING AUTOMATION · 6 MIN
 
 [Home](/) · [Blog](/blog/) · Braze moved AI from content to campaign operations: who approves when the campaign runs itself
 
-OCT 07, 2026
+07 Oct 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Agent Skills](/categories/agent-skills/)
 
@@ -55,8 +55,8 @@ One review screen where a human blesses agent-assembled work before anything shi
 
 ## Related reading
 
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Related tools
 

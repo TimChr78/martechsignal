@@ -1,6 +1,6 @@
 # Agent protocol vs data plumbing: what actually fails
 
-AUTOMATION · AI AGENTS · 8 MIN
+Automation · AI Agents · 8 min read
 
 ## Your agent protocol matters less than your data plumbing
 
@@ -8,7 +8,7 @@ AUTOMATION · AI AGENTS · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Your agent protocol matters less than your data plumbing
 
-SEP 23, 2026
+23 Sep 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 

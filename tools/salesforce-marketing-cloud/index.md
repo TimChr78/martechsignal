@@ -134,7 +134,7 @@ The product is being rebranded. Salesforce now presents it as Agentforce Marketi
 **Is there a free trial for Marketing Cloud?**
 Only at the small end. Starter Suite and Pro Suite carry a 'try for free' link on the pricing page. Marketing Cloud Next Growth and Advanced list no self-serve trial: they are sold through sales, billed annually, and paid in advance, and the Premier success plan adds 30 percent of net license fees on top of the license.
 
-## Similar Tools
+## Similar tools
 
 - [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
@@ -142,9 +142,9 @@ Only at the small end. Starter Suite and Pro Suite carry a 'try for free' link o
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 ## Related reading
 
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Enterprise estates already bought into Salesforce's cloud stack

@@ -128,7 +128,7 @@ The self-hosted edition is free under AGPLv3 with no user limits in the license.
 **EspoCRM vs SuiteCRM: which open-source CRM fits better?**
 Both are AGPL-licensed PHP applications you self-host, and both cover accounts, contacts, leads, opportunities, cases, and campaigns. The difference is where the automation lives: SuiteCRM ships its workflow engine free in the core, while EspoCRM gates workflows, BPM, and reports behind the paid Advanced Pack, and instead gives you a cleaner interface, multiple pipelines, and a much more complete API story with an OpenAPI spec and clients in seven languages. SuiteCRM's advantage is module depth and longevity on legacy PHP deployments; EspoCRM's is development pace, with the 10.0 line shipped in July 2026.
 
-## Similar Tools
+## Similar tools
 
 - [Krayin CRM](/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
 - [SuiteCRM](/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation

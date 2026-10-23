@@ -2,7 +2,7 @@
 
 ## AI Search Visibility
 
-GLOSSARY
+Glossary
 
 Definition last Updated 2026-10-05
 

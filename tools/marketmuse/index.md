@@ -139,7 +139,7 @@ We found no API documentation anywhere on docs.marketmuse.com, and the site has 
 **What is a MarketMuse query and how many do I need?**
 A query is spent when you enter a focus topic into one of the applications (Research, Compete, or Optimize). The Free plan includes 10 queries a month, Optimize 100, and Research and Strategy are unlimited, so a solo user testing workflows will exhaust the free ceiling in one planning session. Tracked topics and content briefs are counted separately, and both extra seats and extra topics can be purchased as add-ons under Settings, Subscription.
 
-## Similar Tools
+## Similar tools
 
 - [Surfer SEO](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
 - [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers

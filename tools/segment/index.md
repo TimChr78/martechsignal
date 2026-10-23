@@ -143,7 +143,7 @@ On the docs side, yes: every Segment documentation page exposes a markdown versi
 **What is the difference between Segment Connections, Unify, and Engage?**
 Connections is the data pipeline: sources, destinations, Reverse ETL, and warehouse sync. Unify, formerly Profiles, adds identity resolution, a profile explorer, and the Profile API. Engage builds on Unify for activation: audiences, computed and SQL traits, predictions, and campaigns over SMS, email, and WhatsApp. Protocols, the tracking-plan governance layer, is a separate add-on, and each layer gates at a higher plan.
 
-## Similar Tools
+## Similar tools
 
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
 - [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing
@@ -153,8 +153,8 @@ Connections is the data pipeline: sources, destinations, Reverse ETL, and wareho
 ## Related reading
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Teams whose personalization problem is really a data plumbing problem

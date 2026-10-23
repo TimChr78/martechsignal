@@ -7,9 +7,9 @@
 
 Marketing automation platforms reviewed: workflow depth, guardrails, and AI autonomy. 12 tools with dated pricing and verification dates.
 
-12 TOOLS IN THIS CATEGORY
+12 tools in this category
 
-## SUITE PLATFORMS (7)
+## Suite platforms (7)
 
 - [ActiveCampaign](/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses (From $15/mo)
 - [Adobe Marketo Engage](/tools/adobe-marketo/): Enterprise B2B marketing automation with AI-driven lead management and engagement (Enterprise)
@@ -18,7 +18,7 @@ Marketing automation platforms reviewed: workflow depth, guardrails, and AI auto
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools (Freemium from $20/mo)
 - [Ortto](/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features (From $199/mo)
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web (Enterprise)
-## POINT + OPEN-SOURCE TOOLS (5)
+## Point + open-source tools (5)
 
 - [ALwrity](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social (Open Source)
 - [Laudspeaker](/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze (Open Source)
@@ -49,19 +49,19 @@ Vendors in this category: [NocoDB](https://nocodb.com) · [Mautic](https://www.m
 
 ## Reading before you buy
 
-MAPjourneys before vendors
+Mapjourneys before vendors
 
 **
 
-AUTOMATEthe work between channels
+Automatethe work between channels
 
 **
 
-GATEwhat must never fire silently
+Gatewhat must never fire silently
 
 **
 
-PICKfit to your stack
+Pickfit to your stack
 
 IF You are consolidating an enterprise stack and need one vendor to sign
 

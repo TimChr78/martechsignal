@@ -2,7 +2,7 @@
 
 ## Account-Based Marketing (ABM)
 
-GLOSSARY
+Glossary
 
 Definition last Updated 2026-09-28
 

@@ -112,7 +112,7 @@ LangChain has a free tier; paid plans start at $39/mo. Open source (MIT license)
 **Is LangChain a good self-hosted Workflow Automation tool in 2026?**
 For engineers building custom marketing AI: the standard foundation. Marketers should buy the products built on it.
 
-## Similar Tools
+## Similar tools
 
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 - [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
@@ -122,8 +122,8 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $39/mo

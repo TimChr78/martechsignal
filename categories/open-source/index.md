@@ -7,7 +7,7 @@
 
 85 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.
 
-85 TOOLS IN THIS CATEGORY
+85 tools in this category
 
 ## All tools in this category
 

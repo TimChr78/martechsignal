@@ -7,7 +7,7 @@
 
 Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites
 
-6 TOOLS IN THIS CATEGORY
+6 tools in this category
 
 ## All tools in this category
 

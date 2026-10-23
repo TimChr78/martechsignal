@@ -1,6 +1,6 @@
 # AI visibility advice, audited against 775 logged citations
 
-AI SEARCH · SEO · 7 MIN
+AI Search · SEO · 7 min read
 
 ## AI visibility advice, audited against 775 logged citations
 
@@ -8,7 +8,7 @@ AI SEARCH · SEO · 7 MIN
 
 [Home](/) · [Blog](/blog/) · AI visibility advice, audited against 775 logged citations
 
-SEP 22, 2026
+22 Sep 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -81,7 +81,7 @@ The AI-visibility dashboards will keep selling the count, because the count goes
 ## Comparison guides
 
 - [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
-- [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
+- [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
 ## Glossary terms
 
 - [GEO](/glossary/geo/)
@@ -90,6 +90,6 @@ The AI-visibility dashboards will keep selling the count, because the count goes
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SISTRIX](/tools/sistrix/)
+More from the directory: [SendPortal](/tools/sendportal/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

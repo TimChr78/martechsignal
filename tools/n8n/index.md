@@ -119,7 +119,7 @@ n8n has a free tier; paid plans start at €20/mo. Self-hosted Community Edition
 **Is n8n a good self-hosted Workflow Automation tool in 2026?**
 The right choice when you want owned automation with code-level control and no per-task tax.
 
-## Similar Tools
+## Similar tools
 
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [NocoBase](/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast
@@ -128,8 +128,8 @@ The right choice when you want owned automation with code-level control and no p
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for self-hosted workflows with code steps and AI agents.

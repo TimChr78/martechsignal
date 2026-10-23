@@ -1,6 +1,6 @@
 # Agentforce Is Free: What Marketing Ops Can Build
 
-SALESFORCE · AI AGENTS · 9 MIN
+Salesforce · AI Agents · 9 min read
 
 ## Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.
 
@@ -8,7 +8,7 @@ SALESFORCE · AI AGENTS · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.
 
-AUG 07, 2026
+07 Aug 2026
 
 Filed under [CRM](/categories/crm/)
 

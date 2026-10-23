@@ -116,7 +116,7 @@ Warmbly has a free tier; paid plans start at $29/mo. Free to self-host under Apa
 **Is Warmbly a good self-hosted Email Marketing tool in 2026?**
 The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you.
 
-## Similar Tools
+## Similar tools
 
 - [MailCheap](/tools/mailcheap/): Newsletter platform billed per email sent, with full MCP control for AI agents
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
@@ -126,8 +126,8 @@ The most complete open-source cold email stack we have listed, but young (launch
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
-- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier.

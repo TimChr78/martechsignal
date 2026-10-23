@@ -154,7 +154,7 @@ The docs draw the line explicitly: AI Visibility is about tracking, GEO is about
 **Does Frase still integrate with Surfer SEO?**
 We found no Surfer integration in Frase's integrations page or docs index; Surfer is a competitor, and Frase publishes a comparison page against it. The documented integrations are Google Search Console, Google Analytics 4, Google Docs (an OAuth connector for imports, brand voice, and exports), Notion, Slack, Linear, GitHub, and direct publishing to WordPress, Webflow, Sanity, and Wix, with Zapier, Make, and n8n possible through the REST API. An earlier Chrome extension is not documented anywhere we could read.
 
-## Similar Tools
+## Similar tools
 
 - [Clearscope](/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
 - [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
@@ -163,8 +163,8 @@ We found no Surfer integration in Frase's integrations page or docs index; Surfe
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for small content teams that want research, briefs and drafting in one tool.

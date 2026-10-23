@@ -110,7 +110,7 @@ Attribution uses enterprise pricing, so the number depends on your volume and co
 **Is Attribution a good Analytics & Attribution tool in 2026?**
 Reasonable middle ground between spreadsheet attribution and enterprise suites like Rockerbox.
 
-## Similar Tools
+## Similar tools
 
 - [Northbeam](/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce
 - [Triple Whale](/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
@@ -120,8 +120,8 @@ Reasonable middle ground between spreadsheet attribution and enterprise suites l
 ## Related reading
 
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ### Quick Facts
 
 - **Pricing:** Enterprise

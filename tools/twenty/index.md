@@ -142,7 +142,7 @@ Through CSV import or the API (the pricing FAQ suggests the API for 50,000-plus 
 **Does Twenty train AI models on my CRM data?**
 Twenty has no model of its own; the legal FAQ states that CRM content can be used to train AI models depending on the terms of its AI sub-processors, which is as much as it can control. You can turn AI off completely by disabling all models under Settings, AI, Models. Cloud data sits on AWS in Frankfurt, Germany, sub-processors are listed at trust.twenty.com, and EU standard contractual clauses apply.
 
-## Similar Tools
+## Similar tools
 
 - [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
 - [Warpdrive](/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box

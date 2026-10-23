@@ -1,6 +1,6 @@
 # Your Dashboard Can't See AI Search: 5-Layer Fix
 
-SEO · AI SEARCH · 11 MIN
+SEO · AI Search · 11 min read
 
 ## Your Dashboard Can't See AI Search, Here's the 5-Layer Fix
 
@@ -8,7 +8,7 @@ SEO · AI SEARCH · 11 MIN
 
 [Home](/) · [Blog](/blog/) · Your Dashboard Can't See AI Search, Here's the 5-Layer Fix
 
-AUG 22, 2026
+22 Aug 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -101,12 +101,12 @@ This post is part of the [generative engine optimization hub](/guides/generative
 - [Rankscale](/tools/rankscale/) - AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 ## Comparison guides
 
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
-- [AI Visibility](/glossary/ai-search-visibility/)
+- [GEO](/glossary/geo/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

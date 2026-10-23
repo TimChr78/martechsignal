@@ -220,6 +220,10 @@ main a.btn:hover, main a.btn-sm:hover, main a.btn-cta:hover { color: var(--accen
 .fig b, .stat .num { font: 500 2.25rem/1 var(--serif); letter-spacing: -.02em; font-variant-numeric: tabular-nums; color: var(--ink) }
 .fig span, .stat .lbl { color: var(--muted); font-size: .9375rem; text-align: right }
 .page-home section.section { padding: 2.75rem 0 1rem }
+/* prose sections (comparisons strip, how-to-read): reading measure + rhythm */
+.page-home section.section > p { max-width: 68ch; margin-top: 1rem; color: var(--ink-2) }
+.page-home section.section > p.lede { margin-top: 0; color: var(--ink-2) }
+.page-home section.section > p:last-child:not(.lede) { margin-bottom: .5rem }
 .latest { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 3rem }
 .lead a, .list a { text-decoration: none; color: inherit }
 .meta .cat { color: var(--accent); font-weight: 600 }
@@ -429,6 +433,9 @@ td.num, th.num, .num { text-align: right; font-variant-numeric: tabular-nums; wh
    TOOLS + HUBS (.page-tools)
    ============================================================ */
 .page-tools main { padding-bottom: 1rem }
+/* running prose on best / vs / alternatives / hub pages: serif, with rhythm */
+.page-tools main > p:not([class]), .page-tools main > section > p:not([class]), .page-tools main > article > p:not([class]), .best-item > p:not([class]), .alt-item > p:not([class]) { font: 400 1.0625rem/1.65 var(--serif); color: var(--ink); margin: 0 0 1rem; max-width: 70ch }
+.page-tools main > h2, .page-tools main > section > h2 { margin: 2.25rem 0 .75rem }
 .tool-body, .page-tools main > p, .page-tools .detail-main p, .page-tools main li { max-width: 72ch }
 
 /* tool cards: hairline panels, no lift */
@@ -575,9 +582,9 @@ ul.integ-list li a:hover { color: var(--accent) }
 .momentum { font-variant-numeric: tabular-nums }
 
 /* corrections log */
-.corr-wrap { margin: 2rem 0 }
-.corr { display: grid; grid-template-columns: 8rem minmax(0, 1fr); gap: 1.25rem; padding: 1rem 0; border-top: 1px solid var(--line) }
-.corr-date { font-size: .875rem; color: var(--muted); font-variant-numeric: tabular-nums }
+.corr-wrap { margin: 2rem 0; max-width: none; padding: 0 }
+.corr { display: grid; grid-template-columns: 8rem minmax(0, 1fr); gap: 1.25rem; padding: 1rem 0; margin: 0; border: 0; border-top: 1px solid var(--line); border-radius: 0; background: none }
+.corr-date { font: 400 .875rem var(--sans); letter-spacing: 0; color: var(--muted); font-variant-numeric: tabular-nums }
 .corr-title { font-size: 1.15rem; margin-bottom: .3rem }
 .corr-body { color: var(--ink-2) }
 @media (max-width: 560px) { .corr { grid-template-columns: 1fr; gap: .25rem } }

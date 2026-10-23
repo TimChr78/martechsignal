@@ -77,96 +77,10 @@
 <link rel="preload" href="/fonts/newsreader-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
 <script src="/theme.js"></script>
-<style>:root{color-scheme: light;--bg: #F6F4EF;--surface: #FFFFFF;--sunk: #EFECE5;--ink: #18181B;--ink-2: #3F3D39;--muted: #67635B;--line: #DDD8CD;--rule: #18181B;--accent: #B93A1A;--accent-ink: #FFFFFF;--tint: #F5E4DC;--pos: #1E6F47;--neg: #B42318;--serif: 'Newsreader', 'Newsreader-fallback', Georgia, serif;--sans: 'Archivo', 'Archivo-fallback', system-ui, sans-serif;--code: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;--card: var(--surface);--line2: var(--line);--text: var(--ink);--border: var(--line);--panel: var(--surface);--amber: var(--accent);--green: var(--pos);--red: var(--neg);--ok-text: var(--pos);--red-text: var(--neg);--mono: var(--sans);--disp: var(--serif);--body: var(--sans)}:root[data-theme=dark]{color-scheme: dark;--bg: #131312;--surface: #1B1B19;--sunk: #0E0E0D;--ink: #ECE9E2;--ink-2: #CFCBC2;--muted: #9C978D;--line: #2D2C29;--rule: #ECE9E2;--accent: #F0754F;--accent-ink: #131312;--tint: #2B1C16;--pos: #5DBE8A;--neg: #F08A74}@media (prefers-color-scheme: dark){:root:not([data-theme=light]){color-scheme: dark;--bg: #131312;--surface: #1B1B19;--sunk: #0E0E0D;--ink: #ECE9E2;--ink-2: #CFCBC2;--muted: #9C978D;--line: #2D2C29;--rule: #ECE9E2;--accent: #F0754F;--accent-ink: #131312;--tint: #2B1C16;--pos: #5DBE8A;--neg: #F08A74}}*{margin: 0;padding: 0;box-sizing: border-box}html{scroll-behavior: smooth;-webkit-text-size-adjust: 100%}html, body{overflow-x: clip}body{background: var(--bg);color: var(--ink);font: 400 1rem/1.6 var(--sans);-webkit-font-smoothing: antialiased;font-variant-numeric: lining-nums}a{color: inherit}::selection{background: var(--accent);color: var(--accent-ink)}.wrap{max-width: 1120px;margin: 0 auto;padding-inline: 1.5rem}@media (prefers-reduced-motion: reduce){html{scroll-behavior: auto}}.topbar{border-bottom: 1px solid var(--line);font-size: .8125rem;color: var(--muted)}.theme-toggle{display: inline-flex;align-items: center;gap: .4rem;margin-left: auto;background: none;border: 1px solid var(--line);border-radius: 999px;padding: .2rem .65rem;font: 500 .8125rem var(--sans);color: var(--ink-2);cursor: pointer}.theme-toggle[hidden]{display: none}.theme-toggle:hover{border-color: var(--ink-2);color: var(--ink)}.theme-toggle svg{width: 14px;height: 14px;flex: none}.masthead{border-bottom: 1px solid var(--rule)}.mast-in{display: flex;align-items: baseline;justify-content: space-between;gap: 2rem;padding-block: 1.1rem .9rem}.wordmark{font: 600 1.75rem/1 var(--serif);letter-spacing: -.02em;text-decoration: none;color: var(--ink);display: inline-flex;align-items: baseline;gap: .35rem;flex: none}.wordmark b{font-weight: inherit;color: inherit}.wordmark .mark{display: inline-flex;align-items: flex-end;gap: 2px;height: .7em}.wordmark .mark i{display: block;width: 4px;background: var(--accent)}.wordmark .mark i:nth-child(1){height: 40%}.wordmark .mark i:nth-child(2){height: 70%}.wordmark .mark i:nth-child(3){height: 100%}.mast-nav{display: flex;gap: 1.6rem;font-size: .9375rem}.mast-nav a{text-decoration: none;color: var(--ink-2);padding: .25rem 0;border-bottom: 2px solid transparent}.mast-nav a:hover{color: var(--ink);border-bottom-color: var(--accent)}.mast-nav a[aria-current=page]{color: var(--ink);border-bottom-color: var(--ink)}.mast-nav .nav-sub{color: var(--accent);font-weight: 600}@media (max-width: 900px){.mast-in{flex-direction: column;align-items: flex-start;gap: .35rem;padding-block: .9rem 0}.mast-nav{gap: 1.25rem;max-width: 100%;overflow-x: auto;scrollbar-width: none;-webkit-mask-image: linear-gradient(90deg, #000 85%, transparent);mask-image: linear-gradient(90deg, #000 85%, transparent)}.mast-nav::-webkit-scrollbar{display: none}.mast-nav a{flex: none;min-height: 44px;display: inline-flex;align-items: center;padding: 0}}@media (max-width: 560px){.wrap{padding-inline: 1.125rem}.wordmark{font-size: 1.5rem}}.eyebrow, .kicker, .hero-kicker{font: 600 .8125rem/1.4 var(--sans);color: var(--accent);margin-bottom: .9rem;letter-spacing: 0;text-transform: none}.lede, .dek{font: 400 1.25rem/1.5 var(--serif);color: var(--ink-2);max-width: 38rem;margin: 1rem 0 1.5rem}.sub{color: var(--ink-2)}.count{font-size: .875rem;color: var(--muted)}.meta{font-size: .8125rem;color: var(--muted)}.byline{font-size: .875rem;color: var(--muted)}.byline a{color: var(--ink);text-decoration-color: var(--line);text-underline-offset: .2em}.disclosure-strip, .kind-note{font-size: .8125rem;color: var(--muted);margin: .5rem 0 0}.disclosure-strip a, .kind-note a{color: var(--ink-2)}.back, .alt-back a{font: 500 .875rem var(--sans);color: var(--muted);text-decoration: none}.back:hover, .alt-back a:hover{color: var(--accent)}.btn, .btn-sm, .btn-cta{display: inline-block;background: var(--ink);color: var(--bg);font: 600 .9375rem/1.2 var(--sans);text-decoration: none;padding: .75rem 1.25rem;border: 0;border-radius: 4px;cursor: pointer;text-align: center}.btn:hover, .btn-sm:hover, .btn-cta:hover{background: var(--accent);color: var(--accent-ink)}.btn.accent{background: var(--accent);color: var(--accent-ink)}.hero-cta, .hero-ctas, .actions{display: flex;align-items: center;gap: 1.4rem;flex-wrap: wrap}.cat-nav{display: flex;gap: .5rem;flex-wrap: wrap;padding: 1.25rem 0}.cat-pill{font: 500 .875rem var(--sans);padding: .4rem .8rem;border-radius: 999px;border: 1px solid var(--line);color: var(--ink-2);text-decoration: none;background: transparent}.cat-pill:hover{border-color: var(--ink-2);color: var(--ink)}.cat-pill.active{background: var(--ink);border-color: var(--ink);color: var(--bg)}.crumb, .breadcrumbs, .crumbs{padding: 1.25rem 0 0;font-size: .875rem;color: var(--muted)}.crumb ol{list-style: none;display: flex;flex-wrap: wrap;align-items: center}.crumb li{display: flex;align-items: center}.crumb li:not(:last-child)::after, .crumb-sep{content: "/";margin-inline: .45rem;color: var(--line)}.crumb a, .breadcrumbs a, .crumbs a{color: var(--muted);text-decoration: none;display: inline-flex;align-items: center;min-height: 32px}.crumb a:hover{color: var(--accent)}.crumb span{color: var(--ink-2)}.page-head{padding: 1.5rem 0 2rem;border-bottom: 1px solid var(--line)}.page-head h1{max-width: 46rem}.page-head .sub, .page-head > p:not([class]){font: 400 1.2rem/1.5 var(--serif);color: var(--ink-2);margin-top: .8rem;max-width: 42rem}.page-head .count{margin-top: .9rem}.page-head .byline{margin-top: .6rem}.alt-link{font-size: .875rem;margin-top: .4rem;color: var(--muted)}.cta-early{margin-top: .9rem}.cta-early a{font: 600 .9375rem var(--sans);color: var(--ink);text-decoration: underline;text-decoration-color: var(--accent);text-decoration-thickness: 2px;text-underline-offset: .25em}.hero{display: grid;grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);gap: 4rem;padding: 3.5rem 0 3rem;border-bottom: 1px solid var(--line)}.hero h1{font-size: clamp(2.4rem, 5.2vw, 4rem);line-height: 1.04;letter-spacing: -.025em}.hero h1 em, .hero h1 .hl{font-style: italic;font-weight: 400;color: var(--muted)}.figures, .stats-card{align-self: end;border-top: 2px solid var(--rule)}.figures h2, .stats-card h2{font: 600 .8125rem var(--sans);color: var(--muted);padding: .6rem 0 .2rem}.fig, .stat{display: flex;align-items: baseline;justify-content: space-between;gap: 1rem;border-bottom: 1px solid var(--line);padding: .75rem 0;text-align: left}.fig b, .stat .num{font: 500 2.25rem/1 var(--serif);letter-spacing: -.02em;font-variant-numeric: tabular-nums;color: var(--ink)}.fig span, .stat .lbl{color: var(--muted);font-size: .9375rem;text-align: right}.meta .cat{color: var(--accent);font-weight: 600}@media (max-width: 860px){.hero, .latest{grid-template-columns: minmax(0, 1fr);gap: 2rem}}@media (max-width: 560px){.hero{padding: 2rem 0;gap: 1.75rem}.hero h1{font-size: 2.35rem}.lede, .dek{font-size: 1.125rem}.figures, .stats-card{display: grid;grid-template-columns: repeat(3, 1fr);border-top-width: 1px}.figures h2, .stats-card h2{grid-column: 1 / -1}.fig, .stat{flex-direction: column;align-items: flex-start;gap: .3rem;border-bottom: 0;padding: .4rem 0 0}.fig b, .stat .num{font-size: 2rem}.fig span, .stat .lbl{text-align: left;font-size: .8125rem;line-height: 1.3}}#progress{position: fixed;top: 0;left: 0;height: 2px;width: 0;background: var(--accent);z-index: 99}@media (prefers-reduced-motion: reduce){#progress{display: none}}.post-hero{width: 100%;height: auto;display: block;border-radius: 0;margin: .5rem 0 1rem}.page-post article :is(.kicker, .meta, .disclosure-strip, .byline, .made-badge){font-family: var(--sans);font-size: .8125rem;line-height: 1.5;color: var(--muted)}.verdict-cta{margin: 0 0 1.5rem}.page-tools main{padding-bottom: 1rem}.tool-body, .page-tools main > p, .page-tools .detail-main p, .page-tools main li{max-width: 72ch}.tool-grid{display: grid;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));gap: 0 2rem;padding: 1rem 0 2rem}.tool-card{display: flex;flex-direction: column;gap: .4rem;padding: 1.1rem 0 1.2rem;border-top: 1px solid var(--line);text-decoration: none;color: inherit;background: none;border-radius: 0}.tool-card .name{font: 500 1.25rem/1.25 var(--serif);letter-spacing: -.01em;margin: 0;color: var(--ink)}.tool-card:hover .name{color: var(--accent)}.tool-card .tagline{color: var(--ink-2);font-size: .9375rem;line-height: 1.5;flex: 1}.tool-card .meta{display: flex;gap: .4rem;flex-wrap: wrap;align-items: center;margin-top: .3rem}.tool-card img{width: 100%;height: auto;display: block;border: 1px solid var(--line);margin-bottom: .4rem}.tool-card.is-hidden, .hub-group.is-hidden{display: none}.page-tools main h2, .page-tools main h3{max-width: 40ch}.page-tools .sec-head h2, .page-tools .hub-group-label{max-width: none}@media (max-width: 700px){.crumb a, .byline a, .post-meta a{position: relative}.crumb a::after, .byline a::after, .post-meta a::after{content: "";position: absolute;inset-block: -8px;inset-inline: -4px}}</style>
-<link rel="stylesheet" href="/style.min.css?v=b1a31910">
+<style>:root{color-scheme: light;--bg: #F6F4EF;--surface: #FFFFFF;--sunk: #EFECE5;--ink: #18181B;--ink-2: #3F3D39;--muted: #67635B;--line: #DDD8CD;--rule: #18181B;--accent: #B93A1A;--accent-ink: #FFFFFF;--tint: #F5E4DC;--pos: #1E6F47;--neg: #B42318;--serif: 'Newsreader', 'Newsreader-fallback', Georgia, serif;--sans: 'Archivo', 'Archivo-fallback', system-ui, sans-serif;--code: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;--card: var(--surface);--line2: var(--line);--text: var(--ink);--border: var(--line);--panel: var(--surface);--amber: var(--accent);--green: var(--pos);--red: var(--neg);--ok-text: var(--pos);--red-text: var(--neg);--mono: var(--sans);--disp: var(--serif);--body: var(--sans)}:root[data-theme=dark]{color-scheme: dark;--bg: #131312;--surface: #1B1B19;--sunk: #0E0E0D;--ink: #ECE9E2;--ink-2: #CFCBC2;--muted: #9C978D;--line: #2D2C29;--rule: #ECE9E2;--accent: #F0754F;--accent-ink: #131312;--tint: #2B1C16;--pos: #5DBE8A;--neg: #F08A74}@media (prefers-color-scheme: dark){:root:not([data-theme=light]){color-scheme: dark;--bg: #131312;--surface: #1B1B19;--sunk: #0E0E0D;--ink: #ECE9E2;--ink-2: #CFCBC2;--muted: #9C978D;--line: #2D2C29;--rule: #ECE9E2;--accent: #F0754F;--accent-ink: #131312;--tint: #2B1C16;--pos: #5DBE8A;--neg: #F08A74}}*{margin: 0;padding: 0;box-sizing: border-box}html{scroll-behavior: smooth;-webkit-text-size-adjust: 100%}html, body{overflow-x: clip}body{background: var(--bg);color: var(--ink);font: 400 1rem/1.6 var(--sans);-webkit-font-smoothing: antialiased;font-variant-numeric: lining-nums}a{color: inherit}::selection{background: var(--accent);color: var(--accent-ink)}.wrap{max-width: 1120px;margin: 0 auto;padding-inline: 1.5rem}@media (prefers-reduced-motion: reduce){html{scroll-behavior: auto}}.topbar{border-bottom: 1px solid var(--line);font-size: .8125rem;color: var(--muted)}.theme-toggle{display: inline-flex;align-items: center;gap: .4rem;margin-left: auto;background: none;border: 1px solid var(--line);border-radius: 999px;padding: .2rem .65rem;font: 500 .8125rem var(--sans);color: var(--ink-2);cursor: pointer}.theme-toggle[hidden]{display: none}.theme-toggle:hover{border-color: var(--ink-2);color: var(--ink)}.theme-toggle svg{width: 14px;height: 14px;flex: none}.masthead{border-bottom: 1px solid var(--rule)}.mast-in{display: flex;align-items: baseline;justify-content: space-between;gap: 2rem;padding-block: 1.1rem .9rem}.wordmark{font: 600 1.75rem/1 var(--serif);letter-spacing: -.02em;text-decoration: none;color: var(--ink);display: inline-flex;align-items: baseline;gap: .35rem;flex: none}.wordmark b{font-weight: inherit;color: inherit}.wordmark .mark{display: inline-flex;align-items: flex-end;gap: 2px;height: .7em}.wordmark .mark i{display: block;width: 4px;background: var(--accent)}.wordmark .mark i:nth-child(1){height: 40%}.wordmark .mark i:nth-child(2){height: 70%}.wordmark .mark i:nth-child(3){height: 100%}.mast-nav{display: flex;gap: 1.6rem;font-size: .9375rem}.mast-nav a{text-decoration: none;color: var(--ink-2);padding: .25rem 0;border-bottom: 2px solid transparent}.mast-nav a:hover{color: var(--ink);border-bottom-color: var(--accent)}.mast-nav a[aria-current=page]{color: var(--ink);border-bottom-color: var(--ink)}.mast-nav .nav-sub{color: var(--accent);font-weight: 600}@media (max-width: 900px){.mast-in{flex-direction: column;align-items: flex-start;gap: .35rem;padding-block: .9rem 0}.mast-nav{gap: 1.25rem;max-width: 100%;overflow-x: auto;scrollbar-width: none;-webkit-mask-image: linear-gradient(90deg, #000 85%, transparent);mask-image: linear-gradient(90deg, #000 85%, transparent)}.mast-nav::-webkit-scrollbar{display: none}.mast-nav a{flex: none;min-height: 44px;display: inline-flex;align-items: center;padding: 0}}@media (max-width: 560px){.wrap{padding-inline: 1.125rem}.wordmark{font-size: 1.5rem}}.eyebrow, .kicker, .hero-kicker{font: 600 .8125rem/1.4 var(--sans);color: var(--accent);margin-bottom: .9rem;letter-spacing: 0;text-transform: none}.lede, .dek{font: 400 1.25rem/1.5 var(--serif);color: var(--ink-2);max-width: 38rem;margin: 1rem 0 1.5rem}.sub{color: var(--ink-2)}.count{font-size: .875rem;color: var(--muted)}.meta{font-size: .8125rem;color: var(--muted)}.byline{font-size: .875rem;color: var(--muted)}.byline a{color: var(--ink);text-decoration-color: var(--line);text-underline-offset: .2em}.disclosure-strip, .kind-note{font-size: .8125rem;color: var(--muted);margin: .5rem 0 0}.disclosure-strip a, .kind-note a{color: var(--ink-2)}.back, .alt-back a{font: 500 .875rem var(--sans);color: var(--muted);text-decoration: none}.back:hover, .alt-back a:hover{color: var(--accent)}.btn, .btn-sm, .btn-cta{display: inline-block;background: var(--ink);color: var(--bg);font: 600 .9375rem/1.2 var(--sans);text-decoration: none;padding: .75rem 1.25rem;border: 0;border-radius: 4px;cursor: pointer;text-align: center}.btn:hover, .btn-sm:hover, .btn-cta:hover{background: var(--accent);color: var(--accent-ink)}.btn.accent{background: var(--accent);color: var(--accent-ink)}.hero-cta, .hero-ctas, .actions{display: flex;align-items: center;gap: 1.4rem;flex-wrap: wrap}.cat-nav{display: flex;gap: .5rem;flex-wrap: wrap;padding: 1.25rem 0}.cat-pill{font: 500 .875rem var(--sans);padding: .4rem .8rem;border-radius: 999px;border: 1px solid var(--line);color: var(--ink-2);text-decoration: none;background: transparent}.cat-pill:hover{border-color: var(--ink-2);color: var(--ink)}.cat-pill.active{background: var(--ink);border-color: var(--ink);color: var(--bg)}.crumb, .breadcrumbs, .crumbs{padding: 1.25rem 0 0;font-size: .875rem;color: var(--muted)}.crumb ol{list-style: none;display: flex;flex-wrap: wrap;align-items: center}.crumb li{display: flex;align-items: center}.crumb li:not(:last-child)::after, .crumb-sep{content: "/";margin-inline: .45rem;color: var(--line)}.crumb a, .breadcrumbs a, .crumbs a{color: var(--muted);text-decoration: none;display: inline-flex;align-items: center;min-height: 32px}.crumb a:hover{color: var(--accent)}.crumb span{color: var(--ink-2)}.page-head{padding: 1.5rem 0 2rem;border-bottom: 1px solid var(--line)}.page-head h1{max-width: 46rem}.page-head .sub, .page-head > p:not([class]){font: 400 1.2rem/1.5 var(--serif);color: var(--ink-2);margin-top: .8rem;max-width: 42rem}.page-head .count{margin-top: .9rem}.page-head .byline{margin-top: .6rem}.alt-link{font-size: .875rem;margin-top: .4rem;color: var(--muted)}.cta-early{margin-top: .9rem}.cta-early a{font: 600 .9375rem var(--sans);color: var(--ink);text-decoration: underline;text-decoration-color: var(--accent);text-decoration-thickness: 2px;text-underline-offset: .25em}.hero{display: grid;grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);gap: 4rem;padding: 3.5rem 0 3rem;border-bottom: 1px solid var(--line)}.hero h1{font-size: clamp(2.4rem, 5.2vw, 4rem);line-height: 1.04;letter-spacing: -.025em}.hero h1 em, .hero h1 .hl{font-style: italic;font-weight: 400;color: var(--muted)}.figures, .stats-card{align-self: end;border-top: 2px solid var(--rule)}.figures h2, .stats-card h2{font: 600 .8125rem var(--sans);color: var(--muted);padding: .6rem 0 .2rem}.fig, .stat{display: flex;align-items: baseline;justify-content: space-between;gap: 1rem;border-bottom: 1px solid var(--line);padding: .75rem 0;text-align: left}.fig b, .stat .num{font: 500 2.25rem/1 var(--serif);letter-spacing: -.02em;font-variant-numeric: tabular-nums;color: var(--ink)}.fig span, .stat .lbl{color: var(--muted);font-size: .9375rem;text-align: right}.meta .cat{color: var(--accent);font-weight: 600}@media (max-width: 860px){.hero, .latest{grid-template-columns: minmax(0, 1fr);gap: 2rem}}@media (max-width: 560px){.hero{padding: 2rem 0;gap: 1.75rem}.hero h1{font-size: 2.35rem}.lede, .dek{font-size: 1.125rem}.figures, .stats-card{display: grid;grid-template-columns: repeat(3, 1fr);border-top-width: 1px}.figures h2, .stats-card h2{grid-column: 1 / -1}.fig, .stat{flex-direction: column;align-items: flex-start;gap: .3rem;border-bottom: 0;padding: .4rem 0 0}.fig b, .stat .num{font-size: 2rem}.fig span, .stat .lbl{text-align: left;font-size: .8125rem;line-height: 1.3}}#progress{position: fixed;top: 0;left: 0;height: 2px;width: 0;background: var(--accent);z-index: 99}@media (prefers-reduced-motion: reduce){#progress{display: none}}.post-hero{width: 100%;height: auto;display: block;border-radius: 0;margin: .5rem 0 1rem}.page-post article :is(.kicker, .meta, .disclosure-strip, .byline, .made-badge){font-family: var(--sans);font-size: .8125rem;line-height: 1.5;color: var(--muted)}.verdict-cta{margin: 0 0 1.5rem}.page-tools main{padding-bottom: 1rem}.page-tools main > p:not([class]), .page-tools main > section > p:not([class]), .page-tools main > article > p:not([class]), .best-item > p:not([class]), .alt-item > p:not([class]){font: 400 1.0625rem/1.65 var(--serif);color: var(--ink);margin: 0 0 1rem;max-width: 70ch}.page-tools main > h2, .page-tools main > section > h2{margin: 2.25rem 0 .75rem}.tool-body, .page-tools main > p, .page-tools .detail-main p, .page-tools main li{max-width: 72ch}.tool-grid{display: grid;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));gap: 0 2rem;padding: 1rem 0 2rem}.tool-card{display: flex;flex-direction: column;gap: .4rem;padding: 1.1rem 0 1.2rem;border-top: 1px solid var(--line);text-decoration: none;color: inherit;background: none;border-radius: 0}.tool-card .name{font: 500 1.25rem/1.25 var(--serif);letter-spacing: -.01em;margin: 0;color: var(--ink)}.tool-card:hover .name{color: var(--accent)}.tool-card .tagline{color: var(--ink-2);font-size: .9375rem;line-height: 1.5;flex: 1}.tool-card .meta{display: flex;gap: .4rem;flex-wrap: wrap;align-items: center;margin-top: .3rem}.tool-card img{width: 100%;height: auto;display: block;border: 1px solid var(--line);margin-bottom: .4rem}.tool-card.is-hidden, .hub-group.is-hidden{display: none}.page-tools main h2, .page-tools main h3{max-width: 40ch}.page-tools .sec-head h2, .page-tools .hub-group-label{max-width: none}@media (max-width: 700px){.crumb a, .byline a, .post-meta a{position: relative}.crumb a::after, .byline a::after, .post-meta a::after{content: "";position: absolute;inset-block: -8px;inset-inline: -4px}}</style>
+<link rel="stylesheet" href="/style.min.css?v=343e1541">
 <script src="/site.js?v=8476a6b0" defer></script>
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
-<style>
-/* ── Concept D homepage ── */
-.dot-grid{position:fixed;inset:0;z-index:-2;background-image:radial-gradient(circle,rgba(255,255,255,.03) 1px,transparent 1px);background-size:28px 28px}
-.glow{position:fixed;border-radius:50%;filter:blur(120px);z-index:-1;pointer-events:none}
-.glow-amber{width:500px;height:500px;background:rgba(255,178,36,.06);top:-180px;right:-120px}
-.glow-green{width:400px;height:400px;background:rgba(61,220,151,.05);bottom:-100px;left:-100px}
-.masthead{position:sticky;top:0;z-index:50;background:rgba(8,14,26,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.mast-in{max-width:1100px;margin:0 auto;padding:.9rem 1.5rem;display:flex;align-items:center;justify-content:space-between}
-.wordmark b{color:var(--amber)}
-@keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(255,178,36,.4)}50%{opacity:.7;box-shadow:0 0 0 6px rgba(255,178,36,0)}}
-.mast-nav{display:flex;gap:1.5}
-.mast-nav a{font:600 0.8 var(--mono);letter-spacing:0.08em;color:var(--muted);text-decoration:none;transition:color .2s}
-.mast-nav a:hover{color:var(--amber)}
-.hero{display:block;max-width:1100px;margin:0 auto;padding:4rem 1.5rem 3rem}
-.hero-kicker{font:700 0.75rem var(--mono);letter-spacing:0.08em;color:var(--green);margin-bottom:1.2rem;display:flex;align-items:center;gap:.6rem}
-.hero-kicker::before{content:"";width:22px;height:2px;background:var(--green)}
-.hero h1{font-family:var(--disp);font-size:clamp(2.2rem,5.5vw,3.6rem);line-height:1.08;margin-bottom:1.4rem;max-width:22ch}
-.hero h1 .hl{color:var(--amber)}
-@keyframes swipe{to{transform:scaleX(1)}}
-.hero p{font-size:1.05rem;color:var(--muted);max-width:52ch;line-height:1.7}
-.stats-band{max-width:1100px;margin:0 auto;padding:0 1.5rem 3rem}
-.stats-in{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
-.stat{background:var(--card);padding:1.6rem 1.4rem;text-align:center}
-.stat .num{font-family:var(--disp);font-size:2rem;color:var(--amber);display:block}
-.stat .lbl{font:600 0.75rem var(--mono);letter-spacing:0.08em;color:var(--muted);margin-top:.3rem;display:block}
-@media(max-width:700px){.stat .lbl,.section-head a{font-size:13px}}
-.section{max-width:1100px;margin:0 auto;padding:0 1.5rem 3.5rem}
-.section-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:1.5rem}
-.section-head h2{font-family:var(--body);font-weight:800;font-size:1.4rem;letter-spacing:-.01em}
-.section-head a{font:600 0.75rem var(--mono);letter-spacing:0.08em;color:var(--amber);text-decoration:none}
-.section-head a:hover{text-decoration:underline}
-.stories{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
-.story{display:block;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1.5rem;text-decoration:none;transition:border-color .25s,transform .25s}
-.story:hover{border-color:var(--amber);transform:translateY(-3px)}
-.story-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:.8rem}
-.story .kicker{font:700 0.75rem var(--mono);letter-spacing:0.08em;color:var(--green)}
-.story .no{font:700 0.75rem var(--mono);color:var(--muted)}
-.story h3{font-family:var(--body);font-weight:700;font-size:1.05rem;line-height:1.35;color:var(--text);margin-bottom:.6rem}
-.story p{font-size:.85rem;color:var(--muted);line-height:1.6;margin-bottom:1rem}
-.story-cta{font:700 0.8 var(--mono);letter-spacing:0.08em;color:var(--amber)}
-.tool-index{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
-.tool-row{display:flex;align-items:center;justify-content:space-between;padding:.9rem 1rem;background:var(--card);border:1px solid var(--line);border-radius:4px;text-decoration:none;transition:border-color .2s}
-.take { min-width: 0 }
-.tool-row:hover{border-color:var(--amber)}
-.tool-row .name{font:700 .85rem var(--body);color:var(--text)}
-.tool-row .take{font-size:.75rem;color:var(--muted);flex:1;margin:0 1rem}
-.tool-row .tag{font:600 0.75rem var(--mono);letter-spacing:0.08em;color:var(--green);white-space:nowrap}
-.more-tools{display:block;text-align:center;margin-top:1.2rem;font:700 0.75rem var(--mono);letter-spacing:0.08em;color:var(--amber);text-decoration:none}
-.more-tools:hover{text-decoration:underline}
-.subscribe{max-width:1100px;margin:0 auto;padding:0 1.5 4}
-.sub-in{background:linear-gradient(160deg,#122036,var(--card));border:1px solid var(--line2);border-top:3px solid var(--amber);border-radius:6px;padding:2.5rem;text-align:center}
-.sub-in h2{font-family:var(--disp);font-size:1.8rem;margin-bottom:.5rem}
-.sub-in h2 .amber{color:var(--amber)}
-.sub-in>p{color:var(--muted);font-size:.9rem;max-width:34rem;margin:0 auto 1.5rem}
-.sub-form{display:flex;gap:.6rem;max-width:28rem;margin:0 auto}
-.sub-form input{flex:1;background:#0A1120;border:1px solid var(--line2);border-radius:4px;padding:.7rem 1rem;color:var(--text);font:500 .85rem var(--body)}
-.sub-form input:focus{outline:none;border-color:var(--amber)}
-.sub-form button{background:var(--amber);color:#080E1A;border:none;border-radius:4px;padding:.7rem 1.4rem;font:700 0.75rem var(--mono);letter-spacing:0.08em;cursor:pointer;transition:opacity .2s}
-.sub-form button:hover{opacity:.85}
-.foot{border-top:1px solid var(--line);padding:2 1.5}
-.foot-in{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between}
-.foot-in p{font-size:0.8;color:var(--muted)}
-.foot-in p b{color:var(--text)}
-.foot-links{display:flex;gap:1.2}
-.foot-links a{font:600 0.8 var(--mono);letter-spacing:0.08em;color:var(--muted);text-decoration:none}
-.foot-links a:hover{color:var(--amber)}
-html.js .reveal:not(.in){opacity:0;transform:translateY(16px);transition:opacity .5s,transform .5s}
-.reveal.in{opacity:1;transform:none}
-@media(max-width:760px){
-  .wrap{padding-left:20px;padding-right:20px}
-  .hero{padding:2.2rem 1.25rem 1.5rem}
- 
-
-.hero-cols{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:2.5rem;align-items:start}
-.hero-side .stats-card{border:1px solid var(--border);border-radius:14px;padding:1.3rem 1.5rem;display:grid;gap:1rem;background:var(--panel)}
-@media(max-width:1080px){.hero-cols{grid-template-columns:1fr}}
-  .stories,.tool-index{grid-template-columns:1fr}
-  .stats-in{grid-template-columns:1fr}
-  .sub-form{flex-direction:column}
-  .foot-in{flex-direction:column;gap:1;text-align:center}
-}
-@media(prefers-reduced-motion:reduce){
-  .reveal{opacity:1;transform:none;transition:none}
-}
-</style>
-<style>.reveal{opacity:1;transform:none;transition:none}</style>
 <link rel="manifest" href="/site.webmanifest">
 <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -195,107 +109,79 @@ html.js .reveal:not(.in){opacity:0;transform:translateY(16px);transition:opacity
   <nav class="mast-nav" aria-label="Primary"><a href="/tools/">Tools</a><a href="/best/">Best</a><a href="/vs/">Comparisons</a><a href="/alternatives/">Alternatives</a><a href="/categories/">Categories</a><a href="/glossary/">Glossary</a><a href="/blog/">Blog</a><a class="nav-sub" href="/#subscribe">Subscribe</a></nav>
 </div></header>
 
-<main>
+<main class="wrap">
 <section class="hero">
-  <div class="hero-cols">
-    <div class="hero-copy">
-      <p class="hero-kicker">AI MARKETING AUTOMATION · WEEKLY</p>
-      <h1>AI Marketing Tools, Researched.<br><span class="hl">Your stack<br>isn't ready.</span></h1>
-      <p>Every week we audit the AI marketing automation landscape, the agents, the workflows, the vendor lock-in, and tell you what actually works. No sponsored rankings. No press-release rewrites.</p>
-      <div class="hero-ctas" style="margin-top:1.1rem;display:flex;gap:.9rem;flex-wrap:wrap">
-    <a class="btn" href="/tools/">Browse the tools</a>
-    <a class="btn" href="/trending/" style="background:transparent;border:1px solid var(--amber);color:var(--amber)">See what is trending</a>
+  <div>
+    <p class="eyebrow">Weekly research on AI marketing automation</p>
+    <h1>AI marketing tools, researched. <em>Your stack isn’t ready.</em></h1>
+    <p class="lede">Every week we audit the AI marketing automation landscape: the agents, the workflows, the vendor lock-in. Then we tell you what actually works. No sponsored rankings. No press-release rewrites.</p>
+    <div class="actions"><a class="btn" href="/tools/">Browse the tools</a><a class="textlink" href="/trending/">See what’s trending</a></div>
   </div>
-    </div>
-    <aside class="hero-side">
-      <div class="stats-card">
-        <div class="stat"><span class="num" id="s1">170</span><span class="lbl">TOOLS AUDITED</span></div>
-    <div class="stat"><span class="num" id="s2">57</span><span class="lbl">POSTS PUBLISHED</span></div>
-    <div class="stat"><span class="num" id="s3">12</span><span class="lbl">CHECKLIST QUESTIONS</span></div>
-      </div>
-    </aside>
-  </div>
+  <aside class="figures">
+    <h2>By the numbers</h2>
+    <div class="fig"><b id="s1">170</b><span>tools audited</span></div>
+    <div class="fig"><b id="s2">57</b><span>posts published</span></div>
+    <div class="fig"><b id="s3">12</b><span>checklist questions</span></div>
+  </aside>
 </section>
 
 <section class="section">
-  <div class="section-head">
-    <h2>Latest writing</h2>
-    <a href="/blog/">ALL POSTS →</a>
-  </div>
-  <div class="stories">
+  <div class="sec-head"><h2>Latest</h2><a href="/blog/">All posts →</a></div>
+  <div class="latest">
 <!-- LATEST:START -->
-    <a class="story reveal" href="/blog/procedural-memory-agents/">
-      <div class="story-head"><span class="kicker">BLOG · 2026-10-23</span><span class="no">01</span></div>
+    <article class="lead"><a href="/blog/procedural-memory-agents/">
+      <div class="meta"><span class="cat">AI agents</span><span>23 Oct 2026</span></div>
       <h3>Your agents keep failing the same way. Memory of what worked is the fix nobody ships</h3>
       <p>Somewhere in your execution history, two failures have the same shape. The agent said it updated the CRM, and the tool log shows no call. Or it queried a source, got an empty…</p>
-      <span class="story-cta">READ →</span>
-    </a>
-    <a class="story reveal" href="/blog/agent-isolation-not-prompts-2026-10-22/">
-      <div class="story-head"><span class="kicker">BLOG · 2026-10-22</span><span class="no">02</span></div>
-      <h3>Prompts are not a security boundary. Isolation is.</h3>
-      <p>On 4 October 2026, an agent wanted data from Amap, Alibaba's mapping service, and Amap kept refusing it. Anti-bot tokens, CAPTCHAs, the standard wall. Three scans of one park that…</p>
-      <span class="story-cta">READ →</span>
-    </a>
-    <a class="story reveal" href="/blog/hubspot-credit-rules-budget-design-2026-10-20/">
-      <div class="story-head"><span class="kicker">BLOG · 2026-10-20</span><span class="no">03</span></div>
-      <h3>HubSpot's credit rules are a budget design problem, not a pricing problem.</h3>
-      <p>On 15 October HubSpot gave its credits model a set of spending controls: account caps, seat swaps, a pay-as-you-go option. MarTech's coverage framed the change as predictability…</p>
-      <span class="story-cta">READ →</span>
-    </a>
-    <a class="story reveal" href="/blog/agent-fleet-in-the-wild-2026-10-19/">
-      <div class="story-head"><span class="kicker">BLOG · 2026-10-19</span><span class="no">04</span></div>
-      <h3>Someone found a live agent fleet in the wild. Most of its runs failed.</h3>
-      <p>On 4 October 2026 at 16:59 UTC, one agent run finally got its answer. Chengdu Zoo: north gate, 71% of arrivals. East gate, 23%. Southeast gate, 6%. The numbers arrived as plain…</p>
-      <span class="story-cta">READ →</span>
-    </a>
+    </a></article>
+    <div class="list">
+      <a href="/blog/agent-isolation-not-prompts-2026-10-22/"><div class="meta"><span class="cat">AI agents</span><span>22 Oct</span></div><h3>Prompts are not a security boundary. Isolation is.</h3></a>
+      <a href="/blog/hubspot-credit-rules-budget-design-2026-10-20/"><div class="meta"><span class="cat">HubSpot</span><span>20 Oct</span></div><h3>HubSpot's credit rules are a budget design problem, not a pricing problem.</h3></a>
+      <a href="/blog/agent-fleet-in-the-wild-2026-10-19/"><div class="meta"><span class="cat">AI agents</span><span>19 Oct</span></div><h3>Someone found a live agent fleet in the wild. Most of its runs failed.</h3></a>
+    </div>
 <!-- LATEST:END -->
   </div>
 </section>
 
 <section class="section">
-  <div class="section-head">
-    <h2>Tool index</h2>
-    <a href="/tools/">ALL 170 TOOLS →</a>
-  </div>
-  <div class="tool-index">
-    <a class="tool-row" href="/tools/n8n/"><span class="name">n8n</span><span class="take">Open-source workflow automation platform with AI agent capabilities and 400+ nodes</span><span class="tag">AUTOMATION</span></a>
-    <a class="tool-row" href="/tools/langchain/"><span class="name">LangChain</span><span class="take">Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools</span><span class="tag">AUTOMATION</span></a>
-    <a class="tool-row" href="/tools/paperclip/"><span class="name">Paperclip</span><span class="take">Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit</span><span class="tag">AUTOMATION</span></a>
-    <a class="tool-row" href="/tools/strapi/"><span class="name">Strapi</span><span class="take">Open-source headless CMS with AI-powered content management and API-first design</span><span class="tag">CONTENT AI</span></a>
-    <a class="tool-row" href="/tools/nocodb/"><span class="name">NocoDB</span><span class="take">Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet</span><span class="tag">MARKETING AUTO</span></a>
-    <a class="tool-row" href="/tools/twenty/"><span class="name">Twenty</span><span class="take">The open-source alternative to Salesforce, designed for AI with modern CRM workflows</span><span class="tag">CRM</span></a>
-    <a class="tool-row" href="/tools/marketingskills/"><span class="name">Marketing Skills (coreyhaines31)</span><span class="take">~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines</span><span class="tag">AGENT SKILLS</span></a>
-    <a class="tool-row" href="/tools/ghost/"><span class="name">Ghost</span><span class="take">Open-source publishing platform with built-in newsletters, memberships, and AI tools</span><span class="tag">CONTENT AI</span></a>
-  </div>
-  <a class="more-tools" href="/tools/">+162 MORE TOOLS →</a>
+  <div class="sec-head"><h2>Tool index</h2><a href="/tools/">All 170 tools →</a></div>
+  <table class="tindex">
+    <thead><tr><th>Tool</th><th class="desc">What it is</th><th>Category</th><th class="num">GitHub stars</th></tr></thead>
+    <tbody>
+      <tr><td class="name"><a href="/tools/n8n/">n8n</a></td><td class="desc">Open-source workflow automation platform with AI agent capabilities and 400+ nodes</td><td><span class="tag">Automation</span></td><td class="num">208,269</td></tr>
+      <tr><td class="name"><a href="/tools/langchain/">LangChain</a></td><td class="desc">Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools</td><td><span class="tag">Automation</span></td><td class="num">148,235</td></tr>
+      <tr><td class="name"><a href="/tools/paperclip/">Paperclip</a></td><td class="desc">Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit</td><td><span class="tag">Automation</span></td><td class="num">105,753</td></tr>
+      <tr><td class="name"><a href="/tools/strapi/">Strapi</a></td><td class="desc">Open-source headless CMS with AI-powered content management and API-first design</td><td><span class="tag">Content AI</span></td><td class="num">73,356</td></tr>
+      <tr><td class="name"><a href="/tools/nocodb/">NocoDB</a></td><td class="desc">Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet</td><td><span class="tag">Marketing automation</span></td><td class="num">65,319</td></tr>
+      <tr><td class="name"><a href="/tools/twenty/">Twenty</a></td><td class="desc">The open-source alternative to Salesforce, designed for AI with modern CRM workflows</td><td><span class="tag">CRM</span></td><td class="num">59,278</td></tr>
+      <tr><td class="name"><a href="/tools/marketingskills/">Marketing Skills (coreyhaines31)</a></td><td class="desc">~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines</td><td><span class="tag">Agent skills</span></td><td class="num">55,853</td></tr>
+      <tr><td class="name"><a href="/tools/ghost/">Ghost</a></td><td class="desc">Open-source publishing platform with built-in newsletters, memberships, and AI tools</td><td><span class="tag">Content AI</span></td><td class="num">55,584</td></tr>
+    </tbody>
+  </table>
+  <a class="more-tools" href="/tools/">See all 170 tools →</a>
 </section>
 
 <!-- money-strip:start (generated by tools/build_hubs.py) -->
 <section class="section">
-  <div class="section-head">
-    <h2>Comparisons and best-of lists</h2>
-    <a href="/vs/">ALL COMPARISONS →</a>
-  </div>
-  <p style="max-width:62ch">Verdicts with receipts: every list below names what each tool costs from the vendor’s own pricing page, what it fits worst, and who should skip it. The head-to-head comparisons state pick-conditions instead of a winner; the best-of lists and tool pages give the verdict. Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.</p>
-  <p style="max-width:78ch">13 head-to-head comparisons: <a href="https://martechsignal.com/vs/n8n-vs-zapier/">N8n vs Zapier</a>, <a href="https://martechsignal.com/vs/nocodb-vs-nocobase/">NocoDB vs NocoBase</a>, <a href="https://martechsignal.com/vs/matomo-vs-plausible/">Matomo vs Plausible</a>, <a href="https://martechsignal.com/vs/claude-seo-vs-semrush/">Claude Seo vs Semrush</a>, <a href="https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/">Salesforce Marketing Cloud vs HubSpot</a>, <a href="https://martechsignal.com/vs/make-vs-zapier/">Make vs Zapier</a>, <a href="https://martechsignal.com/vs/activecampaign-vs-klaviyo/">Activecampaign vs Klaviyo</a>, <a href="https://martechsignal.com/vs/jasper-vs-writer/">Jasper vs Writer</a>, <a href="https://martechsignal.com/vs/n8n-vs-make-vs-zapier/">N8n vs Make vs Zapier</a>, <a href="https://martechsignal.com/vs/matomo-vs-posthog/">Matomo vs Posthog</a>, <a href="https://martechsignal.com/vs/mailchimp-vs-klaviyo/">Mailchimp vs Klaviyo</a>, <a href="https://martechsignal.com/vs/activecampaign-vs-hubspot/">Activecampaign vs HubSpot</a>, <a href="https://martechsignal.com/vs/mailchimp-vs-brevo/">Mailchimp vs Brevo</a>. More on the <a href="/vs/">comparisons hub</a>.</p>
-  <p style="max-width:78ch">16 best-of lists: <a href="https://martechsignal.com/best/open-source-crm/">Best open-source CRM tools</a>, <a href="https://martechsignal.com/best/workflow-automation-tools/">Best workflow automation tools</a>, <a href="https://martechsignal.com/best/ai-seo-tools/">Best AI SEO tools</a>, <a href="https://martechsignal.com/best/ai-marketing-automation-tools/">Best AI Marketing Automation tools</a>, <a href="https://martechsignal.com/best/ai-email-marketing-tools/">Best AI Email Marketing tools</a>, <a href="https://martechsignal.com/best/ai-crm-tools/">Best AI CRM tools</a>, <a href="https://martechsignal.com/best/ai-content-copywriting-tools/">Best AI Content &amp; Copywriting tools</a>, <a href="https://martechsignal.com/best/marketing-analytics-tools/">Best Marketing Analytics and Attribution tools</a>, <a href="https://martechsignal.com/best/ai-social-media-tools/">Best AI Social Media tools</a>, <a href="https://martechsignal.com/best/ai-advertising-tools/">Best AI Advertising &amp; Paid Media tools</a>, <a href="https://martechsignal.com/best/ai-personalization-tools/">Best AI Personalization &amp; CDP tools</a>, <a href="https://martechsignal.com/best/ai-chatbot-tools/">Best Chatbots &amp; Conversational AI tools</a>, <a href="https://martechsignal.com/best/geo-llm-visibility-tools/">Best GEO &amp; LLM Optimization tools</a>, <a href="https://martechsignal.com/best/open-source-marketing-tools/">Best Open-Source Marketing Tools</a>, <a href="https://martechsignal.com/best/agent-skills-tools/">Best Agent Skills tools</a>, <a href="https://martechsignal.com/best/cdp/">Best Customer Data Platforms</a>. More on the <a href="/best/">best-of hub</a>.</p>
-  <p style="max-width:78ch">5 alternatives guides: <a href="https://martechsignal.com/alternatives/hubspot-crm/">HubSpot CRM alternatives</a>, <a href="https://martechsignal.com/alternatives/zapier/">Zapier alternatives</a>, <a href="https://martechsignal.com/alternatives/matomo/">Matomo alternatives</a>, <a href="https://martechsignal.com/alternatives/n8n/">n8n alternatives</a>, <a href="https://martechsignal.com/alternatives/mailchimp/">Mailchimp alternatives</a>. More on the <a href="/alternatives/">alternatives hub</a>.</p>
+  <div class="sec-head"><h2>Comparisons and best-of lists</h2><a href="/vs/">All comparisons →</a></div>
+  <p class="lede">Verdicts with receipts: every list below names what each tool costs from the vendor’s own pricing page, what it fits worst, and who should skip it. The head-to-head comparisons state pick-conditions instead of a winner; the best-of lists and tool pages give the verdict. Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.</p>
+  <p>13 head-to-head comparisons: <a href="https://martechsignal.com/vs/n8n-vs-zapier/">N8n vs Zapier</a>, <a href="https://martechsignal.com/vs/nocodb-vs-nocobase/">NocoDB vs NocoBase</a>, <a href="https://martechsignal.com/vs/matomo-vs-plausible/">Matomo vs Plausible</a>, <a href="https://martechsignal.com/vs/claude-seo-vs-semrush/">Claude Seo vs Semrush</a>, <a href="https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/">Salesforce Marketing Cloud vs HubSpot</a>, <a href="https://martechsignal.com/vs/make-vs-zapier/">Make vs Zapier</a>, <a href="https://martechsignal.com/vs/activecampaign-vs-klaviyo/">Activecampaign vs Klaviyo</a>, <a href="https://martechsignal.com/vs/jasper-vs-writer/">Jasper vs Writer</a>, <a href="https://martechsignal.com/vs/n8n-vs-make-vs-zapier/">N8n vs Make vs Zapier</a>, <a href="https://martechsignal.com/vs/matomo-vs-posthog/">Matomo vs Posthog</a>, <a href="https://martechsignal.com/vs/mailchimp-vs-klaviyo/">Mailchimp vs Klaviyo</a>, <a href="https://martechsignal.com/vs/activecampaign-vs-hubspot/">Activecampaign vs HubSpot</a>, <a href="https://martechsignal.com/vs/mailchimp-vs-brevo/">Mailchimp vs Brevo</a>. More on the <a href="/vs/">comparisons hub</a>.</p>
+  <p>16 best-of lists: <a href="https://martechsignal.com/best/open-source-crm/">Best open-source CRM tools</a>, <a href="https://martechsignal.com/best/workflow-automation-tools/">Best workflow automation tools</a>, <a href="https://martechsignal.com/best/ai-seo-tools/">Best AI SEO tools</a>, <a href="https://martechsignal.com/best/ai-marketing-automation-tools/">Best AI Marketing Automation tools</a>, <a href="https://martechsignal.com/best/ai-email-marketing-tools/">Best AI Email Marketing tools</a>, <a href="https://martechsignal.com/best/ai-crm-tools/">Best AI CRM tools</a>, <a href="https://martechsignal.com/best/ai-content-copywriting-tools/">Best AI Content &amp; Copywriting tools</a>, <a href="https://martechsignal.com/best/marketing-analytics-tools/">Best Marketing Analytics and Attribution tools</a>, <a href="https://martechsignal.com/best/ai-social-media-tools/">Best AI Social Media tools</a>, <a href="https://martechsignal.com/best/ai-advertising-tools/">Best AI Advertising &amp; Paid Media tools</a>, <a href="https://martechsignal.com/best/ai-personalization-tools/">Best AI Personalization &amp; CDP tools</a>, <a href="https://martechsignal.com/best/ai-chatbot-tools/">Best Chatbots &amp; Conversational AI tools</a>, <a href="https://martechsignal.com/best/geo-llm-visibility-tools/">Best GEO &amp; LLM Optimization tools</a>, <a href="https://martechsignal.com/best/open-source-marketing-tools/">Best Open-Source Marketing Tools</a>, <a href="https://martechsignal.com/best/agent-skills-tools/">Best Agent Skills tools</a>, <a href="https://martechsignal.com/best/cdp/">Best Customer Data Platforms</a>. More on the <a href="/best/">best-of hub</a>.</p>
+  <p>5 alternatives guides: <a href="https://martechsignal.com/alternatives/hubspot-crm/">HubSpot CRM alternatives</a>, <a href="https://martechsignal.com/alternatives/zapier/">Zapier alternatives</a>, <a href="https://martechsignal.com/alternatives/matomo/">Matomo alternatives</a>, <a href="https://martechsignal.com/alternatives/n8n/">n8n alternatives</a>, <a href="https://martechsignal.com/alternatives/mailchimp/">Mailchimp alternatives</a>. More on the <a href="/alternatives/">alternatives hub</a>.</p>
 </section>
 <!-- money-strip:end -->
 
 <section class="section">
-  <div class="section-head">
-    <h2>How to read the directory</h2>
-  </div>
-  <p style="max-width:62ch;max-width:62ch">The directory holds <b>170 martech tools</b> audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. <b>160</b> carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.</p>
-  <p style="max-width:62ch;margin-top:1rem">Every number in the directory carries a date. Prices, integration counts, AI feature lists, star counts: each one shows the day we last checked it against the vendor's own documentation. When a number moves, the page moves with it. The n8n star count is the obvious example. Three different figures had settled into our own pages before we re-checked the repository and re-stamped the date.</p>
-  <p style="max-width:62ch;margin-top:1rem">Scores use the same six pillars everywhere: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. Some tools carry the full score; the tool index links them. The rest of the directory is catalog research, and the pages say so instead of dressing up as lab tests. Nobody pays for a listing, and nobody pays to leave.</p>
-  <p style="max-width:62ch;margin-top:1rem">Use the directory for shortlists. Read the pricing line before the sales page, and skip anything whose skip-it line matches your situation. It does not replace a trial. The gap between a documented feature and a working one in your own stack is exactly the size of your own data.</p>
+  <div class="sec-head"><h2>How to read the directory</h2></div>
+  <p class="lede">The directory holds <b>170 martech tools</b> audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. <b>160</b> carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.</p>
+  <p>Every number in the directory carries a date. Prices, integration counts, AI feature lists, star counts: each one shows the day we last checked it against the vendor's own documentation. When a number moves, the page moves with it. The n8n star count is the obvious example. Three different figures had settled into our own pages before we re-checked the repository and re-stamped the date.</p>
+  <p>Scores use the same six pillars everywhere: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. Some tools carry the full score; the tool index links them. The rest of the directory is catalog research, and the pages say so instead of dressing up as lab tests. Nobody pays for a listing, and nobody pays to leave.</p>
+  <p>Use the directory for shortlists. Read the pricing line before the sales page, and skip anything whose skip-it line matches your situation. It does not replace a trial. The gap between a documented feature and a working one in your own stack is exactly the size of your own data.</p>
 </section>
 
 <!-- categories-strip:start (generated by tools/build_indexes.py) -->
 <section class="section">
-<h2>Browse by category</h2>
+<div class="sec-head"><h2>Browse by category</h2><a href="/categories/">All categories →</a></div>
 <p class="lede">The directory covers 13 categories plus a cross-cutting open-source index. Each one lists its tools with licence, stars snapshotted from the <a href="https://docs.github.com/en/rest" rel="noopener">GitHub API</a> and a plain summary of what it does.</p>
 <div class="tool-grid"><a class="tool-card" href="/categories/content-ai/"><div class="name">AI Content &amp; Copywriting</div><div class="tagline">13 tools</div></a><a class="tool-card" href="/categories/advertising/"><div class="name">Advertising &amp; Paid Media</div><div class="tagline">9 tools</div></a><a class="tool-card" href="/categories/agent-skills/"><div class="name">Agent Skills</div><div class="tagline">18 tools</div></a><a class="tool-card" href="/categories/analytics/"><div class="name">Analytics &amp; Attribution</div><div class="tagline">11 tools</div></a><a class="tool-card" href="/categories/crm/"><div class="name">CRM</div><div class="tagline">24 tools</div></a><a class="tool-card" href="/categories/chatbots/"><div class="name">Chatbots &amp; Conversational AI</div><div class="tagline">6 tools</div></a><a class="tool-card" href="/categories/email-marketing/"><div class="name">Email Marketing</div><div class="tagline">16 tools</div></a><a class="tool-card" href="/categories/geo-llm-visibility/"><div class="name">GEO &amp; LLM Optimization</div><div class="tagline">14 tools</div></a><a class="tool-card" href="/categories/marketing-automation/"><div class="name">Marketing Automation</div><div class="tagline">12 tools</div></a><a class="tool-card" href="/categories/open-source/"><div class="name">Open-Source Tools</div><div class="tagline">81 tools</div></a><a class="tool-card" href="/categories/personalization/"><div class="name">Personalization &amp; CDP</div><div class="tagline">11 tools</div></a><a class="tool-card" href="/categories/seo/"><div class="name">SEO &amp; Search</div><div class="tagline">9 tools</div></a><a class="tool-card" href="/categories/social-media/"><div class="name">Social Media</div><div class="tagline">6 tools</div></a><a class="tool-card" href="/categories/workflow-automation/"><div class="name">Workflow Automation</div><div class="tagline">17 tools</div></a></div>
 <p class="lede"><a href="/categories/">All categories</a> · <a href="/tools/">Full tool directory</a></p>
@@ -303,14 +189,17 @@ html.js .reveal:not(.in){opacity:0;transform:translateY(16px);transition:opacity
 <!-- categories-strip:end -->
 
 <section class="subscribe" id="subscribe">
-  <div class="sub-in">
-    <h2>One email. <span class="amber">Every Friday.</span></h2>
-    <p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour. No sponsored placements.</p>
+  <div>
+    <h2>One email every Friday. Only what changed.</h2>
+    <p>The AI tools, workflows and vendor moves that matter for marketing automation. Five minutes, not an hour. No sponsored placements.</p>
+  </div>
+  <div>
     <form class="sub-form" action="https://app.kit.com/forms/9136291/subscriptions" method="post" data-sv-form="9136291" data-uid="f315181f90" target="_blank">
       <input type="hidden" name="newsletter[subscriber][first_name]" value="">
       <input type="email" name="email_address" placeholder="you@company.com" aria-label="Work email" required>
-      <button type="submit" data-umami-event="Homepage subscribe">SUBSCRIBE</button>
+      <button type="submit" data-umami-event="Homepage subscribe">Subscribe</button>
     </form>
+    <p class="fine">Free. Unsubscribe in one click.</p>
   </div>
 </section>
 </main>

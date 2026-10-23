@@ -1,6 +1,6 @@
 # Two Ways to Buy the Same Workflow Debt
 
-AUTOMATION · ZAPIER · 10 MIN
+Automation · Zapier · 10 min read
 
 ## Two ways to buy the same workflow debt: task-metered and operations-metered
 
@@ -8,7 +8,7 @@ AUTOMATION · ZAPIER · 10 MIN
 
 [Home](/) · [Blog](/blog/) · Two ways to buy the same workflow debt: task-metered and operations-metered
 
-AUG 27, 2026
+27 Aug 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 
@@ -103,12 +103,12 @@ For the spec-sheet version of these two, with pricing rows side by side, see the
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ## Related tools
 
 - [Activepieces](/tools/activepieces/) - Open-source workflow automation with a free cloud tier and on-prem hosting
-- [Pabbly Connect](/tools/pabbly-connect/) - Task-priced integration platform with a one-time lifetime purchase option
+- [Microsoft Power Automate](/tools/power-automate/) - Enterprise workflow automation inside the Microsoft Power Platform
 - [Paperclip](/tools/paperclip/) - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 ## Comparison guides
 

@@ -7,24 +7,24 @@
 
 Ecommerce personalization, customer data platforms, and flags and testing. 11 tools reviewed.
 
-11 TOOLS IN THIS CATEGORY
+11 tools in this category
 
-## STOREFRONT PERSONALIZATION (3)
+## Storefront personalization (3)
 
 - [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email (From $119/mo)
 - [Dynamic Yield](/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences (Enterprise)
 - [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising (Enterprise)
-## PACKAGED CDPS (2)
+## Packaged CDPs (2)
 
 - [Twilio Segment](/tools/segment/): Customer data platform for collecting, unifying, and activating customer data (Freemium from $120/mo)
 - [Tealium](/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI (Enterprise)
-## WAREHOUSE PIPES AND COMPOSABLE ACTIVATION (4)
+## Warehouse pipes and composable activation (4)
 
 - [Apache Unomi](/tools/apache-unomi/): Apache's open-source customer data platform and personalization engine (Open Source)
 - [Hightouch](/tools/hightouch/): Composable CDP that activates warehouse data where marketing runs (Freemium)
 - [Jitsu](/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines (Freemium from $99/mo)
 - [RudderStack](/tools/rudderstack/): Warehouse-first CDP: open-source Go data plane plus managed routing (Open-core from $265/mo)
-## FLAGS AND TESTING (2)
+## Flags and testing (2)
 
 - [Flagsmith](/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting (Freemium from $50/member/mo)
 - [GrowthBook](/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting (Freemium from $40/seat/mo)
@@ -47,19 +47,19 @@ Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith]
 
 ## Reading before you buy
 
-COLLECTevents before tools
+Collectevents before tools
 
 **
 
-UNIFYprofiles or warehouse tables
+Unifyprofiles or warehouse tables
 
 **
 
-PERSONALIZErecs, content, flags
+Personalizerecs, content, flags
 
 **
 
-TESTwhat changed, keep or kill
+Testwhat changed, keep or kill
 
 IF You run a store and want recommendations and search without building it yourself
 

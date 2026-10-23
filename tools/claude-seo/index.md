@@ -179,7 +179,7 @@ Within one version, yes: our score moved 61 to 66 to 72 to 74.6 as we fixed flag
 **Does Claude SEO work as SEO analysis software?**
 It runs as analysis software inside your terminal rather than a dashboard. Each audit crawls every URL, grades seven categories, and writes a full report with prioritized fixes. We published three complete reports from real runs on this site's own domain.
 
-## Similar Tools
+## Similar tools
 
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 - [AI Marketing Suite](/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports

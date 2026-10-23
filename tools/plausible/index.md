@@ -109,7 +109,7 @@ Plausible Analytics has a free tier; paid plans start at $9/mo. Self-hosted free
 **Is Plausible Analytics a good self-hosted Analytics & Attribution tool in 2026?**
 The analytics tool we recommend by default for content and marketing sites; power users will want a second layer.
 
-## Similar Tools
+## Similar tools
 
 - [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights
 - [Heap](/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
@@ -118,8 +118,8 @@ The analytics tool we recommend by default for content and marketing sites; powe
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
 - [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/) — you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.

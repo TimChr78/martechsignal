@@ -130,7 +130,7 @@ It has one documented AI feature and no lead scoring. Magic AI creates leads fro
 **Can you import leads and contacts from a CSV or another CRM into Krayin?**
 Yes, through the built-in import and export layer (the DataTransfer package), which covers leads, persons, and organizations, with support for custom attributes on leads and persons added in v2.2.5 along with Google Contacts export. There is no documented one-click migration from Salesforce or HubSpot, so plan a CSV path: export from the source system, map columns to Krayin attributes, and import. Custom fields you create in the target should exist before import so the attribute columns can map.
 
-## Similar Tools
+## Similar tools
 
 - [EspoCRM](/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management
 - [Pipedrive](/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
@@ -139,8 +139,8 @@ Yes, through the built-in import and export layer (the DataTransfer package), wh
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for Laravel shops that want room to extend a CRM.

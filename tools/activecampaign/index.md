@@ -113,7 +113,7 @@ ActiveCampaign starts at $15/mo. Starter $15/mo, Plus $49/mo, Professional $79/m
 **Is ActiveCampaign worth paying for in 2026?**
 The pragmatic pick when you want automation plus AI agents in one product and your list is under a few hundred thousand contacts.
 
-## Similar Tools
+## Similar tools
 
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 - [Adobe Marketo Engage](/tools/adobe-marketo/): Enterprise B2B marketing automation with AI-driven lead management and engagement
@@ -123,7 +123,7 @@ The pragmatic pick when you want automation plus AI agents in one product and yo
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 

@@ -128,7 +128,7 @@ Self-hosting the Community Edition is free. The vendor site publishes two one-ti
 **Can IDURAR replace SuiteCRM or Dolibarr for a sales team?**
 No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines, cases, campaigns and role-based teams; IDURAR's repository has three application models (clients, invoices, payments) and a single owner role. It competes as a developer base for custom billing and customer invoicing tools, where its small MERN codebase and generated REST routes are the advantage. If the requirement is a CRM your team configures in the admin UI, the config-first open-source CRMs are the better fit.
 
-## Similar Tools
+## Similar tools
 
 - [Frappe CRM](/tools/frappe-crm/): Fully featured, open source CRM
 - [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
@@ -137,8 +137,8 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
 - [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $5,000 one-time

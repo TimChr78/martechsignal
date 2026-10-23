@@ -113,7 +113,7 @@ Adobe Marketo Engage uses enterprise pricing, so the number depends on your volu
 **Is Adobe Marketo Engage a good Marketing Automation tool in 2026?**
 Buy it when program complexity and scale justify the ops headcount. For smaller teams it is overkill.
 
-## Similar Tools
+## Similar tools
 
 - [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
 - [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
@@ -123,8 +123,8 @@ Buy it when program complexity and scale justify the ops headcount. For smaller 
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Marketing ops teams whose requirement list starts with lead scoring

@@ -151,7 +151,7 @@ Email keeps sending and bills overage at $1 per 1,000 emails, while SMS sending 
 **Does Ortto have an API, and which endpoint should I use?**
 Yes. Authentication uses a custom API key that you configure as a data source and can disconnect from the interface. Endpoints are regional: api.au.ap3api.com for Australia, api.eu.ap3api.com for Europe, and api.ap3api.com for everyone else. The developer guide covers the JSON payload for person and activity updates, and there are SDKs for iOS, Android, in-app notifications, and Flutter on top of the REST API and tracking snippet.
 
-## Similar Tools
+## Similar tools
 
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 - [Braze](/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
@@ -161,7 +161,7 @@ Yes. Authentication uses a custom API key that you configure as a data source an
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ## Also featured in
 

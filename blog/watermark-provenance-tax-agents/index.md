@@ -1,6 +1,6 @@
 # What LLM watermarking means for marketing automation
 
-AI CONTENT · AI AGENTS · 7 MIN
+AI Content · AI Agents · 7 min read
 
 ## AI watermarks are now part of your agent's risk surface
 
@@ -8,7 +8,7 @@ AI CONTENT · AI AGENTS · 7 MIN
 
 [Home](/) · [Blog](/blog/) · AI watermarks are now part of your agent's risk surface
 
-SEP 25, 2026
+25 Sep 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 
@@ -60,7 +60,7 @@ The provenance tax is real, but the invoice is split. Platforms pay it in compli
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
 ## Related tools
 
 - [Digital Marketing Pro](/tools/digital-marketing-pro/) - 163-skill AI marketing plugin for agencies with EU AI Act compliance

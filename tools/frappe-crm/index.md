@@ -133,7 +133,7 @@ Frappe CRM is a standalone app with a purpose-built sales interface, while ERPNe
 **Can Frappe CRM make phone calls?**
 Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal, and contact pages, an incoming call pop-up with accept, reject, and mute, a recording toggle, and the ability to attach notes or tasks from the call. Twilio needs an Account SID, Auth Token, and a Twilio number with a webhook URL; Exotel needs an Account SID, subdomain, API key, API token, and Exophone, plus completed KYC.
 
-## Similar Tools
+## Similar tools
 
 - [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
 - [IDURAR ERP & CRM](/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
@@ -144,7 +144,7 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for budget-conscious sales teams, especially ERPNext shops.

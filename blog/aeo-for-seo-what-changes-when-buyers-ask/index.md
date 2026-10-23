@@ -1,6 +1,6 @@
 # AEO for SEO: what changes when buyers ask instead of search
 
-SEO · AI SEARCH · 6 MIN
+SEO · AI Search · 6 min read
 
 ## AEO for SEO: what changes when buyers ask instead of search
 
@@ -8,7 +8,7 @@ SEO · AI SEARCH · 6 MIN
 
 [Home](/) · [Blog](/blog/) · AEO for SEO: what changes when buyers ask instead of search
 
-OCT 16, 2026
+16 Oct 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -69,8 +69,8 @@ Keep the crawlable fast pages, the consistent entity facts, the habit of updatin
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ## Related tools
 
 - [Rankscale](/tools/rankscale/) - AI visibility tracking across 17+ answer engines for agencies and enterprise teams

@@ -1,6 +1,6 @@
 # Claude SEO vs Seonaut: which free SEO checker wins
 
-SEO · OPEN SOURCE · 8 MIN
+SEO · Open Source · 8 min read
 
 ## Claude SEO vs Seonaut: which free SEO checker should you run
 
@@ -10,7 +10,7 @@ Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we ha
 
 [Home](/) · [Blog](/blog/) · Claude SEO vs Seonaut: which free SEO checker should you run
 
-SEP 17, 2026
+17 Sep 2026
 
 Filed under [SEO & Search](/categories/seo/)
 

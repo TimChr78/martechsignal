@@ -145,7 +145,7 @@ No on either count. persado.com/pricing returns a 404 and no price appears anywh
 **How does Persado integrate with Salesforce Marketing Cloud?**
 Four documented models. Native is the deepest: every email send pulls Persado-scored variants and variant-level performance flows back automatically, with optimization covering subject, preheader, body, and CTA, and setup quoted at 2-3 weeks including QA. Data Integration Pipeline takes 4-6 weeks, Service-Delivered goes live on the first campaign cycle, and a Chrome extension optimizes copy inside any web UI with no IT involvement. The Automate product runs per-recipient content selection at send time inside Journey Builder.
 
-## Similar Tools
+## Similar tools
 
 - [Bloomreach](/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
@@ -155,8 +155,8 @@ Four documented models. Native is the deepest: every email send pulls Persado-sc
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Large senders that want language tested against response data at scale

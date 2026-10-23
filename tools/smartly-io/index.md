@@ -136,7 +136,7 @@ The platforms page lists Amazon, Google, Meta, Pinterest, Reddit, Roku, Snapchat
 **What is Smartly AI Studio?**
 The creative AI layer. It prepares images (upscaling, background removal, per-placement cropping), turns static product shots into video with scene generation, video assembly, and text-to-speech, enriches catalogs with generated tags and metadata, and can build a product catalog from a website URL. Smartly also curates a set of third-party enterprise AI tools for image, video, text, and audio. The company reports 1.8 million assets generated and a 27 percent average performance lift, both vendor figures.
 
-## Similar Tools
+## Similar tools
 
 - [Albert AI](/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Madgicx](/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
@@ -145,8 +145,8 @@ The creative AI layer. It prepares images (upscaling, background removal, per-pl
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Enterprises consolidating creative production and media buying in one contract

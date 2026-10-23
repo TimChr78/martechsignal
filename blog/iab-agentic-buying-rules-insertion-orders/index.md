@@ -1,6 +1,6 @@
 # IAB agentic buying rules land before ad stacks can honor them
 
-DIGITAL ADVERTISING · AI AGENTS · 8 MIN
+Digital Advertising · AI Agents · 8 min read
 
 ## Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them
 
@@ -8,7 +8,7 @@ DIGITAL ADVERTISING · AI AGENTS · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them
 
-SEP 28, 2026
+28 Sep 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -70,16 +70,16 @@ The insertion order was written for humans because only humans could read a prop
 
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 - [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Related tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/) - ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
-- [Paperclip](/tools/paperclip/) - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+- [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 ## Comparison guides
 
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -87,5 +87,7 @@ The insertion order was written for humans because only humans could read a prop
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
+
+More from the directory: [Zoho CRM](/tools/zoho-crm/)
 
 ✓ Direction: right. Timeline: not yours.

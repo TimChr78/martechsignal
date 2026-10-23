@@ -4,7 +4,7 @@
 
 Every morning we snapshot the GitHub stars of all 85 open-source tools in our 170-tool catalog (all of them list a public GitHub repository). 84 have enough history to chart here; a repository needs 5 daily snapshots before it appears, which is why the charted set can be smaller. Inclusion rule, stated once: the catalog's open-source flag plus a GitHub repo URL. This page shows what moved in the window Aug 25 to Oct 22, 2026, tracked since Aug 25, 2026.
 
-84 REPOS · 58 DAILY SNAPSHOTS · WINDOW 2026-08-25 TO 2026-10-22
+84 repos · 58 daily snapshots · window 2026-08-25 to 2026-10-22
 
 Stars are a weak signal on their own. A repo can sit near the top of GitHub trending for a week on one HN post, and a 500-star project gaining 50 stars is a different story than a 40,000-star project gaining the same 50. The percentages below favor small bases for exactly that reason, so read the absolute deltas next to them. No projections here: just what the snapshots recorded, over the stated window, and nothing else.
 

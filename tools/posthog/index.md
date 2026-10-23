@@ -130,7 +130,7 @@ Usage-based credits per product on top of the free allowances, with per-product 
 **What AI features does PostHog include?**
 PostHog AI answers questions about your data in plain language across web, Slack, desktop, and MCP, with 500 credits free each month. AI Observability and Evaluations track LLM usage, and Replay Vision assists session replay review.
 
-## Similar Tools
+## Similar tools
 
 - [Mixpanel](/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
 - [Amplitude](/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
@@ -140,8 +140,8 @@ PostHog AI answers questions about your data in plain language across web, Slack
 ## Related reading
 
 - [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Also featured in
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/) — the real questions are about product usage, and you want flags and experiments beside the funnel.

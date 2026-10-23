@@ -7,22 +7,22 @@
 
 Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents, and enterprise governance. 17 reviewed.
 
-17 TOOLS IN THIS CATEGORY
+17 tools in this category
 
-## OPEN SOURCE / SELF-HOSTED (4)
+## Open source / self-hosted (4)
 
 - [LangChain](/tools/langchain/): Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools (Open Source from $39/mo)
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes (Open Source from €20/mo)
 - [n8n Marketing Flows](/tools/n8n-marketing-flows/): 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO (Open Source)
 - [Paperclip](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit (Freemium from €10/mo)
-## COMMERCIAL (5)
+## Commercial (5)
 
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows (Freemium from $19.99/mo)
 - [Make](/tools/make/): Visual automation platform for building complex workflows with AI agents and apps (Freemium from $9/mo)
 - [Pipedream](/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps (Freemium)
 - [Tray.io](/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents (Enterprise)
 - [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform (Enterprise)
-## LOW-CODE INTERNAL BUILDERS (4)
+## Low-code internal builders (4)
 
 - [Appsmith](/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs (Open-core from $15/user/mo)
 - [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data (Open-core from $19/mo)
@@ -56,19 +56,19 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
 
 ## Reading before you buy
 
-TRIGGERnew deal in CRM
+Triggernew deal in CRM
 
 **
 
-FILTERvalue > $500
+Filtervalue > $500
 
 **
 
-AI AGENTdraft the follow-up
+AI agentdraft the follow-up
 
 **
 
-ACTIONsend + log result
+Actionsend + log result
 
 IF First automation, needs to be live before lunch
 

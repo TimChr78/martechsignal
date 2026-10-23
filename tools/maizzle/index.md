@@ -115,7 +115,7 @@ Through dedicated components and build-time conditioning rather than runtime hac
 **Can I migrate from MJML or React Email to Maizzle?**
 Both paths are documented on the docs site as migration guides, alongside deployment guides for Nodemailer, SendGrid, Mailgun, Postmark, Resend, AWS SES, and Cloudflare. The v5-to-v6 upgrade guide is the more demanding read for existing Maizzle users: templates become Vue single-file components, configuration consolidates into maizzle.config.ts and defineConfig(), several components were renamed or removed, and the build key flattened to the root. Coming from MJML or React Email is a fresh start with npx maizzle new rather than a conversion, which the guides treat as the normal path.
 
-## Similar Tools
+## Similar tools
 
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 - [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server
@@ -125,7 +125,7 @@ Both paths are documented on the docs site as migration guides, alongside deploy
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
 - **Pricing:** Free

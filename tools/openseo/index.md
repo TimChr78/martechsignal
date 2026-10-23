@@ -125,7 +125,7 @@ Rank tracking schedules are Daily, Weekly, Monthly (end of month), and Manual on
 **Does the self-hosted version include the AI features?**
 Only if you supply keys for them. AI features such as SAM, the in-app SEO agent, require an OpenRouter API key in your environment file, and AI Visibility is powered by DataForSEO's LLM mention endpoints, so those calls bill against your DataForSEO account like any other query. The MCP server and the agent skills themselves ship in the repository with no extra licence.
 
-## Similar Tools
+## Similar tools
 
 - [Semrush](/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
 - [AccuRanker](/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
@@ -135,8 +135,8 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $10/mo

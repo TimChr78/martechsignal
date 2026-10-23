@@ -1,6 +1,6 @@
 # The retainer just broke: agencies won't own tools or data
 
-AI AGENTS · ADVERTISING · 7 MIN
+AI Agents · Advertising · 7 min read
 
 ## Agencies don't want to own your AI tools or your data: the retainer model just broke
 
@@ -8,7 +8,7 @@ AI AGENTS · ADVERTISING · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Agencies don't want to own your AI tools or your data: the retainer model just broke
 
-OCT 06, 2026
+06 Oct 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/) · [Agent Skills](/categories/agent-skills/)
 
@@ -71,9 +71,9 @@ Tools linked in this post: [n8n](/tools/n8n/) | [Google Ads + Meta Ads + GA4 MCP
 
 ## Related reading
 
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Related tools
 
 - [Cordys CRM](/tools/cordys-crm/) - Open-source AI CRM with built-in agents, conversational analytics, and private deployment
@@ -81,8 +81,8 @@ Tools linked in this post: [n8n](/tools/n8n/) | [Google Ads + Meta Ads + GA4 MCP
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 ## Comparison guides
 
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
-- [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

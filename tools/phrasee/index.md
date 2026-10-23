@@ -144,7 +144,7 @@ Yes. Salesforce Marketing Cloud appears on the archived 2023 partner list alongs
 **What lift can I realistically expect from Phrasee or Jacquard?**
 Vendor-published results range widely. Currys reports 42% uplift in opens, 93% in clicks, and 102% in revenue; P&O Cruises 13% opens and 18% clicks; Home Chef 21% opens and 29% clicks; Confused.com 12% on clicks. The platform-wide claims are a 9.7% median click uplift for the predicted champion, rising to 19% with testing, and a 66% win rate at predicting the top-performing variant against human controls. All of these are the company's own numbers, not independent audits.
 
-## Similar Tools
+## Similar tools
 
 - [Hypotenuse AI](/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
 - [MarketMuse](/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams

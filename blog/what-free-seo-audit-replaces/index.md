@@ -1,6 +1,6 @@
 # What a Free SEO Audit Replaces (and What It Does Not)
 
-SEO · AGENT SKILLS · 7 MIN
+SEO · Agent Skills · 7 min read
 
 ## What a free SEO audit replaces in your Semrush stack, and what it does not
 
@@ -8,7 +8,7 @@ SEO · AGENT SKILLS · 7 MIN
 
 [Home](/) · [Blog](/blog/) · What a free SEO audit replaces in your Semrush stack, and what it does not
 
-SEP 16, 2026
+16 Sep 2026
 
 Filed under [SEO & Search](/categories/seo/)
 

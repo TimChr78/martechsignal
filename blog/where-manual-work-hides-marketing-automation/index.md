@@ -1,6 +1,6 @@
 # Where manual work hides in marketing automation
 
-MARKETING AUTOMATION · MARKETING OPS · 6 MIN
+Marketing Automation · Marketing Ops · 6 min read
 
 ## Where the manual work still hides in your marketing automation
 
@@ -8,7 +8,7 @@ MARKETING AUTOMATION · MARKETING OPS · 6 MIN
 
 [Home](/) · [Blog](/blog/) · Where the manual work still hides in your marketing automation
 
-OCT 14, 2026
+14 Oct 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Workflow Automation](/categories/workflow-automation/)
 

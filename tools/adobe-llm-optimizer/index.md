@@ -126,7 +126,7 @@ Ten LLM families, including ChatGPT, Perplexity, Google AI Mode, Anthropic Claud
 **Do I need Adobe Experience Manager to use it?**
 No. The CDN-edge deployment works with Fastly, Akamai, and Cloudflare, and Adobe says the intelligence and opportunity features run across tech stacks. The revenue attribution piece pairs with Adobe Analytics and Customer Journey Analytics.
 
-## Similar Tools
+## Similar tools
 
 - [Nimt.ai](/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 - [Profound](/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
@@ -136,8 +136,8 @@ No. The CDN-edge deployment works with Fastly, Akamai, and Cloudflare, and Adobe
 ## Related reading
 
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for teams that want LLM visibility management inside Adobe Experience Cloud, priced by quote.

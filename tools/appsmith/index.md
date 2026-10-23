@@ -147,7 +147,7 @@ Retool is a hosted commercial platform; Appsmith is Apache 2.0 and self-hostable
 **Which databases and SaaS tools does Appsmith connect to?**
 Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server, Oracle, Snowflake, Redshift, Databricks, DynamoDB, Firestore, Elasticsearch, Redis, ArangoDB, S3 and SMTP, plus any REST or GraphQL API. SaaS connectors cover HubSpot, Salesforce, Google Sheets, Google Drive, Airtable, Jira, Notion, Mixpanel, Monday.com, Linear, GitHub, Gmail and Outlook, among others. Marketing teams usually pair it with a warehouse or call ad platform APIs directly rather than expecting deep native marketing connectors; the queries are SQL or JavaScript you write.
 
-## Similar Tools
+## Similar tools
 
 - [ToolJet](/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 - [Budibase](/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data
@@ -157,8 +157,8 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ### Quick Facts
 
 - **Pricing:** Open-core from $15/user/mo

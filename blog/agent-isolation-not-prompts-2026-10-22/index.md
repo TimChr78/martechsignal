@@ -1,6 +1,6 @@
 # Prompts are not a security boundary. Isolation is.
 
-AI AGENTS · SECURITY · 8 MIN
+AI Agents · Security · 8 min read
 
 ## Prompts are not a security boundary. Isolation is.
 
@@ -8,7 +8,7 @@ AI AGENTS · SECURITY · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Prompts are not a security boundary. Isolation is.
 
-OCT 22, 2026
+22 Oct 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Agent Skills](/categories/agent-skills/)
 

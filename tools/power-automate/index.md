@@ -99,7 +99,7 @@ Microsoft Power Automate is paid software; plans start at $15/user/mo. Power Aut
 **Is Microsoft Power Automate worth paying for in 2026?**
 Strengths include an API for custom integrations. Paid plans start at $15/user/mo
 
-## Similar Tools
+## Similar tools
 
 - [Zapier](/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
 - [Workato](/tools/workato/): Enterprise AI governance plus integration and automation on one platform
@@ -108,8 +108,8 @@ Strengths include an API for custom integrations. Paid plans start at $15/user/m
 ## Related reading
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
 ### Quick Facts
 
 - **Pricing:** From $15/user/mo

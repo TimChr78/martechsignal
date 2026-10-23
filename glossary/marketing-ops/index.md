@@ -2,7 +2,7 @@
 
 ## Marketing Operations (MarketingOps)
 
-GLOSSARY
+Glossary
 
 Definition last Updated 2026-08-23
 

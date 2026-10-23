@@ -1,6 +1,6 @@
 # Deliverability in the AI-Spam Era Is a Content Problem
 
-EMAIL · DELIVERABILITY · 9 MIN
+Email · Deliverability · 9 min read
 
 ## Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem
 
@@ -8,7 +8,7 @@ EMAIL · DELIVERABILITY · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem
 
-AUG 21, 2026
+21 Aug 2026
 
 Filed under [Email Marketing](/categories/email-marketing/)
 
@@ -82,9 +82,9 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 
 ## Related reading
 
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Related tools
 
 - [Notifuse](/tools/notifuse/) - Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
@@ -102,4 +102,4 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [RudderStack](/tools/rudderstack/)
+More from the directory: [Pabbly Connect](/tools/pabbly-connect/)

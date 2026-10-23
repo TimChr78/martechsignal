@@ -1,6 +1,6 @@
 # A live agent fleet in the wild, mostly failing
 
-AI AGENTS · RELIABILITY · 9 MIN
+AI Agents · Reliability · 9 min read
 
 ## Someone found a live agent fleet in the wild. Most of its runs failed.
 
@@ -8,7 +8,7 @@ AI AGENTS · RELIABILITY · 9 MIN
 
 [Home](/) · [Blog](/blog/) · Someone found a live agent fleet in the wild. Most of its runs failed.
 
-OCT 19, 2026
+19 Oct 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Agent Skills](/categories/agent-skills/)
 
@@ -91,18 +91,18 @@ The fleet was capable and still mostly failed, because the environment pushed ba
 
 ## Related reading
 
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 - [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ## Related tools
 
 - [Paperclip](/tools/paperclip/) - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
-- [Eve Marketing Team Template](/tools/eve-marketing-team/) - Open-source team of marketing agents on eve: lead, content, social, SEO, email
 - [Growth Lab](/tools/growth-lab/) - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
+- [Marketing Skills (coreyhaines31)](/tools/marketingskills/) - ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

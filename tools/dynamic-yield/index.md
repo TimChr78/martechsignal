@@ -151,7 +151,7 @@ No price is published. The pricing page redirects to a Mastercard product page w
 **Is Dynamic Yield worth it?**
 It is the vendor with the longest claimed run of Gartner Magic Quadrant leader placements in personalization engines, eight consecutive, and the developer documentation to back an enterprise rollout. If you cannot staff an implementation project, lighter testing and recommendation tools will deliver value faster.
 
-## Similar Tools
+## Similar tools
 
 - [Nosto](/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
 - [Clerk.io](/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
@@ -161,8 +161,8 @@ It is the vendor with the longest claimed run of Gartner Magic Quadrant leader p
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Large commerce operations buying personalization depth over self-serve
