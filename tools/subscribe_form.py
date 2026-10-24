@@ -15,7 +15,7 @@ import html
 # "kit" (live today) | "am" (self-hosted platform, not switched on yet)
 NEWSLETTER_PROVIDER = "kit"
 
-AM_FORM_URL = "https://am.martechsignal.com/f/frm_REPLACE_ME"
+AM_FORM_URL = "https://am.martechsignal.com/f/frm_01a16cd267367aa4b58e42c1400965fc"
 CONSENT_TEXT = "Send me the weekly newsletter. Unsubscribe any time."
 
 # Kit form 9136291 - unchanged action/fields from the pre-partial markup.
