@@ -625,6 +625,8 @@ ul.integ-list li a:hover { color: var(--accent) }
 .score-verdict { font: 400 1.0625rem/1.5 var(--serif); color: var(--ink-2) }
 .score-actions { display: flex; gap: .5rem; margin-top: 1rem }
 .capture-box { margin-top: 1.5rem; padding: 1rem; background: var(--surface); border: 1px solid var(--line) }
+.capture-box input[type=email] { display: block; width: 100%; margin: .75rem 0 .5rem; background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: .7rem .9rem; font: 400 1rem var(--sans); color: var(--ink) }
+.capture-box input[type=email]:focus { outline: none; border-color: var(--ink) }
 @media (max-width: 860px) { .check-grid { grid-template-columns: 1fr } .check-side { position: static } }
 
 /* reading measure for long-form tool content */

@@ -13,7 +13,7 @@ from __future__ import annotations
 import html
 
 # "kit" (live today) | "am" (self-hosted platform, not switched on yet)
-NEWSLETTER_PROVIDER = "kit"
+NEWSLETTER_PROVIDER = "am"
 
 AM_FORM_URL = "https://am.martechsignal.com/f/frm_01a16cd267367aa4b58e42c1400965fc"
 CONSENT_TEXT = "Send me the weekly newsletter. Unsubscribe any time."
