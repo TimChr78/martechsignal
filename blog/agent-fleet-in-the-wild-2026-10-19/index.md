@@ -97,8 +97,8 @@ The fleet was capable and still mostly failed, because the environment pushed ba
 ## Related tools
 
 - [Paperclip](/tools/paperclip/) - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/) - 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 - [Growth Lab](/tools/growth-lab/) - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
-- [Marketing Skills (coreyhaines31)](/tools/marketingskills/) - ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)

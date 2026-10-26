@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Twilio SendGrid
-Re-check pending: pricing last verified 2026-08-28 (56 days ago). Reclassified paid on 2026-10-06 from September vendor evidence; re-check queued.
+Re-check pending: pricing last verified 2026-08-28 (59 days ago). Reclassified paid on 2026-10-06 from September vendor evidence; re-check queued.
 
 Review · Email Marketing
 
@@ -142,5 +142,7 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Email Marketing Tools →](/categories/email-marketing/)

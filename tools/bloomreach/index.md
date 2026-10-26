@@ -143,4 +143,6 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
 
 One email when a new tool review lands, nothing else.
 
+Send me the weekly newsletter. Unsubscribe any time.
+
 [More Marketing Automation Tools →](/categories/marketing-automation/)

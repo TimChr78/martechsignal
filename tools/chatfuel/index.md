@@ -119,8 +119,8 @@ A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B tea
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Messaging-first brands scripting conversations like campaigns
@@ -138,5 +138,7 @@ Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Chatbots & Conversational AI Tools →](/categories/chatbots/)

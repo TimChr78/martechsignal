@@ -27,7 +27,9 @@ from __future__ import annotations
 
 import fnmatch
 import shutil
+import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -130,6 +132,22 @@ def main() -> int:
         for m in missing:
             print("   ", m, file=sys.stderr)
         return 2
+
+    # version.txt: the deploy's own identity. Written AFTER the copy loop so the
+    # exclusion patterns can never drop it. deploy.sh polls the live
+    # /version.txt until it serves this SHA - that is the only trustworthy
+    # "did my upload actually go live" signal, because the production domain
+    # trails a direct upload and the homepage is edge-cached for 5 minutes.
+    try:
+        sha = subprocess.run(
+            ["git", "rev-parse", "HEAD"], cwd=ROOT,
+            capture_output=True, text=True, timeout=20,
+        ).stdout.strip() or "unknown"
+    except Exception:
+        sha = "unknown"
+    built = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    (STAGE / "version.txt").write_text(f"{sha}\nbuilt {built}\n", encoding="utf-8")
+    print(f"version.txt: {sha} built {built}")
 
     total = sum(1 for p in STAGE.rglob("*") if p.is_file())
     size = sum(p.stat().st_size for p in STAGE.rglob("*") if p.is_file())

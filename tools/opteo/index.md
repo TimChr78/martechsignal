@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Opteo
-Re-check pending: pricing last verified 2026-09-07 (46 days ago).
+Re-check pending: pricing last verified 2026-09-07 (49 days ago).
 
 Review · Advertising & Paid Media
 
@@ -143,5 +143,7 @@ Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Advertising & Paid Media Tools →](/categories/advertising/)

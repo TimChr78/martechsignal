@@ -52,7 +52,7 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- NocoDB - 65,319 stars, +466 in the 46-snapshot window to 2026-10-22 64,853→65,319 [verify on GitHub](https://github.com/nocodb/nocodb)
+- NocoDB - 65,361 stars, +508 in the 49-snapshot window to 2026-10-26 64,853→65,361 [verify on GitHub](https://github.com/nocodb/nocodb)
 [All movers on the trending page](/trending/).
 
 ## [NocoDB](/tools/nocodb/)
@@ -151,7 +151,7 @@ Vendor: [Official site](https://www.hubspot.com/products/marketing) · [Pricing]
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 170 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 171 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 Compare or swap: [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/) · [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)](/vs/salesforce-marketing-cloud-vs-hubspot/) · [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/) · [ActiveCampaign vs HubSpot CRM (2026): pricing, automation](/vs/activecampaign-vs-hubspot/)
 
@@ -170,3 +170,5 @@ NocoDB. It covers the automation job in one platform and the team can host it. O
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.

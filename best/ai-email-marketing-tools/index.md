@@ -48,10 +48,10 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Warmbly - 468 stars, +150 in the 27-snapshot window to 2026-10-22 318→468 [verify on GitHub](https://github.com/warmbly/warmbly)
-- Notifuse - 2,255 stars, +179 in the 58-snapshot window to 2026-10-22 2,076→2,255 [verify on GitHub](https://github.com/Notifuse/notifuse)
-- OpenOutreach - 3,369 stars, +551 in the 58-snapshot window to 2026-10-22 2,818→3,369 [verify on GitHub](https://github.com/eracle/OpenOutreach)
-- React Email Editor - 5,246 stars, +39 in the 58-snapshot window to 2026-10-22 5,207→5,246 [verify on GitHub](https://github.com/unlayer/react-email-editor)
+- Warmbly - 486 stars, +168 in the 30-snapshot window to 2026-10-26 318→486 [verify on GitHub](https://github.com/warmbly/warmbly)
+- Notifuse - 2,260 stars, +184 in the 61-snapshot window to 2026-10-26 2,076→2,260 [verify on GitHub](https://github.com/Notifuse/notifuse)
+- OpenOutreach - 3,414 stars, +596 in the 61-snapshot window to 2026-10-26 2,818→3,414 [verify on GitHub](https://github.com/eracle/OpenOutreach)
+- React Email Editor - 5,247 stars, +40 in the 61-snapshot window to 2026-10-26 5,207→5,247 [verify on GitHub](https://github.com/unlayer/react-email-editor)
 [All movers on the trending page](/trending/).
 
 ## [Mailchimp](/tools/mailchimp/)
@@ -148,7 +148,7 @@ Vendor: [Official site](https://unlayer.com/) · [Pricing](https://unlayer.com/p
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 170 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 171 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 Compare or swap: [Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict](/vs/mailchimp-vs-klaviyo/) · [Mailchimp vs Brevo (2026): pricing, multichannel, verdict](/vs/mailchimp-vs-brevo/) · [Mailchimp alternatives](/alternatives/mailchimp/) · [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/)
 
@@ -167,3 +167,5 @@ Twilio SendGrid. It is built for delivery rates and scale on receipts, alerts, a
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.

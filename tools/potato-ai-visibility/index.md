@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Potato
-Re-check pending: pricing last verified 2026-08-31 (53 days ago).
+Re-check pending: pricing last verified 2026-08-31 (56 days ago).
 
 Kind: Utility (not an end-to-end platform)
 
@@ -136,5 +136,7 @@ The most methodologically honest AI-visibility tool in this directory: scoped cl
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More SEO & Search Tools →](/categories/seo/)

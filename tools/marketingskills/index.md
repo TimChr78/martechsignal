@@ -16,7 +16,7 @@ Not yet scored
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 55,853
+- **GitHub stars:** 56,557
 
 [How we review](/methodology/) · No affiliate links
 
@@ -29,7 +29,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** no
 - **Catalogued integrations:** 5
-- **GitHub stars:** 55,853
+- **GitHub stars:** 56,557
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -66,7 +66,7 @@ Current plans and limits live on the [Marketing Skills (coreyhaines31) pricing s
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: ~50 Agent Skills spec Markdown skills: CRO, copywriting, SEO/GEO, analytics, ads, growth, RevOps |  |
-| ✓ Active public repository (55,853 GitHub stars counted at last check) |  |
+| ✓ Active public repository (56,557 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Claude Code, OpenAI Codex, Cursor (5 listed) |  |
 
 ## Related concepts
@@ -83,37 +83,39 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Marketing Skills (coreyhaines31)?**
-Marketing Skills (coreyhaines31): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines. Marketing Skills (coreyhaines31) ships with ~50 Agent Skills spec Markdown skills: CRO, copywriting, SEO/GEO, analytics, ads, growth, RevOps. The public repository carries 55,853 stars.
+Marketing Skills (coreyhaines31): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines. Marketing Skills (coreyhaines31) ships with ~50 Agent Skills spec Markdown skills: CRO, copywriting, SEO/GEO, analytics, ads, growth, RevOps. The public repository carries 56,557 stars.
 
 **How much does Marketing Skills (coreyhaines31) cost?**
-Marketing Skills (coreyhaines31) is open source - MIT licensed and free to self-host; the public repository carries 55,853 stars; native integrations cover Claude Code, OpenAI Codex, Cursor. You pay in server time and maintenance, not licences.
+Marketing Skills (coreyhaines31) is open source - MIT licensed and free to self-host; the public repository carries 56,557 stars; native integrations cover Claude Code, OpenAI Codex, Cursor. You pay in server time and maintenance, not licences.
 
 **Is Marketing Skills (coreyhaines31) a good self-hosted Agent Skills tool in 2026?**
-Strengths include 55,853 GitHub stars, MIT licensing with free self-hosting. Marketing Skills (coreyhaines31) documents 5 integrations
+Strengths include 56,557 GitHub stars, MIT licensing with free self-hosting. Marketing Skills (coreyhaines31) documents 5 integrations
 
 ## Similar tools
 
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/): 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 - [Growth Lab](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
-- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 - [Email Marketing Bible](/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 55853
+- **GitHub:** ★ 56557
 - **API:** No
-- **Repository checked:** 2026-10-22
+- **Repository checked:** 2026-10-26
 - **Page updated:** 2026-10-08
 
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Agent Skills Tools →](/categories/agent-skills/)

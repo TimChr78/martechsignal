@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - AI Business Skills
-Re-check pending: pricing last verified 2026-08-28 (56 days ago).
+Re-check pending: pricing last verified 2026-08-28 (59 days ago).
 
 Review · Agent Skills
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 622
+- **GitHub stars:** 629
 
 [How we review](/methodology/) · No affiliate links
 
@@ -102,10 +102,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is AI Business Skills?**
-AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 622 stars.
+AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 629 stars.
 
 **How much does AI Business Skills cost?**
-AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 622 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
+AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 629 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
 
 **Is AI Business Skills a good self-hosted Agent Skills tool in 2026?**
 The strongest free skill pack for Vietnamese-market marketing teams. Global agencies will find it useful mainly as a starting point.
@@ -113,9 +113,9 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 ## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
+- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/): 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-- [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 - [Digital Marketing Pro](/tools/digital-marketing-pro/): 163-skill AI marketing plugin for agencies with EU AI Act compliance
 ## Related reading
 
@@ -126,14 +126,16 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 622
+- **GitHub:** ★ 629
 - **Founded:** 2025
 - **API:** No
-- **Repository checked:** 2026-10-22
+- **Repository checked:** 2026-10-26
 - **Page updated:** 2026-08-28
 
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Agent Skills Tools →](/categories/agent-skills/)

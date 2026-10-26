@@ -49,9 +49,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- RudderStack - 4,504 stars, +10 in the 20-snapshot window to 2026-10-22 4,494→4,504 [verify on GitHub](https://github.com/rudderlabs/rudder-server)
-- Jitsu - 5,113 stars, +22 in the 26-snapshot window to 2026-10-22 5,091→5,113 [verify on GitHub](https://github.com/jitsucom/jitsu)
-- Apache Unomi - 380 stars, +5 in the 26-snapshot window to 2026-10-22 375→380 [verify on GitHub](https://github.com/apache/unomi)
+- RudderStack - 4,506 stars, +12 in the 23-snapshot window to 2026-10-26 4,494→4,506 [verify on GitHub](https://github.com/rudderlabs/rudder-server)
+- Jitsu - 5,116 stars, +25 in the 29-snapshot window to 2026-10-26 5,091→5,116 [verify on GitHub](https://github.com/jitsucom/jitsu)
+- Apache Unomi - 380 stars, +5 in the 29-snapshot window to 2026-10-26 375→380 [verify on GitHub](https://github.com/apache/unomi)
 [All movers on the trending page](/trending/).
 
 ## [RudderStack](/tools/rudderstack/)
@@ -126,7 +126,7 @@ Vendor: [Official site](https://tealium.com) · [Pricing](https://tealium.com/pr
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 170 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 171 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 ## What is the difference between a classic and a composable CDP?
 
@@ -143,3 +143,5 @@ RudderStack's 250K-events free tier and Hightouch's 2-sync free plan are both $0
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.

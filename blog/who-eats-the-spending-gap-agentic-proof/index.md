@@ -93,16 +93,16 @@ A pacing report answers one thing: whether spend is on schedule. It was never as
 ## Related tools
 
 - [Paperclip](/tools/paperclip/) - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/) - 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 - [Scrunch](/tools/scrunch/) - The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
-- [Intercom](/tools/intercom/) - AI-first customer service platform with Fin AI agent and omnichannel messaging
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/)
 ## Glossary terms
 
-- [AI Agent](/glossary/ai-agent/)
 - [Agentic Marketing](/glossary/agentic-marketing/)
+- [AI Agent](/glossary/ai-agent/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

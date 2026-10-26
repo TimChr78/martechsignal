@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Nosto
-Re-check pending: pricing last verified 2026-09-07 (46 days ago).
+Re-check pending: pricing last verified 2026-09-07 (49 days ago).
 
 Review · Personalization & CDP
 
@@ -179,5 +179,7 @@ Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Personalization & CDP Tools →](/categories/personalization/)

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Diffmode Growth Tactics
-Re-check pending: pricing last verified 2026-08-31 (53 days ago).
+Re-check pending: pricing last verified 2026-08-31 (56 days ago).
 
 Review · Agent Skills
 
@@ -114,12 +114,12 @@ A clever use of coding agents for growth ideation with a real anti-generic mecha
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Growth Lab](/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
-- [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/): 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -133,5 +133,7 @@ A clever use of coding agents for growth ideation with a real anti-generic mecha
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Agent Skills Tools →](/categories/agent-skills/)

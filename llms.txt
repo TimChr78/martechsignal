@@ -1,7 +1,7 @@
 # MartechSignal
 
 > Independent reviews of AI marketing automation tools. Structured research on
-> 170 martech platforms | pricing, self-hosting, APIs, and which AI features
+> 171 martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -38,6 +38,7 @@
 - [Marketing Studio](https://martechsignal.com/tools/marketing-studio/): Agent-driven marketing studio for Claude Code: launch assets from one command (open source)
 - [Open Mercato](https://martechsignal.com/tools/open-mercato/): Open-source TypeScript foundation for AI-built commerce, CRM, and ERP (open source)
 - [OpenClaw Marketing Skills](https://martechsignal.com/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors (open source)
+- [SeaLeap Amazon Skills](https://martechsignal.com/tools/sealeap-amazon-skills/): 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory (open source)
 - [SEO Skill Bench](https://martechsignal.com/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects (open source)
 - [Zapier GTM Cheat Codes](https://martechsignal.com/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof (open source)
 
@@ -433,7 +434,7 @@
 
 ## Machine-readable data
 
-- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 172 records = 170 active + 2 non-active; the directory above lists only active tools
-- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 333 entries with representativeQueries (specVersion 1.0)
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 173 records = 171 active + 2 non-active; the directory above lists only active tools
+- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 334 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

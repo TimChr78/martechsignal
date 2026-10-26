@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - MarketMuse
-Re-check pending: pricing last verified 2026-09-07 (46 days ago).
+Re-check pending: pricing last verified 2026-09-07 (49 days ago).
 
 Review · SEO & Search
 
@@ -166,5 +166,7 @@ A query is spent when you enter a focus topic into one of the applications (Rese
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More SEO & Search Tools →](/categories/seo/)

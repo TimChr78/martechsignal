@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - HubSpot CRM
-Re-check pending: pricing last verified 2026-09-27 (26 days ago).
+Re-check pending: pricing last verified 2026-09-27 (29 days ago).
 
 Review · CRM
 
@@ -148,5 +148,7 @@ Related guides: [Alternatives to HubSpot CRM](/alternatives/hubspot-crm/) · [Ai
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More CRM Tools →](/categories/crm/)

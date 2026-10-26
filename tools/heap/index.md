@@ -143,4 +143,6 @@ Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 One email when a new tool review lands, nothing else.
 
+Send me the weekly newsletter. Unsubscribe any time.
+
 [More Analytics & Attribution Tools →](/categories/analytics/)

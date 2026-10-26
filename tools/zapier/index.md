@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Zapier
-Re-check pending: pricing last verified 2026-09-27 (26 days ago).
+Re-check pending: pricing last verified 2026-09-27 (29 days ago).
 
 Review · Workflow Automation
 
@@ -163,5 +163,7 @@ Related guides: [Alternatives to Zapier](/alternatives/zapier/) · [Zapier vs N8
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)

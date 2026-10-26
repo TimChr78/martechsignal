@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Growth Lab
-Re-check pending: pricing last verified 2026-08-28 (56 days ago).
+Re-check pending: pricing last verified 2026-08-28 (59 days ago).
 
 Review · Agent Skills
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** Apache-2.0
-- **GitHub stars:** 1,968
+- **GitHub stars:** 1,972
 
 [How we review](/methodology/) · No affiliate links
 
@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 34/60
 
-Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 1,968 stars; the harness cost is on you.
+Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 1,972 stars; the harness cost is on you.
 
 
 | Pillar | Score | Evidence |
@@ -86,7 +86,7 @@ Promising for teams ready to run self-hosted SEO loops with agent review. Everyo
 | --- | --- |
 | ✓ Apache-2.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing |  |
-| ✓ Active public repository (1,968 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,972 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -102,10 +102,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Growth Lab?**
-Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,968 stars.
+Growth Lab: Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. Growth Lab ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing. The public repository carries 1,972 stars.
 
 **How much does Growth Lab cost?**
-Growth Lab is open source - Apache-2.0 licensed and free to self-host; the public repository carries 1,968 stars; native integrations cover Claude Code, OpenAI Codex, IndexNow. You pay in server time and maintenance, not licences.
+Growth Lab is open source - Apache-2.0 licensed and free to self-host; the public repository carries 1,972 stars; native integrations cover Claude Code, OpenAI Codex, IndexNow. You pay in server time and maintenance, not licences.
 
 **Is Growth Lab a good self-hosted Agent Skills tool in 2026?**
 Promising for teams ready to run self-hosted SEO loops with agent review. Everyone else should wait for maturity.
@@ -113,9 +113,9 @@ Promising for teams ready to run self-hosted SEO loops with agent review. Everyo
 ## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
+- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/): 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 - [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 - [Instagram Skills](/tools/instagram-skills/): 9 Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtags
-- [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 - [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 ## Related reading
 
@@ -126,14 +126,16 @@ Promising for teams ready to run self-hosted SEO loops with agent review. Everyo
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 1968
+- **GitHub:** ★ 1972
 - **Founded:** 2026
 - **API:** No
-- **Repository checked:** 2026-10-22
+- **Repository checked:** 2026-10-26
 - **Page updated:** 2026-08-28
 
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Agent Skills Tools →](/categories/agent-skills/)

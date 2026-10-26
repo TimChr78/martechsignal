@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Open Mercato
-Re-check pending: pricing last verified 2026-09-07 (46 days ago).
+Re-check pending: pricing last verified 2026-09-07 (49 days ago).
 
 Review · Agent Skills
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 1,879
+- **GitHub stars:** 1,882
 
 [How we review](/methodology/) · No affiliate links
 
@@ -102,7 +102,7 @@ A credible AI-first foundation for engineering-led commerce and CRM builds; earl
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI development harness with 192 evaluation cases |  |
-| ✓ Active public repository (1,879 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,882 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -118,10 +118,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Open Mercato?**
-Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,879 stars.
+Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,882 stars.
 
 **How much does Open Mercato cost?**
-Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,879 stars. You pay in server time and maintenance, not licences.
+Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,882 stars. You pay in server time and maintenance, not licences.
 
 **Is Open Mercato a good self-hosted Agent Skills tool in 2026?**
 A credible AI-first foundation for engineering-led commerce and CRM builds; early, fast-moving, and not a turnkey product.
@@ -151,15 +151,17 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 1879
+- **GitHub:** ★ 1882
 - **Founded:** 2025
 - **HQ:** Open source
 - **API:** Yes
-- **Repository checked:** 2026-10-22
+- **Repository checked:** 2026-10-26
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Agent Skills Tools →](/categories/agent-skills/)

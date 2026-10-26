@@ -141,3 +141,5 @@ Last verified 2026-10-01.
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.

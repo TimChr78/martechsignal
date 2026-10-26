@@ -1123,5 +1123,11 @@
   "url": "https://www.intercom.com/blog/feed/",
   "reason": "RSS blog post, not a tool candidate",
   "rejected_at": "2026-10-22"
+ },
+ {
+  "name": "How a three-person hiring startup built its go-to-market engine before the rush",
+  "url": "https://zapier.com/blog/feeds/latest/",
+  "reason": "RSS blog post, not a tool candidate",
+  "rejected_at": "2026-10-26"
  }
 ]

@@ -49,9 +49,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Matomo - 21,969 stars, +164 in the 58-snapshot window to 2026-10-22 21,805→21,969 [verify on GitHub](https://github.com/matomo-org/matomo)
-- Umami - 39,514 stars, +1,154 in the 58-snapshot window to 2026-10-22 38,360→39,514 [verify on GitHub](https://github.com/umami-software/umami)
-- Snowplow - 7,044 stars, +16 in the 58-snapshot window to 2026-10-22 7,028→7,044 [verify on GitHub](https://github.com/snowplow/snowplow)
+- Matomo - 21,982 stars, +177 in the 61-snapshot window to 2026-10-26 21,805→21,982 [verify on GitHub](https://github.com/matomo-org/matomo)
+- Umami - 39,687 stars, +1,327 in the 61-snapshot window to 2026-10-26 38,360→39,687 [verify on GitHub](https://github.com/umami-software/umami)
+- Snowplow - 7,046 stars, +18 in the 61-snapshot window to 2026-10-26 7,028→7,046 [verify on GitHub](https://github.com/snowplow/snowplow)
 [All movers on the trending page](/trending/).
 
 ## [Amplitude](/tools/amplitude/)
@@ -150,7 +150,7 @@ Vendor: [Official site](https://snowplow.io) · [GitHub](https://github.com/snow
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 170 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 171 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 Compare or swap: [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/) · [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/) · [Matomo alternatives](/alternatives/matomo/)
 
@@ -169,3 +169,5 @@ Heap. It captures everything and lets teams analyze retroactively, so tracking s
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.

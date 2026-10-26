@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Apache Unomi
-Re-check pending: pricing last verified 2026-09-25 (28 days ago).
+Re-check pending: pricing last verified 2026-09-25 (31 days ago).
 
 Review · Personalization & CDP
 
@@ -141,7 +141,7 @@ Not a marketer-facing one. Unomi is a REST server, and the privacy and configura
 - **GitHub:** ★ 380
 - **HQ:** Apache Software Foundation (community-governed)
 - **API:** Yes
-- **Repository checked:** 2026-10-16
+- **Repository checked:** 2026-10-26
 - **Page updated:** 2026-09-25
 
 Related guides: [Cdp](/best/cdp/)
@@ -149,5 +149,7 @@ Related guides: [Cdp](/best/cdp/)
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Personalization & CDP Tools →](/categories/personalization/)

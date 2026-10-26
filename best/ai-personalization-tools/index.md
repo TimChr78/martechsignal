@@ -49,9 +49,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Flagsmith - 6,610 stars, +38 in the 26-snapshot window to 2026-10-22 6,572→6,610 [verify on GitHub](https://github.com/Flagsmith/flagsmith)
-- GrowthBook - 8,521 stars, +89 in the 26-snapshot window to 2026-10-22 8,432→8,521 [verify on GitHub](https://github.com/growthbook/growthbook)
-- Jitsu - 5,113 stars, +22 in the 26-snapshot window to 2026-10-22 5,091→5,113 [verify on GitHub](https://github.com/jitsucom/jitsu)
+- Flagsmith - 6,619 stars, +47 in the 29-snapshot window to 2026-10-26 6,572→6,619 [verify on GitHub](https://github.com/Flagsmith/flagsmith)
+- GrowthBook - 8,531 stars, +99 in the 29-snapshot window to 2026-10-26 8,432→8,531 [verify on GitHub](https://github.com/growthbook/growthbook)
+- Jitsu - 5,116 stars, +25 in the 29-snapshot window to 2026-10-26 5,091→5,116 [verify on GitHub](https://github.com/jitsucom/jitsu)
 [All movers on the trending page](/trending/).
 
 ## [Dynamic Yield](/tools/dynamic-yield/)
@@ -150,7 +150,7 @@ Vendor: [Official site](https://jitsu.com) · [Pricing](https://jitsu.com/pricin
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 170 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 171 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 ## Which personalization tool fits a regulated enterprise?
 
@@ -167,3 +167,5 @@ Flagsmith for teams that want their experiment engine as open as their stack, Gr
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.

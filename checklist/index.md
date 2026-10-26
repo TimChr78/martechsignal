@@ -18,6 +18,8 @@ Interactive scoring needs JavaScript - the printed page works without it.
 
 Want the fixes, not just the score? The MartechSignal newsletter covers exactly the gaps you just checked, one tool at a time. Free.
 
+Send me the weekly newsletter. Unsubscribe any time.
+
 0/12
 
 Tick what applies today.

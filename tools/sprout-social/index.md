@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Sprout Social
-Re-check pending: pricing last verified 2026-09-27 (26 days ago).
+Re-check pending: pricing last verified 2026-09-27 (29 days ago).
 
 Review · Social Media
 
@@ -141,5 +141,7 @@ Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Social Media Tools →](/categories/social-media/)

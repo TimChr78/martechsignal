@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Nightwatch
-Re-check pending: pricing last verified 2026-09-25 (28 days ago).
+Re-check pending: pricing last verified 2026-09-25 (31 days ago).
 
 Review · GEO & LLM Optimization
 
@@ -148,5 +148,7 @@ The trial runs 14 days with the full toolkit and no credit card required. If it 
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More GEO & LLM Optimization Tools →](/categories/geo-llm-visibility/)

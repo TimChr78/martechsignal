@@ -144,4 +144,6 @@ Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 
 One email when a new tool review lands, nothing else.
 
+Send me the weekly newsletter. Unsubscribe any time.
+
 [More CRM Tools →](/categories/crm/)

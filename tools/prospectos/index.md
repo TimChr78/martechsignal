@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - ProspectOS
-Re-check pending: pricing last verified 2026-08-31 (53 days ago).
+Re-check pending: pricing last verified 2026-08-31 (56 days ago).
 
 Review · CRM
 
@@ -127,11 +127,13 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** Yes
-- **Repository checked:** 2026-10-22
+- **Repository checked:** 2026-10-26
 - **Page updated:** 2026-08-31
 
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More CRM Tools →](/categories/crm/)

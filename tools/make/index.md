@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Make
-Re-check pending: pricing last verified 2026-09-27 (26 days ago).
+Re-check pending: pricing last verified 2026-09-27 (29 days ago).
 
 Review · Workflow Automation
 
@@ -148,5 +148,7 @@ Related guides: [Make in Zapier alternatives](/alternatives/zapier/) · [Workflo
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)

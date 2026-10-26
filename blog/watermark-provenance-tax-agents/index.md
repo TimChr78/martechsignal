@@ -63,9 +63,9 @@ The provenance tax is real, but the invoice is split. Platforms pay it in compli
 - [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
 ## Related tools
 
+- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/) - 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 - [Digital Marketing Pro](/tools/digital-marketing-pro/) - 163-skill AI marketing plugin for agencies with EU AI Act compliance
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/) - ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
-- [Claude SEO](/tools/claude-seo/) - Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 ## Comparison guides
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)

@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 349
+- **GitHub stars:** 354
 
 [How we review](/methodology/) · No affiliate links
 
@@ -88,7 +88,7 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (349 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (354 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: 55K-word knowledge base from 908 sources |  |
 | ✓ Native integrations include Klaviyo, Mailchimp, Resend (8 listed) |  |
 
@@ -106,10 +106,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Email Marketing Bible?**
-Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 349 stars.
+Email Marketing Bible: 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP. Email Marketing Bible ships with 55K-word knowledge base from 908 sources. The public repository carries 354 stars.
 
 **How much does Email Marketing Bible cost?**
-Email Marketing Bible is open source - MIT licensed and free to self-host; the public repository carries 349 stars; native integrations cover Klaviyo, Mailchimp, Resend. You pay in server time and maintenance, not licences.
+Email Marketing Bible is open source - MIT licensed and free to self-host; the public repository carries 354 stars; native integrations cover Klaviyo, Mailchimp, Resend. You pay in server time and maintenance, not licences.
 
 **Is Email Marketing Bible a good self-hosted Agent Skills tool in 2026?**
 The fastest path to email-competent agents, with real ESP control via MCP. List hygiene stays on you.
@@ -124,8 +124,8 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for email marketers who want 19 playbooks with 908 cited sources and ESP control over MCP, free under the MIT license.
@@ -133,10 +133,10 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 349
+- **GitHub:** ★ 354
 - **Founded:** 2026
 - **API:** Yes
-- **Repository checked:** 2026-10-22
+- **Repository checked:** 2026-10-26
 - **Page updated:** 2026-10-12
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
@@ -144,5 +144,7 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Agent Skills Tools →](/categories/agent-skills/)

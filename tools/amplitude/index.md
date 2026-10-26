@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Amplitude
-Re-check pending: pricing last verified 2026-09-25 (28 days ago).
+Re-check pending: pricing last verified 2026-09-25 (31 days ago).
 
 Review · Analytics & Attribution
 
@@ -175,5 +175,7 @@ Related guides: [Amplitude in Matomo alternatives](/alternatives/matomo/) · [Ma
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Analytics & Attribution Tools →](/categories/analytics/)

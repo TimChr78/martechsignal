@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - AI Marketing Suite
-Re-check pending: pricing last verified 2026-09-28 (25 days ago).
+Re-check pending: pricing last verified 2026-09-28 (28 days ago).
 
 Kind: Agent Skill (not an end-to-end platform)
 
@@ -20,7 +20,7 @@ Not yet scored
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 2,781
+- **GitHub stars:** 2,800
 
 [How we review](/methodology/) · No affiliate links
 
@@ -34,7 +34,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** no
 - **Catalogued integrations:** 1
-- **GitHub stars:** 2,781
+- **GitHub stars:** 2,800
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -111,7 +111,7 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Short native integration list - plan for API work |
 | ✓ AI capabilities: 15 marketing skills with 5 parallel subagents |  |
-| ✓ Active public repository (2,781 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,800 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -127,10 +127,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is AI Marketing Suite?**
-AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,781 stars.
+AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,800 stars.
 
 **How much does AI Marketing Suite cost?**
-AI Marketing Suite is open source - MIT licensed and free to self-host; the public repository carries 2,781 stars. You pay in server time and maintenance, not licences.
+AI Marketing Suite is open source - MIT licensed and free to self-host; the public repository carries 2,800 stars. You pay in server time and maintenance, not licences.
 
 **Is AI Marketing Suite a good self-hosted Agent Skills tool in 2026?**
 Best as a proposal-generation engine for agencies selling audits. For steady content work, the writing skills are the lasting value.
@@ -140,7 +140,7 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [Claude SEO](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 - [Aaron Marketing Skills](/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates
-- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/): 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 - [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 ## Related reading
 
@@ -151,14 +151,16 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 2781
+- **GitHub:** ★ 2800
 - **Founded:** 2025
 - **API:** No
-- **Repository checked:** 2026-10-22
+- **Repository checked:** 2026-10-26
 - **Page updated:** 2026-09-28
 
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Agent Skills Tools →](/categories/agent-skills/)

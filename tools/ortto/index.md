@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Ortto
-Re-check pending: pricing last verified 2026-09-07 (46 days ago).
+Re-check pending: pricing last verified 2026-09-07 (49 days ago).
 
 Review · Marketing Automation
 
@@ -183,5 +183,7 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Marketing Automation Tools →](/categories/marketing-automation/)

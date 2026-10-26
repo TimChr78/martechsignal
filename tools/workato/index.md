@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Workato
-Re-check pending: pricing last verified 2026-09-07 (46 days ago).
+Re-check pending: pricing last verified 2026-09-07 (49 days ago).
 
 Review · Workflow Automation
 
@@ -170,6 +170,8 @@ Related guides: [Workato in Zapier alternatives](/alternatives/zapier/) · [Work
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 

@@ -51,7 +51,7 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- n8n - 208,269 stars, +5,866 in the 58-snapshot window to 2026-10-22 202,403→208,269 [verify on GitHub](https://github.com/n8n-io/n8n)
+- n8n - 208,604 stars, +6,201 in the 61-snapshot window to 2026-10-26 202,403→208,604 [verify on GitHub](https://github.com/n8n-io/n8n)
 [All movers on the trending page](/trending/).
 
 ## [n8n](/tools/n8n/)
@@ -126,7 +126,7 @@ Vendor: [Official site](https://tray.ai) · [Pricing](https://tray.ai/pricing/)
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 170 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 171 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 Compare or swap: [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/) · [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/) · [n8n alternatives](/alternatives/n8n/) · [Make vs Zapier (2026): pricing, AI features, verdict](/vs/make-vs-zapier/)
 
@@ -145,3 +145,5 @@ Pipedream. Code steps are first-class instead of bolted on, and it exposes MCP e
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.

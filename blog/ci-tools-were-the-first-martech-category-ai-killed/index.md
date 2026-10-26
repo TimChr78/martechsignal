@@ -115,7 +115,7 @@ Our directory breaks down martech tools by what they actually deliver: static re
 
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) - Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 - [Evertune](/tools/evertune/) - GEO visibility measurement with content activation and a ChatGPT Ad Agent
-- [Ortto](/tools/ortto/) - Customer data and marketing automation platform with journeys, CDP, and AI features
+- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/) - 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 ## Comparison guides
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)

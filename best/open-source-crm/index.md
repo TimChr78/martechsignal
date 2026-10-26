@@ -50,12 +50,12 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- EspoCRM - 3,508 stars, +217 in the 58-snapshot window to 2026-10-22 3,291→3,508 [verify on GitHub](https://github.com/espocrm/espocrm)
-- SuiteCRM - 5,806 stars, +116 in the 58-snapshot window to 2026-10-22 5,690→5,806 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
-- Twenty - 59,278 stars, +3,753 in the 58-snapshot window to 2026-10-22 55,525→59,278 [verify on GitHub](https://github.com/twentyhq/twenty)
-- Frappe CRM - 3,841 stars, +451 in the 58-snapshot window to 2026-10-22 3,390→3,841 [verify on GitHub](https://github.com/frappe/crm)
-- Krayin CRM - 24,043 stars, +332 in the 58-snapshot window to 2026-10-22 23,711→24,043 [verify on GitHub](https://github.com/krayin/laravel-crm)
-- Monica - 25,513 stars, +408 in the 58-snapshot window to 2026-10-22 25,105→25,513 [verify on GitHub](https://github.com/monicahq/monica)
+- EspoCRM - 3,520 stars, +229 in the 61-snapshot window to 2026-10-26 3,291→3,520 [verify on GitHub](https://github.com/espocrm/espocrm)
+- SuiteCRM - 5,810 stars, +120 in the 61-snapshot window to 2026-10-26 5,690→5,810 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
+- Twenty - 59,751 stars, +4,226 in the 61-snapshot window to 2026-10-26 55,525→59,751 [verify on GitHub](https://github.com/twentyhq/twenty)
+- Frappe CRM - 3,855 stars, +465 in the 61-snapshot window to 2026-10-26 3,390→3,855 [verify on GitHub](https://github.com/frappe/crm)
+- Krayin CRM - 24,063 stars, +352 in the 61-snapshot window to 2026-10-26 23,711→24,063 [verify on GitHub](https://github.com/krayin/laravel-crm)
+- Monica - 25,530 stars, +425 in the 61-snapshot window to 2026-10-26 25,105→25,530 [verify on GitHub](https://github.com/monicahq/monica)
 [All movers on the trending page](/trending/).
 
 ## [EspoCRM](/tools/espocrm/)
@@ -130,7 +130,7 @@ Vendor: [Official site](https://monicahq.com) · [GitHub](https://github.com/mon
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 170 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 171 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
 Compare or swap: [HubSpot CRM alternatives](/alternatives/hubspot-crm/)
 
@@ -149,3 +149,5 @@ Krayin. It is built on Laravel, so a PHP team reads the codebase like their own 
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.

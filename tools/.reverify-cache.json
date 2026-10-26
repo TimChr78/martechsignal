@@ -173,8 +173,8 @@
  },
  "laudspeaker": {
   "status": "homepage-ERR:URLError",
-  "errors": 1,
-  "backoff_until": "2026-10-24"
+  "errors": 2,
+  "backoff_until": "2026-11-02"
  },
  "listmonk": {
   "etag": "\"6ad1ccd9-2a8d\"",
@@ -191,10 +191,12 @@
   "backoff_until": "2026-11-16"
  },
  "manychat": {
-  "status": "fetch-403",
-  "errors": 1,
-  "last_check": "2026-10-17",
-  "backoff_until": "2026-10-24"
+  "status": "confirmed",
+  "errors": 0,
+  "last_check": "2026-10-26",
+  "backoff_until": "",
+  "etag": "",
+  "lastmod": ""
  },
  "multipost-extension": {
   "status": "no-pricing-link",

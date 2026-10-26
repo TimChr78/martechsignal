@@ -25,14 +25,14 @@ Somewhere in your execution history, two failures have the same shape. The agent
 
 | Tool | What it is | Category | GitHub stars |
 | --- | --- | --- | --- |
-| [NocoBase](/tools/nocobase/) | Open-source no-code platform with AI assistance for building business systems fast | Automation | 24,660 |
-| [Twenty](/tools/twenty/) | The open-source alternative to Salesforce, designed for AI with modern CRM workflows | CRM | 59,278 |
+| [NocoBase](/tools/nocobase/) | Open-source no-code platform with AI assistance for building business systems fast | Automation | 24,712 |
+| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 208,604 |
+| [Twenty](/tools/twenty/) | The open-source alternative to Salesforce, designed for AI with modern CRM workflows | CRM | 59,751 |
 | [Profound](/tools/profound/) | Enterprise AI marketing platform: answer-engine visibility plus drafting agents | Geo llm visibility | n/a |
-| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 208,269 |
-| [Warmbly](/tools/warmbly/) | Open-source cold email platform with warmup, campaigns, unified inbox, and CRM | Email | 468 |
+| [Warmbly](/tools/warmbly/) | Open-source cold email platform with warmup, campaigns, unified inbox, and CRM | Email | 486 |
 | [Hootsuite](/tools/hootsuite/) | Social media management platform with AI-powered scheduling and analytics | Social | n/a |
-| [ChatbotX](/tools/chatbotx/) | Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation | Chatbots | 988 |
-| [Activepieces](/tools/activepieces/) | Open-source workflow automation with a free cloud tier and on-prem hosting | Automation | 25,166 |
+| [ChatbotX](/tools/chatbotx/) | Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation | Chatbots | 1,011 |
+| [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) | Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web | Marketing automation | n/a |
 
 ## Comparisons and best-of lists
 
@@ -46,7 +46,7 @@ Verdicts with receipts: every list below names what each tool costs from the ven
 
 ## How to read the directory
 
-The directory holds **170 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **160** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
+The directory holds **171 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **160** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
 
 Every number in the directory carries a date. Prices, integration counts, AI feature lists, star counts: each one shows the day we last checked it against the vendor's own documentation. When a number moves, the page moves with it. The n8n star count is the obvious example. Three different figures had settled into our own pages before we re-checked the repository and re-stamped the date.
 
@@ -60,14 +60,14 @@ The directory covers 13 categories plus a cross-cutting open-source index. Each 
 
 - [AI Content & Copywriting](/categories/content-ai/): 13 tools
 - [Advertising & Paid Media](/categories/advertising/): 9 tools
-- [Agent Skills](/categories/agent-skills/): 20 tools
+- [Agent Skills](/categories/agent-skills/): 21 tools
 - [Analytics & Attribution](/categories/analytics/): 11 tools
 - [CRM](/categories/crm/): 24 tools
 - [Chatbots & Conversational AI](/categories/chatbots/): 6 tools
 - [Email Marketing](/categories/email-marketing/): 18 tools
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/): 14 tools
 - [Marketing Automation](/categories/marketing-automation/): 12 tools
-- [Open-Source Tools](/categories/open-source/): 85 tools
+- [Open-Source Tools](/categories/open-source/): 86 tools
 - [Personalization & CDP](/categories/personalization/): 11 tools
 - [SEO & Search](/categories/seo/): 9 tools
 - [Social Media](/categories/social-media/): 6 tools
@@ -78,4 +78,4 @@ The directory covers 13 categories plus a cross-cutting open-source index. Each 
 
 The AI tools, workflows and vendor moves that matter for marketing automation. Five minutes, not an hour. No sponsored placements.
 
-Free. Unsubscribe in one click.
+Send me the weekly newsletter. Unsubscribe any time.

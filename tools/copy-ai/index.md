@@ -141,4 +141,6 @@ Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tool
 
 One email when a new tool review lands, nothing else.
 
+Send me the weekly newsletter. Unsubscribe any time.
+
 [More AI Content & Copywriting Tools →](/categories/content-ai/)

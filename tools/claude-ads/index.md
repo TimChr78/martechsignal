@@ -18,7 +18,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 10,294
+- **GitHub stars:** 10,421
 
 [How we review](/methodology/) · No affiliate links
 
@@ -92,7 +92,7 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: 250+ audit checks across 12 ad platforms |  |
-| ✓ Active public repository (10,294 GitHub stars counted at last check) |  |
+| ✓ Active public repository (10,421 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Google Ads, Meta Ads, YouTube Ads (12 listed) |  |
 
 ## Related concepts
@@ -109,10 +109,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Claude Ads?**
-Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 10,294 stars.
+Claude Ads: Paid-media operations skill for Claude Code covering 12 ad platforms. Claude Ads ships with 250+ audit checks across 12 ad platforms. The public repository carries 10,421 stars.
 
 **How much does Claude Ads cost?**
-Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 10,294 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
+Claude Ads is open source - MIT licensed and free to self-host; the public repository carries 10,421 stars; native integrations cover Google Ads, Meta Ads, YouTube Ads. You pay in server time and maintenance, not licences.
 
 **Is Claude Ads a good self-hosted Agent Skills tool in 2026?**
 Niche but interesting for technical teams that want model-drafted ad copy inside their Git workflow.
@@ -122,7 +122,7 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 - [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 - [Claude SEO](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 - [Smartly.io](/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
-- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/): 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -135,10 +135,10 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 10294
+- **GitHub:** ★ 10421
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-22
+- **Repository checked:** 2026-10-26
 - **Page updated:** 2026-10-05
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
@@ -146,5 +146,7 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Agent Skills Tools →](/categories/agent-skills/)

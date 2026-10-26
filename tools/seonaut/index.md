@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Seonaut
-Re-check pending: pricing last verified 2026-09-07 (46 days ago).
+Re-check pending: pricing last verified 2026-09-07 (49 days ago).
 
 Review · SEO & Search
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $9/mo
 - **Licence:** MIT
-- **GitHub stars:** 823
+- **GitHub stars:** 834
 
 [How we review](/methodology/) · No affiliate links
 
@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 30/60
 
-Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 823 stars; small, legible and honest about scope.
+Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 834 stars; small, legible and honest about scope.
 
 
 | Pillar | Score | Evidence |
@@ -114,7 +114,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Seonaut?**
-Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 823 stars.
+Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 834 stars.
 
 **How much does Seonaut cost?**
 Seonaut has a free tier; paid plans start at $9/mo. MIT-licensed self-hosted free; cloud Lite free for 1 project and 500 URLs per project, Growth $9/mo for 5 projects and 10,000 URLs with recurring audits. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -147,15 +147,17 @@ On core technical auditing, more than you might expect: broken links, redirect c
 
 - **Pricing:** Open Source from $9/mo
 - **Category:** [SEO & Search](/categories/seo/)
-- **GitHub:** ★ 823
+- **GitHub:** ★ 834
 - **Founded:** 2022
 - **HQ:** Open source
 - **API:** No
-- **Repository checked:** 2026-10-22
+- **Repository checked:** 2026-10-26
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More SEO & Search Tools →](/categories/seo/)

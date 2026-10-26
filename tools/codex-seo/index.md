@@ -18,7 +18,7 @@ MartechSignal score
 
 - **Price:** Free
 - **Licence:** proprietary
-- **GitHub stars:** 853
+- **GitHub stars:** 859
 
 [How we review](/methodology/) · No affiliate links
 
@@ -101,7 +101,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Codex SEO?**
-Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 853 stars.
+Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 859 stars.
 
 **How much does Codex SEO cost?**
 Codex SEO has a free tier, so you can run a real evaluation before paying. Free to use. The bundled licence is proprietary (courtesy of the author) - not an OSS licence. We last checked the plan structure on 2026-10-12; paid tiers mainly raise limits rather than unlocking core features.
@@ -112,9 +112,9 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 ## Similar tools
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
+- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/): 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 - [Claude SEO](/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 - [Instagram Skills](/tools/instagram-skills/): 9 Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtags
-- [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 ## Related reading
 
@@ -128,10 +128,10 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 
 - **Pricing:** Free
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 853
+- **GitHub:** ★ 859
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-22
+- **Repository checked:** 2026-10-26
 - **Page updated:** 2026-10-12
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
@@ -139,5 +139,7 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Agent Skills Tools →](/categories/agent-skills/)

@@ -143,4 +143,6 @@ Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 
 One email when a new tool review lands, nothing else.
 
+Send me the weekly newsletter. Unsubscribe any time.
+
 [More Advertising & Paid Media Tools →](/categories/advertising/)

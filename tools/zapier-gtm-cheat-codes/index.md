@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Zapier GTM Cheat Codes
-Re-check pending: pricing last verified 2026-08-31 (53 days ago).
+Re-check pending: pricing last verified 2026-08-31 (56 days ago).
 
 Review · Agent Skills
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 348
+- **GitHub stars:** 351
 
 [How we review](/methodology/) · No affiliate links
 
@@ -88,7 +88,7 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (348 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (351 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: installable skills for campaign planning, postmortems, and launch packages |  |
 | ✓ Native integrations include Zapier MCP, Zapier SDK, Claude Code (8 listed) |  |
 
@@ -106,10 +106,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Zapier GTM Cheat Codes?**
-Zapier GTM Cheat Codes: Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof. Zapier GTM Cheat Codes ships with installable skills for campaign planning, postmortems, and launch packages. The public repository carries 348 stars.
+Zapier GTM Cheat Codes: Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof. Zapier GTM Cheat Codes ships with installable skills for campaign planning, postmortems, and launch packages. The public repository carries 351 stars.
 
 **How much does Zapier GTM Cheat Codes cost?**
-Zapier GTM Cheat Codes is open source - MIT licensed and free to self-host; the public repository carries 348 stars; native integrations cover Zapier MCP, Zapier SDK, Claude Code. You pay in server time and maintenance, not licences.
+Zapier GTM Cheat Codes is open source - MIT licensed and free to self-host; the public repository carries 351 stars; native integrations cover Zapier MCP, Zapier SDK, Claude Code. You pay in server time and maintenance, not licences.
 
 **Is Zapier GTM Cheat Codes a good self-hosted Agent Skills tool in 2026?**
 A credible, governance-aware starter kit for GTM teams already living in Zapier-connected stacks and coding agents. Adopt the patterns even if you skip the skills; treat the workflows as templates to adapt, not drop-in automation.
@@ -118,8 +118,8 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 
 - [Marketing Skills (coreyhaines31)](/tools/marketingskills/): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines
 - [AI Business Skills](/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/): 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 - [SEO Skill Bench](/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
-- [Codex SEO](/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 - [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors
 ## Related reading
 
@@ -133,10 +133,10 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 348
+- **GitHub:** ★ 351
 - **Founded:** 2026
 - **API:** Yes
-- **Repository checked:** 2026-10-22
+- **Repository checked:** 2026-10-26
 - **Page updated:** 2026-08-31
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
@@ -144,5 +144,7 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Agent Skills Tools →](/categories/agent-skills/)

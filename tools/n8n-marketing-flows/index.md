@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - n8n Marketing Flows
-Re-check pending: pricing last verified 2026-08-31 (53 days ago).
+Re-check pending: pricing last verified 2026-08-31 (56 days ago).
 
 Review · Workflow Automation
 
@@ -139,5 +139,7 @@ The largest verified free template pack for n8n marketing automation, with a gen
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
+
+Send me the weekly newsletter. Unsubscribe any time.
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)
