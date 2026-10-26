@@ -129,6 +129,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0 }
 .foot-col a:hover, .foot-links a:hover { color: var(--accent) }
 .foot-links { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem }
 .fine { font-size: .8125rem; color: var(--muted) }
+.hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden }
 @media (max-width: 760px) {
   .foot-cols { grid-template-columns: 1fr 1fr; gap: 1.75rem 1.5rem }
   .foot-brand { grid-column: 1 / -1 }
@@ -256,6 +257,8 @@ main a.btn:hover, main a.btn-sm:hover, main a.btn-cta:hover { color: var(--accen
 .subscribe.sub-inline { display: block; padding: 1.5rem 1.75rem; margin: 3rem 0 0 }
 .subscribe.sub-inline h2 { font-size: 1.4rem }
 .subscribe.sub-inline .sub-form { max-width: 30rem; margin-top: 1rem }
+.sub-form:has(.consent) { flex-wrap: wrap }
+.sub-form .consent { flex: 0 0 100%; margin: .25rem 0 0 }
 @media (max-width: 860px) {
   .hero, .latest { grid-template-columns: minmax(0, 1fr); gap: 2rem }
   .subscribe { grid-template-columns: minmax(0, 1fr); gap: 1.25rem }
@@ -622,6 +625,8 @@ ul.integ-list li a:hover { color: var(--accent) }
 .score-verdict { font: 400 1.0625rem/1.5 var(--serif); color: var(--ink-2) }
 .score-actions { display: flex; gap: .5rem; margin-top: 1rem }
 .capture-box { margin-top: 1.5rem; padding: 1rem; background: var(--surface); border: 1px solid var(--line) }
+.capture-box input[type=email] { display: block; width: 100%; margin: .75rem 0 .5rem; background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: .7rem .9rem; font: 400 1rem var(--sans); color: var(--ink) }
+.capture-box input[type=email]:focus { outline: none; border-color: var(--ink) }
 @media (max-width: 860px) { .check-grid { grid-template-columns: 1fr } .check-side { position: static } }
 
 /* reading measure for long-form tool content */

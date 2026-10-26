@@ -78,6 +78,10 @@ if [ "$DO_BUILD" -eq 1 ]; then
     # /categories/ and /authors/ index pages (R2 L-7: both returned 404).
     python3 tools/build_indexes.py || echo "⚠ index build failed (non-fatal)"
     python3 tools/build_hubs.py
+    # Newsletter result + internal test pages (noindex utility pages). Built
+    # before build_tools so the sitemap/dateModified passes see the files; the
+    # sitemap only lists known content URLs, so they stay excluded.
+    python3 tools/build_subscribe_pages.py
     python3 tools/build_tools.py
     # r23 H-2: breadcrumb graph normalizer - every BreadcrumbList gets @id,
     # every WebPage gets its breadcrumb edge. Runs after every HTML builder.

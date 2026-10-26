@@ -55,6 +55,7 @@ def _strip_pick_label(name, value):
 
 from build_tools import page_shell, esc, ROOT, pricing_label, out_links, _tool_fact_img
 from build_tools import CATEGORY_GUIDES, _pilot_shot, glossary_terms_html, GLOSSARY_CAT_TERMS, stars_token
+from subscribe_form import form_html
 
 _MOMENTUM_ROWS = None
 
@@ -378,7 +379,9 @@ def _plabel(t):
         return str(t.get("price_notes") or t.get("price_from") or "see page")
 
 
-_SUB_INLINE = '<section class="subscribe sub-inline" id="subscribe"><h2>Get the next teardown</h2><p>One email when a new tool review lands, nothing else.</p><form class="sub-form" action="https://app.kit.com/forms/9136291/subscriptions" method="post" data-sv-form="9136291" data-uid="f315181f90" target="_blank"><input type="hidden" name="newsletter[subscriber][first_name]" value=""><input type="email" name="email_address" autocomplete="email" placeholder="you@company.com" aria-label="Email address" required><button type="submit">Subscribe</button></form></section>'
+_SUB_INLINE = ('<section class="subscribe sub-inline" id="subscribe"><h2>Get the next teardown</h2>'
+               '<p>One email when a new tool review lands, nothing else.</p>'
+               + form_html("/best/") + '</section>')
 
 
 def _integ_cell(t):

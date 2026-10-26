@@ -47,6 +47,7 @@ from datetime import datetime
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import suggest_links
 from site_chrome import HEAD_TAGS, chrome_footer, chrome_top
+from subscribe_form import form_html
 
 ROOT = Path(__file__).resolve().parent.parent  # martechsignal/
 
@@ -332,7 +333,9 @@ def _category_display(cat_slug):
     return words
 
 
-_SUB_INLINE = '<section class="subscribe sub-inline" id="subscribe"><h2>Get the next teardown</h2><p>One email when a new tool review lands, nothing else.</p><form class="sub-form" action="https://app.kit.com/forms/9136291/subscriptions" method="post" data-sv-form="9136291" data-uid="f315181f90" target="_blank"><input type="hidden" name="newsletter[subscriber][first_name]" value=""><input type="email" name="email_address" autocomplete="email" placeholder="you@company.com" aria-label="Email address" required><button type="submit">Subscribe</button></form></section>'
+_SUB_INLINE = ('<section class="subscribe sub-inline" id="subscribe"><h2>Get the next teardown</h2>'
+               '<p>One email when a new tool review lands, nothing else.</p>'
+               + form_html("/tools/") + '</section>')
 
 
 def cat_h1(cat_name):
