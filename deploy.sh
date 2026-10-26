@@ -89,10 +89,22 @@ if [ "$REPO_OWNER" != "$GIT_USER" ]; then
     notify_tim "⛔ martechsignal deploy aborted: /mnt/user/dev/martechsignal is owned by '$REPO_OWNER' but deploy.sh ran as '$GIT_USER'. Nothing built, nothing deployed. Run git as one user."
     exit 1
 fi
-MIXED="$(find .git -maxdepth 3 ! -user "$GIT_USER" 2>/dev/null | head -3)"
+MIXED="$(find .git/objects -maxdepth 3 ! -user "$GIT_USER" 2>/dev/null | head -3)"
 if [ -n "$MIXED" ]; then
-    echo "⚠ .git holds files owned by another user (read-only packfiles are harmless):" >&2
+    echo "⚠ .git holds object files owned by another user (read-only packfiles are harmless):" >&2
     echo "$MIXED" | sed 's/^/    /' >&2
+fi
+# Anything git must WRITE (refs, reflog, index) has to belong to the user running
+# this script, or the commit dies with "unable to append to '.git/logs/HEAD'".
+# That failure lands after the upload, which is exactly how GitHub and the live
+# site diverge. Stop before the build instead.
+FOREIGN_WRITABLE="$(find .git/refs .git/logs .git/index -maxdepth 4 ! -user "$GIT_USER" 2>/dev/null | head -5)"
+if [ -n "$FOREIGN_WRITABLE" ]; then
+    echo "⛔ git cannot write its own refs as '$GIT_USER' — the repo would publish but never push:" >&2
+    echo "$FOREIGN_WRITABLE" | sed 's/^/    /' >&2
+    echo "   fix: chown -R $(id -u):$(id -g) .git   (as root, e.g. docker exec -u 0 $(hostname) chown -R $(id -u):$(id -g) $(pwd)/.git)" >&2
+    notify_tim "⛔ martechsignal deploy aborted before build: .git refs are owned by another user, so git cannot commit or push as '$GIT_USER'. Nothing deployed. Fix: chown -R $(id -u):$(id -g) .git"
+    exit 1
 fi
 
 # ── Sync with origin/main BEFORE building ──────────────────────────
