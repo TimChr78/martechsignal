@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Hootsuite
-Re-check pending: pricing last verified 2026-09-27 (29 days ago).
+Re-check pending: pricing last verified 2026-09-27 (30 days ago).
 
 Review · Social Media
 
@@ -122,8 +122,8 @@ The right call for multi-team, multi-brand social programs with governance needs
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Teams running many accounts that need scheduling which survives staff turnover

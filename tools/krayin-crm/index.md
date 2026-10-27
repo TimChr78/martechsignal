@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Krayin CRM
-Re-check pending: pricing last verified 2026-09-07 (49 days ago).
+Re-check pending: pricing last verified 2026-09-07 (50 days ago).
 
 Review · CRM
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $1,799 one-time
 - **Licence:** MIT
-- **GitHub stars:** 24,063
+- **GitHub stars:** 24,071
 
 [How we review](/methodology/) · No affiliate links
 
@@ -103,7 +103,7 @@ A current, actively maintained Laravel CRM that is more capable than its reputat
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $1,799 one-time |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module) |  |
-| ✓ Active public repository (24,063 GitHub stars counted at last check) |  |
+| ✓ Active public repository (24,071 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -120,7 +120,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Krayin CRM?**
-Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 24,063 stars.
+Krayin CRM: Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Krayin CRM ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module). The public repository carries 24,071 stars.
 
 **How much does Krayin CRM cost?**
 Krayin CRM has a free tier; paid plans start at $1,799 one-time. Free to self-host under MIT with no user limits. Paid: Webkul extensions (multi-tenant SaaS at $1,799 for Krayin 2.1.0; other extension prices unlisted) and vendor cloud hosting with no published prices. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -152,9 +152,9 @@ Yes, through the built-in import and export layer (the DataTransfer package), wh
 
 - **Pricing:** Open Source from $1,799 one-time
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 24063
+- **GitHub:** ★ 24071
 - **API:** Yes
-- **Repository checked:** 2026-10-26
+- **Repository checked:** 2026-10-27
 - **Page updated:** 2026-09-07
 
 Related guides: [Open Source Crm](/best/open-source-crm/)

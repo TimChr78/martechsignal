@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - AccuRanker
-Re-check pending: pricing last verified 2026-09-25 (31 days ago).
+Re-check pending: pricing last verified 2026-09-25 (32 days ago).
 
 Review · GEO & LLM Optimization
 
@@ -134,8 +134,8 @@ No. AccuRanker states that all current plans include unlimited users. Enterprise
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
-- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
 ### Quick Facts
 
 - **Pricing:** From €224/mo

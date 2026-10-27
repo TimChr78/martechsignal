@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Nightwatch
-Re-check pending: pricing last verified 2026-09-25 (31 days ago).
+Re-check pending: pricing last verified 2026-09-25 (32 days ago).
 
 Review · GEO & LLM Optimization
 
@@ -135,8 +135,8 @@ The trial runs 14 days with the full toolkit and no credit card required. If it 
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ### Quick Facts
 
 - **Pricing:** From €79/mo

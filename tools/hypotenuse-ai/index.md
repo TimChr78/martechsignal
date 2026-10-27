@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Hypotenuse AI
-Re-check pending: pricing last verified 2026-08-28 (59 days ago).
+Re-check pending: pricing last verified 2026-08-28 (60 days ago).
 
 Review · AI Content & Copywriting
 

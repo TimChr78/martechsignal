@@ -8,7 +8,7 @@ AI Search · Analytics · 11 min read
 
 [Home](/) · [Blog](/blog/) · The AI-search funnel map GA4 won't give you
 
-10 Sep 2026
+10 Sep 2026 · Updated 25 Sep 2026
 
 Filed under [SEO & Search](/categories/seo/)
 

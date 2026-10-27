@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Superlines
-Re-check pending: pricing last verified 2026-09-07 (49 days ago).
+Re-check pending: pricing last verified 2026-09-07 (50 days ago).
 
 Review · SEO & Search
 
@@ -132,8 +132,8 @@ A GEO analytics layer for the AI-search era: real-interface collection, MCP acce
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ### Quick Facts
 
 - **Pricing:** From €79/mo

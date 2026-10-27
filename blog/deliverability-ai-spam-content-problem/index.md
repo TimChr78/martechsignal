@@ -8,7 +8,7 @@ Email · Deliverability · 9 min read
 
 [Home](/) · [Blog](/blog/) · Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem
 
-21 Aug 2026
+21 Aug 2026 · Updated 09 Sep 2026
 
 Filed under [Email Marketing](/categories/email-marketing/)
 
@@ -102,4 +102,4 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
+More from the directory: [RudderStack](/tools/rudderstack/)

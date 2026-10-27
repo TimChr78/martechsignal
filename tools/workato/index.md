@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Workato
-Re-check pending: pricing last verified 2026-09-07 (49 days ago).
+Re-check pending: pricing last verified 2026-09-07 (50 days ago).
 
 Review · Workflow Automation
 

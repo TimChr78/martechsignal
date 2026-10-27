@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - RudderStack
-Re-check pending: pricing last verified 2026-10-01 (25 days ago).
+Re-check pending: pricing last verified 2026-10-01 (26 days ago).
 
 Review · Personalization & CDP
 

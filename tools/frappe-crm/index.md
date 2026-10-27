@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Frappe CRM
-Re-check pending: pricing last verified 2026-09-06 (50 days ago).
+Re-check pending: pricing last verified 2026-09-06 (51 days ago).
 
 Review · CRM
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $5/site/mo
 - **Licence:** AGPL-3.0
-- **GitHub stars:** 3,855
+- **GitHub stars:** 3,865
 
 [How we review](/methodology/) · No affiliate links
 
@@ -99,7 +99,7 @@ A lean, fast-moving open-source CRM that costs almost nothing to run and gives u
 | Pros | Cons |
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5/site/mo |
-| ✓ Active public repository (3,855 GitHub stars counted at last check) |  |
+| ✓ Active public repository (3,865 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Twilio, Exotel, WhatsApp (5 listed) |  |
 
 ## Related concepts
@@ -117,7 +117,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Frappe CRM?**
-Frappe CRM: Fully featured, open source CRM. The public repository carries 3,855 stars.
+Frappe CRM: Fully featured, open source CRM. The public repository carries 3,865 stars.
 
 **How much does Frappe CRM cost?**
 Frappe CRM has a free tier; paid plans start at $5/site/mo. Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -156,9 +156,9 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 
 - **Pricing:** Open Source from $5/site/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 3855
+- **GitHub:** ★ 3865
 - **API:** No
-- **Repository checked:** 2026-10-26
+- **Repository checked:** 2026-10-27
 - **Page updated:** 2026-09-06
 
 Related guides: [Frappe CRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/)

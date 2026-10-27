@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Digital Marketing Pro
-Re-check pending: pricing last verified 2026-09-28 (28 days ago).
+Re-check pending: pricing last verified 2026-09-28 (29 days ago).
 
 Kind: Agent Skill (not an end-to-end platform)
 
@@ -169,7 +169,7 @@ Yes. The catalog records a public API for Digital Marketing Pro, so custom integ
 - **GitHub:** ★ 910
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-26
+- **Repository checked:** 2026-10-27
 - **Page updated:** 2026-09-28
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

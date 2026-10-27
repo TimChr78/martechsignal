@@ -8,7 +8,7 @@ AI Search · SEO · 7 min read
 
 [Home](/) · [Blog](/blog/) · AI visibility advice, audited against 775 logged citations
 
-22 Sep 2026
+22 Sep 2026 · Updated 27 Sep 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -90,6 +90,6 @@ The AI-visibility dashboards will keep selling the count, because the count goes
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SendPortal](/tools/sendportal/)
+More from the directory: [SISTRIX](/tools/sistrix/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - OtterlyAI
-Re-check pending: pricing last verified 2026-09-25 (31 days ago).
+Re-check pending: pricing last verified 2026-09-25 (32 days ago).
 
 Review · GEO & LLM Optimization
 
@@ -139,8 +139,8 @@ Yes. Standard and above include API and MCP access (2,000 requests per month eac
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Teams starting GEO measurement at an entry price

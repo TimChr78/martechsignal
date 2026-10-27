@@ -8,7 +8,7 @@ SEO · AI Search · 9 min read
 
 [Home](/) · [Blog](/blog/) · ChatGPT Isn't Search Anymore, It's Checkout
 
-01 Sep 2026
+01 Sep 2026 · Updated 09 Sep 2026
 
 Filed under [SEO & Search](/categories/seo/) · [Advertising & Paid Media](/categories/advertising/)
 
@@ -99,4 +99,4 @@ Our SEO hub collects everything we have written on AI search visibility, citatio
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Khoj](/tools/khoj/)
+More from the directory: [LanguageTool](/tools/languagetool/)

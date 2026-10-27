@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Clerk.io
-Re-check pending: pricing last verified 2026-09-25 (31 days ago).
+Re-check pending: pricing last verified 2026-09-25 (32 days ago).
 
 Review · Personalization & CDP
 

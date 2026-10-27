@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Chatfuel
+Re-check pending: pricing last verified 2026-10-05 (22 days ago).
+
 Review · Chatbots & Conversational AI
 
 ## Chatfuel review (2026): pricing, AI features, verdict
@@ -119,8 +121,8 @@ A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B tea
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Messaging-first brands scripting conversations like campaigns

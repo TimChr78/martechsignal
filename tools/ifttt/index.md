@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - IFTTT
-Re-check pending: pricing last verified 2026-09-27 (29 days ago).
+Re-check pending: pricing last verified 2026-09-27 (30 days ago).
 
 Review · Workflow Automation
 
@@ -110,8 +110,8 @@ Strengths include an API for custom integrations. Paid plans start at $2.99/mo
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $2.99/mo

@@ -8,7 +8,7 @@ SEO · AI Search · 11 min read
 
 [Home](/) · [Blog](/blog/) · Your Dashboard Can't See AI Search, Here's the 5-Layer Fix
 
-22 Aug 2026
+22 Aug 2026 · Updated 28 Sep 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -111,6 +111,6 @@ This post is part of the [generative engine optimization hub](/guides/generative
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [OpenOutreach](/tools/openoutreach/)
+More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
 
 JSON

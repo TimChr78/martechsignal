@@ -10,7 +10,7 @@ Independent tool: Claude SEO is a third-party MIT project by AgriciDaniel; we ha
 
 [Home](/) · [Blog](/blog/) · Claude SEO benchmark: every score we have earned, and what each one measured
 
-27 Sep 2026
+27 Sep 2026 · Updated 28 Sep 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -74,4 +74,4 @@ This post is part of the hub for this topic: [ai seo tooling](/guides/ai-seo-too
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Madgicx](/tools/madgicx/)
+More from the directory: [ManyChat](/tools/manychat/)

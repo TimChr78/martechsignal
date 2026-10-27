@@ -8,7 +8,7 @@ AI · Competitive Intelligence · 13 min read
 
 [Home](/) · [Blog](/blog/) · Competitive-Intel Tools Were the First Martech Category AI Killed
 
-18 Aug 2026
+18 Aug 2026 · Updated 09 Sep 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 
@@ -128,4 +128,4 @@ Our directory breaks down martech tools by what they actually deliver: static re
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [LanguageTool](/tools/languagetool/)
+More from the directory: [LibreTranslate](/tools/libretranslate/)

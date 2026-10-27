@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Brandwatch
-Re-check pending: pricing last verified 2026-08-28 (59 days ago).
+Re-check pending: pricing last verified 2026-08-28 (60 days ago).
 
 Review · Social Media
 
@@ -121,8 +121,8 @@ The listening leader for enterprise consumer-intelligence teams. Posting-only te
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Research teams that want consumer intelligence more than a scheduler

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Snowplow
-Re-check pending: pricing last verified 2026-09-25 (31 days ago).
+Re-check pending: pricing last verified 2026-09-25 (32 days ago).
 
 Review · Analytics & Attribution
 

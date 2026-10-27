@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Mailchimp
-Re-check pending: pricing last verified 2026-08-28 (59 days ago).
+Re-check pending: pricing last verified 2026-08-28 (60 days ago).
 
 Review · Email Marketing
 
@@ -127,8 +127,8 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Small businesses that want the shortest path from idea to send

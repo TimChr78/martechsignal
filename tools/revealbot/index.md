@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Revealbot (Birch)
-Re-check pending: pricing last verified 2026-09-07 (49 days ago).
+Re-check pending: pricing last verified 2026-09-07 (50 days ago).
 
 Review · Advertising & Paid Media
 
@@ -162,8 +162,8 @@ An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Co
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Media buyers that trust rules they wrote more than black boxes

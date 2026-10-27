@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Evertune
-Re-check pending: pricing last verified 2026-09-25 (31 days ago).
+Re-check pending: pricing last verified 2026-09-25 (32 days ago).
 
 Review · GEO & LLM Optimization
 

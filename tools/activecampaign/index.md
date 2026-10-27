@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - ActiveCampaign
-Re-check pending: pricing last verified 2026-09-27 (29 days ago).
+Re-check pending: pricing last verified 2026-09-27 (30 days ago).
 
 Review · Marketing Automation
 

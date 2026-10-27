@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Predis.ai
-Re-check pending: pricing last verified 2026-08-28 (59 days ago).
+Re-check pending: pricing last verified 2026-08-28 (60 days ago).
 
 Review · Social Media
 
@@ -121,8 +121,8 @@ Efficient social content factory for small brands; B2B nuance still needs a huma
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Solo marketers that want daily post volume on a small budget

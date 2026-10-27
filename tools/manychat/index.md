@@ -4,15 +4,13 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - ManyChat
-Re-check pending: pricing last verified 2026-08-28 (59 days ago).
-
 Review · Chatbots & Conversational AI
 
 ## ManyChat review (2026): pricing, AI features, verdict
 
 AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 
-By [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28 · Freemium from $14/mo Desk-reviewed
+By [Tim Christensen](/authors/tim-christensen/) · updated 2026-10-26 · Freemium from $14/mo Desk-reviewed
 
 MartechSignal score
 
@@ -23,7 +21,7 @@ MartechSignal score
 
 [How we review](/methodology/) · No affiliate links
 
-**Verdict:** ManyChat is a tool in Chatbots & Conversational AI with a free tier. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** ManyChat is a tool in Chatbots & Conversational AI with a free tier. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-10-26. This is a desk review, not a hands-on test. Desk-reviewed
 
 ## MartechSignal Score: 35/60
 
@@ -32,14 +30,14 @@ ManyChat is the chat marketing standard for Instagram and WhatsApp, and $14/mo i
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free plan, Essential $14/mo published, Pro custom above it and scaling with contacts (the vendor pricing page: [pricing page](https://manychat.com/pricing), verified 2026-08-28). |
-| Feature depth | 6/10 | Flow building, keyword triggers, segmentation and comment automation cover the chat marketing loop (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
-| Integrations | 6/10 | Shopify, Zapier, Mailchimp, HubSpot, Sheets, Stripe and Salesforce documented plus an API (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
-| AI capability | 5/10 | AI flow building, keyword triggers and auto-replies serve the DM workflow (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
-| Operational maturity | 7/10 | Founded 2015 with the category's largest consumer-messaging install base (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free plan, Essential $14/mo published, Pro custom above it and scaling with contacts (the vendor pricing page: [pricing page](https://manychat.com/pricing), verified 2026-10-26). |
+| Feature depth | 6/10 | Flow building, keyword triggers, segmentation and comment automation cover the chat marketing loop (vendor documentation: [vendor site](https://manychat.com), verified 2026-10-26). |
+| Integrations | 6/10 | Shopify, Zapier, Mailchimp, HubSpot, Sheets, Stripe and Salesforce documented plus an API (vendor documentation: [vendor site](https://manychat.com), verified 2026-10-26). |
+| AI capability | 5/10 | AI flow building, keyword triggers and auto-replies serve the DM workflow (vendor documentation: [vendor site](https://manychat.com), verified 2026-10-26). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://manychat.com), verified 2026-10-26). |
+| Operational maturity | 7/10 | Founded 2015 with the category's largest consumer-messaging install base (vendor documentation: [vendor site](https://manychat.com), verified 2026-10-26). |
 
-Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-10-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -65,7 +63,7 @@ ManyChat homepage, captured September 2026. Vendor page shown as a dated referen
 - Salesforce
 ## Pricing
 
-ManyChat is freemium, with a free tier to start, paid plans start at $14/mo as of 2026-08.
+ManyChat is freemium, with a free tier to start, paid plans start at $14/mo as of 2026-10.
 
 Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts
 
@@ -108,7 +106,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ManyChat: AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. ManyChat ships with AI flow builder. This page documents 7 integrations.
 
 **How much does ManyChat cost?**
-ManyChat has a free tier; paid plans start at $14/mo. Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+ManyChat has a free tier; paid plans start at $14/mo. Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts. We last checked both ends of that split on 2026-10-26. The pricing section above shows what the free tier actually covers.
 
 **Is ManyChat worth it past the free tier?**
 The default choice for Instagram and Messenger funnels; value depends entirely on living in DMs.
@@ -134,7 +132,7 @@ The default choice for Instagram and Messenger funnels; value depends entirely o
 - **Founded:** 2015
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-10-26
 
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 

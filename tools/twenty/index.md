@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Twenty
-Re-check pending: pricing last verified 2026-09-07 (49 days ago).
+Re-check pending: pricing last verified 2026-09-07 (50 days ago).
 
 Review · CRM
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $9/user/mo
 - **Licence:** AGPL-3.0
-- **GitHub stars:** 59,751
+- **GitHub stars:** 59,845
 
 [How we review](/methodology/) · No affiliate links
 
@@ -111,7 +111,7 @@ The fastest-moving open-source CRM in this directory, honest about its limits an
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/user/mo |
 | ✓ AI capabilities: AI Chatbot with access to your workspace data |  |
-| ✓ Active public repository (59,751 GitHub stars counted at last check) |  |
+| ✓ Active public repository (59,845 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Gmail & Google Calendar, Outlook & Microsoft Calendar, IMAP / SMTP / CalDAV (7 listed) |  |
 
 ## Related concepts
@@ -129,7 +129,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Twenty?**
-Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 59,751 stars.
+Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 59,845 stars.
 
 **How much does Twenty cost?**
 Twenty has a free tier; paid plans start at $9/user/mo. Self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -166,11 +166,11 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 
 - **Pricing:** Open Source from $9/user/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 59751
+- **GitHub:** ★ 59845
 - **Founded:** 2023
 - **HQ:** Paris, France
 - **API:** Yes
-- **Repository checked:** 2026-10-26
+- **Repository checked:** 2026-10-27
 - **Page updated:** 2026-09-07
 
 Related guides: [Twenty in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

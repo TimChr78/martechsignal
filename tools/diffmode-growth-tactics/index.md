@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Diffmode Growth Tactics
-Re-check pending: pricing last verified 2026-08-31 (56 days ago).
+Re-check pending: pricing last verified 2026-08-31 (57 days ago).
 
 Review · Agent Skills
 

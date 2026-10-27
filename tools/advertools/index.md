@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - advertools
-Re-check pending: pricing last verified 2026-09-25 (31 days ago).
+Re-check pending: pricing last verified 2026-09-25 (32 days ago).
 
 Review · Advertising & Paid Media
 
@@ -124,8 +124,8 @@ It is a data toolkit rather than a tracking dashboard, but keyword generation, S
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Best for advertising & paid media teams that want the job covered in one platform and can host it themselves, with a free starting tier.
@@ -135,7 +135,7 @@ It is a data toolkit rather than a tracking dashboard, but keyword generation, S
 - **Category:** [Advertising & Paid Media](/categories/advertising/)
 - **GitHub:** ★ 1486
 - **API:** Yes
-- **Repository checked:** 2026-10-26
+- **Repository checked:** 2026-10-27
 - **Page updated:** 2026-09-25
 
 ### Pricing

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Sprout Social
-Re-check pending: pricing last verified 2026-09-27 (29 days ago).
+Re-check pending: pricing last verified 2026-09-27 (30 days ago).
 
 Review · Social Media
 
@@ -122,8 +122,8 @@ Best-in-class workflow and reporting for serious social teams; hard to justify b
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Social teams that want listening and engagement behind a polished UI

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Adobe LLM Optimizer
-Re-check pending: pricing last verified 2026-09-25 (31 days ago).
+Re-check pending: pricing last verified 2026-09-25 (32 days ago).
 
 Review · GEO & LLM Optimization
 
@@ -139,8 +139,8 @@ No. The CDN-edge deployment works with Fastly, Akamai, and Cloudflare, and Adobe
 ## Related reading
 
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for teams that want LLM visibility management inside Adobe Experience Cloud, priced by quote.

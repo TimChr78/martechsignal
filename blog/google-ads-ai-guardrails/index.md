@@ -8,7 +8,7 @@ Google Ads · AI · 7 min read
 
 [Home](/) · [Blog](/blog/) · The guardrails Google won't ship for your AI ad account
 
-24 Sep 2026
+24 Sep 2026 · Updated 27 Sep 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -94,6 +94,6 @@ The boring setup wins. You know what the AI can see, you know what it can't touc
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SuiteCRM](/tools/suitecrm/)
+More from the directory: [Trakkr](/tools/trakkr/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

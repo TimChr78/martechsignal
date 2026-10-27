@@ -117,6 +117,6 @@ Tools linked in this post: [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Writesonic](/tools/writesonic/)
+More from the directory: [Zoho CRM](/tools/zoho-crm/)
 
 ✓ The configuration that survives a finance review

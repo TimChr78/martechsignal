@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - ALwrity
-Re-check pending: pricing last verified 2026-08-28 (59 days ago).
+Re-check pending: pricing last verified 2026-08-28 (60 days ago).
 
 Review · Marketing Automation
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** Open source
-- **GitHub stars:** 1,202
+- **GitHub stars:** 1,205
 
 [How we review](/methodology/) · No affiliate links
 
@@ -75,7 +75,7 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 | ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI content strategy and planning |  |
-| ✓ Active public repository (1,202 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,205 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -92,10 +92,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is ALwrity?**
-ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,202 stars.
+ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,205 stars.
 
 **How much does ALwrity cost?**
-ALwrity is open source - Free to self-host; the public repository carries 1,202 stars. You pay in server time and maintenance, not licences.
+ALwrity is open source - Free to self-host; the public repository carries 1,205 stars. You pay in server time and maintenance, not licences.
 
 **Is ALwrity a good self-hosted Marketing Automation tool in 2026?**
 A capable self-hosted content engine for technical marketers. Everyone else gets better results from maintained hosted tools.
@@ -116,9 +116,9 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 
 - **Pricing:** Open Source
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 1202
+- **GitHub:** ★ 1205
 - **API:** Yes
-- **Repository checked:** 2026-10-26
+- **Repository checked:** 2026-10-27
 - **Page updated:** 2026-08-28
 
 ### Pricing

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Zoho CRM
-Re-check pending: pricing last verified 2026-09-28 (28 days ago).
+Re-check pending: pricing last verified 2026-09-28 (29 days ago).
 
 Review · CRM
 

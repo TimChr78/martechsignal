@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Tray.io
-Re-check pending: pricing last verified 2026-09-06 (50 days ago).
+Re-check pending: pricing last verified 2026-09-06 (51 days ago).
 
 Review · Workflow Automation
 

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - MarketMuse
-Re-check pending: pricing last verified 2026-09-07 (49 days ago).
+Re-check pending: pricing last verified 2026-09-07 (50 days ago).
 
 Review · SEO & Search
 
@@ -152,8 +152,8 @@ A query is spent when you enter a focus topic into one of the applications (Rese
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [ChatGPT runs an ad auction now, and the response deadline is the new quality score](/blog/chatgpt-ad-auction-response-deadline/)
 ### Quick Facts
 
 - **Pricing:** Paid

@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Attio
+Re-check pending: pricing last verified 2026-10-05 (22 days ago).
+
 Review · CRM
 
 ## Attio review (2026): pricing, AI features, verdict

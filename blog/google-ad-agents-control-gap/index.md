@@ -8,7 +8,7 @@ AI · Advertising · 12 min read
 
 [Home](/) · [Blog](/blog/) · Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook
 
-17 Aug 2026
+17 Aug 2026 · Updated 25 Sep 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -129,7 +129,7 @@ Advertising platforms, attribution vendors, and the measurement layer that keeps
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SISTRIX](/tools/sistrix/)
+More from the directory: [SuiteCRM](/tools/suitecrm/)
 
 TARGETbid + budget, set by you
 

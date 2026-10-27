@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Zapier GTM Cheat Codes
-Re-check pending: pricing last verified 2026-08-31 (56 days ago).
+Re-check pending: pricing last verified 2026-08-31 (57 days ago).
 
 Review · Agent Skills
 
@@ -124,8 +124,8 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for GTM practitioners who want a cheat-code skill for Zapier and Google Tag Manager recipes, free to install.

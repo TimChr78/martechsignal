@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Marketing Studio
-Re-check pending: pricing last verified 2026-08-31 (56 days ago).
+Re-check pending: pricing last verified 2026-08-31 (57 days ago).
 
 Review · Agent Skills
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 250
+- **GitHub stars:** 253
 
 [How we review](/methodology/) · No affiliate links
 
@@ -83,7 +83,7 @@ The most complete open-source take on agent-produced launch assets, with a real 
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (250 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (253 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: launch asset generation | ✗ Short native integration list - plan for API work |
 | ✓ Native integrations include Claude Code, Blender (2 listed) |  |
 
@@ -101,10 +101,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Marketing Studio?**
-Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 250 stars.
+Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Marketing Studio ships with launch asset generation. The public repository carries 253 stars.
 
 **How much does Marketing Studio cost?**
-Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 250 stars. You pay in server time and maintenance, not licences.
+Marketing Studio is open source - MIT licensed and free to self-host; the public repository carries 253 stars. You pay in server time and maintenance, not licences.
 
 **Is Marketing Studio a good self-hosted Agent Skills tool in 2026?**
 The most complete open-source take on agent-produced launch assets, with a real pipeline architecture behind the demo. Worth adopting if you already work in Claude Code and need repeatable launch creative; expect to invest in brand tokens and review passes before output is publishable.
@@ -124,11 +124,11 @@ The most complete open-source take on agent-produced launch assets, with a real 
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 250
+- **GitHub:** ★ 253
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** No
-- **Repository checked:** 2026-10-26
+- **Repository checked:** 2026-10-27
 - **Page updated:** 2026-08-31
 
 ## Get the next teardown

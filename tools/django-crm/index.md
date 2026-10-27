@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Django CRM
-Re-check pending: pricing last verified 2026-09-06 (50 days ago).
+Re-check pending: pricing last verified 2026-09-06 (51 days ago).
 
 Review · CRM
 
@@ -152,7 +152,7 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 2461
 - **API:** Yes
-- **Repository checked:** 2026-10-26
+- **Repository checked:** 2026-10-27
 - **Page updated:** 2026-09-06
 
 ## Get the next teardown

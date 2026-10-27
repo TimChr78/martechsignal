@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://martechsignal.com/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://martechsignal.com/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://martechsignal.com/checklist/</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://martechsignal.com/blog/agents-identity-debt/</loc><lastmod>2026-09-25</lastmod></url>
   <url><loc>https://martechsignal.com/blog/ai-agents-need-campaign-state/</loc><lastmod>2026-09-27</lastmod></url>
@@ -55,6 +55,7 @@
   <url><loc>https://martechsignal.com/blog/amazon-agentic-ad-formats-brand-controls/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://martechsignal.com/blog/where-manual-work-hides-marketing-automation/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://martechsignal.com/blog/procedural-memory-agents/</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/chatgpt-ad-auction-response-deadline/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://martechsignal.com/blog/who-eats-the-spending-gap-agentic-proof/</loc><lastmod>2026-10-15</lastmod></url>
   <url><loc>https://martechsignal.com/blog/aeo-for-seo-what-changes-when-buyers-ask/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://martechsignal.com/blog/agent-fleet-in-the-wild-2026-10-19/</loc><lastmod>2026-10-19</lastmod></url>
@@ -135,7 +136,7 @@
   <url><loc>https://martechsignal.com/tools/mailchimp/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://martechsignal.com/tools/maizzle/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://martechsignal.com/tools/make/</loc><lastmod>2026-09-27</lastmod></url>
-  <url><loc>https://martechsignal.com/tools/manychat/</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://martechsignal.com/tools/manychat/</loc><lastmod>2026-10-26</lastmod></url>
   <url><loc>https://martechsignal.com/tools/marketing-studio/</loc><lastmod>2026-08-31</lastmod></url>
   <url><loc>https://martechsignal.com/tools/marketmuse/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://martechsignal.com/tools/matomo/</loc><lastmod>2026-09-06</lastmod></url>
@@ -257,8 +258,8 @@
   <url><loc>https://martechsignal.com/categories/seo/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/categories/geo-llm-visibility/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/categories/workflow-automation/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/agent-skills/</loc><lastmod>2026-10-26</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/open-source/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/agent-skills/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/open-source/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/abm/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/agentic-marketing/</loc><lastmod>2026-10-05</lastmod></url>
@@ -329,5 +330,5 @@
   <url><loc>https://martechsignal.com/vs/n8n-vs-zapier/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/vs/nocodb-vs-nocobase/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/blog/</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/</loc><lastmod>2026-10-27</lastmod></url>
 </urlset>

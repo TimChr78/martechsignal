@@ -8,7 +8,7 @@ Automation · AI Agents · 9 min read
 
 [Home](/) · [Blog](/blog/) · Check outputs, not logs: the silent-failure audit
 
-10 Sep 2026
+10 Sep 2026 · Updated 11 Sep 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/) · [Agent Skills](/categories/agent-skills/)
 

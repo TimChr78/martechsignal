@@ -8,7 +8,7 @@ AI · Marketing Ops · 8 min read
 
 [Home](/) · [Blog](/blog/) · Your AI Marketing Agent Doesn't Need Better Prompts
 
-03 Aug 2026
+03 Aug 2026 · Updated 27 Sep 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/)
 

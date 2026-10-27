@@ -8,7 +8,7 @@ AI · Marketing Ops · 8 min read
 
 [Home](/) · [Blog](/blog/) · Claude Cowork is eating the edges of your martech stack
 
-30 Jul 2026
+30 Jul 2026 · Updated 17 Sep 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 
@@ -108,6 +108,6 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [LibreTranslate](/tools/libretranslate/)
+More from the directory: [Madgicx](/tools/madgicx/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

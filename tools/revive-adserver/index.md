@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Revive Adserver
-Re-check pending: pricing last verified 2026-09-25 (31 days ago).
+Re-check pending: pricing last verified 2026-09-25 (32 days ago).
 
 Review · Advertising & Paid Media
 
@@ -139,7 +139,7 @@ Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 dat
 - **Category:** [Advertising & Paid Media](/categories/advertising/)
 - **GitHub:** ★ 1513
 - **API:** No
-- **Repository checked:** 2026-10-26
+- **Repository checked:** 2026-10-27
 - **Page updated:** 2026-09-25
 
 ## Get the next teardown
