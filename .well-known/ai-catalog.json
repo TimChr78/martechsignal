@@ -2518,6 +2518,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:chatgpt-ad-auction-response-deadline",
+   "displayName": "ChatGPT's ad auction has a response deadline",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/chatgpt-ad-auction-response-deadline/",
+   "description": "An ad can win ChatGPT's auction and still never appear if it misses the response window.",
+   "representativeQueries": [
+    "chatgpt's ad auction has a response deadline",
+    "chatgpt ad auction response deadline"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:chatgpt-isnt-search-anymore-its-checkout",
    "displayName": "ChatGPT Isn't Search Anymore, It's Checkout",
    "type": "text/html",
