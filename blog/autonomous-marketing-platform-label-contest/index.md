@@ -8,7 +8,7 @@ Agent Skills · Advertising · 11 min read
 
 [Home](/) · [Blog](/blog/) · Autonomous Marketing Platforms Are Real. The Name Is Wrong.
 
-26 Aug 2026 · Updated 28 Sep 2026
+26 Aug 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 

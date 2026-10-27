@@ -8,7 +8,7 @@ Google Ads · AI · 7 min read
 
 [Home](/) · [Blog](/blog/) · The guardrails Google won't ship for your AI ad account
 
-24 Sep 2026 · Updated 27 Sep 2026
+24 Sep 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 

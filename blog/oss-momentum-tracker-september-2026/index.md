@@ -8,7 +8,7 @@ Open Source · Data · 7 min read
 
 [Home](/) · [Blog](/blog/) · Where open-source martech momentum actually lives
 
-26 Sep 2026 · Updated 30 Sep 2026
+26 Sep 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 

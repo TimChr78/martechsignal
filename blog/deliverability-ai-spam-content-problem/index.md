@@ -8,7 +8,7 @@ Email · Deliverability · 9 min read
 
 [Home](/) · [Blog](/blog/) · Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem
 
-21 Aug 2026 · Updated 09 Sep 2026
+21 Aug 2026
 
 Filed under [Email Marketing](/categories/email-marketing/)
 

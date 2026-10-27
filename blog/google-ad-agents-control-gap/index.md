@@ -8,7 +8,7 @@ AI · Advertising · 12 min read
 
 [Home](/) · [Blog](/blog/) · Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook
 
-17 Aug 2026 · Updated 25 Sep 2026
+17 Aug 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 

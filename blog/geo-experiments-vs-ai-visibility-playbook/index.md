@@ -8,7 +8,7 @@ AI Search · SEO · 7 min read
 
 [Home](/) · [Blog](/blog/) · AI visibility advice, audited against 775 logged citations
 
-22 Sep 2026 · Updated 27 Sep 2026
+22 Sep 2026
 
 Filed under [SEO & Search](/categories/seo/)
 

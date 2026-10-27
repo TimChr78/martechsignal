@@ -8,7 +8,7 @@ Updated · 7 min read
 
 [Home](/) · [Blog](/blog/) · Why Your Marketing Stack Doesn't Need Another AI Tool
 
-27 Jul 2026 · Updated 28 Sep 2026
+27 Jul 2026
 
 Another AI tool will not fix a stack that cannot hand it clean context. These are the four boring repairs that make the tools you already pay for work as advertised.
 

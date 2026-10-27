@@ -8,7 +8,7 @@ Advertising · Microsoft · 9 min read
 
 [Home](/) · [Blog](/blog/) · Microsoft Just Removed the Steering Wheel From Search Ads
 
-31 Aug 2026 · Updated 09 Sep 2026
+31 Aug 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 

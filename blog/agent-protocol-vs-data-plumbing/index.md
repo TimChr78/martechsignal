@@ -8,7 +8,7 @@ Automation · AI Agents · 8 min read
 
 [Home](/) · [Blog](/blog/) · Your agent protocol matters less than your data plumbing
 
-23 Sep 2026 · Updated 27 Sep 2026
+23 Sep 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 

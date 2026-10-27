@@ -8,7 +8,7 @@ AI Search · AI Overviews · 7 min read
 
 [Home](/) · [Blog](/blog/) · Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.
 
-31 Jul 2026 · Updated 27 Sep 2026
+31 Jul 2026
 
 Filed under [SEO & Search](/categories/seo/)
 

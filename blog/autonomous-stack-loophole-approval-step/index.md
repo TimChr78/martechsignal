@@ -8,7 +8,7 @@ Marketing Automation · AI Agents · 9 min read
 
 [Home](/) · [Blog](/blog/) · Your autonomous stack's loophole is the approval step you deleted
 
-07 Sep 2026 · Updated 09 Sep 2026
+07 Sep 2026
 
 Filed under [Marketing Automation](/categories/marketing-automation/) · [Workflow Automation](/categories/workflow-automation/)
 

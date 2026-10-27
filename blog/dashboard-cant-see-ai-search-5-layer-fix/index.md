@@ -8,7 +8,7 @@ SEO · AI Search · 11 min read
 
 [Home](/) · [Blog](/blog/) · Your Dashboard Can't See AI Search, Here's the 5-Layer Fix
 
-22 Aug 2026 · Updated 28 Sep 2026
+22 Aug 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
