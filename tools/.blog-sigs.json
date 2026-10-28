@@ -127,6 +127,10 @@
   "dm": "2026-09-28",
   "sig": "0c28a5aa158cb26a"
  },
+ "mcp-distribution-channel": {
+  "dm": "2026-10-28",
+  "sig": "b1afbf4f08879848"
+ },
  "microsoft-search-ads-steering-wheel": {
   "dm": "2026-09-09",
   "sig": "91bc8f7a2e99e915"

@@ -218,6 +218,7 @@
 
 ## Analysis
 
+- [31% of martech tools now ship an MCP server](https://martechsignal.com/blog/mcp-distribution-channel/) (2026-10-28)
 - [ChatGPT's ad auction has a response deadline](https://martechsignal.com/blog/chatgpt-ad-auction-response-deadline/) (2026-10-27)
 - [Agents keep failing the same way. Memory is the fix](https://martechsignal.com/blog/procedural-memory-agents/) (2026-10-23)
 - [Prompts are not a security boundary. Isolation is.](https://martechsignal.com/blog/agent-isolation-not-prompts-2026-10-22/) (2026-10-22)
@@ -436,6 +437,6 @@
 ## Machine-readable data
 
 - [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 173 records = 171 active + 2 non-active; the directory above lists only active tools
-- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 334 entries with representativeQueries (specVersion 1.0)
+- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 335 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

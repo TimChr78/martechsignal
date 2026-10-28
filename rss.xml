@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Oct 2026 06:21:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 06:13:04 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>31% of the tools in our directory now ship an MCP server</title>
+      <link>https://martechsignal.com/blog/mcp-distribution-channel/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/mcp-distribution-channel/</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Three marketing technology announcements in the past seven days, and not one of them pitched an API.</description>
+    </item>
     <item>
       <title>ChatGPT runs an ad auction now, and the response deadline is the new quality score</title>
       <link>https://martechsignal.com/blog/chatgpt-ad-auction-response-deadline/</link>
