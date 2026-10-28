@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Customer.io
-Re-check pending: pricing last verified 2026-09-06 (51 days ago).
+Re-check pending: pricing last verified 2026-09-06 (52 days ago).
 
 Review · Email Marketing
 
@@ -148,8 +148,8 @@ Email and transactional email, push and in-app with unlimited sends on every pla
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Lifecycle teams writing behavior-triggered journeys on their own data

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Mixpanel
-Re-check pending: pricing last verified 2026-09-06 (51 days ago).
+Re-check pending: pricing last verified 2026-09-06 (52 days ago).
 
 Review · Analytics & Attribution
 
@@ -156,8 +156,8 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
+- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform, with a free starting tier.

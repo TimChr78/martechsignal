@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Line Harness
-Re-check pending: pricing last verified 2026-09-07 (50 days ago).
+Re-check pending: pricing last verified 2026-09-07 (51 days ago).
 
 Review · Marketing Automation
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 609
+- **GitHub stars:** 610
 
 [How we review](/methodology/) · No affiliate links
 
@@ -107,10 +107,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Line Harness?**
-Line Harness: Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Line Harness ships with MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language). The public repository carries 609 stars.
+Line Harness: Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Line Harness ships with MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language). The public repository carries 610 stars.
 
 **How much does Line Harness cost?**
-Line Harness is open source - MIT licensed and free to self-host; the public repository carries 609 stars; native integrations cover LINE Messaging API, LINE LIFF, Google Calendar. You pay in server time and maintenance, not licences.
+Line Harness is open source - MIT licensed and free to self-host; the public repository carries 610 stars; native integrations cover LINE Messaging API, LINE LIFF, Google Calendar. You pay in server time and maintenance, not licences.
 
 **Is Line Harness a good self-hosted Marketing Automation tool in 2026?**
 The first credible free alternative to L-Step for LINE marketing in Japan. Outside Japan there is no use case.
@@ -137,17 +137,17 @@ The docs describe BAN detection with automatic friend migration to the next acco
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 609
+- **GitHub:** ★ 610
 - **Founded:** 2026
 - **HQ:** Tokyo, Japan
 - **API:** Yes
-- **Repository checked:** 2026-10-27
+- **Repository checked:** 2026-10-28
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

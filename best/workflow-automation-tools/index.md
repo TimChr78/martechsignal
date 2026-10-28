@@ -51,7 +51,7 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- n8n - 208,698 stars, +6,295 in the 62-snapshot window to 2026-10-27 202,403→208,698 [verify on GitHub](https://github.com/n8n-io/n8n)
+- n8n - 208,821 stars, +6,418 in the 63-snapshot window to 2026-10-28 202,403→208,821 [verify on GitHub](https://github.com/n8n-io/n8n)
 [All movers on the trending page](/trending/).
 
 ## [n8n](/tools/n8n/)

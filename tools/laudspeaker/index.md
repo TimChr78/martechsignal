@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Laudspeaker
-Re-check pending: pricing last verified 2026-08-28 (60 days ago).
+Re-check pending: pricing last verified 2026-08-28 (61 days ago).
 
 Review · Marketing Automation
 
@@ -112,8 +112,8 @@ The open-source Braze alternative for technical growth teams that want data owne
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ## Also featured in
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Lifecycle messaging and onboarding journeys that live outside the CRM

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Strapi
-Re-check pending: pricing last verified 2026-08-28 (60 days ago).
+Re-check pending: pricing last verified 2026-08-28 (61 days ago).
 
 Review · AI Content & Copywriting
 
@@ -124,8 +124,8 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Teams that want a headless CMS with AI inside their own stack
@@ -137,7 +137,7 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 - **Founded:** 2015
 - **HQ:** Paris, France
 - **API:** Yes
-- **Repository checked:** 2026-10-27
+- **Repository checked:** 2026-10-28
 - **Page updated:** 2026-08-28
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)

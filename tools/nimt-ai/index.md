@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Nimt.ai
-Re-check pending: pricing last verified 2026-09-25 (32 days ago).
+Re-check pending: pricing last verified 2026-09-25 (33 days ago).
 
 Review · GEO & LLM Optimization
 
@@ -141,8 +141,8 @@ No. The agent drafts content, page fixes, and outreach, and you approve changes 
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for teams that want tracking across 8 AI models plus an agent that writes, fixes and outreaches, starting from EUR 40 in credits.

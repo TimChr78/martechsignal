@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Potato
-Re-check pending: pricing last verified 2026-08-31 (57 days ago).
+Re-check pending: pricing last verified 2026-08-31 (58 days ago).
 
 Kind: Utility (not an end-to-end platform)
 
@@ -121,8 +121,8 @@ The most methodologically honest AI-visibility tool in this directory: scoped cl
 ## Related reading
 
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
 ### Quick Facts
 
 - **Pricing:** Open Source

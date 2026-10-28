@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Snowplow
-Re-check pending: pricing last verified 2026-09-25 (32 days ago).
+Re-check pending: pricing last verified 2026-09-25 (33 days ago).
 
 Review · Analytics & Attribution
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open-core
 - **Licence:** Apache-2.0
-- **GitHub stars:** 7,046
+- **GitHub stars:** 7,047
 
 [How we review](/methodology/) · No affiliate links
 
@@ -112,7 +112,7 @@ The deepest behavioral-event infrastructure for teams that own their data pipeli
 | --- | --- |
 | ✓ Apache-2.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: signals real-time profiles with propensity predictions |  |
-| ✓ Active public repository (7,046 GitHub stars counted at last check) |  |
+| ✓ Active public repository (7,047 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Snowflake, Databricks, BigQuery (9 listed) |  |
 
 ## Related concepts
@@ -129,10 +129,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Snowplow?**
-Snowplow: Customer context infrastructure: behavioral event pipeline for warehouses and AI agents. Snowplow ships with signals real-time profiles with propensity predictions. The public repository carries 7,046 stars.
+Snowplow: Customer context infrastructure: behavioral event pipeline for warehouses and AI agents. Snowplow ships with signals real-time profiles with propensity predictions. The public repository carries 7,047 stars.
 
 **How much does Snowplow cost?**
-Snowplow is open source - Apache-2.0 licensed and free to self-host; the public repository carries 7,046 stars; native integrations cover Snowflake, Databricks, BigQuery. You pay in server time and maintenance, not licences.
+Snowplow is open source - Apache-2.0 licensed and free to self-host; the public repository carries 7,047 stars; native integrations cover Snowflake, Databricks, BigQuery. You pay in server time and maintenance, not licences.
 
 **Is Snowplow a good self-hosted Analytics & Attribution tool in 2026?**
 The deepest behavioral-event infrastructure for teams that own their data pipeline, now priced and licensed like enterprise software rather than the free open-source project it once was.
@@ -153,8 +153,8 @@ Signals, launched in May 2025, is Snowplow's real-time context layer and the hom
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want intent detection and can host it themselves, with a free starting tier.
@@ -162,10 +162,10 @@ Signals, launched in May 2025, is Snowplow's real-time context layer and the hom
 
 - **Pricing:** Open-core
 - **Category:** [Analytics & Attribution](/categories/analytics/)
-- **GitHub:** ★ 7046
+- **GitHub:** ★ 7047
 - **Founded:** 2012
 - **API:** Yes
-- **Repository checked:** 2026-10-26
+- **Repository checked:** 2026-10-28
 - **Page updated:** 2026-09-25
 
 Related guides: [Snowplow in Matomo alternatives](/alternatives/matomo/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/)

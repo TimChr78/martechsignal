@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Maizzle
-Re-check pending: pricing last verified 2026-09-07 (50 days ago).
+Re-check pending: pricing last verified 2026-09-07 (51 days ago).
 
 Review · Email Marketing
 

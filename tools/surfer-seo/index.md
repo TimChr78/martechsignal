@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Surfer SEO
-Re-check pending: pricing last verified 2026-08-28 (60 days ago).
+Re-check pending: pricing last verified 2026-08-28 (61 days ago).
 
 Review · SEO & Search
 

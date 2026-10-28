@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Bloomreach
-Re-check pending: pricing last verified 2026-10-05 (22 days ago).
+Re-check pending: pricing last verified 2026-10-05 (23 days ago).
 
 Review · Marketing Automation
 

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - WaCRM
-Re-check pending: pricing last verified 2026-09-07 (50 days ago).
+Re-check pending: pricing last verified 2026-09-07 (51 days ago).
 
 Review · CRM
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 2,618
+- **GitHub stars:** 2,627
 
 [How we review](/methodology/) · No affiliate links
 
@@ -106,7 +106,7 @@ A legitimate starting point for WhatsApp-first sales teams that can run Node and
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: AI reply assistant (bring your own OpenAI or Anthropic key) |  |
-| ✓ Active public repository (2,618 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,627 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Meta WhatsApp Cloud API, Supabase, OpenAI (8 listed) |  |
 
 ## Related concepts
@@ -124,10 +124,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is WaCRM?**
-WaCRM: Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. WaCRM ships with AI reply assistant (bring your own OpenAI or Anthropic key). The public repository carries 2,618 stars.
+WaCRM: Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. WaCRM ships with AI reply assistant (bring your own OpenAI or Anthropic key). The public repository carries 2,627 stars.
 
 **How much does WaCRM cost?**
-WaCRM is open source - MIT licensed and free to self-host; the public repository carries 2,618 stars; native integrations cover Meta WhatsApp Cloud API, Supabase, OpenAI. You pay in server time and maintenance, not licences.
+WaCRM is open source - MIT licensed and free to self-host; the public repository carries 2,627 stars; native integrations cover Meta WhatsApp Cloud API, Supabase, OpenAI. You pay in server time and maintenance, not licences.
 
 **Is WaCRM a good self-hosted CRM tool in 2026?**
 A legitimate starting point for WhatsApp-first sales teams that can run Node and Supabase; the official API brings template approvals and Meta vetting along with the delivery tracking.
@@ -156,17 +156,17 @@ Automations and flows never run. The container schedules nothing internally, so 
 ## Related reading
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 2618
+- **GitHub:** ★ 2627
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** Yes
-- **Repository checked:** 2026-10-27
+- **Repository checked:** 2026-10-28
 - **Page updated:** 2026-09-07
 
 ### Pricing

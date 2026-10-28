@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Microsoft Power Automate
-Re-check pending: pricing last verified 2026-09-27 (30 days ago).
+Re-check pending: pricing last verified 2026-09-27 (31 days ago).
 
 Review · Workflow Automation
 
@@ -111,8 +111,8 @@ Strengths include an API for custom integrations. Paid plans start at $15/user/m
 ## Related reading
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ### Quick Facts
 
 - **Pricing:** From $15/user/mo

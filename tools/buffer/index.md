@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Buffer
-Re-check pending: pricing last verified 2026-10-05 (22 days ago).
+Re-check pending: pricing last verified 2026-10-05 (23 days ago).
 
 Review · Social Media
 
@@ -120,8 +120,8 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Creators that want scheduling priced per channel, not per seat

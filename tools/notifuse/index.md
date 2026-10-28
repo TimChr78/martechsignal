@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Notifuse
-Re-check pending: pricing last verified 2026-08-28 (60 days ago).
+Re-check pending: pricing last verified 2026-08-28 (61 days ago).
 
 Review · Email Marketing
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $19/mo
 - **Licence:** AGPL-3.0
-- **GitHub stars:** 2,263
+- **GitHub stars:** 2,265
 
 [How we review](/methodology/) · No affiliate links
 
@@ -96,7 +96,7 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/mo |
 | ✓ AI capabilities: AI email copy generation via Anthropic, OpenAI, or Gemini |  |
-| ✓ Active public repository (2,263 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,265 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Amazon SES, Postmark, SendGrid (12 listed) |  |
 
 ## Related concepts
@@ -112,7 +112,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Notifuse?**
-Notifuse: Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations. Notifuse ships with AI email copy generation via Anthropic, OpenAI, or Gemini. The public repository carries 2,263 stars.
+Notifuse: Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations. Notifuse ships with AI email copy generation via Anthropic, OpenAI, or Gemini. The public repository carries 2,265 stars.
 
 **How much does Notifuse cost?**
 Notifuse has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0, all features). Cloud from $19/mo (2,500 contacts); BYO ESP, unlimited sends. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -129,8 +129,8 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want the job covered in one platform and can host it themselves, with a free starting tier.
@@ -138,10 +138,10 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 
 - **Pricing:** Open Source from $19/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 2263
+- **GitHub:** ★ 2265
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-27
+- **Repository checked:** 2026-10-28
 - **Page updated:** 2026-08-28
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

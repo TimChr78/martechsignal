@@ -16,7 +16,7 @@ Not yet scored
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 56,729
+- **GitHub stars:** 56,942
 
 [How we review](/methodology/) · No affiliate links
 
@@ -29,7 +29,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** no
 - **Catalogued integrations:** 5
-- **GitHub stars:** 56,729
+- **GitHub stars:** 56,942
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -66,7 +66,7 @@ Current plans and limits live on the [Marketing Skills (coreyhaines31) pricing s
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: ~50 Agent Skills spec Markdown skills: CRO, copywriting, SEO/GEO, analytics, ads, growth, RevOps |  |
-| ✓ Active public repository (56,729 GitHub stars counted at last check) |  |
+| ✓ Active public repository (56,942 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Claude Code, OpenAI Codex, Cursor (5 listed) |  |
 
 ## Related concepts
@@ -83,13 +83,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Marketing Skills (coreyhaines31)?**
-Marketing Skills (coreyhaines31): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines. Marketing Skills (coreyhaines31) ships with ~50 Agent Skills spec Markdown skills: CRO, copywriting, SEO/GEO, analytics, ads, growth, RevOps. The public repository carries 56,729 stars.
+Marketing Skills (coreyhaines31): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines. Marketing Skills (coreyhaines31) ships with ~50 Agent Skills spec Markdown skills: CRO, copywriting, SEO/GEO, analytics, ads, growth, RevOps. The public repository carries 56,942 stars.
 
 **How much does Marketing Skills (coreyhaines31) cost?**
-Marketing Skills (coreyhaines31) is open source - MIT licensed and free to self-host; the public repository carries 56,729 stars; native integrations cover Claude Code, OpenAI Codex, Cursor. You pay in server time and maintenance, not licences.
+Marketing Skills (coreyhaines31) is open source - MIT licensed and free to self-host; the public repository carries 56,942 stars; native integrations cover Claude Code, OpenAI Codex, Cursor. You pay in server time and maintenance, not licences.
 
 **Is Marketing Skills (coreyhaines31) a good self-hosted Agent Skills tool in 2026?**
-Strengths include 56,729 GitHub stars, MIT licensing with free self-hosting. Marketing Skills (coreyhaines31) documents 5 integrations
+Strengths include 56,942 GitHub stars, MIT licensing with free self-hosting. Marketing Skills (coreyhaines31) documents 5 integrations
 
 ## Similar tools
 
@@ -101,15 +101,15 @@ Strengths include 56,729 GitHub stars, MIT licensing with free self-hosting. Mar
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 56729
+- **GitHub:** ★ 56942
 - **API:** No
-- **Repository checked:** 2026-10-27
+- **Repository checked:** 2026-10-28
 - **Page updated:** 2026-10-08
 
 ## Get the next teardown

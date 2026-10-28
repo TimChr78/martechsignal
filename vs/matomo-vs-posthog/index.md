@@ -127,8 +127,8 @@ Last verified 2026-09-28.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Matomo - 21,985 stars, +180 in the 62-snapshot window to 2026-10-27 21,805→21,985 [verify on GitHub](https://github.com/matomo-org/matomo)
-- PostHog - 40,460 stars, +520 in the 30-snapshot window to 2026-10-27 39,940→40,460 [verify on GitHub](https://github.com/PostHog/posthog)
+- Matomo - 21,984 stars, +179 in the 63-snapshot window to 2026-10-28 21,805→21,984 [verify on GitHub](https://github.com/matomo-org/matomo)
+- PostHog - 40,483 stars, +543 in the 31-snapshot window to 2026-10-28 39,940→40,483 [verify on GitHub](https://github.com/PostHog/posthog)
 [All movers on the trending page](/trending/).
 
 ## Get the next teardown

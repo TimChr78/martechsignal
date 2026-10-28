@@ -10,15 +10,15 @@ Every week we audit the AI marketing automation landscape: the agents, the workf
 
 ## Latest
 
-### ChatGPT runs an ad auction now, and the response deadline is the new quality score
+### 31% of the tools in our directory now ship an MCP server
 
-OpenAI published something unusual in late October: an engineering explanation of how ChatGPT picks ads. Not a rate card, not a sales deck. A description of the machinery, which…
+Three marketing technology announcements in the past seven days, and not one of them pitched an API.
+
+### ChatGPT runs an ad auction now, and the response deadline is the new quality score
 
 ### Your agents keep failing the same way. Memory of what worked is the fix nobody ships
 
 ### Prompts are not a security boundary. Isolation is.
-
-### HubSpot's credit rules are a budget design problem, not a pricing problem.
 
 ## Tool index
 

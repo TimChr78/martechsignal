@@ -18,7 +18,7 @@ MartechSignal score
 
 - **Price:** Free
 - **Licence:** proprietary
-- **GitHub stars:** 873
+- **GitHub stars:** 883
 
 [How we review](/methodology/) · No affiliate links
 
@@ -101,7 +101,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Codex SEO?**
-Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 873 stars.
+Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 883 stars.
 
 **How much does Codex SEO cost?**
 Codex SEO has a free tier, so you can run a real evaluation before paying. Free to use. The bundled licence is proprietary (courtesy of the author) - not an OSS licence. We last checked the plan structure on 2026-10-12; paid tiers mainly raise limits rather than unlocking core features.
@@ -119,8 +119,8 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for Codex CLI users who want scripted SEO workflows.
@@ -128,10 +128,10 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 
 - **Pricing:** Free
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 873
+- **GitHub:** ★ 883
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-27
+- **Repository checked:** 2026-10-28
 - **Page updated:** 2026-10-12
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)

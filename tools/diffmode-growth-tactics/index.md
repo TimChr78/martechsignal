@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Diffmode Growth Tactics
-Re-check pending: pricing last verified 2026-08-31 (57 days ago).
+Re-check pending: pricing last verified 2026-08-31 (58 days ago).
 
 Review · Agent Skills
 
@@ -118,8 +118,8 @@ A clever use of coding agents for growth ideation with a real anti-generic mecha
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
 - [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
 - **Pricing:** Open Source
