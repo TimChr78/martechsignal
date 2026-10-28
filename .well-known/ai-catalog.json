@@ -2727,6 +2727,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:mcp-distribution-channel",
+   "displayName": "31% of martech tools now ship an MCP server",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/mcp-distribution-channel/",
+   "description": "We counted our own tool directory: 53 of 171 active tools (31%) mention MCP and 46% of tools added since September mention one too.",
+   "representativeQueries": [
+    "31% of martech tools now ship an mcp server",
+    "mcp distribution channel"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:mcp-rewrites-the-integration-economics-of-your-marketing-stack",
    "displayName": "MCP Rewrites the Integration Economics of Your Stack",
    "type": "text/html",
