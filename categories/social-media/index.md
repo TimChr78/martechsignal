@@ -7,7 +7,7 @@
 
 Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites
 
-6 tools in this category
+7 tools in this category
 
 ## All tools in this category
 
@@ -15,6 +15,7 @@ Social scheduling, listening, and analytics, from per-channel schedulers to ente
 - [Buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools (Freemium from $5/channel/mo)
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics (From $99/mo)
 - [MultiPost](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click (Open Source)
+- [PostBot](/tools/postbot/): Open-source browser extension that publishes one piece of content to many social platforms (Open Source)
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives (Freemium from $19/mo)
 - [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools (From $249/seat/mo)
 **Compare:** [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/)
@@ -30,4 +31,4 @@ The trap is suite prices for a scheduling job. Publishing is close to a solved p
 
 So the tiers: lightweight schedulers (Buffer, MultiPost), AI content generators (Predis.ai), management suites with listening (Hootsuite, Sprout Social), and enterprise intelligence (Brandwatch). Two checks before you commit: confirm which networks each tool's API access actually covers, and ask to see a report that ties publishing to revenue or pipeline, not impressions. Any suite can queue a post. Only some of them tell you whether it worked, and those numbers are what survive renewal.
 
-Vendors in this category: [MultiPost](https://multipost.app) · [Brandwatch](https://www.brandwatch.com) · [Buffer](https://buffer.com)
+Vendors in this category: [MultiPost](https://multipost.app) · [PostBot](https://postbot.exmay.com) · [Brandwatch](https://www.brandwatch.com)

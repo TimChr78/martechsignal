@@ -6,20 +6,20 @@ Browse by licence: [Open-source tools](/categories/open-source/) · [all categor
 
 Curated tools for AI-powered marketing automation, from email and CRM to content generation and workflow automation.
 
-172 tools · 13 categories + open-source index · Updated weekly
+174 tools · 13 categories + open-source index · Updated weekly
 
-Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 86 of them, with daily snapshots since Aug 25, 2026.
+Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 88 of them, with daily snapshots since Aug 25, 2026.
 
 A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The [marketing automation checklist](/checklist/) walks the 12 questions that decide it, and scores your answers in the browser.
 
 ## Browse by category
 
 - [Marketing Automation (12)](/categories/marketing-automation/)
-- [Email Marketing (19)](/categories/email-marketing/)
+- [Email Marketing (20)](/categories/email-marketing/)
 - [CRM (24)](/categories/crm/)
 - [AI Content & Copywriting (13)](/categories/content-ai/)
 - [Analytics & Attribution (11)](/categories/analytics/)
-- [Social Media (6)](/categories/social-media/)
+- [Social Media (7)](/categories/social-media/)
 - [Advertising & Paid Media (9)](/categories/advertising/)
 - [Personalization & CDP (11)](/categories/personalization/)
 - [Chatbots & Conversational AI (6)](/categories/chatbots/)
@@ -27,12 +27,12 @@ A directory tells you what exists. It does not tell you whether your stack can h
 - [GEO & LLM Optimization (14)](/categories/geo-llm-visibility/)
 - [Workflow Automation (17)](/categories/workflow-automation/)
 - [Agent Skills (21)](/categories/agent-skills/)
-- [Open-Source Tools (86)](/categories/open-source/)
+- [Open-Source Tools (88)](/categories/open-source/)
 ## Evaluating tools for your stack?
 
 The weekly newsletter tracks this category: one teardown, one workflow, no fluff.
 
-All 172 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
+All 174 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
 
 ## AI Content & Copywriting *13*
 
@@ -130,7 +130,7 @@ All 172 tools, grouped by category. Each card links to a full teardown with pric
 - [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging (From $29/seat/mo)
 - [ManyChat](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger (Freemium from $14/mo)
 - [Tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support (Freemium from $24/mo)
-## Email Marketing *19*
+## Email Marketing *20*
 
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free (Open Source from $98.90/mo)
 - [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts (Freemium from $9/mo)
@@ -142,6 +142,7 @@ All 172 tools, grouped by category. Each card links to a full teardown with pric
 - [MailCheap](/tools/mailcheap/): Newsletter platform billed per email sent, with full MCP control for AI agents (From $19/mo)
 - [Mailchimp](/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics (Freemium from $13/mo)
 - [Maizzle](/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns (Free)
+- [Mosaico](/tools/mosaico/): Self-hosted open-source editor for responsive email templates (Open Source)
 - [Notifo](/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push (Open Source)
 - [Notifuse](/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations (Open Source from $19/mo)
 - [OpenOutreach](/tools/openoutreach/): Open-source AI lead finder: describe your product and it finds and qualifies the leads (Open Source)
@@ -205,12 +206,13 @@ All 172 tools, grouped by category. Each card links to a full teardown with pric
 - [Seonaut](/tools/seonaut/): Open-source SEO crawler in Go for technical audits, self-hosted or cloud (Open Source from $9/mo)
 - [Superlines](/tools/superlines/): AI Search Intelligence platform for brands and agencies (From €79/mo)
 - [Surfer SEO](/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits (From $49/mo)
-## Social Media *6*
+## Social Media *7*
 
 - [Brandwatch](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform (Enterprise)
 - [Buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools (Freemium from $5/channel/mo)
 - [Hootsuite](/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics (From $99/mo)
 - [MultiPost](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click (Open Source)
+- [PostBot](/tools/postbot/): Open-source browser extension that publishes one piece of content to many social platforms (Open Source)
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives (Freemium from $19/mo)
 - [Sprout Social](/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools (From $249/seat/mo)
 ## Workflow Automation *17*

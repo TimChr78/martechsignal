@@ -5,9 +5,9 @@
 - Open-Source Tools
 ## Open-Source Tools
 
-86 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.
+88 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.
 
-86 tools in this category
+88 tools in this category
 
 ## All tools in this category
 
@@ -62,6 +62,7 @@
 - [Matomo](/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights (Open Source from €22/mo)
 - [Mautic](/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management (Open Source from €247.50/mo)
 - [Monica](/tools/monica/): Open-source personal CRM for tracking friends, family, and business relationships (Open Source from $9/mo)
+- [Mosaico](/tools/mosaico/): Self-hosted open-source editor for responsive email templates (Open Source)
 - [MultiPost](/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click (Open Source)
 - [n8n](/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes (Open Source from €20/mo)
 - [n8n Marketing Flows](/tools/n8n-marketing-flows/): 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO (Open Source)
@@ -75,6 +76,7 @@
 - [OpenSEO](/tools/openseo/): Open source alternative to Ahrefs and Semrush (Open Source from $10/mo)
 - [Paperclip](/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit (Freemium from €10/mo)
 - [Plausible Analytics](/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics (Open Source from $9/mo)
+- [PostBot](/tools/postbot/): Open-source browser extension that publishes one piece of content to many social platforms (Open Source)
 - [PostHog](/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys (Freemium)
 - [Potato](/tools/potato-ai-visibility/): Free local tool that measures brand mentions and citations in Claude's web-search answers (Open Source)
 - [Promptfoo](/tools/promptfoo/): Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming (Freemium)
@@ -105,7 +107,7 @@
 - [Workflow automation](/glossary/workflow-automation/)
 Full definitions in the [martech glossary](/glossary/).
 
-This index lists every open-source tool in the catalog: 86 projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.
+This index lists every open-source tool in the catalog: 88 projects you can self-host today, spanning CRM, analytics, workflow automation, and email. Each entry links to the tool's own assessment page with pricing, license detail, and a link back to the public repository where the license claim was checked.
 
 Open source does not mean zero cost. The real price is hosting, upgrades, and whoever answers the pager: projects with active commit histories and commercial sponsors behind them age better than one-maintainer efforts, however generous the license. The per-tool pages carry star counts, license fields, and self-host notes so you can judge maintenance health before you commit a server.
 

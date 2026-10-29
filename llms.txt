@@ -1,7 +1,7 @@
 # MartechSignal
 
 > Independent reviews of AI marketing automation tools. Structured research on
-> 172 martech platforms | pricing, self-hosting, APIs, and which AI features
+> 174 martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -120,6 +120,7 @@
 - [MailCheap](https://martechsignal.com/tools/mailcheap/): Newsletter platform billed per email sent, with full MCP control for AI agents (open source)
 - [Mailchimp](https://martechsignal.com/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
 - [Maizzle](https://martechsignal.com/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns (open source)
+- [Mosaico](https://martechsignal.com/tools/mosaico/): Self-hosted open-source editor for responsive email templates (open source)
 - [Notifo](https://martechsignal.com/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push (open source)
 - [Notifuse](https://martechsignal.com/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations (open source)
 - [OpenOutreach](https://martechsignal.com/tools/openoutreach/): Open-source AI lead finder: describe your product and it finds and qualifies the leads (open source)
@@ -194,6 +195,7 @@
 - [Buffer](https://martechsignal.com/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools
 - [Hootsuite](https://martechsignal.com/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
 - [MultiPost](https://martechsignal.com/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click (open source)
+- [PostBot](https://martechsignal.com/tools/postbot/): Open-source browser extension that publishes one piece of content to many social platforms (open source)
 - [Predis.ai](https://martechsignal.com/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
 - [Sprout Social](https://martechsignal.com/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
 
@@ -438,7 +440,7 @@
 
 ## Machine-readable data
 
-- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 174 records = 172 active + 2 non-active; the directory above lists only active tools
-- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 338 entries with representativeQueries (specVersion 1.0)
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 176 records = 174 active + 2 non-active; the directory above lists only active tools
+- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 340 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

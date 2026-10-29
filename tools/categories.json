@@ -193,6 +193,7 @@
    "mailcheap",
    "mailchimp",
    "maizzle",
+   "mosaico",
    "notifo",
    "notifuse",
    "openoutreach",
@@ -360,6 +361,7 @@
      "label": "Templates and cold outreach",
      "slugs": [
       "maizzle",
+      "mosaico",
       "openoutreach",
       "react-email-editor",
       "warmbly"
@@ -389,7 +391,7 @@
     }
    ]
   },
-  "tool_count": 19
+  "tool_count": 20
  },
  {
   "slug": "crm",
@@ -986,6 +988,7 @@
    "buffer",
    "hootsuite",
    "multipost-extension",
+   "postbot",
    "predis-ai",
    "sprout-social"
   ],
@@ -2090,6 +2093,7 @@
    "matomo",
    "mautic",
    "monica",
+   "mosaico",
    "multipost-extension",
    "n8n",
    "n8n-marketing-flows",
@@ -2103,6 +2107,7 @@
    "openseo",
    "paperclip",
    "plausible",
+   "postbot",
    "posthog",
    "potato-ai-visibility",
    "promptfoo",

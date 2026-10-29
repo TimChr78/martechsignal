@@ -12,7 +12,7 @@
       "name": "Email Marketing",
       "url": "https://martechsignal.com/categories/email-marketing/",
       "description": "Email sending, newsletters, and transactional delivery",
-      "tool_count": 19
+      "tool_count": 20
     },
     {
       "slug": "crm",
@@ -40,7 +40,7 @@
       "name": "Social Media",
       "url": "https://martechsignal.com/categories/social-media/",
       "description": "Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites",
-      "tool_count": 6
+      "tool_count": 7
     },
     {
       "slug": "advertising",
@@ -96,7 +96,7 @@
       "name": "Open-Source Tools",
       "url": "https://martechsignal.com/categories/open-source/",
       "description": "The self-hostable shelf: open-source MarTech across every category, licence claims checkable against the vendor's own repository. {n} tools reviewed.",
-      "tool_count": 86,
+      "tool_count": 88,
       "cross_cutting": true
     }
   ],

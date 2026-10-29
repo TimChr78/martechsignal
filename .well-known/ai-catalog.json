@@ -1205,6 +1205,19 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:tools:mosaico",
+   "displayName": "Mosaico pricing & plans",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/mosaico/",
+   "description": "Self-hosted open-source editor for responsive email templates",
+   "representativeQueries": [
+    "open source mosaico",
+    "Mosaico pricing",
+    "Mosaico alternatives",
+    "email marketing tools like Mosaico"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:tools:multipost-extension",
    "displayName": "MultiPost pricing & plans",
    "type": "text/html",
@@ -1527,6 +1540,19 @@
     "Plausible Analytics pricing",
     "Plausible Analytics alternatives",
     "analytics tools like Plausible Analytics"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:postbot",
+   "displayName": "PostBot pricing & plans",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/postbot/",
+   "description": "Open-source browser extension that publishes one piece of content to many social platforms",
+   "representativeQueries": [
+    "open source postbot",
+    "PostBot pricing",
+    "PostBot alternatives",
+    "social media tools like PostBot"
    ]
   },
   {
@@ -2228,7 +2254,7 @@
    "displayName": "Email Marketing",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/email-marketing/",
-   "description": "Email marketing across hosted, self-hosted, and transactional: contact vs volume pricing and inbox placement. 19 tools reviewed.",
+   "description": "Email marketing across hosted, self-hosted, and transactional: contact vs volume pricing and inbox placement. 20 tools reviewed.",
    "representativeQueries": [
     "best email marketing tools",
     "email marketing comparison",
@@ -2264,7 +2290,7 @@
    "displayName": "Open-Source Tools",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/open-source/",
-   "description": "86 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.",
+   "description": "88 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.",
    "representativeQueries": [
     "best open-source tools tools",
     "open-source tools comparison",
@@ -3929,7 +3955,7 @@
    "displayName": "Categories",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/",
-   "description": "Browse all 13 categories plus the open-source index across 172 marketing-automation tools: licences, stars and plain-English summaries.",
+   "description": "Browse all 13 categories plus the open-source index across 174 marketing-automation tools: licences, stars and plain-English summaries.",
    "representativeQueries": [
     "martechsignal categories",
     "browse tools by category"
@@ -3973,7 +3999,7 @@
    "displayName": "Open-Source MarTech Momentum: GitHub Stars",
    "type": "text/html",
    "url": "https://martechsignal.com/trending/",
-   "description": "Every morning we snapshot the GitHub stars of all 86 open-source tools in our 172-tool catalog (all of them list a public GitHub repository). 85 have enough history to chart here; a repository needs 5",
+   "description": "Every morning we snapshot the GitHub stars of all 88 open-source tools in our 174-tool catalog (all of them list a public GitHub repository). 85 have enough history to chart here; a repository needs 5",
    "representativeQueries": [
     "trending martech tools",
     "what tools trend on github"

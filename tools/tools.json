@@ -10310,5 +10310,72 @@
   "date_added": "2026-10-29",
   "date_updated": "2026-10-29",
   "description": "Brew is an AI-native email service provider from Brew Emails Inc., launched in 2026 by founders from Revolut and Vercel. Its pricing stance is the hook: you pay for sends and AI credits, never for contacts. Customer stories on the site include LiveFlow, which moved a 400,000-contact lifecycle program off Customer.io, plus RedSeed and Harmonya.\n\nYou start by pasting your website URL. Brew reads the site and writes what it finds into two editable brand files, one for email design and one for image style, and every email it generates afterwards stays inside those rules. Creation happens on an infinite canvas with a chat beside it: describe the email, edit by hand, or import HTML, MJML, React Email code, a Figma frame, or a forwarded message. Finished emails can be exported to Klaviyo, Mailchimp, HubSpot, or Braze if you would rather keep sending elsewhere.\n\nSending covers campaigns, transactional mail, and automations that trigger on Stripe, Shopify, Clerk, or Supabase events, all from your own domain, with send-time optimization per contact. Deliverability tooling is specific: a domain health score across DKIM, SPF, and DMARC, gradual warm-up for new domains, and inbox placement tests against Gmail, Outlook, Yahoo, and Apple.\n\nThe agent story is the differentiator. A hosted MCP server lets Claude, ChatGPT, Cursor, and other clients create emails, manage audiences, send and schedule, run automations, and read analytics, backed by a REST API and a TypeScript SDK. One AI credit buys $0.01 of model spend, so heavy generation is metered separately from sending. It is a young product with thin third-party review coverage so far, and the vendor is explicit that it is not for cold outreach."
+ },
+ {
+  "slug": "mosaico",
+  "name": "Mosaico",
+  "tagline": "Self-hosted open-source editor for responsive email templates",
+  "website": "https://mosaico.io",
+  "category": "email-marketing",
+  "pricing_model": "open-source",
+  "price_from": 0,
+  "price_notes": "GPL-3.0, free to self-host. The vendor sells commercial support and runs a hosted demo on mosaico.io; the editor itself is the open-source library.",
+  "currency": "USD",
+  "ai_features": [],
+  "integrations": [
+   "CiviCRM",
+   "Mailtrain",
+   "MoxieManager",
+   "Docker"
+  ],
+  "github_repo": "voidlabs/mosaico",
+  "github_stars": 1782,
+  "open_source": true,
+  "api_available": false,
+  "founded": null,
+  "hq": null,
+  "status": "active",
+  "date_added": "2026-10-29",
+  "date_updated": "2026-10-29",
+  "description": "Mosaico is a JavaScript editor for email templates, released under GPL-3.0 by voidlabs and running entirely on your own infrastructure. Its defining idea is that the editor does not decide what can be edited: each template declares its own editable blocks and style knobs, so the same editor can power a rigid corporate layout or a loose creative one. The repo ships one production template and a template language for making your own HTML Mosaico-ready.\n\nThe live demo on mosaico.io is roughly the open-source library with a custom backend and a second template, which is a fair preview of what you get self-hosting. Integration is the real story: CiviCRM bundles it for nonprofit campaigns, Mailtrain has shipped it as its email editor since release 1.23.0, and an agency-oriented product (GoodEnough's Mosaico) is built around it. You run it with Node and Grunt, or via the bundled Docker images.\n\nTwo honest caveats. It is a Knockout.js application from an earlier era of frontend tooling, and development has been slow: commits resumed in late 2026 after a quiet stretch, and there are no tagged GitHub releases, just the master branch and the demo. And there is nothing AI about it; it competes on being self-hosted and template-driven while hosted editors move toward generated copy. If your requirement is a self-hosted drag-and-drop editor you can embed in your own stack, with CiviCRM or Mailtrain heritage to prove it, Mosaico is the reference implementation."
+ },
+ {
+  "slug": "postbot",
+  "name": "PostBot",
+  "tagline": "Open-source browser extension that publishes one piece of content to many social platforms",
+  "website": "https://postbot.exmay.com",
+  "category": "social-media",
+  "pricing_model": "open-source",
+  "price_from": 0,
+  "price_notes": "Community edition free and open source, including all core sync and publishing features, with a default engine that consumes no AI tokens. A cloud edition and a separate international build (Postar) are offered by the vendor.",
+  "currency": "USD",
+  "ai_features": [
+   "Smart web reader that extracts content from pages for republishing",
+   "Optional AI integration for content adaptation per platform",
+   "Pluggable automation engines, including Playwright, PageAgent, OpenClaw, and agent harnesses",
+   "MCP interface, CLI, and TypeScript SDK for scripted multi-platform distribution"
+  ],
+  "integrations": [
+   "WeChat",
+   "Weibo",
+   "Douyin",
+   "Bilibili",
+   "Xiaohongshu",
+   "Zhihu",
+   "Toutiao",
+   "TikTok",
+   "YouTube",
+   "LinkedIn"
+  ],
+  "github_repo": "gitcoffee-os/postbot",
+  "github_stars": 1598,
+  "open_source": true,
+  "api_available": true,
+  "founded": null,
+  "hq": null,
+  "status": "active",
+  "date_added": "2026-10-29",
+  "date_updated": "2026-10-29",
+  "description": "PostBot is an open-source content distribution tool from GitCoffee, built as a browser extension. You write an article, note, or post once, attach images, video, or audio, and it publishes to every platform you are logged into: the Chinese roster covers WeChat, Weibo, Toutiao, Xiaohongshu, Zhihu, Baijiahao, QQ, Weixin Channels, Douyin, Kuaishou, and Bilibili, and the architecture extends to X, Facebook, Instagram, TikTok, YouTube, and LinkedIn. A separate international build called Postar targets those platforms directly.\n\nThe security model is its identity: publishing runs against your own browser's login sessions, locally, so no account credentials are stored in a cloud service. The default sync engine is deterministic and consumes no AI tokens; AI integration is optional. For automation, PostBot exposes MCP, a CLI, and a TypeScript SDK covering tasks, platforms, accounts, scheduling, and workflows, and it can drive pluggable engines including Playwright and several agent harnesses. That makes it one of the few multi-posting tools an agent can operate end to end.\n\nCaveats worth knowing. Documentation and the product UI are Chinese-first, which is a real friction point for teams outside that market. The license is Apache 2.0 with rider terms: the producer may relicense future versions, your contributions can be used commercially including in their cloud offering, and the interactive design is patent-protected. The main branch iterates daily; a stable branch (v1.1.20) is recommended for local runs."
  }
 ]

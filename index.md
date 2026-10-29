@@ -46,7 +46,7 @@ Verdicts with receipts: every list below names what each tool costs from the ven
 
 ## How to read the directory
 
-The directory holds **172 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **160** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
+The directory holds **174 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **160** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
 
 Every number in the directory carries a date. Prices, integration counts, AI feature lists, star counts: each one shows the day we last checked it against the vendor's own documentation. When a number moves, the page moves with it. The n8n star count is the obvious example. Three different figures had settled into our own pages before we re-checked the repository and re-stamped the date.
 
@@ -64,13 +64,13 @@ The directory covers 13 categories plus a cross-cutting open-source index. Each 
 - [Analytics & Attribution](/categories/analytics/): 11 tools
 - [CRM](/categories/crm/): 24 tools
 - [Chatbots & Conversational AI](/categories/chatbots/): 6 tools
-- [Email Marketing](/categories/email-marketing/): 19 tools
+- [Email Marketing](/categories/email-marketing/): 20 tools
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/): 14 tools
 - [Marketing Automation](/categories/marketing-automation/): 12 tools
-- [Open-Source Tools](/categories/open-source/): 86 tools
+- [Open-Source Tools](/categories/open-source/): 88 tools
 - [Personalization & CDP](/categories/personalization/): 11 tools
 - [SEO & Search](/categories/seo/): 9 tools
-- [Social Media](/categories/social-media/): 6 tools
+- [Social Media](/categories/social-media/): 7 tools
 - [Workflow Automation](/categories/workflow-automation/): 17 tools
 [All categories](/categories/) · [Full tool directory](/tools/)
 

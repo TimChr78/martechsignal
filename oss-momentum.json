@@ -19687,6 +19687,8 @@
   }
  ],
  "excluded": [
+  "mosaico",
+  "postbot",
   "sealeap-amazon-skills"
  ]
 }

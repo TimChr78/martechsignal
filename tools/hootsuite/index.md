@@ -119,6 +119,7 @@ The right call for multi-team, multi-brand social programs with governance needs
 - [Predis.ai](/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
 - [Brandwatch](/tools/brandwatch/): AI-powered consumer intelligence and social media management platform
 - [Buffer](/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools
+- [PostBot](/tools/postbot/): Open-source browser extension that publishes one piece of content to many social platforms
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
