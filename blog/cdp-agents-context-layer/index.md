@@ -87,4 +87,4 @@ Mapping this onto your own stack: our [Salesforce Marketing Cloud](/tools/salesf
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Jasper](/tools/jasper/)
+More from the directory: [Instagram Skills](/tools/instagram-skills/)

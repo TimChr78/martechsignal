@@ -96,4 +96,4 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [IFTTT](/tools/ifttt/)
+More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)

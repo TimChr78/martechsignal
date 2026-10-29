@@ -88,4 +88,4 @@ Tools linked in this post: [Amazon Ads](https://advertising.amazon.com/) | [Chat
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [EspoCRM](/tools/espocrm/)
+More from the directory: [ChatbotX](/tools/chatbotx/)

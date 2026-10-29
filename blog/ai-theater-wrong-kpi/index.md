@@ -114,6 +114,6 @@ Tools linked in this post: [HubSpot CRM](/tools/hubspot-crm/) · [n8n](/tools/n8
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [ChatbotX](/tools/chatbotx/)
+More from the directory: [Brew](/tools/brew/)
 
 ✓ The metric that survives contact with production

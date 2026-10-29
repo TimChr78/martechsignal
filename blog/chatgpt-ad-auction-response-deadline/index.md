@@ -86,6 +86,6 @@ Pressure the stage reporting first. OpenAI's logs already record whether your ad
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [LanguageTool](/tools/languagetool/)
+More from the directory: [Khoj](/tools/khoj/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**
