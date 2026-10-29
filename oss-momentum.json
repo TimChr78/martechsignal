@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-28",
+ "generated": "2026-10-29",
  "title": "Open-source martech momentum",
  "method": "Build-time derivative of tools/github-history.json (daily snapshots) and tools/tools.json: headline stars are the synced catalog totals, growth windows and history come from the snapshot series. last_release carries forward from the previous file.",
  "tools": [
   {
    "slug": "aaron-marketing-skills",
    "repo": "aaron-he-zhu/aaron-marketing-skills",
-   "stars": 3025,
+   "stars": 3030,
    "last_release": "2026-09-02",
    "growth": {
-    "window_days": 64,
-    "stars_added": 384,
+    "window_days": 65,
+    "stars_added": 389,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -266,19 +266,23 @@
     {
      "date": "2026-10-28",
      "stars": 3025
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 3030
     }
    ]
   },
   {
    "slug": "activepieces",
    "repo": "activepieces/activepieces",
-   "stars": 25255,
+   "stars": 25266,
    "last_release": null,
    "growth": {
-    "window_days": 31,
-    "stars_added": 512,
+    "window_days": 32,
+    "stars_added": 523,
     "from": "2026-09-27",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -400,19 +404,23 @@
     {
      "date": "2026-10-28",
      "stars": 25255
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 25266
     }
    ]
   },
   {
    "slug": "advertools",
    "repo": "eliasdabbas/advertools",
-   "stars": 1488,
+   "stars": 1490,
    "last_release": null,
    "growth": {
-    "window_days": 32,
-    "stars_added": 24,
+    "window_days": 33,
+    "stars_added": 26,
     "from": "2026-09-26",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -538,19 +546,23 @@
     {
      "date": "2026-10-28",
      "stars": 1488
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 1490
     }
    ]
   },
   {
    "slug": "ai-business-skills",
    "repo": "minhnv0807/ai-business-skills",
-   "stars": 636,
+   "stars": 638,
    "last_release": "2026-05-25",
    "growth": {
-    "window_days": 64,
-    "stars_added": 82,
+    "window_days": 65,
+    "stars_added": 84,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -804,19 +816,23 @@
     {
      "date": "2026-10-28",
      "stars": 636
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 638
     }
    ]
   },
   {
    "slug": "ai-marketing-claude",
    "repo": "zubair-trabzada/ai-marketing-claude",
-   "stars": 2813,
+   "stars": 2818,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 269,
+    "window_days": 65,
+    "stars_added": 274,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -1062,19 +1078,23 @@
     {
      "date": "2026-10-28",
      "stars": 2813
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 2818
     }
    ]
   },
   {
    "slug": "alphone",
    "repo": "gopherium/AlphOne",
-   "stars": 207,
+   "stars": 209,
    "last_release": "2026-09-25",
    "growth": {
-    "window_days": 57,
-    "stars_added": 32,
+    "window_days": 58,
+    "stars_added": 34,
     "from": "2026-09-01",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -1300,19 +1320,23 @@
     {
      "date": "2026-10-28",
      "stars": 207
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 209
     }
    ]
   },
   {
    "slug": "alwrity",
    "repo": "ALwrity/ALwrity",
-   "stars": 1206,
+   "stars": 1207,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 72,
+    "window_days": 65,
+    "stars_added": 73,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -1566,6 +1590,10 @@
     {
      "date": "2026-10-28",
      "stars": 1206
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 1207
     }
    ]
   },
@@ -1575,10 +1603,10 @@
    "stars": 145,
    "last_release": null,
    "growth": {
-    "window_days": 64,
+    "window_days": 65,
     "stars_added": 10,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -1832,6 +1860,10 @@
     {
      "date": "2026-10-28",
      "stars": 145
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 145
     }
    ]
   },
@@ -1841,10 +1873,10 @@
    "stars": 380,
    "last_release": null,
    "growth": {
-    "window_days": 32,
+    "window_days": 33,
     "stars_added": 5,
     "from": "2026-09-26",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -1970,19 +2002,23 @@
     {
      "date": "2026-10-28",
      "stars": 380
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 380
     }
    ]
   },
   {
    "slug": "appsmith",
    "repo": "appsmithorg/appsmith",
-   "stars": 41132,
+   "stars": 41134,
    "last_release": null,
    "growth": {
-    "window_days": 52,
-    "stars_added": 311,
+    "window_days": 53,
+    "stars_added": 313,
     "from": "2026-09-06",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -2188,19 +2224,23 @@
     {
      "date": "2026-10-28",
      "stars": 41132
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 41134
     }
    ]
   },
   {
    "slug": "billionmail",
    "repo": "Billionmail/BillionMail",
-   "stars": 15961,
+   "stars": 15968,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 511,
+    "window_days": 65,
+    "stars_added": 518,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -2454,19 +2494,23 @@
     {
      "date": "2026-10-28",
      "stars": 15961
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 15968
     }
    ]
   },
   {
    "slug": "budibase",
    "repo": "budibase/budibase",
-   "stars": 28361,
+   "stars": 28367,
    "last_release": null,
    "growth": {
-    "window_days": 52,
-    "stars_added": 105,
+    "window_days": 53,
+    "stars_added": 111,
     "from": "2026-09-06",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -2672,19 +2716,23 @@
     {
      "date": "2026-10-28",
      "stars": 28361
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 28367
     }
    ]
   },
   {
    "slug": "chatbotx",
    "repo": "ChatbotXIO/ChatbotX",
-   "stars": 1037,
+   "stars": 1047,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 372,
+    "window_days": 65,
+    "stars_added": 382,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -2938,19 +2986,23 @@
     {
      "date": "2026-10-28",
      "stars": 1037
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 1047
     }
    ]
   },
   {
    "slug": "chatwoot",
    "repo": "chatwoot/chatwoot",
-   "stars": 38455,
+   "stars": 38523,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 2246,
+    "window_days": 65,
+    "stars_added": 2314,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -3204,19 +3256,23 @@
     {
      "date": "2026-10-28",
      "stars": 38455
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 38523
     }
    ]
   },
   {
    "slug": "claude-ads",
    "repo": "AgriciDaniel/claude-ads",
-   "stars": 10500,
+   "stars": 10547,
    "last_release": "2026-09-10",
    "growth": {
-    "window_days": 64,
-    "stars_added": 2027,
+    "window_days": 65,
+    "stars_added": 2074,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -3470,19 +3526,23 @@
     {
      "date": "2026-10-28",
      "stars": 10500
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 10547
     }
    ]
   },
   {
    "slug": "claude-seo",
    "repo": "AgriciDaniel/claude-seo",
-   "stars": 22841,
+   "stars": 23478,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 7745,
+    "window_days": 65,
+    "stars_added": 8382,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -3736,19 +3796,23 @@
     {
      "date": "2026-10-28",
      "stars": 22841
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 23478
     }
    ]
   },
   {
    "slug": "cordys-crm",
    "repo": "1Panel-dev/CordysCRM",
-   "stars": 2816,
+   "stars": 2821,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 162,
+    "window_days": 65,
+    "stars_added": 167,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -4002,19 +4066,23 @@
     {
      "date": "2026-10-28",
      "stars": 2816
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 2821
     }
    ]
   },
   {
    "slug": "deskcommcrm",
    "repo": "melgarafael/DeskcommCRM",
-   "stars": 4889,
+   "stars": 4914,
    "last_release": null,
    "growth": {
-    "window_days": 43,
-    "stars_added": 2354,
+    "window_days": 44,
+    "stars_added": 2379,
     "from": "2026-09-15",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -4184,6 +4252,10 @@
     {
      "date": "2026-10-28",
      "stars": 4889
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 4914
     }
    ]
   },
@@ -4193,10 +4265,10 @@
    "stars": 165,
    "last_release": "2026-06-05",
    "growth": {
-    "window_days": 57,
+    "window_days": 58,
     "stars_added": 5,
     "from": "2026-09-01",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -4422,6 +4494,10 @@
     {
      "date": "2026-10-28",
      "stars": 165
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 165
     }
    ]
   },
@@ -4431,10 +4507,10 @@
    "stars": 913,
    "last_release": null,
    "growth": {
-    "window_days": 64,
+    "window_days": 65,
     "stars_added": 145,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -4680,6 +4756,10 @@
     {
      "date": "2026-10-28",
      "stars": 913
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 913
     }
    ]
   },
@@ -4689,10 +4769,10 @@
    "stars": 2459,
    "last_release": null,
    "growth": {
-    "window_days": 64,
+    "window_days": 65,
     "stars_added": 65,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -4946,19 +5026,23 @@
     {
      "date": "2026-10-28",
      "stars": 2459
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 2459
     }
    ]
   },
   {
    "slug": "dolibarr",
    "repo": "Dolibarr/dolibarr",
-   "stars": 7794,
+   "stars": 7799,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 258,
+    "window_days": 65,
+    "stars_added": 263,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -5212,19 +5296,23 @@
     {
      "date": "2026-10-28",
      "stars": 7794
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 7799
     }
    ]
   },
   {
    "slug": "email-marketing-bible",
    "repo": "CosmoBlk/email-marketing-bible",
-   "stars": 355,
+   "stars": 356,
    "last_release": "2026-03-10",
    "growth": {
-    "window_days": 64,
-    "stars_added": 76,
+    "window_days": 65,
+    "stars_added": 77,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -5478,6 +5566,10 @@
     {
      "date": "2026-10-28",
      "stars": 355
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 356
     }
    ]
   },
@@ -5487,10 +5579,10 @@
    "stars": 3526,
    "last_release": null,
    "growth": {
-    "window_days": 64,
+    "window_days": 65,
     "stars_added": 235,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -5744,19 +5836,23 @@
     {
      "date": "2026-10-28",
      "stars": 3526
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 3526
     }
    ]
   },
   {
    "slug": "eve-marketing-team",
    "repo": "vercel-labs/marketing-team-eve-template",
-   "stars": 457,
+   "stars": 458,
    "last_release": null,
    "growth": {
-    "window_days": 57,
-    "stars_added": 27,
+    "window_days": 58,
+    "stars_added": 28,
     "from": "2026-09-01",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -5982,19 +6078,23 @@
     {
      "date": "2026-10-28",
      "stars": 457
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 458
     }
    ]
   },
   {
    "slug": "ever-gauzy",
    "repo": "ever-co/ever-gauzy",
-   "stars": 8632,
+   "stars": 8642,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 4284,
+    "window_days": 65,
+    "stars_added": 4294,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -6248,19 +6348,23 @@
     {
      "date": "2026-10-28",
      "stars": 8632
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 8642
     }
    ]
   },
   {
    "slug": "flagsmith",
    "repo": "Flagsmith/flagsmith",
-   "stars": 6627,
+   "stars": 6629,
    "last_release": null,
    "growth": {
-    "window_days": 32,
-    "stars_added": 55,
+    "window_days": 33,
+    "stars_added": 57,
     "from": "2026-09-26",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -6386,19 +6490,23 @@
     {
      "date": "2026-10-28",
      "stars": 6627
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 6629
     }
    ]
   },
   {
    "slug": "frappe-crm",
    "repo": "frappe/crm",
-   "stars": 3874,
+   "stars": 3879,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 484,
+    "window_days": 65,
+    "stars_added": 489,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -6652,19 +6760,23 @@
     {
      "date": "2026-10-28",
      "stars": 3874
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 3879
     }
    ]
   },
   {
    "slug": "ghost",
    "repo": "TryGhost/Ghost",
-   "stars": 55625,
+   "stars": 55631,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 568,
+    "window_days": 65,
+    "stars_added": 574,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -6918,19 +7030,23 @@
     {
      "date": "2026-10-28",
      "stars": 55625
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 55631
     }
    ]
   },
   {
    "slug": "google-meta-ads-ga4-mcp",
    "repo": "irinabuht12-oss/google-meta-ads-ga4-mcp",
-   "stars": 6203,
+   "stars": 6307,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 5135,
+    "window_days": 65,
+    "stars_added": 5239,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -7184,19 +7300,23 @@
     {
      "date": "2026-10-28",
      "stars": 6203
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 6307
     }
    ]
   },
   {
    "slug": "growth-lab",
    "repo": "tsingyuai/growth-lab",
-   "stars": 1971,
+   "stars": 1972,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 131,
+    "window_days": 65,
+    "stars_added": 132,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -7450,19 +7570,23 @@
     {
      "date": "2026-10-28",
      "stars": 1971
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 1972
     }
    ]
   },
   {
    "slug": "growthbook",
    "repo": "growthbook/growthbook",
-   "stars": 8539,
+   "stars": 8545,
    "last_release": null,
    "growth": {
-    "window_days": 32,
-    "stars_added": 107,
+    "window_days": 33,
+    "stars_added": 113,
     "from": "2026-09-26",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -7588,19 +7712,23 @@
     {
      "date": "2026-10-28",
      "stars": 8539
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 8545
     }
    ]
   },
   {
    "slug": "idurar-erp-crm",
    "repo": "idurar/idurar-erp-crm",
-   "stars": 8919,
+   "stars": 8924,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 200,
+    "window_days": 65,
+    "stars_added": 205,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -7854,19 +7982,23 @@
     {
      "date": "2026-10-28",
      "stars": 8919
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 8924
     }
    ]
   },
   {
    "slug": "instagram-skills",
    "repo": "sergebulaev/instagram-skills",
-   "stars": 642,
+   "stars": 651,
    "last_release": null,
    "growth": {
-    "window_days": 15,
-    "stars_added": 256,
+    "window_days": 16,
+    "stars_added": 265,
     "from": "2026-10-13",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -7924,19 +8056,23 @@
     {
      "date": "2026-10-28",
      "stars": 642
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 651
     }
    ]
   },
   {
    "slug": "jitsu",
    "repo": "jitsucom/jitsu",
-   "stars": 5118,
+   "stars": 5121,
    "last_release": null,
    "growth": {
-    "window_days": 32,
-    "stars_added": 27,
+    "window_days": 33,
+    "stars_added": 30,
     "from": "2026-09-26",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -8062,19 +8198,23 @@
     {
      "date": "2026-10-28",
      "stars": 5118
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 5121
     }
    ]
   },
   {
    "slug": "khoj",
    "repo": "khoj-ai/khoj",
-   "stars": 37858,
+   "stars": 37877,
    "last_release": null,
    "growth": {
-    "window_days": 32,
-    "stars_added": 355,
+    "window_days": 33,
+    "stars_added": 374,
     "from": "2026-09-26",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -8200,19 +8340,23 @@
     {
      "date": "2026-10-28",
      "stars": 37858
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 37877
     }
    ]
   },
   {
    "slug": "krayin-crm",
    "repo": "krayin/laravel-crm",
-   "stars": 24071,
+   "stars": 24074,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 360,
+    "window_days": 65,
+    "stars_added": 363,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -8466,19 +8610,23 @@
     {
      "date": "2026-10-28",
      "stars": 24071
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 24074
     }
    ]
   },
   {
    "slug": "langchain",
    "repo": "langchain-ai/langchain",
-   "stars": 148587,
+   "stars": 148654,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 3614,
+    "window_days": 65,
+    "stars_added": 3681,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -8732,19 +8880,23 @@
     {
      "date": "2026-10-28",
      "stars": 148587
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 148654
     }
    ]
   },
   {
    "slug": "languagetool",
    "repo": "languagetool-org/LanguageTool",
-   "stars": 15204,
+   "stars": 15209,
    "last_release": null,
    "growth": {
-    "window_days": 32,
-    "stars_added": 115,
+    "window_days": 33,
+    "stars_added": 120,
     "from": "2026-09-26",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -8870,6 +9022,10 @@
     {
      "date": "2026-10-28",
      "stars": 15204
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 15209
     }
    ]
   },
@@ -8879,10 +9035,10 @@
    "stars": 2630,
    "last_release": null,
    "growth": {
-    "window_days": 64,
+    "window_days": 65,
     "stars_added": 12,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -9136,19 +9292,23 @@
     {
      "date": "2026-10-28",
      "stars": 2630
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 2630
     }
    ]
   },
   {
    "slug": "libretranslate",
    "repo": "LibreTranslate/LibreTranslate",
-   "stars": 17209,
+   "stars": 17213,
    "last_release": null,
    "growth": {
-    "window_days": 32,
-    "stars_added": 371,
+    "window_days": 33,
+    "stars_added": 375,
     "from": "2026-09-26",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -9274,19 +9434,23 @@
     {
      "date": "2026-10-28",
      "stars": 17209
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 17213
     }
    ]
   },
   {
    "slug": "line-harness",
    "repo": "Shudesu/line-harness-oss",
-   "stars": 610,
+   "stars": 611,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 39,
+    "window_days": 65,
+    "stars_added": 40,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -9540,19 +9704,23 @@
     {
      "date": "2026-10-28",
      "stars": 610
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 611
     }
    ]
   },
   {
    "slug": "listmonk",
    "repo": "knadh/listmonk",
-   "stars": 24011,
+   "stars": 24024,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 890,
+    "window_days": 65,
+    "stars_added": 903,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -9806,19 +9974,23 @@
     {
      "date": "2026-10-28",
      "stars": 24011
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 24024
     }
    ]
   },
   {
    "slug": "macro",
    "repo": "macro-inc/macro",
-   "stars": 5149,
+   "stars": 5503,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 1111,
+    "window_days": 65,
+    "stars_added": 1465,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -10072,19 +10244,23 @@
     {
      "date": "2026-10-28",
      "stars": 5149
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 5503
     }
    ]
   },
   {
    "slug": "mailcheap",
    "repo": "marclou/mailcheap",
-   "stars": 1524,
+   "stars": 1539,
    "last_release": null,
    "growth": {
-    "window_days": 8,
-    "stars_added": 267,
+    "window_days": 9,
+    "stars_added": 282,
     "from": "2026-10-20",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -10118,19 +10294,23 @@
     {
      "date": "2026-10-28",
      "stars": 1524
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 1539
     }
    ]
   },
   {
    "slug": "maizzle",
    "repo": "maizzle/maizzle",
-   "stars": 2861,
+   "stars": 2862,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 8,
+    "window_days": 65,
+    "stars_added": 9,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -10384,6 +10564,10 @@
     {
      "date": "2026-10-28",
      "stars": 2861
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 2862
     }
    ]
   },
@@ -10393,10 +10577,10 @@
    "stars": 254,
    "last_release": null,
    "growth": {
-    "window_days": 57,
+    "window_days": 58,
     "stars_added": 34,
     "from": "2026-09-01",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -10622,19 +10806,23 @@
     {
      "date": "2026-10-28",
      "stars": 254
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 254
     }
    ]
   },
   {
    "slug": "marketingskills",
    "repo": "coreyhaines31/marketingskills",
-   "stars": 56942,
+   "stars": 57152,
    "last_release": null,
    "growth": {
-    "window_days": 19,
-    "stars_added": 3145,
+    "window_days": 20,
+    "stars_added": 3355,
     "from": "2026-10-09",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -10708,19 +10896,23 @@
     {
      "date": "2026-10-28",
      "stars": 56942
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 57152
     }
    ]
   },
   {
    "slug": "matomo",
    "repo": "matomo-org/matomo",
-   "stars": 21984,
+   "stars": 21985,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 179,
+    "window_days": 65,
+    "stars_added": 180,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -10974,19 +11166,23 @@
     {
      "date": "2026-10-28",
      "stars": 21984
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 21985
     }
    ]
   },
   {
    "slug": "mautic",
    "repo": "mautic/mautic",
-   "stars": 10856,
+   "stars": 10860,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 470,
+    "window_days": 65,
+    "stars_added": 474,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -11240,19 +11436,23 @@
     {
      "date": "2026-10-28",
      "stars": 10856
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 10860
     }
    ]
   },
   {
    "slug": "monica",
    "repo": "monicahq/monica",
-   "stars": 25536,
+   "stars": 25539,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 431,
+    "window_days": 65,
+    "stars_added": 434,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -11506,19 +11706,23 @@
     {
      "date": "2026-10-28",
      "stars": 25536
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 25539
     }
    ]
   },
   {
    "slug": "multipost-extension",
    "repo": "leaperone/MultiPost-Extension",
-   "stars": 3732,
+   "stars": 3795,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 638,
+    "window_days": 65,
+    "stars_added": 701,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -11772,19 +11976,23 @@
     {
      "date": "2026-10-28",
      "stars": 3732
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 3795
     }
    ]
   },
   {
    "slug": "n8n",
    "repo": "n8n-io/n8n",
-   "stars": 208821,
+   "stars": 208939,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 6418,
+    "window_days": 65,
+    "stars_added": 6536,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -12038,6 +12246,10 @@
     {
      "date": "2026-10-28",
      "stars": 208821
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 208939
     }
    ]
   },
@@ -12047,10 +12259,10 @@
    "stars": 182,
    "last_release": null,
    "growth": {
-    "window_days": 57,
+    "window_days": 58,
     "stars_added": 8,
     "from": "2026-09-01",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -12276,19 +12488,23 @@
     {
      "date": "2026-10-28",
      "stars": 182
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 182
     }
    ]
   },
   {
    "slug": "nocobase",
    "repo": "nocobase/nocobase",
-   "stars": 24748,
+   "stars": 24764,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 909,
+    "window_days": 65,
+    "stars_added": 925,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -12542,19 +12758,23 @@
     {
      "date": "2026-10-28",
      "stars": 24748
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 24764
     }
    ]
   },
   {
    "slug": "nocodb",
    "repo": "nocodb/nocodb",
-   "stars": 65369,
+   "stars": 65375,
    "last_release": null,
    "growth": {
-    "window_days": 52,
-    "stars_added": 516,
+    "window_days": 53,
+    "stars_added": 522,
     "from": "2026-09-06",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -12760,6 +12980,10 @@
     {
      "date": "2026-10-28",
      "stars": 65369
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 65375
     }
    ]
   },
@@ -12769,10 +12993,10 @@
    "stars": 883,
    "last_release": null,
    "growth": {
-    "window_days": 64,
+    "window_days": 65,
     "stars_added": 5,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -13026,6 +13250,10 @@
     {
      "date": "2026-10-28",
      "stars": 883
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 883
     }
    ]
   },
@@ -13035,10 +13263,10 @@
    "stars": 2265,
    "last_release": null,
    "growth": {
-    "window_days": 64,
+    "window_days": 65,
     "stars_added": 189,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -13292,19 +13520,23 @@
     {
      "date": "2026-10-28",
      "stars": 2265
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 2265
     }
    ]
   },
   {
    "slug": "open-mercato",
    "repo": "open-mercato/open-mercato",
-   "stars": 1886,
+   "stars": 1888,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 205,
+    "window_days": 65,
+    "stars_added": 207,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -13558,6 +13790,10 @@
     {
      "date": "2026-10-28",
      "stars": 1886
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 1888
     }
    ]
   },
@@ -13567,10 +13803,10 @@
    "stars": 1049,
    "last_release": null,
    "growth": {
-    "window_days": 64,
+    "window_days": 65,
     "stars_added": 10,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -13824,19 +14060,23 @@
     {
      "date": "2026-10-28",
      "stars": 1049
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 1049
     }
    ]
   },
   {
    "slug": "openoutreach",
    "repo": "eracle/OpenOutreach",
-   "stars": 3432,
+   "stars": 3434,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 614,
+    "window_days": 65,
+    "stars_added": 616,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -14090,19 +14330,23 @@
     {
      "date": "2026-10-28",
      "stars": 3432
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 3434
     }
    ]
   },
   {
    "slug": "openseo",
    "repo": "every-app/open-seo",
-   "stars": 25371,
+   "stars": 25535,
    "last_release": null,
    "growth": {
-    "window_days": 50,
-    "stars_added": 7632,
+    "window_days": 51,
+    "stars_added": 7796,
     "from": "2026-09-08",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -14300,19 +14544,23 @@
     {
      "date": "2026-10-28",
      "stars": 25371
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 25535
     }
    ]
   },
   {
    "slug": "paperclip",
    "repo": "paperclipai/paperclip",
-   "stars": 108071,
+   "stars": 108349,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 28715,
+    "window_days": 65,
+    "stars_added": 28993,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -14566,19 +14814,23 @@
     {
      "date": "2026-10-28",
      "stars": 108071
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 108349
     }
    ]
   },
   {
    "slug": "plausible",
    "repo": "plausible/analytics",
-   "stars": 29697,
+   "stars": 29706,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 949,
+    "window_days": 65,
+    "stars_added": 958,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -14832,19 +15084,23 @@
     {
      "date": "2026-10-28",
      "stars": 29697
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 29706
     }
    ]
   },
   {
    "slug": "posthog",
    "repo": "PostHog/posthog",
-   "stars": 40483,
+   "stars": 40501,
    "last_release": null,
    "growth": {
-    "window_days": 32,
-    "stars_added": 543,
+    "window_days": 33,
+    "stars_added": 561,
     "from": "2026-09-26",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -14970,6 +15226,10 @@
     {
      "date": "2026-10-28",
      "stars": 40483
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 40501
     }
    ]
   },
@@ -14979,10 +15239,10 @@
    "stars": 166,
    "last_release": "2026-06-22",
    "growth": {
-    "window_days": 57,
+    "window_days": 58,
     "stars_added": -1,
     "from": "2026-09-01",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -15208,19 +15468,23 @@
     {
      "date": "2026-10-28",
      "stars": 166
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 166
     }
    ]
   },
   {
    "slug": "promptfoo",
    "repo": "promptfoo/promptfoo",
-   "stars": 26525,
+   "stars": 26567,
    "last_release": null,
    "growth": {
-    "window_days": 32,
-    "stars_added": 1065,
+    "window_days": 33,
+    "stars_added": 1107,
     "from": "2026-09-26",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -15346,6 +15610,10 @@
     {
      "date": "2026-10-28",
      "stars": 26525
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 26567
     }
    ]
   },
@@ -15355,10 +15623,10 @@
    "stars": 237,
    "last_release": "2026-07-27",
    "growth": {
-    "window_days": 57,
+    "window_days": 58,
     "stars_added": 29,
     "from": "2026-09-01",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -15584,6 +15852,10 @@
     {
      "date": "2026-10-28",
      "stars": 237
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 237
     }
    ]
   },
@@ -15593,10 +15865,10 @@
    "stars": 5247,
    "last_release": null,
    "growth": {
-    "window_days": 64,
+    "window_days": 65,
     "stars_added": 40,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -15850,6 +16122,10 @@
     {
      "date": "2026-10-28",
      "stars": 5247
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 5247
     }
    ]
   },
@@ -15859,10 +16135,10 @@
    "stars": 1792,
    "last_release": null,
    "growth": {
-    "window_days": 64,
+    "window_days": 65,
     "stars_added": 264,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -16116,6 +16392,10 @@
     {
      "date": "2026-10-28",
      "stars": 1792
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 1792
     }
    ]
   },
@@ -16125,10 +16405,10 @@
    "stars": 1515,
    "last_release": null,
    "growth": {
-    "window_days": 32,
+    "window_days": 33,
     "stars_added": 9,
     "from": "2026-09-26",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -16254,19 +16534,23 @@
     {
      "date": "2026-10-28",
      "stars": 1515
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 1515
     }
    ]
   },
   {
    "slug": "rudderstack",
    "repo": "rudderlabs/rudder-server",
-   "stars": 4507,
+   "stars": 4508,
    "last_release": null,
    "growth": {
-    "window_days": 26,
-    "stars_added": 13,
+    "window_days": 27,
+    "stars_added": 14,
     "from": "2026-10-02",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -16368,6 +16652,10 @@
     {
      "date": "2026-10-28",
      "stars": 4507
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 4508
     }
    ]
   },
@@ -16377,10 +16665,10 @@
    "stars": 2183,
    "last_release": null,
    "growth": {
-    "window_days": 12,
+    "window_days": 13,
     "stars_added": 11,
     "from": "2026-10-16",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -16430,6 +16718,10 @@
     {
      "date": "2026-10-28",
      "stars": 2183
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 2183
     }
    ]
   },
@@ -16439,10 +16731,10 @@
    "stars": 48,
    "last_release": null,
    "growth": {
-    "window_days": 54,
+    "window_days": 55,
     "stars_added": -3,
     "from": "2026-09-04",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -16656,6 +16948,10 @@
     {
      "date": "2026-10-28",
      "stars": 48
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 48
     }
    ]
   },
@@ -16665,10 +16961,10 @@
    "stars": 845,
    "last_release": null,
    "growth": {
-    "window_days": 64,
+    "window_days": 65,
     "stars_added": 74,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -16922,6 +17218,10 @@
     {
      "date": "2026-10-28",
      "stars": 845
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 845
     }
    ]
   },
@@ -16931,10 +17231,10 @@
    "stars": 7047,
    "last_release": null,
    "growth": {
-    "window_days": 64,
+    "window_days": 65,
     "stars_added": 19,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -17188,19 +17488,23 @@
     {
      "date": "2026-10-28",
      "stars": 7047
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 7047
     }
    ]
   },
   {
    "slug": "strapi",
    "repo": "strapi/strapi",
-   "stars": 73387,
+   "stars": 73400,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 373,
+    "window_days": 65,
+    "stars_added": 386,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -17454,19 +17758,23 @@
     {
      "date": "2026-10-28",
      "stars": 73387
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 73400
     }
    ]
   },
   {
    "slug": "suitecrm",
    "repo": "SuiteCRM/SuiteCRM",
-   "stars": 5816,
+   "stars": 5819,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 126,
+    "window_days": 65,
+    "stars_added": 129,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -17720,19 +18028,23 @@
     {
      "date": "2026-10-28",
      "stars": 5816
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 5819
     }
    ]
   },
   {
    "slug": "tooljet",
    "repo": "ToolJet/ToolJet",
-   "stars": 41136,
+   "stars": 41141,
    "last_release": null,
    "growth": {
-    "window_days": 52,
-    "stars_added": 288,
+    "window_days": 53,
+    "stars_added": 293,
     "from": "2026-09-06",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -17938,19 +18250,23 @@
     {
      "date": "2026-10-28",
      "stars": 41136
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 41141
     }
    ]
   },
   {
    "slug": "twenty",
    "repo": "twentyhq/twenty",
-   "stars": 59952,
+   "stars": 60030,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 4427,
+    "window_days": 65,
+    "stars_added": 4505,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -18204,19 +18520,23 @@
     {
      "date": "2026-10-28",
      "stars": 59952
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 60030
     }
    ]
   },
   {
    "slug": "umami",
    "repo": "umami-software/umami",
-   "stars": 39739,
+   "stars": 39759,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 1379,
+    "window_days": 65,
+    "stars_added": 1399,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -18470,19 +18790,23 @@
     {
      "date": "2026-10-28",
      "stars": 39739
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 39759
     }
    ]
   },
   {
    "slug": "wacrm",
    "repo": "ArnasDon/wacrm",
-   "stars": 2627,
+   "stars": 2630,
    "last_release": null,
    "growth": {
-    "window_days": 64,
-    "stars_added": 573,
+    "window_days": 65,
+    "stars_added": 576,
     "from": "2026-08-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -18736,19 +19060,23 @@
     {
      "date": "2026-10-28",
      "stars": 2627
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 2630
     }
    ]
   },
   {
    "slug": "warmbly",
    "repo": "warmbly/warmbly",
-   "stars": 492,
+   "stars": 493,
    "last_release": null,
    "growth": {
-    "window_days": 33,
-    "stars_added": 174,
+    "window_days": 34,
+    "stars_added": 175,
     "from": "2026-09-25",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -18878,6 +19206,10 @@
     {
      "date": "2026-10-28",
      "stars": 492
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 493
     }
    ]
   },
@@ -18887,10 +19219,10 @@
    "stars": 74,
    "last_release": null,
    "growth": {
-    "window_days": 54,
+    "window_days": 55,
     "stars_added": 1,
     "from": "2026-09-04",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -19104,6 +19436,10 @@
     {
      "date": "2026-10-28",
      "stars": 74
+    },
+    {
+     "date": "2026-10-29",
+     "stars": 74
     }
    ]
   },
@@ -19113,10 +19449,10 @@
    "stars": 351,
    "last_release": null,
    "growth": {
-    "window_days": 57,
+    "window_days": 58,
     "stars_added": 19,
     "from": "2026-09-01",
-    "to": "2026-10-28"
+    "to": "2026-10-29"
    },
    "history": [
     {
@@ -19341,6 +19677,10 @@
     },
     {
      "date": "2026-10-28",
+     "stars": 351
+    },
+    {
+     "date": "2026-10-29",
      "stars": 351
     }
    ]

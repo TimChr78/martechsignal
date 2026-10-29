@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "source": "github",
+    "name": "doubleml-pipeline",
+    "full_name": "google/doubleml-pipeline",
+    "description": "Automated Double Machine Learning (DoubleML + AutoML) pipeline for causal inference \u2014 estimate incremental impact, CATE & ROI of promotions, pricing and media.",
+    "stars": 85,
+    "url": "https://github.com/google/doubleml-pipeline",
+    "homepage": "https://pypi.org/project/doubleml-pipeline/",
+    "topics": [
+      "automl",
+      "causal-inference",
+      "causal-ml",
+      "debiased-machine-learning",
+      "double-machine-learning",
+      "doubleml",
+      "econometrics",
+      "flaml",
+      "heterogeneous-treatment-effects",
+      "machine-learning",
+      "marketing-analytics",
+      "marketing-mix-modeling",
+      "meridian",
+      "pricing",
+      "promotion-analysis",
+      "python",
+      "retail-analytics",
+      "roi",
+      "sensitivity-analysis",
+      "treatment-effects"
+    ],
+    "language": "Python",
+    "last_push": "2026-10-28T11:17:23Z",
+    "discovered": "2026-10-29T06:00:46.574696"
+  },
+  {
+    "source": "rss:Salesforce",
+    "title": "Startups, Did You Know That Agentforce Coworker Can Do This?",
+    "feed_url": "https://www.salesforce.com/blog/feed/",
+    "discovered": "2026-10-29T06:00:56.281530"
+  }
+]

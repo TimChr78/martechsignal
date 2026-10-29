@@ -1,960 +1,960 @@
 {
-  "checked": "2026-10-28",
+  "checked": "2026-10-29",
   "window_days": 21,
   "stale": [
     {
       "slug": "aaron-marketing-skills",
       "name": "Aaron Marketing Skills",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "activecampaign",
       "name": "ActiveCampaign",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "adobe-marketo",
       "name": "Adobe Marketo Engage",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "ai-business-skills",
       "name": "AI Business Skills",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "albert-ai",
       "name": "Albert AI",
       "date_updated": "2026-10-05",
-      "days_stale": 23
+      "days_stale": 24
     },
     {
       "slug": "alphone",
       "name": "AlphOne",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "alwrity",
       "name": "ALwrity",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "amplitude",
       "name": "Amplitude",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "analytics-tracking-automation",
       "name": "Analytics Tracking Automation",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "anyword",
       "name": "Anyword",
       "date_updated": "2026-10-05",
-      "days_stale": 23
+      "days_stale": 24
     },
     {
       "slug": "appsmith",
       "name": "Appsmith",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "attio",
       "name": "Attio",
       "date_updated": "2026-10-05",
-      "days_stale": 23
+      "days_stale": 24
     },
     {
       "slug": "attribution",
       "name": "Attribution",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "autopilot",
       "name": "Autopilot",
       "date_updated": "2026-08-31",
-      "days_stale": 58
+      "days_stale": 59
     },
     {
       "slug": "billionmail",
       "name": "BillionMail",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "bloomreach",
       "name": "Bloomreach",
       "date_updated": "2026-10-05",
-      "days_stale": 23
+      "days_stale": 24
     },
     {
       "slug": "brandwatch",
       "name": "Brandwatch",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "braze",
       "name": "Braze",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "budibase",
       "name": "Budibase",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "buffer",
       "name": "Buffer",
       "date_updated": "2026-10-05",
-      "days_stale": 23
+      "days_stale": 24
     },
     {
       "slug": "chatbotx",
       "name": "ChatbotX",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "chatfuel",
       "name": "Chatfuel",
       "date_updated": "2026-10-05",
-      "days_stale": 23
+      "days_stale": 24
     },
     {
       "slug": "chatwoot",
       "name": "Chatwoot",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "claude-ads",
       "name": "Claude Ads",
       "date_updated": "2026-10-05",
-      "days_stale": 23
+      "days_stale": 24
     },
     {
       "slug": "claude-seo",
       "name": "Claude SEO",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "clearscope",
       "name": "Clearscope",
       "date_updated": "2026-10-05",
-      "days_stale": 23
+      "days_stale": 24
     },
     {
       "slug": "clerk-io",
       "name": "Clerk.io",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "contentbot",
       "name": "ContentBot",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "cordys-crm",
       "name": "Cordys CRM",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "customer-io",
       "name": "Customer.io",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "deskcommcrm",
       "name": "DeskcommCRM",
       "date_updated": "2026-09-14",
-      "days_stale": 44
+      "days_stale": 45
     },
     {
       "slug": "diffmode-growth-tactics",
       "name": "Diffmode Growth Tactics",
       "date_updated": "2026-08-31",
-      "days_stale": 58
+      "days_stale": 59
     },
     {
       "slug": "django-crm",
       "name": "Django CRM",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "dolibarr",
       "name": "Dolibarr ERP/CRM",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "drift",
       "name": "Drift (Salesloft)",
       "date_updated": "2026-07-27",
-      "days_stale": 93
+      "days_stale": 94
     },
     {
       "slug": "dynamic-yield",
       "name": "Dynamic Yield",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "espocrm",
       "name": "EspoCRM",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "eve-marketing-team",
       "name": "Eve Marketing Team Template",
       "date_updated": "2026-08-31",
-      "days_stale": 58
+      "days_stale": 59
     },
     {
       "slug": "ever-gauzy",
       "name": "Ever Gauzy",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "frappe-crm",
       "name": "Frappe CRM",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "frase",
       "name": "Frase",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "freshsales",
       "name": "Freshsales",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "ghost",
       "name": "Ghost",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "google-meta-ads-ga4-mcp",
       "name": "Google Ads + Meta Ads + GA4 MCP",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "growth-lab",
       "name": "Growth Lab",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "hootsuite",
       "name": "Hootsuite",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "hubspot-crm",
       "name": "HubSpot CRM",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "hubspot-marketing-hub",
       "name": "HubSpot Marketing Hub",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "hypotenuse-ai",
       "name": "Hypotenuse AI",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "idurar-erp-crm",
       "name": "IDURAR ERP & CRM",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "klaviyo",
       "name": "Klaviyo",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "krayin-crm",
       "name": "Krayin CRM",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "langchain",
       "name": "LangChain",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "laudspeaker",
       "name": "Laudspeaker",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "line-harness",
       "name": "Line Harness",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "listmonk",
       "name": "Listmonk",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "loops",
       "name": "Loops",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "macro",
       "name": "Macro",
       "date_updated": "2026-10-06",
-      "days_stale": 22
+      "days_stale": 23
     },
     {
       "slug": "madgicx",
       "name": "Madgicx",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "mailchimp",
       "name": "Mailchimp",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "maizzle",
       "name": "Maizzle",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "make",
       "name": "Make",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "marketing-studio",
       "name": "Marketing Studio",
       "date_updated": "2026-08-31",
-      "days_stale": 58
+      "days_stale": 59
     },
     {
       "slug": "marketmuse",
       "name": "MarketMuse",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "matomo",
       "name": "Matomo",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "mautic",
       "name": "Mautic",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "mixpanel",
       "name": "Mixpanel",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "monica",
       "name": "Monica",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "multipost-extension",
       "name": "MultiPost",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "n8n",
       "name": "n8n",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "n8n-marketing-flows",
       "name": "n8n Marketing Flows",
       "date_updated": "2026-08-31",
-      "days_stale": 58
+      "days_stale": 59
     },
     {
       "slug": "nocobase",
       "name": "NocoBase",
       "date_updated": "2026-09-05",
-      "days_stale": 53
+      "days_stale": 54
     },
     {
       "slug": "nocodb",
       "name": "NocoDB",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "nosto",
       "name": "Nosto",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "notifo",
       "name": "Notifo",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "notifuse",
       "name": "Notifuse",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "open-mercato",
       "name": "Open Mercato",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "openclaw-marketing-skills",
       "name": "OpenClaw Marketing Skills",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "openoutreach",
       "name": "OpenOutreach",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "openseo",
       "name": "OpenSEO",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "opteo",
       "name": "Opteo",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "ortto",
       "name": "Ortto",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "paperclip",
       "name": "Paperclip",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "pencil",
       "name": "Pencil",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "persado",
       "name": "Persado",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "phrasee",
       "name": "Phrasee",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "pipedream",
       "name": "Pipedream",
       "date_updated": "2026-10-06",
-      "days_stale": 22
+      "days_stale": 23
     },
     {
       "slug": "pipedrive",
       "name": "Pipedrive",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "plausible",
       "name": "Plausible Analytics",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "postmark",
       "name": "Postmark",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "potato-ai-visibility",
       "name": "Potato",
       "date_updated": "2026-08-31",
-      "days_stale": 58
+      "days_stale": 59
     },
     {
       "slug": "predis-ai",
       "name": "Predis.ai",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "prospectos",
       "name": "ProspectOS",
       "date_updated": "2026-08-31",
-      "days_stale": 58
+      "days_stale": 59
     },
     {
       "slug": "react-email-editor",
       "name": "React Email Editor",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "relaticle",
       "name": "Relaticle",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "resend",
       "name": "Resend",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "revealbot",
       "name": "Revealbot (Birch)",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "salesforce-crm",
       "name": "Salesforce CRM",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "salesforce-marketing-cloud",
       "name": "Salesforce Marketing Cloud",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "segment",
       "name": "Twilio Segment",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "semrush",
       "name": "Semrush",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "sendgrid",
       "name": "Twilio SendGrid",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "brevo",
       "name": "Brevo",
       "date_updated": "2026-10-01",
-      "days_stale": 27
+      "days_stale": 28
     },
     {
       "slug": "seo-skill-bench",
       "name": "SEO Skill Bench",
       "date_updated": "2026-09-03",
-      "days_stale": 55
+      "days_stale": 56
     },
     {
       "slug": "seonaut",
       "name": "Seonaut",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "smartly-io",
       "name": "Smartly.io",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "snowplow",
       "name": "Snowplow",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "sprout-social",
       "name": "Sprout Social",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "strapi",
       "name": "Strapi",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "suitecrm",
       "name": "SuiteCRM",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "superlines",
       "name": "Superlines",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "surfer-seo",
       "name": "Surfer SEO",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "tealium",
       "name": "Tealium",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "tidio",
       "name": "Tidio",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "tooljet",
       "name": "ToolJet",
       "date_updated": "2026-10-06",
-      "days_stale": 22
+      "days_stale": 23
     },
     {
       "slug": "tray-io",
       "name": "Tray.io",
       "date_updated": "2026-09-06",
-      "days_stale": 52
+      "days_stale": 53
     },
     {
       "slug": "triple-whale",
       "name": "Triple Whale",
       "date_updated": "2026-08-28",
-      "days_stale": 61
+      "days_stale": 62
     },
     {
       "slug": "twenty",
       "name": "Twenty",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "umami",
       "name": "Umami",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "wacrm",
       "name": "WaCRM",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "warpdrive",
       "name": "Warpdrive",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "workato",
       "name": "Workato",
       "date_updated": "2026-09-07",
-      "days_stale": 51
+      "days_stale": 52
     },
     {
       "slug": "writer",
       "name": "Writer",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "zapier",
       "name": "Zapier",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "zapier-gtm-cheat-codes",
       "name": "Zapier GTM Cheat Codes",
       "date_updated": "2026-08-31",
-      "days_stale": 58
+      "days_stale": 59
     },
     {
       "slug": "warmbly",
       "name": "Warmbly",
       "date_updated": "2026-09-24",
-      "days_stale": 34
+      "days_stale": 35
     },
     {
       "slug": "accuranker",
       "name": "AccuRanker",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "nightwatch",
       "name": "Nightwatch",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "sistrix",
       "name": "SISTRIX",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "ahrefs",
       "name": "Ahrefs",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "profound",
       "name": "Profound",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "scrunch",
       "name": "Scrunch",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "otterlyai",
       "name": "OtterlyAI",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "rankscale",
       "name": "Rankscale",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "trakkr",
       "name": "Trakkr",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "evertune",
       "name": "Evertune",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "nimt-ai",
       "name": "Nimt.ai",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "writesonic",
       "name": "Writesonic",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "adobe-llm-optimizer",
       "name": "Adobe LLM Optimizer",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "jitsu",
       "name": "Jitsu",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "rudderstack",
       "name": "RudderStack",
       "date_updated": "2026-10-01",
-      "days_stale": 27
+      "days_stale": 28
     },
     {
       "slug": "hightouch",
       "name": "Hightouch",
       "date_updated": "2026-10-01",
-      "days_stale": 27
+      "days_stale": 28
     },
     {
       "slug": "apache-unomi",
       "name": "Apache Unomi",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "growthbook",
       "name": "GrowthBook",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "flagsmith",
       "name": "Flagsmith",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "languagetool",
       "name": "LanguageTool",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "khoj",
       "name": "Khoj",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "libretranslate",
       "name": "LibreTranslate",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "posthog",
       "name": "PostHog",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "revive-adserver",
       "name": "Revive Adserver",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "advertools",
       "name": "advertools",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "promptfoo",
       "name": "Promptfoo",
       "date_updated": "2026-09-25",
-      "days_stale": 33
+      "days_stale": 34
     },
     {
       "slug": "activepieces",
       "name": "Activepieces",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "pabbly-connect",
       "name": "Pabbly Connect",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "power-automate",
       "name": "Microsoft Power Automate",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "ifttt",
       "name": "IFTTT",
       "date_updated": "2026-09-27",
-      "days_stale": 31
+      "days_stale": 32
     },
     {
       "slug": "zoho-crm",
       "name": "Zoho CRM",
       "date_updated": "2026-09-28",
-      "days_stale": 30
+      "days_stale": 31
     },
     {
       "slug": "ai-marketing-claude",
       "name": "AI Marketing Suite",
       "date_updated": "2026-09-28",
-      "days_stale": 30
+      "days_stale": 31
     },
     {
       "slug": "digital-marketing-pro",
       "name": "Digital Marketing Pro",
       "date_updated": "2026-09-28",
-      "days_stale": 30
+      "days_stale": 31
     }
   ]
 }

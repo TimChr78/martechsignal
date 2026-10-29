@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The CDP is being rebuilt as an agent&#x27;s context layer</title>
+<meta name="description" content="Minerva, Qlik and Salesforce all sell governed context for agents and refuse the CDP label. The moat is not the data; it is the permission model.">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="article">
+<link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="The CDP is being rebuilt as an agent&#x27;s context layer">
+<meta property="og:description" content="Minerva, Qlik and Salesforce all sell governed context for agents and refuse the CDP label. The moat is not the data; it is the permission model.">
+<meta property="og:url" content="https://martechsignal.com/blog/cdp-agents-context-layer/">
+<meta property="og:image" content="https://martechsignal.com/og/cdp-agents-context-layer.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/cdp-agents-context-layer/">
+<link rel="ard ai-catalog" type="application/json" href="https://martechsignal.com/.well-known/ard.json">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/newsreader-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<script src="/theme.js"></script><style>:root{color-scheme: light;--bg: #F6F4EF;--surface: #FFFFFF;--sunk: #EFECE5;--ink: #18181B;--ink-2: #3F3D39;--muted: #67635B;--line: #DDD8CD;--rule: #18181B;--accent: #B93A1A;--accent-ink: #FFFFFF;--tint: #F5E4DC;--pos: #1E6F47;--neg: #B42318;--serif: 'Newsreader', 'Newsreader-fallback', Georgia, serif;--sans: 'Archivo', 'Archivo-fallback', system-ui, sans-serif;--code: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;--card: var(--surface);--line2: var(--line);--text: var(--ink);--border: var(--line);--panel: var(--surface);--amber: var(--accent);--green: var(--pos);--red: var(--neg);--ok-text: var(--pos);--red-text: var(--neg);--mono: var(--sans);--disp: var(--serif);--body: var(--sans)}:root[data-theme=dark]{color-scheme: dark;--bg: #131312;--surface: #1B1B19;--sunk: #0E0E0D;--ink: #ECE9E2;--ink-2: #CFCBC2;--muted: #9C978D;--line: #2D2C29;--rule: #ECE9E2;--accent: #F0754F;--accent-ink: #131312;--tint: #2B1C16;--pos: #5DBE8A;--neg: #F08A74}@media (prefers-color-scheme: dark){:root:not([data-theme=light]){color-scheme: dark;--bg: #131312;--surface: #1B1B19;--sunk: #0E0E0D;--ink: #ECE9E2;--ink-2: #CFCBC2;--muted: #9C978D;--line: #2D2C29;--rule: #ECE9E2;--accent: #F0754F;--accent-ink: #131312;--tint: #2B1C16;--pos: #5DBE8A;--neg: #F08A74}}*{margin: 0;padding: 0;box-sizing: border-box}html{scroll-behavior: smooth;-webkit-text-size-adjust: 100%}html, body{overflow-x: clip}body{background: var(--bg);color: var(--ink);font: 400 1rem/1.6 var(--sans);-webkit-font-smoothing: antialiased;font-variant-numeric: lining-nums}a{color: inherit}::selection{background: var(--accent);color: var(--accent-ink)}.wrap{max-width: 1120px;margin: 0 auto;padding-inline: 1.5rem}@media (prefers-reduced-motion: reduce){html{scroll-behavior: auto}}.topbar{border-bottom: 1px solid var(--line);font-size: .8125rem;color: var(--muted)}.theme-toggle{display: inline-flex;align-items: center;gap: .4rem;margin-left: auto;background: none;border: 1px solid var(--line);border-radius: 999px;padding: .2rem .65rem;font: 500 .8125rem var(--sans);color: var(--ink-2);cursor: pointer}.theme-toggle[hidden]{display: none}.theme-toggle:hover{border-color: var(--ink-2);color: var(--ink)}.theme-toggle svg{width: 14px;height: 14px;flex: none}.masthead{border-bottom: 1px solid var(--rule)}.mast-in{display: flex;align-items: baseline;justify-content: space-between;gap: 2rem;padding-block: 1.1rem .9rem}.wordmark{font: 600 1.75rem/1 var(--serif);letter-spacing: -.02em;text-decoration: none;color: var(--ink);display: inline-flex;align-items: baseline;gap: .35rem;flex: none}.wordmark b{font-weight: inherit;color: inherit}.wordmark .mark{display: inline-flex;align-items: flex-end;gap: 2px;height: .7em}.wordmark .mark i{display: block;width: 4px;background: var(--accent)}.wordmark .mark i:nth-child(1){height: 40%}.wordmark .mark i:nth-child(2){height: 70%}.wordmark .mark i:nth-child(3){height: 100%}.mast-nav{display: flex;gap: 1.6rem;font-size: .9375rem}.mast-nav a{text-decoration: none;color: var(--ink-2);padding: .25rem 0;border-bottom: 2px solid transparent}.mast-nav a:hover{color: var(--ink);border-bottom-color: var(--accent)}.mast-nav a[aria-current=page]{color: var(--ink);border-bottom-color: var(--ink)}.mast-nav .nav-sub{color: var(--accent);font-weight: 600}@media (max-width: 900px){.mast-in{flex-direction: column;align-items: flex-start;gap: .35rem;padding-block: .9rem 0}.mast-nav{gap: 1.25rem;max-width: 100%;overflow-x: auto;scrollbar-width: none;-webkit-mask-image: linear-gradient(90deg, #000 85%, transparent);mask-image: linear-gradient(90deg, #000 85%, transparent)}.mast-nav::-webkit-scrollbar{display: none}.mast-nav a{flex: none;min-height: 44px;display: inline-flex;align-items: center;padding: 0}}@media (max-width: 560px){.wrap{padding-inline: 1.125rem}.wordmark{font-size: 1.5rem}}.eyebrow, .kicker, .hero-kicker{font: 600 .8125rem/1.4 var(--sans);color: var(--accent);margin-bottom: .9rem;letter-spacing: 0;text-transform: none}.lede, .dek{font: 400 1.25rem/1.5 var(--serif);color: var(--ink-2);max-width: 38rem;margin: 1rem 0 1.5rem}.sub{color: var(--ink-2)}.count{font-size: .875rem;color: var(--muted)}.meta{font-size: .8125rem;color: var(--muted)}.byline{font-size: .875rem;color: var(--muted)}.byline a{color: var(--ink);text-decoration-color: var(--line);text-underline-offset: .2em}.disclosure-strip, .kind-note{font-size: .8125rem;color: var(--muted);margin: .5rem 0 0}.disclosure-strip a, .kind-note a{color: var(--ink-2)}.back, .alt-back a{font: 500 .875rem var(--sans);color: var(--muted);text-decoration: none}.back:hover, .alt-back a:hover{color: var(--accent)}.btn, .btn-sm, .btn-cta{display: inline-block;background: var(--ink);color: var(--bg);font: 600 .9375rem/1.2 var(--sans);text-decoration: none;padding: .75rem 1.25rem;border: 0;border-radius: 4px;cursor: pointer;text-align: center}.btn:hover, .btn-sm:hover, .btn-cta:hover{background: var(--accent);color: var(--accent-ink)}.btn.accent{background: var(--accent);color: var(--accent-ink)}.hero-cta, .hero-ctas, .actions{display: flex;align-items: center;gap: 1.4rem;flex-wrap: wrap}.cat-nav{display: flex;gap: .5rem;flex-wrap: wrap;padding: 1.25rem 0}.crumb, .breadcrumbs, .crumbs{padding: 1.25rem 0 0;font-size: .875rem;color: var(--muted)}.crumb ol{list-style: none;display: flex;flex-wrap: wrap;align-items: center}.crumb li{display: flex;align-items: center}.crumb li:not(:last-child)::after, .crumb-sep{content: "/";margin-inline: .45rem;color: var(--line)}.crumb a, .breadcrumbs a, .crumbs a{color: var(--muted);text-decoration: none;display: inline-flex;align-items: center;min-height: 32px}.crumb a:hover{color: var(--accent)}.crumb span{color: var(--ink-2)}.page-head{padding: 1.5rem 0 2rem;border-bottom: 1px solid var(--line)}.page-head h1{max-width: 46rem}.page-head .sub, .page-head > p:not([class]){font: 400 1.2rem/1.5 var(--serif);color: var(--ink-2);margin-top: .8rem;max-width: 42rem}.page-head .count{margin-top: .9rem}.page-head .byline{margin-top: .6rem}.alt-link{font-size: .875rem;margin-top: .4rem;color: var(--muted)}.cta-early{margin-top: .9rem}.cta-early a{font: 600 .9375rem var(--sans);color: var(--ink);text-decoration: underline;text-decoration-color: var(--accent);text-decoration-thickness: 2px;text-underline-offset: .25em}.hero{display: grid;grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);gap: 4rem;padding: 3.5rem 0 3rem;border-bottom: 1px solid var(--line)}.hero h1{font-size: clamp(2.4rem, 5.2vw, 4rem);line-height: 1.04;letter-spacing: -.025em}.hero h1 em, .hero h1 .hl{font-style: italic;font-weight: 400;color: var(--muted)}.figures, .stats-card{align-self: end;border-top: 2px solid var(--rule)}.figures h2, .stats-card h2{font: 600 .8125rem var(--sans);color: var(--muted);padding: .6rem 0 .2rem}.fig, .stat{display: flex;align-items: baseline;justify-content: space-between;gap: 1rem;border-bottom: 1px solid var(--line);padding: .75rem 0;text-align: left}.fig b, .stat .num{font: 500 2.25rem/1 var(--serif);letter-spacing: -.02em;font-variant-numeric: tabular-nums;color: var(--ink)}.fig span, .stat .lbl{color: var(--muted);font-size: .9375rem;text-align: right}.meta .cat{color: var(--accent);font-weight: 600}@media (max-width: 860px){.hero, .latest{grid-template-columns: minmax(0, 1fr);gap: 2rem}}@media (max-width: 560px){.hero{padding: 2rem 0;gap: 1.75rem}.hero h1{font-size: 2.35rem}.lede, .dek{font-size: 1.125rem}.figures, .stats-card{display: grid;grid-template-columns: repeat(3, 1fr);border-top-width: 1px}.figures h2, .stats-card h2{grid-column: 1 / -1}.fig, .stat{flex-direction: column;align-items: flex-start;gap: .3rem;border-bottom: 0;padding: .4rem 0 0}.fig b, .stat .num{font-size: 2rem}.fig span, .stat .lbl{text-align: left;font-size: .8125rem;line-height: 1.3}}#progress{position: fixed;top: 0;left: 0;height: 2px;width: 0;background: var(--accent);z-index: 99}@media (prefers-reduced-motion: reduce){#progress{display: none}}.post-hero{width: 100%;height: auto;display: block;border-radius: 0;margin: .5rem 0 1rem}.page-post article :is(.kicker, .meta, .disclosure-strip, .byline, .made-badge){font-family: var(--sans);font-size: .8125rem;line-height: 1.5;color: var(--muted)}.verdict-cta{margin: 0 0 1.5rem}.page-tools main{padding-bottom: 1rem}.page-tools main > p:not([class]), .page-tools main > section > p:not([class]), .page-tools main > article > p:not([class]), .best-item > p:not([class]), .alt-item > p:not([class]){font: 400 1.0625rem/1.65 var(--serif);color: var(--ink);margin: 0 0 1rem;max-width: 70ch}.page-tools main > h2, .page-tools main > section > h2{margin: 2.25rem 0 .75rem}.tool-body, .page-tools main > p, .page-tools .detail-main p, .page-tools main li{max-width: 72ch}.tool-grid{display: grid;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));gap: 0 2rem;padding: 1rem 0 2rem}.tool-card{display: flex;flex-direction: column;gap: .4rem;padding: 1.1rem 0 1.2rem;border-top: 1px solid var(--line);text-decoration: none;color: inherit;background: none;border-radius: 0}.tool-card .name{font: 500 1.25rem/1.25 var(--serif);letter-spacing: -.01em;margin: 0;color: var(--ink)}.tool-card:hover .name{color: var(--accent)}.tool-card .tagline{color: var(--ink-2);font-size: .9375rem;line-height: 1.5;flex: 1}.tool-card .meta{display: flex;gap: .4rem;flex-wrap: wrap;align-items: center;margin-top: .3rem}.tool-card img{width: 100%;height: auto;display: block;border: 1px solid var(--line);margin-bottom: .4rem}.tool-card.is-hidden, .hub-group.is-hidden{display: none}.page-head.review-head{display: grid;grid-template-columns: minmax(0, 1fr) 300px;gap: 1rem 3rem;align-items: end}@media (max-width: 860px){.page-head.review-head{grid-template-columns: minmax(0, 1fr)}}.page-tools main .score-band > h2{font-size: 1.6rem;margin: 0 0 .4rem}.page-tools main h2, .page-tools main h3{max-width: 40ch}.page-tools .sec-head h2, .page-tools .hub-group-label{max-width: none}@media (max-width: 700px){.crumb a, .byline a, .post-meta a{position: relative}.crumb a::after, .byline a::after, .post-meta a::after{content: "";position: absolute;inset-block: -8px;inset-inline: -4px}}</style><link rel="stylesheet" href="/style.min.css?v=35e15e57"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      "article h2"
+    ]
+  },
+  "@type": "BlogPosting",
+  "headline": "The CDP is being rebuilt as an agent's context layer, and no vendor will call it that",
+  "description": "Minerva, Qlik and Salesforce all sell governed context for agents and refuse the CDP label. The moat is not the data; it is the permission model.",
+  "author": {
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/logo.png"
+    }
+  },
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29",
+  "mainEntityOfPage": "https://martechsignal.com/blog/cdp-agents-context-layer/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/cdp-agents-context-layer.png",
+    "width": 1200,
+    "height": 630
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://martechsignal.com/blog/#blog"
+  },
+  "inLanguage": "en",
+  "wordCount": 1526,
+  "articleSection": "analytics, marketing-automation"
+}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": "https://martechsignal.com/blog/cdp-agents-context-layer/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "The CDP is being rebuilt as an agent's context layer, and no vendor will call it that",
+      "item": "https://martechsignal.com/blog/cdp-agents-context-layer/"
+    }
+  ]
+}</script>
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+<script src="/site.js?v=8476a6b0" defer></script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://martechsignal.com/blog/cdp-agents-context-layer/",
+  "dateModified": "2026-10-29",
+  "breadcrumb": {
+    "@id": "https://martechsignal.com/blog/cdp-agents-context-layer/#breadcrumb"
+  }
+}</script>
+</head>
+<body class="page-post">
+<div class="topbar"><div class="wrap topbar-in">
+  <p class="topbar-tag">Independent research on AI marketing automation</p>
+  <button class="theme-toggle" type="button" hidden aria-label="Switch to dark theme"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 2a6 6 0 0 0 0 12z" fill="currentColor"/></svg><span class="tt-label">Dark</span></button>
+</div></div>
+<header class="masthead"><div class="wrap mast-in">
+  <a class="wordmark" href="/">MartechSignal<span class="mark" aria-hidden="true"><i></i><i></i><i></i></span></a>
+  <nav class="mast-nav" aria-label="Primary"><a href="/tools/">Tools</a><a href="/best/">Best</a><a href="/vs/">Comparisons</a><a href="/alternatives/">Alternatives</a><a href="/categories/">Categories</a><a href="/glossary/">Glossary</a><a href="/blog/" aria-current="page">Blog</a><a class="nav-sub" href="/#subscribe">Subscribe</a></nav>
+</div></header>
+<div id="progress" aria-hidden="true"></div>
+<main class="wrap">
+<a class="back" href="/blog/">← All writing</a>
+<article>
+
+<p class="kicker">CDP · AI Agents · 8 min read</p>
+<h1>The CDP is being rebuilt as an agent&#x27;s context layer, and no vendor will call it that</h1>
+
+<img class="post-hero" src="/og/hero-cdp-agents-context-layer.webp" alt="The CDP is being rebuilt as an agent's context layer, and no vendor will call it that" width="1200" height="630" srcset="/og/hero-cdp-agents-context-layer-480.webp 480w, /og/hero-cdp-agents-context-layer-800.webp 800w, /og/hero-cdp-agents-context-layer.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async">
+<p class="disclosure-strip"><a href="/methodology/">How we review</a> · No affiliate links</p>
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · The CDP is being rebuilt as an agent's context layer, and no vendor will call it that</p>
+<p class="meta"><time datetime="2026-10-29">29 Oct 2026</time></p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/analytics/">Analytics & Attribution</a> · <a href="/categories/marketing-automation/">Marketing Automation</a></p><nav class="mini-toc"><b>On this page</b><br><a href="#three-october-announcements-one-machine">Three October announcements, one machine</a> · <a href="#if-context-is-the-moat-check-the-expiration-date">If context is the moat, check the expiration date</a> · <a href="#three-questions-before-your-agent-s-memory-moves-in">Three questions before your agent's memory moves in</a> · <a href="#the-label-contest-nobody-wants-to-enter">The label contest nobody wants to enter</a></nav>
+<p>Jackson Engles keeps saying the quiet part out loud. Minerva, the startup he co-founded, raised $20 million in June on the strength of an identity graph covering 270 million consumers, and when AdExchanger asked him this month whether that data is a competitive edge, he declined the layup. "Yes, sure, we have data that can help create better outcomes," he said. "But is it a long-term, durable moat? Probably not."</p>
+
+<p>A founder talking down his own moat is rare enough. The label he refuses is the more telling part. Minerva sits between a brand's CRM, its warehouse and its campaign tools, joins that first-party data with the graph, and lets AI agents act on the result. Functionally that is a customer data platform with the dashboards swapped for agents. AdExchanger called it an "agentic CDP." Engles won't market it that way, because his buyers hear "CDP" and think "system I already regret buying." His framing: "Customers want the outcome of a CDP; they want their data to be more queryable by less technical users."</p>
+
+<p>The category name is dead. The job description got promoted.</p>
+
+<p>Customer data platforms promised a single view of the customer and left most marketing teams with one more system to maintain. The original sin was the assumption about who consumes that view: a human, opening a dashboard, building segments. The rebuild keeps the plumbing and swaps the consumer. The reader of your unified customer data is increasingly software that reads it, reasons about it and acts on it, and the interesting fight in martech right now is over whose governed context the agent acts on.</p>
+
+<h2 id="three-october-announcements-one-machine">Three October announcements, one machine</h2>
+
+<p>Qlik placed its Model Context Protocol server in Anthropic's Claude Directory this month, a distribution move we covered <a href="/blog/mcp-distribution-channel-2026-10-28/">yesterday</a>. The quieter half of the announcement is the product. Claude can query governed Qlik Cloud data, inspect lineage and trust signals, and run selected analytics workflows. Authentication runs over OAuth and maps onto the permissions a company already has in Qlik Cloud. Josh Good, Qlik's VP of corporate strategy, described the request he actually hears from buyers: "Customers adopting Claude want more than an LLM hooked to raw records. They want Claude to work with governed business context, existing metrics, and data workflows with enterprise controls."</p>
+
+<p>Read that as a CDP requirements document. Single view of the customer, check. Permissions and lineage, check. The only thing that changed is the customer in "customer data": it is Claude now, not a campaign manager.</p>
+
+<p>Salesforce sells the same machine at platform scale and does not pretend otherwise. The first IDC MarketScape for worldwide agentic AI platforms, published in October, evaluated 25 vendors and named Salesforce a Leader. Of the strengths Salesforce says IDC highlighted, two are context-and-control claims: a "native, grounded data foundation," meaning agents built directly on Data 360 and Customer 360 with zero-copy federation to Snowflake, Databricks and BigQuery, and "hybrid reasoning with deterministic control," the Atlas Reasoning Engine plus the open-source Agent Script for auditable constraints on autonomous agents. The Winter '27 Marketing Cloud release, more than 60 features, is mostly agents riding that foundation. Campaign Agent is generally available now. Headless Marketing, shipping in October, exposes Marketing Cloud and Data 360 through an MCP server so ChatGPT, Gemini, Claude or Slack can run campaigns against them.</p>
+
+<div class="table-wrap"><table><thead><tr><th>Vendor</th><th>What shipped</th><th>Where the context lives</th><th>Who governs it</th></tr></thead><tbody><tr><td>Minerva</td><td>Agent layer over brand data plus its graph of 270 million consumers; $20 million raised in June</td><td>Minerva's middle layer joining CRM and warehouse data</td><td>Minerva's platform; the brand owns the first-party half</td></tr><tr><td>Qlik</td><td>MCP server in Anthropic's Claude Directory</td><td>Qlik Cloud apps, datasets, metrics, lineage</td><td>Existing Qlik Cloud permissions, OAuth per connection</td></tr><tr><td>Salesforce</td><td>Leader slot in the first IDC agentic platforms MarketScape; Winter '27 agents</td><td>Data 360 / Customer 360, zero-copy to Snowflake, Databricks, BigQuery</td><td>Salesforce roles, which the company markets as the point</td></tr></tbody></table></div>
+
+<p>A startup that refuses the CDP label, an analytics vendor that ships context with the audit trail attached, and a platform vendor whose agentic pitch reduces to "grounded data plus control over how agents act." Nobody in that set is selling a CDP. All three are selling governed context for agents, because that is what the buyer now needs and the old name would only remind the buyer of the last purchase.</p>
+
+<h2 id="if-context-is-the-moat-check-the-expiration-date">If context is the moat, check the expiration date</h2>
+
+<p>Every agentic vendor converges on the same line: context is the moat, because models are commoditizing and the durable advantage is your data plus the rules around it. Engles gives the data half of that argument a couple of years at best, and he knows his own graph better than anyone quoting him.</p>
+
+<p>He is probably right, and the consequence is uncomfortable for everyone selling context as the moat. If a 270-million-consumer identity graph plus a brand's first-party data is not durable, your governed warehouse is not either. The part that survives commoditization is the other half of every pitch above: the control surface. Lineage, permissions, audit, revocation, deterministic constraints. Salesforce's MarketScape strengths are literally that list. Governance is not the moat around the product. Governance is the product, because it is the only layer a vendor can keep improving after everyone's context looks similar.</p>
+
+<p>Engles makes the same point from the product side without naming it. Marketers, he told AdExchanger, should not be "using Claude and bringing in random data"; they should start from an opinionated view of which data is relevant. That opinionated narrowing is a governance decision. The value of Minerva's layer is the curation of what an agent is allowed to see. The size of the graph is the part Engles expects to fade.</p>
+
+<h2 id="three-questions-before-your-agent-s-memory-moves-in">Three questions before your agent's memory moves in</h2>
+
+<p>For a marketing ops team deciding where its agent's memory lives, the feature checklist matters less than three jurisdiction questions.</p>
+
+<p>Who can read it? Qlik's server inherits your existing Qlik Cloud permissions; Salesforce grounds agents in Data 360 roles. The failing pattern is the god credential, one API key that lets the agent see every table because segmenting access was somebody else's problem. If the vendor's answer to "who can read this" is "the agent," keep shopping.</p>
+
+<p>Who can revoke it? An agent that reads your customer context builds a memory of it. Revocation has to be per connection and per agent, it has to actually cut access, and the audit log has to show what was read before the cut. OAuth per connection is the floor, not the ceiling. Ask what happens to everything the agent already absorbed.</p>
+
+<p>What happens when two agents disagree about the same customer? Your retention agent reads churn risk, your support agent reads upsell intent, both are "grounded in governed context," and they act in opposite directions. No vendor in this wave has an arbitration story. Until one exists, a human is the arbitration layer, and the honest vendors admit it. We have walked this class of problem before, from <a href="/blog/agent-protocol-vs-data-plumbing/">protocols versus data plumbing</a> to <a href="/blog/procedural-memory-agents/">what agents remember about your campaigns</a>; the two-agents-one-customer case is the one nobody has closed.</p>
+
+<h2 id="the-label-contest-nobody-wants-to-enter">The label contest nobody wants to enter</h2>
+
+<p>We <a href="/blog/autonomous-marketing-platform-label-contest/">ran a label contest for autonomous marketing platforms</a> and nobody won, because every candidate name scares a different buyer. The agentic CDP has the inverse problem: the accurate name describes a purchase most marketing teams already made once and will not repeat. So the function gets rebuilt under outcome language, "context layer," "data foundation," "trusted business context," and the category comes back as something a buyer will sign for.</p>
+
+<p>The CDP did not die. It got demoted from the system your marketers log into to the memory your software acts on. That is a better job and a harder purchase, because the questions that decide it concern jurisdiction: who can read the memory, who can revoke it, and who breaks the tie when two agents disagree about the same customer.</p>
+
+<div class="verdict warn">
+<p><strong>Context is a moat with a two-year half-life.</strong> The durable part of the agentic stack is the control surface around the context: permissions, lineage, audit, revocation. Buy the governance, rent the graph.</p>
+</div>
+
+<p>Mapping this onto your own stack: our <a href="/tools/salesforce-marketing-cloud/">Salesforce Marketing Cloud</a> and <a href="/tools/segment/">Twilio Segment</a> profiles cover both ends of the CDP-to-context-layer spectrum, and <a href="/blog/cdp-reckoning-warehouse-native/">the CDP reckoning</a> is the warehouse-native version of the same argument. We also publish our own small agent surface, a machine-readable manifest documenting what agents may read on this site, spelled out in <a href="/ai-policy/">our AI policy</a>. Even a one-person publisher has a context layer now. Yours should at least have a permissions model.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/autonomous-marketing-platform-label-contest/">Autonomous Marketing Platforms Are Real. The Name Is Wrong.</a></li><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li><li><a href="/blog/salesforce-claude-commerce-cloud-agentforce/">Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/mixpanel/">Mixpanel</a> - Product analytics platform with AI-powered insights for user behavior tracking</li><li><a href="/tools/snowplow/">Snowplow</a> - Customer context infrastructure: behavioral event pipeline for warehouses and AI agents</li><li><a href="/tools/cordys-crm/">Cordys CRM</a> - Open-source AI CRM with built-in agents, conversational analytics, and private deployment</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/agent-skills-tools/">Best Agent Skills tools (2026): 8 compared</a></li><li><a href="/vs/matomo-vs-posthog/">Matomo vs PostHog (2026): web analytics or product analytics</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/mcp/">MCP</a></li><li><a href="/glossary/ai-agent/">AI Agent</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">Subscribe →</a>
+</div>
+
+<p class="more-tools">More from the directory: <a href="/tools/instagram-skills/">Instagram Skills</a></p>
+</article>
+</main>
+<footer class="site-foot"><div class="wrap foot-cols">
+  <div class="foot-brand">
+    <p class="foot-wm">MartechSignal</p>
+    <p>Independent research on AI marketing automation, written by <a href="/authors/tim-christensen/">Tim Christensen</a>. No affiliate links. No sponsored rankings.</p>
+    <p class="fine">© 2026 MartechSignal</p>
+  </div>
+  <nav class="foot-col" aria-label="Research"><p class="foot-h">Research</p><a href="/tools/">Tools</a><a href="/best/">Best</a><a href="/vs/">Comparisons</a><a href="/alternatives/">Alternatives</a><a href="/categories/">Categories</a><a href="/trending/">Trending</a><a href="/checklist/">Checklist</a></nav>
+  <nav class="foot-col" aria-label="Read"><p class="foot-h">Read</p><a href="/blog/">Blog</a><a href="/guides/">Guides</a><a href="/glossary/">Glossary</a><a href="/rss.xml">RSS</a><a href="/#subscribe">Subscribe</a></nav>
+  <nav class="foot-col" aria-label="About"><p class="foot-h">About</p><a href="/about/">About</a><a href="/authors/tim-christensen/">Author</a><a href="/methodology/">Methodology</a><a href="/corrections/">Corrections</a><a href="/ai-policy/">AI policy</a><a href="/llms.txt">AI catalog</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></nav>
+</div></footer>
+
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal",
+      "url": "https://martechsignal.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://martechsignal.com/#logo",
+        "url": "https://martechsignal.com/logo.png"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "image": "https://martechsignal.com/authors/tim-christensen/avatar.png",
+      "jobTitle": "Martech Product Owner",
+      "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.",
+      "knowsAbout": [
+        "martech tools",
+        "marketing automation",
+        "AI search visibility",
+        "workflow automation",
+        "open-source marketing software"
+      ],
+      "worksFor": {
+        "@id": "https://martechsignal.com/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/tchristensen78",
+        "https://github.com/timchr78"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://martechsignal.com/#website",
+      "name": "MartechSignal",
+      "url": "https://martechsignal.com/"
+    }
+  ]
+}</script></body>
+</html>
