@@ -1,7 +1,7 @@
 # MartechSignal
 
 > Independent reviews of AI marketing automation tools. Structured research on
-> 171 martech platforms | pricing, self-hosting, APIs, and which AI features
+> 172 martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -112,6 +112,7 @@
 
 - [BillionMail](https://martechsignal.com/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free (open source)
 - [Brevo](https://martechsignal.com/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts
+- [Brew](https://martechsignal.com/tools/brew/): AI-native email platform billed by sends, with a hosted MCP server for agents
 - [Customer.io](https://martechsignal.com/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [Klaviyo](https://martechsignal.com/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
 - [Listmonk](https://martechsignal.com/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend (open source)
@@ -437,8 +438,8 @@
 
 ## Machine-readable data
 
-- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 173 records = 171 active + 2 non-active; the directory above lists only active tools
-- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 336 entries with representativeQueries (specVersion 1.0)
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 174 records = 172 active + 2 non-active; the directory above lists only active tools
+- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 338 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows
 
@@ -837,6 +838,12 @@ BillionMail is a fully self-hosted email stack in one open-source project: a Lin
 
 [Brevo](https://martechsignal.com/tools/brevo/) , Freemium from $9/mo.
 Brevo (formerly Sendinblue) is a Paris-based multichannel marketing platform whose core billing trick is pricing by monthly email volume rather than contact count, which keeps large contact databases cheap for teams that send infrequently. Email campaigns, SMS, WhatsApp, push, live chat, chatbot, and phone calls share one contact universe, and the built-in CRM adds pipelines, tasks, and a sales add-on seat package on top. The free plan covers 300 emails a day; paid plans raise volume and unlock automation workflows, A/B testing, landing pages, send-time optimization, and web event tracking. A 2026 addition aimed at the agentic market: an MCP server lets teams manage campaigns and contacts directly from ChatGPT, Claude, and other AI tools, and Brevo itself ships a Brevo Data Platform that unifies customer data across channels. Integrations cover Shopify, WordPress, Stripe, Zapier, Salesforce, WooCommerce, and 150+ more in the directory; transactional email rides the same platform through SMTP relay and API. The trade-offs match the model: the contact universe is generous but email credits are the meter, SMS costs credits on every plan, advanced analytics and heatmaps need Standard and up, and Editorial verdicts elsewhere note reporting is shallower than Klaviyo's revenue-data model. This assessment is based on the vendor's documented architecture and public materials.
+
+[Brew](https://martechsignal.com/tools/brew/) , Freemium.
+Brew is an AI-native email service provider from Brew Emails Inc., launched in 2026 by founders from Revolut and Vercel. Its pricing stance is the hook: you pay for sends and AI credits, never for contacts. Customer stories on the site include LiveFlow, which moved a 400,000-contact lifecycle program off Customer.io, plus RedSeed and Harmonya.
+You start by pasting your website URL. Brew reads the site and writes what it finds into two editable brand files, one for email design and one for image style, and every email it generates afterwards stays inside those rules. Creation happens on an infinite canvas with a chat beside it: describe the email, edit by hand, or import HTML, MJML, React Email code, a Figma frame, or a forwarded message. Finished emails can be exported to Klaviyo, Mailchimp, HubSpot, or Braze if you would rather keep sending elsewhere.
+Sending covers campaigns, transactional mail, and automations that trigger on Stripe, Shopify, Clerk, or Supabase events, all from your own domain, with send-time optimization per contact. Deliverability tooling is specific: a domain health score across DKIM, SPF, and DMARC, gradual warm-up for new domains, and inbox placement tests against Gmail, Outlook, Yahoo, and Apple.
+The agent story is the differentiator. A hosted MCP server lets Claude, ChatGPT, Cursor, and other clients create emails, manage audiences, send and schedule, run automations, and read analytics, backed by a REST API and a TypeScript SDK. One AI credit buys $0.01 of model spend, so heavy generation is metered separately from sending. It is a young product with thin third-party review coverage so far, and the vendor is explicit that it is not for cold outreach.
 
 [Customer.io](https://martechsignal.com/tools/customer-io/) , From $100/mo.
 Customer.io is a behavior-driven messaging platform for product and lifecycle teams: it stores people, objects, and events, then runs cross-channel journeys that react to what those people do. Founded in 2012 and headquartered in Portland, Oregon, it serves more than 9,000 brands and competes with Braze, Iterable, and OneSignal on event-triggered automation rather than list blasts. Data arrives through the Track and Data Pipelines APIs, SDKs for iOS, Android, React Native, Flutter, and JavaScript, or a warehouse path with reverse ETL; profiles can be tied to objects such as accounts or carts, with two object types on Essentials and ten on Premium. Journeys, the visual workflow builder, then trigger email, transactional email, push, in-app, SMS, native WhatsApp, LINE, and two-way webhooks, with anonymous messaging on higher tiers. The AI surface is where the product has moved most. An AI Agent, currently in beta, ships with execution skills on every plan: it can build segments, answer questions about your data, and run scheduled tasks called Routines, weekly on Essentials and daily on Premium. Journeys support LLM actions, the pricing page lists send-time optimization, and the docs cover email content analysis plus in-app message and survey suggestions. Customer.io also publishes an MCP server with setup guides for ChatGPT, Claude Desktop, Cursor, and Claude Code, along with a CLI and agent skill, so assistants can query the same platform your campaigns run on. Pricing is published rather than quoted: Essentials starts at $100/month billed monthly for 5,000 profiles and 1 million emails, Premium at $1,000/month billed yearly with custom volume, Enterprise by negotiation. Overages run $0.009 per profile, $0.12 per additional 1,000 emails, and $10 per 100,000 AI credits, and seats are unlimited on every plan. Startups that have raised under $10M get twelve months free. The trade-off is unchanged: it rewards teams with an event pipeline, and asks more instrumentation work than a CSV-upload email tool.

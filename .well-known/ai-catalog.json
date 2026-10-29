@@ -325,6 +325,18 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:tools:brew",
+   "displayName": "Brew pricing & plans",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/brew/",
+   "description": "AI-native email platform billed by sends, with a hosted MCP server for agents",
+   "representativeQueries": [
+    "Brew pricing",
+    "Brew alternatives",
+    "email marketing tools like Brew"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:tools:budibase",
    "displayName": "Budibase pricing & plans",
    "type": "text/html",
@@ -2216,7 +2228,7 @@
    "displayName": "Email Marketing",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/email-marketing/",
-   "description": "Email marketing across hosted, self-hosted, and transactional: contact vs volume pricing and inbox placement. 18 tools reviewed.",
+   "description": "Email marketing across hosted, self-hosted, and transactional: contact vs volume pricing and inbox placement. 19 tools reviewed.",
    "representativeQueries": [
     "best email marketing tools",
     "email marketing comparison",
@@ -3917,7 +3929,7 @@
    "displayName": "Categories",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/",
-   "description": "Browse all 13 categories plus the open-source index across 171 marketing-automation tools: licences, stars and plain-English summaries.",
+   "description": "Browse all 13 categories plus the open-source index across 172 marketing-automation tools: licences, stars and plain-English summaries.",
    "representativeQueries": [
     "martechsignal categories",
     "browse tools by category"

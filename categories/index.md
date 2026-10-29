@@ -2,7 +2,7 @@
 
 ## Categories
 
-All 13 categories plus a cross-cutting open-source index across the 171-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
+All 13 categories plus a cross-cutting open-source index across the 172-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
 
 - [AI Content & Copywriting](/categories/content-ai/): AI writing, copy, and publishing tools for marketing teams
 - [Advertising & Paid Media](/categories/advertising/): Ad creation, bidding, and campaign management
@@ -44,7 +44,7 @@ Conversational AI for marketing and support, from social DM automation to per-re
 
 ## [Email Marketing](/categories/email-marketing/)
 
-Email sending, newsletters, and transactional delivery. Includes [BillionMail](/tools/billionmail/), [Brevo](/tools/brevo/), [Customer.io](/tools/customer-io/).
+Email sending, newsletters, and transactional delivery. Includes [BillionMail](/tools/billionmail/), [Brevo](/tools/brevo/), [Brew](/tools/brew/).
 
 ## [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 

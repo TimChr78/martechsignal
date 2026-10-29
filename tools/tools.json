@@ -10268,5 +10268,47 @@
    "not_for": "English-only teams, sellers who need vendor support or versioned releases, and anyone expecting turnkey campaign execution: the skills diagnose and draft, and they will not touch a live campaign without explicit approval."
   },
   "currency": "CNY"
+ },
+ {
+  "slug": "brew",
+  "name": "Brew",
+  "tagline": "AI-native email platform billed by sends, with a hosted MCP server for agents",
+  "website": "https://brew.new",
+  "category": "email-marketing",
+  "pricing_model": "freemium",
+  "pricing_url": "https://brew.new/pricing",
+  "price_from": 0,
+  "price_notes": "Free plan with 1,000 sends and 500 AI credits a month (Brew watermark). Growth $99/mo for 50K sends and 10K credits, Pro $249/mo for 200K sends, Enterprise custom. Billed by sends and AI credits, never by contacts; unlimited sending domains and teammates on every plan.",
+  "currency": "USD",
+  "ai_features": [
+   "Brand learning from your website URL, written into editable design and image-style files",
+   "Email generation and editing on an infinite canvas, by chat, or from templates",
+   "Imports from HTML, MJML, React Email, Figma frames, and forwarded emails; screenshot recreation via AI",
+   "Per-contact send-time optimization",
+   "Deliverability scoring across DKIM, SPF, and DMARC, with inbox placement tests and gradual warm-up",
+   "Hosted MCP server so agents create emails, manage audiences, send, run automations, and read analytics"
+  ],
+  "integrations": [
+   "Stripe",
+   "Shopify",
+   "Clerk",
+   "Supabase",
+   "Figma",
+   "Slack",
+   "HubSpot",
+   "Klaviyo",
+   "Claude (MCP)",
+   "ChatGPT (MCP)"
+  ],
+  "github_repo": null,
+  "github_stars": null,
+  "open_source": false,
+  "api_available": true,
+  "founded": null,
+  "hq": null,
+  "status": "active",
+  "date_added": "2026-10-29",
+  "date_updated": "2026-10-29",
+  "description": "Brew is an AI-native email service provider from Brew Emails Inc., launched in 2026 by founders from Revolut and Vercel. Its pricing stance is the hook: you pay for sends and AI credits, never for contacts. Customer stories on the site include LiveFlow, which moved a 400,000-contact lifecycle program off Customer.io, plus RedSeed and Harmonya.\n\nYou start by pasting your website URL. Brew reads the site and writes what it finds into two editable brand files, one for email design and one for image style, and every email it generates afterwards stays inside those rules. Creation happens on an infinite canvas with a chat beside it: describe the email, edit by hand, or import HTML, MJML, React Email code, a Figma frame, or a forwarded message. Finished emails can be exported to Klaviyo, Mailchimp, HubSpot, or Braze if you would rather keep sending elsewhere.\n\nSending covers campaigns, transactional mail, and automations that trigger on Stripe, Shopify, Clerk, or Supabase events, all from your own domain, with send-time optimization per contact. Deliverability tooling is specific: a domain health score across DKIM, SPF, and DMARC, gradual warm-up for new domains, and inbox placement tests against Gmail, Outlook, Yahoo, and Apple.\n\nThe agent story is the differentiator. A hosted MCP server lets Claude, ChatGPT, Cursor, and other clients create emails, manage audiences, send and schedule, run automations, and read analytics, backed by a REST API and a TypeScript SDK. One AI credit buys $0.01 of model spend, so heavy generation is metered separately from sending. It is a young product with thin third-party review coverage so far, and the vendor is explicit that it is not for cold outreach."
  }
 ]

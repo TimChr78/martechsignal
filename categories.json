@@ -11,8 +11,8 @@
       "slug": "email-marketing",
       "name": "Email Marketing",
       "url": "https://martechsignal.com/categories/email-marketing/",
-      "description": "Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites",
-      "tool_count": 15
+      "description": "Email sending, newsletters, and transactional delivery",
+      "tool_count": 19
     },
     {
       "slug": "crm",
@@ -25,7 +25,7 @@
       "slug": "content-ai",
       "name": "AI Content & Copywriting",
       "url": "https://martechsignal.com/categories/content-ai/",
-      "description": "AI copywriting, message optimization, and publishing platforms, from per-seat generators to governed enterprise suites",
+      "description": "AI writing, copy, and publishing tools for marketing teams",
       "tool_count": 13
     },
     {
@@ -53,8 +53,8 @@
       "slug": "personalization",
       "name": "Personalization & CDP",
       "url": "https://martechsignal.com/categories/personalization/",
-      "description": "Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization",
-      "tool_count": 9
+      "description": "Ecommerce personalization, customer data platforms, and experimentation",
+      "tool_count": 11
     },
     {
       "slug": "chatbots",
@@ -89,14 +89,14 @@
       "name": "Agent Skills",
       "url": "https://martechsignal.com/categories/agent-skills/",
       "description": "Skills, plugins, and extensions for AI coding agents - what they automate in your marketing workflow",
-      "tool_count": 16
+      "tool_count": 21
     },
     {
       "slug": "open-source",
       "name": "Open-Source Tools",
       "url": "https://martechsignal.com/categories/open-source/",
       "description": "The self-hostable shelf: open-source MarTech across every category, licence claims checkable against the vendor's own repository. {n} tools reviewed.",
-      "tool_count": 78,
+      "tool_count": 86,
       "cross_cutting": true
     }
   ],

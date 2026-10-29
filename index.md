@@ -25,13 +25,13 @@ Jackson Engles keeps saying the quiet part out loud. Minerva, the startup he co-
 
 | Tool | What it is | Category | GitHub stars |
 | --- | --- | --- | --- |
-| [NocoBase](/tools/nocobase/) | Open-source no-code platform with AI assistance for building business systems fast | Automation | 24,748 |
-| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 208,821 |
-| [Twenty](/tools/twenty/) | The open-source alternative to Salesforce, designed for AI with modern CRM workflows | CRM | 59,952 |
+| [NocoBase](/tools/nocobase/) | Open-source no-code platform with AI assistance for building business systems fast | Automation | 24,764 |
+| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 208,939 |
 | [Profound](/tools/profound/) | Enterprise AI marketing platform: answer-engine visibility plus drafting agents | Geo llm visibility | n/a |
-| [Warmbly](/tools/warmbly/) | Open-source cold email platform with warmup, campaigns, unified inbox, and CRM | Email | 492 |
+| [Twenty](/tools/twenty/) | The open-source alternative to Salesforce, designed for AI with modern CRM workflows | CRM | 60,030 |
+| [Warmbly](/tools/warmbly/) | Open-source cold email platform with warmup, campaigns, unified inbox, and CRM | Email | 493 |
 | [Hootsuite](/tools/hootsuite/) | Social media management platform with AI-powered scheduling and analytics | Social | n/a |
-| [ChatbotX](/tools/chatbotx/) | Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation | Chatbots | 1,037 |
+| [ChatbotX](/tools/chatbotx/) | Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation | Chatbots | 1,047 |
 | [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) | Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web | Marketing automation | n/a |
 
 ## Comparisons and best-of lists
@@ -46,7 +46,7 @@ Verdicts with receipts: every list below names what each tool costs from the ven
 
 ## How to read the directory
 
-The directory holds **171 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **160** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
+The directory holds **172 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **160** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
 
 Every number in the directory carries a date. Prices, integration counts, AI feature lists, star counts: each one shows the day we last checked it against the vendor's own documentation. When a number moves, the page moves with it. The n8n star count is the obvious example. Three different figures had settled into our own pages before we re-checked the repository and re-stamped the date.
 
@@ -64,7 +64,7 @@ The directory covers 13 categories plus a cross-cutting open-source index. Each 
 - [Analytics & Attribution](/categories/analytics/): 11 tools
 - [CRM](/categories/crm/): 24 tools
 - [Chatbots & Conversational AI](/categories/chatbots/): 6 tools
-- [Email Marketing](/categories/email-marketing/): 18 tools
+- [Email Marketing](/categories/email-marketing/): 19 tools
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/): 14 tools
 - [Marketing Automation](/categories/marketing-automation/): 12 tools
 - [Open-Source Tools](/categories/open-source/): 86 tools

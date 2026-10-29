@@ -5,13 +5,14 @@
 - Email Marketing
 ## Email Marketing Tools
 
-Email marketing across hosted, self-hosted, and transactional: contact vs volume pricing and inbox placement. 18 tools reviewed.
+Email marketing across hosted, self-hosted, and transactional: contact vs volume pricing and inbox placement. 19 tools reviewed.
 
-18 tools in this category
+19 tools in this category
 
-## Hosted campaign platforms (6)
+## Hosted campaign platforms (7)
 
 - [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts (Freemium from $9/mo)
+- [Brew](/tools/brew/): AI-native email platform billed by sends, with a hosted MCP server for agents (Freemium)
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages (From $100/mo)
 - [Klaviyo](/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands (Freemium from $20/mo)
 - [Loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool (Freemium)
@@ -45,7 +46,7 @@ Full definitions in the [martech glossary](/glossary/).
 
 Email splits into three jobs and you should buy for the job you have. Campaign tools send newsletters and flows. Transactional APIs send receipts and resets. Cold tools handle warmup and prospecting. Mixing them up is how teams pay contact prices for system mail or push sales mail through a pipe built for passwords resets. Pick the lane first, then compare on price model and deliverability work.
 
-This set covers 18 tools across that split. Six hosted campaign platforms bill by contacts, volume, or emails sent, with free plans from Brevo, Mailchimp, Klaviyo, and Loops. Four self-hosted senders remove per-contact billing: BillionMail, Listmonk, Notifuse, and SendPortal. Four developer pipes cover transactional and notifications: Postmark, Resend, SendGrid, and Notifo. The last four are building blocks and cold outreach: Maizzle, React Email Editor, OpenOutreach, and Warmbly. Our notes weight real sending costs, what self-hosting asks of you, and whether cold features stay within mailbox limits. Self-hosting trades the contact bill for server and warmup work; price it honestly before switching.
+This set covers 19 tools across that split. Six hosted campaign platforms bill by contacts, volume, or emails sent, with free plans from Brevo, Mailchimp, Klaviyo, and Loops. Four self-hosted senders remove per-contact billing: BillionMail, Listmonk, Notifuse, and SendPortal. Four developer pipes cover transactional and notifications: Postmark, Resend, SendGrid, and Notifo. The last four are building blocks and cold outreach: Maizzle, React Email Editor, OpenOutreach, and Warmbly. Our notes weight real sending costs, what self-hosting asks of you, and whether cold features stay within mailbox limits. Self-hosting trades the contact bill for server and warmup work; price it honestly before switching.
 
 ## Which one fits
 

@@ -123,6 +123,7 @@ Both paths are documented on the docs site as migration guides, alongside deploy
 
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 - [SendPortal](/tools/sendportal/): Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server
+- [Brew](/tools/brew/): AI-native email platform billed by sends, with a hosted MCP server for agents
 - [Resend](/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [Loops](/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
 ## Related reading

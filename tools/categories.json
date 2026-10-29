@@ -185,6 +185,7 @@
   "tools": [
    "billionmail",
    "brevo",
+   "brew",
    "customer-io",
    "klaviyo",
    "listmonk",
@@ -329,6 +330,7 @@
      "label": "Hosted campaign platforms",
      "slugs": [
       "brevo",
+      "brew",
       "customer-io",
       "klaviyo",
       "loops",
@@ -387,7 +389,7 @@
     }
    ]
   },
-  "tool_count": 18
+  "tool_count": 19
  },
  {
   "slug": "crm",

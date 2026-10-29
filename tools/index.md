@@ -6,7 +6,7 @@ Browse by licence: [Open-source tools](/categories/open-source/) · [all categor
 
 Curated tools for AI-powered marketing automation, from email and CRM to content generation and workflow automation.
 
-171 tools · 13 categories + open-source index · Updated weekly
+172 tools · 13 categories + open-source index · Updated weekly
 
 Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 86 of them, with daily snapshots since Aug 25, 2026.
 
@@ -15,7 +15,7 @@ A directory tells you what exists. It does not tell you whether your stack can h
 ## Browse by category
 
 - [Marketing Automation (12)](/categories/marketing-automation/)
-- [Email Marketing (18)](/categories/email-marketing/)
+- [Email Marketing (19)](/categories/email-marketing/)
 - [CRM (24)](/categories/crm/)
 - [AI Content & Copywriting (13)](/categories/content-ai/)
 - [Analytics & Attribution (11)](/categories/analytics/)
@@ -32,7 +32,7 @@ A directory tells you what exists. It does not tell you whether your stack can h
 
 The weekly newsletter tracks this category: one teardown, one workflow, no fluff.
 
-All 171 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
+All 172 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
 
 ## AI Content & Copywriting *13*
 
@@ -130,10 +130,11 @@ All 171 tools, grouped by category. Each card links to a full teardown with pric
 - [Intercom](/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging (From $29/seat/mo)
 - [ManyChat](/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger (Freemium from $14/mo)
 - [Tidio](/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support (Freemium from $24/mo)
-## Email Marketing *18*
+## Email Marketing *19*
 
 - [BillionMail](/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free (Open Source from $98.90/mo)
 - [Brevo](/tools/brevo/): Multichannel marketing platform billing by email volume, not contacts (Freemium from $9/mo)
+- [Brew](/tools/brew/): AI-native email platform billed by sends, with a hosted MCP server for agents (Freemium)
 - [Customer.io](/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages (From $100/mo)
 - [Klaviyo](/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands (Freemium from $20/mo)
 - [Listmonk](/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend (Open Source)
