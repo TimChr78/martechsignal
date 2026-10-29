@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Revive Adserver
-Re-check pending: pricing last verified 2026-09-25 (33 days ago).
+Re-check pending: pricing last verified 2026-09-25 (34 days ago).
 
 Review · Advertising & Paid Media
 

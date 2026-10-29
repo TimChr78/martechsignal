@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Open Mercato
-Re-check pending: pricing last verified 2026-09-07 (51 days ago).
+Re-check pending: pricing last verified 2026-09-07 (52 days ago).
 
 Review · Agent Skills
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 1,886
+- **GitHub stars:** 1,888
 
 [How we review](/methodology/) · No affiliate links
 
@@ -102,7 +102,7 @@ A credible AI-first foundation for engineering-led commerce and CRM builds; earl
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI development harness with 192 evaluation cases |  |
-| ✓ Active public repository (1,886 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,888 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -118,10 +118,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Open Mercato?**
-Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,886 stars.
+Open Mercato: Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. Open Mercato ships with AI development harness with 192 evaluation cases. The public repository carries 1,888 stars.
 
 **How much does Open Mercato cost?**
-Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,886 stars. You pay in server time and maintenance, not licences.
+Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,888 stars. You pay in server time and maintenance, not licences.
 
 **Is Open Mercato a good self-hosted Agent Skills tool in 2026?**
 A credible AI-first foundation for engineering-led commerce and CRM builds; early, fast-moving, and not a turnkey product.
@@ -145,17 +145,17 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 1886
+- **GitHub:** ★ 1888
 - **Founded:** 2025
 - **HQ:** Open source
 - **API:** Yes
-- **Repository checked:** 2026-10-28
+- **Repository checked:** 2026-10-29
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

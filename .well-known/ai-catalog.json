@@ -2507,6 +2507,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:cdp-agents-context-layer",
+   "displayName": "The CDP is being rebuilt as an agent's context layer",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/cdp-agents-context-layer/",
+   "description": "Minerva, Qlik and Salesforce all sell governed context for agents and refuse the CDP label. The moat is not the data; it is the permission model.",
+   "representativeQueries": [
+    "the cdp is being rebuilt as an agent's context layer",
+    "cdp agents context layer"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:cdp-reckoning-warehouse-native",
    "displayName": "The CDP Reckoning: Your Next CDP Is a Warehouse",
    "type": "text/html",

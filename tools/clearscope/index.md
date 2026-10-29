@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Clearscope
-Re-check pending: pricing last verified 2026-10-05 (23 days ago).
+Re-check pending: pricing last verified 2026-10-05 (24 days ago).
 
 Review · SEO & Search
 

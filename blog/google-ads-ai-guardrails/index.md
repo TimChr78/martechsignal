@@ -75,7 +75,7 @@ The boring setup wins. You know what the AI can see, you know what it can't touc
 ## Related reading
 
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 
@@ -94,6 +94,6 @@ The boring setup wins. You know what the AI can see, you know what it can't touc
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Trakkr](/tools/trakkr/)
+More from the directory: [Zoho CRM](/tools/zoho-crm/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

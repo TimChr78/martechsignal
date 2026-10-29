@@ -64,20 +64,20 @@ Tools linked in this post: [HubSpot CRM](/tools/hubspot-crm/) · [Claude Ads](/t
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
+- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
 ## Related tools
 
 - [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
-- [Attribution](/tools/attribution/) - AI-powered marketing attribution platform connecting ad spend to revenue
+- [Madgicx](/tools/madgicx/) - AI-powered Meta ads optimization and creative workflow
 - [Revealbot (Birch)](/tools/revealbot/) - AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 ## Comparison guides
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
-- [AI Agent](/glossary/ai-agent/)
+- [Lead scoring](/glossary/lead-scoring/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

@@ -74,4 +74,4 @@ This post is part of the hub for this topic: [ai seo tooling](/guides/ai-seo-too
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [ManyChat](/tools/manychat/)
+More from the directory: [OpenOutreach](/tools/openoutreach/)

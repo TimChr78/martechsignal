@@ -16,7 +16,7 @@ Not yet scored
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 642
+- **GitHub stars:** 651
 
 [How we review](/methodology/) · No affiliate links
 
@@ -29,7 +29,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** yes
 - **Catalogued integrations:** 9
-- **GitHub stars:** 642
+- **GitHub stars:** 651
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -110,10 +110,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Instagram Skills?**
-Instagram Skills: 9 Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtags. Instagram Skills ships with caption and Reels hook writing in your voice with a 125-char hook rule. The public repository carries 642 stars.
+Instagram Skills: 9 Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtags. Instagram Skills ships with caption and Reels hook writing in your voice with a 125-char hook rule. The public repository carries 651 stars.
 
 **How much does Instagram Skills cost?**
-Instagram Skills is open source - MIT licensed and free to self-host; the public repository carries 642 stars; native integrations cover Claude Code, Codex CLI, claude.ai. You pay in server time and maintenance, not licences.
+Instagram Skills is open source - MIT licensed and free to self-host; the public repository carries 651 stars; native integrations cover Claude Code, Codex CLI, claude.ai. You pay in server time and maintenance, not licences.
 
 **Is Instagram Skills a good self-hosted Agent Skills tool in 2026?**
 The most Instagram-specific free skill pack we list. Best if you already work in an agent CLI; Publora dependency and no read layer are the trade-offs.
@@ -131,15 +131,15 @@ Yes. The catalog records a public API for Instagram Skills, so custom integratio
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 642
+- **GitHub:** ★ 651
 - **API:** Yes
-- **Repository checked:** 2026-10-28
+- **Repository checked:** 2026-10-29
 - **Page updated:** 2026-10-12
 
 ## Get the next teardown

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Macro
-Re-check pending: pricing last verified 2026-10-06 (22 days ago).
+Re-check pending: pricing last verified 2026-10-06 (23 days ago).
 
 Review · CRM
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Freemium from $40/seat/mo
 - **Licence:** AGPL-3.0
-- **GitHub stars:** 5,149
+- **GitHub stars:** 5,503
 
 [How we review](/methodology/) · No affiliate links
 
@@ -114,7 +114,7 @@ A genuinely open-source workspace whose CRM is a byproduct of team email: real f
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $40/seat/mo once past the free tier |
 | ✓ AI capabilities: agent-driven CRM that builds contact and company records from your team's email |  |
-| ✓ Active public repository (5,149 GitHub stars counted at last check) |  |
+| ✓ Active public repository (5,503 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -131,7 +131,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Macro?**
-Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 5,149 stars.
+Macro: Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Macro ships with agent-driven CRM that builds contact and company records from your team's email. The public repository carries 5,503 stars.
 
 **How much does Macro cost?**
 Macro has a free tier; paid plans start at $40/seat/mo. Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0. We last checked both ends of that split on 2026-10-06. The pricing section above shows what the free tier actually covers.
@@ -154,18 +154,18 @@ Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focu
 - [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment
 ## Related reading
 
-- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $40/seat/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 5149
+- **GitHub:** ★ 5503
 - **Founded:** 2020
 - **HQ:** New York, NY, USA
 - **API:** Yes
-- **Repository checked:** 2026-10-28
+- **Repository checked:** 2026-10-29
 - **Page updated:** 2026-10-06
 
 ## Get the next teardown

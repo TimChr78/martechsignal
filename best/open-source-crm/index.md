@@ -50,12 +50,12 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- EspoCRM - 3,526 stars, +235 in the 63-snapshot window to 2026-10-28 3,291→3,526 [verify on GitHub](https://github.com/espocrm/espocrm)
-- SuiteCRM - 5,816 stars, +126 in the 63-snapshot window to 2026-10-28 5,690→5,816 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
-- Twenty - 59,952 stars, +4,427 in the 63-snapshot window to 2026-10-28 55,525→59,952 [verify on GitHub](https://github.com/twentyhq/twenty)
-- Frappe CRM - 3,874 stars, +484 in the 63-snapshot window to 2026-10-28 3,390→3,874 [verify on GitHub](https://github.com/frappe/crm)
-- Krayin CRM - 24,071 stars, +360 in the 63-snapshot window to 2026-10-28 23,711→24,071 [verify on GitHub](https://github.com/krayin/laravel-crm)
-- Monica - 25,536 stars, +431 in the 63-snapshot window to 2026-10-28 25,105→25,536 [verify on GitHub](https://github.com/monicahq/monica)
+- EspoCRM - 3,526 stars, +235 in the 64-snapshot window to 2026-10-29 3,291→3,526 [verify on GitHub](https://github.com/espocrm/espocrm)
+- SuiteCRM - 5,819 stars, +129 in the 64-snapshot window to 2026-10-29 5,690→5,819 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
+- Twenty - 60,030 stars, +4,505 in the 64-snapshot window to 2026-10-29 55,525→60,030 [verify on GitHub](https://github.com/twentyhq/twenty)
+- Frappe CRM - 3,879 stars, +489 in the 64-snapshot window to 2026-10-29 3,390→3,879 [verify on GitHub](https://github.com/frappe/crm)
+- Krayin CRM - 24,074 stars, +363 in the 64-snapshot window to 2026-10-29 23,711→24,074 [verify on GitHub](https://github.com/krayin/laravel-crm)
+- Monica - 25,539 stars, +434 in the 64-snapshot window to 2026-10-29 25,105→25,539 [verify on GitHub](https://github.com/monicahq/monica)
 [All movers on the trending page](/trending/).
 
 ## [EspoCRM](/tools/espocrm/)

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Microsoft Power Automate
-Re-check pending: pricing last verified 2026-09-27 (31 days ago).
+Re-check pending: pricing last verified 2026-09-27 (32 days ago).
 
 Review · Workflow Automation
 

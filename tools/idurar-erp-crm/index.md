@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - IDURAR ERP & CRM
-Re-check pending: pricing last verified 2026-09-07 (51 days ago).
+Re-check pending: pricing last verified 2026-09-07 (52 days ago).
 
 Review · CRM
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $5,000 one-time
 - **Licence:** AGPL-3.0
-- **GitHub stars:** 8,919
+- **GitHub stars:** 8,924
 
 [How we review](/methodology/) · No affiliate links
 
@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 31/60
 
-IDURAR is a full ERP-CRM-accounting stack under AGPL with 8,919 stars, and lifetime licenses at $5,000 if you want the vendor's hand. Free self-hosting is the honest path for small teams.
+IDURAR is a full ERP-CRM-accounting stack under AGPL with 8,924 stars, and lifetime licenses at $5,000 if you want the vendor's hand. Free self-hosting is the honest path for small teams.
 
 
 | Pillar | Score | Evidence |
@@ -98,7 +98,7 @@ A compact AGPL starting point for custom MERN invoicing and payments work, not a
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5,000 one-time |
 | ✓ API access for custom integrations |  |
-| ✓ Active public repository (8,919 GitHub stars counted at last check) |  |
+| ✓ Active public repository (8,924 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -115,7 +115,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is IDURAR ERP & CRM?**
-IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,919 stars. IDURAR ERP & CRM offers a public API for custom integrations.
+IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,924 stars. IDURAR ERP & CRM offers a public API for custom integrations.
 
 **How much does IDURAR ERP & CRM cost?**
 IDURAR ERP & CRM has a free tier; paid plans start at $5,000 one-time. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -141,15 +141,15 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
 - [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $5,000 one-time
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 8919
+- **GitHub:** ★ 8924
 - **API:** Yes
-- **Repository checked:** 2026-10-28
+- **Repository checked:** 2026-10-29
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

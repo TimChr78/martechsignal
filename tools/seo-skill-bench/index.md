@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - SEO Skill Bench
-Re-check pending: pricing last verified 2026-09-03 (55 days ago).
+Re-check pending: pricing last verified 2026-09-03 (56 days ago).
 
 Review · Agent Skills
 

@@ -87,8 +87,8 @@ For a team already comfortable with Docker and an agent CLI, the five-layer loop
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Related tools
 
 - [Nimt.ai](/tools/nimt-ai/) - AI search tracking across 8 models with an agent that writes, fixes, and outreaches
@@ -101,7 +101,7 @@ For a team already comfortable with Docker and an agent CLI, the five-layer loop
 ## Glossary terms
 
 - [MCP](/glossary/mcp/)
-- [AEO](/glossary/aeo/)
+- [UTM parameters](/glossary/utm-parameters/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

@@ -72,13 +72,13 @@ Tools linked in this post: [n8n](/tools/n8n/) | [Google Ads + Meta Ads + GA4 MCP
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Related tools
 
 - [Cordys CRM](/tools/cordys-crm/) - Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+- [AI Marketing Suite](/tools/ai-marketing-claude/) - 15-skill marketing suite for Claude Code with parallel agents and PDF reports
 - [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
-- [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 ## Comparison guides
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)

@@ -128,4 +128,4 @@ Our directory breaks down martech tools by what they actually deliver: static re
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [LibreTranslate](/tools/libretranslate/)
+More from the directory: [ManyChat](/tools/manychat/)

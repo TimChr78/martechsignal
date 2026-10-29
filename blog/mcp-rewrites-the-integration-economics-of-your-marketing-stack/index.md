@@ -106,9 +106,9 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 
 ## Related reading
 
+- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Related tools
 
 - [Pipedream](/tools/pipedream/) - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
@@ -116,12 +116,12 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 - [Amplitude](/tools/amplitude/) - AI-powered digital analytics platform for product and marketing teams
 ## Comparison guides
 
-- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [CDP](/glossary/cdp/)
-- [Customer journey](/glossary/customer-journey/)
+- [MCP](/glossary/mcp/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

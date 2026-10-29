@@ -10,28 +10,28 @@ Every week we audit the AI marketing automation landscape: the agents, the workf
 
 ## Latest
 
-### 31% of the tools in our directory now ship an MCP server
+### The CDP is being rebuilt as an agent's context layer, and no vendor will call it that
 
-Three marketing technology announcements in the past seven days, and not one of them pitched an API.
+Jackson Engles keeps saying the quiet part out loud. Minerva, the startup he co-founded, raised $20 million in June on the strength of an identity graph covering 270 million…
+
+### 31% of the tools in our directory now ship an MCP server
 
 ### ChatGPT runs an ad auction now, and the response deadline is the new quality score
 
 ### Your agents keep failing the same way. Memory of what worked is the fix nobody ships
-
-### Prompts are not a security boundary. Isolation is.
 
 ## Tool index
 
 
 | Tool | What it is | Category | GitHub stars |
 | --- | --- | --- | --- |
-| [NocoBase](/tools/nocobase/) | Open-source no-code platform with AI assistance for building business systems fast | Automation | 24,732 |
-| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 208,698 |
-| [Twenty](/tools/twenty/) | The open-source alternative to Salesforce, designed for AI with modern CRM workflows | CRM | 59,845 |
+| [NocoBase](/tools/nocobase/) | Open-source no-code platform with AI assistance for building business systems fast | Automation | 24,748 |
+| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 208,821 |
+| [Twenty](/tools/twenty/) | The open-source alternative to Salesforce, designed for AI with modern CRM workflows | CRM | 59,952 |
 | [Profound](/tools/profound/) | Enterprise AI marketing platform: answer-engine visibility plus drafting agents | Geo llm visibility | n/a |
-| [Warmbly](/tools/warmbly/) | Open-source cold email platform with warmup, campaigns, unified inbox, and CRM | Email | 487 |
+| [Warmbly](/tools/warmbly/) | Open-source cold email platform with warmup, campaigns, unified inbox, and CRM | Email | 492 |
 | [Hootsuite](/tools/hootsuite/) | Social media management platform with AI-powered scheduling and analytics | Social | n/a |
-| [ChatbotX](/tools/chatbotx/) | Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation | Chatbots | 1,027 |
+| [ChatbotX](/tools/chatbotx/) | Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation | Chatbots | 1,037 |
 | [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) | Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web | Marketing automation | n/a |
 
 ## Comparisons and best-of lists

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - AlphOne
-Re-check pending: pricing last verified 2026-09-06 (52 days ago).
+Re-check pending: pricing last verified 2026-09-06 (53 days ago).
 
 Review · CRM
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** Elastic License 2.0
-- **GitHub stars:** 207
+- **GitHub stars:** 209
 
 [How we review](/methodology/) · No affiliate links
 
@@ -87,7 +87,7 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 
 | Pros | Cons |
 | --- | --- |
-| ✓ Elastic License 2.0 licence with free self-hosting | ✗ Young project (207 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ Elastic License 2.0 licence with free self-hosting | ✗ Young project (209 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ API access for custom integrations |  |
 | ✓ API access for custom integrations |  |
 
@@ -106,10 +106,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is AlphOne?**
-AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 207 stars. AlphOne offers a public API for custom integrations.
+AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. The public repository carries 209 stars. AlphOne offers a public API for custom integrations.
 
 **How much does AlphOne cost?**
-AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 207 stars. Check the licence terms before commercial use.
+AlphOne is source-available rather than open source - Elastic License 2.0 licensed and free to self-host; the public repository carries 209 stars. Check the licence terms before commercial use.
 
 **Is AlphOne a good self-hosted CRM tool in 2026?**
 An API-first CRM built to be driven by n8n and AI agents rather than replace them. Early-stage, split-licensed, and best judged as a foundation for an automated stack.
@@ -129,11 +129,11 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 207
+- **GitHub:** ★ 209
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** Yes
-- **Repository checked:** 2026-10-26
+- **Repository checked:** 2026-10-29
 - **Page updated:** 2026-09-06
 
 ## Get the next teardown
