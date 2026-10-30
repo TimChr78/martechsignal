@@ -99,6 +99,10 @@
   "dm": "2026-09-12",
   "sig": "c5838775fc018e3f"
  },
+ "faster-output-fewer-handoffs": {
+  "dm": "2026-10-30",
+  "sig": "dd103ef6ab1062a5"
+ },
  "geo-experiments-vs-ai-visibility-playbook": {
   "dm": "2026-09-27",
   "sig": "9e9fd7f1ff8f7fd2"

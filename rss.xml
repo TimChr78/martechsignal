@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2026 10:41:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 06:06:09 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Faster output did not make campaigns ship faster. Fewer handoffs did.</title>
+      <link>https://martechsignal.com/blog/faster-output-fewer-handoffs/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/faster-output-fewer-handoffs/</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Claude drafts the copy in seconds. Canva builds the video without a videographer. The automation platform personalizes the journey on its own. And the campaign still ships three…</description>
+    </item>
     <item>
       <title>The CDP is being rebuilt as an agent's context layer, and no vendor will call it that</title>
       <link>https://martechsignal.com/blog/cdp-agents-context-layer/</link>
