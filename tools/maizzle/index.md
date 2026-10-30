@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Maizzle
-Re-check pending: pricing last verified 2026-09-07 (52 days ago).
+Re-check pending: pricing last verified 2026-09-07 (53 days ago).
 
 Review · Email Marketing
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Free
 - **Licence:** Open source
-- **GitHub stars:** 2,862
+- **GitHub stars:** 2,863
 
 [How we review](/methodology/) · No affiliate links
 
@@ -87,7 +87,7 @@ The strongest answer for developer-maintained email templates in 2026, now on Ta
 | Pros | Cons |
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ Active public repository (2,862 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,863 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -102,10 +102,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Maizzle?**
-Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,862 stars.
+Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,863 stars.
 
 **How much does Maizzle cost?**
-Maizzle is open source - Free to self-host; the public repository carries 2,862 stars. You pay in server time and maintenance, not licences.
+Maizzle is open source - Free to self-host; the public repository carries 2,863 stars. You pay in server time and maintenance, not licences.
 
 **What does running Maizzle actually cost?**
 The strongest answer for developer-maintained email templates in 2026, now on Tailwind 4 and Vite; budget migration time from v5, and keep a separate tool for sending and analytics.
@@ -135,9 +135,9 @@ Both paths are documented on the docs site as migration guides, alongside deploy
 
 - **Pricing:** Free
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 2862
+- **GitHub:** ★ 2863
 - **API:** No
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-09-07
 
 ### Pricing

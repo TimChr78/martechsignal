@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Cordys CRM
-Re-check pending: pricing last verified 2026-09-07 (52 days ago).
+Re-check pending: pricing last verified 2026-09-07 (53 days ago).
 
 Review · CRM
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Freemium
 - **Licence:** GPL-3.0
-- **GitHub stars:** 2,821
+- **GitHub stars:** 2,827
 
 [How we review](/methodology/) · No affiliate links
 
@@ -88,7 +88,7 @@ Watch it for self-hosted CRM needs. The feature ceiling is below Salesforce, but
 | --- | --- |
 | ✓ GPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: maxKB sales agents connected over the API |  |
-| ✓ Active public repository (2,821 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,827 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -105,10 +105,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Cordys CRM?**
-Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,821 stars.
+Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,827 stars.
 
 **How much does Cordys CRM cost?**
-Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,821 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences.
+Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,827 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences.
 
 **Is Cordys CRM worth it past the free tier?**
 Watch it for self-hosted CRM needs. The feature ceiling is below Salesforce, but the cost floor is unbeatable.
@@ -141,17 +141,17 @@ The community edition is free and self-hosted under a GPLv3-based license, with 
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
 ### Quick Facts
 
 - **Pricing:** Freemium
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 2821
+- **GitHub:** ★ 2827
 - **Founded:** 2025
 - **HQ:** China
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Flagsmith
-Re-check pending: pricing last verified 2026-09-25 (34 days ago).
+Re-check pending: pricing last verified 2026-09-25 (35 days ago).
 
 Review · Personalization & CDP
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Freemium from $50/member/mo
 - **Licence:** BSD-3-Clause
-- **GitHub stars:** 6,629
+- **GitHub stars:** 6,633
 
 [How we review](/methodology/) · No affiliate links
 
@@ -95,7 +95,7 @@ A flag platform with the change-control story that regulated teams ask for, pric
 | --- | --- |
 | ✓ BSD-3-Clause licence with free self-hosting | ✗ Paid plans start at $50/member/mo once past the free tier |
 | ✓ AI capabilities: MCP Server for natural-language flag management | ✗ The free cloud tier caps at 50,000 API requests a month, which a busy production app passes quickly. |
-| ✓ Active public repository (6,629 GitHub stars counted at last check) | ✗ Scale pricing is per member, so seat count drives the bill, and the September 2026 price is a launch discount against a USD 60 list. |
+| ✓ Active public repository (6,633 GitHub stars counted at last check) | ✗ Scale pricing is per member, so seat count drives the bill, and the September 2026 price is a launch discount against a USD 60 list. |
 | ✓ Native integrations include Datadog, Grafana, Jira (6 listed) | ✗ Extra API calls start at USD 50 per million, which turns surprise traffic into a real line item. |
 | ✓ Native integrations span observability, delivery, and analytics, so flag changes land in tools teams already watch. |  |
 | ✓ The MCP server puts change requests and approvals in the path when AI tools make flag changes. |  |
@@ -115,7 +115,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Flagsmith?**
-Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,629 stars.
+Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,633 stars.
 
 **How much does Flagsmith cost?**
 Flagsmith has a free tier; paid plans start at $50/member/mo. Cloud free tier up to 50,000 API requests/mo. Scale USD 50/member/month (list 60, launch discount shown Sep 2026). Extra API calls from USD 50 per million. Self-hosted open source is free. We last checked both ends of that split on 2026-09-25. The pricing section above shows what the free tier actually covers.
@@ -148,10 +148,10 @@ Yes. It lets AI tools manage flags, create segments, schedule changes, and autom
 
 - **Pricing:** Freemium from $50/member/mo
 - **Category:** [Personalization & CDP](/categories/personalization/)
-- **GitHub:** ★ 6629
+- **GitHub:** ★ 6633
 - **HQ:** London, United Kingdom (Bullet Train Ltd, 66 Paul St)
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-09-25
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)

@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Marketing Skills (coreyhaines31)
+Re-check pending: pricing last verified 2026-10-08 (22 days ago).
+
 Review · Agent Skills
 
 ## Marketing Skills (coreyhaines31) review (2026): pricing, AI features, verdict
@@ -16,7 +18,7 @@ Not yet scored
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 57,152
+- **GitHub stars:** 57,363
 
 [How we review](/methodology/) · No affiliate links
 
@@ -29,7 +31,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** no
 - **Catalogued integrations:** 5
-- **GitHub stars:** 57,152
+- **GitHub stars:** 57,363
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -66,7 +68,7 @@ Current plans and limits live on the [Marketing Skills (coreyhaines31) pricing s
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: ~50 Agent Skills spec Markdown skills: CRO, copywriting, SEO/GEO, analytics, ads, growth, RevOps |  |
-| ✓ Active public repository (57,152 GitHub stars counted at last check) |  |
+| ✓ Active public repository (57,363 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Claude Code, OpenAI Codex, Cursor (5 listed) |  |
 
 ## Related concepts
@@ -83,13 +85,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Marketing Skills (coreyhaines31)?**
-Marketing Skills (coreyhaines31): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines. Marketing Skills (coreyhaines31) ships with ~50 Agent Skills spec Markdown skills: CRO, copywriting, SEO/GEO, analytics, ads, growth, RevOps. The public repository carries 57,152 stars.
+Marketing Skills (coreyhaines31): ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines. Marketing Skills (coreyhaines31) ships with ~50 Agent Skills spec Markdown skills: CRO, copywriting, SEO/GEO, analytics, ads, growth, RevOps. The public repository carries 57,363 stars.
 
 **How much does Marketing Skills (coreyhaines31) cost?**
-Marketing Skills (coreyhaines31) is open source - MIT licensed and free to self-host; the public repository carries 57,152 stars; native integrations cover Claude Code, OpenAI Codex, Cursor. You pay in server time and maintenance, not licences.
+Marketing Skills (coreyhaines31) is open source - MIT licensed and free to self-host; the public repository carries 57,363 stars; native integrations cover Claude Code, OpenAI Codex, Cursor. You pay in server time and maintenance, not licences.
 
 **Is Marketing Skills (coreyhaines31) a good self-hosted Agent Skills tool in 2026?**
-Strengths include 57,152 GitHub stars, MIT licensing with free self-hosting. Marketing Skills (coreyhaines31) documents 5 integrations
+Strengths include 57,363 GitHub stars, MIT licensing with free self-hosting. Marketing Skills (coreyhaines31) documents 5 integrations
 
 ## Similar tools
 
@@ -101,15 +103,15 @@ Strengths include 57,152 GitHub stars, MIT licensing with free self-hosting. Mar
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 57152
+- **GitHub:** ★ 57363
 - **API:** No
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-10-08
 
 ## Get the next teardown

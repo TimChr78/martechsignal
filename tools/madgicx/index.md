@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Madgicx
-Re-check pending: pricing last verified 2026-09-07 (52 days ago).
+Re-check pending: pricing last verified 2026-09-07 (53 days ago).
 
 Review · Advertising & Paid Media
 

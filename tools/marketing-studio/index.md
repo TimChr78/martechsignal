@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Marketing Studio
-Re-check pending: pricing last verified 2026-08-31 (59 days ago).
+Re-check pending: pricing last verified 2026-08-31 (60 days ago).
 
 Review · Agent Skills
 

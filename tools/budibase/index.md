@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Budibase
-Re-check pending: pricing last verified 2026-09-07 (52 days ago).
+Re-check pending: pricing last verified 2026-09-07 (53 days ago).
 
 Review · Workflow Automation
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open-core from $19/mo
 - **Licence:** Open source
-- **GitHub stars:** 28,367
+- **GitHub stars:** 28,371
 
 [How we review](/methodology/) · No affiliate links
 
@@ -116,7 +116,7 @@ The most interesting agent story in the open-source internal-tools class, wrappe
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $19/mo once past the free tier |
 | ✓ AI capabilities: AI agents with tools, memory and structured outputs (beta since March 2026) |  |
-| ✓ Active public repository (28,367 GitHub stars counted at last check) |  |
+| ✓ Active public repository (28,371 GitHub stars counted at last check) |  |
 | ✓ Native integrations include PostgreSQL, MySQL, MongoDB (12 listed) |  |
 
 ## Related concepts
@@ -134,7 +134,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Budibase?**
-Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,367 stars.
+Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,371 stars.
 
 **How much does Budibase cost?**
 Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -162,14 +162,14 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 
 - [Budibase next to NocoBase and NocoDB: choosing between the three](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
 - **Pricing:** Open-core from $19/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 28367
+- **GitHub:** ★ 28371
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-09-07
 
 Related guides: [Budibase in Zapier alternatives](/alternatives/zapier/)

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Pabbly Connect
-Re-check pending: pricing last verified 2026-09-27 (32 days ago).
+Re-check pending: pricing last verified 2026-09-27 (33 days ago).
 
 Review · Workflow Automation
 
@@ -108,8 +108,8 @@ Strengths include an API for custom integrations. Paid plans start at $16/mo
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ### Quick Facts
 
 - **Pricing:** From $16/mo

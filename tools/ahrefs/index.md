@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Ahrefs
-Re-check pending: pricing last verified 2026-09-25 (34 days ago).
+Re-check pending: pricing last verified 2026-09-25 (35 days ago).
 
 Review · GEO & LLM Optimization
 

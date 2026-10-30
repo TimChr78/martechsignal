@@ -46,8 +46,8 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Chatwoot - 38,523 stars, +2,314 in the 64-snapshot window to 2026-10-29 36,209→38,523 [verify on GitHub](https://github.com/chatwoot/chatwoot)
-- ChatbotX - 1,047 stars, +382 in the 64-snapshot window to 2026-10-29 665→1,047 [verify on GitHub](https://github.com/ChatbotXIO/ChatbotX)
+- Chatwoot - 38,597 stars, +2,388 in the 65-snapshot window to 2026-10-30 36,209→38,597 [verify on GitHub](https://github.com/chatwoot/chatwoot)
+- ChatbotX - 1,058 stars, +393 in the 65-snapshot window to 2026-10-30 665→1,058 [verify on GitHub](https://github.com/ChatbotXIO/ChatbotX)
 [All movers on the trending page](/trending/).
 
 ## [Intercom](/tools/intercom/)

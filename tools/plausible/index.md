@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Plausible Analytics
-Re-check pending: pricing last verified 2026-08-28 (62 days ago).
+Re-check pending: pricing last verified 2026-08-28 (63 days ago).
 
 Review · Analytics & Attribution
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $9/mo
 - **Licence:** AGPL-3.0
-- **GitHub stars:** 29,706
+- **GitHub stars:** 29,720
 
 [How we review](/methodology/) · No affiliate links
 
@@ -88,7 +88,7 @@ The analytics tool we recommend by default for content and marketing sites; powe
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo |
 | ✓ AI capabilities: AI-powered insights |  |
-| ✓ Active public repository (29,706 GitHub stars counted at last check) |  |
+| ✓ Active public repository (29,720 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WordPress, Ghost, Webflow (6 listed) |  |
 
 ## Related concepts
@@ -105,7 +105,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Plausible Analytics?**
-Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,706 stars.
+Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,720 stars.
 
 **How much does Plausible Analytics cost?**
 Plausible Analytics has a free tier; paid plans start at $9/mo. Self-hosted free (AGPL); Cloud from $9/mo (10K pageviews); scales with traffic. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -122,8 +122,8 @@ The analytics tool we recommend by default for content and marketing sites; powe
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
 - [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/) — you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.
@@ -131,11 +131,11 @@ The analytics tool we recommend by default for content and marketing sites; powe
 
 - **Pricing:** Open Source from $9/mo
 - **Category:** [Analytics & Attribution](/categories/analytics/)
-- **GitHub:** ★ 29706
+- **GitHub:** ★ 29720
 - **Founded:** 2019
 - **HQ:** Tallinn, Estonia
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-08-28
 
 Related guides: [Plausible Analytics in Matomo alternatives](/alternatives/matomo/) · [Plausible Analytics vs Matomo](/vs/matomo-vs-plausible/)

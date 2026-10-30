@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Line Harness
-Re-check pending: pricing last verified 2026-09-07 (52 days ago).
+Re-check pending: pricing last verified 2026-09-07 (53 days ago).
 
 Review · Marketing Automation
 
@@ -137,8 +137,8 @@ The docs describe BAN detection with automatic friend migration to the next acco
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 - [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ### Quick Facts
 
 - **Pricing:** Open Source

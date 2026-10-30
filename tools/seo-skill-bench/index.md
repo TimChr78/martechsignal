@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - SEO Skill Bench
-Re-check pending: pricing last verified 2026-09-03 (56 days ago).
+Re-check pending: pricing last verified 2026-09-03 (57 days ago).
 
 Review · Agent Skills
 
@@ -105,8 +105,8 @@ Strengths include 48 GitHub stars, MIT licensing with free self-hosting. SEO Ski
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
 ### Quick Facts
 
 - **Pricing:** Open Source

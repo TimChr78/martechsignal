@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Activepieces
-Re-check pending: pricing last verified 2026-09-27 (32 days ago).
+Re-check pending: pricing last verified 2026-09-27 (33 days ago).
 
 Review · Workflow Automation
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Freemium from $20/mo
 - **Licence:** Open source
-- **GitHub stars:** 25,266
+- **GitHub stars:** 25,288
 
 [How we review](/methodology/) · No affiliate links
 
@@ -79,7 +79,7 @@ Researched from the vendor's public pricing and product pages on 2026-09-27. Not
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $20/mo once past the free tier |
 | ✓ AI capabilities: chat-to-automation builder |  |
-| ✓ Active public repository (25,266 GitHub stars counted at last check) |  |
+| ✓ Active public repository (25,288 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Slack, Gmail, Google Sheets (6 listed) |  |
 
 ## Related concepts
@@ -97,13 +97,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Activepieces?**
-Activepieces: Open-source workflow automation with a free cloud tier and on-prem hosting. Activepieces ships with chat-to-automation builder. The public repository carries 25,266 stars.
+Activepieces: Open-source workflow automation with a free cloud tier and on-prem hosting. Activepieces ships with chat-to-automation builder. The public repository carries 25,288 stars.
 
 **How much does Activepieces cost?**
 Activepieces has a free tier; paid plans start at $20/mo. Free (100 credits a day, unlimited flows, no card); Plus $20/mo flat (10,000 credits/mo, up to 5 users, bring your own AI keys); Team $200/mo flat (50,000 credits, 25 users, SSO); Ultimate custom. Overage $0.007 per credit on Plus and Team. Embed from $36,000/year. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 **Is Activepieces worth it past the free tier?**
-Strengths include 25,266 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. Paid plans start at $20/mo
+Strengths include 25,288 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. Paid plans start at $20/mo
 
 ## Similar tools
 
@@ -115,15 +115,15 @@ Strengths include 25,266 GitHub stars, open-source licensing with free self-host
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $20/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 25266
+- **GitHub:** ★ 25288
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-09-27
 
 Related guides: [Activepieces in Zapier alternatives](/alternatives/zapier/)

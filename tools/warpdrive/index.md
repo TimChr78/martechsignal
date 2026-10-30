@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Warpdrive
-Re-check pending: pricing last verified 2026-09-07 (52 days ago).
+Re-check pending: pricing last verified 2026-09-07 (53 days ago).
 
 Review · CRM
 
@@ -151,7 +151,7 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 74
 - **API:** No
-- **Repository checked:** 2026-10-27
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

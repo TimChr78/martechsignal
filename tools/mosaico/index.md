@@ -96,7 +96,8 @@ Strengths include 1,782 GitHub stars, open-source licensing with free self-hosti
 - **Category:** [Email Marketing](/categories/email-marketing/)
 - **GitHub:** ★ 1782
 - **API:** No
-- **Last verified:** 2026-10-29
+- **Repository checked:** 2026-10-30
+- **Page updated:** 2026-10-29
 
 ## Get the next teardown
 

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Listmonk
-Re-check pending: pricing last verified 2026-08-28 (62 days ago).
+Re-check pending: pricing last verified 2026-08-28 (63 days ago).
 
 Review · Email Marketing
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** AGPL-3.0
-- **GitHub stars:** 24,024
+- **GitHub stars:** 24,051
 
 [How we review](/methodology/) · No affiliate links
 
@@ -85,7 +85,7 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: AI-assisted template editing |  |
-| ✓ Active public repository (24,024 GitHub stars counted at last check) |  |
+| ✓ Active public repository (24,051 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -100,10 +100,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Listmonk?**
-Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 24,024 stars.
+Listmonk: Open-source self-hosted newsletter and mailing list manager with a fast Go backend. Listmonk ships with AI-assisted template editing. The public repository carries 24,051 stars.
 
 **How much does Listmonk cost?**
-Listmonk is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 24,024 stars; native integrations cover PostgreSQL, SMTP, Zapier. You pay in server time and maintenance, not licences.
+Listmonk is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 24,051 stars; native integrations cover PostgreSQL, SMTP, Zapier. You pay in server time and maintenance, not licences.
 
 **Is Listmonk a good self-hosted Email Marketing tool in 2026?**
 The strongest self-hosted mailing platform in this catalog; bring your own forms and workflows.
@@ -118,8 +118,8 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Also featured in
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Newsletter and lifecycle email at one list price, with no per-contact billing
@@ -127,11 +127,11 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 24024
+- **GitHub:** ★ 24051
 - **Founded:** 2019
 - **HQ:** Bangalore, India
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-08-28
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)

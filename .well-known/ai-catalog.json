@@ -2677,6 +2677,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:faster-output-fewer-handoffs",
+   "displayName": "Faster output didn't ship campaigns faster. Fewer handoffs did",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/faster-output-fewer-handoffs/",
+   "description": "Production is the cheap part now.",
+   "representativeQueries": [
+    "faster output didn't ship campaigns faster. fewer handoffs did",
+    "faster output fewer handoffs"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:geo-experiments-vs-ai-visibility-playbook",
    "displayName": "AI visibility advice, audited against 775 logged citations",
    "type": "text/html",

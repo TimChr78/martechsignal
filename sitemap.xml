@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://martechsignal.com/</loc><lastmod>2026-10-29</lastmod></url>
-  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://martechsignal.com/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://martechsignal.com/checklist/</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://martechsignal.com/blog/agents-identity-debt/</loc><lastmod>2026-09-25</lastmod></url>
   <url><loc>https://martechsignal.com/blog/ai-agents-need-campaign-state/</loc><lastmod>2026-09-27</lastmod></url>
@@ -20,6 +20,7 @@
   <url><loc>https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/</loc><lastmod>2026-08-20</lastmod></url>
   <url><loc>https://martechsignal.com/blog/deliverability-ai-spam-content-problem/</loc><lastmod>2026-09-09</lastmod></url>
   <url><loc>https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/</loc><lastmod>2026-09-28</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/faster-output-fewer-handoffs/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/</loc><lastmod>2026-08-27</lastmod></url>
@@ -252,11 +253,11 @@
   <url><loc>https://martechsignal.com/guides/ai-seo-tooling/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/guides/agentic-ai-advertising/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/categories/marketing-automation/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/email-marketing/</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/email-marketing/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://martechsignal.com/categories/crm/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/categories/content-ai/</loc><lastmod>2026-10-17</lastmod></url>
   <url><loc>https://martechsignal.com/categories/analytics/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/social-media/</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/social-media/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://martechsignal.com/categories/advertising/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/categories/personalization/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/categories/chatbots/</loc><lastmod>2026-10-06</lastmod></url>
@@ -264,7 +265,7 @@
   <url><loc>https://martechsignal.com/categories/geo-llm-visibility/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/categories/workflow-automation/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/categories/agent-skills/</loc><lastmod>2026-10-27</lastmod></url>
-  <url><loc>https://martechsignal.com/categories/open-source/</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://martechsignal.com/categories/open-source/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/abm/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/agentic-marketing/</loc><lastmod>2026-10-05</lastmod></url>
@@ -335,5 +336,5 @@
   <url><loc>https://martechsignal.com/vs/n8n-vs-zapier/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/vs/nocodb-vs-nocobase/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/blog/</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/</loc><lastmod>2026-10-30</lastmod></url>
 </urlset>

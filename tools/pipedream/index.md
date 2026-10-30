@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Pipedream
-Re-check pending: pricing last verified 2026-10-06 (23 days ago).
+Re-check pending: pricing last verified 2026-10-06 (24 days ago).
 
 Update queued: Paid-plan ladder changed on the vendor page in October 2026 (now Connect-based); the free tier is verified, the paid tiers are queued for re-record.
 
@@ -108,8 +108,8 @@ The automation platform for developers who want code control with SaaS convenien
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for developer teams wanting code steps and MCP endpoints.

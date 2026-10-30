@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Mautic
-Re-check pending: pricing last verified 2026-09-07 (52 days ago).
+Re-check pending: pricing last verified 2026-09-07 (53 days ago).
 
 Review · Marketing Automation
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from €247.50/mo
 - **Licence:** GPL-3.0
-- **GitHub stars:** 10,860
+- **GitHub stars:** 10,875
 
 [How we review](/methodology/) · No affiliate links
 
@@ -109,7 +109,7 @@ The most complete open-source answer to HubSpot if you have the ops capacity to 
 | Pros | Cons |
 | --- | --- |
 | ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €247.50/mo |
-| ✓ Active public repository (10,860 GitHub stars counted at last check) |  |
+| ✓ Active public repository (10,875 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Salesforce, HubSpot, Pipedrive (10 listed) |  |
 
 ## Related concepts
@@ -127,7 +127,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Mautic?**
-Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,860 stars. Mautic offers a public API for custom integrations.
+Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,875 stars. Mautic offers a public API for custom integrations.
 
 **How much does Mautic cost?**
 Mautic has a free tier; paid plans start at €247.50/mo. Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from €247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -154,8 +154,8 @@ The features page describes IP anonymization for visitor records, site tracking 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Also featured in
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Marketing teams that want HubSpot-class automation they can host themselves
@@ -163,11 +163,11 @@ The features page describes IP anonymization for visitor records, site tracking 
 
 - **Pricing:** Open Source from €247.50/mo
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 10860
+- **GitHub:** ★ 10875
 - **Founded:** 2014
 - **HQ:** Community project; fiscal host Open Source Collective
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-09-07
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)

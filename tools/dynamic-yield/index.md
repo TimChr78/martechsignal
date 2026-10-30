@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Dynamic Yield
-Re-check pending: pricing last verified 2026-09-06 (53 days ago).
+Re-check pending: pricing last verified 2026-09-06 (54 days ago).
 
 Review · Personalization & CDP
 

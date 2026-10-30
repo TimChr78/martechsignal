@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - GrowthBook
-Re-check pending: pricing last verified 2026-09-25 (34 days ago).
+Re-check pending: pricing last verified 2026-09-25 (35 days ago).
 
 Review · Personalization & CDP
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Freemium from $40/seat/mo
 - **Licence:** MIT
-- **GitHub stars:** 8,545
+- **GitHub stars:** 8,548
 
 [How we review](/methodology/) · No affiliate links
 
@@ -95,7 +95,7 @@ The warehouse-native choice for teams that want experimentation math they can au
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $40/seat/mo once past the free tier |
 | ✓ AI capabilities: growthBook AI assistant (usage-metered per plan) | ✗ Starter caps the account at 3 users and 1 project, so growth past a small team means Pro at USD 40 per seat. |
-| ✓ Active public repository (8,545 GitHub stars counted at last check) | ✗ The AI Visual Editor, bandits, and split URL tests sit on paid plans only. |
+| ✓ Active public repository (8,548 GitHub stars counted at last check) | ✗ The AI Visual Editor, bandits, and split URL tests sit on paid plans only. |
 | ✓ Native integrations include Snowflake, BigQuery, Databricks (6 listed) | ✗ Three enterprise directories carry a separate GrowthBook Enterprise License on top of the MIT core. |
 | ✓ Unlimited flags, experiments, and traffic on every plan, including the free one. |  |
 | ✓ The MCP server is hosted and OAuth-based, so AI tooling works without provisioning API keys. |  |
@@ -115,7 +115,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is GrowthBook?**
-GrowthBook: Open-source feature flags and A/B testing with a visual editor and attribute-based targeting. GrowthBook ships with growthBook AI assistant (usage-metered per plan). The public repository carries 8,545 stars.
+GrowthBook: Open-source feature flags and A/B testing with a visual editor and attribute-based targeting. GrowthBook ships with growthBook AI assistant (usage-metered per plan). The public repository carries 8,548 stars.
 
 **How much does GrowthBook cost?**
 GrowthBook has a free tier; paid plans start at $40/seat/mo. Starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million. We last checked both ends of that split on 2026-09-25. The pricing section above shows what the free tier actually covers.
@@ -147,10 +147,10 @@ Yes. The managed warehouse option covers teams without one on cloud plans, and t
 
 - **Pricing:** Freemium from $40/seat/mo
 - **Category:** [Personalization & CDP](/categories/personalization/)
-- **GitHub:** ★ 8545
+- **GitHub:** ★ 8548
 - **Founded:** 2020
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-09-25
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Twilio SendGrid
-Re-check pending: pricing last verified 2026-08-28 (62 days ago). Reclassified paid on 2026-10-06 from September vendor evidence; re-check queued.
+Re-check pending: pricing last verified 2026-08-28 (63 days ago). Reclassified paid on 2026-10-06 from September vendor evidence; re-check queued.
 
 Review · Email Marketing
 
@@ -123,8 +123,8 @@ Reliable, well-documented transactional email plumbing; marketers should look el
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 - [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Product teams that need transactional delivery with marketing on the side

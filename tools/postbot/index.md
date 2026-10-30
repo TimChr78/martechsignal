@@ -16,7 +16,7 @@ Not yet scored
 
 - **Price:** Open Source
 - **Licence:** Open source
-- **GitHub stars:** 1,598
+- **GitHub stars:** 1,602
 
 [How we review](/methodology/) · No affiliate links
 
@@ -28,7 +28,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 
 - **Public API:** yes
 - **Catalogued integrations:** 10
-- **GitHub stars:** 1,598
+- **GitHub stars:** 1,602
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -67,7 +67,7 @@ Community edition free and open source, including all core sync and publishing f
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: smart web reader that extracts content from pages for republishing |  |
-| ✓ Active public repository (1,598 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,602 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WeChat, Weibo, Douyin (10 listed) |  |
 
 ## Related concepts
@@ -82,13 +82,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is PostBot?**
-PostBot: Open-source browser extension that publishes one piece of content to many social platforms. PostBot ships with smart web reader that extracts content from pages for republishing. The public repository carries 1,598 stars.
+PostBot: Open-source browser extension that publishes one piece of content to many social platforms. PostBot ships with smart web reader that extracts content from pages for republishing. The public repository carries 1,602 stars.
 
 **How much does PostBot cost?**
-PostBot is open source - Free to self-host; the public repository carries 1,598 stars; native integrations cover WeChat, Weibo, Douyin. You pay in server time and maintenance, not licences.
+PostBot is open source - Free to self-host; the public repository carries 1,602 stars; native integrations cover WeChat, Weibo, Douyin. You pay in server time and maintenance, not licences.
 
 **Is PostBot a good self-hosted Social Media tool in 2026?**
-Strengths include 1,598 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. PostBot documents 10 integrations
+Strengths include 1,602 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. PostBot documents 10 integrations
 
 ## Similar tools
 
@@ -100,15 +100,16 @@ Strengths include 1,598 GitHub stars, open-source licensing with free self-hosti
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Social Media](/categories/social-media/)
-- **GitHub:** ★ 1598
+- **GitHub:** ★ 1602
 - **API:** Yes
-- **Last verified:** 2026-10-29
+- **Repository checked:** 2026-10-30
+- **Page updated:** 2026-10-29
 
 ## Get the next teardown
 

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Ghost
-Re-check pending: pricing last verified 2026-08-28 (62 days ago).
+Re-check pending: pricing last verified 2026-08-28 (63 days ago).
 
 Review · AI Content & Copywriting
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $9/mo
 - **Licence:** MIT
-- **GitHub stars:** 55,631
+- **GitHub stars:** 55,633
 
 [How we review](/methodology/) · No affiliate links
 
@@ -89,7 +89,7 @@ Choose Ghost for editorial sites with paid membership intent. Skip it if you nee
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $9/mo |
 | ✓ AI capabilities: AI writing assistant |  |
-| ✓ Active public repository (55,631 GitHub stars counted at last check) |  |
+| ✓ Active public repository (55,633 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Zapier, Slack, WordPress import (7 listed) |  |
 
 ## Related concepts
@@ -105,7 +105,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Ghost?**
-Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Ghost ships with AI writing assistant. The public repository carries 55,631 stars.
+Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Ghost ships with AI writing assistant. The public repository carries 55,633 stars.
 
 **How much does Ghost cost?**
 Ghost has a free tier; paid plans start at $9/mo. Self-hosted free (MIT); Cloud Starter $9/mo; Creator $29/mo; Team $79/mo; Business $199/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -122,17 +122,17 @@ Choose Ghost for editorial sites with paid membership intent. Skip it if you nee
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $9/mo
 - **Category:** [AI Content & Copywriting](/categories/content-ai/)
-- **GitHub:** ★ 55631
+- **GitHub:** ★ 55633
 - **Founded:** 2013
 - **HQ:** Singapore
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-08-28
 
 ## Get the next teardown

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Matomo
-Re-check pending: pricing last verified 2026-09-06 (53 days ago).
+Re-check pending: pricing last verified 2026-09-06 (54 days ago).
 
 Review · Analytics & Attribution
 
@@ -175,7 +175,7 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 - **Founded:** 2007
 - **HQ:** Wellington, New Zealand
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-09-06
 
 Related guides: [Alternatives to Matomo](/alternatives/matomo/) · [Matomo vs Plausible](/vs/matomo-vs-plausible/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

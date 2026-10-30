@@ -102,4 +102,4 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SendPortal](/tools/sendportal/)
+More from the directory: [PostBot](/tools/postbot/)

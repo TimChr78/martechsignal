@@ -221,6 +221,7 @@
 
 ## Analysis
 
+- [Faster output didn't ship campaigns faster. Fewer handoffs did](https://martechsignal.com/blog/faster-output-fewer-handoffs/) (2026-10-30)
 - [The CDP is being rebuilt as an agent's context layer](https://martechsignal.com/blog/cdp-agents-context-layer/) (2026-10-29)
 - [31% of martech tools now ship an MCP server](https://martechsignal.com/blog/mcp-distribution-channel/) (2026-10-28)
 - [ChatGPT's ad auction has a response deadline](https://martechsignal.com/blog/chatgpt-ad-auction-response-deadline/) (2026-10-27)

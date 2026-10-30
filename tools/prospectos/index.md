@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - ProspectOS
-Re-check pending: pricing last verified 2026-08-31 (59 days ago).
+Re-check pending: pricing last verified 2026-08-31 (60 days ago).
 
 Review · CRM
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 237
+- **GitHub stars:** 239
 
 [How we review](/methodology/) · No affiliate links
 
@@ -81,7 +81,7 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (237 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (239 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: lead discovery | ✗ Short native integration list - plan for API work |
 | ✓ Native integrations include Google Maps, Instagram (2 listed) |  |
 
@@ -100,10 +100,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is ProspectOS?**
-ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 237 stars.
+ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 239 stars.
 
 **How much does ProspectOS cost?**
-ProspectOS is open source - MIT licensed and free to self-host; the public repository carries 237 stars. You pay in server time and maintenance, not licences.
+ProspectOS is open source - MIT licensed and free to self-host; the public repository carries 239 stars. You pay in server time and maintenance, not licences.
 
 **Is ProspectOS a good self-hosted CRM tool in 2026?**
 A working, well-tested local prospecting tool with unusually honest documentation about its scraping risks. Suitable for individual freelancers who accept the terms-of-service exposure; not a team tool, and not compliant-by-design with Google or Instagram ToS.
@@ -123,11 +123,11 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 237
+- **GitHub:** ★ 239
 - **Founded:** 2026
 - **HQ:** Open source
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-08-31
 
 ## Get the next teardown

@@ -93,7 +93,7 @@ This post is part of the hub for this topic: [workflow automation strategy](/gui
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 
 - [Eve Marketing Team Template](/tools/eve-marketing-team/) - Open-source team of marketing agents on eve: lead, content, social, SEO, email
@@ -102,7 +102,7 @@ This post is part of the hub for this topic: [workflow automation strategy](/gui
 ## Comparison guides
 
 - [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 ## Glossary terms
 
 - [Lead scoring](/glossary/lead-scoring/)

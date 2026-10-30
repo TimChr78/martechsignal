@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - NocoBase
-Re-check pending: pricing last verified 2026-09-05 (54 days ago).
+Re-check pending: pricing last verified 2026-09-05 (55 days ago).
 
 Review · Workflow Automation
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open-core
 - **Licence:** Open source
-- **GitHub stars:** 24,764
+- **GitHub stars:** 24,779
 
 [How we review](/methodology/) · No affiliate links
 
@@ -97,7 +97,7 @@ The most credible self-hosted option for marketing teams that need owned, modele
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Short native integration list - plan for API work |
 | ✓ AI capabilities: AI-assisted app building |  |
-| ✓ Active public repository (24,764 GitHub stars counted at last check) |  |
+| ✓ Active public repository (24,779 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -114,10 +114,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is NocoBase?**
-NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,764 stars.
+NocoBase: Open-source no-code platform with AI assistance for building business systems fast. NocoBase ships with AI-assisted app building. The public repository carries 24,779 stars.
 
 **How much does NocoBase cost?**
-NocoBase is open source - Free to self-host; the public repository carries 24,764 stars; a paid hosted tier exists if you would rather not run the servers. You pay in server time and maintenance, not licences.
+NocoBase is open source - Free to self-host; the public repository carries 24,779 stars; a paid hosted tier exists if you would rather not run the servers. You pay in server time and maintenance, not licences.
 
 **Is NocoBase a good self-hosted Workflow Automation tool in 2026?**
 The most credible self-hosted option for marketing teams that need owned, modeled campaign systems and have the technical help to build them.
@@ -142,7 +142,7 @@ Yes, NocoBase runs a live demo on its website, and because the core is open sour
 
 - [How NocoBase compares with NocoDB and Budibase for self-hosted marketing ops](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Also featured in
 
 - [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/) — Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.
@@ -150,9 +150,9 @@ Yes, NocoBase runs a live demo on its website, and because the core is open sour
 
 - **Pricing:** Open-core
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 24764
+- **GitHub:** ★ 24779
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-09-05
 
 Related guides: [NocoBase vs Nocodb](/vs/nocodb-vs-nocobase/)

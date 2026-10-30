@@ -10,15 +10,15 @@ Every week we audit the AI marketing automation landscape: the agents, the workf
 
 ## Latest
 
-### The CDP is being rebuilt as an agent's context layer, and no vendor will call it that
+### Faster output did not make campaigns ship faster. Fewer handoffs did.
 
-Jackson Engles keeps saying the quiet part out loud. Minerva, the startup he co-founded, raised $20 million in June on the strength of an identity graph covering 270 million…
+Claude drafts the copy in seconds. Canva builds the video without a videographer. The automation platform personalizes the journey on its own. And the campaign still ships three…
+
+### The CDP is being rebuilt as an agent's context layer, and no vendor will call it that
 
 ### 31% of the tools in our directory now ship an MCP server
 
 ### ChatGPT runs an ad auction now, and the response deadline is the new quality score
-
-### Your agents keep failing the same way. Memory of what worked is the fix nobody ships
 
 ## Tool index
 

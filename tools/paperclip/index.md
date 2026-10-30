@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Paperclip
-Re-check pending: pricing last verified 2026-09-07 (52 days ago).
+Re-check pending: pricing last verified 2026-09-07 (53 days ago).
 
 Review · Workflow Automation
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Freemium from €10/mo
 - **Licence:** MIT
-- **GitHub stars:** 108,349
+- **GitHub stars:** 108,726
 
 [How we review](/methodology/) · No affiliate links
 
@@ -119,7 +119,7 @@ The most credible attempt yet at governing agent fleets like headcount rather th
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at €10/mo once past the free tier |
 | ✓ AI capabilities: org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more) |  |
-| ✓ Active public repository (108,349 GitHub stars counted at last check) |  |
+| ✓ Active public repository (108,726 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Claude Code, Codex, Cursor (local and cloud) (12 listed) |  |
 
 ## Related concepts
@@ -137,7 +137,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Paperclip?**
-Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 108,349 stars.
+Paperclip: Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Paperclip ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more). The public repository carries 108,726 stars.
 
 **How much does Paperclip cost?**
 Paperclip has a free tier; paid plans start at €10/mo. Self-hosted free (MIT). Hosted cloud: one plan at € 10/month or € 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -170,10 +170,10 @@ Create an agent whose adapter is claude_local. Claude Code must be installed and
 
 - **Pricing:** Freemium from €10/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 108349
+- **GitHub:** ★ 108726
 - **HQ:** EU
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

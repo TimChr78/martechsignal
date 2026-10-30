@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - n8n
-Re-check pending: pricing last verified 2026-09-27 (32 days ago).
+Re-check pending: pricing last verified 2026-09-27 (33 days ago).
 
 Review · Workflow Automation
 
@@ -22,7 +22,7 @@ MartechSignal score
 
 - **Price:** Open Source from €20/mo
 - **Licence:** Open source
-- **GitHub stars:** 208,939
+- **GitHub stars:** 209,067
 
 [How we review](/methodology/) · No affiliate links
 
@@ -97,7 +97,7 @@ The right choice when you want owned automation with code-level control and no p
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at €20/mo |
 | ✓ AI capabilities: AI agent nodes |  |
-| ✓ Active public repository (208,939 GitHub stars counted at last check) |  |
+| ✓ Active public repository (209,067 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Slack, Google Sheets, Gmail (8 listed) |  |
 
 ## Related concepts
@@ -115,7 +115,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is n8n?**
-n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 208,939 stars.
+n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 209,067 stars.
 
 **How much does n8n cost?**
 n8n has a free tier; paid plans start at €20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -132,8 +132,8 @@ The right choice when you want owned automation with code-level control and no p
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for self-hosted workflows with code steps and AI agents.
@@ -144,11 +144,11 @@ The right choice when you want owned automation with code-level control and no p
 
 - **Pricing:** Open Source from €20/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 208939
+- **GitHub:** ★ 209067
 - **Founded:** 2019
 - **HQ:** Berlin, Germany
 - **API:** Yes
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-10-30
 - **Page updated:** 2026-09-27
 
 Related guides: [n8n in Zapier alternatives](/alternatives/zapier/) · [n8n vs Zapier](/vs/n8n-vs-zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

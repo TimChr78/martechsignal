@@ -22,7 +22,7 @@
    "Cursor"
   ],
   "github_repo": "aaron-he-zhu/aaron-marketing-skills",
-  "github_stars": 3030,
+  "github_stars": 3035,
   "open_source": true,
   "api_available": true,
   "founded": 2025,
@@ -40,7 +40,7 @@
   },
   "license": "Apache-2.0",
   "github_forks": 388,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -336,7 +336,7 @@
   ],
   "integrations": [],
   "github_repo": "ALwrity/ALwrity",
-  "github_stars": 1207,
+  "github_stars": 1208,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -352,7 +352,7 @@
    "verdict": "A capable self-hosted content engine for technical marketers. Everyone else gets better results from maintained hosted tools."
   },
   "github_forks": 339,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -561,7 +561,7 @@
    "REST / GraphQL"
   ],
   "github_repo": "appsmithorg/appsmith",
-  "github_stars": 41134,
+  "github_stars": 41139,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -606,8 +606,8 @@
   "license": "Apache-2.0",
   "paid_from": 15,
   "currency": "USD",
-  "github_forks": 4827,
-  "github_checked": "2026-10-29",
+  "github_forks": 4826,
+  "github_checked": "2026-10-30",
   "price_unit": "user"
  },
  {
@@ -765,7 +765,7 @@
    "Send API (single and batch)"
   ],
   "github_repo": "Billionmail/BillionMail",
-  "github_stars": 15968,
+  "github_stars": 15973,
   "last_release": "v4.9 (2025-12-11)",
   "open_source": true,
   "api_available": true,
@@ -812,8 +812,8 @@
   "license": "AGPL-3.0",
   "paid_from": 98.9,
   "currency": "USD",
-  "github_forks": 1759,
-  "github_checked": "2026-10-29"
+  "github_forks": 1761,
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "bloomreach",
@@ -979,7 +979,7 @@
    "REST API"
   ],
   "github_repo": "budibase/budibase",
-  "github_stars": 28367,
+  "github_stars": 28371,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -1023,8 +1023,8 @@
   },
   "paid_from": 19,
   "currency": "USD",
-  "github_forks": 2241,
-  "github_checked": "2026-10-29"
+  "github_forks": 2240,
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "buffer",
@@ -1087,7 +1087,7 @@
   ],
   "integrations": [],
   "github_repo": "ChatbotXIO/ChatbotX",
-  "github_stars": 1047,
+  "github_stars": 1058,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -1102,8 +1102,8 @@
    ],
    "verdict": "Right for technical teams that want ManyChat-style automation without lock-in. Everyone else should stay hosted."
   },
-  "github_forks": 289,
-  "github_checked": "2026-10-29",
+  "github_forks": 291,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -1177,7 +1177,7 @@
    "LeadSquared"
   ],
   "github_repo": "chatwoot/chatwoot",
-  "github_stars": 38523,
+  "github_stars": 38597,
   "open_source": true,
   "api_available": true,
   "founded": 2019,
@@ -1222,8 +1222,8 @@
    ]
   },
   "paid_from": 19,
-  "github_forks": 9377,
-  "github_checked": "2026-10-29",
+  "github_forks": 9394,
+  "github_checked": "2026-10-30",
   "currency": "USD",
   "price_unit": "agent"
  },
@@ -1258,7 +1258,7 @@
    "Pinterest Ads"
   ],
   "github_repo": "AgriciDaniel/claude-ads",
-  "github_stars": 10547,
+  "github_stars": 10585,
   "open_source": true,
   "api_available": true,
   "founded": 2025,
@@ -1275,8 +1275,8 @@
    "verdict": "Niche but interesting for technical teams that want model-drafted ad copy inside their Git workflow."
   },
   "license": "MIT",
-  "github_forks": 1535,
-  "github_checked": "2026-10-29",
+  "github_forks": 1540,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -1303,7 +1303,7 @@
    "Lighthouse"
   ],
   "github_repo": "AgriciDaniel/claude-seo",
-  "github_stars": 23478,
+  "github_stars": 24076,
   "open_source": true,
   "api_available": true,
   "founded": "2026",
@@ -1453,8 +1453,8 @@
    "hands_on_verified": true
   },
   "license": "MIT",
-  "github_forks": 3163,
-  "github_checked": "2026-10-29",
+  "github_forks": 3226,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -1569,7 +1569,7 @@
    "Gemini"
   ],
   "github_repo": "AgriciDaniel/codex-seo",
-  "github_stars": 886,
+  "github_stars": 891,
   "open_source": false,
   "api_available": true,
   "founded": 2025,
@@ -1587,7 +1587,7 @@
   },
   "license": "proprietary",
   "github_forks": 122,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -1705,7 +1705,7 @@
    "Docker"
   ],
   "github_repo": "1Panel-dev/CordysCRM",
-  "github_stars": 2821,
+  "github_stars": 2827,
   "open_source": true,
   "api_available": true,
   "founded": 2025,
@@ -1749,8 +1749,8 @@
    ]
   },
   "license": "GPL-3.0",
-  "github_forks": 582,
-  "github_checked": "2026-10-29",
+  "github_forks": 584,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -1858,7 +1858,7 @@
    "MCP"
   ],
   "github_repo": "melgarafael/DeskcommCRM",
-  "github_stars": 4914,
+  "github_stars": 4946,
   "open_source": true,
   "api_available": true,
   "hq": "Brazil",
@@ -1867,8 +1867,8 @@
   "date_updated": "2026-09-14",
   "description": "DeskcommCRM is a Brazilian open-source project that packages a WhatsApp sales CRM with AI agents that answer customers, qualify leads, and move deals through a funnel. It is MIT licensed, self-hosted, and pitched as the open alternative to Kommo, Octadesk, and Intercom for businesses that sell by chat. It started as an ecommerce CRM and the community dragged it into clinics, real estate, infoproducts, and agencies; funnel vocabulary is configurable per pipeline, so a lead can become a \"patient\" or a \"buyer\" without forking the code.\n\nThe AI work is more built-out than most repos at this star count. Agents retrieve from a per-tenant knowledge base (RAG on Postgres pgvector), so answers come from your catalog and policies instead of model imagination. Every outbound message passes seven checks before sending: unsubscribe status, LGPD rules, anti-ban throttling, text variation, deterministic and semantic promise detection, and an automation disclosure. When the agent is about to promise a 24-hour delivery you do not offer, the check blocks it and logs what it would have said. Handoff to a human comes with a summary of the conversation rather than the raw transcript. Resolved conversations feed back into the knowledge base, and the system proposes prompt improvements to itself that a human has to approve. The whole CRM is exposed over MCP, so external agents can operate it too. You pick the AI provider at install (OpenRouter, Anthropic, OpenAI, or Google) and can swap it per subsystem later, with a spending cap per organization.\n\nPricing is the easy part: there is none. The full product is free under MIT, with no paid tier and no locked features, and agencies may host it for clients and charge for that. What you pay for is infrastructure: a VPS (4 GB RAM recommended; the stack boots on 2 GB but runs tight at 7 containers, and each WhatsApp session costs around 150 MB), a Supabase project for Postgres, auth, and storage, plus your own AI API keys. Installation is one script that generates secrets, applies the schema, and sets up the cron jobs the automations depend on, and updates back up the database first and roll back automatically if the new version comes up broken. The update path is tested in CI, which is more than most commercial vendors can say.\n\nThe closest comparison in this directory is WaCRM, another self-hosted Supabase-based WhatsApp CRM at a similar star count. WaCRM builds only on the official Meta Cloud API and calls itself a template; DeskcommCRM supports both the official API and QR-code connection through WAHA (faster to start, multi-number, with anti-ban throttling), and adds automation rules, RBAC, multi-tenancy with RLS isolation tests, and LGPD tooling. Against hosted players like ManyChat or Chatfuel the trade is the familiar one: you own the data and skip per-contact pricing, but you run the server. It is sales-first, unlike Chatwoot, which is support-first.\n\nTwo cautions. Documentation and community are Brazilian-Portuguese first (English and Spanish READMEs exist, but the depth is in Portuguese), and the project leans heavily on one maintainer. The QR-code WhatsApp connection is also unofficial, which is great for getting started and a ban risk the official Meta channel does not carry. If you want a polished SaaS or your team cannot operate Docker, stay with Kommo or ManyChat. If you sell through WhatsApp and want the whole operation on your own server, this is the most complete open option right now.",
   "license": "MIT",
-  "github_forks": 1382,
-  "github_checked": "2026-10-29",
+  "github_forks": 1395,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -1932,7 +1932,7 @@
    "Sentry (optional)"
   ],
   "github_repo": "Django-CRM/Django-CRM",
-  "github_stars": 2459,
+  "github_stars": 2460,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -1975,7 +1975,7 @@
   "seo_description": "Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. Free to self-host; no licence fee.",
   "license": "MIT",
   "github_forks": 1065,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -2005,7 +2005,7 @@
    "Dolistore (1,000+ addons)"
   ],
   "github_repo": "Dolibarr/dolibarr",
-  "github_stars": 7799,
+  "github_stars": 7806,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -2047,8 +2047,8 @@
    ]
   },
   "license": "GPL-3.0",
-  "github_forks": 3594,
-  "github_checked": "2026-10-29",
+  "github_forks": 3599,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -2210,7 +2210,7 @@
    "MCP"
   ],
   "github_repo": "CosmoBlk/email-marketing-bible",
-  "github_stars": 356,
+  "github_stars": 358,
   "open_source": true,
   "api_available": true,
   "founded": 2026,
@@ -2229,7 +2229,7 @@
   "license": "MIT",
   "kind": "Agent Skill",
   "github_forks": 43,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -2245,7 +2245,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "espocrm/espocrm",
-  "github_stars": 3526,
+  "github_stars": 3534,
   "last_release": "10.0.7 (2026-09-03)",
   "open_source": true,
   "api_available": true,
@@ -2292,8 +2292,8 @@
   "currency": "EUR",
   "license": "AGPL-3.0",
   "paid_from": 12.9,
-  "github_forks": 1014,
-  "github_checked": "2026-10-28",
+  "github_forks": 1013,
+  "github_checked": "2026-10-30",
   "price_unit": "user"
  },
  {
@@ -2339,8 +2339,8 @@
   },
   "license": "MIT",
   "kind": "Utility",
-  "github_forks": 27,
-  "github_checked": "2026-10-29",
+  "github_forks": 28,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -2355,7 +2355,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "ever-co/ever-gauzy",
-  "github_stars": 8642,
+  "github_stars": 8657,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -2398,8 +2398,8 @@
   },
   "paid_from": 17,
   "license": "AGPL-3.0",
-  "github_forks": 1308,
-  "github_checked": "2026-10-29",
+  "github_forks": 1309,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -2420,7 +2420,7 @@
    "Meta Lead Ads"
   ],
   "github_repo": "frappe/crm",
-  "github_stars": 3879,
+  "github_stars": 3885,
   "open_source": true,
   "api_available": false,
   "status": "active",
@@ -2467,8 +2467,8 @@
   },
   "paid_from": 5,
   "license": "AGPL-3.0",
-  "github_forks": 1554,
-  "github_checked": "2026-10-29",
+  "github_forks": 1561,
+  "github_checked": "2026-10-30",
   "currency": "USD",
   "price_unit": "site"
  },
@@ -2638,7 +2638,7 @@
    "Unsplash"
   ],
   "github_repo": "TryGhost/Ghost",
-  "github_stars": 55631,
+  "github_stars": 55633,
   "open_source": true,
   "api_available": true,
   "founded": 2013,
@@ -2657,8 +2657,8 @@
   },
   "paid_from": 9,
   "license": "MIT",
-  "github_forks": 12062,
-  "github_checked": "2026-10-29",
+  "github_forks": 12078,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -2692,7 +2692,7 @@
    "Gemini CLI"
   ],
   "github_repo": "irinabuht12-oss/google-meta-ads-ga4-mcp",
-  "github_stars": 6307,
+  "github_stars": 6402,
   "open_source": true,
   "api_available": true,
   "founded": 2026,
@@ -2729,7 +2729,7 @@
   "license": "MIT",
   "kind": "Utility",
   "github_forks": 372,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -2755,7 +2755,7 @@
    "Bing Webmaster Tools"
   ],
   "github_repo": "tsingyuai/growth-lab",
-  "github_stars": 1972,
+  "github_stars": 1971,
   "open_source": true,
   "api_available": false,
   "founded": 2026,
@@ -2773,7 +2773,7 @@
   },
   "license": "Apache-2.0",
   "github_forks": 170,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -3031,7 +3031,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "idurar/idurar-erp-crm",
-  "github_stars": 8924,
+  "github_stars": 8926,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -3077,8 +3077,8 @@
   "license": "AGPL-3.0",
   "paid_from": 5000,
   "currency": "USD",
-  "github_forks": 3160,
-  "github_checked": "2026-10-29",
+  "github_forks": 3159,
+  "github_checked": "2026-10-30",
   "billing": "one-time"
  },
  {
@@ -3257,7 +3257,7 @@
   ],
   "integrations": [],
   "github_repo": "krayin/laravel-crm",
-  "github_stars": 24074,
+  "github_stars": 24078,
   "last_release": "v2.2.5 (2026-08-04)",
   "open_source": true,
   "api_available": true,
@@ -3303,7 +3303,7 @@
   "paid_from": 1799,
   "currency": "USD",
   "github_forks": 1672,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "billing": "one-time"
  },
  {
@@ -3337,7 +3337,7 @@
    "GitHub"
   ],
   "github_repo": "langchain-ai/langchain",
-  "github_stars": 148654,
+  "github_stars": 148690,
   "open_source": true,
   "api_available": true,
   "founded": 2022,
@@ -3355,8 +3355,8 @@
   },
   "paid_from": 39,
   "license": "MIT",
-  "github_forks": 24958,
-  "github_checked": "2026-10-29",
+  "github_forks": 24976,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -3482,7 +3482,7 @@
    "WordPress"
   ],
   "github_repo": "knadh/listmonk",
-  "github_stars": 24024,
+  "github_stars": 24051,
   "open_source": true,
   "api_available": true,
   "founded": 2019,
@@ -3500,8 +3500,8 @@
    "verdict": "The strongest self-hosted mailing platform in this catalog; bring your own forms and workflows."
   },
   "license": "AGPL-3.0",
-  "github_forks": 2719,
-  "github_checked": "2026-10-29",
+  "github_forks": 2722,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -3601,7 +3601,7 @@
    "MCP"
   ],
   "github_repo": "macro-inc/macro",
-  "github_stars": 5503,
+  "github_stars": 5657,
   "open_source": true,
   "api_available": true,
   "founded": 2020,
@@ -3647,8 +3647,8 @@
   "last_release": "v2026.9.7.0 (2026-09-07)",
   "paid_from": 40,
   "license": "AGPL-3.0",
-  "github_forks": 525,
-  "github_checked": "2026-10-29",
+  "github_forks": 534,
+  "github_checked": "2026-10-30",
   "currency": "USD",
   "price_unit": "seat"
  },
@@ -3763,7 +3763,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "maizzle/maizzle",
-  "github_stars": 2862,
+  "github_stars": 2863,
   "open_source": true,
   "api_available": false,
   "status": "active",
@@ -3805,7 +3805,7 @@
    ]
   },
   "github_forks": 72,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -4094,8 +4094,8 @@
   "currency": "EUR",
   "license": "GPL-3.0",
   "paid_from": 22,
-  "github_forks": 2921,
-  "github_checked": "2026-10-29"
+  "github_forks": 2922,
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "mautic",
@@ -4121,7 +4121,7 @@
    "Zapier"
   ],
   "github_repo": "mautic/mautic",
-  "github_stars": 10860,
+  "github_stars": 10875,
   "open_source": true,
   "api_available": true,
   "founded": 2014,
@@ -4167,8 +4167,8 @@
   "currency": "EUR",
   "license": "GPL-3.0",
   "paid_from": 247.5,
-  "github_forks": 3509,
-  "github_checked": "2026-10-29"
+  "github_forks": 3511,
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "mixpanel",
@@ -4266,7 +4266,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "monicahq/monica",
-  "github_stars": 25539,
+  "github_stars": 25546,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -4328,8 +4328,8 @@
   "license": "AGPL-3.0",
   "paid_from": 9,
   "currency": "USD",
-  "github_forks": 2625,
-  "github_checked": "2026-10-29"
+  "github_forks": 2627,
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "multipost-extension",
@@ -4346,7 +4346,7 @@
   ],
   "integrations": [],
   "github_repo": "leaperone/MultiPost-Extension",
-  "github_stars": 3795,
+  "github_stars": 3831,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -4362,8 +4362,8 @@
    "verdict": "Excellent lightweight cross-poster for individual creators; agencies need more machinery."
   },
   "license": "Apache-2.0",
-  "github_forks": 442,
-  "github_checked": "2026-10-29",
+  "github_forks": 444,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -4394,7 +4394,7 @@
    "HubSpot"
   ],
   "github_repo": "n8n-io/n8n",
-  "github_stars": 208939,
+  "github_stars": 209067,
   "open_source": true,
   "api_available": true,
   "founded": 2019,
@@ -4421,8 +4421,8 @@
   "paid_from": 20,
   "date_verified": "2026-09-27",
   "currency": "EUR",
-  "github_forks": 61291,
-  "github_checked": "2026-10-29"
+  "github_forks": 61305,
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "n8n-marketing-flows",
@@ -4490,7 +4490,7 @@
    "Webhooks"
   ],
   "github_repo": "nocobase/nocobase",
-  "github_stars": 24764,
+  "github_stars": 24779,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -4524,8 +4524,8 @@
     ]
    ]
   },
-  "github_forks": 2940,
-  "github_checked": "2026-10-29",
+  "github_forks": 2942,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -4554,7 +4554,7 @@
    "AWS SES / SMTP / MailerSend (paid App Store)"
   ],
   "github_repo": "nocodb/nocodb",
-  "github_stars": 65375,
+  "github_stars": 65384,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -4598,8 +4598,8 @@
   },
   "paid_from": 12,
   "currency": "USD",
-  "github_forks": 5117,
-  "github_checked": "2026-10-29",
+  "github_forks": 5120,
+  "github_checked": "2026-10-30",
   "price_unit": "seat"
  },
  {
@@ -4822,7 +4822,7 @@
    "Supabase"
   ],
   "github_repo": "Notifuse/notifuse",
-  "github_stars": 2265,
+  "github_stars": 2269,
   "open_source": true,
   "api_available": true,
   "founded": 2025,
@@ -4841,7 +4841,7 @@
   "paid_from": 19,
   "license": "AGPL-3.0",
   "github_forks": 240,
-  "github_checked": "2026-10-28",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -4860,7 +4860,7 @@
   ],
   "integrations": [],
   "github_repo": "open-mercato/open-mercato",
-  "github_stars": 1888,
+  "github_stars": 1891,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -4905,8 +4905,8 @@
   "hq": "Open source",
   "last_release": "v0.7.0 (2026-08-26)",
   "license": "MIT",
-  "github_forks": 476,
-  "github_checked": "2026-10-29",
+  "github_forks": 477,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -4934,7 +4934,7 @@
    "MyClaw.ai"
   ],
   "github_repo": "LeoYeAI/openclaw-marketing-skills",
-  "github_stars": 1049,
+  "github_stars": 1050,
   "open_source": true,
   "api_available": true,
   "founded": 2025,
@@ -4952,7 +4952,7 @@
   },
   "license": "MIT",
   "github_forks": 380,
-  "github_checked": "2026-10-26",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -4983,7 +4983,7 @@
    "Claude Code"
   ],
   "github_repo": "eracle/OpenOutreach",
-  "github_stars": 3434,
+  "github_stars": 3445,
   "open_source": true,
   "api_available": false,
   "status": "active",
@@ -5031,8 +5031,8 @@
    ]
   },
   "license": "GPL-3.0",
-  "github_forks": 622,
-  "github_checked": "2026-10-29",
+  "github_forks": 621,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -5093,15 +5093,15 @@
    ]
   },
   "github_repo": "every-app/open-seo",
-  "github_stars": 25535,
+  "github_stars": 25666,
   "pricing_url": "https://openseo.so/pricing",
   "founded": 2026,
   "hq": "Open source",
   "license": "MIT",
   "paid_from": 10,
   "currency": "USD",
-  "github_forks": 3481,
-  "github_checked": "2026-10-29",
+  "github_forks": 3510,
+  "github_checked": "2026-10-30",
   "date_added": "2026-07-27"
  },
  {
@@ -5253,7 +5253,7 @@
    "e2b, Cloudflare, and Modal sandboxes"
   ],
   "github_repo": "paperclipai/paperclip",
-  "github_stars": 108349,
+  "github_stars": 108726,
   "last_release": "v2026.831.1 (2026-09-02)",
   "open_source": true,
   "api_available": true,
@@ -5299,8 +5299,8 @@
   "currency": "EUR",
   "license": "MIT",
   "paid_from": 10,
-  "github_forks": 17952,
-  "github_checked": "2026-10-29"
+  "github_forks": 18007,
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "pencil",
@@ -5627,7 +5627,7 @@
    "Slack"
   ],
   "github_repo": "plausible/analytics",
-  "github_stars": 29706,
+  "github_stars": 29720,
   "open_source": true,
   "api_available": true,
   "founded": 2019,
@@ -5646,8 +5646,8 @@
   },
   "paid_from": 9,
   "license": "AGPL-3.0",
-  "github_forks": 1921,
-  "github_checked": "2026-10-29",
+  "github_forks": 1924,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -5830,7 +5830,7 @@
    "Instagram"
   ],
   "github_repo": "nando0x/ProspectOS",
-  "github_stars": 237,
+  "github_stars": 239,
   "open_source": true,
   "api_available": true,
   "description": "ProspectOS is a local lead-prospecting tool for agencies and freelancers who sell websites or digital services to small businesses. It scans Google Maps by niche and city (or by pin and radius), checks each company's website to separate no-site from slow-or-insecure-site, scores the results, and generates an AI-written outreach message plus a PDF diagnosis per lead, all tracked in a visual kanban CRM. The stack is Flask, React 19, TypeScript, and SQLite, runs locally on Windows, and the repo shows 230 passing tests. The honest catch is in the project's own warnings: it is a scraping tool, Google Maps and Instagram scraping can violate those platforms' terms, and the Instagram module logs in with a personal account via instagrapi, which carries a real risk of checkpoint or ban. The README recommends a secondary account and moderate use. MIT-licensed with a few hundred stars, it is a working codebase for learning and prospecting at small scale, sold to nobody and hosted by you, with the compliance question deliberately left in your hands.",
@@ -5848,7 +5848,7 @@
   },
   "license": "MIT",
   "github_forks": 47,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -5877,7 +5877,7 @@
    "Anthropic"
   ],
   "github_repo": "unlayer/react-email-editor",
-  "github_stars": 5247,
+  "github_stars": 5251,
   "open_source": true,
   "api_available": false,
   "status": "active",
@@ -5926,7 +5926,7 @@
   "pricing_url": "https://unlayer.com/pricing",
   "license": "MIT",
   "github_forks": 804,
-  "github_checked": "2026-10-28",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -5950,7 +5950,7 @@
    "CSV import/export"
   ],
   "github_repo": "relaticle/relaticle",
-  "github_stars": 1792,
+  "github_stars": 1796,
   "last_release": "v3.5.7 (2026-09-06)",
   "open_source": true,
   "api_available": true,
@@ -5997,8 +5997,8 @@
   "license": "AGPL-3.0",
   "paid_from": 19,
   "currency": "USD",
-  "github_forks": 227,
-  "github_checked": "2026-10-28",
+  "github_forks": 229,
+  "github_checked": "2026-10-30",
   "price_unit": "workspace"
  },
  {
@@ -6026,7 +6026,7 @@
    "Vercel Marketplace"
   ],
   "github_repo": "resend/react-email",
-  "github_stars": 19887,
+  "github_stars": 19892,
   "open_source": false,
   "api_available": true,
   "founded": 2023,
@@ -6071,8 +6071,8 @@
   },
   "paid_from": 20,
   "license": "MIT",
-  "github_forks": 1106,
-  "github_checked": "2026-10-29",
+  "github_forks": 1108,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -6604,8 +6604,8 @@
   },
   "paid_from": 9,
   "license": "MIT",
-  "github_forks": 144,
-  "github_checked": "2026-10-29",
+  "github_forks": 146,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -6702,7 +6702,7 @@
    "Google Pub/Sub"
   ],
   "github_repo": "snowplow/snowplow",
-  "github_stars": 7047,
+  "github_stars": 7048,
   "last_release": "Components release individually: enrich 6.13.1 (2026-08-21), JavaScript tracker 4.10.1 (2026-08-19); last umbrella release R22.01 (2022)",
   "open_source": true,
   "api_available": true,
@@ -6747,8 +6747,8 @@
   },
   "license": "Apache-2.0",
   "currency": "USD",
-  "github_forks": 1172,
-  "github_checked": "2026-10-28"
+  "github_forks": 1170,
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "sprout-social",
@@ -6824,7 +6824,7 @@
    "Cloudinary"
   ],
   "github_repo": "strapi/strapi",
-  "github_stars": 73400,
+  "github_stars": 73402,
   "open_source": true,
   "api_available": true,
   "founded": 2015,
@@ -6842,8 +6842,8 @@
    "verdict": "Our default headless CMS for custom builds; choose it for flexibility, not for turnkey publishing polish."
   },
   "paid_from": 99,
-  "github_forks": 9969,
-  "github_checked": "2026-10-29",
+  "github_forks": 9987,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -6858,7 +6858,7 @@
   "ai_features": [],
   "integrations": [],
   "github_repo": "SuiteCRM/SuiteCRM",
-  "github_stars": 5819,
+  "github_stars": 5823,
   "last_release": "8.10.2 / 7.15.2 ESR (2026-07-31)",
   "open_source": true,
   "api_available": true,
@@ -6903,8 +6903,8 @@
    ]
   },
   "license": "AGPL-3.0",
-  "github_forks": 2432,
-  "github_checked": "2026-10-29",
+  "github_forks": 2435,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -7118,7 +7118,7 @@
    "REST / GraphQL / gRPC"
   ],
   "github_repo": "ToolJet/ToolJet",
-  "github_stars": 41141,
+  "github_stars": 41145,
   "open_source": true,
   "api_available": true,
   "status": "active",
@@ -7163,8 +7163,8 @@
   "license": "AGPL-3.0",
   "paid_from": 23,
   "currency": "USD",
-  "github_forks": 5504,
-  "github_checked": "2026-10-29",
+  "github_forks": 5506,
+  "github_checked": "2026-10-30",
   "price_unit": "builder"
  },
  {
@@ -7316,7 +7316,7 @@
    "Marketplace: Slack, Exa, People Data Labs"
   ],
   "github_repo": "twentyhq/twenty",
-  "github_stars": 60030,
+  "github_stars": 60106,
   "open_source": true,
   "api_available": true,
   "founded": 2023,
@@ -7361,8 +7361,8 @@
   },
   "paid_from": 9,
   "license": "AGPL-3.0",
-  "github_forks": 9824,
-  "github_checked": "2026-10-29",
+  "github_forks": 9841,
+  "github_checked": "2026-10-30",
   "currency": "USD",
   "price_unit": "user"
  },
@@ -7385,7 +7385,7 @@
    "Community API clients (Laravel, Python, Go)"
   ],
   "github_repo": "umami-software/umami",
-  "github_stars": 39759,
+  "github_stars": 39788,
   "open_source": true,
   "api_available": true,
   "founded": 2020,
@@ -7429,8 +7429,8 @@
   },
   "paid_from": 20,
   "license": "MIT",
-  "github_forks": 8436,
-  "github_checked": "2026-10-29",
+  "github_forks": 8447,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -7459,7 +7459,7 @@
    "Hostinger"
   ],
   "github_repo": "ArnasDon/wacrm",
-  "github_stars": 2630,
+  "github_stars": 2634,
   "open_source": true,
   "api_available": true,
   "founded": 2026,
@@ -7510,8 +7510,8 @@
    ]
   },
   "license": "MIT",
-  "github_forks": 6668,
-  "github_checked": "2026-10-29",
+  "github_forks": 6681,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -7572,8 +7572,8 @@
    ]
   },
   "license": "MIT",
-  "github_forks": 6,
-  "github_checked": "2026-10-27",
+  "github_forks": 7,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -7844,8 +7844,8 @@
    "verdict": "A credible, governance-aware starter kit for GTM teams already living in Zapier-connected stacks and coding agents. Adopt the patterns even if you skip the skills; treat the workflows as templates to adapt, not drop-in automation."
   },
   "license": "MIT",
-  "github_forks": 21,
-  "github_checked": "2026-10-26",
+  "github_forks": 22,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -7876,7 +7876,7 @@
    "SMTP"
   ],
   "github_repo": "warmbly/warmbly",
-  "github_stars": 493,
+  "github_stars": 498,
   "open_source": true,
   "license": "Apache-2.0",
   "api_available": true,
@@ -7895,8 +7895,8 @@
    "not_for": "Teams that need a built-in B2B lead database, or anyone who wants a battle-tested managed sender and does not want to operate Postgres and Redis.",
    "verdict": "The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you."
   },
-  "github_forks": 108,
-  "github_checked": "2026-10-29",
+  "github_forks": 111,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -8830,7 +8830,7 @@
   "open_source": true,
   "license": "MIT",
   "github_repo": "jitsucom/jitsu",
-  "github_stars": 5121,
+  "github_stars": 5122,
   "ai_features": [
    "MCP Server for agent-driven setup"
   ],
@@ -8882,7 +8882,7 @@
    ]
   },
   "github_forks": 406,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "paid_from": 99
  },
  {
@@ -8904,9 +8904,9 @@
   "date_added": "2026-10-01",
   "date_updated": "2026-10-01",
   "github_repo": "rudderlabs/rudder-server",
-  "github_stars": 4508,
-  "github_forks": 81,
-  "github_checked": "2026-10-29",
+  "github_stars": 4509,
+  "github_forks": 83,
+  "github_checked": "2026-10-30",
   "api_available": true,
   "ai_features": [],
   "integrations": [
@@ -9055,7 +9055,7 @@
   "open_source": true,
   "license": "MIT",
   "github_repo": "growthbook/growthbook",
-  "github_stars": 8545,
+  "github_stars": 8548,
   "ai_features": [
    "GrowthBook AI assistant (usage-metered per plan)",
    "AI Visual Editor (Pro and up)",
@@ -9108,8 +9108,8 @@
     ]
    ]
   },
-  "github_forks": 890,
-  "github_checked": "2026-10-29",
+  "github_forks": 889,
+  "github_checked": "2026-10-30",
   "paid_from": 40,
   "price_unit": "seat"
  },
@@ -9130,7 +9130,7 @@
   "open_source": true,
   "license": "BSD-3-Clause",
   "github_repo": "Flagsmith/flagsmith",
-  "github_stars": 6629,
+  "github_stars": 6633,
   "ai_features": [
    "MCP Server for natural-language flag management",
    "Automated flag hygiene",
@@ -9184,7 +9184,7 @@
    ]
   },
   "github_forks": 596,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "paid_from": 50,
   "price_unit": "member"
  },
@@ -9204,7 +9204,7 @@
   "open_source": true,
   "license": "LGPL-2.1",
   "github_repo": "languagetool-org/LanguageTool",
-  "github_stars": 15209,
+  "github_stars": 15215,
   "ai_features": [
    "AI style and tone suggestions",
    "Paraphrasing tool",
@@ -9260,8 +9260,8 @@
     ]
    ]
   },
-  "github_forks": 1595,
-  "github_checked": "2026-10-29",
+  "github_forks": 1596,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -9280,7 +9280,7 @@
   "open_source": true,
   "license": "AGPL-3.0",
   "github_repo": "khoj-ai/khoj",
-  "github_stars": 37877,
+  "github_stars": 37900,
   "ai_features": [
    "Chat with local and online LLMs",
    "Document Q&A over images, PDFs, Markdown, Word, and Notion files",
@@ -9335,7 +9335,7 @@
    ]
   },
   "github_forks": 2529,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -9354,7 +9354,7 @@
   "open_source": true,
   "license": "AGPL-3.0",
   "github_repo": "LibreTranslate/LibreTranslate",
-  "github_stars": 17213,
+  "github_stars": 17223,
   "ai_features": [
    "Neural machine translation via Argos Translate models",
    "Automatic language detection",
@@ -9404,8 +9404,8 @@
    ],
    "hands_on_verified": true
   },
-  "github_forks": 1788,
-  "github_checked": "2026-10-29",
+  "github_forks": 1790,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -9425,7 +9425,7 @@
   "open_source": true,
   "license": "MIT",
   "github_repo": "PostHog/posthog",
-  "github_stars": 40501,
+  "github_stars": 40516,
   "ai_features": [
    "PostHog AI assistant for natural language queries (500 free credits per month)",
    "AI Observability and LLM Evaluations",
@@ -9483,7 +9483,7 @@
    ]
   },
   "github_forks": 3561,
-  "github_checked": "2026-10-29"
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "revive-adserver",
@@ -9501,7 +9501,7 @@
   "open_source": true,
   "license": "GPL-2.0",
   "github_repo": "revive-adserver/revive-adserver",
-  "github_stars": 1515,
+  "github_stars": 1517,
   "ai_features": [],
   "integrations": [
    "MaxMind GeoLite2",
@@ -9545,8 +9545,8 @@
     ]
    ]
   },
-  "github_forks": 615,
-  "github_checked": "2026-10-28",
+  "github_forks": 616,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -9565,7 +9565,7 @@
   "open_source": true,
   "license": "MIT",
   "github_repo": "eliasdabbas/advertools",
-  "github_stars": 1490,
+  "github_stars": 1492,
   "ai_features": [
    "Claude SERP analytics module (advertools.serp_claude), added in v0.18.0"
   ],
@@ -9612,7 +9612,7 @@
    "hands_on_verified": true
   },
   "github_forks": 265,
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -9631,7 +9631,7 @@
   "open_source": true,
   "license": "MIT",
   "github_repo": "promptfoo/promptfoo",
-  "github_stars": 26567,
+  "github_stars": 26609,
   "ai_features": [
    "Model-graded evals where one LLM scores another's answers",
    "Automated red team probe generation against AI applications",
@@ -9681,8 +9681,8 @@
     ]
    ]
   },
-  "github_forks": 2605,
-  "github_checked": "2026-10-29",
+  "github_forks": 2612,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -9723,9 +9723,9 @@
     "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
    ]
   },
-  "github_stars": 25266,
-  "github_forks": 4405,
-  "github_checked": "2026-10-29",
+  "github_stars": 25288,
+  "github_forks": 4407,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -9907,7 +9907,7 @@
    "Claude Code"
   ],
   "github_repo": "zubair-trabzada/ai-marketing-claude",
-  "github_stars": 2818,
+  "github_stars": 2823,
   "open_source": true,
   "api_available": false,
   "founded": 2025,
@@ -9939,8 +9939,8 @@
   "license": "MIT",
   "kind": "Agent Skill",
   "currency": "USD",
-  "github_forks": 722,
-  "github_checked": "2026-10-29"
+  "github_forks": 725,
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "digital-marketing-pro",
@@ -9969,7 +9969,7 @@
    "OpenClaw"
   ],
   "github_repo": "indranilbanerjee/digital-marketing-pro",
-  "github_stars": 913,
+  "github_stars": 914,
   "open_source": true,
   "api_available": true,
   "founded": 2025,
@@ -10003,7 +10003,7 @@
   "kind": "Agent Skill",
   "currency": "USD",
   "github_forks": 147,
-  "github_checked": "2026-10-29"
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "marketingskills",
@@ -10030,7 +10030,7 @@
    "Agent Skills spec agents"
   ],
   "github_repo": "coreyhaines31/marketingskills",
-  "github_stars": 57152,
+  "github_stars": 57363,
   "open_source": true,
   "api_available": false,
   "founded": null,
@@ -10041,8 +10041,8 @@
   "description": "marketingskills is the biggest marketing skill library for coding agents in this directory: around 50 skills covering CRO, copywriting, SEO, analytics, paid ads, growth loops, and sales ops. It's built by Corey Haines, who runs the Swipe Files newsletter and the Conversion Factory agency, and it shows. These read like playbooks from someone who has actually run marketing programs, not summaries of other people's blog posts. Skills are plain Markdown files that work with Claude Code, OpenAI Codex, Cursor, Windsurf, and anything else following the Agent Skills spec. The repo has tens of thousands of stars, 8,000 forks, was pushed the morning I checked, and carries an MIT license.\n\nThe structural idea is shared context. A product-marketing skill holds your product, audience, and positioning, and every other skill reads it first before writing anything, so your copy output doesn't come out generic. Skills cross-reference each other: copywriting pulls in cro and ab-testing, revops pulls in sales-enablement and cold-email, customer-research feeds the rest. Day to day you install the pack, describe a task (\"audit this landing page\", \"write my cold email follow-ups\", \"plan a programmatic SEO template\"), and the agent loads the matching framework. Output lands as working documents: audits, copy drafts, test plans, launch checklists. Not chat replies that evaporate.\n\nInstallation is one command: npx skills add coreyhaines31/marketingskills. The CLI detects which agents you have and drops skills into .claude/skills/ or the shared .agents/skills/ directory. You can install individual skills with --skill cro copywriting. Claude Code and Codex users can also add the repo as a plugin marketplace and install from inside a session. One gotcha the README calls out honestly: if you ask your agent to run the install for you, it may land skills only in .agents/skills/, which Claude Code doesn't read. Pass -a claude-code explicitly.\n\nTwo things to know before you commit. First, there are disclosed paid partners (Converly for conversion tracking and Ploy for site building at the moment) listed in the tool registry alongside neutral options. The repo states partners don't influence what core skills recommend, and the disclosure rules are public, but you should know the funding exists. Second, these are frameworks and checklists, not software. Nothing sends your email or bids on your ads; the skills shape how your agent thinks about the task. Against Aaron Marketing Skills, with its 120 skills, auditor gates, and lifecycle phases, this pack is looser and more readable: Aaron is process, Corey is judgment. Most founder-led and SaaS marketing teams should start here. At that scale, if a skill misbehaves, someone has probably already filed the issue.",
   "seo_description": "Marketing Skills by Corey Haines: ~50 open-source marketing skills for Claude Code, Codex, and Cursor. CRO, copywriting, SEO, analytics. Free, MIT.",
   "license": "MIT",
-  "github_forks": 8432,
-  "github_checked": "2026-10-29",
+  "github_forks": 8458,
+  "github_checked": "2026-10-30",
   "currency": "USD"
  },
  {
@@ -10078,8 +10078,8 @@
    "Pixfaro"
   ],
   "github_repo": "sergebulaev/instagram-skills",
-  "github_stars": 651,
-  "github_forks": 144,
+  "github_stars": 661,
+  "github_forks": 148,
   "open_source": true,
   "api_available": true,
   "founded": null,
@@ -10100,7 +10100,7 @@
    "not_for": "Teams that do not use an agent CLI, accounts that need Instagram analytics or engagement management (there is no read layer without Apify), and anyone unwilling to depend on Publora for auto-posting."
   },
   "currency": "USD",
-  "github_checked": "2026-10-29"
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "sendportal",
@@ -10126,9 +10126,9 @@
    "CSV import"
   ],
   "github_repo": "mettle/sendportal",
-  "github_stars": 2183,
-  "github_forks": 473,
-  "github_checked": "2026-10-28",
+  "github_stars": 2184,
+  "github_forks": 474,
+  "github_checked": "2026-10-30",
   "last_release": "v4.0.0 (2026-10-12)",
   "license": "MIT",
   "open_source": true,
@@ -10206,7 +10206,7 @@
    "beehiiv/Substack/Mailchimp CSV import"
   ],
   "github_repo": "marclou/mailcheap",
-  "github_stars": 1539,
+  "github_stars": 1562,
   "open_source": true,
   "api_available": true,
   "founded": 2026,
@@ -10215,8 +10215,8 @@
   "date_added": "2026-10-19",
   "date_updated": "2026-10-19",
   "description": "MailCheap is a newsletter platform from Marc Lou, the indie maker behind ShipFast, launched in October 2026. The pitch is simple: pay for emails you actually send, not for subscribers who stopped reading. Cloud plans start at $19 a month for 20,000 emails, which Lou claims is 83% cheaper than beehiiv at the 4,000-subscriber level. The whole app is also open source (AGPL-3.0) and self-hostable: a Next.js app on MongoDB that sends through Amazon SES at roughly $0.10 to $0.16 per 1,000 emails. Lou runs his own 50,000-subscriber newsletter on it, which is the best proof of scale you will get from a product this young.\n\nThe AI angle is not a writing assistant baked into the editor. Nothing generates copy inside the app. Instead, MailCheap ships an MCP server and a REST API that mirror everything the dashboard does: create_campaign, schedule_campaign, send_campaign, get_campaign_report, import_contacts. ChatGPT, Claude and Grok connect via OAuth; Claude Code, Cursor and Codex use an API key. Sending is marked as an irreversible action, so agents have to ask before a campaign goes out. A parity test in the repo fails the build if any dashboard action is missing from the API or MCP layer, which is a nicer guarantee than most vendors offer. The rest of the intelligence is mechanical list hygiene: dormant readers get one \"still want this?\" email and then stop receiving issues, and imports drop typos (gmial.com), spam traps, role addresses and duplicates. Agents do the writing; MailCheap executes.\n\nPricing is refreshingly flat. Every plan has every feature, and tiers only change monthly email volume: $19 for 20K, $39 for 75K, $79 for 200K, $149 for 500K, $349 for 2M, roughly $0.95 per thousand. There is no free tier and no trial on the cloud. Go over your limit and new sends pause until you upgrade or the month resets, though signup confirmations keep flowing. Self-hosting is free but budget about an hour for MongoDB Atlas, SES production access, Upstash QStash and Vercel, plus SES costs. Support for self-hosters is explicitly none: GitHub issues are turned off.\n\nThe closest alternative in this directory is listmonk, the veteran self-hosted newsletter manager with its single Go binary and a much larger community. listmonk is the safer operational choice: older, bigger community, simpler stack. MailCheap answers with a hosted cloud option, per-email pricing, and the deepest agent support in the category. BillionMail and Notifuse also bolt LLM features onto self-hosted email stacks, but neither gives ChatGPT or Claude full campaign control the way MailCheap's MCP server does.\n\nWho should skip it: anyone who needs marketing automation. There are welcome emails and scheduled campaigns, but no drip sequences, no behavioral triggers, and no A/B testing in the feature list. It is a newsletter tool, not a Klaviyo or Customer.io replacement. The single-maintainer risk is real too; the repo is weeks old with a few dozen commits, and the AGPL will not suit everyone. If you want an agent-run newsletter on a budget and can live with those gaps, it is the most direct product for that job right now.",
-  "github_forks": 396,
-  "github_checked": "2026-10-29"
+  "github_forks": 399,
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "sealeap-amazon-skills",
@@ -10245,7 +10245,7 @@
    "SIF (optional data)"
   ],
   "github_repo": "xjli360/sealeap-amazon-skills",
-  "github_stars": 334,
+  "github_stars": 339,
   "github_forks": 47,
   "open_source": true,
   "api_available": false,
@@ -10255,7 +10255,7 @@
   "status": "active",
   "date_added": "2026-10-26",
   "date_updated": "2026-10-26",
-  "github_checked": "2026-10-29",
+  "github_checked": "2026-10-30",
   "description": "SeaLeap Amazon Skills is 602 free agent skills for people who sell on Amazon and want Claude Code or Codex to reason with Amazon's vocabulary instead of generic ecommerce advice. It targets a gap every Amazon operator hits: the model knows roughly how Sponsored Products works, but not your break-even ACOS, your placement waste, or which fee rule changed this quarter. Each skill is a SKILL.md with an input checklist, a decision tree, an output contract, and a small script where a calculation is involved. It is MIT licensed, and you do not need a signup or an API key.\n\nThe 602 split by where the knowledge came from: 38 skills from Amazon's authorized training material, 211 from Douyin, 108 from WeChat, 74 from Bilibili, 49 from YouTube, 9 from Xiaohongshu, plus 12 public-research topics and 101 app capabilities grouped as Athena, Hermes and Apollo. Provenance survives the distillation. The ACOS diagnostics skill names its source deck, indexes all 42 pages, cites the benchmark whitepaper behind its numbers, and grades every claim by evidence level, from account actuals through official baseline down to estimate. That paper trail is unusual, and it is the main reason I trust this pack more than the average prompt dump.\n\nDay to day it behaves like an analyst with rules. Feed the ACOS skill a marketplace, a date range and a goal, and it asks for impressions, clicks, spend, orders and ad sales, recomputes CTR, CPC, CVR, AOV, ACOS, ROAS and TACOS with scripts/acos_diagnose.py instead of trusting the console's derived columns, walks a diagnostic tree for the driver that broke, and returns a diagnosis, the gaps in your data, and one single-variable experiment. It opens in read-only mode. Bids, budgets, placements, targets and negations each need per-object human approval, and the fourth mode exists only to run one approved change and read it back. Listing, keyword, product research, inventory and FBA skills follow the same shape. Setup is a git clone and a copy of the skill folder into your agent's skills directory, and you keep references/, agents/ and scripts/ or the skill loses its evidence files. Claude Code, Codex and Cursor all work, each skill ships an agents/openai.yaml card for OpenAI-compatible clients, and you do not need credentials. A few skills expect SellerSprite or SIF exports if you want the numbers they ask for.\n\nTwo limits decide whether this is for you. Everything is written in Chinese, including trigger phrases and prompt examples, so an English-only operator is running the pack through their model's translation, and output quality varies with how well it handles that. The repo is also very young: created August 21, 2026, 15 commits, no tags, no releases, so pin a commit instead of tracking main. And 602 overstates the breadth. The same Amazon task often appears once per source platform, so expect near-duplicates between the Douyin and WeChat sets and cherry-pick rather than install everything. Anything about fees, policy or new ad features deserves a check in Seller Central, because the underlying source is social content and public training material, not an official changelog.\n\nThe closest thing in this directory is Aaron Marketing Skills, also free, also a large multi-discipline pack. Aaron goes for marketing breadth in English with auditor gates and assumes you market a product wherever you sell it. Sealeap goes the other way: one platform, far deeper operational detail, and a Chinese-speaking seller as the assumed reader. If your revenue runs through Amazon FBA and someone on the team reads Chinese, this is the most specific free kit I have found. For Shopify, Meta ads or B2B content it adds nothing; look at Aaron or Claude Ads instead.",
   "seo_description": "SeaLeap Amazon Skills: 602 free agent skills for Amazon product research, listings, ads and inventory. MIT licensed, runs in Claude Code and Codex.",
   "deep_dive": {
@@ -10337,7 +10337,9 @@
   "status": "active",
   "date_added": "2026-10-29",
   "date_updated": "2026-10-29",
-  "description": "Mosaico is a JavaScript editor for email templates, released under GPL-3.0 by voidlabs and running entirely on your own infrastructure. Its defining idea is that the editor does not decide what can be edited: each template declares its own editable blocks and style knobs, so the same editor can power a rigid corporate layout or a loose creative one. The repo ships one production template and a template language for making your own HTML Mosaico-ready.\n\nThe live demo on mosaico.io is roughly the open-source library with a custom backend and a second template, which is a fair preview of what you get self-hosting. Integration is the real story: CiviCRM bundles it for nonprofit campaigns, Mailtrain has shipped it as its email editor since release 1.23.0, and an agency-oriented product (GoodEnough's Mosaico) is built around it. You run it with Node and Grunt, or via the bundled Docker images.\n\nTwo honest caveats. It is a Knockout.js application from an earlier era of frontend tooling, and development has been slow: commits resumed in late 2026 after a quiet stretch, and there are no tagged GitHub releases, just the master branch and the demo. And there is nothing AI about it; it competes on being self-hosted and template-driven while hosted editors move toward generated copy. If your requirement is a self-hosted drag-and-drop editor you can embed in your own stack, with CiviCRM or Mailtrain heritage to prove it, Mosaico is the reference implementation."
+  "description": "Mosaico is a JavaScript editor for email templates, released under GPL-3.0 by voidlabs and running entirely on your own infrastructure. Its defining idea is that the editor does not decide what can be edited: each template declares its own editable blocks and style knobs, so the same editor can power a rigid corporate layout or a loose creative one. The repo ships one production template and a template language for making your own HTML Mosaico-ready.\n\nThe live demo on mosaico.io is roughly the open-source library with a custom backend and a second template, which is a fair preview of what you get self-hosting. Integration is the real story: CiviCRM bundles it for nonprofit campaigns, Mailtrain has shipped it as its email editor since release 1.23.0, and an agency-oriented product (GoodEnough's Mosaico) is built around it. You run it with Node and Grunt, or via the bundled Docker images.\n\nTwo honest caveats. It is a Knockout.js application from an earlier era of frontend tooling, and development has been slow: commits resumed in late 2026 after a quiet stretch, and there are no tagged GitHub releases, just the master branch and the demo. And there is nothing AI about it; it competes on being self-hosted and template-driven while hosted editors move toward generated copy. If your requirement is a self-hosted drag-and-drop editor you can embed in your own stack, with CiviCRM or Mailtrain heritage to prove it, Mosaico is the reference implementation.",
+  "github_forks": 500,
+  "github_checked": "2026-10-30"
  },
  {
   "slug": "postbot",
@@ -10368,7 +10370,7 @@
    "LinkedIn"
   ],
   "github_repo": "gitcoffee-os/postbot",
-  "github_stars": 1598,
+  "github_stars": 1602,
   "open_source": true,
   "api_available": true,
   "founded": null,
@@ -10376,6 +10378,8 @@
   "status": "active",
   "date_added": "2026-10-29",
   "date_updated": "2026-10-29",
-  "description": "PostBot is an open-source content distribution tool from GitCoffee, built as a browser extension. You write an article, note, or post once, attach images, video, or audio, and it publishes to every platform you are logged into: the Chinese roster covers WeChat, Weibo, Toutiao, Xiaohongshu, Zhihu, Baijiahao, QQ, Weixin Channels, Douyin, Kuaishou, and Bilibili, and the architecture extends to X, Facebook, Instagram, TikTok, YouTube, and LinkedIn. A separate international build called Postar targets those platforms directly.\n\nThe security model is its identity: publishing runs against your own browser's login sessions, locally, so no account credentials are stored in a cloud service. The default sync engine is deterministic and consumes no AI tokens; AI integration is optional. For automation, PostBot exposes MCP, a CLI, and a TypeScript SDK covering tasks, platforms, accounts, scheduling, and workflows, and it can drive pluggable engines including Playwright and several agent harnesses. That makes it one of the few multi-posting tools an agent can operate end to end.\n\nCaveats worth knowing. Documentation and the product UI are Chinese-first, which is a real friction point for teams outside that market. The license is Apache 2.0 with rider terms: the producer may relicense future versions, your contributions can be used commercially including in their cloud offering, and the interactive design is patent-protected. The main branch iterates daily; a stable branch (v1.1.20) is recommended for local runs."
+  "description": "PostBot is an open-source content distribution tool from GitCoffee, built as a browser extension. You write an article, note, or post once, attach images, video, or audio, and it publishes to every platform you are logged into: the Chinese roster covers WeChat, Weibo, Toutiao, Xiaohongshu, Zhihu, Baijiahao, QQ, Weixin Channels, Douyin, Kuaishou, and Bilibili, and the architecture extends to X, Facebook, Instagram, TikTok, YouTube, and LinkedIn. A separate international build called Postar targets those platforms directly.\n\nThe security model is its identity: publishing runs against your own browser's login sessions, locally, so no account credentials are stored in a cloud service. The default sync engine is deterministic and consumes no AI tokens; AI integration is optional. For automation, PostBot exposes MCP, a CLI, and a TypeScript SDK covering tasks, platforms, accounts, scheduling, and workflows, and it can drive pluggable engines including Playwright and several agent harnesses. That makes it one of the few multi-posting tools an agent can operate end to end.\n\nCaveats worth knowing. Documentation and the product UI are Chinese-first, which is a real friction point for teams outside that market. The license is Apache 2.0 with rider terms: the producer may relicense future versions, your contributions can be used commercially including in their cloud offering, and the interactive design is patent-protected. The main branch iterates daily; a stable branch (v1.1.20) is recommended for local runs.",
+  "github_forks": 226,
+  "github_checked": "2026-10-30"
  }
 ]
