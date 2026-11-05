@@ -167,6 +167,10 @@
   "dm": "2026-09-28",
   "sig": "78f8a513930d561d"
  },
+ "openai-aura-silent-agent-block": {
+  "dm": "2026-11-05",
+  "sig": "695ac81320721f7f"
+ },
  "oss-martech-50-day-checkin": {
   "dm": "2026-09-14",
   "sig": "b36daf4ee07e0912"

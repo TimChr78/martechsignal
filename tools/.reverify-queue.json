@@ -80,14 +80,6 @@
   "queued_at": "2026-10-17"
  },
  {
-  "slug": "manychat",
-  "name": "ManyChat",
-  "kind": "fetch-error",
-  "url": "https://manychat.com/pricing",
-  "detail": "HTTP 403",
-  "queued_at": "2026-10-17"
- },
- {
   "slug": "notifuse",
   "name": "Notifuse",
   "kind": "mismatch",

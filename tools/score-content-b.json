@@ -2952,7 +2952,7 @@
    "pillars": {
     "pricing_transparency": {
      "score": 8,
-     "evidence": "Free under MIT with optional cloud hosting via MyClaw.ai, both stated (the vendor pricing page, verified 2026-08-28)."
+     "evidence": "Free under MIT with optional cloud hosting via MyClaw.ai, both stated (the vendor pricing page, verified 2026-11-02)."
     },
     "feature_depth": {
      "score": 6,
@@ -2975,7 +2975,7 @@
      "evidence": "Founded 2025 with an optional hosting service (vendor documentation)."
     }
    },
-   "scored": "2026-09-28"
+   "scored": "2026-11-02"
   },
   {
    "slug": "openoutreach",

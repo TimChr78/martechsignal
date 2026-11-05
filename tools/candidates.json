@@ -38,5 +38,45 @@
     "title": "Startups, Did You Know That Agentforce Coworker Can Do This?",
     "feed_url": "https://www.salesforce.com/blog/feed/",
     "discovered": "2026-10-29T06:00:56.281530"
+  },
+  {
+    "source": "rss:Salesforce",
+    "title": "7 Agentic Service Strategies For Startups",
+    "feed_url": "https://www.salesforce.com/blog/feed/",
+    "discovered": "2026-11-02T06:01:10.957317"
+  },
+  {
+    "source": "github",
+    "name": "aureuserp",
+    "full_name": "aureuserp/aureuserp",
+    "description": "Free and Open Source ERP software",
+    "stars": 12169,
+    "url": "https://github.com/aureuserp/aureuserp",
+    "homepage": "https://aureuserp.com",
+    "topics": [
+      "accounting",
+      "crm",
+      "erp",
+      "erp-software",
+      "filamentphp",
+      "hrm",
+      "inventory-management",
+      "invoice",
+      "laravel",
+      "maintenance",
+      "manufacturing",
+      "open-source-erp",
+      "pms",
+      "point-of-sale",
+      "pos",
+      "purchase-order",
+      "recruitment",
+      "sale-or",
+      "sales",
+      "warehouse-management"
+    ],
+    "language": "PHP",
+    "last_push": "2026-11-04T10:44:30Z",
+    "discovered": "2026-11-05T06:01:05.006999"
   }
 ]

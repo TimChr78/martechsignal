@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2026 06:06:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 06:10:02 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>OpenAI can block your site from its agents, and your logs will never show it</title>
+      <link>https://martechsignal.com/blog/openai-aura-silent-agent-block/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/openai-aura-silent-agent-block/</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description>An international media publisher did everything the AI visibility playbook asks. robots.txt fully open to OpenAI's crawlers. Clean infrastructure. This autumn it even ran a…</description>
+    </item>
     <item>
       <title>Faster output did not make campaigns ship faster. Fewer handoffs did.</title>
       <link>https://martechsignal.com/blog/faster-output-fewer-handoffs/</link>

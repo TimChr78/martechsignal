@@ -173,8 +173,8 @@
  },
  "laudspeaker": {
   "status": "homepage-ERR:URLError",
-  "errors": 2,
-  "backoff_until": "2026-11-02"
+  "errors": 3,
+  "backoff_until": "2026-11-09"
  },
  "listmonk": {
   "etag": "\"6ad1ccd9-2a8d\"",
@@ -216,5 +216,13 @@
   "status": "mismatch",
   "last_check": "2026-10-19",
   "backoff_until": "2026-11-18"
+ },
+ "openclaw-marketing-skills": {
+  "etag": "W/\"a038b4bda0988e42bb09764950251dfa\"",
+  "lastmod": "",
+  "status": "confirmed",
+  "last_check": "2026-11-02",
+  "errors": 0,
+  "backoff_until": ""
  }
 }

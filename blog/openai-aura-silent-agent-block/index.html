@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenAI can block your site from its agents, invisibly</title>
+<meta name="description" content="OpenAI&#x27;s Aura site-safety check can block its agents from opening your site with no trace in your logs.">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="article">
+<link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="OpenAI can block your site from its agents, invisibly">
+<meta property="og:description" content="OpenAI&#x27;s Aura site-safety check can block its agents from opening your site with no trace in your logs.">
+<meta property="og:url" content="https://martechsignal.com/blog/openai-aura-silent-agent-block/">
+<meta property="og:image" content="https://martechsignal.com/og/openai-aura-silent-agent-block.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/openai-aura-silent-agent-block/">
+<link rel="ard ai-catalog" type="application/json" href="https://martechsignal.com/.well-known/ard.json">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/newsreader-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<script src="/theme.js"></script><style>:root{color-scheme: light;--bg: #F6F4EF;--surface: #FFFFFF;--sunk: #EFECE5;--ink: #18181B;--ink-2: #3F3D39;--muted: #67635B;--line: #DDD8CD;--rule: #18181B;--accent: #B93A1A;--accent-ink: #FFFFFF;--tint: #F5E4DC;--pos: #1E6F47;--neg: #B42318;--serif: 'Newsreader', 'Newsreader-fallback', Georgia, serif;--sans: 'Archivo', 'Archivo-fallback', system-ui, sans-serif;--code: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;--card: var(--surface);--line2: var(--line);--text: var(--ink);--border: var(--line);--panel: var(--surface);--amber: var(--accent);--green: var(--pos);--red: var(--neg);--ok-text: var(--pos);--red-text: var(--neg);--mono: var(--sans);--disp: var(--serif);--body: var(--sans)}:root[data-theme=dark]{color-scheme: dark;--bg: #131312;--surface: #1B1B19;--sunk: #0E0E0D;--ink: #ECE9E2;--ink-2: #CFCBC2;--muted: #9C978D;--line: #2D2C29;--rule: #ECE9E2;--accent: #F0754F;--accent-ink: #131312;--tint: #2B1C16;--pos: #5DBE8A;--neg: #F08A74}@media (prefers-color-scheme: dark){:root:not([data-theme=light]){color-scheme: dark;--bg: #131312;--surface: #1B1B19;--sunk: #0E0E0D;--ink: #ECE9E2;--ink-2: #CFCBC2;--muted: #9C978D;--line: #2D2C29;--rule: #ECE9E2;--accent: #F0754F;--accent-ink: #131312;--tint: #2B1C16;--pos: #5DBE8A;--neg: #F08A74}}*{margin: 0;padding: 0;box-sizing: border-box}html{scroll-behavior: smooth;-webkit-text-size-adjust: 100%}html, body{overflow-x: clip}body{background: var(--bg);color: var(--ink);font: 400 1rem/1.6 var(--sans);-webkit-font-smoothing: antialiased;font-variant-numeric: lining-nums}a{color: inherit}::selection{background: var(--accent);color: var(--accent-ink)}.wrap{max-width: 1120px;margin: 0 auto;padding-inline: 1.5rem}@media (prefers-reduced-motion: reduce){html{scroll-behavior: auto}}.topbar{border-bottom: 1px solid var(--line);font-size: .8125rem;color: var(--muted)}.theme-toggle{display: inline-flex;align-items: center;gap: .4rem;margin-left: auto;background: none;border: 1px solid var(--line);border-radius: 999px;padding: .2rem .65rem;font: 500 .8125rem var(--sans);color: var(--ink-2);cursor: pointer}.theme-toggle[hidden]{display: none}.theme-toggle:hover{border-color: var(--ink-2);color: var(--ink)}.theme-toggle svg{width: 14px;height: 14px;flex: none}.masthead{border-bottom: 1px solid var(--rule)}.mast-in{display: flex;align-items: baseline;justify-content: space-between;gap: 2rem;padding-block: 1.1rem .9rem}.wordmark{font: 600 1.75rem/1 var(--serif);letter-spacing: -.02em;text-decoration: none;color: var(--ink);display: inline-flex;align-items: baseline;gap: .35rem;flex: none}.wordmark b{font-weight: inherit;color: inherit}.wordmark .mark{display: inline-flex;align-items: flex-end;gap: 2px;height: .7em}.wordmark .mark i{display: block;width: 4px;background: var(--accent)}.wordmark .mark i:nth-child(1){height: 40%}.wordmark .mark i:nth-child(2){height: 70%}.wordmark .mark i:nth-child(3){height: 100%}.mast-nav{display: flex;gap: 1.6rem;font-size: .9375rem}.mast-nav a{text-decoration: none;color: var(--ink-2);padding: .25rem 0;border-bottom: 2px solid transparent}.mast-nav a:hover{color: var(--ink);border-bottom-color: var(--accent)}.mast-nav a[aria-current=page]{color: var(--ink);border-bottom-color: var(--ink)}.mast-nav .nav-sub{color: var(--accent);font-weight: 600}@media (max-width: 900px){.mast-in{flex-direction: column;align-items: flex-start;gap: .35rem;padding-block: .9rem 0}.mast-nav{gap: 1.25rem;max-width: 100%;overflow-x: auto;scrollbar-width: none;-webkit-mask-image: linear-gradient(90deg, #000 85%, transparent);mask-image: linear-gradient(90deg, #000 85%, transparent)}.mast-nav::-webkit-scrollbar{display: none}.mast-nav a{flex: none;min-height: 44px;display: inline-flex;align-items: center;padding: 0}}@media (max-width: 560px){.wrap{padding-inline: 1.125rem}.wordmark{font-size: 1.5rem}}.eyebrow, .kicker, .hero-kicker{font: 600 .8125rem/1.4 var(--sans);color: var(--accent);margin-bottom: .9rem;letter-spacing: 0;text-transform: none}.lede, .dek{font: 400 1.25rem/1.5 var(--serif);color: var(--ink-2);max-width: 38rem;margin: 1rem 0 1.5rem}.sub{color: var(--ink-2)}.count{font-size: .875rem;color: var(--muted)}.meta{font-size: .8125rem;color: var(--muted)}.byline{font-size: .875rem;color: var(--muted)}.byline a{color: var(--ink);text-decoration-color: var(--line);text-underline-offset: .2em}.disclosure-strip, .kind-note{font-size: .8125rem;color: var(--muted);margin: .5rem 0 0}.disclosure-strip a, .kind-note a{color: var(--ink-2)}.back, .alt-back a{font: 500 .875rem var(--sans);color: var(--muted);text-decoration: none}.back:hover, .alt-back a:hover{color: var(--accent)}.btn, .btn-sm, .btn-cta{display: inline-block;background: var(--ink);color: var(--bg);font: 600 .9375rem/1.2 var(--sans);text-decoration: none;padding: .75rem 1.25rem;border: 0;border-radius: 4px;cursor: pointer;text-align: center}.btn:hover, .btn-sm:hover, .btn-cta:hover{background: var(--accent);color: var(--accent-ink)}.btn.accent{background: var(--accent);color: var(--accent-ink)}.hero-cta, .hero-ctas, .actions{display: flex;align-items: center;gap: 1.4rem;flex-wrap: wrap}.cat-nav{display: flex;gap: .5rem;flex-wrap: wrap;padding: 1.25rem 0}.crumb, .breadcrumbs, .crumbs{padding: 1.25rem 0 0;font-size: .875rem;color: var(--muted)}.crumb ol{list-style: none;display: flex;flex-wrap: wrap;align-items: center}.crumb li{display: flex;align-items: center}.crumb li:not(:last-child)::after, .crumb-sep{content: "/";margin-inline: .45rem;color: var(--line)}.crumb a, .breadcrumbs a, .crumbs a{color: var(--muted);text-decoration: none;display: inline-flex;align-items: center;min-height: 32px}.crumb a:hover{color: var(--accent)}.crumb span{color: var(--ink-2)}.page-head{padding: 1.5rem 0 2rem;border-bottom: 1px solid var(--line)}.page-head h1{max-width: 46rem}.page-head .sub, .page-head > p:not([class]){font: 400 1.2rem/1.5 var(--serif);color: var(--ink-2);margin-top: .8rem;max-width: 42rem}.page-head .count{margin-top: .9rem}.page-head .byline{margin-top: .6rem}.alt-link{font-size: .875rem;margin-top: .4rem;color: var(--muted)}.cta-early{margin-top: .9rem}.cta-early a{font: 600 .9375rem var(--sans);color: var(--ink);text-decoration: underline;text-decoration-color: var(--accent);text-decoration-thickness: 2px;text-underline-offset: .25em}.hero{display: grid;grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);gap: 4rem;padding: 3.5rem 0 3rem;border-bottom: 1px solid var(--line)}.hero h1{font-size: clamp(2.4rem, 5.2vw, 4rem);line-height: 1.04;letter-spacing: -.025em}.hero h1 em, .hero h1 .hl{font-style: italic;font-weight: 400;color: var(--muted)}.figures, .stats-card{align-self: end;border-top: 2px solid var(--rule)}.figures h2, .stats-card h2{font: 600 .8125rem var(--sans);color: var(--muted);padding: .6rem 0 .2rem}.fig, .stat{display: flex;align-items: baseline;justify-content: space-between;gap: 1rem;border-bottom: 1px solid var(--line);padding: .75rem 0;text-align: left}.fig b, .stat .num{font: 500 2.25rem/1 var(--serif);letter-spacing: -.02em;font-variant-numeric: tabular-nums;color: var(--ink)}.fig span, .stat .lbl{color: var(--muted);font-size: .9375rem;text-align: right}.meta .cat{color: var(--accent);font-weight: 600}@media (max-width: 860px){.hero, .latest{grid-template-columns: minmax(0, 1fr);gap: 2rem}}@media (max-width: 560px){.hero{padding: 2rem 0;gap: 1.75rem}.hero h1{font-size: 2.35rem}.lede, .dek{font-size: 1.125rem}.figures, .stats-card{display: grid;grid-template-columns: repeat(3, 1fr);border-top-width: 1px}.figures h2, .stats-card h2{grid-column: 1 / -1}.fig, .stat{flex-direction: column;align-items: flex-start;gap: .3rem;border-bottom: 0;padding: .4rem 0 0}.fig b, .stat .num{font-size: 2rem}.fig span, .stat .lbl{text-align: left;font-size: .8125rem;line-height: 1.3}}#progress{position: fixed;top: 0;left: 0;height: 2px;width: 0;background: var(--accent);z-index: 99}@media (prefers-reduced-motion: reduce){#progress{display: none}}.post-hero{width: 100%;height: auto;display: block;border-radius: 0;margin: .5rem 0 1rem}.page-post article :is(.kicker, .meta, .disclosure-strip, .byline, .made-badge){font-family: var(--sans);font-size: .8125rem;line-height: 1.5;color: var(--muted)}.verdict-cta{margin: 0 0 1.5rem}.page-tools main{padding-bottom: 1rem}.page-tools main > p:not([class]), .page-tools main > section > p:not([class]), .page-tools main > article > p:not([class]), .best-item > p:not([class]), .alt-item > p:not([class]){font: 400 1.0625rem/1.65 var(--serif);color: var(--ink);margin: 0 0 1rem;max-width: 70ch}.page-tools main > h2, .page-tools main > section > h2{margin: 2.25rem 0 .75rem}.tool-body, .page-tools main > p, .page-tools .detail-main p, .page-tools main li{max-width: 72ch}.tool-grid{display: grid;grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));gap: 0 2rem;padding: 1rem 0 2rem}.tool-card{display: flex;flex-direction: column;gap: .4rem;padding: 1.1rem 0 1.2rem;border-top: 1px solid var(--line);text-decoration: none;color: inherit;background: none;border-radius: 0}.tool-card .name{font: 500 1.25rem/1.25 var(--serif);letter-spacing: -.01em;margin: 0;color: var(--ink)}.tool-card:hover .name{color: var(--accent)}.tool-card .tagline{color: var(--ink-2);font-size: .9375rem;line-height: 1.5;flex: 1}.tool-card .meta{display: flex;gap: .4rem;flex-wrap: wrap;align-items: center;margin-top: .3rem}.tool-card img{width: 100%;height: auto;display: block;border: 1px solid var(--line);margin-bottom: .4rem}.tool-card.is-hidden, .hub-group.is-hidden{display: none}.page-head.review-head{display: grid;grid-template-columns: minmax(0, 1fr) 300px;gap: 1rem 3rem;align-items: end}@media (max-width: 860px){.page-head.review-head{grid-template-columns: minmax(0, 1fr)}}.page-tools main .score-band > h2{font-size: 1.6rem;margin: 0 0 .4rem}.page-tools main h2, .page-tools main h3{max-width: 40ch}.page-tools .sec-head h2, .page-tools .hub-group-label{max-width: none}@media (max-width: 700px){.crumb a, .byline a, .post-meta a{position: relative}.crumb a::after, .byline a::after, .post-meta a::after{content: "";position: absolute;inset-block: -8px;inset-inline: -4px}}</style><link rel="stylesheet" href="/style.min.css?v=35e15e57"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      "article h2"
+    ]
+  },
+  "@type": "BlogPosting",
+  "headline": "OpenAI can block your site from its agents, and your logs will never show it",
+  "description": "OpenAI's Aura site-safety check can block its agents from opening your site with no trace in your logs.",
+  "author": {
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/logo.png"
+    }
+  },
+  "datePublished": "2026-11-05",
+  "dateModified": "2026-11-05",
+  "mainEntityOfPage": "https://martechsignal.com/blog/openai-aura-silent-agent-block/",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/openai-aura-silent-agent-block.png",
+    "width": 1200,
+    "height": 630
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://martechsignal.com/blog/#blog"
+  },
+  "inLanguage": "en",
+  "wordCount": 1506,
+  "articleSection": "seo"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": "https://martechsignal.com/blog/openai-aura-silent-agent-block/#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "OpenAI can block your site from its agents, and your logs will never show it",
+      "item": "https://martechsignal.com/blog/openai-aura-silent-agent-block/"
+    }
+  ]
+}
+</script>
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+<script src="/site.js" defer></script>
+</head>
+<body class="page-post">
+<div class="topbar"><div class="wrap topbar-in">
+  <p class="topbar-tag">Independent research on AI marketing automation</p>
+  <button class="theme-toggle" type="button" hidden aria-label="Switch to dark theme"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 2a6 6 0 0 0 0 12z" fill="currentColor"/></svg><span class="tt-label">Dark</span></button>
+</div></div>
+<header class="masthead"><div class="wrap mast-in">
+  <a class="wordmark" href="/">MartechSignal<span class="mark" aria-hidden="true"><i></i><i></i><i></i></span></a>
+  <nav class="mast-nav" aria-label="Primary"><a href="/tools/">Tools</a><a href="/best/">Best</a><a href="/vs/">Comparisons</a><a href="/alternatives/">Alternatives</a><a href="/categories/">Categories</a><a href="/glossary/">Glossary</a><a href="/blog/" aria-current="page">Blog</a><a class="nav-sub" href="/#subscribe">Subscribe</a></nav>
+</div></header>
+<div id="progress" aria-hidden="true"></div>
+<main class="wrap">
+<a class="back" href="/blog/">← All writing</a>
+<article>
+
+<p class="kicker">AI Search · OpenAI · 8 min read</p>
+<h1>OpenAI can block your site from its agents, and your logs will never show it</h1>
+
+<img class="post-hero" src="/og/hero-openai-aura-silent-agent-block.webp" alt="OpenAI can block your site from its agents, and your logs will never show it" width="1200" height="630" srcset="/og/hero-openai-aura-silent-agent-block-480.webp 480w, /og/hero-openai-aura-silent-agent-block-800.webp 800w, /og/hero-openai-aura-silent-agent-block.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async">
+<p class="disclosure-strip"><a href="/methodology/">How we review</a> · No affiliate links</p>
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · OpenAI can block your site from its agents, and your logs will never show it</p>
+<p class="meta"><time datetime="2026-11-05">05 Nov 2026</time></p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/seo/">SEO & Search</a></p><nav class="mini-toc"><b>On this page</b><br><a href="#the-check-that-runs-before-robots-txt-ever-matters">The check that runs before robots.txt ever matters</a> · <a href="#why-nothing-you-own-will-catch-this">Why nothing you own will catch this</a> · <a href="#the-differential-test">The differential test</a> · <a href="#what-makes-a-review-request-credible">What makes a review request credible</a> · <a href="#size-the-problem-honestly">Size the problem honestly</a></nav>
+<p>An international media publisher did everything the AI visibility playbook asks. robots.txt fully open to OpenAI's crawlers. Clean infrastructure. This autumn it even ran a 24-hour OpenAI ad campaign to evaluate the channel. And since May 2026, ChatGPT has been unable to open a single one of its pages.</p>
+
+<p>No 403 in the logs. No WAF events, no challenge pages, no referrer naming the agent. Nothing to grep, because nothing arrived. The refusal happens inside OpenAI's infrastructure, before a request is ever sent, and the publisher only noticed because staff kept getting the same vague error when they asked ChatGPT to read the company's own articles.</p>
+
+<p>The account comes from Dan Taylor, an agency partner who advises the publisher and <a href="https://searchenginejournal.com/openais-aura-safety-check-can-block-your-site-from-chatgpt-browsing/594322">documented the case at Search Engine Journal</a> on October 29. It is the best field manual yet for a failure mode almost nobody monitors for: your site silently excluded from OpenAI's agents, with zero evidence on your side of the connection.</p>
+
+<h2 id="the-check-that-runs-before-robots-txt-ever-matters">The check that runs before robots.txt ever matters</h2>
+
+<p>OpenAI decides whether its browsing tools may connect to a site at all, using a central safety layer its systems refer to as Aura. Taylor found the check visible in network traffic as a call to chatgpt.com/backend-api/aura/site_status. When the answer comes back "blocked," tools like ChatGPT's live fetch and Codex's Browser Use refuse to open the site, regardless of the user's local settings and regardless of robots.txt, and the client caches that refusal for 24 hours.</p>
+
+<p>This layer is separate from the crawlers everyone already monitors. GPTBot, OAI-SearchBot and ChatGPT-User <a href="https://developers.openai.com/api/docs/bots">publish their IPs</a> and follow standard web rules. Aura sits above them as a guard, and it fails closed where it counts: an explicit block holds even when a company administrator sets explicit allow rules, and it overrides the user's own permissions. (Network glitches during the status check itself default to allowing access, which tells you OpenAI knows the difference between "cannot verify" and "verified bad.")</p>
+
+<p>What nobody outside OpenAI knows is what puts a domain on the list. Because the status check sends chat context along with the URL, Taylor reports that some researchers suspect prompt history itself can trip a site-wide label. Whatever the mechanism, the publisher in his account is a mainstream news brand, and OpenAI's own support teams could not initially say whether the block was even intentional.</p>
+
+<h2 id="why-nothing-you-own-will-catch-this">Why nothing you own will catch this</h2>
+
+<p>Your entire observability stack keys on requests that arrive. A block at your edge leaves footprints everywhere: a status code, a WAF event, a challenge in the security console. A block at OpenAI leaves absence, and absence does not trigger alerts. It does not even dent your crawl graphs, because the training and search crawlers keep visiting. In Taylor's case the publisher served about 5,000 successful requests to OpenAI's crawlers over 30 days while Google's bots logged 477,000 and Anthropic's 564,000. The graph looks thin but healthy. The browsing layer was dead the whole time.</p>
+
+<p>This is the same shape as the <a href="/blog/silent-failure-audit/">silent failures we audited in marketing automations</a>: the system reports the state it can see, and the failure lives one layer up where no instrument looks. Your <a href="/blog/dashboard-cant-see-ai-search-5-layer-fix/">analytics cannot see AI search properly</a> even when agents can reach you. When they cannot, the blind spot is total.</p>
+
+<div class="table-wrap"><table><thead><tr><th>Signal</th><th>Blocked at your edge</th><th>Blocked inside OpenAI</th></tr></thead><tbody><tr><td>What the user sees</td><td>403, challenge page, timeout</td><td>Generic agent error naming "site-safety policy"</td></tr><tr><td>Your access logs</td><td>The failed request, with UA and status</td><td>Nothing at the timestamp of the failed attempt</td></tr><tr><td>WAF / bot management console</td><td>A traceable event</td><td>No event</td></tr><tr><td>GPTBot, OAI-SearchBot, ChatGPT-User</td><td>Usually blocked by the same rule</td><td>Still fetching, still getting 2xx</td></tr><tr><td>The fix</td><td>Change your rule, minutes</td><td>OpenAI-side review; no self-service path exists</td></tr></tbody></table></div>
+
+<h2 id="the-differential-test">The differential test</h2>
+
+<p>The only reliable instrument is a test you run yourself, and Taylor's method is worth copying exactly.</p>
+
+<p>Ask ChatGPT to open a specific URL, and try the same URL through other surfaces: the ChatGPT cloud browser, Codex Browser Use, Computer Use. A site-safety block shows up on several surfaces at once, because the decision is upstream of all of them. In the same session, ask for two competitor pages. Competitors load while your site refuses, and your logs show no inbound request at that moment. That combination, refusal on the client plus silence on the server, is the signature.</p>
+
+<p>Then test the edges. Subdomains and deep article URLs stay blocked when the label is on the hostname. The clincher in Taylor's case: a third-party newspaper running the publisher's own technology, on a different domain, loaded fine. Same stack, different hostname, no block. That pins the classification to the domain and rules out anything in the site's own setup.</p>
+
+<p>Before you escalate, rule out your own stack, because sometimes the block really is yours: WAF and bot-management rules, including Cloudflare's AI bot settings, geo-blocking, rate limits, robots.txt. And capture the exact error wording with a timestamp and timezone.</p>
+
+<div class="callout">
+<p><strong>Error strings worth a screenshot.</strong> "The site-safety policy blocks this action." "Browser use is not permitted on [domain]." "URL cannot be opened (non-retryable error)." Each names the platform's policy, not your server. Record the wording, the surface it appeared on, and when.</p>
+</div>
+
+<h2 id="what-makes-a-review-request-credible">What makes a review request credible</h2>
+
+<p>There is no self-service page for Aura classifications, so the evidence pack does the work. Taylor's version: error screenshots with timestamps, the same-session competitor controls, log extracts showing zero inbound agent requests, crawler analytics showing OpenAI's bots still getting 2xx, and your robots.txt. Open a support case, keep every case number, and if more than one product is affected, say so in each case and ask for them to be linked. Ask three questions: does the domain carry a site-safety classification, which surfaces does it affect, and what is the process for review.</p>
+
+<p>Two things not to do. Do not attempt workarounds; the agent is explicitly instructed not to circumvent the policy, and OpenAI's usage policies prohibit bypassing safety mitigations, so a creative redirect is the fastest way to turn a false positive into a justified one. And do not assume one clean test means it is over. Retest on a schedule and log the results, because you will want to know when it clears and whether it comes back.</p>
+
+<h2 id="size-the-problem-honestly">Size the problem honestly</h2>
+
+<p>When an agent cannot open your site, it does not wait. It moves to the next source, and in Taylor's testing the competitors loaded in the same chats where the publisher refused. Answers about a blocked brand get assembled from secondary coverage, forum threads and old articles, which is its own reputation problem. There is a bitter detail for anyone paying OpenAI for ads: an advertiser can buy placement in ChatGPT while the browsing agents are blocked from opening the advertiser's links.</p>
+
+<p>The channel is small enough today that some teams will shrug. OpenAI's own consumer lead says ChatGPT sees <a href="https://searchenginejournal.com/googles-search-volume-is-about-5x-chatgpts-openai-says/595817">about a fifth as many search-like queries as Google</a>, while Ahrefs' October referral tracker put ChatGPT at 0.36% of traffic across 118,671 sites versus Google's 24.74%. But agent traffic is precisely the kind that never becomes a pageview, so referral share understates it, and <a href="/blog/chatgpt-isnt-search-anymore-its-checkout/">the agents are the checkout now</a>, not the doorway. A site that is merely uncited can still be <a href="/blog/link-building-wont-get-you-into-ai-answers/">reached through community signals</a>. A site an agent cannot open does not exist.</p>
+
+<p>One more blind spot while you are checking: the AI visibility trackers in our <a href="/categories/geo-llm-visibility/">GEO and LLM optimization category</a>, tools like <a href="/tools/profound/">Profound</a> and <a href="/tools/otterlyai/">OtterlyAI</a>, measure whether you get cited. None of them alert when an agent cannot fetch you at all. That test is yours to run, alongside the <a href="/blog/aeo-for-seo-what-changes-when-buyers-ask/">AEO work</a> you are probably already doing.</p>
+
+<div class="verdict warn">
+<p><strong>The verdict: you cannot detect an OpenAI-side block from your own logs, ever.</strong> The block fires before a request leaves OpenAI, your crawlers keep returning 2xx, and no dashboard reports the absence. Put a recurring agent-fetch test of your five most important URLs next to your synthetic uptime checks, and treat the results as the evidence base for any review request. Five minutes a week beats explaining a dead AI channel a quarter later.</p>
+</div>
+
+<p>Crawlable is not openable. Search engines went opaque with penalties once, then built webmaster tools so site owners could at least see the wall. OpenAI has not built that yet. Until it does, the only detector for this failure mode is a test you schedule yourself.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/openai-agent-ads-spending-without-you/">OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.</a></li><li><a href="/blog/chatgpt-isnt-search-anymore-its-checkout/">ChatGPT Isn't Search Anymore, It's Checkout</a></li><li><a href="/blog/rogue-ai-agents-trust-debate/">Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/promptfoo/">Promptfoo</a> - Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming</li><li><a href="/tools/codex-seo/">Codex SEO</a> - Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations</li><li><a href="/tools/growth-lab/">Growth Lab</a> - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/agent-skills-tools/">Best Agent Skills tools (2026): 8 compared</a></li><li><a href="/best/open-source-marketing-tools/">Best Open-Source Marketing Tools (2026): 8 compared</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/ai-agent/">AI Agent</a></li><li><a href="/glossary/geo/">GEO</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">Subscribe →</a>
+</div>
+
+</article>
+</main>
+<footer class="site-foot"><div class="wrap foot-cols">
+  <div class="foot-brand">
+    <p class="foot-wm">MartechSignal</p>
+    <p>Independent research on AI marketing automation, written by <a href="/authors/tim-christensen/">Tim Christensen</a>. No affiliate links. No sponsored rankings.</p>
+    <p class="fine">© 2026 MartechSignal</p>
+  </div>
+  <nav class="foot-col" aria-label="Research"><p class="foot-h">Research</p><a href="/tools/">Tools</a><a href="/best/">Best</a><a href="/vs/">Comparisons</a><a href="/alternatives/">Alternatives</a><a href="/categories/">Categories</a><a href="/trending/">Trending</a><a href="/checklist/">Checklist</a></nav>
+  <nav class="foot-col" aria-label="Read"><p class="foot-h">Read</p><a href="/blog/">Blog</a><a href="/guides/">Guides</a><a href="/glossary/">Glossary</a><a href="/rss.xml">RSS</a><a href="/#subscribe">Subscribe</a></nav>
+  <nav class="foot-col" aria-label="About"><p class="foot-h">About</p><a href="/about/">About</a><a href="/authors/tim-christensen/">Author</a><a href="/methodology/">Methodology</a><a href="/corrections/">Corrections</a><a href="/ai-policy/">AI policy</a><a href="/llms.txt">AI catalog</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></nav>
+</div></footer>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}</script></body>
+</html>
