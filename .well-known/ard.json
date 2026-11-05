@@ -2886,6 +2886,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:openai-aura-silent-agent-block",
+   "displayName": "OpenAI can block your site from its agents, invisibly",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/openai-aura-silent-agent-block/",
+   "description": "OpenAI's Aura site-safety check can block its agents from opening your site with no trace in your logs.",
+   "representativeQueries": [
+    "openai can block your site from its agents, invisibly",
+    "openai aura silent agent block"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:oss-martech-50-day-checkin",
    "displayName": "Fifty days of open-source MarTech, audited",
    "type": "text/html",
@@ -4010,7 +4021,7 @@
    "displayName": "Open-Source MarTech Momentum: GitHub Stars",
    "type": "text/html",
    "url": "https://martechsignal.com/trending/",
-   "description": "Every morning we snapshot the GitHub stars of all 88 open-source tools in our 174-tool catalog (all of them list a public GitHub repository). 85 have enough history to chart here; a repository needs 5",
+   "description": "Every morning we snapshot the GitHub stars of all 88 open-source tools in our 174-tool catalog (all of them list a public GitHub repository). 88 have enough history to chart here; a repository needs 5",
    "representativeQueries": [
     "trending martech tools",
     "what tools trend on github"

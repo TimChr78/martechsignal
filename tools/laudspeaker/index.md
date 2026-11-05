@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Laudspeaker
-Re-check pending: pricing last verified 2026-08-28 (63 days ago).
+Re-check pending: pricing last verified 2026-08-28 (69 days ago).
 
 Review · Marketing Automation
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 2,630
+- **GitHub stars:** 2,631
 
 [How we review](/methodology/) · No affiliate links
 
@@ -77,7 +77,7 @@ The open-source Braze alternative for technical growth teams that want data owne
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: AI-powered messaging |  |
-| ✓ Active public repository (2,630 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,631 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -94,10 +94,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Laudspeaker?**
-Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Laudspeaker ships with AI-powered messaging. The public repository carries 2,630 stars.
+Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Laudspeaker ships with AI-powered messaging. The public repository carries 2,631 stars.
 
 **How much does Laudspeaker cost?**
-Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,630 stars. You pay in server time and maintenance, not licences.
+Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,631 stars. You pay in server time and maintenance, not licences.
 
 **Is Laudspeaker a good self-hosted Marketing Automation tool in 2026?**
 The open-source Braze alternative for technical growth teams that want data ownership. Others go hosted.
@@ -112,8 +112,8 @@ The open-source Braze alternative for technical growth teams that want data owne
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
 ## Also featured in
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Lifecycle messaging and onboarding journeys that live outside the CRM
@@ -121,9 +121,9 @@ The open-source Braze alternative for technical growth teams that want data owne
 
 - **Pricing:** Open Source
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
-- **GitHub:** ★ 2630
+- **GitHub:** ★ 2631
 - **API:** Yes
-- **Repository checked:** 2026-10-27
+- **Repository checked:** 2026-11-05
 - **Page updated:** 2026-08-28
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Loops
-Re-check pending: pricing last verified 2026-09-07 (53 days ago).
+Re-check pending: pricing last verified 2026-09-07 (59 days ago).
 
 Review · Email Marketing
 

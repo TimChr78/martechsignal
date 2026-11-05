@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Seonaut
-Re-check pending: pricing last verified 2026-09-07 (53 days ago).
+Re-check pending: pricing last verified 2026-09-07 (59 days ago).
 
 Review · SEO & Search
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $9/mo
 - **Licence:** MIT
-- **GitHub stars:** 845
+- **GitHub stars:** 858
 
 [How we review](/methodology/) · No affiliate links
 
@@ -114,7 +114,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Seonaut?**
-Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 845 stars.
+Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 858 stars.
 
 **How much does Seonaut cost?**
 Seonaut has a free tier; paid plans start at $9/mo. MIT-licensed self-hosted free; cloud Lite free for 1 project and 500 URLs per project, Growth $9/mo for 5 projects and 10,000 URLs with recurring audits. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -141,17 +141,17 @@ On core technical auditing, more than you might expect: broken links, redirect c
 ## Related reading
 
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $9/mo
 - **Category:** [SEO & Search](/categories/seo/)
-- **GitHub:** ★ 845
+- **GitHub:** ★ 858
 - **Founded:** 2022
 - **HQ:** Open source
 - **API:** No
-- **Repository checked:** 2026-10-30
+- **Repository checked:** 2026-11-05
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

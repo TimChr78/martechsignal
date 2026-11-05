@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - AI Business Skills
-Re-check pending: pricing last verified 2026-08-28 (63 days ago).
+Re-check pending: pricing last verified 2026-08-28 (69 days ago).
 
 Review · Agent Skills
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 638
+- **GitHub stars:** 642
 
 [How we review](/methodology/) · No affiliate links
 
@@ -102,10 +102,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is AI Business Skills?**
-AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 638 stars.
+AI Business Skills: 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents. AI Business Skills ships with 63 bilingual skills (31 Vietnamese + 31 Global + 1 Design Master). The public repository carries 642 stars.
 
 **How much does AI Business Skills cost?**
-AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 638 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
+AI Business Skills is open source - MIT licensed and free to self-host; the public repository carries 642 stars; native integrations cover Claude Code, OpenCode, Codex. You pay in server time and maintenance, not licences.
 
 **Is AI Business Skills a good self-hosted Agent Skills tool in 2026?**
 The strongest free skill pack for Vietnamese-market marketing teams. Global agencies will find it useful mainly as a starting point.
@@ -120,16 +120,16 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
 - [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 638
+- **GitHub:** ★ 642
 - **Founded:** 2025
 - **API:** No
-- **Repository checked:** 2026-10-29
+- **Repository checked:** 2026-11-05
 - **Page updated:** 2026-08-28
 
 ## Get the next teardown

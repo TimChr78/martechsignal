@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - LangChain
-Re-check pending: pricing last verified 2026-08-28 (63 days ago).
+Re-check pending: pricing last verified 2026-08-28 (69 days ago).
 
 Review · Workflow Automation
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $39/mo
 - **Licence:** MIT
-- **GitHub stars:** 148,690
+- **GitHub stars:** 149,047
 
 [How we review](/methodology/) · No affiliate links
 
@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 47/60
 
-LangChain is the agent framework everything else measures against: 148,654 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.
+LangChain is the agent framework everything else measures against: 148,690 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.
 
 
 | Pillar | Score | Evidence |
@@ -90,7 +90,7 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $39/mo |
 | ✓ AI capabilities: LLM chaining |  |
-| ✓ Active public repository (148,690 GitHub stars counted at last check) |  |
+| ✓ Active public repository (149,047 GitHub stars counted at last check) |  |
 | ✓ Native integrations include OpenAI, Anthropic, Google AI (10 listed) |  |
 
 ## Related concepts
@@ -108,7 +108,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is LangChain?**
-LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 148,690 stars.
+LangChain: Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. LangChain ships with LLM chaining. The public repository carries 149,047 stars.
 
 **How much does LangChain cost?**
 LangChain has a free tier; paid plans start at $39/mo. Open source (MIT license); LangSmith free tier, paid plans from $39/mo; LangGraph Cloud from $39/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -132,11 +132,11 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 
 - **Pricing:** Open Source from $39/mo
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
-- **GitHub:** ★ 148690
+- **GitHub:** ★ 149047
 - **Founded:** 2022
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
-- **Repository checked:** 2026-10-30
+- **Repository checked:** 2026-11-05
 - **Page updated:** 2026-08-28
 
 ## Get the next teardown

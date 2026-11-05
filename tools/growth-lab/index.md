@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Growth Lab
-Re-check pending: pricing last verified 2026-08-28 (63 days ago).
+Re-check pending: pricing last verified 2026-08-28 (69 days ago).
 
 Review · Agent Skills
 
@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 34/60
 
-Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 1,972 stars; the harness cost is on you.
+Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 1,971 stars; the harness cost is on you.
 
 
 | Pillar | Score | Evidence |
@@ -120,8 +120,8 @@ Promising for teams ready to run self-hosted SEO loops with agent review. Everyo
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -129,7 +129,7 @@ Promising for teams ready to run self-hosted SEO loops with agent review. Everyo
 - **GitHub:** ★ 1971
 - **Founded:** 2026
 - **API:** No
-- **Repository checked:** 2026-10-30
+- **Repository checked:** 2026-11-05
 - **Page updated:** 2026-08-28
 
 ## Get the next teardown

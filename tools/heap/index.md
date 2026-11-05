@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Heap
+Re-check pending: pricing last verified 2026-10-12 (24 days ago).
+
 Review · Analytics & Attribution
 
 ## Heap review (2026): pricing, AI features, verdict

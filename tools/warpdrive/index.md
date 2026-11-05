@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Warpdrive
-Re-check pending: pricing last verified 2026-09-07 (53 days ago).
+Re-check pending: pricing last verified 2026-09-07 (59 days ago).
 
 Review · CRM
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 74
+- **GitHub stars:** 486
 
 [How we review](/methodology/) · No affiliate links
 
@@ -98,7 +98,7 @@ A scoped, honestly documented self-hosted Pipedrive alternative whose AI story i
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (74 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (486 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ Native integrations include Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage (4 listed) |  |
 
 ## Related concepts
@@ -116,10 +116,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Warpdrive?**
-Warpdrive: Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box. The public repository carries 74 stars.
+Warpdrive: Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box. The public repository carries 486 stars.
 
 **How much does Warpdrive cost?**
-Warpdrive is open source - MIT licensed and free to self-host; the public repository carries 74 stars; native integrations cover Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage. You pay in server time and maintenance, not licences.
+Warpdrive is open source - MIT licensed and free to self-host; the public repository carries 486 stars; native integrations cover Gmail / Google Workspace, Google Workspace SSO, MinIO / S3-compatible storage. You pay in server time and maintenance, not licences.
 
 **Is Warpdrive a good self-hosted CRM tool in 2026?**
 A scoped, honestly documented self-hosted Pipedrive alternative whose AI story is an MCP server rather than a model. One maintainer and a private upstream mean you are betting on a person, not a community.
@@ -149,9 +149,9 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 74
+- **GitHub:** ★ 486
 - **API:** No
-- **Repository checked:** 2026-10-30
+- **Repository checked:** 2026-11-05
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

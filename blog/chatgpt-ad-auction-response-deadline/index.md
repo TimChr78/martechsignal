@@ -68,12 +68,12 @@ Pressure the stage reporting first. OpenAI's logs already record whether your ad
 
 - [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [OpenAI can block your site from its agents, and your logs will never show it](/blog/openai-aura-silent-agent-block/)
 ## Related tools
 
 - [Nosto](/tools/nosto/) - AI-powered ecommerce personalization with product recommendations and merchandising
+- [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 - [Smartly.io](/tools/smartly-io/) - AI advertising platform spanning creative production, media buying, and measurement
-- [Promptfoo](/tools/promptfoo/) - Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming
 ## Comparison guides
 
 - [Best n8n alternatives (2026)](/alternatives/n8n/)

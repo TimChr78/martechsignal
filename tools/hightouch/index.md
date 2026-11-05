@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Hightouch
-Re-check pending: pricing last verified 2026-10-01 (29 days ago).
+Re-check pending: pricing last verified 2026-10-01 (35 days ago).
 
 Review · Personalization & CDP
 

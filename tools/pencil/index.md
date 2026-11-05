@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Pencil
-Re-check pending: pricing last verified 2026-09-06 (54 days ago).
+Re-check pending: pricing last verified 2026-09-06 (60 days ago).
 
 Review · Advertising & Paid Media
 
@@ -147,9 +147,9 @@ Yes. Brandtech Group branding appears across the site, the legal entity in the f
 - [AdCreative.ai](/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
 ## Related reading
 
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [OpenAI can block your site from its agents, and your logs will never show it](/blog/openai-aura-silent-agent-block/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Best for advertising & paid media teams that want gwi-powered insights agent, starting at $14/mo.

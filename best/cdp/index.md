@@ -49,9 +49,9 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- RudderStack - 4,509 stars, +15 in the 27-snapshot window to 2026-10-30 4,494→4,509 [verify on GitHub](https://github.com/rudderlabs/rudder-server)
-- Jitsu - 5,122 stars, +31 in the 33-snapshot window to 2026-10-30 5,091→5,122 [verify on GitHub](https://github.com/jitsucom/jitsu)
-- Apache Unomi - 380 stars, +5 in the 33-snapshot window to 2026-10-30 375→380 [verify on GitHub](https://github.com/apache/unomi)
+- RudderStack - 4,515 stars, +21 in the 33-snapshot window to 2026-11-05 4,494→4,515 [verify on GitHub](https://github.com/rudderlabs/rudder-server)
+- Jitsu - 5,127 stars, +36 in the 39-snapshot window to 2026-11-05 5,091→5,127 [verify on GitHub](https://github.com/jitsucom/jitsu)
+- Apache Unomi - 381 stars, +6 in the 39-snapshot window to 2026-11-05 375→381 [verify on GitHub](https://github.com/apache/unomi)
 [All movers on the trending page](/trending/).
 
 ## [RudderStack](/tools/rudderstack/)

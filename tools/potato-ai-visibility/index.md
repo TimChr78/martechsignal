@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Potato
-Re-check pending: pricing last verified 2026-08-31 (60 days ago).
+Re-check pending: pricing last verified 2026-08-31 (66 days ago).
 
 Kind: Utility (not an end-to-end platform)
 
@@ -22,7 +22,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 166
+- **GitHub stars:** 164
 
 [How we review](/methodology/) · No affiliate links
 
@@ -85,7 +85,7 @@ The most methodologically honest AI-visibility tool in this directory: scoped cl
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (166 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (164 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: measures brand mention coverage in Claude web-search answers |  |
 | ✓ Native integrations include Anthropic Claude, CLI, Local GUI wizard (3 listed) |  |
 
@@ -104,10 +104,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Potato?**
-Potato: Free local tool that measures brand mentions and citations in Claude's web-search answers. Potato ships with measures brand mention coverage in Claude web-search answers. The public repository carries 166 stars.
+Potato: Free local tool that measures brand mentions and citations in Claude's web-search answers. Potato ships with measures brand mention coverage in Claude web-search answers. The public repository carries 164 stars.
 
 **How much does Potato cost?**
-Potato is open source - MIT licensed and free to self-host; the public repository carries 166 stars; native integrations cover Anthropic Claude, CLI, Local GUI wizard. You pay in server time and maintenance, not licences.
+Potato is open source - MIT licensed and free to self-host; the public repository carries 164 stars; native integrations cover Anthropic Claude, CLI, Local GUI wizard. You pay in server time and maintenance, not licences.
 
 **Is Potato a good self-hosted SEO & Search tool in 2026?**
 The most methodologically honest AI-visibility tool in this directory: scoped claims, deterministic scoring, cost-capped runs, and a reproducible method. Use it to track your Claude-answer presence over time; do not mistake it for a full AI-search measurement.
@@ -127,10 +127,10 @@ The most methodologically honest AI-visibility tool in this directory: scoped cl
 
 - **Pricing:** Open Source
 - **Category:** [SEO & Search](/categories/seo/)
-- **GitHub:** ★ 166
+- **GitHub:** ★ 164
 - **Founded:** 2026
 - **API:** Yes
-- **Repository checked:** 2026-10-03
+- **Repository checked:** 2026-11-05
 - **Page updated:** 2026-08-31
 
 ## Get the next teardown

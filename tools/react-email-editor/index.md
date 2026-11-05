@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - React Email Editor
-Re-check pending: pricing last verified 2026-09-06 (54 days ago).
+Re-check pending: pricing last verified 2026-09-06 (60 days ago).
 
 Review · Email Marketing
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $250/mo
 - **Licence:** MIT
-- **GitHub stars:** 5,251
+- **GitHub stars:** 5,254
 
 [How we review](/methodology/) · No affiliate links
 
@@ -111,7 +111,7 @@ The fastest route to a real email builder inside a React app, and an honest one 
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ Paid plans start at $250/mo |
 | ✓ AI capabilities: AI Assistant chat editing |  |
-| ✓ Active public repository (5,251 GitHub stars counted at last check) |  |
+| ✓ Active public repository (5,254 GitHub stars counted at last check) |  |
 | ✓ Native integrations include React, Angular, Vue (7 listed) |  |
 
 ## Related concepts
@@ -127,7 +127,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is React Email Editor?**
-React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,251 stars.
+React Email Editor: Drag-n-Drop Email Editor Component for React.js. React Email Editor ships with AI Assistant chat editing. The public repository carries 5,254 stars.
 
 **How much does React Email Editor cost?**
 React Email Editor has a free tier; paid plans start at $250/mo. Free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -157,8 +157,8 @@ If you need a fully open pipeline with no third-party dependency, yes, and you s
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Developer teams that want email templates versioned as code
@@ -166,9 +166,9 @@ If you need a fully open pipeline with no third-party dependency, yes, and you s
 
 - **Pricing:** Open Source from $250/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 5251
+- **GitHub:** ★ 5254
 - **API:** No
-- **Repository checked:** 2026-10-30
+- **Repository checked:** 2026-11-05
 - **Page updated:** 2026-09-06
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

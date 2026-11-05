@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://martechsignal.com/</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://martechsignal.com/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://martechsignal.com/checklist/</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://martechsignal.com/blog/agents-identity-debt/</loc><lastmod>2026-09-25</lastmod></url>
   <url><loc>https://martechsignal.com/blog/ai-agents-need-campaign-state/</loc><lastmod>2026-09-27</lastmod></url>
@@ -24,6 +24,7 @@
   <url><loc>https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/openai-aura-silent-agent-block/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/</loc><lastmod>2026-09-09</lastmod></url>
   <url><loc>https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/</loc><lastmod>2026-09-09</lastmod></url>
   <url><loc>https://martechsignal.com/blog/cdp-reckoning-warehouse-native/</loc><lastmod>2026-09-09</lastmod></url>
@@ -156,7 +157,7 @@
   <url><loc>https://martechsignal.com/tools/notifo/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://martechsignal.com/tools/notifuse/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://martechsignal.com/tools/open-mercato/</loc><lastmod>2026-09-07</lastmod></url>
-  <url><loc>https://martechsignal.com/tools/openclaw-marketing-skills/</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://martechsignal.com/tools/openclaw-marketing-skills/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://martechsignal.com/tools/openoutreach/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://martechsignal.com/tools/openseo/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://martechsignal.com/tools/opteo/</loc><lastmod>2026-09-07</lastmod></url>
@@ -336,5 +337,5 @@
   <url><loc>https://martechsignal.com/vs/n8n-vs-zapier/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/vs/nocodb-vs-nocobase/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/blog/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/</loc><lastmod>2026-11-05</lastmod></url>
 </urlset>

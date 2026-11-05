@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Codex SEO
+Re-check pending: pricing last verified 2026-10-12 (24 days ago).
+
 Review · Agent Skills
 
 ## Codex SEO review (2026): pricing, AI features, verdict
@@ -18,7 +20,7 @@ MartechSignal score
 
 - **Price:** Free
 - **Licence:** proprietary
-- **GitHub stars:** 891
+- **GitHub stars:** 900
 
 [How we review](/methodology/) · No affiliate links
 
@@ -101,7 +103,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Codex SEO?**
-Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 891 stars.
+Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 900 stars.
 
 **How much does Codex SEO cost?**
 Codex SEO has a free tier, so you can run a real evaluation before paying. Free to use. The bundled licence is proprietary (courtesy of the author) - not an OSS licence. We last checked the plan structure on 2026-10-12; paid tiers mainly raise limits rather than unlocking core features.
@@ -119,8 +121,8 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for Codex CLI users who want scripted SEO workflows.
@@ -128,10 +130,10 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 
 - **Pricing:** Free
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 891
+- **GitHub:** ★ 900
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-10-30
+- **Repository checked:** 2026-11-05
 - **Page updated:** 2026-10-12
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Hootsuite
-Re-check pending: pricing last verified 2026-09-27 (33 days ago).
+Re-check pending: pricing last verified 2026-09-27 (39 days ago).
 
 Review · Social Media
 
