@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Salesforce CRM
-Re-check pending: pricing last verified 2026-08-28 (69 days ago).
+Re-check pending: pricing last verified 2026-08-28 (70 days ago).
 
 Review · CRM
 

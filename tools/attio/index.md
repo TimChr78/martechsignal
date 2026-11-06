@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Attio
-Re-check pending: pricing last verified 2026-10-05 (31 days ago).
+Re-check pending: pricing last verified 2026-10-05 (32 days ago).
 
 Review · CRM
 

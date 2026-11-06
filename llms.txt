@@ -221,6 +221,7 @@
 
 ## Analysis
 
+- [Your Agent's Price Quote Is a Stale Snapshot](https://martechsignal.com/blog/agent-price-quotes-are-stale-snapshots/) (2026-11-06)
 - [OpenAI can block your site from its agents, invisibly](https://martechsignal.com/blog/openai-aura-silent-agent-block/) (2026-11-05)
 - [Faster output didn't ship campaigns faster. Fewer handoffs did](https://martechsignal.com/blog/faster-output-fewer-handoffs/) (2026-10-30)
 - [The CDP is being rebuilt as an agent's context layer](https://martechsignal.com/blog/cdp-agents-context-layer/) (2026-10-29)
@@ -443,6 +444,6 @@
 ## Machine-readable data
 
 - [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 176 records = 174 active + 2 non-active; the directory above lists only active tools
-- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 341 entries with representativeQueries (specVersion 1.0)
+- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 342 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

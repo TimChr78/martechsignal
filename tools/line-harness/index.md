@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Line Harness
-Re-check pending: pricing last verified 2026-09-07 (59 days ago).
+Re-check pending: pricing last verified 2026-09-07 (60 days ago).
 
 Review · Marketing Automation
 
@@ -137,8 +137,8 @@ The docs describe BAN detection with automatic friend migration to the next acco
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ### Quick Facts
 
 - **Pricing:** Open Source
@@ -147,7 +147,7 @@ The docs describe BAN detection with automatic friend migration to the next acco
 - **Founded:** 2026
 - **HQ:** Tokyo, Japan
 - **API:** Yes
-- **Repository checked:** 2026-11-05
+- **Repository checked:** 2026-11-06
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

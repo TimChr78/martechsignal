@@ -2435,6 +2435,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:agent-price-quotes-are-stale-snapshots",
+   "displayName": "Your Agent's Price Quote Is a Stale Snapshot",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/agent-price-quotes-are-stale-snapshots/",
+   "description": "Agents quote prices from memory and stale pages.",
+   "representativeQueries": [
+    "your agent's price quote is a stale snapshot",
+    "agent price quotes are stale snapshots"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:agent-protocol-vs-data-plumbing",
    "displayName": "Agent protocol vs data plumbing: what actually fails",
    "type": "text/html",

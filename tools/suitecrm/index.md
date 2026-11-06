@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - SuiteCRM
-Re-check pending: pricing last verified 2026-09-07 (59 days ago).
+Re-check pending: pricing last verified 2026-09-07 (60 days ago).
 
 Review · CRM
 
@@ -151,7 +151,7 @@ As a fresh installation, not an in-place patch. The docs require the latest 7.x 
 - **GitHub:** ★ 5844
 - **HQ:** Stirling, Scotland, UK
 - **API:** Yes
-- **Repository checked:** 2026-11-05
+- **Repository checked:** 2026-11-06
 - **Page updated:** 2026-09-07
 
 Related guides: [SuiteCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - SEO Skill Bench
-Re-check pending: pricing last verified 2026-09-03 (63 days ago).
+Re-check pending: pricing last verified 2026-09-03 (64 days ago).
 
 Review · Agent Skills
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 48
+- **GitHub stars:** 45
 
 [How we review](/methodology/) · No affiliate links
 
@@ -69,7 +69,7 @@ Free, MIT licensed. Runs cost LLM API tokens only: leaderboard runs cost $1.70 t
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (48 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (45 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: headless execution of Claude Code SEO skills | ✗ Short native integration list - plan for API work |
 | ✓ Native integrations include Claude Code (1 listed) |  |
 
@@ -87,13 +87,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is SEO Skill Bench?**
-SEO Skill Bench: Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects. SEO Skill Bench ships with headless execution of Claude Code SEO skills. The public repository carries 48 stars.
+SEO Skill Bench: Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects. SEO Skill Bench ships with headless execution of Claude Code SEO skills. The public repository carries 45 stars.
 
 **How much does SEO Skill Bench cost?**
-SEO Skill Bench is open source - MIT licensed and free to self-host; the public repository carries 48 stars. You pay in server time and maintenance, not licences.
+SEO Skill Bench is open source - MIT licensed and free to self-host; the public repository carries 45 stars. You pay in server time and maintenance, not licences.
 
 **Is SEO Skill Bench a good self-hosted Agent Skills tool in 2026?**
-Strengths include 48 GitHub stars, MIT licensing with free self-hosting. SEO Skill Bench documents 1 integration
+Strengths include 45 GitHub stars, MIT licensing with free self-hosting. SEO Skill Bench documents 1 integration
 
 ## Similar tools
 
@@ -105,15 +105,15 @@ Strengths include 48 GitHub stars, MIT licensing with free self-hosting. SEO Ski
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
-- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 48
+- **GitHub:** ★ 45
 - **API:** No
-- **Repository checked:** 2026-10-26
+- **Repository checked:** 2026-11-06
 - **Page updated:** 2026-09-03
 
 ## Get the next teardown

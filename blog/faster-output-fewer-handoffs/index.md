@@ -96,4 +96,4 @@ Everyone has the fast generator now. The advantage moved to whoever has the shor
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SendPortal](/tools/sendportal/)
+More from the directory: [SISTRIX](/tools/sistrix/)

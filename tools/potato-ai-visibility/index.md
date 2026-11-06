@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Potato
-Re-check pending: pricing last verified 2026-08-31 (66 days ago).
+Re-check pending: pricing last verified 2026-08-31 (67 days ago).
 
 Kind: Utility (not an end-to-end platform)
 
@@ -30,7 +30,7 @@ MartechSignal score
 
 ## MartechSignal Score: 32/60
 
-Potato measures one thing locally: whether Claude's web-search answers mention and cite your brand, with link-rot checking. MIT and 166 stars; the $0 mock mode makes it testable before you spend a cent.
+Potato measures one thing locally: whether Claude's web-search answers mention and cite your brand, with link-rot checking. MIT and 164 stars; the $0 mock mode makes it testable before you spend a cent.
 
 
 | Pillar | Score | Evidence |

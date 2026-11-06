@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - RudderStack
-Re-check pending: pricing last verified 2026-10-01 (35 days ago).
+Re-check pending: pricing last verified 2026-10-01 (36 days ago).
 
 Review · Personalization & CDP
 
@@ -1112,7 +1112,7 @@ Best open-core CDP for teams that self-host the data plane: free 250K events/mo,
 - **Founded:** 2019
 - **HQ:** San Francisco, California
 - **API:** Yes
-- **Repository checked:** 2026-11-05
+- **Repository checked:** 2026-11-06
 - **Page updated:** 2026-10-01
 
 Related guides: [Cdp](/best/cdp/)

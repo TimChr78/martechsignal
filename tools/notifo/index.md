@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Notifo
-Re-check pending: pricing last verified 2026-09-07 (59 days ago).
+Re-check pending: pricing last verified 2026-09-07 (60 days ago).
 
 Review · Email Marketing
 
@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 31/60
 
-Notifo is self-hosted notification plumbing: email, SMS and push through your own SES and MessageBird accounts. MIT with 883 stars and no AI story, which fits infrastructure.
+Notifo is self-hosted notification plumbing: email, SMS and push through your own SES and MessageBird accounts. MIT with 885 stars and no AI story, which fits infrastructure.
 
 
 | Pillar | Score | Evidence |

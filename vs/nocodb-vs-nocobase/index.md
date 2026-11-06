@@ -49,7 +49,7 @@ Cost picture for a 10-person ops team. All figures checked 2026-09-27 on vendor 
 
 ## Positioning
 
-**NocoDB:** NocoDB turns Postgres or MySQL you already run into an Airtable-style workspace: grids, forms, kanban, calendar, and map views over your existing tables, with per-role permissions, webhooks, and REST APIs. At 65,384 GitHub stars it is the larger project. Its natural home is the spreadsheet sprawl behind campaign ops: content calendars, launch checklists, partner trackers, lead lists.
+**NocoDB:** NocoDB turns Postgres or MySQL you already run into an Airtable-style workspace: grids, forms, kanban, calendar, and map views over your existing tables, with per-role permissions, webhooks, and REST APIs. At 65,432 GitHub stars it is the larger project. Its natural home is the spreadsheet sprawl behind campaign ops: content calendars, launch checklists, partner trackers, lead lists.
 
 **NocoBase:** NocoBase is a no-code platform for assembling business systems: CRMs, approval flows, content operations, and dashboards, built data-model-first from configurable collections, pages, and workflow blocks, extended through a plugin architecture that reaches nearly everything including UI blocks. Version 2.0 adds AI employees. It expects data-model thinking rather than grid thinking.
 
@@ -133,8 +133,8 @@ Last verified 2026-09-28.
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- NocoDB - 65,432 stars, +579 in the 59-snapshot window to 2026-11-05 64,853→65,432 [verify on GitHub](https://github.com/nocodb/nocodb)
-- NocoBase - 24,836 stars, +997 in the 71-snapshot window to 2026-11-05 23,839→24,836 [verify on GitHub](https://github.com/nocobase/nocobase)
+- NocoDB - 65,439 stars, +586 in the 60-snapshot window to 2026-11-06 64,853→65,439 [verify on GitHub](https://github.com/nocodb/nocodb)
+- NocoBase - 24,846 stars, +1,007 in the 72-snapshot window to 2026-11-06 23,839→24,846 [verify on GitHub](https://github.com/nocobase/nocobase)
 [All movers on the trending page](/trending/).
 
 ## Get the next teardown

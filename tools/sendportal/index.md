@@ -4,6 +4,8 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - SendPortal
+Re-check pending: pricing last verified 2026-10-15 (22 days ago).
+
 Review · Email Marketing
 
 ## SendPortal review (2026): pricing, AI features, verdict
@@ -154,7 +156,7 @@ The most recent release in our catalog is v4.0.0 (2026-10-12). For the full hist
 - **Founded:** 2020
 - **HQ:** London, UK
 - **API:** Yes
-- **Repository checked:** 2026-11-05
+- **Repository checked:** 2026-11-06
 - **Page updated:** 2026-10-15
 
 ## Get the next teardown

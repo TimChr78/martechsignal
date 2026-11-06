@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - DeskcommCRM
-Re-check pending: pricing last verified 2026-09-14 (52 days ago).
+Re-check pending: pricing last verified 2026-09-14 (53 days ago).
 
 Review · CRM
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 5,154
+- **GitHub stars:** 5,199
 
 [How we review](/methodology/) · No affiliate links
 
@@ -82,7 +82,7 @@ Current plans and limits live on the [DeskcommCRM pricing section](https://deskc
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ AI capabilities: per-tenant RAG knowledge base for WhatsApp agents |  |
-| ✓ Active public repository (5,154 GitHub stars counted at last check) |  |
+| ✓ Active public repository (5,199 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WhatsApp (WAHA QR-code), WhatsApp Cloud API (Meta official), Supabase (10 listed) |  |
 
 ## Related concepts
@@ -100,13 +100,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is DeskcommCRM?**
-DeskcommCRM: Self-hosted open-source CRM with AI agents that sell through WhatsApp. DeskcommCRM ships with per-tenant RAG knowledge base for WhatsApp agents. The public repository carries 5,154 stars.
+DeskcommCRM: Self-hosted open-source CRM with AI agents that sell through WhatsApp. DeskcommCRM ships with per-tenant RAG knowledge base for WhatsApp agents. The public repository carries 5,199 stars.
 
 **How much does DeskcommCRM cost?**
-DeskcommCRM is open source - MIT licensed and free to self-host; the public repository carries 5,154 stars; native integrations cover WhatsApp (WAHA QR-code), WhatsApp Cloud API (Meta official), Supabase. You pay in server time and maintenance, not licences.
+DeskcommCRM is open source - MIT licensed and free to self-host; the public repository carries 5,199 stars; native integrations cover WhatsApp (WAHA QR-code), WhatsApp Cloud API (Meta official), Supabase. You pay in server time and maintenance, not licences.
 
 **Is DeskcommCRM a good self-hosted CRM tool in 2026?**
-Strengths include 5,154 GitHub stars, MIT licensing with free self-hosting, an API for custom integrations. DeskcommCRM documents 10 integrations
+Strengths include 5,199 GitHub stars, MIT licensing with free self-hosting, an API for custom integrations. DeskcommCRM documents 10 integrations
 
 ## Similar tools
 
@@ -117,16 +117,16 @@ Strengths include 5,154 GitHub stars, MIT licensing with free self-hosting, an A
 ## Related reading
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing](/blog/sqreem-behavioral-model-vs-llm/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 5154
+- **GitHub:** ★ 5199
 - **HQ:** Brazil
 - **API:** Yes
-- **Repository checked:** 2026-11-05
+- **Repository checked:** 2026-11-06
 - **Page updated:** 2026-09-14
 
 ## Get the next teardown
