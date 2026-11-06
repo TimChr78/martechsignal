@@ -15,6 +15,10 @@
   "dm": "2026-10-22",
   "sig": "c86e3eb5f65b589a"
  },
+ "agent-price-quotes-are-stale-snapshots": {
+  "dm": "2026-11-06",
+  "sig": "7bfeb56d19e69645"
+ },
  "agent-protocol-vs-data-plumbing": {
   "dm": "2026-09-27",
   "sig": "4891849fe69db24c"
