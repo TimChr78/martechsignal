@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Brevo
-Re-check pending: pricing last verified 2026-10-01 (36 days ago).
+Re-check pending: pricing last verified 2026-10-01 (41 days ago).
 
 Review · Email Marketing
 

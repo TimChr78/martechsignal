@@ -106,6 +106,6 @@ Our directory breaks marketing tools down by what they measure, what they integr
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Brew](/tools/brew/)
+More from the directory: [ChatbotX](/tools/chatbotx/)
 
 JSON

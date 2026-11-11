@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Tealium
-Re-check pending: pricing last verified 2026-08-28 (70 days ago).
+Re-check pending: pricing last verified 2026-08-28 (75 days ago).
 
 Review · Personalization & CDP
 

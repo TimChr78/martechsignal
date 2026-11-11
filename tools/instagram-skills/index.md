@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Instagram Skills
-Re-check pending: pricing last verified 2026-10-12 (25 days ago).
+Re-check pending: pricing last verified 2026-10-12 (30 days ago).
 
 Review · Agent Skills
 
@@ -18,7 +18,7 @@ Not yet scored
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 760
+- **GitHub stars:** 808
 
 [How we review](/methodology/) · No affiliate links
 
@@ -31,7 +31,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** yes
 - **Catalogued integrations:** 9
-- **GitHub stars:** 760
+- **GitHub stars:** 808
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -112,10 +112,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Instagram Skills?**
-Instagram Skills: 9 Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtags. Instagram Skills ships with caption and Reels hook writing in your voice with a 125-char hook rule. The public repository carries 760 stars.
+Instagram Skills: 9 Instagram marketing skills for Claude Code and Codex: captions, carousels, hooks, hashtags. Instagram Skills ships with caption and Reels hook writing in your voice with a 125-char hook rule. The public repository carries 808 stars.
 
 **How much does Instagram Skills cost?**
-Instagram Skills is open source - MIT licensed and free to self-host; the public repository carries 760 stars; native integrations cover Claude Code, Codex CLI, claude.ai. You pay in server time and maintenance, not licences.
+Instagram Skills is open source - MIT licensed and free to self-host; the public repository carries 808 stars; native integrations cover Claude Code, Codex CLI, claude.ai. You pay in server time and maintenance, not licences.
 
 **Is Instagram Skills a good self-hosted Agent Skills tool in 2026?**
 The most Instagram-specific free skill pack we list. Best if you already work in an agent CLI; Publora dependency and no read layer are the trade-offs.
@@ -133,15 +133,15 @@ Yes. The catalog records a public API for Instagram Skills, so custom integratio
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 760
+- **GitHub:** ★ 808
 - **API:** Yes
-- **Repository checked:** 2026-11-06
+- **Repository checked:** 2026-11-11
 - **Page updated:** 2026-10-12
 
 ## Get the next teardown

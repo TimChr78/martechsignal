@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Nosto
-Re-check pending: pricing last verified 2026-09-07 (60 days ago).
+Re-check pending: pricing last verified 2026-09-07 (65 days ago).
 
 Review · Personalization & CDP
 

@@ -16,7 +16,7 @@ Not yet scored
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 385
+- **GitHub stars:** 409
 
 [How we review](/methodology/) · No affiliate links
 
@@ -31,7 +31,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** no
 - **Catalogued integrations:** 6
-- **GitHub stars:** 385
+- **GitHub stars:** 409
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -88,7 +88,7 @@ The most specific free Amazon skill pack available, provided you or your ops lea
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Young project (385 GitHub stars) - smaller community and plugin ecosystem |
+| ✓ MIT licence with free self-hosting | ✗ Young project (409 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ AI capabilities: 602 skills: Amazon official material (38), Douyin (211), WeChat (108), Bilibili (74), YouTube (49), Xiaohongshu (9), public research (12), app capability sets (101) |  |
 | ✓ Native integrations include Claude Code, Codex, Cursor (6 listed) |  |
 
@@ -106,10 +106,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is SeaLeap Amazon Skills?**
-SeaLeap Amazon Skills: 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory. SeaLeap Amazon Skills ships with 602 skills: Amazon official material (38), Douyin (211), WeChat (108), Bilibili (74), YouTube (49), Xiaohongshu (9), public research (12), app capability sets (101). The public repository carries 385 stars.
+SeaLeap Amazon Skills: 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory. SeaLeap Amazon Skills ships with 602 skills: Amazon official material (38), Douyin (211), WeChat (108), Bilibili (74), YouTube (49), Xiaohongshu (9), public research (12), app capability sets (101). The public repository carries 409 stars.
 
 **How much does SeaLeap Amazon Skills cost?**
-SeaLeap Amazon Skills is open source - MIT licensed and free to self-host; the public repository carries 385 stars; native integrations cover Claude Code, Codex, Cursor. You pay in server time and maintenance, not licences.
+SeaLeap Amazon Skills is open source - MIT licensed and free to self-host; the public repository carries 409 stars; native integrations cover Claude Code, Codex, Cursor. You pay in server time and maintenance, not licences.
 
 **Is SeaLeap Amazon Skills a good self-hosted Agent Skills tool in 2026?**
 The most specific free Amazon skill pack available, provided you or your ops lead reads Chinese and you pin a commit. Everyone else should look at an English-language pack.
@@ -123,17 +123,17 @@ The most specific free Amazon skill pack available, provided you or your ops lea
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
-- **GitHub:** ★ 385
+- **GitHub:** ★ 409
 - **Founded:** 2026
 - **HQ:** China
 - **API:** No
-- **Repository checked:** 2026-11-06
+- **Repository checked:** 2026-11-11
 - **Page updated:** 2026-10-26
 
 ## Get the next teardown

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://martechsignal.com/</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://martechsignal.com/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://martechsignal.com/checklist/</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://martechsignal.com/blog/agents-identity-debt/</loc><lastmod>2026-09-25</lastmod></url>
   <url><loc>https://martechsignal.com/blog/ai-agents-need-campaign-state/</loc><lastmod>2026-09-27</lastmod></url>
@@ -66,6 +66,7 @@
   <url><loc>https://martechsignal.com/blog/agent-isolation-not-prompts-2026-10-22/</loc><lastmod>2026-10-22</lastmod></url>
   <url><loc>https://martechsignal.com/blog/mcp-distribution-channel/</loc><lastmod>2026-10-28</lastmod></url>
   <url><loc>https://martechsignal.com/blog/agent-price-quotes-are-stale-snapshots/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/agent-delegate-not-user/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://martechsignal.com/tools/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://martechsignal.com/contact/</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://martechsignal.com/corrections/</loc><lastmod>2026-10-06</lastmod></url>
@@ -169,7 +170,7 @@
   <url><loc>https://martechsignal.com/tools/phrasee/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://martechsignal.com/tools/pipedream/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://martechsignal.com/tools/pipedrive/</loc><lastmod>2026-09-27</lastmod></url>
-  <url><loc>https://martechsignal.com/tools/plausible/</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://martechsignal.com/tools/plausible/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://martechsignal.com/tools/postmark/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://martechsignal.com/tools/potato-ai-visibility/</loc><lastmod>2026-08-31</lastmod></url>
   <url><loc>https://martechsignal.com/tools/predis-ai/</loc><lastmod>2026-08-28</lastmod></url>
@@ -338,5 +339,5 @@
   <url><loc>https://martechsignal.com/vs/n8n-vs-zapier/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/vs/nocodb-vs-nocobase/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://martechsignal.com/blog/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/</loc><lastmod>2026-11-11</lastmod></url>
 </urlset>

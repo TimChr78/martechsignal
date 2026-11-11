@@ -16,7 +16,7 @@ Not yet scored
 
 - **Price:** Open Source
 - **Licence:** Open source
-- **GitHub stars:** 1,782
+- **GitHub stars:** 1,783
 
 [How we review](/methodology/) · No affiliate links
 
@@ -28,7 +28,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 
 - **Public API:** no
 - **Catalogued integrations:** 4
-- **GitHub stars:** 1,782
+- **GitHub stars:** 1,783
 
 The full rubric is on the [methodology page](/methodology/).
 
@@ -54,7 +54,7 @@ GPL-3.0, free to self-host. The vendor sells commercial support and runs a hoste
 | Pros | Cons |
 | --- | --- |
 | ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ Active public repository (1,782 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,783 GitHub stars counted at last check) |  |
 | ✓ Native integrations include CiviCRM, Mailtrain, MoxieManager (4 listed) |  |
 
 ## Related concepts
@@ -70,13 +70,13 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Mosaico?**
-Mosaico: Self-hosted open-source editor for responsive email templates. The public repository carries 1,782 stars.
+Mosaico: Self-hosted open-source editor for responsive email templates. The public repository carries 1,783 stars.
 
 **How much does Mosaico cost?**
-Mosaico is open source - Free to self-host; the public repository carries 1,782 stars; native integrations cover CiviCRM, Mailtrain, MoxieManager. You pay in server time and maintenance, not licences.
+Mosaico is open source - Free to self-host; the public repository carries 1,783 stars; native integrations cover CiviCRM, Mailtrain, MoxieManager. You pay in server time and maintenance, not licences.
 
 **Is Mosaico a good self-hosted Email Marketing tool in 2026?**
-Strengths include 1,782 GitHub stars, open-source licensing with free self-hosting. Mosaico documents 4 integrations
+Strengths include 1,783 GitHub stars, open-source licensing with free self-hosting. Mosaico documents 4 integrations
 
 ## Similar tools
 
@@ -94,9 +94,9 @@ Strengths include 1,782 GitHub stars, open-source licensing with free self-hosti
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 1782
+- **GitHub:** ★ 1783
 - **API:** No
-- **Repository checked:** 2026-10-30
+- **Repository checked:** 2026-11-11
 - **Page updated:** 2026-10-29
 
 ## Get the next teardown

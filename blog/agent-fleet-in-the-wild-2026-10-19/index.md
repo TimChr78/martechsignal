@@ -111,6 +111,6 @@ The fleet was capable and still mostly failed, because the environment pushed ba
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Analytics Tracking Automation](/tools/analytics-tracking-automation/)
+More from the directory: [Anyword](/tools/anyword/)
 
 ✗ Verdict: the constraint moved

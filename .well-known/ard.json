@@ -2413,6 +2413,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:agent-delegate-not-user",
+   "displayName": "Your agent is a delegate, not a user",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/agent-delegate-not-user/",
+   "description": "Zalando's Agentic Identity Broker gives AI agents scoped, consented, revocable authority instead of borrowed credentials.",
+   "representativeQueries": [
+    "your agent is a delegate, not a user",
+    "agent delegate not user"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:agent-fleet-in-the-wild-2026-10-19",
    "displayName": "A live agent fleet in the wild, mostly failing",
    "type": "text/html",
