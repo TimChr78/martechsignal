@@ -3368,7 +3368,7 @@
    "pillars": {
     "pricing_transparency": {
      "score": 9,
-     "evidence": "Self-hosted free (AGPL); cloud from $9/mo for 10K pageviews scaling with traffic, published plainly (the vendor pricing page, verified 2026-08-28)."
+     "evidence": "Self-hosted free (AGPL); cloud from $9/mo for 10K pageviews scaling with traffic, published plainly (the vendor pricing page, verified 2026-11-09)."
     },
     "feature_depth": {
      "score": 5,
@@ -3391,7 +3391,7 @@
      "evidence": "Founded 2019 with a large self-hosted base and a steady cloud business (vendor documentation)."
     }
    },
-   "scored": "2026-09-28"
+   "scored": "2026-11-09"
   },
   {
    "slug": "posthog",

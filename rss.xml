@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2026 06:09:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:07:22 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Your agent is a delegate, not a user</title>
+      <link>https://martechsignal.com/blog/agent-delegate-not-user/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/agent-delegate-not-user/</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Somewhere in your stack there is an API key that an agent borrowed and never gave back. The handover took thirty seconds: export the key from the ads platform, paste it into the…</description>
+    </item>
     <item>
       <title>Your agent's price quote is a snapshot of a page you stopped updating</title>
       <link>https://martechsignal.com/blog/agent-price-quotes-are-stale-snapshots/</link>

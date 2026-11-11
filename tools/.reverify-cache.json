@@ -39,17 +39,17 @@
  },
  "brandwatch": {
   "status": "needs-render",
-  "backoff_until": "2026-11-04",
+  "backoff_until": "2026-12-09",
   "etag": "",
   "lastmod": "",
-  "last_check": "2026-10-05"
+  "last_check": "2026-11-09"
  },
  "braze": {
   "status": "needs-render",
-  "backoff_until": "2026-11-04",
+  "backoff_until": "2026-12-09",
   "etag": "",
   "lastmod": "",
-  "last_check": "2026-10-05"
+  "last_check": "2026-11-09"
  },
  "buffer": {
   "status": "confirmed",
@@ -173,8 +173,8 @@
  },
  "laudspeaker": {
   "status": "homepage-ERR:URLError",
-  "errors": 3,
-  "backoff_until": "2026-11-09"
+  "errors": 4,
+  "backoff_until": "2026-11-16"
  },
  "listmonk": {
   "etag": "\"6ad1ccd9-2a8d\"",
@@ -222,6 +222,14 @@
   "lastmod": "",
   "status": "confirmed",
   "last_check": "2026-11-02",
+  "errors": 0,
+  "backoff_until": ""
+ },
+ "plausible": {
+  "etag": "\"dmo6l472jssj1nub\"",
+  "lastmod": "Fri, 06 Nov 2026 14:00:56 GMT",
+  "status": "confirmed",
+  "last_check": "2026-11-09",
   "errors": 0,
   "backoff_until": ""
  }
