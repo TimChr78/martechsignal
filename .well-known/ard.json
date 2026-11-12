@@ -2468,6 +2468,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:agentic-auction-bid-density-publisher",
+   "displayName": "Agentic ads: bid density is the publisher problem",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/agentic-auction-bid-density-publisher/",
+   "description": "Agents will decide which inventory gets a bid long before anyone argues about clearing price.",
+   "representativeQueries": [
+    "agentic ads: bid density is the publisher problem",
+    "agentic auction bid density publisher"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:agents-identity-debt",
    "displayName": "Your Agents Are Only as Smart as Your Identity Debt",
    "type": "text/html",

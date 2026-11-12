@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Amplitude
-Re-check pending: pricing last verified 2026-09-25 (47 days ago).
+Re-check pending: pricing last verified 2026-09-25 (48 days ago).
 
 Review · Analytics & Attribution
 

@@ -1,0 +1,71 @@
+# Agentic ads: bid density is the publisher problem
+
+AI · Advertising · 7 min read
+
+## Publishers aren't arguing about agentic pricing, they're arguing about getting a bid at all
+
+[How we review](/methodology/) · No affiliate links
+
+[Home](/) · [Blog](/blog/) · Publishers aren't arguing about agentic pricing, they're arguing about getting a bid at all
+
+12 Nov 2026
+
+Two stories landed a day apart last week, and the trade press filed both under pricing. On Monday, AdExchanger ran [a Sell Sider column](https://adexchanger.com/the-sell-sider/publishers-agentic-ai-isnt-about-pricing-but-whether-you-get-any-bids-at-all) by GrowthCode founder Jonathon Shaevitz. The headline carries the whole argument: for publishers, agentic AI "isn't about pricing, but whether you get any bids at all." IAB Tech Lab chief Anthony Katsur, quoted up top, expects "several false starts" and years of experimentation and alignment across platforms, agencies and publishers before agentic buying settles into anything you could call a market. On Tuesday, Digiday's Ronan Shields wired the same circuit from the other end: the FTC unsealed fresh details of its Amazon ad pricing case just weeks after Amazon started pitching Ads Agent, an AI meant to plan, buy and optimize campaigns on an advertiser's behalf.
+
+Everyone read these as "what will agents pay." I think that question is premature, and Shaevitz's column explains why in one line. The premium, if one ever shows up, is the smaller question. Whether your inventory survives agent evaluation at all is the one he lands on.
+
+## The missing bid is the risk
+
+We walked through [how ChatGPT's ad auction works from the buyer's seat](/blog/chatgpt-ad-auction-response-deadline/) two weeks ago, response deadline and all. From the publisher's chair, mechanics matter less than headcount. An auction is a price discovery mechanism, and price discovery needs participants. When bids thin out, the auction still clears and still prints a number on the report. The number looks ordinary. The bids that never showed up appear nowhere, which is the actual problem.
+
+Shaevitz reaches for the bid shading precedent, and it is a good one. When exchanges flipped to first-price between 2017 and 2019, shading algorithms spread through SSPs and DSPs within months, riding integrations that already existed. No new pipes, no new standards. Publishers found out from their clearing-price reports and adjusted floors after the fact. The lesson the industry took was "watch buy-side decisioning." But shading repriced bids that were already arriving. Agents screen inventory before a bid exists. That is a quieter and deeper cut, and the clearing-price report will not catch this one, because a bid that never happened leaves nothing to clear.
+
+## The half that hurts first is the half moving now
+
+Katsur's false starts are real, and the IAB's own numbers say exactly where they will happen. In a survey of 360 digital video buyers fielded in February and March, 96 percent saw a role for agentic AI in programmatic, and 63 percent expected that role to be an optimization layer over bidding. Actual deal execution sits at 28 percent, and 40 percent of buyers still require human approval before an agent spends anything. Agents run loose where no money moves and get gated where it does. Execution is where the false starts will live, and Katsur is right about that half.
+
+The evaluation half is a different story. Among video buyers spending $50 million or more a year, 63 percent are using or planning to use agents for inventory discovery and evaluation, against 30 percent of smaller buyers. The largest budgets in the market are already teaching software what is worth considering. The [IAB's agentic buying rules](/blog/iab-agentic-buying-rules-insertion-orders/) will eventually discipline the execution side, and that work matters. Nothing on that timeline changes the front door, and the front door is where a publisher lives or dies.
+
+## The black box is in federal court
+
+While publishers worry about bid density, the trust problem had a bad week. The newly unredacted FTC complaint, as [Digiday reports it](https://digiday.com/media-buying/ad-tech-briefing-amazons-auction-trial-puts-agentic-advertisings-trust-problem-in-focus), alleges that Amazon presented Sponsored Products as generalized second-price auctions while running undisclosed reserve prices that pushed charges toward first-price without any new competition. Surcharges ran up to 50 percent on ordinary shopping days and 250 percent during major retail events, worth an extra $87 million in the 2022 holiday season by the government's count. During the 2021 holidays, average cost per click rose 20 percent, some advertisers saw increases past 200 percent, and executives weighed reserve prices against a $40 million revenue shortfall. Amazon disputes the allegations and argues that reserve pricing is lawful. These are accusations, unproven, and they concern the old auctions.
+
+Then comes the timing. The same platform, with quarterly ad revenue approaching $20 billion, spent October's unBoxed conference launching Ads Agent, whose beta numbers (up to 67 percent higher return on long-term ad spend, 29 percent lower cost per new-to-brand customer) are company-reported. Digiday's line is the sharpest summary of the situation I have read: for advertisers, "they can see what they paid, but cannot necessarily establish how that price was calculated." The FTC case is about Sponsored Products, not the new AI products. That distinction is the problem. The company is in court over how little outsiders could see inside its auctions, and its pitch is to hand those auctions more autonomy. Google already showed how this movie runs: the ad tech antitrust remedies arrived just as the platform battle moved to AI, and [Amazon's own agentic ad formats](/blog/amazon-agentic-ad-formats-brand-controls/) shipped with a written brand-input contract precisely because nobody trusts the defaults.
+
+Put the two halves next to each other and you get the uncomfortable shape of agentic advertising in late 2026. Agents decide whether a bid happens, inside auctions nobody outside the platform can audit. A transparency report cannot argue with that arrangement. There is no discovery process for a bid that was never placed.
+
+## What a buyer can insist on
+
+If you are buying through any agentic channel this year, treat it like any other unauditable vendor relationship. Ask how many bids actually arrived on the impressions you won, and on a sample of impressions you didn't. Bid density is checkable, and a platform that will not show it is telling you something. Ask for decision-level log access, meaning real exports rather than dashboard summaries, because a summary is a press release with numbers in it. Ask, in writing, what happens when you dispute a charge: who re-runs the decision, on what data, within what timeframe. We have covered [the accountability gap around autonomous spend](/blog/who-eats-the-spending-gap-agentic-proof/) and the [nobody-is-responsible problem with rogue agents](/blog/rogue-ai-agents-trust-debate/) before; neither closes on its own. The tooling that puts agents next to your existing ad accounts, from [MCP servers for Google Ads and GA4](/tools/google-meta-ads-ga4-mcp/) to [Amazon-focused automation](/tools/sealeap-amazon-skills/), is multiplying fast. Audit rights are not multiplying with it.
+
+## What a publisher can do this quarter
+
+Shaevitz's grounding advice has the rare property of paying off before agentic anything arrives. Stable identifiers across your properties, so an evaluator can recognize you. First-party attributes structured so bid requests carry real context instead of noise. Data authorization in writing, which he flags as a contract question rather than a technical one, since bid-request signals are visible even to bidders who lose. All of it raises match rates and evaluation quality in today's auctions, which is the point: the work pays now regardless of which standard wins later. His closing comparison is the one to keep. In 2019, publishers who understood their own floors before the auction changed did fine. The ones who learned about the change from their revenue reports did not.
+
+Katsur will be right about the false starts. They will be loud and expensive and mostly about execution. The evaluation layer is consolidating anyway, budget by budget, and it does not send announcements. By the time a revenue report shows you what changed, the bids you lost were never there to count.
+
+## Related reading
+
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+## Related tools
+
+- [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
+- [Writer](/tools/writer/) - Enterprise AI platform with Palmyra models, brand governance, and agents
+- [Intercom](/tools/intercom/) - AI-first customer service platform with Fin AI agent and omnichannel messaging
+## Comparison guides
+
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+## Glossary terms
+
+- [DSP](/glossary/dsp/)
+- [Programmatic](/glossary/programmatic-advertising/)
+### One email. Every Friday.
+
+The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
+
+More from the directory: [Brevo](/tools/brevo/)
+
+TC **[Tim Christensen](/authors/tim-christensen/)**

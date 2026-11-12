@@ -10,29 +10,29 @@ Every week we audit the AI marketing automation landscape: the agents, the workf
 
 ## Latest
 
-### Your agent is a delegate, not a user
+### Publishers aren't arguing about agentic pricing, they're arguing about getting a bid at all
 
-Somewhere in your stack there is an API key that an agent borrowed and never gave back. The handover took thirty seconds: export the key from the ads platform, paste it into the…
+Two stories landed a day apart last week, and the trade press filed both under pricing. On Monday, AdExchanger ran a Sell Sider column by GrowthCode founder Jonathon Shaevitz. The…
+
+### Your agent is a delegate, not a user
 
 ### Your agent's price quote is a snapshot of a page you stopped updating
 
 ### OpenAI can block your site from its agents, and your logs will never show it
-
-### Faster output did not make campaigns ship faster. Fewer handoffs did.
 
 ## Tool index
 
 
 | Tool | What it is | Category | GitHub stars |
 | --- | --- | --- | --- |
-| [NocoBase](/tools/nocobase/) | Open-source no-code platform with AI assistance for building business systems fast | Automation | 24,846 |
-| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 209,654 |
-| [Profound](/tools/profound/) | Enterprise AI marketing platform: answer-engine visibility plus drafting agents | Geo llm visibility | n/a |
-| [Warmbly](/tools/warmbly/) | Open-source cold email platform with warmup, campaigns, unified inbox, and CRM | Email | 955 |
-| [ChatbotX](/tools/chatbotx/) | Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation | Chatbots | 1,080 |
+| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 210,051 |
+| [NocoBase](/tools/nocobase/) | Open-source no-code platform with AI assistance for building business systems fast | Automation | 24,892 |
+| [Warmbly](/tools/warmbly/) | Open-source cold email platform with warmup, campaigns, unified inbox, and CRM | Email | 1,015 |
 | [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) | Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web | Marketing automation | n/a |
-| [Hootsuite](/tools/hootsuite/) | Social media management platform with AI-powered scheduling and analytics | Social | n/a |
+| [Profound](/tools/profound/) | Enterprise AI marketing platform: answer-engine visibility plus drafting agents | Geo llm visibility | n/a |
 | [Pipedrive](/tools/pipedrive/) | Sales-focused CRM with AI-powered pipeline management and deal forecasting | CRM | n/a |
+| [ChatbotX](/tools/chatbotx/) | Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation | Chatbots | 1,101 |
+| [Adobe Marketo Engage](/tools/adobe-marketo/) | Enterprise B2B marketing automation with AI-driven lead management and engagement | Marketing automation | n/a |
 
 ## Comparisons and best-of lists
 

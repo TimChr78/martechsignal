@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Postmark
-Re-check pending: pricing last verified 2026-09-07 (65 days ago).
+Re-check pending: pricing last verified 2026-09-07 (66 days ago).
 
 Review · Email Marketing
 

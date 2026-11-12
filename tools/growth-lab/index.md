@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Growth Lab
-Re-check pending: pricing last verified 2026-08-28 (75 days ago).
+Re-check pending: pricing last verified 2026-08-28 (76 days ago).
 
 Review · Agent Skills
 
@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 34/60
 
-Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 1,971 stars; the harness cost is on you.
+Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 1,972 stars; the harness cost is on you.
 
 
 | Pillar | Score | Evidence |

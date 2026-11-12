@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - SendPortal
-Re-check pending: pricing last verified 2026-10-15 (27 days ago).
+Re-check pending: pricing last verified 2026-10-15 (28 days ago).
 
 Review · Email Marketing
 
@@ -146,8 +146,8 @@ The most recent release in our catalog is v4.0.0 (2026-10-12). For the full hist
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ### Quick Facts
 
 - **Pricing:** Open Source

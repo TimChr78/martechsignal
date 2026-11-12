@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Maizzle
-Re-check pending: pricing last verified 2026-09-07 (65 days ago).
+Re-check pending: pricing last verified 2026-09-07 (66 days ago).
 
 Review · Email Marketing
 
@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 32/60
 
-Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with 2,859 stars and no AI story, which is fine for a compiler.
+Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with 2,860 stars and no AI story, which is fine for a compiler.
 
 
 | Pillar | Score | Evidence |
