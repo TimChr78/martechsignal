@@ -2194,7 +2194,7 @@
    "displayName": "Agent Skills",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/agent-skills/",
-   "description": "Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 21 reviewed.",
+   "description": "Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow, and what it costs. 21 reviewed.",
    "representativeQueries": [
     "best agent skills tools",
     "agent skills comparison",
@@ -2230,7 +2230,7 @@
    "displayName": "AI Content & Copywriting",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/content-ai/",
-   "description": "AI copywriting, publishing, and writing tools: drafts, governance, and self-hosted helpers. 13 tools reviewed.",
+   "description": "AI copywriting, publishing, and writing tools: drafts, brand governance, and self-hosted helpers. 13 tools reviewed with verified pricing.",
    "representativeQueries": [
     "best ai content & copywriting tools",
     "ai content & copywriting comparison",
@@ -2266,7 +2266,7 @@
    "displayName": "GEO & LLM Optimization",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/geo-llm-visibility/",
-   "description": "AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overviews. 14 reviewed with dated facts.",
+   "description": "AI search visibility tools that track who cites you in ChatGPT, Perplexity, and AI Overviews. 14 reviewed with verified pricing and dated facts.",
    "representativeQueries": [
     "best geo & llm optimization tools",
     "geo & llm optimization comparison",
@@ -2302,7 +2302,7 @@
    "displayName": "Personalization & CDP",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/personalization/",
-   "description": "Ecommerce personalization, customer data platforms, and flags and testing. 11 tools reviewed.",
+   "description": "Ecommerce personalization, customer data platforms, and feature flags and testing tools. 11 tools reviewed with verified pricing and AI features.",
    "representativeQueries": [
     "best personalization & cdp tools",
     "personalization & cdp comparison",
@@ -2314,7 +2314,7 @@
    "displayName": "SEO & Search",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/seo/",
-   "description": "SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 9 tools with verified pricing.",
+   "description": "SEO platforms reviewed on data depth, content briefs, rank tracking, and AI visibility tracking. 9 tools with verified pricing and dated facts.",
    "representativeQueries": [
     "best seo & search tools",
     "seo & search comparison",
@@ -2450,7 +2450,7 @@
    "displayName": "Your Agent's Price Quote Is a Stale Snapshot",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/agent-price-quotes-are-stale-snapshots/",
-   "description": "Agents quote prices from memory and stale pages.",
+   "description": "An agent quoted a Kindle at its launch price years later, matching live prices on 2 of 15 products. Why grounding and caching decide if a quote is true.",
    "representativeQueries": [
     "your agent's price quote is a stale snapshot",
     "agent price quotes are stale snapshots"
@@ -2472,7 +2472,7 @@
    "displayName": "Agentic ads: bid density is the publisher problem",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/agentic-auction-bid-density-publisher/",
-   "description": "Agents will decide which inventory gets a bid long before anyone argues about clearing price.",
+   "description": "For publishers the agentic auction question is whether a bid arrives at all, not what it clears at. Bid density, thin auctions, and what buyers can demand.",
    "representativeQueries": [
     "agentic ads: bid density is the publisher problem",
     "agentic auction bid density publisher"
@@ -2483,7 +2483,7 @@
    "displayName": "Your Agents Are Only as Smart as Your Identity Debt",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/agents-identity-debt/",
-   "description": "Three pieces landed this week from three corners of the industry that rarely agree on anything.",
+   "description": "Agents inherit your identity debt, and broken customer data hands them the wrong story. Three posts on why data trust decides what agents see.",
    "representativeQueries": [
     "your agents are only as smart as your identity debt",
     "agents identity debt"
@@ -2494,7 +2494,7 @@
    "displayName": "AI Agents Need Campaign State, Not Prompts",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/ai-agents-need-campaign-state/",
-   "description": "Every vendor demo you have seen this year shows the same trick.",
+   "description": "Vendor demos show an agent drafting one email. The real failure comes three weeks later, when it contradicts itself because nothing stores campaign state.",
    "representativeQueries": [
     "ai agents need campaign state, not prompts",
     "ai agents need campaign state"
@@ -2505,7 +2505,7 @@
    "displayName": "The AI-search funnel map GA4 won't give you",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/",
-   "description": "Two things landed since we published the 5-layer fix for dashboards that can't see AI search.",
+   "description": "GA4 has an AI Assistant channel and Search Console reports AI performance, yet neither shows the funnel stage. Map it from page signals instead.",
    "representativeQueries": [
     "the ai-search funnel map ga4 won't give you",
     "ai search funnel map ga4 wont give you"
@@ -2516,7 +2516,7 @@
    "displayName": "AI theater: the wrong KPI your team rewards",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/ai-theater-wrong-kpi/",
-   "description": "HubSpot published a post this month on the psychology of AI progress indicators.",
+   "description": "Answer engines narrate their work, and visible progress feels like proof of quality. A HubSpot post on progress indicators shows why it is the wrong KPI.",
    "representativeQueries": [
     "ai theater: the wrong kpi your team rewards",
     "ai theater wrong kpi"
@@ -2538,7 +2538,7 @@
    "displayName": "Before your next automation, run the blast radius audit",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/automation-blast-radius-audit/",
-   "description": "One broken automation can corrupt your CRM silently. Map every workflow blast radius before your next change.",
+   "description": "An automated audience rule targeted the wrong age bracket for two weeks before anyone noticed. A twenty-minute audit of workflow blast radius.",
    "representativeQueries": [
     "before your next automation, run the blast radius audit",
     "automation blast radius audit"
@@ -2549,7 +2549,7 @@
    "displayName": "Autonomous Marketing Platforms Are Real. The Name Is Wrong.",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/",
-   "description": "Vendors say autonomous marketing platform. Analysts say agentic AI. G2 says AI marketing agents.",
+   "description": "Vendors, analysts, and G2 name the autonomous marketing category differently, with no shared definition. What it should mean, and four questions.",
    "representativeQueries": [
     "autonomous marketing platforms are real. the name is wrong.",
     "autonomous marketing platform label contest"
@@ -2593,7 +2593,7 @@
    "displayName": "The CDP Reckoning: Your Next CDP Is a Warehouse",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/",
-   "description": "The customer data platform had a good run as a category.",
+   "description": "A CDP premium buys compute and identity resolution, and both now run on the warehouse you already own. The math to run before another annual contract.",
    "representativeQueries": [
     "the cdp reckoning: your next cdp is a warehouse",
     "cdp reckoning warehouse native"
@@ -2604,7 +2604,7 @@
    "displayName": "ChatGPT's ad auction has a response deadline",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/chatgpt-ad-auction-response-deadline/",
-   "description": "An ad can win ChatGPT's auction and still never appear if it misses the response window.",
+   "description": "An ad can win the ChatGPT auction and never appear if it misses the response window. What per-turn intent means for creative and measurement.",
    "representativeQueries": [
     "chatgpt's ad auction has a response deadline",
     "chatgpt ad auction response deadline"
@@ -2626,7 +2626,7 @@
    "displayName": "CI Tools: The First Category AI Killed",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/",
-   "description": "A product marketer needs to know what a competitor just shipped.",
+   "description": "Competitive intelligence lived in battlecards that went stale. Product marketers now ask Claude directly, and a survey of 101 marketers shows the swap.",
    "representativeQueries": [
     "ci tools: the first category ai killed",
     "ci tools were the first martech category ai killed"
@@ -2648,7 +2648,7 @@
    "displayName": "Claude SEO benchmark: the living score tracker",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/claude-seo-benchmark/",
-   "description": "Five grader generations have scored martechsignal.com since August.",
+   "description": "Five grader generations scored this site since August, from 83 down to 61 under stricter gates. The full timeline and the parity lesson.",
    "representativeQueries": [
     "claude seo benchmark: the living score tracker",
     "claude seo benchmark"
@@ -2681,7 +2681,7 @@
    "displayName": "Your Dashboard Can't See AI Search: 5-Layer Fix",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/",
-   "description": "On August 17 we ran our Google Search Console diagnostic on this site. Twenty-eight days of data, query by query.",
+   "description": "A Search Console export showed 379 queries, 1,427 impressions, and zero clicks, most on page six. Five layers that make AI search visible in reporting.",
    "representativeQueries": [
     "your dashboard can't see ai search: 5-layer fix",
     "dashboard cant see ai search 5 layer fix"
@@ -2711,12 +2711,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:blog:faster-output-fewer-handoffs",
-   "displayName": "Faster output didn't ship campaigns faster. Fewer handoffs did",
+   "displayName": "Campaigns ship faster with fewer handoffs, not faster output",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/faster-output-fewer-handoffs/",
-   "description": "Production is the cheap part now.",
+   "description": "Generation got cheap and delivery did not. Campaigns still slip three weeks on approval queues and unclear sign-off, so count handoffs instead of hours.",
    "representativeQueries": [
-    "faster output didn't ship campaigns faster. fewer handoffs did",
+    "campaigns ship faster with fewer handoffs, not faster output",
     "faster output fewer handoffs"
    ]
   },
@@ -2736,7 +2736,7 @@
    "displayName": "Google Handed Your Ad Budget to AI Agents",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/google-ad-agents-control-gap/",
-   "description": "The week of August 10 was a strange one for paid media.",
+   "description": "Google shipped agentic controls for Ask Advisor while guides taught ChatGPT ads. The gap is control over budget, targeting, and stopping rules.",
    "representativeQueries": [
     "google handed your ad budget to ai agents",
     "google ad agents control gap"
@@ -2758,7 +2758,7 @@
    "displayName": "You Taught Google Everything It Knows",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/",
-   "description": "For fifteen years the deal was simple. You published content, Google sent traffic.",
+   "description": "The content published to win search taught AI what it knows. Once the answer absorbs the query the visit disappears, so visibility replaces traffic.",
    "representativeQueries": [
     "you taught google everything it knows",
     "google doesnt need your site anymore you taught it everything it knows"
@@ -2777,12 +2777,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:blog:iab-agentic-buying-rules-insertion-orders",
-   "displayName": "IAB agentic buying rules land before ad stacks can honor them",
+   "displayName": "IAB agentic buying rules arrive before ad stacks are ready",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/",
-   "description": "Two announcements landed 24 hours apart this week, and they describe the same workflow from opposite ends.",
+   "description": "OpenProposal from IAB Tech Lab sets rules for machines negotiating media buys while OpenAI tests measurement for ChatGPT ads. What to fix by October 22.",
    "representativeQueries": [
-    "iab agentic buying rules land before ad stacks can honor them",
+    "iab agentic buying rules arrive before ad stacks are ready",
     "iab agentic buying rules insertion orders"
    ]
   },
@@ -2802,7 +2802,7 @@
    "displayName": "Community Signals Beat Links for AI Answers",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/",
-   "description": "Two articles landed on Search Engine Land this month, one day apart. Separately they read like tactics posts.",
+   "description": "Community platforms hold more citation share inside SaaS AI answers than publishers do. Two Search Engine Land pieces show backlink budget is aimed wrong.",
    "representativeQueries": [
     "community signals beat links for ai answers",
     "link building wont get you into ai answers"
@@ -2813,7 +2813,7 @@
    "displayName": "Your Martech Budget Is Bleeding and Nobody's Me",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/",
-   "description": "A food pantry worker posted on r/MarketingAutomation last week with a problem I can't stop thinking about.",
+   "description": "A pantry director weighing a $25 tool against 50 pounds of rice frames what most martech budgets avoid. Utilization gets measured; value does not.",
    "representativeQueries": [
     "your martech budget is bleeding and nobody's me",
     "martech budget bleeding nobody measuring"
@@ -2835,7 +2835,7 @@
    "displayName": "MCP Rewrites the Integration Economics of Your Stack",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/",
-   "description": "Ten marketing tools need forty-five pairwise integrations. Add an eleventh and the number jumps to fifty-five.",
+   "description": "Ten tools need forty-five pairwise integrations, a count that grows quadratically. MCP endpoints cut that tax by letting an agent discover tools directly.",
    "representativeQueries": [
     "mcp rewrites the integration economics of your stack",
     "mcp rewrites the integration economics of your marketing stack"
@@ -2846,7 +2846,7 @@
    "displayName": "Microsoft Just Removed the Steering Wheel From Search Ads",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/",
-   "description": "Microsoft Advertising made two announcements in the same week, and neither one is dramatic on its own.",
+   "description": "Microsoft rolled out AI Max while removing Max CPC bid caps from new campaigns. Two changes that hand query and landing page choice to the platform.",
    "representativeQueries": [
     "microsoft just removed the steering wheel from search ads",
     "microsoft search ads steering wheel"
@@ -2857,7 +2857,7 @@
    "displayName": "Multi-Touch Attribution Was Always a Fiction",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/",
-   "description": "Multi-touch attribution never measured what it claimed. What actually works for crediting marketing spend.",
+   "description": "Multi-touch attribution never measured what it claimed, and privacy rules did not break it. What crediting spend looks like once the inputs are gone.",
    "representativeQueries": [
     "multi-touch attribution was always a fiction",
     "multi touch attribution was always a fiction"
@@ -2868,7 +2868,7 @@
    "displayName": "n8n + AI: The Open-Source Automation Engine",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/n8n-ai-open-source-automation/",
-   "description": "In our open-source martech stack analysis, one tool kept surfacing: n8n.",
+   "description": "n8n pairs per-execution pricing with built-in AI agents, and 198K stars show adoption. Three marketing workflows, and where a developer is still needed.",
    "representativeQueries": [
     "n8n + ai: the open-source automation engine",
     "n8n ai open source automation"
@@ -2890,7 +2890,7 @@
    "displayName": "19 open-source MCP servers, one marketing agent",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/open-source-agentic-martech-stack-mcp/",
-   "description": "An agent can now run a marketing loop end to end on open source.",
+   "description": "Nineteen of the 81 open-source tools in our directory list an MCP server. Five cover a full marketing loop, from CRM records to sends and analytics.",
    "representativeQueries": [
     "19 open-source mcp servers, one marketing agent",
     "open source agentic martech stack mcp"
@@ -2901,7 +2901,7 @@
    "displayName": "Open-Source Martech Stack vs $5K/mo Subscriptions",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/open-source-martech-stack/",
-   "description": "Every marketing team pays the subscription tax. HubSpot at $800/mo. Salesforce at $150/user. Adobe Marketo at $2,000+.",
+   "description": "A mid-size B2B team can spend $5,000 to $15,000 a month on martech. An open-source stack covers CRM, email, automation, analytics, and chatbots instead.",
    "representativeQueries": [
     "open-source martech stack vs $5k/mo subscriptions",
     "open source martech stack"
@@ -2923,7 +2923,7 @@
    "displayName": "OpenAI can block your site from its agents, invisibly",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/openai-aura-silent-agent-block/",
-   "description": "OpenAI's Aura site-safety check can block its agents from opening your site with no trace in your logs.",
+   "description": "The Aura site-safety check from OpenAI can keep ChatGPT from opening your pages with nothing in your logs. A differential test and the evidence pack.",
    "representativeQueries": [
     "openai can block your site from its agents, invisibly",
     "openai aura silent agent block"
@@ -2978,7 +2978,7 @@
    "displayName": "Agentforce Is Free: What Marketing Ops Can Build",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/salesforce-agentforce-free-marketing-ops/",
-   "description": "Salesforce spent the last two years selling Agentforce as an enterprise conversation, at enterprise prices.",
+   "description": "Agentforce is free only if you already pay for Salesforce Enterprise, and credits decide what you build. Four marketing ops builds that fit.",
    "representativeQueries": [
     "agentforce is free: what marketing ops can build",
     "salesforce agentforce free marketing ops"
@@ -2989,7 +2989,7 @@
    "displayName": "Salesforce puts Claude in Commerce Cloud: a quiet admission",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/",
-   "description": "On September 22, Salesforce published two blog posts.",
+   "description": "Salesforce invited merchants to build commerce agents on Claude while its own recap led with AIforce. Two posts, one day, different build paths.",
    "representativeQueries": [
     "salesforce puts claude in commerce cloud: a quiet admission",
     "salesforce claude commerce cloud agentforce"
@@ -3077,7 +3077,7 @@
    "displayName": "Why Your Marketing Stack Doesn't Need Another AI Tool",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/",
-   "description": "Another AI tool will not fix a stack that cannot hand it clean context.",
+   "description": "Another AI tool will not fix a stack that cannot hand it clean context. Four unglamorous repairs that make the platforms you already pay for work.",
    "representativeQueries": [
     "why your marketing stack doesn't need another ai tool",
     "why your marketing automation stack doesnt need another ai tool"
@@ -3088,7 +3088,7 @@
    "displayName": "Fivetran Proved You Don't Need a New Data Stack",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/",
-   "description": "Fivetran proved AI runs fine on the warehouse you already own. Skip the rebuild and fix the pipes instead.",
+   "description": "Fivetran and phData showed AI running on a healthcare data platform nobody rebuilt. The lesson for marketing ops is to fix the pipes, not fund a migration.",
    "representativeQueries": [
     "fivetran proved you don't need a new data stack",
     "you dont need new data stack fivetran"
@@ -3110,7 +3110,7 @@
    "displayName": "Account-Based Marketing (ABM) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/abm/",
-   "description": "Account-based marketing flips the traditional funnel.",
+   "description": "Account-based marketing flips the funnel: pick the accounts you want to win, then build personalized campaigns for each one. Sales works the same list.",
    "representativeQueries": [
     "what is abm",
     "abm definition",
@@ -3122,7 +3122,7 @@
    "displayName": "Answer Engine Optimization (AEO) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/aeo/",
-   "description": "Answer Engine Optimization is the practice of structuring content so AI answer systems can find, trust, and cite it.",
+   "description": "Answer Engine Optimization means structuring content so AI answer systems can find, trust, and cite it, with direct answers and dated authorship.",
    "representativeQueries": [
     "what is aeo",
     "aeo definition",
@@ -3134,7 +3134,7 @@
    "displayName": "Agentic Marketing | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/agentic-marketing/",
-   "description": "Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes.",
+   "description": "Agentic marketing means AI agents hold decision authority over defined processes like pacing or budget. Agents own scoped work, not the whole function.",
    "representativeQueries": [
     "what is agentic marketing",
     "agentic marketing definition",
@@ -3146,7 +3146,7 @@
    "displayName": "AI Agent | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/ai-agent/",
-   "description": "An AI agent is software that pursues a goal by taking a sequence of actions on its own.",
+   "description": "An AI agent pursues a goal by taking actions on its own, querying tools and adjusting as results arrive. It decides the steps; automation executes them.",
    "representativeQueries": [
     "what is ai agent",
     "ai agent definition",
@@ -3158,7 +3158,7 @@
    "displayName": "AI Content Generation | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/ai-content-generation/",
-   "description": "AI content generation uses large language models to produce marketing copy.",
+   "description": "AI content generation uses large language models to produce marketing copy such as blog posts, ad headlines, and subject lines. A human edits each draft.",
    "representativeQueries": [
     "what is ai content generation",
     "ai content generation definition",
@@ -3182,7 +3182,7 @@
    "displayName": "Customer Data Platform (CDP) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/cdp/",
-   "description": "A customer data platform collects and unifies customer data from every touchpoint.",
+   "description": "A customer data platform unifies customer data from every touchpoint into one profile other systems can query. It serves real-time cross-channel marketing.",
    "representativeQueries": [
     "what is cdp",
     "cdp definition",
@@ -3206,7 +3206,7 @@
    "displayName": "Customer Relationship Management (CRM) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/crm/",
-   "description": "A CRM is the system of record for every interaction your company has with a prospect or customer.",
+   "description": "A CRM is the system of record for every interaction with a prospect, storing contacts, history, deal stages, and activity. Sales and support rely on it.",
    "representativeQueries": [
     "what is crm",
     "crm definition",
@@ -3242,7 +3242,7 @@
    "displayName": "Dynamic Creative Optimization (DCO) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/dco/",
-   "description": "Dynamic creative optimization assembles ad creatives in real time from modular components.",
+   "description": "Dynamic creative optimization builds ad creatives in real time from modular parts, combining headlines, images, and calls to action for each viewer.",
    "representativeQueries": [
     "what is dco",
     "dco definition",
@@ -3254,7 +3254,7 @@
    "displayName": "Email Deliverability | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/deliverability/",
-   "description": "Deliverability is the measure of whether your emails actually reach the inbox instead of the spam folder.",
+   "description": "Deliverability measures whether emails reach the inbox instead of spam. It depends on sender reputation, authentication, list hygiene, and engagement.",
    "representativeQueries": [
     "what is deliverability",
     "deliverability definition",
@@ -3278,7 +3278,7 @@
    "displayName": "Demand-Side Platform (DSP) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/dsp/",
-   "description": "A demand-side platform is the buying interface for programmatic advertising.",
+   "description": "A demand-side platform is the buying interface for programmatic advertising, bidding on impressions across exchanges in real time with shared targeting.",
    "representativeQueries": [
     "what is dsp",
     "dsp definition",
@@ -3290,7 +3290,7 @@
    "displayName": "Email Sequence (Drip Campaign) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/email-sequence/",
-   "description": "An email sequence is a series of automated emails sent on a schedule or triggered by behavior.",
+   "description": "An email sequence is a series of automated emails sent on a schedule or triggered by behavior, such as a welcome series or a win-back series.",
    "representativeQueries": [
     "what is email sequence",
     "email sequence definition",
@@ -3302,7 +3302,7 @@
    "displayName": "First-Party Data | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/first-party-data/",
-   "description": "First-party data is information you collect directly from your customers and prospects.",
+   "description": "First-party data is information you collect from customers, such as website behavior and purchase history. You own it and gathered it with consent.",
    "representativeQueries": [
     "what is first party data",
     "first party data definition",
@@ -3326,7 +3326,7 @@
    "displayName": "Lead Scoring | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/lead-scoring/",
-   "description": "Lead scoring assigns a numerical value to each prospect based on their likelihood to buy.",
+   "description": "Lead scoring assigns a value to each prospect based on likelihood to buy, adding points for fit and behavior so sales can work the top scores first.",
    "representativeQueries": [
     "what is lead scoring",
     "lead scoring definition",
@@ -3350,7 +3350,7 @@
    "displayName": "Marketing Automation | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/marketing-automation/",
-   "description": "Marketing automation is software that runs repetitive marketing tasks without manual intervention.",
+   "description": "Marketing automation is software that runs repetitive marketing tasks without manual intervention, such as sending a welcome email when someone signs up.",
    "representativeQueries": [
     "what is marketing automation",
     "marketing automation definition",
@@ -3362,7 +3362,7 @@
    "displayName": "Marketing Operations (MarketingOps) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/marketing-ops/",
-   "description": "Marketing operations is the function that manages the technology, processes, and data behind marketing execution.",
+   "description": "Marketing operations manages the technology, processes, and data behind marketing execution, owning CRM setup, workflows, dashboards, and data hygiene.",
    "representativeQueries": [
     "what is marketing ops",
     "marketing ops definition",
@@ -3374,7 +3374,7 @@
    "displayName": "Model Context Protocol (MCP) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/mcp/",
-   "description": "The Model Context Protocol is an open standard for connecting AI models to external tools and data sources.",
+   "description": "The Model Context Protocol is an open standard for connecting AI models to external tools and data sources, replacing one-off integrations on each side.",
    "representativeQueries": [
     "what is mcp",
     "mcp definition",
@@ -3386,7 +3386,7 @@
    "displayName": "MQL / SQL | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/mql-sql/",
-   "description": "An MQL is a lead that marketing deems ready for sales based on engagement signals.",
+   "description": "An MQL is a lead marketing deems ready for sales on engagement signals. An SQL is one sales accepted, and the gap between them is where friction lives.",
    "representativeQueries": [
     "what is mql sql",
     "mql sql definition",
@@ -3398,7 +3398,7 @@
    "displayName": "Website Personalization | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/personalization/",
-   "description": "Website personalization changes what a visitor sees based on who they are or what they've done before.",
+   "description": "Website personalization changes what a visitor sees based on who they are or what they have done before, from recommendations to a different hero section.",
    "representativeQueries": [
     "what is personalization",
     "personalization definition",
@@ -3410,7 +3410,7 @@
    "displayName": "Programmatic Advertising | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/programmatic-advertising/",
-   "description": "Programmatic advertising is the automated buying and selling of ad inventory through real-time bidding.",
+   "description": "Programmatic advertising is the automated buying and selling of ad inventory through real-time bidding, matching impressions to bids in milliseconds.",
    "representativeQueries": [
     "what is programmatic advertising",
     "programmatic advertising definition",
@@ -3422,7 +3422,7 @@
    "displayName": "Search Engine Optimization (SEO) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/seo/",
-   "description": "SEO is the practice of improving a website's visibility in organic (non-paid) search results.",
+   "description": "SEO is the practice of improving visibility in organic (non-paid) search results, covering technical factors, content quality, and authority signals.",
    "representativeQueries": [
     "what is seo",
     "seo definition",
@@ -3434,7 +3434,7 @@
    "displayName": "Social Listening | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/social-listening/",
-   "description": "Social listening is the practice of monitoring social media channels, forums, review sites, and news outlets.",
+   "description": "Social listening is the practice of monitoring social channels, forums, review sites, and news for mentions of your brand, competitors, or category.",
    "representativeQueries": [
     "what is social listening",
     "social listening definition",
@@ -3446,7 +3446,7 @@
    "displayName": "UTM Parameters | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/utm-parameters/",
-   "description": "UTM parameters are tags appended to URLs to track where traffic comes from.",
+   "description": "UTM parameters are tags appended to URLs to track where traffic comes from, naming source, medium, and campaign so analytics can attribute the visit.",
    "representativeQueries": [
     "what is utm parameters",
     "utm parameters definition",
@@ -3458,7 +3458,7 @@
    "displayName": "Workflow Automation (iPaaS) | Definition",
    "type": "text/html",
    "url": "https://martechsignal.com/glossary/workflow-automation/",
-   "description": "Workflow automation connects your software tools so that actions in one system trigger actions in another.",
+   "description": "Workflow automation connects your tools so an action in one system triggers one in another, creating a CRM record or Slack alert without manual copying.",
    "representativeQueries": [
     "what is workflow automation",
     "workflow automation definition",
@@ -3470,7 +3470,7 @@
    "displayName": "Best Agent Skills tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/agent-skills-tools/",
-   "description": "8 agent skills tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "description": "8 agent skills tools for coding agents compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
    "representativeQueries": [
     "best agent skills tools (2026): 8 compared",
     "agent skills tools pricing comparison"
@@ -3525,7 +3525,7 @@
    "displayName": "Best AI Email Marketing tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/ai-email-marketing-tools/",
-   "description": "Mailchimp from $13/mo, Klaviyo from $20/mo. 8 email marketing tools compared on pricing, AI features, and integrations.",
+   "description": "Mailchimp from $13/mo, Klaviyo from $20/mo. 8 email marketing tools compared on pricing, AI features, and integrations, with who each is best for.",
    "representativeQueries": [
     "best ai email marketing tools (2026): 8 compared",
     "ai email marketing tools pricing comparison"
@@ -3577,12 +3577,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:best:cdp",
-   "displayName": "Best Customer Data Platforms (2026): composable to self-hosted",
+   "displayName": "Best CDPs (2026): composable to self-hosted",
    "type": "text/html",
    "url": "https://martechsignal.com/best/cdp/",
    "description": "RudderStack from $265/mo, Jitsu from $99/mo. Six customer data platforms compared on architecture, pricing shape, self-hosting, and data-residency.",
    "representativeQueries": [
-    "best customer data platforms (2026): composable to self-hosted",
+    "best cdps (2026): composable to self-hosted",
     "cdp pricing comparison"
    ]
   },
@@ -3599,12 +3599,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:best:marketing-analytics-tools",
-   "displayName": "Best Marketing Analytics and Attribution tools (2026): 8 compared",
+   "displayName": "Best Marketing Analytics and Attribution Tools (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/best/marketing-analytics-tools/",
    "description": "Matomo from €22/mo, Umami from $20/mo. 8 analytics & attribution tools compared on pricing, AI features, and integrations.",
    "representativeQueries": [
-    "best marketing analytics and attribution tools (2026): 8 compared",
+    "best marketing analytics and attribution tools (2026)",
     "marketing analytics tools pricing comparison"
    ]
   },
@@ -3624,7 +3624,7 @@
    "displayName": "Best Open-Source Marketing Tools (2026): 8 compared",
    "type": "text/html",
    "url": "https://martechsignal.com/best/open-source-marketing-tools/",
-   "description": "Mautic from €247.50/mo, n8n from €20/mo. 8 open-source tools compared on pricing, AI features, and integrations.",
+   "description": "Mautic from €247.50/mo, n8n from €20/mo. 8 open-source marketing tools compared on pricing, AI features, and integrations, with a verdict on each.",
    "representativeQueries": [
     "best open-source marketing tools (2026): 8 compared",
     "open source marketing tools pricing comparison"
@@ -3654,12 +3654,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:activecampaign-vs-klaviyo",
-   "displayName": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
+   "displayName": "ActiveCampaign vs Klaviyo (2026): pricing, AI, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/",
    "description": "ActiveCampaign from $15/mo, Klaviyo from $20/mo. ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations.",
    "representativeQueries": [
-    "activecampaign vs klaviyo (2026): pricing, ai features, verdict",
+    "activecampaign vs klaviyo (2026): pricing, ai, verdict",
     "activecampaign vs klaviyo comparison"
    ]
   },
@@ -3698,12 +3698,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:mailchimp-vs-klaviyo",
-   "displayName": "Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict",
+   "displayName": "Mailchimp vs Klaviyo (2026): pricing, ecommerce, verdict",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/mailchimp-vs-klaviyo/",
    "description": "Mailchimp from $13/mo, Klaviyo from $20/mo. Mailchimp versus Klaviyo on pricing, ecommerce depth, AI features, and integrations.",
    "representativeQueries": [
-    "mailchimp vs klaviyo (2026): pricing, ecommerce depth, verdict",
+    "mailchimp vs klaviyo (2026): pricing, ecommerce, verdict",
     "mailchimp vs klaviyo comparison"
    ]
   },
@@ -3734,7 +3734,7 @@
    "displayName": "Matomo vs PostHog (2026): web analytics or product analytics",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/matomo-vs-posthog/",
-   "description": "Matomo from €22/mo. Matomo vs PostHog compared on price, deployment, privacy and scope.",
+   "description": "Matomo from €22/mo. Matomo vs PostHog compared on price, deployment, data residency, reporting depth and licence, with a quick pick for each team.",
    "representativeQueries": [
     "matomo vs posthog (2026): web analytics or product analytics",
     "matomo vs posthog comparison"
@@ -3742,12 +3742,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:n8n-vs-make-vs-zapier",
-   "displayName": "n8n vs Make vs Zapier (2026): the three-way automation decision",
+   "displayName": "n8n vs Make vs Zapier (2026): the automation decision",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/",
-   "description": "n8n from €20/mo, Make from $9/mo. n8n vs Make vs Zapier on price, self-hosting, connectors and exit cost.",
+   "description": "n8n from €20/mo, Make from $9/mo. n8n vs Make vs Zapier on price, self-hosting, AI agents, connectors and migration cost, and when each one wins.",
    "representativeQueries": [
-    "n8n vs make vs zapier (2026): the three-way automation decision",
+    "n8n vs make vs zapier (2026): the automation decision",
     "n8n vs make vs zapier comparison"
    ]
   },
@@ -3756,7 +3756,7 @@
    "displayName": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/n8n-vs-zapier/",
-   "description": "n8n from €20/mo, Zapier from $19.99/mo. n8n vs Zapier compared on pricing, self-hosting, AI features, and integrations.",
+   "description": "n8n from €20/mo, Zapier from $19.99/mo. n8n vs Zapier compared on pricing at volume, self-hosting, AI features, integrations, and exit cost.",
    "representativeQueries": [
     "n8n vs zapier (2026): self-hosted depth or catalog breadth",
     "n8n vs zapier comparison"
@@ -3764,12 +3764,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:vs:nocodb-vs-nocobase",
-   "displayName": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
+   "displayName": "NocoDB vs NocoBase (2026): spreadsheet or system builder",
    "type": "text/html",
    "url": "https://martechsignal.com/vs/nocodb-vs-nocobase/",
-   "description": "NocoDB from $12/seat/mo. NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, and integrations.",
+   "description": "NocoDB from $12/seat/mo. NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, integrations, and the cost of leaving.",
    "representativeQueries": [
-    "nocodb vs nocobase (2026): spreadsheet layer or system builder",
+    "nocodb vs nocobase (2026): spreadsheet or system builder",
     "nocodb vs nocobase comparison"
    ]
   },
@@ -3819,12 +3819,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:alternatives:n8n",
-   "displayName": "Best n8n alternatives (2026)",
+   "displayName": "Best n8n alternatives (2026): self-hosted and cloud",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/n8n/",
-   "description": "Make from $9/mo, Zapier from $19.99/mo. n8n alternatives including Make, Zapier, Pipedream, and Activepieces.",
+   "description": "Make from $9/mo, Zapier from $19.99/mo. n8n alternatives including Make, Zapier, Pipedream, and Activepieces, compared on cost, billing and hosting.",
    "representativeQueries": [
-    "best n8n alternatives (2026)",
+    "best n8n alternatives (2026): self-hosted and cloud",
     "n8n alternatives"
    ]
   },
@@ -3833,7 +3833,7 @@
    "displayName": "Best Zapier alternatives (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/zapier/",
-   "description": "n8n from €20/mo, Make from $9/mo. Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase.",
+   "description": "n8n from €20/mo, Make from $9/mo. Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase, with who each pick is best for.",
    "representativeQueries": [
     "best zapier alternatives (2026)",
     "zapier alternatives"
@@ -3852,12 +3852,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:guides:ai-seo-tooling",
-   "displayName": "AI SEO tooling: benchmarks, comparisons, and the honest limits",
+   "displayName": "AI SEO tooling: benchmarks, comparisons, honest limits",
    "type": "text/html",
    "url": "https://martechsignal.com/guides/ai-seo-tooling/",
    "description": "What AI SEO tools actually measure, how the benchmark suite tests them, and which comparisons hold up when you run the tool instead of reading the pitch.",
    "representativeQueries": [
-    "ai seo tooling: benchmarks, comparisons, and the honest limits",
+    "ai seo tooling: benchmarks, comparisons, honest limits",
     "ai seo tooling guide"
    ]
   },
@@ -3885,12 +3885,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:guides:workflow-automation-strategy",
-   "displayName": "Workflow automation without the AI-tool pile-on: the strategy hub",
+   "displayName": "Workflow automation strategy without the AI-tool pile-on",
    "type": "text/html",
    "url": "https://martechsignal.com/guides/workflow-automation-strategy/",
    "description": "The workflow automation coverage in one place: where AI tools fit, long-run no-code costs, and how to audit what you already own.",
    "representativeQueries": [
-    "workflow automation without the ai-tool pile-on: the strategy hub",
+    "workflow automation strategy without the ai-tool pile-on",
     "workflow automation strategy guide"
    ]
   },
@@ -3907,7 +3907,7 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:pages:about",
-   "displayName": "About",
+   "displayName": "About MartechSignal: independent martech research",
    "type": "text/html",
    "url": "https://martechsignal.com/about/",
    "description": "Who runs MartechSignal, how tools are evaluated, and the editorial policy behind our AI marketing tool research. Independent, no sponsored rankings.",
@@ -3918,7 +3918,7 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:pages:methodology",
-   "displayName": "Methodology",
+   "displayName": "Methodology: how we score martech tools",
    "type": "text/html",
    "url": "https://martechsignal.com/methodology/",
    "description": "How MartechSignal researches tools, verifies prices and dates, and scores the six-pillar rubric. Desk research with dated verification.",
@@ -3941,10 +3941,10 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:pages:ai-policy",
-   "displayName": "AI policy",
+   "displayName": "AI policy: how AI systems may use MartechSignal",
    "type": "text/html",
    "url": "https://martechsignal.com/ai-policy/",
-   "description": "How AI systems may use MartechSignal: search and retrieval allowed, model training on this content is not.",
+   "description": "How AI systems may use MartechSignal: search, retrieval and cited answers are allowed, model training on this content is not. How to cite us.",
    "representativeQueries": [
     "martechsignal ai policy",
     "llm usage policy site"
@@ -3952,10 +3952,10 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:pages:corrections",
-   "displayName": "Corrections",
+   "displayName": "Corrections log: dated fixes to our reviews",
    "type": "text/html",
    "url": "https://martechsignal.com/corrections/",
-   "description": "Every correction we have made to martechsignal.com content, newest first. Part of our sourcing and honesty policy.",
+   "description": "Every correction we have made to martechsignal.com content, newest first, with the date and what changed. Part of our sourcing and honesty policy.",
    "representativeQueries": [
     "martechsignal corrections",
     "site errata"
@@ -3985,10 +3985,10 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:pages:terms",
-   "displayName": "Terms of Use",
+   "displayName": "Terms of Use: quoting and reuse rules",
    "type": "text/html",
    "url": "https://martechsignal.com/terms/",
-   "description": "How MartechSignal reviews may be used and quoted, the editorial independence guarantee, and scraping limits.",
+   "description": "How MartechSignal reviews may be used and quoted, the editorial independence guarantee, scraping limits, and what we ask in return for reuse.",
    "representativeQueries": [
     "martechsignal terms of service",
     "martechsignal usage terms"
@@ -4007,7 +4007,7 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:pages:categories",
-   "displayName": "Categories",
+   "displayName": "Martech tool categories, compared",
    "type": "text/html",
    "url": "https://martechsignal.com/categories/",
    "description": "Browse all 13 categories plus the open-source index across 174 marketing-automation tools: licences, stars and plain-English summaries.",
@@ -4029,10 +4029,10 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:pages:blog",
-   "displayName": "Blog",
+   "displayName": "Blog: AI marketing automation analysis",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/",
-   "description": "Deep-dives, tool teardowns, and hot takes on AI in marketing automation.",
+   "description": "Analysis of AI in marketing automation: tool teardowns, pricing and platform shifts, and what each change means for the team running the stack.",
    "representativeQueries": [
     "martechsignal blog",
     "marketing teardown blog"
@@ -4062,7 +4062,7 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:pages:contact",
-   "displayName": "Contact",
+   "displayName": "Contact MartechSignal: tips, corrections, vendor news",
    "type": "text/html",
    "url": "https://martechsignal.com/contact/",
    "description": "Corrections, tips, vendor news, or questions about how MartechSignal tests tools. Email tim@martechsignal.com or use the contact form.",
@@ -4094,7 +4094,7 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:pages:alternatives",
-   "displayName": "Alternatives guides (2026)",
+   "displayName": "Martech alternatives guides (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/",
    "description": "Five alternatives guides: credible options besides HubSpot CRM, Zapier, Matomo, n8n and Mailchimp, with who each pick fits and vendor-published pricing.",

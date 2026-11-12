@@ -5,7 +5,7 @@
 - Agent Skills
 ## Agent Skills Tools
 
-Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 21 reviewed.
+Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow, and what it costs. 21 reviewed.
 
 21 tools in this category
 

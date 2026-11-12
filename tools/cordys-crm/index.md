@@ -141,8 +141,8 @@ The community edition is free and self-hosted under a GPLv3-based license, with 
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
 ### Quick Facts
 
 - **Pricing:** Freemium

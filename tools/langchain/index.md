@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 47/60
 
-LangChain is the agent framework everything else measures against: 149,338 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.
+LangChain is the agent framework everything else measures against: 149,384 stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.
 
 
 | Pillar | Score | Evidence |
@@ -126,8 +126,8 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your agent's price quote is a snapshot of a page you stopped updating](/blog/agent-price-quotes-are-stale-snapshots/)
-- [OpenAI can block your site from its agents, and your logs will never show it](/blog/openai-aura-silent-agent-block/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $39/mo

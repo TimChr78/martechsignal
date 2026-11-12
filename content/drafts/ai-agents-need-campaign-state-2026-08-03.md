@@ -6,6 +6,7 @@ date: 2026-08-03
 author: Tim Christensen
 tags: [AI, Marketing Ops, Agents, Automation, Campaign State, n8n]
 categories: [marketing-automation]
+seo_description: "Vendor demos show an agent drafting one email. The real failure comes three weeks later, when it contradicts itself because nothing stores campaign state."
 ---
 
 Every vendor demo you have seen this year shows the same trick. A marketer types a sentence into a box, an AI agent drafts an email, and the crowd applauds. The drafting is the easy part. It has been the easy part since 2023.

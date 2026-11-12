@@ -158,8 +158,8 @@ Four documented models. Native is the deepest: every email send pulls Persado-sc
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
+- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Large senders that want language tested against response data at scale

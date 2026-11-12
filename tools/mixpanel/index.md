@@ -156,7 +156,7 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 ## Related reading
 
 - [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ## Also featured in
 

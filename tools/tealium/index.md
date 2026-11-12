@@ -124,8 +124,8 @@ Best for enterprises that need governed, consent-aware data plumbing at scale. W
 ## Related reading
 
 - [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Regulated enterprises that need governance around every customer event

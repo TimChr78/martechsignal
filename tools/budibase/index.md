@@ -162,7 +162,7 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 
 - [Budibase next to NocoBase and NocoDB: choosing between the three](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ### Quick Facts
 
 - **Pricing:** Open-core from $19/mo

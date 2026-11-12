@@ -1,6 +1,6 @@
 ---
 title: "You Don't Need a New Data Stack for AI. Fivetran Just Proved It"
-seo_description: "Fivetran proved AI runs fine on the warehouse you already own. Skip the rebuild and fix the pipes instead."
+seo_description: "Fivetran and phData showed AI running on a healthcare data platform nobody rebuilt. The lesson for marketing ops is to fix the pipes, not fund a migration."
 seo_title: "Fivetran Proved You Don't Need a New Data Stack"
 slug: you-dont-need-new-data-stack-fivetran
 date: 2026-08-20

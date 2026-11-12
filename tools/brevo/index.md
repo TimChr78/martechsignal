@@ -1053,8 +1053,8 @@ Yes. The catalog records a public API for Brevo, so custom integrations are poss
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
-- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Also featured in
 
 - [Mailchimp vs Brevo (2026): pricing, multichannel, verdict](/vs/mailchimp-vs-brevo/) — Pick Brevo if your list is large but rarely sent, or you need one multichannel account on a tight budget, starting free at 300 emails/day with paid from $9/mo.

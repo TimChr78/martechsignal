@@ -103,8 +103,8 @@ Strengths include 59,813 GitHub stars, MIT licensing with free self-hosting. Mar
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your agent's price quote is a snapshot of a page you stopped updating](/blog/agent-price-quotes-are-stale-snapshots/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
 ### Quick Facts
 
 - **Pricing:** Open Source

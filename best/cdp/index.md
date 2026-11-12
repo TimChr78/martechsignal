@@ -1,4 +1,4 @@
-# Best Customer Data Platforms (2026): composable to self-hosted
+# Best CDPs (2026): composable to self-hosted
 
 ## Best Customer Data Platforms (2026): composable to self-hosted
 

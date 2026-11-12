@@ -1,4 +1,4 @@
-# Terms of Use
+# Terms of Use: quoting and reuse rules
 
 ## Terms of Use
 

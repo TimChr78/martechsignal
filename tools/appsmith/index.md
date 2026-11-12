@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 39/60
 
-Appsmith is how internal tools get built in a week: 41,220 stars of admin-panel plumbing over your own databases. The AI assist is an editor convenience, and its first datasource is already deprecated.
+Appsmith is how internal tools get built in a week: 41,233 stars of admin-panel plumbing over your own databases. The AI assist is an editor convenience, and its first datasource is already deprecated.
 
 
 | Pillar | Score | Evidence |
@@ -44,7 +44,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Appsmith is an open-source low-code platform for building admin panels, internal dashboards and operational apps on the databases and APIs you already run: drag-and-drop interfaces wired to SQL or JavaScript queries, with git-based version control, environments and role-based access on top. The repo is Apache 2.0, and at 41,220 GitHub stars with roughly 380 contributors it is the largest project in the internal-tools class we cover; releases land steadily (v2.3 shipped August 13, 2026). One licensing detail matters before you install: the docs recommend the appsmith-ee image, which is the commercial edition with a free plan, and you swap to appsmith-ce for the pure community build, so the edition you run is a choice at install time. For marketing operations the draw is consolidation: campaign metrics from ad platform APIs, lead-quality views beside the CRM, and approval panels wired to the warehouse, all in one tab and all self-hosted so lead and consent data stays in-house. The connector list is wide: PostgreSQL, MySQL, MongoDB, SQL Server, Oracle, Snowflake, Redshift, DynamoDB, Elasticsearch, Redis, S3 and Firestore, plus SaaS integrations including HubSpot, Salesforce, Google Sheets, Airtable, Jira, Notion and Mixpanel, and any REST or GraphQL API. AI help is in the community edition since v2.3: Ask AI writes SQL and JavaScript in the editor once an admin enables a provider, while the older Appsmith AI datasource reaches end of life on September 30, 2026. Trade-offs: it is a developer-leaning tool, so someone comfortable with SQL and JS should own it; the default Docker install wants 8 GB of RAM on the host and outbound access to cs.appsmith.com; and there are no marketing-specific templates, so the first useful app is on you. Pricing is per user: free for five cloud users, Business at $15 per user monthly, Enterprise from $2,500 per month for 100 users. This assessment is based on the documented architecture and public materials.
+Appsmith is an open-source low-code platform for building admin panels, internal dashboards and operational apps on the databases and APIs you already run: drag-and-drop interfaces wired to SQL or JavaScript queries, with git-based version control, environments and role-based access on top. The repo is Apache 2.0, and at 41,233 GitHub stars with roughly 380 contributors it is the largest project in the internal-tools class we cover; releases land steadily (v2.3 shipped August 13, 2026). One licensing detail matters before you install: the docs recommend the appsmith-ee image, which is the commercial edition with a free plan, and you swap to appsmith-ce for the pure community build, so the edition you run is a choice at install time. For marketing operations the draw is consolidation: campaign metrics from ad platform APIs, lead-quality views beside the CRM, and approval panels wired to the warehouse, all in one tab and all self-hosted so lead and consent data stays in-house. The connector list is wide: PostgreSQL, MySQL, MongoDB, SQL Server, Oracle, Snowflake, Redshift, DynamoDB, Elasticsearch, Redis, S3 and Firestore, plus SaaS integrations including HubSpot, Salesforce, Google Sheets, Airtable, Jira, Notion and Mixpanel, and any REST or GraphQL API. AI help is in the community edition since v2.3: Ask AI writes SQL and JavaScript in the editor once an admin enables a provider, while the older Appsmith AI datasource reaches end of life on September 30, 2026. Trade-offs: it is a developer-leaning tool, so someone comfortable with SQL and JS should own it; the default Docker install wants 8 GB of RAM on the host and outbound access to cs.appsmith.com; and there are no marketing-specific templates, so the first useful app is on you. Pricing is per user: free for five cloud users, Business at $15 per user monthly, Enterprise from $2,500 per month for 100 users. This assessment is based on the documented architecture and public materials.
 
 Appsmith homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -161,8 +161,8 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
 ### Quick Facts
 
 - **Pricing:** Open-core from $15/user/mo

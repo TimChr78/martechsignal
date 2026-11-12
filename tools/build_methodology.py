@@ -18,7 +18,7 @@ breadcrumb = {
     ],
 }
 out = page_shell(
-    "Methodology | MartechSignal",
+    "Methodology: how we score martech tools | MartechSignal",
     "How MartechSignal researches tools, verifies prices and dates, and scores the six-pillar rubric. Desk research with dated verification.",
     "https://martechsignal.com/methodology/",
     content,

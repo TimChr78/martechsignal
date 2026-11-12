@@ -1,4 +1,4 @@
-# n8n vs Make vs Zapier (2026): the three-way automation decision
+# n8n vs Make vs Zapier (2026): the automation decision
 
 ## n8n vs Make vs Zapier (2026): the three-way automation decision
 

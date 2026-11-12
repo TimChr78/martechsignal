@@ -125,8 +125,8 @@ The right platform for large retailers consolidating search, CDP, and messaging.
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Commerce brands that want content, search and campaigns in one engine

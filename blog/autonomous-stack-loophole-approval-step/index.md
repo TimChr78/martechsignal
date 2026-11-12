@@ -76,8 +76,8 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 
@@ -96,4 +96,4 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Jasper](/tools/jasper/)
+More from the directory: [Instagram Skills](/tools/instagram-skills/)

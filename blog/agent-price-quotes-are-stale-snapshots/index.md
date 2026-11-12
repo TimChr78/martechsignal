@@ -72,13 +72,13 @@ We still drift, 46 records deep, and we can name exactly which 46, because the a
 
 ## Related reading
 
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ## Related tools
 
-- [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 - [Claude SEO](/tools/claude-seo/) - Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
+- [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 - [Scrunch](/tools/scrunch/) - The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 ## Comparison guides
 
@@ -92,4 +92,4 @@ We still drift, 46 records deep, and we can name exactly which 46, because the a
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [BillionMail](/tools/billionmail/)
+More from the directory: [Apache Unomi](/tools/apache-unomi/)

@@ -304,7 +304,7 @@
    "slug": "ai-email-marketing-tools",
    "title": "Best AI Email Marketing tools (2026): 8 compared",
    "seo_title": "Best AI Email Marketing tools (2026): 8 compared",
-   "meta": "Mailchimp from $13/mo, Klaviyo from $20/mo. 8 email marketing tools compared on pricing, AI features, and integrations.",
+   "meta": "Mailchimp from $13/mo, Klaviyo from $20/mo. 8 email marketing tools compared on pricing, AI features, and integrations, with who each is best for.",
    "intro": [
     "Fifteen email marketing tools are catalogued; these eight make the shortlist. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
     "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
@@ -532,7 +532,7 @@
   {
    "slug": "marketing-analytics-tools",
    "title": "Best Marketing Analytics and Attribution tools (2026): 8 compared",
-   "seo_title": "Best Marketing Analytics and Attribution tools (2026): 8 compared",
+   "seo_title": "Best Marketing Analytics and Attribution Tools (2026)",
    "meta": "Matomo from €22/mo, Umami from $20/mo. 8 analytics & attribution tools compared on pricing, AI features, and integrations.",
    "intro": [
     "The analytics shelf is short - eleven tools tracked, eight listed here. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
@@ -994,7 +994,7 @@
    "slug": "open-source-marketing-tools",
    "title": "Best Open-Source Marketing Tools (2026): 8 compared",
    "seo_title": "Best Open-Source Marketing Tools (2026): 8 compared",
-   "meta": "Mautic from €247.50/mo, n8n from €20/mo. 8 open-source tools compared on pricing, AI features, and integrations.",
+   "meta": "Mautic from €247.50/mo, n8n from €20/mo. 8 open-source marketing tools compared on pricing, AI features, and integrations, with a verdict on each.",
    "intro": [
     "The directory's open-source badge marks tools whose code and terms are public. These eight are where a marketing team should start, ordered by how directly they answer the job: Mautic for marketing automation first, newsletter and messaging engines next, then CRM, automation glue, and analytics. Scored tools come first. Nobody pays for placement.",
     "Considered and excluded, with reasons: Odoo Community (ERP-first; we have not reviewed it to catalog depth), Keila (newsletter-focused; not yet in our directory), EspoCRM (a fine lightweight CRM that SuiteCRM and Twenty cover here), Dolibarr (accounting and ERP first), NocoDB (an Airtable alternative, not marketing), React Email Editor (a component library, not a product), and Claude SEO (SEO tooling rather than marketing automation; we review it hands-on elsewhere).",
@@ -1073,7 +1073,7 @@
    "slug": "agent-skills-tools",
    "title": "Best Agent Skills tools (2026): 8 compared",
    "seo_title": "Best Agent Skills tools (2026): 8 compared",
-   "meta": "8 agent skills tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "meta": "8 agent skills tools for coding agents compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
    "intro": [
     "Eighteen agent-skill packs are catalogued; eight are worth installing first. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
     "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
@@ -1150,7 +1150,7 @@
   {
    "slug": "cdp",
    "title": "Best Customer Data Platforms (2026): composable to self-hosted",
-   "seo_title": "Best Customer Data Platforms (2026): composable to self-hosted",
+   "seo_title": "Best CDPs (2026): composable to self-hosted",
    "meta": "RudderStack from $265/mo, Jitsu from $99/mo. Six customer data platforms compared on architecture, pricing shape, self-hosting, and data-residency.",
    "intro": [
     "A customer data platform solves one problem: events arrive from an app, and a coherent profile has to come out where the campaigns run. The 2026 market splits cleanly along one axis - does the tool store the profile itself (classic CDPs like Segment and Tealium), or does it only route warehouse data and leave storage to Snowflake or BigQuery (composable CDPs like Hightouch, and event routers like RudderStack or Jitsu)?",

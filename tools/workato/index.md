@@ -147,7 +147,7 @@ Yes, for training. The Workato Automation Institute's certificate programs (Auto
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 - [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ## Also featured in
 

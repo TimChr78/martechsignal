@@ -142,8 +142,8 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for lean sales teams that automate à la carte.

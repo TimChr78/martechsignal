@@ -32,7 +32,7 @@ ContentBot is priced like a utility: $0.50 per 1,000 prepaid words with a $9 flo
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Prepaid $0.50/1K words, Starter $9/mo and Premium $29/mo published with a free trial (the vendor pricing page: [pricing page](https://contentbot.ai/pricing), verified 2026-08-28). |
+| Pricing transparency | 9/10 | Prepaid $0.50/1K words, Starter $9/mo and Premium $29/mo published with a free trial (the vendor pricing page: [pricing page](https://contentbot.ai/#pricing), verified 2026-08-28). |
 | Feature depth | 5/10 | Blog, ad copy, image and bulk generation with workflows cover the content production loop (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
 | Integrations | 5/10 | WordPress, Chrome, Zapier, Shopify and Google Docs documented plus an API (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
 | AI capability | 5/10 | Bulk generation and content workflows are the automation core (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
@@ -67,7 +67,7 @@ ContentBot is freemium, with a free tier to start, paid plans start at $9/mo as 
 
 Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available
 
-Current plans and limits live on the [ContentBot pricing page](https://contentbot.ai/pricing).
+Current plans and limits live on the [ContentBot pricing page](https://contentbot.ai/#pricing).
 
 ## Review notes
 
@@ -121,8 +121,8 @@ Good value for high-volume, template-driven content pipelines. Teams doing premi
 ## Related reading
 
 - [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $9/mo

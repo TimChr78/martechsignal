@@ -7,6 +7,7 @@ author: Tim Christensen
 tags: [AI Agents, Salesforce, Anthropic]
 categories: [marketing-automation]
 excerpt: "Salesforce's own blog invites merchants to build commerce agents on Claude. That menu item is a quiet admission about where agent building actually happens."
+seo_description: "Salesforce invited merchants to build commerce agents on Claude while its own recap led with AIforce. Two posts, one day, different build paths."
 ---
 
 On September 22, Salesforce published two blog posts. One, from the Commerce Cloud team, is titled "Build Agents Your Way with Claude and Commerce Cloud." It invites merchants to build commerce agents on Anthropic's Claude, and it names Claude as an intelligence layer that can sit on top of Salesforce's Commerce MCP server. The other, the [Dreamforce IT announcements recap](https://www.salesforce.com/blog/dreamforce-2026-top-it-announcements/), leads with AIforce, a platform layer that reaches every surface, where "Agentforce, Claude, or another agent of your choice" can take action inside your Salesforce permissions.

@@ -121,8 +121,8 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Someone found a live agent fleet in the wild. Most of its runs failed.](/blog/agent-fleet-in-the-wild-2026-10-19/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for Codex CLI users who want scripted SEO workflows.

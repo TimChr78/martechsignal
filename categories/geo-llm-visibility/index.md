@@ -5,7 +5,7 @@
 - GEO & LLM Optimization
 ## GEO & LLM Optimization Tools
 
-AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overviews. 14 reviewed with dated facts.
+AI search visibility tools that track who cites you in ChatGPT, Perplexity, and AI Overviews. 14 reviewed with verified pricing and dated facts.
 
 14 tools in this category
 

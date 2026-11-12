@@ -122,8 +122,8 @@ The reference tool for SEO copy scoring. Best when paired with a writer who want
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for content teams that grade drafts against search intent all day.

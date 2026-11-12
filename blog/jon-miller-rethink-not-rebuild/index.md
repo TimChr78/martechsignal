@@ -1,6 +1,6 @@
 # Rethink, not rebuild: the replatform-for-AI trap
 
-Marketing Automation · AI Agents · 6 min read
+Marketing Automation · AI Agents · 9 min read
 
 ## Rethink, not rebuild: Jon Miller and the replatform-for-AI trap
 
@@ -54,6 +54,24 @@ That is the contrarian reading of this launch. Vendors need the AI era to requir
 
 Miller's diagnosis is right and his cure is optional. If your MAP runs your programs and the complaints are the rules layer's rigidity, the reasoning layer is likely to arrive where you already are, through MCP tool surfaces and vendor-shipped reasoning, and the data you would risk in a migration is the asset every vendor actually wants.
 
+## The test before you take the meeting
+
+A launch is not a diagnosis. Run these four questions before anyone books a demo.
+
+1. **Where does the rigidity actually live?** If your team spends its week fighting the data model, meaning account hierarchies that cannot represent a buying group, or intent that never lands on the right record, a new reasoning engine will inherit the same mess. If they spend it fighting the canvas, meaning journeys that need a decision the flowchart cannot express, the reasoning layer is the fix. 2. **Does your platform expose write tools over MCP yet?** Read-only access makes agents a reporting channel. Write access makes them operators. The difference decides whether the layer can reach your current stack at all. 3. **What does a migration copy?** Buying groups, intent history, suppression lists, scoring history, and the accumulated judgment in your segments. Those are not rows you export in an afternoon. They are the asset, and the migration is priced against them. 4. **Can you name the campaign the new platform would run that yours cannot?** Not the campaign it would run better. The one that is currently impossible. If you cannot name it, you are buying the feeling of a launch.
+
+Say a team runs 40 lifecycle programs, all hypothetical, and six of them need multi-person buying-group logic the current MAP cannot express. Replatforming moves 40 programs to get six. Rethinking in place moves six, on top of a data layer that already knows the accounts. The arithmetic is not close, and it does not depend on which vendor is better.
+
+## When the trap stops being a trap
+
+The replatform case gets stronger under conditions we can name, and we would say so.
+
+- Incumbents fail to ship reasoning and write-capable MCP surfaces within a year. Then the layer argument collapses into a platform argument, and waiting costs you capability rather than saving you a migration.
+- Your buying-group and intent history already lives in a warehouse, not in the MAP. The switching cost we described shrinks, because the asset was never inside the platform.
+- A migration quote comes back small relative to the program budget, and the data plumbing turns out to be routine. The trap is only a trap when the bill is hidden.
+- The campaign you cannot run is the one your pipeline depends on. Capability gaps beat switching-cost arguments every time.
+If two or more of those are true, replatform on the merits. That is the same advice as below, arrived at honestly.
+
 ## If you do replatform, do it for one reason
 
 None of this makes Phave wrong. Its architectural ideas are genuinely good, and someone has to build the reasoning-native MAP. Phave's own site says it replaces Marketo, Pardot, Eloqua, and HubSpot, a bold scope claim from a 10-customer company, and there is no public pricing. Miller said early adopters report building campaigns two to three times faster, which is a vendor claim from a two-year stealth period, so hold it lightly.
@@ -66,22 +84,22 @@ But do not replatform *for* AI. If the stack you have runs your programs, the AI
 
 ## Related reading
 
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
 ## Related tools
 
 - [Bloomreach](/tools/bloomreach/) - AI-powered commerce experience platform with search, personalization, and CDP
 - [Braze](/tools/braze/) - Customer engagement platform with AI-powered real-time messaging across channels
-- [Laudspeaker](/tools/laudspeaker/) - Open-source customer engagement and product onboarding platform, alternative to Braze
+- [Ortto](/tools/ortto/) - Customer data and marketing automation platform with journeys, CDP, and AI features
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
-- [DSP](/glossary/dsp/)
 - [CDP](/glossary/cdp/)
+- [DSP](/glossary/dsp/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

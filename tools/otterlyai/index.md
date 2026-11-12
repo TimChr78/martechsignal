@@ -139,8 +139,8 @@ Yes. Standard and above include API and MCP access (2,000 requests per month eac
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
+- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Teams starting GEO measurement at an entry price

@@ -97,6 +97,6 @@ Tools linked in this post: [n8n](/tools/n8n/) | [Zapier](/tools/zapier/) | [Make
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Analytics Tracking Automation](/tools/analytics-tracking-automation/)
+More from the directory: [advertools](/tools/advertools/)
 
 ✓ Verdict: delegate, do not lend

@@ -124,8 +124,8 @@ Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly c
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Support teams that want AI resolutions auditable at $0.99 each

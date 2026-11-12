@@ -1,6 +1,6 @@
 # Braze moves AI into campaign ops: who approves?
 
-AI Agents · Marketing Automation · 6 min read
+AI Agents · Marketing Automation · 9 min read
 
 ## Braze moved AI from content to campaign operations: who approves when the campaign runs itself
 
@@ -49,20 +49,47 @@ Apply that to Decisioning Studio Go. The system optimizes toward whatever goal i
 
 There is a third thread. Braze's decisioning loop holds engagement data inside its own walls, but this announcement does not describe exposing the campaign's logic and history to the external agents now invited in through Operator Connect. That gap is the subject of [Your AI marketing agent doesn't need better prompts](/blog/ai-agents-need-campaign-state/): the missing layer is campaign state, and it does not appear in the announcement.
 
+## Drawing the boundary before you switch it on
+
+The announcement names one review screen. Your job is to decide what reaches it. Sort every action these products can take into four buckets, and write the answer down before launch.
+
+
+| Action | Can you undo it after send? | Who approves | What you keep |
+| --- | --- | --- | --- |
+| Picking a variant or send time | No, the send happened | Nobody, within rules you set | The decision and the inputs behind it |
+| Applying a QA fix to copy or links | Yes, before launch | The rule owner, or the agent under a written rule | The audit log entry and the diff |
+| Building campaign structure from an external assistant | Yes, until launch | A named reviewer in the dashboard | Who built it, from what brief, over which connection |
+| Changing audience logic | No, once the segment is used | A human, always | The segment definition and its approver |
+
+The test is not how clever the action is. It is whether a send can happen before a person sees the result. Variant selection passes because the rules define the space and the send is the point. Audience logic fails because a wrong segment is not a copy problem, it is a list problem, and no audit log repairs a send to the wrong people.
+
+Ownership of the log is the part vendors leave vague. Decide it yourself: name the system of record, name who reads it, and name how long it survives. A log that lives only inside the tool that produced it is evidence for the vendor, not for your compliance team.
+
+Say a hypothetical team runs a five-email welcome journey with twelve creative variants and three CTAs, and the agent applies seven accessibility fixes overnight. The fixes may be perfect. The question a reviewer will ask in the morning is not whether the fixes were right, but whether anyone can reconstruct why each one was made and who allowed it. If the answer is a dashboard nobody exported, the approval step existed on paper only.
+
+## What would confirm the boundary
+
+The generous reading is that Braze shipped a real boundary and will document it. Three things would confirm that.
+
+- The company publishes per-action permission scopes for Operator Connect, not just a list of tools. Scope is the part that decides what an external assistant can build alone.
+- The audit log exports somewhere outside Braze, in a format a compliance team can retain and query.
+- Customers report that Agentic Standards proposes fixes without applying them by default, and that turning on automatic correction is a separate, visible choice.
+The ungenerous reading is that all three ship permissive and the review screen becomes a formality. That would show up as agents applying corrections during live campaigns with no diff a human reads, and as MCP builds that never pass through the dashboard at all. Watch which one the first public case studies describe.
+
 One review screen where a human blesses agent-assembled work before anything ships is a good default, and a direct answer to the approval-hole problem in autonomous stacks. It holds as long as that screen stays load-bearing. The pressure will come from the corners the announcement leaves unnamed: the corrections an agent may apply alone, the builds an MCP assistant may make unreviewed, and the audit log nobody owns. Ask those three before turning any of this on. Vendors rarely restrict by default, so assume permissive until told otherwise.
 
 *Tools linked in this post:* [Braze](/tools/braze/) | [Claude](https://claude.ai) | [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) | [Klaviyo](/tools/klaviyo/) | [Customer.io](/tools/customer-io/) | [MCP](/glossary/mcp/)
 
 ## Related reading
 
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ## Related tools
 
-- [Digital Marketing Pro](/tools/digital-marketing-pro/) - 163-skill AI marketing plugin for agencies with EU AI Act compliance
+- [Persado](/tools/persado/) - AI content creation and optimization platform for regulated financial services marketing
 - [Laudspeaker](/tools/laudspeaker/) - Open-source customer engagement and product onboarding platform, alternative to Braze
-- [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+- [Claude Ads](/tools/claude-ads/) - Paid-media operations skill for Claude Code covering 12 ad platforms
 ## Comparison guides
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/)
@@ -75,6 +102,6 @@ One review screen where a human blesses agent-assembled work before anything shi
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Khoj](/tools/khoj/)
+More from the directory: [Jasper](/tools/jasper/)
 
 ✓ Where this lands

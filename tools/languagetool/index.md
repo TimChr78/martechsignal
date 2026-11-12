@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 37/60
 
-LanguageTool is the privacy-friendly grammar checker: self-hosted under LGPL, 15,247 stars, 30+ languages. Premium prices localize by region, which is worth checking before you budget.
+LanguageTool is the privacy-friendly grammar checker: self-hosted under LGPL, 15,251 stars, 30+ languages. Premium prices localize by region, which is worth checking before you budget.
 
 
 | Pillar | Score | Evidence |
@@ -44,7 +44,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-LanguageTool is an open-source writing assistant and grammar checker, licensed LGPL-2.1, with 15,247 GitHub stars and a rule-based engine that covers more than 30 languages. It checks grammar, punctuation, and spelling, and its AI layer adds style and tone suggestions alongside a paraphrasing tool. The server is a Java application you run yourself, and the clients cover browser add-ons for Chrome, Firefox, Edge, and Opera, mail add-ons for Gmail, Outlook, and Apple Mail, and extensions for office suites. Self-hosting and the browser add-ons are free. Premium features on languagetool.org, which include the AI style suggestions, unlimited paraphrasing, and extra error detection, started at SEK 49.96 per month as served in Sweden in September 2026. The vendor localizes currency, and higher tiers appeared at SEK 58.25 and SEK 149.67. The project is maintained by LanguageTooler GmbH in Hamburg, part of Learneo since 2023, so there is a company behind the community codebase. That matters for privacy discussions: the self-hosted server keeps text on your own infrastructure, while the hosted checker sends text to LanguageTool's servers. For marketing teams the practical use is quality control on multilingual copy. Writers get a second pass before publication, and style rules push contributors toward a shared tone across English, German, French, Spanish, and dozens of other languages. It checks text; it does not manage content or translate it, and the depth of the style suggestions varies by language. Teams that publish in several languages and want consistent grammar and style checking with the option to keep text in-house will find it fits.
+LanguageTool is an open-source writing assistant and grammar checker, licensed LGPL-2.1, with 15,251 GitHub stars and a rule-based engine that covers more than 30 languages. It checks grammar, punctuation, and spelling, and its AI layer adds style and tone suggestions alongside a paraphrasing tool. The server is a Java application you run yourself, and the clients cover browser add-ons for Chrome, Firefox, Edge, and Opera, mail add-ons for Gmail, Outlook, and Apple Mail, and extensions for office suites. Self-hosting and the browser add-ons are free. Premium features on languagetool.org, which include the AI style suggestions, unlimited paraphrasing, and extra error detection, started at SEK 49.96 per month as served in Sweden in September 2026. The vendor localizes currency, and higher tiers appeared at SEK 58.25 and SEK 149.67. The project is maintained by LanguageTooler GmbH in Hamburg, part of Learneo since 2023, so there is a company behind the community codebase. That matters for privacy discussions: the self-hosted server keeps text on your own infrastructure, while the hosted checker sends text to LanguageTool's servers. For marketing teams the practical use is quality control on multilingual copy. Writers get a second pass before publication, and style rules push contributors toward a shared tone across English, German, French, Spanish, and dozens of other languages. It checks text; it does not manage content or translate it, and the depth of the style suggestions varies by language. Teams that publish in several languages and want consistent grammar and style checking with the option to keep text in-house will find it fits.
 
 ## AI Capabilities
 
@@ -143,8 +143,8 @@ No. It catches grammar, punctuation, and spelling problems and offers style and 
 ## Related reading
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ### Quick Facts
 
 - **Pricing:** Freemium

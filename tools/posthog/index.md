@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 43/60
 
-PostHog gives away more than anyone: a full free tier on every product, month after month. 40,736 stars of MIT product analytics with AI observability that tracks your own LLM features.
+PostHog gives away more than anyone: a full free tier on every product, month after month. 40,749 stars of MIT product analytics with AI observability that tracks your own LLM features.
 
 
 | Pillar | Score | Evidence |
@@ -44,7 +44,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-PostHog is an open-source product analytics platform with 40,736 GitHub stars. One install covers event analytics, session replay, feature flags, A/B testing, surveys, error tracking, a data warehouse, data pipelines, and logs. The core code is MIT licensed, while the ee/ directory carries a separate enterprise license, so the openness is real but partial. The same product runs as PostHog Cloud in US and EU regions or self-hosted. Pricing is usage-based credits on top of a free tier that renews every month for every product: 1M events, 5K session recordings, 1M feature flag requests, 100K exceptions, 1,500 survey responses, 10GB of logs, and more, with no card required and usage stopping at the limits. Pay-as-you-go adds six projects, seven-year data retention, and unlimited usage. Credit add-ons were shown as USD 5, 25, and 20 packs in September 2026. The free tier is not a trial; the vendor says 97 percent of companies never pay. The AI features are part of the product rather than a bolt-on. PostHog AI answers questions about your data in plain language across web, Slack, desktop, and MCP, with 500 free credits each month, while AI Observability and Evaluations track LLM usage and Replay Vision assists session review. Integrations cover Slack, GitHub, Zapier, Segment, Sentry, and HubSpot. For marketing and product teams that want funnels, retention, and experiments in one place, PostHog replaces a stack of separate tools and keeps the free tier large enough for real work.
+PostHog is an open-source product analytics platform with 40,749 GitHub stars. One install covers event analytics, session replay, feature flags, A/B testing, surveys, error tracking, a data warehouse, data pipelines, and logs. The core code is MIT licensed, while the ee/ directory carries a separate enterprise license, so the openness is real but partial. The same product runs as PostHog Cloud in US and EU regions or self-hosted. Pricing is usage-based credits on top of a free tier that renews every month for every product: 1M events, 5K session recordings, 1M feature flag requests, 100K exceptions, 1,500 survey responses, 10GB of logs, and more, with no card required and usage stopping at the limits. Pay-as-you-go adds six projects, seven-year data retention, and unlimited usage. Credit add-ons were shown as USD 5, 25, and 20 packs in September 2026. The free tier is not a trial; the vendor says 97 percent of companies never pay. The AI features are part of the product rather than a bolt-on. PostHog AI answers questions about your data in plain language across web, Slack, desktop, and MCP, with 500 free credits each month, while AI Observability and Evaluations track LLM usage and Replay Vision assists session review. Integrations cover Slack, GitHub, Zapier, Segment, Sentry, and HubSpot. For marketing and product teams that want funnels, retention, and experiments in one place, PostHog replaces a stack of separate tools and keeps the free tier large enough for real work.
 
 ## AI Capabilities
 
@@ -144,8 +144,8 @@ PostHog AI answers questions about your data in plain language across web, Slack
 ## Related reading
 
 - [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/) — the real questions are about product usage, and you want flags and experiments beside the funnel.

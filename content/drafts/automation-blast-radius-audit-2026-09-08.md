@@ -1,6 +1,6 @@
 ---
 title: "Before your next automation, run the blast radius audit"
-seo_description: "One broken automation can corrupt your CRM silently. Map every workflow blast radius before your next change."
+seo_description: "An automated audience rule targeted the wrong age bracket for two weeks before anyone noticed. A twenty-minute audit of workflow blast radius."
 seo_title: "Before your next automation, run the blast radius audit"
 slug: automation-blast-radius-audit
 date: 2026-09-08

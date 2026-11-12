@@ -7,7 +7,7 @@ author: MartechSignal
 tags: [AI Search, OpenAI, SEO, Monitoring]
 categories: [seo]
 excerpt: "OpenAI's Aura site-safety check can stop agents from opening your site before any request reaches you. No 403, no referrer, nothing to grep. The differential test that catches it, and the evidence that gets a review."
-seo_description: "OpenAI's Aura site-safety check can block its agents from opening your site with no trace in your logs. How to run the differential test and build the evidence pack for a review request."
+seo_description: "The Aura site-safety check from OpenAI can keep ChatGPT from opening your pages with nothing in your logs. A differential test and the evidence pack."
 ---
 
 An international media publisher did everything the AI visibility playbook asks. robots.txt fully open to OpenAI's crawlers. Clean infrastructure. This autumn it even ran a 24-hour OpenAI ad campaign to evaluate the channel. And since May 2026, ChatGPT has been unable to open a single one of its pages.

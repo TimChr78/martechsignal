@@ -1,12 +1,13 @@
 ---
 title: "Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them"
-seo_title: "IAB agentic buying rules land before ad stacks can honor them"
+seo_title: "IAB agentic buying rules arrive before ad stacks are ready"
 slug: iab-agentic-buying-rules-insertion-orders
 date: 2026-09-28
 author: Tim Christensen
 tags: [Digital Advertising, AI Agents, Programmatic, Standards, Measurement]
 categories: [advertising]
 excerpt: "IAB Tech Lab standardized the step between brief and buy on Monday. Almost no ad stack can consume that standard yet, and a ChatGPT tracking test shows measurement is running ahead of the contracts too."
+seo_description: "OpenProposal from IAB Tech Lab sets rules for machines negotiating media buys while OpenAI tests measurement for ChatGPT ads. What to fix by October 22."
 ---
 
 Two announcements landed 24 hours apart this week, and they describe the same workflow from opposite ends. On September 22, IAB Tech Lab shipped AAMP 3.0 with a new specification called OpenProposal, plus a proposed standard contract for measurement services. On September 23, MarTech reported that OpenAI is testing a third-party-style tracking cookie behind ChatGPT ads. One sets rules for machines negotiating media buys. The other shows a platform building measurement faster than the consent language that should govern it. Your stack sits in the middle and, today, supports neither.

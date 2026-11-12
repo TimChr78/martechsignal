@@ -1,4 +1,4 @@
-# Corrections
+# Corrections log: dated fixes to our reviews
 
 ## Corrections
 

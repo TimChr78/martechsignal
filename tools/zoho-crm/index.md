@@ -106,8 +106,8 @@ Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
-- [Your agent is a delegate, not a user](/blog/agent-delegate-not-user/)
+- [Publishers aren't arguing about agentic pricing, they're arguing about getting a bid at all](/blog/agentic-auction-bid-density-publisher/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best value for small teams that want a full suite without an enterprise bill.

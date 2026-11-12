@@ -6,6 +6,7 @@ date: 2026-08-31
 author: Tim Christensen
 tags: [Advertising, Microsoft, AI, Paid Search]
 categories: [advertising]
+seo_description: "Microsoft rolled out AI Max while removing Max CPC bid caps from new campaigns. Two changes that hand query and landing page choice to the platform."
 ---
 
 Microsoft Advertising made two announcements in the same week, and neither one is dramatic on its own. On August 19, the platform began rolling out AI Max globally, a suite that lets its AI pick your search queries, write ad variations, and choose landing pages. The next day, advertisers got an email: starting October 1, new standalone campaigns using Maximize Conversions, Maximize Conversion Value, or Maximize Clicks can no longer carry a Max CPC bid limit. One announcement adds automation. The other removes the last price control an advertiser could set by hand.

@@ -89,8 +89,8 @@ Our SEO hub collects everything we have written on AI search visibility, citatio
 - [Rankscale](/tools/rankscale/) - AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 ## Comparison guides
 
-- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)
@@ -99,4 +99,4 @@ Our SEO hub collects everything we have written on AI search visibility, citatio
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [MarketMuse](/tools/marketmuse/)
+More from the directory: [ManyChat](/tools/manychat/)

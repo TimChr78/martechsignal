@@ -124,7 +124,7 @@ Solid modular pick for mid-size stores with traffic to feed the models. Thin cat
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Mid-size stores that want search and recs without enterprise procurement

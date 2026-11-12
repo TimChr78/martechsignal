@@ -122,8 +122,8 @@ Best-in-class workflow and reporting for serious social teams; hard to justify b
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 - [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
+- [OpenAI can block your site from its agents, and your logs will never show it](/blog/openai-aura-silent-agent-block/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Social teams that want listening and engagement behind a polished UI

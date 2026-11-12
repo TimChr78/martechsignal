@@ -70,14 +70,14 @@ The AI-visibility dashboards will keep selling the count, because the count goes
 
 ## Related reading
 
+- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ## Related tools
 
 - [OtterlyAI](/tools/otterlyai/) - AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 - [Potato](/tools/potato-ai-visibility/) - Free local tool that measures brand mentions and citations in Claude's web-search answers
-- [Ahrefs](/tools/ahrefs/) - Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+- [Nightwatch](/tools/nightwatch/) - Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 ## Comparison guides
 
 - [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
@@ -90,6 +90,6 @@ The AI-visibility dashboards will keep selling the count, because the count goes
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Writesonic](/tools/writesonic/)
+More from the directory: [Trakkr](/tools/trakkr/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

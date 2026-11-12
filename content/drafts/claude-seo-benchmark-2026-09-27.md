@@ -7,6 +7,7 @@ author: Tim Christensen
 tags: [AI, SEO, Agent Skills, Quality]
 categories: [seo]
 sources: [Claude SEO skill repository|https://github.com/claude-seo/claude-seo]
+seo_description: "Five grader generations scored this site since August, from 83 down to 61 under stricter gates. The full timeline and the parity lesson."
 ---
 Five grader generations have scored martechsignal.com since August. This page is the living record: every score, the grader that produced it, and the one thing each run actually measured. It replaces three earlier posts on the same thread, which now point here.
 

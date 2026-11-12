@@ -155,8 +155,8 @@ Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashb
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
+- [Rethink, not rebuild: Jon Miller and the replatform-for-AI trap](/blog/jon-miller-rethink-not-rebuild/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Product teams that want funnels and retention without an analyst queue

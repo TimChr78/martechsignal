@@ -1,6 +1,6 @@
 # Salesforce's third no-code promise, audited
 
-Automation · AI Agents · 7 min read
+Automation · AI Agents · 8 min read
 
 ## Salesforce's third no-code promise, audited
 
@@ -63,6 +63,20 @@ What I would actually do with these two products, in order:
 
 1. Join the Builder Central beta this week if you are an Enterprise admin. The metadata grounding is worth evaluating against whatever third-party AI builder your team is already shadow-IT-ing, because the Salesforce one at least inherits your permission model. 2. Before Campaign Agent lands in October, inventory which of your live campaigns run inside Marketing Cloud Next and which do not. The agent's headline trick only sees the first list. If the second list carries your biggest spend, the arbitration story does not apply to you yet. 3. Write your suppression and frequency policy down before an agent enforces one on your behalf. "In the customer's favor" is a nice phrase for a default. Your compliance team will want the rule, not the vibe. 4. Ask for Flex credit pricing on decisioning in writing, and log credit burn against hours saved from day one.
 
+## What would break the pattern
+
+This audit assumes the pattern repeats. Four developments would weaken that assumption.
+
+- Builder Central reaches general availability with production deployment and a governance library a compliance team can adopt instead of write. The rule-maintenance gap would close, not just move.
+- Campaign Agent's arbitration extends beyond Marketing Cloud Next, to paid media and to sends from other tools. The suppression trick would become a real frequency governor rather than an in-platform one.
+- Salesforce publishes per-decision Flex pricing, so a daily decisioning loop can be costed before anyone joins a pilot.
+- Language and channel coverage expand at launch, rather than in a later release, so the product fits operations outside the demo's defaults.
+Two of those landing before your renewal would make the "third promise" framing unfair, and the products would deserve the keynote's confidence.
+
+One thing would not change the verdict: better generation. Faster builds, cleaner copy, more templates, a nicer conversational surface. All of it compresses the middle of the work, and the middle was never the constraint. The ends are still a permission model nobody has audited and a decision about what deserves a campaign. No amount of build speed touches either.
+
+Set a stop condition before the pilot starts. If decisioning credits for one live campaign exceed the hours it replaced within the first month, you have your answer about the arithmetic, and no amount of feature detail changes it.
+
 **Verdict:** Builder Central and Campaign Agent automate the build and the send, which is real progress and also exactly what the previous two generations promised. Neither automates governance, data hygiene, or the decision of what deserves a campaign in the first place. The tools keep getting better at answering "how." The "whether" still needs a human with an admin login.
 
 Browse the [MartechSignal tools directory](/tools/salesforce-marketing-cloud/) to compare what Salesforce Marketing Cloud costs against the alternatives before the pilot conversation starts. Free credits lower the risk of trying. They do not lower the cost of staying.
@@ -84,12 +98,12 @@ Browse the [MartechSignal tools directory](/tools/salesforce-marketing-cloud/) t
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/) - All-in-one marketing automation with AI-powered content, email, and campaign tools
 ## Comparison guides
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/)
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
-- [Customer journey](/glossary/customer-journey/)
+- [UTM parameters](/glossary/utm-parameters/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

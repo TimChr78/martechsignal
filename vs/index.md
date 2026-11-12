@@ -25,16 +25,16 @@ Method: researched from public documentation, the source repository where one ex
 - [Mailchimp vs Brevo](/vs/mailchimp-vs-brevo/)
 ## Pages in this section
 
-- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/): n8n from €20/mo, Zapier from $19.99/mo. n8n vs Zapier compared on pricing, self-hosting, AI features, and integrations.
-- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/): NocoDB from $12/seat/mo. NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, and integrations.
+- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/): n8n from €20/mo, Zapier from $19.99/mo. n8n vs Zapier compared on pricing at volume, self-hosting, AI features, integrations, and exit cost.
+- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/): NocoDB from $12/seat/mo. NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, integrations, and the cost of leaving.
 - [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/): Matomo from €22/mo, Plausible Analytics from $9/mo. Matomo vs Plausible compared on pricing, self-hosting, AI features, and integrations.
 - [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/): Semrush from $117/mo. Claude SEO versus Semrush on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
 - [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026)](/vs/salesforce-marketing-cloud-vs-hubspot/): HubSpot Marketing Hub from $20/mo; Salesforce Marketing Cloud enterprise from $1,500/mo. Head-to-head on pricing, deployment, and AI features.
 - [Make vs Zapier (2026): pricing, AI features, verdict](/vs/make-vs-zapier/): Make from $9/mo, Zapier from $19.99/mo. Make versus Zapier on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
 - [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/): ActiveCampaign from $15/mo, Klaviyo from $20/mo. ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations.
 - [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/): Jasper from $59/mo. Jasper versus Writer on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
-- [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/): n8n from €20/mo, Make from $9/mo. n8n vs Make vs Zapier on price, self-hosting, connectors and exit cost.
-- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/): Matomo from €22/mo. Matomo vs PostHog compared on price, deployment, privacy and scope.
+- [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/): n8n from €20/mo, Make from $9/mo. n8n vs Make vs Zapier on price, self-hosting, AI agents, connectors and migration cost, and when each one wins.
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/): Matomo from €22/mo. Matomo vs PostHog compared on price, deployment, data residency, reporting depth and licence, with a quick pick for each team.
 - [Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict](/vs/mailchimp-vs-klaviyo/): Mailchimp from $13/mo, Klaviyo from $20/mo. Mailchimp versus Klaviyo on pricing, ecommerce depth, AI features, and integrations.
 - [ActiveCampaign vs HubSpot CRM (2026): pricing, automation](/vs/activecampaign-vs-hubspot/): ActiveCampaign from $15/mo, HubSpot CRM from $20/seat/mo. ActiveCampaign versus HubSpot CRM on pricing, automation depth, AI features, and integrations.
 - [Mailchimp vs Brevo (2026): pricing, multichannel, verdict](/vs/mailchimp-vs-brevo/): Mailchimp from $13/mo, Brevo from $9/mo. Mailchimp versus Brevo on pricing by volume versus contacts, channels, AI features, and integrations.

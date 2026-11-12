@@ -130,9 +130,9 @@ Plus receives limited access covering only Visibility Index data. Professional a
 - [Ahrefs](/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 ## Related reading
 
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [ChatGPT runs an ad auction now, and the response deadline is the new quality score](/blog/chatgpt-ad-auction-response-deadline/)
 ### Quick Facts
 
 - **Pricing:** From €119/mo

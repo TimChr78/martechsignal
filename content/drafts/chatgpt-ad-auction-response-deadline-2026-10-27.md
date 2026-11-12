@@ -7,7 +7,7 @@ author: Tim Christensen
 tags: [AI, Advertising, OpenAI, Measurement, AI Search]
 categories: [advertising, seo]
 excerpt: "OpenAI explained how ChatGPT picks ads: an orchestrator model nominates candidates, an auction tool ranks them, and anything that misses the response deadline simply never renders. Winning is not the same as appearing."
-seo_description: "An ad can win ChatGPT's auction and still never appear if it misses the response window. What OpenAI's ad stack detail means for creative, per-turn intent, and measurement."
+seo_description: "An ad can win the ChatGPT auction and never appear if it misses the response window. What per-turn intent means for creative and measurement."
 ---
 
 OpenAI published something unusual in late October: an [engineering explanation](https://openai.com/index/building-chatgpt-ad-stack/) of how ChatGPT picks ads. Not a rate card, not a sales deck. A description of the machinery, which [Search Engine Journal covered in detail](https://searchenginejournal.com/openai-details-chatgpt-llm-ad-stack/593857). (OpenAI's own page sits behind an aggressive bot wall, so the specifics here come via SEJ's reporting on it.)
@@ -55,6 +55,32 @@ The same week, Google's Sundar Pichai described search being absorbed into an ag
 Meanwhile the sell side is nowhere near. CNN International is seven months into building agent-sold inventory and still [hopes its first dollar lands by Q1 2027](https://digiday.com/media/why-cnn-international-is-building-for-agentic-ad-market-that-barely-exists-yet). Its digital operations lead, Faisal Karmali, is "still hopeful" on that timeline while the industry argues over two competing standards that overlap on thirteen functions. He puts agent-led deals somewhere between 5% and 50% of CNN International's ad business eventually, which is a way of saying nobody knows. Advertisers, Digiday notes, are not exactly chomping at the bit.
 
 Ravi Patel, CEO of ad tech startup SWYM, drew the sharpest line in that piece: seller agents "automate the deal, not the delivery. Performance is decided impression by impression, in milliseconds, on bid-request signals." OpenAI has already built the milliseconds part and published the blueprints. The market that is supposed to fill it is still negotiating its vocabulary. That is the gap, in one sentence.
+
+## A diagnostic tree for a flat campaign
+
+"Low impressions" has three causes on the way to a render, plus one outcome that looks identical afterwards. Each needs a different response. Until the platform exposes which stage you failed at, use this tree and write down what you ruled out.
+
+| Cause | What reporting shows | What you can fix | What not to do |
+|---|---|---|---|
+| Never entered an auction | No impressions, no spend | Eligibility, policy, pacing, budget | Raise bids. Nothing was bid on |
+| Entered and lost | Auctions entered, no wins where visible | Offer specificity against the turn, then bid | Rewrite the headline before the offer |
+| Won and missed the window | Wins in the logs, no impression delivered | Latency you control in the creative path | Blame targeting |
+| Rendered and ignored | Impressions, no clicks | The match between the system-written introduction and your offer | Add volume |
+
+The second row is where most accounts will live. Losing an auction on fit is the one failure you can fix with work. The last row is the one that needs the most patience, because the connecting sentence is not yours.
+
+A hypothetical account makes the stakes clear. Say a team runs three offers against the same broad intent, spends evenly, and sees a flat week. The offers that describe a requirement combination, the agency with client approvals that refuses guest accounts, will find turns that match. The offer that says "productivity for teams" will enter auctions and lose them, because there is no turn where it fits better than a competitor's offer. The fix is not more budget. It is fewer, sharper offers.
+
+## What evidence would settle this
+
+The warning in this post is about evidence, so the evidence that would settle it is specific.
+
+- OpenAI publishes stage-level reporting: impressions lost to eligibility, to auction, and to the window, broken out per campaign. That would turn the diagnostic tree from inference into instrumentation.
+- An independent incrementality study appears, run by someone with no stake in the format. A CPA range would do more than any revenue milestone.
+- Advertisers report that the deadline is generous in practice, and that misses are rare. Then the constraint is a design detail rather than the story.
+- The system-written introduction turns out to be steerable, or at least previewable. That would change how creative gets briefed.
+
+Until one of those lands, the honest posture stays the same: small budget, stage-aware measurement, and no conclusions drawn from a platform's own growth numbers.
 
 ## What to do with this
 

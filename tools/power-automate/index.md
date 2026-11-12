@@ -111,8 +111,8 @@ Strengths include an API for custom integrations. Paid plans start at $15/user/m
 ## Related reading
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
-- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ### Quick Facts
 
 - **Pricing:** From $15/user/mo

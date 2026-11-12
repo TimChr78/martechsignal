@@ -1,6 +1,6 @@
 ---
 title: "Your agent's price quote is a snapshot of a page you stopped updating"
-seo_description: "Agents quote prices from memory and stale pages. GPT-6 Luna matched the live price on 2 of 15 products from memory, and 46 of 155 priced records in our own catalog are more than 60 days old."
+seo_description: "An agent quoted a Kindle at its launch price years later, matching live prices on 2 of 15 products. Why grounding and caching decide if a quote is true."
 seo_title: "Your Agent's Price Quote Is a Stale Snapshot"
 slug: agent-price-quotes-are-stale-snapshots
 date: 2026-11-06

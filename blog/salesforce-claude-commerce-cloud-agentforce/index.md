@@ -82,8 +82,8 @@ Tools linked in this post: [Salesforce Marketing Cloud](/tools/salesforce-market
 ## Related reading
 
 - [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Related tools
 
 - [Writer](/tools/writer/) - Enterprise AI platform with Palmyra models, brand governance, and agents

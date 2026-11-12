@@ -7,10 +7,23 @@ Markup contract: design/DESIGN.md.
 """
 from datetime import datetime
 
+# SEO audit 2026-10-30 (#15): /theme.js was a parser-blocking request in every
+# <head>. It must run before first paint (a stored light/dark choice would
+# flash otherwise), so it is inlined instead of deferred. The CSP allows
+# exactly these bytes by hash: _headers carries THEME_CSP_HASH in script-src,
+# and test_build checks the two agree. Change the script => update _headers.
+# /theme.js stays on disk for pages still cached with the old tag.
+THEME_JS = ("(function(){try{var t=localStorage.getItem('ms-theme');"
+            "if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}"
+            "catch(e){}})();")
+THEME_TAG = "<script>" + THEME_JS + "</script>"
+THEME_CSP_HASH = "sha256-vcmDQ7gs7deHgYnvcowgmrK03Kz1h8vgL9CCNl9fDwU="
+OLD_THEME_TAG = '<script src="/theme.js"></script>'
+
 HEAD_TAGS = (
     '<link rel="preload" href="/fonts/newsreader-var.woff2" as="font" type="font/woff2" crossorigin>\n'
     '<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>\n'
-    '<script src="/theme.js"></script>'
+    + THEME_TAG
 )
 
 # path prefix -> nav label that gets aria-current="page"

@@ -1,4 +1,4 @@
-# ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict
+# ActiveCampaign vs Klaviyo (2026): pricing, AI, verdict
 
 ## ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict
 

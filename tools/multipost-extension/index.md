@@ -103,7 +103,7 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Who eats the spending gap when agentic spend outpaces proof?](/blog/who-eats-the-spending-gap-agentic-proof/)
+- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
 - [OpenAI can block your site from its agents, and your logs will never show it](/blog/openai-aura-silent-agent-block/)
 ## Also featured in
 

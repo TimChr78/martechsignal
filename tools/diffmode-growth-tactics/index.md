@@ -118,8 +118,8 @@ A clever use of coding agents for growth ideation with a real anti-generic mecha
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
-- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
 ### Quick Facts
 
 - **Pricing:** Open Source

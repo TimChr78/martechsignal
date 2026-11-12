@@ -110,8 +110,8 @@ Strengths include an API for custom integrations. Paid plans start at $2.99/mo
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Faster output did not make campaigns ship faster. Fewer handoffs did.](/blog/faster-output-fewer-handoffs/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ### Quick Facts
 
 - **Pricing:** Freemium from $2.99/mo

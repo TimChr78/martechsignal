@@ -133,14 +133,85 @@ def normalize(path):
     return True
 
 
+WEBSITE_ID = SITE + "/#website"
+WEBSITE_NODE = {"@type": "WebSite", "@id": WEBSITE_ID, "name": "MartechSignal", "url": SITE + "/"}
+
+
+def _walk_type(node, type_name, out):
+    if isinstance(node, dict):
+        t = node.get("@type")
+        if t == type_name or (isinstance(t, list) and type_name in t):
+            out.append(node)
+        for v in node.values():
+            _walk_type(v, type_name, out)
+    elif isinstance(node, list):
+        for v in node:
+            _walk_type(v, type_name, out)
+
+
+def ensure_website(path):
+    """SEO audit 2026-10-30 (#13): every page graph carries the shared
+    WebSite node (@id .../#website) and every WebPage points isPartOf at a
+    node that resolves on the same page. Five hand-authored pages (about,
+    privacy, terms, ai-policy, the author page) had no WebSite node, and
+    /contact/ had one without @id."""
+    try:
+        html = path.read_text()
+    except Exception:
+        return False
+    if "WebPage" not in html:
+        return False
+    matches = list(LD_RE.finditer(html))
+    parsed = []
+    for m in matches:
+        try:
+            parsed.append(json.loads(m.group(1)))
+        except Exception:
+            parsed.append(None)
+    sites, webpages = [], []
+    for data in parsed:
+        if data is not None:
+            _walk_type(data, "WebSite", sites)
+            _walk_type(data, "WebPage", webpages)
+    if not webpages:
+        return False
+    changed = False
+    for site in sites:
+        if "@id" not in site and site.get("url", "").rstrip("/") == SITE:
+            # keep @type first, @id second, like every builder-emitted node
+            items = list(site.items())
+            site.clear()
+            site.update(items[:1] + [("@id", WEBSITE_ID)] + items[1:])
+            changed = True
+    has_site = any(site.get("@id") == WEBSITE_ID for site in sites)
+    for w in webpages:
+        part = w.get("isPartOf")
+        if part is None:
+            w["isPartOf"] = {"@id": WEBSITE_ID}
+            changed = True
+    if not changed and has_site:
+        return False
+    html = _reemit(html, matches, parsed)
+    if not has_site:
+        block = dict(WEBSITE_NODE)
+        block = {"@context": "https://schema.org", **block}
+        html = html.replace("</head>", '<script type="application/ld+json">'
+                            + json.dumps(block, ensure_ascii=False) + "</script>\n</head>", 1)
+    path.write_text(html)
+    return True
+
+
 def main():
-    n = 0
+    n = w = 0
     for p in sorted(ROOT.rglob("index.html")):
         if "deploy-out" in p.parts or "node_modules" in p.parts:
             continue
         if normalize(p):
             n += 1
+        if ensure_website(p):
+            w += 1
     print(f"breadcrumbs normalized on {n} pages")
+    print(f"WebSite node ensured on {w} pages")
 
 
 if __name__ == "__main__":

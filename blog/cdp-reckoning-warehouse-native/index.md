@@ -95,6 +95,6 @@ Our directory breaks down customer data platforms and activation tools by pricin
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [LibreTranslate](/tools/libretranslate/)
+More from the directory: [LanguageTool](/tools/languagetool/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

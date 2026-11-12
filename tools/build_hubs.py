@@ -341,7 +341,7 @@ def build():
          "built on catalog facts with a clear pick for each team.",
          _vs_intro, _vs_kids, "Comparisons"),
         ("alternatives", "Alternatives guides",
-         "Alternatives guides (2026)",
+         "Martech alternatives guides (2026) | MartechSignal",
          f"{_na} alternatives guides: credible options besides "
          f"{', '.join(t.removesuffix(' alternatives') for t in _alt_targets[:-1])} and {_alt_targets[-1].removesuffix(' alternatives')}, with who each pick fits and vendor-published pricing.",
          _alt_intro, _alt_kids, "Guides"),

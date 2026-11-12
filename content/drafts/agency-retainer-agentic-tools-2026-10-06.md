@@ -84,6 +84,29 @@ The panel execs and the Reddit builder converge on one thing: the hours are goin
 Client-owned tools and data plus license and outcome fees, with no support line: that is the retainer as pitched. Nobody named who answers when the agents misfire, so risk and revenue stay on opposite sides of the table.
 :::
 
+## Five lines your next retainer needs
+
+The panel described the new line items and left the risk unnamed. If you are the client, name it in the contract.
+
+1. **A support line with hours and a response target.** Not because agents fail often, but because the current pitch assigns the failure to you while the agency keeps the license revenue.
+2. **A cause split for misfires.** Platform outage, configuration error, and strategy error are three different liabilities. Decide who pays for wasted spend in each case before anything goes live, not after a campaign pauses itself overnight.
+3. **A definition of outcome with a baseline and a control.** If fees move with results, the measurement cannot be the agency's own dashboard. Fix the baseline before the work starts, and keep a holdout so the number means something.
+4. **Tool rights that survive the relationship.** Owning the tools is paperwork unless you can run them without the agency: configuration, prompts, workflows, and the credentials that make them work.
+5. **Data portability on day one, and deletion on exit.** Lord's point about breakups is right, and it should not depend on goodwill at the end. Test the export while everyone is still friendly.
+
+A hypothetical deal shows why the order matters. Say a client signs a license fee plus a share of outcomes, with no support clause, and the agent misbids for a week before anyone notices. The client owns the tool, so the client owns the loss. The agency's revenue is unchanged, because a license fee does not care how the tool performed. That is not a partnership. It is a subscription with the risk moved to your side, and the contract is where you find out which one you bought.
+
+The mirror case is worth stating too. A support line with real teeth costs money, and a client who refuses to pay for accountability will get the version without it. The panel's refusal to discuss support is not only an agency failing. It is also a signal about what clients have been willing to buy.
+
+## What would make this model safer
+
+Two developments would make the panel's model safer than it looks.
+
+- An agency publishes a standard support commitment for client-owned agent tooling, with response times and a misfire clause, and clients report it holds under pressure.
+- Outcome pricing acquires a public benchmark, so a client can tell whether a shared-upside deal is priced fairly or just relabeled hours.
+
+The reverse signal is already visible: if the first wave of client-owned agent stacks ships without support terms, the cost of that omission will land on the clients who signed first, and the next round of contracts will be written around their experience.
+
 ## What replaces it, if agencies are honest
 
 The panel named the future line items: license fees and outcome fees. Neither is anchored to anything yet, because no benchmark exists for "outcome" when the agency does not own the levers. Meanwhile the honest retainer would name the thing actually being sold: accountability for systems the client nominally owns. Support lines, uptime commitments, misfire insurance. That line item went unmentioned in New York.

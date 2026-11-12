@@ -137,8 +137,8 @@ A bot session is any unique interaction between an end user and a bot. On chat, 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
 - [Publishers aren't arguing about agentic pricing, they're arguing about getting a bid at all](/blog/agentic-auction-bid-density-publisher/)
+- [OpenAI can block your site from its agents, and your logs will never show it](/blog/openai-aura-silent-agent-block/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for budget-conscious teams that still want AI lead scoring.

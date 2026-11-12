@@ -87,7 +87,7 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 
 - [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Related tools
 
 - [Ortto](/tools/ortto/) - Customer data and marketing automation platform with journeys, CDP, and AI features
@@ -105,4 +105,4 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Brew](/tools/brew/)
+More from the directory: [Brevo](/tools/brevo/)

@@ -5,6 +5,7 @@ date: 2026-07-28
 author: Tim Christensen
 tags: [recovered]
 note: "Draft reverse-built from the live page 2026-09-16 after the original was lost in the Sep 13 cleanup (never committed). Re-humanize/trim at next edit."
+seo_description: "n8n pairs per-execution pricing with built-in AI agents, and 198K stars show adoption. Three marketing workflows, and where a developer is still needed."
 ---
 In our [open-source martech stack analysis](/blog/open-source-martech-stack/), one tool kept surfacing: **n8n**. With 198K GitHub stars, per-execution pricing that undercuts Zapier by an order of magnitude, and AI agent capabilities built in rather than bolted on, n8n outperforms its commercial competitors on both cost and capability.
 

@@ -5,7 +5,7 @@
 - AI Content & Copywriting
 ## AI Content & Copywriting Tools
 
-AI copywriting, publishing, and writing tools: drafts, governance, and self-hosted helpers. 13 tools reviewed.
+AI copywriting, publishing, and writing tools: drafts, brand governance, and self-hosted helpers. 13 tools reviewed with verified pricing.
 
 13 tools in this category
 

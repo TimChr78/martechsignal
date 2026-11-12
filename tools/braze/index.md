@@ -125,9 +125,9 @@ Worth it only at meaningful volume with dedicated ops. Smaller teams get 80% of 
 - [Line Harness](/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
 ## Related reading
 
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Publishers aren't arguing about agentic pricing, they're arguing about getting a bid at all](/blog/agentic-auction-bid-density-publisher/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Mobile-first brands tuning cross-channel engagement at scale

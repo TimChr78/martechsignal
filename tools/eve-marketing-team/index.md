@@ -124,8 +124,8 @@ The fastest way to see a multi-agent marketing team running on real tools, and a
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier.

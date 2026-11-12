@@ -66,6 +66,6 @@ Katsur will be right about the false starts. They will be loud and expensive and
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Brevo](/tools/brevo/)
+More from the directory: [Brandwatch](/tools/brandwatch/)
 
 TC **[Tim Christensen](/authors/tim-christensen/)**

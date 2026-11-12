@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 40/60
 
-Aaron's 120 skills come with six auditor gates, which is the interesting part: outputs get checked before they ship. Apache-2.0 and 3,123 stars make it the most adopted skill pack in this group.
+Aaron's 120 skills come with six auditor gates, which is the interesting part: outputs get checked before they ship. Apache-2.0 and 3,133 stars make it the most adopted skill pack in this group.
 
 
 | Pillar | Score | Evidence |
@@ -120,8 +120,8 @@ Useful starter kit for marketers adopting Claude Code. Customize before you trus
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
+- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
 ### Quick Facts
 
 - **Pricing:** Open Source

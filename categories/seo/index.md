@@ -5,7 +5,7 @@
 - SEO & Search
 ## SEO & Search Tools
 
-SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 9 tools with verified pricing.
+SEO platforms reviewed on data depth, content briefs, rank tracking, and AI visibility tracking. 9 tools with verified pricing and dated facts.
 
 9 tools in this category
 

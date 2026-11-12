@@ -1,4 +1,4 @@
-# Workflow automation without the AI-tool pile-on: the strategy hub
+# Workflow automation strategy without the AI-tool pile-on
 
 ## Workflow automation without the AI-tool pile-on: the strategy hub
 

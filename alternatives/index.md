@@ -1,4 +1,4 @@
-# Alternatives guides (2026)
+# Martech alternatives guides (2026)
 
 ## Alternatives guides
 
@@ -18,9 +18,9 @@ The honest limits, before anything else: a guide cannot test migration effort, s
 ## Pages in this section
 
 - [Best HubSpot CRM alternatives (2026)](/alternatives/hubspot-crm/): Twenty from $9/user/mo, EspoCRM from €12.90/user/mo. Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive.
-- [Best Zapier alternatives (2026)](/alternatives/zapier/): n8n from €20/mo, Make from $9/mo. Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase.
+- [Best Zapier alternatives (2026)](/alternatives/zapier/): n8n from €20/mo, Make from $9/mo. Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase, with who each pick is best for.
 - [Best Matomo alternatives (2026)](/alternatives/matomo/): Plausible Analytics from $9/mo, Umami from $20/mo. Five Matomo alternatives: lightweight privacy analytics (Plausible, Umami), product suites.
-- [Best n8n alternatives (2026)](/alternatives/n8n/): Make from $9/mo, Zapier from $19.99/mo. n8n alternatives including Make, Zapier, Pipedream, and Activepieces.
+- [Best n8n alternatives (2026)](/alternatives/n8n/): Make from $9/mo, Zapier from $19.99/mo. n8n alternatives including Make, Zapier, Pipedream, and Activepieces, compared on cost, billing and hosting.
 - [Mailchimp alternatives (2026): 10 email platforms compared](/alternatives/mailchimp/): Brevo from $9/mo, Klaviyo from $20/mo. Ten Mailchimp alternatives compared on pricing shape, self-hosting, channels, and migration.
 ## When switching is justified
 

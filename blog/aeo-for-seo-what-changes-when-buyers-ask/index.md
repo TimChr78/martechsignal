@@ -1,6 +1,6 @@
 # AEO for SEO: what changes when buyers ask instead of search
 
-SEO · AI Search · 6 min read
+SEO · AI Search · 9 min read
 
 ## AEO for SEO: what changes when buyers ask instead of search
 
@@ -58,6 +58,22 @@ The referral side needs plumbing. HubSpot's own stack shows the shape of it: vis
 
 One vendor number floating around this topic deserves its labeling: HubSpot says its internal data shows AEO customers generate 2.6x more leads. That is the vendor's own figure about the vendor's own customers, useful as direction and useless as a forecast for your funnel.
 
+## Running the loop
+
+AEO is a monthly operation, not a launch. The teams that get value from it run the same five steps in the same order.
+
+1. **Refresh the prompt list from demand you already have.** Sales call notes, the questions support answers every week, and the Search Console queries that end in a comparison. Write them the way a buyer would type them, not the way your keyword tool phrases them. 2. **Run each prompt on each engine, several times across a week.** Store the raw answer with a date. One run is an anecdote. The variation between runs is the reason the guide says to read across days. 3. **Tag every answer.** Brand mentioned, brand cited with a link, competitor cited, no brand at all. The mention-without-citation row is the most useful one, because it tells you the engine knows you exist and chose someone else as the source. 4. **Group citations by domain and page type.** Owned, competitor, publication, social, user-generated. Then pick the page to fix. 5. **Change one page per cycle and recheck the same prompts.** Citation sets move slowly. If you rewrite five pages at once, you learn nothing about which change worked.
+
+A hypothetical to make the arithmetic concrete. Track 40 prompts across three engines and you have 120 answers a week. Thirty mention your brand. Twelve cite you. The other eighteen are the gap, and the twelve citations are the assets to protect. Most teams discover the gap is not evenly spread: it clusters in the two or three prompts where a competitor owns the definition.
+
+## The objection worth answering
+
+The fair objection is that this is content marketing with a new dashboard. Write clear pages, keep facts current, earn coverage. That work predates answer engines by a decade.
+
+It is partly true, and the honest answer is that AEO changes the feedback loop more than the craft. The old loop reported position and clicks. The new one reports whether a machine chose your page as a source. That is a different question, and it rewards different things: passages that survive extraction, entity facts that match across the site, and presence on the third-party pages engines already trust.
+
+The objection has a real limit case, though. If the engines never cite sources in your category, because the answers are navigational or the category is too small to summarize, then AEO is a tax with no return. Check before you build the program. Pick ten prompts your buyers actually use, run them, and count citations. If the answers are composed from sources at all, the loop applies. If they are one-line navigational replies, spend the quarter elsewhere.
+
 ## What stays the same
 
 None of this retires the fundamentals. Engines choose sources much the way a careful reader does: pages that load, facts that stay consistent across the site, entities defined clearly, content kept current. HubSpot's recommendation set still includes outreach. Rankings still convert wherever results pages are served, which is every navigational and transactional query you own. The craft you already run is the entry ticket. The new work is knowing whether the engines quote you at all, and fixing the pages they skip.
@@ -69,17 +85,17 @@ Keep the crawlable fast pages, the consistent entity facts, the habit of updatin
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 - [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [Your agent's price quote is a snapshot of a page you stopped updating](/blog/agent-price-quotes-are-stale-snapshots/)
 ## Related tools
 
+- [Ahrefs](/tools/ahrefs/) - Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 - [Rankscale](/tools/rankscale/) - AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
-- [Clearscope](/tools/clearscope/) - AI-powered content optimization platform for SEO teams and content writers
 ## Comparison guides
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
-- [Best HubSpot CRM alternatives (2026)](/alternatives/hubspot-crm/)
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [GEO](/glossary/geo/)
@@ -88,6 +104,6 @@ Keep the crawlable fast pages, the consistent entity facts, the habit of updatin
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
+More from the directory: [AccuRanker](/tools/accuranker/)
 
 ✓ The Fundamentals Hold

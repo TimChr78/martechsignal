@@ -1,4 +1,4 @@
-# Best n8n alternatives (2026)
+# Best n8n alternatives (2026): self-hosted and cloud
 
 ## Best n8n alternatives (2026)
 

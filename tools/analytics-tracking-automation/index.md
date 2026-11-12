@@ -120,8 +120,8 @@ Free and fast if tracking keeps slipping through the cracks. Review every schema
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
 - **Pricing:** Open Source

@@ -134,8 +134,8 @@ No. AccuRanker states that all current plans include unlimited users. Enterprise
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
-- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 
 - **Pricing:** From €224/mo

@@ -1,4 +1,4 @@
-# AI SEO tooling: benchmarks, comparisons, and the honest limits
+# AI SEO tooling: benchmarks, comparisons, honest limits
 
 ## AI SEO tooling: benchmarks, comparisons, and the honest limits
 

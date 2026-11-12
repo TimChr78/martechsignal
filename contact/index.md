@@ -1,4 +1,4 @@
-# Contact
+# Contact MartechSignal: tips, corrections, vendor news
 
 ## Contact
 

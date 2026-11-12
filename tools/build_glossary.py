@@ -155,7 +155,7 @@ def build_hub(terms, term_dates=None):
     out = out_dir / "index.html"
     out.write_text(page_shell(
         "Marketing Technology Glossary | MartechSignal",
-        f"Plain-English definitions of {len(terms)} marketing technology terms, linked to real tools in our directory.",
+        f"Plain-English definitions of {len(terms)} marketing technology terms, from ABM to UTM parameters, each linked to the real tools in our directory that use it.",
         "/glossary/", body, schema))
     print(f"  ✓ {out.relative_to(ROOT)}")
 
@@ -379,7 +379,10 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
     out.write_text(page_shell(
         title,
         # r23 M-3: never ship an empty meta; the term name is always true.
-        _meta_155(term["definition"]) or f"{term['term']}: definition in the MartechSignal glossary.",
+        # SEO audit 2026-10-30 (#9): an editor-written seo_description wins;
+        # the definition's first sentence alone ran 53-82 chars on short terms.
+        _meta_155(term.get("seo_description") or "") or _meta_155(term["definition"])
+        or f"{term['term']}: definition in the MartechSignal glossary.",
         f"/glossary/{slug}/", body, [schema, breadcrumb], og_image=f"og/glossary/{slug}.png"))
     return out
 

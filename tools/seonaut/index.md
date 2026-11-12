@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 30/60
 
-Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 866 stars; small, legible and honest about scope.
+Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 868 stars; small, legible and honest about scope.
 
 
 | Pillar | Score | Evidence |
@@ -141,8 +141,8 @@ On core technical auditing, more than you might expect: broken links, redirect c
 ## Related reading
 
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $9/mo

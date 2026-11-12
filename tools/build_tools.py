@@ -2671,7 +2671,11 @@ def build_category_page(cat, tools):
     # commercial layer was orphaned).
     # H7 (r9): the Compare strip is placed under the tool grid inside the template
     out.write_text(page_shell(
-        f"{cat_h1(cat['name'])} | MartechSignal",
+        # SEO audit 2026-10-30 (#12): "CRM Tools | MartechSignal" ran 25 chars;
+        # short category names get a qualifier to reach the 30-60 band.
+        (f"{cat_h1(cat['name'])} | MartechSignal"
+         if len(f"{cat_h1(cat['name'])} | MartechSignal") >= 30
+         else f"{cat_h1(cat['name'])}: reviewed and compared | MartechSignal"),
         category_meta(cat, cat_tools, hub),
         f"/categories/{cat['slug']}/", body, schema, og_image=f"og/categories/{cat['slug']}.png"))
     return out
@@ -2873,6 +2877,36 @@ def build_sitemap(tools, cats):
     # H10 (r9, 2026-09-28): dedupe on <loc> at build time. The authors hub once
     # re-listed the person URL with a conflicting lastmod; first occurrence wins
     # and drops are reported so a repeat is visible in the build log.
+    # SEO audit 2026-10-30 (#12): section hubs (/categories/, /guides/,
+    # /alternatives/, /best/, /vs/) declare no content date of their own, so
+    # they shipped without <lastmod>. A hub lists its children, so its content
+    # changes when a child does: use the newest child date.
+    _child_dates = {}
+    for _loc, _lm, _ in urls:
+        if _lm:
+            _parent = _loc.rstrip("/").rsplit("/", 1)[0] + "/"
+            if _parent != _loc and _lm > _child_dates.get(_parent, ""):
+                _child_dates[_parent] = _lm
+    _hub_urls = []
+    for _i, (_loc, _lm, _pr) in enumerate(urls):
+        if _lm or _loc == "https://martechsignal.com/" or not _child_dates.get(_loc):
+            continue
+        # One page, one date (test_sitemap_lastmod_matches_declared_date): the
+        # hub's CollectionPage declares the same newest-child date. Builders
+        # regenerate hubs without it, so this runs (and agrees) every build.
+        _hp = ROOT / _loc.replace("https://martechsignal.com/", "") / "index.html"
+        try:
+            _hs = _hp.read_text()
+        except OSError:
+            continue
+        if '"dateModified"' in _hs or '"@type": "CollectionPage"' not in _hs:
+            continue
+        _hp.write_text(_hs.replace('"@type": "CollectionPage"',
+                                   f'"@type": "CollectionPage",\n  "dateModified": "{_child_dates[_loc]}"', 1))
+        urls[_i] = (_loc, _child_dates[_loc], _pr)
+        _hub_urls.append(_loc)
+    if _hub_urls:
+        print(f"hub lastmod from newest child: {len(_hub_urls)} hubs")
     seen_locs = set()
     entries = []
     dropped = 0

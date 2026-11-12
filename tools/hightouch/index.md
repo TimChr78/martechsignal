@@ -947,8 +947,8 @@ Yes. The catalog records a public API for Hightouch, so custom integrations are 
 ## Related reading
 
 - [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ## Also featured in
 
 - [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best activation layer when the warehouse is already the source of truth.

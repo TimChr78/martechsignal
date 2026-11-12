@@ -131,8 +131,8 @@ The most complete open-source cold email stack we have listed, but young (launch
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier.

@@ -89,7 +89,7 @@ A pacing report answers one thing: whether spend is on schedule. It was never as
 
 - [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your agent is a delegate, not a user](/blog/agent-delegate-not-user/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ## Related tools
 
 - [Paperclip](/tools/paperclip/) - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
@@ -101,8 +101,8 @@ A pacing report answers one thing: whether spend is on schedule. It was never as
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/)
 ## Glossary terms
 
-- [AI Agent](/glossary/ai-agent/)
 - [Agentic Marketing](/glossary/agentic-marketing/)
+- [AI Agent](/glossary/ai-agent/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

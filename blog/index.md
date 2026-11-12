@@ -1,4 +1,4 @@
-# Blog
+# Blog: AI marketing automation analysis
 
 The blog · Deeper than the newsletter
 

@@ -1,4 +1,4 @@
-# Categories
+# Martech tool categories, compared
 
 ## Categories
 

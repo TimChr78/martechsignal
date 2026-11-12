@@ -1,6 +1,6 @@
 # ChatGPT's ad auction has a response deadline
 
-AI · Advertising · 7 min read
+AI · Advertising · 9 min read
 
 ## ChatGPT runs an ad auction now, and the response deadline is the new quality score
 
@@ -58,6 +58,32 @@ Meanwhile the sell side is nowhere near. CNN International is seven months into 
 
 Ravi Patel, CEO of ad tech startup SWYM, drew the sharpest line in that piece: seller agents "automate the deal, not the delivery. Performance is decided impression by impression, in milliseconds, on bid-request signals." OpenAI has already built the milliseconds part and published the blueprints. The market that is supposed to fill it is still negotiating its vocabulary. That is the gap, in one sentence.
 
+## A diagnostic tree for a flat campaign
+
+"Low impressions" has three causes on the way to a render, plus one outcome that looks identical afterwards. Each needs a different response. Until the platform exposes which stage you failed at, use this tree and write down what you ruled out.
+
+
+| Cause | What reporting shows | What you can fix | What not to do |
+| --- | --- | --- | --- |
+| Never entered an auction | No impressions, no spend | Eligibility, policy, pacing, budget | Raise bids. Nothing was bid on |
+| Entered and lost | Auctions entered, no wins where visible | Offer specificity against the turn, then bid | Rewrite the headline before the offer |
+| Won and missed the window | Wins in the logs, no impression delivered | Latency you control in the creative path | Blame targeting |
+| Rendered and ignored | Impressions, no clicks | The match between the system-written introduction and your offer | Add volume |
+
+The second row is where most accounts will live. Losing an auction on fit is the one failure you can fix with work. The last row is the one that needs the most patience, because the connecting sentence is not yours.
+
+A hypothetical account makes the stakes clear. Say a team runs three offers against the same broad intent, spends evenly, and sees a flat week. The offers that describe a requirement combination, the agency with client approvals that refuses guest accounts, will find turns that match. The offer that says "productivity for teams" will enter auctions and lose them, because there is no turn where it fits better than a competitor's offer. The fix is not more budget. It is fewer, sharper offers.
+
+## What evidence would settle this
+
+The warning in this post is about evidence, so the evidence that would settle it is specific.
+
+- OpenAI publishes stage-level reporting: impressions lost to eligibility, to auction, and to the window, broken out per campaign. That would turn the diagnostic tree from inference into instrumentation.
+- An independent incrementality study appears, run by someone with no stake in the format. A CPA range would do more than any revenue milestone.
+- Advertisers report that the deadline is generous in practice, and that misses are rare. Then the constraint is a design detail rather than the story.
+- The system-written introduction turns out to be steerable, or at least previewable. That would change how creative gets briefed.
+Until one of those lands, the honest posture stays the same: small budget, stage-aware measurement, and no conclusions drawn from a platform's own growth numbers.
+
 ## What to do with this
 
 Pressure the stage reporting first. OpenAI's logs already record whether your ads died at eligibility, at the auction, or at the window, and until advertisers can see that, every bid change is a guess. Structure offers around requirement combinations, because the turn is the targeting unit now. And treat the deadline as a creative constraint: the shortest possible path from what this person just said to what you sell. The auction has a clock now, and beating it is a creative problem as much as a technical one.
@@ -67,25 +93,23 @@ Pressure the stage reporting first. OpenAI's logs already record whether your ad
 ## Related reading
 
 - [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 - [OpenAI can block your site from its agents, and your logs will never show it](/blog/openai-aura-silent-agent-block/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Related tools
 
-- [Nosto](/tools/nosto/) - AI-powered ecommerce personalization with product recommendations and merchandising
-- [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Pencil](/tools/pencil/) - AI-powered ad creative generation and performance prediction for paid media
 - [Smartly.io](/tools/smartly-io/) - AI advertising platform spanning creative production, media buying, and measurement
 ## Comparison guides
 
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
+- [DSP](/glossary/dsp/)
 - [AI Visibility](/glossary/ai-search-visibility/)
-- [GEO](/glossary/geo/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [ManyChat](/tools/manychat/)
-
-TC **[Tim Christensen](/authors/tim-christensen/)**
+More from the directory: [LibreTranslate](/tools/libretranslate/)

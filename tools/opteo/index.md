@@ -125,8 +125,8 @@ A focused Google Ads quality-control layer: less ambitious than cross-channel pl
 ## Related reading
 
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Best for advertising & paid media teams that want the job covered in one platform, starting at $129/mo.

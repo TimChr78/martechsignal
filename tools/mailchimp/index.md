@@ -127,8 +127,8 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [ChatGPT runs an ad auction now, and the response deadline is the new quality score](/blog/chatgpt-ad-auction-response-deadline/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Small businesses that want the shortest path from idea to send

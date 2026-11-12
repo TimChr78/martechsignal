@@ -1099,8 +1099,8 @@ Best open-core CDP for teams that self-host the data plane: free 250K events/mo,
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
 - [Best Customer Data Platforms (2026): composable to self-hosted](/best/cdp/) — Best Segment-compatible router for warehouse-first stacks on a budget.

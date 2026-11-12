@@ -2489,12 +2489,16 @@ def test_blog_markup_conversions_keep_stamps():
     pins all five + sitemap alignment so the next conversion wave either
     keeps every stamp or fails loud."""
     import re as _re
+    # 2026-11-12 (SEO audit #9/#10): four of the five got real edits (new
+    # seo_description, and jon-miller a body expansion), which by the
+    # signature rule move the stamp. Pinned at the new stamp so the next
+    # markup-only wave is still caught.
     _five = {
-        "ai-theater-wrong-kpi": "2026-09-30",
-        "jon-miller-rethink-not-rebuild": "2026-10-01",
-        "n8n-ai-open-source-automation": "2026-09-25",
+        "ai-theater-wrong-kpi": "2026-11-12",
+        "jon-miller-rethink-not-rebuild": "2026-11-12",
+        "n8n-ai-open-source-automation": "2026-11-12",
         "what-free-seo-audit-replaces": "2026-09-28",
-        "open-source-martech-stack": "2026-07-27",
+        "open-source-martech-stack": "2026-11-12",
     }
     _sm = (ROOT / "sitemap.xml").read_text()
     _bad = []
@@ -2635,7 +2639,9 @@ def test_glossary_hub_pinned_at_own_content_date():
     import re as _re
     _h = (ROOT / "glossary" / "index.html").read_text(errors="ignore")
     _m = _re.search(r'"dateModified": "([0-9-]+)"', _h)
-    assert _m and _m.group(1) == "2026-10-05", f"glossary hub dm: {_m.group(1) if _m else 'MISSING'}"
+    # 2026-11-12: the hub's meta description was rewritten (SEO audit #9),
+    # a real hub change, so the pin moved once.
+    assert _m and _m.group(1) == "2026-11-12", f"glossary hub dm: {_m.group(1) if _m else 'MISSING'}"
 
 
 def test_pin_mask_erases_template_churn():
@@ -3042,7 +3048,10 @@ def test_font_payload_is_minimal_and_preloaded():
         html = (ROOT / tpl).read_text()
         assert 'preload" href="/fonts/newsreader-var.woff2"' in html, f"{tpl} misses serif preload"
         assert 'preload" href="/fonts/archivo-var.woff2"' in html, f"{tpl} misses sans preload"
-        assert '<script src="/theme.js"></script>' in html, f"{tpl} misses theme.js"
+        sys.path.insert(0, str(ROOT / "tools"))
+        from site_chrome import THEME_TAG
+        assert THEME_TAG in html, f"{tpl} misses the inline theme script"
+        assert '<script src="/theme.js"></script>' not in html, f"{tpl} still blocks on /theme.js"
         assert 'preload" href="/fonts/spline-sans-mono' not in html, \
             f"{tpl} still preloads a retired mono"
         assert 'preload" href="/fonts/archivo-black-400.woff2"' not in html, \
@@ -3134,6 +3143,11 @@ def test_no_csp_violating_inline_handlers():
         html = (ROOT / tpl).read_text()
         if _re.search(r'\son(load|click|error|submit)\s*=', html):
             bad.append((tpl, "inline event handler"))
+        # #15 (2026-11): the theme script is the one inline body, and the CSP
+        # allows it by hash (test_theme_script_hash_is_allowed_by_csp).
+        sys.path.insert(0, str(ROOT / "tools"))
+        from site_chrome import THEME_TAG
+        html = html.replace(THEME_TAG, "")
         if _re.search(r"<script>(?!\s*</script>)", html):
             bad.append((tpl, "inline script body"))
     assert not bad, f"CSP-violating markup: {bad}"
@@ -3640,3 +3654,85 @@ def test_llms_carries_decision_answers():
     assert section, "llms.txt has no ## Key decisions section"
     assert n_rendered > 0 and n_llms == n_rendered, \
         f"llms decisions {n_llms} != rendered direct-answers {n_rendered}"
+
+
+# ── SEO audit 2026-10-30 (claude-seo) regression guards ───────────────
+
+def _sitemap_paths():
+    sm = (ROOT / "sitemap.xml").read_text()
+    return re.findall(r"<loc>https://martechsignal.com(/[^<]*)</loc>", sm)
+
+
+def _page_file(path):
+    return ROOT / "index.html" if path == "/" else ROOT / path.strip("/") / "index.html"
+
+
+def test_blog_draft_internal_links_resolve(build):
+    """#7: a draft linked /blog/mcp-distribution-channel-2026-10-28/, a 404.
+    Every /blog/<slug>/ link in a draft must resolve to a built post or the
+    blog index."""
+    bad = []
+    for f in sorted((ROOT / "content" / "drafts").glob("*.md")):
+        for slug in re.findall(r"\]\(/blog/([a-z0-9-]+)/?(?:#[^)]*)?\)", f.read_text()):
+            if not (ROOT / "blog" / slug / "index.html").exists():
+                bad.append(f"{f.name}: /blog/{slug}/")
+    assert not bad, f"draft links to missing posts: {bad}"
+
+
+def test_markdown_alternates_survive_mirror_generation(build):
+    """#8: build_tools synced the alternates before build_md_mirrors created a
+    new post's index.md, so the newest post shipped without one. The mirror
+    step now re-syncs and asserts; run it and check every page."""
+    r = subprocess.run([sys.executable, str(ROOT / "tools" / "build_md_mirrors.py")],
+                       capture_output=True, text=True, timeout=900, cwd=str(ROOT))
+    assert r.returncode == 0, r.stderr + r.stdout
+    sys.path.insert(0, str(ROOT / "tools"))
+    from build_md_mirrors import check_md_alternates
+    assert check_md_alternates() == []
+
+
+def test_indexable_pages_carry_social_meta_and_website(build):
+    """#11 and #13: every indexable page has og:image + twitter:card, and its
+    JSON-LD graph defines the shared WebSite node that WebPage.isPartOf names."""
+    missing_social, missing_site = [], []
+    for path in _sitemap_paths():
+        h = _page_file(path).read_text()
+        if 'property="og:image"' not in h or 'name="twitter:card"' not in h:
+            missing_social.append(path)
+        if not re.search(r'"@type":\s*"WebSite",\s*"@id":\s*"https://martechsignal.com/#website"', h):
+            missing_site.append(path)
+    assert not missing_social, f"pages without og:image/twitter:card: {missing_social[:8]}"
+    assert not missing_site, f"pages without the WebSite node: {missing_site[:8]}"
+
+
+def test_section_hubs_have_lastmod(build):
+    """#12: the five section hubs shipped without <lastmod>."""
+    sm = (ROOT / "sitemap.xml").read_text()
+    for hub in ("categories", "guides", "alternatives", "best", "vs"):
+        assert re.search(rf"<loc>https://martechsignal.com/{hub}/</loc><lastmod>\d{{4}}-\d{{2}}-\d{{2}}</lastmod>", sm), \
+            f"/{hub}/ has no lastmod"
+
+
+def test_theme_script_hash_is_allowed_by_csp():
+    """#15: the theme script is inline now; the CSP must carry its exact hash
+    or the stored theme silently stops applying."""
+    import base64, hashlib
+    sys.path.insert(0, str(ROOT / "tools"))
+    from site_chrome import THEME_JS, THEME_CSP_HASH
+    want = "sha256-" + base64.b64encode(hashlib.sha256(THEME_JS.encode()).digest()).decode()
+    assert THEME_CSP_HASH == want, "THEME_CSP_HASH is stale; recompute it"
+    assert f"'{want}'" in (ROOT / "_headers").read_text(), "_headers CSP lacks the theme script hash"
+
+
+def test_pages_never_reference_unpublished_screenshot_masters(build):
+    """#15: stage_deploy drops og/screenshots/*.png masters that have a WebP
+    sibling, so no page may point at one."""
+    bad = []
+    for f in ROOT.rglob("index.html"):
+        if "deploy-out" in f.parts:
+            continue
+        for m in re.findall(r"/og/screenshots/([a-z0-9-]+)\.png", f.read_text()):
+            if (ROOT / "og" / "screenshots" / f"{m}.webp").exists():
+                bad.append(f"{f.parent.relative_to(ROOT)}: {m}.png")
+    assert not bad, f"pages reference unpublished PNG masters: {bad[:6]}"
+

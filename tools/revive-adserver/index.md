@@ -131,8 +131,8 @@ Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 dat
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
-- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
 ### Quick Facts
 
 - **Pricing:** Open Source

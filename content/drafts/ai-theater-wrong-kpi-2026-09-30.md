@@ -7,6 +7,7 @@ author: Tim Christensen
 tags: [AI Agents, Marketing Automation, Analytics]
 categories: [marketing-automation, workflow-automation]
 excerpt: Teams reward visible AI effort over invisible results. The labor illusion explains why, and two Reddit builders show what it costs.
+seo_description: "Answer engines narrate their work, and visible progress feels like proof of quality. A HubSpot post on progress indicators shows why it is the wrong KPI."
 ---
 
 HubSpot published a post this month on the psychology of AI progress indicators. In it, [Phill Agnew](https://blog.hubspot.com/marketing/author/phill-agnew) describes something most of us watched happen in 2025: the major answer engines all started showing their work. Claude, ChatGPT, and Gemini began narrating which sites they searched and which assumptions they second-guessed. Anthropic [gives three official reasons](https://www.anthropic.com/news/visible-extended-thinking) for the visible thinking. It helps people check and trust answers. It reveals mismatches between reasoning and output. And it is, in the company's own words, interesting to watch.

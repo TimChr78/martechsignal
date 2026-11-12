@@ -6,6 +6,7 @@ date: 2026-08-25
 author: Tim Christensen
 tags: [SEO, AI Search, Link Building, Reddit, UGC]
 categories: [seo]
+seo_description: "Community platforms hold more citation share inside SaaS AI answers than publishers do. Two Search Engine Land pieces show backlink budget is aimed wrong."
 ---
 
 Two articles landed on Search Engine Land this month, one day apart. Separately they read like tactics posts. Together they redraw where AI visibility actually comes from, and the picture is uncomfortable for an industry that still bills by the backlink.

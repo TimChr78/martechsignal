@@ -92,8 +92,8 @@ The fleet was capable and still mostly failed, because the environment pushed ba
 ## Related reading
 
 - [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
-- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Prompts are not a security boundary. Isolation is.](/blog/agent-isolation-not-prompts-2026-10-22/)
 ## Related tools
 
 - [Paperclip](/tools/paperclip/) - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
@@ -111,6 +111,6 @@ The fleet was capable and still mostly failed, because the environment pushed ba
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Anyword](/tools/anyword/)
+More from the directory: [Analytics Tracking Automation](/tools/analytics-tracking-automation/)
 
 ✗ Verdict: the constraint moved

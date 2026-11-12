@@ -95,6 +95,16 @@ def is_excluded(rel: str, name: str, patterns: list[str]) -> str | None:
     return None
 
 
+def is_unreferenced_master(entry: Path, rel: str) -> bool:
+    """SEO audit 2026-10-30 (#15): the 1280x800 vendor capture PNGs in
+    og/screenshots/ (0.4-1.0 MB each) are masters for the WebP rungs. Pages
+    serve the WebP siblings and never reference a PNG that has one, so the
+    PNG stays in git (to regenerate WebP) but is not published. A PNG with no
+    WebP sibling is still the <img> fallback and is published."""
+    return (rel.startswith("og/screenshots/") and entry.suffix == ".png"
+            and entry.with_suffix(".webp").exists())
+
+
 def main() -> int:
     patterns = load_patterns()
     check = "--check" in sys.argv
@@ -113,7 +123,7 @@ def main() -> int:
             continue
         if any(part in ALWAYS_SKIP for part in rel.split("/")):
             continue
-        if is_excluded(rel, entry.name, patterns):
+        if is_excluded(rel, entry.name, patterns) or is_unreferenced_master(entry, rel):
             if entry.is_file():
                 excluded += 1
                 excluded_paths.append(rel)

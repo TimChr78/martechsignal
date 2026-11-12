@@ -1,6 +1,6 @@
 # Where manual work hides in marketing automation
 
-Marketing Automation · Marketing Ops · 6 min read
+Marketing Automation · Marketing Ops · 8 min read
 
 ## Where the manual work still hides in your marketing automation
 
@@ -62,6 +62,24 @@ The thread's most underrated line is a clause: u/TowerSenior4427's "proving whic
 
 Make the approval log an artifact the workflow emits, not a memory. Export the approved version with an ID and a date, archive it alongside the send record, and diff every re-review against it. This is the audit-trail argument we made about autonomous stacks: the [approval step is load-bearing](/blog/autonomous-stack-loophole-approval-step/), and an approval nobody can reconstruct afterwards is not.
 
+## How you would know which column is losing
+
+The thread's distinction only helps if you can see it. Four numbers, all from systems you already run, one per sink.
+
+- **Queue days per campaign.** Take the timestamp a draft enters review and the timestamp of final approval. Sum the gaps, divide by campaigns. If that number exceeds build time, the approval loop is your bottleneck, not the builder.
+- **Re-reviews of unchanged drafts.** Count review cycles where the diff is empty. Any number above zero is a person reading a document they already approved.
+- **Break-fix time after send.** Time from the first reported broken link or merge field to the correction. That is the price of the QA you skipped.
+- **Handoffs per variant.** How many manual steps sit between the canonical draft and each channel-ready version. Every extra step is a UTM typo waiting to happen.
+None of this needs new tooling. Status timestamps live in the MAP. Approval history lives in the review tool. The work is putting them side by side for one month and reading the gap. If two of the four numbers point at the same stage, that stage is your first project.
+
+## The counterargument
+
+The fair objection: process fixes require people to change behavior, and automation is something you can buy. A budget line is easier to approve than a rule that legal reviews diffs.
+
+That is true, and it is why the queue survives. But the two are not alternatives in the order that matters. Buying an assistant while three approvers still read the same unchanged draft gives you faster drafts in a slower queue.
+
+The second objection is sharper: diff-based review only works if versions are cleanly separable. In a platform where every edit mutates one shared document, there is nothing to diff. That is a real constraint, and the answer is the approval log. Export the version, archive it, diff against it. If the platform cannot emit that record, the constraint is an argument for fixing the export, not for skipping the review change.
+
 ## What to automate next
 
 Order matters more than ambition. The deterministic checks come first: link validation, merge-tag tests against a seed profile set, UTM generation, rendering previews. They need no judgment, machines do them reliably, and every send benefits. The approval queue comes second: module-level sign-off, diff-based re-review, an emitted approval log. Content generation comes last, because it is already the cheapest step in the chain and the bottleneck sits downstream of it. Automating copy while the queue stays the same just feeds the queue.
@@ -74,13 +92,13 @@ Automate the checks before the words. Link validation, merge-tag tests, UTM gene
 
 ## Related reading
 
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Related tools
 
-- [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 - [Persado](/tools/persado/) - AI content creation and optimization platform for regulated financial services marketing
+- [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 - [Bloomreach](/tools/bloomreach/) - AI-powered commerce experience platform with search, personalization, and CDP
 ## Comparison guides
 

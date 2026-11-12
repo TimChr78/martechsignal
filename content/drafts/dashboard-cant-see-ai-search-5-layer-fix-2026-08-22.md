@@ -6,6 +6,7 @@ date: 2026-08-22
 author: Tim Christensen
 tags: [SEO, AI Search, Measurement]
 categories: [seo]
+seo_description: "A Search Console export showed 379 queries, 1,427 impressions, and zero clicks, most on page six. Five layers that make AI search visible in reporting."
 ---
 
 On August 17 we ran our Google Search Console diagnostic on this site. Twenty-eight days of data, query by query. The export came back with 379 unique queries, 1,427 impressions, and zero clicks. A 0.00% click-through rate across the board.
