@@ -127,7 +127,7 @@ Buy it when program complexity and scale justify the ops headcount. For smaller 
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Marketing ops teams whose requirement list starts with lead scoring

@@ -108,7 +108,7 @@ Strengths include an API for custom integrations. Paid plans start at $16/mo
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your agent's price quote is a snapshot of a page you stopped updating](/blog/agent-price-quotes-are-stale-snapshots/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ### Quick Facts
 

@@ -89,8 +89,8 @@ Tools linked in this post: [n8n](/tools/n8n/) · [Make](/tools/make/) · [Zapier
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
 ## Related tools
 
 - [Growth Lab](/tools/growth-lab/) - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex

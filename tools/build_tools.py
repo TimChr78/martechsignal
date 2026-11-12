@@ -2887,9 +2887,26 @@ def build_sitemap(tools, cats):
             _parent = _loc.rstrip("/").rsplit("/", 1)[0] + "/"
             if _parent != _loc and _lm > _child_dates.get(_parent, ""):
                 _child_dates[_parent] = _lm
-    urls = [(_loc, _lm or _child_dates.get(_loc) or _lm, _pr)
-            if _loc != "https://martechsignal.com/" else (_loc, _lm, _pr)
-            for _loc, _lm, _pr in urls]
+    _hub_urls = []
+    for _i, (_loc, _lm, _pr) in enumerate(urls):
+        if _lm or _loc == "https://martechsignal.com/" or not _child_dates.get(_loc):
+            continue
+        # One page, one date (test_sitemap_lastmod_matches_declared_date): the
+        # hub's CollectionPage declares the same newest-child date. Builders
+        # regenerate hubs without it, so this runs (and agrees) every build.
+        _hp = ROOT / _loc.replace("https://martechsignal.com/", "") / "index.html"
+        try:
+            _hs = _hp.read_text()
+        except OSError:
+            continue
+        if '"dateModified"' in _hs or '"@type": "CollectionPage"' not in _hs:
+            continue
+        _hp.write_text(_hs.replace('"@type": "CollectionPage"',
+                                   f'"@type": "CollectionPage",\n  "dateModified": "{_child_dates[_loc]}"', 1))
+        urls[_i] = (_loc, _child_dates[_loc], _pr)
+        _hub_urls.append(_loc)
+    if _hub_urls:
+        print(f"hub lastmod from newest child: {len(_hub_urls)} hubs")
     seen_locs = set()
     entries = []
     dropped = 0

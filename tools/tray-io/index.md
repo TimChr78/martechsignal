@@ -160,7 +160,7 @@ Zapier fits single-task automations owned by individuals. Tray fits programs: mu
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for AI app governance plus integration on one platform.

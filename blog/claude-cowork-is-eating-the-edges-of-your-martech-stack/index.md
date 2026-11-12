@@ -88,9 +88,9 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 
 ## Related reading
 
-- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ## Related tools
 
 - [Digital Marketing Pro](/tools/digital-marketing-pro/) - 163-skill AI marketing plugin for agencies with EU AI Act compliance

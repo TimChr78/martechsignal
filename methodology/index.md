@@ -1,4 +1,4 @@
-# Methodology
+# Methodology: how we score martech tools
 
 ## Methodology
 

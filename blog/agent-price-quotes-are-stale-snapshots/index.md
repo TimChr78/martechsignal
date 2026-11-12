@@ -73,8 +73,8 @@ We still drift, 46 records deep, and we can name exactly which 46, because the a
 ## Related reading
 
 - [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ## Related tools
 
 - [Claude SEO](/tools/claude-seo/) - Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents

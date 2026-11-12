@@ -142,7 +142,7 @@ They meter differently. Zapier charges per task, and work repeated inside a Zap 
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for breadth and onboarding speed on niche integrations.

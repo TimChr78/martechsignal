@@ -74,7 +74,7 @@ The connectivity debate turned out to be the easy half, and most teams have quie
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ## Related tools
 
 - [Pipedream](/tools/pipedream/) - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps

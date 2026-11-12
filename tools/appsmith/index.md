@@ -162,7 +162,7 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [HubSpot's credit rules are a budget design problem, not a pricing problem.](/blog/hubspot-credit-rules-budget-design-2026-10-20/)
 ### Quick Facts
 
 - **Pricing:** Open-core from $15/user/mo

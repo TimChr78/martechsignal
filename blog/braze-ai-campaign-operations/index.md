@@ -82,8 +82,8 @@ One review screen where a human blesses agent-assembled work before anything shi
 
 ## Related reading
 
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ## Related tools
 

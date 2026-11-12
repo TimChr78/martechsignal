@@ -2758,7 +2758,7 @@
    "displayName": "You Taught Google Everything It Knows",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/",
-   "description": "For fifteen years the deal was simple. You published content, Google sent traffic.",
+   "description": "The content published to win search taught AI what it knows. Once the answer absorbs the query the visit disappears, so visibility replaces traffic.",
    "representativeQueries": [
     "you taught google everything it knows",
     "google doesnt need your site anymore you taught it everything it knows"
@@ -3918,7 +3918,7 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:pages:methodology",
-   "displayName": "Methodology",
+   "displayName": "Methodology: how we score martech tools",
    "type": "text/html",
    "url": "https://martechsignal.com/methodology/",
    "description": "How MartechSignal researches tools, verifies prices and dates, and scores the six-pillar rubric. Desk research with dated verification.",

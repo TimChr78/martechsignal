@@ -2489,12 +2489,16 @@ def test_blog_markup_conversions_keep_stamps():
     pins all five + sitemap alignment so the next conversion wave either
     keeps every stamp or fails loud."""
     import re as _re
+    # 2026-11-12 (SEO audit #9/#10): four of the five got real edits (new
+    # seo_description, and jon-miller a body expansion), which by the
+    # signature rule move the stamp. Pinned at the new stamp so the next
+    # markup-only wave is still caught.
     _five = {
-        "ai-theater-wrong-kpi": "2026-09-30",
-        "jon-miller-rethink-not-rebuild": "2026-10-01",
-        "n8n-ai-open-source-automation": "2026-09-25",
+        "ai-theater-wrong-kpi": "2026-11-12",
+        "jon-miller-rethink-not-rebuild": "2026-11-12",
+        "n8n-ai-open-source-automation": "2026-11-12",
         "what-free-seo-audit-replaces": "2026-09-28",
-        "open-source-martech-stack": "2026-07-27",
+        "open-source-martech-stack": "2026-11-12",
     }
     _sm = (ROOT / "sitemap.xml").read_text()
     _bad = []
@@ -2635,7 +2639,9 @@ def test_glossary_hub_pinned_at_own_content_date():
     import re as _re
     _h = (ROOT / "glossary" / "index.html").read_text(errors="ignore")
     _m = _re.search(r'"dateModified": "([0-9-]+)"', _h)
-    assert _m and _m.group(1) == "2026-10-05", f"glossary hub dm: {_m.group(1) if _m else 'MISSING'}"
+    # 2026-11-12: the hub's meta description was rewritten (SEO audit #9),
+    # a real hub change, so the pin moved once.
+    assert _m and _m.group(1) == "2026-11-12", f"glossary hub dm: {_m.group(1) if _m else 'MISSING'}"
 
 
 def test_pin_mask_erases_template_churn():

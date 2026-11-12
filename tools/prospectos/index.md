@@ -118,7 +118,7 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 - [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
 - **Pricing:** Open Source

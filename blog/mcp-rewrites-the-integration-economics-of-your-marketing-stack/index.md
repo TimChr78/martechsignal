@@ -126,8 +126,8 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 ## Related reading
 
 - [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Related tools
 
 - [Pipedream](/tools/pipedream/) - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps

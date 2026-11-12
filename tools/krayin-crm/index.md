@@ -144,7 +144,7 @@ Yes, through the built-in import and export layer (the DataTransfer package), wh
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for Laravel shops that want room to extend a CRM.
