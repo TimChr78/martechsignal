@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2026 06:07:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 06:09:02 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Publishers aren't arguing about agentic pricing, they're arguing about getting a bid at all</title>
+      <link>https://martechsignal.com/blog/agentic-auction-bid-density-publisher/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/agentic-auction-bid-density-publisher/</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Two stories landed a day apart last week, and the trade press filed both under pricing. On Monday, AdExchanger ran a Sell Sider column by GrowthCode founder Jonathon Shaevitz. The…</description>
+    </item>
     <item>
       <title>Your agent is a delegate, not a user</title>
       <link>https://martechsignal.com/blog/agent-delegate-not-user/</link>
