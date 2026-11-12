@@ -379,7 +379,10 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
     out.write_text(page_shell(
         title,
         # r23 M-3: never ship an empty meta; the term name is always true.
-        _meta_155(term["definition"]) or f"{term['term']}: definition in the MartechSignal glossary.",
+        # SEO audit 2026-10-30 (#9): an editor-written seo_description wins;
+        # the definition's first sentence alone ran 53-82 chars on short terms.
+        _meta_155(term.get("seo_description") or "") or _meta_155(term["definition"])
+        or f"{term['term']}: definition in the MartechSignal glossary.",
         f"/glossary/{slug}/", body, [schema, breadcrumb], og_image=f"og/glossary/{slug}.png"))
     return out
 
