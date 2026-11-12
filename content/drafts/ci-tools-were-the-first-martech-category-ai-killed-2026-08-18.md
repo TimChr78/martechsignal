@@ -6,6 +6,7 @@ date: 2026-08-18
 author: Tim Christensen
 tags: [AI, Competitive Intelligence, Martech Strategy, Budget, Enablement]
 categories: [marketing-automation]
+seo_description: "Competitive intelligence lived in battlecards that went stale. Product marketers now ask Claude directly, and a survey of 101 marketers shows the swap."
 ---
 
 A product marketer needs to know what a competitor just shipped. Six months ago that meant opening Klue or Crayon, finding the battlecard, and hoping someone had refreshed it this quarter. Now it means opening Claude and asking.

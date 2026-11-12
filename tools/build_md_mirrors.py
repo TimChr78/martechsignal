@@ -189,6 +189,33 @@ def main():
     home = ROOT / "index.html"
     (ROOT / "index.md").write_text(html_to_md(home.read_text()))
     print(f"markdown mirrors: {n} pages + homepage derived from HTML")
+    # SEO audit 2026-10-30 (#8): build_tools runs sync_md_alternates BEFORE
+    # this script, so a brand-new post's index.md did not exist yet and its
+    # HTML shipped without the text/markdown alternate until the next deploy.
+    # Re-sync now that every mirror exists, then fail the build on any page
+    # whose mirror is not advertised exactly once.
+    from build_tools import sync_md_alternates
+    sync_md_alternates()
+    bad = check_md_alternates()
+    if bad:
+        raise SystemExit("markdown alternate check failed: " + "; ".join(bad[:10]))
+
+
+ALT_RE = re.compile(r'<link rel="alternate" type="text/markdown"[^>]*>')
+
+
+def check_md_alternates():
+    """Every index.html with a sibling index.md carries exactly one
+    text/markdown alternate; pages without a mirror carry none."""
+    bad = []
+    for idx in ROOT.rglob("index.html"):
+        if "deploy-out" in idx.parts or ".well-known" in idx.parts:
+            continue
+        n = len(ALT_RE.findall(idx.read_text()))
+        want = 1 if (idx.parent / "index.md").exists() else 0
+        if n != want:
+            bad.append(f"{idx.relative_to(ROOT)}: {n} alternates, want {want}")
+    return bad
 
 if __name__ == "__main__":
     main()

@@ -744,7 +744,7 @@ def build_index(posts: list) -> str:
         "@id": "https://martechsignal.com/blog/#blog",
         "name": "MartechSignal Blog",
         "url": "https://martechsignal.com/blog/",
-        "description": "Deep-dives, tool teardowns, and hot takes on AI in marketing automation.",
+        "description": "Analysis of AI in marketing automation: tool teardowns, pricing and platform shifts, and what each change means for the team running the stack.",
         "inLanguage": "en",
         "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/logo.png"}},
         "blogPost": [
@@ -766,21 +766,21 @@ def build_index(posts: list) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Blog | MartechSignal</title>
-<meta name="description" content="Deep-dives, tool teardowns, and hot takes on AI in marketing automation.">
+<title>Blog: AI marketing automation analysis | MartechSignal</title>
+<meta name="description" content="Analysis of AI in marketing automation: tool teardowns, pricing and platform shifts, and what each change means for the team running the stack.">
 <link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MartechSignal">
 <link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
-<meta property="og:title" content="Blog | MartechSignal">
-<meta property="og:description" content="Deep-dives, tool teardowns, and hot takes on AI in marketing automation.">
+<meta property="og:title" content="Blog: AI marketing automation analysis | MartechSignal">
+<meta property="og:description" content="Analysis of AI in marketing automation: tool teardowns, pricing and platform shifts, and what each change means for the team running the stack.">
 <meta property="og:url" content="https://martechsignal.com/blog/">
 <meta property="og:image" content="https://martechsignal.com/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Blog | MartechSignal">
-<meta name="twitter:description" content="Deep-dives, tool teardowns, and hot takes on AI in marketing automation.">
+<meta name="twitter:title" content="Blog: AI marketing automation analysis | MartechSignal">
+<meta name="twitter:description" content="Analysis of AI in marketing automation: tool teardowns, pricing and platform shifts, and what each change means for the team running the stack.">
 <meta name="twitter:image" content="https://martechsignal.com/og.png">
 <link rel="canonical" href="https://martechsignal.com/blog/">
 <link rel="ard ai-catalog" type="application/json" href="https://martechsignal.com/.well-known/ard.json">

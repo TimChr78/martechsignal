@@ -22,7 +22,7 @@ Customer data platforms promised a single view of the customer and left most mar
 
 ## Three October announcements, one machine
 
-Qlik placed its Model Context Protocol server in Anthropic's Claude Directory this month, a distribution move we covered [yesterday](/blog/mcp-distribution-channel-2026-10-28/). The quieter half of the announcement is the product. Claude can query governed Qlik Cloud data, inspect lineage and trust signals, and run selected analytics workflows. Authentication runs over OAuth and maps onto the permissions a company already has in Qlik Cloud. Josh Good, Qlik's VP of corporate strategy, described the request he actually hears from buyers: "Customers adopting Claude want more than an LLM hooked to raw records. They want Claude to work with governed business context, existing metrics, and data workflows with enterprise controls."
+Qlik placed its Model Context Protocol server in Anthropic's Claude Directory this month, a distribution move we covered [yesterday](/blog/mcp-distribution-channel/). The quieter half of the announcement is the product. Claude can query governed Qlik Cloud data, inspect lineage and trust signals, and run selected analytics workflows. Authentication runs over OAuth and maps onto the permissions a company already has in Qlik Cloud. Josh Good, Qlik's VP of corporate strategy, described the request he actually hears from buyers: "Customers adopting Claude want more than an LLM hooked to raw records. They want Claude to work with governed business context, existing metrics, and data workflows with enterprise controls."
 
 Read that as a CDP requirements document. Single view of the customer, check. Permissions and lineage, check. The only thing that changed is the customer in "customer data": it is Claude now, not a campaign manager.
 
@@ -87,4 +87,4 @@ Mapping this onto your own stack: our [Salesforce Marketing Cloud](/tools/salesf
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [LanguageTool](/tools/languagetool/)
+More from the directory: [Khoj](/tools/khoj/)

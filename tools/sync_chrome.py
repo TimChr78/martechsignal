@@ -14,7 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from site_chrome import HEAD_TAGS, chrome_footer, chrome_top
+from site_chrome import HEAD_TAGS, OLD_THEME_TAG, THEME_TAG, chrome_footer, chrome_top
 
 SKIP_DIRS = {"deploy-out", "node_modules", "design", ".git"}
 
@@ -57,7 +57,8 @@ def url_path(path: Path) -> str:
 
 
 def insert_head_tags(head: str) -> str:
-    if "/theme.js" not in head:
+    head = head.replace(OLD_THEME_TAG, THEME_TAG)
+    if THEME_TAG not in head:
         head = OLD_PRELOADS_WITH_ARCHIVO.sub("", head)
         candidates = [m.start() for m in re.finditer(
             r'<style\b|<link\b[^>]*rel=["\']stylesheet["\']', head, re.I)]

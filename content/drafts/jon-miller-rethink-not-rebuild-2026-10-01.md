@@ -75,6 +75,28 @@ That is the contrarian reading of this launch. Vendors need the AI era to requir
 Miller's diagnosis is right and his cure is optional. If your MAP runs your programs and the complaints are the rules layer's rigidity, the reasoning layer is likely to arrive where you already are, through MCP tool surfaces and vendor-shipped reasoning, and the data you would risk in a migration is the asset every vendor actually wants.
 :::
 
+## The test before you take the meeting
+
+A launch is not a diagnosis. Run these four questions before anyone books a demo.
+
+1. **Where does the rigidity actually live?** If your team spends its week fighting the data model, meaning account hierarchies that cannot represent a buying group, or intent that never lands on the right record, a new reasoning engine will inherit the same mess. If they spend it fighting the canvas, meaning journeys that need a decision the flowchart cannot express, the reasoning layer is the fix.
+2. **Does your platform expose write tools over MCP yet?** Read-only access makes agents a reporting channel. Write access makes them operators. The difference decides whether the layer can reach your current stack at all.
+3. **What does a migration copy?** Buying groups, intent history, suppression lists, scoring history, and the accumulated judgment in your segments. Those are not rows you export in an afternoon. They are the asset, and the migration is priced against them.
+4. **Can you name the campaign the new platform would run that yours cannot?** Not the campaign it would run better. The one that is currently impossible. If you cannot name it, you are buying the feeling of a launch.
+
+Say a team runs 40 lifecycle programs, all hypothetical, and six of them need multi-person buying-group logic the current MAP cannot express. Replatforming moves 40 programs to get six. Rethinking in place moves six, on top of a data layer that already knows the accounts. The arithmetic is not close, and it does not depend on which vendor is better.
+
+## When the trap stops being a trap
+
+The replatform case gets stronger under conditions we can name, and we would say so.
+
+- Incumbents fail to ship reasoning and write-capable MCP surfaces within a year. Then the layer argument collapses into a platform argument, and waiting costs you capability rather than saving you a migration.
+- Your buying-group and intent history already lives in a warehouse, not in the MAP. The switching cost we described shrinks, because the asset was never inside the platform.
+- A migration quote comes back small relative to the program budget, and the data plumbing turns out to be routine. The trap is only a trap when the bill is hidden.
+- The campaign you cannot run is the one your pipeline depends on. Capability gaps beat switching-cost arguments every time.
+
+If two or more of those are true, replatform on the merits. That is the same advice as below, arrived at honestly.
+
 ## If you do replatform, do it for one reason
 
 None of this makes Phave wrong. Its architectural ideas are genuinely good, and someone has to build the reasoning-native MAP. Phave's own site says it replaces Marketo, Pardot, Eloqua, and HubSpot, a bold scope claim from a 10-customer company, and there is no public pricing. Miller said early adopters report building campaigns two to three times faster, which is a vendor claim from a two-year stealth period, so hold it lightly.

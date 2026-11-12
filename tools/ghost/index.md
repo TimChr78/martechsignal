@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 42/60
 
-Ghost is the independent publishing stack: 55,754 stars, MIT, newsletters and memberships included. The AI layer is writing assistance where it should be, and Stripe payments keep the revenue yours.
+Ghost is the independent publishing stack: 55,786 stars, MIT, newsletters and memberships included. The AI layer is writing assistance where it should be, and Stripe payments keep the revenue yours.
 
 
 | Pillar | Score | Evidence |
@@ -44,7 +44,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Founded in 2013, headquartered in Singapore, and maintained as an MIT-licensed open-source project, Ghost gives publishers, creators, and media teams a single platform for websites, newsletters, and paid memberships. It combines content management, audience analytics, and subscription billing in one system, reducing the need to connect separate CMS, email, and payment tools. The self-hosted version is free under MIT, while managed Cloud plans include Starter at $9, Creator at $29, Team at $79, and Business at $199 per month. Key differentiators include a focused editing experience, native memberships and payments through Stripe, API access, and integrations with Zapier, Slack, Google Analytics, Mailchimp, Unsplash, and WordPress import. Its AI capabilities cover an AI writing assistant, AI content suggestions, and AI newsletter optimization, which can support drafting, editing, and distribution without a separate AI content stack. The open-source codebase, reflected by more than 55,754 GitHub stars, allows organizations to self-host, customize workflows, and evaluate the platform's data handling directly. Compared with commercial alternatives such as Substack, WordPress.com, or a Webflow-plus-email stack, Ghost offers a more self-contained publishing and monetization workflow while still allowing ownership through self-hosting. It is less aimed at complex enterprise web builds or large e-commerce operations, but it provides a practical balance of flexibility, editorial simplicity, and audience monetization. Ghost is best for independent publishers, newsletter operators, membership sites, and small content teams that want an open-source platform with built-in subscriptions, AI-assisted publishing, and transparent pricing.
+Founded in 2013, headquartered in Singapore, and maintained as an MIT-licensed open-source project, Ghost gives publishers, creators, and media teams a single platform for websites, newsletters, and paid memberships. It combines content management, audience analytics, and subscription billing in one system, reducing the need to connect separate CMS, email, and payment tools. The self-hosted version is free under MIT, while managed Cloud plans include Starter at $9, Creator at $29, Team at $79, and Business at $199 per month. Key differentiators include a focused editing experience, native memberships and payments through Stripe, API access, and integrations with Zapier, Slack, Google Analytics, Mailchimp, Unsplash, and WordPress import. Its AI capabilities cover an AI writing assistant, AI content suggestions, and AI newsletter optimization, which can support drafting, editing, and distribution without a separate AI content stack. The open-source codebase, reflected by more than 55,786 GitHub stars, allows organizations to self-host, customize workflows, and evaluate the platform's data handling directly. Compared with commercial alternatives such as Substack, WordPress.com, or a Webflow-plus-email stack, Ghost offers a more self-contained publishing and monetization workflow while still allowing ownership through self-hosting. It is less aimed at complex enterprise web builds or large e-commerce operations, but it provides a practical balance of flexibility, editorial simplicity, and audience monetization. Ghost is best for independent publishers, newsletter operators, membership sites, and small content teams that want an open-source platform with built-in subscriptions, AI-assisted publishing, and transparent pricing.
 
 Ghost homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -122,8 +122,8 @@ Choose Ghost for editorial sites with paid membership intent. Skip it if you nee
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $9/mo

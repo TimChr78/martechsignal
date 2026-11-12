@@ -1,6 +1,6 @@
 # SQREEM's bet: behavior beats language
 
-AI · Advertising · 6 min read
+AI · Advertising · 8 min read
 
 ## SQREEM is betting the behavioral model beats the LLM: if it's right, your AI media budget bought the wrong thing
 
@@ -54,6 +54,23 @@ There's also an older argument hiding inside SQREEM's pitch. Multi-touch attribu
 
 If SQREEM is right, the money flowing into LLM-based marketing agents is aimed one layer too low: summarizing and executing instead of predicting. If SQREEM is wrong, the LBM is a rebrand of audience modeling with better timing. Both can be checked, but only with data the vendor has to release or the buyer has to generate.
 
+## How to test the claim on your own spend
+
+You cannot verify a state-space model from outside. You can verify whether its audience outperforms the one you would have bought anyway.
+
+1. **Fix the outcome before the demo.** Pick the metric the budget is meant to move: incremental purchases, not click-through, not engagement, not the model's own confidence score. 2. **Hold out at random.** Take the modeled audience and a random slice of the same eligible pool. Same creative, same bid strategy, same flight. The difference between those two groups is the only number that belongs in a renewal conversation. 3. **Blind the review.** Do not tell the person reading results which group is which. The labor-illusion studies above are the reason. A visible story raises perceived value even when the output is identical, and your internal reviewer is as susceptible as any buyer. 4. **Run past the novelty window.** Early lift can come from fresh targeting rather than better prediction. Let the audience settle and compare the back half of the flight, not the first week. 5. **Ask what the model cannot see.** Behavior correlations come from outside your data. The green-tea-to-insurance chain is a correlation, not a mechanism, and correlations move when conditions change.
+
+Say a team runs this test on a retargeting pool, all hypothetical, and the modeled audience beats the random slice in week one and converges by week six. That is a targeting story, not a prediction story. The reverse, flat early and ahead late, is the result that would justify a larger budget.
+
+## Signals that would settle it
+
+Three signals would move this from credible critique to proven engine.
+
+- A published benchmark with a real holdout, not a lift figure from a vendor deck, and enough detail that someone outside can rerun it.
+- Third-party replication in a category the model was not built around. The travel-insurance example proves the method can walk a chain. It does not prove the chain transfers.
+- Pricing tied to incremental lift rather than impressions or seats. A vendor that will not put fee at risk is telling you what it believes about its own numbers.
+The reverse signals matter too. If head-to-head tests keep showing LLM-built audiences matching the LBM on incremental purchases, the architectural argument is interesting but not decision-relevant, and the budget belongs wherever execution is cheapest.
+
 SQREEM's critique of LLM-based prediction holds up: a language model learns from what people write, and purchase behavior is not writing. But every number in the pitch, the 22% green-tea lift included, traces back to the vendor. There is no published benchmark, no public pricing, and no third-party test to date. The honest response to a claim this big is the boring one: run a holdout on your own spend, or wait for someone else's, before any budget moves.
 
 **Sources:** [AdExchanger: "SQREEM Touts The Large Behavioral Model – Not The LLM – As The Winning Predictive Engine" by Joanna Gerber, September 23, 2026](https://www.adexchanger.com/ai/sqreem-touts-the-large-behavioral-model-not-the-llm-as-the-winning-predictive-engine/) · [HubSpot Blog: "The psychology behind why AI shows it's working" by Phill Agnew, updated September 21, 2026](https://blog.hubspot.com/marketing/why-ai-shows-loadtime) · [r/MarketingAutomation: "i am building ai os for digital marketing agency where ai agents can manage google ads meta ads clients and automate workflows", September 22, 2026](https://www.reddit.com/r/MarketingAutomation/comments/1wn3pxy/i_am_building_ai_os_for_digital_marketing_agency/)
@@ -62,22 +79,22 @@ Tools linked in this post: [HubSpot CRM](/tools/hubspot-crm/) · [Claude Ads](/t
 
 ## Related reading
 
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Related tools
 
 - [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Madgicx](/tools/madgicx/) - AI-powered Meta ads optimization and creative workflow
-- [Revealbot (Birch)](/tools/revealbot/) - AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
+- [Attribution](/tools/attribution/) - AI-powered marketing attribution platform connecting ad spend to revenue
 ## Comparison guides
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
-- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
-- [Lead scoring](/glossary/lead-scoring/)
+- [AI Agent](/glossary/ai-agent/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

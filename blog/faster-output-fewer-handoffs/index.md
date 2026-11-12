@@ -1,6 +1,6 @@
-# Faster output didn't ship campaigns faster. Fewer handoffs did
+# Campaigns ship faster with fewer handoffs, not faster output
 
-Marketing Ops · AI Agents · 6 min read
+Marketing Ops · AI Agents · 8 min read
 
 ## Faster output did not make campaigns ship faster. Fewer handoffs did.
 
@@ -62,6 +62,18 @@ Read that as a process statement, not a product statement. The journey map is th
 
 That only works if the thing deciding at the moment of contact is reliable enough to hold the pen. An agent fleet [observed in the wild](/blog/agent-fleet-in-the-wild-2026-10-19/) failed most of its runs. Agents without [memory of what worked](/blog/procedural-memory-agents/) keep failing the same way. Decisioning at contact is earned through reliability work, not purchased with a license.
 
+## A handoff audit you can run this week
+
+Pick one campaign that shipped in the last month. You do not need a process map, a consultant, or a new tool.
+
+1. **List the status changes, not the tasks.** Pull the dates from the project board. Every pair of adjacent statuses is a handoff, and every gap between them is a wait. 2. **Name the decision each handoff exists to make.** "Draft to review" means someone decides the draft is ready for eyes. If you cannot write the decision in one sentence, the handoff is habit. 3. **Name the person who holds it.** If two names come up, you have found a loop rather than a gate. Shared decision rights are how work waits for a week without anyone feeling responsible. 4. **Sort the gaps, largest first.** The top three usually hold most of the elapsed time. That is where the next change goes, not the step that feels slowest to the people doing it. 5. **Remove or merge one handoff.** Not tighten it. Remove it. Two review steps with the same reviewer and the same checklist are one step wearing two names.
+
+The arithmetic is blunt. Take a hypothetical campaign with 16 status changes, so 15 handoffs, and 21 elapsed days. If the three longest waits account for 12 of those days, you can cut the calendar by more than half without making anyone faster at their job. The team produces the same assets at the same speed and ships a week and a half earlier, because three queues disappeared.
+
+Entry criteria belong in the same pass. A front door with written conditions is the cheapest handoff reduction available: work that arrives complete does not bounce back to the requester, and bounce-backs are handoffs nobody counts. Add one rule per intake form and watch the first wait shrink.
+
+Have the person who owns the campaign read the list before you change anything. They will know which waits are political and which are accidental, and that distinction decides what you can remove this month.
+
 ## What the good operators do differently
 
 The teams getting value from agents are not the ones with the best models. They are the ones who redesigned the shape of the work and let speed follow. In practice it looks unglamorous. One front door for requests, with entry criteria, so the loudest stakeholder stops setting the agenda. Limits on work in progress, because finishing beats starting. Decision rights written down before the next tool is bought. Feedback cycles short enough that output meets consequences while the campaign is still alive.
@@ -76,14 +88,14 @@ Everyone has the fast generator now. The advantage moved to whoever has the shor
 
 ## Related reading
 
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ## Related tools
 
-- [Laudspeaker](/tools/laudspeaker/) - Open-source customer engagement and product onboarding platform, alternative to Braze
 - [Zapier](/tools/zapier/) - No-code automation platform connecting 9,000+ apps with AI-powered workflows
-- [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+- [Laudspeaker](/tools/laudspeaker/) - Open-source customer engagement and product onboarding platform, alternative to Braze
+- [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) - Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
@@ -96,4 +108,4 @@ Everyone has the fast generator now. The advantage moved to whoever has the shor
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Trakkr](/tools/trakkr/)
+More from the directory: [SuiteCRM](/tools/suitecrm/)

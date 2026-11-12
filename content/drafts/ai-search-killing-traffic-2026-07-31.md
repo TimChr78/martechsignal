@@ -5,6 +5,7 @@ date: 2026-07-31
 author: Tim Christensen
 tags: [AI Search, AI Overviews, SEO, Zero-Click, Organic Traffic, Content Strategy]
 categories: [seo]
+seo_description: "The content published to win search taught AI what it knows. Once the answer absorbs the query the visit disappears, so visibility replaces traffic."
 ---
 
 For fifteen years the deal was simple. You published content, Google sent traffic. You did the writing, the formatting, the keyword research, and in exchange you got a metered drip of visits. That deal is over, and the reason it is over is the content you wrote.

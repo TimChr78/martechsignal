@@ -786,7 +786,7 @@
     "Content AI is where most teams meet generative AI first. Drafts are cheap and fast. The scarce parts are taste, fact checks, and a clear voice. This set covers 13 tools across that full path, from first draft to published page. Five are open source and self-hostable. The rest run paid, freemium, or enterprise plans, with entry points from free tiers and $9 per month up to quote-based enterprise deals.",
     "Start with the job, not the model. If you need daily ads, blogs, and social posts, the copywriting workhorses fit. If legal or brand reviews every word, look at the governed enterprise group. If you publish on your own domain, Ghost and Strapi hold the stack. If you want helpers you run yourself, the self-hosted utilities cover grammar, research, and translation. Keep an approval step in place and check what the tool actually changed before it ships. Every entry below names its price model and license so the shortlist takes minutes."
    ],
-   "meta": "AI copywriting, publishing, and writing tools: drafts, governance, and self-hosted helpers. 13 tools reviewed.",
+   "meta": "AI copywriting, publishing, and writing tools: drafts, brand governance, and self-hosted helpers. {n} tools reviewed with verified pricing.",
    "reading": [
     {
      "note": "Why AI-written email gets flagged, and how to keep output readable and deliverable",
@@ -1304,7 +1304,7 @@
     "Personalization splits into three jobs and buyers mix them up. Storefront tools decide what each visitor sees. CDPs decide who each visitor is. Flags and tests decide who sees a change and whether it worked. This hub covers 11 tools across that split: three storefront engines, six data pipes and profile stores, and two testing and flag systems. Five of the eleven are open source with a self-hosted path.",
     "The practical question is where the profile lives. Packaged CDPs hold it for you and bill on tracked users or events. Warehouse pipes send events to tables you own and let Hightouch push segments back out. Unomi sits alone as a self-hosted profile store with no cloud tier. If you cannot answer where identity gets resolved, fix that before you buy recommendations. Start with the pipes group if the warehouse already holds identities; start with storefront engines if recommendations must ship this quarter."
    ],
-   "meta": "Ecommerce personalization, customer data platforms, and flags and testing. {n} tools reviewed.",
+   "meta": "Ecommerce personalization, customer data platforms, and feature flags and testing tools. {n} tools reviewed with verified pricing and AI features.",
    "reading": [
     {
      "note": "Why the warehouse model changes what a CDP needs to do",
@@ -1355,7 +1355,7 @@
    "surfer-seo"
   ],
   "hub": {
-   "meta": "SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. {n} tools with verified pricing.",
+   "meta": "SEO platforms reviewed on data depth, content briefs, rank tracking, and AI visibility tracking. {n} tools with verified pricing and dated facts.",
    "flow": [
     {
      "label": "Crawl",
@@ -1505,7 +1505,7 @@
   "name": "GEO & LLM Optimization",
   "description": "Track and improve how AI assistants mention, cite, and describe your brand",
   "hub": {
-   "meta": "AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overviews. {n} reviewed with dated facts.",
+   "meta": "AI search visibility tools that track who cites you in ChatGPT, Perplexity, and AI Overviews. {n} reviewed with verified pricing and dated facts.",
    "flow": [
     {
      "label": "Prompt set",
@@ -1896,7 +1896,7 @@
    "zapier-gtm-cheat-codes"
   ],
   "hub": {
-   "meta": "Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. {n} reviewed.",
+   "meta": "Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow, and what it costs. {n} reviewed.",
    "flow": [
     {
      "label": "Install",

@@ -101,6 +101,6 @@ Tools linked in this post: [n8n](/tools/n8n/) | [Capsem](https://github.com/goog
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Apache Unomi](/tools/apache-unomi/)
+More from the directory: [Anyword](/tools/anyword/)
 
 ✓ Verdict: fund the boundary, not the paragraph

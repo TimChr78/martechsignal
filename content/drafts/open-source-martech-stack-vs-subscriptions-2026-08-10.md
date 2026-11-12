@@ -5,6 +5,7 @@ date: 2026-07-27
 author: Tim Christensen
 tags: [recovered]
 note: "Draft reverse-built from the live page 2026-09-16 after the original was lost in the Sep 13 cleanup (never committed). Re-humanize/trim at next edit."
+seo_description: "A mid-size B2B team can spend $5,000 to $15,000 a month on martech. An open-source stack covers CRM, email, automation, analytics, and chatbots instead."
 ---
 Every marketing team pays the subscription tax. HubSpot at $800/mo. Salesforce at $150/user. Adobe Marketo at $2,000+. A mid-size B2B team easily burns $5,000–15,000/month on martech subscriptions, and the prices only go up.
 

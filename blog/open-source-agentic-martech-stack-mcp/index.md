@@ -1,6 +1,6 @@
 # 19 open-source MCP servers, one marketing agent
 
-Open Source · MCP · 7 min read
+Open Source · MCP · 8 min read
 
 ## The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent
 
@@ -72,6 +72,14 @@ Four tools document real MCP servers without carrying the headline listing: [Pos
 
 Three mentions do not count at all. [Django CRM](/tools/django-crm/) shipped an MCP server and removed it, on the stated grounds that it covered eight entities and added nothing its API lacked. [Promptfoo](/tools/promptfoo/)'s MCP proxy belongs to its hosted cloud product, not the MIT-licensed repo. [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) consumes Zapier's MCP for its actions rather than shipping a server. A naive grep for "MCP" would have counted all three.
 
+## A first-week assembly order
+
+Assemble in trust order, not demo order. The layer that looks best in a walkthrough is usually the one with the most write access.
+
+1. **Register one server and read its tool list out loud.** If "read the report" and "pause the campaign" sit in the same list with no visible distinction, you have found the permission problem before any data has moved. 2. **Wire the read side first.** Analytics, then CRM reads. An agent that can only read is a reporting tool with a chat interface. That is useful and it is safe, and it teaches you how the client behaves. 3. **Add the experiment layer next.** A flag is reversible. A send is not. GrowthBook's exposed flag and experiment management is the right second step because a mistake there costs a data point, not a customer. 4. **Then the hands, with a reviewer named.** Activepieces flows become callable tools, which is how a decision turns into an email. Put a person between the decision and the send until you have watched the flow succeed on its own a few times. 5. **Last, the paid gateway, scoped narrowly.** The ads server can pause campaigns and move budgets. Point it at the accounts you can afford to pause, and widen later.
+
+Five registrations, not five migrations. Each step is reversible, and each one tells you whether the next is worth doing.
+
 ## What this stack asks of you
 
 The licensing is free; nothing else about it is free.
@@ -86,9 +94,9 @@ For a team already comfortable with Docker and an agent CLI, the five-layer loop
 
 ## Related reading
 
+- [31% of the tools in our directory now ship an MCP server](/blog/mcp-distribution-channel/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Related tools
 
 - [Nimt.ai](/tools/nimt-ai/) - AI search tracking across 8 models with an agent that writes, fixes, and outreaches
@@ -97,11 +105,11 @@ For a team already comfortable with Docker and an agent CLI, the five-layer loop
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
 ## Glossary terms
 
 - [MCP](/glossary/mcp/)
-- [UTM parameters](/glossary/utm-parameters/)
+- [AEO](/glossary/aeo/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

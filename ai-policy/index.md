@@ -1,4 +1,4 @@
-# AI policy
+# AI policy: how AI systems may use MartechSignal
 
 ## AI policy
 

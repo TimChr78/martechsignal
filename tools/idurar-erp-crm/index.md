@@ -28,7 +28,7 @@ MartechSignal score
 
 ## MartechSignal Score: 31/60
 
-IDURAR is a full ERP-CRM-accounting stack under AGPL with 8,948 stars, and lifetime licenses at $5,000 if you want the vendor's hand. Free self-hosting is the honest path for small teams.
+IDURAR is a full ERP-CRM-accounting stack under AGPL with 8,951 stars, and lifetime licenses at $5,000 if you want the vendor's hand. Free self-hosting is the honest path for small teams.
 
 
 | Pillar | Score | Evidence |
@@ -141,8 +141,8 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $5,000 one-time

@@ -1,6 +1,6 @@
 # Amazon's Agentic Ads Ship With Brand Controls
 
-AI · Advertising · 7 min read
+AI · Advertising · 9 min read
 
 ## Amazon's Ad Agents Come With Instructions. Google's Came With Promises.
 
@@ -54,6 +54,34 @@ Put those two together and the design is legible. Amazon treats reviews as shopp
 
 Amazon's release hands over a written contract instead: what you may tell the agent, what you may not, and what happens if you lie to it. On that last point, Jbara says Amazon "will give feedback" through the console when an advertiser submits false or improper information. A contract you can argue with beats a slogan you cannot. It also locks in Amazon's side of the argument, which is the part brands should read twice.
 
+## What to put in the brief, and what to leave alone
+
+Conversational Briefs are a new surface, and most brands will fill them like ad copy. That is the wrong instinct. Write them like a product data sheet.
+
+- **Co-purchase pairings you can defend from your own order data.** The agent uses pairings to suggest what goes with what. A pairing that only exists in a campaign deck teaches the agent something false about your catalog.
+- **Descriptions that match the page the shopper lands on.** If the brief says the machine grinds quietly and the reviews say otherwise, the conversation is the place the contradiction becomes visible.
+- **Use cases, not superlatives.** "Works with capsules" and "maximum automation" are the demo's own follow-ups. Specific constraints survive a multi-turn conversation. "Best in class" gives the agent nothing to work with.
+- **A dated record of what you submitted.** You will need it when the agent says something you did not intend. The console feedback Jbara describes is a conversation, and conversations need a paper trail.
+Leave the reviews alone. You cannot feed them in, and trying to route around the restriction through free text is how a brand ends up with a reprimand and a version history it cannot explain.
+
+## The test for the next format
+
+Expect every platform to ship something like this within a year. Five questions separate a contract from a slogan.
+
+1. **What may I input?** If the answer is "your creative and your budget," the format is a placement, not an agent. 2. **What may I not input, and is the line stated?** A named restriction is information. Silence is not permission. 3. **Who audits what I submit?** Amazon's console feedback is thin, but it exists and it is written down. 4. **What happens when I am wrong?** A correction path, not a suspension you discover from a drop in delivery. 5. **Does a paid product sit between my trust signal and the shopper?** If yes, the platform has priced your reputation and kept the pricing.
+
+Score a new format on those five before you budget for it. The answers also tell you which side of the negotiation you are on.
+
+## What would flip the judgment
+
+Amazon's arrangement looks better because the edges are drawn. Draw them differently and the judgment flips.
+
+- If Amazon lets brands influence which reviews the agent surfaces, the trust boundary disappears and the contract becomes ordinary ad control.
+- If Branded Conversations start showing alternatives inside the chat, the single-product narrowing that makes the format valuable also makes it a comparison surface, and the economics change.
+- If disclosure research shows shoppers do not register the sponsored narrowing, the format's advantage becomes a problem the platform has to answer for.
+- If OpenAI publishes its own input restrictions, the contrast that carries this post narrows to a detail.
+None of those has happened yet. The contract is the reason to prefer the deal today, and contracts get revised.
+
 ## The value question Amazon never has to face
 
 [Sponsored Agents](/blog/openai-agent-ads-spending-without-you/) are the public version of the ad type spotted in ChatGPT Ads Manager in July, where a click opens a conversation instead of a page. Advertisers get a format that needs no landing page and captures leads inside the chat. It also moves the burden of proof onto content someone else paid to create, and OpenAI's answer to that is thinner than Amazon's.
@@ -68,18 +96,18 @@ Tools linked in this post: [Amazon Ads](https://advertising.amazon.com/) | [Chat
 
 ## Related reading
 
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Related tools
 
-- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/) - 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 - [Smartly.io](/tools/smartly-io/) - AI advertising platform spanning creative production, media buying, and measurement
+- [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/) - 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 - [Scrunch](/tools/scrunch/) - The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 ## Comparison guides
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
-- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [DSP](/glossary/dsp/)
@@ -88,4 +116,4 @@ Tools linked in this post: [Amazon Ads](https://advertising.amazon.com/) | [Chat
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
+More from the directory: [Ever Gauzy](/tools/ever-gauzy/)

@@ -5,6 +5,7 @@ date: 2026-08-26
 author: Tim Christensen
 tags: [Agent Skills, Advertising, AI Agents, Governance]
 categories: [agent-skills]
+seo_description: "Vendors, analysts, and G2 name the autonomous marketing category differently, with no shared definition. What it should mean, and four questions."
 ---
 
 Vendors say autonomous marketing platform. Analysts say agentic AI. G2 says AI marketing agents. Three names, one category, and zero independent definitions on page one of any of them. This is an attempt to fix that last part.

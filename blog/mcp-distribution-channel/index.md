@@ -1,6 +1,6 @@
 # 31% of martech tools now ship an MCP server
 
-AI Agents · Marketing Automation · 6 min read
+AI Agents · Marketing Automation · 8 min read
 
 ## 31% of the tools in our directory now ship an MCP server
 
@@ -57,6 +57,25 @@ The old lock-in question was "can I get my data out," and the industry spent twe
 
 Context does not. When Qlik describes what its server brings into Claude, the words are governed data, analytical logic, lineage, business metrics, trusted context instead of raw data alone. That is the stickiness talking. Your metric definitions, your permission scopes, the workflows your agents have been drilled on, the tool names your prompts reference: none of that exports. The renewal question stops being about data portability and becomes "how much of our agents' working knowledge lives inside your server." Vendors understand this. It is a large part of why they are racing.
 
+## The twenty-minute audit
+
+You do not need a security review to learn most of what matters. You need the tool list and five questions.
+
+1. **Ask for the tool list, not the logo.** Count the endpoints. Separate reads from writes. A vendor that cannot produce the list has told you something already. 2. **Ask whose permissions the connection inherits.** TapClicks ties each connection to a person's own login, so the server sees exactly what that person sees. A shared service account is a different product: every agent action carries the highest privilege that token holds, no matter who asked. 3. **Probe the write surface.** NocoDB's record-level limit is a feature, not a shortcoming. A server that can change schema, fields, or metadata is a server that can break your reporting layer in one bad call. 4. **Check where it sits on the price sheet.** Free on every plan points at distribution, the way Zapier, Amplitude, and Activepieces have placed theirs. Enterprise-only points at a monetized feature. Neither is wrong. The placement tells you which one the vendor thinks it is selling. 5. **Ask what leaves with you.** Export the data and you have the rows. You do not have the metric definitions, the tool names your prompts reference, or the workflows your agents were drilled on.
+
+Say a team shortlists three analytics tools with identical APIs and identical pricing. One exposes six read endpoints and two writes. One exposes forty tools, including schema changes. One exposes two reads and nothing else. The forty-tool server will demo best, because demos reward surface area. The defensible pick is the one whose write surface you can enumerate and whose permissions you can trace to a named person, even when the tool count is small. Everything else is a promise.
+
+## What would move the number the other way
+
+The census is a claim about direction, and direction is falsifiable. Here is what would weaken it.
+
+- The next monthly count stalls below 31%, or the cohort number for tools added since September falls under 25%. That would say the launches were announcements, not shipped servers.
+- The older-tool share climbs faster than the new cohort. That would recast MCP as a retrofit of established products rather than the default for anything new.
+- Vendors start metering MCP reads, or move servers behind enterprise tiers. Distribution logic would invert into monetization logic, and the free-tier tell would stop working.
+- The assistants stop caring. If Claude, ChatGPT, or Cursor de-emphasize directory listings, placement loses its value and the land grab loses its point.
+- Audits keep finding read-only servers. Agent-addressable reporting is useful, but it is not the operational shift the announcements imply.
+None of those outcomes is far-fetched. We will publish the count either way, including the months when it goes the wrong way for the thesis.
+
 ## We will keep counting
 
 The 31% figure will look small within a year, and the 46% cohort number says where the floor is heading. We plan to re-run this count monthly and publish the movement, because a census beats any single announcement. Next month's number tells us whether the older tools are retrofitting servers or whether the market splits into agent-addressable and human-only.
@@ -73,12 +92,12 @@ Every tool named here has a record in the [directory](/tools/), with MCP noted w
 ## Related tools
 
 - [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/) - 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
-- [Cordys CRM](/tools/cordys-crm/) - Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+- [Mixpanel](/tools/mixpanel/) - Product analytics platform with AI-powered insights for user behavior tracking
 - [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/) - MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Matomo vs Plausible (2026): analytics depth or simplicity](/vs/matomo-vs-plausible/)
+- [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 ## Glossary terms
 
 - [MCP](/glossary/mcp/)

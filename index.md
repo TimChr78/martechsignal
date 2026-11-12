@@ -25,14 +25,14 @@ Two stories landed a day apart last week, and the trade press filed both under p
 
 | Tool | What it is | Category | GitHub stars |
 | --- | --- | --- | --- |
-| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 210,051 |
-| [NocoBase](/tools/nocobase/) | Open-source no-code platform with AI assistance for building business systems fast | Automation | 24,892 |
-| [Warmbly](/tools/warmbly/) | Open-source cold email platform with warmup, campaigns, unified inbox, and CRM | Email | 1,015 |
-| [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) | Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web | Marketing automation | n/a |
-| [Profound](/tools/profound/) | Enterprise AI marketing platform: answer-engine visibility plus drafting agents | Geo llm visibility | n/a |
-| [Pipedrive](/tools/pipedrive/) | Sales-focused CRM with AI-powered pipeline management and deal forecasting | CRM | n/a |
-| [ChatbotX](/tools/chatbotx/) | Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation | Chatbots | 1,101 |
-| [Adobe Marketo Engage](/tools/adobe-marketo/) | Enterprise B2B marketing automation with AI-driven lead management and engagement | Marketing automation | n/a |
+| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 210,232 |
+| [LangChain](/tools/langchain/) | Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools | Automation | 149,384 |
+| [Paperclip](/tools/paperclip/) | Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit | Automation | 113,223 |
+| [Strapi](/tools/strapi/) | Open-source headless CMS with AI-powered content management and API-first design | Content AI | 73,464 |
+| [NocoDB](/tools/nocodb/) | Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet | Marketing automation | 65,507 |
+| [Twenty](/tools/twenty/) | The open-source alternative to Salesforce, designed for AI with modern CRM workflows | CRM | 60,807 |
+| [Marketing Skills (coreyhaines31)](/tools/marketingskills/) | ~50 marketing skills for Claude Code, Codex, and Cursor by Corey Haines | Agent skills | 59,813 |
+| [Ghost](/tools/ghost/) | Open-source publishing platform with built-in newsletters, memberships, and AI tools | Content AI | 55,786 |
 
 ## Comparisons and best-of lists
 

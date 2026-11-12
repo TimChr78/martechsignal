@@ -1,7 +1,7 @@
 ---
 title: "Publishers aren't arguing about agentic pricing, they're arguing about getting a bid at all"
 seo_title: "Agentic ads: bid density is the publisher problem"
-seo_description: "Agents will decide which inventory gets a bid long before anyone argues about clearing price. On thin auctions, the FTC's Amazon allegations, and what buyers and publishers can still demand."
+seo_description: "For publishers the agentic auction question is whether a bid arrives at all, not what it clears at. Bid density, thin auctions, and what buyers can demand."
 slug: agentic-auction-bid-density-publisher
 date: 2026-11-12
 author: Tim Christensen

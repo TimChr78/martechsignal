@@ -4,7 +4,7 @@
    "slug": "n8n-vs-zapier",
    "title": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
    "seo_title": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
-   "meta": "n8n from €20/mo, Zapier from $19.99/mo. n8n vs Zapier compared on pricing, self-hosting, AI features, and integrations.",
+   "meta": "n8n from €20/mo, Zapier from $19.99/mo. n8n vs Zapier compared on pricing at volume, self-hosting, AI features, integrations, and exit cost.",
    "a_slug": "n8n",
    "b_slug": "zapier",
    "intro": [
@@ -144,8 +144,8 @@
   {
    "slug": "nocodb-vs-nocobase",
    "title": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
-   "seo_title": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
-   "meta": "NocoDB from $12/seat/mo. NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, and integrations.",
+   "seo_title": "NocoDB vs NocoBase (2026): spreadsheet or system builder",
+   "meta": "NocoDB from $12/seat/mo. NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, integrations, and the cost of leaving.",
    "a_slug": "nocodb",
    "b_slug": "nocobase",
    "intro": [
@@ -766,7 +766,7 @@
   {
    "slug": "activecampaign-vs-klaviyo",
    "title": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
-   "seo_title": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
+   "seo_title": "ActiveCampaign vs Klaviyo (2026): pricing, AI, verdict",
    "meta": "ActiveCampaign from $15/mo, Klaviyo from $20/mo. ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations.",
    "a_slug": "activecampaign",
    "b_slug": "klaviyo",
@@ -1020,8 +1020,8 @@
    "b_slug": "make",
    "c_slug": "zapier",
    "title": "n8n vs Make vs Zapier (2026): the three-way automation decision",
-   "seo_title": "n8n vs Make vs Zapier (2026): the three-way automation decision",
-   "meta": "n8n from €20/mo, Make from $9/mo. n8n vs Make vs Zapier on price, self-hosting, connectors and exit cost.",
+   "seo_title": "n8n vs Make vs Zapier (2026): the automation decision",
+   "meta": "n8n from €20/mo, Make from $9/mo. n8n vs Make vs Zapier on price, self-hosting, AI agents, connectors and migration cost, and when each one wins.",
    "date_published": "2026-09-28",
    "date_updated": "2026-09-28",
    "intro": [
@@ -1115,7 +1115,7 @@
    "b_slug": "posthog",
    "title": "Matomo vs PostHog (2026): web analytics or product analytics",
    "seo_title": "Matomo vs PostHog (2026): web analytics or product analytics",
-   "meta": "Matomo from €22/mo. Matomo vs PostHog compared on price, deployment, privacy and scope.",
+   "meta": "Matomo from €22/mo. Matomo vs PostHog compared on price, deployment, data residency, reporting depth and licence, with a quick pick for each team.",
    "date_published": "2026-09-28",
    "date_updated": "2026-09-28",
    "intro": [
@@ -1309,7 +1309,7 @@
      "heading": "Who should pick which"
     }
    ],
-   "seo_title": "Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict",
+   "seo_title": "Mailchimp vs Klaviyo (2026): pricing, ecommerce, verdict",
    "slug": "mailchimp-vs-klaviyo",
    "title": "Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict",
    "direct_answer": "Pick Mailchimp if you want broad channel coverage with a free plan to 500 contacts. Pick Klaviyo if you run an ecommerce store and want predictive flows, free to 250 contacts.",

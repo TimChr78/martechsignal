@@ -1,4 +1,4 @@
-# Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict
+# Mailchimp vs Klaviyo (2026): pricing, ecommerce, verdict
 
 ## Mailchimp vs Klaviyo (2026): pricing, ecommerce depth, verdict
 

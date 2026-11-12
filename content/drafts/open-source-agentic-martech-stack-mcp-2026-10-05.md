@@ -7,6 +7,7 @@ author: Tim Christensen
 tags: [Open Source, MCP, AI Agents]
 categories: [open-source, agent-skills]
 excerpt: "Nineteen of the 81 open-source tools in our catalog ship an MCP server, enough to compose a complete agentic loop with no SaaS in the path."
+seo_description: "Nineteen of the 81 open-source tools in our directory list an MCP server. Five cover a full marketing loop, from CRM records to sends and analytics."
 ---
 
 An agent can now run a marketing loop end to end on open source. We counted this morning from the [directory](/tools/): 19 of the 81 open-source tools we track list an MCP server among their AI features. Five of them cover the whole loop. A CRM holds the records, an automation platform does the sends, analytics watches the results, a flagging tool runs the experiments, and one gateway reaches the two platforms that have no open path at all, Google Ads and Meta Ads. The software costs nothing. The bill is hosting time and supervision.
@@ -97,6 +98,18 @@ Nineteen is the headline, but the interesting number is granularity. MCP servers
 Four tools document real MCP servers without carrying the headline listing: [PostHog](/tools/posthog/), whose official hosted server [lives in its own repo](https://github.com/PostHog/mcp) and ships flag, analytics, and error-tracking tools to any MCP client; [AlphOne](/tools/alphone/), which has spoken MCP natively since version 0.9.0; [OpenSEO](/tools/openseo/), which added a server in May 2026; and [Warpdrive](/tools/warpdrive/), which exposes 29 OAuth-protected tools over its API. Count those and the total becomes 23. We keep the headline at 19 because the counting rule has to come from one field in the record, and the rule is stated before the number.
 
 Three mentions do not count at all. [Django CRM](/tools/django-crm/) shipped an MCP server and removed it, on the stated grounds that it covered eight entities and added nothing its API lacked. [Promptfoo](/tools/promptfoo/)'s MCP proxy belongs to its hosted cloud product, not the MIT-licensed repo. [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) consumes Zapier's MCP for its actions rather than shipping a server. A naive grep for "MCP" would have counted all three.
+
+## A first-week assembly order
+
+Assemble in trust order, not demo order. The layer that looks best in a walkthrough is usually the one with the most write access.
+
+1. **Register one server and read its tool list out loud.** If "read the report" and "pause the campaign" sit in the same list with no visible distinction, you have found the permission problem before any data has moved.
+2. **Wire the read side first.** Analytics, then CRM reads. An agent that can only read is a reporting tool with a chat interface. That is useful and it is safe, and it teaches you how the client behaves.
+3. **Add the experiment layer next.** A flag is reversible. A send is not. GrowthBook's exposed flag and experiment management is the right second step because a mistake there costs a data point, not a customer.
+4. **Then the hands, with a reviewer named.** Activepieces flows become callable tools, which is how a decision turns into an email. Put a person between the decision and the send until you have watched the flow succeed on its own a few times.
+5. **Last, the paid gateway, scoped narrowly.** The ads server can pause campaigns and move budgets. Point it at the accounts you can afford to pause, and widen later.
+
+Five registrations, not five migrations. Each step is reversible, and each one tells you whether the next is worth doing.
 
 ## What this stack asks of you
 

@@ -1,4 +1,4 @@
-# About
+# About MartechSignal: independent martech research
 
 ## About MartechSignal
 

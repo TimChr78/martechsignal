@@ -5,6 +5,7 @@ date: 2026-09-10
 author: Tim Christensen
 tags: [AI Search, Analytics, SEO]
 categories: [seo]
+seo_description: "GA4 has an AI Assistant channel and Search Console reports AI performance, yet neither shows the funnel stage. Map it from page signals instead."
 ---
 
 Two things landed since we published [the 5-layer fix for dashboards that can't see AI search](/blog/dashboard-cant-see-ai-search-5-layer-fix/). On May 13, Google shipped a native AI Assistant channel in GA4. On August 31, the Search Console AI performance report went global. Everyone assumed that meant the measurement problem was solved. It wasn't. Both updates tell you a visit came from AI. Neither tells you where in the funnel it came from, and that is the half you actually need.

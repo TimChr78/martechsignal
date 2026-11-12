@@ -1,4 +1,4 @@
-# IAB agentic buying rules land before ad stacks can honor them
+# IAB agentic buying rules arrive before ad stacks are ready
 
 Digital Advertising · AI Agents · 8 min read
 

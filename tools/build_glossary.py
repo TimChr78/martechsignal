@@ -155,7 +155,7 @@ def build_hub(terms, term_dates=None):
     out = out_dir / "index.html"
     out.write_text(page_shell(
         "Marketing Technology Glossary | MartechSignal",
-        f"Plain-English definitions of {len(terms)} marketing technology terms, linked to real tools in our directory.",
+        f"Plain-English definitions of {len(terms)} marketing technology terms, from ABM to UTM parameters, each linked to the real tools in our directory that use it.",
         "/glossary/", body, schema))
     print(f"  ✓ {out.relative_to(ROOT)}")
 

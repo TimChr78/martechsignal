@@ -56,7 +56,7 @@ This post is part of the hub for this topic: [ai seo tooling](/guides/ai-seo-too
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ## Related tools
 
 - [Semrush](/tools/semrush/) - All-in-one SEO and digital marketing platform with AI-powered insights and tools
@@ -74,4 +74,4 @@ This post is part of the hub for this topic: [ai seo tooling](/guides/ai-seo-too
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
+More from the directory: [OpenOutreach](/tools/openoutreach/)

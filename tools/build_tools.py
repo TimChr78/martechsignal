@@ -2671,7 +2671,11 @@ def build_category_page(cat, tools):
     # commercial layer was orphaned).
     # H7 (r9): the Compare strip is placed under the tool grid inside the template
     out.write_text(page_shell(
-        f"{cat_h1(cat['name'])} | MartechSignal",
+        # SEO audit 2026-10-30 (#12): "CRM Tools | MartechSignal" ran 25 chars;
+        # short category names get a qualifier to reach the 30-60 band.
+        (f"{cat_h1(cat['name'])} | MartechSignal"
+         if len(f"{cat_h1(cat['name'])} | MartechSignal") >= 30
+         else f"{cat_h1(cat['name'])}: reviewed and compared | MartechSignal"),
         category_meta(cat, cat_tools, hub),
         f"/categories/{cat['slug']}/", body, schema, og_image=f"og/categories/{cat['slug']}.png"))
     return out
@@ -2873,6 +2877,19 @@ def build_sitemap(tools, cats):
     # H10 (r9, 2026-09-28): dedupe on <loc> at build time. The authors hub once
     # re-listed the person URL with a conflicting lastmod; first occurrence wins
     # and drops are reported so a repeat is visible in the build log.
+    # SEO audit 2026-10-30 (#12): section hubs (/categories/, /guides/,
+    # /alternatives/, /best/, /vs/) declare no content date of their own, so
+    # they shipped without <lastmod>. A hub lists its children, so its content
+    # changes when a child does: use the newest child date.
+    _child_dates = {}
+    for _loc, _lm, _ in urls:
+        if _lm:
+            _parent = _loc.rstrip("/").rsplit("/", 1)[0] + "/"
+            if _parent != _loc and _lm > _child_dates.get(_parent, ""):
+                _child_dates[_parent] = _lm
+    urls = [(_loc, _lm or _child_dates.get(_loc) or _lm, _pr)
+            if _loc != "https://martechsignal.com/" else (_loc, _lm, _pr)
+            for _loc, _lm, _pr in urls]
     seen_locs = set()
     entries = []
     dropped = 0

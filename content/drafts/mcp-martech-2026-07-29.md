@@ -5,6 +5,7 @@ date: 2026-07-29
 author: "MartechSignal"
 tags: [mcp, model-context-protocol, integration, martech-stack, ai-agents]
 categories: [workflow-automation]
+seo_description: "Ten tools need forty-five pairwise integrations, a count that grows quadratically. MCP endpoints cut that tax by letting an agent discover tools directly."
 ---
 
 Ten marketing tools need forty-five pairwise integrations. Add an eleventh and the number jumps to fifty-five. The math is (n² − n) / 2, and marketing ops teams have been paying that tax since the category existed.
@@ -127,6 +128,26 @@ The expensive part is not the mapping. It is the identity layer underneath it. A
 Budget the parallel period in quarters, not weeks, and staff it like production work. The integration economics do get rewritten. The bill arrives during the rewrite, not after.
 
 One more line item: the documentation debt. Every tool call an agent makes becomes an interface your team did not write and now has to understand when it breaks at 2 a.m. The teams that survive this quietly keep a human-readable contract per call, what it takes, what it returns, what a failure means. The teams that do not discover the contract exists only in the model's behavior.
+
+## The counterargument worth taking seriously
+
+The strongest objection is that a registration is not an integration. Auth, permissions, pagination, rate limits, retries, idempotency, and the semantic mapping between two tools' vocabularies all still exist. MCP moves them; it does not delete them. An agent that wires Attio to Customer.io has to know that a "profile" in one is not a "contact" in the other, and nothing in the protocol resolves that for you.
+
+That objection is correct, and this post's own section on the parallel period concedes most of it. The claim worth defending is narrower: MCP cuts the marginal cost of the eleventh tool, not the total cost of being correct. The first connection still costs real work. The second through tenth get cheaper, and swapping one tool stops being a project.
+
+What changes is who does which part. The vendor ships the schema and the endpoint. Your team writes the contract for each call it depends on, and owns the identity layer that decides which record the agent is talking about. That work is not integration plumbing in the old sense. It is closer to API design, and it is the part the pricing tables never show.
+
+The failure mode shifts too. A broken webhook fails loudly, or it fails silently and you find it in a missing send. A confident agent calling the wrong tool with the wrong identifier fails quietly and at scale, and it looks like a business result rather than an error. That is why the identity layer is the expensive line, and why the savings are real but smaller than the headline math suggests.
+
+## What would weaken the case
+
+Three developments would weaken the case.
+
+- Incumbents ship full read and write MCP surfaces with fine-grained scopes and hold their suite pricing. Then the integration moat survives, and the premium buys something the open path cannot match.
+- MCP servers fragment into vendor-specific auth and schema extensions, so each registration needs bespoke work. Registration cost would drift back toward connector cost.
+- Public postmortems from MCP-native stacks show operational burden at or above the suite they replaced. The economics would be a slide, not a switch.
+
+None of those is the current direction. All of them are checkable within a year, which is the right horizon for a claim about integration economics.
 
 ## What This Means for Your Stack
 

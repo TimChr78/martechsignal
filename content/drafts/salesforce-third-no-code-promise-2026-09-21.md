@@ -62,6 +62,21 @@ What I would actually do with these two products, in order:
 3. Write your suppression and frequency policy down before an agent enforces one on your behalf. "In the customer's favor" is a nice phrase for a default. Your compliance team will want the rule, not the vibe.
 4. Ask for Flex credit pricing on decisioning in writing, and log credit burn against hours saved from day one.
 
+## What would break the pattern
+
+This audit assumes the pattern repeats. Four developments would weaken that assumption.
+
+- Builder Central reaches general availability with production deployment and a governance library a compliance team can adopt instead of write. The rule-maintenance gap would close, not just move.
+- Campaign Agent's arbitration extends beyond Marketing Cloud Next, to paid media and to sends from other tools. The suppression trick would become a real frequency governor rather than an in-platform one.
+- Salesforce publishes per-decision Flex pricing, so a daily decisioning loop can be costed before anyone joins a pilot.
+- Language and channel coverage expand at launch, rather than in a later release, so the product fits operations outside the demo's defaults.
+
+Two of those landing before your renewal would make the "third promise" framing unfair, and the products would deserve the keynote's confidence.
+
+One thing would not change the verdict: better generation. Faster builds, cleaner copy, more templates, a nicer conversational surface. All of it compresses the middle of the work, and the middle was never the constraint. The ends are still a permission model nobody has audited and a decision about what deserves a campaign. No amount of build speed touches either.
+
+Set a stop condition before the pilot starts. If decisioning credits for one live campaign exceed the hours it replaced within the first month, you have your answer about the arithmetic, and no amount of feature detail changes it.
+
 ::: verdict warn
 **Verdict:** Builder Central and Campaign Agent automate the build and the send, which is real progress and also exactly what the previous two generations promised. Neither automates governance, data hygiene, or the decision of what deserves a campaign in the first place. The tools keep getting better at answering "how." The "whether" still needs a human with an admin login.
 :::

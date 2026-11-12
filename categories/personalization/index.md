@@ -5,7 +5,7 @@
 - Personalization & CDP
 ## Personalization & CDP Tools
 
-Ecommerce personalization, customer data platforms, and flags and testing. 11 tools reviewed.
+Ecommerce personalization, customer data platforms, and feature flags and testing tools. 11 tools reviewed with verified pricing and AI features.
 
 11 tools in this category
 

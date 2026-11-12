@@ -106,7 +106,7 @@ Strengths include 43 GitHub stars, MIT licensing with free self-hosting. SEO Ski
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
+- [Your agent is a delegate, not a user](/blog/agent-delegate-not-user/)
 ### Quick Facts
 
 - **Pricing:** Open Source

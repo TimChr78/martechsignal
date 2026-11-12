@@ -7,6 +7,7 @@ author: Tim Christensen
 tags: [CDP, CRM, Analytics, Data Stack]
 categories: [crm, analytics]
 commercial_exclude: [ai-email-marketing-tools]
+seo_description: "A CDP premium buys compute and identity resolution, and both now run on the warehouse you already own. The math to run before another annual contract."
 ---
 The customer data platform had a good run as a category. The pitch was simple: your customer data is scattered across dozens of systems, so buy a platform that ingests all of it, resolves it into one profile per person, and pushes audiences back out to every tool you run. The premise was real. The buying decision built on it is what needs a second look, because the two jobs that justify a CDP's premium, identity resolution and audience building, now run on infrastructure a lot of companies already own and already pay for.
 

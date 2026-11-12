@@ -124,7 +124,7 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Where the manual work still hides in your marketing automation](/blog/where-manual-work-hides-marketing-automation/)
+- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 ### Quick Facts
 
 - **Pricing:** Open Source

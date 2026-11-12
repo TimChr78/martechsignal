@@ -99,7 +99,7 @@ def build_categories(cats, tools):
         ],
     }
     return page_shell(
-        "Categories | MartechSignal",
+        "Martech tool categories, compared | MartechSignal",
         f"Browse all {_n_real} categories plus the open-source index across {total} marketing-automation tools: licences, stars and plain-English summaries.",
         "/categories/",
         body, schema_json=schema, og_image="og.png",

@@ -6,6 +6,7 @@ date: 2026-08-17
 author: Tim Christensen
 tags: [AI, Advertising, Google, Agents, Measurement]
 categories: [advertising]
+seo_description: "Google shipped agentic controls for Ask Advisor while guides taught ChatGPT ads. The gap is control over budget, targeting, and stopping rules."
 ---
 
 The week of August 10 was a strange one for paid media. On Monday, Google announced new agentic capabilities for Ask Advisor, its AI assistant inside Google Ads and Analytics, and pitched them as help for marketers who want to "make decisions without leaving the platform." The same day, Search Engine Land published a step-by-step guide to running ChatGPT ads. The next day MarTech published a seven-step guide to the same platform, written by the same practitioner. Two how-tos in 48 hours for an ad product that opened self-serve buying in May.
