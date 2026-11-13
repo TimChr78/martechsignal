@@ -48,10 +48,10 @@ Full definitions in the [martech glossary](/glossary/).
 
 Star counts we snapshot ourselves every morning - check any of them against GitHub in one click.
 
-- Warmbly - 1,023 stars, +705 in the 47-snapshot window to 2026-11-12 318→1,023 [verify on GitHub](https://github.com/warmbly/warmbly)
-- Notifuse - 2,278 stars, +202 in the 78-snapshot window to 2026-11-12 2,076→2,278 [verify on GitHub](https://github.com/Notifuse/notifuse)
-- OpenOutreach - 3,657 stars, +839 in the 78-snapshot window to 2026-11-12 2,818→3,657 [verify on GitHub](https://github.com/eracle/OpenOutreach)
-- React Email Editor - 5,257 stars, +50 in the 78-snapshot window to 2026-11-12 5,207→5,257 [verify on GitHub](https://github.com/unlayer/react-email-editor)
+- Warmbly - 1,029 stars, +711 in the 48-snapshot window to 2026-11-13 318→1,029 [verify on GitHub](https://github.com/warmbly/warmbly)
+- Notifuse - 2,278 stars, +202 in the 79-snapshot window to 2026-11-13 2,076→2,278 [verify on GitHub](https://github.com/Notifuse/notifuse)
+- OpenOutreach - 3,678 stars, +860 in the 79-snapshot window to 2026-11-13 2,818→3,678 [verify on GitHub](https://github.com/eracle/OpenOutreach)
+- React Email Editor - 5,257 stars, +50 in the 79-snapshot window to 2026-11-13 5,207→5,257 [verify on GitHub](https://github.com/unlayer/react-email-editor)
 [All movers on the trending page](/trending/).
 
 ## [Mailchimp](/tools/mailchimp/)

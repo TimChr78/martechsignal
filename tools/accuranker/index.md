@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - AccuRanker
-Re-check pending: pricing last verified 2026-09-25 (48 days ago).
+Re-check pending: pricing last verified 2026-09-25 (49 days ago).
 
 Review · GEO & LLM Optimization
 

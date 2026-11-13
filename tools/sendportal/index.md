@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - SendPortal
-Re-check pending: pricing last verified 2026-10-15 (28 days ago).
+Re-check pending: pricing last verified 2026-10-15 (29 days ago).
 
 Review · Email Marketing
 
@@ -18,7 +18,7 @@ Not yet scored
 
 - **Price:** Open Source
 - **Licence:** MIT
-- **GitHub stars:** 2,190
+- **GitHub stars:** 2,191
 
 [How we review](/methodology/) · No affiliate links
 
@@ -33,7 +33,7 @@ Not yet scored against the rubric, so no verdict here. This is everything the ca
 - **Licence:** MIT
 - **Public API:** yes
 - **Catalogued integrations:** 9
-- **GitHub stars:** 2,190
+- **GitHub stars:** 2,191
 - **Last release:** v4.0.0 (2026-10-12)
 
 The full rubric is on the [methodology page](/methodology/).
@@ -100,7 +100,7 @@ A clean, MIT-licensed self-hosted newsletter sender for PHP shops, freshly updat
 | Pros | Cons |
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
-| ✓ Active public repository (2,190 GitHub stars counted at last check) |  |
+| ✓ Active public repository (2,191 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Amazon SES, Mailgun, SendGrid (9 listed) |  |
 
 ## Related concepts
@@ -116,10 +116,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is SendPortal?**
-SendPortal: Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server. The public repository carries 2,190 stars. SendPortal offers a public API for custom integrations.
+SendPortal: Self-hosted open-source email marketing: newsletters, segments, and tracking on your own server. The public repository carries 2,191 stars. SendPortal offers a public API for custom integrations.
 
 **How much does SendPortal cost?**
-SendPortal is open source - MIT licensed and free to self-host; the public repository carries 2,190 stars; native integrations cover Amazon SES, Mailgun, SendGrid. You pay in server time and maintenance, not licences.
+SendPortal is open source - MIT licensed and free to self-host; the public repository carries 2,191 stars; native integrations cover Amazon SES, Mailgun, SendGrid. You pay in server time and maintenance, not licences.
 
 **Is SendPortal a good self-hosted Email Marketing tool in 2026?**
 A clean, MIT-licensed self-hosted newsletter sender for PHP shops, freshly updated to Laravel 13 after a long quiet period. No AI and no automation, so the subscription money you save is paid back in features you do not get.
@@ -146,17 +146,17 @@ The most recent release in our catalog is v4.0.0 (2026-10-12). For the full hist
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 2190
+- **GitHub:** ★ 2191
 - **Founded:** 2020
 - **HQ:** London, UK
 - **API:** Yes
-- **Repository checked:** 2026-11-11
+- **Repository checked:** 2026-11-13
 - **Page updated:** 2026-10-15
 
 ## Get the next teardown

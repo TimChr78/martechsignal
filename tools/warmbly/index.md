@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Warmbly
-Re-check pending: pricing last verified 2026-09-24 (49 days ago).
+Re-check pending: pricing last verified 2026-09-24 (50 days ago).
 
 Review · Email Marketing
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $29/mo
 - **Licence:** Apache-2.0
-- **GitHub stars:** 1,023
+- **GitHub stars:** 1,029
 
 [How we review](/methodology/) · No affiliate links
 
@@ -97,7 +97,7 @@ The most complete open-source cold email stack we have listed, but young (launch
 | --- | --- |
 | ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $29/mo |
 | ✓ AI capabilities: AI agent steps in campaign sequences that branch on classified reply intent |  |
-| ✓ Active public repository (1,023 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,029 GitHub stars counted at last check) |  |
 | ✓ Native integrations include HubSpot, Slack, Zapier (8 listed) |  |
 
 ## Related concepts
@@ -113,7 +113,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Warmbly?**
-Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 1,023 stars.
+Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 1,029 stars.
 
 **How much does Warmbly cost?**
 Warmbly has a free tier; paid plans start at $29/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers.
@@ -131,8 +131,8 @@ The most complete open-source cold email stack we have listed, but young (launch
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Braze moved AI from content to campaign operations: who approves when the campaign runs itself](/blog/braze-ai-campaign-operations/)
-- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Your team is rewarding AI theater: why 'look, it's working' is beating the metric that matters](/blog/ai-theater-wrong-kpi/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier.
@@ -140,11 +140,11 @@ The most complete open-source cold email stack we have listed, but young (launch
 
 - **Pricing:** Open Source from $29/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 1023
+- **GitHub:** ★ 1029
 - **Founded:** 2026
 - **HQ:** London, UK
 - **API:** Yes
-- **Repository checked:** 2026-11-12
+- **Repository checked:** 2026-11-13
 - **Page updated:** 2026-09-24
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

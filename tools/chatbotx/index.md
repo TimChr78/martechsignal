@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - ChatbotX
-Re-check pending: pricing last verified 2026-08-28 (76 days ago).
+Re-check pending: pricing last verified 2026-08-28 (77 days ago).
 
 Review · Chatbots & Conversational AI
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source
 - **Licence:** Open source
-- **GitHub stars:** 1,106
+- **GitHub stars:** 1,112
 
 [How we review](/methodology/) · No affiliate links
 
@@ -73,7 +73,7 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 | ✓ Open-source licensing with free self-hosting | ✗ No hands-on test - this assessment is based on vendor documentation and the public repository |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: agentic AI chat marketing |  |
-| ✓ Active public repository (1,106 GitHub stars counted at last check) |  |
+| ✓ Active public repository (1,112 GitHub stars counted at last check) |  |
 
 ## Related concepts
 
@@ -88,10 +88,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is ChatbotX?**
-ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 1,106 stars.
+ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 1,112 stars.
 
 **How much does ChatbotX cost?**
-ChatbotX is open source - Free to self-host; the public repository carries 1,106 stars. You pay in server time and maintenance, not licences.
+ChatbotX is open source - Free to self-host; the public repository carries 1,112 stars. You pay in server time and maintenance, not licences.
 
 **Is ChatbotX a good self-hosted Chatbots & Conversational AI tool in 2026?**
 Right for technical teams that want ManyChat-style automation without lock-in. Everyone else should stay hosted.
@@ -114,9 +114,9 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 
 - **Pricing:** Open Source
 - **Category:** [Chatbots & Conversational AI](/categories/chatbots/)
-- **GitHub:** ★ 1106
+- **GitHub:** ★ 1112
 - **API:** Yes
-- **Repository checked:** 2026-11-12
+- **Repository checked:** 2026-11-13
 - **Page updated:** 2026-08-28
 
 ### Pricing

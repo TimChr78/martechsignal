@@ -221,6 +221,7 @@
 
 ## Analysis
 
+- [MCP, API or CLI: what your stack should expose to agents](https://martechsignal.com/blog/mcp-api-or-cli-agent-surface/) (2026-11-13)
 - [Agentic ads: bid density is the publisher problem](https://martechsignal.com/blog/agentic-auction-bid-density-publisher/) (2026-11-12)
 - [Your agent is a delegate, not a user](https://martechsignal.com/blog/agent-delegate-not-user/) (2026-11-11)
 - [Your Agent's Price Quote Is a Stale Snapshot](https://martechsignal.com/blog/agent-price-quotes-are-stale-snapshots/) (2026-11-06)
@@ -446,6 +447,6 @@
 ## Machine-readable data
 
 - [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 176 records = 174 active + 2 non-active; the directory above lists only active tools
-- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 344 entries with representativeQueries (specVersion 1.0)
+- [Agent Resource Discovery catalog](https://martechsignal.com/.well-known/ard.json) - 345 entries with representativeQueries (specVersion 1.0)
 - [catalog-categories.json](https://martechsignal.com/catalog-categories.json) - category taxonomy backing the directory above
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

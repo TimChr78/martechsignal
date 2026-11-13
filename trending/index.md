@@ -2,9 +2,9 @@
 
 ## Open-source martech momentum
 
-Every morning we snapshot the GitHub stars of all 88 open-source tools in our 174-tool catalog (all of them list a public GitHub repository). 88 have enough history to chart here; a repository needs 5 daily snapshots before it appears, which is why the charted set can be smaller. Inclusion rule, stated once: the catalog's open-source flag plus a GitHub repo URL. This page shows what moved in the window Aug 25 to Nov 12, 2026, tracked since Aug 25, 2026.
+Every morning we snapshot the GitHub stars of all 88 open-source tools in our 174-tool catalog (all of them list a public GitHub repository). 88 have enough history to chart here; a repository needs 5 daily snapshots before it appears, which is why the charted set can be smaller. Inclusion rule, stated once: the catalog's open-source flag plus a GitHub repo URL. This page shows what moved in the window Aug 25 to Nov 13, 2026, tracked since Aug 25, 2026.
 
-88 repos · 78 daily snapshots · window 2026-08-25 to 2026-11-12
+88 repos · 79 daily snapshots · window 2026-08-25 to 2026-11-13
 
 Stars are a weak signal on their own. A repo can sit near the top of GitHub trending for a week on one HN post, and a 500-star project gaining 50 stars is a different story than a 40,000-star project gaining the same 50. The percentages below favor small bases for exactly that reason, so read the absolute deltas next to them. No projections here: just what the snapshots recorded, over the stated window, and nothing else.
 
@@ -13,26 +13,26 @@ Stars are a weak signal on their own. A repo can sit near the top of GitHub tren
 
 | Tool | Stars now | Delta | Growth | Window |
 | --- | --- | --- | --- | --- |
-| [Warpdrive](/tools/warpdrive/) · [repo](https://github.com/sneg55/warpdrive) | 931 | +858 | 1175.34% | Aug 25 to Nov 12, 2026 |
-| [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/) · [repo](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp) | 7,436 | +6368 | 596.25% | Aug 25 to Nov 12, 2026 |
-| [Warmbly](/tools/warmbly/) · [repo](https://github.com/warmbly/warmbly) | 1,023 | +705 | 221.70% | Aug 25 to Nov 12, 2026 |
-| [DeskcommCRM](/tools/deskcommcrm/) · [repo](https://github.com/melgarafael/DeskcommCRM) | 5,369 | +2834 | 111.79% | Aug 25 to Nov 12, 2026 |
-| [Instagram Skills](/tools/instagram-skills/) · [repo](https://github.com/sergebulaev/instagram-skills) | 816 | +430 | 111.40% | Aug 25 to Nov 12, 2026 |
-| [Ever Gauzy](/tools/ever-gauzy/) · [repo](https://github.com/ever-co/ever-gauzy) | 8,786 | +4438 | 102.07% | Aug 25 to Nov 12, 2026 |
-| [Claude SEO](/tools/claude-seo/) · [repo](https://github.com/AgriciDaniel/claude-seo) | 28,319 | +13223 | 87.59% | Aug 25 to Nov 12, 2026 |
-| [ChatbotX](/tools/chatbotx/) · [repo](https://github.com/ChatbotXIO/ChatbotX) | 1,106 | +441 | 66.32% | Aug 25 to Nov 12, 2026 |
-| [Macro](/tools/macro/) · [repo](https://github.com/macro-inc/macro) | 6,265 | +2227 | 55.15% | Aug 25 to Nov 12, 2026 |
-| [OpenSEO](/tools/openseo/) · [repo](https://github.com/every-app/open-seo) | 27,392 | +9653 | 54.42% | Aug 25 to Nov 12, 2026 |
+| [Warpdrive](/tools/warpdrive/) · [repo](https://github.com/sneg55/warpdrive) | 931 | +858 | 1175.34% | Aug 25 to Nov 13, 2026 |
+| [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/) · [repo](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp) | 7,511 | +6443 | 603.28% | Aug 25 to Nov 13, 2026 |
+| [Warmbly](/tools/warmbly/) · [repo](https://github.com/warmbly/warmbly) | 1,029 | +711 | 223.58% | Aug 25 to Nov 13, 2026 |
+| [Instagram Skills](/tools/instagram-skills/) · [repo](https://github.com/sergebulaev/instagram-skills) | 824 | +438 | 113.47% | Aug 25 to Nov 13, 2026 |
+| [DeskcommCRM](/tools/deskcommcrm/) · [repo](https://github.com/melgarafael/DeskcommCRM) | 5,396 | +2861 | 112.86% | Aug 25 to Nov 13, 2026 |
+| [Ever Gauzy](/tools/ever-gauzy/) · [repo](https://github.com/ever-co/ever-gauzy) | 8,800 | +4452 | 102.39% | Aug 25 to Nov 13, 2026 |
+| [Claude SEO](/tools/claude-seo/) · [repo](https://github.com/AgriciDaniel/claude-seo) | 28,743 | +13647 | 90.40% | Aug 25 to Nov 13, 2026 |
+| [ChatbotX](/tools/chatbotx/) · [repo](https://github.com/ChatbotXIO/ChatbotX) | 1,112 | +447 | 67.22% | Aug 25 to Nov 13, 2026 |
+| [Macro](/tools/macro/) · [repo](https://github.com/macro-inc/macro) | 6,288 | +2250 | 55.72% | Aug 25 to Nov 13, 2026 |
+| [OpenSEO](/tools/openseo/) · [repo](https://github.com/every-app/open-seo) | 27,518 | +9779 | 55.13% | Aug 25 to Nov 13, 2026 |
 
-Percentage growth over the full window (2026-08-25 to 2026-11-12). Every repo on this page has 78 daily snapshots, so no number here comes from a partial window.
+Percentage growth over the full window (2026-08-25 to 2026-11-13). Every repo on this page has 79 daily snapshots, so no number here comes from a partial window.
 
-The same dataset is downloadable as one row per tool: [trending.csv](/trending.csv) (88 tools, 2026-08-25 to 2026-11-12).
+The same dataset is downloadable as one row per tool: [trending.csv](/trending.csv) (88 tools, 2026-08-25 to 2026-11-13).
 
 ## Category leaderboards
 
-The same 78 snapshots, grouped by directory category and ordered by percentage growth inside each group. Tool names link to their directory pages.
+The same 79 snapshots, grouped by directory category and ordered by percentage growth inside each group. Tool names link to their directory pages.
 
-73→931++858 [DeskcommCRM](/tools/deskcommcrm/)2,535→5,369++2834 [Ever Gauzy](/tools/ever-gauzy/)4,348→8,786++4438 [Macro](/tools/macro/)4,038→6,265++2227 [WaCRM](/tools/wacrm/)2,054→2,719++665 [Relaticle](/tools/relaticle/)1,528→1,833++305 [Frappe CRM](/tools/frappe-crm/)3,390→3,956++566 [ProspectOS](/tools/prospectos/)208→241++33 [AlphOne](/tools/alphone/)175→201++26 [Twenty](/tools/twenty/)55,525→60,807++5282 [EspoCRM](/tools/espocrm/)3,291→3,590++299 [Cordys CRM](/tools/cordys-crm/)2,654→2,850++196 [Dolibarr ERP/CRM](/tools/dolibarr/)7,536→7,853++317 [Django CRM](/tools/django-crm/)2,394→2,468++74 [SuiteCRM](/tools/suitecrm/)5,690→5,859++169 [IDURAR ERP & CRM](/tools/idurar-erp-crm/)8,719→8,951++232 [Monica](/tools/monica/)25,105→25,764++659 [Krayin CRM](/tools/krayin-crm/)23,711→24,140++429 Agent Skills*20*[Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/)1,068→7,436++6368 [Instagram Skills](/tools/instagram-skills/)386→816++430 [Claude SEO](/tools/claude-seo/)15,096→28,319++13223 [Email Marketing Bible](/tools/email-marketing-bible/)279→371++92 [Claude Ads](/tools/claude-ads/)8,473→10,967++2494 [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/)328→418++90 [Digital Marketing Pro](/tools/digital-marketing-pro/)768→946++178 [Aaron Marketing Skills](/tools/aaron-marketing-skills/)2,641→3,133++492 [AI Business Skills](/tools/ai-business-skills/)554→655++101 [Marketing Studio](/tools/marketing-studio/)220→255++35 [Open Mercato](/tools/open-mercato/)1,681→1,928++247 [AI Marketing Suite](/tools/ai-marketing-claude/)2,544→2,897++353 [Marketing Skills (coreyhaines31)](/tools/marketingskills/)53,797→59,813++6016 [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/)332→361++29 [Analytics Tracking Automation](/tools/analytics-tracking-automation/)135→145++10 [Growth Lab](/tools/growth-lab/)1,840→1,972++132 [Eve Marketing Team Template](/tools/eve-marketing-team/)430→455++25 [Diffmode Growth Tactics](/tools/diffmode-growth-tactics/)160→166++6 [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/)1,039→1,056++17 [SEO Skill Bench](/tools/seo-skill-bench/)51→43-8 Email Marketing*11*[Warmbly](/tools/warmbly/)318→1,023++705 [MailCheap](/tools/mailcheap/)1,257→1,678++421 [OpenOutreach](/tools/openoutreach/)2,818→3,657++839 [Notifuse](/tools/notifuse/)2,076→2,278++202 [BillionMail](/tools/billionmail/)15,450→16,233++783 [Listmonk](/tools/listmonk/)23,121→24,258++1137 [React Email Editor](/tools/react-email-editor/)5,207→5,257++50 [SendPortal](/tools/sendportal/)2,172→2,190++18 [Notifo](/tools/notifo/)878→885++7 [Maizzle](/tools/maizzle/)2,853→2,860++7 [Mosaico](/tools/mosaico/)1,782→1,783++1 Chatbots & Conversational AI*2*[ChatbotX](/tools/chatbotx/)665→1,106++441 [Chatwoot](/tools/chatwoot/)36,209→39,689++3480 SEO & Search*3*[OpenSEO](/tools/openseo/)17,739→27,392++9653 [Seonaut](/tools/seonaut/)771→868++97 [Potato](/tools/potato-ai-visibility/)167→164-3 Workflow Automation*9*[Paperclip](/tools/paperclip/)79,356→113,223++33867 [n8n Marketing Flows](/tools/n8n-marketing-flows/)174→184++10 [NocoBase](/tools/nocobase/)23,839→24,898++1059 [n8n](/tools/n8n/)202,403→210,232++7829 [LangChain](/tools/langchain/)144,973→149,384++4411 [Activepieces](/tools/activepieces/)24,743→25,485++742 [Appsmith](/tools/appsmith/)40,821→41,233++412 [ToolJet](/tools/tooljet/)40,848→41,222++374 [Budibase](/tools/budibase/)28,256→28,404++148 Social Media*2*[MultiPost](/tools/multipost-extension/)3,094→3,907++813 [PostBot](/tools/postbot/)1,602→1,658++56 Personalization & CDP*5*[Flagsmith](/tools/flagsmith/)6,572→7,117++545 [GrowthBook](/tools/growthbook/)8,432→8,585++153 [Apache Unomi](/tools/apache-unomi/)375→381++6 [Jitsu](/tools/jitsu/)5,091→5,134++43 [RudderStack](/tools/rudderstack/)4,494→4,516++22 Marketing Automation*5*[Line Harness](/tools/line-harness/)571→616++45 [ALwrity](/tools/alwrity/)1,134→1,218++84 [Mautic](/tools/mautic/)10,386→10,972++586 [NocoDB](/tools/nocodb/)64,853→65,507++654 [Laudspeaker](/tools/laudspeaker/)2,618→2,635++17 GEO & LLM Optimization*1*[Promptfoo](/tools/promptfoo/)25,460→27,076++1616 Analytics & Attribution*5*[Umami](/tools/umami/)38,360→40,077++1717 [Plausible Analytics](/tools/plausible/)28,748→29,827++1079 [PostHog](/tools/posthog/)39,940→40,749++809 [Matomo](/tools/matomo/)21,805→22,026++221 [Snowplow](/tools/snowplow/)7,028→7,050++22 AI Content & Copywriting*5*[LibreTranslate](/tools/libretranslate/)16,838→17,493++655 [Khoj](/tools/khoj/)37,503→38,113++610 [Ghost](/tools/ghost/)55,057→55,786++729 [LanguageTool](/tools/languagetool/)15,089→15,251++162 [Strapi](/tools/strapi/)73,014→73,464++450 Advertising & Paid Media*2*[advertools](/tools/advertools/)1,464→1,505++41 [Revive Adserver](/tools/revive-adserver/)1,506→1,520++14 Method A scheduled script calls the GitHub API once per day for every open-source tool in the directory and stores stars, forks, open issues, and last-push date. This page is generated from those snapshots. The window is 2026-08-25 through 2026-11-12 (78 snapshots); tracking started Aug 25, 2026, so the page gets more accurate as the history grows. Nothing is annualized, extrapolated, or normalized. Stars measure attention, not usage or quality.
+73→931++858 [DeskcommCRM](/tools/deskcommcrm/)2,535→5,396++2861 [Ever Gauzy](/tools/ever-gauzy/)4,348→8,800++4452 [Macro](/tools/macro/)4,038→6,288++2250 [WaCRM](/tools/wacrm/)2,054→2,724++670 [Relaticle](/tools/relaticle/)1,528→1,838++310 [Frappe CRM](/tools/frappe-crm/)3,390→3,967++577 [AlphOne](/tools/alphone/)175→203++28 [ProspectOS](/tools/prospectos/)208→241++33 [Twenty](/tools/twenty/)55,525→60,861++5336 [EspoCRM](/tools/espocrm/)3,291→3,600++309 [Cordys CRM](/tools/cordys-crm/)2,654→2,852++198 [Dolibarr ERP/CRM](/tools/dolibarr/)7,536→7,864++328 [Django CRM](/tools/django-crm/)2,394→2,469++75 [SuiteCRM](/tools/suitecrm/)5,690→5,862++172 [IDURAR ERP & CRM](/tools/idurar-erp-crm/)8,719→8,952++233 [Monica](/tools/monica/)25,105→25,766++661 [Krayin CRM](/tools/krayin-crm/)23,711→24,148++437 Agent Skills*20*[Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/)1,068→7,511++6443 [Instagram Skills](/tools/instagram-skills/)386→824++438 [Claude SEO](/tools/claude-seo/)15,096→28,743++13647 [Email Marketing Bible](/tools/email-marketing-bible/)279→373++94 [Claude Ads](/tools/claude-ads/)8,473→10,994++2521 [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/)328→421++93 [Digital Marketing Pro](/tools/digital-marketing-pro/)768→951++183 [AI Business Skills](/tools/ai-business-skills/)554→669++115 [Aaron Marketing Skills](/tools/aaron-marketing-skills/)2,641→3,139++498 [Marketing Studio](/tools/marketing-studio/)220→255++35 [Open Mercato](/tools/open-mercato/)1,681→1,929++248 [AI Marketing Suite](/tools/ai-marketing-claude/)2,544→2,900++356 [Marketing Skills (coreyhaines31)](/tools/marketingskills/)53,797→59,998++6201 [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/)332→362++30 [Analytics Tracking Automation](/tools/analytics-tracking-automation/)135→145++10 [Growth Lab](/tools/growth-lab/)1,840→1,972++132 [Eve Marketing Team Template](/tools/eve-marketing-team/)430→455++25 [Diffmode Growth Tactics](/tools/diffmode-growth-tactics/)160→166++6 [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/)1,039→1,057++18 [SEO Skill Bench](/tools/seo-skill-bench/)51→43-8 Email Marketing*11*[Warmbly](/tools/warmbly/)318→1,029++711 [MailCheap](/tools/mailcheap/)1,257→1,683++426 [OpenOutreach](/tools/openoutreach/)2,818→3,678++860 [Notifuse](/tools/notifuse/)2,076→2,278++202 [BillionMail](/tools/billionmail/)15,450→16,274++824 [Listmonk](/tools/listmonk/)23,121→24,279++1158 [React Email Editor](/tools/react-email-editor/)5,207→5,257++50 [SendPortal](/tools/sendportal/)2,172→2,191++19 [Notifo](/tools/notifo/)878→885++7 [Maizzle](/tools/maizzle/)2,853→2,860++7 [Mosaico](/tools/mosaico/)1,782→1,783++1 Chatbots & Conversational AI*2*[ChatbotX](/tools/chatbotx/)665→1,112++447 [Chatwoot](/tools/chatwoot/)36,209→39,752++3543 SEO & Search*3*[OpenSEO](/tools/openseo/)17,739→27,518++9779 [Seonaut](/tools/seonaut/)771→870++99 [Potato](/tools/potato-ai-visibility/)167→164-3 Workflow Automation*9*[Paperclip](/tools/paperclip/)79,356→113,451++34095 [n8n Marketing Flows](/tools/n8n-marketing-flows/)174→184++10 [NocoBase](/tools/nocobase/)23,839→24,908++1069 [n8n](/tools/n8n/)202,403→210,344++7941 [Activepieces](/tools/activepieces/)24,743→25,506++763 [LangChain](/tools/langchain/)144,973→149,424++4451 [Appsmith](/tools/appsmith/)40,821→41,249++428 [ToolJet](/tools/tooljet/)40,848→41,227++379 [Budibase](/tools/budibase/)28,256→28,412++156 Social Media*2*[MultiPost](/tools/multipost-extension/)3,094→3,913++819 [PostBot](/tools/postbot/)1,602→1,660++58 Personalization & CDP*5*[Flagsmith](/tools/flagsmith/)6,572→7,171++599 [Apache Unomi](/tools/apache-unomi/)375→382++7 [GrowthBook](/tools/growthbook/)8,432→8,588++156 [Jitsu](/tools/jitsu/)5,091→5,135++44 [RudderStack](/tools/rudderstack/)4,494→4,517++23 Marketing Automation*5*[Line Harness](/tools/line-harness/)571→617++46 [ALwrity](/tools/alwrity/)1,134→1,219++85 [Mautic](/tools/mautic/)10,386→10,978++592 [NocoDB](/tools/nocodb/)64,853→65,518++665 [Laudspeaker](/tools/laudspeaker/)2,618→2,635++17 GEO & LLM Optimization*1*[Promptfoo](/tools/promptfoo/)25,460→27,117++1657 Analytics & Attribution*5*[Umami](/tools/umami/)38,360→40,105++1745 [Plausible Analytics](/tools/plausible/)28,748→29,833++1085 [PostHog](/tools/posthog/)39,940→40,767++827 [Matomo](/tools/matomo/)21,805→22,027++222 [Snowplow](/tools/snowplow/)7,028→7,051++23 AI Content & Copywriting*5*[LibreTranslate](/tools/libretranslate/)16,838→17,509++671 [Khoj](/tools/khoj/)37,503→38,121++618 [Ghost](/tools/ghost/)55,057→55,801++744 [LanguageTool](/tools/languagetool/)15,089→15,253++164 [Strapi](/tools/strapi/)73,014→73,471++457 Advertising & Paid Media*2*[advertools](/tools/advertools/)1,464→1,505++41 [Revive Adserver](/tools/revive-adserver/)1,506→1,520++14 Method A scheduled script calls the GitHub API once per day for every open-source tool in the directory and stores stars, forks, open issues, and last-push date. This page is generated from those snapshots. The window is 2026-08-25 through 2026-11-13 (79 snapshots); tracking started Aug 25, 2026, so the page gets more accurate as the history grows. Nothing is annualized, extrapolated, or normalized. Stars measure attention, not usage or quality.
 
 ## This is the Open-Source Martech hub
 
@@ -67,9 +67,9 @@ CRM*18*
 
 [Frappe CRM](/tools/frappe-crm/)
 
-[ProspectOS](/tools/prospectos/)
-
 [AlphOne](/tools/alphone/)
+
+[ProspectOS](/tools/prospectos/)
 
 [Twenty](/tools/twenty/)
 
@@ -105,9 +105,9 @@ Agent Skills*20*
 
 [Digital Marketing Pro](/tools/digital-marketing-pro/)
 
-[Aaron Marketing Skills](/tools/aaron-marketing-skills/)
-
 [AI Business Skills](/tools/ai-business-skills/)
+
+[Aaron Marketing Skills](/tools/aaron-marketing-skills/)
 
 [Marketing Studio](/tools/marketing-studio/)
 
@@ -179,9 +179,9 @@ Workflow Automation*9*
 
 [n8n](/tools/n8n/)
 
-[LangChain](/tools/langchain/)
-
 [Activepieces](/tools/activepieces/)
+
+[LangChain](/tools/langchain/)
 
 [Appsmith](/tools/appsmith/)
 
@@ -199,9 +199,9 @@ Personalization & CDP*5*
 
 [Flagsmith](/tools/flagsmith/)
 
-[GrowthBook](/tools/growthbook/)
-
 [Apache Unomi](/tools/apache-unomi/)
+
+[GrowthBook](/tools/growthbook/)
 
 [Jitsu](/tools/jitsu/)
 

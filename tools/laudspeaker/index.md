@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Laudspeaker
-Re-check pending: pricing last verified 2026-08-28 (76 days ago).
+Re-check pending: pricing last verified 2026-08-28 (77 days ago).
 
 Review · Marketing Automation
 

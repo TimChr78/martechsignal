@@ -2820,6 +2820,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:mcp-api-or-cli-agent-surface",
+   "displayName": "MCP, API or CLI: what your stack should expose to agents",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/mcp-api-or-cli-agent-surface/",
+   "description": "Analysis from the MartechSignal blog.",
+   "representativeQueries": [
+    "mcp, api or cli: what your stack should expose to agents",
+    "mcp api or cli agent surface"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:mcp-distribution-channel",
    "displayName": "31% of martech tools now ship an MCP server",
    "type": "text/html",

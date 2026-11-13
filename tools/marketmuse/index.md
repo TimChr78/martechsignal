@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - MarketMuse
-Re-check pending: pricing last verified 2026-09-07 (66 days ago).
+Re-check pending: pricing last verified 2026-09-07 (67 days ago).
 
 Review · SEO & Search
 

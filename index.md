@@ -10,28 +10,28 @@ Every week we audit the AI marketing automation landscape: the agents, the workf
 
 ## Latest
 
-### Publishers aren't arguing about agentic pricing, they're arguing about getting a bid at all
+### MCP, API or CLI: what your stack should actually expose to an agent
 
-Two stories landed a day apart last week, and the trade press filed both under pricing. On Monday, AdExchanger ran a Sell Sider column by GrowthCode founder Jonathon Shaevitz. The…
+Two weeks ago we counted how many tools in our directory mention MCP. The answer was 53 of 171 active records, or 31 percent. We re-ran the count on 13 November and it now stands…
+
+### Publishers aren't arguing about agentic pricing, they're arguing about getting a bid at all
 
 ### Your agent is a delegate, not a user
 
 ### Your agent's price quote is a snapshot of a page you stopped updating
-
-### OpenAI can block your site from its agents, and your logs will never show it
 
 ## Tool index
 
 
 | Tool | What it is | Category | GitHub stars |
 | --- | --- | --- | --- |
-| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 210,051 |
-| [NocoBase](/tools/nocobase/) | Open-source no-code platform with AI assistance for building business systems fast | Automation | 24,892 |
-| [Warmbly](/tools/warmbly/) | Open-source cold email platform with warmup, campaigns, unified inbox, and CRM | Email | 1,015 |
+| [n8n](/tools/n8n/) | Open-source workflow automation platform with AI agent capabilities and 400+ nodes | Automation | 210,232 |
+| [NocoBase](/tools/nocobase/) | Open-source no-code platform with AI assistance for building business systems fast | Automation | 24,898 |
+| [Warmbly](/tools/warmbly/) | Open-source cold email platform with warmup, campaigns, unified inbox, and CRM | Email | 1,023 |
 | [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) | Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web | Marketing automation | n/a |
 | [Profound](/tools/profound/) | Enterprise AI marketing platform: answer-engine visibility plus drafting agents | Geo llm visibility | n/a |
 | [Pipedrive](/tools/pipedrive/) | Sales-focused CRM with AI-powered pipeline management and deal forecasting | CRM | n/a |
-| [ChatbotX](/tools/chatbotx/) | Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation | Chatbots | 1,101 |
+| [ChatbotX](/tools/chatbotx/) | Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation | Chatbots | 1,106 |
 | [Adobe Marketo Engage](/tools/adobe-marketo/) | Enterprise B2B marketing automation with AI-driven lead management and engagement | Marketing automation | n/a |
 
 ## Comparisons and best-of lists

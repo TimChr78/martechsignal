@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Copy.ai
-Re-check pending: pricing last verified 2026-10-17 (26 days ago).
+Re-check pending: pricing last verified 2026-10-17 (27 days ago).
 
 Review · AI Content & Copywriting
 

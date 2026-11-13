@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Freshsales
-Re-check pending: pricing last verified 2026-09-27 (46 days ago).
+Re-check pending: pricing last verified 2026-09-27 (47 days ago).
 
 Review · CRM
 
@@ -137,8 +137,8 @@ A bot session is any unique interaction between an end user and a bot. On chat, 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [AEO for SEO: what changes when buyers ask instead of search](/blog/aeo-for-seo-what-changes-when-buyers-ask/)
-- [Publishers aren't arguing about agentic pricing, they're arguing about getting a bid at all](/blog/agentic-auction-bid-density-publisher/)
+- [Your agents keep failing the same way. Memory of what worked is the fix nobody ships](/blog/procedural-memory-agents/)
+- [MCP, API or CLI: what your stack should actually expose to an agent](/blog/mcp-api-or-cli-agent-surface/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for budget-conscious teams that still want AI lead scoring.

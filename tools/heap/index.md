@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Heap
-Re-check pending: pricing last verified 2026-10-12 (31 days ago).
+Re-check pending: pricing last verified 2026-10-12 (32 days ago).
 
 Review · Analytics & Attribution
 

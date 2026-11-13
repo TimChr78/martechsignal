@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - BillionMail
-Re-check pending: pricing last verified 2026-09-07 (66 days ago).
+Re-check pending: pricing last verified 2026-09-07 (67 days ago).
 
 Review · Email Marketing
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $98.90/mo
 - **Licence:** AGPL-3.0
-- **GitHub stars:** 16,233
+- **GitHub stars:** 16,274
 
 [How we review](/methodology/) · No affiliate links
 
@@ -108,7 +108,7 @@ A genuinely complete open-source mail server with a usable campaign layer on top
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $98.90/mo |
 | ✓ AI capabilities: AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi) |  |
-| ✓ Active public repository (16,233 GitHub stars counted at last check) |  |
+| ✓ Active public repository (16,274 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Postfix, Dovecot, Rspamd (7 listed) |  |
 
 ## Related concepts
@@ -124,7 +124,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is BillionMail?**
-BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 16,233 stars.
+BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 16,274 stars.
 
 **How much does BillionMail cost?**
 BillionMail has a free tier; paid plans start at $98.90/mo. Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.90 per instance. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -150,16 +150,16 @@ One documented one: AI email template generation, added in v4.0, where you descr
 ## Related reading
 
 - [The fully open-source agentic marketing stack you can run today: 19 MCP servers, one agent](/blog/open-source-agentic-martech-stack-mcp/)
-- [ChatGPT runs an ad auction now, and the response deadline is the new quality score](/blog/chatgpt-ad-auction-response-deadline/)
-- [Amazon's Ad Agents Come With Instructions. Google's Came With Promises.](/blog/amazon-agentic-ad-formats-brand-controls/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Rogue agents, watchdog chips, and nobody accountable: the trust debate in four acts](/blog/rogue-ai-agents-trust-debate/)
 ### Quick Facts
 
 - **Pricing:** Open Source from $98.90/mo
 - **Category:** [Email Marketing](/categories/email-marketing/)
-- **GitHub:** ★ 16233
+- **GitHub:** ★ 16274
 - **Founded:** 2025
 - **API:** Yes
-- **Repository checked:** 2026-11-12
+- **Repository checked:** 2026-11-13
 - **Page updated:** 2026-09-07
 
 ## Get the next teardown

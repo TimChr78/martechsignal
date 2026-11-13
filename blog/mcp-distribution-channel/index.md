@@ -68,13 +68,13 @@ Every tool named here has a record in the [directory](/tools/), with MCP noted w
 ## Related reading
 
 - [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
+- [MCP, API or CLI: what your stack should actually expose to an agent](/blog/mcp-api-or-cli-agent-surface/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Related tools
 
 - [SeaLeap Amazon Skills](/tools/sealeap-amazon-skills/) - 602 free Amazon seller skills for Claude Code: research, listings, ads, inventory
 - [Cordys CRM](/tools/cordys-crm/) - Open-source AI CRM with built-in agents, conversational analytics, and private deployment
-- [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/) - MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+- [Mixpanel](/tools/mixpanel/) - Product analytics platform with AI-powered insights for user behavior tracking
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)

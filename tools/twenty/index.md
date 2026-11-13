@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Twenty
-Re-check pending: pricing last verified 2026-09-07 (66 days ago).
+Re-check pending: pricing last verified 2026-09-07 (67 days ago).
 
 Review · CRM
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Open Source from $9/user/mo
 - **Licence:** AGPL-3.0
-- **GitHub stars:** 60,807
+- **GitHub stars:** 60,861
 
 [How we review](/methodology/) · No affiliate links
 
@@ -111,7 +111,7 @@ The fastest-moving open-source CRM in this directory, honest about its limits an
 | --- | --- |
 | ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/user/mo |
 | ✓ AI capabilities: AI Chatbot with access to your workspace data |  |
-| ✓ Active public repository (60,807 GitHub stars counted at last check) |  |
+| ✓ Active public repository (60,861 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Gmail & Google Calendar, Outlook & Microsoft Calendar, IMAP / SMTP / CalDAV (7 listed) |  |
 
 ## Related concepts
@@ -129,7 +129,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Twenty?**
-Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 60,807 stars.
+Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 60,861 stars.
 
 **How much does Twenty cost?**
 Twenty has a free tier; paid plans start at $9/user/mo. Self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -156,8 +156,8 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [The CDP is being rebuilt as an agent's context layer, and no vendor will call it that](/blog/cdp-agents-context-layer/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Agencies don't want to own your AI tools or your data: the retainer model just broke](/blog/agency-retainer-agentic-tools/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for technically fluent teams wanting a modern extensible CRM.
@@ -166,11 +166,11 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 
 - **Pricing:** Open Source from $9/user/mo
 - **Category:** [CRM](/categories/crm/)
-- **GitHub:** ★ 60807
+- **GitHub:** ★ 60861
 - **Founded:** 2023
 - **HQ:** Paris, France
 - **API:** Yes
-- **Repository checked:** 2026-11-12
+- **Repository checked:** 2026-11-13
 - **Page updated:** 2026-09-07
 
 Related guides: [Twenty in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

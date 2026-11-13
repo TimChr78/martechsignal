@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - Promptfoo
-Re-check pending: pricing last verified 2026-09-25 (48 days ago).
+Re-check pending: pricing last verified 2026-09-25 (49 days ago).
 
 Review · GEO & LLM Optimization
 
@@ -20,7 +20,7 @@ MartechSignal score
 
 - **Price:** Freemium
 - **Licence:** MIT
-- **GitHub stars:** 27,076
+- **GitHub stars:** 27,117
 
 [How we review](/methodology/) · No affiliate links
 
@@ -93,7 +93,7 @@ An eval framework that can double as GEO prompt tracking for teams willing to wr
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ GEO tracking is assembled from eval primitives; no packaged GEO dashboard ships with it. |
 | ✓ AI capabilities: model-graded evals where one LLM scores another's answers | ✗ The 10k probes per month limit shown for hosted red teaming constrains large attack suites. |
-| ✓ Active public repository (27,076 GitHub stars counted at last check) | ✗ Cloud and enterprise pricing has no public numbers as of September 2026, so buyers end up in a sales conversation. |
+| ✓ Active public repository (27,117 GitHub stars counted at last check) | ✗ Cloud and enterprise pricing has no public numbers as of September 2026, so buyers end up in a sales conversation. |
 | ✓ Native integrations include OpenAI, Anthropic, Azure OpenAI (5 listed) |  |
 | ✓ MIT license with a large open-source repo, so the eval engine can run fully local. |  |
 | ✓ One tool covers prompt evals, model comparison and red teaming. |  |
@@ -113,10 +113,10 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Promptfoo?**
-Promptfoo: Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming. Promptfoo ships with model-graded evals where one LLM scores another's answers. The public repository carries 27,076 stars.
+Promptfoo: Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming. Promptfoo ships with model-graded evals where one LLM scores another's answers. The public repository carries 27,117 stars.
 
 **How much does Promptfoo cost?**
-Promptfoo is open source - MIT licensed and free to self-host; the public repository carries 27,076 stars; native integrations cover OpenAI, Anthropic, Azure OpenAI. You pay in server time and maintenance, not licences.
+Promptfoo is open source - MIT licensed and free to self-host; the public repository carries 27,117 stars; native integrations cover OpenAI, Anthropic, Azure OpenAI. You pay in server time and maintenance, not licences.
 
 **Is Promptfoo worth it past the free tier?**
 An eval framework that can double as GEO prompt tracking for teams willing to write YAML and grading rules. Not a substitute for a visibility dashboard.
@@ -140,8 +140,8 @@ The CLI generates attack probes against an application and reports findings. The
 ## Related reading
 
 - [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best free entry point, provided someone on the team can run a CLI.
@@ -149,9 +149,9 @@ The CLI generates attack probes against an application and reports findings. The
 
 - **Pricing:** Freemium
 - **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
-- **GitHub:** ★ 27076
+- **GitHub:** ★ 27117
 - **API:** Yes
-- **Repository checked:** 2026-11-12
+- **Repository checked:** 2026-11-13
 - **Page updated:** 2026-09-25
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)

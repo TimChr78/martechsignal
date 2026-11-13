@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Matomo
-Re-check pending: pricing last verified 2026-09-06 (67 days ago).
+Re-check pending: pricing last verified 2026-09-06 (68 days ago).
 
 Review · Analytics & Attribution
 
@@ -22,7 +22,7 @@ MartechSignal score
 
 - **Price:** Open Source from €22/mo
 - **Licence:** GPL-3.0
-- **GitHub stars:** 22,026
+- **GitHub stars:** 22,027
 
 [How we review](/methodology/) · No affiliate links
 
@@ -113,7 +113,7 @@ The analytics platform to pick when data residency and ownership are requirement
 | --- | --- |
 | ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €22/mo |
 | ✓ AI capabilities: AI chatbot traffic reports |  |
-| ✓ Active public repository (22,026 GitHub stars counted at last check) |  |
+| ✓ Active public repository (22,027 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WordPress, Matomo Tag Manager, Google Tag Manager (8 listed) |  |
 
 ## Related concepts
@@ -130,7 +130,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 ## Frequently asked questions
 
 **What is Matomo?**
-Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 22,026 stars.
+Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 22,027 stars.
 
 **How much does Matomo cost?**
 Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -159,8 +159,8 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ## Also featured in
 
 - [Best Marketing Analytics and Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Teams that want GA-grade analytics with the data staying home
@@ -171,11 +171,11 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 
 - **Pricing:** Open Source from €22/mo
 - **Category:** [Analytics & Attribution](/categories/analytics/)
-- **GitHub:** ★ 22026
+- **GitHub:** ★ 22027
 - **Founded:** 2007
 - **HQ:** Wellington, New Zealand
 - **API:** Yes
-- **Repository checked:** 2026-11-12
+- **Repository checked:** 2026-11-13
 - **Page updated:** 2026-09-06
 
 Related guides: [Alternatives to Matomo](/alternatives/matomo/) · [Matomo vs Plausible](/vs/matomo-vs-plausible/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

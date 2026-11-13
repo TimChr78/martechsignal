@@ -4,7 +4,7 @@
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Intercom
-Re-check pending: pricing last verified 2026-10-12 (31 days ago).
+Re-check pending: pricing last verified 2026-10-12 (32 days ago).
 
 Review · Chatbots & Conversational AI
 
