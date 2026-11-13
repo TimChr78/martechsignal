@@ -147,6 +147,10 @@
   "dm": "2026-09-28",
   "sig": "0c28a5aa158cb26a"
  },
+ "mcp-api-or-cli-agent-surface": {
+  "dm": "2026-11-13",
+  "sig": "82ceb14ef5cdb008"
+ },
  "mcp-distribution-channel": {
   "dm": "2026-10-28",
   "sig": "b1afbf4f08879848"

@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2026 06:09:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 06:07:41 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>MCP, API or CLI: what your stack should actually expose to an agent</title>
+      <link>https://martechsignal.com/blog/mcp-api-or-cli-agent-surface/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/mcp-api-or-cli-agent-surface/</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Two weeks ago we counted how many tools in our directory mention MCP. The answer was 53 of 171 active records, or 31 percent. We re-ran the count on 13 November and it now stands…</description>
+    </item>
     <item>
       <title>Publishers aren't arguing about agentic pricing, they're arguing about getting a bid at all</title>
       <link>https://martechsignal.com/blog/agentic-auction-bid-density-publisher/</link>
