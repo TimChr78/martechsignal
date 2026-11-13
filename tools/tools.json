@@ -1597,7 +1597,7 @@
   "website": "https://contentbot.ai",
   "category": "content-ai",
   "pricing_model": "freemium",
-  "pricing_url": "https://contentbot.ai/pricing",
+  "pricing_url": "https://contentbot.ai/#pricing",
   "price_from": 0,
   "price_notes": "Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available",
   "ai_features": [
